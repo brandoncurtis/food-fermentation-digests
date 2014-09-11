@@ -1,0 +1,230 @@
+Subject: Mead Lover's Digest #1326, 17 June 2007
+From: mead-request@talisman.com
+
+
+Mead Lover's Digest #1326                                  17 June 2007
+
+            Forum for Discussion of Mead Making and Consuming
+                      Dick Dunn, Digest Janitor
+
+Contents:
+  Back Sweetening Mead (Ian)
+  Re: Mead Lover's Digest #1325, 12 June 2007 ("Robert Goulding")
+  Artificially Sweetening Mead (Ian)
+  Re: Sweetening Mead with Honey (Dave Drummer)
+  Re: A beer-like mead ("Erroll Ozgencil")
+
+NOTE: Digest appears when there is enough material to send one.
+Send ONLY articles for the digest to mead@talisman.com.
+Use mead-request@talisman.com for [un]subscribe/admin requests.
+Digest archives and FAQ are available at www.talisman.com/mead
+A searchable archive is at www.gotmead.com/content/category/9/43/69/
+----------------------------------------------------------------------
+
+Subject: Back Sweetening Mead
+From: Ian <elkor@mindspring.com>
+Date: Tue, 12 Jun 2007 18:03:13 -0400 (EDT)
+
+
+>>Dave Drummer asked:
+>>
+>>I have some mead that I fermented from 1.087  down to 0.996 using
+>>Lalvin D-47.  It has cleared nicely and tastes good,  but I want to
+>>try sweetening it slightly with honey.  Any suggestions on  the best >way
+>>to add the honey to insure that it dissolves  completely?
+>
+
+Dick Responded:
+>Thank you for asking this question because I did know the
+>answer and I had to think about it.
+>
+>Final.SG = ((128 oz * 0.996) + (X oz * 1.4)) / (128 oz + X  oz)
+
+>I wrote a 'quick & dirty' binary search program and got an  answer
+>of 3.2488 oz will raise the SG of a gallon from 0.996 to  1.006.
+>For 5 gallons, that's 16.25 oz. of honey.
+
+Ian Appends:
+
+I agree with Dick's equation, but rewrote it to solve for X (I'm an
+Engineer, math is fun for me). 
+
+Plugging the numbers into the following will give the answer:
+
+V = Volume of Starting SG mead (volume ounces)
+S = Start SG
+T = Target SG
+X = oz (mass) of Honey
+
+X = V * (T - S) / (1.4 - T)
+- -------- OR ---------
+X = V * (Target SG - Starting SG)/(1.4 - Target SG) 
+
+Naturally, if you divide X by 16 you'll get lb of honey per whatever unit of
+liquid.
+
+Regards,
+Ian
+
+- --<br>
+It's about using your life to touch or poison other people's hearts in such
+a way that could have never ocurred alone.
+
+------------------------------
+
+Subject: Re: Mead Lover's Digest #1325, 12 June 2007
+From: "Robert Goulding" <sanctuary@rushmore.com>
+Date: Wed, 13 Jun 2007 07:40:39 -0600
+
+How much honey for how much mead?
+
+>  Re: Sweeting mead with honey? ("Eric Wescott")
+>
+> Subject: Re: Sweeting mead with honey?
+> From: "Eric Wescott" <eric.wescott@gmail.com>
+> Date: Fri, 8 Jun 2007 07:41:07 -0400
+>
+> Dave Drummer asked about how to back-sweeten his dry mead.
+>
+> Dave, I just did this for a big batch for a wedding, and it came out
+> great.  I boiled some water, then mixed roughly equal parts water and
+> room-temp honey.  This melted the honey nicely, and created a syrup,
+> if you will.  This then got poured into the rest of the mead a stirred
+> a bit to ensure even distribution.  Went in easy.
+>
+> I happened to preserve my mead just before doing this, because I was
+> up against a deadline, and could not risk restarting fermentation.
+> With a dry-mead, that is a risk, because you cannot be sure that the
+> yeast is ABV attenuated yet.  I used 1tsp sulfites, followed by 1tsp
+> sorbate for long-term stability.
+>
+> - --EW
+> Stratford CT... but soon to be River Vale, NJ
+>
+> ------------------------------
+>
+Do not meddle in the affairs of Dragons; for you are crunchy, and good with 
+ketchup. 
+
+------------------------------
+
+Subject: Artificially Sweetening Mead
+From: Ian <elkor@mindspring.com>
+Date: Wed, 13 Jun 2007 11:07:08 -0400 (EDT)
+
+This is a random thought I had while making my morning tea.
+
+Has anyone here ever used artificial sweeteners in their mead?
+
+Either in primary fermentation or as a back-sweetener to prevent a secondary
+fermentation?
+
+What did you use? How well did it work?
+
+I have occasionally tried using Splenda to sweeten Amaretto Sours (and some
+other mixed drinks) to limited success (it combines well with the sour mix,
+not with the amaretto).
+
+I'm honestly not sure what the purpose would be, other than potentially
+preventing a secondary fermentation, depending on whether the sugar
+substitute is digestible by the yeast or not.
+
+Regards, Ian
+
+- --<br> It's about using your life to touch or poison other people's
+hearts in such a way that could have never ocurred alone.
+
+------------------------------
+
+Subject: Re: Sweetening Mead with Honey
+From: Dave Drummer <beammeup@fast.net>
+Date: Wed, 13 Jun 2007 18:29:06 -0400
+
+> From: "Eric Wescott" <eric.wescott@gmail.com>
+. . .I boiled some water, then mixed roughly equal parts water and
+> room-temp honey.  This melted the honey nicely, and created a syrup,
+> if you will.  This then got poured into the rest of the mead a stirred
+> a bit to ensure even distribution.  Went in easy.
+>
+> From: MeadGuild@aol.com (Dick)
+> Date: Fri, 8 Jun 2007 18:00:08 EDT
+>
+> . . .Thank you for asking this question because I did know the
+> answer and I had to think about it.
+>
+> . . .how much honey is needed to raise 1 gallon of Mead .01  SG
+> points given the SG of the gallon of honey.
+>
+> Final.SG = ((128 oz * 0.996) + (X oz * 1.4)) / (128 oz + X  oz)
+
+> . . .I wrote a 'quick & dirty' binary search program and got an   
+> answer
+> of 3.2488 oz will raise the SG of a gallon from 0.996 to  1.006.
+> For 5 gallons, that's 16.25 oz. of honey.
+>
+
+Thanks, Eric, and Dick.  The honey syrup works perfectly.  As for the  
+gravilty, I knew the answer as well, but also had to think about it.   
+This afternoon, I played around with adding different amounts of  
+honey until I got the sweetness tuned to where I wanted it.  And  
+wouldn't  you know, it was about 3 oz. per gallon!
+
+Dave Drummer
+Kutztown Sr. High School
+www.LehighWheelmen.org
+
+------------------------------
+
+Subject: Re: A beer-like mead
+From: "Erroll Ozgencil" <errollo@gmail.com>
+Date: Thu, 14 Jun 2007 18:56:01 -0700
+
+Ben Waggoner <heathen@cyberback.com> wrote:
+
+> The only reason I did this was so I could call it "Crystal Metheglin" --
+> I made a whole five-gallon batch of mead solely for the sake of a pun!
+
+And a great pun it was!
+
+> I didn't use hops at all, but the end result did remind me of a beer
+
+Thanks Ben, it's good to hear that I'm on the right track.
+
+Dave Drummer <beammeup@fast.net> wrote:
+
+> ... it was quite good. And now that your posting has reminded me of this,
+> I think I'll get some ingredients together and make a batch!
+
+I"m glad I helped rouse such a happy memory :)
+
+> ... hops were boiled for an hour, they would have had mostly a bittering
+
+Bittering hops in mead! I'm not going to go that far this time around.
+If I use hops, it will be for flavor and aroma, but I'll keep your
+positive experience in mind. If my first experiment goes well, I may
+try bittering hops the next time.
+
+With some of the blanks filled in, my beer like mead is starting to
+look like this:
+
+For six US gallons (23 L) of must:
+
+11.5 lb (5.2 kg) honey
+5 gallons (19 L) of water
+1 lb (450 g) crystal malt
+6 tsp (28 g) DAP
+
+0.25 oz (7 g) flavoring hops (optional)
+0.25 oz (7 g) aroma hops (optional)
+
+Ale yeast - Nottingham?
+
+I'm expecting an OG of 1.070 or so. Still thinking about acid and sweetening.
+
+Erroll
+http://www.washingtonwinemaker.com
+
+------------------------------
+
+End of Mead Lover's Digest #1326
+*******************************

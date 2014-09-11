@@ -1,0 +1,364 @@
+
+
+Mead Lover's Digest #22                     Tue 20 October 1992
+
+
+        Forum for Discussion of Mead Brewing and Consuming
+               John Dilley, Digest Coordinator
+
+
+Contents:
+  more measurement, Chaucer's Mead (Dick Dunn)
+  Error in measurement (Mark Schuldenfrei)
+  Maple Sap vs. Maple Syrup (wegeng.henr801c)
+  Re: Suggestions on good brewing books, root beer? (Steve Lamont)
+  Weight/S.G. of honey (mpl)
+  Honey S.G. (CPU-SPP generic account)
+  straining melomels (CPU-SPP generic account)
+  Nutrients, etc. (Brewing Chemist Mitch)
+  Mead Lover's Digest #20 (October 18, 1992) ("Spencer W. Thomas")
+  are there more distribution lists??? (Victor Reijs)
+  pyment recipe request (CPU-SPP generic account)
+
+
+Send articles for submission to the digest to mead-lovers@nsa.hp.com
+Send digest addition or removal requests to mead-lovers-request@nsa.hp.com
+
+----------------------------------------------------------------------
+
+Date: 19 Oct 92 02:43:08 MDT (Mon)
+From: rcd@raven.eklektix.com (Dick Dunn)
+Subject: more measurement, Chaucer's Mead
+
+Dan Hall (hall@buffa.enet.dec.com) writes
+> Good discussion re: the volume to mass of honey.  Now I have another question
+> about honey.  Anyone know approximately how much gravity a pound of honey
+> adds to a gallon of water?
+
+We can get to that; I'll be roundabout.  Use the figure of 12 lb/gal
+mentioned earlier, which is (close enough to) a specific gravity of 1.5.
+Fortunately, it turns out to mix almost perfectly linearly--so, for
+example, if you mix one volume of honey with one volume of water, you'll
+be very close to 1.25 SG.
+
+You can use a mixed volume/weight calculation, but that makes it harder
+than it needs to be.  For example, a gallon of water plus a pound of honey,
+well, a pound of honey is about 11 fl oz, and you end up with about 1.040,
+but you end up with 139 fl oz at that SG.  It's really easier to use volume
+measurements of honey.  (Yeah, I know--we pay for it by weight, but we buy
+it in containers marked in volume, don't we?)  If you mix x gallons of
+water and y gallons of honey, you'll get x+y gallons of must at a SG of
+(x + 1.5*y)/(x+y).  Thus, for example, a gallon of honey plus four gallons
+of water will get you very close to five gallons at 1.100, which is a nice
+starting point.  (If you know both weight and volume of your honey, you can
+tweak the 1.5 in the formula above: water is about 8.3 lb/gallon, so
+replace the 1.5 by the weight of a gallon of your honey divided by 8.3.)
+
+The calculation may be more useful if turned around:  If you know what
+starting gravity you want, how much honey do you need?  Let's call
+        Gs = starting gravity you want
+        V  = total volume you want
+        Gh = SG of honey (nominally 1.5)
+        h  = volume of honey needed
+then
+        h = V*(Gs - 1) / (Gh - 1)
+(and, of course, you use V-h volume of water.)
+_ _ _ _ _
+
+> There's a commercial mead available at the New Hampshire state liquor stores
+> called Chaucer's Mead, made by a winery in California...
+
+This would be Bargetto, no doubt.  Soquel.
+
+The "Chaucer's Mead" is OK, but I think they have more interesting stuff in
+their fruit wines.  These are fairly sweet, best as dessert wines.  I don't
+know what the current list looks like, but over the years my favorites have
+been apricot, raspberry, and pomegranate.  I might be tempted to toss some
+of their fruit wine into a mead and see what happens.
+ ---
+Dick Dunn    rcd@raven.eklektix.com   -or-   raven!rcd    Boulder, Colorado
+   Mr Natural says, "Get the right tool for the job!"
+
+------------------------------
+
+Date: Mon, 19 Oct 92 8:39:54 EDT
+From: schuldy@bedford.progress.com (Mark Schuldenfrei)
+Subject: Error in measurement
+
+Anthony Rossini caught me in a silly mistake.  I wrote:
+  Regular honeys of decent thickness, color, and sweetness,
+  seem to be running at about 2.95 pounds per gallon.
+
+Of course, that was 2.95 per quart, for roughly 12 pounds
+per gallon.  Sorry for any confusion, and, thanks Anthony!
+
+        schuldy
+
+------------------------------
+
+Date:   Mon, 19 Oct 1992 05:55:59 PDT
+From: wegeng.henr801c@xerox.com
+Subject: Maple Sap vs. Maple Syrup
+
+There was an article in Zymurgy a couple years ago about using maple sap to
+brew a maple flavored beer.  Unfortunately my copy is at home, but as I recall
+the recipe required the addition of some amount of malt extract.  Among other
+things this would seem to imply that the S.G. of maple sap is not very high.
+
+Making maple wine from sap sounds reasonable, but you`ll probably have to add
+some maple syrup (or honey) to raise the S.G.
+
+/Don
+wegeng.henr801c@xerox.com
+
+------------------------------
+
+Date: Mon, 19 Oct 92 05:57:35 PDT
+From: spl@alex.UCSD.EDU (Steve Lamont)
+Subject: Re: Suggestions on good brewing books, root beer?
+
+Christina Callihan <c-chan@mcl.mcl.ucsb.edu> says:
+> Hello, all!  I have my very first batch of mead in primary right now (my
+> very first batch of of brewing _anything_, in fact :), and I would like
+> to learn a bit more about the equipment, procedures, terminology, etc. Can
+> anyone out there recommend some top-notch homebrewing books, especially
+> those focusing on mead?  Author and title would probably do, but if you
+> can include publisher and ISBN number as well, that would be great!
+
+Probably the best book (or at least the most fun to read book) is
+Charlie "Relax, Don't Worry, Have a Homebrew" Papazian's _The Complete
+Joy of Homebrewing_.  Sorry, I don't have the ISBN or publisher but
+you should be able to find it at your local homebrewing supply store
+(look in the Yellow Pages under "Beer Homebrewing Equipment and
+Supplies") or your favorite mail order house should have it.  I
+believe there's a second edition out now, which I think is called
+something like _The NEW Complete Joy of Homebrewing_ or something
+approximating that very closely.
+
+While some may quibble with some of Papazian's methods, they do indeed
+work and will, as a reward for your efforts, produce decent to good
+homebrew.  Anyhow, he's fun to read.
+
+There's also a book by Dave (I think it's Dave) Miller with the title
+of something like _The Complete Guide to Homebrewing_ (that's only an
+approximation -- boy, am I helpful or what?  What do you mean "what?" :-) )
+that is a bit more straightlaced in its approach but a good guide for
+the more advanced brewer (that is, one with more that a couple of
+batches under their belt).  Miller tends to be a bit paranoid about
+sanitation (not a bad thing, necessarily, but I think if I read Miller
+first, I would have been frightened off by the prospect of maintaining
+a "clean room" kitchen) and is a trifle more technical than Papazian.
+
+There's also a short little pamphlet length book by Byron Burch that
+is a nice introduction -- I forget the title.
+
+Any of the three are good introductory books.  I'd suggest for the
+first couple of batches that you just read and refer to one source.
+There are small differences in technique between the three and they're
+likely to be a trifle confusing.
+
+I recommend Papazian, but that's mostly because it was the first book
+I read.
+
+                                                  spl
+
+------------------------------
+
+Date: Mon, 19 Oct 92 10:10 EDT
+From: mpl@pegasus.att.com
+Subject: Weight/S.G. of honey
+
+With all the brew-ha-ha (sic) about the weight and/or specific gravity
+of honey, I thought I'd add my $0.02.  An earlier article mentioned that
+the S.G. of honey was 1.44, which means that honey weighs 1.44 times as
+much as an equal amount of water.
+
+As for weight, a pint of water weighs a pound ("a pint's a pound the world
+around"), so specific gravity can be measured in pounds per pint (with water
+having an S.G. of 1 pound per pint).  Therefore, a pint of honey should weigh
+
+        1.44 pounds
+        -----------   X  1 pint = 1.44 pounds
+            pint
+
+As for specific gravity, Zymurgy had a good article on "total" gravity.
+The one thing missing from the article was a discussion of units of
+measurement, as I've shown above, but basically, total gravity is the
+weight of the liquid more than the weight of the same volume of water
+(or volume X (S.G. - 1)).  So, if we work in pints, and assume a specific
+gravity of 1.44 for honey, then 1 gallon of honey adds
+
+                 (1.44 - 1) pounds
+        8 pints X -----------------  =  3.52 pounds total gravity
+                      pint
+
+If we dilute it with water to make 5 gallons, the total gravity doesn't
+change (since the water adds v * (1.000 - 1) = 0 pounds total gravity),
+but the specific gravity does, since the number of pints has changed.  We
+now have
+
+                  (S.G. - 1) pounds
+        40 pints X -----------------  =  3.52 pounds total gravity
+                        pint
+
+
+Solving for S.G., we have
+
+
+        (S.G - 1) pounds       3.52 pounds
+        ----------------  =   ------------  =  0.088 pounds/pint
+             pint             40 pints
+
+So I would expect a solution of 1 gallon honey with water added to make
+5 gallons to have an S.G. of 1.088 or so.  Hope the ASCII graphic fractions
+didn't confuse things too much.
+
+Mike Lindner
+mikel@attmail.att.com
+
+P.S. still waiting for an answer on my question about using dried sulphered
+apricots in mead.
+
+------------------------------
+
+Date: Mon, 19 Oct 92 09:24:32 CDT
+From: cpu-spp@ct.med.ge.com (CPU-SPP generic account)
+Subject: Honey S.G.
+
+
+The specific gravity of honey is as close to 1.5 as makes no difference.
+Honey weighs one and a half times as much as water.  One gallon (US) of water
+is eight pounds (US), so one gallon of honey is 12 pounds.  This is not exact,
+because our honey is never exact in age or water content, but you have more
+error in recipe formulation due to how well you scrape the bowl you are
+measuring honey from.
+
+Thomas Manteufel                       IOFM
+
+------------------------------
+
+Date: Mon, 19 Oct 92 09:35:43 CDT
+From: cpu-spp@ct.med.ge.com (CPU-SPP generic account)
+Subject: straining melomels
+
+I use Kinny B.'s oft-posted trick of a copper Chore-Boy scrubber and hop bag
+on the end of my raking tube when I rake to the secondary.  It does strain out
+pretty much everything, but does create a problem of its own.  It creates so 
+much turbulence that I get even more CO2 bubbles in the siphon hose.  Instead of
+losing the siphon once during a 5 gallon batch (due to the build up of bubbles
+that I can't force out), I lose it two or three times.  Does anyone have any
+tricks they would care to share?  I know about pinching the tubing right where
+it joins the J tube, but that what else can I do?  Shorter tubing?  Raise the
+secondary?  Lower it?  Something I haven't thought of?
+Thomas Manteufel                     IOFM
+
+------------------------------
+
+Date: Mon, 19 Oct 92 10:19:13 CDT
+From: gelly@persoft.com (Brewing Chemist Mitch)
+Subject: Nutrients, etc.
+
+Greetings,
+
+With respect to the aggravation of fruit pulp in the primary/secondary,
+here is my 3 cents worth: I have only made one melomel (raspberry), and 
+a few fruit beers (raspberry again, and peach). Do not make the mistake
+of pureeing the fruit, particularly if it is a fibrous fruit like peach.
+Chop them up finely (or just crush, if it's a berry), and when it is 
+done fermenting, the fruit will have settled at the bottom. 
+
+At bottling time I always rack into a fresh carboy. That's with or
+without priming sugar, beer or mead, fruit or not. That way when I'm 
+bottling, I can suck the last bit out without getting excess trub or 
+fruit in the bottles. Now I know most of you do this anyway, but I have an
+extra step when fruit (or hops) is in the carboy. Take cheesecloth, about
+an 18" piece, and fold into thirds. You should have about a six inch 
+square. Put it over the end of your racking hose that will go into the
+fresh carboy, and rubberband it tightly. Of course the rubberband and 
+cheesecloth should be sanitized. Now slide it down on the hose until the 
+rubberbanded part is almost to the end of the hose. What you will have
+now is sort of a "balloon" of chesecloth at the end of your racking
+tube.
+
+To start the siphon, fill hose with water, put open end in full carboy,
+and siphon into a bucket until beer/mead comes thru. Pinch or fold hose to
+stop flow, and insert cheesecloth end into fresh carboy. Siphon as normal,
+keeping the end of the hose out of the sediment lest you overtax your 
+"filter". This setup is meant to catch suspended sediment, not filter
+the sludge on the bottom. When you are done, carefully remove the hose. 
+When the cheesecloth starts to come up through the neck, grab onto it and
+use it to pull it up through. Now the "balloon" will be bigger than the 
+neck, but if you pull up on the cloth, it _will_ fit through, squeezing
+extra juice out as it comes. Open that up now, and see the gunk that you 
+would have bottled.
+
+Remember to not puree fibrous fruits. They will *clog* this filter system
+immediately. I learned that, the hard way.
+
+Okay, now my turn for a question: There has been some talk of nutrients
+here. How essential are they, if your ferment gets going? I have a ginger
+metheglin going right now, ~18 lbs honey, 4 oz grated ginger root, 2 oz.
+acid blent, and a wine yeast. It got going the next day, bubbling nicely.
+Do you see any problems arising from lack of added nutrient? It's been
+fermenting two weeks. Can I add any now? Should I?
+
+Cheers,
+
+  Mitch
+
+- -- 
+   - Mitch Gelly -     | We tend to scoff at the beliefs of the ancients.
+software QA specialist | But we can't scoff at them personally, to their
+    and zymurgist      | faces, and this is what annoys me.
+ - gelly@persoft.com -  |                                -- Jack Handey
+
+------------------------------
+
+Date: Mon, 19 Oct 92 11:52:11 EDT
+From: "Spencer W. Thomas" <Spencer.W.Thomas@med.umich.edu>
+Subject: Mead Lover's Digest #20 (October 18, 1992)
+
+Given that the normal concentration factor for maple syrup is 40:1,
+I'm not sure you'd get much flavor from undiluted sap.
+
+=S
+
+------------------------------
+
+Date: Mon, 19 Oct 92 17:03:52 +0100
+From: Victor Reijs <Victor.Reijs@SURFnet.nl>
+Subject: are there more distribution lists???
+
+Hello all of you,
+
+
+I have been searching for distributionlists within Europe about winemaking, but
+until now I did not found anything. I now have some lists in US, mead-lovers,
+home-brew, brew and cider. My question to you is:
+
+Is there some overview of distributionlists which handle: wine, liqueor, beer,
+etc. topics. If there are also lists about tabaco (sigars/pipes) please let me
+know. The summary of all the results I will send over this list.
+
+Thanks in advance your help.
+
+All the best,
+
+
+Victor
+
+------------------------------
+
+Date: Mon, 19 Oct 92 09:40:38 CDT
+From: cpu-spp@ct.med.ge.com (CPU-SPP generic account)
+Subject: pyment recipe request
+
+Does anyone have a pyment recipe they would like to post?  I have 2 gallons of
+concord grape in my fridge I need to use.  Thank You
+Thomas Manteufel               IOFM
+
+------------------------------
+
+
+End of Mead Lover's Digest
+************************

@@ -1,0 +1,308 @@
+
+
+Mead Lover's Digest #91                     Fri 05 March 1993
+
+
+        Forum for Discussion of Mead Brewing and Consuming
+               John Dilley, Digest Coordinator
+
+
+Contents:
+  Specific Gravity Charts (John Gorman)
+  More Mead Info (YUM!) (STBLEZA)
+
+
+Send articles for submission to the digest to mead-lovers@nsa.hp.com
+Send digest addition or removal requests to mead-lovers-request@nsa.hp.com
+
+----------------------------------------------------------------------
+
+Date: Thu, 4 Mar 93 15:05:18 EST
+From: john@rsi.com (John Gorman)
+Subject: Specific Gravity Charts
+
+Subject:  Specific Gravity Charts
+
+Honey comes in 5 gallon tubs with a net weight of 60 pounds.
+Maple syrup comes in 5 gallon tubs with a net weight of 55 pounds.
+Water weighs 8.3 pounds per gallon:
+
+Specific gravity of Honey:  60 / (8.3 * 5) = 1.445
+Specific gravity of Maple:  55 / (8.3 * 5) = 1.325
+
+Using Dick Dunn's formula:
+
+        Gs = starting gravity
+        V  = total volume
+        Gh = SG of honey
+        h  = volume of honey
+then
+        h = V * (Gs - 1) / (Gh - 1)   (Amount of honey to hit Gs.)
+and
+        Gs = (h * (Gh - 1)) + 1 / V   (Gs for amount of honey.)
+also
+        Alc%vol = (Gs - 1) * 130.8    (According to Fred Eckhardt.)
+
+The numbers to the left of each chart are Specific Gravity (SG) in
+hundredths.  The numbers along the top of each chart are SG in
+thousandths.  The chart figures correspond to the sum of the of the
+row and column SG numbers.
+
+The first and second charts show the volumes of honey needed to hit
+various specific gravities for 5 gallon and 1 gallon batches of mead.
+The volumes are given in Quart,Cups (q,c) and Cup,Ounces (c,o)
+respectively.
+
+The second page shows the same information for maple syrup.
+
+The third page shows the potential percent alcohol by volume for
+various specific gravities according to _The Essentials of Beer
+Style_ by Fred Eckhardt.  To find the actual alcohol content for
+a mead, subtract the final SG from the starting SG and look up
+the net alcohol gained.
+
+John Gorman                                   john@rsi.com
+Relational Semantics, Inc.                    617-926-0979
+17 Mount Auburn Street              Watertown MA 02172 USA
+
+
+         Quarts and Cups of Honey in 5 Gallons
+
+S. G.    0.000  0.001  0.002  0.003  0.004  0.005  0.006  0.007  0.008  0.009
+- -----    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+1.000    0q,0c  0q,0c  0q,0c  0q,1c  0q,1c  0q,1c  0q,1c  0q,1c  0q,1c  0q,2c
+1.010    0q,2c  0q,2c  0q,2c  0q,2c  0q,3c  0q,3c  0q,3c  0q,3c  0q,3c  0q,3c
+1.020    1q,0c  1q,0c  1q,0c  1q,0c  1q,0c  1q,0c  1q,1c  1q,1c  1q,1c  1q,1c
+1.030    1q,1c  1q,2c  1q,2c  1q,2c  1q,2c  1q,2c  1q,2c  1q,3c  1q,3c  1q,3c
+1.040    1q,3c  1q,3c  2q,0c  2q,0c  2q,0c  2q,0c  2q,0c  2q,0c  2q,1c  2q,1c
+1.050    2q,1c  2q,1c  2q,1c  2q,2c  2q,2c  2q,2c  2q,2c  2q,2c  2q,2c  2q,3c
+1.060    2q,3c  2q,3c  2q,3c  2q,3c  2q,3c  3q,0c  3q,0c  3q,0c  3q,0c  3q,0c
+1.070    3q,1c  3q,1c  3q,1c  3q,1c  3q,1c  3q,1c  3q,2c  3q,2c  3q,2c  3q,2c
+1.080    3q,2c  3q,3c  3q,3c  3q,3c  3q,3c  3q,3c  3q,3c  4q,0c  4q,0c  4q,0c
+1.090    4q,0c  4q,0c  4q,1c  4q,1c  4q,1c  4q,1c  4q,1c  4q,1c  4q,2c  4q,2c
+1.100    4q,2c  4q,2c  4q,2c  4q,2c  4q,3c  4q,3c  4q,3c  4q,3c  4q,3c  5q,0c
+1.110    5q,0c  5q,0c  5q,0c  5q,0c  5q,0c  5q,1c  5q,1c  5q,1c  5q,1c  5q,1c
+1.120    5q,2c  5q,2c  5q,2c  5q,2c  5q,2c  5q,2c  5q,3c  5q,3c  5q,3c  5q,3c
+1.130    5q,3c  6q,0c  6q,0c  6q,0c  6q,0c  6q,0c  6q,0c  6q,1c  6q,1c  6q,1c
+1.140    6q,1c  6q,1c  6q,1c  6q,2c  6q,2c  6q,2c  6q,2c  6q,2c  6q,3c  6q,3c
+1.150    6q,3c  6q,3c  6q,3c  6q,3c  7q,0c  7q,0c  7q,0c  7q,0c  7q,0c  7q,1c
+
+
+         Cups and Ounces of Honey in 1 Gallon
+
+S. G.    0.000  0.001  0.002  0.003  0.004  0.005  0.006  0.007  0.008  0.009
+- -----    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+1.000    0c,0o  0c,0o  0c,1o  0c,1o  0c,1o  0c,1o  0c,2o  0c,2o  0c,2o  0c,3o
+1.010    0c,3o  0c,3o  0c,3o  0c,4o  0c,4o  0c,4o  0c,5o  0c,5o  0c,5o  0c,5o
+1.020    0c,6o  0c,6o  0c,6o  0c,7o  0c,7o  0c,7o  0c,7o  1c,0o  1c,0o  1c,0o
+1.030    1c,1o  1c,1o  1c,1o  1c,1o  1c,2o  1c,2o  1c,2o  1c,3o  1c,3o  1c,3o
+1.040    1c,3o  1c,4o  1c,4o  1c,4o  1c,5o  1c,5o  1c,5o  1c,5o  1c,6o  1c,6o
+1.050    1c,6o  1c,7o  1c,7o  1c,7o  2c,0o  2c,0o  2c,0o  2c,0o  2c,1o  2c,1o
+1.060    2c,1o  2c,2o  2c,2o  2c,2o  2c,2o  2c,3o  2c,3o  2c,3o  2c,4o  2c,4o
+1.070    2c,4o  2c,4o  2c,5o  2c,5o  2c,5o  2c,6o  2c,6o  2c,6o  2c,6o  2c,7o
+1.080    2c,7o  2c,7o  3c,0o  3c,0o  3c,0o  3c,0o  3c,1o  3c,1o  3c,1o  3c,2o
+1.090    3c,2o  3c,2o  3c,2o  3c,3o  3c,3o  3c,3o  3c,4o  3c,4o  3c,4o  3c,4o
+1.100    3c,5o  3c,5o  3c,5o  3c,6o  3c,6o  3c,6o  3c,6o  3c,7o  3c,7o  3c,7o
+1.110    4c,0o  4c,0o  4c,0o  4c,0o  4c,1o  4c,1o  4c,1o  4c,2o  4c,2o  4c,2o
+1.120    4c,2o  4c,3o  4c,3o  4c,3o  4c,4o  4c,4o  4c,4o  4c,4o  4c,5o  4c,5o
+1.130    4c,5o  4c,6o  4c,6o  4c,6o  4c,6o  4c,7o  4c,7o  4c,7o  5c,0o  5c,0o
+1.140    5c,0o  5c,0o  5c,1o  5c,1o  5c,1o  5c,2o  5c,2o  5c,2o  5c,2o  5c,3o
+1.150    5c,3o  5c,3o  5c,4o  5c,4o  5c,4o  5c,5o  5c,5o  5c,5o  5c,5o  5c,6o
+
+
+         Quarts and Cups of Maple Syrup in 5 Gallons
+
+S. G.    0.000  0.001  0.002  0.003  0.004  0.005  0.006  0.007  0.008  0.009
+- -----    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+1.000    0q,0c  0q,0c  0q,0c  0q,1c  0q,1c  0q,1c  0q,1c  0q,2c  0q,2c  0q,2c
+1.010    0q,2c  0q,3c  0q,3c  0q,3c  0q,3c  1q,0c  1q,0c  1q,0c  1q,0c  1q,1c
+1.020    1q,1c  1q,1c  1q,1c  1q,2c  1q,2c  1q,2c  1q,2c  1q,3c  1q,3c  1q,3c
+1.030    1q,3c  2q,0c  2q,0c  2q,0c  2q,0c  2q,1c  2q,1c  2q,1c  2q,1c  2q,2c
+1.040    2q,2c  2q,2c  2q,2c  2q,3c  2q,3c  2q,3c  2q,3c  3q,0c  3q,0c  3q,0c
+1.050    3q,0c  3q,1c  3q,1c  3q,1c  3q,1c  3q,2c  3q,2c  3q,2c  3q,2c  3q,3c
+1.060    3q,3c  3q,3c  3q,3c  3q,3c  4q,0c  4q,0c  4q,0c  4q,0c  4q,1c  4q,1c
+1.070    4q,1c  4q,1c  4q,2c  4q,2c  4q,2c  4q,2c  4q,3c  4q,3c  4q,3c  4q,3c
+1.080    5q,0c  5q,0c  5q,0c  5q,0c  5q,1c  5q,1c  5q,1c  5q,1c  5q,2c  5q,2c
+1.090    5q,2c  5q,2c  5q,3c  5q,3c  5q,3c  5q,3c  6q,0c  6q,0c  6q,0c  6q,0c
+1.100    6q,1c  6q,1c  6q,1c  6q,1c  6q,2c  6q,2c  6q,2c  6q,2c  6q,3c  6q,3c
+1.110    6q,3c  6q,3c  7q,0c  7q,0c  7q,0c  7q,0c  7q,1c  7q,1c  7q,1c  7q,1c
+1.120    7q,2c  7q,2c  7q,2c  7q,2c  7q,2c  7q,3c  7q,3c  7q,3c  7q,3c  8q,0c
+1.130    8q,0c  8q,0c  8q,0c  8q,1c  8q,1c  8q,1c  8q,1c  8q,2c  8q,2c  8q,2c
+1.140    8q,2c  8q,3c  8q,3c  8q,3c  8q,3c  9q,0c  9q,0c  9q,0c  9q,0c  9q,1c
+1.150    9q,1c  9q,1c  9q,1c  9q,2c  9q,2c  9q,2c  9q,2c  9q,3c  9q,3c  9q,3c
+
+
+         Cups and Ounces of Maple Syrup in 1 Gallon
+
+S. G.    0.000  0.001  0.002  0.003  0.004  0.005  0.006  0.007  0.008  0.009
+- -----    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+1.000    0c,0o  0c,0o  0c,1o  0c,1o  0c,2o  0c,2o  0c,2o  0c,3o  0c,3o  0c,4o
+1.010    0c,4o  0c,4o  0c,5o  0c,5o  0c,6o  0c,6o  0c,6o  0c,7o  0c,7o  0c,7o
+1.020    1c,0o  1c,0o  1c,1o  1c,1o  1c,1o  1c,2o  1c,2o  1c,3o  1c,3o  1c,3o
+1.030    1c,4o  1c,4o  1c,5o  1c,5o  1c,5o  1c,6o  1c,6o  1c,7o  1c,7o  1c,7o
+1.040    2c,0o  2c,0o  2c,1o  2c,1o  2c,1o  2c,2o  2c,2o  2c,2o  2c,3o  2c,3o
+1.050    2c,4o  2c,4o  2c,4o  2c,5o  2c,5o  2c,6o  2c,6o  2c,6o  2c,7o  2c,7o
+1.060    3c,0o  3c,0o  3c,0o  3c,1o  3c,1o  3c,2o  3c,2o  3c,2o  3c,3o  3c,3o
+1.070    3c,4o  3c,4o  3c,4o  3c,5o  3c,5o  3c,6o  3c,6o  3c,6o  3c,7o  3c,7o
+1.080    3c,7o  4c,0o  4c,0o  4c,1o  4c,1o  4c,1o  4c,2o  4c,2o  4c,3o  4c,3o
+1.090    4c,3o  4c,4o  4c,4o  4c,5o  4c,5o  4c,5o  4c,6o  4c,6o  4c,7o  4c,7o
+1.100    4c,7o  5c,0o  5c,0o  5c,1o  5c,1o  5c,1o  5c,2o  5c,2o  5c,2o  5c,3o
+1.110    5c,3o  5c,4o  5c,4o  5c,4o  5c,5o  5c,5o  5c,6o  5c,6o  5c,6o  5c,7o
+1.120    5c,7o  6c,0o  6c,0o  6c,0o  6c,1o  6c,1o  6c,2o  6c,2o  6c,2o  6c,3o
+1.130    6c,3o  6c,4o  6c,4o  6c,4o  6c,5o  6c,5o  6c,6o  6c,6o  6c,6o  6c,7o
+1.140    6c,7o  6c,7o  7c,0o  7c,0o  7c,1o  7c,1o  7c,1o  7c,2o  7c,2o  7c,3o
+1.150    7c,3o  7c,3o  7c,4o  7c,4o  7c,5o  7c,5o  7c,5o  7c,6o  7c,6o  7c,7o
+
+
+         Specific Gravity Potential Percent Alcohol by Volume
+         ----------------------------------------------------
+
+S. G.    0.000  0.001  0.002  0.003  0.004  0.005  0.006  0.007  0.008  0.009
+- -----    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+1.000     0.0%   0.1%   0.3%   0.4%   0.5%   0.6%   0.8%   0.9%   1.0%   1.2%
+1.010     1.3%   1.4%   1.6%   1.7%   1.8%   2.0%   2.1%   2.2%   2.4%   2.5%
+1.020     2.6%   2.7%   2.9%   3.0%   3.1%   3.3%   3.4%   3.5%   3.7%   3.8%
+1.030     3.9%   4.0%   4.2%   4.3%   4.4%   4.6%   4.7%   4.8%   5.0%   5.1%
+1.040     5.2%   5.4%   5.5%   5.6%   5.8%   5.9%   6.0%   6.1%   6.3%   6.4%
+1.050     6.5%   6.7%   6.8%   6.9%   7.1%   7.2%   7.3%   7.4%   7.6%   7.7%
+1.060     7.8%   8.0%   8.1%   8.2%   8.4%   8.5%   8.6%   8.8%   8.9%   9.0%
+1.070     9.2%   9.3%   9.4%   9.5%   9.7%   9.8%   9.9%  10.1%  10.2%  10.3%
+1.080    10.5%  10.6%  10.7%  10.8%  11.0%  11.1%  11.2%  11.4%  11.5%  11.6%
+1.090    11.8%  11.9%  12.0%  12.2%  12.3%  12.4%  12.6%  12.7%  12.8%  12.9%
+1.100    13.1%  13.2%  13.3%  13.5%  13.6%  13.7%  13.9%  14.0%  14.1%  14.2%
+1.110    14.4%  14.5%  14.6%  14.8%  14.9%  15.0%  15.2%  15.3%  15.4%  15.6%
+1.120    15.7%  15.8%  16.0%  16.1%  16.2%  16.3%  16.5%  16.6%  16.7%  16.9%
+1.130    17.0%  17.1%  17.3%  17.4%  17.5%  17.6%  17.8%  17.9%  18.0%  18.2%
+1.140    18.3%  18.4%  18.6%  18.7%  18.8%  19.0%  19.1%  19.2%  19.4%  19.5%
+1.150    19.6%  19.8%  19.9%  20.0%  20.1%  20.3%  20.4%  20.5%  20.7%  20.8%
+
+------------------------------
+
+Date: Thu, 4 Mar 1993 20:37 EST
+From: STBLEZA@grove.iup.edu
+Subject: More Mead Info (YUM!)
+
+Greetings, all...
+
+I have a few answers to questions asked, even though I would in no way consider
+myself an expert (maybe intermediate).  If you disagree with my techniques, then
+a discussion on the MLD would be nice, but I prefer flames to come to me
+directly.
+
+On Tue, 2 Mar 93 12:43:09 EST, "Peter J. Burke" (FSAC-PMD)
+<pburke@PICA.ARMY.MIL> writes:
+
+>Greetings,
+Salutations.
+
+>I plan on making a batch of Mead in the near future
+>and am looking for some good recipe type information.
+
+The two recipes I use most are:
+recipe #1                            recipe #2 (this one is a mead/wine)
+8 - 10 lbs. honey                     8 - 10 lbs. honey
+4 gal. water                         4 gal. grape juice (a good wine type)
+2 large oranges                      4 large oranges
+2 large limes
+2 small (or 1 large) grapefruit
+1 teaspoon fresh ginger               5 tea bags, Earl Gray tea
+1 packet, Montclaret yeast             1 packet, Montclaret yeast
+
+The process for both is about the same...  Marry the honey into the water or
+juice on your stove/heat source (You can do this with only a gal or so of the
+water or juice, and add the rest later in the carboy).  Let simmer for approx.
+30 min (stirring occasionally to often, not letting the honey caramelize).  Add
+the fruit (cut into 8ths or 16ths) and spices (putting both into a CLEAN white
+cotton sock makes it much easier), and let them sit for about 4-5 min, and
+remove them.  Transfer to carboy.  If you only used part of the water/juice, add
+the rest.  Wait until the carboy is warm, but not hot, to the touch, and
+introduce the yeast.  Ferment in primary for about 11 days (until 'burst'
+fermentation subsides), transfer to secondary or bottle, etc.
+Both recipes pre-date my first brewing experience, and are 'borrowed' from
+elsewhere...  Both seem to be good starter recipes (they were the ones that I
+started with), and seem to be fairly forgiving...
+
+>Does it really take 6 months to fully ferment ?
+To fully ferment, yes.  It is, however, drinkable after two months (though it
+tastes syrupy, 'green', and has many conflicting or dominating tastes, with none
+of them 'marrying' well).  After this time, it will still age in the bottle for
+quite some time (similar to the way wine does), but be careful, since 'other
+things' that got in along the way could cause it to age poorly.  Note, I've yet
+to experience a mead that remained in the bottle for more than two and 1/2
+years.
+
+>How long does active fermentation (in primary fermenter bucket)
+>take prior to transfer into a carboy ?
+I usually keep mine in the primary for about 11 days, which is the time of the
+'burst' fermentation (the VERY QUICK fermentation that takes place when you
+first add yeast to the must, and the yeast repoduces to fill avalible space).
+After this time, it is still fermenting, just not as quickly.  Many freinds (and
+myself, for that matter) have left must in the primary for up to several months
+with good to exceptional results.  I fondly remember a mint mead I made two
+years ago.  I accidently left it in the primary for about six months, and then
+[when I found it again], clarified it, and bottled it.  It was divine.
+
+>What is the ideal fermentation temperature ?
+I prefer 58 degrees F myself, but opinions vary slightly.  55 d. F is about the
+lowest you can go (yes, I tend to push it), and 75 seems to be the top (but some
+people say 85, so...).  For the most part, anywhere in between....
+
+>Should I use bottled water or tap (mine is relatively hard) ?
+If it's noticable hard, it's to hard to brew with.  Brewing brings out the worst
+in a water (esp. since hardness is usually metallic salts, and you remember all
+the warning and cavets about metal containers).  I have the same problem, and
+have to 'import' decent water.  Also, I tend not to like 'city water' either (I
+have a well for drinking water, and the local township puts clorine in the water
+to keep it 'pure' 8{  ). 
+
+>How long to boil the mix ?  Boil at all ?
+Hmmm... If you boil it, boil it for about 30 min.  Also, boil before you add
+fruits, spices, etc.  Boiling allows impureties in the honey to rise to the
+surface (and this is do-able at lower temperatures), where they can be skimmed
+off the top(it doesn't really improve the mixture of honey and water or juice).
+This process is called 'drossing', and the scum removed is called 'dross'.
+It is of most utility if your honey still contains quantities of wax
+from the bee hive that you wish to remove.  It is also very useful if you are
+worried about other 'buglets' getting into your brew, since bacteria doesn't
+like extended heat much.  However, this is USUALLY not a problem (though I did
+once have to get rid of a fermenting vessel because of molds...).
+
+>What addatives can I add for different flavors ?
+All citrus fruit (the fruits themselves, not the juices), and most other fruits
+(I really enjoy cherries and/or strawberries).  Most herbs and spices (avoid the
+'hot' ones, would you really want to drink jalepenio mead?).  Most teas (I
+haven't tried coffee yet, but it doesn't seem that the tastes will 'marry'
+well...).  Most cooking extracts (try to use the oil extracts, and not the
+artifical extracts), with chocolate and/or vanilla being popular here (also, raw
+Hersey's coco mix (the un-altered stuff you add to milk) produces good results).
+Also, one could try hops, or anything else done to beer or wine to alter it's
+flavour.  The above are best added before fermentation, when the must is still
+on your heat source. Also, as in the above recipes, keep the flavouring (other
+than the extracts, etc.) in the must for just a few minutes while it simmers
+(NOT BOILING).  Also, after aging, etc, one can add flavours in the form of
+extracts (when added here, they produce a slightly different taste than the
+pre-fermentation extracts) or fortifications (such as distilled spirits and
+other alcohols).  Otherwise, mead does not mix well.
+>
+>Please forgive my lack of knowledge on the subject.
+Don't worry, we were all new at this once, and this gives you the chance to
+learn from experienced brewers (or, at least, egotistical brewers like me)
+that we didn't get.  This should get you started (or, at least, confused).
+
+>Thank you.
+Your welcome.
+
++*****************************************+************************************+
+|"There are no choices between good and   |The Dragon of                       |
+|evil.  All choices are between the       |    Summer Sun and                  |
+|lesser of two evils, or the greater of   |           Winter Moon              |
+|two goods."                              |(AKA J. Hunter Heinlen)             |
+|   -The Dragon of Shadow Walking and     |(Bitnet:STBLEZA@IUP)                |
+|    Night Stalking -- a good friend  RIP |(Internet:STBLEZA@GROVE.IUP.EDU)    |
++=========================================+====================================+
+
+------------------------------
+
+
+End of Mead Lover's Digest
+************************

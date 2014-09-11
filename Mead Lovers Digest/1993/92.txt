@@ -1,0 +1,132 @@
+
+
+Mead Lover's Digest #92                     Sat 06 March 1993
+
+
+        Forum for Discussion of Mead Brewing and Consuming
+               John Dilley, Digest Coordinator
+
+
+Contents:
+  ["Stephen Hansen": Mead Lovers Digest archive] (John Dilley)
+
+
+Send articles for submission to the digest to mead-lovers@nsa.hp.com
+Send digest addition or removal requests to mead-lovers-request@nsa.hp.com
+
+----------------------------------------------------------------------
+
+Date: Fri, 05 Mar 93 08:57:44 -0800
+From: John Dilley <jad@porter.nsa.hp.com>
+Subject: ["Stephen Hansen": Mead Lovers Digest archive]
+
+
+        Stephen Hansen has been kind enough to set up listserver access
+to the Mead Lover's digest archive.  Following is the welcome message
+all new users get these days; it includes a brief note about how to
+access the listserver.  You will find this useful if you do not have
+Internet access and can not or do not wish to access the BBS systems
+that have an archive of the Mead Lover's Digest.  Regards,
+
+                         --       jad       --
+
+        Welcome to the mead-lovers@nsa.hp.com mailing list.  I've added
+you to as per your recent request.  The digest is currently running on
+the same terms as the Home Brew Digest (HBD).  As with the HBD, please
+send your articles to the digest address, mead-lovers@nsa.hp.com.  Send
+administrative requests (for addition to or removal from the list) to
+the request address, mead-lovers-request@nsa.hp.com.
+
+        Enclosed below is information on how to retrieve back issues of
+the Mead Lovers Digest or the README file for the MLD.  We have three
+Mead Lovers Digest archive sites, thanks to the gracious efforts of
+Stephen Hansen, Daniel Vachon, and John DeCarlo.  There is also a
+listserver automated mail system which can serve requests for archive
+information.  Instructions on how to use the listserver follow my
+signature below.  Please use the listserver to retrieve the MLD README
+file to help you come up to speed with the digest.  The archives are:
+
+    - Internet FTP site: sierra.stanford.edu, anon FTP, pub/mead/.
+    - BBS site: Rocky Mountain MIDI Systems BBS, (303) 287-5274 (HST).
+    - BBS site: No Tarmac Brewing, 703-525-3715, V.32bis, Fidonet 1:109/131
+    - Listserver: See access instructions below
+
+        Enjoy the Mead Lover's Digest, and "Wassail"! (see README :-)
+
+                       --       jad       --
+                   John A. Dilley <jad@nsa.hp.com>
+
+Listserver Access:
+
+A listserver is available for those of you without ftp access.  The
+listserver looks for certain commands in the body of a mail message and
+mails help information or requested files back to the originator.  The
+listserver software on Sierra only supports the HELP, INDEX, and GET
+commands and should be used in the following manner.  (NOTE: This
+software is VERY picky.)
+
+The standard for internet text messages (rfc822 if you care) says that
+a mail message consists of two parts, a header (consisting of lines
+like To:, From:, Subject:, etc.), and the body.  The end of the message
+header and the start of the message body is indicated by a blank line.
+The only line in the header that the listserver cares about is the
+From:  or Reply-To: line, so the Subject: and other header lines are
+ignored.
+
+The listserver expects that the body of the message contains only
+listserver requests.  If it sees anything that it doesn't recognize it
+will generate an error message and stop processing the message at that
+point.  Several people have mail utilities that generate special memo
+format lines at the top of the message body.  These confuse the
+listserver and cause it to reject the message.  Other people put one or
+more signature lines at the end of the message.  Since these lines are
+at the end of the message they don't stop the listserver from
+successfully processing the requests but they will cause it to generate
+an error message (both to you and to me).  To avoid this you should
+follow the convention that says that signature lines are preceded by a
+line beginning with two dashes (--).
+
+All but a few files may be retreived via mail by sending a request to
+the listserver at listserv@Sierra.Stanford.EDU.  If you haven't used
+the listserver before I recommend that you first ask for the help
+file.  Send a message to the listserver consisting of the word help on
+a line by itself.
+
+HELP
+
+The directory structure containing the mead lovers archive files
+appears to be very different for listserver access so one should use
+the INDEX command to get a copy of the names of available files.  To
+get a listing of the files available from the mead lovers archive put
+the following on a line by itself.
+
+INDEX MEAD
+
+To get files from the archives you need to send one or more lines
+like the following:
+
+GET MEAD filename
+
+where "filename" is one of the files listed by the INDEX MEAD command.
+
+Here's an example of a request for the mead lovers index file and a
+copy of the index file for the Digests in 1993.
+
+        To: listserv@sierra.Stanford.EDU
+        Subject:  (not required)
+
+        index mead
+        get mead 1993.index
+
+        --
+        SIGNATURE
+
+If you have a problem with or questions about the listserver that are
+not answered by the above, send mail to
+
+        listserv-manager@Sierra.Stanford.EDU
+
+------------------------------
+
+End of Mead Lover's Digest
+************************

@@ -1,0 +1,992 @@
+﻿Date: Mon, 1 Mar 2004 00:38:41 -0500
+Subject: Homebrew Digest #4488 (March 01, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4488                             Mon 01 March 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: Gas Measurement ("Fredrik")
+  Fermentation Bubble Counter ("Kevin Eggemeyer")
+  Cascade control ("The Mad Brewer")
+  Re: metabite in brewing (Jeff Renner)
+  Metabisulphite and Burton salts, spam (Michael)
+  Twoey's old metab 'ite, bubble counting,Clinit*st ("Dave Burley")
+  Underpitching - no thanks ("-S")
+  Micros in Paris (Wes Smith)
+  Campden Tablets ("A. J. deLange")
+  Wheat questions (Chet Nunan)
+  Link of the week - Feb 29, 2004 (Bob Devine)
+  America's Finest City Results ("Chad Stevens")
+  Austin ZEALOTS Homebrew Inquisition (Chris Colby)
+  Determining percent alcohol on a finished beer ("The Mad Brewer")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 28 Feb 2004 10:41:14 +0100
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Re: Gas Measurement
+
+
+> Date: Fri, 27 Feb 2004 16:23:21 +1030
+> From: "Greg 'groggy' Lehey" <grog at lemis.com>
+> Subject: Re: Gas Measurement
+>
+> On Thursday, 26 February 2004 at  8:34:59 -0600, Ronald La Borde wrote:
+> >> From: "Martin Brungard" <mabrungard at hotmail.com>
+
+
+The original post escaped me, but it is great to see more people working on
+monitor the gas flow! :) It's certainly not necessary to make beer but it's
+very interesting and I think it can be extremely useful for anyone who wants
+to know more about the dynamics.
+
+
+> >>
+> >> What I'm hoping to cultivate with this message are some ideas about
+> >> how a tipping device might be fashioned or if there are other
+> >> approaches to flow measurement that aren't going to cost an arm and
+> >> a leg.
+
+
+This is exactly the way I've been thinking too! Sure you can get
+professional lab setups, but that kind of doesn't make sense at all for a
+hobby because it's too expensive. I started by counting the bubbles from the
+airlock manually and found out these main disadvantages.
+
+
+1) It is very tough to get out of bed in the middle of the night, and call
+my gf from work and ask here to take a bubble reading if she happens to be
+at home :) I did this for the first batch. I think I took some 70-80
+readings during a few days. I realised it didn't make sense because of all
+the work.
+
+
+2) Apart from beeing tough, since bubbling is random on bubble to bubble
+scale, it doesn't make sense to just count two bubbles and take the time
+between them. I found that to get at least roughly stable readings you need
+something like a 5-10 minutes, or MANY bubbles at least.
+
+
+So the solution I came up with was to mount a microphone on the airlock, and
+let me computer count the bubbles for me. I know have an old 486 for
+dedicated bubbleserver because the logger kept crashing when I did other
+things on the PC. It means I count, every single bubble. Usually around at
+least 150 000 - 300 000 bubbles or something for a batch. Then I can easily
+costruct my 10 minute averages or whatever I like in a simple excel sheet.
+
+
+I haven't yet done any serious calibration tests yet. The reason is that I
+just know it works sufficiently good for me now. I am now working on
+finishing the computer simulation. Once that is done I will start playing
+with calibrations and more serious testing, and if necessary modify the
+logger.
+
+
+I also plan to add two channels to the logger, ambient pressure and
+temperature. Because air pressure variations does significanlty change the
+bubbling. but as long as I know the pressure and can compensation for it,
+this is not a problem. there are simple single chip sensors for for
+temperature and pressure that I plan on hooking up to the PC.
+
+
+> >
+> > One possible way to calibrate the bubble counter might be thus:
+> >
+> >   * First I would think that the airlock solution must be at the same
+> > volume and contain the same liquid to have any meaningful
+> > repeatability.
+>
+> I've been counting bubbles for the last six months, and this is one of
+> the things that bothered me.  It took me a while to realize that the
+> concern was unfunded.
+>
+> The amount of gas required to create a bubble is pretty well
+> independent of the amount of water in an airlock.  I'm talking about
+> the traditional airlock, the kind I use: see
+> http://www.lemis.com/grog/brewing/temperature-control.html (click on
+> the photos for a larger version) in case of doubt.
+>
+> During fermentation, this kind of airlock has all the water on the
+> exit side.  A bubble forms and escapes; the size of this bubble is
+> dependent mainly on the diameter of the tube.  Then the water falls
+> back and a new bubble starts.
+>
+> The size of the bubble is *almost* independent of the amount of water
+> in the airlock.  The only effect of the amount of water is to
+> marginally change the pressure in the fermentation vessel.  You can
+> hardly expect a difference of more half an inch, which corresponds to
+> about 1mm of mercury, much less than the typical changes in barometric
+> pressure.  I therefore suggest that it's negligible.
+
+
+It will give a slight error, but if the liquid is always the same I think it
+wont be a disaster. Anyway, since I am considering averages, if you take the
+average of 50 bubbles or more, the average is probably more stable that the
+volume of single bubbles. If the pressure inside the fermentor is higher the
+bubbles will be compressed. But not in a random way and I am sure this can
+be modelled and accounted for just like everything else.
+
+
+I am putting alot of effort in the coputer simulation atm, and I haven't
+worked on improving the bubble logger anything since I made it. Apart form
+the yeast dynamics and sugar depletion I plan on simulate also
+
+
+1) imfluence of ambient air pressure
+2) influence of ambient air temperature
+3) heat exchangeof fermentor <-> surrounding via exiting CO2 as well as
+radiaton.
+4) airlock liquid influence
+
+
+So eventually I will need to get a pressure and temperature sensor as well.
+But until then using manual readgsin from termometers and barometers is good
+enough.
+
+
+>
+> >   * So how about measuring the amount of water to completely fill a
+> > corny keg, then empty the keg and put on airlock at gas out port. Now
+> > start your bubble counter and slowly fill keg with water through the
+> > liquid in port until full. This should give the exact volume of air
+> > pushed out. This is your measurement and use this for calibration.
+>
+> This sounds like a good way to prove whether I'm right or wrong :-)
+>
+> >   * Someone had posted earlier about using an audio pickup to hear the
+> > bubbling. This may work, but another method might be to have a small
+> > magnet in the bubbler to pulse a reed switch, or perhaps a piece of
+> > foil that would lift with the bubble and break a light beam
+> > counter........
+
+
+I was the dude with the audio pickup. It does work, but it takes some
+software work to make sure it doesn't trig on ambient noise. I trig on a
+limited freqeuency range, corresponding to the sound of a bubble. It's just
+a test setup so far. I figure there are probably better ways. But this was
+all I could think of at that point. Also the trig is very sensitive. When I
+move the setp to another room, or when I put it in my fermentation box, the
+ambient acoustics change things so I have to adjust the trig levels. This
+sensitivity is tha main disadvantage. Is definitely works good, but it takes
+a certain amount of fiddling if you change something. If I could get away
+from this fiddling it would be nice. To hook up a meter to the serialport
+would be awesome because you wouldn't need an extra A/D card and you don't
+have the problem with cable noise. I am following Ken's posts with interest!
+
+
+>
+> Interesting ideas there.  I'm still thinking.  Maybe coloured water
+> and an optical measurement at the bottom of the airlock?
+
+
+That is interesting. I've been thinking of maybe trying this too, or maybe
+even using a high speed pressure transducer in the fermentor. I figure when
+a bubble exits there will be a disturbance in the pressure, like a dip.
+There are a lot of single chip sensors around that's not expensive at all.
+You need to add one or to components ot make it a circuit. But then the
+expensive part may be the AD card. The nice thing about the auido pickup is
+that I use the standard PC audiocard.
+
+
+I have been worried about getting an infection in my microphone. Anyone have
+any ideas howto desinfect a microphone membrane of paper without destroying
+it? So far I'm using congnac in the airlock, so I hope any creeps that get
+there will die.
+
+
+ /Fredrik
+
+
+>
+> Greg
+> - --
+> Note: I discard all HTML mail unseen.
+> Finger grog at lemis.com for PGP public key.
+> See complete headers for address and phone numbers.
+>
+
+
+
+
+------------------------------
+
+
+Date: Sat, 28 Feb 2004 09:33:53 -0600
+From: "Kevin Eggemeyer" <KEggemeyer at charter.net>
+Subject: Fermentation Bubble Counter
+
+
+I've been very interested in the recent posts regarding CO2 generation
+as a means of analyzing/recording fermentation characteristics.  I had
+been planning a way to measure this activity by tracking the
+fermentation temperature vs. ambient temperature.  However, I think
+there are too many difficulties with this approach.  I like the idea of
+being able to use 'bubble frequency' to tell me (within reason) when the
+fermentation began, how active it has been, and where it is with regard
+to completion.  The fermentation curve, as Fredrik pointed out and gave
+an example graph of, would allow a more complete picture of the
+fermentation than hydrometer readings alone.
+
+
+I'm more inclined to use this in a general sense (number of bubbles)
+than in an exact sense (volume of CO2 generated).  This is mainly
+because I don't know how to build a flow meter, but I think I could make
+a bubble counter.  I envision using the parallel port an older PC to
+make the count (I currently have plans to use this type of setup to
+monitor/control fermentation temperature - so why not add on a bubble
+counter?).  
+
+
+Would anyone out there be interested in working on this project off
+line?  To me, the real question is how to design the sensors.  I use a
+blow-off tube; many other brewers use air locks of various designs.
+Perhaps a group of us could work up some sensor and software solutions
+to present back to the HBD?
+
+
+Kevin Eggemeyer
+O'Fallon, MO
+[Somewhat south of Mr. Jeff.]
+
+
+P.S. - I wonder if the next step will be a way to take the individual
+yeasts blood - er, cell pressure?  Can you put a yeast cell through a
+stress test?
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 28 Feb 2004 12:31:42 -0600
+From: "The Mad Brewer" <seansgroups at mts.net>
+Subject: Cascade control
+
+
+No, not how to use homegrown hop without making grapefruit beer, but an
+answer to Mike.
+
+
+That strikes me as the preferable way to control RIMS.  It's not truly
+"cascade control" as the term is used in control theory, but more of a
+limiter.  FYI, a true cascade controller would increase the heater
+temperature for faster heat-up and then lower it as the mash setpoint was
+reached, and you don't want that.
+
+
+Anyway, the only suggestion I would make is that you could use a single
+power SSR with a low-voltage SSR acting as a gate controlled by the mash
+temperature signal, allowing the heater PID control signal through only when
+heat was needed.  This depends on the cost and availability of 1V/1V SSRs
+versus 1V/240VAC SSRs at your local surplus shop.  "Bang-bang" control would
+almost work, but a sluggish response would compensate for the delay time
+between the top and the bottom of your mash.
+
+
+Sean Richens
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 28 Feb 2004 14:28:55 -0500
+From: Jeff Renner <jeffrenner at comcast.net>
+Subject: Re: metabite in brewing
+
+
+"Patrick Twohy" <hbd at twohy.net> writes from Burlingame, CA
+
+
+>I'm a little unclear on the metabisulfate vs. chloramine issue. People are
+>throwing around the term campden tablets, describing them as
+>potassium metabisulfate.
+>
+>It's my understanding that campden tablets are SODIUM metabisulfate and
+>that burton salts are potassium metabisulfate.
+
+
+Campden tablets are the sodium salt, but it doesn't make any 
+difference as far as the metabisulfite half, which is the important 
+half in this case.  You can buy crystalline potassium metabisulfite. 
+Either works for eliminating chloroamine and for sulfiting wines and 
+meads.  You need very little for either purpose.
+
+
+Burton salts are an entirely different matter.  They are a mix of 
+salts (CaSO4, MgSo4 and NaCl) designed to provide ions in brewing 
+water that are typical of Burton-on-Trent water that was famous for 
+pale ale.  Primarily among these ions are calcium and sulfate, and I 
+think that adding just CaSO4 (gypsum) is sufficient.  You typically 
+add a teaspoon per five gallons - far more than metabisulfite for 
+either chloramine removal or sulfiting.
+
+
+>Which is the chemical that's recommended for eliminating the chloramine
+>problem?
+
+
+Metabisulfite.
+
+
+Another use for Campden tablets that has been suggested by the brewer 
+formerly known as Steve Alexander (-S) is to use one in the mash to 
+avoid hot side oxidation.  I have been doing this the last year or so 
+with no apparent problems and perhaps better beer.  It's hard to say 
+for sure, but I'll continue to do so.
+
+
+Jeff
+
+
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner at comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Sat, 28 Feb 2004 13:59:32 -0600
+From: Michael <grice at binc.net>
+Subject: Metabisulphite and Burton salts, spam
+
+
+Patrick asks about sodium versus potassium metabisulphite. Patrick, the
+"metabisulphite" portion of that is what does the work. The sodium or
+potassium are pretty much inert (although they may affect the flavor
+of your beer if you add too much of one or the other).
+
+
+Burton salts, on the other hand, are salts added to water to simulate
+the water of Burton-on-Trent. A quick Internet search suggests that
+the individual salts in commercially available Burton salts apparently
+differ depending on who makes them and will typically include calcium
+sulphate and some combination of calcium carbonate, chalk, potassium
+chloride and epsom salts.
+
+
+As for spam--well, it wouldn't take much effort to harvest email addresses
+in the name at domain.com format. If you can figure out what the address
+is by looking at it, you can write a quick script to convert it back
+into a usable email address. My personal preference is to obfuscate them
+completely--if somebody really wants to know my email address, they
+can subscribe.
+
+
+On the other hand, I get on the order of 250-300 pieces of spam a
+day anyway on this account (so it's too late to really matter to me
+now). The vast majority of it is quarantined (i.e., filtered out ot
+my regular email and slapped into a separate area on the mail server,
+where I can decide if I want to download it later). I think a lot of
+my spam is a result of a certain vendor which shall remain nameless who
+sub-contracted email marketing for a conference I attended a number of
+years ago. The sub-contractor sent spam on the side and sold my email
+address right and left.
+
+
+Oh, and lately the HBD itself has been quarantined as spam. Go figure.
+
+
+Michael
+Middleton, WI
+
+
+
+
+------------------------------
+
+
+Date: Sat, 28 Feb 2004 16:50:04 -0500
+From: "Dave Burley" <Dave_Burley at charter.net>
+Subject: Twoey's old metab 'ite, bubble counting,Clinit*st
+
+
+Brewsters:
+
+
+Patrick Twohy ( Pat do you make Australian beers?) asks about potassium and
+sodium metabisulfAte. Metabisulf<I>te is the correct term.
+
+
+And it doesn't really make any difference except the molecular weight of the
+potassium salt is higher and you have to add more to get the same effect.  In
+winemaking, the potassium salt is preferred since it can come down as part of
+the "cream of tartar"  ( potassium bitartrate)  and reduce the degree of
+"salts" in the wine. Not so in beer.  The pH of beer is also too high for
+either salt to be effective except perhaps as an anti-oxidant. I used it early
+in my career but stopped when I found that good handiling of hot wort was the
+solution.
+
+
+ppm of metabisulfite will reduce the chloramine problem.
+- -------------------
+/Fredrik,  I certainly appreciate your enthusiasm and excellent plots of CO2
+bubbles versus time but, as I discussed before, I hate to see you waste the
+time as there is a basic fault in your method and that is that the solubility
+of the CO2 in beer is temperature dependent and alcohol dependent AND it is a
+non-equilibrium situation as the CO2 is supersaturated. Co2 will continue to
+be given off even after the fermentation is long finished.
+
+
+You can prove this to yourself by taking beer and agitating it and you will
+get bubbles being given off. This is because CO2 is supersaturated.
+- ---------------------
+Chad,
+
+
+I didn't bring up the subject of Clinit*st but as I said it still works
+beautifully both in my brewery and in professional breweries to easily and
+accurately determine if a fermentaion is finished or stuck. It is especially
+useful to all grainers whose non-fermentable carbohydrates can vary with mash
+conditions.
+
+
+Hydrometers ( even if there are no clinging bubbles) cannot be used to
+distinguish between a finished fermentation and a stuck one since that
+measurement is <relative>. You cannot distinguish between a stuck fermentation
+and a finished one since the result of non-changing density is the same.
+
+
+Clinit*st is an <absolute> measurement of reducing sugars and independent of
+non-fermentable carbohydrates ( unlike a hydrometer) . At 1/4% or lower, the
+fermentation, for all practical purposes, is finished.  A real lager yeast can
+produce a 0 reading over a long time as the trisacharides are utilised during
+lagering.
+
+
+I hate to see such a fine tool that is easily used by all brewers be ignored
+because of politics or egos. It would also be a big help to /Fredik as he
+could plot his bubbles versus reducing sugar content over time  to prove or
+challenge my above contention with his work.
+
+
+As Steve said a few months ago I am stubborn,  ( and I say ) especially when I
+am right.  I have no interest in stirring this thing up again, but I refuse to
+be intimidated by comments like yours.
+
+
+I beseech you, seek the truth.
+- ------------------------
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 29 Feb 2004 00:42:31 -0500
+From: "-S" <-s at adelphia.net>
+Subject: Underpitching - no thanks
+
+
+Russ Kruska writes ...
+
+
+> I thought I would
+>post about my naughty practice of purposely underpitching [..]
+>with usually no impact on quality of the brew.
+ ...
+>Russ Kruska
+>Nairobi, Kenya
+
+
+If you are looking for a nasty habit take tea at three but DON'T underpitch
+(w /apologies to Sir Mick).
+
+
+I don't know what passes for "no impact on quality" for Russ, but the
+quality problems caused by underpitching are well documented.
+Underpitching can result in higher infection rates and flavors, greater
+ester and fusel flavors, stuck fermentation, lower attenuation, unresolved
+VDKs, (because it impacts final yeast health) increased autolysis flavors,
+poor performance of the yeast on re-pitching.  It's bad karma and you'll
+certainly be reincarnated as a weak and lonely fungal cell if you
+underpitch.
+
+
+Most HBers already  under- or marginally pitch making Russ' comments more
+damaging.   Adequate pitching level is almost certainly the most important
+HB quality factor after sanitation.
+
+
+I appreciate that Russ only does this when he is going to be unavailable for
+weeks as a compromise, but I think it's a very bad idea.  Far less flavor
+harm to pitch full and let the ferment sit a few weeks I think.
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 29 Feb 2004 18:01:13 +1100
+From: Wes Smith <wsmith at rslcom.net.au>
+Subject: Micros in Paris
+
+
+Hi All,
+
+
+Mid April is going to see Caroline (wife) and I spending 3 days in Paris on 
+the back end of a UK trip. Does anybody have a "list" of must see micros in 
+Paris or the surrounding area? I am aware of the Firkin Pubs and also a new 
+English ale brewery chain, but are more interested in some traditional 
+French brew styles. My passion is the Bier de Garde/Saison style and will 
+be seeking these out in various bars that I have already noted.
+
+
+Just wish we had time to pop up to Lille and out to the Brittany region, 
+but that will have to wait for another time unfortunately. Will have to 
+make up for that with visits to Devon and Yorkshire and some of those 
+respective regions top brews....
+
+
+Wes.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 29 Feb 2004 13:10:19 +0000
+From: "A. J. deLange" <ajdel at mac.com>
+Subject: Campden Tablets
+
+
+I have analyzed Crosby and Baker campden tablets and found them to be 
+potassium metabisulfite. I have seen references to both British and 
+other American made campden tablets as being sodium metabite. So I 
+think both forms are probably available. Burton salts refer to salts 
+designed to be added to brewing water to make it resemble that of 
+Burton on trent. As these are hard, highly gypseous waters Burton salts 
+are likely mixtures of calcium sulfate (gypsum) and magnesium sulfate 
+(epsom salts).
+
+
+Metabite is the one for chlorine/chloramine. Again I suggest 
+http://hbd.org/hbd/archive/4216.html#4216-18.
+
+
+A.J.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 29 Feb 2004 05:53:15 -0800 (PST)
+From: Chet Nunan <katjulchet at yahoo.com>
+Subject: Wheat questions
+
+
+I'm planning to make a hefe-weizen and am considering
+using all wheat malt (except for some hulls).  I do an
+infusion mash in a cooler - will this convert an all
+wheat mash?  Or does it require a step mash?
+
+
+Also, my homebrew supplier carries both white wheat
+and red wheat - is one preferable to the other in an
+all wheat mash (easily convertable in a single step
+infusion mash)?
+
+
+While I'm on the subject, how about an all malted oat
+beer?  Would a single step infusion mash do the trick
+there?
+
+
+Any advice is welcome - Thanks!
+
+
+Chet
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 29 Feb 2004 11:16:25 -0700
+From: Bob Devine <bob.devine at worldnet.att.net>
+Subject: Link of the week - Feb 29, 2004
+
+
+"Happy Feb 29th" is something you don't get to say too often.
+
+
+A quick link today is the US mape of water hardness.
+Brewers long the Rocky Mountains know about hard water...
+http://water.usgs.gov/owq/map1.jpeg
+
+
+Bob Devine
+
+
+
+
+------------------------------
+
+
+Date: Sun, 29 Feb 2004 10:18:35 -0800
+From: "Chad Stevens" <zuvaruvi at cox.net>
+Subject: America's Finest City Results
+
+
+The results are in for America's Finest City Homebrew Competition.  Special
+thanks to David Houseman who flew in from Philidelphia to help judge both
+days including BOS Beer.
+
+
+http://www.quaff.org/afc2004/results.html
+
+
+Some HBD'ers on the winner's list:
+
+
+Tom Wolf, Phil Ferrel, John Aitchison, Ryan Stewart, Michael Hartman, Rob
+Kolacny, Jodie Davis, Jim Yeager, Todd Peterson, James Reynolds, Craig
+Flagtwet, Mike McDole, Gary Wilder, Bev Blackwood, Keith Eckert, Marvin
+Nigh, Lee Theuriet, David Barlow, Wade Atchison, Jim Rossi, Terry Wallis, Ed
+Little, Mike Muller, Jamil Zainasheff, Dion Hollenbeck, and your's truly.
+
+
+Special Congratulations to:
+
+
+Best of Show Beer - Loren Miraglia (QUAFF)
+Best of Show Mead/Cider - Ed Little (Foam on the Brain)
+Brewing Machine - Harold Gulbransen (QUAFF)
+
+
+48 Judges were served 398 beers by 14 stewards.
+Beers were entered by brewers in 15 states.
+Judges were from 3 states, one as far away as Pennsylvania.
+113 Brewers submitted beers from as far away as Florida, representing 16
+different clubs.
+84 Awards were bestowed by the judges on 52 brewers.
+
+
+This would not have been possible were it not for HBD.
+
+
+Thanks to all who participated and hope to see you next year.
+
+
+Chad Stevens
+QUAFF
+San Diego
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 29 Feb 2004 13:33:52 -0600
+From: Chris Colby <colbybrewery at austin.rr.com>
+Subject: Austin ZEALOTS Homebrew Inquisition
+
+
+The Austin ZEALOTS proudly announce our first annual Homebrew Inquisition.
+The Homebrew Inquisition is a homebrew contest built on a different model
+than the standard BJCP-style contests. Instead of judging beers on the basis
+of how well they emulate a classic beer style, we will simply be judging
+beers on their overall presentation, and especially how good they taste. Got
+a "house brew" that everyone loves, but doesn't really fit in any category
+at most homebrew competitions? Enter it here! Entries due May 1. Winners
+will be announced May 15, 2004 at the Texas Brewers Festival.
+
+
+Beer Categories
+
+
+1.) Malty or Sweet Beers
+
+
+2.) Bitter or Hoppy Beers
+2A.) Hoppy Beers
+2B.) Hop Monsters
+
+
+3.) Balanced Beers
+3A.) Session Beers
+3A.) Lawnmower beers
+
+
+4.) Strong Beers
+4A.) Strong Beers
+4B.) Booze Bombs
+
+
+5.) Dark Beers
+5A.) Dark-colored beers
+5B.) Roasty Beers
+
+
+6.) "Yeasty" Beers
+
+
+7.) Lagers
+
+
+8.) Flavored Beers
+8A.) Sour Beers
+8B.) Smoky Beers
+8C.) Fruit Beers
+8D.) Spiced Beers
+8E.) Other Beers
+
+
+9.) Experimental Beers
+
+
+10.) Open Category
+
+
+11.) The Crusade (special category)
+2004 Crusade: You put how much what in where?"
+
+
+Judging
+Beers will be judged on a 100-point scale. Judges will allot 15 points for
+appearance, 30 points for aroma, 45 points for flavor and 10 points for
+overall presentation. In addition to the score, judges will supply comments
+on all aspects of the beer, including suggestions for improvement when they
+can.
+
+
+Entry requirements
+one 12-oz. bottle per entry
+$5/entry
+completed entry sheet
+entries may be dropped of or mailed to Austin Homebrew
+(www.austinhomebrew.com) before May 1
+
+
+Contact colbybrewery at austin.rr.com or dandew`at`austin.rr.com for entry form
+
+
+
+
+Frequently Asked Questions (FAQ)
+
+
+I didn't expect the ZEALOTS to launch some sort of Inquisition.
+NOBODY EXPECTED THE ZEALOTS HOMEBREW INQUISITION!
+
+
+What is the purpose of the Homebrew Inquisition?
+
+
+We, the Austin ZEALOTS, have set out three main goals for our Homebrew
+Inquisition.
+1.) To drink your beer.
+2.) To get you to pay us to drink your beer.
+3.) To provide a well-judged homebrew contest based only on a homebrewer's
+ability to produce quality beer.
+
+
+If beers aren't judged to style, what criteria are the beers judged on?
+
+
+There are many possible factors distinguishing good beers from bad beers.
+These include the flavor, aroma and mouthfeel qualities associated with
+malt, specialty malt, hops, yeast and other beer ingredients; freshness of
+the ingredients; balance (or appropriate lack thereof); the characteristics
+of a properly-controlled fermentation; appropriate carbonation and aging;
+clarity; head retention; presence or absence of bacterial or wild yeast
+contamination; presence absence of other recognized beer faults and many
+other intangibles. In general, beers will be judged according to the modern
+standards that most brewers agree on and strive for.
+
+
+Don't some beer styles (and commercial beers) have "beer faults" that are
+intentional? What if my beer does?
+
+
+German wheat beers are cloudy, lambics are sour and some commercial beers --
+such as Redhook ESB -- exhibit noticeable amounts of diacetyl,
+characteristics that would be considered beer faults in other beers. If your
+beer has an "intentional fault," let us know on your entry form. The judges
+will be made aware of this. If your beer is a classic beer style with a
+"beer fault," just specify your beer style -- we know beer styles, even
+though they don't factor into our Inquisition. Be aware, however, the
+entrant can only identify beer faults -- it's up to the judges to "absolve"
+them. You are not being judged on how close you come to what you were
+shooting for (or claim you were shooting for), but how good your beer tastes
+to knowledgeable beer drinkers.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 29 Feb 2004 14:05:37 -0600
+From: "The Mad Brewer" <seansgroups at mts.net>
+Subject: Determining percent alcohol on a finished beer
+
+
+I have a traditional African beer that I made for a club presentation, and
+someone, even among homebrewers, will inevitably ask what I think the
+percent alcohol is.  Since the beer is fermented simultaneously with
+hydrolysis of the grain there's no way to get an OG.  This is a similar
+problem to what one would face in making many country wines.
+
+
+If I measure the apparent final gravity and the "true" final gravity, can I
+reliably estimate the alcohol content from those two numbers?  Is it as
+simple as subtracting the excess true gravity from the apparent gravity and
+taking that number as the corresponding alcohol/water mixture?
+
+
+Sean Richens
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4488, 03/01/04
+*************************************
+-------

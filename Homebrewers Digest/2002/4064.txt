@@ -1,0 +1,659 @@
+﻿Date: Fri, 11 Oct 2002 00:37:40 -0400
+Subject: Homebrew Digest #4064 (October 11, 2002)
+
+
+
+
+
+
+HOMEBREW Digest #4064                             Fri 11 October 2002
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Welded coupling problem ("Michael Hackney")
+  re: Basic Stamp for RIMS? ("The Artist Formerly Known As Kap'n Salty")
+  Phoam Control ("Dan Listermann")
+  Hamms Beer Clone ("Mike Racette")
+  RE: Basic Stamp used for RIMS? (Mark Alfaro)
+  Good Eats ("Hedglin, Nils A")
+  Beer line calcs ("Todd M. Snyder")
+  RE: mash/lauter tun (Bill Tobler)
+  RE: Basic Stamp used for RIMS? (Kent Fletcher)
+  polarware pot brewkettle false bottom (Steven S)
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* Beer is our obsession and we're late for therapy!
+*
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 10 Oct 2002 09:48:46 -0400
+From: "Michael Hackney" <mhackney`at`micromationsciences.com>
+Subject: Welded coupling problem
+
+
+Hi All,
+
+
+I have a keg that was partially converted; Here's what I mean by that.
+I handed a keg and two 1/2" stainless couplings to a welder
+to have them welded on to the keg.  The only problem is that when he made
+the hole in the kegs sidewall where the couplings would be attached,
+he made it smaller in diameter then the coupling.  So now I can attach
+things (i.e., pipe nipples, thermometers ....) to the outside of the keg,
+but I can't attach anything to the coupling from the inside because the
+hole on the inside of the keg wall is too small.
+
+
+Does anyone have any suggestions as to how to enlarge (ream) the opening
+of the hole from the inside of the keg without messing up the threads
+on the coupling?  I thought there might be some type of reaming tool that I
+could use to enlarge it, but it would have to be tough enough to penetrate
+SS.  How about a large countersink bit on a short profile drill?
+
+
+Thanks
+Michael Hackney
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 08:58:08 -0500
+From: "The Artist Formerly Known As Kap'n Salty" <mikey`at`swampgas.com>
+Subject: re: Basic Stamp for RIMS?
+
+
+
+
+Scott <sejose`at`pacbell.net> wrote:
+=================
+Hello!
+
+
+I am now interested in circulating my mash, and am researching RIMS.
+Someone at work suggested I use a Basic Stamp as my controller, rather
+than a PID.  Anyone doing this?  Otherwise, where can I go online to
+look at PIDs and try to get a handle on what they are all about?  As
+you can tell, I am new to the RIMS idea, but am eager to get my
+efficiency up.  Source for heating elements, relays, PIDs?
+=================
+
+
+Instead of the Stamp, I'd consider using a BX-24 from NetMedia
+(http://www.netmedia.com). For the same price you get a much more
+capable chip -- faster, more memory, A/D conversion, and floating
+point. The latter two are important to a PID app, though strictly
+speaking you could get away without floating point. The language used
+is sort of VB-esque. Support is good.
+
+
+No affiliation, but I do a good bit of robotics stuff, and believe me,
+the BX-24 is the way to go.
+
+
+PID, by the way, is an algorithm, not a piece of hardware. I think you
+mean to refer to a "PID controller". You will want to implement a PID
+algorithm on the controlling micro -- or maybe just a simple
+setpoint/deadband will work. 
+
+
+Do a google search on "Proportional-Integral-Derivative" to get a
+decent description of the algorithm itself.
+
+
+Hope that helps -- tafKaks
+====
+Teleoperate a roving mobile robot from the web:
+http://www.swampgas.com/robotics/rover.html
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 10:29:28 -0400
+From: "Dan Listermann" <dan`at`listermann.com>
+Subject: Phoam Control
+
+
+With all this discussion of late regarding controlling foam from kegs, it
+seems like a good time to announce the introduction of a new product that
+addresses this very issue.  "Phil's Phoam Phixer" is a long clamp that
+constricts the serving hose which provides adjustable back pressure with the
+turn of two thumb screws.  It essentially lets you "dial in" your desired
+level of foam.  The key is that constricting the hose over a long length
+gives back pressure without the turbulence that causes foaming.  The pilot
+production run was given away at this years "Beer and Sweat" Party in Cincy
+as door prizes.  I will start a production run later this week.  The pricing
+has yet to solidify, but it should not be much.  Oh, it is stainless steel
+for you guys who really like that - you know who you are.
+
+
+Dan Listermann
+
+
+Check out our E-tail site at www.listermann.com
+
+
+Free shipping for orders greater than $35
+and East of the Mighty Miss.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 08:57:37 -0600
+From: "Mike Racette" <mike.racette`at`hydro-gardens.com>
+Subject: Hamms Beer Clone
+
+
+I don't think there are any hops in Hamms beer, but one time in college we
+survived an entire 2 week spring break living on nothing but Hamms
+Sandwiches, so there must be something in there besides water.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 08:38:39 -0700
+From: Mark Alfaro <malfaro`at`qcpi.com>
+Subject: RE: Basic Stamp used for RIMS?
+
+
+In HBD 4063, Scott Jose asks:
+
+
+where can I go online to look at PIDs
+and try to get a handle on what they are all about? As you can tell, I am
+new to the RIMS idea, but am eager to get my efficiency up. Source for
+heating elements, relays, PIDs?
+
+
+
+
+Heater Elements - www.grainger.com (I use Grainger P/N 2E768) This element 
+is rated for 6000 watts at 240 volts, but I run it at 120volts which gives 
+me a 1500 watt output that is distributed along 88 inches of heater 
+element. You need this low watt density to avoid the possibility of 
+scorching the wort. I have never had any wort scorching even at the lowest 
+flow rate.
+
+
+PID Controllers, Relays, Heatsinks - www.omega.com  (I use P/N CN8590-DC1 
+on one RIMS and P/N CN132 on the second) For a relay, I use 45 amp SSR's 
+with heatsinks on both RIMS. The max load I switch is 12.5 amps and a 45 
+amp SSR may be overkill, but the relay doesn't even get warm in operation.
+
+
+The Omega PID's are occasionally available on eBay which is where I got the 
+CN132 brand new for $100.00 vs $168.00 from Omega.
+
+
+Hope this helps. Feel free to email me offline if you have any other questions.
+
+
+Regards,
+Mark Alfaro
+Chula Vista, CA
+1950, 262.1 AR
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 09:12:15 -0700
+From: "Hedglin, Nils A" <nils.a.hedglin`at`intel.com>
+Subject: Good Eats
+
+
+Hi,
+  Did anyone else watch the Good Eats episode on brewing last night?  I 
+thought it did pretty good for a 30 minute show.  Some of the introductory 
+brewing practices made me shudder a bit, but over all they seemed sound.  
+I only noticed that I thought was 1 mistake.  Alton Brown said that adding 
+hops at the end of the boil was called Dry Hopping.  Even though he was 
+using whole hops, I thought Dry Hopping was adding whole hops to the fermenter.
+Nils Hedglin
+Sacramento, CA
+[1978.7, 275.3] Apparent Rennerian
+
+
+PS-Has a new text limitation been added to the list?  The last few messages 
+I've sent have been bounced back because the text line is longer than 80 
+characters.  I don't remember having to format it like that before.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 12:50:53 -0400
+From: "Todd M. Snyder" <tmsnyder`at`buffalo.edu>
+Subject: Beer line calcs
+
+
+Okay, I can't take it any more.  I have to decloak and post something on
+this discussion of flow in beer lines even though it means I'll be pelted by
+spam for the next few months.
+
+
+I thank Dave Burley for bringing up this discussion.   But I read some
+statements that just plain aren't true on today's HBD:
+
+
+Sven Pfitt , DRTEETE , Andrew Nix wrote that somehow you would get a
+situation where the beer just inside the fully open faucet would be under a
+fairly large pressure, using Svens text because he actually put numbers to
+what they were all saying:
+
+
+>presume that 1/4in hose drops 0.6lb / ft and you use 6ft of hose, you will
+drop 3.6psi off your beer from the time it enters the hose , until it exits
+at the tap. If your keg is at 10psi, you still have 6.4psi as the beer comes
+out of the tap. <
+
+
+This just isn't true.  Just inside the faucet, the psig IS ZERO (pounds per
+square inch gauge).
+
+
+Let's also drop the discussion of atmospheric pressure right now, I'm
+assuming nobody is brewing on Mt. Everest, so there is no need to delve into
+absolute pressure discussions or to even bring atmospheric pressure into the
+picture.
+
+
+With a constant size tubing back to the keg, the pressure drop will be
+LINEAR.   There will be no "sudden pressure drop at the tap"  or "increasing
+the acceleration of the flowing beer" , the flow will be steady with a
+constant line ID because the beer is for our purposes non-compressible and
+the cross sectional area of the tubing is constant along the path.
+
+
+Where Sven, the good DR, and Drew are getting hung is on this idea of a
+'balanced' system.  The thing to remember is that THE UNDERLYING GOAL of a
+balanced system is to have the beer pour at a relatively slow rate to
+prevent rapid pressure drop along the flow path and beer that crashes into
+the glass and foam there.  For 1/4" ID tubing at that ideal flowrate (and
+I'll admit I don't know what it is, maybe 3 oz/second?) you'll get a
+pressure drop of 0.6 psig/ft of tubing as a rule of thumb.  This is the goal
+for that size tubing.   As the equation above shows, 0.6 psi/ft does not add
+up over 6 feet to equal the 12 psig in the keg.  Instead, you'll get 2
+psi/ft along the tubing (12 psig/6 feet=2) , and MUCH FASTER FLOW.   This
+would be a bad situation resulting in beer foaming in the line as the
+pressure drops rapidly and the beer flies violently into the glass.
+
+
+The point here is that the beer will find it's own equilibrium point where
+the frictional loss to the tubing will equal the total pressure in the keg.
+The faster the flow, the higher the drag of the tubing on the beer until the
+drag equals the keg pressure.
+
+
+If someone wants to prove this to themselves, put a bunch of T's along your
+beer line and screw in pressure gauges.  You'll see the pressure drop along
+the path in a linear fashion, until it exits the line at 0 psi.
+
+
+And then, reading on, I see Andrew Nix write:
+<If the hose were long enough, the pressure drop would be so high that the
+beer would not flow.>
+
+
+That blew my mind, especially since Drew works with turbulent flow for his
+PhD work I would have assumed he had a reasonable knowledge of fluid
+mechanics!  Again, I think he's getting hung up on the constant assumed for
+frictional loss (0.6 psig/ft) given above for 1/4 inch ID tubing.
+
+
+To illustrate that this can not be the case, consider taking the length to
+an extreme. If we had 1000 feet of tubing, we wouldn't get 600 psi pushing
+back against a 12 psi keg, right?  No, of course not.  You'd have 12 psi
+loss over the length of the tubing, or 0.012 psi/ft.   This is lower than
+the 0.6 psi/ft GOAL for a balanced system, but the beer would still flow,
+JUST SLOWER.   It would flow about 1/50 the rate that we would like to see
+when we fill up a pint.   You'd have to stand at the tap for about 250
+seconds instead of about 5 seconds.
+
+
+The balanced system calculations shown on The Kegman's page
+http://208.201.47.186/kegman/balance.html , are a great resource for setting
+up your beer system (No Affiliation), and what's interesting to me is that
+the equation he uses looks to be basically Bernoulli's equation, which is
+the single equation that most students taking Fluids eat, live and breath.
+It is (for one tubing size):
+
+
+Pressure = Length*Resistance coefficient   +   (Height change)*0.5
+
+
+When you break down Bernoulli's equation for a properly pouring beer system
+(God I love applying engineering to beer!) , my guess is you could simplify
+it to the formula above and the coeffients in the table.
+
+
+For plastic beer tubing:
+
+
+Tubing          psi loss / ft of tubing
+3/16" I.D          2.7
+1/4"I.D.             0.7
+5/16" I.D.        0.17
+3/8" I.D.          0.11
+1/2"I.D.            0.025
+
+
+The height change term is also in Bernoulli's, but to be exact it would be
+closer to the hydrostatic pressure of water,  0.43 psi / ft depth, instead
+of 0.5 psi/ft .  But it's close enough.
+
+
+It's pretty neat stuff but like Dave said in his original posting, it's more
+important to have a flow path that's clean with no restrictions like a
+partially open valve.
+
+
+Brew on,
+Todd Snyder
+Buffalo, NY
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 16:35:32 -0500
+From: Bill Tobler <wctobler`at`sbcglobal.net>
+Subject: RE: mash/lauter tun
+
+
+Brian asks:
+
+
+     "Does anyone have any idea how many lbs of grain I can put into the 10G
+Gott picnic cooler? I have not gotten good extraction or wort clarification
+out of current lauter set-up.  It has 4 copper tubes for a manifold in the
+bottom of the cooler.  Is there a general consensus on Polarware vs
+converted keg for mash tun?"
+
+
+I have both 10 and 15 gallon Polarware pots with false bottoms for mashing.
+I can get about 23/24 pounds of grain in the 10 gallon Polarware with the
+Polarware false bottom installed using a 1.33 qt/lb ratio. I would think you
+can expect about the same in your 10 gallon Gott cooler, +/- 1 or 2 lbs. In
+the 15 gallon pot I can get about 32 lbs of grain. There is about one gallon
+of liquid under the false bottom in the 10 gallon Polarware pot.  I also use
+a Bazooka T screen under the False Bottom to help keep out the small husks
+and grains that get through.  It keeps my pump happy.  I wrap a hot water
+tank insulated blanket around the mash tun when I'm brewing to help
+stabilize the temperature.
+
+
+I use a converted keg for the boil kettle, and although it works fine, and
+was affordable, I find it heavy and difficult to clean.  Of course, I brew
+inside and have to carry it outside to clean it.  I bought a 15 gallon
+Volorath pot on ebay to convert into an electric boiler when I get around to
+it.   It is much lighter and will be easy to clean.  I guess I'm just
+getting old and lazy.
+
+
+By the way, my system is an all electric HERMS.  Click on the following link
+and you will go to my photo album on Nikonnet.com. (You may have to cut and
+paste it in the address bar as its 3 lines long) It's a guest link only, and
+you won't be able to change anything, just look.  I have pictures of the
+mash tun with the screen and false bottom installed, plus the rest of the
+Brewery.  
+
+
+Bill Tobler
+Lake Jackson, TX
+(1129.7, 219.9) Apparent Rennerian
+
+
+http://home1.nikonnet.com/servlet/com.arcsoft.LoginNew?com=arcsoftBanner&awp
+=index3.html&DIRECT=&USERNAME=wctobler&PASSWORD=nikoneditor_1409905725&WHO=m
+emberguest
+  
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 16:42:29 -0700 (PDT)
+From: Kent Fletcher <fletcherhomebrew`at`yahoo.com>
+Subject: RE: Basic Stamp used for RIMS?
+
+
+Scott was asking bout using the Basic Stamp MCU in a
+RIMS app:
+
+
+>I am now interested in circulating my mash, and am
+>researching RIMS.
+>Someone at work suggested I use a Basic Stamp as my
+>controller, rather than
+>a PID.  Anyone doing this?  Otherwise, where can I go
+>online to look at PIDs and try to get a handle on
+>what they are all about?  As you can tell, I am
+>new to the RIMS idea, but am eager to get my
+>efficiency up.  Source for
+>heating elements, relays, PIDs?
+
+
+1. The Basic Stamp adn OOpic are examples of several
+small but reatively powerful microcontroller units
+(MCU) popular with experimenters for robotics, etc. 
+They are tiny (less than 6 in2) computers that can be
+programmed with a PC and include multiple IO's with
+such features as Analog-to-Digital (AD or A2D)
+converters, Pulse Width Modulation (PWM), serial
+in/out (connect to LCD, for example), timers, etc.
+
+
+2. A PID controller uses Proportional control with
+Integral and Derivative functions to control a process
+such as maintaining a mash temperature.  In the case
+of a RIMS application, the Proportioal control would
+increase or decrease the amount of heat output by the
+element proportionally to the deviation from the
+setpoint.  The Derivative function monitors the rate
+at which the temperature is approaching the setpoint,
+and adjusts the control output cycle to minimize over-
+or undershooting.  PID's can control temps to within
+one degree F. of the setpoint.
+
+
+3. A Basic Stamp or OOpic COULD be used to build a PID
+control.  Besides the MCU (OOpic complete for $49,
+check out http://www.oopic.com/ for info), you would
+need a Solid State Relay that could handle the load,
+input devices (thermocouple or RTD and keypad) and a
+monitor (LCD panel).  Then you would have to write the
+program to input a setpoint byte IO connected to
+keypad), monitor the temp (AD input connected to temp
+probe), control the output (PWM output connected to
+SSR), and update the dipslay (serial or byte output
+connected to LCD).  You would also have to come up
+with internal boolean logic (if mashtemp < setpoint
+then heatoutput = true) and arithmetic functions (x
+degree rise over y seconds = z output cycle) to begin
+to compete with a PID that you can buy for about $200.
+
+
+4. RIMS heating elements can be found at Home Depot or
+any well stocked plumbing supply house.  You can get
+Solid state relays from any of several surplus
+electronics suppliers like BG Micro
+http://www.bgmicro.com/ or All Electronics
+http://www.allcorp.com/
+For PID's try Grainger or Omega.  Also search the
+Digest for PID, and check Zymico's site
+http://www.zymico.com/
+Hope that helps,
+
+
+Kent Fletcher
+brewing in So Cal
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 10 Oct 2002 23:46:19 -0400 (EDT)
+From: Steven S <steven`at`403forbidden.net>
+Subject: polarware pot brewkettle false bottom
+
+
+
+
+Howdy All
+
+
+I recently acquired for a great price a 10 gallon PolarWare pot. You know
+the one with the valve spigot and thermometer port. I'm looking for a good
+false bottom or filter (ie: bazooka screen or similar). Do any of you use
+a filter/false bottom with this pot when used as a brew-kettle and can
+offer suggestions? Bazooka screen and easy-masher would work but only with
+a good deal of modification. Any of you using these care to detail your
+mods?
+
+
+
+
+
+
+Steven St.Laurent        403forbidden.net        [580.2,181.4] Rennerian
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4064, 10/11/02
+*************************************
+-------

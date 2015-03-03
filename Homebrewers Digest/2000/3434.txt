@@ -1,0 +1,1355 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA02498;
+        Wed, 20 Sep 2000 00:37:03 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA29934;
+        Wed, 20 Sep 2000 00:37:01 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA06767
+        for realhomebrew; Wed, 20 Sep 2000 00:32:09 -0400
+Date: Wed, 20 Sep 2000 00:32:09 -0400
+Message-Id: <200009200432.AAA06767`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3434 (September 20, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3434                             Wed 20 September 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  FW: Automated Process Control (automating your brew setup) ("Dave Howell")
+  FW: Automated Process Control (automating your brew setup) ("Dave Howell")
+  Stainless in Seattle out of business? ("Donald D. Lake")
+  Restarting Coopers sediment (TOLLEY Matthew)
+  HBD costs (TOLLEY Matthew)
+  Bugs In Malt ("Weaver, Joseph Todd  Capt. 39MDG/SGOAM")
+  The Baron (Ray Kruse)
+  yeast, fruit, ph,bugs ("Graham Sanders")
+  Question re: Chlorophenols ("Darrell G. Leavitt")
+  Tej ("Kruska, Russ")
+  oak shavings ("Mark Tumarkin")
+  Re: HBD costs (Some Guy)
+  More on problems with British malts/Weissheimer Pils (Paul Shick)
+  Re: Copper in a brew system (The Freemans)
+  Gravity Contribution of Sugars ("A. J.")
+  The 3-ring circus project ("Pannicke, Glen A.")
+  CO2 purging procedure ("Sweeney, David")
+  Cincinnati (Dan Listermann)
+  home roasting / aussies and humor... ("Curt Abert")
+  New Wyeast 2633 Oktoberfest (Vachom)
+  RE: copper Pipes in my HERMS (Marc Donnelly)
+  RE: Copper Pipes in my HERMS -- question (Chris Cooper)
+  Counterflow Wort Chiller (Nathan Kanous)
+  Sheaff Stout & 2 Belgain Ales (adam larsen)
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+
+
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 18 Sep 2000 17:19:14 -0700
+From: "Dave Howell" <djhowell`at`uswest.net>
+Subject: FW: Automated Process Control (automating your brew setup)
+
+
+
+
+I had to break this into two peieces because of the 8k restriction on
+posting size....
+
+
+In re Mike Kowalczyk's post on brewery automation:
+
+
+> I don't know much about the components to this type of automation, so if
+anyone can help me on the following points, I would appreciate it.
+Hope I can...
+>1. How can I turn on a switch to the mashmixer. Pretty simple question, I
+think. Is it called a relay? I think so. From the people who have already
+automated your brewery what relay(s) do you use and where did you get them?
+Depends on the horsepower of the motor.  You should find a current rating
+for it, and your choices are dictated by that current rating.
+Best to use a solid state relay, which has in it some semiconductor devices
+called photodiacs and triacs, and some other goodies. This is best if you
+are going to use a logic level output (3-32V Vdd, 20 mA drain) from
+something like a PC IDE card or some alternatives I'll outline below.  If
+you don't want to use a solid-state relay (cost), then go to Radio Shack,
+and pick up a 12V coil, 10A, solder-lug terminal relay.  You can use
+crimp-on spade connectors (the smaller variety) and 18 AWG. wire.  The coil
+is max rating at 12VDC, probably around 70-120 mA (there are several
+varieties); you can probably drive it with +5V.  If you use a solid state
+relay, look at Grayhill part 70S2-04-B-06-S, it has nice screw post
+terminals, and handles 6A `at` 120VAC.  You can get it from Digi-Key at
+www.digikey.com.
+
+
+> Has anyone used a gas valve solenoid? If so which one and how did you wire
+it? Do you need another relay to flip the solenoid switch?
+Solenoids are highly inductive loads, if you use a relay (and not a solid
+state one), you must snub the contacts with a diode back-biased, or you will
+quickly cause emf in your driver circuit, and pit/melt the relay contacts.
+Many industrial control houses sell solenoid valves (see www.omega.com for
+one).  Have you considered a ball valve and servo arrangement?  Servos can
+control the amount/flow of gas, ball valves are cheaper and available in the
+local hardware store, and you won't draw a lot of current holding it open.
+
+
+>I was thinking of using a small pilot light, so I don't have to worry about
+igniting and turning on the gas. If anyone has any better suggestions on
+this part of the automation, I'd love to hear about it.
+Use a 1.5 volt barbecue sparker, you can get from your local home-supply
+mega-depot berbecue parts section.  If you opt to build a board, drive it
+from your unregulated supply, switch it with a transistor, and use a RC
+lowpass filter (10 KHz or so) on the line (or a ferrite bead). If you use a
+serial IO module or a PLC, then you may need to provide a separate power
+supply.  In either case, if you drive it from your digital board, then
+filter it.  To ignite, spark it about 1/3 sec after you open the valve, and
+spark it three times, 1/3 sec apart.
+
+
+
+
+>I plan on scrounging and finding an old IBM AT or such and one of those
+cards that plug into it for controlling switches and stuff. I think it's
+called an A/D controller. I'm pretty good at programming, so I thought I'd
+write a basic program that reads the
+>different inputs and turns on switches or gas. For safety I plan on reading
+the temperature of the HLT or mash and if it doesn't rise in 30 seconds or
+so shut the gas down and sound an alarm. My inputs and outputs would be:
+Input: HLT temperature Input:
+>Mash Temperature Output: Mashmixer relay(?) Output: HLT Gas Solenoid
+Relay(?) Output: Mash Tun Gas Solenoid Relay(?)
+
+
+For that board, one good place to look is www.computerboards.com. On the
+board, the ADCs and DACs are probably memory mapped to some address in the
+PCI/IDE space:  make sure that if you go this route there is a GOOD driver
+available for the card. It's about $150.
+
+
+Some other things to consider:
+The solenoid should have contacts on it (a switch) that close when the valve
+is physically open.  You can use that to report the state of the gas flow,
+at the expense of another input port or pin on your board or controller.
+Make a temperature sensor (this can be found here in hbd.org at
+http://www.hbd.org/users/mtippin/thermometer.html, or by a search on the web
+for homebrew temperature controllers), use a LM35 temperature sensor or a
+NPN transistor wired as a hyperabrupt junction diode (collector and base
+tied), or use the Dallas Semiconductor DS1821.  I recommend not using
+conditioned sensors (i.e. thermocouples or other thermistors).  If you use
+an analog sensor, you will need to find a board for the AT that has 8 bit
+ADC that may be read from the board I/O addresses.  If you use the Dallas
+Semi, you will need to set up direct bit reads and fairly accurate timing on
+the board I/O pins so you can use the digital output of the device.  If you
+haven't given PID control any thought, use a PID algorithm to monitor the
+temperature (so you don't overshoot during the mash, and so that you don't
+have to reset setpoints or program in greater control when the season
+changes from summer to winter).  You can find PID algs in many places on the
+Web.
+
+
+Continued in next post
+
+
+
+
+Dave Howell
+
+
+Note:  there were NO plugs for the company I work for in this entire post!
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 18 Sep 2000 17:19:17 -0700
+From: "Dave Howell" <djhowell`at`uswest.net>
+Subject: FW: Automated Process Control (automating your brew setup)
+
+
+Continued from last post...
+
+
+For approximately $150, you can buy a PID controller from Omega Engineering
+(controls the temperature of your mash).  You still have to buy the relays,
+and you still have the solenoid control programming to deal with.  You can
+also buy some serial IO controllers from Omega or ComputerBoards for approx.
+$150 ea, which take a digital (RS232 or RS485) serial stream of ASCII data
+and turn on switches and report inputs.  Omega or other industrial control
+places sell temperature sensors, too.  You can run a modified RS-485 from
+your COM1 port (yes, I know it's RS-232, but an internet search will show
+you how to wire it so the devices will work), or you can use a RS-232/485
+Line Driver card (Black Box electronics sells them www.blackbox.com, cat #
+IC477A-M-R2, for about $100.  Other folks will have similar pricing.).  This
+will allow you to use that older 286 or 386 PC with only wiring, port
+control, and your control algorithms to do.
+
+
+Look at Programmable Logic Controllers, especially ones from
+www.tri-plc.com.  This is like buying an embedded microcontroller with all
+your interfaces pre-installed (and then some!).  You get to program it in a
+BASIC variant.  This is pretty cheap, probably around $250 by the time you
+select add-on options that you'll need.  The analog outputs are probably
+marginal for your solenoids and mixer motor, check your motor and solenoid
+ratings.
+
+
+OK, now the real challenge:  Why not use an embedded microcontroller (either
+on your IDE card or on a wirewrap or prototype board) and make your own PLC?
+The Basic Stamp from Parallax is perfect.  You can wire it with very little
+difficulty, and moderate expense ( $150 by the time you stop experimenting
+and finish the controller). You program the chip from your serial port. You
+program it in PBASIC.   If you are a C or assembly language programmer, or
+you're like me and just want to roll it yourself (this is why we mash all
+grain, right?), then use a PIC (from Microchip) PIC16C84 or similar chip.
+This is a little more expensive to get set up if you buy a programmer (the
+device which loads your assembled code into the EEPROM), but you have far
+greater control.  Both of these chips have ADC built in.  Both are extremely
+well supported with a user community (very similar to brewing), free tools
+(simulator, development environment), and development advice (applications
+notes), and in the case of the Parallax Stamp, a tutorial in how to build a
+PID controller (their Stamps In Class Industrial Controls experiments).
+
+
+The microcontroller route is probably the least expensive, but most involved
+in terms of time.  The industrial PID controller and equipment route is
+probably easiest to program, but may cost you in excess of $500.  Other
+approaches will be somewhere in between.
+
+
+To recap, your trade-space corners are:
+  - use a PID controller and other industrial controls and actuators, have
+master control from an old PC over an RS-485 (or jury-rigged 232) bus (or
+skip the PID controller, and do the PID in your own code)
+  - use a A/D board, and rig up your own actuators (triacs or solid-state
+relays) and sensors:  you probably need a 486 or Pentium for this.
+  - use a PLC, and either use your own actuators and sensors, or buy them
+  - use a microcontroller, and build your own system.
+
+
+Good luck, and let us know how it turns out!
+
+
+
+
+Dave Howell
+
+
+Note:  there were NO plugs for the company I work for in this entire post!
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 18 Sep 2000 22:09:00 -0400
+From: "Donald D. Lake" <dlake`at`gdi.net>
+Subject: Stainless in Seattle out of business?
+
+
+Does anyone know if the Beeronline d/b/a "Stainless in Seattle" people
+are still in business?  Their phone # was disconnected and the website
+seemed abandoned.
+
+
+If they are yet another casualty in the homebrew supply business, it's a
+shame......'cause they really do have a cool name.
+
+
+Don Lake
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 15:16:19 +1000
+From: TOLLEY Matthew <matthew.tolley`at`atsic.gov.au>
+Subject: Restarting Coopers sediment
+
+
+Hi all
+
+
+Told SWMBO I was going to try brewing a sparkling ale for summer, got asked
+'wot's that', and so was forced, kicking and screaming, to buy a bottle of
+Coopers Sparkling Ale for demonstration purposes :)
+
+
+I've read about restarting yeast from the sediment in bottle conditioned
+beers, and thought I'd give the Coopers ago.  I put it in the fridge, waited
+for the sediment to settle, and carefully poured off all but the last inch
+or so of beer (which I was forced to drink, alas).  I boiled up a cup of
+water with a tablespoon of dextrose, cooled it to 26oC, and added it to the
+bottle.  I shook it up, topped it off with a cork and airlock, and went to
+bed.
+
+
+Next day - nada.  I shook it up, and moved it to the lounge room where it
+was a bit warmer.  Still nothing.  It's just sitting there, looking
+decidedly unfrothy.
+
+
+I can think of two possibilities:
+
+
+ - after I went to bed, the yeast frothed up, ate everything, and went back
+to sleep
+ - the yeast are dead.
+
+
+Is there an easy way to spot dead yeast?  The sediment looks cloudy, with
+black flecks, almost like ashes, floating about in it.
+
+
+Cheers
+ ...Matt...
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 16:43:57 +1000
+From: TOLLEY Matthew <matthew.tolley`at`atsic.gov.au>
+Subject: HBD costs
+
+
+How much money are we talking about to keep HBD up and running?  I'd be more
+than happy to contribute something via PayPal or some similar e-payment
+system - beats the hell out of paying for a magazine subscription!
+
+
+Cheers
+ ...Matt...
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 10:16:27 +0200
+From: "Weaver, Joseph Todd  Capt. 39MDG/SGOAM"
+Subject: Bugs In Malt
+
+
+Consulted with an entomologist friend of mine.  Here is his answer.
+
+
+Depends on what beetle is in there.  If it is a weevil infestation (they
+have very long snouts) then it should be fine.  If there are fuzzy looking
+larvae in there then you MUST throw it away.  The hairs on the beetle
+(Dermestid beetle) larvae are bad for your digestive tract.  Dermestids are
+your only big problem though.  The rest of the common pests are more of a
+nuisance.  If the numbers are very high in the product it could affect the
+taste.  The usual rule of thumb is under seven insects per pound of product
+is ok.  Freezing is the best option and then you can just pick the insects
+out or sift them if it is flour.  Good luck.
+
+
+Long term control is to find all infested products and freeze or destroy
+them.  Then if you continue to have problems you should get plastic
+containers to put your grain in.
+
+
+Todd Weaver 
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 06:16:16 -0400
+From: Ray Kruse <rkruse`at`bigfoot.com>
+Subject: The Baron
+
+
+First of all, for all of you who don't want to read any non-brewing
+related posts, start tapping your <PG-DN> key now.  Don't stop until
+told to do so.
+
+
+Michael Owings at Swampgas has been gracious enough to allow me some
+server space to post my Burradoo pics for those of you who might be
+interested in any evidence of the Baron's true existence.
+
+
+http://www.swampgas.com/brewpics
+
+
+I was lucky enough to get to the Southern Highlands to meet Phil, Jill
+and Phoebe.  The photos at the URL are posted with Phil's permission.
+The cat is Phil's own, and I can vouch for the fact that the tail is
+attached naturally, without stitches, velcro or glue.  While I was
+there, there was no entertainment which involved the cat.  (I, however,
+have a squirrel problem and am willing to ship up to 25 at a time to any
+of you who are willing to receive them.  With or without tails.)
+
+
+The picture names cover the subject, but if anyone has any questions,
+please post privately.
+
+
+To keep this brewing related, the Rice Lager is everything that he
+claims it to be.
+
+
+For those of you still hitting the <PG-DN> key,
+
+
+STOP
+
+
+Ray Kruse
+Glen Burnie, PRMd
+rkruse`at`bigfoot.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 20:08:42 +1000
+From: "Graham Sanders" <craftbrewer`at`cisnet.COM.AU>
+Subject:  yeast, fruit, ph,bugs
+
+
+G'day All
+
+
+Well here in the remote North I watch with a certain degree of curiosity how
+people are always willing to tie themselves into knots, over the most silly
+little things. (I only do that in the bedroom, and thats to escape the
+clutches of SWMBO) You wonder how the hell wars start, millions die, and
+then you read the ol' HBD and its perfectly clear.  Lets see how open minded
+we all are when the largest internet users find us and their culture swamps
+the HBD.  Yes rice lager will take on a whole new meaning.  Ak well enough
+deep stuff, on to some people
+
+
+Date: Thu, 14 Sep 2000 10:19:16 -0400
+From: "Pannicke, Glen A." <glen_pannicke`at`merck.com>
+ .  Recently I have purchased a dozen glass petri dishes figuring
+that my lame budget would fare better than with disposables.  But I have
+never used glass ones before and a few questions arise:
+
+
+1. How best to sterilize the media?  seperately or in the dish?
+2. Should a wire rack be constructed to stack the dishes (with covers on) in
+the pressure cooker to prevent breakage and raise the bottom ones above the
+liquid level (if filled previously to sterlizing)?
+3. What's the best way to clean them?  I currently run my used glass culture
+tubes through the cooker to melt the agar, pour it out and then wash with
+detergent followed by a chemical sterilzer before refilling and sterilizing
+again.
+_______________________________
+
+
+Ok , 1. I believe in minumising the risk as much as possible, as we dont
+have those fancy cabinets.  So I would steralize in the dish so that all I
+have to do is push the lid  over and on - done.
+
+
+2. This answers itself.  yes a rack should be made to keep it out of the
+water. And if you design the rack so the plate lids are 3/4 on, so they can
+easily be slid on.
+
+
+3. I clean all my glassware with a soak in dilute castic NaOH overnight and
+rinse and dry. Thats it.  It then get steralised in the Autoclave/pressure
+cooker with the media in it.
+
+
+
+
+From: "Ray Daniels" <raydan`at`ameritech.net>
+Subject: Nov-Dec Zymurgy
+
+
+We also have an important piece on the possible dangers of using
+fruit in beer -
+__________________________________________
+
+
+Now here in North Queensland I have an abundance of tropical fruits, and I
+do mean bloody heaps.  Even the flying foxes can't eat them all.  Now I have
+used nearly every type in my lambics, And yes some are a definite no-no if
+you are not careful.
+
+
+Now I can tell you, overdo a mango lambic, and shit (and I do mean that
+word) you can set your clock by it.  Three glasses, and two and a half hours
+later, well even the gential grabbing frogs wont have a chance, you just
+flood the bowl .........  ok yo get my drift.  Mind you, its a good way of
+getting rid of freeloaders.
+
+
+And a certain sopote has a drug in it that will put you to sleep quicker
+than SWMBO whispering to you in bed, "Honey I feel like,,,,,,,,,,,  ohhhhhhh
+the thought. NOOOOOOOOOOooooooooo.
+
+
+Other fruits can be poisonous if used before they are ripe.  So do i have
+any takers for my latest fruit lambic, or are you all waiting for my lychie
+lambic.
+
+
+
+
+From: "Houseman, David L" <David.Houseman`at`unisys.com>
+Subject: Flour Weevils?
+
+
+ Recently my
+wife found little bugs all over the pantry.
+______________________________
+
+
+being an lad from a station, yep a common problem.  Yet again this is a case
+where we have em, bigger and  tougher over here.  Freezing didn't always
+kill the little blighters, unless it was for a long time.  Certainly slowed
+them down thou.  Gasing works great, (gets rid of Elle out of the spent
+grains), basically most gasses will do the job, for us craftbrewer its CO2
+or N2.  But remember, if they are adults, they have already had rampant sex
+in your grain and eggs remain.  Rarely do these eggs all hatch at once, so
+repeated gasings are necessary.  make sure its before they get to adult
+stage and do what adults do best (with a little practice)
+
+
+Shout
+
+
+Graham Sanders
+
+
+Oh, - this talk about something cheep to measure PH.  I have one of those
+you-beaut ones that does everything.  But a thought occurred to me.  Those
+soil test one, with the indicators and white powder. They would be OK.
+certainly in the range, white powder to colour up, and accurate enough for
+beginners. Can't see why they woudn't work.  They did in my younger days in
+the field, and I was measuring dirt.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 06:08:12 -0400
+From: "Darrell G. Leavitt" <leavitdg`at`plattsburgh.edu>
+Subject: Question re: Chlorophenols
+
+
+Has anyone experience with the effects of "chlorophenols"?  I 
+as in that I am trying to trace down a flavor that some of the 
+blokes who share my homebrews have discovered in their 
+flavor.  Is it possible for traces of chlorox left from 
+cleaning to create flavors in the finished product?  I know 
+that G. Fix mentions this and I wonder if amyone has 
+experienced it?
+
+
+ ...Darrell
+
+
+- --------------------------
+Darrell G. Leavitt, PhD
+SUNY/ Empire State College
+- --------------------------
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 03:54:53 -0700
+From: "Kruska, Russ" <R.KRUSKA`at`CGIAR.ORG>
+Subject: Tej
+
+
+Mark mentions Tej that he's had in an Ethiopian 
+restaurant. 
+
+
+I have had Tej in Ethiopia many times.  It is 
+honey based and what the Ethiopian's call 'hops' 
+are actually the leaves of a special tree.  If 
+you need the name of the tree I can find out 
+from our Financial Controller here at work who 
+is Ethiopian. 
+
+
+Buna Tej is spiced with coffee beans, try it if 
+you can... ;-) 
+
+
+Russ
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 07:22:00 -0400
+From: "Mark Tumarkin" <mark_t`at`ix.netcom.com>
+Subject: oak shavings
+
+
+Chris asks-
+i hear alot of talk about oak chips and shavings etc ... whats my best way to
+go about this add some shavings to my furmenter
+or throw some in to my boil ? thanks a million !!
+
+
+Put the oak in your fermenter - definately NOT in in the boil as you would
+extract way too many tannins. The beer would probably be undrinkable,
+certainly very astringent.
+
+
+Think about how oak was used - beer was stored in barrels, not boiled in oak
+tuns. This is a much more complex issue than just extracting the tannins,
+vanillans, etc from the oak. There is also slow oxidation, brett and other
+microflora that can live in the barrels, etc. that contribute flavors to the
+beer. Also, consider that if you were using an actual oak cask; the more times
+you use it, the less the flavor contribution. That said, it doesn't take much
+fresh oak to give the beer an oaky character, so start with less than you
+think you may need - and/or for a shorter period of time.
+
+
+I'm sure we've all had stouts, etc that have been finished in bourbon casks.
+Very nice. Has anyone tried soaking oak shavings in bourbon (or a good rum
+might be interesting) prior to using in beer?
+
+
+Mark Tumarkin
+Gainesville, Fl
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 07:24:49 -0400 (EDT)
+From: Some Guy <pbabcock`at`hbd.org>
+Subject: Re: HBD costs
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Matt echoes a question I've been getting a lot in private email...
+
+
+> How much money are we talking about to keep HBD up and running?  
+
+
+
+
+The HBD needs about $200 a month to maintain its connection, per current
+analysis into balanced DSL costs. Details on sponsorship levels are
+detailed on http://hbd.org/sponsorhbd.html or click the banner at the top
+of http://hbd.org
+
+
+I don't want this to sound like I'm trying to make a threat, but please
+note that the clock is ticking on our current connection. O&E will
+implement its plans whether or not the HBD has found its way off of their
+network. Before making a commitment to a DSL line, I require the funding
+for it be in place because I cannot afford to foot the bill myself.
+
+
+Thanks!
+
+
+- -- 
+ -
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+
+
+"The monster's back, isn't it?" - Kim Babcock after I emerged
+                                  from my yeast lab Saturday
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 08:46:30 -0400
+From: Paul Shick <shick`at`jcu.edu>
+Subject: More on problems with British malts/Weissheimer Pils
+
+
+
+
+
+
+Hello all,
+
+
+    Just to add some detail to my diatribe on British malts:
+I'm not complaining about chill haze (or at least, not just
+that.)  I've been running into problems for three years now
+with bags of British malt that are seriously flawed.  The first
+example, in early 1998, was a batch of Marris Otter that was
+extremely overmodified:  the malt was mealy to the point of
+nearly milling itself.  In brewing, this results in about 20%
+lower extract than normal, at least using my techniques, although
+the beer wasn't overly hazy.  Several other HBDers reported similar
+problems with the same lot number.  In 1999 and this summer, I've 
+run into bags that weren't so obviously overmodified, but exhibited
+similarly lowered extract (about 10-15% lower than expected) and
+persistent chill haze (at 50F, for those who worry about my cellaring
+habits.)  
+
+
+     My records on malt purchases are not nearly as careful as my
+brewing records, but it looks as if about one out of every three
+bags of British malt has been problematic.  During that same time,
+I've had no difficulties at all with American or German malts, bought
+in quantities at least as large.  For me, this is enough evidence to
+switch to American pale ale or ESB malts.
+
+
+     While thinking about malts:  thanks very much to Nate "Del"
+Lansing for the Weissheimer Pils analysis.  It certainly looks
+like they've lowered their modification considerably over the last
+few years.  Given the protein level (11%) and Kolbach index (37.6),
+I'm inclined to add a short ``protein rest" of 15 minutes at 133F
+to my mashing regime.  Any suggestions are welcomed.
+
+
+                        Paul Shick
+                        Cleveland Hts, OH
+                        (Basement brewery temporarily dismantled
+                        to move to a new house.  Thank God for
+                        stockpiles.)
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 07:49:09 -0500
+From: The Freemans <potsus`at`Bellsouth.net>
+Subject: Re: Copper in a brew system
+
+
+I use copper pipe in "the perfesser".  There are still breweries out
+there that have mashtuns and fermenters made entirely out of copper.  I
+know of one brewerie that has commissioed a copper section for some of
+their piping in order to get totally away from stainless as they feel
+that there is a need for copper ions in the brew.
+
+
+In short - not to worry.
+
+
+Hope this helps.
+
+
+Bill Freeman aka Elder Rat
+KP Brewery
+Birmingham, AL
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 12:48:43 +0000
+From: "A. J." <ajdel`at`mindspring.com>
+Subject: Gravity Contribution of Sugars
+
+
+I hope readers will be interested in the results of an experiment I
+performed based on a  question a few weeks back concerning the gravity
+contribution of unconverted starch. Our (by whom I mean brewers) scheme
+of measuring wort specific gravity and calculating from it the pounds of
+"extract" per gallon of wort are all based upon work done with sucrose
+by various investigators culminating in the work of the
+Normal-Eikungskomission on which the ASBC tables are based. Thus if one
+puts a pound of pure sucrose into a container and adds water to make 10
+pounds of solution he would have a 10% by weight sucrose in water
+solution and a Plato calibrated hydrometer would be expected to read
+exactly 10 degrees and one calibrated in specific gravity units
+(20C/20C) would be expected to read 1.04003. With respect to a recent
+posting on a questionable hydrometer, this is a reasonably simple way to
+calibrate it. All you need is a scale and some table sugar. Put a beaker
+or other suitable containeer on the scale and tare it. Put an ounce (or
+20 - 30 grams) of table sugar into the beaker and record the weight. Now
+add water until the scale reads 10 ounces or 10 times the number of
+grams of sugar. Stir to dissolve the sugar and fill into the hydrometer
+jar. A properly calibrated hydrometer will read 1.0400 or 10P. The other
+hydrometer will not read 0 in distilled water but it will probably have
+and indication (a tic labeled 'W' for example) as to where it should
+read in water.
+
+
+While our worts do contain some sucrose they also contain maltose,
+fructose, glucose, other disachharides, oligosaccharides, dextrines and
+some (but we hope very little) unconverted starch. What would the
+hydrometer read if placed in a 10% w/w solution of one of these sugars?
+If the answer is 10 Plato or close to it the hydrometer is vindicated as
+an instrument which tells us how much of that sugar is in the wort. If
+this is the case for an assortment of sugars (i.e. they all read close
+to 10P for a 10% solution) then we can conclude that the hydrometer is
+reasonably accurate for measuring sugar content of wort independent of
+the particular spectrum of sugars found in a particular wort. My
+experiment suggests that this is the case.
+
+
+To get  numbers I made up solutions of sucrose, fructose, glucose,
+maltose, dextrine and starch as above i.e. by weighing out the sugars
+into a tared container and adding water until the total weight indicated
+that the solution was nominally 10% w/w (in most cases). I then measured
+the specific gravity (as quickly as possible - water evaporates rapidly
+when you don't want it to) which was then converted to degrees Plato.
+The Plato number is compared directly to the percent solids by weight.
+
+
+                                      Calculated  Measured
+Sugar        Assay *           w/w%     Plato      Error
+
+
+Sucrose      Min 99.9%   9.9974     9.99     -0.074%
+Glucose      N/A            10.0032     9.91     -0.93%
+Fructose     Min 98%     10.0028  10.08    +0.77%
+Maltose      Min 92%       9.4911    9.53     +0.41%
+Dextrin       N/A               9.9990    9.94      -0.59%
+Starch        ACS              1.851      1.56    -15.72%
+
+
+* Assay as reported on the label by the manufacturer. N/A = no assay
+information supplied.
+
+
+The sugars differ somewhat in purity and water of hydration. The sucrose
+is "Ultra Pure" grade. The availability of ultra pure, water free (and
+not very hygroscopic) sucrose may well be the reason that this sugar was
+chosen to be the standard.  The sucrose Plato measurement was,
+unsurprisingly, closest to the % by weight of the sucrose in the
+solution. The errors in the last column are percentages of degrees
+Plato.
+
+
+It is interesting that the two components of sucrose, i.e. fructose and
+glucose, show errors of about the same magnitude though they are
+opposite in sign. They would, thus, tend to cancel as we might expect
+but it is also possible that these values relate to a combination of
+differences in purity and measurement technique.
+
+
+The maltose used contained 1 molecule of water of  hydration. The weight
+of the maltose was scaled by the ratio of the formula weight of the
+sugar minus this water to the formula weight of the sugar so that the
+calculated w/w is that of maltose alone.  The maltose also is known to
+contain as much as 3% glucose. The dextrine also contains some water of
+hydration but the exact proportion was not specified on the label. Thus
+the dextrine weight was not adjusted.
+
+
+As the monosacharides, disaccharides and dextrines all resulted in
+errors of 1% or less (i.e. 0.1 Plato degree in a 10P wort) I conclude
+that the accuracy with which a hydrometer reading tells us wort sugar
+content is at about this level. Thus, for example, if a brewer uses a
+calibrated hydrometer and reads a wort at 1.048 it's sugar content is
+11.912 +/- .12  grams per 100 mL of wort. As the wort weighs
+0.999203*1.048 (at 20C) or 1.0472 grams/mL the sugar content is
+11.912/1.0472 = 11.375 +/- 0.11 grams per 100 cc or 113.75 +/- 1.3 grams
+per liter - in English units 0.946 +/- 0.1 pound per gallon.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 09:24:05 -0400
+From: "Pannicke, Glen A." <glen_pannicke`at`merck.com>
+Subject: The 3-ring circus project
+
+
+Dan Listermann wrote of weevils:
+>Mary Ann Gruber of Briess Malting assured me that dead weevils do not cause
+>hazes.  I am unsure how serious she was when she told me this.....
+
+
+But how do they affect the head retention?   ;-) yech!
+
+
+Jerry "Beaver" Pelt asked the mothly question:
+>By the way, what is a SWMBO?
+
+
+And Frank Tutzauer has another variation on the theme:
+>because SWMBO is also SWMBBF (She Who Must Be Brewed For)
+
+
+I think we can safely say that SWMB_ is the She Who Must Be - something.
+Where the something is dependent upon upon the particular "she" in question
++ her mood.  Thusly, we have  O - Obeyed, BF - Brewed For, T - Tolerated, S
+ - Supplicated, A - Avoided... you get my drift.  The combinations are
+ability to act like a perpetual child, the ladies just call us HWMBE - He
+Who Must Be Entertained ;-)
+
+
+Now for some seriousness:
+
+
+I am in the process of designing a 3-tier system with converted cornies,
+copper pipe, pumps - the whole 3-ring circus.  Since I'm looking to automate
+most of it for temperature stepping and maintenance,  I'll be using heating
+elements in the mash tun (RIMS) and boiler.  Much easier to control than
+gas.  But for the quick ramp time I want to use LP gas.  I figure that cajun
+cookers can bring my HLT to temp and my wort to a boil pretty quickly.  Then
+I can run a program on the mash tun or the kettle to maintain temp or step
+up temp with an electric heating element.  This will then allow me to leave
+it unattended for a little while.  Now that you know what I wanna do, based
+on a 10 gallon batch (max) here's my questions:
+
+
+1. Will boiling wort have any adverse effect upon an electric hot water tank
+heating element?
+2. Do 220V heating elements have enough thermal output to bring wort from
+sparge temp to boil within a reasonable amount of time?
+3. How about 110V?  I know the wattage is about 1/2 and therefore the heat
+is cut proportionally.
+4. I've seen some RIMS systems use black pipe as the RIMS chamber.  What is
+the composition of black pipe & it's effect upon wort?
+5. Given enough electrical power, is propane supplement even needed?
+6. Does a 180,000 BTU cajun cooker throw enough heat at a 10 gal batch to
+bring it to boil quickly?  (this may be a dumb question)
+
+
+
+
+Carpe cerevisiae!
+
+
+Glen Pannicke
+http://www.pannicke.net
+"He was a wise man who invented beer" - Plato
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 08:32:48 -0500
+From: "Sweeney, David" <David`at`studentlife.tamu.edu>
+Subject: CO2 purging procedure
+
+
+I've bought my kegging equipment and now I need some help.  People talk
+about "purging" the cornelius keg with CO2 prior to transferring the beer
+from the primary.  I know you blast the keg with CO2, but what is the
+process and for how long? 1 second, 10 secs, 1 minute?  Is the lid open? on
+and closed? on and loose? Output open?
+
+
+How do you transfer the beer into the keg?  Racking cane and gravity?  Is
+there a way to transfer the beer under gas pressure?
+
+
+David Sweeney
+Texas A&M University
+david`at`studentlife.tamu.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 09:42:38 -0400
+From: Dan Listermann <72723.1707`at`compuserve.com>
+Subject: Cincinnati
+
+
+Nathan Kanous ( nlkanous`at`pharmacy.wisc.edu) asks about things to drink in
+Mason,OH.  If you don't get a car, bring some reading material.  
+
+
+Should you find transport, check out Watson Brothers Pub in Blue Ash first,
+then continue down 71 to - ta da! Listermann brewery supply west of exit 5
+at 1621 Dana.  When you have had you fill of us, get back on 71 and go down
+town to the Barrelhouse on 12th between Vine and Walnut.  The director of
+the Hofbrauhaus was in town a few years ago and wanted to know who made
+their hefeweitzen.  
+
+
+ If you are still in the mood, check out Rock Bottom on Fountain Square at
+5th again between Vine and Walnut.  Very clean if uninspired.
+
+
+Still standing?  Well choose German, Irish or Scottish.  Nickelson's
+Scottish pub is near 6th and Walnut.  Hand pulled ales.....
+
+
+Irish, check out Jack Quins at 4th and Court across the river in Covington.
+ Guinness, Murphy's and Beamish plus a lot of others.
+
+
+German?  Not so easy to find, but well worth a visit, the home of the
+Bloatarian Brewing League is Mecklenburg Gardens at Highland and University
+up by the University of Cincinnati.  It is a 1865 German bier garten with
+the grape arbors and everything.  They have 16 taps none of which has ever
+passed anything made by A-B, Coors or Miller.   Last spring they had four
+doublebocks on tap...........very dangerous.
+
+
+Don't forget to check out Listermann's........open 10 to 6 Mon - Sat. 
+(513) 731-1130.
+
+
+Dan Listermann  dan`at`listermann.com    Check out our new e-tail site at
+listermann.com.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 08:53:40 -0500
+From: "Curt Abert" <abert`at`jokulhlaup.isgs.uiuc.edu>
+Subject: home roasting / aussies and humor...
+
+
+Hi all,
+
+
+Many thanks to Graham Sanders for his recent postings about
+home roasting!  Although I'm merkin and have access to many
+kinds of specialty grains, I've often taken the path of home roasting
+as I feel that freshly roasted malt has much more robust flavor than
+purchased.  I've never quite approached it like Graham, but have
+saved his posts for future reference.  Thanks again!!
+
+
+Just to add my $.02, I kind of like the current mix of the HBD.  There
+is still plenty of information presented by many posters, now it is
+just sprinkled with a bit of lively banter.   If you don't like it,
+don't read it.  My only problem now is that I have to be careful not
+to snort coffee on my keyboard....
+
+
+I'm hoping that a couple of our friends from across the big pond could
+answer a question for me.  During the Sydney Games opening ceremony,
+many things Aussie were highlighted:  the ocean, the reef, Aboriginee
+culture, etc.  I especially liked the bit about Ned Kelly (now the chain
+of steakhouses makes sense).  In the american broadcast, Ned was
+played up to be a hero, very much like our own Jesse James.
+However, after it was over, I was sorely disappointed to see that
+another famous Aussie was left out.   What about Yahoo Serious????
+
+
+Oh yeah, I would encourage everyone to brew a CAP soon.  Something
+has to be done with all of the corn we grow, and it might as well be
+in a home(craft)brew
+
+
+Cheers,
+
+
+Curt Abert
+Champaign, IL
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 09:18:51 -0500
+From: Vachom <MVachow`at`newman.k12.la.us>
+Subject: New Wyeast 2633 Oktoberfest
+
+
+Has anyone had any experience with this new yeast?  I'd like to pitch it on
+a pilsener, but I'm a bit gun shy after a recent bad experience with another
+new Wyeast product, 3724 Saison.  
+
+
+Mike
+New Orleans, LA
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 00 09:38:17 -0500
+From: Marc Donnelly <marc`at`deptstores.dhc.com>
+Subject: RE: copper Pipes in my HERMS
+
+
+>From what I hear, you should be ok.  If you hear anything else email me.
+
+
+The reason why I think it's ok (as long as you use lead free solder) is 
+many brew kettles are copper and home plumbing is copper (both hot and 
+cold) with no problems.
+
+
+check out copper.org
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 11:55:30 -0400 (EDT)
+From: Chris Cooper <ccooper`at`a2607cc.msr.hp.com>
+Subject: RE: Copper Pipes in my HERMS -- question
+
+
+Greetings all!  
+
+
+In response to the question concerning the use of copper tubing in the 
+home brewery;  I have been using a converted keg boiler with an integrated
+20'x1/2" cooling coil for the past couple of years with no ill effect.  I
+clean my copper with a weak solution of white vinegar and salt followed by 
+a generous rinse with very hot water.  I would use the same approach to
+clean the interior of a HERMS coil (recirculate the vinegar solution for a
+while followed by the hot water).  The only thing to be cautious of is
+the green oxidation that sometimes forms on copper but the previous 
+mentioned cleaning process takes care of that (I sometime us green a
+"scrubby" pad if there is a stuborn stain to be removed).
+
+
+On another note, Chris asked in #3433 about the use of oak chips in brewing.
+I have experimented with them on several batches and have concluded that 
+adding about 1-2 oz. of coarse oak chips (the kind sold by home brew or 
+home wine making shops) to the secondary for 5-7 days will impart a slight
+woody flavor to your brew.  I would suggest using them with an English style
+ale with a good malt profile. Their use in a "hoppy" brew I found to be 
+less than desireable.  While I think that the effect is interesting I don't 
+think that I will be repeating the experiment any time soon.  Just a cautionary
+note, DO NOT USE American white or red oak, the flavor profile is way too 
+strong.  The chips I used were European Oak (according to the packaging).
+Another caution, be careful when using wood with food stuffs in general, many
+exotic and aromatic woods contain compounds that are toxic.  So do your 
+research carefully!
+
+
+This last topic brings to mind a recent tour I went on at AB's  Ft. Collins,
+Colorado brewery.  In particular the disscussion of the "beechwood aging"
+used by AB.  According to the tour guide (who was actually quite well 
+informed, and a home brewer himself) the beechwood chips are placed in a large
+stainless steel cylinder with a million holes in it and then inserted into
+one of the secondary fermentation chambers (kind of like a large tea ball!).
+The purpose was stated to be that the wood chips create a place for the yeast
+cells to attach with out their simply falling into a compressed mass at the
+bottom of the tank.  By keeping the yeast's effect surface area maximized the
+fermentation completes providing a natural level of carbonation to the product.
+They use beechwood (grown on plantations in the south, I believe he said 
+Alabama) because it imparts virtually no flavor to the finished beer.  
+
+
+The chip topedos are removed and cleaned and the wood chips are reused 2 or
+3 more times then they are given to the local city where they are ground up
+and used as mulch on community gardens and parkways.  The "chips" are strips
+of beechwood a couple of inches wide, up to 1/2" thick and anywhere form 3" 
+to a couple of feet in length. They are curled and when put in the torpedo 
+create a labrynth through which the beer may flow. 
+
+
+This presentation got me to thinking (always risky!) about possible application
+of the technique to the home brewery.  I know that scale would be the biggest
+challenge but what about putting a passive medium in the bottom of the 
+secondary for a pilsner to help keep the yeast from settling into a compacted
+yeast cake, like maybe some glass marbles?  Any thoughts or ideas?  Has anyone
+else considered this? Or should I just go have a home brew?
+
+
+All in all an interesting idea.  Say what you will about the big boys but I
+really enjoyed my afternoon at the Ft. Collins AB brewery.  One thing really
+hits you and that is the scale of it all.  I also toured the New Belgium and
+Odells breweries in Ft. Collins, both were great hosts and makers of fantastic
+beer! 
+
+
+
+
+
+
+
+
+Chris Cooper, Pine Haven Brewing (aka. Debbi's Kitchen) 
+Commerce, Michigan    Member, Ann Arbor Brewer's Guild
+(Approximately 25 miles from 0.0 Renerian)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 10:56:30 -0500
+From: Nathan Kanous <nlkanous`at`pharmacy.wisc.edu>
+Subject: Counterflow Wort Chiller
+
+
+Hi All,
+Looking for some technical information on a counterflow wort chiller.  I've 
+made a counterphil chiller.  Works great, except it's slow.  I've seen some 
+info on the web regarding the use of 1/2" OD copper tubing inside a 5/8" ID 
+garden hose.  I think I've got 1/2" ID copper tubing at home that I could 
+use.  Does anyone have any experience with this size copper tubing in a CF 
+wort chiller?  Any help would be appreciated.
+nathan in madison, wi
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 10:41:54 -0600
+From: adam larsen <euphonic`at`flash.net>
+Subject: Sheaff Stout & 2 Belgain Ales
+
+
+Hello all,
+
+
+    I was wondering if any of the Australians in the readership could
+tell me a bit about Sheaf Stout.  It used to be a very fine brew back
+about 10 ago when it was made by the Union Brewery but when i tried it
+recently the taste was quite unremarkable.  Apparently, Union Brewery
+was bought out by some larger firm which would explain it.  In any case,
+i was wondering if any one had decent "clone" recipe for this once fine
+ale.
+    In terms of clones of a rather different sort i was hoping that
+someone in the readership in general could tell me a bit about how to go
+about making Abbaye De Floreffe Blond style ale and something fairly
+close to a La Trappe Quadruple.
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3434, 09/20/00
+*************************************
+-------

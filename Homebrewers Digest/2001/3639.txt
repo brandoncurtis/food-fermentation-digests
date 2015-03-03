@@ -1,0 +1,1230 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA22113
+        for <spencer`at`srvr5.engin.umich.edu>; Tue, 22 May 2001 01:52:58 -0400 (EDT)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr22.engin.umich.edu (8.9.3/8.9.1) with ESMTP id BAA09607
+        for <spencer`at`engin.umich.edu>; Tue, 22 May 2001 01:52:56 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA09725
+        for realhomebrew; Tue, 22 May 2001 00:33:23 -0400
+Date: Tue, 22 May 2001 00:33:23 -0400
+Message-Id: <200105220433.AAA09725`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3639 (May 22, 2001)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3639                             Tue 22 May 2001
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  : geometry, algebra, and other simple logic. ("Max McDonohue")
+  Re: Hop pellets and the Bazooka screen (james r layton)
+  wheat beer (JGORMAN)
+  Re: Re: Hop pellets and the Bazooka screen (Pat Babcock)
+  Protein Rests and hot breaks (Bob)
+  New Haven, CT (John Baxter Biggins)
+  CAP experiment (Marc Sedam)
+  Re: Cider as an ale yeast starter??? ("Herman  Holtrop")
+  Grand Heating? (Brad Miller)
+  CAP (EFOUCH)
+  Converting All-Grain Stout to Extract ("Hedglin, Nils A")
+  Flocculation, geometry, etc. (David Harsh)
+  Re: Bringing Beer Back (Tom Riddle)
+  experimental design vs. experience (Jan-Willem van Groenigen)
+  CAP Experiment (Mike.Szwaya)
+  slow or clogged counterflow ("Bruce Garner")
+  PID as fridge controller ("steve lane")
+  CAP experiment (Chris Cooper)
+  Experiment ("Pannicke, Glen A.")
+  CAP experiment (" Jim Bermingham")
+  Cap Experiment ("Jason Henning")
+  Transporting CO2 canisters. (Craig MacFarlane)
+  numbering each post ("Thomas D. Hamann")
+  Vessel Geometry ala Jethro ("Rob Moline")
+  H:W/aspect/oxygen uptake ("Nathaniel P. Lansing")
+
+
+
+
+* 
+* 2001 AHA NHC - 2001: A Beer Odyssey, Los Angeles, CA
+* June 20th-23rd See http://www.beerodyssey.com for more 
+* information.
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 21 May 2001 19:37:21 +1000
+From: "Max McDonohue" <max`at`hinet.net.au>
+Subject: : geometry, algebra, and other simple logic.
+
+
+Hello All
+I have been reading quite a bit in your archives and beginning to understand
+a little better about all the goings on in here. But i don't understand much
+of the talk about brewing beer. Have some of you lost the plot?
+
+
+Now I read from this Dr Pivo that he reckons by changing the fermenting
+container's shape you can actually make a different beer. Am I reading this
+right? If i bash in the sides of my brew bath or even tip it up on its side,
+does he suggest i could make something like a Tooheys instead of a Reschs?
+Well at this stage i don't seem to be making beer that tastes much like
+either. But can this Doctor of Beer be serious?
+
+
+I have heard that adding more or less sugar can change your beer but i would
+never have thought to give the bath a severe bashing. What shape is likely
+to make a Tooheys? I would be very happy if i could make a Tooheys.
+
+
+Max McDonohue
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 06:47:18 -0500
+From: james r layton <blutick`at`juno.com>
+Subject: Re: Hop pellets and the Bazooka screen
+
+
+Zymie says of his bazooka screen product:
+
+
+>The length of the screen assures that you'll have a clear pickup point
+somewhere in the >kettle, not just if/when/how you've whirlpooled away
+from it.
+
+
+Yes, if some portion of the screen sticks out above or beyond the hop
+pellet and break material, there should be no clogging. That will all
+depend on things like kettle diameter, shape of the kettle bottom, amount
+of hop pellets, and the position of the screen in the kettle. I never
+meant that your product could not possibly work with hop pellets, only
+that the pickup should be designed to draw wort from a point outside of
+the layer of debris. 
+
+
+Good products are sometimes used in badly designed applications where
+they may be unfairly  blamed for poor performance. I hate to see that
+happen.
+
+
+Jim Layton
+Howe, TX 
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 08:47:00 -0400
+From: JGORMAN`at`steelcase.com
+Subject: wheat beer
+
+
+Has anyone had a similar experience?  I brewed up an 85% wheat ale this
+weekend with the following grain bill:
+
+
+7# wheat malt
+0.5# cara-pils
+0.5# honey malt
+0.5 oz orange peel
+Enough rice hulls to unstick my sparge
+
+
+I mashed expecting my typical 75% efficiency and only ended up with 55%.  Is
+this typical with near 100% wheat malt beers?  I know sometimes efficiencies
+can be low if you use unmodified adjuncts but this was fully mod wheat.  It
+also took a long time to convert.  The wheat is fairly new so I am almost
+positive it was still viable.
+
+
+Jason Gorman
+River Dog Brewery
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 08:02:03 -0400 (EDT)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Re: Re: Hop pellets and the Bazooka screen
+
+
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+On Mon, 21 May 2001, james layton wrote:
+
+
+> Zymie says of his bazooka screen product:
+> 
+> >The length of the screen assures that you'll have a clear pickup point
+> somewhere in the >kettle, not just if/when/how you've whirlpooled away
+> from it.
+> 
+> Yes, if some portion of the screen sticks out above or beyond the hop
+> pellet and break material, there should be no clogging. That will all
+> depend on things like kettle diameter, shape of the kettle bottom, amount
+> of hop pellets, and the position of the screen in the kettle. I never
+> meant that your product could not possibly work with hop pellets, only
+> that the pickup should be designed to draw wort from a point outside of
+> the layer of debris. 
+> 
+> Good products are sometimes used in badly designed applications where
+> they may be unfairly  blamed for poor performance. I hate to see that
+> happen.
+> 
+> Jim Layton
+> Howe, TX 
+> 
+
+
+Whirlpooling is optional. Personally, I don't bother, and have had no
+problems. 
+
+
+I used a "home made" equivalent to the Bazooka, made with mnesh obtained
+from our own Wally Meisner on the Home Brew Flea Market. My success has
+not been a matter of having part of the screen poking up above the trub
+layer, but a matter of available surface area. If you have sufficient
+surface area, the entire screen can be covered with trub and still pass
+wort - the trub covering a small surface area will compact like concrete
+from the pressure of the wort being drawn from the kettle. Having more
+surface area reduces the pressure of the draw on any given portion of the
+screen, reducing likelihood of such compaction, keeping your stress level
+and the wort flow rate to acceptable levels duuring your brew session. To
+further impress you, I use pumps to draw from the kettle. Nary a plugged
+up screen. I cannot say that regarding any of my prior methods - including
+such notables as copper "pico screens", chore boys, or any other means.
+
+
+No different than the function of the screens in your mash tun.
+
+
+A free tip: If you find that proteins in the wort have turned your screens
+into dumplings, a soak in dishwasher detergent or caustic will clean it
+nicely...
+
+
+- -- 
+ -
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+
+
+"The monster's back, isn't it?" - Kim Babcock after I emerged
+                                  from my yeast lab Saturday
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 06:29:46 -0700
+From: Bob <bobo99`at`best.com>
+Subject: Protein Rests and hot breaks
+
+
+In the never ending quest for crystal clear beer(without filtering). I
+have switched from my usual single infusion mash to a step mash
+incorporating a protein rest at 130F(54.5C) for 20 minutes.After that I
+use direct heat and bring it up to sach temps of 150-153. One thing I
+noticed is my hot break after the boil starts is so small it's
+practically non-existent. I hope I'm not breaking down too much protein
+as to lose body/head retention. I use highly modified Marris Otter in
+most of my beers. Anyone shed any light on this?
+
+
+Brewer Bob
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 10:09:44 -0400
+From: John Baxter Biggins <jbbiggin`at`med.cornell.edu>
+Subject: New Haven, CT
+
+
+I'm attending a Chemical Biology symposium at Yale this upcoming 
+Friday. It has been over 5 years since I've been to New Haven, so if 
+anyone can give me the low-down on the brewpub scene, it'd be much 
+appreciated.  All I seen to remember is the BruRoom.  Private email 
+OK.
+
+
+ -john
+- -- 
+John B. Biggins
+Cornell University Medical College
+Weill Graduate School of Medical Sciences
+Student -- Program in Pharmacology
+
+
+Memorial Sloan-Kettering Cancer Center
+Laboratory for Biosynthetic Chemistry
+Department of Molecular Pharmacology and Therapeutics
+lab:(212)693-6405   fax:(212)717-3135
+http:www.ski.edu/thorson
+
+
+        "Science, like Nature, must also be tamed
+           With a view towards its preservation.
+         Given the same state of integrity
+           It will surely serve us well."
+            -- Neil Peart; Natural Science (III) -- Permanent Waves
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 11:02:49 -0400
+From: Marc Sedam <marc_sedam`at`unc.edu>
+Subject: CAP experiment
+
+
+I'm in.  Love to participate.
+
+
+ -M
+
+
+- --
+Marc Sedam
+Associate Director
+Office of Technology Development
+The University of North Carolina at Chapel Hill
+308 Bynum Hall; CB# 4105
+Chapel Hill, NC  27599-4105
+
+
+919.966.3929  (phone)
+919.962.0646  (fax)
+OTD site :  http://www.research.unc.edu/otd
+eMTA site: http://mta.unc.edu
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 15:43:40 GMT
+From: "Herman  Holtrop" <h.e.holtrop`at`zonnet.nl>
+Subject: Re: Cider as an ale yeast starter???
+
+
+> So I just had a thought - why not use simple pastuerized
+> apple cider (that you buy in the grocery store in the gallon
+> jugs) along with a little yeast nutrient for starter
+> material? 
+
+
+Dan,
+
+
+Why so difficult, it can be even easier. Simply buy applejuice cartons 
+(brick). You know, the little take away containers (0,2 litre, made of 
+paper with alum. foil inside). But perhaps these are only available in 
+Europe. 
+Anyway, you should check if you have a pure apple juice variety. The 
+juice is sterile and can be added to a bottle-conditioned beer in order 
+to get the original yeast started (don't have to remind you to work 
+sterile).
+
+
+It works fine for me. Before using the brew however, i suggest you do 
+make some wort as the yeast needs to adapt to the somewhat other 
+circumstances. The acidity of apple-juice is by the way soimilar to 
+that of wort. So your original idea wasn't bad at all. Hope this helps.
+
+
+Cheers!
+Herman Holtrop
+Amsterdam, The Netherlands
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 08:55:37 -0700
+From: Brad Miller <millerb`at`targen.com>
+Subject: Grand Heating?
+
+
+        I'm currently thinking about designing a new brew system (I 
+think that this would be the 5th time) and was thinking about adding 
+a grand out of the mash tun.  I don't have any problems with 
+compaction right now but was thinking of another application.  Right 
+now I have a HERMS that works great but was wondering what would 
+happen if I direct fired the grant?  Would that achieve some decocted 
+flavors or not?  Any ideas?
+
+
+Brad
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 12:45:00 -0400
+From: EFOUCH`at`steelcase.com
+Subject: CAP
+
+
+>Date: Fri, 18 May 2001 10:06:51 -0400
+>From: "Alan Meeker" <ameeker`at`mail.jhmi.edu>
+>Subject: Experiment
+>
+>Pat, I think this is a great idea and am willing to help out in any way I
+>can. I hereby offer my services as a yeast supplier and scientific
+>consultant if either or both of these are in need. Let me know...
+>
+> -Alan Meeker"
+
+
+If Alan's doing it, I'm doing it.
+
+
+There's nothing I like more than beating Alan in competitions.
+
+
+I would also like to offer my services to the endeavor as the official Meeker
+De bunker/K-Y Answer Man.
+
+
+Eric J. Fouch
+AKA Supermonkey
+Bent Dick YoctoBrewery
+Kentwood MI.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 10:01:34 -0700
+From: "Hedglin, Nils A" <nils.a.hedglin`at`intel.com>
+Subject: Converting All-Grain Stout to Extract
+
+
+Hi,
+  Since I am not quite ready to do an all-grain batch, I'd like to try to
+convert the following grain bill to an extract batch.
+
+
+12 lb 2-Row
+2 lb Carapils
+1 lb Black Patent
+1/2 lb Chocolate Malt
+1/2 lb Roasted Barley
+1 tsp salt
+
+
+What would the 2-Row to extract ratio be?  I assume I'd use a light extract,
+probably a liquid.  Would I still use the same amount of other grains?  The
+original recipe was a single-step infusion mash, but I'll be doing the
+standard 20-30 minute steep at around 170.  What would the affect of the
+salt be?  Does it modify the water?  This is the all-grain I made 10 years
+ago & am trying to recreate.  Also, based on this grain bill, would it be a
+5 gal or 10 gal batch?  Unfortunately, I don't remember.  I do think the
+stout wasn't as strong as an Imperial.
+
+
+Thanks
+Nils
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 13:08:18 -0400
+From: David Harsh <dharsh`at`fuse.net>
+Subject: Flocculation, geometry, etc.
+
+
+Stephen Alexander accuses me of being:
+> ...thoughtful and well read...
+
+
+Been a while since I've been called that.  I must be slipping.  ;)
+
+
+> >Circulation is a strong function of fermenter geometry.  [...]
+ 
+> Dave, I agree that circulation can be a function of general geometry, but is
+> certainly NOT a function of H:W ratio independent of these other factors.
+
+
+Circulation is strong function of the shape of the vessel:  whether you
+refer to this as "aspect ratio", "general geometry", "H:W ratio", or
+"shape", it is the same thing.  Essentially, a 1 foot cube would produce
+the same circulation patterns as a 10 foot cube.  You can extend this in
+both directions although smaller fermenters would introduce viscosity
+effects, assuming Knudsen fermenters don't exist ;) and larger
+fermenters could introduce pressure effects.  Use of scaling concepts in
+describing mixing is preferred as analytical solutions of mixing tanks
+are computationally intensive for those of us without a site license for
+FLUENT.  
+ 
+> >Cell metabolism only?  I don't think so.  Can't premature flocculation
+> >of the yeast cause poor attenuation?
+> 
+> Flocculation is a consequence of yeast metabolic processes.
+
+
+It is also a physical process as a result of fluid shear and statistics.
+ It is well accepted that there are biochemical changes on the cellular
+surface that enhance flocculation, but shear induces flocculation. 
+Yeast are just particles in the fluid continuum and behave as such.
+ 
+> >> The simplest, most direct explanation wins - Occam's razor.
+> >
+> >[...] circulation patterns [...] qualify in this case.
+> 
+> Circulation has a more direct, simple  and explicable impact on yeast
+> performance than oxygen or CO2 ?  I don't see that Dave.
+
+
+Ok, I'll try again.  I'm saying that a macroscopic process is
+controlling the particle dynamics.  The process being fluid circulation
+and shear, the particles being the yeast in suspension.  A high aspect
+ratio fermenter will have less cross-sectional area for the circulation
+induced by fermentation.  As a result, the fluid eddies will be smaller.
+ Smaller fluid eddies mean increased shear rates.  Higher shear rates
+cause particle flocculation.  Since this starts during a rapid
+fermentation, the yeast flocculate and fermentation ends prematurely.  
+
+
+Steve - if you want to convince me:  Give a physical explanation of how
+the fermenter geometry  will produce changes in the fermenting wort and
+how those changes will explain the observed effects of aspect ratio. 
+What is your hypothesis?  
+
+
+Dave Harsh                                                Bloatarian Brewing League
+Cincinnati, OH
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 10:55:20 -0400
+From: Tom Riddle <ftr`at`oracom.com>
+Subject: Re: Bringing Beer Back
+
+
+
+
+Drew asks about bringing beer back from Belgium and England:
+
+
+About three weeks ago I returned to the US from Belgium 
+carrying 16L of beer.  After carefully keeping track of 
+amounts and prices, you can imagine how disappointed I was 
+when the Customs Officer showed no interest in my cargo.  
+I think they were too preoccupied with the Hoof and Mouth 
+thing to care.  Also, this was JFK midday so they were 
+rather busy.  But if you do get hit for the duty I think 
+it is about 4%.
+
+
+The online wine merchants have good packing material 
+that allow you to pack four 750ml bottles in a box 
+about the size of two shoes box.  I checked one of these
+with my luggage with no problems.  Also, I found alot 
+of breweries and beer stores sold 3x750ml bottles in 
+a handy cardboard carrying case which packed pretty well.
+
+
+I looked into shipping but it was rather expensive.  
+If you are thinking of shipping beer back you can save 
+yourself some trouble with packing, etc, and check out:
+http://www.beermania.be
+He is an online beer merchant based in Belgium 
+that will ship to the US.  He has a good selection 
+of beers you (I) can't find here.  Shipping costs $125 
+for 30kg (to northeastern US), which is roughly equivalent 
+to 48 330ml bottles.  But the beers are priced to Belgian 
+standards which makes the whole deal pretty reasonable.  
+I have no association with Beermania and have never ordered 
+from him - however I did visit the store when I was there.
+
+
+
+
+Good luck,
+Tom
+
+
+- -- 
+
+
+Tom Riddle
+Portsmouth, NH
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 10:45:08 -0700
+From: Jan-Willem van Groenigen <groenigen`at`ucdavis.edu>
+Subject: experimental design vs. experience
+
+
+Hi all,
+
+
+I'm totally new in the homebrewing world (just brewed my 4th batch last 
+week), and I've allready learned a lot from reading HBD and some of the 
+discussion groups on the web. However, I was a bit surprised at the (let's 
+call it) enthusiasm with which some people defend their point of views in 
+most of those forums. Surely brewing beer is much more serious business 
+than I thought it was!
+
+
+I've been reading the discussion on experimental design with (partially 
+professional) interest, and I guess I'm just a bit confused about what the 
+main participants in that discussion want out of this forum, and if they 
+are professional brewers or advanced hobbyists.
+
+
+As an agricultural scientist, experimental design plays an important part 
+in all of my work, and I regularly review scientific papers and reject ones 
+with crappy experimental designs. If you guys would be trying to design an 
+experiment that would be published in a scientific journal, I would agree 
+with almost everything Steven Alexander says on experimental design. 
+However, I don't think that's the purpose of this proposed experiment, and 
+one might make the argument that brewing is a craft as much as a science, 
+and good craftmanship develops from exactly the kind of ad-hoc, 
+unreplicated little experiments that dr. Pivo describes. After all, the 
+theory of experimental design as we use it now was developed mainly in the 
+first half of the 20th century, and I'm pretty sure there was good beer 
+being brewed before that time.
+
+
+Although (and I can't stress this enough!) I know much less about brewing 
+than all of you, I would say that the sort of experiments that Steve 
+Alexander proposes require such a level of control, and a large number of 
+replications (one of the foundations of experimental design) that it is 
+almost impossible for non-professionals to achieve. As I said, I don't know 
+who you guys are and what your breweries (or laboratories?) look like, so 
+please correct me if I'm wrong.
+
+
+The whole discussion reminds me about arguments we sometimes have with 
+farmers. Although we as agricultural scientists design the experiments in 
+statistically sound ways and have all the fancy equipment, it is often the 
+farmer who knows his land best and has figured out the answers to our 
+questions before we do using experience, anecdotal evidence and 
+'gut-feeling'. Nothing wrong with that, especially if your purpose is to 
+grow a good crop (or brew great beer) rather than write a Ph.D. thesis.
+
+
+Anyway, that was my $0.02, please don't shoot me. I promise to keep my 
+mouth shut now until I brew at least 5 more batches.... For the rest, I'm a 
+Dutchman who is living and working in California for a couple of years. I 
+mainly took up brewing because I missed the (Belgian) beers of home. After 
+a couple of extract and partial mash brews, I'm hooked and ready to go 
+all-grain the coming months. Thanks for all the information!
+
+
+Jan Willem.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 11:05:00 -0700
+From: Mike.Szwaya`at`co.clark.wa.us
+Subject: CAP Experiment
+
+
+
+
+Is it possible for those who ferment in sankey kegs to participate?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mike Szwaya
+Portland, OR
+Email: Mike.Szwaya`at`co.clark.wa.us
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 13:10:45 -0500
+From: "Bruce Garner" <bpgarner`at`mailbag.com>
+Subject: slow or clogged counterflow
+
+
+I have a 3/8 inch counter flow chiller. Cooling a 10 gallon batch used to
+take an hour or two. At that rate I was valving down my cooling water to a
+bare trickle. I was using a SS scrubbie at the intake at the bottom of a
+Sanke Keg conversion kettle. The wort had to siphon only 3" at the very end
+and most of the time there was plenty of head pressure above pushing it out.
+My chiller has 25' of pipe - maybe too long.
+
+
+Sanke kegs are impossible to whirlpool as the outlet is at the bottom of
+curved center and there is a 1/2" stainless pipe to the outlet. Nathan
+Kanous and I did a batch at his place this past winter and we tried putting
+his pump between the kettle and the chiller. This worked great. We
+counterflow chilled a batch in twenty minutes.
+
+
+I have a pump and in my last batch I recirculated for a couple minutes back
+into the top of my boil kettle with no cooling water in the counterflow
+chiller until I felt that I had Pasteurized anything inside the chiller.
+Then I followed my usual practice of dropping the batch into an open
+fermenter by clipping a footie nylon stocking at the top of the fermenter
+and allowing the cooled wort to filter through it, ooze out and drip into
+the fermenter. (Think oxygen - at least some.) The fermenter is a full width
+cut keg and the sock is clipped at both ends of the diameter and hangs like
+a 15 inch long sausage/hammock filling with hot and cold break. I clean,
+boil and idophor it before use. (I also use it in my boil kettle at the
+outlet of my sparge hose. It collects a lot of grain husks.) I keep a tent
+of aluminum foil over the open fermenter while I chill to alleviate the dust
+contamination.
+
+
+When I use a carboy for a 5 gal batch I do the same thing except the sock is
+vertical inside the fermenter with the top rubber banded around the outside
+of the mouth. When the batch is done I slowly pull out the sock. I get a bit
+more break in the ferment this way. I could use a large funnel or use a
+sanitized plastic bucket with a hose off a corner of the bottom as a funnel.
+
+
+The pump is the most important improvement. It allows you to recirculate
+back to the boil kettle and push the batch though in a hurry. You don't try
+to filter in the kettle, you filter at the end.
+
+
+Bruce Garner
+Madison, WI
+
+
+Bruce Garner in Madison, WI
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 13:53:33 -0500
+From: "steve lane" <tbirdusa`at`hotmail.com>
+Subject: PID as fridge controller
+
+
+I have two PID controllers on my RIMs currently.  One for the heating 
+element in the recirc path and one for the HLT.  These are running SSR's 
+that handle the actual "work".  I have two more PID controllers that I am 
+looking for something to do with.
+Can a fridge be controlled with one?  I assume that I would need to somehow 
+program it so that it doesn't constantly kick on and off like it does with 
+the brewery, as I believe this is hard on the fridge compressor.  I have a 
+Johnson controller now that does a good job but I'm always tinkering and 
+would like to go digital on the fridge.
+
+
+My other thought was a water bath setup with the coils being plumbed through 
+the fridge wall.  Would set this up like a HERMs.  Would that be called a 
+HERFS (heat exchange recirculating fermentation system)?  This would allow 
+me the luxury of cold kegs in the fridge and a digitally controlled water 
+bath for fermentation.  If one were to set up the water bath system, should 
+one run the pump constantly and use solenoid valves to bypass or should one 
+run the pump intermitantly and set the " I " in the controller to not be as 
+sensitive?  I'm thinking a small pond pump would be plenty to move the 
+cooling medium....   What's the collectives thoughts on this type of setup?
+
+
+Steve Lane
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 16:18:18 -0400 (EDT)
+From: Chris Cooper <ccooper`at`a2607cc.msr.hp.com>
+Subject: CAP experiment
+
+
+Greetings All!
+
+
+I managed to get a brew day in yesterday (Sunday) and got three batches into
+my carboys! My daughter's High School Graduation is coming up and I 
+want to have homebrew for the party (for the adults only of course!). 
+
+
+As I was putting a fresh batch into my fermentation fridge I noticed that 
+it would hold a carboy and a corny side by side and I thought it would be
+an interesting experiment to do a double batch and split the ferment, now 
+I catch up on my HBD's today and find that another HBD experiment has been
+suggested for just this purpose!  COUNT ME IN!  I am an alumni of the
+Great Pale Ale experiment and would gladly participate in this one.
+
+
+As a member of the Ann Arbor Brewers Guild I think we might be enlisted to 
+host a tasting panel, at least I will be glad to suggest it at our next 
+meeting and volunteer my help to the project.
+
+
+Thanks to Pat for bringing this one up for our consideration.
+
+
+Chris Cooper, Pine Haven Brewing (aka. Debbi's Kitchen) 
+Commerce, Michigan    Member, Ann Arbor Brewer's Guild
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 16:21:35 -0400
+From: "Pannicke, Glen A." <glen_pannicke`at`merck.com>
+Subject: Experiment
+
+
+Dr. Pivo writes:
+
+
+>I "KNOW" that for whatever reason may be causing it, it is in fact the
+>case that the size and shape of your fermenter can, and does effect
+>fermentation rate and flavour.
+>
+>Anyone who doubts this, has certainly not split up many ferments of the
+>same wort, probably has not fermented much at all (or is not terribly
+>observant)........ and most likely likes to argue a lot!
+
+
+I also KNOW that the experiment, as proposed, will not adequately
+investigate the differences between geometery.  There are too many variables
+comming into play and the fermenter geometery signal will be hidden by of
+the noise of all the other uncontrolled variables.
+
+
+As the Doc points out, the key factor is to "split up many ferments of the
+same wort".  I might also add that the wort should also be aerated and
+pitched before splitting as well.  This will ensure that there are no
+differences before the ferment.  After the fermenters are filled,
+environmental conditions should be kept identical as well as length of
+ferment.  The finishing, priming and packaging process should also be
+rigidly controlled to assure equal handling of the finished product.  That
+being done, we may more safely assume that most major variables have been
+eliminated or have a negligible effect.  The point is to isolate the
+variables to only fermenter geometry.
+
+
+While the current proposal sounds like fun, I find it to be of poor
+experimental design.  The only thing that may be concluded from the current
+proposal would be a statement such as "I THINK that fermenter geometery
+does/does not have an effect...".  I'm not suggesting a full factorial or
+latin squares design here, we only have one variable to study.  The only
+problem is that what I suggest would require a single physical location and
+one hell of a big brew pot.  This sounds like a Big Brew event!  Damn, too
+late...
+
+
+The second thing to consider is the evaluation method.  We're talking
+subjective attributes here.  I wouldn't donate my weak palate to the
+experiment (but samples would be appreciated anyway ;-).  Something like a
+triangle test should be used to provide unbiased results and eliminate the
+effects of personal preferences.  We also should consider simple blinding of
+results.
+
+
+Not that I want to overly complicate matters, but if you wish to prove your
+point(s), do it right.  Otherwise I only forsee muddying of the waters and a
+source of fuel for many future arguements.
+
+
+Carpe cerevisiae!
+
+
+Glen A. Pannicke
+
+
+glen`at`pannicke.net          http://www.pannicke.net
+75CE 0DED 59E1 55AB 830F  214D 17D7 192D 8384 00DD
+"I have made this letter longer than usual,
+because I lack the time to make it short." - Blaise Pascal
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 15:34:21 -0500
+From: " Jim Bermingham" <bermingham`at`antennaproducts.com>
+Subject: CAP experiment
+
+
+I hereby volunteer to take all leftovers.  Please contact me for shipping
+address.
+
+
+Jim Bermingham
+Millsap, TX
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 17:11:48 -0400
+From: "Jason Henning" <jason`at`thehennings.com>
+Subject: Cap Experiment
+
+
+Hmmm. I had a lot of fun brewing the PAE (HBD Pale Ale Experiment) beer. I
+guess it was fun because I did pretty good in the flavor evaluation and I
+got to help with Louis Bonham's lab analysis. However, I think the most
+important thing I learned was that 33 brewers brewing on 33 different
+systems will brew 33 different beers.
+
+
+With the CAP experiment, we would be testing the effect of fermenter
+geometry on finishing gravities. Taking a look at the PAE finishing gravity
+results, a few things stick out in my mind:
+
+
+o The range of lab measured finishing gravities is greater than +/- 2
+standard deviations. The range was 1.0084 to 1.0233 with the mean at 1.0158.
+
+
+o Each brewer reported their measured FG. The average reported FG was .0016
+points below the lab measured finishing gravity
+
+
+o The correlation coefficient of brewer and lab measured FG's was just .64.
+(Correlation coefficient compares two series of numbers and sees if they
+behave similarly. Correlation coefficient ranges from -1 to 1. A correlation
+coefficient of -1 mean that as one set of numbers increase, the other one
+decrease. A correlation coefficient of 1 means that the series move up and
+down together. A correlation coefficient of zero means the series don't move
+together.)
+
+
+So to sum that up, the FG's were over a wide range, the brewers didn't
+accurately measure the gravities, and they didn't uniformly error on making
+those readings. Given the amount of error involved in PAE, I can't but
+wonder how valid this experiment can be.
+
+
+OK, the rain is over, continue with the parade.
+
+
+Cheers,
+Jason Henning
+
+
+Whitmore Lake, MI
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 22:02:18 +0000
+From: Craig MacFarlane <craigm`at`chemconnect.com>
+Subject: Transporting CO2 canisters.
+
+
+Hello all,
+
+
+I'd like to take my latest batch of beer over to my Mom's house,
+a five hour drive away.  Is it safe to carry a full CO2 canister in
+a passenger car?
+
+
+Thanks,
+Craig
+
+
+
+
+------------------------------
+
+
+Date: Sun, 20 May 2001 22:04:18 +0930
+From: "Thomas D. Hamann" <tdhamann`at`senet.com.au>
+Subject: numbering each post
+
+
+Dear janitors, is it possible to number each post? It would make it really 
+easy to find one message very quickly.
+Many thanks for a GREAT brewing service.
+
+
+Thomas (ruelps)
+
+
+when too much hops
+are barely enough
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 20:25:43 -0500
+From: "Rob Moline" <jethrogump`at`home.com>
+Subject: Vessel Geometry ala Jethro
+
+
+                        Vessel Geometry ala Jethro
+     Not to really get into the discussion to the point of getting anal
+about it...but all this talk about vessel geometry has reminded me of a
+discussion `at` Siebel, ("Beer Heaven"), regarding a Scandinavian approach to
+the now classical Cylindro-Conical.
+     The instructor told us about a CC in a scandinavian brewery that had
+the approximate dimensions of a Saturn 5 Rocket, and it was gonna be the
+'deal.' Then over multiple brews, the CC just wasn't producing the desired
+effects....attenuations were long and slow, etc.
+     But the good news was that the vessel did finally earn it's
+keep....once it was transitioned to a horizontal vessel........where the
+static head didn't produce such high pressure on the yeast.
+
+
+     Again, no science here, and certainly no literature
+references......just banch.
+Jethro
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 May 2001 22:08:32 -0400
+From: "Nathaniel P. Lansing" <delbrew`at`compuserve.com>
+Subject: H:W/aspect/oxygen uptake
+
+
+Steve says:
+>>I wrote you about your hypothesis before, and it's not this
+misinterpretation version.  Please read your mail.<<
+
+
+  I do read it, but when you say,
+>>The error in your statement is that these H:W ratios do not relate
+directly
+>>to surface_area:volume ratio that one expects would correlate to the the
+>>surface O2 uptake per unit beer or yeast, etc,<<
+  there is not a lot left open for misinterpretation;  but the H:W ratio
+does relate
+directly to surface area:volume ratio, and I *do expect 85% increase area
+for 
+oxygen uptake to affect yeast vigor.
+
+
+>>I don't have specifics of DeClerk's experiment but I'll wager that it was
+>not designed to eliminate other factors and the conclusion that it is H:W
+>ratio isn't the only plausible conclusion from the data.<<
+
+
+I get it, without any facts or "experimental design" comments, or research
+of your own, you have concluded DeClerk has to be wrong. I have not
+seen any data from you to support your position that fermenter geometry
+(or H:W ratio) does not matter. I at least put forth the correlation that
+it
+may happen because of improved oxygen uptake, which at least you
+acknowledged in...
+>>I've been assuming aerated wort and anaerobic conditions otherwise, but
+>>that's a very good speculation too, Del, and could be easily tested. <<
+
+
+This was so easy I over-looked it, 8 gallons of wort, 4 gallons in each
+of 2, five gallon cornie kegs, aerated through the same method for equal
+times, vent through the "gas in" and stand one up, lay one on its' side.
+Same wort, same yeast, same fermenter materials and shape, only one
+on its' side. The fermenter walls changing from straight in the upright keg
+to cylindrical in the horizontal keg should not matter according to your
+"geometry doesn't matter"  "certainly not in a HB scale" posit, so need
+not be considered to test the "aspect ratio effect." 
+
+
+**>Perhaps you don't look at cause & effect as commutative,
+
+
+**Of course they are not commutative.  A causes B in no way implies that B
+**causes A.  Correlation is commutative, but cause and effect is merely
+**associative.  I don't know what you meant by this.
+
+
+**>I see it as
+**>the geometry caused O2 uptake, the O2 uptake caused increased yeast
+health,
+**>the geometry caused improved yeast health (indirectly).
+
+
+**I see. You meant associative.
+
+
+At least here I can say we were *both wrong, the cause/effect relationship
+I described was neither associative nor commutative, that's _transitive_.
+if A=B and B=C then A=C; right concept, wrong name.
+
+
+NPL
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3639, 05/22/01
+*************************************
+-------

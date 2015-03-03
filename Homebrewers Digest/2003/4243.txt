@@ -1,0 +1,715 @@
+﻿Date: Mon, 12 May 2003 00:41:41 -0400
+Subject: Homebrew Digest #4243 (May 12, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4243                             Mon 12 May 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Even scarier story (Pat Casey)
+  A generalized triangle test ("Frank Tutzauer")
+  Commercial Kegs (NO Spam)
+  Proper Steinbier Lithology (guy gregory)
+  Recipe for Spaten Optimator? (Glenn M Gardner)
+  NHC 2nd Round:  Call for Judges and Stewards (Steve McKenna)
+  How popular is Cascade hops? (Jeff Renner)
+  Chile Beer ("Scott")
+  HSA (Jeff Renner)
+  Re: Jalapeno Lovers Unite! (Larry Bristol)
+  Harshness and water chemistry, take two (Michael)
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* The HBD Logo Store is now open!
+* http://www.cafeshops.com/hbdstore
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 10 May 2003 16:04:28 +1000
+From: Pat Casey <pat`at`bmbrews.com.au>
+Subject: Even scarier story
+
+
+Pat D.'s original post about the possible evolution of malting/mashing
+resistant barley was humorous - that so many respondents did not see the
+humour is really scary.
+
+
+Pat
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 10 May 2003 11:07:34 -0400
+From: "Frank Tutzauer" <comfrank`at`buffalo.edu>
+Subject: A generalized triangle test
+
+
+I meant to post this a couple of weeks ago when the thread was still
+active, but it's the end of the semester and I've been absolutely
+slammed with work.
+
+
+Anyway, I've been giving some more thought on how to conduct a
+"triangle" test when one has more than two beers.  BTW, I'm glad to
+see that Paul's Big Brew tasting of 8 beers went well.  It looks like it
+was informative and fun.  And Paul's approach was exactly my first
+thought:  Conduct a triangle test on each possible pairing.  The
+problem with this approach is that if each judge is to triangle-test
+each pairing, then the number of beers to be sampled gets ridiculously
+large.  As the number of beers grows arithmetically, the number of
+pairings grows combinatorially.  With two beers, there's only one
+pairing, but as the number of beers grows to eight, there are, as Paul
+correctly notes, eight-choose-two = 28 possible pairings.  And if each
+pairing generates a triangle test, then there are 3*28 = 84 samples to
+be tasted.  There's got to be a better way.  (Paul dealt with this by 
+not having every judge taste every pairing.)
+
+
+I approached the problem from a different angle.  The first thing to
+notice is that a triangle test is not only a test of difference, but
+also, quite obviously, a test of sameness.  If a judge correctly
+identifies the different beer, then, perforce, the judge has
+identified the two beers that are the same.  So another way to
+approach the general idea of the triangle test is to pull aside, as a
+standard, one of the beers that's the same.  Have the judge taste the
+standard, and then ask the judge to identify which of the two
+remaining beers (the test beers) is the same as the standard.  We once
+again are left with a binomial problem to which we can apply the
+methods previously discussed (though, of course, the appropriate test
+probability is no longer 1/3 but rather 1/2).
+
+
+How would this work for, say, 4 beers?  Here's how:  Randomly order
+the beers and number them 1 through 4.  Pour samples of beers 1
+through 3, and identify them as standards.  Pour samples of beers 1
+through 4 as test beers (without identifying them to the judges, of
+course).  Have the judges taste each of the 4 test beers and decide
+which is the same as Standard 1, which is the same as Standard 2,
+which is the same as Standard 3, and which is different from each of
+the standards.  Conduct 4 separate z- or binomial tests with a test
+proportion of 1/4.  A significant result means that the beer under
+consideration is sufficiently different from the other three that it
+can be consistently identified.  With a little care concerning
+probabilities, one could also make claims such as "Although beers 1
+and 3 can't be distinguished from each other, they can be consistently
+distinguished from beers 2 and 4."
+
+
+Whenever many beers are to be tasted, there will be problems with
+palate fatigue and the inability of the human brain to hold numerous
+facts in mind at once.  But, nonetheless, note the quite dramatic
+improvement in terms of the number of samples to be tasted.  With 4
+beers, pairwise triangle tests would require tasting 18 samples
+instead of the 7 required by the generalized test.  With 8 test beers,
+the 84 samples from pairwise triangles is reduced to 15 samples in the
+generalized test.  Heck, I've seen flights at competitions with more
+than 15 samples.
+
+
+To put it in general form:  If we have N judges who are to distinguish
+among T test beers, choose T-1 of them as standards.  Have the judges
+attempt to determine which of the T test beers matches each of the T-1
+standards, and which matches none of them.  For each beer, count how
+many of the judges correctly identified it, and test the null
+hypothesis that the proportion of correct identifications is greater
+than 1/T.
+
+
+If you chose to do a z-test of proportions, the formula that I
+published in HBD 4229 is NOT correct.  That was for the very specific
+case of a test proportion of one-third.  To conduct a z-test for each
+of the i = 1, 2, ... , T beers, the general formula is:
+
+
+z = (P - t)/sqrt[t(1 - t)/N]
+
+
+where
+
+
+P = the proportion of judges who correctly identified beer i
+  = (no. of judges who correctly identified beer i) divided by N; and
+t = 1/T 
+  = probability of identifying beer i by chance.
+
+
+The critical value for a one-tailed, 5% level of significance is 1.64.
+
+
+One problem here is that as the number of test beers increases, the
+test proportion grows small, and, as I mentioned before, the adequacy
+of the z-approximation decreases.  A common rule of thumb is that the
+z-test is appropriate if the product of N and the proportion is
+greater than 5.  So for 8 beers, you'd need around 40 judges, which
+you might not have.  In such a case, you should use a binomial, and a
+spreadsheet set up along the lines suggested by A.J. would be
+sufficient.  Actually, I think I'll table the critical values of the
+binomial for the particular proportions of interest to brewers and
+I'll post the tables in the HBD for those who don't want to mess with
+something more complicated.  
+
+
+But it'll have to wait until I'm done grading my final exams!
+
+
+ --frank in Buffalo
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 10 May 2003 12:01:14 -0400
+From: NO Spam <nospam`at`brewbyyou.net>
+Subject: Commercial Kegs
+
+
+
+
+Saw the recent posting asking for info on how to
+use Hoff Stevens Kegs for homebrew.  I'd also like
+to know where to find info on this, and also about
+using regular Sanke kegs.
+
+
+I understand Sanke kegs can be dangerous if not opened
+properly, and also that there is a special tool for
+filling and cleaning them.  Anybody know what the tool
+is, where to get it, how much it costs, etc?
+
+
+>From what I can determine, Hoff Stevens Kegs seem
+ideal for hombrewing use.  It looks like all you
+have to do is drill out the bung in the side, clean
+and sanitize the keg, then fill it and put in a
+new bung.
+
+
+I suppose it would be easiest to prime, and naturally
+carbonate in the keg, but I'm not a fan of keg priming.
+I like clear beer and don't want to have to pull off
+pint after pint of cloudy, yeasty beer.  So how does
+one force carbonate a Hoff Stevens?  Again, I suppose
+there's a special tool involved?  I doubt you can just
+do it using the regular Hoff Stevens keg coupler?
+
+
+I am concerned that alot of the Hoff Stevens kegs seem
+to be made of aluminum.  I have an older Schmidt's
+keg that is stamped "Alcoa", so I know it is aluminum.
+Are these safe to use, can beer such as a bock or
+dopplebock you wanted to age for months be stored in
+them long term without any ill effects or health risks?
+I know there's a debate as to use of aluminum brewpots,
+but what about kegs?
+
+
+Lastly, I've heard the Golden Gate kegs are supposedly
+the best for homebrewing use, but are really hard to
+come by, and that these are often also mistaken for
+Hoff Stevens alot of the time.
+
+
+Thanks in advance for info.
+
+
+Bill
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 10 May 2003 13:39:56 -0700 (PDT)
+From: guy gregory <ggre461`at`yahoo.com>
+Subject: Proper Steinbier Lithology
+
+
+Jon Sandlin of Bend, Oregon writes:
+
+
+>What does the collective think about using basalt for
+the stones used in the
+>making of steinbier?  Any comments will be greatly
+appreciated.
+
+
+Well, as a geologist, homebrewer and sometime visitor
+to Bend, I offer the following practical advice. 
+
+
+Basalt is a wonderful rock to use for steinbier, with
+a couple of problems.  Basalt is a volcanic rock, and
+like all volcanics, it entrains some water.  When you
+heat this rock, it may begin to shard, that is, chips
+and cracks may form quickly from expanding entrained
+water.  The rock may explode.  Traditionally,
+steinbier is made with granite or metamorphic rocks,
+which usually lose their water during formation, or
+contain the water in mineral species rather than as
+captured little bits. 
+
+
+To test:  Heat it up in a fire.  If it breaks, its
+probably not what you want. Stand back, those shards
+can be sharp!
+
+
+Good luck!
+
+
+ 
+
+
+=====
+Guy Gregory
+Lightning Creek Home Brewery
+Spokane WA
+(1660.4, 294.3) Rennerian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 10 May 2003 19:47:54 -0500
+From: Glenn M Gardner <ggardner`at`juno.com>
+Subject: Recipe for Spaten Optimator?
+
+
+This stuff is seriously addicting, and I would like to do my share to
+make the world a little fuzzier.
+Anyone have any suggestions on a recipe?
+Thanks
+Glenn
+Plano, TX
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 10 May 2003 21:07:53 -0500
+From: Steve McKenna <mckennst`at`earthlink.net>
+Subject: NHC 2nd Round:  Call for Judges and Stewards
+
+
+The 2nd Round of the AHA National Homebrew Competition will be held June 
+19-20 in conjunction with the National Homebrewers Conference at the 
+Holiday Inn O'Hare International in Rosemont, IL.  Judging sessions are 
+Thursday 1:30-5:30 and Friday 9:00-noon, with a judges' breakfast Friday 
+8:00-9:00.
+
+
+Please help us evaluate some 672 of the best homebrews in North 
+America!  We need lots of judges to pull this off.  If you are a BJCP 
+judge, or a pro with judging experience, and plan to be at the conference 
+or merely in the neighborhood, please send me a note.  Here's what I need 
+to know:
+
+
+1.  Your BJCP rank and membership number.
+2.  Which categories do you have entries in?
+3.  Which categories do you prefer to judge?
+4.  Which categories do you prefer not to judge?
+5.  Which judging sessions are you available for?
+
+
+Steward volunteers are also welcome.  For more details on the conference, 
+please check out the website at http://www.chibeer.org/aha03.
+
+
+Cheers,
+
+
+Steve McKenna
+NHC2003 2nd Round coordinator
+mckennst`at`earthlink.net
+(630) 305-0554
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 11 May 2003 09:40:32 -0400
+From: Jeff Renner <jeffrenner`at`comcast.net>
+Subject: How popular is Cascade hops?
+
+
+Brewers
+
+
+On the Oz Craftbrewing group, there is a discussion of the Australian 
+hop variety Pride of Ringwood, which is a distinctive part of the 
+profile of Australian mainstream lagers, and so, is generally 
+disliked by Aussie homebrewers, or craft brewers, as they prefer to 
+call themselves (homebrew being that strong, nasty stuff your uncle 
+brews with lots of sugar).
+
+
+One of the brewers suggested that their dislike of POR hops was 
+similar to Yanks' dislike of Cascade hops:
+
+
+>It does seem that Ozzies have a Hatred for POR, as the Yanks have a hate
+>for their Cascade Hop
+
+
+I replied that I didn't think we particularly felt that way about 
+Cascade, and I was told that this came from the Skotrat chat group 
+(based here in the US).
+
+
+My feeling is that Cascade is regarded highly for its purpose - the 
+new generation of American pale and amber ales, and to some extent 
+for American interpretation of other ales such as porters and stouts. 
+I like Cascade lots for this.  It also seems to go well with 
+Centennial.
+
+
+In my early days of brewing, we never knew what kind of hops we were 
+getting - they were in one ounce lots in brown paper bags that were 
+stapled shut.  They were very stale!  Then around 1975 or so we got a 
+brew shop at a town 20 miles south of here that cared about quality. 
+They decided to sell only Cascade pellets, but we customers still 
+didn't know what variety they were unless we asked.  They were just 
+hops.  When I discovered that there were other varieties, I started 
+asking for them, and in time we got them.
+
+
+So I put to this group - what are our thoughts about Cascade hops?
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Sun, 11 May 2003 09:53:21 -0700
+From: "Scott" <sejose`at`pacbell.net>
+Subject: Chile Beer
+
+
+Hello!
+
+
+A recent issue of Zymurgy contained an article on brewing chile beer.  So
+now I'm up for brewing such a beer. What I am looking to achieve is chile
+flavor with just a hint of heat in the mouth, with the warmth becoming
+evident as the beer makes its way to the stomach, where the glow is
+sustained.
+
+
+My question to the collective is this:
+
+
+I notice there are two methods for producing chile beer; one way is to do a
+first wort addition, another is to steep after fermentation.  Does either
+
+
+method produce the effect I desire better than the other?
+
+
+Also one can produce either a green chile beer or a red chile beer.  Is one
+preferrable for producing a warm glow with chile flavor such as I desire?
+
+
+The Zymurgy article did not touch on these questions of mine, so I put it to
+the collective.  I'll be brewing next Sunday, so the time is now!
+
+
+Thanks
+
+
+Scott
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 11 May 2003 20:08:28 -0400
+From: Jeff Renner <jeffrenner`at`comcast.net>
+Subject: HSA
+
+
+Bill Tobler <wctobler`at`sbcglobal.net> writes from Texas that when a friend
+
+
+>circulates his HLT, the return line is above the
+>water line sometimes.  The return line is too short.  I said something
+>stupid like, "Wow, you're aerating your hot liquor!"  I saw the worry lines
+>pop up, and he got worried.  Does he have anything to worry about?
+
+
+I think it's never a bad idea to minimize hot side aeration.  It's 
+not a good thing, even if it's not demonstrably bad in some cases. 
+It should be easy to fix, so why not do it?  He may not notice a 
+dramatic difference, but it might be just a little edge over what he 
+was brewing before.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Sun, 11 May 2003 19:46:25 -0500
+From: Larry Bristol <larry`at`doubleluck.com>
+Subject: Re: Jalapeno Lovers Unite!
+
+
+On Thu, 8 May 2003 08:06:19 -0500, "Dewalt, Scott" 
+<Scott.Dewalt`at`st-systems.com> wrote:
+
+
+> I'd like to take my annual post to rise in defense of jalapeno beer.
+> Dash S writes:
+> >But is it beer ? Mom always told you not to play with your food...
+> >Mixing the two together is colossal mistake...
+> >If we don't agree - that's not bad.
+> Ah, jalapeno beer.  I love it.  Since when is adding an ingredient a
+> colossal mistake?
+> Opinions and derisions.
+> Scott
+> http://texanbrew.com
+
+
+Lots of opinions are being expressed.  So, should I have to be the one who 
+points out that opinions are like Aholes --- everyone has one?  [And most 
+of the time they are full of s**t.]
+
+
+Be that as it may, here is mine [opinion, that is]:  I actually agree with 
+that offered by Mr. Dash S.  The very idea of putting jalapeno [SIC! SIC! 
+SIC! --- and I'm still looking to get that chauvanistic gringo that does 
+not allow the use of inyas in the HBD!] peppers in beer is really quite 
+annoying.  [BTW: Is this "Mr. Dash" thing some sort of Freudianism?  Does 
+not Mrs. Dash have something to do with spices and all that?  But I 
+digress.] 
+
+
+Yes, as Scott points out, I also brew such a beer.  But in my defense, I 
+wish to call attention to the name I have given this beer:  "Cerveza 
+Chingaquedito con Chili".  OK, let's see.  Everyone should get the 
+"cerveza" part --- that's "BEER"!  And the "con chili" is equally easy 
+- --- it's just "with pepper".  And all that leaves is...
+
+
+Now before anyone gets too excited, "chingaquedito" actually has little to 
+do with that rather vulgar Spanish word that appears to be its base.  
+"Chingaquedito" only means "annoying but subtle".  [Well, OK, maybe I 
+would not use the word in polite company, but after all, this IS only the 
+HBD for crying out loud, about as far away from "polite company" as one 
+can get!]
+
+
+Is it beer?  Well, I have to say that it looks like beer, it smells like 
+beer, it tastes like beer, and that taste goes great with tamales!  [Oh, 
+what a givaway!]  Well, at any rate, I have to say it is.  It certainly 
+is not a DUCK, after all.  But I have to be honest --- it is an annoying 
+little chingadero.  [I will leave that one as an excercise for the brave 
+at heart].
+
+
+> P.S.  Speaking of Larry Bristol, I'm ratting him out:  HE HAS BREWED A
+> JALAPENO BEER, TOO!  And it had witches in it!
+
+
+But, of course it did, Scott.  ALL of my beers have witches in them.  
+After all, I PUT them in my beer on purpose!  What do we do with witches?  
+Burn them, of course.  [Is this not simply another word for oxidation?]  
+And what do we burn APART from witches?  "MORE WITCHES!"
+
+
+So here we are, talking about that dang DUCK again... [sigh]
+
+
+- -- 
+Larry Bristol [Cunning Linguist]
+The Double Luck
+Bellville, TX
+http://www.doubleluck.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 11 May 2003 20:58:10 -0500
+From: Michael <grice`at`binc.net>
+Subject: Harshness and water chemistry, take two
+
+
+Thanks to those of you who responded to me off-line about this.
+
+
+The brewer formerly known as Steve asked what I meant by harshness. In
+affected beers, the harshness isn't necessarily immediately obvious.
+However, the beer has a lingering, bitter harshness on the back of the
+tongue. There may be a bit of a metallic element to it, too.
+
+
+Steve asked about corrosion in the kettle and possible contamination with
+iron; this isn't an issue with the kettle, fortunately, and I performed
+the experiment with a smaller, decidedly un-corroded kettle.
+
+
+To try and figure out the nature of my problem here, I made three
+mini-beers with a pound of DME and half an ounce of hops (AA in the range
+of 4.5-5%). I used softened water for the first batch, unsoftened water
+from a garden hose for the second, and a combination of spring water
+and distilled water for the third. The water was adjusted to a pH of
+6.0 with 10% phosphoric acid, which was probably overkill.
+
+
+I used some partial bags of pellet hops for the hops--Fuggles,
+Williamette and Hallertau. If I'd been thinking, I would have mixed them
+and added a third of the mixture to each beer. I boiled each for an
+hour.
+
+
+The one stupid thing I did was to throw the hops for the garden
+hose beer into the hot (almost but not quite boiling) water for a couple
+of minutes before adding the extract (I was on the phone at the time and
+a bit distracted). Will plain water extract anything nasty? It wouldn't
+surprise me either way.
+
+
+Anyway, upon tasting the wort after cooling the worts made with the
+softened and unsoftened water were both affected with the harsh aftertaste
+I described above. The wort made with the spring/distilled water did not
+have the harsh aftertaste.
+
+
+I am fermenting them now, so we'll see...
+- --Michael
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4243, 05/12/03
+*************************************
+-------

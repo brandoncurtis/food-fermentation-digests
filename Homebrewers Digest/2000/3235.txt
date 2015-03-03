@@ -1,0 +1,1375 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA19036;
+        Sat, 29 Jan 2000 00:37:59 -0500 (EST)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr22.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA01415;
+        Sat, 29 Jan 2000 00:37:58 -0500 (EST)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA12669
+        for realhomebrew; Sat, 29 Jan 2000 00:23:25 -0500
+Date: Sat, 29 Jan 2000 00:23:25 -0500
+Message-Id: <200001290523.AAA12669`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3235 (January 29, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3235                             Sat 29 January 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Re: Extraction Efficiency Formula (patrick finerty)
+  Re: Stuck Sparge with EM (patrick finerty)
+  Brewers response (erniebaker)
+  Mash Hopping (Nathan Kanous)
+  All-Grain Brewing, Caustic, Practical Brewing, Etc. ("Steven J. Owens")
+  Re: 5 yr old homebrew found (VQuante)
+  Re: Germany Beer Tour (VQuante)
+  Re: wyeast kolsch 2565 off-flavor (VQuante)
+  raising mash pH/ FWH/ stir plates/ choc malt ("Alan Meeker")
+  RTQ, mash pH (Dave Burley)
+  Mash Effficiency and Yield (long) (John Palmer)
+  Micorwave Bombs ("Jack Schmidling")
+  Kegging (LOneill953)
+  storage and use of cracked grains (Warandle1)
+  practical brewer ("Darren Robey")
+  Online Brewing Courses (phil sides jr)
+  Troy's Water ("A. J. deLange")
+  re: Efficiency vs.Yield (Tony Barnsley)
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+* Entry deadline for the Mayfare Homebrew Competition is 3/15/00 
+* See http://www.maltosefalcons.com/ for more information
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 27 Jan 2000 11:47:45 -0500 (EST)
+From: patrick finerty <zinc`at`zifi.psf.sickkids.on.ca>
+Subject: Re: Extraction Efficiency Formula
+
+
+here's a little perl script i wrote some time ago to do the
+effieciency and pts*gal/lb calculations. i'd be interested in hearing if
+people think my numbers are wrong. oh, no comments on my coding style,
+or lack thereof, i'm a biochemist after all!
+
+
+
+
+=======================
+#!/usr/bin/perl
+eval 'exec perl -S $0 ${1+"$`at`"}'
+  if 0;
+
+
+#-----------------------------
+# constants:
+# 
+#  GRAIN                pt/lb
+#
+# 2 Row                        35
+# wheat malt                38
+# crystal malt                24
+# chocolate malt        24
+#
+#-----------------------------
+print"lbs of 2 row: ";
+$row=<>;
+print"lbs of crystal malt: ";
+$crystal=<>;
+print"lbs of wheat malt: ";
+$wheat=<>;
+print"lbs of choc malt: ";
+$chocolate=<>;
+#
+print"S.G. reading:  ";
+$sg=<>;
+print"volume in gal:  ";
+$vol=<>;
+#
+# calculate the total weight
+$total_weight = $row + $crystal + $wheat + $chocolate;
+#
+# calculate the total pts
+$total_pts = ($row * 35 ) + ($crystal * 24) + ($wheat * 38) + ($chocolate * 24);
+#
+# calculate the extraction efficiency
+#
+$extract_effic = (100* ($sg / ($total_pts / $vol) ) );
+#
+$pts_gal_lb = (($sg * $vol) / $total_weight);
+#
+
+
+print " \n";
+printf "extract efficiency = %4.2f%\n\npts*gal/lb = %4.2f \n
+28 is good, 31 is great \n", $extract_effic, $pts_gal_lb;
+
+
+
+
+=======================
+On January 25, 2000, Andrew Nix wrote:
+
+
+ > I checked the archives first (for the last 3-4 years at least) and was
+ > wondering if someone might be able to send me the simplified formula for
+ > calculating potential OG based on  certain types of malts.  Last year,
+ > someone sent me this and I cannot find it.  It was really simply, with
+ > values for pale malt, specialty malts, etc.  
+
+
+- -- 
+       "There is only one aim in life and that is to live it."
+ Karl Shapiro,(1959) from an essay on Henry Miller's Tropic of Cancer
+              finger pfinerty`at`nyx10.nyx.net for PGP key
+                 http://abragam.med.utoronto.ca/~zinc
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 11:52:09 -0500 (EST)
+From: patrick finerty <zinc`at`zifi.psf.sickkids.on.ca>
+Subject: Re: Stuck Sparge with EM
+
+
+On January 25, 2000, Jack Schmidling wrote:
+
+
+ > There is absolutely no point in trying to get crystal clear wort as
+ > subsequent process steps will clarify the beer. This is
+ > particularly important when doing an infusion mash with no ability
+ > to add heat. By the time you get clear wort, it is too cold for a
+ > proper mash.
+
+
+i don't know if i agree with this statement. it is likely that the
+particulate matter in the runoff contains parts of grain husks and
+boiling this material will extract tannins from it. this gives the
+resulting beer an unpleasant astringent quality. 
+
+
+personally, i recirc until the wort becomes as clear as i can get it
+in a reasonable amount of time. some times this is 15-20 minutes,
+other times it's longer.
+
+
+also, it is possible to add heat when doing an infusion mash. i just
+have the H2O in the HLT at ~170-180.
+
+
+ -patrick in toronto
+- -- 
+       "There is only one aim in life and that is to live it."
+ Karl Shapiro,(1959) from an essay on Henry Miller's Tropic of Cancer
+              finger pfinerty`at`nyx10.nyx.net for PGP key
+                 http://abragam.med.utoronto.ca/~zinc
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 09:16:47 -0800 (PST)
+From: erniebaker`at`webtv.net
+Subject: Brewers response
+
+
+Here in 29 Palms,CA there are no homebrew clubs and the nearest Supply
+store is about 90-100 miles away. So I depend a lot on this digest for
+info.
+
+
+On 19 Jan. i requested help in adjusting the corona mill, i received 11
+responses to my request, so i went from knowing nothing to almost an
+expert. i would like to thank the following for their concern: Jeremy
+Bergsman, Scott Vliek, George Hummel, Bill Riel, Jim Booth, Dave
+Hinrichs, Sean Richens, Dr. Dana Edgell, Bill Frazier,Bob Sheck and
+George McNally. Believe me I understand the mill now. Thanks folks, its
+people like you that make the "Digest" work.
+
+
+Ernie Baker 
+29 Palms, CA
+Happy Brewing
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 11:54:45 -0600
+From: Nathan Kanous <nlkanous`at`pharmacy.wisc.edu>
+Subject: Mash Hopping
+
+
+Don't quote me, but I think that the Kalamazoo Brewery puts hops into the 
+mash for it's Two Hearted Ale.  I don't recall where I heard this, but when 
+I lived in K-zoo, I spent enough time with the guys that worked there, I 
+may have heard it from them.  Just a thought.
+nathan in madison, wi
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 11:10:12 -0800 (PST)
+From: "Steven J. Owens" <puff`at`netcom.com>
+Subject: All-Grain Brewing, Caustic, Practical Brewing, Etc.
+
+
+
+
+     Okay, one last try.  The first version I sent of this got bounced
+for some of the lines being too long, and the second version got
+misdirected to homebrew-request, so here's try number three.
+
+
+Brent Ritchie (Suds2468`at`aol.com) writes:
+> Just when you thought it was safe to read HBD you see someone dredging
+> up the topic of whether it's okay to use caustic as a sanitizer.
+
+
+     A year or two ago I talked to the brewmaster at a recently
+opened brewpub in the Pittburgh area and got a personal tour of the
+facilities and Q&A.  Nice folks.  But he'd never done any kind of
+homebrewing, all of his experience was with larger, commercial
+brewers, so some of my questions just elicited shrugs.  When I asked
+him what the biggest pain - and expense - of brewing was, he answered
+"probably the same as you homebrew guys, cleaning."  He said they used
+"caustic" but he had no idea offhand what was in it.
+
+
+     So what the heck *is* "caustic" anyway?
+ 
+"Nathaniel P. Lansing" <delbrew`at`compuserve.com> writes:
+> Pondering in Pittsburgh,
+>      Del
+
+
+     Is that Del from Triangle Homebrew?  
+
+
+     Good to see you here.  I'm about due to make another supply run
+to your shop (my brewing activities have been slow lately).  A
+heretofore unsuspected-of-brewing friend spotted me reading Papazian's
+_Homebrewers Companion_ the other night and told me he'd brewed one
+batch so far, he got the stuff in a kit at "some shop".  When I
+pressed him for details, he decribed a typically Del-like response,
+"Kit?  Sure I can sell you a kit.  You'll need one of those, one of
+those, one of these..." :-). 
+
+
+     I'm going to introduce him to dark sleep stout tonight. 
+
+
+"Doug Moyer" <shyzaboy`at`yahoo.com> writes:
+>     I've started the arduously slow process of downloading the Practical
+> Brewer (see http://www.mbaa.com/membonly/publication/pdf.html ) I am
+> guessing that many of you are doing the same, since the best I can get is
+> just over 1 Kbyte/s. (I have a lightly loaded 112k ISDN at the office, so I
+> suspect the bottleneck is at the mbaa site.)
+>     Can someone with good bandwidth post the pdf's on their site and let the
+> rest of us know? (Would that be illegal?)
+
+
+     If you figure the legality out, let me know and I'll gzip up the
+copy I have downloaded and put it somewhere you can get it.
+
+
+     Meanwhile, for those of us with access to a networked Unix shell
+account, try something along these lines. First, do "which lynx" to
+see if you have lynx (a text-only web browser) installed on your
+system. If you do, make a file named "fetchbeer.sh" and put the
+following in it (not counting the dashed lines):
+
+
+     The original post had the actual URLs for the Practical Brewing
+pdf files, but the list processor decided they were too long, so I've
+left them out here.  
+
+
+- ----------------------------------------------------------------------
+#!/bin/sh
+lynx -source -dump http://yadda.yadda.com/yadda/yadda/yadday.pdf > yadda.pdf
+- ----------------------------------------------------------------------
+
+
+The main URL is http://www.mbaa.com/membonly/publication/download/
+
+
+Under that the files are:
+
+
+     contents.pdf
+     Intro.pdf
+     Ch01.pdf
+     ...
+     Ch21.pdf
+     Appendix.pdf
+     Index.pdf
+
+
+     Then make it executable by chmodding it, put it in a subdirectory
+named something like "beermanual" and execute it.  This will start up
+about 25 processes at once, all running in background, fetching the
+documents and dumping them into files.  The total files fetched will
+take up about 150 megabytes.  You might want to do it when both the
+network and the Unix system you're using will probably be lightly
+loaded, like later at night on the eastern seaboard.  Now you can
+mass-download them normally from there to your PC.
+
+
+     I deliberately did not include excruciating amounts of detail in
+the above.  If you can't figure it out on your own from the above
+information, you're probably better off not doing this by yourself -
+find Unix-savvy friend to help you.
+
+
+Steven J. Owens
+puff`at`netcom.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 14:23:45 EST
+From: VQuante`at`aol.com
+Subject: Re: 5 yr old homebrew found
+
+
+In einer eMail vom 25.01.00 06:11:12 (MEZ) Mitteleuropaeische Zeit schreibt 
+"MAS, JOHN C. [FND/1820]" <john.c.mas`at`chi.monsanto.com>:
+
+
+>  In cleaning out my basement, I found about 9 bottles
+>  from my first batch of homebrew.  Will it still be drinkable??
+
+
+Hi, John,
+
+
+it doesn't matter, that these bottles are already five years old. But
+much more to worry about: They are from your FIRST BATCH of
+homebrew... ;-)
+
+
+But serious: My personal record up to now is two year old
+homebrew, it wasn't a barley wine, but a simple wheat / weizen,
+and still was very fine!
+
+
+Volker
+
+
+Volker R. Quante
+Brunnenbraeu Homebrewery
+
+
+Brewing and working in Warsaw / Poland, but definitely a German Homebrewer
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 14:43:47 EST
+From: VQuante`at`aol.com
+Subject: Re: Germany Beer Tour
+
+
+In einer eMail vom 25.01.00 06:11:12 (MEZ) Mitteleuropaeische Zeit schreibt 
+"Philip J Wilcox" <pjwilcox`at`cmsenergy.com>:
+
+
+>  The Preliminary Route is to fly into Frankfurt 1 April, drive to
+>  a friends in Stutgartt, then to Munich, Budvar, Prauge, Pilsen,
+>  long trip to Dortmund (via Berlin?), Dusseldorf, Koln, and back
+>  to Frankfurt to fly home 8 April.
+
+
+Uff! Are you sure, Phil, that you'll survive that???
+
+
+If you happen to be in Cologne, I would recommend to go to all the
+original brewhouses in the inner city area as well as to the small pubs
+along the Rheinufer on the western banks of the Rhine. Everywhere,
+really everywhere, you'll find very good koelsch.
+
+
+Near the Barbarossaplatz, in the street "Am Weidenbach 24" you'll
+find a brewpub, which produces good wheat / weizen beer and koelsch,
+it's always worth a visit.
+
+
+Not far from the "Alter Markt" you'll find the Paeffgen-Brewery, also a
+good brewpub, which produces the best koelsch in the city!
+
+
+And, my last proposition: On the other side of the Rhine - east - there's
+a very special pub, very famous, because there was no renovation during
+the last 50 years, it looks a little dirty, even destroyed, but it's very, 
+very
+famous, and the koelsch people like this pub. It's called Lommerzheim,
+or "beim Lommi", and it's in the "Siegesstrasse 18 ". If you look at it, you
+won't believe, that it is still busy, but that's part of its image...
+
+
+Have fun! And greetings to the city, in which I spent some great weekends...
+
+
+Volker
+
+
+Volker R. Quante
+Brunnenbraeu Homebrewery
+
+
+Brewing and working in Warsaw / Poland, but definitely a German Homebrewer
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 14:43:45 EST
+From: VQuante`at`aol.com
+Subject: Re: wyeast kolsch 2565 off-flavor
+
+
+In einer eMail vom 25.01.00 06:11:12 (MEZ) Mitteleuropaeische Zeit
+schreibt "Dan and Kim Lyga" <lygas`at`snet.net>:
+
+
+>  I was wondering if any has encountered any off flavors when
+>  using Wyeast kolsch 2565.  When I racked the beer into the
+>  secondary, and even after tasting the beer a week after bottling, it
+>  had a distinctive mineral, almost medicinal, taste that seems to
+>  linger.  I fermented in the mid-to-upper 60s and did not notice any
+>  obvious quirks.
+
+
+Hi, Dan,
+
+
+I used the above mentioned yeast several times, fermented at
+18 C, and during fermentation the yeast developped a very
+fruity flavour, reminding me of strawberries. Very intensive!
+
+
+During secondary it was less intensive, and in the bottles only
+a weak, fruity taste is left - which is, by the way, typical for
+original koelsch (I was living Cologne for some years and know
+nearly all original (!) koelsch beers).
+
+
+But don't lose hope! My beers brewed with wyeast #2565 aged
+nearly perfectly - the beer became crystal clear and very smooth
+after about three or four months in the cellar at about 12 to 15 C.
+
+
+Good luck!
+
+
+Volker
+
+
+Volker R. Quante
+Brunnenbraeu Homebrewery
+
+
+Brewing and working in Warsaw / Poland, but definitely a German Homebrewer
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 14:47:56 -0500
+From: "Alan Meeker" <ameeker`at`welchlink.welch.jhu.edu>
+Subject: raising mash pH/ FWH/ stir plates/ choc malt
+
+
+Troy Hager asked about raising the mash pH:
+
+
+>In the past I have thought my water produces a fairly acidic mash but I
+>haven't been too concerned about it. I have always read that being on the
+>acidic side of optimum (5.3-5.5) is much better than being on the basic
+>side.
+
+
+As far as pH optima go people are usually referring to the pH optima of the
+starch-degrading amylase enzymes of which there are two main types in barley
+malt - alpha and beta. The issue is a bit complicated. For instance, the
+presence of calcium can have a very large effect on enzyme stability
+effectively broadening the range pH over which these enzymes are highly
+active. Also, the two types of amylases exhibit differences in their
+temperature stabilities and pH stabilities (beta is much more stable than
+alpha at lower pH, a fact that was used to help purify beta amylase away
+from contaminating alpha amylase). The concentration of substrate also has
+an effect (more substrate = protective) so mash thickness will have an
+effect as well. From various sources that I have read it looks like a decent
+pH to shoot for is 5.3 (+/- 0.2 pH units). This will give a good balance
+between the pH optima of the two amylases. All the pH/activity graphs I have
+seen show that the optimal pH is in fact broad enough that if you're off by
+a few tenths of a pH unit it wont have major effects on the enzymes'
+efficiencies and this will be especially true if there is sufficient free
+calcium available in the mash.
+
+
+I too have compared the ColorpHast pH strips to the meter in my lab and the
+papers consistently came to within 0.1 pH units of the meter value so I  am
+pretty comfortable using these to measure mash pH.
+
+
+You're water does look fairly soft, much like the water here in Baltimore. I
+don't understand why it came out of the tap with such a low pH. My water
+here usually clocks in around pH = 8 or so out of the tap.
+
+
+You're test mash started off "around 5" but what was it exactly? If it was
+in the low 5's then it was probably fine and didn't require any pH
+adjustment. The value of 4.4 seems way low and didn't agree with your other
+measurement so something is a little screwy here...
+
+
+You started adding chalk to raise the pH, getting a very small increase
+after adding quite a bit of chalk. Chalk can be quite insoluble and the fact
+that your mash looked "chalky" seems to indicate that much of the added
+chalk didn't actually make it into solution.
+
+
+For pale malts the ultimate mash pH that gets set is primarily the result of
+a reaction between free calcium and malt phosphates which liberate hydrogen
+ions (lowers pH). This phosphate buffering system is what you are working
+against in trying to increase the pH of the mash. I would try your
+experiment again but first treat the water by adding calcium (either gypsum
+or CaCl2) and then boiling it prior to use. This will eliminate much of the
+carbonate, will raise the starting pH of the water, and will supply free
+calcium for the mash. See what results you get with this treatment.
+- ----------------------------------------------------------
+ Stephen Cavan commented on FWH:
+>...The point they raise is that the
+>oils, which are responsible for flavour and aroma, react better at a
+>lower temperature and high pH than one finds during the boil. I think
+>150F was mentioned as a good temp
+
+
+I'm still a bit confused by the whole FWH concept. For this proposed
+mechanism what is meant by "react better?"  Somehow the hop oils have to be
+changed in a fundamentally different way in FWH vs later additions and these
+changes must result in compounds that survive the wort boil and the
+fermentation to end up making a real (perceptible) difference in the final
+beer. Supposedly there is at least one study out there showing that the
+/spectrum/ of hop oil compounds is in fact different between the two
+methods. Documented cases of taste test results in which FWH beers are
+consistently judged better have been cited in various sources so it does
+seem like a real phenomenon though the work to date seems to have focused on
+lighter lagers...
+- --------------------------------------------------
+Stir bars and aeration:
+
+
+>A stir bar obviously would be better at stirring than bubbles but I think
+>it would be poor for aeration. While the stir bar agitation would dissolve
+>oxygen from the air inside the jar, it seems to me that that would get
+>depleted rather quickly.
+
+
+Actually gas diffusion is such a powerful effect that the yeast will get
+plenty of oxygen as long as the container is not tightly closed. Two nice
+examples of this: first, I often grow my starters from a few single yeast
+colonies off an agar plate putting them directly into a liter of nutrient
+medium. The starter quickly grows to saturation and this could not happen
+without oxygen getting to the yeast which would otherwise be limited to only
+about 4 generations of growth. Second, you can grow yeast using a stir plate
+in a synthetic medium containing food that can /only/ be used by aerobic
+respiration. If these yeast ran out of oxygen they could not grow at all,
+yet they grow up just fine. Three things you can do to help maximize
+aeration include 1) have as large a surface-to-volume ratio as you can in
+the starter. 2) have a large opening in the container. 3) do not close off
+the opening any more than is necessary to prevent contamination.
+- -------------------------------------------
+Roger Ayotte asked about choc malt use: Roger, I've tried both ways -
+including it in the grist and adding late in the mash but I haven't noticed
+too much of a difference in the end results. Adding at the end of the mash
+requires that you add a little more choc for the same effect so I've just
+gone to always including it in the grist itself. I have noticed that a
+little choc does indeed go a long way - it's easy to overdo it!
+
+
+ -Alan Meeker
+ Baltimore, MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 17:51:22 -0500
+From: Dave Burley <Dave_Burley`at`compuserve.com>
+Subject: RTQ, mash pH
+
+
+Brewsters:
+
+
+Alan Meeker chooses to continue his
+misquoting and singling me out  for comment
+for reasons only he can know.
+
+
+I doubt I ever even implied that alcohol
+wasn't a major contributor to calories,
+as you suggest in your comment, just
+that alcohol is not a carbohydrate.
+I hope that chemistry isn't too complex.
+
+
+No doubt the subject of  "mouthfeel"
+and subjectveness of same are
+complex and even personal subjects
+as I said in one of my first comments
+on this.
+ 
+I didn't say dextrins don't contribute
+to mouthfeel without support, 
+experts say they don't.
+
+
+Both Paul Smith and I referred to
+M&BS' comment on p 840 vol 2 ed 2
+
+
+"Viscosity measurement has been
+suggested as a method for assessing
+this property ( palate fullness - DRB)
+but little data is available for evaluation.
+
+
+ On page 811( op cit):
+
+
+"The viscosity of the beer can be a
+useful figure reflecting the content and
+degradation states of various contributory
+factors, such as beta glucans, derived
+from the wort."
+
+
+Now in the sense that I provided quotes
+from M&BS that beta glucans contribute to 
+palate fullness, one could assume that 
+viscosity could be a potentially useful
+measure to determine palate fullness.
+This is consistent with M&BS comment
+about viscosity. It seems intuitively obvious
+but no data exists ( or didn't when the text
+was written). Still dextrins are nowhere
+considered as a substantial contributor
+to viscosity or palate fullness that I can find.
+
+
+On a weight % basis the low molecular 
+weight nature of dextrins would mean
+their contribution would be low compared 
+to the much higher molecular weight of
+some of the beta glucans and soluble
+proteins. Question is what % are the
+beta glucans and proteins versus the
+dextrins?  Apparently, even though the
+dextrins are probably higher on a percent
+basis, the dextrins are outweighed by
+other contributory factors as M&BS
+implies in the quote I provided the
+other day in which dextrins were said
+to contribute to nothing more than the
+caloric content of the beer.
+
+
+No one, including Alan, has been able
+to provide a quote which supports the
+contention that dextrins contribute
+susbtantially to palate fullness.
+- ---------------------------------
+Troy Hager, your problem is that you 
+subtracted 0.3 from the pH, when the
+guideline figures 5.2-5.5 refers to the
+pH of the mash measured cool as
+you did. Don't subtract anything.
+
+
+Only thing I could see that might be
+a slight ( but not really) problem is the
+alkalinity. Try boiling and cooling your
+water. Do a mash study after you decant
+in case the analysis is incorrect.
+
+
+Personally, I think your water seems just
+fine as is, if the analysis is correct. As
+you indicated, adding excessive
+quantities of chalk will ruin your beer
+and is not needed.
+
+
+Remember that each pH unit is a factor
+of 10 and that you will have to add ten
+times as much chalk to move from
+5 to 6 as from 6 to 7, barring buffering
+phenomena. Bicarbonate and other
+malt acids provide buffering and make
+the pH even harder to move with
+additions.
+
+
+You indicated you added crystal and
+Vienna  malt, but didn't give exact amounts
+of each only that the sum was 1 pound 
+with two pounds of pale malt. Large
+percentages of dark crystal could have
+dropped the pH quite a lot with water as low in 
+dissolved solids as you indicated.
+
+
+Trust that, except for very
+unusual water supplies, the mash will
+come into the correct range
+automatically. Don't worry....
+- -------------------------------
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 15:27:21 -0800
+From: John Palmer <jjpalmer`at`gte.net>
+Subject: Mash Effficiency and Yield (long)
+
+
+The following is an excerpt from my book. Which is still not done yet. But
+will be soon. I will post when it is available. Should be next month. :-}
+John
+
+
+Extraction and Maximum Yield
+All of these grains can be used to produce the fermentable sugars that make
+up the wort. But to brew the same beer recipe consistently, we need to be
+able to quantify how much yield we can expect from each type of grain. Under
+laboratory conditions, each grain will yield a typical amount of fermentable
+and non-fermentable sugars that is referred to as its percent extraction or
+maximum yield. This number ranges from 50 - 80% by weight, with some wheat
+malts hitting as high as 85%. This means that 80% (for example) of the
+malt's weight is soluble in the laboratory mash. (The other 20% represents
+the husk and insoluble starches.)  In the real world, we brewers will never
+hit this target, but it is useful for comparison.
+
+
+The reference for comparison is pure sugar (sucrose) because it yields
+100% of its weight as soluble extract when dissolved in water. (One pound
+of sugar will yield a specific gravity of 1.046 when dissolved in 1 gallon
+of water.)  To calculate the maximum yield for the malts and other
+adjuncts, the percent extraction for each is multiplied by the reference
+number for sucrose-46 points/pound/gallon (ppg).
+
+
+For example, let's look at a typical pilsner base malt. Most light base
+malts have a maximum yield of 80% by weight of soluble materials. So, if
+we know that sugar will yield 100% of its weight as soluble sugar and that
+it raises the gravity of the wort by 46 ppg, then the maximum increase in
+gravity we can expect from pilsner base malt, at 80% solubility, is 80% of
+46 or 37 ppg.
+
+
+The typical maximum yields for the malts are listed in Table 9. You may be
+wondering how useful the maximum yield number of a malt can be if you can
+never expect to hit it. The answer is to apply a scaling factor to the
+maximum yield and derive a number we will usually achieve - a typical
+yield.
+
+
+Extract Efficiency and Typical Yield
+The maximum yield is just that, a value you might get if all the mash
+variables (e.g. pH, temperature, time, viscosity, grind, phase of the
+moon, etc.)  lined up and 100% of the starches where converted to sugars.
+But most brewers, even commercial brewers, don't get that value in their
+mashes. Most brewers will approach 80 - 90% of the maximum yield (i.e. 90%
+of the maximum 80%). This percentage is referred to as a brewer's extract
+efficiency and the resulting yield is the typical yield from our mash. The
+extract efficiency is dependent on the mash conditions and the lautering
+system. This will be discussed further in the chapters to follow: Chapter
+13 - What is Mashing? and Chapter 14 - The Methods of Mashing.
+
+
+For the purposes of our discussion of the typical yields for the various
+malts and adjuncts, we will assume an extract efficiency of 85%, which is
+considered to be very good for homebrewers. A few points less yield (i.e.
+80 or 75% extraction efficiency), is still considered to be good
+extraction. A large commercial brewery would see the 10% reduction as
+significant because they are using thousands of pounds of grain a day. For
+a homebrewer, adding 10% more grain per batch to make up for the
+difference in extraction is a pittance.
+
+
+Table 9 - Typical Malt Yields in Points/Pound/Gallon
+                     Max.       Max.      Typical       PPG
+Malt Type           Yield        PPG      PPG (85%)     Steep
+2 Row Lager Malt      80          37          31          --
+6 Row Base Malt       76          35          30          --
+2 Row Pale Ale Malt   81          38          32          --
+Biscuit/Victory Malt  75          35          30          --
+Vienna Malt           75          35          30          --
+Munich Malt           75          35          30          --
+Brown Malt            70          32          28          8*
+Dextrin Malt          70          32          28          4*
+Light Crystal (15L)   75          35          30          14*
+Pale Crystal (40L)    74          34          29          22
+Medium Crystal (60L)  74          34          29          18
+Dark Crystal (120L)   72          33          28          16
+Special B             68          31          27          16
+Chocolate Malt        60          28          24          15
+Roast Barley          55          25          22          21
+Black Patent Malt     55          25          22          21
+Wheat Malt            79          37          31          --
+Rye Malt              63          29          25          --
+Oatmeal (Flaked)      70          32          28          --
+Corn (Flaked)         84          39          33          --
+Barley (Flaked)       70          32          28          --
+Wheat (Flaked)        77          36          30          --
+Rice (Flaked)         82          38          32          --
+Malto-DextrinPowder  100          40         (40)        (40)
+Sugar (Corn, Cane)   100          46         (46)        (46)
+
+
+Malt % Yield data obtained and averaged from several sources. Steeping
+data is experimental and was obtained by steeping 1 lb. in 1 gal at 160'F
+for 30 minutes. All malts were crushed in a 2 roller mill at the same
+setting.
+
+
+* The low extraction from steeping is attributed to unconverted, insoluble
+starches as revealed by an iodine test.
+
+
+Mash Efficiency
+There are two different original gravities (OG) that matter to a brewer: one
+is the pre-boil or extraction OG, and the other is the post-boil or pitching
+OG. And, ninety percent of the time, the pitching OG is what people are
+referring to because it determines the strength of the beer. When brewers
+plan recipes, they think in terms of the pitching OG, which assumes that the
+wort volume is the final size of the batch, e.g. 5 gallons.
+
+
+But, when it comes to the efficiency of the mash and lauter, we want to
+think in terms of the pre-boil gravity. The Extract Efficiency section and
+table gave us the typical malt yields that allows us to evaluate our
+mashing process.
+
+
+When all-grain homebrewers get together to brag about their brewing
+prowess or equipment and they say something like, "I got 30 (ppg) from my
+mash schedule", they are referring to the overall yield from their mash in
+terms of the amount of wort they collected.
+
+
+It is important to realize that the total amount of sugar is constant, but
+the concentration (i.e. gravity) changes depending on the volume. To
+understand this, let's look at the unit of points/pound/gallon. This is a
+unit of concentration, so the unit is always expressed in reference to 1
+gallon ("per gallon"). In mashing, you are collecting "x" number of
+gallons of wort that has a gravity of "1.0yy" that was produced from "z"
+pounds of malt. To calculate your mash extraction in terms of ppg, you
+need to multiply the number of gallons of wort you collected by its
+gravity and divide that by the amount of malt that was used. This will
+give you the gravity (points per gallon) per pound of malt used. Let's
+look at an example.
+
+
+Palmer's Short Stout  (target OG = 1.050)
+Malts
+6.5 lbs. of 2 Row
+0.5 lb. of Chocolate Malt
+0.5 lb. of Crystal 60
+0.5 lb. of Dextrin Malt
+0.5 lb. of Roast Barley
+(8.5 lbs. total)
+
+
+For our example batch, we will assume that 8.5 pounds of malt was mashed
+to produce 6 gallons of wort that yielded a gravity of 1.038. The brewer's
+total sugar extraction for this batch would be 6 gallons multiplied by 38
+points/gallon = 230 points. Dividing the total points by the pounds of
+malt gives us our mash extraction in points/pound e.g. 230/8.5 = 27 ppg.
+This value is good, if not great; 30 ppg is basically what everyone shoots
+for. Comparing these numbers to lager malt's 37 ppg maximum gives us a
+good approximation of our mash efficiency:  27/37 = 73%, while 30/37 =
+81%.
+
+
+If we look at the maximum ppg numbers from Table 9 for each of the
+recipe's malts, we can calculate our actual mash efficiency:
+
+
+Malts  OG based on Max. PPG
+6.5 lbs. of 2 Row 37 x 6.5 / 6 = 40.1
+0.5 lb. of Chocolate Malt 28 x .5 / 6 = 2.3
+0.5 lb. of Crystal 60 34 x .5 / 6 = 2.8
+0.5 lb. of Dextrin Malt 32 x .5 / 6 = 2.6
+0.5 lb. of Roast Barley 25 x .5 / 6 = 2.1
+Total  49.9 points
+
+
+In this case, our mash extraction of 1.038 means our percent efficiency
+was 38/49.9 = 76%. Usually I think you will find that your efficiency will
+be 80% or better.
+
+
+Planning Malt Quantities for a Recipe
+We use the efficiency concept in reverse when designing a recipe to achieve
+a targeted OG. Let's go back to our Short Stout example.
+
+
+To produce a 1.050 wort, how much malt will we need?
+
+
+1. First, we need to assume an anticipated yield (e.g. 30 ppg), for the
+   recipe volume (e.g. 5 gallons).
+2. Then we multiply the target gravity (50) by the recipe volume (5) to
+   get the total amount of sugar. 5 x 50 = 250 pts.
+3. Dividing the total points by our anticipated yield (30 ppg) gives the
+   pounds of malt required. 250 / 30 = 8.3 lbs. (I generally round up to
+   the nearest half pound, i.e. 8.5)
+4. So, 8.5 lbs. of malt will give us our target OG in 5 gallons. Using the
+   malt values for 85% Efficiency in Table 9, we can figure out how much
+   of each malt to use to make up our recipe. Malts OG based on PPG (85%)
+
+
+           6.5 lbs. of 2 Row   31 x 6.5 / 5 = 40.3
+           0.5 lb. of Chocolate Malt   24 x .5 / 5 = 2.4
+           0.5 lb. of Crystal 60   29 x .5 / 5 = 2.9
+           0.5 lb. of Dextrin malt   28 x .5 / 5 = 2.8
+           0.5 lb. of Roast Barley   22 x .5 / 5 = 2.2
+           8.5 lbs. total         50.6 points total
+
+
+Remember though that this is the post-boil gravity. When you are
+collecting your wort and are wondering if you have enough, you need to
+ratio the measured gravity by the amount of wort you have collected to see
+if you will hit your target after the boil. For instance, to have 5
+gallons of 1.050 wort after boiling, you would need (at least):
+6 gallons of 1.042  (250 pts/6g)
+or 7 gallons of 1.036  (250 pts/7g)
+
+
+So, when planning to brew with grain, you need to be able to figure how
+much malt to use if you are going to collect 6-7 gallons of wort that will
+boil down to 5 gallons at a target OG. (Actually you need 5.5 gallons if
+you plan for fermentation losses from the hops and trub.)  These
+considerations are taken into account in Chapter 19 - Designing Recipes.
+
+
+
+
+------------------------------
+
+
+
+
+Date: Thu, 27 Jan 2000 18:49:45 -0600
+From: "Jack Schmidling" <arf`at`mc.net>
+Subject: Micorwave Bombs
+
+
+This may seem a streatch for being on topic but I frequently boil water in a
+microwave to sterilize glass ware and would like someone smarter than me to
+comment on this.  It seems like just another urban legend  and microwaves were
+not around when momilies were invented.  I can not think of any reason
+whatsoever
+for the phenomena but bombs are bombs.  I received this from a friend who got it
+form someone else and god only knows where it really came from........
+
+
+> Subject:        Microwaving Water to Heat it Up
+>
+> I feel that the following is information that any one who uses a microwave
+> oven to heat water should be made aware of.  About five days ago my
+> 26-year old son decided to have a cup of instant coffee.  He took a cup of
+> water and put it in the microwave to heat it up (something that he had
+> done numerous times before).  I am not sure how long he set the timer for
+> but he told me he wanted to bring the water to a boil.  When the timer
+> shut the oven off, he removed the cup from the oven.  As he looked into
+> the cup he noted that the water was not boiling but instantly the water in
+> the cup "blew up" into his face. The cup remained intact until he threw it
+> out of his hand but all the water had flew out into his face due to the
+> buildup of energy.  His whole face is blistered and he has 1st and 2nd
+> degree burns to his face which may leave scarring.  He also may have lost
+> partial sight in his left eye.
+>
+> While at the hospital, the doctor who was attending to him stated that
+> this a fairly common occurrence and water (alone) should never be heated
+> in a microwave oven.  If water is heated in this manner, something should
+> be placed in the cup to diffuse the energy such as a wooden stir stick,
+> tea bag, etc. It is however a much safer choice to boil the water in a tea
+> kettle.  Please pass this information on to friends and family
+
+
+Comments please....
+
+
+js
+
+
+PHOTO OF THE WEEK  http://user.mc.net/arf/weekly.htm
+HOME: Beer, Cheese, Astronomy, Videos  http://user.mc.net/arf
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 21:53:09 EST
+From: LOneill953`at`aol.com
+Subject: Kegging
+
+
+I bought some Keg lube and put it on my kegs quite a while ago probably a 
+year or more.  This stuff has become sticky and has made it quite difficult 
+to snap my gas line or picnic tap on (how ironic - huh?)  Any suggestions of 
+how to get this crap off my kegs and more important off my connects?
+
+
+Lance O'Neill
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jan 2000 23:06:08 EST
+From: Warandle1`at`aol.com
+Subject: storage and use of cracked grains
+
+
+Hi all,
+
+
+I have 3 lbs of cracked 2 row American barley malt.  It was cracked on 
+1-26-00.  I will not be brewing this coming weekend.  I have read that 
+cracked malt should be used relatively soon after cracking.  Will my malt be 
+fine in the refridgerator until the following weekend--Feb 5 or 6?  Should I 
+make a point to brew sooner?
+
+
+Thanks,
+Will
+Ashland/Columbia, MO  (Kicking Jayhawk butt, BABY!)
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jan 2000 16:38:44 +1000
+From: "Darren Robey" <drobey`at`awb.com.au>
+Subject: practical brewer
+
+
+
+
+
+
+As is happens yesterday I had another try after very slow downloads of the
+first few chapters.  I then tried again yesterday lunch time (Australian
+time) at work on an unknown internet link and was pulling 17 to
+18kbytes/sec. I had the whole thing down in an hour. WOW it was quick.
+never seen anything like it.
+
+
+Anyhow I don't know how this can be use to anyone else on the list as I
+don't have a web page or access to anything other than internet access and
+email and am a little technically challenged, but I thought I'd let
+everyone know it can be fast,.  Pity the quality is poor and printing takes
+a lifetime.  I just don't have time to read it at work.
+
+
+Darren
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jan 2000 02:20:40 -0500
+From: phil sides jr <psides`at`carl.net>
+Subject: Online Brewing Courses
+
+
+I am taking four brewing courses being offered online (distance
+education) by Milwaukee Area Technical College and I figured there would
+be others here who are interested in taking them as well.  The course
+topics are Malt, Water, Yeast and Hops and are being taught sequentially
+beginning 02/14/00.  Each course lasts four weeks and tuition is very
+reasonable ($65 + $2 out-of-state fee if you do not live in WI).  The
+textbooks are common books that can be found in homebrew shops or
+perhaps already on your bookshelf.  I only had to order one of them from
+the AOB/Beertown website.
+
+
+All of the requisite information can be found at
+http://online.matc.edu/SchedSp2000CHS.htm and you can register right on
+the website.
+
+
+Phil Sides, Jr.
+Concord, NH
+- --
+Macht nicht o'zapft ist, Prost!
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jan 2000 09:57:39 +0000
+From: "A. J. deLange" <ajdel`at`mindspring.com>
+Subject: Troy's Water
+
+
+RE Troys experiences (and Jeremy's response):  Something definitely
+isn't kosher here but I'm not sure what. Soft water would be expected
+to give a mash pH around 5.7 - 5.8 unless a lot of high kilned malt is
+used. Troy added a "little munich and caramel" to the extent of 33% of
+the test grist. That's quite a bit and I would guess it's enough to drop
+pH to 5.2 - 5.3 with a modestly alkaline water, perhaps as low as 5.1 or
+even below 5 with very soft water. Troy got a reading of 4.4. with the
+Merck strips which is absurd and a reading around 5 with the Micro
+strips which may well be within a couple of tenths of the actual pH but
+the message here is that the two manufacturers' strips differed by 0.6
+pH and in this game that's a great deal. As brewers we are looking for
+changes of 0.1 pH or less and, as Troy suggests at the end of his
+article, a meter is really the only way to reliably and repeatably (once
+you get used to the quirks of the meters) read to that level of
+accuracy. Note that the Merck papers read 1.5 pH below the reading of
+the Micro papers in the tap water test again casting suspicion on them.
+
+
+Certainly 2g of chalk should be plenty to neutralize the acid of 1 pound
+of a mix of Munich and caramel. The pH should have shot up to or more
+probably past the desired range. With 20 grams of chalk in a gallon of
+water and mash it should look chalky and taste funny and the pH should
+be in the 9's as the solution is certainly saturated at this point.
+Readings of 5.8 with this much chalk are definitely erroneous.
+
+
+I can only think of two things that could explain this. The first is
+faulty papers and the second is, as Jeremy suggested, that not enough
+time was allowed for the reaction between chalk and the mash to take
+place. I suspect the former based on some of the earlier data. In mixing
+chalk with a mash, however, one must mix very, very thoroughly because
+the chalk is a very fine powder which tends to clump and it is not very
+soluble at all. In fact the malt acids which it is desired to neutralize
+are necessary to dissolve the chalk.
+
+
+Jeremy asked about what causes the acidity in the first place. The
+answer is acids produced when the sugars in malt are raised to high
+temperature in making colored malts. Even malts which are quite pale
+contain some so that soft water mashes at pH's of 5.2 - 5.3 are seen
+with, for example, pale ale malts but not with Pilsner malts. The blacks
+and patents contain lots and lots of acids. I think I recall determining
+that a kg of patent malt carried about the equivlent of 5 mL of 9N
+(hardware store strength) hydrochloric acid. The kilns used to produce
+this stuff are of special construction and in contant need of
+maintenance because they are quickly ruined by corrosion otherwise.
+
+
+Other things to neutralize with: Jeremy suggested sodium bicarbonate and
+that's fine if you don't mind the sodium. Sodium carbonate (soda ash)
+can also be used but also results in increased sodium levels. Some
+brewers object to the bicarbonate from these salts as well. Calcium
+hydroxide (slaked lime, pickling lime) and calcium oxide (quick lime)
+can be used and have the advantage of increasing calcium without an
+accompanying increase in bicarbonate. The former is available in food
+grade in super markets. The latter is a bit dangerous if it gets wet.
+
+
+I think the best thing for Troy to do is borrow or buy a pH meter. They
+keep getting better and cheaper. Lots of homebrew suppliers carry units
+in the $100 price range which are accurate to 0.1 pH or better. They
+have limitations WRT the laboratory or better handheld units but they
+are adequate for what Troy is trying to observe in this case. There's
+lots of stuff in the archives on pH meters and there is also the two
+part article I wrote on them in BT a couple of years ago (I'm still in
+the Middle East and unable to look up the issues).
+
+
+Since writing this I see Carm's antiphon from upstate New York. His post
+reported pH below 5 for a pale ale malt soft water mash with some
+crystal and as I said above that may not be so surprising.When I use
+pale ale malt with a few percent crystal I typically get  pH  about 5.2
+and my water's alkalinity runs  60 - 90. Carm's post said he did the
+same experiment as Troy but he didn't specifically mention addition of
+chalk. Water with any appreciable alkalinity shouldn't allow the pH to
+get below 5. Jeremy's approach of adding sodium bicarbonate has the
+advantage that it is easily dissolved in the liquor thus eliminating any
+potential problems with even mixing throughout the mash. Adding 84 mg of
+this salt for each liter of mash water raises the water's alkalinity by
+50 ppm as CaCO3. Twice this amount should control mash pH for the
+typical ale grist. 37 mg/L of slaked lime will also give 50 ppm
+alkalinity.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jan 2000 09:40:02 -0000
+From: Tony Barnsley <tony.barnsley`at`blackpool.gov.uk>
+Subject: re: Efficiency vs.Yield
+
+
+Jack S and Others Have said
+
+
+"gravity per pound per gallon says it all."
+
+
+Or something like that. GO METRIC !!!
+
+
+Degrees / Kilo /  Litre is the way to go!
+
+
+:-> (for the humour challenged)
+
+
+Incidentally, does anybody recall the conversion factor from one to the
+other 8.something seems to ring a bell.
+
+
+- --
+
+
+Wassail!
+
+
+The Scurrilous Aleman
+Schwarzbad Lager Braueri, Blackpool, Lancs, UK
+Reply To Aleman At brewmaster Dot demon Dot co Dot uk
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3235, 01/29/00
+*************************************
+-------

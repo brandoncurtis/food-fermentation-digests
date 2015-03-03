@@ -1,0 +1,1340 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id KAA08817
+        for <spencer`at`srvr5.engin.umich.edu>; Fri, 27 Feb 1998 10:38:08 -0500 (EST)
+Received: from twins.rs.itd.umich.edu (0`at`twins.rs.itd.umich.edu [141.211.83.39])
+        by srvr22.engin.umich.edu (8.8.8/8.8.8) with ESMTP id KAA26347
+        for <spencer`at`engin.umich.edu>; Fri, 27 Feb 1998 10:38:07 -0500 (EST)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with X.500 id KAA07140; Fri, 27 Feb 1998 10:38:06 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with ESMTP id KAA07100; Fri, 27 Feb 1998 10:37:55 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA14890 for realhomebrew; Fri, 27 Feb 1998 00:39:57 -0500
+Date: Fri, 27 Feb 1998 00:39:57 -0500
+Message-Id: <199802270539.AAA14890`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2648 (February 27, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2648                             Fri 27 February 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Predicting Mash pH (AJ)
+  proper sanitation ("John Herman")
+  Predicting Attenuation (re: the Druey Equation) and the Modificat ("Riedel, Dave")
+  Sages of Siebel Speak / Part 1 ("Rob Moline")
+  Siebel Sages Speak / Part 2 ("Rob Moline")
+  homebrew cooking - dessert pears (smurman)
+  Infusion mashing (Jason Henning)
+  5l kegs/cornykegs/carbonation ("Gregg Soh")
+  Why buy continental lager malts ? ("Steve Alexander")
+  carbon yeast killers ("Ray Estrella")
+  Injuneers and spherical horses,water chemistry, ("David R. Burley")
+  Re:Chem E's, MEs and EE (Glyn Crossno)
+  Hemp Cream Ale (Eugene Sonn)
+  weight scales/Mixmasher (Mike Spinelli)
+  1/2 barrel mash screens (David Kerr)
+  Re: Converting to RIMS (Dion Hollenbeck)
+
+
+
+
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 24 Feb 1998 22:00:21 -0400
+From: ajdel`at`mindspring.com (AJ)
+Subject: Predicting Mash pH
+
+
+I've recently had private communication concerning Kohlbach's formula for
+predicting mash pH. In particular my correspondant was having trouble with
+the concept as presented in George and Laurie Fix's "An Analysis of Brewing
+Science" and Ray Daniels "Designing Great Beers". In the former case,
+typographical errors (as evidenced by the fact that the formula is given
+two different ways in two different places - the authors are aware of this)
+obscure the meaning and in the latter the formula is also printed
+differently in two places neither of which is correct as increased calcium
+and magnesium concentrations would increase the pH and the converse is the
+case.  As this formula can be quite useful for prediciting mash pH
+_approximately_ I thought it might be of interest to have the record set
+straigt.
+
+
+Kohlbach's observation was that water with 10 degrees of "residual
+alkalinity" (and we'll get to what that means in a minute) caused the pH of
+a pale malt mash (12 P) to be 0.3 pH units above the pH realized if
+distilled water was used. This observation quantifies the relationship
+between bicarbonate ion in the water (the source of alkalinity) and the
+hydrogen ion released by the reaction of calcium and magnesium in the water
+with phytin in the malt. Phytin must be hydrolyzed to phytic acid for this
+to take place and that hydrolysis requires the enzyme phytase which is
+largely inactivated in high kilned malts so this calculation is only useful
+for low kilned malts which, of course, make up the majority of the grist in
+many beers.
+
+
+Kohlbach determined that 3.5 equivalents (Eq) of calcium reacts with malt
+phytin to release 1 equivalent of hydrogen ions which can "neutralize" 1
+equivalent of water alkalinity. Similarly 7 equivalents of magnesium react
+to neutralize 1 equivalent of alkalinity. Alkalinity which is not
+neutralized is termed "residual alkalinity" (abbreviated RA). We are
+interested not in the total amount of alkalinity neutralized but in the
+amount per unit volume thus we write:
+
+
+    Eq/L RA = Eq/L Alkalinity  - [ (Eq/L Ca)/3.5   + (Eq/L Mg)/7  ]
+
+
+Written this way the residual alkalinity is in units of equivalents per
+liter (Eq/L) as are the alkalinity, the calcium concentration and the
+magnesium concentration. If all terms in the formula are scaled by the same
+factor the formula still holds so that, for example, if we multiply both
+sides by 1000, the units for all quantities would be milliequivalents per
+liter  (mEq/L), sometimes called millivals (mV/L)
+
+
+  mEq/L RA
+         = mEq/L Alkalinity  - [ (mEq/L Ca)/3.5   + (mEq/L Mg)/7  ]
+
+
+
+
+Life would be much simpler if people stuck to milliequivalents but
+tradition demands otherwise. For example, Kohlbach worked in German degrees
+of hardness. A German degree is 0.3574 mEq/L. Thus if we scale both sides
+of the equation by this factor we would get:
+
+
+
+
+     dH RA   = dH Alkalinity  - [  (dH Ca)/3.5   + (dH Mg)/7  ]
+
+
+i.e. everything is expressed in "dH" units - German degrees of hardness.
+In the US we use "ppm as CaCO3" and each ppm as CaCO3 is equal to 0.02 mEq/L:
+
+
+ppm as CaCO3 RA =
+  ppm as CaCO3 Alkalinity  - [ (ppm as CaCO3 Ca)/3.5   + (ppm as CaCO3 Mg)/7 ]
+
+
+
+
+Thus as long as the metal ion concentrations are expressed as "hardnesses"
+and in the same units as the alkalinity we can calculate the RA in the same
+units as the alkalinity.
+
+
+While calcium and magnesium concentrations in a water sample are sometimes
+expressed as "calcium hardness" and "magnesium hardness", (in ppm as CaCO3
+or German degrees or French degrees or English degrees) they are sometimes
+expressed directly as the concentration of the ion ("as calcium" or "as
+magnesium" in mg/L (or sometimes ppm which is effectively the same). It is
+in this latter case that confusion arises because alkalinity is nearly
+always given in hardness units (ppm as CaCO3 or one of the "degree" units.)
+In these cases it is, I think, simplest to bring everything into mEq/L. Use
+the following conversions:
+
+
+To Convert                              to mEq/L
+Hardness*(ppm as CaCO3)                 Divide by 50
+Hardness (German Deg.)                  Multiply by 0.357
+Hardness (French Deg.)                  Divide by 5
+Hardness (English Deg.)                 Multiply by 0.285
+Calcium (mg/L)                          Divide by 20
+Magnesium (mg/L)                        Divide by 12.15
+
+
+* Calcium and magnesium hardness. Use these same factors for alkalinity
+when it is expressed in hardness units.
+
+
+The fact that 10 German degrees (3.574 mEq/L) causes a pH change of 0.3 pH
+means that 1 mEq/L causes a pH change of 0.3/3.574 = 0.084 pH.
+
+
+Example: A water sample shows alkalinity of 80 ppm as CaCO3, calcium
+hardness of 60 ppm as CaCO3 and magnesium hardness of 30 ppm as CaCO3. What
+is the residual alkalinity and pH shift?
+
+
+Solution: RA = 80/50 - (60/50/3.5 + 30/50/7) = +1.17 mEq/L
+          or
+          RA = 80 -(60/3.5 + 30/7) = +58.6ppm as CaCO3 -> 58.6/50 = +1.17 mEq/L
+
+
+          pH shift = (+1.17)(0.084) = +0.10
+
+
+
+
+Example: The same sample might be reported as having alkalinity of 80 ppm
+as CaCO3 with a calcium concentration of 24 mg/L and a magnesium
+concentration of 7.3 mg/L.
+
+
+Solution: RA = 80/50 - (24/20/3.5 + 7.3/12.15/7) = +1.17
+
+
+Note that RA can be negative in which case the pH will be lower than the
+distilled water pH and, of course, this is what you would like to see.
+
+
+To estimate mash pH all you now need is the value for the pH for a
+distilled water mash. It is best that you measure this yourself by mixing
+deionized water and and a small amount of ground malt at about the same
+ratio that you will use in the mash tun (this is not critical). Let this
+stand for about 5 minutes and measure the pH. My personal experience is
+that most of the pale malts will come to a pH close to or a little less
+than 5.7 but some authors say 5.8. In the example above I would estimate
+the mash pH to be 5.7 + 0.10 = 5.8. If I wanted to lower this to 5.6 I
+would need to decrease the RA by 0.2/0.084 = 2.38 mEq/L and this would
+require an increase in the calcium level by (2.38)(3.5) = 8.33 mEq/L. Since
+each mEq/L of calcium corresponds to 20 mg/L of the ion this is 166.7 mg/L
+additional calcium which would bring the total to 166.7 + 24 = 190.7. Some
+places (Vienna) have water that hard but it's rare not to mention the fact
+that 8.3 mEq of anion would also be added with the calcium in the salt or
+salts used to augment the calcium (294 mg/L chloride if all calcium
+chloride or 400 mg/L sulfate if all gypsum). Thus we would probably look to
+acid from higher kilned malt to do part of the job if we wished to lower
+the pH this far.
+
+
+The Fixs calculate RA separately as we have done above here. Daniels puts
+everything into one formula. This should read
+
+
+pH = 5.8 + 0.084[0.02 Alk(ppm as CaCO3) - 0.0143 Ca(mg/L) - 0.0117 Mg(mg/L)]
+
+
+or
+
+
+pH = 5.8 + [0.00168 Alk(ppm as CaCO3) - 0.0012 Ca(mg/L) - 0.000982 Mg(mg/L)]
+
+
+Putting in 80 for the alkalinity, 24 for the calcium and 7.3 for the
+magnesium we get pH = 5.8 + 0.1 which represents a rise of 0.1 pH as we
+obtained above. Daniels assumes pH 5.8 for a distilled water mash.
+
+
+Numquam in dubio, saepe in errore.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 1998 23:31:30 +0000
+From: "John Herman" <interport.net`at`interport.net>
+Subject: proper sanitation
+
+
+every book has a different answer on this, how much bleach do I use 
+per gallon of water?  Is TSP better?
+
+
+
+
+Thanks
+/*************************\
+/* John Victor Herman    *\
+/* johnvic`at`interport.net *\
+/*************************\
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 1998 12:42:00 -0500
+From: "Riedel, Dave" <RiedelD`at`dfo-mpo.gc.ca>
+Subject: Predicting Attenuation (re: the Druey Equation) and the Modificat
+
+
+You may recall that I tried using Kyle Druey's attenuation prediction
+equation for a pair of lagers.  The results were almost perfect for the
+first batch (Dunkel) and then quite poor for the second (Vienna):
+
+
+> >For the Dunkel, I wanted to go from 1.053 to 1.014-15; Kyle's linear
+> >model said: 26-28 min at 60C/140F and 62-64 min at 70C/158F.  
+> >SG              1.053 
+> >OG              1.014 (2 wks later) - now lagering at ~2C/34F
+> 
+> >For the Vienna, I wanted 1.050 to 1.010; Druey's new and improved
+> >exponential said use 60 min `at` 60C/140F and 30 min `at` 70C/158F.   
+> >SG              1.051
+> >FG              1.015  (ferment only lasted about 1 week; racked
+> after
+> 
+Well,  I'm planning on doing a Czech Pils in a couple of weeks, so I'd
+like to
+try and nail down the reason for the above discrepancy.  So what changed
+between the batches?
+
+
+1.  Base malt-   Dunkel: 1.5kg Canada Malting 2-row,  3.5kg Baird Munich
+                      Vienna: 3.7kg DWC Pils, 0.75kg Ireks Vienna
+
+
+2.  Malt crush-   Dunkel was crushed with a Valley Mill on the 3rd
+coarsest
+                      setting; Vienna was crushed on the second coarsest
+setting.
+                     
+3.  Protein rest- I used a protein rest of 10min at 50C (122F) for the
+Dunkel
+                        and 15min at 50C for the Vienna.
+
+
+It's a safe bet to assume that the 2-row and the Munich are well
+modified.  I
+gave the Dunkel a brief rest at 122F 'just to be safe'.  The Vienna,
+however,
+is predominantly DWC pils which, it has been argued, may be the only
+widely
+available malt requiring a 50C(122F) rest.
+
+
+What I'm speculating is this:  could the coarser crush and the short
+rest at 50C
+have resulted in a mash situation where the enzymes active in the first
+step at
+60C(140F), primarily beta amylase, were unable to aggressively begin
+acting on
+the malt right away?  That is, was the action of the beta amylase at
+140F slowed 
+by the malt/mash structure that resulted from a coarse crush and a
+(possibly) 
+insufficient protein rest?  It seems to me that a fine crush and well
+modified malt
+would make the enzymes' jobs easier - fast, thorough access to *all* the
+malt and
+hence quicker conversion.  If my speculation is plausible, the Vienna
+mash would
+effectively have 'seen' a shorter rest period at 50C(140F) and hence
+have been
+less fermentable.
+
+
+Any thoughts on this?
+
+
+Dave Riedel
+Victoria, BC, Canada
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 1998 23:04:18 -0600
+From: "Rob Moline" <brewer`at`ames.net>
+Subject: Sages of Siebel Speak / Part 1
+
+
+Siebel Sages Speak....
+    When George and I were `at` Siebel, I asked for questions to pose to the
+instructors. Most, if not all of those questions have already been answered
+by my self or George, (mostly George, 'cos he is far brighter than I in this
+regard, but mostly 'cos he is a much faster typist......er,
+uh...keyboarder!), to the individuals concerned.
+    But, the point was to get actual response from the Siebel staff to your
+individual questions, and to that end, I left a small stack of printed
+questions for them. These have now been returned to me, and I have tried to
+faithfully reproduce them.
+    Sorry, they are not all signed, so I am not sure of the instructor
+responding in all questions.
+
+
+> From: Peter M Garofalo
+> To: Rob
+> Subject: A Question for the Seibel Sages
+<SNIP>
+> Is modern-day malt sufficiently modified as to not require a protein
+> rest? Is ther esuch a thing in today's world as under, modified malt? If
+> so, what harm does a protein rest do, besides a too-long too-cool one
+> potentially ruining head retention? Need I go on...?
+
+
+    Most modern malt is well modified. Good modification implies that a
+relatively large percentage of protein from grain ends up in wort. Low
+protein malts or specialty malts may still contribute low levels of nitrogen
+to wort. Modification doesn't tell the whole story, so there is no universal
+answer. Most North American pale malt will give plenty of nitrogen to wort,
+so a protein rest is not required when protein is the only consideration.
+Beta-glucans, phenolics, and extract yield are other factors to be
+considered.
+
+
+> From: Tim Martin
+> Subject: undermodified vs. modified malt question
+<SNIP>
+> What malts are considered fully modified and which ones are under
+> modified?
+> Can we successfully single infuse the fully modified malts and not get
+> chill haze or starch haze?
+> Is step infusion necessary (helpful or damaging) to modified malts?
+> Are all malts today modern Fully modified and can we do a single infusion
+> with them.
+> What is the best way to mash Klages/Harrington malts? Are these a
+> lager, pale, pale ale malt?
+> What is optimum single infuse temperature.
+<SNIP>
+
+
+    Malts which release their extract easily are well modified. Malt
+analysis parameters such as low fine-coarse extract difference, high
+friability, high S/T protein, low viscosity, low beta-glucans are all
+indicators of high modification. No malt is fully modified because of the
+way that germination proceeds.
+    For 'some' (underlined) purposes, most modern malts can be mashed using
+a single infusion.
+    Most North American malts are lager malts.
+    There is no such thing as a simple "optimum temperature" - it can only
+be defined on a case by case basis.
+
+
+> From: Tom Herlache
+> Subject: Question
+> OK Rob, I'll take you up on your offer.  My question is a bit complex, so
+I hope it makes sense.  Here goes:
+> First a supposition:
+>     Chill haze is caused by (poly)phenols in beer forming hydrogen bonded
+> complexes with beer proteins, and the major protein involved in this
+> interaction are the proline-rich hordeins.
+>     If this is the case, then why are proteinase rests thought to help
+with
+> chilling stability?  It seems that increased chilling stability via
+> proteinase rests would have nothing to do with the reduction of high
+> molecular-weight proteins to smaller size by proteolysis (that is, on a
+> general effect on the protein pool), as is so often stated in the HBD,
+> because a specific protein is involved in the interaction.  I've talked
+> with Karl Siebert, who is a faculty member at our Experiment Station, and
+> he feels that protein rests are of little value in chill stabilizing beer.
+> Karl also thinks that even smallish fragments of hordein are haze-active,
+> thereby ruling out degradation of hordein as the mechansim.  I believe
+> that's because relatively short polyproline peptides are haze active but
+> I'm not sure what his evidence for this is.
+>
+> What sayeth the High Sages?  Are proteinase rests effective in chill
+> proofing, and if so, why?  How does this relate to hordein?
+
+
+
+
+    A protein rest is of little value in affecting chill haze....(chill
+haze) is, as you say, the product of a very specific protein type.
+    One attempt to characterize haze protein involved examination of
+proteins removed from silica gel which had been put in beer to remove haze
+precursors. Proteins recovered were as small as 12,000 molecular weight.
+                        Joe Power
+
+
+> From: Jeffrey M. Kenton
+> Subject: Three questions
+>
+> 1. What is the proper way to dry hop?
+> 2. Is there any advantage to wet milling over dry milling?
+> 3. When boiling, can a person assume a linear increase in SG due to a
+> measurable loss of water? (i.e. After boiling 10 gals of 1040 wort to
+seven
+> gallons, is the resulting SG 1057? ((10 x 40)/7)
+
+
+
+
+    1. Dry hopping- Put whole hops or pellets into the storage or finishing
+tank before putting the beer in. Sometimes the dry hopping is done in the
+fermenter. To help with separation later the hops can be put in a mesh bag,
+panty hose work well. Tie or hold it down somehow so it doesn't just float
+on the top. Infecting the beer with microorganisms from the hops has not
+been a problem, especially at temperatures near 0 degrees Centigrade and
+storage times under two weeks. Dry hopping does not work well with low or
+zero alcohol beers.
+    Dave Radzanowski
+
+
+    2.  What is the advantage of wet milling? Advantages of wet milling are
+a fully elastic husk essentially preserved intact and good surface area
+contact for the endosperm. Somre believe they get an additional 1%
+efficiency as a result and the lauter tun footprint can be smaller due to
+false bottom loading capability up to 350 kg/m2. Typical dry milling maximum
+is 190 kg/m2. There are some disadavantages also so both conditioned dry
+milling and steep conditioning milling technology has been developed as
+immediate alternatives.
+    Paul Smith (?)
+
+
+    3. Specific gravity change from boiling- If you know the wort volume
+before and after boiling, you can accurately estimate the new SG as a linear
+function of the volumes. For example, 10 hl at 1040 (1.040 = 10 P = 10.39 kg
+extract/hl) boiled down to 8 hl. The new extract content is 10.39 x 10/8 =
+12.99 kg/hl. Using SG, 40 x 10/8 = 50 or 1050 which is equivalent to 13.0 kg
+extract/hl. The Plato calculation is slightly less accurate, ie 10 P x 10/8
+= 12.5 P, which is the same as 13.11 kg extract/hl.
+    Jim Larson
+
+
+
+
+End...Part 1
+Jethro
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 1998 23:06:27 -0600
+From: "Rob Moline" <brewer`at`ames.net>
+Subject: Siebel Sages Speak / Part 2
+
+
+Siebel Sages Speak...Part 2
+
+
+> From: kathy
+>Subject: 3 Questions
+> In a private email to an HBD'er I opined the ideal grind for efficiency
+> would be to have a whole husk and a finely ground "inside".  The whole
+> husk and bran is to keep tiny pieces of of bran and husk out of the wort
+> and the fine starch is to promote conversion from access to enzymes.
+>
+> I've always assumed that the "ideal" 6-roller grind was a compromise
+> between efficiency and lautering performance.
+>
+> Anyway, my candidate for "3 Questions that need asking" would be
+> something like "what makes the ideal brewing grind and how critical/what
+> consequences are deviations coarse and fine.
+
+
+    What makes the ideal milling assortment? Any textbook milling assortment
+is a good starting point in setting mill roller gap. Then lauter tun
+characteristics and other equipment factors come into play. Usually
+additional adjustment will optimize extract production with a reasonably
+short runoff.
+    I favor starting with mill roll settings of 0.06 " on the pre-crushing
+rolls, 0.035" on the husk rolls, and 0.014" on the finish rolls.
+    I favor a starting assortment of 14% on sieve 10, 20% on sieve 14. 29%
+on sieve 18, 18% on sieve 30, 9% on sieve 60, 4% on sieve 100, and 6%
+maximum on the bottom. Once that is achieved, the first brew can be
+evaluated and further adjustments made based on performance, until the ideal
+assortment for that system is identified.
+    Avoid increasing the percentage of flour on the bottom of the sieve.
+This usually indicates pre-damaged malt or too tight settings and will
+inhibit runoff.
+    Paul Smith (?)
+
+
+> From: Randy Lee
+> Subject: Qs
+> Maybe it's already queued, but houw about the answer to my question on
+> saturday concerning the indicators of malt that tell you that it can be
+> single step mashed vs must be multi-step mashed? That's one that I'd
+> like to know.
+
+
+
+
+    The single most commonly used indicator on a malt analysis is the
+fine-coarse difference. Below 2% indicates good modification, and a single
+step mash can probably be used. No single measure is a perfect indicator,
+though. If figures are available, look for high soluble to total protein
+ratio- min 38 - 40%, low wort viscosity - not over 1.5, high friability and
+low beta-glucan, low percentage of under-germinated grains - max 2 % in 0 -
+1/4 range.
+
+
+> From: Jon Bovard
+> Subject: 3 questions
+> There is a topic that myself, Charlie Scandrett, a professional brewing
+> friend, and indeed a bavarian brewmaster have discussed regarding
+> proteolisys and fully modified malt.
+> I have a sample of fully modified commercial malt with a kolbach index of
+> 52.2 and a nitrogen level of 1.2%. clearly this is more modified than
+> English malt.
+>
+> My anecdotal experience stipulates that a protein rest of 30 min at
+121-123f
+> will degrade head retention and lessen body to some extent.
+> However I know of a brewer who uses fully modified malt similar to this
+and
+> insists upon protein rests.
+> What evidence if any exists to bolster the opinion that even highly
+modifed
+> englsih style malt will benefit from a protein rest.
+
+
+(Rob.......2 responses here........one from George de Piro.)
+1.     The malt seems well modified but low in nitrogen. The benefit of a
+modification, or protein rest might be to make more nitrogen available as
+yeast nutrient. This could lead to lower diacetyl in the beer if the level
+is low, which low nitrogen suggests. Maybe you like diacetyl, maybe you
+don't.
+
+
+2.    Some older brewers are very set in their ways and refuse to modernize.
+Protein degradation is very important, but if the maltster has done it for
+you, you don't have to!
+    A class mate from BC, Canada, was in this exact situation. An older
+Bavarian brewmaster insisted on doing protien rests, and produced headless
+beer. When he left, they skipped protein rests and made beer with acceptable
+foam stability.................George dePiro
+
+
+> From: Kyle Druey
+> Subject: question
+> Jethro, 3 questions regarding protein rests:
+
+
+> 1)  When is a rest at 122 F appropriate?
+>
+> 2)  When is a rest at 135 F appropriate?
+>
+> 3)  When is no protein rest needed at all?
+
+
+
+
+    1. When you want to increase modification reactions.
+    2. A rest at 135 F is not appropriate fro much of  anything. Too high
+for protease and glucanase - too low for starch digestion.
+    3. When you don't care about higher beta-glucan levels and highest
+levels of extract recovery and when sufficient protein and protein related
+nyeast nutrients are already at sufficient levels.
+
+
+Rob Again........    I hope I have given an accurate recount of the
+responses...again, not all of the respondents are identified to
+me....indeed, one of the staff  was incredulous that I would ask that  these
+questions be answered by them, as he felt that I knew the answers already,
+as a result of my instruction there.
+    I felt that this was not the point, that the benefit in this exercise
+was a response from the staff, not a student, and am thankful that the rest
+of the staff I approached in this matter didn't feel imposed upon. And I
+wish to express a thank you to Jim Larson of Siebel for organizing, (or
+being stuck with, and handling it nonetheless!), and returning the answers
+to me to forward to the Digest.
+    But, I will offer no excuse for my intent, only thanks to the staff of
+Siebel , in it's entirety, for the overwhelming willingness to answer any
+question, no matter how stupid I was in posing it. These folks are the best
+in the biz, and as if anyone needs any reminders, the staff of Siebel more
+than likely instructed the brewer of your fathers (certainly), and
+grandfathers, if not great grandfathers beer, if you live on the North
+American continent.
+    I would ask that those of you who have had your questions directly
+answered here, and any of you on the hbd who feel you might have learned
+anything from them, or from anything that george and I reported during our
+stay `at` school, send an e-mail of thanks to the staff of the Siebel Institute
+for their aid. The e-mail address is <siebelinstitute`at`worldnet.att.net>
+
+
+    And here is a final shameless plug....Deadline for the next Scholarship
+for a Short Course is March 31, 1998. Get your app in soon, folks! Info is
+available from the same address.....The Scholarship covers about 2400 US$
+course cost and adds an extra 1000 US$ for travel and accomodation costs.
+Having been a scholarship recipient myself, I  not only highly recommend the
+school itself, but apart from the time involved in writing your scholarship
+application, the costs of postage are negligible.
+    If a burk like me can win one, imagine what you could achieve!
+Jethro Gump
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 1998 21:51:23 -0800
+From: smurman`at`best.com
+Subject: homebrew cooking - dessert pears
+
+
+
+
+This is a dessert recipe that uses mead instead of homebrew.  Those of
+you who would still like to play along at home, but aren't (yet)
+meadmakers, can substitute a sweet dessert wine for the mead.
+
+
+If you're like me, you bottle up your mead and set it in a safe place,
+promising not to touch it for X amount of months.  At about X-3 months,
+you give in to temptation and open a bottle to sample the progress.
+Usually at this time you renew your vow to age it for another X
+months, and quickly look for someplace to pawn the rest of the
+bottle.  I came up with this recipe as a way to save those young
+bottles of mead that were sacrificed to my impatience.  
+
+
+Basically, we're going to steep some fruit in the mead, along with any
+spices and whatnot.  This allows both the fruit to absorb the flavor
+of the mead and spices, but also the mead absorbs some of the flavor
+of the fruit and whatnot, transforming a bottle of rocket fuel into
+something more palatable, if you care to drink it afterwards.
+
+
+I use pears or peaches for this recipe, and usually just buy them
+canned.  If you have them fresh then peel them, de-seed, and cut in
+halves.  Uncovered on the stovetop, simmer the fruit along with the
+mead, and any spices you feel would add to the flavor.  Cinnamon,
+cloves, licorice, whatever.  To be honest, I usually just use the mead
+without adding anything extra.
+
+
+Let this simmer uncovered for a half hour or so.  After this I cover
+it, and then let it sit in the fridge until I'm ready for dessert in a
+couple of hours, the next night, next week, whatever.  You can keep
+the whole shebang in tupperware probably for months.
+
+
+When you're ready for dessert, butterfly the pears by cutting them in
+strips 3/4 the length of the fruit, and spreading the strips flat.
+Sprinkle brown sugar over the top of the pears, place them on some
+aluminum foil or a baking plate, and then place them under the broiler
+in the oven.  Remember to turn the broiler on at some point.  Let them
+sit under the broiler for a couple of minutes until the brown sugar
+carmelizes.  Don't let them go too long, or the sugar will burn (and
+send foul smoke from the kitchen that will not impress your date).
+
+
+Remove from the oven and cool, but serve them while they're still
+warm, within a couple of minutes.  Serve with a dollup of whipped
+cream, creme fraiche, vanilla ice cream, or the like.  Basically, use
+something that is cool to contrast the warmth of the fruit and
+alcohol.  (Hint: melted ice cream adds to the mead juice sitting on
+the bottom of the plate, which can then be more easily spooned up).
+
+
+This one is simple to make, and VERY tasty.  It can also double as an
+apertif, as the fruit absorbs quite a bit of alcohol.  I encourage all
+of you to give it a try.
+
+
+Enjoy
+
+
+SM
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 25 Feb 1998 07:19:31 GMT
+From: huskers`at`olywa.net (Jason Henning)
+Subject: Infusion mashing
+
+
+Hello-
+
+
+All the multiple infusion mash formulas I seen seem to be forward
+programmed. That is, first figure the strike water temperature then
+figure how much boiling water to hit the next rest and then the next.
+For instance, Jim Palmer has an example (in BT Sept '97, p 24) where he
+does a 104-140-158F mash example. He first figures the strike water
+temperature for 104 rest. Then figures how much boiling water is needed
+raise the mash to 140F and then 158F. It's an extreme example but makes
+the point. He started with 1 qt/lb and finishes with 2.2 qt/lb.
+
+
+I plan in reverse. I'm more concerned about the mash thickness at
+saccharification. I shoot for 1.3 qt/lb but I realized that with a
+104-140-158F schedule the last rest is go to be thin. I'd like to keep
+more in line with the 1.8 qt/lb and see what happens.
+
+
+With this mash, I figure out how much hot water needs to subtracted to
+hit the previous rest. To drop from 158F to 140F, I need to remove .5
+qt/lb at 210F. That means my 140F rest thickness is 1.3 qt/lb. Restated,
+my 1.3 qt/lb 140F mash will raise to 158F with 5 quarts of 210F water
+added. 
+
+
+Then I'd do it again, calculate the infusion volume to be removed hit
+104F, figure the mash thickness. It turns out to be another 5 quarts and
+the original thickness is .8 qt/lb. That's pretty thick but manageable,
+a thicker mash is almost impossible to stir.
+
+
+I guess the difference is I start with a given final thickness and
+determine mash-in thickness and Jim figures final thickness with a given
+mash-in thickness.
+
+
+It's two simple formulas. If anyone one is interested, drop me an
+e-mail.
+
+
+Cheers,
+Jason Henning <huskers olywa net>
+Big Red Alchemy and Brewing
+Lacey, Washington
+
+
+All other nations are drinking Ray Charles beer and we are drinking
+Barry Manilow. - Dave Barry
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 1998 23:51:48 PST
+From: "Gregg Soh" <greggos`at`hotmail.com>
+Subject: 5l kegs/cornykegs/carbonation
+
+
+I just contacted my local Cornelius rep and talked about starting to keg 
+beer using them soda canisters. Next thing I know, is that I've gone a 
+brand new 15lb CO2 tank and a brand new Corny with lines and Oeticker 
+clamps, plus triple guage dual regulators(I can dispense two, yippee) 
+for FREE. Cool huh? (They were samples, but they work, who cares?) 
+Anyway, looks like I won't need to look the way of the mini-keg too 
+soon. The only thing I'd miss out on is portability. Which brings me to 
+my question, since I can know force carbonate in the keg OR in a pet 
+bottle, is there a way to counter-pressure fill a 5l minikeg so that I 
+can tap my brew away from home and avoid priming? How much pressure can 
+the minikegs take, so i'll know what pressure to use if I come up with 
+some sort of home-made filler?
+
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+
+
+
+
+------------------------------
+
+
+Date: Wed, 25 Feb 1998 04:13:06 -0500
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: Why buy continental lager malts ?
+
+
+Tony Zara  asks a Malt flavor question
+> I would like to have the wisdom of the collective describe
+>for me the flavor differences between Pilsner malt (German and/or
+>Belgian) and regular U.S. 2-row.  I understand that the continental Pils
+>malts may be less modified (suggesting the need for a protein rest), but
+
+
+The flavor differences are minor, and you can make a perfectly good lager
+from US 2-row malt.  The biggest difference is that US malts are higher in
+nitrogen (protein) level than any other.  The flavor differences that do
+exist
+are probably varietal (depends on the barley species).  There are several
+dozen so called 'maritime' barley species, used/developed primarily for ales
+in the UK, and there are a number of continental varieties. I believe the
+common continental varieties are mostly 'Triumph' variety crosses with
+wild barley (Hordeum Vulgarus).  In the US (and Canada) I *think* that
+the common varieties grown, like Harrington, were developed from
+UK maritime varieties.  Anyone know for sure ?
+
+
+My highly subjective opinion is that continental malt (I prefer Durst, but
+haven't tried Weyermann and can't get Ireks anymore) do have a bit
+more  flavor.  That is the resulting beer has a notch more malt flavor
+and complexity.  The kernels are consistantly bigger and plumper
+than the US 2-rows malts also.
+
+
+My feeling is that US maltsters, aside from the mega's have relatively
+little
+control over the quality of their barley sources and so take what is
+offered.
+In the UK I think that the maltster actually drive the barley growers by
+selecting only highest quality grain.  Gemany/Belgium falls somewhere in
+between.  North American maltsters also seem to kiln their 2-row malt at a
+higher temp than the German/Belgians generally speaking, which has an
+impact on the flavor, as well as the amount of beta-amylase available.
+
+
+Steve Alexander
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 25 Feb 1998 04:48:57 -0600
+From: "Ray Estrella" <ray-estrella`at`email.msn.com>
+Subject: carbon yeast killers
+
+
+  Hello to all,
+Andrew Quinzani advises,
+
+
+>Do not use carbon filters, While it may filter out undesired taste it
+>harbors some things that will kill the yeast. I talked to a water filter
+>company several months ago as I work in a bakery and asked about carbon
+>filters. I forgot exactly what it was  that was in the carbon but I was
+>told that it would effectively kill any yeast.
+
+
+Maybe he was talking about running the yeast through the filter. I have made
+63 batches of beer with carbon filtered water, and have never had a yeast
+related problem.  It would be interesting if Adrew could find out what the
+service guy was referring to.  Possibly call the company.....
+
+
+Ray Estrella   Cottage Grove   MN
+ray-estrella`at`msn.com
+
+
+****** Never Relax, Constantly Worry....have a better Homebrew ******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 25 Feb 1998 08:29:04 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Injuneers and spherical horses,water chemistry,
+
+
+Brewsters:
+
+
+David Harsh says:
+
+
+>Dave Burley took the opportunity to trash Chemical Engineers
+>and their abilities with respect to chemists.  The truth of his
+>opinion is no doubt supported by the myriad of job opportunities
+>for chemists and the lack of same for chemical engineers.  ;)"
+
+
+You forgot to say "kind-heartedly or kiddingly"  so that other
+non-chemist/non-engineers understand that this is how we have fun.
+But a one or two-percent unemployment rate for chemists isn't bad.
+- ------------------------------------------------------
+Dave Harsh continues:
+ 
+
+
+>Of course, I'm still wondering what the goal of all this is - particle
+size
+>is a big variable (or capillary length if you look at it that way); 
+there
+>will be a distribution of sizes/lengths that would have to be accounted
+for
+>or assumed to be uniform.
+
+
+Well we know that particle size in combination with sparge
+rate is critical to efficiency.  If you sparge at the same rate
+and have larger particles the efficiency is less.  If you sparge
+very quickly for a given particle size, the efficiency is less.
+I conclude, as it is practiced in brewing,  it is an rate process
+rather than an equilibrium process.
+ 
+
+
+>Seems like what we really have here is an elution chromatography process
+
+
+>(i.e. see Helfferich's Multicomponent Chromatography), but I'll admit 
+that
+>I haven't really thought that through.  Any takers?
+
+
+Looks like we basically agree, since your description seems
+to fit mine and yes this is a column elution process. Plug flow
+is a characteristic of such a model. 
+
+
+
+
+>  ?)  When we're done, we'll have a complicated model with
+>parameters that are unmeasurable.
+
+
+Not really, the purpose of such a model would be to point
+out the major parameters in sparging so we could understand
+the relative importance of temperature, viscosity, specific gravity,
+mill size, etc. etc.  As you point out it may be a simple extension
+of an existing model.
+
+
+>(Remember the engineer joke, "well assuming a
+>spherical horse.."
+
+
+No, but I do remember the one
+" Six wekes ugo I cudn't evn spel injuneer...."  {8^)
+- -------------------------------------------------------
+Anthony Quinzani tells Louis Gordon
+
+
+>Do not use carbon filters, While it may filter out undesired taste it
+>harbors some things that will kill the yeast. I talked to a water filter
+
+
+>company.... I forgot exactly what it was  that was in the carbon but I 
+was
+>told that it would effectively kill any yeast.
+
+
+Many, many brewers and home brewers use carbon filtered
+water without any problem.  Domestic carbon filters have ppm
+silver ions adsorbed on them to prevent bacteria from fermenting
+the organics trapped by the filter inside the filter. Nothing is
+leached from the filter which would kill organisms outside the filter. 
+
+
+- -------------------------------------------------------
+Steven Van der Hoven says:
+
+
+>I suspect that the term "ppm" is being substituted for "mg/kg"
+>(milligrams per kilogram) in the texts that you are looking at.  The two
+
+
+>terms are often interchanged, but shouldn't be.
+
+
+and then says:
+
+
+> As Gregg pointed out, ppm
+>is a measure of the number of molecules while mg/kg is a measure of 
+mass.
+>By the way, chemistists always use mg/kg or another measure of mass to
+>avoid the confusion that ppm seems to be causing
+
+
+Well, Steven and Gregg, I think both ppm and mg/kg are both pretty clear
+concepts based on simple weight ratios and are just what they
+say they are. Both are valid uses.
+
+
+When chemists talk about molecular concentration they use words
+like molarity and molality.
+
+
+What is sometimes confusing is the reporting of Ca
+as ppm CaCO3 in which all the calcium in the water is
+represented as CaCO3 or some other compound when
+in fact it is not associated with any ion in the water. Not to worry.
+
+
+Just determine the fraction of the weight of calcium in the
+CaCO3 using your knowledge of atomic weights and multiply
+it times the ppm CaCO3 and you can get ppm calcium.
+- -------------------------------------------------- 
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  
+
+
+Voice e-mail OK  
+
+
+
+
+------------------------------
+
+
+Date: Wed, 25 Feb 1998 08:20:49 -0600
+From: Glyn Crossno <Glyn.Crossno`at`cubic.com>
+Subject: Re:Chem E's, MEs and EE
+
+
+James Tomlinson (ME) wrote:
+ >
+ > How is it that so many Electrical Engineers end up brewing ?
+ >
+We're smarter.
+
+
+ Glyn Crossno
+ Estill Springs,  TN
+- --
+I love the smell of hops in the morning,
+    a) they smell like victory.  ( Three Floyds Brewing)
+or  b) of course they smell pretty darn good any time.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 25 Feb 1998 09:31:23 -0500 (EST)
+From: Eugene Sonn <eugene`at`dreamscape.com>
+Subject: Hemp Cream Ale
+
+
+For those who have brought up the idea of putting a certain illegal
+substance in their beer, you may be interested in a beer from a Vancouver
+brewery.  Boan Island Brewing is making a Hemp Cream Ale.  They use
+non-viable hemp seeds, so the beer has tiny traces of THC.   There's no
+detectable effect from the seed other than flavor. 
+        I heard about this last night (2/24) on the Canadian Broadcasting
+Company's program "As It Happens."  The interview was with a marketing and
+sales guy from the brewery.  He said the hemp seeds impart a nutty flavor
+to the beer.  He admitted this was just a marketing ploy.  He wants people
+to try the beer because of the name and keep drinking it because of the
+taste. 
+        I have no affiliation with the brewery and haven't tasted the beer
+yet.  I just thought this would be an amusing story for beer and brewing
+folks.
+
+
+Eugene Sonn
+eugene`at`nova.dreamscape.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 25 Feb 98 10:07:48 est
+From: paa3983`at`dscp.dla.mil (Mike Spinelli)
+Subject: weight scales/Mixmasher
+
+
+HBDers,
+The soon-to-be  ex-wife has taken her baking scale which
+ I used for weighing grain. I'm now in the market for a new one.
+I'd like one that goes up to around 10 lbs.  Should I go with 
+electronic digital or the conventional type?  Particular brands 
+better than others?
+- -----------------------------------------------------
+Is anyone using the Mixmasher design?   I've now got a 30 gallon
+mash tun and could use all the help I can get at dough-in time.
+
+
+Thanks
+Mike Spinelli
+Mikey's Monster Brew
+Cherry Hill NJ 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 25 Feb 1998 10:20:44 -0500
+From: David Kerr <dkerr`at`semc.org>
+Subject: 1/2 barrel mash screens
+
+
+Phil Wilcox asked about false bottoms for his converted keg-
+How about the EasyMasher2?  It works as advertised for me - for ~$30.00 
+plus the price of a 3/8" drill bit you get a nice, easy, no-weld unit
+that yielded me a respectable 28 pts/lb/gal.  I use it as a boil kettle
+also (with whole flower hops).  Only drawbacks are scorching under the
+unit while stepping up mash temps with direct heat (I'll diffuse the
+propane jet somehow) and the relatively slow draining of the
+boiled/cooled wort into my fermenter - took about 45 minutes with 6 oz
+hops in a 6 gallon batch (Yeah, it's an 90 IBU IPA - still beats
+siphoning with a scrubbie).  Good stuff cheap.
+Dave Kerr - Needham, MA "Be good and you will be lonely" - Mark Twain
+
+
+
+
+------------------------------
+
+
+Date: 25 Feb 1998 08:50:29 -0800
+From: Dion Hollenbeck <hollen`at`vigra.com>
+Subject: Re: Converting to RIMS
+
+
+>> Lcllamas  writes:
+
+
+L> I have been all grain brewing for 12 years and utilizing a 3 tier
+L> 15 gal.  Capacity gravity feed system for the last 7.  I am ready
+L> for something a little easier now especially when considering grain
+L> bills of 30 lbs. plus with the associated liquid.  I became
+L> re-enthused on the RIMS method after reading the articles in the
+L> Jan./Feb. 98 issue of Brewing Techniques.  With my current 2
+L> stainless steel 17.5 gal. pots and 1 stainless steel 22.5
+L> gal. boiler with 3 large capacity gas fired heaters, I have a
+L> fairly large amount of money tied up and therefore would like to
+L> utilize this with a RIMS set up.  I would like to hear any
+L> suggestions or trials others have had in using gas fired heating
+L> with RIMS or a combination of the seemingly standard electric heat
+L> chamber along with gas.
+
+
+I have corresponded with at least four people who use gas fired RIMS
+setups but are manually controlled.  The BrewMagic commercial system
+uses computer control of the solenoid gas valves for the main boost.
+Some of the gas fired systems also use an electric heater to maintain
+heat during the rests.
+
+
+Bottom line, nothing you have needs to be replaced.  All you need to
+do is to add a few things.  First step would be to just add a pump and
+return manifold and recirculate during your rests and boosts.  Later
+on if you desire, you can add a temperature controller and electric
+heater to maintain temps during the rests.
+
+
+I have not had direct experience with gas fired mashing, but in RIMS
+adventures, have discussed it numerous times with people who do.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)597-7080x164                 Email: hollen`at`vigra.com
+                                             http://www.vigra.com/~hollen
+Sr. Software Engineer - Vigra Div. of Visicom Labs  San Diego, California
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2648, 02/27/98
+*************************************
+-------

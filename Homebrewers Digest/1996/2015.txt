@@ -1,0 +1,1101 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id DAA18060 for <spencer`at`srvr5.engin.umich.edu>; Fri, 19 Apr 1996 03:13:18 -0400 (EDT)
+Received: from redheat.rs.itd.umich.edu (redheat.rs.itd.umich.edu [141.211.83.36]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA25439 for <spencer`at`engin.umich.edu>; Fri, 19 Apr 1996 03:13:16 -0400 (EDT)
+Received: by redheat.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id DAA10064; Fri, 19 Apr 1996 03:13:15 -0400 (EDT)
+Received: from hplb.hpl.hp.com by redheat.rs.itd.umich.edu (8.7.5/2.2)
+        with ESMTP id DAA10050; Fri, 19 Apr 1996 03:13:11 -0400 (EDT)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Fri, 19 Apr 1996 08:08:36 +0100
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA12704; Fri, 19 Apr 1996 01:00:06 -0600
+Date: Fri, 19 Apr 1996 01:00:06 -0600
+Message-Id: <9604190700.AA12704`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #2015 (April 19, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #2015                             Fri 19 April 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Hops (A. J. deLange)
+  Solid CO2 ("Huyck, Randy")
+  first all grain batch (Bob Wysong)
+  Stupid Brewer Trick #603 ("Clark D. Ritchie")
+  Harpoon IPA recipe request (Mark Montminy)
+   ("Bryan L. Gros")
+  first all grain batch (Correction) (Bob Wysong)
+  Less Mess while bottling! (Darcy Munger)
+  Re: Hot Bottles -- one last time (Jeff Frane)
+  Sorry! Web-page (Randy Jensen)
+  Dandy Lions. (Russell Mast)
+  Wanted: Honey-Wheat Recipes (961YATES)
+  Request for Info on 10 Gallon Cooler-Mash Tun (wiesej)
+  Thermometer File Now Includes *.txt for the Windows-Impaired (KennyEddy)
+  RIMS system pictures (hollen)
+  Isinglass (Algis R Korzonas)
+  Re: yeast starter/dandelions (Nigel Townsend)
+  re: kegging, RIMS hoses, CO2 rockets (C.D. Pritchard)
+  Shakparo, a traditional west african sorghum beer. ("Richard Okambawa")
+  Culturing yeast to re-use (CHRISTOPHER DIIORIO         )
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 18 Apr 1996 08:09:11 -0500
+From: ajdel`at`interramp.com (A. J. deLange)
+Subject: Hops
+
+
+Greg Downing asked about propagating hops shoots. Couldn't be simpler. Poke
+a hole in suitably prepared earth and drop the shoot in with the growth tip
+and maybe a leaf node or 2 above ground. Water well. There is about a 50%
+chance that the shoot will root and grow.
+
+
+A.J. deLange   Numquam in dubio, saepe in errore!
+ajdel`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 96 9:12:05 -0700
+From: "Huyck, Randy" <rwh0303`at`hub.doh.wa.gov>
+Subject: Solid CO2
+
+
+I occasionally have access to dry ice (frozen CO2) and am toying with the 
+idea of using it to purge my secondary fermenters before racking.  Does 
+anyone out there know how much I would need to use to fill a 5 gal. 
+carboy with gaseous CO2?  Also, when this stuff evaporates, it often 
+accumulates a shell of ice from water vapor in the air--is this a 
+potential source for contamination?  The ice usually remains after the 
+CO2 has vaporized.
+
+
+
+
+
+
+________________________________________________________________________
+
+
+Just having a hat and a pair of boots doesn't make you a cowboy
+
+
+_________________________________________________________________________
+
+
+Randy Huyck
+
+
+Immunization Program Warehouse
+
+
+Phone:  (360) 664-8688
+
+
+Fax:  (360) 664-2929
+
+
+MS: 7845
+
+
+Email:  RWH0303`at`hub.doh.wa.gov
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 96 12:13:39 EDT
+From: bob`at`ocs.com (Bob Wysong)
+Subject: first all grain batch
+
+
+
+
+Hello all,
+
+
+I've just completed brewing my first all grain batch after about 20 extract 
+batches and have several questions:
+
+
+(Please excuse the length of my first post, but I feel I need to give details)
+
+
+For background, the recipe I was using was based on the IPA from 
+Miller's Complete Handbook....
+
+
+I used:
+
+
+6 lbs       Klages
+1 lb        Crystal malt
+1 lb        light DME (due to low extraction rate)
+1 oz        Chocolate malt
+1 oz        Hallertauer  8.5%  for boiling
+1 oz        Cascade      3%    last 10 min of boil
+1 tsp       Irish Moss   (last 15 min.. Didn't re-hydrate)
+20 oz of starter. Wyeast #1028 (pack was over a year old and took 6 days
+to swell)  The kruasen on the starter was in a receding mode. 
+
+
+All water used was hot tap water.
+
+
+I used about 3 gallons of mash water making for a soupy mash.
+Boosted the temperature of the mash to 155 without any protein rest.
+I had used about 3 teaspoons of gypsum to get the mash down to a PH of 
+about 5.0
+
+
+Put in insulated box for 2 1/2 hours. Ending temp was 145.  The requirement was 
+for two hours, but getting the sparge water ready took longer than I wanted.
+Then I boosted to 168 degrees for mash-out. (iodine test showed complete
+conversion)
+
+
+For the sparge water, I used an 8% Phosporic acid solution to acidify
+6 gallons of hot tap water. After 2 tsps, my PH strips looked like they were 
+still above 6.0. Then, on the 3rd teaspoon, the PH abruptly changed, and 
+the test strips remained yellow, indicating that it was now very acidic.
+I had to add about 3 more gallons of water before it got back up to about 5.0.
+
+
+I was expecting just a slow trickle for the sparge, but once I opened the 
+spigot on my lauter tun, the wort hissed out. (Used the cylindrical cooler with 
+sparge bag on SS vegetable strainer) It never did slow to a trickle as I was 
+expecting. I slowed the flow of the output and input so that the sparge would 
+take about an hour. (The water was 168 degrees, Re-circulated 1st runnings 
+until clear) NOTE: I don't think the water was leaking thru the sides of the 
+sparge bag, and it looked like it *was* filtering through the grain bed OK,
+which was always held in suspension.
+
+
+Collected about 8 gallons of wort (ph of the runnings never dropped below 
+5.8 even though the gravity dropped to about 1.010) and boiled for 90 minutes.
+A gravity reading before the boil showed only about 1.020 (granted, it was 
+8 gallons) prompting me to add 1 lb DME. 
+I thought I had boiled down to 5 gallons, but was actually 6. (Haven't put 
+any sort of volume markings in my Sankey keg boiler yet).
+Used a CF chiller, shook the 6 1/2 gal car-boy for about 5 minutes to 
+oxygenate and pitched yeast.  FG was only 1.032 at 60 deg F.
+
+
+No activity for 24 hours. After about 2 days, the krausen remained only about 
+2 inches (My weakest ferment ever).  Since my first "mostly-grain" batch had a 
+tremendous amount of gray gunk floating on  top of the foam, I definitely 
+wanted it to blow out of my car-boy which had about 6 inches of head space. 
+So I added about 1 tsp *each* of  Yeast nutrient, Yeast energizer, and Amylase 
+enzyme to 180 degree water and then dumped it in. Also, I swirled the contents 
+around in the carboy hoping to get the yeast more active. BTW, I have no idea
+what the nutrient and energizer consist of.
+
+
+The gunk never did blow out, and a day later the krausen fell completely, 
+leaving marble-size gray chunks of matter floating on the surface. 
+However the fermentation is still going strong. I see a lot of bubbles rise
+and break on top of the surface, but they pop immediately. There is now 
+absolutley *NO* foam on the surface, even though the ferment is still fairly
+active.  To my knowledge, all of my equipment was clean and I didn't introduce 
+any oily substances which would cause this.
+
+
+The smell coming from the fermenting beer is actually very good.
+
+
+Questions:
+
+
+1. Does the adding of acid change the PH imediately, or only after a wait 
+   period? (Why the sudden change after the 3rd tsp of phosphoric acid?)
+
+
+2. Any reason for such a low OG? (sparge water too acidic?)
+
+
+3. What could cause of the krausen falling? Did I do something to the
+   head-retention proteins by adding amylase enzyme?
+
+
+4. Does anything in my procedure sound just plain wrong?
+
+
+
+
+Thanks,
+
+
+ -Bob Wysong
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 09:37:17 -0700
+From: "Clark D. Ritchie" <ritchie`at`ups.edu>
+Subject: Stupid Brewer Trick #603
+
+
+I'd like to add my most recent blunder to the growing list of things *not*
+to do.
+
+
+I just finished sparging my latest pale ale and in doing so, noticed that,
+while recirculating the wort to achieve a clear runoff, there was an
+extraordinary amount of grain passing through my lauter tun.
+
+
+I thought to myself, "Self, what's the deal?  I've never had a problem
+sparging before.  What could be wrong?"  Well, I just located my problem and
+am rather embarrassed to admit my blunder.
+
+
+After numerous recirculations of the hot liquor, I eventually achieved a
+clear (enough) runoff that allowed me to complete the sparge.  After the
+sparge had completed, I toted the spent grains out back to the compost pile
+and dumped them in as usual, except that along with the grains went my false
+bottom.  It seems as if after cleaning my lauter tun following my last
+batch, I forgot to reattach the hose to the false bottom.  Doh!
+
+
+Is my beer ruined?  Should I throw it away?  Just kidding... CDR
+Clark D. Ritchie, ritchie`at`ups.edu
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 12:34:30 -0400
+From: Mark Montminy <markm`at`dma.isg.mot.com>
+Subject: Harpoon IPA recipe request
+
+
+I'm trying to formulate a recipe for a Harpoon IPA clone.  I'm more interested 
+in a hop schedule, than malt base, since it's really Harpoon's hop profile I'm 
+after.  I'll be doing an extract, full boil.  Yeast recommendations are also 
+welcome.
+
+
+Email responses preferred.  If there's interest, I'll post the resulting 
+recipe.
+
+
+On another note....
+
+
+I use one of the chrome, through the fridge-wall faucets.  If I go more than a 
+day or so between servings, the faucet sticks.  I usually have a bugger of a 
+time to get it to free up.  I end up pushing on the sliding part of the shaft 
+while pulling the handle.  Anyone got any tricks for keeping it from "gumming 
+up", besides the obvious solution of drinking more beer :)  I'm thinking of 
+maybe lubing the shaft with keg-lube?
+
+
+- --
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Motorola ISG (508)261-5684       Email:  markm`at`dma.isg.mot.com 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adore, v.:
+        To venerate expectantly.
+                -- Ambrose Bierce, "The Devil's Dictionary"
+
+
+
+
+
+
+------------------------------
+
+
+Date-Warning: Date header was inserted by ctrvax.Vanderbilt.Edu
+From: "Bryan L. Gros" <grosbl`at`ctrvax.Vanderbilt.Edu>
+Subject: 
+
+
+Dave H. in Phoenix writes (re: flavenoids in beer):
+> It wouldn't have pleased the budmilloors for the media to say flavenoids
+>were found in just about all beer but theirs.  Since budmilloors are big 
+>sponsors
+>of the media, I think the story line got slanted to make people think it
+has to do
+>with the color of the beer rather than the malt content.  The big 3 are quite
+>carefull to avoid admitting their beers are high in adjuncts or have the public
+>even know what an "adjunct" is.
+
+
+They don't seem to mind admitting they use adjuncts, but they do seem to
+be careful to keep the public ignorant to the purpose of their adjuncts.
+
+
+Don't one or more of the companies advertise corn?  Maybe they disguise it
+by calling it "choicest grains) or something.  I had a bartender tell me the
+other
+day that he prefers Bud to Miller Light because Bud has that corn taste and 
+Miller uses a lot of rice.  I mentioned that I prefer barley in my beer and I 
+couldn't tell what his reaction was.
+
+
+BTW, anyone know what the heart of the hops is?  I keep thinking of 
+artichoke hearts.
+
+
+- ---------
+Dave Beedle <dbeedle`at`bacchus.net.ilstu.edu> writes:
+>   The DOT also requires the tank be within current hydro approval. Some
+>places will no fill the tank if it is not, others may not notice.  I know I
+>have a tank that is at least 10 years out of hydro inspection yet the local
+>gas place filled it last time.  I have since been certified as a tank
+>inspector (scuba cylinders) and have dubbed myself as a bad example!
+>Hopefully my tank isn't a recalled one and won't descide to explode any
+>time soon!  It's also a good idea to have the tank visually inspected.  I
+>don't know the requirements for CO2 tanks but SCUBA tanks should be
+>visually inspected once a year (usually) and hydrostatically tested once
+>every 5 years.  I assume CO2 has some sort of guidelines as well.
+>
+I considered myself lucky that the local shop filled my bottle last month.
+I think the most recent date (about five down) is 88.  How much does
+it cost to get the tank hydro tested?  And what is a visual inspection?
+Can we do it at home, or do we need to go to an expert?
+
+
+Seems like no one in Nashville has ever heard of a 15 pound CO2 tank.
+I thought maybe mine could be a tourist attraction and I could charge
+people a buck to see it!
+
+
+  - Bryan
+   grosbl`at`ctrvax.vanderbilt.edu
+   Nashville, TN
+   Copyright 1996.  Do not reprint without permission.
+
+
+               - Bryan
+                 grosbl`at`ctrvax.vanderbilt.edu
+                 Nashville, TN
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 96 12:52:34 EDT
+From: bob`at`ocs.com (Bob Wysong)
+Subject: first all grain batch (Correction)
+
+
+
+
+In my 1st post I mentioned that the ph in the sparge runnings
+never dropped below 5.8.   I *meant* that it never got *above* 
+5.8, which I read somewhere is the limit before it gets too alkaline.
+
+
+
+
+ -Thanks again
+
+
+ -Bob Wysong
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 10:51:28 -0700
+From: Darcy Munger <darcym`at`workgrp.com>
+Subject: Less Mess while bottling!
+
+
+Fellow Brewers,
+Let's face it, homebrewing is a messy job.  Right now my kitchen floor is so
+sticky I had to forcefully pull my 6 year olds tennies off. %~`at` This is
+after a brewing marathon (5 gallons of Pale, 5 gallons of Irish Red and 1 of
+Stawberry Mead all within 48 hours -whew!)  Being a female and an addicted
+brewer (the husband is content to merely taste, critique and occassionally
+lift a heavy carboy) I am happy to find any hints to make it a less messy
+process. Anyway a friend who I ran into at the brew store, had an excellent
+idea for avoiding some of the inevitable mess of bottling. 
+ 
+1. Empty your (clean) dishwasher completely.
+2. Pull out the top rack and line up your sanitized bottles right side up.
+Put your carboy on the counter above dishwasher.
+3. Rack into bottles.
+4. Put each bottle on the counter to cap.
+5. Close the dishwasher and let all the spilled beer run into the
+dishwasher, not the floor! :~) 
+
+
+I have also SERIOUSLY considered putting in a drain in the floor, and using
+a hose to spray it off, functional, but definitely causes (more) gossip
+about me at the PTO meetings.  ;~)
+
+
+Well, I have got a floor to scrub.  
+Thanks for all the great hints.
+Cheers!
+Darcy M.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 10:46:52 -0700
+From: jfrane`at`teleport.com (Jeff Frane)
+Subject: Re: Hot Bottles -- one last time
+
+
+Russell Mast and I have been [arguing?] discussing bottle
+sanitizing, ovens, and breakage:
+
+
+Russell wrote:
+>
+>I find it pretty hard to believe you've never broken a single bottle - I know 
+>a lot of bleach sanitizers who've had a broken bottle or two now and then.
+>
+Well, the truth is that my wife knocked three bottles of the cellar stairs
+a couple of weeks ago -- so I've broken (well, *I* didn't) three now.
+>
+>> For me, the great advantage is that I can break the process up into
+>> manageable lumps.  I can wash one day, sanitize another day, and fill
+>> yet another day.  No hassles, and no exploding bottles.
+>
+>But, you have to decide three days in advance when you're going to bottle
+>a batch.  That works for a lot of people, but not for me.  I usually would 
+>bake the bottles only a few hours in advance.  That's real bad.  
+>
+
+
+Just to clarify: the three days I described in my bottling "method" are
+not contiguous days; that's the great advantage, for me.  I wash them
+when I have the time and then put them away; same for sanitizing,
+because I put them in the oven with foil covering the mouth of the
+bottle.  I only need to know that I'm going to be bottling sometime
+in the next few weeks -- which, given that I've just brewed recently,
+isn't too difficult to figure out.
+
+
+As I wrote privately to Russell, this all means that I can bottle
+a ten-gallon batch of beer in about one hour.  And then go back to
+doing something fun.
+
+
+- --Jeff Frane
+  Copyright 1996 by whoever wants it
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 96 11:40:56 PDT
+From: rjensen`at`ainet.com (Randy Jensen)
+Subject: Sorry! Web-page
+
+
+Sorry everyone!
+The correct address for the St. Stan's UNOFFICIAL (and currently weak) web
+page is:
+http://www.ten-four.com/ststans.htm
+
+
+The .htm extention is NECESSARY.  I didn't realize that!
+
+
+Sorry again!
+- ----------------------------------------
+ -   rjensen`at`ainet.com - Randy Jensen   -
+ -             find me at:              -
+ -       N37*31'43"   W120*53'04"       -
+- ----------------------------------------
+"Deep in the chaotic regime, slight changes in structure
+almost always cause vast changes in behavior.  Complex
+controllable behavior seems precluded.
+                             -STUART KAUFFMAN
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 14:20:05 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Dandy Lions.
+
+
+
+
+> From: cuncaphe`at`isd.net (Jinjer)
+> Subject: Sunlight on the hops vine
+
+
+> Be gentle. This is my first post.
+
+
+Actually, the chemical which "goes skunky" isn't present in hops, it's only
+after hops undergo a vigorous boil.  
+
+
+> P.S. Has anyone tried brewing with dandelion or alehoof (creeping charlie)?
+
+
+I made a dandelion wine last year.  I understand it will take a long time to
+ferment.  I'd recommend a wine or mead instead of a beer, but diff't strokes.
+
+
+I picked a bunch of dandelion heads.  They say it's best to peel apart the 
+petals and only use the yellow parts, but I used the whole head.  You don't
+want the stalks at all.  (Supposedly the green parts are really nasty and 
+bitter, but that this flavor diminishes greatly with age.  I can wait.)  
+Anyway, I had about 1.5 gallons loose, and poured in a gallon or so of water,
+and heated it.  I don't think I boiled, just simmered.  Then, I poured this
+through a strainer, and I had about a gallon left.  I took a gravity reading,
+it was like 1.006.  So, I added a bunch of corn sugar.  I would have done 
+honey, but I didn't have any and didn't have time to grab some.  I put, um, 
+maybe 2 lbs of sugar in.  (I have notes on this all at home.)  I believe I
+used champagne yeast.  Anyway, I still haven't tasted the stuff, I hear it
+takes a long time to age, especially with the greens in there.  
+
+
+It smells good and tasted okay when I racked it a couple months back.  A 
+little "hot" and "young", but that's expected.  If I were to make another 
+one this year (I have since moved, in fact I moved the very next day, to 
+a place with less plant life), I would use more dandelions.  
+
+
+As for the creeping charlie thing, I have no clue, I've heard they're good
+with napalm.  (I couldn't resist.  Apologies to anyone with good taste, 
+that was really bad.)
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 14:27:13 -0500 (CDT)
+From: 961YATES`at`ALPHA.NLU.EDU
+Subject: Wanted: Honey-Wheat Recipes 
+
+
+Hello All,
+
+
+
+
+     I am looking for a receipe to brew a tasty honey wheat. If any one 
+knows of a good one please email me personally. 
+   
+                                               Thanks
+                                               Mark Yates
+                                               961yates`at`alpha.nlu.edu
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 96 15:17:44 EST
+From: wiesej`at`smtp.mms.gov
+Subject: Request for Info on 10 Gallon Cooler-Mash Tun
+
+
+     I have seen several articles/messages about using a 5-gallon, round, 
+     plastic water cooler for a mash tun.  In these I seem to remember a 
+     specific preference for Gott v. Igloo - though I can't recall the 
+     reason.  These articles detail the modification process.
+     
+     I brew all-grain recipies, use a medium-wet mash (1 1/2 gal./lb), and 
+     like a hearty beer (i.e., 10+ lbs).  Therefore, I think the 5-gallon 
+     cooler might be a bit undersized.
+     
+     I would be interested in hearing from anyone who has converted a 
+     10-gallon cooler.  Specifically, any recommendations on brand of 
+     cooler, parts used in the modification, and type of false bottoms used 
+     (e.g., Phil's) would be greatly appreciated.  Lastly, I recall someone 
+     mentioning that mash-out in such a tun might be problematic.  Unless 
+     the plastic couldn't sustain a 170-degree mash for 10-15 minutes, I 
+     can't figure out why.  Any thoughts on this?
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 15:52:53 -0400
+From: KennyEddy`at`aol.com
+Subject: Thermometer File Now Includes *.txt for the Windows-Impaired
+
+
+Dion Hollenbeck pointed out:
+
+
+>Thanks for your effort, but there are a *lot* of people to whom
+>Windows Write files are useless.  To appeal to the whole audience out
+>here, you should really put all documents out in plain ASCII.
+
+
+He's right, you know.  I have reposted the thermo.zip file with the current
+files PLUS a thermo.txt ASCII text file for those without Windows Write
+capability.  I didn't get a reply from the Digest robot to the article with
+the erroneous URL yesterday; thus the posting of the second article with the
+*right* address.  Hope everyone interested saw the second post & managed to
+get their copy!
+
+
+ftp://users.aol.com/kennyeddy/thermometer/thermo.zip
+
+
+The new *.zip file won't become skunked until you unzip it.
+
+
+Thanks to Dion for the input.
+
+
+Ken Schwartz
+KennyEddy`at`aol.com
+
+
+"Quite frankly, teachers are the only profession that teaches our children."
+- -- Vice President Dan Quayle
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 96 13:54:58 PDT
+From: hollen`at`vigra.com
+Subject: RIMS system pictures
+
+
+
+
+I have finally taken the time to make a WEB page of some pictures of
+my RIMS system.  Someone mentioned that even though he had read
+articles on RIMS, he still could not picture what it was supposed to
+look like.  These pictures helped him, and he helped me with
+suggestions to make my page more friendly to people with low bandwidth
+connections.  The URL is:
+
+
+        http://www.vigra.com/~hollen/RIMS.html
+
+
+I also put a status page about my book on RIMS.
+
+
+I apologize for the crappy quality of these images, but when I
+scanned them, they darkened up.  The originals are fine.  I will try
+to manipulate the darkness without losing the detail, but for now,
+they may be useful as they are.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)597-7080x164                 Email: hollen`at`vigra.com
+Sr. Software Engineer - Vigra Div. of Visicom Labs  San Diego, California
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 96 15:58:38 CDT
+From: korz`at`pubs.ih.att.com (Algis R Korzonas)
+Subject: Isinglass
+
+
+Todd writes:
+>I am attempting to use isinglass for the first time on a 5
+>gal. batch of porter, but am unsure as to how to correctly proceed.  The guy
+>at the local homebrew supply store (Hobby House - Clarence, NY) suggested
+>adding it immediately after pitching the yeast at the inception of
+>fermentation.  Another fellow homebrewer suggested adding it 2-3days before
+>bottling.  Which, if either, is correct?
+
+
+2-3 days before bottling or, if you are kegging, you add it in the keg and
+then let the keg sit for 2-3 days.  It's amazing what some shop owners hand
+out as "expert" advice!
+
+
+Incidentally, is this liquid or powder form?  The preparation of liquid
+isinglass from the powder form is rather an involved process.  You have to
+acidify the solution and let the isinglass rehydrate for some period of time.
+I have all the instructions at home if you really need them.  I've recently
+read that you can buy isinglass powder in a form that already includes some
+malic or tartaric acid (I believe) such that all you have to do is rehydrate
+in sterile water.  I, personally, stick to the liquid form since it's so
+much easier.
+
+
+Finally, if it is liquid isinglass, it had better been refrigerated and you
+had better keep it refrigerated.  After a few days at room temperature the
+normally thick liquid becomes very watery and will no longer remove the
+yeast from suspension.
+
+
+By the way, why are you adding isinglass to a Porter?  If it is so yeasty
+the Porter looks like coffee+cream, you had better wait till most of it
+has settled on its own.  The isinglass is really for getting the last
+remaining yeast out of solution and will not do a compleat job if there is
+too much yeast.  I would have thought that a Porter would be dark enough
+to where the small amount of yeast left would not be noticeable, no?
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`pubs.att.com
+Copyright 1996 Al Korzonas
+
+
+------------------------------
+
+
+Date: Fri, 19 Apr 1996 08:44:06 +1000
+From: nigelt`at`delm.tas.gov.au (Nigel Townsend)
+Subject: Re: yeast starter/dandelions
+
+
+Al Korzonas in HBD 20 commented on the process I use for a simple starter
+suggesting that rehydration should occur before adding the wort.  Thanks
+for the suggestion.  At the moment the (Edme) yeasts are working and
+increasing pressure in the bottle within 2 or 3 hours, but if this is not
+the case with other yeasts, I will know what to try.  The advice on
+temperatures will be tried this weekend!
+
+
+Jinjer in HBD 201 asks about brewing with dandelions.  Yep, you can.  My
+father used to make a dandelion wine and I am sure I have seen a recipe in
+books on home made wines.  There is also a commercial fizzy soft drink
+available in the UK called dandelion and burdock. Its probably chemical
+emulants nowadays, but probably based on an older recipe.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 96 19:26 EDT
+From: cdp`at`chattanooga.net (C.D. Pritchard)
+Subject: re: kegging, RIMS hoses, CO2 rockets
+
+
+>From Art McGregor <mcgregap`at`acq.osd.mil>:
+>I usually drink only on weekends, so I'd like to know how to keep the tap and
+>beer line clean between weekends.  Is this something I don't need to worry
+>about, or just remove line every Sunday night and clean and store till next
+>weekend?
+
+
+I never remove taps from kegs until the kegs are empty (sometimes >3 months)
+and have never detected a problem.  I guess the open end of the picnic taps
+I use are contaminated but I've never detected anything untoward in the
+dispensed beer and any contamination there can't get back into the beer line
+since the line is at a higher pressure.  I seem to remember Charlie P.
+recommending cleaning the beer lines periodically.  This seems
+counterintutive since (assumming the line was santitized before it was
+attached) the only thing that can contaminate the interior of the lines and
+fittings is the beer itself, no?
+
+
+- ---------
+There's been a bit of traffic reguarding hoses on the suction side of RIMS
+pumps.  Why not use copper pipe with screwed unions?  Works very well for me
+and you sure can buy alot of pipe and fittings for the cost of the just a
+foot of the hoses mentioned.  For observing the wort as it recircs, a piece
+of vinyl tubing in the return line to the tun works well since it's under
+positive pressure (i.e., no collapsing).  I use garden variety vinyl stuff
+and haven't had a problem with off tastes or aromas.
+
+
+- ---------
+Re: Securing CO2 cylinders.  FWIW:  Ever notice that most of them do not
+have fittings for attachment of a valve protection cap like O2 and N2
+cylinders?  Last I checked, the Compressed Gas Asso. standards only require
+valve protection to be affixed during transportation if the cylinder was
+designed for a cap.  An old timer at a Coke bottling plant said he'd seen
+valves sheared off.  The escaping CO2 freezes up the opening very quickly
+and the bottle doesn't rocket like high pressure gas cylinders do.  OTHO, I
+keep mine tied up if for no other reason than cylinders, valves and refills
+aren't cheap.  
+C.D. Pritchard    cdp`at`chattanooga.net
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 21:40:15 +0000
+From: "Richard Okambawa" <okambawa`at`UQTR.UQuebec.ca>
+Subject: Shakparo, a traditional west african sorghum beer.
+
+
+
+
+Part 1:  Plan
+            Foreword
+            Introduction
+
+
+Dear zymurgists,
+
+
+This discourse presents the preliminary results of my 
+experiments on brewing shakparo beer at home in North America. I hope
+you find this document useful. Feel free to ask any question about it.
+Comments and suggestions are welcome.
+
+
+
+
+Plan
+
+
+        Foreword
+        Introduction
+I      Theory 
+II     Traditional process
+III    pShakparo brewing process
+        Epilogue
+        References
+
+
+
+
+Foreword
+
+
+I'm trying to clone shakparo, as the beverage is an important part of
+my culture and non availability of shakparo is like non availability
+of bread. I want to "rationalise" and standardise shakparo brewing
+process by a moderate use of scientific methods, design and build a
+pilot microbrewery of shakparo here in Canada and move the plant or
+it's copy to Benin.
+
+
+I would like to thank the anonymous brewmistresses of shakparo for
+handling the liquid bread alive and resisting uniformisation. They
+gave me description of the malting and brewing processes. Thanks to my
+family, my friends and Dr Ogoubi Dainou, Universite nationale du Benin
+for enthusiastic help on a preliminary systematic study of the
+biochemistry and microbiology of shakparo beer, Jean-Luc Brousseau and
+Renaud Levesques ("good" beer lovers and lambicophiles) who tasted
+some of my pseudo shakparo and exclaimed: "J'aime ca!". Many thanks to
+Russell Mast, probably one of the most intelligent man in the northern
+hemisphere for discussions on the subject. He strongly recommended the
+publication of this preliminary report and proofread the text.
+
+
+
+
+I  Introduction
+
+
+Fermented foods constitute a substancial fraction of the diet in
+Africa and other parts of the world. Cereals, tuber roots, and beans
+are biologically "ennobled" by biological agencies. The transformed
+products have higher nutritive value, palatability, flavor and in some
+cases, are detoxicated, and protected from attack by pathogenic
+microbes.
+
+
+One exemple of the use of of traditional microbial biotechnology to
+produce ennobled foods is Shakparo beer, which have an immense social,
+economic, ritual, nutritional, sanitary role in the  Idashaland,
+Dassa-Zoume, in the savanah region of Republic of Benin, West Africa.
+It is brewed mainly from malted guinea corn (Sorghum vulgare, S.
+bicolor) is an exemple of the use. Sorghum, also called gros mil in
+french, seems to be the best cereal for shakparo brewing. Shakparo is
+a green beer, "wild" fermented,but not so "wild" as Russell and I
+concluded after private e-mail correspondance; shakparo yeast is
+somewhat cultured or maintainedon an immobilised form on the
+fermenting vessels(clay pot or vegetable gurd). The beverage has a
+full body, long aftertaste, a fruity, pleasantly sour taste ( I'm as
+objective as I can),with a complex estery and organic acid flavor and
+yoghur and sorghum aroma. It is very thirst-quenching, and it is
+cloudy and yeasty, with a brownish pink color. The alcohol content
+ranges from 1 to 8% by volume. A fresh beer bubles, contains 3 to 4 %
+alc. / vol and 6 % solids. The enjoyer burp and the typical aroma come
+back. The traditional form of the product has a short shelf life and
+must be consumed within a few days after ~ 24 h fermentation.
+
+
+
+
+Shakparo is a traditional sorghum beer brewed by Idasha women, the
+"grand cru corse" version being consume mainly by man. Long before the
+rise of western feminism, women of the generally matrilinear beer
+drinkers's tribes used beer to ensure their power in the society. An
+Idasha myth reports that a gratful heroic ancestor build the first
+market for his mother to sell the fruit of her work, most notably her
+beer. Before "modernisation" it was easy to find good shakparo in
+Dassa-Zoume and the region around region. Every "normal" home has it's
+brewery (a part of the kitchen). Mothers teach brewing art and science
+to their girls before mariage. An Ifa verse which sets the temperance
+rule report that Beer and his brothers Palm Wine and Raphia Wine
+consulted the oracle. These beverages are highly esteemed by the
+thirsty gods of the Voodoo / Orisha based civilisations.
+
+
+Shakparo can be considered to be in the same family as bantu beer
+(called kaffir beer before the south african revolution), pombe (East
+Africa) dolo (Burkina Faso, Mali), burukutu (Nigeria), pito (Ghana and
+Nigeria), bouza (Egypt, Ethiopia), merisa ( Soudan), hemeket or zythum
+or zythos, last word of the dictionnary (Ancient Egypt), shukutu
+(Benin and Togo), Tchakpalo (Benin, Burkina Faso, Cote d'Ivoire),
+bil-bil (Cameroon). Tourists and  culturally alienated Africans often
+look upon those products as primitive dirty and harmful stuffs and
+prefer to drink Becks, Heineken and Kronenbourg.
+
+
+Despite the cultural importance of traditional sorghum beer,
+scientific investigations are few and often contradictory and there
+aren't any geared towards shakparo specifically
+
+
+
+
+A suivre.
+
+
+------------------------------
+
+
+Date: Thu, 18 Apr 1996 17:08:28 -0400 (EDT)
+From: CHRISTOPHER DIIORIO          <pher`at`acc.msmc.edu>
+Subject: Culturing yeast to re-use
+
+
+All,
+
+
+I've been having some interesting discussions about yeast with a few
+knowledgable folk, and have learned some effective ways to re-use yeast
+from the fermenter.
+
+
+My questions is...How often can you do this?  At what point does the yeast
+from the fermenter lose its effectiveness?  Two batches?  Three? One
+hundred?  Also, does re-using it affect the flavor?
+
+
+THANKS in advance!
+
+
+Chris DiIorio
+
+
+Private e-mail ok.
+pher`at`acc.msmc.edu
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2015, 04/19/96
+*************************************
+-------

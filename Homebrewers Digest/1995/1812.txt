@@ -1,0 +1,1414 @@
+﻿This file received at Hops.Stanford.EDU  1995/08/19 PDT
+
+
+HOMEBREW Digest #1812                             Sat 19 August 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Wort Dilution Simplicity Dumbfounds Reader ("Fleming, Kirk R., Capt")
+  Re: Re: Mash-out and extract efficiency (Steve Alexander)
+  Re: Alcoholic Lemonade (Mike Davis)
+  Dilution even simpler / Alc. lemonade (Dave Draper)
+  Brewpub in New Orleans (Rolland Everitt)
+  Alcoholic lemonade (Sylverre Polhemus)
+  HUNTER AIRSTAT PARTS ("ED KENDALL         252-3436")
+  Motorizing a Maltmill (Bill Rucker)
+  Re: BrewPubs in ... & Trivia (Shawn Steele)
+  next iodophor question ("Fr. Bradley A.M. Barber")
+  Re: #1(2) Homebrew Digest #1809 (August 16, 1995) (GeepMaley)
+  converting kegs, pre chiller (Larry Scaringelli)
+  Hunter airstat diodes/Stainless fermenter (John Glaser)
+  trip report - part 2 (Algis R Korzonas)
+  Caramel flavors - summary (Dave Fletcher)
+  RE:  SG corrections (the easy way) - corrected ("ath`at`merkur.sds.no")
+  Re: #1(2) Homebrew Digest #1808 (August 15, 1995) (Stephbrown)
+  Brewpub Requests (harry)
+  Will a hunter work for me? (EJ McGowan/CAM/Lotus)
+  Chillers (Ed Hitchcock)
+  obsessing (Spencer W Thomas)
+  Wort Chiller Comparisons (Spencer W Thomas)
+  RE HBD advice (Tim_Fields_at_Relay__Tech__Vienna)
+  sources (Bill Johns)
+  more temps (Jim Busch)
+  Hunter Air Stat Summary (rone)
+  Amazing Amazonion Floating Brewery (CHARLIE SCANDRETT)
+  british pale malt, homegrown hops (Bryan L. Gros)
+  New Micro in Michigan, Big Buck Brewery (Chris Cooper)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 17 Aug 95 13:09:00 MST
+From: "Fleming, Kirk R., Capt" <FLEMINGKR`at`afmcfafb.fafb.af.mil>
+Subject: Wort Dilution Simplicity Dumbfounds Reader
+
+
+
+
+What was obvious to John in his post yesterday was not at all to me.
+He made the calculation so simple that I couldn't see why it worked.
+Sometimes I feel like the Beavis of the brewing world.  It did work,
+or course, and inquiring (if simple) minds wanted to know. I started with:
+
+
+  final wort weight = original wort weight + added water weight
+
+
+then express this in terms of gravities and volumes instead of weights:
+
+
+     final wort weight = d2v2           [final dens * final vol]
+  original wort weight = d1v1           [orig dens * orig vol]
+    added water weight = (1)(v2 - v1)   [dens of water = 1, added vol is v2 
+ - v1]
+
+
+  d2v2 = d1v1 + (1)(v2 - v1), OR simply  d2v2 = d1v1 + v2 - v1          (1)
+
+
+Now, collect like terms:  d2v2 - v2 = d1v1 - v1     and factor
+
+
+  v2(d2 - 1) = v1(d1 - 1)                                               (2)
+
+
+Since the gravities dn can be expressed in points pn = 1000(dn - 1),
+replace the "dn - 1" with  dn - 1 = pn/1000 in Eqn (2) above:
+
+
+  v2(p2/1000) = v1(p1/1000)                                             (3)
+
+
+Multiply both sides by 1000 to get  v2p2 = v1p1                         (4)
+
+
+*This* should be an easy one to remember!  Rearranging to comply with
+the problem as first stated (how much water do I add to get gravity p2?):
+
+
+  v2 = v1p1/p2 for the final volume, or for the amount to ADD,
+
+
+  v2 - v1 = v1(p1/p2) - v1 = v1(p1/p2 - 1),  that is,
+
+
+ ---------------------------------------------------------------------------
+  vol to add = (orig vol)*(orig points/final points - 1)                (5)
+ ---------------------------------------------------------------------------
+
+
+Which is exactly what John already said--he just didn't make it sufficiently
+complicated to earn maximum AI Robot "HBD Worthiness Factor" points.  I earn
+negative points for repeating it, however.  I know I can't declare the 
+thread
+dead, but I'm sure everyone agrees we now have it bleeding rather badly!
+
+
+KRF Colorado Springs
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 15:15:24 -0400
+From: Steve Alexander <stevea`at`clv.mcd.mot.com>
+Subject: Re: Re: Mash-out and extract efficiency
+
+
+
+
+In Homebrew Digest #1809 (August 16, 1995) Dan Sherman writes:
+
+
+>John ?Lastname? told how his extract efficiency skyrocketed when he 
+>started doing a mash-out.
+>
+>Though a little personal experience and several conversations with other 
+>brewers, I have found the same thing.  It seems that grain bed 
+>temperature has a definite effect on lautering efficiency.  Even the 
+>simple act of covering the lauter tun while sparging helps to keep the 
+>grain bed temp. up and increases the amount of sugar that is dissolved 
+>into the sparge water.
+
+
+One article posted either here or in rec.craft.brewing from a
+well respected source (I think it was Geo.Fix, maybe Al Korzonas(sp?))
+earlier this year discussed the possibility of performing cold sparges
+and still getting excellent extraction efficiency. You may be losing
+points in the sparge but I have some doubt that it is from the
+viscosity difference of wort between say 158F and 168F.
+
+
+When I switched to all-grain brewing early this year, I consistantly
+experienced mediocre extraction efficiencies  of 77% to 84% and have
+always done a mash-out.  I have tried many technique and apparatus
+changes and just recently have gotten my efficiency up. The
+efficiencies on the last four batches were 92%, 94%, 93%, 97% for an
+American ale, dry stout, Wit and an IPA resp'y. These represent very
+different malts and grains, mash schedules and two different sparge
+devices. The consistant factor in these cases is that I crush the malt 
+& raw grain finer than the so called textbook crush.  I use
+Schmidlings adjustable maltmill(tm) set on the finest setting.  This
+still leaves many husks intact but breaks most grain bodies into many
+parts. I've had no unsual difficulties sparging this fine crushed malt
+using either  slotted 1/2" copper tubing, or a copper screen wrapped
+over the end of a tube.  I also increased my sparge time from around
+45' to 80'-120' ! 
+
+
+So I guess my suggestion regarding efficiency is: crush fine, sparge long.
+
+
+Steve Alexander
+stevea`at`clv.mcd.mot.com
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 95 15:45:25 EDT
+From: Mike Davis <mdavis`at`BayNetworks.com>
+Subject: Re: Alcoholic Lemonade
+
+
+
+
+
+
+[ John Girard, masquerading as Mario Robaina, asks about alcoholic
+lemonade and how to make it.]
+
+
+What I've had in the past is called Radler in Germany.  It's a mixture
+of Beer and Lemonade.  There's a similar thing I had in London called
+shandy, but I've only had poor ones in cans.  I made some myself
+before I became a brewer.  If I remember, it was about 2/3 beer and
+1/3 lemonade.  I'd think you would want to use a lighter beer in the
+mix, and I prefer real lemonade to a powder, though I'm as lazy as the
+next guy.
+
+
+Dunno about brewing it directly.  Any suggestions?
+
+
+- --mad (who's going to try IPA + lemonade Radler when he gets home)
+
+
+Mike Davis == mdavis`at`pobox.wellfleet.com == +1 508 436 8016
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 1995 07:30:16 +1000
+From: david.draper`at`mq.edu.au (Dave Draper)
+Subject: Dilution even simpler / Alc. lemonade
+
+
+Dear Friends, like John Palmer, I too have been highly bemused by the level
+of detail brought to bear on the question of calculating dilution.  In
+#1810, John outlined a simple procedure and asked: "What could be simpler?"
+
+
+Well John, the answer is this:  the ratio of the volumes involved (pre- and
+post-dilution or -concentration) gives you the factor by which to multiply
+the gravity, *in gravity points*, and the ratio of the gravity points gives
+the factor by which to multiply the volume.  No need even to calculate the
+product of volume and gravity points (e.g. the 7 gallons of 42 ppg = 294
+John cited).  Several issues ago, someone (I'm sorry I did not record your
+name) posted just this but it seems to have been overwhelmed by the more
+elaborate approaches--so let's see it again:
+
+
+So we have 30 litres of 1.042 after sparging and know we will end up with 23
+litres after boiling.  We know the gravity will go *up* because we are
+concentrating, so we make sure to arrange the volumes so that the ratio is
+greater than one, so that when we use it to multiply the gravity, the result
+will be higher than what we started with.  So 30/20 = 1.5; 1.5 times 42 =
+63; so we know that our 23 L will have a gravity of 1.063.
+
+
+So we have 3 gallons of a 1.070 wort and want to dilute it to a new gravity
+of 1.050.  How much water to add?  We know the volume will go up, so we
+arrange the gravity point ratio for >1, namely 70/50 = 1.4.  1.4 * 3 = 4.2,
+so the diluted volume will have to be 4.2 gal, meaning that we need to add
+1.2 gallons to our original 3.
+
+
+So we have 13 L of 1.060 wort, and we accidentally pour 10 L of water in.
+The gravity has to go down, so the relevant volume ratio is 13/(13+10) or
+13/23 = 0.565.  0.565 * 60 = 34 so our beer is ruined (since we were trying
+to make a bock) at a gravity of 1.034.
+
+
+Doesn't even matter what volume units you use, SI or SCBE (screwed-up
+British engineering) (thanks for the fat pitch Kirk, sorry I couldn't do any
+better than a piddle up the middle).
+
+
+*****
+
+
+John Girard (through sprmario`at`netcom.com) asked about the alcoholic lemonade
+made here in Sydney.  It's called Two Dogs, and is made at the Lord Nelson
+brewpub.  Our club had a meeting there and post-meeting tour of the brewery,
+and as I recall the procedure for Two Dogs is very simple--lemon juice,
+heaps of sugar, and Whitbread ale yeast.  Not to my taste, to be honest.  If
+you want to try such a thing, probably a frozen lemonade canister is a good
+starting point rather than powdered stuff like Country Time (haven't been in
+the US for awhile, don't remember if CT is frozen now too).  Make a small
+batch, add some sugar (I really have no idea at what rate, but you can just
+measure the gravity till you get a reasonable OG), boil for a few minutes to
+kill the Alien Lifeforms, chill, and pitch a rehydrated pack of Whitbread.
+Once you get something you like you can scale up to a larger batch, maybe
+use a liquid yeast, etc.  Good luck.
+
+
+Cheers, Dave in Sydney
+"I can't be bought for a mere $3.50." ---Jeff Renner
+- ---
+***************************************************************************
+David S. Draper, Earth Sciences, Macquarie University, Sydney NSW Australia
+Email: david.draper`at`mq.edu.au  Home page: http://www.ocs.mq.edu.au/~ddraper
+                ...I'm not from here, I just live here...
+
+
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 17:44:18 -0400
+From: af509`at`osfn.rhilinet.gov (Rolland Everitt)
+Subject: Brewpub in New Orleans
+
+
+
+
+
+
+When in the French Quarter, be sure to try the Crescent City
+Brewhouse on Decatur St. (I have no interest in the place - I just
+like it).  I try to go there whenever I travel to N'awlins on
+business.  They have a trademark "Red Stallion" brew that is
+quite good.  They are also serving a very hazy weizen just now.
+The food is outrageous too!
+
+
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 18:33:44 -0500 (CDT)
+From: Sylverre Polhemus <sylverre`at`tyche.lib.utexas.edu>
+Subject: Alcoholic lemonade
+
+
+John Girard (through sprmario`at`netcom.com) asked about high-alcohol,
+effervescent, alcoholic lemonades.  Information comes, but first, one
+question:  what does Country Time have to do with lemonade?  Last I
+chescked, there were no lemons in those cans.
+
+
+Check the cat's meow files:  there's a pretty good lemon cider recipe,
+and a recipe named something like Yuppie Guppie's Alcoholic Lemonade, 
+which might be what you're looking for.  Also, look under the historical
+drinks -- there's a recipe for lemon beer that's kind of fun.
+
+
+If you follow the recipe for lemon beer, you end up with a very low
+alcohol, highly fizzy drink.  If you leave it alone for a week or so,
+you end up with a somewhat fizzy, higher alcohol potable.  If, however,
+you let it sit for about two weeks, prime it, and bottle it, you end up
+with an effervescent, moderately high-alcohol (sorry, no % available at
+present), quite lovely alcoholic lemonade.
+
+
+It also makes a fantastic gin-and-lemon-and-tonic type concoction, if
+you add juniper berries after letting it ferment for a week.
+
+
+Enjoy!
+
+
+He was mead in the yeast, drunk in the eye -- altogether a sot for sore
+wines.  Sylverre`at`tyche.lib.utexas.edu
+  
+
+
+
+
+
+
+------------------------------
+
+
+Date:          Fri, 18 Aug 1995 09:22:39 JST
+From: "ED KENDALL         252-3436" <C375`at`gollum.sas.mrms.navy.mil>
+Subject:       HUNTER AIRSTAT PARTS
+
+
+Lee Menegoni asked for source info for a 1N5359B zener diode to 
+repair a Hunter Airstat.  It is listed in Newark Electronics Catalog 
+#112 without a price.  They have brances all over the country but the 
+head office is in Chicago.  (312) 784-5100.  No 800 Number listed.
+Hope this helps, Ed Kendalltest test test
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 95 20:29:23 EDT
+From: brewzer`at`peanut.mv.com (Bill Rucker)
+Subject: Motorizing a Maltmill
+
+
+  For all the gadget types,
+     
+     Has anyone tried motorizing a Maltmill? I received one as a gift
+and 
+     would like to have some ideas on how to do this. 
+     
+     Private Email is fine or post here.
+     
+     Cheers,
+     Bill
+
+
+Homebrew is beer in it's purest form!  Have another!
+
+
+Bill Rucker        brewzer`at`peanut.mv.com
+                ruckewg`at`naesco.com
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 18:01:11 -0600
+From: Shawn Steele <shawn`at`aob.org>
+Subject: Re: BrewPubs in ... & Trivia
+
+
+> Going to sit on the beach in South Carolina (Myrtle Beach) September
+> 1-7.  I get bored on the beach quickly (my wifes turn to chose the
+> vacation you see).  Any brewpubs in Myrtle Beach (or surrounding
+> area) to keep me occupied and happy!?
+
+
+We have brewpubs listed on our web site at http://www.aob.org/aob  
+Its still weak on some of the countries ('cept for the U.S. & Canada)
+and if anyone out there knows many breweries in other countries, I'd
+like the updates.
+
+
+P.S.  I too have been looking for beer trivia questions.  If anyone has
+any suggestions, please let me know by e-mail (shawn`at`aob.org).  The
+results of my trivia search will end up on the web site (& maybe at
+info`at`aob.org as well.)
+
+
+Thanks,
+
+
+ - shawn
+
+
+Shawn Steele
+Information Systems Administrator
+Association of Brewers                (303) 447-0816 x 118   (voice)
+736 Pearl Street                      (303) 447-2825         (fax)
+PO Box 1679                           shawn`at`aob.org          (e-mail)
+Boulder, CO  80306-1679               info`at`aob.org           (aob info)
+U.S.A.                                http://www.aob.org/aob (web)
+
+
+Note:  When replying to my messages, please include enough of my
+message so that I know what you're replying to! :-)
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 21:10:55 -0500 (CDT)
+From: "Fr. Bradley A.M. Barber" <bbarber`at`tenet.edu>
+Subject: next iodophor question
+
+
+Thanks to so many who have replied to my feeble questions.  You certainly 
+have helped.
+
+
+Next question.  This evening, I placed one tablespoon of iodophor in my 
+*brand new* keg (splurged).  I dribbled some on the throw-run in front of 
+the sink.  After I gathered-up the rug, I filled the keg with cold water, 
+sealed it and left it while I had supper.  Then, half an hour or so 
+later, I returned, inverted the keg and left it for ten minutes or so.  
+Came back and drained it.
+
+
+Some brown "drips", a dozen or so, have formed on the inside bottom of 
+the keg.  The sides are clean.  Some of the drips seem to originate at 
+the ss weld where the bottom is connected.  I tried rinsing with water, 
+scrubbed a little with my carboy brush.  Nothing.  Still there.
+
+
+I had intended to keg my stout this eve.  What is this stuff?.  Is it safe 
+to keg?  I knew that iodine would stain, but stainless steel?
+
+
+TIA
+
+
+Fr. Bradley A.M. Barber
+Pastoral Institute
+Diocese of Corpus Christi
+1200 Lantana
+Corpus Christi, TX   78407-1112
+
+
+E-Mail:     bbarber`at`tenet.edu
+            ppwf22a`at`prodigy.com
+
+
+Telephone:  (512) 289-5030     
+Fax:            (512) 289-1867
+
+
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 22:13:50 -0400
+From: GeepMaley`at`aol.com
+Subject: Re: #1(2) Homebrew Digest #1809 (August 16, 1995)
+
+
+In a message dated 95-08-16 04:03:05 EDT, you write:
+In #1809 David Wright wrote:
+
+
+>If you siphoning from a carbouy, get a blow off cap and insert a 
+>racking cane through the large diameter spout. Attach tubing to the 
+>top of the racking cane and put the cap onto the carbouy. Run the 
+>tubing to the new vessel. Here is the easy part but some of the 
+>infection paronoids will cringe. With you mouth blow into the unused 
+>spout on the cap. No pump, no mess, very little time. You only have 
+>to blow for about 2-3 seconds and you have a great siphon going. I 
+>have yet to have any contaminated brews
+
+
+Another way to avoid possible contamination is to "gargle" with 151 proof rum
+to kill all the nasties in your mouth before blowing. I have done this in the
+past with no adverse effects except that my mouth feels like cotton after I
+spit the booze out. Guess I could swallow it, but I'd still get cotton mouth.
+
+
+Geep
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 19:34:55 -0700
+From: scarin`at`primenet.com (Larry Scaringelli)
+Subject: converting kegs, pre chiller
+
+
+        First I would like to thank you all for the wealth of information in
+the HBD.  I have been receiving the HBD since May and have learned more from
+the collective wisdom then any other source, as well as great gadget ideas.
+
+
+I have recently come across two kegs that I would like to convert to start
+to build a tier system for the eventual plunge into all grain brewing.  I am
+concerned as to whether they are SS or not.  They are from that lovely mega
+brewer in Colorado( No I didn't drink the swill within they were given to
+me).  If any one has any first hand knowledge or a way to check I would
+appreciate a reply. E-mail fine.
+
+
+In addition living in Arizona my tap water at times is very warm probably in
+the 80 degree plus range especially in the summer.  I was trying to come up
+with way to use a chiller that would work in the heat and I came up with the
+following idea.  If it has been presented before I apologize but I haven't
+seen it.  My thought was to run copper tube in a tight spiral through a 1 to
+1 1/2 foot piece of 2" PVC pipe cap both ends with holes drilled for the
+copper tube and holes drilled into the top of the pvc.  attach quick
+connects to the ends of the copper tube on bothe sides one male one female.
+Meanwhile in the inlet line of the chiller hose cut it and install a quick
+disconnect of the same type and size as on the "pre-chiller".  Fill the
+prechiller with water and freeze.  Once you have acheived the initial rapid
+tempature drop to the 90 degree range stop the water and install the
+"pre-chiller" with the disconnects.  Restart the water flow.  The
+"pre-chiller" should cool the tap water as it flows through and allow you to
+continue to chill the wort to pitching tempatures.  
+
+
+        All of the above is theory with no sound scientific backing or
+feasibilitry studies.  It is based on my common sense or lack therof and
+what I have read in the HBD.  Any and all feedback appreciated Email is fine
+I will post summary and results if tried.  TIA for feedback.
+
+
+
+
+     Larry 
+_______________________________________________________________
+
+
+Nothing can tear you apart                                     
+If you keep livin' straight from the heart             
+Though you know that you're gonna hurt some
+The magic will come              J.Buffett
+           scarin`at`primenet.com                                          
+
+
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 95 20:52:51 -0700
+From: John Glaser <glaser`at`widlar.ece.arizona.edu>
+Subject: Hunter airstat diodes/Stainless fermenter
+
+
+Hunter Airstat Diodes:
+
+
+Lee spoke about replacing the 24V, 5W zener diode in the Hunter Airstat. *If*
+this diode is used simply for voltage regulation (and it probably is), try
+replacing it with 2 12V, 3W zeners in series. You will effectively have a
+24V, 6W (approximately) Zener by doing this. I have not tried this on a Hunter
+Airstat, I do not guaruntee anything at all. (I have used this method
+in other circuits successfully). If the above is not clear, you shouldn't try
+this without adult supervision. Otherwise, hack away.
+
+
+DO NOT use two 24V, 3W diodes in parallel. If they are not well matched, the
+lower voltage one will blow. If it blows open, the second one will follow
+shortly.
+
+
+Stainless steel fermenters:
+
+
+If you are expanding your batch size, consider using 10 gallon soda kegs as
+fermenters. I found one at a local junk yard for $20 in good shape. They
+arethe same height as standard soda kegs, but have a 12" diameter. I think
+St. Pats has them for $45. Works great, has handles, won't shatter, easy to
+clean (you can get your hand in it or at least I can). I had planned to
+use a cut-off keg as an open fermenter, but I couldn't put it in my fridge and
+still shut the door. I can fit this in my fridge, along with one 5 gallon 
+carboy or two 5 gallon soda kegs.
+
+
+John Glaser
+glaser`at`ece.arizona.edu
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 95 17:56:20 CDT
+From: korz`at`pubs.ih.att.com (Algis R Korzonas)
+Subject: trip report - part 2
+
+
+Here's part 2 of my Germany-Belgium trip report.
+
+
+* Hanssens, I feel, makes the best Kriek.  Their Geuze is variable, from
+  good to excellent.  One bottle I had tasted very oily/solventy/caprillic.
+  While this can be part of the style, I thought the levels were excessive.
+  No year on the cork, so it was impossible to tell how old it was.  Another
+  bottle at a different cafe was much better.
+
+
+* I was not happy with the Girardin Geuze or Lambik I tasted.  Neither were
+  as good as the Cantillon, 3 Fonteinen or Hanssens.  However, just as with
+  the first bottle of Hanssens I had, I would have to taste several other
+  batches to say Girardin didn't belong in the same league as the other three.
+
+
+* Petrus is a very good Oud Bruin.  Good Old Bruins (Flanders Browns) are hard
+  to find.  There are a lot of overly-sweet beers, with no sourness, calling
+  themselves Oud Bruins -- beware.
+
+
+* I asked at Rodenbach if they consider their beer a "Red Beer" or an "Oud
+  Bruin."  They said it is a "Oud Bruin."  Given that, I'd say shoot for
+  something between Rodenbach Grand Cru, Liefmans Goudenband (the old recipe)
+  and Petrus when trying to brew an Flanders Brown Ale.
+
+
+* Rochefort 10 is excellent -- IMO one of the three best Trappist beers
+  (along with Orval and Westvleteren Abt).  Rochefort 8 is also very good,
+  has a similar flavour as the 10 and is far more quaffable.
+
+
+* You can get beers like Rochefort 10, Orval and Cantillon at grocery stores.
+  750ml of Cantillon Gueuze is BF 100 (about $3.25), a bottle of Orval will
+  set you back BF 43 (about $1.40).
+
+
+* On the, "this is not lambik" front: you can buy Belle Vue Kriek in cans.
+
+
+* I tasted the Celis White in Brugge.  I feel that it is not as good as the
+  Celis White brewed in Austin.  It didn't have as much of the yeast character.
+  It is not surprising that it would be made from a different recipe there
+  (as if Pierre was going to release his trade secrets).  Incidentally,
+  Hoegaarden Wit, along with Stella Artois and Jupilier are the most widely
+  available beers in Belgium (Belle Vue Kriek is up there also).
+
+
+* At 't Brugs Beertje, Jan and I compared 9-year-old and a current bottle
+  of Verboden Vrucht: no comparison.  The night before, I ordered my wife
+  Karen a bottle of the current stuff, expecting something like the Pierre
+  Celis version.  She hated it and I even had trouble finishing it.
+  Obviously, Interbrew has ruined another great beer.  The old beer was an
+  explosion of fruit.  The current smells and tastes more like a strong
+  industrial American lager than anything else -- a Belgian Mickey's Malt
+  Liquor if you will.
+
+
+* Jan ('t Brugs Beertje) rents out the Boon brewery one day per year and
+  makes a 4,000 or 5,000 liter batch of beer.  He then ages it four years
+  before serving.  Every year it is a different recipe and the kegs last only
+  a few weeks when he puts in on sale.  I tasted the beer served this year
+  (he puts a small percentage in bottles) and it was a pale, citrusy, wheat
+  beer made with sloeberries.  Very fruity, but did not taste like a typical
+  fruit beer.
+
+
+* Fresh Duvel is not as good as old Duvel.  We're actually lucky to get it
+  "pre-aged."  Some cafes pre-age Duvel.  Fresh, it smells solventy and the
+  alcohol burns the throat.  Even one year of aging turns it to silk.
+
+
+* The last two beers I drank in Belgium (I had planned to bring them home,
+  but our luggage already weighed 390 pounds and that was after I airfreighted
+  home 44 pounds of glassware) were scottish ales!  Gordons Scotch Ale was
+  outstanding: a peaty nose, much lighter than McEwans and much less sweet.
+  It was deceptively strong, however.  Highland Fine Whiskey Malt Beer (brewed
+  by Henninger Brewery in Germany and packaged in a can!) was good: slightly
+  smoky nose, more smoky in the palate, rather lager-like (duh!) perhaps a
+  cross between a rauchbier and a scottish ale.  Probably the best beer I've
+  tasted from a can.
+
+
+* 173 beers critically tasted (if you don't count the Old Dominion Ale during
+  our layover in Dulles), visited nearly a dozen small- to medium-sized
+  breweries, performed countless hours of people-watching in numerous
+  biergartens and cafes, ranched more than 30 (possibly different) yeasts,
+  and saw some cool old architecture (some as old as Roman times).  There's
+  still smoke rising from my Visa card... I'd call it a successful journey.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 05:00:00 GMT
+From: fletch`at`poohs.com (Dave Fletcher)
+Subject: Caramel flavors - summary
+
+
+
+
+In HBD#1800 I posted a message concerning a caramel flavor that seems to be a 
+regular attribute of my beers, and asked the collective what might cause this. 
+
+
+As luck would have it, there was a fairly wide submission of opinions, and so 
+it is difficult for a "novice" like myself to venture much from my original 
+state of ignorance concerning same.  Here is a rundown of the responses I
+received.
+
+
+  29% Favored the idea that high gravity boils as the most likely cause.
+  21% Favored the idea that crystal malt is the likely culprit.
+   7% Considered a long boil as the most probably the reason for caramel 
+      flavors.
+   7% Miscellaneous reasons were stated for caramel flavors including
+      oxidation of the wort, yeast, and extracts which contain significant
+      caramels.
+  36% Had the same or similar problem and wanted information.  Perhaps the
+      tried and true experts could lend a hand here and enter into a
+      discussion on this topic with a bit more detail.  I know I would 
+      appreciated it, and my relatively small sample would indicate there are 
+      others who would as well.
+      
+Thanks to all who responded.      
+      
+      
+fletch`at`poohs.com
+      
+
+
+- ---
+ * KWQ/2 1.2i *
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date:          Fri, 18 Aug 1995 11:21:05 +0000
+From: "ath`at`merkur.sds.no" <ath`at`merkur.sds.no>
+Subject:       RE:  SG corrections (the easy way) - corrected
+
+
+Ops, I made a little shortcut in my formula.
+Corrections follows.
+
+
+>This is not accurate but should be sufficient for homebrewing as the
+>hydrometer readings is a bigger source of errors than this formula.
+>(my opinion)
+>Here is what I use :
+
+
+>VOL = volum of wort.
+>SG = starting gravity.
+>DG = desired gravity.
+
+
+>Water to add = [VOL  *  (SG - 1000)] / (DG - 1000) - VOL
+
+
+When I see gravity of  x.yyy I always look at it as xyyy
+So here is my correction:
+
+
+Water to add = [VOL  *  (SG*1000 - 1000)] / (DG*1000 - 1000) - VOL
+
+
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 1995 06:17:06 -0400
+From: Stephbrown`at`aol.com
+Subject: Re: #1(2) Homebrew Digest #1808 (August 15, 1995)
+
+
+Dave Boe says:
+
+
+Steve you're such a pessimist<g>.  Good beer isn't anything *new*, Europeans
+ have been drinking good beer long before anybody in this country even knew
+ what a microbrewery was. If, as you say, the big guys turn their micros into
+smaller versions of the parent Swill Factories then I predict that *new*
+Micros will pop up to fill the void.  Once beer drinkers taste really good
+beer there's no going back to that other swill.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Well, it's bloody good to know that there are some optimists out there.  I've
+wondered, now and again, if this mightn't be true, that Americans would
+develope a taste for good beer, and never settle for the budweisers again.
+ But I'm not convinced of it.  If they do, let's raise a glass to our fine
+country.  In the meanwhile, I'm not taking any chances - I'm going to keep on
+brewing.
+
+
+Stephen Brown
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 1995 08:33:46 -0400
+From: hbush`at`phoenix.Princeton.EDU (harry)
+Subject: Brewpub Requests
+
+
+        I'm going to friggin' Venus next week. Can anyone recommend any
+Brewpubs there? Jeez, there should be a Brewpub Request Digest or
+something.
+
+
+        Sorry, it must be my time of month.
+
+
+
+
+
+
+
+
+harry
+
+
+(new e-mail address, same old jerk!)
+
+
+
+
+
+
+------------------------------
+
+
+Date: 18 Aug 95  9:13:29 EDT
+From: EJ McGowan/CAM/Lotus <EJ_McGowan/CAM/Lotus.LOTUS`at`crd.lotus.com>
+Subject: Will a hunter work for me?
+
+
+I have inherited a refrigerator that seems to stay on all the time.  After 
+using it for the first time last week, I realized that the thermostat inside 
+doesn't work at all and the unit behaves more like a freezer.  My question is 
+when people are talking about various hunter, honeywell, and other 
+manufacturer's products, do you need to replace the internal thermostat or do 
+these work by turning the unit on and off.  I'm not opposed to opening up the 
+back and trying to replace the internal thermostat, but one that requires no 
+real work would be better assuming that my refrigerator now just has two 
+states, on and off.
+
+
+Personal email is fine.  TIA
+
+
+ej_mcgowan`at`crd.lotus.com
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 1995 10:40:03 -0300 (ADT)
+From: Ed Hitchcock <ehitchcock`at`sparc.uccb.ns.ca>
+Subject: Chillers
+
+
+
+
+        In response to Chas' question about positioning of immersion 
+chillers:  There is a significant diference between immersion chiller 
+dynamics and counterflow chiiler dynamics, mainly flow.  If you stick an 
+immersion chiller in the cold part of the kettle, ie the bottom, you get 
+stratification.  You will chill the cold part colder, while the hot part 
+sits happily on top, staying hot.
+        As for stirring, break, settling, and all the other problems 
+associated with chillers, I would once again like to mention the 
+planispiral chiller.  Mine is 25' of 1/4" od copper tubing formed into a 
+flat spiral, like an electric stove element.  It is designed so that it 
+lies about 1/4-1/2" below the surface of the hot wort.  No need to stir, 
+since cooling the top layer generates convection.  I whirlpool the wort 
+after the boil, let it settle for 10 min. or so, put in the chiller, let 
+it sanitize for a few minutes, put on the lid and turn on the water.  20 
+minutes later, cold wort, no stirring, break settled, nice tight cone of 
+spent hops in the centre of the kettle.
+        I will confess that it is not perfect.  Eamonn managed to get a 
+temperature inversion somehow so he had a cold layer on top and a hot 
+layer on bottom.  Never happened to me, though.
+
+
+        ed
+   ----------------
+ehitchcock`at`sparc.uccb.ns.ca
+the Pick & Fossil Picobrewery
+Because there's more to life than just coffee
+
+
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 10:46:41 -0400
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: obsessing
+
+
+There's been a lot of obsessing here recently about pitching
+temperatures, HSA, and the like.  It's really not necessary!  If your
+goal is to make *beer you like to drink*, and if your techniques make
+*beer you like to drink*, then *DON'T WORRY!*.  Keep it up, and more
+power to you!  
+
+
+If, on the other hand, you're wondering why your beer
+isn't as good as you'd like it to be, or if your goal is to be AHA
+Homebrewer of the Year (tm?), then you can obsess over minor changes
+in your technique.
+
+
+Really, folks (oops, almost said "guys", there), mostly we're talking
+about the difference between *good* beer and *great* beer.
+
+
+=S
+
+
+------------------------------
+
+
+Date: Thu, 17 Aug 1995 13:45:48 -0400
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: Wort Chiller Comparisons
+
+
+A group of us will be performing an experimental comparison of wort
+chillers.  What measurements / numbers / features / misfeatures would
+YOU like to know about commercially available wort chillers?  What
+comparisons would YOU make between chillers?
+
+
+Act now!  This is your chance to be involved in the design of the
+experiment!  This offer will not be repeated!  Please respond by e-mail.
+
+
+=Spencer Thomas in Ann Arbor, MI        (spencer`at`umich.edu)
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 95 10:40:09 EST
+From: Tim_Fields_at_Relay__Tech__Vienna`at`relay.com
+Subject: RE HBD advice
+
+
+     In #1811, SoarMoose`at`aol.com discusses recently-posted advice re pitching 
+     temps:
+     
+     >Well...I haven't seen a good reason why I shouldn't pitch at the same
+     >temperatures that I always do, even though someone chastised us all for
+                                                         ^^^^^^^^^
+     >pitching at higher temps.
+     I'm sure the posters weren't intending to chastise anyone - they were 
+     simply offering advice based on their experience.  I think it's kind of 
+     nice that folks take the time to "give something back" to homebrewing by 
+     posting here.  As with most advice, one can take it or leave it.
+     
+     >There was a good note explaining in extremely
+     >high-tech terms what "Might" happen, but I really don't know how to tell 
+     >if I have too much ethylacetlyetehstace in my beer.
+     I don't know how to tell either, but I imagine some found the post of 
+     interest.  I'll bet he would tell you if asked ;-)
+     
+     >My point to all of us who pitch at higher temps with good results is: 
+     >don't worry about it.
+     .. and a bit later on:
+     >Until you see a detrimental effect on your brewing, even the
+     >stearnest warning doesn't mean a thing.
+     Don't worry, have a homebrew.  Make what you like to drink, and enjoy it 
+     :-)  _BUT_....I'd counter with this point:  Nothing ventured, nothing 
+     gained!  One's brew may be good or even great now, but how much better 
+     could it become?  There just might be a really neat beer waiting for you 
+     just around the corner :-)
+     
+     >No matter what the "experienced" homebrewers say, I make consistently good
+     >beer that is usually as clear (or clearer) than theirs and tastes great.
+     Cheers!
+     
+     -Tim
+
+
+     Tim Fields / Vienna, VA, USA / timf`at`relay.com
+
+
+     
+     
+
+
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 1995 08:01:32 -0700
+From: rider`at`pullman.com (Bill Johns)
+Subject: sources
+
+
+
+
+>From: Carl Etnier <Carl.Etnier`at`abc.se>
+>Subject: drawing wort/ leaky 5-liter keg
+>
+>There was a posting last year about drawing wort from a carboy with a
+>60 cc syringe and a catheter, for measuring specific gravity during
+>fermentation (can't give credit where credit is due to a hard disk
+>crash). My medical connections are not good enough to get ahold of a
+>syringe that big, so I have taken a tip from the siphoning thread
+>from a couple months ago and adapted it, using no medical supplies.
+
+
+Really don't need medical supply connections.  Go to any rural general
+store, the kinda place that specializes in animal husbandry stuff.  You
+will be able to find all sorts of huge syringes, and reasonably cheap, too.
+
+
+Just a thought.
+
+
+Bill
+
+
+
+
+
+
+- -------
+rider`at`pullman.com
+
+
+It's OK to be happy.  :-)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 1995 11:22:35 -0400 (EDT)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: more temps
+
+
+Chris (SoarMoose`at`aol.com) writes:
+
+
+<Well...I haven't seen a good reason why I shouldn't pitch at the same
+<temperatures that I always do, even though someone chastised us all for
+<pitching at higher temps.
+
+
+I didnt chastise anyone!  I stated that I felt pitching at higher temps
+was bad, but also clearly indicated that this is relative to many other
+factors, yeast strain and the brewers desires being standouts.  I will
+point out that most ales will generate between 5-10 degrees F of additional
+temp during high krausen, so if you pitch at 80F and dont attemperate 
+I wouldnt want to drink many of the resultant chemicals.
+
+
+If you can rapidly drop and maintain a temp after pitching at 80F, the
+impact will be greatly reduced.  This is near impossible for most of
+us. 
+
+
+Certainly, the desire of all brewers is to produce beer *they* like,
+its a personal choice and one that makes brewing so individualistic.  
+
+
+There is a large body of "Relax dont worry" homebrewers out there.  There
+is also a large body of folks who would like to understand more completely
+the chemistry that is involved in producing this carbon soup that we all
+love so much.  
+
+
+If you dont want to believe the experience of some "OTHER experienced"
+homebrewers like myself and A.J., fine.  Go read some chemistry and 
+brewing texts.  There is bulk of detailed information on the subject of
+yeast metabolism, esters and fusel alcohol creation.  
+
+
+Good brewing,
+
+
+Jim Busch
+busch`at`mews.gsfc.nasa.gov
+
+
+If some part of that music
+is heard in deepest dream,
+or on some breeze of Summer
+a snatch of golden theme,
+we'll know you live inside us
+with love that never parts
+our good old Jack O'Diamonds
+become the King of Hearts.        R. Hunter
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 95 08:45:32 PDT
+From: rone`at`mdhost.cse.TEK.COM
+Subject: Hunter Air Stat Summary
+
+
+
+
+
+
+  As several folks have pointed out here and in email, the problem with
+  the Hunter units is a zener diode (Z1) on the board that switches the
+  AC.  This is a 24V, 5W device.
+
+
+  The diode is obviously being pushed passed its published specs of 5W.
+  The pc board (in my unit and probably all units) is scortched, even
+  the solder connections appeared to have gotten hot enough to emit a
+  little solder flux.
+
+
+  A short term fix would replace the zener with a higher power part.
+  The zener would have to raised off the board to prevent further
+  scorching.
+
+
+  So far, the highest power part I've found is 4W.  I'm still looking.
+
+
+  Thanks to everyone who replied with the excellent information.
+
+
+
+
+Ron Ezetta
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 95 00:55:45 +1000
+From: CHARLIE SCANDRETT <merino`at`ozemail.com.au>
+Subject: Amazing Amazonion Floating Brewery
+
+
+This is some interesting historical trivia.
+
+
+The Amazon river is a giant sewer for millions of people. When travelling the 
+upper reaches in
+ the dry season it is the only source of water.
+A couple of years ago I found myself in the Colombian branch of the northern 
+Amazon sailing to Mitu
+ on the Brazilian border. The boat was a brigt blue, 35 ft cocaine-lab supply 
+canoe, loaded with gasoline,
+ H2SO4 and ammonia. The hot brown  water was jumping with pathogens lusting for 
+my gringo intestines.
+However the  local indians have long brewed their water to control nasties. 
+These blokes kept two 5 gal  tanks
+ fermenting all the time. They would fill it up with water straight from the 
+river, add "arepas", a sort of
+ corn cake, lots of pinapple peels and "panella". Panella is raw sugar cane 
+extract, crystalised in a
+ solid block. It is sliced from the block into the fermenter with a wickedly 
+sharp machete and a macho
+ disregard for the lurchings of the speeding canoe or your fingers.
+The secret is the pineapple peels. Apparently a wild yeast cultures itself in 
+the sweet ozings in the folds
+ of the peel. A pineapple is a transportable yeast culture!   (cafeful with 
+fruit adjuncts folks!)
+The fermentation continues for 2 days and consumption is begun after a 10 
+minute lagering period. The 
+brew is often topped up but is not drunk for a couple of hours after top up.
+The pitching and fermentation temps are in the high seventies as it is cooled 
+by a wet bag, the SG would be about 5+, there never is a FG. The "room" temp is 
+always +90F.
+This corn, sugar & pinapple beer tastes supprisingly good, prevents dysentry 
+and keeps you mildly drunk.
+ After 8 days of this "garaupo" and several hundred miles of trees, howling 
+monkeys, crocodiles,
+ mosquitoes and more bloody trees, I was pleasently numb. The shock of watching 
+guerillas take 
+a man away  in a canoe to be shot lifted the ambience rapidly!
+My rapid exit from the region erased all thoughts of brewing until I found the 
+photos the other day of 
+Allidio's Floating Blue Brewery, complete with heavily armed smiling patrons!
+
+
+
+
+Charlie
+
+
+"its not always this quiet around here",..................  Allidio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 1995 09:21:00 -0700
+From: bgros`at`mindseye.berkeley.edu (Bryan L. Gros)
+Subject: british pale malt, homegrown hops
+
+
+Two questions:
+
+
+1.  I just bought a sack of Hugh Baird British Pale Ale malt.  Are there any
+styles (besides lagers I guess) where a regular ( American I guess) 2-row
+malt would be better to use?  Why is lager malt better for lagers?
+
+
+2.  Do fresh picked homegrown hops need to be dried to use?  If you pick the
+cones and use them for finishing hops or dry hops without drying them, do
+you get the same results?  I assume you need to dry them to store them.
+
+
+Thanks.
+
+
+Also, Jim Busch posted a quote describing the adverse effects of pitching
+and fermenting at high temperatures.  If I'm not mistaken, the original
+concerns were just with pitching at high tempertures and letting the
+fermenter cool to normal fermenting temps.  For example, if you have trouble
+cooling to 65F with your wort chiller because the water temperature is only
+65F, so you chill for half hour till the wort gets to about 80F, rack,
+pitch, and put the carboy in a 65F cellar.  Does the higher temp of the wort
+at pitching lead to faster reproduction of the yeast and lower lag times,
+and does the drawbacks of higher fermentation tempertures apply when the
+temperature is only elevated for 12 hrs or so.
+
+
+I guess that was three questions. :-)
+
+
+                                                - Bryan
+                                                  bgros`at`mindseye.berkeley.edu
+
+
+
+
+------------------------------
+
+
+Date: Fri, 18 Aug 1995 12:16:03 -0400
+From: Chris Cooper <ccooper`at`a2607cc.msr.hp.com>
+Subject: New Micro in Michigan, Big Buck Brewery
+
+
+In HBD #1810 Bob Paolino asked about Michigan and Ontarion breweries. 
+I live in Michigan and just returned from a week of camping in 
+Michigan's beautiful UP (upper peninsula). On our way home we stopped in
+Gaylord, Michigan (app. 1 hour south of the  Mackinac bridge and 4 hours
+north of Detroit on I-75) and visited the newly built Big Buck brewery.
+The micro opened over the 95 Memorial day weekend and has been going
+strong ever since.  The brewery is apparently a well funded venture
+and features an excellent restaurant (steaks, chops, burgers from a large
+indoor flamed grill) and a large "bar" area arranged around the 
+glassed-in brewery area (the bar has a beautifully carved railing
+and peanuts on every table end up on the floor creating a very relaxed
+mood).  The building is cavernous and rustic but very modern in it's
+features.         
+
+
+The beer (they had 7 varieties on tap when I was there) ranged from
+good to excellent , the darker the beer the better!! IMHO.
+
+
+While waiting to be seated (7:30 on a Wednesday night the wait was 45 min.)
+I asked the hostess some questions about the operation and mentioned
+I was a home brewer, Bingo that was the magic ticket, she brought the 
+night manager over and introduced us.  Paul (the night manager) spent
+about 20 minutes giving me and my family a complete VIP tour of the 
+facility and showed us every nook and crany of the place, he said
+they liked to go out of their way for home brewers and made our 
+experience one my whole family will remember.  
+
+
+The brewery has regular tours Wed-Sat at 2,4,6 pm and is setting up 
+a visitor's center and reception/tasting area in their basement.
+
+
+So for any of you out there in HBD land if you find yourself on I-75
+headed for the north-country stop in Gaylord and check out Big Buck!
+
+
+
+
+Chris Cooper , Commerce Michigan    --> Pine Haven Brewery <--
+ccooper`at`a2607.cc.msr.hp.com         --> aka. Deb's Kitchen <--
+ 
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1812, 08/19/95
+*************************************
+-------

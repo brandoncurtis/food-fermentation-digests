@@ -1,0 +1,1400 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA27021
+        for <spencer`at`srvr5.engin.umich.edu>; Thu, 5 Feb 1998 01:42:27 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+        by srvr20.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA28470
+        for <spencer`at`engin.umich.edu>; Thu, 5 Feb 1998 01:42:26 -0500 (EST)
+Received: (from root`at`localhost)
+        by redheat.rs.itd.umich.edu (8.8.5/2.5) with X.500 id BAA06266; Thu, 5 Feb 1998 01:42:25 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by redheat.rs.itd.umich.edu (8.8.5/2.5) with ESMTP id BAA06257; Thu, 5 Feb 1998 01:42:21 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA29899 for realhomebrew; Thu, 5 Feb 1998 00:42:15 -0500
+Date: Thu, 5 Feb 1998 00:42:15 -0500
+Message-Id: <199802050542.AAA29899`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2629 (February 05, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2629                             Thu 05 February 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Sanitizing pumps & tubing (dfikar)
+  Re: Computerized Fridge Controller (Mark Riley)
+  Safe from oxidization, (kathy)
+  temp control programming (Forrest Duddles)
+  Strange CO2 taste in keg (Chris Dodge)
+  Bite test,Plastic taste,forced fermentation, corny haze ("David R. Burley")
+  RE: Counter-pressure Bottlers (Ken Hawkins)
+  Sparging Rates (Jim Bentson)
+  Liquid Yeasts? (Jon Ingram)
+  Kriek kits? (Jon Ingram)
+  Protein Rest Primer part deux (Kyle Druey)
+  Moravian Malt stats (Charles Peterson)
+  Re: Lauter dynamics (Ronald Babcock)
+  RE: keg lube (LaBorde, Ronald)
+  RIMS vs. Other Methods (PBSys)
+  Use of LP Indoors ("Brian M. LeCuyer, P.E.")
+  Natural Gas Burners (Tom Riddle)
+  Red Greem, growing hops (Mark Tumarkin)
+  mashout (smurman)
+  late hops (Thomas Buckner)
+  Re: unclear beer (Mark Weaver)
+  UK Brewery Crawl ("Roy R. Rimmele")
+
+
+
+
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 3 Feb 1998 18:06:12 -0600 (CST)
+From: dfikar`at`flash.net
+Subject: Sanitizing pumps & tubing
+
+
+
+
+I recently acquired a magnetic drive pump which I use to recirculate/batch
+sparge and to pump the cooled wort from my kettle to my fermenter.  My question
+is do I need to sanitize the pump & tubing after the sparge or will approx. 
+40 minutes of pumping 160-165F wort do the trick, assuming I'm careful not to
+contaminate the tubing before pumping the cooled wort to the fermenter?
+
+
+- ---------------------------------------------
+Dean Fikar - Ft. Worth, TX (dfikar`at`flash.net)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 4 Feb 1998 00:12:57 -0800
+From: Mark Riley <mriley`at`netcom.com>
+Subject: Re: Computerized Fridge Controller
+
+
+Jens B. Jorgensen asked:
+
+
+>I'm planning to control the temperature of my beer fridge with my
+>computer. A while back somebody mentioned something about being
+>careful with the cycle-time so that I don't damage the compressor
+>or something like that. Could any one offer some parameters like
+>a min-on-time and min-off-time for the compressor?
+
+
+It's not really necessary to specify a min. on/off time if you
+think in terms of hysteresis.  I put together a standalone
+freezer controller and included a potentiometer to adjust
+the hysteresis (or free play) from 0 to 5 degress F.  I set
+it to 3 degrees and haven't changed it since (i.e. the
+compressor turns on/off 1.5 degrees on either side of the
+desired temperature).  This is sufficient to prevent the
+compressor from cycling too often.
+
+
+Temperature swings of a few degrees of the AIR in the
+freezer are considerably dampened by the thermal
+mass of something like a carboy of beer.  Inside the
+carboy, the temperature is going to be fairly constant.
+It might be interesting to put a sensor inside the
+carboy, as well.  You could log the temperature
+differential caused by active fermentation and
+compensate by adjusting the desired temperature of
+the freezer compartment lower.  Of course, this would
+only be useful if you only have the one carboy - other
+carboys at different stages of fermentation would be
+unduly affected.
+
+
+As to having a PC controlling the relay directly, all
+I can say is that PC's have a tendancy to crash,
+hang, or be otherwise ill disposed.  Although the
+circuit would be more complicated, a better idea would
+be to have the PC set the desired temperature (with a
+DAC) and do the data logging.  Leave the switching
+to a comparator.  If the PC crashed, the comparator
+circuit will still be active and your freezer will stay
+at the last set temperature (i.e. your beer won't be
+ruined).
+
+
+Cheers,
+
+
+Mark Riley
+The Beer Recipator - http://hbd.org/recipator
+
+
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 08:17:15 -0500
+From: kathy <kbooth`at`scnc.waverly.k12.mi.us>
+Subject: Safe from oxidization, 
+
+
+As a follow-up to the scathing review of Harpers brewpub offered on HBD
+by Eric F., and maybe somewhat defensive HBD rebuttal posting by Phil
+Wilcox of Jackson MI, he and I invited Eric to meet us at the pub, get
+acquainted, taste the beers again and meet Dan the brewer. Eric lives
+away from our fair city and wasn't able to meet, but Tuesday Phil Wilcox
+and I sampled the food and beer and generally got accquainted.
+
+
+Whatever Eric was picking up as oxidized beer was not obvious to us at
+our visit.  Dan, the brewer was home sick all day but previous visits
+had found him quite accessible and knowledgeable.  The beers were much
+as Phil W. reviewed on his previous post (clean and safe with the porter
+coffee'd from hell excepted).
+
+
+It is an interesting challenge  to see what niche the brewpub can
+expect.  Al Korzonas's recent interesting article in BT on brewpub
+marketing strategies and differing clientele desires highlights the
+problem for local brewers.  Within a block of Harpers on tap, exists
+world class: Bass, Guiness, Bell's amber and Solstice, Goose Island
+Honkers, plus local products as Michigan Brewing Co. pale ale and
+Arcadia's Special Reserve.  All excellent!  I'd hate to have to
+outproduce any of those products as a brewer.  While Harper's choices on
+the safe side won't draw Al K. from Chicago or Eric from Wherever,
+Michigan, my wife loves the food and the generally quiet side atmosphere
+of the pub (us-old folks).  
+
+
+While I'll stop elsewhere for most of my zesty beer outings (I really
+like Honkers or MBC's pale), I appreciated that Dan the Brewer had an
+excellent rye beer offering as something unusual for the beerhunter.  If
+you're able to visit East Lansing and Harpers, you'll enjoy the visit as
+pleasant but not great adventure in pubbing.  
+
+
+Cheers, Jim Booth, Lansing, MI
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 09:32:34 -0500
+From: Forrest Duddles <fridge`at`Imbecile.kzoo.edu>
+Subject: temp control programming
+
+
+Greetings folks,
+
+
+ Some months back I cautioned against too-frequent compressor cycling when
+setting up an external temperature controller. The info was directed
+primarily toward those who use a freezer for fermenting at relatively high
+temperatures (50-70 degF is high for a freezer), but is also good practice
+for any refrigeration system - including window a/c units.
+
+
+ There are "anti-shortcycle" timers built into many commercial
+refrigerating devices and in many domestic thermostats used for air
+conditioning. The minmum off time is usually in the neighborhood of 5
+minutes or so. This is to allow system pressures to equalize to the point
+where the compressor's starting torque is sufficient to bring the
+compressor up to speed upon the next call for cooling. 
+
+
+ Minimum off time can often be achieved without the use of a timer by
+setting a controller differential of 5 degF or so and/or placing its sensor
+bulb in a location protected from warm drafts when the refrigerator door is
+opened. Some have suggested placing the sensor bulb in a jar of water to
+prevent short-cycling - and this will work, but it is really just a means
+of widening the controller differential. It also serves to illustrate that
+a fairly wide differential is not detrimental to stable temperature
+control. After all, we are cooling relatively large thermal masses (carboys
+and cornies) and the effect of a 5 degree swing in air temperature over a
+relatively short period will be negligable.
+
+
+ Minimum on time is more difficult to control because the cabinet
+temperature will determine when the compressor should stop. That being
+said, it is important to realize that the compressor is cooled primarily by
+saturated refrigerant vapor returning from the evaporator coil. The
+compressor motor generates quite a bit of heat during startup and a minimum
+runtime of several minutes is usually necessary for the refrigerant vapor
+temperature to drop sufficiently to remove this heat.
+
+
+  Since this post is primarily in response to a question by Jens Jorgensen,
+I'd like to address a couple of computer-control issues.  I have to admit
+that I'm a gadget junkie and love hacking things to do what they aren't
+supposed to be able to. I have a couple of old 8086 laptops laying around
+that I thought would be usable for temp control on a RIMS. After looking at
+the options- cost, resolution and reliability, using the laptop didn't make
+sense *for me*.
+
+
+ If you pursue computer control, try to incorporate minimum on/off times
+and other critical functions in hardware (timers, etc).  to ensure that
+errant software won't be banging your compressor on and off or causing
+other problems. KennyEddy probably will be a good source for temp sensor
+information, but in my experience it is difficult to get good resolution
+and stability cheaply. Incorporating one of Radio Shack's temperature
+control modules might be one option (I use one of these to control my
+waterbed heater). These cost $20 or so and provide a lot of bang-for-the-buck.
+
+
+ There may be folks out there who will report success with tight control
+differentials and short on/off times. Many refrigerators are overbuilt and
+will take such abuse for a long time without trouble. It's a gamble,
+however, as is running at elevated temperatures. Playing it save, where
+possible, will help to ensure longevity of the system.
+
+
+Please note that the above information is intended to be general in nature.
+There may be system-specific conditions which warrant a different control
+strategy. Some experimentation will probably be necessary when setting up
+any non-standard refrigeration system.
+
+
+
+
+
+
+Hope this helps!
+- ---------------------------------------------------------------
+Forrest Duddles - FridgeGuy in Kalamazoo
+fridge`at`Imbecile.kzoo.edu
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 09:43:56 -0500
+From: Chris Dodge <cdodge`at`ptc.com>
+Subject: Strange CO2 taste in keg
+
+
+I have been force carbonating and kegging in 5 gallon cornelius kegs for
+over 2 years now.
+I am close to finishing a keg of an Octoberfest I have had on tap for
+about 3 months now.
+
+
+My last couple of glasses have a had a strange taste to them.  They have
+an almost medicine
+taste and a smell very similar to CO2.  My comparison to the CO2 smell
+comes from smelling
+my kegs when they are purged with CO2 prior to kegging.  There is only
+1/2 to a gallon left in
+the keg.  Does anyone know if this is due to the beer being over
+saturated with CO2, my dispense
+pressure is around 10 psi.
+
+
+If anyone know why this is happening, please let me know before I keg my
+next batch of IPA.
+
+
+Thanks
+Chris Dodge
+
+
+
+
+------------------------------
+
+
+Date: Wed, 4 Feb 1998 10:22:43 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Bite test,Plastic taste,forced fermentation, corny haze
+
+
+Brewsters:
+
+
+I think we should appreciate Kyle Druey's efforts at
+trying to find a correlation between the reported
+malt analyses and physical properties of the grain. =
+
+
+Also, I appreciate SteveA's cautions about germination =
+
+
+enhancement at the maltsters and 2 row versus 6 row =
+
+
+having different hardness and the different amounts of =
+
+
+albuminoid (soluble) protein generated at various stages =
+
+
+of the germination.  I ( and others) have cautioned about =
+
+
+these things in the past. Today the modification of the =
+
+
+protein and the modification of the carbohydrate can =
+
+
+be separated to a large extent in non-floor malted =
+
+
+barley, as I have also recently pointed out.  However, =
+
+
+such a cautious position doesn't really answer the =
+
+
+question to which we all would like to know the answer.  =
+
+
+
+
+Does this malt need glucanase and protein rests or not? =
+
+
+
+
+In my experience, the bite test is not a quantitative test, =
+
+
+but it a good, fast indicator in the HB store, in the =
+
+
+absence of malting information, whether a malt is a =
+
+
+pale ale or a pale pilsner type and whether it will =
+
+
+require temperature holds below the saccharification =
+
+
+region (149-158F).  If it explodes in your mouth when =
+
+
+you bite it, then you can be assured it is an ale malt =
+
+
+and can likely ( and probably should) be used with =
+
+
+a single temperature infusion mash. More importantly, =
+
+
+this malt may likely be harmed by a protein hold and =
+
+
+the beer head reduced, especially with a hold in the =
+
+
+122F region exclusively. Otherwise, try side by side =
+
+
+small mashes in a water bath  ( no need to do a full =
+
+
+batch) some with various holds and the other without =
+
+
+and see the relative amounts of hot break generated, =
+
+
+as AlK suggests. After fermentation of these samples =
+
+
+evaluate the beer clarity and mouth feel and then you =
+
+
+will know how to treat this malt. In the absence of this =
+
+
+information and the absence of an explosive, mealy =
+
+
+bite, use temperature holds until you get results of  =
+
+
+your malt evaluation.
+- -----------------------------------------------------
+Tim Burkhardt has a plastic taste in his bottled beer =
+
+
+that wasn't there before bottling. This taste is often =
+
+
+associated with phenols and such.  Possibly what =
+
+
+you taste is due to the beer oxidation during bottling. =
+
+
+If you are using a bottling bucket - don't.  Add the =
+
+
+priming sugar solution to each bottle ( 48 teaspoons =
+
+
+in 8 ounces) and siphon from the secondary directly =
+
+
+into the bottle.  You avoid beer oxidation and don't have =
+
+
+to sterilize the bucket, your stirrer, etc. Using a priming =
+
+
+starter will also reduce the effects of oxidation as the =
+
+
+yeast are active from the beginning.
+- ------------------------------------------------------ =
+
+
+Bill G comments "What's the big deal about 0.002 SG" =
+
+
+in terms of predictability of what the final gravity is =
+
+
+expected to be and George DePiro responds that this =
+
+
+difference is about equal to the SG difference for primed =
+
+
+and unprimed beer. George suggests a forced =
+
+
+fermentation will give you a value close to the expected =
+
+
+value for the batch.  I suggest you also try Clinitest as it =
+
+
+will tell you with an equal or greater degree of precision =
+
+
+ - compared to a hydrometer - if your main fermentation is =
+
+
+finished - faster and a smaller sample.  Combining =
+
+
+these two techniques, Clinitest and the forced =
+
+
+fermentation ( while you also do a wort stability test =
+
+
+as George suggests) will tell you as close as you care =
+
+
+to know if it's bottling time. =
+
+
+
+
+In his following submission George points out that he =
+
+
+had one-half of his CAP finish out and the other one =
+
+
+was 10 points higher.  This clearly demonstrates the =
+
+
+danger in just looking for a steady SG as an indication =
+
+
+that a fermentation is finished.  I suppose this might =
+
+
+even happen with a forced fermentation.
+- -------------------------------------------------------
+As far as clarity of George's CAP goes, it may be that =
+
+
+excess gelatin actually made it cloudier if you added =
+
+
+too much and didn't have a lot of hops in the first place =
+
+
+( as is common in some CAPs).  The Polyclar is similar =
+
+
+to gelatin in its action.  I wouldn't be afraid to use this =
+
+
+as this chemical is used in a blood substitute =
+
+
+formulation,as I recall. Is it possible you have a starch =
+
+
+haze from not adequately cooking the corn meal you =
+
+
+used for the first time? ( different size grind?)
+- -------------------------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK   =
+
+
+
+
+------------------------------
+
+
+Date: Wed, 4 Feb 1998 08:51:37 -0800
+From: Ken Hawkins <kenh`at`icat.com>
+Subject: RE: Counter-pressure Bottlers
+
+
+Once again the folks submitting are mind readers of top caliber. I
+recently purchased what I now believe to be a Foxx bottler. If I
+couldn't be sure but it appears as such:
+        (a)-------(b)
+               |
+               |-- (c
+               |
+              \ /
+               |
+     (insert bottle hear)
+
+
+Now Bill had said to adjust the Foxx bottler to appear as such :
+         (plug)------(a
+               |
+          b)--|-- (c
+               |
+              \ /
+               |
+     (insert bottle hear)
+
+
+Shout when I make a wrong turn. I do not see what exactly makes this a
+superior set up for c-p filling, then again fluids were never my strong
+point in physics classes of old. Could someone please expound on this?
+Also if we're going through the motions of converting wouldn't putting
+an elbow on top keep from creating a dead spot which could (insert
+possible bad outcome here), or at minimal inhibit the flow of sweet
+liquid gold? The latter question could possibly be the ranting of an
+anal retentive rookie to the c-p filling circle and if it doesn't matter
+slap me now.
+
+
+Thanks,
+Ken;
+
+
+Hit or Miss Brewery,
+It's either one or the other....
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 12:06:28 -0500
+From: Jim Bentson <jbentson`at`htp.net>
+Subject: Sparging Rates
+
+
+In a recent post, Al K qouted an e-mail from Darryl Richman to put forward
+the idea that sparge rates should be from .22 to .38 gals/min for each sq.
+ft. of lauter tun cross section area (Note this is  NOT collection screen
+area as J.S. thought). They  point to statistics from German breweries as
+given in Darryl's book on Bock. Unfortunately their quote is taken out of
+context and IMHO leads to totally incorrect data.
+ 
+Consider a 5 gal batch using a typical 10 gal pot or cooler as the tun.The
+area of the tun ( 12 to 14 inch diameter tun) as roughly of the order of 1
+sq. ft. Assume you are collecting 6.5 gals. At .38  gal/min/sq.ft. ( which
+is the actual final sparge rate , the .22 figure is the recirculation rate
+in the book)  then using Al and Darryl's  method you should collect the
+entire 6.5 gal  amount in 17.1 minutes. I believe that this is way too rapid. 
+
+
+Where did they go wrong? Scaling problems. What was left out and is clearly
+stated in the book is that the grain bed depth in these commercial tuns  is
+still only  10 inches to 23 inches and more importantly the sparge time is
+the same 80 to 90 minutes suggested by most authors for homebrewing applications
+
+
+ In a previous post, I had quoted Noonans book which gives guidelines for
+sparge rates of at least 30 minutes for grain depths of 6 inches of high
+husk grain to 90 minutes for 18 inch bed depths. Notice that  both the bed
+depth and sparge times from the  German data agrees with Noonan. As many
+posters have stated here , it is the DEPTH of the bed that is important not
+the cross-sectional area.
+
+
+I have done a fair amount of work on designing pebble bed heaters for solar
+systems and am somewhat familiar with the flow problem in a loosely packed
+porous media. I can expand on this if needed, but the key elements for the
+sparge process (all of which have been mentioned in recent days) are as follows:
+
+
+1)The main point is to ensure that the sparge water is in contact with the
+grain particles sufficiently long to dissolve the "goodies" from the grain.
+You want low flow rates for this.
+
+
+2) Although I can't find any reference (pro or con) , I suspect that as the
+sugars dissolve into the sparge water as it percolates through the grain,
+the dissolved levels approach saturation levels for solubility at some
+point. The ability to extract sugars from the grain below this point is then
+poor.  Thus there is some depth ( 6 to 18 in.???) beyond which, little
+extraction occurs in the beginning of the sparge.  As the sugar gets
+extracted in the upper bed levels, the water can then travel lower before
+saturating.Thus as time goes on we extract from the bottom of the bed 
+If this were not the case , we would be able to dump all the sparge water in
+the tank at once, stir and collect all the sugar in one drain. The very fact
+that we must drain the sparge and replace it with fresh water makes me think
+that there is some solubilty limiting factor at play. Again I stress that
+this is postulation, as I don't know the actual solubility limits. Comments
+anyone?
+
+
+2) Slower sparges are better than faster ones. They give more contact time
+and dause less bed compaction. The range of times should probably be 30 to
+90 minutes regardless of batch size.
+
+
+3) Excessive sparge rates may compact the bed and cause the sparge to stick.
+
+
+4) Following  commercial examples, a large  tun diameter to grain depth
+ratio, reduces edge effects and should lead to a more efficient sparge.
+
+
+Sorry for the length of the post, but Darryl and Al carry such weight due to
+their expertise, that I felt I had to comment in length.
+
+
+Jim Bentson
+Centerport NY
+- --
+Registered ICC User
+check out http://www.usefulware.com/~jfoltz
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 12:54:48 -0500
+From: Jon Ingram <jgi105`at`psu.edu>
+Subject: Liquid Yeasts?
+
+
+I have brewed a few batches with dry yeasts, now I would like to try using
+a liquid yeast and I need some help. What is a liquid yeast starter? And
+what do I have to do step by step to  use a liquid yeast? Thanks, Jon
+
+
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 13:00:27 -0500
+From: Jon Ingram <jgi105`at`psu.edu>
+Subject: Kriek kits?
+
+
+Has anyone ever used one of the Kriek kits that are available? Or, does
+anyone have any suggestions on how to make these kits taste more authentic,
+yeasts,etc? Any input would be appreciated. -Jon
+
+
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 03:10:10 -0800
+From: Kyle Druey <druey`at`ibm.net>
+Subject: Protein Rest Primer part deux
+
+
+more on the Protein Rest Primer...
+
+
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: protein rest.
+
+
+Steve, I am glad you are taking a personal interest with this topic.  I
+could have taken this offline, but the issue of the protein rest seems
+to be of particular interest to many HBDers.  So as to avoid
+misunderstandings, I am only interested in obtaining *practical* answers
+on this issue based on solid references and testing data.  If my
+comments seem aggresive I am not intending any personal attacks here,
+OK.
+
+
+>The idea is that acrospire length is a good rule of thumb, but not a
+>religion.  Making a differential prediction of the mash cycle needed
+>based on whether an acrospire length is 0.73 or 0.76 averaged over a
+>sample size of 30 kernels is probably wrongheaded.
+
+
+I never said it was hard science but only an estimate!  I was just
+trying to develop rules of thumb for us simple folk at home without
+getting into variance, the Central Limit Theorem, The Empirical Rule,
+and other such statistical confusions.  The number 30 was not haphazard
+(oops!, I forgot that the sample number must be greater than 30, 31 is
+fine), rather, it is rightheaded.  Using this and the standard deviation
+can give us a statistically valid *approximation* for the acrospire
+length for the majority of kernels.  0.845 standard deviations from the
+average acrospire length will give us the lower limit for 80% of our
+malt sample. For the Baird Pale Ale the average was 0.76, and the SD was
+0.22, the 80% number is then 0.57.  This means that we have an 0.80
+probability that our acrospire length is greater than or equal to 0.57
+of the kernel length, and the relatively high SD indicates that this
+malt has not been uniformly germinated.  For this case then, the 20'
+rest at 135 F would not hurt, and most likely will help in reducing haze
+causing proteins not sufficiently reduced by the maltster.  The 80%
+guideline was taken from Noonan's revised book, which I realize has been
+torched by certain xpurts on the HBD, but I don't see anyone performing
+experiments to disprove his conclusions.  Noonan is the only homebrewing
+author I know of to provide practical information for us folks at home
+on how to determine if a protein rest is needed.  Until *proven*
+otherwise, NBLB is an excellent book for the all grain homebrewer! 
+
+
+>You should also be aware that the malts you compared were probably of at
+>least three different varieties, each with idiosyncratic growth/malting
+>characteristics and that certainly some, possibly all were treated with
+>gibberellin, a plant growth hormone, which distorts the rate of
+>development of the grain, and which came into use after the 3/4th length
+>rule appeared.
+
+
+I suspect a red herring here, but here is some additional information:
+"A number of *shortcuts* have been proposed to cut down on the time and
+cost of germinating grain, such as using higher moisture levels in the
+steep or adding hormones like GIBBERELLIC acid to the germinating grain.
+Adding hormones is banned in many countries but used in others.  The
+danger with such stimulants is that *uniformity of modification*,
+crucial to malt quality, suffers in forced, rapid germinations (Fix,
+AoBT, p. 3)".  "In many countries, though rarely in the US, the grain is
+sprayed during transport with a solution of gibberellic acid (Lewis,
+Brewing, p. 56)".  Looks like the use of this hormone was probably not
+used on all of my 6 malt samples.  I could not find a reference that
+indicates using gibberellic acid distorts the 3/4 length rule.  Lewis
+seems to indicate that possibly acrospire growth is now lessened "the
+objective of control in malting is to restrict embryo growth while
+modification progresses (p. 72)".   In addition, Fix states that the
+growth of the acrospire during germination is incidental to protein
+modification (PoBS p. 103).  Knowing incidentally is much better than
+knowing nothing at all, IMO.
+
+
+>As for the 'bite' test -  the value of this is to test for truly
+>unmodified grains (klinkers, glassy grains), and to check for hard tips,
+>where the modification finishes at the end away from the rootlet.  The
+>meaning of different varieties, with different original protein content
+>having different hardness when chewed is less than crystal clear when it
+>comes to the question of a protein rest.
+
+
+Steve, I respect your opinions, and carefully consider them.  Here is
+what a few other fellas say about the Bite Test:
+"*Biting* through a kernel of malt reveals the degree of modification. 
+Thus well-modified malt is *crunchy* throughout and sweet to the taste. 
+Less well-modified mlat will contain hard ends which can be easily
+discerned by their resistance to *biting* (Lewis, Brewing, p. 62)".  
+"Possibly the *best* measure of malt modification is the kernel's
+hardness.  *Chewing* on a kernel of poorly modified malt is much like
+chewing on a steel ball bearing.  Properly modified malt will have a
+soft mealy texture caused by breakdown of the hard protein matrix in the
+endosperm (Fix, PoBS, p. 103)".
+
+
+>The question of a protein rest is necessarily answered only after you
+>understand the protein profile that a particular malt leaves in wort,
+>and the potential for haze (which is persumeably the primary issue here)
+>due to those specific proteins.
+
+
+Why isn't modification representative of the protein profile a malt will
+leave in the wort and the malt's potential for haze?  And yes, haze is
+the primary issue of concern.  You and several others have indicated
+that modern malts have more than enough yeast nutrients and should not
+be a concern to us folks at home.  So the only remaining issue is
+reducing haze causing proteins.
+
+
+>If you want to know if you'll have hazy beer you'll need to measure
+>something more relevant than malt acrospire geometry and malt hardness.
+>These can only hint at the cause.
+
+
+'Hinting' at the cause is all I am trying to do.  Void of laboratory
+numbers, us folks at home need simple ways to estimate the haze
+potential of their malt, which I believe the Bite Test and measuring the
+representative acrospire length with do.  Now Remember, I advocated that
+the Bite Test and the Acrospire Length should be used *together* to
+provide a reasonable approximation for malt modification.  The acrospire
+length should be used to confirm the bite test, and not be used
+independently.  I am open to any suggestions you may have to determine
+malt modification at home so long as it does not require the use of
+expensive equipment.  Al K did provide us with a method for determining
+if a protein rest is needed but it was 1) ex post facto, we need to
+determine what to do before mashing, and 2) it was lot specific, there
+is no certainty that the results from the last batch of malt will apply
+to the next one.  I would also like to see specific time/temperature
+suggestions for a protein rest, just take a 'shot in the dark' as Noonan
+did, I won't hold you to it :). 
+
+
+At the very least, the Bite Test is particularly relevant for the
+homebrewer in determining malt modification and its haze potential. 
+
+
+Kyle Druey 
+Bakersfield, CA
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 14:36:10 -0800
+From: Charles Peterson <chasp`at`digex.net>
+Subject: Moravian Malt stats
+
+
+HBDers -
+
+
+I got a response on my malt question from Don O'Connor, spouse of St. Pats
+owner.  He sent me the spec sheets! Here is my thank you to him:
+
+
+Thanks!  That pretty much answers my question -- the Moravian pils malt is
+sufficiently modified for infusion mashing (about 70% of the acrospire at
+1/2-3/4 length, and 30% at 3/4 to full) if I understand the sheets and HBD
+discussion correctly.   Guess my slow sparge was my own undoing.
+
+
+Don said that the spec sheets will be posted on St Pats web site.
+
+
+Chas Peterson
+Laytonsville, Md
+- --------------------------------------------
+Chas Peterson
+Digex Private Networks Group
+301-847-4936
+chasp`at`digex.net
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 14:33:19 -0700
+From: Ronald Babcock <rbabcock`at`rmii.com>
+Subject: Re: Lauter dynamics
+
+
+Guy Gregory discussed lauter dynamics in HBD #2628. 
+
+
+He states: "I believe EM-style equipment is more efficient physically than
+false bottoms for homebrew size batches because it causes sparge water to
+flow through the grain, rather than drain down along the bucket/grain edge."
+
+
+I would have to disagree with his opinion. In my own experience I had an EM
+in the beginning and later switched to a false bottom. My extraction went
+from an average of 84% efficiency to 90% consistently. Nothing else changed
+in the system except switching to a SS false bottom. I maintained the same
+sparge rate and temperature of the sparge water. I also did a test using a
+1/2" copper pipe and ran it down into the grain bed, starting form the
+center and worked my way out after 25% of the sparge water had been used. I
+took a sample at about 2" at a time pulling the grain out along with the
+pipe and mixed the grain with distilled water to test the gravity of the
+wort. I carefully measured the water and used an equal weight of grain in
+each test. The gravity of each of the four tests (center, 2", 4" and 6"
+from center. ) were less than .001 SG apart from each other. The difference
+could be actual variations in the grain bed, my scale only measures down to
+ .1 gram, 500ml was eye-balled on the line on the flask or human error. My
+conclusion is at least with my setup that I have little channeling due to a
+false bottom, YMMV. My test was for my own curiosity only. I am not a
+scientist by any means, the test I preformed my not be the proper way to
+test this but I think that it gives me a good idea of that I have a
+consistent flow through the grain bed. The false bottom still has a single
+point  "tube" as a point of pickup as does the EASYMASHER. The design of
+the false bottom and shape of the MLT probably has a lot to do with
+channeling. 
+
+
+I don't have anything against the EASYMASHER, I just think in my setup the
+false bottom works better.
+
+
+Ronald Babcock - rbabcock`at`rmii.com - Denver, CO
+Home of the Backyard Brewery at http://shell.rmi.net/~rbabcock/
+
+
+------------------------------
+
+
+Date: Wed, 4 Feb 1998 16:05:50 -0600 
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: keg lube
+
+
+ ...wondered if there
+is a cheaper source.  It looks like something that should be pretty
+cheap if
+the right source was found.  Any suggestions?...
+
+
+I have been using PAM from wife's kitchen pantry.  Just spray tiniest
+amount on my index finger, then rub O' rings.  
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 18:29:09 -0500
+From: PBSys`at`softhome.net
+Subject: RIMS vs. Other Methods
+
+
+From: "Dustin H. Norlund" <dustin`at`minibrew.com>
+
+
+>1.        Temperature Control is far superior to any other type >system.
+>2.        No Need for Mixer or Stiring.
+
+
+As a previous user of an electrical RIMS and current user of an external
+heating source for my mash tun I have found that automatic control will
+hold a temperature very close,apparently, without stirring However, if you
+stir the the mash your temperature will change. 
+
+
+Without occasional stirring, recirculating wort will channel through the
+grain bed, leaving temperature differentials. This effect can be avoided
+with very slow heating (4 deg/min)
+Bob
+Precision Brewing Systems URL http://www.wp.com/hosi/pbscat.html
+
+
+------------------------------
+
+
+Date: Wed, 4 Feb 1998 17:26:05 -0600
+From: "Brian M. LeCuyer, P.E." <bmlecuy`at`megavision.com>
+Subject: Use of LP Indoors
+
+
+<de-Lurking off the starboard bow>
+
+
+On various brew-related websites I have noticed the apparent use of 
+LP gas burners on indoor setups.  I understand the potential concerns 
+of leaking LP gathering in low areas, however, what are the 
+ramifications of *burning* LP indoors.  Specifically, what are the 
+byproducts of burning LP?  Is there potential for carbon-monoxide 
+buildup without adequate ventilation?
+
+
+TIA for the feedback.
+
+
+Brian - Brewing safely in Columbus, Nebraska
+
+
+<re-Lurking>
+
+
+- --------------------------------------------------------------------
+                       Brian M. LeCuyer, P.E.
+                    Telecommunications Engineer
+                              RVW, Inc.
+                P.O. Box 495 - 4118 Howard Boulevard
+                   Columbus, Nebraska 68602-0495
+               (402) 564-2876  --  Fax (402) 563-3655
+- --------------------------------------------------------------------
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 20:27:05 -0500
+From: Tom Riddle <ftr`at`oracom.com>
+Subject: Natural Gas Burners
+
+
+After a long, painful, absence from brewing due to changing jobs,
+moving, getting married, etc I am ITCHING
+to brew again.  I used to brew in my garage with a propane Cajun Cooker
+jet engine style burner, but now I must
+move my brewing operation indoors to the basement, and hence to natural
+gas.  Does anyone know of a vendor
+for a NG burner appropriate for brewing in a 1/2 bbl keg ?  Does anyone
+have experience / recommendations
+to give ?
+
+
+- --
+
+
+Tom Riddle
+
+
+Portsmouth, NH
+
+
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 21:23:44 -0500
+From: Mark Tumarkin <tumarkin`at`mindspring.com>
+Subject: Red Greem, growing hops
+
+
+Did any of you catch the Red Green Show the other night? On the Handyman's 
+Corner segment, Red got into brewing beer. His system was unique - to say
+the least. The gadget oriented among you would have loved his creative use
+of his washing machine as a mash tub ...er... tun. He seemed a little
+confused about what hops are. He even asked his Possum Lodge members for
+help, but said that they didn't seem to know much, which he found amazing
+in light of their collective knowledge of the finished product. So being at
+a loss but knowing they supplied the bitter flavor, he applied his
+creativity and came up with using a combination of lemons and rabbit food. 
+
+
+Which brings me to my question, I need a little help and advice with hops
+as well. We've just gotten a new house and I have a great sunny spot along
+my back fence - just outside the windows of my new brewery. It's probably a
+little too sunny, as I live in Gainesville, FL - a quick check of the map
+showed 25n46 - (way south of Jeff, but at least a little north of Capt
+Marc). I checked the back archives of the HBD as I remembered a thread on
+hop growing last year. There was mention of the "magical 35 degree line"
+and talk of definately needing to be between 30-50 degrees. However,
+several people mentioned hops being grown (although with less than complete
+success) south of this. 
+
+
+I love hops, and so just for the hell of it I'd like to give it a try. I
+quess my question is - what varieties might do the best under these adverse
+conditions? I'd also appreciate any tips as to cultivation practices for
+these conditions (hot weather, and very sandy soil). Also, we're coming up
+to the season when hopheads with less geographically challanged conditions
+will be starting to think about getting and planting rhizomes, so any
+suggestions may help out some others as well. TIA
+
+
+Mark Tumarkin
+Pura Vida Homebrewery
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 19:05:47 -0800
+From: smurman`at`best.com
+Subject: mashout
+
+
+
+
+A couple of weeks ago I asked for some help understanding how a
+mashout can improve the brew efficiency.  There has been a lot of good
+discussion about mashout and lautering, and it's definitely helped me
+understand things better.  Amazing what will click into place when you
+actually stop to think about things.  Anyway, I had a couple of
+thoughts on the mashout step that I thought I'd share.
+
+
+First, I'd say we have to agree that a mashout *can* increase the
+efficiency in some cases.  There have been too many people reporting
+this behavior to discount it out-of-hand.  Many people have reported
+increases in efficiency of near 10%.
+
+
+I proposed that one of the purposes of a mashout would be to ensure
+that the beta-amylase was completely denatured before beginning a
+lengthy sparge.  Al K and others kind of poo-poo'd this idea, and to a
+large extent I agree.  If you include a step at 145F for any length of
+time, then the beta-amylase has already done it's work.  Conversely,
+if you're mashing at 155F, then by the time you're done the
+beta-amylase is likely completely wiped out.  There's some question
+what happens if you mash in the nether regions near 150F.  Surely
+there's some regions of the mash that are at 145F, just as there are
+regions near 155F.  Including a mashout step here is like an insurance
+that any beta-amylase that may be lying around gets wiped out before
+you sparge.  I agree though, that it's unlikely to make much of a
+difference either way.
+
+
+However, none of this really addresses the question I had, i.e. how
+does a mashout increase efficiency?  A couple of people suggested that
+the mashout reduced the viscosity of the wort, thereby helping to
+increase the diffusion of sugar during the sparge.  I find this
+explanation lacking on many levels.   
+
+
+First, the viscosity of water will only decrease by about 10% from
+155F -> 165F, and the sugar-water solution is likely in the same
+ballpark.  In order to see a change in overall efficiency on the order
+of 10%, I would expect that it would be necessary to have almost an
+order of magnitude change in the viscosity, not a relatively small
+change like 10%.
+
+
+Second, I think that molecular diffusion plays a secondary role in the
+removal of the sugar from the grains.  Molecular diffusion in liquids
+is a very slow process.  Think about your Black & Tan.  It can take
+upwards of 30 minutes to completely mix the two beers, even with the
+agitation of periodically picking up and drinking the beer.  If
+diffusivity ruled, then there would be a low upper limit to how
+quickly you could sparge - too quickly and you would simply retrieve
+water from the outlet.  This doesn't happen.  I think it's clear that
+gravity is the driving force behind the extraction of sugar from the
+lauter tun.  As long as there's enough water to saturate the grain bed
+and dissolve the sugar, the denser sugar-water will naturally
+gravitate to the bottom of the lauter tun.
+
+
+So, if you agree that a mashout step cannot increase the efficiency by
+either affecting the amylase activity or by decreasing the viscosity
+of the wort, how can we explain what we observe?  While diffusivity is
+secondary during the sparge, during the mash it is not.  While the
+mash is sitting parked at it's sacc. temperature, the sugar that's
+produced will try to evenly distribute in the water.  The problem is
+that we usually stop mashing after 60 min. or so, and as I said above
+diffusion is slow, so there will always be sugar trapped within the
+grains.  I think the mashout step can affect the efficiency simply by
+the mechanical action of mixing to achieve the next temperature.  As
+we progress from our sacc. temperature to 165F we must mix the mash in
+some manner.  I use a large spoon, Jack Schmidling and Miller Brewing
+use a rotating paddle, RIMS folks use a pump.  The agitation of the
+grain during the temperature step frees some of the trapped sugar in
+the grain, making it easier to dissolve in water during the sparge.
+
+
+I think this model can explain how efficiency can increase using a
+mashout, and I'm curious to hear y'all try to support or punch holes
+in it.
+
+
+SM
+brewing in the face of El Nino
+
+
+
+
+------------------------------
+
+
+Date: Wed, 04 Feb 1998 19:07:36 -0800
+From: Thomas Buckner <TBUCK`at`thegrid.net>
+Subject: late hops
+
+
+Brewing my favorite pale ale recipe last weekend resulted in a forgotten
+step(must have been the beer) my hops are added as follows(all are
+cascade):bittering at start of boil 1.5 oz, flavor at 45 min .75oz, and
+aroma at 55 min .75 oz.  Well I forgot to put in my bittering hops at
+the beginning. i noticed at around 25 minutes in so i added them,
+increased my total time about 20 minutes and still added the other hops
+at the appropriate time from the end of my boil. Will my batch be
+affected in any adverse way?
+
+
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 1998 23:44:40 -0500
+From: Mark Weaver <HeadBrewer`at`eci.com>
+Subject: Re: unclear beer
+
+
+Just adding a few comments to this posting from Weds 02/04
+
+
+>         There are many factors that might be creating unclear beer, but the
+> first thing you should ask yourself is if the beer tastes good.  Clear
+> beer is not necessarily the hallmark of good beer.
+>
+Very true. In fact, some of the best beers in the world are not
+filtered (best beers being a matter of opinion,  there are those who
+like Coors Light and then there are those who like Delerium Tremens).
+
+
+> Then you can start experimenting with
+> other factors while brewing.  You could be sparging too fast, sparging
+> too long, not mashing out, not chilling fast enough and achieving a cold
+> break, not fermenting out completely--which carries an entire host of
+> separate possibilties itself.
+>
+Also, try adding some Irish Moss (or other finings). You would be
+surprised how much of a difference that can make. It may also
+depend on the ingredients you use; wheat and oats etc. may lead to
+a hazier beer....
+
+
+Prost!
+Mark
+- --
+Mark Weaver - Brewer on the Loose
+HeadBrewer`at`eci.com
+75'02 / 72tii
+"No, I don't brew heads....."
+Resume http://markweaver.com2tom.com
+Web Site: http://markweaver.com2tom.com/home.html
+
+
+
+
+------------------------------
+
+
+Date: Wed, 4 Feb 98 23:45:39 -0500
+From: "Roy R. Rimmele" <flossbos`at`downcity.net>
+Subject: UK Brewery Crawl
+
+
+I own a company called Sampler Tours. I have been conducting 10 day 
+independent tours to England and Scotland for small groups for the past 3 
+years. They have been general sightseeing with special side trips to 
+craft / needlework stores for the clients. We have been staying in B&B's 
+and eating most meals in pubs. (Sorry for the long winded intro...but I 
+wanted to give you background)....Now I'm putting together a 10 day 
+Pub/Brewery Crawl to the UK....I have a starting point with the B&B's and 
+pubs we've utilized on previous trips, but I've never done a brewery tour 
+in England or Scotland. Can anybody help? Have you toured a brewery in 
+the UK? If so, Where? How was the tour? Samples? Would you recommend it 
+for a group of between 5-8? Who did you contact? Do they have a website? 
+You get the idea. I welcome any help you can throw my way. e-mail me at 
+flossbos`at`downcity.net. Thanks in advance. If anybody is interested in 
+additional information, e-mail me for details. We'll be leaving from 
+Boston November 10 - 21, 1998. Thanks in advance.
+
+
+>                                 _\|/_
+>                                 {`at` `at`}
+>                 =============ooO=(_)=Ooo===============
+>                            Roy R. Rimmele
+>                          255 Route 12 Suite 623
+>                        Groton, Connecticut 06340
+>                         flossbos`at`downcity.net
+>                           flossboss`at`aol.com
+
+
+                     'So much beer.....so little time!
+>
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2629, 02/05/98
+*************************************
+-------

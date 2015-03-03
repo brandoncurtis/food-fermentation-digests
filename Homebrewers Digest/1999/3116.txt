@@ -1,0 +1,1470 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA04050;
+        Sat, 21 Aug 1999 01:58:02 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA00569;
+        Sat, 21 Aug 1999 01:57:58 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.7/8.8.4)
+          id AAA04412 for realhomebrew; Sat, 21 Aug 1999 00:23:23 -0400
+Date: Sat, 21 Aug 1999 00:23:23 -0400
+Message-Id: <199908210423.AAA04412`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3116 (August 21, 1999)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3116                             Sat 21 August 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  over pressure boiling ("Micah Millspaw")
+  Isoelectric Focusing/FG from OG (AJ)
+  Professor Panther's Perfidious and Preposterous Proclamations. ("Dr. Pivo")
+  Re: Inexpensive Vacuum sealers (MrMike656)
+  Brewing Relevance/Licorice (AJ)
+  Brewpubs in Montreal (Julio Canseco)
+  Trials , Tribulations and Finnings  and the group brew ("Sieben, Richard")
+  Dagzy the Newbie Brewer! ("Thomas D. Hamann")
+  Free Equipment (John Varady)
+  licorice (Jeff Renner)
+  re: overpressure boiling ("Nathaniel P. Lansing")
+  "ice brewing" (Steven Sanders)
+  Re: Lagering schedule (Jeff Renner)
+  Spec Racing Breweries (Rod Prather)
+  Heating Elements ("Scott Church")
+  Is hops our obsession? (Rod Prather)
+  yeast pumps (jliddil)
+  White Labs Yeast Questions ("Christopher Farley")
+  RE: Formula for Calculating Expected FG from OG ("Nigel Porter")
+  Glucose, Ketone Bodies, Ammonia, Urea, Alcohol, and Diets (ALAN KEITH MEEKER)
+  Reynolds ... peristatlic pumps etc./shear calc needed ("Stephen Alexander")
+  wierd science .../yeast question ... ("Stephen Alexander")
+  Re: Keg carbonation/immersion chilled fermenter/chrome and brass ("Hubert W. Schreier")
+  SMM to DMS formula ("Rich, Charles")
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+* The HBD now hosts eight digests related to this and a few other hobbies.
+* Send an email note to majordomo`at`hbd.org with the word "lists" on one 
+* line, and "help" on another (don't need the quotes) for a listing and
+* instructions for use.
+*
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+Contact brewery`at`hbd.org for information regarding the "Cat's Meow"
+
+
+Back issues are available via:
+
+
+  HTML from...
+        http://hbd.org
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+COPYRIGHT for the Digest as a collection is currently held by hbd.org 
+  (Pat Babcock and Karl Lutzen). Digests in their entirity CANNOT be 
+  reprinted/reproduced without this entire header section unless 
+  EXPRESS written permission has been obtained from hbd.org. Digests
+  CANNOT be reprinted or reproduced in any format for redistribution
+  unless said redistribution is at absolutely NO COST to the consumer.
+COPYRIGHT for individual posts within each Digest is held by the
+  author. Articles cannot be extracted from the Digest and
+  reprinted/reproduced without the EXPRESS written permission of the 
+  author. The author and HBD must be attributed as author and source in
+  any such reprint/reproduction. (Note: QUOTING of items originally
+  appearing in the Digest in a subsequent Digest is exempt from the
+  above. Home brew clubs NOT associated with organizations having a
+  commercial interest in beer or brewing may republish articles in their
+  newsletters and/or websites provided that the author and HBD are
+  attributed. ASKING first is still a great courtesy...)
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 20 Aug 1999 06:56:31 -0500
+From: "Micah Millspaw" <MMillspa`at`SILGANMFG.COM>
+Subject: over pressure boiling
+
+
+writes in HBD 3114:
+>
+>Subject: over pressure boiling? The talk of pressure cooking wort and
+>over-pressure boiling made me wonder...If a large beer factory has a 30 
+foot
+>deep kettle, then wouldn't the beer at the bottom be at 2 atmospheres? 
+Maybe
+>the wort at the bottom isn't actually boiling but the convecting heat 
+would
+>boil the top layer of wort as it reaches closer to 1 atmosphere. Is this
+>over-pressure/over-temperature boil why they get such high hop
+>utilization's? In a really tall kettle they could be boiling at 3
+>atmospheres without a pressure system.
+
+
+The effect in the boiling kettle is not so much what is happening to the 
+wort at the bottom of the kettle, but what is happening at the top. First 
+of all the wort should be constantly in motion throughout the kettle (due 
+to convection) if a boil is in progress. Second, the chemical reactions 
+occuring in the boil (there are many) take place at the liquid/gas 
+inferace, at or near the surface of the wort in the kettle. THis is due 
+largely to the asmetrical cavitational collapse of the steam bubbles in 
+the wort itself. The collapsing bubbles creat micro pockets with super 
+temperatures that impact of chemical reaction in a boil, ie. increased hop 
+utilization. It is possible and desireable for brewing kettles to be force 
+vented to enhance the effect. BTW there was an article in BT 3 or 4 years 
+back on this topic.
+
+
+Micah Millspaw - brewer at large  
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 12:09:52 +0000
+From: AJ <ajdel`at`mindspring.com>
+Subject: Isoelectric Focusing/FG from OG
+
+
+Kirk asks about immobilizing proteins. As we all know proteins are made
+up of chains of amino acids. Amino acids form "zwitterions" whose net
+electric charge depends on the pH. Of more importance in proteins are
+those amino acids which have ionizable side groups. The charge on these
+can also be varied by controlling the pH. The isoelectric point for a
+protein is the pH at which the protein has no net charge. The key to
+Kirk's idea is, thus, to establish a zone within the system at which the
+pH is equal to the isoelectric pH of the proteins. Strong electric
+fields of proper direction and matching pH gradients adjacent to the
+isoelectric zone should do the job. I imagine a good relativity
+condenser would be of immense help in implementing this system. This is
+called "isoelectric focusing".
+
+
+Note: At the moment the proteins in my tongue are being electrically
+attracted to the proteins on the inner surface of my cheek.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Mike Hanson asked about estimating FG from OG. The FG is simply  (1 -
+Apparent Attenuation/100)*OG. Thus if the apparent attenuation is 80%
+the FG is 0.2 times the OG.  Apparent attenuation realized depends on
+lots of factors but if everything is done right the yeast are the main
+determinant. The yeast supplier will usually give a range of
+attenuations which can reasonably be expected to seen with the
+particular strains he sells. Here are some Apparent Attenuation numbers
+from a couple of beers I've looked at recently.
+
+
+Commercial Ale (Regional Brewery):  76%
+Commercial Lager (Same brewery):    80%
+Commercial Ale (Same brewery)        73%
+Commercial Pils (Same brewery)       77%
+Commercial Pils (Different brewery) 79%
+Homebrewed Weizenbeer                    80%
+
+
+Note that the apparent attenuation is not the same as the real
+attenuation which is a measure of the sugar eaten and alcohol produced.
+Whereas apparent attenuation is easily measured by reading the specific
+gravity of the beer and comparing it to the specific gravity of the
+wort, real attenuation requires that the alcohol be evaporated from the
+beer, the beer to be made up to original weight with water and the
+specific gravity then determined. Alcohol content can be estimated from
+original gravity and apparent gravity, original gravity and real final
+gravity or apparent final gravity and real final gravity. Formulas and
+tables based on Balling's work are found in Vol II of DeClerk.
+
+
+- --
+A. J. deLange
+Numquam in dubio, saepe in errore.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 14:25:19 +0200
+From: "Dr. Pivo" <dp`at`pivo.w.se>
+Subject: Professor Panther's Perfidious and Preposterous Proclamations.
+
+
+There has been some suggestions raised about in which direction
+information is traveling (from HBD to space, or from space to HBD).
+
+
+The latter is undeniably the correct direction of flow....
+unfortunately, the supposition that it comes from an alien culture
+beamed TO the HBD is entirely wrong.
+
+
+It comes from God.
+
+
+And verily it is written in the Holy books upon which we have placed our
+faith... the Old Testament (the Book of DeClarke), and the collective
+passages of the New Testament (The Book of Fix, the Book of Miller, and
+The Book of Noonan... though some have dismissed these last writings as
+being interpretations from the disciples and not actually the words of
+God).
+
+
+There is as well Protestental, more popularistic passages (The Book of
+Papazian), which we each vernal equinox burn as the heretical writings
+that they are, and with white costumes and pointy hats in place, take
+turns wiping our backsides with the "Pagan Picture of the Devil's
+Disciple Pouring Hot Wort Through a Strainer"... this is called "the
+ritual of the Pap. Smear".
+
+
+So truly must the foundations of our lithurgy be understood and not
+questioned, for there lies the opening through which Satan will come
+creeping in .
+
+
+As to Docent Panthers's use of a Nitrogen flush in his storage shed, I
+find this an admirable practice.... I only hope that he is using "food
+grade" Nitrogen.
+
+
+If this gas is not Micro-filtered it can be literred with bacteria.
+Sure you may believe that the fact that these grainy materials will be
+later boiled is some sort of protection.
+
+
+Let me just say this.... there are thermophyllic bacteria that would
+love to dive (doing a "double inverted triple twisting brown-out"...
+10.0 difficulty) with a wry smile right on their cell membranes, into
+Charles Rich's pressure cooker, without being phased a bit.
+
+
+Of course these same would go belly up in some low pH wort, but that is
+not what is important here.  released from the inner structure of the
+matrix between the bilipids, are "exotoxins".
+
+
+These have been isolated as 3,4 diketo, 15,18,27 tripheno, 47, 12', 16..
+HIKE!.....and it's phosphorylated isomere, which have been showed to
+have the tastes of "braised asparagus tips" and "a "Twinkee floating in
+Sheep dip" , repectively.
+
+
+One thing we can be absolutely CERTAIN of, is that these tastes will be
+exacerbated by using incorrect pitching rates, and I'll be saying a lot
+more about this, whether or not anyone cares at all.
+
+
+These were recently added 50/50 to a can of Miller Lite at the "dePorgie
+School of Tasting" (Graduate Division, Dan Quayle College), where one of
+the students was heard to remark: "Have you seen my booger?  It was on
+my finger a minute ago."
+
+
+So, while Herr Doktor Panther is certainly heading in the right
+direction, more attention to detail must be payed!  Quit being so
+sloppy, or where a belt and braces next vernal equinox.
+
+
+As to his conversion to "virtual brewing", I think that this is a very
+wise course indeed.....
+
+
+ .... and in fact perhaps the only thing that can be done with "virtual
+information",.
+
+
+Dr. Pivo
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 08:24:38 EDT
+From: MrMike656`at`aol.com
+Subject: Re: Inexpensive Vacuum sealers
+
+
+Hi y'all -
+
+
+     Arthur McGregor mentioned the Freshlock II Vacuum Sealer shown in a 
+recent DAMARK catalog at the unheard-of 'low price' of 22.99. I picked up the 
+same one at a local Target for about the same price, and you really do get 
+what you pay for.
+
+
+     I found that it didn't really seal all that well, the bags leaked more 
+often than not, and the few that didn't leak really weren't the best in the 
+world. I wound up double and triple bagging my hops and then sealing them in 
+a zip-loc just so they wouldn't stink up the freezer. The machine doesn't 
+create enough of a vacuum to really pull all the air out (you could say it 
+doesn't suck enough, but that would be a contradiction...), making the 
+machine only good enough to seal things that don't require a vacuum seal.
+
+
+    After a year, I broke down and bought a reconditioned Foodsaver for a 
+hundred bucks from Sportsman's Guide (if you get the DAMARK catalog, you 
+probably get that one too - ). They don't always have them, but this sucker 
+really works. Bags are real heavy duty and reusable. Worth every penny - 
+especially at the reconditioned price.
+
+
+Just my two cents....
+
+
+Mike Maimone
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 12:37:50 +0000
+From: AJ <ajdel`at`mindspring.com>
+Subject: Brewing Relevance/Licorice
+
+
+Matt Smiley posted
+
+
+>(EtOH + NAD+ ---> acetaldhyde +NADH).
+>The second step uses the enzyme aldehyde dehydrogenase (acetaldehyde +
+>NAD+ ----> acetate + NADH).....
+
+
+and then implied that it was not brewing related. Well, no need. Of
+course it is brewing related especially if we add the first part of the
+path in thus:
+
+
+pyruvate-----> acetaldehyde -----> EtOH -------> acetaldehyde --->
+acetate
+
+
+The reactions left of EtOH take place in your yeast and the ones on the
+right in your liver.
+
+
+Further to brewing relevance the two reactions Matt posted are the basis
+for a very sensitive test for alcohol. The ASBC method for low alcohol
+beers uses it. The sample is diluted (yes, it's that sensitive),
+buffered and dosed with alcohol dehydrogenase, aldehyde dehydrogenase
+(the enzymes which catalyze the reactions) and NAD+. The NADH produced
+absorbs ultraviolet light at 340 nm and by measuring this absorbtion the
+amount of alcohol can be determined quickly, accurately and without
+offending BATF (i.e. no distillation is required). Of course there is a
+downside. The test kit for this method is quite expensive.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+There has been some discussion of licorice in beer. Certainly Old
+Peculiar tastes of licorice and according to the Good Beer Guide
+licorice is used in the recipe. So there is at least one commericial
+example that I am aware of.
+
+
+- --
+A. J. deLange
+Numquam in dubio, saepe in errore.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 08:30:43 -0400
+From: Julio Canseco <jcanseco`at`arches.uga.edu>
+Subject: Brewpubs in Montreal
+
+
+Greetings, I'll be traveling to Montreal next month. Any recommended
+watering holes? Private e-mail is fine. TIA
+
+
+                              julio in athens, georgia
+              ... athens is a drinking town with a football problem...
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 07:53:31 -0500
+From: "Sieben, Richard" <SIER1`at`AERIAL1.COM>
+Subject: Trials , Tribulations and Finnings  and the group brew
+
+
+Darrly Downie expressed problems with his first all grain experience,
+
+
+It sounds like your beer was oxidized, but I am not really sure where it
+happened, but my experience has been at bottling time.  There should have
+been nothing but CO2 in the fermentor when you added finings, so that is why
+I don't think it happened there.  (unless the lid on your fermentor does not
+fit very tight and let air in after the primary ferment had settled down, or
+you just can't resist taking a peak?)  How were your extract beers? maybe
+you had some papery/cardboard taste with them too?  If so I would look at
+your bottling procedures and try not to induce air.  Another thing you may
+want to try for at  least one batch, lets dispense with the finings, use a
+kettle coagulant like Irish Moss instead.  This way you are not screwing
+around with finished beer and risking a post ferment infection.  I am only
+suggesting this as an experiment to try to isolate the cause of your
+apparent oxidation and possible infection, who cares if your great tasting
+beer isn't crystal clear anyway?  I have to admit ignorance on finings as I
+never saw the need for them anyway, given enough time my beer drops bright
+by itself.  (I do use Irish Moss and sometimes I use beechwood in my
+secondary fermentor to make a beer drop bright more quickly and I guess that
+is technically a 'fining' agent.)
+
+
+Final word from me, don't be afraid to all grain brew, I don't find it
+harder than brewing out of the can, it's just a longer hobby/brew day and
+the benefits outweigh the extra effort.
+
+
+Rich Sieben
+Island Lake, IL
+
+
+ps  I like Jim Kingsberg's idea of a group brew experiment
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 22:48:46 +0930
+From: "Thomas D. Hamann" <tdhamann`at`senet.com.au>
+Subject: Dagzy the Newbie Brewer!
+
+
+Hi Darryl, the Adelaide Hills Amateur Brewers 
+(or something like that!) is meeting next 
+in Crafers on 26th Sept. 1999. We have a good 
+cross-section of brewers and wine makers, with  
+the 2 HBD `lurkers and dwellers' being Brad and
+Thomas who are mashers.
+We have "made" most of our mashing equipment 
+ourselves e.g. CFW chiller, kettle, lauter tun,
+and we (2) are brewing a scotch ale this Sunday.
+Send me a private eMail if you want to know 
+more about the club, checking out Brad + Tom's
+next brew session or just some brewers chit-chat.
+ 
+Zum Wohl, Thomas.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 09:16:21 -0400 (EDT)
+From: John Varady <rust1d`at`usa.net>
+Subject: Free Equipment
+
+
+Ocean Optics is DONATING FREE spectrophotometers from their trade-in program.
+
+
+http://www.labx.com/v2/adsearch/Detail3.CFM?adnumb=27850
+
+
+They have hundreds of antique instruments such as the Bausch and Lomb,
+Spectronic 20 UV/VIS Spectrophotometer.
+
+
+You can email them from the web page, or directly to info`at`oceanoptics.com
+
+
+Looking forward to brewing season,
+
+
+John
+John Varady                     The HomeBrew Recipe Calculating Program
+Boneyard Brewing                Custom Neon Beer Signs For Home Brewers
+Glenside, PA                            Get More Information At:
+rust1d`at`usa.net                  http://www.netaxs.com/~vectorsys/varady 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 09:42:09 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: licorice
+
+
+Dave Burley <Dave_Burley`at`compuserve.com> writes
+
+
+>I believe the hobby books took the easy way
+>out or assumed the brewers used licorice
+>flavouring ( anyone have any evidence they
+>did?) If professionals used the flavouring, perhaps
+>it was when the brewers lightened up on the
+>OG they used licorice to give the impression
+>of a higher OG beer??
+
+
+Wahl and Henius (1902) http://hubris.engin.umich.edu:8080/Wahl/ make no
+mention of licorice in their discussion of porter, but A.L.Nugey (1948)
+does in his _Brewers Manual (Practically Considered)_.  Nugey was an
+engineer and salesman for brewers additives, so his information must be
+viewed with some caution, but it probably generally reflected brewing
+practices and recipes of his time, except for his strong advocacy of
+proprietary additives.  His three 100 bbl. formulas (p.55) for porter use
+6.5 lbs. of licorice (form not specified) for the 12P recipe, 6 lbs. for
+13P, and 6.75 lbs. for 15P.  (The 12P is all malt, the stronger ones use
+flaked maize.)  He also writes cryptically (p.53), "Color malt gives the
+Porter a more desireable character.  If very dark Porter is desired
+increase the amount of licorice."
+
+
+Brewers interested in recreating historical American brews might like to
+try one of these recipes.
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 09:50:19 -0400
+From: "Nathaniel P. Lansing" <delbrew`at`compuserve.com>
+Subject: re: overpressure boiling
+
+
+Mr. Scholz said
+ " At ~8 ft deep the wort wasn't under multi-atmospheres of pressure and
+as far as I know of other commercial plants, the geometry is about the
+same."
+
+
+That would make the wort at the bottom of the kettle at 1.25 atmospheres.
+
+
+The 2 commercial kettles I've seen have had square aspect ratios. 
+
+
+How many similar to the Rheingold kettles he has actually seen?
+
+
+Then, " And the hops utilization increase over homebrewing is due to
+hooded venting of the kettles and more even heat distribution of large
+steam
+fired kettles."
+
+
+The hooded kettles help keep the evaporation to 10% but do not affect the
+
+
+temperature or convection currents which are the 2 main properties
+affecting utilization. Hoods may save energy thus money but a open boil
+and a boil under a hood will still be at a temperature the altitude
+dictates.
+Hoods may help retain hop aroma from late additions but help utilization,
+
+
+hardly.
+Swept kettles and calandria are used to help utilization because of the
+_uneven_ "rolling" boil they create. Mixing the hops throughout the wort 
+is
+more important than an even heat.
+
+
+"The place that the big boys use pressure cookers is for cereal cooking.
+
+
+??Never said they used pressure cooking for the boil kettle.
+
+
+" ( I'll leave reference sighting as an exercise for the
+student)"    
+
+
+
+
+George Fix, "Analysis of Brewing Techniques." 
+
+
+
+
+And I wonder, was it a quality problem that caused Rheingolds closure?
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 09:33:33 -0500
+From: Steven Sanders <ssanders`at`microlink.net>
+Subject: "ice brewing"
+
+
+This is something that has been kinda bothering me since I have started
+learning about brewing..
+
+
+What in the world does "ice brewed" mean?  I see ads by the megabrewers
+for beers made this way, and I have never run across any brewing method
+that would involve ice. (short of dumping sterile ice into hot wort to
+cool it down)  Is "ice brewed" just some marketing bs term for lagering?
+
+
+
+
+
+
+Regards,
+
+
+
+
+Steven Sanders
+
+
+Narnia, WD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 10:39:24 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Lagering schedule
+
+
+Chris Cooper <ccooper`at`a2607cc.msr.hp.com> writes
+
+
+>I started the  ferment at room
+>temperature for about 12 hours then moved the carboy to the fridge when I was
+>sure fermentationhad started. I initially set the temperature to 56^F and the
+>carboy showed around 60-62^F, after a couple of days I started dropping the
+>controller a degree each day, now the fridge is at 50^F and the carboy
+>is setting at 56^F, fermentation is slowing down (I need to take a gravity
+>reading) and once it is complete what cooling schedule should I use?
+>My initial thought was to wait for 10-12 days after pitching and then drop the
+>temperature to 32^F for a couple of weeks, filter into my keg force pressure
+>and serve.
+
+
+I cool my wort to 48-50F immediately.  Fermentation takes longer, but
+that's the traditional way.  Most of your fermentation was done at warmer
+temperatures.  There was some discussion some years back as to whether
+esters etc are formed with warm starts.  I don't think it was ever
+resolved.  Modern lager fermentations are done at 56-58F in many US and
+German breweries, but it's not for me.  I then drop 3F/day after
+fermentation is nearly over until I get to 33F, where I keep it for 4-6
+weeks.
+
+
+Having said all that, though, I have a CAP/CACA that I fermented with
+Nottingham ale yeast at 62-64F and lagered at 40F for three weeks and it is
+still lagering, I guess, on service at that temp, and it is not very
+ale-ish.
+
+
+BTW, I never filter and get virtually crystal clear beer.  Maybe you could
+filter half and report on the difference.
+
+
+Hope you'll try a CAP for your next lager!
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 10:43:08 -0500
+From: Rod Prather <rodpr`at`iquest.net>
+Subject: Spec Racing Breweries
+
+
+IN Homebrew Digest #3115 Jim Kingsberg wrote about
+BrewingArtV.Science/Papazian/An idea
+
+
+First off Jim, I like it.  I like your analogy of architecture VS brewing.
+The only problem is that in brewing the function of the design IS the
+aesthetics (and the anesthetics).   The functionality, (the anesthetic one)
+is easily attained by the yeast without a great deal of manipulation.  The
+aesthetics of beer is what all the work and fuss is about.
+
+
+What I really like was your idea for everyone to prepare a single recipe and
+to compare it.  Kind of like spec racing in a brewery mode.   It would be
+interresting if you could actually have a competition in that mode, but it
+would be impossible to certify ingredients.  A beer spec race, might be a
+good competition for brew clubs or groups trying to identify the best home
+brewery process/equipment.  It would be fun, anyway.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 12:11:45 -0700
+From: "Scott Church" <schurch`at`gte.net>
+Subject: Heating Elements
+
+
+Howdy all;
+I like the concept of using the Hot Liquor Tank as a heat exchanger for the
+mash temp. I need to find a heating element.  If any of you guys know where
+I might find one for a good price I'd be most graciously in debt!
+
+
+Scott
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 11:17:15 -0500
+From: Rod Prather <rodpr`at`iquest.net>
+Subject: Is hops our obsession?
+
+
+A few friends and I were talking about hops and it's relationship to
+cannabis.  With the recent news that the actual addictive site of THC is in
+the short term memory, we were wondering if there might be an addictive
+compound in hops.  Has anyone read anything about this.  Any off hand
+comments or non scientific observations would also be entertained.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 09:50:59 -0700 (MST)
+From: jliddil`at`VMS.ARIZONA.EDU
+Subject: yeast pumps
+
+
+> ------------------------------
+> 
+> Date: Tue, 17 Aug 1999 23:06:36 +1000
+> From: David Lamotte <lamotted`at`ozemail.com.au>
+> Subject: Re: Yeast lifespans
+> 
+> Throwing caution to the wind, I have enjoyed some high quality, scientific
+> replies to my recent question on yeast aging and lifespans - thank you all.
+> 
+> However, while the discussions on the budding and scaring were appreciated,
+> I still couldn't see how long it all took.  I mean if I had 40 kids I think
+> I would welcome an early grave at the bottom of the fermenter.
+> 
+> As chance would have it, I stumbled on some info that I had downloaded from
+> the Wyeast site (http://www.wyeastlab.com/education/edtempch.htm).  This
+> shows that the average time to bud varies with temperature (insert sound of
+> you slapping my head while saying 'Well Duh') - something that I had
+> totally overlooked.
+> 
+> Thanks to Dave Logsdon of Wyeast, the answer is (drum roll please) ....
+> 
+> At 75 F it takes approx. 2 hours for an Ale yeast cell to bud.  At 65F it
+> takes 3.2 hours and at a chilly 60F is slows right down to a bud every 7.5
+> hrs.  The equivalent times for a lager yeast are 2.2 (75F) 3.7 (65F) 5.0
+> (60F)  There is also a table which shows how this translates into cell
+> counts.
+> 
+> Now, assuming ALAN's 40 bud limit, this gives a life of at least 80 hrs at
+> 75F, with a clean living 65F ale yeast entering the record books at more
+> than 5 days.
+> 
+I really doubt Mr Logsdon actually did the experiment.  I suggest you find
+a real reference from a peer reviewed journal or text to get the answer.
+I'll try to look this up if I get a chance.
+
+
+The discussion of pumps is humurous.  I would not worry too much about
+sheer and reynolds #'s.  Personally I've seen lots of bioreactors that use
+peristaltic pumps.  And of course I am luck to have a cole aprmer pump
+with pharmed tubing.  So if you have the money buy a perstaltic pum and
+some high quality tubing either something from Norton or paltinum cured
+silicone if you want really smooth tubing.  And get as big a haed as you
+can afford.  
+
+
+Bottling plambics is tricky at best.  I ahve ahd various good and bad
+results.  I have stuff I primed and added fresh yeast to that still is
+uncarbonated 2 years later.  Other stuff that is old has carbonated just
+fine.  
+
+
+I got a recent paper about brett in wine and acetic acid prodcution under
+various conditions.  I'll post a summary when I get time. 
+
+
+Jim Liddil North Haven, CT
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 12:40:04 -0500
+From: "Christopher Farley" <chris`at`northernbrewer.com>
+Subject: White Labs Yeast Questions
+
+
+Has anybody noticed that White Labs Pilsen yeast *appears* as if it were a top
+fermenting yeast? Every time I have used this yeast, a thick yeasty carpet
+appears on the top of the fermenter which does not readily drop out. This
+behavior is consistent, and has been commented on by numerous customers and
+employees as well. The beers I have made with it seem to exhibit a pretty
+clean lager character, but I have discontinued using this yeast because of the
+odd behavior.
+
+
+Wyeast's David Logsdon has been trying to convince me to stop carrying Wlabs
+yeast vials and become an exclusive Wyeast supplier. As a retailer, I value
+having a diversity of cultures, but according to Logsdon, "the products Wlabs
+sell, are in most if not all cases sourced from us." I have used every Wyeast
+lager culture, and have never seen a yeast ferment like Wlabs Pilsen yeast.
+
+
+Is Logson correct in stating that Wlabs has sourced "most if not all" their
+cultures from Wyeast? Logson also claims that Wlabs production and management
+of the strains has been questioned by many brewers, but I have found Wlabs
+yeast to be completely consistent. Additionally, I've followed the HBD for a
+while and can only recall hearing positive things about Wlabs.
+
+
+Christopher Farley
+Northern Brewer, Ltd.
+Saint Paul, Minnesota
+www.northernbrewer.com
+(800) 681-2739
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 18:47:01 +0100
+From: "Nigel Porter" <nigel`at`sparger.freeserve.co.uk>
+Subject:  RE: Formula for Calculating Expected FG from OG
+
+
+I wrote
+
+
+>Nice simple one that I use to give ABV. 
+
+
+OOPS - really should read what I'm replying to before I get carried 
+away:-)
+
+
+(queue comments on the stupid English...)
+
+
+Nigel
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 14:55:18 -0400 (EDT)
+From: ALAN KEITH MEEKER <ameeker`at`welch.jhu.edu>
+Subject: Glucose, Ketone Bodies, Ammonia, Urea, Alcohol, and Diets
+
+
+
+
+Matt and Todd have been having an interesting conversation on diet and
+ethanol. Here's some info and some questions of my own.
+
+
+- ---------------------------------------------------------------------------
+Ketone bodies, nitrogen balance,  and protein diets:
+
+
+Here in the U.S., the average person eats more than enough protein to meet
+his/her amino acid needs for protein maintenance of the body. The extra amino
+acids (digestive breakdown products of dietary protein) will simply be treated
+as an energy source. Depending on the particular amino acid it will either be
+converted to glucose ("glucogenic" amino acids) or converted to fatty acids
+and ketone bodies ("ketogenic" amino acids). Either way, if the total
+caloric intake from all sources (fat, carbohydrates, and proteins combined) 
+is greater than the calories expended they won't get "burned" for energy but
+will eventually be converted to triacylglycerols (aka "fat") and stored in the
+adipose tissues. 
+
+
+There are some currently fashionable diets that stipulate that a high
+proportion of total calories from protein. A caution often heard from critics
+is that this can lead to unhealthy levels of ketone bodies in the blood which
+may lead to ketosis or even ketoacidosis. Does anyone have any actual data on
+this? I'm wondering how much of a problem this is with these protein diets.
+
+
+Of all the blood-borne energy sources the ketone bodies seem to have the
+largest variations in concentration normally. So, while blood glucose levels
+are kept within fairly tight limits  (maybe a two-fold variation in
+concentration) and fatty acids fluctuate about ten-fold, the ketone bodies can
+range some 100 - 200 fold. Normal levels are < 1mM which increases to about
+5mM during fasting ("normal" physiological ketosis) but can increase to about
+20mM  in the ketoacidosis of diabetes. Where exactly do these protein diets
+place a person and where along this continuum does one start running into
+trouble? This is what I haven't seen addressed. 
+
+
+Also, ketosis is supposedly  dangerous for the developing fetus
+(specifically the brain). It seems therefore that protein diets wouldn't be a
+good idea for pregnant women aside from the lob-sided nutritional aspects
+clashing witht the nutritional needs of the developing fetus.
+
+
+- ------------------------------------------------------------------------
+Nitrogen Balance and amino acid metabolism:
+
+
+Another aspect of amino acid metabolism I haven't seen discussed in relation
+to these diets is that of nitrogen balance. Amino acid metabolism by the liver
+generates ammonia which usually gets converted to urea for excretion by the
+kidneys. It seems than that a diet relying heavilly on protein would place
+extra stress on the liver and kidneys. In fact, protein-restricted diets are
+used in cases of renal disease. Is there any info on the effect of the added
+nitrogen load due to protein diets? Ammonia is pretty toxic and some
+apparently can escape the liver into the blood. Also, since blood urea levels
+increase some of this urea becomes available to the intestinal flora which
+can metabolize it producing more ammonia which has to then also be detoxified
+in the liver. 
+
+
+- -------------------------------------------------------------------------
+Ethanol and blood glucose:
+
+
+Apparently in well-fed normal individuals blood glucose actually /increases/
+following ethanol ingestion. However, if glycogen stores have been depleted
+there will be a drop in blood glucose due to inhibition of gluconeogenesis.
+Why does liver gluconeogenesis become inhibited? An increased NADH/NAD+ ratio
+tends block the conversion of lactate to glucose. Specifically, the high NADH
+levels force the oxaloacetate/malate and pyruvat/lactate equilibriums in the
+direction away from glucose synthesis. This also means that, in addition to
+the accumulation of acetate and acetaldehyde in the blood that was previously
+pointed out, lactate will also accumulate leading to hyperlactacidemia. 
+
+
+Eating fructose used to be touted as a way to defeat the breathalyzer because
+it can help restore NAD+ levels. While this is true, it really wont help you
+beat a breathalyzer so don't bother switching completely over to fruit beers!
+
+
+Hope this was useful
+
+
+ -Alan Meeker
+Baltimore, MD
+
+
+ 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 17:05:07 -0400
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: Reynolds ... peristatlic pumps etc./shear calc needed
+
+
+First to correct an error of my own - I should have written (1/0.069) in the
+force eqn example a couple days back.
+- --
+Someone kindly pointed out that Paul Niebergall was having an argument with
+me (of which I was completely unaware).
+
+
+After proving snidely and in a nasty tone that RN must equal 4.64 using his
+"easier" calculation, he then revised his calculation to my method
+demonstrating it was 13000+.  Thus in his second try Paul demonstrated that
+I was correct in suggesting turbulent flow conditions do obtain.  He further
+writes
+
+
+>Once again Steve Alexander tries to cover up his own errors by lashing out
+>in an attempt to find fault with others calculations.
+
+
+I never even *responded* to any of your calculation before this Paul, much
+less tried to cover any up.. Get a grip or some prozac.
+
+
+I completely agree with Paul's second derivation of a figure around 13650.
+I apparently used radius instead of diameter when doing a quick calc in my
+head and also pulled a wrong figure from a table of viscosity (interpolated
+to 20C from a Fahrenheit 10F table in error) water viscosity.  Paul's more
+fanciful explanations aside.  We both agree that turbulent flow should be
+the case.
+
+
+
+
+As for MU vs NU - Paul many references use different terminology.  Silly
+consistancy is the hobgoblin of little minds. The CRC table you quote uses
+ETA rather than MU to designate non-kinetic viscosity - why did you
+inconsistently fail to mention that ?
+
+
+>Here is another clue in case you still dont get it.  The RN values of
+>13,500 and 5500 differ by a factor of 2.455.  This factor is awfully close
+>to the mass density of water (2.094 lbs s^2 / ft^4). As I indicated in my
+>previous post,  rho/mu = nu.  Is it starting to sink in yet?
+
+
+Oh yes Paul, 2.455 is so "awfully" close to 2.09 how could I have missed it
+?  What I do get Paul is that  we both made an initial calc error of RN.
+Mine
+was off by a factor of 2.5, yours by 3000.  The only thing 'sinking in' is
+that
+you have a fanciful imagination about finding the sources of errors, and
+apparently accuse others of problems which you have at 1000 times
+greater instance.
+
+
+>Whats the problem Steve?  Dont you
+>accept science?  Why do you continue with the false belief that the RN of
+>5500 that you calculated is correct?
+
+
+When did I ever "continue" it Paul.  Was there any post from me at all that
+I persisted in this?  No.  You apparently handle the language about as well
+as you original algebra - off by 3000X.  Perhaps if you included me in the
+email you'd get a response to your rants.
+
+
+>Maybe thats why we (you) should be
+>discussing the art of brewing and leave the science alone.
+
+
+I'm not happy to have introduced the 2X error plus the interpolation error,
+the latter I could live with).  I used the original beverage calcs and tried
+to throw in the correction factors in my head.  A wrong number resulted, but
+the right conclusion re turbulence. I expected a margin of error - but this
+was too much.
+
+
+What would have been a true embarrassment is to have crowed so loudly about
+someone else's error while showing RN=4.64 in detailed calculation as Paul
+did.  I've never taken a mechE or any other course in fluid flow Paul,  but
+I and even some of the brighter chimps at the zoo have enough physical
+intuition to spot your error without calculation.  Why don't you talk to the
+mirror Paul about who shouldn't be posting about calculation [none of
+this is Science Paul]
+
+
+=== back to the real stuff ===
+
+
+Paul's assumption (and mine) about wort viscosity are still significantly in
+error.
+
+
+Paul assumed 1.02 cP, I used erroneously used the equiv. of 1.27 (erroneous
+interpolation).  The problem is that water at 60C has a viscosity of only
+0.4665, and of course the density (RHO) drops a few percent as well at this
+temp. In all we would expect water at 60C to have an RN around 26000+ (low
+viscosity - higher RN - more potential turbulence).
+
+
+For wort the matter is significantly more complex.  Early in the mash that
+starches and complex carbs have viscosity many times higher than does
+solution of simpler sugars and dextrins in finished wort.  For high maltose
+corn syrup, at 1.080 SG (very comparable to wort before mashout), the
+viscosity (mu) is 0.83 cP, but earlier in the mash the figure may be 2X or
+possibly even  3X higher!  Perhaps a viscometer could replace an iodine test
+(joke).
+
+
+The upshot is this -  high viscosity may prevent turbulent flow but only
+very very early in the mash.  Seems unlikely to provide much help for 1/4"
+diam or even 1/2" diam in mid and later mash.
+
+
+
+
+Mashout - the viscosity v temp might only decline by 10% or so in 1.080
+wort-like corn-syrup as the temp rises from 150F to 170F.  But oddly for
+higher gravity syrups the percentage change in viscosity over this same temp
+range is much greater.  Perhaps a 50% decline in viscosity for 1.200 syrup.
+
+
+Back to the original (and somewhat interesting) point.  Would such turbulent
+flow cause shear forces capable of damaging enzymes ?
+
+
+I have tables that show the decline of various enzymes over a period of 90
+minutes at about 1200/sec shear.  Tho' few mashing enzymes appear in the
+table it seams that shear around that level would be sufficient to cause
+significant impact on many different enzymes over the period of a mash.   I
+haven't the resources to calculate the shear with me for this example
+(1gal/min, 1/4" ID, ~0.83cP, tubing length ...)..  Anyone up for it ?
+
+
+Steve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 17:20:49 -0400
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: wierd science .../yeast question ...
+
+
+Kirk writes ...
+
+
+>In the mean time, however, I'm thinking the whole issue can be resolved for
+>RIMS systems by ensuring protein molecules (but not enzymes) are largely
+>contained in the main vessel through the use of some sort of electrostatic
+>filter.
+
+
+Actually electrostatic precipitation has been used in experiments on wort
+proteins, but it's not too specific !   You are not too far off Kirk.  (well
+maybe you are a bit off).
+
+
+>Lately I've also become concerned about the local magnetic field and the
+>effects it might be having on product.  I know normally this wouldn't be a
+>concern, but I have a stack of worn out golf shoes  ...
+
+
+Better yet Kirk.  I can get us access to some 1.5 Tesla MRI coils (and the
+L.Nitrogen outer casing makes a nice beer chiller too).  Maybe we can brew
+inside of one and adjust the pH to allow for magnetic break separation.  Of
+course you'd need a good flow rate ...  Other fun tricks involve shaking
+your head inside one until you taste electrolytes dissociate in your mouth
+and see those 1000 points of light Geo.Bush was always talking about.
+Yeah really, but don't try it !!
+
+
+Another cool trick would be magnetostricive (instantaneous) wort chilling.
+Release/remove the field - the polar molecules go all random,
+ T*dS = dU (constant); entropy change (dS) increases so T decreases,
+bam - cold wort..
+
+
+Anyone know where to pick up an MRI cheap - great brewing and
+analytical tool.
+
+
+===
+Paul (a good Paul) Kensler writes of slants .... and kits and mentions
+
+
+YCKCo: http://oeonline.com/~pbabcock/yckco/yckcotbl.html
+
+
+I should probably keep it a secret, but Dan McConnell at YCKC sells a slant
+of Unibroue yeast as  "A144 Unibroue yeast "  and I think it is just one
+amazing yeast.  Dan apparently has a lot of secret fungi that don't appear
+in the catalog (like the above).  TNX to Spencer Thomas for the original
+suggestion.
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 16:04:32 -0400
+From: "Hubert W. Schreier" <schreier`at`sc.edu>
+Subject: Re: Keg carbonation/immersion chilled fermenter/chrome and brass
+
+
+Erik Farrell writes:
+"I recently made the change from bottles to a corni-keg system. I am having
+problems with the carbonation level in a stout I made (damm good thing the
+foam tastes good because that's mostly what I get)"
+
+
+I also switched to kegging recently, and initially got mostly foam. The problem
+was discussed in great detail in the recent "hose length" thread. To summarize,
+foaming is caused by a sudden drop in pressure when the beer comes out of the
+tap. To avoid this, the dispense tubing needs to impose enough flow restriction
+to drop the pressure to approximately atmospheric levels at the tap. I now use
+6 ft of 3/16" tubing and can pour without foam at 15 psi keg pressure. 
+
+
+Erik continues:
+
+
+"I have my valve set for14 pounds of pressure. Is this too much? What is an 
+appropriate pressure level by style? (I mostly make stouts and apa's) Any help
+would be appreciated."
+
+
+This cannot be answered without knowing the temperature of the beer. Usually,
+carbonation levels are given in volumes of CO2. I don't know what is
+appropriate for stouts, but I think English ales are carbonated to anywhere
+between 2 and 2.5 volumes. Knowing the temperature of the beer and the volumes
+of CO2 desired you can then figure out what pressure you need from a carbonation
+chart. You can find a carbonation chart, the equation used to calculate it and
+a nice shell script in HBD#1179 in a post from Alan Edwards:
+http://hbd.org/hbd/archive/1179.html#1179-2. Hope that helps.
+
+
+C.D. Pritchard writes about his chilled fermenter. I've been thinking about
+building something similar from a 1/2 bbl. As I brew in SC with 90 F tap water,
+I think this would cool the 90 F wort to fermentation temperatures a lot more
+quickly than a fermentation chamber or a fridge. The only thing that has kept
+me from building it is the following question: Is a copper coil safe to use in a
+fermenter or do I need stainless?
+
+
+On a related note, I can't find anything on the safety of chrome plated
+materials in brewing. Is it because they pose a health risk and nobody is
+using chrome, or because chrome is safe to use? I guess since there's 13+%
+chrome in SS and SS is safe to use, chrome should be safe also? If not, where
+can I get ball valves with an SS ball rather than a chrome plated brass ball?
+
+
+Another materials question I can't figure out is how to remove surface lead
+from brass/bronze. I have read about peroxide/vinegar solutions. I assume
+peroxide refers to hydrogen peroxide H2O2??? If I recall correctly, this stuff
+is pretty aggressive if concentrated. What concentration should I use, how much
+vinegar should I use, should I boil the solution and where do I buy peroxide?
+And how long do I need to treat the brass with the peroxide/vinegar solution?
+
+
+Any help is greatly appreciated.
+
+
+Hubert.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 20 Aug 1999 15:55:22 -0700
+From: "Rich, Charles" <CRich`at`filenet.com>
+Subject: SMM to DMS formula
+
+
+SCREEECH!!! (brakes), backup.  My last numbers for SMM attenuation were not
+right.  Sorry.  I couldn't find the formula yesterday when I wanted it, so
+here it is for future HBD searchers.
+
+
+I take these from both of George Fix's books.  Principles of Brewing Science
+gives the formula on page 143, and Analysis of Brewing Techniques gives it
+in the caption of fig.1.6 (note: couple of typos in the caption formula) 
+
+
+Since the half-life of SMM in wort at 100C (212F) is 40 minutes, the
+fraction of SMM remaining can be found by:
+
+
+ -ln F = (t/40) * (T/100) * ln 2
+
+
+or alternately:
+F = exp( (-t * T * ln 2) / 4000)
+
+
+where:
+F is the fraction of SMM remaining. (1.0 being all of it)
+t is time in minutes
+T is temperature Centigrade
+
+
+SMM attenuation at boiling temps and 15-lb p-cooking temps are:
+
+
+At 100C (212F)     At 121C (250F)
+  Mins   SMM         Mins   SMM 
+   15   0.771         15   0.730
+   30   0.595         30   0.533
+   45   0.459         45   0.389
+   60   0.354         60   0.284
+   75   0.273         75   0.208
+   90   0.210         90   0.152
+  105   0.162        105   0.111
+  120   0.125        120   0.081
+
+
+Definitely not the dramatic difference I'd eyeballed in my last post.  Sorry
+again for any inconvenience.
+
+
+Chagrined,
+Charles Rich
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3116, 08/21/99
+*************************************
+-------

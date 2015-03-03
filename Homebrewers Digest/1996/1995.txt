@@ -1,0 +1,1486 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA16590 for <spencer`at`srvr5.engin.umich.edu>; Wed, 27 Mar 1996 03:08:47 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (redheat.rs.itd.umich.edu [141.211.83.36]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA18567 for <spencer`at`engin.umich.edu>; Wed, 27 Mar 1996 03:08:25 -0500 (EST)
+Received: by redheat.rs.itd.umich.edu (8.7.4/2.2)
+        with X.500 id DAA11826; Wed, 27 Mar 1996 03:08:24 -0500 (EST)
+Received: from hplb.hpl.hp.com by redheat.rs.itd.umich.edu (8.7.4/2.2)
+        with ESMTP id DAA11818; Wed, 27 Mar 1996 03:08:18 -0500 (EST)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Wed, 27 Mar 1996 08:03:42 GMT
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA05341; Wed, 27 Mar 1996 01:00:07 -0700
+Date: Wed, 27 Mar 1996 01:00:07 -0700
+Message-Id: <9603270800.AA05341`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #1995 (March 27, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #1995                             Wed 27 March 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  kilt / grain mill motor ("Keith Royster")
+  First Wort Hopping (Jim Busch)
+  Yeast Rehydration (Algis R Korzonas)
+  Sparge/Not Sparge. (Russell Mast)
+  Re: ploidy in yeast, more on filtering ("Tracy Aquilla")
+  Dishwasher sanitization (Rosenzweig,Steve)
+  California Common (Kelly Heflin)
+  Iowa City Homebrew Classic (Wolfe)
+  Red ale color request ("Taber, Bruce")
+  all-grain ("Jeremy E. Mirsky")
+  Sixth Annual March Mashfest Results (Brian J Walter (Brewing Chemist))
+  Oklahoma beer laws (Mark Taratoot)
+  Sarasota, FL (RUSt1d?)
+  Re: Grain. Convince me. (David North)
+  mini beer batches (Gregory King)
+  Dry Hopping in a Corny Keg (cisco)
+  Beer Temperature (Clay Crenshaw)
+  Miller and the heart of the hop. (Jeff Smith)
+  BreWater 1.05 Brewing Water Synthesis Utility (KennyEddy)
+  10 gallon recipes (Paul.Lambie)
+  AHA Conf Roommate (Jim Liddil)
+  2,3 Pentanedione (TMartyn)
+  Adjustments from 5 to 10 gallon batches (Keith Chamberlin)
+  Least attenuative/amylase/sugars/filtering/iodophor/fill level/colour (Algis R Korzonas)
+  Cleaning chemicals (SandBrew)
+  New RIMS Owner (ShoeJ)
+  Iodophor concentrations (Louis Gordon)
+  Munich Helles Stinks ("Barry Blakeley")
+  RIMS Pump (russ tjepkema)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 25 Mar 1996 11:14:05 -0500
+From: "Keith Royster" <keith.royster`at`ponyexpress.com>
+Subject: kilt / grain mill motor
+
+
+In HBD#1993 Bob Rogers worries about the effects of brewing a dry 
+stout while wearing a kilt.  While the plaid may have detrimental 
+effects on this style of brew, I would think that wearing a kilt 
+might actually be beneficial for other recipies.  For example, 
+Papazian's Goat Scrotum Ale.... and now for something completely 
+different......
+- -----------------------------------------------------------------
+
+
+I also have a quick question that is slightly brewing related:  I
+recently found a discarded trash compactor that I thought might be a
+good source for a motor to motorize my grain mill.  But once I
+dismantled the thing, I found the motor to have 5 wires attached to
+it, instead of the expected 2 (electrons in, electrons out).  Also,
+there seems to be some sort of mechanical spring-loaded lever/switch
+attached to it running parallel to the axis.  I imagine that the
+extra wires may have something to do with reversing the direction of
+the motor, and maybe the switch does too.  Any body out there have
+any idea how to wire this thing, and what the heck is the switch for?
+Any help is appreciated.  
+
+
+Keith Royster - Keith.Royster`at`ponyexpress.com
+`at`your.service - http://www.wp.com/`at`your.service/
+ Web Services - Starting at just $60 per YEAR!
+  Voice & Fax - (704) 663-1098
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 11:24:49 -0500 (EST)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: First Wort Hopping
+
+
+The talk of first wort hopping is interesting indeed.  I just
+wanted to point out that this is generally a Pilsner beer procedure,
+and may or may not be directly appicable to general beer styles, in
+particular the more agressively hoppy ales with their multiple hop
+additions.
+
+
+A couple of points:
+
+
+Generally used only with low alpha high quality aroma hops, since 
+these are the hops used in Pils.  Thats why the kettle IBUs should
+not be altered.
+
+
+Pils beers are seldom hopped later than 20 minutes before knockout.
+
+
+Hopping in the whirlpool should give drastically altered hop aroma
+qualities than hopping at 20 minutes, or at 90+ minutes, or dry.
+
+
+Pils beers have an intense depth of hop complexity.  They are not
+simple beers to make.  The aroma contributions should not be obtained
+from dry hopping and comparing one with the other is futile.
+
+
+Jim Busch
+                     A Victory For Your Taste!
+                     Now tapping:
+                     Victory Festbier, Brandywine Valley Lager,
+                     HopDevil IPA, Prima Pils, Milltown Cask Mild and
+                     St. Victorious Doppelbock
+
+
+http://wanda.pond.com/~clrleaf/victory/Victory.html
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 96 10:22:52 CST
+From: korz`at`pubs.ih.att.com (Algis R Korzonas)
+Subject: Yeast Rehydration
+
+
+Ross writes:
+>I would have to agree with Al on the overkill.
+>Over the years at the BOP, we used various dried yeasts,
+>including Nottingham, Whitbread, Edme and Mauri. 
+>15 grams were rehydrated in +/- 250 ml of cooled wort, 10 to 15
+>minutes prior to pitching in approx. 53 liters (14 US gallons) of
+>wort, cooled to 72 to 76 degrees F and well aerated. Fermenters
+>were then moved to a temperature controlled room held at 68 F.
+
+
+Depending on what you mean by "cooled wort" I see one problem and
+one potential problem with your procedure.  Firstly, it is not
+recommended to rehydrate yeast in wort.  Dried yeast first want
+water and the sugars in wort mean that the yeast see a different
+osmotic pressure than from plain water and it makes it harder for
+them to properly rehydrate.  I've found in my own experience, that
+rehydrating dried yeast in cooled (75F) wort has tripled lag times.
+
+
+The potenial problem is what you mean by "cooled wort."  If you
+mean cooled to 110F, then it's not as bad as 70F wort, but not as
+good as 110F water.
+
+
+Again, this is all from experience and from a Newsletter published
+by Lallemand (makers of Nottingham, Windsor, etc.).
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`pubs.att.com
+Copyright 1996 Al Korzonas
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 10:30:57 -0600
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Sparge/Not Sparge.
+
+
+
+
+Well, dangnabbit.  I recently said "If you're doing all grain, you don't have
+a sparge" when I meant "If you're doing EXTRACT, you don't have a sparge."
+
+
+Not sure how I made that error, but it looks like I've confused the dickens
+out of tons of people.  I do all-grain, and, yeah, I do have a sparge.  Sorry
+for the cornfusion.  I'll be more careful next time.
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 96 11:30:23 CST
+From: "Tracy Aquilla" <aquilla`at`salus.med.uvm.edu>
+Subject: Re: ploidy in yeast, more on filtering
+
+
+In Digest #1992:
+Michael Coen <COEN.MICHAEL`at`igate.pprd.abbott.com> wrote:
+
+
+"All this talk of mutations and genetic drift.  I would think, naively
+maybe, that a brewing yeast would be unusually stable in its genetic
+makeup since there are multiple copies of each gene.  Unless a mutation
+was dominant I would think the chances of getting a really detrimental
+change in brewing character would be extremly remote.  Just a
+thought."
+
+
+Good point. However, while in the vegetative stage of its life-cycle (i.e.
+budding, not sporulating), S. cerevisiae is haploid. Interestingly, S.
+uvarum is diploid, hence it might actually be more stable. Relatively
+speaking, brewers' yeast is pretty stable genetically. As mentioned
+previously I believe, the most common problematic mutations in yeast occur
+in the mitochondrial genome (respiratory mutants).
+
+
+
+
+and fitz`at`fasicsv.fnal.gov (Tom Fitzpatrick)
+Subject: Re: Filtering
+
+
+"I was also under the impression (sorry, no reference) that "sterile" 
+filtration was accomplished below .3 micron (also called "cold" filter-
+ing, like MGD lite ice?). Anyone out there have any firm numbers on 
+filtering to remove all yeast and bacteria?"
+
+
+Jim was probably referring to the fact that with a 1 micron filter, you'll
+definitely be removing all of the yeast and most likely all of the bacteria.
+However, it's true that 0.22 microns is considered the standard for sterile
+filtration, but as mentioned previously, there are bacteria even smaller
+than this. Whether a particular filter yields a sterile product is highly
+dependent on the bacterial load and the size of the bacterial contaminants
+present.
+
+
+Jim writes on p. 24 of BT Jan/Feb '96:
+"Yeast cell sizes tend to fall in the 5 - 10 micron range, which is why
+a rough or polish filtration is usually done at 5 microns."
+
+
+and Michael responds:
+"Do you have a reference for the range of yeast sizes? Anybody? The range 
+I remember but don't have a reference for is .8 - 5 micron."
+
+
+In Malting and Brewing Science (2nd. ed. volume II), see the chapters on
+yeast taxonomy and yeast biology (can't remember which, but there's a chart).
+    Tracy in Vermont
+    aquilla`at`salus.med.uvm.edu
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 08:38:56 PST
+From: Steve_Rosenzweig`at`wb.xerox.com (Rosenzweig,Steve)
+Subject: Dishwasher sanitization
+
+
+Jon Vilhauer writes in HBD 1992:
+
+
+>     I've never been able to see much sense in using a dishwasher
+>for beer bottles.  It seems unlikely that much wash water ever gets
+>inside.  If it's heat we want, wouldn't the oven be better?
+
+
+I use about a cup of bleach in the dishwasher in a normal cycle.  I 
+ too, was skeptical at first of the sanitization possibilities, but 
+ since I start with fairly clean bottles anyway, I figured what the 
+ heck - I hated my old bottle sanitizing method so much anything was 
+ worth a try.
+
+
+On the first batch of bottles, I opened the dishwasher in the middle of 
+ the cycle and _whoosh_ I got a whiff of a cloud of hot chlorinated 
+ steam!  I figure even if the _water_ isn't getting directly into the 
+ bottles, the chlorinated steam is, so that should provide adequate 
+ sanitization, especially in conjunction with the heated drying cycle!  
+
+
+I started kegging due to my aversion to bottling, but now I'm swinging 
+ the other way.  I'll still keep a few kegs going, but I'll short fill 
+ a keg,  fill a few bottles, and top off the keg with CO2 - hey what if 
+ I want to enter a particular batch in a contest?  This way I've got a 
+ few samplers as well as potential yeast cultures!  (Although this 
+ could give me an excuse to buy/build a counter pressure filler!  ;-> )
+
+
+Using the dishwasher takes all the scut work out of bottling - now its 
+ downright enjoyable!  Even clean up is easier when you do the bottling 
+ on the opened door - just close the door and rinse when you are done!
+
+
+Anyway - the proof is in the beer as they say, and I've been working 
+ (?) through several batches bottled with this method - and I've yet to 
+ find a bad one!   (? if only drinking brew were work! - I'd be Michael 
+ Jackson!)
+
+
+Stephen
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 11:56:43 -0500
+From: Kelly Heflin <kheflin`at`monmouth.com>
+Subject: California Common
+
+
+Someone wrote about a week ago, that their california common yeast 
+was still going after a long time. I transferred mine to secondary
+yesterday after fermenting 8 days in primary. I was a little disapointed
+with the gravity, 1.018. Well I'm happy to say within about 8 hours 
+there was an inch layer of foam and it was bubbling well.
+
+
+I guess that stuff just keeps ..going, and going..
+
+
+I just got my copy of sudssw. Put in all the stuff for this Steam 
+Beer I'm talking about. I'm right at the upper limit for this style
+on gravity and alchol percent, but I'm way over on the bittering
+scale. I used 2 oz. of Northern Brewer. These things said they were
+9.5% . All the recipes I looked at said 2 oz of Northern Brew. Maybe
+theirs were lesser percents.
+
+
+I also used 1 oz of cascade for finishing.
+
+
+1 of the north brew was only boiled for a half hour. 
+
+
+It was 1.056 gravity to start.
+
+
+Is it gonna be too hoppy? (I'm not worried, just wondering.)
+
+
+About that Suds program. I heard there were recipes in it. Anybody
+know anything about that. (Yes I plan on registering it as soon as
+I know if I can use it.)
+
+
+see ya
+kelly
+
+
+Kelly C. Heflin        
+kheflin`at`monmouth.com
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 96 10:56:48 CST
+From: Wolfe`at`act.org
+Subject: Iowa City Homebrew Classic
+
+
+The 1ST IOWA CITY HOMEBREW CLASSIC
+
+
+WHEN:  May 18th, 1996.  Judging begins at 10 AM.  Awards at 6 PM.
+
+
+WHERE:  Iowa City, Iowa
+
+
+CATEGORIES:  We'll accept entries in all AHA beer and mead styles (no cider
+          or sake).  Categories may be combined for style categories in
+          which fewer than 7 entries are received.
+
+
+JUDGING:  Every entry will be judged by at least one BJCP judge.  Score
+          sheets will be returned for all entries.  Contact Ed Wolfe if you
+          are interested in judging.
+
+
+AWARDS:  First, second, and third place ribbons will be awarded in all
+          categories.  Winners will be advanced to Best of Show judging.
+          First, second, and third place ribbons and prizes will be awarded
+          in the Best of Show Beer and in the Best of Show Mead judging.
+
+
+MIDWEST BREWER:  Midwest brewers who are awarded ribbons in this
+          competition gain points toward the 1996 Midwest Homebrewer of the
+          Year Award.  The Iowa City Homebrew Classic is the third of five
+          Midwest Homebrewer competitions.  Contact Dennis Davisson for
+          more information about the program (414-545-9246).
+
+
+ENTRIES:  Send TWO bottles (brown or green glass, blackened crown capped,
+          with no labels or other identifying marks) with a bottle label
+          attached with rubber bands (NO TAPE) and an entry form and entry
+          fees.  We're using the standard AHA bottle labels and entry
+          forms.  Entry fees are $5/entry for 1-3 entries and $4/entry for
+          4 or more entries).  Make checks payable to THIRSTY.
+
+
+SHIPPING:  Send your entries to:
+
+
+          1st ICHC
+          c/o Ed Wolfe
+          5118 Morse Road
+          Iowa City, IA  52240
+
+
+          THE ENTRY DEADLINE IS MAY 10th.
+
+
+QUESTIONS:  Call Ed Wolfe at 319-643-7354 or email him at wolfe`at`avalon.net
+          or visit the THIRSTY Home Brew Page at
+          http://www.avalon.net/~wolfe/THIRSTY.html
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 96 12:02:00 EST
+From: "Taber, Bruce" <BRUCE.TABER`at`NRC.CA>
+Subject: Red ale color request
+
+
+
+
+I just popped the cap on my first attempt at a 'light' ale and I'm happy to 
+report that it passed the ultimate test ...... my wife likes it !  I must 
+admit, I think it's pretty good too.  The color is typical commercial swill 
+blond but the flavor is definitely 'premium'.
+
+
+I'm the guy who had the nerve to request a Budmilloors recipe from the 
+collective a few months back.  I typically brew dark, full body ales but I 
+wanted something closer to commercial beer for my guests.  I used the 
+recipes that were sent to me to formulate my own attempt that uses  rice as 
+the adjunct and only 1 oz. of Saaz to bitter.
+
+
+Anyway, I think I'll do another batch since the nice weather is approaching 
+(is this the longest winter on record or what), but I can't bring myself to 
+ever make the exact same beer twice.  I would like to make a similar ale but 
+with a distinctive 'red' hue.  My first thoughts are to try 2 oz. (60g) of 
+roast barley OR 1/2 lb. (250g) of Munich malt in the same colorless base.  I 
+don't want to change the flavor much, just the color.
+
+
+Any suggestions would be greatly appreciated.   TIA
+
+
+Bruce Taber  (we've still got snow in Ottawa)
+taber`at`irc.lan.nrc.ca
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 11:14:12 -0600 (CST)
+From: "Jeremy E. Mirsky" <mirsjer`at`charlie.acc.iit.edu>
+Subject: all-grain
+
+
+
+
+The obvious consensus is that all grain is superior to extract brewing.
+
+
+But, for the intimidated novice, the information overload is frustrating:
+ph - conversion - runoff - etc.....
+
+
+I've heard of the Gott cooler method, but it wasn't very clear to me.
+I understand that the total ingredient cost is less, but what about
+equipment?  I currently use a 5 gal. enamelled canning pot for extract
+recipes.
+What do I really have to know about water ph, starch conversion, etc.?
+
+
+If I do this, I'd like to do it as cheaply as possible.
+
+
+BTW, the last post I made received numerous helpful responses.  Again, I
+would like to thank everyone.
+\
+<Wow, this brewing stuff can really drive someone to drink!>
+
+
+Jeremy
+mirsjer`at`charlie.acc.iit.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 10:24:31 -0700 (MST)
+From: walter`at`lamar.ColoState.EDU (Brian J Walter (Brewing Chemist))
+Subject: Sixth Annual March Mashfest Results
+
+
+Sixth Annual March Mashfest Results
+
+
+This Mashfest has been our most successful to date.  201 entries were 
+collected and judged Friday and Saturday March 22-23, 1996.  The Mash 
+Tongues would like to thank all who entered and all who made the trip to 
+Fort Collins to judge.  
+
+
+Best of Show Beer (180 Beer Entries)
+        Tony DeMarse, Greeley CO        Brewnion Colony
+        May Q-P Honey Wheat                Specialty, Classic Style American Wheat
+
+
+Best of Show Mead (21 Mead Entries)
+        Scott Mills, Ft Collins CO        Mash Tongues
+        Mighty Fine Wine                Traditional Mead
+
+
+
+
+Lagers (19 Entries)
+First Place
+        Dave Shaffer, Lafayette CO        
+        Lizard Head Lager
+Second Place
+        Cory Buenning, Conifer CO                Hop Barley & the Ale'ers
+        Dark Side Lager
+Third Place
+        Bill Irwin, Littleton                        Foam on the Range
+        Kolsch 5                                Kolsch
+
+
+Pale Ales (19 Entries)
+First Place
+        Gregory Cross, Rocky Ford CO        
+        Broken Heel IPA                                IPA
+Second Place
+        Dave Shaffer, Lafayette CO
+        Mullethead Ale
+Third Place
+        Bill Irwin, Littleton CO                Foam on the Range
+        EPA #3                                        English Pale Ale
+
+
+English Bitters (16 Entries)
+First Place
+        John Leazer, Ft Collins CO                Mash Tongues
+        Firelight ESB                                English Special Bitter        
+Second Place
+        Patrick Moore, Englewood CO        
+        Tingling Nosehair ESB                        English Special Bitter
+Third Place
+        Scott Mindrebo, Lake Jackson TX                Brew Bayou
+
+
+(Hoppy) Cold-Conditioned Ales (13 Entries)
+First Place
+        Dave Cuthbert, Ft Collins CO                Mash Tongues
+        Uncommon                                CA Common
+Second Place
+        Keith Schwols, Ft Collins CO                Mash Tongues
+        Alt Enough To Drink                        Altbier
+Third Place
+        John Landreman, Colorado Springs CO
+        Wildcard Alt                                Altbier
+
+
+Scottish Ales & Porters (14 Entries)
+First Place
+        Dave Shaffer, Lafayette CO
+        Storm Peak Porter                        Porter
+Second Place
+        Brian Kelly, Denver CO                        Deep Wort
+        Pests Porter                                Porter
+Third Place
+        Larry Pyeatt, Ft Collins CO                Mash Tongues
+        Easy Trails Porter                        Porter
+
+
+Brown Ales (18 Entries)
+First Place
+        Larry Pyeatt, Ft Collins CO                Mash Tongues
+        Easy Trails Mild Brown Ale                
+Second Place
+        Roger Whyman, Littleton CO                The Unfermentables
+        Bear Creek Brown Ale II                        
+Third Place
+        Richard Morris, Jr., Colo Springs CO        
+        Twink's Brown Ale
+
+
+Stout Beers (20 Entries)
+First Place
+        Bruce DeBolt, Lake Jackson TX                Brew Bayou
+        Oyster Creek Stout
+Second Place
+        John Leazer, Ft Collins CO                Mash Tongues
+        Knockout Stout - Round 4
+Third Place
+        Paul Rasey, Milliken CO                        Brewnion Colony
+        Shamrock Stout
+
+
+Wheat Beers (14 Entries)
+First Place
+        Mark Groshek, Denver CO                        The Unfermentables
+        Wunschloses Ungluck Weizenbier                German Weizen
+Second Place
+        John Landreman, Colorado Springs CO        
+        Bison Weizen                                German Weizen
+Third Place
+        John Adams, Westminister CO                Keg Ran Out Club (KROC)
+        A Chicken In Every Pox
+
+
+Belgian & Strong Ales (20 Entries)
+First Place
+        Richard Mincer, Cheyenne WY                High Plains Drafters
+        Trifurcated Trippel Strong Ale                Belgian Tripel
+Second Place
+        Ray Poarch, Arvada CO                        The Unfermentables
+        (Not Named)
+Third Place
+        Mark DeMay, Ft Collins CO                Mash Tongues
+        Brain Lubrication                        
+
+
+Smoked & Specialty Beers (12 Entries)
+First Place
+        Tony DeMarse, Greeley CO                Brewnion Colony
+        May Q-P Honey Wheat                        Specialty, Honey Amer Wheat
+Second Place
+        Keith Schwols, Ft Collins CO                Mash Tongues
+        Dragon's Belch                                Rauchbier
+Third Place
+        Brian Walter, Ft Collins CO                Mash Tongues
+        Winter Rye                                Specialty Beer, Rye
+
+
+Fruit & Herb Beers (16 Entries)
+First Place
+        Jim Suhoza, El Dorado CA                Haze
+        Chilly Willy                                Chile Beer
+Second Place
+        Scott Mills, Loveland CO                Mash Tongues
+        Flower Power                                Rosewater Beer
+Third Place
+        William Geithman, Erie CO                Keg Ran Out Club (KROC)
+        Son of CBS                                Raspberry Cocoa Stout
+
+
+Meads (21 Entries)
+First Place
+        Scott Mills, Loveland CO                Mash Tongues
+        Mighty Fine Wine                        Traditional Mead
+Second Place
+        John Carlson, Denver CO                        Hop Barley & the Ale'ers
+        Crystal Meth                                Mint and Cranberry Honey
+Third Place
+        Keith Schwols, Ft Collins CO                Mash Tongues
+        Hot to Trot                                Cinnamon, Chili Flakes
+                                                (Hot Cinnamon)
+
+
+Score sheets should be in the mail this week; target date is Thursday. 
+Direct any comments or questions to 
+Brian Walter,  walter`at`lamar.colostate.edu
+
+
+Brian J Walter        | Homebrewer, Certified | walter`at`lamar.colostate.edu
+Chem grad - CO St Univ| Beer Judge & President|           RUSH Rocks Best!
+Fort Collins, CO      | Mash Tongues Brew Club| GB Packers-11 X NFL Champs
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 09:25:08 -0800 (PST)
+From: Mark Taratoot <taratoot`at`PEAK.ORG>
+Subject: Oklahoma beer laws
+
+
+Bernie wrote:
+
+
+> I was in Oklahoma briefly this winter and took a trip to the local beer 
+> store near Oklahoma City. I found that most of the "good beers" were 
+> unavailable cold. The store clerk informed me that it was state law that 
+> beer over a certain alcohol percentage could not be sold cold. (Probably 
+> so it would not be consumed too fast). 
+
+
+
+
+No, they are just looking out for our better interests.  Most beer is sold
+cold -- too cold to drink.  So you have to take it home and let it sit out
+for quite a while before it warms to the correct serving temperature. 
+Oklahoma is doing us a great favor by not over-chilling their beer so it
+is ready to drink sooner! 
+
+
+- --
+Mark Taratoot            "...though my problems are meaningless,
+taratoot`at`peak.org         that don't make them go away."     
+                                                         -Neil Young
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 12:26:11 -0500
+From: RUSt1d? <rust1d`at`swamp.li.com>
+Subject: Sarasota, FL
+
+
+Here we go again....
+
+
+I will be traveling to Sarasota, FL soon and would like to know where to go
+to support my beer drinking hobby/habit. Locations within 50 miles would
+be nice.
+
+
+John Varady
+Boneyard Brewing
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 12:38:36 -0500
+From: dnorth`at`ijco.com (David North)
+Subject: Re: Grain. Convince me.
+
+
+Howard asks about switching from extract to all grain in #1992.  His view
+point was so close to my own I felt it was worth delurking for.
+
+
+I was also an experienced extract brewer and it was getting to the point
+that most of my batches were partial mashes with varying amounts of pale
+malt.  It was taking most of an afternoon anyway so a few batches ago I took
+the plunge. With my environment and equipment I think it is probably easier
+now than what I was doing before.  Mostly because my mash/lauter tun is the
+same vessel now (a Gott cooler) and I don't have to mess with that nasty
+extract.  The length of time is about the same, but I have much more time
+during the session to do other things.  The quality is good, but is was
+before so I'm not sure that is a big deal.  I expect it will give me more
+flexibility in recipes and styles.
+
+
+When I made the switch I was thinking that I would still do extract batches
+and I probably will, but at this point I don't have any great urge to do so.
+It would have to be pretty much of a straight extract batch for me to do it.
+
+
+Finally, grain is cheaper than extract, but that is not as cool as turning
+all that starchy grain into sweet wort!  I say go for it.  It is more fun
+and in my case, easier.
+
+
+David North
+Knoxville
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 13:18:41 -0500 (EST)
+From: Gregory King <GKING`at`ARSERRC.Gov>
+Subject: mini beer batches
+
+
+In HBD #1992 Russell Mast (rmast`at`fnbc.com) wrote:
+
+
+>I've made several one-gallon all-grain batches, using improvised equipment.
+>(Often as "yeast starters" but, hey, why dump the liquid, especially if it's
+>not that much extra trouble to make it tasty?)
+
+
+I'm also in the practice of drinking the spent wort from my yeast starters
+(this stuff is essentially beer, right?).  In fact, I've been pleasantly
+surprised at how good it tastes, and I just use light DME and a few hops
+pellets (I admit that I'm not expecting to taste great beer at this point).
+
+
+Preparing miniworts for yeast starters with DME involves boil times of about
+15 minutes, which is in the right time range for achieving good hop flavor
+utilization.  Now whenever I build a yeast starter I try to increase my hops
+knowledge by using a type of hops in the miniwort that I haven't brewed with
+yet.
+
+
+Greg King
+gking`at`arserrc.gov
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 11:51:41 -0600 (CST)
+From: cisco`at`tabasco.ccit.arizona.edu
+Subject: Dry Hopping in a Corny Keg
+
+
+
+
+>Date: Wed, 20 Mar 1996 11:58:27 -0500 (EST)
+>From: "Michael E. Ladue" <Mike.Ladue`at`cle.ab.com>
+>Subject: Dry Hopping in a Corny Keg
+>
+>What is the technique for dry hopping in a Corny keg?  I know that it's
+>possible, I'm just not sure how to do it.
+>
+>One method that I've heard of is to just put your hop pellets in the
+>keg...no sock, no marble, no nuthin'.  Supposedly, it creates a hop bed
+>that floats on the beer, imparting itself in a uniform matter into the
+>beer.  You'd be using the keg as a secondary fermenter or serving out of
+>it at this point.
+
+
+This is a good way to get a clogged pick up tube or connector. Any 
+hops,whether pellets or leaf, must be contained in a pourous
+container. I dry hop with both leaf and pellets and use those
+fine mesh nylon bags that are about 6 inches square and close
+with a draw string. I then use a racking cane tube plastic clamp, attach
+the tied up bag to the clamp and run the string inside the backside
+of the clamp that attaches to the pick up tube( you need to do this
+because the the cornelius keg's pick up tube is a slightly smaller
+diameter than the plastic racking cane tubes that this clamp
+was designed for.) I then attach this down low on the cornelius
+keg's pick up tube - just low enough so that the bag will not
+interfere with the opening of the pick up tube. This keeps the hops
+totally submerged rather than floating on the surface and nothing
+gets near or interferes with the pick up tube (all my pick up tubes
+have at least a half inch cut off the bottom).
+
+
+I've been using this setup for quite a while with no problems. I 
+much prefer it to dry hopping in the secondary, it takes a lot
+less hops also. I use 1/4 oz to 1/2 oz. There is no need to use any
+more than 1/2 oz because this system is sooooo efficient.
+ 
+
+
+John 'Cisco' Francisco
+Senior Applications Systems Analyst
+University of Arizona 
+Office: (520) 621-6727 Pager: (520) 218-0925
+http://aruba.ccit.arizona.edu/~cisco/
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 14:16:33 -0500
+From: ccrenshaw`at`mail.utexas.edu (Clay Crenshaw)
+Subject: Beer Temperature
+
+
+Howdy Fellow Zymurgists:
+
+
+I've often been told by 'laymen' that after beer has been refigerated, its
+quality will be compromised if it's allowed to warm back up.  Is there any
+truth to this?  If so, does it apply to homebrew as well as store-bought?
+What actually happens to the beer when the temperature fluctuates like
+this?
+
+
+TIA for the feedback,
+Clay
+
+
+"If we first bulid up the nobler part of our nature [yeast starter], then
+the inferior part [nasty beasties] cannot overcome it"  -Mencius, 3rd
+century B.C. Chinese philosopher
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 14:40:59 -0600 (CST)
+From: snsi`at`win.bright.net (Jeff Smith)
+Subject: Miller and the heart of the hop.
+
+
+I haven't tasted the new Miller yet but I keep thinking aren't they the
+geniuses who came up with "Clear Beer"?
+
+
+Just a Thought.
+
+
+Jeff Smith | '71 HD Sprint 350SX | snsi`at`win.bright.net | Barnes, WI
+"It's just like tractors, some tractors do some tractors don't."
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 16:00:52 -0500
+From: KennyEddy`at`aol.com
+Subject: BreWater 1.05 Brewing Water Synthesis Utility
+
+
+As promised, my brewing water synthesis utility is now posted for download at
+
+
+ftp://users.aol.com/kennyeddy/water/brewater.zip
+
+
+You'll need VBRUN300.DLL in your \WINDOWS\SYSTEM directory.  If you don't
+have it, you can get it from any software downlaod library; I put a
+compressed version at
+
+
+ftp://users.aol.com/kennyeddy/files/vbrun.zip
+
+
+This version of BreWater (1.05) appears to be "bug-free" but if you do notice
+anything goofy going on please let me know.  It's freeware so you can share
+it with others without registration.
+
+
+Twenty-six "target profiles" are included, gleaned from a variety of
+published sources.  Two sample completed worksheets are also included.
+ BreWater includes a help document which is basically the same thing as the
+water chemistry primer I uploaded a few days ago.
+
+
+To keep things simple(r), I limited the additives to epsom salt, baking soda,
+chalk, non-iodized "table salt", calcium chloride dihydrate, and gypsum.  All
+of these are readily available additives, although I have had trouble
+locating CaCl2 (but I haven't looked that hard -- any suggestions?).  While
+not all targets can be precisely synthesized using only these salts, a great
+many can be well-approximated.
+
+
+Salt measures are automatically scaled when changing water volume, and you
+have your choice of measurement units (teaspoons or grams of salts, gallons
+or litres of water).  Salt measures can be typed in or scroll-bars dragged
+while resulting concentrations of calcium, sulphate, magnesium, sodium,
+chloride, carbonate, hardness, and alkalinity are conntinually updated.  A
+dilution function allows you to experiment with diluting "your" water in
+addition to making salt additions.  Printing, loading, and saving of profiles
+and worksheets is implemented.
+
+
+I hope you find it to be useful.
+
+
+Ken Schwartz
+KennyEddy`at`aol.com
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 13:12 -0800 (PST)
+From: Paul.Lambie`at`ncal.kaiperm.org
+Subject: 10 gallon recipes
+
+
+I've been brewing 5 gallon all-grain recipes and plan to try a 10 gallon
+batch this weekend.  Jim Dipalma recently wrote that scaling up from
+5 to 10 gallons is not linear particularly with regard to darker specialty
+malts and recommended multiplying by a factor of 1.5 for these grains.
+Hop utilization also changes with batch size - is there a significant
+difference in utilization between 5 and 10 gallons so that adjustments
+in hops need to be made?  Any other suggestions for increasing my batch
+size to 10 gallons?  Any experiences or references would be appreciated.
+
+
+Paul Lambie
+P3 Brewers
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 15:15:20 -0700 (MST)
+From: Jim Liddil <JLIDDIL`at`AZCC.Arizona.EDU>
+Subject: AHA Conf Roommate
+
+
+I am looking for a roommate for the AHA conference in June. If you are
+interested or know of someone who is please contact me via private e-mail
+
+
+Jim Liddil
+jliddil`at`azcc.arizona.edu
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 17:39:11 -0500
+From: TMartyn`at`aol.com
+Subject: 2,3 Pentanedione
+
+
+In #1991, Russell Mast properly corrected my post about the presence (or not)
+of honey notes in L'Achouffe.  Sorry, I got my threads mixed up.  Right, 2,3
+pentanedione is not produced by honey, its a vicinal diketone that <tastes>
+like honey.  I'm going home to drink a beer in penance.
+
+
+In #1993, AJ explained the process by which 2,3 pd if formed, and suggested
+to produce it, select a strain that favors 2,3 pd over diacetyl.  The beer I
+referenced in #1988 was fermented with Wyeast 2206, which is a fairly good
+diacetyl reducer, but I've never heard or read that it produces 2,3 pd above
+the taste threshhold.  So what were the mash/ferment conditions that would
+have created such an obvious 2,3 pd level?
+
+
+I don't mean to beat a dead horse, but I'm really curious.
+
+
+Tom Martyn
+TMartyn`at`aol.com
+Brattleboro, VT
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 18:43:01 -0500
+From: Keith Chamberlin <Keith.A.Chamberlin`at`gsfc.nasa.gov>
+Subject: Adjustments from 5 to 10 gallon batches
+
+
+Jim Dipalma writes in HBD #1993:
+>BTW, you're eventually going to discover that there is more to
+>scaling up to 10 gallon recipes than simply doubling the ingredients in a 5
+>gallon recipe. The darker specialty malts, chocolate, roasted barley, etc.,
+>simply do not scale up in a linear fashion. I've been multiplying the dark
+>grains in my 5 gallon recipes by 1.5, and doing some tweaking. Just something
+>to be aware of when you go to brew a stout or porter on your new system.
+
+
+Ok, so if you have to tweak the dark grains, is there any tweaking to be
+done with the hopping?  I've heard some people say just doubling the hops is
+a good place to start and you can adjust to your tastes once you get used to
+the new system, but I was wondering what some others results are.  I know in
+talking with Glen Tinseth that one big factor that isn't included in his hop
+utilization table is how good a boil you have.  Some that do electric
+stovetop boils probably don't get near the extraction of the outdoor 200,000
+BTU propane cookers do.  But consider that you would be boiling the same way
+what ratio change would you make to the hop addtions?  BTW thanks to all who
+answered my question about iodophor calculations.
+
+
+Keith
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 96 13:40:29 CST
+From: korz`at`pubs.ih.att.com (Algis R Korzonas)
+Subject: Least attenuative/amylase/sugars/filtering/iodophor/fill level/colour
+
+
+Jack writes:
+>I checked the literature and it says 1084 is the
+>least attenuative of the Wyeast line.
+
+
+According to the literature I've gotten from Wyeast, Wyeast #1338, European
+Ale, is their least attenuative yeast.
+
+
+***
+Bill writes:
+>Amylase enzyme *creates* sweetness by converting starch into sugar.
+>However, extract already has the sweetness converted (hence the name).
+
+
+Well, yes and no.  Amylase converts starch into sugars *and* large sugars
+into medium-sized sugars *and* medium-sized sugars into small sugars.
+Generally speaking, the smaller the sugar is, the more sweet it is (i.e.
+fructose is sweeter than sucrose and sucrose is sweeter than lactose).
+
+
+Dextrins are not very sweet at all, but if you have a lot of them, your
+beer will be sweetish.  Amylase will break down dextrins into fermentables
+which will subsequently be fermented by the yeast, so the sweetness Bill
+talks about won't get into your glass -- the yeast will eat it.  Amylase
+will reduce sweetness if you have a very dextrinous wort.
+
+
+***
+Russel writes, quoting Richard:
+>>   - AVOID adding large amounts of corn sugar to the recipe. 
+
+
+>I'd say avoid adding -any- at all, except to prime the bottles for
+>carbonation.
+
+
+Well, I disagree.  You cannot make a beer like Duvel without adding some
+refined sugar.  You just can't make a beer with its alcohol level and
+light body by using all-malt.  Tripels and Dubbels also are going to be
+too heavy if you make them all-malt.  You must add some refined sugars.
+Typically the Belgian brewers use candi sugar, but white candi sugar is
+just sucrose, so you can use table sugar, but the difference to the yeast
+between sucrose and glucose is primarily that they don't need to create
+invertase to break the sucrose down to its component glucose & frucose
+molecules.  Use refined sugar when it's necessary.  The problem is when
+you use 4 pounds of sugar and 3.3 pounds of malt extract -- that will make
+sorry-tasting beer!
+
+
+***
+Tom writes (quoting Jim):
+>>As for lackluster beers from filtering, this can be a result of micro-
+>>filtration which is sterile filtration below 1 micron.  I feel this is
+>>very undesirable.
+
+
+<snip>
+>I currently use 1 micron and .5 micron absolute (99.9% eff.)
+>filters for lagers and some light ales (pale ale, IPA, Koelsch, etc.) and 
+>have not noticed a lack of body or head retention.
+
+
+You also have to consider the pressure at which you are forcing the
+beer through the filter.  If you use too much pressure, you will push
+yeast through a filter with a pore size smaller than a yeast cell.  Ed
+Busch, at the AHA Nationals a few years ago, talked about filtering and
+used a plastic bag partially filled with water as an example of a yeast
+cell.  You can imagine how a bag partially filled plastic bag of water 
+could fit through a hole much smaller than the actual bag dimensions, no?
+
+
+What I'm saying here is that if you force the beer through the filter
+at high pressure, you can push through yeast, protein, etc. making your
+0.5 micron filter act more like a 3 micron filter.  I'm not saying that
+this is what you're doing, Tom, but just bringing this up as a related
+point.  It would explain why you don't get significant body loss from
+filtering at 0.5 microns.
+
+
+***
+Keith writes:
+>I never really sat down and figured out how much liquid iodophor to use so
+>when I saw someone say they used 1/2 oz in 5 gallons I did calculate it and
+>that turned out to be about 781ppm, not the recommended 12.5 ppm.  Am I
+>doing something wrong?  I normally go by color, but would like to know what
+>12.5 and 25 ppm equate to in gallons and ounces.  Sorry I'm not a chemist.
+
+
+You assumed that all the concentrate is iodine.  The 12.5 to 25 ppm is the
+level of titratable iodine you want in the finished solution.  Therefore,
+1/2 ounce of concentrate per 5 gallons will give you what you want.
+
+
+***
+Tom writes:
+>I read with interest Al Korzona's contribution on 3/22/96 regarding
+>fill levels and carbonation.  Can anybody tell me why more airspace
+>would give better carbonation.  I would think _more_ beer (and less
+>headspace) would produce more CO2.  Also for the average tall neck
+>bottle, can anyone tell me the optimum fill level?  How about for
+>Grolsch or Fischer Alsace bottles?
+
+
+One hypothesis is that the pressure in the bottles somehow slows the
+yeast down and this is why the "very full" bottles carbonate slower
+and perhaps incompletely.  As for the "optimum" fill level, I would
+say between 3 and 5 cm.  If it's a 16 ounce bottle, then I would
+imagine that 4 to 6 cm would be a good level.
+(P.S. That should be Al Korzonas' unless you prefer Korzonas's.)
+
+
+***
+KennyEddy writes:
+>The formula is basically to take *each* ingredient -- grain, extract, sugar,
+>fruit, old nylons -- and multiply its weight in pounds times its lovibond
+>color rating.  Add these all together, and divide by the batch size in
+>gallons.  The lovibond rating is in degrees lovibond per pound per gallon, so
+>this is why the formula works.
+
+
+It works for a very small portion of the Lovibond scale.  Check out Ray
+Daniels' three part series on beer colour in Brewing Techniques or the
+appendix in George & Laurie Fix's Vienna/Oktoberfest/Maerzen book.
+
+
+Personally, I feel that if you don't overdo any ingredient for the style,
+you will get the colour right.  If you add a pound of Special B to a Pale Ale,
+it will be too dark.  If you add 1/2 pound of chocolate malt to a Vienna it
+will be too dark.  If you add anything but Pilsner and Dextrine malts to an
+American Pilsner, it will be too dark.  If you don't use anything but DWC
+Pale Ale malt in Bitter it will come out too light (all M&F Pale is borderline
+too light)  Use common sense and the colour will come out in the right range
+for the style.
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`pubs.att.com
+Copyright 1996 Al Korzonas
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 19:43:43 -0500
+From: SandBrew`at`aol.com
+Subject: Cleaning chemicals
+
+
+ Hi there. In an earlier posting, I recomended some cleaning chemicals
+produced by a company out here in Denver called Five Star. In particular, a
+compound called PBW is IMHO the best alkaline cleaner on the market. It
+appears that I am not alone. I have gotten a copy of a letter from George Fix
+to Five Star in which he states: "...I have decided in my own personal
+brewing to completely switch from a caustic based cleaner to your product,
+and a similar conclusion was reached in the two commercial operations (for
+which he consults for). The reasons for this are the following:
+(I) While the use of gloves is recommended when applying PBW (as it is for
+any cleaner) PBW is nevertheless orders of magnitude safer than caustic
+cleaners. In particular, problems associated with direct skin exposure are
+trivial in comparison.
+(II)PBW exhibited strong surface activity, remarkably so considering it is a
+safe product, As far as we could determine, PBW's surfactance is as strong as
+caustic cleaners. It can be used in CIP systems or manual systems with no
+loss of cleaning time over what is incurred with caustic cleaning solutions.
+(III) PBW has an excellent rinseability. There is a growing preference for
+rinsing equiptment with cold (rather than hot) water both on the front and
+back end of the cleaning cycle. PBW is well suited to such procedures, and
+with a standard acid sequestering step in this cycle, residual alkalai will
+not be a problem." This will be published in an upcoming article in Brewing
+Techniques.  I have no interest in Five Star, I do have an interest in
+promoting safe and sanitary brewing and cleaning. If you are interested in
+this product you can contact Bob Nold at FiveStarAF`at`aol.com or at the
+upcoming brewers conference in Boston. Again if any one out there has any
+questions that I can help on please feel free to E-mail me.
+Thanks for the bandwidth.
+Wayne Waananen, Brewmaster, SandLot Brewery at Coors Field
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 20:05:49 -0500
+From: ShoeJ`at`aol.com
+Subject: New RIMS Owner
+
+
+I have just purchased RIMS equipment from Brewcraft Ltd.  I was wondering how
+different people have set up their RIMS systems.  Especially the returns to
+the mashtun, and the outlets from the mashtun.  Has anyone setone up with a
+GOT cooler?  A rehabbed SS keg?
+
+
+Any comments will be appreciated.
+
+
+Thanks
+
+
+Dave
+
+
+------------------------------
+
+
+Date: 25 Mar 96 20:35:43 EST
+From: Louis Gordon <103232.1227`at`compuserve.com>
+Subject: Iodophor concentrations
+
+
+Replying to Keith Chamberlin and others who delute iodophor until the color
+looks right, 12.5 ppm equates to the following amounts:
+
+
+10 Gallons = 1 Oz. = 2 Tablespoons
+5 Gallons = 1/2 Oz. = 1 Tablespoon = 3 teaspoons
+1 Gallon = 3/5 teaspoon = 36 drops
+1 Quart = 9 drops
+
+
+Don't worry, a drop is the same amount regardless of the bottle it comes out of
+because of surface tension.
+
+
+Louis Gordon       Minneapolis
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 96 14:43:04 mst
+From: "Barry Blakeley" <BlakeleB`at`den.disa.mil>
+Subject: Munich Helles Stinks
+
+
+     
+          Hi, all!
+     
+          I recently brewed a Munich Helles (or as close as I can get using 
+     extracts), and I noticed a rotten odor coming through the airlock.  I 
+     used 6.3lb extract, some steeping grains and Wyeast 2308 Munich Lager. 
+     The yeast was 5 months old (I'll never buy yeast again without 
+     checking the date).
+     
+          It fermented at 60-75'F.  I hoped the beer would not absorb the 
+     odor, but the first bottle I opened was really disgusting.  The usual 
+     signs of bacterial infection are not present.
+     
+          What caused this odor and what should I do to prevent similar 
+     occurrences in the future?
+     
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+"Those aliens from the 8th dimension?  I'm looking at
+  them right now!"
+
+
+      Barry Blakeley        blakeleb`at`den.disa.mil
+     Denver, Colorado
+
+
+   If I had 3 stars, my opinion would be that of the
+       Defense Information Systems Agency.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Mar 1996 22:15:05 -0500
+From: russ tjepkema <russtj`at`edgenet.net>
+Subject: RIMS Pump
+
+
+Now that I've got my converted keg,  I want to add a RIMS pump.  I'm 
+looking for sources for the small pump. My one source, for reconditioned 
+pumps, was sold out and didn't expect to get anymore.  The other pumps 
+he had could handle liquid temps up to 150 degrees (a little low).
+
+
+   Any help appreciated
+
+
+  Russ
+
+
+------------------------------
+End of HOMEBREW Digest #1995, 03/27/96
+*************************************
+-------

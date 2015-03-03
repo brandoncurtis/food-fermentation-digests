@@ -1,0 +1,504 @@
+﻿Date: Wed, 3 Jan 2007 00:52:39 -0500
+Subject: Homebrew Digest #5119 (January 02, 2007)
+
+
+
+
+
+
+HOMEBREW Digest #5119                             Tue 02 January 2007
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  HBD n' MIME ("Bev D. Blackwood II")
+  Re: Hacking an Optical Mouse for Liquid Level Measurement (Dylan Tack)
+  HBD's Memory (Dylan Tack)
+  Re: One other thing that's going to kill HBD.... ("Greg 'groggy' Lehey")
+  Optical mice in brewing/automation (Thomas Rohner)
+  RE: Secondary Hopping w/Pellets ("David Houseman")
+  Beer line cleaning... (Michael Eyre)
+  Bar Keepers Friend, cloudy cider, and brett (K.M.)" <kmuell18`at`visteon.com>
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 1 Jan 2007 22:45:03 -0600
+From: "Bev D. Blackwood II" <bdb2 at bdb2.com>
+Subject: HBD n' MIME
+
+
+Pat noted a couple of things...
+
+
+1) It's possible to run an e-mail list that properly strips messages  
+down to their proper content, regardless of formatting.
+I know this is true, since our club e-mail list does exactly this.  I  
+will send Pat our list owner's e-mail address in the hopes that the  
+two of them can share some ideas.  I didn't mean to be critical and  
+not offer a suggestion to help out.
+2) He's got a life that requires attention outside of HBD.
+I surely understand this, as my own life has become extremely busy  
+(complete with erratic schedule) this year and I've had to severely  
+curtail my homebrew club involvement and activites myself.
+
+
+I appreciate HBD's presence and feel very strongly its existence is  
+important to the homebrewing community.
+I was just browsing the donations page, as I feel it's important to  
+also "put my money where my mouth is" so to speak... I note that a  
+PayPal contribution was made earlier this year, but couldn't find a  
+link for it.  If that's not actually a contribution method, I'll  
+happily send a check, but it'll happen a lot faster if i can do it  
+online! :-)
+How about it Pat?  Is there a way to contribute online?
+
+
+(and... yes, I was dumb enough to NOT convert this to plain text YET  
+AGAIN and be rejected once! ROFL!)
+
+
+ -BDB2
+
+
+Bev D. Blackwood II
+http://www.bdb2.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 1 Jan 2007 23:28:15 -0600
+From: Dylan Tack <dylan at io.com>
+Subject: Re: Hacking an Optical Mouse for Liquid Level Measurement
+
+
+> Date: Sat, 30 Dec 2006 20:38:09 -0800
+> From: Kevin Eggemeyer <keggemeyer at charter.net>
+>
+> A question for the collective:  Has anyone thought of or used a hacked
+> optical mouse to measure liquid level in a tank?
+> My idea is this... For my HLT, I would like to be able to measure  
+> the liquor
+> level to within a reasonable degree of accuracy
+
+
+I am working on nearly the same thing.  The optical mouse is a new  
+idea I hadn't considered.  I was planning to use a float / rod  
+combination as you describe, but the rod will be used as a linear  
+quadrature encoder.  This is like the older mice that had a shutter  
+wheel, and a pair of IR phototransistors.  The rod will need to have  
+a bunch of evenly spaced holes or slots (like a comb), or perhaps the  
+rod could be acrylic with opaque stripes printed on it.
+
+
+The optical mouse sounds like a good idea.  One way to handle the  
+software would be to have your microcontroller talk to the mouse  
+(I've read it's trivial to read PS/2 data, but I've never tried it),  
+and then send the data to the PC in another format.  I'm using the  
+PIC 18F4550 micro for it's USB transceiver.
+
+
+Another idea worth considering: put load cells under your kettles,  
+and use the weight to determine volume.
+
+
+I don't expect to get to this project soon, but if/when I make  
+progress on the level sensor I'll post the results!
+
+
+ -Dylan
+
+
+
+
+------------------------------
+
+
+Date: Mon, 1 Jan 2007 23:40:28 -0600
+From: Dylan Tack <dylan at io.com>
+Subject: HBD's Memory
+
+
+> Date: Mon, 01 Jan 2007 17:29:56 -0500
+> From: "steve.alexander" <-s at adelphia.net>
+> Subject: oxygen permeation/reports of the death of HBD are somewhat  
+> exaggerated
+>
+> I do have a more pressing and
+> perhaps
+> prescient suggestion - HBD needs a memory.   One complaint I have  
+> wrt HBD is
+> that we rehash the same topics repeatedly.
+
+
+Google does a great job of indexing HBD.  You can search it by adding  
+the term "site:hbd.org" (without quotes) to your search.  This is  
+actually the first place I look when I have a brewing question.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 2 Jan 2007 16:42:32 +1030
+From: "Greg 'groggy' Lehey" <grog at lemis.com>
+Subject: Re: One other thing that's going to kill HBD....
+
+
+On Monday,  1 January 2007 at 10:41:19 -0700, Dion Hollenbeck wrote:
+>
+> Bev Blackwood said:
+>> Is the fact it rejects MIME encoded e-mails.  Time for HBD to catch
+>> up to the modern world.  I can post to my club e-mail list (volunteer
+>> moderated) without fear of rejection and same goes for AHA Tech-
+>> Talk.  Last conversation I heard regarding HBD among the AHA folk was
+>> that it's dying a slow death... well, getting posts rejected
+>> regularly only speeds that process.  I realize this is a volunteer
+>> effort, but technical currency is an essential element to being
+>> relevant.
+>
+> The HBD rejects HTML (as do all well run lists) for two important
+> reasons:
+>
+> 1 - HTML can contain executable code and if sent to you, could
+> infect your computer with a virus, or install a trojan.
+
+
+Agreed.
+
+
+> 2 - Email clients that send out HTML messages send out the same text
+> twice, once in plain text, and also once in HTML,
+
+
+Not necessarily.  Some particularly emetic ones send only HTML,
+forcing me to use a web browser to view them (or, more likely, discard
+them unseen).
+
+
+> thereby putting over 50% more characters in the archives, for NO
+> additional content.  If Pat were to change the policy, his already
+> strapped servers will be more strapped for disk space, and this
+> might just kill the HBD.
+
+
+OK, let's think about this.  I save all the messages I get, not just
+from HBD, but other lists (notably Oz Craftbrewers and German HBF) and
+all other mail.  I've been doing so for 25 years.  Many of these
+messages contain large attachments.  I save some messages in two
+places to make it easier to find them.
+
+
+In this time, I have collected somewhat more than 5 GB of mail in
+17419 folders.  Currently a 200 GB disk costs about $100, so we're
+talking about a cost of $2.50 for those 5 GB.  In other words, this
+isn't an argument.
+
+
+> No, Bev, I strongly disagree with you.  Letting HTML through ...
+
+
+There's more to MIME than HTML.
+
+
+On Monday,  1 January 2007 at 14:02:57 -0500, Pat Babcock wrote:
+>
+> I can only ask for patience. Dion's comments are spot on - the HBD
+> will never publish in a format that enables our profit-seeking,
+> phishing, and hacking friends in their pursuits; however, it is not
+> unreasonable for Bev and others to hope for the day when sending
+> HTML does not result in rejection from the queue.
+
+
+There are a number of alternatives here.  An obvious one is to convert
+to plain text, or just to strip out the text part of a multipart
+message.  If you're interested, I can point you to something.
+
+
+On Monday,  1 January 2007 at 13:35:39 -0800, Scott Alfter wrote:
+> Bev D. Blackwood II wrote:
+>> Is the fact it rejects MIME encoded e-mails.  Time for HBD to catch
+>> up to the modern world.  I can post to my club e-mail list (volunteer
+>> moderated) without fear of rejection and same goes for AHA Tech-
+>> Talk.
+>
+> MIME encoding is an almost foolproof indicator of two things that don't belong
+> on the list:
+>
+> 1) File attachments (a security risk to the unfortunate souls who are still
+>    running Windows, and an annoyance to the rest of us who've moved on to
+>    something better)
+> 2) HTML (which doesn't belong in email)
+
+
+In my case, they're neither.  They're either:
+
+
+ - My cryptographic signature (a security plus, not minus, though I
+  agree that it doesn't make much sense on this list).
+ - Photos, which can be of great utility.
+
+
+Greg
+- --
+Finger grog at lemis.com for PGP public key.
+See complete headers for address and phone numbers.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 02 Jan 2007 11:58:21 +0100
+From: Thomas Rohner <t.rohner at bluewin.ch>
+Subject: Optical mice in brewing/automation
+
+
+Hi Kevin
+
+
+My first advice: don't do it.
+If i understand the technology of optical mice, they are ok
+to measure movements in different speeds and directions, but
+not precise and repeatable lenthg measurements.
+You can have a look here to get a idea, why i don't think it
+will work without a considerable amount of code, if ever.
+
+
+http://home.comcast.net/%7Emaccody/robotics/mouse_hack/mouse_hack.html
+
+
+While thinking of it, i came to a much easier and workable solution.
+Go to a electronics/computer junkyard and look for a inkjet printer
+like a epson/canon or a hp. On the backside of the cartridge carrier
+you will see the encoder strip going the whole length of the normal
+movement. It's a plastic strip maybe a quarter of a inch high. If you
+take a close look, you can see fine black lines on it. On the cartridge
+holder, you will find a two channel sensor that gives you two square
+signals 90 degrees out of phase. With some logic and a up/down counter,
+you have a precise length measurement.
+Maybe you could even use the mechanics of the printer as guides.
+This is a fairly common way of length measurement in the automation
+world. You could as well take a rotary encoder, it's essentially the
+same as the strip, but on a rotating disk.
+I don't know your skills in electronics or microcontroller programming,
+but this would be a fairly easy thing to do.
+
+
+Atmel controllers rule!!!
+
+
+Cheers  Thomas
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 02 Jan 2007 08:23:44 -0500
+From: "David Houseman" <david.houseman at verizon.net>
+Subject: RE: Secondary Hopping w/Pellets
+
+
+Brian,
+
+
+I just drop the pellets into the secondary carboy.  They do eventually
+settle out.   But at the last AHA conference I had a discussion about dry
+hopping with Ralph Olson of Hop Union.  Ralph recommended re-hydrating the
+hop pellets into a slurry and pouring that into the secondary carboy, that
+this would yield much better hop aroma in the resulting beer.  I tried that
+and it did seem to work well.
+
+
+Regards,
+
+
+David Houseman
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 02 Jan 2007 10:45:06 -0800
+From: Michael Eyre <meyre at sbcglobal.net>
+Subject: Beer line cleaning...
+
+
+ ...for line cleaning, I don't see any reason why I can't just fill a keg 
+with the line cleaner solution and run that through my lines and faucet, 
+no? That, then flush 'em with clean water and I should be good, correct? 
+I was just reading the Micromatic site and see their pro cleaning kit 
+with the pressurized bottle apparatus... the only difference I see 
+between that and using a keg is that their vessel is made of plastic. Is 
+there a problem with putting solution in a SS keg? I can't imagine, but 
+figured I'd ask first....
+
+
+Mike
+
+
+
+
+------------------------------
+
+
+Date: Tue, 2 Jan 2007 16:29:30 -0500 
+From: "Mueller, Kevin (K.M.)" <kmuell18 at visteon.com>
+Subject: Bar Keepers Friend, cloudy cider, and brett
+
+
+First: I've regularly used Bar Keepers Friend on my converted keg kettles to
+keep them in tip top shape.  Great stuff.  This weekend however, I also used
+them to take the years of oxidized grunge off of my copper and brass (dip
+tubes, fittings, etc.)  Awesome stuff!  Just rubbing it lightly with a green
+scrubby (although I'm sure a wash cloth would have worked) got the grunge
+off!  I'll be doing my immersion cooler before I brew next!
+
+
+If you haven't tried Bar Keepers Friend, you owe it to yourself to try it!
+
+
+Second:  I've got a couple of gallons of cider that won't clear.  I started
+with two gallons of cider from the local mill, and fermented with some
+nutrient and White Labs English cider yeast in a 5 gallon carboy.
+Fermentation went well, and I transferred to a 2 1/2 gallon carboy for
+further conditioning and clearing.  At the same time I added some store
+bought cider to top up the carboy.  I also added some pectic enzyme.  Now
+I've got some very lightly colored, but murky, yellow/gold cider in the
+carboy.  This was 3-4 weeks ago.  
+
+
+Any suggestions on how to clear it?
+
+
+Third:  I've got a mason jar with some old yeast in it from Orval.  This was
+successfully used by me and others in my club, and mine was to my knowledge
+the last local source.  I looked at it last night (its buried behind a bunch
+of corneys, so I don't normally see it) and there is an obvious, bright
+white pellicle on it.  It was stored under boiled distilled water, but its
+possible that I didn't completely wash out all of the spent beer.  So, does
+Brett (which I believe is in the Orval culture) cause a pellicle, or do I
+likely have some sort of infection that I don't want to deal with and I
+should just throw out the whole lot?
+
+
+On a side note, I had one of the best brew sessions ever this weekend.
+EVERYTHING went right!  Temps and volumes were spot on.  (OK, there was a
+minor boil-over, but not to bad).  Hopefully this is a sign for good brewing
+in the new year!
+
+
+Kevin
+Canton, MI
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #5119, 01/02/07
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

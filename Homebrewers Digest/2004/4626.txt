@@ -1,0 +1,527 @@
+﻿Date: Tue, 12 Oct 2004 23:03:48 -0400
+Subject: Homebrew Digest #4626 (October 12, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4626                             Tue 12 October 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Artificial & other sweeteners: an overview (David Radwin)
+  Fortnight Of Yeast, 2004 - stress vs biomassyield ("Fredrik")
+  Kinetics and Thermodynamics, CCFC in Tazzie ("Dave Burley")
+  Re: Pump Mounting ("Martin Brungard")
+  Re: Curve Fitting (Christopher Swingley)
+  FOY, 2004 -Response- Published attenuation levels for various yeasts- Fred Johnson ("Rob Moline")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*               A Fortnight Of Yeast                    *
+*  Presented by the HBD in cooperation with Lallemand   *
+*      Questions submission: 10/11 - 10/22/2004         *
+* include Fortnight Of Yeast, 2004 in your subject line *
+* More info http://hbd.org/hbd/archive/4620.html#4620-3 *
+*********************************************************
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 11 Oct 2004 19:47:15 -0700 (PDT)
+From: David Radwin <dradwin at yahoo.com>
+Subject: Artificial & other sweeteners: an overview
+
+
+Related to some recent discussion, this article might
+be useful for anyone considering using Splenda,
+stevia, or various other sweeteners for beer or cider.
+It's informative but not especially detailed or
+technical.
+
+
+http://tinyurl.com/6p6fe or
+http://www.sfgate.com/cgi-bin/article.cgi?file=/chronicl
+e/archive/2004/09/15/FDGA58M7L21.DTL
+
+
+David 
+
+
+
+
+                
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Oct 2004 06:51:28 +0200
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Fortnight Of Yeast, 2004 - stress vs biomassyield
+
+
+Dr. Fischborn and Dr.Waldrop, thank you very much for 
+hosting another fortnight of yeast! This is like Xmas for us.
+
+
+First I'm sorry to post so "long" and not very distinct questions 
+but if I just made it short there may be misunderstandings, so I 
+try to explain some of the motives and elaborate the questions. 
+Your and everyone elses comments on these issues are much 
+wanted!!
+
+
+I have some questions regarding yeast that just to set them in 
+proper context are related to my attempt to understand yeast 
+and make a computer simulation of a beer fermentation. I am 
+currently modelling the states, active dormant and dead. And 
+the transitions are considered by transition probabilites 
+(statistically that is), and the transition functions are suppsoed to 
+be state functions of yeast, wort and fermentor variables. The 
+below question all relate to stress and biomassyield and to an 
+extent the transition probabilites between states. I hope
+to decompose the stress into some principal stresses, and find
+how the depress the biomass yield (but also how they case 
+damage and death, which is another side of it)
+
+
+Q1 --------------------------------------------------------------
+Tracing back to Balling, many formulas in brewing, including 
+alcohol/FG/OG formulas tend to assume a fixed biomass yield of 
+some 5%. As I understand this is an empirically determined value, 
+that I assume is an effective average under "typical conditions". 
+But as far as I understand the biomass should be a dynamic 
+and in an extended dynamic treatment I doesn't seem valid to 
+treat the biomass yield as a constant? Stirplates in starters
+are but one example.
+
+
+Note: I am aware that respiration levels does increase the 
+biomass yield too, but that is not what I am after here. I am
+trying to understand stress depression of the yield.
+
+
+Considering the biomass yield vs time, during a batch fermentation. 
+Since stresses build up, and especially external sugars drop in the 
+very end I am assuming that the biomass yield must drop during 
+fermentation. For example, as the sugar concentration is low the 
+rate of energy production drops.
+
+
+Actual Q1) 
+    How low is the cellwise biomass yield  at  EOF, just before the 
+cells start to tend to go dormant? What do you think about the 
+idea that the biomass yield drops to close to zero? What about 
+correlating the transition from active to dormant with the biomass 
+yield drop? 
+
+
+The idea I have is that the biomass yield in turn would depend on 
+the free energy balance. Incomes - expenses. Expenses also 
+including possible stress factors, transport costs etc. 
+
+
+If you feel this still is a dim question perhaps you can elaborate 
+about the topics of dynamic biomass yield and biomass - stress 
+correlation?
+
+
+Q2---------------------------------------------------------------
+
+
+Actual Q2)
+    In a normal batch fermentation, how would you rate these 
+different factors that depress the biomass yield?
+: CO2, alcohol, concentration gradients on culture, 
+UFA/sterol drop
+
+
+When using a stirplate but *not* aerate, what  factor is most 
+important beeing responsible for the increased biomass yield? 
+
+
+i.e I want to if possible put numbers on how much the CO2 
+supersaturation depresses the biomasyield. etc.
+
+
+Have these things been quantified, and isolated from other stress 
+factors? What if you stirr in an pressure gas chamber of high 
+CO2 pressure, would the benefit from removal of gradient be 
+significant still? Or is it some mechanical excitation of the cells?
+
+
+Q3 ------------------------------------------------------------
+ As alcohol tolerance are supposed to relate to pitching rates, 
+sterol levels and also other add-on stress factors, I wonder what 
+the conditions are for the alcohol tolerance numbers that you 
+sometimes find for strain descriptions? It seems clear that there 
+has to be a limit, but it also seems that the limit can be stretched? 
+(ie it's not fixed) so the question is thus
+
+
+Actual Q3) 
+    How does yeast companies typically *define* the alcohol 
+tolerance limit? ie. what is the exact experimental setup/conditions 
+and numerial procedure used to arrive at the alcohol tolerance numbers?
+- -----------------------------------------------------------------
+
+
+ /Fredrik 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Oct 2004 10:54:23 -0400
+From: "Dave Burley" <Dave_Burley at charter.net>
+Subject: Kinetics and Thermodynamics, CCFC in Tazzie
+
+
+Brewsters:
+
+
+/Fredrik is postulating that it is an energetic relationship as to why the 
+maltotriose is the "last to be consumed".   I doubt that and suspect it is a 
+kinetic phenomenon, as are many of the cell wall transport phenomena and 
+enzyme reactions.
+
+
+Perhaps part of the problem is /Fredrik's concept that somehow the yeast take 
+in and consume carbohydrates serially. Not so. All the carbs are being 
+processed in parallel. Some just more slowly than others.
+- --------------------
+Stuart Grant is contemplating a CCF chiller to be used to withdraw his hot 
+wort to his fermenter and worries if it will work by gravity.
+
+
+As far as working by gravity mine does just fine with a meter of height 
+difference, but you may get some grief with the pelleted hops as I have in the 
+past. Even with a Choreboy filter, the finely divided hops in combination with 
+a high OG wort can slow down or even stop as it cools.
+
+
+Surely it is possible even in the Outback of Tazzie to mailorder some leaf 
+hops to use as part of your hop charge. These leaf hops will act as a filter 
+bed for the pelleted hops. Otherwise, I'd forget the idea based on my 
+experience, unless you use  a large diameter inner tube ( I think mine is 1/4 
+or 3/8 inch) on your CCF chiller. This will reduce your chilling capacity 
+unless you use a longer tube to get the same total inner surface area as the 
+smaller inner tube I use.  Then again that cold tap water from near the South 
+pole may do the job just fine with a larger diameter inner tube.
+
+
+
+
+Keep on Brewin'
+
+
+Dave Burley 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Oct 2004 07:13:39 -0800
+From: "Martin Brungard" <mabrungard at hotmail.com>
+Subject: Re: Pump Mounting
+
+
+
+
+Mike O'Donnell posed a question about the mounting of a March mag pump.
+
+
+I work in the water and wastewater industry and deal with pumps frequently.  
+Most motors are designed to work in a particular shaft orientation.  The 
+main reason that a motor needs to be oriented as intended is for bearing and 
+shaft life.  In the case of a horizontal motor, there is only limited 
+provision for axial loading.  Frequently, this is in the form of a couple of 
+simple thrust washers.  These washers are subjected to occassional contact 
+with the rotor just to keep the rotor centered in the motor casing.  When 
+turned vertical, one of the thrust washers is subjected to constant loading 
+from the rotor weight that will result in overheating and failure of the 
+washer.
+
+
+In the case of a vertical shaft motor, the bearing system has been designed 
+to support the constant axial load from the rotor weight.  Usually, the 
+motor is intended for only one vertical orientation, ie the motor can't be 
+mounted upside down.  Then the axial load would be placed on the bearing 
+that wasn't intended to support an axial load.  Its debatable if some 
+vertical shaft motors can be used horizontally, but for the most part, they 
+shouldn't be.
+
+
+I just checked the March website and confirmed that they specifically say 
+that their pumps must be mounted horizontally.  I have been into my March 
+pump and can attest that they only have simple thrust washers at the shaft 
+ends.  They would not perform well in a vertical configuration.
+
+
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Oct 2004 12:23:32 -0800
+From: Christopher Swingley <cswingle at iarc.uaf.edu>
+Subject: Re: Curve Fitting
+
+
+Greetings!
+
+
+* Martin Brungard <mabrungardathotmail.com> [2004-Oct-11 05:12 AKDT] 
+* wrote:
+> One of the most widely known packages is Excel.  Another is Grapher.  
+> Both of these programs are commercial and somewhat expensive.  Curve 
+> fitting is not their main purpose.  Neither of these programs do this 
+> job very well.
+
+
+Agreed.
+
+
+> Fortunately, there is a cheap way to get a better solution.  There is 
+> a shareware product called CurveExpert that is specifically intended 
+> for curve fitting.  It does a very good job.
+
+
+Another good, and free choice is the 'R' statistical package.  It is an 
+open-source implementation of the 'S' statistical computing language, 
+and is available for Linux, Mac System 8.6 - OS X, and Windows 95 or 
+later.  It is *certainly* more difficult to use than the program Martin 
+mentions, but it is a full featured statistical package so it can do a 
+lot more than just curve fitting.
+
+
+Consult:
+
+
+    http://www.r-project.org/
+
+
+for more information, and download locations for your platform.
+
+
+I've been using the program for the past year in an attempt to predict 
+apparent attenuation using a bunch of variables (mash temperature, yeast 
+type, starting gravity, and beer color).  Here's a sample session 
+demonstrating a linear fit to a bit of the data:
+
+
+    > mashdata <- read.table('mash_temp_v_attenuation')
+    > model <- lm(aa ~ sg, data=mashdata)
+    > summary(model)
+
+
+    Call:
+    lm(formula = aa ~ sg, data = mashdata)
+
+
+    Residuals:
+        Min      1Q  Median      3Q     Max
+    -7.3800 -2.1568 -0.0782  2.5637  7.9246
+
+
+    Coefficients:
+                Estimate Std. Error t value Pr(>|t|)
+    (Intercept) 92.20718    5.05795  18.230 3.97e-12 ***
+    sg          -0.30051    0.08643  -3.477  0.00311 **
+    ---
+    Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+
+
+    Residual standard error: 4.296 on 16 degrees of freedom
+    Multiple R-Squared: 0.4304,     Adjusted R-squared: 0.3948
+    F-statistic: 12.09 on 1 and 16 DF,  p-value: 0.003113
+
+
+This isn't exactly a very good fit, even if all the coefficients and the 
+model itself are significant.  So far, my brewing hasn't shown mash 
+temperature to be important in predicting attenuation.
+
+
+Have fun!
+
+
+Chris
+- -- 
+Christopher S.  Swingley          email: cswingle at iarc.uaf.edu (work)
+Intl. Arctic Research Center            cswingle at gmail.com (personal)
+University of Alaska Fairbanks   www.frontier.iarc.uaf.edu/~cswingle/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Oct 2004 20:36:49 -0500
+From: "Rob Moline" <jethrogump at mchsi.com>
+Subject:  FOY, 2004 -Response- Published attenuation levels for various yeasts- Fred Johnson
+
+
+        FOY, 2004 -Response- Published attenuation levels for various yeasts- Fred
+Johnson
+
+
+ Commercial yeast producers and others publish attenuation figures for
+each yeast. Are these figures obtained using a standard protocol within
+the company publishing the results? Are these figures obtained using a
+standard protocol across the industry? If so, how does that protocol
+relate to the vast array of wort compositions and fermentation
+conditions that are encountered in the commercial brewery and in the
+home brewery?
+I suspect that the reasons yeasts vary in the degree to which they
+attenuate wort are only partly known, but I would appreciate a brief
+summary of what is known about this.
+Fred L Johnson
+
+
+Fred,
+There is no standard procedure to determine the attenuation properties of
+yeast strains. Usually yeast producers have internal standard wort and
+conditions to compare the different yeast strains. But you are absolutely
+right that wort composition and fermentation conditions vary from brewery to
+brewery, which has a huge impact on attenuation. That is why we do not give
+definite attenuation values for each yeast strain but put each yeast strain
+in an attenuation group (High, medium, low) based on fermentation results
+with our standard wort and fermentation conditions. This way the customer is
+still able to select a yeast strain that suits best his beer style but they
+have to determine the absolute attenuation under their specific conditions
+for themselves.
+The attenuation properties of a yeast strain depend on various factors.
+Flocculation properties of a strain can influence attenuation; a very
+flocculent strain that settles before the fermentation is complete will
+leave more residual sugars in the beer than a strain that stays in
+suspension longer.
+Lager yeast usually attenuates relatively high whereas ale yeasts show
+larger differences in attenuation depending on their metabolism. One factor
+is the ability to use maltotriose.
+Regards
+Tobias & Forbes
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.775 / Virus Database: 522 - Release Date: 10/8/2004
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4626, 10/12/04
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

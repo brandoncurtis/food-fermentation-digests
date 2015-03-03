@@ -1,0 +1,1463 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Tue May 23 03:37:26 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["47243" "Tue" "23" "May" "1995" "01:01:08" "-0600" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1182" "Homebrew Digest #1738 (May 23, 1995)" "^Date:" nil nil "5" nil nil nil nil]
+        nil)
+Received: by truelies.rs.itd.umich.edu (8.6.12/2.2)
+        with X.500 id DAA00499; Tue, 23 May 1995 03:37:23 -0400
+Received: from goodman.itn.med.umich.edu by truelies.rs.itd.umich.edu (8.6.12/2.2)
+        with SMTP id DAA00494; Tue, 23 May 1995 03:37:22 -0400
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA26411
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Tue, 23 May 95 03:37:15 -0400
+Received: from hpfcmi.fc.hp.com (hpfcrdg.fc.hp.com) by hpfcla.fc.hp.com with ESMTP
+        (1.37.109.16/15.5+ECS 3.3) id AA226824389; Tue, 23 May 1995 01:33:09 -0600
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.11 $/15.5+IOS 3.22) id AA154502467; Tue, 23 May 1995 01:01:08 -0600
+Message-Id: <199505230701.AA154502467`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+Date: Tue, 23 May 1995 01:01:08 -0600
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1738 (May 23, 1995)
+
+
+
+
+
+
+HOMEBREW Digest #1738                             Tue 23 May 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  CO2 Pressure Fluctuations (Terence McGravey {91942})
+  CO2/N2 & Guiness (MicahM1269)
+  Pico-System Pump Problems & stuff ("Robert Waddell")
+  Re: Wheat malt ("R. James Ray")
+  False Bottoms/Recirculation/Grain Bed Tech (Kirk R Fleming)
+  Brew happenings on Long Island ("Rick Gontarek, Ph.D.")
+  Gelatin ("Mark A. Melton")
+  Decoction Technique (dflagg)
+  High Gravity All Grain Mashing (kegster)
+  Samuel Adams Boston Lager (Beersgood)
+  T.R.A.S.H. V Winners (RCBEER)
+  stuck fermentations/Franklin malt/mercury (Andy Walsh)
+  FTP to homebrew archives ("Philip Gravel")
+  Beekeeper's Brown ... a treat for the extract brewers! (Jim Graham)
+  SUBSCRIPTION INFO (MARK LINE)
+  Looking for small ale recipe (R. Mark Jones)
+  Praise be gelatin! ("Timothy P. Laatsch)
+  New book announcement (LeRoy S. Strohl)
+  Mercury - it's in the water (kevin)
+  "Oily" ingredients (smtplink!guym)
+  Mercury thread lives on! (Domenick Venezia)
+  computer modeling of beer fermentation (Gary A. Meier)
+  Unmalted wheat (kit.anderson)
+  crystal malt, hop plant, grain type (HOMEBRE973)
+  Corny Keg Aspect Ratio (Ben Rettig)
+  Mercury Thread Spreads Beyond The Internet (dsanderson)
+  Styles & Creativity (Part I), by Sam Piper (dhvanvalkenburg)
+  RE: Friendly Faces (Tim_Fields_at_Relay__Tech__Vienna)
+  Mystery Grains, Weiss Squad (Russell Mast)
+  Coconuts and Copper (Russell Mast)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 20 May 1995 09:54:30 -0400
+From: Terence McGravey {91942} <tpm`at`swl.msd.ray.com>
+Subject: CO2 Pressure Fluctuations
+
+
+
+
+Greetings,
+
+
+  Chris Sack responded to my dilemma of pressure fluctuations from
+the CO2 regulator. Two problems Chris mentioned were :
+
+
+      1) Fermentation was not quite finished
+      2) Temperature of the keg changed
+
+
+  I think I can definitely rule out both of these. My final gravity
+fell right where it was expected to. As for point 2, my keg system
+is in my basement which maintains a steady cool temperature. My kegs
+are kept in a fridge and are fed by the CO2 tank which is outside the
+fridge (to prevent moisture in the regulator and leave enough room
+for 2 kegs in the fridge). Even if fermentation were not complete,
+I can't see the pressure climbing as much as it does.
+  I will try Chris's experiment by putting some water in another
+keg and put pressure on it to test it out that way and post the
+results. Thanks Chris !
+
+
+  Dom Venezia also questioned why I kept live pressure on my kegs.
+I do this when artificially carbonating - 48 hours under 15 lbs of
+pressure into the refrigerated beer - works perfectly for me ! Also
+recently because of the problem I noticed.
+
+
+
+
+     Terry McGravey
+     Methuen, MA                    "TO BREW...AND TO SERVE"
+     tpm`at`swl.msd.ray.com
+
+
+------------------------------
+
+
+Date: Sat, 20 May 1995 10:23:28 -0400
+From: MicahM1269`at`aol.com
+Subject: CO2/N2 & Guiness
+
+
+For my 2 cents worth on this subject, it is the faucet not the gas
+that makes the creamy pour. I have three of those Guiness faucets
+on my home draft setup and they pour almost any beer with that same texture
+of foam. I am dispencing with premixed 70% N2, 30% CO2 gas.
+
+
+micah millspaw - brewer at large
+
+
+------------------------------
+
+
+Date: 20 May 95 10:37:00 MDT
+From: "Robert Waddell" <V024971`at`Tape.StorTek.Com>
+Subject: Pico-System Pump Problems & stuff
+
+
+ 
+ Hi, All,
+ 
+ Well, thanks to the many responses that I have received concerning the problems
+ that I was having with my new Pico-System pumps, I've come up with a plan for
+ the next batch.  It seems that these type of pumps are not self priming and are
+ quite sensitive to *any* air bubbles in the housing.  I think that the secret
+ is to fill the vessels *through* the pumps with the garden hose.  That should
+ eliminate any air bubble problems.  The problem with a few of my hop flowers
+ getting through the copper screen will be solved by putting a copper "Chore 
+ Boy" under the pickup tube.  I'll also put one under the tube in the mash 
+ vessel to catch any "rogue" grains that might find their way to the spray 
+ head.   %^)
+ 
+ Thanks to everyone who responded to my post.  Even Mike O'Brien from 
+ Pico-Systems responded.  
+ 
+ I just can't speak highly enough about this system.  I thought that the move up
+ from extract brewing to all grain in a Gott cooler was a profound difference.
+ This setup is celestial.  Even the way that they pack everything for shipping
+ was remarkable.  I guess the only improvement that I can make now is to build
+ a micro-brewery with a "Bohemia" type modular system and hang out a shingle.
+ I'm not affiliated, and all that.  Just a HAPPY customer.  
+ 
+ Robert (I don't think I can hold Pico responsible for the divorce) Waddell
+ V024971`at`tape.stortek.com
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 May 1995 09:48:16 -0700 (PDT)
+From: "R. James Ray" <ray902`at`uidaho.edu>
+Subject: Re: Wheat malt
+
+
+On May 19 Frank Caico wrote:
+
+
+> Wheat will not *lighten* the body, but will in fact increase the body.  Wheat
+> is not as high in fermentable sugars as barley malt is and therefore does not
+> produce the effect you describe.
+
+
+I have been colecting some info on malting and particularly wheat malt 
+for a potental research project.  I was suprised to learn that wheat malt 
+yields higher extract than barley.  I think that must be because wheat is 
+hulless.  The increased body and mouthfeel come from proteins.
+
+
+R. James Ray
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 May 1995 11:29:32 -0600
+From: flemingk`at`usa.net (Kirk R Fleming)
+Subject: False Bottoms/Recirculation/Grain Bed Tech
+
+
+Regarding recirculaton Lance asks:
+- ----------------------------------
+
+
+>What difference does it make whether it takes 1 quart to
+>get clear runoff or 5 gallons to get clear runoff?  
+
+
+This is a good question--mine is this: what difference does it make if it
+*ever* runs clear?  When doing stovetop mashing of an all-grain beer I
+don't do recirculation at all.  I maintain the temperature by sitrring 
+the mash frequently enough.  When the mash goes into the kettle it of has
+a good deal of particulate matter in it.  I have noticed no difference 
+in the final product between this technique and recirculated.  Assume no
+husks get into the kettle--none do in my process.
+
+
+>The grain bed is the actual filter anyway, not the screen, so why 
+>restrict the flow.
+
+
+Not sure what you mean by 'why restrict the flow'.  The screens I've
+described are only about 10% open vs your 70%, but this isn't due to a 
+desire to restrict the flow.  It's only that 10% open provides ample 
+flow and 1) that's what the first pre-fab screens had, or 2) that was
+the practical limit of how many holes I could drill in my plate.  So I 
+don;t think there is a concious effort to resrict the flow with the 
+screen design.
+
+
+If you're talking about maintaining a reduced recirculation rate during 
+a temperature soak, *my* only objective is to ensure minimum distrubance 
+to the grain bed.  I know someone out there has claimed recirculation 
+itself has a deleterious effect on the beer--I wish I could cite this 
+and I definitely don't know if it has been substantiated or not.
+
+
+I'd like to hear your comments on these issues...as well on one more:
+
+
+I think everyone's heard the story: the husks fall to the bottom of the 
+grain bed and provide a filter bed that small particles get trapped in.
+Is this another Momism?  Has anyone allowed the grain bed to drain for 
+several hours, then actually attemped to section it and look at the 
+particle size distribution?  Do I have the Momism wrong, or is it just 
+me that has never seen any evidence of such a distribution?
+Kirk
+"...besides, one finger is all any *real* American needs, anyway."
+                                   (Al Bundy on power tool safety)
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 May 1995 20:00:26 -0400 (EDT)
+From: "Rick Gontarek, Ph.D." <GONTAREK`at`FCRFV1.NCIFCRF.GOV>
+Subject: Brew happenings on Long Island
+
+
+Hi there everyone.  Anybody know of decent bars/brewpubs on Long Island?
+I will be at Cold Spring Harbor for 5 days starting on the 23rd, and would
+be interested in hearing of any cool places to visit while I'm out there.
+I hear there's a new brewpub out there...anybody have any details?  Anyway,
+CSH in near Huntington, so if anybody has some suggestions of bars, etc., I'd
+appreciate hearing about them.  TIA.      
+
+
+Rick Gontarek
+gontarek`at`fcrfv1.ncifcrf.gov
+Owner/Brewmaster of the Major Groove Picobrewery
+baltimore, MD
+soon to be relocated to frederick, MD
+
+
+------------------------------
+
+
+Date: 21 May 95 00:27:40 EDT
+From: "Mark A. Melton" <75452.277`at`compuserve.com>
+Subject: Gelatin
+
+
+Matt Kelly (HBD 1734) asks about using gelatin if Irish Moss has been omitted
+during the boil; and will this help prevent chill haze.
+
+
+In 39 years of home brewing, I have found that neither IM nor gelatin have
+helped clarify the resulting beer. 
+
+
+Neither gelatin nor Irish Moss prevent chill haze.
+
+
+Gelatin when added to the beer shortly before bottling forms a coating on the
+sides of the bottle that can be removed by twisting the bottle sharply, after
+which it will fall to the bottom as sediment. This has nothing to do with
+keeping the yeast on the bottom nor does it prevent the yeasties from
+conditioning the beer.
+
+
+I have had some success in reducing chill haze by a 3-week secondary rest (it's
+not exactly a secondary fermentation as there are no overt signs of
+fermentation) at as cool a temperature as possible, then clarifying with
+Polyclar about 3 days before bottling. Chill haze in lagers can be reduced by
+chilling to 32 dF for 3 weeks then clarifying as above. 
+
+
+It is a waste of time to use Irish moss, and worse than nothing to use gelatin.
+
+
+Mark A. Melton
+Home brewer since 1956 (1936 with my father)
+  
+
+
+
+
+------------------------------
+
+
+Date: Sun, 21 May 1995 12:06:47 -0400
+From: dflagg`at`agate.net
+Subject: Decoction Technique
+
+
+> Mike Inglis says:
+
+
+>have never done a decoction before and was just wondering what the 
+>detailed procedure for "pulling the thick part of the mash" is.
+
+
+I use a scoop/strainer that came with wife's "Fry Daddy" mini deep
+fryer.  It's like a very wide, shallow spoon with slots.  The 
+secret is to pick up as little fluid as possible.  Don't press
+it dry or wait until it stops dripping but use a utinsil that 
+allows most of the fluid to drain off when you take a scoop.  The
+husks of grain will retain all the fluid you need.
+
+
+************************************************************
+Doug Flagg                  |  "A Homebrew a day...
+dflagg`at`orono.sdi.agate.net  |   Keeps the Worries away!"
+************************************************************
+
+
+
+
+------------------------------
+
+
+Date: Sun, 21 May 95 18:38:00 UTC
+From: kegster`at`genie.geis.com
+Subject: High Gravity All Grain Mashing
+
+
+Hey folks,
+ 
+I'm about to embark on the oddesy of making an imperial stout.  I am aware of,
+and understand, many of the considerations of high gravity brewing (i.e. proper
+aeriation, suficient yeast starter, stringent temp control during
+fermentation).  What I'm looking for advice on is the mashing process.
+ 
+ What is it that prompts brewers to use only the first runings of a mash to
+make a strong beer?  Does it have to do with the tannins that would be
+extracted during sparging?  I'm ready and willing to be educated... <g>
+ 
+ -chris kagy, asst. sysop, zymurgy RT, GEnie
+ -- Sent using Online Servant 1.32
+
+
+------------------------------
+
+
+Date: Sun, 21 May 1995 18:41:32 -0400
+From: Beersgood`at`aol.com
+Subject: Samuel Adams Boston Lager
+
+
+Can anyone tell me how to emulate Samuel Adam's Boston Lager with extract? I
+have a good friend who thinks this is nectar from heaven and I would like to
+be able to make him some. Let me appeal to you proselytizing zeal - if I
+could make a beer that was similar to this he would probably start brewing
+himself!
+
+
+Thanks,
+Dave Petersen
+Crete, NE
+
+
+------------------------------
+
+
+Date: Sun, 21 May 1995 21:57:51 -0400
+From: RCBEER`at`aol.com
+Subject: T.R.A.S.H. V Winners
+
+
+The Three Rivers Alliance of Serious Homebrewers fifth homebrew competition
+was held on Saturday, May 20.
+We had 235 entries. Thanks to all who entered and congratulations to the
+following winners.
+T.R.A.S.H. V  Winners
+
+
+_American Ales
+First Place - Bob Joseph , Second place - Christopher Solis , Third place -
+Larry Steinmetz
+_Dark Lagers
+First place - Bob Joseph, Second place - D&K Dugarm, Third place, Mark Martin
+_Belgian / French Ales
+First place - Phillip Kaufman, second place - George Pace, third place -
+Phillip Kaufman
+_Bock
+First place - Gregory Walz, Second place - Gregory Walz, Third place - Bill
+Campbell
+_Brown Ale / Steam
+First place - Eleanor Hallam, second place - Rolf Erickson, Third place -
+Neuman & Geidel
+_Cider
+First place - Tony Knipling, Second place - Martin Stokes, Third place -
+Larry Grunden
+_Continental Pilsner
+First place - John Chernoff, Second place - John Fries, Third place - Bob
+Wolff
+_English Bitter
+First place - Phillip Kaufman, Second place - Rock Roberts, Third place -
+John Chernoff
+_Fest / Alt
+First place - George and Karen Neuman, Second place - Stephen Kurpienski, 
+Third place - Neuman / Stewart / Davis
+_Fruit Beer
+First place - Curt Speaker, Second place - D&K Dugarm, Third place - Jonathan
+Rubin
+_Herb beer
+First place - Bob Rexroad, Second place - Don Van Ollefen, Third place -
+Larry & Jan Steinmetz
+_Light Lager
+First place - Curt Speaker, Second place - Pete Land, Third place - Stephen
+Kurpienski
+_Mead
+First place - Bill Campbell, Second place - Robert Joseph, Third place - Rolf
+Erickson
+_Pale Ale
+First place - D&K Dugarm, Second place - Phillip Kaufman, Third place -
+Richard Allen
+_Porter
+First place - D&K Dugarm, Second place - Steven Zabarnick, Third place-
+ Steve Jones
+_Strong Ale / Barleywine
+First place - Paul Devine, Second place - Jonathan Rubin , Third Place -
+Steve Jones
+_Sweet Stout
+First place - Robert Joseph, Second place - Gregory Walz, Third place -
+George Pace
+_Dry Stout
+First place - Rolf Erickson, Second place - Jonathan Rubin, Third place -
+Martin Stokes
+_Wheat Beer
+First place - Neuman / Geidel, Second place - Larry Szramowski, Third place -
+Rolf Erickson
+BEST OF SHOW - Robert Joseph - " BOBS ALE " - American Ale
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 95 12:50:18 EDT
+From: awalsh`at`pop03.ca.us.ibm.net  (Andy Walsh)
+Subject: stuck fermentations/Franklin malt/mercury
+
+
+I rarely get a stuck fermentation, but whenever I try
+and make a tripel I get one! I recently made a tripel
+that stuck at 1.040 after starting at 1.090. I believe that
+tripels are *very* sensitive to getting stuck due to high
+initial glucose levels. I don't have a textbook handy, 
+but I believe this is known as the Crabtree effect: the 
+idea being that above a certain glucose concentration,
+the yeast bypasses the aerobic phase at pitching, and
+starts fermenting the glucose straight away, causing
+fermentation problems later. (if this is wrong I'm
+sure all the Al robots will correct me!). I used a huge,
+healthy 3944 (white) starter, and aerated with an
+aquarium thingy etc.. I am especially careful when
+making tripels, but they still get stuck.
+Once before I aerated a tripel again after a very slow 3
+month (!) fermentation. Well it worked, and restarted
+the yeast. The beer was delicious for about 2 months,
+but deteriorated after that due to oxidation.
+This time I added "Modiferm" which is just beta amylase
+(I think), which also restarted the ferment after about a day.
+The trouble is, that these are just fixes for a problem I
+would sooner avoid in the first place. I worry about adding
+enzymes, as of course it changes the sugar content of
+the beer that I carefully nurtured in my mashing schedule.
+The beer may ferment, but Is My Beer Ruined? (this
+deserves an acronym "IMBR").
+Enough rambling - the point is, for all you expert tripel
+brewers out there, do you ever have a similar problem,
+and if so, how do you avoid it? I thought of leaving out
+the brewing sugar from the boil, (reducing initial glucose
+levels), pitch the yeast, wait until peak krausen, then
+adding the sugar at this stage, hopefully getting a 
+proper ferment.
+Any suggestions are welcome.
+******
+Ken Willing talks about Franklin malt that I have also started
+using. 
+Additional data: 8% protein content, high 30's soluble nitrogen ratio
+(Referred to as "Kolbach Index" in Europe and Australia).
+This means it would produce wort with very low FAN, if no
+protein rest is used. The maltster recommends a protein rest,
+otherwise it won't ferment, but obviously with such a low protein
+content you don't really want to do that with respect to body,
+head retention etc.. In regard to Ken's comments, I was wondering
+about using a protein rest around 55C to maximise protease
+activity.. ie. breaking down the large haze-forming proteins,
+rather than the desirable medium sized proteins. My question is,
+does such a rest break the large polypeptides down to (desirable)
+amino acids for the yeast to use, or (useless) smaller proteins?
+In any event, yeast nutrient (ammonium salts) may be the way to
+go, as a protein rest does not appear desirable with this malt.
+I'll do some tests on this Ken, and get back to you.
+******
+As a kid I tried to get out of going to school by heating a mercury
+thermometer with a match. I cracked the glass unknowingly, then
+stuck it in my mouth to show Mum how sick I was. Well it broke
+and I swallowed the lot. That was more than 20 years ago.
+For those of you who know me, it might explain my current 
+condition........
+
+
+*****************************
+////     Andy Walsh from Sydney
+////     awalsh`at`ibm.net
+////     phone 61 2 369 5711
+*****************************
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 00:10:46 -0500 (CDT)
+From: "Philip Gravel" <pgravel`at`mcs.com>
+Subject: FTP to homebrew archives
+
+
+
+
+===> Bob Sinnema has problems listing the homebrew archives:
+
+
+>        Finally, is it possible to have some of the directories at 
+>ftp.stanford subdivided?  Whenever I try to get a file listing ("dir" 
+>command) for the docs directory (and for the yearly archives), I can 
+>never get the complete list.  Usually, I end up with the first 20-30 
+>files (thru c*) and the last few files (w* to the end).  Sometime, I'd 
+>like to see the entire list -- its been a great resource for me and I 
+>know there's more out there.
+
+
+That's odd.  I don't know why that's happening.  Have you tried:
+
+
+     ftp> ls |more
+
+
+The |more will cause the display to be shown a screen at a time.  Also,
+you might want to use a Web browser that supports ftp.  That will show
+you the files in a directory as a list on a Web page.
+
+
+- -- 
+Phil
+_____________________________________________________________
+Philip Gravel   Lisle, Illinois               pgravel`at`mcs.com
+
+
+------------------------------
+
+
+Date: Sun, 21 May 1995 16:58:11 -0600 (CDT)
+From: jim`at`n5ial.mythical.com (Jim Graham)
+Subject: Beekeeper's Brown ... a treat for the extract brewers!
+
+
+It's been quite a while since I've had a good recipe to post to the digest,
+but this one definitely deserves to be passed along!  This one is for the
+extract brewers---I'm limited by space, $$$, etc. (mostly space), and
+still brew from certain kits (i.e., the ones I really like) every now and
+then.
+
+
+Not too long ago, I decided to brew a brown ale using, along with the
+standard stuff for the kit, honey.  The result is every bit as good as
+I'd hoped.  I hope you'll enjoy it, too.  Basically, I took the Ironmaster
+Brown Ale kit, used corn sugar instead of malt (I was feeling really cheap
+that day), and added honey.  I call it Beekeeper's Brown, and it goes
+something like this:
+
+
+- ---------------------------  CUT HERE  ---------------------------
+
+
+For 6 U.S. gallons:
+
+
+1 Ironmaster Brown Ale beer kit
+about 5.5 cups corn sugar, as with just about any kit
+2 lbs honey (*NOT* boiled)
+1/2 cup corn sugar for priming
+
+
+Started Sun 30 April, O.G.: 1.045
+Bottled Sun 14 May, F.G.: 1.000 (*)
+
+
+Sampled today, 21 May, and it's already *VERY* nice!
+
+
+(*) It needed that full two weeks---as usual with honey, the fermenting
+    started very early, went full steam for a long, long time, and went
+    very much to completion.
+
+
+- ---------------------------  CUT HERE  ---------------------------
+
+
+Comments:  medium bodied brew, nice full flavor, and generally a very nice
+brown.  I'd like to think that I'll be able to save some for when my mom
+and step-father (who is from England) arrive in town next month, but I'm
+not so sure that's going to happen.  ;-}
+
+
+I'm not sure how I found time to brew this one during that time period (I
+was busy working on a huge network upgrade at work, which I'm glad to say
+went extremely well!), but I'm glad I did!  :-)
+
+
+This one isn't just good ``for a kit beer'' ... it's good, period.  :-)
+
+
+Enjoy.
+   --jim
+
+
+PS:  As always, comments, suggestions, etc., most welcome.
+
+
+- --
+73 DE N5IAL (/4)         MiSTie #49997     < Running Linux 1.0.9 >
+      jim`at`n5ial.mythical.com                 ICBM: 30.23N 86.32W
+  ||  j.graham`at`ieee.org          Packet:  --OFFLINE-- (Ft. Walton Beach, FL)
+E-mail me for information about KAMterm (host mode for Kantronics TNCs).
+
+
+
+
+------------------------------
+
+
+Date: 22 May 95 06:23:52 EDT
+From: MARK LINE <100561.2424`at`compuserve.com>
+Subject: SUBSCRIPTION INFO
+
+
+I have recently purchased The Beer Hombrewing Guide CDROM and found your e-mail
+address on it.
+Although I only a novice when it comes to brewing beer I would be interested in
+learning more, so with that in mind I would like to ask for somemore information
+on the Homebrew Digest and wether or not it is possible for a UK resident to
+subcribe to it.
+Also do you know of any magazines on beer brewing that I might be able to
+obtain.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 08:36:52 -0400
+From: aodhan`at`worldweb.net (R. Mark Jones)
+Subject: Looking for small ale recipe
+
+
+I am looking for some small ale recipes. I plan to brew a few batches of
+small ale for some camping trips I'll be making during the next few months.
+
+
+Thanks,
+
+
+ -Mark.
+
+
+======================================================================
+             R. Mark Jones . Socair Information Resources
+1201 South Courthouse Road . Apartment 726 . Arlington, Virginia 22204
+ World Wide Web consulting . Macintosh database/networking/consulting
+      aodhan`at`worldweb.net (Internet)     Socair (America Online)
+                http://worldweb.net/~aodhan/aodhan.html
+======================================================================
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 08:44:21 -0400 (EDT)
+From: "Timothy P. Laatsch <LAATSCH`at`kbs.msu.edu>" <LAATSCH`at`kbs.msu.edu>
+Subject: Praise be gelatin!
+
+
+Hey All,
+
+
+Well, I finally tried it----gelatin, that is.  I boiled about a cup of water 
+and placed it in a thoroughly cleaned and sanitized 8 oz. mayonnaise jar, 
+added 1/2 packet of Knox(tm) unflavored gelatin, allowed to cool, and added 
+directly to the secondary 2 days prior to kegging.  The effect was amazing!  
+Visibly noticeable clarification in the carboy within about 8 hours and 
+steadily improving as time continues to pass.  It appears as if this practice 
+will become part of the SOPs in my brewery.
+
+
+Incidentally, the mayo jar also makes a great irish moss rehydration vessel.  
+I also tried IM rehydration for the first time this past weekend----I'm 
+convinced the wort was already more clear in the primary, but I could have 
+just had anticipatory hallucinations or something.
+
+
+Re: starters.  FWIW, I prepare 600-ml starters `at` about 1.050 OG with a few 
+hop pellets and culture the yeast in a 1000-ml Erlenmeyer.  I pitch an 
+inflated Wyeast packet and top the flask with aluminum foil.  I vigorously 
+swirl the starter every time I get the chance.  The foil and swirling 
+presumably keeps things aerobic, which builds higher cell counts.  I let this 
+mixture "ferment" out and pitch within a day or so.  I almost always have 
+vigorous ferments within 12 hours with the ale yeasts I've tried.  Recently, 
+I was forced to wait an additional week before pitching (the starter "beer" 
+had completely clarified and tasted very nice while brewing!).  As a result, 
+vigorous fermentation did not occur until about 20 hours after pitching (this 
+was 1084 Irish).  As always, YMMV.
+
+
+Dion:  My mailer couldn't reach yours, so thanks for the info on the upcoming 
+book---I look forward to it.
+
+
+Eamonn (sp?), you got "Tim" just right---now try my last name. ;-)  And 
+thanks for the RIMS info---keep it coming!
+
+
+Bones
+
+
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*
+|   Timothy Laatsch               |email: laatsch`at`kbs.msu.edu |   All-grain | 
+|   Graduate Student                  |phone: 616-671-2329        |   but only  |
+|   Michigan State University     |fax:   616-671-2351        |   half-way  |
+|   Kalamazoo, MI                 |                           |    sane     |
+*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 8:46:29 EDT
+From: LeRoy S. Strohl <lstrohl`at`s850.mwc.edu>
+Subject: New book announcement
+
+
+Found an advance publishing announcement in last week's publisher's
+Weekly:
+author: Miller, Dave
+title:  Dave Miller's Homebrewing Guide
+publ:   Storey
+isbn:   0-88266-905-2
+date:   September 1995
+
+
+- --
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 07:59:04 -0600 (MDT)
+From: kevin`at`wheels.aar.com
+Subject: Mercury - it's in the water
+
+
+Something I thought would be fun to throw out here, in this mercury
+discussion, is the amount of free metalic mercury that is found in
+the Arkansas River, here in Colorado....   I know of several people
+who run gold dredges (recreationally), and one guy says that he will
+commonly extract up to 1/4 lb of mercury from the Arkansas River during
+a Satrurday afternoon operation, in the areas where the old prospectors 
+would sluice for gold with mercury in their equipment.  Knowing how 
+common it is to find mercury in the river, the water analysis content of 
+mercury from the river is very low and safe.   Yet, much of that water 
+passed thru the area where the mercury exists commonly!
+
+
+Kevin
+
+
+- -- 
+Kevin Hass WB0DPN       ! 
+                        !  PGP public key by request via email
+kevin`at`wheels.aar.com    !
+
+
+------------------------------
+
+
+Date: Mon, 22 May 95 08:15:48 MDT
+From: exabyte!smtplink!guym`at`uunet.uu.net
+Subject: "Oily" ingredients
+
+
+
+
+  On the subject of adding ingredients containing oil to beer (as in 
+  coconut), I have added coffee and chocolate with no problems.  My recipe 
+  for "Mocha Java Stout" in the Cat's Meow includes 4 oz. of Ghirardelli 
+  unsweetened chocolate and 2 cups of brewed coffee.  The head on that brew 
+  was incredible.  The one thing that I noticed was that there were gobs of 
+  something that I took to be cocoa butter floating on top during 
+  fermentation.  It could be that all the oils congealed in the relative 
+  coolness of the wort and were rendered harmless.
+  
+  On another subject, a couple of weeks ago I opened up the Charlotte 
+  Observer and what to my wondering eyes did appear?  A picture of our 
+  esteemed Professor Kinney Baughman with a sign around his neck and a big 
+  smile on his face.  Kinney, I hear that Charlie has come up with yet 
+  another slogan to use:  "Will teach for food."  (-;
+  
+  --
+  Guy McConnell /// Exabyte Corp. /// Huntersville, NC /// guym`at`exabyte.com
+  "And the beer I had for breakfast wasn't bad, so I had one for dessert."
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 07:42:11 -0700 (PDT)
+From: Domenick Venezia <venezia`at`zgi.com>
+Subject: Mercury thread lives on!
+
+
+I'm sorry, I'm sorry, I'm sorry--but ...
+
+
+From: DocsBrew`at`aol.com    Subject: Toxic...like it or not!
+
+
+>Sweden has recently outlawed mercury amalgams, and Germany has outlawed them
+>on pregnant women - don't you think that means something?  Whether the ADA
+>says so or not, lots of research has shown dental amalgams to be quite 
+>toxic.          ^^^^^^^^^^^^^^^^
+
+
+So publically cite the references on this "lots of research".  I'll get 
+copies and publically withdraw my criticism if I'm convinced.  
+
+
+>Remember that textbooks are for reference, and don't always reflect real
+>life.  Numbers are fine, but don't believe everything you read.  
+
+
+Amen, though I missed your point.
+
+
+>Doc.
+
+
+What kind?  PhD?  Medical?
+
+
+
+
+Domenick Venezia
+ZymoGenetics, Inc.
+Seattle, WA
+venezia`at`zgi.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 10:49:30 -0600
+From: gameier`at`fmc.com (Gary A. Meier)
+Subject: computer modeling of beer fermentation
+
+
+The following abstract just crossed my desk, though the article was
+published late last year.  I thought it might be of interest to this group
+of computer-literate brewers.  Note: I don't have access to this journal,
+so I haven't actually seen this paper.  I'm not connected with the authors
+or their employer.
+
+
+A FLAVOR MODEL FOR BEER FERMENTATION, Gee, Douglas A.; Ramirez, W. Fred
+(Dept Chem. Eng., Univ Colorado, Boulder)  published in _J._Inst._Brew_,
+1994, 100(5), 321-9.
+"A new beer fermentation model is developed based upon fundamental
+knowledge of biochemical pathways.  The model can be subdivided into a
+growth model, an amino acid model, and a flavor/aroma model.
+Experimentation allowed for accurate model parameter identification.  The
+results demonstrate the capability to accurately describe batch beer
+fermentation dynamics."
+
+
+Perhaps if someone in net-land finds the paper useful/interesting they
+could post more information here.
+
+
+**************************************************************************
+Gary Meier, Ph.D.                Senior Research Computational Chemist
+FMC Corporation
+Agricultural Chemical Group     phone:   (609) 951-3448
+Box 8                                              fax:         (609) 951-3835
+Princeton, NJ  08543                  email:     gameier`at`fmc.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 95 07:52:43 -0500
+From: kit.anderson`at`acornbbs.com
+Subject: Unmalted wheat
+
+
+
+
+                             
+
+
+
+
+>Unmalted wheat seems to be widely available in health food stores 
+>both in the cracked and uncracked form.  Will using the already-
+>cracked version negatively effect the my flavor of my wit? I've read 
+>that once you mill your grain  it must be used relatively soon.  
+ 
+>Thanks. 
+ 
+>Marla Korchmar
+
+
+Health food stores also carry wheat flakes. These are unmalted and 
+precooked so they don't need to be boiled or crushed. Just add them to 
+the mash. I use 50% pale, 40% malted wheat, and 10% wheat flakes for 
+wits.
+
+
+Kit "Travels With Chiles" Anderson
+Bath, Maine
+<kit.anderson`at`acornbbs.com>
+*
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 11:39:28 -0400
+From: HOMEBRE973`at`aol.com
+Subject: crystal malt, hop plant, grain type
+
+
+Several points:
+
+
+Has anyone steeped crystal malts from DeWolf-Crosyn (Belgian malts) using the
+170 degree F for about 30 minutes and then used the iodine test for starch
+conversion.  I have done this twice and got very dark blue-black colors on
+the superenatant indicating much starch with cara pils.  Should this be so?
+ Crystal malts are supposed to be premashed in the hulls, so no further
+mashing is necessary.
+
+
+Darren Tyson asks about some Briitish malt he recieved and wondered what it
+was.  He should chew it and taste it besides smelling it.  Is it sweet?
+
+
+Jim Webb asked about planting hot rhizomes.  The direction they're planted is
+not critical as they will find which way is up.  It will just take longer.
+ The idea is to look where the active shoots will bud from and let that part
+aim upwards.
+
+
+Andy Kligerman
+homebre973`at`aol.com
+"I'm from the Gobment and here to help you!"
+
+
+------------------------------
+
+
+Date: Mon, 22 May 95 11:10:47 EST
+From: blrett`at`most.magec.com (Ben Rettig)
+Subject: Corny Keg Aspect Ratio
+
+
+>fermenter geometry
+> "ideal situation" is when the aspect ratio is 1:1 or less, and that it should
+>> not exceed 2:1. The aspect ratio of Corny kegs is a little over 3:1, I
+>think, > compared to about 1.5:1 for a 6.5 gallon carboy.
+
+
+I use Corny Kegs to ferment also. A potential solution to this problem is
+to lay the Corny down. Rotate the keg until the "GAS IN" inlet is oriented
+up. Elevate the connection end of the tank about 3 inches. Put a scrap
+2"x4" under the lid end. This will move the head space up under the GAS IN
+inlet. Then use an old connector with some tubing in some kind of blow off
+arrangement. A 5 gal. Corny will normally lay down in a beer refrigerator
+with about 1/2" to spare. Great for lagering. Haven't calculated the aspect
+ratio for horizontal yet. Any takers?
+
+
+Brewing in the Heartland, Indiana!
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 95 12:54:06 EST
+From: dsanderson`at`msgate.cv.com
+Subject: Mercury Thread Spreads Beyond The Internet
+
+
+For those of you who can still find a way to relax and... be amused 
+about the carryings on of this thread, I though you might find this 
+interesting. For those of you who can't, try to lighten up a little.
+
+
+I received an EMail this morning from someone who read a posting I 
+placed on the HBD on May 6th(about) which was subsequently PUBLISHED on 
+page 1 of a Home Brewer's Newsletter in Maine.
+
+
+Attached are one of the notes I received this morning and my original 
+HBD posting. Hey everyone, don't ya know a joke when ya hear one?
+
+
+Sincerely (ha ha ha),
+Dave
+
+
+attachment 1:
+I thought that when you suggested to the person who broke the 
+thermometer to send the kettle to you that it might be a joke and a good 
+way to get a nice brewing kettle.  The reason I was concerned is that 
+that article was on the front page of M.A.L.T. s news letter(a Maine 
+brewers club publication) and I think that whoever put it there thinks 
+it is legitimate. Boy you never know where what you say will end up do
+you.  Thanks. Phil
+
+
+
+
+The Malt
+Extract 
+
+
+attachment 2 HBD Posting:
+
+
+Lee writes:
+
+
+>A while back I broke a floating thermometer while measuring the temp of
+>some water I was heating (cold outside + hot water = busted 
+thermometer).
+>The mercury flowed into the water in the kettle.  I immediately poured
+>out the water, and the mercury exited the kettle in a nice clump.
+>I continue to use this kettle (Volrath stainless 38qt) for all my
+>brewing.  Do I risk mercury poisening?
+
+
+
+
+Lee,
+
+
+Yes, I'm afraid your Volrath 38qt stainless kettle is ruined. The 
+mercury would have formed a molecular bond to the stainless steel 
+surface which would leach back into your beer in lethal doses over time.
+
+
+In fact, it is no longer safe for you to store it in your home and it 
+would be an ecological disaster for you to dispose of it in an ordinary 
+dump or land fill.
+
+
+I strongly suggest you immediately send it(post paid) to a trained 
+professional,like myself for proper disposal.
+
+
+
+
+
+
+p.s. I guess I should have included my address.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 95 11:08:58 PST
+From: dhvanvalkenburg`at`CCGATE.HAC.COM
+Subject: Styles & Creativity (Part I), by Sam Piper
+
+
+     The following was written by Sam Piper for the Barley Bandits News 
+     letter.  Since Sam does not have access to the Net, I am putting this 
+     out for him.  I apologize for it's length, as it wasn't written with 
+     the net in mind, but I do feel that creativity is important which is 
+     why I am posting it.  Because of its length I am posting it in two 
+     parts.  Private responses may be sent to him through me at: 
+     dhvanvalkenburg`at`CCGATE.HAC.COM 
+     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+     BEER JUDGE PROGRAMS
+     I once heard a comedian say, "If you're not going to kick a guy when 
+     he's down, then when are you?  I guess if you're in a brawl, there's 
+     some sense to that.  And right now the American Homebrewer's 
+     Association and the Home Wine & Beer Trade Association are brawling.  
+     Their Beer Judge Certification Program (or the AHA HWBTA BJCP, which 
+     is pronounced like an explosive sneeze, for the acronymicly gifted) 
+     has gone down for the count to be replaced by Ninkenski knows what.  
+     It seems the two associations can no longer stand the sight, smell,or 
+     suggestions of the other and reached for their dueling Pilsners. 
+     
+     Plainly, this hobby isn't big enough for the both of them. So I think 
+     this is a good time for someone as caustic as myself to get in a few 
+     kicks.  
+     
+     First, let's examine beer style categories.  Most people think you 
+     need to have categories and beer style standards & definitions to have 
+     a contest and judge beer.  I mean, how the hell are you going to fill 
+     out the damn score sheet if you don't have the standard of a category 
+     to compare an entry to?  this could be utter chaos! If you don't have 
+     categories and standards, then all you can say is whether or not the 
+     beer you are judging looks good, tastes good, and if you would like to 
+     drink it again.  Now if that ain't anarchy then God didn't make little 
+     green bombs and there ain't acid rain in Indianapolis.  
+     
+     Just think of it. What if someone made a pale yellow barley wine? 
+     Well, right away you're in a fix because these suckers are suppose to 
+     be dark brown.  Says so in the style book!  Maybe the guy over 
+     filtered?  Sorry Sam Warmack-- everybody knows you can't do Yellow Dog 
+     Wine.  Toss it out. Spices? Bubble Gum has spices Piper-- give it to 
+     that kid selling the 1958 Mickey Mantle baseball card for  $450 and 
+     maybe he'll cut you a deal.
+     VIVA LA CONFORMITY!
+     
+     Well, listen up, ole horse drop, you say-- if standards and style 
+     definitions are so damn bad, did you ever try to judge the 
+     Specialties?  How do you deal with all that nonsense?  Apricot Lambic, 
+     indeed.  Who ever herd of apricots in a salad dressing?  
+     
+     But we do manage to judge Specialties, don't we!  And how often does 
+     the specialty category end up either first or second in the "best of 
+     show" round?  Could there be something to this Anarchy?
+     
+     The problem I have with beer judging and beer style categories and 
+     standards is that they are creative death.  Nobody ever grew in life 
+     by always trying to copy someone else  To copy is to exercise in 
+     technique and technique alone.  Consider the American Pilsner, the 
+     white bread of beer, clone city.  Any biologist trying to get the 
+     Nobel Prize for cloning should consider switching from poison frogs 
+     eggs to Pilsner beer kegs.
+     
+     Who can tell one American Pilsner from another?  This is progress?  
+     Since when is sheer banality and lack of product differentiation 
+     something to strive for?  True, the labels are all different.  But 
+     consider the net effect of having a beer judge program with style 
+     STANDARDS and the encouragement of conformity to that standard:  the 
+     emphasis is all on technique and copy.   Any feature that makes a 
+     beer unique is in contrast to that style definition and counts 
+     against the entry.  This process not only kicks an innovative brewer 
+     in the teeth, but it contaminates the expectations of the entire 
+     brewing community!  Such emphasis on style standards reduces the 
+     sensibility of judges,  those people who should be the champions of 
+     excellence, to being champions of conformity.  HUMBUG!  HUMBUG, I 
+     say!
+     ------------------------------------------------- 
+     To be continued.....See tomorrow's HBD
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 95 14:31:04 EST
+From: Tim_Fields_at_Relay__Tech__Vienna`at`relay.com
+Subject: RE: Friendly Faces
+
+
+In HBD 1737, Guy observes:
+>Recently, I've become concerned that we on the HBD haven't been presenting 
+>as
+>friendly a face towards newcomers as we might - and in some cases, OUR
+>treatment of these newbies will determine whether they stay in the hobby, 
+>or
+>leave for some other endeavour.
+
+
+Agreed.  Some of these "less-than-friendly-faces" have sounded rather 
+elitest.  How quickly some forget their own humble beginnings.  Thanks for 
+the observation, Guy.
+
+
+
+
+Tim Fields
+ Timf`at`relay.com
+ Relay Technology, Inc., SQL/DS Division
+ Vienna, VA, USA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 13:39:56 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Mystery Grains, Weiss Squad
+
+
+> From: Darren Tyson <TYSONDR`at`SLUVCA.SLU.EDU>
+> Subject: What kind of grains do I have?
+> 
+> Greetings fellow hoembrewers,
+> 
+> One type is approximately the same color as the British 
+> Crystal malt I had recently purchased, however, the grains
+> have a MUCH stronger odor.... And the grains inside
+> the husks appear darker than the husks themselves.
+
+
+Sounds like it's either a very dark crystal, a toasted (eg. Biscuit, 
+victory) malt, or possibly an aromatic/munich style malt.  
+
+
+> The other type of grain I received is a darker grain that
+> looks identical in color to the British Chocolate malt I
+> have, however, the smell is much more sharp like the other
+> grain in question.
+
+
+Sounds like black patent.  Maybe it's roasted barley.  
+
+
+> From: walter`at`lamar.ColoState.EDU (Brian J Walter (Brewing Chemist))
+> Subject: Re: Vice
+
+
+> Schneider is the one brewery that I know of that _doesn't_ use a lager 
+> yeast to bottle with.  I had a friend bring me a bottle from France and 
+> the yeast I worked up was definitely a weizen yeast.  
+
+
+Excellent.
+
+
+> Oh, and just a nit, but it is generally accepted that the weizen yeast is 
+> just a strain of S. Cervisiae (sp?) and not Dulbruckii (sp?).
+
+
+Well, I've read that Dellbrooky (sp!) is just a "race" of 
+Sara-Vichy-Yay (sp!), so maybe we're both correst.  (?)
+
+
+>  Basically just another bit of common lore that won't die.
+
+
+Just another grain of salt to take with any speciation.  I've made, and 
+intend to make again, very good weizens from Wyeast 3688.  If it's not 
+really Delbruckii, or if it's not really what they use in Bavaria, well, 
+that's fine with me.  (But, I am curious about the truth...)
+
+
+>          "If I were Satan, I would have a mountain bike" - Butthead
+
+
+I second that!
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Mon, 22 May 1995 14:20:57 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Coconuts and Copper
+
+
+
+
+> From: "Robert W. Mech" <76271.3507`at`compuserve.com>
+> Subject: Hop Oil/Coconut Oil/Oil Slick
+
+
+> I got a good response on the Pineapple, and alot of concern about the coconut
+> oil affecting head retention.  My response to most people's concerns was the
+> fact that Hops too include oil, and dry hopping doesnt seem to affect head
+> retention (or at least not significantly).
+
+
+The quantity of oil in hops is extremely small.  I don't know whether a large
+amount of these would negatively affect head retention or not, but 1 oz. of 
+hops does NOT contain 1 oz. of hop oils.  The taste treshold for hop oil is
+MUCH lower than that for coconut oil.  So, to get a similar "quantity of taste"
+from coconut oil as you do from hop oil, you'd need a LOT.  Probably enough to
+ruin your head formation and retention.  (Like I said, I don't know if hop oil
+will ruin it, but I know coconut oil will wreck your head faster than you 
+can say "hey".)
+
+
+That's not to say you shouldn't go ahead.  There's more to life than head 
+retention, and I'd be willing to try a coconut beer sometime.  
+
+
+> If I used a "Dried" form of coconut in the boil (like a
+> hop) would I extract too much oil? 
+
+
+Almost certainly.  Dried coconut still has lots of oils.  (Read the nutrition
+information.)  It's possible that the "coconut" flavor comes from something
+OTHER than the oil, so it's possible you might be able to find some way to
+extract the flavor without extracting the oil.  Dried coconut isn't the way.
+
+
+> From: "terence tegner" <tegbrew`at`iaccess.za>
+> Subject:       Copper breweries
+> 
+> Hello from Africa again
+
+
+Cool again.
+
+
+> copper ... copper ... copper ... copper../
+> The MBAA has an article on fermenter construction in their book 
+> PRACTICAL BREWING which states that fermenters used to be made from 
+> all sorts of materials, including wood, and were commonly lined with 
+> copper.
+> My advice to them who are thinking of constucting homebreweries on 
+> these line is, GO FOR IT. If its good enough for the master brewers, 
+> its got to be good enough for me.
+
+
+Well then.  Anyone have any first-hand experience tossing a couple pennies
+into the boil or fermenter?  I was considering using pennies as "boiling
+stones" a couple batches ago, but I was worried about copper getting into my
+beer.  (Oops.)  Next batch, I'll give it a shot, maybe with a 'split batch'.
+
+
+ -R
+
+
+------------------------------
+End of HOMEBREW Digest #1738, 05/23/95
+*************************************
+-------

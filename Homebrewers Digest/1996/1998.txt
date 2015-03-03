@@ -1,0 +1,1393 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.4/8.7.3) with ESMTP id PAA17071 for <spencer`at`srvr5.engin.umich.edu>; Sun, 31 Mar 1996 15:20:44 -0500 (EST)
+Received: from totalrecall.rs.itd.umich.edu (totalrecall.rs.itd.umich.edu [141.211.144.16]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id PAA00702 for <spencer`at`engin.umich.edu>; Sun, 31 Mar 1996 15:14:34 -0500 (EST)
+Received: by totalrecall.rs.itd.umich.edu (8.7.4/2.3)
+        with X.500 id PAA18639; Sun, 31 Mar 1996 15:14:33 -0500 (EST)
+Received: from hplb.hpl.hp.com by totalrecall.rs.itd.umich.edu (8.7.4/2.3)
+        with ESMTP id PAA18619; Sun, 31 Mar 1996 15:14:19 -0500 (EST)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Sun, 31 Mar 1996 20:52:43 +0100
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA06685; Sat, 30 Mar 1996 01:00:07 -0700
+Date: Sat, 30 Mar 1996 01:00:07 -0700
+Message-Id: <9603300800.AA06685`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #1998 (March 30, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #1998                             Sat 30 March 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Silicates (Pierre Jelenc)
+  rotten egg odor during bottle conditioning? (Mike Uchima)
+  Learned Alot About Grain.... (usbscrhc)
+  Bottles (PET, twistoff) (Russell Mast)
+  Optimum Temp for Yeasts (Michael K. Cinibulk)
+  Brew-Pubs (Brian Dreckshage)
+  Mushrooms in pilsner ??? (Steve Alexander)
+  Rye in my beer ("Taber, Bruce")
+  Re: Dishwasher Sanitation, High FGs (James M. Glenn)
+  Amber Ale diversifies... (Hugh Graham)
+  Interjection on mini kegs... (pbabcock.ford)
+  New BreWater 1.05 ZIP FIle -- Installation Problems (KennyEddy)
+  Lovibond Color (Brian S Kuhl)
+  Copyrights. (Russell Mast)
+  FWH, All-grain, variety (Neal Christensen)
+  Wyeast attenuation (Algis R Korzonas)
+  Water problems (Raymond Louvier)
+  keeping my cool (Clay Crenshaw)
+  RE: Taking the all grain plunge (Robert Servranckx)
+  RE: Distillation (Art Steinmetz)
+  M&F mailing address (Gregory King)
+  Re: Iodophor/Thanks (Mark Kuebeler)
+  Additives and Behaviour (Tom Fitzpatrick)
+  NA Brewing (KennyEddy)
+  Request recipe for Murphy's stout ("David Elm")
+  Born again grain brewers (John Wilkinson)
+  Beer in Carboy (George Hoenninger)
+  100-year-old homebrew--top that! (from Carl Etnier) (Russell Mast)
+  Filtering, cont (Jim Busch)
+  Extraction efficiency pts/#/gall etc. (Ian Smith)
+  Another PBW comment (Charles D. Ewen)
+  Needed: Armchair analysis ("Frederick L. Pauly")
+  Re: Iodophor/Thanks (hollen)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 28 Mar 96 10:25:20 EST
+From: Pierre Jelenc <pcj1`at`columbia.edu>
+Subject: Silicates
+
+
+in HOMEBREW Digest #1996 korz`at`pubs.ih.att.com (Algis R Korzonas) asks:
+
+
+>                                 the formula has changed and now it is
+> made primarily of Sodium Metasilicate.  Hmmm...  I don't know enough
+> chemistry to tell you if that, mixed with water, will make a sanitizer,
+> but I suspect it won't.  Could some chemists chime in and verify this?
+
+
+Silicates are at best weak detergents (they "keep dirt in suspension" in 
+laundry formulations); they are also strongly alkaline.
+
+
+Quite frankly, I don't think sodium metasilicate by itself would be of 
+much value in either cleaning or sanitizing, certainly not any better 
+than sodium carbonate.
+
+
+If there are other, non-inert, ingredients the story would be different, 
+of course.
+
+
+Pierre
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 09:45:52 -0600
+From: uchima`at`fncrd8.fnal.gov (Mike Uchima)
+Subject: rotten egg odor during bottle conditioning?
+
+
+Bottled a "Steam Doppelbock" nearly two weeks ago (brewed with the Wyeast 2112
+California Lager). Smelled fine at bottling time, and tasted pretty good. Just
+out of curiosity, I popped one open a couple of nights ago, to see how it was
+doing. It had a moderate amount of carbonation, and a pronounced "rotten egg"
+odor.
+
+
+Now, I know that some yeasts can produce this odor during primary
+fermentation; but it smelled clean at bottling time. Is it possible that the
+sulfury odor resulted from the *bottle* fermentation? Will it go away once the
+bottles are properly aged? Or do I need to rename my Steam Doppelbock to
+something more appropriate -- like "Stinkerator"?
+
+
+- -- Mike Uchima
+- -- uchima`at`fncrd8.fnal.gov
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 11:45:59 EST
+From: usbscrhc`at`ibmmail.com
+Subject: Learned Alot About Grain....
+
+
+  
+Thanks to all who responded about my extract vs. grain question. Didn't mean
+to start a giant debate...For all other extract brewers who don't know much
+about all-grain, I thought I'd summarize:
+Most answers were identical and practical. Big plus with grain is the 'control'
+you get over all the variables. Big minus is the time it takes. I did, however,
+learn all about the process and it sounds fairly simple. Cost is also less,
+but equipment may cost you in the beginning.
+For the record, I use lots of grains to add variety to my extracts, and, as
+I said previously, am happy with the results. I'm sticking to extract, but
+may do an official 'partial mash' sometime soon.
+One more comment: I read about all kinds of sugars and creative additions
+to extracts on the digest, but haven't seen one that I thought I'd mention.
+For my last batch I was out of honey and used Maple Syrup (pure Vermont).
+I didn't overdo it and don't know if I even got the full effect, but it was
+a primo ale...Thanks to all for what I learned. It's a great forum.
+Howard - Baltimore
+  
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 11:27:22 -0600
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Bottles (PET, twistoff)
+
+
+
+
+Shawn Scolack asks about PET bottles.  
+
+
+Basically, they work great.  I've never tried to re-use them more than once,
+so I can't comment on that.  I can say, without a doubt, that they will not
+work well if you don't drink the beer within 3 months or so.  Use these for 
+your fast-maturing ales.  I had one batch that went for over a year in a 
+couple glass bottles and one in a PET bottle.  The PET was totally roasted,
+oxidized to hell.  The glass was fine.  But, at 1 month, the same batch (in
+different bottles) was fine in both.  
+
+
+Stephen Palmer asks about twist-off bottles.
+
+
+I've used them a couple times.  They tend to break and leak more easily, and 
+are generally a pain.  If you can make them work for you, go for it.
+
+
+>  Am I just lucky, or are failures few and far between? 
+
+
+I had about a 10% failure rate with them.  Even a 1% is highger than I like.
+
+
+> I figure if I have one failure       
+> every couple of batches, thats acceptable compared to $15 a case for 
+bottles    
+> from my supplier...   
+
+
+Shop around - you can find cheaper non-twist off bottles.  (Or just drink beer
+from them.)
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 96 13:26:48 -0500
+From: Michael K. Cinibulk <cinibumk`at`ml.wpafb.af.mil>
+Subject: Optimum Temp for Yeasts
+
+
+I have seen the FAQ on yeast posted at The Brewery, and it contains a list of 
+Wyeast strains and some of their characteristics.  But, I would like to know 
+what the optimum temperature for fermentation is for the various strains.  
+Anyone have this information?
+
+
+BTW, I tried American Ale II this weekend in a 1.056 OG American Pale Ale at 
+70 F (500 mL starter); now I know what is meant by explosive fermentation.  
+Foam and yeast came spouting out of the hole in the fermentation lid once the 
+air lock was removed!  This is my first time using either of the American ale 
+yeasts.  Is fermentation always this active and rapid?  I'm comparing with  
+#1968 London ESB, the only other ale yeast I've used.
+
+
+Also, I never saw the answer, how _do_ you pronouce Wyeast?
+
+
+Mike Cinibulk
+Bellbrook Ohio
+   
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 96 12:59:09 -0600
+From: dreckash`at`ocdis01.tinker.af.mil (Brian Dreckshage)
+Subject: Brew-Pubs
+
+
+Las Vegas had one Brew Pub when I was there last fall.  The "Holy Cow"
+Brew Pub/Casino did have a good selection of decent beer.  You'll need
+to take a cab there (or drive) because the location is a bit out of
+the way from the strip (no big deal).
+
+
+Orange County has a number of good beer establishments.  As mentioned
+"Goat Hill" has an awsome selection and just experiencing the place is
+worth the trip.  Not far from there is a great little pub...good
+English beer on tap and good food.  I just can't remember the name but
+they are normally listed in the "Celebrator".  Also, Huntington Beach
+had a very good Brew Pub, just up from the pier.
+
+
+FYI, had a disappointing experience in Key West recently.  Kellie's
+Brew Pub turned away a number of us beer hunters (after a long trip to
+there).  It was odd, they were having a private party in the back but
+wouldn't serve us one stinking, single beer from their front bar.
+(They had plenty of employees around--what a bunch of jerks!)
+
+
+Happy hunting!
+
+
+Brian D. from the great beer wasteland of Oklahoma.
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 14:22:49 -0500
+From: Steve Alexander <stevea`at`clv.mcd.mot.com>
+Subject: Mushrooms in pilsner ???
+
+
+Al Stevens writes ...
+
+
+>I think someone is pulling my leg. 
+ ...
+>He then said it couldn't be a real pilsner unless it had pilsner mushrooms in
+>it. He said that in the hills around Pilsen, grow some strange mushrooms, and
+>these are used in the beer.  I went along with it, but I think he was serious.
+>Has anyone heard about this ?? or is this the start of another beer legend?
+
+
+As an active amateur mycologist (and mushroom hunter) as well as a
+homebrewer - I've never heard of this one.  I think he's misinformed
+or pulling your leg.
+
+
+If anyone is considering trying wild mushrooms in their brew (or in a
+skillet) my suggestion is to get a POSITIVE identification from an
+EXPERIENCED MYCOLOGIST.  A substantial proportion of the mushrooms you
+are likely to come across are poisonous.  There are also quite a few
+species of Coprinius mushrooms that contain a chemical that will cause
+a problem (flushing, nausea, vomiting, possibly death) only if you
+drink alcohol within a few days after consuming the mushrooms! [My
+recollection is that the Coprinius tie-up or inactivate some of the
+enzymes that break down alcohol in your system.] There are several
+mushroom books in the bookstores that have incomplete, and in one case
+dangerously erroneous information regarding mushroom identification.
+Even with a good book, accurate identification requires practice.  We
+all have better uses for our livers than having them destroyed by
+cyclopeptides from an Amanita.
+
+
+*** End of Public Service Announcement *** Back to brewing ***
+
+
+Stevea
+
+
+BTW there is some nice info & images on 'http://www.ijs.si/gobe/' re
+wild mushrooms in eastern europe (Slovenia).
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 96 09:13:00 EST
+From: "Taber, Bruce" <BRUCE.TABER`at`NRC.CA>
+Subject: Rye in my beer
+
+
+
+
+     A few days ago I asked for suggestions on how to give my "lite" ale 
+(all-grain) a "red" hue.  The good people of the digest gave me a few 
+suggestions and one of them intrigues me.  Steve Alexander mentioned that 
+rye will give a very red color, even a pink hue to the head.  He mentions 
+that it will impart a flavor, but I love to try different things.
+     Can anyone give me pointers on using rye?  I would like a reddish color 
+contribution with only a limited flavor contribution.  Also, if I can't find 
+malted rye can I use unmalted and boil it for say, 30 minutes to gelatinize 
+it?
+     TIA,
+Bruce Taber
+Almonte, Ont.
+taber`at`irc.lan.nrc.ca
+
+
+------------------------------
+
+
+Date-Warning: Date header was inserted by grove.iup.edu
+From: jmglenn`at`grove.iup.edu (James M. Glenn)
+Subject: Re: Dishwasher Sanitation, High FGs
+
+
+In answer to Jon Vilhauer's original, and supplementing Steve Rosenzweig's
+followup on dishwashers:
+
+
+After about my third batch, I knew that the bottling process was getting in
+the way of my total enjoyment of this more-than-a-little-fascinating hobby
+ - more specifically, WASHING the durned things. I resolved to find a better
+way, and the dishwasher was the answer.
+
+
+Convincing my significant other wasn't TOO difficult; the bottles were only
+the "oh, by the way" addition. Since she works out of our home, and doesn't
+particularly like washing dishes anyway... So we acquired a new Kenmore
+Ultrawash III portable.
+
+
+I remove the top rack and the center spraywater carrier and load two cases
+plus four, add a half cup of bleach to the prewash and fire that brother
+up, using 150-degree water.
+
+
+Twelve batches later, I'm totally convinced that it works BETTER than any
+other method. The spray definitely gets up inside the bottles. And the
+labels on Saranac Black & Tan bottles come right off, too.
+
+
+RE: previous questions on my high OG / high FG - I found that my brew
+thermometer was eleven degrees off, and my partial mashes were therefore
+much to high, resulting in (I now assume) extra-dextrinous/tannin-filled
+worts. They're aging into near-drinkability now, but my scotch ales and
+porters of that period are as heavy as heavy stouts, and the stout is
+danged near bulletproof. 'Spose if I save it til next Xmas, we can slice
+off chunks and spread it on toast! My, what a great learning process this
+has all been! Later beers, with a recalibrated instrument, have adequately
+high, predictable OGs that get down to the FG 1.010-1.015 area where
+they're supposed to be. I think I fixed THAT problem - on to the next!
+
+
+====>James Glenn
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 13:40:19 -0700 (MST)
+From: Hugh Graham <hugh`at`lamar.ColoState.EDU>
+Subject: Amber Ale diversifies...
+
+
+
+
+Had a pleasant trip to central Washington state recently. The tourist, er,
+I mean ranchin', huntin' fishin' 'n minin' town of Winthrop has a pleasant
+brewpub with the tiniest frontage of any establishment of the kind that I
+have yet encountered.  The porter, red, pale ale and A.N. other beer were
+all just fine and, as it was Hyakatuke night, I was seeing stars all night
+long, far from the city lights. Check it out next time you're East of the
+Cascades. 
+
+
+Anyway, next day it was off to Roslyn and a swift pint in the Brick.
+The Roslyn Brewing company shows minimal beer name creativity and we had 
+a choice between the Amber or the Dark.  Both were drinkable to say
+the least.
+
+
+But the Amber!  This had clearly been brewed with the specific intention
+of messing with Dave Brockington's proposed new Amber ale classification,
+(recent HBD, :)).  It was very pale, yellow to straw colored with
+noticeable hop flavor. Unfortunately the brewery itself was not open (Sat
+and Sun afternoons only) so details are limited to my unqualified
+assessment and impaired memory but I found it intriguing that this beer was
+termed an Amber, from the color alone.  Maybe they'd hooked up the wrong
+barrel.. .  .  
+
+
+Hugh
+
+
+The Outhouse Brewery currently is idle, except for Sideshow Melomel in 
+the fermenter that follows tertiary.  (Quaternary I assume). 
+Yerpean Ale Yeast is being propagated for the weekend for a pale ale.
+A barleywine is being planned.  And it's wheat beer brewin' time.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 16:02:44 EST
+From: pbabcock.ford`at`e-mail.com
+Subject: Interjection on mini kegs...
+
+
+                                                                                
+Pat Babcock             Internet: pbabcock.ford`at`e-mail.com                      
+Bronco Plant Vehicle Team - Body Construction Assembly Engineer                 
+Subject: Interjection on mini kegs...                                           
+Hola, Cervesa-lings! Lleva me al puerta Negra Modelo...                         
+(Or something like that...)                                                     
+                                                                                
+Ever notice the "taps" most stores sell WITH the mini kegs? A faucet and a can  
+opener. You push the faucet in the bung, invert and puncture the keg (Yes, the  
+Beer Kings are for us beer geeks. Most DESTROY the can in tapping it.)          
+                                                                                
+Being that the intent is to destroy the "big can" in emptying it, I feel no     
+more guilt keeping them for the deposit than I would an aluminum Budweiser      
+(Eegads! It even puts a foul taste in the mouth by TYPING it!) can.             
+                                                                                
+  See ya!                                                                       
+  -p                                                                            
+  pbabcock`at`oeonline.com                                                         
+                                                                                
+(No copyright desired, intended or possible. Anyone who sez I said this is a    
+liar. And obviously drinks inferior beer. Remember: Automated flame operator    
+at 1-800-SWIG-BUD)                                                              
+Copyright 1996 Rutwoessesetwoells Thingthatkeepsthesailoffofthedeck             
+                                                                                
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 17:50:10 -0500
+From: KennyEddy`at`aol.com
+Subject: New BreWater 1.05 ZIP FIle -- Installation Problems
+
+
+After receiving reports of installation results varying from totally
+successful to complete failure, I've modified the SETUP.EXE to do as simple
+as installation as possible.  If you had trouble installing BreWater and
+would like to try again, download the new (smaller!) ZIP file from the same
+URL:
+
+
+ftp://users.aol.com/kennyeddy/water/brewater.zip               (~46K bytes)
+
+
+Unzip the file into any "temporary" directory or floppy and run SETUP.EXE
+
+
+Your \windows\system directory still needs VBRUN300.DLL.  CMDIALOG.VBX (a
+Visual Basic library) is copied to your \windows\system directory, but no
+other files are.
+
+
+Should you for some reason still have trouble, you can try a "manual
+installation" by copying all the files into a new directory "c:\brewater" or
+whatever.  SETUP.EXE can be discarded, and CMDIALOG.VBX should be move into
+\windows\system.  Then manually create a program group/item.  The executable
+is BREWATER.EXE.
+
+
+I apologize for any inconveniences you may have encountered.  This latest ZIP
+file should solve those install problems.
+
+
+Ken
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 96 15:00:00 PST
+From: Brian S Kuhl <Brian_S_Kuhl`at`ccm.fm.intel.com>
+Subject: Lovibond Color
+
+
+Does anybody have a spreadsheet containing Lovibond color ratings of 
+BOTH beer types AND Extracts of all types and various manufactures?
+On my first two batches, it was difficult to even get a close result 
+between the canned stuff and bulk of the same manufacturer.
+IBU numbers for various beer types would also be appreciated.
+
+
+Mail to : Brian_S_Kuhl`at`ccm.fm.intel.com
+
+
+Thanks!
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 17:29:35 -0600
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Copyrights.
+
+
+
+
+Al - I tried to send you e-mail in response to your letter about my copyright
+notice, but it bounced.  Did you get my letter?  Is there another address I
+can reach you at?
+
+
+ -Russell Mast
+Copyright 1996 Algissimo Korzonas
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 16:33:52 -0700
+From: nealc`at`selway.umt.edu (Neal Christensen)
+Subject: FWH, All-grain, variety
+
+
+I have one more question on first wort hopping (sorry).  Someone earlier
+mentioned that a lot of folks apply heat to the wort kettle as soon as they
+have sparged enough to cover the bottom.  I start to heat gently about a
+quarter full, and start to boil at three-quarter full.  I add my first
+bitter hops at full and boil for one hour from there.  The advantages are:
+no lag time to boil - when I sparge off, I'm boiling; the other advantage is
+the extra boil time at the beginning to form hot break.  So, to at least
+maintain the first advantage, how hot is too hot for the FWH soak - should I
+not apply any heat?  And, How much time is adequate for soaking before I get
+serious about heating the wort?
+
+
+On all-grain:  For me the switch from extract to all-grain improved the
+product.  Reasons could include: experience, better control of the process
+through better equipment, better control of the recipe, etc.  I'm not sure
+of the exact reasons, but it got better.  I do notice a typical flavor in a
+lot of extract beers - even in commercial examples.  We have a BOP that also
+sells to the public.  They only do extracts so far, but I would think they
+have better equipment than almost any homebrewer.  Yet when compared to the
+two local commercial breweries, I detect a persistent flavor profile that I
+don't notice in either all-grain micro (one lager and one ale).  I don't
+think it is a bad taste, just different than the all-grain beers that I am
+familiar with.
+
+
+On variety in recipes:  Kelly Heflin mentioned the lack of choice in local
+grain selection and wandered about more variety.  Russell Mast offered many
+good suggestions for additional ingredients that can be added to beer to
+affect results.  I agree and recommend exploring all possibilities.
+However, I personally enjoy the challenge of varying the results of my
+brewing while limiting myself to following the old German brewing purity law
+(no affiliation, bla, bla :^) using only the basic four ingredients.  This
+does not allow one to brew all styles of beer and does not fit with
+everyone's idea of a good time, but I like the results.  Its amazing how
+much variation can be achieved while limiting ingredients to the basics.  I
+think it helps me to learn to brew by limiting the factors that affect
+flavor, and by limiting my options for solving problems (i.e. clarity, water
+chemistry, enzymes, carbonation).
+
+
+Neal 
+
+
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 96 10:58:59 CST
+From: korz`at`pubs.ih.att.com (Algis R Korzonas)
+Subject: Wyeast attenuation
+
+
+In a recent post, I said that Wyeast "European Ale" (#1338) is their
+least attenuative yeast.  Well, yes and no.  In a brochure I got
+just yesterday, Wyeast #1968 "London ESB" is listed with the same
+apparent attenuation: 67-71%.  Furthermore, "Belgian Lambic blend"
+is listed with an apparent attenuation of 65-75%.
+
+
+Just wanted to be accurate and compleat...
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Thu, 28 Mar 1996 16:15:14 -0800
+From: rlouvier`at`ix.netcom.com (Raymond Louvier)
+Subject: Water problems
+
+
+Hello all, I have a question I hope some of you chemistry majors can 
+help me with. I have been tryin to brew lighter beers such as American 
+light lager or actually I'm interested in brewing many light lagers, 
+but I seem to not get it right. As far as I can tell my water is very 
+high in bicarbonates but low in calcium. I've been trying to boil the 
+water to remove the carbonates but while reading Dave Millers book the 
+other night I read where you must have the right amount of calcium to 
+precipitate out the carbonates. I just received a report from the city 
+of Houston Water Department and here is the results: All are in PPM
+
+
+Silica    12         Sulfate      14        Phosphate         <.1   
+Calcium   33         Chloride     28       
+Magnesium 8.3        Carbonate     0            
+Sodium    59         Bicarbonate 239 
+Potassium 2.1        Nitrate     <.05
+   
+Total dissolved solids        395.2
+Suspended solids                1.3
+Total Alkalinity(CaCO3)         196 
+Hardness as CaCO3               116              
+pH                              7.8
+Chlorine Residual               NR  (?)
+
+
+Now I seem to have a bite to all my beers and I am wondering if I'm not 
+getting any of the carbonates out from boiling and let sit over night. 
+I'm really not sure about the permanent Hardness. I thought permanent 
+hardness was carbonate and temporary hardness was bicarbonate but after 
+experimenting on my own its obvious my chemistry lacks alot and I'm not 
+sure which is which. I hope somebody from this great wealth of 
+knowledge can explain this water problem in laymans terms. Also if I 
+could be pointed in the right direction on what I need to do to my 
+water to brew lighter beers. Thanks for all the help I've received just 
+from reading this forum and I hope maybe I can get on the right track 
+with this water. Private e-mail or post is fine. Again TIA.
+
+
+Ray Louvier
+rlouvier`at`ix.netcom.com
+Houston, Texas Home of the fighting Memphis Oilers! Anybody out there 
+from Memphis I hope You enjoy cause this Buds(Adams) for you.  Home H
+ 
+
+
+         
+
+
+ 
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 00:19:44 -0500
+From: ccrenshaw`at`mail.utexas.edu (Clay Crenshaw)
+Subject: keeping my cool
+
+
+OK, guys, (and ladies), lets see what you pull out on this one...
+
+
+My apartment hovers aroud 76-80 F, and I want to ferment at 65 F or so.
+Besides investing in a THIRD refrigerator, does anyone have any creative,
+or even obvious, solutions?  Cheap is preferred, but not absolutely
+necessary.
+
+
+Also, has anyone had much success with a "prechiller" (additional coil
+immersed in ice bath) in an immersion-type chiller?  Also, when using an
+immersion chiller, what kind of water pressure would be most efficient?  Is
+fast-running water significantly more effective than slow-running water?
+
+
+Thanks for your thoughts,
+Clay
+
+
+
+
+- --------------------------------------------------------------------------
+
+
+             "Jazz is not dead...it just smells funny."  -Frank Zappa
+
+
+- --------------------------------------------------------------------------
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 08:40:59 -0800
+From: Robert Servranckx <Robert_Ser`at`ceo.sts-systems.ca>
+Subject: RE: Taking the all grain plunge
+
+
+Matt in Montreal says:
+
+
+>...What got me hooked was a friend of mine.  He volunteered to come to
+>my house, bring any equipment I didn't have and show me how to do this
+>thing.  In return, I supplied food and beer.  This worked like a charm.
+>I couldn't believe how easy, and fun all grain was and I didn't have to
+>worry.  I've since done this to someone else, who also became a convert.
+
+
+Speaking as the guy who became the convert, I obviously have to second 
+what Matt is saying :-). Matt also volunteered to come to my place, bring 
+his equipment and knowledge, and show me how it was done in exchange for 
+home-made pizza and homebrew (and homebrew, and homebrew... ;-). I was 
+amazed to see how easy and fun it actually was.
+
+
+I've been all-graining for over a year now, and I LOVE it. My brews are 
+fuller, tastier and just plain better than before, and I find that I have
+*much* more control over the taste of the final product. The initial 
+investment to go from extract to all-grain can be as little as 40$ for
+a home-made mash and lauter tun. You may of course spend more for a 
+larger boiling kettle, a propane burner, wort-chiller, etc...
+
+
+It takes me about 5.5 hours for an all-grain batch (up from 3.5 hours), but
+this time is more fun and more relaxing than when I brewed with extract.
+
+
+My average cost per 5 gallon batch has gone down from about 25$ to about
+12$. In my case however, the increase in the taste and quality of my brew
+is more important to me than the 13$ I save per batch.
+
+
+Go ahead and give it a try.
+
+
+Rob in Montreal
+Robert_Ser`at`ceo.sts-systems.ca
+
+
+P.S. Matt: you converted two guys, not just one...
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 08:36:19 -0500
+From: asteinm`at`pipeline.com (Art Steinmetz)
+Subject: RE: Distillation
+
+
+Sorry to come to this thread a bit late.  While I like jumping on the
+Libertarian soapbox as much as anybody I'll simply provide some facts.  You
+can find out quite a bit about still buidling in "The Lore of Still
+Building" by Howard and Gibat.  Don't let the word "Lore" fool you (It's
+intended to fool the BATF).  This basically a how-to.  Noteworthy is how
+free it is of cautionary language like "don't try this at home or you'll
+die"  that we've see a bit of on the HBD lately.  So you need to pay
+attention to temperature.  Okay.  If I paid no attention to temp.  when
+stroring meat I'd be asking for trouble too.  Also "Making Apple Cider" ( I
+think that's the title) by Proulx and Nichols, published by Garden Way has
+a chapter on still building and distillation.  This book should be widely
+available. 
+ 
+
+
+------------------------------
+
+
+Date: Wed, 27 Mar 1996 11:56:57 -0500 (EST)
+From: Gregory King <GKING`at`ARSERRC.Gov>
+Subject: M&F mailing address
+
+
+Greetings HBD folk,
+
+
+All this recent talk about salt concentrations in brewing water has
+got me wondering what the amounts of these salts are in various malt
+extracts.
+
+
+I plan to write a letter to Munton & Fison asking about the salt
+concentrations in their extracts.  Do any of you have Munton & Fison's
+mailing address handy?
+
+
+I will of course post any useful information I receive from M&F.  If
+you are more interested in salt concentrations in extracts produced by
+another manufacturer, I'll be happy to write the same letter to them if
+you provide me with their mailing address.
+
+
+TIA,
+
+
+Greg King
+gking`at`arserrc.gov
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 08:48:31 -0600 (CST)
+From: kuebeler`at`PICARD.tamu.edu (Mark Kuebeler)
+Subject: Re: Iodophor/Thanks
+
+
+Christopher M. Goll writes:
+>      I have another idea to toss to the collective for critique:
+>      
+>      From recent HBD traffic, we seem to agree on approximately 12.5 ppm 
+>      iodine (1/2 oz iodophor in 5 gal) as a good sanitizing level.  
+>      However, trying to _accurately_ pour out 1/2 an ounce from a five oz 
+>      bottle (the size available at my local brew store) is a PITA, leading 
+>      me to add at least 3/4 oz to "make sure I've got it covered."  While 
+>      my iodophor usage is not driving me to the poorhouse, it does seem 
+>      like a waste.
+
+
+I do most of my sanitizing with just 3 gallons of iodophor solution.
+I start with 3 gallons of water in the carboy or bottling bucket, and
+add 2 tsp of iodophor (this is about .33 oz., which results in a tad
+more than a 12.5 ppm concentration, but it's easy to measure).  I let
+the container stand upright for 5 minutes to make sure the bottom
+surfaces get full contact.  Then I lay the container on its side (the
+bottling bucket has the lid on, of course <g>), and give it a quarter
+turn every 5 minutes until all inner side surfaces have had full
+contact.  To finish the carboys I set the carboy upside down in one of
+the gallon plastic buckets I buy extract in for another 5 minutes.
+This ensures the entire inner surface of the carboy is sanitized.  Be
+careful when doing this last part; you have to cover the mouth of the
+carboy with one hand and hold the bottom with your other hand, so
+there's some risk of the carboy slipping out of your hands.
+
+
+Once the carboy is done, I pour half of the iodophor solution into a
+wallpapering tray for sanitizing racking canes and bottle fillers,
+and the rest into a plastic dishpan for doing hoses and little items.
+The empty carboy is set upside down in the bucket to drip dry and keep
+dust out until I'm ready to use it.
+
+
+I figure one 4 oz. bottle of iodophor usually gets me through 3
+batches and part of a 4th.
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 08:51:48 -0600 (CST)
+From: fitz`at`fasicsv.fnal.gov (Tom Fitzpatrick)
+Subject: Additives and Behaviour
+
+
+I'm sure most of you out there have stories you could tell 
+about the effects of drinking cheap beer on one's behaviour.
+My wife gets particularly squirrely when she drinks beer with 
+lots of adjuncts/additives/preservatives. Can anyone point me 
+to any studies or reference material on how and/or why
+adjuncts/additives in beer affect us physically or mentally. 
+My wife is taking a graduate course relating to alcohol use
+and thought it might be an interesting topic. Thanks for any
+help. 
+- -- 
+Tom Fitzpatrick
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 10:04:38 -0500
+From: KennyEddy`at`aol.com
+Subject: NA Brewing
+
+
+Jim Mitchell pines:
+
+
+> The US offerings are dreadful - tastes boiled. Some of the European 
+> recipies, are quite good. Can anyone help?
+
+
+They taste boiled because that's perhaps the most straightforward way to make
+NA beer -- take your finished/flat/unprimed beer, heat to ~170 for several
+minutes, then cool, prime, pitch a small amount of "bottling" yeast (the
+original colony is now dead from the heat), and bottle.
+
+
+>From what I have read, the NA processes of most breweries falls under the
+"trade secret" umbrella.  Whether there is a real "process" or just simple
+dilution is not known to this brewer.
+
+
+NA homebrewing techniques I have read about include freezing beer &
+separating off the alcohol (questionable alcohol reduction & effect on
+character), heating to ~100F or so under vacuum (same as boiling but lower
+temperature prevents "cooked" taste; hop volatiles suffer but one can
+compensate by overhopping the recipe), simple diluting, brewing weak low
+gravity recipes, or mashing at the top of the temperature scale to minimize
+fermentable yield.  I haven't tried any of these personally.
+
+
+Ken Schwartz
+KennyEddy`at`aol.com
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 10:26:32 -0500 (EST)
+From: "David Elm" <delm`at`hookup.net>
+Subject: Request recipe for Murphy's stout
+
+
+        Can anyone suggest an all grain recipe for Murphy's stout ?
+- -- 
+    David Elm    delm`at`hookup.net    (416) 961-9452    fax: (416) 961-8706
+    253 Wellesley St E TH#2,   Toronto,  Ontario,  M4X 1G8,  Canada             
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 09:28:29 -0600
+From: John Wilkinson <jwilkins`at`imtn.tpd.dsccc.com>
+Subject: Born again grain brewers
+
+
+>What got me hooked was a friend of mine.  He volunteered to come to my 
+>house, bring any equipment I didn't have and show me how to do this 
+>thing.  In return, I supplied food and beer.  This worked like a 
+>charm.  I couldn't believe how easy, and fun all grain was and I 
+>didn't have to worry.  I've since done this to someone else, who also 
+>became a convert.
+
+
+
+
+Oh no!  Evangelical grain brewers!
+I guess we will be o.k. unless they start getting TV programs.
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 10:41:11 -0500
+From: George Hoenninger <george`at`smarts.com>
+Subject: Beer in Carboy
+
+
+I am new to homebrewing and was looking for some friendly advice.  My
+friends and I just tried an all-grain brew for the first time and I was
+windering to things:
+                1.  how long should i let the beer stay in the carboy?
+                2.  how long should it stay in the bottles?
+
+
+The beer I am brewing is a stout with a high alcohol content (recipe lists
+it at 9%).  I am not sure if it helps so I will show the recipe:
+        
+Ingredients: (5 gal.)
+10 lbs. British Pale Ale Malted Barley
+1 lb.    Roasted Unmalted Barley
+1 lb.    Flaked Barley
+2 lbs.  Flaked Oats
+1 lb.    Chocolate Malted Barley
+1 lb.   Crystal 40L
+1 lb.   Black Malted Barley
+2 lbs. Dark Malt Extract (For an X-tra kick)
+3 oz.  Centennial Hop Pellets (Boiling)
+1 oz.  Tettnang Hop Pellets (Finishing)
+#1028 Brewers Choice London Liquid Yeast
+ 
+OG 1.096   FG 1.024    Alcohol Content about 9.5%
+
+
+Any other information or helpful advice would be greatly appreciated.
+
+
+George
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 10:06:04 -0600
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: 100-year-old homebrew--top that! (from Carl Etnier)
+
+
+
+
+The 'bot has rejected the following post from Carl Etnier several times 
+in the last few days. He asked me to try submitting it from my account.
+
+
+==============================================================
+
+
+I just went through a stack of old unread HBDs and saw the posting from 
+February where someone had found 10-year-old homebrew and wondered 
+whether his beer was ruined. Better late than never--let me report on my 
+experiences last year with 100-year-old beer. (_Everything_ is older in 
+Europe.) 
+
+
+Some of you will recall that I was on assignment a lot in Switzerland 
+last year. I worked with an aristocratic German named Lustig, whose 
+family has owned an estate in the mountains above Lucerne for centuries. 
+He had just finished renovating the ruins of the von Spass family castle 
+to make part of it livable again. In the cellar, he had come across six 
+bottles of beer plus the brewing notes--forgotten homebrew! 
+
+
+He showed them to me last fall when I was helping him move in. I could 
+not read the old-style German script the notes were written in, but 
+Lustig said solemnly, "Dis vas beered in eighteen hundret fife ant 
+ninety." (He has the peculiar habit of saying "beered" when he means 
+"brewed." In fact, "to beer" is a very versatile English verb for him. 
+Once, when I ran out of beer and then brought home a case, he declared, 
+delighted, "Now ees your home once more beered!") From the notes it 
+transpired that this venerable beer was a bock, whose high alcohol 
+content made its likelihood of surviving the century at least somewhat 
+greater than a snowball's chance in a helles.
+
+
+I was amazed that the beer could survive in that cellar for 100 years, 
+untouched by humans or other creatures. Rushing in where trolls feared to 
+feed, I suggested we drink one of the bottles. Besides, it was the only 
+thing to be had--we hadn't brought up any beer yet, commercial or 
+homebrew. 
+
+
+Lustig reminded me about the Swedish archeologist who tasted 300-year-old 
+butter when the warship Wasa was rediscovered in Stockholm's harbor. The 
+poor guy contracted some chicken-pox-like disease that had been 
+eradicated for over a century. I assured him that no known pathogen 
+survives in beer and selflessly volunteered to be the guinea pig, so we 
+took the bottles to the renovated part of the castle ruin.
+
+
+What glassware is appropriate for a 100-year-old bock? I wanted something 
+shallow and wide that would bring out the full profile of the beer, like 
+a Chimay or Orval glass. Lustig took out instead a Bavarian Ludwig II 
+stein. It was the anniversary of King Ludwig's death, September 31, and 
+Lustig wanted to dedicate the bottle to his memory. The stein was one of 
+those with the 19th century fairy tale king's face both on the side and 
+on the translucent bottom. I uncorked a bottle and poured the dark liquid 
+into (and onto) the monarch's mug. 
+
+
+There was some carbonation left in the old bock; a little foam built a 
+brownish white head. My heart beating rapidly from anticipation and 
+nervousness, I lifted the stein to my lips and took a sip. Other than 
+bitterness, all hops character was gone. The beer was somewhat stale, and 
+there was just a hint of sourness where there should have been a little 
+sweetness. Still, it was recognizable as a bock. 
+
+
+"Lustig von Spass," I declared with satisfaction, 
+"your ruin is definitely beered."
+
+
+Prost!
+
+
+- --Carl
+
+
+Carl.Etnier`at`abc.se
+A Kinetic Yankee in King Harald's Port
+Oslo, Norway
+
+
+P.S. I got Lustig to transcribe the brewing notes from old German script 
+to modern letters, and I have a copy in one of my still- packed boxes. 
+I'll translate the recipe and post it sometime. If you want to try 
+brewing this before the northern latitudes' summer is upon us, let me 
+know. With enough demand, I'll root around some and see if I can find it 
+right away.
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 11:10:46 -0500 (EST)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: Filtering, cont
+
+
+Tom writes:
+
+
+<How does filtering affect biological stability?
+<A polish filter (5 micron) definitely leaves some yeast in the finished
+<product, which is desirable as yeast offers some biological stability.
+<A finer filter (1 micron) might remove all the yeast, but leave some
+<bacteria behind, free to do their dirty work. Sterile filtering (.22 micron)
+<would presumably produce a stable product. I ask this question with the
+<experience of having some filtered beers turn buttery and/or sour after
+<sitting in the keg for extended periods (> 2 months). I know, the solution
+<is to drink up!
+
+
+In an ideal world, everything is sanitized to the point where biological
+stability is not a problem.  Maybe this is more of an issue in a home
+setting.  I think a more important consideration is avoid oxidation of
+the beer as much as possible.  Also, by storeing the filter in a weak
+sanitizer it should be biologically stable.
+
+
+"Although filtration can do an adequate job of removing much or the perm-
+anent haze, it can remove little of the chill haze."
+
+
+<I assume you're talking about 3-5 micron levels here? I don't get any
+<chill haze when filtering to .5 microns.
+
+
+Sorry, yes submicron filtration can clear up chill haze and this is
+the main reason .5 mics are routinely sold.  Should of added rough, or
+polish or something to that line.
+
+
+<What do you use for sanitizing?
+
+
+Ive used the old B-brite, dilute iodophor and the Filter Store suggests
+chlorine based sanitizers.
+
+
+<I'm reluctant to
+use iodophor for fear of staining my nice, bright white cartridge.
+
+
+It shouldnt matter.  Taste is what counts.
+
+
+< I have a set of "secondary" kegs with about 1/2"
+<cut off the down tube. Even if you don't filter this idea is nice since
+<it leaves the sediment on the bottom. Only a half-pint or so is lost.
+
+
+Agreed.  All of my kegs have the dip tube cut.  Most of my beers do clear
+in time and some cold conditioning.
+
+
+Brew on!
+Jim Busch
+
+
+http://wanda.pond.com/~clrleaf/victory/Victory.html
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 09:33:21 -0700 (MST)
+From: Ian Smith <rela!isrs`at`netcom.com>
+Subject: Extraction efficiency pts/#/gall etc.
+
+
+Dear collective,
+
+
+The question of extraction efficiency and the calculation of pts/#/gall 
+has been bugging me for some time so I thought I'd ask for help !
+
+
+When calculating the number of pounds used do you include the adjuncts 
+such as crystal malt etc. ? (I mash the adjuncts with the base malt)
+
+
+When calculating the number of points do you use the gravity of the hot 
+sweet liquor that was collected after sparging and if so do you have to 
+cool it to 68 F to take a reading ?
+
+
+For the volume (number of galls) do you use the volume collected after 
+sparging or the volume after boiling and hop additions etc (which 
+is typically a couple of gallons less) ?
+
+
+Also a rule of thumb for end of sparging has been to stop when the sg of 
+the runnings reaches 1.010 - is this measurement made at 68 F or at 
+sparge temperature (140 - 160 F) ?
+
+
+I have been doing the pts/#/gall calcs based on the number of points of 
+the wort after immersion cooling and dumping into the carboy. I have 
+been using the number of gallons collected in the carboy and the 
+number of pounds of base malt (ignoring adjuncts). Is this correct ? When is 
+the appropriate time for doing the efficiency calculation and what is 
+the 100% efficiency number ?
+
+
+Help !
+Ian Smith
+isrs`at`rela.uucp.netcom.com
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 12:05:53 -0500
+From: cdewen`at`pipeline.com (Charles D. Ewen)
+Subject: Another PBW comment
+
+
+Recent HBD posts have praised the cleaning chemical PBW.   Here's my
+experience: 
+ 
+I acquired some old 5 gal SS kegs with dried product stains on the inside
+walls.   An overnight 
+soak with a 140F degree CTSP solution had little effect.   The next night,
+I filled them with a 
+solution of 1 Tbls PBW to 1 gal of _cold_ tap water, and left them in an
+unheated garage - the 
+temperature was never over 45F degrees.   The stains were gone in the
+morning.   I like the 
+stuff. 
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 1996 12:02:20 -0500
+From: "Frederick L. Pauly" <flp2m`at`galen.med.virginia.edu>
+Subject: Needed: Armchair analysis
+
+
+Well, I think I have a problem and would like your expert
+opinions. I have an Ale that leaves a dryish sensation on the
+roof of my mouth and it stays there a long time  after swallowing
+the beer.
+This is a 10 gal. batch using 16# Klages 2row, 1# dextran, 1# 80L
+crystal, 16 hbu pearl 90min, 6 hbu cascade 30 min, 5 hbu cascade
+15 min. The water is very soft so I added 4 tbs of gypsum to the
+mash water. Mashed 30 min at 108, 90 min at 158, pH stayed at 5.8
+through the sparge with 180F .
+Question part 2.
+Noonan says if a hand full of grains tossed into water sinks then
+the grain is too old. Any comments or experience on determining
+if your grain is not fresh enough to use?
+Thanks
+Rick Pauly in Charlottesville,VA
+
+
+------------------------------
+
+
+Date: Fri, 29 Mar 96 09:22:46 PST
+From: hollen`at`vigra.com
+Subject: Re: Iodophor/Thanks
+
+
+>>>>> "Chris" == "Christopher M Goll" <cgoll`at`cc-mail.pica.army.mil> writes:
+
+
+     
+Chris> From recent HBD traffic, we seem to agree on approximately 12.5
+Chris> ppm iodine (1/2 oz iodophor in 5 gal) as a good sanitizing
+Chris> level.  However, trying to _accurately_ pour out 1/2 an ounce
+Chris> from a five oz bottle (the size available at my local brew
+Chris> store) is a PITA, leading me to add at least 3/4 oz to "make
+Chris> sure I've got it covered."  While my iodophor usage is not
+Chris> driving me to the poorhouse, it does seem like a waste.
+     
+I have two methods.  The first would be to use a syringe at 3cc per
+gallon.  The second, which may not work for most people is to use a
+plunger dispenser (since I use gallon bottles of iodophor, these are
+readily available).  I put a piece of cut hose on the plunger to get
+it to only make a partial stroke.  This arrangement is calibrated
+using water until one plunger stroke will dispense the right amount of
+iodophor.  When using this method, however, I am using 25ppm because I
+do a final rinse.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)597-7080x119       Email: hollen`at`vigra.com
+Senior Software Engineer     Vigra, Inc.  San Diego, California
+
+
+------------------------------
+End of HOMEBREW Digest #1998, 03/31/96
+*************************************
+-------

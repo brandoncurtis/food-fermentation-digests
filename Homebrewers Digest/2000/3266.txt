@@ -1,0 +1,1448 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA28301
+        for <spencer`at`srvr5.engin.umich.edu>; Tue, 7 Mar 2000 00:40:39 -0500 (EST)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr22.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA07977
+        for <spencer`at`engin.umich.edu>; Tue, 7 Mar 2000 00:40:37 -0500 (EST)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA06359
+        for realhomebrew; Tue, 7 Mar 2000 00:39:25 -0500
+Date: Tue, 7 Mar 2000 00:39:25 -0500
+Message-Id: <200003070539.AAA06359`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3266 (March 07, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3266                             Tue 07 March 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Brief outtage... (The Home Brew Digest Janitorial Staff)
+  fridge compressor duty cycle ("Paul E. Lyon")
+  nips (Tombrau)
+  Re: Sam Adams Hops (Joseph Gibbens)
+  Science ("Paul Niebergall")
+  Wort collection manifolds (Joseph Gibbens)
+  Yeast starter ("Bryant, Jerry")
+  Need to find out Cooker Manufacturer ("Branam, Mike")
+  Carboys for primary again ("Matt Hollingsworth")
+  unearned hangovers ("Sean Richens")
+  Paleexperiment ("John Lifer, jr")
+  Re: Palexperiment questions (KMacneal)
+  On-Line Entries for 2nd Annual Palmetto State Brewers Open ("H. Dowda")
+  Sake koji ("Glen Pannicke")
+  teflon hose (bmahon)
+  YCKCo (Doniese)
+  malta--again (Rick Lassabe)
+  British Homebrewing ("John Herman")
+  large starters ("George de Piro")
+  The Jethro Gump Request ("Rob Moline")
+  FWH (Bob Wilcox)
+  re: NOT! ("Nathaniel P. Lansing")
+  Ferm chamber ("Steve  Bireley")
+  Still more on Palexperiment (Louis Bonham)
+  English practice ("Paul Smith")
+  Class Is Back To Normal ("Phil & Jill Yates")
+  Beginning all grain brewing ("Murray, Eric")
+  Head Start Brewing Cultures ("Bill Bunning")
+  One PAE Data Point ("Troy Hager")
+  Get Your Questions Answered at MCAB! (RBoland)
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+* AOL members: Visit the AOL Homebrewing boards before they're gone!
+* Go to aol://5863:126/mBLA:185893
+
+
+* Entry deadline for the Mayfare Homebrew Competition is 3/15/00 
+* See http://www.maltosefalcons.com/ for more information
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 6 Mar 2000 19:17:26 -0500 (EST)
+From: The Home Brew Digest Janitorial Staff <janitor`at`brew.oeonline.com>
+Subject: Brief outtage...
+
+
+
+
+Our apologies for the brief outtage of the HBD server from Sunday evening
+to Monday afternoon. Some reconfiguration of the server had been done by
+our host to accomodate more servers on their shelving, and, unfortunately,
+these rearrangements interfered with the ability of the HBD server to
+reboot. On the plus side, we did discover a faulty RJ45 cable that had
+caused undiagnosed problems in the past.
+
+
+Back to the brewing...
+
+
+Brewfully yours, 
+
+
+The Home Brew Digest Janitorial Staff
+Janitor`at`hbd.org
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 03 Mar 2000 12:45:03 -0500 (EST)
+From: "Paul E. Lyon" <lyon-spamless`at`osb1.wff.nasa.gov>
+Subject: fridge compressor duty cycle
+
+
+Hi,
+
+
+        I am in the process of building a computer controlled temperature
+fermentation unit out of a spare fridge.  I used to use a hunter air conditioner
+thermostat to hold fermentation temperatures in the fridge, but that has
+finally burned out, and as far as I know, Hunter doesn't make those thermostats
+anymore.  I have an X10 system (x10.com, no affiliation, yadda, yadda...) in my
+house controlling lights and figured I could use that along with an appliance
+module to turn on and off the fridge.  I have built the temperature sensor and
+digitizer, and am in the process of building the interface card.  My question
+is what kind of duty cycle can a compressor handle with out burning out.  I
+need to set some on/off/on time limits in my temperature control program.  
+
+
+        I am looking forward to getting this to work.  I can envision putting
+the thermo-probe right into the fermenting wort so that I can control the
+temperature of the wort, instead of just setting the temp of the surrounding
+air.  I can set temperature profiles for fermenting, say 74F for the first few
+hours to get fermentation established, then walk the temp down to the low end
+of the yeast's range over a day or 2.  Lagers could be fermented with
+precision!  The circuitry is kind of complex and more expensive than my old
+hunter controller, but I plan to use the computer card to control other things
+besides the fridge.  If anyone is interested in the circuit diagrams, and
+eventual code, email me and sometime soon I will document what I've done. 
+(Remove spamless from my reply email).  
+
+
+
+
+Thanks,
+Paul
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 Mar 2000 13:06:24 EST
+From: Tombrau`at`aol.com
+Subject: nips
+
+
+Wort Brothers
+The Sunshine Challenge 2000 commemorative beer will be Bad to the Bone 
+Barleywine. I am in search of nips (6 or 7 oz. brown bottles) to bottle this 
+in. Does anyone know a good source for these bottles?
+Thanks
+Tom Moench 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 Mar 2000 12:51:27 -0600
+From: Joseph Gibbens <jgibbens`at`umr.edu>
+Subject: Re: Sam Adams Hops
+
+
+Fred Johnson asks about the Hops in Sam Adams Boston Lager.  In "Clone 
+Brews", the suggested hops for Sam Adams are Tetnanger and Hallertauer.  
+
+
+Joe Gibbens
+
+
+
+
+------------------------------
+
+
+Date: Fri, 03 Mar 2000 13:07:04 -0600
+From: "Paul Niebergall" <pnieb`at`burnsmcd.com>
+Subject:  Science
+
+
+A.J. writes:
+
+
+>Paul - I hereby acknowledge your right to brew strictly by the KISS
+>principal (of which I am a big exponent), to discard the experience and
+>opinions of any or all,  to underpitch, to participate in the next local
+>brewing-text burning and to practice the hobby in any way which gives
+>you enjoyment. In return I ask for acknowledgment of the right of those
+>of us who do study the texts, read the journals, perform experiments and
+>do analysis to discuss what we have learned from the literature, report
+>our experiences and those of others, and practice the hobby in any way
+>which give us pleasure (or better beer) which, in my case, often
+>Includes lime treatment, chanting, walking around in circles and, most
+>recently Karhunen-Loev expansion of beer absorption spectra (this is
+>really neat).
+
+
+Ah, but you miss the point.  I am not the home brewing antichrist that 
+you paint me to be.  Nor am I the Luddite that others have tried to 
+classify me as.  I wholeheartedly embrace science and especially the 
+direct application of science - technology. 
+
+
+I may tend to subscribe to the KISS theory when it come to the 
+actual practice of brewing, but I do not in any way "strictly adhere 
+to it" as you assert.  If you think that I am advocating underpitching 
+and shoddy technique, you are also wrong.  
+
+
+I am a scientist, I do experiments and qualify the lab work of others 
+on a regular basis.  I get into huge debates with other scientists 
+and attorneys, the results of which can be measured in millions of 
+dollars to some unlucky party.  The only reason that I mention this 
+is that it has taught me all too well how science can be 
+misinterpreted by the "librarians" out there and manipulated by 
+the expurts in order to bolster their own high opinions of themselves 
+and lure the unknowing and ignorant down a false path.   
+IMHO, this insidious onslaught must be stopped (hey, somebody 
+has to do it).  I love to brew,  read the HBD, and like to shoot the 
+B.S. as much as the next guy.  Sorry if I am crashing your party, 
+but I am here to stay for awhile (and I got a whole lotta home 
+brew to drink in the meantime).
+
+
+Now I suppose that somebody will jump on me for being overzealous 
+and placing way to much importance on something as casual 
+as home brewing (after all there certainly are not millions at stake).  
+And I would say my zeal is on par with that exhibited by the 
+overbearing scientific brew snobs who continually push their 
+agenda on the HBD.  I am just trying to balance out the opinions.  
+
+
+Alan writes:
+
+
+>I think this is another example of the complexities involved in brewing. The
+>overriding opinion among "expurts" both here on the HBD as well as
+>professional brewers is that underpitching /can/ be a bad thing. 
+
+
+Right underpitching "can" be a bad thing.  But we still have not 
+established a clear relationship (at least from a scientific standpoint) 
+that under pitching causes bad beer.  You are only fooling yourself if 
+you think that there is more than a just a few shreds of scientific 
+evidence out there that actually proves this.  It is more of an anthill 
+of misguided experiments and a mountain of emotions, speculation, 
+and innuendo.   If you are going to use science to prove a point, 
+then use it correctly.  Please also realize that science is a two-edged 
+sword and you might also cut your own leg off in the process. 
+
+
+
+
+Paul Niebergall
+
+
+
+
+
+
+(P.S. - I feel that I do owe and apology to Louis Bonham.  Louis - 
+I think you are a great guy and have performed a wonderful 
+service to the home brewing community.  I am sorry that if, by 
+citing your work, I insulted you in any way on a personal level.  
+Also, apparently I was wrong by saying that no QA/QC was built 
+into the experiment.  There were some lab blanks that were tested.  
+Therefore there was some minimal level of QA built in, inadequate as it was.)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 Mar 2000 14:03:12 -0600
+From: Joseph Gibbens <jgibbens`at`umr.edu>
+Subject: Wort collection manifolds
+
+
+Hello,
+
+
+Thanks for all the replies about using a SS hose mesh collection manifold.  
+Does the manifold need any internal reinforcement to keep it from 
+collapsing?  If so, what is the best way to do it?
+
+
+Joe
+ 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 Mar 2000 16:03:05 -0500 
+From: "Bryant, Jerry" <BryantJ`at`nabisco.com>
+Subject: Yeast starter
+
+
+With all the talk about underpitching of yeast, I am think that I need to
+start making a starter for my brews, instead of just pouring it in right
+from the vile/pack.  I have never had a problem, but sometimes don't get a
+lot of activity for 12-18 hours.  I am still fairly new to home brewing and
+have a lot to learn.  I was hoping to find out what most people use to
+create their yeast starters (canning jar, empty 2 liter of pop, etc...)
+When creating a starter how long does it usually take to get two liters of
+starter?  How many times do you increase the size to get to two liters?  Any
+help is greatly appreciated.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 Mar 2000 16:31:25 -0500 
+From: "Branam, Mike" <Mike.Branam`at`BellSouth.COM>
+Subject: Need to find out Cooker Manufacturer
+
+
+I saw a very good cooker that can be used for 15 gallon converted kegs. I am
+making a three
+tier brewing system and I would like to find out who makes this cooker. I
+want to buy just the burner
+and use it in my design but I don't need the whole cooker. Can any one tell
+me who the manufacturer of this cooker is
+so that I could contact the parts department and see about buying the 11"
+burner. Here is the web address that has the cooker but no company
+name.
+
+
+http://www.cyberbrewing.com/acb/showdetl.cfm?&DID=8&Product_ID=195&CATID=35
+
+
+
+
+------------------------------
+
+
+Date: 3 Mar 2000 17:49:58 -0800
+From: "Matt Hollingsworth" <colorart`at`spiritone.com>
+Subject: Carboys for primary again
+
+
+<< Dave Burley says:
+ >To "Sticky in Colorado" : As long as 
+ >you use a carboy for your primary
+ >you will run this risk of splooge on the
+ >ceiling.
+
+
+Just simply not at all true.
+
+
+I've ONLY used carboys for primary and secondary and have NEVER had a
+problem.  If you use an airlock at first, you may have a problem.  Or if you
+use a small diameter blow off.
+
+
+I use a blowoff that's the same size as the opening of the carboy.  I've cut
+the blowoff tube into pieces so it's kinda like an upside down U, with elbow
+joints fitting the pieces together.  This way, the sections are short and
+easy to clean with a small bottle brush, and you don't have to worry about
+the hose crimping.  The diameter of the hose and length of it also prevents
+suck back from happening.
+
+
+Cheers!
+
+
+ -Matt
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 Mar 2000 20:13:19 -0600
+From: "Sean Richens" <srichens`at`sprint.ca>
+Subject: unearned hangovers
+
+
+Tom Moench asks what others have experienced in hangovers from less-than
+excessive amounts of draft beer.
+
+
+My experience has been that this tends to happen with British imports.  Not
+sure why, but with more micros available, the imported ales aren't really
+worth drinking.  The real thing just doesn't travel over oceans.
+
+
+Now, most of the pubs here serving imports at least use CO2, if not AlGas.
+Funny bugs might occur, I have had itchy intestines from questionable beer.
+Hangovers are something I would associate, in theory, with oxygen.  There
+are still too many bars serving draft with air based on the idea (true in
+some places) that draft is a cheapo drink.
+
+
+Sean Richens
+srichens`at`sprint.ca
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 04 Mar 2000 08:05:48 -0600
+From: "John Lifer, jr" <jliferjr`at`misnet.com>
+Subject: Paleexperiment
+
+
+Being a member of the experiment, I would offer you my results.
+My lag times were so long that I was about to write off the yeast as being
+bad.(until others reported same thing)  The gravity ended above normal for me,
+not as high as others but if I recall about 1.014-6. Most of my normal brews end
+up under 1.010.  Taste was fine for a while, (kegged most all) but short life,
+bacteria, wild yeast, whatever, took over and last gallon or so was only fair.
+All bottled for testing was horrible after 4-6 weeks.  (possibility of bottle
+contam was there, but I had previously had no problems)  I normally don't
+"overpitch" usually smack into qt 1/2 to 3/4 full of wort, and pitch that. This
+would be 4-5 times what is in that little pack. And I get off to a good ferment
+after 4-8 hours not a day and a half!  Not entirely scientific, but I would say
+you would be very foolish to underpitch with just the smack pack volume.   BTW,
+have used White labs' Trappist w/o starter as a test.  About 12/14 hrs lag time
+at about 72-75f.  Ferment warmer than ale. You do then get the flavors.
+Nuff'
+John
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 4 Mar 2000 11:03:56 EST
+From: KMacneal`at`aol.com
+Subject: Re: Palexperiment questions
+
+
+In a message dated 3/4/2000 12:17:43 AM Eastern Standard Time, Jason Henning 
+writes:
+
+
+<< There were 30 people that reported exact lag times. The average lag time 
+was
+ 32 hours. The shortest was 13 hours and the longest was 62 hours. 22 people
+ reported lag times of 24 hours or longer. 12 of those folks had lags of 36
+ or more hours.>>
+
+
+How was lag time defined?  Did each brewer use the same definition?  I'm 
+curious because I've seen some inconsistency in defining lag time here on the 
+HBD.
+ 
+ <<Now lets look at finishing gravities. Looking at the finishing gravities of
+ 34 beers tested, the average is 1.0151. There are 5 samples that finished
+ 1.020 or above (1.020, 1.0208, 1.022, 1.0232, 1.0233). That's 14.7% of the
+ samples finishing 4.9 gravity points above the average. >>
+
+
+What is the standard deviation around the grand average?  Are those 5 batches 
+statistically different from the grand average?  If they are, it doesn't mean 
+that underpitching causes finishing gravity >= to 1.020.  It means there may 
+be other factors which are causing these five batches to be different from 
+the other 29.
+
+
+Factors which may be playing a role include:  Fermentation temperatures were 
+verified to be the same?  Brands of extract were the same?  Mash temperatures 
+were the same (and everyone was using calibrated thermometers)?  Hydrometers 
+were accurate and temperature corrections were used?
+
+
+Keith MacNeal
+Worcester, MA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 4 Mar 2000 08:37:43 -0800 (PST)
+From: "H. Dowda" <hdowda`at`yahoo.com>
+Subject: On-Line Entries for 2nd Annual Palmetto State Brewers Open
+
+
+If you have posted on-line entries for the PSB
+competition and have NOT received e-mail in response,
+please re-submit the entry or contact 
+hdowda`at`axs2k.net 
+
+
+We were using a Yahoo address for the entries but in
+the last few days Yahoo is saying we have, say, 5
+pieces of mail and only 2 are coming up.  We know the
+entry form is working fine and really don't believe we
+have missed any entries, but better safe than sorry.
+
+
+http://www.sagecat.com/psbcomp2.htm
+__________________________________________________
+Do You Yahoo!?
+Talk to your friends online with Yahoo! Messenger.
+http://im.yahoo.com
+
+
+
+
+------------------------------
+
+
+Date: Sat, 4 Mar 2000 13:27:23 -0500
+From: "Glen Pannicke" <gpannicke`at`email.msn.com>
+Subject: Sake koji
+
+
+In a previous post in HBD# 3246 I asked about Sake koji:
+
+
+>snip<
+
+
+Fred Eckhardt says under his section dedicated to koji: "There is a Chinese
+product called meng or chiu (labeled "dry yeast" in some chinese markets)."
+
+
+He further defines 'jui men' as "Chinese yeast balls with three types of fungi
+described (under the definition of jiu-niang), plus a binder,  which is rice
+and wheat flour and vegetable juice, alternately 'jiu ben' or 'jiu bing'.
+
+
+>snip<
+
+
+Since then I've recieved a number of replies from various sources.  Thanks to
+Raul, Sean, Hoshido, Robert, Paul, Gordon and Arne for their info.  Below is a
+listing of info I hope will help others who are interested in brewing sake.
+
+
+Sources of Koji and Aspergillus oryzae cultures:
+
+
+Kushi Institute Store (koji)
+P.O Box 500,
+Becket, MA 01223-0500
+1(800)645-8744
+www.macrobiotics.org
+Price: $8.99 / Lb
+
+
+Gem Cultures (cultures)
+30301 Sherwood Road
+Ft. Bragg, CA 95437
+Phone 707 964 2922
+approx $2.50/ea
+
+
+Matsua Markets (koji)
+River Road
+Hoboken, NJ
+Cold Mountain Koji - $5/20z.container
+(I got lucky on this one. They're pretty close enough to me)
+
+
+Koji is typically stored in the refrigerated section close to the miso paste.
+It is marketed to those who wish to make their own miso.  So if you've got an
+Asian food market nearby, then this is where you *MIGHT* find it as most
+people would rather buy than make their own miso.
+
+
+If you're not lucky enough to have an Asian food market nearby, try your local
+Wild Oats Market, Whole Foods or orther type of health-type grocery store.
+
+
+
+
+Links:
+Mutsuo Hoshido's page on sake & koji
+http://www.geocities.co.jp/Foodpia/1751/
+
+
+Sake World (Check the FAQs)
+http://www.sake-world.com
+
+
+Helpful Hints:
+
+
+ -Use amylase enzyme to clarify during the conditioning period.
+ -Wyeast has a sake yeast strain available
+ -Champagne yeast will suffice if you don't have sake yeast.
+ -Make a starter!  Stir frequently.  Use a wide-mouth jar.
+ -Shipping koji cost $$$ - it's refrigerated.
+ -The resulting sake can be filtered through activated charcoal.  While it may
+remove color, it may also remove some of the desired subtle flavor nuances as
+well as soften harsh flavors.  Taste first!
+ -The little yeast balls available in Chinese groceries, which are typically
+labeled as yeast, are used to make Jiu-niang - a Chinese sweet rice pudding.
+The balls contain bran impregnated with mold, yeast AND lactobacillus.  They
+will not suffice as the lactobacillus will make the sake too sour.
+Additionally, they may contain the the Shao Xing variety of Aspergillus oryzae
+and not the desired Globosus variety.
+
+
+I got my koji, soaked and steamed the rice, added the koji and yeast at the
+times suggested by Eckhart.  However, I would suggest against mixing by hand
+(as he suggests to do in his book) and use a sanitized spoon.  No matter how
+hard you wash your hands, there will still be bacteria on them and under your
+nails to infect your brew.  Plus the idea of arm hairs on the mix doesn't
+appeal to me either!  ;-)
+
+
+BTW, my local homebrew proprieter had only one packet of Wyeast sake yeast.
+He gave it to me for free since it was 3 years old, but has been kept
+refrigerated the whole time.  It swelled to capacity within 3 days at room
+temp!  I thought Wyeast suggested 1 day of incubation / month of storage.  Not
+bad. I should still be waiting!
+
+
+Hope this has been of help to some.
+
+
+Glen Pannicke
+================================
+Millstone Alehouse
+alehouse`at`homepage.com
+http://alehouse.homepage.com
+================================
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 04 Mar 2000 18:28:12 +0000
+From: bmahon`at`att.net
+Subject: teflon hose
+
+
+are all forms of teflon food grade?  
+
+
+i was poking around the mcmaster-carr website looking 
+for a way to cobble together a site gauge and found 
+several pages of plastic tubing.  one or another is 
+listed as "fda approved", but it only takes temperatures 
+to 160f or so.  then i found some pages listed as teflon 
+tubing; the various materials are listed as resistant to 
+this and that, but mention nothing about food safety.  
+the specific materials are fluorinated ethylene 
+propylene (fep), polyvinylidene fluoride (pvdf) and 
+perfluoroalkoxy (pfa).  i've spent several hours 
+searching the net looking for info but no luck.
+
+
+thanks
+
+
+bd
+
+
+
+
+------------------------------
+
+
+Date: Sat, 4 Mar 2000 18:05:30 EST
+From: Doniese`at`aol.com
+Subject: YCKCo
+
+
+I've left two voice mail messages and sent an Email to Yeast Culture Kit 
+Company with no response.  I'm getting tired of paying $4+ per batch for 
+yeast at my local shop.  Does anyone know if they're still around?  Pat B.?
+
+
+
+
+------------------------------
+
+
+Date: Sat, 04 Mar 2000 17:46:03 -0600
+From: Rick Lassabe <bayrat`at`worldnet.att.net>
+Subject: malta--again
+
+
+   I know I could go look it up , but I'm lazy---- I recently found a
+few bottles of "Malta", know do I just simply pour a couple of bottles
+into a sterilized erlenmeyer flask, oxygenate, and pitch the yeast in?
+This is not going to be my regular method of making starters, but I have
+been wanting to give it a try. Has anyone ruined a batch because of the
+"Malta"?
+Private email ok.
+Rick Lassabe
+Bayrat's
+"Bayou Degradable Brewery"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 4 Mar 2000 19:08:34 -0500
+From: "John Herman" <johnvic`at`earthlink.net>
+Subject: British Homebrewing
+
+
+A friend from the UK, who is a homebrewer, uses a cask for his ales.  They
+seem to be 5 gal. containers and made of plastic.  They don't need CO2 and
+don't use expanding ballons like the 'Pig'.
+
+
+Has anyone had experience with these?
+
+
+John Herman
+johnvic`at`earthlink.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 5 Mar 2000 00:57:46 -0500
+From: "George de Piro" <gdepiro`at`mindspring.com>
+Subject: large starters
+
+
+Howdy hots,
+
+
+David writes:
+
+
+"Am I missing something here?  We've had recommendations from several people
+to pitch at a rate of up to 4 liters per 5 gal batch.  That's approximately
+15-20% of the total volume.  Now, if I spend all this time brewing a wort
+that has just the right balance of all the right things, isn't a 10-20%
+increase in volume from a starter going to change the flavor profile of the
+batch significantly? How are you super-pitchers out there creating your
+starter wort?  Are you using extract? DME? Mother's milk?  Do you change the
+makeup of your starter wort based upon the beer you intend to pitch it in?"
+
+
+Back to me:
+
+
+4 liters of starter is adequate to pitch 40 liters (a bit more than 10
+gallons) of wort.  I don't recall anybody saying that 4 L is necessary for
+19 L (5 gal) of standard gravity wort.  If it was me, I mistyped.
+
+
+As far as using the 10% starter rate that I so vociferously advocate:  do I
+worry about pitching oxygenated wort onto fermented, young beer?  I used to,
+but not anymore.  I have done this so many times both at home and at the
+brewpub with no noticeable flavor defects that it no longer concerns me.  I
+typically grow the yeast from slant in my "lab" (those of you that have seen
+it are laughing) up to the 3-4 gallon mark (in a Corny keg), then, after it
+ferments out, pitch it into a 10 bbl unitank and put 1 bbl of fresh,
+oxygenated wort on top of it.  This is allowed to ferment for two days, at
+which time the 9-10 bbl of production wort are brewed and added to the
+fermentor (oxygenated, of course).  While the early steps of the propagation
+may be constantly agitated, the 3 gallon and subsequent steps are not, and
+they only receive one dose of O2 at pitching.  In this way, the starter
+doesn't taste all that odd.
+
+
+Do I worry about the starter wort being different from the production batch?
+Yes!  What do I do about it?  I arrange the production schedule so that a
+similar gravity and color wort will serve as the starter for the next batch
+(this can be difficult to arrange).  In the case of my most recent
+Hefeweizen, the starter was 1 bbl of an American pale ale wort.  Because
+this wort is hopped to such a high degree, I simply adjusted the hop rate of
+the Weizen wort so that the beer contained the desired ~4 mg alpha acid/bbl.
+
+
+Have fun!
+
+
+George de Piro
+
+
+C.H. Evans Brewing Company
+at the Albany Pump Station
+(518)447-9000
+http://evansale.com (under construction)
+
+
+Malted Barley Appreciation Society
+Homebrew Club
+http://hbd.org/mbas
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 5 Mar 2000 01:08:33 -0600
+From: "Rob Moline" <brewer`at`isunet.net>
+Subject: The Jethro Gump Request
+
+
+                        The Jethro Gump Request
+
+
+        Jethro has a need to send a parcel of malt samples to OZ.....And would like
+to hear from any travelers/pilots/flightcrew that do the US-OZ route...
+        No major bribes offered, just a chance to do a favour to blokes down
+under.....
+        All required Customs Documents provided........
+        Parcel easily inspected by you....It's just malt......
+
+
+Cheers!
+Jethro Gump
+Chairman, GBI
+The Gump Brewing Institute
+
+
+Rob Moline
+Lallemand
+AHA, Board of Advisors
+Siebel Alumni Association
+IBS
+MBAA
+
+
+"The More I Know About Beer, The More I Realize I Need To Know More About
+Beer!"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 05 Mar 2000 07:23:17 -0800
+From: Bob Wilcox <bobw`at`sirius.com>
+Subject: FWH
+
+
+In #3265 Stephen Ross states that "FWH will
+contribute about the same bitterness as beginning of the boil additions,
+
+
+since they get transferred to the kettle and boiled,"
+
+
+I  always thought that FWH was calculated like your late additions for
+IBU's. Is this another stick thrown on the FWH fire? Stephen, Do you
+have any hard data about this? I don't all I have is what has been
+posted here.
+
+
+- --
+Bob Wilcox
+Alameda & Long Barn Ca.
+bobw`at`sirius.com
+Draught Board Home Brew Club
+http://www.dnai.com/~thor/dboard/index.htm
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 5 Mar 2000 10:40:20 -0500
+From: "Nathaniel P. Lansing" <delbrew`at`compuserve.com>
+Subject: re: NOT!
+
+
+SA said, >>Actually you stated that commercial concerns don't do better
+than the
+Danstar figures.  Untrue.<<
+
+
+ UNTRUE! what I actually said was:
+"So what's the worry? Do you think large commercial breweies are working
+with 100%
+pure pitching yeast?"
+
+
+SA then states >>M&BS comments
+that 10-40 cells is generally acceptable, but that there is no safe
+level of S.diastaticus or lactic bacteria.  <<
+
+
+Pretty much my assertion that Danstar's spec of <16 cells/ml is not to
+shabby,
+well within "generally acceptable" standards.
+
+
+SA,>> If you can find a reference to any other
+value in acid washing such as your attenuation improvement, I'd be
+happy review it. <<  Then >>Highly flocculent yeast, such as ale yeast,
+tends to suffer a
+loss in flocculation.<<
+
+
+Last time I checked lower flocculation equated to greater attenuation.
+
+
+SA, >>Why not just
+spend a few days reculturing, <<
+Then, >>Every step in handling yeast is another opportunity to introduce
+contamination.<<
+
+
+>From slant to 5 ml starter, 
+from 5 ml to 50 ml,
+50 ml to 500 ml,
+decant supernate,
+500 ml to 2-3 liter,
+decant supernate,
+Pitch yeast.
+   6 or 7 handlings vs rehydrate dry yeast and pitch; only 2 handlings.
+Which is more likely to yield pitching yeast that falls into the mentioned
+acceptable standards? 
+  The original post was to point out how dry yeast were not as abysmally 
+contaminated as many people make it out to be; falling well within accepted
+indusry standards. Steve's references verify this.
+Also 1 "unidentified" cell /ml in a Wyeast pack is no big whoop!
+  Why bother reculturing unless you have a
+very special yeast that is not available otherwise. Buy a dry yeast or
+Wyeast
+and be assured the bacterial counts fall within acceptable industry
+standards.
+    This is pretty simple stuff.
+
+
+
+
+Oh gosh, there may be traces of peanuts in my Chips Ahoy!
+Does anyone have any PDM (peanut differential media) at a good price?
+
+
+N.P.L.
+
+
+
+
+------------------------------
+
+
+Date: Sun, 5 Mar 2000 11:01:09 -0500
+From: "Steve  Bireley" <sbireley`at`renex.com>
+Subject: Ferm chamber
+
+
+
+
+We have been using a fermentation chamber made from a bar refrigerator for a
+couple of years now with great success.  The refrigerator was a ~2.5 Cf
+model.  I used a metal cutting abrasive wheel in my circular saw to cut the
+back of the refrigerator off, leaving the compressor, coils, and evaporator
+all intact and connected to their original sheetmetal.  I mounted this
+assembly to a 2x4 frame supporting a foam box made of 1.5" isocyanurate
+building insulation.  It is large enough for 2 sankey kegs.  Right know it
+has 10 gal. of Double Bock and 10 gal. of Munich Dunkle in primary at 48
+deg. F.  We have sucessfully fermented double batches of ales and lagers
+year around with consistent results.
+
+
+The fermenter is in the garage, so in the winter time we use a 150 watt
+light bulb to maintain ale fermenting temps.  In the summer, the evaporator
+freezes up when the ambient temperature gets in the 80's and we are trying
+to keep the fermenter in the 40's or 50's. I think a better seal to keep the
+humid air out might help.  2" insulation might also help.
+
+
+Good Luck,
+
+
+Steve Bireley
+Northern VA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 05 Mar 2000 10:46:56 -0600
+From: Louis Bonham <lkbonham`at`hbd.org>
+Subject: Still more on Palexperiment
+
+
+Hi folks:
+
+
+More on the Palexperiment . . . .
+
+
+Recall that the experiment wasn't designed as a test of
+pitch rates . . . it was designed as a test to see what
+would happen if lots of people brewed the same beer, using
+the same materials and recipe.
+
+
+With regard to underpitching, what *did* the experiment's
+data show?  Using effectively identical yeast (Wyeast XL
+packs from the same lot), *all* of the participants reported
+lag times of 13 hours or more (with an average of about 32
+hours).  While there was quite a spread in the various lag
+times reported (arising from variations in oxygenation
+procedures, varying definitions of "lag time," etc.), I
+think that with N=35 and 100% of the tests showing
+longer-than-ideal lag times, it's not out-of-bounds to
+conclude that using the XL packs without a starter resulted
+in underpitching.
+
+
+Similarly, a large majority of the beers showed
+contamination levels that were clearly above the commercial
+standards.  Is there definitive *proof* that the long lag
+time and the degree of contamination are casually related?
+Of course not -- there were way too many other variables
+that would have to be eliminated (including, as Jim Liddil
+notes, whether the yeast lot itself was contaminated).  Did
+the data *suggest* a possible link between the two (which,
+if one reads the article, is all that I ever did)?  I think
+that it is a reasonable hypothesis, particularly given the
+wealth of sources that almost universally report that that
+high pitch rates work to minimize bacterial contamination.
+
+
+Recall, too, what prompted this interest in the
+Palexperiment data: Paul N's assertion that the
+Palexperiment beers were underpitched (which, as noted
+above, the clearly appear to have been):
+
+
+> Yet nowhere on the web page nor in the hundreds of lines
+> that were subsequently written in the HBD concerning the
+> outcome of the experiment, is there any reference to
+> "problems" occurring from "underpitching".  Not one
+> reference to
+> off-flavors, bacteria contamination, undercarbonation,
+> excess esters, phenols, nothing, nada, zippo, zero.
+
+
+That's simply wrong and *is* definitively contradicted by
+the data.  In short, while the Palexperiment data isn't
+sufficient to unquestionably establish a definitive link
+between the pitch rates and the high degree of contamination
+encountered, it *does* plainly contradict Paul N's assertion
+to the contrary.
+
+
+Louis K. Bonham
+lkbonham`at`hbd.org
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 5 Mar 2000 12:29:51 -0600
+From: "Paul Smith" <pksmith_morin`at`msn.com>
+Subject: English practice
+
+
+Hello everyone - my wife and I recently returned from a trip to England, where
+we toured several breweries; representative among them were Fuller's, Hook
+Norton (Hook Norton Village, Oxfordshire), and Titanic (Stoke-on-Trent).  In
+addition we enjoyed the Battersea Festival, a real-ale festival sponsored by
+CAMRA, in Battersea, London.
+
+
+It might be interesting to note that outside Fuller's, which employed
+practices similar to what I've experienced among commercial breweries here,
+much of what we saw was simpler than U.S. practice.
+
+
+A few notes:
+
+
+Practice:
+
+
+Open fermentation was the rule of the day; transferring yeast via open
+buckets, post-fermentation rousing, "skimming" via "china cap" shaped funnels,
+and in general less fervent (less obsessed?) attention to sanitation procedure
+(up to and including one unnamed brewery where the brewer washed his hands
+free of pitching yeast in the (cooled) transfer wort stream!).  Single
+infusion, combined mash-lauter tuns, hopbacks (no whirlpools).  Long mashes,
+at times up to two hours at high ranges.
+
+
+Materials:
+
+
+Simplicity rules the day regarding materials as well.  Maris-Otter was most
+widely used, with perhaps a touch of crystal, maize, raw barley or wheat.
+Whole-flower Northdown, Target, Challenger, EKG and Fuggles were in many all
+that was used.
+
+
+Yet despite this simplicity, the beer(s) were in general extraordinarily good.
+One thing that I would say about English ales is that the yeast is king.  It
+is in general wonderfully estery, a powerful producer, and varies so widely
+from brewery to brewery that yeast "house" character is immediately evident.
+Given that most of what my wife and I drank was cask ale, it is also true that
+the beer was very young and not in the time-frame for significant staling or
+(possibly) contaminant development.
+
+
+A final note:  Although this is in a very, very general sense, there seems to
+exist in England two "houses" of beers, from what we tried.  Much of the beers
+from breweries located in the "hop districts," e.g., Kent had a wonderful hop
+character, and this was obviously what was favored.  The mouthfeel was
+subsumed to an almost grassy, thinnish, "hop tea" like beer; the other "house"
+of what my wife and I tried were definitely malt-balanced, with a great deal
+more body, a good amount of hop presence, but not nearly as much "vegetal"
+character.
+
+
+Notable beers:  Rooster's products (using, I am almost certain, either
+Centennial or Cascade in dry-hop); Fuller's Golden Pride, a strong ale, or
+London Porter on draft (in my book, one of the finest Porters I've had);
+Supremely cellared Draught Bass at the White Horse, in Parsons Green (where we
+had dinner with Michael Jackson, a brilliant man); Timothy Taylor Landlord
+(esters bouncing everywhere!); all of Hook Norton's beers; Titanic's Captain
+Smith strong Ale, (as in Titanic's Captain - an erstwhile resident of
+Stoke-on-Trent); Tanglefoot strong ale; Marston's Pedigree; among others.
+
+
+By the way, this all came by the good graces of the World Beer Tour, from whom
+we won the trip.  I would like thank them for the opportunity, and for their
+great companionship while in London.  A class act all the way.
+
+
+Paul
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Mar 2000 09:04:01 +1100
+From: "Phil & Jill Yates" <yates`at`acenet.com.au>
+Subject: Class Is Back To Normal
+
+
+It amuses me to observe the remarkable inertia of the HBD. From time to time
+we are lucky enough to get the odd post from eccentrics such as Doc
+Pivo/Jeff Irvine - call him what you will, I'm sure Jeff couldn't give a
+rats.
+
+
+But the fun never lasts for very long. No sooner does Jeff have a few
+controversial things to say and the knives are out for him. Mind you, Jeff
+isn't bad at slicing a few people up himself, little Stevie Wonder didn't
+like the way he was treated at all!
+
+
+Now I don't blame Steve for his response. When you are being sliced to
+pieces you are entitled to give out a little squeak. Even "Back To Me"
+George got his hair all prickled up and wanted to have a go.
+
+
+But I wouldn't blame George either. Working away down there at the pump
+station, why should you take such demeaning crap from an anonymous Doctor
+who really couldn't care whether you take it or not, and cares even less
+about the beer you sell?
+
+
+I'm sure that back in school, Jeff the Doctor would have been the naughty
+boy who spent most of his time being ordered to stand behind the door, found
+guilty of flicking Steve and George behind the ear during science class.
+
+
+This forum is for individuals who take on the complexities of making beer,
+and where ever possible resolve to make such complexities even more complex!
+Or so it would seem.
+
+
+I see no room for individuals such as Doc Pivo who have dared to defy the
+teachings (or rather recitals) of such great men. I never should have asked
+him back, he told me it would only end in trouble.
+
+
+Never mind, the ruckus is over now. The Doc has flown off to sample an
+unusual beer just discovered being brewed in the South Western extremes of
+Tasmania. It is said the recipe and procedure date back to the days of
+Alexander Pieman. Now here was an interesting guy, if he didn't like you he
+ate you, and if he did like you he still ate you. Makes you wonder what he
+put in his beer!
+
+
+Let's hope the Doc doesn't come back with a skin full.
+
+
+Cheers
+Phil
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 06 Mar 2000 17:14:18 -0500
+From: "Murray, Eric" <emurray`at`sud-chemieinc.com>
+Subject: Beginning all grain brewing
+
+
+Hello fellow brewers
+
+
+I have been brewing extract/specialty grain brews for a couple of years now,
+and thought I might give all grain brewing a try. I have looked at all
+different kinds of setups on the net from RIMS systems, down to plastic
+buckets. My question is,, what is the most practical/popular equipment to
+use for the indoor brewer? Should I go with a Gott 5 or 10 gal cooler or a
+pot on the stove? Exactly how would my setup work? Papizian's book describes
+changing temps using quarts of boiling water. Should I get a separate
+Mash/tun and Lauter tun? What's a good way to filter out the hops if using a
+wort chiller? I was thinking that the Gott cooler idea would work best,
+using a false bottom, then use a brew pot with a spigot installed to run
+through a wort cooler (the only problem being how to keep the hops from
+going through a wort chiller. I like doing 5 gal batches, and don't plan on
+going to 10. Basically some equipment advice and a brief over view of the
+process using that equipment is what I am after.
+
+
+Thanks,
+Eric
+(comfortably lurking)
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Mar 2000 16:28:11 -0600
+From: "Bill Bunning" <bunz`at`pcola.gulf.net>
+Subject: Head Start Brewing Cultures
+
+
+Could anyone tell me if Head Start Brewing Cultures is still in business?
+If they are, I'm looking for an e-mail address or a web site to order from.
+
+
+Thanks,
+
+
+Bill Bunning
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 06 Mar 2000 16:08:50 +0000
+From: "Troy Hager" <thager`at`hcsd.k12.ca.us>
+Subject: One PAE Data Point
+
+
+Alan M and others have recently posted on pitching rates and have cited data
+from the Palexperiment of which I as involved.
+
+
+Alan says:
+
+
+Paul does raise an interesting point, that by and large
+these beers apparently did not exhibit major flavor defects. While the
+authors say some of the beers had clearly "gone off " they also said that
+most tasted like "better than average all-grain homebrews"  so it seems
+clear that there were no /major/ defects in the majority of these beers.
+
+
+I say:
+
+
+My beer was one of those that was labeled "severe contaimination" and
+although very hoppy (most came out in the 60IBU range if you remember) I
+tasted no off flavors at the time of the experiment. A few months ago I
+found a bottle of the PAE in the back of my fridge - I suppose it was about
+a year and 8 months old. It had been in the refridgerator for quite a while
+and was crystal clear. To my surprise it was very good. In fact I liked it
+better than at the time of the PAE because a lot of the big hoppiness had
+decreased and you could taste a lot of the malt underneath! I definitely did
+not taste any "major flavor defects." Maybe the high hopping rate has
+prevented some of the growth in contamination...?
+
+
+Cheers,
+
+
+Troy
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Mar 2000 23:12:54 EST
+From: RBoland`at`aol.com
+Subject: Get Your Questions Answered at MCAB!
+
+
+Have you ever told Dave Miller that you received your foundation in 
+homebrewing from one or more of his several premier books on the subject?  
+When was the last time you talked to George Fix about his brewing technique 
+or asked his opinion about yours?  Have you asked Dave Logsdon (Wyeast) and 
+Chris White (White Labs) about what makes their liquid yeast work for you?  
+Have you ever tasted half a dozen or so homebrewed, cask-conditioned real 
+ales served by beer engine in one place? Have you ever wondered whether the 
+science and techniques used by the big boys could help you make a better ten 
+gallon batch, but didn't know who to ask?  
+
+
+Answers to these questions and more can be found March 24-26 at the Second 
+Annual Masters Championship of Amateur Brewing and Technical Conference, held 
+in St. Louis, MO and hosted by the St. Louis Brews.  Visit our website, 
+www.stlbrews.org for information and registration, or contact me at 
+rboland`at`aol.com.
+
+
+I hope to meet you in St. Louis
+
+
+Bob Boland
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3266, 03/07/00
+*************************************
+-------

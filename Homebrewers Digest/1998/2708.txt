@@ -1,0 +1,1520 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA09573
+        for <spencer`at`srvr5.engin.umich.edu>; Fri, 8 May 1998 01:38:11 -0400 (EDT)
+Received: from stayhungry.rs.itd.umich.edu (stayhungry.rs.itd.umich.edu [141.211.83.42])
+        by srvr22.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA19423
+        for <spencer`at`engin.umich.edu>; Fri, 8 May 1998 01:38:11 -0400 (EDT)
+Received: (from root`at`localhost)
+        by stayhungry.rs.itd.umich.edu (8.8.5/2.5) with X.500 id BAA26145; Fri, 8 May 1998 01:38:10 -0400 (EDT)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by stayhungry.rs.itd.umich.edu (8.8.5/2.5) with ESMTP id BAA26140; Fri, 8 May 1998 01:38:06 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA06273 for realhomebrew; Fri, 8 May 1998 00:44:00 -0400
+Date: Fri, 8 May 1998 00:44:00 -0400
+Message-Id: <199805080444.AAA06273`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2708 (May 08, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2708                             Fri 08 May 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  pH Experiment - Background ("A. J. deLange")
+  pH Experiment - Procedure ("A. J. deLange")
+  pH Experiment - Data Sheet ("A. J. deLange")
+  Oatmeal Stout / Wisconsin Homebrew Clubs (Matthew Arnold)
+  Hop Farming (Kevin TenBrink)
+  Stout head retention (John Coulter)
+  Is my malt ruined? ("George De Piro")
+  DO and mixing (Hugh Hoover)
+  FWH extract recipes (Kevin TenBrink)
+  Stainless Conical Fermenter ("S. Wesley")
+  Acetaldhyde ("David R. Burley")
+  SABCO mash kettle info wanted (Bill Holman)
+  Dryhopping (Jeff Renner)
+  South African Homebrewers ("Dallas Dahms")
+  Evaporation Rates ("Henckler, Andrew")
+  Boiling and evaporation rates (George_De_Piro)
+  Boil rates and evaporation (michael rose)
+  Covering the boil (Charles Hudak)
+  Beer Evaluation (George_De_Piro)
+  Trip from NYC to GABF in Baltimore (BR Rolya)
+  Boil evaporation (Troy Hager)
+  10% rule (Jeremy Bergsman)
+  Re: Re-started fermentation in the secondary (brian_dixon)
+
+
+
+
+BURP's Spirit of Free Beer competition is June 6-7 and entry information
+is available by contacting Jay Adams (adams`at`burp.org).
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 06 May 1998 16:50:35 -0500
+From: "A. J. deLange" <ajdel`at`mindspring.com>
+Subject: pH Experiment - Background
+
+
+Background:
+
+
+About a week or so ago I posted concerning quantifying the extent to
+which mash pH changes with temperature. Many books and articles say that
+
+
+brewers who cool their wort should subtract 0.3 units from a room
+temperature pH measurement to compensate for the fact that the
+measurement is being made cold. This number seems to derive from a table
+
+
+in DeClerk (who in turn got it from Hopkins and Krause, "Biochemistry
+Applied to Malting and Brewing", London, 1950). The table shows measured
+
+
+pH vs. the temperature of measurement for two mashes: one made with
+distilled water and one with "medium hard water". While the pH values
+differ for the two mashes both sets of data show a trend of very close
+to .004 pH per degree F.
+
+
+I mentioned that I usually see a rise of only 0.1 pH unit but
+consultation of my notes shows that it is more like .13 - .15 or about
+half what DeClerk's data show. I wondered whether this is yet another
+example of widely accepted misinformation circulating and recirculating
+throughout our community.  This caught the eye of Lewis Bonham who is,
+as you know, doing a column in BT whose focus is experimentation in
+brewing. This is just the kind of data he'd like to have and I'd love to
+
+
+provide it. There is, of course, a catch. I may have a much better pH
+meter than Jan DeClerk ever saw in his lifetime of brewing research but
+I don't have the lifetime to devote to brewing reasearch (alas).
+Therefore, I can only accumulate a limited amount of data in reasonable
+time and that's why I'm asking for input from other brewers. If some of
+you will will pitch in we ought to be able to accumulate a fairly broad
+base of data. I think this is a neat opportunity for the collective (as
+we so often call outselves) to do something collectively.
+
+
+There is, of course, a catch here too and that is that differences in
+equipment and difference in technique may distort the data. I can't do
+"quality control" if I'm not there but what I can try to do is lay out a
+
+
+procedure which we'll hope will give consistent results when used by
+anyone with appropriate equipment. This procedure is little different
+from what is regarded as good practice but what we'll do is define a
+particular set of steps and ask that contributors adhere to them even
+though their equally good practices may differ somewhat. I will also ask
+
+
+that participants furnish raw millivolt readings in addition to pH
+readings. In this way I can see what shape your electrode is in and the
+raw data lets me do "calibration"  and temperature compensation myself
+so that all data will be based on the same  algorithm. I put
+"calibration" in quotes because it's a bit of a misnomer. What we are
+really doing is using the assumption that a pH electrode's output
+voltage (whatever shape it is in) reponds linearly to changes in pH and
+temperature and then comparing (really interpolating) voltage and
+temperature readings for the test solution (mash) to the known pH's of
+two buffer solutions.
+
+
+Here's a tentative "protocol" for this experiment. Don't just leap in
+and start measuring yet (unless you really want to) but rather let's let
+
+
+a little time go by to let interested parties (i.e. potential
+participants) comment  on or question what I've proposed. If you think
+you would like to participate, please drop me a line and describe your
+meter and electrode.
+
+
+Required Equipment:
+
+
+Electrode: There are a couple of  requirements for the electrode. First,
+
+
+it must be able to withstand the heat of the mash  (electrodes
+containing calomel will be destroyed at about 70 C (158 F)). Second, its
+
+
+filling solution should only contain potassium chloride (in particular
+it should not be the commonly used potassium chloride plus silver
+chloride). Silver can react with the proteins in beer and can cause
+reading errors.
+
+
+Meter: There are lots of meters available and lots of combinations of
+features. To put all contributors on an equal footing irrespective of
+meter "bells and whistles" for this experiment we want only the ability
+to read millivolts and nearly all meters have this capability. It is
+desireable that the meter read to 0.1 mV as this corresponds to
+nominally 0.0016 pH. Another important feature is that the meter's input
+
+
+impedance be high relative to the electrode's resistance. It may be
+difficult to determine the input impedance of your meter as not all
+manufacturers put that number in their spec sheets.
+
+
+Buffers: Buffers should be NIST traceable and certified to within plus
+or minus
+0.02 pH. I've used this spec since most buffers you can buy meet this.
+pH 7
+and pH 4 buffers are required and should be made up fresh with deionized
+
+
+water before each brew session unless pre-mixed buffers are used.
+Pre-mixed buffers will preferrably be those which are sold in individual
+
+
+pouches. Bottled pre mixed buffers should be new and particular care
+must have been taken that pH 7 buffer has not been contaminated with pH
+4 buffer (and vice versa) as by failure to rinse the electrode when
+moving it from one buffer to another. The integrity of the buffers is
+absolutely essential to the success of the experiment. The two buffers
+are the ends of a pH "ruler" and pH measurements made with bad buffers
+will be as worthless as distance measurements made with a yardstick
+which is several inches too long or short.
+
+
+Thermometer: A good thermometer readable to 1 degree (Fahrenheit or
+centigrate) is required to measure the temperature of buffers and
+samples. The temperature sensors built into pH electrodes are OK.
+
+
+Wash bottle: This is ideally a squirt bottle filled with deionized water
+
+
+which is used to wash off the electrode and thermometer (if it is
+separate from the electrode) each time the electrode is put into a new
+buffer or test solution. If a squirt bottle isn't available, put some
+distilled water (about a buck a gallon from the drug store) in a glass
+and dunk the electrode. Discard this rinse, rinse the glass with a small
+
+
+additional amount of distilled water, and then refill it with more
+distilled water for the next rinse.
+
+
+Beaker or glass: This is the container into which you will fill the mash
+
+
+test sample. It should hold enough mash that it will not coll so quickly
+
+
+that you can't get a temperature stable reading.
+
+
+ -MORE-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 May 1998 16:52:42 -0500
+From: "A. J. deLange" <ajdel`at`mindspring.com>
+Subject: pH Experiment - Procedure
+
+
+Procedure
+
+
+Here are the steps in the procedure. Data should be reported on the data
+
+
+sheet which is in a nearby posting.
+
+
+1. Prepare fresh buffers or let pre-prepared buffers come to room
+temperature.
+
+
+2. Calibrate your meter using the manufacturer's instructions. This
+involves putting the electrode into each of the buffers in succession.
+Be sure to rinse off any storage solution before entering the first
+buffer and then rinse the first buffer before going into the second.
+Shake or blot rinse (don't wipe) water.
+
+
+3. After calibration (or as part of it if your meter allows) measure and
+
+
+record (on the data sheet) buffer temperature and millivolt readings for
+
+
+each of the two buffers. Be sure buffer millivolt readings are stable
+before recording.
+
+
+4. Measure the pH of the water you are brewing with and enter the
+reading on the data sheet..
+
+
+5. If you know the alkalinity and hardnesses of the brewing water report
+
+
+that data on the data sheet. If calcium and magnesium hardness are known
+
+
+separately report total hardness. Specify whether hardness data is "as
+calcium", "as magnesium" or "as calcium carbonate".
+
+
+6. Record grist composition i.e. how much of each grain type. Give
+maltster, and specify type e.g. Paul's Crystal, 50 L  1 lb.
+
+
+7. Measure pH at one or more points in the mashing process. Wait a few
+minutes after doing things like doughing in or returning a decoction.
+Use a separate data sheet for each set of measurements. Start by
+withdrawing a few hundred mL of mash in a glass or beaker.
+
+
+8. Rinse the pH electrode and thermometer and insert into the mash.
+Monitor the mV reading.
+
+
+9. Move the electrode slowly and uniformly through the mash while
+watching the mV reading. IT MUST BE STABLE. When the reading  is stable
+record it and then switch the meter to pH mode. Record the pH reading.
+Record the thermometer reading (make sure it is only touching the mash
+and not the beaker or glass).
+
+
+10. Cool the mash sample as by placing the beaker in cold water. After a
+
+
+few minutes, stir the sample thoroughly and check its temperature. Try
+to get a handful of temperatures between mash temperature and room
+temperature. We'd like at least 3 and 4 or 5 are better still.
+
+
+11. Repeat from Step 9 until room temperature is reached.
+
+
+12. Thoroughly rinse the mash from the electrode and thermometer and
+then measure mV and temperature of the two buffers again being sure to
+rise before moving from one buffer to the other. Record the results on
+the data sheet. If you are going to do another set of measurments at a
+later stage in the mash, don't repeat the buffer measurements at the
+beginning of the new measurement set unless more than an hour has
+passed.
+
+
+
+
+ -More-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 May 1998 17:01:14 -0500
+From: "A. J. deLange" <ajdel`at`mindspring.com>
+Subject: pH Experiment - Data Sheet
+
+
+Data should be reported on this data sheet for consistency. Copy and
+paste a copy of the data sheet for each set of measurments you report.
+For example, if you do pH measurements at the return of the 1st and
+second decoctions use a separate sheet for each of those sets of
+measurments.
+
+
+Style of Beer:                                     Length:
+
+
+Grist Composition:
+
+
+WATER
+
+
+Source; treatment:
+
+
+pH:
+
+
+Alkalinity:
+
+
+Hardness  Total:                Calcium :                    Magnesium:
+
+
+pH Meter Make:                           Model:
+
+
+Electrode Make:                            Model:
+Age:
+
+
+
+
+BUFFERS
+
+
+Manufacturer:
+
+
+Form (i.e. pouch, pre-mixed...):
+
+
+        pH 4 Buffer                                     pH  7    Buffer
+
+
+Temp.:                milliVolts:                Temp.:
+milliVolts:
+
+
+Temp.:                milliVolts:                Temp.:
+milliVolts:
+
+
+
+
+Mash Step (e.g. single infustion rest, after return of 1st decoction):
+
+
+
+
+Temp.:                 millVolts:                   pH:
+
+
+Temp.:                 millVolts:                   pH:
+
+
+Temp.:                 millVolts:                   pH:
+
+
+Temp.:                 millVolts:                   pH:
+
+
+Temp.:                 millVolts:                   pH:
+
+
+Temp.:                 millVolts:                   pH:
+
+
+
+
+        pH 4 Buffer                                pH 7     Buffer
+
+
+Temp.:                milliVolts          Temp.:             milliVolts:
+
+
+Temp.:               milliVolts:         Temp.:              milliVolts:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 May 1998 23:40:29 GMT
+From: marnold`at`netnet.net (Matthew Arnold)
+Subject: Oatmeal Stout / Wisconsin Homebrew Clubs
+
+
+Seeing as things are kind of slow on ye olde HBD, I thought I'd ask these
+questions. I'm planning on making an Oatmeal Stout with 7 lbs pale ale, 1 lb
+Roasted barley and 1/2# oatmeal. Is this enough to give me that nice sliky
+smoothness? How much more dare I add before I need a beta-glucan rest? 1/2# in
+this recipe = ~6% of the grist.
+
+
+- -----
+
+
+Attention Wisconsin Homebrew Club members! I'm trying to get a listing of all
+the WI clubs on our website (see address in my .sig). Check out our listing at
+http://www.rackers.org/clubs.html I've only found three others (Madison
+Homebrewers and Tasters Guild, Sin City Sudzzers, and Washington Heights
+Brewery) so far. I'd also like to look into the possibility of a WI club
+alliance of some sort (we tossed this idea around for a while at a recent
+meeting. What do you think?
+
+
+Thanks,
+  Matt
+- -----
+Webmaster, Green Bay Rackers Homebrewers' Club
+http://www.rackers.org        info`at`rackers.org
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 May 1998 19:04:32 -0600
+From: Kevin TenBrink <tenbrink`at`jps.net>
+Subject: Hop Farming
+
+
+Hello-
+I have a question for all the home hop farmers out there.
+I have some 2nd year vines in the ground that are doing quite
+well....almost 12 feet long already!  My questions are:
+  1)  I keep getting little hop shoots sprouting out of the ground, some
+as far away as 3 feet from the original planting area.  I keep cutting
+these back but I am wondering if they will ever stop sprouting or if
+there is something I can do to make them stop sprouting.
+
+
+  2)  There is a chance I may be moving this summer from Utah to MI.
+Can I dig up and take a root cutting in the middle of the summer and
+replant when I arrive in MI to start establishing the root base for next
+year?
+
+
+Thanks--
+Kevin
+Nine Inch Ales Homebrew Club
+Salt Lake City
+http://www.jps.net/tenbrink/nineinchales.htm
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 May 1998 10:59:38 +1000
+From: John Coulter <jac`at`mira.net>
+Subject: Stout head retention
+
+
+As a long time lurker, and Aussie home brewer, I need some help from the
+experts. My Guinness style stout, made with extract and steeped
+flaked/roast barley tastes and looks just the way I like it...almost. My
+nitrogen/co2 mix keg set-up and stout faucet pours a fine head, a bit
+foamy at times, which eventually results in a  half inch head, looks
+perfect but then it disappears within five minutes, and doesn't taste as
+thick/creamy as a well poured guinness.
+
+
+I've tried doing a protein rest for the flaked barley, adding pale malt
+grain but it didn't help. Tried adding wheat to partial mash and that
+didn't either.
+
+
+My questions are:
+1. Could using bleach steriliser be a contributor? ( I rinse 2 or 3
+times)
+2. Will using a carbonation stone, as someone suggested,  increase the
+amount of nitrogen dissolved, and provide smaller bubbles to keep the
+head alive. Does anyone know if Guinness nitrogenate their kegs before
+they ship them or only use it to serve?
+3. Have I reached the limits of extract brewing and can only improve the
+head by going to full-grain?
+4. Does the quality/grain size of the flaked barley make much
+difference?
+5. Any other ideas/suggestions?
+
+
+BTW the digest's great. I went from being an unhappy kit brewer to an
+almost happy, perfectionist, extract brewer with a laundry full of kegs,
+gas tanks and a hole in my pocket.
+
+
+                            Private E-mail fine.
+
+
+                                                       John Coulter
+                                                        jac`at`mira.net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 May 98 21:24:56 PDT
+From: "George De Piro" <gdepiro`at`fcc.net>
+Subject: Is my malt ruined?
+
+
+Hi all,
+
+
+I'm just finishing up a 1.5 week home malting project.  I've made 
+Pilsner, light and dark crystal, and Munich malts.  Some chocolate malt will be 
+made from the Munich malt in the very near future.
+
+
+All of the malts taste good, except for the Munich malt.  It was also the
+ most challenging to make, so it is no surprise that the outcome seems 
+less than stellar.  It has a quite pronounced acrid taste in the finish. 
+ It smells sweet and malty, but a bit too toasty.  The color is a touch 
+darker than Weissheimer Munich malt, too.
+
+
+I know, it seems an easy diagnosis:  I over kilned it in the final 
+stages.  Of course it isn't that easy, though.  I actually kilned it cooler and
+ shorter than recomended by Kunze.   Could it be the uneven heating in 
+my oven?  Is it that young Munich malt is supposed to taste a bit rough? 
+ Is my malt ruined?!
+
+
+If you haven't tried home malting, you don't know the fun your missing. 
+ I really enjoyed getting up at 2 am to check on the malt in the oven! 
+ You really develop an understanding of the whole process, too.  For 
+those who may be intimidated, Pilsner and crystal malt are actually pretty 
+easy to make.  If you are ever really searching for something to do, give
+ it a shot!
+
+
+In the old days, crystal malt was made by steeping finished pale malt 
+until a moisture content of ~45% was reached.  You should change the steep 
+water quite often to avoid souring of the malt if you do it this way 
+(lest you make acid malt).  Once the malt is appropriately wet, you cover it 
+and heat it to as close to 145-160F as you can to saccharify it (just 
+like mashing).  After a couple of hours it will be noticeably sweet and 
+somewhat darker (keep an eye on it if you are trying to make light crystal). 
+ You can then uncover it, let it dry, and raise the temp anywhere from 
+170F to 350F to make the color crystal you want and dry the malt.  Easy!
+
+
+Have fun!
+
+
+George De Piro  (Nyack, NY)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 May 1998 18:38:09 -0700
+From: Hugh.Hoover`at`software.com (Hugh Hoover)
+Subject: DO and mixing
+
+
+While cursing my empty O2 container, and thankful that
+I'd sanitized my aquarium stone, I was thinking about
+the aeration process.  Most of the actual transfer
+of gas into the liquid happens at the bubble interface
+(I think), which mostly is in the foam on top...
+
+
+This makes me think that for effective aeration, the
+wort has to be mixed during the aeration.
+
+
+I've observed that when using air (and 30 mins of
+aeration) I get pretty good starts, but w/ O2 (~2 min),
+sometimes I don't.  Makes me think I should mix when
+using O2 (or use an inline stone).
+
+
+The airstone appears to put out sufficient volume
+to cause some mixing in the primary, plus working for
+30 mins probably gives it time to set up a mixing
+pattern.
+
+
+Anybody done any testing of DO vs mixed / not mixed?
+Also, what's a reasonably volume of 02?
+
+
+Hugh Hoover
+PetaPint Brewery
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 May 1998 19:22:11 -0600
+From: Kevin TenBrink <tenbrink`at`jps.net>
+Subject: FWH extract recipes
+
+
+A question regarding FWHing extract with specialty grain recipes.
+If I want to try this, do I add the flavor and/or aroma hops to the
+sparged specialty grain soak water as I am bringing it to a boil but
+before I have added the extract?  Do I remove the hops as the wort
+starts to boil or leave em in the whole time?
+
+
+Thanks for the help
+Kevin
+Salt Lake City
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 May 1998 06:28:33 -0700
+From: "S. Wesley" <Wesley`at`maine.maine.edu>
+Subject: Stainless Conical Fermenter 
+
+
+Dear Jim,
+        You may be able to purchase small cylindroconical fermenters from 
+Pierre Rajotte's Company.  I don't remember the name off hand, but I've 
+seen a number of his 2 barrel fermenters in use in small breweries and 
+I've heard that he makes smaller ones.  If you can find a copy of this 
+month's "American Brewer" Magazine he has an article on continuous 
+fermentation in which he mentions the name of the company. Sticker shock 
+may be a problem, so here is an alternative.
+        I've been using 20 gal plastic barrels as fermenters for a while 
+now with good results.  I bought about ten of them from Modern Brewer in 
+Boston for $19 each. They had been using them as fermenters in their 
+commercial brewing operation.  Unfortunately I belive they sold out of 
+them when they sold off their BOP equipment, but they are not too hard to 
+come by.  Lots of people in Maine use them to collect sap for maple syrup 
+manufacture.  One guy told me he gets his used from dairy farmers, 
+apparently they originally contained "teat dip"!  Just last night I was 
+driving home from work and I saw a few sitting by the side of the road. 
+The guy who was throwing them away brought them home empty from the local 
+hosptial where they originally contained an instrument sterilizer.  You 
+may also be able to find them at places like Grainger or McMaster-Carr.
+        The fermenters have two 2.5" threaded openings in the top and a 
+double handle which is rugged enough to lift the fermenter safely when it 
+is full, although, they are, of course, rather heavy.  They come with 
+caps which have a rubber gasket which forms an air tight seal when 
+screwed in properly. The caps can be drilled out to accomodate whatever 
+gas release you want to use.
+        I've rigged up a pulley system in the basement to lift the 
+fermenters gently into the air for transferring. A racking cane made out 
+of .5" copper tubing bent into a J at the top and bottom allows for 
+surprisingly rapid transfer without the hassle of sanitizing pumps, or 
+the accompanying agitation and loss of CO2.
+                                Regards,
+
+
+                                Simon A. Wesley
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 07:57:35 -0400
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Acetaldhyde
+
+
+Brewsters:
+
+
+AJ DeLAnge gives a fine dissertation on the thermodynamics of alcohol
+oxidation using the Nernst equation.  Nernst of course assumes there is 
+an
+equilibrium situation.  In the absence of that assumption, it is not
+correct that the higher the voltage, the more product you get. In the 
+world
+of kinetics if you get a product and there is no back reaction, one only
+needs to get over the hump to form product permanently, so a minimum
+potential energy ("forward voltage") is all that is needed.
+
+
+Also, acetaldehyde is a major component in sherry along with lots of 
+other
+aldehydes.  Acetaldhyde is largely responsible for the disappearance of 
+the
+anthocyanins from red wines used to make sherry as the acetaldehyde 
+formed
+by the air oxidation of alcohol. Acetaldehyde reacts with the 
+anthocyanins
+and the complex precipitates. Acetaldehyde also reacts with ethanol to
+produce an acetal. As sherry ages other aldehydes such as 
+iso-valeraldehyde
+and higher molecular weight ones come forth and produce the classic 
+aromas
+and taste, but acetaldehyde is still there and is a major taste
+contributor. Perhaps in low concentrations acetaldehyde in Budweiser 
+tastes
+like green apples. 
+
+
+- --------------------------------------------
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  
+
+
+Voice e-mail OK  
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 08:04:49 -0400
+From: Bill Holman <jwh7k`at`avery.med.virginia.edu>
+Subject: SABCO mash kettle info wanted
+
+
+
+
+        I would like some info from users of the Sabco mash kettle.  
+How is the perforated stainless steel false bottom supported, ie how
+is it kept off the rounded keg bottom?  Has anyone had the false bottom
+collapse from the weight of the grains/water or from use in a RIMS system?
+Overall, have you been happy with the kettle.  Any comments or criticism
+would be helpful.  Post answers to this newgroup or email me.
+Thanks!
+
+
+ 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 09:34:33 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Dryhopping
+
+
+"Kris Jacobs" <jtsnake`at`mail.net-link.net> wrote:
+>I dropped two EKG plugs into each keg.  Now, of course, I
+>get hop particles out my tap into my glass.
+
+
+First off, Kris, you used a whole lot of hops.  Those 1/2 oz. plugs were
+originally designed to dryhop a cask of beer, although I can't recall
+exactly which of the many English sizes that was (certainly bigger than 5
+gal.US).  I've also read of an old brewery that used one handful of hops
+per cask, and it was specified that this was the hand of a small woman.
+They would stuff them in the bunghole using a stick and funnel.  The hops
+do settle out and only an occasional leaf will come through at this lower
+rate, but as you point out, this is an annoyance, and they can even clog
+the tap.  Much better to use a hop bag, but, as you suggested, it's too
+late for that.
+
+
+Rather than transfer the beer, I'd suggest getting a couple of stainless
+pot scrubbers, boil or otherwise sanitize them, remove the dip tubes of
+your kegs and tie the scrubbies on the ends of the tubes.  This should
+filter the hops pretty effectively without clogging.  Then get set for some
+pretty powerful dry hop character as time passes.
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 15:32:33 +0200
+From: "Dallas Dahms" <ddahms`at`nbs.co.za>
+Subject: South African Homebrewers
+
+
+I am looking for somebody who is a home brewer, living in SA who will be
+able to assist me and my Father in our search for the right equipment to
+start our own home brewing. 
+
+
+If you are able to help me out, I would really appreciate it. 
+
+
+Many thanks
+
+
+Dallas
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 10:13:34 -0400
+From: "Henckler, Andrew" <ahenckler`at`findsvp.com>
+Subject: Evaporation Rates
+
+
+>Date: Wed, 6 May 1998 16:23:32 -0400
+>From: dbgrowler`at`juno.com
+>Subject: kettle evap rates
+>
+>Troy brings up issues that have caused some serious navel gazing here
+in
+>my brewery. For many years, I happily boiled the bejesus out of my
+wort,
+>7 gal down to 5.5 over 90 minutes, enjoying my high alpha utilization,
+>excellent kettle break, and award-winning finished beer. After reading
+An
+>Analysis of Brewing Techniques, I, too, started worrying. I asked
+several
+>professional brewers about it; I can summarize their replies as "I
+>dunno." Then I went back and looked at my logbook. Though I brew plenty
+>of beers of all types and colors, the medal- and ribbon-winners were
+all
+>dark beers. Hmm. Reviewing score sheets on lighter beers showed some
+>indefinite remarks like "watch sanitation" with no specific off-flavor
+>mentioned, incorrect guesses at the  yeast strain used, fermentation
+>temps, pitching rates, etc., which is quite in line with Dr. Fix's
+>observations. It appears that the effects of excessive thermal stress
+are
+>subtle for my system, such that they are not noticeable (or more in
+line
+>with the flavor profile) in the heavier, maltier beers. I've since
+brewed
+>two light Munichs serially, the second one with a less vigorous boil,
+but
+>otherwise unchanged. The results? I dunno... A partially covered boil
+>could be the ticket, but I foresee a learning curve perfumed with the
+>acrid smell of caramelized sugar. I think the key phrase in Fix's book
+is
+>"find a balance"; balance between adequate kettle reactions and thermal
+>stress, and also between attention to detail and a relaxed mental
+>attitude.
+>
+>Mike Bardallis
+
+
+Hello to all, especially Mike:
+
+
+I think that a more tightly controlled experiment might be in order
+here, unless Mr. Fix or some of our resident experts can give us some
+solid grounds for concern over evaporation rates (come on George de
+Piro, whip out those nice Siebel textbooks).  Lighter beers are tougher
+to brew well because everything stands out.  That means if you had only
+a tiny bit of difference in your bacterial counts, etc., the flavor
+could be noticeably different between batches, thereby confounding any
+attempts to see differences in thermal loading effects.  You will also
+get different hop utilization, protein coagulation, etc. between a
+lightly boiled and heavily boiled batch, so it will be tough to compare
+two batches for thermal loading effects, ceterus paribus.
+
+
+As a highly anecdotal side-note, I use an afterburner style cooker with
+90 to 120 min. boils even on lighter beers and my lighter beers actually
+tend to do better in competitions than the darker ones.
+
+
+Happy boiling!
+
+
+
+
+Andrew P. Henckler
+Senior Research Analyst
+Industrial Products & Services Practice
+Strategic Consulting & Research Group
+FIND/SVP-THE BEST PEOPLE TO FIND THE ANSWERS
+
+
+625 Avenue of the Americas
+New York, NY  10011
+
+
+Tel:      (212) 807-2754
+Fax:      (212) 807-2782
+E-mail:  ahenckler`at`findsvp.com
+Web:    http://www.findsvp.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 10:22:12 -0700
+From: George_De_Piro`at`berlex.com
+Subject: Boiling and evaporation rates
+
+
+     Hi all,
+     
+     Regarding kettle evaporation rates > 10% per hour, Troy writes, 
+     quoting Scott:
+     
+     
+     "This is a typical Fix'ism; he makes a statement and then
+     backs it up with nothing.  The only negative from a stronger boil that
+     I can think of is a greater energy ($$) usage."
+     
+     
+     Talk about saying things without having anything to back it up!
+     However, Scott is partly correct:  higher energy costs are one big 
+     reason for keeping boiling times short.  There are others, though, 
+     that are very important:
+     
+     1.  Caramelization and darkening of the wort are NOT always purposes 
+     of boiling!  There are many styles of beer where this is detrimental 
+     (any pale beer).  In fact, a major advantage of high-temp, pressure 
+     boiling is that the boil time can be *greatly* reduced, thus 
+     minimizing the amount of wort darkening that occurs.  Hot break 
+     formation and alpha acid isomerization occur in 3-5 minutes at 
+     temperatures around 145C (293F). (That's not a misprint; three to five 
+     minutes.)
+     
+     The caramel flavors produced in the kettle are not appropriate in 
+     light beers, and may be what Fix is talking about.  This fits nicely 
+     with Mike's experience (his dark beers taste better than his light 
+     beers given the same boil parameters).
+     
+     2.  If you have to boil off 20% of your wort to reach your target 
+     gravity, you may be oversparging.  While you may be realizing great 
+     mash efficiencies this way, you may be negatively impacting the flavor 
+     of your beer because of increased phenol extraction during the sparge.
+     
+     This could cause astringency in the final product, and some beer 
+     evaluators may attribute it to a sanitation problem.
+     
+     Commercial brewers, with their concerns about efficiency and $$$, will 
+     sacrifice some extract rather than spend a fortune in time and $$$ 
+     boiling all that extra water off.
+     
+     3.  Too long of a boil can actually cause hot break to redissolve into 
+     the wort, or break it up into smaller flocs that are more difficult to 
+     remove.  Neither situation is desirable.
+     
+     4.  Too long/intense a boil can actually cause sugars to revert back 
+     to their starchy origins!  I'm not sure how long of a boil that would 
+     take, but Dr. Powers at Siebel mentioned this.  Anybody care to talk 
+     about how long this would take?
+     
+     So, there are some solid reasons to avoid overly long and/or intense 
+     boils.  I'd like to hear some more, particularly from Dr. Fix.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 May 1998 07:55:59 -0700
+From: michael rose <mrose`at`ucr.campus.mci.net>
+Subject: Boil rates and evaporation
+
+
+There has been a lot of discussion lately about boiling and rates of
+evaporation. i.e. comparing a partially covered home kettle to a pro's 
+domed shaped kettle. The pro's have a blower (don't know the technical
+term for it) on top of the flue. The blower exhausts the steam from the
+kettle but it also creates a slight lowering of the air pressure which
+increases the rate of evaporation. I think. Anyway, I'm sure the blower
+interacts in many more ways than we are taking into consideration. I
+think :^)  
+- -- 
+Michael Rose  Riverside, CA   mrose`at`ucr.campus.mci.net
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 May 1998 08:01:54 -0700
+From: Charles Hudak <cwhudak`at`adnc.com>
+Subject: Covering the boil
+
+
+Regarding covering the boil.....
+
+
+"Professional" kettles are not really "covered". I'm assuming that you are
+referring to the 'onion dome' on top of the kettles which channels the
+steam and other volatiles out of the building. This is so the humidity
+level doesn't go through the roof in the brewhouse. Usually there is active
+ventilation (a blower on the roof) which ensures that the steam goes up the
+stack and not out the manway. This actually increases the rate of
+evaporation somewhat.
+
+
+I don't see any reason to try to achieve an evaporation level of exactly
+10%. My advice is to keep track of your brewhouse parameters so that you
+know what your evaporation loss is and adjust your recipes and your runoff
+volume accordingly. That is what the "Pros" do. They have no (or very
+little) control over evaporation losses. They is what they is.
+
+
+FWIW, I am no longer a "Pro". On Friday, I reverted to amateur status. Got
+a job offer that I couldn't refuse: lots more $$, great benefits, quality
+oriented....all the things missing from my beermeistership. Hey, now I can
+afford to buy that pico system and start doing lots more
+homebrewing..."Kick ass"
+
+
+L8rz
+
+
+C-
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 11:14:00 -0700
+From: George_De_Piro`at`berlex.com
+Subject: Beer Evaluation
+
+
+     Hi all,
+     
+     Capt. Marc asks about what will happen to his beer when he sends it to 
+     a contest.  He wonders if he will get feedback even if he doesn't 
+     place, and is concerned about proper handling and serving of his beer.
+     
+     When your beer arrives at the contest shipping point, it should be 
+     stored in a cool, dark place.  Most people try to run good contests, 
+     but there are always exceptions.  I heard about a recent contest where 
+     the beers were stored outdoors in the winter sun.  That's a big 
+     "Oops!"
+     
+     The day of the contest the beers are brought to the contest location 
+     (if they are not already there) and served to the judging panels, 
+     which each consist of 2 or 3 evaluators.  The beers are broken up into 
+     flights depending on the style of beer and the number of entries.  
+     Very often stouts are broken into two or more flights (evaluated by 2 
+     or more panels) because there are so many entered.  Conversely, 
+     Vienna, Oktoberfest, and Alt are often lumped into one flight.  In 
+     this way an attempt is made to give each panel a reasonable number of 
+     beers.  Overloading the judges only reduces the quality of their 
+     feedback because of palate fatigue and time constraints.
+     
+     The beers may be served too warm or too cold, but rarely "just right." 
+      I often carry a cooler with me that I can fill with hot water to warm 
+     up freezing-cold samples.  It is easier to evaluate a beer that is too 
+     warm than too cold.  I don't think there are many judges this anal, 
+     though (which is unfortunate).
+     
+     The evaluators fill out a score sheet for every entry, and the 
+     participant will receive these in the mail whether or not they placed. 
+     The judges should not talk about the beer until all comments are 
+     written.  This way, one judge cannot influence anothers perceptions.  
+     That is why you will sometimes get sheets back where it seems like the 
+     judges were tasting two different beers; we're all human, and some 
+     people are more sensitive to some chemicals than others.
+     
+     The usefulness of the judge's comments is dependent on the quality of 
+     the evaluator and the contest organizer.  It is up to the organizer to 
+     take care of the following:  Is the beer served at close to the proper 
+     temperature?  Is the right beer being served in the category it was 
+     entered in?  Are there enough judges to handle the number of entries?  
+     Is the beer stored properly prior to the contest?
+     
+     It is up to the judge to prevent palate fatigue by drinking plenty of 
+     water and taking small sips of the sample.  Sobriety is key!  Bread 
+     should not be used as a palate cleanser; it has taste and aroma!!!  
+     The starch in the bread can actually clog the larger taste buds at the 
+     back of your tongue (the bitterness receptors).
+     
+     I recently judged at a professional competition at the Culinary 
+     Institute of America.  They put big baskets of wonderful, crusty, 
+     buttery-smelling bread on each table.  Another big oops!
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 12:04:30 -0400 (EDT)
+From: BR Rolya <brrolya`at`cs.columbia.edu>
+Subject: Trip from NYC to GABF in Baltimore
+
+
+
+
+The following is a region-specific post; I apologize in advance for its
+limited appeal. 
+
+
+
+
+On Saturday, May 16, the Malted Barley Appreciation Society (a NYC
+homebrewing club) is renting a bus to go down to the Great American Beer
+Festival in Baltimore.  We will leave Manhattan at 6:45 AM and arrive in
+Baltimore in time for the 12:30 pm session.  We will leave Baltimore at
+around 8:30 pm.  
+
+
+The cost is $30 for round-trip bus fare.  In addition, you must purchase
+your own ticket for the GABF from the AHA (tel. 888-822-6273) for $25.
+AHA members can also request a voucher for the members-only session that
+begins at 11 am (we will arrive in time for that).  
+
+
+As an added attraction, we will premiering the infamous "Steinbier
+Incident" video starring George de Piro and directed by Bill Coleman!
+
+
+For more information, or to reserve your seat, contact Bob or myself at
+212-989-4545 or triage`at`mindspring.com
+
+
+ - BR Rolya
+Triage
+brrolya`at`cs.columbia.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1998 20:40:09 -0700
+From: Troy Hager <thager`at`bsd.k12.ca.us>
+Subject: Boil evaporation 
+
+
+Tony,
+
+
+You say:
+
+
+Another solution would be to add boiling water to the kettle to keep the
+wort level at the desired level. i.e. 5.5 Gallon initial vol. then add
+boiling water when the level drops below 5 Gallons.
+___________________
+
+
+I don't know if this is a solution. What Fix is discussing in their book is
+the negative effects of excess thermal loading, not of excess loss of
+water. I think they are saying that the evaporation rate (loss of water)
+itself is not the problem(though a good reference) - it is the excess heat
+and all of the ramifications of this to the boiling wort that is the cause
+of negative affects...
+
+
+
+
+
+
+Troy A. Hager
+2385 Trousdale Drive.
+Burlingame,  CA  94010
+259-3850
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 May 1998 09:39:32 -0700
+From: Jeremy Bergsman <jeremybb`at`leland.Stanford.EDU>
+Subject: 10% rule
+
+
+Regarding the discussion about evaporation rates:
+
+
+I don't have the Fix book in front of me but I recall that when
+Fix mentions that evaporation should be <15% it is int he context
+of a discussion of heterocyclic sulfur compounds, no?  If you look
+at the flavor descriptions of these, many are undesirable.  I believe
+that you want to limit formation of these and that is why you want
+to limit "thermal loading."
+
+
+As another data point I don't feel my boils are all that vigorous
+and I reduce 12.5 gallons to 10-10.5 gallons in a typical batch,
+and that is slightly covered.  I don't see how you can get a good
+boil and only lose 10% unless you are returning a lot of the vapor
+to the pot.  If this is what you are doing, it seems to me that
+the thermal loading is the same as letting it evaporate and either
+starting with more water or topping up after the boil.  
+
+
+On a related note: I think that all this concern over 
+covering the boil is BS.  DMS is incredibly volatile.  Unless you're
+using a pressure cooker I don't see how you could keep it in if
+you wanted to.  I used to just crack the lid on my boils when I
+used an electric stove and I didn't have excess DMS (IMO).  I
+recently did the experiment suggested here a few years ago and 
+collected the condensate from my lid during the boil and tasted it.
+Water.
+- -- 
+Jeremy Bergsman
+jeremybb`at`stanford.edu
+http://www-leland.stanford.edu/~jeremybb
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 98 10:32:08 -0700
+From: brian_dixon`at`om.cv.hp.com
+Subject: Re: Re-started fermentation in the secondary
+
+
+     
+     Arnold asks about apparent restarting of the fermentation after 
+     racking to a secondary, and I believe, adding dry hops.
+     
+     Observations that I've made in the past from normal and from one 
+     particular infected fermentation have lead me to believe the following 
+     conclusions about increased airlock burbling after racking:
+     
+     - Dissolved CO2, and CO2 trapped or 'stuck' to suspended yeast can be 
+     released during the racking process.  The result is increased bubbling 
+     of the airlock and yeast falling out of suspension.  This is normal 
+     and can be ignored unless the bubbling lasts a long time.
+     
+     - Primary fermentations that are not complete, but happen to have a 
+     leaky fit around the stopper and airlock (or bucket lid) often appear 
+     to be done or slowing, but then increase after racking.  What really 
+     happened was that after racking the leaks in the system were fewer or 
+     gone and the CO2 is now going through just the airlock.  Knowing how 
+     long the beer's been in the primary is your primary clue here, plus 
+     any SG measurements you may have taken.
+     
+     - Infections (yikes!) are usually indicated when the increased 
+     bubbling in the secondary _continue_ longer than expected.  For 
+     example, if you know enough time has passed to make you sure the 
+     primary is complete (longer than about 4-5 days), and if the increased 
+     bubbling in the secondary has not slowed within a few hours, then it's 
+     possible that you have an infection.  If the bubbling rate continues 
+     to increase, and then lasts for a long time (a few days or sometimes 
+     longer), then an infection may also be present.  To understand what is 
+     happening, consider the fact that the 'good' yeast that we conduct our 
+     fermentation with is fairly constrained in what it can metabolize as 
+     compared to wild yeasts or bacterias that are present in nature (only 
+     some of which will produce a gas during metabolism).  Wild or mutated 
+     yeasts in particular can digest more complex sugars and starches than 
+     beer yeasts.  When an appropriate bacterial or wild yeast infection, 
+     or a mutated beer yeast exists in your wort (shit happens), then the 
+     'fermentation' can continue long after a normal fermentation would 
+     finish because a longer more complex list of 'food' is being digested 
+     out of your wort.  Other symptoms that provide clues here are taste, 
+     mouth feel, and appearance.  Obviously everyone knows about the rings 
+     and things that are visible indicators of infections, but what about 
+     loss of head forming capacity?  If your beer has the ability to form a 
+     nice head of foam on bottling day, but has no capability to do the 
+     same a couple of weeks later, and you saw some kind of extended 
+     fermentation going on, then it is likely that you had an infection 
+     that was capable of digesting medium and high molecular weight 
+     proteins (and probably starches).  The beer will often taste/feel 
+     thinner after it's been in the bottles for awhile, and there will 
+     often be off-flavors present (sourness, 'stale'ness, 'odd somethings' 
+     etc).  And sometimes, these off flavors change or go away somewhat 
+     over time.  Wild yeast infections tend to peak in sourness at around 8 
+     weeks in the bottles, then it diminishes a bit but doesn't go away 
+     completely.  Don't ask me how I learned about all this, but a certain 
+     experience with plastic fermenters and one particular Dusseldorf style 
+     Altbier might be good hints to start with...
+     
+     
+     Good luck, and I hope you don't have an infection!  I gave up on my 
+     equipment after some thorough sanitizing efforts and a couple more 
+     brews failed to help.  I switched to all glass fermenters and bottle 
+     out of a carboy with a simple siphon system, e.g. no plastic bottling 
+     bucket.  And I have no issues with replacing hoses, racking canes, and 
+     bottling wands on a regular basis!  Since that change, I have had no 
+     further problems with infections.
+     
+     
+     Brian
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2708, 05/08/98
+*************************************
+-------

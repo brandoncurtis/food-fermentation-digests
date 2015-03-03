@@ -1,0 +1,363 @@
+﻿Date: Wed, 26 Sep 2007 23:49:17 -0400
+Subject: Homebrew Digest #5233 (September 26, 2007)
+
+
+
+
+
+
+HOMEBREW Digest #5233                             Wed 26 September 2007
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                     Your Business Name Here
+    Visit http://hbd.org "Sponsor the HBD"  to find out how!
+                         
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  re: Effect of dissolved extract on volume (rather geeky) ("-s`at`adelphia.net")
+  Volume Increase ("A.J deLange")
+  re: Esters/4VG/N2 (Richard Lynch)
+  cleaning counterflow chillers ("Nathan Hirneisen")
+  sparging water ("Nick Trubov")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 26 Sep 2007 07:06:56 -0400
+From: "-s at adelphia.net" <-s`at`adelphia.net>
+Subject: re: Effect of dissolved extract on volume (rather geeky)
+
+
+Bill Pierce recognized the extract has volume and ....
+
+
+> In addition to the dissolved extract increasing the pre-boil volume,
+> there is another implication for the all-grain brewer.  The usual
+> method of achieving the correct pre-boil volume is to calculate the
+> target and sparge the grain until it is reached.  It's possible (and
+> relatively common practice) merely to prepare enough hot sparge
+> water to ensure this occurs.  But some brewers (and much of the
+> brewing software out there) also calculate the total volume of water
+> needed for both mashing and sparging.
+>
+> Now my question is whether the calculations and software account for
+> the increase in volume due to the dissolved extract.   So far as I
+> can tell, all of the brewing software water-needed calculators do
+> not.  If we use the above example of a target pre-boil volume of
+> 7.403 gallons, the sparge water volume should be reduced by 0.403
+> gallon.  Otherwise, unless the brewer measures and monitors the
+> pre-boil volume, he or she is likely to be oversparging.
+
+
+Everyone since long before Dr.Plato realized that extract impacts
+volume and density of wort, so this isn't really a surprise.  I have
+no idea what the various software packages assume but ...
+
+
+Sucrose has a density around 1.59 (close to your 100/61.4) and that's
+an excellent approximation for extract density.  The relation as we
+dissolve extract is not precisely linear, but again quite close.
+In an all-malt mash you'll extract ~70+% of the grist mass as extract
+so you roughly add a volume of ~2 Liters per 10 lbs (b*stardized
+units - no ?).  At the same time that 10lbs of grist residue will
+retain well over 4L of water and a poor bottom end design of the
+sparge unit may trap a liter or more.  Now to confuse matters
+the hydrolysis of starch to maltose etc will consume water at a
+rate of roughly 8 or 10 moles of water per 10lbs of grist so
+another 0.15L - 0.2L goes missing in the sugars and I suspect
+a similar amount evaporates from a hot mash.
+
+
+The total water req is arrived at in an ad hoc calculation not from
+first principles. You may well be correct that the software simply
+makes an calculation:
+  water_volume_in - water_volume_retained = wort_volume
+and that is clearly wrong by a non-trivial amount as you say.  It
+should be approximately:
+ wv_in - wv_retained + extract_volume = wort_volume
+ignoring minor correction terms. The "water retained" term is
+undoubtedly derived by the same people as:
+  wv_retained =  wv_in - wort_volume 
+when it should really be:
+  wv_retained =  wv_in - wort_volume + extract_volume
+so this is also incorrect.  They derive some figure for gallons of
+water retained per pound of grist and the extract term is also
+roughly constant per grist mass, so the error scales with grist
+mass OK but not for changes in efficiency which are typically
+small.  So this second error does cancel out almost all the
+error in the first erroneous eqn if you oversimplify the volume
+calc in this way.
+
+
+For the sake of a concrete example ...
+Let's assume we have a 10 lb grist and we mash & sparge with 33L
+of water and we obtain a volume of 28L in the copper.  A naive
+assumption is that we left 5L of water in the grist for 0.5L/lb,
+but we know that the 28L in the boiler includes abt a 2L volume
+of extract, so the grist actually retained around 7L of water
+(0.7L/lb). You can readily see that if we double the grist bill
+and use the erroneous 0.5L/lb of water retention that we still
+get the correct volume in the boiler.  If OTOH the efficiency
+dropped in half on the next 10lb batch, then the copper would
+only collect 27L (1L of extract volume left in the grist).
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Sep 2007 12:29:09 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: Volume Increase
+
+
+The volume increase when making a wort of strength P grams of sugar per 
+100 grams of wort (i.e. P is the gravity in degrees Plato) is    Pct_inc 
+= 0.6*P +  0.00847*P*P (from a 2d order fit to volume data calculated 
+from the ASBC table). Thus, for example, in preparing a 10P wort one 
+would add 10 grams of sugar to 90 grams of water and winds up with 
+96.327 mL of solution. As the water has a volume of 90.157 mL at 20C 
+this represents a 6.8% increase in the volume of the liquid used. For 
+12P ("average" strength) the increase is 8.4% and for 20 P it is 15.4%.
+
+
+There are lots of spreadsheets and programs for designing beers and thus 
+many approaches but it seems the most common is to start with how much 
+wort of what strength you want e.g. 5 gallons of 12P wort. The first 
+step would be to convert this to SG = 1.04840  (or you may start with a 
+desired SG in which case the first step is conversion to Plato - both 
+numbers are needed) and calculate that the weight of the wort as 
+8.33*5*1.04840 = 43.67 lbs of which 12%  or 5.2 lbs will be extract and 
+the rest,  38.4 lbs  equivalent to 4.6 gallons, will be water. Working 
+in this way the volume increase is never actually calculated but is 
+accounted for. Thus I would say that yes, most of the brewing 
+spreadsheets and programs account for this increase in volume even 
+though most do not calculate it explicitly.
+
+
+When we brew, of course, we are not usually concerned about the amount 
+of water to add to the grains to get the final result knowing full well 
+that water will be retained, that sparge water will have to be used to 
+make up for this, that there will be losses from boiling and so on. Most 
+of us (and I am making an assumption here that may not be warranted) add 
+mash water for desired mash thickness and as required by infustion steps 
+or to maintain mash temperatures, sparge as necessary and top up the 
+boil as necessary to acheive the desired final volume (taking into 
+account that the volume of the wort is 4% greater at near boiling than 
+at room temperature).
+ 
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Sep 2007 09:54:54 -0700 (PDT)
+From: Richard Lynch <rlny7575 at yahoo.com>
+Subject: re: Esters/4VG/N2
+
+
+Just wanted to give a quick "thank you" to Steve
+Alexander for replying to my question on Yeast and
+Esters. You provided some very interesting reading,
+I'll be taking a lot of that into consideration with
+future brews. 
+Thanks Steve! (and to all others for making HBD such a
+awesome resource!)
+
+
+ -Rich
+
+
+
+
+       
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Sep 2007 18:32:05 -0400
+From: "Nathan Hirneisen" <cave_nate at hotmail.com>
+Subject: cleaning counterflow chillers
+
+
+any ideas for cleaning counterflow chillers.
+the chiller has been getting less effective in its cooling over time.
+I think it may be getting dirty inside. :-(
+
+
+the chiller is about 10' of 5/16 ID copper with a 5/8 id vinyl water jacket.
+http://www.hirneisen.com/nate/beer/wort_cool.jpg
+so far, i have been using a hot b-brite solution to clean
+followed by a Iodophor santization.
+
+
+my concern is that over time i'm gettign a thin layer of beer stone , etc
+on the inside of the tube that the b-brite can't clean. this is reducing the
+heat transfer and a sanitation concern.
+
+
+thanks!
+
+
+ -Nate
+ .
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Sep 2007 21:10:24 -0500
+From: "Nick Trubov" <ntrubov at swbell.net>
+Subject: sparging water
+
+
+>>     Date: Tue, 25 Sep 2007 18:26:23 -0400
+From
+Subject: Effect of dissolved extract on volume (rather geeky)
+
+
+I have a brewing spreadsheet, and occasionally I consider adding
+another bell or whistle to its various sections. ........     <<
+
+
+
+
+Bill,
+
+
+I took chemistry a LONG time ago but I seem to recall that added sugars or 
+salts or any other substance that dissolves in H2O does not, necessarily, 
+add volume to the pot. And for that reason I am kind of curious if you have 
+actually MEASURED the final volume after sparging? Hydrated moieties do not, 
+necessarily, release their water molecules just because they are dissolved 
+in MORE water. So the water molecules that are attached to the sugars in the 
+malt may have little or NO effect on the final volume of the wort.
+
+
+Have you measured it? I sure would like to know what you find. I do not have 
+the time OR the patience (or even the need) to do the measurements, but I AM 
+curious.
+
+
+Thanks,
+
+
+NT
+==========================
+Nick Trubov and Lorree Madigan
+and the kids, Corbin and Alex
+ntrubov at swbell dot net
+========================== 
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #5233, 09/26/07
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

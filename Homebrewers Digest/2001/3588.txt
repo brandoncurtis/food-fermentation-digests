@@ -1,0 +1,1583 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA02326
+        for <spencer`at`srvr5.engin.umich.edu>; Fri, 23 Mar 2001 01:48:39 -0500 (EST)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr20.engin.umich.edu (8.9.3/8.9.1) with ESMTP id BAA22811
+        for <spencer`at`engin.umich.edu>; Fri, 23 Mar 2001 01:48:29 -0500 (EST)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA15987
+        for realhomebrew; Fri, 23 Mar 2001 00:50:19 -0500
+Date: Fri, 23 Mar 2001 00:50:19 -0500
+Message-Id: <200103230550.AAA15987`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3588 (March 23, 2001)
+Status:   
+
+
+
+
+
+
+HOMEBREW Digest #3588                             Fri 23 March 2001
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  refractometers and ProMash (Frank Tutzauer)
+  re: could it be a flamethrower ("Doug Marion")
+  Re: CO2 output (Jeff Renner)
+  gott v igloo - antifoam - nottingham  yeast  - fridge ? - mead yeast (alan rhodey)
+  Asset Purchase Agreement ("Rob Moline")
+  Just enough knowledge to be dangerous.... ("Adam Cooper")
+  Thanks ("Stephen Taylor")
+  240 volt GFI ("The Holders")
+  To replace the freezer or not. ("Tom & Dee McConnell")
+  Oak Barrels ("Gustave Rappold")
+  Defunked Chest Freezer ("D. Schultz")
+  Re: CO2 output (Spencer W Thomas)
+  Re: Amsterdam; what/ where to drink ("Gregor")
+  Amsterdam drinking establishments ("Joel King")
+  Response to Posting (ksc58)
+  cracked carboys (JGORMAN)
+  Hairline cracks, coolant,thanks (Dave Burley)
+  Chiller cooling water ("Tom Williams")
+  flatulance - Epazote ("jps")
+  Defunct freezer ideas (JE)" <steinbrunnerje`at`dow.com>
+  Re: Chiller cooling water (Steven)
+  What/If to Plant (Bob Hall)
+  RE: Amsterdam; what/ where to drink ("Walker, Randy")
+  Web Site of Interest (Richard Foote)
+  RE: Wort porridge (Joe Yoder)
+  RE: purge kegs with CO2, CACA details ("Czerpak, Pete")
+  GFI protection (Joe Yoder)
+  roasting huskless barley ("elvira toews")
+  Pats external cooled fermentor ("Czerpak, Pete")
+  Amsterdam (" Jim Bermingham")
+  RE: Graham abuse, carboy abuse, mash abuse, TO abuse (Brian Lundeen)
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 21 Mar 2001 16:23:30 -0500 (EST)
+From: Frank Tutzauer <comfrank`at`acsu.buffalo.edu>
+Subject: refractometers and ProMash
+
+
+Hey, all,
+
+
+The new version of Promash has refractometer calculators and reviewing
+them raised some questions that I hope some of you refractometer users
+can answer.  I know there's not all that many of you, but that's
+because refractometers are the CC fermenters of gravity measurement,
+and people would rather brew bad beer than pony up the 
+bucks to buy one....  (That's a *joke*, folks!)  Maybe if they're
+lurking, Jeffrey Donovan or Louis Bonham could chime in (they
+collaborated on the routines)--Jeffrey because it's his program, and
+Louis because he's Mr. Refractometer ("Refractometerguy" just
+doesn't have the same ring as "Fridgeguy").
+
+
+Two issues:  The first concerns the difference between the refractive
+index of sugar water (which the refractometer measures) and the
+refractive index of wort (which is similar, but not identical to,
+sugar water).  Ok, different refractive indices--seems reasonable.  
+In Louis' beer geek article (Jan. zymurgy?), he suggests a
+correction factor of 1.04 (to be divided into the Brix reading) to get
+the Plato of the wort.  But in the ProMash help, Jeffrey suggests
+calculating a "brewhouse" correction factor by taking several Brix
+readings with the refractometer, dividing by the measured gravities
+(in Plato), and averaging the results.
+
+
+Question 1:  Why should there be brewery to brewery differences?  I
+mean, maybe if I'm brewing some kind of oddball wort exclusively, then
+ok, but I brew average sorts of an average variety of worts.  Wouldn't
+my brewhouse coefficient be pretty much the same as everyone else's?
+
+
+Well, maybe not. I took 14 beers that I had both sets of data on
+(measured Brix and measured OG).  I converted the OG to Plato (using
+the ASBC formula) and did the divisions.  I got coefficients ranging
+from .94 to 1.15 (IIRC), with most in the .98 to 1.02 range.  When I
+averaged, I got (drum roll)... 1.00.  So in my brewery there's no
+difference between sugar water and wort.  I'm not sure I like the
+sound of that, but it makes the calculations easier (actually, ProMash
+does them automatically).
+
+
+Question 2:  Does the above seem reasonable?
+
+
+The second issue concerns temperature corrections.  My refractometer,
+like most, has an adjustment screw.  You measure the Brix of a drop of
+water, and if it's not zero (presumably because of temperature), you
+adjust the scale up or down, and then proceed.  If you don't want to
+actually make the adjustment, then ProMash let's you enter the offset,
+which, as far as I can tell, is simply subtracted from any entered
+reading.
+
+
+Question 3:  Why is it that my refractometer almost never reads
+anything other than zero with water, no matter the temperature?  I'm
+not talking extremes, but in temps from 60 to, say, 75, I very, very
+rarely get a reading other than zero.
+
+
+The other problem with using the adjustment screw or the ProMash
+offset is that the correction chart that came with my refractometer
+shows that the correction depends not only on temperature, but on
+sugar content too!  For a given temperature, the correction factor is
+larger as the Brix goes up.  For very dilute sugar solutions, the
+correction is negligible (which is probably why I get readings very
+close to zero with water, regardless of the temperature).  But for
+high sugar concentrations, the correction is much greater.
+
+
+Question 4:  How can fiddling with an adjustment screw based on 0%
+Brix water correct for temperature in a 12 Brix solution?
+
+
+Thanks for your help, and I hope this hasn't been too geeky,
+ 
+ --frank
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Mar 2001 16:15:02 -0700
+From: "Doug Marion" <mariondoug`at`hotmail.com>
+Subject: re: could it be a flamethrower
+
+
+Gene Collins mentions the possible overkill of buying
+three 160,000btu burners for his new three vessel gravity setup.
+My opinion Gene is that it may be more than you will want. You don't
+mention the size of your brews but I'll guess 10gal. In my
+three vessel 10gal gravity system I have a 30,000btu under my HLT,
+a 30,000btu under the mashtun, and a 100,000btu under the boiler.
+For 10gal mashes, you don't need anything more than a 30,000btu.
+For the HLT, I simply turn the burner on 15-20min before mashout
+and by the time I'm ready to sparge the temp is up to 170 deg.
+On the brewkettle for boiling, I never need the 100,000btu at or
+even close to full bore. A 100,000btu at full bore simply is a 
+"flamethrower" and is unnessesary. I can just imaging a 160,000btu burner at 
+full bore. Don't get me wrong, the burner
+is just fine and I like the ability to turn it up more than the
+other two to get things boiling. You just don't need everything
+it can give. Especially once everything is boiling and all you
+have to do is maintain. You don't need much for that. The thing to keep in 
+mind is that it is nice (and sometimes necessary like when doing step 
+mashes) to turn the flame down. There is a point when turning the big 
+burners down that keeping them lit cam become a problem. Turning down the 
+30,000btu burners low enough is not a problem. If I were you, I would 
+reconsider maybe not having all of your buners be so big. Maybe just the 
+boiling kettle.
+Just my opinion.
+
+
+Cheers,
+Doug Marion
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Mar 2001 19:06:15 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: CO2 output
+
+
+One thing that today's posters overlooked in figuring how much CO2 is 
+evolved is the difference between apparent attenuation and true 
+attenuation, although Sean "Elvira" Richens mentioned it in passing.
+
+
+When your 1.040 wort ferments down to 1.010, this is an apparent 
+attenuation of 75%, but it is skewed by the lower density of ethanol 
+(approximately 0.8).  My recollection is that the true attenuation is 
+closer to 50% - in other words, about half of the dissolved solids 
+(mostly carbohydrates) are fermentable sugars.
+
+
+Since each gram of fermentable sugar produces about 0.5 grams CO2, 
+and a mole of CO2 is 44 grams and occupies 22.4 standard liters, you 
+can compute CO2 production.
+
+
+Using Sean's 1 deg. plato = 10 g. sugar/liter, 19 liters (5 gallons) 
+of 1.040 (10P) wort has 1900 grams of sugars, other carbohydrates and 
+other odds and ends such as proteins, of which perhaps half, or 950 
+grams, will ferment into more or less equal mass of CO2 and ethanol, 
+or 425 grams of each (actually, it's a bit less, but don't worry). 
+So 425 grams CO2 divided by 44 grams/mole = 9.7 moles CO2 times 22.4 
+liters/mole = 216 liters.
+
+
+I think I did this arithmetic right.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Mar 2001 19:46:16 -0800 (PST)
+From: alan rhodey <arhodeybear`at`yahoo.com>
+Subject: gott v igloo - antifoam - nottingham  yeast  - fridge ? - mead yeast
+
+
+Regarding the Igloo v. Gott, I have both, in ten gal.
+sizes.  The top on the Gott screws on, the Igloo just
+fits down inside.  Molded handles on the Gott, rope
+handles on the Igloo.  I've mashed with 23 lbs. of
+grain with 29 qts. of water with no problem. The Gott
+has an EZMasher from Schmidling and the Igloo Zymie's
+Bazooka Screen and bulkhead fittings.  I plan to go
+with Zymie's stuff on the Gott if I can ever get
+around to ordering.  No affiliation with Zymie, except
+that he's a brother BrewRat and donates money to the
+club when members buy from him I have been doing all
+grain for close to three years, around sixty or so AG
+batches, and until last year, it was all indoors on an
+electric stove, where I would mash enough for eleven
+gallons and boil half in a six and one half gallon
+aluminum pot.  The other half went into gallon jugs in
+the refrigerator until I could cook it another day. 
+No problem storing it like that if you fill the jug to
+the top.  I've had it sit for a week and a half with
+no problems. Partially filled jugs will lead to
+problems. I suppose I could have done five gallon
+mashes but it didn't make any sense to me, and I had
+the luxury of trying different hopping levels and
+different yeasts with the same batch.    
+
+
+I'm surprised people still talk about blow off tubes. 
+I primary in six gallon corboys and seconday in 5 gal.
+Corboys, with three bucket fermenters I use for
+melomels.  I use a product called Antifoam in the
+boilpot to avoid boilovers and in the fermenters to
+avoid foam on the floor. I occasionally get yeast
+through the airlock, with high gravity stuff and
+trappist ale yeast, but few drops of Antifoam will
+calm it back down. I highly recommend it to everyone
+for both purposes and especially to those who cook on
+the stove.  I get mine from Presque Isle Winery, but
+Hop Tech and St. Pats both have it.  No affiliation,
+etc. 
+
+
+Speaking of foam in the fermenter, I recently tried
+Lallemand's Danstar Nottingham yeast and found it has
+a very compact head of foam when fermenting.  I can
+easily ferment six gallons in a six gallon corboy. 
+(They hold close to seven gallons, full.)  Neat thing
+was that it went from an OG of about 1.056 down to
+1.008 in six days.  For each corboy I used two packs
+rehydrated in water for 15 minutes then mixed with a
+half pint of canned starter.  Started bubbling in an
+hour.  Cool.  Again, no affilliation, except Gump is a
+brother BrewRat.
+
+
+Rod McBride asks about mead yeasts.  Try a sherry
+yeast.  They do a helluve job of retaining fruit
+flavor and are alcohol tolerant.
+
+
+Question: I just got a refrigerator to run taps
+through for colling and dispensing so I can free up my
+freezer for lagering.  I know I need a bottom shelf to
+make four kegs fit and I need to remove the shelving
+from the door and run the co2 lines through the side
+of the door.  Do I need the tubing St. Pats sells as
+spacers for installing the taps?  What's the best way
+to cut the plastic stuff inside the door?  Does anyone
+have any other suggestions as to modifications? 
+Thanks for your help.
+
+
+bear
+Alan Rhodey
+Pensacola, Florida
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Mar 2001 22:43:58 -0600
+From: "Rob Moline" <brewer`at`isunet.net>
+Subject: Asset Purchase Agreement
+
+
+Greetings,
+
+
+Being involved in the sale of a Brewpub to a new owner, I wonder if any of
+you have used the language offered by BATF regarding an "Asset Purchase
+Agreement" document, that should offer the ability to act under the auspices
+of the previous owners "Brewers Notice" and allow the continuation of
+brewing while authorization of the new owners "Brewer's Notice" is achieved.
+Having consulted BATF and CSA, I am newly aware that such animals do
+exist...(surprise to me) yet wonder especially as to any liabilities that
+would preclude the selling corporation from agreement.
+
+
+Anyone have any experience with this?
+
+
+Cheers!
+Rob Moline
+
+
+Lallemand
+Court Avenue Brewing Company
+brewer`at`isunet.net
+jethro`at`isunet.net
+515-450-0243 cell
+515-282-2739 CABCO
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Mar 2001 09:52:06 -0700
+From: "Adam Cooper" <aecooper2`at`home.com>
+Subject: Just enough knowledge to be dangerous....
+
+
+hello fellow brewers,
+
+
+As the subject line implies, I feel (probably like many others out there)
+that I have been lurking long enough/picked up enough knowledge just to be
+dangerous.
+My question for the collective is as follows. I have 2 ss cornie's one ball
+lock and
+one pin lock (Pepsi & Coke) and would like to know/understand what they are
+useful
+for. I know that I can use them for either a fermenter (much recent
+discussion)
+sideways, upside down or spinning?? Or I could keg beer in them (novel
+idea)...
+How does a novice brewer do this? what kind of investment do I need to make
+in
+additional equipment?(faq or idiots guide to kegging would be helpful)
+>From what I understand, I need to have some kind of cold storage/prep area
+to keep cornies in... Correct? Is it possible store beer at room
+temp and get a longer distribution line which I can coil in a cooler with
+ice bath
+and have cold beer on tap? Is it possible? Is it practical?
+If I decided to use them as fermenters what kind of equipment do in need for
+a
+retrofit? What is the benefit over glass other than taking up coveted closet
+space
+(darkness not necessary). I currently  use a7 1/2 gallon carboy for primary
+& 6 gallon secondary).
+
+
+PS: I am interested in any clone (extract or partial mash) recipes for Fat
+Tire or
+Abby from New Belgium Brewery In Fort Collins, CO. & or any clone recipes
+for big Horn
+Heffeweizen from big Horn Brewing Company in Fort Collins, CO.
+Private e-mail is fine (aecooper2`at`home.com)
+
+
+PPS: Special Thanks to Mark Tomusiak from Boulder who sent me some great
+info to
+get started on my first Belgian beer.
+
+
+Adam & Erin Cooper... Fort Collins, CO
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 16:52:10 +1100
+From: "Stephen Taylor" <stephentaylor`at`one.net.au>
+Subject: Thanks
+
+
+Hi All,
+           Just a line to say thank you to all who responded to my questions
+on yeast slurries  on the hbd and private emails , much appreciated,
+                                 Steve Taylor, Newcastle,Australia.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Mar 2001 21:32:33 -0800
+From: "The Holders" <zymie`at`charter.net>
+Subject: 240 volt GFI
+
+
+Ron asks about 240 volt GFI's.
+
+
+The least expensive would be a 240 volt GFI breaker, although I'm using a
+Leviton high current GFI unit in conjunction with a contactor for my HLT.
+The Leviton unit ran about $40, and the contactor another $30 or so IIRC.
+
+
+I'm using the GFI to protect my equipment. Details can be found at
+http://www.zymico.com/gfi.shtml
+
+
+Wayne Holder AKA Zymie
+Long Beach CA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Mar 2001 23:05:44 -0700
+From: "Tom & Dee McConnell" <tdmc`at`bigfoot.com>
+Subject: To replace the freezer or not.
+
+
+Benjy Edwards drilled a hole through his 
+refridge lines and wants to know if he should 
+replace the unit or repair it.
+
+
+Well sir, based upon my extensive knowledge, I 
+offer the following recommendation: 1) replace 
+the non-working freezer with working freezer, 2) 
+replace the working drill with a non-working 
+drill.
+
+
+;-)
+
+
+Tom & Dee McConnell (tdmc`at`bigfoot.com)
+Albuquerque NM 87111
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 1:39:58 -0500
+From: "Gustave Rappold" <grappold`at`earthlink.net>
+Subject: Oak Barrels
+
+
+   Dennis asked about oak barrels...
+  About 6 months ago I got a 15 gallon French Limousin Oak cask from St.
+Pat's of Texas to try to make as authentic a lambic-style ale as I can, and
+I must say that I love that thing. Besides my brewhouse, it's the piece of
+equipment I most like to show off. Unfortunately, it was an expensive
+addition, so you really have to decide what you want to do with the cask
+before you plunk down your cash.
+  Basically, there are two types of oak used, American and French. The
+American wood is generally not used for beer because it's way too 'oaky'.
+Even after repeated chemical strippings your beer may come out tasting like
+pencils! The French oak is much milder, and after one stripping with
+'Barrolkleen' I racked the wort and pitched my cultures. So far, so
+good-can't even taste the oak yet. Hopefully by next year it'll have just
+the right oakiness.
+  There is a very important component to casks that you MUST consider! If
+your cask should develop a leak, do you know how to fix it? Perhaps if you
+live near a winery, you may be near a cooper. I wonder what he gets for a
+house call?
+  If I haven't scared you off yet, try St. Pat's of Texas (www.stpats.com),
+or Brewin' Beagle (www.brewinbeagle.com) for an oak cask. St. Pat's is a
+full service homebrew store and Brewin' Beagle specializes in Real Ale
+dispensing systems.
+   Gus
+  My web pages...http://home.earthlink.net/~grappold
+
+
+
+
+- --- Gustave Rappold
+- --- grappold`at`earthlink.net
+- --- EarthLink: It's your Internet.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Mar 2001 23:44:51 -0800
+From: "D. Schultz" <d2schultz`at`qwest.net>
+Subject: Defunked Chest Freezer
+
+
+>. . . you know the rest.  I hit a coolant line
+>and my sobs of pain were drowned out by the endless hissing noise of all of
+>the R134a leaking out.
+
+
+
+
+Wow! Sad story.  Before you do anything to your next freezer, check out my
+freezer at my web site at http://www.users.qwest.net/~d2schultz/ .  You'll
+never set a drill to another freezer.
+
+
+If you live in a cold climate, the defunked freezer would make a nice
+fermenting chamber combined with a thermostat and a heater (during the
+winter).
+
+
+Burp,
+ -Dan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 03:10:58 -0500
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: Re: CO2 output 
+
+
+Yes, it can be calculated.  This is a bit long-winded, but should be
+fairly easy to follow.
+
+
+Geek note: all the calculations in this note are done done with
+"round" numbers.  For example, I know that you can't multiply the %
+sugar by the volume to get precisely the number of grams of sugar in
+the solution.  But it's "close enough" given the approximations in
+some of the other numbers (rounding 22.4 liters/mole to 22, for
+example.)
+
+
+2 grams of sugar, fermented, produce (within a couple of decimal
+places) 1 gram of ethanol and 1 gram of CO2. (and 0.005 grams of
+yeast, which is why it's not exactly 1 gram of each. :-)
+
+
+The original SG can be converted to grams of sugar by converting it to
+"points" (1.040 = 40 points), dividing by 4 to give sugar percentage
+by weight, and multiplying by the number of liters of wort times 10.
+
+
+Now, 1 liter of CO2 weighs just about 2 grams, so 1 gram of CO2 is 1/2
+liter. 
+
+
+And the last problem is that the ethanol depresses the final gravity,
+so there is really a bit more sugar left in the beer than you would
+computed by the straightforward method above. (I.e., a 1.010 final
+gravity does not indicate 2.5% remaining sugars, but instead to almost
+4% remaining sugar.  Or, looking at it another way, a beer that
+started at 1.040 (10%) and ended at 1.010 (not 2.5%) had a drop in
+sugar content of 6%, not the apparent 7.5%. Again, roughly, if you
+compute the difference in SG and multiply it by 4/5, you'll be pretty
+close to the "true" drop in SG, ignoring the ethanol.
+
+
+Whew!
+
+
+So, putting this all together, we get:
+
+
+CO2 liters = CO2 grams / 2.
+CO2 grams = sugar grams fermented / 2.
+sugar grams fermented = sugar % fermented * 10 * liters of beer.
+sugar % fermented = 0.8 * (original % - final apparent %)
+original % = 1000 * (original SG - 1) / 4
+final apparent % = 1000 * (final SG - 1) / 4
+
+
+Of course, you'd work it from bottom up.  Let's take a concrete
+example, first.  20 liters (a bit more than 5 gallons) of 1.040 beer
+ferments to 1.010.
+
+
+Original % = ((1.040 - 1) * 1000) / 4 = 10
+Final apparent % = ((1.010 - 1) * 1000) / 4 = 2.5
+sugar % fermented = 0.8 * 7.5 = 6.0
+sugar grams fermented = 6.0 * 10 * 20 = 1200
+CO2 grams = 600
+CO2 liters = 300 (79 gallons)
+
+
+To put it in terms of grams of CO2 per millilter per degree SG
+difference, we have to pull the lines together.
+
+
+In particular, we start with
+
+
+sugar % fermented = 0.8 * (original % - final apparent %)
+   = 0.8 * 1000 * (original SG - final SG) / 4
+   = 200 * SG difference
+
+
+Now we can work on up the chain, using 0.001 liters (1 milliliter) as
+the volume of wort:
+
+
+sugar grams fermented = sugar % fermented * 10 * 0.001 liters
+   = sugar % fermented / 100
+   = 2 * SG difference
+
+
+CO2 grams = SG difference
+CO2 liters = SG difference / 2
+
+
+Again, with real numbers (1.040 to 1.010 fermentation), I get 0.030/2
+= 0.015 liters or 15ml of CO2 per ml of solution, or (again) 300
+liters for a 20 liter batch.
+
+
+"Rob" claims 0.3 ml CO2 per ml of solution per degree change in SG.
+If we realize that he's really using "points" ((SG - 1) * 1000), then
+my number is reasonably close to his (0.5 is close to 0.3), given that
+his number came from an attempt to measure the evolved CO2 (I wonder
+- -- did he ignore the CO2 that stayed dissolved in the finished "beer"?
+That could add 1ml of CO2 per ml of solution, or so.)
+
+
+Finally, he made a simple error in his calculation:
+
+
+(0.3007) * (40 - 10) = 9 ml CO2 / ml beer 
+          = 9 gal CO2 / gal beer 
+for a total of 45 gal CO2 from 5 gallons of beer using his numbers.
+
+
+=Spencer
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 10:53:44 +0100
+From: "Gregor" <gregor`at`blinx.de>
+Subject: Re: Amsterdam; what/ where to drink
+
+
+I lived in Amsterdam for 4 years and want to recommend
+"Brouwerij 't Ij" to you warmly.
+
+
+It's a micro which brews the very best beers of Amsterdam:
+
+
+1 Pilsner (Plzen)
+1 Dubbel (Natte)
+1 Tripel (Zatte)
+1 Barleywine (Struis)
+1 sort of IPA (Columbus)
+
+
+I love all of them. Especially the Columbus. Very belgian!
+Whenever I visit Amsterdam, I drink there excessively and buy
+myself a crate!
+
+
+Don't have the adress right now, but I guess, you find it in
+many guides to Amsterdam (paper and web).
+
+
+Their opening times are kind of weird though: 3 pm - 9 pm from
+Wednesday to Sunday.
+
+
+There are many other places too where you can get very nice
+belgian beers. But this is really the best!
+
+
+Have fun!
+
+
+Gregor
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 11:52:24 -0000
+From: "Joel King" <joel_d_king`at`hotmail.com>
+Subject: Amsterdam drinking establishments
+
+
+Steve G. asked about beers / places to drink in Amsterdam.
+
+
+I've passed through a few times on business the last few months.  Haven't 
+found any local beers.  Hoogarden is available in some bars.  But the last 
+time I was there a bartender recommended I try a Belgium Beer Cafe.  The 
+word "Gollem" was associated with that Cafe, but I'm uncertain if that was 
+the name of the Cafe or the name of street the Cafe is on.  The bartender 
+said it was about a 20 minute walk from Central Station, and wasn't hard to 
+find.  When I go back in April I intend to look it up, but haven't been 
+there yet and can't tell you anymore about it.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 07:23:33 -0500 (EST)
+From: ksc58 <kcada`at`cas.org>
+Subject: Response to Posting
+
+
+
+
+  In response to Benjy's request for an applications for a non-functional
+chest freezer on 3/20 (see below),  I have a small, old chest freezer that
+died of old age.  I use it to store my grains in my basement since it
+affords a bug/vermin-proof storage area that serves somewhat as a moisture
+barrier and is well-lit by the interior light when you open the lid.  Of
+course you have to disconnect the wire to the compressor, but on mine it
+just unplugged from the power cable that entered the unit.  I do still
+have my grains in plastic bags in metal containers to avoid moisture from
+creeping in!
+
+
+Cheers!
+
+
+Ken Cada
+kcada`at`cas.org
+
+
+
+
+
+
+
+
+
+
+
+
+- ------------------------------
+
+
+Date: Tue, 20 Mar 2001 17:58:08 -0500
+From: "Benjy Edwards" <rdbedwards`at`hotmail.com>
+Subject: anyone else this unlucky?
+
+
+Ok, so maybe I wasn't unlucky, just stupid.
+After drilling two holes in my GE chest freezer 8 months ago to install a
+cask breather, yesterday I tried drilling 4 holes to install a co2
+distribution manifold, and . . . you know the rest.  I hit a coolant line
+and my sobs of pain were drowned out by the endless hissing noise of all of
+the R134a leaking out.
+Has anyone else been through this?  Right now I'm trying to ascertain from
+GE and repair guys whether it's worth repairing or if I'm better off junking
+it and buying a new one.  Sadly, the freezer is only 1 year old, but I've
+been told that fixing the new sealed units isn't worth it.  What's the
+opinion of the group on whether to repair/replace?  If I should replace it,
+does anyone have any ingenious homebrewing applications for a non-functional
+chest freezer?
+
+
+Any input appreciated,
+Benjy
+rdbedwards`at`hotmail.com
+
+
+
+
+- ------------------------------
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 08:00:00 -0500
+From: JGORMAN`at`steelcase.com
+Subject: cracked carboys
+
+
+>>>Darrell wrote -Two times I have found hairline cracks on the bottom of my
+glass carboys
+in the last 2 months.>>
+
+
+I have a similar incident but more catastrophic.  Last December I had a nice
+Belgian Holiday ale done and ready to bottle (5 gallons worth).  The gravity
+sample tasted incredible.  I was moving my glass carboys around to get to one.
+ The carboy with the Holiday Ale barely touched another glass carboy and it
+shattered almost explosively.  Five gallons of beer all over my brewery.  All
+I could do was sit, watch as it poured over the table on to the floor and cry.
+ I now put every glass container in a milk crate or bucket to avoid contact.
+
+
+
+
+
+
+
+
+Jason Gorman
+Leap Resident Engineering
+554-2519
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 08:18:46 -0500
+From: Dave Burley <Dave_Burley`at`compuserve.com>
+Subject: Hairline cracks, coolant,thanks
+
+
+Brewsters:
+
+
+Darrell is convinced that rousing his yeast is causing hairline cracks in
+his carboys.
+
+
+I doubt it. Likely these hairline cracks were there because the carboys you
+have are from Mexico and were not properly annealed
+ ( I've seen a few at a brew shop like this).  OR you are submitting the
+carboy to some sort of thermal stress like maybe pouring boiling hot water
+into the carboy when it is resting on a nice, cold, thermally conductive 
+tile floor or or maybe in a metal sink.  Try adding hot water in stages -
+warm and then hot and putting a cloth underneath the carboy to give it some
+insulation. Remember these carboys are <not> Pyrex (R) and are susceptible
+to thermal breakage.
+- --------------------------
+Alexandre in discussing his innovative chilling method makes the statement
+to the effect that you have to use glycol to get better chilling than just
+plain water. 
+
+
+Hain't so. Last time I looked, water had the highest heat capacity of all
+common liquids. Water will do just fine for chilling. It is just
+potentially corrosive and it freezes at 0C ( important if you have a really
+cold chiller) , which is why glycol or a glycol/water mixture is used in
+commercial systems. If you want to use water and drain your system, chances
+are very good it will work fine.
+
+
+Glycol poses a danger as a leak in your system could cause you to produce a
+poison. If it tastes sweet or your beer is green and it's not St. Paddy's
+day, you may have glycol contamination. Be careful with glycol.
+- ---------------------------
+Thanks to all for your kind comments here and in private e-mails on my
+"return" to HBD.  I'm likely the happiest!
+
+
+ 
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 08:31:20 -0500
+From: "Tom Williams" <williams2353`at`hotmail.com>
+Subject: Chiller cooling water
+
+
+In two consecutive posts, I have suggested using tap water as a wort cooling 
+medium assuming an unlimited supply at negligible cost.  Bob B. correctly 
+observes that not all brewers actually have an abundant supply of tap water, 
+as I do.  For brewers in this situation, I think Steven's closed loop 
+immersion chiller makes more sense.  I stand by my previous observation that 
+the ice bath needs to be larger than normal, since all of the heat removed 
+from the wort will be rejected in it.
+
+
+Gratuitous additional suggestion:  try water instead of glycol.  From my 
+days as a design engineer, the only times I recall using glycol in a heat 
+exchanger was to keep it from freezing in cold weather.  Otherwise, water 
+does fine as a heat exhange medium when all expected conditions are between 
+freezing and boiling.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 08:38:47 -0500
+From: "jps" <segedy`at`gsinet.net>
+Subject: flatulance - Epazote
+
+
+Recent post about flatulance leads me to consider the use of the herb
+Epazote which is used in Mexican cooking to relieve said condition.  I was
+planning on growing some this year to experiment with in cooking.  Does
+anyone have experience with this herb in brewing.  Not sure how to do a
+controlled experiment with it...  perhaps some fancy methane detector as I
+drink??
+
+
+John Segedy
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 08:52:42 -0500
+From: "Steinbrunner, Jim (JE)" <steinbrunnerje`at`dow.com>
+Subject: Defunct freezer ideas
+
+
+Benjy Edwards posted:
+
+
+>...Sadly, the freezer is only 1 year old, but I've 
+> been told that fixing the new sealed units isn't worth 
+> it. What's the opinion of the group on whether to 
+> repair/replace? If I should replace it, does anyone have 
+> any ingenious homebrewing applications for a 
+> non-functional chest freezer?...
+
+
+I've thought about using a defunct freezer as an 
+insulated box for a fermentation chiller ala Ken Schwartz 
+( http://home.elp.rr.com/brewbeer/ ) or Doug Brown 
+(  http://members.citynet.net/kbrown/Doug/Brew/closet.htm ). 
+I've built a "Son of Fermentation Chiller" from Ken's 
+plans and it works well, but a defunct freezer would give 
+more room. I've also considered putting a defunct freezer 
+fitted with a thermostat and hair dryer or other heater for 
+wintertime lagering in my Michigan garage. One of these days 
+I'll call an appliance dealer to see if I can get a dead 
+freezer for free.
+
+
+Any comments on these ideas?
+
+
+Jim Steinbrunner
+Midland, MI
+
+
+New Michiganders' HBD motto: 
+"Si quaeris cerevisiae amoenam circumspice" ;)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 09:00:09 -0500 (EST)
+From: Steven <stevensl`at`mindspring.net>
+Subject: Re: Chiller cooling water
+
+
+Water waste is a concern, since I have not measured how much water is used
+I cannot really speak from experience on how much is wasted. I've borrowed
+a wort chiller to try out so I will see. Overall my idea was to has as
+efficient and effective a wort chiller as possible while being somewhat
+compact. It might be more trouble than its worth, given the water waste is
+somewhat lower than I expect. I've even thought of using those freezable
+packs to eliminate the ice water waste.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 09:13:53 +0000
+From: Bob Hall <nap_aca_bh`at`nwoca.org>
+Subject: What/If to Plant
+
+
+There seems to be a lot of interest and experience in growing hops, and
+I'm thinking about using the windmill on my farmstead as a hop trellace.
+But first a couple of questions:
+
+
+1) Which varieties are best suited to the Mid-West climate, eg. hot
+summers, cold winters?
+
+
+2) What about insects and disease control/resistance? I fought the good
+fight but finally turned over the grapes and raspberries to Japanese
+beetles. Won't even bother with the hops if JBs are a big problem.
+
+
+3) Is it best to use one or two rhizomes per hill?
+
+
+Any other tips appreciated. I see that BYO magazine has a feature on
+growing hops this month and will pick up a copy.
+
+
+Thanks,
+Bob
+- --
+
+
+Bob Hall, Technology Director
+Napoleon Area Schools
+Napoleon, OH 43545
+PH 419.592.6991
+FAX 419.599.7638
+nap_aca_bh`at`nwoca.org
+
+
+"I can too be spontaneous ....
+with a little warning."
+        -- Significant Other
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 07:22:20 -0700
+From: "Walker, Randy" <Walkerr`at`littongcs.com>
+Subject: RE: Amsterdam; what/ where to drink
+
+
+Take the Heineken brewery tour. I took the tour in 1985, and
+after the tour we were given all the beer that we wanted
+for about an hour. Talk to others in your group and
+you will probably meet people from all over the world.
+Buy a couple of the Heineken porcelain mugs. They make 
+great momentos.
+
+
+Randy Walker
+Salt Lake City, UT
+walkerr`at`littongcs.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 09:47:44 -0500
+From: Richard Foote <rfoote`at`mindspring.com>
+Subject: Web Site of Interest
+
+
+Brewers,
+
+
+Here's a web site I came across in doing one of my many searches.  They
+specialize in small quantities of metal items of interest to brewers.
+Check 'em out at:  
+
+
+http://www.onlinemetals.com/
+
+
+NANEASCYYYY (no affiliation not even a satified customer yet yadda yadda
+yadda)
+
+
+Hope this is helpful.
+
+
+
+
+Rick Foote
+Whistle Pig Brewing Co.
+Murrayville, GA 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 08:42:54 -0600
+From: Joe Yoder <headduck`at`swbell.net>
+Subject: RE: Wort porridge
+
+
+Steve G. wrote:  
+The SG when we racked was around 1.012 
+and tasted fine.
+
+
+So what's the concensus, did I give him bad advise
+and screw up his batch?
+
+
+To which I reply:
+
+
+Steve, you answered your own question.  See above where it says "tasted
+fine".  How can this be a screw up??  Drink fast though, there is no
+doubt excess starch  in this brew which could lead to latent infection.
+Sounds like a good excuse to get a bunch of people together to drink up
+your friends brew!!
+later,
+Joe Yoder
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 10:11:40 -0500
+From: "Czerpak, Pete" <Pete.Czerpak`at`siigroup.com>
+Subject: RE: purge kegs with CO2, CACA details
+
+
+Geez, I post some info on purging kegs and number of purges vs. remaining
+atmosphere and I get all jumped on.  Just kidding there.  I was just posting
+the info since I ran into it in a current trade article and I thought some
+might be interested. I am not saying its the best or easiest way to do it.
+merely an option with some numbers to back it up so that people who do one
+purge know they are not completely ridding the keg of air.
+
+
+I find that its actually easier for me to purge my kegs rather than push
+water out.  I would rather waste the CO2 than the water I guess plus it
+takes me a while to fill them with water.......
+
+
+Either way, I do not sanitize my kegs between uses (they are never open or
+depressurized before I rinse them out immediately before filling) although I
+do sanitize perhaps 2-4 times per year and when I get them from the supplier
+(not neccessarily the best idea but no documented problems yet).  So they
+are pretty much empty when I get ready to fill them, I rinse with hotwater
+and drain, fill with beer via siphon from carboy and then purge with CO2
+before closing them up to get rid of air before putting them in the fridge
+on gas.
+
+
+My CACA (aka. "B.T.G. Cream Ale (Better than genny)" from last week is
+looking pretty good.  It had tons of cold break presumably due to all the
+corn used - flaked maize at 25%.  Little hazy looking before going to
+secondary.  details are 25% maize, little carapils, little 20l crystal, 1 lb
+munich, remainder as english 2 row.  infusion mash. yeast was nottingham
+slurry from previous batch stored 3 days,, OG = 1.053 (no FG yet since its
+going to secondary tonight) , and hops were cluster and hallertauer to about
+35-40 IBU.  Little more hops than I desired originally but I had to boil for
+15 extra minutes with the hops since I forgot about the finishing hops and
+chiller boil until the end of my normal boil cycle. ohh well, I like
+hops.... Recipe was a combination of Jeff renners and Paul Shicks (from
+Ohio) from perhaps 1999 or 2000 HBD CACA searches.  I do live in NY but not
+as close as one might think to the land of Genny.
+
+
+Pete Czerpak
+Albany, NY
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 08:52:33 -0600
+From: Joe Yoder <headduck`at`swbell.net>
+Subject: GFI protection
+
+
+Joe Kish wrote:
+ When you have a GFI mounted in a room, all of the
+120 volt outlets in that room are protected by that
+GFI.   You don't need to use an extention cord to
+find another GFI.  Leakage to ground from other
+outlets will trip that GFI.
+
+
+Joe Yoder replies:  (3 times this week, I think my de-lurk button is
+stuck)  
+This is just a tad misleading especially to those of us with old homes
+that have been rewired a number of times.  I think what Joe means is
+that if you have a GFI on a circuit all the other outlets on the circuit
+are protected.  Just because 2 outlets are in the same room doesn't mean
+they are on the same circuit.
+later,
+Joe
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 09:57:30 -0600
+From: "elvira toews" <etoews1`at`home.com>
+Subject: roasting huskless barley
+
+
+Dennis asks:
+    Also roast barley is near impossible to obtain where i live, so I
+roasted it myself. But the only barley i can just buy is dehusked, is
+this a problem?
+
+
+You could call it "Carafa barley".  It should be a bit smoother than you
+want for making that perfect Guiness clone, but if I'm ever in Delft I'd
+love to taste the results.
+
+
+I got to nibble a few grains of an amber-roasted barley from Eritrea.  They
+were the most beautiful plump kernels with a completely uneven colour.  I
+would toss a half-pound in a mild ale.
+
+
+Sean Richens
+srichens`at`sprint.ca
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 10:58:49 -0500
+From: "Czerpak, Pete" <Pete.Czerpak`at`siigroup.com>
+Subject: Pats external cooled fermentor
+
+
+I think Pat babcock presented his design for the Cajun Cooled Fermentor.  I
+would maybe recommend one thing - use some heat transfer cement (they
+probably sell this at a plumbing store as Thermon or Zeston or something
+like that).  
+
+
+make sure to check if it requires heat to cure it or if it is water sensitve
+(as some of these things fall apart with moisture).  they use them in the
+process industries like food, pharm, and chemcials for keeping vessels and
+pipes hot and cold if the coils are not welded.  I have used it a number of
+times myself back when I was an intern during plant shutdown time.
+
+
+the basic deal is that they offer better heat transfer than just the coils
+wrapped tightly because they replace convective heat transfer with
+conductive heat transfer to the vessel wall.  In fact, the numbers that I
+have seen show 25 to 50x better heat transfer.  Tightly holding these coils
+to the fermentor and good insulation can go a long way however if you don't
+want to go the route I mention above.
+
+
+I do plan on probably getting a Son of Fermentation Chiller myself though
+when they are available later this spring.  Looking forward to trying it out
+Ken..
+
+
+Pete Czerpak
+albany, NY
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 10:46:21 -0600
+From: " Jim Bermingham" <bermingham`at`antennaproducts.com>
+Subject: Amsterdam
+
+
+Steve G. ask where to drink when in Amsterdam.  Try the Old Sailor on Canal
+Street.  After a drink or two you can go window shopping.  Ah! those were
+the days.  Long ago and so far away.
+
+
+Jim Bermingham
+Millsap, TX
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Mar 2001 10:55:49 -0600
+From: Brian Lundeen <blundeen`at`rrc.mb.ca>
+Subject: RE: Graham abuse, carboy abuse, mash abuse, TO abuse
+
+
+Jerry Pelt writes:
+
+
+> Graham. I'm sorry you've decided to play in your own
+> sandbox without all your Yank friends. Keep the sand
+> out of your shorts, it plays hell on your zwickel.
+> 
+
+
+I too miss Graham and I have theory as to why he packed up his bag and went
+walkabout. I think we were all too nice to him. Nobody laid more abuse on
+Graham than his fellow countryman, Phil, and vice versa, and I think that's
+what they are most comfortable with. In spite of Steve's best efforts, and
+Steve, nobody could have expected you to do more, Graham just didn't get
+enough abuse here. He's gone to be with others of his kind, good natured
+thugs that will smash you over the head with large pieces of wood, and join
+you in a round of hearty laughter and backslapping as the blood pours down
+your face. 
+
+
+Australians. Insult them, and they will come.
+
+
+Darrell Leavitt ponders his carboy problems:
+
+
+> Two times I have found hairline cracks on the bottom of my 
+> glass carboys
+> in the last 2 months.  I often will swirl the carboy....sometimes
+> violently...and I think that this may be the error in my ways.
+> 
+> So...please don't do as I do....rouse the yeast, but....do it gently!
+> 
+> I know that this sounds very odd....but cannot think of any other way
+> that they could get cracked.......
+
+
+Always a possibility but carboys can also develop cracks from washing or
+rinsing with very hot water. I'm sure there's a name for what it does,
+thermal stress threshold overload or some such thing. If you're using hot
+water, stop it. I would even consider replacing any carboys that have been
+so treated. They could be timebombs even if they have no visible signs of
+stress at this time. Often, visible cracks are the terminal stages of a
+progressive disease, and offer about as much warning as someone shouting,
+"Look out for the tru..."
+
+
+As for safe rousing, consider a Fizz-X, a stirring device that attaches to
+your drill. Be careful with it. It can release CO2 in a most spectacular
+manner. You don't want to turn your carboy into Mt Brewsuvius.
+
+
+John Van Hove writes:
+
+
+> Maybe some of you gray-beards in the audience could diagnose 
+> the problem
+> immediately, but I didn't know what his problem was and 
+> wanted to see his
+> procedures first-hand. 
+> I normally do infusion mashing, not direct heat, so I 
+> couldn't be sure, but
+> the bubbling black tar in his pot looked nothing like any 
+> mash I had ever
+> seen.  
+
+
+I don't consider myself a grey-beard, although my wife does gleefully point
+out any additions to the few SILVER toned hairs that are SLOWLY adding
+character to my temples. In any case, the bubbling should have been the
+tipoff. Mashes should never, ever bubble (OK, main mashes, obviously
+decocted portions have to bubble). Bubbling indicates that at least part of
+your mash is at the boiling point.
+
+
+Darryl Newbury writes of my insensitive teasing:
+
+
+> On Brain's other comment, that is his attempt to bring me 
+> into a debate
+> about thriving homebrew clubs makes me wonder ... are there 
+> thriving clubs
+> in other large cities our efforts in Toronto have thus far be 
+> futile at
+> organizing a clubs 
+
+
+First off, let me say that given the number of times that my name gets a
+couple of letters swapped, I am just thankful that I was not named Idoit.
+
+
+In spite of my taunts (perhaps I'm part Australian), I feel very badly for
+how things have gone in TO. I firmly believe that without the involvement of
+a couple of local homebrew supply stores in getting their regular customers
+out, I probably would not have had as much success when I started up our
+club. Yes, I suppose this makes me a bad person for promoting Paddock Wood
+at their expense, but like I said, all-grain stuff is just not a significant
+part of their business. Perhaps you have tried that approach there, but I
+think it's an important part of getting a club started. Lions know that the
+watering hole is a good place to meet up with a wildebeest. Sometimes a
+certain camaraderie develops when regulars run into each other at their brew
+shop, and this is a natural starting point for basing a club around. Anyway,
+seems to have worked here. I wish you luck. Perhaps Rennerian (0,0) in May
+will have a bonding effect on those present, and the club will blossom.
+Let's face it, how can anyone not want another excuse to drink beer?
+
+
+Cheers,
+Brian
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3588, 03/23/01
+*************************************
+-------

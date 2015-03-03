@@ -1,0 +1,2448 @@
+﻿Return-Path: owner-homebrew-digest`at`dionysus.aob.org
+Received: from srvr7.engin.umich.edu (root`at`srvr7.engin.umich.edu [141.212.2.69]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id BAA23811 for <spencer`at`srvr5.engin.umich.edu>; Fri, 24 Jan 1997 01:29:39 -0500 (EST)
+Received: from judgmentday.rs.itd.umich.edu (0`at`judgmentday.rs.itd.umich.edu [141.211.83.37])
+          by srvr7.engin.umich.edu (8.8.4/8.8.4) with ESMTP
+          id BAA05217 for <spencer`at`engin.umich.edu>; Fri, 24 Jan 1997 01:29:38 -0500 (EST)
+Received: by judgmentday.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id BAA13426; Fri, 24 Jan 1997 01:29:36 -0500 (EST)
+Received: from dionysus.aob.org by judgmentday.rs.itd.umich.edu (8.7.5/2.2)
+        with ESMTP id BAA13385; Fri, 24 Jan 1997 01:29:31 -0500 (EST)
+Received: (from dionysus`at`localhost) by dionysus.aob.org (8.7.5/8.7.3) id OAA05742 for homebrew-digest-outgoing; Thu, 23 Jan 1997 14:04:50 -0700 (MST)
+Date: Thu, 23 Jan 1997 14:04:50 -0700 (MST)
+Message-Id: <199701232104.OAA05742`at`dionysus.aob.org>
+X-Authentication-Warning: dionysus.aob.org: dionysus set sender to owner-homebrew-digest`at`dionysus.aob.org using -f
+From: owner-homebrew-digest`at`dionysus.aob.org (Homebrew Digest)
+To: homebrew-digest`at`dionysus.aob.org
+Subject: Homebrew Digest V2 #43
+Reply-To: homebrew`at`dionysus.aob.org
+Sender: owner-homebrew-digest`at`dionysus.aob.org
+Errors-To: owner-homebrew-digest`at`dionysus.aob.org
+Precedence: bulk
+
+
+
+
+Homebrew Digest       Thursday, January 23 1997       Volume 02 : Number 043
+
+
+
+
+
+
+Procedures:
+
+
+To send a message to the digest, send it to <homebrew`at`aob.org>
+To subscribe to the digest, send a message to <majordomo`at`aob.org>
+   with the text "subscribe homebrew-digest" in the body.
+To unsubscribe from the digest, send a message to <majordomo`at`aob.org>
+   with the text "unsubscribe homebrew-digest <your email address>"
+   in the body.
+If you are having difficulty unsubscribing, send a message to
+   <majordomo`at`aob.org> with the text "who homebrew-digest" in the
+   body.  This will return a list of all subscribers.  Search this
+   list for your email address, and include it, exactly as it appears
+   (including any other text) in your unsubscribe message.
+If you are still having difficulty, send a message to <admin`at`softsolut.com>
+   with a description of your message, and we shall attempt to resolve
+   the problem.
+
+
+1        [No Subject Provided By Sender]
+2        Wort chiller design and Mash/Lauter Tuns (Todd Goodman <tsg`at`netlink.com>)
+3        Lactose Priming
+4        SO4/O2
+5        cleaning dip tubes
+6        Marris Otter Malt
+7        Wyeast 1338 update (George De Piro)
+8        Re: Heineken
+9        Fermenter Liners (Eric Peters)
+10        Oxygen and Starters
+11        Hop tea
+12        Re: Wort chiller design
+13        Re: Homebrew Digest V2 #42
+14        Plastic
+15        Re: Aeration/kraeusening 
+16        CO2 capacity again
+17        Questions from a beginner
+18        RE: Reverse step infusion mash  (George De Piro)
+19        What dissolves beerstone?  (George De Piro)
+20        Carbonation computation
+21        mead & Bass ale bottles
+22        green bottles - why?
+23        More thoughts on carbonation computation
+24        War of the Worts results
+25        Wort Chillers and Taste
+26        SG after boil
+27        Calcium oxalate
+28        Forced carbonation (John Wilkinson)
+29        Re: Homebrew Digest V2 #42
+30        Large Fermentation Barrels 8-}
+31        Late Response- perhaps one more(
+
+
+----------------------------------------------------------------------
+
+
+Date: 
+From: 
+Subject: [No Subject Provided By Sender]
+
+
+All postings to the HBD should go to <homebrew`at`brew.oeonline.com>
+All administrative mail should go to <homebrew-request`at`brew.oeonline.com>
+
+
+Any mail posted to aob.org for the HBD will be forwarded to those
+addresses.
+
+
+>From this point forward I am no longer going to be supporting the HBD, so
+please send all of your mail to homebrew-request`at`brew.oeonline.com.
+
+
+This will be the last digest mailed out from this location.  I thank all
+of you for your support, your time, and your understanding.  It has been a
+pleasure to work with such a diverse crowd, and I hope that your futures
+all find you well.
+
+
+Adrian Goins <admin`at`softsolut.com>
+System Administrator - Internaut
+100% Software Solutions, Inc.                   303-689-0100 voice
+http://www.softsolut.com                        303-891-4507 pager
+
+
+**Please use the PGP key available from "finger admin`at`softsolut.com"**
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 07:38:53 -0500
+From: tsg`at`eng1.netlink.com
+Subject: Wort chiller design and Mash/Lauter Tuns (Todd Goodman <tsg`at`netlink.com>)
+
+
+Fred Klassen <fredk`at`ibm.net> wrote:
+>I have had a few comments on my immersion chiller, so I thought I
+>would pass this along.  I did not waist time building connectors for
+>attachment to the ends of my 1/2" copper coil.  Rather, I insert  the
+>copper directly into my in and out 1/2" garden hoses and use hose
+>clamps to fasten.  The chiller took 15 minutes to make, and never leaks.
+>
+>Does anyone else do this?
+>
+>Fred Klassen
+>Vancouver, BC
+
+
+Sure, I do exactly the same thing and have never experienced a leak either.
+I have 1/2" tubing as well.  It took me more like 1/2 hour to build (I didn't
+have a tubing bender and had to be careful not to kink the tubing).
+
+
+To take up the thread about mashing in your lauter tun (or vice versa) could
+those of you with more experience (or textbook references) explain what the
+negatives might be to this practice?  I could certainly understand why certain
+lauter tun/mash tun designs might not work well for both, but are there
+quality reasons why it would be undesirable?
+
+
+Thanks,
+
+
+Todd
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 07:28:41 -0600
+From: Raymond Louvier <r099g`at`waii.com>
+Subject: Lactose Priming
+
+
+I have a question I hope someone can help me out with. I have a great Dry 
+stout in the secondary. I tasted it last night and it was beatifully dry. But, 
+I would like to add a small amount of sweetness to it. Starting OG was 1.060 
+and last night going to secondary it was at 1.020 after 3.5days in the 
+primary. In about a week I am going to bottle and was thinking of using 
+lactose to prime with and give it a little sweetness. Does any one have any 
+idea how much lactose to use or even if it is a good idea. This is a 5 gallon 
+batch. Any help would be greatly appreciated.
+
+
+Thanks 
+Ray Louvier 
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 13:50:43 -0500
+From: "A. J. deLange" <ajdel`at`mindspring.com>
+Subject: SO4/O2
+
+
+Craig Agnor asked about adding gypsum to the priming solution to increase
+the hops bitterness of a beer made with low sulfate water. Try it and see
+but my feeling is that the necessary reactions take place in the boil and
+that, therefore, adding sulfate after the fact will have little effect.
+
+
+Alex Santic reported killing a yeast starter with too much oxygen. This is
+contrary to my experience: I heavily oxygenate starters all the time and
+have never had one die out. I have reported here before that I did an
+experiment in which a starter (Wyeast London) was maitained at about 30
+mg/L (equilibrium with pure O2 is about 40 mg/L) and monitored for 14
+hours. The yeast kept consuming the O2 and reproducing (.13E6/ml at the
+start of the experiment and 6.61E6 after 14 hours). What strain was it? Are
+we sure something else wasn't wrong?
+
+
+
+
+A. J. deLange
+- - Numquam in dubio, saepe in errore.
+Please Note New e-mail Address
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 08:16:28 -0600
+From: Robert DeNeefe <rdeneefe`at`compassnet.com>
+Subject: cleaning dip tubes
+
+
+I got 3 corny kegs for Christmas and I'm just getting around to
+cleaning them out and replacing the o-rings.  I was debating rather to
+just scrub the insides or take them apart, but when I opened them up
+and smelled them, I decided that it would be best to totally
+disassemble and do a thorough job.  I soaked the connectors in hot
+water and they have come very clean.  Tonight I'll work on the lids and
+canisters.  One problem remains: How in the world do I clean the inside
+of the dip tubes?  Do they make pipe cleaners that long?  The tubes
+smell of soda, and I really don't want my next batch to be Barq's
+Rootbeer Ale. 
+
+
+ Robert
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 09:19:16 +0000
+From: "Nathan L. Kanous II" <nkanous`at`tir.com>
+Subject: Marris Otter Malt
+
+
+To the collective:
+
+
+I am curious with the recent postings about the Marris Otter malt.  Is 
+there a difference between Marris Otter Pale Malt and Marris Otter Crisp 
+Malt?  Could this have an impact upon the discordant reports?
+
+
+Nathan
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 08:06:08 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: Wyeast 1338 update (George De Piro)
+
+
+     Hi all,
+     
+     Just a quick update for those of you who are following my escapades 
+     with Wyeast 1338 (European ale).  The fermentation was going great for 
+     the first few days at ~57F (13.9C), but then we got a severe cold snap 
+     here in NY, and the temp dropped down to the high 40's (~8.8C).
+     
+     The yeast slowed to the point of being practically stopped  (SG = 
+     1.030, only a 23 point drop).  Oops!
+     
+     Interestingly, the Kraeusen never fell, though.  I've warmed the 
+     fermenters to 65F (18.3C) over a couple of days, and they seem active 
+     again.
+     
+     On the positive side, the young beer didn't smell estery...
+     --------------------------
+     Oh, yes, Mark's comments about the usefulness of decoction mashing for 
+     increasing wort fermentability were right on.  The increased control 
+     that the brewer has over the amylases is one of the major reasons to 
+     bother with decoction mashing.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 09:58:49 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Heineken
+
+
+In Homebrew Digest V2 #41 Alan Rodgers <alanr`at`greyware.com> asks:
+
+
+>I can't remember ever getting that particular flavor out of
+>brown-bottled beer. Why do they use green glass for beer bottles,
+>anyway?
+
+
+As I have heard it, after WWII, Heineken was gearing up to export beer
+again, but because of shortages, they couldn't get brown bottles for
+export, only green.  The brown had to be kept at home for reuse.  (Of
+course, beer bottles had been made of brown glass for decades since it was
+easily discovered empirically that it greatly reduced skunking.)  So
+Americans, especially returning GIs, who were thirsty for European beer,
+got the first post-war import, Heineken, in green glass.  After that, green
+bottles acquired a cachet from association with a quality, premium import,
+so other importers found that they did better marketing-wise with green.
+
+
+As an example of how disgustingly far this has gone, when the Frankenmuth
+Brewery (Michigan) opened about ten years ago, they bottled their
+supposedly German style pilsner in green glass.  Lots of other breweries do
+this as well, again showing that the bottle and its label seem more
+important than what's inside it.  Of course, Frankenmuth skunked, but you'd
+be amazed how many people associate that flavor/aroma with "import" taste.
+I guess that's because skunked Heineken has more character than unskunked
+Budmilloors.
+
+
+- -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 10:12:20 EST
+From: Eric Peters <epeters`at`rtp.semi.harris.com>
+Subject: Fermenter Liners (Eric Peters)
+
+
+From: Greg Moore - <gmoore`at`wacko.East.Sun.COM>
+>A local "Brew-On-Premisses" business uses big plastic drums.  Since the
+>batches are 13.5 gallons, I'd estimate that the drums have about 20 Gal
+>capacity.  They used a plastic bag insert in the drum.   The plastic is
+>clear, not white or black like a garbage bag.  I don't know if this was
+>something they have custom made or what.  The plastic bag was brought
+>out the hole in the top and a rubber stoppered airlock placed in the
+>hole for fermentation.
+>
+>Since the wort never directly touched the plastic drum, there was no
+>need to sterilize the drum itself.
+
+
+U. S. Plastics sells a 55 gallon, FDA approved drum liner for ~$4.
+(Catalog at home.)  Grainger sells the following USDA and FDA
+approved polyethylene can liners.  Doesn't say high or low poly,
+called "Super-Flex".  (Funny, that's what I like to call myself.)
+
+
+Page 1779 of catalog 387:
+
+
+Capacity    Size       Liners    Roll     Case     Stock
+(Gallons)   W x L     Per Roll   Each  Rolls/Each   No.
+   7       21.5x22"     100     $5.55   10/$5.19   3u753
+ 11-13     23.5x29"      50      4.02   10/3.73    3u754/5
+  33        35x39"       25      4.47   10/3.92    3u758
+  55        36x60"       20     11.88    0/9.42    3u764
+
+
+I have NO experience with these products or fermentation in plastics.
+Just passing along info.  If it saves a little time on brew day,
+could be worth the expense.
+
+
+Eric in Durham,  (A.K.A."Super-Flex")
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:10:00 -0500
+From: "Little, Wayne" <LittleW`at`od31.nidr.nih.gov>
+Subject: Oxygen and Starters
+
+
+I know this is a well-worn topic, but is it really necessary to pump air or 
+oxygen into wort prior to inoculating with yeast. Yeast are not obligate 
+aerobes - they do ferment sugars.  It would seem like growth would be 
+limited only by the availability of fermentables, the accumulation alcohol, 
+and proper temperature.  I know it+s risky to make generalizations, but 
+from a microbiological standpoint, it is the strict anaerobes that are the 
+difficult organisms to grow.  In preparing culture media, one has to go to 
+great pains to keep oxygen out of the system.  Unless you cool the liquid 
+media down in an oxygen-free chamber, oxygen readily permeates the liquid. 
+ I would imagine pouring cool wort into a fermentation vessel would 
+introduce sufficient oxygen to grow yeast.  The ppm might not be optimal to 
+produce the absolute most rapid beginning of fermentation, but is this 
+really necessary?  Coupled with what sound like unduly large volumes of 
+ starter, can this not lead to an overly rapid and explosive fermentation 
+that might not produce the best tasting beer?    I realize the need of a 
+reasonably rapid start to discourage possible contaminants, but how rapid 
+does it have to be and how large the starter volume?  Again, from my old 
+micro days (working with bacteria, not yeast), the general rule of thumb 
+was to inoculate with a log phase culture that was about 1% of the total 
+volume.  Any more would risk transferring too many dead cells and waste 
+products.  For 5 gal of wort., a 1% starter would be about a half pint. I 
+will admit I was used to working with liter volumes or less, so when 
+upscaling the rules might change.
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:16:47 -0500
+From: "Ed J. Basgall" <edb`at`chem.psu.edu>
+Subject: Hop tea
+
+
+Regarding the use of Hop Tea for post-frermentation bittering.
+
+
+Our brewclub recently toured a microbrewery which does just that.
+The proprietor recommended using one of the infusion-press type
+coffee makers to brew the hop tea and separate out the liquid from the 
+solid.  He steeps at just below boiling for a couple of hours in his 
+commercial kettle-strainer.
+
+
+cheers
+
+
+Ed Basgall
+SCUM
+State College Underground Maltsters
+State College, PA
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:26:12 -0500 (EST)
+From: Larry M Matthews <lmatt`at`ipass.net>
+Subject: Re: Wort chiller design
+
+
+Good Morning,
+   I've noticed lots of folks have/are trying to bend copper without a
+tubing bender. Don't bother with going to the hardware store for a bender.
+Simply find an item that you can use as a form and bend the roll of copper
+tubing slowly around the form. I had a 10" tree in my back yard that I had
+cut down at a height of 4' several years ago and I just wrapped the tubing
+around the tree stump that was left. It worked great because the base of
+the chiller was approx 10" in diameter and it decreased very slowly as I
+wound it around the tree so that the top rung was about 8". This added
+great stability to the chiller both in the keg while cooling as well as
+storing it on a top shelf. Don't go cut down a tree but you could use a
+corney keg (gives about a 13" coil), or even the leg of your SO, just don't
+tell them until you're through what it is for. It's easy!
+
+
+
+
+At 07:38 AM 1/23/97 -0500, tsg`at`eng1.netlink.com wrote:
+>Todd Goodman wrote:
+
+
+>I have 1/2" tubing as well.  It took me more like 1/2 hour to build (I didn't
+>have a tubing bender and had to be careful not to kink the tubing).
+>
+>
+>
+>Todd
+>
+
+
+
+
+                                        Larry M Matthews
+                                        Carboy/Trub Member
+                                        Raleigh, NC 27606
+                                        lmatt`at`ipass.net
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 09:26:39 -0600 (CST)
+From: Craig Amundsen <amundsen`at`biosci.cbs.umn.edu>
+Subject: Re: Homebrew Digest V2 #42
+
+
+Hi -
+
+
+Maribeth Raines wrote to Dave B:
+>>"I read somewhere (don't remember where) that O2 also induces the maltose
+>>transporter system.  This may in fact explain how a small amount of O2 may
+>>have such a large outcome on fermentation.
+
+
+Dave B writes:
+> Oxygen has to be in some kind of catalyst role or be affecting or forming
+> enzymes and not the oft repeated (even by me) role of building cell walls*.
+
+
+<SNIP>
+
+
+Just a nit, but catalysts aren't consumed by the reactions in which they
+participate. Oxygen is most definitely consumed by the yeast. Whether the
+oxygen induces gene expression by the yeast is a separate issue.
+
+
+I've got three WAGs (Wild Ass Guesses (should this be added to the acronym
+list?)):
+
+
+1) If oxygen does indeed induce the maltose transporter system, then all 
+   the yeast in the population max out their ability to take maltose into
+   the cell and ferment it. This is a good thing, as any cell division that
+   takes place after the oxygen is added will halve the number of transporters
+   on the surface of the each cell.
+
+
+   Also any protein made by an organism has a certain half-life. They get
+   degraded and the component amino acids are used to make new proteins. So
+   over time a cell, assuming no new synthesis of maltose transporters, will
+   begin to lose the ability of move maltose into the cell. Chances are,
+   though, that maltose itself is also an inducer of its transporter. But
+   now we come back to the oxygen. If at the beginning of fermentation the
+   yeast cells don't have many transporters, then how does the maltose get
+   into the cell and then induce the production of its own transporter? Becuase
+   oxygen induces it.
+
+
+2) The cell wall component that is the end product of of the pathway oxygen
+   is used up in is a limiting factor in cell division. A yeast cell must have
+   a certain amount of this component in order to be able to divide. In an
+   un-oxygenated batch, the cells don't get to divide at all because if they
+   had enough of the cell wall component (CWC), they would have already done
+   so. In an oxygenated batch, all the cells divide until they reach the
+   end of their CWC supply. Actually, an individual yeast cell can only bud
+   around 8 (I think that's the right number) times. Each division leaves a
+   scar on the surface of the mother cell. When the cell surface is completely
+   scar covered division ceases. 
+   
+   a) We've got a bunch of young yeast and fermentation is best done by young
+      cells. OR
+   b) We've got a bunch of old yeast that aren't going to divide but have a
+      whole bunch of maltose transporters due to WAG #1 and fermentation is
+      best done by old yeast with no cell division distractions.
+
+
+   In either case oxygenation improves the picture of the yeast population
+   with respect to the un-oxygenated yeast.
+
+
+3) This is an extension of WAG #2a. Since an individual yeast cell can only
+   divide a few times before it can no longer do so, we can talk about the
+   age of each cell. This is different from bacteria or fission yeast since
+   each daughter cell is identical and we can't tell which one was the 
+   original cell. So, this geriatric yeast cell is floating around doing the
+   best it can to ferment the wort. But since it isn't dividing it isn't 
+   getting its DNA copied anymore and the genetic damage coming about due
+   to its being around for a long time is beginning to accumulate. Eventually
+   it takes some a ray hit that knocks out some fermentation specific gene.
+   Since fermentation is the energy source for the cell, it dies and
+   we get no more alcohol from this cell. Before then, the damage may be
+   knocking out other pathways and allowing the accumulation of metabolic
+   intermediates that lead to the "fruity" flavors people get in under
+   oxygenated batches. So if there are no young yeast around to carry the
+   burden for the old yeast, you get a suboptimal fermentation.
+
+
+There, that's enough speculation for now.
+- - Craig
+- -- 
++-----------------------------+------------------------------------------------+
+| Craig Amundsen              | DILBERT - Sometimes I wonder if it's ethical   |
+| amundsen`at`biosci.cbs.umn.edu |           to do these genetic experiments. But |
+|                             |           I rationalize it because it will     |
+| 250 Biological Sciences     |           improve the quality of life.         |
+| 1445 Gortner Avenue         | DOGBERT - What are you making?                 |
+| Saint Paul, MN 55108        | DILBERT - Skunkopotamus.                    O- |
++-----------------------------+------------------------------------------------+
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 08:16:15 -0800
+From: bmurrey`at`BellInd.com
+Subject: Plastic
+
+
+Hi there,
+
+
+I'm not brand new to home brewing but I've been away from it for about
+20 years. I'm teaching my sons about fermentation and all the science
+that I can muster as it relates to the fermentation process. (They're 17
+and 14)
+
+
+At work we use these 6 gallon food safe plastic water jugs in our water
+coolers. I don't see any reason why I couldn't use these as a Primary
+Fermenter, but would it cause any harm if I used them for the Secondary
+Fermenter as well?  These jugs are tinted light blue, will this have any
+adverse  effect on my brew?
+
+
+Also the lady at the HB supply store was telling me that Aussies have
+been using 2 litre plastic bottles to bottle their brew. Has anyone
+tried this and what kind of results did you have?
+
+
+I'm going to get one of those mini-keg (1.3 gallon) systems soon so I
+won't have to worry about bottles much.
+
+
+Thanks
+
+
+Brian Murrey
+IS Coordinator
+Computer Division - Bell Industries
+(317)634-8202 X3150
+bmurrey`at`bellind.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:46:18 -0500 (EST)
+From: AJN <neitzkea`at`frc.com>
+Subject: Re: Aeration/kraeusening 
+
+
+On Thu, 23 Jan 1997, Gavin Scarman wrote:
+
+
+> Oh, well can I get you to brew me a hefe-weizen then as I can't seem 
+> to get the "clovey" characters I'm after? ;) (been using Yeast Labs
+> w51, about to try weihenstephen from Wyeast).
+> 
+
+
+If my memory serves me right, that is the yeast I used in wheat beer.  It 
+had a very nice "clovey" characters.  It did stay in the primary for 4 
+weeks though.
+
+
+Every one that tried one, like it, and always went back for more.
+
+
+_________________________________________________________________________
+Arnold J. Neitzke                         Internet Mail: neitzkea`at`frc.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:48:33 -0500
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: CO2 capacity again
+
+
+Sheesh!  Some day I'll learn not to calculate "from the hip".
+
+
+A more careful calculation reveals that both my previous calculations
+were off by a factor of 2 (one high, one low).  
+
+
+To reiterate:
+
+
+CO2 weighs 44 g per mole.
+A mole of CO2 at STP is about 22 liters.
+Thus, CO2 weighs about 2g/liter (at STP).
+Thus, 2 volumes of carbonation consumes 4g/liter of CO2.
+Pushing a liter of beer out at 14PSIG takes another 2 liters-at-STP of
+CO2 (4g).  
+Thus, each liter of beer requires 8g of CO2 to carbonate and push.
+A 5lb tank holds 2265 grams of CO2.
+2265g / 8g/l = 283 liters of beer carbonated and pushed.
+283l / 3.8gal/l = 74 gallons of beer or 14-15 5 gallon batches.
+
+
+=S
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:52:07 -0600
+From: David Burki <davidb`at`pdainc.com>
+Subject: Questions from a beginner
+
+
+Having only 2 batches under my belt, I need some advice.
+
+
+Once bottled and conditioned for a couple weeks, where is the best place =
+to store my beer.  Do I leave them in the ~70 deg. house, put them in =
+the ~62 deg. basement or store them in the fridge?  I don't imagine =
+they'll need storing for more than 4 - 6 weeks after the initial 2 week =
+conditioning/carbonation period.
+
+
+Since I am a recovering MillerBudCoors drinker, I have _very_ limited =
+experience with various styles and different brewers offerings within =
+styles.  I'm trying to expand my horizons and recently tried a Fosters =
+Special Bitter.  Came in a BIG can (25.5 oz.).  I enjoyed it and =
+wondered if this particular brew was representative of the bitter style. =
+ I have also recently discovered a red lager from Linenkugels (sp?), =
+located in Wisconsin I think.  To which style would this kind of beer =
+belong?  Anyone familiar with this beer that has a recipe to clone it?
+
+
+Private email OK. TIA
+
+
+David
+davidb`at`pdainc.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:53:32 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: RE: Reverse step infusion mash  (George De Piro)
+
+
+     Hi all,
+     
+     Charles Burns writes the following in reference to my statement about 
+     "reverse step infusion mashing" (I said that it will denature the beta 
+     amylase and yield a dextrinous wort):
+     --------
+     "And he's right, technically. However, I've got a recipe that does 
+     exactly this and won a 2nd Place in California State Fair last summer. 
+     Go for it Eric!"
+     --------
+     Well, Eric should go for it, if he wants a dextrinous wort!  The fact 
+     that you made a nice beer with this technique is not surprising. Just 
+     don't get confused about the reason the beer was good.
+     
+     You would get a similar result, with faster conversion, by insulating 
+     your mash tun so that it can hold a steady temperature.  This would 
+     also make it easier to brew consistent batches.  Allowing the 
+     temperature to drop over the course of your saccharafication rest is 
+     not what made the beer good.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:03:57 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: What dissolves beerstone?  (George De Piro)
+
+
+     
+
+
+     Howdy,
+     
+     Calcium oxalate, a.k.a. "beerstone", is soluble in dilute hydrochloric 
+     acid or nitric acid (Merck index 12).
+     
+     It is practically insoluble in acetic acid (vinegar) and water 
+     (obviously).
+     
+     If you want to be environmentally friendly, you should neutralize the 
+     acid with baking soda before dumping it down the drain.  There will be 
+     much foaming (CO2 evolution) when you add the baking soda to the acid, 
+     so wear eye protection and add it slowly to avoid a violent (but 
+     really cool) eruption.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:44:12 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Carbonation computation
+
+
+In the last few HBDs, Spencer and others have been diswcussing the amount
+of CO2 needed to carbonate (and push out) beer at certain volumes of CO2,
+with confused (confusing) results.  He has recorrected his results.
+
+
+This points out once again why I think it makes more sense to talk about
+carbonation in terms of CO2 content as per cent by weight as the Germans do
+(g CO2/100 g beer, according to Eric Warner, _German Wheat Beer_).  This
+eliminates the problem of calculating how much sugar to add to prime,
+remembering weight of a mole of CO2,  flipping fractions, etc.  If we as
+homebrewers would forget about volumes of CO2 (a rather arbitrary unit) and
+go with g CO2/100 g beer, and start specifying CO2 content that way in our
+articles, books, posts, home pages, etc., it seems to me that it would be
+much simpler.  If Spencer has trouble with the arithmatic, think about the
+vast majority of us.
+
+
+Warner says (p.48) that the average wheat beer analysed contains
+0.64g/100g, or 3.30 volumes.  This means that 1 volume equals 0.19 g/100g.
+As I recall, a typical Pilsner has 0.5 g CO2/100 g. beer, which is also
+about 2.5 volumes.  This means that if we wanted to prime to this content,
+we'd add about 1 g. sugar/100 g beer, since sugar pretty nearly produces
+half each CO2 and ethanol.  This also easily answers the often asked
+question of "how much alcohol does my priming sugar add?"  About 1/2% in
+this case.  Computation of the amount of CO2 needed to artificially
+carbonate 5 gallons is equally straight forward (assuming 1 liter of beer
+weighs 1 kg, close enough):
+
+
+0.5 g CO2/100g beer X 18900g beer/5 gallons beer = 94.5g CO2/5 gallons beer
+
+
+This ignores the amount of CO2 needed to push the beer out of the keg,
+since that is the same regardless of whether we prime or artificially
+carbonate.
+
+
+Since few of us meter the volume of CO2 we put in our beer, it seems that
+to we must always (derive volumes CO2) from some other measurement, such as
+amount of priming sugar or pressure tables, with the opportunity for
+errors.  To continue using this artificial, archaic unit makes little
+sense.  Why not convert the craft's standard carbonation unit to per cent
+dissolved CO2?  We just need tables giving % dissolved CO2 for each style.
+The Germans have adopted this for good reason.
+
+
+- -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:45:06 -0600
+From: lheavner`at`tcmail.frco.com
+Subject: mead & Bass ale bottles
+
+
+     Thanks to everybody who responded to my query on mead making.  I am 
+     trying to get my friend with the honey to pick a few recipes and then 
+     we're off....  To the responder in MASS who is coveting that honey, 
+     I'll be in touch later...
+     
+     I also recently posted a problem with carbonation on a lagered 
+     rauschbier.  I've discovered the problem and am no longer worried.  I 
+     recently bought a case of Bass Ale and saved the bottles.  Some of the 
+     beer was bottled in some of them including the first few samples I 
+     tried.  Evidently, I didn't get a good seal on those bottles.  All of 
+     my other bottles were well carbonated and none of the bass bottles had 
+     more than a barely detectable fizz.  Has anybody else experienced a 
+     problem with capping Bass bottles?
+     
+     Regards,
+     
+     Lou
+     <lheavner`at`frmail.frco.com>
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:52 -0600
+From: BAYEROSPACE <M257876`at`sl1001.mdc.com>
+Subject: green bottles - why?
+
+
+collective homebrew conscience:
+
+
+> Why do they use green glass for beer bottles, =
+>anyway?
+
+
+i would imagine that part of the reason is marketing.  in order to separate
+himself from the masses, who quaff domestic brown bottled product (not skunked)
+, a yupster will pay an extra $1.00 a bottle and receive a green bottle of 
+skunky, old, stale beer.  this obviously distinguishes him as a man of great 
+taste and sophistication, and can be detected visually by the color of the 
+bottle from across the bar, by young, intelligent women seeking just such a 
+man of the world. 
+
+
+heineken and the others simply take advantage of this behavior (at the expense
+of the beer, and the consumer, of course).  they *know* the effects of 
+light on beer, but as long as joe q. style is willing to buy it, they'll 
+gladly keep shipping it over here.
+
+
+i wonder, does heineken use green glass for their domestically sold beer?
+
+
+
+
+dennis wrote:
+
+
+> And will the "double decotion, no sparge" make a beer
+>too malty?  It is for a dark lager, and we are using the Wyeast
+>Bavarian Lager yeast.
+
+
+bavarian?  dark lager?  too malty??????????  i wouldn't worry about making
+a bavarian dark lager too malty.  make it as malty as you can possibly 
+make it.  you're on the right track.
+
+
+brew hard,
+
+
+mark bayer
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:57:16 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: More thoughts on carbonation computation
+
+
+We have all been ignoring the dissolved CO2 in the beer before
+priming/carbonating, which will, of course, affect the amount of CO2 or
+sugar needed.  There are tables that give this, but they are in volumes
+CO2.  These, of course, were converted from % dissolved CO2 at some point.
+If we followed my proposal, we would need these as % dissolved CO2.
+
+
+- -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:04:49 -0800
+From: Alan Folsom <folsom`at`ix.netcom.com>
+Subject: War of the Worts results
+
+
+Several people have called and/or emailed to ask if I had full results 
+from the War of the Worts competition available.  Yes, but it is quite 
+long, nearly as large as a single HBD.  If anyone would like a copy, 
+send email and I will reply with it.
+
+
+Score sheets should be out within a week or so.  I've started stuffing 
+envelopes, but with nearly 700 scoresheets it will take a few days.
+
+
+Again, thanks for all the support from brewers and judges.
+
+
+Al Folsom
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 11:22:59 MST
+From: Peter Ruddy  <ruddyp`at`mercury.stm.com>
+Subject: Wort Chillers and Taste
+
+
+Fellow Brewers,
+
+
+I've been an extract brewer for a few years and I'm getting ready
+to evolve to all-grain brewing.  Is there any truth to the following
+statement?:
+
+
+    If one doesn't use a wort-chiller with an all-grain batch
+    the final product will have an odd flavor.
+
+
+Thanks in advance for your help.
+
+
+
+
+- -Pete    
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:28:44 -0600
+From: Gary Eckhardt <gary_eckhardt`at`realworld.com>
+Subject: SG after boil
+
+
+Lo all!
+
+
+I brewed a batch this weekend (my second all-grain) and the process
+went well.  I checked my OG, and it was in the 1.040 range, not bad
+for what I was mashing.  I was expecting somewhere in the range of
+1.052, but I sparaged about 7 gallons of wort to help solve my
+problem of short batches.  I'm assuming that this explains my SG
+reading being a little low.  
+
+
+However, I proceeded with the boil, and although I didn't check,
+I'm sure that I got at least 5-5 1/2 gallons of wort after it
+was all boiled down due to evaporation.  Unfortunately, I didn't
+check my SG after the boil.  
+
+
+What could I have expected my SG to be if I lost 1.5 gallons of
+water in the boil?  Is there a quick-n-dirty formula anywhere for
+this?
+
+
+Thanks for any info.
+
+
+
+
+
+
+- ---------------------------+----------------------------------------------
+Gary Eckhardt              |   "in this day & age...music performed by
+Database Consultants, Inc. |    humans...hum!?"  --wilde silas tomkyn
+dcigary`at`txdirect.net       |                R,DW,HAHB!
+gary_eckhardt`at`realworld.com| R^3 = "Real World.  Real Smart.  Real Quick."
+(210)344-6566              |         http://www.realworld.com/
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 13:49:48 -0500
+From: "Ed J. Basgall" <edb`at`chem.psu.edu>
+Subject: Calcium oxalate
+
+
+Al.
+
+
+According to the Merck Index 12th edit.  Calcium oxalate is
+insoluble in water and acetic acid, and soluble in dilute
+hydrochloric and nitric acids.
+
+
+cheers
+Ed Basgall
+SCUNM
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 13:03:58 CST
+From: John Wilkinson <jwilkins`at`imtn.tpd.dsccc.com>
+Subject: Forced carbonation (John Wilkinson)
+
+
+In the discussion of the merits of primed as opposed to forced carbonation,
+I think someone mentioned the time it takes to force carbonate.  I do not
+spend much time force carbonating my beer and I get good results.  I chill
+the keg to ~40-45 F, attach the CO2 line, apply 15-20 psi, place the keg on
+its side with the gas fitting up, and rock the keg back and forth for a couple
+of minutes.  I then return the keg to the serving refrigerator and connect to
+serving and CO2 lines.  I usually let it set for a few hours to let it settle
+before serving from it.  It usually is better after a couple of days because
+it has clarified after the agitation of carbonating and the carbonation seems
+better.  My time spent actually carbonating is minimal and the wait for
+properly settled and carbonated beer is only a couple of days.  I think this
+is a lot better than I could expect from priming.
+I have tried carbonating at higher pressures without much agitaion but tended
+to get overcarbonated beer.  The 15-20 psi method gives better results for me.
+I serve at ~8 psi.
+- ---------------------------------------------------------------------------------
+Dennis Waltman inquired about a good digital thermometer.  Someone posted a
+while back that one was available from Williams Sonoma, a cooking utensils
+store that also does mail order.  In fact I think they are more into mail
+order than they are stores.  At any rate, I went to a store in Plano, Texas
+(near Dallas) and bought the thermometer for ~$15 I think.  I checked it
+against boiling water and an ice water solution in a thermos as well as
+against a fever thermometer and found it to agree within ~1 degree F.  I find
+it quite handy although I have had to replace the battery twice but I keep
+forgetting to turn it off.
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`imtn.dsccc.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:25:01 PST
+From: Joseph Kral <kral`at`hpljlk.hpl.hp.com>
+Subject: Re: Homebrew Digest V2 #42
+
+
+> 
+> Date: Wed, 22 Jan 1997 14:32:05 -0700
+> From: Jeff Sturman <brewshop`at`coffey.com>
+> Subject: pronunciation
+> 
+> We have some home brew riding on this one:  How do you pronounce Gueuze?
+> (blended lambic beer)
+> 
+
+
+Its 'gerz' sort of a growl with a 'z' at the end.
+(an american 'z' sound, not 'zed').
+
+
+- --
+Joseph Kral
+Hewlett-Packard Laboratories
+kral`at`hpljlk.hpl.hp.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:38:41 -0700
+From: Ken Sullivan <kj`at`nts.gssc.com>
+Subject: Large Fermentation Barrels 8-}
+
+
+Contact St. Patricks of Texas homebrew store.
+They get their Briess Malt Extract in 15 Gallon Blue plastic barrels.
+They will sell them for $2 each.  Shipping is more expensive than the 
+barrels.  They are great!!  ABout $12 to get 4 shipped from Texas to
+Colorado.   Also, your local supermarket buys bulk OJ and Milk.
+They usually get the bulk liquids in 55 gallon plastic drums _OR_
+they will buy sanitizer to clean out their packaging equipment between
+runs.  The sanitizer comes in 55 Gallon drums.  Also check a local
+feed & supply store.  I bought 6 each 55 gallons drums for $4 each.
+They had sanitizer in them used to clean the lines between runs of
+OJ and Milk.  Should be just fine after rinsing. Look around, save some
+money.  Also, the Beer Store in Boulder,CO (U-Brew-it) uses the 15 gallon
+drums with the plastic food-grade liner and a stopper as well.  The
+liners are available through U.S.Plastics or COnsolidated Plastics.
+
+
+KJ
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 14:45 EST
+From: eric fouch <S=eric_fouch%S=fouch%G=eric%DDA=ID=STC021+pefouch%Steelcase-Inc`at`mcimail.com>
+Subject: Late Response- perhaps one more(
+
+
+Date: Thursday, 23 January 1997 1:16pm ET
+To: STC012.HOMEBRE1`at`STC010.SNADS
+From: Eric.Fouch`at`STC001
+Subject: Late Response- perhaps one more(Efouch)
+In-Reply-To: The letter of Thursday, 23 January 1997 10:59am ET
+ 
+HBD-
+ 
+Sorry if my post ever shows up regarding B Bakers questions about yeast and
+aeration.  It should have showed up by now, and the subject has been answered
+fairly thoroughly already.  I really thought I'd be the first :(
+ 
+Al-
+ 
+Calcium Oxalate is soluble in dilute HCl or dilute HNO3.  Don't mix the two
+acids, as you might make "aqua regia", which dissolves most any metal except
+silver (1 part nitric, 3 parts hydrochloric).
+ 
+J. Sturman-
+ 
+The correct pronounciation of gueuze (as I'm sure I'm not the first to point
+out) is "gerz".  I hope the homebrew is good or was worth it. :)
+ 
+C. Burns-
+ 
+I'm not worried about my brew(s), but, to recap a portion of my apparently
+lost post;
+}
+ Well, in short, you can't work backwards with mash enzymes.
+ 
+ The high initial heat will denature the beta amylase.  As the
+ temperature drops all that you will achieve is slowing down the
+ surviving alpha amylase.  You'll get conversion, but a highly
+}
+ 
+This *seems* to fly in the face of  information Al K. gave me about the
+neccesity of the mash out:  Paraphrasing, I proposed mashout may be overkill
+because perhaps alpha amylase activation temps denatured beta amylase, so in
+the cooling sparge collection kettle, niether enzyme would be working, as you
+are below alpha temps, and beta amylase had been denatured, which is what
+George just said.  Al assured me this don't happen (OK, he used better
+grammer), that both enzymes are denatured only at the mashout temperature.
+ 
+Who's right?  Who's wrong?  Do I still just don't get it?  I know MBINR,
+but I'm curious as to what the enzymes are up to.
+ 
+TIA for FAQ's
+ 
+Eric Fouch
+Curious in Kentwood.
+(Bent Dick Yactobrewery)
+
+
+----------------------------------------------------------------------
+
+
+End of Homebrew Digest V2 #43
+*****************************
+
+
+
+
+Return-Path: owner-homebrew`at`dionysus.aob.org
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id BAA26292 for <spencer`at`srvr5.engin.umich.edu>; Fri, 24 Jan 1997 01:44:49 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+          by srvr8.engin.umich.edu (8.8.4/8.8.4) with ESMTP
+          id BAA12921 for <spencer`at`engin.umich.edu>; Fri, 24 Jan 1997 01:44:48 -0500 (EST)
+Received: by redheat.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id BAA05007; Fri, 24 Jan 1997 01:44:46 -0500 (EST)
+Received: from dionysus.aob.org by redheat.rs.itd.umich.edu (8.7.5/2.2)
+        with ESMTP id BAA04995; Fri, 24 Jan 1997 01:44:42 -0500 (EST)
+Received: (from dionysus`at`localhost) by dionysus.aob.org (8.7.5/8.7.3) id NAA05367 for homebrew-digest-outgoing; Thu, 23 Jan 1997 13:22:04 -0700 (MST)
+Date: Thu, 23 Jan 1997 13:22:04 -0700 (MST)
+Message-Id: <199701232022.NAA05367`at`dionysus.aob.org>
+X-Authentication-Warning: dionysus.aob.org: dionysus set sender to owner-homebrew-digest`at`dionysus.aob.org using -f
+From: owner-homebrew-digest`at`dionysus.aob.org (Homebrew Digest)
+To: homebrew-digest`at`dionysus.aob.org
+Subject: Homebrew Digest V2 #43
+Reply-To: homebrew`at`dionysus.aob.org
+Sender: owner-homebrew-digest`at`dionysus.aob.org
+Errors-To: owner-homebrew-digest`at`dionysus.aob.org
+Precedence: bulk
+
+
+
+
+Homebrew Digest       Thursday, January 23 1997       Volume 02 : Number 043
+
+
+
+
+
+
+Procedures:
+
+
+To send a message to the digest, send it to <homebrew`at`aob.org>
+To subscribe to the digest, send a message to <majordomo`at`aob.org>
+   with the text "subscribe homebrew-digest" in the body.
+To unsubscribe from the digest, send a message to <majordomo`at`aob.org>
+   with the text "unsubscribe homebrew-digest <your email address>"
+   in the body.
+If you are having difficulty unsubscribing, send a message to
+   <majordomo`at`aob.org> with the text "who homebrew-digest" in the
+   body.  This will return a list of all subscribers.  Search this
+   list for your email address, and include it, exactly as it appears
+   (including any other text) in your unsubscribe message.
+If you are still having difficulty, send a message to <admin`at`softsolut.com>
+   with a description of your message, and we shall attempt to resolve
+   the problem.
+
+
+1        [No Subject Provided By Sender]
+2        Wort chiller design and Mash/Lauter Tuns (Todd Goodman <tsg`at`netlink.com>)
+3        Lactose Priming
+4        SO4/O2
+5        cleaning dip tubes
+6        Marris Otter Malt
+7        Wyeast 1338 update (George De Piro)
+8        Re: Heineken
+9        Fermenter Liners (Eric Peters)
+10        Oxygen and Starters
+11        Hop tea
+12        Re: Wort chiller design
+13        Re: Homebrew Digest V2 #42
+14        Plastic
+15        Re: Aeration/kraeusening 
+16        CO2 capacity again
+17        Questions from a beginner
+18        RE: Reverse step infusion mash  (George De Piro)
+19        What dissolves beerstone?  (George De Piro)
+20        Carbonation computation
+21        mead & Bass ale bottles
+22        green bottles - why?
+23        More thoughts on carbonation computation
+24        War of the Worts results
+25        Wort Chillers and Taste
+26        SG after boil
+27        Calcium oxalate
+28        Forced carbonation (John Wilkinson)
+29        Re: Homebrew Digest V2 #42
+30        Large Fermentation Barrels 8-}
+31        Late Response- perhaps one more(
+
+
+----------------------------------------------------------------------
+
+
+Date: 
+From: 
+Subject: [No Subject Provided By Sender]
+
+
+All postings to the HBD should go to <homebrew`at`brew.oeonline.com>
+All administrative mail should go to <homebrew-request`at`brew.oeonline.com>
+
+
+Any mail posted to aob.org for the HBD will be forwarded to those
+addresses.
+
+
+>From this point forward I am no longer going to be supporting the HBD, so
+please send all of your mail to homebrew-request`at`brew.oeonline.com.
+
+
+This will be the last digest mailed out from this location.  I thank all
+of you for your support, your time, and your understanding.  It has been a
+pleasure to work with such a diverse crowd, and I hope that your futures
+all find you well.
+
+
+Adrian Goins <admin`at`softsolut.com>
+System Administrator - Internaut
+100% Software Solutions, Inc.                   303-689-0100 voice
+http://www.softsolut.com                        303-891-4507 pager
+
+
+**Please use the PGP key available from "finger admin`at`softsolut.com"**
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 07:38:53 -0500
+From: tsg`at`eng1.netlink.com
+Subject: Wort chiller design and Mash/Lauter Tuns (Todd Goodman <tsg`at`netlink.com>)
+
+
+Fred Klassen <fredk`at`ibm.net> wrote:
+>I have had a few comments on my immersion chiller, so I thought I
+>would pass this along.  I did not waist time building connectors for
+>attachment to the ends of my 1/2" copper coil.  Rather, I insert  the
+>copper directly into my in and out 1/2" garden hoses and use hose
+>clamps to fasten.  The chiller took 15 minutes to make, and never leaks.
+>
+>Does anyone else do this?
+>
+>Fred Klassen
+>Vancouver, BC
+
+
+Sure, I do exactly the same thing and have never experienced a leak either.
+I have 1/2" tubing as well.  It took me more like 1/2 hour to build (I didn't
+have a tubing bender and had to be careful not to kink the tubing).
+
+
+To take up the thread about mashing in your lauter tun (or vice versa) could
+those of you with more experience (or textbook references) explain what the
+negatives might be to this practice?  I could certainly understand why certain
+lauter tun/mash tun designs might not work well for both, but are there
+quality reasons why it would be undesirable?
+
+
+Thanks,
+
+
+Todd
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 07:28:41 -0600
+From: Raymond Louvier <r099g`at`waii.com>
+Subject: Lactose Priming
+
+
+I have a question I hope someone can help me out with. I have a great Dry 
+stout in the secondary. I tasted it last night and it was beatifully dry. But, 
+I would like to add a small amount of sweetness to it. Starting OG was 1.060 
+and last night going to secondary it was at 1.020 after 3.5days in the 
+primary. In about a week I am going to bottle and was thinking of using 
+lactose to prime with and give it a little sweetness. Does any one have any 
+idea how much lactose to use or even if it is a good idea. This is a 5 gallon 
+batch. Any help would be greatly appreciated.
+
+
+Thanks 
+Ray Louvier 
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 13:50:43 -0500
+From: "A. J. deLange" <ajdel`at`mindspring.com>
+Subject: SO4/O2
+
+
+Craig Agnor asked about adding gypsum to the priming solution to increase
+the hops bitterness of a beer made with low sulfate water. Try it and see
+but my feeling is that the necessary reactions take place in the boil and
+that, therefore, adding sulfate after the fact will have little effect.
+
+
+Alex Santic reported killing a yeast starter with too much oxygen. This is
+contrary to my experience: I heavily oxygenate starters all the time and
+have never had one die out. I have reported here before that I did an
+experiment in which a starter (Wyeast London) was maitained at about 30
+mg/L (equilibrium with pure O2 is about 40 mg/L) and monitored for 14
+hours. The yeast kept consuming the O2 and reproducing (.13E6/ml at the
+start of the experiment and 6.61E6 after 14 hours). What strain was it? Are
+we sure something else wasn't wrong?
+
+
+
+
+A. J. deLange
+- - Numquam in dubio, saepe in errore.
+Please Note New e-mail Address
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 08:16:28 -0600
+From: Robert DeNeefe <rdeneefe`at`compassnet.com>
+Subject: cleaning dip tubes
+
+
+I got 3 corny kegs for Christmas and I'm just getting around to
+cleaning them out and replacing the o-rings.  I was debating rather to
+just scrub the insides or take them apart, but when I opened them up
+and smelled them, I decided that it would be best to totally
+disassemble and do a thorough job.  I soaked the connectors in hot
+water and they have come very clean.  Tonight I'll work on the lids and
+canisters.  One problem remains: How in the world do I clean the inside
+of the dip tubes?  Do they make pipe cleaners that long?  The tubes
+smell of soda, and I really don't want my next batch to be Barq's
+Rootbeer Ale. 
+
+
+ Robert
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 09:19:16 +0000
+From: "Nathan L. Kanous II" <nkanous`at`tir.com>
+Subject: Marris Otter Malt
+
+
+To the collective:
+
+
+I am curious with the recent postings about the Marris Otter malt.  Is 
+there a difference between Marris Otter Pale Malt and Marris Otter Crisp 
+Malt?  Could this have an impact upon the discordant reports?
+
+
+Nathan
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 08:06:08 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: Wyeast 1338 update (George De Piro)
+
+
+     Hi all,
+     
+     Just a quick update for those of you who are following my escapades 
+     with Wyeast 1338 (European ale).  The fermentation was going great for 
+     the first few days at ~57F (13.9C), but then we got a severe cold snap 
+     here in NY, and the temp dropped down to the high 40's (~8.8C).
+     
+     The yeast slowed to the point of being practically stopped  (SG = 
+     1.030, only a 23 point drop).  Oops!
+     
+     Interestingly, the Kraeusen never fell, though.  I've warmed the 
+     fermenters to 65F (18.3C) over a couple of days, and they seem active 
+     again.
+     
+     On the positive side, the young beer didn't smell estery...
+     --------------------------
+     Oh, yes, Mark's comments about the usefulness of decoction mashing for 
+     increasing wort fermentability were right on.  The increased control 
+     that the brewer has over the amylases is one of the major reasons to 
+     bother with decoction mashing.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 09:58:49 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Heineken
+
+
+In Homebrew Digest V2 #41 Alan Rodgers <alanr`at`greyware.com> asks:
+
+
+>I can't remember ever getting that particular flavor out of
+>brown-bottled beer. Why do they use green glass for beer bottles,
+>anyway?
+
+
+As I have heard it, after WWII, Heineken was gearing up to export beer
+again, but because of shortages, they couldn't get brown bottles for
+export, only green.  The brown had to be kept at home for reuse.  (Of
+course, beer bottles had been made of brown glass for decades since it was
+easily discovered empirically that it greatly reduced skunking.)  So
+Americans, especially returning GIs, who were thirsty for European beer,
+got the first post-war import, Heineken, in green glass.  After that, green
+bottles acquired a cachet from association with a quality, premium import,
+so other importers found that they did better marketing-wise with green.
+
+
+As an example of how disgustingly far this has gone, when the Frankenmuth
+Brewery (Michigan) opened about ten years ago, they bottled their
+supposedly German style pilsner in green glass.  Lots of other breweries do
+this as well, again showing that the bottle and its label seem more
+important than what's inside it.  Of course, Frankenmuth skunked, but you'd
+be amazed how many people associate that flavor/aroma with "import" taste.
+I guess that's because skunked Heineken has more character than unskunked
+Budmilloors.
+
+
+- -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 10:12:20 EST
+From: Eric Peters <epeters`at`rtp.semi.harris.com>
+Subject: Fermenter Liners (Eric Peters)
+
+
+From: Greg Moore - <gmoore`at`wacko.East.Sun.COM>
+>A local "Brew-On-Premisses" business uses big plastic drums.  Since the
+>batches are 13.5 gallons, I'd estimate that the drums have about 20 Gal
+>capacity.  They used a plastic bag insert in the drum.   The plastic is
+>clear, not white or black like a garbage bag.  I don't know if this was
+>something they have custom made or what.  The plastic bag was brought
+>out the hole in the top and a rubber stoppered airlock placed in the
+>hole for fermentation.
+>
+>Since the wort never directly touched the plastic drum, there was no
+>need to sterilize the drum itself.
+
+
+U. S. Plastics sells a 55 gallon, FDA approved drum liner for ~$4.
+(Catalog at home.)  Grainger sells the following USDA and FDA
+approved polyethylene can liners.  Doesn't say high or low poly,
+called "Super-Flex".  (Funny, that's what I like to call myself.)
+
+
+Page 1779 of catalog 387:
+
+
+Capacity    Size       Liners    Roll     Case     Stock
+(Gallons)   W x L     Per Roll   Each  Rolls/Each   No.
+   7       21.5x22"     100     $5.55   10/$5.19   3u753
+ 11-13     23.5x29"      50      4.02   10/3.73    3u754/5
+  33        35x39"       25      4.47   10/3.92    3u758
+  55        36x60"       20     11.88    0/9.42    3u764
+
+
+I have NO experience with these products or fermentation in plastics.
+Just passing along info.  If it saves a little time on brew day,
+could be worth the expense.
+
+
+Eric in Durham,  (A.K.A."Super-Flex")
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:10:00 -0500
+From: "Little, Wayne" <LittleW`at`od31.nidr.nih.gov>
+Subject: Oxygen and Starters
+
+
+I know this is a well-worn topic, but is it really necessary to pump air or 
+oxygen into wort prior to inoculating with yeast. Yeast are not obligate 
+aerobes - they do ferment sugars.  It would seem like growth would be 
+limited only by the availability of fermentables, the accumulation alcohol, 
+and proper temperature.  I know it+s risky to make generalizations, but 
+from a microbiological standpoint, it is the strict anaerobes that are the 
+difficult organisms to grow.  In preparing culture media, one has to go to 
+great pains to keep oxygen out of the system.  Unless you cool the liquid 
+media down in an oxygen-free chamber, oxygen readily permeates the liquid. 
+ I would imagine pouring cool wort into a fermentation vessel would 
+introduce sufficient oxygen to grow yeast.  The ppm might not be optimal to 
+produce the absolute most rapid beginning of fermentation, but is this 
+really necessary?  Coupled with what sound like unduly large volumes of 
+ starter, can this not lead to an overly rapid and explosive fermentation 
+that might not produce the best tasting beer?    I realize the need of a 
+reasonably rapid start to discourage possible contaminants, but how rapid 
+does it have to be and how large the starter volume?  Again, from my old 
+micro days (working with bacteria, not yeast), the general rule of thumb 
+was to inoculate with a log phase culture that was about 1% of the total 
+volume.  Any more would risk transferring too many dead cells and waste 
+products.  For 5 gal of wort., a 1% starter would be about a half pint. I 
+will admit I was used to working with liter volumes or less, so when 
+upscaling the rules might change.
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:16:47 -0500
+From: "Ed J. Basgall" <edb`at`chem.psu.edu>
+Subject: Hop tea
+
+
+Regarding the use of Hop Tea for post-frermentation bittering.
+
+
+Our brewclub recently toured a microbrewery which does just that.
+The proprietor recommended using one of the infusion-press type
+coffee makers to brew the hop tea and separate out the liquid from the 
+solid.  He steeps at just below boiling for a couple of hours in his 
+commercial kettle-strainer.
+
+
+cheers
+
+
+Ed Basgall
+SCUM
+State College Underground Maltsters
+State College, PA
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:26:12 -0500 (EST)
+From: Larry M Matthews <lmatt`at`ipass.net>
+Subject: Re: Wort chiller design
+
+
+Good Morning,
+   I've noticed lots of folks have/are trying to bend copper without a
+tubing bender. Don't bother with going to the hardware store for a bender.
+Simply find an item that you can use as a form and bend the roll of copper
+tubing slowly around the form. I had a 10" tree in my back yard that I had
+cut down at a height of 4' several years ago and I just wrapped the tubing
+around the tree stump that was left. It worked great because the base of
+the chiller was approx 10" in diameter and it decreased very slowly as I
+wound it around the tree so that the top rung was about 8". This added
+great stability to the chiller both in the keg while cooling as well as
+storing it on a top shelf. Don't go cut down a tree but you could use a
+corney keg (gives about a 13" coil), or even the leg of your SO, just don't
+tell them until you're through what it is for. It's easy!
+
+
+
+
+At 07:38 AM 1/23/97 -0500, tsg`at`eng1.netlink.com wrote:
+>Todd Goodman wrote:
+
+
+>I have 1/2" tubing as well.  It took me more like 1/2 hour to build (I didn't
+>have a tubing bender and had to be careful not to kink the tubing).
+>
+>
+>
+>Todd
+>
+
+
+
+
+                                        Larry M Matthews
+                                        Carboy/Trub Member
+                                        Raleigh, NC 27606
+                                        lmatt`at`ipass.net
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 09:26:39 -0600 (CST)
+From: Craig Amundsen <amundsen`at`biosci.cbs.umn.edu>
+Subject: Re: Homebrew Digest V2 #42
+
+
+Hi -
+
+
+Maribeth Raines wrote to Dave B:
+>>"I read somewhere (don't remember where) that O2 also induces the maltose
+>>transporter system.  This may in fact explain how a small amount of O2 may
+>>have such a large outcome on fermentation.
+
+
+Dave B writes:
+> Oxygen has to be in some kind of catalyst role or be affecting or forming
+> enzymes and not the oft repeated (even by me) role of building cell walls*.
+
+
+<SNIP>
+
+
+Just a nit, but catalysts aren't consumed by the reactions in which they
+participate. Oxygen is most definitely consumed by the yeast. Whether the
+oxygen induces gene expression by the yeast is a separate issue.
+
+
+I've got three WAGs (Wild Ass Guesses (should this be added to the acronym
+list?)):
+
+
+1) If oxygen does indeed induce the maltose transporter system, then all 
+   the yeast in the population max out their ability to take maltose into
+   the cell and ferment it. This is a good thing, as any cell division that
+   takes place after the oxygen is added will halve the number of transporters
+   on the surface of the each cell.
+
+
+   Also any protein made by an organism has a certain half-life. They get
+   degraded and the component amino acids are used to make new proteins. So
+   over time a cell, assuming no new synthesis of maltose transporters, will
+   begin to lose the ability of move maltose into the cell. Chances are,
+   though, that maltose itself is also an inducer of its transporter. But
+   now we come back to the oxygen. If at the beginning of fermentation the
+   yeast cells don't have many transporters, then how does the maltose get
+   into the cell and then induce the production of its own transporter? Becuase
+   oxygen induces it.
+
+
+2) The cell wall component that is the end product of of the pathway oxygen
+   is used up in is a limiting factor in cell division. A yeast cell must have
+   a certain amount of this component in order to be able to divide. In an
+   un-oxygenated batch, the cells don't get to divide at all because if they
+   had enough of the cell wall component (CWC), they would have already done
+   so. In an oxygenated batch, all the cells divide until they reach the
+   end of their CWC supply. Actually, an individual yeast cell can only bud
+   around 8 (I think that's the right number) times. Each division leaves a
+   scar on the surface of the mother cell. When the cell surface is completely
+   scar covered division ceases. 
+   
+   a) We've got a bunch of young yeast and fermentation is best done by young
+      cells. OR
+   b) We've got a bunch of old yeast that aren't going to divide but have a
+      whole bunch of maltose transporters due to WAG #1 and fermentation is
+      best done by old yeast with no cell division distractions.
+
+
+   In either case oxygenation improves the picture of the yeast population
+   with respect to the un-oxygenated yeast.
+
+
+3) This is an extension of WAG #2a. Since an individual yeast cell can only
+   divide a few times before it can no longer do so, we can talk about the
+   age of each cell. This is different from bacteria or fission yeast since
+   each daughter cell is identical and we can't tell which one was the 
+   original cell. So, this geriatric yeast cell is floating around doing the
+   best it can to ferment the wort. But since it isn't dividing it isn't 
+   getting its DNA copied anymore and the genetic damage coming about due
+   to its being around for a long time is beginning to accumulate. Eventually
+   it takes some a ray hit that knocks out some fermentation specific gene.
+   Since fermentation is the energy source for the cell, it dies and
+   we get no more alcohol from this cell. Before then, the damage may be
+   knocking out other pathways and allowing the accumulation of metabolic
+   intermediates that lead to the "fruity" flavors people get in under
+   oxygenated batches. So if there are no young yeast around to carry the
+   burden for the old yeast, you get a suboptimal fermentation.
+
+
+There, that's enough speculation for now.
+- - Craig
+- -- 
++-----------------------------+------------------------------------------------+
+| Craig Amundsen              | DILBERT - Sometimes I wonder if it's ethical   |
+| amundsen`at`biosci.cbs.umn.edu |           to do these genetic experiments. But |
+|                             |           I rationalize it because it will     |
+| 250 Biological Sciences     |           improve the quality of life.         |
+| 1445 Gortner Avenue         | DOGBERT - What are you making?                 |
+| Saint Paul, MN 55108        | DILBERT - Skunkopotamus.                    O- |
++-----------------------------+------------------------------------------------+
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 08:16:15 -0800
+From: bmurrey`at`BellInd.com
+Subject: Plastic
+
+
+Hi there,
+
+
+I'm not brand new to home brewing but I've been away from it for about
+20 years. I'm teaching my sons about fermentation and all the science
+that I can muster as it relates to the fermentation process. (They're 17
+and 14)
+
+
+At work we use these 6 gallon food safe plastic water jugs in our water
+coolers. I don't see any reason why I couldn't use these as a Primary
+Fermenter, but would it cause any harm if I used them for the Secondary
+Fermenter as well?  These jugs are tinted light blue, will this have any
+adverse  effect on my brew?
+
+
+Also the lady at the HB supply store was telling me that Aussies have
+been using 2 litre plastic bottles to bottle their brew. Has anyone
+tried this and what kind of results did you have?
+
+
+I'm going to get one of those mini-keg (1.3 gallon) systems soon so I
+won't have to worry about bottles much.
+
+
+Thanks
+
+
+Brian Murrey
+IS Coordinator
+Computer Division - Bell Industries
+(317)634-8202 X3150
+bmurrey`at`bellind.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:46:18 -0500 (EST)
+From: AJN <neitzkea`at`frc.com>
+Subject: Re: Aeration/kraeusening 
+
+
+On Thu, 23 Jan 1997, Gavin Scarman wrote:
+
+
+> Oh, well can I get you to brew me a hefe-weizen then as I can't seem 
+> to get the "clovey" characters I'm after? ;) (been using Yeast Labs
+> w51, about to try weihenstephen from Wyeast).
+> 
+
+
+If my memory serves me right, that is the yeast I used in wheat beer.  It 
+had a very nice "clovey" characters.  It did stay in the primary for 4 
+weeks though.
+
+
+Every one that tried one, like it, and always went back for more.
+
+
+_________________________________________________________________________
+Arnold J. Neitzke                         Internet Mail: neitzkea`at`frc.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:48:33 -0500
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: CO2 capacity again
+
+
+Sheesh!  Some day I'll learn not to calculate "from the hip".
+
+
+A more careful calculation reveals that both my previous calculations
+were off by a factor of 2 (one high, one low).  
+
+
+To reiterate:
+
+
+CO2 weighs 44 g per mole.
+A mole of CO2 at STP is about 22 liters.
+Thus, CO2 weighs about 2g/liter (at STP).
+Thus, 2 volumes of carbonation consumes 4g/liter of CO2.
+Pushing a liter of beer out at 14PSIG takes another 2 liters-at-STP of
+CO2 (4g).  
+Thus, each liter of beer requires 8g of CO2 to carbonate and push.
+A 5lb tank holds 2265 grams of CO2.
+2265g / 8g/l = 283 liters of beer carbonated and pushed.
+283l / 3.8gal/l = 74 gallons of beer or 14-15 5 gallon batches.
+
+
+=S
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:52:07 -0600
+From: David Burki <davidb`at`pdainc.com>
+Subject: Questions from a beginner
+
+
+Having only 2 batches under my belt, I need some advice.
+
+
+Once bottled and conditioned for a couple weeks, where is the best place =
+to store my beer.  Do I leave them in the ~70 deg. house, put them in =
+the ~62 deg. basement or store them in the fridge?  I don't imagine =
+they'll need storing for more than 4 - 6 weeks after the initial 2 week =
+conditioning/carbonation period.
+
+
+Since I am a recovering MillerBudCoors drinker, I have _very_ limited =
+experience with various styles and different brewers offerings within =
+styles.  I'm trying to expand my horizons and recently tried a Fosters =
+Special Bitter.  Came in a BIG can (25.5 oz.).  I enjoyed it and =
+wondered if this particular brew was representative of the bitter style. =
+ I have also recently discovered a red lager from Linenkugels (sp?), =
+located in Wisconsin I think.  To which style would this kind of beer =
+belong?  Anyone familiar with this beer that has a recipe to clone it?
+
+
+Private email OK. TIA
+
+
+David
+davidb`at`pdainc.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:53:32 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: RE: Reverse step infusion mash  (George De Piro)
+
+
+     Hi all,
+     
+     Charles Burns writes the following in reference to my statement about 
+     "reverse step infusion mashing" (I said that it will denature the beta 
+     amylase and yield a dextrinous wort):
+     --------
+     "And he's right, technically. However, I've got a recipe that does 
+     exactly this and won a 2nd Place in California State Fair last summer. 
+     Go for it Eric!"
+     --------
+     Well, Eric should go for it, if he wants a dextrinous wort!  The fact 
+     that you made a nice beer with this technique is not surprising. Just 
+     don't get confused about the reason the beer was good.
+     
+     You would get a similar result, with faster conversion, by insulating 
+     your mash tun so that it can hold a steady temperature.  This would 
+     also make it easier to brew consistent batches.  Allowing the 
+     temperature to drop over the course of your saccharafication rest is 
+     not what made the beer good.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:03:57 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: What dissolves beerstone?  (George De Piro)
+
+
+     
+
+
+     Howdy,
+     
+     Calcium oxalate, a.k.a. "beerstone", is soluble in dilute hydrochloric 
+     acid or nitric acid (Merck index 12).
+     
+     It is practically insoluble in acetic acid (vinegar) and water 
+     (obviously).
+     
+     If you want to be environmentally friendly, you should neutralize the 
+     acid with baking soda before dumping it down the drain.  There will be 
+     much foaming (CO2 evolution) when you add the baking soda to the acid, 
+     so wear eye protection and add it slowly to avoid a violent (but 
+     really cool) eruption.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:44:12 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Carbonation computation
+
+
+In the last few HBDs, Spencer and others have been diswcussing the amount
+of CO2 needed to carbonate (and push out) beer at certain volumes of CO2,
+with confused (confusing) results.  He has recorrected his results.
+
+
+This points out once again why I think it makes more sense to talk about
+carbonation in terms of CO2 content as per cent by weight as the Germans do
+(g CO2/100 g beer, according to Eric Warner, _German Wheat Beer_).  This
+eliminates the problem of calculating how much sugar to add to prime,
+remembering weight of a mole of CO2,  flipping fractions, etc.  If we as
+homebrewers would forget about volumes of CO2 (a rather arbitrary unit) and
+go with g CO2/100 g beer, and start specifying CO2 content that way in our
+articles, books, posts, home pages, etc., it seems to me that it would be
+much simpler.  If Spencer has trouble with the arithmatic, think about the
+vast majority of us.
+
+
+Warner says (p.48) that the average wheat beer analysed contains
+0.64g/100g, or 3.30 volumes.  This means that 1 volume equals 0.19 g/100g.
+As I recall, a typical Pilsner has 0.5 g CO2/100 g. beer, which is also
+about 2.5 volumes.  This means that if we wanted to prime to this content,
+we'd add about 1 g. sugar/100 g beer, since sugar pretty nearly produces
+half each CO2 and ethanol.  This also easily answers the often asked
+question of "how much alcohol does my priming sugar add?"  About 1/2% in
+this case.  Computation of the amount of CO2 needed to artificially
+carbonate 5 gallons is equally straight forward (assuming 1 liter of beer
+weighs 1 kg, close enough):
+
+
+0.5 g CO2/100g beer X 18900g beer/5 gallons beer = 94.5g CO2/5 gallons beer
+
+
+This ignores the amount of CO2 needed to push the beer out of the keg,
+since that is the same regardless of whether we prime or artificially
+carbonate.
+
+
+Since few of us meter the volume of CO2 we put in our beer, it seems that
+to we must always (derive volumes CO2) from some other measurement, such as
+amount of priming sugar or pressure tables, with the opportunity for
+errors.  To continue using this artificial, archaic unit makes little
+sense.  Why not convert the craft's standard carbonation unit to per cent
+dissolved CO2?  We just need tables giving % dissolved CO2 for each style.
+The Germans have adopted this for good reason.
+
+
+- -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:45:06 -0600
+From: lheavner`at`tcmail.frco.com
+Subject: mead & Bass ale bottles
+
+
+     Thanks to everybody who responded to my query on mead making.  I am 
+     trying to get my friend with the honey to pick a few recipes and then 
+     we're off....  To the responder in MASS who is coveting that honey, 
+     I'll be in touch later...
+     
+     I also recently posted a problem with carbonation on a lagered 
+     rauschbier.  I've discovered the problem and am no longer worried.  I 
+     recently bought a case of Bass Ale and saved the bottles.  Some of the 
+     beer was bottled in some of them including the first few samples I 
+     tried.  Evidently, I didn't get a good seal on those bottles.  All of 
+     my other bottles were well carbonated and none of the bass bottles had 
+     more than a barely detectable fizz.  Has anybody else experienced a 
+     problem with capping Bass bottles?
+     
+     Regards,
+     
+     Lou
+     <lheavner`at`frmail.frco.com>
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:52 -0600
+From: BAYEROSPACE <M257876`at`sl1001.mdc.com>
+Subject: green bottles - why?
+
+
+collective homebrew conscience:
+
+
+> Why do they use green glass for beer bottles, =
+>anyway?
+
+
+i would imagine that part of the reason is marketing.  in order to separate
+himself from the masses, who quaff domestic brown bottled product (not skunked)
+, a yupster will pay an extra $1.00 a bottle and receive a green bottle of 
+skunky, old, stale beer.  this obviously distinguishes him as a man of great 
+taste and sophistication, and can be detected visually by the color of the 
+bottle from across the bar, by young, intelligent women seeking just such a 
+man of the world. 
+
+
+heineken and the others simply take advantage of this behavior (at the expense
+of the beer, and the consumer, of course).  they *know* the effects of 
+light on beer, but as long as joe q. style is willing to buy it, they'll 
+gladly keep shipping it over here.
+
+
+i wonder, does heineken use green glass for their domestically sold beer?
+
+
+
+
+dennis wrote:
+
+
+> And will the "double decotion, no sparge" make a beer
+>too malty?  It is for a dark lager, and we are using the Wyeast
+>Bavarian Lager yeast.
+
+
+bavarian?  dark lager?  too malty??????????  i wouldn't worry about making
+a bavarian dark lager too malty.  make it as malty as you can possibly 
+make it.  you're on the right track.
+
+
+brew hard,
+
+
+mark bayer
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:57:16 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: More thoughts on carbonation computation
+
+
+We have all been ignoring the dissolved CO2 in the beer before
+priming/carbonating, which will, of course, affect the amount of CO2 or
+sugar needed.  There are tables that give this, but they are in volumes
+CO2.  These, of course, were converted from % dissolved CO2 at some point.
+If we followed my proposal, we would need these as % dissolved CO2.
+
+
+- -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 10:04:49 -0800
+From: Alan Folsom <folsom`at`ix.netcom.com>
+Subject: War of the Worts results
+
+
+Several people have called and/or emailed to ask if I had full results 
+from the War of the Worts competition available.  Yes, but it is quite 
+long, nearly as large as a single HBD.  If anyone would like a copy, 
+send email and I will reply with it.
+
+
+Score sheets should be out within a week or so.  I've started stuffing 
+envelopes, but with nearly 700 scoresheets it will take a few days.
+
+
+Again, thanks for all the support from brewers and judges.
+
+
+Al Folsom
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 11:22:59 MST
+From: Peter Ruddy  <ruddyp`at`mercury.stm.com>
+Subject: Wort Chillers and Taste
+
+
+Fellow Brewers,
+
+
+I've been an extract brewer for a few years and I'm getting ready
+to evolve to all-grain brewing.  Is there any truth to the following
+statement?:
+
+
+    If one doesn't use a wort-chiller with an all-grain batch
+    the final product will have an odd flavor.
+
+
+Thanks in advance for your help.
+
+
+
+
+- -Pete    
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:28:44 -0600
+From: Gary Eckhardt <gary_eckhardt`at`realworld.com>
+Subject: SG after boil
+
+
+Lo all!
+
+
+I brewed a batch this weekend (my second all-grain) and the process
+went well.  I checked my OG, and it was in the 1.040 range, not bad
+for what I was mashing.  I was expecting somewhere in the range of
+1.052, but I sparaged about 7 gallons of wort to help solve my
+problem of short batches.  I'm assuming that this explains my SG
+reading being a little low.  
+
+
+However, I proceeded with the boil, and although I didn't check,
+I'm sure that I got at least 5-5 1/2 gallons of wort after it
+was all boiled down due to evaporation.  Unfortunately, I didn't
+check my SG after the boil.  
+
+
+What could I have expected my SG to be if I lost 1.5 gallons of
+water in the boil?  Is there a quick-n-dirty formula anywhere for
+this?
+
+
+Thanks for any info.
+
+
+
+
+
+
+- ---------------------------+----------------------------------------------
+Gary Eckhardt              |   "in this day & age...music performed by
+Database Consultants, Inc. |    humans...hum!?"  --wilde silas tomkyn
+dcigary`at`txdirect.net       |                R,DW,HAHB!
+gary_eckhardt`at`realworld.com| R^3 = "Real World.  Real Smart.  Real Quick."
+(210)344-6566              |         http://www.realworld.com/
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 13:49:48 -0500
+From: "Ed J. Basgall" <edb`at`chem.psu.edu>
+Subject: Calcium oxalate
+
+
+Al.
+
+
+According to the Merck Index 12th edit.  Calcium oxalate is
+insoluble in water and acetic acid, and soluble in dilute
+hydrochloric and nitric acids.
+
+
+cheers
+Ed Basgall
+SCUNM
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 13:03:58 CST
+From: John Wilkinson <jwilkins`at`imtn.tpd.dsccc.com>
+Subject: Forced carbonation (John Wilkinson)
+
+
+In the discussion of the merits of primed as opposed to forced carbonation,
+I think someone mentioned the time it takes to force carbonate.  I do not
+spend much time force carbonating my beer and I get good results.  I chill
+the keg to ~40-45 F, attach the CO2 line, apply 15-20 psi, place the keg on
+its side with the gas fitting up, and rock the keg back and forth for a couple
+of minutes.  I then return the keg to the serving refrigerator and connect to
+serving and CO2 lines.  I usually let it set for a few hours to let it settle
+before serving from it.  It usually is better after a couple of days because
+it has clarified after the agitation of carbonating and the carbonation seems
+better.  My time spent actually carbonating is minimal and the wait for
+properly settled and carbonated beer is only a couple of days.  I think this
+is a lot better than I could expect from priming.
+I have tried carbonating at higher pressures without much agitaion but tended
+to get overcarbonated beer.  The 15-20 psi method gives better results for me.
+I serve at ~8 psi.
+- ---------------------------------------------------------------------------------
+Dennis Waltman inquired about a good digital thermometer.  Someone posted a
+while back that one was available from Williams Sonoma, a cooking utensils
+store that also does mail order.  In fact I think they are more into mail
+order than they are stores.  At any rate, I went to a store in Plano, Texas
+(near Dallas) and bought the thermometer for ~$15 I think.  I checked it
+against boiling water and an ice water solution in a thermos as well as
+against a fever thermometer and found it to agree within ~1 degree F.  I find
+it quite handy although I have had to replace the battery twice but I keep
+forgetting to turn it off.
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`imtn.dsccc.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 11:25:01 PST
+From: Joseph Kral <kral`at`hpljlk.hpl.hp.com>
+Subject: Re: Homebrew Digest V2 #42
+
+
+> 
+> Date: Wed, 22 Jan 1997 14:32:05 -0700
+> From: Jeff Sturman <brewshop`at`coffey.com>
+> Subject: pronunciation
+> 
+> We have some home brew riding on this one:  How do you pronounce Gueuze?
+> (blended lambic beer)
+> 
+
+
+Its 'gerz' sort of a growl with a 'z' at the end.
+(an american 'z' sound, not 'zed').
+
+
+- --
+Joseph Kral
+Hewlett-Packard Laboratories
+kral`at`hpljlk.hpl.hp.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 1997 12:38:41 -0700
+From: Ken Sullivan <kj`at`nts.gssc.com>
+Subject: Large Fermentation Barrels 8-}
+
+
+Contact St. Patricks of Texas homebrew store.
+They get their Briess Malt Extract in 15 Gallon Blue plastic barrels.
+They will sell them for $2 each.  Shipping is more expensive than the 
+barrels.  They are great!!  ABout $12 to get 4 shipped from Texas to
+Colorado.   Also, your local supermarket buys bulk OJ and Milk.
+They usually get the bulk liquids in 55 gallon plastic drums _OR_
+they will buy sanitizer to clean out their packaging equipment between
+runs.  The sanitizer comes in 55 Gallon drums.  Also check a local
+feed & supply store.  I bought 6 each 55 gallons drums for $4 each.
+They had sanitizer in them used to clean the lines between runs of
+OJ and Milk.  Should be just fine after rinsing. Look around, save some
+money.  Also, the Beer Store in Boulder,CO (U-Brew-it) uses the 15 gallon
+drums with the plastic food-grade liner and a stopper as well.  The
+liners are available through U.S.Plastics or COnsolidated Plastics.
+
+
+KJ
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 23 Jan 97 14:45 EST
+From: eric fouch <S=eric_fouch%S=fouch%G=eric%DDA=ID=STC021+pefouch%Steelcase-Inc`at`mcimail.com>
+Subject: Late Response- perhaps one more(
+
+
+Date: Thursday, 23 January 1997 1:16pm ET
+To: STC012.HOMEBRE1`at`STC010.SNADS
+From: Eric.Fouch`at`STC001
+Subject: Late Response- perhaps one more(Efouch)
+In-Reply-To: The letter of Thursday, 23 January 1997 10:59am ET
+ 
+HBD-
+ 
+Sorry if my post ever shows up regarding B Bakers questions about yeast and
+aeration.  It should have showed up by now, and the subject has been answered
+fairly thoroughly already.  I really thought I'd be the first :(
+ 
+Al-
+ 
+Calcium Oxalate is soluble in dilute HCl or dilute HNO3.  Don't mix the two
+acids, as you might make "aqua regia", which dissolves most any metal except
+silver (1 part nitric, 3 parts hydrochloric).
+ 
+J. Sturman-
+ 
+The correct pronounciation of gueuze (as I'm sure I'm not the first to point
+out) is "gerz".  I hope the homebrew is good or was worth it. :)
+ 
+C. Burns-
+ 
+I'm not worried about my brew(s), but, to recap a portion of my apparently
+lost post;
+}
+ Well, in short, you can't work backwards with mash enzymes.
+ 
+ The high initial heat will denature the beta amylase.  As the
+ temperature drops all that you will achieve is slowing down the
+ surviving alpha amylase.  You'll get conversion, but a highly
+}
+ 
+This *seems* to fly in the face of  information Al K. gave me about the
+neccesity of the mash out:  Paraphrasing, I proposed mashout may be overkill
+because perhaps alpha amylase activation temps denatured beta amylase, so in
+the cooling sparge collection kettle, niether enzyme would be working, as you
+are below alpha temps, and beta amylase had been denatured, which is what
+George just said.  Al assured me this don't happen (OK, he used better
+grammer), that both enzymes are denatured only at the mashout temperature.
+ 
+Who's right?  Who's wrong?  Do I still just don't get it?  I know MBINR,
+but I'm curious as to what the enzymes are up to.
+ 
+TIA for FAQ's
+ 
+Eric Fouch
+Curious in Kentwood.
+(Bent Dick Yactobrewery)
+
+
+----------------------------------------------------------------------
+
+
+End of Homebrew Digest V2 #43
+*****************************

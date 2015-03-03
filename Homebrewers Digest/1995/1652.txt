@@ -1,0 +1,1180 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Wed Feb  8 03:52:12 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["44892" "Wed" " 8" "February" "1995" "01:00:51" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "965" "Homebrew Digest #1652 (February 08, 1995)" "^From:" nil nil "2" nil nil nil nil]
+        nil)
+Received: by totalrecall.rs.itd.umich.edu (8.6.9/2.3)
+        with X.500 id DAA06984; Wed, 8 Feb 1995 03:52:08 -0500
+Received: from goodman.itn.med.umich.edu by totalrecall.rs.itd.umich.edu (8.6.9/2.3)
+        with SMTP id DAA06980; Wed, 8 Feb 1995 03:52:06 -0500
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA15121
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Wed, 8 Feb 95 03:52:01 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA13457; Wed, 8 Feb 1995 01:50:03 -0700
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA02090; Wed, 8 Feb 1995 01:00:51 -0700
+Message-Id: <9502080800.AA02090`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1652 (February 08, 1995)
+Date: Wed, 8 Feb 1995 01:00:51 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1652                             Wed 08 February 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  casking / chlorine&SS / vinyl hose (RONALD DWELLE)
+  Water Analysis (Jeff Stampes)
+  6 row confusion/TSP (usfmchql)
+  Cloudy Beer Problem (Ken Schroeder)
+  MATLAB ibu functions (John Glaser)
+  Re: Real Ale Conditioning (Tel +44 784 443167)
+  RE:Halogens vs Stainless Steel... (usfmchql)
+  Water bath mash tun (Jeremy Ballard Bergsman)
+  Re: Easy Mashers and Irish Moss/Rubber Removal (Doug Mewhort)
+  Hops Growers? (Blake Meyers)
+  Taste Test... (Bob Bessette)
+  sealing a Corny keg (Chris Lovelace)
+  Kegging questions (Elizabeth M Clouthier )
+  Lagglander dry malts and low S.G. (Mel Martinez) (by way of mem`at`pha.jhu.edu (Mel Martinez)) (by
+  Estimating IBUs (Algis R Korzonas +1 708 979 8583)
+  Keg Sanitation (Mark Roberson)
+  Re: Isinglass & other finings (Sean C. Cox)
+  Leaky Wort Chillers (berkun`at`decwet.enet.dec.com)
+  Brewsters who run- part 2 (kit.anderson)
+  Re: Loss of Carbonation with Mini-Keg (Chris Strickland)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 06 Feb 95 10:52:47 EST
+From: dweller`at`GVSU.EDU (RONALD DWELLE)
+Subject: casking / chlorine&SS / vinyl hose
+
+
+     Can I "cask condition" in the small soda-type kegs? I'd like to try 
+     kegging, but don't want to screw with the C02 tanks (I also think I 
+     like natural carbonation better). Is there a faq on cask-ing (as 
+     opposed to "kegging") somewhere? Refer me to a book? What's the reason 
+     to add CO2 in the first place? Why not let the yeasties do it?
+     
+     I think I have learned the evils of chlorine and SS tanks. My brewpot 
+     just developed a pin-hole leak and has all sorts of other "rusty" 
+     looking spots that may turn into pin-holes. Anyone know if I can 
+     repair this pin-hole easily, or should I trash the pot? Epoxy? Is 
+     Epoxy food-safe? (I usta sanitize with chlorine!)
+     
+     I too have had trouble with the vinyl hose when taking near-boil wort 
+     out of the kettle. The problem I usually have is that air starts 
+     leaking into the hose from the spot where the hose clamp tightens down 
+     on the vinyl. I just got some different kind of hose (from Handy Andy, 
+     a big home-improvement/lumber type store) which is a vinyl with some 
+     sort of red and blue re-inforcing molded into it. The salesperson said 
+     it was for hotter water (and he had been active in the hose business 
+     for at least 12 minutes). After one pot, I'd say it seems to be better 
+     than standard see-through vinyl. We'll see after a couple more boils. 
+     The hose wasn't that much more expensive (don't remember exactly, but 
+     it wasn't a big-ticket item).
+     
+     How do I get this Koch/Boston calendar?
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 09:01:55 MST
+From: jeff`at`neocad.com (Jeff Stampes)
+Subject: Water Analysis
+
+
+Jim Robinson muses in HBD#1649:
+
+
+>OK, so heres the catch.  Is it possible to come up with a program 
+>that the average Joe Brewer can "plug" in his local water numbers 
+>and come up with the proper adjustment to make a specific brew?
+
+
+Given the data, I would imagine this could even be done via a good
+spreadsheet program (ie Excel 5.0).  A region to plug in data, a few
+lookup tables and 'if' statements, and a close proximity to what you're
+lookinmg for could be achieved.  A real program could of course do it 
+better.
+
+
+I have not followed the water analysis and Chemistry thread, so I am 
+not qualified for this task.  However, I'm reasonably sure that given
+the proper data, it can be achieved.  Maybe for starters, our resident 
+chemistry/zymurgy experst could work together to compile a faq listing
+exactly what the appropriate water chemistry for various styles of beer
+would be?  Just a simple chart, nothing fancy y'know.  If that data was
+compiled somewhere, the ambitious among us could move on with a 
+"pocket Calculator" for water chemistry adjustments.
+
+
+Question:  I posted a while back that I had compiled the data from
+Zymurgy's article on calculating mash temps. into a spreadsheet to
+ease the mashing process.  I have used it for a few recipes and have had
+great success.  I e-mailed it to countless people, but never received
+any feedback on it.  If any of you have used it to calculate your
+infusions of hot H2O, let me know how it turned out.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 06 Feb 1995 11:44:37 EST
+From: usfmchql`at`ibmmail.com
+Subject: 6 row confusion/TSP                                              
+
+
+In HBD #1650...
+
+
+ -=> TomF775202 comments on using a percentage of 6 row barley to aid in stuck
+    lautering with oatmeal...
+
+
+I can understand how the grain size differences may aid in preventing the oats
+from settling so deep in the bed that they stick the sparge (due to the
+smaller-than-2-row inner kernels forming a more compact filter bed, I
+presume?). I am confused by his comment on reduced extraction, however. Being
+that six-row barley is enzymatically more powerful than two-row, wouldn't it
+follow that it would yield a higher rate of extraction? Am I missing
+something? (I am assuming the grind is adjusted for the smaller kernels.
+Perhaps this is the source of my confusion?) Any comments welcome...
+
+
+ -=> Robert W. Mech shares his method for washing bottles, specifically:
+  > Q: Do I have to use Chempro, TSP, etc?
+  > A: No, you can... ....You can use any "Clean Rinsing" sanitizing agent...
+
+
+I don't believe TSP is a sanitizing agent, as this implies. And, if Chempro is
+similar to TSP (I'm not familiar with it), it follows that it isn't either.
+All your sanitizing is being performed by your dishwasher's heat drying cycle
+per your procedure.
+
+
+"Grain, water, yeast...      ...Brew it! Don't chew it!"
+
+
+P.G. Babcock
+President, Chief Taste-Tester, and Consumer Numero Uno
+Drinkur Purdee pico (ie. micro-micro) Brewery
+(My apologies to John Keane, but nano isjust too close to nanny for my
+liking...)
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 09:16:45 PST
+From: kens`at`lan.nsc.com (Ken Schroeder)
+Subject: Cloudy Beer Problem
+
+
+For the past three or four months my beers have been coming out cloudy. Even
+several weeks of cold conditioning does not clear the beer. I have made
+some changes in my mashing proceedure, and I was wondering if the collective 
+wisdom could help shed light on my problem. The beer taste just fine and the
+"numbers" are exactly on target for my process. My changes are : 1. little or
+no protien rest (50C). 2. Dropped Lactic Acid water treatment. 3. 3 tbs of 
+gypsum (an increase of 1 tbs. ; 10 gal batches).
+
+
+A few more specifics. I get water from the Sierra Nevada (Hetch Hetchy water 
+system). The water has virtually nothing in it. My mash usually sits at about 
+5.4 or 5.3 pH during the mash and dropps to 4.8 to 5.0 during sparge. I have 
+used a couple of crushes (Carona and Malt Mill) without any change in the 
+cloudyness. I use a Great Western 2 row base for all of my beers. I use a 
+thick mash technique with a doe in at 40c (acid rest) for about 30 min 
+before I raise to 60C with a direct fire and boiling water infusion. I spend 
+less than 5 minutes at the 50c range. Saccrification temp varies with the 
+style but is always between 60C and 68C. I recirculate the wort as I raise 
+the mash to strike, allow the grain bed to set and start a long sparge (1 to 
+1.5 hrs.) once the wort runs clear (subjective term). 
+
+
+Short of using finnings or filtering, does anybody have any sujestions to 
+help "clear" my problem. Private email is great : kens`at`lan.nsc.com.
+
+
+TIA
+
+
+Ken Schroeder
+Sequoia Brewing  
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 11:03:57 -0700
+From: John Glaser <glaser`at`widlar.ece.arizona.edu>
+Subject: MATLAB ibu functions
+
+
+If you don't have or use MATLAB, ignore this post.
+
+
+I figured there may be a few scientist/engineer types here that use  
+MATLAB. If you are interested, I've written a few MATLAB functions  
+that compute utilization and IBUs. If anyone wants them, I'll be glad  
+to email them to you.
+
+
+They use the formulae given in Ed Hitchcock's post in HBD #1648, and  
+from the hops FAQ. They include help and syntax in MATLAB format, are  
+reasonably well commented, and can be easily modified if you don't  
+like the formulae used.
+
+
+Hope this helps someone,
+
+
+John Glaser (glaser`at`widlar.ece.arizona.edu)
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 14:52:10 +0000
+From: Brian Gowland <B.Gowland`at`rhbnc.ac.uk> (Tel +44 784 443167)
+Subject: Re: Real Ale Conditioning
+
+
+In HBD 1650, "Fleming, Kirk R., Capt" <FLEMINGKR`at`afmcfafb.fafb.af.mil>
+wrote:
+
+
+> Please excuse me for needing so much hand-holding--but let
+> me verify I understand.  Are you saying that a 3 week
+> secondary fermentation/conditioning in your pressure
+> vessels is sufficient to both clarify and carbonate to
+> your taste?  Is your 3 week minimum condxing period
+> at ~room temperature?
+
+
+        Yes to both parts. Firstly, my pressure barrels sit on a bench in my
+spare bedroom. Temperature varies in a natural way as we don't have any central
+heating. In winter, the room will be pretty cool at night (maybe 10 deg. C) and
+warmer by day (15 deg. C). In summer, the room will be warmish by night and
+quite warm during the day (20-25 deg. C). I don't interfere with the temp. nor
+worry about it - I can't say I've noticed any bad effects from brewing all year
+round and cask conditioning under these conditions. The daytime temp. in summer
+is probably a little high but a 5 Imp. gallon barrel of beer seems to have quite
+good thermal inertia and they don't get exposed to direct sunlight.
+
+
+        As far as the three week period is concerned, this seems to be quite
+ample for the beer to clear (some of my beers are pretty clear within a few days
+to a week of barrelling). This may be largely due to a couple of extra steps
+that I take during the primary fermentation as follows. Firstly I will state
+that these aren't my own ideas (credit where credit due) but come from my
+brewing text written by Graham Wheeler. After pitching my yeast, I normally
+expect to see a good working yeast head after 12-24 hours. At 48-72 hours, I
+"drop" the beer. Dropping is a traditional British method still practiced by
+some commercial breweries and simply involves transferring the fermenting wort
+into a clean fermenter WITH aeration. In transferring the wort, I leave the
+dirty yeast head and a great deal of trub behind. The re-aeration allows quick
+build up of a new, clean yeast head. Fermentation is allowed to continue until
+the beer is at, or very close to, final gravity. At this point I rack once more
+(this time WITHOUT aeration) and leave for another 24 hours before racking to
+the pressure barrel (again without aeration). The barrel is then sealed and left
+for the maturation period. The pre-barreling racking stage allows for a certain
+amount of further settling of yeast and other solids that otherwise would need
+to clear in the barrel. At this stage, the beer is often quite clear as it is
+going into the barrel hence the occasional total clearance within a few days or
+a week. I will hasten to add that I do not drink it just because it has cleared
+ - I take a small sample shortly after barreling and then after a week just for
+quality assurance - what a chore. :)
+
+
+        Although the beer may clear quite quickly, the minimum period of three
+weeks is as much for the maturation of flavour and developing of condition. The
+key issue here is that, as I understand it, common US practice is to allow the
+secondary fermentation to take place in a vessel with an airlock. This allows
+the CO2 produced in the conditioning period to escape to the atmosphere and
+means that if the beer was transferred to a pressure barrel or keg when
+secondary fermentation is completed that there is no further residual sugars to
+produce natural carbonation - hence the need for priming. By transferring to a
+sealed pressure barrel at or near to FG, then any CO2 produced over the three
+week period is trapped and gives CO2 pressure for dispensing and carbonation.
+British Ales are traditionally lightly carbonated so it is easy to achieve the
+level required this way - in saying that, however, one of my recipes will
+consistently produce sufficient CO2 during conditioning to produce a pint of
+foam if I open the tap too much and it can take several minutes to dispense a
+pint without it doing this - not something that is necessarily desirable but it
+illustrates the possibilities. One slight problem, however, is that as beer is
+dispensed and the volume of beer to headspace ratio gets smaller, it becomes
+difficult for the smaller volume of beer to produce sufficient CO2 to pressurise
+the headspace and to carbonate the beer itself. In many cases, by the time the
+last gallon or two is being dispensed, the carbonation can be very light and it
+is often necessary to allow a small amount of air into the barrel as the beer
+is dispensed. This is not normally a great problem as long as the last gallon
+is consumed fairly quickly. The brew I mentioned above though produces enough
+CO2 throughout to last virtually until the last few pints. I will add at this
+point that three weeks is Graham Wheelers minimum period for a medium strong
+ale - his (very rough) rule of thumb is take the OG, divide by two and to
+mature/condition for that number of days - e.g., OG 1040, 40/2 = 20 days (or
+near enough three weeks). Stronger ales should be matured/conditioned for 4,
+5 or 6 weeks according to OG.
+
+
+> BTW, when we used isinglass for the first and only time
+> I added it incrementally as we pumped our chilled wort
+> from the fermenter into the keg, then tried as best we
+> could to agitate without sloshing too much.  I noticed
+> absolutely no indication of clarification--the beer
+> is still fairly opaque (it's a brown ale) after three
+> weeks in the cooler, and is definitely not "bright".  I
+> have no point, I'm just relaying results and trolling
+> for comments.
+
+
+        Hmmm... there could be a number of issues that may have caused this
+problem. I have only ever used Isinglass for winemaking (don't bother any
+more) and know that it is very sensitive to temperature. Isinglass should
+always be kept cool and should be pretty viscous. If exposed to the heat,
+it will become very runny and its effect is reduced to the point that it
+will be useless. Assuming that the Isinglass is in good condition, the way
+that I have used it with wine is to put several teaspons of it into a jug
+and add some wine in stages, mixing thouroughly at each stage. The first
+stage involved adding 1 teaspon of wine to the Isinglass and blending until
+well mixed. Then a couple more teaspoons and then a couple of tablespoons
+etc. until a pint or more had been thoroughly mixed. This was then added
+to the wine and thoroughly mixed in. It worked, but frankly I get just as
+good results by leaving my wines to clear of their own accord and I don't
+have to worry about it. My main point is that most things will clear of their
+own accord if left for sufficient time - racking a few times helps. The only
+time that I'd bother with Isinglass would be if I intended to transport a
+large quantity and wanted it clear enough to drink shortly afterwards.
+
+
+        Apologies for the bandwidth on this message but it appears that cask
+conditioning seems to be of reasonable interest. Hope its of some interest
+and/or help.
+
+
+Cheers,
+        Brian Gowland
+
+
+
+
+------------------------------
+
+
+Date: Mon, 06 Feb 1995 12:34:22 EST
+From: usfmchql`at`ibmmail.com
+Subject: RE:Halogens vs Stainless Steel...                                
+
+
+*** Resending note of 02/01/95 13:21
+*** Resending note of 02/01/95 12:50
+* Man's mind, stretched by a new idea, never goes back to its *
+* original dimension.                 - Oliver Wendell Holmes *
+Subject: RE:Halogens vs Stainless Steel/Cu in my beer...
+
+
+ -=> In a previous (recent) HBD I said the following:
+
+
+  > Your point is valid regarding halogens; however, per my sources (and,
+  > again, I'm not an expert), chlorine is particularly reactive with
+  > stainless steel. I don't know exactly where Iodine falls on 'the scale',
+  > but it is my understanding that it is substantially less reactive than
+  > chlorine; and somewhat more reactive than bromine.
+
+
+I have done a little research of my own on this since. This research has
+yielded the following nuggets (From a college chemistry book):
+
+
+o All halogens react with metals to form halides (ites?- I'm away from the
+  book I found this information in. Not a chemist, so please excuse my
+  memory lapse).
+
+
+o Iodine is LESS reactive than bromine. Reactivity of hologens is inversely
+  proportional to their atomic size. Iodine is a larger atom than bromine.
+
+
+>From this information, I surmise that using iodine-based sanitizers may result
+in damage (the formation of hal-whatevers) over the lifetime of the stainless
+steel product. Due to the low reactivity of iodine in the formation of them,
+this basically means you'll wear your pot, keg, etc. out before the iodophur
+does.
+
+
+In summary: Relax. Iodophur is safe for stainless. (I thought that was clear
+from my last post on the subject, but apparently not!)
+
+
+ -=> In another issue, someone commenting on my jockey-box post asks if it is
+    safe to use copper with finished beer...
+
+
+I believe it is in Papazian's 'Companion' book where he states that washing Cu
+in a weak acid (such as beer) causes a layer to form which prevents Cu from
+leeching into beer. Apparently, this will take place as the leading edge of
+your beer stream passing through (all but instantaneous); it is evidenced by
+the bright gold color resulting from this contact.
+
+
+Hope it helps....
+
+
+P.G. Babcock
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 10:39:53 -0800 (PST)
+From: Jeremy Ballard Bergsman <jeremybb`at`leland.Stanford.EDU>
+Subject: Water bath mash tun
+
+
+> From: Matthew Howell <howell`at`ll.mit.edu>
+> Subject: mash tun/boiler question
+
+
+>           We were discussing ways to reduce the risk of a scorched
+>           mash when direct heating is used. ( I mash in a converted
+>           keg, BTW)  My father suggested employing a double-boiler
+>           type setup to eliminate direct contact with the flame, and
+>           still allow the use of a Cajun cooker as a heat source.
+
+
+One of the biggest problems I foresaw when designing my 1/2 BBL
+brewery was that of applying the heat without scorching, especially
+under the false bottom.  As the batch size increases the square-cube
+law makes it harder and harder to apply heat in the conventional
+manner.  I came up with this double-boiler idea and am in the process
+of implementing it.  The inside "pot" is a 1/2 BBL keg and the outside
+"pot" is just over 1/2 of a 55 gal steel drum.
+
+
+I have not actually used this but before starting I did two test
+batches with 5 gallon batches being mashed in a 5 gallon pot that was
+inside an 8 gallon pot, double-boiler style.  This worked quite well,
+gave me excellent yields (probably less local enzyme denaturing at the
+point of heat application) and I was even able to bring up the temp
+pretty well on my ordinary gas stove.  My new setup will require a
+very large heat source however since the amount of water in the outer
+pot is going to be fairly large due to limited cheap choices for said
+pot.  For those worrying about the rate of heat application, remember
+that you now get to add heat to every surface but the top, whereas before
+heat was added to the bottom while being lost from every other part.
+
+
+I am putting together my web page at the same time as this brewing setup
+and I hope to have pictures when I am done.  The address is:
+http://www-leland.stanford.edu/~jeremybb/ 
+
+
+Jeremy Bergsman   jeremybb`at`leland.stanford.edu
+
+
+------------------------------
+
+
+Date: Tue, 07 Feb 1995 00:02:19 -0700
+From: lmewhort`at`gpu.srv.ualberta.ca (Doug Mewhort)
+Subject: Re: Easy Mashers and Irish Moss/Rubber Removal
+
+
+Kirk Harralson Wrote:
+>
+>Andrew J Donohue writes:
+>
+>>I posted this to RCB with no response so I'll try here. I 
+>>tried Irish moss for the first time on my last batch. I use
+>>an easy masher in a 1/2 keg for a kettle. When I tried to
+>>drain the wort into my fermenter the EM clogged presumably
+>>with break material an irish moss. I always use whole hops
+>>and have never had this problem without the IM. Is there
+>>a trick to this or should I just avoid IM with my system?
+>
+>Nothing will clog an EM faster than using IM.  I even tried propping my kettle 
+>at an angle while chilling to try to get all the break material on one 
+side, but
+>that didn't do it either.  I have also tried attaching a piece of siphon 
+hose to
+>the spigot and blowing air through the EM to clear it, but it quickly clogged 
+>back up.  I ended up picking up the kettle and pouring it through a clean but 
+>unsanitized funnel to get it into the carboy.  Of course, it ended up 
+infected. 
+>My only solution, so far, is to either not use IM, or remove the screen 
+part of 
+>the EM between the sparge and the boil,  drain everything from the kettle into 
+>the carboy, and rack to a second carboy as soon as possible.
+>
+
+
+<<Snip a pretty good suggestion about slotted rings>>
+
+
+I have absolutely no problem using Irish moss with my EasyMasher(tm). I am 
+certain this is because I use whole hops in the boil. They make a very nice 
+filter bed in combination with the screen of the EM. There is usually about 
+3 inches of hops and hot break on the bottom of my converted keg when the 
+keg has been drained in the chiller. This may be due to the somewhat 
+excessive amounts of Irish moss (1tbs/5gal 2tbs/10gal). A little hot break 
+(1/4 oz) made it into the chiller on this weekends Dopplebock, but that I 
+think that was due to the low amount of hops in the boil (1oz).
+
+
+Also if the people looking for a recipie for Big Rock Traditional Ale are 
+still out there, send me a message and I'll post the All-grain recipie we 
+are using as our house brew. It is awfully close to the original.
+
+
+On a completely different note. One of my cornelius kegs came with a red 
+rubber gasket rather than the usuall black rubber O-ring in the top. When 
+the keg was filled with boiling water, left for 1/2 hour, sealed, purged and 
+filled it would no longer hold pressure. When the top was removed to inspect 
+why, the gasket had ripped in many pieces and was stuck soilidly in place on 
+both the lid and the inside of the top of the keg.
+
+
+Which finally brings me to my question, is there any way to remove rubber 
+without affecting the stainless steel? I would hate to lose such a nice keg.
+
+
+Doug.
+Skilled Brewer, Twisted Chef...Maybe I should open a brewpub?
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 11:10:21 -0800 (PST)
+From: Blake Meyers <bcmeyers`at`ucdavis.edu>
+Subject: Hops Growers?
+
+
+I am wondering if anyone out there grows their own hops, and can provide 
+some information about where to purchase or acquire some clippings to 
+grow my own. I'm also curious about what sort of growing conditions are 
+best and if the flowering is light-sensitive.  
+
+
+I also tried an interesting experiment last night, and would like to know 
+if anyone has any related experiences:
+        I recently tried brewing an Oatmeal Stout recipe that I got 
+somewhere, and being the novice brewer that I am, I became impatient 
+after a week for the fermentation to stop. When it finally got down to 
+about one to two bubbles per minute, added the corn sugar and bottled it 
+up. Two weeks later, there was so much carbonation that half the beer 
+turned to foam - the neverending head! Anyway, it was not very 
+satisfying. SO last night, I opened all my bottles and captured the foam 
+and beer in a carboy. I figure let it settle again, finish the 
+fermentation and then rebottle it. Will this be a problem?
+
+
+Blake Meyers
+University of California - Davis
+bcmeyers`at`ucdavis.edu
+
+
+------------------------------
+
+
+Date: Mon, 06 Feb 1995 13:07:47 EST
+From: Bob Bessette <bessette`at`hawk.uicc.com>
+Subject: Taste Test...
+
+
+Fellow HBDers,
+ I thought I would post this and try to specifically target the extract brewers 
+out there. This past weekend my wife and I decided to do a taste test. I made 
+it a point to save one of my extract brews that I made probably 4 months back 
+and decided to compare this brew with my first all-grain batch that I made 
+probably 2 months ago. My wife and I, among many others, were always very 
+impressed with my extract brews. At the time I was making them, I was very 
+satisfied. But still I always wanted to have the flexibility and creativity 
+that all-grain beer making allowed you. Well, the comparison of the two brews 
+was rather amazing. My wife made comments like the extract brew was "light and 
+bubbly' while the all-grain batch was 'full-bodied'. Strange thing is that 
+this morning when I walked into work one of my co-workers mentioned that the 
+all-grain was by far better than any of the extract brews I had let him try 
+previously. Another co-worker had already told me this. 
+
+
+ So I guess what I'm trying to say is that the move to all-grain is VERY 
+DEFINITELY worth it. Not to mention that I am saving approximately $10 per 5 
+gallon batch with the all-grain process and I'm not even culturing my own 
+yeast yet. This past weekend I made another batch and it took me from start to
+finish 5 hours. And, it should be noted, that 1.5 hours of this was waiting 
+for conversion. I was eating dinner at the time. So if you feel the urge to go 
+to all-grain DO IT. I would recommend that you watch someone else do it first 
+and take notes. After your first time you will be constantly striving to 
+perfect your process. If any of you extract brewers out there would like any 
+information from me please send me mail. Since I have only done 3 all-grain 
+batches (13 overall) I think I can relate to what concerns you might have as 
+far as moving to the all-grain process. I don't claim to be an expert or even 
+close to it. All I know is that the quality of my beer has increased 
+tremendously since I have moved to the all-grain process and I would be 
+welcome to share with you my experience from moving to the all-grain process.
+Better beer for cheaper money. Can you beat that?
+
+
+
+
+Bob Bessette (all-grainer and proud of it...)
+bessette`at`uicc.com
+Systems Analyst
+Unitrode Integrated Circuits
+Merrimack, NH 03087
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 16:32:31 -0500
+From: lovelace`at`pop.nih.gov (Chris Lovelace)
+Subject: sealing a Corny keg
+
+
+Hello, all.
+
+
+I've just gotten a kegging setup and I'm trying to figure out how to get a
+good seal on my pin-lock keg.  The gasket on the bung is flexible and
+appears to be in good shape, but whenever I try to pressurize the keg, it
+leaks.  The keg was pressureized when I got it, so there must be a way...I
+just can't find it.
+
+
+When I called the store where I got the keg, they suggested wiggling the
+bung around with the CO2 turned on to find the exact spot where I can get a
+good seal.  I found it once and I got the keg pressurized up to about 30
+psi and it seemed to hold.  Now I want to pressurize it to 5 psi and I
+can't get the bung to where it won't leak.
+
+
+Is there some secret to this?  Is it this difficult to get a good seal on
+all kegs or is it just mine?  (If its just mine, I may take the keg back
+and exchange it for another.)
+
+
+
+
+TIA,
+
+
+Chris Lovelace          LOVELACE`at`POP.NIH.GOV
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon Feb  6 16:33:01 1995
+From: <eclouthi`at`tmac.com>  (Elizabeth M Clouthier )
+Subject: Kegging questions
+
+
+To the collected wisdom I have a couple of keg questions: 
+
+
+I have come into possesion of a Sankey Type QTR barrel 7.5 Gal.
+What is this thing good for? Can I use this for a kegging system
+or is it only good for a brew pot?  
+
+
+On a separate issue I tried my hand at my first all-grain last
+week. It was a spirtual experience... lots 'o' fun but God what a
+mess.   TIA  
+
+
+  Tom Clouthier
+  President and brewmaster
+  PIG DOG PICO BREWERY
+  PHIPPSBURG MAINE
+  eclouthi`at`tmac.com
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 16:37:41 -0500
+From: mem`at`rowland.pha.jhu.edu (Mel Martinez) (by way of mem`at`pha.jhu.edu (Mel Martinez)) (by
+Subject: Lagglander dry malts and low S.G.
+
+
+The last two batches I have made I have used Lagglander dry malts from JD
+Carlson.
+
+
+The first had 2 lbs of  Lagg. dry plus 4 lbs syrup plus ~3/4 lb steeping
+grains.  The target gravity was ~1.050 in 5 gal.  However, I hit this
+while adding (sterile) water to the fermenter at only about 4 gal total
+volume.  By the time I bottled, after, of course, racking to secondary,
+racking to
+bottling bucket, sampling the gravity a few times, etc., I only managed
+38 X 12 oz bottles - 3.6 gal.
+
+
+The last batch, which I made this weekend, used 3 lbs of Lagg. dry malt
+extract, 3.3 lb syrup and about 1.3 lb steeping grains.  The target was
+~1.060-65 in 5 gal, however, again, I came up way short.  I was able to
+meet the target by quickly boiling a scrounged up 1 lb jar of honey and a
+1/2 cup water and adding it to the mix.  After that, every thing was
+perfect, s.g.-wise.  I extracted a quart of 1.06+ grav. wort to freeze for
+krausening and added water and a quart of low-gravity(by now) yeast
+starter to get 1.048 in 5.75 gal, which is about correct for the recipe.
+
+
+Question - is there something about about Lagglander dry malts that is
+keeping me from hitting my s.g targets?  I.E. - 1 lb should equal ~10
+points in 5 gal, correct?  I'm falling way short.  I have double checked
+my hydrometer with tap water and it seems dead on correct.
+
+
+Also, the final gravity of the first batch, while it was supposed to be
+heavy (a dark brown), I was expecting it to get to ~1.018 or so and it
+pretty much stopped at 1.021.  Does the Lagglander have a lot of other,
+non-fermentables in it?
+
+
+The shops here lately seem to be carrying more Lagg than M&F dry malts so
+that is why I used it.  If I use it again, I am definitely going to make
+sure I keep a lb or two of honey at hand, but that really defeats one's
+attempts at 'all malt' brewing...  Should I just expect to use more Lagg.
+dry in my recipes?
+
+
+Any info/comments/suggestions are much welcome.
+
+
+Cheers,
+- --
+Mel Martinez
+The Johns Hopkins University
+Dept. of Physics
+mem`at`pha.jhu.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: 6 Feb 95 15:06:00 -0600
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: Estimating IBUs
+
+
+Bryan writes:
+>Garetz does present a good method of estimating IBUs in
+>your homebrew.
+ <snip>
+>Let's say you make a pale ale with (according to Garetz
+>formula) 40IBUs of bitterness.  Get a reference beer with
+>a known amount of IBUs, like Budweiser.  Jackson's and
+>Eckhardt's books give actual IBUs of various commercial
+>beers.  Garetz describes the process in detail, but you
+>add a known amount of hop oil to your reference beer until
+>the bitterness tastes the same as the bitterness in your
+>pale ale.  You can then calculate the bitterness of your 
+>reference by adding the IBUs that Bud started with to 
+>the number of IBUs that you added.
+ 
+I'll bet a lot of you (especially Bill Cook) expected to
+hear from me after this post, no?  This method that Garetz
+has in his book, and Bryan posts here, has one major
+problem: the perception of bitterness is dependent on not
+*just* the IBUs in the beer(maltiness, water chemistry, etc.).
+In other words, if you were adding a calibrated hop extract
+(not hop oil -- hop oil is not bitter -- it adds aroma)
+to Budweiser for a homebrewed American Premium Lager which 
+had the exact same protein, melanoidin, dextrin, water and
+residual sugar profile as Bud, then the test would be valid,
+but if you don't then you can't use the values.
+
+
+Here's a test for you: compare Liberty Ale and bottled
+Guinness.  Which has more bitterness?  Now, which has
+more IBUs? Liberty is more bitter to the taste, but bottled
+Guinness has more IBUs.
+
+
+It gets even more complex when you figure-in sulphates
+into the formula.  A high-suphate beer will taste much
+more bitter than a low-sulphate beer with the same IBUs.
+
+
+Bottom line: the method is virtually useless.
+
+
+********
+Robert writes:
+>TSP, Chempro, or other sanatizing agent.
+
+
+Tri-sodium Phosphate (TSP), unless it is chlorinated, is not a sanitizer.
+Also, not all dishwashers are created equal.  If indeed someone is compling
+a "bottle sanitation using a dishwasher" FAQ, please add the following:
+
+
+If you are not using a "heat sanitation" cycle on your dishwasher and are
+relying on a sanitizing solution to disinfect your bottles, first make
+sure that your dishwasher gets solution onto all internal surfaces of
+your bottles.  Put a little water into ten bottles or so and shake them
+so that all inside surfaces of the bottles are wet.  Next, pour some
+flour into the bottles and shake that to coat the inside of the bottles.
+Put these bottles into the dishwasher - in various places in the racks -
+and run a cycle.  Check the bottles.  Is there any flour left in them?
+If so, then your dishwasher is not reaching every corner of every bottle
+and therefore cannot be relied upon for sanitizing in this way.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 14:59:45 -0700
+From: roberson`at`hydroxide.chem.utah.edu (Mark Roberson)
+Subject: Keg Sanitation
+
+
+
+
+
+
+
+
+    I would like to rationalise John Palmers' review of the metallurgical
+literature with some first-principles chemistry.
+
+
+    Stainless steel is iron (Fe) alloyed with carbon and doped with a small 
+amount of chromium (Cr).  The Cr:O bond is very much stronger than the Fe:O
+bond, so Cr atoms displace Fe atoms on the surface to form an unreactive oxide
+covering.  In order for something to attack the bulk metal it must enter
+through a defect in the covering, and there must be an electrochemical driving
+force of sufficient strength to make the reaction go.
+
+
+    Elemental Iodine (I2) is fairly large as diatomic molecules go, and is not
+a powerful redox reagent.
+
+
+    "Chlorine" bleach as used by brewers is not elemental Chlorine but sodium
+hypochlorite (NaClO).  The active agent, singlet Oxygen, is extremely reactive
+and quite tiny.  Thus I am hardly surprised that bleach corrodes stainless
+steel while iodine is safe.
+
+
+                                                        Hoppy brewing, Steve,
+                                                        Mark
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 17:45:12 EST
+From: scox`at`factset.com (Sean C. Cox)
+Subject: Re: Isinglass & other finings
+
+
+Greetings all,
+
+
+        I've seen a lot lately about the use of various fining agents for
+clearing beers, and I am a litle confused about it.  I don't use any finings
+in my beer (too cheap/lazy) however, I alway get brilliantly clear beers
+anyway.  I'm an all-extract brewer (have been for years) and I use a variety
+of extracts (usually whatever is cheapest, see above. :) 
+
+
+        My most recent example was a cranberry-wheat beer (Alexander's wheat
+extract) which became perfectly clear (beautiful red color too!) in about 2
+weeks in the bottle (primary 4 days, secondary 1 week).  I added the 
+cranberries to the cran-wheat right after the boil to help chill the wort,
+I don't have a wort-chiller, but no haze!) A recent dark honey ale did the
+same ("generic" dark malt extract, 2 lbs clover honey).  The cranberry-wheat
+was fermented with Wyeast Bavarian Weizen (my first liquid) and the honey-ale
+was fermented with Edme dried.  Both were beautiful in a couple weeks.  
+
+
+        The only funky part of my brewing is that the water I use is *REALLY*
+soft (you can make soap lather by thinking about the water).  I don't have
+the numbers here at the office, but the carbonates were in the low double 
+digits (25-40 I think) and the sulphates were similarly low (terrible hop
+utilization).  I remember getting my water survey and comparing to the numbers
+Charlie P. has in TCJOHB and thinking "Gee, Pilsen has hard water compared to
+me!" Could this impact the "clearing rate"?
+
+
+        Is there any data about the relationship between softness and clarity?
+(Other than "Pilsen brews pilseners" "Burton-on-Trent sure doesn't". :-)
+
+
+        --Sean, confused in Connecticut.
+
+
+=-=-= Sean Cox          =-=-=-=-=-=-=-=-=-=-=-=-=-= FactSet Data Systems =-=-=
+=-=-= scox`at`factset.com  =-=-=-=-=-=-=-=-=-=-=-=-=-= 1 Greenwich Plaza    =-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= Greenwich, CT 06830  =-=-=
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 14:50:42 PST
+From: berkun`at`decwet.enet.dec.com <berkun`at`decwet.enet.dec.com>
+Subject: Leaky Wort Chillers
+
+
+There's been some discussion recently on leaky wort chiller connections and I 
+can't resist my 2 cents.  The writer of the original article sounds like he 
+may be slighly "hardware store impaired".  This is alright, I'm "football 
+impaired" myself. :-)
+
+
+
+
+Here's what I did (after experiencing jets of water shooting across my 
+kitchen).  Go to your local hardware store.  Tell them you want to connect a 
+male garden hose end to a copper pipe with a compression fitting.  They will 
+sell you (at very low cost) a collection of little odds and ends and will 
+show you how they all line up on the copper pipe and just twist into place.  
+No soldering, no welding, no brazing, no problem.
+
+
+Do this on both ends of the copper pipe.
+
+
+Then tell them that you want to put a new female end on a garden hose.  They 
+will sell you a cheap doo hickey.    Buy two. Take you garden hose and cut it 
+in half.   Cut the male end off of the one half and attach a new female end 
+where the old male was and another female to the other  (cut) end.
+
+
+Now you can screw one end of the garden hose into you kitchen faucet, the 
+other end onto your wort chiller (and since both ends of the hose are female, 
+it doesn't matter which end goes where) and you can attach the other piece of 
+garden hose to the output of the wort chiller and hang it out the window and 
+water your lawn, or run it into the sink and wash your dishes while you cool 
+your wort.
+
+
+Point is: it's very easy, very cheap no more hose clamps and at the end of 
+the day you simply unscrew the hoses and store them separately from the wort 
+chiller making the whole darn thing easier to clean and store.
+
+
+One last thing.  Before you attach the compression fittings to the copper 
+tube, cut off about a foot of the tube.  Drill a half dozen small holes about 
+half way down (the cut off section).  You now have a very sophisticated high 
+tech wort aerating device, a venturi tube.  Simply stick it on the end of the 
+racking hose as you siphon your cooled wort from the pot into your carboy.  
+Forget the shake and dance routine, you'll have more foam than you know what 
+to do with (actually, you can deal with the foam just by tipping the carboy 
+around a little).
+
+
+I know others have mentioned this device, but it is the single greatest tool 
+I've added to my inventory and I feel compelled to spread the word.
+
+
+Well, I guess this is more than 2 cents.  Hose clamps just aren't nearly as 
+elegant as hose fittings.
+
+
+Ken B.
+Seattle
+
+
+------------------------------
+
+
+Date: Mon, 06 Feb 95 14:19:25 -0500
+From: kit.anderson`at`acornbbs.com
+Subject: Brewsters who run- part 2
+
+
+
+
+                             
+
+
+Part 2
+        Whether it's at the point of the first or second fermenter, 
+there isn't much to do at this point but wait until all action has 
+settled down in preparation for bottling. This whole time period 
+between brewing and bottling is not unlike pregnancy. It's sitting 
+around, thinking of names for the new brew and wondering if it will be 
+a blonde, red, or brunette and inherit bad hair days too. There is a 
+major difference though- the whole bulk of the baby isn't worn under 
+our rib cage. We probably won't make the cover of national magazines 
+posing nude with our hands lovingly caressing our fermentation tanks 
+but come to think of it, our newsletter could use a centerfold or two. 
+Our cravings at this point don't turn to pickles and ice cream, but 
+they do begin to develop for the new brew. Some of us brewsters even 
+begin to clean house long before bottling day arrives in anticipation 
+of the blessed event. Some of us have showers- you brewers might call 
+them "drinking up the old stuff to have room in the fridge for the new 
+brew" parties. The showers, though, aren't always for brewsters only. 
+If we waited for all the local brewsters to gather, we'd never get the 
+shelves cleaned out. No, I figure the best audience for a brewsky is 
+usually male, so I invite all those guys with coy invitations for a 
+football game, several brews and some eats- and as a result, spend the 
+next few months trying to figure out the elusive aroma in my new ale 
+that is fermenting quietly by the upstairs toilet the day of the 
+party. See? I told you these "use up the old brews" parties are 
+showers.
+        I can see that the nice lady in white is waving that syringe 
+at me again- so I had best send this installment off to the newsletter 
+audience in hopes that you brewers have gained yet another level of 
+empathy with your distaff partners-in-brewing. If last month's 
+installment did send you guys to the woods to bond, maybe this month's 
+will necessitate another meeting under the forest canopy to pass 
+talking sticks around. As you meet, do consider the fact that J.E. 
+thinks I don't have a big enough wortpot to deal with the results of 
+irate brewster upon his physical self. I'll just have to go shopping. 
+Oh, darn- I think I hear that mall calling now.
+
+
+*********************************************************************
+Disclaimer- This was written by Marie Mains, not me. It originally 
+appeared in the Inland Empire Brewers' (San Bernadino, CA)newsletter.
+Permission is granted to redistribute. Flames to alt.shut.up.pc.jerk.
+*********************************************************************
+
+
+Kit "Travels With Chiles" Anderson
+Bath, Maine
+<kit.anderson`at`acornbbs.com>
+*
+- ---
+ * CMPQwk #1.4 * UNREGISTERED EVALUATION COPY
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 18:31:07 -0500
+From: cstrick`at`iu.net (Chris Strickland)
+Subject: Re: Loss of Carbonation with Mini-Keg
+
+
+Well, I've isolated the leak in my mini-kegs.  It turns out that it's the 
+seal inside of the pump.
+
+
+                              ----------
+                                  ||
+                              |   ||   |
+                              |--------|  
+                              |      ^-|-- Rubber seal
+     Leak in Here somewhere ->|        |
+                              +--------+
+                                  ||
+                                  ||
+                                  ||<--Beer Tube
+                                  ||
+
+
+I cleaned this area one day, there was a greasy substance inside.  It 
+probably helped hold the seal.  I had a buddy recommend I go to a scuba shop 
+and buy some silicone used on diving masks.  That it should help plug the 
+seal.  Any other ideas out there?
+- --------------
+Chris Strickland
+cstrick`at`iu.net
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1652, 02/08/95
+*************************************
+-------

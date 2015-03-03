@@ -1,0 +1,1390 @@
+﻿Date: Thu, 13 Jun 2002 00:32:20 -0400
+Subject: Homebrew Digest #3962 (June 13, 2002)
+
+
+
+
+
+
+HOMEBREW Digest #3962                             Thu 13 June 2002
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Universal Temp Controller (Luke Enriquez)
+  RE: Adding water after fermentation (KC Jones)
+  Orlando beer search ("Mark Tumarkin")
+  Adding Water after Fx (Ray Daniels)
+  Re: Orlando beer hunting ("Chad Gould")
+  Re: Adding Water After Fermentation (h.stearns.laseur)
+  Adding distilled water ("Jim")
+  Re: Adding Water After Fermentation (Jeff Renner)
+  re: Intro To Lagering (R.A.)" <rbarrett`at`ford.com>
+  Dutch teaspoon, on the fly sparging, sulfites in beer ("Dave Burley")
+  Re: Beer Can Chicken (Jeff Renner)
+  Re: Intro To Lagering (Jeff Renner)
+  Adding Water/Campden tablets (AJ)
+  Lag Time (Althelion)
+  Pump Motor Controller & Brewtek web site (Tony Verhulst)
+  Temperature control during lagering ("Brian Schar")
+  AHA in Dallas-hotel change but don't worry ("Dan Dewberry")
+  Re: lag times...Weihestephan (Jeff Renner)
+  Need help on Saaz growing ("Schrempp, Michael")
+  Amish Cream Separator = Fermentator? (Don Lake)
+  Orlando Beer Hunting Tips (Richard Foote)
+  cap caca report (carlos benitez)
+  RE: Steve's call for beer language (Ronald La Borde)
+  RE: Fusels (Brian Lundeen)
+  RE: Adding Water After Fermentation ("Frank J. Russo")
+  A Call to Arms:  Great Idea (Troy Hager)
+  Need another mag drive pump ("Gary Smith")
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 12 Jun 2002 00:15:00 -0700 (PDT)
+From: Luke Enriquez <vk3em`at`yahoo.com>
+Subject: Universal Temp Controller
+
+
+Hi People,
+
+
+Some of you who are electronics buffs as well as
+homebrewers might be interested in a project I'm
+working on. 
+
+
+On finding my keg of wheat beer frozen, I decided I
+needed something to replace thermostats. With an Atmel
+AVR microcontroller, some hardware, a relay and a
+temperature sensor, I'm solved my problem. 
+
+
+Is does require some experience with electronics to
+build, and with my time constraits, I dont plan to
+release it as a kit. However, there may be others on
+the mailing list who have similar interests, and I
+will add to the support website as times permits.
+
+
+It's not bug free yet, but it does work with my
+fridge, now that I've replaced the thermostate with a
+relay potted in hot melt glue (for water proofing).
+
+
+The controller is universal in the sense that it will
+control either heaters or coolers, and has a flexible
+setup system to accomodate many combinations of
+hardware. All parts used in the project are available
+from places like Farnell, Digikey, etc.
+
+
+I've designed some sensor checking into the code as
+well, so if your sensor of sensor cable fails, the
+relay turns off.
+
+
+As always, comments are welcome.
+
+
+Next stage is to average the temperature reported by
+two sensors, and use it to sound a buzzer when my mash
+tun falls outside a specific temperature range.
+
+
+The URL is 
+
+
+http://www.geocities.com/vk3em/avr-tempc/avr-temp.htm
+
+
+If you get an error message, geocities has probably
+shut the site down for a bit because of excessive data
+transfer. Nothing comes for free I suppose!
+
+
+Cheers
+Luke
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 02:49:02 -0700 (PDT)
+From: KC Jones <beerbeer95648`at`yahoo.com>
+Subject: RE: Adding water after fermentation
+
+
+Tony and Cheryl,
+
+
+The main concern with cutting down your gravity with
+distilled water after fermentation is an increase in
+O2 levels.  If you are using bottled distilled water
+it is important to note that the plastic bottles don't
+give much protection against the ingress of O2.  To
+reach a low enough O2 level in your liquor, you would
+be best boiling your cutting liquor, followed by a
+good scrubbing with an inert gas.  It is then useful
+to carbonating it before adding it to your beer.  This
+is assuming you use cornies.  The reason for
+carbonation is that is restricts the re-dissolving of
+any O2 which may have made it into your keg, while
+inhibiting aerobic bacteria. If you don't use cornies,
+then it would still be advisable to boil your water
+sufficiently before cutting.  What residual O2 there
+is will be taken up given a sufficient amount of yeast
+is left in your beer. 
+KC Sare
+Heriot-Watt
+Edinburgh 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 06:47:18 -0400
+From: "Mark Tumarkin" <mark_t`at`ix.netcom.com>
+Subject: Orlando beer search
+
+
+Rick asks about beer destinations in Orlando. Assuming you're flying into
+Orlando, you can start at the airport. Shipyard has a brewpub in the airport.
+Ron Raike is the brewer (a great homebrewer in another incarnation, his old
+ales just swept 1st, 2nd, & 3rd at the recent Sunshine Challenge), the stout
+is very good. There is a brewpub at Disney called Big River, I still haven't
+gotten there as I get to Orlando very often and seem to avoid Ratland when I
+do. Reports say the beer is ok, it's part of a chain based in Tenn (I think).
+Until recently, I'd have recommended Big Belly's, but they just stopped
+brewing. The brewer, Tom Moench, has started contract brewing an interesting
+toasted coconut porter at Shipyard. Don't know where to find it, but it should
+be available at some bars by now.
+
+
+If you're able or willing to travel west to Tampa (approx 1 1/2 hrs), you can
+find some excellent beers (and good food) at Tampa Bay Brewing in the Ybor
+City area (touristy, lots of small trendy shops, clubs, etc). There is a good
+beer bar/beer shop called Grand Cru. Since the bottle law was changed, we've
+finally started getting more beer choice in FL - including a lot of Belgian
+beer. Since you've got your own negative beer laws in GA (6% limit, I
+believe?) you'll probably find some interesting beers you can't get at home.
+
+
+Mark Tumarkin
+Gainesville, FL
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 07:19:29 -0500
+From: Ray Daniels <raydan`at`ameritech.net>
+Subject: Adding Water after Fx
+
+
+Tony (or Cheryl) asks:
+
+
+"I'd like to brew 7 or 8 gallons of beer but only deal with fermenting 5 
+gallons. Are there any problems I can expect with adding distilled water 
+after fermentation to a higher gravity batch to bring it down to a
+pre-planned specific gravity?"
+
+
+Yes, there are problems you can expect.  Water (yes, even distilled water) 
+contains air, so you'll oxygenate the heck out of your beer and it will 
+develop papery, cardboardy and even waxy flavors very quickly.
+
+
+What you need for this purpose is water that is deaerated . . . but 
+deaerating isn't trivial. You can do it by first boiling the water (drives 
+off a good bit of O2) then kegging it and bubbling PURE CO2 (or nitrogen) 
+through it to strip out the rest of the O2 (while venting to prevent 
+buildup of head pressure and blowoff the removed O2).
+
+
+Translating microbrewery experience (we ran a story on this in The New 
+Brewer last year) to homebrew scale, you might expect to use one-third of a 
+pound of CO2 over a couple hours to accomplish this IF you are using a 
+carbonating stone to release the CO2---more otherwise.  At this point you 
+should check the dissolved oxygen (DO) level to ensure that it is below 50 
+parts per billion before blending it with your beer.
+
+
+The biggest problem with this system for a homebrewer is that beverage 
+grade CO2 isn't pure and usually contains enough oxygen to cause 
+problems.  Furthermore, to check your results, you'll need a DO test 
+method.  An outfit named Hach makes colorimetric devices for this that may 
+be reasonably priced (Try http://www.hach.com/Parms/p_do.htm), but that's a 
+long way to go for a couple extra gallons of beer.
+
+
+Finally high gravity brewing does yield a slightly different flavor profile 
+in the final beer: increased esters for sure and probably some other things 
+I'm forgetting.  Since this is the way that Bud, Miller and Coors make 
+beer, the effects are well documented in the brewing literature.  I doubt 
+you or I would notice in a homebrewed beer, but the big guys worry about 
+this due to product consistency.
+
+
+Overall, it would be lots easier to buy a bigger fermenter and dilute after 
+boil but before fermentation.
+
+
+Ray Daniels
+Editor, Zymurgy and The New Brewer
+[197.8, 264.2] Apparent Rennerian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 08:45:21 -0400
+From: "Chad Gould" <cgould11`at`tampabay.rr.com>
+Subject: Re: Orlando beer hunting
+
+
+> Good luck; I used to live south and east of Orlando.
+> Found it to be a wasteland for beer.  Wish I had known
+> about homebrew back then...
+
+
+One of the only real beer places I know in Orlando (aside from the
+already-mentioned Cricketer's, which is excellent) is in the Orlando airport
+itself! It's a microbrewpub called Shipyard Brewing Company. I haven't been
+in a while, but I remember the beers being very good.
+http://www.shipyard.com/
+
+
+Other than that and Cricketers, nothing really amazing that I know of. There
+are some places with a decent selection of beer that are good fallbacks
+(like the Ale House chain) but compared to Tampa I haven't found a lot of
+places.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 07:48:47 -0500
+From: h.stearns.laseur`at`exxonmobil.com
+Subject: Re: Adding Water After Fermentation
+
+
+
+
+If you add water your fermentation will continue, albeit at a slow pace. By
+adding water, you have just added more living room for those precious
+little yeast cells to multiply in. You also have to have nutrients in your
+batch to continue until one of several things limit the reaction, ie. water
+(as in space),  nutrients for food, or temperature. Usually we have more
+nutrients than space available, and the space is what typically limits
+fermentation. So ... add water and then cool the batch down to stop
+fermentation, otherwise your ABV will get higher.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 07:51:16 -0500 (Central Daylight Time)
+From: "Jim" <bermingham`at`antennaproducts.com>
+Subject: Adding distilled water
+
+
+Tony of Tony & Cheryl asked if there would be a problem with adding
+distilled water after fermentation of a high gravity beer to bring the beer
+down to a specific gravity.
+Miller Brewing has been doing a similar thing in their smaller breweries for
+years.  They brew a high gravity beer and then bring it down to a lower
+gravity by adding club soda.  This enables them to produce more beer at
+their smaller facilities.
+Another note.  I don't know when the American Homebrewers Association is
+planning on informing their membership that is planning on attending the
+National Conference that there has been a change in hotels.  If you had a
+reservation at the Wilson World Hotel, you no longer have one.  The hotel
+has been purchased by the Radisson Hotel chain and has been closed for
+renovations.  If you had reservations at the Wilson World they have been
+changed and are now at the Holiday Inn Select.  Just next door to the closed
+Wilson World.  The $59.00 rate is still in effect.  You can call and
+re-confirm your reservations 12 June after 5:00PM.  For more information you
+can go to www.beertown.org and click on "Big Texas Toast".
+
+
+Hope to see you there,
+Jim Bermingham
+Millsap, TX
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 08:53:04 -0400
+From: Jeff Renner <JeffRenner`at`comcast.net>
+Subject: Re: Adding Water After Fermentation
+
+
+"Tony&Cheryl" <deadhead`at`ndak.net> collectively ask:
+
+
+>I'd like to brew 7 or 8 gallons of beer but only deal with fermenting 5
+>gallons.  Are there any problems I can expect with adding distilled water
+>after fermentation to a higher gravity batch to bring it down to a
+>pre-planned specific gravity?
+
+
+This is what big breweries do all the time.  It means you can 
+increase your brewery capacity at virtually no cost.  There are some 
+caveats, however, which the big breweries have do loads of research 
+on.  I imagine Steve Alexander can give more technical details, but 
+the main issues are:
+
+
+1)  You will get lower hop utilization with higher gravity boils. 
+Easy to correct for.
+
+
+2)  Higher gravity fermentations have different byproducts than lower 
+ones, in particular, higher levels of fusel alcohols and esters. 
+These can be minimized by lower fermentation temperatures and by 
+playing around with yeast pitching rates and oxygenation of the wort, 
+but I can't remember how.  Steve?
+
+
+3)  It is very important not to introduce oxygen into the finished 
+beer when diluting it.  You should probably boil the distilled water 
+in an open container to drive off dissolved O2, then seal it and let 
+it cool to the temperature of the beer.  Then add it with no 
+splashing.  It would be beneficial to siphon it, and a CO2 blanket 
+never hurts when transferring beer, even without diluting it.
+
+
+Hope this helps.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 09:08:19 -0400
+From: "Barrett, Bob (R.A.)" <rbarrett`at`ford.com>
+Subject: re: Intro To Lagering
+
+
+Steve McCormick writes:
+>I've been homebrewing for a while now, grain/extract
+>"intermediate" brewing....
+>I'd like to try some Lagers but I'm not exactly sure
+>where to begin.
+>Most recipes I see say start out at X degrees F and then
+>lower it over the course of a week or so down to Y (usually
+>around 30 degrees)... How exact do I need to be?  
+>What type of equipment do you folks use for summer lagering?
+>How do I control the temp?
+
+
+Steve, these are all really good questions and are the same
+ones most Hbers ask when getting started doing lagers.
+I've done a few lagers and find that the best piece of equipment
+is a small chest freezer to use as a lagering compartment.
+They are cheap (look in the paper and be patient) and are very
+easy to control the temp.  Your spare fridge will also work just
+fine as long as you can get the temp of the main compartment
+down to 32-33 degrees F.  Some fridges just won't do that.  
+The best controller is the Ranco ETC111000.  I got one last 
+week at Johnstone Supply for $40.  It has a digital read out and 
+the differential can be adjusted easily.  When dialing down the 
+temp after primary fermentation it's as easy as pushing a few 
+buttons and only takes about 15 seconds.  Just plug the cont-
+roller into the wall receptacle and plug the freezer into the cont-
+roller.  The controller is now in charge of turning the freezer on 
+and off.
+
+
+Here's my procedure when doing lagers.  I cool my wort to lager
+primary temp before pitching the yeast.  Some Hbers pitch warm
+and then cool the wort.  I prefer to cool the wort first.  I keep my 
+yeast a few degrees cooler than the temp of the wort at pitching 
+time.  If the wort is 50F, I try to keep the yeast at 48F.  That way 
+when it hits the "warmer" wort it's happy.  Happy yeast is very 
+important.  The freezer is set to its coldest setting and the temp 
+controller set at 46F.  The temp controller is set to a 4F differential.
+The freezer will cool until it reaches 46F and then shut off until it 
+warms up to 50F.  The temp controller will then turn the freezer 
+back on and the cycle keeps going.  
+
+
+When primary fermentation is complete (7-10 days) I rack into a
+a secondary and place it back in the freezer.  Every morning I 
+reduce the temp on the controller by 2F until I reach 32-33F.  I 
+try to keep it there for 4 weeks.  That part is the hardest.  I want 
+to taste the beer!!!  That might be the most difficult thing about 
+going from ales to lagers is the time you have to wait.  It's worth
+it though.
+
+
+The temps I discuss are only examples and can be very different
+from brewer to brewer.  The different temps will give you different 
+flavor characteristics.  Being exact is not that important.  If you 
+ferment at somewhere between 45Fand 55F, you should produce
+a good lager.  If you reduce the freezer temp during lagering by 1F
+to 4F per day you should be fine.  RDWHAHB!!!
+
+
+We make the beer we drink!!!
+Bob Barrett
+Ann Arbor, MI
+(2.8, 103.6 Rennerian)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 09:32:05 -0400
+From: "Dave Burley" <Dave_Burley`at`charter.net>
+Subject: Dutch teaspoon, on the fly sparging, sulfites in beer
+
+
+Brewsters:
+
+
+Hans Aikema says his Dutch teaspoon holds only 1.4 grams of water ( or about
+1.5 mls). I've had  a goodly amount of Dutch coffee using those tiny
+teaspoons ( called coffee spoons in Britain), but  a standard teaspoon
+almost world wide now is 5 mls as defined via the medical profession.  5 mls
+is what we normally mean when we say a "teaspoon" of an elixir should be
+taken twice a day and when we discuss homebrewing.
+
+
+Looking at Paddock Woods' numbers and Hans' numbers:  5 ml teaspoon holds 7
+grams of Kmeta the ratio is 1.4 and  1.5 ml Dutch teaspoon holds 2.21 grams
+of K meta ratio is 1.47 so these ratios check close enough for government
+work.
+- -----------------------
+Al Korzonas once commented some years ago on the British term for continuous
+sparging after a trip he made to the UK.  He remarked that the Brits used
+the term "fly sparging" for what we normally do with fixed bed, continuous
+sparging. This term has worked its way into the HBD vernacular, but it has
+always annoyed me a little whenever I see the term "fly sparging" used here
+in the HBD, as I doubt it is correct usage.
+
+
+The British use the term "on the fly" in other areas ( such as mass
+spectrometry)  to describe a continuous process. I wonder if Al
+misunderstood or whoever used that term with him wasn't up to speed?
+
+
+Can anyone confirm or deny this usage in the British
+brewing industry?
+- -----------------------
+Brian Lundeen comments on the use of Kmeta in beer and my concern that 60
+ppm of SO2 is waaay too much to accomplish the removal of 1 ppm of
+chloramines from the water ( which was the context of my comment) and goes
+on to say that by wine standards 60 ppm isn't so bad.
+
+
+Brian uses Kmeta as an antioxidant to make up for his handling techniques, I
+guess.  I still think 60 ppm is waaay too much even for this usage, with
+perhaps 1 or 2 ppm more like it, if you insist on using it, when you
+consider the concentration of the various aldehydes and stuff in beer and
+the solubility of oxygen.
+
+
+Bear in mind two things 1) You drink a lot more beer than you do wine at a
+given sitting ( at least I do) , so your ingestion of total sulfite will be
+higher than is normal for wine and your drinking buddies ( who may be
+allergic) won't be expecting this in your beer unless you tell them  2) The
+British banned sulfites from beer ( but in wine it is still legal) many
+decades ago.
+
+
+I encourage Brian and others to try sound handling techniques 1) boil with
+the lid partially on, 2) do not filter hops from the hot wort in the air 2)
+avoid splashing wort and beer - keep the transfer tube under the surface  3)
+add oxygen to cold wort only after you have added the yeast  4) fill your
+cornies with water and push out the water with CO2 to get no oxygen in the
+cornie before you fill it with beer.
+
+
+Try these techniques and you will not have a problem with stale or oxidized
+beer and will have no need for sulfites in beer.
+
+
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 09:25:14 -0400
+From: Jeff Renner <JeffRenner`at`comcast.net>
+Subject: Re: Beer Can Chicken
+
+
+"Dave Burley" <Dave_Burley`at`charter.net> wrote from Anderson, SC:
+
+
+>I am no expert, but I'm sure Bill Shockley did not intentionally omit the
+>fact that when making beer can chicken that the beer cans should be empty or
+>at least open!  {8^)
+
+
+Opened but not empty.  The boiling beer keeps the inside of the bird moist.
+
+
+>Also, I can't help but wonder what effect the scorched paint from the can
+>has on the overall taste. Maybe that's why you need to use a really strong
+>tasting rub or maybe the taste is part of the character.
+
+
+The interviewee on NPR said that "they" had researched this question. 
+The paint is fired onto the cans at 800 degrees F, and the grill is 
+no more than 350F.  Of course, this ignores the effect of radiant 
+heat from the coals.  But the instructions are explicit to not grill 
+over the coals.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 09:47:34 -0400
+From: Jeff Renner <JeffRenner`at`comcast.net>
+Subject: Re: Intro To Lagering
+
+
+"Steve McCormick" <toprowseat`at`hotmail.com> wants to start brewing
+lagers and asks:
+
+
+>What type of equipment do you folks use for summer lagering?
+>How do I control the temp?  Any other tips for a first-time
+>lagering effort?
+
+
+Lagers are very rewarding.  Your old fridge will work great with an
+external thermostat or controller such as
+http://www.williamsbrewing.com/AB1605000/showdetl.cfm?
+&User_ID=84584&St=2075&St2=59203485&St3=-37854398&DS_ID=2&Product_ID=161&DID=7.
+
+
+(you'll have to cut and paste the URL)
+
+
+Before getting a chest freezer and an external controller, I used a
+fridge with a timer that turned it on perhaps a half hour four times
+a day for the 48-50F fermentation.  Then I removed the timer and just
+set it to a very cold setting for the 32F lagering.  It worked fine
+once I found the correct timer setting.
+
+
+Good luck.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 14:17:24 +0000
+From: AJ <ajdel`at`mindspring.com>
+Subject: Adding Water/Campden tablets
+
+
+Adding water to a fermented high gravity wort is obtaining free beer 
+from the kitchen tap in my opinion and I plan to do it on almost every 
+brew but usually wind up tasting the ferment before hand and deciding 
+I'm not going to mess with this stuff by diluting it. Anyway, there are 
+a couple of things to think about. One is the flavor effects of 
+fermenting high gravity worts. There is a ton of material to be found on 
+this subject because all the big boys do it to minimize capital costs 
+(200 barrel fermenter yields 250 bbl of beer.....). Second is oxygen and 
+the third is bugs. The solution to both of these problems is to boil and 
+cool the water from whatever source (i.e. including deionized water) 
+befor adding it to the fermented beer. Boiling both kills bacteria and 
+drives out dissolved oxygen. Clearly the boiled water should be cooled 
+in a closed, nearly full container to both to prevent bacteria and 
+spores from falling into it and to limit air access to it. Because 
+you'll never get all the O2 out it is best to add the treated water 
+while there is still some yeast activity going on. A good time is after 
+the kreuzen falls as the room occupied by the kreuzen cap is now 
+available for the extra water.
+
+
+Needless to say, the water should be free of chlorine and chloramine. 
+Boiling will remove the former and Campden tablets the latter. One 
+Campden tablet per 20 gallons of treated water is sufficient to take 
+care of 3 mg/L chlorine as chloramine and, with respect to another post, 
+this is a typical amount found in municipal supplies. CAmpden tablets 
+will also help scavenge any residual dissolved oxygen.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 10:31:06 EDT
+From: Althelion`at`aol.com
+Subject: Lag Time
+
+
+>From my experience, the three factors that most directly impact the length of 
+lag time are quantity of yeast, temperature, and aeration. This assumes that 
+the yeast is in good shape to begin with. My standard procedure now is to 
+make up a 1000 ml starter and use two Wyeast smack packs or White Labs vials. 
+Yes, it does cost a few extra bucks. I just don't have the time to step up a 
+yeast starter. My aeration procedure includes an aquarium air pump, filter 
+and airstone. I try to get at least 5 minutes of air pumped into the carboy. 
+Depending on the style of beer, I'll have to stop once or twice to let the 
+foam go down. (It seems that the hoppier the beer, the more foam). As for 
+temperature, lagers are always going to lag longer than ales because of the 
+colder temperatures. I'd rather wait a little bit than start a lager 
+fermenting at a too warm temperature.
+
+
+Just brewed a Bavarian Wheat beer using the above method with Wyeast 3068. 
+Pitched at 10 pm Saturday night (during the 3rd period of the 6 period OT 
+Wings victory - bringing the Stanley Cup back where it belongs). Noticeable 
+signs of fermentation began before 7:30 am when I checked it - 9.5 hours 
+after I pitched. The temperature in the room was a cool 65 F. - probably a 
+little too cool for a Weizen but not by that much. At this point, 3.5 days 
+later, all is well. My only decision is whether to put the batch into 
+secondary or just bottle the cloudy brew up after it finishes its primary. 
+I'm kinda leanin' toward the bottling sans secondary. Seems more authentic.
+
+
+Al Pearlstein
+Commerce Township, Michigan
+
+
+Go Wings!
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 10:36:12 -0400
+From: Tony Verhulst <verhulst`at`zk3.dec.com>
+Subject: Pump Motor Controller & Brewtek web site
+
+
+
+
+> I have a March pump on a RIMS system with a burner. After running full
+speed and regulating the outflow, I decided to control the speed of the
+pump
+instead. Talked to a gearhead at March pump and he said the only concern
+was
+overheating. He added that unless I was running the pump in excess of
+8-10
+hours continuously, I shouldn't have a problem. If the pump does O/H
+then the
+thermal switch would trip and protect the motor. 
+The key to controlling is using a fan motor controller and not a dimmer
+or
+light rheostat. I have a Leviton 5amp controller(Home Depot)and it works
+great.
+Just wanted to pass this along...
+
+
+I've been using this for about 18 months with no problem. The difference
+in motor temperature is hardly noticible. See
+http://www.world.std.com/~verhulst/RIMS/panel_001.htm
+
+
+
+
+- ------------------------------
+
+
+
+
+> I'm having a problem getting to Brewtek's website and was wondering if
+anyone else was having the same problem.  Every link I go to at
+www.brewtek.com automatically jumps me over to the Brewers Resources
+online
+store.
+
+
+> Any ideas on why this is happening and how to stop it?
+
+
+Brewtek is a Brewers Resource trademark. You're going to the right
+place.
+
+
+Tony V.
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 08:25:40 -0700
+From: "Brian Schar" <schar`at`cardica.com>
+Subject: Temperature control during lagering
+
+
+Steve McCormick wrote:
+
+
+"I'd like to try some Lagers but I'm not exactly sure
+where to begin.  I've got an old fridge in my basement
+that's not being used, but I'm not sure how to control
+the temperature accurately enough for fermentation.
+
+
+Most recipes I see say start out at X degrees F and then
+lower it over the course of a week or so down to Y (usually
+around 30 degrees)... How exact do I need to be?  I'm
+usually not a breworryer... but I don't want to ruin a
+batch if I don't need to..."
+
+
+I have made a few lagers myself, and like you was purely an ale brewer for
+years before starting down the lager path.  My wife had a fridge perfect for
+lager fermenting when we got married (of course, that had nothing to do with
+me proposing to her), and I fermented a couple of batches in there with no
+special temperature control.  We both thought they came out just fine.  When
+we moved, we left that fridge behind, and I built one of those foam-wall
+cold boxes that uses a small fan and jugs of ice to keep the temperature
+down.  Again, it came out fine, even though there were some larger
+temperature swings than might be ideal.
+
+
+I'd say just go for it, and if you're not happy with the results, then think
+about more precise temperature control.  Don't worry about it up front.
+
+
+Brian Schar
+Menlo Park, CA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 10:37:00 -0500
+From: "Dan Dewberry" <dandew`at`ev1.net>
+Subject: AHA in Dallas-hotel change but don't worry
+
+
+The Wilson World Hotel is being closed for renovations but all the hotel
+rooms & the whole conference has been moved to the Holiday Inn Select
+DFW/South Airport Hotel.  Check it out:
+
+
+http://hbd.org/nhc2002/hotel.htm
+
+
+American Homebrewers Association
+National Homebrewers Conference 2002
+June 20-22, 2002
+Irving, Texas
+
+
+Dan in Austin
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 12:23:49 -0400
+From: Jeff Renner <JeffRenner`at`comcast.net>
+Subject: Re: lag times...Weihestephan
+
+
+Darrell_Leavitt/SUNY%SUNY`at`esc.edu admits to some confusion:
+
+
+>Troy (Troy Hager <thager`at`hcsd.k12.ca.us>)
+>
+>in making reference to long lag times, refers to
+>Wyeast 2124 as Wihestephan:
+>
+>>... I have been using the famed
+>>Weihenstephan 34/70
+>>strain (Wyeast 2124) and have read that it is a "slow starter"
+>>and indeed I..."
+>
+>Are you not referring to the Bohemian Lager (2124) ?  While the #3068 is the
+>Weihestephan, that has an ale range (64-75F)?
+
+
+The confusion perhaps arises from the fact that many German yeasts 
+are referred to by the initial "W" followed by a number.  This W can 
+refer to either Weihenstephan (as in W34/70 (Wyeast #2124) and 
+Wissenschaftliches, as in W308 (Wyeast #2308).  It certainly 
+compounds the confusion that both of our major yeast companies, 
+Wyeast and WhiteLabs, also begin with a "W".
+
+
+And I'm not sure that I have which above yeast is from which source. 
+I've asked an expert but haven't heard back.
+
+
+Weihenstephan is the Bavarian State brewing school, with an 
+affiliated brewery.  I think that Wissenschaftliche is a German yeast 
+bank.  Again, I hope to have more info soon, but I thought I ought to 
+put out what I do know.
+
+
+So, there are a number of yeasts from each source available, and 
+Darrell's thinking that Wyeast 3068 yeast (for Bavarian weizenbier) 
+is "the" Weihenstephan yeast probably comes from that one being 
+touted by Wyeast early on as from that source, and producing more 
+flavorful beer than their first weizen yeast.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 10:03:26 -0700
+From: "Schrempp, Michael" <michael.schrempp`at`intel.com>
+Subject: Need help on Saaz growing
+
+
+I have three hop plants in my yard. One each of Halertau, Saaz, and
+Tetnanger. This is their second season in the ground. Last year I only got
+hops off the Hallertau. The Tetnanger only got one vine to the top of the
+trellis (about 12 feet), and the Saaz had a single vine about 4 feet high.
+This year, all three plants are much healthier. The Hallertau and Tet are
+already at the top of the trellis, but the Saaz is really lagging, at about
+6 feet tall. It has several thick vines but they aren't growing very fast. I
+am also getting more shoots coming up. I have read that Saaz are fussier
+plants. Does anyone have specific insights on what to do differently with
+Saaz? I'm thinking fertilizer, pruning, watering schedules, etc. Or maybe
+Saaz just takes longer to establish itself. Any suggestions would be
+appreciated.
+
+
+Mike Schrempp
+Gig Harbor, WA
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 12:15:21 -0400
+From: Don Lake <dlake`at`amuni.com>
+Subject: Amish Cream Separator = Fermentator?
+
+
+I was at my barber shop enjoying the Lehman's Catalog which sells
+old-time stuff for simple, Amish-like living.  I came across a conical
+shaped dairy container with legs that is a 10 gallon cream separator.
+It looks to be perfect for a conical fermentator.  It's stainless steel
+and has a valve at the bottom. The price is considerably less than what
+similar items sell for in the homebrewing marketplace.
+
+
+To see it go to:
+http://www.lehmans.com
+do a search by product # 30119 and pick the "old-time cream separator"
+
+
+I would really like to have a conical fermentator.  Unfortunately, this
+one is too tall for my needs in a chest freezer.  I need something
+29inches or less which I have yet to find.
+
+
+Don Lake
+Orlando, FL
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 14:15:48 -0400
+From: Richard Foote <rfoote`at`mindspring.com>
+Subject: Orlando Beer Hunting Tips
+
+
+Brewers,
+
+
+Thanks to all who responded publicly and/or privately to my recent
+query--very helpful.  Top beer bars seem to be Orlando Ale House (close to
+Disney, average/good selection) and Cricketeer Arms (British pub, some
+hand-pulled commercial British brews).  Wolfgang Puck's garnered a couple
+honorable mentions due to Pilsner Urquell and Big G on draught and
+closeness (Disney Downtown).
+
+
+Brew Pubs seem be of the chain type, so looks like Big River on the Disney
+Boardwalk rules here.  I've been there before a few years back.  Beers were
+clean.  Recent reviews on PubCrawler look encouraging.  
+
+
+Top beer store vote goes to Heart's Home Brew.  Appears they have a
+respectable (for FL) selection of tasty offerings in their cooler.    
+
+
+One place that seemed to excape radar detection that I discovered myself on
+the Central Florida Homebrewers web site (http://www.cfhb.org) is Rossi's.
+Old Foghorn (curse that 6% limit in GA) on tap and great pizza and the
+CFHB's meet there.  Sounds good to me!  Tip: For others beer hunters out
+there, checking for web sites of local HB clubs may not be a bad idea.
+
+
+Thanks for the help.
+
+
+
+
+Rick Foote
+Whistle Pig Brewing
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 12:07:20 -0700 (PDT)
+From: carlos benitez <greenmonsterbrewing`at`yahoo.com>
+Subject: cap caca report
+
+
+Hello Everybody,
+  Jeff Renner is a brewing god ! I had brewed a CACA 
+last month with blue corn (no, it wasn't blue ((darn))
+it only had a blush tone to it) using steam beer yeast
+for one bucket and Windsor dry yeast for the other.
+The windsor yeast batch went to my brothers wedding
+party (I had also "lightened" half of it with 2
+gallons of distilled H2O ) both the light half and the
+regular beat out the other beer (Heineken) and were in
+my opinion, good "lawnmower beers"  but man oh man,
+the one with the steam beer yeast is GREAT !  Jeff -
+Thanks !  I  will brew this one again !
+
+
+=====
+BIBIDI !
+        Brew It Bottle It Drink It 
+       Carlos Benitez - Green Monster Brewing
+        Bainbridge, PA,  U.S.A.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 12:25:25 -0700 (PDT)
+From: Ronald La Borde <pivoron`at`yahoo.com>
+Subject: RE: Steve's call for beer language
+
+
+>From: mailto:pbabcock`at`hbd.org
+>Subject: Steve's call for beer language
+>
+>...Commendable call to arms, Steve. When I decided I
+>was done
+>reacting to the Klein calendar, I penned a note
+>similar calling
+>for descriptions, but couldn't quite put my
+>perspective into
+>words, so I dumped it...
+
+
+Are you guys talking about that calendar?  
+I mean that silly beer calendar everyone thinks
+I should get every Christmas cuz I am a homebrewer.
+
+
+Well, I finally figured it all out, the calendar comes
+upside down from the maker. It must be some kind
+of mistake.  I found out that by flipping it over,
+then
+you have this real nice thick scratch pad.
+
+
+All the time you rubes have been using the wrong side!
+
+
+
+
+
+
+=====
+Ron
+Ronald J. La Borde -- Metairie, LA
+New Orleans is the suberb of Metairie, LA
+www.hbd.org/rlaborde
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 15:10:37 -0500
+From: Brian Lundeen <BLundeen`at`rrc.mb.ca>
+Subject: RE: Fusels
+
+
+Steve Alexander wrote:
+> 
+> This issue appeared when I posted that some(most) HBers are 
+> IGNORANT of the flavor impacts of HSA.  No insult was 
+> intended, but the term "ignorant".... I just don't get it;  I 
+> am ignorant of many things, I make mistakes, I misread things 
+> and misunderstand things ..... these are all matters of
+> record and fact.
+
+
+Indeed, there is no shame in being ignorant, only in the desire to remain
+that way. 
+ 
+> Beer descriptions wanted:
+> 
+> I would really like to see some serious posted attempts at 
+> good descriptions of widely available beers and some 
+> CONSTRUCTIVE comments for a change.  I think it could be a 
+> useful topic for discussion.
+>
+
+
+Indeed again. And I shall give some intrepid soul an opportunity to venture
+forth into the Land That Roget Forgot by attempting to come up with a
+spectacularly vivid description of the taste of fusels, as they might
+manifest themselves in a hoppy, malty Pilsner style. This has been proposed
+as a possible source of an off flavour in a Pils I recently brewed. I can
+picture the taste in my mind, but damned if I can convert that into anything
+beyond "burnt green stuff". I thought it might be some unpleasant lingering
+hop flavours, but time is passing and the taste does not seem to be fading
+noticeably, nor is it getting worse. The other oddity is that this taste
+only appears in the portion of the batch fermented with Staropramen yeast.
+The portion that got the Czech Pils yeast does not exhibit this. Both got
+the same temperature schedule, but I suspect (without actually measuring)
+that the pitching rate in the affected portion was lower. 
+
+
+Cheers
+Brian Lundeen
+Brewing at [314,829] aka Winnipeg
+ 
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 17:28:53 -0400
+From: "Frank J. Russo" <FJR`at`NFGSales.com>
+Subject: RE: Adding Water After Fermentation
+
+
+
+
+I have on a number of occasions done what you are asking. Brew a high
+gravity beer then dilute with additional water prior to bottling. This also
+helps me get to the final gravity I am looking for.  I do not recommend
+distilled water.  Purified water is suitable contains natural minerals, but
+distilled water has no minerals or salts.
+
+
+Frank
+ATF Home Brew Club
+New Bern NC
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 16:23:00 -0700
+From: Troy Hager <thager`at`hcsd.k12.ca.us>
+Subject: A Call to Arms:  Great Idea
+
+
+Bickering Brewers,
+
+
+Steve and then Pat have struck a chord with me... and I think the
+proposition could turn into something fun and educational that all could get
+into.
+
+
+Just yesterday I wrote a note Jeff Renner lamenting that the HBD seems to
+have lost some of its spark for me. It seems that many of the old voices are
+not around much any more, most topics have been discussed and rediscussed ad
+nausea, and then with all the fighting, name calling, "I said this, no you
+said that" that has been going on, I feel our little community needs
+something to bring it all together again. 
+
+
+Pat seconds the call to arms and puts forth a project of developing
+discussion and a resource for language descriptors that might some day be
+incorporated into the BJCP Study Guide. Great Idea!!! I whole heartedly jump
+on board!
+
+
+I am "studying" for the BJCP and one thing that I have a lot of trouble with
+is finding the words that describe exactly what I taste and smell. Obviously
+with all the complaining about scoresheets from competitions I am not the
+only one for whom this is a difficult task.
+
+
+I say we set up a schedule of well distributed beers in the classic styles
+and those who want can go out and buy them and take part and learn from one
+other in the ensuing discussions. I feel that everyone at all levels could
+really get into this and could learn a whole lot from the process. As Steve
+has done we could draw from the resources that are out there like the BJCP
+Guidelines and the Jackson books. It would also provide a project that would
+pull this community together a bit much like the HBDPAE did a while back.
+
+
+Some commercial examples have been mentioned recently... we need beers that
+are classics for the style and beers that hold up to the abuses of
+exportation, etc. Steve has started us out with SNPA - a fine choice, and
+others like all of the Spaten-Franziskaner line, Paulaner, Chimay, Duvel,
+Guinness, ... you get the picture... 
+
+
+Anyway, I am excited about this and feel that it is something we should try!
+
+
+Troy Hager
+San Mateo, CA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Jun 2002 22:30:32 -0500
+From: "Gary Smith" <mandolinist`at`interlync.com>
+Subject: Need another mag drive pump
+
+
+Greetings,
+
+
+I'm looking for another Mag drive pump. I'd like to get 
+the same one that I got from MovingBrews (High temp,  
+& plastic pump head).
+
+
+Anyone know where I can find another one?
+
+
+Please let me know direct as I'm trying to find one & 
+hope to order tomorrow.
+
+
+Thanks!
+
+
+ 
+
+
+ThanksGary
+
+
+Gary Smith
+
+
+http://musician.dyndns.org
+
+
+"Grief can take care of itself, but to get the full value of 
+a joy you must have somebody to divide it with."
+ - Mark Twain -
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3962, 06/13/02
+*************************************
+-------

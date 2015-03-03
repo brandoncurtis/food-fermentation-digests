@@ -1,0 +1,1491 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA21621
+        for <spencer`at`srvr5.engin.umich.edu>; Wed, 11 Mar 1998 01:07:50 -0500 (EST)
+Received: from twins.rs.itd.umich.edu (0`at`twins.rs.itd.umich.edu [141.211.83.39])
+        by srvr20.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA02241
+        for <spencer`at`engin.umich.edu>; Wed, 11 Mar 1998 01:07:48 -0500 (EST)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with X.500 id BAA18160; Wed, 11 Mar 1998 01:07:48 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with ESMTP id BAA18141; Wed, 11 Mar 1998 01:07:45 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA08170 for realhomebrew; Wed, 11 Mar 1998 00:51:11 -0500
+Date: Wed, 11 Mar 1998 00:51:11 -0500
+Message-Id: <199803110551.AAA08170`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2658 (March 11, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2658                             Wed 11 March 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  RIMS Scorching ("Norman L. Brewer")
+  Rubber, Stones and Swamps ("Dana H. Edgell")
+  boiling iso-hop (Regan Pallandi)
+  Antiseptic hops; oxidation ("Mort O'Sullivan")
+  RO H2O Availability ("Rob Moline")
+  Pyrex Boil-over Preventers (John Bowerman)
+  Re: RIMS scorching and more (Jeremy Bergsman)
+  hop varieties ("Mort O'Sullivan")
+  Mail Order beer of the month (DGofus)
+  29 mm crown caps (Edward J. Basgall)
+  Dutch beer answers (Edward J. Basgall)
+  re: the slow-mead myth (Lars)
+  San Diego brews (Herbert Bresler)
+  Pistachio Porter (Herbert Bresler)
+  Steven Jones "Wort Aeration" 3/9/98 (Vachom)
+  Backyard Barley (Greg Young)
+  HSA (Jeff Grey)
+  Malt Syrups...low protein? (Mark Swenson)
+  Need NAOH cleaning advice ("MICHAEL L. TEED")
+  Bottle Carbonation ("Clifford A. Hicks")
+  stopper sizes (PVanslyke)
+  Molasses (PVanslyke)
+  Goldings / powdery sensation (Domenick Venezia)
+  Re: Cleaning Sanke Kegs (Jeff Renner)
+  RIMS flowrate and suction pressure questions (Jeff)
+
+
+
+
+
+
+Be sure to enter the 7th NYC Spring Regional Competition
+3/22/98. Surf to http://www.wp.com/hosi/companno.html for more
+information...
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 9 Mar 1998 19:17:39 -0500
+From: "Norman L. Brewer" <nlbrewe`at`gti.net>
+Subject: RIMS Scorching
+
+
+>From a control standpoint, one flaw in most RIMS designs is the location of
+the temperature measurement point.  The temperature measurement is normally
+taken in either the grain bed or in the piping between the bed and the RIMS
+heater.  This is logical since the major goal of the control loop is to
+control the bed temperature.  However, this design violates the basic
+feedback control principal of placing the measurement in a location that
+minimizes process lag and dead time.  In addition, if precautions are not
+taken, the discharge temperature of the heater can easily get to the range
+where enzymes could be deactivated.
+
+
+Consider a typical RIMS system with a 1250-watt heater and the temperature
+sensor in the outlet of the mash tun.  If you were holding the temperature
+at a protein rest of 122 degrees F, and then increased the temperature
+setpoint to the conversion temperature of say 152 degrees, the controller
+would quickly raise the heater output to full power.  If the flow rate is 1
+gallon per minute then temperature rise will be about 9 degrees F across the
+heater.  The controller will hold the heater at full power until the
+measured temperature gets close to 152 degrees.  So if the circulating wort
+temperature is 150 degrees, the actual heater outlet temperature would be
+159 degrees.  The problem gets worse if the flow rate decreases.  A 0.5 gpm
+flow rate would give 18 degrees f temperature rise across the heater and an
+actual outlet temperature of 168 degrees.  It's hard to determine the effect
+of this on the circulating wort without knowing the enzyme deactivation
+reaction kinetics, but the basic problem is that flow interruptions are not
+sensed by the control system and can result in temperature excursions.
+
+
+Now, consider what happens if the temperature sensor is moved to a point
+immediately after the heater.  In the above example, once the circulating
+wort reaches 143 degrees, the controller will have to cut back the heater
+power to maintain the heater outlet temperature at the setpoint of 152.  If
+the flow decreases, the temperature controller will see a momentary increase
+in outlet temperature and decrease heater power to maintain the desired
+outlet temperature as long as there is some flow.  (if the flow stops
+completely, there will be a problem because the overheated wort will never
+reach the temperature sensor.)
+
+
+What about the grain bed temperature, which is what we want to control?  If
+we are dumping hot wort into the grain bed at the desired temperature, then
+the bed temperature will approach the wort temperature over time.  Only heat
+loss from the bed or energy released or consumed in the bed by chemical
+reaction will cause the bed temperature to differ from the circulating wort
+temperature. The higher the flow rate the better the bed temperature will
+track the heater outlet temperature.
+
+
+The drawback of measuring the temperature after the heater is that the
+control system does not move the grain bed temperature as fast as when the
+measurement is taken before the heater.  The advantage is that you avoid
+temperature excursions and the possibility of scorching if the flow rate is
+reduced.
+
+
+This is not just a theoretical discussion.  My RIMS system uses this
+approach, and I get excellent temperature control of the bed temperature.  I
+can't distinguish any temperature variation between the bed and circulating
+wort using a dial thermometer.  The only time I have had scorching was
+before I hooked up the automatic controls and left the heat on with the pump
+off.  In this case there was baked on caramelized crud on the element which
+took steel wool to remove.
+
+
+Regards,
+Norm Brewer
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 9 Mar 1998 16:46:04 -0800
+From: "Dana H. Edgell" <edgell`at`quantum-net.com>
+Subject: Rubber, Stones and Swamps
+
+
+Three questions:
+
+
+1) Does anyone have a summary of the "what stones should be used for stein
+beer" thread of several months ago.
+After a not too serious suggestion that my club should brew a stienbeer at
+the upcomming So. Cal. Homebrew Fest, I find myself stuck with the job of
+finding some propeer stones.
+
+
+2) Does rubber react with hot wort, hot water or hot acidified sparge water?
+I found some black rubber gromets (exact type of rubber unknown) at the
+hardware  store that I would like to use as a seal around a probe
+thremometer inserted into my hot liquor tank (and maybe mash-tun). A web
+search seemed to indicate that most types of rubber (except urethane,
+polydufide or polyacrrylate) are fine for beer but no mention was made for
+hot wort. Cold lactic acid is considered fine but hot lactic acid is not.
+How strong are the acids used in these chemical resistance tests? Would
+sparge water acidified with lactic acid be considered "hot lactic acid"
+when it is relatively weak. Any chem or rubber guys out there who can help
+me?
+
+
+3) I am looking at using the float valve from a swamp cooler as to maintain
+a constant sparge level (with proper ani-HSA manifold addition).
+Unfortunately, I wouldn't bet that the plastic parts are food grade. Would
+this be a problem considering the short time of contact in passing through
+a valve? Has anyone found a better low-cost alternative or home-made float
+valve design? Please keep in mind I would like to keep the option of
+acidifying my sparge water in the future.
+
+
+Thanks,
+Dana Edgell
+
+
+- ------------------------------------------------------------------
+Dana Edgell                   edgell`at`quantum-net.com
+3101 Cowley Way #176          http://www.quantum-net.com/edge_ale
+San Diego, CA 92117           (619) 276-7644
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 12:53:15 +1000
+From: Regan Pallandi <esb`at`wr.com.au>
+Subject: boiling iso-hop
+
+
+Most beer kits that are available here (with a couple of exceptions) are
+just malt extract with iso-hop dribbled in. What I have been wondering is,
+what effect does boiling have on the characteristics of iso-hop, either
+flavour or bitterness? A professional brewer once told me that boiling
+these kits gives them an off taste, but, he is one of those lucky few who
+knows EVERYTHING, and when in doubt would make something up, so I'm not
+sure of his advice. A few of my customers have been wondering about this,
+so if anyone has cold, hard facts, ideas/experience, could you let me know
+what you think.
+
+
+cheers, Regan in Sydney
+Eastern Suburbs Brewmaker
+149 Clovelly Rd. Randwick, 2031
+ph/fax (02) 9399 8241
+esb`at`wr.com.au
+http://www.wr.com.au/esb
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 02:09:14 -0000
+From: "Mort O'Sullivan" <tarwater`at`brew-master.com>
+Subject: Antiseptic hops; oxidation
+
+
+Shaun Funk writes:
+
+
+>...Most of us also are aware
+>of the reputed preservative properties of hops.
+>I have never seen an explanation of what it is
+>about hops that gives them this property.
+
+
+In recent years, the extent to which hops actually confer biological
+stability to beer has been called into question. In the past, brewers
+used to talk about the preservative value (PV) of hops and quantified
+it based on the resin content of the hops. It was generally agreed
+that alpha acids were more preservative than beta acids and depending
+on where you look you might find an equation for preservative value
+that looks something like this:
+                PV = 10[alpha + (beta/3)]
+This equation would vary among different sources, but more weight is
+always given to the alpha acids.
+Actually, the situation is much more complicated than simply measuring
+the alpha and beta acids and plugging them into a formula. The major
+growth inhibiting organisms derived from hops have been identified as
+trans-humulone and related (-)-humulone and colupulone compounds.
+These compounds act as ionophores that disrupt the trans-membrane pH
+gradient of sensitive bacteria. Lactobacilli vary tremendously in
+their sensitivity to these compounds, and successful beer spoilage
+organisms are often quite resistant to hop compounds. Thus a simple
+measurement of PV based on the resin content in your hops is not an
+accurate gauge of the antiseptic qualities of the hops. It really
+depends on what your beer is exposed to.
+
+
+Regarding the storage of hops and your question about oxidation:
+oxidation can occur in sealed nitrogen-purged packages due to
+compounds with relatively high oxidizing potential in the hops
+(granted, it will be much less than in hops exposed to air).  From a
+bitterness point of view, oxidation decreases alpha acid bittering
+potential and increases beta acid bittering potential, but not enough
+to redeem the loss of alpha acid bitterness (also, oxo-beta acid
+bitterness is believed to be qualitatively inferior to iso-alpha acid
+bitterness). From the aroma point of view, oxidation will give you
+cheesy and other off flavors and higher levels of some desirable
+epoxides of hop terpenes (this may or may not be appropriate to the
+style of beer you are brewing). As far as choosing hops goes, trust
+your eyes and your nose. As hops oxidize they tend to change from
+green to brown in color and their aroma changes noticeably. Get to
+know your hops in their fresh state and you will recognize when they
+are not.
+
+
+- ----------------
+Cheers,
+Mort O'Sullivan
+ICBD (Edinburgh, Scotland)
+tarwater`at`brew-master.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 9 Mar 1998 22:24:57 -0600
+From: "Rob Moline" <brewer`at`ames.net>
+Subject: RO H2O Availability
+
+
+>From: smurman`at`best.com
+>Ken Schwartz informed me that buying RO water from
+>the store costs about $3 per 5 gal. brew session.   The best place to
+>find these things is probably "high-end" fish stores.
+
+
+    In addition to his discussion of DI and RO water,  I would wish to add
+that a great place to get your water from is your community Dialysis Unit.
+The one I worked in years ago ran city h2o through DI units, then cartridge
+filters, and then through a series of RO units. I would often give this
+water away to those who asked, and even had a jump ship pilot who would
+reward me with a free jump from time to time for some of this stuff.
+Analysis of this stuff came back as 99.99 h2o, so for those so inclined to
+add their own salts, but don't wish to own a water system, taking advantage
+of this route may be useful.
+    Ask to speak to the Head Technician about water and ask if it's possible
+to get some if you were to supply your own containers. Don't forget to offer
+to trade for brew!
+Jethro (Behind on Reading The HBD, And Hoping The Roads Are Gonna Let Me Get
+To Work) Gump
+
+
+Rob Moline
+Court Avenue Brewing Company,
+Des Moines, Iowa.
+brewer`at`ames.net
+
+
+"The More I Know About Beer, The More I Realize I Need To Know More About
+Beer!"
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 08 Mar 1998 14:39:53 -0800
+From: John Bowerman <jbowerma`at`kfalls.net>
+Subject: Pyrex Boil-over Preventers
+
+
+Ooohh!  The light's bright ...
+
+
+I've got one of these widgets, but it's never prevented a boil
+over.  What it has done is give me warning of an imminent
+boil-over by starting to rattle noisily against the bottom of my
+kettle just before one occurs (of course that assumes I'm paying
+attention).  I originally found mine in a brew shop in Boise but
+have since seen them in restruant supply shops. FWIW
+
+
+ ... Back to the shadows.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 01:37:54 -0800
+From: Jeremy Bergsman <jeremybb`at`stanford.edu>
+Subject: Re: RIMS scorching and more
+
+
+"C.D. Pritchard" <cdp`at`chattanooga.net> has a good memory:
+
+
+> Jeremy noted a RIMS scorching problem: 
+> 
+> >My element is only 48" and would be 5KW at 240V.  During my first
+> >batch I noticed a scorched smell in the wort during the first boost.
+> >In looking at the temperature differential across the heating chamber,
+> >it was ~11C...
+> 
+> That element isn't running at 240 VAC is it? <g> 
+
+
+No, mainly because with the flow rates I was comfortable with I
+realized that I could already pretty much max out the delta T
+with 1200W.  
+
+
+Here's one thing I figured out about RIMS during the design stage,
+which has been said before but this is a slightly different way
+of saying it:
+
+
+If you design a RIMS, you batch size is limited by your recirculation
+rate (which in turn is affected by mash tun geometry, false bottom
+design, pump and plumbing design....).  This is because no matter
+how well low a heat density element you get, or how many you use,
+your delta T through the heating chamber can only result in a
+temperature equal to the target temp at most.  You need to be able
+to recirculate the entire liquid volume in a reasonable amount of
+time, say <10'.
+
+
+> One question reguarding the high recirc dT across the heater:  did you
+> notice the brew's f.g. being higher than expected?  Since the mash fluid is
+> said to be enzyme rich, overheating the recirc too much above the desired
+> rest temp. would damage the enzymes and hence make a less fermentable wort.
+
+
+In my case I was heating from 40C, so the outlet temp (~51C) was still 
+less than the target temp (60C) so the bulk wort was not being overheated.
+(Obviously some was drastically overheated onto the element.)
+
+
+>  Although the recirc. is only at an elevated temp. for as long as it takes
+> to reach cooler temps. in the tun, it still worries me.  Maybe it's
+> overkill, but my controller kills power to the heater when the recirc.
+> temp. ar the exit is > 2 degF above the desired rest temp.  
+
+
+My controller (designed by fellow HBDer Ken Schwartz) has this feature but
+I'm still working on fine-tuning it.
+
+
+> >2) I recirculate around the heater rather than through it for the first
+> >half gallon or so since a great deal of particulate matter comes
+> >through then and I believe from inspection of the burnt crud on the
+> >element...
+> 
+> Recircing around the heater sounds like a PITA to me.  Why not recirc
+> without powering the heater and power it when the recirc clears?  
+
+
+I may redesign my heating chamber, but as it stands now, some particulate
+matter will get trapped in there, which may also be a result of a too
+low flow rate.  Anyway it's not a PITA becuase my runoff clears in less
+than a half gallon, but it does negate some of the cool-factor of the
+RIMS.
+
+
+One idea I've heard on chamber design goes as follows: you want the
+outlet to be up to encourage air to leave the system.  On the other hand
+you want it down to encourage particulates to leave the system.  A horizontal
+chamber that ends in a "T" that goes both up and down solves both problems.
+Put the normal outlet on the top side, and put a valve on the bottom.  You
+can occaisionally open the valve to drain out a few ounces of slop and
+throw it on top of the grain bed, if you have problems like mine.  Maybe
+it will all be moot when/if I up the flow rate.
+
+
+> Reguarding timing the boosts: I don't worry about a slowish boost to
+> mashout since there should be very little enzyme activity during the boost.
+
+
+It's not so much the slowness of the boost but when which part of the wort
+sees the boost.  If you do a 30' rest and your recirculation time is 15',
+different parts of the mash may see each temperature for very different
+amounts of time, depending on exactly where you begin each boost in relation
+to the "phase" of the recirculation.
+
+
+I hope my discussion of my RIMS problems doesn't turn anyone off of the
+concept.  I already love it.  My 2nd and 3rd batches went very well, and
+even the 1st was not that bad.  It's fun to build, fun to use, and it is
+much easier to use than my 3 tier was.  I expect it to be more reproducible
+too.
+
+
+Here's one nice thing about it as an example, and as a tidbit.  In the
+Fix 40-60-70 schedule, boiling water is suggested as an aid to a rapid
+40-60 boost.  With the old style system, it was tough to add the water
+and stir without feeling like some parts of the mash were being over
+heated.  A little back-of-the-envelope calculation produced the method
+I've used with my RIMS so far:
+
+
+My wort exits the heater at the beginning of the boost at 45C (inlet=40C).
+I dough in with .25 gallons/lb of water, and add .08-.09 gallons/lb of
+boiling water during this boost, to result in .33 gallons/lb during
+saccharification (a typical thickness).  One will see that an extra
+one third volume is added.  I trickle in the boiling water at about
+1/3 the recirculation rate.  In theory, a first pass estimate of the
+resulting temperature is (3*45C+1*100C)/4=59C.  This is quite close
+to the practice.  In other words, each part of the wort has an
+essentially instant transition from 40 to 60C, even though it has 
+taken me ~10' to get the whole mash done.
+- -- 
+Jeremy Bergsman
+jeremybb`at`leland.stanford.edu
+http://www-leland.stanford.edu/~jeremybb
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 12:07:26 -0000
+From: "Mort O'Sullivan" <tarwater`at`brew-master.com>
+Subject: hop varieties
+
+
+>Looking for: Origin, Type (Aroma, Bittering, Dual), Avg.Alpha Acid %,
+>storage stability, usually used in ......, any comments.
+>  Bullion
+>  Magnum
+>  Early Green
+
+
+Some of this information was previously posted on the HBD. For a
+summary of the hop info that was posted, see:
+http://www.interlog.com/~ajrobert/brewery/hops.html
+
+
+Below are some of my notes on these varieties:
+
+
+Bullion
+- ------
+- --Growing regions: England, Germany, Belgium, USA
+- --Avg Alpha-Acid: 7-9%
+- --Usage: Dual-purpose (primarily bittering)
+- --Growing Notes: susceptible to both Verticillium wilt and Downy
+mildew (this is only of marginal interest to most brewers but it can
+affect price as it requires more effort to grow).
+- --Notes: Bred by ES Salmon at Wye College in 1938. He was famous for
+crossing English hops with American hops to boost alpha-acid content
+of new varieties. Consequently, Bullion has a strong "American" aroma
+which some brewer like and some don't.
+
+
+Magnum
+- --------
+- --Growing regions: Germany and USA
+- --Avg Alpha-Acid: ~12%
+- --Usage: Dual
+- --Growing notes: Very tolerant to Verticillium wilt. Generally have
+high yields. Increasing rapidly as percentage of world crop.
+- --Notes: Round, smooth aroma; more herbal than citrusy. Used primarily
+as extract or pellets.
+
+
+Early Green
+- -----------
+I don't have detailed info on this hop variety, but I know it has been
+crossed with Hallertauer Mittelfruh, Cascade, and Brewer's Gold to
+produce Crystal. Anyone have more detailed information?
+
+
+- ----------------
+Cheers,
+Mort O'Sullivan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 07:42:35 EST
+From: DGofus <DGofus`at`aol.com>
+Subject: Mail Order beer of the month
+
+
+I am thinking about getting a subscription to one of the beer of the month
+clubs. Has any body got any advice or had any dealings with them. I would like
+it ifd they make it possible to order the beers that they send. Lets say i
+love the road tar imperial sout from himhawville Neb, can I get an order from
+them or is that not possible? TIa . Private e-mail OK
+
+
+Bob Fesmire
+Madman Brewery
+Pottstown, PA
+Dgofus`at`aol.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 08:57:00 -0500
+From: ejb11`at`psu.edu (Edward J. Basgall)
+Subject: 29 mm crown caps
+
+
+Hi Dave and collective - FYI,
+I called Shirley at Country Wines re: my quest for 29 mm crown caps and
+unfortunately all she knew about were regular sized caps for small mouthed
+champagne bottles.  She has a 29 mm adapter for cappers that allows them to
+handle the thicker bottle necks.  I guess I'll have to keep looking and
+check with European friends.  The Belgians must get them from somewhere.
+
+
+cheers
+ed
+
+
+
+
+*******************************************************************
+Ed Basgall
+1176 S. Atherton St.
+State College, PA 16801
+Ph: (814) 867-1624
+work Ph: (814) 863-1249
+State College Underground Maltsters
+(SCUM)
+
+
+ejb11`at`psu.edu              http://www.personal.psu.edu/ejb11/
+*******************************************************************
+Privilege does not absolve one of ecological responsibility.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 09:08:23 -0500
+From: ejb11`at`psu.edu (Edward J. Basgall)
+Subject: Dutch beer answers
+
+
+Hi Laura,
+I forwarded your question to a Dutch friend....
+
+
+>Date: Wed, 4 Mar 1998 21:43:41 EST
+>From: LBarrowman <LBarrowman`at`aol.com>
+>Subject: help ID'ing Dutch beer
+>
+>My husband brought me a Dutch beer from the Netherlands that has me stumped.
+>It doesn't have a label but is wrapped in tissue paper printed as follows:
+>
+>Met de beste wesen van Brouwerij't IJ  Amsterdam
+>extra speciaal ijndejaarsbier
+>voorzichtig doch vastberaden uitschenken
+>inh.33 cl. cat.s alc.9 vol.%
+>bier van hoge gisting
+>ad usum internum
+>minstens houdbaar tot enid '98
+>met nagisting op fles
+>
+>If anyone has a clue as to what I can expect from this beer I would appreciate
+>whatever you can share. Also, I am planning to share it (and some other
+>identifiable' yummie beers) with some friends this Saturday. I hope it is
+>ready....
+>Laura - Charlotte  NC
+
+
+And his reply..
+
+
+The beer is a special 'end of year' beer (Dutch people will find any occasion
+OK to brew a special beer.) The brewery is called " 't IJ" in Amsterdam. The
+IJ is a small river in Amsterdam. What I will do is contact the office in The
+Netherlands to see if they can find out an address.
+
+
+ Found more info on Web:
+
+
+http://www.tiac.net/users/tjd/bier/hollmast.html
+
+
+Brouwerij t'IJ Proeflokaal   (proeflokaal = tasting room)
+Funenkade 7
+
+
+Out on the Eastern Dock (Ooster Dok), near where the Singelgracht lets out. is
+named after the cannal "HET IJ" where the Amsterdam harbour is situated.
+beers are mostly in the abbey-style (doubles and triples and the like), but
+also sometimes including a unique twist on Pilsner, "Plzen." , Winter Beer,
+IJndjaars bier (The end of the Year beer), Paasbier (Easter Beer)
+etc. Their normal beers (from 5% up till 9%) are called Struis, Columbus,
+Natte and Zatte (Dutch names) which you can get in bottles.
+
+
+In Amsterdam, to drink t'Ij beers from a keg, go straight to the brewery.
+The brewery is located at the Funenkade in Amsterdam east (just a 15 minute
+walk from the central station. They are open 2-8pm? as a tasting room, but
+it is more like a pub. From the Centraal Station, facing it, go towards the
+right on bus 22. Go about 5 stops or so and get off at the windmill.
+That's t'Ij. Hours used to be 3 to 8 PM, Tues-Sat;
+regards,  Marc
+
+
+cheers
+ed
+
+
+*******************************************************************
+Ed Basgall
+1176 S. Atherton St.
+State College, PA 16801
+Ph: (814) 867-1624
+work Ph: (814) 863-1249
+State College Underground Maltsters
+(SCUM)
+
+
+ejb11`at`psu.edu              http://www.personal.psu.edu/ejb11/
+*******************************************************************
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 14:58:13 +0100
+From: Lars <skyking`at`e193.ryd.student.liu.se>
+Subject: re: the slow-mead myth
+
+
+
+
+In HBD #2657 Dick Dunn wrote:
+
+
+>> I would like you to enlighten me what everybody seem to make wrong...
+
+
+>It's not "everybody"...a lot of folks are able to make meads that are ready
+>very quickly and that don't have off-tastes even when young.  But there are
+>enough people who haven't had this sort of experience that there is a per-
+>sistent myth that meads take multiple years.  
+
+
+Well I didn't mean "everybody" to be taken literally. I've found that
+a quite general oppinion is that mead will require about a half year
+of maturation after bottling.
+
+
+>>...I
+>> can't say I'm a experienced mead maker, but when I did a mead it took
+>> quite a time to carbonate. It took even longer to mellow tastes and I
+>> would say it hasn't done that yet.
+
+
+>Slow carbonation in mead is often the result of a long fermentation/
+>clearing period, where the yeast start to go dormant and a lot fall out so
+>that it takes a while to get enough of a population going again to prime
+>the mead.  The other cause is that with a strong mead you may be pushing
+>the alcohol tolerance of the yeast.  These two factors can work together.
+
+
+>The need to mellow tastes is of more concern, but we'd have to dive into
+>trying to analyze the tastes before it became clear whether it's a young
+>mead taste _vs_ an off-taste.  This is difficult, although there is one
+>particular off-taste that people can generally agree on--they tend to call
+>it "mouthwash" or "Listerine".  That one is definitely a fault that can
+>be avoided by choice of yeast and reasonable fermentation temperatures.
+
+
+The problem seem to be that both off-tastes and young tastes can both
+be unpleasant and it's not easy to tell what is a off-taste and what
+is a young taste if both tend to mellow out with maturation. I think
+however spicyness in a methegiln is to be regarded as a young taste
+(maybe I'm pointing on the difference between young and off tastes
+since the spicyness is not supposed to mellow away)
+
+
+>The three main culprits for off-tastes that take a while to age out are
+>an inappropriate yeast, excessive nutrient, and too-high fermentation
+>temperatures.  (And yes, I've committed all of these sins myself.  I had a
+>pomegranate melomel that took over two years to be reasonably drinkable.)
+
+
+Since you pointed out some origins of off-tastes it would be nice if
+you also stated your point of view regarding which yeast is
+appropriate, how much nutrient one should use (is low nutrition as
+bad?) and what temperature one should aim at.
+
+
+
+
+/Lars
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 09:23:31 -0500
+From: Herbert Bresler <bresler.7`at`osu.edu>
+Subject: San Diego brews
+
+
+Dear Homebrewers and Beer Lovers,
+
+
+Excellent forum, this HBD.  Today I need help of a different kind.....
+
+
+I want to know where I should go to sample local brews in San Diego,
+California.  I'm going to be there the end of this month and would like to
+visit the best brewpubs.  If there is a local Homebrewing club that happens
+to be meeting while I'm there (3/25 - 3/29/98), even better.  I also would
+like to know where there is a good beverage store to buy a bottle or two of
+brews that I cannot find here in Ohio.  I'll be staying at the harbor
+downtown, but I'll have a car at least part of the time.  I'll also be
+making a trip to Carlsbad for a day.  ===> Can any of you San Diego locals
+please help me out? Private e-mails are okay.  Thanks in advance.
+
+
+Herb
+bresler.7`at`osu.edu
+Columbus, Ohio
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 09:21:40 -0500
+From: Herbert Bresler <bresler.7`at`osu.edu>
+Subject: Pistachio Porter
+
+
+On Sat, 7 Mar, Steve Gabrio asked about pistachio nuts in homebrew:
+>The other day I was drinking a porter and eating pistachios. The two
+>flavors complimented each other well.  So...
+>  - Has anybody tried brewing with pistachios?
+>  - Would they work best in the mash, boil or fermentor?
+>  - What quantity would be needed for a 5 gallon batch?
+>TIA
+>Steve Gabrio
+>gabrio`at`premier1.net
+>Everett, WA
+>You can't be a Real Country unless you have A BEER and an airline-
+>it helps if you have some kind of a football team, or some nuclear
+>weapons, but at the very least you need a BEER.
+>
+>                                                  - Frank Zappa
+
+
+Steve,
+
+
+Hmmm, pistachios, porter and Frank Zappa.  Could it be we are really twins
+separated at birth?  With out a dount, my favorite beer style is porter.  I
+love the roasted nutty flavor in a good porter even though there are no
+nuts actually in it.  Your suggestion seems like a natural extension of the
+style pushed to it's extreme, as we homebrewers are want to do.  I hope the
+following is helpful.
+
+
+I ran across a recipe for pistachio Munich helles in, of all places, the
+latest issue of Brew Your Own ("A Truly Nutty Beer" March 1998, vol. 4, no.
+3, pp. 9-10).  Scott Russell described how to get nut flavor into his
+homebrewed helles.  He chose Munich helles because it says it allows the nutty
+flavor to come through.  He used 2 cups of shelled unsalted pistachios for
+5 gal of beer.  He crushed the nuts very finely (coffee or spice grinder)
+and then tightly sealed the crushed nuts in a jar with 4 ounces of grain
+alcohol (or vodka).  He let it sit "a few weeks" before brewing.  He
+filtered the pistachio liquor and put half in the secondary and added the
+other half at bottling.  He says you can make nut extract this way from
+about any nuts you like.  His helles was even tinged slightly green.  I
+have not tried this, but it sounds reasonable; I have made fruit extracts
+using a very similar method.  YMMV.  If anyone has tried this or similar
+method with nuts, please let us know the results.  And, Steve, if you come
+up with a good nutty porter, please post the full recipe for the rest of
+us.
+
+
+Good luck and good brewing to you all,
+Herb
+bresler.7`at`osu.edu
+Columbus, Ohio
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 08:37:16 -0600
+From: Vachom <MVachow`at`newman.k12.la.us>
+Subject: Steven Jones "Wort Aeration" 3/9/98
+
+
+        Okay, now I'm interested.  Satisfied in the past with the practical
+results of my own version of the Bernoulli principle at work in aerating
+wort, I'm now interested in discovering if anyone has any hard data on
+the efficiency of various aeration methods.  My method-- a few small
+holes in a piece of copper tubing of smaller diameter than the racking
+tube--and Mr. Jones method--leave spigot fitting on bottom of boiling
+barrel loose--are essentially the same.  The practical advantages are
+clear: dirt cheap (free in Jones' case), adds no extra time to brew
+process, easy clean-up.  But, judging from the recent string of posts on
+the cleaning of air stones and the construction of in-line systems, I
+can tell that many of the posters on this digest obviously go to much
+greater and more expensive lengths to aerate wort:  pumps, pure oxygen,
+air stones.  Perhaps someone has some scientific data comparing aeration
+methods. . . 
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 09:37:36 -0500
+From: Greg_Young`at`harcourtbrace.com (Greg Young)
+Subject: Backyard Barley
+
+
+Howdy, all. Well, I recently got my father into homebrewing, and I'm pleased to
+say he's really running with it. He's really into gardening, and last year I
+persuaded him to grow some hops for me. Now that he's brewing himself, he
+thought it would be kinda cool to do a homebrew in the true sense of the
+word--with all homegrown ingredients...including homegrown and home-malted
+barley. Has anyone given backyard barley-growing a shot? Any general cultivation
+info, yield expectations ('crop' yields, not starch), etc... would be great. Or,
+if anyone can suggest another resource I could look to for help, that'd be great
+too--my 'net searches have only come up with commercial scale information.
+Thanks in advance.....
+
+
+Greg Young
+Philly, PA
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 09:57:55 -0500
+From: Jeff Grey <jgrey`at`cbg.com>
+Subject: HSA
+
+
+
+
+Hello All,
+
+
+
+
+I have recently built a RIMS system that for the most part been happy
+with.  However in my first two batches I have noticed an off flavor.  I
+am currently getting some air into one of the lines and I am wondering
+if this could be the cause of the off flavor.  Unfortunately I cannot
+describe the flavor.  I was wondering if someone would be able describe
+what kind of off taste HSA would contribute.  I have tracked down the
+source of air getting into the line an I am in the process of fixing it.
+Any help would be appreciated.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 10:02:01 -0400
+From: Mark Swenson <swenson`at`aoml.noaa.gov>
+Subject: Malt Syrups...low protein?
+
+
+In a post from:
+
+
+>From: Jim Bentson <jbentson`at`htp.net>
+>Subject: Re: Irish Moss and Unread References
+
+
+He says:
+
+
+>Fix goes further. He states 'Irish Moss is not recommended for
+>protein-deficient worts. Those produced from malt syrup  are an example.'
+
+
+Is it true that malt extracts are known to be low in proteins?  If so, why
+are the extracts processed this way?  Could this account for the low foam
+stability my "extract plus specialty grain" beers exhibit?  If so, will
+malted wheat extract and/or malto-dextrine powder help compensate, or is
+doing a partial or full mash the only indicated adjustment?
+
+
+Thanks,
+
+
+Mark Swenson
+Key Biscayne, FL
+Miami Area Society of Homebrewers
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 09:04:13 -0600
+From: "MICHAEL L. TEED" <MS08653`at`msbg.med.ge.com>
+Subject: Need NAOH cleaning advice
+
+
+ .int homebrew`at`hbd.org
+
+
+ Greetings to the collective from a lurker. A couple quick questions
+ and I will return to the darkness. I would like to occasionally
+ clean my 1/2 bbl rims using red devil lye. The system is plumbed
+ with brass gate valves which have been processed with vinegar and
+ hydrogen peroxide and copper tubing. What effect would this cleaning
+ have on the plumbing? What contact times would be appropriate, and
+ at what concentrations. Mucho thanks for your first rate advice.
+
+
+ MT
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 10:06:34 -0500
+From: "Clifford A. Hicks" <simtech`at`ka.net>
+Subject: Bottle Carbonation
+
+
+I have a batch of Pappazian's "Holiday Cheer" ale in secondary fermentation.
+After a few days, all fermentation appears to have ceased. I have lowered
+the temperature to 32F to help clear the beer. At this point, after the beer
+has cleared, I usually keg and force carbonate. But this time I want to
+bottle and naturally carbonate. If I add priming sugar and bottle and then
+store bottles at room temperature, will carbonation take place? I fear that
+there will be no yeast left to do the job (having fallen out during the
+chill). Will it just take longer to carbonate or is it a lost cause? I hate
+the idea of having to add yeast again. Please advise. Thanks!   Cliff   -
+simtech`at`ka.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 10:04:58 EST
+From: PVanslyke <PVanslyke`at`aol.com>
+Subject: stopper sizes
+
+
+Greg,
+
+
+I had this info on file, just don't remember where I got it from.
+
+
+ 
+
+
+Hole Size Stopper#  Dimensions (bottom - top) 
+
+
+ - ----------------------------------------------------- 
+
+
+3/4"  A #2  5/8 - 13/16 
+
+
+1"  B #5  15/16 - 1 1/16" 
+
+
+1 1/16"  C #5.5  31/32 - 1 1/8" 
+
+
+1 1/8"  D #6  1 1/16 - 1 1/4" 
+
+
+1 3/16"  E #6.5  1 3/32 - 1 5/16" 
+
+
+1 1/4"  F #7  1 3/16 - 1 7/16" 
+
+
+1 6/16"  G #7.5  1 7/32 - 1 17/32" 
+
+
+1 1/2"  H #8  1 5/16 - 1 5/8" 
+
+
+1 5/8"  I #8.5  1 13/32 - 1 11/16" 
+
+
+1 11/16" J #9  1 1/2 - 1 3/4" 
+
+
+1 3/4"  K #9.5  1 15/32 - 1 25/32" 
+
+
+1 7/8"  L #10  1 21/32 - 1 31/32" 
+
+
+1 15/16" M #10.5  1 3/4 - 2 1/32" 
+
+
+2"  N #11  1 7/8 - 2 3/16" 
+
+
+2 1/8"  O #11.5  1 7/8 - 2 7/16" 
+
+
+2 1/4"  P #12  2 1/8 - 2 1/2" 
+
+
+2 1/2"  Q #13  2 9/32 - 2 11/16" 
+
+
+3 1/4"  R #14  2 15/16 - 3 9/16" 
+
+
+3 3/4"  S #15  3 1/4 - 4 1/16" 
+
+
+ 
+
+
+ 
+
+
+>From a recent McMaster-Carr catalog (all dimensions inches): 
+
+
+ 
+
+
+Size      Large      Small     Hole 
+
+
+          End Dia    End Dia   Dia 
+
+
+ 
+
+
+00        9/16       3/8       1/8 
+
+
+0         11/16      1/2       1/8 
+
+
+1         3/4        9/16      5/32 
+
+
+2         13/16      5/8       13/64 
+
+
+3         15/16      11/16     " 
+
+
+4         1          25/32     " 
+
+
+5         1-1/16     7/8       " 
+
+
+6         1-1/4      1         " 
+
+
+7         1-7/16     1-3/16    " 
+
+
+8         1-5/8      1-5/16    " 
+
+
+9         1-3/4      1-7/16    " 
+
+
+10        1-15/16    1-5/8     " 
+
+
+ 
+
+
+Please note that this table applies to rubber stoppers and that cork stoppers 
+
+
+of the same "number" are of different size.  I have no idea whether this 
+
+
+table is "standard". 
+
+
+Paul VanSlyke >> brewin' and relaxin' in Deposit, NY
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 10:21:18 EST
+From: PVanslyke <PVanslyke`at`aol.com>
+Subject: Molasses
+
+
+Joe,
+
+
+I bewed a porter a couple years ago with a full cup in a 5 gallon batch. The
+molasses taste was over-powering at bottling but had subsided some 2 months
+later and made for a tasty brew as it mellowed further through out the
+following year.
+
+
+Paul VanSlyke >> brewin' and relaxin' in Deposit, NY
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 07:35:12 -0800 (PST)
+From: Domenick Venezia <demonick`at`zgi.com>
+Subject: Goldings / powdery sensation
+
+
+
+
+#2657, "Robert D. Dittmar"  <Robert.D.Dittmar`at`stls.frb.org>
+
+
+>I have often been disappointed in British ales for having what I think 
+>of as a clinging, cloying sugary taste.  I even feel it on my tongue 
+>as a kind of crystalline sensation as if I have a mouth full of sugar 
+>crystals.
+
+
+I think that what Robert is describing is the sulfate powdery, dryness
+that Burton style British ales exhibit.  This is a front of the mouth 
+dryness imparted by large amounts of sulfate contributed by gypsum and 
+epsom in the Burton well waters.
+
+
+The cloying sugary taste may be diacetyl which some British ales have in
+considerable amounts.  It is a separate issue from the dryness. 
+
+
+Cheers!
+
+
+Domenick Venezia   demonick`at`zgi.antispam.com (remove .antispam)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 10:40:43 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Cleaning Sanke Kegs
+
+
+In Homebrew Digest #2657 (March 10, 1998), "S. Wesley"
+<sWesley`at`maine.maine.edu> asked about cleaning and kegging in Sankeys.  I
+tried to reply privately, but it bounced.
+
+
+I've been kegging in these (Sankey kegs) about 18 years.  First, *release
+all pressure* by pressing down on the ball valve or you'll get your teeth
+full of a heavy valve and draw tube assembly when you release it.  Hold a
+rag over it or you will get a face full of stale beer.  Then, using a small
+screwdriver, pry out the flat retaining ring.  Next, using the jaws of a
+pair of pliers as a tool, turn the valve to the left maybe 30 degrees, and
+lift it out.  It takes less time to do it than to describe it.  Soak the
+inside with bleach water for a few hours and boil the valve/drawtube to
+sanitize it.  Rinse, fill with beer, reverse the above steps,  The hard
+part is re-installing the flat retaining ring.  You have to press down to
+compress th O-ring (which is under the valve).  To do this, I put a
+plumbing part called a reducing coupler (I think) on top of the valve, hook
+a board under the lip of the keg top, across the coupler as a fulcrum, and
+sit on the other end.  Then I force the ring into its slot by twisting a
+wide screwdriver blade in the gap against the coupler until it's home.  It
+takes me about 30 seconds.  You'll need to get a tap, of course.  I keg
+about half of my beers in these, the rest in 5 gallon Cornelius (soda)
+canisters, which have the advantage of being easier to fill and seal, using
+cheaper taps, and taking up less room in the fridge.  Of course, they hold
+less.
+
+
+Good luck.  -Jeff
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 10:41:26 -0500
+From: mcnallyg`at`gam83.npt.nuwc.navy.mil (Jeff)
+Subject: RIMS flowrate and suction pressure questions
+
+
+Hi All,
+
+
+  I am in the process of putting together a direct fired, manual
+control, RIMS and have a few questions about flow rates and suction
+pressure on the false bottom.
+
+
+  First off, the mash/lauter tun is a converted Sankey keg with an
+11.5 inch diameter SS false bottom from Hartland Homebrew/ABT.  I
+have also mounted a glass sight tube to the outside of the tun just
+outside the keg wall and upstream of the ball valve.
+
+
+  I just got the entire thing assembled this past weekend and decided
+to do some dT/dt and flowrate tests using 5 gallons of water in the
+tun (no grains).
+
+
+  Using the sight glass, I marked the liquid level with the pump off
+and the valves closed.  After getting the flow started, I set the ball
+valve downstream of the pump so that the liquid level in the sight
+glass dropped about 2 to 3 inches.  At this "suction pressure" the
+flow rate was only about 1/2 gallon/minute.  With grain in the tun I
+assume the flowrate will be even lower given the same "suction
+pressure".
+
+
+  Is this about the right "suction pressure"?  What would be the max
+"suction pressure" that I could use (with grain in the tun) and not
+compact the grain bed?  Is a flowrate of 1/2 gallon/minute sufficient
+to prevent scorching of the wort/grain on the bottom of the tun (the
+false bottom does not cover the entire bottom of the tun)?
+
+
+  With my 170K BTU (Metal Fusion) ring burner set almost as low as it
+would go without the wind blowing it out, I was able to heat the 5 gal
+of water at about 2 to 3 degF/minute.  Since 5 gal of water has about
+the same thermal mass as a "typical" mash (for a 5 gal batch), is this
+dT/dt about right for temp boosts?
+
+
+  I plan on using the burner only for temp boosts and not for
+continuously maintaining the rest temps.  In this case, are there any
+pros or cons associated with *not* running the pump while the burner
+is off?
+
+
+  Any words of wisdom from anyone with a similar RIMS setup?
+
+
+  Long live the HBD!
+
+
+                                                 Hoppy brewing,
+
+
+                                                 Jeff
+
+
+
+
+
+
+
+
+
+
+============================================================================
+
+
+Geoffrey A. McNally                  Phone:  (401) 841-7210 x21390
+Mechanical Engineer                  Fax:    (401) 841-7250
+Launcher Technology and              email: mcnallyg`at`gam83.npt.nuwc.navy.mil
+    Analysis Branch
+Naval Undersea Warfare Center
+Code 8322; Bldg. 1246/2
+Newport, RI  02841-1708
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2658, 03/11/98
+*************************************
+-------

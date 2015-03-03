@@ -1,0 +1,1353 @@
+﻿This file received at Sierra.Stanford.EDU  94/01/24 00:53:23
+
+
+
+
+HOMEBREW Digest #1332                             Mon 24 January 1994
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  predicting original gravity (J. Fingerle)
+  Whitbread Dry back on the shelf? ("when the cold winds blow, it'll ease your mind  21-Jan-1994 1013 -0500")
+  RE: lager yeasts at warm temps (Spencer.W.Thomas)
+  Oven Sanitizing (WKODAMA)
+  style (Spencer.W.Thomas)
+  Answers/Questions (Marc L. Goldfarb)
+  yeast & bottlelife (RONALD DWELLE)
+  Color test (George J Fix)
+  RE: plastic carboys and a question (Nathan Berggren)
+  Chicagoland BJCP Exam! (korz)
+  Style Guideline, etc. (Ulick Stafford)
+  RE: HELP WITH HEAT (CompuCom) <v-ccsl`at`microsoft.com>
+  Homebrew at a Beerfest (SC Taylor)
+  Huh huh, he said "leaves" (Alan Edwards)
+  shakespeare (RONALD DWELLE)
+  Malts-  Amer, Brit, germ, Belg.  Extraction & Color ratings. (COYOTE)
+  Viniator (korz)
+  RE:KEGS AND PARTS (TJM17)
+  Aging Ales (Jim Busch)
+  Minnesota Brewfest 93 (James D Rickard-1)
+   (dan_fox)
+  SS Fermenter (and Sanitizing) (Philip J Difalco)
+  Beer Bread (Zach Fresco)
+  Extract rates (npyle)
+  warning! Beginner here (Katherine Lawter)
+
+
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Archives are available via anonymous ftp from sierra.stanford.edu.
+  (Those without ftp access may retrieve files via mail from
+  listserv`at`sierra.stanford.edu. Send HELP as the body of a
+  message to that address to receive listserver instructions.)
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 21 Jan 94 10:12:31 EST
+From: fingerle`at`NADC.NADC.NAVY.MIL (J. Fingerle)
+Subject: predicting original gravity
+
+
+
+
+            Lately, several people have been asking about how to
+            calculate (predict) original specific gravity.  During the
+            past year, I collected various posts from the digest on this
+            subject, and just recently assembled all of the info form my
+            use.  What follows are *my* notes on the subject.
+            
+            Diclaimer:  I did not originate this research, it is not my
+            work, it is the work of others on the digest.  I am sorry I
+            cannot give proper credit.
+            
+            BTW, constructive corrections, suggestions, and comments are
+            heartily encouraged.
+            
+            ------------------------------
+            Theoretically, for 100% yield, a mash would provide 0.0463
+            points of specific gravity per pound of ingredient per
+            gallon of water.
+            
+            In other words, 0.0463 (points/pound)/gallon
+                            -or-    points/pound/gallon
+            
+            To predict original gravity,
+            you must know either the percent yield:
+            
+            OG = 1 + [ (pounds of stuff) * (0.0463) * (% yield) ] ...
+                     --------------------------------------------
+                               # of gals of wort
+            
+            -OR- you must know the points yield of each substance:
+            
+            OG = 1 + [ (pounds of stuff) * (points yield) ] ...
+                     --------------------------------------
+                               # of gals of wort
+            
+            Yields for "stuff" as found in various digest posts:
+            
+            Ideal  0.0463 points/lb/gal, or 100%
+            Sugar  0.044 points/lb/gal, or 95.0%
+            DME    0.042 points/lb/gal, or 90.7%
+            LME    0.036 points/lb/gal, or 77.4%
+            Honey  0.032 points/lb/gal, or 69.1%
+            Grains 0.029 points/lb/gal, or 62.6%
+             (the value for grains is for pale and crystal
+              being used as adjuncts; I do not believe that
+              the darker grains-chocholate, roasted barley, for
+              example-add to the gravity.)
+            
+            
+            Example:  (Jimmy Beer #22), 5 gal batch
+            
+            5.4 lbs LME
+            1   lb  DME
+            1.5 lb  grains
+
+
+            OG = 1 + [5.4*0.036] + [1*0.042] + [1.5*0.029]
+                      ---------     -------     ---------
+                          5            5            5
+            
+            OG = 1 + 0.038 + 0.009 + 0.009 = 1.056
+            -----------------------------------------------------------
+                      Various sources of degrees of extraction
+                             (as posted in the digest)
+            
+            I have removed the sources of these numbers, since I cannot
+            give proper credit-my notes are highly edited after I
+            downloaded from the digest.
+            
+            1
+            2
+            3 Jimmy Fingerle (me!-my experience)
+            4
+            
+                                   1    2     3    4
+            Ingredient:
+            Malt extract          35    -    36   35
+            Dry spray malt        42   43    42   44
+            Corn sugar            37   45    44    -
+            Cane sugar            44   45     -    -
+            Brown sugar           41   44     -    -
+            Rice syrup            36    -     -    -
+            Dextrin powder        42    -     -    -
+            Pale malt             31   36    29   32
+            Lager malt            31   35     -    -
+            Munich malt           26  30-33   -   28
+            Mild ale malt         27  29-34   -    -
+            Crystal malt          22  29-31  29    -
+            Wheat malt            34   39     -   30
+            Cara pils malt        23   29     -   24
+            Roast barley          27   29     0    2
+            Chocolate malt        27   29     0    2
+            Black patent          27   29     0    2
+            Honey                 38    -    34    -
+            Molasses              45   42    44    -
+            ----------------------------------------------------------
+            Hope all of this helps!  Again, thanks to OTHERS who have
+            posted to the digest-I am just an editor, except for column
+            3 above.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 10:15:00 EST
+From: "when the cold winds blow, it'll ease your mind  21-Jan-1994 1013 -0500" <ferguson`at`zendia.enet.dec.com>
+Subject: Whitbread Dry back on the shelf?
+
+
+A brewer friend of mine just walked in my office to tell me that an all-new
+Whitbread dry yeast was on the shelf at a homebrew shop in Woburn MA.
+What is the story on this?  Is this an all-new strain?  I really like the
+"old" whitbread - one of the best dry-yeast attenuators I've used.
+
+
+JC Ferguson
+LITTLETON MA USA
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 10:30:38 EST
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: RE: lager yeasts at warm temps
+
+
+A plea, if you can, to use yeast names rather than numbers.  I can
+never remember what 2006 and 2007 are?  Bohemian?  Munich???  I
+realize the names are sometimes as arbitrary as the numbers, but at
+least I can hook a name to something in my memory so I'll recognize it
+next time it comes around.
+
+
+Thanks.
+
+
+=S
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 1994 10:27:31 -0500
+From: WKODAMA`at`aba.com
+Subject:  Oven Sanitizing
+
+
+>From the "I thought I thought but actually didn't think" file:
+
+
+I read with great interest Jeff Frane's post a short while back
+about using the oven to sanitize bottles with foil caps.  I
+really liked the idea, and especially liked that the monstrous
+drudgery of bottling could be abated by splitting over two days. 
+"Wow, this is going to be GREAT!" I said to myself while smirking
+and rubbing palms together vigorously.
+
+
+So I carefully capped each of my Grolsch bottles with foil,
+followed by a happy deposit into the oven.  "Wow, this is going
+to be GREAT!"  HOWEVER...my initial "heh-heh-heh" turned into
+"&*#`at`!?!" as a while later the smoke detector started *raging*
+infernally.
+
+
+Seems I *assumed* that since my Grolsch bottles were a few years
+old, naturally none of the new plastic capped imposters had
+deviously infiltrated their way into my stock of ceramic capped
+prizes.  My wife nearly permanently canceled my brewery in the
+aftermath of the melted-plastic-cap-toxic-smoke shock syndrome
+that fervently gripped her (&*#`at`!?!!!  You ruined my oven!!!!).
+
+
+Several gallons of elbow grease and salty language later, the
+oven has been reclaimed!  I still ardently champion the oven
+sanitizing method, although I now *diligently* inspect each and
+every Grolsch bottle that goes in there.
+
+
+Wesman
+
+
+P.S. -- the next major brewery purchase is kegging equip.  ;-)
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 10:51:12 EST
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: style
+
+
+The problem is that it's almost impossible to judge a beer without
+having a standard to judge it against.  Aside from "obvious flaws"
+such as infections (but who's to say: pediococcus, enterobacter,
+brettanomyces are infections in most beer styles, but are essential
+components of the flavor of a lambic), how "well made" a beer is
+depends on what you were aiming for.
+
+
+Take, for example, hops.  The extremely hoppy flavor and aroma present
+in American (west coast) pale ales are entirely inappropriate in most
+German lagers.
+
+
+Last night, we had our club-only pale ale competition (just in time to
+air-express beer to Boston).  One of the beers entered as an IPA was a
+nicely made beer, and would have done quite well in the "English
+Strong Ale" category.  But its sherry-like tones and lack of hop
+aroma and flavor made it a poor IPA.
+
+
+So yes, styles are arbitrary and confining.  And, yes, sometimes the
+AHA style guidelines don't even encompass all the commercial examples
+in that style.  But there's nary a well-made beer that can't fit into
+one of the (is it 29 now?) AHA styles if you stretch it a little.
+
+
+I like to experiment, but at the same time, I'm still learning how to
+control my brewing processes.  It's a challenge to previsualize a
+certain end-result, and work backwards to a set of ingredients and a
+process to achieve that result.  I can aim for a particular style, and
+get unbiased judges to give their opinions on how well I did.  That
+feedback then helps me to improve my brewing skills and understanding
+how it works.  But it would be impossible without the common point of
+reference provided by the style guidelines.
+
+
+=S 
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 11:02:33 -0500
+From: dd596`at`cleveland.Freenet.Edu (Marc L. Goldfarb)
+Subject: Answers/Questions
+
+
+
+
+
+
+Hi all:
+
+
+As usual, I'm getting to my responses a bit late.
+
+
+In HBD #1324, Mike Fetzer was looking for keg parts.
+Try Foxx Distributing in Denver at 800-525-2484.
+
+
+Dave asked about using an auto radiator as a chiller.
+In the book "The Lore of Still Building" they show a
+chiller using an auto air conditioner radiator. You
+passed the hot wort through the coils and used a fan
+blowing on the fins for cooling. I got a radiator and
+flushed it with solvents, water and other stuff, (I 
+don't remember what). I didn't use it for 2 reasons.
+First, even though I tasted the water after all the
+flushing and it seemed okay, I still wasn't sure. I
+pushed a lot of chemicals through it.
+Secondly, although it appeared that the coil was copper,
+there were lead solder joints in it. I just wasn't
+comfortable with the whole thing.
+I finally built a counter flow chiller for about 20 bucks
+and it works great.
+
+
+In HBD #1327, Mike Hansen asked about specific gravity of 
+different combinations of fermentables.  Miller has a
+chart on page 196 of The Complete Handbook of Home Brewing
+that should help.
+
+
+RE: Beer Across America:  My wife bought me a 3 month 
+subscription for Christmas. I got the first package the last
+week in December. I was pleasantly surprised with the 
+selections, Wassail Ale from the Full Sail Brewing Co. and
+Baderbrau Bock, from Chicago.  The reason for the surprise
+is that their advertising brochure shows such 
+*great microbrews* as products from Oldenberg. If that stuff
+showed up, I would have asked for a refund.  Anyway, they
+don't tell you in advance what they will be sending, but if
+the next 2 shipments are as good as the first, I'll be a 
+real happy camper.
+ 
+RE: Ron Rushings request for heat sources, I use the burner
+from a hot water heater. We mounted it in the air cleaner cover
+from a car (air cleaner, you remember, when car engines had
+carburators). We then welded the air cleaner to a steel stand.
+I works great with my 15.5 gal. former Bud keg brewpot.
+
+
+
+
+RE: soda in kegs: I have found that the rubber lid seal
+collects the soda odor. When I replaced mine, the
+problem disappeared.
+
+
+RE: Carboy handles: I bought one from a homebrew store,
+the metal one that screw clamps onto the bottle. It works
+okay for one bottle. I asked at the bottled water dist.
+and they sold me a plastic handle that just slips on and off.
+Not only is it easier to use, but it places the handle 
+over the center of the carboy, as opposed to having it
+on the side and causing the carboy, with the 
+settled trub, to tip whenever moved.
+
+
+And finally, my question of the week:  I can buy grains
+already crushed in 50# bags at a real cheap price. I'm told
+that they are best used within a month. If I keep them
+refrigerated or frozen, will they last longer? TIA
+
+
+Marc
+ P.S. Thanks to all who helped me get rid of my double spacing
+problem.
+
+
+- --
+GREETINGS EARTHLINGS and HAPPY BREWING from:
+Marc Goldfarb, DIMARC BREWING CO.
+Cleveland, Ohio
+216-631-3323 or on INTERNET dd596`at`cleveland.freenet.edu
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 11:17:23 EST
+From: dweller`at`GVSU.EDU (RONALD DWELLE)
+Subject: yeast & bottlelife
+
+
+          Notes on yeast:
+          I just made up 7.5 gal of wort & split it--5 gallons & 2.5 
+          gallons--identical (except for the finishing hops (Perle in 
+          5;Willamette in 2.5). I pitched different yeasts (everything 
+          at basement room temp= ~58),  Yeast Lab A07 (Canadian Ale) 
+          in the 5 gallon; Yeast Lab L35 (California Lager) in the 2.5 
+          gallon. The Ale is supposedly good at "cool" and the Lager 
+          good at "warm". I brewed last Monday, pitched Tuesday 
+          morning. Wednesday morning, the lager yeast was blowing off 
+          at a high rate; ale doing nothing. Thursday morning lager 
+          was starting to subside and replaced blow-off tube with 
+          airlock; Ale was just beginning to bubble. This morning 
+          (Friday), lager and ale were bubbling about equally, lager 
+          clearly slowing down, and I'm expecting no blow-off with the 
+          ale at all. Checking temp over five days--almost always 
+          56-58 F (though I suspect maybe a little cooler in middle of 
+          night).
+                Conclusion: Ale yeast not too good at this low temp 
+          (though I await the finish product to be sure)
+                Request: Any info on other ale yeasts that might work 
+          this cool. Or should I just stick to lager yeasts (fraid I'm 
+          stuck with basement brewing & not up to building wort 
+          temp-controllers, not to mention the space problem.) Might 
+          Ale have worked better had I pitch the Ale yeast warmer, 
+          before letting it cool to room temp?
+          On bottle life--
+                I inherited two cases of standard longnecks from a 
+          colleague who retired (from brewing as well as from job). He 
+          says he used them for 20-25 years (maybe 40-60 refills) and 
+          can't remember one breaking (except for dropping on cement). 
+          I've refilled a couple more times and now have them mixed in 
+          with my other supply and can't see or tell any difference. 
+          I've never broken one (cept for throwing at my ex-wife's 
+          head, which was made of stone). Course these bottles were 
+          never baked. I was thinking about baking, but maybe not, if 
+          the bottles die.
+          ?
+          
+          Ron Dwelle (dweller`at`gvsu.edu at Internet)
+          I
+          h
+          a
+          t
+          e
+          t
+          h
+          o
+          s
+          e
+          l
+          o
+          n
+          g
+          s
+          i
+          g
+          n
+          a
+          t
+          u
+          r
+          e
+          s
+          b
+          u
+          t
+          m
+          y
+          e
+          g
+          o
+          m
+          a
+          k
+          e
+          s
+          m
+          e
+          d
+          o
+          i
+          t
+          s
+          o
+          r
+          r
+          y
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 10:26:55 -0600
+From: gjfix`at`utamat.uta.edu (George J Fix)
+Subject: Color test
+
+
+Norm writes:
+
+
+>I read with interest the recent article by Dr. Fix regarding beer color.  I am
+>confused, though, about the following from the article:
+
+
+>>PROCEDURE
+>>1. Clean everything.
+>>2. De-gas standard and then sample in blender.
+>>3. Measure in 20 ml of standard beer in export bottle No. 1.
+>>4. Measure in 20 ml of sample beer in export bottle No. 2.
+>>5. If colors are different, measure in 10 ml of distilled
+>>   water to bottle No. 1 and 10 ml of sample beer to export
+>>   bottle No. 2.
+>>6. Continue Step 5 until colors become close. At this
+>>   point the comparisons should be made in the one-inch
+>>   diameter jars. Transfer 25 to 50 ml into these from the
+>>   export bottles and return after comparison. Cut the water
+>>   and sample beer increment from 10 ml to 5 ml.
+>>7. When a color match is obtained, record the total
+>>   amount of water added. Figure 2 gives the associated degL.
+
+
+>When changing over to the smaller viewing vessel, are you not diluting at a
+>greater rate?  It seems to me that you cannot just add up the total dilution
+>water if you are discarding part of the sample in the original vessel (the
+>Miller bottle).
+
+
+The curve was constructed using exactly the procedure described above. We
+started with 10 beers which ranged nearly white (Bud) to those with increasing
+color. The Lovibond reading for these were measured with Lovibond glasses. 
+The procedure described above was applied to each of these, and the total
+amount of dilution required was measured. This with the known color rating gave
+a data point. A cubic spline fit was used with these 10 data points to get
+the curve displayed in the article. We then compared the results of some
+other samples with photometric measurements (the most accurate way to measure
+color) and found errors in the range +- 1%, which was our oiginal goal for
+a simple procedure.
+
+
+
+
+>These may be stupid questions, but I have found that stupid questions are far
+>less harmful than keeping quiet and misunderstanding.  This applies to
+>virtually everything!
+
+
+How true! As far as brewing is concerned, I feel a strong case could be made
+for the notion that there are no stupid questions.
+
+
+George Fix
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 1994 11:03:36 -0600 (CST)
+From: nate`at`casbah.acns.nwu.edu (Nathan Berggren)
+Subject: RE: plastic carboys and a question
+
+
+> Date: Fri, 14 Jan 94 10:24:42 EST
+> From: dweller`at`GVSU.EDU (RONALD DWELLE)
+> Subject: Miscellany
+ 
+>           Someone asked about plastic carboys. I've started using the
+>           five-gallon kind and am pleased so far. I got it by paying a
+>           $7 deposit and buying 5 gallons of  "spring" water at a
+>           local water shop. Only one of the water dealers in the area
+>           would do this--the rest wanted me to sign contracts to have
+>           water delivered to my office for the next century before
+>           they'd let me take out a plastic jug.
+>                 I went to the plastic carboy after I broke my second
+>           glass carboy, dropped it 3 inches to the cement basement
+>           floor and it shattered. It was partly a matter of
+>           have-five-homebrews-relax-five-times-and-fumble-finger-while
+>           -cleaning-the-carboy, but also I find that a strong chlorox
+>           solution makes the surface of the carboy very slippery. If I
+>           ever get glass again, I'm also going to buy a pair of those
+>           gloves that NFL wide-receivers wear.
+
+
+My thoughts on this are:
+1) at least here in Chicago you can get a glass carboy the same way 
+   you get your plastic ones for the same price ($5-$7), so why not
+   just go with the glass.
+   
+2) invest in at least one carboy handle, though I bought one for each
+   carboy I own, and your investment is still less than that of a new
+   carboy from a supply store.
+   
+3) at such a minimal investment, replacing a carboy isn't too expensive.
+
+
+I also have a question.  I have two batches sitting in secondary fermentors
+in my kitchen next to the back door that have been there for three weeks.
+Is this too long (considering the kitchen is about 50 degrees), and what
+sort of adverse effects might I encounter?
+
+
+nate berggren
+nate`at`casbah.acns.nwu.edu
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 11:48 CST
+From: korz`at`iepubj.att.com
+Subject: Chicagoland BJCP Exam!
+
+
+Sheaf & Vine Brewing Supply and Brewers of South Suburbia will
+be holding a
+                 BJCP Certification Exam
+
+
+        on Sunday, April 10th, 1994, starting at 12 Noon,
+                 at Lion's Head Ale House
+        (13301 South Olde Western Avenue, Blue Island, IL)
+
+
+You must PRE-PAY to assure yourself one of the limited spots for
+this exam.  First-timers: $50,  retakes: $30.  Checks should be
+made out and sent to:
+
+
+                Sheaf & Vine Brewing Supply
+                 5425 South LaGrange Road
+                  Countryside, IL 60525
+
+
+
+
+For more info please call: 708-430-HOPS, evenings or weekends.
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 12:03:55 EST
+From: ulick`at`haydn.helios.nd.edu (Ulick Stafford)
+Subject: Style Guideline, etc.
+
+
+Part of the recent bunging up was due to a competition announcement with 
+all the gory details (wouldn't an announcement of an FTP site have been a 
+better idea?).  Anyway one was the style guideline for stout
+
+
+ . CLASSIC DRY STOUT - Black opaque. Light to medium body. Medium 
+to high hop bitterness. Roasted barley character required. Sweet 
+maltiness and caramel malt [crystal] evident. No hop flavor or 
+aroma. Slight acidity/sourness OK. Low to medium alcohol. Diacetyl 
+low to medium.  OG 1.038-1.072 IBU 30-60 SRM 40+.
+
+
+My bitch is about the maltiness.  Guinness is not malty -or is that too much 
+of an industrial beer for the homebrew gods?  I was marked down in a
+competition recently for not having a DRY stout sweet enough and I thought
+it was too malty.  At first I 
+was inclined to just blame the lack of experienced judges, but now it is
+evident that the AHA hasn't a clue.  I still think specialized judges are 
+needed - not Jack of all trades - master of none.  And the AHA style guidelines
+need to be reviewed.  Anyway, it makes my decision not to enter tha Nationals
+easy.  I guess overall I agree with Alan in Austin.
+
+
+Error of the day from 1330 
+I would *guess* that microwaves, being even higher than UV in
+frequency, would be even more effective as longer wavelengths are the ones
+that tend to not hit anything (ala sunsets).
+Scott
+
+
+What was that about HBD being bunged up with uninformed guessing and thinking?
+Perhaps a quick glance at the electromagntic spectrum would have corrected
+this.  Let's get the signal to noise ratio up. 
+__________________________________________________________________________
+ 'Heineken!?! ... F#$% that s`at`&* ...  | Ulick Stafford, Dept of Chem. Eng.  
+    Pabst Blue Ribbon!'               | Notre Dame IN 46556
+                                      |    ulick`at`darwin.cc.nd.edu   
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 10:28:48 PST
+From: Scott Lord (CompuCom) <v-ccsl`at`microsoft.com>
+Subject: RE: HELP WITH HEAT
+
+
+>From: f_rushingrg`at`ccsvax.sfasu.edu (Ron Rushing)
+
+
+>Greetings From Nacogdoches--
+
+
+>Can someone point me towards information regarding burners ?  I've been
+>using a natrual gas stovetop, a cajun cooker-type propane burner, and a
+>small homemade natrual gas burner.  All have worked fine with small
+>batches, less than 5 gal.
+
+
+>My brewing friends and I have decided to move up to larger batches.  We've
+>been using 15gal SS kegs with false bottoms.
+
+
+>All works well, except for heating the water !  It takes WAY TOO LONG (1-2
+>hours) to bring  water up to boil. We've also been considering larger boils
+>(> 25 gal), if a heating solution can be found.
+
+
+>Some of you folks may have some suggestions for burners and related
+>attachments--
+
+
+I  had the same problem. My solution was to get a larger burner (rocket jet)
+this fixed the problem of getting the water up to a fast boil, but it 
+introduced
+a new one. Now I had a 35,000  BTU burner that was OK when boiling 5 gal.
+of wort when I switch to a  15gal SS kegs with false bottoms
+ it wasn't enough. Now I have a 135,000 Btu burner and it boils
+water faster. But now it caramelizes wort on the bottom and in the tube to the
+ valve.
+ I was talking to one of the "Brews Brother"  and he solved the
+same  problem with his boiler by making a shroud to go around
+his boiler. He gets 15 gal. of water to boil in 20-30 min. with a
+35,000 Btu burner.
+I am currently in the process of building one for my self.
+I will report back when it is finished to give test results..
+
+
+Scott Lord
+v-ccsl`at`microsoft.com
+WSHBSC
+Beer it's not just for breakfast anymore.
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 10:38:52 PST
+From: SC Taylor <esc1`at`holonet.net>
+Subject: Homebrew at a Beerfest
+
+
+St. Mary's College in Moraga, CA, is holding its third Beerfest in
+June, and as a co-chair on the Brewery Committee and a homebrewer,
+I thought we might try to organize a Homebrew Corner at the event to
+complement the 30 or so breweries that will be there.
+
+
+This is a not for profit event, and for homebrewers it would be only
+an exhibition - not a contest - but it seems like a good opportunity 
+to spread the word.  Case in point: when I brought up the idea at a
+meeting, the response was, "Sounds good, just as long as no one get 
+sick from it."  Let's teach 'em a lesson!  
+
+
+Ideally, I'd like to get six to twelve people to serve their wares at 
+the Fest.  You will gain admission to the event, and a chance to showcase
+the art of homebrewing side-by-side with microbreweries from around the
+country.
+
+
+I will be losing my Internet account at the end of this month, so anyone
+interested should contact me in person.
+
+
+Stuart Taylor
+(510) 562-7006
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 10:55:08 PST
+From: rush`at`xanadu.llnl.gov (Alan Edwards)
+Subject: Huh huh, he said "leaves"
+
+
+COYOTE, in digest 1329, was objecting to the use of the term "leaves" in
+reference to hop flower petals.
+
+
+And then later in the post, he writes:
+
+
+| Odd occurence.  I didn't have that problem with the Jalapenos I added
+| to my pepper beers. :-^)     Maybe they just don't nucleate like leaves.
+                                                                   ^^^^^^
+Huh huh, that was cool.
+
+
+
+
+P.S.
+OK.  I know that no one will read this until probably next Tuesday because
+of the backlog, so the humor will have been lost (because I'm replying
+to something I saw in yesterday's digest--which was an article written
+last Tuesday).
+
+
+Well, actually, now that I read it again...there is little humor in it
+to begin with.  I thought it was funny when I read it.
+
+
+Have a GREAT day!!!!!
+ -Alan
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 13:55:46 EST
+From: dweller`at`GVSU.EDU (RONALD DWELLE)
+Subject: shakespeare
+
+
+          I know everyone's got more important stuff to do, but I 
+          thought the following messages on a scholarly Bboard were 
+          interesting.......
+          
+          Shakespeare Electronic Conference, Vol. 5, No. 0052.  
+          Friday, 21 January 1994.
+          
+          Michael Dobson <U63495`at`UICVM>
+          Date:           Thursday, 20 Jan 94 09:46:22 CST
+          Subject:        Re: SHK 5.0043 Re: Sack, Ale, and Stout with 
+          Some Questions
+          
+          re: Beer and Shakespeare
+                England, thank God, is a country which doesn't *need* 
+          to import beer, and I know of no references to beer imports 
+          before the glorious rise of the Dublin stout industry in the 
+          mid 18th century. The beer which Falstaff *could* have 
+          ordered at the Boar's Head was 'brown bastard', a rich ale, 
+          as distinct from the 'small beer' which most households 
+          brewed themselves in part as a means of disinfecting and 
+          re-flavouring the water. It was very low in alcohol, pallid, 
+          and insipid in flavour, a perfectly acceptable soft drink 
+          for children -- the Renaissance equivalent of Budweiser.
+                Mead, incidentally, is still commercially available in 
+          Britain, and as long as you have confidence in your dentist 
+          and don't mind the idea of alcoholic Lucozade isn't bad.
+                The other crucial connection between Shakespeare and 
+          beer is the posthumous patronage of Flowers' brewery of 
+          Stratford, which funded the building of the original 
+          Shakespeare Memorial Theatre and remains a patron of the 
+          RSC. Flowers' bitter is now distributed nationally by one of 
+          the big conglomerates -- I think Whitbread -- and continues 
+          to bear a portrait of the Bard on its beermats. Merrie 
+          Englande at L1.50 a pint (or am I lagging behind 
+          inflation?).  On Shakespeare's involvement in the modern 
+          drink-marketing business, see Graham Holderness and Bryan 
+          Loughrey's piece 'Shakespearean Features' (which reproduces 
+          both the Flowers' trademark and the version of the Chandos 
+          portrait used on Tesco dry sherry bottles -- at least Tesco 
+          know their sack!), published in Jean Marsden's anthology 
+          *The Appropriation of Shakespeare* (1991). [not to be 
+          confused, incidentally, with Brian Vickers' recent rewrite 
+          of the Dunciad, which adopted a similar title].
+                Michael Dobson
+          
+          From: Michael Best <BEST`at`UVVM.UVic.CA>
+          Date: Thursday, 20 Jan 94 08:43:10 PST
+          Subject:        Ale (Big or Small), Beer, Sack . . .
+          
+                Gervase Maarkham's *The English Housewife* (1516) 
+          lists usable recipes for March ale (the strongest), ale, 
+          small ale (made from the second infusion of the malt) and 
+          that newcomer beer (with its trendy new additive hops). It 
+          devotes a whole chapter to the care (read adulteration) of 
+          wines, including sack. My edition of Markham (1986) is still 
+          available from McGill-Queens Press.
+          
+          From:           William Kemp <wkemp`at`s850.mwc.edu>
+          Date:           Thursday, 20 Jan 94 22:02:32 EST
+          Subject:        Falstaff beer
+          
+                Edward Bonahue mentions seeing Falstaff beer in "My 
+          Own Private Idaho," and William Godshalk testifies to having 
+          drunk it. He also recalls that the picture on the can 
+          resembled Santa Claus.
+                It did. Falstaff was a low-priced beer widely 
+          available (at least in the South) during my youth (the 50's 
+          and 60's). The bearded guy on the can did indeed look a lot 
+          like Santa.
+                Was the stuff in "My Own Private Idaho" authentic or a 
+          directorial fabrication? There's no Falstaff beer in 
+          Virginia. Is it still around in other parts of the country?
+                I cannot believe I am writing this note. A week of 
+          cancelled classes and staying inside must have driven me 
+          batty.
+                Bill Kemp
+                
+          From:           Leo Daugherty <fld`at`u.washington.edu>
+          Date:           Friday, 21 Jan 1994 03:17:07 -0800 (PST)
+          Subject:        Sack, etc.
+          
+                There used to be a terrific cheap beer called 
+          Falstaff.  It was sold in Kentucky and Ohio (at least), had 
+          a picture of Fat Jack on the label, amd was absolutely 
+          delicious to the unschooled fratrat palate.  Presuming we've 
+          not run too far off the rails or otherwise afield here -- 
+          this is, after all, a "spinoff" --, does anybody know if 
+          it's still around?
+                Leo Daugherty
+          
+          From:           Hardy M. Cook <HMCook`at`boe00.minc.umd.edu>
+          Date:           Friday, January 21, 1994
+          Subject:        Falstaff Beer
+          
+                As a homebrewer, or at least I was before I returned 
+          to changing diapers four months ago, I have purchased 
+          "overrun" bottle caps.  One such cap, which tops the last of 
+          a June 1992 Brown Ale, is labeled "88 Falstaff Light."  I 
+          had always assumed that "overrun" implied that the caps were 
+          labeled but the company went out of business, and I have, 
+          thus, assumed, rightly or wrongly, that Falstaff beers were 
+          potables of the past.
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 1994 12:25:29 -0600 (MDT)
+From: COYOTE <SLK6P`at`cc.usu.edu>
+Subject: Malts-  Amer, Brit, germ, Belg.  Extraction & Color ratings.
+
+
+Does anyone have a list of malts, adjuncts and their extraction yields
+and color contributions?
+
+
+I've got the basics:  Pale, Crystal, Roast...etc.
+And I've got Lovibond ratings for the belgian malts, but what
+about their extractions?
+
+
+Millers got a decent list, but some of those values seem awfully high.
+Can chocolate, black, roast, really contribute THAT much! Seems like
+they are more for color, and dont add much fermentables. In mY Mind.
+
+
+Thanks in advance.
+
+
+***
+Also: RE: making Blue Beer.
+
+
+Get some Zima, and add food coloring.
+
+
+It's almost impossible to make a beer that light.
+Green food coloring in a wheat a couple years back lead
+to a color some described as looking like "Pond Scum". With a green
+tinge in the head. Oh well, not the St. Patties perfection required.
+
+
+I had a very lightly yellow colored Mead with became blue after adding
+a couple drops per glass.  That worked!
+
+
+Toot made a blue fermentation from basically sugar and spice.
+It's a bit heavy on the cloves for me, but it's....Blue!
+
+
+How about that green whiskey Picard shared with Scotty?
+Kinda like that stuff Scotty soused the Kelvin with.
+
+
+SO: Bottom Line:  Either carbon filter your beer to clear it, then color,
+or go for a mead type concoction and just call it an ale.
+
+
+                        G'luck.  Brew on.
+
+
+"Beam Me Up Jim " Jim...Beam...get it?  
+
+
+                John (The Coyote) Wyllie  SLK6P`at`cc.usu.edu
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 13:26 CST
+From: korz`at`iepubj.att.com
+Subject: Viniator
+
+
+Ulick writes:
+>And what is the great timesaving Viniator in Al K's
+>speedy bottling technique (takes twice as long as my method of dunking 
+>bottles in a laundery sink) that require 20 sqirts per bottle?
+
+
+Perhaps there is little time saving between the Viniator and dunking
+bottles in a laundry sink.  My previous technique was to fill a bottle
+with sanitizing solution, wait a minute and then pour the sanitizing
+solution into the next bottle.  I would go to fresh sanitizer after
+5 or 10 bottles.  I prefer to not use the laundry sink method because:
+
+
+1. it requires 20 times more sanitizing solution and
+
+
+2. I don't want to have to rinse the outsides of the bottles.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: 21 Jan 1994 14:49:50 -0500 (EST)
+From: TJM17`at`JAGUAR.UOFS.EDU
+Subject: RE:KEGS AND PARTS
+
+
+Hello Fellow Brewers,
+    In reply to yesterdays question on were to get parts for your kegulater
+system.  I have found the place its called ON TAP SYSTEMS
+
+
+
+
+                  ON TAP SYSTEMS
+                  R 316 MEADOW AVE.
+                  SCRANTON,PA 18510
+                     (717)347-2337
+                             (BEER)
+
+
+             TJM17`at`JAGUAR.UOFS.EDU
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 1994 14:55:57 -0500 (EST)
+From: Jim Busch <busch`at`daacdev1.stx.com>
+Subject: Aging Ales
+
+
+Someone asked about aging of ales.  This is a good question
+that has a few different answers.
+
+
+Many brewers have aged ales after the completion of primary
+fermentation.  Altbiers and Kolsch, immeadiately come to mind.
+In these examples, the beers are actually given a period of
+cold conditioning, or lagering,. over a period of 2-3 weeks.
+Usually, these beers are filtered prior to serving, but after
+the aging period is complete.
+
+
+English, real ales, are aged, albeit for a brief period of time.
+When referring to real ales, it is considered "conditioning" the
+ale.  This is a period of between 2 and 7 days, occuring after 
+primary fermentation has completed, and of course, in the 
+presence of yeast.  During this period finings are added, and
+the beer is conditioned until carbonation develops, and the 
+expected "star brilliance" is acheived.  
+
+
+Modern american ales (and most micros fall under this), are 
+usually fermented out, and filtered.  The filtering is often
+performed as soon as one day after primary is complete.  Once
+the "bright beer" is in the bright beer tank, aging is complete,
+and the beer will only decline, or hold steady with time.  No
+further development of taste, or "mellowing" will occur after
+the yeast is removed.  Oxidation/reduction reactions do alter
+the beer at this point. 
+
+
+Some brewers (Sierra Nevada) filter the beer, carbonate to 
+about 90% of the final CO2 volumes, then add just enough yeast
+and "sugar" to achieve a bottle conditioned, finished beer.  THis
+has the advantage of scrubbing the beer of any residual oxygen,
+and giving some homebrewers a source of clean yeast.  It is because
+of this process that relatively clean yeast can be scavenged from
+the SNPA bottles, it is fresh yeast at bottling time.  Other 
+brewers rely on keeping oxygen out of the bottle by using 
+modern, sophisticated bottling equipment.  Good bottlers spray a
+jet of water (hot?) into the top of the just filled bottle, which
+causes a good deal of foam to be generated, and the bottle is 
+capped quickly as the CO2 froth is foaming out.
+
+
+The last form of aging is what most of us employ, a period of
+warm conditioning where the beer is carbonated naturally, and then
+chilled, or a period of cold storage, followed by forced carbon-
+ation.  During this period, residual yeasts, can reabsorb 
+fermentation byproducts such as diacetyl, and if the yeasts are
+not treated roughly (shock excretion), the fermentation byproducts
+remain in the yeast cell when the cell dies, and flocculates.
+If the normal ferment never produces a high degree of byproducts,
+then there is no problem with skipping the reduction step. It is
+of interest to note that different yeast strains produce vastly
+different amounts of fermentation byproducts, and as such, selection
+of yeast strains greatly influence the required aging periods.
+
+
+In my brewery, I practice some of each method.  Some of each 
+batch is put directly into cornelious kegs, a period of cold 
+conditioning is followed by coarse filtration.  Sometimes these
+beers are served within 2 weeks of brew day.  The other half 
+of each batch is primed with sugar, warm conditoned and then 
+cold conditioned.
+
+
+
+
+Good brewing,
+Jim Busch
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 1994 13:53:56 -0600 (CST)
+From: James D Rickard-1 <rick0018`at`gold.tc.umn.edu>
+Subject: Minnesota Brewfest 93
+
+
+Last October, I entered my first Homebrew Contest, the Minnesota Brewfest.
+The amount of participation exceeded all expectation.  They had over four
+hundred entries.  I entered a Scotch Ale that admittedly had some style
+problems, due to using the wrong hops. However, When I got my results, it
+seemed that either the judges were drinking someone else's entry, or they
+put my beer in the wrong category altogether.  My Haggis Chaser Scotch Ale
+was judged as a Belgian trippel!  I got a lot of comments like "too much
+hop flavor for style", or "too dark for style."  No kidding.
+
+
+I have since been unable to contact anyone responsible for this.  I want
+my $7.50 back.  I suppose it would not help asking for my three fine ales
+back.  Belgian Trippel indeed!
+
+
+Does anyone have an address for the Minnesota Brewers Association?  Does
+anyone know who I should accost about their Goofup?  
+
+
+Jim Rickard  
+"A nice beer, maybe a bit off for this style..."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 16:18:20 EST
+From: dan_fox`at`ccmail.GSFC.NASA.GOV
+Subject: 
+
+
+
+
+Hello all:
+In #1330, thomas ciccateri <tciccate`at`carina.unm.edu> writes:
+
+
+>  The current issue of The Celebrator Beer News reviews many of the
+>Beer-Of-The Month Clubs; Beer Across America, Beers 2 You, Brew To You,
+>Gourmet Beer Society, International Beer Society, International Beer Club,
+>Micro Brew Express, and Microbrew To You.
+
+
+This sounds great! Where o where can I get a copy of the Celebrator Beer 
+News? email me or post it - i bet it would be of general interest.
+
+
+Quick observations:
+I read the Digest in <10 mins in the morning-it's not too long for me.
+
+
+Y'all are right-there are some long- winded people here. But George Fix 
+can post the phone book if he wants - it'll be interesting from him!
+
+
+Newbies, Keep the questions coming! I'm still learning from you.
+
+
+Thank you one and all - you have finally convinced my brewing partner that 
+letting God do it isn't good enough - we _need_ a wort chiller! (He's done
+a right fine job of it here in DC this week, though!)
+
+
+- --Dan Fox
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 15:32:48 -0500
+From: Philip J Difalco <sxupjd`at`fnma.COM>
+Subject: SS Fermenter (and Sanitizing)
+
+
+
+
+I just acquired a couple of 5 gal. Stainless Steel (SS) soda kegs.
+
+
+Are there any concerns for using SS kegs as primary and/or secondary
+fermentation vessels?
+
+
+What's the best way to sanitize an SS keg?
+Is near-boiling-temperature water adequate for SS sanitization, or do I need
+an iodine based sanitizer?
+
+
+Thanks.
+
+
+- ---
+email: sxupjd`at`fnma.com (NeXT Mail Okay)
+Philip DiFalco, MORNETPlus Systems Management
+FannieMae, 3900 Wisconsin Ave. NW, Washington, DC 20016  (202)752-2812
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 1994 14:09:56 -0800 (PST)
+From: Zach Fresco <zfresco`at`helen.bush.edu>
+Subject: Beer Bread
+
+
+Does anyone have a good recipy fore beer bread?  Ive had it from a kit 
+and its very good.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 94 14:45:23 MST
+From: npyle`at`n33.stortek.com
+Subject: Extract rates
+
+
+John Palmer gives the following table from Karl King (BT, may/june 92):
+
+
+>Malt Type     Points
+>DME           44
+>LME           35
+>Pale Malt     29
+>Dextrin       20
+>Crystal 20    15
+>Crystal 40    13        These numbers probably assume an
+>Crystal 60    10        infusion mash, and are up for debate.
+>Wheat         25
+>Vienna        24
+>Munich Lt     20
+>Munich Dark   18
+>Cara Pils     20
+>Cara Vienna   15
+>Chocolate      3
+>Roasted Barley 1
+>Black Patent   0
+
+
+I think most everyone would agree with the DME and LME numbers, more so if you
+would add a range (+-10% or so).  The rest of them are certainly up for debate.
+HBD participants regularly report greater than 29 points for pale malt, and the
+dextrin, crystal, and other malts seem very low.  I guess he does say these are
+typical numbers, but the term "typical" could be replaced with "random, and may
+have no place in the reality of your home brewery".  Of special interest are
+the near zero values for choco, roast, and black.  A recent table showed them
+in the 20s I believe.  So, who's right?  Who's left?
+
+
+Norm
+
+
+------------------------------
+
+
+Date: Fri, 21 Jan 1994 17:29:30 -0500 (EST)
+From: Katherine Lawter <lawterk`at`db.erau.edu>
+Subject: warning! Beginner here
+
+
+Hi, I was wondering if anyone had info on how to startup homebrewing?
+Forgive me if it is a naive question but I couldn't find a FAQ. I am
+looking for how much it would cost, time involved and hopefully any tips
+that you might have. Thanks
+
+
+                                        lawterk`at`db.erau.edu
+                                        Kathi
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1332, 01/24/94
+*************************************
+-------

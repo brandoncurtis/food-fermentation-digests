@@ -2,9 +2,13 @@ Food Fermentation Digests
 =========================
 
 An enormous archive of fermented food newsgroup digests, including:
-1. Cider Digest
-2. Homebrewer's Digest
-3. Lambic Digest
-4. Mead Lover's Digest
+# Cider Digest
+# Homebrewer's Digest
+# Lambic Digest
+# Mead Lover's Digest
 
 
+Files renamed with:
+find some_folder -type f -name "*.bub" | 
+    sed "s/\.bub$//" | 
+    xargs -I% mv -iv %.bub %.aaa

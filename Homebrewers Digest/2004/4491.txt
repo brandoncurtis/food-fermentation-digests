@@ -1,0 +1,437 @@
+﻿Date: Thu, 4 Mar 2004 00:33:11 -0500
+Subject: Homebrew Digest #4491 (March 04, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4491                             Thu 04 March 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  more bubbles and non-equilibrium dynamics ("Fredrik")
+  Freezer conversion. ("Darth Marley")
+  acetone in weizen (Marc Sedam)
+  Beer is a Cure for Cancer (Geoff Buschur)
+  Copper oxidation ("Ben Rodman")
+  Your Consent Required (files)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 3 Mar 2004 07:53:21 +0100
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: more bubbles and non-equilibrium dynamics
+
+
+> Date: Tue, 2 Mar 2004 09:35:07 -0500
+> From: "Dave Burley" <Dave_Burley at charter.net>
+> Subject: Bubbles
+>
+
+
+Hello Dave!
+
+
+Thanks for your follow up comments.
+
+
+> Brewsters:
+>
+> /Fredrik published a site with some equations.  Unfortunately, /Fredrik my
+> same objection still holds.
+>
+> There is no "saturation equilibrium ratio of CO2 in the solution and the
+> headspace", since the CO2 is SUPERsaturated, so K2/K3 ratio is undefined
+and
+> your equations fall apart as a result. As I have pointed out numerous
+times,
+> the CO2 in solution is NOT in equilibrium with the gaseous phase in normal
+> time ( if you wait  a few weeks or months then maybe, but you are in an
+open
+> system with your bubbler so the kinetics of this establishment of an
+> equilibrium far out swamps all other considerations.
+
+
+Dave, if you look at the equations you will see that they will indeed
+predict the supersaturation level you are talking about. Supersaturation is
+not magic, it is just a dynamical quasi equilibrium rather than a static
+one. With saturation equilibirum ratio as I wrote, I meant this as a
+reference. So these formulas does reduce to the equilibrium equations when
+production = 0, and time -> infinity. Of course during production the liquid
+is "supersaturated" which is also predicted by the model. I am assuming the
+supersaturation level to be directly proportional to the local production.
+
+
+As you know it is not enough to know only the ratio of kinetic constants,
+you need to know both of them.
+
+
+The higher the production of CO2, the higher the supersaturation and I
+believe this to follow fairly accurate physical laws. Supersaturation is a
+kind of dynamical quasi equilibrium, suppose you have a constant production
+for some time, then there will be established a dynamical equilibrium wich
+is of course different from the normal static equilibrium. And there will be
+for the wort in question a well defined supersaturation. I agree the exact
+level will be complex to find out, as junk acting as nucelation sites will
+definitely affect the parameters k2 and k3 as the speed the release of CO2.
+But this again is a problem of reality, not the model.
+
+
+What I failed to explain is that, I do understand your point Dave, and yes,
+the system is _not_ in equilibrium, I definitely understand this, but that
+is why I have the differential equations. If everything was at equilibrium
+there would be no need to use differential equations, then you could just
+use the normal much simpler equations for equilibrium ratios. Non
+equilibrium systems, even supersaturated solutions does follow the laws of
+nature. Of course at equiblirium things are alot easier, but even at non
+equilibrium it's doable. After all it's nothing but first order ordinary
+differential equations. The equations can fill out my screen if they want to
+(and they certainly will), but you can still just plug them in excel as easy
+and get the dynamics simulated. That's why I love computers. This would have
+been just plain undoable without a computer.
+
+
+Does this make things more clear, guess not? :) I'm not sure if I am very
+good at explaning :o| If it's still unclear give me time to finish this and
+it will be evident if the approach works or not.
+
+
+> Take my advice and run Clinitest in parallel with your experiment so you
+will
+> actually know the progress of the fermentation. Then compare this with
+your
+> bubble results.
+
+
+Continously taking samples from the fermentor doesn't seem too practical to
+me, this was one of the reasons I wanted an automated bubble logger. I would
+like an automated sampler in that case which I figure would get horribly
+expensive?
+
+
+ /Fredrik
+
+
+>
+> Keep on Brewin'
+>
+> Dave Burley
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Mar 2004 04:39:37 -0600
+From: "Darth Marley" <darthmarley at comcast.net>
+Subject: Freezer conversion.
+
+
+Darth Marley's brewing buddy has purchased a chest freezer.
+
+
+All brewing takes place at his apartment. And he has upgraded all my old
+gear.
+
+
+I encountered the designs for a wooden collar on the net. I like the idea,
+but am having difficulty persuading him about the plan.
+
+
+The previous plan was to drill through into the motor box. Does anyone have
+info about if there are coils in that region of these units?
+Has anyone converted a chest freezer by drilling through the walls?
+
+
+Any thoughts on condensation leaking into the motor box? Or any other
+reasons I can use to persuade my buddy to do it by building the collar
+around the lid?
+
+
+I feel like I know the best way to do it, but it isn't my money on the line
+here. Please help me steer this project into the right direction.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Mar 2004 12:12:29 -0500
+From: Marc Sedam <marc_sedam at unc.edu>
+Subject: acetone in weizen
+
+
+I brewed up 10 gallons of wheat beer about a month ago.  5 gallons went 
+right into a corny after primary fermentation and 5 stayed in my 
+MiniBrew fermenter for a few more weeks.  Fermented with WhiteLabs 
+WLP380 (Hefeweizen IV).
+
+
+The remaining 5 gallons has taken on a distinctive acetone odor.  I 
+added an additional gallon of 1.040 "specialty malt wort" comprised of 
+Special B and 90L crystal to create a dunkleweizen.  The acetone odor 
+seems to have dissipated a little but it's still there.
+
+
+Any thoughts on why this might be?  What kind of spoilage bacteria might 
+create this?  I've drunk several pints of the kegged wheat with no ill 
+effects.
+
+
+As for the yeast, seems better suited for the production of witbiers 
+than wheat beers.  It's more flocculent than the standard Weinstephan 
+(WLP300, Wyeast 3068).  I've never used the WLP380 before and wonder if 
+this is from the yeast and if it may fade over time.
+
+
+Cheers!
+marc
+
+
+- -- 
+
+
+Marc Sedam
+Chapel Hill, NC
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Mar 2004 12:45:07 -0500 (GMT-05:00)
+From: Geoff Buschur <gbuschur at mindspring.com>
+Subject: Beer is a Cure for Cancer
+
+
+
+
+
+
+http://www.40oz-warriors.com/news/?news_id=1199
+
+
+
+
+I am invincible!!!! - OUCH!  -  Homer Simpson
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Mar 2004 15:22:48 -0700
+From: "Ben Rodman" <brew-cat at earthlink.net>
+Subject: Copper oxidation
+
+
+Calling all metal geeks!
+
+
+        I recently received a CFC from B3, and the interior of the beer (inner)
+tubing had a black, powdery-mildew-looking deposit on it as far down as I
+could see. It didn't respond to scrubbing with an airlock brush (I know I
+couldn't have scrubbed the whole thing, just tried it to see) and PBW
+didn't touch it. A little research pointed to oxidation as being a likely
+culprit, and a call to B3's welding guy confirmed it. Likely from the
+brazing process, he said, glad to exchange it for you. Cool, but I just got
+the new one and it's worse than the first! This one's solid black on the
+inside.
+
+
+        Is there anything to do with apparently oxidized copper? Is this
+oxidation, and is it a problem? I hate to just use it as is... I'm pretty
+conscientious with equipment and not being able to see the interior I'd
+like it as good as it can get when it's new, relying on attentive
+maintenance to keep it in good shape. 
+
+
+
+
+Ben in Lyons, CO
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed,  3 Mar 2004 19:28:12 +0100
+From: files at postino.it
+Subject: Your Consent Required
+
+
+
+
+Greetings to You.
+
+
+Dear Friend, 
+
+
+RE:COLLABORATION TO SECURE OVER US$15M FOR INVESTMENT USE. 
+
+
+Permit me to introduce myself. My name is Mr. Kaba Kweli, a former Director in a
+security company in South Africa (name of company to be disclosed later). I was
+retired suddenly without notice from my position as Director last year due to
+dirty politics in the Company that did not favour me.
+
+
+I have decided to contact you through this medium based on business proposal
+that will be of mutual benefit to both of us. I have not discussed this
+transaction with anybody because it is very sensitive and secret. 
+
+
+My former Company has been well patronised in the past by top African (military)
+leaders who have kept various sums of money disgiused as family
+treasures/valuables. On one occassion in 1996, a top African Military leader
+deposited Four boxes with us registered as precious stone. Later in 1998, he
+was killed and later members of his family came forward to make claims but were
+not sure of the number of boxes registered as they could not present the full
+papers to us. I decided to keep one box and delivered three boxes to them. They
+opened it and saw it contained genuine dollars bills well over $15M in each
+boxes. I was given a few thousands since I was a witness to what it contained
+before they left. I also secretly investigated what was in the last box in our
+vault, they were all the same.
+
+
+Due to the way the Company was operated, it was not easy for a singular person
+to undertake this operation so I quickly prepared full papers for the last box
+in another name and I waited for several months since I still had some money to
+spend but unfortunately, I lost my job before I could conclude this but I have
+full claim to the last box.
+
+
+With the modalities and paper work in my possession, I am now soliciting your
+noble assistance to assist me in transferring this money out of South Africa to
+your country for immediate investment with your assistance. 
+
+
+I have also decided that we shall discuss the issue of share by percentage
+before we continue with the transaction. Please make suggestion in your
+response. Upon my receipt of your reply confirming your willingness to assist
+me with this transaction, I will immediately arrange and transfer all the
+rights of ownership of this consignment to your name to facilitate your easy
+clearance and transfer of the complete funds to your country for onwards
+investment. Please maintain absolute confidentiality on this matter as I await
+your most prompt response. 
+
+
+Yours faithfully,  
+
+
+Mr. Kaba Kweli.
+>>>>>>>> Send reply to my alternative mail kaba_kweli at msn.com
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4491, 03/04/04
+*************************************
+-------

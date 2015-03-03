@@ -1,0 +1,945 @@
+﻿This file received at Sierra.Stanford.EDU  93/01/07 01:00:06
+
+
+
+
+HOMEBREW Digest #1050                             Thu 07 January 1993
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Charcoal Water Filters (Jim Grady)
+  Gas leaks in keg systems (The Ice-9-man Cometh)
+  % alcohol by weight vs. by volume (John DeCarlo)
+  cheapest soda kegs (Don McDaniel)
+  re PH vs color test kits (Chip Hitchcock)
+  Kegged! (davehyde)
+  Brewing supplies in Conn. (Corby Bacco)
+  hops,extracts,pilsners (Tony Babinec)
+  Re: brewing Munich Dunkels (Dave Sheehy)
+  Yeast question (KRUSE_NEIL)
+  KETTLE MASHING (Jack Schmidling)
+  What to see, barley wine help needed. (Ford Prefect)
+  need help kegging (Carlo Fusco)
+  [Resend]  HSA & Lambix (Martin A. Lodahl)
+  lost in the wood (Sandy Cockerham)
+  Re: Light Protection (Carl Hensler)
+  Lights in the fridge (Bill Crisafulli)
+
+
+
+
+Send articles for __publication__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com
+Archives are available via anonymous ftp from sierra.stanford.edu.
+    (Those without ftp access may retrieve files via mail from
+    listserv`at`sierra.stanford.edu. Send HELP as the body of a
+    message to that address to receive listserver instructions.)
+**Please do not send me requests for back issues!**
+*********(They will be silenty discarded!)*********
+**For Cat's Meow information, send mail to lutzen`at`novell.physics.umr.edu**
+
+
+----------------------------------------------------------------------
+
+
+Date: Wed, 6 Jan 93 8:32:16 EST
+From: Jim Grady <jimg`at`hpwarga.wal.hp.com>
+Subject: Charcoal Water Filters
+
+
+Back in HBD #1040 (24 Dec. - I just caught up from the holidays!) Darryl
+Richman says:
+
+
+> There is no need to boil all your water before you brew.  If your water 
+> comes with a lot of chlorine, an activated charcoal filter will remove 
+> it.  You need only boil and decant your water if you have a lot of 
+
+
+This is true but I misread it at first and thought I would emphasize
+that if you use a charcoal filter you should boil all of your brewing
+water either before or while you are brewing.  Many of us extract brewers
+boil only part of the wort and I must confess that when I lived in a
+town with better tap water, I made up the 5 gallons straight from the
+tap.  I have since moved to a new town that has a lot of chlorine in the
+water (0.7 ppm) so I bought a chlorine water filter for the house
+thinking this means I don't need to boil the water from the tap.  Well,
+according to Miller (I think it's his new book, "Brewing the World's
+Great Beers") and my backyard neighbor (who sells filters & such to
+industry) active charcoal filters are _great_ breeding grounds for
+bacteria.  In addition to collecting all sorts of organics for them to
+munch on, the media itself promotes growth.
+
+
+- --
+Jim Grady                  |"Talent imitates, genius steals."
+Internet: jimg`at`wal.hp.com  |
+Phone: (617) 290-3409      |                    T. S. Eliot
+
+
+------------------------------
+
+
+Date:    Wed, 6 Jan 1993 8:00:18 -0600 (CST)
+From: SMITH`at`EPVAX.MSFC.NASA.GOV (The Ice-9-man Cometh)
+Subject: Gas leaks in keg systems
+
+
+>From: dipalma`at`banshee.sw.stratus.com (James Dipalma)
+>>From: arf
+>>I should point out that I always turn off the tank when not dispensing and
+>>thereby eliminate losses from leaks.
+>Ditto, there's no such thing as a 'leakproof' system.
+
+
+Okay, dumb question.  If you turn off the gas at the tank and let the
+system sit for a while, and you have (the inevitable) leaks, won't the
+beer go flat?  Or do soda kegs have check valves built in?  I have a
+tapper-fridge with a Sankey tap, which is hooked up to a half-barrel
+which sits there for up to 2 months before it gets finished; my 5-lb
+CO2 cylinder has lasted through 3 1/2 half-barrels but I think it's
+getting low....
+
+
+Not so dumb question:  anyone know of a cheap source for a gas check valve?
+
+
+
+
+|    James W. Smith, NASA MSFC EP-53    |     SMITH`at`epvax.msfc.nasa.gov      |
+|"Don't ever tell anybody anything.  If you do, you start missing everybody."|
+|                                                     --J. D. Salinger       |
+|     Neither NASA nor (!James) is responsible for what I say. Mea culpa.    | 
+
+
+
+
+------------------------------
+
+
+Date: Wednesday, 6 Jan 1993 10:08:36 EST
+From: m14051`at`mwvm.mitre.org (John DeCarlo)
+Subject: % alcohol by weight vs. by volume
+
+
+>From: mfetzer%ucsd.edu`at`chem.UCSD.EDU (The Rider) (Michael Fetzer)
+
+
+>How do I compute %alcohol by weigh in terms of %alcohol by volume.
+
+
+OK, the simplistic answer is that alcohol weighs roughly 80% of
+what water does for the same volume, so you can translate 5%
+alcohol by volume into 4% by weight (or use the inverse of 1.25
+to go from 4% by weight to 5% by volume).
+
+
+For the particularly picky among you, this simplistic approach
+would mena that if the beer were 100% alcohol by weight, it would
+be 125% by volume, clearly ridiculous.
+
+
+So, here is the complete approach, with percentage stated as 70%,
+not .7 (you can substitute 1 for the 100s if using 0-1 values):
+
+
+           (%AbV * .8) * 100
+%AbW = --------------------------
+       (100 - %AbV) + (%AbV * .8)
+
+
+Which has 5% AbW converted to 4.04% AbV.
+
+
+           (%AbW * 1.25) * 100
+%AbV = ----------------------------
+       (100 - %AbW) + (%AbW * 1.25)
+
+
+Which translates 4% AbW into 4.95% AbV.
+
+
+Internet: jdecarlo`at`mitre.org (or John.DeCarlo`at`f131.n109.z1.fidonet.org)
+Fidonet:  1:109/131
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 08:27:59 -0700
+From: dinsdale`at`chtm.eece.unm.edu (Don McDaniel)
+Subject: cheapest soda kegs
+
+
+Time for the periodic "where to get kegging equipment" post.
+Rumor has it that as the soda industry is abandoning SS kegs for
+plastic-lined cardboard boxes, kegs are available really cheap.
+For those on the list that have been at it for a while, is thee
+any validity to this assertion?
+
+
+What is the best source of tanks, kegs, regulators and guages at
+the moment for someone who is mechanically inclined enough that
+he/she doesn't need a turnkey kit from a homebrew supplier?
+
+
+Thanks,
+
+
+Don McDaniel
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 09:49:26 EST
+From: cjh`at`diaspar.HQ.Ileaf.COM (Chip Hitchcock)
+Subject: re PH vs color test kits
+
+
+   The variation of color (of pH tests) with temperature may be caused by
+the fact that acidity/alkalinity is temperature-sensitive. pH is the log10
+of the reciprocal of the concentration (moles/liter) of H+ ions; thus pH of
+7 is a concentration of 10^-7. ]In sufficiently pure water[ the H+ can come
+largely from the (very slight) tendency of H2O itself to dissociate into H+
+and OH-; pH 7 is "neutral" (at room temp) simply because the concentration
+of OH- is also 10^-7. Not surprisingly, H2O dissociates more readily at
+higher temperatures; "neutral" at ~100C is pH ~6. Without knowing just what
+is in the test solutions I wouldn't begin to guess the effect of a higher
+concentration of both ions, except that I wouldn't expect it to be the same
+as at room temperature; the behavior of the active compound(s) in the
+solution itself could also change.
+   I don't know what the standard is in professional brewing, but based on
+the above I would \expect/ that they read pH only in samples cooled to room
+temperature, or possibly via probes and equipment that correct for the
+effect of high temperature.
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 11:08:00 EST
+From: davehyde`at`tecnet1.jcte.jcs.mil
+Subject: Kegged!
+
+
+Several people wrote and asked for forwards of the stuff I received on
+kegging.  Rather than forward everything, I've summarized it here.
+Hope its helpful.  BTW, credits follow.  Sorry if I missed anyone,
+but I don't keep mail very long and I didn't expect the number of
+requests for info that I got.
+
+
+Where to get equipment:
+
+
+I can't be of much help here.  I got my taps and CO2 bottle from
+our  neighborhood association (?!) since we rarely use them anymore,
+and the keg  came from a friend who is on excellent terms with a
+distributor.  Several  people have recommended scrap metal yards,
+though.
+
+
+removing that dang ball tap!:
+
+
+There's a leaf spring at the top of the tap between the tap and the
+keg neck.   I worked the end of the spring back to one of the bayonette
+slots in the neck  where I pried it out with a screwdriver.  Once
+the spring is out lift then  twist the tap up and out of the neck.
+This was the hardest part because it  was stuck and there's not much
+to get a grip in.  Re-installing is just the  reverse.
+
+
+carbonation, racking, pressurizing:
+
+
+Some people recommended priming with 1/4-1/2 c corn sugar before
+pressurizing.  Another recommendation was to pressurize and let
+the beer set a day or 2 in  the fridge.  I didn't want to wait,
+so I force carbonated and agitated the  beer.  I racked the beer
+straight from the carboy to the keg with no priming.   I put the
+tap back in and pressurized it to ~25 psi.  I didn't get any
+guidelines as to pressure vs. style, so this was a guess based
+on a  recommendation of 20-40 psi.  I removed the lines and rolled
+the keg around  for 10 min or so on the basement floor and tapped it.
+Stand Back!  The first  few pints were well carbonated but slightly
+cloudy.  This disappeared over the  next day or so.
+
+
+Comments:
+
+
+Unfortunately I didn't bottle any of this batch to do a taste
+comparison.  It  is, IMHO, my best batch by far.  The raspberries
+aside (see below) the beer  has a wonderful color, is crystal clear,
+and the head is incredible.  Same  feel and consistency as Guiness
+Draft cans with that nitrogen thingy in them.   Lasts forever too.
+
+
+The only problem:
+
+
+I can't bottle any to give away.  I tried quiety filling a bottle
+for a friend, but when he opened it it was flat.  So...keg party
+time, perhaps.
+
+
+Many thanks to:
+bobc`at`Eng.Sun.COM:                               removing that dang ball tap!
+sag5004`at`yak.ca.boeing.com (Ford Prefect):       carbonation
+Jonathan Butt <jbutt`at`cs.mun.ca>:                carbonation
+dipalma`at`banshee.sw.stratus.com (James Dipalma): carbonation, racking,
+                                                pressurizing
+
+
+and to davet`at`ncsa.uiuc.edu (Dave Thompson), who asked about my  raspberry
+lager:  I didn't want to mess with fruit, so I used a recipe from a
+supply place near Baltimore, MD that was basically  an amber lager with
+3/4 tbsp of raspberry soda extract added to boil for  15 min.  At
+bottling (or kegging, as in my case), another 4 tbsp were  added to the
+(now) finished beer.  I wouldn't recommend this unless  you _really_
+like rasberry beer.  STRONG!  But _I_ like it.
+
+
+Dave Hyde davehyde`at`tecnet1.jcte.jcs.mil
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 09:39:14 -0700
+From: cbacco`at`ursa5.cs.utah.edu (Corby Bacco)
+Subject: Brewing supplies in Conn.
+
+
+Hello all,
+        I have an older brother who is interested in getting into
+homebrewing.  He lives in Norwalk, Conn..  Can anyone reccommend any
+homebrew suppliers in the general area.
+
+
+                Thanks,
+                       Corby
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 11:18:44 CST
+From: tony`at`spss.com (Tony Babinec)
+Subject: hops,extracts,pilsners
+
+
+(1) Miller is not alone in talking about different utilization of 
+whole (leaf) hops versus pelletized hops.  However, it seems that
+there are a lot of variables involved, such as:  how were whole
+and pellet hops handled?  were they kept bagged and chilled as much
+as possible?  does the pelletizing break the resin glands, thereby
+altering the bittering potential of the hops?  what is the boil length?
+what is the vigor of the boil?  what is the gravity of the boiling
+wort?  In the end, aim at a style, try a recipe, taste the result,
+and modify your process accordingly!
+
+
+(2) Whether the hops are whole or pellets, the same general rules
+apply:  boil 45 to 90 minutes for bittering, 20 minutes or so for
+flavoring, and 10 minutes or less for aroma.
+
+
+(3) In all-grain brewing, a 90-minute boil is probably a reasonable
+minimum.  There are various chemical reactions occurring that require
+that length of boil, plus you are typically boiling your wort down from
+7 or more gallons to 5 gallons at the finish.  With extracts, in part
+the concern is that longer boils darken the wort, and other things 
+equal, it's more difficult to make a very pale beer such as a pilsner
+with extract.  You should probably aim for a 45-60 minute boil so that
+hop bittering occurs.  Although it is bad practice, you hear stories
+about how some recipes recommend stirring malt extract syrup into
+water without a boil and then racking to primary.
+
+
+A pilsner is a pale, bitter lager of conventional strength.  An
+extract brewer could make a decent pilsner:
+
+
+ - use unhopped extra-light or light malt extract,
+ - hop with noble hops (Saaz, Hallertauer, etc.) and hop for appropriate
+bitterness,
+ - Boil for 45 to 60 minutes,
+ - Use a lager yeast (Wyeast has good ones) and ferment at an appropriate
+temperature (48 to 50 degrees F).
+
+
+Miller has some other good pointers in his pilsner book in the text
+preceding the recipes, which summarizes points made earlier in the 
+book.
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 9:25:01 PST
+From: Dave Sheehy <dbs`at`hprnd.rose.hp.com>
+Subject: Re: brewing Munich Dunkels
+
+
+
+
+R. Cushing Hamlen writes:
+
+
+> This last weekend I tried my hand at brewing a true Munich Dunkel.  After
+> reading Miller, I decided to do so using all Munich malt.  My source for
+> Munich malt states that the malt is enzymatic, with sufficient enzymes
+> to convert starch without using pale malt.  
+> 
+> Well, to make a long story short, I ended up with about three gallons of
+> starchy barley malt porridge....it did not even begin to convert!  ... 
+> 
+> So, the question is this:  has anyone out there make a Munich Dunkel using
+> all Munich malt, and had sucess doing so?  
+
+
+Long ago I made a Maerzen based on Miller's recipe which calls for 9 or 10
+pounds of Munich malt. I asked the same sort of question on the HBD (i.e.
+will it convert all by itself) and a few people stated they couldn't see how
+it could convert. I said "what the h*ll" and went for it. Well, it converted 
+and fermented just fine. Then the problems began. Most of the batch wouldn't
+carbonate (I added the priming sugar, honest!). It was a lager so after 
+bottling I lagered as much of it as would fit in the fridge (as per Miller's 
+recomended method of lagering). None of the beer ever had any kind of head
+whatsoever either. Now here's the weird part. The few bottles that did 
+carbonate were from the portion that was lagered in the fridge. None of the 
+bottles that were stored at room temperature ever carbonated to any
+significant degree. That was a real bummer because other than the lack of
+carbonation the beer tasted pretty good. I used Wyeast #2308 on this batch.
+
+
+If I were to do this again I think I would at least add a pound of wheat 
+malt to improve the head potential. Since Munich malt is kilned at a high 
+temperature I believe much of the head producing proteins are gone. 
+
+
+>       > Cush Hamlen                           |       cush`at`msc.edu
+
+
+Dave Sheehy
+ 
+
+
+------------------------------
+
+
+Date: 6 Jan 93 09:59:00 +1000
+From: KRUSE_NEIL`at`Tandem.COM
+Subject: Yeast question
+
+
+- ------------   REPLY ATTACHMENT   --------
+SENT 01-06-93 FROM KRUSE_NEIL
+
+
+I have a yeast question...
+
+
+My usuall recipe is 6# Alexanders amber syrup extract, willamette hops,
+boil around 45 mins.  Put carboy with the five gals. of wort in bathtub
+to cool, pitch ale yeast.  The next morning the carboy is bubbling like
+crazy and the beer always turns out great.  BUT... Last night I helped
+a friend follow my award winning recipe with one difference, we used
+6# of DRY malt extract.  This morning he called me to tell me it was
+not bubbling at all...nada, nonthing.  My question is why?
+Should he add more yest?  Is the temperature off?  I thought my recpie
+was idiot proof, I guess I was wrong ;)
+Thanks
+
+
+KRUSE_NEIL`at`tandem.com
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 09:00 CST
+From: arf`at`ddsw1.mcs.com (Jack Schmidling)
+Subject: KETTLE MASHING
+
+
+ 
+ The following article was rejected by Zymurgy's editorial department for some 
+ obscure reason, so I will post it here in serial form.
+ 
+ 
+ 
+ 
+                           KETTLE MASHING
+ 
+                          By Jack Schmidling
+ 
+ Mashing and sparging in plastic buckets of one form or 
+ another has become so universal that the method I am going 
+ to discuss might seem like something new.  However, it is 
+ more or less the way beer had been made since time 
+ immemorial.  Until that is, a certain very popular book on 
+ home brewing appeared.
+ 
+ Kettle mashing, as I call it, has some advantages and some 
+ disadvantages over the now "traditional" plastic bucket 
+ method and until one understands both approaches, a 
+ commitment to one or the other can lead to a good deal of 
+ unnecessary frustration.
+ 
+ Kettle mashing is simply using a kettle with an appropriate 
+ secreening device and spigot to "cook" the mash in and once 
+ the mashing is complete, the same kettle becomes the lauter 
+ tun.  After sparging in the lauter tun, the kettle is used 
+ for boiling and if it has a close fitting cover, can be used 
+ as the primary fermenter.
+ 
+ The most fundamental advantage of the approach is the ease 
+ with which the transition from extract to all grain can be 
+ made.   The only new requirement is a straining device in 
+ the kettle already used for boiling extract beer.  The 
+ investment required to "give it a try", is quite minimal and 
+ if you decide you don't like the program, you end up with a  
+ great brew kettle that sports a spigot that won't get 
+ clogged up with hops and specialty grains.
+ 
+ The other advantages are a bit more technical and I will 
+ point them out when we get to them.
+ 
+ The key to the system is the screening device and the spigot 
+ for the kettle.  The first one I made was to be used in 
+ conjunction with an overlaying false bottom.  The false 
+ bottom was a stainless steel plate the size of the kettle 
+ bottom with a zillion holes laboriously punched into it.  It 
+ created no end of problems on the very first batch.  Mash 
+ got under it and scorching was just about impossible to 
+ control.  So in disgust, I pulled it out, continued the mash 
+ and assumed a disaster was at hand.
+ 
+ Much to my incredulous delight, when I opened the spigot, 
+ the wort ran clear after less than a cup of turbid runnoff.  
+ I have since made about 30 batches using only the screen 
+ device and get very consistent and respectable extract 
+ yields.
+ 
+ We will begin the discussion, by describing the screening 
+ device and spigot that is installed in the brew kettle.  The 
+ first one I made was made from galvanized pipe fittings and 
+ window screen, installed in a 32 qt enameled canning kettle.
+ 
+ The current version is all brass, copper and stainless 
+ installed on two stainless kettles, a ten gallon for mashing 
+ and fermenting and a sixteen gallon for boiling.  Having two 
+ kettles allows one to be prepared for the next operation 
+ while the other is doing its thing. 
+ 
+ Fig. 1 shows an exploded view of the spigot and strainer.  
+ The strainer is simply a 2 x 6 inch piece of screen, rolled 
+ into a six inch tube and clamped to the copper tube.  The 
+ last half inch is bent over itself to seal it off.    The 
+ copper tube has a slight bend in it to allow it to be 
+ rotated so that the end is right on the bottom leaving 
+ almost no wort behind.  It is easily removed for cleaning.
+ 
+ The spigot passes through a clearance hole drilled in the 
+ kettle and is retained by the female connector and a washer 
+ to take up the treads and make a tight fit.
+ 
+ All the parts are available at a good hardware store.  For 
+ those not inclined to hunt down the parts, a complete kit is 
+ available from the author.
+ 
+ Once the spigot/strainer device is installed in the brew 
+ kettle, you are ready for the plunge.  If you are shopping 
+ for a kettle, my only advice is the bigger the better.  I 
+ consider the 32 qt canner about the minimum for a 5 gal 
+ batch.
+ 
+                   Continued...............
+ 
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 11:12:07 -0800
+From: sag5004`at`yak.ca.boeing.com (Ford Prefect)
+Subject: What to see, barley wine help needed.
+
+
+
+
+Sorry about posting one of those "I'll be in your neighborhood where 
+should I go" posts... but
+
+
+I am getting married in the end of July. For a honeymoon the general
+plan is to start in Seattle, head to the coast take a left goto
+california take a left head through painted desert and goto colorado,
+take another left and head home.  If I sell my 911 in time we may make
+the trip in a miata (with no luggage room).  Or use my fiancees ford
+explorer (ie room to pick up a six pack here and there :-)
+
+
+I am interested in interested places and brews to see along the way.
+(Note:  places may or may not include some non beer related places like
+cannon beach OR).  I am interested in two beer styles in particular:
+alt, and barleywine.  A recent trip to Levenworth WA revealed a new
+brewpub and I want to see how their alt compares with others.  Also I
+have been interesed in finding commercial examples of real barley wine
+(not barleywine like style).  I tried to make some myself, but the
+results are very sweet and not what I expected.
+
+
+Any help/flames/etc would be helpful.  As far as places to see "Check
+out the Whomper Inn a couple of little towns south of tillamok on 101"
+would be sufficient (I know how to use a phone book, If I could just
+get the paper ones to grep :-)  Also I would be glad to meet some of
+you electronic people, maybe we could quaff one in your favorite spot.
+
+
+Also, I would like some feed back on "my" barleywine recipe.  I stole
+it from somewhere (sorry I don't remember where) so it isn't really
+mine, but I would be happy to hear how to improve it.  Also how long is
+it supposed to age?  When I made this recipe (twice) I was just
+starting to go all grain,  I have been making slow incremental
+improvements as I go, but still have along way to go.  BTW, the small
+beer made with the second runnings was quite tasty.
+
+
+May 10, 1991 and May 25 1991
+
+
+9 gal water
+2 tsp gypsum
+32 lbs Klages
+2 lbs Crystal
+1/4 lb Chocoalte malt
+
+
+throw in grains at 170F stir...temp drops to 152F...wait 90 minutes
+sparg until 6.5 gallons collected (8 the second time). 
+
+
+2oz Cascade 60 minutes
+2oz Centenial 60 minutes
+1 tsp Irish moss 20 minutes
+2oz Fuggles 5 minutes
+
+
+boil 60 minutes,   OG 1.106  (1.095 2nd batch)
+used whitbred ale yeast + redstar champagne
+after ~3 weeks I transfered to another carboy
+and another 3 weeks later I kegged with a FG of 1.038 (1.028 2nd batch)
+
+
+I have not tasted the second batch (yet), but the first one is very
+sweet and almost no hops.  Again any advice would be apreciated.  If
+you are local, maybe we can arange a tasting.
+
+
+thanks
+
+
+stuart galt                          boeing computer services
+sag5004`at`yak.boeing.com               bellvue washington
+(206) 865-3764                       or home (206) 361-0190
+#include <standard/disclaim.h>
+I don't know what they say, they don't know what I say...
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 1993 16:21 EST
+From: Carlo Fusco <G1400023`at`NICKEL.LAURENTIAN.CA>
+Subject: need help kegging
+
+
+Hello everyone,
+
+
+I have now made the jump to kegging my beer and now I have a question or 2.
+I bought a generic regulator from a welding shop and it works great, one
+problem though, the second gauge is scaled for liters per minute and cubic 
+feet per hour. It is the same as a pressure guage but the scale is set up 
+for unrestricted flow, as in MIG welding.
+
+
+Does anyone have a conversion table for this scale? 
+[ie when the pressure equalizes at 7 lpm, what would that equal in psi]
+
+
+Thanks
+Carlo Fusco  g1400023`at`nickel.laurentian.ca
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 13:47:24 PST
+From: Martin A. Lodahl <pbmoss!malodah`at`PacBell.COM>
+Subject: [Resend]  HSA & Lambix
+
+
+In HOMEBREW Digest #1047, George Fix made my day:
+
+
+> The temptation to join a conversation which on the one hand
+> involves hot-side aeration (HSA), and on the other Martin Lodahl &
+> Lambic, is too great to pass up ...  
+
+
+Gosh, George <blush!> ...  I wrote up a reply and submitted it that
+evening, but it was too huge for HBD by any conceivable standard,
+and was bounced, as it should have been.  I'll make it more brief
+this time.
+
+
+> Negative effects due to HSA are usually reflected in a flavor the 
+> Germans call "Herbstoffe."  Roughly translated this means "grain
+> bitter" or "grain astringency."  Although, I do not have Martin's
+> vast tasting experience with Lambics, the ones I have tasted in
+> Europe have never shown any indication of Herbstoffe.  Sometimes I
+> pick up astringent tones in bottled Lambics which have been
+> imported to the U.S.  I believe, however, these flavor tones are
+> artifacts, i.e., resulted from the beer's long journey across the
+> Atlantic, and are not intrinsic to this beer style.
+
+
+I've run across astringency in some of the best lambiks I've had, and 
+most especially in some of the young (vos) lambiks served from casks
+in specialty cafes.  I don't have your experience of German beers and
+wouldn't recognize true Herbstoffe, but the astringency I'm thinking
+of in this instance is of the husky, grainy sort we often associate
+with hot sparges, and as lambik brewers frequently sparge hot, I've
+been assuming that was the cause.  "Nutty", "sherry-like" and even
+"cigar-like" oxidation products are frequently named in my tasting
+notes.  These could well be HSA products, couldn't they?  Oddly, these 
+flavor notes seem altogether appropriate to the beers I've found them 
+in -- not a defect, but part of their character, even their charm.  
+Many lambiks, whether insipid (Belle Vue), regrettable (Lindeman's) 
+or splendid (Frank Boon) don't have identifiable astringency, but 
+many seem to.
+
+
+>         ...  Herbstoffe arises from the presence of
+> what could be called HSA aldehydes ... 
+> ... most Saccharomyces will ignore them.  ...  It is
+> conceivable, although definite proof is lacking, that some of  
+> these [microbes] might find the HSA aldehydes inviting targets,
+> and reduce them to alcohols.  Given the large fatty acid
+> composition of Lambics, the alcohols would probably be converted
+> to esters, and form a small part of the very large ester pool in
+> Lambics.  If true, this would mean that all of the splashing of hot
+> wort that takes place in Lambic brewing does no harm.  
+
+
+This is to say the least, intriguing!  It's true that despite wild
+splashing of the hot wort into the cooling trays and subsequent storage
+in gas-permeable containers (barrels) for two or more years the 
+results are nothing like what you'd get if you treated a pale ale
+the same way.  The remaining identifiable oxidation products actually
+add to the character of the lambik.  And I've never tasted the
+paperlike or cardboard notes in a lambik that we often associate
+with oxidation.  Most lambiks have a _very_ substantial ester
+component.  One gueuze (St. Louis) was so fruity that I first thought
+I'd been served a fruit lambik by mistake!
+
+
+> What bothers me (slightly) are the implications of this for North 
+> American Lambic brewers.  At the present time they will not be 
+> dealing with a "full deck" with respect to the relevant microbes, 
+> and this conceivably could be an important issue.  
+
+
+I believe you're right.  There are definite flavor differences 
+between the synthetic products some of us have been experimenting 
+with, and the "real thing" made the traditional way.
+
+
+[ ... ]
+> they consistently have a flavor tone which I will oversimplify and
+> call "metallic."  I do not remember ever tasting anything like
+> this in Europe, although I have tasted something like it in
+> selected bottles which were imported to the U.S.  
+
+
+My experience has been just the same, though right offhand I can't pin
+down any Stateside encounters with that flavor in lambiks either,
+but if CR Saikley's reading this, perhaps he can jump in?  Exactly 
+that note is coming through like gangbusters in the pseudo-lambik I
+brewed 18 months ago that I'm sipping as I write this.  The biological
+spectrum in it was limited (as far as I know) to S. cerevisiae (Wyeast
+1007, in fact), Pediococcus damnosus, and a not particularly aggressive
+strain of Brettanomyces bruxellensis.  Sparge temperature was allowed to
+rise to 190F, and I splashed the wort some, but hadn't yet concluded
+that it would be helpful to the development of the Brett. flavor
+profile.  
+
+
+> ... But, assuming for the moment that they are artifacts and
+> not intrinsic to Lambics, this raises the issue of the possible
+> need for brewers in North America to modify the traditional
+> process.  If I were given a vote, I would place as No. 1 on the
+> list the removal of the cob webs; removal of splashing comes
+> further down on the list!  However, in general which of the rules
+> we use for normal beer (whatever that might be!), should be
+> followed, and which should be rejected in favor of traditional
+> Lambic practice?
+
+
+I'm struggling with exactly that question, and lack both the 
+background and data to reach a satisfactory answer.  Conference
+attendees could hardly forget Mike Matucheski's remarkable paean to
+Brettanomyces.  Mike is a strong believer in following the
+traditional processes in hopes that the local microflora will
+be suitable, and while his creations don't have a lot in common
+with most of the Belgian products they're certainly similar to
+the hardest available lambiks.  "Hardness" in a lambik is a descriptor
+of the acetic acid contribution to the flavor, and while the Belgian
+spiders help to keep hardness under control by taking fruit flies to 
+lunch, their American counterparts may not be so helpful.  Some of 
+the test batches of J-X Guinard, "father" of the "pure cultures"
+method of home lambik brewing, tasted more like the "real thing" 
+than mine, and the biggest difference between his process and mine 
+is that he fermented in plastic water carboys, while I stayed with 
+the glass I usually use.  Mike Sharp's experiments using an oak 
+cask were even closer to optimal, and what Mike's and J-X's flavor 
+profiles had that mine didn't was primarily a major improvement in 
+the flavor contribution of the Brettanomyces.  What does all of that 
+have to do with HSA?  Well, just that it raises the question of whether
+there is a relationship between Brettanomyces, which seems to contribute
+more to the final flavor when exposed to (some) air, and the lack of
+the degree of staling one would normally expect in beers that don't
+harbor Pediococcus and Brettanomyces.
+
+
+I must be crowding the size limit by now.  Thanks for asking,
+George! 
+
+
+= Martin A. Lodahl                           Pacific*Bell Systems Analyst =
+= malodah`at`pbmoss.Pacbell.COM       Sacramento, CA       916.972.4821 =
+= If it's good for ancient Druids, runnin' nekkid through the wuids, =
+= Drinkin' strange fermented fluids, it's good enough for me!  8-)   =
+
+
+
+
+------------------------------
+
+
+Date: 06 Jan 1993 19:31:24 -0500 (EST)
+From: Sandy Cockerham <COCKERHAM_SANDRA_L`at`LILLY.COM>
+Subject: lost in the wood
+
+
+Not long ago I bottled my first attempt at an oat pale ale. I made a blunder
+though. I added 2 oz. of toasted oak chips to the secondary. Needless to say,
+the oak character is QUITE pronounced. I was really bummed. The carbonation is
+great, nice head retention, it is very clear (gee, I remember someone getting
+flamed for saying their beer was clear, oh well...), and it is a deep golden
+color (golden oak, I'd say.).
+The moral of the story? Be aware of those evil oak chips!
+I hope this mellows, it has only been in the bottle since Thanksgiving.
+
+
+                                                        Sandy C.
+
+
+From: COCKERHAM SANDRA L            (MCVAX0::RX31852)
+
+
+To:   VMS MAIL ADDRESSEE            (IN::"homebrew`at`hpfcmi.fc.hp.com")
+
+
+------------------------------
+
+
+Date: Wed, 6 Jan 93 16:30:12 -0800
+From: Carl.Hensler`at`West.Sun.COM (Carl Hensler)
+Subject: Re: Light Protection
+
+
+To protect wort in a fermenter in a refrigerator from light from
+a small light bulb, I suggest simply wrapping the bulb with
+aluminum foil.
+
+
+------------------------------
+
+
+Date: 06 Jan 93 23:28:16 EST
+From: Bill Crisafulli <73750.2427`at`compuserve.com>
+Subject: Lights in the fridge
+
+
+I have a little different scenario that ultimately leaves me in the same
+boat wrt light bulbs.  I have a fridge used during the Chicago summer for
+temp control, but since fridge is in a detached, unheated garage, things get
+pretty nippy in the winter.  Since I like to store beers in the fridge year
+round (both kegs and some bottles to savor), I did the following.
+ 
+I salvaged a cheap, plastic mechanic's light (you know, the kind in a little
+cage that has a long cord coming out the end and a switch on the handle
+under the light).  I cut the cord a few feet off the lamp, and attached a
+new plug.  I then plugged that into a $12 thermo switch dohickey (technical)
+that powers its outlet when temps drop to 35F, and powers off at 45F.  This
+seems to be doing the trick and keeping the temp stable when outside
+temperatures are hitting 0F.
+ 
+I'm not sure how long the light is on, or exactly what the relationship is
+wrt the outside temp.  Also, I have a 70W bulb in there, facing a wooden
+inner fridge door to try to reduce direct light and reflection.  The
+plastic lamp says don't exceed 75W, so I don't feel too comfortable
+enclosing the thing inside anything else for fear of a blazing fridge (and
+cars, etc) if it overheats.  I certainly don't worry about the kegs
+(stainless), but the bottles of my Belgians and Hardy's and monthly Beer
+Across America specials (light as they have been) are making me wonder what
+the danger is?
+ 
+Bill
+I kinda like the idea of using a brown bottle to cover it.  I could take a
+750ml beer/wind bottle and do something with that, I think.  But really,
+what is the danger?  I protect from direct light via shelving, but what of
+indirect?
+
+
+
+
+
+
+Distribution:
+  >INTERNET:homebrew`at`hpfcmi.fc.hp.com
+
+
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #1050, 01/07/93
+*************************************
+-------

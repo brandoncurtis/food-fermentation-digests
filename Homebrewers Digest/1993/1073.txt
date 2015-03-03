@@ -1,0 +1,1449 @@
+﻿This file received at Sierra.Stanford.EDU  93/02/09 00:32:40
+
+
+
+
+HOMEBREW Digest #1073                             Tue 09 February 1993
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Calculating IBU's with the Utilization Function (Alan Edwards)
+  Extract and Proud ("Knight,Jonathan G")
+  RE: soda kegs on tap (James Dipalma)
+  Hops Cultivation (Brian Spence)
+  Wet Dream, FAQ (Jack Schmidling)
+  Bud % alcohol / Ridding oil from plastics (Tom Colvin)
+  Re: chimay yeast/recipe idea (Drew Lawson)
+  Recirculating Infusion Mashing System (RIMS) (M. Umehara)
+  Re: All-grain Snobs (Drew Lawson)
+  Re: Killian's Irish Red (Drew Lawson)
+  Re: How Long Is Too Long ("John DeCarlo")
+  Re: wine making (kstiles)
+  Spiced Ale ("Knight,Jonathan G")
+  Leaf Hops? ("Spencer W. Thomas")
+  BAA (BadAssAstronomer)
+  Diacetyl ? (Lee Menegon)
+  Re: dry VS syrup extract (korz)
+  Re: skimming/blowoff/HSA (korz)
+  Digest Submission (Tom Clark)
+  culturing Paulaner yeast (ng570)
+  Crushed grain, etc. (Joseph Nathan Hall)
+  Toasted Flaked Barley (John Walaszek)
+  Corona flour stones (chris campanelli)
+  PROTECT FROM FROST ? (John Pedlow)
+
+
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Archives are available via anonymous ftp from sierra.stanford.edu.
+  (Those without ftp access may retrieve files via mail from
+  listserv`at`sierra.stanford.edu. Send HELP as the body of a
+  message to that address to receive listserver instructions.)
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+
+
+
+
+                IMPORTANT NEWS -- PLEASE READ
+                -----------------------------
+
+
+There will be nobody reading mail sent to homebrew-request during the
+period Feb 8 through approx. Feb 28. This means that any requests for
+changes or cancellations will not be handled until the end of the month.
+Subscription requests will continue to be handled automatically, and the
+digest will continue to be sent automatically, barring any computing
+device catastrophes. So if you send a message here and get no immediate
+reply, or if the digest stops suddenly, please do not panic. Just be
+patient.
+
+
+ps. and please try to behave yourselves while I'm gone ;-)
+
+
+
+
+----------------------------------------------------------------------
+
+
+Date: Fri, 5 Feb 93 09:22:27 PST
+From: rush`at`xanadu.llnl.gov (Alan Edwards)
+Subject: Calculating IBU's with the Utilization Function
+
+
+Here's an example of how to use the hop utilization function in my previous
+article, using the calculations in Jackie Rager's Zymurgy article:
+
+
+UTILIZATION = 18.109069 + 13.862039 * hyptan[(MINUTES - 31.322749) / 18.267743]
+    (Of course, you can drop a lot of those significant figures.)
+
+
+    If the gravity of the boil exceeds 1.050:
+ADJUSTMENT = (BOIL_GRAVITY - 1.050) / 0.2
+    otherwise,
+ADJUSTMENT = 0
+
+
+IBU_PER_OZ  = UTILIZATION * ALPHA * 74.62 / (VOLUME * (1 + ADJUSTMENT));
+    ALPHA is the percent alpha acids (eg. 5.2--don't devide by 100)
+    VOLUME is the final number of gallons in the batch (usually 5).
+
+
+    To calculate IBU's if you know the number of ounces of hops to be used:
+IBU = OUNCES * IBU_PER_OZ
+    To predict the number of ounces needed to hit a targed IBU:
+OUNCES = IBU / IBU_PER_OZ
+ 
+
+
+I've packaged those formulae into a nifty calculator for those of you
+who are on a Unix machine, or a PC that has Perl installed.  (If there
+is a demand, I can convert it to a C-shell script or a C program.)
+
+
+It will calculate IBU's (International Bittering Units), given only:
+
+
+ - amount of hops
+ - alpha acid rating
+ - length of boil
+ - gravity of boil (if over 1.050)
+
+
+It basically does what that mess of calculations in the Zymurgy article
+does (but you don't have to think about it).  It will also do the
+inverse--return the amount of hops required to reach a target IBU level.
+
+
+If I typed:
+
+
+ibu 1.5 8 45
+
+
+The output would be:
+
+
+1.50 ounces of hops with 8.0% alpha acid, boiled for 45 minutes
+will produce 48.2 IBU's.
+
+
+In the "inverse" mode:
+
+
+ibu -i 49 8 60
+
+
+would produce this output:
+
+
+1.33 ounces of hops with 8.0% alpha acid, boiled for 60 minutes
+will be required to produce 49.0 IBU's.
+
+
+Here's the Perl script (called "ibu"):
+___________________________________________________________________________
+#!/usr/bin/perl
+
+
+require "getopts.pl";
+
+
+# set option variable defaults
+
+
+$boil_gravity = 1.050;
+$volume       = 5;
+
+
+# read command line
+
+
+if ((!&Getopts('iv:g:')) || ($#ARGV != 2))
+  {
+   printf STDERR qq/
+Usage:
+  ibu [-v volume] [-g boil_gravity] ounces percent_alpha minutes
+      -v  Final volume in gallons.  The default is 5.
+      -g  Gravity of boil if over 1.050.
+or
+  ibu -i [-v volume] [-g boil_gravity] target_ibu percent_alpha minutes
+      -i  Inverse.  Return number of ounces required to hit target IBU's.
+
+
+Example:
+  ibu -g 1.082 1.5 8.3 30
+/;
+  exit 1;
+  }
+
+
+$inverse       = $opt_i;
+$boil_gravity  = $opt_g if ($opt_g);
+$volume        = $opt_v if ($opt_v);
+$ounces        = $ARGV[0];
+$ibu           = $ARGV[0];
+$alpha         = $ARGV[1];
+$minutes       = $ARGV[2];
+ 
+
+
+if ($boil_gravity > 1.050)
+  {$adjustment = ($boil_gravity - 1.050) / 0.2;}
+else
+  {$adjustment = 0;}
+ 
+
+
+# calculate utilization from exponential equivalent of hyperbolic tangent
+$exp         = ($minutes - 31.322749) / 18.267743;
+$utilization = 0.18109069 + 0.13862039
+             * (exp($exp) - exp(-$exp)) / (exp($exp) + exp(-$exp));
+ 
+
+
+$ibu_per_oz  = $utilization * $alpha * 74.62 / ($volume * (1 + $adjustment));
+
+
+unless ($inverse)
+  {$ibu = $ounces * $ibu_per_oz;}
+else
+  {$ounces = $ibu / $ibu_per_oz;}
+ 
+
+
+printf("%.2f ounces of hops with %.1f%% alpha acid, boiled for %d minutes",
+       $ounces, $alpha, $minutes);
+printf(" in %.3f wort", $boil_gravity) if ($opt_g);
+printf("\nwill");
+printf(" be required to") if ($inverse);
+printf(" produce %.1f IBU's.\n", $ibu);
+____________________________________________________________________________
+
+
+Have Fun!
+ -Alan (Overkill) Edwards
+ .------------------------------------.  A thousand years have come and gone
+| Alan Edwards: rush`at`xanadu.llnl.gov |  But Time has passed me by
+|     or: alan-edwards`at`llnl.gov      |  Stars stopped in the sky
+`------------------------------------'  Frozen in an everlasting view
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 11:40:09 cdt
+From: "Knight,Jonathan G" <KNIGHTJ`at`AC.GRIN.EDU>
+Subject: Extract and Proud
+
+
+
+
+As one who has gotten a great deal of information out of HBD, and who finds 
+it a great way to forget about work for twenty minutes a day, I really hate 
+it when it degenerates into silly stuff like Pub-Info-Request-Wars and 
+Extract-vs.-Grain wars.  
+
+
+PLEASE LET'S NOT LET THIS GET OUT OF HAND, PEOPLE!
+
+
+I have thought about doing the all-grain route, but frankly my present 
+financial condition prevents me from investing in the additional equipment, 
+and the fact that I have three children under the age of six lurking around 
+my house makes the extra time involved impractical for me.  I also suspect 
+that if I didn't know all-grain methods were available to the homebrewer, I 
+would continue to drink my extract brews in complete bliss (o.k., and 
+ignorance too).  Most of us extracters have very good reasons for staying 
+with our present methods.
+
+
+My inquiries regarding extract brewing have always been received gracefully 
+and enthusiastically by readers of the HBD.  I would say that if there really 
+ARE extract brewers who are intimidated by the level of discussion by all-
+grainers, yeast-culturers, etc., they should do as I have done: ask anyway!  
+It's your right.  If someone actually does respond "snobbishly," then flame 
+the idiot by private e-mail and go on asking your questions publicly.
+
+
+Relax, don't worry -- have an extract brew.
+
+
+Jonathan
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 12:43:47 EST
+From: dipalma`at`banshee.sw.stratus.com (James Dipalma)
+Subject: RE: soda kegs on tap
+
+
+
+
+Hi All,
+
+
+   From HBD #1071:
+
+
+>Anybody have advice on how (and how long) to keep soda kegs on tap? I have
+>not tried it for more than about two weeks, and there was a noticable
+>change in the beer at the end. I did not take stringent measures against
+>leaks, so I presume the deterioration was due to air getting into the keg.
+
+
+   I'd say your presumption is probably correct.  I've kept beers in soda
+kegs for over two months with absolutely no ill effects, the last pint tastes
+as good or better than the first.  Sealed in a keg at a constant 45F,
+protected from heat, light and air, beer should keep for quite some time,
+certainly longer than two weeks.
+   The poster didn't mention whether or not the kegs were kept refridgerated,
+but I'm not sure this is a critical point.  Keeping them in a reasonably cool
+place like a basement should be OK.  I believe the problem is the kegs were
+not well sealed, allowing air to get in.
+   Try keeping a maintainence pressure of 12-15 psi on the keg when not
+dispensing.  This will help provide a tighter seal along the large O-ring.
+Also, disconnect the CO2 tank and the cobra tap when not in use.  Leaving the
+hose barbs installed keeps the check valves in the fitting open.  The only
+remaining seal is the small rubber gasket between the hose barb and the
+fitting, which I would not trust to keep the keg airtight over an
+extended period.
+
+
+                                   Cheers,
+                                     Jim
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 09:57:57-080
+From: brian`at`bio.cor2.epa.gov (Brian Spence)
+Subject: Hops Cultivation
+
+
+
+
+Short time listener, first time caller. When my spouse and I purchased
+our home, we had the good fortune of inheriting a rather prolific hops
+plant. Now that I've begun brewing, the plant is no longer just and
+attractive ornamental, but offers practical benefits as well.
+
+
+The Problem: I have no idea as to what variety these hops might be. We
+live in the infamous Willamette Valley, so I at least have the obvious
+first guess.  Does anyone out there know of a good reference book that
+would allow me to key out this beast. Perhaps a "Peterson's Field
+Guide to Hops and Grains."
+
+
+Other Questions: Papazian suggests that the soil for growing hops should
+be loamy and kept continually moist during the growing season. We have
+excruciatingly high clay content in our soils and  have never watered at all.
+Nevertheless the plant has done quite well. Will the quality of the
+hops be affected by my lack of care? Or should I follow the adage "If
+it ain't broke, don't fix it?"  Also, how much will AAU vary with time
+of harvest, amount of watering, etc.  And lastly, is there any moderately
+low-tech way of determining AAU of homegrown hops?
+
+
+A good reference book on this subject would satisfy my needs, should you
+not wish to clutter the e-waves.
+
+
+Thanks in advance.  Spence.
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 08:56 CST
+From: arf`at`ddsw1.mcs.com (Jack Schmidling)
+Subject: Wet Dream, FAQ
+
+
+ 
+ >From: Paul Matulonis <paulm`at`sci.ccny.cuny.edu>
+ >Subject: WL media (extracted from the Difco Manual)
+ 
+ >Bacto WL Differential Medium has the same formula as Bacto WL
+ Nutrient Medium, with the addition of 0.004 g of Actidione per
+ liter. This inhibits the development of yeasts without
+ interfering with the development of bacteria generally
+ encountered in beers.
+ 
+ A most enlightening article.  However, if this is in response to the 
+ discussion about a medium that rejects or encourages "wild yeast", it seems 
+ to confirm my opinion that such a medium is a wet dream.
+ 
+ The two described here simply control yeast and/or bacteria.
+ 
+ >From: Chris McDermott <mcdermott`at`draper.com>
+ 
+ >Subject: FAQ/RFC on Recirculation.
+ >Since many topics come up in cyclical manner it would be nice if they could 
+ be answered in a FAQ format.  And since some topics have more than one 
+ accepted answer the FAQs should try to show all sides of an issue.
+ 
+ A couple of points here.  Many of us barely literate computer users have no 
+ idea of how to access a FAQ, if indeed it is something we can get at will.
+ 
+ Compuserve stores just about everything of any value in library files that 
+ are easily accessible but cost an arm and a leg to retrieve or even find out 
+ what's there.  I have not read the header lately, but if such a things exists 
+ for HBD readers, instructions on accessing it should be part of the HBD 
+ header and in terms even I can understand.
+ 
+ .....
+ 
+ >Recirculation is a practice employed in the lautering of mashed grains where
+ the turbid sweet wort is collected, as it is runoff, and recirculated through
+ the grain bed until the runoff becomes clear.
+ 
+ >Please consider this FAQ as a kind of HbD Request For Comment (RFC).  Please
+ feel free to make any additions or corrections.
+ 
+ My comment is that there exists a commercially available product for mashing 
+ (name and availibity upon request) that runs clear in something less than one 
+ cup and the whole discussion becomes academic.
+ 
+ .........
+ 
+ Having said that, the RFC aspect for a FAQ library is important and seems to 
+ be lacking in the current system.  For example, I have badgered the person 
+ who maintains the FAQ to include videos in his list of sources and the 
+ request has been ignored for several years.
+ 
+ 
+ >From: Chuck Coronella <CORONELLRJDS`at`CHE.UTAH.EDU>
+ >Subject: A survey of the readership
+ 
+ >I wonder how many questions have not even been asked because the author is
+ afraid of being labelled "not a REAL brewer" by more advanced brewers.
+ (Remember that discussion a while back about _real_ brewers?)
+ 
+ How could I forget?  I suppose my more objective posting yesterday will also 
+ be interpreted by some as intimidation but that was not my intent.
+ 
+ I simply think it's time to call a spade, a spade and get on with brewing.  
+ How one reacts to someone else's opinions, views and statements is his own 
+ responsibility.  If one chooses to run away because some windbag uses big 
+ words, I guess that's life.
+ 
+ I would like to point out that before stumbling upon the HBD, I had spent 
+ over twenty years (off and on) making barely drinkable (and mostly not) 
+ rubbish.  And now look at me... the World's Greatest Brewer!  If I can glean 
+ what is needed out of this forum, so can anyone else and I have little 
+ sympathy for people who claim to be intimidated.
+ 
+ >I suspect that the readership consists of more beginners than are 
+ represented by the questions posed in the HBD.  And I think that, if 
+ beginners realized that they make up a substantial part of the HBD community, 
+ they would be more likely to pose "lower level" questions, and therefore, 
+ improve their comprehension and brewing.
+ 
+ That is a good point but I think it is already happening at a reasonable 
+ level.  Compuserve deals with this problem by dividing the forum into Basic 
+ and Tehnical message groups but that can't be done on the Digest so one just 
+ has to wade through the stuff they are not interested in but fortunately it's 
+ "free" here.  Someone could start up a beginners' digest but I think it would 
+ be counter-productive.
+ 
+ I don't doubt that some people may be intimidated but there are enough that 
+ are not, to get out the questions and keep the discussions going.
+ 
+ Back to spades.... "real brewers" was a poor choice of words and perhaps 
+ trying to come up with a more appropriate one will still offend some but 
+ pushing it under the rug doesn't help either.
+ 
+ I still contend that mashing whole grains is another step up the ladder to 
+ becoming the "complete brewer".  If many/most opt out, so be it.  We opt out 
+ of many steps in the process but there is no reason to get paranoid about any 
+ particular one of them.  Nor is there any reason to criticize those who 
+ crusade for or against, any or all of them.
+ 
+ >From: Richard Cox <rcox`at`hsc.usc.edu>
+ >Subject: Dry Malt Extract vs. Syrup Malt Extract
+ 
+ >One of my homebrew suppliers strongly maintains that dry malt
+ extract provides better flavor and less extract "tang" than the
+ syrup variety.  He has encouraged me to use all DME in my recipes
+ whenever possible.
+ 
+ I can't offer anything other than intuitive reasoning.  Wort is converted to 
+ extract by evaporating the water.  In the case of dry extract almost all and 
+ in the case of liquid much less.  Is seems that whatever they do to the wort 
+ to get rid of the water has nothing to do with what we do to wort to make 
+ beer and therefore, less is better.
+ 
+ js
+ 
+ 
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 11:26:18 -0700
+From: colvin`at`hayduke.cs.utah.edu (Tom Colvin)
+Subject: Bud % alcohol / Ridding oil from plastics
+
+
+
+
+After reading the posts of Ulick Stafford and Bill Szymczak, I realized
+that Bud % alcohol must vary greatly from region to region even in the US.
+In this "wonderful" state of Utah it is law that beer exceeding 3.2% 
+alcohol by volume must be sold in liquor stores.  However, Bud is available
+in any grocery store around here.
+
+
+Our brewing club recently brewed a beer with chocolate in it.  Does anyone
+have any idea on cleaning the oil out of the plastic tubing and buckets 
+easily?  We were trying to avoid using dish washing detergent since they 
+normally leave behind stuff for anti-spotting and who knows what else.  We
+also were trying to avoid using a lot of water since we going through a 
+major drought in the area.
+
+
+        thanks for any advice in advance,
+
+
+        Tom Colvin
+        colvin`at`cs.utah.edu
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 10:49:46 PST
+From: lawson`at`acuson.com (Drew Lawson)
+Subject: Re: chimay yeast/recipe idea
+
+
+
+
+> From tony`at`spss.com (Tony Babinec)
+
+
+> 
+> At this point, you have a choice.  You can either brew
+> a beer and pitch your starter culture, or you can plate out the
+> yeast, isolate a single cell, build it up, and then brew the beer.
+
+
+I've been absent for a while, so I don't know what the last time was
+that this was discussed.
+
+
+The yeast in Chimay is not a single strain.  It is either 3 or 5.  I
+forget which, but I think it is 3.  If you plate it and isolate a
+single cell for building a culture, you will only get one of the
+three.
+
+
+Of course, you also avoid any other nasties that snuck into the bottle
+in small numbers.
+
+
+
+
+Drew Lawson                      If you're not part of the solution,
+lawson`at`acuson.com                you're part of the precipitate
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 14:28:39 EST
+From: umehara`at`NADC.NADC.NAVY.MIL (M. Umehara)
+Subject: Recirculating Infusion Mashing System (RIMS)
+
+
+
+
+        Thanks for your response to my RIMS questions on the HBD.  I have
+decided to build one and have several more questions for you.
+
+
+ - What is your method for sparging?
+ - What are your approximate flow rates during the different stages?
+ - How quickly does your heater cycle on and off?
+ - Which is higher, the liquid level or the grain level and should it 
+  matter?
+ - Where does the diffuser go?  Does it float on top of the grain/wort?
+
+
+        I really appreciate any help I can get.  I'm a gadget freak, but 
+unfortunately a klutz.
+
+
+Mike
+umehara`at`NADC.NAVY.MIL
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 11:05:15 PST
+From: lawson`at`acuson.com (Drew Lawson)
+Subject: Re: All-grain Snobs
+
+
+
+
+>  Keeping in mind that lots of people stick with extract because they are lazy, 
+>  paranoid or il-informed 
+
+
+[etc., deleted]
+
+
+>  Having said that, I suggest it is the extract brewers' insecurity, 
+>  sensitivity and paranoia that creates the image that all-grain brewers are 
+>  snobs.
+
+
+
+
+Gee,  Jack.  It's nice to know that I use extract because I am lazy
+(partially true) and that I read your posting as arrogant and snobbish
+because I am insecure.  I would otherwise have thought it was because
+you post like the proverbial bull in a china shop.
+
+
+I'd also like to thank you for not charging me $100/hour for this
+analysis.
+
+
+
+
+Drew Lawson                      If you're not part of the solution,
+lawson`at`acuson.com                you're part of the precipitate
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 11:23:10 PST
+From: lawson`at`acuson.com (Drew Lawson)
+Subject: Re: Killian's Irish Red
+
+
+> Just a clarification on which category Killian's falls into - the last time
+> I had one(last night) I read the label and it says that it is a "LAGER".
+> 
+> I, too, was suprised as I thought that it was an ale also.
+> 
+> Craig Vandeventer
+
+
+It _was_ an ale.  When Coors started making it (1978?) it was an ale.
+Somewhere along the way, they started making the lager.
+
+
+When I first was drinking it ~1986, it was an ale and I liked it.  I
+stopped buying it for a while (shifting to Bass), and when I bought it
+again, I didn't like it much.  I later noticed that it was (in tiny
+print) "lager" now.
+
+
+Drew Lawson                      If you're not part of the solution,
+lawson`at`acuson.com                you're part of the precipitate
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 15:06:32 EST
+From: "John DeCarlo" <jad`at`pegasus.mitre.org>
+Subject: Re: How Long Is Too Long
+
+
+>From: pointon`at`m2c.org (Joel Pointon`at`staff)
+
+
+>Greetings fellow brewers.  Being a fairly new convert to HB, I
+>have a question that I realize most of you WON'T be able to relate to.
+>Although I enjoy my HB, I'm not a big drinker, so subsequently I
+>have a stockpile building up of my brewing efforts.  The beer cellar
+>presently contains the following extract brewed product: Porter,
+>(3 months), Pilsner (2 months) and English Bitter (1 month old).
+>The cellar is approximately 55 degrees F at this time of year and
+>will increase to about 65 by the beginning of summer.  How long
+>can one expect to keep each of these before the flavor falls off?
+
+
+Well, there are at least some of us out there who don't drink much beer.  I 
+probably drink about 2 or 3 beers a week.  There are at least 12 cases of 
+homebrew in my basement.
+
+
+Like yours, my basement doesn't get below 50F during the winter nor much 
+above 60F or so in the summer.  Also, I store all my beer in cardboard 
+boxes with covers, so there is no exposure to light.
+
+
+I brought a three-year-old holiday ale to a December homebrewer meeting.  
+It had been seriously overhopped originally and now tasted like an OK ale--
+none of the spice character was left, and only a normal amount of hop 
+bitterness could be detected.  It wasn't oxidized, either.
+
+
+I recently uncovered a two-year-old raspberry ale six pack.  Figured it 
+would have none of the overpowering raspberry aroma and flavor of the 
+original brew.  Boy, was I wrong!  Still smelled and tasted great!  I 
+*would* say that it was past it's prime, though.
+
+
+For that matter, I still have some 1990 Anchor holiday ale down there and 
+it is starting to get a little worse but is still just fine.
+
+
+What general rules or conlusions do I have?
+
+
+1) Most beers will keep fine for at least a year under such conditions.  
+   Many will keep for two or three just fine.  
+
+
+2) Invite friends over to help you drink it if you like to brew as much as 
+   I do.  Everyone is happy this way.
+Fidonet: 1:109/131   Internet:  jdecarlo`at`mitre.org
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 15:16:33 EST
+From: kstiles`at`aluxpo.att.com
+Subject: Re: wine making
+
+
+in HOMEBREW Digest #1071 connell`at`vax.cord.edu asks:
+
+
+> I have noted with curiosity that ... there is almost no discussion 
+> of homemade wines ...  Is wine making discussed here so seldom 
+> because the process is uninterestingly straightforward or because 
+> the results are so inferior to commercial wines or both?
+
+
+        The charters of the Digest and rec.crafts.brewing exclude wine 
+making for some reason.  As both brewer and wine maker, I will risk 
+flamage to comment here on wine making.  As far as wine kits go, I 
+can't comment; I tend to avoid anything that looks like a recipe.  I 
+don't see why you can't make a decent wine from kits, though.  I make
+fruit wines, which can't really be compared to commercial (grape)
+wines.  For example, I tend to like dry wines ("Hey, Stiles, you
+call this good wine?  I call it gagging in the Sahara."), but fruit
+wines generally exhibit their fruit character better if they have
+some residual sweetness.
+        Wine making skills/equipment overlap considerably with those
+of brewing, but there are differences.  Also, the time scale is a lot
+different (I don't have TIME for instant gratification, dammit!).
+Get a good book on wine making.  A browse through the library is a 
+good start.
+
+
+ObBrewing:  No takers on my question about flavor/aroma properties
+of Chinook hops, huh?  Do any commercial brews use them?
+
+
+Kevin Stiles
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 14:52:46 cdt
+From: "Knight,Jonathan G" <KNIGHTJ`at`AC.GRIN.EDU>
+Subject: Spiced Ale
+
+
+
+
+Now, here's a question that could be answered by extract brewers and all 
+grain brewers alike.
+
+
+There was a *thin* thread (not quite overwhelmed by all the philosophizing 
+and speculation about snobbishnes) recently about spiced ales.
+
+
+Part of the discussion prompts me to wonder: has anyone tried BOTH the 
+technique of adding whole spices at some point to the boil AND adding 
+powdered spices at the end of the boil?  (Obviously, in different batches.)
+
+
+I made my first spiced ale this year and boiled orange zest, ginger root, 
+cinnamon sticks and whole cloves for about the last thirty minutes.  It has a 
+bit more bite than I intended, although the beer does taste quite good.  I am 
+wondering whether I boiled the stuff too long and whether powdered spices 
+at the end of the boil would produce a "kinder, gentler" brew.
+
+
+If anyone has a response of general interest, please post.  I would also be 
+happy to summarize and post e-mail responses.
+
+
+Not Worrying, and Having a Spiced Extract Ale With a Little Too Much Bite,
+
+
+Jonathan
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 16:27:42 EST
+From: "Spencer W. Thomas" <Spencer.W.Thomas`at`med.umich.edu>
+Subject: Leaf Hops?
+
+
+I have to agree about the freshness and general wonderfullness of hops
+plugs.  I bought some recently (imported by Crosby & Baker, according
+to the package) at Brew 'N' Grow (same as Alternative Garden Supply,
+but in Detroit instead of Chicago).  I made a Bock with Hallertau & a
+little Saaz.  What an aroma!  This was the first time I really
+understood what is meant by the "spicy" aroma of Saaz.  Wow!
+
+
+And the hops looked beautiful after I drained the wort.  Full cones
+that half-filled my brewpot. 
+
+
+The beer is still lagering, so I can't report on the taste, yet.
+
+
+=Spencer W. Thomas                 |  Info Tech and Networking, B1911 CFOB, 0704
+   "Genome Informatician"        |  Univ of Michigan, Ann Arbor, MI 48109
+Spencer.W.Thomas`at`med.umich.edu        |  313-764-8065, FAX 313-764-4133
+
+
+------------------------------
+
+
+Date:    Fri, 5 Feb 1993 15:44:38 -0600 (CST)
+From: STOREY`at`fender.msfc.nasa.gov (BadAssAstronomer)
+Subject: BAA
+
+
+
+
+    Hi yall
+
+
+    Well well well! There are quite a few of you out there with
+    opinions on Beer Across America. I tried to reply to each of you
+    to thank you for your time in replying to my query. But jeez, I
+    got better response than I ever anticipated. So, I'll waste
+    everyone's bandwidth and just do a global THANKS. :)
+
+
+    I just gotta be careful what I ask for, I just might get it ;)
+
+
+    I think I'm gonna join this thing, at least for a little while.
+    Spencer had a good suggestion about "sharing" the cost. I may do
+    that with a friend or 2 to help defray some of the expense. But
+    we-uns here in the southland don't got much other choice. Maybe
+    some day.
+
+
+    Oh yeah, Michael G., thanks for the fax, I guess that means you're
+    my sponsor. Only one more for a free 6er :):) Think maybe you
+    could send ME a bottle? :)
+
+
+    scott
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 17:38:06 EST
+From: Lee Menegon <necis!lmenegon`at`transfer.stratus.com>
+Subject: Diacetyl ?
+
+
+I have recently begun brewing all grain batches, 5 or 6.  A constant
+comment about my beers is that they contain noticable levels of
+diacetyl.  I have done some research in the Zymurgy trouble shooting
+issue and in Miller's CHOB and found:
+
+
+1) Diacetyl is a by product of the early stage of fermentation when
+oxygen is available to the yeast.
+2) Its level of production is directly related to wort temperature,
+i.e. warmer = more diacetyl.
+3)Yeast will eventually reduce the diacetyl in the later stages of
+fermentation.
+
+
+I discussed my brewing process with an experienced all grain brewer
+who too was having this problem with his beers.  We decide that since
+the yeast strains we were using 1056 and 1098 are not noted for high
+levels of diacetyl in their flavor profile that the following could 
+be flaws in our brewing process:
+
+
+1) Pitching into wort that was much warmer than the target fermentation
+temperature.  We did this to reduce lag time.
+2) Adding finings immediatley after racking to the secondary.  We did 
+this to induce CO2 generation to purge the head space.  This would cause
+the yeast to prematurely fall out of suspension thus reducing the
+quantity and the time in which the yeast was reducing diacetyl.
+3) Since we artifically carbonate our beer in soda kegs we would not
+bolster the yeast population which could reduce diacetyl in the
+conditioning phase.
+
+
+What besides pitching to wort at fermentation temperatue and finning after
+the yeast has settled or not at all what can we do to reduce the production
+of diacetyl and increase its reduction later?  I still plan to artificially
+carbonate it seems to make for clearer beer and I can drink it sooner, 3
+days after kegging.
+
+
+What can I do to produce high levels of diacetyl and minimize its reduction
+if I want to brew something with a Samuel Smith profile?  Is a warm
+ferment with a yeast strain noted for diacetyl production and fining
+immediatley after primary fermentation the way to go ?
+- -- 
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 15:48 CST
+From: korz`at`iepubj.att.com
+Subject: Re: dry VS syrup extract
+
+
+Richard writes:
+>One of my homebrew suppliers strongly maintains that dry malt
+>extract provides better flavor and less extract "tang" than the
+>syrup variety.  He has encouraged me to use all DME in my recipes
+>whenever possible.
+
+
+I know that the two most popular dry malt extracts, Munton & Fison
+and Laaglander, are both made from 100% malt (note that the Laaglander
+is a bit less fermentable, so use that to your advantage).  Many
+syrups contain all kinds of other sugars, like corn and even sucrose.
+I certainly would not want to simply dismiss all syrups -- there are
+a great many that appear to be of very high quality.  I've narrowed
+my use of extracts to a few that I feel are good (Northwestern, Munton
+& Fison, John Bull, Alexander's, Coopers, Ireks and a few others)
+and my extract batches have been par with my (and other's) all-grain
+batches.
+
+
+>I'm too new to homebrewing to have an objective opinion on this,
+>although my last batch -- using all DME -- does taste *much*
+>better than my first, which was made with syrup extract.  There
+>may have been other factors at work in that case, though.  I have
+>wondered whether or not the syrup cans impart any detectable
+>metal taste to the extract.
+
+
+I have not noticed this.
+
+
+>Does anyone have any advice?
+
+
+
+
+Yes, to everyone, not just Richard:
+
+
+Taste your homebrew supplier's homebrewed beers -- if they are worse
+than yours, don't take their advice.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 16:05 CST
+From: korz`at`iepubj.att.com
+Subject: Re: skimming/blowoff/HSA
+
+
+Jack writes:
+> Another example of his misinformation is on page 53, also underscored and 
+> burnt into my early data base on brewing.
+> 
+> "If you look into the fermenter, you will see a rich foamy head bubbling on 
+> top.  This head is composed mainly of resins from the hops, which are forced 
+> up ty the carbon dioxide bubbles.  Some books advocate skimming off the head 
+> but this should never be done because it contains all the oils and resins 
+> that will give the beer its body, aroma and characteristic  beer taste."
+> 
+> Certainly, there is a legitimate debate on the importance of skimming the 
+> foam but no one but Beagle argues the merits of leaving it there.
+
+
+I've done empirical analysis of two batches of beer split into blowoff and
+non-blowoff (non-skimming, also) sub-batches.  Beagle is partly right about
+the hop resins, but is dead wrong in saying that:
+
+
+1. *all* of them are in the foam, and
+
+
+2. the oils and resins give the beer its body.
+
+
+> >From: Jim Busch <busch`at`daacdev1.stx.com>
+> >Subject: re: reusing yeast & open fermenters
+> 
+> >I am most likely in the minority of homebrewers in that I am currently 
+> utilizing open fermentation techniques. 
+> 
+> You're in good company.  The only thing you need to do to complete your joy 
+> is to add a spigot on the bottom so you can take QC samples on a regular 
+> basis to determine how it is progressing before sending it to the secondary.
+> 
+> I find that for some strange reason, the primary fermentation seems to take 
+> much longer this way and I always seem to come up about a half a gallon 
+> short:)
+> 
+> I am sure you have also figured out how simple it is to sterilize with a bit 
+> of water boiling in the bottom.
+> 
+> I also suspect that you, like the rest of the enlightened ones, simply yawn 
+> at all the discussions about "blow-off" tubes and related mess.
+
+
+Part of the result of my blowoff/non-blowoff experiments was to determine that
+I may lose some hop bitterness and a bit of hop flavor by using blowoff, but
+I don't really want a lot most of what gets blown-off in my beer.  The
+blowoff sub-batch was smoother, cleaner, less astringent and a bit less
+bitter (note that I'm not a lupulophobe -- my last IPA had 80 IBU and I
+thought it was a bit underhopped).  I urge you to try the blowoff method
+for a beer or two and compare.
+
+
+> >From: korz`at`iepubj.att.com
+> >Subject: Spraying the grist
+> 
+> >Both Jim and Donald mentioned the spraying of water on the grist
+> as it enters the mash tun.  I suspect that this has the addional
+> benefit of reducing grain dust which is explosive.
+> 
+> I suspect that it might have a negative effect if Fix's hypothesis on HSA is 
+> correct.  What say George?
+
+
+Oops.  I think there's some miscommunication here, Jack -- the mash isn't
+hot at this time so Hot-side Aeration (HSA) is not an issue.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 19:36:50 -0800
+From: Tom Clark <tclark`at`apple.com>
+Subject: Digest Submission
+
+
+
+
+This is being submitted for its author: Gary Henry, ghenry`at`apple.com
+
+
+
+
+- -------------------------------------------------------------------------------
+
+
+Feb. 3, 1993
+
+
+
+
+John Harvard Brew House
+33 Dunster Street
+Cambridge, MA 02138
+
+
+617-868-3585
+Timothy Morse        Mark Palmer                Ray Kall
+Master Brewer        Manager and tour guide        Bartender, Waiter, Homebrewer
+
+
+The first impression of this place might be oops I've stumbled into Cheers. It's
+down stairs under the THE GARAGE building at 33 Dunster Street, Just a half 
+block from Harvard Square and one block East of J.F. Kennedy Dr. It used to be a
+restaurant called 33 Dunster Street.
+
+
+The first thing you notice is the long bar with the stainless steal serving 
+tanks enclosed in glass behind it. The bar has three sets of four towers, each 
+having two taps. One hand pulled pump for either the casked Stout or the J.H. 
+Pale Ale. They seemed to alternate between the two brews. Lots of back lit 
+stained glass against the back wall which was left in place from when it was 33 Dunster Street.  
+At the same end of the building and enclose behind the glass is a big copper 
+mash-tun and fermentor from The Pub Brewing Company.
+
+
+They get their pre-crushed malt from England and Hops from California, 
+mashing with 700 pound of malt at 165 degrees. Gypsum is added to 
+Cambridge's soft water. Extract is generally 430 gallons. The wort is counterflo
+chilled and then fermented for three to five days.  The secondary is then racked 
+to stainless steal cellar tanks for 10 to 21 days at 50 degrees. Some of their
+ales are dry hopped with whole hops.  When aging is done they drop the temp to
+36 degrees and run it through a DE filter and then to the serving tanks behind 
+the bar. They use Krausing for carbonation and no CO2. They brew 14 barrels 
+every three days.
+
+
+The dining area is large and comfortable. I first arrived there Sat. night at 
+11pm and the place was so packed I had to squeeze into the hostess stand to get
+a Nut Brown Ale. The next morning I came back for Sunday brunch. It was great! I
+had an Omelet that was stuffed with made-on-the-premise pork sausage in a BBQ 
+sauce and a little jack cheese. Served with home fries that were quartered new 
+potatoes saut ed in a garlic & onion sauce. Also served was a basket of baked 
+goods from a local bakery, hot and wrapped in linen with a generous scoop of 
+raspberry jam.
+
+
+This brew house started nine months ago and has only been open about six 
+months. Timothy Morse, Master Brewer who started out at Anchor Brewing, 
+then went to Hope, WI and on to Commonwealth Brewing before starting at John 
+Harvard's Brew House, has yet to pour his own brew here. It's been done under 
+contract at Massachusetts Bay Brewing (Harpoon) due to hassles with the city of 
+Cambridge over the  zoning. Apparently Cambridge viewed brewing as a fire 
+hazard. Tim finally got to do his first brew Sat. Jan. 30,1993. 
+
+
+O-K now for the good stuff.  Ray Kall the bartender, who is also a home brewer 
+was very helpful, informative and friendly. In fact the entire staff here is 
+well trained and friendly. He said that once Tim gets going with his own brew 
+there should be some improvements. He hopes to brew traditional British 
+(Burton on Trent) style.
+
+
+
+
+
+
+
+
+I had a five brew sampler.
+
+
+1. Was a nut brown ale:   Color was very good. I didn't get much aroma. It was 
+drinkable but not exceptional. Not a Samuel Smith by any means.
+
+
+2. Was a Highland Ale-a scotch:  My first taste of Scotch Ale so I can't comment
+other that the FG (final gravity) seemed high but maybe normal for the style?
+
+
+3. Was NEW TOWN LIGHT ALE:  Light golden color. Well carbonated. Good 
+Fuggles hopping. My wife would love this one.
+
+
+4. Was JOHN HARVARD'S PALE ALE:  Nice copper color and hoppy. Served 
+either 'cold draught style' or 'cask conditioned and hand pulled' in the British 
+manner and the Brew House's biggest seller. Had a nice sweet aftertaste.
+
+
+5. Was an IRISH EXPORT STOUT:  This also was poured in two ways. Draft and 
+cask. The cask was hand pulled and served warmer and less carbonated. Both 
+were dark, malty, with a rich roasted flavor.  True to style. A full bodied, but
+less bitter version of the famous Dublin Ale. This was my favorite.
+
+
+The bill of fare for this very memorable Sunday brunch and the five brew 
+sampler was $12.50. I went back one more time for dinner and the food was 
+again excellent. I highly recommend the John Harvard Brew House.
+
+
+- -------------------------------------------------------------------------------
+
+
+- ------
+Thanks,
+Tom Clark
+tclark`at`apple.com
+- ------
+
+
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 22:49:24 PST
+From: ng570`at`andechs.pnl.gov
+Subject: culturing Paulaner yeast
+
+
+
+
+In #1070 Greg Wolodkin writes about perhaps having problems culturing
+yeast from the dregs of a bottle of Paulaner Hefe-Weizen.  According
+to Eric Warner's wheat beer book, the Paulaner Weizen that is shipped
+overseas is first pasteurized! I doubt that this is very good for
+the bottling yeast. Maybe Spaten is a better bet, but I haven't seen
+it around my area.
+
+
+good luck!
+
+
+Kirk Peterson
+
+
+------------------------------
+
+
+Date: Fri, 5 Feb 93 22:00:19 EDT
+From: joseph`at`joebloe.maple-shade.nj.us (Joseph Nathan Hall)
+Subject: Crushed grain, etc.
+
+
+
+
+Danny says:
+
+
+> Wasn't it Rob B. who had some remarks about all-grain snobs?  Well said,
+> Rob!  I recently made the switch to all-grain -- I will admit that I was
+> always a bit apologetic about being an extract brewer.
+
+
+The insight into the brewing process and the complete flexibility
+in recipe formulation are what do it for me.  You can bake fine cake
+from mixes and buy top-notch frozen puff pastry, but until you make
+your own from scratch you are not fully educated.  Similarly, a complete
+education in homebrewing must include lots of all-grain beer ....
+
+
+> The best situation is for extract brewers to be able to dabble in all grain
+> without purchasing the equipment (which may or may not cost a fortune).
+
+
+Really, it's not too expensive.  The beer is much cheaper (1/2 or less),
+too.  I have spent much more on books and things like autoclaves and
+culture tubes than I have on the equipment just needed to make all-grain
+brews.  All you must have is a big pot (even the 20 qt Revereware
+is ok, though a little small) and a lautering system.  <$100.
+
+
+> I personally believe working with an experienced person is the best way
+> to manage all aspects of brewing though.
+
+
+Don't be shy.  There is no need to brew from extract before working
+with all grain.  When you get down to it, the process *is* forgiving.
+The only thing it isn't is, er, quick.
+
+
+ ..
+
+
+> >The cellar is approximately 55 degrees F at this time of year and
+> >will increase to about 65 by the beginning of summer.  How long
+> >can one expect to keep each of these before the flavor falls off?
+
+
+At that temperature, well-made pale or amber beer will keep at least
+a year.  Two or three, or more, wouldn't surprise me.  I don't recall
+the last time I had a staled pale or amber brew, and I tend to keep
+a few of almost every batch for 6-18 months.  Dark beers will eventually 
+start to stale quite suddenly.
+
+
+Room temperature storage is OK for most homebrew, too.  Again, I've
+kept bottles for over a year at room temperature with no problems.
+
+
+ ...
+
+
+Jack says:
+
+
+>  Keeping in mind that lots of people stick with extract because they are lazy, 
+>  paranoid or il-informed [...], it is worth 
+>  noting that some extract beers are excellent beers, so I am told.
+
+
+There weren't many extract-based first place winners in the Nationals
+this year, but they keep on coming ....
+
+
+>  Having said that, I suggest it is the extract brewers' insecurity, 
+>  sensitivity and paranoia that creates the image that all-grain brewers are 
+>  snobs.
+
+
+Jack, Jack, Jack!  It's the fact that some of us all-grain brewers
+ARE elitist snobs with a superiority complex.  Furthermore, we know
+we are, and we love it.  We demonstrate our affluent, care-free lifestyle
+by spending 4-8 hours tending a process that saves us all of $10 per
+2 cases of heer.  We buy grain by the 50lb/25kg sack and smile while
+grunting past the open-mouthed folks carrying 1lb bags of crystal malt.
+
+
+The process is longer and harder and more rewarding TO US.  I really
+don't believe, though, that it is much more likely to produce a prize-
+winning beer than extract brewing is in the hands of someone sufficiently
+skilled ... or lucky.
+
+
+I personally wouldn't have it any other way.  :-)  :-)
+
+
+ ...
+
+
+connell says:
+> I have never read about
+> or experimented with homemade wines, but I have the idea that people
+> just dump concentrate and water in a carboy and add yeast.
+
+
+Oh, my.  <asbestos clothing at ready>
+
+
+ ....
+
+
+And finally, Jim Bayer says:
+
+
+> I'm just beginning to mash and I have a question about the practical shelf
+> life of CRUSHED grain.
+> [...] If for some reason all of my ingrediants arrive for brewin'
+> on Saturday but something happens and I can't get to it, how long can I store
+> the grain and still have fresh grain and how should I store it?
+
+
+A very long time.  So long as nothing is moving around inside it,
+it is still OK.  I've heard people say it goes stale after a while,
+but I've not noticed this in some fairly old precrushed grain I've
+gotten from a friend.
+
+
+It WILL pick up moisture from the environment if the humidity is high
+enough.  I think that this is responsible for the apparent loss of
+yield seen by brewers who have let crushed grain sit for a day or
+two.  The effect is on the order of 10%.
+
+
+(Now, I once made a fine stout from a grain bill that accidentally
+included a pound of flaked barley infested with weevils.  So even
+a few bugs won't hurt you.)
+
+
+> So far someone told me to freeze it, but that sounds wrong to me.
+
+
+Works fine.
+
+
+> BTW, I'm thinking of weeks for storage, not days.  I know it's best if I don't
+> have to store the grain, but I like to have my bases covered.
+
+
+Use a reasonably airtight enclosure (tub or tightly folded bag is
+fine) and everything will work out swell.
+
+
+
+
+================O Fortuna, velut Luna, statu variabilis================
+uunet!joebloe!joseph   (609) 273-8200 day   joseph%joebloe`at`uunet.uu.net
+2102 Ryan's Run East        Rt 38 & 41             Maple Shade NJ 08052
+Copyright 1993 by Joseph N. Hall.   Permission granted to copy and
+redistribute freely over USENET and by email.  Commercial use prohibited.
+
+
+------------------------------
+
+
+Date: Sat, 6 Feb 93 11:02 CST
+From: akcs.wally`at`vpnet.chi.il.us (John Walaszek)
+Subject: Toasted Flaked Barley
+
+
+I have recently purchased some toasted flaked barley and intend to use
+about 4-6 ounces in a pale ale infusion mash. Has anybody used this
+grain.  I am concerned that it might affect clarity.  I also wonder
+if it should be run through the grain mill.  It really doesn't look
+like flaked barley it looks more like flattened barley that's been
+toasted.  Any input would be helpful. Thanks.
+
+
+Wally
+
+
+------------------------------
+
+
+Date: Sun, 7 Feb 93 09:53 CST
+From: akcs.chrisc`at`vpnet.chi.il.us (chris campanelli)
+Subject: Corona flour stones
+
+
+I'm looking for the stone plate attachments for the Corona mill.  I wish
+to grind some flour.  Any sources?  Thanks in advance.
+
+
+------------------------------
+
+
+Date:         Sun, 07 Feb 93 14:50:06 EST
+From: John Pedlow <TKSJOHN`at`UBVM.CC.BUFFALO.EDU>
+Subject:      PROTECT FROM FROST ?
+
+
+I'm a newcomer to this group; an apology if this has been covered.
+As I was about to enjoy a Guinness Stout last evening I noticed
+verbage accross the top of the case: PROTECT FROM FROST.  Why does
+it say such a thing?  What does it mean?  Does it alter the brew
+in some fashion if the temperature gets too low?  Thanks to whoever
+is kind enough to enlighten me.
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #1073, 02/09/93
+*************************************
+-------

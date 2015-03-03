@@ -1,0 +1,1428 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Wed May 10 03:31:50 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["45446" "Wed" "10" "May" "1995" "01:01:07" "-0600" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1135" "Homebrew Digest #1727 (May 10, 1995)" "^Date:" nil nil "5" nil nil nil nil]
+        nil)
+Received: by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with X.500 id DAA15962; Wed, 10 May 1995 03:31:46 -0400
+Received: from goodman.itn.med.umich.edu by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with SMTP id DAA15957; Wed, 10 May 1995 03:31:44 -0400
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA20149
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Wed, 10 May 95 03:31:38 -0400
+Received: from hpfcmi.fc.hp.com (hpfcrdg.fc.hp.com) by hpfcla.fc.hp.com with ESMTP
+        (1.37.109.15/15.5+IOS 3.20) id AA249211006; Wed, 10 May 1995 01:30:07 -0600
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.10 $/15.5+IOS 3.22) id AA266109267; Wed, 10 May 1995 01:01:07 -0600
+Message-Id: <199505100701.AA266109267`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+Date: Wed, 10 May 1995 01:01:07 -0600
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1727 (May 10, 1995)
+
+
+
+
+
+
+HOMEBREW Digest #1727                             Wed 10 May 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Homebrew carry-on? ()
+  Water Chemistry Example (A. J. deLange)
+  SUDS Alert! User-correctable error (David Draper)
+  Wyeast 3068 (Anatum)
+  Oven mashing (Jeff Renner)
+  Klages malt (ESMPD)" <gcunning`at`Census.GOV>
+  RE: Smoking Grains for Brewing (spencer)
+  Digital Thermometer/Timer Review (dsanderson)
+  FOOP (Matt_K)
+  dark wheat beer?/DME (Larry Lowe)
+  Bottled Yeast/False Bottom (Randy M. Davis)
+  Make MY wish... (Russell Mast)
+  RE: Terminal Gravity / SUDS (billj)
+  Body and Gravity (Russell Mast)
+  Feed Store Grain / 35K BTU (Norman Pyle)
+  Malt (aardvark)
+  Men, Women, and Bottles (Russell Mast)
+  Aluminum stockpots ("James Giacalone")
+  Smoking Grains (cisco)
+  Re: Non-sankey keg ("R. James Ray")
+  Lautering setups (Jeff Benjamin)
+  Re: Long stem dial thermometer ("R. James Ray")
+  Copper Kettle (Christopher R. Vyhnal)
+  FG and Body/Al Welding/SS Keg Appl/RIMS FAQ Offer/Candi (Kirk R Fleming)
+  Mercury Spill, O2 caps (Christopher R. Vyhnal)
+  whoa/mangos (Alan Van Dyke)
+  Various Beer Things ("Harrington, Stephen J")
+  Competition (Michael L Montgomery +1 708 979 4132)
+  Brewcap or Fermentap (JEFFREY.T.ANDERSON)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 9 May 1995 06:22:52 +0500
+From: generic`at`be1578.be.ford.com ()
+Subject: Homebrew carry-on?
+
+
+
+
+        Hi all.
+        Flying to Houston on thursday to attend a wedding. I wanna bring
+        12 of my best. Is it allowed? Is it safe? Would I have a better
+        chance with plastic bottles? TIA for your help.
+
+
+        BTW, I already have Mr. Shirleys "Locations for Fine Beer in the
+        Houston area." (apr 18 94)
+
+
+
+
+Mike Preston, Secretary    .~~~. 
+  The Detroit Carboys      |   |]
+"Habeo Hordea Fermentabo"  |___|
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 04:34:56 -0500
+From: ajdel`at`interramp.com (A. J. deLange)
+Subject: Water Chemistry Example
+
+
+In #1725 Darren Aaberge had a question about adjusting the pH of his mash
+working from Austin, TX water with a pH of 9.8, 17 ppm Calcium, 57 ppm
+chloride 16 ppm Magnesium, 28 ppm Sodium 39 ppm Sulfate and a total
+alkalinity as CaCO3 of 55.
+
+
+For starters, I'm amazed by that pH. Do people drink this water? Does it
+taste very bitter? That aside the basis for neutralization of alkalinity is
+conversion of all (or nearly all) carbonate and bicarbonate to carbonic.
+"Neutralization" is a bit of a misnomer since this occurs at a pH near 4
+which is hardly neutral. In fact it is about as acidic as this water is
+basic. Anyway, the first step is to find out how much of the alkalinity is
+due to carbonate and how much to bicarbonate as each mole of carbonate
+requires 2 moles of hydronium to "neutralize" it and each bicarbonate
+requires one.
+
+
+The ratio of bicarbonate to carbonic to  is r1 = 10^(pH - pK1) i.e. 10
+raised to the power of the difference between the pH and the pK. The pK is
+minus the log of the dissociation constant for the reaction H3O+ + HCO3-
+<--> H2O + CO2 and has the value pK1 = 6.38. For water at pH 9.8  r1 =
+10^(9.8 - 6.38) = 2630.2680.
+Similarly the ratio of carbonate to bicarbonate is r2 = 10^(pH - pK2) where
+pK2 is the pK for the reaction H3O+ + CO3-2 <--> HCO3- + H2O and has value
+10.32. Thus r2 = 10^(9.8 - 10.32) = 0.3020.
+
+
+Now let there be x moles of carbonic in the water. There are then r1*x
+moles of bicarbonate and r1*r2*x moles of carbonate. The total moles of
+these species are then x( 1 + r1 + r1*r2) = S. This is solvable for x as x
+= S/(1 + rt1 + r1*r2)
+which is the moles of carbonic, r1*S/(1 + r1 + r1*r2) is the moles of
+bicarbonate and r1*r2*S/(1 + r1 + r1*r1) is the moles of carbonate. To get
+values S must be determined.
+
+
+Alkalinity is defined as the sum of the bicarbonate concentration plus
+twice the sum of the carbonate concentration (plus the hydroxyl
+concentration minus the hydronium concentration but these last two can
+usually be ignored). Thus
+A = r1*S/D + 2*r1*r2*S/D + 10^(14-pH) where we have simplified by defining
+D = (1 + r1 + r1*r1). This is solved for S by S = D*(A - 10^(pH-14))/(r1 +
+2*r1*r2)
+
+
+The water in question has total alkalinity as CaCO3 of 55 mg/l. As the
+molecular weight of CaCO3 is 100 this amounts to 55/100 = 0.55 millimoles
+per litre. This is the total alkalinity, A. As 10^(pH-14) = 0.06 millimole
+it can, as we said, be ignored. At such a high pH the hydronium
+concentration is definitely too small to consider. Thus S =
+3425.6089*.55/4218.9499 = 0.4466 millimoles. Then x = S/D = 0.13
+micromoles/l, bicarbonate is r1 times this or 0.3429 millimoles/l and
+carbonic r2 times this or 0.1036 millimoles/l. These values in millimoles/l
+can be converted back to ppm as CaCO3 simply by multiplying by 100 to get
+34.29 ppm bicarb and 10.36 ppm carbonate.
+
+
+To "neutralize" these species you will need .3429 millimoles/l hydronium
+for the bicarbonate and 2*.1036 = .2072 millimoles/l for the carbonate for
+a total of .5501 millimoles per litre. Does that number look familiar?
+
+
+An alkalinity of 55 ppm as CaCO3 is not that bad. The rule of thumb is to
+have less than 50. Also 17 ppm Ca isn't that low. It is 17/40 = .427
+millimoles per litre. If each of those calcium ions  reacted with phytin to
+produce one hydronium ion you would come close to neutralizing your
+alkalinity. I would, therefore try gypsum before fooling around with acids
+unless you are doing beers in which the sulfate is already high. You might
+try testing a quart or two of mash with gypsum to see what happens. If you
+do decide to try acid (lactic, phosphoric and hydrochloric are good choices
+except that your chloride is already pretty high), be careful as it is
+possible to overshoot although the buffering system of the mash itself will
+give you some protection.
+
+
+Seems this ought to be in a FAQ somewhere.
+
+
+A.J. deLange   Numquam in dubio, saepe in errore!
+ajdel`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 22:33:12 +1000 (EST)
+From: David Draper <ddraper`at`laurel.ocs.mq.edu.au>
+Subject: SUDS Alert! User-correctable error
+
+
+Dear Friends, this post is for users of Mike Taylor's SUDS program for
+Windows--if that isn't you, page down now.  After all the hoo-hah about
+the various ways to do IBU calcs and my post just the other day in which I
+favorably commented on the way SUDS incorporated the results of that
+hoo-hah, it turns out that there is an error in the data files that the
+program uses to do the calcs, which Andy Walsh and I stumbled across
+yesterday.  That's the bad news--the good news is that because of the way
+Mike Taylor redid the way the program calculates IBUs in version 4, we can
+all correct the error ourselves, and he has asked me to put the net.word
+out on this.  What happened is that Mike put the wrong values in the file
+containing Glenn Tinseth's utilization data--Mark Garetz's numbers are
+there instead.  So in order to use the Tinseth data (which are my personal
+favorites), we need to edit the files and put the correct numbers in
+there. 
+
+
+Now, there are three data files for each of the three authors' data: Rager,
+Tinseth, and Garetz.  This is because Mike chose to give the option for
+using Garetz's 5% fudge factor for the flocculation characteristics of
+yeast. So there is a Rager average flocculation, low flocculation, and high
+flocculation file; similarly there are three files for Tinseth and three
+for Rager.  These files have some text at the top, saying "This table is
+based on figures of..." then a line of ====, and below that a table of
+numbers, in the form minutes and utilization percent, e.g. "10    5%". 
+Here is what the Tinseth average flocc data, in the file avgtin.ibu, 
+SHOULD look like:
+
+
+5             5%
+10            6%
+15            8%
+20           10%
+25           12%
+30           15%
+35           19%
+40           23%
+45           24%
+50           25%
+60           26%
+
+
+If you want to use the Garetz 5% fudge factor for flocculation (I love
+alliteration), then edit the hitin.ibu and lotin.ibu files, adding 5% for
+high flocculation and subtracting 5% for low flocculation.  When editing
+the files, be sure you include that percent sign, otherwise you will have
+problems.
+
+
+Mike says he's sorry for any confusion (although no one had tried to
+contact him on this so far, so it could be worse), and future releases will
+have the right data in the right files.  I hope this post is enough to put
+anyone who was scratching their head on the right track.
+
+
+Cheers, Dave in Sydney
+- --
+"...if you think about it, everything makes sense." ---Ginger Wotring
+******************************************************************************
+David S. Draper, School of Earth Sciences, Macquarie University, NSW 2109
+Sydney, Australia. email: david.draper`at`mq.edu.au fax: +61-2-850-8428
+             ....I'm not from here, I just live here....
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 09:29:20 -0400
+From: Anatum`at`aol.com
+Subject: Wyeast 3068
+
+
+Hello all,
+
+
+Just wanted to put my two cents into the Wyeast 3068 discussion. I've brewed
+about eight batches of all-grain, and the first to blow the airlock and spew
+forth during fermentation was this yeast. The beer was a wheat with 50% wheat
+malt, so perhaps this is to be expected. 
+
+
+Unfortunately, the beer didn't finish well - it stopped after three weeks at
+1.012, which is a good deal higher than expected. It has quite the malty
+taste, too! (Though I intend to drink it!)
+
+
+Till next time,
+Widllife Research Associates
+Greg Tatarian
+Petaluma, CA 
+anatum`at`aol.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 95 09:35:46 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Oven mashing
+
+
+David L. Shea wrote about oven mashing
+   
+>   This method works great, however, when you put your
+>   kettle in the oven,  turn off the heat.  The oven is
+>   insulated and will keep a steady  temperature for the
+>   entire mash, as long as you don't open up the door
+>   before the mash is complete.  I was warned that leaving
+>   the heat on might  actually raise the temperature or
+>   scorch the bottom grains.
+
+
+I've been doing oven mashing since my first all grain batch in 1979 or
+so.  I was surprised to see it as a new tip in this month's zymurgy.  I
+thought I read it in Dave Line, who suggests overnight mashing, which I
+use to do, but I just checked his "Big Book on Brewing," and there's no
+mention.  He suggests covering the mash pot with blankets, so maybe I
+just figured it out myself to keep an even temperature overnight.
+
+
+Anyway, I always set the oven temperature to 150^F, and I've never had
+any trouble such as David is concerned about - just rock steady mash
+temperatures.  And I open the oven several times to stir, check
+temperature and pH, taste, etc.  Then I mashout on a propane cooker
+(formerly stovetop), then carefully ladle the mash to my insulated
+Zapap.  I must confess to thinking about adapting my 10 gallon aluminum
+pot to RIMS to avoid all of this, and it is too big to fit in the oven.
+
+
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 09:33:59 -0400 (EDT)
+From: "Jerry Cunningham (ESMPD)" <gcunning`at`Census.GOV>
+Subject: Klages malt
+
+
+Is Klages malt fully modified? Do I need to do a protein rest with this malt,
+if I'm not really concerned about chill haze? I've heard some people say that
+it's not fully modified and you need to do a protein rest, while others just
+do a single-step infusion.
+
+
+
+
+Thanks,
+
+
+Jerry Cunningham
+Annapolis, MD
+
+
+------------------------------
+
+
+Date: Tue, 9 May 95 09:51:32 EDT
+From: spencer`at`med.umich.edu
+Subject: RE: Smoking Grains for Brewing
+
+
+A couple of years ago, Ed Westemeier (of this forum) sent me a bottle
+of hickory-smoked beer (oktoberfest???).  I loved it's bacony aroma
+and flavor.  But that's just my opinion.
+
+
+=Spencer Thomas in Ann Arbor, MI        (spencer`at`umich.edu)
+
+
+------------------------------
+
+
+Date: Tue, 09 May 95 09:51:26 EST
+From: dsanderson`at`msgate.CV.COM
+Subject: Digital Thermometer/Timer Review
+
+
+
+
+I just received a Digital Thermometer/Timer from a mail order company 
+named Improvements 800 642-2112 that I think is perfect for all-grain 
+brewing.
+
+
+It is a small LCD unit with a S/S probe at the end of a 4 ft. cable 
+designed to remotely read the internal temp of a roast in the oven. The 
+probe is shaped like a candy cane so it'll hang 6 1/2 inched down from 
+the rim of a kettle but I'll probably mount it to a stirring paddle.
+
+
+The temp range is 32F to 248F and you can set an alarm to go off when 
+any temperature in that range is reached. I found it to be fast to 
+stabilize and reasonably well calibrated. It read a steady 34 in ice 
+water, 99 under the tongue and fluctuated between 212 and 214 in boiling 
+water(mostly 212).
+
+
+It also has a countdown timer/alarm mode with a range of 1 sec to 100 
+hours. 
+
+
+Cost: $30 with 6 mo. warrantee. It works for me.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 95 10:01:02 edt
+From: Matt_K`at`ceo.sts-systems.ca
+Subject: FOOP
+
+
+Message:
+Steve Robinson asks:
+
+
+> Do I hear FOOP, anyone?
+
+
+FOOP you say?  We can do FOOP.  FOOP is the sound my neigbours hear 
+when I use some gasoline and a match to flame sterilize my corny kegs.
+
+
+Just kidding!!
+
+
+Matt
+in Montreal
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 95 9:20:14 CDT
+From: Larry Lowe <lnl`at`apwk01g3.abrfc.noaa.gov>
+Subject: dark wheat beer?/DME
+Full-Name: Larry Lowe
+
+
+ i just bottled a batch of M&F wheat beer. i am new at this micro/pico brewing
+thing, so i have a question. all of the wheat beers (all be it a small number)
+i've had, have all been a light/golden color. is the M&F supposed to be a darker
+color...not like a stout, but definately not golden in color. i did not stand
+over the wort and stir constantly...a collective gasp...so therefore burnt 
+residue was on the bottom of the pan. i am guessing that this burning 
+contributed to the color. am i correct?
+
+
+ i want to buy a "kit" which come with DME. i have read a few posts that have
+had bad results with this? is this common? if so, is there anything you can do
+to minimize/eliminate such results? should i just double the extract syrup?
+
+
+ i also want to try a john bull australian style extract. anyone enjoy this 
+beer. TIA and privat e-mail is fine. 
+
+
+ hi lee.
+ 
+ larry
+- --
+from: Larry N. Lowe
+      NOAA, National Weather Service
+      Arkansas-Red Basin River Forecast Center
+      10159 East 11th St,  Suite 300
+      Tulsa, Oklahoma 74128-3050
+      lnl`at`apwk01g3.abrfc.noaa.gov
+      Off: (918)832-4109  FAX: (918)832-4101
+
+
+------------------------------
+
+
+Date: Tue, 09 May 1995 8:28:54 MDT
+From: Randy M. Davis <rmdavis`at`mocan.mobil.com>
+Subject: Bottled Yeast/False Bottom
+
+
+Rob in Montreal asked about the life span of bottled yeast. I use the same
+'parallel propagation' technique that is outlined in the yeast FAQ. The one
+and only problem I have encountered so far is that I tend to have too much
+yeast on hand. I brewed this past weekend and used a starter prepared
+from a bottle of Wyeast #1968 that I bottled approx. 6 months ago. These
+bottles have been refrigerated all the while. The starter came to life
+quickly and the lag time in the 23 litre batch was less than 12 hours (it
+took off sometime during the night). So far I have not found a bottled yeast
+that did not take off and I have also not had any infection problems. I
+recently picked up a bottle of Blanche de Bruges for the yeast and did not
+realize till I was drinking it that the best before date was August 1993!
+It was slow to start but it did get going eventually. The behavior was 
+identical to the Wyeast wit strain. It looks as though bottled yeast can 
+remain viable for fairly long periods.
+
+
+As for Jim Powell's question regarding false bottoms. I would strongly
+recommend the copper manifold approach. Very easy to construct and quite
+efficient. I made one about a year ago and I'm sold.
+- --
++-------------------------------------------------------------------------+
+| Randy M. Davis  rmdavis`at`mocan.mobil.com   Calgary Canada  (403)260-4184 |
++-------------------------------------------------------------------------+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 09:37:01 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Make MY wish...
+
+
+
+
+Your article sent to homebrew is being rejected. The reason:
+ -- No subject line given --
+
+
+> This Department recently received a letter from the Illinois 
+> Department of Drunks concerning Russell Mast, a twenty-five year old, 
+> who has plenty of time to live, but no time to waste.
+> 
+> Craig turned in a wish to the Old-fart's Make a Wish Foundation 
+> expressing a desire to have an entry in the Guiness Book of World Records 
+> for the most BEERS received by an individual.
+> 
+> Please take a minute and help make a little boy's wish come true.  Send 
+> your beers to:
+> 
+>         Russell Mast
+>         c/o Old-fart's Make a Wish Foundation
+>         3738 N. St. Louis Ave.
+>         Chicago, IL 60618 USA
+
+
+------------------------------
+
+
+Date: Tue, 09 May 95 09:31:57 cst
+From: billj`at`mails.imed.com
+Subject: RE: Terminal Gravity / SUDS
+
+
+Greetings from the swamp lands of Texas,
+
+
+The question posed by Larry Bristol sparked another idea. I am wondering if 
+there are any style criteria for FG. I use SUDS for my recipe formulations 
+which gives me a target OG, color, IBU, and Alcohol range but does not 
+provide info on proper FG or typical grain bill (specialty grains and %) 
+for the style. I would hate to make a scotch ale with a FG of 1010 or a 
+light lager with FG 1025 but I don't have the information to know what is 
+correct. This is probably the weakest part of my brewing knowlage (except 
+understanding FOOP, or microbiology, or water chemestry, or ...). 
+
+
+Are there any sources that give typical characteristics (OG, FG, Color, 
+IBU), content(grain bill/hop/yeast) and process information 
+(infusion/decoction/???) on all (or most common) styles of beer?
+
+
+- ---------------------------------------------------------------------------
+
+
+I have a suggestion for a SUDS x.0 that is a turn in a different direction. 
+
+
+"SUDS for idiots"
+
+
+Give me slide switches that adjust the OG, FG, IBU, and color within a 
+particular style (or maybe within 150% of the style for the contest 
+winners) and let the computer figure out the grain bill, hop schedule, mash 
+schedule, and fermintation schedule. Every time a program designer lets me 
+put "GARBAGE IN" I get "GARBAGE OUT" (or beer that only I will drink). A 
+little AI (Artificial Inteligence) would make up for my LI (lack of ...), 
+and I would gladly give up creativity and imagination for good beer. 
+
+
+Just a Thought
+
+
+Bill Joy
+billj`at`mails.imed.com
+Angleton Texas
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 09:47:16 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Body and Gravity
+
+
+> From: LBRISTOL`at`SYSUBMC.BMC.COM
+> Subject:      Terminal Gravity
+> 
+> A few people have responded to my query about final gravity.  Thank you all
+> for the time and information.
+
+
+> So my question is basically this - Assuming that we allow the beer to reach
+> full attenuation, does the FG represent such an objective, quantitative
+> measure of the amount of protein/dextrine present in the beer, and therefore
+> (by extension), its "thickness", "mouth feel"", etc.?
+
+
+No.
+
+
+> As a hypothetical, lets assume we have two beers, one with an OG of 1060 and
+> another at 1040, and when both of these reach attenuation, the FG is 1010.
+> While one of them clearly has produced more alcohol, is it reasonable to
+> expect them both to exhibit the same level of "thickness", "mouth feel", etc.?
+
+
+No.
+
+
+> If the answer is "yes", then the FG would represent an objective measure; if
+> "no", then why not?
+
+
+I don't know.  "They" say it's got something to do with proteins.  I really
+don't know.  
+
+
+I am thinking of two particular batches, one steam beer the 
+other a Weizen.  The weizen had a FG of 1.007, the steam of 1.006.  The weizen
+had much less body than the steam.  The steam had a higher OG, for what it's
+worth.  I can't say for sure why these two beers differed in body as much as
+they did.  I can say I liked them both very much, and I prefer my wheat beers
+a little 'lite' tasting.
+
+
+>  Or suppose we have two beers that both start at the same
+> OG, but end with FG of 1010 and 1015 respectively.  Is it a given that the
+> beer ending at 1015 will have more "mouth feel" than the other?
+
+
+I'd guess not, but can't say for sure.  The last four beers my friend Jake has
+made all had the same OG, by coincidence.  I'll talk to him about it, because
+I think they have varied in FG.
+ 
+>  Or maybe I could use the ratio of OG:FG as a little better way to measure.
+
+
+Maybe, but I doubt it.
+
+
+> What does the collective wisdom have to say?
+
+
+I see what you're trying to achieve, that's a way to scale mouthfeel.  I don't
+believe that it's very accurate to try and capture mouthfeel on a unitary 
+scale.  I could see a stout and a doppelbock which could be rated as equally
+'thick' but there's a different quality to the feel.  Of course, the same is
+true of color, and they have a scale for that, so why not mouthfeel?  Still, 
+I think the best we'd be able to achieve for mouthfeel is a subjective rating
+system based on accepted standards.  Maybe the sensory epithelia in the mouth 
+that contribute to mouthfeel operate on a principle as 'simple' as 
+photoreceptors, so that an objective measure based on chemical composition 
+could be devised, but I doubt that it's worth the time and effort that would
+be required.
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Tue, 9 May 95 8:55:58 MDT
+From: Norman Pyle <npyle`at`hp7013.ecae.StorTek.COM>
+Subject: Feed Store Grain / 35K BTU
+
+
+Kevin Hass wrote:
+
+
+>Sidenote: Batch 2 was an experimental batch brewed entirely from home
+>malted barley that was made from barley I bought from the feed store.
+>The malting was simple and easy, and the malt produced is fine.
+>In fact, the grain sizes were LARGER than malted barley from the brew
+>store.  How's that!  $0.40 per gallon :-)
+
+
+This sounds very interesting, but I would make one caution.  Much of the seed
+sold to farmers is treated for various pests, even the seed sold for cattle
+feed.  I personally don't want anything extra going into my beer.  You can
+certainly find non-treated grain, and I hope yours was, but the problem is
+that you can't verify it.  I'm currently using some wheat from a commercial
+feed mill, and was told it is pure clean wheat, no chemicals.  I trust these
+people and I guess I'm just suggesting you make sure you deal with folks you
+can trust.  Regarding the home malting, details, give us details!
+
+
+**
+
+
+John Palmer wrote:
+
+
+>The Superb gas burner quotes only 35KBTU compared to the 100+KBTU of the
+>Cajun
+>Cooker types, but it heats 12 gallons without any problems and I have done 5
+
+
+I can attest to this.  I use two different water heater elements, which are
+purported to be about 35K BTU, and they work fine.  I have no trouble
+reaching any level of boil that I desire, from just bubbling, to a major
+rolling boil.  The only thing I probably lack compared to the rocket engines
+is the ability to hit the boil in under 10 seconds, and I also go many many
+batches between propane fills.
+
+
+Norm
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 07:54:59 -0700 (PDT)
+From: aardvark <bvaughn`at`netcom.com>
+Subject: Malt
+
+
+After doing 6 extract and one all grain I have yet been able to get a
+good malty flavor in my brews. It was suggested that I bump up the
+adjuncts. Maybe 2# crystal malt and 2# cara-pils. What do the
+collective wisdom of the HBD think?. Regardless of the lack of malt
+flavor my brews have been wonderful.
+E-Mail is fine
+Brad.
+bvaughn`at`netcom.com
+
+
+
+
+                                                
+- ------------------------------------------------------------------------------
+
+
+                                             
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 10:13:53 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Men, Women, and Bottles
+
+
+>From the author of women are from venus, men are from bacchus.
+
+
+> From: Karen.Coffel`at`ncal.kaiperm.org
+> Subject: Male/Female ratio and other sordid (assorted) topics
+> 
+> Greetings Gentlemen !!!
+> At MY home, I am the Brewmistress... for us, I enjoy deciding what
+> to make next and my husband (and all of his friends) love to drink whatever
+> I make.
+
+
+You, uh, you got any sisters?
+
+
+ -R
+
+
+> From: jhewit`at`freenet.vcu.edu (Jeff Hewit)
+> Subject: Brewing - A Guy Thing
+>
+> She dislikes the smell of boiling wort so much...
+
+
+Wow, I feel lucky.  My SO likes the smell, and doesn't usually help
+me drink it.
+
+
+> She also questions my "need" for so much paraphanalia
+
+
+I would say "laughs at" rather than "questions" but as long as I'm not
+spending her money, she doesn't mind.
+
+
+> From: P.Hannah`at`cqu.edu.au (Paul Hannah)
+> Subject: Bottling beer?
+> 
+> I am about ready to bottle my **second** brew and the method I used last
+> time was to add sugar to the bottles individually then fill.
+
+
+I have done that a few times.  The books are right when they say it's going
+to result in inconsistent carbonation.
+
+
+> This time, I have been doing some reading (mainly here and ?complete joy of
+> home brewing? by Papazian?) and in the book recommends using dried malt
+
+
+Pshah.  Use corn sugar.  1/2-1 cup, depending on how much bubble you want.
+
+
+> extract and the bottling method that is suggested is to add 1 cup of boiled
+> dried malt extract to a second fermenter, transferring the wort then bottling.
+
+
+Many people use a 'bottling bucket' which is not quite as nice as a fermenter.
+Many people's bottling buckets are their old fermenters.  Mine is actually my
+boiling kettle.  Real easy to heat-sanitize it.
+
+
+> Finally, my question is how to be sure that the extract is evenly
+> distributed, and is it possible to do this within the original carboy (I was
+> hoping to put off the purchase of the next till later on.)
+
+
+Hmm...  Pour it in, and stir with your racking cane, and let it settle for an
+hour?  I don't know.  I'd just get another receptacle.  Maybe you could do it
+in two parts in your boiling kettle.  (I'm assuming you have a small kettle, 
+mine holds a raging 8.5 gallons.)
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Tue, 9 May 95 9:18:02 MDT
+From: "James Giacalone" <JGiacalone`at`vines.ColoState.EDU>
+Subject: Aluminum stockpots
+
+
+I have brewed many a batch of beer 
+with an aluminum stockpot foryears.
+ There is no evidence that................
+uhhhhhhh.........it uhhhhhhhhh............
+hmmmm......what were we talking about..
+oh yeah......the goodtimes virus!
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 08:36:40 -0500 (CDT)
+From: cisco`at`tabasco.ccit.arizona.edu
+Subject: Smoking Grains
+
+
+ 
+> 1. what type of malt to use, pale malt?
+> 
+I use at least two pounds of pale ale malt and all of my
+specialty grains for the recipe. This usually is 3 pounds.
+> 
+> 2. what type of wood to smoke? anyone ever try mesquite?
+> 3. must the grains remain cool while smoking, or is it ok to
+> smoke in a gas grill where they will be exposed to the heat
+> as well?
+>
+Use fruit woods because their flavor is more subtle and not 
+overpowering like mesquite. I have had great results smoking
+grains for two hours while maintaining a temperature between
+100 to 120 degrees. I smoke my grains dry and hand stir every
+15 minutes. I don't wet my grain because I'm afraid of  trans-
+forming the pale ale malt into crystal-like malt. (I smoke a lot
+of salmon and the fish must be dried after the brining process
+before it is smoked. )
+
+
+ 
+
+
+John 'Cisco' Francisco
+Senior Applications Systems Analyst
+CCIT - Decision Support / SIS & Voice Response
+University of Arizona
+Office: (520) 621-6727
+Pager: (520) 218-0925
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 09:08:03 -0700 (PDT)
+From: "R. James Ray" <ray902`at`uidaho.edu>
+Subject: Re: Non-sankey keg
+
+
+> I recently acquired a non-Sankey stainless steel keg (15 gal.).  I 
+> don't know the keg type, but it has a bung hole(without bung), and a 
+> two-holed metal cap with rubber seal that locks into two pins at the 
+> top of the keg.  There is a dip tube within the keg.
+
+
+What you have is a Hoff-Stevens keg.  You can order a tap and some 
+bungs and then you can serve beer from it.
+
+
+James Ray
+
+
+Treaty Grounds Brewpub
+Moscow, Idaho
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 May 95 10:07:39 MDT
+From: Jeff Benjamin <benji`at`hpfcbug.fc.hp.com>
+Subject: Lautering setups
+
+
+A number of new all-grainers have asked about lautering setups (false
+bottoms, etc).  I haven't seen slotted manifolds mentioned in a while,
+so I thought I'd present the idea again as an alternative.
+
+
+In short, you use pieces of 1/2" hard copper tubing with slots cut in
+one side, a slot every half inch or so.  You connect the pieces using
+copper T's, elbows, and endcaps to make a manifold in whatever
+configuration fits in your vessel.  Put the manifold, slots down, in the
+vessel and attach to the drain spigot, and bingo!  You have a lauter
+tun.  If you don't have a spigot, just add an elbow and one more section
+of pipe that sticks up out of the mash, and siphon the wort out.
+
+
+More complete plans are in the all-grain FAQ in the archives at
+ftp.stanford.edu.  If for some reason you can't access them, send me
+email.
+
+
+In answer to a specific query of jpowell`at`surgery.bsd.uchicago.edu (James
+Powell), I would very much recommend *against* using wood in the
+construction of any lautering equipment.  Wood is porous, and will
+absorb wort and be liable to harbor infections.
+
+
+On another subject... he's back!  Even a Denver newspaper columnist had
+a blurb telling people to *stop sending cards to Craig Shergold*.  I
+don't know how Make-A-Wish got messed up in this, but I feel sorry for
+them.
+
+
+Jeremy Ballard Bergsman <jeremybb`at`leland.Stanford.EDU> wrote:
+> Just a small correction to a previous post:  viruses will not be removed
+> by a .2 micron filter (or any filter you might reasonably use).
+
+
+Uh-oh.  That means you might get some Good Times in your beer!
+
+
+- --
+Jeff Benjamin                      benji`at`fc.hp.com
+Hewlett Packard Co.         Fort Collins, Colorado        
+"Think!  It ain't illegal yet."  -- George Clinton
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 09:14:56 -0700 (PDT)
+From: "R. James Ray" <ray902`at`uidaho.edu>
+Subject: Re: Long stem dial thermometer 
+
+
+Lee Bollard asked about long stem dial thermometers.  I use an 18" long 
+dial type thermometer I bought at a home and garden store.  They are 
+intended to monitor the tempurature of a compost pile.  The adjustment 
+nut allows for calibration to match your glass thermometer.  Cost is 
+about $15.
+
+
+James Ray
+ray902`at`uidaho.edu
+Treaty Grounds Brewpub
+Moscow, Idaho
+
+
+
+
+------------------------------
+
+
+Date: 09 May 95 13:02:00 EDT
+From: Christopher.R.Vyhnal`at`Dartmouth.EDU (Christopher R. Vyhnal)
+Subject: Copper Kettle
+
+
+In HBD #1720, TPuskar writes:
+
+
+>>  I was in a Corning/Revere factory outlet today and saw a 13 gallon copper
+"clothes boiling kettle" on sale for about $75.  It reminded me of an old
+kettle my grandma used to have back before indoor plumbing and electricity.
+  It is oblong in shape.  I didn't take measurements but I figure it is about
+30 inches by 18 inches and maybe 18 inches high.  The figures might be off
+but the capacity is stated on the label.  The bottom seemed to be
+welded/brazed/soldered (I don't know the proper term) to the sides.  I asked
+the clerk (a part time college student) if it was food grade and she looked
+at me like I was nuts.
+
+
+This thing would probably span two burners on a typical stove and would seem
+to be a neat and less expensive alternative to a large stainless or enameled p
+ot.  I'm pretty sure it comes with a top as well.
+
+
+Does anyone have any insight to this kind of pot?  <<
+
+
+has there been any follow-up to this post?  i've been looking for a larger
+boiling kettle that's cheaper than stainless and more durable than enamel over
+steel.  if anyone has a phone number to call, please post it--i'm sure there
+are other interested readers...
+
+
+TIA,
+Chris
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 11:27:19 -0600
+From: flemingk`at`usa.net (Kirk R Fleming)
+Subject: FG and Body/Al Welding/SS Keg Appl/RIMS FAQ Offer/Candi
+
+
+*Larry Bristol on OG, FG, and mouthfeel issues:
+- ----------------------------------------------
+<a tremendous emphasis is placed on OG...FG seems to be of little importance>
+
+
+I think this is because it is much more *easily* controlled, at least by 
+beginners such as myself.  It's trivial to determine the OG from the 
+onset of the brew session, and with software such as SUDS I think it's 
+even easier to predict OG to within a few points.  Altho SUDS also does a 
+very good job with FG in my experience, there are more factors that can 
+change it more dramatically.
+
+
+<Assuming...full attenuation, does the FG represent [a] measure of...
+protein/dextrine...in the beer, and therefore...mouthfeel?>
+
+
+I argue: Yes and No.  "Yes" if you are talking about a "class" of worts built
+from similar or identical ingredients.  For example, if you have a typical 
+pale ale bill of pale malt and some 40L crystal.  Suppose you make three 
+different batches having different proportions of these two ingredients, 
+all with the same OG:
+
+
+  Pale ale malt:  7 lbs    This recipe yields OG = 42 and FG = 11
+    40L crystal:  1 lb     according to SUDS 4.0
+
+
+  Pale ale malt:  6 lbs    This recipe also yields OG = 42, and
+    40L crystal:2.2 lbs    SUDS says FG = 11 as well
+
+
+Now, I *think* you'll find in practice these two recipes may indeed 
+produce the same OG (I have no trouble believing that), BUT I doubt they 
+will yield the same FG using the same yeast--just my intuition which may 
+be wrong, of course.  My claim is that, in this case, the FG may NOT be 
+the same and may indeed be an indicator of mouthfeel/body.
+
+
+OTOH, "no" if you're comparing two beers of completely different classes
+having identical OGs.  For example, take:
+
+
+  Pale ale malt: 6.2 lbs   SUDS says this recipe produces OG = 42
+ Chocolate malt: 1 lb      (and it also says it will have FG = 11)
+   Black patent: 1 lb
+
+
+I think I'm on very safe turf speculating this brew *will not* finish at 
+11 per SUDS--my estimate is it will finish at LEAST as high as 15-18.  I 
+ask some of the rcb posters (who would view this as a perfectly acceptable
+stout recipe, BTW) to brew this crap up and see what they get.  As a data 
+point, I have a very nice "transition" stout that finished at 20 and 
+which has a very light, dry feel (very dry, in fact).  This beer gives NO 
+sense of having swigged from an Aunt Jemima bottle (I reserve such high
+praise for only my finest creations).
+
+
+My point: apples and oranges just can't be compared.  Also, "complete
+attentuation" was assumed as the baseline for Larry's post, but this term
+only has meaning from the perspective of a particular yeast.  Again, two
+beers which are both "completely fermented" can only be compared (on the 
+basis of FG) if they were done with yeasts of comparable attenuation.  
+
+
+FINALLY, 'I read somewhere' possibly in Miller's TCOHB where the author
+cited DeClerck as having "proven" that dextrins do not contribute to
+body/mouthfeel.  Anyone else ever see that or have a source?
+
+
+*Rob Emenecker on aluminum brewpots (but NOT Alzheimer's):
+- ---------------------------------------------------------
+
+
+<my understanding is welding is out of the question with aluminum...>
+
+
+Aluminum is weldable and welded aluminum is as common as welded steel.  A 
+good welder could do a gorgeous job for you, if you could find a proper 
+fitting for the pot.  However, you *can* simply drill a hole and use a 
+flange-bulkhead thru fitting, but you may have trouble finding such a 
+fitting with gaskets that will seal under the tight radius of the pot and 
+that can take the temperatures well.  Teflon gaskets would be the perfect 
+choice--I have not seen such a fitting that would work on such a curved 
+surface--but apparently the EasyMasher (TM) in fact does.  Don't know.
+
+
+*Kenneth Whitney askes what to do with an SS keg:
+- -------------------------------------------------
+
+
+Cut the top out and make a fermenter if you need one for 10 gal.  The dip
+tube can be cut off to make a gorgeous, unbreakable hydrometer jar by
+covering one end with a rubber cap or plugging with a solid rubber stopper.
+They cool quickly under the faucet, and never break.
+
+
+*RIMS FAQ Ideas:
+- ---------------
+
+
+Various folks have suggest they'd be interested in [some sort of] a RIMS 
+FAQ, but many of the suggesters are already RIMS weenies.  So far I've 
+only come up with one Frequently Asked Question, and that's the old "what 
+does RIMS stand for and what is it?".
+
+
+In any case, I'll volunteer to collect the questions from the HBD and rcb 
+communities, and to put together the paper.  I would need help from 
+experienced RIMS builders and users (I've only build and used a manual 
+RIMS--most folks think automated feedback control ala Morris).  I will 
+also ask M Stevens and K Lutzen if they would put and html RIMS document 
+on their Brewery site.  Send me your questions, ideas, and FAQ *answers* 
+and I'll try my best to consolidate, etc.  Your sources for electronics 
+and plumbing, with phone number of source, items acquired, etc., would also 
+be helpful--RIMS folks are just 90's gear- and chip-heads, you know.
+
+
+*Matthew_Gregory asked for candi sugar source:
+- ---------------------------------------------
+
+
+I know Old West Supply (800-ILV-BREW) has candi sugar on their shelves, 
+and I know they do mail order--I'd guess they can combine these two 
+features to your benefit.  Very satisfied customer only etc., etc.
+
+
+Kirk R Fleming / Colorado Springs / flemingk`at`usa.net
+
+
+
+
+------------------------------
+
+
+Date: 09 May 95 14:03:49 EDT
+From: Christopher.R.Vyhnal`at`Dartmouth.EDU (Christopher R. Vyhnal)
+Subject: Mercury Spill, O2 caps
+
+
+in HBD#1723 lee asked about mercury contamination...
+
+
+i suppose this has the potential to be a fairly common problem for homebrewers. 
+from what you've described, i don't think you need to be overly concerned (but
+then i don't have to drink your beer ; ).  here's what you should do if you ARE
+concerned:  call-up one of the major chemical supply houses (Fischer
+Scientific, VWR  should both have 800 #s) and order some sulfur wipes.  you can
+use these to swap the inside of your kettle and react the mercury to a more
+stable (ie, less volatile) form (HgS).  if it was my kettle i probably wouldn't
+bother, but it's not.  in the future, i wouldn't use a mercury thermometer.
+
+
+standard disclaimers apply--your beer's probably more toxic than the mercury,
+but your brain damage may vary....
+
+
+in HBD#1725 todd asked about oxygen absorbing caps...
+
+
+i've heard conflicting opinions on the proper way to activate the caps.  is
+there a definitive opinion on this?
+
+
+------------------------------
+
+
+Date: Tue, 9 May 1995 14:20:19 -0700
+From: alan`at`mail.utexas.edu (Alan Van Dyke)
+Subject: whoa/mangos
+
+
+This in HBD #1742:
+
+
+>That note was more blatant than the advertisements that have been being
+>screamed about in the current 'commercials' thread. Shame on you! Haven't you
+>been listening (reading)?!? Whether a private individual or corporate, that is
+>NOT the purpose for the HBD. I have absolutely no qualms with your posting on
+>*P* as you pay to maintain your membership there. Any rules they may have
+>regarding advertisements is buffered by the price you pay for their service.
+>The HBD is a FREE service for discussion of homebrewing topics; not for you to
+>peddle your wares.
+****
+>Best regards,
+>Patrick G. Babcock              Michigan Truck Plant PVT Office
+>usfmchql`at`ibmmail.com            38303 Michigan Avenue
+>(313)46-70842 (V) -70843 (F)    Wayne, MI 48184
+
+
+
+
+I hope the Michigan Truck Plant PVT Office is exempt from the above flames.
+
+
+###############
+Now a brewing question.  Has anyone ever put mango in their beer?  I want
+to make something different for the summer, & it sounds good to me.  Right
+now I'm    thinking of a run of the mill basic wheat beer with about a
+mango per gallon added in the secondary.  If anyone's done this before, let
+me know.
+
+
+Alan Van Dyke           Austin, TX
+
+
+
+
+
+
+------------------------------
+
+
+Date: 9 May 1995 12:42:50 -0800
+From: "Harrington, Stephen J" <sharrington`at`msmail4.hac.com>
+Subject: Various Beer Things
+
+
+Greetings,
+
+
+Just got back from vacation and boy to I have a lot of reading of HBD to do.
+
+
+The quest for the Samuel Smiths continues.  I have learned that the secret is
+'dropping' instead of racking.  Glad I did not totally ignore that thread.  No
+specific recipies (just a generic pale ale should do).  My question is what
+about the yeast?  Which liquid one should is best?
+
+
+Speaking of vacation, while visiting my in-laws near New York City (just
+outside of JFK), my mother-in-law asked me what she should do with a left over
+15 gallon stainless steel Bud keg.  Deciding that I would not be able to get
+it back to LA,  I told her I would ask the HBD (try explaining that one to
+your mother-in-law) if there was anyone local who would be interested in
+purchasing it.  So, if you are that person, send me an email and I will give
+you her number.  Standard disclaimers apply, I have no financial interest in
+my mother-in-law, blah, blah, blah.
+
+
+Stephen Harrington
+Manhattan Beach, CA
+
+
+------------------------------
+
+
+Date: 9 May 95 15:18:00 -0500
+From: mlm01`at`intgp1.att.com (Michael L Montgomery +1 708 979 4132)
+Subject: Competition
+
+
+This is just a reminder of an up and coming event
+
+
+
+
+The Winfield Chamber of Commerce is sponsoring its First Annual
+"Rites of Spring Homebrew Competition" on June 10, 1995. This
+competition is AHA Sanctioned and is in need of judges and
+stewards. If interested in judging or stewarding, please contact
+Ron Meyer at "Beer in a Box" 1-708-690-8150 or 1-800-506-BREW.
+
+
+Beer in a Box homebrew supply store is working out the details to 
+get the judges free entry into the "Rites of Spring" beer and wine 
+tasting scheduled for the evening of June 10 which will feature
+several beers and wines from numerous distributors.
+
+
+The entry fees and requirements are as follows:
+
+
+        3 bottles/entry
+        1-3 entries:        $4.00 each
+        4-7 entries:        $3.50 each
+        8 or more:        $3.00 each
+
+
+Checks should be made payable to Winfield Chamber of Commerce
+
+
+Send or drop off entries to arrive between June 1 to June 5 to:
+
+
+                Rites of Spring Homebrew Competition
+                c/o Winfield Liquors - Beer in a Box
+                27W460 Beecher Ave.
+                Winfield IL 60190
+
+
+For entry forms or questions, call Josette Allen at 1-800-506-BREW or
+1-708-690-8150
+
+
+------------------------------
+
+
+Date: 9 May 95 15:22:08 -0500
+From: JEFFREY.T.ANDERSON`at`x400gw.ameritech.com
+Subject: Brewcap or Fermentap
+
+
+I am trying to find someone who used the Brewcap or the Fermentap to use
+a 5 gallon carboy for Primary, Secondary and Bottling.
+
+
+It sounds like a great idea, but is it any easier? and how do you prime
+it? Please respond with private mail to
+jeffrey.t.anderson`at`x400gw.ameritech.com
+
+
+Thanks :)
+
+
+------------------------------
+End of HOMEBREW Digest #1727, 05/10/95
+*************************************
+-------

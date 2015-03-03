@@ -1,0 +1,1566 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA19046
+        for <spencer`at`srvr5.engin.umich.edu>; Fri, 30 Jan 1998 01:31:09 -0500 (EST)
+Received: from twins.rs.itd.umich.edu (0`at`twins.rs.itd.umich.edu [141.211.83.39])
+        by srvr22.engin.umich.edu (8.8.7/8.8.7) with ESMTP id BAA07696
+        for <spencer`at`engin.umich.edu>; Fri, 30 Jan 1998 01:31:08 -0500 (EST)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with X.500 id BAA29045; Fri, 30 Jan 1998 01:32:17 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with ESMTP id BAA29028; Fri, 30 Jan 1998 01:32:13 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA02410 for realhomebrew; Fri, 30 Jan 1998 00:27:52 -0500
+Date: Fri, 30 Jan 1998 00:27:52 -0500
+Message-Id: <199801300527.AAA02410`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2623 (January 30, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2623                             Fri 30 January 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  IBU correction for Altitude ("David R. Burley")
+  Celis White (Tom_Williams)
+  Competition Announcement ("Randy Davis")
+  Big Bend Brew-Off '98 Results ("Roberts, Ned")
+  Aldehydes (Al Korzonas)
+  Trub/HefeTrub/Mit Hefe ("Jim Busch")
+  diffusion (Al Korzonas)
+  Step mashing ("Jim Busch")
+  stupid filtering mistake ("Bob Hendriksen")
+  Conditioning beer (John T Ross)
+  I'll Second That!! ("Rob Moline")
+  Coopers Sparkling Ale (Brad McMahon)
+  Briess ESB Malt (Alan Baublis)
+  Small Bottles (shaun.funk)
+  Underletting RIMS,Kettle size,licorice,greener wort, step, TPM,mashing out ("David R. Burley")
+  Explosive Fermentation...literally ("Poteat, Brian")
+  HSA, book, my mistake (John Penn)
+  What happend to the Wahl-Henius Handy Book (Tidmarsh Major)
+  Amsterdam (Keith Busby)
+  Walk in Cooler (Varady)
+  Adding aerated wort to already fermenting wort (George_De_Piro)
+  Lessons Learned . . . ("Rosenzweig,Steve")
+  Re: Commercial step mashing..... (Joe Rolfe)
+  Re: Dry Hopping (Bob.Sutton)
+
+
+
+
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`realbeer.com
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 27 Jan 1998 12:39:51 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: IBU correction for Altitude
+
+
+Brewsters:
+
+
+Carl Shipman oscillates between 3000 and 8000 ft depending =
+
+
+on the time of year and want to be able to correct for the boiling
+point difference of water and the hop utilization.
+
+
+I'll give an estimate below.
+
+
+I filed the following response on the effect of altitude on boiling
+point temperature on 9/16/97 and it probably appeared a day or
+two later in the HBD ( see that for more details). =
+
+
+
+
+I said:
+- -------------
+"SO:
+
+
+Given that the pressure is linear from
+ 0 to 10,000 ft and that at sea level the boiling
+ point is 212F and 194F at 10,000, we can
+ construct a simple formula.
+
+
+BP(0) =3D 212F =
+
+
+BP(10K) =3D 194F
+
+
+BP(A) =3D 212F- ((212-194)/10,000 )* A
+            =3D 212- 18 X 10^-4 =3D 212 - 0.0018 A
+
+
+So to check it out at 12000 feet  :
+
+
+BP =3D 212 - 0.0018(12000) =
+
+
+       =3D  190.4  which checks exactly with the table.
+
+
+Now at 6000 ft  this gives  212-0.0018(6000)
+ =3D 201.2  likewise checks.
+
+
+So at 1246ft (my elevation) boiling
+ water has a temperature of:
+
+
+BP =3D  212-0.0018(1246)  =3D  209.6F =
+
+
+
+
+You can determine your brewing altitude
+ by getting maps of elevation for your area
+ from the US govt. or hiking organizations
+ and the like.I got mine from an elevation
+ sign just down the road."
+- --------------
+Now the speculative stuff:
+
+
+If we assume that the rate of reaction of alpha acids inversion is
+a simple doubling of the  rate with each 10 degrees of =
+
+
+Centigrade temperature ( or 18 def F) then you can correct
+for this by determining the boiling point at your elevation and
+correcting the hops IBU or you can boil longer at the lower
+temperature ( you may have to add boiling water during the boil
+if you are way up).
+
+
+Anyway, if 18 degrees represents a factor of two in the rate, then =
+
+
+we can write :
+
+
+R(t2) =3D R(t1) X 2 ^ (( t2-t1)/18)
+
+
+Sanity Check:
+
+
+So that when t1 =3D t2 : R(t1) =3D R(t2) X 2^0 =3D R(t2) which checks
+and when t2-t1 =3D 18: R(t2) =3D R(t1) X 2  which checks and
+of course if t2-t1 =3D -18 then R(t2) =3D R(t1)X 2^-1 =3D  1/2R(t1) =
+
+
+which checks.
+
+
+So, if you measure the wort boiling point temperature
+( depending on the pressure and wort concentration)
+you can correct approximately for the boiling point difference.
+
+
+This does not take into account the raising of the BP as the
+wort boils nor the concentration of the hops as the water
+evaporates nor the amount of added hops which also affects
+extraction.     =
+
+
+
+
+To answer your question specifically:
+
+
+at 3000 ft the BP of water is 212-5.4 =3D 206.6 F
+at 8000 ft the Bp of water is 212- 14.4 =3D 197.6
+
+
+t1 - t2 =3D approx 8.8 degrees for the wort, I'd guess.
+
+
+So: the Rate at 8000 feet will be 2^(8.8/18) =3D 2 ^ -0.49 or
+about the inverse of  square root of 2 so
+1/1.414 =3D 0.635 times as fast.
+
+
+So you should boil 1/0.635 =3D  1.4 times as long at 8000 ft as
+at 3000 feet.
+
+
+These are estimates, but I'd start here. Of course, measuring
+the actual BP of the wort at each location is the best.
+
+
+Let us know how this works.
+
+
+Anyone with real data?
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+
+
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 12:45:49 -0500
+From: Tom_Williams`at`cabot-corp.com
+Subject: Celis White
+
+
+
+
+Has anyone (besides me) detected a change in Celis White?
+
+
+I live in Atlanta, and this beer seemed to disappear from retail shelves a
+year or two ago.  I heard that changes were being made in the brewery and
+distribution, and that eventually the distribution area would be enlarged.
+Sure enough, I noticed it in the supermarket cooler last week, so I bought
+a 6-pack.
+
+
+The packaging has changed, perhaps it is a little more colorful, and there
+is more interesting stuff on the carton to read while you drink.  But when
+I poured the first one, it seemed to me to be a much lighter color than I
+remember from before.  Also, the taste seems lighter as well.  Less wheat
+taste, and more watery than before.
+
+
+Am I imagining this because it has been so long since I had one, or has
+anyone else had a similar experience?
+
+
+Tom Williams
+Dunwoody, Georgia
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 11:06:20 -0700
+From: "Randy Davis" <davisrm`at`cadvision.com>
+Subject: Competition Announcement
+
+
+The Marquis de Suds Homebrewers are proud to present their 14th Annual Open
+Homebrew Competition. This is a BJCP registered event with a March 07 entry
+deadline. For entry info please contact me via email.
+
+
+Thanks.
+
+
+Randy Davis (davisrm`at`cadvision.com)
+Competition Organizer
+Marquis de Suds Homebrewers
+Calgary, Alberta
+Canada
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 15:09:05 -0500
+From: "Roberts, Ned" <robertsn`at`fdhc.state.fl.us>
+Subject: Big Bend Brew-Off '98 Results
+
+
+Big Bend Brew-Off '98 was held on January 17, in Tallahassee, FL.
+Hosted by the North Florida Brewers League, 136 entries were received.
+The following is the Official Placed Results -
+BIG BEND BREW-OFF '98
+OFFICIAL RESULTS
+
+
+BEST OF SHOW
+Weston Sampson - Weizenbock
+
+
+1st RUNNER-UP BEST OF SHOW
+Ed Spina - Amber Ale
+
+
+2nd RUNNER-UP BEST OF SHOW
+Claude Hendon - Old Ale
+
+
+GERMAN WHEAT CATEGORY
+        1st PLACE - Weston Sampson
+        2nd PLACE - John & Pam Aitchison
+        3rd PLACE - Weston Sampson
+AMERICAN ALE CATEGORY
+        1st PLACE - Ed Spina
+        2nd PLACE - Wayne Wambles
+        3rd PLACE - Errin Pichard & Kerri Howells
+PORTER CATEGORY
+        1st PLACE - Joel Tedder
+        2nd PLACE - Bob Carbone
+        3rd PLACE - Kevin & Julie Flemming
+STOUT CATEGORY
+        1st PLACE - John Larsen & Sarah Bridegroom
+        2nd PLACE - Paul McCullough
+        3rd PLACE - John Larsen & Sarah Bridegroom
+DARK LAGERS CATEGORY
+        1st PLACE - John LeClair
+        2nd PLACE - Jason Prieto
+        3rd PLACE - Dean Fikar
+CONTINENTAL ALE CATEGORY
+        1st PLACE - Nancy Sampson
+        2nd PLACE - Ron & Sharon Montefusco
+        3rd PLACE - Dean Fikar
+BROWN ALE CATEGORY
+        1st PLACE - David Pappas
+        2nd PLACE - John LeClair
+        3rd PLACE - John Larsen & Sarah Bridegroom
+ENGLISH ALES CATEGORY
+        1st PLACE - Weston Sampson
+        2nd PLACE - Conrad Gleber
+        3rd PLACE - John Holleman
+SPECIALTY CATEGORY
+        1st PLACE - Bob Henderson
+        2nd PLACE - Nancy Sampson
+        3rd PLACE - John Rhymes
+LIGHT LAGERS CATEGORY
+        1st PLACE - Ned Roberts
+        2nd PLACE - Dean Fikar
+        3rd PLACE - Not Awarded
+SCOTTISH AND STRONG ALES CATEGORY
+        1st PLACE - Claude Hendon
+        2nd PLACE - Greg Crump
+        3rd PLACE - Weston Sampson
+SMOKED, HERB & FRUIT CATEGORY
+        1st PLACE - David Pappas
+        2nd PLACE - Marc Gaspard
+        3rd PLACE - Richard Schwartz
+MEAD, LAMBIC & CIDER CATEGORY
+        1st PLACE - Not Awarded
+        2nd PLACE - Brian Dueweke
+        3rd PLACE - Ken Woodward
+
+
+Due to a hacker accessing the club's internet provider system files, the
+system has been off-line for over a week.  Hopefully full access will be
+restored within a few days.
+
+
+Individual Judge Sheets will be mailed out within a few weeks along with
+any prizes awarded.
+
+
+North Florida Brewers League would like to thank the following for
+sponsoring this event - The Buckhead Brewery & Grill, The Homebrew Den,
+Sunset Suds Homebrew Supply, Gulfstream Brewing Products, Brewing
+Techniques Magazine, American Homebrewers Association, Liquid Bread,
+Briess Malting, Five Star Cleaning Products, Hops Union, Crosby-Baker,
+and L.D. Carlson.  In addition, we would like to thank all the judges
+and stewards who volunteer and helped make this a successfully
+competition.
+
+
+Keep on brewin',
+
+
+Ned Roberts
+Competition Organizer
+nedr`at`freenet.tlh.fl.us
+www.freenet.tlh.fl.us/~northflo
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 16:10:06 -0600 (CST)
+From: Al Korzonas <korz`at`xnet.com>
+Subject: Aldehydes
+
+
+Dave writes:
+>As I and others have already commented, the main
+>reason for oxygenation is to have a yeast colony which
+>can be re-used and finish out a fermentation reliably with =
+>no unwanted aldehydes. Although the Brits successfully do
+>this by oxygenation of the wort in the main fermentation
+>( aldehydes are not a major problem for most British style beers,
+>but can be a problem for most lagers) and others have reported
+>success with growing starters in the constant presence of air by
+>stirring, the risk of aldehydes and beer staling is present.
+
+
+I think its a problem for all beers, ales and lagers.  I recently bought
+a sixpack of English beer that is brewed by a commercial brewer know
+to aerate during fermentation and I felt the aldehyde levels were
+unpleasantly high.  Perhaps the oxygen was bound up in melanoidins
+and then later (after months of unrefrigerated storage) the oxygen is
+released and oxidises alcohols to aldehydes.  I don't know the mechanics of
+this chemistry, but that's how it was explained to me.
+
+
+This would explain why a respected brewer would send what appears to
+be bad beer.
+
+
+I was initially confused by your statement that "aldehydes are not a
+major problem for most British style beers..." but I suppose you are
+referring to acetaldehyde.  It's true that you rarely have an acetaldehyde
+problem in an ale and that it's common in under-lagered lagers, but
+this is not because of oxidation, but rather because acetaldehyde is one
+of the intermediate compounds in the cycle by which the yeast produce
+alcohol.  Under normal conditions, most yeasts will produce some acetaldehyde
+that spills into the beer but then given the chance, they will reabsorb
+it down to levels that are not perceptable by most tasters.  Some yeast
+strains (Wyeast #2007 -- said to be the Budweiser yeast -- is famous for it)
+tend to make more acetaldehyde than they can reabsorb before they flocculate.
+While this may not be limited to lager yeasts, of all the ale yeasts I've
+used, I haven't found one to create an overabundance of acetaldehyde.
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`xnet.com
+
+
+My new website (still under construction, but up-and-running):
+     http://www.brewinfo.com/brewinfo/
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 17:37:24 +0000
+From: "Jim Busch" <jim`at`victorybeer.com>
+Subject: Trub/HefeTrub/Mit Hefe
+
+
+Happy New Year All!  (Chinese that is)
+
+
+Dave Burley mentioned the possibility of German Weissbiers being 
+packaged with trub.
+
+
+Dave is confusing hefe-trub or mit hefe with just trub.  I cant 
+imagine a brewer worth a dime who would add some actual trub as 
+opposed to repriming with krausen bier.  Mit hefeTrub is what I 
+recall being on Maisels HefeWeisse.   Now, when one krausens, there 
+can be trub carryover but when done properly it doesnt occur to a 
+large extent.  
+
+
+Dave also writes:  Trub may have a longer shelf life.
+
+
+Longer than non trub laden beer?  No, you would get terrible staling 
+reactions with the trub.
+
+
+Regarding lauter tun design:  I have always liked a false bottom 
+lauter tun for its high degree of open area for even flow.  My pilot 
+system is of equal height to width but most of my grain beds are only 
+about 1/3-1/2 the height of the tun.  This means I get about a 8-12" 
+grain bed depth which I can lauter ~36 gals of 14P wort through in 
+about 60-80 mins.   This type of tun can also accomodate double sized 
+brews, so I can still fit a 26P barley wine in the same tun and fill 
+it to the top.  The lauter rate is slower as the bed depth increases, 
+but I find I can still lauter a brew of this immensity and 24" depth 
+in a few hours.  You should see how long it takes to lauter a 25 BBL 
+batch of Old Horizontal!  (some things are easier on the homebrewer 
+scale).
+
+
+Prost!
+
+
+Jim Busch
+
+
+
+
+
+
+
+
+"Far better it is to dare mighty things,
+ to win glorious triumphs, even though
+ checkered with failure, than to take 
+ rank with those poor souls that neither
+ enjoy much nor suffer much because they
+ live in the gray twilight that knows not
+ VICTORY nor defeat" 
+ - Theodore Roosevelt
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 16:37:47 -0600 (CST)
+From: Al Korzonas <korz`at`xnet.com>
+Subject: diffusion
+
+
+All this discussion about CO2 and O2 and partial pressures... 
+
+
+More than one person claimed that the CO2 in the fermenter will keep 
+O2 from entering.  While this may be intuitive, it's not the way that
+gasses work.  If the concentration of O2 on the outside of a permeable
+membrane (say, a fermenter or PET bottle) is higher than the concentration
+on the inside, then O2 will diffuse in -- *regardless* of the pressure of
+any other gasses inside the fermenter or PET bottle.  Even O2-barrier
+plastic is permeable to O2, albeit it's ml per square meter per year.  It's
+called "diffusion."  Similarly, CO2 will diffuse across a permeable boundary
+if the concentration is higher on one side than the other.  60 psi of CO2
+inside a PET bottle will do no better at keeping out O2 than 1 psi. 
+ 
+However, although high-density polyethylene is rather permeable to oxygen
+(relative to other plastics) 1/8" HDPE is plenty thick enough to prevent
+a noticeable amount of oxidation, even over the course of months.  I do
+believe that many HDPE fermenters are prone to oxidised beer, but I feel
+it's due to ill-fitting lids and not through the plastic itself.
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`xnet.com
+
+
+My new website (still under construction, but up-and-running):
+     http://www.brewinfo.com/brewinfo/
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 17:48:57 +0000
+From: "Jim Busch" <jim`at`victorybeer.com>
+Subject: Step mashing
+
+
+Despite the enormous length of the HBD queue (and I thought the 
+percentage of homebrewers was *decreasing*!!) I thought Id chime in 
+briefly regarding the step mash/single infusion issue.  I have wrote 
+some extensive articles on this subject in BT so I wont delve into 
+details but.....
+
+
+Single infusion: good with UK pale ale malts and US 2 row provided 
+the water chemistry is favorable *and* the mashing program meets your 
+desired end product specs.
+
+
+Step mash: good with just about any other type of brewing style and 
+malts.  Often superior in numerous ways in finished product, usually 
+higher extract, better protein/organoleptic stability, better control 
+of apparent degree of attenuation.  Often better depth of malt 
+flavors.   Usually results in better lautering depending on malt 
+type.  The only way I brew these days with continental malts.
+
+
+Prost!
+
+
+Jim Busch
+
+
+
+
+
+
+"Let the VICTORY fall where it will, we are on that side"
+ - Emerson
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 18:49:05 -0500
+From: "Bob Hendriksen" <bhendrik`at`webspan.net>
+Subject: stupid filtering mistake
+
+
+ ...hello boys & girls...
+
+
+ ...today's lesson is how NOT to filter your beer...   :)
+
+
+ ...I recently built a filtration unit to use with my corny kegs...it's an
+Omni Whole House filter housing (clear) that couples between the liquid out
+quick disconnects between 2 five gallon kegs...however, when I used it this
+weekend on a SNPA clone that I had dry hopped (and had lots of pieces of
+hops floating around in the secondary), it seems I made a major mistake - I
+used the wrong damn filter!...
+
+
+ ...of all the reading material that I have seen regarding home made homebrew
+filters, the general consensus is that for sparkling clarity a filter of .5
+micron is the way to go...well, that's what I bought & used, but me thinks
+it was a big boo-boo...
+
+
+ ...I purchased an Omni CB3 Carbon Block Water Filter Cartridge (set me back
+$29.95 at Home Depot) and it did a wonderful job in the clarity
+department!...however, the beer has virtually NO taste to it - no hop
+bitterness, no hop aroma, no beer taste whatsoever!...I'm not even sure if
+there's any ALCOHOL in it!...   :(
+
+
+ ...the filter cartridge that I bought will filter down to .5 micron and it
+also removes 99% (or more) of the following: turbidity, chlorine, lead,
+cryptosporidium, cyst (Giardia)...flow rate is 1 gpm and supposedly it has a
+filter capacity of 600 gallons...
+
+
+ ...I think what I have here is the mother of all water filters - and a
+helluva overkill for filtering beer...what I would like to know is what
+filter SHOULD I have used?...are there any other brewers out there that
+filter their brew?....c'mon - inquiring minds want to know!...   :)
+- --
+
+
+Bob Hendriksen
+Bhendrik`at`webspan.net
+Kingsnake`at`aol.com
+"I'm on the Information Highway To Hell"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 17:43:54 -0900
+From: John T Ross <johnross`at`alaska.net>
+Subject: Conditioning beer
+
+
+A friend, employed at local brewery, and I were discussing what effects
+the size, shape, and orientation of the primary fermenter vessel has on
+the attenuation and flavor of a beer. Is there a noticable difference in
+taste based upon the size and orientation (vertical versus horizontal)
+of the conditioning vessel where they be bottles, kegs, grundys, 15 or
+30 gal tanks? Lets limit the discussion to glass or stainless steel as I
+know wooden kegs will impart a differnet taste. If so, why? Thanks- John
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jan 1998 22:06:28 -0600
+From: "Rob Moline" <brewer`at`ames.net>
+Subject: I'll Second That!!
+
+
+From: David lamotte <lamotted`at`ozemail.com.au>
+ >Subject: Happy Birthday
+ >I notice that it has been 12 months exactly since the HBD was
+ >resurrected.
+ >Congradulations to the Janitors and all the HBD contributors for making
+ >such a great forum possible.
+ 
+         And let me second this! Thank you, Gentlemen and Gentlewomen!
+ Rob Moline
+ Brewer At Large
+ brewer`at`ames.net
+ Ames, Iowa.
+ 
+ "The More I Know About Beer, The More I Realize I Need To Know More About
+ Beer!"
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 14:28:14 +1000
+From: Brad McMahon <brad`at`sa.apana.org.au>
+Subject: Coopers Sparkling Ale
+
+
+John Elsworth wrote:
+> My nephew recommended Coopers Sparkling Ale (from South Australia).
+> I didn't try that one while I was there, but brought a bottle back
+> with me and am looking forward to tasting it.
+>  However, it has pronounced yeast sediment in the bottle, and
+>while I am used to carefully decanting bottled beer from yeast, my nephew
+>said that it is usually drunk after mixing the contents of the bottle!  So,
+>I am looking for advice from HBDers from Down-under regarding the best way
+>to enjoy this beer.
+
+
+Ahh, my local beer!
+
+
+As you probably worked out, Australia is a lager drinking nation,
+and each state has their own major breweries and thus their own
+beers. Note to others: Fosters ISN'T Australian for beer! Fosters
+is available in every state but only really drunk in New South Wales.
+Queensland has Castlemaine XXXX, Victoria: Victoria Bitter,
+Tasmania: Cascade, Western Australia: Swan, South Australia, West End.
+There are no real national beers like you have Coors and Budweiser.
+Coopers is a bit of an exception in South Australia, it is not
+as popular as West End but has a large following. Here you are either
+a West End drinker or a Coopers drinker.
+Coopers do make a lager: Coopers Draught, but their line of ales
+are more popular: Sparkling Ale, Pale Ale, Dark Ale, Thomas Cooper
+Export,
+Clear Ale, and Stout.
+
+
+Coopers Ale on tap, comes out "cloudy, but fine" as their advertising
+slogan goes. Of course, when it is in bottles, you can elect to
+decant or to mix. The ale strain is one which is close to 100 years
+old, is multi-strain, and highly flocculant.
+The yeast in the bottle is the primary fermentation yeast, but from the
+next batch. Coopers use a centrifuge to remove the yeast, but the
+bottles
+are primed with cane sugar and krausening wort from the next batch.
+Sound familiar to our own techniques?
+They use conical fermenters now instead of the old oak barrels that are 
+still on the label.
+
+
+Most people tip the bottles before drinking, producing a very yeasty
+full bodied ale which is known as "The meal in the bottle" or
+"Coop Soup". The term "Sparkling" is a little tongue in cheek, as
+it is far from sparkling mixed this way. It looks like Murray River
+water!
+
+
+Some, myself included, decant and drink it. If you do that, you get
+a very pleasant fruity/estery ale. Plus, then you can harvest the
+yeast, and have your very own multi-strain ale yeast, that
+is neither Belgian or German!
+The yeast is very hardy, so in all probability, it will have
+survived the journey home. It brews best at slightly higher
+temperatures-
+around 25-27C. For more info - search the HBD - it was covered early
+last year from memory.
+
+
+So, it is up to you - but 95% of Coopers Ale drinkers, mix the yeast
+in. Perhaps you can decant half into one glass and shake the rest
+into a second and try 'em both.
+
+
+Incidentaly, Coopers Ale is available in the U.S. if you wish to hunt
+for it. When I was living on Long Island this past Autumn, I found it in
+a couple of places for around $11.50 a 6-pack. 
+So, very expensive for what you get, but maybe OK for a once off
+purchase.
+
+
+- --
+Brad McMahon        Adelaide, South Australia         
+brad`at`sa.apana.org.au   
+PGP
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 08:36:24 -0400
+From: Alan Baublis <baublis`at`foodsci.umass.edu>
+Subject: Briess ESB Malt
+
+
+My local retailer for brewing supplies just received Briess ESB malt.  
+He has no information on this malt, i.e. malt analysis sheets, and I 
+was wondering if anyone else has heard or used this malt.  Any 
+information would be greatly appreciated.  You can either send me 
+direct email or post to the digest.  Thanks in advance.
+
+
+Alan Baublis
+University of Mass.
+baublis`at`foodsci.umass.edu
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 8:34:38 -0500
+From: shaun.funk`at`SLKP.COM
+Subject: Small Bottles
+
+
+In HBD #2620 Jan 17  Tom Puskar asks:
+
+
+<I'm looking to make a barley wine and would like to bottle it in small (8=20=
+or 9
+<oz) bottles=2E  We used to call them Pony bottles or nips=2E  The only one=
+s I can
+<find are screw off and don't want to risk my batch in these=2E
+
+
+<Does anyone know of a source for these nips?  Post or email is fine=2E
+
+
+Tom this issue recently surfaced in the Mead Lover's digest=2E  The origina=
+l=20
+question was asked in MLD #632 Jan 8=2E  Several suggestions were given
+including 7 oz returnable Coca-Cola bottles, Little Kings cream ale, Coroni=
+tas=20
+(mini Coronas),  and Rolling rock 7oz beer bottles=2E=20
+
+
+If you would like to see the original posts, go to=20
+ftp://ftp=2Estanford=2Eedu/pub/clubs/homebrew/mead/digests/1998/
+and start with #632=2E
+
+
+Good Luck,
+
+
+Shaun Funk
+shaun=2Efunk`at`slkp=2Ecom
+Moon Shadow Brewery
+Clemmons, NC (621=2E4 miles sse of Jeff Renner)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 09:06:32 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Underletting RIMS,Kettle size,licorice,greener wort, step, TPM,mashing out
+
+
+Brewsters:
+
+
+Keith Menefy of New Zealand says:
+
+
+>The question - Is underletting (feeding the liquid into the
+ bottom of
+>the grain bed.) the grain with the hot liquid a better
+ system than
+>inletting from the top?
+
+
+Well, I had the same suggestion in a private conversation with
+a RIMSer .  I think this would free the brewer from the heat rate
+restrictions of low-surface-area RIMS inline heaters and allow
+heat rates based on the amount of heat you can deliver from a
+burner. As I see it, a simple siphon-fed recirculation pump moving
+wort from a pool at the top of the bed to the bottom would keep the
+bed afloat and prevent scorching while giving a much larger surface
+area for the heat to be applied. This  should result in a potential for a=
+
+
+much shorter move between holds than is now possible with the
+inline heaters. This would also reduce the potential for HSA relative
+to the inverse option.
+
+
+I imagine a pool of wort developed on the top, perhaps by placing
+a screen wire on top of the mash and a spiral feeder with slots in
+it to feed wort to the pump. It may be necessary to actually dig a
+hole in the top of the bed to form a pool. I can imagine something
+like a sieve used to press into the bed to get pool of wort.   A
+negative I can think of is that the siphon may be broken during the
+cycle and cause some problems if the pump cannot be run =
+
+
+backwards or some other method of  quickly re-establishing the
+siphon established.  Control of the heat rate can be accomplished =
+
+
+by controlling the flame though a control valve hooked to a
+temperature sensor.  A pilot flame will be necessary to guarantee
+that the flame will keep burning.
+
+
+So RIMSers what think you?
+- -------------------------------------------------
+I read here about HBDers wanting to buy bigger kettles,
+having too much wort to boil down , etc.  While it is perhaps
+more satisfying aesthetically to boil in a big 6 or 7 or 8 gallon
+clad SS  kettle costing a hundred or more dollars, it is rarely
+possible to do a good job of boiling on the modern range with
+these kettles.  A cheaper and better alternative if you are using
+a normal electric cookstove is to use two 4 gallon kettles, each
+of which will sit on a burner and boil faster than a single larger
+kettle, even if it straddles two burners.  The nice thing is that
+4 gallon ( 16 liters) SS kettles are readily available at discount =
+
+
+stores for a few bucks and do a great job. And they don't break =
+
+
+down the burner, since they only weigh about 30 pounds each
+instead of 60 pounds, like the big kettle.  They are also easier
+and safer to handle.
+- ----------------------------------------------------------
+Rob Moline says in his Jethro Gump report:
+
+
+> Dave Burley commented:
+ >Eric Fouch notices a licorice/anise flavor in his new brew.  =3D
+ >I suspect this is due to the amount/type of hops you used. =3D
+
+
+Rob says: =
+
+
+        "I suspect this is an ester."
+ =
+
+
+Well, it is likely Anethole (the chief constituent in anise oil)
+an aromatic ether ( not an ester). Anethole is a benzene ring
+with a methyl ether on one side and para to that an unsaturated
+propyl side chain.  Being a derivative potentially of a phenolic
+compound,  the hops seem the likely source.  I have also
+considered it is a possible by-product of the hydrolysis of
+melandoins, but can't imagine the route.  Is it possible that dark
+crystal malts have this component? =
+
+
+
+
+What do you think is the source??
+
+
+In his response to my report on a supposedly recent
+development reported at the AICHE meeting in LA, Rob says:
+
+
+>Dave Burley reported:
+
+
+ >Subject: New Wort Boiling Method
+ >He described a "greener" wort boiling
+ >method.  =
+
+
+ >2) In stage two, the volatile compounds are eliminated in a wort
+ >stripping column.  =
+
+
+
+
+Rob says: =
+
+
+        "Nothing new here, except perhaps the new readers." =
+
+
+ =
+
+
+I guess we need some background that is apparently
+missing from the report I received.
+
+
+Please fill us in.
+
+
+Congrats on your new BP job!
+- ---------------------------------------------
+smurman says:
+
+
+>Regarding the step mashing vs. infusion thread.  I've been reading
+>that some don't consider adding boiling water to reach the next
+>rest temperature step mashing, but rather a form of infusion
+>mashing.
+
+
+I always defined adding boiling water to change the temperature
+as "step mashing by infusion" versus "temperature programmed
+mashing" (TPM) by heating and then holding - which some call
+"step mashing". Temperature programmed mashing doesn't
+need holds as it is the most general definition.  Although
+ "step mashing" by any means is temperature programmed
+mashing as compared to "single temperature infusion mashing"
+which many British Ale brewers employ - sort of. Some British
+brewers slake the malts at a lower temperature and then jump
+to the saccharification by boiling water infusion and steam.
+Theoretically a step mash.
+
+
+How 'bout them apples? =
+
+
+
+
+Regarding your question of how mashing out improves efficiency:
+
+
+Mashing out does improve the sparging efficiency since at the =
+
+
+higher temperature of the grains, the wort is of lower viscosity and
+the movement of the wort out of the capillaries in the grain kernel
+into the sparge liquor is faster. Ken Schwartz also reports that
+there is a higher concentration of sugars in the wort in the grain
+than in the bulk wort, so this will help this to come to equilibrium
+with the bulk wort faster. If the bulk wort starts out at a higher
+concentration at the beginning, more total sugars can be removed
+by the sparge water which follows the draining of the bulk wort.
+- -----------------------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 09:11:40 -0500
+From: "Poteat, Brian" <poteat`at`engr.sc.edu>
+Subject: Explosive Fermentation...literally
+
+
+        I thought I would share an experience I had yesterday.  When I
+got home from work, I noticed that my blow off tube was lying on the
+ground next to the fermentor.  The first thing I thought was that my cat
+had pulled it off, no big deal.  Then I saw the dark brown substance
+covering the wall beside it.  My eyes followed this substance up to the
+ceiling where it was caked on about a half inch thick.  It really
+sucked.  There goes my security deposit.  The moral of the story...Use a
+bigger blow off tube.  The hose I was using was the same hose I use to
+siphon.  It had gotten clogged up and the fermentation built up so much
+pressure that finally - KABLAM!  I guess I like to learn things the hard
+way.  
+        Anyway, on a side note, I was wondering if anyone could tell me
+what the concequences would be of adding some yeast nutrients to a
+fermenting brew when the fermentation started slowing down.  Would it
+help fermentation any if it needed it or would it harm it if it didn't?
+                Brian Poteat
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 09:19:48 -0500
+From: John Penn <john_penn`at`spacemail.jhuapl.edu>
+Subject: HSA, book, my mistake
+
+
+                       Subject:                               Time:9:55 AM
+  OFFICE MEMO          HSA, book, my mistake                  Date:1/28/98
+
+
+Book:   A short plug for Al K's book which I got as a Christmas book.  I'm
+only halfway through it but I find it very useful.  I especially like the
+chapter on grains and the very easy to read table on calculating priming sugar
+vs. CO2 volumes based on temperature at bottling time.   
+
+
+Newbie Mistake:  From Al K's book I learned that the grains that I have been
+getting from the homebrew store pre-crushed do not store for the many months
+that I had presumed.  Grain only stores well if its not pre-crushed!  Sure
+enough, I even verified this when I tasted some pre-crushed crystal that I had
+for at least a couple of months.  It was losing its flavor and aroma.  Hope I
+can help some others avoid my mistake by reading this post.
+
+
+HSA:  I've been doing simple partial mashes in a small cooler and just dumping
+the wort, then refilling with hot water and draining that after about 10-15
+minutes.  I realized my HSA potential on my last partial when I saw how many
+bubbles were in my pot when I drained the cooler into it by pouring.  Hope
+that batch turns out OK but I think I'll siphon next time.
+
+
+John Penn
+Eldersburg, MD
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 09:36:42 -0500 (EST)
+From: Tidmarsh Major <tmajor`at`parallel.park.uga.edu>
+Subject: What happend to the Wahl-Henius Handy Book
+
+
+Six months or so ago, I remember coming across the Wahl-Henius _Handy
+Book_ (I forget the exact title, and probably misspel the authors' names),
+an early 20th C brewing handbook that provided some interesting and useful
+information about pre-prohibition American brewing. Recently, I've been
+unable to find it again.  Does anyone know where it went?
+
+
+Thanks,
+Tidmarsh Major
+tmajor`at`parallel.park.uga.edu
+Athens, Georgia
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 08:49:41 -0600
+From: Keith Busby <kbusby`at`ou.edu>
+Subject: Amsterdam
+
+
+Fred might like to try the following establishments in Amsterdam:
+
+
+De Beiaard, Spui 30
+De Beiaard, Herengracht 90
+Belgisch bierproeflokaal 'De Zotte', Raamstraat 29
+Gollem, Raamsteeg 4
+In De Wildeman, Nieuwe Zijdskolk 5
+
+
+All are easily accessible by public transport and some within walking
+distance if you're staying in the center. The third in the above list
+specializes in Belgian beers, which are likely to dominate the other lists,
+anyway. If you get to go to Utrecht, try Cafe Jan Primus (corner of Jan van
+Scorelstraat and Prins Hendriklaan, near the Wilhelmina Park, and tell 'em
+I sent you), or Cafe Belgie (on the Oude Gracht, I forget the number).
+
+
+In addition to Dave's tips, I'd suggest locating a street market and buying
+some old Gouda cheese straight from the farm (ask for "oude boerengouda",
+pron. "owduh buruhhowdah"). The difference between that and what you can
+buy over here is staggering.
+
+
+Prettige reis (bon voyage).
+
+
+Keith Busby
+
+
+
+
+Keith Busby
+George Lynn Cross Research Professor
+University of Oklahoma
+Center for Medieval and Renaissance Studies
+780 Van Vleet Oval, Room 202
+Norman, OK 73019
+Tel.: (405) 325-5088
+Fax: (405) 325-0103
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 09:59:50 -0800
+From: Varady <rust1d`at`usa.net>
+Subject: Walk in Cooler
+
+
+I have an old coal room in the basement of my new house that I am
+planning on turning into a walk in cooler. The room is about 5' x 8' and
+the walls are stone about 1' thick. There is a window in the room that
+the coal used to come in through. I am planning on insulating the walls
+with 1/2" styrofoam, then covering with some waterproof sheeting. I am
+wondering if an air conditioner in the window will be sufficent to keep
+the temp down in the low 60's/mid 50's. I have also considered using the
+guts of an old freezer to drop the temp. I think that the AC would be
+better because it would dehumidify the air. Any comments? Anyone do
+something similar?
+
+
+- -- 
+John Varady                     http://www.netaxs.com/~vectorsys/varady
+Boneyard Brewing                The HomeBrew Recipe Calculating Program
+Glenside, PA                    rust1d`at`usa.net
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 09:55:28 -0800
+From: George_De_Piro`at`berlex.com
+Subject: Adding aerated wort to already fermenting wort
+
+
+     Hi all,
+     
+     Alex Santic asks about the consequences of adding partially fermented 
+     wort to unfermented, aerated wort.  He wonders if oxidation of the 
+     partially fermented wort will cause flavor problems.
+     
+     As always, the answer is, "It depends."
+     
+     Many breweries use fermenters that will contain more wort than they 
+     will produce in one brew session.  These breweries will add yeast and 
+     aerated wort from one brew session to the fermenter, then brew a 
+     second batch of wort and top up the fermenter with that.
+     
+     Theoretically, the following guidelines should be followed:
+     
+     The time between the original pitching and the topping up should be 
+     minimized (8 hours or less).  Both worts can be aerated.
+     
+     If this time will exceed 8 hours, all of the yeast and O2 are provided 
+     with the first filling.  The second batch of wort should be put into 
+     the fermenter unaerated.
+     
+     With that said, there are some breweries that ignore these guidelines 
+     and wait 24 hours before they top up the fermenter.  This usually 
+     happens at smaller breweries where only 1 batch/day is being brewed.
+     
+     Some of them will even aerate that second wort addition.
+     
+     One such brewery is Mickey Finn's Brewpub in Libertyville, IL.  They 
+     add 10 bbl of aerated wort to their already active, 1/2 filled 
+     fermenters 24 hours after pitching.  Their beers show no signs of 
+     oxidation (to my palate; try them yourself if you live nearby).  Their 
+     American wheat beer is very light tasting, and would definitely be 
+     tough to hide flaws in.
+     
+     Of course, the yeast strain being used is a big factor in how well 
+     this technique will work.  On a homebrew level, I would not worry 
+     about .25-0.5 gallon of partially fermented beer being added to 
+     aerated wort at pitching time.
+     
+     Have fun!
+     
+     George De Piro  (home again in Nyack, NY)
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 06:27:08 PST
+From: "Rosenzweig,Steve" <Steve_Rosenzweig`at`wb.xerox.com>
+Subject: Lessons Learned . . .
+
+
+Bless me lager for I have sinned, 
+it has been three days since my last brewsession . . .
+
+
+I was very fortunate to have received for Xmas several brewing related 
+ items including a long stemmed dial thermometer, a 10 gallon brewpot 
+ and a double burner King Kooker, and so far have two batches done with 
+ the new system with less than stellar results.
+
+
+First a brief background:  the majority of my all grain brewing in the 
+ last year was done on the stovetop with a JS Easymasher, with 
+ excellent and consistent results over a dozen or so batches.  I used 
+ both single infusion and step mashing (40-60-70C).  Typically I got 
+ about 30-32 ppg when step mashing (direct heat) and around 28-30 ppg 
+ when doing a single infusion (both with a mash out step). This past 
+ fall I began using a system based on a 7.5 gal cooler and copper 
+ manifold as a mash tun.  I do single infusion only with a mashout step 
+ as it would get a bit sull to do more than one temp step - although I 
+ am considering draining off some of the wort to heat ad add back in a 
+ pseudo decoction.  My efficiency with this system dropped a bit to 
+ about 26-28 ppg.  
+
+
+The first system change I made with the new equipment was to drill a 
+ hole in the top of the cooler to put the long probe thermometer 
+ through to monitor the temp in the cooler without pulling off the lid. 
+  I also installed the Easymasher spigot on the big pot to drain the 
+ cooled wort.  (Of course, now I have a 5 gal pot with a hole in it!  
+ Need to order another spigot assembly - sell me one at cost Jack?)
+
+
+(Tip:  I used the copper pipe part of the EM on the inside of the pot 
+ without the SS screen attached and a copper choreboy as a filter to 
+ keep out the majority of the pellet hops - I drilled a small hole 
+ though the end of the pipe and put through some thick gauge copper 
+ wire then bent the ends to create arms to hold the choreboy in place - 
+ worked very well.)
+
+
+On two batches made so far with the all new system, I have had abyssmal 
+ efficiencies of about 20-22 ppg.  Granted there has been alot going on 
+ here - cooler mashing, new, bigger brewpot instead of splitting the 
+ boil, moving outside to the King Kooker from the stovetop, but I think 
+ I found the source of my troubles . . .
+
+
+That long stemmed thermometer!  I checked it yesterday against my 
+ trusty glass one and sure enough, it was reading about 4 degrees high 
+ - so when I thought I was starting the mash at 154dF and letting it 
+ drop to about 150dF over 90 minutes - it really was going from 150dF 
+ to 146dF!   So a quick twist with a wrench and now it corresponds with 
+ my glass thermometer (which may not be perfect, but it is what I used 
+ when I was getting much better results!)  I plan to brew again soon, 
+ and hopefully will be back in the 27 ppg range.
+ 
+So the moral of the story is to check your instruments before you fly, 
+ er, brew!
+
+
+Stephen Rosenzweig
+
+
+Making the world a better place, one beer at a time . . .
+Brewing outside lovely Rochester NY!
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 11:34:42 -0500 (EST)
+From: Joe Rolfe <onbc`at`shore.net>
+Subject: Re: Commercial step mashing.....
+
+
+jack wrote 
+>Subject: In Defense of Step Mashing
+>
+>"Commercial breweries don't do this we are told.  I don't know, but 
+>Noonan, in Appendix C (I think) of Brewing Lager Beer, disputes this.
+>He claims most micros step mash....
+[snip]
+>
+>One can argue about the merits of step mashing but the micros
+>chose the other approach for cost reasons, not because it makes
+>better beer.
+{snip]
+js
+
+
+
+
+being an ex-commercial brewer, and looking at how many breweries
+are set up.  step mashing "can" be more expensive but does not have to be.
+most set ups i have seen are the expensive rake system. and most breweries
+are using domestic malts for cost reasons.  depending on the vendor
+some malts perform (brewery dependent) better if a step is done. the products
+are more stable (haze anyway). either way even british malts would benefit
+a mashout which if you dont have agitation - yur screwed (get the paddels).
+manual stirring of a 20 to 50bbl mash is not a lot of fun, but labor is cheap.
+alot of the reasoning is motivated by money and not the end product. 
+flexibility is the key. one local brewery brews with domestic malt and
+mashes in the lower mid 150F range for 60 minutes the mashes out. the beer
+that results is extremely hazy and marketed as unfiltered - many see it as
+yeast but in fact is chill haze. but it sells...
+
+
+
+
+if you go the route of a good rake system and drives, yes that can add
+say several thousand more to the price of a small mash/lauter.  any commercial
+brewery "should have steam".  sure it costs upto 40K to install but is more
+effective esp. at higher steam pressures (>30psi). a brewery i visit in canada
+has 80psi steam - makes a nice boil as does the mash step rate. others
+are using (probably illegally in some states) greater than 15psi.  where
+the demarkation of high pressure/low pressure steam is and if you have to
+have a certified boiler person under employment - is another story.
+
+
+a cheaper way of doing step mash is to mash in the kettle - loose.  this will 
+limit the expensive heavy duty rake systems use in a mash/lauter. you can
+get by with a simple propeller (helps agitate the boil also) then drop the
+whole mess into a lauter. i have seen some homebrew equipment based on this.
+granted the volume is easily stirred by manual methods. 
+
+
+
+
+but then again - why does the homebrewer care........
+
+
+brew what makes you happy.
+
+
+joe
+
+
+------------------------------
+
+
+Date: Wed, 28 Jan 1998 11:11:00 -0500
+From: Bob.Sutton`at`fluordaniel.com
+Subject: Re: Dry Hopping
+
+
+  From: JGORMAN`at`steelcase.com
+  Subject: Dry Hopping
+  
+  >>>I am interested in trying to dry hop some beer.  I have 
+  heard 2 stories on this. (1)It is OK to dry hop in the 
+  secondary and in individual bottles and (2)dry hopping 
+  should never be done in bottles, only in the fermenter.  
+  If there is someone out there that has done either or 
+  both, please shed some light.<<<
+  
+  
+  I'll try to help. Dry-hopping is quite simple. It is 
+  typically done in the secondary, and the contact time 
+  varies from 3-7 days. The approach I've taken for IPAs is 
+  to withhold the traditional final addition hops (the ones 
+  you add during the last two or so minutes of the boil) and 
+  introduce them to the secondary instead.
+  
+  If you're using pellets or plugs, I recommend that you put 
+  them in a sanitized hopsack, to simplify siphoning the 
+  secondary when your ready to bottle/keg. Hops have a 
+  tendency to float, buoyed by all the CO2 bubblies, and some 
+  folks believe floating hops are less efficient (I haven't 
+  discerned the difference); to work around this, just add 
+  some sanitized marbles (or other inert stuff) into the 
+  hopsack to weight it down.
+  
+  You'll see a difference in hoppiness depending on whether 
+  you're using pellets, plugs, or whole leaf (descending 
+  strength on a per ounce basis). However, from a "trub" 
+  standpoint (you don't want this mess in your bottles) the 
+  pellets are the most agonizing to remove, followed by 
+  plugs and whole leaf (effortless).
+  
+  Don't worry about "sanitizing" the hops - they'll take 
+  care of themselves, assisted by the alcohol content in the 
+  secondary.
+  
+  The good news is that you'll need no additional equipment 
+  to dryhop if you're already using a secondary.
+  
+  Bob
+  Fruit Fly Brewhaus
+  Yesterdays' Technology Today
+
+
+------------------------------
+End of HOMEBREW Digest #2623, 01/30/98
+*************************************
+-------

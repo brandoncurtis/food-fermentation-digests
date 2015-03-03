@@ -1,0 +1,66 @@
+﻿Subject: Cider Digest #151 Thu Aug 20 18:00:01 EDT 1992
+Date: Thu, 20 Aug 92 18:00:02 -0400
+From: cider-request@expo.lcs.mit.edu (Are you SURE you want to send it HERE?)
+
+
+Cider Digest #151          Thu Aug 20 18:00:01 EDT 1992
+Forum for Discussion of Cider Issues
+Jay Hersh, Digest Coordinator
+
+
+Contents:
+  Bugs are out... (Jay Hersh)
+
+
+Send submissions to cider@expo.lcs.mit.edu
+Send requests to cider-request@expo.lcs.mit.edu
+----------------------------------------------------------------------
+Date: Thu, 20 Aug 92 15:57:13 EDT
+From: Jay Hersh <hersh@expo.lcs.mit.edu>
+Subject: Bugs are out...
+
+
+
+
+Sorry for delays in processing submissions recently.
+We changed our main mailer machine, and did a vendor switch.
+We switched from a Sun machine to a DECstation, let me tell you
+Unix is not Unix....
+
+
+On Sun the cron jobs have user specific crontab files telling
+when to run a given user's cron job, so cron essentially becomes
+the user and assumes the components of the users environment.
+On the DEC machines there is a single cron job, and for some
+dumb reason certain basic shell commands run differently within 
+cron thanthey do from in a shell script. This means that when testing 
+digest scripts by hand to see if they worked there was no problem, 
+but when run as a cron job, they failed, and most annoyingly they
+produced no error messages indicating why they failed, they just 
+failed silently, AAAARRRGGGHHHHH!!!!!!!!
+
+
+So after much sleuthing we seem to have determined the problems 
+and corrected them, and the scripts appear to be working correctly now.
+
+
+I am leaving for vacation and won't  be back until Sept. 1st.
+In the meantime things should run OK in autopilot, but no 
+subscription requests or unsubscribe requests will be processed
+during the next 10 days.
+
+
+Cider season is upon us, so I want to hear some chatter....
+Brewing season has returned as well, get to it....
+
+
+
+
+        JaH
+
+
+------------------------------
+
+
+End of Cider Digest
+************************

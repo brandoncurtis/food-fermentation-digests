@@ -1,0 +1,1187 @@
+﻿Return-Path: owner-homebrew`at`dionysus.aob.org
+Received: from srvr7.engin.umich.edu (root`at`srvr7.engin.umich.edu [141.212.2.69]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id AAA29229 for <spencer`at`srvr5.engin.umich.edu>; Wed, 8 Jan 1997 00:08:36 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (redheat.rs.itd.umich.edu [141.211.83.36]) by srvr7.engin.umich.edu (8.7.5/8.7.3) with ESMTP id AAA11777 for <spencer`at`engin.umich.edu>; Wed, 8 Jan 1997 00:08:34 -0500 (EST)
+Received: by redheat.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id AAA28063; Wed, 8 Jan 1997 00:08:33 -0500 (EST)
+Received: from dionysus.aob.org by redheat.rs.itd.umich.edu (8.7.5/2.2)
+        with ESMTP id AAA28025; Wed, 8 Jan 1997 00:08:27 -0500 (EST)
+Received: (from dionysus`at`localhost) by dionysus.aob.org (8.7.5/8.7.3) id MAA17103 for homebrew-digest-outgoing; Tue, 7 Jan 1997 12:00:56 -0700 (MST)
+Date: Tue, 7 Jan 1997 12:00:56 -0700 (MST)
+Message-Id: <199701071900.MAA17103`at`dionysus.aob.org>
+X-Authentication-Warning: dionysus.aob.org: dionysus set sender to owner-homebrew-digest`at`dionysus.aob.org using -f
+From: owner-homebrew-digest`at`dionysus.aob.org (Homebrew Digest)
+To: homebrew-digest`at`dionysus.aob.org
+Subject: Homebrew Digest V2 #22
+Reply-To: homebrew`at`dionysus.aob.org
+Sender: owner-homebrew-digest`at`dionysus.aob.org
+Errors-To: owner-homebrew-digest`at`dionysus.aob.org
+Precedence: bulk
+
+
+
+
+Homebrew Digest        Tuesday, January 7 1997        Volume 02 : Number 022
+
+
+
+
+
+
+Procedures:
+
+
+To send a message to the digest, send it to <homebrew`at`aob.org>
+To subscribe to the digest, send a message to <majordomo`at`aob.org>
+   with the text "subscribe homebrew-digest" in the body.
+To unsubscribe from the digest, send a message to <majordomo`at`aob.org>
+   with the text "unsubscribe homebrew-digest <your email address>"
+   in the body.
+If you are having difficulty unsubscribing, send a message to
+   <majordomo`at`aob.org> with the text "who homebrew-digest" in the
+   body.  This will return a list of all subscribers.  Search this
+   list for your email address, and include it, exactly as it appears
+   (including any other text) in your unsubscribe message.
+If you are still having difficulty, send a message to <admin`at`softsolut.com>
+   with a description of your message, and we shall attempt to resolve
+   the problem.
+
+
+1        Perforated Sheet Goods Open Area Calculation
+2        Brewing salts
+3        Getting clear wort/pH probe storage/water testing
+4        Re: Priming and Bottling
+5        RE: Steve's mash schedule/Weyermann wheat malts (G.De Piro)
+6        Westchester (NY) Brewing Company  (George De Piro)
+7        Wit/Yeast Culture       (Kent Fritz)
+8        Yeast for Belgian Dubbel
+9        Twistoff bottles
+10        SG and particles in suspension
+11        Fruit in beer
+12        Metallurgy question  (George De Piro)
+13        Hopped wort and the EM/decanting/CaraPils in lemonbrew (korz)
+14        Re: Wort straining
+15        Immersion chillers (Dave Hinkle)
+16        Decoction Procedures
+17        RE: Water Chemistry vs. Love
+18        overcarbonation?
+19        RE Dark LME (Tim Fields)
+20        Filtering through hops
+21        Re: Bottling Time?
+22        High-Temp Hose
+23        bottle soaking
+24        Hong Kong and Taiwan
+25        Sarnac chocolate amber
+26        What address do i post to???
+27        Finishing Gravity too low for Barleywine
+28        Weyermann malz
+
+
+----------------------------------------------------------------------
+
+
+Date: 06 Jan 1997 08:06:58 -0800
+From: Dion Hollenbeck <hollen`at`axel.vigra.com>
+Subject: Perforated Sheet Goods Open Area Calculation
+
+
+The following message is a courtesy copy of an article
+that has been posted as well.
+
+
+I wrote a program to calculate open area of perforated sheet goods
+given hole diameter and center to center distance, but when I checked
+it against some tables I had in a catalog it did not come out right.
+
+
+Finally figured out that I had written a program which worked for
+"straight" holes, not staggered.  In a staggered hole pattern, while
+the distance for center to center between holes is constant, the
+distance between rows is not the same as the center to center distance
+and I was calculating based on too few holes in one direction.
+
+
+So, does anyone know of some sort of "formula" to apply to a center to
+center measurement to get the row distance in staggered perforated
+sheet goods?  I tried measuring on two very different sizes I have on
+hand and it certainly is not a straight percentage of the center to
+center distance.
+
+
+If someone helps me out with something which works, I will be happy to
+post the program source for all to use, but as it is now, it will only
+work on "straight" pattern perforated sheet goods.
+
+
+thanks,
+dion
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 1997 11:33:51 -0500
+From: Brewkits`at`aol.com
+Subject: Brewing salts
+
+
+I am interested in getting information from anyone who has used an additive
+sold under the name "brewing salts".  It's label says it contains  "yeast
+nutrients and heading compound".  I'm always interested in trying something
+new, but I would like to know more about it before I try it.  What are the
+specific ingredients?  Has it helped your fermentation?  Does it affect the
+final flavor?  Does it contain any minerals like gypsum or chalk?  (I don't
+want to add something that I already have in abundance in my local water.)
+
+
+Also, I'm assuming that "brewing salts" are not the same thing as "Burton
+water salts" which contains gypsum and papain.
+
+
+Any information would be greatly appreciated!
+
+
+Thanks - Ken Cannon.
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 06 Jan 1997 11:36:11 -0500
+From: dharsh`at`alpha.che.uc.edu (David C. Harsh)
+Subject: Getting clear wort/pH probe storage/water testing
+
+
+On getting clear wort-
+        Is there any non-anecdotal information that says that leaving trub
+in the wort affects flavor adversely?  My beers always settle and are clear
+after fermentation so I curious if we need to care.
+
+
+On pH probe storage, John Bowen writes:
+>Electrode storage:  We ... had the best luck ... in the pH 4.0 buffer.
+>Some recommend using 4 M or saturated KCl, ...How about a compromise?
+>Use 4.0 buffer and a spoonful of KCl (maybe Morton's salt substitute?).
+
+
+I don't know what commercial "storage solution" is, but Fisher Scientific
+recommended pH 4 buffer saturated with KCl if you run out.  I've had good
+luck both with and without the KCl in the pH 4 buffer.
+
+
+On water chemistry, Chris McCauley writes:
+
+
+>I was wondering where should I look to find a place to test my water chemistry?
+>I'm in the Dallas, Texas area....
+
+
+If you are on a municipal system, call your water company.  Here in
+Cincinnati, they are very willing to mail or fax their most recent analysis
+to you complete with yearly highs and lows and much more information that
+you may or may not need.
+
+
+Hoping yours is a good new year,
+
+
+Dave
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&                    Dave Harsh                        &
+&      Bloatarian Brewing League - Cincinnati, OH      &
+&            "non illegitimi carborundum"              &
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+                        O-
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 06 Jan 1997 10:55:25 -0500
+From: "G. Garnett" <ggarnett`at`qrc.com>
+Subject: Re: Priming and Bottling
+
+
+You asked:
+>I am getting ready to bottle my first batch and I've read a couple of
+>different sources that said 1 tsp sugar per is bottle is not recommended
+>and that I should 3/4 cup of sugar in some water, how much?, and pour
+>this into my bottling bucket and then siphon the beer into the bottling
+>bucket.  Does it make any difference which method I use or is there a
+>better method out there.
+
+
+Right.
+
+
+Priming the bottles individually is a time-consuming and error-prone
+chore.  The amount of priming sugar you get into each bottle tends
+to vary, resulting in variations in the amount of carbonation in your beer.
+And worst of all, if you just put sugar into the bottles, the sugar isn't
+sterlized or sanitized, and so could introduce an infection into an
+otherwise perfect batch.
+
+
+It's easier, and produces more consistent results, to mix your priming sugar
+into your beer, in the bottling bucket.  If you're using corn sugar (aka
+brewer's sugar), the recommended amount is about 3/4 of a cup per 5 gallons
+of beer.  You may want to use more or less sugar (between 1/2 cup and 1 cup), 
+depending on the style you're brewing - less sugar means less carbonation, of 
+course.
+
+
+The general procedure is to put some water in a pot (I use a 1-quart saucepan
+and fill it half full).  The exact amount isn't important, as long as there's
+enough water to dissolve the sugar, and not so much that you'll noticably 
+dilute your beer (more than a couple of quarts is too much).  Dump the sugar
+in, and stir it to dissolve the sugar.  Don't worry if it doesn't all dissolve
+right away - more will dissolve as the water heats.  If you get close to a
+boil and it's not all dissolved yet, then add a bit more water.
+
+
+Boil the sugar water to sterilize it.  This will help prevent infections in
+your beer.  After boiling, pour the water (carefully) into your bottling
+bucket.  Then rack (siphon) your beer into the bucket on top of the water.
+The swirling action of the siphon in the bottling bucket will mix the beer 
+and the priming sugar without your having to stir (and possibly splash) the
+beer.
+
+
+Then just go ahead and bottle!  Each bottle gets exactly it's share of the
+sugar, without the mess and bother of priming each bottle, and the sugar is
+sterilized, so your beer is safe.
+
+
+Guy Garnett                  (301)-657-3077x125               ggarnett`at`qrc.com
+- ------------------------------------------------------------------------------
+"Dreams do not vanish, so long as people do not abandon them." -- P.F. Harlock
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 1997 12:59:45 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: RE: Steve's mash schedule/Weyermann wheat malts (G.De Piro)
+
+
+     Happy new year to you all!
+     
+     Steve describes his single decoction mash schedule, and in it he 
+     doesn't add the crystal malt until after the decoction.  My guess is 
+     that he wants to keep the sugars in it unfermentable and thus only 
+     mash the crystal malt at ~158F.
+     
+     I have read about this practice on the HBD and have always wondered, 
+     "Why do people do this?"  All the pro brewers I know mash all the 
+     grain at the same time.  The sugars in crystal malt have been 
+     caramelized, which (I think) makes them safe from degradation by beta 
+     amylase.  I could be wrong about this, are there any other opinions 
+     out there?
+     
+     If I'm correct, however, than there is no reason I can think of to add 
+     the crystal malt at the end of the mash rather than the beginning.
+     
+     -------------------------
+     
+     Keith asks about using Weyermann's wacky wheat malts in a Dunkel 
+     Weizen.  I just bottled such a thing.  I used 10 lbs of dark wheat 
+     malt, 2 pounds of cara-wheat malt, and a few ounces of roasted wheat 
+     malt for color (along with Munich malt, light wheat, and pils malt).  
+     The mash was a single decoction.
+     
+     While the beer is a bit young, the aroma is very toasty and malty, 
+     with the usual Bavarian yeast accents, too.  Very nice.  The flavor is 
+     not as malty as the aroma portends, but hopefully this will change 
+     when the beer ages a bit (just bottled it last week).
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 1997 13:05:31 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: Westchester (NY) Brewing Company  (George De Piro)
+
+
+     Howdy!
+     
+     I was just curious to hear from people that have been to the 
+     Westchester Brewing Company in Whiteplains, NY.  What do you think of 
+     it?
+     
+     While I'm on the topic, what do people think of the other NY metro 
+     area brew pubs?
+     
+     I'm just curious.  Private E-mail is probably more appropriate than 
+     posts because of the limited geographic area of this inquiry.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 1997 10:08:25 -0800
+From: "Fritz, Kent" <Kent.Fritz`at`aspect.com>
+Subject: Wit/Yeast Culture       (Kent Fritz)
+
+
+I picked up a 6-pack of Thomas Kemper Belgian White Beer over the
+holidays.  They've redesigned the packaging, and the beer seems much
+more potent than when I tried it over the summer.  Does anyone know if
+they have changed the formulation, or is it just my imagination?  Also,
+is this a good example of the Wit style?  If not, what is?
+
+
+I intend to brew something similar this spring, so I streaked a petri
+dish from the bottle dregs.  There seems to be a tiny bit of growth, but
+it is NOTHING compared to the hefe-weizen culture I streaked at the same
+time.  Could this possibly be a lager bottling strain?  (It is from
+Thomas Kemper LAGERS!)
+
+
+Back to work...
+Kent.
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 06 Jan 1997 13:15:17 -0500
+From: Clifford Rones <ronescli`at`law.dol.lps.state.nj.us>
+Subject: Yeast for Belgian Dubbel
+
+
+Many thanks to those who have responded to my request for
+information.  I have learned a great deal, and in particular, the following:
+
+
+1.  Wyeast 1214 is has its loyal adherents who consider it to be one of
+the best yeasts for the Abbey style.  It is reputedly Chimay.  If the 
+fermenting wort can be kept cool enough it is the yeast of choice.
+
+
+2.  1214, 1762, 1388 and 3787 all produce fine Belgian Abbey style ales. 
+Dr. Michel Brown has pointed out to that esters are more predominant in
+the lower numbers and reduce in the higher numbers.
+
+
+3.  Dr. Brown also mentioned that 1388 and 3787 are well suited to
+making Trippels and Strong Ale.
+
+
+4.  1388 makes great beer but some people have experienced long
+periods in waiting for it to settle out.  This also seems to require low
+temperatures.  I have brewed with this yeast myself and can confirm
+that it does make an excellent strong ale.  It is reputedly Duvel.
+
+
+5.  1762 is reputedly Rochefort.  Inasmuch as Rochefort is the strongest
+Trappist ale on the market and Wyeast posts a temperature range as
+high as 75 degrees for this yeast,  this is the yeast I intend on using. 
+While I love Chimay, I am concerned that even in  a cool room, a carboy
+with two trash bags and a flannel shirt over it (OK I am paranoid about
+my beer becoming light struck) may become too hot with the result that I
+wind up in the "banana zone".  This yeast is also reported to ferment and
+clear very fast.
+
+
+Thanks again
+ Cliff Rones.
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 06 Jan 1997 13:23:58 -0500
+From: "Robert C. Sprecher, M.D." <rcs8`at`en.com>
+Subject: Twistoff bottles
+
+
+As is happening in millions of households across the country, I just
+bottled the first batch of beer made from a homebrew kit received for
+Christmas. I had been saving the bottles for months in anticipation.
+
+
+I got half way through capping them when I realized that about 20% of
+the bottles were twistoff! (The wife drinks `at`$#%$&%`at` Coors NA)
+
+
+The crown caps that I bought actually had twistoff written on the side.
+They seemed to fit OK and were tight. Does this matter? Everything I've
+read mentions using non-twistoff bottles. Obviously Coors gets their
+beer to carbonate OK in twistoffs.
+
+
+TIA.
+
+
+Rob
+
+
+- -- 
+Robert C. Sprecher, M.D.
+Assistant Professor
+Pediatric Otolaryngology and Pediatrics
+Rainbow Babies and Childrens Hospital
+Cleveland, OH
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 97 12:45:10 CST
+From: John Wilkinson <jwilkins`at`imtn.tpd.dsccc.com>
+Subject: SG and particles in suspension
+
+
+If particles in suspension increase the SG as measured with a hydrometer
+wouldn't the SG measured by two hydrometers in the same batch be higher than
+that measured by just one?
+I haven't tried any experiments measuring SG but it would seem that suspended
+particles would displace the liquid but not change its SG, as would the second
+hydrometer.
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`imtn.dsccc.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 06 Jan 1997 13:48:31 -0500
+From: Mark Montminy <markm`at`dma.isg.mot.com>
+Subject: Fruit in beer
+
+
+A friend posed the following questions.  Not knowing the answers, I decided to 
+forward it to the digest for him.  If you could cc: Feanar`at`aol.com in your 
+reply it would be appreciated, if not, I'll see that he gets the followups.
+
+
+I) If you make a beer with 2-3.3lb cans of syrup and 3 lbs of dme and want to
+put raspberries in in place of one can of syrup-------How many pounds of
+raspberries should you use for the same final alchohol content?Assume the
+desired alchohol is about 8%.
+2) If you used 1.5 oz of bittering hops at an alpha of 5.5 for the all malt
+above , how much hops would you use with your recommended amount of fruit
+instead of malt from question 1?
+I intend to make this change for an upcoming batch. Last time , I added 7lbs
+of raspberries to the recipe with the 2 cans and 3lb DME . The stuff was
+rocket fuel! It all went in about 3 weeks though so its taste was agreeable.
+I want the same taste but no more than 8%. 
+
+
+
+
+
+
+
+
+- --
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Motorola ISG Cable Data Products Group  Email:  markm`at`dma.isg.mot.com 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Nasrudin was carrying home a piece of liver and the recipe for liver
+pie.  Suddenly a bird of prey swooped down and snatched the piece of
+meat from his hand.  As the bird flew off, Nasrudin called after it,
+"Foolish bird!  You have the liver, but what can you do with it without
+the recipe?"
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 1997 13:57:01 -0800
+From: George De Piro <George_De_Piro`at`berlex.com>
+Subject: Metallurgy question  (George De Piro)
+
+
+     Hi all,
+     
+     Yet another metallurgy question; perhaps we should change this to an 
+     engineering forum...
+     
+     I had some free welding done to put nipples on my stainless steel 
+     kettles (get your mind out of the gutter).  The guy must have 
+     overheated the metal on one of them because the area around the weld 
+     rusted after just a few hours in contact with water!
+     
+     Is there a way to make it stainless again, or am I now the proud owner 
+     of a 15.5 gallon sort-of-stainless conversation piece?
+     
+     Have Fun!
+     
+     George De Piro  (Nyack, NY)
+     
+     "If you pay peanuts, you get monkeys." -some wise person
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 1997 13:30:24 -0600
+From: Algis R Korzonas <korzonas`at`lucent.com>
+Subject: Hopped wort and the EM/decanting/CaraPils in lemonbrew (korz)
+
+
+Paul writes (quoting me):
+>> I've since put ball valves on both my kettles and put something very
+>> much like an EasyMasher(tm) screen inside.  This setup clogs with
+>> pellets almost immediately, so I have switched to whole hops and now
+>> I lose a bit more wort because I immersion chill and don't want
+>> to...
+> 
+>I finally had the bright idea to use this method on my last batch with
+>my EM setup, also using an immersion chiller and whole hops.  Two
+>questions about this:
+> 
+>(1) Do you whirlpool the wort?  The only benefit I could see to doing
+>    this would be to increase the depth of the "trub-bed" over the EM
+>    screen.
+
+
+Actually, I'd like to, but I don't because the wort chiller makes it rather
+cluttered in the kettle.  I have two screens in each kettle and they are
+positioned along the sides (not in the middle like the traditional
+EasyMasher(tm)).  After draining, the hops are just about at an even depth
+across the whole bottom of the kettle.
+
+
+>(2) This probably sounds crazy, but do you recirculate at all?  It
+>    seems that you would be increasing your chances of infection for
+>    little gain, but I just had to finish the mashing analogy.
+ 
+It's not that crazy, but I don't do it for exactly the same reason you
+mentioned.  I'm going to put photos of my system on my website, but
+it could be a few weeks.  I'll start putting my website URL in my .sig
+when it's ready for human consumption (still under construction for now).
+
+
+***
+Brander writes:
+>what is the best way to "decant" the beer out of the bottle, pouring
+>seems like it would lose too much of the yeast.  siphoning seems like
+>you would drink most of it trying to get suction started?
+
+
+Don't even get me started on the "sucking to start a siphon" issue...
+
+
+No... just pour gently.  If you leave the last 1/2 oz of beer in there,
+you will have 90% of the yeast.  Just make sure the beer isn't shaken
+up -- i.e. make sure it is well-settled before attempting this.  You
+also want to shake that last 1/2 oz of beer well to dislodge as much of
+the yeast cake as you can.
+
+
+***
+Also in another post:
+>Below is the Pale Ale recipe i am refining.  i was wondering if can get
+>some comments from you more experienced brewers.  Also the half poud of
+>Cara-Pils, do i need to have some Pale Malt (grain) mashed with it to
+>extract all of the good stuff?  i heard a rumor about it.
+
+
+If it is indeed Briess Dextrine malt, then yes, you do need to mash
+it with some Pale Ale malt... not only to get all the goodness out of
+it, but also so you don't get a starch haze.  I've also found that
+other *very* pale crystal malts really should be mashed too.
+
+
+Generally, I've found that most crystal malts labeled "CaraPils" fall
+into two categories: 1) the ones that are about 8 to 10L and 2) the
+ones that are about 2 to 5L.  The darker ones seem to work fine without
+mashing.  The paler ones make for cloudy steep water which clears a
+little after the boil, but not enough (I feel).
+
+
+You may want to use one of the darker CaraPils (like DeWolf-Cosyns) which
+don't need to be mashed.
+
+
+Finally, you may want to reconsider that lemon peel because it contains
+oils and will kill your head retention.  I suspect that if you are
+dryhopping with Cascades, a slight lemony aroma will be overwhelmed by
+the grapefruity aroma of the Cascades.  I once tasted a beer made with
+lemongrass... it did indeed smell lemony and was quite nice.  Perhaps
+you may want to consider that in place of the lemon peel?
+
+
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`xnet.com
+
+
+----------------------------------------------------------------------
+
+
+Date: 06 Jan 97 14:39:29 EST
+From: "David R. Burley" <103164.3202`at`CompuServe.COM>
+Subject: Re: Wort straining
+
+
+Brewsters:
+
+
+Mark Bayer asks:
+ 
+1)> so my question is basically this:  why can't i get wort as clear as the wort
+> i racked straight out of the kettle by using the oversize fermentor and
+letting
+> the wort sit for 6 to 10 hours?
+
+
+There are two breaks - the hot and cold break.  Presumably letting the wort sit
+around for hours allowed both breaks to settle out giving you an ultimately
+clearer wort in the fermenter.
+  
+>
+2) and, this leads me to the next question:  
+> Are any of you getting sparkling clear worts by using some sort of straining
+device
+> on the end of the racking cane, or on your tap? 
+
+
+I get clear worts over the trub and hops in the brew kettle while it is still
+hot, but it goes cloudy when I cool it in my counter-current  cooler  because of
+the cold break forming as it goes down the pipe.  Eventually it settles and is
+clear over the cold break ( which I leave in as a lipid source for the yeast) if
+the yeast hasn't started quickly.  Presumably if you cool in the boiler with an
+immersion chiller and wait long enough, you could get both hot and cold break
+down before racking to the fermenter through some kind of strainer to hold back
+the hops and filter the trub through the hop bed formed on the strainer.
+
+
+3)
+> and the last question is this:  if you use a strainer, like an EM that feeds
+> a tap, what's the difference between that and what i do when i pour the wort
+> through the strainer. 
+> 
+ Pouring wort ( only cold wort, I hope!) through a strainer gives good aeration
+but is much too ambitious and you will never get the filtering action of a good
+hop bed.  Even the big boys lay down the hop bed quietly in the hop back before
+starting a relatively gentle removal of the wort through the bed.  Using a
+whirlpool method to move most of the hops and trub to the middle of the kettle
+followed by a siphoning through a choreboy metal scrubber on the end of a
+racking cane works wonderfully. Try it you'll like it!  I suppose you could
+attach a Choreboy to the tap to get the same effect.
+
+
+I prefer the choreboy type strainer versus a simple screen because the screen
+tends to plug up.  The scrubber being larger diameter has more surface area than
+a small screen and therefore a greater throughput of wort through the cane,
+given each were surrounded by hops.  Using whole leaf hops and a choreboy on the
+end of the racking cane in which the end of the cane is in the middle of the
+scrubber and not near the edge, gives a virtually dry muck of hops and trub in
+the bottom of the kettle, a high recovery of wort and no crud is carried over. 
+
+
+Make sure you are using a copper finings like Irish Moss to help collect the
+breaks into large flocs which settle rapidly and can be removed by hop
+filtration.
+
+
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Voice e-mail OK
+
+
+ 
+
+
+----------------------------------------------------------------------
+
+
+Date: 06 Jan 1997 14:59:49 -0700
+From: Dave Hinkle <Dave.Hinkle`at`aexp.com>
+Subject: Immersion chillers (Dave Hinkle)
+
+
+Alex Santic wrote:
+
+
+>>How to use an immersion chiller
+effectively without disturbing the hop bed is a matter well worth
+considering. Not to start another big debate, but those who tell you to
+run the cold water to the bottom of the chiller based on couterflow
+principles are way off the mark. To the extent that it makes a difference
+at all, this oft-repeated advice is wrong. Moreover, it doesn't address
+the really important issue of how to get the wort in the kettle to
+circulate enough, because it tends not to do so adequately no matter which
+way you run the water. Hence you get cold wort at the bottom and warm
+(even hot) wort at the top.
+<<
+
+
+He also wrote some good ideas on how to modify and use a cylindrical immersion 
+chiller.  But I think chiller design can make a big difference here.
+
+
+I wish I could remember who, but someone in HBD in the past two years wrote 
+about using a "planispiral" wort chiller (it might have been in an e-mail to 
+me, but it was an HBD response).  I could not find this word defined anywhere, 
+so someone out there deserves the credit for the term I guess.  I interpreted 
+this to mean a flat, or planar immersion chiller, so I made one with about 40' 
+of 3/8" copper tubing.  The flat spiral shape was tough to form (I worked from 
+the inside outwards), until I got a decent tubing bender for the first few 
+tight winds.  I kept winding it until it was the same diameter as my brewpot, 
+then used 14gauge copper wire to radially criss-cross tie the coils tightly 
+together in four such "spokes".  The inlet water enters at the center and the 
+exit line was tied about 120 degrees from the inlet tube.  A wire hook is used 
+to form the third suspending point to hold the chiller in a plane right at the 
+5.5 gallon height of my brewpot.  I wanted the coils to be just barely 
+submerged.  When suspended in the pot, the entire wort surface is covered with 
+copper tubing except for the 1.5" hole made by the center circle (result of the 
+smallest radius the tubing bender could do!).  After tying the coils, the 
+chiller became somewhat dish-shaped at the center, but I figured this gives me 
+a litttle leeway in my fluid level at the end of the boil.  In any event, I 
+call this my "hurricane immersion chiller", because of its shape, and because 
+when I use it, the convection currents are visably active through the "eye" of 
+the chiller when in use.  Another nice feature is I just leave it in the pot 
+when I knock out through the kettle's spigot ( w/ copper chore boy filter 
+inside of the pot).  Like Alex suggests, I get better results when I do NOT 
+stir after chilling.  I think this is because the heavier hop cones sink first, 
+with the break settling on top.  The cones & hop pieces form a natural filter 
+bed this way.  Anyway, this works for me and stirring was a waste of my time.
+
+
+I just wanted to share this idea, because I, like so many others, made their 
+first immersion chiller by winding copper tubing around a paint can.  This 
+cylinder design works, but you have to agitate or stir.  It's so much easier to 
+sit back and let the "hurricane" do all the work.  I just suspend the thing 
+during the last 10-15 minutes of boil (Irish moss time), then when I kill the 
+burner, I dump in some finish hop pellets through the chiller's eye, put on the 
+lid, wait a few minutes, then turn on the cold water to the chiller.  It drops 
+the temp a lot during the first 10 minutes, but I let it run a half an hour to 
+get it close to the tap water temp.  In the winter here in Phoenix, the tap 
+water is around 60-65F.  During the summer, I run ice water through the chiller 
+after running 85F tap water for 10 minutes.  Gets down to pitching temp rather 
+quick, even in 100 degree weather.
+
+
+To the original person who gave me this idea, Thanks!!  And to those people 
+making immersion chillers, think two-dimensional.
+
+
+Dave Hinkle
+Phoenix, AZ
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 97 17:33 EST
+From: Todd Wilson <0005714841`at`mcimail.com>
+Subject: Decoction Procedures
+
+
+Steve Garrett's question on a single decoction mash got me to
+wondering...What exactly do they mean when they say "pull off
+20% of the thickest part of the mash" and boil for however long.
+ I have read CP, Miller, and the Brewing Wheat Beer book and I
+am still unsure.  I am assuming that they mean to scoop out 20%
+of the mash, boil and add it back but where I get confused is
+are you pulling out just liquid or liquid and grains?  I might
+be nuts but if you pull off liquid and grains what are the tannin
+risks?
+
+
+I am very interested because I would like to brew "maltier"
+German beers than the ones I am now with infusion mashing, but
+I have always been skittish to try decoction mashing. I am also
+interested in the value of double decoction over single decoction.
+
+
+Thanks for the help
+Todd Wilson (5714841`at`mcimail.com)
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 1997 18:56:31 -0500
+From: Rory Stenerson <71762.1664`at`compuserve.com>
+Subject: RE: Water Chemistry vs. Love
+
+
+Mike Urseth asks:
+
+
+"I haven't had a chance to get the water tested yet. What sort of water
+condition would cause this? How would this effect brewing? Would celibacy
+be better than trying to brew with this water?"
+
+
+If your water is questionable, i.e. deep well water, you can save yourself
+a lot of grief (and blue balls for that matter) by just buying six gallons
+or so of distilled water whenever you need to brew.  That way you can make
+anything from a crisp Pils to a hearty Stout by just adding a pinch of
+Gysum as the recipe calls for.  I'm assuming you're not living in "God's
+Country" as the folks at G. Heilman used to claim. 
+
+
+It'll be a reltively cheap investment considering the payback especially
+considering your choices indicated.  Hmmm what was that old saying
+something about "I'd drink her bathwater to ......"
+
+
+Good luck, have fun, and happy brewing,
+
+
+Rory Stenerson,
+S.C.U.M.
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 6 Jan 1997 21:15:48 -0700
+From: Val Martinez <valhhm`at`trib.com>
+Subject: overcarbonation?
+
+
+i recently brewed a scotch ale (5 gal batch, mash-extract, 7# light liquid
+malt extract, 4# 2-row, 1# 40L crystal, 1/2# toasted malt).  o.g. = 1.078.
+16 days in primary fermenter.  s.g. = 1.028.  5 days in secondary.  s.g. =
+1.026 (but bubbling through airlock every 35-40 seconds).  primed with 3/4
+cup corn sugar and bottled.  tasted 15 days later.  while conditioning in
+bottles, some of the bottles had a thick foam on the top like kraeusen.
+when i opened a bottle the foam come rushing to the top and out.  if i pour
+it fairly quickly the foaming is limited somewhat.  there seems to be no
+signs of infection (no rings around the necks) and it tastes great.  did i
+merely bottle too soon and get overcarbonated?  or could something else be
+wrong?  if just over carbonated, can i do anything about it now?  thank you
+in advance.  email responses ok.
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 7 Jan 97 07:47:22 -0500
+From: Tim Fields <fieldst`at`erols.com>
+Subject: RE Dark LME (Tim Fields)
+
+
+>Date: Fri, 3 Jan 1997 13:09:12 -0500 (EST)
+
+
+In V2#21, Alex Santic <alex`at`salley.com> writes:
+
+
+>I don't know about specific time frames, but the commercial process of
+>concentrating the extract also darkens it. Additionally, George Fix
+>suggests that browning reactions continue in the can over time. For these
+>reasons, it can be difficult to make a very pale beer with extract,
+>especially with a concentrated boil and/or long boil times.
+
+
+>From what I've read, LME is more susceptible to darkening over time than 
+DME.  I once purchased a small can of Alexanders EXTRA LIGHT DME and 
+found it to be VERY dark.  Further examination revealed a date stamp on 
+the can (but under the label so I couldn't see it at the store) that was 
+well over a year old.  Since then, I've used DME exclusively.  If you are 
+shooting for a light colored beer, I'd stick with the extra light DME.
+
+
+
+
+Reeb!
+Tim Fields .. Fairfax, VA
+fieldst`at`erols.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 07 Jan 1997 07:23:41 -0600
+From: Marty Tippin <mtippin`at`swbell.net>
+Subject: Filtering through hops
+
+
+In #21, Alex Santic <alex`at`salley.com> writes:
+
+
+>One rather simple method of getting very clean wort into your fermenter is
+>to use a brewpot which is fitted with some sort of screening device at the
+>bottom. The wort is cooled in the brewpot with an immersion chiller to
+>obtain the cold break, and then filtered through the hop bed at the bottom
+>of the kettle. 
+>
+>An EasyMasher or something similar fitted to an SS kettle works very well
+>for this. I suspect it's better than a false bottom because there is only
+>one outflow point and the wort flows through the hop bed in all directions
+>to the center. Another nice thing is that you can retrofit just about any
+>kettle with this little device by simply drilling a hole. 
+
+
+Just an FYI to anyone thinking of using an EasyMasher for filtering the
+wort after the boil:  It doesn't work worth a damn if you use Irish Moss in
+the boil.  The protiens coagulate all over the easy masher screen, plugging
+it up and leaving you unable to drain your kettle.  I don't think Jack uses
+Irish Moss (and I think he'll even argue that it's unnecessary) so this has
+never been an issue to him.  And I suspect that it works fine for this
+purpose if you don't use the moss.
+
+
+Aside from that little 'problem', the EasyMasher is indeed a great gadget.
+Wish I'd invented it... ;-)
+
+
+- -Marty
+ mtippin`at`swbell.net
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 7 Jan 97 08:31:47 -0500
+From: David Winfield <ddw`at`ptdprolog.net>
+Subject: Re: Bottling Time?
+
+
+>BTW the instructions indicate fermentation should last "3 to 7 days" and 
+>bottle when FG is 1.005 - 1.010.  Ingredients included 3.3 lb. LME, 2 lb. 
+>DME, 12 oz crushed crystal grain plus bittering and finishing hops.
+
+
+
+
+I will introduce myself as I have also been lurching.  I am on my second 
+batch and I have all kinds of questions about sanitizing but, for a later 
+post...
+
+
+Dave,
+
+
+My understanding is that the end SG is not the issue but rather that the 
+SG is the same for 2-3 days in a row.  (record on then record another in 
+3 days, if they're the same then you should be ready to bottle!)   And 
+don't forget to use the priming sugar ( see a current post)
+
+
+Good luck
+
+
+
+
+Dave Winfield 
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 07 Jan 1997 07:38:27 -0600
+From: Marty Tippin <mtippin`at`swbell.net>
+Subject: High-Temp Hose
+
+
+William G. Rucker asks about tubing that can handle high temps:
+
+
+>     First question for 1997, What kind and where can I get tubing that I 
+>     can use in the brewery for transferring hot wort? I would like to be 
+>     able to use this stuff to transfer to the chiller from the boiler so 
+>     it should be able to handle boiling wort. How much should I expect to 
+>     pay? I have found some tubing but I am not in line to pay $2+ a foot 
+>     for this stuff if something else will work. 
+
+
+You're not going to find much for $2/ft or less that will work for handling
+boiling liquids.  Braided vinyl tubing is about the only thing in that
+price range, and it'll delaminate at boiling temps (I think it's rated for
+150 to 180F or so).  
+
+
+I went through this search almost exactly a year ago whilst designing my
+converted keg system.  I settled on some 1/2" ID Norton PharMed tubing, at
+about $4/ft in 25 ft. lengths (the only way it's packaged).  This is an
+opaque, flexible tubing with 1/8" walls, rated for something like 250F.
+Doesn't get soft and limp at high temperatures, fairly good at not picking
+up smells from the wort, and quite durable.  I've been quite happy with my
+decision.
+
+
+Since I didn't need a whole roll, I found 2 other guys on the 'net to split
+it with.  You might have similar luck.  I'd also advise you to check
+several places before you purchase this stuff - depending on where you go,
+you'll find very wide differences in price (the roll I bought was $110; I
+found prices as high as $150 at some mail-order scientific supply houses).  
+
+
+- -Marty
+- --------------------------------------------------------------------
+Marty Tippin          | Tippin's Law #18:  A watched pot never
+mtippin`at`swbell.net    | boils, but an unwatched pot always boils
+martyt`at`geoaccess.com  | over.
+- --------------------------------------------------------------------
+Marty's Homebrew Gadgets: http://alpha.rollanet.org/users/mtippin
+- --------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 7 Jan 1997 06:49:51 -0700
+From: Val Martinez <valhhm`at`trib.com>
+Subject: bottle soaking
+
+
+is there any concern or disadvantage to soaking bottle lables off in a
+solution of water and washing soda (sodium carbonate)?  it seems to do the
+trick in about 4 hours.  i also figure the washing soda is helping to clean
+them.  sometimes there is a white film left on the bottles.  is this cause
+for concern?  thanks in advance.  email ok.
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 7 Jan 1997 10:09:50 -0500
+From: JDPils`at`aol.com
+Subject: Hong Kong and Taiwan
+
+
+I will be travelling to Hong Kong and Kaohsiung Taiwan in February.  Can
+anyone recommend some good pubs with great beer?  Private E - Mail is fine.
+ When
+I get back I will post my adventures.
+
+
+Cheers!
+
+
+Jim Dunlap 
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 07 Jan 1997 10:49:10 -0800
+From: brewmaster`at`cyberportal.net
+Subject: Sarnac chocolate amber
+
+
+I am looking for a recipe for Sarnac Chocolate Amber, any suggestions
+appreciated, Jon  E-Mail brewmaster`at`cyberportal.net
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 7 Jan 1997 09:39:27 -0700 (MST)
+From: Adrian Goins <monachus`at`softsolut.com>
+Subject: What address do i post to???
+
+
+Please listen:  
+
+
+A number of people have been sending their posts to <dionysus`at`aob.org> and
+expecting them to end up in the digest.  They don't.  They end up in my
+mailbox where they are usually deleted.
+
+
+If you want to post to the digest or the list, send your message to
+<homebrew`at`aob.org>.
+
+
+Thank you.
+
+
+Adrian Goins
+System Administrator - Internaut
+100% Software Solutions, Inc.                
+http://www.softsolut.com                        303-689-0100 voice
+http://uls.softsolut.com                        303-891-4507 pager
+
+
+**Please use the PGP key available from "finger admin`at`softsolut.com"**
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 07 Jan 97 08:53:00 PST
+From: Martin Wilde <Martin_Wilde`at`ccm.jf.intel.com>
+Subject: Finishing Gravity too low for Barleywine
+
+
+     Help!
+     
+     My barleywine finished at 1018 degress with an original gravity of 
+     1102!.  No the beer is not infected, mashed at 150F (which may be part 
+     of the problem), pitched a large amount of the Wyeast Scottish yeast 
+     and aerated very well.  This is a killer yeast when used in large 
+     amounts!  The problem is the final gravity is a bit too low for a 
+     barleywine (IMHO).  I would of prefered a TG of 1025.  Any 
+     recommendations on how to get some more dextrins into the beer?  I am 
+     considering krausening the beer for a nice carbonation...
+     
+     thanks!
+     Martin Wilde
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 7 Jan 1997 13:36:06 -0500 (EST)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: Weyermann malz
+
+
+Keith asks:
+
+
+<Does anyone have any suggestions or comments on using dark and chocolate 
+<Weyerman wheat malts? I am planning a dunkles weizen and would welcome 
+<suggestions on using these malts in this beer style. Thanks.
+
+
+I have one good suggestion, allow for a *very* long brewday when
+using Weyermann malz!  I would also be prepared to rake/knife the
+grain bed in the lauter tun.  Also look to use a false bottom with
+the maximum open area, Id be interested to hear of any experiences
+of folks mashing Weyermann malz using a single infusion, a Easymasher
+tube screen filter, or in a system that does not utilize rakes.
+
+
+Prost!
+
+
+Jim Busch
+
+
+Coming February 15: St. Victorious Doppelbock in bottles/draft!!
+
+
+See Victory Brewing at:    
+http://www.victorybeer.com/
+
+
+----------------------------------------------------------------------
+
+
+End of Homebrew Digest V2 #22
+*****************************

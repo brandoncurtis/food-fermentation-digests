@@ -1,0 +1,334 @@
+﻿Date: Tue, 14 Nov 2006 00:12:25 -0500
+Subject: Homebrew Digest #5092 (November 13, 2006)
+
+
+
+
+
+
+HOMEBREW Digest #5092                             Mon 13 November 2006
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Calculating BTU ("Mike Sharp")
+  BTU ("A.J deLange")
+  SG and CO2 ("A.J deLange")
+  Hot side aeration (jbryant)
+  Changing brew system from propane to natural gas ("Chad Stevens")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 12 Nov 2006 23:09:37 -0800
+From: "Mike Sharp" <rdcpro at hotmail.com>
+Subject: Calculating BTU
+
+
+Jon Judson is considering changing brew system from propane to natural gas, 
+and asks:
+
+
+"How do I calculate how many BTUs are required to heat x number gallons of
+water from y temperature to z temperature in w amount of time using natural
+gas as the fuel?"
+
+
+A BTU (British Thermal Unit) is the amount of heat needed to raise the 
+temperature of one pound of water by one degree Fahrenheit.
+
+
+So, a 200,000 BTU/hr burner should be able to raise 10 gallons of water from 
+70 to 170 degrees in 2.4 minutes, right? Wrong.  You should know that a 
+rating for a burner in BTU is talking about the BTUs of fuel consumed, not 
+the heat applied.  A lot of the fuel is not completely burned, and a lot of 
+the heat is lost.  Many burners, especially the cheap ones, are very 
+inefficient.  As a result, it's very hard to figure out how fast a burner of 
+a given BTU will heat water.  The real problem is that many burners don't 
+have a good "turn down ratio", meaning you can't turn them down real low, so 
+you do want to match your burner to your kettle fairly well.
+
+
+For highly efficient Natual Gas burners, check out morebeer's natural gas 
+burners.
+
+
+http://morebeer.com/browse.html?category_id=1168&keyword=&x=1&y=1
+
+
+These are of the impingement type, and they work really well.  If you look 
+to see what size burner they sell with a given size system, you'll get a 
+good idea of how big to go.  You can buy this style of burner in a wide 
+variety of sizes and configurations, though I don't know if B3 can get them 
+all.
+
+
+Regards,
+Mike Sharp
+
+
+Kent, WA
+[1891.3, 294deg] AR 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Nov 2006 12:29:02 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: BTU
+
+
+Temperature shifts in water are very easily calculated from heat inputs 
+because 1 BTU is the amount of heat required to raise 1 pound of water 1 
+degree Fahrenheit. Note that this is an approximation, though a very 
+good one, as there are several definitions of a BTU and the specific 
+heat of water does change slightly with temperature. The other piece of 
+essential information is that a gallon of water weighs about 8.3 pounds 
+at room temperature (but only about 8 pounds near boiling). Thus the 
+amount of time (hours) to raise a given volume of water from x to y 
+degrees is  8.3 times the number of gallons times  (y-x) divided by the 
+heat input in BTU per hour. The tricky part is getting the heat input. 
+With a pot over a burner a lot of the heat is lost. The best way to get 
+useful data is to put a measured amount of water into the vessel, 
+measure the temperature, turn on the heat for a specific length of time, 
+say 1/4 hour, and measure the temperature rise. The temperature rise 
+multiplied by the mass of the water (8.3 times the number of gallons)  
+is the number of BTU  the burner transferred to  the water in the vessel 
+in 1/4 hour. Four times that is the BTU per hour value which should be 
+used in future calculations.
+
+
+A.J.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Nov 2006 13:10:26 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: SG and CO2 
+
+
+RE: My M.O. when bottling/kegging my beer is to take a S.G. measurement 
+when the beer goes into the keg or bottling bucket WITHOUT taking a 
+sample out in a hydrometer jar.
+
+
+How are you able to do this?  If you just drop a hydrometer into the 
+fermenter or bottling bucket in addition to the frightening risk of 
+infection the reading would likely be off because of gas bubbles 
+adhering to the side of the hydrometer in addition to the dissolved CO2 
+having an effect on the reading.  All the published procedures for 
+measurement of specific gravity go into great detail concerning the 
+importance of thoroughly degassing the sample for these reasons. Getting 
+a good hydrometer reading from beer which has been degassed is tough 
+enough because you never get all the gas out. If doing this in a bucket 
+how do you get your eye down the the level of the liquid surface for 
+proper observation of the meniscus? If in a carboy, how do you get the 
+hydrometer out?
+
+
+The reason you won't find anything in the literature about this is that 
+nobody does it. With any amount of gas present hydrometer readings get 
+thrown off because of CO2 bubbles, pycnometer readings are no good 
+because gas forms in the pycnometer forcing out beer and as soon as the 
+ultrasonics hit the beer in a oscillating U-tube density meter gas comes 
+out throwing their readings off. Furthermore, the density shift would 
+depend on the amount of dissolved CO2 which would mean an extensive set 
+of measurements using special pycnometers for many combinations of 
+temperature and pressure would have to be made in order to construct 
+tables. To use these tables you would have to know the amount of CO2 
+dissolved. I suppose you could assume saturation level at whatever 
+temperature and try spinning the hydrometer to free it from the bubbles 
+but I still wouldn't know where to send you for.
+
+
+I suppose we could do a gedenken experiment: Fill a corny keg absolutely 
+full of water, hold it at 45F and put 9 psi CO2 on it. The tables say 
+that evenutally it will come to equilibrium at 2 volumes. That means 38 
+litres of CO2, approximately a mole and a third, have dissolved. This is 
+59 grams. Thus there are 19L in the keg consisting of 19KG of water and 
+59 grams of CO2 for a density of  (19000 + 59)/19000 = 1.00311 or 
+specific gravity of  1.00491. That's the amount of increase in density 
+assuming the volume does not change and is a rough indicator of the 
+magnitude of the error. Saturated at ambient the dissolved volume would 
+be about half of this and the resulting SG about 1.0025.
+
+
+The "proper" way to take an SG reading is to withdraw a sample, 
+thoroughly degass it, bring it to the hydrometer's working temperature 
+and lower the hydrometer into the sample. If you are doing this to save 
+the 50 - 100 mL of beer in the sample, drink the sample or take the lees 
+from the hydrometer/bottling bucket.
+
+
+A.J.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Nov 2006 08:42:47 -0500
+From: <jbryant at wrsystems.com>
+Subject: Hot side aeration
+
+
+I was wondering if HSA is a problem when mashing and sparging with water
+heated only to around 150 F.  I know that when you boil water you
+effectively deoxygenate it.  When I fill my pot with cold water from the
+sink there is plenty of splashing going on, and then I heat that water
+to less than boiling.  Is this water oxygenated?  It seems like brewers
+only worry about splashing hot wort, isn't adding oxygenated water to
+the grain doing the same thing? Does anyone boil water for mashing and
+then let it cool to the right temp?  
+
+
+Jason in Norfolk, VA
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Nov 2006 18:20:21 -0800
+From: "Chad Stevens" <zuvaruvi at cox.net>
+Subject: Changing brew system from propane to natural gas
+
+
+>How do I calculate how many BTUs are required to heat x number gallons of
+water from y temperature to z temperature in w amount of time using natural
+gas as the fuel?....
+
+
+Coming from a long line of engineers who adhere to the motto, "When in 
+doubt, build it stout..."  I just bought the biggest f'n burner I could find 
+and ran really big pipe over a very short run from the meter, thus ensuring 
+I could melt stainless if left unattended.  Unfortunately, this approach has 
+lead to vast underutilization of the 200,000 BTU burner I purchased, and the 
+flame tends to carbon the bottom of my brew kettle (indicating incomplete 
+combustion).  Next time around, I think I'd go with a 100,000 BTU burner for 
+5 to 15 gallon batches.
+
+
+This doesn't answer your question, but I'm verbose, self righteous, and 
+always happy to throw in my $0.02 even when the resultant dialog is 
+tangential to the point at hand.
+
+
+:o)
+
+
+Chad Stevens
+QUAFF
+San Diego 
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #5092, 11/13/06
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

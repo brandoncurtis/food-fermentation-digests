@@ -1,0 +1,1330 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Sat Aug  6 03:59:34 1994
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA16433
+  (5.65b/IDA-1.4.3 for spencer`at`hendrix.itn.med.umich.edu); Sat, 6 Aug 94 03:59:01 -0400
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.37.109.4/15.5+IOS 3.20) id AA03679; Sat, 6 Aug 94 01:56:34 -0600
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA23420; Sat, 6 Aug 1994 01:00:53 -0600
+Message-Id: <9408060700.AA23420`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1494 (August 06, 1994)
+Date: Sat, 6 Aug 1994 01:00:53 -0600
+
+
+
+
+
+
+HOMEBREW Digest #1494                             Sat 06 August 1994
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Re: Infection (Bryan Dawe)
+  Isolating wild yeast (Jeff Benjamin)
+  Re: Counter Pressure Bottle Filler (Jon Higby)
+  Plastic Fermenter Help Needed (Jim Ancona)
+  Wyeast 1338 (Domenick Venezia)
+  Saaz wars (Douglas R. Jones)
+  More Saaz Wars (Douglas R. Jones)
+  My unusual fermentation (Bill Harrigan)
+  RE: cylindroconical fermentors, whats the big deal? RE:Mead/carboy ("McGaughey, Nial")
+  Unpleasant postage experience with AHA (allison shorten)
+  Re: sanitation/off flavors/aging (Tel +44 784 443167)
+  Re: beginner's guide (John DeCarlo              )
+  Sam Adams & Truth in Advertising (Ian_Sutherland_at_AMSNYO01)
+  Looking for Corona Mill replacement plates (John Isenhour)
+  Using Green Beer to Prime (Chris Strickland)
+  keg system leak (Mike Mueller)
+  Cost of all-grain equipment (mlittle)
+  Decoction / Schteem Bier (Robert H. Reed)
+  suds, pilsner (Jay Weissler)
+  More beer-related word etymology (Jeff Benjamin)
+  Waste water management (Tom Wurtz)
+  Beer survival in Atlanta (Mark A Fryling)
+
+
+
+
+
+
+******************************************************************
+**  NOTE: There will be no digest administration from July 27 
+**  through August 7. PLEASE be patient when requesting changes
+**  or cancellations.
+******************************************************************
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+FAQs, archives and other files are available via anonymous ftp from 
+  sierra.stanford.edu. (Those without ftp access may retrieve files via 
+  mail from listserv`at`sierra.stanford.edu.  Send HELP as the body of a 
+  message to that address to receive listserver instructions.) 
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 3 Aug 94 13:42:54 MDT
+From: Bryan Dawe <bryand`at`gr.hp.com>
+Subject: Re: Infection
+
+
+
+
+Dan Wood writes of an infection that has been troubling him and some
+friends.  I don't have my notes handy, so there might be errors in
+what I am about to say.  Hopefully others in HBD will correct me as
+needed.  My response to Dan follows.
+
+
+Based on the symptoms you describe I have reached a fairly firm
+conclusion of the nature of your problem . . . And the answer is . . .
+
+
+              [ i think  :-) ]
+
+
+Coliform bacteria present in minute amounts in your water.  I would
+guess that it is getting into your beer when you *rinse* your fermentor
+following sanitization.  Below are responses to selected symptoms.
+
+
+> 2. The infections mostly occur in brews made in late spring and summer.
+
+
+Seasonal infections are common, particularly in spring/summer since
+the air is simply teaming with microbiota.  More to the point, municiple
+water supplies often change on a seasonal basis.  It is reasonable that
+the coliforms are only present in your water during late spring and summer.
+
+
+> 4. It smells of rotting vegetables (definitely not HSA), and has a slightly
+> sour taste.  The smell is much worse than the taste.
+
+
+Sounds like dimethylsulfide (DMS) [ H3C-S-CH3 ], often described as
+"cooked cabbage."  And coliforms make the stuff in large quantities.
+
+
+> 5. The degree of infection grows exponentially with longer lag times.
+
+
+Bingo.  Coliforms are low pH or ethanol intolerant (uh, I don't remember
+which, maybe both).  As soon as the yeast get going lowering pH and making
+ethanol, the coliforms cease to do their damage.
+
+
+> 6. The infection has been present in both hazy and clear beers.  It does
+> not create gushers.  There are no visible indications of infection.
+
+
+The coliform bacteria is either dormant or dead by the time your beer gets
+into the bottle.  See item 5.
+
+
+> 7. It seems independent of the yeast: whether dry yeast (usually Yeastlabs
+> Whitbread) or generous Wyeast starters were used.
+
+
+As stated earlier, it is not comming from dry yeast, but your water.  As
+for yeast starters, how generous?  Underpitching is one of the most common
+mistake amoung homebrewers.  Lets face it, growing all that yeast is a 
+pain in the butt.  Do it.  Minimum pitching quantities for a five gallon
+batch are slurry from a quart starter for ales and slurry from a two quart
+starter for lagers.  Dan, you *need* starters this size.  Unless you *like*
+that aroma in your beer.
+
+
+Another thing to be careful of is relative temperatures of the yeast and
+the beer.  Significant differences in temperature at pitching time weakens
+or kills yeast, making for long lag times and weak fermentations.  You
+can not afford long lag times.
+
+
+> 8. It has happened regardless of whether the siphon was started by
+> mouth-to-straw or prefilling the hose with water.
+
+
+Yes, but if you take steps to sanitize your fermentor rinse water you
+might start to see a corrolation with infection and prefilling your
+siphon hose with unsanitized water *iff* you siphon your beer from your
+boiler to your primary.  This item is related to the discussion under
+symptom 5 above.
+
+
+> 9. It is evident in the primary carboy, not caused by racking, kegging,
+> or bottling.
+
+
+Yes, again, see symptom 5 above.
+
+
+> I managed to avoid it on my last batch (fingers crossed) through use of
+> extreme sanitation procedures: 1+ hour bleach-water soaks, rinsing in
+> preboiled water, misting all surfaces with vodka, etc.     ^^^^^^^^^^
+  ^^^^^^^^^^^^^^^
+There you are.  Kill the b*st**ds before they get to your fermentor.
+
+
+What to do:
+
+
+1) Adopt methods that avoid use of any unsanitized water prior to onset
+   of fermentation.  Some sanitizing agents do not require a rinse.  I
+   don't recall what they are (I use bleach) but I am sure others in HBD
+   will gladly assist you here.  Another approach is simply to sanitize
+   your rinse water.  Pre-boiling rinse water is arguably the best approach,
+   but rather difficult.  You can also rinse in a weak bleach solution
+   (one ounce per 5 gallons).  This approach is controversial, as you
+   can well imagine.  If the bleach is too strong, you taste it, too weak
+   and it doesn't do the job.  Be careful that the cure is not worse than
+   the disease.
+
+
+2) Pitch adequate quantities of yeast as described under symptom 7 above.
+
+
+3) Call your local water department and ask to speak with the "water
+   quality lab."  You will probably get to talk to the head water chemist,
+   who is also the only employee of the water quality lab.  And she will
+   probably talk your ear off once she realizes you are not calling
+   complain about the taste of the water and are really interested in
+   the water chemistry.  Yes, this person likely works alone all day and
+   may be starved for intelligent conversation about her work.  At least
+   that is the way things are where I live.  You can learn a great deal
+   from such a conversation.  This step will help to confirm (or deny!)
+   the theory I have presented.
+
+
+   Questions to ask:  What is the bacteria count? [you might get a "pat"
+   answer of zero, which is what it is supposed to be.  In this case a
+   concilliatory response of "Gee, I can see how such a strict standard
+   may be hard to adhear to, do you ever have a problem with bacteria?]
+   Do bacteria issues vary with season?  How does the water supply vary
+   with season?  Do you have more than one source of water?
+
+
+   Ask about nitrate/nitrite concentrations and how they relate to
+   bacteria in the source water.  [There is an important connection
+   here, but I don't recall what it is.  Your local water chemist
+   will know more than I ever have.  Others on HBD will also be able
+   to help.  Anyone?]
+
+
+   Another tack is simply to describe what you ar doing (brewing beer)
+   and the problem you are having and ask for advice.  Say something
+   like "Sometimes when I brew beer I get this rotten vegatable smell.
+   Someone I know said this smell might be dimethylsulfide and that
+   coliform bacteria can produce this compound.  Does this explanation
+   make sense to you?"  The chemist will likely have a lot to say about
+   the topic.
+
+
+Good luck.
+
+
+Bryan P. Dawe
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Aug 94 9:55:00 MDT
+From: Jeff Benjamin <benji`at`hpfcbug.fc.hp.com>
+Subject: Isolating wild yeast
+
+
+My next brew is going to be a Colorado pale ale -- I have 10 lbs of
+locally grown and malted barley, homegrown hops, and pure Rocky Mountain
+spring water(tm).  The only "imported" ingredient will be the yeast.
+
+
+This got me thinking.  How difficult would it be to isolate some local
+strain of wild yeast that would make good beer?  I've done some
+culturing, but I'm not sure I have the expertise or equipment to 
+accomplish this task.
+
+
+I imagine the procedure (greatly simplified) would be something like this:
+
+
+1.  Set out a plate of yeast-hospitable medium for a day or so.
+2.  Using a microscope, pick out single cells of yeast that look like
+    they may be of different varieties. (How might I do this?)
+3.  Place each "single cell culture" onto its own plate or slant to grow.
+4.  Try each yeast strain in a test batch (1 liter?) and rate its
+    characteristics.
+
+
+What are the chances that I'd find a strain that worked well?  Would it
+have to be some variety of S. cerevisiae, or are there other yeast
+species that would work?  Would I be wasting my time?  This certainly
+would be a lengthy process.  If I found a good strain, could I patent
+it, or would it just be a trade secret? :-)
+
+
+- --
+Jeff Benjamin                               benji`at`fc.hp.com
+Hewlett Packard Co.                         Fort Collins, Colorado        
+"Midnight shakes the memory as a madman shakes a dead geranium."
+                                            - T.S. Eliot
+
+
+------------------------------
+
+
+Date: Wed, 3 Aug 94 14:29:17 CDT
+From: unisql!jonh`at`cs.utexas.edu (Jon Higby)
+Subject: Re: Counter Pressure Bottle Filler
+
+
+Dan Houg asks about counter-pressure bottle fillers:
+
+
+CPF (Counter Pressure Filler) are designed to fill a bottle under the same
+pressure as the keg is under. This keeps the disolved CO2 from escaping during
+the filling. Once the CPF is removed, the bottle needs to be capped ASAP.
+
+
+I looked into a number of them and ended up buying one from BrauKunst in
+Mn. It has a pressure relief valve (releases at about 6 PSI) where all the
+others have a valve for releasing the pressure out of the bottle (which
+allows the beer to flow into it). I put a finger over the release valve to
+control the flow rate. I have no problem filling bottles by myself (have heard
+others say that it is a 2-man job).
+
+
+I've been very happy with it. Price: $36 which included the gas and beverage
+tubing and the appropriate quick disconnect for the liquid out line from
+your keg. Stainless steel tube, brass joints, brass valves for the gas and
+liquid lines. It seemed to me to be the best for the $$.
+
+
+I've also heard good things about the "Benjamin Products" CPF. Cost is closer
+to $55 and it is plastic. Heard bad things about the Fox CPF.  St. Patricks
+also has a new one - stainless steel, but I haven't tried it ($40).
+
+
+Jon /
+   / Austin
+- -- 
+Jon Higby  ----   UniSQL, Inc.   ----   email: unisql!jonh`at`cs.utexas.edu
+Denial clause: Prices subject to change w/o notice, actual mileage may vary.
+Fat-free, high fiber, tastes great. If you've read this far, you must be
+looking for this: Any opinions I expressed are just that - my opinions.
+
+
+------------------------------
+
+
+Date: 3 Aug 94  8:40:21 ES
+From: Jim Ancona <Jim_Ancona`at`dbsnotes.dbsoftware.com>
+Subject: Plastic Fermenter Help Needed
+
+
+In HBD #1490, Phil Miller asks about getting the old beer smell out of his 
+plastic fermenter. My suggestion is SUNLIGHT. After each batch, I clean the 
+bucket well, then leave it out in the bright sun for a day. It seems to get 
+that smell right out of there.  Obviously, you must still sanitize the bucket 
+before reusing it. Good Luck!
+
+
+Jim
+
+
+(BTW, does that old beer smell remind anyone else of their college fraternity 
+basement?)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Aug 1994 08:07:50 -0700 (PDT)
+From: Domenick Venezia <venezia`at`zgi.com>
+Subject: Wyeast 1338
+
+
+As some may remember, I re-plated Wyeast's European Ale yeast because the
+first plate appeared to be a mixed strain.  My results strongly indicate
+that 1338 is a mixture (always hedging).  One of the strains grows very
+fast and vigorously (larger colonies), the other somewhat slower (smaller
+colonies).  This is consistent with the observation that 1338 is a fast to
+start/slow to finish fermenter. 
+
+
+If anyone has a way to verify this with Wyeast I would appreciate it.  
+Also, if this is a yeast that Wyeast "developed" perhaps a rationale for
+the mixed strain might be forthcoming from the company.
+
+
+By the way I am very happy with the performance of the yeast in my Alt. It
+did finish somewhat malty (as hoped) with a low ester profile.  The Mt.
+Hood tang comes through quite nicely.  I'm anxious to try it after 3 weeks
+cold conditioning in the 'fridge. 
+
+
+Domenick Venezia
+ZymoGenetics, Inc.
+Seattle, WA
+venezia`at`zgi.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Aug 1994 16:54:58 -0600
+From: djones`at`iex.com (Douglas R. Jones)
+Subject: Saaz wars
+
+
+>Hi Doug,
+>     apologies if it sounded like I was telling you off for
+>using Saaz for bittering - it wasn't intended that way. Saaz
+>in the UK are more expensive than other hops and are regarded
+>as giving good aroma and flavour so I wouldn't spend the extra
+>if I was simply bittering. If they aren't more expensive where
+>you are then that's differnet but it still seems a shame to do
+>it. You mention a figure of 4.6% AAU, my book says 5.5% (maybe
+>different units) but that is still not very high. There are
+>many others including "high-bittering" hops with percentages
+>of 9%-12%. Hops are generally categorised as aroma, general
+>purpose, bittering or high-bittering. Saaz is considered as
+>an aroma hop. I normally "bitter" with general purpose hops but
+>for a high bitterness would use bittering or high-bittering
+>hops for economy and convenience.
+
+
+No offense taken. I am being, perhaps, a bit sensitive anyway! I need more
+homebrew, quite obviously! 
+
+
+Thanks for your comments and help. Though I have not done extensive
+research into costs here in town. Each pkg I have bought (2 AAU values of
+Saaz, Hallertau and Kent Goldings has always been the same price) I will do
+some price checking in the future.
+
+
+Many believe for the type of beer I am brewing, which I think may finally
+have been determined to be a Brown Ale, using a lower AAU hop and more of
+them will yield a better ale.
+
+
+Doug
+- -------------------------------------------------------------------
+'I am a traveler of                |    Douglas R. Jones
+     both Time and Space'          |    IEX Corporation
+       Led Zeppelin                |    (214)301-1307
+                                   |    djones`at`iex.com
+- -------------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Aug 1994 16:55:35 -0600
+From: djones`at`iex.com (Douglas R. Jones)
+Subject: More Saaz Wars
+
+
+>Date: Wed, 3 Aug 1994 16:50:59 -0600
+>To:homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+>From:djones`at`iex.com (Douglas R. Jones)
+>Subject:Re: Homebrew Digest #1491 (August 03, 1994)
+>
+>>Date: Tue, 02 Aug 1994 12:27:04 -0300
+>>From: Ed Hitchcock <ECH`at`ac.dal.ca>
+>>Subject: Bittering hops
+>>
+>>Douglas R. Jones seems to be taking flak for using Saaz at the brew store's 
+>>reccommendation.  Sazz are not generally used for pale ales.  However, for 
+>>any of you out there flaming poor Doug, have you tried it?  Hmm?  I would 
+>>bet that his pale ale is excellent.  What some people fail to recognize is 
+>>that isohumulone is not everything in a hop, and more is not necessarily 
+>>better when it comes to %aa of hops.  As a bittering hop Saaz would not 
+>>impart its usual spiciness, but would impart its wonderful vegetal flavour. 
+>>You see, hops are not simply volatile aroma and flavour components and 
+>>alpha acid.  They also contain a whole lot of subtle plant characteristics, 
+>>many of which remain after a long boil.  If you want that english bitter 
+>>flavour, you have to use tonnes of low-alpha hops, rather than a pinch of 
+>>high alpha hops, in order to get that earthy, vegetal background note.  Try 
+>>it out.  And think about the hops as a whole, not simply as a number on the 
+>>bottom of the pack.  Remember, high alpha hops were devised by big 
+>>breweries who a) want to spend as little as possible on their product and 
+>>b) want as little flavour contribution from the hops as they can manage.
+>>
+>
+>>Date: Tue, 2 Aug 94 9:25:25 MDT
+>>From: npyle`at`hp7013.ecae.StorTek.COM
+>>Subject: Saaz
+>>
+>>Sounds like Doug Jones really caught hell from you HBDers over his choice of
+>>using Saaz for bittering.  If it had been any other hop in the world, Doug,
+>>you probably wouldn't have gotten so much flack for it.  Its just that Saaz
+>>is highly regarded as a finishing hop for the finest lagers.  Many people
+>>though, including myself, using "finishing" hops for bittering, since they
+>>seem to give a less harsh bitterness compared to high alpha hops, even when
+>>the same IBUs are in the finished beer.  BTW, 4.6% AA is high for Saaz, but
+>>certainly not considered a high alpha hop.  There are some varieties as high
+>>as 15%; I think anything over 9-10% could be considered a high alpha hop.
+>>
+>>Cheers,
+>>Norm npyle`at`hp7013.ecae.stortek.com
+>
+>
+>Thanks Ed and Norm! While I DID get some rather blistering reply's I must
+>admit that the majority of those who mailed me privately offered many positive
+>comments to my efforts. For this I am grateful.
+>
+>I seem to have stumbled upon an interesting issue. The high AAU vs low AAU for
+>bittering. Though I have no real reason to do so, I tend to think that the low
+>AAU and more of them is the way to go. I guess I just need to look around and
+>see what other hop besides Saaz I can use ;-)
+>
+>I also got some replys (and had one homebrew shop tell me) that
+>experimentation when you are a rookie is verbotten! Fortunately many HBD'ers
+>and myself find that train of thought to be total bunk! I am brewing for one
+>reason and one reason only, 'cause I like to! I am interested in what other
+>people think of my beer and exchange with other homebrewer's whenever I can. I
+>do not yet belong to a club or the AHA. My current experimentation is to find
+>a high body, high malt low bitterness low hop ale. I haven't hit it yet but
+>then I am only on round 2. I'll get there. I understand the merits of 'brewing
+>to style', but it's not for me. Based on the style guide (thanks Rick and
+>Jim!!) I guess the closest I have seen is English Brown Ale. Wrong hops but
+>the numbers match. So if someone asks this what they will get told.
+>
+>I plan on brewing to style later, just as I will revisit some of the kits. But
+>for now it's exploration alley!
+>
+>If anyone is interested I will post the actual recipe and I would love
+>comments on what to expect.
+>
+>Thanks for the help,
+>Doug (on the Quest for MY ale)
+>
+>
+- -------------------------------------------------------------------
+'I am a traveler of                |    Douglas R. Jones
+     both Time and Space'          |    IEX Corporation
+       Led Zeppelin                |    (214)301-1307
+                                   |    djones`at`iex.com
+- -------------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Aug 1994 20:09:45 -0500
+From: ttra1908`at`uriacc.uri.edu (Bill Harrigan)
+Subject: My unusual fermentation
+
+
+Hi all, I just brewed a batch of brown ale and what happened is I pitched
+the yeast at 7:00 in the morning and by 6:00 in the evening, it was foaming
+up alot (pretty unusual I thought).  anyway, by the next morning, the foam
+was going down somewhat, and by that evening, there was no more foam.  What
+happened?  It seemed to be going so nicely at first and then nothing!  I
+used Edme dried yeast if that makes any difference.
+
+
+E-mail responses please,
+Bill
+ttra1908`at`uriacc.uri.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Aug 94 18:16:00 PDT
+From: "McGaughey, Nial" <nmcgaugh`at`hq.walldata.com>
+Subject: RE: cylindroconical fermentors, whats the big deal? RE:Mead/carboy 
+
+
+
+
+> (3) Assuming a vessel made
+> from food grade plastic, would the advantages of a "mini-unitank"
+> process be enough for homebrew veterans to switch from glass?
+> (4) How much would would people generally be willing to fork over
+> for plastic / glass small cylindroconical fermenters?
+
+
+Indeed... what gives with cylindroconical fermentors, anyways? why are they 
+the BruBowl (TM) of choice for 'serious' gearhead type brewers, that and 
+RIMS  (Ramtha??) (oohhhmmmm oohhmmm) seem to be the holy mountain of brewing 
+toys...is it yeast pancake compaction,  break whirlpooling or what? flames 
+invited, Email is fine (assuming out Network is stable (HA!!!)) Brew Heads 
+with too much dough need to know...
+
+
+RE:Subject: Carboy airspace
+
+
+>.I've got a batch of mead that has been aging in the carboy for a few 
+months
+> after fermentation was finished.  It's been racked several times,
+>so I doubt that there is any more CO2 headspace on top of the mead.  The
+>mead is several inches below the carboy neck, and I was wondering if I
+
+
+If you havent been popping the fermentation lock off of the mead, you 
+shouldnt have any problem, I had a mead that took 6 months to fully ferment 
+out, and the flavors to mellow. you     should'nt have any problems. Also 
+look into using Bentonite (its a clay..) as a clarifier. 2 applications are 
+usually what it takes to get your mead crystal clear, and hopefully take any 
+oxidization(if you have it) components with it...
+
+
+Nial McGaughey
+Wall Data Product Development
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 1994 13:50:24 +1000 (EST)
+From: allison shorten <shorten`at`zeus.usq.edu.au>
+Subject: Unpleasant postage experience with AHA
+
+
+  This post is motivated by Gary Sink's post in HBD 1491 re bogus
+discounts on AHA books.
+  I just had a very unpleassant experience of this nature the other day. A
+while ago, I got a glossy leaflet from the AHA advertising a special
+pre-release deal on Richman's Bock book, no. 9 in the Classic Beer Styles
+Series. As far as I can remember, the order form (which I used to order
+the book so dont have any more) quoted a price of $10.15 plus $4 for
+postage and handling. I cant recall anything that said any more was
+payable for customers here in Australia (or any other foreign country).
+But when the book arrived a few days ago, they had charged me $9, or
+nearly the price of the book, for postage and handling.
+  If anyone out there still has an intact copy of the glossy leaflet I
+refer to, could you check and let me know whether the order form says
+anything which might justify my being charged $9 for postage and handling
+on this item, please?
+Brett Shorten
+Toowoomba, Qld, Australia
+
+
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 1994 11:27:31 +0000
+From: Brian Gowland <B.Gowland`at`rhbnc.ac.uk> (Tel +44 784 443167)
+Subject: Re: sanitation/off flavors/aging
+
+
+
+
+In HBD 1492. uswnvg!vfrankl`at`uunet.uu.net (Victor Franklin) wrote:
+> A friend and I are having a small disagreement about the necessity
+> of strict sanitation practices.
+ 
+     In a disagreement (two or more conflicting opinions) it is almost
+always the case that each side can learn something from the other(s),
+often to the advantage of all concerned.
+ 
+> He doesn't get the HBD so I am trying to explain some of the
+> information to him. I have even gone as far as making copies of
+> posts and giving them to him. He is unswayed.
+ 
+     I hope, in fairness, that you copy this posting to him even
+though it is biased more towards his views than yours.
+ 
+> He isn't nearly as tedious/anal about it (sanitation) as
+> I am and he has never had an infected batch!  So I can't really
+> tell him he is doing something wrong.
+ 
+     You've said a great deal there. I suggest you stop trying to tell
+him that he is "doing something wrong" until the day arrives when (if
+ever) he makes a bad batch that can be proved to be as a result of
+poor sanitation practices. Then you can really gloat! :)
+     You do not say how bad your friend's practices are so I may be being
+unfair. Perhaps he does some really disgusting things but I am
+assuming that he at least washes his equipment after use - at least to
+the extent that he washes the plates, knives, forks etc. that he eats with.
+I do NOT advocate poor practices in any way shape or form but have a real
+problem with those who preach sanitation/sterilisation to the level of
+paranoia as I have seen many times on HBD and r.c.b. Cleanliness and
+common sense should prevail.
+     I do not use any chemical sterilisation/sanitation agents - I clean
+my equipment with washing-up liquid after use (rinsing very well). My
+hydrometer and thermometer are simply rinsed under the hot tap after use
+and dried with a clean towel. I use English top-working ale yeast and
+leave my fermenting vessels open to the air as is traditional with such
+yeasts. I use plastic utensils some of which are 3 years old. In the
+past few years, I have brewed 30+ batches of brew (kits, extract and
+full grain) and 30+ gallons of wine (some kit, some real fruit). I have
+never made an undrinkable wine (early efforts were a little yeasty due
+to not finishing properley) and only 4 batches of "bad" beer - two were
+from the same make of kit which I decided was a poor kit, one (another
+kit) had a satchet of hop extract which I added all of instead of
+a small amount making the thing VERY bitter and the other was as a result
+of flourination of the water where I used to live. None of my friends or
+family have ever refused any of my beer or wine and my efforts have
+inspired a couple of them to starting making their own. I shall continue
+to be less than paranoid about sanitation/sterilisation of my equipment
+until the day I get an infected brew. If this ever happens I promise to
+tell you all about it so you can say "I told you so".
+     This message was not intended to offend nor was it aimed specifically
+at Victor Franklin. This in my opinion is a candidate for the saying
+"Relax, Don't Worry..." etc.
+Cheers,
+     Brian (reaching for his flame-proof suit).
+
+
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 94 07:40:56 EST
+From: John DeCarlo               <jdecarlo`at`homebrew.mitre.org>
+Subject: Re: beginner's guide
+
+
+Richard B. Webb writes:
+>first big boiler was an aluminum stock pot, coming to the scale at around
+>eight gallons, but I wasn't very happy with it.  The aluminum scratched
+>easily, and stained too readily.  Cleaning it up took up layers off the
+>bottom, and fears of excessive intake of molecular aluminum led to the
+>eventual discarding of the pot.  If you do use aluminum, do not use it to
+>store wort for very long.  The acidity of wort often dissolves the aluminum,
+>leading to discoloration or worse.
+
+
+Actually, if lessons learned from cooking apply to brewing, you *want* such an
+aluminum pot to be discolored.  This means a protective oxide coating has 
+formed.  You are lucky to have this happen, as it means you get no more 
+aluminum dissolving.  If you happen to scrub it shiny, you are in bad shape 
+once again.
+
+
+So, like you would with a well-used aluminum pot or pan, wipe food off it, but
+try and keep it in the discolored state, as it protects the pot from 
+dissolving and your food/wort from excess aluminum.
+ 
+John DeCarlo, MITRE Corporation, McLean, VA--My views are my own
+Fidonet:  1:109/131  Internet:  jdecarlo`at`mitre.org
+
+
+
+
+------------------------------
+
+
+Date: Thu, 04 Aug 94 08:20:24 EST
+From: Ian_Sutherland_at_AMSNYO01`at`mail.amsinc.com
+Subject: Sam Adams & Truth in Advertising
+
+
+
+
+     I have been amused with the controversy of Sam Adams advertisements. In
+one of the recent ads you must have heard Jim smashing bottles of SA that are
+past their due dates. I guess Jim never reuses his bottles, and I always
+believed in special effects!!
+
+
+------------------------------
+
+
+Date: Wed, 3 Aug 94 18:34:22 CDT
+From: john`at`hopduvel.chi.il.us (John Isenhour)
+Subject: Looking for Corona Mill replacement plates
+
+
+I've been experimenting with modifying my Corona, and so far
+have made some improvements by fixing the plates so they
+are constantly parallel and tuning it etc.  
+
+
+Recently I wanted to modify the grinding plates to see if I
+could reduce the amount of shredding of husk.  I began to grind the
+plates so the grooves were not so sharp.  It seemed to be working
+as I ground them more and more flat, until I went a bit too far.
+I finished it off by grinding them completely flat to see if it
+would more like a regular mill.  It became really hard to crank.
+I began grinding rounded edge grooves back into the flat plates
+and might end up with something interesting eventually.
+
+
+In the meantime, the darn thing is too hard to crank and anyway I'd
+like to get some new plates for comparison purposes.
+
+
+Any ideas on where to find them?
+
+
+ -john 
+- -- 
+John Isenhour                       
+renaissance scientist and AHA/HWBTA National Beer Judge 
+home: john`at`hopduvel.chi.il.us
+work: isenhour`at`lambic.fnal.gov 
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 94 08:51:12 -0400
+From: stricklandc`at`cocoa12.ksc.nasa.gov (Chris Strickland)
+Subject: Using Green Beer to Prime
+
+
+Actually two questions here:
+
+
+1st:  Why can't you just bottle early inside of priming?
+
+
+2nd:  I've heard of people storing a small amount of wort in the fridge, then
+      using this green beer to prime the batch after fermenting.  But I've
+      heard its complicated to figure out how much green beer to store.  So
+      what's involved in doing this?
+
+
++-----------------------------------------------------------------------------+
+| Chris Strickland               |   Allin1: stricklandc                      |
+| Systems Analyst/Statistician   |   Email : stricklandc`at`cocoa12.ksc.nasa.gov |
++-----------------------------------------------------------------------------+
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 94 8:51:52 EDT
+From: Mike Mueller <sparky`at`atf.lle.rochester.edu>
+Subject: keg system leak
+
+
+
+
+Greetings All,
+
+
+Well I've got a slow leak somewhere in my system. I thought I had it fixed when
+I put new O-rings on the keg locks and bought a new regulator but I was wrong.
+
+
+I am using a pin lock Cornelius keg. I've replaced the o-rings around the 
+outside of the pin locks. I'm using about 12 psi of CO2 and I dump a tank about
+every 10 days. I've checked for leaks using a liquid leak check detector and
+can't seem to find any. There also a new washer between the CO2 tank and
+regulator. The large O-ring on the lid seems to be sealing ok (can;t see a leak)
+but maybe I should replace it. I've got a new one from Williams brewing thats
+supposed to be better than the original ones.
+
+
+If anyone has any advice or experiences they would like to share please drop me
+a message. This CO2 is expensive!
+
+
+Many thanks,
+
+
+- --
+Mike
+
+
+    Michael R. Mueller (716) 275-0297
+    email: sparky`at`lle.rochester.edu
+      
+
+
+------------------------------
+
+
+Date: Thu, 04 Aug 1994 09:02:00 EDT
+From: mlittle`at`cclink.draper.com
+Subject: Cost of all-grain equipment
+
+
+
+
+<<<<<< Attached TEXT item follows >>>>>>
+Text item: Text_1
+     Hi Folks,
+     
+     A few months ago there was some discussion about the cost of acquiring 
+     equipment for all-grain brewing.  I have been buying stuff for that 
+     same purpose, and have been keeping receipts.  Note that I *didn't* 
+     try to do this as cheap as possible.  I elected to get highest (IMHO) 
+     quality stuff that will last a long time.
+     
+     The equipment I purchased/fabricated is:
+     
+     Mash/Lauter Tun consisting of a 10 gal. Gott cooler with a Phils 
+     Phalse Bottom.  I replaced the spigot with a valve, and used various 
+     tubing sizes to connect the valve to the false bottom. 
+     
+     Sub-Total          $78.02
+     
+     Wort Chiller is of the counter-flow variety.  Length is 25 feet.  The 
+     chiller is fastened around a 5 gal bucket and has a ball valve on the 
+     wort outflow end.  The valve regulates wort flow, and also allows 
+     filling the device with a sanitizer solution for storage. 
+     
+     Sub-Total          $52.29
+     
+     Brew Pot is a converted 1/2 bbl. Sankey keg.  The keg has a hole 
+     drilled near the base with Cu tubing inserted and sealed with some 
+     bulkhead fittings. A Cu pot scrubber is fastened to the 'inside the 
+     keg' end of the tubing, and a ball valve is attached to the other end. 
+      1/2" thread-to-compression fittings on both the keg outflow and 
+     chiller inflow allow connection with a 1 ft. high temperature hose. 
+     
+     Sub-Total          $73.80
+     
+     Brinkman Stove (160K BTU) with a 20 lb. propane tank is the heat 
+     source.  I had to have a friend weld some supports on the stove ring 
+     to accommodate the keg's diameter(this can be done at a local weld 
+     shop for $10 - $20).
+     
+     Sub-Total          $81.20
+     
+     
+     Grand Total       $285.31
+     
+     
+     This setup works _very_ well.  Gravity moves the liquids and all 
+     interfaces are mechanical (no siphoning).  It may sound to some like a 
+     large investment, but the ingredients for a 5 gal. batch cost $15 less 
+     now as compared with my extract batches.  So, it'll pay for itself in 
+     20 batches.
+     
+     Private e-mail if you want detailed prices and materials, or to 
+     comment.
+     
+     Mark
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 1994 09:08:59 -0500 (CDT)
+From: Robert H. Reed <rhreed`at`icdc.delcoelect.com>
+Subject: Decoction / Schteem Bier
+
+
+braddw`at`rounder.com asks:
+
+
+> Exactly what is decoction mashing?  It was my understanding that a
+> portion of the grist was boiled and then returned to the mash, and this
+> statement suggests that just the first runnings being boiled and and
+> returned is the method.  Is there a decoction FAQ? Am I missing
+> something? If so, please forgive my naivete.  
+
+
+Decoction is the process of bringing a portion of your mash up fairly
+slowly through saccharification temperature range, boiling it for
+several minutes, returning it to the main mash, and repeating if
+desired. You may do a single decoction to boost you from a protein
+rest to starch conversion temp, or a double or triple decoction as
+well.
+
+
+I believe the consensus is to remove the thickest part of the mash
+for each decoction to minimize enzyme denaturing during boiling, 
+except for a decoction used to boost from starch conversion to
+mash-out.  For this decoction, mash liquid is run-off, boiled and
+returned to the mash to minimize unconverted starch brought
+back into the main mash by this final decoction.                
+
+
+I think Noonan's 'Brewing Lager Beer' is the best decoction reference
+of the commonly available brewing books.
+
+
+- -- - 
+
+
+Dave in Sydney wrote:
+
+
+> 
+> So based on this exhaustive one-data-point study, I'd say if you want
+> steam, go for the three additions of N Brewer and forget the other
+> suggestions.  In particular, there was a recipe a couple digests ago
+> (don't have the details handy) that had British hops and either 1028 or
+> 1098 yeast--no chance for that one IMHO.
+>
+
+
+IMO, Anchor Steam has a kind of weird bitterness that I beleive to be
+unrelated to Northern Brewer hops, but to me seems like a bitterness
+that is sometimes obtained in pale, bitter beers made with carbonate
+water.  Comments?
+
+
+ -Rob Reed
+
+
+ 
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 94 09:18:31 -0500
+From: jay_weissler`at`il.us.swissbank.com (Jay Weissler)
+Subject: suds, pilsner
+
+
+Bill Rusts says:
+
+
+>I responded by recommending Suds, but only as a record keeping  
+program.  Well, it seems I need to eat my words.  I have been  
+evaluating version 3.0a of the program, 
+
+
+
+
+Is this a new version? When I look at the HB Index I only see 3.0 How  
+do I get the update?
+
+
+Also, Please keep the pilsner recipes coming, so far I've only got  
+one, several requests for me to forward what I get, and a pointer to  
+Miller.
+thanks
+jayw
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 94 9:31:23 MDT
+From: Jeff Benjamin <benji`at`hpfcbug.fc.hp.com>
+Subject: More beer-related word etymology
+
+
+Dan Strahs <STRAHS`at`msvax.mssm.edu> gave us the ("REALLY useless" 8~)
+etymology for the word hops.  I'm curious if anyone has a complete
+etymology for the word "bine".
+
+
+My American Heritage College Dictionary has the following:
+
+
+        bine n.  The flexible twining or climbing stem of certain
+        plants, such as the hop or woodbine.  [Alteration of BIND,
+        VINE.]
+
+
+        vine n.  1.a.  A weak-stemmed plant that derives its support
+        from climbing, twining, or creeping along a surface.  b.  The
+        stem of such a plant.
+
+
+Not much help in determining how hop stems got their own word.  My
+Webster's Unabridged at home isn't much help either.  The alteration
+is fairly obvious, but why the separate designation?  Any linguists
+out there have an answer?
+
+
+- --
+Jeff Benjamin                               benji`at`fc.hp.com
+Hewlett Packard Co.                         Fort Collins, Colorado        
+"Midnight shakes the memory as a madman shakes a dead geranium."
+                                            - T.S. Eliot
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 94 09:26:23 MDT
+From: twurtz`at`neocad.com (Tom Wurtz)
+Subject: Waste water management
+
+
+
+
+I have somewhat of a newbie question. I've been solely an extract brewer
+for several years and am gearing up to switch to all-grain. I know
+what I need now and plan to obtain all that stuff within the next few
+weeks or months (I'm in the process of moving and my new home will
+have a great brewery in the basement). I plan to make an immersion
+chiller, because of the relative ease of making one. My question is
+this, here in Colorado, (and I imagine all over the west) we technically
+live in a desert and it's considered evil to waste water. I estimate
+running water through a wort chiller for 10-20 minutes would send
+upwards of 50 gallons down the drain. Do any of you people have convient
+ways to reuse the water? What's the word, water conscious brewers?
+
+
+t
+
+
+ps. maybe I should collect the warm water into a tub and give my dogs a
+bath every time I make another batch o beer. they would love me for that.
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 1994 08:28:21 -0700
+From: Richard B. Webb <rbw1271`at`appenine.ca.boeing.com>
+
+
+Subject: The beginners guide to advanced and all-grain brewing
+
+
+I guess that people would rather read this stuff than the bounces
+of HBD #1490 again and again, so here is yet another installment of
+
+
+The beginners guide to advanced and all-grain brewing
+By Richard B. Webb, the Brews Brother's 1993 Homebrewer of the year
+
+
+part 2
+1.3.     Mashing and Lautering
+
+
+A tun is a container that is used to maintain certain environmental 
+conditions while 
+the malt sugar is being created. The mash tun holds the grain in a 
+soup of water and 
+sugar during this process. A lauter tun allows the liquid surrounding 
+the grains to be 
+drained off, while allowing more rinsing water (the sparge) to be 
+run through the grains, 
+allowing even further sugar extraction. One attribute of a good mash 
+tun is the ability to 
+allow liquid to flow easily through a straining system incorporated 
+in the tun. An example 
+of this kind of mash tun involves a bucket with some sort of false 
+bottom inside of 
+another bucket. This sieve design allows the grains to form a filter 
+bed while allowing the 
+sweet liquor to flow through the false bottom strainer. I tried this 
+system, but I wasn't 
+very happy with it. The sieve design took forever to make, and the 
+whole thing suffered a 
+major flaw in temperature control. Another of the attributes of a 
+good tun is the ability 
+to maintain a steady temperature, and the un-insulated bucket system 
+just falls short. 
+The most versatile tun that I've found is made from a large 
+picnic cooler, with straining 
+filters placed in the bottom to let the liquified sugars pass through 
+while restraining the 
+spent grains. This set up combines the best attributes of the mash 
+and lauter tuns into a 
+single device, saving money, process steps, and a mess on the kitchen 
+floor. (Another 
+reason I do my mashing in the garage...) My tun system incorporates 
+a series of PVC pipe 
+sections into which slits have been sawn. These sections are  joined 
+with PVC elbow, Tee 
+and X sections to form a sieve type filter. The original design had 
+a lot of joining 
+sections, with poles of PVC pipe jutting into the bottom of the grain 
+bed. This unwieldy 
+structure was connected to the cooler drain spout, which allows the 
+liquid to be drained 
+out. A small rubber stopper fits over the spout, and a valve in the 
+other end of the 
+stopper allows the control of liquid flow from the tun.
+
+
+My latest design of the sieve is a very simple one. Instead of a trident 
+design of pipes 
+all along the bottom of the tun, I now use two four inch sections 
+of slotted pipe, joined at 
+the center with a PVC Tee section. End caps keep the grain out of 
+the ends of the plastic 
+pipes, and the outlet from the Tee section is connected to the cooler's 
+outlet. Not only is 
+this design simpler, but it is also harder to dislodge from the outlet. 
+The smaller number 
+of slits gives a longer sparge time, which increases the sugar extraction 
+rate.
+
+
+If one of your goals is to maximize the amount of sugar that you can 
+create from your 
+grains (the ones that you've spent good money for!), then you need 
+to know about 
+sparging. In this example, sparging is the running of hot water through 
+the hot grains to 
+dissolve the last bits of sugar from the mash. This is best done gently 
+and slowly. If the 
+water is flushing through the grain, pathways of water are formed, 
+channeling the water 
+around, and not through the grains. Hot water is used, but the temperature 
+of the grains 
+should never exceed 170 degrees Fahrenheit, as this would leech out 
+harsh bitter oils 
+from the grain husks. And the quantity of water must be such that 
+after a sixty minute 
+boil, the amount of wort called for in your recipe is the amount you 
+wind up with. If you 
+do make an error, it's probably better to wind up with to little liquor 
+after the boil, 
+because it's relatively easy to add sterile water to the fermenter, 
+while any excess liquor 
+is subject to contamination as it is stored. The important points 
+to remember are 1) 
+gentile sparging, 2) temperature control, and 3) try to get the quantities 
+right!
+
+
+When creating such a tun and filter system, there are some points 
+that you should 
+keep in mind. The size of the tun determines the amount of grain you 
+can mash, and if 
+your tun is too small, you will be restricted to making light and 
+wimpy beers, because you 
+simply have no room to mash larger amounts of grain. When buying a 
+cooler to make 
+into a tun, get one with a drain system already in place. Drilling 
+your own hole is a 
+gateway to frustration. Finally, use high temperature PVC pipe for 
+your filtering system. 
+The maximum temperature required in a tun is about 170 degrees Fahrenheit, 
+a 
+temperature sufficient to melt many thinner grades of pipe. The pipes 
+won't become 
+liquid at that temperature, but they will warp, allowing grain to 
+enter the sieve, plugging 
+up your system. You haven't lived until you have to spoon 25 or more 
+pounds of grain 
+into a straining bag because your filtering system has failed.
+
+
+Next time: The Mash
+
+
+Rich Webb
+
+
+------------------------------
+
+
+Date: Thu, 4 Aug 94 12:56:07 EDT
+From: Mark A Fryling <mfryling`at`magnus.acs.ohio-state.edu>
+Subject: Beer survival in Atlanta
+
+
+Hullo,
+
+
+     I will be starting a new job next month in Covington, GA (about 30 miles 
+east of Atlanta) and I need some help from local beer lovers.  Can those of you
+in the know give me info on local:
+
+
+     A) Brewpubs in the Atlanta area
+
+
+     B) Shops at which to buy homebrew supplies - I am partial mashing right
+        now, but I am rapidly moving towards all grain (especially since I
+        will now be able to afford an 8 gal. Vollrath, a wort chiller and a
+        King Cooker!)
+
+
+     C) Good commercial beer sources (ie. large selection of imports and
+        quality domestics).
+
+
+Thanks for your assistance.
+
+
+At the risk of starting another mill argument (oh no!), I would just like to 
+say that I recently acquired a Glatt Mill and like it very much.  I have also 
+used the Phil Mill and the Malt Mill (TM) and I think the Glatt crush is as 
+good as the MM and superior to the PM.  As I see it the big advantage of the 
+Glatt is the complete adjustability of the rollers.  The advantage of the MM is
+the convenience of sitting on top of a 5 gal bucket (less mess).  Both seem to 
+do a great job crushing and I think both are good purchases.  BTW, I payed $109
+plus $8 shipping from CA for my Glatt, and I had to mount it to a table top  
+before use.
+
+
+No affiliation, just thought I'd give my impressions.
+
+
+Have fun, and brew well my little droogies.
+
+
+Mark Fryling
+mfryling`at`magnus.acs.ohio-state.edu
+
+
+------------------------------
+End of HOMEBREW Digest #1494, 08/06/94
+*************************************
+-------

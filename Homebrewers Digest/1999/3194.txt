@@ -1,0 +1,1395 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA16982;
+        Tue, 14 Dec 1999 00:27:51 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by srvr22.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA02029;
+        Tue, 14 Dec 1999 00:27:50 -0500 (EST)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA16641
+        for realhomebrew; Tue, 14 Dec 1999 00:14:25 -0500
+Date: Tue, 14 Dec 1999 00:14:25 -0500
+Message-Id: <199912140514.AAA16641`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3194 (December 14, 1999)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3194                             Tue 14 December 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  PID for RIMS ("Martin Brungard")
+  Beautiful San Francisco (Alan McKay)
+  RE:Cask ale from a corny ("Philip J Wilcox")
+  low carb dieting (Marc Sedam)
+  Lunacy ("Paul Niebergall")
+  Re: RIMS ("Ludwig's")
+  hop tea pH/FWH IBUs/High Gravity ("Stephen Alexander")
+  re: RE: RIMS (MaltHound)
+  cask breather for corny?? ("jim williams")
+  DoppleBock, sparging and attenuation ("Charles E. Mryglot")
+  RE:calories ain't caloriesq ("Kelly")
+  RE: Hugh Baird going going gone? (LaBorde, Ronald)
+  Calories, Carbs, Beer, Etc. (Midwest Brewer)
+  RIMS (LaBorde, Ronald)
+  NA beer and calories ("Alan Meeker")
+  Hugh Baird going? ("Vinbrew Supply")
+  Irish Red Recipe Wanted ("Mark E. Hogenmiller")
+  re coopers sparkling ale (smorgan)
+  cask ale in general and in cornies ("gdepiro")
+  RE: Hugh Baird going going gone? (bergbrew)
+  RE: RIMS (LaBorde, Ronald)
+  rims and running (Jim Liddil)
+  re: Hugh Baird going, going, gone ("Gary Barbatelli")
+  Re: Evil of carbs (JohnT6020)
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 13 Dec 1999 10:50:20 EST
+From: "Martin Brungard" <mabrungard`at`hotmail.com>
+Subject: PID for RIMS
+
+
+One of our list members asked me a question about PID temperature 
+controllers for RIMS and I thought I would pass some of the info on to the 
+list for future reference.
+
+
+I've researched the PID, solid state relays (SSRs), and thermocouple probes 
+from Omega Engineering. I just purchased a small pH meter from them for $35 
+plus $5 each for 4.0 and 7.0 buffer solutions. The meter works well. Omega 
+is pretty well known in the process engineering field. I had checked on 
+their products on their website (www.omega.com) several weeks ago and found 
+a PID for $129, SSR & heatsink for $48, and thermocouple probe for $23.
+
+
+When they sent me the pH meter, they also included their new catalogs and I 
+found that some of the products I had priced out were no longer listed in 
+the new catalog.
+
+
+The PID unit most closely matching our price and performance demands had 
+changed to a model CN8591-DC1 with a price of $165. The SSR had changed to 
+model SSR240DC25 for $26 and heatsink FHS-2 for $17. The thermocouple 
+remained unchanged at $23 for model TTIN-18(U)-12. So this setup is going to 
+run $231 plus shipping.
+
+
+I just used my RIMS for the first time on Friday and it has just a manual 
+on/off switch controlling the heater element. Considering my temperature 
+loss coefficient of 0.14 degrees per minute and heating coefficient of 1.05 
+degrees per minute, I can manually maintain the desired temp every 10 or 20 
+minutes with a 1 or 2 minute flip of the heater switch.
+
+
+By the way, my thermometer is located in the return pipe exiting the bottom 
+of my tun and I did observe a one to two minute delay in the temperature 
+response after turning on the heater switch. I find that it is important to 
+know your system's heat response characteristics so that you know about how 
+long to energize the heater to get the proper temp rise without 
+overshooting.
+
+
+Considering that its probably unsafe to leave any RIMS unsupervised for a 
+significant length of time, I am not sure that a PID is really needed. Since 
+the cost of the PID system would just about double the cost of my RIMS, I 
+decided to delay adding it to my system initially. Now that I've actually 
+mashed with the unit, I'm pretty sure that the PID is not necessary. 
+Eventhough I'm a technogeek engineer and the cost is not really an issue, 
+the tightwad and pragmatist part of me says that the PID is probably not 
+going to happen. I recommend that you try your system manually before adding 
+that feature. I felt that I was more a part of the process, and the manual 
+temp control was not a hassle. If it had been, I would definitely be in 
+favor of the PID system.
+
+
+I hope this information is useful to anyone contemplating a temperature 
+controller for their RIMS.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+"Meandering to a different drummer"
+
+
+______________________________________________________
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 10:54:06 -0500 (EST)
+From: Alan McKay <amckay`at`magma.ca>
+Subject: Beautiful San Francisco
+
+
+
+
+Hey Folks!
+
+
+Still haven't hooked up with the fellows from the HBD who called me, but I
+will.  Our plane got delayed a couple of hours so we endedup getting in at
+midnight Friday.  Then Saturday was brutal from 9am til about 9pm straight
+through.  And today wasn't much better, but things are shaping up for the
+evenings this week.  I'm on a business trip to San Fran right now, and
+fortunately the people running the conference I'm at are supplying internet
+connections!
+
+
+Just got back from the Thirsty Bear Brewpub on Howard - managed to sneak out
+really quickly for almost 2 hours.  They've got about 10 or so really good
+beers.  Though the Brown Ale wasn't very brown at all, and the ESB was on Nitro,
+and I really dislike beers on Nitro.  The other two guys I was with each had the
+complete sampler, where I only tried the Brown, ESB and Pale Ale.  Actually, the
+Pale Ale was overhopped and out of balance.  The ESB was really quite
+spectacular if only they didn't have it on Nitro.
+
+
+Their food is ABSOLUTELY INCREDIBLE.  I had the grilled tuna - first time in my
+life I had real tuna that wasn't out of a can, and it was AWESOME.  Somewhat
+undercooked in the middle, but the folks there tell me that this is how it's
+most often eaten - and to be honest it was so incredible I didn't care in the
+least.  Served with sundried tomatoes and grilled green beans which where
+absolutely super.
+
+
+Been drinking a lot of Anchor.  The Steam on tap simply can't be beaten.  SNPA
+on tap is good, too, though I honestly can't really see what all the fuss is
+about.  Anchor Porter is very good.  SN Porter even better (wonderful nuttiness
+to it).  Red Hook ESB leaves a fair bit to be desired, but their Pale Ale is
+quite nice!
+
+
+All-in-all, a great trip so far beer-wise.  Though I'm really suprised at how
+expensive beer is here.  In a bar it's $5 US per beer - that's $7.50 CDN when
+I'm used to maybe $4 CDN for a good beer.  In the liquor store here in the
+Tenderloin district (gotta love a district named after a steak!) a six pack is a
+WHOPPING $10 US!!!  WOW!!! And people say that Americans don't homebrew because
+of price!  I find that hard to believe now.  Though the instructor in the
+seminar today did seem to believe that beer was much more expensive in San Fran
+than in most other places.  Back home a 24 of good beer is barely over $30, and
+here I just payed $30 (CDN) for 12 beer (6 Anchor and 6 SN).
+
+
+Anyway, that's all for now.  Won't likely be checking back in on y'all regularly
+til the 21st.  
+
+
+See you all then ...
+
+
+cheers,
+ -Alan
+
+
+
+
+- --
+                 "Brewers make wort.  Yeast Makes Beer."
+                       - Dave Miller's Homebrewing Guide
+http://www.bodensatz.com/
+What's a Bodensatz? http://www.bodensatz.com/bodensatz.html
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 10:53:50 -0500
+From: "Philip J Wilcox" <pjwilcox`at`cmsenergy.com>
+Subject: RE:Cask ale from a corny
+
+
+Micheal J asks about serving gravity feed from a corney, It can be done, but
+only on an open system. If you use co2 to fill the space and thus create a
+closed system, then you will only dispense at what ever you have your CO2 set
+at. I suppose you could start out with gravity by attaching a gass fitting the
+keg without the gas line, determine the speed of the pour then connect the
+fitting to the gas line and try to match it... I have seen Jeff Renner and Jason
+Henning try to play with hooking up an English hand pump with a CO2 bleed, it
+doesnt work all that well. It was disconnected and we drank that fabulous Mild
+all game long!! YUM!!!!  It can be done with the right parts and From what Jason
+said, but thats another investment....
+
+
+Has anyone put a party pig into a keg? That would work at least for a few
+gallons. I wonder if the restriction caused by the diameter of the keg being
+smaller than the pig would cause the bag to rupture? That wouldn't taste good.
+Would it bend the dip tupe too badly? If you connected 2 of them lengthwise
+could you dispense a whole keg? A stapler and some good aim could achieve that.
+
+
+Hey Jack here is a product opportunity. How about an oyygen barrier corney
+bladder? A corney volumed bag with a hard plastic tube you insert up the air
+line from inside the keg, the bag is fed through the plastic tube and then
+inverted over the threads of the keg. Then a mini dip-tube (same head size,
+diameter to fit inside pastic tube)is inserted into the bag and fits over the
+thread in order to match the thickness the of original dip tube. You then put
+the pin or Ball fitting back on the keg. You need the mini dip tube because many
+of the ball and pin lock fittings rely on compression fittings to make the
+poppet spring work.  You then have a closed system that you only need to add an
+extra air Pin/Ball fitting to too operate the system. Or I suppose you could
+remove the poppet all-together. But that is just asking for problems imho....
+this would be great for tailgaiting and such. They could even be re-used.  For
+those that are Oxygen paranoid, when you get home you could purge the bag by
+connecting the CO2 you the liquid line, this would keep the bag empty and the
+rest of the beer in the keg carbonated properly.  Interesting Idea eh. In fact
+upon reflection you dont need the replacement dip tubes If you can feed the bag
+up and invert it properly you could just use one of the short style coke ones,
+where they are wider than they are long.  Jack, I'll even give you permission to
+call it the Phil-Bladder. he he he (Just kidding Mr. Listerman) you or Lynn
+O'Conner or anyone else is more than welcome to manufacture this Idea... And if
+the party pig people are out there reading this, I want to know when were going
+to see 32" pig bags??????
+
+
+Phil Wilcox
+Poison Frog Home Brewer
+Warden-Prison City Brewers
+In Jackson, MI 32 Mi. West of Jeff Renner
+AABG, AHA, BJCP, HBD, MCAB, ETC., ad nausium...
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 11:15:11 -0500
+From: Marc Sedam <marc_sedam`at`unc.edu>
+Subject: low carb dieting
+
+
+I don't know why I feel sucked into this debate, but I do.
+
+
+One data point to ponder.  I went on the Atkins diet in
+conjunction with my yearly abstinence from booze during Lent
+(40 days long, for those of alternate faiths).  I dropped an
+extraordinary amount of weight (15lbs) and kept much of it
+off even after resuming a normal, healthy diet.  However, as
+soon as I resumed my truly normal, unhealthy diet it all
+came back with a vengence.  That is, however, to be
+expected.  Not drinking certainly helped, but I usually only
+have a beer a day so I don't think that had much of an
+effect.
+
+
+One other note that runs contrary to what others have
+posted.  The Atkins book states that you don't need to
+exercise on this diet.  Now, any diet that tells you
+exercise is not necessary should be viewed with extreme
+skepticism.  But I found out why--the diet leaves you with
+absolutely no energy for a serious workout.  I play
+competitive basketball regularly (it is Chapel Hill, after
+all) and discovered that the Atkins diet left me
+light-headed and lethargic after only 10 minutes of serious
+play.  Normally I play for about 90 minutes with no
+ill-effects.  I was totally worthless and felt like crap
+after only 15 minutes.  Even my sorry leaping ability was
+compromised, which, if you've seen me jump, is amazing in
+and of itself.  :-)  When I resumed a normal diet I quickly
+had the energy to sustain serious competition again.  It's
+the main reason I left Atkins dieting for good, although I
+think it's useful for a week at a crack to shed a few
+ill-placed pounds.  If you hate to exercise or just don't,
+it may be more your speed.  Oh, one other thing.  This diet
+makes you STINK.  Horrible breath, horrible BO, and the
+smell of excess nitrogen exiting your body is none to
+pleasant either.  Reason #2 to exit.
+
+
+Eat well and exercise will cure all woes.
+
+
+If I could only find a diet that would add 20" to my
+vertical leap, I'd be in heaven.
+
+
+Cheerios...no, wait...Atkins would say "Albumin!"
+Marc
+
+
+P.S.  To keep this post on proper topic, I'd just like to
+say that I really like beer!
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 11:08:59 -0600
+From: "Paul Niebergall" <pnieb`at`burnsmcd.com>
+Subject:  Lunacy
+
+
+Dave Burley writes:
+
+
+>In addition to Odd and Even numbered days
+>providing a good excuse to brew,
+>December 22, 1999 will be the first full moon
+>to occur on a Winter Solstice in 133 years
+>and will be the only one in the next 100 years
+>or so. 
+
+
+I don't know what planet Mr. Burley resides on, but here on earth, the 
+winter solstice will occur on December 21 and the full moon will be on 
+December 23.  At least that's what my calendar shows.  Of course Dave is 
+probably using some sort of calendar that only shows odd days.   Also, 
+considering that the winter solstice occurs on or around December 22 each 
+year and a lunar month is about 28 days long, you would expect to see the 
+this event to happen about once every 28 years or so.  BFD!
+
+
+Dave, are you just making this crap up (odd days, bazaar diet theories, 
+moon rituals following a pagan calendar) because you are bored?  Give it a 
+break already.
+
+
+
+
+
+
+Paul Niebergall
+Burns & McDonnell
+pnieb`at`burnsmcd.com
+"Illegitimis non carborundum"
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 12:07:13 -0500
+From: "Ludwig's" <dludwig`at`us.hsanet.net>
+Subject: Re: RIMS
+
+
+> >Nature of the RIMS. With a RIMS, you don't know whether you have
+> >homogeneous mash temperature (unless you use a mixer). My SHMS allows
+> >complete control over the mash temp with no question what the the mash
+> >temp is and also the temperature boosts are quick and precise.
+> 
+> With any system you don't know until you check. There seems to be a lot of
+> "This system is best" kinda thing going on in the RIMS thread. There are,
+> as the saying goes, many ways to skin the cat. And so many factors, can you
+> be *sure* that one way is better then others? I know enough about beer to
+> know that there is a hell of a lot more to know. All I can say about my
+> RIMS is that after much tinkering (which I enjoy) it makes fabulous beer
+> that I can reproduce easily.  It has strong points and weak points, but it
+> is reliable. I think the same could be said for any well constructed mash
+> system.
+
+
+I wasn't trying to say that my system "is best", although my choice of
+systems should give a clue which one I prefer. Just trying to point out
+what I think is a positive characteristic of the SHMS (mixer combined
+with a heat exchanger in the mash tun) and thought I'd point out an
+alternative mashing system considering the overwelming popularity of
+RIMS. 
+ And yes, if anyone thinks they have a good system or think they have
+the "best system" then, by all means, lets hear it!
+
+
+Dave Ludwig
+Flat Iron Brewery
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 12:14:12 -0500
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: hop tea pH/FWH IBUs/High Gravity
+
+
+George DePiro writes ...
+
+
+>When making hop tea, you can lower the pH of the mixture to minimize
+>isomerization  of the hop alpha acids.  Isomerization occurs much more
+>efficiently at higher pH, [...] (I wouldn't bother; I would just
+>not boil the tea for too long).  Lower pH may also reduce tannin
+extraction.
+
+
+I think you missed the point of pH adjustment George.   A lower pH (say 5.5
+rather than 7.5) for the hop tea boil is needed to prevent coarse flavors
+that arise from boiling hops at the higher pH.  [M&BS pp 490] "It is known
+that increasing the pH of beer produces a coarser bitter flavor ...".  My
+limited experience is that 'tap water' hop teas give a very coarse flavor
+and bittering - worthy of the drain.  Perhaps this is because at pH values
+above 6.0 the beta acids (undesirable) solubility increases by 10X per
+1.0pH - and these also isomerize and form compounds in the boil.
+- -----------
+As for the IBUs calculation of a FWH.  It has long been speculated that more
+IBUs can be lost if the hops are added before the break forms.  Break
+material does contain considerable hops resins.  Whether this has a
+significant impact on FWH IBU contributions I have no opinion, but would
+like to know.
+
+
+Dave Burley writes --
+>The smoother
+>taste of FWH beers, even at a higher IBU could
+>be due to the loss of these tannins which may
+>not react with other LMW albuminous proteins
+
+
+There are very good reasons to believe that the oxidized gallotannins of the
+hops have a higher affinity toward forming protein/tannin bonds (break
+material) than do the oxidized sweet wort phenolics.  That FWH is the flavor
+impact of removing more of the hops polyphenolics rather than those from the
+grist is an interesting idea.
+
+
+If this was the effect of FHW then we might expect that adding PVPP to a
+beer would have a similar effect  as FWHing.  And also that FWH would have
+less effect in a decocted wort !
+
+
+- -----------
+Bob Devine asks about high gravity brewing ...
+
+
+>Does anyone of a comparison study that shows the effect of
+>high gravity fermentation compared to constant gravity?
+>
+>In my home brewing I find that higher gravity will have
+>increased ester production but lower hop efficiency.
+
+
+HG brewing is well known to decrease head, tho' the reasons aren't simple.
+Hops IBU extraction is reduced in an HG boil. As you suggest the major
+impact is on yeast performance.
+
+
+ Ludwig Narziss in a Brauwelt article considers HG brewing and makes a list
+of differences.  The major ones are increased levels of acetaldehyde, SO2
+and 2-acetolactate.  LN. finds higher ester levels in the HG beer - but once
+diluted to the same gravity the levels are similar.  Slight increase in
+fusels too.  The suggestion is for a good aeration/oxygenation program, to
+use a "high performance" yeast and to lower the wort pH to 4.9 to 5.0 before
+pitching.  There are many positive results of the acidification.   Narziss
+defines 14.5P to 16P (1.058 - 1.064SG) as HIGH GRAVITY.  This appears to
+correspond with other high gravity commercial brewing.
+
+
+ -S
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 12:24:53 EST
+From: MaltHound`at`aol.com
+Subject: re: RE: RIMS
+
+
+In HBD #3191 rlabor`at`lsumc.edu (LaBorde, Ronald) asks:
+
+
+"This has me really wondering, how many of you RIMS'ers really know what the
+temperature of  your mash is at.  Most seem to use a sensor at the outflow
+point of the heat exchanger.  But, this is a long way from sensing the mash
+temperature.  How many sense the mash exit temperature?... All the PID's in 
+the world cannot keep the mash within 1 degree F if the sensing is at the 
+exchanger outlet."
+
+
+I would disagree with Ron's assertion that you have to get your controller 
+feedback from the heater supply flow and actually have found that this causes 
+more inconsistency of temperature.
+
+
+When I first built my ERIMS (Electric Recirculating Infusion Mash System) I 
+had the thermistor temperature sensor in the wort flow at the mashtun outlet, 
+i.e. before the heater chamber.  This caused some serious  problems with 
+control of the temperature.  I determined it was due primarily to this time 
+lag for the heat to transition through the bed and hence to the sensor.  This 
+was causing a slow temperature oscillation where the wort could be overheated 
+and even the rest temperatures were never as stable as I would have liked.
+
+
+What we are trying to do is contol the mash enzymes activity via temperature 
+manipulation.  Considering that the majority of the enzymes are in the liquid 
+part of the mash, it seems most important to control the temperature of that 
+fraction.  Eventually, temperature equilibrium of the entire mash will be 
+achieved if the appropriate temperture wort is continually pumped through the 
+grain bed.
+
+
+To correct my problem I built a thermistor probe which is installed directly 
+in the wort return flow manifold *after* the heater.  In this configuration, 
+as the temperature of the heater supply flow changes the controller uses more 
+or less power to maintain a steady return flow temp. The heater controller 
+now effectively controls the temperature of the wort return temp within a few 
+tenths of a degree F.
+
+
+As I mash, I put my digital thermometer probe into the bed itself, so what I 
+am monitoring is the mash temp.  It's just the heater control that uses the 
+thermistor feedback.
+
+
+  There is still a certain amount of delay for any increase in temperature 
+(temperture ramps) to fully transit through the grain bed, but I think this 
+is just a fact of life and not to be worried about.  The key thing is that 
+the mash profile is repeatable and consistent.  I think the best solution 
+would be to create a dual sensor circuit that would control the wort exit 
+temperature *and* shutdown the heater when the mash itself reaches optimum 
+temp.  
+
+
+One thing that makes a difference here is the grain bed depth.  IMO, 
+shallower grain beds are better for RIMS in all regards.  The tough thing is 
+maintaining a shallow grain bed when mashing ~20 lbs or more for 10+ gallon 
+batches.  Even my 45 Qt. rectangular cooler w/ manifold mashtun gets pretty 
+full and the bed depth is ~10 inches.  
+
+
+Okay, one final question.  Anyone that made it this far into my post must be 
+interested in this whole RIMS thing.  I mentioned it in a previous post but 
+nobody bit on it.  Why is it exactly that people think it is so critical to 
+change the mash temps rapidly?  Have any definitive tests been done that 
+support these theories?
+  
+Fred Wills
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 09:41:33 -0800
+From: "jim williams" <jim&amy`at`macol.net>
+Subject: cask breather for corny??
+
+
+all this talk about cask ale in  a corny got me thinking (again) about the
+possibility of a breather for a home set up. Does one exist? Can one be
+rigged? What about Jack Schmidling, Dan Listerman and all you other homebrew
+genius gadget riggers? Any ideas? If someone can design, build and sell a
+cheap one, I'm sure interest in cask ale in this country's homebreweries
+would go through the roof!!! Come on, guys, get to the drawing tables!!
+
+
+jim
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 12:59:51 -0500
+From: "Charles E. Mryglot" <cmryglot`at`progress.com>
+Subject: DoppleBock, sparging and attenuation
+
+
+I was re-reading Richman's book on Bock and a couple of points came to mind:
+
+
+1. Attenuation/Aeration. Somewhere in the section on fermentation there is a
+passing remark that these beers are well aerated prior to pitching...but no
+mention of process/procedure or to what degree.   I had a bottle of Salvator
+and measured it's gravity at about 1.016.  I read that the starting gravity
+is about 1.075.   This would lead to an apparent attenuation of about 79%.
+None of the available lager yeasts claim attenuations this high.   Is
+aeration alone the factor in achieving such high attenuation?
+
+
+
+
+2. Sparging. The sparging technique described in the book is different than
+what I believe most of us use.   Here he describes first doing a recycle on
+the mash and draining the tun. Then adding 45%(I might have this % wrong) of
+the sparge water... recycle and drain, add 30% sparge... recycle and drain
+and add the remainder and recycle and drain.  (Reminds me of the technique
+for making a small beer from the 2nd runnings).   He points out that you get
+a more efficient extraction ...but does not quantify.   Does any one else
+use this technique?   any info on improved extraction?
+
+
+Regards
+ChuckM
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 12:51:57 -0600
+From: "Kelly" <kgrigg`at`diamonddata.com>
+Subject: RE:calories ain't caloriesq
+
+
+As far as I know...ONLY muscle burns fat...nothing else....fat doesn't burn
+itself.....
+:-)
+
+
+Kelly
+
+
+- ---------------------------------
+You said:
+
+
+Pound for pound, muscle
+
+
+burns three times the calories as the same
+weight of fat. Higher % muscle = higher
+metabolism rate  Weight training is important.
+Just walking or running is not so important to
+
+
+muscle building, although it does not hurt
+to have a healthy cardio-vascular system.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 13:02:56 -0600
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: Hugh Baird going going gone?
+
+
+From: "Mercer, David" <dmercer`at`path.org>
+
+
+>My local homebrew shop is buying up sacks of Hugh Baird malt because, the
+>owner tells me, they are pulling out of North America and will no longer be
+>available in the US or Canada.
+
+
+Could be, last time I went to purchase some British malt, I noticed the
+grain sack said American malt!  I questioned the store owner and she said
+"Oh yeah, our supplier sent us this by mistake, but we tried it out and it
+is very good - just like British malt".  So if you are prone to jumping to
+wild conclusions, you could jump on this one.  It may be the clue that your
+shop owner knows of what he speaks.
+
+
+P.S. I went ahead and brewed with it, sitll in fermenter, but mashed and
+converted in about 40 minutes at 149F in my HERMS.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 12:52:56 -0600
+From: Midwest Brewer <mgeorge`at`bridge.com>
+Subject: Calories, Carbs, Beer, Etc.
+
+
+I've been reading the latest threads on carbohydrates, calories, etc.
+and weight gain.  I think the one thing that is missing here is
+metabolism.  I can't recall the source (UNQUALIFIED STATEMENT ALERT!!!)
+but I do remember reading that alcohol also inhibits the metabolism rate
+of the body, which is a key player in how much of your caloric intake
+your body can burn.  I've seen people that drink regularly that don't
+pack on the pounds and on the other scale, people who are moderation
+drinkers who stretch their size 36 waist pants to the limit (I'm one of
+those).
+
+
+As for those low / no carbohydrate diets...personally it doesn't make a
+whole lot of sense to me.  Your body needs carbs to survive - any
+nutritionist worth their salt should be able to tell you that.  Just
+allowing yourself the fat laden burger but not the bun doesn't make much
+sense at all.  A lower fat well balanced food program and moderate
+exercise diet is likely to yield better results than one that is just
+low in carbohydrates.  I have a nephew who is a classic example of this
+ - he works out (but not obsessively), eats in moderation and watches
+what he eats.  He's in great shape.
+
+
+A final observation:  Perhaps the HBD server fund could be subsidized a
+bit by all the FREE ADVERTISING that has been going on here lately.  You
+people know who you are...
+
+
+MWB
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 13:49:05 -0600
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RIMS
+
+
+Fred Wills comments:
+
+
+> would disagree with Ron's assertion that you have to get your controller 
+>feedback from the heater supply flow and actually have found that this
+causes 
+>more inconsistency of temperature.
+ ...snip...
+>I determined it was due primarily to this time 
+>lag for the heat to transition through the bed and hence to the sensor.
+This 
+>was causing a slow temperature oscillation where the wort could be
+overheated 
+>and even the rest temperatures were never as stable as I would have liked.
+
+
+This time lag is precisely the subject we are concerned with.  You can view
+the time lag several ways, one, as a time lag, but another way to view it
+would be a temperature differential.  I am suggesting that by using the
+liquor input temperature to control your mash temperature boosting may be
+misleading you into thinking you are at a certain temp for X minutes, and in
+reality, you are way off the mark.
+
+
+ ...snip...
+>Eventually, temperature equilibrium of the entire mash will be 
+>achieved if the appropriate temperture wort is continually pumped through
+the 
+>grain bed.
+
+
+Yes, but eventually would not be my first choice!
+
+
+>To correct my problem I built a thermistor probe which is installed
+directly 
+>in the wort return flow manifold *after* the heater.  In this
+configuration, 
+>as the temperature of the heater supply flow changes the controller uses
+more 
+>or less power to maintain a steady return flow temp. The heater controller 
+>now effectively controls the temperature of the wort return temp within a
+few 
+>tenths of a degree F.
+
+
+You have a steady return flow temp, what I would like is a more even and
+known mash temp.
+
+
+ ...snip...
+>There is still a certain amount of delay for any increase in temperature 
+>(temperture ramps) to fully transit through the grain bed, but I think this
+
+
+>is just a fact of life and not to be worried about.
+
+
+Oh, here is where I have gone astray, I musta been worried!  :>)
+
+
+>The key thing is that 
+>the mash profile is repeatable and consistent.  I think the best solution 
+>would be to create a dual sensor circuit that would control the wort exit 
+>temperature *and* shutdown the heater when the mash itself reaches optimum 
+>temp.  
+
+
+So we can agree sometimes.  Fortunately for me, because I do not want to
+come off seeming like an argumentative malcontent.
+
+
+>One thing that makes a difference here is the grain bed depth.  IMO, 
+>shallower grain beds are better for RIMS in all regards.
+
+
+I agree, and here is where I may someday just have to give up my insulated
+Igloo.  The diameter is much smaller than it would be with a half barrel
+keg, and so is the mash screen.  I wonder if going to a keg, and loosing the
+insulating aspect of the Igloo would be a good trade off.  I think ample
+wort flow is the ultimate objective.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 15:04:17 -0500
+From: "Alan Meeker" <ameeker`at`welchlink.welch.jhu.edu>
+Subject: NA beer and calories
+
+
+Ron LaBorde wrote:
+
+
+>I for one do think that Dave's message on beer and dietary concepts, to use
+>an old hackneyed phrase, 'hit the nail on the head'.
+
+
+Seems more like "Hit his head on a nail!"
+
+
+
+
+>Answer this: If Ethanol has most of the calories, why does non-alcoholic
+>beer still have about the same calories as regular?
+
+
+Wow, good question! Are they really the same? There is quite a range of
+caloric value to beer. Where do most NA beers clock in?
+
+
+A typical pint of beer has from 10 - 20 grams of ethanol in it. According to
+Dave Burley, beer has 5 grams of carbos and regular beer about 12 grams
+which sounds reasonable (though at this point I'm about ready to consider
+/anything/ Dave says suspect until independently verified!!) At any rate, if
+these figures are correct then one can expect there is at least as much
+ethanol as carbohydrate in a beer (on a per weight basis) and since ethanol
+has a higher caloric content than does carbohydrate (also on a per weight
+basis) ethanol will usually comprise >50% of the total calories derived from
+beer consumption.
+
+
+I don't know the answer to your NA beer question. Perhaps there are more
+carbohydrates in NA beer and this makes up for the "missing" calories
+normally derived from ethanol?
+
+
+Since fat in beer is negligible the only real sources of calories are coming
+from carbohydrates and ethanol. The total calories will be utilizable
+calories from carbohydrate + utilizable calories from ethanol.Obviously, you
+can keep the same total caloric content by increasing one of the sources
+while the other decreases.
+
+
+ -Alan Meeker
+Baltimore, MD
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 15:41:40 -0500
+From: "Vinbrew Supply" <devans`at`greenapple.com>
+Subject: Hugh Baird going?
+
+
+Only thing I have heard was that Hugh Baird is now owned by Moray
+Firth(actually they merged) who owns Beeston. Talking with the lady from
+consolidated beverage(the distributor of Beeston)she said Baird is having
+problems with the supplier of the Hugh Baird Malt. (or something to that
+effect)I told her of the "rumor" of Baird being pulled out of the states and
+she more or less said Yup! Especially in California. (she also said her
+information is from hearsay no factual proof has been presented to her)
+Perhaps they are going to be pushing the Beeston.  A rather fine grain in
+itself. Now she did say that most people have been very pleased with the
+Beeston line of Crystal as a subsitute for Hugh Bairds. If you have never
+tried the Beeston line, I encourage you too.  It is top notch.
+
+
+The person who would really know somthing would be Mid America Brewing in
+Min.  As they distribute Hugh Baird
+
+
+Doug
+Vinbrew Supply
+1-800-905-9059
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 13:13:05 -0800 (PST)
+From: "Mark E. Hogenmiller" <hogenmiller`at`yahoo.com>
+Subject: Irish Red Recipe Wanted
+
+
+Does anyone have a All Grain Irish Red or John Courage
+Amber Clone?  A review of the Cats Meow and others
+reveals little.  I suspect this is because it is not
+an AHA recognized style.  Private E-mail is fine.
+ 
+Mark Hogenmiller
+Merrimack Valley Brewer in Exile
+Patuxent River, MD
+hogenmiller`at`yahoo.com
+
+
+
+
+__________________________________________________
+Do You Yahoo!?
+Thousands of Stores.  Millions of Products.  All in one place.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 14 Dec 1999 08:15:11 +1000
+From: smorgan`at`expressdata.com.au
+Subject: re coopers sparkling ale
+
+
+
+
+
+
+afternoon
+
+
+for the coopers speakling ale use the franklins malt...schooner is for largers.
+
+
+the white labs yeast for the job i have seen at ESB brewing in randwick nsw,
+www.esb.net.au.
+
+
+is the criticism at using POR hops for flavouring directed at the major
+Australian brewers??
+
+
+I dare you to try and make a copy of the coopers strongt ale....let alone try
+and buy it!
+
+
+scotty
+
+
+smorgan`at`expressdata.com.au
+
+
+
+
+
+
+
+
+======================================================================
+Visit the Express Data Web Site - http://www.expressdata.com.au
+for pricing, product information and order status information.
+
+
+This email is confidential. If it includes quoted prices, unless
+otherwise stated, validity is 14 days from the date of this
+message. Sales tax, GST and delivery charges are excluded
+unless noted. Acceptance of any quotation or order is subject
+to Express Data's usual terms and conditions of sale.
+
+
+Express Data has implemented anti-virus software, and whilst
+all care is taken, it is the recipient's responsibility to ensure
+that any attachments are scanned for viruses prior to use.
+
+
+This email message has been swept by MIMEsweeper.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 16:25:41 -0500
+From: "gdepiro" <gdepiro`at`mindspring.com>
+Subject: cask ale in general and in cornies
+
+
+Hi all,
+
+
+I serve cask beers every weekend at the brewpub.  The first time we did
+this, we didn't know how it would sell, so I just made up 10 gallons in a
+couple of cornies.  I didn't bother with CO2 at all (CAMRA would be
+pleased).  I simply put a gas out fitting on the gas side, with a piece of
+cotton stuck into the hose barb (we had a fruit fly problem when we first
+opened; I didn't want them to have access to the beer!).  The liquid end was
+hooked up to the handpump and voila, cask beer!
+
+
+I have found (by accidental experimentation) that a nearly empty cask of
+beer will age quite nicely, even with no blanket CO2, if it is kept cold
+when not being served.  To my great surprise, I have found that the hoppier
+beers taste "rounder" after being aged 1 week at 42F in the presence of air
+(soft spile in firkin). The downside is that the beer is also almost
+completely flat, but a sparkler on the handpump can be used to muscle a head
+out of it.
+
+
+The moral of this story is that if you think you'll finish the beer in a
+week or so, just try keeping it cold between sessions and don't bother with
+CO2.  You may like how the beer ages.  Of course, the beer will be too cold
+for the first hour or so, which may be annoying.
+
+
+As for dry hopping cask beers:  I usually use pellets, which I put in a
+homebrew-size hop bag.  None of the hop material escapes into the beer, but
+utilization of the hops is less and getting the bags out of the firkins is a
+real pain in the butt.  You could do the same thing in a corny keg and be
+able to easily retrieve the hop bag.
+
+
+I have used homegrown, whole , fresh hops in a couple of firkins.  These
+need not be put in a bag because the firkin tap has small holes that will
+prevent them from getting into the customer's glass.  The cones remained
+remarkably intact, anyway (I guess because I didn't dry them first).  They
+were kind of a pain to get out of the firkin, too.
+
+
+You could use whole hops in a corny keg and simply tie a hop bag around the
+bottom of the liquid out tube (which would be the CO2 in tube if you are
+dispensing from the corny by gravity).
+
+
+Have fun!
+
+
+George de Piro
+C.H.Evans Brewing Company at the Albany Pump Station
+(518) 447-9000
+
+
+Malted Barley Appreciation Society Homebrew Club
+http://hbd.org/mbas
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 16:11:36 -0600
+From: bergbrew`at`juno.com
+Subject: RE: Hugh Baird going going gone?
+
+
+I too, heard the rumor and immediately called Great Western (the US
+Distributor) to get the 411.  Here's the scoop:
+
+
+Hugh Baird *is* oversold, however, they are going to continue to supply
+the US and are going to ship unmalted two-row to GW for Crystal malt
+production.  Not much different from when they were producing it in
+Belgium.  The process will be overseen by Hugh Baird maltsters.  So, fear
+not, Hugh Baird will still be around.
+
+
+
+
+David Berg  
+
+
+___________________________________________________________________
+Why pay more to get Web access?
+Try Juno for FREE -- then it's just $9.95/month if you act NOW!
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 16:28:27 -0600
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: RIMS
+
+
+        Fred asks:
+
+
+        Okay, one final question.  Anyone that made it this far into my post
+must be 
+        interested in this whole RIMS thing.  I mentioned it in a previous
+post but 
+        nobody bit on it.  Why is it exactly that people think it is so
+critical to 
+        change the mash temps rapidly?  Have any definitive tests been done
+that 
+      support these theories?
+
+
+Good question, and one that could probably have many answers, but I will
+take a stab at it.
+
+
+My first guess is that it would be more consistent, that is, if someone
+publishes a recipe for a certain temp profile, it would be best if it could
+be reproduced by others with the same timing.  Of course, how can one
+accomplish this temp profile to begin with.  Well, large breweries,
+classical breweries, and infusion techniques have established temp profiles,
+and when we try to imitate or reproduce some of these beers, we would like
+to be able to better control the temp profile in such a way as to let us
+achieve the desired results.  It may be that some other techniques or
+different recipe could produce a good imitation of a classic beer, but as a
+starting point, I would think we want to keep our options and flexibility
+open.
+
+
+Second, if we want to be at a certain  x temp for x minutes, then ramp up to
+x2 temp and hold for x2 minutes, then we must think of a slow ramp as
+pollution, noise, and  unwanted side effects.  If it takes 15 minutes to get
+to x2, then how long are we at x?
+
+
+Third, any delay ramping up adds time to our brew length, although immensely
+enjoyable to myself, a bit less to others perhaps, (my wife, the lawn, the
+painting projects, the new brewing rig additions,,,).  So any reduction in
+brew length allows more brews/lifetime.  If you ramp up to mashout, this is
+a second delay that must be added to the total waste.
+
+
+In reality, I really think it does not matter much, I have used and abused
+many recipes, and have never made a beer I did not like, just one, when I
+added 750 ml of anise liquor to a wheat beer.  I got my liquorice taste
+alright, but I found out I was not as fond of liquorice as I had previously
+imagined.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 19:08:45 -0500
+From: Jim Liddil <jliddil`at`vms.arizona.edu>
+Subject: rims and running
+
+
+
+
+Ronald La Borde asked:
+
+
+>This has me really wondering, how many of you RIMS'ers really know what the
+>temperature of  your mash is at.  Most seem to use a sensor at the outflow
+>point of the heat exchanger.  But, this is a long way from sensing the mash
+>temperature.  How many sense the mash exit temperature?
+
+
+For me I thought about using multiple temp probes.  I set my system up and
+put foam insulation on all the pipe and tubing.  I also insulated the mash
+tun (stainless pot) and use a one inch piece of polystyrene on the lid.  I
+then checked the mash temp compared to the reading on the PID and they were
+in sync.  I have kept my pipe runs short and I preheat my water to strike
+temp prior to adding the grain.  I really have no problems with temp lag,
+but I also only do five gallon batches.
+
+
+I think reverse rims could work but I'm not an engineer and just getting a
+RIMS setup and working smoothly was enough of a time consumer. And besides
+it works great.  I never get compacted beds as long as I am careful about
+opening and closing valves in a smooth fashion.  But I must say I still
+love my JS Easymasher for it's pure simplicity and bombproofness.
+  
+I love how Dave B. skirts the running/carb/kenyan issue.  As a scientist
+and runner who has run his fair share fo 15k, half and marathons over the
+years, and also read a great deal of excercise physiology journal articles,
+I must say I find what he said unsupported by anything I have ever read or
+experienced (n=1).  But then again I assume Dave is a marathoner who has
+managed to run PRs every year. :-)
+
+
+> Low carb diets stress a high protein intake
+> so that you will be able to build muscle 
+> 
+> during the diet and end up with a higher
+> metabolism rate per body pound at the
+> you finish this diet
+
+
+Excess protein leads to it being dumped into the urine if you are not
+utilizing it all
+
+
+> Exercise during dieting is not to burn extra
+> calories as is so often quoted, but to build
+> muscle
+
+
+Damn, you mean I was supposed to get big muscles running 50+ miles a week.
+:-)
+And have you  done the calculations to see how many calories you burn when
+you run vs weight training?  And who has a higher sedontary metabolism?
+I'll except journal references.  And I know weihg training is important to
+maintain muscle mass as we age and can improve running performance.  But
+marathon runnners don't want a Michael Johnson build.
+
+
+
+
+Oh and so this has a beer mention, I'll bring up Hashers, the "Drinking
+Club with a Running Problem" 
+Ducking and running
+
+
+Jim
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 19:23:22 EST
+From: "Gary Barbatelli" <garybarbatelli`at`hotmail.com>
+Subject: re: Hugh Baird going, going, gone
+
+
+The Brewer's Outlet in West Palm Beach is a distributor of Pauls malts from 
+the UK. Today the owner commented that Pauls was pulling out of the US 
+market because they could sell their entire production in Europe. Maybe 
+there's something to it. The Briess 2-row Pale Ale malt is okay though. 
+Cheers
+
+
+______________________________________________________
+
+
+
+
+------------------------------
+
+
+Date: Mon, 13 Dec 1999 21:02:59 EST
+From: JohnT6020`at`aol.com
+Subject: Re: Evil of carbs
+
+
+Flossmoor IL  99-12-13 `at` 1955 CST
+
+
+The fattening power of any food [drink] is the calories.  Normal beer has 
+only a few carbohydrates; its calories come from the EtOH.
+
+
+Near beer may have a significant load of calories from carbohydrates.
+
+
+Neither fat not protein contribute any significant calories to beer.
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3194, 12/14/99
+*************************************
+-------

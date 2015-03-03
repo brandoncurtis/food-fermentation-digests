@@ -1,0 +1,829 @@
+﻿Date: Sat, 15 Mar 2003 00:36:54 -0500
+Subject: Homebrew Digest #4196 (March 15, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4196                             Sat 15 March 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Example Batch Sparging method (John Palmer)
+  re. White Labs Pitchable Yeast Claims ("John Misrahi")
+  Boiling hops in water ("Spencer W. Thomas")
+  Thoughts on peppers ("Franklin, Victor E")
+  single-step vs. multi-step mash? (Mark Beck)
+  RE: Is Dry Ice Filthy? ("Mike Sharp")
+  RE: Food Barley (Michael Hartsock)
+  RE: Hops and head (Michael Hartsock)
+  Iodine based sanitizers (Michael Hartsock)
+  out of style (ensmingr)
+  refractometer recommendations for beermaking??? (Donald Hellen)
+  Water Analyses ("Martin Brungard")
+  Actual Guinness Ingredients ("Ryan and Shelly Furstenau")
+  Re. Burton Water Profile ("John Palmer")
+  re: batch sparging (Rama Roberts)
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* The HBD Logo Store is now open!
+* http://www.cafeshops.com/hbdstore
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 13 Mar 2003 22:52:10 -0800
+From: John Palmer <jjpalmer`at`altrionet.com>
+Subject: Example Batch Sparging method
+
+
+
+
+From: John Palmer <jjpalmer`at`altrionet.com>
+Date: Thu Mar 13, 2003  10:45:19 PM America/Los_Angeles
+To: post`at`hbd.org
+Subject: Example Batch Sparging method
+
+
+From: John Palmer <jjpalmer`at`altrionet.com>
+Date: Thu Mar 13, 2003  10:20:54 PM America/Los_Angeles
+To: post`at`hbd.org
+Subject: A suggested procedure for batch sparging.
+
+
+Michael asked for some explanation on batch sparging technique, so I am 
+copying this excerpt from my book here. Accordingly, I need to note 
+that this excerpt is from How To Brew, 2nd Edition, Defenestrative 
+Publishing Co, 2001 and that I am maintaining my copyright. Since I 
+don't have the rest of the text from Chapter 18 here, I want to note 
+that the equations shown below for batch (and no-sparge) brewing were 
+developed by Ken Schwartz and that he has a writeup and a spreadsheet 
+available at his site:
+http://home.elp.rr.com/brewbeer/files/nbsparge.html
+
+
+(from pages 220-222 of How To Brew)
+For example, here is a comparison of the standard 5 gallon recipe 
+(continuous sparging) and the batch sparge and no-sparge recipes for 
+the Tittabawassee Brown Ale you brewed for your first all-grain batch:
+Grainbill          Standard       Batch        No-sparge
+pale ale malt       7 lbs.        7.6 lbs.      8.5 lbs.
+crystal 60 malt     1 lbs.        1.1 lbs.      1.25 lbs.
+chocolate malt      .25 lbs.      .3 lbs.       .5 lbs.
+Total weight        8.25 lbs      9.0 lbs.      10.25 lbs.
+Total mash volume   3.75 gal      4.9 gal.      8 gal.
+
+
+Each method produces the same 6 gallons of 1.041 wort. The obvious 
+difference is the size of the mash: 4.9 for batch sparge and 8 gallons 
+for no-sparge, versus 3.75 gallons for the continuous sparge. You will 
+probably need a bigger mash tun for these methods.
+
+
+Batch Sparge Recipe Calculations:
+Batch sparging works best when two sparge volumes of the same size are 
+combined to create the wort. To keep the process simple, we want the 
+first sparge volume to be what we get when we simply drain the mash. To 
+do this, we need to calculate the optimum mash ratio that will give us 
+that volume, including the water that will be absorbed by the grain. 
+Then the batch sparge brewing process becomes as easy as conducting the 
+mash, draining the first runnings to the boiling kettle, adding an 
+equal volume of sparge water back to the mash, draining again, and 
+boiling!
+
+
+First, let's define the terms in the equations:
+Inputs:
+OG:      Standard recipe original gravity (just the points part i.e. 
+1.049).
+Gr:      Standard recipe grainbill (total pounds).
+Vr:      Standard recipe batch size (e.g., 5 gallons).
+Vb:      Standard recipe boil volume (e.g., 6 gallons).
+Calculation Coefficients:
+k:      Water-retention coefficient (0.5 quart per pound)
+Outputs:
+W:      Batch sparge water volume (quarts).
+Rb:     Batch sparge mash ratio (quarts/lb.).
+S:      Scale-up factor for grainbill.
+Gb:     Batch sparge grainbill (total pounds).
+Vm:     Volume of water for the mash (quarts).
+BG:     Boil gravity (points).
+BG1:    Gravity of the first runnings (points).
+BG2:    Gravity of the second runnings (points).
+Vt:     Total volume of the mash (quarts).
+
+
+1.   Decide how many gallons of wort you will boil to achieve your 
+recipe volume and thus your sparge volume (e.g. Vb = 6 gallons).
+       W = Vb/2      (3 gallons i.e., 12 quarts)
+2.   Calculate the optimum batch sparge mash ratio.
+       Rb = (Vb + (Vb^2 + 2k*Vb*Gr)^.5)/Gr   (1.85 qts/lb.)
+       = (6 + (36 + 1*6*8.25)^.5)/8.25 = 1.848
+3.   Calculate the scale-up factor.
+       S = 1/(1 - k^2/Rb^2)      (1.08)
+4.   Calculate the batch sparge grainbill.
+       Gb = S*Gr      (8.9 or ~9.0 lbs.)
+5.   Calculate the volume of water for the mash.
+       Vm = Rb*Gb = W + k*Gb      (16.6 quarts)
+6.   Calculate the gravity of the first runnings.
+       BG1 = 4*S*Vr*OG/Vm      (1.064)
+7.   Calculate the gravity of the second runnings.
+       BG2 = 4*Vr*OG*(k/Rb)*(1 - (k/Rb))/(Gr*(Rb - k)) (1.017)
+8.   Verify the combined boil gravity and recipe gravity.
+     BG  = (BG1 + BG2)/2  and  OG = BG*Vb/Vr   (1.040 and 1.049)
+9.   Calculate the total batch sparge mash volume (quarts). The volume 
+of 1 pound of dry grain, when mashed at 1 quart per pound, has a volume 
+of 42 fluid ounces (1.3125 quarts or .328 gallons). Higher ratios only 
+add the additional water volume.
+     Vt = Gb(1.3125 + (Rb - 1))  (19.5 qts. i.e., 4.9 gallons)
+
+
+John Palmer
+john`at`howtobrew.com
+www.realbeer.com/jjpalmer
+www.howtobrew.com - the free online book of homebrewing
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 08:43:03 -0500
+From: "John Misrahi" <lmoukhin`at`sprint.ca>
+Subject: re. White Labs Pitchable Yeast Claims
+
+
+I have seen all of the bickering over 'pitchable' yeast lately. People have
+complained that White Labs supposedly states their yeast is pitchable for
+any 5 gallon batch, without a starter, and that they are misleading people.
+However,
+
+
+I have a pamphlet caled "White Labs Beginning Yeast Basics" which states,
+
+
+"If more than a pint starter is desired for pitching (for beers over 1.070
+Original Gravity, COLD FERMENTED LAGERS, or homebrewers wanting a faster
+fermentation), a 1-2 liter starter can be made in just one day".
+
+
+So they don't claim you can cold pitch a tube into 5 gallons of fermentation
+temp lager.....
+
+
+I just thought someone should point this out. I'm a happy White Labs and
+Wyeast customer. I use dry yeast too when it strikes my fancy ;-p
+
+
+John Misrahi
+Montreal, Canada
+
+
+ [892, 63] Apparent Rennerian (km)
+
+
+"Actually John it uses a very complex algorithm to determine your average
+time between "Generate" clicks, and from that can it figures out how drunk
+you are, and what styles of beer you prefer.  Obviously, you prefer obscure
+Belgians!" - Drew Avis
+
+
+Seen on a tee shirt - "The internet is full. Go away!"
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 10:27:55 -0500
+From: "Spencer W. Thomas" <spencer`at`umich.edu>
+Subject: Boiling hops in water
+
+
+My good friend Jeff says that he's had good success boiling hops in 
+plain water.  I must respectfully report the opposite.  I tried it 
+once.  That was enough.  My attempt resulted in a green, grassy-tasting 
+(and somewhat bitter) water.  My tap water has a fairly high pH (8 - 
+9).  Without some acidification, all sorts of nasty tannins and other 
+flavors are extracted from the hops along with the desired bitterness.  
+A bit of malt extract brings the pH down to a more reasonable number and 
+prevents this problem.
+
+
+=Spencer in Ann Arbor, MI
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 11:17:12 -0600
+From: "Franklin, Victor E" <Victor.E.Franklin`at`bankofamerica.com>
+Subject: Thoughts on peppers
+
+
+Although this is a little tardy I feel compelled to chime in on this.
+
+
+A couple of years ago I made a pepper beer my friends still talk 
+about on occasion. They absolutely loved it. The beer was a very 
+simple amber recipe that I added the jalapenos to.
+
+
+I have had pepper beers before that had an overpowering pepper 
+flavor or nose to them. The beers seemed to be more pepper than beer.
+  I wanted to avoid this.  My objective was to avoid damaging the good 
+beer flavor, like over-hopping a beer would. 
+
+
+So in my thoughts I likened hopping addition times and the effects on the
+ flavor, the nose impact this has, and jalapeno additions. Why wouldn't
+ jalapeno additions be the same?  I am sure the process is different but 
+I couldn't find anything in the HBD about it at the time. I think the 
+process worked.  (Although I can't be sure as I didn't put any jalapenos 
+in another batch in the fermentor) The beer seemed to have a low pepper-nose
+ to it with a warm back-end.  If I drank 3 of them it would start getting warm. 
+
+
+Here is what I did:
+I used 6 small jalapenos cut in half and cleaned. I then browned them on a 
+skilled (I like to eat 'em like this raw sometimes) and dropped them in 
+the boil... for 50 minutes.
+
+
+Has anyone had experience with adding jalapenos to the begging of a boil 
+on one batch and to the fermentor on another?
+If so, was there any difference between the two?   
+If this were true it would be a great way to balance the heat vs. nose effect.
+
+
+In the end I would always suggest being conservative on jalapeno additions. 
+I figure it is easier to add more later than to try and take some
+ of the heat/ smell out. 
+
+
+
+
+Victor Franklin
+ Phoenix, AZ 
+Already in the 80's :-)
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 09:35:54 -0800
+From: Mark Beck <beckmk`at`whitman.edu>
+Subject: single-step vs. multi-step mash?
+
+
+I'm a relative newbie to all-grain brewing, and so far I've made some IPA's 
+using single-step infusion mashes (a couple of which have turned out pretty 
+darn good!)  However, soon I hope to brew a Belgian Triple, and I'm 
+contemplating using a multi-step mash.  I plan to use a pilsner malt.
+
+
+In the Classic Beer Styles on Belgian Ales, it says that the recipes are 
+calculated for a single-step infusion mash "for simplicity", or something 
+like that.  However, in the chapter where brewing details are given, a 
+multi-step mash is described.
+
+
+So: Do I need to do a multi-step mash?  What are some possible differences 
+in flavor, attenuation, etc.?
+
+
+Any hints on brewing a Triple would be appreciated.
+
+
+Mark Beck
+Walla Walla, WA
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 09:47:07 -0800
+From: "Mike Sharp" <rdcpro`at`hotmail.com>
+Subject: RE: Is Dry Ice Filthy?
+
+
+"FLJohnson`at`portbridge.com" wonders if Dry Ice Is Filthy?
+
+
+The dry ice I've bought was made on the spot, in a wooden box that just they
+just set on the floor.  No sanitation whatsoever, nor any cleaning that I
+could see, aside from shooting a bunch of liquid CO2 into it.  If you pay
+extra, they put it in an unsanitary press and compress it.  So, yes, it's
+filthy, IMHO.  
+
+
+But at bottling time in a bucket, I don't think you have to worry--you're
+priming with sugar and getting the yeast going again...I force carbonate,
+and purge the keg with CO2 prior to transferring into secondary and then
+when transferring to the bright beer keg.
+
+
+Regards,
+Mike Sharp
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 10:46:05 -0800 (PST)
+From: Michael Hartsock <xd_haze`at`yahoo.com>
+Subject: RE: Food Barley
+
+
+I have two questions:
+
+
+1. Isn't it a huge pain in the ass to malt and kiln
+your own barley?
+
+
+2. How do you sparge without hulls?
+
+
+mike
+
+
+=====
+"May those who love us, love us.
+And those that don't love us,
+May God turn their hearts.
+And if he doesn't turn their hearts,
+may he turn their ankles
+So we'll know them
+by their limping."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 10:52:55 -0800 (PST)
+From: Michael Hartsock <xd_haze`at`yahoo.com>
+Subject: RE: Hops and head
+
+
+I'm sure that this is not a great solution.  But I
+tend to add 1/4-1/2 pound of unmalted wheat to all my
+grain bills to improve head retention.  
+
+
+My $0.02
+
+
+mike
+
+
+=====
+"May those who love us, love us.
+And those that don't love us,
+May God turn their hearts.
+And if he doesn't turn their hearts,
+may he turn their ankles
+So we'll know them
+by their limping."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 11:04:51 -0800 (PST)
+From: Michael Hartsock <xd_haze`at`yahoo.com>
+Subject: Iodine based sanitizers
+
+
+I just came across this product that seems like a much
+better option for brewers, in terms of cost.
+
+
+For $13.90 a gallon, with a no-rinse dillution ratio
+of 1 oz to four gallons, Hillyard's product is FDA
+approved and used in restraunts and dairy tanks.
+
+
+>From their site (Hillyard.com):
+
+
+H-101 (HIL0012706)  
+Concentrated sanitizer/deodorizer formulated
+especially for food contact surfaces. Ideal for
+sanitizing food utensils, countertops, drinking
+glasses, dishes, silverware and refrigerated storage
+and display equipment. 1:512 dilution rate. EPA
+registered and approved by NSF Category D2 for all
+surfaces in federally inspected meat and poultry
+establishments.
+
+
+I don't work for Hillyard, or anything - but this
+seems like a cost effective alternative.  Hillyard has
+distributers in most major cities, and sells directly
+to the public "anyone with money", so said the sales
+representative I spoke with.
+
+
+Mike
+
+
+=====
+"May those who love us, love us.
+And those that don't love us,
+May God turn their hearts.
+And if he doesn't turn their hearts,
+may he turn their ankles
+So we'll know them
+by their limping."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 15:08:38 -0500
+From: ensmingr`at`twcny.rr.com
+Subject: out of style
+
+
+There have been some recent posts in the HBD about competitions 
+and 'out of style' beers.
+
+
+If you're worried that your beer is out of style but you still 
+want to enter a competition, you can enter it under category #24, 
+"Specialty / Experimental / Historical". This category includes 
+just about anything and judges look for "a harmonious marriage 
+ingredients, processes and beer". See: 
+<http://www.bjcp.org/styleguide24.html>.
+
+
+I have the most fun judging this category, because you get some 
+really interesting efforts, sometimes very good and sometimes 
+very bad.
+
+
+Cheerio!
+Peter A. Ensminger
+Syracuse, NY
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 16:21:24 -0500
+From: Donald Hellen <donhellen`at`horizonview.net>
+Subject: refractometer recommendations for beermaking???
+
+
+Some of you use a refractometer, so this is for those of you
+who have experience with them.
+
+
+Are the imported Chinese-made ones worth the $60 they cost?
+
+
+If not, which would you recommend? I don't want to spend
+more money than necessary, but I don't want to waste money,
+either.
+
+
+I would use this for homebrewing beer and sometimes possibly
+winemaking also.
+
+
+I may not be able to check back and read your replies until
+Monday (maybe, maybe not), but I assure you that I will read
+them.
+
+
+If you have links to places where I can buy one that you
+recommend, I am interested in that (or addresses/phone
+numbers). 
+
+
+Thanks in advance.
+
+
+Don Hellen
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 16:22:32 -0500
+From: "Martin Brungard" <Martin.Brungard`at`trow.com>
+Subject: Water Analyses
+
+
+A number of interesting problems have been posed regarding water analyses
+lately.  A bad looking Chandler, AZ water and a question regarding
+bicarbonate levels in Burton water.
+
+
+Mike Walker had questions about the Chandler water.  I copied the analysis
+below.  
+
+
+Calcium = 73 mg/L
+Magnesium = 27 mg/L
+Bicarbonate = 200 mg/L
+Sulfate = 130 mg/L
+Sodium = 200 mg/L
+Chloride = 291 mg/L
+Hardness (as CaCO3) = 290 mg/L
+Alkalinity (as CaCO3) = 200 mg/L
+pH = 7.59
+
+
+He recognizes that the water is largely unsuitable for brewing and treatment.
+Diluting the water is the easiest treatment option to reduce the high ion
+contents.  A 1:1 dilution with distilled or RO water will still leave the
+water with an excessive chloride concentration, especially if the sulfates
+are going to be increased for a hoppy beer.  It appears that a 2:1 dilution
+would bring the water into a pretty good range, suitable for amending into
+many water styles.  
+
+
+Using the dilution should be preferable for most beer styles excepting
+pilsners.  Having those ions in the water saves some time and money over
+using 100% distilled or RO water.  By the way, distilled and RO water is not
+a good thing for water supply piping nor is it especially good for human
+consumption.  My background includes substantial water supply engineering and
+design.  Distilled and RO water are very corrosive for the piping.  Water
+companies like the water to be a little hard and alkaline so that the
+corrosivity is minimized.  For human consumption, we need a supply of these
+ions to maintain our body chemistry.  Gatorade didn't make millions for
+nothing!  Besides that, the ions give the water some taste.  Most water
+system users prefer a little taste to their water.
+
+
+David Humes found an anomaly on the makeup of Burton water.  Some resources
+list the bicarb as high as 320 and others list it as 0.  I did a quick check
+of the anion and cation milliequivalents to see if they balanced using some
+Burton water analyses I had.  I can say with confidence that the report of 0
+ppm for bicarbonate in Burton water is not correct.  I see that Ray Daniels
+recently pointed out the oversight.  The anion/cation check and my review of
+other sources says that the bicarbonate concentration is likely in the range
+of 140 to 200 ppm.  
+
+
+While I was at it, I reviewed the Burton ion concentrations shown in the
+Promash program database.  It appears that at least one of the ion
+concentrations in the Burton profile is incorrect.  I suggest that the
+reported calcium concentration of 268 ppm is the culprit.  It appears that
+the calcium should be on the order of 200 ppm.  That would bring the
+calculated hardness for the Burton profile into line with the data I have.
+It appears that Promash users should amend their Burton water profile.
+Hopefully Jeff Donovan will review and incorporate that change into the
+program database too.  
+
+
+Martin Brungard
+Tallahassee, FL 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 17:14:23 -0800
+From: "Ryan and Shelly Furstenau" <furstenau1`at`cox.net>
+Subject: Actual Guinness Ingredients
+
+
+I have seen many formulas/recipes out there for Guinness clones.  Some 
+of these perplex me.  To my knowledge, Guinness uses a British Malt, 
+Roasted Barley, and Flaked Barley.  The hops type I am not certain of. 
+
+
+Anyway, many of these recipes have rolled barley or black patent malt, 
+or even corn sugar.  This past year I took at trip to Ireland and my 
+tour of the Guinness brewery confirmed the 3 main ingredients that I 
+listed above.  Can anyone else confirm that Guinness only uses these 3 
+main ingredients in their beer?  If I am correct, why would any Guinness 
+"clone" include ingredients that aren't in the actual recipe.  If I am 
+wrong, please correct me.
+
+
+Ryan
+Omaha, Nebraska
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 16:06:51 -0800
+From: "John Palmer" <jjpalmer`at`altrionet.com>
+Subject: Re. Burton Water Profile
+
+
+The recent discussion of Burton water chemistry reminded me of an analysis I
+had obtained back in 1998.
+I was researching my water chapter and, given the electrical mutual
+exclusion of the ion concentrations given in Malting and Brewing Science,
+Practical Brewer, et al., I thought to myself, "Hey, I will just call them!
+I mean, people still live there right?!"
+What I finally did was got on the UK Digest, and requested that someone call
+the water dept and get an analysis. And they did, and here are the results.
+Note that this analysis is for one particular source and one particular
+sample. Given Ray's comments on the variability of the water with depth,
+this data makes sense in view of the published profiles.
+
+
+Source: Blithfield Reservoir
+Date: 28/05/98 Time: 11:35
+
+
+pH 8.26
+Alkalinity as HCO3  152 ppm  (ie. bicarbonate ppm)
+Total Hardness as Ca  83 ppm  (not sure how to use)
+Perm. Hardness as Ca   33 ppm  (not sure how to use)
+Calcium     57 ppm   (but since I have this I don't need those above)
+Magnesium  15.8 ppm
+Sodium (not reported)
+Potassium  5.7 ppm
+Iron   .061 ppm
+Manganese .012 ppm
+Chloride   26 ppm
+Sulfate (not reported)
+
+
+And that is why I did not use the info in my book, because the sodium and
+sulfate were not reported. However, this information does give you the
+residual alkalinity of the water which is 70 ppm as CaCO3. This equates to a
+base-malt-only mash pH of 5.8, which suggests that the water is best suited
+for an amber colored beer. Which it is, historically.
+Good Brewing,
+John
+
+
+john`at`howtobrew.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Mar 2003 19:26:00 -0800 (PST)
+From: Rama Roberts <rama`at`eng.sun.com>
+Subject: re: batch sparging
+
+
+Michael Fross asks how to batch sparge.
+This page (which coincidentally is the first reference if you google for
+'batch sparge') is the page I used to learn when I made the jump to all
+grain:
+
+
+http://www.bayareamashers.org/BatchSparging.htm
+
+
+Its so simple and ideal, I've never bothered trying fly sparging.
+
+
+- --rama
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4196, 03/15/03
+*************************************
+-------

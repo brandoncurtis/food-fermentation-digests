@@ -1,0 +1,144 @@
+﻿Subject: Cider Digest #1618, 10 March 2011
+From: cider-request@talisman.com
+
+
+
+
+Cider Digest #1618                                         10 March 2011
+
+
+                 Cider and Perry Discussion Forum
+
+
+Contents:
+  Pressure inside a bottle (Andrew Lea)
+  Flex tanks in cider making? (Joshua W)
+  Fermentation vessel  options (Richard Schoeler)
+
+
+NOTE: Digest appears whenever there is enough material to send one.
+Send ONLY articles for the digest to cider@talisman.com.
+Use cider-request@talisman.com for subscribe/unsubscribe/admin requests.
+Archives of the Digest are available at www.talisman.com/cider#Archives
+Digest Janitor: Dick Dunn
+----------------------------------------------------------------------
+
+
+Subject: Pressure inside a bottle
+From: Andrew Lea <andrew@harphill.co.uk>
+Date: Sun, 06 Mar 2011 19:57:23 +0000
+
+
+Joseph Conway wrote:
+>
+> I wonder if any of the cider makers on this list have come up with a way
+> to determine what the pressure in the bottle will rise to at the highest
+> temperature reached in the hot water bath. So for those who like practical
+> physics, here's an example:
+>
+> Say the final amount of CO2 dissolved in the cider at bottling is 2.0
+> volumes of CO2.  The highest temperature for pasteurization reaches 64
+> degrees C in the bottle.
+>
+> Q: What is the pressure in the bottle at this temp?
+
+
+A: 5.8 bar (ca 87 psi).
+
+
+This is an application of Henry's Law see
+http://en.wikipedia.org/wiki/Henry%27s_law  You can set up the equations
+on a spreadsheet and get the pressure for any vol of CO2 at any
+temperature.
+
+
+The relevant equations (to be read in conjunction with the Wikipedia
+article) are
+
+
+KH = 0.034*EXP(2400*((1/T)-(1/298)))  where T is the temp in degrees K
+(i.e. degrees C + 273)
+
+
+CO2g/L = CO2vol * 1.964.
+
+
+CO2mol = (CO2g/L)/44
+
+
+P(bar gauge) = (CO2mol/KH) - 1
+
+
+These give data identical to the many published carbonation tables, at
+least for temperatures up to 30C. I am assuming that these relationships
+continue to be valid at somewhat higher temperatures too. These
+equations are strictly only valid for CO2 in water, but the effect of
+sugar and alcohol on CO2 solubility is actually rather slight.
+
+
+At 10C the pressure in the same bottle computes as 0.7 bar
+At 20C it is 1.3 bar
+At 30C it is 2.0 bar
+
+
+E&OE
+
+
+Andrew Lea,
+nr Oxford UK
+www.cider.org.uk
+
+
+------------------------------
+
+
+Subject: Flex tanks in cider making?
+From: Joshua W <wagnerjb38@gmail.com>
+Date: Sun, 6 Mar 2011 21:21:37 -0500
+
+
+Hello,
+
+
+As a light weight and low cost alternative to stainless steel, Flex Tanks
+have gained popularity among traditional wineries.  The tanks are designed
+to replicate the oxygen exchange rates of oak barrels, and offered in
+different thicknesses.  However, I have not found mention of their use by
+any cider makers.  Is this due more to allegiance to traditional materials
+or to some perceived limitations with polyethylene?  From a cost standpoint
+they appear very attractive, but I'm concerned about potential spoilage.
+
+
+Any thoughts would be appreciated.
+
+
+Thanks,
+JW
+
+
+------------------------------
+
+
+Subject: Fermentation vessel  options
+From: Richard Schoeler <rcschoeler@yahoo.com>
+Date: Wed, 9 Mar 2011 10:58:29 -0800 (PST)
+
+
+I am interested in what fermentation vessels others are using for 20-25 and
+40-50 gallon volumes.  I've been using cornies for fermentation and storage but
+intend to  increase production next year to a level (80-100 gallons) that makes
+their use less practical for fermenting.  Ideally I would like to continue to
+transfer product to corny kegs with CO2 for storage/dispensing and avoid the
+need for/use of a pump, but if you have a good solution that involves a pump,
+I'd like to hear about it.  Specific product information and sources would be
+most appreciated.  Thanks.
+
+
+Richard S.
+
+
+------------------------------
+
+
+End of Cider Digest #1618
+*************************

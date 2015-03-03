@@ -1,0 +1,336 @@
+﻿Date: Fri, 7 Sep 2007 00:06:44 -0400
+Subject: Homebrew Digest #5228 (September 06, 2007)
+
+
+
+
+
+
+HOMEBREW Digest #5228                             Thu 06 September 2007
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                     Your Business Name Here
+    Visit http://hbd.org "Sponsor the HBD"  to find out how!
+                         
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: Pre-chiller: plate or immersion? (Mike Dixon)
+  GFCI's ("A.J deLange")
+  GFCI internas ("Thomas Rohner")
+  MALT Turkey Shoot 2007 (Jack Mowbray)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 06 Sep 2007 04:03:42 -0400
+From: Mike Dixon <mpdixon at ipass.net>
+Subject: Re: Pre-chiller: plate or immersion?
+
+
+ I think Danny' suggestion for chilling sounds like a good idea. I still 
+used an immersion chiller and due to the hot water temps (84F) here in 
+NC, we tried an immersion prechiller going to an immersion chiller with 
+satisfactory results. It took awhile but were able to cool 12 gallons to 
+about 72F. However, that was still a slight bit higher than where I 
+wanted to pitch.
+
+
+Several people use immersion pumps and an ice water recirculation to 
+finish chilling the wort after the initial heat is removed. Being 
+exceedingly frugal I setup a bottling bucket with a very inexpensive 
+drill mounted pump (6.5 gpm for a cost of $5) and after I got the wort 
+below 105F (about 12 min on 6 gallons with 84F tap water), I setup the 
+drill pump ice water loop and was able to get to 64F a short while 
+later. Still not quite my target, but within a hour or two in the fridge 
+the batch was ready for pitching.
+
+
+So if you are using the plate chillers in series, I would chill with one 
+plate using tap water, and then the other plate using an ice water 
+recirculation. Just use enough water to allow the pump to operate 
+properly and the recirculation system will use the least amount of ice. 
+My one experience with a plate chiller did not give excellent results so 
+I stuck with an immersion chiller.
+
+
+Cheers,
+Mike Dixon
+Wake Forest, NC
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Sep 2007 13:17:00 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: GFCI's
+
+
+A couple of thoughts on this subject stimulated by responses to the 
+original question:
+
+
+1. The earthing wire does not go through the GFCI current sensing 
+transformer. Thus leakage from hot or neutral to the earthing wire can 
+cause a trip. This also means that the GFCI can be used without the 
+earthing wire and in fact the NEC allows GFCIs to be used on unearthed 
+circuits in some circumstances (406.32(D)(3)(c)). Therefore if the 
+heatstick has been wired so that there is leakage to the earth wire 
+removing the earth wire may solve the problem. It would be much better 
+if the heatstick were repaired so this leakage is not present because 
+the earth wire is there to convey fault current back to the source. Take 
+it away and there is no path except possibly through the user and now 
+the GFCI is being relied upon to protect the user from becoming that path.
+
+
+2. The test button does work when the earth wire is removed. It switches 
+a resistor into the circuit between the load side hot and source side 
+neutral.
+
+
+3. Modern GFCIs are designed to trip if the neutral and earth are joined 
+on the load side. Thus if someone should wire earth and neutral together 
+at the heatstick or if earth and neutral should come into contact 
+somehow a newer GFCI would trip. The neutral and earth must only be 
+joined at the service entrance. The wiring for a heatstick (or other 
+load) should be phase (hot, black, red, blue) to one side of the 
+resistive element, neutral (grounded, white, gray) to the other. The 
+earth (grounding, bare, green, green with yellow tracer) wire should 
+only be connected to the metallic shell of the device. Note that I have 
+used earth and neutral rather than grounding and grounded in the hope 
+that this terminology (borrowed from the Brits) will reduce confusion 
+regarding the names of these conductors
+
+
+4. Capacitance leakage can result in imbalance current which can trip a 
+GFCI but 6 ma or more capacitative current requires an impedance of 2K 
+or less which means about 1.3 ufd capacitance. That's a lot given that 
+cables usually run a few pf per foot.
+
+
+5. A GFCI outlet is often wired as the source for several conventional 
+outlets which it can also protect. But any leakage anywhere downstream 
+of the current transformer will trip. This often gets to be a real 
+nuisance where an interior GFCI feeds outlets in places exposed to 
+dampness (garages, crawl spaces) because often the home owner is not 
+even aware that there are other outlets in the chain (sometimes you will 
+see little "GFCI Protected" stickers on conventional outlets. This is 
+clue that these outlets are daisy chained from a GFCI outlet.
+
+
+6. One can buy "extension cords" with GFCI breakers built in and one 
+sometimes finds these "in line" GFCI units in appliances which are used 
+in damp locations. One of these for each heatstick may be an approach 
+that solves the problem.
+
+
+A.J.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Sep 2007 17:03:01 +0200
+From: "Thomas Rohner" <t.rohner at bluewin.ch>
+Subject: GFCI internas
+
+
+Hi again
+
+
+first about the wiring. The neutral and the grounding of your house are
+connected at your main breaker box. So without any load, neutral and ground
+should be the same anywhere in your house. Now lets start drawing current at
+the end of your installation. If you measure now between the neutral at your
+load and ground, you will have a small voltage there. This is because your
+neutral isn't a superconductor and therefore has a small resistance. After
+Ohms law that's U=R*I, so the higher the current and the resistance, the
+higher the voltage.
+If for example the neutral in your load (appliance, heatstick) touches
+ground somehow, you get quite a current down to ground if its shorted.
+That's I=U/R where R is very low in a short circuit, so I can get quite
+high, even with U quite small. (For example U=0.3V R=0.1 Ohms you get a
+current of 3000mA while the GFCI trips at 20mA or even less)
+
+
+Now to the working principle of a GFCI. It's somehow like a relay, but then
+not. It has a magnetic coil that attracts sort of a plunger that will break
+open the two conductors.(and stay open until manually closed again.)
+Now the coil is quite special, because it has two insulated windings, wound
+parallel. One winding has the current running to the phase through it, the
+other the neutral in reverse direction. As long as the current is the same
+in both windings, the magnetic fields will be substracted from each other
+equalling 0 because of the opposite flow direction of the current. The
+breaker won't trip. As soon as the current in both windings isn't the same
+anymore, the magnetic field isn't 0 anymore. If the difference is big
+enough, the breaker trips.
+Thats how it works in principle, as you can see, ground was nowhere in the
+equation. But then it is used for the test button, and it wouldn't make any
+sense to remove it from the GFCI anyway. Either your heatsticks leak
+somewhere, or their neutral gets connected to ground.
+If their neutral is connected to ground, the only thing you can do is take a
+really thick cable from your main breaker to your heatsticks. Or use
+heatsticks that are well insulated. (would be my choice) And make sure that
+neutral and ground are not connected together in your heater control
+circuit.
+I had to learn this the hard way during my education, i was troubleshooting
+a heatplate for smd thickfilm cirquits. At some point i had to use a
+oscilloscope. I thought well, neutral is the same as ground, so i can
+connect the oscilloscopes ground to the neutral of my heatplate. I was
+wrong(as you can see in the first paragraph), soon i had some software
+developers standing around me with this special sparcle in their eyes.(That
+says i could kill you) It turned out that their multiuser developement
+system was on the same phase as my heatplate. It wasn't very prudent of them
+to use the same phase as us hardware dudes.  I think they changed it after
+this incident. At that time,(1985) those developement systems didn't seem to
+have a autosave function either. (It was a 68000 with 1Meg Ram and a 40Meg
+HD runing on Unix, they had 8 terminals and worked with crosscompilers and
+editors. This was quite state of the art back then. That was also the time
+when a "home PC" like the C64 had 64kB Ram and a floppy, if you were lucky.)
+
+
+Cheers Thomas
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Sep 2007 12:46:17 -0500 (CDT)
+From: Jack Mowbray <jmowbray at verizon.net>
+Subject: MALT Turkey Shoot 2007
+
+
+Maryland Ale and Lager Technicians (MALT) are again pleased to 
+announce their 3rd Annual Turkey Shoot* Homebrew Competition. 
+This will be a BJCP sanctioned event. 
+
+
+Cash prizes will be awarded for Best of Show as well as for 2nd and 
+3rd place. There will be sponsored prizes awarded to individual 
+category winners.
+
+
+The competition will be held Saturday, November 10th at Clipper 
+City Brewing Company in Baltimore, MD. All BJCP beer categories 
+will be accepted and the deadline for entries is November 3rd.
+
+
+Additional information, rules, entry forms, and bottle labels can 
+be found at the MALT website: http://www.maltclub.org
+
+
+We could use some more BJCP accredited judges for this event. 
+Anyone who is interested in helping with the judging should contact:
+
+
+Mike McMahon
+fishandbrew at comcast.net
+
+
+
+
+*no live poultry will be harmed during this event
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #5228, 09/06/07
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

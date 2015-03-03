@@ -1,0 +1,970 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA20382
+        for <spencer`at`srvr5.engin.umich.edu>; Wed, 8 Aug 2001 00:57:55 -0400 (EDT)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr22.engin.umich.edu (8.9.3/8.9.1) with ESMTP id AAA24978
+        for <spencer`at`engin.umich.edu>; Wed, 8 Aug 2001 00:57:54 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA28284
+        for realhomebrew; Wed, 8 Aug 2001 00:36:15 -0400
+Date: Wed, 8 Aug 2001 00:36:15 -0400
+Message-Id: <200108080436.AAA28284`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3703 (August 08, 2001)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3703                             Wed 08 August 2001
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Stuck Fermentation: Update (Smith Asylum)
+  RE: Software Piracy ("Sam Ritchie")
+  re : light flavoured ale (Alan McKay)
+  New Guy (gsferg)
+  Dry Hopping with pellets ("Branam, Mike")
+  Copper toxicity ("Bruce Garner")
+  Ergot again ("John Bonney")
+  Beer in Europe ("Eric R. Theiner")
+  Sparge Water Distributors (Martin_Brungard)
+  Re:  Live organisms in boiled wort? (Richard Seyler)
+  Re: Software Piracy ("Vernon, Mark")
+  Fw: Oxidation during lautering ("T & S Klepfer")
+  Re: Plumbing for a three-tier RIMS (Rob Dewhirst)
+  New Campaign from CamRA ("Pete Calinski")
+  opensource brewing software (Rorik Peterson)
+  Plumbing for a three-tier RIMS ("2brewers4u")
+  Trub ("Tom Clark")
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+* 
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 06 Aug 2001 23:27:24 -0700
+From: Smith Asylum <smithly`at`neta.com>
+Subject: Stuck Fermentation: Update
+
+
+Well, I listened to everyone who chimed in and made my decision
+based on trying to stay true to the original recipe.  You all may
+recall that I had started at 1.085 and couldn't seem to break the
+1.033 barrier.  Well, I stepped up a yeast starter 3x to 1/2 a
+gallon, pitched and let it go for two weeks at 73 deg.  I bottled
+last night with a FG of 1.014.  Admittedly, it had lost some of the
+body that was appealing to me when I taste tested it, but I think it
+will be fine after some carbonation and bottle conditioning.  Just
+for the record this brew was in fermenters for nine weeks.
+
+
+Lessons learned?
+1) With high gravity beers, pitch a healthy starter and save the
+yeast from the primary in case you have to pitch again.  I can't
+wait to crack one open.
+2) Get a larger growler if your on a 3rd step and you're going to
+1/2 gallon.  I got yeast all up through my airlock and down the
+sides of the bottle.  Made a real mess.  Prolific little buggers, eh?
+
+
+Thanks to everyone who provided advice.  There are a number
+of ways I could've achieved similar results.  I was just partial to
+staying with the yeast solution and keeping as
+close to the recipe as possible.
+
+
+Schlange!
+Lee Smith
+Chandler, AZ
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 15:27:17 +0800
+From: "Sam Ritchie" <sritchie`at`e-comm.com.au>
+Subject: RE: Software Piracy
+
+
+Christopher Farley writes:
+
+
+>
+> You know, homebrewers being what they are (thrifty and crafty), it's
+> surprising that an important, free, open-source, cross-plaform homebrew
+> software project has not yet emerged. Or am I overlooking something?
+>
+> Any interested programmers out there willing to contribute? I'd be
+> willing to donate a mailing list/web forum and a cvs repository at
+> the very least...
+>
+
+
+I'm interested... I've actually started to put together an xml schema for a
+cross-platform, cross-measurement-unit recipe file format - I would prefer
+it to be a community owned and driven concept; if we managed to get a
+software project going, it would be an ideal forum for feedback & further
+development.
+
+
+In other words, count me in for the project.
+
+
+Sam.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 08:19:11 -0400 (EDT)
+From: Alan McKay <amckay`at`ottawa.com>
+Subject: re : light flavoured ale
+
+
+Tal writes :
+
+
+"I don't have the patience or time to make a lager" [...]
+"I was considering a Kolsh but do not have a good recipe"
+
+
+I've got good recipes for a Koelsch-style beer on my webpage,
+but this is not your style if you do not have the patience
+for lagering, since it must be lagered at least 3 weeks at
+near freezing.
+
+
+cheers,
+ -Alan
+
+
+- --
+                 "Brewers make wort.  Yeast Makes Beer."
+                       - Dave Miller's Homebrewing Guide
+http://www.bodensatz.com/
+What's a Bodensatz? http://www.bodensatz.com/bodensatz.html
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 07 Aug 2001 08:24:17 -0400
+From: gsferg`at`clary.gwi.net
+Subject: New Guy
+
+
+Hello All-
+
+
+I'd like to introduce myself- My name is George Fergusson, I live in 
+Whitefield Maine, I've been reading this list about a week, and I've been 
+homebrewing in earnest for about 4 months. I've been using kits so far but I 
+cooked up my first all-grain batch last weekend using a Rubbermaid 5 gallon 
+water cooler as a combination mash/lauter tun (read about it in an old Zymurgy 
+magazine). Being somewhat challenged for a big enough cooker I made a 
+half-recipe (2.5 gallons) of so-called Bass Ale, hopped the bejesus out of it, 
+and dumped it in my fermenter where it's merrily fermenting like there's no 
+tommorow.
+
+
+Actually, I'm not totally new to brewing.. back in the 70's we used to make 
+something vaguely similar to beer that we affectionately called "joy juice" 
+that got you horrendously drunk, with the added side effect of also making you 
+fart like a cannon. It musta been the Baker's Yeast. Home brewing has come a 
+long, long way :)
+
+
+Ayuh.
+
+
+When I'm not brewing beer I pass my time as a unix system administrator and 
+Oracle DBA doing admin and DBA stuff for a Dot.com.
+
+
+George-
+
+
+- -- 
+George S. Fergusson <gsferg`at`clary.gwi.net>
+Oracle DBA, Programmer, Humorist
+PGP Key: http://clary.gwi.net/gsferg/gsferg`at`clary.asc
+- --------------
+I am a man, I can change, if I have to, I guess.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 08:20:44 -0400 
+From: "Branam, Mike" <Mike.Branam`at`ccur.com>
+Subject: Dry Hopping with pellets
+
+
+I brewed an all grain Fuller's ESB this past weekend and will be racking it
+next weekend. The recipe calls for it to be dry hopped. The hops I got are
+pellets. Can I just sprinkle them into the top of the secondary carboy or do
+I need to put them in a hop sack? I usually add unflavored gelatin to the
+secondary a couple of days after racking. Will this cause a problem with the
+hops?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 07:27:50 -0500
+From: "Bruce Garner" <bpgarner`at`mailbag.com>
+Subject: Copper toxicity
+
+
+Tony brings up the question of copper toxicity in a primary ferment.
+
+
+I have toured Ridley's Brewery in Essex. Their open fermentors are copper
+lined and have immersed copper cooling coils a few inches in from the sides
+of the fermentor.
+
+
+Bruce Garner
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 09:18:35 -0400
+From: "John Bonney" <john`at`ruthsx.com>
+Subject: Ergot again
+
+
+
+
+
+
+[Mike Vachow]"Some historians argue that the bizarre
+behavior of many of the women targeted as witches is consistent with the
+hallucinogenic effects of ergot poisoning."
+
+
+I'm glad you brought this up, I just watched a documentary on this very
+theory.  More clues pointing to this conclusion were recently uncovered (I
+believe) near the Salem area.  Somebody found a mummified body in a swamp
+near the area (once again I'm pretty sure it was Salem, or at least some
+other area that had a "witch" problem).  The person had clearly been
+brutally murdered.  There was a huge gash in the throat that was cut from
+ear to ear, and an area of the skull was caved in.  The folks that believed
+ergot was responsible for the belief in witches were granted the right to
+analyze the contents of the cadaver's stomach.  Upon testing the sample,
+they found that the victim's last meal was indeed ergot contaminated rye.
+
+
+Other facts the documentary pointed out involved an ergot breakout from a
+bakery in France that had made a batch of bread from ergot contaminated
+grain.  This happened sometime in the 1940's or 50's.  Hundreds of people
+died.  All of them experienced the same type of symptoms as reported during
+the Salem witch trials for someone who was considered to be "bewitched."
+Hallucinations, cold sweats, the feeling of bugs under the skin, and
+convulsions and the like.  Many of the victims reported seeing blood on the
+ceiling, demons, lions, monsters, and all sorts of other fun stuff.  One
+woman was reported to have jumped out of her second story window because she
+thought there was a lion in her room.  She was saved by her night gown
+catching on a nail or something outside the window, only to die later from
+the ergot poisoning.
+
+
+It was a cool documentary.  The funny thing was that even the people in
+France (and remember this was in the 50's) thought that the bakery and/or
+the baker was satanistic, and had demonized the victims.  The townspeople
+paraded the caskets of the dead down the street past the bakery.  They
+believed this until the test results came back positive for ergot poisoning.
+
+
+Stuff like that makes me wonder how ignorant we're going to look 100 years
+from now.  "Those idiots believed in global warming! Chuckle chuckle"
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 07 Aug 2001 09:22:34 -0400
+From: "Eric R. Theiner" <logic`at`skantech.com>
+Subject: Beer in Europe
+
+
+We recently returned from 2 weeks in Germany and Austria.  Of the cities 
+listed by Aaron, Munich is the only one that we hit, and only spent a 
+little over a day there.  Here are some specific things that floated to the 
+top of my head regarding beer:
+
+
+1) Go to Kloster Andechs.  It's about 30 - 45 minutes to the West of Munich 
+and well worth the trip.  It's a monastery on top of a mountain near Lake 
+Amersee and I'm sure that any beer drinker in Munich can give you exact 
+directions.  And the coin operated breathalyzer next to the bathroom is 
+worth a mark<g>.
+
+
+2) Before we went, it was 50/50 on going to the Hofbrauhaus.  I say that 
+it's worth the trip.  We went during the day and it wasn't very crowded-- a 
+great time to soak up the ambiance.  And the beer is good (but then, I 
+didn't have a bad beer over there).
+
+
+3) PLEASE go to the Spaten Brauhaus for me.  We walked right by it as we 
+headed from the Hofbrauhaus to the Residenz, but due to timing and my son 
+(2 years old-- not very hardy on trips), we never made it back.  Spaten is 
+one of my favorites-- particularly Optimator, but I guess they wouldn't 
+have that during Sept-Oct.
+
+
+4) The English Garden is a great place to walk around and experience a 
+buzz.  The buzz comes from a beer garden next to the Pagoda (what it's 
+doing in Munich, I don't know) in the center of the English Garden.  If the 
+weather's nice, you may spot some nude sunbathers as well.
+
+
+Lastly, you may know this, but I was really surprised at how reasonable 
+everything was.  A grosse (liter) Helles was generally 6 - 8 marks (3 - 4 
+$US), and I got pretty used to shelling out 3 - 4 marks at most for a 
+kleine (half-liter) just about every place we stopped in Germany.
+
+
+Have fun!
+
+
+Rick Theiner
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 09:59:48 -0400
+From: Martin_Brungard`at`urscorp.com
+Subject: Sparge Water Distributors
+
+
+Thomas Klepfer asked about sparge water distributors for a new mashing
+system.  There are a couple of points that can be made without getting
+totally into HSA effects.
+
+
+I've seen several sprinkling systems on the market or created by
+homebrewers.  I agree with the premise that we need to gently distribute
+sparge water across the grainbed without disturbance.  When creating my
+system, I considered using a sprinkler.  There were a couple of reasons why
+I didn't use one.
+
+
+The complexity of a sprinkler was a minor concern to me.  But I did have
+another consideration.  Since I was creating a RIMS, I knew that there may
+be some grain particles in my flow.  I assumed that clogging was a very
+real possibility in my system.  Large holes in a distributor system would
+be needed to reduce clogging potential by passing grain particles back onto
+the bed.  Flow from these large holes would not be too kind to the
+underlying grainbed if it fell any distance.  I assumed that sprinklers
+would probably have smaller holes.
+
+
+I found the distributor manifold shown on C.D. Pritchard's website (
+http://chattanooga.net/~cdp/rims_inf.htm ) meets my goal of gentle
+recirculation and sparge distribution.  The other advantage of this system
+is that the distributor can be suspended directly on top of the grainbed.
+I like C.D.'s configuration since it creates a ring around the tun.  I can
+still stir the mash without removing the distributor.  The other advantage
+is that the pipe into the tun is on the side of the tun, so you can hook it
+to the side of the tun.  I have seen distributors that are H shaped, but
+they don't have the advantages I just mentioned.  Additionally, prudent
+water management will keep the grainbed completely submerged when using one
+of these distributors.  There are at least 2 reasons why keeping the
+grainbed submerged is a good idea.
+
+
+The first reason is that allowing the water level to fall below the top of
+the grainbed will increase the effective stress on the bed, making it a
+little more likely that the bed will compact and potentially create a stuck
+mash.  The second reason is that the hot water helps keep the upper portion
+of the grainbed from cooling.  An occasional dribble of hot water probably
+can't be depended on to keep the surface grain as warm as if it were
+submerged in hot liquor.
+
+
+After thinking further on the subject of sparging, I did also consider that
+a rain of sparge water falling through the atmosphere could pick up some
+oxygen, but its probably not really a concern since the water is hot and
+the oxygen solubility in the water is pretty low.  HSA may be more of a
+potential with a sprinkler, but its probably minor considering the sparge
+water temp.  It is probably more of a concern in a RIMS since the mashing
+temp is lower.  Also, the sparge water will certainly loose more heat as it
+falls through the atmosphere compared to if it is directly downlet onto the
+bed.
+
+
+The other reason I believe that homebrewers use sprinkler systems is
+because the big boys use them.  After my trip to Great Lakes Brewery last
+week, I recognized some of the necessities created by large brewing
+systems.  I don't believe that they could use the distributor system that I
+recommend in their brewery.  It would get in the way.  A sprinkler system
+can be fabricated into the top of the tun, out of the way of their
+operations.  They just learn how to brew effectively with the sprinkler
+system despite the shortcomings.  The point here is that small brewing
+systems (less than 15 gal) can easily use a submerged distributor system
+and there are definite advantages compared to sprinkler types.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 10:12:41 -0400 (EDT)
+From: Richard Seyler <seyler`at`arches.uga.edu>
+Subject: Re:  Live organisms in boiled wort?
+
+
+On Mon, 6 Aug 2001, Dan Temple said:
+> 
+> I just read (in a Danish homebrewing book from 1970)
+> the following:
+> 
+> Wort contains organisms that are not killed by
+> boiling, so unless you get the yeast going quick,
+> these can get the upper hand and give the beer a sour
+> taste.
+> 
+> Is this true? I have always assumed that the boiled
+> wort was as sterile as could be.
+
+
+Many organisms, especially endospores, can withstand boiling temperatures.
+But the longer the boil, the less survivors there will be.  In
+microbiology, the time it takes to kill 90% of the population at a given
+temperature is known as the decimal reduction time.  
+
+
+Having said that, the real concern is not heat resistant organisms native
+to the wort, it is outside contamination by spoilage organisms such as
+lactic acid bacteria and wild yeasts.  While these microorganisms can be
+found in malt, they are not generally regarded as heat resistant.  And, (I
+dare say) most infected beers are the result of contamination post-boil.  
+So, the advice to get a brewing yeast culture going quickly is the same.  
+This is why large healthy starters are so strongly advocated.
+
+
+> I also read in the book that: "Top fermenting yeast is
+> mostly used for English style ales. It is not possible
+> to achieve proper subtleties of flavour with this kind
+> of yeast".
+
+
+This is a generalization; British ale strains in particular produce
+fermentation by products that have estery flavors.  On the other hand,
+there are some relatively clean ale strains.  But in general, lager
+(bottom fermenting) strains have cleaner profiles.
+
+
+- --Tad Seyler
+  Microbiology Dept.
+  Univ. Georgia
+  Athens, GA  30602
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 09:12:08 -0500 
+From: "Vernon, Mark" <Mark.Vernon`at`pioneer.com>
+Subject: Re: Software Piracy
+
+
+>You know, homebrewers being what they are (thrifty and crafty), it's
+>surprising that an important, free, open-source, cross-plaform homebrew 
+>software project has not yet emerged. Or am I overlooking something?
+>
+>Any interested programmers out there willing to contribute? I'd be
+>willing to donate a mailing list/web forum and a cvs repository at 
+>the very least... 
+>
+>- -- 
+>Christopher Farley
+>www.northernbrewer.com
+
+
+Chris, 
+I think the reason is that ProMash, for $25 or so, is a great deal - and a
+great product. As a programmer in a former life, I can appreciate the effort
+required to create such a full featured application. I have no affiliation
+with ProMash - just an extremely happy user.
+
+
+Mark Vernon, MCSE, MCT
+Sr. Network Engineer
+Global Infrastructure
+Pioneer, A DuPont Company
+EMail:Mark.Vernon`at`Pioneer.com
+Text Paging: 5153601729`at`msg.myvzn.com
+Office:(515)270-4188
+Cell: (515) 360-1729
+
+
+They that can give up essential liberty to obtain a little temporary safety
+deserve neither liberty nor safety.
+            -- Benjamin Franklin
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 10:11:15 -0500
+From: "T & S Klepfer" <lee-thomas`at`indian-creek.net>
+Subject: Fw: Oxidation during lautering
+
+
+
+
+
+
+
+
+
+
+
+
+ Christopher Mika asks:
+
+
+ >One other issue I could use some input on is in the design of a sparge arm
+> or ring for the mash tun as well as a return for the liquor in the SMART
+ >system. My mash tun is a converted 1/2 barrel keg with a 10 inch opening
+at
+ >the top. Any advice, instruction, or web addresses for sites describing
+ >similar systems would be much appreciated.
+
+
+ >Thank You,
+>Chris Mika
+
+
+  I posted a question the other day about the possibility of aeration and
+ oxidation, while lautering, from "sparge" devices (sprayers, rings, etc.).
+ Predictably, the responses I received ranged from "don't worry about it" to
+ "worry about it, prevent all sources of aeration".  After thinking about
+it,
+ my solution is to make a copper tubing ring that rests on the surface of
+the
+ grain bed, with holes facing the walls of the mash tun, and attached to the
+ outlet of the HL tun with plastic tubing so that its depth in the tun can
+ vary depending on grain bill size.  Keeping the level of water above the
+ ring should prevent any foaming or aeration.
+
+
+ Thanks to everyone who gave me advice - it's very much appreciated.  Hope
+it
+helps Chris too.
+
+
+ Thomas Klepfer
+ Medina, Texas
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 07 Aug 2001 10:27:41 -0500
+From: Rob Dewhirst <robd`at`biocomplexity.nhm.ukans.edu>
+Subject: Re: Plumbing for a three-tier RIMS
+
+
+
+
+>
+>I am considering using a hard-piped system
+>with built-in diverter valves to control the flow of liquids through the
+>system.  I am not sure how well this might work.  I also was wondering if QD
+>fittings will work on a hard-piped system to aid in disassembly for a
+>thorough cleaning.
+
+
+I hard-piped my RIMS and I'll never go back.
+
+
+I tried using valves and found it a pain.  This may be due to trying to use 
+standard ball valves and not true diverter valves.  I also worried I wasn't 
+getting them clean enough.  I used 1/2" copper pipe, because it's cheap, 
+safe and easy to use.  Once you get good at sweating 1/2" copper, you can 
+make modifications easily (I've done it during the mash once).
+
+
+Instead of using diverters, I use copper unions to quickly disconnect and 
+reconnect components.   These are available at any hardware store, but I 
+would get stainless 1/2" unions from Moving Brews (they're pretty much the 
+same price) or get some tri-clamp fittings.  I summarized my quest for 
+plumbing disconnects in an issue of HBD a couple of weeks back.
+
+
+An average brew session only has one or two "replumbs" where the pipes have 
+to be dis/reconnected.  If you think it out in advance, it helps.
+
+
+Previously, I used braided flexible tubing but found it too much of a 
+hassle to keep clean.  I throw all my brewery plumbing in boiling water at 
+the end of the brew session.  I only have one piece of short plastic tubing 
+in the whole system because I haven't devised a way to account for varying 
+thickness of the grain bed.
+
+
+One thing about long lengths of copper pipe -- they get HOT and you have to 
+be careful while brewing.
+
+
+Most of the details with some pictures can be found at:
+
+
+<http://hairydogbrewery.com/equip/>
+
+
+That may answer more specific questions.  I am sure there's something I 
+learned in construction that I've forgotten to mention.
+
+
+>One
+>other issue I could use some input on is in the design of a sparge arm or
+>ring for the mash tun as well as a return for the liquor in the SMART
+>system. My mash tun is a converted 1/2 barrel keg with a 10 inch opening at
+>the top.
+
+
+I stopped trying to find sparge arms that worked and now sparge with the 
+same return manifold I use during the recirculation mash.  Since the return 
+manifold doesn't restrict the flow at all, I've found I have very good 
+control of the inflow of sparge water from the HLT.
+
+
+>Any advice, instruction, or web addresses for sites describing
+>similar systems would be much appreciated.
+
+
+<http://brewery.mvlan.net/homebreweries.html> has a lot of links to 
+RIMS.  Many of the sites linked from there have moved, but there's still 
+enough there to be helpful.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 12:11:53 -0400
+From: "Pete Calinski" <pjcalinski`at`adelphia.net>
+Subject: New Campaign from CamRA
+
+
+I types this in.  It was in the Aug 7 edition of the Wall Street Journal.
+Excuse the typo's
+
+
+
+
+LONDON-Beautiful, naked bodies lying on a bed of barley are the focus of a
+new ad campaign for-would you believe it?-traditional British ale.
+    The British brew most associated with beer bellies and beards is getting
+a total image makeover in an effort to attract young, especially female,
+customers.
+    In a poster campaign launched last week across Britain, the Campaign for
+Real Ale-a group of ale aficionados- ditched pictures of the archetypal,
+flatcapped bloke propping up at his local pub.
+    The ads depict a blonde model, naked except for two strategically placed
+flowered hops, lying with her arms outstretched in sheaves of barley-an
+image much like actress Mena Suvari's bed of roses in the ads for the 1999
+movie "American Beauty." A male version of the ads also will be pinned up on
+street corners and in about 10,000 pubs across the country.
+    The campaign, which is targeted at 25 to 35-year-olds, sports the
+tagline "100% NATURale."
+The effort doesn't come too soon. Sales of real ale-nonpasteurized brew
+swimming with live yeast and strong flavors-have fallen as a share of the
+total United Kingdom beer market. Primed by heavy advertising by such
+foreign lagers as Budweiser and Stella Artois, the British have been
+steadily switching from ale to lager, the cold, golden style of beer that
+predominates in most parts of the world.
+
+
+    As a result, about 400 ale makers hold about 15% of the market in the
+U.K. Moreover, all but 1% of that figure is concentrated in the hands of big
+companies because smaller microbrewers don't have the money to market their
+products, says Mike Benher, director of communications and campaigns for the
+Campaign for Real Ale.
+    "People aren't drinking real ale, because it has an old image of flat
+caps to it," Mr. Benner says. "We're trying to modernize the product and
+talk about its positive qualities, which are that it's a natural product
+made out of hops, malted barley and water."
+    The ale-campaign people believe marketing real ale as a wholesome
+alternative to lager-which is generally mass-produced-will appeal to young
+people who are attracted to natural and organic products in other sectors
+such as food and cosmetics.
+    Hops used in making ale aren't grown organically, since they are easily
+prone to disease, but they are natural and contain no preservatives, Mr.
+Bennet says.
+    The ad campaign isn't the first attempt to breathe new life into ale
+sales. Ale brewers started rushing out cooler versions of their brews last
+year in an effort to attract younger drinkers who were turned off by the
+warmer temperatures at which ale has traditionally been served here.
+    They have also tinkered with the look and feel of their beer, steering
+away from dark and heavy texture to make it look more light and
+frothy."We're taking the big lager companies straight on," Mr. Bennet says.
+"We're fighting back."
+
+
+
+
+Pete Calinski
+East Amherst NY
+Near Buffalo NY
+
+
+********************************************************************
+*My goal:
+*      Go through life and never drink the same beer twice.
+*     (As long as it doesn't mean I have to skip a beer.)
+********************************************************************
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 11:29:45 -0800 (AKDT)
+From: Rorik Peterson <ffrap1`at`aurora.uaf.edu>
+Subject: opensource brewing software
+
+
+Christopher Farley asked if there was a free opensource homebrew software
+project. Yes, there is: QBrew.  It is still being expanded and improved,
+but that is the nature of opensource code.  I use it and find that it
+provides all the attributes of ProMash that I ever used.  Check it out at
+http://www.usermode.org/code.html  If it doesn't provide all the features
+you're looking for, let the development team know (or better yet, get
+involved yourself).
+
+
+There are also pre-compiled binaries available for Debian and SuSE Linux,
+or you can build your own from source.  It uses the Qt widget set,
+which is also freely available at www.trolltech.com.
+
+
+If you're looking for a Windoze or Mac port, I don't know of any, but then
+what is the point of a "free" program after purchasing a proprietary OS?
+
+
+Rorik Peterson
+Fairbanks, Alaska
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 19:06:26 -0500
+From: "2brewers4u" <2brewers4u`at`home.com>
+Subject: Plumbing for a three-tier RIMS
+
+
+
+
+Subject: Plumbing for a three-tier RIMS
+
+
+My RIMS is simple.... Liqour on top (gravity to fill mash and sparge)
+mash tun and kettle below liqour tank.  I use the pump to recirulate the
+mash.  Out of the bottom of the tun, to the pump, to the heater chamber, to
+the "H" copper tubuing (inside tun for gentle wort distribution), and back
+out the bottom of the tun.  When sparging, use the gravity. Open the
+sparge/liqour valve slightly, and the valve going to the kettle. A little
+practice and the system runs itself...here is a good page to start:
+ http://home.att.net/~JackSue/index.html  Just read all info. There are many
+diagrams that will show you exactly what I mean...dude, it is failsafe!!!!!
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Aug 2001 20:20:30 -0400
+From: "Tom Clark" <rtclark`at`eurekanet.com>
+Subject: Trub
+
+
+I woul;d like some advice...
+
+
+When making beer from a kit, the instructions advise to pour the contents of
+the brewing kettle into the fermenter.   It says nothing about filtering out
+the trub in the botom of the kettle.  However, I have usually poured the
+cooled wort through a stainless steel collander to remove most of the trub.
+
+
+I am wondering.... If I don't filter at this point, will the finished beer
+have more hops flavour?
+
+
+Will the several days in the primary create off flavours if the trub is
+still in there?
+
+
+
+
+Tom Clark
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3703, 08/08/01
+*************************************
+-------

@@ -1,0 +1,1582 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.8.5/8.8.5) with ESMTP id BAA26610
+        for <spencer`at`srvr5.engin.umich.edu>; Wed, 13 Aug 1997 01:17:03 -0400 (EDT)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+        by srvr20.engin.umich.edu (8.8.5/8.8.5) with ESMTP id BAA05392
+        for <spencer`at`engin.umich.edu>; Wed, 13 Aug 1997 01:17:02 -0400 (EDT)
+Received: (from root`at`localhost)
+        by redheat.rs.itd.umich.edu (8.8.5/2.2) with X.500 id BAA29210; Wed, 13 Aug 1997 01:17:02 -0400 (EDT)
+Received: from brew.oeonline.com (root`at`brew.oeonline.com [206.31.224.50])
+        by redheat.rs.itd.umich.edu (8.8.5/2.2) with ESMTP id BAA29203; Wed, 13 Aug 1997 01:16:59 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA18696 for realhomebrew; Wed, 13 Aug 1997 00:31:56 -0400
+Date: Wed, 13 Aug 1997 00:31:56 -0400
+Message-Id: <199708130431.AAA18696`at`brew.oeonline.com>
+To: homebrew`at`brew.oeonline.com
+From: homebrew-request`at`brew.oeonline.com (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2483 (August 13, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2483                             Wed 13 August 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Re: Gas Flow Characteristics (Bob.Sutton)
+  Re: A/B Born On (Joe Rolfe)
+  Carbonation Problems!!! (Tim Steffens)
+  Re:Buying LME from Williams Brewing? (SANDY COCKERHAM)
+  re: Budweiser's born-on bull ("Randy J. Lee")
+  Cherry juice in beer (nkanous)
+  IMKR? (Bob.Sutton)
+  Extract IPA ideas (Matthew Arnold)
+  Wilted, Flaked barley, ("David R. Burley")
+  Blue Moon: Coors responds (Graham Barron)
+  100 IBU IPA's (Matt Gadow)
+  Fermentors for 10+ gallon batches (Barry Browne)
+  Malta as a Yeast Starter (Katy or Delano DuGarm)
+  Flying Brews ("Michael R. Frank")
+  Killing Lactic bad guys (Randy Ricchi)
+  RE: Budweiser's born-on bull ("Mike Blakey")
+  Experiments with Sorghum Molasses (Kit Lemmonds)
+  Old Ale Recipe Question (Charles Burns)
+  re:keg baggage (Mench5)
+  jockey box / leaking CO2 tank ("Keith Royster")
+  apple juice starters//recent topics (smurman)
+  Carbonation in small bottles (al_ru)
+  Roasted barley. How?? (Alessandro Calamida)
+  PBS Hopback ("Alan McKay")
+  Re: Extraction Efficiencies (Fredrik Staahl)
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to homebrew`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to homebrew-request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`realbeer.com
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        hbd.org        /pub/hbd        
+        ftp.stanford.edu        /pub/clubs/homebrew/beer
+  E-mail...
+        ftpmail`at`gatekeeper.dec.com (send a one-line e-mail message with 
+                                   the word help for instructions.)
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 11 Aug 1997 8:18:00 -0400
+From: Bob.Sutton`at`fluordaniel.com
+Subject: Re: Gas Flow Characteristics
+
+
+  efouch`at`steelcase.com mused:
+  
+  
+  >>>Should the regulator be between the flow 
+  meter and the tank, or between the flow meter 
+  and the burner (providing back pressure)?<<<
+  
+  It really depends on what you're trying to 
+  control - gas flow or burner pressure. If you 
+  want consistent flow control the regulator 
+  should be installed upstream of the flowmeter. 
+  This ensures the flowmeter sees a constant 
+  pressure, not subject to the thermally induced 
+  pressure fluctuations in your tank which could 
+  affect the accuracy of your meter reading 
+  (unless you're using a ma$$ flowmeter). You 
+  could add a pressure gauge at the burner inlet 
+  and tweak the regulator during operation to 
+  deliver 10 psig.
+  
+  If you want consistent pressure at your burner, 
+  the regulator should be located downstream from 
+  the flowmeter, 
+  
+  >>>Will a 20 foot line behave the same (in terms 
+  of flame size and BTU output) as a 50 foot line 
+  for the same regulator/flow meter 
+  configuration?<<<
+  
+  Not quite. A longer line to the burner will 
+  result in less gas flow if all else is unchanged 
+  (meaning that you added an additional 30 foot of 
+  line to the 20 foot setup, without adjusting the 
+  pressure regulator or the flow valve). When the 
+  gas line length is increased, the pressure/flow 
+  into the burner will be less. You could 
+  compensate for this by increasing the regulator 
+  pressure setting (up to a point, since your 
+  limited to the tank pressure), or opening your 
+  flow valve.
+  
+  Clear? Oh well :(
+  
+  Disclaimer: In trying to imagine your setup, 
+  I've probably made some rash assumptions which 
+  necessarily discount the validity of these 
+  comments. I'd be disappointed if someone didn't 
+  make a wholesale stab at a counter-argument.
+  
+  
+  Bob
+  Fruit Fly Brewhaus
+  Yesterdays' Technology Today
+  
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 09:22:33 -0400 (EDT)
+From: Joe Rolfe <onbc`at`shore.net>
+Subject: Re: A/B Born On
+
+
+hey now;) lets not bash bud, if you know what beer making is
+about then these guys are the king...granted the marketing
+end is not on par with the production.....now i will get
+tons of email to the other end of this scale ....
+
+
+seeing a born on (which is the date of packaging not brewing)
+on the day it was born is not out of the question.  i cant vouch
+for the guy setting up the date for the run but it is possible.
+erom what i have heard - the older/smaller bud plants around 
+the country are brewing. some spot shortages are occuring. plus 
+seeing that the bud distributors have "99.99% share of mind" 
+ok and widmer get the rest...)  fast turns out of the warehouse 
+are happening locally (Northeast of boston). seems the thirty packs 
+are flying...drink on the same day as packaged - how much fresher 
+can it be - if it true..
+
+
+oh and fermentation is a day - yeah it is possible but the equipment is 
+pretty expensive for a homebrewer budget.
+
+
+
+
+so flame away for my sticking up for bud....
+
+
+joe
+jrolfe`at`mc.com
+
+
+
+
+
+
+
+
+>from: Steve Jackson <stevejackson`at`rocketmail.com>
+>subject: Budweiser's born-on bull
+>
+{SNIP} 
+>Notwithstanding the fact that I've never seen a distributor move beer
+>that quickly, something seems more than a little fishy about Bud's
+>"born on" dates here. Even for as something as thin as Bud produced by
+>heavily industrial mechanisms, there's no way in hell that a
+>fermentation could be completed in a day. And I would guess Bud's
+>"exclusive beechwood aging" takes a bit longer than a few hours as
+>well.
+>
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 08:52:50 -0500 (EST)
+From: Tim Steffens <tsteffen`at`indyvax.iupui.edu>
+Subject: Carbonation Problems!!!
+
+
+Hi gang,
+
+
+I've been listening for some time known and what a great format. Kudos to
+list  master(s).
+
+
+I've been having a problem with carbonation. I've started brewing again
+after 6 years and my last 2 batches have had little to NO carbonation.
+
+
+The first batch was a basic American Wheat all extract brew. 2 stage
+fermenter. When I racked it to the 2nd fermenter the bubbles in the air
+lock were about 6 minutes apart. I think I left it go to long? When I
+racked it to the bottling bucket I added the sugar directly to the brew and
+stirred it very gently as not to add any air. In the end some were more
+carbonated than others but none were carbonated like they should be.
+
+
+The second batch I just opened yesterday and NONE of it carbonated this
+time. This was a Brown Ale part grain and extract. I kept the yeast in the
+starter to long and killed it. Put I rehydrated some more and it was
+churning like mad with in 24 hours. And again I think I waited to long to
+rack it to the second fermenter. The bubbles were 6-8 minutes apart. This
+time I made a sugar starter, boiled some water, let it cool, and pitched
+the sugar to that. Added the started to the bottling bucket and racked the
+brew. Waited 2 weeks and NO carbonation.
+
+
+What am I doing wrong? Am I waiting to long to rack it to the 2nd fermenter
+or is it something when I bottle it?
+
+
+HELP!!!
+
+
+Tim Steffens, CRA
+Indiana University Medical Center
+tsteffen`at`indyvax.iupui.edu
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 14:02:26 +0000 (GMT)
+From: SANDY COCKERHAM <COCKERHAM_SANDRA_L`at`LILLY.COM>
+Subject: Re:Buying LME from Williams Brewing?
+
+
+I have purchased these bags of LME from Williams in the past with some
+success (and some hideous failures.) I am recalling a great SNPA clone...
+Their pale LME is Alexander's (I think.) However, I found another
+mail order that I like better for this. Check out HopTech (I think
+the website is http://www.hoptech.com) as they sell Alexander's LME
+in light, amber, dark, and wheat at a pretty good price. Last I ordered
+was 1.79/lb. and it comes in half pound increments.  If you order
+at least 7 lb. you don't have to pay for the nice little plastic bucket
+that they come in. The buckets are handy for storing crystal malt and
+such later on. If your order totals 40.00 or more there is no shipping
+added. I was always frustrated by the shipping prices from Williams, as
+Indiana is a long way from their location in California!
+These two suppliers are located pretty close to each other.
+
+
+Hope this helps,
+Sandy Cockerham
+(no affiliation, blah, blah, blah)
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 09:11:30 -0500
+From: "Randy J. Lee"<rjlee`at`imation.com>
+Subject: re: Budweiser's born-on bull
+
+
+
+
+
+
+
+
+
+
+First off, the Born on dating is just that; when the thing was packaged. I
+use "conceived on dating"; when the thing was brewed.
+
+
+Still, Distributors have *some* stock of beer so incoming beer would be
+delayed getting to the streets unless the distributor screwed up and didn't
+rotate stock.
+
+
+Also, distributors generally load trucks during the night so the drivers
+can jump in and go in the morning (they have a long day as it is without
+having to wait for a truck to load up). This date thing you mention is
+*very* interesting indeed.
+
+
+Randy Lee
+Viking Brewing Company
+Dallas, WI.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 11:22:34 -0400 (EDT)
+From: nkanous`at`tir.com (nkanous)
+Subject: Cherry juice in beer
+
+
+Greetings,
+Stopped at the local orchard yesterday and found some 1/2 gal
+and gallon bottles of "cherry juice".  The label said that it
+is made entirely from the juice of tart cherries.  Anybody
+ever used juices of this sort in brewing fruit beers?  Any
+suggestions for quantities?  This probably has been sweetened
+before its pateurization.  It would probably be easiest to add
+to the secondary to allow any fermentation to take place.  Any
+simple ways to check fermentability without resorting to clinitest
+sticks or anything?  I suppose I could ferment just enough to fill
+my hydrometer, eh?  Thanks.
+
+
+Nathan in Frankenmuth, MI 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 13:13:00 -0400
+From: Bob.Sutton`at`fluordaniel.com
+Subject: IMKR?
+
+
+  Having survived a new level of physical pain 
+  brought on by kidney stones (some say it exceeds 
+  birth - I don't plan to go that route), I found 
+  some disturbing medical advice straight from the 
+  National Institute of Health (NIH).
+  
+  When the urologist stopped by to check on my 
+  progress, he stated that I should increase my 
+  fluid intake to help flush these pesky buggers 
+  from my system. Gee - I thought - a nobrainer - 
+  until he passed on the NIH recommendations to 
+  reduce BEER intake if your predisposed to kidney 
+  stones (whatever that means).
+  
+  Well I can easily deal with the reduction of 
+  asparagus, collards and rhubarb in my diet...
+  but BEER?
+  
+  It seems to me the NIH has taken a wrong turn 
+  somewhere. For you chemists out there, kidney 
+  stones are typically formed from calcium 
+  oxalate. Since I haven't brewed with oxalic acid 
+  - and my calcium hardness is no worse that 
+  drinking water in many parts of the world - I'm 
+  puzzled by the reasons to reduce beer intake 
+  maybe the NIH was thinking "Bud").
+  
+  Any idea why beer shows up as a for kidney stone 
+  promoter? Maybe we need to have warning labels 
+  on our brews.
+  
+  Should I stop drinking - Is My Kidney Ruined?
+  
+  
+  Cheers!
+  Bob
+  Fruit Fly Brewhaus
+  Yesterdays' Technology Today
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 18:13:48 GMT
+From: mra`at`skyfry.com (Matthew Arnold)
+Subject: Extract IPA ideas
+
+
+Greetings, oh mighty collective,
+
+
+I'm considering brewing an extract-specialty grains IPA. My goal with
+this beer is threefold: 1) Keep it simple: thus no partial mashing, 2)
+Experiment with high-alpha hops, 3) Consider dry-hopping.
+
+
+Here's the recipe idea:
+
+
+Zoot's EPA, Mk II (Zoot is my dog. I call is an "E"PA because she
+cries or "eeps" when she can't join in the brewing fun)
+
+
+6.6# Northwestern Gold LME
+1.5# Northwestern Gold DME
+1#   40L Crystal
+2 oz Galena pellets (12% AAU, 60 minutes)
+     and
+1 oz Cascade pellets (3.5% AAU, 10 minutes)
+1 oz Cascade pellets (ditto, dry hopped in secondary)
+     or
+1 oz Willamette pellets (5.1% AAU, 10 minutes)
+1 oz Willamette pellets (ditto, dry hopped in secondary
+2 pkgs Danstar Nottingham or 1 starter of Wyeast #1028 London
+
+
+SUDS figures this will come out to an original gravity of 1.065 and
+85.4 IBUs using Tinseth's numbers figuring on a four-gallon boil. 85.4
+might seem to be a little extreme, but my hop utilization hasn't been
+everything I might like, plus I'll be using a hop bag and probably a
+blow-off tube. Plus, if it is too bitter I'll just let it sit in the
+bottle for a few months.
+
+
+I chose Galena for bittering because it is supposed to be a more
+neutral bittering hop. I will use either Cascade or Willamette,
+depending on if I'm in a more American or English mood when I'm at the
+brewshop. I will probably end up using the dry yeast just for the sake
+of goal #1.
+
+
+I've got two questions. 1) How does the recipe look, especially to you
+hop-heads? 2) What's the best way (!) to dry hop? I thought about
+putting the oz of pellets in the secondary and then racking the beer
+on top of them. Will it be too difficult to keep the pellets in there
+and not get them in the bottling-bucket come bottling time? Will one
+oz of Cascades be too overpowering? How about the Willamette? (OK,
+that's more than two questions. Mea culpa.)
+
+
+Any thoughts, hints, anecdotes would be welcome. N.B., I do not have
+access (other than by mail-order) to whole leaf hops.
+
+
+Thanks,
+  Matt
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 15:12:01 -0400
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Wilted, Flaked barley,
+
+
+Brewsters:
+
+
+Now Compuserve tells me my "=3D" signs problem =
+
+
+( and I see other Compuserve subscribers with
+ the same problem)  is because they upgraded
+ to a Mime program which converts to Latin-1
+ ( isn't that a dead language?)  and this HBD
+ server can't  understand this Latin-1. Thanks a lot.
+So I'll try to remember to shorten the lines to less the 60 Ch.
+- ----------------------------------
+Tom Herlache corrects this amateur botanist by
+ correctly stating that Verticillium and Fusarium
+ are in fact fungi diseases and not viral diseases.
+  My Ortho Home Gardener's Problem Solver states
+ also that there is no known chemical treatment
+ (which I knew from an earlier life and why I thought
+ it was a virus) and that it is a fungus and only the =
+
+
+addition of fertilizer is recommended to make the
+ plant stronger and withstand the attack. Soil
+ fumigation is recommended. And the selection of resistant plants.      =
+
+
+
+
+Thanks to Jay Reeves for commenting on the
+ irregular water patten and not enough sun as
+ being another potential cause for this yellowing
+ of the lower leaves.  I fit his possibility also.
+- --------------------------------------------- =
+
+
+Doug Moyer asks about using flaked barley with
+ extract batches.  If the extract has no diastatic
+ power don't bother or your third suggestion is
+ best.  Mash the Barley with some pale malt in
+ a ratio of about 1:1.  I suggest that if a thicker head
+ is desired that a single infusion mash at 155F =
+
+
+is probably inadequate. Stop for 15 -30 minutes
+ at 122F then heat up to 155F and finish the
+ mashing for 30 minutes,  strain and drain and
+ rinse and add the extract plus the necessary
+ water, boil, add hops. etc. Use 1 quart of water
+ per pound of grain - so 2 quarts for this mashing. =
+
+
+ The soluble protein formed at 122F will
+ provide the head you desire.. The 155F hold
+ will provide you with fermentable sugars
+ and some dextrins.  Holding at 158F instead
+ of 155F will give you more dextrins.
+- -----------------------------------------------
+Ian Smith says:
+>Also there has been talk of a "grassy"
+ smell/taste associated with home grown
+>hops on the HBD. Does anyone know how
+ to avoid/eliminate this ? I plan on
+>using a food dehydrator to dry my hops
+ - how do I know when they are dry ? =
+
+
+
+
+Grassy smelling hops ( if I am imagining it correctly)
+ I'm guessing may be due to a "silage" smell and
+ perhaps explains why the professionals treat their
+ green hops with sulfur dioxide to prevent spoilage
+ while drying.  Try getting a sulfur candle from your
+ HB store or buying sulfur at the drugstore and  burning
+ that so the vapor passes through the clusters before
+ they are dried.    I have also smelled hops that are
+ too dry when picked and they do have a sort of
+ dried grassy smell.
+
+
+To test for correct dryness, place a small
+ cheesecloth bag containing a weighed amount =
+
+
+of hops in the drier with the rest of the hops and
+ weigh it every 12 hours or so.  When you get a =
+
+
+fairly steady weight then the hops are as dry as
+ they will get with your method. Hops will lose
+about 80% of their picked weight.
+- ------------------------------------------------
+Rob Sprecher says:
+
+
+>What's the best filter size to use for filtering beer.
+>I've seen 0.5, 1, 5, 10, and 20 micron filters.
+ Any recommendations?
+
+
+First see the latest issue of Zymurgy  in which =
+
+
+Ray Daniels compares various manufacturers
+ of filters.  I thought his approach was fine, but
+ there was a glaring error in his reporting. He did
+ not report a taste comparison along with the
+ clarity measurements. Filtration has the
+ reputation of causing a degraded quality in the beer.
+
+
+Biggest problem I see with filters in comparing
+ pad filters and sieve filters is that pad filters
+ are often active chemically ( in the old days
+ Asbestos was added) and indiscriminately
+ remove protein as well as particles.  Also
+ some filters routinely use things like
+ Diatomaceous Earth which can adsorb protein.
+ =
+
+
+ I believe this is the source of the idea that filtering =
+
+
+can affect the organo-leptic properties of a filtered =
+
+
+beverage negatively.  Ray should have compared =
+
+
+both filtering ability and the taste to be sure you are
+ not unselectively removing protein by adsorption =
+
+
+on the pad material.  This sort of thing does not
+ happen with the modern membrane filters.
+
+
+I use the Filter Company's 5 micron filter cartridge
+ to remove yeast and it does an excellent job at filtering
+ 5 gallons of yeasty, cloudy beer in about 3 or four minutes.
+   I usually filter warm uncarbonated beer into a
+ CO2 flushed Cornie ( see my description here
+ a couple of weeks ago about filling a keg with water
+ and then pushing it out with CO2).  The beer is
+ sparkling clear while warm.  Chilling it will produce =
+
+
+a chill haze.  =
+
+
+
+
+I have a 0.5 micron filter which I have yet to use,
+ but bought it to filter the cold beers to remove the
+ chill haze after at least 3 days chilling.  Based on the
+ report in Zymurgy this may take 15-20 minutes. A =
+
+
+ Filter Company employee told me that even a
+ 0.2 micron filter ( for really *sparkling* beer) will not
+ have a bad effect on the organoleptic properties,
+ but that 0.1 microns has been reported to do so. =
+
+
+
+
+I recommend that you get both the 5 micron
+ (yeast removal) and the 0.2 or 0.5 micron
+ (chill haze) membrane filter to produce haze free
+ beer.  Doing two filtrations will make the smaller
+ filter last longer and filter faster than trying to do
+ the job with just the smaller filter.  Alternatively,
+ use an inexpensive approximately 5 micron filter
+ used for water filters ( check to make sure they
+ have no clays or carbon black or  whatever in them
+ - go for the wound filters) in line with the smaller
+ micron filters to do it all at once =
+
+
+- ----------------------------------------------
+Joe Stone asks for opinions on a Hop Back. See
+ my comments of last week.  I use a small filter
+ made from a "Choreboy" copper or SS  metal
+ turnings scrubber.  Works great and costs
+ about 39 cents, leaves the hops in the kettle
+ so there is no limitation on the volume like
+ you describe for the commercial hop back.
+ Also I doubt this Hop Back will do a good job
+ at removing hot break if the hops are allowed
+ to move.  I say spend that $84.61 on something
+ else - like malt- and hop back from this offering.
+- ------------------------------------------------
+Eugene Sonn asks how to measure out his
+ hop extract in pounds when he doesn't have a scale.
+
+
+First idea is to make your own scale (balance).
+ Use a flat board on a fulcrum ( a pencil taped on,
+ for example)  on which you can place bowls at
+ either end. Put a bowl with 16 ounces ( 2 cups)
+ of water on one end and a similar weight bowl
+ on the other.  Pour in warm hop extract into the
+ bowl at the other end until the board balances.
+  Measure the volume with a measuring cup.
+
+
+Also you can try placing water in a deep kettle or
+ waste basket deeper than the can of extract.
+ Mark the level with a piece or tape or marker. =
+
+
+Put the can of extract ( unopened, of course) in
+ the water and remove the water back down to
+ the mark.  The volume of the water you removed
+ is the volume of the 15Kg can.
+
+
+In the first case you have the volume of one pound
+=2E In the second you have the volume per 15 kilos
+ which you can convert to pounds by multiplying =
+
+
+15 X 2.2 =3D 33 lbs and dividing by the volume of
+ water to get the density in pounds per volume. =
+
+
+- ----------------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 16:27:07 -0500
+From: Graham Barron <gbarron`at`cq.com>
+Subject: Blue Moon: Coors responds
+
+
+In what I consider a very much appreciated gesture and a commentary on
+the relevance of our discussions on this digest, Coors Brewing Company
+has responded directly to me regarding the recent thread on Blue Moon and
+surrounding issues.  Per their request, I have posted the email I
+received from Keith Villa, the brewer of the Blue Moon line of beers. 
+Commentary, etc., is welcome.
+
+
+
+
+>>>>
+
+
+<excerpt>To:  Graham Barron (gbarron`at`cq.com)
+
+
+
+
+     As the brewmaster who creates all of the Blue Moon brews, I
+
+
+thought it was appropriate to respond to your comments recently
+
+
+posted in the Homebrewer's Digest archives.
+
+
+     First, some of my credentials.  I am a homebrewer (since 1983),
+
+
+a professional brewer (since 1986), and a certified beer judge with
+
+
+the BJCP.  I judge at numerous homebrew competitions (including the
+
+
+national AHA competitions), and at the Great American Beer Festival
+
+
+and our state fair microbrew competition.  I also lived in Belgium
+
+
+for almost 4 years while earning my Ph.D. degree in brewing
+
+
+biochemistry from the University of Brussels (Flemish campus). 
+
+
+During my studies, I had the opportunity to visit and tour in-depth
+
+
+many Belgian breweries including large, small, artisanal, lambic,
+
+
+Trappist, etc.  I also had the opportunity to visit breweries in
+
+
+England and Germany to round out my brewing education.
+
+
+     Regarding beer quality and medals, I ensure that Blue Moon ales
+
+
+are made from only the highest quality 2-row malt, hops and spices. 
+
+
+The only adjunct we use is the real honey in Honey Blonde Ale.  In
+addition, Blue Moon ales are all kosher.  We do not advertise it, but
+they pass the strict standards of the Orthodox Union.  Blue Moon products
+have won medals from the Colorado State fair, the Great American Beer
+Festival
+
+
+and the World Beer Championship.  Each of these competitions employs
+
+
+the judging talent of professional brewers and beer writers.  These
+
+
+competitions are judged blindly and I believe this is the fairest way
+
+
+to award medals, no matter who wins.  As you know, Blue Moon is an
+
+
+operating unit of Coors, and we do not hide this.  What this means is
+
+
+that only the highest quality standards are used to make Blue Moon
+
+
+products.   I create and oversee the brews to make sure only the best
+
+
+ingredients are used.  The brewers who have won the most medals, overall,
+at the Great American Beer Festival include Coors, Alaskan Brewing,
+Anheuser-Busch and Boston Beer.   As you can see, both big and small
+brewers can make award-winning products. 
+
+
+And, please do not confuse beer styles.  What I mean is, do not put
+
+
+down one style of beer as watery, while another might be praised for
+
+
+being big and aromatic.  For example, Original Coors is an American
+
+
+lager (read the AHA or GABF guidelines), and has a GABF gold medal to
+
+
+prove that it is an excellent example of the style.  It certainly is
+
+
+not a Bohemian or German pilsner.  Also, please remember that some
+
+
+styles have fairly wide guidelines.  For example, many Americans will
+
+
+say that Hoegaarden is the best example of a wit.  However, if you
+
+
+went to Belgium and asked for the best wit, you would get many
+
+
+different replies, ranging from examples with strong coriander aroma
+
+
+to those with a bland nose.  Finally, as you claim to have a cynical
+
+
+view of large brewers, you might be surprised to find out who really
+
+
+owns Hoegaarden and Celis breweries.
+
+
+As a fellow homebrewer,  I urge you to paste this letter in the 
+
+
+Homebrewers Digest along with any additional comments.
+
+
+Sincerely,
+
+
+Keith Villa,  Ph.D.
+
+
+Master Brewer, Blue Moon Brewing Company
+
+
+
+
+
+
+</excerpt><<<<<<<<
+
+
+
+
+I replied to Keith privately, but in summary I wrote:
+
+
+
+
+1) I never intended to question the quality of ingredients of the Blue
+Moon products (although I may have speculated that the beers were not
+entirely malt, but I can't remember now);
+
+
+
+
+2) that I believe in the integrity of most commercialized brewing
+competitions, but do question the methods of judgement used at the "World
+Beer Championships";
+
+
+
+
+3) recognized that large brewers can brew "award winning" beers, but that
+the styles that they dominate (American lager, "premium" lager, etc.)
+are, at least to craft beer lovers and most people who actually care
+about these competitions, inconsequential;
+
+
+
+
+4) reiterated that while Blue Moon white may be in style, I am not
+obsessed with style nor am I very concerned with style definitions;
+
+
+
+
+5) that being said, I was trying to state in my original post that there
+are several far better examples of Belgian white beer available in the US
+(both domestically produced and not) that homebrewers should try to
+emulate when reproducing white beer;
+
+
+
+
+6) I never intended to put down anyone's beer taste or to try and put my
+palate above anyone elses; and
+
+
+
+
+7) wrote that I was aware of the large brewer interests that control, at
+least in part, the Celis and Hoegaarden breweries.
+
+
+
+
+Anyway, I would like to thank Keith again for writing and getting
+involved here.
+
+
+
+
+
+
+
+
+
+
+Graham L. Barron
+
+
+
+
+"People, there's more to life than white bread!" --David Rosengarten
+
+
+
+
+"I feel sorry for people who don't drink. When they wake up in the
+
+
+morning, that's as good as they're going to feel all day."
+
+
+          --Frank Sinatra
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 14:04:28 -0700
+From: Matt Gadow <mgadow`at`ix.netcom.com>
+Subject: 100 IBU IPA's
+
+
+I recently noticed a great looking recipe on Glenn Tinseth's Hop's page
+(www.realbeer.com/hops) for Dave Brockington's Sister Star of the Sun
+IPA!  This beer looked like a challenge I couldn't back away from-
+3 oz. of Chinook Hops for bittering, plus 4 more oz. EKG / Fuggle for
+flavor & aroma!
+This generates about 125 IBU by Tinseth's method of calculation,
+although the IPA style guidelines are 40-60, I believe, unless there is
+an adjustment factor for the proximity to the hop growing region that
+I'm not factoring in... :-)
+Has anyone tried this recipe? - Dave has listed numerous BOS, and gold
+medals, so it obviously has the credentials.
+I brewed a this recipe of this last weekend, and it has fermented out
+nicely from 1.066 down to 1.018 (although it was murder to CF chill -
+the boil hops were removed at the end of the boil, but the 4 oz of
+finish hops choked the old trusty choreboy!)
+Dave suggested also dryhopping (.25oz fuggle) in the keg, so that's now
+done, too!
+
+
+Can't you all just taste the hops from your terminal?
+Comments?
+Anyone want to start a "worship of the IPA style" thread?
+Your witty comebacks?
+
+
+Matt Gadow
+mgadow`at`ix.netcom.com
+- -------------------------------
+If you're not livin on the edge
+You're takin up too much space...
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 17:29:38 -0700
+From: BBrowne`at`golder.com (Barry Browne)
+Subject: Fermentors for 10+ gallon batches
+
+
+  Beer me dudes
+  
+  I am seeking advice on fermentors for 10+ gallon batches.  Currently I am 
+  retooling my homebrewery to increase my brewlength from 6 to 10+ gallons and 
+  my last quest is to determine how to ferment this amount of beer in a single 
+  vessel.  There are several obvious choices, the big glass demijohn, the 1/2 
+  barrel SS keg, and 15 gal food grade HDPE barrels (like those used to ship 
+  malt extract) .  I think the risks associated with a large beer-filled glass 
+  vessel outweigh the benefits of single vessel fermentation and therefore I 
+  eliminate a glass demijohn from consideration.
+  
+  The Sankey seems to be a decent option (durability etc.). I'd appreciate 
+  hearing from folks about their experiences, good or bad, with these vessels 
+  (or any others) as fermentors.  Do you use them as open fermentors (primary) 
+  by cutting off the lid?  Do you clean up with NaOH?  Any other recommended 
+  vessels??  Thanks.
+  
+  Barry Browne
+  Atlanta, GA
+  
+  
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 18:21:19 -0400
+From: Katy or Delano DuGarm <dugarm`at`mnsinc.com>
+Subject: Malta as a Yeast Starter
+
+
+There's been some discussion recently of malta, the unfermented wort that
+is popular as a drink or tonic in some Latino communities.  Looking back at
+the HBD archives, I found conflicting information concerning malta's
+suitability as a yeast starter.   
+
+
+At least one writer indicated that yeast did quite well in malta, while
+others suggested that yeast grew poorly if at all in malta.  I decided to
+try it myself.  My conclusion: malta has preservatives in it that inhibit
+yeast growth, making it useless as a yeast starter.
+
+
+My corner grocery sells three kinds of malta:  Malta Goya, Malta India and
+Malta Goya Lite.  All three are produced by The Lion, a brewery in
+Wilkes-Barre, Pennsylvania.  I bought a six pack of Malta Goya, as it was
+twenty cents cheaper than Malta India.
+
+
+The label indicates that Malta Goya is "a cereal beverage brewed from
+quality malt, hops, selected grains and corn syrup."  Sounds like my yeast
+starter wort.  
+
+
+I innoculated two 35-ml tubes of sterile wort with Yeast Culture Kit
+Company American Ale yeast, and let them ferment.  I then pitched the two
+tubes into identical sanitized 1-liter Erlenmeyer flasks.  One had two
+bottles (24 fl. oz.) of malta, the other had approximately the same amount
+of canned wort (pressure canned at 15 lbs. for 35 minutes).  I shook both
+flasks in an attempt to aerate the two worts, and to try to degas the
+malta, which is carbonated. 
+
+
+In the course of several days the canned wort showed normal yeast growth,
+with a kreusen.  The malta stayed inactive, though some fermentation did
+occur (the specific gravity declined by 8 points).  I dumped the malta and
+used the canned-wort starter in an American ale.  
+
+
+I next tried fermenting two bottles of malta in another 1-liter Erlenmeyer
+flask, using a 5 gram packet of champagne yeast.  This was much more
+successful: yeast activity started quickly and the beer dropped 45 points.
+There was a significant yeast cake at the bottom of the Erlenmeyer flask.
+
+
+My guess is that malta contains potassium sorbate or some other
+preservative to inhibit yeast development.  This makes sense, as otherwise
+bottles of malta would explode on shelves with an alarming regularity.  The
+dosage is enough to handle a small innoculation of yeast (hence the
+difficulties the American Ale yeast had), but not enough to handle a large
+amount of yeast, like the package of champagne yeast.  In practice, this
+means that if you really want to, you can ferment malta, but it's a poor
+choice for a yeast culturing medium.  This is a shame, as I'd much rather
+buy my starter wort at the corner grocery store rather than canning it myself.
+
+
+I called The Lion twice, but was unable to confirm their use of
+preservatives in malta.  I can't think of any other way of explaining my
+experience, though.
+
+
+Delano DuGarm
+
+
+
+
+Delano DuGarm
+Arlington, Virginia
+dugarm`at`mnsinc.com
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 15:33:56 -0700
+From: "Michael R. Frank" <mfrank`at`ag.Arizona.EDU>
+Subject: Flying Brews
+
+
+I'm going to fly up to Denver for a few days to get away from the Tucson
+heat and monsoons. I'd like to take some of my recent brews to a few
+friends there.
+
+
+Is it better to pack bottles in checked baggage, or carryon? Is either
+allowed by the airlines? 
+
+
+What is the collective experience on this?
+
+
+Thanks,
+Mike Frank
+Senita Gulch Brewing
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 18:53:35 -0400
+From: Randy Ricchi <rricchi`at`ccisd.k12.mi.us>
+Subject: Killing Lactic bad guys
+
+
+I developed a lactic infection in one of my cornies.  Actually, the
+infection was in a beer that was in the cornie.  I'm pretty sure the cornie
+itself is in perfect health  :-). 
+
+
+To clean it, I rinsed it out and then splashed a solution of powdered beer
+line cleaner in it and ran the stuff through the picnic tap, etc., letting
+it sit awhile first.
+
+
+Then I re-rinsed, and filled the whole thing up with Iodophor solution for
+a few days (covered), ran that stuff through the picnic faucet and hose,
+disassembled the whole thing, including all faucet parts, tore apart the
+poppet valves, and soaked everything individually in Iodophor, rinsed, put
+a new batch in and a few weeks (maybe four?) later....INFECTED again.
+
+
+Does boiling water kill lactic bacteria?  if so, will the hot water ruin my
+picnic faucet/hose/rubber gaskets?
+
+
+If boiling water won't do it, how do I clean this cornie?  TIA.
+
+
+Randy Ricchi
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 18:23:26 -0500
+From: "Mike Blakey" <blakey`at`fgi.net>
+Subject: RE: Budweiser's born-on bull
+
+
+Steve Jackson wrote:
+
+
+>there's no way in hell that a fermentation could be completed 
+>in a day. And I would guess Bud's "exclusive beechwood aging" 
+>takes a bit longer than a few hours as well.
+
+
+AB does not ferment, age, condition, filter, and package its beers all in
+one day.  In fact, AB's process requires approximately 30 days to produce
+Budweiser.  The born-on date symbolizes the day the beer was packaged. 
+This is significant because the pasteurization process kills all living
+organisms in the beer.  This is what makes commercial beer much different
+from homebrew, which can continue to improve while aging for months.  As
+AB's "multi-million-dollar marketing budget" accurately portrays, however,
+"Fresh Beer is Better".  Commercial beers will begin to deteriorate AFTER
+pasteurization and will worsen with age.
+
+
+I believe it is possible for a beer, packaged shortly after midnight, to be
+loaded on a truck and shipped from Columbus, Ohio to Indy by 6:00 AM. 
+However, I, like yourself, am skeptical that the distributor would turn the
+beer over that quickly.
+
+
+My guess?  I know that AB had some initial problems with their born-on
+dating system stamping the wrong dates.  Reportedly, the margin of error
+was never more than plus-minus five days.  If they continue to have these
+problems, then the beer in question may have actually been packaged
+sometime between July 5 - July 9.  I find this much more believable.  In
+either case, your friend was drinking a beer less than a week old, which is
+much better than the industry average.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 21:30:21 -0500 (CDT)
+From: Kit Lemmonds <klemmonds`at`aristotle.net>
+Subject: Experiments with Sorghum Molasses
+
+
+Hey guys and gals,
+
+
+I recently used 2 pounds of sorghum molasses in an Old Peculier-like ale
+that worked fairly well.  I was on my fourth bottle one night when a crazy
+idea struck me - if they can make mead out of honey, why not an all-sorghum
+brew, or at least a 'majority sorghum' brew?  Unfortunately, sorghum is a
+little expensive to experiment with, so I would like to gather a little info
+before I even try it.  Papazian warns that molasses can lend and
+overpowering and unpalatable flavor in excess, but since sorghum is not
+technically molasses I wonder if the results would be different.  If anyone
+out there has used sorghum in a significant amount (let's say 1/5 of your
+fermentables), would you please drop me a quick note on your results?
+
+
+Thanks
+
+
+Kit, who blames the UPS strike for all his brewing frustrations.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 97 20:02 PDT
+From: cburns`at`egusd.k12.ca.us (Charles Burns)
+Subject: Old Ale Recipe Question
+
+
+I pulled out the "Wicked Old Ale" recipe from Cat's Meow. Looks pretty good
+but I have a question abou the mash schedule. It calls for a rest at 95F and
+122F (30 minutes each) even though the malt is "British two row". Then it
+calls for 156-158F for sacharification to complete conversion and a mashout
+at 170F. I could go with this but then it calls for taking 1/4 of the mash
+and boiling it. What's the point here? Are we going for melanoidins without
+being concerned about main mash temp? Does this make sense? It almost seems
+the same as pressure cooking the first runnings for 30 minutes. And whatever
+happened to that experiment anyway, did it really produce a malty flavor?
+
+
+Charle (puzzeled) in N. Cal
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 23:40:53 -0400 (EDT)
+From: Mench5`at`aol.com
+Subject: re:keg baggage
+
+
+when traveling to seattle a couple of months ago from the great beer
+wastelands of florida, i could not resist taking a few 3g kegs to bring back
+some of seattles finest.
+the concern shown at baggage check-in was that they not be pressurized. i
+left 5psi in the kegs so i could release the pressure in front of the
+clerk,showing that they were at 0psi. i also told them i was a beer salesman
+(yeah,right) and they were samples from the conference. from my understanding
+you can check them as baggage with no problem(don't forget the 70lb weight
+limit).
+also, had some freinds taking kegs to cleveland last month and they were
+using those antique pin lock kegs with no pressure valve. the wrong valve was
+depressed and everyone at checkin was treated to a beer shower. even though,
+they were allowed to check them as baggage.
+btw, 3g. each of pike stout, pike pale and leavenworth ipa fresh off the
+plane makes for a popular fellow where i live!!!
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 23:55:44 +0500
+From: "Keith Royster" <keith`at`ays.net>
+Subject: jockey box / leaking CO2 tank
+
+
+Hello fellow brewers! Got a couple of quick questions:
+
+
+1) I already have a spare beer fridge in the garage but I frequently 
+use it to control fermentation temps as well... especially now that 
+I'm doing open fermentation in a 15 gallons Sankey that cannot be 
+easily carried out of the hot garage into the house.  I was toying 
+with buying a second fridge so I could dedicate one to fermenting and 
+the other to serving, but I may also be interested in having a jockey 
+box around for those occassional parties at distant locations.  So I 
+was wondering how practical it is to just serve my own beer out of 
+one at home.  Is it somehow harmful to the beer to serve it slowly 
+over the course of a month or so through copper tubing? I imagine it 
+might since the copper is easily dissolved from the low pH. What 
+about SS tubing instead?
+
+
+2) I moved my 25# CO2 tank the other day and thought if felt mighty 
+light.  I had just refilled it a few months ago and only used it once 
+but thought I remembered it feeling much heavier.  It has since just 
+been sitting in the garage completely disconnected from all gas lines 
+and the main valve completely shut.  It was retested and certified 
+just over a year ago, plus I assume they pressure tested it when they 
+last filled it recently.  Is it possible to have developed a very 
+slow leak in the main tank fittings (remember, I have no lines hooked 
+up at the moment)?  Shouldn't they have caught such a leak when they 
+last filled it a few months ago?
+
+
+Thanks-
+
+
+Keith Royster - Mooresville, North Carolina
+"An Engineer is someone who measures it with a micrometer,
+marks it with a piece of chalk, and cuts it with an ax!"
+
+
+mailto:keith`at`ays.net
+http://www.ays.net -`at`your.service web design & hosting
+http://www.ays.net/brewmasters -Carolina BrewMasters club page 
+http://www.ays.net/RIMS -My RIMS (rated COOL! by the Brewery)
+http://www.ays.net/movingbrews -pumps and accessories for advanced homebrewers
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 23:31:22 -0700
+From: smurman`at`best.com
+Subject: apple juice starters//recent topics
+
+
+
+
+With all the discussion of easy, safe starters I thought I'd mention a
+method a buddy of mine uses.  He simply pops the top off a bottle of
+apple juice, pitches the yeast, fits a top and opens a brew.  I'm not
+saying this is the best method, but it does work.
+
+
+//
+
+
+What is with all the people whining about the Eisbock or botulism
+threads?  This is like me complaining that people post too much about
+RIMS or kegging because I'm not interested in them.  Both of these
+subjects are directly related to homebrewing.  If you're not
+personally interested, then page down to the next article.  If you
+feel the digest has stagnated, then by all means start a new topic,
+but don't tell others what they should discuss.  If you've really had
+it, then unsubscribe.  I'm sure the HBD will gladly refund your
+subscription fee.
+
+
+Sorry, but I had to vent.
+
+
+SM
+
+
+------------------------------
+
+
+Date: Tue, 12 Aug 1997 01:49:57
+From: al_ru`at`usa.net
+Subject: Carbonation in small bottles
+
+
+   Lady G wrote in #2471:
+&gt; We found that the 22 oz bottles had a lot more fizz
+&gt; than the 12 ozers.
+
+
+   Whether really it and the quality of carbonation (by priming  
+sugar) depends on a size of bottles?! Whether someone can explain
+this effect (or to refute it)?
+   I have 2 boxes of small bottles (on 300 grams) and I planned
+to use them in near future. Is it bad idea for the reason of 
+problems with carbonation (by priming sugar) and better to me use
+bottles of a greater size?
+
+
+Thanks for help in advance!
+Al Petrukhin.
+
+
+------------------------------
+
+
+Date: Tue, 12 Aug 1997 11:28:28
+From: Alessandro Calamida <alessandro.calamida`at`auto.fiat.it>
+Subject: Roasted barley. How??
+
+
+Many recipes require roasted barley, but I couldn't find good instructions
+on how to make it. 
+CP book says roast barley is obtained gradually heating the barley up to
+200 C, but it doesn't detail the procedure. I tried  putting some barley in
+my electric oven,  raising the temperature to 200C and keeping this temp
+for about 1 hour. I got hard dark brown grains, but I don't know if it is
+true "roasted barley" that can be used in my beer.
+Does anybody have a detailed recipe for this thing? 
+
+
+Incidentally, I made an experiment putting some barley in my microwave oven
+too.
+I got brown/red grains, much softer than those in the electric oven, and
+with a pop-corn like flavour. Why this difference? Is it something that can
+be used in brewing?
+
+
+What would I get if I roasted crystal malt instead?
+
+
+TIA
+
+
+        A. Calamida
+
+
+------------------------------
+
+
+Date: Mon, 11 Aug 1997 14:14:48 -0400
+From: "Alan McKay" <Alan.McKay.amckay`at`nt.com>
+Subject: PBS Hopback
+
+
+
+
+$85 for a hopback?!?
+Yikes!
+
+
+I've made extremely good ones from a 1 quart Mason jar for about $10 or
+less.
+OK, mine will only hold one oz of leaf hops, but for $75 I think it's
+worth it.
+Check it out at http://www.magma.ca/~bodnsatz/brew/tips/gadgets/a
+
+
+BTW, the page doesn't show it, but I'm now simply using lengths of 3/8"
+copper
+instead of the hose barb/plastic hose combination.
+
+
+Works like a charm for me!
+
+
+ -Alan
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Aug 1997 13:11:29 +0100
+From: fredriks`at`abel.math.umu.se (Fredrik Staahl)
+Subject: Re: Extraction Efficiencies
+
+
+In HBD #2482, Rob Kienle writes about the importance of maintaining
+temperature during sparging. I agree with everything he said. I used to
+have a quite low and unpredictable efficiency, but now when I try to
+maintain the temperature my extraction efficiency is a steady 88-92% (in
+the sparge that is, not including later losses in break material etc.).
+
+
+Some tips:
+
+
+1. Make sure that mash-out temperature is 78C.
+
+
+2. Underlet the false bottom with some boiling water before transferring
+the mash into the lauter tun.
+
+
+3. A lot of heat is lost when recirculating the first wort. Therefore I
+heat it a little in the microwave before returning it to the lauter tun.
+
+
+4. I keep the sparge water at 85C, and it could probably be even hotter
+without raising the temperature in the lauter tun too much if you let it
+cool a little towards the end of the sparge.
+
+
+/Fredrik Stahl, fredriks`at`abel.math.umu.se
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2483, 08/13/97
+*************************************
+-------

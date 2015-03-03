@@ -1,0 +1,523 @@
+﻿Date: Fri, 29 Apr 2005 23:25:30 -0400
+Subject: Homebrew Digest #4767 (April 29, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4767                             Fri 29 April 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  This Space For Rent
+      Visit http:// to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Mail address format (was: solvent flavors/email address) ("Greg 'groggy' Lehey")
+  Lager (off flavor) (leavitdg)
+  memories ("Michel J. Brown")
+  re: Irish Moss ("Michel J. Brown")
+  re: Whirlpooling ("Michel J. Brown")
+  re: Pellets, Flowers & Kettle drains ("Michel J. Brown")
+  Endosperm mashing (Steve)
+  re: Fermentation, Esters, Fusels 1 of 2 ("-S") ("David Houseman")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 28 Apr 2005 11:56:39 +0930
+From: "Greg 'groggy' Lehey" <grog at lemis.com>
+Subject: Mail address format (was: solvent flavors/email address)
+
+
+On Thursday, 21 April 2005 at  1:55:44 -0400, -S wrote:
+> Some time ago an HBDer courteously complained that my email reply address
+> was invalid. 
+
+
+That must have been me.
+
+
+> He was wrong.  RFC0821/RFC0822 are the applicable standards which
+> define email protocol.
+
+
+No, they're obsolete.
+
+
+> The email address: <-s at adelphia.net> is perfectly valid according
+> to those standards.  The name field ("local-part" of RFC0822) may
+> include the hyphen, plus, underbar and many other printable ascii
+> punctuation characters in any position.  See
+> ftp://ftp.rfc-editor.org/in-notes/rfc822.txt for the gory details.
+
+
+Well, the official repository is http://www.ietf.org/rfc.html, but I
+don't see anything obvious there to point to the fact (which is a
+fact) that RFC 822 ha been obsolete for four years.  The new standard
+is RFC 2822 (note that number :-)
+
+
+  Network Working Group                                 P. Resnick, Editor
+  Request for Comments: 2822                         QUALCOMM Incorporated
+  Obsoletes: 822                                                April 2001
+
+
+I've worked through it for several iterations, and now my head aches.
+It seems that if I put the name in "" ("-s" at adelphia.net), it should
+work.  I'm trying this here; we'll see.
+
+
+> If your mailer doesn't accept this valid address you should
+> certainly complain to the vendor.
+
+
+The "vendor" is most certainly following RFC 2822.  They're a little
+anal in that respect.  For example, they drop ISO 8859 characters from
+headings, though they could be represented, because the standard
+disallows it.  Not that that could be a problem on this list, where
+the posting would just be rejected :-)
+
+
+> You *may* find that double-quoting the local-part field is a
+> workaround
+
+
+Yes, that's what the standard may be trying to say.
+
+
+
+
+> for a defective mailer as this is an accepted method of preventing
+> interpretation of special characters (tho' hyphen is not actually a
+> special character).  Try <"-s" at adelphia.net> if your mailer is
+> broken.
+
+
+The MUA is definitely not broken.  Times have changed.
+
+
+Greg
+- --
+Finger grog at lemis.com for PGP public key.
+See complete headers for address and phone numbers.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Apr 2005 10:42:39 -0400
+From: leavitdg at plattsburgh.edu
+Subject: Lager (off flavor)
+
+
+I brewed a lager on 11/14/04
+using:
+8lb Maris Otter base malt
+2 lb Flaked Rice
+1 lb Wheat
+1 lb Vienna
+
+
+One rest at around 145
+Another at around 155
+Mashout at 170F
+
+
+og was 1.05
+fg was 1.012
+yeast was European Lager, a lot of slurry that was about 1 month old.
+
+
+Hops were Goldings, ans Saaz (29 ibu)
+
+
+Anyway, I left it in the primary from 11/14/04 until 3/12/05!
+
+
+Now that it has been bottled, I have it in a fridge at around 39F.
+
+
+There is a mild "cardboard" like taste.  Is this due to my negligence in 
+leaving it so long on the yeast?  
+
+
+And, will it disappear over time?
+
+
+Please note: I did do the diacetyl rest at the end of the loooong primary.
+
+
+HappyBrewing!
+Darrell
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Apr 2005 11:19:31 -0700
+From: "Michel J. Brown" <zymurgyst at comcast.net>
+Subject: memories
+
+
+>"Biochemistry" by Mathews&VanHolde is aimed at med students
+>studying human metabolism, but it's so d*mned good I highly recommend it 
+>for
+>this sort of general biochem/metabolism topic.  Stryker, "Biochemistry" and
+>Lehninger "Principles of Biochemistry" are the classics, but I prefer
+>Mathews&VanHolde.
+
+
+Steve you brought back memories of my younger days, when I actually had 
+these books for text books! I even tried to do my graduate thesis on the 
+growth cycle of saccromyces cervesia in a malto-dextrin substrate as a 
+function of metabolism in the excretion of biowaste byproducts (aka alcohol 
+and CO2).  My advisor told me that home brewing beer didn't count towards my 
+thesis project :-(
+
+
+Prost!
+
+
+Michel
+
+
+Somewhere in the unfashionable eastern end of Mutter's Spiral in the Milky 
+Way 
+
+
+
+
+
+
+- -- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.308 / Virus Database: 266.11.0 - Release Date: 4/29/2005
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Apr 2005 11:25:09 -0700
+From: "Michel J. Brown" <zymurgyst at comcast.net>
+Subject: re: Irish Moss
+
+
+>That's the first time I heard that IM is only useful for light coloured
+>beers. Is this every bodies experience or one of the areas where opinions
+>vary.
+
+
+I'm simply looking at the fact that if you cannot see through it, what good 
+is IM in clarification?
+
+
+>What is the reason IM doesn't work with darker worts?
+
+
+It's not that it doesn't function so much as it is simply not being able to 
+tell the difference imho.
+
+
+>And what impact does higher levels of hopping have on how IM performs?
+
+
+Hops act as a filter bed, and will filter out much of the proteinaceous mass 
+in the hot wort so it's more of an indirect mechanical function, if you know 
+what I mean.  So, greater hop mass, to a point, equals greater filtration 
+capacity of said proteinaceous mass.  Nuff' said?
+
+
+Prost!
+
+
+Michel
+
+
+Somewhere in the unfashionable eastern end of Mutter's Spiral in the Milky 
+Way
+
+
+
+
+
+
+- -- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.308 / Virus Database: 266.11.0 - Release Date: 4/29/2005
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Apr 2005 11:41:55 -0700
+From: "Michel J. Brown" <zymurgyst at comcast.net>
+Subject: re: Whirlpooling
+
+
+>
+>Friction between the wort and the sides and bottom of the whirlpool
+>cause rapid deceleration of the liquid at these surfaces which results
+>in an inward current at the bottom, an upward current at the center and
+>an outward one at the surface. Kunze has a fairly good explanation
+>starting at page 293 (International Edition).
+>
+>A.J.
+>
+Well said, AJ!  Still doesn't account for the *shape* of the cone, which is 
+what was being referred to. IMHO, kettle geometry (undersquare, square, 
+oversquare) and hop mass (few hops, or lot's of hops) will affect this most 
+significantly.  I have a pretty square tun, and use a lot of hops (anywhere 
+from a quarter pound to a pound or more), so the *shape* of the cone when I 
+used to whirlpool, left debris touching the outside walls to a considerable 
+extent.  I think most others here have undersquare kettles, and use far less 
+hops than I do (I live in hop/malt/micro country - Portland).
+
+
+Prost!
+
+
+Michel
+
+
+Somewhere in the unfashionable eastern end of Mutter's Spiral in the Milky 
+Way
+
+
+
+
+
+
+
+
+- -- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.308 / Virus Database: 266.11.0 - Release Date: 4/29/2005
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Apr 2005 11:46:21 -0700
+From: "Michel J. Brown" <zymurgyst at comcast.net>
+Subject: re: Pellets, Flowers & Kettle drains
+
+
+>
+>Good advice, except that Mike said let it sit an hour AFTER chilling.
+>
+I was trying to consider both before and after chilling, guess on review I 
+wasn't as clear as I thought I was on this issue.  Maybe I should be a 
+little more verbose from now on :-)
+>
+>Obviously this is for people with immersion chillers.
+>
+Not necessarily, other chilling methodologies could be forced into this kind 
+of MO, but it would be rather counterproductive imho.  I still keep my 
+immersion chiller around for those off times when I have problems or am 
+running two worts at the same time.
+
+
+Prost!
+
+
+Michel
+
+
+Somewhere in the unfashionable eastern end of Mutter's Spiral in the Milky 
+Way 
+
+
+
+
+
+
+- -- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.308 / Virus Database: 266.11.0 - Release Date: 4/29/2005
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 30 Apr 2005 00:01:49 -0700
+From: Steve <steve at hheco.com>
+Subject: Endosperm mashing
+
+
+I have become interested in boh pils brewing lately for session beers 
+and have tried many commercial varieties for reference including one I 
+liked from Trumer Brauerei.  Trumer Pils: 4.9% alcohol by volume (abv), 
+11.5 degree P starting gravity, and aged for six months. The hop 
+additions include German Hallertau Perle, Spalt Select and Czech Saaz. 
+In 2004, they recently opened a brewery in Berkley, CA, (their homeland 
+brewery is in Salzburg, Austria).  After researching this beer a bit, I 
+discovered that they employ a unique mashing method called endosperm 
+mashing and describe a procedure where huskless grist is mashed and the 
+husks get added back at the end of the mash.  I would imagine that this 
+would be similar to an all wheat grist where rice hulls are needed.  My 
+question is how does one efficiently separate husks from crushed barley? 
+  Does anyone use this mashing technique?  I have found an online 
+abstract about endosperm mashing but I cannot access the article.  The 
+reference is:
+Who Needs Malt? Endosperm Mashing.  Michael J. Lewis. F.I. Brew, 
+Professor Emeritus of Brewing Science, University of California, Davis, 
+California, USA.
+MBAA Technical Quarterly Volume 38, Number 2, 2001, Pages 111-114.  Does 
+anyone have access to this article that can share it with me?
+Thanks,
+Steve
+Stevenson, WA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 29 Apr 2005 21:07:19 -0400
+From: "David Houseman" <david.houseman at verizon.net>
+Subject: re: Fermentation, Esters, Fusels 1 of 2 ("-S")
+
+
+Steve,
+
+
+Great post on this subject.  And while I enjoyed the technical aspects of
+this, I must admit that I won't remember all the details.  I'm sure others
+would join me in asking that someone create a simple table that could be
+easily read to determine how various factors (Fermentation Temperature,
+Pitching Rate, Aeration, Fermenter geometry, osmotic pressure, re-pitching,
+OG, etc.) affect the creation of beer characteristics (Esters, diacetyl,
+fusel alcohol, etc.).   Not the why and how, but a simple table that
+indicates increase or decrease of each factor leads to an increase or
+decrease of each beer characteristic.
+
+
+Dave Houseman
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4767, 04/29/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

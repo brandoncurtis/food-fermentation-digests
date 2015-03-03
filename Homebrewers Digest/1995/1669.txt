@@ -1,0 +1,1351 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Thu Mar  2 03:34:43 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["45639" "Thu" " 2" "March" "1995" "01:00:56" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1091" "Homebrew Digest #1669 (March 02, 1995)" "^From:" nil nil "3" nil nil nil nil]
+        nil)
+Received: by truelies.rs.itd.umich.edu (8.6.9/2.2)
+        with X.500 id DAA23521; Thu, 2 Mar 1995 03:34:41 -0500
+Received: from goodman.itn.med.umich.edu by truelies.rs.itd.umich.edu (8.6.9/2.2)
+        with SMTP id DAA23516; Thu, 2 Mar 1995 03:34:39 -0500
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA08832
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Thu, 2 Mar 95 03:34:36 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA21031; Thu, 2 Mar 1995 01:34:19 -0700
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA27308; Thu, 2 Mar 1995 01:00:56 -0700
+Message-Id: <9503020800.AA27308`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1669 (March 02, 1995)
+Date: Thu, 2 Mar 1995 01:00:56 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1669                             Thu 02 March 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  motorizing Coronas revisted (FLATTER)
+  Re: A good scale (wegeng.XKeys)
+  RE: hop storage, Irish moss (Jim Dipalma)
+  Bock, Anchor (MATTD)
+  Looking for San Diego Brew Pubs and Micros (Dave Shaver)
+  Gott digest (R) & diacetyl rest (Q) (Mel E. Martinez)
+  Fermenter Questions ("Fleming, Kirk R., Capt")
+  Competition Announcement (Algis R Korzonas +1 708 979 8583)
+  hop storage/homebrewed vs. commercial/volume in IBU formulas (Algis R Korzonas +1 708 979 8583)
+  Re: Fermenter Questions (Eamonn McKernan)
+  Used Wort Chiller wanted (Bread and Circus)
+  Fiberglass fermenters (Kelly Jones)
+  dropping and mutant yeast/hop storage: don't use polyethylene bags! (Algis R Korzonas +1 708 979 8583)
+  Pitching rates for High Grav. Brews (Erik Speckman)
+  aging beer (Tim Bennett)
+  Hefe Weisen Yeast (JHojel)
+  RE:Controlling RIMs Motor Speed (tboyce)
+  RE:Controlling RIMs Motor Speed (tboyce)
+  RE:Controlling RIMs Motor Speed (tboyce)
+  RE:Controlling RIMs Motor Speed (tboyce)
+  Mississippi (Karen Barela/AHA President)
+  Petes Wicked Winter Brew / Aluminum (jack walter kennedy)
+  Harpoon Beer & The Sam Adams Brewpub ("Craig Sonis")
+  Is my S.G. too high? ("Shannon William Fleming")
+  Celis Merger (Robert Heynen)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 28 Feb 1995 07:48:38 -0820
+From: FLATTER%MHS`at`mhs.rose-hulman.edu
+Subject: motorizing Coronas revisted
+
+
+A while back I read an article about motorizing a Corona grain mill.  It 
+suggested taking off the handle by replacing the screw that held it on.  
+The author [whose name I don't recall; sorry about that] suggested 
+cutting the head off a bolt and putting that in the chuck of a drill.  
+Well, I tried that.  After several unsuccessful attempts, I finally 
+stripped the threads off enough to get a grip on the bolt.  It required 
+periodic tightening as I ground my grain, but it sure beat cranking it by 
+hand.
+
+
+This would a happy ending if it weren't for a mishap this weekend.  All 
+that slippage eventually wore down the replacement bolt.  Now I have a 
+better solution.  I put a 3/16 bolt with a hex head in that spot 
+[WalMart-$0.78 for three plus 3 nuts].  Instead of cutting off the head, 
+I use a 1/2" nut driver in my drill [WalMart-$4.57 for Black and Decker 
+kit of 6-sided shank for drill to 1/4 drive male socket adapter plus 6 
+sockets w/ 1/4 drive holes].
+
+
+This arrangement has several additional advantages.  The drill can be 
+removed from the mill when refilling the bin.  The bolt doesn't wear, and 
+it can be removed completely for storage.  Best of all, I now have a 
+versatile nut driver set, and my wife didn't complain about me getting a 
+new tool set.
+- --------------
+Neil Flatter                 Rose-Hulman Institute of Technology
+Chemistry - Math (CMA)       Department of Chemistry Stockroom Manager
+Novell Supervisor            5500 Wabash Avenue 73
+(812) 877 - 8316             Terre Haute, IN 47803-3999
+ FAX: 877 - 3198             Flatter`at`Rose-Hulman.edu
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 08:19:31 PST
+From: wegeng.XKeys`at`xerox.com
+Subject: Re: A good scale
+
+
+For small measurements (on the order of an ounce or two) I use a scale designed
+for gun owners who reload their own shells.  These scales measure weight in
+grains rather than ounces, but converting from one unit to the other is easy,
+and they are very accurate.  You can buy one for around $25 from any gun shop.
+
+
+/Don
+wegeng.xkeys`at`xerox.com
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 95 11:13:19 EST
+From: dipalma`at`sky.com (Jim Dipalma)
+Subject: RE: hop storage, Irish moss
+
+
+
+
+   Hi All,
+
+
+Regarding the recent thread on hop storage, Charles S. Jackson
+writes:
+
+
+>I have taken to using brown jars (ovaltine
+>works nicely), purging w/co2 and freezing.  Seemed to be a reasonable
+>alternative to the cost of buying a heat sealer, o2 impermeable bags and some
+>nitrogen.
+
+
+>Anyway it would be nice to see/hear how other keep their hops.
+
+
+  A couple of years ago, I was given a large Ziploc bag stuffed with fresh
+Cascade cones that had been grown by a fellow homebrewer. There were about
+8 ounces in the bag, far more than I would have been able to use in a short
+time. I stored most of them by stuffing them in mason jars, purging with
+CO2, and storing them in the freezer. When I used up the last of them some
+eight months later, they were still in very good condition.
+  I've stored pellets in this manner for as long as a year with no problems.
+The key is to store them in the freezer in an oxygen impermeable container
+that's been purged with an inert gas. I already had the mason jars and CO2
+tank because of my yeast culturing and kegging activities, and couldn't see
+the sense in buying a heat sealer, oxygen impermeable bags, etc., when I
+already had all the equipment needed to do the job.
+
+
+****************************************************************
+
+
+Domenic Venezia asks about Irish moss:
+
+
+>Does anyone have a rule of thumb they use, or experience that says to
+>scale the amount of IM by heaviness of brew?  Perhaps, (SG - 1.0)*10
+>grams per gallon?  Reality checks are welcome.  In fact any checks are
+>welcome.
+
+
+  FWIW, I use three level teaspoons in a 10 gallon batch, rehydrated for
+at least several hours before use, and added for the last 15 minutes of the
+boil. I don't adjust this amount for OG, brew everything from English milds
+at ~1.035 to Wee Heavys at over 1.080 OG, and get large amounts of break
+material and good clarity in the beers.
+  IMHO, I think the key to successful use of Irish moss is rehydration
+several hours before use. I try to remember to rehydrate the night before
+brewing. After the flakes have been sitting in water for a few hours, they
+turn into a gooey, gelatinous mass. I've seen a lot of posts from brewers
+who simply toss the flakes in dry, then report that they didn't notice any
+difference using Irish moss.
+
+
+          Cheers, 
+           Jim               dipalma`at`sky.com
+
+
+------------------------------
+
+
+Date: Mon, 27 Feb 1995 09:46:50 -0700 (MST)
+From: MATTD`at`UWYO.EDU
+Subject: Bock, Anchor
+
+
+     I am interested in brewing an all grain, traditional, high gravity Bock.
+The recipes I have are either extract or variations of a traditional.  Does
+anyone have the type of recipe that I am looking for.  Also, I will be in San
+Francisco in April.  Does anyone know the touring schedule for the Anchor
+Brewing company on a Friday or Saturday?  Thanks.  Private e-mail or HBD post
+is fine.
+Matt
+Mattd`at`uwyo.edu
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 10:45:23 -0600 (CST)
+From: shaver`at`healthcare.com (Dave Shaver)
+Subject: Looking for San Diego Brew Pubs and Micros
+
+
+I'm looking for brewpubs and micros in the San Diego area---I'm willing
+to drive up to an hour if the place is great.  In looking at the
+publist database, I've put together the list below.  I'll be in the
+area for over a week, but I probably can't hit all of these places.
+Let me know which ones I should NOT miss.
+
+
+I would love to learn about additional places I should not miss.
+Please e-mail directly and I'll summarize to the list.
+
+
+Does anyone know about tours of micros in the area?
+
+
+    Brewski's Gas Lamp Pub
+    Callahan's Pub & Brewery
+    Hops! Bistro and Brewery
+    Kitayama Cafe
+    Mission Brewery
+    Old Columbia Brewery and Grill
+    Old Pacific Beach Cafe
+    Pacific Beach Brewhouse
+    Pizza Port
+    Prince of Wales
+    San Diego Brewing Co
+    Two Docks
+
+
+/\  Dave Shaver
+\\  Plano, TX
+\/  Internet: shaver`at`healthcare.com
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 11:48:41 -0500
+From: mem`at`rowland.pha.jhu.edu (Mel E. Martinez)
+Subject: Gott digest (R) & diacetyl rest (Q)
+
+
+At 1:01 AM 2/27/95, homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only
+ - No Ar wrote:
+>Subject: Gott digest confessions
+>
+>To all the people who requested the Gott digest that I put together, I
+>really screwed this job up.  You probably noticed that the digest was an
+>attachement that was encoded with BinHex.  This probably put you in a mild
+>panic and caused you to curse my name and so forth.  I must apologize for
+>this.
+>
+>The digest got bigger than I thought and it wouldn't fit onto my e-mail
+>document.  Therefore, I just sent it as an attachment as a text document.
+>However, my e-mail program (Eudora) automatically encodes attachments with
+>BinHex, which is a Mac program.  People with Macs (either with BinHex or
+>Eudora) I guess had no problems.  Everyone else on non-Mac machines was
+>left in the dark.  In addition, America Online users (and other online
+>service users) probably just got a bunch of digital gook on their e-mail
+>which is no help.
+>
+
+
+Chris,
+
+
+You can turn off the automatic binhexing of Mac document attachments by
+Eudora by going to the Special:Settings... menu item, go to Attachments and
+turn off "always include Mac information".
+
+
+With this settings, Eudora should not binhex TEXT files that are attached.
+It will still encode binary documents.
+
+
+Also, make sure that your text document to be attached has Type "TEXT".
+That is, from whatever editor you use, make sure you SAVE as Plain Text.
+
+
+Note that some Mac apps use TEXT as their fyle type, but do include other
+info in the resource fork.   If you attach and mail such a file as plain
+text without binhexing, the additional info will be stripped.  This is not
+generally a problem unless you did want to send the whole of the file to
+say, another mac user.  In that case, you can either turn the option above
+back on or use the pop-up menu in the Eudora button bar (not all versions
+though).  Or you can pre-binhex files manually using any of several binhex
+tools available.
+
+
+If this does not work, let me know or simply send a message asking for help
+from Qualcomm - they should have an alias pre-installed in your nicknames
+list and are very responsive and helpful.  You usually get a response
+directly from Steve Dorner himself.
+
+
+[I apologize for posting this decidedly non-brew info to HBD but I can't
+always get mail into panix accounts so I thought it would be useful to post
+the reply.]
+
+
+Ob Brew - I'll try to make up for it by just telling everyone how
+incredibly good my current batch of 'red' ale is comming out!  Awesome.  I
+doubt much of the batch will survive St. Pat's day...  Also, I plan on
+cultivating my own hops this year (rhizomes from FreshHops in OR,
+503-929-2736) and hopefully next year I'll be able to do some
+homegrown-homebrew!
+
+
+Next, a Question: I'm going to try my first attempt at a 'pilsner' style
+brew this weekend.  I'm starting the yeast starter tonight because I like
+to pitch it big and will be saving some of the starter as well.  I plan to
+let it ferment about a week in the primary at ~55-60 F and then move it to
+the secondary and let it sit between 40-55 F for several weeks (I mostly
+want this for summer so I won't be in a hurry with it).  I can't control
+the temp much closer than that, but the basement is pretty damn cold well
+into spring.  One question that I still haven't nailed down about making
+this style is the 'diacetyl rest' I've heard reference too.  I've read
+Miller's book which is where I first heard of it but, typically, he is very
+unclear about just what it is and how/whether to do one.  If I understand
+it correctly this 'rest' is performed by moving the primary, after the
+initial fermentation is over, to a warmer environment for a few days to
+increase diacetyl (buttery) character.  I have seen this vaguely referenced
+in several pilsner discussions but have been unable to nail down the exact
+procedure. (What temp == warmer?  How long?)
+
+
+So, have you pilsner experts out there got any tips/info/corrections?
+
+
+Cheers,
+
+
+Mel Martinez
+The Johns Hopkins University
+Dept. of Physics
+mem`at`pha.jhu.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 95 10:06:00 MST
+From: "Fleming, Kirk R., Capt" <FLEMINGKR`at`afmcfafb.fafb.af.mil>
+Subject: Fermenter Questions
+
+
+
+
+>In #1667 Will Self asks about fermenter design:
+
+
+Here's what we've done, Will.  Cut the top out of a Sankey keg and had a 
+3/4" NPT pipe coupling (cut in half) welded thru the center bottom of
+the keg.  From the outside, screwed in a 3/4" NPT to 3/4" copper coupling, a 
+copper nipple, and a brass/stainless 3/4" ball valve.
+
+
+This design suffers exactly the problem of the carboy--slope at the bottom 
+is insufficient.  I sent away for a catalog from one of the Zymurgy 
+advertisers selling 1/2 bbl cylindroconical fermenters, but did not get the 
+info I needed (price).  Based on the average price of $400 for a 20 gal 
+stock pot in stainless, I'm confident a fermenter would be more.
+
+
+My thought was to cut the keg at the weld joint at the lower chine,
+then fabricate a cone from stainless sheet and have it Heli-arc'ed to the 
+bottom of the keg.  Sanitary welding is what's needed--it won't be a
+pressure vessel.
+
+
+For the top I now have a Pyrex lid from a Dutch oven, thru which I drilled a 
+hole for an airlock.  I'd now go go with a SS pan lid (the hole in my 
+fermenter is 10" dia) which can be easily modified at will with flanges, 
+etc., to accomodate airlocks, aeration plumbing and all that.  Of course, 
+there is a school which advocates simply leaving the lid on without worrying 
+about seals and airlocks--a semi-open fermentation concept.  I think this is 
+a solid idea.
+
+
+Finally, the current unit (and any future one) is mounted on a painted
+wooden stand which supports the bottom of the keg at about 48" off the
+floor.  The stand looks much like a giant four-legged barstool with a
+4" hole in the middle of the seat to accomodate the drain valve.  We
+pump from the tank we chilled the wort in directly into the fermenter, which 
+has the benefit of high aeration.  We can easily drop the brew
+from the fermenter into the keg when it's time.
+
+
+Can't speak to the chemistry of fiberglass resin--but whenever I've tried
+to acquire the materials for fairly substantial fiberglass projects,
+found the cost was prohibitive.  Your sources/results may vary.  For me,
+stainless is actually much less expensive--even with the cost of having
+the welding done.  It would be *very* important to ensure the inside
+surface of the fiberglass tank was inclusion-free for sanitation.  Not
+having built anything from 'glass, a smooth interior seems like a big
+obstacle.
+
+
+Your idea for a bottle under the tank drain valve sounds good--provided it's 
+a completely closed system like the oil-jars you may have seen on ancient 
+industrial equipment.  OTOH, I would just open the airlock, then crank open 
+the ball-valve on the bottom of the tank. A slug of yeast sediment should 
+come out, followed by clear beer.  A little training and one should be able 
+to minimize losses yet still get the trub out of the unit.  After closing 
+the ball valve, the pocket of the valve exposed to the atmosphere should be 
+spray-flushed with a sanitizer to prevent bacteria growth, preparatory to 
+final racking.  Anyone knowing commercial practice in this area should 
+please contribute!
+
+
+Kirk R Fleming
+ -flemingkr`at`afmcfafb.fafb.af.mil
+
+
+------------------------------
+
+
+Date: 27 Feb 95 11:47:00 -0600
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: Competition Announcement
+
+
+Ok, the last announcment:
+
+
+March 25, 1995 is the date for the 1995 Brewers of South Suburbia
+competition to be held in Lockport, IL (South-suburban Chicago).
+Entries are due between March 10th and 17th.  Over $600 in prizes
+have been pledged for 1st, 2nd and 3rd in each category plus 1st,
+2nd and 3rd BOS.  For more information and/or entry/judge/steward
+registration packets, please send email or call me at 708-430-HOPS
+(evenings, Fridays, weekends or leave a message).
+
+
+Judges and Stewards needed!
+
+
+Al.
+korz`at`iepubj.att.com
+
+
+------------------------------
+
+
+Date: 27 Feb 95 14:18:00 -0600
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: hop storage/homebrewed vs. commercial/volume in IBU formulas
+
+
+Charles writes:
+>     In a year of reading the digest I have not seen a discussion of the 
+>proper/best way to store hops.  I have taken to using brown jars (ovaltine 
+>works nicely), purging w/co2 and freezing.  Seemed to be a reasonable 
+>alternative to the cost of buying a heat sealer, o2 impermeable bags and some 
+>nitrogen.
+
+
+I have a heat sealer, so I just re-seal the O2-barrier bags the hops came in,
+but I've recommended to those who don't to fold the corner of the opened bag
+a couple of times and then keep it closed with a butterfly clip (one of those
+black, old-fashioned clips for big stacks of paper).  You don't have to get
+Nitrogen to flush the package -- CO2 is inert and will purge the O2 out of the
+package just as well as N2.  I think that your method seems good assuming the
+jar has a good seal.  Even if the rubber/soft plastic seal of the jar is not
+made of O2-barrier plastic, remember that the permiability is a function of
+area (proportional) and thickness (inversely proportional).   The seal of the
+jar will have a small area and a relatively large thickness.  Incidentally,
+you can buy small heat sealers at a place called Service Merchandise around
+here for (I believe) $29.99.
+
+
+********
+
+
+Richard writes:
+>1) How does the "best" homebrew compare with the the "best" commercial beer?
+>"Best" is difficult to determine, but can any generalizations be made with
+>respect to the beer produced by homebrewers versus commercial brewers, once
+>a reasonably high level of competence is attained?
+
+
+Some of the best beer I've tasted was homebrewed.  Once you get a handle on
+this hobby, you can really brew some very, very good beer.  I've tasted beer
+from one homebrewer, who on her 10th batch or so, was making beer that would
+put most commercial breweries to shame.  Perfect balance, wonderful flavours,
+complexity... excellent beer.
+
+
+>2) How do the raw materials used by commercial brewers differ from those
+>used by commercial (micro) brewers? I would imagine that the malt is quite
+>similar, the yeast more varied, and have no idea about the hops.
+
+
+It depends on your supplier.  The raw ingredients that enter the wholesale
+homebrew supply stream are the same ones that are used by micros.  How well
+the suppliers handle and package the ingredients has a lot to do with how
+good the supplies will be when you use them.  Personally, I'd insist on
+Oxygen-barrier packaging for hops and, ideally, CO2- or Nitrogen-purged.
+Grain should be stored in sealed containers, like buckets or thick plastic
+bags.  Grain stored in paper or open containers will go stale (as quickly
+as a few days if the humidity is high).  There are literally hundreds of
+strains of yeast available to homebrewers now from Wyeast, The Yeast Culture
+Kit Company, Head Start, Brewer's Resource.  The quality of these yeasts
+is as good as what the pros use (and, in many cases, ARE what the pros use).
+
+
+>3) Finally, how much of largescale brewing is art vs. engineering, or asked 
+>another way, could many other micro breweries produce a copy of, say an 
+>Anchor Liberty Ale or a SN Celebration Ale, if it were in their business 
+>model to produce such a product? If money was no object, and a brewery wanted 
+>to produce a five star beer, using the best ingredients and state of the art 
+>equipment, could most brewers pull it off or are there still lots of 
+>intangibles left which translate into a disparity of results.
+
+
+I would imagine that on a microbrewery scale, it might be a little more
+difficult to produce a clone of another beer, mostly because there are
+equipment limitation (either you are set up to do decoction or you aren't;
+either you have a grant or you don't; either you have a hopback or you don't),
+but for a skilled homebrewer it should not take more than three or four
+iterations to get quite close.  The key is really the yeast.  You can always
+get similar grain and similar hops, but the yeast has a far bigger effect on
+the final flavour than a slightly different hop variety or a different
+maltster's grain.
+
+
+*******
+Mark O. writes:
+>Perhaps it is common sense, but none of the texts I have read has 
+>made a distinction about the *proper* volume to use [for IBU calculations].
+>Most of us would 
+>be inclined to say *fermenter*, correct? I would argue that the final 
+>kettle volume is the right one, since a gallon of unusable wort is still 
+>one gallon of wort. Some brewers may not lose a gallon in the 
+>process, as I do, but accurate calculations must have accurate measurements.
+
+
+I agree with you.  The concentration of isomerized alpha acids will be
+dependent on the volume of the wort at the end of the boil *including*
+the break (and, as we read recently, perhaps a lot more dependent on the
+amount on the break than we had previously thought!).  There is another
+factor (gravity) that needs to be taken into account.  Let's say you
+start with 8 gallons of wort at 1050 and end with 5.5 gallons of wort at
+1073.  So what's the boil gravity?  What I do is calculate the average
+gravity _during_the_time_that_the_hops_are_in_the_boil_.  So, let's say,
+I first let the wort boil down to 7 gallons (which would be about 1057)
+and then add the hops till it boils down to 5.5 gallons (at 1073).  The
+average boil gravity would be about 1065, which is what I would use in
+Rager's gravity adjustment formula.
+
+
+>Since I am a late comer to the IBU debate, I presume that the 
+>disparaging of Garetz's approach to IBU calculation is with utilization 
+>rates, not the formula itself.
+
+
+No, it's not just the utilization percentages that I feel are incorrect,
+but also the additional compensations (altitude, hop aging, high IBUs,
+etc.) that are suspect.  I say this because I've compared the hop additions
+recommended by Garetz's formulas against beers that were brewed with the
+Rager formulas and then subsequently tested at the Siebel Institute.  See
+my review of Using Hops in the latest issue of Zymurgy for all the data.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 95 13:43:30 EST
+From: Eamonn McKernan <eamonn`at`rainbow.physics.utoronto.ca>
+Subject: Re: Fermenter Questions
+
+
+Will Self wants to re-design fermenters.
+
+
+I wish you the best of luck. Right now, most homebrewing equipment is
+primarily designed for other purposes, and we learn to build/apapt these
+things to our purposes. Though things are slowly changing for the better.
+And of course, anyone with enough money can get custom made parts.
+
+
+Some possible problems with your proposed design: Plastic is oxygen permeable, 
+so in that sense it is not really "generally accepted". It might be closer to
+the truth to suggest that it is grudgingly accepted by some of us. Though
+I don't know the permeability of fibreglass.
+
+
+A sloping bottom on a fermentor will still have trub stick to it, so a 
+collection jar at the very bottom won't catch all that precipitates. You'd
+do much better simply suspending the racking cane above the trub if you don't
+want to siphon it. If you're brewing in 12-15 gallon batches, then this
+does not represent any significant loss of precious beer. Or with your 
+brewcap you similarly rig it to only collect beer above a certain height in 
+the fermentor.
+
+
+If you don't mind using plastic, you could probably modify a bucket to have
+a sloping bottom by using some kind of filler (I can't think of what kind
+of material would be suitable for this. Maybe that fibreglass stuff). Then
+make sure that its lid is a tight fit, and you're set. Drill as many holes
+in it as you want, install a valve at the bottom, and a bit of racking cane
+sticking up from the bottom to above the level of the trub. If you don't want
+trub to fall into the cane, bend it so that it faces downwards. But 
+realistically, you'd probably have to made things out of metal for an
+ideal setup.
+
+
+A question to people with buckets with lids: How tight a fit are the lids.
+I know alot of them are ok, but have never seen one with a true airtight
+seal. Any special modifications that someone's tried?
+
+
+Also, if you put a tap at the bottom to collect samples during fermentation,
+would it be sanitary? After taking one sample, the outside would get covered 
+with wort, which airborne beasties would latch onto by the time you wanted
+to use it again. Or is this not true? In fact, even if it were sanitized
+when you started fermenting, a few days of contact with outside air would
+be enough to cover them with bacteria.
+
+
+Just some thoughts. Can't wait to hear what you eventually build.
+        Eamonn McKernan
+        eamonn`at`rainbow.physics.utoronto.ca
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 13:55:21 -0500 (EST)
+From: Bread and Circus <kfitzger`at`abacus.bates.edu>
+Subject: Used Wort Chiller wanted
+
+
+Hello,
+        I'm prepairing to go all grain and trying to minimilize costs.  I'm
+looking for a cheap wort chiller and/or grist mill.  Please let me know if
+you can help me out.                
+                                
+                                Thanks,
+                                Pat FitzGerald
+                                kfitzger`at`abacus.bates.edu
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 12:18:03 -0700
+From: k-jones`at`ee.utah.edu (Kelly Jones)
+Subject: Fiberglass fermenters
+
+
+Will self asks about fiberglass fermenters.  This is an interesting idea.
+One criterion you left out was the ability to hold pressure.  This way the
+beer could naturally condition itself in the fermenter.  Could a fiberglass
+vessel be engineered to withstand a few atmospheres of pressure?
+
+
+Also, if Fiberglass is not a suitable beer-contact material, what about
+lining the vessel interior with a form-fitted "condom", made out of PE, PP,
+or some other safe material? This would only need be a few mils thick, like
+a garbage bag, and could be disposed of after one or more brews.
+
+
+Kelly
+
+
+
+
+
+
+------------------------------
+
+
+Date: 28 Feb 95 14:03:00 -0600
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: dropping and mutant yeast/hop storage: don't use polyethylene bags!
+
+
+Brian writes:
+>> This raises another question: shouldn't this be done prior to the yeast
+>> going anaerobic?
+>
+>        I think the idea is that the yeast that is actively working in
+>suspension is the "master race" and that it is only when this yeast is
+>in full working order that you want to drop in order to discard the initial
+>head and whatever has sunk to the bottom of the fermenter.
+
+
+Well, perhaps.  In any yeast population you will have healthy yeast and
+unhealthy yeast, even if all were from a single cell culture.  From private
+correspondence with George Fix a few years ago, if I have this right, my
+understanding is that there are various types of mutants that can occur.
+Some of the typical mutations are: 1) the loss of the ability to ferment
+some kinds of sugars, 2) the loss of the ablility to respire (respiratory
+deficient or RD mutants), 3) the losss of the ability to reabsorb diacetyl,
+and, the most important to our discussion, 4) the loss of the ability to
+flocculate.
+
+
+The reason that so many British brewers harvest their yeast from the top of
+the ferment is because this tends to select the strong flocculators and
+leaves behind the poor flocculators.  If you have a strong top flocculating
+yeast and you leave most of it behind during dropping (or, for that matter,
+if you use the blowoff method with this kind of yeast) you can be selecting
+the poor flocculators and leaving the strong flocculators behind.  The same
+argument can be made for bottom cropping (harvesting yeast from the bottom
+of the fermentor) of yeasts that have a strong tendancy to flocculate at the
+bottom.
+
+
+So where does that leave us?  Well, as I see it, it means that it is important
+when "dropping" to include a significant portion of the yeast on the top, no?
+Excluding *all* the kraeusen (ok, so it's a German word) will increase your
+chances of increasing the percentage of poor flocculators.  Let's recall that
+it's the dirty head (that dark brown gunk) that we're trying to get rid of,
+NOT the creamy white yeast cake.
+
+
+*****
+Gary writes:
+>Fred Waltman (or was it Norm Pyle?) brought up hop storage. I put
+>my hops in zip-lock freezer bags and suck the air out of them
+>before closing. I put all the backs together in a big "Tupperware"
+>tub, and freeze them. Does that sound like poor practice?
+
+
+The "tupperware" is probably what's saving your hops.  As I posted yesterday,
+the permiability of a container is proportional to the area and inversely
+proportional to the thickness.  Since the "tupperware" is quite thick, the
+permiabilty is quite a bit less than the plastic bags.  All the plastic
+"tupperware" I've seen is either high-density polyethylene (HDPE), low-density
+PE (LDPE) or polypropylene (PP).  All three of these are pretty permiable to
+oxygen, the enemy of hops.  The "tupperware" *helps* preserve the hops, but
+is not ideal -- glass would be better.  The zip-lock bags by themselves are not
+much protection from oxidation at all.  One day in a polyethylene bag (your
+typical ziplock sandwich or freezer bag) allows as much oxygen to permiate
+into the bag as 250 days in the O2-barrier bags that I use for hop storage!
+
+
+If you bought your hops in oxygen-barrier bags to begin with, you would not
+have to worry about them -- just re-seal the corner of the bag as well as
+you can.  Oxygen-barrier bags are available to all retailers, so your retailer
+should not have any excuse for not using them -- they cost more, but brewing
+predictable beer with variable quality hops is difficult if not impossible.
+And predictable bittering is not the only issue -- when exposed to oxygen
+hop aromas quickly go bad (Fuggles, for example, go "cheezy" -- Hallertauer
+go "piney.")
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 12:55:54 -0800
+From: especkma`at`halcyon.com (Erik Speckman)
+Subject: Pitching rates for High Grav. Brews
+
+
+Capt. Kirk R. Fleming was wondering about the rational behind the
+reccomendation that pitching rate be perportional to wort gravity.
+
+
+I think it is because the soluability of O2 is perportional to wort
+gravity.  More yeast cells must be provided to ensure a sufficient
+population peak because it is beleived that yeast reproduction depends on
+the availability of O2 for aerobic respiration.
+
+
+This is also the reasoning behind reccomendations that extra care be taken
+to aerate higher gravity brews.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 95 16:59:11 CST
+From: Tim.Bennett`at`amd.com (Tim Bennett)
+Subject: aging beer
+
+
+Any input as to the "proper" method of aging beer?  That is,
+those styles of beer which improve with age, a la barleywine.
+Refrigeration? Cellar aging?  Is it advisable to deactivate the
+yeast?  Where do I get that much refrigerator space?  I live
+in Austin, Texas...we don't have cellars.
+
+
+I've let beers (not barleywines) age for about three months at room
+temperature, and when opened they were like soda-water...no taste at all.
+We played a dirge as they were poured down the drain.  On the other
+hand, I've let beers go a long time (6-12 months) in refrigeration,
+and they were SUPERB.
+
+
+Any thoughts?
+- --
+regards
+
+
+Tim.Bennett`at`amd.com
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 18:56:08 -0500
+From: JHojel`at`aol.com
+Subject: Hefe Weisen Yeast
+
+
+I'm in search of a yeast strain (other than the usual: Wyeast's Weihenstephan
+strain) to brew a fruity Hefe Weisen.  Does anyone happen to have such a
+strain that they are willing to share?
+
+
+JHojel
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 95 16:37:16 -0700
+From: tboyce`at`ibm.net
+Subject: RE:Controlling RIMs Motor Speed
+
+
+> THIS IS A MESSAGE IN 'MIME' FORMAT.  Your mail reader does not support MIME.
+> You may not be able to read some parts of this message.
+
+
+- --PART.BOUNDARY.0014.794009014
+Content-ID: <14_57_1_794007439>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7Bit
+Content-Description: <none>
+
+
+
+
+        Thank you to:
+Bruce, Lance, Stuart, Evan, Dion, Tim, Louis,Don,John
+Whom replied to via e-mail to my motor-pump speed control question.
+
+
+To Sumarize;
+
+
+1. Will a light dimmer work to control motor speed?
+   Yes and no. Or more approprietly maybe. Zymurgy gadgets issue has a fix to 
+a dimmer switch if your inclinded to try it, although your dimmer may not be 
+like the unit in the article.
+
+
+2. What works? A fan motor controller is compatible with most a/c motors and 
+alot of the respondents where using them with great success. They do not 
+handle low speed torque. Their inexpensive and available anywhere.
+
+
+3. Home built circuits. Router speed controller.
+
+
+Something to satisfy all levels of electronics tinkerers. Seems theres a real 
+intrest in RIMs in HBD lately. I can hardly wait for the steam injection Gott 
+vs. RIMs debates.
+
+
+Special thanks to Lance.
+Bruce if you did'nt receive my e-mail, respond and I'll resend.
+
+
+Todd
+tboyce`at`bohemia.metronet.org
+tboyce`at`nyx.10.cs.du.edu
+- --PART.BOUNDARY.0014.794009014
+Content-ID: <14_57_1_794008955>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7Bit
+Content-Description: <none>
+
+
+
+
+- --PART.BOUNDARY.0014.794009014--
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 95 16:37:16 -0700
+From: tboyce`at`ibm.net
+Subject: RE:Controlling RIMs Motor Speed
+
+
+> THIS IS A MESSAGE IN 'MIME' FORMAT.  Your mail reader does not support MIME.
+> You may not be able to read some parts of this message.
+
+
+- --PART.BOUNDARY.0014.794009014
+Content-ID: <14_57_1_794007439>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7Bit
+Content-Description: <none>
+
+
+
+
+        Thank you to:
+Bruce, Lance, Stuart, Evan, Dion, Tim, Louis,Don,John
+Whom replied to via e-mail to my motor-pump speed control question.
+
+
+To Sumarize;
+
+
+1. Will a light dimmer work to control motor speed?
+   Yes and no. Or more approprietly maybe. Zymurgy gadgets issue has a fix to 
+a dimmer switch if your inclinded to try it, although your dimmer may not be 
+like the unit in the article.
+
+
+2. What works? A fan motor controller is compatible with most a/c motors and 
+alot of the respondents where using them with great success. They do not 
+handle low speed torque. Their inexpensive and available anywhere.
+
+
+3. Home built circuits. Router speed controller.
+
+
+Something to satisfy all levels of electronics tinkerers. Seems theres a real 
+intrest in RIMs in HBD lately. I can hardly wait for the steam injection Gott 
+vs. RIMs debates.
+
+
+Special thanks to Lance.
+Bruce if you did'nt receive my e-mail, respond and I'll resend.
+
+
+Todd
+tboyce`at`bohemia.metronet.org
+tboyce`at`nyx.10.cs.du.edu
+- --PART.BOUNDARY.0014.794009014
+Content-ID: <14_57_1_794008955>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7Bit
+Content-Description: <none>
+
+
+
+
+- --PART.BOUNDARY.0014.794009014--
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 95 16:37:16 -0700
+From: tboyce`at`ibm.net
+Subject: RE:Controlling RIMs Motor Speed
+
+
+> THIS IS A MESSAGE IN 'MIME' FORMAT.  Your mail reader does not support MIME.
+> You may not be able to read some parts of this message.
+
+
+- --PART.BOUNDARY.0014.794009014
+Content-ID: <14_57_1_794007439>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7Bit
+Content-Description: <none>
+
+
+
+
+        Thank you to:
+Bruce, Lance, Stuart, Evan, Dion, Tim, Louis,Don,John
+Whom replied to via e-mail to my motor-pump speed control question.
+
+
+To Sumarize;
+
+
+1. Will a light dimmer work to control motor speed?
+   Yes and no. Or more approprietly maybe. Zymurgy gadgets issue has a fix to 
+a dimmer switch if your inclinded to try it, although your dimmer may not be 
+like the unit in the article.
+
+
+2. What works? A fan motor controller is compatible with most a/c motors and 
+alot of the respondents where using them with great success. They do not 
+handle low speed torque. Their inexpensive and available anywhere.
+
+
+3. Home built circuits. Router speed controller.
+
+
+Something to satisfy all levels of electronics tinkerers. Seems theres a real 
+intrest in RIMs in HBD lately. I can hardly wait for the steam injection Gott 
+vs. RIMs debates.
+
+
+Special thanks to Lance.
+Bruce if you did'nt receive my e-mail, respond and I'll resend.
+
+
+Todd
+tboyce`at`bohemia.metronet.org
+tboyce`at`nyx.10.cs.du.edu
+- --PART.BOUNDARY.0014.794009014
+Content-ID: <14_57_1_794008955>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7Bit
+Content-Description: <none>
+
+
+
+
+- --PART.BOUNDARY.0014.794009014--
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 95 16:37:16 -0700
+From: tboyce`at`ibm.net
+Subject: RE:Controlling RIMs Motor Speed
+
+
+> THIS IS A MESSAGE IN 'MIME' FORMAT.  Your mail reader does not support MIME.
+> You may not be able to read some parts of this message.
+
+
+- --PART.BOUNDARY.0014.794009014
+Content-ID: <14_57_1_794007439>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7Bit
+Content-Description: <none>
+
+
+
+
+        Thank you to:
+Bruce, Lance, Stuart, Evan, Dion, Tim, Louis,Don,John
+Whom replied to via e-mail to my motor-pump speed control question.
+
+
+To Sumarize;
+
+
+1. Will a light dimmer work to control motor speed?
+   Yes and no. Or more approprietly maybe. Zymurgy gadgets issue has a fix to 
+a dimmer switch if your inclinded to try it, although your dimmer may not be 
+like the unit in the article.
+
+
+2. What works? A fan motor controller is compatible with most a/c motors and 
+alot of the respondents where using them with great success. They do not 
+handle low speed torque. Their inexpensive and available anywhere.
+
+
+3. Home built circuits. Router speed controller.
+
+
+Something to satisfy all levels of electronics tinkerers. Seems theres a real 
+intrest in RIMs in HBD lately. I can hardly wait for the steam injection Gott 
+vs. RIMs debates.
+
+
+Special thanks to Lance.
+Bruce if you did'nt receive my e-mail, respond and I'll resend.
+
+
+Todd
+tboyce`at`bohemia.metronet.org
+tboyce`at`nyx.10.cs.du.edu
+- --PART.BOUNDARY.0014.794009014
+Content-ID: <14_57_1_794008955>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7Bit
+Content-Description: <none>
+
+
+
+
+- --PART.BOUNDARY.0014.794009014--
+
+
+------------------------------
+
+
+Date: 28 Feb 95 19:05:59 EST
+From: Karen Barela/AHA President <75250.1350`at`compuserve.com>
+Subject: Mississippi
+
+
+Here's an update to the situation in Mississippi.  The bill has passed the
+House Ways and Means Committee and it now needs to pass the Full House.  We
+would like to see it pass the Full House soon, before the group who opposes
+this bill has a chance to mobilize and gather support against the bill.  We
+hope to see it pass within the next couple of days.
+
+
+Anyone who is interested in helping to pass this bill should call as soon as
+possible,  Tim Ford, Speaker of the House and/or Glenn Endris, Representative
+and offer your support for Senate Bill #2097.  If you live in Mississippi it
+would help if you stated the district you are in and direct your support to
+your districts representative.  Written letters from interested individuals
+have a strong impact!
+
+
+The phone # is (601) 359-3770
+The Fax # is (601) 359-3728
+
+
+I'll update everyone with additional information when it becomes available.
+
+
+ - Karen
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 19:39:14 -0500 (EST)
+From: jack walter kennedy <kennedyj`at`dekalb.DC.PeachNet.EDU>
+Subject: Petes Wicked Winter Brew / Aluminum
+
+
+Hi All,
+
+
+My wife absolutely adores Petes WWB. I obviously need the recipe.
+I find that a good way to maintain marital bliss is to supply
+what she wants %^)
+On another note, how about hard anodizing aluminum pots? Is it
+safe for food? I think it is the process used by Calphalon.
+
+
+TIA for any help.
+
+
+Jack Kennedy
+kennedyj`at`dekalb.DC.PeachNet.EDU
+
+
+
+
+
+
+------------------------------
+
+
+Date: 28 Feb 1995 20:01:00 U
+From: "Craig Sonis" <craig_sonis`at`phcteam.com>
+Subject: Harpoon Beer & The Sam Adams Brewpub
+
+
+Greetings:
+     This is my first post to the HBD so bear with me (I try not to waste
+valuable bandwidth). I currently do not brew, none the less know how to. 
+But, I do find the HBD conversations quite interesting, educational and I
+guess that's what keeps me coming back.  But, in a short time I think I'll be
+making the plunge into homebrewing and asking for tons of advice & questions
+in the end. Either way here's some local Boston, MA - Beer News that I've
+come across.
+=-=-=-=-
+   Hot off the press from my Harpoon Beer Newsletter (the classic Boston Brew
+ - And before everyone writes, "I Don't work for Harpoon").
+1) Harpoon Brewery 
+"Harpoon's Annual St. Patrick's Day Bash"
+- --Where: At the Brewery, out on the docks near the World Trade Center of
+Boston.  
+- --When: Saturday, March 11, 2-11pm
+- --Admission: $7  Admission includes a free Harpoon Party Pint Glass (sorry
+beer is extra) I believe $2.75/pint. 
+- -- For more info call the Event Hotline `at` 617-574-9551 x22  
+This is one of the 5 Events that the brewery puts on during the year.  It's a
+great time, speaking from experience.  I went to the Octoberfest 1994, beer
+music and fun.  The October event pulled in an attendance of 10,000 (Yes! Ten
+Thousand) over a 3 day weekend.  The other events are as follows:
+     Harpoon Mardi Gras Party - Mid February
+     Harpoon St. Patrick Day Party - Saturday b/f St. Patrick's Day
+     Harpoon Brewstock - Second weekend in June
+     Harpoon Summer Bash -  Mid August
+     Harpoon Octoberfest - First weekend in October
+     Harpoon Holiday Party - The first Saturday in December
+The colder temperature events are actually held in the brewery - band and
+all!
+I'll post when I remember as when the party's are
+=-=--=-=
+2)  Samuel Adam's Brewpub (We knew it had to happen sometime!)
+  The pub will be opening on March 6 in the Lenox Hotel on Boylston Street
+(near the Boston City Library).   Also, could someone please tell me I'm not
+hearing rumors, but I am being told by a buddy of mine told me SA now isn't
+even brewed in Massachusetts? What?
+    Either way the ads running for the brew pub are great w/ the copy reading
+on the each of them:
+  - "No Norm. No Cliff. No Carla. Just Sam" 
+     (ed.: I can hear the Cheers Lawyers talking now!)
+ the other ad
+  -  "He drank to freedom.  He drank to liberty.  He drank to independence.
+Let's face it, the man would drink to anything!"
+
+
+Craig Sonis, beer enthusiast
+
+
+craig_sonis`at`phcteam.com
+Boston, MA
+"I drank what?"  %-)
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 21:32:29 -7700 (EST)
+From: "Shannon William Fleming" <flemings`at`student.msu.edu>
+Subject: Is my S.G. too high?
+
+
+This is my third batch *newbie*.  The first batch we followed the directions
+and put in 3.5 lbs. light malt extract + 1.0 lb corn sugar *cringe*...
+but we had an OG up near 40 and a final around 06.  The last two batches...
+1) 3.5 light malt extract + 1.0 DME OG=1.045 FG=1.018 (4 gallons water)
+2) 4.0 DARK Irish Stout + (nothing) OG=1.056 our first hydrometer measure
+FG=1.024 (4 gallons water) it's back in the fermenter now.
+using Cooper's dry yeast pitched to starter
+temp around 70-75F
+first batch bubbled consistently for a week then stopped.
+two and three went like hell for 2 days and stopped (_real_ slow)
+Too little Oxy?...Need yeast nutrient?...More yeast?...Is this normal?
+
+
+thanx,
+
+
+flemings`at`student.msu.edu
+
+
+------------------------------
+
+
+Date: Tue, 28 Feb 1995 21:11:15 -0600
+From: robert`at`i-link.net (Robert Heynen)
+Subject: Celis Merger
+
+
+After months of denying rumors about Miller buying out Celis,  Pierre Celis
+announced today in Austin the merger between Miller Brewing and Celis
+Beers.  Miller will have  majority ownership of Celis Beers while Pierre
+will remain in control of the brewing process.  They have plans for
+expanding production and distribution of Celis beers, although the brewery
+will remain at its present site.
+
+
+Lets hope Miller doesn't put too much pressure on Pierre to cut expenses
+and quality of his beer.
+
+
+Robert
+
+
+                            robert`at`i-link.net
+* * * Listen to the wind carefully.  It beckons you to faraway
+places.* * *
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1669, 03/02/95
+*************************************
+-------

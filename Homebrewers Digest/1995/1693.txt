@@ -1,0 +1,1518 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Thu Mar 30 03:45:40 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["47648" "Thu" "30" "March" "1995" "01:01:05" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1222" "Homebrew Digest #1693 (March 30, 1995)" "^From:" nil nil "3" nil nil nil nil]
+        nil)
+Received: by judgmentday.rs.itd.umich.edu (8.6.10/2.2)
+        with X.500 id DAA08388; Thu, 30 Mar 1995 03:45:37 -0500
+Received: from goodman.itn.med.umich.edu by judgmentday.rs.itd.umich.edu (8.6.10/2.2)
+        with SMTP id DAA08383; Thu, 30 Mar 1995 03:45:36 -0500
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA20173
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Thu, 30 Mar 95 03:45:29 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA01651; Thu, 30 Mar 1995 01:44:20 -0700
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.10 $/15.5+IOS 3.22) id AA143040465; Thu, 30 Mar 1995 01:01:05 -0700
+Message-Id: <199503300801.AA143040465`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1693 (March 30, 1995)
+Date: Thu, 30 Mar 1995 01:01:05 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1693                             Thu 30 March 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Brewing Techniques Article on HBD (brewing chemist Mitch)
+  Honey I Primed The Beer (molloy)
+  Leaching Lead from Crystal (jwolf)
+  Valley mill/Wooden casks/Yeast culturing (Kirk Fleming / Metro Technologies)
+  Software for Homebrewers ("Fisette Richard")
+  Aeration vs Oxygentation (Kirk Fleming / Metro Technologies)
+  RE: Venturi VS Bernoulli ("Keith Royster")
+  RE: Venturi VS Bernoulli #2 ("Keith Royster")
+  stuck at 1020/raw wheat/grassy hops/blackmalt & polyphenols (Algis R Korzonas +1 708 979 8583)
+  boiling water sparge/cloudy wheat beers/uncovered pots/D-C Pale Malt (Algis R Korzonas +1 708 979 8583)
+  1st Round - Chicago - Update (Dennis Davison)
+  carboy stand (Eric Peters (919) 405-3675)
+  Pyramid Apricot Ale clone (again) (mlloyd)
+  RootBeer - How do they do it? (WIRESULTS)
+  Re: DeWolf-Cosyns Malts (PILS and Pale Ale) (Matt Henry)
+  SABCO keg experience? / Pauls Malt? / Wyeast 1968 report (Rich Lenihan)
+  How to pronounce Wit (Andy Price)
+  Another bottle of Evan's ale (t.olsen)
+  Center for Brewing Studies address (Lenny Garfinkel)
+  Brew Pubs in New Orleans (Rick Anderson)
+  Re: Rauchbier Roundup (Timothy J. Dalton)
+  Re: Aeration of wort:  O2 vs. Air (Steve Zabarnick)
+  Hoptech Shipping Problems (Jay_Richards)
+  yeast questions (BarryM)
+  Stuck CO2 regulator (Brian Pickerill)
+  Band Width .02 $ (molloy)
+  Atlas Mill Modifications (Curt Woodson)
+  Diacetyl ("James Giacalone")
+  Lager Yeast Lag Time (DBURKE)
+  straws / fermentap "replica" (BarryM)
+  Brewers of South Suburbia Competition Results (Algis R Korzonas +1 708 979 8583)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 28 Mar 1995 12:49:11 -0600 (CST)
+From: gellym`at`aviion.persoft.com (brewing chemist Mitch)
+Subject: Brewing Techniques Article on HBD
+
+
+
+
+I just received the current issue of Brewing Techniques. There was a good
+article written by Norm Pyle on the Homebrew Digest, which I was able to
+show my wife and say 'here, this is what the HBD was and is about.'
+
+
+A point made by Norm was that although thousands read the HBD, in a recent
+survey it was discovered that virtually all the posts are made by approx.
+100 people. I would have liked to see the list of the top 10 contributors.
+I've got five bucks on Al K. being at the top of that list ;->
+
+
+Speaking of BT, in HBD 1691, Jeff Wolf asks about Zima, and what it is. In
+the last issue of BT (Jan/Feb ?) someome (sorry do not remember who, and do
+not have the mag here in my office) did a bit of research and a nice write-up
+on the 'Zima process'. It was very interesting, although the comical 
+replacement of all occurrances of the letter 's' with the letter 'z' gave
+me a headache halfway through the article. And it was not even that long 
+of an article !
+
+
+Later,
+
+
+Mitch
+
+
+- -- 
+ -- Mitch Gelly -- owner/brewmaster of the ManOwaR nano-Brewery
+ software QA specialist, unix systems administrator, Usenet admin, 
+ zymurgist, BJCP beer judge, president of the Madison Homebrewers 
+ -- gellym`at`aviion.persoft.com -- QC is OUT, QA is IN ! Deal with it. 
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 1995 14:00:50 -0500
+From: molloy`at`tcpcs3.dnet.etn.com
+Subject: Honey I Primed The Beer
+
+
+
+
+  My last creation was a Belgian, but I am a bit of a renegade so I brewed
+with a lb of honey instead of malto-dextrin, I also primed with 3/4
+cup honey. (about 3/4 lb I think) 
+  Things got very interesting when I opened one up after only 6 days and
+found the carbination was out of controll. I decided to refridgerate all
+the beer to stop any further carbination. I noticed that the beer has a
+very nice, slight, tast of honey.
+  The honey I used was whipped and spreadable I wounder if this had any
+effect on carb time?
+  I think a problem with this method might be if the beer was allowed to
+warm up for a few days it would over carbinate. This also means that you
+could not age the beer for months, in say the basement. 
+
+
+  FYI: I used that 1214 Banana yeast, The flavor is only present in the
+first sip and then it is not noticable at all. The beer has got rave
+reviews by all, and I am waiting to bring some to my first KLOB home 
+brew club meeting next month.
+
+
+
+
+                  AAAHHH BOCK! got to love it
+
+
+The Zootopia
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 95 14:06:45 EST
+From: jwolf`at`penril.com
+Subject: Leaching Lead from Crystal
+
+
+     OK, another possible non-beer related question for you chemists out 
+     there (now if you had questions about data communications...):
+     
+     A friend of mine asks if the lead in lead crystal leaches out into his 
+     fine old Irish Whiskey?  My opinion is that the lead is pretty well 
+     sequestered by the glass, but what do I know?
+     
+     Thanks,
+     
+     Jeff Wolf
+     jwolf`at`penril.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 1995 12:40:26 -0700 (MST)
+From: Kirk Fleming / Metro Technologies <flemingk`at`usa.net>
+Subject: Valley mill/Wooden casks/Yeast culturing
+
+
+Valley Roller Mill
+- ------------------
+RE: HBD 1691 Douglas O'Brien says: 
+
+
+>The [Valley Mill] rollers are 9" long x 1" diameter knurled 
+>stainless steel with a direct drive handle (i.e. no gears or pulleys).  
+
+
+a) How does roller 1 turn roller 2--that is, how are the two coupled
+   then, if at all?  
+b) Would you say the knurling is full-depth and somewhat 'sharp',
+   or does it appear to be shallow knurling with a smoother surface?  
+c) Ball bearings or bronze bushings?  
+
+
+Wooden Barrels (Casks)
+- ----------------------
+At a homebrew shop in Denver I saw a ~5 gal wooden cask displayed along 
+with various associated parts, etc.  I'm interested in casks of that 
+size, but would prefer smaller ones (say 10-15 L).  Does anyone know of a 
+source and/or how much these barrels cost retail?  
+
+
+Yeast Culturing
+- ---------------
+Has anyone innoculated slants using samples taken from the fermenter 
+during an active ferment?  If so, have you experienced the propagation of 
+'stuff' other than the desired yeast?  I just did this and it seemed like 
+a really dumb idea when I was done...
+
+
+
+
+------------------------------
+
+
+Date: 28 Mar 1995 15:32:07 -0500
+From: "Fisette Richard" <fisette.richard`at`mail.ndhm.gtegsc.com>
+Subject: Software for Homebrewers
+
+
+Unknown Microsoft mail form. Approximate representation follows.
+
+
+To: HBD
+From: Fisette Richard on Tue, Mar 28, 1995 3:32 PM
+Subject: Software for Homebrewers
+
+
+  I am considering buying some brewing software for the PC to give as a
+birthday present.  The gift recipient is an extract brewer who is just about
+ready to make the all-grain jump.  Are any of the software packages I see
+advertised in the magazines worthwhile?  If so does anyone care to give any
+endorsements/personal experiences?  
+
+
+Thanks,
+
+
+Rick Fisette
+fisette.richard`at`mail.ndhm.gtegsc.com
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 1995 13:35:19 -0700 (MST)
+From: Kirk Fleming / Metro Technologies <flemingk`at`usa.net>
+Subject: Aeration vs Oxygentation
+
+
+RE: HBD 1690 and 1691 (Wort Aeration)
+
+
+Steve Z says:
+
+
+> Thus as air is 20.9% oxygen, a wort [that] is completely aerated (i.e.
+> in equilibrium) with air will contain 4.8 times less oxygen [than] one
+> that is in equilibrium with a 100% oxygen environment.
+
+
+Agreed, but that issue was never the question.  We'd expect that wort will
+*never* be in a 100% oxygen environment.  The issue was whether or not you
+can saturate wort with oxygen using air *in a standard atomosphere*.  IOW
+can you get the 8.55ppm oxygen (in water, now) using air alone.
+
+
+Put yet another way, I think Carl was asserting you can dissolve as much
+oxygen in wort using air as you can using pure oxygen, given the wort is 
+in a standard atmosphere (like, uh, your house).  Is THAT true or not?
+
+
+- -- 
+Kirk R Fleming
+Colorado Springs
+flemingk`at`usa.net 
+
+
+------------------------------
+
+
+Date:          Tue, 28 Mar 1995 17:26:34 EST
+From: "Keith Royster" <N1EA471`at`mro.ehnr.state.nc.us>
+Subject:       RE: Venturi VS Bernoulli
+
+
+In HBD #1691 Geoff Scott wrote:
+> 
+> I'm sorry that I missed the first part of this discussion, but from
+> what you describe, it sounds more like the Bernoulli effect than
+> Venturi.  A Venturi tube is one in which flow cavitates (i.e. the
+> liquid turns back into vapor because of a reduction of pressure)
+> because of changes in the tubes diameter.  If this is what is
+> happening in your tube, then no aeration is taking place since the
+> bubbles in the fluid are simply the fluid in a vapor state.  However,
+> if you are getting aeration by having air sucked in through a small
+> hole, then a good explanation would be that the reduced pressure due
+> to the moving fluid (Bernoulli effect) is causing it.  I hope this
+> helps.
+> 
+> John
+> 
+Sorry, but this is not correct.  As far as I am aware, there is no 
+Bernoulli "effect", just the Bernoulli equation, which basically says 
+that a flowing liquid has three "types" of energy: velocity, 
+pressure, and elevation, and that the sum of these is constant 
+(ideally, not counting for flow friction).  So say you have flow 
+through a level pipe (elevation energy is constant) and the pipe 
+diameter suddenly decreases.  Conservation of mass says the flow must 
+be faster in the smaller pipe (higher velocity energy), so the 
+pressure energy must drop to keep the sums constant.  THIS is the 
+Venturi effect.  This drop in pressure of a flowing liquid is what 
+"sucks" the air in through the hole in your racking tube.  So, the 
+Bernoulli equation is what explains the Venturi effect.  That is 
+their relationship.  I hope THIS helps ;-)
+
+
++------------------------------+-------------------------+
+| Keith Royster                |  NC-DEHNR / Air Qualtiy |
+| Environmental Engineer (EIT) |  919 North Main St.     |
+| n1ea471`at`mro.ehnr.state.nc.us |  Mooresville, NC 28115  |
++------------------------------+  Voice: (704) 663-1699  |
+| "I think I ran over my       |  Fax:   (704) 663-6040  |
+|  Dogma with my Karma."       |                         |
++------------------------------+-------------------------+
+
+
+------------------------------
+
+
+Date:          Tue, 28 Mar 1995 17:34:37 EST
+From: "Keith Royster" <N1EA471`at`mro.ehnr.state.nc.us>
+Subject:       RE: Venturi VS Bernoulli #2
+
+
+One more note on the Venturi Vs Bernoulli discussion:  If the above 
+descibed change in pressure is great enough (ie the fluid pressure is 
+less than the vapor pressure) then cavitation (spontaneous 
+vaporization) will occur.  This is what I beleive Dr. Pratte was 
+referring to.  So the Venturi effect can explain cavitation, but is 
+not defined by it.
+
+
++------------------------------+-------------------------+
+| Keith Royster                |  NC-DEHNR / Air Qualtiy |
+| Environmental Engineer (EIT) |  919 North Main St.     |
+| n1ea471`at`mro.ehnr.state.nc.us |  Mooresville, NC 28115  |
++------------------------------+  Voice: (704) 663-1699  |
+| "I think I ran over my       |  Fax:   (704) 663-6040  |
+|  Dogma with my Karma."       |                         |
++------------------------------+-------------------------+
+
+
+------------------------------
+
+
+Date: 28 Mar 95 14:30:00 -0600
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: stuck at 1020/raw wheat/grassy hops/blackmalt & polyphenols
+
+
+Johnathan writes about his 1050 beer being stuck at 1020.
+
+
+>But enough theories.  What should I do?  Thinking that I had cured the
+>problem, I dry hopped the beer after introducing the dry yeast.  And I don't
+>mind the taste of it (flat and warm).  So should I just keg?  Or rerack, add
+>yeast nutrients, more yeast and wait some more?  (And if I do option 2,
+>should I try to aerate through sloppy racking and a little carboy shaking?
+
+
+Perhaps the extract was mis-labeled or you thought you used M&F, but actually
+used Laaglander or "Dutch" DME.  If it was indeed Laaglander or "Dutch" DME,
+then 1020 is the correct FG.  Underaeration can be a problem with high-gravity
+beers (i.e. high alcohol), but I wouldn't call a 1050 beer "high-gravity."
+Since your wort was all-malt, I don't think nutrients are your problem.
+Aerating after fermentation has started will elevate diacetyl levels, but
+aerating after the beer is done will just oxidize alcohols into aldehydes
+and the beer will smell and taste "off."  So, no sloppy racking or carboy
+shaking...
+
+
+>P.S. -- Has anyone tried Blue Ridge Lager by micro Rainbow Ridge Brewing Co.
+
+
+I tried it and thought it was quite enjoyable for an American Light Lager.
+Better flavour and balance than most American Light Lagers.  I'm not a fan
+of this style (I prefer ales) but if confronted with the choice of Blue Ridge
+and the industrial megabrews, I'd drink the Blue Ridge.  I've also heard that
+this brewery has beers coming in red and white bottles by July 4th and then
+black, green and yellow bottles for the Olympics.  Perhaps some of their
+other beers will be ales...
+
+
+***
+Jack writes:
+> Question?  Does raw wheat need to be pre-boiled like corn to gelatinize it?
+
+
+Yes.
+
+
+***
+Bruce writes:
+>1.  Is "grassiness" due to hop variety, age, amount, or a combination of 
+>factors?
+
+
+I believe it is due to variety and age.  Also, my homegrown hops had a very
+grassy aroma till I dried them, so improper or insufficient drying could
+lend a grassy note, but for commercially made hop pellets, I would think this
+would be very unlikely.  I believe what I said on this subject before is that
+different varieties tend to take on different smells as they age.  Some are
+"piney" some "grassy" others "cheezy."
+
+
+>4.  Garetz states, on page 192, that if you dry hop you should also use 
+>finishing hops (late boil addition) and while it is OK to use finishing hops 
+>without dry hopping, it generally is not OK the other way around.  Any 
+>comments on this?  I've not noticed any problems dry hopping without 
+>finishing hops.
+
+
+Dryhopping will give different aromatic qualities to your beer than adding
+finishing hops.  It is impossible to quantify these characteristics, so I
+won't even try to explain them, you just have to try it.  Nonetheless, there
+is no reason that dryhopping means you have to use finishing hops or vice
+versa.  There is also no reason that you could not do both in the same batch.
+The short boil will boil-off some of the aromatics and may change others
+slightly which is why you get different aromas from the two methods of adding
+hop aroma to your beer.  I will resist the temptation... the facts are enough.
+
+
+***
+Nic writes:
+>On an un-related topic.  I've heard that adding very small amounts (grams
+>per batch) of roasted barley (black) will benefit any style of beer.  Once
+>source says that it reduces oxidation, another (Charlie P.) says that it
+>improves flavor by reducing polyphenols.  Neither source cites any study.
+
+
+If you have high carbonate water, dark grain (a bit more than grams per
+batch) will lower your mash pH and thus reduce polyphenol extraction from
+the husks, but were talking about a minimum of 4 or 8 ounces in a 5gallon
+batch to make a difference.  I can't see why it would reduce oxidation unless
+the thought is that a beer with more melanoidins (*not* the source of colour
+in black malt, I believe) would be less likely to suffer from off-flavours when
+it is fresh (the melanoidins give the oxygen up as the beer ages).  If indeed
+this is where this rumour began, it hinges on whether black malt gets its
+colour from melanoidins or not.  I believe it doesn't.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: 28 Mar 95 14:35:00 -0600
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: boiling water sparge/cloudy wheat beers/uncovered pots/D-C Pale Malt
+
+
+Rob writes:
+>So, *MY* alternative when I mash was to sparge with boiling water.  That 
+>effectivly rinses my grains and brings it up to 170 fairly quickly since 
+>im removing ~156F water, and adding ~212F water.  
+>
+>This is where I was told that I should *NOT* add boiling water, and just 
+>add 170F water.  Now, am I off base here?  Discussion of extracted 
+>tannins and such from the mash was the main concerns for using boiling 
+>water.  Ive been using this method now for some time with really no 
+>adverse effects in taste.  
+
+
+Unless the pH is high, there should be no more fear of tannin (polyphenol)
+extraction from 212F water than from 170F water, but what you *should*
+be concerned about is unconverted starch extraction.  If your crush is
+fine and your conversion good, then the amount of unconverted starch is
+probably negligible and there is little reason for concern, but if you
+are getting a permanent haze that is not temperature-dependent, then it
+could be starch.
+
+
+***
+Jack writes:
+> BTW, I am starting a batch of wheat beer (40% raw wheat) and it will be 
+> interesting to see how the gelatine works on this stuff.  I get the feeling 
+> that people expect wheat beer to be cloudy and I would be interested in 
+> hearing what experience folks have with gelatin in wheat beer.
+
+
+Let's remember that there are two types of cloudy wheat beers.
+The cloudiness in Bavarian Weizens is due to the pouring of the yeast from
+the bottom of the bottle into the glass and not from the wheat.  The cloudiness
+in the Belgian White style of beer is indeed from protein and most (all?)
+Belgian white brewers use raw wheat as Jack is proposing, so without long
+glucan and protein rests, you probably will have a cloudy beer.  I don't know
+what the gelatine will do to so much protein, however.
+
+
+***
+Jim writes:
+>Pat asks:
+>
+><Q. Do you cover or uncover the brewpot?
+<snip>
+>< But are the negative consequences (not evaporating undesireable volatiles,
+>< etc) significant enough that I should buy a 150,000bu propane-fired burner?
+<snip>
+>
+>A partially covered pot is OK.  I would try to situate it so that any
+>condensate will not end up back in the kettle, if possible.  A partially
+>covered pot will still allow the desirable venting of the boiled off
+>volatiles.  In the large copper onion dome kettles, there is a special
+<snip>
+
+
+I have brewed every one of my 200+ batches with a partially covered kettle
+where the condensate on the inside of the lid *DID* drip back into the
+kettle and neither I, nor any judge who has tasted my beer, have sensed
+any DMS or other undesirable aromatics in any of my beers.  However, 99% of
+them have been ales and the evolving CO2 does scrub out remaining DMS, so
+Jim's advice may be more important for lager brewers where the CO2 evolution
+is much slower.  Just a few datapoints.
+
+
+***
+George writes:
+>Anecdotal evidence exits that
+>suggest the problems Steve and Scott cite with the Pale Ale malt
+>are not uncommon. I have heard of slow and turbid lautering, beers which
+>are very hard to filter, and related problems. Intuitively this
+>would seem to point to elevated wort beta-glucan levels, however
+>I have not seen data to support this...
+
+
+I have not tried to filter any of the beers I've made with the D-C Pale
+Ale malt, but have never had any problems with slow or turbid lautering.
+I did have problems with excessive cold break and a slight, irritating
+permanent haze which I eliminated with a 30-minute protein rest at 135-140F.
+
+
+Would elevated beta-glucan levels result in excessive cold break?  Should I
+instead try a beta-glucan rest and bypass the protein rest?
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 1995 16:46:33 -0600
+From: ddavison`at`earth.execpc.com (Dennis Davison)
+Subject: 1st Round - Chicago - Update
+
+
+To: Those planning on attending the 1st round judging in Chicago
+
+
+The Brewoff Dinner has been reduced in price to $35.00. If your check is in
+the mail you will get a refund.
+
+
+Also, I have secured a block of rooms at The Red Roof Inn for $47.99 + tax
+per night for double occupancy (2 beds also). You must call 1-800-843-7663
+and make the reservation yourself,  mention the AHA and this confirmation
+# B199000021 to get these rates. You must make the reservation by April
+18th. 
+
+
+- --
+Dennis Davison       ddavison`at`earth.execpc.com        Milwaukee, WI
+
+
+Judge Director of the 1st Round of The AHA Nationals - Chicago,IL 1995
+Organizer - Real Ale Fest - Chicago - October 13,14 1995
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 95 17:57:20 EST
+From: epeters`at`edasich.rtp.semi.harris.com (Eric Peters (919) 405-3675)
+Subject: carboy stand
+
+
+
+
+In  HBD 1691 Daniel Hays writes:
+
+
+>Eric, if I'm not mistaken, far from beating a dead horse, yours is
+>only the second post I've seen in response to the Fermentap review--
+>the horse isn't even comatose!
+>I'm beginning to think that the inverted carboy method is one I need
+to
+>adopt, since after a year-and-a-half of struggle I remain
+>siphon-impaired.  Though it seems the big drawbacks might be the
+>inability to use those convenient hop pellets in either the boil or in
+>dry-hopping, I still think the minimal exposure of wort to air makes
+this
+>practice one best suited for me.  I'd be interested in more specific
+>information--as may your fellow BrewCap users--about the stand you
+guys
+>built and how it incorporates the Lazy Susan bearings.
+
+
+I shouldn't be so hard on pellets.  We had a bad experience with
+pellets at various stages of our process and haven't used them
+since.  I ain't a pellet fella.  There may be a legion of inverters
+who use them religiously.  Your milage could quite possibly differ
+by a considerable amount.  Minimal exposure is why we invert.
+We ferment in a root cellar off my brother's basement.  Before we
+cleaned it up, I was afraid to go in there.  There are still some
+cracks in the foundation that bring in outside air and masses of
+crickets.  We think we stopped the flooding, but won't know until
+we get rain.  Anyway, it's not an ideal fermentation room.  When
+we started to use it, we went upside down to eliminate racking
+from primary to secondary.  Our fermentation is completely closed
+from chiller to keg.  I've never siphoned so I can't relate to
+your troubles.  I won't detail our stand.  We used two-by-fours
+that we had a pile of and made it up as we went.  She is a beauty
+though.  Go crazy and hang your inverted carboy from the ceiling
+or bolt it to a wall.  Hey, concrete is cheap!
+
+
+Eric Peters
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 95 15:23:19 EST
+From: mlloyd`at`cuix.pscu.com
+Subject: Pyramid Apricot Ale clone (again)
+
+
+
+
+Thanks for all the responses pointing out how to use real apricots in my
+attempt to clone Pyramid Apricot Ale.
+
+
+Those responses are missing the point somewhat in that I am curious as
+to the use of apricot essence to clone this product.  I have personally
+spoken with a brewmaster at Pyramid who confirmed for me that their
+apricot ale is made using the same essence that I purchased.
+
+
+Thus, my curiosity is how to duplicate Pyramid's product using the same
+apricot essence.  If you have any ideas on this, please post to the HBD
+or send me private e-mail.  Good responses will be summarized in a
+future issue of the HBD.
+
+
+Michael G. Lloyd
+mlloyd`at`cuix.pscu.com
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 95 18:42:56 -0600
+From: WIRESULTS`at`WINET.psinet.org
+Subject: RootBeer - How do they do it?
+
+
+
+
+ok, I give up.... There are lots of microbrewers out there doing some
+seriously good rootbeer. Anyone got some thoughts on what sort of recipies
+are really used and what kinds of brewing practices these are?
+
+
+Provate E-Mail fine. I can repost if I get a good turnout
+
+
+TIA
+
+
+Randy Lee
+wiresults`at`winet.psinet.org -or- wiresults`at`winet.mste.org
+
+
+
+
+
+
+------------------------------
+
+
+Date: 28 Mar 95 18:37:50 +0000
+From: mhenry`at`cheswicks.toadnet.org (Matt Henry)
+Subject: Re: DeWolf-Cosyns Malts (PILS and Pale Ale)
+
+
+
+
+I just read HBD #1690 and #1691, and was quite dismayed to find that the malts
+I have been using for the past couple of years have apparently been dropping in
+quality.  I am speaking of the DeWolf-Cosyns Pils and Pale Ale malts.
+
+
+Since these malts are losing their quality, I would like to know what malts are
+available out there that are good.
+
+
+Thanks,
+
+
+Matt Henry
+
+
+Mhenry`at`cheswicks.toadnet.org
+
+
+- --
+|Fidonet:  Matt Henry 86:8012/63
+|Internet: mhenry`at`cheswicks.toadnet.org
+|
+| Standard disclaimer: The views of this user are strictly his own.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 1995 22:09:52 -0500
+From: rich`at`lenihan.iii.net (Rich Lenihan)
+Subject: SABCO keg experience? / Pauls Malt? / Wyeast 1968 report
+
+
+
+
+With warm weather coming on, I've decided to move the brewery out of the
+kitchen and into the garage. Toward this end, I've decided to bite the
+bullet and purchase a ready-made keg/brewpot (my wife won't let me near
+power tools). I've seen the SABCO keg with the brass ball valve attached.
+Has anyone worked with this and is there any thing I should know about
+before I part with $100 for this baby?
+
+
+- ---
+
+
+I recently purchased 55 lbs of British 2-row malt made by Pauls or something
+like that. Has anyone worked with it. I tried 4 lbs of it in my last batch
+together with my last 4 pounds of M&F malt and I had more trouble than usual
+getting clear runoff. Of course, this could just be me having a bad day.
+Thought I'd ask, though.
+
+
+- ---
+
+
+This is an update to some earlier posts of mine regarding troubles I was
+having with Wyeast 1968 (London ESB). I had made 3 batches with problematic
+(sluggish, incomplete) fermentations. To recap, my problems were in three areas:
+
+
+1. This yeast goes to sleep if outside temps get much below 68F, which is
+common in my house during the winter.
+
+
+2. This yeast needs lots of oxygen
+
+
+3. You should ideally pitch a lot of yeast, as much as for lagers.
+
+
+The key here is that 1968 is HIGHLY flocculent and many people suggested
+frequent arousing/agitation. The problem is that once this yeast "goes to
+sleep", it's hard to wake it up. I believe that pitching lotsa yeast helps,
+my problem is that I don't often plan my brewing far enough in advance to
+build up a sufficient starter - I'm lucky if I get 2 ounces of slurry. The
+oxygen part I'm working on...
+
+
+Now the update: I brewed two more batches. On the first (or fourth overall),
+I pitched the yeast cake from the secondary of a previous batch.
+Unfortunately, I had technical problems with my aerator and was only able to
+aerate the wort for about 90 seconds. Results - lag time of about 24 hours,
+fermentation about 9-10 days, final gravity of about 1.014 (from an original
+SG of 1.48). OK, enough to convince me that there is some truth to 3
+(above). Next (most recent) batch. Pitched with usual 2 ounces of slurry but
+aerated wort for 2 hours. Also, acting on a tip from a member of my
+brewclub, I agitated the wort about once an hour for the first 5 or six
+hours (until I went to bed). Lag time about 12-14 hours with a final gravity
+of 1.012 (down from 1.050) after 7 days. OK, now I'm sold on 2 (above). I
+kept the temps as near to 68F as I could for both batches.
+
+
+Conclusion: This yeast has a really distinctive flavor profile that I really
+enjoy, otherwise I would not have put up with this much trouble. However,
+I'm not convinced that this yeast is worth the trouble (for me). By the way,
+even though this yeast is so flocculent, the resulting beers all have a
+yeasty taste. I don't know if this just the nature of the yeast or a result
+of the long exposure to the yeast during primary fermentation. I don't
+normally fine my beers unless they're really turbid. Still looking for that
+perfect English ale yeast...
+
+
+ -Rich
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 1995 09:17:28 GMT
+From: pri`at`MAS.esco.Eurocontrol.be (Andy Price)
+Subject: How to pronounce Wit 
+
+
+Finally, something I can comment on....
+
+
+Wit is pronounced Vit, but the V sound is made with the lower lip
+behind the teeth. This was drummed into me whilst ordering Wit beers
+over here in the Netherlands and in Northern Germany.
+The Digest is really good reading, I can't wait till I move out of 
+my tiny appartment and start brewing again....
+
+
+Cheers,
+                Andy Price
+_________________________________________________________         
+ _  ___
+| \_\__\____           Andy Price
+\-  ooooooo \    Siemens Plessey Systems
+ \___/  /___/         ODS Project
+    /_ /
+                                           
+pri`at`mas.esco.eurocontrol.be  Eurocontrol Maastricht U.A.C
+Tel: +31 043 661495                Horsterweg 11
+Fax: +31 043 661545                NL 6191, RX BEEK (L)
+                             NETHERLANDS 
+_________________________________________________________
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 95 09:55:00 UTC
+From: t.olsen`at`genie.geis.com
+Subject: Another bottle of Evan's ale
+
+
+Subject: Another bottle of Evan's Ale
+ 
+   I also have seen an old bottle named Evan's Ale at my cousin's camp in
+Randolph Vt. Your statement about the lack history of ale brewing in the North
+East is wrong. In upstate NY historical records indicate that Goosen Gerritsen
+a brewer by trade arrived in Beverwyck(Albany) in 1636, and leased the
+Patoon's(Kilean Van Rensselaer) brewery in 1649 with Rutger Jacobson, a river
+boat owner. The pair brewed 57,000 gallons of beer their first year. Ale
+brewing was the only kind of beer brewed up until the 1800's
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 1995 12:27:29 +0200 (IST)
+From: Lenny Garfinkel <lenny`at`zeus.datasrv.co.il>
+Subject: Center for Brewing Studies address
+
+
+Can anyone send me the mailing address for the Center for Brewing Studies 
+in San Francisco?
+
+
+Thanks,
+
+
+Lenny
+
+
+_________________________________________________________________
+Dr. Leonard Garfinkel       | Internet:  lenny`at`zeus.datasrv.co.il
+Bio-Technology General      | Office Phone: 972-8-381256     
+Kiryat Weizmann             | Home Phone:   972-8-451505
+Rehovot, Israel             | FAX:          972-8-409041
+- -----------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Wed Mar 29 04:58:28 1995
+From: <andersr%smtpgate`at`police.stpaul.gov>  (Rick Anderson)
+Subject: Brew Pubs in New Orleans
+
+
+Hello everyone,
+
+
+I wil;l be traveling to the New Orleans area in July and I am trying to
+find info on local micro brewers and brew-pubs. If you have any info that
+might help please post or send E-mail rick.anderson`at`stpaul.gov
+
+
+Thanks,
+
+
+Rick Anderson
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 95 07:11:39 EST
+From: Timothy J. Dalton <dalton`at`subpac.enet.dec.com>
+Subject: Re: Rauchbier Roundup
+
+
+Scott Bickham (bickham`at`msc.cornell.edu) wrote [with some deletions]:
+
+
+> I have received some queries regarding the Rauchbier Round-up........
+> This competition will definitely take place, regardless of the status of the
+> Beer Judge Certification Program on the date..........
+> There's still time to brew your favorite smoked porter or peted scotch 
+> ale, so get busy!
+
+
+Isn't this contest just for Bavarian-style rauchbier ?
+Or is it open to other sorts of smoked beers ? Peat smoked malt and
+beechwood smoked malt ar two very different creatures.
+I was under the impression that it was solely for Bavarian Rauchbier,
+and not for the other styles. (and yes, my rauch has been lagering for 
+a couple of months already ;-)
+
+
+        Tim
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 1995 08:34:15 -0500
+From: steve`at`snake.appl.wpafb.af.mil (Steve Zabarnick)
+Subject: Re: Aeration of wort:  O2 vs. Air
+
+
+David C. Harsh posted to HBD #1692:
+
+
+>Sorry, but this is a mis-interpretation of Henry's law.  Henry's law is for
+>the equilbrium relationship of a non-critical gas, but the critical
+>temperature for oxygen is 154.6 K (about -180 F), so you can't really use
+>Henry's law as defined (the limit of the ratio of liquid phase fugacity to
+
+
+The critical pressure of O2 is 50.1 atm, so at one atmosphere oxygen is a gas.
+
+
+>Also, the concept
+>of "dilute" refers to mole fraction in the solution (pure oxygen is not
+>dilute under any pressure or temperature) - mole fraction of oxygen in air
+>is 20.9% and the dilute region for equilibrium calculations is rarely
+>considered to be above 5-10%.
+
+
+Henry's law required a dilute solution; the solubility of 100 % O2 in water
+at one atmosphere is 40.9 ppm; this is sufficiently dilute for Henry's law.
+
+
+>Of more importance is that there is no reason that air can't be used to
+>reach saturation if the gas is sufficiently soluble - this level of
+>saturation (40.89 ppm) doesn't care how you get there.  The data I've seen
+>posted on r.c.b. and in the digest tend to support that you don't need pure
+>oxygen.  It would take longer using air because the concentration
+>difference (the driving force for oxygen transfer into the liquid) is less,
+>but the same equilibrium could be reached.
+
+
+No, the amount of dissolved oxygen in water AT EQUILIBRIUM is proportional
+to the concentration of oxygen in the space above the liquid. If I put
+water in a container and pressurize the container to 2 atmospheres with
+air, at equilibrium there will be 2 times more air in solution than at one
+atmosphere. The so-called "saturation level" (40.9 ppm) of oxygen in water
+is simply the equilibrium amount reached at one atmosphere pure oxygen at
+25 C. There is nothing magical about this "saturation level", I can easily
+exceed it by pressurization.
+
+
+Steve
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 95 08:35:35 EDT
+From: Jay_Richards`at`compuware.com
+Subject: Hoptech Shipping Problems
+
+
+     Fellow HBD'ers:
+     
+     I recently received an order from HOPTECH which had a number of 
+     problems and was wondering if any one else has had problems, or if 
+     this was an isolated case. First of all I ordered from them based on 
+     their very informative and promissing catalog, I just wish all the 
+     promises made in the catalog were true. The problems I had were:
+     
+     - I requested 3 day shipping which was not done, I paid an extra $5 
+     for 8 day shipping.
+     
+     - The shipment was short one bottle of fruit extract.
+     
+     - All contents of the package were coated with raspberry extract, but 
+     none of the packing material or Wyeast packages were coated. Neither 
+     was the box.
+     
+     - Was missing "Detailed Instructions" for using the fruit extract.
+     
+     - The grains ordered as crushed were not.
+     
+     - The packages of Hops were not marked with the oil content or Alpha % 
+     rating.
+     
+     - The grains were not marked with the actual LOV rating.
+     
+     I know some of these seem minor, but again I ordered from them based 
+     on the catalog which promissed all of this, and when I add them all up 
+     it seems they have a problem. When I contacted the company they 
+     offered to reship the grains and fruit extract and they gave me the 
+     rating information that was missing from the packages. I requested 
+     they fax me the extract instructions, which as of this morning I still 
+     have not received.
+     
+     This morning I also had a message from them that I file a claim with 
+     UPS for a damaged shipment. I am convinced that the shipment was 
+     repacked, the box was dry, but I am not convinced that UPS was at 
+     fault. I will politely inform Hoptech that I did not contract with 
+     UPS, they did, so the claim should come from them. I also do not want 
+     to get caught in the middle.
+     
+     Has anyone else had problems with ordering supplies from Hoptech, or 
+     any mail order supply? This was my first attempt at mail order and I'm 
+     not sure if there is any advantage.
+     
+     TIA.
+     
+     Jay Richards in Dearborn, MI
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 95 09:31:03 EST
+From: BarryM <BarryM`at`silverplatter.com>
+Subject: yeast questions
+
+
+I've read all I could find on yeast -- Papazian's "Joy" and
+"Companion", zymurgy's "Yeast & Beer", YEAST.FAQ, Dave Draper's
+"Culturing", and various other tidbits on the net.  A few questions
+for those in the know:
+
+
+1.  One article in zymurgy's "Yeast and Beer" issue states that lager
+yeasts tend to ferment trisaccharides, ale yeasts do not.  Are these
+trisaccharides responsible for the fruity characteristics of ales?
+    Is it the temperature or the yeast that determines whether
+trisaccharides are fermented?  (Would a lager yeast at ale temps leave
+these sugars alone?)
+
+
+2.  Is it CO2 production that determines whether yeast is top- or
+bottom-fermenting?  That is, do yeasts at warmer temps produce enough
+CO2 to get bubbled up to the top, while yeasts at colder temps
+produce CO2 slowly and therefore remain at the bottom?
+    Or is there something inherent (weight? cell structure?) to the
+yeasts that determine where they do their thing?
+    (Are lager yeasts at ale temps, such as in steam beers, bubbled to
+the top and considered top-fermenting?)
+
+
+
+
+Special thanks to Dave Draper for pointing out that slants are NOT
+difficult.  I've got colonies of three Wyeast strains living quietly
+in my fridge...
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 1995 09:28:48 -0600
+From: 00bkpickeril`at`virgo.bsuvc.bsu.edu (Brian Pickerill)
+Subject: Stuck CO2 regulator
+
+
+I thought I was lucky when I got a bench capper for $2 at a flea market.
+(Especially since my _wife_, without whom I wouldn't have been there to
+begin with, pointed it out to me.  :)
+
+
+Now, I met this new brewer, friend of a friend, who _gave_ me a regulator.  
+The only problem is that the knob is stuck so I guess it's now
+non-adjustable.  Before he gave it to me he said that it would only work at
+low pressure, which sounded fine to me, I just won't force carbonate; no
+problem with that. 
+
+
+Now that I have it though, I am wondering if I should try to dismantle it and
+lubricate it with something.  I can see through a slit in the knob that there 
+is some rust on a spring inside the knob.  Is it a good idea to try to take it
+apart?  Does anybody have any experience, and/or horror stories to share?
+
+
+Thanks,
+
+
+- --Brian Pickerill <00bkpickeril`at`bsuvc.bsu.edu> Muncie, IN
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 1995 09:28:01 -0500
+From: molloy`at`tcpcs3.dnet.etn.com
+Subject: Band Width .02 $
+
+
+
+
+------------------------------
+
+
+Date: 29 Mar 95 10:18:40 EST
+From: Curt Woodson <cdwood`at`lexmark.com>
+Subject: Atlas Mill Modifications
+
+
+I just purchased an Atlas Pasta Mill at a flea market this past weekend for $1. 
+It was missing the handle but who cares for that price. Now I need to know how 
+to modify it to feed and crush grain. 
+Should I knurl the rollers or put horiz. grooves like a MaltMill(tm) has? 
+Anyone currently using one? If so what did you do? I know I have seen this 
+discussed before and it should be archived somewhere and I have looked at 
+Stanford.edu but could not find anything. Pointers to where to look or the 
+information on what needs to be done are appreciated. 
+
+
+May your next batch be your best!
+Curt Woodson  cdwood`at`lexmark.com
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 95 8:38:35 MST
+From: "James Giacalone" <JGiacalone`at`vines.ColoState.EDU>
+Subject: Diacetyl
+
+
+Hello fellow brewers,
+I have been brewing all grains for some time now
+ but as of lately I have been getting a high 
+amount of   
+undesirable diacetyl in my brews.
+  Could this be my carboy temperature?  I maintain the 
+temperature around the carboy at about 58F.  Sometimes
+ the yeast seems to take off very rapidly 
+dispite this.  Please help!!
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 1995 10:25:18 -0600
+From: DBURKE`at`smtpgate.tnrcc.texas.gov
+Subject:  Lager Yeast Lag Time
+
+
+I've searched the archives, but I haven't really found an answer to this
+question, so I'm going to post it to the wisdom of the HBD.
+
+
+I recently brewed an Oktoberfest style, part extract, part mash, and
+pitched a Wyeast 2178 Lager yeast blend without a separate starter.  The
+yeast was fresh and the packet swelled vigorously.
+
+
+I am trying to maintain lager fermentation temperatures for the first time,
+and after pitching I took the whole batch down to about 48 F.  It has been
+three days now and there is no activity from the yeast.  I did find
+evidence in the archives AGAINST starting these yeasts warm and then
+cooling them down, so I've tried to maintain the cold temperatures
+continuously since pitching.
+
+
+Question is, will this yeast go ahead and start?  I expected that lag
+times would be longer given the cold temperature, but since this is my
+first truly cold lager, I don't have a baseline to judge by.  My homebrew
+shop said "Oh, take it out and let it warm up, and it'll get going."
+This is exactly what I'm trying to avoid.
+
+
+And as someone said the other day, I don't want to relax, and I am worrying!
+Mostly about infection in the meantime.  I've gotten enough other bad advice
+from CP that the old RDWHAHB is starting to ring a little stale as well...
+
+
+Thanks,
+Dan
+Dburke`at`smtpgate.tnrcc.texas.gov
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 95 11:41:14 EST
+From: BarryM <BarryM`at`silverplatter.com>
+Subject: straws / fermentap "replica"
+
+
+I'd like to point out the value of those ribbed straws that come with
+32oz screw-top water bottles.  I push one in the outlet of my cooler
+(it fits perfectly -- no leaks) and bend it up and hook the cap end
+under the cooler's handle.   I then boil my sparge water and throw it
+in the cooler; by the time I finish mashing, the temp is just right,
+and I uncap the straw, lower it to the mash-tun, and swirl it around.
+
+
+I use the same straw as a siphon starter.  I push it in the low end of
+my siphon and begin sucking; when the beer comes down, I pull out the
+straw and direct the siphon into the carboy/bottling bucket.
+
+
+This versatile straw was a key component of my hand-crafted
+Fermentap, which I made as follows:
+
+
+* carboy, with handle
+* orange two-tubed carboy cap
+* racking cane
+* two lengths of tubing
+* airlock
+* string
+* one of the aforementioned straws
+
+
+1. Place the cap on the carboy.
+
+
+2. Push the straight end of the racking cane through the larger tube
+on the cap, to the bottom of the carboy.
+
+
+3. Attach one length of tubing to the curved end of the racking cane.
+Stick the airlock into the free end of the tubing.
+
+
+4. Attach second length of tubing to the smaller tube on the carboy
+cap.  Stick the ribbed straw into the free end of the tubing.
+
+
+5. Remove the cap and put a batch of beer in the carboy.
+
+
+6. Replace cap and tie it down tight with string, using the carboy
+handle as an anchor.
+
+
+7. Invert the carboy, keeping both tubes above beer-level.  (A bar
+stool without a seat works well.)
+
+
+8. "Tie the tubes" above beer level, to the carboy (or back of
+barstool.)
+
+
+9.  Once fermentation kicked in, CO2 bubbled through the racking cane
+and out the airlock.  To rack to the secondary, I simply lowered the
+tube with the straw, let the muck run out, and then fed it into
+another carboy.
+
+
+(Needless to say, I made a "dry" run with water beforehand.)
+
+
+
+
+BarryM in (well, near) Boston.
+
+
+
+
+------------------------------
+
+
+Date: 29 Mar 95 10:48:00 -0600
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: Brewers of South Suburbia Competition Results
+
+
+Here are the results from the 1995 Brewers of South Suburbia
+Homebrew Competition (average score in parentheses).  Please
+note, that in some cases lower scores are listed for higher
+ranking beers -- this is because there were two flights for
+the style and a "second round" without scoring was used to
+determine the winners from to top beers in each "first round"
+flight.  Altogether there were 187 entries.  The caterories
+were adjusted because some of the initial categories received 
+more beers than expected and others received less than expected.
+For example, "Barleywines and Strong Ales" had 19 entries!
+There were also 7 Imperial Stouts which were broken out of the
+Stout category, leaving 11 non-Imperials.
+
+
+Barleywines
+1st Al Korzonas        (37)
+2nd Chuck Wettergren (29.5)
+3rd Mike Montgomery (29.5)
+
+
+Strong Ales
+1st Chris Kaufman (41)
+2nd Rich Larsen        (33.5)
+3rd Mike Rivard (32.5)
+
+
+Belgian and French Ales
+1st Al Korzonas (42)
+2nd Rich Larsen (40.5)
+3rd Steven Ford (32.5)
+
+
+Brown Ales
+1st Tom and Luanne Fitzpatrick (40)
+2nd Dave Lubertozzi (39)
+3rd Tom and Luanne Fitzpatrick (38.75)
+
+
+American Pale Ales
+1st Bob Ward/Jamie Wika (35)
+2nd Mike Montgomery (33)
+3rd Terry Murphree/Mike Pezan (32.5)
+
+
+English Pale Ales
+1st Ted O'Neal (34.66)
+2nd Al Korzonas (32)
+3rd Pete Train (30.33)
+
+
+English Bitters and Scottish Ales
+1st John Dalton (33.5)
+2nd Charles Woods (36.5)
+3rd Gary Hauser (39)
+
+
+Porters
+1st Roger Clark (36.66)
+2nd John Dalton (38.66)
+3rd Gary Hauser (39.5)
+
+
+Stouts (non-Imperial)
+1st Mike Pezan (38.66)
+2nd Mike Rivard (24.5)
+3rd Paul DiPierro (31.5)
+
+
+Imperial Stouts
+1st Robert Wikstrom (33.66)
+2nd Mike Kowal/Mike Frost (29.66)
+3rd Ken McManus (26.66)
+
+
+Bocks and Dark Lagers
+1st John Dalton (40.5)
+2nd Steven & Paula Stacy/Richard Hall (36.5)
+3rd Al Korzonas (36)
+
+
+Pilsners, German Pale Lagers and Pale American Beers
+1st Jeff Renner (37.5)
+2nd Roger Clark (34)
+3rd Russel Mast (29.5)
+
+
+Vienna, Oktoberfest and Maerzen
+1st Tom & Luanne Fitzpatrick (41)
+2nd Mike Rivard (35.5)
+3rd Mike Rivard (27.33)
+
+
+German Ales
+1st Chris Kaufman (38.5)
+2nd Bill Siel (38.75)
+3rd Len Bergonia (34.5)
+
+
+German Wheat Beers
+1st Thomas Stolfi (38.75)
+2nd Chris Kaufman (35.5)
+3rd Mike Brennan (34.5)
+
+
+Fruit Beers
+1st Larry Opiela (34)
+2nd Mike Brennan (33)
+3rd Roger Clark (30)
+
+
+Herb Beers
+1st Tim Artz (37.5)
+2nd David Gray (33)
+3rd Chris Patterson (32.5)
+
+
+Specialty and Smoked Beers
+1st Len Bergonia (35.5)
+2nd Robert Wikstrom (33)
+3rd Tom Keith (32)
+
+
+Meads
+1st Tim Reiter (38)
+2nd Tim Reiter (34.5)
+3rd Thomas Stolfi (33.5)
+
+
+Ciders
+1st Al Korzonas (36.5)
+2nd Not Awarded                /* all the rest of the ciders        *
+3rd Not Awarded          * had scores below 25.                */
+
+
+Best of Show
+1st Chris Kaufman (Strong Scotch Ale)
+2nd Bob Ward/Jamie Wika (American Pale Ale)
+3rd Tom & Luanne Fitzpatrick (American Brown Ale)
+4th Al Korzonas (Trappist-Other: Orval)
+
+
+------------------------------
+End of HOMEBREW Digest #1693, 03/30/95
+*************************************
+-------

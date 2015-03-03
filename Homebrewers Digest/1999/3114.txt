@@ -1,0 +1,1586 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id CAA21853;
+        Thu, 19 Aug 1999 02:24:26 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id CAA15117;
+        Thu, 19 Aug 1999 02:24:23 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.7/8.8.4)
+          id AAA26643 for realhomebrew; Thu, 19 Aug 1999 00:40:13 -0400
+Date: Thu, 19 Aug 1999 00:40:13 -0400
+Message-Id: <199908190440.AAA26643`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3114 (August 19, 1999)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3114                             Thu 19 August 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Vortex shedding, Helmholtz coils & Precipitators (Kirk.Fleming)
+  Re: Malty, oxidized / Faultline ("Arnold J. Neitzke")
+  Water bath in place of the wet T-shirt to keep carboys cool... (darrell.leavitt)
+  pumps and shear (Marc Sedam)
+  Steve's Hypo (Tidmarsh Major)
+  Re: Early hop harvest ("Sieben, Richard")
+  over pressure boiling? ("Nathaniel P. Lansing")
+  RE:CFC in FLA (Dave Hinrichs)
+  Cat in the Beer ("Alan McKay")
+  re: Fermometer accuracy ("Kensler, Paul")
+  Formula for Calculating Expected FG from OG ("Michael O. Hanson")
+  Bottling pLambic (Nathan Kanous)
+  Re: Water use in brewing (Jeff Renner)
+  science of brewing (ALAN KEITH MEEKER)
+  ugggghhhhh ("Stephen Alexander")
+  re:  yeast question ("Kensler, Paul")
+  Sourmash -NOT!/Jolly Roger/Reynolds # ("Stephen Alexander")
+  Re: Praticality (Scott Murman)
+  Re: Dark mild licorice flavor (Jeff Renner)
+  Turbulence ("Paul Niebergall")
+  Barley Wine Aging (Eddie Kent)
+  The Brew Warrior (MVachow)
+  die by the sword/ayinger mash ("Bayer, Mark A")
+  St. Catherines and Buffalo area beer places ("Bruce Garner")
+  Reynolds Number ("Paul Niebergall")
+  RE: Dark mild licorice flavor (LaBorde, Ronald)
+  RE: Praticality (LaBorde, Ronald)
+  Plastic ball blanket ("BeerLvr")
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+* The HBD now hosts eight digests related to this and a few other hobbies.
+* Send an email note to majordomo`at`hbd.org with the word "lists" on one 
+* line, and "help" on another (don't need the quotes) for a listing and
+* instructions for use.
+*
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+Contact brewery`at`hbd.org for information regarding the "Cat's Meow"
+
+
+Back issues are available via:
+
+
+  HTML from...
+        http://hbd.org
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+COPYRIGHT for the Digest as a collection is currently held by hbd.org 
+  (Pat Babcock and Karl Lutzen). Digests in their entirity CANNOT be 
+  reprinted/reproduced without this entire header section unless 
+  EXPRESS written permission has been obtained from hbd.org. Digests
+  CANNOT be reprinted or reproduced in any format for redistribution
+  unless said redistribution is at absolutely NO COST to the consumer.
+COPYRIGHT for individual posts within each Digest is held by the
+  author. Articles cannot be extracted from the Digest and
+  reprinted/reproduced without the EXPRESS written permission of the 
+  author. The author and HBD must be attributed as author and source in
+  any such reprint/reproduction. (Note: QUOTING of items originally
+  appearing in the Digest in a subsequent Digest is exempt from the
+  above. Home brew clubs NOT associated with organizations having a
+  commercial interest in beer or brewing may republish articles in their
+  newsletters and/or websites provided that the author and HBD are
+  attributed. ASKING first is still a great courtesy...)
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 18 Aug 1999 00:58:01 -0500
+From: Kirk.Fleming`at`born.com
+Subject: Vortex shedding, Helmholtz coils & Precipitators
+
+
+Not being convinced that the expression provided adequately models reality
+in determining transition flow rates in my brewing system, I've abandoned
+efforts to investigate turbulent vs laminar flow entirely--at least until I
+can instrument my system for dynamic pressure.
+
+
+In the mean time, however, I'm thinking the whole issue can be resolved for
+RIMS systems by ensuring protein molecules (but not enzymes) are largely
+contained in the main vessel through the use of some sort of electrostatic
+filter.  For example, might it be possible to put, say, a high DC potential
+across the mash tun to ground, I don't know, maybe 150KV or so, and thereby
+lock the little proteins in a sort of stasis?  Can we get any sort of
+leverage that way?  How can we get the little proteins to look like
+electrolytes, so to speak?
+
+
+Lately I've also become concerned about the local magnetic field and the
+effects it might be having on product.  I know normally this wouldn't be a
+concern, but I have a stack of worn out golf shoes accumulating in the
+corner of my garage, each of which is equipped with those magnetic strip
+soles.  I know there shouldn't be anything magnetic in my beer, but now I
+wonder.  I remember when I was doing reseach on mechanical pendulum clocks,
+there was concern around the turn of the century that the Earth's magnetic
+field could be dorking up the running of our most accurate clocks.  It was
+suggested that construction and operation a so-called Helmholz coil in the
+area surrounding the clock could be used to neutralize the local magnetic
+field, and improve timekeeping.  I'm beginning to think I could do the same,
+to ensure those shoes aren't in some way messing up my beer.  Any ideas
+here?
+
+
+Finally, someone mentioned that the transition from laminar to turbulent
+flow was influenced by viscosity, and now I'm wondering if specific gravity
+would have a similar effect.  If so, then imagine the possibility of using
+one of those in-line vortex shedding gadgets used for measuring flow rates
+in pipes:  if you could guarantee that actual flow rate was constant, then
+it might be possible to use changes in the pulse rate from the flow meter to
+determine specific gravity.  Finally, if the AC to the Helmholtz coil were
+synchronized with the signal from the flow meter, then you might really have
+something...
+
+
+Kirk Fleming
+FRSL, FRSE
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 06:33:11 -0400 (EDT)
+From: "Arnold J. Neitzke" <neitzkea`at`frc.com>
+Subject: Re: Malty, oxidized / Faultline 
+
+
+On Tue, 17 Aug 1999, Spencer W Thomas wrote:
+
+
+> Another way to learn to recognized oxidized beer flavors is to take up
+> judging.  Depending on the category, it seems like half or more of the
+> beers in any competition have some amount of oxidized/old flavors in
+> them.  Get paired up with an experienced beer judge and ask him to
+> point out the oxidized tasting beers.  You'll learn the range of
+> flavors and aromas quickly. :-)
+> 
+> =Spencer Thomas in Ann Arbor, MI        (spencer`at`umich.edu)
+
+
+Spencer is right on about the judging thing, do if you get a chance.
+
+
+The first judging I did was for a mead comp last year and one of the first
+meads had this nutty flavor (that I kind of liked), the experienced judge
+told me that it was oxidized.  That mead got dinged because it was not
+appropriate for the style.
+
+
+By the way, that nutty flavor I detected is the same flavor in Solara
+Cream Sherry (Paw Paw, Mi). I was told that they deliberatly oxidize
+Sherry wines!
+
+
+Live and learn!
+
+
+_________________________________________________________
+Arnold J. Neitzke     Internet Mail: neitzkea`at`frc.com
+Brighton, Mi          CEO of the NightSky brewing Company
+- ---------------------------------------------------------
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 08:12:26 -0500 (EST)
+From: darrell.leavitt`at`plattsburgh.edu
+Subject: Water bath in place of the wet T-shirt to keep carboys cool...
+
+
+
+
+I have tried the wet t-shirt, but think that a water bath is better.  I first
+started using a trash can so that I could lager a year or so ago.  Using an
+indoor/outdoor thermometer as well as some foam/cloth for insulation on the
+outside has worked well for me...one can add ice as needed, now and then
+drawing off excess water.....The one problem is that temperature swings can
+exceed the recommended 2-4 degrees per day (that I think is the consensus)..
+Never the less, I have produced some really good bocks, and pilsners,and 
+"American" Lagers with this method.
+
+
+Lately I thought: why not use the water bath for ales as well. ... seeing that
+the ambient temp was well into the 90's recently, here in N NY state,
+for several weeks, I was very worried about off-flavors due to temps that were
+hard to keep down...even with the t-shirt...
+
+
+So, I purchased a few of the smaller rectangular recycle bins (with tops) and 
+filled with water.  After the ale is fermenting well I place the carboy into
+the water, making sure that the water temp is REAL close...but lower than that
+of the carboy...then, watching that the bubbler doesn't stop...over several
+days I slowly drop the temp (usually with small additions of ice) to that 
+called for by the yeast variety...
+
+
+I cut a hole in the top of the cover so that the carboy protrudes out of the
+lid..but the lid is one..There may be a better way to do this..but I have seen
+that the large mass of water...once stabilized at the target temp,...is MUCH
+more resistent to the normal temp swings in the house in the summer (no air
+conditioning)...and that keeping near the mid-point of the designated temp
+range makes for a very steady and LONG fermentation...
+
+
+I know that much of this is obvious to many of you, but for those who have
+had problems with maintaining the correct temperatures I suggest using
+a water (and ice) bath in place of the wet t-shirt.  Let's allow the
+wet t-shirt to maintain it primary function.....and we all know what
+that is!
+ ..Darrell
+<Terminally INtermediate Home-Brewer>
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 08:52:52 -0400
+From: Marc Sedam <marc_sedam`at`unc.edu>
+Subject: pumps and shear
+
+
+There is one easily achieved condition that can occur while using
+a pump that will result in protein shear--a not totally filled
+pump head.  If the pump head is lacking significant fluid you
+will (of course) hear cavitation, which is hell on proteins.
+They *will* denature and could have deleterious effects on
+efficiency, head retention, etc. depending on when in the brew
+day you butch it.  However, even a mostly-filled pump head can
+have air trapped in it with necessarily causing audible
+cavitation.
+
+
+Don't know how dramatic the effect is, but it can definitely do
+some damage.  When, in a past life, I had to pump protein
+solutions between tanks we worried incessantly about whether the
+pump head was completely filled and purged of all air.  When we
+screwed it up and left air inside, the protein came out the other
+side of the pump mostly denatured.
+
+
+Cheers!
+Marc Sedam
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 07:54:38 -0500
+From: Tidmarsh Major <tidmarsh`at`mindspring.com>
+Subject: Steve's Hypo
+
+
+Steve A presents an interesting hypo, asking whether we would combine
+various chemical compounds if such a mixture would quickly and easily
+produce an approximation of beer indetectible from the original
+product, but I think his underlying question misses the mark.
+
+
+The relevant question isn't how _much_ science (I'd say technology in
+it's broad definition of applied science) is too much, but rather what
+_kind_ of technology is helpful.  The question is one of quality
+rather than quantity.  To focus on how much technology can be used to
+create the final product is a to consider quantity and product, but
+the relevant question should consider the quality of the process.
+
+
+I daresay that most of us do not brew for the result alone.  We enjoy
+the process of turning a bucket of grain, a few handsful of hops, a
+pot of water, and a jug (or package) of yeast into beer.  Along the
+way, we use whatever tools improve that process.  To combine a few
+chemicals from various bottles doesn't improve the process, it
+eliminates it.  I wouldn't "brew" that way, not because it's "too much
+science" but because it is the "wrong kind of technology" for my
+tastes.
+
+
+Asking the question in the form of "how much science" forces one to
+make arbitrary and indefensible "bright line" tests that fail under
+close scrutiny and forces a false dilemma of all science or no
+science.  We all use technology, so therefore all science must be the
+right answer, but most of us know intuitively that mixing chemical
+ingredients is not the same hobby that we currently enjoy.  Some might
+like that hobby more, but it is a different kind of activity.
+
+
+With the question of what kind of technology improves the process, we
+arrive at a highly subjective question whose answer changes from
+person to person and time to time, much like asking "What's the best
+kind of beer?"  I know my brewing methods vary wildly, depending on
+mood and available time: sometimes I keep copious notes, cook cereal
+mashes, perform protein rests, and boil decoctions; other times I boil
+some syrup with some hops and water.
+
+
+Tidmarsh Major
+BIrmingham, Alabama
+De gustibus non est disputandem
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 07:58:58 -0500
+From: "Sieben, Richard" <SIER1`at`Aerial1.com>
+Subject: Re: Early hop harvest
+
+
+Paul Kerchefske mentions early hop harvests,
+        Paul, I and some others here on the HBD have noticed the same this
+year.  I live close to the Illinois/Wisconsin border and your results
+reflect mine, so I think it's the weather we have had.  Yes, my Tettnagers
+were early like yours, as well as my Kent Goldings, Fuggles and Bullions.
+Also, as you have noted, my Mt. Hoods don't look like they are doing so
+well, I see burs just coming out now on them.  This is my first year for
+Cascades and they are loaded with cones.  My Willamettes don't look like
+they will produce as much as last year at this point, but there is still a
+month of summer left, so we will see.
+
+
+Rich Sieben
+Island Lake 11 plant hop ranch
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 09:49:51 -0400
+From: "Nathaniel P. Lansing" <delbrew`at`compuserve.com>
+Subject: over pressure boiling?
+
+
+The talk of pressure cooking wort and over-pressure boiling made me
+wonder...
+If a large beer factory has a 30 foot deep kettle, then wouldn't the beer
+
+
+at the bottom
+be at 2 atmospheres? Maybe the wort at the bottom isn't actually boiling
+but the
+convecting heat would boil the top layer of wort as it reaches closer to 
+1
+atmosphere.
+Is this over-pressure/over-temperature boil why they get such high hop
+utilizations? 
+
+
+In a really tall kettle they could be boiling at 3 atmospheres without a
+pressure
+system.
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 09:03:29 -0500
+From: Dave Hinrichs <dhinrichs`at`quannon.com>
+Subject: RE:CFC in FLA
+
+
+Date: Tue, 17 Aug 1999 21:45:31 -0400
+From: Debi Lake <debiL`at`sunnyorlando.com>
+Subject: CFC in FLA
+
+
+
+
+>During the summer, I have been running the wort from the CF chiller
+>through a 6ft copper coil buried in a cooler of ice and then into the
+>carboy.  It's a pain because it's one more thing to sanitize and clean.
+>Also, with the extra apparatus, it's harder to start the siphon since I
+>can't increase the height of my kettle.  To solve this problem, I may
+>have to break down a purchase a pump (damn, now that's two more things I
+>have to clean).
+
+
+Why not run the cooling water though the coil in the tub of ice water
+first. The cooling water will be colder for faster cooling and a possible
+low final temp. Cleaning would be easier/not required as well. 
+
+
+Don Lake
+Windermere, FL
+dlake`at`amuni.com
+
+
+***************************************************************
+* Dave Hinrichs                 E-Mail: dhinrichs`at`quannon.com *
+* Quannon CAD Systems, Inc.             Voice: (612) 935-3367 *
+* 6101 Baker Road, Suite 204              FAX: (612) 935-0409 *
+* Minnetonka, MN 55345                                        *
+*                http://www.quannon.com/                      *
+***************************************************************
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 09:00:37 -0500
+From: "Alan McKay" <amckay`at`nortelnetworks.com>
+Subject: Cat in the Beer
+
+
+
+
+
+
+My cats are always around on brew day, and have learned
+the hard way not to get too close to the propane burner.
+They don't seem to mind the kegs, though, as this
+picture proves :
+http://www.hbd.org/~mckay/photos/cat_in_keg.jpg
+
+
+cheers,
+ -Alan
+
+
+
+
+
+
+- --
+Alan McKay
+OS Support                        amckay`at`nortelnetworks.com
+Small Site Integration        613-765-6843 (ESN 395)
+Nortel Networks                All opinions expressed are my own
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 09:38:11 -0500
+From: "Kensler, Paul" <paul.kensler`at`wilcom.com>
+Subject: re: Fermometer accuracy
+
+
+Chris Farley (hopefully not living in a van down by the river ;-) ) asks
+about Fermometer accuracy:  
+"I have often wondered about the accuracy of stick-on thermometers like the
+"Fermometer" <snip>. There is obviously a temperature gradient throughout
+the carboy, and the stick-on thermometer is measuring the temperature of the
+outside glass. Is this temperature gradient significant? I have wondered if
+this inaccuracy is related to the frequent claims I read that "wet t-shirt"
+cooling can reduce the temperature of 5 gallons of fermenting beer by 6-8
+degrees F!"
+
+
+Chris, I use the evaporative cooling method in glass carboys covered in
+tshirts in a water bath.  I also use the "Fermometer" brand stick-on
+thermometer, and routinely notice that I am getting 5-10 degrees F cooling,
+depending on the humidity.  I think the Fermometer is pretty accurate,
+here's why:
+
+
+1.        The temperature on the Fermometer remains constant, even after I
+remove the wet tshirt.  If the Fermometer was only measuring the temperature
+of the wet (cool) tshirt, I would expect it to rise after the tshirt was
+removed and it adjusted to read the temperature of the carboy.
+2.        I don't think there is much of a gradient in a fermenting carboy, at
+least during fermentation due to the strong convection in the fermenting
+mass.  Of course, my experience is 99% with ales, so I don't know if lager
+fermentations are different.  Since they are in a refrigerator, if the
+fermentation has less convection there may be a significant temperature
+gradient between the cold glass and the center of the fermenting liquid.
+Any lager brewers able to comment on temperature gradients?
+3.        I did a small experiment, where I compared the Fermometer to a
+long-stemmed dial thermometer and my lab-quality mercury thermometer.  I did
+this two ways:  I filled the carboy with water (no efforts to cool), and
+filled with water with the wet tshirt evaporative cooling setup.  The
+Fermometer was within 1 degree of the other two thermometers (of course,
+taking into consideration how those liquid crystal thermometers are only
+calibrated at two degree intervals).
+4.        The tshirt wicks water up and gives it a large surface area to
+evaporate.  Evaporation cools the water bath.  The water bath (sort of a
+heat sink) cools the ferment.  In my setup, the water bath / heat sink is a
+significant mass (usually 3-4 gallons), and I believe it is the mass of the
+cool water that actually keeps the fermenter cool, not the wet tshirt.  The
+tshirt is just used to maximize the evaporation.  FWIW, I usually lose about
+ .75 - 1 gallon of water a day to evaporation (just guessing, I haven't
+measured it).  When I have to add more water, I always use cool water (65-70
+degrees), or am careful to add ice to chill the water bath down.  In Texas
+in the summer, adding 85 degree "cold" tap water to your heat sink can make
+a difference...
+
+
+
+
+What I take from it is this:  With my setup, and when fermenting ales at
+room temperature, evaporative cooling does work and the Fermometer is a
+fairly accurate (within a degree or two) device.  Everyone else's mileage
+may vary.  No affiliations to the Fermometer or any carboy or tshirt
+manufacturer.
+
+
+
+
+Paul Kensler
+Plano, TX
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 09:48:57 -0500
+From: "Michael O. Hanson" <mhanson`at`winternet.com>
+Subject: Formula for Calculating Expected FG from OG
+
+
+Does anyone know of a formula for estimating final gravity from original
+gravity?  I know there some complicating factors with any such formula.
+However, such a formula would be useful if it exists for formulating recipes.
+
+
+Thanks,
+
+
+
+
+Mike hanson
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 09:58:56 -0500
+From: Nathan Kanous <nlkanous`at`pharmacy.wisc.edu>
+Subject: Bottling pLambic
+
+
+Any tips on bottling pLambic?  I don't have a ton of champagne bottles,
+only standard 12 oz beer bottles.  I've heard some folks mention problems
+with pellicle development in bottles.  Any ways to avoid that?  For those
+that actually make pLambic at home, do you always blend?  I've got my first
+batch in the basement....tasting quite interesting, if not really sour!
+I'd love to have the opportunity to brew one of these on a regular basis to
+provide for blending, but sometimes you can only wait so long.
+
+
+Any info would be helpful.
+nathan in madison, wi
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 11:02:10 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Water use in brewing
+
+
+"Christopher Farley" <chris`at`northernbrewer.com> asks
+
+
+>Have you considered the amount of water removed from your body when you
+>*consume* the 10 gallon batch of beer? Beer production is water-intensive, but
+>so is beer consumption.
+
+
+An amusing anecdote as told to me by a favorite old Chem. E. prof of mine,
+Brymer Williams (I spent, or misspent 1-1/2 years of my youth in that
+major), who sat on the board of directors of a small local brewery here in
+Ann Arbor in the 1940s.  As in most towns, sewage fees are based on water
+usage, but this brewery tried to get out of part of this by claiming that a
+portion of their water usage went into their beer, and shouldn't be subject
+to the sewage fee.  The city countered that it certainly did, eventually.
+A compromise was agreed upon - they would be exempt from fees for the beer
+that was sold outside of the city limits!
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 11:28:23 -0400 (EDT)
+From: ALAN KEITH MEEKER <ameeker`at`welch.jhu.edu>
+Subject: science of brewing
+
+
+- ------------------------------
+Dan Cole wrote (in part):
+
+
+
+
+>To claim that brewers who brew according to rules of thumb, measure
+>temperature by their finger, who "eyeball" mash thickness, etc, aren't using
+>science is incorrect; they are applying the scientific method just as much
+>as the brewer who uses thermometers, pH meters, etc, but merely with
+>different tools of measurement (eyes, fingers, etc.) 
+
+
+Exactly! Well put...
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 11:31:04 -0400
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: ugggghhhhh
+
+
+Eric Panther" says ...
+
+
+>>For what reason and at what temp does he consider it overheating ?
+>
+>Anything above about 106C (223F) can result in excessive thermal loading
+and
+>production of furfural and various sulfur containing heterocyclic
+compounds.
+>Furfural (one of the caramel aromas) is widely recognised as a staling
+>precursor and the latter generally have cooked vegetable and rubbery
+odours.
+
+
+I think you overgeneralize her.  Furfural (or at least 2-furfural) is a
+caramel flavor and very flavor active, but these exhibit a great flavor
+range.  Furfural is also described as almond flavor. furfurals, furans,
+pyrone, iophenes pyrazines, pyroles, and sulfur containing heterocyclics
+like thiazoles thiophenes  etc are all maillard products found in malt.
+Some have caramel flavors, but others have nutty, bready and malt flavors.
+You find all of these in munich and melanoidin malts for example.  All
+carbonyls (which includes most of the above and their pre-cursors) are
+implicated in oxidation damage.  Fix has referred to the double edge sword
+effect of dark malts on oxidation in one of his books. The solution is not
+to eliminate the flavor compounds, but to reduce the oxidation damage as you
+previously noted.
+
+
+Maillard product flavor descriptions include all of the following and a lot
+more:
+
+
+Maillard
+  almond: 5-methyl-2-furanaldehyde
+  almond: acetophenone
+  biscuit: (Z)-4-heptenal
+  burnt: 2,3-dime-6-ethylpyrazine
+  burnt: guaiacol
+  burnt: furfuryl alcohol
+  caramel: maltol
+  caramel: furaneol
+  caramel: g-butyrolactone
+  caramel: et 4-hydroxybutanoate
+  coffee: 2-furfurylthiol
+  hawthorne: phenylacetaldehyde
+  malty: 3-methyl butanal
+  marshmallow: ethyl 3-hydroxybutanoate
+  nut: 4-heptanolide
+  nutty: 2,6-dimethyl pyrazine
+  popcorn: 2-acetyl pyridine
+  roasted: trimethyl pyrazine
+  roasted: acetylpyrazine
+  roasted cocoa: 2-methyl butanal
+  roasty: 2-Propionylpyrrole
+  roasty: 2-acetylthiazole
+  roasty: 2-acetyltetrahydropyridine
+  roasty: 2-acetyl-2-thiazoline
+  rubbery: benzothiazole
+  rum: ethyl formate
+  whiskey: 3-methyl-1-butanol
+  whiskey: butyl decanoate
+
+
+Grain flavors include
+  almond: benzaldehyde
+  almond: furfural
+  bitter almond: p-methyl acetophenone
+  nutty: (E,E)-2,4-heptadienal
+  nutty: 2-acetyl-1-pyrroline
+  popcorn: 2-methyl pyrazine
+
+
+Don't take the above too seriously - the 3rd level chemical analogs of the
+second level may not always may not correspond with the first level term.
+
+
+The exact mix of flavors in a particular cooked (maillard product) food is
+dependent on a lot of factors, but particularly the mix of amino acids
+present, and the sugars present.  See my 1997 post for more detail.
+
+
+>the latter generally have cooked vegetable and rubbery odours.
+
+
+I don't disagree with much that you post Eric, but I disagree with this.
+The heterocyclic sulfur compounds among the maillard products are
+responsible for more meaty, brothy flavors and some nutty & bready ones too.
+Roast meats are an extreme example of sulfur heterocyclic maillard products
+Cooked yeast hydrosylate another.  OTOH simple aliphatic sulfur compound
+like hydrogen-disulfide and dimethyl-tetrasulphide are more responsible for
+vegetal flavors.  Rubbery aromas from thiazole exist, but this same class of
+compounds is responsible for roast flavors as in coffee too.  Pyrazines are
+more responsible for roast  malt flavors and other roast food flavors as
+well..  DMS and methionine derived aliphatic sulfur compounds are probably
+the flavor issue.
+
+
+I've never experienced brothy, meaty or rubber flavors from pCooking.  If I
+did I would also give it up too.  Maybe you should remove the mutton from
+the pCooker before adding the wort Eric ;^)  Incidentally, di-carbonyl
+terminated  lipids , if I recall correctly, are reportedly responsible for
+the peculiar flavor of mutton.  So adding mutton to your wort is another
+oxidation issue.
+
+
+- --
+
+
+Eric was kind enough  to send abstracts from some German journals - which I
+much enjoyed reading.  Perhaps the difference we see in results has to do
+with the specifics of the method.  I start the pCook unlidded till at or
+near boiling and after a 20' pCook add the result to the main boil (for
+another 60' approx).  Some of the papers are concerned with issues such as
+DMS formation and evaporation in low evaporation high temp boils performed
+entirely at pressure.
+
+
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 10:14:20 -0500
+From: "Kensler, Paul" <paul.kensler`at`wilcom.com>
+Subject: re:  yeast question
+
+
+Brian,
+This might not directly answer your question, but it might give you another
+option to consider:  using yeast on slant.  I started yeast ranching a
+couple years ago, and love it - you buy a slant of yeast for $3-$4, and it
+will last you for several batches.  It adds an extra step to start up your
+yeast cultures, but you will already have to make yeast starters using the
+Wyeast smack packs.
+
+
+Using slants is MUCH cheaper than smack packs, they keep better, and they
+take up less space.  I really recommend Yeast Culture Kit Company (Ann
+Arbor, MI - no affiliation).  I usually buy 10 slants or so every 12-18
+months.  This gives me more yeast strains than I could possibly use in one
+year (considering that I use certain strains more than others), so I always
+have a suitable strain on hand, and it still costs less than what I would
+have spent on smack packs.  In my experience, every YCKCo yeast I have used
+has fermented like mad - short lag times, complete fermentations, etc.
+
+
+YCKCo: http://oeonline.com/~pbabcock/yckco/yckcotbl.html
+
+
+YCKCo sells a starter kit - a few slants and an inoculation loop, with basic
+beginners instructions.  Plus, they sell sterile small volume starters -
+test tubes with 30-50ml sterile wort in them.  They're extra money, but they
+save a lot of time and effort, plus you know they're sterile.  I would also
+recommend getting an alcohol lamp - they are a lot easier to use than a
+butane lighter...
+
+
+
+
+Hope  this helps,
+Paul Kensler
+Plano, TX
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 11:34:20 -0400
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: Sourmash -NOT!/Jolly Roger/Reynolds #
+
+
+Paul says ...
+
+
+>> note the difference
+>>between a (bacterial) acid rest and a sourmash.
+>
+>I've always made a concentrated sour mash.
+
+
+Sourmashing is a  method used in whiskey production that adds roughly 25% of
+fully fermented beer (setback) to fresh wort.  This immediately drops the pH
+and gives an advantage to yeast over certain other bacteria.  I don't think
+anyone sourmashes beer.
+
+
+===
+Roger says ...  >     Steve just won't let this one go,
+'Takes two to tango, Roger.
+
+
+>    >>dP = L (in feet) * 0.56psi + 0.43 psi    [1/4" ID  ...]
+>
+>   Please , you can't say the formula is dimentionless,
+
+
+I DIDN'T SAY THAT.  I NEVER SAID THAT.  You are arguing with yourself,
+Roger, since YOU made up this statement about being dimensionless, not me.
+I have never said any eqn in this thread was DIMENSIONLESS.  Your inability
+to see the difference between units and dimensions, and between the unitless
+ORIGINAL eqn and the PRACTICAL eqn above *with units* lies at the heart of
+YOUR misunderstanding.
+
+
+The basic force eqn "F=M*A" is UNITLESS, but must always have DIMENSIONS of
+"mass * length / time^2"".  The UNITs for measuring and expressing these
+DIMENSIONs can be anything at all.  You can measure the DIMENSION of length
+in UNITs of inches or meters or lightyears, but "F=M*A" still applies.  Once
+you substitute UNITs into such an eqn the result is still an eqn but it  is
+relevant only in those units.
+
+
+ F = M * A         :is unitless
+ F (in Newtons)  = 0.069 * M (in slugs) * A (in meters/second^2)    :is not
+unitless.
+
+
+similarly ...
+ dP = C' * (rho * vbar mu  ....     : is unitlesss
+ dP(in psi) = L (in feet) * 0.56psi + 0.43 psi    [1/4" ID  ...] : is not
+unitless
+
+
+Each pair has identical DIMENSIONs.  The units REQUIRED must be stated in
+eqns with units.  I have consistently stated this.
+
+
+>   and then say you
+>   have all the units there, and then say you need to convert to
+>   something...
+
+
+No - I didn't say that either.  The units in the term "L(in feet)" IS
+stated, I never suggested anything needed conversion.  You are the one who
+suggested substituting L in lightyears into "L(in feet)".  If you don't
+understand why this can't work, think apples and oranges, but in the realm
+of UNITs not DIMENSIONs.
+
+
+There is no reason to continue this thread until you read what I have posted
+and respond to *it* rather than making things up and attributing them to me.
+Use quotes, or state what *YOU THINK* you understand.  Made-up nonsense
+statements like:
+>   Please , you can't say the formula is dimentionless,
+have no place.  Stop pirating my words.
+
+
+>   either way, as I have said, the 0.5psi per foot of 3/16" tubing, sat
+>   least in my experience.
+
+
+That is about one third the pressure drop  I see from experience, from eqns
+and also from practical data published on beverage tubing for 3/16" tubing
+at ~1gal/min flow.
+
+
+===
+Mark Bayer of the broken shift key writes ...
+
+
+>what amazes me is that the guy who made it to 40,000 reynolds laminar
+>published his results in the year 1910.
+
+
+A lot of experimental and basic physics appeared in that decade, and a
+couple of years on either side, followed by some big advances in
+biochemistry.  Don't be too amazed, it was probably a lot more interesting
+time in that respect than our current decade.
+
+
+Mark supplies a good bit of the background on the meaning of *critical*
+Reynold's numbers that I had been trying to avoid delving into here.   I
+agree with his conclusions.  Thanks (I think !).
+
+
+>"the more i re-read this post, the more happy i am that reynold's number is
+>dimensionless"
+
+
+Dimensionless - yes, now I don't feel so alone.  Mark, could you explain
+concept to Roger.  He's too busy arguing  to bother to read what I write.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 11:15:44 -0700 (PDT)
+From: Scott Murman <smurman`at`best.com>
+Subject: Re: Praticality
+
+
+
+
+
+
+> Once again Mr. Alexander ties to baffle us with B.S. (if you cant dazzle 
+> em with brilliance.......)
+> 
+> R = 0.00223 ft^3/s * 0.021ft / 1E-05 ft^2/s
+> 
+> R = 4.64
+>
+> Paul Niebergall
+
+
+In Paul's excitement to attack and belittle someone he apparantly
+forgot how to do basic math.  Steve was correct.
+
+
+ -SM-
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 14:42:44 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Dark mild licorice flavor
+
+
+BioCoat`at`aol.com asks
+
+
+>Does anyone know how to create the licorice like flavor in dark mild?
+
+
+There is available from brewing supplies brewers licorice sticks, which is
+an extract of licorice root.  You can also use licorice roots.  Papazian
+suggests 2-5 inches/ 5 gallons shaved and chopped and boiled at least 15
+minutes.  It was also used in historic US porters.
+
+
+It seems to me I've seen reference to a few British brewers who use it, but
+I'm sure it's not common, and it seems to me it was in a stronger dark ale
+such as porter or old ale.  I haven't tasted it in the few milds I've had.
+I suspect it's likely the malts, or malt and brewing sugars and caramel,
+and perhaps yeast.  Frankly, I've never liked licorice.  I did use it once
+in a porter back in the 70s.  Lots of recipes we had back in the bad old
+days called for it in dark ales.  I don't recall that it had a strong
+licorice flavor - more of a cloying oily effect as I recall.
+
+
+The Real Ale Almanac would probably help you find which breweries use it.
+I have a copy and could look up specific brews if you want, but I'm not up
+to going thru all 314 pages and thousands of breweries to check.  ;-).  I
+just scanned about half of it and didn't find anything.
+
+
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 14:17:31 -0500
+From: "Paul Niebergall" <pnieb`at`burnsmcd.com>
+Subject:  Turbulence
+
+
+Once again Steve Alexander tries to cover up his own errors by lashing out 
+in an attempt to find fault with others calculations.  This guy just wont 
+give up, will he?  To clarify the issue, lets go back to the original post 
+about turbulent flow in a peristaltic pump:
+
+
+ -S Wrote:
+
+
+>Turbulent flow in a tube is a Reynolds Number RN >2200 where
+>RN = rho * vbar * Diam / nu  For 20P maltose solution at 20C, 1/4"ID,
+>1gal/min the RN is about 5500.  The RN will be even higher at higher 
+temps
+>(lower viscosity).  The RN will be proportional to the flow rate.  For a
+>given flow rate, increasing the tubing diameter causes a proportional
+>decrease in RN.
+
+
+The actual values and units that were used for "rho and nu" are left out.  
+This is bad science and can lead to the miscalculations such as the one 
+appearing above.  We can assume that Steve is confusing the concept of 
+absolute viscosity (mu) and kinematic viscosity (nu).  By using the term 
+nu (kinematic velocity) in the denominator in the above equation, the rho 
+term should be dropped from the numerator.  The relationship is rho/mu = 
+nu.  Anyway confusing the two terms leads to a miscalculation of  RN that 
+is way too low.
+
+
+According to the CRC Handbook of Chemistry and Physics (57th Edition, page 
+F-51), the absolute viscosity of water (mu) at 20 degrees C is 1.002 
+centipoise (cp).  A conversion on page F-50 indicates that this is 
+equivalent to 2.093E-05 lb*s per ft^2.  I have chosen water for my 
+example.  The viscosity of wort is only slightly higher (thus my Reynolds 
+Number will be slightly lower) so this does not change the results of the 
+calculation all that much.
+
+
+The specific gravity of wort at 20P is about 1.080, thus the unit weight 
+of wort at 20P is 1.080*62.43 pcf or about 67.42 pcf.  To get the mass 
+density (rho) of the wort you must divide the unit weight by the 
+acceleration due to gravity:
+
+
+rho = 67.42 lbs/ft^3 / 32.2 ft/s^2 = 2.094 lbs s^2 / ft^4 (or slugs 
+per ft^3 for the unitly challenged or dense.  Get it- slugs, mass, DENSE, 
+Ha).
+
+
+Anyway, correcting Steve's equation for the viscosity discrepancy:
+
+
+RN = rho * vbar * Diam / mu
+
+
+(note the correct term of mu rather than nu)
+
+
+rho =  2.094 lbs s^2 / ft^4
+vbar = 6.54 ft/s (velocity of 1 gpm flowing through a 0.25 inch diameter 
+tube)
+Diam = 0.25 inches or 0.02083 ft
+mu = 2.093E-05 lb*s per ft^2
+
+
+Therefore:
+
+
+RN = (2.094 lbs s^2/ft^4 * 6.54 ft/s * 0.02083 ft) / 2.093E-05 lb*s per 
+ft^2
+RN = 13,629
+
+
+Well beyond the 5500 value that Mr. Alexander claims above.
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 14:45:09 -0500
+From: Eddie Kent <ebk1`at`earthlink.net>
+Subject: Barley Wine Aging
+
+
+I'm making my first batch of barley wine this weekend and was wondering
+how most people store it for aging.  I was going to let it go 2 weeks in
+
+
+the primary and a week or 2 in the secondary and then keg it with 5 or 6
+
+
+lbs of CO2 pressure for about 6 months at 40 degrees F (finished beer
+fridge).  I prefer kegging to bottling- any recomendations as to the
+right CO2 storage pressure.
+
+
+Any recomendations for impovements on my recipe-barley wine virgin
+here(5 gal batch):
+22 lbs 2 row malt
+2 lbs. 60degree Crystal malt
+2 oz. EKG hops during boil
+1 oz Cascade at end of boil
+2 vials of California Ale Yeast stepped up to .5 gallon starter
+- --
+Eddie Kent
+ebk1`at`earthlink.net
+
+
+Who needs ketosis when it's 100 F outside on a brew day (Houston, TX)!
+
+
+
+
+
+
+- --
+
+
+Eddie Kent
+Mark VII Special Services Group
+340 N. Sam Houston Pkwy. E., Suite 280
+Houston, TX 77060
+800-422-9942 fax 281-260-9980
+ebk1`at`earthlink.net
+
+
+"When the only tool you have is a hammer, every problem begins to look
+like a nail."
+ -Maslow
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 15:58:15 -0500
+From: MVachow`at`newman.k12.la.us
+Subject: The Brew Warrior
+
+
+        Perhaps we won't have to worry about confronting the philosophical
+dilemma Steve Alexander poses in his vision of future-brew.  Consider this
+more apocalyptic, "Road Warrior"-like vision of the future:
+        The local brew supply store is a distant memory muttered by half-mad
+old-timers as they stand on street corners warming themselves beside trash
+barrel fires.  "Stainless in Seattle!" one old timer howls at passersby.
+Ditto for the Web; not enough money in the homebrew supply business to
+attract even the scam artists selling five-year old extract and browning hop
+pellets out of their garages.  
+        Cast back to their homebrewing roots, a small band of "brew
+warriors" cling to their avocation.  They scavenge Pabst extract (back in
+production after county after county in the Plains and Bible Belt kicked
+Darwin out of the schools and alcoholic beverages off the store shelves) and
+supplement with table sugar and corn meal.  They grow their own hops and
+culture yeast with lab gear pilfered from the workplace; many ferment
+spontaneously.  They pester local farmers for a few bushels of raw barley
+and malt it themselves.  No sense in trying to get in good with the local
+micro's brewmaster.  First of all his label is owned by Phillip Morris and
+his contract strictly forbids that kind of subsidiary trade, a moot point
+anyway as the micro uses the latest in synthahol brewing
+technology--wouldn't find a speck of malted grain in the place.  
+        Using a primitive list serve communication device, this hearty band
+of cranks manage to brew beer the "real" way using Rube Goldberg
+contraptions cobbled together from salvage yard jetsam.  Rumor has it that
+they come together occasionally in gatherings that resemble the ancient
+phenomenon of the "rave" to share barleywine, Grand Cru, kriek, weizenbock
+and other arcane beer styles that exist otherwise only in history books. 
+
+
+Mike
+New Orleans, LA
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 14:07:00 -0700
+From: "Bayer, Mark A" <Mark.Bayer`at`JSF.Boeing.com>
+Subject: die by the sword/ayinger mash
+
+
+collective homebrew conscience_
+
+
+paul n wrote:
+
+
+>R = V * d/v
+<snip>
+>Where:
+>R = Reynolds number
+>V = Velocity of the fluid
+>d = diameter of the tube or pipe
+>v = kinematic viscosity of the fluid
+
+
+>If:
+>V = 1 gpm (or 0.00223 ft^3 per second)
+>d = 0.25 inch (or 0.021 ft)
+>v = 1E-05 ft^2 per second 
+
+
+>R = 0.00223 ft^3/s * 0.021ft / 1E-05 ft^2/s
+
+
+>R = 4.64
+
+
+reynolds 4.64 is the regime of "creeping flow".  imagine pouring
+refrigerated molasses.  it is not like beer at 1 gpm from a .25 inch
+diameter hose.
+
+
+the problem can be detected by examining the units above, and specifically
+the velocity, which is written in units of volumetric flow rate.  one gallon
+per minute comes out to 6.562 feet per second {mean axial velocity} for a
+ .25 inch diameter hose.  so the calculation should be:
+
+
+reynolds = [6.562 ft/s] x [.25/12 ft] / [1.e-5 ft^2/s]
+reynolds = 13 671.
+
+
+this is well into the turbulent regime for steady pipe flow.
+
+
+**********************
+
+
+still looking for details on ayinger's malting procedure.  i re-read brewing
+techniques vol 4 number 1 last night and also got a private email confirming
+they perform at least a double decoction on the dunkel.
+
+
+don't they realize decocting is a waste of time?  ; )
+
+
+brew hard,
+
+
+mark bayer
+stl mo
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 16:35:46 -0500
+From: "Bruce Garner" <bpgarner`at`mailbag.com>
+Subject: St. Catherines and Buffalo area beer places
+
+
+I need recommendations for good food and beer near lodgings.
+
+
+St Catherines area Saturday night 28Aug.
+
+
+Will be flying to Buffalo Saturday the 28th and traveling to watch my
+daughter row Sun AM at St. Catherine's ON so am looking for a motel or B&B
+within walking distance of a good beer bar/brew pub Sat night. I expect that
+the crush of the world's championships will force me well out of town to the
+west. Augusta's Winking Judge in Hamilton looks like a possibility. Any
+other ideas?
+
+
+Buffalo near the airport Sunday night 29Aug
+
+
+Got to catch a 7:05 plane Monday morning. Need a beer bar/ brew pub and
+motel or B&B Sunday evening within walking distance of each other. I've
+noticed Buffalo Tap Room and Grill in Amherst and Buffalo Brewpub in
+Williamsville.
+
+
+Private email is reasonable here bpgarner`at`mailbag.com
+
+
+TIA
+
+
+Bruce
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 17:32:55 -0500
+From: "Paul Niebergall" <pnieb`at`burnsmcd.com>
+Subject: Reynolds Number
+
+
+Steve Alexander shows his true side and just cant seem to admit that he is 
+wrong (and can get downright nasty in the process).  But lets stick to the 
+facts.  In my last post I demonstrated how to correctly calculate Reynolds 
+Number (RN) based on absolute viscosity (mu) and mass density (rho).  In 
+that post I calculated a RN of  = 13,629.  This number is far from the 
+incorrect value of 5500 that Steve calculates in his original post (quoted 
+below for clarity).
+
+
+ -S Wrote:
+>RN = rho * vbar * Diam / nu  For 20P maltose solution at 20C, 1/4"ID,
+>1gal/min the RN is about 5500.
+
+
+This time I will obtain an value for RN using the kinematic viscosity.  
+And as you will see, it supports (or at least close enough for engineering 
+purposes) the value of 13,629 from my previous post.
+
+
+The following equation can be found in most any hydraulics text book:
+
+
+RN = vbar * Diam / nu where:
+
+
+vbar = velocity of the fluid in the tube  = 6.54 ft/s
+Diam = the diameter of the tube  = 0.25 inches or 0.02083 ft
+nu = kinematic viscosity of the fluid in the tube  = 1.002E-05 ft^2 
+per second
+
+
+The value for nu came straight from the CRC Handbook of Chemistry and 
+Physics (57th Edition, page F-51).  
+
+
+RN = 6.54 ft/s * 0.02083 ft / 1.002E-05 ft^2 per second
+
+
+RN = 13,596
+
+
+So I have shown using two different, and acceptable, methods that the 
+value of RN is about 13,500.  All parameter values, references, and units 
+have been clearly defined.  The RN values that I calculated vary by about 
+2 percent (that does not surprise me, rounding errors and all), but they 
+are nowhere near a value of 5500.  Whats the problem Steve?  Dont you 
+accept science?  Why do you continue with the false belief that the RN of 
+5500 that you calculated is correct?  Maybe thats why we (you) should be 
+discussing the art of brewing and leave the science alone.
+
+
+Here is another clue in case you still dont get it.  The RN values of 
+13,500 and 5500 differ by a factor of 2.455.  This factor is awfully close 
+to the mass density of water (2.094 lbs s^2 / ft^4). As I indicated in my 
+previous post,  rho/mu = nu.  Is it starting to sink in yet?
+
+
+Dr. Beer
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 17:45:08 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: Dark mild licorice flavor
+
+
+From: BioCoat`at`aol.com
+
+
+>Does anyone know how to create the licorice like flavor in dark mild?
+
+
+Well, ugh, yeah, pour in a few ounces of Anise Liquor
+
+
+Do NOT, repeat - Do NOT pour in the entire 750ml bottle as I did.  Unless
+you are trying to make my outstanding "Smith Brothers" in a keg!
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 17:51:20 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: Praticality
+
+
+ ....(if you flip forward in your text book a couple of pages, I am sure you 
+will find it)....
+
+
+You will find it right next to Young's Modulus, no darn, that's for
+reflecting glass.
+Look next to "Brewster's  Angle", no, shucks, that's for springs.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 18 Aug 1999 19:42:28 -0400
+From: "BeerLvr" <Beerlvr`at`hrfn.net>
+Subject: Plastic ball blanket
+
+
+Homebrew collective lend me your beers....
+
+
+I was thumbing through the plastics catalog from my local plastics supplier
+and found something interesting.  They have a HDPE ball blanket product.
+The balls are in the 3/4 to 1.5 inch range and the idea is that you float
+them on the top of your hot tank and they keep the heat in.  Has anyone ever
+seen these things and if so what would the feasibility be for say the HLT
+and the mash tun in my 3 tier systems?
+
+
+Mike Pensinger
+beerlvr`at`hrfn.net
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3114, 08/19/99
+*************************************
+-------

@@ -1,0 +1,1461 @@
+﻿Subject: Homebrew Digest #4429 (December 18, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4429                             Thu 18 December 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: RIMS temperature control ("Martin Brungard")
+  Heavy duty brewpot on e-bay ("richard ramirez")
+  Donating to HBD (how to do) ("Gary Smith")
+  Fw: Rogue Chocolate Stout ("Lindsay Dive")
+  Re: Scorched a direct fired mash (Scott Alfter)
+  re: Beersicle ("-S")
+  er: Yeast Cannibalism? ("-S")
+  RIMS issues ("Charles Beavert")
+  Malt Vinegar ("-S")
+  RIMS temperature control / Flowrate measurement (Lou King)
+  Re: Scorched a direct fired mash (Ed Jones)
+  Scorched mash ("Dave Draper")
+  Re: Scorched a direct fired mash (Jeff Renner)
+  Re: Beersicle (Jeff Renner)
+  Re: creating clear canned wort (Ed Jones)
+  Re: creating clear canned wort (Jeff Renner)
+  Cavitation and HSA (Calvin Perilloux)
+  RIMS Heat Equation ("Martin Brungard")
+  Clear Canned Wort-- Why? (rickdude02)
+  Chilly HERMS ("Jay Spies")
+  PID Control (Wade Hutchison)
+  Pump usage (Wade Hutchison)
+  Re: Pump usage ("Gary Smith")
+  Power Control in PID ("Mike Sharp")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job. Note that the Digest now
+  automagically protects your address, so spam-proofing is a waste of
+  your time, anyway :^)
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 16 Dec 2003 18:02:18 -0900
+From: "Martin Brungard" <mabrungard at hotmail.com>
+Subject: Re: RIMS temperature control
+
+
+Whew!, Todd is raising a ruckus.  But he does raise some good questions too.
+
+
+I did create and calibrate an orifice flowmeter for my system using water.  
+The only problem is that I haven't created a calibration set for various 
+wort gravities and temperatures.  But, using the calibration for water, I 
+checked the results of my last mash.  The flowrate was right at about 1/2 
+gpm for my system near the end of the mash.  During the initial stages of 
+the mash, the flowrate was much lower (as usual), but I made a measurement 
+error and I therefore don't have a flowrate calculated for that condition.
+
+
+Since my tun is equiped with a manometer, I was also able to measure the 
+headloss through the grainbed.  With the flowrate, area of the mash tun, and 
+hydraulic gradient through the bed, I calculated that the permeability of 
+the grist was about 0.06 cm/sec.  This was for a 5 gallon batch that was 
+mashed in a 6.5 gal plastic bucket (avg ID ~ 10.5 inches).  This data is 
+generally what I expected.  I didn't do anything like add rice hulls to 
+improve the permeability of this grist.
+
+
+Dion indicated that he estimates (measured?) the flowrate in his system to 
+be about 5 gpm.  I visited Dion's webpage and saw that he is using a Sankey 
+keg for mashing.  I'm assuming he's doing 10 gallon batches.  Assuming a 15 
+inch ID for the keg and a mash volume of between 6 and 8 gallons, I 
+estimated the grainbed depth to be about 8 to 12 inches deep.  For a typical 
+hydraulic gradient of about 1.0, the grist permeability would have to be 
+about 0.3 cm/sec.  That's about 4 times more permeable than I measured, but 
+that is not unusual.  Variation in the crush, grain type, and intake screen 
+could easily explain this.  A factor of 4 is almost nothing in the realm of 
+soil permeability, where permeabilty routinely differs by 8 or 9 orders of 
+magnitude.
+
+
+I have to admit that the 5 gpm flowrate in Dion's system is not 
+unreasonable.  But, I'm curious how accurate his estimate is and if any 
+special measures were taken to improve grist permeability.
+
+
+I also did a calculation on the heat input needed under various flow 
+conditions.  I would print the relatively simple equation here, but I left 
+it at the office.  It incorporates the wort Brix reading, the wort flowrate, 
+and the desired temperature step to determine the required heat input.  
+Notice that the equation doesn't use the desired temperature increase rate, 
+it doesn't really matter.  The temperature increase rate is a product of 
+everything else.
+
+
+I did find that it doesn't take much of a flowrate to exceed the output of 
+most single element heaters using 110v (~1200 watts).  This result was a 
+surprise to me, but looking back at my system's performance, I know that I 
+can't raise the wort temperature more than about 10 or 15 degrees above the 
+inlet wort temperature.  So, until I've started heating all the wort and 
+grain in the tun, the temperature increase is limited.  Dion's system uses 
+twin 110v heating elements.  I can see that this is a good solution to the 
+limited heating capacity of 110v elements.  It would be great to have a 
+system that could step up from say 122F and start pouring 154F wort onto the 
+mash, instead of my system's feable 130 or 140F wort.  That heat flow model 
+that I mentioned the other day does confirm that the mash step would be much 
+faster when you bring the heater outlet temp all the way to the desired 
+final temp immediately.
+
+
+But, I have to wonder out loud if the use of 220v heaters is really a bad 
+thing when your using a PID to modulate the power and you're measuring the 
+wort temp at the heater outlet.  It seems this would be entirely acceptable 
+and it would provide a higher heat output under higher flowrates.  I'm with 
+Todd and others on this issue, 220v power for heaters with PID control (and 
+the proper thermocouple location :-0 ) seems like it should be fine for 
+RIMS.  I'm hoping that someone on the list will have experience they can 
+share on this issue.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 19:13:54 -0800
+From: "richard ramirez" <richard_ramirez1 at lycos.com>
+Subject: Heavy duty brewpot on e-bay 
+
+
+I ran across this & thought 
+it might be interesting to 
+some of you. 
+Probably the biggest 
+brewpot I have ever seen.
+
+
+
+
+http://cgi.ebay.com/ws/eBayISAPI.dll?
+
+
+ViewItem&item=2366487080&ssPageName=ADME:B:LC:US:1
+
+
+
+
+remove the space in the url
+
+
+
+
+
+
+Richard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 23:15:05 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Donating to HBD (how to do)
+
+
+Hi,
+
+
+As I suggested in the last digest, it would be good to 
+send some financial support to the HBD server. I was 
+asked off list how to donate some Christmas cheer to 
+the HBD server fund and that was an email I was 
+particularly glad to get. 
+
+
+First the usual disclaimer stuff: No, I have no official  
+status with the hbd and I'm just a peon who is grateful 
+to get the digest.
+
+
+To find out where to donate, go to http://hbd.org and 
+click on the finances page on the left of the screen. 
+You will find all the info there and why if you send via 
+check, greenback, whatever... directly the server gets 
+more than if you go the PayPal route. 
+
+
+Belly up to the HBD bar Ladies & Gentleman, let's 
+buy the house a round.
+
+
+Cheers,
+
+
+Gary
+
+
+Gary Smith
+CQ DX de KA1J
+http://musician.dyndns.org
+http://musician.dyndns.org/homebrew.html
+
+
+If you pick up a starving dog and make him prosperous, he will not 
+bite you. This is the principal difference between a dog and a man.
+
+
+ - Mark Twain -
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 17:04:57 +1100
+From: "Lindsay Dive" <ldive at optushome.com.au>
+Subject: Fw: Rogue Chocolate Stout
+
+
+Mark is asking for a recipe for Rogue Chocolate Stout.
+I have not tried the Rogue Chocolate Stout, however, I have tried the Young's
+Luxury Double Chocolate Stout. This is a wonderful beer.
+I have recently attempted to clone this beer and from all reports so far it
+appears that I have mastered the amount of chocolate to be used and how to use
+it.
+I used 28 grams of Cocoa powder in a 25 litre batch. This amount of Cocoa
+powder gave just about the right flavour profile of the Young's chocolate
+stout. You could make it stronger if you wish, but I believe that the beer
+must first taste like a stout, and secondly, just leave the slightest hint of
+chocolate.
+I boiled the cocoa powder in about two cups of water for about five minutes
+and then let it settle for a while and then removed the cocoa butter that will
+form on the top of the liquid. You can see the little globules of the cocoa
+butter. I then added this liquid directly into the mash.
+You will think that you have added too much cocoa when smelling the mash and
+the boil, but the resultant beer is spot on.
+
+
+Regards,
+Lindsay Dive.
+Mona Vale.
+Sydney.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 22:54:07 -0800
+From: Scott Alfter <scott at alfter.us>
+Subject: Re: Scorched a direct fired mash
+
+
+On Mon, 15 Dec 2003 at 19:07:24 -0500, "Urban, Michael J, WCITS"
+<mjurban at att.com> wrote:
+> My brewing partner and I just finished our first all grain brew.
+> Everything went well, except we managed to scorch the bottom
+> of our mash tun adding direct heat for the temperature steps.
+> The end effect on the flavor is yet to be determined, although the
+> wort tasted pretty darn good.  I've since done some searching in the
+> archives, and the good news is that at least we're not alone, as
+> this seems to be a fairly common problem with direct fired mash
+> tuns.
+
+
+How powerful a burner are you using?  I use a stainless-steel turkey fryer
+setup (the one Sam's Club sells) for mashing and boiling.  On the couple of
+all-grain brews I've done so far (both of which used step mashing),
+scorching hasn't been a problem.  In addition to the turkey fryer not being
+one of the 170-kbtu monsters (it's probably somewhere closer to 55-70 kbtu),
+I've also kept the burner relatively low when raising the mash temperature
+from one step to the next.  I also stir the mash to help distribute the heat
+more evenly.  The only time the burner gets kicked up to full throttle is to
+heat the water to strike temperature, to bring the wort to a boil, and to
+keep the wort boiling.
+
+
+(The pot included with the kit is also fairly thin-walled...it's nowhere
+near the thickness of a converted keg.  I suspect that could make a
+difference in heat distribution and retention.)
+
+
+  _/_   Scott Alfter ($firstname at $lastname.us)
+ / v \  http://alfter.us/
+(IIGS(  Southern Nevada Ale Fermenters Union - http://snafu.alfter.us/
+ \_^_/  Beer and Loafing in Las Vegas - http://www.beerandloafing.org/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 02:33:56 -0500
+From: "-S" <-s at adelphia.net>
+Subject: re: Beersicle
+
+
+Dave Larsen" asks of a beersicle in keg -
+
+
+>Can I just thaw it out?  Will it be okay?
+
+
+I doubt freezing will harm the beer flavors.
+Slow freezing will certainly cause a separation of beer
+components, particularly water and CO2.  You'll
+probably need to stir/shake the beer after thawing and
+then adjust the carbonation.
+
+
+>[..] should I
+>let it sit out at room temp or even bathe the keg in warm water?
+
+
+I'd thaw at room temps and return it (shaken) to the fridge while still
+cold.  Plan on adjusting CO2 after this.  Never warm beer if you can help
+it.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 03:32:29 -0500
+From: "-S" <-s at adelphia.net>
+Subject: er: Yeast Cannibalism?
+
+
+Greg Morris asks,
+
+
+>now smells and tastes awful.  It has a burnt rubber-ish
+>smell to it, that hbd has always attributed to yeast autolysis.
+
+
+I've posted extensively against this myth, but the collective memory is very
+short and Spencer's search engine down.
+
+
+Autolyzing yeast can sometimes (relatively rarely) give a rubbery aroma.  It
+smells nothing like BURNT rubber - that's a myth from some early HB books.
+Try burning some real rubber (e.g. gum eraser) - it's sharp, acidic, sulfury
+with a strong oily component.
+
+
+The other myth Greg repeats is about yeast "cannibalism".   Dead yeast cells
+eventually release strong proteolytic enzymes from their vacuoles used
+(while alive)  to recycle their own proteins.  Once the vacuoles are
+breached the other membranes will fail and the total mix of cell
+constituents will soon be released to the beer.  Live cells may reuse some
+of the released nutrients, but they obviously have no mechanism to break
+down other yeast cells without also destroying themselves.  How could yeast
+transmit a cell membrane degrading chemical through their own cell membranes
+?  They can't.
+
+
+Autolyzing yeast will:
+1/ raise beer pH
+2/ add a broad but mild unpleasant bitterness (yeast bite)
+3/ detract from head/foam
+
+
+That's all that occurs 90% of the time in my experience - just a moderate
+loss in quality.   HBers are so brainwashed into look for extreme and rare
+autolysis flavors, that they misidentify or miss the common forms of
+autolysis damage most of the time.
+
+
+The flavors added by autolysis aside from the bitterness are variable but
+include these:
+4/ a toasty, almost nutty flavor, (good champagne has a lot of this)
+5/ meat broth flavor
+6/ noticeable sulfury aroma
+7/ eventually a rancid oil aroma//flavor
+
+
+Toasty and brothy are by far the most common flavors beyond 1-3.  I believe
+the brothy+rancid oil combination give a "dead mouse" impact, while
+sulfur+rancid are probably components of the rubbery aroma.
+
+
+> it is my guess that the smelliness of the cartridges caused the
+> beer smelliness.
+
+
+That's extremely likely, I think.
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 03:25:29 -0600
+From: "Charles Beavert" <cbeaver at netnitco.net>
+Subject: RIMS issues
+
+
+I have read the posts about RIMS issues with great interest. In my 15 gallon
+3 tier system I get a flow rate of about 1 gallon per minute. I brew in my
+garage in Indiana winters so maintaining temps is an issue.
+The outlet of my mash tun is 3/8 inch and the rest of the recirculating
+system is 5/8 inch. I am considering increasing the outlet diameter to 5/8
+inch. Would that allow for an increase in flow?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 06:44:26 -0500
+From: "-S" <-s at adelphia.net>
+Subject: Malt Vinegar
+
+
+Chad Stevens asks,
+
+
+>Anyone made Malt Vinegar?  Pointers?
+
+
+I've been promising BYO a short article on this topic, but I'm *way* behind
+on this and some other projects (apologies Steve Jones too).  An outline
+follows ...
+
+
+Acetic acid bacteria convert ethanol to acetic acid in equimolar amounts.
+Acetic bacteria  'starters' are available as "mother of vinegar" from many
+HB shops.  Beer is a good medium nutritionally for the bacteria.  Normal
+strength vinegar is 5% acetic acid by weight and this requires the 'acetic
+fermentation' of just under 5% ethanol ABV.   A little over 5%ABV is
+probably a safe choice given inefficiencies.  A lower strength beer can
+still be used for vinegar, but should be fortified with vodka to 5 or 5.5 %
+ABV.
+
+
+The "beer' used should be unhopped as hops bitterness is not pleasant in
+vinegar.   One nice technique is to no-sparge or use little sparging for a
+conventional beer, then make an unhopped vinegar-beer from second runnings.
+In any case don't add hops.  Conduct the fermentation exactly as you would
+for beer, but as the fermentation terminates, rack and proceed immediately
+to the vinegar fermentation.
+
+
+Acetic acid bacteria require oxygen to create acetic from ethanol and this
+is a rate limiting factor.  If left in a sealed fermenter the conversion
+will stop very early.   In a carboy with an opened bung the conversion will
+take a couple months.  If the acetic fermenter's beer  is continuously
+aerated the conversion will finish in a week or two.   The fermentation also
+proceeds fastest around body temps - 98F and 65F V.ferments are too slow
+IMO.
+
+
+It's just an opinion, but my attempts to speed up fermentation with heat or
+aeration often result in rather harsher tasting vinegar, which often
+improves with further aging.  Sometimes very solventy ester aromas appear
+late in the acetic fermentation.  For my needs fermenting in a carboy at
+70-75C is slow but completely adequate and produces a nice product.
+
+
+In passively aerated systems the acetic bacteria form a surface mat or
+pellicle over the surface of the beer.   Sometimes these are thin and appear
+like a white flaky dry surface.  Other times the mats are very thick,
+semi-translucent and rather rubbery in texture.   The pellicles often sink
+to the bottom, but this causes no serious problem - it will reform a new one
+if the V.fermentation is unfinished.   Thick rubbery mats are difficult to
+remove through a carboy mouth - btw.
+
+
+For V.fermentation I rack/aerate the beer and add the vinegar bacteria, then
+cover the carboy mouth w/ paper coffee filters held with a rubber band,
+place it somewhere with a stable not-too-low temp.  You must leave a good
+amount of headspace in the carboy for air access.  3 or 3.5 gallon vinegar
+fermenting in a 5g carboy is about right.  Less beer is fine. With some
+experience you can gauge fermentation progress by smelling the carboy mouth.
+The acetic aroma increases for weeks, then late in the process becomes more
+mellow and less harsh-acidic.  Pulling a little sample with a pipette is
+even more informative.  Jarring, harsh acidity on the tongue means the
+process is unfinished.  Sometimes harsh solventy nailpolish type esters are
+formed very late.  I suspect it's lack of amino acids.   Leaving a *little*
+yeast in the vinegar fermentation is probably a nutritional advantage to the
+bacteria..
+
+
+The acetic fermentation does a remarkable job of removing any protein haze.
+The foam/head and protein-body are also *completely* removed.   I assume
+bacterial proteases are at work here.  It also seems to reduce any tannic
+tones !
+
+
+When finished you can rack the vinegar off the trub and away from the
+pellicle.   In my experience you should plan a second racking.  Even tho the
+vinegar appears crystal clear on first racking a little sediment always
+forms.   Even more annoying is that transfer often initiates creation of a
+new pellicle in the second vessel or the finished bottle.  Some people use
+sulfite(Campden tablets) to wipe the bacteria and prevent this.   I've
+pasteurized or simmered for 60 seconds and that works well too.  A bit of
+pellicle in some vinegar can be stored cool for many weeks to inoculate a
+future batch.
+
+
+One traditional vinegar making method, the Orleans method, uses a barrel or
+tank with tubing to permits finished vinegar to be drawn from under the
+pellicle, and new medium to be added under the pellicle too.  This sort of
+continuous production is nice for home use.  I haven't quite used that
+method, but it's convenient to drain the majority of finished vinegar for
+clearing and bottling, then just add more 'beer' to the same fermenter.
+
+
+I have experience w/ 3 different commercial mothers and have never noticed
+any reliable differences.   Simple wort (e.g. pils) makes good but
+unexciting malt vinegar.   Crystal malt sweetness does transfer to the
+vinegar as does some of the maltiness from munich&vienna malts.   I think
+something like an (unhopped)  APA amber wort or a light bodied Marzen wort
+make the most interesting vinegars.  I haven't liked the few I've made from
+heavier bock worts as the dextrins are present but seem odd w/o the
+proteins.   Commercial salad vinegars usually have a considerable amount of
+sugar added (~25gm/L, 2.5P) to balance the flavor.  Malt vinegars require
+less due to the malt flavor, even none when a good bit is crystal is
+involved.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 08:34:29 -0500
+From: Lou King <lking at pobox.com>
+Subject: RIMS temperature control / Flowrate measurement
+
+
+Todd Snyder raised a good point:
+ 
+ > What flowrate do other RIMSers use?
+ 
+ My answer is: I have absolutely no idea.  I believe I have some
+variability in my results because the flowrate is variable as I do it by
+feel rather than measurement.  I, too, am worried about a compacted
+grainbed and suspect I have been "underflowing" my system.  I am
+definitely underattenuating and need to make some adjustments.
+
+
+Can anyone answer the question: How does one measure flowrate in a RIMS
+system?  The best answer would be something cheap and easy to clean, so
+it isn't a one time test but used for every batch.
+
+
+Lou King
+Ijamsville, MD
+http://www.lousbrews.info (note the new URL)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 05:38:12 -0800 (PST)
+From: Ed Jones <cuisinartoh at yahoo.com>
+Subject: Re: Scorched a direct fired mash
+
+
+Mike said:
+"I've since done some searching in the archives, and the good news is
+that at least we're not alone, as this seems to be a fairly common
+problem with direct fired mash tuns.  The bad news is that I didn't
+find a silver bullet; there wasn't any secret which would allow us to
+avoid the same situation in the future.  The solution seems to be to
+find a way to avoid direct heat in the mash steps."
+
+
+That's just one solution. You didn't mention what kind of lautering
+screen you are using but I'm assuming either a screen or small false
+bottom. I direct fire my mash/lauter tun to perform step mashes and I
+don't scorch my wort but there's a good reason for that. I use a full
+size false bottom that sits right about the where the bottom weld holds
+the lower dome on a sankey keg. Sabco (kegs.com) sells one such false
+bottom. I then use a pump and a home-made manifold to circulate the
+wort while I heat to distribute the heated wort through the grain bed.
+
+
+I've never scorched the mash yet with this set up. The full-size false
+bottom give me several quarts of liquid under the grain bed. 
+
+
+For you, I'd recommend you either do infusions like you mention, use a
+small flame while you stir constantly, or figure out a different
+lautering device.
+
+
+Good luck,
+Ed
+
+
+=====
+Ed Jones - Columbus, Ohio U.S.A - [163.8, 159.4] [B, D] Rennerian
+
+
+"When I was sufficiently recovered to be permitted to take nourishment,
+I felt the most extraordinary desire for a glass of Guinness...I am
+confident that it contributed more than anything else to my recovery."
+  - written by a wounded officer after Battle of Waterloo, 1815
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 07:06:19 -0700
+From: "Dave Draper" <david at draper.name>
+Subject: Scorched mash
+
+
+Hi Michael,
+
+
+Your post in #4428 didn't mention whether you were stirring your 
+mash continuously during direct-fire heating. It's a must-- while you 
+have the flame on (I assume it was flame?) you need to be stirring 
+constantly to prevent scorching.  This isn't quite as onerous as it 
+sounds... for most of the T steps we might employ, ten minutes or so 
+of direct heating is usually sufficient.  Of course, having a good long-
+handled stirrer is important too (I have a brewer's paddle made of oak 
+that I use in mine, works great).
+
+
+You can dough in to your first temperature step with a not-THAT-stiff 
+mash, say around 1 qt/lb (2 L/kg), then direct fire to your next 
+step(s), and then infuse boiling water to get you to mashout.  Most of 
+us who do infusions never worry about any instantaneous denaturing 
+upon the arrival of the boiling water-- it mixes well in moments.  Using 
+a boiling infusion just to get to mashout, though, gives you a little 
+extra assurance-- by the time you are ready to mash out, you're not 
+concerned about denaturing enzymes any longer, since their work is 
+done.
+
+
+Welcome to the wonderful world of all grain!
+
+
+Cheers, Dave in ABQ
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+David S. Draper, Institute of Meteoritics, Univ New Mexico
+David at Draper dot Name
+Beer page: http://www.unm.edu/~draper/beer.html
+Don't pick your nose. ---Domenick Venezia
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 09:14:28 -0500
+From: Jeff Renner <jeffrenner at comcast.net>
+Subject: Re: Scorched a direct fired mash
+
+
+Michael Urban <mjurban at att.com> writes from Winter Springs, FL:
+
+
+>My brewing partner and I just finished our first all grain brew.
+>Everything went well, except we managed to scorch the bottom
+>of our mash tun adding direct heat for the temperature steps.
+><snip>The solution seems to be to find a way to avoid direct
+>heat in the mash steps.
+
+
+Michael, you didn't describe your mash tun design.  I mash in a ten 
+gallon aluminum stock pot with a false bottom, and recirculate when I 
+heat for temperature adjustment.  I've never had a scorching problem, 
+even when applying some pretty intense heat.  Many of the local 
+brewers use SS half barrel mash tuns with false bottoms and don't 
+scorch.  Some others use copper manifolds or EZ Mash type filters, 
+and I've not heard of scorching from them, either, though I haven't 
+observed their systems in operation, so I don't know if they stir the 
+grains while heating or not.
+
+
+At any rate, I encourage you to consider a pump and a false bottom.
+
+
+>Are we in danger of local enzyme denaturing by adding water at 210 
+>oF.?  I know we'll have to be stirring pretty vigorously, but still 
+>the temp
+>gradient is going to be pronounced until everything stabilizes.
+
+
+It won't be a problem.  Be sure to stir carefully so as not to incorporate air.
+
+
+>Also, is there any advantage (or disadvantage) to adding the
+>infusion through the outlet, thus introducing the water at the
+>bottom of the mash rather than the top.  Since heat rises, I
+>thought it might be better to reach a stable temp that way,
+>and also to avoid any cooling at the surface.
+
+
+It would also avoid incorporating air as you poured.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner at comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 09:18:27 -0500
+From: Jeff Renner <jeffrenner at comcast.net>
+Subject: Re: Beersicle
+
+
+"Dave Larsen" <hunahpumonkey at hotmail.com> writes from Tucson, AZ 
+that he froze his California Common and asks:
+
+
+>Can I just thaw it out?  Will it be okay?
+>If the temp is now 35, I guess it will thaw eventually.  However, should I
+>let it sit out at room temp or even bathe the keg in warm water?
+
+
+It'll be fine.  You can call it ice beer.  It might even be slightly 
+smoother, from what I recall of George Fix's talk at MCAB-1 in 
+Houston.  Something about certain proteins complexing with tannins or 
+phenols (?) and precipitating out.
+
+
+I'd just let it sit if you are in no hurry.  Why waste the energy it 
+took to freeze it?  As it thaws it will just keep the fridge from 
+working as hard.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner at comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 06:00:34 -0800 (PST)
+From: Ed Jones <cuisinartoh at yahoo.com>
+Subject: Re: creating clear canned wort
+
+
+Rob said:
+"I have canned wort in a pressure canner in the past, for use with
+starters. The base was light DME.
+
+
+I stopped doing this because there was so much break material in the 
+canned wort.  I tried pre-boiling and then canning, but it did not help
+much.
+
+
+Any suggestions?"
+
+
+Rob, I don't worry about this break material. It won't hurt anything. I
+just decant off the wort and leave most of the break behind. Never had
+a problem that I was aware of.
+
+
+Ed
+
+
+=====
+Ed Jones - Columbus, Ohio U.S.A - [163.8, 159.4] [B, D] Rennerian
+
+
+"When I was sufficiently recovered to be permitted to take nourishment,
+I felt the most extraordinary desire for a glass of Guinness...I am
+confident that it contributed more than anything else to my recovery."
+  - written by a wounded officer after Battle of Waterloo, 1815
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 09:34:26 -0500
+From: Jeff Renner <jeffrenner at comcast.net>
+Subject: Re: creating clear canned wort
+
+
+"Rob Dewhirst" <rob at hairydogbrewery.com> writes:
+
+
+>I have canned wort in a pressure canner in the past, for use with starters.
+>The base was light DME.
+>
+>I stopped doing this because there was so much break material in the canned
+>wort.  I tried pre-boiling and then canning, but it did not help much.
+>
+>Any suggestions?
+
+
+Yes, don't worry about it.  I figure the break material is probably a 
+good yeast nutrient.  At any rate, I don't think it's going to affect 
+your final beer.
+
+
+I always make sure to shake up the jar to get it all into the starter 
+flask, but you could probably decant it carefully if you didn't want 
+it.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner at comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 07:07:49 -0800 (PST)
+From: Calvin Perilloux <calvinperilloux at yahoo.com>
+Subject: Cavitation and HSA
+
+
+In the previous HBD: 
+
+
+> With a magnetic pump you want to throttle the output.  If you
+> throttle the input you can cause cavitation (spinning in place) 
+> and this will cause bubbling which will severely affect the pumping.
+> At high enough temps maybe even a problem with hot side aeration.
+
+
+True, true, true... and the "maybe" is false.  Assuming your pump
+seals are tight (they oughta be!), then cavitation is basically
+a very low pressure (i.e. vacuum) bubble set whose gas content 
+is nothing more than the gas that is already in the wort, the
+main constituent would surely be water vapour.  
+
+
+If you are worried about lots of oxygen in those cavitation 
+bubbles, then that could only come from all the oxygen that 
+is presumably already in your wort -- hence you'd already be 
+looking at HSA, cavitation or not.
+
+
+The main concern I have heard about cavitation is wear on the pump.
+
+
+Calvin Perilloux
+Middletown, Maryland, USA
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 06:11:18 -0900
+From: "Martin Brungard" <mabrungard at hotmail.com>
+Subject: RIMS Heat Equation
+
+
+OK, since my message (listed above) didn't get posted yesterday, I'll go 
+ahead a post the equation that I mentioned in that post.  This equation 
+quantifies the amount of power that has to be added to a wort flow stream in 
+order to reach a desired wort temperature.  The equation includes wort flow, 
+wort concentration (Brix or Plato), and the desired temperature 
+differential.
+
+
+Required Power (watts) = S.H. x flowrate x S.G. x desired temp change x 
+555.5
+
+
+where: S.H. is the wort specific heat = 4.186 - 0.0293(Plato)   units are 
+kj/kg*K
+           S.G. is the wort specific gravity = 0.9993 + 0.0042(Plato)   
+units are kg/L
+           Plato is expressed as degrees Plato
+           Flowrate is expressed as Liters per second
+           Desired temperature change is expressed in farenheit
+           Please note that watts are equivalent to joules per second
+
+
+The S.H. and S.G. calculations for wort were taken from an ASHRAE reference 
+that may have a minor error in it, but it should be close enough.  Also note 
+the desired temperature change is the total change, not the rate.  For 
+instance, the desired temp change when ramping from 122F to 152F is 30F.   
+The temperature ramping rate (F/min) is subject to several other factors 
+within the mashing and recirculation system.  The equation above just allows 
+you to assess if you have enough power to perform large temperature steps.  
+Including a PID (with thermocouple at the heater outlet) in the power system 
+assures that the wort will not be heated higher than the desired target 
+temperature.
+
+
+Plug the equation into a spreadsheet and make it easy to evaluate the 
+variables for yourself.  As pointed out in my previous post, this equation 
+makes it simple to verify that most 110v heaters do not have the power 
+output necessary to achieve larger temperature steps when the flowrate is 
+high.  Multiple heaters or higher voltage may solve that deficiency.  The 
+combination of high flowrate and adequate power are needed to achieve good 
+temperature ramping rates in a RIMS.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 10:44:31 -0500 (GMT-05:00)
+From: rickdude02 at earthlink.net
+Subject: Clear Canned Wort-- Why?
+
+
+Rob asks about canning wort without break material.  
+My question is why would you want to do this?  I may be 
+wrong, but I understand that the break material actually 
+contains nutrients that help a healthy yeast culture to 
+grow.  
+
+
+Rick Theiner
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 11:53:40 -0500
+From: "Jay Spies" <jayspies at citywidehomeloans.com>
+Subject: Chilly HERMS
+
+
+All -
+
+
+I've been putting together a full brew system upgrade on paper and in my
+head with an engineer friend of mine, and it borrows some of the best
+elements of a HERMS system and a RIMS system without the seeming
+disadvantages of either.  Since we all seem  to be "on topic", I figured I'd
+throw it out there for the collective to ponder/improve upon/flame to
+death...  I haven't really seen a design exactly like it, but then again,
+I'm not the most observant person in the world......
+
+
+Here's what I had in mind:  this is a 3 vessel, 15-20 gallon, single tier
+system with 2 pumps.  The heart of the system and the focal point of heat
+exchange is a convoluted counterflow chiller (hence my Chilly HERMS
+moniker).  The wort is recirculated through pump #1 (wort pump) and then to
+the inner coil of the CFC, and then back to the top of the mashtun.  The HLT
+water is recirculated through pump #2 (water pump) and then to the outer
+coil of the CFC and then back to the top of the HLT.  The HLT water is, as
+with a HERMS system, the mash heat input source.  The HLT is electrically
+heated by the biggest heater you can get your mitts on (in my case a
+5000-6000W unit running at 240V full tilt).  The heater in the HLT is
+controlled by a PID control, with the thermocouple placed in the wort line
+just aft of the exit of the inner coil of the CFC (where the wort will be
+hottest).
+
+
+Here's the catch:  Unlike a HERMS, the HLT will be kept at mash temps.  The
+PID reads the outgoing wort from the CFC, and because the wort recirc rate
+is somewhat low (~ .75 gal/minute), the exiting wort temp should mirror the
+incoming HLT water temp (the 2 coils of the CFC flow in opposite directions
+and the HLT water is moving much faster).  Before mash-in, set the PID to
+acheive strike temps in the MT and the heater will respond by heating the
+HLT water (and also the mash water) to the setpoint.  The massive heater
+means that the temp rise should be fairly quick (aided by the constant HLT
+recirc and insulation on all lines and tuns).  Once you mash in, reset the
+PID for your desired mash temp and it will (should) keep mash temps stable
+without exposing the wort to any water that's but a few degrees over mash
+temps.  Step mashing can be achieved by resetting the PID to the next step -
+it heats the HLT (and the mash at the same time) to whatever you set.  Since
+the PID reads the thermocouple in the wort line you have a more accurate
+idea what the mash temp will be.  The only variable is being able to raise
+the HLT temp fast enough so there's not massive lag going from step to
+step - hence the Paul Bunyan heater.  (I had initially thought of putting
+the thermocouple in the HLT, but then I have no way of directly measuring MT
+heat losses.  It's hit or miss, but it should also work once you "learn"
+your system with regard to MT heat loss ie - set the HLT to "2 degrees"
+above the desired mash temp)...but I digress.
+
+
+Several advantages are inherent in this design:  first, the system lends
+itself to being set on an industrial timer - you get the water for the HLT
+and mash ready the night before, set the PID to strike temps, and set your
+timer to wake up the system (PID, pumps, etc) early in the morning and get
+to work heating the water to strike temp.  You wake up about an hour after
+your brew system and simply mash in.  Second, the recirc can be as slow as
+you please b/c you're not exposing the wort to super-high denaturing
+temps...so if you happen to stick a mash, it's not the kiss of death, as one
+poster put it.  Third, the boil kettle can be hooked up to the wort pump and
+after the boil, place ice water in the HLT and recirc the ice water through
+the water pump and to the outer coil of the CFC to get your hot wort (going
+though the inner coil) down to instant lager pitching temps.  Talk about
+cold break...  You can also pump to a fermenter.  You can also use a hop
+screen in the boil kettle and whole hops and recirc the near boiling wort
+through the CFC and back to the kettle (gently, gently...) to sanitize the
+CFC and get the hops to filter out the hot break at the same time.
+
+
+Electrics/mechanical are a challenge.  The PID activates at LEAST a 30-40
+amp SSR (50 amp preferable) which switches through a contactor to operate
+the heater to change temps.  Heavy gauge wire and GFI's at the breakers are
+SOP for this type of power, for obvious reasons.  The timer (an industrial
+countdown-type) is inline between the contactor and its power source.
+Almost all of this stuff (PID, contactors, SSR's with heatsinks, timers,
+breaker GFI's, etc) can be scrounged on eBay for cheap.
+
+
+So what do you think?  Workable, or crap?  YOU MAKE THE CALL....
+
+
+Jay Spies
+Head Mashtum Scraper
+Asinine Aleworks
+Baltimore, MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 12:18:28 -0500
+From: Wade Hutchison <whutchis at bucknell.edu>
+Subject: PID Control
+
+
+You seem to be really opposed to PID control for some reason, and you
+obviously know what you're talking about, but I have to disagree on some
+points you raise:
+
+
+>Mike Sharp writes:
+>"The maximum ramping rate has nothing whatsoever to do with the type of
+>control--it's the amount of power you apply to the heating chamber.  "
+>
+>I agree completely.  But if you have a low flowrate of wort and you set the
+>heating chamber at the mash target temperature, it will take a long time to
+>heat the _mash_ up to the target temperature.
+
+
+Actually, the grain in the mash has a relatively small heat capacity
+compared to the liquid portion of the mash.  Heat the liquid to the right
+temperature, and the mash bed will be there as well.  That's certainly what
+I see on my RIMS system.   I run at about 3 gpm, and get 1 to 1.5 deg/min
+temperature rise for a typical (10 lbs. grain, 12 qts of water) batch.
+Of course, I generally only use the RIMS to hold my mash temperature
+steady, and to raise the temp from saccharification to mash-out.
+
+
+
+
+>My point is that if you could heat the recirculating wort _above_ the target
+>temperature to some safe but elevated temperature, you could get the heat
+>into the mash faster and in something more closely resembling a step instead
+>of a ramp.
+>
+>For example, lets say you want the mash to be raised to 154F and that you
+>don't want the heating chamber outlet to exceed 160F.  A PC based controller
+>could add the heat as fast as possible without exceeding the 160 limit.
+>When the heater has been 'on' the total number of seconds needed to add the
+>required heat, the software stops adding heat even though the target
+>temperature may not have shown up at any of the sensors.
+>
+>A PID is not smart enough to dump the heat in all at once.  It 'sneaks up'
+>on the solution with time when the temp sensor is installed on the outlet of
+>the heating chamber.
+
+
+That all depends on the tuning of the controller - my experience is that a
+well-tuned controller will do just what you suggest - Turn on full heat
+when the temperature is far from the set point, and reduce heat only when
+you're near your target temperature.  With the temperature probe
+mounted at the exit of the heating chamber, I don't think you can overshoot.
+(I haven't done the math on it yet, though).
+
+
+>Then Mike missed the point about the scenario involving the probe somewhere
+>in the mash, which _will_ cause a time delay in the control system.
+
+
+That's right - it's called "dead time", or the time delay between the 
+controller
+taking an action, and the sensor (thermocouple in this case) seeing the
+result of that action.  Dead time in the system can lead to overshoot and
+oscillation with a simple PID control.  If you really want to control the temp.
+in the mash tun directly, then you do need a better control algorithm
+than PID.
+
+
+
+
+>"If you're measuring the temperature at the exit of the
+>heating chamber, the time delay is minor.  "
+>
+>I agree completely, using a PID with the probe at the outlet at the heating
+>chamber is a perfect application for a PID.  Putting the probe in the mash
+>or at the mash outlet is not.
+>
+>Putting the probe somewhere in the mash or at the mash outlet is a recipe
+>for two problems. 1. Overheating the wort in the heating chamber  because
+>the controller is not 'seeing' what it's heating 2. Because of the time
+>delay between applying the heat and seeing the temperature change:
+>overshooting the temp in the mash and at the mash outlet.
+
+
+Agreed.  So why would you want to do that?
+
+
+
+
+>Todd Snyder
+>Buffalo, NY
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 12:23:41 -0500
+From: Wade Hutchison <whutchis at bucknell.edu>
+Subject: Pump usage
+
+
+With all the RIMS questions flying around, something
+came to mind that I'd been meaning to ask the
+digest.  To start,
+
+
+>Gary Smith
+>On 16 Dec 2003 at 1:35, post at hbd.org wrote:
+><snip>
+>I haven't actually timed it with a stopwatch but to fill my boil
+>kettle from the mash tun when I don't sparge takes certainly
+>takes no more than three minutes. All the sanke's are on the
+>same single tier and the boil kettle is filling through the siphon
+>at the bottom of the keg & going through the ball valve so it's
+>pumping against the increasing weight of the boil kettle mash.
+
+
+Gary mentions that all his vessels are on the same level -
+how _do_ you sparge your grainbed?  Any idea how
+fast your pumping in sparge water and removing wort?
+How do you balance the system so you grain doesn't
+dry out or drown?  Curious,
+
+
+         whutchis at bucknell.edu
+         Brewing at 41deg 00' N by 76deg 50' W
+         597.6 Klicks, 101.5 deg. Rennerian
+         Milton, PA 17847
+
+
+"There is a very fine line between 'hobby' and 'mental illness.'" ~ Dave Barry 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 12:03:37 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Re: Pump usage
+
+
+Hi Wade,
+
+
+> >I haven't actually timed it with a stopwatch but to fill my boil
+> >kettle from the mash tun when I don't sparge takes certainly 
+> >takes no
+> >more than three minutes. All the sanke's are on the same 
+> >single tier
+> >and the boil kettle is filling through the siphon at the bottom of
+> >the keg & going through the ball valve so it's pumping 
+> >against the
+> >increasing weight of the boil kettle mash.
+> 
+> Gary mentions that all his vessels are on the same level -
+> how _do_ you sparge your grainbed?  Any idea how
+> fast your pumping in sparge water and removing wort?
+> How do you balance the system so you grain doesn't
+> dry out or drown?  Curious,
+
+
+Take a look at my RIMS and you'll see everything on one 
+level, it's much more convenient that way. I believe I 
+explained what I do during sparge there on the page 
+(maybe not) but in short; 
+
+
+Pump 1 has quick disconnects on the I & O.
+The output of Pump 2 is dedicated to the rims chamber. 
+The input has a quick disconnect.
+
+
+As mash is nearing completion (circulating via pump 2) I 
+heat five gallons of water and use pump 1 to shuttle it to 
+the well insulated sparge vessel. when the mash is done 
+and Iodine remains red I shut off the valves, connect the 
+mash-tun output to the input of pump 1 and the pump 
+output to the boil kettle valve. 
+
+
+I then leave the sparge arm in place so as not to disturb 
+the grain bed (it's always in place & through it is how the 
+mash re-enters the tun) I take the input to pump 2 and 
+connect that to the sparge vessel.
+
+
+I have a sight glass on both the boil kettle & the sparge 
+vessel. I leave the rims controller at 170F and slowly 
+transfer from the mash-tun to the boil kettle and equally 
+fast (or slow) bring in water from the sparge vessel. 
+Looking at the sight gauges tells me if I'm ahead or 
+behind in synchronized sparge/filling the boilkettle. 
+Leaving the controller on assures the water coming 
+in as sparge is exactly at 170.
+
+
+Sometimes I do not sparge & simply transfer mash to 
+the boil kettle and start the boil. In that case I later add 
+a bit of sparge water after the transfer is done and 
+capture the somewhat thinned sweet wort for future 
+yeast food after harvesting. Depends on my mood & 
+the beer I'm making.
+
+
+I am a very lazy man.
+
+
+Gary
+
+
+Gary Smith
+CQ DX de KA1J
+http://musician.dyndns.org
+http://musician.dyndns.org/homebrew.html
+
+
+"Man is a social creature who does not like his fellow beings"
+     - Mark Twain -
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 2003 10:29:55 -0800
+From: "Mike Sharp" <rdcpro at hotmail.com>
+Subject: Power Control in PID
+
+
+Dion Hollenbeck points out:
+
+
+"Actually, the PID controller does the same thing, ON/OFF only.  It does not
+directly cut back on wattage."
+
+
+Well, yes, the instantaneous power of a PID-controlled heater is either 100%
+or 0%, but the effects are not immediate.  The effective power is related to
+the duty cycle.  Thermostatic controls cycle on and off as temp oscillates
+around the setpoint, PID controlled heaters cycle on and off with a set
+period, usually between 0.5 and 2 seconds.  So if the heater is on for a
+second, and off for a second, the effective power is 50%. 
+
+
+Regards,
+Mike Sharp
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4429, 12/18/03
+*************************************
+-------

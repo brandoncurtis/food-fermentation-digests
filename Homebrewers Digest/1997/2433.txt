@@ -1,0 +1,831 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr7.engin.umich.edu (root`at`srvr7.engin.umich.edu [141.212.2.69])
+        by srvr5.engin.umich.edu (8.8.5/8.8.5) with ESMTP id CAA29345
+        for <spencer`at`srvr5.engin.umich.edu>; Wed, 4 Jun 1997 02:24:26 -0400 (EDT)
+Received: from judgmentday.rs.itd.umich.edu (0`at`judgmentday.rs.itd.umich.edu [141.211.83.37])
+          by srvr7.engin.umich.edu (8.8.4/8.8.4) with ESMTP
+          id CAA20261 for <spencer`at`engin.umich.edu>; Wed, 4 Jun 1997 02:24:25 -0400 (EDT)
+Received: by judgmentday.rs.itd.umich.edu (8.8.5/2.2)
+        with X.500 id CAA17405; Wed, 4 Jun 1997 02:24:24 -0400 (EDT)
+Received: from brew.oeonline.com by judgmentday.rs.itd.umich.edu (8.8.5/2.2)
+        with ESMTP id CAA17373; Wed, 4 Jun 1997 02:24:13 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA20039 for realhomebrew; Wed, 4 Jun 1997 00:15:02 -0400
+Date: Wed, 4 Jun 1997 00:15:02 -0400
+Message-Id: <199706040415.AAA20039`at`brew.oeonline.com>
+To: homebrew`at`brew.oeonline.com
+From: homebrew-request`at`brew.oeonline.com (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2433 (June 04, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2433                             Wed 04 June 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  RE: Strike water calcs and hop rhizomes (Luke.L.Morris)
+  Grain Information (Mike York)
+  Canning unfermented wort? (bmanbeck)
+  American Wheat Ale Recipe (Jeff Renner)
+  The Valley Mill (Rob Kienle)
+  Sparge Bubbles (KennyEddy)
+  Hop growing question (George De Piro)
+  Any ideas as to the cause of the stuck fermentation? (Brian S Kuhl)
+  Uncrushed Black Patent ("Lee Carpenter")
+  Homebrewed alcohol free beer (Hector Landaeta)
+  Re: chest freezer taps (erikvan)
+  Support lines for hop vines (Ian Smith)
+  top fermenting ? (Luke.L.Morris)
+  wheat beer (ensmingr)
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to homebrew`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to homebrew-request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        hbd.org        /pub/hbd        
+        ftp.stanford.edu        /pub/clubs/homebrew/beer
+  E-mail...
+        ftpmail`at`gatekeeper.dec.com (send a one-line e-mail message with 
+                                   the word help for instructions.)
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 3 Jun 97 13:06:01 +0800
+From: Luke.L.Morris`at`woodside.com.au
+Subject: RE: Strike water calcs and hop rhizomes
+
+
+Fellow brewers,
+
+
+
+
+>From HBD 2431....
+
+
+>From: wesc`at`mails.imed.com (Wes Clement)
+>Subject: Strike water calculation figured out
+
+
+>Thanks to Domenick Venezia, Dave Draper, Bruce Breedlove, Dudley Leaphart,
+>Charely Burns comments on Strike Water I think I got it figured out.
+
+
+>I'll reference the some of Kelly Jones response from the HBD archives 
+file 1207
+>posting 19:
+
+
+>Cpm= heat capacity of your malt, about 0.32
+>Cpw= heat capacity of water, 1.0
+>Mw = mass of water used
+>Mm = mass of malt used
+>Tw = temperature of strike water
+>Tm = beginning temperature of malt (usually room temperature)
+>Tf = final temperature of mixture (rest temp)
+
+
+>Masses and temperatures can be in any units, as long as you are consistent.
+                          <snip>
+
+
+Some very useful formulae by Kelly Jones which I found on Dave Draper's 
+home page a while back (thanks to Dave and all other charitable souls 
+who give so freely of their time, web-page and advice for the greater 
+good of homebrewing).  This has made my mashing much more of a "sit 
+back, relax..." experience.  No more days of guessing the temperatures 
+and panicky adjustments when it didn't work....!
+
+
+For those who intend to refer back to the original posting, there are 
+subsequently formulae for amount of boiling water to add to a mash to 
+increase temperature to the next rest.  After calculating the new 
+"Cpmash", there is a formula for Mwater, being the amount of boiling 
+water which should be added to achieve the new temperature (Tf).  This 
+is given as:
+
+
+Mw= Cpmash * Mmash * (Tf - Tmash) / (Tw - Tf)
+
+
+I found this gave me a "ridiculous" answer, and traced the problem as 
+follows:  I was using the "engineering" units of Cp (4200 kJ/kg.K for 
+water and 1350 kJ/kg.K for malt) (well, I am an engineer....).  Kelly 
+has used the "dimensionless" values of 1 and 0.32 for water and malt 
+respectively.  So the Cpw of 1 has been omitted since it "cancels out". 
+ The complete formula should read as follows:
+
+
+Mw= Cpmash * Mmash * (Tf - Tmash) / ((Tw - Tf) * Cpw)
+
+
+Hope this helps someone.
+
+
+**********************************************************
+
+
+Also from HBD 2431:
+
+
+>From: Troy Hojel <hojel`at`flash.net>
+>Subject: Wanted: hop rhizomes
+
+
+>I may have missed the growing season, but I would like to try to grow
+>some hops anyway.  Does anyone know of any rhizomes (Goldings) for
+>sale?  The only source I could find on the net is sold out of most
+>varieties.
+
+
+<snip>
+
+
+Troy,
+
+
+When I buy hop cones I often find seeds in them.  Although I haven't 
+yet grown them myself, I have a friend who has.  Take a handful of your 
+favourite hop cones and sort through them carefully for the seeds, 
+(which you should find down in amongst the lupulin glands).  The seeds 
+are round, and about 1/16" diameter.  I am told that the larger and 
+darker seeds are most likely to germinate.  Probably best to germinate 
+and then transplant since the success ratio is uncertain.
+
+
+Sorry, I don't know if all seeds will be viable or if only some are 
+fertilised, or how to tell if they are OK.  But I'm planning to try 
+growing this year myself (southern hemisphere summer).
+
+
+Best to grow flavour/aroma hops, since you will not know the alpha-acid 
+% for bittering calculations.
+
+
+I thought June was the best time to plant in northern hemisphere ?
+
+
+Best of luck,
+
+
+Luke Morris
+Brewing in Perth, Western Australia.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 3 Jun 1997 07:43:47 -0400
+From: myork`at`asheboro.com (Mike York)
+Subject: Grain Information
+
+
+I have been homebrewing for about two years but have never done any
+all-grain brewing.
+
+
+I have some questions: What is meant by 2-row barley and 6-row barley?  Can
+you grow your own barley?  I am a beef farmer and grow barley for my cows.
+
+
+Can you buy grain wholesale?  What is the tax structure on buying grain?  Do
+you pay an alcohol tax on grain bought from homebrew stores?  For that
+matter, do you pay an alcohol tax when you buy malt extracts?
+
+
+Mike York
+myork`at`asheboro.com
+"Shagging Forever"
+129 Vaughn York Rd.
+Staley, NC  27355
+910 824-8937
+
+
+
+
+------------------------------
+
+
+Date: Tue, 3 Jun 1997 09:04:32 +0000
+From: bmanbeck`at`isd.net
+Subject: Canning unfermented wort?
+
+
+I am interested in canning a mini batch (3 gals) of unfermented wort 
+for storage and then later, use as a yeast starter. I am trying to gather 
+information on how other HBDers have done this in the past. Any 
+procedural hints or other tips would be greatly appreciated. Private 
+emails are welcomed.
+
+
+Brad Manbeck
+bmanbeck`at`isd.net
+
+
+------------------------------
+
+
+Date: Tue, 3 Jun 1997 10:09:11 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: American Wheat Ale Recipe
+
+
+Brewers
+
+
+HBD traffic is down a bit, so I thought I'd send this along, even though
+it's a bit long.  I wrote it for the Ann Arbor Brewers' Guild newsletter.
+Kalamazoo Brewing Company is a great regional microbrewery, about ten years
+old.  Larry Bell's beers are often strong, idiosyncratic, and sometimes
+funky.  As he has expanded (around 20,000 bbls this year, I think), they
+have become more consistent.  Oberon is a great summer wheat, especially
+when the diacetyl is under control.
+
+
+Summer Wheat Ale Recipe
+
+
+My son Matt's regular summer beer is Kalamazoo Oberon, formerly Solson, so
+he asked me to brew him a keg for his 22nd birthday.  I did and it turned
+out great.
+
+
+I knew that Oberon is a cloudy golden, has a gravity about 1.054, low but
+perceptible hops bitterness with a bit of spiciness I guessed was from the
+hops, is somewhat sweet, full bodied and malty, but with a balancing lemony
+quality (from the wheat?).  Sometimes it is heavy on diacetyl, which I find
+tiresome, but the bottle I taste analyzed for this project had very little.
+
+
+I considered reverse engineering it, but figured, what the heck, I'd call
+the brewery and see what guidance they could give.  Well, a friendly brewer
+confirmed the OG, said they used just over 50% wheat malt, and that they
+used "just a little" Belgian crystal and Munich for color and maltiness.
+He guessed maybe a pound each for 5 gallons.  I felt that was too much
+crystal, so I used the equivalent of 1/2 pound crystal and 2/3 pound
+Munich.  A full pound of Munich would have been fine, but I think the
+crystal is about right.  He also said they used Hallertauer Hersbrucker for
+bittering and Czech Saaz for finishing.  I reduced the gravity to 1.048 for
+both easier drinkability and less alcohol.  It finished at 1.016, about
+what I wanted, for 4.2% alcohol by volume.  If I hadn't diluted the wort by
+sparging the hops, it would have been original strength.
+
+
+I brewed this on a Monday and was drinking it on the following Sunday,
+although it took a few more days for carbonation.  The cloudiness and
+yeastiness are part of the style.  I hope you'll try this for a quick
+summer beer.  I'll rack 5 gallons into a 1/6 barrel Sankey for Matt and
+keep the rest.
+
+
+Solstice Summer Wheat Ale
+
+
+=46or *7.75* gallons Oberon clone in the 1/4 bbl. keg (really full) `at` 1.048:
+
+
+15 gal. well water boiled w/ 2 tsp. (10 g) CaCl2 and decanted. (City water p=
+lus
+1/2 tsp. gypsum per 5 gallons water will get the Ca++ level where you want
+it without too much sulfate.  CaCl2 would be better if you can get it.
+Sulfate dryness is out of place here.)
+
+
+*        7-1/4 lb. Durst wheat malt
+*        5-1/2 lbs. Briess 6-row
+*        3/4 lbs. DWC Caravienne (22L)
+*        1 lb. Durst Munich
+
+
+Double pass roller milled barley and wheat malt separately, then mixed dry.
+Note for extract brewers:  You could substitute a good quality wheat/barley
+malt extract (~25% more by weight) for the first two malts and do a
+"mini-mash" of the caravienne and Munich.
+
+
+*        Mashed in 12 qts. water to 140=B0F (skipped usual 100=B0F rest and/or
+122=B0F protein rest) for 1/2 hr rest
+*        Boosted w/ 5 qts boiling water and burner to 158=B0F, rested 1/2 hr
+*        Boosted to mashout of 176=B0F
+*        Collected 9 gallons in 1 hr.
+
+
+*        0.7 oz. Czech Saaz `at` 3.5% first wort hopped (in the boiler at
+beginning of lautering, steeps at 170=B0F for the hour during lautering (~5
+IBU contribution when boiled 1 hour)
+*        0.5 oz. Hallertauer Hersbrucker `at` 2.6% (late FWH after 6 gallons
+collected, 25 minutes, do this at the beginning)(2.7 IBU)
+*        1.5 oz. Hall. Hersb. boiled 60 min. 8.1 IBU
+*        0.7 oz. Saaz. boiled 15 min. 2.5 IBU
+*        0.5 oz. Saaz at strike, steeped 7 minutes during settling before
+immersion cooling.
+
+
+Yielded about 7-1/4 gallons wort `at` 1.054 into open fermenter, sparged hops
+with about 3/4 gal. cooled water for 8 gallons wort `at` 1.048 into fermenter.
+
+
+Pitched sediment from 3-1/2 liter starter Kalamazoo yeast from Yeast
+Culture Kit Co., or you could culture the yeast from a bottle of Oberon.
+
+
+=46ermented at 65-70=B0F ambient, full kraeusen at 18 hours, skimmed crud 3 =
+or
+4 times on day two and three, top cropped yeast on day four and five,
+kegged on day six, still slight foam production indicating some continuing
+fermentation.  Chilled and force carbonated.  Tastes great.
+
+
+ -=3D-=3D-=3D-=3D-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 03 Jun 1997 09:47:11 -0500
+From: Rob Kienle <rkienle`at`interaccess.com>
+Subject: The Valley Mill
+
+
+Does anyone out there have any experience with or recommendations
+regarding The Valley Mill? Came across it on a web search and it looks
+fairly interesting (large hopper design). 
+
+
+- -- 
+Cheers4beers,
+Rob Kienle
+Chicago, IL
+rkienle`at`interaccess.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 3 Jun 1997 11:35:54 -0400 (EDT)
+From: KennyEddy`at`aol.com
+Subject: Sparge Bubbles
+
+
+Fred Warner has bubbles in his mash-tun outlet.  This could be caused by air
+trapped under the false bottom by the grain (or by the false bottom itself if
+the mesh is fine enough).  Fred, next time add "foundation water" to the mash
+tun to a level slightly above the false bottom, and be sure that any air is
+expelled from below the false bottom, before adding the grain.  This will
+give you a chance to eliminate most of the air from the mash.
+
+
+*****
+
+
+Ken Schwartz
+El Paso, TX
+KennyEddy`at`aol.com
+http://members.aol.com/kennyeddy
+
+
+
+
+------------------------------
+
+
+Date: Mon, 2 Jun 1997 08:34:56 -0700
+From: George_De_Piro`at`berlex.com (George De Piro)
+Subject: Hop growing question
+
+
+     Hi all,
+     
+     This is my first year as a hop farmer, and I have a question:
+     
+     Can hops be kept short and bushy by cutting off the growing tip 
+     (technical botanical term)?
+     
+     I accidentally did just that to my first Goldings vine.  It now has 
+     two new tips forming just under the break.  It got me thinking, "Why 
+     the hell let the things grow to be 15 feet tall?  Keep them short and 
+     bushy and trimming them back."
+     
+     I'm sure there must be a reason to let them grow tall, though.  Any 
+     ideas?
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+------------------------------
+
+
+Date: Tue, 03 Jun 97 09:43:00 PDT
+From: Brian S Kuhl <Brian_S_Kuhl`at`ccm.fm.intel.com>
+Subject: Any ideas as to the cause of the stuck fermentation?
+
+
+I just finished a batch of Porter using Wyeast Swedish Porter ale yeast. 
+I started with an OG of 1.060. The FG was 1.030. I have never had a high 
+finished gravity. Usually I think they are too low (1.007).
+Here is some info on my porter...
+
+
+      "Rogain Porter"
+ 5 lb. Gambrinus 2-row pale malt
+ 1/4 lb. Great Western wheat malt
+ 3 lb. Gambrinus Honey malt
+ 3 lb. Hugh Baird brown malt
+ 1 lb. Hugh Baird 135deg. crystal
+ 1 lb. Hugh Baird chocolate
+
+
+ 2 oz. English Fuggle `at` 120 min.
+ 0.5 oz. English Fuggle `at` 15 min.
+ 1 oz. EK Golding `at` 2 min.
+
+
+Mash `at` 154 degrees for 70 minutes.
+Boil for 2 hours.
+Pitch a twice stepped up starter of 1 liter.
+Note: this yeast was three months past expiration. Took 3 days to get
+any activity.
+1.5 weeks in the primary and 2 weeks in the secondary.
+Ferment at 66-68 degrees.
+Smells great.
+
+
+
+
+I took a chance and bottled this brew hoping that perhaps it was all
+those (melinoidins??) from the 2 hour boil causing this high FG. Or
+maybe it could be that the mash conversion was too short. My grain has 
+a lot of dark malts in relation to the pale malt. Could it result in to
+little diastic power? These are all guesses, but I am beginning to think 
+that the yeast is at fault. The profile said it finished malty but this 
+is ridiculous! ;)  My attenuation was 50% the profile said 69% - 73% is
+normal. ????? and no solid answers. Any replies to the net or email is 
+definitely welcome.
+
+
+CU
+Brian
+
+
+------------------------------
+
+
+Date: Tue, 3 Jun 1997 12:51:21 -0400
+From: "Lee Carpenter" <leec`at`redrose.net>
+Subject: Uncrushed Black Patent
+
+
+This is a multi-part message in MIME format.
+
+
+- ------=_NextPart_000_01BC701C.D65F5B60
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+ A few weeks ago I read a "tip" in one of the homebrewing periodicals that
+said you could use uncrushed black patent for something. Now, I have a
+pound of it and can't remember or find the tip. Any ideas? I thought it was
+in Brew Your Own or Zymurgy. My wife is due to give birth any day and I
+guess I'm not thinking to well. 
+
+
+Thanks.
+Lee C. Carpenter
+Meadow Creek Brewing
+Landisville, PA
+
+
+
+
+"You can't be a real country unless you have a beer and an airline--it
+helps if you have some kind of football team, or some nuclear weapons,
+but at the very least you need a beer."
+                                       -- Frank Zappa
+
+
+- ------=_NextPart_000_01BC701C.D65F5B60
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<html><head></head><BODY bgcolor=3D"#FFFFFF"><p><font size=3D3 =
+color=3D"#000000" face=3D"Bell MT"><b> A few weeks ago I read a =
+&quot;tip&quot; in one of the homebrewing periodicals that said you =
+could use uncrushed black patent for something. Now, I have a pound of =
+it and can't remember or find the tip. Any ideas? I thought it was in =
+<i>Brew Your Own </i>or <i>Zymurgy</i>. My wife is due to give birth any =
+day and I guess I'm not thinking to well. <br><br>Thanks.<br>Lee C. =
+Carpenter<br>Meadow Creek Brewing<br>Landisville, PA</p>
+<p><font size=3D2 face=3D"Courier New"><br><br>&quot;You can't be a real =
+country unless you have a beer and an airline--it<br>helps if you have =
+some kind of football team, or some nuclear weapons,<br>but at the very =
+least you need a beer.&quot;<br> =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;-- Frank Zappa</p>
+<p><font size=3D3 face=3D"Bell MT"><i><br></p>
+</font></font></font></body></html>
+- ------=_NextPart_000_01BC701C.D65F5B60--
+
+
+
+
+------------------------------
+
+
+Date: Mon, 2 Jun 1997 17:52:03 -0400
+From: Hector Landaeta <acarrasc`at`reacciun.ve>
+Subject: Homebrewed alcohol free beer
+
+
+I have this buddy of mine that's an ex-alcoholic that won't touch anything
+with alcohol in it, but has the fondest of memories about beer.  His best
+moments are when he gets to find these rare (for Venezuela at least), and
+expensive German imports like Lowebrau that are alcohol free.  Isn't there
+any way a homebrewer can replicate the industrial brewers technique at
+alcohol extraction in a homebrewed beer?
+Thanks.
+
+
+Hector Landaeta.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 3 Jun 1997 13:25:36 -0500 (CDT)
+From: erikvan`at`ix.netcom.com
+Subject: Re: chest freezer taps
+
+
+>Robert DeNeefe wrote in #2431
+>
+>I have a chest freezer that I plan on attaching a tap tower to for
+>dispensing from kegs.  Since I'm not really very handy when it comes to
+>building things, I wanted to get any advice from anyone who had already
+>done this.  I'll need to drill four screw holes in the lid to attach the
+>tower to, and I think I can manage this with a standard drill bit.  I also
+>plan on bracing the underside of the lid with some plywood since the lid is
+>rather thin metal.  Is this neccessary?  Then I need a big hole to pass the
+>hoses through.  I plan on making it fairly large so the inside of my tower
+>stays cool also.  What have others used for making this hole?  In general,
+>if anyone who has already done this wants to share their experience with
+>me, I'm very open to all suggestions.
+>
+>
+I did the same thing to my chest freezer. Works great. I put two columns 
+with 2 faucets on each for a total of four faucets. Yes, you do want the 
+piece of plywood under the lid. It's rather thin, and everytime you pull on 
+the tap handle, you'd crease or bend the lid. I attached the plywood with 
+liquid nails, great stuff, and then used wood screws through the four holes 
+in each column. You'll definately want a metal drill bit, though, unless 
+you want new drill bits after you're done. I cut the large holes out with a 
+dremel tool. If you haven't bought your columns yet, you're in for a surprise. 
+Mighty expensive! But I don't regret having mine. Nothing beats having 4 
+beers on tap in your own house! Also, spare no expense on the thermostat. 
+A cheap one could fail at anytime, or not work as well, and who wants frozen
+beer. Good luck on your kegerator!
+
+
+Erik Vanthilt
+erikvan`at`ix.netcom.com
+
+
+The Virtual Brewery
+Http://www.netcom.com/~erikvan/brewery.html
+Recipes, hints, news, software and more...
+
+
+
+
+------------------------------
+
+
+Date: Tue, 3 Jun 1997 12:50:13 -0600 (MDT)
+From: Ian Smith <rela!isrs`at`netcom.com>
+Subject: Support lines for hop vines
+
+
+
+
+What should I use to support 2nd year hop vines ? If I use string should 
+I use nylon ? what diameter should I use ? Has anyone used fishing line 
+or would this cut into the vines ? 
+
+
+Also, is it OK to have the vines growing straight up for 5 feet and then
+at a 45 degree angle ? 
+
+
+Cheers
+Ian Smith
+isrs`at`rela.uucp.netcom.com
+
+
+
+
+------------------------------
+
+
+Date: Wed, 4 Jun 97 08:14:18 +0800
+From: Luke.L.Morris`at`woodside.com.au
+Subject: top fermenting ?
+
+
+Guys,
+
+
+Looking back over
+HOMEBREW Digest #2427                             Tue 27 May 1997
+(I just got back from a couple of weeks away),
+
+
+Tim Dugan wrote:
+From: "Tim M. Dugan" <tdugan`at`netins.net>
+Subject: Replies to Yeast Reuse
+
+
+In HBD #2423 I wrote:
+
+
+> First question.  I am fortunate enough to be able to brew on two
+> consecutive weekends.  I would like to reuse my yeast from last =
+weekend,
+<snip>
+> Concerns: Since Ale yeast is top fermenting, will the yeast at the
+> bottom of the primary be the "good yeast" or is the "good yeast" still
+> suspended and only the weaker yeast is on the bottom?
+<snip>
+
+
+This top- and bottom-fermenting yeast thing is a bit confusing.  I 
+thought that top-fermenting yeasts, when their activity subsided, 
+flocculated to the top of the wort.  And bottom-fermenting yeasts, 
+correspondingly, flocculated to the bottom.
+
+
+Top-fermenting ale yeasts would therefore probably need to be skimmed 
+from the top of the wort, right ?  And bottom-fermenting yeasts, it 
+would be easier just to transfer the wort off the sediment (like we 
+generally do, right ?) (or drain the sediment if you have the right 
+sort of equipment).
+
+
+Now I read recently somewhere that while traditionally ale yeasts were 
+top-fermenting, strains of bottom-fermenting ale yeast had been 
+isolated years ago and have now almost completely replaced the use of 
+top-fermenting ale yeast.  Presumably because it's easier to handle, 
+especially in a commercial brewery.  This would explain the confusing 
+terminology when all the yeasts seem to behave the same way.  
+(Actually, it's only confusing *because* all the yeasts seem to behave 
+the same way.)
+
+
+Can anyone confirm that this is right ?  It sure would clear up some 
+confusion if we could get this straight.  And maybe we could eliminate 
+the terms top- and bottom-fermenting (with associated confusion).
+
+
+And in a similar vein...
+
+
+I also read that the terminology Saccaromyces Carlsbergensis (spelling 
+?) in reference to lager yeasts is obsolete - ie. that all brewing 
+yeasts are now re-classified as strains of Saccaromyces Cerevisiae 
+(spelling ?).  More of a re-naming exercise rather than a realisation 
+that we've been wrong all along.  While this doesn't impact our brewing 
+process, can anyone confirm this ?  Is there a microbiologist out there ?
+
+
+TIA for any answers,
+
+
+Luke Morris,
+Brewing in Perth, Western Australia.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 03 Jun 1997 23:37:04 -0400
+From: ensmingr`at`npac.syr.edu
+Subject: wheat beer
+
+
+Concerning George De Piro's recent post on wheat beer ...
+
+
+In case you didn't know, "Ing." is short for Ingenieur, i.e.
+"engineer".  You see, Herr De Piro, the Germans are very big on titles.  
+
+
+I lived in southern Germany for a couple years and sampled many
+different brands of wheat beers (Hefe Weizen).  I ordered them from bars
+and restaurants and bought them from stores.  Every one was clear in the
+glass, if poured carefully from the bottle.  In contrast, Widmer Wheat
+beer of Oregon, which some seem to think is like a real German Weizen,
+is not true to style in appearance (it's too cloudy) and taste (not
+enough clove character).  
+
+
+Most Germans pour their Wheat beer so that the yeast goes into the
+glass.  A popular way to pour it is to rapidly invert the bottle 180
+degrees into the tall Wheat beer glass, and then slowly raise it up so
+that the beer doesn't gush out.  It is a method which I never perfected,
+but a friend who was an expert demonstrated for me whenever she had the
+chance. 
+
+
+So, real Hefe Weizen is clear if poured carefully.  Of course, a
+Kristall Weizen is also clear, but that's simply because there's no
+yeast in the bottle.
+
+
+Cheers!
+
+
+Peter A. Ensminger
+ensmingr`at`npac.syr.edu
+
+
+------------------------------
+End of HOMEBREW Digest #2433, 06/04/97
+*************************************
+-------

@@ -1,0 +1,921 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id XAA13767
+        for <spencer`at`srvr5.engin.umich.edu>; Mon, 11 Dec 2000 23:52:11 -0500 (EST)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr22.engin.umich.edu (8.9.3/8.9.1) with ESMTP id XAA06834;
+        Mon, 11 Dec 2000 23:52:08 -0500 (EST)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA03614
+        for realhomebrew; Tue, 12 Dec 2000 00:39:47 -0500
+Date: Tue, 12 Dec 2000 00:39:47 -0500
+Message-Id: <200012120539.AAA03614`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3501 (December 12, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3501                             Tue 12 December 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  re: RIMS in line filter possibility ("D. Schultz")
+  More PID and Strainer/Filter stuff (Nate Wahl)
+  Cleaning used SS ("Jones, Steven T")
+  Re: Oktoberfest (Jeff Renner)
+  Beercicles (Chad Petersen)
+  Re:  Caught the bugger ("Peter J. Calinski")
+  Easy racking? ("Peter J. Calinski")
+  Motorize mash paddle (Mjbrewit)
+  The Ice Man Commeth ("Philip J Wilcox")
+  boil off rates (Robin Griller)
+  Racking pains ("Peed, John")
+  Primary Fermentation...how long? (Dave & Joan King)
+  more Zn/Oats ... ("Stephen Alexander")
+  HEATING THE REFRIGERATOR ("Hill, Steve")
+  PBW vs Copper Fact Finding (John Palmer)
+  The Doctor Has Been ("Phil & Jill Yates")
+  Whitelabs WLP 500 ("Richard Pass")
+  Re:  Oktoberfest ("Sean Richens")
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+*
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 10 Dec 2000 22:43:56 -0800
+From: "D. Schultz" <d2schultz`at`qwest.net>
+Subject: re: RIMS in line filter possibility
+
+
+A glass fiber (GF) filled polypropylene (PP) will not likely have been FDA
+approved. However, I would not worry about it causing any problems. I have
+seen all types of GF thermoplastics get FDA approval for everything but
+implantation.
+
+
+You might also look at getting a Bazooka screen from Zymico (
+http://www.zymico.com/ ) or a Sure Screen from one of the many HB stores
+that carry it such as Brewer's Resource.  I just got my Bazooka screen and
+am looking forward to using it. I have used the Sure Screen before for
+filtering for the pump but since I also use it to filter out hops in my
+Corny (used as a secondary), I needed another one for the mash tun.
+
+
+Burp,
+ -Dan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 05:57:01 -0500
+From: Nate Wahl <cruiser`at`cros.net>
+Subject: More PID and Strainer/Filter stuff
+
+
+Ladies and Gents!
+
+
+Steve Guernsey asked about sources for PID controllers and/or plans. 
+MECI surplus (Dayton OH, like an acre of surplus electronic parts)
+carries a PID board that they sell for like $15, but you need to add
+power supply, sensor, etc. No display, and you have to set everything
+with unmarked potentiometers, but hey, if you have the need to create...
+
+
+TTI Inc. carries many PID controllers, and has a Clearance Items list
+you can check out; that's where I got mine.  Works good, mostly; they
+were a lot of help (like getting me an english manual, etc.).  Units for
+as low as $65.  No relation, yadda yadda.  Go to
+http://www.ttiglobal.com/
+
+
+Note that the unit I got from them (Autonics TZ4ST-24R) wouldn't read a
+thermocouple right (the ambient temperature compensation wasn't working)
+and I had to use an RTD instead.
+
+
+I also remember seeing plans for a PID controller out there, possibly on
+a link from brewery.org, but I couldn't find it.  Anybody else remember?
+
+
+Regarding Bruce Garner's question for a filter, those units are known as
+strainers.  You can find brass units in most of the industrial plumbing
+catalogs.  Being a gadget freak, I built one myself!  It was to keep
+fine chunkies from sticking my solenoid valves open on my HEARMS. 
+Here's a GIF of it.  http://www.cros.net/cruiser/strnr.gif
+
+
+Basically wort flows into the outer region (inside a piece of 3/4"
+copper), down along the outside of a piece of 1/2" copper with a bunch
+of small holes (1/16") drilled into it, and a piece of 20 mesh SS screen
+wrapped around it.  The wort flows through the screen into the inner
+tube, then to the outlet (on the left), leaving the particulate on the
+screen.  Not shown is a blowdown valve (back to the mash tun) on a cap
+on the right.
+
+
+The left side of the inner tube is flared to fit inside the left 3/4"
+union, sealed by a food-grade rubber washer; the other union allows
+removing the outter sheath for cleaning the screen without removing the
+rest of the unit from the piping. 
+
+
+The thing plugged up regularly unless I vorlaufed (?) a lot, and any
+flow-induced carryover would block it.  Blowing it down helped
+sometimes; other times I'd have to clean it mid brew. Yuk.  Fortunately
+its mounted directly above the mash tun, so the drippings weren't lost.
+
+
+Since I now have a solenoid valve controlling flow that has larger
+clearances, I'm going to just remove the SS screen; anything under 1/16"
+shouldn't hinder valve operation or block my heat exchanger, and it all
+filtering takes place.
+
+
+I'd suggest staying away from 40 mesh strainers with as much plugging as
+I experienced with the first incarnation.  Even 20 mesh is too fine,
+IMHO (as are all my babblings!)
+
+
+Hope this helps more than it confuses! Hoppy Brewing!
+Nate Wahl
+Oogie Wa Wa
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 08:31:24 -0500
+From: "Jones, Steven T" <stjones`at`eastman.com>
+Subject: Cleaning used SS
+
+
+Season's greetings to you all.
+
+
+I had the good fortune to find the perfect false bottom in the scrapyard
+Friday. It is a circle of perforated stainless steel, 13" dia, 1/8" holes on
+3/16" centers (40% open), and it is domed in the center about 2" in height.
+It is very heavy gauge in that I can stand on it without it collapsing. 
+
+
+My question concerns cleaning it so that it is safe to use. I have no idea
+of what it's previous use was, but it was covered with a heavy layer of
+dust, wasn't oily or greasy, and had some blue marks on it, like the dye
+machinists use to mark metal. What is the best way to prepare it for use?
+
+
+TIA
+
+
+Steve
+http://users.chartertn.net/franklinbrew
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 09:57:43 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Oktoberfest
+
+
+"Casey Cobb" <acez`at`mindspring.com> writes:
+
+
+>I undertook the task of making a true lager
+><snip>
+>After about 17 days from brewing
+>(my original plan was 10)
+
+
+This longer than expected primary is probably due to sub-optimal 
+pitching rate.  I made a dunkel two weeks ago using a gallon starter 
+for 7.75 gallon batch, and it was nearly finished at six days.  I've 
+had two week plus ferments like yours with one quart starters.  Big 
+starters are important with lagers.
+
+
+>I racked into the secondary, even though I could
+>see it still bubbling. There was no real way to keep it at a steady temp
+>while racking, so it probably got up to maybe 67 degrees. So now its back in
+>the chiller, and I dropped it 5 degrees a day, and its at about 43 degrees
+>now, with no real activity. Did I mess something up? Should I add more
+>yeast? I ask this because it was fermenting pretty good before the racking,
+>and is stagnant now.
+
+
+I like to rack to the secondary for lagering while it's still 
+bubbling a bit.  I assume you raised the temperature for a diacetyl 
+rest.  For many lager yeasts that is unnecessary.  If you can't smell 
+diacetyl or if you haven't had a problem with that yeast in the past, 
+I'd suggest just skipping it.  It is one more step, and it will also 
+result in the fermentation probably finishing before you can lager. 
+I like a little bit of fermentation during at least the first part of 
+lagering to protect the beer.
+
+
+However, I'm sure you didn't mess anything up.  It probably fermented 
+out, or even if it didn't quite, you lost enough CO2 that whatever is 
+being produced now is staying in solution, especially as you drop the 
+temperature and it can hold more CO2 in solution.
+
+
+>I guess since I can't get it down to 35, Ill just keep
+>it at 42 or so for about a month.
+
+
+While not optimal, it should work fine.  Be sure to report back on 
+how it turns out.
+
+
+Jeff
+- -- 
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 07:04:14 -0800
+From: Chad Petersen <Chad.Petersen`at`wwu.edu>
+Subject: Beercicles
+
+
+Mr Sheets,
+Perhaps some of the bowties will call me a putz, but I have completely froen
+lagers before with no ill effect.  Probably not a good habit especially if
+you ferment in glass, but it a wonderful.
+
+
+Father Chad
+Brewing Cleric
+Wholly Man
+Geek
+
+
+
+
+------------------------------
+
+
+Date: Sun, 10 Dec 2000 22:53:05 -0500
+From: "Peter J. Calinski" <PCalinski`at`iname.com>
+Subject: Re:  Caught the bugger 
+
+
+Graham,
+
+
+Anyone that can understand your post should have no problem understanding
+the court system in the USA.  ;-)
+
+
+Pete Calinski
+East Amherst NY
+Near Buffalo NY
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 10 Dec 2000 23:14:44 -0500
+From: "Peter J. Calinski" <PCalinski`at`iname.com>
+Subject: Easy racking?
+
+
+chuck_d asks?
+
+
+>as a side note, how do most people start their racking canes?  i fill my
+>hose and as much of the upper part of the cane as possible (it's upside
+>down), then invert the cane to fill it it completely.  i seal the hose
+with
+>my thumb, and put my cane in the beer, then drain the water into a bowl
+>until beer starts and move to my bottling bucket or whatever.  is there an
+>easier way?  oh, and when i say water i mean that no-rinse sanitizing
+>solution.
+
+
+Yeah just use water and forget about the bowl.  The volume of the cane is
+so small it won't have an effect.  I also doubt there is a significant
+chance of contamination from tap water if drinking it doesn't make you
+sick.   Just my unexpert opinion.
+
+
+Pete Calinski
+East Amherst NY
+Near Buffalo NY
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 10:30:12 EST
+From: Mjbrewit`at`aol.com
+Subject: Motorize mash paddle
+
+
+Anyone have a source for a sanke keg motorizable mash paddle.  I use a false 
+bottom with no obstructions that rests an inch or so of the bottom of the 
+keg.  I am aware of the Brewing Techniques article on the subject, but 
+thought I would check to see what if anything is available from homebrew 
+suppliers, before i try to fabricate one myself.  
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 10:57:33 -0500
+From: "Philip J Wilcox" <pjwilcox`at`cmsenergy.com>
+Subject: The Ice Man Commeth
+
+
+Joe,
+
+
+Whats the Gravity of the beer now? If its done fermenting, than your fine.
+Welcome to the world of Ice beers. Molson, Labatt, and Miller do exactly
+what you did to most of their beers. They chill till slushy (Ice forms
+around an impurity first) they filter out the ice, and legally have to add
+back the volume water removed. The home brew advantage is we can omit that
+step. ;<) If its not done fermenting, then you'll need a wake up call for
+your yeasties, I would suggest Krausening it. Sook in the archives for good
+details on this proceedure. BUt, from the facts you gave us (secondary,
+temps 36F) I'd say you thought it was done fermenting anyway. Currently I
+have a Jever Pils kegged as the secondary and lagering at 30F. Hop Heads
+and Lager Lovers Unite!! This baby has 35 hop additions!!! Thats every 10
+minutes from when the sweet wort first hit the kettle. Saaz, Spalter
+Select, Hallertau & Tettnager!!! Many additions with multiple hops!!!
+There will be NO falling asleep by the fireplace this year at christmas!!
+
+
+Phil Wilcox
+Poison Frog Home Brewer
+(274,32) Rennerian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 11:44:43 -0500
+From: Robin Griller <rgriller`at`chass.utoronto.ca>
+Subject: boil off rates
+
+
+HI all,
+
+
+Probably a silly brewer question, but: having read that 10% is optimal
+boil off rate/hour and having a boil off rate of 15%, I wonder: 
+
+
+what are the impacts of a higher boil off rate? Should I add flavour hops
+later in the boil (i.e. does the higher evaporation rate lead to faster
+elimination of hop flavour components?)? etc...\
+
+
+Robin
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 12:04:10 -0500
+From: "Peed, John" <jpeed`at`elotouch.com>
+Subject: Racking pains
+
+
+
+
+In response to Chuck's questions about racking:
+
+
+Generally, a week in the primary is about right.  By the end of a week, all
+blowoff of material should have stopped and almost all of the head will have
+fallen.  The gravity typically will be around half the starting gravity.  As
+I understand it, the object of the secondary is to get the beer off the bulk
+of the inactive yeast, and away from the extremely bitter residue that's
+left at the top of the fermenter after the krausen falls.  To get an idea of
+how bitter that stuff is, try taking a little taste of the foam that comes
+out of the blowoff tube.
+
+
+Your method of starting a siphon is fine.  I worry about all the handling,
+though, so I use one of those starter pumps.  The racking cane has a seal
+that slides down into a tube that's about an inch in diameter.  You put the
+whole assembly into the carboy, then pump the cane up and down a couple of
+times and the siphon starts.  It's really nice.  
+
+
+I used to start siphons with a hot carboy fitted with a stoppered tube.  It
+worked like this:  Connect some tubing to racking cane, then put the cane
+into the beer to be racked.  Put a large plastic bucket of cold water on the
+floor below the beer.  Fit a stopper with a piece of rigid plastic tubing.
+Fill a carboy with hot water, then drain it and insert the stopper.  Connect
+the siphon hose to the stoppered tube, then plunge the heated carboy into
+the cold water.  As the air inside the carboy cools, it pulls a vacuum, and
+that pulls beer up the racking tube and starts the siphon.  It always helps
+to pinch the tubing where it joins the racking cane to get the tubing to
+fill completely.  Once the siphon is started, the stopper has to be pulled
+out of the carboy so it can vent.  The advantage to this method is minimal
+handling of the tubes that contact the beer, and no foreign liquid.  The
+disadvantage is that it takes a fair amount of preparation, the equipment is
+bulky, and it's a bit messy.  On the other hand, the pump-start siphon thing
+costs less than ten bucks, is reasonably compact and simple, is easy to
+sanitize, and it works perfectly.  There's also a siphon starter that you
+splice into your tubing that you shake to start.  I've never used one and
+don't know how well they work.  Anyone else ever try one?
+
+
+John
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 13:50:48 -0500
+From: Dave & Joan King <dking3`at`stny.rr.com>
+Subject: Primary Fermentation...how long?
+
+
+Chuck D,
+
+
+The big boys tell me to let the krausen fall (about 3 to 5 days for an
+ale), and rack it.  It's not critical, in my book.  You're just looking
+for the majority of dead yeast, cold break and hot break to fall out.
+That's also a good time to harvest some yeast.
+
+
+The darker, the less it'll show up, and you probably need to wait 2 or 3
+weeks for any noticeable effects.  It's really the long term
+decomposition that you want to avoid. I usually brew on a weekend or
+Monday, and then the next weekend rack to the secondary.  Then the
+secondary can go for many weeks if you're kegging, but not too long if
+you're bottling, since you need some viable yeast for carbonation.
+
+
+         Dave King (BIER)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 15:43:10 -0500
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: more Zn/Oats ...
+
+
+Graham Sander's has either misinterpreted my point or is
+trying to substitute his own ..
+
+
+<<,  the main
+point has not been missed and should be re stated.
+
+
+Dont just starting throwing unknown amounts of Zn in from
+tablets, nutrient mixes, pills etc. This is a micronutrient where
+talking about and it can be all too easy to get to toxic levels
+that will be determential to your yeast growth.
+>>
+
+
+Strawman arguments don't sit well Graham - no one suggested
+adding unknown or uncontrolled amounts.  My point was that
+adding about 0.5ppm of Zn was unlikely to cause a problem
+and in fact somewhat likely to cause an improvement.  Well
+worth trying.  Why don't you try it before you condemn it
+Graham.  I've been using this for several years w/o difficulty
+and it does (under my conditions) make a significant
+improvement.
+
+
+- --
+
+
+Scott Murman asked offline why commercial Zn compounds
+added to the boiler would improve the result (if mostly they
+remain in the break).  It's not entirely clear to my how/why
+certain Zn compound may make it out of the boiler.  I have
+seen papers in which significant fractions of free Zn ions do not
+exit the boiler.  Much of the malt Zn may be invested in
+organometalic compounds which end up in the break.  Perhaps
+addition after initial break formation are unlikely to bind.  In short
+it is not clear.
+
+
+===
+
+
+Bob the Beer man asks ...
+
+
+<<
+I was hoping that some of you more experienced brewers could tell me what
+YOU
+think the addition of a small quantity Oats to a recipie would be? For the
+sake of the question, lets say 1/2 pound or so.
+>>
+
+
+I don't have huge experience with oats tho' I have malted some and
+used these and raw oats in beers.  Oats are very high in oils
+(9% vs raw barley `at` 3.5%), and higher in protein than barley.
+Like most raw grains the proteins are relatively inaccessible to
+extraction and the levels of FAN  generated is quite low compared
+to malt.  Oat oils can have a negative impact on head at high levels.
+In smaller amounts oats, like other raw grains, add a  smoothness
+& body which is nice if limited in extent (b-glucans?), and oats seem
+to give more of this smoothness than others grains. Oats add relatively
+little flavor and have 10-15% less extract potential than barley malt.
+
+
+1/2lb in 5gal is IMO enough to get the positive impact w/o too much of the
+negative one.
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 16:37:10 -0500
+From: "Hill, Steve" <SHill`at`advanta.com>
+Subject: HEATING THE REFRIGERATOR
+
+
+Hello all:  I am at a complete loss right now.  My company has just taken
+away the internet!  Therefore I cannot do any searching for info on my own.
+
+
+Also, I just recently moved, and I am now experiencing a new problem even
+before I brew.  I had a basement before - now I have a garage. Not that this
+is the problem.  But with a refrigerator in cold weather it is.
+
+
+My refrigerator is now at 45 degrees without even being turned on.  (living
+in Pennsylvania.)  I am sure some of you have this problem too.  I need away
+of regulating a heating element PROPERLY as to not burn down the house!
+
+
+Please!  Help!  I no longer have access to the digest archives, and I can no
+longer research my problem on my own.
+
+
+Please do not send any LINKS as I cannot get to them. 
+
+
+Thanks
+Steve
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 14:06:02 -0800
+From: John Palmer <jjpalmer`at`gte.net>
+Subject: PBW vs Copper Fact Finding
+
+
+Hi Group,
+Glen Pannicke wrote me over the weekend and said he had seen nearly the 
+same thing, though in his case the solution didnt turn blue, but blue green 
+crystals could be seen on the copper. He noticed it after a couple hours.
+
+
+I ran an experiment yesterday where I mixed up a double strength batch of 
+PBW (1 tablespoon in 3 quarts) and pour this into 4 quart size bowls.
+1: Stainless Steel bowl with 2 brass parts
+2: Stainless Steel bowl with 2 small pieces of copper tubing, one with 
+silver solder tinned on it.
+3: Glass bowl with two brass parts
+4: Glass bowl with two pieces of copper tubing.
+
+
+The 2 samples in each bowl consisted of one clean/shiny looking part and 
+one that was dull and oxidized.
+
+
+I checked them after a couple hours, and then this morning. Nothing. Nada. 
+Zippo.
+Only observation was that it looks like a white precipitate has formed. It 
+is small and swirls up easily. I think it is excess PBW.
+
+
+Today (Monday) I called Charlie Talley, the chemist at Five Star Chemicals 
+that developed PBW, and described the observations.
+This was the first time he had ever recieved comments about a solution 
+turning blue in the presence of copper. (Or blue period.)
+Interestingly, PBW was developed to address a problem at Coors where brass 
+electrostatic filter plates were losing appreciable amounts of copper 
+during cleaning. Using PBW as the cleaner dropped the copper loss by 99%, 
+to virtually background water levels. So, Charlie was surprised to hear 
+that copper or brass seems to be at issue here. We discussed possible 
+chemical mechanisms, and really didn't come up with anything, other than it 
+is probably source-water related. Perhaps your water is acidic or has a 
+high sulfate content or you added gypsum to the brew that you were cleaning 
+up after?
+
+
+Anything ring a bell?
+John
+- --
+John Palmer
+Palmer House Brewery and Smithy
+http://www.realbeer.com/jjpalmer
+How To Brew - the online book
+http://www.howtobrew.com
+
+
+Let there be Peace on Earth.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Dec 2000 11:04:39 +1100
+From: "Phil & Jill Yates" <yates`at`acenet.com.au>
+Subject: The Doctor Has Been
+
+
+I have just spent an hilarious night with Doc Pivo who arrived in Burradoo
+with prawns and oysters and a couple of samples of Swedish beer. We took him
+over to Wes' (as we did Ray) to show him the scientific brewing centre of
+Bowral.
+
+
+I put a battery pack in Jill to give the impression she was real and we
+wasted an awful lot of the night and early hours of the morning laughing and
+cackling ridiculously out on the verandah, drinking peach wheat, rice lager
+and Swedish beer.
+
+
+At some ungodly hour the Doc let out a yelp and stared in disbelief as
+Marilyn crawled from the bog heading straight for us. I was surprised to
+learn he hadn't really taken her existence seriously. But now he has seen
+with his own eyes!
+Amazing what this peach wheat can do to your vision!
+
+
+The Doc is off this morning heading south to Victoria, but hopes to be back
+here for a couple of days before leaving Australia. We plan to do a joint
+brew day together here at Burradoo Breweries.
+
+
+We were going to do a joint HBD posting last night but the inspiration
+somehow got lost after the 263rd beer. Maybe next time.
+
+
+Now having finally met the man behind the name and having had a good laugh
+together in real life, I can see why there are some folk on the HBD he
+simply despairs of (or feels sorry for, if the real truth be known).
+
+
+But I have warned the Doc, if Marilyn was a shock to him, just wait until he
+sees what I have to show him down at the Wollondilly river! Even Graham
+Sander's skin would crawl if he saw what I keep down there.
+
+
+But of course Graham will never see it. Crossing that Queensland border is
+not something he plans to do in this lifetime. Not after the treatment he
+gave me in Townsville.
+
+
+Now I'm wondering just who else in this HBD am I going to meet? Maybe a
+surprise visit from Steve Alexander? Looking for "content free" ideas.
+
+
+Cheers
+Phil
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Dec 2000 13:43:38 +1100
+From: "Richard Pass" <richard.pass`at`anu.edu.au>
+Subject: Whitelabs WLP 500 
+
+
+Now that the weather in the Bush Capital is warming up a tad I've decided
+that since I'm likely to get some complex flavours, like it or not, I may as
+well deliberately try for some.  Did a couple of very quenching and
+drinkable hefeweizens using WLP 300.  One disappeared in around 2 weeks
+after carbonating and bottling and the other is carbonating in the keg.
+Both were fermented at 22 to 24 C which seemed to boost the banana and
+vanilla and soften the cloves. Full marks to Whitelabs for that yeast.
+
+
+Next cab off the rank is a Trappiste and after tasting the rendition of the
+style by fellow Canberra Brewer, Alan Brown, using WLP 500 I was more than a
+little impressed and inspired.  Complex plum, banana and pear flavours to
+name just the obvious ones. His recipe was pretty much the Wetmalle Dubbel
+staight out of Wheeler and Protz's Classic European book except he used
+flaked rice instead of white sugar, and WLP 500 yeast.  My attempt uses 500g
+CSR Coffee Crystals (a type of slightly caramelly crystalline sugar) because
+I haven't found a source of candy sugar in Oz. OG is around 1070.
+
+
+My first question is does anyone have an idea of or even a well reasoned
+argument for the origin of WLP 500?
+
+
+Secondly, Whitelabs say on their website in the blurb on this yeast "Lower
+temperatures (under 65F) will result in less fruity and more earthy beers.
+Many authentic Trappist style beers are brewed at 75F."  I'm fermenting at
+22C which is around 72F.  Any anecdotal stuff on temperatures and flavour
+profiles would be appreciated.
+
+
+Richard Pass
+Canberra
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Dec 2000 21:14:38 -0600
+From: "Sean Richens" <srichens`at`sprint.ca>
+Subject: Re:  Oktoberfest
+
+
+Casey:
+
+
+Do you take SG values?  I mostly ferment using eyes, ears & nose
+(hydrometers are for mashing, I say) but since I have the racking cane out
+anyway I always divert a splash to the hydrometer jar for a reading.  Then
+when things look, sound, or smell funny I can make an informed guess.
+
+
+I suspect your 15 days was effectively the primary.  When messing around
+with temperatures it's hard to tell whether the bubbles are from
+fermentation or warming up and gassing out.  I figure that if you take an SG
+and it's not still 1.025 or higher, you might be done.  I don't think that
+at this (presumably) late stage in the fermentation that a couple of days at
+62F to check it out would really mess up the flavour.
+
+
+Or you can brew up a second batch of lager, siphon yeast from your fermenter
+to inoculate it, then when it hits krausen transfer 1-3 L of new krausen
+beer to the original batch.  It's recommended by Noonan for smoother flavour
+in the recipient batch, and it's a great excuse to brew another lager.  I've
+planned batches just to do that, and it really does seem to help.
+
+
+Sean
+Sean Richens
+srichens.spamsucks`at`sprint.ca
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3501, 12/12/00
+*************************************
+-------

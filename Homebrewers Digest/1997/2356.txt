@@ -1,0 +1,1515 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id AAA18320 for <spencer`at`srvr5.engin.umich.edu>; Sun, 23 Feb 1997 00:43:40 -0500 (EST)
+Received: from judgmentday.rs.itd.umich.edu (0`at`judgmentday.rs.itd.umich.edu [141.211.83.37])
+        by srvr20.engin.umich.edu (8.8.5/8.8.5) with ESMTP id AAA18304
+        for <spencer`at`engin.umich.edu>; Sun, 23 Feb 1997 00:43:39 -0500 (EST)
+Received: by judgmentday.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id AAA13429; Sun, 23 Feb 1997 00:43:39 -0500 (EST)
+Received: from brew.oeonline.com by judgmentday.rs.itd.umich.edu (8.7.5/2.2)
+        with ESMTP id AAA13414; Sun, 23 Feb 1997 00:43:31 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA21170 for realhomebrew; Sun, 23 Feb 1997 00:33:31 -0500
+Date: Sun, 23 Feb 1997 00:33:31 -0500
+Message-Id: <199702230533.AAA21170`at`brew.oeonline.com>
+To: homebrew`at`brew.oeonline.com
+From: homebrew-request`at`brew.oeonline.com (Request Address Only - No Articles)
+Reply-to: homebrew`at`brew.oeonline.com (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`brew.oeonline.com
+Precedence: bulk
+Subject: Homebrew Digest #2356 (February 23, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2356                             Sun 23 February 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`brew.oeonline.com
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Re: Counterflow chiller, cold break (rkienle)
+  Conspiracy Theories (Mike Urseth)
+  Leffe recipe/ de-skunking/low-sparge ("David R. Lubar")
+  Skunkiness ("David R. Burley")
+  correct canine/oxidation and blending gueze (BAYEROSPACE)
+  Charlie's view from on high (David C. Harsh)
+  Porter (korz)
+  Murphy's Brewery ownership (John Wilkinson)
+  Re: portable co2 solutions for Cornelius Kegs (Chris Cooper)
+  recirculating mash ("Bryan L. Gros")
+  Body (korz)
+  RIMS pictures, SS mash tun with easymasher (Jim Elden)
+  Recirc of Sparge (Vector)
+  Cold Break:  immersion vs. counterflow (Mike Spinelli)
+  SA Clone recipe? ("Steven W. Smith")
+  Dishwater Blonde (Charles Burns)
+  dogs,let-me-out-man ("Raymond Estrella")
+  wheat recipe thanks; boilover; bleach and SS kegs (Saul Laufer)
+  1997 GAzBF-HBC ("RICHARD DRAKE")
+  how to homebrew sake (Mutsuo Hoshido)
+  skunk? help! ("MASSIMO FARAGGI")
+  RE: FWH and Bitterness (Bob McCowan)
+  Re: CO2 capturing (Fredrik St{\aa}hl)
+  tap handles ("Ed J. Basgall")
+  RE: Portable Co2 Solutions ("Richard Scotty")
+  RE: Soapy beer (George De Piro)
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  brew.oeonline.com 
+
+
+Send articles for __publication_only__ to homebrew`at`brew.oeonline.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`brew.oeonline.com BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  you must unsubscribe by sending a one line e-mail to listserv`at`ua1vm.ua.edu 
+  that says: UNSUB BEER-L
+
+
+Thanks to Pete Soper, Rob Gardner and all others for making the Homebrew
+  Digest what it is. Visit the HBD Hall of Fame at:
+                        http://brew.oeonline.com/
+
+
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 20 Feb 1997 10:39:08 -0600
+From: rkienle`at`interaccess.com
+Subject: Re: Counterflow chiller, cold break
+
+
+Oliver wrote (in response to Nathan)...
+
+
+> I am still using an immersion chiller but have been thinking of building
+> a counterflow one. One of the considerations as you mentioned is the 
+> carry over of cold break. I am considering two options. One is to use
+> a pump and recycle the cooling wort
+
+
+Once you build and use a counterflow chiller you'll wonder why you ever
+waited to do so. However, I think you're worrying a little too much
+about the cold break. The most important thing about cold break is
+"creating" it (which the counterflow chiller will do far more
+effectively than the immersion), so that at some point it can be
+separated from the rest of the beer. The importance of "when" to
+separate it varies (see below). I think the option of recirculating
+cooled wort back into your brewpot is probably a little too hazardous
+from a bacteriologic (sp?) point of view and will also take so long that
+the benefits of using a CF will be lost. I also think your option of
+using a mason's jar to "filter" the cold break won't work very well
+because you'll create more of this stuff than an ordinary mason's jar
+can handle (even if a Choreboy, etc., was capable of filtering it). 
+
+
+Most commerical breweries use a "holding tank" to help assist this
+process, but the quantities of beer (and cold break) being produced are
+vastly different than the homebrewer. For most ales, and for most
+homebrewing purposes and quantities, given the relatively short duration
+of primary fermentation, the effects of the cold break on the finished
+beer are probably either minimal or unnoticeable. Some lagers, however,
+such as an Oktoberfest, tend to clean up more nicely if you rack them
+off the cold break immediately, though again it's a pretty subjective
+thing. For those specific beers that might "potentially" really benefit
+from it, you can always deal with the hassle of siphoning to the
+primary. But I do think the most important thing is to "create" the cold
+break so that "eventually" it can be removed. I've been using a CF for 3
+years and have yet to rack off from the cold break before the primary
+and have not had any identifiable problems with the finished product as
+a result. 
+
+
+Build and use the CF unit first to see what it's really buying you. Then
+deal with the cold break as a separate issue, perhaps by doing two
+batches to compare if you're still concerned. 
+
+
+Cheers4beers,
+Rob Kienle
+Chicago, IL
+rkienle`at`interaccess.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 10:57:20 -0600 (CST)
+From: beernote`at`realbeer.com (Mike Urseth)
+Subject: Conspiracy Theories
+
+
+"Paranoia strikes deep
+Into your hearts it will creep
+It starts when you're always afraid
+Step out of line
+The Man comes and takes you away."
+
+
+(Name that 60's tune!)
+
+
+There may be another, less sinister, but possibly more tragic explanation
+for the nasty micro phenomena. The AB draft beers taste clean because the
+have people who make certain that their draft lines are properly
+maintained. Needless to say, they don't worry about how other people's
+beers are maintained. If the local distributors or the publicans don't go
+the the same level of care that the AB guys do, the micros will tend to
+suck.
+
+
+Bash AB all you want, but realize that their quality control is second to none.
+
+
+>Date: Tue, 18 Feb 1997 09:42:50 -0600
+>From: Rust <rustwa`at`hqamc.safb.af.mil>
+>Subject: Welcome Back/Call Oliver Stone/1002 Uses!
+
+
+Get Oliver Stone on the phone, I think I may have
+>another conspiracy.  I live in the St. Louis area,
+>and over the last few months I've noticed that
+>every time I order a draft micro (I'm including
+>Sam Adams with these, even tho I know...) I notice
+>a distinct chemical taste.  It's so strong that it
+
+
+
+
+>were fine.  Could AB be asserting its influence
+>with the local distributers to 'infect' the local
+>micro draft products by being less than careful
+>about rinsing cleaning solution from some of the
+>beer lines?  As paranoid as this sounds, if you
+>were from this area, you would be be amazed at the
+>enormous influence that AB has over local
+>business.  It would not surprize me at all if this
+>were indeed the case.
+
+
+Mike Urseth
+Editor & Publisher
+Midwest Beer Notes
+339 Sixth Avenue
+Clayton, WI  54004
+715-948-2990 ph.
+715-948-2981 fax
+e-mail:  beernote`at`realbeer.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: 20 Feb 97 11:55:54 EST
+From: "David R. Lubar" <75211.2665`at`CompuServe.COM>
+Subject: Leffe recipe/ de-skunking/low-sparge
+
+
+Hi.  
+Leffe Blonde recipe wanted -- If anyone has made a brew that tastes like Leffe
+Blonde, I'd greatly appreciate the recipe. I've searched Yahoo, Alta Vista,
+Dogpile, etc., with no luck.  (An Affligem Tripel clone would be fine, too.)
+All grain or extract.
+
+
+De-skunking -- A while back, I bought a six pack of Ballentine IPA.  Didn't
+notice the green bottles until I got home.  Noticed the skunkiness right away.
+I keep my beer in the basement, and the temp is generally between 50 and 60 F.
+I drank the first four within two or three weeks.  The other two got lost in the
+crowd.  When I opened them a month or so later, there was no detectable
+skunkiness.
+
+
+Low-sparge brewing -- This is lazy and fun.  Nothing totally original, but
+thought I'd share it, given the current discussion batch sparging.  The mashed
+grains (generally 8-10 lbs.) go into a Zappap double bucket strainer.  I top off
+with boiling water.  Magically, this seems to hit 170 F.  I stir, let sit for a
+while, then drain.  Meanwhile, I heat more water to 170.  I put the wort on the
+stove (this is my indoor, electric-stove, five-gallon-kettle, winter survivial
+method), dump the hot water into the lauter tun, and draw off more as needed to
+fill the kettle during the first part of the boil.  I get a decent 25 points,
+and some tasty brews.  And I only tie up one burner.  Generally, I do this for
+hi-grav small batches.
+
+
+David Lubar
+Nazareth, PA   75211,2665`at`compuserve.com or dlubar`at`aol.com
+
+
+
+
+------------------------------
+
+
+Date: 20 Feb 97 11:57:54 EST
+From: "David R. Burley" <103164.3202`at`CompuServe.COM>
+Subject: Skunkiness
+
+
+Brewsters:
+
+
+I sense a pattern developing.  Both Pat Babcock here and Jay Ward in a private
+communication commented that they experience skunking of beer in their mugs on
+the patio in a very short time and others have noted it in the past.  Also our
+friend in Grapevine Tx agrees with Jay in that both brew on the patio in bright
+light and never get skunking.  
+
+
+Now the point of Jay's comments is that he mainly brews porters.  And Pat noted
+that the skunkiness went away in the shade.
+
+
+I have mainly been thinking in terms of skunking in the *body* of the beer and
+concern that there is just not enough light intensity to skunk a beer in a few
+minutes, especially in a mug or glass and particularly with a highly colored
+beer.
+
+
+I can explain all these results to my satisfaction if what is happening is a
+surface photolysis on the surface of the beer in the glass or mug. There is no
+glass in the way to absorb UV or other light. There is a high concentration of
+photosylates directly under the drinker's nose ( even though the actual amount
+may be small) and it can even work with dark beers like a porter, since
+penetration into the body of the beer is not necessary.  Removal of the beer
+from direct sunlight will allow the minunte amount of prenyl mercaptan to be
+purged or just drift away on the wind.
+
+
+The surface to volume ratio in a wort is small and likely any photolysis product
+formed was purged during fermentation.
+
+
+Now the test.  Take a highly hopped beer in two mugs 1 covered, the other
+exposed to the light. Any difference in the aroma?  Switch which mug is covered.
+Result?
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Voice e-mail OK
+
+
+
+
+------------------------------
+
+
+Date:     Thu, 20 Feb 1997 11:39 -0600
+From: M257876`at`sl1001.mdc.com (BAYEROSPACE)
+Subject:  correct canine/oxidation and blending gueze
+
+
+collective homebrew conscience:
+
+
+i have a lambic in the basement that's been fermenting/aging/spoiling/whatever
+since october of '95.  it has had adequate air in the headspace (i've racked
+twice and not purged) to become quite oxidized, i believe.
+
+
+i've been planning to blend it with a new batch of lambic this spring.  should
+i blend at pitching, some time during the primary, or during the secondary?
+also, could the new vigorous yeast help my suspected oxidation problem, or
+(more likely) is the damage already done? 
+
+
+rex clingan (how's it going rex?) wrote:
+
+
+
+
+>Subject: What's the preferred breed of dog for homebrewing
+
+
+>a goldings retreiver
+
+
+rex is speaking, of course, for the british isles constituency.  on the other
+side of the channel, the teutonic solution is:
+
+
+the wei(henstephan)maraner
+
+
+
+
+dave burley wrote:
+
+
+> Not that I don't believe in light skunking, just as a photochemist, I
+>am not happy with the conventional explanation as I know it.
+
+
+
+
+i had a kolschbier that turned out pretty good last year, and after it got 
+about a year old, it had a skunky component to it.  it was in green glass, 
+but also in the basement freezer the whole time.  no strong light ever
+struck it.  not even medium strength light.  just another data point. pale
+beer, noble hops, no significant light exposure.
+
+
+
+
+p.s. - a new brewer has been born - jackson cain bayer 2.8.97  7lb 15oz
+
+
+(how's that for a "born on" date?)
+
+
+brew hard,
+
+
+mark bayer
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 14:00:00 -0500
+From: dharsh`at`alpha.che.uc.edu (David C. Harsh)
+Subject: Charlie's view from on high
+
+
+Charlie P. finally comments on the AOB and AHA.  As one who has made
+comments critical of both CP and the organizations, I thought I'd respond:
+
+
+>...we set forth on the endeavor that has become the Association of Brewers...
+
+
+There's no doubt that being able to work on a hobby as a full time job is a
+great opportunity and to a point I think many of the biggest critics are
+slightly jealous.  How many times have we heard people moan about having
+worked as an underpaid, underappreciated technical reviewers for Zymurgy
+and other brewing publications?
+
+
+The attacks you call "personal" are directed at the PERCEIVED manner in
+which the AOB/AHA is run.  There have been many requests for access to
+financial information and cathy in HBD #2347 essentially told us that we
+wouldn't understand because after all, there were 35 pages of information.
+Attitudes like that tend to invite criticism.
+
+
+>...I don't feel it necessary to defend
+>my personal lifestyle, philosophy, reasons for being involved in the
+>beer business, my salary, or my position at the Association of Brewers.
+
+
+I'll agree with you on every item except the last.  You are president of a
+non-profit organization that collects "dues" from "members".  The question
+has been asked "what do you do?"  There's a PERCEPTION that the primary job
+is an intercontinental pub crawl - but you've never said otherwise.
+
+
+We are continuously told how well the AHA is run, but serious questions are
+always ignored.  Here are a few examples.
+
+
+#1.  Louis Bonham asked:
+> > how much AOB president Charlie Papazian makes from this "nonprofit"
+> > organization, in terms of salary and paid travel, ... concerns were
+> > amplified by the AOB's rather bizarre refusal to release copies of
+> > their IRS Form 990 upon request.
+
+
+Cathy`at`aob.org answered:
+> Let me stress again, that the AOB followed the law with respect to our
+> 990's....
+
+
+So we had a clear question about salary and paid travel (items that would
+seem to be easily addressed) and were answered with we "followed the law".
+I note that the salary question was answered eventually and the dollar
+figure given is not unreasonable.  Travel cost and non-salary compensation
+questions haven't been answered.
+
+
+#2.  How are board members appointed/Should the board of advisors be voted on?
+cathy`at`aob.org said:
+> Please understand that we are a business with a
+> board of directors made up of business and professional people in the
+> Boulder/Denver area.  These people take their board positions very
+> seriously.
+
+
+I've always assumed they took their jobs seriously.  However, how are they
+appointed?  Who appoints them?  Can they be fired?  By whom?
+
+
+>(68% of the respondents did not want to vote for the board of advisors)
+
+
+I would be interested in knowing what percent of members responded!  If the
+general feeling is that the organization leadership is unresponsive to
+members' opinions, then they might not bother.  If 68% of a 50% response
+rate said this, then you would be looking at 34% actual number.  (I know,
+people who don't vote don't deserve to have their opinions counted - but
+I'm not the one that used the survey to make a point)
+
+
+#3.  Pulling out of the Beer Judge Certification Program (BJCP)
+
+
+The only reason ever given was that the AHA was going to start their own
+competing program.  No specific problems with the BJCP were ever cited; no
+discussion of any problems was ever presented in Zymurgy; no AHA program
+has appeared.  Open speculation was that the AHA wanted a program it would
+control.
+
+
+Maybe hops make you overly susceptible to conspiracy theories, but any
+outside person has to wonder what is going on.
+
+
+Charlie wrote:
+>Homebrewing is fun.  It was always meant to be.  I know there are
+>several individuals out there, pecking away at their keyboards who are
+>NOT having fun homebrewing.  Homebrewing for me is not about being
+>angry.
+
+
+Isn't that kind of a cheap shot?  I may be pecking away at my keyboard, but
+I have fun brewing, I have fun helping out with our local club.  I DONATE
+my time because I enjoy what I'm doing.
+
+
+Question how the AOB operates and you are called "angry" - what next?  Are
+we "nattering nabobs of negativism"?  There is nothing gained by getting
+into name-calling when someone asks difficult questions.  Just answer them.
+
+
+Dave Harsh
+Bloatarian Brewing League,  Cincinnati, OH
+oPinionated aPostle of Positivism
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 13:32:04 -0600 (CST)
+From: korz`at`xnet.com
+Subject: Porter
+
+
+Hal posted a brilliant idea... mixing modern beers.
+
+
+My *guess* (purely *speculation*) for getting a feel for
+an 18-th century Porter, might be to mix a strong brown
+beer (because back then, they brewed 'em much stronger),
+with a sour beer (that's the stale (or "aged" in modern
+terms) part), and a woody beer (for the long aging in
+wood).
+
+
+How about this:
+
+
+60% Old Peculier or McEwan's Scotch Ale
+10% Cantillon or Boon Gueuze/Geuze
+30% Rodenbach Grand Cru
+
+
+Yes, the Rodenbach is sour, but I suspect not sour enough and note
+that the Cantillon or Boon would also add a horsey character which
+would not be out-of-place in a Porter.
+
+
+Comments?  Different proportions?  Different beers?
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`xnet.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 97 13:37:56 CST
+From: jwilkins`at`imtn.tpd.dsccc.com (John Wilkinson)
+Subject: Murphy's Brewery ownership
+
+
+Dave Hinkle wrote (among other things):
+
+
+>Are the  Murphy's and Beamish breweries still independent, or are they
+>owned by larger interests now?
+
+
+I understand from a friend in the business that Murphy's is owned by or is
+in an alliance with Heineken but that they may separate.  I believe he told
+me that Heineken owns them.
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`imtn.dsccc.com
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 14:53:27 -0500
+From: Chris Cooper <ccooper`at`a2607cc.msr.hp.com>
+Subject: Re: portable co2 solutions for Cornelius Kegs
+
+
+Greetings all!
+
+
+First of all let me express my appreciation to all those individuals,
+past and present, for their efforts toward the continuation of the HBD
+tradition. And a special note of thanks to Observer Eccentric Online
+for providing an Internet on-ramp for the system.
+
+
+In #2352 Scott asked about a portable CO2 system for corny's.
+I think the system you mentioned is sold by "Williams Brewing Supply",
+their ads are  in all the major beer magazines, I have also seen the ad
+but if I remember correctly the system was fairly pricey.
+
+
+Here is another idea that I have been using for some time, I obtained a
+low pressure air regulator (from an auto supply store or painters supply,
+any place that sells air compressors) and plumbed it up to a spare corny
+keg.  I fill the spare keg with about 60-80 psi of CO2 from my 20# tank
+and using the low pressure regulator push the beer with 10-15 psi,
+this setup allows the one CO2 corny to dispense several kegs of homebrew
+and means my heavy tank and valve system stays put safely at home.
+I use this setup on my beer fridge in the garage (if my system springs a
+leak somewhere I only loose the CO2 in my low pressure tank), and it is light
+weight and handy when I am purging a corny/carboy or starting a siphon.
+
+
+On another subject, It was great to hear from Charlie P. in #2353 and I second
+his comment:
+
+
+<snip>
+>Homebrewing is fun.  It was always meant to be.  I know there are
+>several individuals out there, pecking away at their keyboards who are
+>NOT having fun homebrewing.  Homebrewing for me is not about being
+>angry.
+<snip>
+
+
+This forum is an interesting beast, for the most part it brings out the best
+of the "homebrew" psyche with only and occasional lapse into the "dark
+side" (sorry I just saw Star Wars on the big screen) and has definitely
+made a positive impact on my brewing experience.  So, lets all have some
+fun!          
+
+
+May the force brew with your!
+
+
+
+
+Chris Cooper , Commerce Michigan    --> Pine Haven Brewery <--
+Chris_Cooper`at`hp.com                 --> aka. Deb's Kitchen <--
+ 
+
+
+
+
+------------------------------
+
+
+Date-warning: Date header was inserted by ctrvax.Vanderbilt.Edu
+From: "Bryan L. Gros" <grosbl`at`ctrvax.Vanderbilt.Edu>
+Subject: recirculating mash
+
+
+Tad (tad`at`bimcore.emory.edu) writes:
+>I have seen somewhere on the web, a homebrewer's site describing a mash 
+>system where the mash is recirculated through a copper coil in the hot 
+>liquor tank, for temp boosts.  I am interested in hearing from anyone who 
+>uses this method, or the location of the web site.  
+
+
+I believe you are refering to what's called a RIMS system.  Can't help you
+with the details, but check out these sites:
+
+
+http://dezines.com/`at`your.service/RIMS/ (Kieth Royster)
+http://www.vigra.com/~hollen/RIMS.html (Dion Hollenbeck)
+http://caladan.chattanooga.net/~cdp/ (C.D. Pritchard)
+
+
+They probably all point to each other.  Excellent detail available, which one 
+day I will take advantage of...
+
+
+          - Bryan
+            grosbl`at`ctrvax.vanderbilt.edu
+            Nashville, TN
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 14:06:57 -0600 (CST)
+From: korz`at`xnet.com
+Subject: Body
+
+
+Dave writes (quoting Bruce):
+>>   They also seemed to have more body.
+> 
+>Probably due to the hold temperatures which encourage medium weight proteins to
+>be dissolved and a high temperature saccharification step.
+
+
+Hmmm... I think you mean higher-temperature protein rest to encourage
+*more* medium-weight proteins, don't you?  Large proteins == haze,
+medium proteins == body + head, and amino acids == yeast nutrition (but
+in excess can give elevated higher alcohol production and other problems).
+Protein rests at the 113-122F end favour amino acid production from
+large- and medium-sized proteins and protein rests at the 135-140F end
+of the range favour more medium-sized proteins and less amino acids.
+
+
+There have been posts recently that have said that protein breakdown
+is just about non-existent in the mash, but my experience seems to
+indicate otherwise.  Perhaps in darker malts, like Vienna and Munich?
+I know that a protein rest does a LOT for DeWolf-Cosyns Pale Ale and
+Pilsner malts.  You can see it in the quanitity of break produced!
+
+
+I'm not sure of what mash temps and times are used to make PU... Darryl,
+are you still out there?
+
+
+If Darryl Richman doesn't respond, it may be in his article on Pilsner
+Urquell in Zymurgy about 6 or 8 years ago.
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`xnet.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 15:45:50 -0500
+From: Jim Elden <elden`at`accumedic.com>
+Subject: RIMS pictures, SS mash tun with easymasher
+
+
+Hi all,
+
+
+I have placed some pictures of my recently completed RIMS
+along with the double easymasher in the mash tun
+at http://www.accumedic.com/docs/jim
+for your collective perusal.  Comments are welcome and
+encouraged.
+
+
+Regards,
+
+
+Jim Elden
+Riptide Brewery
+Long Beach, NY
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 16:25:01 -0500 (EST)
+From: Vector <vectorsy`at`netaxs.com>
+Subject: Recirc of Sparge
+
+
+>Quick question for the RIMS crowd. I'm in the process of
+>designing/building my Spiffnatious RIMSical(tm) setup, and I was
+>wondering what the benefits/drawbacks would be of recirculating the
+>sparge, after the initial mash, rather than doing a standard sparge into
+>the kettle.
+
+
+I drain the mash tun completely and then refill with sparge water.
+I generally recirc my sparge water for 30 mins at 168F while beginning
+to boil tthe first runnings. When the first running get boiling, I allow
+the mash tun to slowly drain to the kettle (slow enough to not stop the
+boil). This has upped my efficency by about 3-4 points and cut 30+ mins
+from my brew day.
+
+
+>Also, is it possible to have too much space under my Phake(tm) bottom in
+>my tun?
+
+
+I don't see the disadvantage in too much space under the false bottom,
+unless you plan on draining the mash tun completely. This being the 
+case, your false bottom must be able to support the weight of the grains.
+
+
+>I'd appreciate email responses, since I have fallen behind in my
+>HBD reading.
+
+
+Why? Have you been out trademarking everything? :)
+
+
+>Wayne Holder
+>Zymico(tm)
+>Long Beach CA
+>"Home of the Toob(tm)"
+
+
+John
+
+
+P.S. My old mailbox was yanked (rust1d`at`li.com). Questions on HBRCP should
+be directed to eve`at`charon.ogi.com (my wifes box) (hey! get your mind out
+of the gutter).
+
+
+
+
+**************************
+** rust1d`at`li.com        ** 
+** John Nicholas Varady ** <-- Now Married.
+** Eve Courtney Hoyt    **
+************************** 
+http://www.netaxs.com/people/vectorsys/index.html
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 97 16:38:42 est
+From: paa3983`at`dpsc.dla.mil (Mike Spinelli)
+Subject: Cold Break:  immersion vs. counterflow
+
+
+HBDers,
+I'm switching from an immersion chiiler to a Hart's type super chiller
+counterflow unit and have a question:  What happens to the cold break now? 
+Instead of falling to the bottom of your boil tun while immersion chilling, will
+the cold break now flow into my fermentors?  Is this a problem with CF units?  I
+figure the CF unit won't give the break any time to settle like when using an
+immersion unit.
+
+
+Thanks
+Mike Spinelli
+Cherry Hill, NJ
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 16:45:03 -0700 (MST)
+From: "Steven W. Smith" <SYSSWS`at`gc.maricopa.edu>
+Subject: SA Clone recipe?
+
+
+  You know the one I mean: 
+Barleycorn called it "the beer equivalent of a 1905 Mouton Rothschild".
+The Malt Advocate exclaimed "...resembles a vintage port or Madeira as much as 
+it does a beer"*.  Yep, I seek the recipe for the fabled Sam Adams TRIPLE BOCK 
+1995 reserve.
+
+
+  My recipe so far:  "almost a pound of malt per bottle", post-expiration-date
+canned prune juice, subtle nuances of the iron tonic my mom gave me as a lad.
+Maybe some of those FOOPs** we used to chat about (to make sure there's no 
+head).
+
+
+  One more quote from the li'l info pamphlet tastefully draped about the 
+graceful neck of the lovely blue bottle:
+
+
+  Take a sip. Let your head fill with flavors you have never found in any 
+  beer."  That pretty much sums up the experience.
+
+
+  I tell ya, that Koch feller is one _heckuva_ practical joker!  I apologize 
+for the lack of a real contribution (aside from "save your money").  A 
+prolonged period without brewing has made me, well... cranky.
+
+
+* my wife exclaimed, "Oh geez that's nasty!  What's in it, prune juice?"
+** Fold Only Once Proteins (ya had to be there).
+
+
+Steve (gagging with delight and obviously unsophisticated) 
+  _,_/|   Steven W. Smith
+  \o.O;   Systems Programmer, but not a Licensed Therapist
+ =(___)=  Glendale Community College.  Glendale Az.
+    U     syssws`at`gc.maricopa.edu or smith`at`peabody.gc.maricopa.edu
+"If trees could scream, would we be so cavalier about cutting them down?
+We might, if they screamed all the time, for no good reason."  Jack Handy
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 97 16:25 PST
+From: cburns`at`egusd.k12.ca.us (Charles Burns)
+Subject: Dishwater Blonde
+
+
+Otherwise known as Starchy Strawberry Blonde. In private email, Al points 
+out that the process described in Brew Your Own magazine was a surefire way 
+to get starch haze. The toasting of malt at 350F for 15-20 minutes will 
+destroy most (maybe all) of the enzymes. By the time it gets into the brew, 
+by steeping, the only thing to come out will be starch. This is probably why 
+it never cleared and may also have contributed to the low FG. Anyway, now 
+that we have Victory malt to give the toasty flavor, I use that instead of 
+toasting my own.
+
+
+Charley (of starch haze fame)
+- ---------------------------------------------------------------
+Charles Burns, Director, Information Systems
+Elk Grove Unified School District
+cburns`at`egusd.k12.ca.us, http://www.egusd.k12.ca.us
+916-686-7710 (voice), 916-686-4451 (fax)
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 97 01:23:11 UT
+From: "Raymond Estrella" <ray-estrella`at`msn.com>
+Subject: dogs,let-me-out-man
+
+
+Don writes
+>My favorite is the LaBEERdor Retriever.  Heres why...she stuck her head in 
+>the hole she had dug, grabbed on to something and pulled it out. Low and 
+>behold the "metal gopher" was a full, intact, Mickey's big mouth beer. 
+ Are you sure she had a metal gopher, and not a glass skunk ?  (But how could 
+it skunk, it was in the dark hole, and was surely above 50f ?) noooo.....
+ >From JMBuster`at`aol.com
+ >Subject: Re: Take me off your list !!!!!!!!                                  
+                    you must unsubscribe by sending a one line e-mail to       
+listserv`at`ua1vm.ua.edu that says: UNSUB BEER-L
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 1997 23:19:02 -0500
+From: Saul Laufer <laufers`at`vaniercollege.qc.ca>
+Subject: wheat recipe thanks; boilover; bleach and SS kegs
+
+
+Hi all,
+I posted a request for info on wheat beer and then had to be away for
+about a week.  I was surprised by the number of people who responded and
+would like to use the digest to thank all who resonded.  All the
+responses were useful.  It is obvious that there is a large well
+informed group out there.  Nice to have the digest back on line.
+
+
+In one of the recent digests there was some talk about preventing
+boilovers.  I recently acquired a small clip on fan (about 7" diameter)
+and removed the front wire screen which acted as a diffuser and safety
+screen.  The blades are plastic and not dangerous.  As I use a converted
+keg I was able to clip the fan on to the top ring which I left intact
+when I cut out the top of the keg.  It works beautifully and ther are no
+more boilovers, even with the most vigorous boils.  (I use a cajun type
+cooker -around 170,000 BTU).
+
+
+Also, there was some talk recently about bleach and its effect on SS.  I
+have been kegging for quite some time and have used bleach to sanitize
+the kegs with no apparent damage.  The insides are mirrorlike and there
+is no evidence of pitting (I own 3 coke soda kegs).  I have looked for
+iodophor with little success.  Perhaps it's not yet available in Canada. 
+
+
+Saul
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 97 05:14:45 UT
+From: "RICHARD DRAKE" <HARDROCKENGR`at`msn.com>
+Subject: 1997 GAzBF-HBC
+
+
+The 4th Annual GAzBF homebrew competition is scheduled for April 5&6, 1997. 
+Entries for this AHA/BJCP sanctioned competition will be accepted from March 
+26 to April 2 at:
+        McFarlane Brewing Company
+        202 South 29th Street
+        Phoenix, AZ 85034
+
+
+Entries will be accepted for all 1997 AHA categories including ciders and 
+meads. The standard AHA recipe and bottle ID forms will be used. The entry fee 
+is $5.00 for the first entry and $4.00 for each additional entry. Forms or 
+further information are available from:
+        Rick Drake 
+        5325 W. Willow Ave.
+        Glendale, AZ 85304-1368
+        Phone - 602-843-3420
+        Fax - 602-439-3910
+        e-mail - hardrockengr`at`msn.com
+
+
+As always, the proceeds will be donated to the charitable organization, Sun 
+Sounds Reading Service. 
+
+
+The Best-Of-Show winner will receive a GAzBF trophy and a $100.00 gift 
+certificate from The Homebrewery in Sierra Vista, AZ. Olympic style medals 
+will be awarded to 1st, 2nd and 3rd places in each category. First place 
+winners will also receive a small gift from a local merchant (i.e.: T-shirt, 
+pint glass, book, gift certificate, etc). A new award called the Brewer's 
+Choice Award will be presented to the most commercially viable entry in the 
+best of show round. This award winning beer will be chosen by a panel of local 
+commercial brewmasters. The winner will receive the right to brew the winning 
+recipe at one of the local brewpubs.
+
+
+Regards,
+Rick Drake 
+GAzBFHBC- Organizer
+VP- Brewmeisters Anonymous
+BJCP- Certified
+Homebrewer
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 97 16:44:09 JST
+From: hoshido`at`gman.rme.sony.co.jp (Mutsuo Hoshido)
+Subject: how to homebrew sake
+
+
+Homebrew Sake is very easy to brew using your simple cooking tools
+and then you  can enjoy your own Sake taste.
+
+
+Homebrew Sake,we call 'doburoku', rather haze Sake, had been a culture
+of Japan and even under the previously strict control of Liquor Tax law,
+some Buddhist temples or Shinto Shrines have been brewing thier own
+'doburoku' to serve their festival or ceremony.
+
+
+Following is  one of the simple Homebrew Sake brewing procedures to
+enjoy your own Sake taste.
+
+
+[Materials]
+
+
+Rice,1500g(3.3lb)
+Kome-koji or rice-koji, 400g(0.9lb)
+Citric acid, 5g(0.18oz);you cab eliminate this depending on your taste.
+Water,4.2litter(1.1gal)
+Dry bread yeast,5g (0.18oz) . Or equivalent amount of Beer Ale yeast,
+                Wine yeast,or Wyeast Sake depending on you taste.
+
+
+You will be able to get Kome-koji made from Koji or Koji-kin, a kind
+of white fungi,together with steam cooked rice at your grocery stores
+or homebrew stores.
+My homebrew friend,Mr.T.Takesima,opened his Koji URL so that
+you can get further information on Koji in the USA.
+
+
+   Koji URL;   http://128.183.126.102/~takeshim/.sub_html/koji.html
+
+
+   His beer page in Japanese;
+         http://128.183.126.102/~takeshim/.sub_html/homebrew.html
+
+
+If you only can get Koji or Koji-kin, you can easily make your fresh
+Kome-koji together with steam cooked rice by yourself using your
+picniccooling box. Later I will show you how to make Kome-koji.
+
+
+
+
+[Equipment]
+
+
+Electric rice cooker(steam cooker is better).
+Basket to cut water.
+Ten liters(2.6gal) enamel or stainless steel deep cooking pot with lid.
+          (Equivalent plastic or glass container can be used.)
+Big spoon(stainless is better) .
+
+
+[Procedure]
+
+
+1.Wash and soak the 1500g(3.3lb) rice for about five hours and then
+      put the rice in a basket for at least 20 min. to cut water.
+
+
+2.Cook the rice with 1800ml(0.48gal)water using the rice cooker.
+      Steam cooking is recommendable for better taste. I used a pressure
+      cooker to steam cook rice using stainless steel bastket suspended
+      in it.
+
+
+3.After cooking the rice,cool down the rice to 30deg C(86deg F).
+
+
+4.Melt the citric acid with 2.4liter(0.5gal) water in the enamel cooking
+      pot.
+      Citric acid will prevent the contamination of bacteria and add
+      slight sour taste to your Sake.
+      Depending on your taste, you can reduce or eliminate the Citric acid.
+      Also you can use Lactic acid or you can use a Lemon or Lime juice.
+
+
+5.Add 400g kome-koji and well melt it by agitating with the big spoon.
+
+
+6.In thirty minutes, add the cooled cooked rice and well mix by agitating
+      with the big spoon.
+
+
+7.Pitch the yeast and place the lid on the pot and keep it at room
+      temperautre.
+      Lower temperature will cause slower and longer fermentaion and
+      will result in better taste.
+
+
+8.Stir it at least once a day.
+      In two or three days you can enjoy very nice Sake aroma.
+      Be careful about bacteria contamination. I used 70% ethyl alcohol
+      spay around the pot and to myself every time.
+
+
+9.In two weeks fermentation will seem to end.
+
+
+10.Filter the sludge using a sterilized basket or cheese cloth. I'm using
+      a stainless steel 40mesh screen.
+
+
+11.Enjoy the filtered Sake. Do not drink too much. Alcohol content is two
+      to three times more than beer. Cooling the filtered Sake is the better
+      way to taste. If you want crystal clear Sake,separate the further
+      sludge by decanting. This will result in great reduction of your Sake
+      yield.
+      The filtered sake can be matured in your refrigerator at least six
+      months for much improved taste.
+
+
+12.Remaining sludge can be used to cook vegetable pickles in a
+      refrigerator.
+      A cucumber is the most suitable vegetable. (before use,keep the
+      cucumber in a container under two times weight at least 2 days
+      after sprinking slight salt (about 2weight% of the cucumber).
+      In two or three months,you can get sake taste pickles.
+      Of course you can put white fish meat and then grill them.
+      If you put soy bean cake (tofu) wrapped with cheese cloths into
+      the sludge,in a week you will be able to get cheese like tasty food.
+
+
+
+
+How to make Kome-koji from Koji or Koji-kin
+
+
+1.Wash and soak the 400g(0.9lb) rice for about five hours and then
+     put the rice in a basket for at least 20 min. to cut water.
+
+
+2.Steam cook the rice. Steam cooked rice looks slightly transparent,
+     not white.
+
+
+3.Cool down the cooked rice to 35deg C(95deg F). Put the rice into an
+     enamel or stainless steel thin container and add 1 to 2g of Koji or
+     Koji-kin and well mix them. Cover the container with water
+     moistened  cheese cloth or cotton cloth to prevent drying.
+
+
+4.Put the container in a picnic cooling box together with 40deg C(104
+     deg F) warm water bottles to keep the inside at 35deg C(95deg F)
+     for 40 hours.
+     The amount of the warm water will preferably be at least 8 litters
+     (2 gal).
+     If necessary, change the warm water to keep the temperature constant.
+     In 10 hours,mix again the mixture of the cooked rice and Koji using
+     a cooking sparula. Already you can notice the whitened rice and get
+     good aroma. I used a digital thermometer to measure the temperature
+     inside. It is very useful and convenient to keep temperature constant
+     without any expensive electrical temperature control device.
+
+
+5.Further keep the mixture at 35deg C(95deg F) for 30 hours.
+
+
+6.You can get white colored Kome-koji covered with white fungus.
+
+
+Of course,you can homebrew your sake only from Kome-koji without
+using steam cooked rice. If you can make Kome-koji by yourself,
+you can save time and money.
+
+
+If real "Amasake" is available (sake sludge mixed with suger is not real
+amasake),directly pitch dry yeast in a bottle.
+Then you can brew your own Sake.
+
+
+Commercial Sake brewers use very expensive materials such as 50%
+polished special kind of rice,which looks like very small crystal beads
+because of the excessive polishing process. And the special rice kinds
+grown only for Sake are called Yamadanishiki,Miyamanishiki,Reihou,
+Gyokuei and so on.
+We never eat such a rice, we usually eat slightly polished normal kinds
+of rice grown only for eating. When I visited Sake brewer near my house,
+the manager told me that he tried to eat that sake rice but that it was
+not tasty.
+
+
+Homebrew Sake is very simple to make and satisfactorily tasty if you do
+not compare with commercial high class pure rice Sake. I heard that US
+Sake brewers have to produce only pure rice Sake because of US tax law.
+Pure Rice Sake means Sake only from rice.
+In Japan, tax law allows mixture of so called industrial ethyl alcohol
+or other things into Sake within a certain percentage.
+Pure rice sake (Junmaishu) is very expensive.
+
+
+
+
+Kampai!
+I hope you enjoy homebrew your own Sake.
+Mutsuo Hoshido
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 1997 00:44:20 -0800 (PST)
+From: "MASSIMO FARAGGI" <maxfarag`at`hotmail.com>
+Subject: skunk? help!
+
+
+Hi!
+Please if you could help an italian reader of HBD...
+I have problems with some words that sometimes my Webster can not help to
+solve. While I have been able after a while to understand at least
+approximately the meaning, for example,  of "anal retentive",  I think I need a
+deeper knowledge at least of the term "skunked" or "skunky" just to be able to
+follow the recent thread. Can you describe this flavor/aroma/smell by relating
+it to well-known food or chemical examples? Is the term related to a vegetable
+or to an animal or whatever? (BTW I had a green-bottled Heineken yesterday, I
+don't know if it was skunked but was not an outstanding beer nonetheless IMO.)
+
+
+Besides, wouldn't be useful for not-so-experienced brewers/drinkers to have
+some sort of table describing the most common off (or just particular)
+flavours, like DMS, dyacetil etc., a brief description and/or a beer example,
+and maybe their cause? Or does such an explanation exist already somewhere in
+the WEB?
+
+
+TIA & Cheers
+
+
+Massimo Faraggi       GENOVA - ITALY
+maxfarag`at`hotmail.com
+
+
+- ---------------------------------------------------------
+Get Your *Web-Based* Free Email at http://www.hotmail.com
+- ---------------------------------------------------------
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 1997 09:00:37 -0500
+From: Bob McCowan <bob.mccowan`at`bmd.cpii.com>
+Subject: RE: FWH and Bitterness
+
+
+Al said:
+
+
+>I brewed a Pils in which I
+>(foolishly) put all the hops in as "First Wort Hops" (i.e. they were added
+>to the kettle as I ran the sweet wort into it.  I had estimated 40 IBUs
+>assuming 27% utilisation from a 2 hour boil.  What I got, I estimate
+>(based only upon tasting relative to Pilsner Urquell) was about 30 IBUs.
+>Therefore, my *guess* is that I got about 20% utilisation.
+> 
+>My hypothesis as to why I got less utilisation is that break may have
+>formed around the hops decreasing either solubility or isomerisation
+>or both.
+
+
+Was this beer decoction mashed or infusion mashed?  A while ago we were
+speculating that the decoctions would cause a reduction in hot break
+formation since a lot of the proteins are degraded and/or left behind in the
+lauter tun.  The corresponding reduction in hot break would mitigate the
+reduction in hop utilization.  I know that in Noonan's 'Brewing Lager Beers'
+he recommends adding the bittering hops at the beginning of the boil.  
+
+
+Bob
+
+
+- --------------------------------------------------------------------------
+Bob McCowan                            
+                                     
+ATG/Receiver-Protector            voice:  (508)-922-6000 x208
+CPI BMD                                    fax:  (508)-922-8914
+Beverly, MA  01915               e-mail:  bob.mccowan`at`bmd.cpii.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 1997 14:37:21 +0100
+From: fredriks`at`abel.math.umu.se (Fredrik St{\aa}hl)
+Subject: Re: CO2 capturing
+
+
+Al writes:
+>Hmmmm... I don't know if simply allowing the fermentation gasses to swirl
+>in the headspace of the 2ndaries will impart any off-flavours/aromas (you're
+>right that there's DMS, H2S and many other undesirable gasses in there).
+>I know that the American megas and German breweries that capture and store
+>their fermentation CO2 (that's the only way you can force-carbonate under
+>Reinheitsgebot!), but they scrub it before use.  I don't know how elaborate
+>these procedures are, but I'm pretty sure they are described in Malting
+>and Brewing Science, The Practical Brewer, and possibly even A Textbook
+>of Brewing.  However, I don't think you need to go through all that trouble.
+
+
+I just recalled seeing this in a small brewery in Bamberg last summer. The
+CO2 was piped from the conditioning tanks and allowed to bubble through a
+small glass container (<1 liter), and I was of course curious about it. The
+guide said that it was for capturing CO2 for force carbonation.
+Unfortunately, the rest of the crowd was already tired of me asking
+questions all the time and was waiting for the samples, so I didn't ask
+what kind of liquid there was in the container. Acid of some sort?
+
+
+/Fredrik
+
+
+- --------------------------------------------------------------
+Fredrik St{\aa}hl          Tel: int + 46 90 166027
+Math. Dept.                Fax: int + 46 90 165222
+University of Ume{\aa}     E-mail: fredriks`at`abel.math.umu.se
+S-90187 Ume{\aa}, SWEDEN   WWW: http://abel.math.umu.se/~fredriks
+
+
+                   On tap: Uncle Spam Pale Ale
+         *** Nemo saltat sobrius, nisi forte insanit ***
+- --------------------------------------------------------------
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 97 08:34:31 EST
+From: "Ed J. Basgall" <edb`at`chem.psu.edu>
+Subject: tap handles
+
+
+>Date: Wed, 19 Feb 97 12:23 PST
+>From: cburns`at`egusd.k12.ca.us (Charles Burns)
+>Subject: Searching the Archives
+
+
+>Is there a faq somewhere that explains how to search the HBD archives? I
+>remember some postings last year about custom made tap handles. I need some
+>and just wanted to find those postings.
+
+
+>TIA,
+>Charley
+
+
+Charley,
+The recent issue of "Brew Your Own" had an article on making your own
+tap handles.  I can FAX it to you if you send me a # to FAX to.
+
+
+cheers
+Ed Basgall
+SCUM
+State College Underground Maltsters
+State College, PA 16801
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 1997 07:04:01 -0600
+From: "Richard Scotty"<rscotty`at`uswest.com>
+Subject: RE: Portable Co2 Solutions
+
+
+
+
+
+
+
+
+
+
+From: Richard Scotty on 02/21/97 07:04 AM
+
+
+Matt writes:
+
+
+>I bought one of these things - But haven't needed it yet... - But it
+>looks like it will work great - it uses small co2 cartridges like those
+used for bike tires, air guns, etc.
+>In fact, I found the Co2 cartridge / and filler in a bike shop for much
+>less $$$ - If you are handy in fitting the plumbing together, I'm sure
+>you could just buy the bike pump, and co2, and add your own fittings to
+convert to a ball / pin lock for >you cornie...
+
+
+If I'm not mistaken, the unit from Williams has a regulator.  This is not
+present on the bike tire fillers (I use one of those on my bikes).
+Shooting the entire contents of the Co2 cartridge directly into your keg
+will probably not produce the desired results ;-{>
+
+
+Be careful out there,
+Rich Scotty
+Officer in charge - Keg Pressure and Temperature Regulation - The Crapshoot
+Brewery
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 1997 08:00:03 -0800
+From: George_De_Piro`at`berlex.com (George De Piro)
+Subject: RE: Soapy beer
+
+
+     Howdy,
+     
+     Soapiness is most often associated with high fermentation 
+     temperatures.  I had a great lesson in this when a long-term house 
+     guest fermented his beer in a room where the temperature was a very 
+     constant 87F (30.5C) (he was more concerned with getting alcohol 
+     quickly then with quality).
+     
+     The resulting brew could have been used to wash out some "poorly 
+     spoken" kid's mouth!
+     
+     Some yeasts will be a bit more forgiving of high temperatures, but 87F 
+     is really up there!  It doesn't have to be that warm for the beer to 
+     turn soapy tasting.
+     
+     For what its worth, I sometimes perceive Kent Goldings as being a bit 
+     soapy, especially when used for finishing or dry hopping.  Anybody 
+     else out there ever sense this?
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+------------------------------
+End of HOMEBREW Digest #2356, 02/23/97
+*************************************
+-------

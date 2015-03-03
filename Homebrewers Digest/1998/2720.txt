@@ -1,0 +1,1447 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA07189
+        for <spencer`at`srvr5.engin.umich.edu>; Fri, 22 May 1998 01:15:02 -0400 (EDT)
+Received: from twins.rs.itd.umich.edu (twins.rs.itd.umich.edu [141.211.83.39])
+        by srvr22.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA20670
+        for <spencer`at`engin.umich.edu>; Fri, 22 May 1998 01:15:02 -0400 (EDT)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with X.500 id BAA05843; Fri, 22 May 1998 01:15:01 -0400 (EDT)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with ESMTP id BAA05834; Fri, 22 May 1998 01:14:57 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA10608 for realhomebrew; Fri, 22 May 1998 00:35:54 -0400
+Date: Fri, 22 May 1998 00:35:54 -0400
+Message-Id: <199805220435.AAA10608`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2720 (May 22, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2720                             Fri 22 May 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Secondary Impedance/SSR's/Yeast Paste ("A. J. deLange")
+  A Sad Sour Surprise ("Hunts, Jeff")
+  RE: competition cheating? / MovingBrews / pumps rated for boiling (LaBorde, Ronald)
+  labels: more later (Jeff Poretsky)
+  Oxygen Generation (Gardintl)
+  Re: Pin Lock Woes ("Mark S. Johnston")
+  Slow pour foam stand ("Jim Busch")
+  Hop Rhizomes. ("Colin Marshall")
+  Re-Pin Lock Kegs (Bob Wilcox)
+  Re: Dangers of contamination: dry vs. liquid yeast; RIMS heaters ("Matthew J. Harper")
+  re: stainless steel cleaner(s) (Jim English)
+  Re: Eric Fouch, Sensitivity Trainee (Mark_Snyder)
+  RE: Starting the starter (Marc.Arseneau)
+  Bug-no-more! and pitching rates. ("David Johnson")
+  AltBier Style Book - Question on Crystal/Caramel malt (Art Beall)
+  Nothing important (Samuel Mize)
+  Pierre Curie (Jeff Renner)
+  fruit fly eradication ("Henckler, Andrew")
+  Pectic Enzyme (Charley Burns)
+  Sorry for not replying/Weizen Volcanoes (Mike Spinelli)
+  Steam Injection and Liquid Decoction Heating (James Tomlinson)
+  pin lock poppets (John Wilkinson)
+  Poor performance of large yeast culture w/o aeration (George_De_Piro)
+  Yeast pitching rates/ wort aeration (John Wilkinson)
+  A Beer Related Post (EFOUCH)
+  Re: Scott Braker-Abene's Flame ("Houseman, David L")
+  Re[2]: Poor performance of large yeast culture w/o aeration (George_De_Piro)
+  Microbiologists? ("Jeffrey M. Kenton")
+  yeast pitch (John Wilkinson)
+
+
+
+
+BURP's Spirit of Free Beer competition is June 6-7 and entry information
+is available by contacting Jay Adams (adams`at`burp.org).
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 20 May 1998 13:33:12 -0500
+From: "A. J. deLange" <ajdel`at`mindspring.com>
+Subject: Secondary Impedance/SSR's/Yeast Paste
+
+
+I wrote: "The secondary is almost shorted in this application and thus
+the primary will look like an extremely low impedance to the mains"
+
+
+And Ron replied "No, the secondary will be an extremely low impedance,
+the primary
+impedance will be transformed to a higher impedance (hence the name,
+transformer)."
+
+
+The point is that though the primary impedance is the square of the
+turns ratio times the secondary impedance if the secondary impedance is
+much smaller than the designer intended, the primary impedance will be
+much smaller than the designer intended by the same ratio (ratio of
+kluge to design impedance - not the turns ratio here) and more current
+(ratio of design to kluge impedance) than the designer intended will
+flow. This may result in destruction of the primary winding. A 1 meter
+long piece of half inch (ID) copper tube with 1 mm wall thickness would
+have a resistance of about 0.0002 ohms. If  this is used as a single
+turn and the primary has 100 turns then the primary will see 2 ohms and
+draw 55 amps from a 110 volt line for a probable meltdown if the breaker
+of fuse didn't do its thing first. Also,  the  copper tube would have to
+dissipate 6 KW less core losses. With 314 turns on the primary the input
+impedance would go up to 20 ohms for a modest current draw of 5.5 amps
+and approximately 600 W delivered to the secondary. Much better of
+course. How many turns on the primary of the transformer to be used?
+This can, of course, be easily and accurately determined.
+
+
+Ron continues "As always, one can never have too much CYA."  I' don't
+call it CYA. I call it following proper design procedure. If you know
+how to design a transformer properly, then by all means go ahead.  I
+used to do it daily for a brief period in my career and I've blown
+transformers when I thought I could cut corners and skip the
+calculations. Transformers can be designed to withstand shorts and there
+are standards which prescribe the ways in which this is done. These
+standards were drafted to protect people from manufacturers with a  "Not
+to worry, ground the secondary coil, worst case, a blown circuit
+protector doing it's job." viewpoint. Knowing that every line I type
+here is archived I would never post a statement like that unless I had
+nothing for the lawyers to take. Now don't get me wrong. I have always
+done, and will continue to do "innovative" things and have paid,
+fortunately only in money (and no legal fees or medical fess so far). I
+just don't advertise my stupidities here. Basically I think this concept
+is a neat idea for someone who knows what he's doing (and I don't claim
+that  that's me).
+
+
+Ron also commented "A small transformer can be used as boost - buck in
+the primary...This is an old trick". It certainly is. These went out
+with the saturable core reactors I mentioned in the previous post. The
+appropriate way to do this with today's technology is to use a SSR
+(solid state relay) with the proportional output from your controller.
+These things are actually pretty inexpensive ($27 for a 10 amp device
+from Omega) and  switch when the line voltage is 0 (thus eliminating
+transient problems and noise) and interface directly with off the shelf
+temperature controllers. I'm assuming that any RIMSer worth his salt is
+going to want a pretty good PID controller in the loop and many of these
+have proportional control (not the same "proportional" as the
+"proportional" in PID) outputs.
+
+
+Simon had some additional comments on this subject. I think he
+mistinterpreted Wim's original suggestion for it appears he has
+interpreted the idea as involving winding the primary around the pipe.
+This is not the case nor would such a design be likely to be very
+effective. To see what was intended Picture a 'C' core (actually, 2 'C'
+cores end to end) with the primary winding around one leg. The wort pipe
+would then be formed into a loop around the other leg in the shape of a
+capital omega, for example. The proximal parts of the omega's  legs
+would be clamped or soldered together to make the short and the plumbing
+to and from the RIMS system attached to the pipe ends. To induce current
+all that is necessary is that the shorted coil enclose  the  magnetic
+flux path circuit and it
+does.
+
+
+* * * * * * * * * * * * * * * * * *
+
+
+Ken Schwarz talks about controll of heating elements in the more
+conventional setup. I mention again the Omega SSRs which go on and off
+in response to a TTL logic level and are only $27 for 10 amps and $37
+for 25 amp capacity. Only one's immagination limits the nature of the
+control circuits for these that could be easily put together. The most
+obvious would be someting that produced a pulse of from milliseconds to
+5 seconds with a 5 second PRI thus acheiving near 0 to 100% proportional
+control.
+
+
+* * * * * * * * * * * * * * * * * * *
+Dan McC asks " With better beer as a byproduct, why would anyone not
+practice
+this procedure?" My answer is that I do it wherever practical but it
+often isn't practical. If I'm brewing the same batch twice in a row and
+brew shortly after I unload the fermenter this is the scheme of choice
+unless one looks at the slurry and finds living things one hoped he
+wouldn't find. There's still a out here through yeast washing but that's
+a PITA and tough on the yeast.
+
+
+He also comments that there really is no other way to get high cell
+counts. One can grow up lots of paste by establishing and maintaining
+conditions under which yeast grow as opposed to ferment. I do this in a
+2.5 gal carboy which is filled with about a gallon and a half of wort
+(with nutrient). Yeast from a 1 L starter are pitched and the wort is
+oxygenated until foam reaches near the top. The DO level is monitored
+and when it approaches 0, they get another blast of O2. The process is
+repeated until you get bored or have to go to bed or some similar event
+occurs. If you do this over the course of a day or a longish evening
+session with beer friends you can grow quite a bit of yeast. As soon as
+you stop the O2 they will kick over into fermentation and, because the
+count is pretty high in there, they will generally finish pretty quickly
+and fall out. Now decant the broth, replace it with fresh wort plus
+nutrient and repeat with the O2. The only trick is to time the start of
+fermentation soon enough that the cells you've grown will have fallen
+out when you need them. Otherwise, you'll have to pitch the broth with
+the suspended cells and you don't want this broth in the beer. If you
+don't have enough time to complete a second or third oxygenation cycle,
+don't. After decanting feed a small amount of fresh wort to keep them
+fairly happy up to the time you pitch. With some experience you'll get a
+feel for the timing.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 11:56:19 -0700
+From: "Hunts, Jeff" <jhunts`at`CIWMB.ca.gov>
+Subject: A Sad Sour Surprise
+
+
+Brethren:
+
+
+I prostrate myself before you seeking guidance on a sorry situation.  I
+am but a humble, though mostly successful, extract and steeped grain
+brewer.  In anticipation of the recent Big Brew, I upgraded my equipment
+from a simple 5 gallon brewpot to a Sabco converted half barrel boiler
+with a fixed siphon so that I could share the experience with my sister
+who was coming out from San Francisco for the day.  I brewed a 5 gallon
+practice batch on May 1st to get the feel of the new system -- a hoppy
+Red Ale -- and all seemed to go well.  Cooled quickly with an enhanced
+50ft immersion chiller connected to my old 25ft chiller set as a
+pre-chiller in an ice bath.  I used stainless steel screen (ala
+SureScreen or EZMasher, take you pick) on the built-in siphon to filter
+out the whole hops and break material as I drained into a 6.5 gallon
+carboy primary.  Pitched at 65F with a couple rehydrated packs of dry
+Whitbread yeast, put the carboy in the basement, cleaned up and thought
+about doing the 12 gallons of Big Brew the next day.
+
+
+Big Brew day went great, I thought.  Per some HBDer's excellent idea, I
+used a new 30 gallon galvanized trash can with the bottom cut out
+inverted over the keg and burner for a windshield/heat conserver.  No
+problem maintaining a rolling boil even at low throttle.  Chilling went
+surprisingly fast with the pre-chiller, and though the 12 plus ounces of
+hops in the pot held onto a lot of wort, we filled two 6.5gal carboys
+with 5.5gal each. I sent my sister home to SF that night with a carboy
+just beginning to foam.
+
+
+Fast forward to last night:  I finally found some time to do some
+racking, so I was going to keg the May Day Red with a 1/2oz of whole
+Cascades (SS screen on liquid out tube, works great) and transfer to
+secondary the Big Brew ("should I add Champagne yeast....?") for its
+long rest.  I did the Red first, and when I tasted the final pint after
+the keg was full I thought "SOUR! Oh No!! This doesn't happen to me!"
+Well, you guessed it.  When I tasted the Big Brew upon transfer it too
+had a distinct SOUR flavor.  Lactobacillus? Wild yeast?
+
+
+In 50 or so batches over the last several years I have been lucky not to
+experience the sinking feeling of infection.  I tend to be thorough
+about sanitation, with only idophor or bleach sanitized equipment
+touching cooled wort or green beer (save for the dry hops).  The
+ferments on both were quick and vigorous.  I guess my question here is
+what is the most common pathway for a souring infection?  Airborne? (I
+haven't brewed outside before.)  Some tenacious nook in equipment?  For
+all of you who work with drain ball-valves, do you assume the heat of
+the boil will sanitize the inner workings, assuming you cleaned up well
+from the previous batch.  Maybe it was in simply getting out of my tried
+and true routine that I missed something.  
+
+
+I need to read up on and buy some Belgium ales now, to see what I've
+made.  Thanks for letting me cry in my beer.
+
+
+Jeff Hunts
+Puckering and wondering in Sacramento
+jhunts`at`ciwmb.ca.gov
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 14:24:18 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: competition cheating? / MovingBrews / pumps rated for boiling
+
+
+>From: "Keith Royster" <keith`at`ays.net>
+
+
+>So I decided to spruce it up a bit by adding a 12oz bottle of 
+>grenadine and a few cups of some fruit flavored liqueurs, which 
+>turned out nicely I think.  My question is, what if I decided to 
+>enter this mead (or similarly doctored brew) in a competition?  Does 
+>that fact that I added a *pre-fermented* beverage to my mead/brew 
+>preclude it from being entered in a competition?  Or would it not be 
+>considered cheating as long as I kept it below a certain level?
+
+
+Good question.  Since I have no special bias for or against this, let me
+take a personal opinion.
+
+
+When you submit the entry and fill out completely the registration/entry
+form, complete with recipe and techniques, the onus is on the acceptor
+to accept or reject the entry.  Passing on to the judging table through
+competence or incompetence, your entry is valid in my opinion.
+
+
+I have made a nice orange wine, and considered entering it as a fruit
+beer.  Upon reading the entry form, however, it clearly indicated that
+barley need be one of the basic ingredients, so I did not submit.  I
+wonder what would have happened had I sent it in.  What is to prevent
+one from simply re-capping any commercial beer (hey now - I didn't say
+you would win)?
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 16:26:58 -0400 (EDT)
+From: Jeff Poretsky <jeffp`at`access.digex.net>
+Subject: labels: more later
+
+
+Thanks for all the advice.  Over the  next few days I'll try some of the 
+suggestions.  I have enough commercial brew with both paper and foil to 
+test the different methods without loosing any labels I might want to
+keep.  When finished, I'll probably scan them and put them on my web page.
+
+
+Also.  I've had Ursa Major Stout conditioning now for about 3 months.
+(taken from cat's meow 3).  It is just starting to become drinkable.  Some
+friends at a recent party all liked it.  Can't wait to see what it'll be like 
+in early fall.
+
+
+JeffP
+jeffp`at`technologist.com (preferred, I forgot last time)
+
+
+Grey Dayn Brewing
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 17:39:46 EDT
+From: Gardintl <Gardintl`at`aol.com>
+Subject: Oxygen Generation
+
+
+        Has anybody out there had any experience in oxygenating their wort by
+generating oxygen from hydrogen peroxide?  I searched the archives and found a
+lot of articles dealing sanitation and a few dealing with oxygenation via
+adding hydrogen peroxide directly to the wort (not what I had in mind).  I was
+thinking of a separate flask with H2O2 (3%) and a single hole stopper fitted
+with some tubing (with a micron filter) and an air stone. Add some sort of
+compound to start the decomposition then let'er rip. That should generate pure
+O2 providing you don't overpressure the flask or generate enough heat to boil
+the water (doubtful with 3%).  Besides the overpressure and exothermic heat
+problem I could foresee a problem with over oxygenation. Does anyone know at
+what ppm level oxygen becomes antiseptic?  
+        Well anyway thats the idea, if anyone has any information on this I'd like to
+hear from them.
+
+
+TIA
+Tom Gardin
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 17:56:42 -0400
+From: "Mark S. Johnston" <msjohnst`at`talon.net>
+Subject: Re: Pin Lock Woes
+
+
+>I have been unsuccessful in locating replacement poppets for these kegs. 
+
+
+>One source told me that these were proprietary parts, and that there was
+a
+>legal problem here.
+
+
+>Can anybody in HBD-land shed any light on this subject???  Should I dump
+>these kegs and start over?
+
+
+There are sources for these poppets. I believe that Fox carries them, as
+well as a few others. Your homebrew supplier should be able to order some.
+I've also seen available just the seat rings -- some of these poppet
+designs apparently allow for replacable seats.
+
+
+I've replaced a few poppets on my ball-lock kegs already. What a pleasure
+to have leak-free kegs again.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 18:24:46 +0000
+From: "Jim Busch" <jim`at`victorybeer.com>
+Subject: Slow pour foam stand
+
+
+GDP  notes on slow pours:
+
+
+>   and a more stable head of partially solidified foam will result. 
+
+
+And Ludwig asks about the Guinness effects with slow pours.  This is 
+the same general result as a classic 12 minute German Pils slowpour.  
+The main diff is that Guinness is of course driven with Nitrogen 
+while the Pils is usually not.  This is still one of my favorite ways 
+to tap a good pils.   (But order an Export first so you can drink one 
+while waiting....)
+
+
+Prost!
+
+
+Jim Busch
+Colesville, Md.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 10:17:36 +1000
+From: "Colin Marshall" <byoah`at`argay.com.au>
+Subject: Hop Rhizomes.
+
+
+Here in Australia, we are unable to obtain hop flowers other than locally
+grown Pride of Ringwood and New Zealand Saaz, Hallertau Triploid and
+Cluster. I would like to grow my own, as we have a great climate for hop
+production ( cold winters, hot summers). Does anybody know where I can
+obtain rhizomes from such hops as Saaz, Hallertau, Fuggles, Goldings,
+Cascade and Hersbrucker? Are there any customs/quarantine problems?
+
+
+Colin Marshall
+Kambah Village,
+Canberra
+Australia.
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 20:10:09 -0700
+From: Bob Wilcox <bobw`at`sirius.com>
+Subject: Re-Pin Lock Kegs
+
+
+Hi Randy
+
+
+I have Pin Lock Kegs and got replacement parts, Poppets and o-rings from
+Williams Brewing in San Leandro Calif. Check there Wep Page at
+http://www.williamsbrewing.com  I dont have any intrest in Williams just
+buy stuff some times.
+
+
+Bob Wilcox
+Long Barn Brewing
+Long Barn & Alameda Ca.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 07:13:45 -0400
+From: "Matthew J. Harper" <matth`at`progress.com>
+Subject: Re: Dangers of contamination: dry vs. liquid yeast; RIMS heaters
+
+
+Matthew Arnold discusses the merits of liquid vs dry yeast and
+their contamination levels.  He asks a question & states his concern:
+
+
+>My question is: where is the greater danger? Using dry yeast which may be
+>contaminated, but doesn't need a starter due to the large amount of viable
+>yeast, or, using liquid yeast which will need to be stepped up a couple of
+>times (with the chances of contamination that come in with every step)?
+
+
+>My main concern would be with the first step-up from smack-pack to starter.
+>Obviously, that's the smallest number of cells and thus the greatest chance
+for
+>an infection to overrun the starter. It would seem to be that the primary
+>benefit of "pitchable" yeast (whether Wyeast XL or White Labs) would be
+helping
+>to eliminate the possibility of an infection taking hold in that first
+starter.
+
+
+
+
+Nice name Matthew! :-)
+
+
+I personally believe you're making a bad assumtion above:  Dry yeast
+packs do *not* contain enough cells to achieve a proper pitching rate
+(nice way to tie to threads together, huh? :-)  This means you *should*
+still make a starter *or* pitch several packs of dry yeast.
+
+
+I went to liquid cultures (Wyeast, etc) for several reason:
+
+
+1. Cleaner strains of yeast
+2. More options for more styles
+3. If I had to make a starter anyway, might as well use the best
+   yeast for the starter foundation.
+
+
+It took me a while to realize (and I don't believe I've read it anywhere,
+so I may be wrong and may be chastized for the idea) but your concern is
+just one of the reasons to have the initial starter be comprised of a
+small volume of wort.  That way the little yeasties have a higher
+concentration
+by volume.  Once that starter is complete, step it up in volume for the
+next one.
+
+
+I'm do believe most homebrewers under-pitch, and that those who do not
+today *used* to under-pitch before they got clued in to the benefits and
+reasons for pitching a good does of yeast.  Yeah, I do usually step up
+3, sometimes 4, times before brew day (4 would be when it gets postponed...)
+but, like others, I've seen my fermentations take off, finish sooner and,
+it seems, mature faster & with fewer off flavors.
+
+
+
+
+You don't need a laboratory for this stuff.  A well cleaned and sanitized
+area away from drafts, animals and small children will generally be
+sufficient.  I'd be more concerned with underpitching than a spoiled starter
+if good practices are followed.
+
+
+
+
+RIMS Heaters:
+
+
+Thanks *much* to everyone who posted or sent me private email regarding
+others ideas for a RIMS heat chamber.  The induction method is quite
+different, though a bit more than I'd like to take on at the moment,
+especially since I don't recall *that* much from my circuits classes!
+
+
+'Nother possibility:
+
+
+If the wort is moving at a sufficient rate through the pipe, could not one
+just place one or two bunson burners under the pipe to heat it?  Not
+something
+I'd want to fully automate of course, but if I'm hanging nearby anyway...
+
+
+(Please don't reply with concern for the open flame... There's enough
+flames under my brewpot to cause some real damage if something is going
+to happen! )
+
+
+Thanks much!
+
+
+TTFN
+
+
+ -Matth
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 07:39:40 -0400
+From: Jim English <jimebob`at`mindspring.com>
+Subject: re: stainless steel cleaner(s)
+
+
+In response to Marc and Stacey's posts, I think they are talking about
+the same thing.  Barkeeper's Friend IS a scouring powder, similar to
+Ajax/Comet except it contains no Chlorine or derivatives thereof, making
+it safe for SS.
+Another product, same form and container design as BKF, and the other
+no-no's listed earlier, is Bon Ami.
+I believe both of these powders have whatever abrasive the other
+chlorinated products have in them, without the Cl.
+
+
+Latron
+
+
+JRE
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 06:44:11 -0500
+From: Mark_Snyder`at`wastemanagement.com
+Subject: Re: Eric Fouch, Sensitivity Trainee
+
+
+
+
+
+
+
+
+Mark Snyder`at`WMI
+05/21/98 06:44 AM
+Eric:
+
+
+Here, Here!!!
+
+
+There should never have been a need to explain!
+
+
+Mark Snyder
+Marietta, Georgia - a long way from Jeff
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 05:29:19 -0400
+From: Marc.Arseneau`at`fluordaniel.com
+Subject: RE: Starting the starter
+
+
+     >From: Jay Spies <spiesjl`at`mda.state.md.us>
+     
+     >I am having a hell of a time trying to figure out the
+     >correct ratio of DME to water.
+     
+     For yeast starters, my general rule of thumb is to use 1 TABLESPOON of 
+     DME for every 100 ml water. (or 10 Tablespoons per liter)
+     
+     No, I don't know what hydrometer reading this makes.
+     
+     But I do know that it works for me.  Just make sure you aerate.  Also, 
+     the DME tends to dissolve better if you boil the water (which you 
+     should be doing anyway to sterilize it).  I typically boil for a few 
+     minutes, curse when I miss the hot break and mess up the stove, and 
+     then I sit the sauce pan in a sink full of cold water to chill it back 
+     to room temperature.  Splash the cooled wort for a while to aerate it, 
+     and your yeast starter is ready!
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 08:06:43 -0500
+From: "David Johnson" <dmjalj`at`inwave.com>
+Subject: Bug-no-more! and pitching rates.
+
+
+Brewers,
+        Thanks for all the suggestions about my bug problem. I arrived at a
+solution that appears to have worked. I must admit I was reading my own
+post for errors, when I noticed my last line about my computer screen. I
+was inspired to go out and get the electric bug zapper that never worked
+for the purpose I bought it for and set it up. Although it had been sitting
+in my garage for 10 years, it started right up. I then went to work
+expecting better solutions from my post. I just had to try something while
+I was waiting! I was overjoyed to return home to the smell of burning bug
+flesh, the sight of their cadaverous remains, and the wailing of their
+children.
+        I thought I would share the solution.
+        On another note, with this talk of pitching rates, I thought I would offer
+a data point. Last summer I prepared two batches of weizen in series with
+Wyeast 3068. The first was made with a regular size starter the secon was
+pitched with a quart of yeast harvested from the first. They were entered
+in the same competition and were judged by the same judges who commented on
+the excellent clove character of the first and docked the second for not
+enough. Both were fermented the same with the same aeration and
+temperatures. 
+        Dave the Barbarian.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 09:15:02 -0400
+From: Art Beall <bealla`at`bellhow.com>
+Subject: AltBier Style Book - Question on Crystal/Caramel malt
+
+
+I've been reading the new Altbier book, which I
+find a very good read. When reading the section on
+ingredients, the author mentions crystal/caramel
+malt together, not making a distinction. In the
+recipe section however, one of them uses both
+crystal 60L and caramel. Does someone know the
+difference between crystal and caramel ?
+Especially in this context. I've heard that Breiss
+and Durst "crystal" type malts are not produced
+the same, using different types of barley, giving
+different qualities to the resulting beer. This
+subject came up last Aug-Sept 97. General
+consensus was that everybodys crystal is
+different, and most crystal malts are completly
+sachrified. Any more information available ?
+
+
+Thanks
+
+
+Art Beall
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 08:27:41 -0500 (CDT)
+From: Samuel Mize <smize`at`prime.imagin.net>
+Subject: Nothing important
+
+
+It's a slow day...
+
+
+> From: Joe Rolfe <onbc`at`shore.net>
+> Subject: Re: pumps 
+> 
+> just one word of caution while using any pumps in a
+> brewer (small or large).
+
+
+My Drokk, I hope he meant brewery.
+
+
+>Be very carefull of the discharge
+> outlet and pressure.  I would suggest hard plumbing the 
+> outlet of the pump over soft hose in ALL cases.  Hot wort/caustic
+> and acid can cause quite a bit of discomfort (putting it mildly).
+
+
+No doubt.
+
+
+> if you do choose to soft plumb insure you have a quick exit
+> from the area in the event of a hose bursting or a coupling
+> coming loose.  
+
+
+You must have seen some of the bar men's rooms I've seen...
+
+
+Best,
+Sam Mize
+
+
+- -- 
+Samuel Mize -- smize`at`imagin.net (home email) -- Team Ada
+
+
+  "Hey Frank -- another bushel of green apples for the Clydesdales!"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 09:55:30 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Pierre Curie
+
+
+rlabor`at`lsumc.edu (LaBorde, Ronald) wrote:
+
+
+>The Curies played around with radiation, discovered x-rays, became great
+>famous scientists, changed the world as we know it, but killed
+>themselves eventually in the process
+
+
+As I recall (from reading a young people's biography maybe forty years
+ago), Pierre Curie's death in 1906 was caused by a much larger particle, a
+runaway carriage (or was it one of those newfangled horseless carriages?)
+on the streets of Paris, although he was weakened by radiation sickness
+from playing around with radium.  (I wonder what the wave properties are of
+a runaway carriage?)
+
+
+X-rays were discovered earlier (1895) by Roentgen, not the Curies, who
+discovered radium and polonium.
+
+
+You can't get away with anything around here. ;-)
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 10:30:43 -0400
+From: "Henckler, Andrew" <ahenckler`at`findsvp.com>
+Subject: fruit fly eradication
+
+
+Hi All:
+
+
+Just a quick tip to help you rid yourselves of fruit fly infestations.
+Put out an open bottle of cider vinegar.  The fruit flies flock to it
+(can't resist that aroma, I guess) and drown in the cider, rather like
+slugs in pans of cheap beer.  Very quickly, you have no infestation!
+
+
+
+
+Andrew P. Henckler
+Senior Research Analyst
+Industrial Products & Services Practice
+Strategic Consulting & Research Group
+FIND/SVP-THE BEST PEOPLE TO FIND THE ANSWERS
+
+
+625 Avenue of the Americas
+New York, NY  10011
+
+
+Tel:      (212) 807-2754
+Fax:      (212) 807-2782
+E-mail:  ahenckler`at`findsvp.com
+Web:    http://www.findsvp.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 98 07:53 PDT
+From: cburns`at`egusd.k12.ca.us (Charley Burns)
+Subject: Pectic Enzyme
+
+
+Several people responded with my request for assistance with getting rid of 
+the strawberry haze, all with the suggestion of using pectic enzyme. I 
+switched computers and lost a BUNCH of emails (sloppy work, no excuse) and I 
+can't ask them HOW. What exactly do I do with the pectic enzyme when I get 
+it? The beer is already carbonated in the keg. Do I boil the enzyme (doesn't 
+sound good) or just dump it into the keg? Do I keep it cold and carbonated 
+or do I decarbonate and warm it up, or just warm it up, or....
+
+
+Charley (hazed and confused again) in N. Cal
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 98 10:58:31 est
+From: paa3983`at`dscp.dla.mil (Mike Spinelli)
+Subject: Sorry for not replying/Weizen Volcanoes
+
+
+HBDers,
+thanks to all those replying to my Q's regarding the bench
+capper and steam injection.  I wish I could reply individually
+but all your replys are being sent to our new Exchange system
+which my PC doesn't yet have.  I've gotta go to friend's PC to 
+retrieve your replys.  Whatta PITA.
+******************************************
+Is it just me or have any of you noticed that the recently bought
+German hefeweizens are WAY MORE carbonated than I've 
+remembered last summer.  I've had both Erdinger hefeweizen 
+and Kuchelbauer Dunkelweizen and even though I carefully
+pour the beers into German weizen glasses, the head blows out 
+over the top before I've even poured the yeast sediment in.  Maybe
+it's just really fresh or something.
+
+
+Mike Spinelli
+Cherry Hill NJ
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 11:09:52 -0400
+From: James Tomlinson <73321.1130`at`compuserve.com>
+Subject: Steam Injection and Liquid Decoction Heating
+
+
+In HBD2719, Mike Spinelli asked:
+
+
+"I plan on using the steam to increase the temps. in 60 pound mashes."
+
+
+I just calculated the amount of steam to be used with 10 lbs of mash
+with 1.33 qts per pound for someone else. I found that you would end up
+boiling and condensing 1 oz of water for every 2 degrees F of
+temperature change. You would have to scale this by 6 and all bets off
+for different mash thicknesses. His question had to do with thinning the
+mash.
+
+
+Andrew Avis asked about liquid decoction to raise mash temp.
+
+
+I do this for mash out. I use a picnic cooler and use multiple infusions
+to reach my desired temperature rests. Since I don't want to thin my
+mash anymore, I pull about 50% of the liquid I have added to the mash,
+after conversion is complete, bring it to a boil and then immediately
+add it to the mash. I do add it a quart od 2 at a time, so I don't
+overshoot. The issue with using it to raise temp to conversion is
+denaturing the enzymes. Past conversion (Mashout) denaturing the enzymes
+is not issue. Also, don't worry about carmalizing the liquid. Just stir
+well and don't let it boil long.
+
+
+What I'd suggest is this: Knowing that you can't get 6 gallons in with
+21lbs, go for a slightly thicker mash for conversion, then do a liquid
+lautered decoction mashout.
+- -- 
+James Tomlinson
+remove the "no.spam" to reply
+
+
+Give a man a beer, and he wastes an hour.  
+But teach a man how to brew, and he wastes a lifetime!
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 98 10:21:53 CDT
+From: jwilkins`at`wss.dsccc.com (John Wilkinson)
+Subject: pin lock poppets
+
+
+Randy A. Shreve asked about availability of pin lock poppets.
+Williams Brewing (800) 759-6025 and South Bay Homebrew Supply (800) 608-BREW
+show them in their catalogs.  My South Bay catalog is a couple of years old
+but back then they had the best selection of keg parts I have found.
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`wss.dsccc.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 09:03:22 -0700
+From: George_De_Piro`at`berlex.com
+Subject: Poor performance of large yeast culture w/o aeration
+
+
+     Hi all,
+     
+     John tells us a courageous story about how he pitched an apparently 
+     huge amount of Wyeast 1968 into a batch of unaerated wort and got a 
+     stuck fermentation.  He is wondering why this happened, because 
+     current theory says that you need not aerate if you overpitch.
+     
+     John leaves out some very important information, but the result of his 
+     fermentation provides some clues:  At what point during the initial 
+     ferment did you harvest?  How was the yeast stored?  How long was it 
+     stored?  You would be amazed at how quickly the yeast can start to die 
+     after fermentation is over and after harvesting.
+     
+     If you have a microscope and some methylene blue you can easily do a 
+     viability estimate on your pitching yeast.  You may find significant 
+     cell death after just a week of storage under fermented beer in a 
+     fridge.
+     
+     You actually may have been (and probably were) underpitching.  If you 
+     do want to play with omitting wort aeration, the best thing to do is 
+     to harvest yeast immediately after primary fermentation is complete 
+     and repitch it as soon as possible.  In this way you are more assured 
+     of a large, viable culture.  Every day you delay is killing off cells.
+     It's all quite tragic.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 98 11:55:38 CDT
+From: jwilkins`at`wss.dsccc.com (John Wilkinson)
+Subject: Yeast pitching rates/ wort aeration
+
+
+George DePiro had some questions about my process in the story I told of
+apparently overpitching to an non-aerated wort and experiencing a high FG
+(1.020).  As usual, I left out some necessary details.  I didn't harvest this
+yeast from a previous batch but grew it as a starter.  I stepped the starter
+3-4 times in a gallon jug, oxygenating with O2 and a SS aeration stone at each
+step.  On brew day I decanted the clear wort over the yeast cake, ran fresh,
+cooled wort from the CF chiller to the jug (about 1/2 gallon), oxygenated with
+O2, and set aside while I cleaned a fermenter.  Before I was ready to pitch
+(less than an hour) the starter jug was blowing foam out.  The starter was very
+active.  Under the circumstances, I didn't feel it necessary to aerate the wort.
+The following batch I poured my fresh chilled wort onto the residue from the
+first batch and oxygenated.  This batch achieved the 75% apparent attenuation
+I usually get with Wyeast 1968 in a well aerated wort.
+
+
+What I don't understand is that George has stated, I think, that the yeast will
+divide three times and need the oxygen for healthy growth.  This sounds as if
+the growth is inevitable.  However, Tracy Aquilla wrote, I think, in his BT
+article that yeast growth in the wort was not desirable due to by products.
+Is the growth inevitable or not?  If inevitable then it would appear we are
+going to have the undesirable by products of growth whether we aerate or not.
+Which is it?  Should we aerate the wort with a large pitching rate or not?
+
+
+I appreciate George's point about yeast viability and perhaps my yeast cake was
+not entirely of live yeast, even though the starter had not gone over three days
+without feeding.  I have used the yeast cake in the fermenter after the beer had
+been on it as much as three weeks at fermentation temps (63F) without problem
+but I aerated or oxygenated and probably there was so much yeast it didn't have
+to all be viable.
+
+
+I never harvest yeast for pitching later, by the way.  I use the yeast from the
+previous ferment directly or use a large starter.
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`wss.dsccc.com
+
+
+
+
+------------------------------
+
+
+Date: 21 May 1998 13:03:17 -0400
+From: EFOUCH`at`steelcase.com
+Subject: A Beer Related Post
+
+
+
+
+HBD-
+I checked out Robert Arguellos Beer Gadget page
+(www.calweb.com/~robertac/bulkdesc.htm).
+
+
+It looks like a very stout assembly (for your Stout assemblies?).
+
+
+Here's what I did- I picked up a replacement plastic bottling bucket spigot
+from the homebrew shop ($2.50- the shop clerk knew right where they were),
+reamed the hole for the stock Gott spigot a little larger, and with a little
+silicone sealant, tightened the whole mess in place.  I fashioned a CPVC
+ladder style slotted manifold (four rungs) out of 1/2" CPVC, and brewed a 7
+gallon batch with it last night (after my golf date- Emperor 1, Me 0).
+
+
+The 1/2" CPVC fits in the exit (entrance?) hole on the spigot loosely, but is
+sized to wedge in against the opposite wall of the Gott.  Stays put, 'till I
+dump it out on the compost pile.
+
+
+It worked quite well.  Instead of batch sparging, I was able to fit quite a
+bit of water over top of the grain bed, and keep it topped up to the end of
+sparge.
+
+
+EricFouch
+Bent Dick YoctoBrewery
+Kentwood, MI
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 13:57:33 -0400
+From: "Houseman, David L" <David.Houseman`at`unisys.com>
+Subject: Re: Scott Braker-Abene's Flame 
+
+
+In yesterday's HBD Scott Braker-Abene flamed on about the AHA and its
+competitions, apparently without the vaguest idea of what he was talking
+about.  To make statements like "Well this is because it is easier to
+screw up your beer with someone else's
+and get it into another category in the first round" indicates that he
+is totally unaware of the procedures and processes used in the AHA first
+round, or for that matter in any round, of the National Homebrew
+Competition.
+
+
+His flaming didn't really apply to the AHA to the good judges and
+organizers who organize and judge the first round competitions around
+the country.  Perhaps Scott was burned by not having his great beer
+managed or judged properly, but then these things do happen.  
+
+
+I've participated in a number of first round competitions as a judge.
+Although I haven't been the organizer, I know a number of them and have
+been around to see the work and efforts that went into such a large
+competition.  It was a very thankless job but they all rose to the
+occasion.  These are brewers and judges just like the rest of us.  They
+aren't part of the AHA except as members perhaps.  They are volunteers
+who love what they do.  It certainly isn't for the money!!!   
+
+
+So in attempting to slam the AHA Scott was throwing the crap at the
+volunteers and judges who in almost every case are BJCP.   It may have
+made him feel vindicated to use name calling ("weazles [sic]") but it
+certainly is misplaced anger.  From the large competitions that I have
+organized, I know that the error rate for having beers end up in the
+wrong category is MUCH greater by the entrant than the organizers.
+What makes me particularly suspicious here is that he says that he has
+entered three times and they have screwed up his entry in one way or the
+other every time.  Hummmm...perhaps he can't read the directions...even
+if he does claim to have Xerox copies of his entry forms?
+
+
+To quote another slur at all those good judges, many of us readers of
+HBD, "AHA nationals uses the term evaluate and judge very loosely."  I
+know that the judges, BJCP, know quite well what the terms evaluate and
+judge mean and it is not taken lightly by any of us that I'm aware.   If
+he has an issue, as he obviously does, with the judges that happened to
+have judged his beers, he should be taking that up with the BJCP who
+certifies the judges.  There has been considerable bandwidth on JudgeNet
+and occasionally on HBD about providing style certification.  If a
+workable solution can be found then great, but the place to vent about
+the judges isn't the AHA who has nothing to do with the training,
+certification or selection of the judges in the NHC.  It's only in the
+second round and the BOS that the AHA's staff even has control of the
+judging assignments.  Vent at the organizers if that's the problem.
+Vent at the better judges for not judging the NHC perhaps.  There are
+other valid reasons to bitch to the AHA, for example the price of the
+entries -- at least that's something they control.    
+
+
+Finally, Amahl replied on this forum with the justification for one
+bottle needed for the first round and the three bottles needed for the
+second round.  Sound reasoning and not because anyone wants to manage
+and handle 3 bottles for the fun of it.  If anyone wanted the bottles,
+it'd be far cheaper to go and buy them. 
+
+
+I for one read this forum for the information content, not the flaming,
+no matter who it's targeted at.  
+
+
+Dave Houseman
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 14:06:04 -0700
+From: George_De_Piro`at`berlex.com
+Subject: Re[2]: Poor performance of large yeast culture w/o aeration
+
+
+     Hi all,
+     
+     John proves my first theory wrong by telling us that the yeast was 
+     freshly cultured in a gallon jug.  He said he grew it up in 3 or 4 
+     steps.  On brew day he poured the clear, fermented wort off the yeast 
+     and fed and aerated it.  He then pitched without further aeration.
+     
+     Here is my next best guess:
+     
+     I grow yeast in a very similar manner.  In his original post John said 
+     that the yeast slurry was 1 inch thick.  While it may look that thick 
+     if you just look in from the side of the jug, it really isn't even 
+     close to that.  The yeast tends to stick to the glass on the lower 
+     part of the side of the jug, giving the illusion of a thicker yeast 
+     cake.
+     
+     As Dan M. noted, a starter made up in this way will have the minimum 
+     number of cells necessary for a good fermentation with aeration.  It 
+     is nowhere near enough yeast to pitch without aeration.  That is why a 
+     hemacytometer is so much more useful than trying to estimate yeast 
+     cake thickness or consistency.
+     
+     You can minimize yeast growth in the fermenter by pitching a lot of 
+     freshly harvested yeast and not aerating, but if you are going to try 
+     this trick you have got to pitch a lot of yeast!  Because the yeast 
+     will have great population density and a relatively low amount of 
+     sterol (with no O2 to make more), their growth will be minimized yet 
+     they will ferment out the wort.
+     
+     Other ways to minimize yeast growth include fermenting under CO2 
+     pressure and keeping the temperature low.  There are so many ways to 
+     play!
+     
+     One quick caveat to folks, because it's sort of related to this stuff:
+     
+     I recently had a Weizen fermentation stick on me.  The forced 
+     fermentation showed that the FG should have been 1.012, but it was 
+     stuck at 1.020.  The "sister batch," from the same cast-out wort but 
+     fermented with a different yeast, was OK.  What happened?
+     
+     Well, I aerate by sticking the stainless stone into the wort and 
+     letting O2 run in for 1.5 minutes/20 L (or so).  This particular day, 
+     I did just that, but the O2 tank was nearly empty and the pressure was 
+     dropping by the time I started on the second fermenter.  Although gas 
+     flowed the entire time, I guess it wasn't quite enough.  Most 
+     annoying.
+     
+     The lesson is that time isn't enough, you must be sure that the flow 
+     of gas is strong, too.  A flow meter would be useful.  Anybody know 
+     where you can get one cheap?
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 15:43:23 -0500
+From: "Jeffrey M. Kenton" <jkenton`at`iastate.edu>
+Subject: Microbiologists?
+
+
+Howdy,
+If there are any microbiologists out there, could you please suggest some
+recipes for yeast growth media? I just took a job where I have access to
+incubators at various temp regimes, lab equipment, and the mother of all
+lab equipment, an autoclave. Looking forward to any responses by private
+email.
+
+
+Thanks,
+
+
+Jeff
+
+
+Jeffrey M. Kenton    jkenton`at`iastate.edu
+Ames, Iowa           brewer`at`iastate.edu
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 98 15:50:33 CDT
+From: jwilkins`at`wss.dsccc.com (John Wilkinson)
+Subject: yeast pitch
+
+
+I think George DePiro is right about my probable erroneous estimate of yeast
+quantity.  I didn't take into account that the yeast tends to stick to the sides
+abnd appear to be thicker than it really is.  Also, I think there is a slight
+dome to the bottom of my starter jug.  I had a lot of yeast but probably not
+enough to skip aerating the wort.  I still don't fully understand the issue of
+yeast growth and undesireable by products.  Is the yeast growth and subsequent
+production of unwanted by products controlled by the oxygen level of the wort?
+If a sufficient quantity of yeast is pitched without aeration of the wort will
+the yeast not grow and produce those by products?  If the wort is overpitched
+but aerated will the yeast grow even more and produce those by products?  I
+would think that the oxygen was like nutrient and the yeast would not grow
+without it unless there was a substitute.  Doeesn't the cold break provide a
+substitute?  If so ( alot of assumptions are building here), wouldn't the wort
+need to be unaerated and free of cold break to prevent yeast growth?  Would that
+even prevent it?
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`wss.dsccc.com
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2720, 05/22/98
+*************************************
+-------

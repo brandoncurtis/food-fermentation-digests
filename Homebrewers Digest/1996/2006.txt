@@ -1,0 +1,1073 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id DAA09865 for <spencer`at`srvr5.engin.umich.edu>; Tue, 9 Apr 1996 03:16:09 -0400 (EDT)
+Received: from twins.rs.itd.umich.edu (twins.rs.itd.umich.edu [141.211.83.39]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA24372 for <spencer`at`engin.umich.edu>; Tue, 9 Apr 1996 03:16:08 -0400 (EDT)
+Received: by twins.rs.itd.umich.edu (8.7.4/2.2)
+        with X.500 id DAA04754; Tue, 9 Apr 1996 03:16:08 -0400 (EDT)
+Received: from hplb.hpl.hp.com by twins.rs.itd.umich.edu (8.7.4/2.2)
+        with ESMTP id DAA04721; Tue, 9 Apr 1996 03:15:59 -0400 (EDT)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Tue, 9 Apr 1996 08:09:55 +0100
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA12628; Tue, 9 Apr 1996 01:00:06 -0600
+Date: Tue, 9 Apr 1996 01:00:06 -0600
+Message-Id: <9604090700.AA12628`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #2006 (April 09, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #2006                             Tue 09 April 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  lagering temperature stratification (Kathy Booth)
+  Brown Oxide Ale (Paul Ward)
+  Malt Mills (Robert Servranckx)
+  Wyeast 1968 andthe incredible extraction machine... ("Pat Babcock")
+  Re- Reculturing Triples/Sai ("Mark Tomusiak")
+  Odd Hop Varities ("Clark D. Ritchie")
+  hot/cold break-dissolving? (Charlie Scandrett)
+  my water treatment error (Rob Lauriston)
+  Stella (Glenn Raudins)
+  competition reminder (Ray Brice)
+  Historical Trivia ("Olson, Greger J - CI/911-2")
+  Sources for a large (30qt or so) pressure canner for sterilization (Murray Anderegg)
+  Griping and grousing. (Russell Mast)
+  Wyeast Ale Test (dhvanvalkenburg)
+  Using a 2ndary/irish moss/ups (charles epp)
+  Old yeast into boil? (P. Edwards)
+  UPS, hopping liberty ale and achor steam (HOMEBRE973)
+  Archive file decompression (Orval Jewell)
+  Re: Search and Seizure (Tidmarsh Major)
+  Louvier's water analysis (Raymond Louvier)
+  Dilute Bleach Solution (Mike_Bell)
+  Resuspension of break material... ("Pat Babcock")
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 8 Apr 1996 07:42:42 -0400 (EDT)
+From: Kathy Booth <kbooth`at`isd.ingham.k12.mi.us>
+Subject: lagering temperature stratification
+
+
+        Greetings.  The chest freezer I lager in went kaput and I'm 
+trying to chill by freezing plastic milk containers of water in an 
+upright and then placing them in the broken chest freezer.  The 
+temperature at the top of the fermenters is 49 degrees F and at the 
+bottom the temp is 38 d F.  
+
+
+        As the yeast is more at the bottom, is that the effective lagering
+ temperature?  Has anybody lagered under similar circumstances of 
+stratified temperatures and how did it work out?   Thanks and Cheers Jim 
+Booth, Lansing, MI
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 09:50:20 -0400 (EDT)
+From: Paul Ward <paulw`at`doc.state.vt.us>
+Subject: Brown Oxide Ale
+
+
+OK, I'm stupid at times, I'll admit it, but jeesh.....
+
+
+I had brewed Papazian's Elbro Nerkte, followed directions to the
+letter this time, and was feeling really good about the beer.  It
+looked and smelled fantastic as I was bottling yesterday, maybe a
+little too sweet, I have to improve my hop utilization.
+
+
+Anyway,...after bottling about 24 bottles I slapped my forehead
+and said, "Oh, shucks!" (or something to that effect).  I forgot
+to add priming sugar (how do you spell 'DOH!').  Being a creature
+of habit, I imediatley threw my 3/4 c. corn sugar into 2 cups of
+water and set it on to boil as I uncapped 24 bottles of beer. 
+Now at this point it dawned on me that, had I kept the sugar as
+powder, I could have just added some to each of the bottles, and
+then boiled the rest to add to the bottling bucket.  Sigh.  So I
+did the next illogical thing and emptied the 24 bottles of beer
+back into the bottling bucket, assuring that all 5 gallons would
+be equally oxidized.  I added the cooled sugar solution, stirred,
+and re-bottled.
+
+
+So anyway, I now have 5 gallons of oxidized brown ale.  What's it
+gonna taste like?  Should I plan on drinking this one quickly, 
+letting it age longer to mellow out, or just quitting and giving
+it away?
+
+
+Am I going to have to turn in my learner's permit?
+
+
+Paul (Gump) Ward    paulw`at`doc.state.vt.us
+
+
+- -- 
+If vegetarians eat vegetables, what of humanitarians?
+
+
+------------------------------
+
+
+Date: Mon, 08 Apr 1996 10:33:22 -0700
+From: Robert Servranckx <Robert_Ser`at`ceo.sts-systems.ca>
+Subject: Malt Mills
+
+
+Fellow HBDers,
+ 
+I am looking to purchase a malt mill. My local homebrew supply shop
+has two that are within my price range: a PhilMill (125$ Cnd) and a 
+three-roller Italian mill (95$ Cnd). I've previously used the PhilMill
+and like its results, but I've never heard of this three-roller
+Italian mill... So, before dishing out an additional 30$ for a PhilMill,
+I thought I'd give the collective a chance to comment on the three-roller
+Italian mill first... Has anyone used this mill before and is it any good
+and worth the money? I love to get some feedback...
+
+
+Thanks in advance.
+Rob in Montreal
+Robert_Ser`at`ceo.sts-systems.ca
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 21:44:47 +0500
+From: "Pat Babcock" <pbabcock`at`oeonline.com>
+Subject: Wyeast 1968 andthe incredible extraction machine...
+
+
+Welcome, Beerlings! Take me to your lager...
+
+
+In HBD 2003,  Dutch sez...
+
+
+> Hi HBD this will be my first posting to the digest.
+
+
+Hi! And welcome! Here's my two-bit analysis of what you've said...
+
+
+> I use Wyeast 1968 for almost every ale I brew and have also found
+> it not to be very(?) anttenuative.  The yeast I use I get from a
+> brew pub (Barley's ale house no.1 Columbus, OH.) I help brew there
+> sometimes and can stop in and get yeast whenever I need some.  I
+> have used varying amounts (from 2oz to 8oz packed yeast) for
+> pitching and have not found the amount to affect the the FG.  In
+
+
+The pitching rate normally _won't_ affect the FG; just the rate at
+which you get there. A larger, healthier population will ferment the
+sugars faster, that's all. The "banquet" is the same size - just a
+whole lot more dining on it.
+
+
+> the last batch I brewed I agitated my primary (after 3 days) and
+> secondary (after 4 & 7 days) fermenters by swirling and found the
+> fermentation rate to increase. My thought was this stuff packs so
+> fast and so tight that maybe I need to get the yeast back into
+> suspention (the brewer at Barley's thought I was crazy.)  So anyway
+
+
+Don't know why a "professional" brewer would think that rousing the 
+yeast would be crazy. Common practice, particularly with highly 
+flocculent strains. Don't be fooled into thinking that the bubbling 
+you get immediately after swirling the fermenter is an increase in 
+the rate of fermentation, though. Not only will swirling the 
+fermenter get the yeast back ingot suspension, but it will also knock 
+a lot of the CO2 out of solution, causing increased bubbling of the 
+airlock...
+
+
+> I forgot to take a final gravity reading (Duh) but the beer was
+> definatly more atenuated then the brew before that used the same
+> recipe.  My findings were recently confermed when I got a copy of
+
+
+Without that hydrometer reading, it's hard to tell whether rousing 
+had any affect at all. I've had increase fermentation by rousing 1968 
+in some recipes, none in others. 1968 is a sluggish fermenter at 
+best. As indicated it floccs out pretty quickly once the turbulence 
+of the kraeusen is past.
+
+
+> The recipe I tried this with was an IPA.
+> 8 lbs Alexanders Pale syrup
+> 1-1/2 lb Muton & Fison Lt. DME
+> 1/2 lb 20l crystal
+> 4 oz centenial (whole leaf) hops alpha 11.4
+>        2 oz boil
+>        1 oz finish
+>        1 oz dry
+> 1/2 oz hungarian med toast oak
+> 1/2 oz freanch med toast oak
+>         no steaming, 2 weeks in secondary
+
+
+Expected OG of roughly 1.078.
+
+
+> Yesterday I tried this recipie but substituted 10 lbs klages for
+> 4lbs of alexanders and 1-1/2 lb Mf/lt. OG 1072 which is a little
+> low, I stopped my collection of the run off to soon. (I don't think
+> I eill use that 1010 rule any more.) I like big beers!!!! 
+
+
+72 * 5 / 10 = 36 pg/p - A phenomenal extraction rate! Most brewers
+strain to achieve 30, let alone 36. You sure about these numbers?!?
+If so, you're a little confused. That OG isn't low for the grain bill
+ - it's huge! (Yes, in comparison to the extract recipe, the OG is
+lower; however, you really can't ask for much more out of ten pounds
+of barley!) Whatever you did, keep doing it. You've achieved as near
+a lab-mash as any I've seen...
+
+
+To up the gravity in future batches, up the grain bill. The 1.010 
+rule-of-thumb is more to protect your brew from defects resulting 
+from rinsing nasty stuff from the grain than it is to ensure you get 
+all the sugars.
+
+
+See ya!
+
+
+Pat Babcock in Canton, Michigan (Western Suburb of Detroit)
+pbabcock`at`oeonline.com  URL: http://oeonline.com/~pbabcock/
+Take advantage of the Drinkur Purdee document echo!
+Send a note to pbabcock`at`oeonline.com with the word
+help on the subject line to see what's on tap!
+
+
+
+
+------------------------------
+
+
+Date: 8 Apr 1996 08:11:30 -0800
+From: "Mark Tomusiak" <Mark.Tomusiak`at`amgen.com>
+Subject: Re- Reculturing Triples/Sai
+
+
+                      Subject:                              Time:  7:44 AM
+  OFFICE MEMO         Re: Reculturing Triples/Saisons       Date:  4/8/96
+
+
+Hi Mark...read your question about culturing yeasts from Triples/Saisons =
+with interest.  I don't know about the Rochefort yeast, but I recently =
+cultured the yeast from a bottle of Dupont "Avec les Bons Voeux" (a =
+Christmas beer from Dupont, but very much in the saison style), and to my =
+surprise it started growing very quickly.  I was able to plate some out =
+and examine the culture under a microscope;  colony morphology appeared =
+uniform on the plates and I couldn't see anything but yeast under the =
+scope, so I decided to try it in a batch.  It's two weeks in the bottle =
+now and I haven't tried any yet, but I can say that it produced a very =
+vigorous fermentation.  I did note some banana esters when I bottled it, =
+but I don't know if those will stick around or not.  Hope this helps and =
+good luck,
+
+
+Mark Tomusiak
+Boulder, Colorado
+
+
+
+
+------------------------------
+
+
+Date: Mon, 08 Apr 1996 08:16:15 -0700
+From: "Clark D. Ritchie" <ritchie`at`ups.edu>
+Subject: Odd Hop Varities
+
+
+All,
+
+
+After discovereing a few inconsistencies between the Hop FAQ and other hop
+literature on the Net, I am compiling a list of different hop varities and
+need some help.
+
+
+Does anyone know anything (specifically the AA%) about:
+1. Comet
+2. Huller
+3. Orion
+4. Super Styrian
+5. Viking
+6. Yeoman
+
+
+Also, this might be a stupid question, but I've seen references to [just]
+Goldings.  Is this short for BC and/or East Kent Goldings?  Is [just]
+Goldings another variety altogether or are there others?
+
+
+Similarly, I've also seen references to [just] Hallertauer.  Is this short
+for Mittelfrueh and/or Hersbrucker?  Is [just] Hallertauer another variety
+altogether or are there others?
+
+
+TIA... CDR
+Clark D. Ritchie, ritchie`at`ups.edu
+
+
+
+
+------------------------------
+
+
+Date: Tue, 9 Apr 1996 00:22:42 +1000
+From: merino`at`cynergy.com.au (Charlie Scandrett)
+Subject: hot/cold break-dissolving?
+
+
+
+
+In HBD #2005,  Matthew A. Wuerstl wrote,
+
+
+>Subject: hot break and immersion chillers...
+>Anyway, one question I saw and never read an answer to, was will the
+>coagulated proteins in the hot break go back into solution if you
+>chill the wort this way.
+<SNIP>
+> After boiling the canned wort for
+>30 minutes in a water bath, I removed the jars and noticed that the
+>wort was crystal clear, with big clumps of protein on the bottom of
+>each jar. The jars were left to cool and seal on the counter overnight.
+>When I checked them this morning, the wort had become cloudy again and
+>the protein sediment looked more loosely concentrated and was tending
+>to float apart. 
+>Any comments?
+
+
+The "hot break" is denatured medium to high molecular weight proteins in
+complex  with other things. This means that the hydrogen and disulphide
+bonds that hold these polypeptides in their pleated, helical  and globular
+shapes have been broken, leaving sites exposed for intermolecular bonds to
+form "flocs" (gooey lumps), usually with polyphenolics and tannins and
+starch and lipids and iso-alpha acids etc. The solubility of these proteins
+is also changed because their electrical polarity is changed by this
+denaturing. The net polarity of various proteins gives them a pH of minimum
+solubility called their "isoelectric point", but the structure also
+influences solubility and colloidal dispersability.
+
+
+Cooling may change the pH slightly and affect the strength of floc bonding?
+I do know it cannot "renature" proteins, i.e. rebuild the broken structures,
+they are simply too complex to reform. The only way to redissolve hot break
+is to boil the hell out of it for hours on end until the denatured
+polypeptides (a little like a ball of spaghetti) break down into simple
+polypeptides, ( a few peptides joined in linear structure, like short 1"
+bits of spaghetti) these are highly soluble.
+
+
+Cold break is simpler hot break,( i.e. the polypeptides and polyphenolics
+are less complex, hence more soluble) with a much higher and variable lipid
+content. Anyone who has watched a fatty scum form on a cooling bowl of soup
+will realise that fatty things are less soluble at colder temperatures,
+hence Matthew's cloudy jars the following morning. They also tend to rise,
+hence the success of seperating cold break by flotation during aeration, and
+hence its slower settling period.
+
+
+Cold break contains nothing that can redissolve hot break, you *can* cool in
+the kettle safely with immersion chillers.
+
+
+The Protein FAQ I'm working on is almost finished and will take up a whole
+HBD soon.
+
+
+Charlie (Brisbane, Australia)
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 96 08:32 PDT
+From: robtrish`at`mindlink.bc.ca (Rob Lauriston)
+Subject: my water treatment error
+
+
+Could someone help me out here?  (I need it!)
+
+
+After a long while brewing with my water as is, I began treating my water
+with gypsum (CaSO4) by adding it directly to the mash. 
+
+
+I'm wondering how many other people may be doing the same thing that I was
+- -- adding all of their salts to the mash, and calculating the amount of
+salts according to the total amount of beer  being made rather than
+according to the amount of mash water.  Since the volume of mash water is
+less than the amount of beer, I end up with higher concentrations than
+intended, no?  I should use more salts for a thin mash than for a thick one
+to arrive at the same ppms?    I was (am) confused by not really thinking
+about what I was doing, and by articles that talk about how much salt you
+have to add for a five gallon batch.
+
+
+My other question was about a shortcut I've been taking, adding the gypsum
+with the grist when I am mashing in.  How would this be different from
+treating all the mash water first?  Generally it would mean that I'm mashing
+with untreated water for the first few minutes, but what would be the
+specific effects?  I'm doing a temperature program mash starting at around
+60'C in a thin mash, but protecting B-amylase at the very beginning
+shouldn't be a problem, should it?  For things that happen in the boil
+(sulphates and hops) it shouldn't matter?
+
+
+I'm starting with quite soft water, pH 7.0, total alkalinity 23, bicarbonate
+23, carbonate 0 mg/L all given as CaCO3; calcium 0.6 mg/L and sulphate 8
+mg/L.  I've been adding 30 g gypsum to make 55 litres of beer.
+
+
+Thanks in advance,
+
+
+- -- Rob Lauriston
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 08:39:34 -0700 (PDT)
+From: raudins`at`lightscape.com (Glenn Raudins)
+Subject: Stella
+
+
+
+
+In reference to my question about what beers are to be had in Egypt, I went
+and saw.  Stella is the beer of choice (It happens to be the only choice.)
+There is Stella and Stella Export, the export is harder to find.  All in all,
+for the only beer available it is better than the standard American Lager on
+the market here.  It is served in what appears to be about 20 oz bottle, just
+a bit smaller than a bomber bottle.  It sold from around $2.50 to $3.00 in the
+tourist traps.
+
+
+Glenn Raudins
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 10:09:05 -0600 (MDT)
+From: Ray Brice <ray`at`hwr.arizona.edu>
+Subject: competition reminder
+
+
+Reminder:,
+
+
+The 3rd Annual Naked Pueblo Homebrew Competition will
+take place Saturday April 21st at:
+
+
+        Trios in the Plaza Palomino
+        corner of Swan and Ft. Lowell
+        Tucson, Arizona 
+
+
+First Round Judging will begin at 10:00.
+
+
+Best of Show Judging will begin at 2:00.
+
+
+Awards ceremony will begin at 5:00.
+
+
+This competition will be held in conjunction with "The
+Great Tucson Beer Festival." All judges and stewards
+will be given free admittance to this event.
+
+
+This is an AHA and BJCP sanctioned competition featuring
+all AHA categories.  Please contact John Francisco 
+(520) 743-7961; cisco`at`tabasco.ccit.arizona.edu or
+Jim Liddil (520) 881-8768; jliddil`at`azcc.arizona.edu for
+a free entrants packet. 
+Complete on-line registration for entries and judges
+is available on the Competition Homepage 
+(http://www.hwr.arizona.edu/agu/oph/naked.html).
+
+
+Winner's of each category will receive awards. Best of Show
+will receive a $100 gift certificate to the Home Brewery in
+Sierra Vista, Arizona.  2nd and 3rd place in each category will
+receive ribbons. 
+
+
+Cheers,
+
+
+John Francisco
+
+
+------------------------------
+
+
+Date: Mon, 08 Apr 96 08:25:00 PDT
+From: "Olson, Greger J - CI/911-2" <gjolson`at`bpa.gov>
+Subject: Historical Trivia
+
+
+
+
+I recently looked through a combination recipe/advice/advertisements book 
+given to my grandmother after she got married in Tacoma back in 1928.  There 
+were no less than three ads for local hopped malt extract, and this in what 
+was not a particularly large city.  One of these, by Berg & Son,  touted 
+their "Hop Flavored Malt Syrup" for "Hop Scotch Candy".  My question is 
+this: has there ever been any common use for malt extract other than 
+brewing?
+
+
+I suspect each can came with:  Warning! - Do not add yeast and let ferment 
+or an illegal alcoholic beverage might result! :-) 
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 12:26:59 -0400
+From: Murray Anderegg <anderegg`at`divnc.com>
+Subject: Sources for a large (30qt or so) pressure canner for sterilization
+
+
+
+
+I'm looking for something large enough to do some decent sized starters.
+In particular, I tend to use 1, 1.5 and 3 liter Luminarc (rubber gasket flip
+top type) canning jars. Has anyone had success with the 3 liter jars inside
+of a 22 qt canner? It seems as though the 3 liter jars are a bit too big for
+a 22 qt canner.
+
+
+I saw an online source, once, for a 30qt pressure canner, but I didn't save it
+and haven't been able to relocate the source. Any pointers, anyone? I'll gladly
+summarize in later posting.
+
+
+- --Murray
+- --------------------------------------------------------
+- --Murray Anderegg           | Division, Inc.
+murray.anderegg`at`divnc.com   | 431 W Franklin St #10
+(+1 919) 969-1011 fax: 1016 | Chapel Hill, NC 27516, USA
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 12:10:35 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Griping and grousing.
+
+
+
+
+> From: cisco`at`tabasco.ccit.arizona.edu
+> Subject: We are all criminals to UPS!!!!
+
+
+> (Are we living in a police state
+> now and no one bothered to tell us?)
+
+
+As obnoxious and inconvenient as it is, they are a private company
+and can pretty much do whatever they want to.  Obviously, we can go
+somewhere else.  I think that shipipng homebrew should be perfectly
+legal and acceptable to everyone.  Chances are they wouldn't bug you 
+anyway, and after they open the package, you can still lie to them and
+say it's homemade root beer.  I think they have a right to protect 
+themselves from bombs and similar weird shit people might ship.  
+
+
+> 2. Take your business to one of those Mailbox Etc places
+> and pay the extra money to have them ship it for you.
+
+
+That's what I do anyway since one of those places is a block from my house
+and the nearest official UPS dropoff is a 30 minute drive, and I got no car.
+
+
+> Be carefull out there - big brother UPS is watching!
+
+
+They're a private business.  Taking your stuff and putting it on their 
+trucks.  I think they have a right to check what's in it first.
+
+
+If they were a monopoly, or in any way involved in the government, the
+"police state" language would be called for.  As it is, it's just crying
+wolf.  When the real police state comes, people will be so fed up with 
+overstated accusations that they won't take the warnings seriously.
+
+
+> From: Dan Gerth <dgerth`at`lanl.gov>
+> Subject: Automagic scale machine
+
+
+> Boy, I thought this thing died about 20 years ago.....When I was fresh out
+> of school and working in the water treatment industry we used to keep a file
+> of all these gizmos. 
+
+
+When I was your age, sonnyboy, we used to eat inductive scale resonators for
+breakfast.  And we liked it.
+
+
+> These things pop
+> up all the time, and they have NEVER been scientifically proven to work
+> (cited studies or not). 
+
+
+They have been scientifically proven to work, in limited circumstances, via 
+an as-yet-unknown mechanism.  It's been in the last month or two that they
+were shown to work.  So, don't say "NEVER" unless you've read every study
+done on them.
+
+
+I'm not trying to say these things live up to the claims they make in their
+advertisements.  I'm not advising anyone to buy one without independently 
+confirming they work, and maybe not even then.  I'm just saying, there IS
+evidence they work, and I think people who claim to know things they don't 
+need a little thump now and then.  <thump>  There ya go.
+
+
+Finally, these things are useless for brewing even if they work exactly as
+advertised.  So, don't buy one for your beer.
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Mon, 08 Apr 96 10:17:46 PST
+From: dhvanvalkenburg`at`CCGATE.HAC.COM
+Subject: Wyeast Ale Test 
+
+
+     I am, with the help of several club members from the Long 
+     Beach Homebrewers, doing a test of the basic Wyeast ale 
+     strains.  All packets were obtained at the same time with 
+     the same date.  They were only a few weeks old at time of 
+     popping the pouch. We are using all the same wort, half of 
+     which was provided from our local brew-pub and half from 
+     extract.  We did 2 gal batches in 2.8 gal carboys so that 
+     we would have sufficient results from each batch to go 
+     around at the club.  
+     
+     While the purpose of the test is to taste the different 
+     strains that are fermented with the same wort and under the 
+     same conditions, we noticed a dramatically different rate 
+     of growth among the different strains.  I devised a way of 
+     measuring the packets by laying a stick across the middle 
+     of the packet with one end of the stick taped down.  The 
+     height of the other end became my measure of the packet.  
+     With a scale of 1-10, 10 being a fully inflated packet, 
+     here is the results of those measurements.
+     
+     Temp. Range 68-70F
+     WYEAST  TYPE      12 Hrs   24Hrs   38 Hrs 
+     1007  German       1.6     3.2     7.4 
+     1028  London       5       10      10 
+     1056  American     5.2     10      10 
+     1084  Irish        4       8.6     10 
+     1098  British      6.6     10      10 
+     1338  European     2.4     4       7.4 
+     1728  Scottish     5       10      10 
+     1968  London ESB   1.4     3       5.8
+     
+     They are still in the carboys and the ultimate test is in 
+     sampling the results, but it looks like the race being won 
+     by British 1098 which is appearing nearly finished after 
+     only 2 days.  
+     
+     Will update as results become available.
+     
+     Don Van Valkenburg-----dhvanvalkenburg`at`CCGATE.HAC.COM
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 12:52:02 -0500 (EST)
+From: charles epp <cepp`at`indiana.edu>
+Subject: Using a 2ndary/irish moss/ups
+
+
+
+
+1.USING A 2NDARY:  What are the collective's thoughts on using a secondary
+before bottling/kegging?  I've done both -- bottled after fermenting only
+in a primary and after transferring to a secondary -- and I can see only
+one benefit and several costs to transferring to a 2ndary: 
+
+
+benefit:  after bottling, there is less yeast sediment in the bottles, 
+making it easier to pour.  (But I've never noticed any significant 
+degradation due to the greater amount of yeast in my bottled beer taken 
+directly from the primary, even after 8 months in the bottle.)
+
+
+costs:  Using a 2ndary adds hassle and introduces some oxygen, no matter 
+how careful I am. 
+
+
+Thus, using only a primary (glass) has only 1 cost (less yeast in bottle)
+and great benefits in less oxygen introduced.  Also, I've never had any
+off-tastes from leaving the fermented beer on the yeast (and I've left it
+on up to 4 weeks after the start of fermentation) (as others noted here,
+there seems to be no problem with this). 
+
+
+QUESTION: are there any real benefits to using a 2ndary?
+
+
+2: IRISH MOSS: does using Irish Moss affect hop utilization, especially
+the level of hop character in the finished beer? 
+
+
+3. UPS & THE CONSTITUTION:  Pat Babcock speculates that the Constitution
+will somehow prohibit UPS from inspecting our packages (if indeed they
+do).  He's wrong.  The Constitution limits only what government or
+government officials may do.  UPS is a private organization and, like any
+other business corporation, can do whatever they want to your
+constitutional rights (except for practicing discrimination, which is
+prohibited by the Civil Rights Act, a congressional statute). 
+
+
+Chuck
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 12:57:47 -0500
+From: pedwards`at`iquest.net (P. Edwards)
+Subject: Old yeast into boil?
+
+
+I was browsing the book rack at the local HB retailer the other day and
+came across someting I'd never heard before in a book called "50 tips for
+homebrewers" or some such title.
+
+
+Anyway, this book recommended that kit brewerss take the generic yeast that
+came with the kit and toss it into the boiling wort, claiming that this
+added nutritive value to the wort.  The book did go onto say to use a
+decent dry or liquid yeast for fermenting.
+
+
+Does anyone know if the claim is true? Or is it an old brewer's tale?  I
+teach beginning and intermediate HB classes and tell people to use the kit
+yeast to make bread, but every so often, someone who's seen this tip asks
+about its veracity.
+
+
+Thanks.  private e-mail is fine...
+
+
+- --Paul E (pedwards`at`iquest.net)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 14:41:33 -0400
+From: HOMEBRE973`at`aol.com
+Subject: UPS, hopping liberty ale and achor steam
+
+
+I called UPS and asked them if they open packages.  They just laughed and
+said we would never have time to open packages and reseal them.  The post may
+have been  an
+April Fool's joke or maybe some local aberration.
+
+
+On another subject, what are the current hop profiles for Liberty Ale and
+Anchor Steam
+and if they are dry hopped, what type is used? Also, what are their optimal
+fermintation temps?
+
+
+Andy Kligerman
+Hillsborough, NC
+
+
+------------------------------
+
+
+Date: Mon, 08 Apr 1996 12:51:04 -0700
+From: Orval Jewell <ojewell`at`thegrid.net>
+Subject: Archive file decompression
+
+
+Hi All,
+
+
+I have been reading HBD for a couple of months now. I really enjoy the 
+wit and knowledge of so many of you. This is a very simple question, but 
+I don't know where else to turn. I went to the archive folder for HBD 
+1995 and downloaded several files. I would like to know what utility I 
+need to decompress these files. The extension of the compressed files is 
+z  as (1620.z) I would love to read them, so any help would be 
+appreciated.
+
+
+Orval
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 16:32:10 -0400 (EDT)
+From: Tidmarsh Major <tmajor`at`parallel.park.uga.edu>
+Subject: Re: Search and Seizure 
+
+
+
+
+
+
+On Mon, 8 Apr 1996, in HBD #2005:
+> > I just got back from UPS shipping two entries to the AHA
+> > nationals and was very surprised by a new policy at UPS.
+> > ALL PACKAGES WILL BE OPENED AND INSPECTED.
+> 
+> <SNIP> 
+> 
+> > Everyone should call UPS and file a formal complaint about
+> > this 'police state' tactic. Don't bother complaining to the 
+> > customer service representative that answers the phone,
+> > ask to speak to their supervisor to file a formal compliant.
+> 
+> ANAL (Am Not A Lawyer), but this "policy" sounds like an invasion of 
+> privacy. You know - unconstitutional? They can't even look in your 
+> GARBAGE CAN without having  a warrant. What gives the UPS the right 
+> to search through something that you _haven't_ discarded?
+ 
+Hey, I'm not a lawyer either, but I believe that the crucial factor in 
+this case is that the Constitution ONLY applies to the Government.  
+Because UPS is a private shipper, the relationship between you the 
+customer and them the shipper is purely contractual.  If you don't want 
+your package opened, don't ship UPS.  It's not a "police state tactic" 
+because it's not the state.  The Constitution doesn't apply.
+
+
+Tidmarsh Major
+tmajor`at`parallel.park.uga.edu
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 14:22:28 -0700
+From: rlouvier`at`ix.netcom.com (Raymond Louvier)
+Subject: Louvier's water analysis
+
+
+Hi ya'll, Well I sure enjoyed watching my water analysis being 
+evaluated. The discussions were great. I've been away from computer for 
+a week and today when I logged in the information came flowing in. I 
+want to thank every one of you for taking the time to help me out. I 
+haven't gone through all the information but it seems my water can be 
+helped. With all this newly acquired knowledge from all of you I can 
+see light at the end of the tunnel.
+
+
+Thanks to all,
+Ray Louvier    
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 17:10:23 -0400
+From: Mike_Bell`at`ccmail.va.grci.com
+Subject: Dilute Bleach Solution
+
+
+I have been mixing up a dilute solution of bleach, and storing it for 
+several months to sanitize fermenters and associated equipment that comes 
+in contact with wort.  Papazian recommends this in one of his books.  I 
+prefer bleach over iodophor due to cost.  I've stored this dilute solution 
+for several months and still get a strong chlorine odor from anything 
+extracted from the solution.
+
+
+I've noticed that if the bleach is used in low concentrations a gray sandy 
+precipitate develops in the bottom of the solution after a couple of weeks. 
+If stirred it won't dissolve again, but will cause the solution to become 
+cloudy and will quickly precipitate again.  Higher concentrations do not 
+have any indications of precipitates.
+
+
+The bleach is a cheap off-brand, but it does say that the active ingredient 
+is 5% sodium hypochlorite, the same as Chlorox.  Any ideas from the 
+chemists in the group as to the nature of the precipitate, and the 
+sanitizing effectiveness of long-stored dilute bleach solution?  I've never 
+had an infection problem that I know of.
+
+
+Regards,
+Mike Bell
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 21:50:18 +0500
+From: "Pat Babcock" <pbabcock`at`oeonline.com>
+Subject: Resuspension of break material...
+
+
+Greetings, Beerling! Take me to your lager...
+
+
+In HBD 2004, Matthew A. Wuerstl talks about  hot break and immersion
+chillers...
+
+
+> Some observations from last nights wort canning proceedings. If I
+
+
+<SNIP-A-ROONEY!>
+
+
+> some other source.) Anyway, one question I saw and never read an
+> answer to, was will the coagulated proteins in the hot break go
+> back into solution if you chill the wort this way. Here's what I
+> observed last night. I boiled up a 2 gallon starter batch of wort
+> to can and use for yeast starters. I chilled in my brew kettle and
+
+
+<SNIP SOME MORE. If you need to, you can read it in #2004> 
+
+
+> on something like this? Any comments? 
+
+
+Yeah. One: I do a very similar thingy when canning starters - the
+exception being that I measure the extract directly to the jar, top
+up, and pressure can. I have the jungle of break material at the
+bottom of the jar; however, all my starters are crystal clear - from
+the time the product is hot to to now, six months later. 
+
+
+Go figure.
+
+
+
+
+See ya!
+
+
+Pat Babcock in Canton, Michigan (Western Suburb of Detroit)
+pbabcock`at`oeonline.com  URL: http://oeonline.com/~pbabcock/
+President, Brew-Master and Chief Taste-Tester 
+Drinkur Purdee pico Brewery 
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2006, 04/09/96
+*************************************
+-------

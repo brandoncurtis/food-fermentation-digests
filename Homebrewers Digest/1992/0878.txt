@@ -1,0 +1,1156 @@
+﻿This file received at Sierra.Stanford.EDU  92/05/11 00:11:59
+
+
+
+
+HOMEBREW Digest #878                             Mon 11 May 1992
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Another yeast reuse data point (ingr!b11!mspe5!guy)
+  Correct IBU Corrections (Bill Szymczak)
+  Re: Grolsch gaskets (ingr!b11!mspe5!guy)
+  Re: yeast washing (Larry Barello)
+  HBD'ers meet in Brewtown (Malt-Fermenter Gelly)
+  mthvax archive services (Michael L. Hall)
+  Starch Haze vs. Protein Haze (Subhash Chandra Roy)
+  MBC yeast (Brian Smithey)
+  Re: Chimay...Not:-)  (mcnally)
+  Re: fining without cruelty (PHILLIPSA)
+  Calcium Chloride (chrisbpj)
+  Reusing Yeast / Hot Break / Starch Test (Darren Evans-Young)
+  RE: Strange Smell in Lager (lee_menegoni)
+  Yeast Recycling Summary (mccamljv)
+  Color Definition Chart (jas8t)
+  Say it ain't so, Joe!  (Re: MTHVAX ARCHIVES) (Douglas DeMers)
+  Looking for a store or two.... (David Christian Homan)
+  Homebrew archives transfered. ("Stephen Hansen")
+  Caloric Content of HB (Walter H. Gude)
+  Re:  Say it ain't so, Joe!  (Re: MTHVAX ARCHIVES) (andrew mossberg / mthvax admin)
+  Brown ale recipes needed ("Chris Dukes" )
+  A Couple of Answers & A Question (Jeff Frane)
+  Best Beer Games You Have Known ("Peter G. Goutmann")
+  co2 tank pressure (GC-HSI) <rnapholz`at`PICA.ARMY.MIL>
+  denaturing acid carboys (J. Michael Burgeson)
+  Old Peculier - New Peculiar (Jeff Mizener)
+  EZ mash tuns (Jay Hersh)
+  Best of Beer and Brewing Contents (Edward C. Bronson)
+
+
+
+
+Send articles for publication to homebrew`at`hpfcmi.fc.hp.com
+Please send all other requests to homebrew-request`at`hpfcmi.fc.hp.com
+   i.e., address change requests, subscribe, unsubscribe, etc.
+Archives are available from netlib`at`mthvax.cs.miami.edu
+**Please do not send me requests for back issues!**
+**And I don't know anything about the Cat's Meow either!**
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 5 May 92 10:01:57 CDT
+From: ingr!ingr!b11!mspe5!guy`at`uunet.UU.NET
+Subject: Another yeast reuse data point
+
+
+    As another point in the yeast reuse topic, I will share my experiences.  I
+have had great success reusing yeast slurry retained from the secondary.  After
+I siphon into my bottling bucket, I immediately put the stopper and airlock
+back on the secondary fermenter.  When I finish bottling, I sanitize a half
+gallon glass jug and my funnel.  I then flame the mouth of the carboy, swirl
+the yeast back into suspension, and pour it through the funnel into the jug.
+I then screw on the sanitized lid of the jug and put it in the refrigerator.
+I have stored yeast in this manner for as long as a month and a half and had
+no problems with it starting or producing undesirable charcteristics.  I have
+also re-used yeast with this method up to three consecutive times with no ill
+effects.
+
+
+    Another method I have success with is to pour the dregs of several bottles
+of my homebrew into a single Grolsch bottle and store in the fridge.  I then
+pitch this into a starter solution when I'm ready to brew and off it goes.  I
+have a copy of Jeff Frane's yeast washing article in my brewing notebook from
+the first time he posted it.  I fully intend to start washing my yeast before
+reuse someday but I have been successful thus far without it.
+
+
+    And finally, a story:
+
+
+    Once there was a beautiful apple.  It was a joy to all who happened upon
+it.  The pleasure derived from it seemed endless to all who partook of it.
+Then one day, unnoticed at first, a worm crept into the apple.  It immediately
+began vomiting forth corruption, causing a rotting of part of the apple.  Its
+unceasing toil was to try and corrupt the whole of the beautiful apple, much as
+it had been able to do in other apples it frequented.  At times, the apple 
+seemed in danger of rotting completely, so quickly the corruption had spread.
+Many who once derived great joy from it began to loathe and despise its 
+condition.  It would always fight back from the brink of total corruption and
+become nearly as whole and wonderful as it once was.  The worm, however, still
+frequented it and threatened to turn it into just another apple rotting on the
+branch.  The apple must use all of its strength and all of that which is good
+within it to combat this tragic possibility.  In the end, the worm cannot rot
+the entire apple unless the apple relents to rottenness.  May the apple remain
+strong and beautiful and leave the worm to wallow in the corruption it spews
+forth.
+
+
+- --
+Guy McConnell
+"And the beer I had for breakfast wasn't bad, so I had one for dessert"
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 10:32:26 EDT
+From: bszymcz%ulysses`at`relay.nswc.navy.mil (Bill Szymczak)
+Subject: Correct IBU Corrections
+
+
+In HBD 871 there is a clip from a note from srussell which
+mentioned that in Jackie Rager's article in the Hops ZYMURGY
+special issue that to correct for specific gravity of the wort
+you should divide by
+
+
+          1 + 5(G-1.050)   if G > 1.050
+          1                if G < 1.050
+
+
+After reading the Rager article myself, I found some obvious
+errors. (I'm new to subscribing to HBD and don't know if these
+have been already discussed.)  In  the ZYMURGY issue
+the correction factor given by Rager is 1 + GA, where
+
+
+          GB - .050
+     GA = --------      
+             0.2
+
+
+if GB (gravity of boil)  > 1.050, and GA=0 otherwise.  If this
+formula were correct the value of GA would jump from 0 to 5 as
+soon as GB hit a value of 1.050, and you would need about six
+times as much hops with a gravity of 1.0501 than a gravity of
+1.0499.  Replacing the value of .050 by 1.050 (as srussell
+correctly did) gives more reasonable values.  Even worse is the
+example Rager computes on page 54 of the ZYMURGY issue, where
+the equation
+
+
+       1.096-.050
+  GA = ---------- = .24     ????????? 
+          0.2
+
+
+appears.  It seems to me that 
+
+
+   1.096-.050
+   ---------- = 5(1.096-.050) = 5(1.046) = 5.23
+      0.2
+
+
+If the value of .050 which was repeated in the example is
+replaced by 1.050, then GA = .23, which is getting closer to
+Rager's value of .24.  No wonder we're all confused about IBU's.
+
+
+Besides these obvious errors I have found Rager's article very
+useful.  The formula given by Frank Tutzauer/Tom Hettmansperger
+in HBD 871 also seems very convienient since it eliminates the
+need for a utilization table and accounts for gravity at the
+same time.  Does this formula agree with the table listed in
+Rager's article and the "corrected" gravity correction formula?
+(Or equivalently, do the formulas given in Charlie II agree with
+Rager's?)
+
+
+I apologize for this being a little outdated, but it was originally
+sent last week and apparently lost during one of the "down" days.
+
+
+Bill Szymczak
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 9:01:05 CDT
+From: ingr!ingr!b11!mspe5!guy`at`uunet.UU.NET
+Subject: Re: Grolsch gaskets
+
+
+mark`at`decwrl.dec.com writes:
+
+
+> I am planning on bottling a batch this weekend using for the first time
+> some Grolsch type bottles (actually Fischer's bottles), that I have
+> accumulated over the last couple of months. I seem to recall seeing in
+> an article on HBD that one should replace the gaskets on such bottles
+> before using them the first time. Is the true? If so what is the reason
+> for it?
+
+
+    I have quite a few Grolsch bottles that I typically use to bottle stouts
+and "special" beers in.  These bottles have had around 5 batches in them and
+the gaskets have never been replaced.  In my last batch, a stout, I had one
+bottle out of 40 that developed almost no carbonation and I suspect that the
+gasket on that one either needs replacing or did not get seated properly when
+I bottled.  All of the rest of them carbonated perfectly.  The undercarbonated
+beer tasted fine, just rather flat.  I therefore offer that the gaskets need
+replacing only when they show signs of cracking or other type of wear.  You
+certainly should not need to replace them on your bottles since they have been
+used only once to bottle commercial beer in.  Of course, if it makes you feel
+better, the gaskets are readily available...
+
+
+- --
+Guy McConnell 
+"Now I'm going outside to have an ice cold beer in the shade"
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 07:32:37 PDT
+From: polstra!larryba`at`uunet.UU.NET (Larry Barello)
+Subject: Re: yeast washing
+
+
+
+
+I have been using the yeast wash trick described by Jeff Frane for about
+nine months now.  I found the instructions a little vague.  Basically
+what I do is dump the slurry in a qt jar, cap and shake hard.  There
+will be three layers after about 10-20 minutes: a top frothy gelatinous
+layer, a middle tan layer and a bunch of crud on the bottom.  I use a 
+bloiled spoon to remove the top layer, pour off the middle layer into a 
+clean jar and toss the crud.  
+
+
+The middle layer will eventually (30-60 minutes) seperate again into a 
+thick layer of yeast and clear liquid.  Depending upon how much crud there
+was originally I might shake and separate again.  Anyway usually at this
+point I stop as the stuff in the second jar looks pretty clean.
+
+
+I have stored yeast like this (under clear liquid) for a month and have had
+incredible starts by just dumping it into the chilled wort.  Also, beers 
+made with the washed yeast have *always* started faster, fermented faster
+and been much much better tasting than beers made with a classic Wyeast 
+starter.
+
+
+Oh, I usually get two pint jars of yeast from a 5 gallon carboy primary
+each containing about 1/2" of yeast after everything settles down in a 
+couple days.
+ 
+ - Larry Barello
+
+
+------------------------------
+
+
+Date: Wed, 6 May 1992 11:15 CDT
+From: Malt-Fermenter Gelly <GELLY`at`VAXA.CIS.UWOSH.EDU>
+Subject: HBD'ers meet in Brewtown
+
+
+Hey folks,
+
+
+If I may have missed the final decision, sorry to be redundant, but...
+Has a final meeting place for HBD'ers at the AHA conference been decided
+on? I may have missed one or two issuses in the last month, and I know
+there was talk of a "get-together", but I never saw the issue resolved.
+I also recall talk of a special "sign" to let us recognize each other
+(i.e. a sticker of some sort on the nametags). Is this idea still on?
+
+
+Again, if all this has already been decided, humor me and send me an
+e-mail. ;-)
+
+
+Relaxing quite comfortably,
+
+
+Mitch Gelly        gelly`at`vaxa.cis.uwosh.edu
+                gellym`at`ernie.cis.uwosh.edu
+
+
+- -----------------------------------------------------------------------
+"And in the end, you spat me out, you could not chew me up..." - Mick J.
+- -----------------------------------------------------------------------
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 10:40:28 MDT
+From: mlh`at`cygnus.ta52.lanl.gov (Michael L. Hall)
+Subject: mthvax archive services
+
+
+andrew mossberg / mthvax admin <aem`at`umigw.miami.edu> writes:
+
+
+> The archives at mthvax will be ending soon, and the gatewaying of
+> the homebrew digest to rec.crafts.brewing will also cease.
+
+
+Argghhhhhh.....this is horrible! Can anyone pick up this service?
+Or can we convince Andrew to continue? I, for one, think that this
+is a valuable service that I would hate to see go.
+
+
+I will especially miss the archive service...
+
+
+Mike Hall
+hall`at`lanl.gov
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 12:40:57 -0400
+From: Subhash Chandra Roy <roy`at`mcnc.org>
+Subject: Starch Haze vs. Protein Haze
+
+
+
+
+I was planning on make a rasberry weiss beer for the summer,
+and using 1/2 lbs of flaked barley during the boil to aid
+in head retention.  I was warned that it would produce a
+starch haze.  How is this different from normal (protein) 
+chill haze?  I don't want to mash the grains (don't need
+the fermentable sugars).
+
+
+Subhash
+roy`at`mcnc.org
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 10:40:39 MDT
+From: smithey`at`rmtc.Central.Sun.COM (Brian Smithey)
+Subject: MBC yeast
+
+
+>>>>> In HBD #876, mcnally`at`wsl.dec.com writes:
+
+
+Mike> It's been a while since I've tried Eye of the Hawk, but I seriously
+Mike> doubt that the yeast is anything at all like the Chimay culture.
+Mike> It's hard to tell yeast by appearance.
+
+
+Agreed, and I'm certainly no expert, but when I had a bottle a
+few months ago the yeast was easily disturbed from the bottom
+of the bottle (unlike the sticky Red Tail yeast), and it broke
+up into a bunch of little yeast "pebbles".  The only other times
+I've seen yeast do this is in Chimay, and homebrew that a friend
+made from yeast he cultured from a Chimay bottle.
+
+
+Perhaps MBC is maintaining their own yeast, cultured from Chimay?
+The aforementioned friend, no longer on the net, visited MBC a
+couple of years back, if I can find anything out from talking
+with him I'll report back.
+
+
+Mike> Mike McNally                                           mcnally`at`wsl.dec.com
+
+
+Brian
+- --
+Brian Smithey / Sun Microsystems / Colorado Springs, CO
+smithey`at`rmtc.Central.Sun.COM
+
+
+------------------------------
+
+
+Date: Wed, 06 May 92 11:26:00 -0700
+From: mcnally`at`wsl.dec.com
+Subject: Re: Chimay...Not:-) 
+
+
+
+
+    [ Sayeth Glenn Tinseth <tinsethg`at`UCS.ORST.EDU> : ]
+
+
+    Wow, that's news to me.  (Vague memory warning: ON) I always
+    thought that Chimay was finally isolated down to one yeast by Fr.
+    Theodore(SP?) at the abbey.
+
+
+You may be right; I was re-stating a rumor.  I will retract that.
+
+
+        This led to a great improvement in their consistentency.
+        Jackson sez that Orval, on the other hand, does use 5 different
+    yeasts at different stages in the brewing process. 
+
+
+I have never been successful at reculturing Orval.  I've just found a
+source for 750ml bottles of Grimbergen, and those seem to have a healthy
+amount of yeast in them.  Chimay is, however, unbelievable.
+        
+    The new Belgian Ale strain from Wyeast is a monoculture and is 
+        according to Dave (the owner) from Chimay. 
+
+
+My local homebrew shop hasn't bought any because they're unsure of the
+volume they'd sell.  Urrrgh; how will they know if they don't get some?
+
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+Mike McNally                                           mcnally`at`wsl.dec.com
+Digital Equipment Corporation
+Western Software Lab
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 8:57 GMT
+From: PHILLIPSA`at`LARS.AFRC.AC.UK
+Subject: Re: fining without cruelty
+
+
+Thanks to all those who responded so promptly to my posting about
+fining beer without using animal products. The consensus was that
+Irish Moss in the boil, and/or fining with Bentonite, agar or
+Polyclar is the best solution. I already use Irish Moss, and I'll
+probably try adding Polyclar to the secondary fermenter a few
+days before racking into barrel. This has the advantage that for
+a trial run I can "borrow" a few grams of Polyclar from the lab -
+we use it for adsorbing polyphenols from homogenized plant
+tissue to reduce inhibition of enzyme activity. One concern I have 
+is that Polyclar may remove some of the arome, taste, feel, colour, etc 
+in addition to removing haze. We shall see. Incidentally, Polyclar 
+is a trade name for poly(vinylpyrrolidone) - not quite
+Reinheitsgebot, but if you're worried about putting synthetic
+chemicals in your beer, just remember that there are probably far
+nastier things in hop resins.
+
+
+[P.S. In answer to Chris Campanelli's question (I tried to
+respond directly but my mailing bounced back with a "no such
+user" message): as far as I know, there is no British equivalent
+of HBD - at least on JANET, the academic network. There may be
+an interest group on a commercial network such as
+Telecom Gold, but I don't have access.]
+
+
+Andy Phillips
+AFRC-IACR Long Ashton Research Station
+Bristol, UK
+PHILLIPSA`at`LARS.AFRC.AC.UK
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 15:54:17 -0400
+From: chrisbpj`at`ldpfi.dnet.dupont.com
+Subject: Calcium Chloride
+
+
+
+
+> From: Crawford.Wbst129`at`xerox.com
+
+
+> A while back I believe there was a discussion on where to get Calcium
+> Chloride. What was the final outcome?  Does anybody know where to buy
+> Calcium Choride?
+
+
+Greg-
+
+
+Seems to me that crystaline stuff you buy at the hardware store to
+sprinkle on you iced-up driveway in the winter is calcium chloride. 
+Another name for it is rock salt.  I doubt they add anything to it -
+probably just crush it up.  Be sure you check the ingredients if you
+plan to use this in beer (?!).  You obviously don't want to use any
+of those weird chemicals they also sell for melting ice.
+
+
+Another possible source is at a water softener *type* store
+(Culligan?).  I think they use calcium chloride to soften hard water,
+and I imagine this is "Food grade."  When I need wierd chemicals (not
+too often!) I usually try the chem supply dept at Lehigh University. 
+The last time I got something there, I was after dry ice!  Maybe
+there's a college in your area that could supply it.  Who knows, maybe
+even a good pharmacy carries it!
+
+
+Good luck!
+
+
+ -Pete
+
+
+------------------------------
+
+
+Date:         Wed, 06 May 92 15:07:47 CDT
+From: Darren Evans-Young <DARREN`at`ua1vm.ua.edu>
+Subject:      Reusing Yeast / Hot Break / Starch Test
+
+
+Reusing Yeast:
+
+
+I've been reusing my yeast now for 5 batches. I always taste the beer
+when transferring to the secondary to see if I notice any off flavors.
+So far, everything is going good.  When I dump the new batch of beer
+on top of the yeast cake, I have a kraeusen (sp?) covering the surface
+within 2 hours!  The more I reuse the yeast, the faster the beer seems
+to ferment. The beer taste good though.  You MUST be up on your
+sanitation procedures if you plan on doing this.  BTW, I'm using William's
+Burton Ale yeast.  I'm not sure what Wyeast strain this translates to.
+Anybody know?
+
+
+Hot Break:
+
+
+To remove your beer from the hot break after boiling, rapidly (without
+aerating) stir your wort in one direction to get a nice low pressure
+area in the center, then cover your wort and let sit for 15-30 mins.
+This whirlpooling will cause most, if not all, the hot break material
+to settle into a nice cone in the center of your boiler.  After 30 minutes,
+I can usually see all the way to the bottom of the boiler toward the
+outside with a flashlight.  Simply siphon from this area. I use a
+counterflow chiller.  Since I've started doing this, I've let my cooled
+wort sit in a sanitized container for 2 hours to let any break material
+settle, and the has been NONE!  I now skip this step.
+
+
+Starch Test:
+
+
+To get an idea of what your iodine starch test will tell you, take the
+test immediately after doughing in your grain. You can use this reaction
+as a reference.  My last batch I started using a thicker mash and the
+starch test was misleading. I'm still investigating the cause of this.
+Could have been husk material or I could have screwed up my mash somehow.
+
+
+Darren
+
+
+------------------------------
+
+
+Date: Wed,  6 May 92 15:35:43 EDT
+From: lee_menegoni`at`ptltd.com
+Subject: RE: Strange Smell in Lager
+
+
+Thanks to all that mailed me.  The problem with the strange smell after 
+carbonation seems to be attributed to Di-Methyl Sulfide, DMS, and is caused by
+carbonation at too high temperature.  The cure seems to be carbonation in the 
+refridgerator.  
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 17:17:33 -0400
+From: mccamljv`at`ldpfi.dnet.dupont.com
+Subject: Yeast Recycling Summary
+
+
+Fellow Brewers,
+
+
+        Wow, I guess I finally asked the right question. I have
+        received (at last count) 10 responses to the yeast recycling
+        question I posted a couple of digests ago. Some of the responses
+        have appeared here in the last couple of digests so I don't think
+        a summary is needed.  BUT.......
+
+
+        For those of you who would like a compilation of the
+        non-microbiological yeast storage and recycling responses,
+        E-mail me with your request and I will gladly E-mail the file to
+        you. Many many thanks to all those who responded.
+
+
+        Yours in brewing,
+
+
+ -Joel McCamley        "Constantly Relaxing, Not Worrying and
+                        Having a Homebrew!"
+
+
+------------------------------
+
+
+Date:     Wed, 06 May 92 17:04:16 EDT
+From: jas8t`at`prime.acc.Virginia.EDU
+Subject:  Color Definition Chart
+
+
+Does anyone know where I could get my hands on a beer color
+definition chart?  I don't care if it's SRM, Lovibond, or
+EBC degree. I have Fred Eckhardt's chart but I would like to see
+the colors instead of reading written descriptions.
+
+
+Thanks,
+John Shepherd
+
+
+------------------------------
+
+
+Date: Wed, 6 May 92 14:24 PDT
+From: dougd`at`uts.amdahl.com (Douglas DeMers)
+Subject: Say it ain't so, Joe!  (Re: MTHVAX ARCHIVES)
+
+
+In HOMEBREW Digest #877 Wed 06 May 1992:
+
+
+>The archives at mthvax will be ending soon, and the gatewaying of
+>the homebrew digest to rec.crafts.brewing will also cease.
+
+
+>sorry,
+>aem
+
+
+This is indeed sad news for the net.homebrewing community.  Andrew,
+you've provided a very valuable service to homebrewers, and I thank you
+for your efforts through the years.  The archives at mthvax have been
+an important resource for beginning and experienced brewers alike.
+
+
+Of vital consideration to the HBD/rec.crafts.brewing community is:
+
+
+1)  Do we want the HBD automatically gatewayed to rec.crafts.brewing as
+    it has been for these many months?
+2)  Are there any other internet sites with anonymous ftp access
+    willing to pick up and carry forward the homebrewing archives?
+3)  While we're at it, the issue of the continuance of HBD itself has
+    arisen recently.  Rob Gardner, the HBDigest Coordinator (thanks
+    Rob!) has mentioned that HP has been making unfriendly noises about
+    the volume of mail passing through HP having to do with the HBD.
+
+
+It may make sense to have the HBD automatically gatewayed from
+hpfcmi.fc.hp.com into rec.crafts.brewing and e-mailed only to those
+people who do not have a news-feed which carries r.c.b.
+
+
+I've snarfed all the current archives from mthvax and have locally
+added the incoming issues not stored at mthvax (incoming stops at issue
+872 : 92/04/27 03:09:52 : 378), but alas, the internet machine I use
+does not have anonymous access, nor is it likely it ever will.  Any
+volunteer sites?  I hope there will be a transition time before "the
+plug is pulled" on the homebrewing archives at mthvax...
+__
+Douglas DeMers,      | (408-746-8546) | dougd`at`uts.amdahl.com
+Amdahl Corporation   |                | {sun,uunet}!amdahl!dougd
+  [It should be obvious that the opinions above are mine, not Amdahl's.]
+  [               Amdahl makes computers, not beer.                    ]
+
+
+------------------------------
+
+
+Date: Thu,  7 May 1992 00:23:49 -0400 (EDT)
+From: David Christian Homan <dh10+`at`andrew.cmu.edu>
+Subject: Looking for a store or two....
+
+
+
+
+I'm moving to Chicago in three weeks and I'd like to hear from anyone in
+the area who knows of a good homebrew store.  
+
+
+
+
+Thanks in advance.
+
+
+
+
+= David.
+
+
+------------------------------
+
+
+Date: Thu, 07 May 92 00:08:00 -0700
+From: "Stephen Hansen" <hansen`at`gloworm.Stanford.EDU>
+Subject: Homebrew archives transfered.
+
+
+In HBD 877 Andrew Mossberg wrote that the archives at mthvax.cs.miami.edu
+would be ending soon.  In fact it appears that HBD 872 was the last one
+deposited in the incoming directory.  This has prompted me to finish what
+I started almost a year ago which was to copy the entire homebrew archive
+from mthvax to Sierra.Stanford.EDU (36.2.0.98).  The transfer is complete
+and I have brought it up to date.  Sierra is not yet running a netlib
+server so ftp is the only way to access the archive at present.  I will
+let you all know once I have netlib service available.
+
+
+Many thanks to Andrew for the fine job of maintaining the archive for so
+long.  While I've been a systems admin for more years than I care to think
+about, this is the first time I've tried to maintain an archive like this,
+so please bear with me.
+
+
+Stephen Hansen
+
+
+- -------------------------------------------------------------------------------
+ Stephen E. Hansen - hansen`at`sierra.Stanford.EDU  | "The church is near,
+ Electrical Engineering Computer Facility        |  but the road is icy.
+ Applied Electronics Laboratory, Room 218        |  The bar is far away,
+ Stanford University, Stanford, CA 94305-4055    |  but I will walk carefully."
+ Phone: +1-415-723-1058   Fax: +1-415-725-7298   |      -- Russian Proverb
+- -------------------------------------------------------------------------------
+
+
+------------------------------
+
+
+
+
+
+
+Date: Thu, 7 May 92 08:56:26 CDT
+From: whg`at`tellabf.tellabs.com (Walter H. Gude)
+Subject: Caloric Content of HB
+
+
+
+
+The other day after an exhusting hour of raquetball, I sat slumped against the
+wall nursing a Gatorade.  Glancing at the "Contents" I noticed "Water, High
+Fuctose Corn Syrup, Dextrose......" and not much else.  So this great
+sports drink is basically sugar water.  Furthur, this 16 oz bottle contained
+100 calories.  This got me thinking about the "beer belly".  Would drinking
+a "Milwieser" Light with about 100 calories cause any more belly than the
+Gatorade I was currently drinking? 
+
+
+Now, given the 100 cal in a light and then approx. 150 cal. in normal american
+swill, how many calories can I expect my normal 1.045 O.G. => 1.010 F.G. 
+homebrew to have?  How does one determine the caloric content of anything?  Is
+this possible to do at home?
+
+
+
+
+"Homebrew, gives your body what it's thirty for."
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 May 1992 10:52:26 -0400
+From: andrew mossberg / mthvax admin <aem`at`umigw.miami.edu>
+Subject: Re:  Say it ain't so, Joe!  (Re: MTHVAX ARCHIVES)
+
+
+the gatewaying should have ceased already.  A few people have mentioned
+trying to set up alternative archive sites, we'll see.
+
+
+I have left the dept, and have no control over the site any longer, or
+access to it. I expect that once they notice the archives, they will be
+removed
+
+
+aem
+
+
+------------------------------
+
+
+Date:     7 May 92 14:58:27 EDT
+From: "Chris Dukes"  <imagesys!file_server_1!CRD`at`uu.psi.com>
+Subject:  Brown ale recipes needed
+
+
+Help!
+
+
+I have recently jumped head first into the world of home brewing and
+would like to get some recipes for a nice brown ale.  I haven't much
+brewing experience, so please keep it very, very simple.  I apologize
+to those more experienced brewers, but I need to start someplace and
+I figured this would be the place to ask.
+
+
+I do have access to the necessary materials/ingredients for brewing
+as there is a great homebrew shop just up the road from my office,
+but I don't have much direction and find myself lost upon walking in
+the door.
+
+
+Any help with recipes and advice would be very much appreciated.
+I've been checking out the digest for a couple of weeks and it seems
+like a great place to start.
+
+
+Thanks, chris    crd`at`imagesys.com
+
+
+------------------------------
+
+
+Date: Thu, 7 May 92 9:33:37 PDT
+From: gummitch`at`techbook.com (Jeff Frane)
+Subject: A Couple of Answers & A Question
+
+
+> From: Now we will gnaw on their skulls <SELBYR`at`MEENA.CC.UREGINA.CA>
+> Subject: bad beer?
+> 
+Roger asks if he's beer from last September was bad.  Taste it, Roger.
+Unless there's something visibly growing on it, you ought to just taste
+it and see if it's worth bottling.  (The only thing likely growing on it
+is mold.)  You may need to pitch some fresh yeast along with the priming
+sugar; whatever was in the beer has undoubtedly flocculated out by now.
+
+
+The odds of anything BAD growing in the beer (pathogenic) are slim to
+zip.  If the beer smells really foul (or even just unpleasant), toss it
+out; it's not worth the bother of bottling.
+
+
+
+
+> From: sfw`at`trionix.com (Scott Weintraub)
+> 
+> Does anyone know where one might obtain treacle in the US?
+> 
+> I want to make a close approximation of Old Peculier, and apparently
+> need treacle.
+> 
+Treacle is apparently the British name for molasses.  I have been
+assured this by Brits.  On the other hand, if you _insist_ on using
+treacle, I know F. H. Steinbart, here in Portland, carries tins of
+treacle.
+> 
+> 
+
+
+
+
+> From: R_GELINAS`at`UNHH.UNH.EDU (Russ Gelinas)
+> Subject: yeast, NA
+> 
+>   Couple of questions:  First, for Jeff F., in your yeast cleaning
+> directions, step 4 says to agitate the water/yeast/trub mixture "until
+> obvious separation is noticeable" and then to pour off the yeast in
+> suspension.  Is this a quick process, or should the jar sit for a while
+> to separate?
+
+
+
+
+As I recall, this process takes about five or ten minutes.
+
+
+
+
+ON ANOTHER NOTE ENTIRELY:
+
+
+I will be arriving in Milwaukee sometime on the ninth of June (probably
+in the evening) and will not be staying at the hotel until the following
+night (esp. at $70 a pop!).  Is there a homebrewer in the Milwaukee area
+who could put me up for the night?  (I figure the people at Sprecher
+would probably throw me out at closing time, so that idea's out.)
+
+
+Any help would be appreciated.  This is a budget cruncher.
+
+
+- --Jeff
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu,  7 May 1992 20:19:13 -0400 (EDT)
+From: "Peter G. Goutmann" <pg1o+`at`andrew.cmu.edu>
+Subject: Best Beer Games You Have Known
+
+
+
+
+I'm interested in finding out what beer games people have enjoyed playing. 
+Please e-mail yours and I'll post a compilation.
+
+
+
+
+ -Peter Goutmann
+
+
+
+
+------------------------------
+
+
+Date:     Fri, 8 May 92 13:05:42 EDT
+From: "Robert J. Napholz" (GC-HSI) <rnapholz`at`PICA.ARMY.MIL>
+Subject:  co2 tank pressure
+
+
+
+
+Hello all
+
+
+Is there a minimal pressure for a co2 tank. The regulator that came with 
+my tank ranges for 0 to 2000 pounds it came with 1000# of co2.  From 0 to
+500 the guage reads refill(read zone) i now have about 800#. So the
+question is can i run the tank down to 12psi with out effecting the quality
+of the beer.
+
+
+Thanks  Rob Napholz
+
+
+------------------------------
+
+
+Date: Fri, 8 May 1992 12:05:39 -0700
+From: Michael.Burgeson`at`Eng.Sun.COM (J. Michael Burgeson)
+Subject: denaturing acid carboys
+
+
+I have recently come across a 7-gal acid carboy, but I am not
+sure of its history.  It is still in its styrofoam container
+with a nitric acid label on it.  It is empty and capped.  I
+looks clean.  Since I don't know its history, I thought the
+best thing to do was denature it before I use it, regardless
+of what it smells like when I open it.  
+
+
+Has anyone out there ever prepared acid carboys for use in
+homebrewing?  Is denaturing something I can do myself, or
+should I take it to a chemical lab?
+
+
+Thanks,
+Mike B.
+   
+   ____/   __  _  /  _   _  /
+  /       /  _/  /  /  _/  /
+______/ _/     _/ _/     _/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 8 May 92 17:18:29 EDT
+From: avalon!jm`at`siemens.siemens.com (Jeff Mizener)
+Subject: Old Peculier - New Peculiar
+
+
+In response to Scott's (sfw`at`trionix.com) question about obtaining treacle
+to imitate Old Peculier (a traditional Yorkshire Ale), I thought the following to be of general interest:
+
+
+You can find treacle at fancy grocery stores, or from
+American Brewmaster in Raleigh (mailorder).  The treacle I used was
+made by Lyons, the same people that make Golden Syrup.  If you can't
+find treacle, try unsulphured molasses (find treacle...).
+
+
+I have made a stab at O.P. based on the Elbro Nertke Brown Ale
+recipe from Papazian:
+
+
+New Peculiar
+
+
+6.6# dark extract
+1/2# crystal malt
+1/4# black patent malt
+1.5oz fuggles 45min boil (pellets)
+0.5oz fuggles 10 min boil (pellets)
+2 tsp 'water crystals'
+1 tsp irish moss
+Whitbread Ale Yeast
+1/2C black treacle
+
+
+Put malts into a boiling bag and place into 2.5g cold water.
+Bring to boil and remove, sloshing about and draining well 
+(as one would with a [giant] tea bag).
+Add extract, 1.5oz fuggles and boil 45 minutes.  During
+the last 10 minutes add the remaining hops.  Cool (I take
+my pot outside and put it in a baby bathtub full of circulating
+cold water from the garden hose).  Rack into a carboy and add
+yeast (I started the yeast with cooled-boiled water but recently
+I have taken to putting the yeast directly into the warm wort).
+I let it go for 4 days then racked into a second carboy where
+it sat for another week before bottling.  Bottle as usual.
+SG: 1.055, FG: 1.016
+
+
+Result:  very nice, matured well.  Dark but not black, could
+use some more body, but definitely not thin, lightly burnt
+taste (my wife's words) that I attribute to the black patent
+malt.  Tasty.  Not lawnmower beer. And it was only my 4th batch... 
+
+
+I now have a treacle amber ale fermenting (New Peculier Lite?)
+in the secondary.  Bottling is scheduled for this weekend.
+
+
+Hopfen und Malz, Gott erhalt's.
+
+
+Jeff
+========================================================
+Jeff Mizener / Siemens Energy & Automation / Raleigh NC
+jm`at`sead.siemens.com / Intelligent SwitchGear Systems
+========================================================  
+(reply to this address, not the one in the header!!)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 08 May 92 17:43:25 EDT
+From: Jay Hersh <hersh`at`expo.lcs.mit.edu>
+Subject: EZ mash tuns
+
+
+
+
+I went with the 5 gallon Gott cooler approach.
+$25 for the cooler. to replace the spigot get a 3/8 inch to 3/8 inch 
+right angle compression fitting and 6 ft of 3/8 copper coil.You'll
+also need a 3/8 female threaded spigot (the type you find underneath
+sinks and toilets). It is best to get the kind with a right angle 
+(like the simple diagram below) so the knob is easily accessed.
+
+
+
+
+         flow in -> -------| <- knob
+                         |
+                         | <- flow out
+
+
+
+
+Simply screw out the spigot. Tighten the coil on the 3/8 copper coil tubing.
+get a hacksaw and cut slots in the bottom of the tubing every 1/4 - 1/2 inch.
+mount the outer end of the coil in the compression end of the compression
+fitting. Pop this into the cooler, and put the compression fitting through the
+grommet where the spigot used to be. On the other side srew on the new 3/8 in
+threaded spigot you bought. This sytem works best with a 6.7 gallon size
+nylon sparge bag.
+
+
+I spent less than $40 on the whole setup. It loses less than 2 degrees
+temperature over an hour and is perfect for doing 3-6 gallon batches
+(depends on the OG you seek) as you can sparge up to 5 gallons and 12-15 lbs of
+grain in it. It sets a nice grain bed, and with a collander and bottling bucket
+(kind with a spigot) you can set up a nice sparge. Also re-circulation of
+the wort is pretty easy as well.
+
+
+Happy mashing
+
+
+                JaH
+
+
+- ------------------------------------------------------------------------
+Hopfen und Malz, Gott erhalts
+
+
+------------------------------
+
+
+Date: Fri, 8 May 92 18:12:42 -0500
+From: bronson`at`ecn.purdue.edu (Edward C. Bronson)
+Subject: Best of Beer and Brewing Contents
+
+
+    I am looking for a table of contents to the AHA publication 
+    "Best of Beer and Brewing," Boulder, CO: Brewers Publications,
+    1987.  This book is a compilation of selected talks presented
+    at the AHA conferences from 1982-1985.  I have the transcripts
+    from those conferences and I am interested to know which talks
+    were chosen as the "very best."  Thanks,
+                                              Dred Bronson
+                                              bronson`at`ecn.purdue.edu
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #878, 05/11/92
+*************************************
+-------

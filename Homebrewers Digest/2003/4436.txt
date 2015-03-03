@@ -1,0 +1,307 @@
+﻿Subject: Homebrew Digest #4436 (December 26, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4436                             Fri 26 December 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Correction ("A.J deLange")
+  Norse&heather ale ("-S")
+  Re: Temp Control (Reversing Output...) (Kent Fletcher)
+  Re: Ale Swedish? (Bob Devine)
+  Merry Christmas ("Gary Smith")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                       *
+*                  MERRY CHRISTMAS!                     *
+*                                                       *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 25 Dec 2003 13:46:49 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: Correction
+
+
+I should have said SPDT (not SPST) in my last post.
+
+
+Happy holidays to all.
+
+
+A.J.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 25 Dec 2003 12:12:05 -0500
+From: "-S" <-s at adelphia.net>
+Subject: Norse&heather ale
+
+
+Chad writes ....
+
+
+>Norse rule ended in 1057AD, when Malcolm Canmore married Ingibjorg,
+> the widow of Thorfinn Skullsplitter, the Norse ruler of Galloway ....
+
+
+1057 is far too early to call it quits for Norse rule in Scotland.
+MalcolmC's great grandson, Edgar, was forced to officially ceded the
+Hebrides and Kintyre peninsula to Mangus Barelegs king of Norway (cool
+name - no ?) ~1120, tho' these and other regions were never really under
+control.   Edgar's brother David, a succeeding king, gave landholdings to
+Normans (Normandy is basically a Viking colony in N.France) , thus the
+prevalence of Norman names in Scottish history like Blaillol, Bruce <<de
+Blailleul, de Brus>> , and also the French connection to Scotland.  When
+David dies ~1153 the Norway immediately sacks Aderdeen and the local Norse
+under part-Norse Somerled pummeled Glasgow.
+
+
+Galloway, Argyll, Moray and Caithness [the lords of the isles and the lords
+of lorne] continue to pay allegiance to the king of Norway under clan names
+like MacDonald and MacDougall until they and the fleet of Hakon king of
+Norway were soundly defeated by Scottish king Alexander III at the Firth of
+Clyde in 1263.  Of course AlexanderIII is also of mixed Norse and Hibernean
+lineage.  The Orkney and Shetland islands remain in Norwegian hands till
+they were given as dowry in the marriage of James III and 1469.
+
+
+The Norse took full advantage of the Medieval climatic warming from
+~1000-1300.  Makes one wonder what the real impact of the greenhouse gasses
+will be!
+
+
+I believe that heather ale, and (northern) art of distilling are both
+attributed in legend to the Picts.  The book, "Scottish Folk-tales and
+Legends" by Barbara Ker Wilson, has a nice account of the loss of the
+Pictish heather ale recipe in the 9th century conflicts between Hibernian
+invaders and Picts.   Great book even if you aren't 10yo.
+
+
+Great post too Chad - I'm much enjoying Wylie's eccentric history.
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 25 Dec 2003 10:56:18 -0800 (PST)
+From: Kent Fletcher <fletcherhomebrew at yahoo.com>
+Subject: Re: Temp Control (Reversing Output...)
+
+
+A.J. mistyped slightly in his response to the OP's
+question about inverting the output of a temperature
+controller:
+
+
+> A SPST (switching only the hot side) or DPDT 
+> switching both hot and neutral) relay energized 
+> by a controller can be used to get either direct 
+> or reversed output from it. The normally open 
+> contacts will close when the controller energizes
+> the relay and are thus in the same sense as the
+> controller. A load connected to the normally 
+> closed contacts is energized when the controller
+> isn't and thus inverts.
+
+
+Of course A.J. must have meant to say Single Pole
+Double Throw (SPDT), not SPST.  A SPST relay is
+sufficient, there is no need to switch the neutral
+side.  As a matter of fact, it's better NOT to switch
+the neutral, as there's one less thing (or actually
+two: the two extra contacts) to fail.  
+
+
+The OP (Brendan) also mentioned that the output of the
+controller was 110 v.  Brendan, if you can find a
+terminal strip, you'll probably see that the hot side
+of the 110 input is jumpered to another terminal,
+which is the line switched through the relay (the one
+inside the controller, not the one you're connecting).
+ If you remove the jumper you can connect whatever
+voltage you need for your new relay.
+
+
+Kent Fletcher
+Brewing in So Cal
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 25 Dec 2003 12:40:14 -0700
+From: Bob Devine <bob.devine at worldnet.att.net>
+Subject: Re: Ale Swedish?
+
+
+ > Bob Devine wrote:
+ >If you ever wondered where the name (ale)came from, >it is derived 
+from the
+ >Sweedish word for beer or ale. Ol is pronounced something between "ohl"
+ >and "uhl".
+
+
+Chad Stevens chides me thusly:
+ > Bob; Bob Bob Bob....(repeat again while shaking head from side to 
+side).  No
+ > self-respecting Norwegian can let this one go.  Old Norse "ol" (o with a
+ > line through it) is used to indicate both the drink and the festivity.
+ > [...] The point is, there's a whole host of evidence
+ > linking the English word "ale" to the Old Norse "ol."  I couldn't let 
+the
+ > modern Sweedish "ol" get all the credit.
+
+
+And, of course, Chad is right that the word "ol" predates the Swiss examples
+I cited.  In fact, the word crosses many borders -- Iceland and Denmark also
+use a descendent of the ancient word, in addition to Norway and Sweden.
+Heck, even in Lithuanian do you find the word "olus", meaning beer.
+
+
+In modern Norwegian, the word is spelled with an slashed 'o'.  Variants
+include juleol (Christmas beer), bokkol (bock), lettol (light beer), and 
+others.
+Unfortunately, Norway brewing is heavily controlled, government stores 
+(called
+the "monoplett", if I remember) are the only place to buy real beers.  
+Now less
+than 20 breweries survive in Norway and most beers are a variation of 
+pilsners.
+
+
+Bob Bob Bob Bob Devine ;-)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 25 Dec 2003 18:10:08 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Merry Christmas
+
+
+Best wishes to all of us, world-wide And a happy new year of wonderful 
+brewing and marvelous camaraderie.
+
+
+Cheers to any & all of you,
+
+
+Gary
+
+
+Gary Smith
+CQ DX de KA1J
+http://musician.dyndns.org
+http://musician.dyndns.org/homebrew.html
+
+
+Most of us know how to say nothing--few of us know when.
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4436, 12/26/03
+*************************************
+-------

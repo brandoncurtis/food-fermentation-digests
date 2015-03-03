@@ -1,0 +1,621 @@
+﻿Date: Sat, 28 Feb 2004 00:44:43 -0500
+Subject: Homebrew Digest #4487 (February 28, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4487                             Sat 28 February 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: Gas Measurement ("Greg 'groggy' Lehey")
+  re: metabite in brewing ("Patrick Twohy")
+  Determining EOF, hydrometers, clinitest, CO2graphs? ("Fredrik")
+  re: plastics and temperature ("Jon Czerwinski")
+  E-mail Harvesting & HBD (Sorta OT) (Bev Blackwood II)
+  Upstate NY, too Burley! ("Chad Stevens")
+  Off-Topic: SPAM Address Harvesting: On-Topic: Wits (Jason Poll)
+  Plastic comments from Dan Schultz (Aaron Martin Linder)
+  Insulated beverage (coffee) containers (Inland-Gaylord)" <BrianSmith1`at`templeinland.com>
+  mash tun and PID control ("Mike Sharp")
+  RE: Gas Measurement (Scott Alfter)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 27 Feb 2004 16:23:21 +1030
+From: "Greg 'groggy' Lehey" <grog at lemis.com>
+Subject: Re: Gas Measurement
+
+
+On Thursday, 26 February 2004 at  8:34:59 -0600, Ronald La Borde wrote:
+>> From: "Martin Brungard" <mabrungard at hotmail.com>
+>>
+>> What I'm hoping to cultivate with this message are some ideas about
+>> how a tipping device might be fashioned or if there are other
+>> approaches to flow measurement that aren't going to cost an arm and
+>> a leg.
+>
+> One possible way to calibrate the bubble counter might be thus:
+>
+>   * First I would think that the airlock solution must be at the same
+> volume and contain the same liquid to have any meaningful
+> repeatability.
+
+
+I've been counting bubbles for the last six months, and this is one of
+the things that bothered me.  It took me a while to realize that the
+concern was unfunded.
+
+
+The amount of gas required to create a bubble is pretty well
+independent of the amount of water in an airlock.  I'm talking about
+the traditional airlock, the kind I use: see
+http://www.lemis.com/grog/brewing/temperature-control.html (click on
+the photos for a larger version) in case of doubt.
+
+
+During fermentation, this kind of airlock has all the water on the
+exit side.  A bubble forms and escapes; the size of this bubble is
+dependent mainly on the diameter of the tube.  Then the water falls
+back and a new bubble starts.
+
+
+The size of the bubble is *almost* independent of the amount of water
+in the airlock.  The only effect of the amount of water is to
+marginally change the pressure in the fermentation vessel.  You can
+hardly expect a difference of more half an inch, which corresponds to
+about 1mm of mercury, much less than the typical changes in barometric
+pressure.  I therefore suggest that it's negligible.
+
+
+>   * So how about measuring the amount of water to completely fill a
+> corny keg, then empty the keg and put on airlock at gas out port. Now
+> start your bubble counter and slowly fill keg with water through the
+> liquid in port until full. This should give the exact volume of air
+> pushed out. This is your measurement and use this for calibration.
+
+
+This sounds like a good way to prove whether I'm right or wrong :-)
+
+
+>   * Someone had posted earlier about using an audio pickup to hear the
+> bubbling. This may work, but another method might be to have a small
+> magnet in the bubbler to pulse a reed switch, or perhaps a piece of
+> foil that would lift with the bubble and break a light beam
+> counter........
+
+
+Interesting ideas there.  I'm still thinking.  Maybe coloured water
+and an optical measurement at the bottom of the airlock?
+
+
+Greg
+- --
+Note: I discard all HTML mail unseen.
+Finger grog at lemis.com for PGP public key.
+See complete headers for address and phone numbers.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Feb 2004 22:19:07 -0800
+From: "Patrick Twohy" <hbd at twohy.net>
+Subject: re: metabite in brewing
+
+
+I'm a little unclear on the metabisulfate vs. chloramine issue. People are
+throwing around the term campden tablets, describing them as
+potassium metabisulfate.
+
+
+It's my understanding that campden tablets are SODIUM metabisulfate and
+that burton salts are potassium metabisulfate.
+
+
+Which is the chemical that's recommended for eliminating the chloramine
+problem?
+- --
+Patrick Twohy
+Brewing in Burlingame, CA
+(1784, 274 A.R.)
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 08:06:27 +0100
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Determining EOF, hydrometers, clinitest, CO2graphs?
+
+
+I read Dave Burley's post on clinitest and hydrometers, and I thought I'd
+add another idea to help monitor proper performance.
+
+
+Apart from integrating the graph to the the total CO2 emerging form the
+fermentor (if you add the residual CO2 in solution), I think alot be said
+also merely by looking at the qualitative shape of the curve. I think the
+underlying dynamics of yeast growth and depletion of sugars gives a series
+of characteristic graphs for each wort composiotion, temp and strain. I
+would expect a fermentation that slows becuse of underpitching or because it
+runs out of some nutritions to show a toally different characteristics in
+the CO2 graph. It may probably start out fairly normal, but then have an
+abnormal and too quick drop.
+
+
+I hade several batches get stuck last summer because of poor cooling. The
+average temp was good, but I had too high cooling gradients over the
+fermentor walls. It go stuck, and in the bubble graph it was clear that it
+was not normal. It drops way too fast after krausen in a way that does not
+comply to the depletion of sugars. Sample pic here for anyone who is
+interested: http://hem.bredband.net/frerad/beer/20035.jpg. Note that the
+temperautre of the wort wasn't too cool, but my theory was that the cold
+fermentor walls on one side probably knocked the yeast out. I also tried
+another yeast with the same result. Though it took me 3 batches to realize
+it was the cooling, the fact that it was abnormal was evident. Then I
+changed my method of temp control and the problem went away and hasn't come
+back.
+
+
+This was supposed to be another argument in favour of the CO2 flow meter
+discussion connecting to Ken's post. So even if there may be a certain
+inaccuracy in the meter I think one can still find some qualitative info
+from the graph.
+
+
+ /Fredrik
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 06:33:54 -0500
+From: "Jon Czerwinski" <joncz at mindspring.com>
+Subject: re: plastics and temperature
+
+
+Sean writes:
+>>>
+What about those brown rectangular thermal containers that caterers
+use for
+coffee?  I haven't found them on the web yet.  I wonder if anyone
+makes one
+big enough for mashing.  You'd think the US army would have big
+thermoses.
+<<<
+
+
+A mermite mash?!?
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 07:27:42 -0600
+From: Bev Blackwood II <bdb2 at bdb2.com>
+Subject: E-mail Harvesting & HBD (Sorta OT)
+
+
+I don't know about the rest of you, but I see spam as a normal 
+consequence of using e-mail.  Thus I am not so quick to judge the 
+origin of my spam, I simply let my e-mail program do its filtering 
+thing and bounce the few that make it past the filter.  I think the HBD 
+folks do an excellent  job of trying to 1) prevent spam making it to 
+the list and 2) not get our e-mails appropriated. We all need to 
+remember that someone, somewhere is always working against HBD's 
+efforts on our behalf and as a consequence be understanding on the few 
+occasions when the bad guys succeed.
+
+
+ -BDB2
+
+
+Bev D. Blackwood II
+http://www.bdb2.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 07:19:56 -0800
+From: "Chad Stevens" <zuvaruvi at cox.net>
+Subject: Upstate NY, too Burley!
+
+
+I'm going to be in Plattsburgh, NY for the entire month of April.  1.5 hours
+from Unibrou and across the lake from Gregg Noonan's Vermont Pub and Brewery
+(Gregg you WILL have smoked porter on tap won't you?)!
+
+
+Anyway, anyone need a judge or help with bottle check-in or having a club
+meeting within 3 or 4 hours of there during April?  Who's handling first
+round nationals for the Northeast?
+
+
+- ------------------
+
+
+"This is exactly why I use Clinitest to determine that the reducing sugars
+are...."
+
+
+Dave, you just had to let the dead horse out of the bag didn't you.
+Everyone has been tap dancing around the periphery, sticking their finger in
+every now and then to see if it's still warm, but you just had to go and
+sound the trumpets.  -S is striding purposefully from his lazyboy to his PC
+keypad at this very moment.
+
+
+Please, not another spat of clini-wars.  I'd rather go back to the gyno-
+thread.
+
+
+Regards,
+
+
+Chad Stevens
+QUAFF
+San Diego
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 10:25:34 -0500
+From: Jason Poll <jtpoll at mtu.edu>
+Subject: Off-Topic: SPAM Address Harvesting: On-Topic: Wits
+
+
+In HBD #4486 RickDude02 theorizes as how Patrick's email address may have
+been harvested by spammers. In the same digest Mark Kempisty comes close to
+what I think the answer is: SPAM-bots/scripts specifically designed to
+harvest HBD-like-formatted addresses: <name 'at' domain>
+
+
+Being a software developer myself I can tell you it's exceptionally easy
+for a morally inept person to write such a pattern-matching program. Even
+doing as Patrick suggests -- using a random character(s) instead of the
+word 'at' can still be easily circumvented. I'd say the best solution is to
+just get a junk yahoo/hotmail/etc email address. One that you don't mind
+getting flooded with spam.
+
+
+To keep this on-topic though, let me ask something I could probably get the
+answers to by searching the archives...if I only wasn't so busy at work. ;)
+
+
+I'm planning to brew a Wit, and wondered what peoples opinions were of
+preparing the coriander? I've heard crushing it lightly with a rolling pin,
+or giving it a whirl in the coffee grinder. I'm most concerned with how
+each crush-method will affect the end result. It intuitively seems that a
+lightly crushed coriander would require you to add more for the same flavor
+as a smaller amount of coffee-grinder-ed coriander.
+
+
+What about yeast?  I have BrewTek's CL900-Belgian Wheat on hand, is there
+any other yeast I should consider?  I recently cultured up some yeast from
+a bottle of Ommegang's Hennepin -- would that be terribly out-of-style?
+I've recently pitching different yeasts in different carboys of the same
+wort, so I'm open to suggestions.
+
+
+What about the unmalted wheat?  Do I need to do a cereal mash first?
+What's involved? (web links?)
+
+
+Any thoughts?  On or off-list comments are greatly appreciated.  Thanks!
+
+
+             --Jason in Boston, MI.
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 10:46:04 -0500 (EST)
+From: Aaron Martin Linder <lindera at umich.edu>
+Subject: Plastic comments from Dan Schultz
+
+
+
+
+
+
+- ---------- Forwarded message ----------
+Date: Thu, 26 Feb 2004 21:55:02 -0800
+From: D SCHULTZ <pnwbrewer at msn.com>
+To: lindera at umich.edu
+Subject: Rubbermade Coolers
+
+
+Aaron, I'll give you some information on coolers that I can't back up with
+data. I base my information on 5 years of brewing with a Rubbermaid cooler
+(which I don't use anymore) and 20 years in the plastics industry working
+for a company that sold plastics, many of which went through testing for
+surgical and or food contact testing. You're safe using the Rubbermaid and
+Igloo coolers. HDPE is such a widely used polymer that all of it that is
+made for use by companies as big as Rubbermaid, is designed for medical
+and food contact applications. Some of it may not have the official stamp
+but the plastic manufacturers don't change the recipe, they just don't do
+the paperwork. In these days of high volume production, I'll bet they sell
+nothing but food and medical grade materials. It would be too expensive,
+especially on a polymer that sells for less than $0.40 per pound, to have
+two or three separate materials to fulfill both needs.
+
+
+You'll note that the coolers are white. Rubbermaid either uses TiO2 or
+ZnS2 as a pigment. Both are food safe. Temperature won't be a problem as
+log as you stay under boiling temps. At those temps, the walls of your
+cooler will warp from softening.
+
+
+I would have posted this to the HBD but I still can't seem to get MSN
+based emails through. Thus, I responded personally. You're welcome to post
+this if you like.
+
+
+Cheers,
+
+
+ -Dan Schultz
+pnwbrewer  msn.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 09:50:39 -0600
+From: "Smith, Brian (Inland-Gaylord)" <BrianSmith1 at templeinland.com>
+Subject: Insulated beverage (coffee) containers
+
+
+Sean and everybody else,
+
+
+When Sean mentioned those oversized catering coffee carafes (sp), I
+remembered a catalogue for restaurant stuff I had.  Sure enough, there on
+page 48 of the Superior Products catalogue (www.supreprod.com) were those
+things.  They come in 2.5, 5 and 10 gal sizes.  Check them out.
+
+
+Brian Smith
+Big Ring Brewery and winery
+Bogalusa, La
+
+
+**********    Confidentiality Notice    **********
+This electronic transmission and any attached documents or other
+writings are confidential and are for the sole use of the intended
+recipient(s) identified above. This message may contain information
+that is privileged, confidential or otherwise protected from disclosure
+under applicable law. If the receiver of this information is not the
+intended recipient, or the employee, or agent responsible for delivering
+the information to the intended recipient, you are hereby notified that
+any use, reading, dissemination, distribution, copying or storage of this
+information is strictly prohibited. If you have received this information in
+error, please notify the sender by return email and delete the electronic
+transmission, including all attachments from your system.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 08:11:46 -0800
+From: "Mike Sharp" <rdcpro at hotmail.com>
+Subject: mash tun and PID control
+
+
+Sean suggests:
+
+
+"What about those brown rectangular thermal containers that caterers use for
+coffee?  I haven't found them on the web yet.  I wonder if anyone makes one
+big enough for mashing.  You'd think the US army would have big thermoses."
+
+
+
+
+I have looked at them but unfortunately, the 10 gallon is a LOT of money
+(nearly $200), and the 5 gallon has too narrow of an aspect ratio IMO,
+especially down near the bottom.  The wall is thicker at the bottom than the
+top.  They do make a soup container that would be much more suitable, but I
+was unable to find a large one at any kind of reasonable price.  I see them
+periodically on eBay, and elsewhere.  Cambro makes them.  You could go with
+stainless steel for the money these cost.
+
+
+Pat points out an excellent article on PID control.
+
+
+I have a theory that I've been meaning to try out for a long time, that
+would allow two standard inexpensive PIDs to operate in Cascade control.
+The SSRs are placed in series, so that one will be the SSR that is actually
+controlling, and the other won't.  As the system is below setpoint, the loop
+directly after the heater is the contolling one, and it allows the heater to
+raise the temp of the mash return as high as safely possible.   The other
+loop, at the exit of the mash tun, is still below setpoint, so it's "on"
+full time.  As it comes up into it's proportional band, eventually it will
+take over control of the heater, and the hot return temp will begin to fall
+until the mash is at setpoint and the heater is essentially off (except for
+heat losses).
+
+
+It remains to be seen if it such a system can be tuned...but I think so.
+
+
+Regards,
+Mike Sharp
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Feb 2004 09:53:32 -0800
+From: Scott Alfter <scott at alfter.us>
+Subject: RE: Gas Measurement
+
+
+On Thu, 26 Feb 2004 at 08:34:59 -0600,
+"Ronald La Borde" <pivoron at cox.net> wrote:
+>   * Someone had posted earlier about using an audio pickup to hear the
+> bubbling. This may work, but another method might be to have a small
+> magnet in the bubbler to pulse a reed switch, or perhaps a piece of
+> foil that would lift with the bubble and break a light beam
+> counter........
+
+
+One method I've considered (but not tried) would be to dye the liquid in the
+airlock, shine a light through it, and detect the changes in light received
+on the other side when the liquid interrupts the light.  I'm thinking that
+you could dye the liquid red and stick a green LED and phototransistor on
+opposite sides of the airlock.  Some simple signal-conditioning electronics
+between the phototransistor and a computer could count the time between
+bubbles.  The only catch I can see is that you would most likely want to use
+a glass airlock (unless the plastics commonly used to make airlocks are
+resistant to food dye), and I don't know if anybody still sells them.  (I
+have one that Dad picked up somewhere years ago, but it needs some cleaning
+before it's put back into use.)
+
+
+  _/_   Scott Alfter ($firstname at $lastname.us)
+ / v \  http://alfter.us/
+(IIGS(  Southern Nevada Ale Fermenters Union - http://snafu.alfter.us/
+ \_^_/  Beer and Loafing in Las Vegas - http://www.beerandloafing.org/
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4487, 02/28/04
+*************************************
+-------

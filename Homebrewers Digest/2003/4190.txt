@@ -1,0 +1,1533 @@
+﻿Date: Sat, 8 Mar 2003 00:56:26 -0500
+Subject: Homebrew Digest #4190 (March 08, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4190                             Sat 08 March 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Fully Automated Brewing System: Motor driven aggitator (Caryl Hornberger Slone)
+  Re:greed /  lag time ("greg man")
+  Conical Cooling Experiment Vol. 1....Any Refrigeration Experts Out There? ("Dave")
+  Refractometers and Hydrometers (Mychajlonka Kyle L IHMD)
+  Re: chicago water analysis ("Steve B")
+  more PID questions ("steve lane")
+  TMS, Greed and Wayne (rscotty)
+  Deadband vs. PID controllers (David Harsh)
+  Re: Dryhopping a Lager (Jeff Renner)
+  Re: Widget (Jeff Renner)
+  Re: extreme lag in primary (Jeff Renner)
+  Re: Chicago water analysis help ("Martin Brungard")
+  yeast rant ("Stephen Cavan")
+  Toledo Metal Spinning ("Eric R. Theiner")
+  Lag time (BrianS)
+  RE: Chicago Water, lag in primary ("Doug Hurst")
+  Overpricing to send a message... (Pat Babcock)
+  TMS Conical Hoppers & "Re-Alligned pricing" and Slow Ferments (Charles)
+  Chili Beer Questions ??? ("Spencer Graham")
+  lactic acid vs lactobacillus (Rama Roberts)
+  Hop bitterness limit ("Mike Racette")
+  Toronto reccomendations? (Alan Meeker)
+  commercial pitchable yeast products (Alan Meeker)
+  RE:  Deadband Controller ("Mike Sharp")
+  Hard TeaHi everybody (Ludwig)
+  Local certified beer judges ("Jeff Storm")
+  Intriguing CC alternative (Rod Tussing)
+  Care and cleaning of plastic (Rod Tussing)
+  poor extract effeciencies, Thanks! (Steven S)
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* The HBD Logo Store is now open!
+* http://www.cafeshops.com/hbdstore
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 07 Mar 2003 00:01:37 -0500
+From: Caryl Hornberger Slone <chornberger10`at`comcast.net>
+Subject: Fully Automated Brewing System: Motor driven aggitator
+
+
+I've decided to go with a motor driven stirrer of some sort with my fully
+automated brewery design.  This is so I won't run the risk of getting a
+stuck sparge during the mash (RIMS recirculation).  So I wonder if the
+tubulence from the stirrer, propeller, etc?, would push lots of grain under
+a false bottom during the course of a 2-3 hour mash.  I could try as Mark
+Alfaro writes in HBD#4188:
+
+
+I made a filter out of stainless mesh that is shaped like a sock. This
+filter fits snugly into my center drain to catch any particles that get past
+the false bottom. This arrangement works very well and keeps all the
+particles in the mash tun and out of my pump.
+
+
+But in wonder if that'd be enough especially since I only brew wheat beer
+with typically 60-70% wheat.  Maybe I just need to use rice hulls or
+something.  I don't know.  I need to find a way that is stuck sparge proof
+and easy to clean. and cheap.
+
+
+The motor should stir pretty slow, maybe 5-10rmp? But have decent torque to
+stir up a stuck sparge if one does occur.
+
+
+Anyone have any thoughts?
+
+
+Caryl Hornberger Slone
+Fort Wayne, IN
+Soon to be unemployed computer engineer who needs something to do.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 01:04:51 -0500
+From: "greg man" <dropthebeer`at`hotmail.com>
+Subject: Re:greed /  lag time
+
+
+
+
+>Date: Wed, 5 Mar 2003 22:31:12 -0800
+>From: "Wayne Holder" <zymie`at`charter.net>
+>Subject: Greed and serving memories
+
+
+>The 12.5 gallon model TMS16914 was about $74 as memory
+>serves.  It is now $152 - a little over 100% jump overnight!
+
+
+>Rich, you should check your memory server, I believe you have a parity
+>error.
+
+
+Actually I think for the 12 gallon hopper it was 80-90 dollars but what 
+matters is the raise in price!!From 90 to 150 that's blind greed, I could 
+understand $10 more dollars even 20 but that price is ridiculous and I hope 
+it causes them to go out of business. If not blind greed what would you call 
+it? Inflation?
+
+
+
+
+>1. As a homebrewing product manufacturer/wholesaler, I can tell you first 
+>hand about the added time and costs involved in shipping large quantities 
+>of small orders. It simply is more efficient to be able to ship a larger 
+>quantity of items to a smaller number of locations than it is to ship a 
+>smaller quantity of items to a larger number of locations.
+
+
+I understand this To a point. Lowering the cost on multiple orders is a 
+great Idea and a good incentive to get people to buy in bulk. I know 
+cardboard and all kinds of packing material cost money. But really How much 
+do you lose, remember WE PAY THE SHIPPING/& HANDELING!!!
+
+
+>Date: Thu,  6 Mar 2003 10:49:58 -0600
+>From: Brian Dube <brian.dube`at`gotgoat.com>
+>Subject: extreme lag in primary
+>
+>I brewed a 5-gallon batch of American cream ale on
+>Saturday, 01 March, and there is still no activity in the
+>air lock. I used a small yeast starter, but I did forget to
+>add yeast nutrient. Even if this batch does eventually take
+>off, will it be ruined by off-flavors (assuming an
+>infection doesn't take hold first)? I'm sorry that I'm
+>posting a question I can answer using the wait-and-see
+>method; I would rather just throw the batch out now if you
+>think this lag time is going to ruin the beer.
+>
+>Thanks,
+>Brian
+>
+>- --
+>Brian Dube
+>Columbia, Missouri
+
+
+How big was the starter? What was pitched into the starter, tube, slant, 
+smack Pack? If you pitched it Saturday then you better add a dry yeast pack 
+soon to save it. This might be a good thing for you to keep on hand for just 
+such an occasion, If you don't already have some.
+Will it cause any off flavors? Maybe But just as a side point I wanted to 
+mention a time when I pitched a whitelabs tube(so called pitch able) in to a 
+lager. It took 6 days before it started to ferment, I did not have any dry 
+yeast on hand, a problem I have since rectified. The funny thing is that was 
+the first lager I'd ever made an you know what?
+  I scored a 38, for a bock an one 3rd place, go figure?
+Although I an a bit of a SANITATION NAZI so I guess that helped because the 
+beer did not come out with any noticeable infection or off flavors.
+I hope by the time you read this that it has started to ferment!
+gregman
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 22:13:35 -0800
+From: "Dave" <brewingisloving`at`hotmail.com>
+Subject: Conical Cooling Experiment Vol. 1....Any Refrigeration Experts Out There?
+
+
+Hello,
+
+
+I have a 31 gallon conical fermenter.  It is covered with insulation and
+has
+a 6 foot coil running through the inside, through which a cooled solution
+flows.  The cooled solution is cooled in the freezer.  I was able to cool
+30
+gallons of water 26 degrees below ambient temperature using this setup.
+Specifically, I went from 70 degrees to 44 degrees.  I think I could have
+gone lower, but decided that 44 degrees was low enough for now.  It took
+about a day and a half to achieve this temperature.  I could have done it
+in
+24 hours, I think, if I had pushed it.
+
+
+Given how much I cooled the volume of water, over the 36 hour period, is
+this enough cooling capacity to hold 30 gallons of vigorously fermenting
+beer at, say, 68 degrees if the ambient temp was 80 degrees?
+
+
+Thanks,
+
+
+Dave
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 07:39:43 -0500 
+From: Mychajlonka Kyle L IHMD <MychajlonkaKL`at`ih.navy.mil>
+Subject: Refractometers and Hydrometers
+
+
+
+
+
+
+I received a new scientific equipment catalog put out by Cynmar Corporation
+( www.cynmar.com <http://www.cynmar.com> ) today and I found something of
+interest to everyone here. Since I have not researched refractometers I am
+not sure about the current market price. Cynmar has a refractometer (Brix
+scale) in their 2003 catalog for $85. They also carry an Alcohol
+Refractometer for $69 as well as a Digital Brix Refractometer for $399.
+ 
+In addition to the above they also have a range of Hydrometers for various
+uses (Alcohol, Wine, Specific Gravity, Brix, Balling, Plato, and even Urine)
+with and without built in thermometers. The prices for these range from
+$5-$30 depending on the scale of choice and whether it has a thermometer.
+They even list some as being professional and are supplied with a
+Certificate of Calibration. Anyway, I remembered Jeff commenting about the
+accuracy of hydrometers (at least I thought it was him) he had tested at a
+local homebrew shop. I personally found their Triple scale hydrometer jar
+with built in magnet to be of interest. The magnet on the jar helps to keep
+the hydrometer centered while taking a reading. Let me know what you think.
+I have never done business with this company and am unsure about how they
+accept orders from individuals, but I wanted to let all of you know what
+might be available and where to find it.
+ 
+Kyle
+Southern MD
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 08:00:22 -0500
+From: "Steve B" <habenero92`at`hotmail.com>
+Subject: Re: chicago water analysis
+
+
+I cannot comment on the quality of water in chicago but you mentioned 
+letting the water sit overnight to let the chlorine evaporate.  That 
+unfortunately is a myth.  A recent article by Robert Wolke that appears in 
+the Washington Post Food section (sorry I can't find it in the archives) 
+discussed the best water for making coffee, fresh from the faucet or sat out 
+overnight.  The debate was over whether or not the chlorine would disapate 
+and make better tasting coffee.  The short version is no the chlorine does 
+not disapate and the fresh from the faucet with lots of air is best.  You 
+need to add more chemicals or charcoal filter your water to remove the 
+chlorine.  And if you are noticing a chlorine smell you have a "mean" water 
+water system.  The smell most likely indicated they are using chloramines to 
+treat the water.  The chemists on the list can better discuss this than me.
+
+
+On another note in a recent UN report on the quality of water, the World 
+Water Development Report, Belgium had the worst quality water in the world.  
+Is this possibly the secret to that country brewing some of the most unusual 
+styles of beer?
+S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 07:49:09 -0600
+From: "steve lane" <tbirdusa`at`hotmail.com>
+Subject: more PID questions
+
+
+Like many others, I have a PID on the RIMs loop and a PID on the HLT.  I've 
+got two questions on this set up.
+On the HLT, it seems to take quite a while for the liquor to get up to that 
+last 10 degrees of ramp.  In the past, I've just run the set point to say 
+400 to increase the output and once the liquor gets to where I want it, I 
+set the temp. back down to 175 or what ever set point I desire.  Am I 
+fooling myself to think that I am getting the water heated up quicker by 
+dialing up the set point?  I also do this on the RIMs side of the rig when I 
+have a large grain bill to get the ramp to happen quicker.
+Question two:  The first place I ran into PID controllers was in  the 
+plastic bag industry.  They used PID's on heated die cutters to cut the 
+handles out of bags.  I was told that the controllers not only control the 
+amount of time that the heater elements are on but it also controls the 
+percentage energy going to the heater so that the heater isn't getting a 
+burst of 100% power when it is in the on mode.
+If this is correct, I don't understand what is happening with MY system.  
+I've got the PID controllers controlling relays that are strictly on/off 
+switches.  This was done to protect the PID's.  My electrician told me that 
+we don't want to run the power straight through the PID so that if something 
+blows, it will be the relay and not the PID.
+This brings me to the conclusion that I'm not the only thing I'm controlling 
+is on/off of 100% energy to the heating elements and I'm not controlling any 
+percentage of energy being fed to the elements.
+Was I told wrong at the bag company and PID's don't control the amount of 
+energy or is my system wired in a manner not using the PID's correctly?
+Thanks
+Stephen Lane
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 14:05:44 +0000
+From: rscotty`at`attbi.com
+Subject: TMS, Greed and Wayne
+
+
+Wayne Holder takes me to task for accusing TMS of greed.  I did some checking, 
+and my memory was indeed faulty.  The old price of the TMS16914 was $87, not 
+$74 as I stated in my post.
+
+
+This makes the price hike a 75%, not 100% as stated in my previous post.  I 
+stand corrected in this area.
+
+
+This does not change my opinion however as a 75% overnight price hike still 
+falls into the greed category for me.  
+
+
+Wayne elaborates on the cost of "onsie twosie" orders and that they are a 
+PITA.  Let's expose this to a little scrutiny.  I'm going to make some 
+reasonable assumptions and will state them as such.  You, gentle reader, are 
+left to form your own opinions.
+
+
+Assumption 1:  TMS was making a profit at the old price.  I don't think anyone 
+is in business to lose money.
+
+
+Assumption 2:  TMS charges appropriately for shipping to cover their costs.  
+These costs are on the order of $15 to $20 per previous buyers as posted on 
+the HBD.
+
+
+Let's look at a "onsie" PITA order.  Someone in the warehouse has to pick the 
+part.  Someone in shipping has to place it in a box and apply a shipping 
+label.  This entire process should take no longer than 10 minutes of actual 
+labor.
+
+
+Wayne - are you seriously trying to make a case for adding $65 to the price to 
+cover in house handling?  Remember that TMS already charges for shipping.  TMS 
+must either: 1) Have the highest paid warehouse workers in the world or 2) 
+Have the slowest warehouse workers in the world. 
+
+
+There is a third possibility however and that is that they found themselves in 
+the position of having a product that found a new market and decided to 
+exploit it.  That is their right in a free market economy.  Exercising that 
+right to this degree is, in MY opinion, greedy.
+
+
+You stated that you are in contact with executives at TMS.  Why don't you 
+invite them to respond right here on the HBD and then we'll have their 
+reasoning right from the horse's mouth.
+
+
+Stepping off my soapbox,
+Rich Scotty
+Social Conscious of The Crapshoot Brewery
+
+
+
+
+ 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 10:01:50 -0500
+From: David Harsh <dharsh`at`fuse.net>
+Subject: Deadband vs. PID controllers
+
+
+> Pat Reddy <Pat.Reddy`at`mavtech.cc> wrote about Deadband Controller
+
+
+ From a fundamental standpoint of control action, I don't disagree with 
+what's been written.  However, how necessary is a PID controller for 
+temp control on a HLT?  Here's my take on the situation-
+
+
+1.  An 8 degree deadband is huge, even for a cheap controller - I use a 
+Johnson A319 thats supposed to have a 2 degree deadband and its quite 
+accurate in that range - the biggest problem is the innacuracy of the 
+dial used to set adjust the setpoint, not the controller.
+
+
+2.  PID doesn't have any real value for a on/off system like a brewing 
+fridge.  Not that anybody has claimed otherwise, btw, but I thought I'd 
+mention it.
+
+
+3.  If you are trying to control temperature, but can only heat the 
+system, do you really have true PID control?  If you overshoot, you 
+would get a negative action from the controller, but without cooling 
+capability nothing would happen.  I should also mention that if your 
+heating circuit is a strict on/off, you wouldn't have a PID control 
+system either.
+
+
+4.  A heated tank (I think) falls under the category of a self 
+regulating system and doesn't really require fancy controllers.  Strict 
+proportional control should work as long as your gain isn't too high.  
+Can you even buy a straight proportional controller?  (and is it any 
+cheaper than the more versatile PID model?)
+
+
+Any thoughts or experience on the matter?  Or to rephrase - is my 
+control theory even weaker than I think?  ;)
+
+
+Disclaimer:  although I taught Chemical Engineering for many years, my 
+control engineering is very rusty - its the only subject I never taught 
+the UGs!  I don't really count lab experiments in tank level control as 
+control engineering experience...
+
+
+Dave Harsh                                        Bloatarian Brewing League
+Cincinnati, OH
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 10:07:30 -0500
+From: Jeff Renner <jeffrenner`at`comcast.net>
+Subject: Re: Dryhopping a Lager
+
+
+Russ Kruska <R.KRUSKA`at`CGIAR.ORG> writes from Nairobi, Kenya.  Good to 
+hear from you, Russ.  It's been a while, and it's good to know you 
+are still brewing in East Africa.  Is the club still active?
+
+
+>Have my first lager ever (a Pilsener) in primary now for almost 2 weeks
+>(50F) and need to transfer to a Corny keg this weekend. I would like 
+>to dry hop with Saaz whole hops during the secondary/lagering stage, 
+>but I also do not want to do another transfer later to another keg. 
+>Any ideas?
+
+
+Yes, I have an idea - Don't do it, Russ!!
+
+
+I've never tasted a dry hopped pils that I liked, and I think this is 
+an opinion that is shared by others who have tasted some of them with 
+me.  The dry hop flavor and aroma is entirely different from what is 
+traditional in a pils.  It is grassy and vegetative, and just not 
+pleasant.  I don't know if it is the character of Saaz and other 
+similar noble hops that doesn't lend itself to dry hopping or what. 
+I don't believe that dry hopping is done traditionally in this style, 
+or, for that matter, in other European lagers.
+
+
+But maybe you'll want to try it anyhow.  I think it's important not 
+to just take other people's opinions, at least blindly.  Who knows? 
+You might like it.  If you do, perhaps you'll want to try it on just 
+part of your batch.  If you do, please report back.
+
+
+You can put them in a nylon bag and suspend them in the keg by a 
+string, then remove them after two weeks.  You won't be able to 
+easily seal the keg if you leave the string outside the keg, but 
+perhaps you could attach the string to a float and seal the keg. 
+Then relieve the pressure after two weeks, retrieve the bag of hops, 
+and reseal and purge with CO2.
+
+
+>I also am confused about when to force carbonate (if at all) during
+>secondary.  I have read that it is good not to ferment under 
+>pressure. So do I keep releasing the pressure during the lagering, 
+>and then force carbonare after lagering is finished?
+
+
+Lagering under modest pressure isn't a problem and, if I recall 
+correctlly, it actually speeds the process.
+
+
+I generally find that most of the fermentation is done when I rack to 
+the lagering keg, so I seal it and, when I'm lucky (the majority of 
+the time), carbonation turns out just about right and need little 
+adjustment.  I wouldn't relieve the pressure unless it is extremely 
+high.  Try venting a keg with proper pressure and you'll get an idea 
+of what it sounds like.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 10:33:49 -0500
+From: Jeff Renner <jeffrenner`at`comcast.net>
+Subject: Re: Widget
+
+
+AJ <ajdel`at`cox.net> wrote
+
+
+>beer rushes out through the little hole to disturb the bear
+>and produce the visual effect.
+
+
+Does this have something to do with the beer-can chicken"  Do you 
+shove the widget up the bear's, umm, big hole?  I'll bet that would 
+disturb it.  I wouldn't want *that* job!
+
+
+That does indeed conjure up an image of visual effect.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 10:40:54 -0500
+From: Jeff Renner <jeffrenner`at`comcast.net>
+Subject: Re: extreme lag in primary
+
+
+Brian Dube <brian.dube`at`gotgoat.com> writes from Columbia, Missouri
+
+
+>I brewed a 5-gallon batch of American cream ale on
+>Saturday, 01 March, and there is still no activity in the
+>air lock. I used a small yeast starter, but I did forget to
+>add yeast nutrient. Even if this batch does eventually take
+>off, will it be ruined by off-flavors (assuming an
+>infection doesn't take hold first)? I'm sorry that I'm
+>posting a question I can answer using the wait-and-see
+>method; I would rather just throw the batch out now if you
+>think this lag time is going to ruin the beer.
+
+
+There's a rule among EMTs that no one is dead until they're cold and 
+dead.  A similar rule applies here - never throw out a beer because 
+you think it might be bad.  Wait until it's old and bad (unless it's 
+clearly infected).  It may ferment out just find, and even if it 
+doesn't taste great when it's finished fermenting, it may age out to 
+be better.
+
+
+Long lag times are not a good sign, but you shouldn't need yeast 
+nutrient.  It's  not a good substitute for good pitching rates and 
+aeration/oxygenation of the wort.  If you sanitation techniques was 
+good, your odds are better that nothing untoward has grown while the 
+yeast gets its act together.
+
+
+Good luck, and report back on how it turns out.
+
+
+Jeff
+
+
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 11:04:04 -0500
+From: "Martin Brungard" <Martin.Brungard`at`trow.com>
+Subject: Re: Chicago water analysis help
+
+
+Judging by the published water analyses, Chicago water isn't too bad for
+brewing.  Scott Staley has been using distilled water for brewing, staying
+away from the tap.  Understandably, the hassle and expense of using distilled
+water finally got to Scott.
+
+
+My review of the numbers indicates that Chicago tap water should be a good
+starting point for many styles.  The alkalinity and hardness are slightly
+high, but not problematic.  The alkalinity should make the water more ideal
+for darker grists.  A little acid added to the mash will take care of the
+alkalinity when creating lighter colored beers.  The hardness is too high for
+styles like pilsner, but you could probably just dilute the water with
+distilled to bring it into line.  Probably 1 or 2 parts distilled to 1 part
+tap should do it.
+
+
+For the alkalinity level in the tap water, adding 200 to 300 ppm of hardness
+should make the water ideal for lighter colored beers that don't rely on soft
+water.  No acidification is needed if the water is hardened.  Gypsum, epsom
+salt, or calcium chloride are options.
+
+
+The calcium concentration for Chicago tap water may be slightly lower than
+desirable for yeast health.  It appears that hardening with calcium chloride
+might be warranted for maltier, less hoppy beers.  The sulfate concentration
+might be slightly high if you didn't want to accentuate bitterness.  That
+means that the water is more ideal for more bitter styles, but not overly so.
+I'm betting that Chicago brewers have little problem with the sulfate levels.
+
+
+
+
+I would expect that many brewers would still add gypsum for pale ales,
+bitters, etc.  The magnesium concentration is moderate. I would be very
+careful when adding epsom salts to this water, its not too far from the limit
+for magnesium concentration. 
+
+
+I have noted odor and taste in many public water supplies that use a surface
+water source.  If Chicago water has that problem, I would go with carbon
+filtration to reduce odor and taste, as well as remove chlorine.  For $30 or
+$40 bucks, a carbon filter will save you a lot of time and hassle. 
+
+
+Ken Schwartz's practice of adding dry malt extract and gypsum to distilled or
+reverse osmosis water is sound.  The lack of buffering capacity makes the DME
+very effective in dropping the water pH.  The added gypsum adds the calcium
+needed for yeast health.  I suggest that adding calcium chloride is another
+option for this approach when pursuing less bitter styles.  
+
+
+I would brew with Chicago tap water.  It is similar to my tap water, although
+my sulfate concentration is much lower.  Get a carbon filter and go for it.
+
+
+Martin Brungard
+Tallahassee, FL 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 10:06:25 -0500
+From: "Stephen Cavan" <scavan`at`sprint.ca>
+Subject: yeast rant
+
+
+Hi Brian,
+
+
+"The question is, why can't the liquid yeast people start putting out
+products with respectable cell counts at a price near to what they are
+providing now? I suspect that a sizeable part of the cost of a yeast pack or
+tube or whatever is the overhead cost of producing it period, and has little
+to do with the quantity of yeast provided. My guess is, they could produce
+what I want, they just have little incentive to do it. "
+- ---------------------------
+I would make two points here. There is a cost to generating the slurry that
+goes into each pack, and a timeframe. At Wyeast the orders are gathered
+Monday afternoon and cultures are built to demand. This is why some strains
+such as Staropramen need 10 day lead time -- the culture on hand is very
+small.  Maintaining all their various strains at a level of activity which
+allows rapid build up is difficult and expensive    In fact, my second
+point,  they do offer bigger slurries in a 250 ml smack pack designed for
+BOP operations, and 1 L+ jugs. Just ask your LHBS to grab some as "Special
+Order" for you.
+
+
+Another point is that shipping costs go very high as these larger sizes
+contain a lot of water. The average XL pack costs $1 US to ship to me in
+Canada -- provided I get about 50 packs (if I foolishly order 10 packs, the
+cost per pack, well I don't want to think about it).  When I last ordered
+BOP sized packs, the shipping costs ran about $2.50US for each pack, which
+is why you don't see these at your LHBS.
+
+
+My third point (Monty Python anyone), when they package yeast they don't
+know that you are planning special conditions.
+A very cold ferment or very high gravity place huge demands on the yeast
+culture, that really only the brewer can account for. Wyeast will certainly
+make (I don't know about others) fully pitchable yeast packs for any brewing
+situation, but you have to ask for the amount of yeast you need.
+
+
+Cheers,
+Steve
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 11:12:27 -0500
+From: "Eric R. Theiner" <rickdude02`at`earthlink.net>
+Subject: Toledo Metal Spinning
+
+
+I find it hard to believe that any reputable company simply raised their 
+prices in order to pad their wallets.  What is more likely is that at the 
+close of the fiscal year they reviewed their costs of fabrication (labor, 
+materials, shipping, overhead, etc.) and found that their target margin was 
+not being maintained in that product.
+
+
+Happens all the time in industry, but consumers generally don't see it due 
+to the distributors and retail outlets that have multiple products and 
+lines which can be adjusted to minimize price jumps in single products.
+
+
+Rick Theiner
+(Not a customer, just a business owner who is sick of being accused of 
+being a capitalist pig because I think it would be nice if my children 
+didn't starve) 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 08:43:37 -0800 
+From: BrianS <schar`at`cardica.com>
+Subject: Lag time
+
+
+Brian Dube writes:
+
+
+> I brewed a 5-gallon batch of American cream ale on 
+> Saturday, 01 March, and there is still no activity in the 
+> air lock. I used a small yeast starter, but I did forget to 
+> add yeast nutrient. Even if this batch does eventually take 
+> off, will it be ruined by off-flavors (assuming an 
+> infection doesn't take hold first)? I'm sorry that I'm 
+> posting a question I can answer using the wait-and-see 
+> method; I would rather just throw the batch out now if you 
+> think this lag time is going to ruin the beer.
+
+
+Sometimes your beer will go through its most vigorous fermentation while you
+are asleep or at work.  It's possible that there was a lot of activity that
+you just didn't notice, so that you may have tasty beer in your fermenter
+right now.
+
+
+Before you do something as drastic as throw your beer out, sanitize a ladle
+or something similar and taste what's in the fermenter.  If it's sweet but
+not off-tasting, throw in some more yeast and see what happens.  If it
+tastes like beer, bottle it.  If it tastes bad, throw it out. 
+
+
+Brian Schar
+Belmont, CA  
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 11:18:50 -0600
+From: "Doug Hurst" <DougH`at`theshowdept.com>
+Subject: RE: Chicago Water, lag in primary
+
+
+
+
+Scott asks about Chicago water and it's suitability for all grain
+brewing.  Coincidentally, I just started studying water chemistry and
+the Chicago water report over the last few days.  Unfortunately, I'm
+only just scratching the surface of water chemistry.  Add to that my
+barely high school level of chemistry knowledge and you see my level of
+understanding.  The important characteristics (and their levels in
+Chicago water) seem to be:
+
+
+Alkalinity as CaCO3 - 102
+Hardness as CaCO3 - 142
+Calcium - 30
+Magnesium - 11
+Sulfate - 26
+Sodium - 7
+
+
+In my experience, brewing dark beers with this water works great.  On
+the other hand, I've found that the pH of lighter beers tends to be a
+tad bit high (I'm using pH paper rather than a probe, so it's hard to
+take precise measurements).  
+
+
+The last time I made an ESB I added about 8 grams of gypsum and a couple
+drops of lactic acid to my mash water which seemed to help lower the pH.
+By my understanding 8 grams of gypsum to a 3 gallon mash should have
+raised the Calcium level by 164 and the Sulfate level by 392, which when
+added to the existing salts, is near Burton levels.  This should have
+also helped lower the pH.  The resulting ESB turned out much better than
+my earlier lighter beer attempts.  Of course I'm not entirely sure if
+the resulting beer quality was due to the water treatment or to other
+variables, but it sure was good.  I need to make some more of that...  
+
+
+BTW, I run all my water through an under-sink filter, which seems to
+eliminate the chlorine.
+
+
+I'm sure there are others on the HBD who could give us a much better
+explanation of Chicago's water chemistry than I can (In order to protect
+the guilty, I won't call out any names).
+
+
+- -------
+Brian asks about a lag in his primary fermentation and writes: 
+"I would rather just throw the batch out now if you think this lag time
+is going to ruin the beer."
+
+
+Don't be too quick to dump anything, least of all this.  I assume your
+fermenter is a plastic bucket and you can't see inside to determine if
+there's any activity.  This is why I love my glass primary.  It's great
+fun to watch the swirling action of beer at high kraeusen (but I
+digress).  It's possible you just don't have a perfect seal on the lid
+and gas is escaping without going through the airlock.  Pop the lid and
+take a look inside.  If it's fermenting you'll probably see a large head
+or at least some foam on the surface.  It should smell like fruity,
+yeasty beer. If it's not doing anything, I'd add new yeast instead of
+dumping it.  In the end it's possible there will be off flavors, but
+it's also possible the beer will be great.
+
+
+
+
+Doug Hurst
+Chicago, IL
+[215, 264.5] Apparent Rennerian
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 13:44:20 -0500 (EST)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Overpricing to send a message...
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+When a vendor wants to tell me they do not want the job I'm
+offering, but wants to remain true to the "politics" of the
+quote process, they over quote the bid substantially. Hence,
+they ansered the call for bids, but in such a way that indicates
+they do not or can not contain the work.
+
+
+It would not surprise me that TMS is not configured in such a
+way to support the vagaries of the retail market, and have
+adjusted their pricing so as to maintain inventories to supply
+the more-lucrative commercial bulk sales, particularly if they
+have been missing bulk sales because the retail market has
+nickelled and dimed their inventories beneath minimum
+quantities, and they haven't the manufacturing capacity to
+respond quickly with new stock.
+
+
+Or they could simply be greedy, having discovered a new market
+and/or realized what some of the post-processors are selling
+their hoppers for when equipped with a few dollars worth of
+valves and such.
+
+
+In any case, I still see the $150 as less than buying commercial
+equipment. If you have no alrternatives, but want the unit,
+swallow hard and buy it. We call it "the rule of supply and
+demand" hereabouts...
+
+
+
+
+
+
+- -- 
+ -
+God bless America!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+[18, 92.1] Rennerian
+"I don't want a pickle. I just wanna ride on my motorsickle"
+                                   - Arlo Guthrie
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 10:08:43 -0800 (PST)
+From: Charles`at`thestewarts.com
+Subject: TMS Conical Hoppers & "Re-Alligned pricing" and Slow Ferments
+
+
+On Wed, 5 Mar 2003, "Wayne Holder" <zymie`at`charter.net> thoroughly chastised
+Rich Scotty:
+
+
+> Rich Scotty posts:
+>> "Bad news for those of us who procrastinated on constructing a conical
+>> fermentor.  Toledo Metal Spinning has doubled all their prices on the
+>> conical
+>> hopper family.  The 12.5 gallon model TMS16914 was about $74 as memory
+>> serves.  It is now $152 - a little over 100% jump overnight!
+>> Does anyone know of another source for these vessels?  TMS got greedy.."
+> 
+> Rich, you should check your memory server, I believe you have a parity
+> error. 
+> It is true that TMS has re-aligned their pricing matrix to reflect a volume
+> pricing discount structure. While the single piece price has increased, it
+> is not a "100% jump overnight". I always recommend checking your facts
+> before publicly posting, especially when using terms like "greedy".
+[stuff deleted here]
+> Nothing beats actual information. Calling people greedy that don't deserve
+> it is uncalled for.
+[more stuff deleted]
+> Stainless fabrication is not cheap.
+
+
+Wayne -
+
+
+Call it what you will, but a 75% sudden increase to the brewer who was going to
+buy one is diffucult to take.  I think Rich's memory is accurate, regardless of
+whether you call such a huge jump in prices "greed" or "re-alligned . . .
+pricing".  And I think he DOES present "acutal information," even if he off on
+the price by a few dollars.
+
+
+I bought one a few weeks ago and thought it a very good value at $87. In fact I
+was even going to buy a second for lagering.  But at $152 I will
+probably not do so, nor will I continue to enthusiasticlally recommend them on
+my web site.  With the amount of time and money required to build a fermenter
+from this hopper, buying a pre-fabricated unit just became $65 ($152-$87) more
+attractive.
+
+
+Your rationalle for TMS's huge increase was that small orders were not
+profitable.  But even orders of greater than 25 units just jumped by 20%.  I
+have to think this 20% to 75% increase has much to do with their new-found
+popularity amoung homebrewers, and specifically the good mention they've
+received on this forum.  You also justify TMS's quantum leap in price by stating
+"stainless steel is not cheap."  Well, it was LAST week!  I, like Rich, am
+surprised and disappointed.
+
+
+On Thu, 6 Mar 2003 Brian Dube <brian.dube`at`gotgoat.com> is converned about his
+extreme lag in primary:
+ 
+> I brewed a 5-gallon batch of American cream ale on 
+> Saturday, 01 March, and there is still no activity in the 
+> air lock. 
+
+
+Brian - I had this happen over a couple of consecutive brew sessions before I
+realized there was a small crack where my air lock joins my fermenter.  A little
+epoxy fixed that up nicely.  I've also heard of brews that ferment out in such a
+short time that the brewers never saw it.  Test your gravity and see if it
+really has fermented.
+
+
+Chip Stewart
+Gaithersburg, Maryland, USA
+Charles at TheStewarts.com
+http://Charles.TheStewarts.com/brewing
+
+
+Support anti-Spam legislation.
+Join the fight http://www.cauce.org
+
+
+Chip Stewart
+Charles`at`TheStewarts.com
+http://Charles.TheStewarts.com
+
+
+Support anti-Spam legislation.
+Join the fight http://www.cauce.org/
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 13:37:53 -0500
+From: "Spencer Graham" <Spencer.Graham`at`mail.wvu.edu>
+Subject: Chili Beer Questions ???
+
+
+I am intrigued by the idea of this type of Chili beer.  
+Is it a HOT flavor that only a select few will tolerate, or is it simply 
+a "pepper connotation" taste?  I imagine it would depend upon 
+the type of peppers and amount used.  My brewing buddy and I 
+like spicy stuff... but we want others to like it as well.  Suggestions 
+as to an "introductory chili beer"?  Where can we get the peppers 
+to use?  Do we need to roast them ourselves or are they bought
+that way?  I love HBD and all the great threads we get!  
+Thanks to everyone in advance!  
+Special thanks to the HBD caretakers!!!
+
+
+Spence  & Brett 
+Morgantown, WV
+
+
+
+
+
+
+Spencer W. Graham, II   MBA
+Producer / Director
+West Virginia University Extended Learning
+(304) 293-3852
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 10:47:15 -0800 (PST)
+From: Rama Roberts <rama`at`eng.sun.com>
+Subject: lactic acid vs lactobacillus
+
+
+I'm thinking about just using lactic acid instead of lactobacillus in an
+Oud Bruin, so I have finer control over acidity levels, don't have to
+worry about how things may change over time in the bottle, or use seperate
+hoses etc to avoid contaminating future beers with the lacto bug.
+The Ray Daniels DGB book mentioned someone took first place for a berliner
+weisse doing this. 
+
+
+One thing I'm concerned about is perhaps the finished product will taste
+one dimensional, if the lacto contributes more to the flavor profile than
+just lactic acid.
+
+
+Any thoughts on this technique?
+
+
+- --rama roberts
+SF bay area
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 12:28:38 -0700
+From: "Mike Racette" <mike.racette`at`hydro-gardens.com>
+Subject: Hop bitterness limit
+
+
+I have heard, and there is some reference to the fact in "Designing Great
+Beers" that there is an upper limit to the solubility of alpha acids in wort
+somewhere around 80-100 ibu's. Also (heard only) that there may be an upper
+limit around the same ibu's of how much bitterness the human palate can
+actually detect.
+
+
+You see some micro-brews and homebrew recipes with ounces and ounces of hops
+being added, but are they just wasting hops after a few ounces?
+
+
+Ray you out there?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 14:42:14 -0500
+From: Alan Meeker <ameeker`at`mail.jhmi.edu>
+Subject: Toronto reccomendations?
+
+
+Shawn Lupold & I are heading up to Toronto in early April. Any good brewpubs
+in town?
+
+
+Thanks in advance
+
+
+ -Alan Meeker
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 15:06:26 -0500
+From: Alan Meeker <ameeker`at`mail.jhmi.edu>
+Subject: commercial pitchable yeast products
+
+
+Brian posted concerns regarding the cell numbers in commercial yeast
+cultures non-dry forms of yeast).
+
+
+I agree that for the lager strains you will be underpitching. However, the
+cell numbers contained in the relatively new "pitchable" formats do hit the
+range of acceptability for ale strains. This assumes, of course, that the
+viability is still high in the culture when you actually pitch.
+
+
+IMHO, expanding a culture, regardless of the original source, by making a
+starter is pretty darn easy. Sure, there is a risk of contamination each
+time you do (or with each step if you do it in a multi-step fashion), but if
+you take some simple precautions, that risk should be minimal. Making a
+starter has the added benefit of allowing you to "proof" the yeast, again
+regardless of the source. Without doing this, one has no real indication as
+to the viability of a given yeast sample, either liquid, dry or whatever.
+
+
+As far as the unresponsiveness of the commercial yeast enterprises to the
+needs of the homebrewers - in their defense, they are obviously paying some
+attention to our concerns, else they would not be offering these larger
+cultures. Of course, these larger cultures cost more, so maybe one could
+argue they are also increasing their profit margins by doing this.
+
+
+ -Alan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 12:55:12 -0800
+From: "Mike Sharp" <rdcpro`at`hotmail.com>
+Subject: RE:  Deadband Controller
+
+
+Bill Tobler asks about his PID Controller
+
+
+"When I tried using PID control for the mash tun, as the mash approached
+temperature, the three way starting going back and forth very rapidly,
+bypassing every few seconds."
+
+
+This is always an issue for mechanical systems.  Most PID controllers should
+have a setting for the time constant/duty cycle, etc.  Omega calls it "Cycle
+Time," I believe. If you adjust the cycle time to, say 15 seconds, you can
+still make use of PID control.  For heaters driven by solid state relays, I
+like to use a duty cycle of around 1-2 seconds.  But that's too fast for a
+system with mechanical elements, including a heater with an
+electromechanical relay.
+
+
+You'll have to re-tune your controller when you change the cycle time.
+
+
+Regards,
+Mike Sharp
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 16:24:06 -0600
+From: Ludwig <Bluestar792`at`netscape.net>
+Subject: Hard TeaHi everybody
+
+
+Hi Everybody
+
+
+I had a friend ask me if I could make some hard icetea or Lemonade.  He 
+assures me that they are malt beverages and not tea with pure alcohol 
+added.  Could someone give me a recipe for either or both of these 
+explaning how they are made.
+
+
+George
+- -- 
+Your favorite stores, helpful shopping tools and great gift ideas. 
+Experience the convenience of buying online with Shop`at`Netscape! 
+http://shopnow.netscape.com/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Mar 2003 23:25:04 +0000
+From: "Jeff Storm" <homebrewjeff`at`hotmail.com>
+Subject: Local certified beer judges
+
+
+I am interested in meeting some local certified beer
+judges in the Louisville, Colorado area (near Boulder).
+I am an all grain homebrewer of 2 years and would like
+to get some feedback on my beers from outside sources.
+I am not really interested in competitions as I keg
+all my beer and I do not have a counter pressure filler
+at this time.
+
+
+I am looking for feedback because as the brewer of the
+beer, it is often hard to critique the product as well
+as an outsider.  It's like critquing a member of your
+family.  Personal emails are welcome.  Thanks
+
+
+
+
+Jeff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 16:43:35 -0800 
+From: Rod Tussing <RodT`at`pplant.UCDavis.edu>
+Subject: Intriguing CC alternative
+
+
+The increased price for stainless steel hoppers made by Toledo Metal
+Spinning was noted by Rich Scotty in Digest 4188.  I too have surfed to
+their site and sometimes day dream about having a conical fermentor.  
+The true benefits derived from a conical vessel in small scale brewing are
+debatable.  You can read many "testimonials" in the HBD archives about the
+joy of fermenting in a cylindroconical.  The price tag has always been an
+issue and TMS remains the best price I've seen for do-it-yourself using
+stainless.   I have found a _potential_ alternative that I want to bring to
+the collective's attention: 15 and 30 gallon Mix and Fill tanks from US
+Plastics. 
+Visit www.usplastic.com and search for item 8551 or 8553 to see these tanks.
+
+
+I have neither used nor even seen them first hand and am not affiliated, not
+even a customer(yet), yadda yadda.
+
+
+The price for the 15 Gal tank with stand is under $105.00!  They seem to
+meet 1/2 Bbl homebrewing to a tee - FDA approved, UV resistant, 12" screw on
+lid, translucent with 1 gal graduations.
+
+
+Care and cleaning of the plastic is the only potential drawback that I can
+see but I know that many homebrewers do a wonderful job using plastic
+buckets for fermentors.
+
+
+Has anybody tried these yet?
+
+
+
+
+Rod Tussing
+Sacramento, CA
+
+
+[1975.1, 275.1] Miles Apparent Rennerian
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 17:09:10 -0800 
+From: Rod Tussing <RodT`at`pplant.UCDavis.edu>
+Subject: Care and cleaning of plastic
+
+
+I currently use corny kegs for fermentors but am considering going to
+plastic as mentioned in my earlier post.  I know that lots of homebrewers
+are using plastic (buckets, minibrew conicals, v-vessels, etc) fermentors
+and I wonder what is the best way to clean but not scratch?
+
+
+I imagine that green or even white scrubbies would be bad for the surface.
+I currently use PBW on my brew kettles and cornies but I wonder if it is too
+harsh for polyethylene and the fivestar web site doesn't mention it's use on
+plastic.   
+
+
+
+
+Rod Tussing
+Sacramento, CA
+
+
+[1975.1, 275.1] Miles Apparent Rennerian
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Mar 2003 20:46:52 -0500 (EST)
+From: Steven S <steven`at`403forbidden.net>
+Subject: poor extract effeciencies, Thanks!
+
+
+
+
+There was a thread a bit ago about extract effeciencies. I've been meaning
+to post regarding my own poor performance in this respect. Luckly some
+good suggestions were given and I tried two of them to a good success (so
+far). I increased my mash time from 60 to 90 minutes. My iodine test
+strips have not nor do not indicate this helped but I dont like the test
+strips accuracy anyway. I did do a "double grind" of my grain. I ground it
+as normal at my hbs, then passed it through a second time. I did notice a
+good deal of the "kernel" still in the cracked husk on the first pass. On
+the second pass more of the kernel seemed to be seperated from the husk.
+Cranking down the mill gap didnt help but instead produced more flour.
+
+
+With 10#'s of pale malt (some brand called pete's - i've very pleased with
+the taste of this malt) I managed 1.062 out of my cooled wort (5.5gallon).
+I barely managed this with my last batch at twice the grain bill!
+
+
+
+
+Steven St.Laurent        403forbidden.net        [580.2,181.4] Rennerian
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4190, 03/08/03
+*************************************
+-------

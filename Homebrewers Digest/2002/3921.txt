@@ -1,0 +1,473 @@
+﻿Date: Mon, 22 Apr 2002 00:46:08 -0400
+Subject: Homebrew Digest #3921 (April 22, 2002)
+
+
+
+
+
+
+HOMEBREW Digest #3921                             Mon 22 April 2002
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  bottling: overfiller => undercarbonated. ("Steve Alexander")
+  Bad RIMS calcs ("Kent Fletcher")
+  Re: Ice Stabilization/HSA problems ("Steve Alexander")
+  Re: constant sparge flow rate ("Arnold Neitzke")
+  Low Alcohol Beer (George Fergusson)
+  primetabs (Joe Yoder)
+  AHA Membership ("Carrol McCracken")
+
+
+
+
+*
+* 10th annual Spirit of Free Beer entry deadline is 5/11/02
+* Details at http://www.burp.org/events/sofb/2002/
+*
+* 2002 Bay Area Brew Off entry deadline is 5/20/2002
+* Details: http://www.draughtboard.org/babopage.htm
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 19 Apr 2002 14:24:43 -0400
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: bottling: overfiller => undercarbonated.
+
+
+Mark Anderson writes ...
+
+
+>[...] after three weeks, there isn't a hint of carbonation.  Not
+>a puff.  The problem may be that I didn't allow headspace in the neck of
+>the bottle.
+
+
+Parker Dutro adds
+
+
+>I do know that a head space of an inch or so allows the yeast to utilize
+the
+>trapped O2 in their conversion of the sugar and production of CO2 (not sure
+>how), and for some reason no headspace can prevent full carbonation.
+
+
+
+
+Headspace is the problem Mark.   If you check the HBD archives you'll find
+that Al Korzonas and I discussed this phenomena at length several years
+back.
+Overfilled bottles undercarbonate or perhaps carbonate only very slowly.
+Yeast & oxidation processes will use any O2 in the headspace - but this is
+unrelated to the overfilled => undercarbonated phenomena.
+
+
+Why this happens is one of the unsolved mysteries of homebrewing.
+    Smaller headspace ->
+    higher head pressure (before equilibrium) ->
+    poorer bottle fermentation
+is a working hypothesis - but lacks evidence and this explanation has
+some problems.
+
+
+ -S
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Apr 2002 01:31:55 -0700
+From: "Kent Fletcher" <kfletcher`at`socal.rr.com>
+Subject: Bad RIMS calcs
+
+
+In assessing Steven Parfitt's RIMS test, Michael Schrempp wrote:
+
+
+"At 109V, the power of you element should be (109/240)*4500 = 2044W =  2044
+J/sec"
+
+
+This is not correct.  The actual power of a 240 v 4500 watt element running
+at 109 v is about 930 watts.  Solve for resistance of the element on order
+to derive power at other than rated voltage.
+
+
+Michael continues: "You have 7.5 gallons of water = 75.6 L of water = 75.6Kg
+of water"
+
+
+While 75.6 liters of water does weigh 75.6 kilograms, 7.5 GALLONS of water =
+28.3875 liters, hence 28.3875 kilos.  So, in fact Steven's simulation
+probably simulated something closer to 13.5 pounds of grain in 20 liters of
+water.
+
+
+The bottom line is, Steven's RIMS is WAY underpowered for anything larger
+than 5 gallon batches.  I assume Steven is using the larger element at the
+lower voltage to lower the watt density to avoid carmelization and scaling.
+You have a few choices: 1. Add a second similarly sized element, as I
+mentioned in #3920. 2. Replace the element with a 120 volt  low watt density
+model like Grainger # 2E754 at 1600 watts and keep the flow rate high enogh
+to avoid scorching. 3. Go to 240 volt, increasing the size of your RIMS
+chamber to hold Grainger # 2E673, this is one of their "Water Wizard" models
+with a nickel alloy sheath, and the element doubles back on itself to
+achieve ultra low watt density.  4. Hook up your present element to 240 v
+and use PWM to drive a solid state relay, then tune the pulse rate to a
+sweet spot between rapid delta t and scorching.  And have a cold one.  (Or
+do like me and go to HERMS!)
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Apr 2002 04:48:43 -0400
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: Re: Ice Stabilization/HSA problems
+
+
+Scott Murman comments
+
+
+>>  Ice Stabilization [...]  the concept is unique to me (and in the HB
+>>world it seems as well [...]
+
+
+Hardly - HBers have been making eisbock by a similar process for
+many years and claiming softer flavor and better stability.
+
+
+>surprised you couldn't find anything in the archives, 'cause we did go
+>over this, and probably more than once.  if you're really interested
+>in this subject i would suggest going straight to the brewing journals
+>for the how/where/why, and skip Fix's stuff.
+
+
+Same here - it is in the archives under eisbock.
+Kunze has a great description of the process and it's advantages - and
+it's a good book for any HBer interested in how the modern Germans
+brew.
+
+
+>my personal opinion is that it's not something you want to bother with
+>as a homebrewer.  the crystallization process is indiscriminate - it
+>will remove stuff you want as well as stuff you don't want 
+
+
+I have only used this process 3 or 4 times, but never had any control
+problems.   If you freeze too much you can allow it to warm a little and 
+try again - quite easy.  If you are freezing a corny or whatever - you
+can wrap the tank in bubble wrap (or whatever) to modulate the heat
+flow.  If you let it freeze solid it will expand, overflow and make a mess.
+
+
+The "trick" is to avoid quick freezing.   If you do it right the ice you
+remove will have only a small amount of flavor and color - water with  
+a little phenolics & yeast and whisp of trubby stuff.  The ice sinks btw so
+it's simple to rack off the beer.  My experience was in removing 5-10%
+of the volume as ice after 2-3 day chilling period.  
+
+
+At one of my local club meetings a few years ago I was served a light
+bodied dark colored 'beer' and was told that this that the melted ice
+extracted from an eisbock! Now that brewer obviously froze the beer
+fast and made a mess of the extraction.
+
+
+Kunze suggests (except for eisbocks) that after ice removal the fermenter
+be topped with pH adjusted water so the beer maintains a constant ABV%.
+
+
+The resulting beers have a much softer  mouthfeel, which is good in
+moderation, but bad in excess as Scott implied.  It won't correct an
+overly phenolic beer either - I tried this with a too-rye beer once and it
+was an interesting experiment but a failure.
+============
+alastair  writes ...
+
+
+>I always
+>considered HSA as the brewing equivalent of an urban legend and paid it
+>little attention.  [...]  I also collect my runnings in a separate
+>container and pour it from a good height into my kettle in what I now
+>call the 'salute to those who believe in HSA'.  So far I've not noticed
+>any oxidation problems [...]
+
+
+There's a difference between ignorance and not having a latent
+oxidation problem (and you shouldn't be so proud of the former).
+I suspect you've never tried to tell the difference Alistair.
+
+
+Tell you what - place a couple of your bottled beers in a warm spot 
+(40C for a week, or 30C for 3 weeks ) while keeping some controls
+chilled.  The temperature boost accelerates the aging processes that
+have begun with the introduction of oxygen,and culminate with the
+development of unpleasant changes to flavor compounds.  Then 
+chill all the beers to identical temps.  Call over a few friends and
+perform a triangle tasting of the control vs accelerated aged samples.
+Try a bock or marzen - they work quite nicely.  The flavor
+differences should be obvious.  Once sensitized to the changes
+you'll have less difficulty identifying staling in the future.
+Some of the better studied oxidation processes are accelerated so
+that one week `at`40C is about the same as 3 months at cellar temps.
+
+
+>I think someone should point out that if HSA is a real effect, it is so
+>subtle that no one need worry about it. 
+
+
+Yeah - aldehydes, fading hop bitterness and a caramel note
+never develop in HB.  All HBs taste identically the same at
+week 4 and week 15 because it's soooo bloody stable and
+there are no oxidation changes in the bottle. That's the urban
+legend Alistair.  Major portions of these flavor changes are
+due to oxidation.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Apr 2002 06:18:44 -0400
+From: "Arnold Neitzke" <arnold_neitzke`at`ameritech.net>
+Subject: Re: constant sparge flow rate
+
+
+> Date: Thu, 18 Apr 2002 22:25:38 -0500
+> From: "Ryan and Shelly" <furstenau`at`worldnet.att.net>
+> Subject: constant sparge flow rate
+>
+<SNIP>
+> If the solution is to keep the tube out of the wort, how do I avoid hot
+side
+> areation?  Do I keep the tube pressed up against the side of the kettle?
+>
+> Please help.  My 1st sparge took almost 90 minutes.  I would like to shoot
+> for 45 minutes.
+>
+> Ryan, Omaha, NE, USA
+
+
+Ryan
+
+
+It sounds like you have solved your own problem.  Put a float on the end of
+your hose and as the level comes up the end of your hose will too.
+
+
+Arnold Neitzke
+Brighton Mi (a close satellite to the center of the brewing universe :)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Apr 2002 07:51:41 -0400
+From: George Fergusson <gsferg`at`clary.gwi.net>
+Subject: Low Alcohol Beer
+
+
+Hi All-
+
+
+Does anyone have any experience with brewing low-alcohol or no-alcohol beers? 
+I'm talking ABV percentages in the 0.5% to 1.5% range. I'm sure this has been 
+discussed before but I went to search the HBD archives this morning only to 
+receive a "Syntax error at offset.." error. I've been discussing this on the 
+UK-HOMEBREW list but haven't received any suggestions from anyone who has 
+tried doing this.
+
+
+My goal is to brew some of my favorite bitters and pale ales with all the 
+flavor, body, hops, and appeal of the originals but with a fraction of the 
+alcohol. My reasons are that I really like to brew and drink Good Beer but 
+could do with a lot less alcohol in my diet.
+
+
+What I'm thinking of doing is brewing a "regular" 5UK gallon batch with a 
+finished ABV of around 4% and when it's been in the secondary a while, racking 
+3/4 of it into my cooker, heating it up gently to drive off the alcohol.. when 
+the alcohol is gone, pour it back in the secondary and let it finish up. This 
+would leave me with 25% of the original alcohol, or about 1% ABV. There should 
+still be enough yeast in the beer to bottle condition- if not I suppose I can 
+pitch a bit more at bottling.
+
+
+Figuring out when the alcohol is gone is a bit problematic, but I think I can 
+periodically check the specific gravity to see what kind of progress I've made 
+since the SG will rise as the alcohol is driven off- when it stops rising, 
+theoretically the alcohol is gone but of course, should I keep heating it 
+beyond that point, the evaporation of water itself will cause the specific 
+gravity to continue to rise, so it seems like there is some guesswork 
+required. I'd expect the rate of change of the SG would change (drop) once the 
+alcohol was gone.
+
+
+Another way to solve this problem would be to capture and condense the vapor 
+and taste it, though at the risk of becoming seriously inebriated which is of 
+course, the exact opposite effect I'm looking to achieve with this exercise :) 
+Then again, the Scotch in me cringes at the thought of vanishing all that 
+perfectly good alcohol into the atmosphere so perhaps I'll build a still 
+anyways- I can always run my car on it..
+
+
+Sound reasonable? One concern I have is driving off other volatiles along with
+the alcohol, like hop oils, and any other effects on flavor from heating up
+fermented beer. I suppose that will take some experimentation.
+
+
+Suggestions?
+
+
+George-
+- ----------------
+George Fergusson
+Whitefield Maine
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Apr 2002 14:59:44 -0500
+From: Joe Yoder <headduck`at`swbell.net>
+Subject: primetabs
+
+
+Randy Walker asks:  The Primetab site says to use 3 to 5 tablets per
+bottle.
+How many did you use?
+
+
+Randy, I have had the best luck using 2 1/2 tabs per 12 oz. bottle.  Two
+seemed undercarbonated and 3 was overcarbonated.  Maybe we could talk
+Domenick into making a 1/2 size tab??
+
+
+Joe Yoder
+Lawrence, KS
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Apr 2002 17:34:51 -0500
+From: "Carrol McCracken" <carrolmccracken`at`mchsi.com>
+Subject: AHA Membership
+
+
+Here is another example of a business looking at their expenses and then
+dividing it by their current membership number to come up with the fee they
+want to charge.  I sure hope (but I would be surprised) someone with the AHA
+understands and considered economic demand curves.  Simple indirect
+relationship, price goes up, demand will usually fall, so they could end up
+with the same amount of income as before or sometimes even less until
+equilibrium is reached.   I wouldn't make any bets on them increasing their
+revenue just yet.
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3921, 04/22/02
+*************************************
+-------

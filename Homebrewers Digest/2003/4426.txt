@@ -1,0 +1,1078 @@
+﻿Subject: Homebrew Digest #4426 (December 15, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4426                             Mon 15 December 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  RE: RIMS Temperature Control ("Ronald La Borde")
+  CIP Products ("Stephen Johnson")
+  paint ("Jim Hinken")
+  Wyeast Dutch Castle Yeast (Nick Dempsey)
+  Re: RIMS Temperature Control ("Gary Smith")
+  Re: RIMS Controller ("Gary Smith")
+  Beer in Nurnberg (Stan Burnett)
+  Re: How To Improve Heat Transfer in Brewery Vessels (Crossno Clan)
+  Re: Travel Kegs (Jeff Renner)
+  Re: How To Improve Heat Transfer in Brewery Vessels (Chris North)
+  RIMS Proportional controller (Ken Meyer)
+  Mini Brew Conical ("Harlan Nilsen")
+  Brew Club ("Derrick Allen")
+  Re: RIMS Temperature Control (Dion Hollenbeck)
+  RIMS v HERMS ("Ronald La Borde")
+  corny fermenters (Scott and Cherie Stihler)
+  "On The Farm" Real Ale Story  BBC 4 ("Weaver Joseph T MAJ CENTAF-AUAB CAOC\\SG")
+  beer wiki (Alan McKay)
+  Rogue chocolate stout ("Mark Arneson")
+  Keg transport (David Perez)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job. Note that the Digest now
+  automagically protects your address, so spam-proofing is a waste of
+  your time, anyway :^)
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 12 Dec 2003 21:31:15 -0600
+From: "Ronald La Borde" <pivoron at cox.net>
+Subject: RE: RIMS Temperature Control
+
+
+>From: "Todd M. Snyder" <tmsnyder at buffalo.edu>
+>snip....
+>I'm sure people will jump all over these observations, claiming to
+have
+>their auto-tuning PID perfectly dialed into their system with no
+overshoots
+>and rapid ramps.  Just set it and forget it!  Please post your
+numbers (ramp
+>rates, wattage, etc) and the location of the temp probe.
+>snip....
+
+
+Todd, I have to agree with you about the PID. My guess is people are
+almost hypnotized by the thought of a PID. Why would anyone want a
+controller to slowly reduce power to the temperature stepping system
+until the desired temperature is actually reached?  Why indeed.
+Probably because one might be unsure of just how to avoid over
+temperature.  Well, the PID can certainly solve the over temperature
+problem. How? Uh, by causing an under temperature problem.
+
+
+The concept of RIMS is great. The concept of a hot rod in the wort
+path is terrible. Ok the trick is HERMS.  If you have this massive
+container of hot water with a heat exchanger immersed in it (a coil is
+one type of heat exchanger), well if the coil is big enough and long
+enough, and if the water is enough (in volume - not temperature), then
+you can quickly step up the mash temperature without the problem of
+over temperature.  How so.  Simple, the hot water is just a few
+degrees above the desired step temperature, even with a completely
+stuck mash, still, you cannot go over temperature by more than a few
+degrees.
+
+
+The big difference here is a hot rod with critical flow and
+temperature requirements verses a near-on-temperature  LARGE surface
+device with uncritical flow and temperature requirements.
+
+
+Hoo Hoo, if only everything in life would be so simple!
+
+
+>snip....
+>The question I'm getting at is why are these controllers being used
+for this
+>application?  They're not ideal for it based on the problems above.
+The
+>problem is that they are dumb.  They don't know how much water you
+have in
+>your system, how many watts your heater is, how much grain you have
+in
+>there, or what the insulative properties of your system are.
+>snip....
+
+
+I am the brewer, not a PID. Shucks, if I wanted to walk away from
+brewing, I would just go to the pub and buy a beer.
+
+
+Sorry about the figures, I am not good at taking readings.
+
+
+Ron
+=====
+Ronald J. La Borde -- Metairie, LA
+New Orleans is the suburb of Metairie, LA
+www.hbd.org/rlaborde
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Dec 2003 21:24:24 -0600
+From: "Stephen Johnson" <sjohnson3 at comcast.net>
+Subject: CIP Products
+
+
+In a very recent HBD, Ken Peters gives kudos to Straight A as a CIP
+product and Rick Theiner's support of the Homebrew Digest. In
+particular, he asks, "I have always wondered why PBW was usually the
+first recommendation that most folks make." My guess is that many
+homebrewers suffer from "commercial brewery envy" and want everything
+that the big guys have and use. I'm the first to admit that I have
+suffered from this syndrome. I couldn't wait to buy my own stainless
+conical fermenter when I finally could afford one. I was glad to buy
+some quick disconnects when I saw how easy they made hooking up CO2
+lines in the brewery or various hoses in my brewing process. I jumped at
+the chance of buying some PBW in "bulk" when 5 Star started selling PBW
+in 8 pound containers when I saw that Boscos Brewery in Nashville used
+the stuff to do their caustic cleaning after helping Chuck Skypeck and
+Fred Scheer in the brewery when they were out of town. I drooled at the
+opportunity to pitch quarts of Wyeast 1056 yeast into my batches of
+homebrew thanks to some of the local breweries (Boscos, Blackstone, Big
+River, Market Street) that that gave me yeast for free (talk about quick
+lag times!...visible fermentation activity in less than 2 hours!)
+However, the fact is that Logic, Inc., the makers of Straight A, has not
+been able to get their foot into the commercial brewing industry to the
+degree that Five Star has been able to with their products despite these
+products being virtually identical. What I do know is that Rick and
+Logic, Inc., have always been supportive of our club by providing
+products over the years as part of their sponsorship of our homebrew
+competitions and events. 5 Star has also supported us, so I am
+appreciative of all that these companies do to support the homebrewing
+community.
+
+
+Steve Johnson
+Music City Brewers
+Nashville, TN
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Dec 2003 23:08:33 -0800
+From: "Jim Hinken" <jim.hinken at verizon.net>
+Subject: paint
+
+
+Doug A Moller wants a paint for a ss bar.:
+
+
+Presque Isle Wine cellars sells a food grade paint for presses, etc.  It
+should work well
+
+
+http://shop.piwine.com/shopsite/prwc/product508.html
+5964 Gondola Enamel, 500 cc
+$8.40
+A water soluble, food grade paint with good durability and resistance to
+acids and caustics. Suitable for presses, crushers, gondolas, ladders,
+pumps, tank hoops and interior walls. Comes in White, Yellow, Red and Black.
+
+
+Jim Hinken
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 01:59:52 -0600 (CST)
+From: Nick Dempsey <npdempse at midway.uchicago.edu>
+Subject: Wyeast Dutch Castle Yeast
+
+
+> 
+> I'm going to try the seasonal Wyeast 3822 Dutch Castle
+> yeast and am trying to figure out an appropriate
+> recipe.  Evidently this yeast was used for a beer
+> called Castille, and is a Belgian style with a higher
+> lactic acid production for tartness.  I am unfamiliar
+> with Castille.  Does anyone have any info on this?  Or
+> tried this yeast?  Any feedback is
+> appreciated...Thanks!
+> 
+WRT the original beer--might you be referring to Kasteel? I've had their
+Donker, and quite enjoyed it. My and others' impressions at 
+http://www.ratebeer.com/Ratings/Beer/ShowBeer.asp?BeerID=5205
+
+
+- --NPD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 02:53:57 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Re: RIMS Temperature Control
+
+
+Todd is still convinced he sees a better wheel Er... Rims controller
+
+
+> > Common practise lately seems to have been use of
+> > "low watt-density" heaters (low number of watts per unit length),
+> > often augmented by operating the heaters at half-voltage
+> > (approximately quarter-power).  But that limits the heating rate.
+> 
+> That limited heating rate is to overcome problems with overshooting
+> the target temp, and to prevent the wort from being too hot going into
+> the mash. Those are the problems I see also.
+
+
+Todd, Todd Todd... You can't overshoot if the heating stops at the set 
+temperature and it does. If your flow is like .25/.5 gallon/minute maybe.. 
+but not with a real world rims system.  I think you might be flailing at 
+windmills. 
+
+
+Gary
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 02:53:58 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Re: RIMS Controller
+
+
+ 
+> GS> I'm thinking still of running my ultra low watt heating element
+> GS> (82" worth of element) at 220 and in that case I'll simply add a
+> GS> second 50A SSR in parallel and the second line through it.
+> 
+
+
+> Once again, I will put forth my recommendation to not do this unless
+> you want to risk caramelizing your wort and ruining a heater element.
+
+
+I think this is where folklore and common sense become muddy:  
+
+
+If the concern is in caramelization then how dare we think of having a 
+rolling boil when the sugars are at their maximum? To have enough heat 
+to cause the nearly saturated sugar solution to boil will certainly ruin the 
+beer so that means we should never apply that much heat in a focused 
+area. Right? Thin stainless can not disperse the heat properly and will 
+caramelize so we can't use Sanke kegs to boil in & we must use copper 
+kettles with thick bottoms to evenly disperse the heat.
+
+
+Right?
+
+
+The obvious is we all boil our beers, stainless kettles are the norm & most 
+use six figure BTU propane turkey fryer heaters to do it and rarely is 
+caramelization a problem. 
+
+
+In the RIMS, If there is no flow past the element caramelization will be a 
+problem at high element temperatures. With a normal & respectable flow 
+from a march pump, it is another story. As to ruining a heater element, it's 
+an inductive load. The only way you're going to damage it is if you run it in 
+the absence of a liquid bath & perhaps it'll last a long time heated without 
+liquid, that I don't know but why find out? Do you realize a tungsten light 
+bulb gets switched on & off 60 times a second & it is white hot with heat. 
+How long do bulbs last? These water heater elements aren't subject to 
+those kinds of physical insults, they're much hardier than tungsten 
+filaments and no, you're not going to ruin them. They last for years. 
+
+
+There's just so much folklore that has become "truth".  That's one of the 
+things I love about the HBD, there's a lot of experience here and a great 
+place to find answers.
+
+
+P.S.: A Christmas donation to the server fund would be a nice way to say 
+thanks to the Janitors & all of us.
+
+
+Gary
+
+
+Gary Smith
+CQ DX de KA1J
+http://musician.dyndns.org
+http://musician.dyndns.org/homebrew.html
+
+
+If you pick up a starving dog and make him prosperous, he will not 
+bite you. This is the principal difference between a dog and a man.
+
+
+ - Mark Twain -
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 02:33:11 -0700
+From: Stan Burnett <stanb at xmission.com>
+Subject: Beer in Nurnberg
+
+
+
+
+I have very limited internet access right now, so I haven't been able to 
+check the archives. Sorry.
+
+
+Soon I'll be driving from Prague to Nurnberg (spending a couple of nights) 
+and then to Freiburg (extreme western Germany, very close to French 
+border)--I'm picking up my nephew who lives with his mother in Freiburg 
+and bringing him back to Tabor for the holidays with his father.
+
+
+Any recommendations for beer drinking along this route?
+
+
+Thanks!
+
+
+Stan Burnett
+Tabor, CZ
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 08:22:10 -0600
+From: Crossno Clan <crossno at tnns.net>
+Subject: Re: How To Improve Heat Transfer in Brewery Vessels
+
+
+Steven asks: "Perhaps some sort of a shroud for the bottom of the
+kettle would be useful to minimize all the heat "blow-by" that seems to
+occur with a typical system."
+
+
+I use a propane burner, on the back porch.  In an effort to slow down
+the wind, I took an old metal trash can that the bottom had rusted out
+of.  Split it up the side, so I can "wrap it around" the keg/burner.  I
+attached a piece of chain to some S hooks, which I can hook to the
+handles to hold it all together.  Works great!  One of the best brewery
+additions, in the top 10 anyway.
+
+
+Has anyone painted the bottom?  How hard should I work to get the soot
+off the current boiler?  At the current rate the flame is barely on to
+keep a hard rolling boil.
+
+
+Glyn in lower middle TN.
+Drinking a Wit, a Rye Stout and hard lemon-ade.
+Planning mead, spiced ale, and Barlywine.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 10:59:23 -0500
+From: Jeff Renner <jeffrenner at comcast.net>
+Subject: Re: Travel Kegs
+
+
+"Chris Hart" <rhayader at bellsouth.net> asks
+
+
+>how to keep the yeast that has settled to the bottom of the keg from 
+>going back into suspension with travel. Is time the only resettler?
+
+
+Yes, so the solution is not to have settled yeast in the keg.
+
+
+There are two ways to do this.  One is to keg clear beer and 
+artificially carbonate it.  The other is to rack the settled beer to 
+a new keg and leave the sediment behind.
+
+
+When I do the latter, I fill a sanitized keg with water and push it 
+out with CO2, then I know I won't get any oxidation in the transfer. 
+I hook up a "jumper" hose between the beer out fittings and push the 
+beer into the empty keg, releasing the pressure as I go.  Of course, 
+this means two wasted kegs full of CO2 - one to purge the empty keg, 
+and another to push the beer.
+
+
+Others have pointed out that you can simply elevate the full keg and 
+once your beer flow starts, you can put another jumper between the 
+gas fittings and it will siphon, even though the system is under 
+pressure, just as you would do in an open system.  It's still a 
+closed system so it won't introduce air.  It might be a good idea to 
+fill the jumper with CO2 first, although the amount of air in it is 
+small.
+
+
+You should use a clear beer hose for this so that when you see the 
+beer starting to get cloudy, you can pull the fitting of to stop the 
+flow, leaving the yeast behind in the first keg.  You might hear it 
+gurgle just when it gets cloudy, but if there is a lot of sediment, 
+it will start getting cloudy before it gurgles.
+
+
+Hope this helps you get beer to parties for the holidays.
+
+
+Jeff
+
+
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner at comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 11:22:57 -0600
+From: Chris North <chrisn at wt.net>
+Subject: Re: How To Improve Heat Transfer in Brewery Vessels
+
+
+Steven P. Bellner came up with an interesting idea that
+
+
+>involves spray-painting the
+>bottom of the kettle with high-temperature black "gas grill" paint.
+>Polished SS has a pretty high emissivity, and painting it should lower it
+>considerably.
+
+
+Aside from the fact that you have it completely backwards (Stainless has a
+rather low emissivity and black paint would raise it considerably), this is
+a very good idea.
+
+
+Professionally, I am responsable, in part, for the productivity of heat
+treating steel parts in a gas-fired heat treating furnace.  To save the
+collective from boring details, I'll just mention that some of these parts
+have areas that are machined (shiny surface) and other areas have the black
+mill scale they came with from the steel mill.  When I had the heat treat
+crew start painting the shiny surfaces with black paint (not high-temp
+paint, just cheap rattle-can stuff), they looked at me like I had lost my
+mind.  It did result is a noticable reduction in process time as the shiny
+areas came up to temperature much more quickly.  While this did not earn me
+a bonus, it did get management's attention.
+
+
+>I wonder if this has ever been tried.  I'm always trying to improve a little
+>here, a little there every time.
+
+
+I am somewhat ashamed that the bottom of my converted keg is still shiny.
+I have used this trick successfully in other applications, just didn't
+think of it while I was brewing.  I suspect that a black bottom will
+greatly improve the speed and efficiency of the heating.  A high
+temperature paint is probably not necessary since stainless will start to
+discolor at temperatures around 500 deg F.  The fact that my [converted
+keg's] bottom is still shiny indicates to me that is stays much below 500,
+and I would suspect it stays below 300.  As I mentioned, the trick is to
+get a paint to stick to the stainless.  I see I have some experimenting do
+do...
+
+
+>Steven P.  Bellner
+
+
+Thanks Steven!  While not the best information I have gained from the HBD
+over the many years I've subscribed, the fact it got me to post a response
+says something in itself.
+
+
+
+
+chris north
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 11:37:47 -0600
+From: Ken Meyer <keno5 at wi.rr.com>
+Subject: RIMS Proportional controller
+
+
+In my RIMS I use only a proportional controller.  The heating element is 
+probably the same low watt density unit used by most of the other RIMS 
+users posting here.  I also agree that the slow ramp rates can be a 
+concern but there are several ways to get around this. 
+
+
+1.  The Idea of using 220 to quadruple the power of the heating element 
+would also require an increase in the flow through the heating chamber 
+to avoid carmalization of the wort and or destruction of the enzymes by 
+overheating at the output.  My system although only proportional does 
+have a second temperature sensor on the outlet of the heating chamber 
+which will shut off the heater if the wort temperature exceeds a preset 
+maximum.  The other problem would be if the flow was adjusted to allow 
+the wort to remove the heat from the higher wattage at 220v the grain 
+bed could be compacted and a stuck runoff may result.
+
+
+2. Any RIMS system will have a hot liquor tank for heating spare water.  
+This tank can also be used to boil water to be added to the mash  
+helping the heater bring the mash temperature to the next rest 
+temperature where the temperature controller will be able to maintain 
+the temperature by adding heat at a rate equal to the heat loss of the 
+system at that temperature.  The main disadvantages to this method are 
+that it changes the water grain ratio and requires human intervention 
+but it will rapidly raise the mash temperature especially when a large 
+temperature change is called for.
+
+
+If you want a completely hands off system where you determine your 
+recipe, put it in and walk away you will need a PC or PLC (programmable 
+logic controller) based system like the large commercial breweries use.
+This discussion also begs the question which has been asked for years 
+about the necessity of a step mash with the highly modified grains 
+available today.
+
+
+Ken
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 11:51:48 -0600
+From: "Harlan Nilsen" <ramnrah at nebi.com>
+Subject: Mini Brew Conical
+
+
+"Goose" asked about doing a secondary ferment in a Mini Brew plastic conical
+fermenter.  Although I got mine when they first hit the market and it is not
+as large or nearly as nice as the new ones, I believe I can relieve some
+stress for him.
+
+
+I have brewed many batches in mine and let them go all the way to
+completion.  I have entered many contests and have never been downgraded for
+oxidation.  I believe that when you drain the trub etc. off the bottom it
+helps to alleviate the O2.  I do not drain mine daily as the instructions
+say as it loses a good gallon of beer if you do.  I let mine ferment for 2
+days, drain it off, and then do a small drain the day before kegging.  I
+would not, however, let the beer sit for more than 1 or 2 days longer than
+when it is finished.
+
+
+It's Ok to finish your beer in it.
+
+
+Harlan
+32nd St. Brewery located in the center of the nation.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 13:50:55 -0500
+From: "Derrick Allen" <outdoors34 at hotmail.com>
+Subject: Brew Club
+
+
+Looking for fellow brewers in the Cambridge, Kitchener and Waterloo  Ontario 
+areas that would like to start a brew club. Please send contact info to 
+derrick_allen at sympatico.ca
+
+
+
+
+
+
+------------------------------
+
+
+Date: 13 Dec 2003 12:41:08 -0800
+From: Dion Hollenbeck <hollen at woodsprite.com>
+Subject: Re: RIMS Temperature Control
+
+
+>> Todd M Snyder writes:
+
+
+TMS> A typical heating rate is 1 degrees F per minute.  So a 122F to
+TMS> 148F ramp would take 26 minutes, almost as long as the rest is
+TMS> going to take at 148F before you continue up to a higher
+TMS> saccharification temp or mashout.  What's happening during that
+TMS> ramp?  The enzymes aren't sitting around waiting for the next
+TMS> step.  They're going about their business as the temperature
+TMS> allows.
+
+
+Have to disagree with you, and so would George Fix if he still could.
+This topic has come up many times over the last 10+ years I have been
+using a RIMS system, and in fact, I posed much the same question to
+George, and I will once again paraphrase what he said.
+
+
+1)  There is an erroneous notion that highly modified malt will
+    convert completely in 15 minutes.  The error in this notion is
+    that the environment under which this will happen is when a
+    maltster does a test to see the conversion of the batch of malt.
+    The parameters in use are, a) the malt is ground to a powder, b)
+    the temperature is 158F, and c) the water to grist ratio is on the
+    order of 3 qts. per lb.  Homebrewers NEVER mash under these
+    conditions.
+
+
+2)  While it is accurate to say that all enzymes work at all
+    temperatures, they work more efficiently at their own "sweet
+    spot".  Alpha amylase at its sweet spot will convert much, much
+    faster than beta at its sweet spot.  Beta amylase at its sweet
+    spot is very slow to convert.
+
+
+So, based on these facts from George, let's do the math on the ramp.
+First, you have a false assumption that starch to sugar conversion
+will begin at 122F.  According to George, it will not begin until the
+gelatinization temperature is reached around 135F.  So, let's adjust
+the equation.  The ramp which is in "danger" is from 135F to 148F.
+This is a 13 degree ramp.  Even at 1 degree per minute, the danger
+zone is only 13 minutes long.  This is much too little time for
+complete conversion to short chain very fermentable sugars.  So, you
+can get up to the 148F range while only converting a small amount of
+starch to short chain sugars.
+
+
+While I believed what George had told me, I still wanted to do an
+experiment that would prove that on my system, the theory held true.
+So, I did two identical 5 gallon batches of pale malt only.  They both
+received a 10 minute protein rest at 122F, then one was boosted to
+142F and got a 60 min sacchrification rest followed by a 10 min
+mashout at 170F.  The second batch had the identical mash schedule
+with the sacchrification rest being at 154F.  The first batch was so
+thin and watery as to be undrinkable.  The second batch finished 8
+points higher and had a medium thin body and was very good.  To me,
+this was proof positive that only a minor amount of conversion
+happened *during* the ramp.  The majority of the conversion happened
+at the sacchrification rest temp of 154F.
+
+
+One last thought in closing.  If your particular system does not ramp
+fast enough for you, the solution is not to run the heater element at
+240V, but to get another element and put it in series.  The amount of
+caloric input will be raised without changing the heat density.  I run
+two 6000 watt heater elements in series at 110V and on a grain bill of
+20#, my ramp rate is around 1.5 degrees per minute.
+
+
+A properly designed RIMS system will a) not scorch wort and b) will
+allow you to manipulate rest temperatures and achieve EXACTLY the
+result you want.  If a particular system will not work this way, then
+it was poorly designed.  There is nothing wrong with the basic RIMS
+principles, only in some individual's poor implementation.
+
+
+regards,
+dion
+
+
+- -- 
+Dion Hollenbeck  Email:  hollen at woodsprite.com
+Home Page:       http://www.woodsprite.com
+Brewing Page:    http://hbd.org/hollen
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 19:24:23 -0600
+From: "Ronald La Borde" <pivoron at cox.net>
+Subject: RIMS v HERMS
+
+
+In my previous post, I probably was somewhat unclear about what I
+meant about the reasons I believe HERMS is superior to RIMS.
+
+
+With the RIMS  (for brevity, I will instead use R or H)  especially,
+using the common hot water heater element at 120 volts, there is a
+limit on how many watts can be inserted into the system. Sure, you
+could go to 240 volts with 6000 or so watts.  Now this is the
+clinker - I can imagine you would now have a glow plug - great if you
+want a model airplane engine, but not so good for a mash wort heater.
+
+
+Pay special attention to R people, notice how many times the word
+scorching appears in their posts.  You see, that is a real problem if
+the flow slows down. Now does that ever happen.  Hmm, some say no, but
+search the archives for the word stuck for some fun.
+
+
+With the R system (electric heater in a chamber), you could say you
+are applying power in real time, that is - the limitation is how hot
+you can get the element without scorching the wort. Real time because
+you are mashing while this is going on.  With the H, you have the
+large volume of water already heated before you even begin the mash,
+really, you could be still crushing the grains! When it's time to
+start mashing the power has already been stored in this large volume
+of water. The same thing happens when it's time for the next
+temperature step. You heat the water with 6000 watts if you want, get
+it to temp, then and only then start the step.  Stepping can be fast
+because you have the stored heat in the water just waiting there to
+get happy. You can quickly get the HLT up because there is no limit to
+how much power or heat you can apply without scorching.
+
+
+With the H system, the heat exchange coil is sitting in the heated
+water. You have the large surface area of the coil to conduct the heat
+to the wort, but the wort cannot scorch because the hottest thing
+around is the water at - yep you guessed it - step temperature.
+
+
+Finally, friends I have no emotional feelings against R or PID's. If
+you want to use a PID to heat your HLT - this is fine.  If you can get
+one cheap, this is even better. The only thing I can say for the PID
+is that it is a compact unit, prebuilt, probably with connection
+instructions. So if you like the pretty lights, or can afford a PID,
+go ahead and use one, but I do not think it is worth spending a lot of
+money for one.
+
+
+Ron
+=====
+Ronald J. La Borde -- Metairie, LA
+New Orleans is the suburb of Metairie, LA
+www.hbd.org/rlaborde
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Dec 2003 19:58:18 -0900
+From: Scott and Cherie Stihler <stihlerunits at mosquitonet.com>
+Subject:  corny fermenters
+
+
+Patrick Hughes wrote:
+
+
+>I have read here many times how some rack their beer into corny kegs when
+>within a few points of terminal gravity and let this small final
+>fermentation carbonate the beer. How is the corny sealed so the natural  gas
+>produced by this fermentation doesn't escape? Do you just pressurize with
+>CO2 first? How much pressure can the yeast handle before they stop working?
+
+
+I routinely ferment beer (both primary and secondary fermentation) in 
+Cornelius-type kegs.
+
+
+However,  rather than seal the system before fermentation is complete 
+I allow it to progress
+to completion and then I add primary sugar serving keg and transfer 
+the beer onto it.
+
+
+Properly sealing the kegs can be a problem. Often simply pressuring 
+to 20-30 psi and then
+releiving pressure will seat the lid. However, this does not always work.
+
+
+I've had pretty good luck spreading food grade grease along the lid 
+O-ring. This grease is sold
+by Williams Brewing under the name of Keg Lube though I'm it is 
+available elsewhere.
+
+
+However, the grease did not always result in a proper seal.
+
+
+I now invert the keg after transfer beer onto the priming solution 
+and allow fermentation to
+progress for 3-4 days. The weight of the beer does a very good job a 
+insuring a proper seal.
+
+
+I usually place the keg in a 5-gallon bucket just to be on the safe 
+side. I've been doing this for
+about 3 years now and only once have I had significant leakage. In 
+that particular case about 2.5
+gallons of beer leaked out.  The keg in question always tended to be 
+difficult to seal and had I check
+on the progress of the keg sooner instead of waiting 3 days, I 
+probably could have saved that keg of
+beer.
+
+
+At any rate, after 3-4 days, I upright the keg and the accumulated 
+CO2 is sufficient to maintain the
+seal.
+
+
+I hope this helps.
+
+
+
+
+Cheers,
+
+
+Scott Stihler
+Fairbanks, Alaska
+
+
+
+
+------------------------------
+
+
+Date: Sun, 14 Dec 2003 14:21:38 +0300
+From: "Weaver Joseph T MAJ CENTAF-AUAB CAOC\\SG"
+Subject: "On The Farm" Real Ale Story  BBC 4
+
+
+Brewers,
+Caught most of a story on BBC 4 this morning (Sunday in the middle east Zulu
++3) about Real Ale.  You may be able to hear the story on the BBC 4 Internet
+Radio site (our systems folks have us blocked so I can't send you a link).
+They interviewed a craftbrewer who discussed how difficult it is to get real
+ale into pubs these days.  They noted that the mega brews account for 75% of
+the beer on tap in the UK.  They mentioned that you could actually look out
+the pub door and see the barley growing that is used to brew the beer!
+Selling this real ale in the local pub enabled the farmer to hire another
+farm worker.  To me, that was the neatest part of the story.  As a
+veterinarian, I'm all about supporting the local farmer!
+
+
+Todd in Qatar (temporarily)
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 14 Dec 2003 13:31:24 -0500
+From: Alan McKay <amckay at neap.net>
+Subject: beer wiki
+
+
+A fellow in Australia recently started a brewing wiki,
+but unfortunately I do not have the link at hand.
+
+
+Will try to dig it up.
+
+
+- -- 
+http://www.bodensatz.com/
+TCP/IP: telecommunication protocol for imbibing pilsners
+        (Man-page of Unix-to-Unix beer protocol on Debian/GNU Linux)
+
+
+
+
+------------------------------
+
+
+Date: Sun, 14 Dec 2003 15:29:37 -0500
+From: "Mark Arneson" <marneson at email.com>
+Subject: Rogue chocolate stout
+
+
+
+
+Does anybody have a recipe for Rogue Chocolate stout?
+
+
+I love this beer but can't seem formulate a recipe that even comes
+close.
+
+
+Thanks!
+
+
+Mark Arneson
+marneson at email.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 14 Dec 2003 17:54:33 -0500
+From: David Perez <perez at gator.net>
+Subject: Keg transport
+
+
+Bob Hall asks about mobile kegging. I use two approaches. The first and 
+most convenient is an Igloo cooler on wheels that I built in a very 
+similar design to http://www.tote-a-keg.com/ . The May/June issue of 
+Zymurgy gives a good basic description on how to make it. It cost me 
+around $70 and was a nice project.
+
+
+The other, more interesting transport idea, was to throw my dispensing 
+freezer with it's four taps and four kegs to the 1st Hogtown Brew-Off 
+party. Very impressive and really quite easy. But I promised my wife I 
+wouldn't make it a habit, so I will stick to the keg on wheels for 
+"most" events.
+
+
+Dave Perez
+Hogtown Brewers
+Gainesville, FL
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4426, 12/15/03
+*************************************
+-------

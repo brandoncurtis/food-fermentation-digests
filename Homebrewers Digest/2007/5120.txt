@@ -1,0 +1,668 @@
+﻿Date: Thu, 4 Jan 2007 01:29:48 -0500
+Subject: Homebrew Digest #5120 (January 03, 2007)
+
+
+
+
+
+
+HOMEBREW Digest #5120                             Wed 03 January 2007
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: peltier cooling ("Michael O'Donnell")
+  Re: Beer line cleaning... (Scott Alfter)
+  Re: Beer Line Cleaning (Signalbox Brewery)
+  Re: Secondary Hopping w/Pellets (Fred L Johnson)
+  Load Cells; Cleaning Lines ("A.J deLange")
+  RE: Beer line cleaning ("Ronald La Borde")
+  RE: HBD n' MIME ("Ronald La Borde")
+  Re: cloudy cider, and brett (Mark Beck)
+  RE: To HERMS or not to HERMS... ("Dirk Bridgedale")
+  RE: Controlling Fermentation Refrigerator Temperature (Christopher Burian)
+  Temp of kegged beer once chilled... (Michael Eyre)
+  RE: Beer line cleaning... ("Timothy LaFrance")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 02 Jan 2007 22:13:56 -0800
+From: "Michael O'Donnell" <odonnell at msi.ucsb.edu>
+Subject: Re: peltier cooling
+
+
+A couple of thought on Peltiers... note, that I"ve never used them for 
+brewing, but I've often thought about doing so, and if I had a bit more 
+time, I'd give it a go (David Lewinnek's gloomy success story 
+notwithstanding).
+
+
+There are certainly commercial devices being sold to do this, e.g., I 
+think peltiers are what B3 uses for their conical coolers
+http://morebeer.com/browse.html?category_id=1095&keyword=&x=1&y=1
+
+
+I've even seen some guy selling complete units on eBay, but YMMV.
+
+
+If you're thinking of rolling your own, in my travels around the net, 
+I've seen some promising suggestions. First, the electronics to control 
+them are now relatively simple to put together. Maxim makes a single 
+chip that will handle all of the control circuitry with very few 
+external components. This looks like the way to go, although the 
+evaluation board costs $100, the chips themselves are relatively cheap 
+(and a single sample is free).
+
+
+As people have observed, you'll need a big power supply. I have had good 
+luck converting old computer power supplies to give me regulated bench 
+supplies... they can source a lot of current (although the + and - 
+directions aren't equal... something to keep in mind if you are trying 
+to drive a TEC with the -12 side)... for details, check here:
+http://www.wikihow.com/Convert-a-Computer-ATX-Power-Supply-to-a-Lab-Power-Supply
+
+
+If you decide to try it, let me know how it goes! One thing I notice on 
+the B3 site is they talk about how much effort they put into lapping the 
+cooler contact surface onto the fermenter... this would probably be 
+critical (same effect that Dave Lewinnek achieved with aquarium pumps 
+and a water bath) so don't leave that as an afterthought and just stick 
+it on with some duct tape.
+
+
+cheers,
+mike
+Santa Barbara, CA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 02 Jan 2007 22:46:41 -0800
+From: Scott Alfter <scott at alfter.us>
+Subject: Re: Beer line cleaning...
+
+
+Michael Eyre wrote:
+>  ...for line cleaning, I don't see any reason why I can't just fill a keg 
+> with the line cleaner solution and run that through my lines and faucet, 
+> no? That, then flush 'em with clean water and I should be good, correct? 
+
+
+That's what I do, except I follow the hot-water rinse with iodophor solution to
+sanitize the lines and taps.  For cleaning, I've used both PBW and OxiClean.
+They both work, but I'll probably stick with OxiClean in the future as it's
+cheaper and more readily available.
+
+
+One gallon of each solution (cleaner, rinse water, sanitizer) is fed through
+the line and tap from a 3-gallon keg.  Setting the regulator to 3-5 psi will
+push them through without wasting too much carbon dioxide.  (I suppose you
+could rig up a small compressor (or an air tank if you have a larger compressor
+in your garage or workshop) and the appropriate gas quick-disconnect to use air
+instead, but CO2 is already nearby.)
+
+
+I usually only need to clean one line/tap at a time (when a keg runs out), but
+if you save the cleaner and sanitizer in buckets, you can clean/rinse/sanitize
+ multiple lines with one batch of chemicals.
+
+
+>Is there a problem with putting solution in a SS keg?
+
+
+As long as you're not using chlorine-based bleach, there shouldn't be.
+
+
+  _/_  Scott Alfter
+ / v \ Visit the SNAFU website today!
+(IIGS( http://www.nevadabrew.com/   Top-posting!
+ \_^_/ rm -rf /bin/laden            >What's the most annoying thing in email?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Jan 2007 11:09:45 +0000
+From: Signalbox Brewery <signalbox.brewery at ntlworld.com>
+Subject: Re: Beer Line Cleaning
+
+
+Michael Eyre asks about running line cleaner from (presumably Cornelius)
+kegs to clean lines.
+
+
+In the UK, line cleaner is essentially caustic soda (lye) solution with some
+bleach and you might therefore not wish to leave it in the keg for more than
+an hour followed by a good rinse.
+
+
+But one never know what's in US products, does one?
+
+
+David Edge, Derby
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Jan 2007 07:10:28 -0500
+From: Fred L Johnson <FLJohnson52 at nc.rr.com>
+Subject: Re: Secondary Hopping w/Pellets
+
+
+David says that Ralph Olson of Hop Union recommended rehydrating hop 
+pellets before adding them to a secondary to improve aroma. Did he mean 
+that one should use hot water to rehydrate the pellets?  Otherwise, I 
+can't imagine why mixing the pellets in cold water would be any 
+different than adding them straight to the secondary.
+
+
+Fred L Johnson
+Apex, North Carolina, USA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Jan 2007 13:04:38 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: Load Cells; Cleaning Lines
+
+
+It was suggested that putting load cells under the kettle might  be a 
+good idea. This idea came to me a couple of years back, I did it and 
+I've been reaping the rewards ever since. At the beginning of the brew 
+the proper amount of water is metered into the kettle easily but the 
+real advantage comes when the wort is collected and thereafter. Pounds 
+of wort times Plato divided by 100 is the pounds of extract which, 
+divided by the pounds of grain used, is the mash efficiency. Losses from 
+boiling are easily monitored and the amount of makeup water required, or 
+additional losses needed  to hit any desired wort strength are easily 
+calculated. Finally, when the Plato strength is right, convert Plato to 
+SG, multiply this by 8.3 and divide into the wort weight to obtain the 
+room temperature volume. Downside: load cells and display rigs are 
+expensive.
+
+
+* * * * * * * * * * * * * * * * * * * * * *
+
+
+Beer line cleaning requires  little of the cleaner solution. It is run 
+into the lines to fill them, allowed to soak within them for a few 
+minutes and then run out. Turning the flow off and on a few times may 
+result in breaking some soil loose after it has softened. Thus, while a 
+keg will certainly serve to replace the Micromatic plastic jug the jug 
+is handy, easier to maneuver etc. Note that the jug is designed to work 
+with conventional kegs and is available with several different screw-in 
+tops for U.S. Sankey, European Sankey, Slider etc. Cornelius fittings is 
+not one of the options. There are other rigs made for beer line cleaning 
+which may be more suitable for home brewers. One consists of a plastic 
+jug with a picnic pump fitted to the lid. A stand pipe is also fitted 
+into the lid and the hose from this standpipe has a fitting which 
+threads onto the faucet shank. Cleaner is pumped backwards through the line.
+
+
+Don't forget to disassemble, soak (in cleaner) and clean the faucets' 
+bores (brush) and equalization holes (wire). The most amazing things 
+grow in them. Reassemble with a bit of probe lube.
+
+
+No, beer line cleaning products will not harm stainless but be sure to 
+rinse them thoroughly. I don't think they would taste very good judging 
+from the way they smell.
+
+
+A.J.
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Jan 2007 10:13:27 -0600
+From: "Ronald La Borde" <pivoron at cox.net>
+Subject: RE: Beer line cleaning
+
+
+>From: Michael Eyre <meyre at sbcglobal.net>
+>
+> ...for line cleaning, I don't see any reason why I can't just fill a keg
+>with the line cleaner solution and run that through my lines and faucet,
+>no?...
+
+
+Sure, it should work out just fine for you.
+
+
+If you think about the commercial cleaning systems, probably they are for 
+large beer dispensing bars. Just consider some place like Cooter Browns in 
+New Orleans. They probably have dozens of kegs on tap at all times. Now 
+imagine some employee using a keg of beer line cleaner, then getting 
+distracted and then later someone serving a pint of cleaner to a customer.
+
+
+So, my guess is that for your personal operation, the idea is fine, but I 
+can also see why the special cleaning pumps are used commercially.
+
+
+Ron
+Ronald La Borde - Metairie Louisiana
+New Orleans is the suburb of Metairie Louisiana
+New Orleans is the New Atlantis
+littera scripta manet => the written word remains 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Jan 2007 10:16:50 -0600
+From: "Ronald La Borde" <pivoron at cox.net>
+Subject: RE: HBD n' MIME
+
+
+Subject: HBD n' MIME
+
+
+Oh no, MIME, and next what? SOUND!!!!
+
+
+Nooooooooooooooooo.
+
+
+Ron
+Ronald La Borde - Metairie Louisiana
+New Orleans is the suburb of Metairie Louisiana
+New Orleans is the New Atlantis
+littera scripta manet => the written word remains
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Jan 2007 08:41:53 -0800
+From: Mark Beck <beckmk at whitman.edu>
+Subject: Re: cloudy cider, and brett 
+
+
+At 10:09 PM 1/2/2007, you wrote:
+>Second:  I've got a couple of gallons of cider that won't clear.  I started
+>with two gallons of cider from the local mill, and fermented with some
+>nutrient and White Labs English cider yeast in a 5 gallon carboy.
+>Fermentation went well, and I transferred to a 2 1/2 gallon carboy for
+>further conditioning and clearing.  At the same time I added some store
+>bought cider to top up the carboy.  I also added some pectic enzyme.  Now
+>I've got some very lightly colored, but murky, yellow/gold cider in the
+>carboy.  This was 3-4 weeks ago.
+>
+>Any suggestions on how to clear it?
+
+
+
+
+Just wait.  I let my cider sit for 3-4 months to clear before I 
+bottle.  If you want it to go faster, chill it down to the low 30's.
+
+
+Orval definitely contains Brett (from what I've read they add it to 
+the secondary.)  At the moment I don't recall if Brett by itself can 
+create a pellicle.  Despite that, from what I've read, reusing this 
+yeast at this point may not give you the flavor profile you 
+want.  Orval ferments with brewers yeast, then pitches Brett in the 
+secondary.  The problem with repitching yeast that has other goodies 
+in it (lactic bacteria, Brett, etc.) is that the balance of the 
+combination gets off--it's possible for souring organisms to dominate 
+instead of playing a secondary role.  If you want to brew a beer with 
+Brett, I'd suggest you buy a separate Brett culture and pitch it in 
+the secondary.  Just my $0.02.
+
+
+Mark
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Jan 2007 09:23:11 -0800
+From: "Dirk Bridgedale" <dirk at bridgedale.net>
+Subject: RE: To HERMS or not to HERMS...
+
+
+Don't Bother.  Invest the money in some good heat blanketing material.
+ I have experimented in HERMS, Steam Injection, and Direct Heat.
+
+
+First I tried Direct Heat.  I had some bad days and burnt the mash.  A
+Pale Ale turned into a Schwarzbier.  Yuck!
+
+
+Second I tried HERMS.  It took way too long to raise the mash.
+(Underpowered? Maybe?)
+
+
+Third I tried Steam Injection.  This was working great until I found
+Some Hot Spots at the end of the mash.  Requires constant stirring.
+(Also... VERY dangerous).
+
+
+I told a Pro. Brewer how I was having trouble finding the right
+mashing equipment.  His response, "Why bother ?- Just Mash in,
+Insulate, Mash out".   Uhhhhhh...
+
+
+So I went back to the "Keep It Simple Stupid" philosophy.  I bought
+some 1" Thick Foam Insulation from McMaster - Carr.  I wrap My keg
+from head to toe and top and bottom.  I only lose 2F in a 1 hour mash
+step.  Which is very acceptable.  Then I use boiling water to raise
+mash to mash out.  I still use a pump, but only to pump the hot water
+from the HLT under the mash tun.  If the pump were to fail, I could
+just pour the water in from a small pot.  Now I can sit back, relax
+and enjoy a homebrew.
+
+
+Here is some good info I came across.
+http://sdcollins.home.mindspring.com/HERMS.html
+
+
+- -- 
+Beer is proof God loves us and wants us to be happy  -  Benjamin Franklin
+
+
+Dirk Bridgedale
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Jan 2007 12:24:21 -0500
+From: Christopher Burian <cburian at burian.net>
+Subject: RE: Controlling Fermentation Refrigerator Temperature
+
+
+Hi,
+
+
+Thought I'd throw in my experience with temperature control.  I only
+receive HBD sporadically (recently received 5111, then 5114, then
+5117, 18 and 19--three in a row, great winning streak!) so I missed
+most of the thread.
+
+
+I use a temp controller switch from a flea market junk box made
+by Hammond for controlling a fan in telephone pole electronics
+boxes (for example).  The entire switch, not just a sensing bulb,
+is inside my 'lagering chamber' (a top-opening chest freezer).
+
+
+I run a heater (a 25W bulb) with fan inside the chamber too, thus
+the compressor runs 24 times a day instead of once or twice as
+intended, plus the interior is rusting since it was never
+meant to be above freezing, unlike a fridge.  And the thermostat
+switch is probably going to die prematurely from the humidity, too.
+Not an exercise in longevity, obviously, anyway...
+
+
+The reason for using the heater was that the thermostat works better
+when there are balanced excursions in temperature.  Without the
+heater, the chamber cools really fast (1/4 hour), and goes too
+cold, then takes a very long time to warm up (depending on outside
+temp, obviously), getting too warm in the process.
+
+
+I've hooked up recording temp probes, too.  I sensed interior
+temperature of the chamber with a bare probe next to the thermostat
+switch, and sensed the temperature of the carboy by taping the probe
+to the side of the carboy, and then taping a wad of bubble wrap over
+the probe to keep air away.  I use 2" vinyl tape (have a roll of
+Shurtape and a roll of 3M 471 and these both work great, no gooey
+gum or residue, and peels off cleanly without taking paint, etc.).
+
+
+Additional data would be to submerge a probe into the center of the
+volume of the beer and compare to the carboy surface temp, haven't
+tried that since I don't have waterproof stainless probes.
+
+
+Observations were that the chart shows very erratic chamber temp
+and somewhat bobbling temp on the carboy without the heater or
+fan.  Swings were much greater than the expected 10 degreesF the
+thermostat is rated for.
+
+
+But with the heater and circulating fan (both always on), the
+chamber temp is a steady sawtooth of +/- 5 degreesF, and carboy
+temp is almost flat, +/- 1 degreeF, both centered nicely at the
+setpoint on the thermostat.
+
+
+My recommendation is to control the chamber temp with a probe in
+free air, rather than a probe in or on the beer, because in the
+latter case, air temp would possibly swing way too far in each
+direction by the time the beer temp changed enough to kick the
+thermostat on and off.  If you felt that temp cycled on and off
+too frequently, then a small bottle of water should be used as
+a thermostat moderator, rather than 5 gallons, I suspect.
+
+
+My other recommendation is to run the interior fan continuously, not
+just when cooling.  I think it keeps interior temperature more stable.
+
+
+I plan on getting rid of the freezer chest and replacing with a
+fridge.  Will see whether the heater is still needed or not.
+
+
+Best regards,
+Chris
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Jan 2007 10:09:55 -0800
+From: Michael Eyre <meyre at sbcglobal.net>
+Subject: Temp of kegged beer once chilled...
+
+
+Ok, so I kegged up a batch of brew for a party I was having, and put it 
+in the fridge to cool it while it force carb'd. That was a couple days 
+before the party. I only have room for one keg in my small kegerator. 
+When that was done, I was put on another couple of kegs first, of which 
+I expected both to kick that evening with my home brewed keg (the first 
+two were local micro's..) as the backup. Much to my surprise (or not??? 
+Commercial beer, in *my* house??), the two commercial kegs did not 
+empty, and I've been inviting people over regularly now for the past 
+couple days for "free beer" parties. But still, the Berkshire Imperial 
+stout won't die! I've had my beer out in the garage in the mostly 30's 
+to near 40 degree temps for almost a week now. I'm sorta wondering now 
+if there's any bad aspect to chilling home brew, and then letting it 
+warm up? I know I have bottles of home brew downstairs that've been on 
+the shelf at cellar temps (58-64 here) for over a year now with no ill 
+effects... but what about beer that's been chilled? Any problems with that?
+
+
+Mike
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Jan 2007 11:07:50 -0800
+From: "Timothy LaFrance" <Timothyla at insite.com>
+Subject: RE: Beer line cleaning...
+
+
+On Tue, 02 Jan 2007 10:45:06 -0800, Michael Eyre wrote:
+
+
+> ...for line cleaning, I don't see any reason why I can't just fill a
+keg 
+>with the line cleaner solution and run that through my lines and
+faucet, 
+>no? That, then flush 'em with clean water and I should be good,
+correct? 
+>I was just reading the Micromatic site and see their pro cleaning kit
+
+
+>with the pressurized bottle apparatus... the only difference I see 
+>between that and using a keg is that their vessel is made of plastic.
+Is 
+>there a problem with putting solution in a SS keg? I can't imagine,
+but 
+>figured I'd ask first....
+
+
+There is a significant difference between the using a cleaning bottle
+and a keg.  The cleaning bottle 'usually' (I am not sure of Micromatic)
+meters in a small stream of bubbles when the solution is flowing.  This
+will impart a slight [non-damaging] water hammer to the lines and
+increase the turbulence.  Generally speaking, the greater the turbulence
+the better the cleaning.  Most draft systems are designed so that when
+you draw beer from a keg, it creates the least turbulence.  In my
+experience, you want the pro system if A) You have a long draw, all
+stainless steel system, B)  If you are cleaning draft boxes (Jockey
+Boxes) or C) you do this service commercially.  For a "normal" homebrew
+system, it is cheaper to use a SS keg as you mentioned between kegs. 
+Every 3-6 months or so, disassemble and clean the faucet,  then replace
+the keg -to-tap line every year or so.
+
+
+Of course some of us homebrewers go for overkill, and we want the best,
+even if we don't "really" need it. If you want the same features as the
+pro system, add a tee inline with a small needle valve on the sidearm of
+the tee.  Hook this line up to you CO2 or compressed air.  Pressurize
+the keg and cleaning solution and let it flow.  Adjust the needle valve
+to get a stream of air and cleaning solution that is about 50/50.  Let
+it run 1 minute, sit for 5, then run for about another minute.  Rinse
+with warm water until you are happy.
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #5120, 01/03/07
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

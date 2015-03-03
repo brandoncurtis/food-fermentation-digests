@@ -1,0 +1,1335 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA12749 for <spencer`at`srvr5.engin.umich.edu>; Sat, 9 Mar 1996 03:07:53 -0500 (EST)
+Received: from twins.rs.itd.umich.edu (twins.rs.itd.umich.edu [141.211.83.39]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA21928 for <spencer`at`engin.umich.edu>; Sat, 9 Mar 1996 03:03:53 -0500 (EST)
+Received: by twins.rs.itd.umich.edu (8.7.4/2.2)
+        with X.500 id DAA06820; Sat, 9 Mar 1996 03:03:52 -0500 (EST)
+Received: from hplb.hpl.hp.com by twins.rs.itd.umich.edu (8.7.4/2.2)
+        with ESMTP id DAA06813; Sat, 9 Mar 1996 03:03:48 -0500 (EST)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Sat, 9 Mar 1996 08:02:39 GMT
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA10926; Sat, 9 Mar 1996 01:00:07 -0700
+Date: Sat, 9 Mar 1996 01:00:07 -0700
+Message-Id: <9603090800.AA10926`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #1980 (March 09, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #1980                             Sat 09 March 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Yeast Mutation (Lorne P. Franklin)
+  phenolic (Jerry Lee)
+  copyright (Robert Rogers)
+  MacTarnahan's Ale ("Dave Hinkle")
+  stuck porter sparge (Peter D Breil)
+  Diacetyl is a chemical (Steve Adams)
+  channeling, why not? (Kelly Heflin)
+  at least it's short... (Andy Walsh)
+   ("n43a")
+  first wort hopping (Jim Dipalma)
+  subscription (SSparks204)
+  Elrician help needed! (The Old Fogy)
+  Splitting the Process (Chuck)
+  phosporic & lactic acids (Dave Whitman)
+  Recipe Scaling (Tim Laatsch)
+  IR/Pumps/H3PO4/N2/C./Stout/Ion Xchange (A. J. deLange)
+  Black Mac (Eugene Sonn)
+  Flaked barley/stuck mash (Jim Busch)
+  Iodophor (Michael T. Bell)
+  Recipes, recipes ("Taber, Bruce")
+  HBD on Solaris (guym)
+  Re: Cheap Bottles (Michael K. Cinibulk)
+  Hart Brewing Wheat Beers (Michael K. Cinibulk)
+  104F Rest (Rob Reed)
+  Addendum to Solvent stuff (Zucchini Dave)
+  mini-keg questions (Julio Canseco)
+  Wyeast 1272 (WattsBrew)
+  Really Dirty Carboys (Jeff Smith)
+  Foam control (Paul.Lambie)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 6 Mar 1996 12:31:28 -0400
+From: lachina`at`interramp.com (Lorne P. Franklin)
+Subject: Yeast Mutation
+
+
+Tam Thompson writes, ". . . You can usually re-use that slurry about three
+times before it starts to mutate too far into the unusable range. . . ."
+
+
+I've read this assertion in many places and am wondering if anyone can
+profile the flavor, bahvior, or appearance of "mutated" brewers yeast.
+I've never used yeast beyond the third generation, but am curious of the
+potential problems involved with "inbred" yeast.
+
+
+Thanks a lot.
+
+
+L o r n e  F r a n k l i n
+     Lachina Publishing Services
+     t. 216.292.7959 - f. 216.292.3639
+     lachina`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Mar 1996 09:52:03 -0800
+From: jlee`at`esd.ray.com (Jerry Lee)
+Subject: phenolic
+
+
+Well the beer from hell has given it's last act of
+defiance...It has developed a definite phenolic
+aroma & flavor....could the contamination occured
+during the foaming filter I brought up  just a 
+few files back...or is this more of case of
+sanitation error during fermentation?  Could open 
+fermentation been the cause?  After all the claims
+that this wasn't a problem in open fermentation...
+
+
+So much for following the consensus...On top of the
+phenolic (bandaid like) aroma & underlying flavor, I
+pick up a hint of rubber too...arrrrgh....
+
+
+A.J.  a little help....this was supposed to be an
+ESB and I got the malt profile and color right on...
+the hop was just a touch too low but it was definitely
+too low on the minerals....
+
+
+My water is run through a water softner, then a
+reverse osmosis, then a charcoal filter....ph around 7.
+I add latic acid and calcium carbonate to balance
+the sparge water and mash around 5.3.  Like I said, the
+attenuated hop and the initial front end flavor was
+lacking the mineral effects...but how much mineral and type
+do I add?  You've lost me on several of your threads and
+I need a reference that I can take my time studying...
+any suggestions? What type of water test kits do you
+recommend if I want to take complete control of the 
+situation without the approximations of just add a little
+of this or that.
+
+
+I intend to try it again, with closed fermentation, on 
+the 17th.   TIA
+
+
+                  =====================================================
+   ~~~~~       /                                                      \
+  //\\\\\     /   Jerry D. Lee, Jr.  | SEPG Methods & Tools Chairman  /
+ {| ~ ~ |}   /   E-Systems /Raytheon | E-Mail : jlee`at`eng.esd.ray.com  \
+  |  ^  |   /   One So. Los Carneros | Tel    : 805-967-5511 ext2306   \ 
+   \ = /    \  Goleta, CA 93117-5597 | Fax    : 805-964-9185              _/
+ --/\-/\--   \                                                             \
+   \/^\/      \+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=|
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Mar 1996 13:02:56 -0500
+From: bob`at`carol.net (Robert Rogers)
+Subject: copyright
+
+
+there has been some recent discussion of copyright, but here is a summary:
+if you write something, you have a copyright on it.
+you cannot copyright facts
+
+
+thus, if someone were to take HBD and put it on a cd and sell it, they would
+be violating all of our copyrights (even if we don't care).
+
+
+OTOH: if they take all the facts presented here and publish them, there
+would be no problem.
+
+
+there are a wealth of copyright resources on the net if you want more details.
+
+
+bob rogers,  bob`at`carol.net
+
+
+
+
+------------------------------
+
+
+Date: 06 Mar 1996 10:22:16 -0700
+From: "Dave Hinkle" <Dave.Hinkle`at`aexp.com>
+Subject: MacTarnahan's Ale
+
+
+Glenn wrote:
+
+
+>Here is the info I have been able to collect on Portland Brewing's 
+>MacTarnahan's Ale (without actually venturing up there.)
+>
+<snip>
+ > IBU: 40
+<snip>
+>
+>From the IBU measurement (thank you Portland Brewing), we can compute the
+>hop additions based on each person's favorite utilization numbers and 
+>formula.
+>Obviously, a guess will have to be made on the grist ratios and probably
+>use Wyeast's Scotch Ale strain for a lack of any other info/source.
+>
+>Sources:  Martin Wilde (thanks), and Portland Brewing's Web Page.
+
+
+I'm a bit skeptical about the IBU measurement you were given.  It seems way 
+too high to me.  Did Portland actually measure it, or just estimate it?  I 
+would have
+guessed it to be around 20-25 at most.  But then again, there is a lot of 
+sweetness 
+that would offset the reported high IBUs, and I am not an "expert" at beer
+judging, but I'm in heavy training ;-).  Also, for the yeast, MacT's, IMO, is 
+on the
+"clean" side as far as Scottish goes, so I'd venture a guess they use something
+similar to Wyeast British (or even Chico Ale?).  The Wyeast Scottish Ale yeast 
+is on the more "complex" side of the scale so I don't think you'd get the same
+effect as MacT's.  I also would guess American 2-row as the base rather than
+English pale, maybe 6-7 lbs, plus about 2 lbs of fairly light crystal malts for 
+a 5
+gallon batch.  Like I said, I don't find it to be a very complex taste, so I 
+would 
+expect a fairly simple list of ingredients.
+
+
+Dave H.
+Phoenix, AZ
+
+
+------------------------------
+
+
+Date: Wed, 6 Mar 1996 14:22:13 -0500 (EST)
+From: Peter D Breil <breil+`at`pitt.edu>
+Subject: stuck porter sparge
+
+
+  In HBD #1977, James Glenn writes that the fermentation of his modified 
+porter stuck after 1.5 days, after dropping from about 1.070 to 1.032.  
+Unfortunately I don't have an answer to why it stuck, but find a couple 
+of _remarkable_ parallels.  
+  Two weekends ago I brewed an all-grain porter with an S.G. of 1.060  
+and got it going in the primary with Wyeast 1098, London Ale, pitched 
+from a 1 quart starter after aerating as usual with an aquarium pump. The 
+fermentation was very vigorous for about 2 days, then COMPLETELY stopped. 
+Gravity is 1.024.  The grain bill is not such that there should be that 
+many unfermentable sugars.  I've tried rousing the yeast repeatedly - no 
+effect.  I tried adding a rehydated pack of Edme yeast - no effect.  I 
+tried racking to a secondary last night, re-aerating (whimper) and adding 
+a 1/2 cup of corn sugar dissolved in boiling water - no effect.  What is 
+going on here?  In 30 batches, I've never had a really stuck sparge 
+before.
+  But wait, it gets more weird.  A friend brewed the _same_ recipe from 
+Terry foster's Porter book 2 days later.  He has had sucess with the 
+recipe before.  He pitched a Brewtek Ale yeast directly from a stout that 
+he was finishing up.  His S.G. = 1.070 (his system is more efficient).  
+He had a VERY vigorous fermentation for 2-3 days, then his slowed to 
+almost a standstill and a gravity of of 1.035.  Coincidence?
+  Oddly enough, we are in Pittsburgh and James is not too far away.  Have 
+we experienced a tear in the time-yeast continuum?  Do we have lemming yeast?
+  Any suggestions as to the cause of these mass die-outs of porter 
+yeasties would be appreciated.
+
+
+TIA,
+Pete
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 Mar 96 16:09:09 est
+From: paa3765`at`dpsc.dla.mil (Steve Adams)
+Subject: Diacetyl is a chemical
+
+
+Guys:
+
+
+While there is no obvious route for converting (no puns intended) diacetyl
+(diacetylic?) from a noun to an adjective, one of the great strengths of
+English is its flexibility.  Words that start out as one part of speech are
+often adapted to function as others.  Remember, language is a living, evolving
+thing.  Many English nouns can be used as adjectives without changing form at
+all.  Sometimes a new noun becomes a verb.  (For instance, you may write a
+critique on a particular beer; critique, strictly speaking, is a noun, but only
+the stodgiest of grammarians would even know to object to the sentence, "You
+critiqued the beer." )    You can't stop this process.  So if enough brewers
+and beer judges say that a beer has a "diacetyl flavor,"  who is to say that
+the word isn't an adjective?  Moreover, I know that I've personally diacetyled
+(diacetylled for you Brits) several of my ales by fermenting them at 75 F.  For
+those of you who object to this thread as being off topic, knowing the jargon
+of any trade is important in its practice.  Sometimes we hombrewers operate in
+a language vacuum, and it's hard to figure out the lingo.  I wonder how many
+new words have entered  the language as a result of homebrewing?  Back to the
+kettle; I'm about to boil over with all of this excitement.
+
+
+Later,
+
+
+Stein
+
+
+Subject:  Diacetyl - it is really a noun!
+
+
+
+
+OOH!  OOH!  I know this one!
+
+
+Bob McCowan <bob.mccowan`at`cfrp.varian.com> wrote:
+>We brewers tend to use the term diacetyl as a noun, but from the structure
+>of the word it looks like an adjective.  Is it really a noun, or are we just
+>trashing ( turning a noun into a verb) the language?  If it's an adjective,
+>then diacetyl what?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 Mar 1996 17:43:02 -0500
+From: Kelly Heflin <kheflin`at`monmouth.com>
+Subject: channeling, why not?
+
+
+All right, whats wrong with just stopping the flow for a second,
+mixing the grain bed ...real well... and then proceeding, knowing
+you are getting a consistent and well mixed sample. 
+
+
+Please excuse me for sounding abrupt. 
+
+
+What is a "clear runoff"? clear of what. I hope we're not talking
+about clear color, and then what would be wrong with some grains
+mixed into your boilpot?
+
+
+Go easy, I'm only 3 batches into this all grain thing.
+
+
+Oh. will my bock beer 1.07 og. be any good if it stops at 1.025?
+If not what can I do. I wanted a sweet malty beer but its real sweet.
+
+
+thanks
+Kelly C. Heflin        
+kheflin`at`monmouth.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 Mar 1996 10:01:16 +1000
+From: Andy Walsh <awalsh`at`crl.com.au>
+Subject: at least it's short...
+
+
+Al K. writes,
+
+
+>I've always wanted to be quoted by an Australian, and I think that
+>this may be my chance...
+
+
+There now, aren't I a considerate person?
+
+
+- -- 
+Andrew Walsh                        CHAD Research Laboratories
+Phone (61 2) 212 6333                5/57 Foveaux Street
+Fax   (61 2) 212 1336                Surry Hills. NSW. 2010
+email awalsh`at`crl.com.au                Australia.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 Mar 96 15:12:41 PST
+From: "n43a" <n43a`at`cnsp-emh.san.mrms.navy.mil>
+Subject: 
+
+
+     On:
+     Date: Sat, 2 Mar 1996 23:26:39 -0500
+     From: GSHUTELOCK`at`aol.com
+     Subject: Boston Beer Bottles
+     
+     I know were not supposed to use "non-returnable" bottles for our 
+     homebrews <snip>... used to buy my 12 oz bottles from my local brew 
+     store (about $ 9.95 and tax for a case of new empties)...<snip>
+     
+     My question is does anyone know any reason I couldn't or shouldn't 
+     reuse these "Sam Adams" bottles.  Granted they are not the extra tough 
+     reusable bottles the commercial breweries use, but they've got as much 
+     glass (and I figure strength) as the empty bottles I'd been paying 
+     good money for.  Stacked up with the new bottles I can't even tell the 
+     two apart (shape or weight). <snip>
+     
+     
+     Under no circumstances should non-returnable bottles be used by 
+     homebrewers.  This prohibition is found in the same volume of laws 
+     which includes the prohibition on the removal of manufacturers tags 
+     from furniture and mattresses.  You may avoid prosecution by shipping 
+     full bottles, via UPS, to me.
+     
+     Actually, where do you think that most of us homebrewers get our 
+     bottles...by commercial beer (quality stuff) drink the beer and use 
+     the bottle for even better stuff.  Collecting bottle in this manner 
+     provides the drinker/homebrewer with an opportunity to evaluate if a 
+     craft brewer has sold out to crass commercial interests...i.e., Pete's 
+     Wicked products used to be available in NON-twist off caps.  Pacifico 
+     bottles are really nice, too.
+     
+     John Kneipp
+     
+     
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Mar 96 10:26:45 EST
+From: dipalma`at`sky.com (Jim Dipalma)
+Subject: first wort hopping
+
+
+
+
+Hi All,
+
+
+   A few months back, George Fix posted here regarding a procedure called
+first wort hopping. I don't recall the digest# in which his post appeared,
+but the gist of it was that superior hop flavor and aroma could be achieved
+by adding a small quantity of hops to the kettle during sparging. The
+aromatic compounds in the hops bind with wort constituents, survive the boil,
+and result in cleaner hop flavor and aroma than that obtained with late hop
+additions. As I recall, Dr. Fix's data was preliminary, and he did not offer 
+much in the way of practical suggestions as to how to do this on a homebrewing
+scale.
+   About 2 months ago, I brewed an altbier with one of my brewing buddies
+(hi Scott!). I had just read Dr. Fix's post, and was interested in this
+procedure. We added 1/4 ounce of fresh German Hallertaur leaf to the kettle
+at the beginning of the sparge, and left it in for the duration of the sparge,
+about 90 minutes (this was a 10 gallon batch). As the sparge progressed, we
+could smell the hop aroma coming out of the kettle. Once the boil was started,
+I figured out the IBU contribution from the 1/4 oz of hops, and subtracted
+that from the total IBU target. My reasoning was that the iso-alpha acids 
+that contribute hop bitterness are extracted by boiling, so the 90 minute
+steeping should have no impact on iso-alpha acids contribution - it was
+essentially the same as adding the 1/4 oz at the beginning of the boil. I
+added enough additional German Hallertaur to get to the target of 40 IBUs,
+but did no late additions at all. According to conventional brewing wisdom,
+the beer should have ended up with little or no hop flavor.
+   This past weekend, I tapped the alt after a period of several weeks of
+cold conditioning. The beer is not going to win any prizes, it's a little
+estery, not a good thing at all for an alt. This was the result of letting
+the fermentation temperature creep into the high 60s with a strain of yeast I
+was using for the first time, and now realize is somewhat thermophobic. The
+hop flavor, however, is absolutely wonderful!! Pronounced, but exceedingly
+clean, none of the harsh, resinous notes I generally find with high levels
+of hop flavor produced by late additions.
+   Also this past weekend, I brewed an IPA, this time adding 1/4 oz of Fuggles
+to the kettle at the beginning of the sparge. I won't know for a couple of
+weeks how this will turn out, but based on my experience with the alt, I have
+high expectations for this batch. I'll post the results in a couple weeks time.
+   I urge other homebrewers to try this procedure the next time you're brewing
+a beer that calls for a lot of hop flavor. Use a small amount of hops - I got
+a lot of hop flavor in the alt with just 1/4 oz. When calculating hop 
+bitterness, treat the amount of hops used for first wort hopping as an addition
+at 60 minutes - the alt's bitterness level was pretty much on target.
+
+
+         Cheers,
+          Jim               dipalma`at`sky.com
+
+
+------------------------------
+
+
+Date: Wed, 6 Mar 1996 21:26:26 -0500
+From: SSparks204`at`aol.com
+Subject: subscription
+
+
+Please Suscribe me to your list.
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 01:11:08 -0800 (PST)
+From: The Old Fogy <mimosa19`at`idt.liberty.com>
+Subject: Elrician help needed!
+
+
+
+
+Here is a problem that if solved will make someone a hero to electric
+stove top brewers.
+
+
+Thanks to installation ideas from Ron LaBorde (rlabor`at`lsumc.edu) It's
+a simple matter to fit a 3000w 220V water heater element ($8.00) into
+a 6 gallon plastic brew kettle ($8.50) attach a 220V capacity electric
+cord ($4.95) and then plug it in.
+
+
+One problem ... There are some apartment 220V stoves that are so snug
+in their installation that there is no access to the 220V outlet. I
+looked at mine and there is a heavy duty panel covering up the access
+to the 220V plug.
+
+
+After realizing how easy it is to slip one of the coiled burners in and
+out of the stovetop for cleaning purposes, it dawned on me there must
+be a way to make a plug to fit into the same receptacle. This would
+give you access to a 220V line. In addition, you would have complete
+boiling control from the temperature controls on the front of the
+stove!
+
+
+This would give a brewer forced to do electric stovetop brewing, a less
+than $25 6 gallon brew pot or for a little more money a 33 quart
+ceramic on steel electric cooker! This is a less than 30 minutes for a
+full 5 gallon boil with temperature control!!!
+
+
+Is my lack of electrical knowledge making me miss something here ...
+or is my idea workable?
+
+
+Please e-mail any ideas and/or suggestions and I will compile all
+suggestions.
+                                                 \\\///         
+                                                / _  _ \        
+                                              (| (.)(.) |)      
+                                      |------oOOo--()--oOOo------|
+                                      |                          |
+                                      |       The Old Fogy!      |
+Bob "The Frantic Fermenter"           | mimosa19`at`idt.liberty.com |
+                                      |                          |
+Keeper of the sacred cultures         |      still trying to     |
+                                      |       hang in there      |
+                                      |       5 gallons at       |
+                                      |          a time          |
+                                      |                          |
+                                      |--------.oooO-------------|
+                                              (   )   Oooo.     
+                                               \ (    (   )     
+                                                \_)    ) /      
+                                                      (_/
+
+
+------------------------------
+
+
+Date: Thu, 07 Mar 1996 07:49:52 -0500
+From: pittprog`at`usaor.net (Chuck)
+Subject: Splitting the Process
+
+
+Esteemed collegues,
+
+
+  Due to the length of time it takes me to perform the
+entire brewing process (from mashing to pitching),
+I am considering breaking the process into 2 steps.
+Mashing on one day, and boiling the next. I was
+wondering if anyone has had any experience 
+with such a procedure andwhat (if any) problems
+should I watch out for. 
+
+
+TIA.
+
+
+   Bob.
+- --
+Registered ICC User
+check out http://www.usefulware.com/~jfoltz
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 08:06:55 -0500
+From: dwhitman`at`rohmhaas.com (Dave Whitman)
+Subject: phosporic & lactic acids
+
+
+In HBD #1977, Jay Reeves (jay`at`ro.com) asks:
+
+
+>Can the HBD resident chemist (or any one else) tell me why
+>you should use lactic acid to drop the mash pH as opposed
+>to using phosphoric acid?  I know about using salts for
+>mash adjustments.  I currently use phosphoric acid to
+>acidify the sparge water, but why only lactic in the mash?
+
+
+I see no special reason to prefer one of these acids over the other for
+simple acidification purposes.  Both are safe as food additives, and at low
+use levels, neither will impart a significant flavor.
+
+
+FWIW, I use lactic acid to acidify my SPARGE water.  (I end up using 1/8
+tsp of 85% lactic acid per 5 gallon batch).  If you need to adjust the pH
+of your mash, I'd consider adding calcium ions to your water.  The buffer
+capacity of your grains is high enough that I'd worry about needing to add
+so much mineral acid that the flavor would become perceptable.
+
+
+
+
+
+
+- ---
+Dave Whitman
+Rohm and Haas Specialty Materials
+dwhitman`at`rohmhaas.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 Mar 1996 08:33:00 -0500 (EST)
+From: Tim Laatsch <LAATSCH`at`kbs.msu.edu>
+Subject: Recipe Scaling
+
+
+Hello Everyone,
+
+
+I would like to hear from those brewers who have made the jump 
+to the professional ranks.  (I know, they're probably all too 
+busy to read the HBD anymore!---Kinney, are you out there 
+lurking? Anybody else?) Specifically, I'm interested in the 
+dynamics of recipe scaling.  I've often heard that recipes 
+do not scale-up linearly.  Is this the case, and if so, what 
+considerations must be made when scaling up a recipe from 5 
+gallons to 10 gal to 1/2 bbl to bbl to 10 bbl to 25 bbl?  Where 
+along the curve does linearity break down?  Are lower 
+proportions of caramel and roasted malts required for the 
+same flavor and color effects?  Are hop utilization rates 
+affected at all by batch size?  What about hop flavor and aroma 
+characteristics?  This may not be of interest to the list at 
+large, so private email is welcome and I will post a summary if 
+interest warrants.   Thanks in advance for any insights.
+
+
+Tim
+
+
+************************************************************************
+| Timothy P. Laatsch        |           laatsch`at`kbs.msu.edu             |
+| Microbial Ecology Grad    |   Head Brewer, Spruce Grove Nanobrewery   |
+| Michigan State Univ/KBS   | Check out my homebrewing page on the Web! |
+| Kalamazoo, MI             | http://kbs.msu.edu/~laatsch/beerhome.html |
+*************************************************************************
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 09:50:47 -0500
+From: ajdel`at`interramp.com (A. J. deLange)
+Subject: IR/Pumps/H3PO4/N2/C./Stout/Ion Xchange
+
+
+In #1977 Tom Penn asked about applications for IR technology in brewing.
+None come to mind. At slightly shorter wavelengths, i.e. the visible, there
+are lots of applications in colorimetric analyses of things like beer color
+(which includes a turbidity check at  700 some nm) and brewing water ion
+content.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Terence Tegner asked about pumps (also in #1977). Heat, resistance to
+corrosion sanitation and the ability to exclude air are the big three in
+brewing. Which from this set are required depends on the application.
+Pumping hot wort requires the first two and pumping fermented beer the
+latter two. Widest application is realized with the ceramic impeller
+magnetically coupled pumps as these have all the desired properties. They
+tend, of course, to be expensive (around $125 US for 1/25 HP units).
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Jay Reeves wants to know (#1977) why no one uses phosphoric acid for mash
+pH adjustment. Well some people do and there really isn't any reason not to
+except that it is nasty stuff to handle (relative to lactic acid) and a
+little more difficult to come by. The hazardous nature of it means you pay
+an extra $7 to the shipper. There is the possibility that a small amount of
+calcium will be precipitated as the phosphate but at proper mash pH this
+shouldn't be noticeable and this is going on anyway due to phosphate in the
+malt. Phosphate should be more flavor neutral than lactate.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+David Raitt (#1977) proposes cooling wort with liquid nitrogen. The problem
+is that the nitogen will be immediately vaporized and this will not remove
+much heat. The enthalpy of vaporization for nitrogen is 47 calories per
+killogram. To cool 1 killogram of water from boiling to room temperature
+requires 80 calories so that cooling 5 gallons of wort would take 32 kg of
+liquid nitrogen. In doing this rough calculation I assume that the gas
+phase would be pretty useless at removing heat. A lot of gas would be
+produced (25600 litres or 14 litres per second if the cooling took place
+over half an hour). How is the liquid to be delivered to the brewery. In a
+Dewar flask? Who is paying for this? Seems to me that plain old water is a
+much better choice.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+As two people have commented on the nature of radicals I figure I had
+better acknowledge that I was sloppy about CH3CO-. It is sometimes written
+this way where the - really symolizes the bond (i.e. a pair of electrons)
+as in
+
+
+                      H O
+                      | ||
+                    H-C-C-OH
+                      |
+                      H
+
+
+Even so the radical does not have a net negative charge. (Rather to the
+contrary in acetyl chloride it looks more like a cation than an anion.) The
+"proper" way to write the radical is with a small dot next to the carbon (
+CH3OC.) with the dot representing the unpaired electron which will
+participate in bond formation.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Mike Dowd asked about the latest Classic Beer Styles offering. "Stout" by
+Michae Lewis is in the catalog insert in the latest Zymurgy.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+The total ion exchange approach is not out of the question for home
+brewers. Cole Parmer sells ion exchange cartridges intended for laboratory
+use for (I'm guessing) around $45. A pair of these is typically put into
+tandem with the first depending on the properties of your tap water and the
+second being a final cleanup. A mounting bracket is available for $50-60
+which includes a valve and some tubing so you are pretty much  set up for
+about $150. The amount of water you can process through these cartridges
+before they are exhausted depends on the mineral content of your water and
+the resin turns color as the exchange takes place. When the cartride color
+is competely changed, swap it out. The flow rate is modest but much faster
+than a Brita so you will need something to collect water in (carboys?) over
+a period of time before you brew.I own stock in Cole-Parmer and make money
+on every cartrige they sell so I would encourage all readers of this digest
+to go out and buy as many cartridges as they can possibly afford to
+enrichen me further. As the water from these cartriges will put a spring in
+your step and lead in your pencil (plus growing hair on bald heads) I'm
+sure that you will want to make all kinds of sacrifices in order to obtain
+these cartriges. Write to your senator and tell him that they will remove
+lead from ghetto water. This aside, David Muzidal and Ian Smiley are
+innocent of the stain of sin which sullies me. I've been corrsesponding
+with Dave (and others) on this subject since, I think, November.
+(Appologies to Cole Parmer. The product does produce water with
+resistivities in the megohms).
+
+
+A.J. deLange   Numquam in dubio, saepe in errore!
+ajdel`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 08:40:36 -0500 (EST)
+From: Eugene Sonn <eugene`at`future.dreamscape.com>
+Subject: Black Mac
+
+
+Greetings HBDers and especially those in New Zealand,
+        My father just returned from a vacation in New Zealand and was 
+talking about a dark ale called Black Mac.  He liked it quite a bit and 
+I'm interested in cloning it.  Anyone out there...especially those in New 
+Zealand.....have a clone of this beer.  I've never tasted it, but since 
+I'm trying to encourage a taste for good beer in my dad, it would be 
+appreciated.
+
+
+Eugene  Sonn
+eugene`at`future.dreamscape.com
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 09:47:45 -0500 (EST)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: Flaked barley/stuck mash
+
+
+Mike reports about using flaked barley:
+
+
+<I made another stout recently in which I used flaked barley, as I did with
+<the RIS.  I also used the George Fix mashing schedule (as I did with the
+<RIS), mashing in at 104 F, then skipping the protein rest.  Once again, my
+<sparge stuck like molasses.
+
+
+<My theory, then,
+<(admittedly, based on a pretty small N) is that the 104 F rest is not good
+<for grain bills containing flaked barley.  Perhaps resting at this temp
+<gelatinizes the flaked barley, turning it into a gooey, gummy mess that
+<increases wort viscosity, making sparging difficult.
+
+
+Well, I have not brewed my 25% flaked barley stout yet but Ive been
+looking into this and getting a lot of feedback from others who have
+done this.  Some report no problems with a single infusion mash while
+others have had serious lautering problems.  Some report that the
+beta glucan rest at 104F plus protein rests are mandatory but I 
+suspect this is not done at Guinness (the pale ale malt would have
+little beta glucanase left).  Since one of my goals is maximum attenuation,
+and I would like to be able to lauter this stuff, Im going to use
+a 40/50/60/70C mash program.  Ill let you know how it works.
+
+
+Jim Busch
+
+
+                     A Victory For Your Taste!
+                      Festbier, Lager and IPA
+                      and Pils, and Mild, and Doppelbock
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 09:20:14 -0500
+From: mikeb`at`flash.net (Michael T. Bell)
+Subject: Iodophor
+
+
+Howdy,
+        One quick question.  What is the proper dilution rate of Iodophor?
+I have read that the optimum is 25ppm.  That works out roughly to 1oz per 6
+gal.  In this concentration, it stains my hoses a nice shade of light
+brown, lovely but annoying.  Is this to high?  If it is, what is the proper
+ppm?
+
+
+
+
+                     -mtb
+beer is good food
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 Mar 96 10:17:00 EST
+From: "Taber, Bruce" <BRUCE.TABER`at`NRC.CA>
+Subject: Recipes, recipes
+
+
+
+
+     Here's my contribution to the "more recipes on the HBD" thread.  I've 
+never posted a recipe before.  Hey, maybe I'll make it into Cat's Meow 4.
+     I'll give two recipes I use.  One is all-grain, the other is extract.
+
+
+#1   Oatmeal Stout (all-grain)
+
+
+This is one of my favorites.  It is very dark and rich with a beautiful 
+brown head.  If you like dark beers but aren't too fussy on the harsh 
+flavors of some stouts, then this is for you.  The oatmeal adds a smooth 
+richness to the stout making it taste like one more.
+
+
+5 gal. US  (19 liters)
+
+
+5.5 lbs     2 row malted barely     (2.5 kg)
+1.0 lbs     1 minute oatmeal          (500g)
+1.0 lbs     roasted barely               (500g)
+1.0 lbs     chocolate malt               (500g)
+
+
+1.0 oz     Fuggle hops - 60 min.     (30g)
+1.0 oz    Golding hops - 30 min     (30g)
+
+
+Wyeast # 1098 British Ale     OG 1.048     FG 1.018
+
+
+I used a 50-65-70 (122-150-158) mash schedule and added the chocolate and 
+roast barely at the 70 degree step and held until conversion (about 20 
+min.). I won't go into my full procedure because everyone has their own 
+methods that they prefer.
+
+
+#2   Honey Bitter   (extract)
+       5 gal US   (19 liters)
+
+
+This is a real easy way to make an outstanding brew.  I never thought to 
+combine honey with a bitter until I tasted one that a buddy made.  Where the 
+idea came from I don't know.  If you don't drink bitters, that's OK.  The 
+residual sweetness of the honey blends beautifully with the bitterness 
+resulting in a rich, amber ale the goes down real easy.  I've made ales with 
+honey before and didn't like the aftertaste, but this one has none of that.
+
+
+4 lb          Brewmaker Victorian Bitter kit     (1.8 kg)
+2.2 lbs     clover honey                                    (1.0 kg)
+yeast as supplied in kit.
+half of supplied yeast nutrient in primary, other half goes in secondary
+15 min. boil        OG 1.030       FG 1.005
+
+
+I have only used this particular bitter kit but if it isn't available to you 
+then just try another brand and let me know what you think.
+
+
+Bruce outside Ottawa
+taber`at`irc.lan.nrc.ca
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 Mar 96 11:29:05 MDT
+From: guym`at`Exabyte.COM
+Subject: HBD on Solaris
+
+
+     Al sez:
+     
+     > Regarding what percentage of HBD readers use Mac and which use PC's,
+     > count me into those that read it on a Sun SPARCstation 4 running Solaris
+     > (although I do own a Pentium laptop).  BRF for Solaris anyone?
+     
+     Well, there you go Al.  You and the Mac users will be united with the 
+     upcoming SPARCintosh product.  A bit of Apple in your Java, sir?  Maybe 
+     this should be on the Cider digest rather than the HBD.
+     
+     Oh, beer reference?  I just brewed an Irish stout Sunday, Guynness Stout 
+     III, which should be kegged and ready for St. Patrick's Day.  Green beer 
+     indeed!!  Humbug!
+     
+     --
+     Guy McConnell /// Exabyte Corp. /// Huntersville, NC /// guym`at`exabyte.com
+     "And the beer I had for breakfast wasn't bad, so I had one for dessert."
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 96 12:45:13 -0500
+From: Michael K. Cinibulk <cinibumk`at`ml.wpafb.af.mil>
+Subject: Re: Cheap Bottles
+
+
+The cheapest way to aquire any type of beer bottle is to either buy it 
+containing its original product, or, for returnable bottles, simply stop by a 
+distributor (or local store) and pay a deposit for the returned empties.  
+You'll of course be faced with some pretty dirty bottles to clean out if you 
+take the latter route, but it is the cheapest way to get the heavy-duty 
+returnables.
+
+
+Mike Cinibulk
+Bellbrook, Ohio   
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 96 13:03:04 -0500
+From: Michael K. Cinibulk <cinibumk`at`ml.wpafb.af.mil>
+Subject: Hart Brewing Wheat Beers
+
+
+R. Smith ....would like to know if anyone has any insight as to the 
+particulars of those northwest wheat beers or any recipes for clones.
+
+
+I have the list of beers available from Hart Brewing and they list as 
+ingredients for Pyramid Wheaten Ale, Hefeweizen, and Apricot Ale:
+
+
+Malts:  Two-Row, Wheat, Caramel
+Hops:  Nugget and Perle
+OG:  1.042(Wheaten), 1.045(Hefe-, Apricot)
+Alcohol:  4.0 vol%
+
+
+They also list Thomas Kemper Hefeweizen and Weizen Berry Lagers as having:
+
+
+Malt:  Two-row, Wheat
+Hops:  Nugget and Liberty
+OG:  1.050
+Alcohol: 5.0 vol%
+
+
+Hope this helps 
+
+
+Mike Cinibulk
+Bellbrook, Ohio
+
+
+ 
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 13:15:52 -0500 (EST)
+From: Rob Reed <rhreed`at`icdc.delcoelect.com>
+Subject: 104F Rest
+
+
+Mike Dowd wrote: (re: flaked barley sticks sparge)
+
+
+> My theory, then,
+> (admittedly, based on a pretty small N) is that the 104 F rest is not 
+> good for grain bills containing flaked barley.  Perhaps resting at this 
+> temp gelatinizes the flaked barley, turning it into a gooey, gummy mess 
+> that increases wort viscosity, making sparging difficult.
+
+
+My understanding of the purpose of the 104F rest is to facilitate the
+breakdown of B-glucans and other gummy carbohydrates via B-glucanase
+and to liquify enzymes that will be used during later mash rests.  It seems
+each author suggests a different temperature ranges for optimum B-glucanase 
+activity.
+
+
+I don't have any scientific comparison on the effectiveness of the 104F
+rest, but I have found that pre-boiling flaked barley and oatmeal for
+about 10-15 minutes aids conversion of these grains.  Pre-boiling these
+grains make them swell up BIG and when added to the mash, they seem to 
+disappear.  I typically do a high (131F) protein rest when using 
+substantial amounts of these grains.
+
+
+Cheers,
+
+
+Rob Reed  
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 11:40:34 -0700 (MST)
+From: Zucchini Dave <woodstok`at`rupert.oscs.montana.edu>
+Subject: Addendum to Solvent stuff
+
+
+In HBD #1978 A.J. deLange (hope i got that right) said that a 1 molar 
+solution in 95% alcohol would be really nasy stuff - it is, thank 
+goodness, because i've never seen anything nastier on the inside of my 
+carboy ever before.  That's why you for sure need protection (rubber 
+gloves and good eye protection and some cloths you don't care about).  
+It's sure not to be taken lightly.
+
+
+Speaking of which, i may not have made it clear, but i ONLY used this for 
+glassware.  A strongly basic solution (commercial oven cleaner or 
+otherwise) will do bad things to aluminum and brass (Zymurgy ,Fall 
+'95).  And even though it's "safe" for glass, i store my NaOH in a good, 
+thick, leakproof plastic bottle (Nalgene (sp?) makes great wide-mouthed 
+bottles for this).  If you let it sit in glass for long 
+enough it WILL start to pit the glass and slowly dissolve it.
+
+
+Sorry if all this sounds scary, but my carboy looked even scarier for a
+while, and it feels real good to finally get rid of the nasty stuff that
+eluded me for so long using other cleaners.  
+
+
+One last thing: If any gets on you by accident, just rinse real well with 
+warm water - just like if you spill bleach on yourself by accident. 
+
+
+"And that's all I have to say about that..." 
+
+
+Dave
+
+
+PS - thanks for the tip on 40 g of lye in a liter of alcohol, for some 
+reason it never came to mind....
+
+
+------------------------------
+
+
+Date:         Thu, 07 Mar 96 14:51:06 EST
+From: Julio Canseco <JCANSECO`at`UGA.CC.UGA.EDU>
+Subject:      mini-keg questions
+
+
+I have used my set of mini-kegs for the first time and I have some
+questions for the cyberbrew community. I used 1/3 cup of priming
+sugar and left 1 inch space at the top when filling them up. Served
+the first one or two glasses with only the pressure from carbonation.
+Beer seemed a little flat (it was a killian red clone). Applied some
+CO2 just enough to continue dispensing. Beer had little carbonation.
+When I put the mini-keg in the fridge I closed the CO2 valve.
+Questions: 1) Should I have opened the valve all the way at serving?
+           2) Should I have applied more pressure before putting
+              keg away?
+           3) Should I have used more priming sugar?
+I have read the technical info on the web regarding mini-kegs, but I
+feel I may be missing something. Would appreciate any advice before
+deciding against the use of mini-kegs. They sure are handy.
+Posting would benefit others. TIA
+
+
+julio canseco
+jcanseco`at`uga.cc.uga.edu
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 16:23:24 -0500
+From: WattsBrew`at`aol.com
+Subject: Wyeast 1272
+
+
+Has anyone used or heard about the new strains from Wyeast? I am
+about to try #1272 American Ale II.  I was wondering if anybody knows whose
+yeast strain this is and any info about it.  My homebrew shop has not yet
+received any info on the new Wyeast strains called Brewer's Choice.
+
+
+TIA ,
+Wattsbrew (Bill Watt in Clarence Center)
+
+
+------------------------------
+
+
+Date: Thu, 7 Mar 1996 16:03:21 -0600 (CST)
+From: snsi`at`win.bright.net (Jeff Smith)
+Subject: Really Dirty Carboys
+
+
+Over last weekend I borrowed one of my father old carboys that he used for
+wine making back in the '70's.  Since he gave up wine making twenty some
+years ago it was just a bit dusty.  In fact it was so dusty that I didn't
+really  take note of what  condition it was in.
+
+
+I started my cleaning by washing the out side off with some water and
+Clorox.  When the carboy was clean enough to see the bottom I noticed some
+smut on the bottom which I though was the lees of the last batch of wine.  I
+added some Clorox and started to fill up the carboy with water to soak out
+what ever the smut was.  Of coarse bits of smut started floating to the top.
+I skimmed of flies, beetles, some bug type things wouldn't want to guess at
+and something that looked like little pieces of black feathers.  
+
+
+Anyway I let the carboy soak for about three hours than dumped half of it
+out to get my carboy brush in and scrub.  As I was dumping in a spare 5
+gallon bucket I missed and splashed some in tub.  I stopped to clean up the
+bug bodies and whatever and noticed a small off white shell.   It turned out
+take it wasn't exactly a shell as much as a skull. It seem that at least one
+mouse maybe more finished there last days in the carboy (depositing smut
+where ever they decomposed).  
+
+
+Any way thanks for the waste of width and remember never look in mouth of a
+gift carboy.
+
+
+PS I plan on soaking that puppy for while.
+Jeff Smith 
+'71 HD Sprint 350SX
+snsi`at`win.bright.net 
+Barnes, WI
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 Mar 1996 14:01 -0800 (PST)
+From: Paul.Lambie`at`ncal.kaiperm.org
+Subject: Foam control
+
+
+A query for the collective:
+I have been doing my primary fermentations in plastic and would like to switch
+to glass.  I have a five gallon carboy and have recently seen a product called
+Foam Control advertised which is said to minimize the amount of krauesen so
+that nearly five gallons of beer can be fermented in a five gallon carboy
+without a blow-off tube.  This would eliminate loss of beer through the
+blow-off and also the possibility of a blocked tube.  Foam Control is said
+to be non-toxic (reassuring) and to actually increase head retention of the
+finished beer.  Has anyone used this or know anything about it?
+I have no financial interest in this product.
+TIA
+
+
+Paul Lambie
+
+
+------------------------------
+End of HOMEBREW Digest #1980, 03/09/96
+*************************************
+-------

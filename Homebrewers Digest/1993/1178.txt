@@ -1,0 +1,1363 @@
+﻿This file received at Sierra.Stanford.EDU  93/07/09 00:19:10
+
+
+
+
+HOMEBREW Digest #1178                             Fri 09 July 1993
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Cheap carboys (chris campanelli)
+  attenuation definitions (Chris Pencis)
+  Low SG -- what might the cause(s) be? ("Bret D. Wortman")
+  attenuation/hop nobility/2.5 gal kegs/cask priming/infection (korz)
+  Hops vs. Protein and Hop Storage (Mark Garetz)
+  sugar in beer (Bryan L. Gros)
+  high-gravityVSpartial boils/carboys/Miller's AAUs/thermostats/pts-lb-gal (korz)
+   (Bruce=Kiley)
+  HB Digest Back issue helpKK (BILLOK)
+  Hop bags/mash Ph (Rick Garvin)
+  Keeping Soda Kegs Cool ("Manning, Martin P")
+  Re: KQED Festival ("Mark S. Nelson")
+  Home Brew U BBS: CHANGES!! (drwho2959)
+  Specialty Products (geotex)
+  water/racking tip/belgian ale (Brian Bliss)
+  Schlitz (FSAC-PMD) <pburke`at`PICA.ARMY.MIL>
+  Copper Manifold System ("Tom Stolfi")
+  Siphoning ("Anderso_A")
+  Hops and hot break (Bill Othon.LinCom)
+  Duval, Fuller's ESB and Full Sail Ales (John Brooks)
+  Hunter Airstats are a myth! (David Hinz)
+  Summary of a large scale home system (Ford Prefect)
+  More on "sparging" and light extracts (Keith A. MacNeal HLO1-1/T09 DTN 225-6171  08-Jul-1993 1228)
+
+
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Archives are available via anonymous ftp from sierra.stanford.edu.
+  (Those without ftp access may retrieve files via mail from
+  listserv`at`sierra.stanford.edu. Send HELP as the body of a
+  message to that address to receive listserver instructions.)
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+
+
+----------------------------------------------------------------------
+
+
+Date: Wed, 7 Jul 93 09:52 CDT
+From: akcs.chrisc`at`vpnet.chi.il.us (chris campanelli)
+Subject: Cheap carboys
+
+
+The cheapest place I've found (so far) for carboys is St. Pat's of Texas.
+They sell seven gallon carboys for $10.00 (add $5 for S+H) and it comes
+in one of those styrofoam egg/pod things.  Although most homebrewers
+prefer the seven gallon carboy because of the extra headspace, I buy them
+because I like to wear the way-cool styrofoam pod on my head when I take
+a shower.  You should try it some time.
+
+
+I don't have their number handy.  I seem to remember seeing their ad in
+the Zymurgy classifieds.  If you can't find it there, email me and I'll
+dig it up.
+
+
+chris "mushroom head" campanelli
+
+
+------------------------------
+
+
+Date: Wed, 7 Jul 93 14:33:58 CDT
+From: chips`at`coleslaw.me.utexas.edu (Chris Pencis)
+Subject: attenuation definitions
+
+
+I recieved a number of responses on my attenuation question and I
+realized that the definition which I left hanging on HBD was weak at
+best.  Thanks go out to Paul Jasper, Dick Dunn, Chip Hitchcock, and
+Spencer Thomas for their quick responses (in addition, thanks to George
+Fix for the info which Spencer Thomas quoted to me and by me here).
+                        good luck and good beer,
+                                        Chris Pencis
+
+
+From: Spencer.W.Thomas`at`med.umich.edu
+Date: Wed, 7 Jul 93 11:13:35 EDT
+
+
+Really, it's slightly more complex than that (isn't everything ?-).
+
+
+There's "apparent attenuation" and "real attenuation".  The
+difference comes about because alcohol has a specific gravity less
+than 1 (about .8).  Real attenuation is the percent of sugars
+converted to alcohol.  So, if you had a 10% (by weight) sugar solution
+(about 1.040), and got 100% real attenuation, the resulting specific
+gravity would be about 0.991 (corresponding to about 5% alcohol by
+weight).  The apparent attenuation of this brew would be 122% !
+
+
+George Fix published a set of equations relating apparent and real
+attenuation and alcohol content last year.  To wit:
+
+
+>     A = alcohol content of finished beer in % by wt.
+>     RE = real extract of finished beer in deg. Plato
+> 
+> Since A and RE are generally not known to us, additional approximations
+> are needed. The following are due to Balling, and have proven to be 
+> reasonable. Let OE and be defined as follows:
+>   
+>     OE = original extract (i.e., extract of finished wort in deg. Plato)
+>     AE = apparent extract (i.e., measured deg. Plato of finished beer).
+>  
+> Then
+>  
+>     RE = .1808*OE + .8192*AE,
+>        
+> and
+> 
+>     A = (OE-RE)/(2.0665-.010665*OE).
+> 
+
+
+The "tricky part" here is the expression of the sugar content in
+degrees Plato.  This is a fancy term for % sugar by weight, and
+corresponds roughly to "degrees gravity" divided by 4.  That is, a
+1.040 wort has an extract of 10 degrees Plato.
+
+
+He goes on to calculate an example:
+
+
+> To take Walter's specific case, first note that from Plato tables an OG of
+> 1.045 is equivalent to
+> 
+>     OE = 11.25 deg. Plato,
+> 
+> while a FG of 1.010 is equivalent to
+> 
+>     AE = 2.5 deg. Plato.
+> 
+> Therefore, 
+>     
+>       RE = .1808*11.25 + .8192*2.5 = 4.08 deg. Plato,
+> 
+> and
+> 
+>        A = (11.25 - 4.08)/(2.0665 - .010665*11.25) = 3.68 % wt.
+
+
+The apparent attenuation is 75% (from 1.040 to 1.010), the real
+attenuation is (11.25 - 4.08)/11.25 = 64%.
+
+
+=S
+
+
+
+
+======================================================================
+|Chris Pencis                                 chips`at`coleslaw.me.utexas.edu |
+|University of Texas at Austin                Robotics Research Group             |
+======================================================================
+
+
+------------------------------
+
+
+Date: Wed, 07 Jul 1993 13:55:32 CDT
+From: "Bret D. Wortman" <wortman`at`centurylub.com>
+Subject: Low SG -- what might the cause(s) be?
+
+
+
+
+    Greetings, all.  I'm a novice who has just started my second batch (a
+    5 gallon batch that has managed to foam over the fermentation lock on a
+    6 1/2 gallon carboy, but I digress).
+
+
+    Both of my first two batches used kits -- syrup -- and no sugar.  The
+    first used a 3.3lb Munton & Fison Pilsner kit with 1.4 lb Light Amber
+    Malt kicker.  The second used 1.8kg Muntons IPA Bitters with 1.4 lb
+    Lilght Amber Malt kicker.
+
+
+    In each case, the SG after sparging and after getting the total volume
+    of liquid to ~5 gallons was around 1.015.  This seems awfully low to
+    me, as it'll result in beer that has (at most) around 1.5% alcohol
+    content.
+
+
+    What might I be doing wrong, or what should I be looking for?  I
+    carefully noted the 5 gallon mark on my carboy so I'm sure I'm not
+    making more than I think I am....
+
+
+
+
+    WordMan
++------------------------+------------------------------------------------
+| Bret D. Wortman        | "I want to live shipwrecked and comatose,
+| wortman`at`centurylub.com |  Drinking fresh mango juice.
+| wortman`at`decus.org      |  Goldfish shoals nibbling at my toes,
+| NLC Events Team Chair  |  Fun, fun, fun in the sun, sun, sun."
++------------------------+------------------------------------------------
+
+
+------------------------------
+
+
+Date: Wed, 7 Jul 93 14:40 CDT
+From: korz`at`iepubj.att.com
+Subject: attenuation/hop nobility/2.5 gal kegs/cask priming/infection
+
+
+Chris asks about attenuation and then posts that he's got it fugured out.
+
+
+I just want to mention that this is APPARENT ATTENUATION -- that is, the
+percentage difference between the original gravity and the final gravity.
+The reason that it is only the APPARENT attenuation is because the yeast
+is making alcohol which is lower specific gravity than water.  Therefore,
+to determine the actual attenuation (which can be quite a bit less than
+the apparent), you must distill-off the alcohol and replace it with an
+equivalent amount of distilled water.  Don't bother though, because virtually
+all attenuation values and final gravities you see in homebrewing books,
+here and in magazines are apparent ones.
+
+
+************************
+Jack writes:
+> >From: korz`at`iepubj.att.com
+> 
+> >Styrian Goldings are neither noble nor are they Goldings, actually.
+> The only three noble hops (this was confirmed from various sources
+> in the Brewer's Forum) are Hallertauer, Tettnanger and Saaz. 
+> 
+> I think a definition of "noble" would be appropriate.  Doesn't sound like 
+> anything a botonist could get a hold of.
+> 
+> Just what does it mean?
+
+
+It's not a botanical term, rather a brewing term simply made-up by (I believe)
+German brewers.  Hallertauer, Tettnanger and Saazer appear to have simply
+been grouped together quite a while ago and labeled "noble hops."
+
+
+***************************
+Robert writes:
+>I have located five 2.5 gallon kegs at a used restaurant supply house. 
+>Two of them have screw-on caps with tapered rubber washers, while three have
+>clamp-type lids with smaller rubber gaskets/o-rings.
+
+
+Grab them.  They are very rare -- you can always replace the fittings you
+don't like with ones you like (i.e. you can switch them all to ball-lock).
+
+
+>There is also a combination of fittings on the tanks themselves, with some
+>having pins, and others having grooves for snap-rings.
+
+
+I suspect that the grooved ones are actually ball-lock.  The pin ones are
+pin-lock.  Coke uses pin-lock and Pepsi uses ball-lock.  I personally like
+the ball-lock ones because they are easier to recondition (you can simply
+use a 12-point socket for the fittings, whereas for the pin-lock you need
+to buy ($40) or build yourself a tool to remove the fittings.
+
+
+>The kegs are pretty crudded-up, but I think they will clean.  Are there any
+>fine ponts to be aware of before sinking money into these kegs?
+
+
+Check the seams inside and out -- be careful to release all the pressure
+before removing the lid -- you could injure yourself quite seriously if
+you don't.  If the seams are all pitted and cracked, you may have to pay
+more to have them re-sanititary-welded than to buy new ones.  You really
+should replace all the rubber.  If the lids don't have overpressure release
+valves, you should get some.  There were some posts about two or three
+years ago that said that the Cornelius company will exchange lids without
+valves for new lids.  All my lids had valves, so I didn't keep the post.
+
+
+There are many hidden rubber gaskets that you should replace.  There are
+eight including the gasket on the overpressure valve.  The issue is not
+one of sanitation, but more so of soda (root beer, grape) smells that
+would enter your beer.  Some have suggested boiling, but I've tried it
+and I could still smell root beer in the rubber.  To completely recondition
+a keg with new rubber (including a new overpressure valve -- the rubber
+does not come separately) will run you about $10, but I feel it's worth
+it.  See a recent HBD for a post I authored which explained where the
+gaskets were.
+
+
+**************************
+Keith writes:
+>I have a friend who is interested in racking his brew in a wooden (5
+>Gal.) cask.  Can anyone recommend appropriate amounts of priming sugar
+>and/or an information source for the required details?
+
+
+I suggest using about 1/4 to 1/3 cup corn sugar.
+
+
+*************************
+Jeff writes:
+>Fat Wanda's Brewery & Recording (my basement) is under attack by vicious
+>bacteria.  I've had a recurring house infection that I can't seem to get
+>rid of, in spite of the scourings and bleach treatments.  Now it's
+>gotten to the point I can't even get an uninfected starter!
+
+
+I suspect it is in the air.  You could try to get an air cleaner and keep
+all the doors closed and the air conditioning off while you brew (give
+the dust some time to settle and the air cleaner to do it's stuff).
+Alternatively, you could wait till fall, when your air will go back to
+being less microbiologically active.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Wed, 7 Jul 93 13:04:51 PDT
+From: Mark Garetz <mgaretz`at`hoptech.com>
+Subject: Hops vs. Protein and Hop Storage
+
+
+Al writes in response to my post:
+
+
+:Mark writes (in reference to not using hop bags for boiling hops):
+:>Also, there are many 
+:>benefits to be had to the wort by having the hop particles (whole or pellet) 
+:>thrashing around in the wort during the boil (help with protein coagulation 
+:> - aka the hot break) is the main one.
+:
+:Indeed hop particles will help with protein coagulation, but I feel that you
+:should wait till after the hot break to add the hops in the first place.
+:The last time I recall reading about this is in a post from Stuart somewhere
+:around HBD 1150.  My contention, as that mentioned by Stuart, is that the
+:hops will do too-good a job coagulating proteins *AROUND THEMSELVES* thereby 
+:reducing the utilization.  Now, if you wait till after the hot break, I
+:suggest that there will still be some coagulation of proteins around the
+:hops, but not nearly as much as if the hops were added before the hot break.
+:
+:Why does this matter?  Well, the theory is that the protein coagulated
+:around the hops will reduce utilization.  I have not done side-by-side
+:tests of this, but I do recall a significant increase in hop utilization
+:when I began to wait for the hot break before adding the hops.  I did not
+:put the two together till someone on the HBD mentioned it.
+
+
+I don't buy this.  Number one, if it really did boost utilization, you can
+bet the big breweries would be using it.  I've never seen any reference to
+it.  Number two, I've never noticed any protein coating the hop petals
+or particles and even if it did, it wouldn't matter cause there isn't any-
+thing of value in there anyway.  Now if we're talking microscopically
+around the resins, maybe there's a possibility.  But the biggest problem I
+have with it is waiting for the hot break.  Besides the fact that a lot
+of newbies don't even know what it is or what it looks like, I don't want
+to keep sampling my wort to see the break so I know when to add hops.  
+Then I'd have to figure out how many boil minutes remained and adjust my
+hopping rate accordingly in real time.  What if I didn't get a break until
+30 minutes into 1 hour boil?  I'd be getting a *lot* less ultilization from
+the shorter boil time than any better utilization advantage I might have got
+by waiting.
+
+
+:
+:>Anyway, I recommend you do use a secondary and rack carefully.  The two step
+:>racking process should leave all of the pellet particles in the trub layer on
+:>the bottom.  This is instead of the hop bag.  The hop bags are great for dry
+:>hopping, but I don't like them for the boil.
+:
+:I disagree.  I do just the opposite.  I use a hop bag for boiling primarily
+:to avoid the problems of having to remove the hops from the wort later,
+:either as you pour the wort into the fermenter (my screen kept clogging
+:and that made it a real pain!) or when racking.  I just compensate by
+:adding 10% more hops.  I don't use a hop bag for dryhopping but only use
+:whole or plug hops because they float.  I've never had any problems
+:siphoning the beer out from under the whole hops.
+
+
+Floating hops does not make for good oil utilization.  The best method is
+to keep the hops suspended in the middle of the beer using a bag and weight
+system (tie the weight to the drawstring instead of putting it in the bag).
+This is what Anchor does and I have found it works well for me and other
+brewers I know.  I don't know of any commercial brewers that boil their
+hops in a bag, but they do use them for dry hopping.  But what works for
+you works for you.
+
+
+:
+:>Also, your racking techniques
+:>will improve with time.  The key is to have a reliable way to suspend the
+:>end of the racking tube just above the trub layer.  I use a rubber stopper
+:>that fits in my carboy with two holes in it:  One for the racking tube and 
+:>the other I use to force CO2 into the carboy (at *low* pressures) to push the 
+:>beer into the secondary (I use a soda keg for the secondary).
+:
+:then later:
+:>BTW, I have found 
+:>the "orange racking tip" thingy to be essentially worthless.  Ditto 
+:>Fermtech's $2 racking tube clothespin.
+:
+:Interesting, but I've had no trouble with the orange tip on the end of my
+:racking cane -- I tip the carboy with a stack of coasters or a block of
+:wood and then gently lower the cane into the lowest part of the carboy.
+:I then use masking tape or a rubber band to make sure the cane doesn't
+:move.  I discard the first two cups or so and the beer runs clear from
+:there on.  Perhaps you are not getting a good cold break and your trub
+:layer is very deep.  Then again, you've got hops in your trub and I don't.
+:On a typical 5 gallon batch, my trub layer is about 1 inch thick, say
+:between 0.75 and 1.5 inches.  Just for the record, I have not tried
+:Fermtech's racking tube holder.
+
+
+So you get a couple of cups of trub?  Isn't this exactly what the orange
+racking tube tip is suppossed to prevent?  I guess it doesn't work for
+you either!  :-)  I suggest you try leaving it off once and I'll bet your
+results will be identical.  My trub layer isn't any deeper than yours, and
+I don't have hops in it.  My strainer works fine.  I also use a "settling
+tank" between the kettle and the primary.  I use my old plastic fermenter
+with the spigot in the bottom.  I cool the wort, pour through the strainer
+into the bucket, put the top on and let the cold break settle out.  Then
+I attach a hose to the spigot and run the wort into my carboy through a
+homemade "wort squirter" to help aerate it.  I usually only have .5" of
+trub at the end of the primary.  And for the record, the problems I found
+with Fermtech's tube holder were that 1) The tube tended to come out of 
+molded holder clip and 2)  The spring didn't hold the clip to the carboy
+steady enough with the weight of the racking hose (works fine with just
+the racking tube, but that isn't very practical).  I rubber banded the heck
+out of it to get it to work and ended up in the same place as my clothespin,
+but wasted $2 in the meantime.
+
+
+Jonathan Knight asked about hop storage:
+
+
+I was the one that recommended an "investment" in a home vacuum sealer,
+and, BTW, also recommended CO2 or nitrogen purged mason jars as an
+alternative.  The reason I recommended a home sealer is that they not
+only are nice for storing hops, but are also useful for sealing other
+things like DME, grains and minerals.  Anyway, what's more important
+in Jon's post is the whole issue of hop storage.  I'm working on a longer
+post that will address this issue and will post it in a few days.
+
+
+Mark
+
+
+------------------------------
+
+
+Date: Wed, 7 Jul 93 13:15:48 PDT
+From: bgros`at`sensitivity.berkeley.edu (Bryan L. Gros)
+Subject: sugar in beer
+
+
+Sugar added to certain beers (british ales and belgian ales) have
+been discussed here before.  Was there a consensus as to the best
+thing to use that is available in the states?  Brown sugar?  What
+is best for a brown ale versus a belgian double or triple?  In the
+belgian ale book the author says the brown color of the double is
+from the sugar, so I'm not sure what the homebrewer is to do.
+
+
+Is rock candy anything more than just sucrose?  If so, would it
+dissolve in the boil?
+Thanks.
+                                     - Bryan
+
+
+------------------------------
+
+
+Date: Wed, 7 Jul 93 15:21 CDT
+From: korz`at`iepubj.att.com
+Subject: high-gravityVSpartial boils/carboys/Miller's AAUs/thermostats/pts-lb-gal
+
+
+
+
+JC writes:
+>I'm interested in brewing a high-gravity all-grain brew.  I'm currently
+>limited by my pot (5gal) and stove.  Can anyone suggest a high-gravity
+>recipe?  I can boil up to 4gal of liquid...  I do have a lauter-tun (Zapap
+>type) that works adequately.
+
+
+Although I picked JC's post (sorry JC), there are a number of posters who
+seem to be confused by this "high-gravity" brew thread.  There's a big
+difference between partial boil (which could also be called high-gravity
+boil) and high-gravity ferment.  I believe that the original post that
+started this thread asked about what kind of compensation had to be made
+for a high-gravity ferment.  Well, a number of brewers have posted that
+a higher gravity ferment will result in a beer with more esters.  I have
+found this to be true, but have not tried diluting the resulting beer
+into a medium-gravity beer.  I think what JC is asking about (as well as
+a couple of others) is a partial-boil recipe.  One in which, say, 3-gallons
+of wort are boiled and then this is diluted into a 5-gallon batch in the
+fermenter.  You see, there's a big difference between diluting before
+fermentation and diluting after fermentation.  In either case you need to
+use some math to figure out how much hops to add to achieve the bitterness
+you want in the final beer.  I suggest (although they are being disputed
+by some) that Jackie Rager's numbers in the Hops Special Issue of Zymurgy
+are still very good if you compensate, as I do, for hop bags and whole
+hops (adding 10% more if you use a hop bag and 10% more again if you use
+whole or plug hops in stead of pellets).
+
+
+In both cases (partial boil and high-gravity ferment) you need to pick
+the IBUs you want and then use 5-gallons for the volume in the formula.
+When it comes to figuring the boil gravity, calculate it for the boil
+volume.  For example: 6 lbs of Northwestern in 3 gallons of water will
+give you about a 1080 gravity boil.  Use that for the gravity adjustment.
+Dr. Bob Technical's Amazing Wheel of Beer is great for approximating
+the contribution of a large variety of grains (beware that some extracts
+contribute a bit more points some less).
+
+
+*******************************
+Rich writes:
+>I'm looking to purchase a few used carboys. I've tried some of the
+>local bottled water companies but they seem to use plastic these
+>days. The homebrew shops I've visited want $16 to $18 for a new 
+>one. Can anyone suggest a different  alternative? 
+
+
+Some water companies offer a choice of glass or plastic.  Call around.
+
+
+******************
+Tony writes:
+>After 5 all grain batches, I re-read Miller's "complete" book to see if it
+>made more sense now (it did).  I have a question about hop rates in a couple
+>of his recipes (pages 213, 214).  The format of these recipes is:
+>
+>        xxx AAU hops
+>        3rd addition 1 ounce (count only half of the AAUs toward your total)
+>                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+What he means is that a shorter boil will extract less bitterness from
+the hops you add.  What he means is that this late addition of hops will
+contribute less to the total bitterness of this beer.
+
+
+************************
+Carl writes:
+>I am picking up a chest freezer this weekend, and I will need to put a 
+>controller on it for fermentation/lagering/etc.  While I've seen mentions 
+>of controls by Hunter, Johnson, and Williams in the past, I would like to 
+
+
+I have two Hunters and I'm very happy with them.  Indeed they only go down
+to 40F, but I will never serve any lower than that and if I need to lager
+lower than that, I would just use the fridge thermostat for the temps below
+40F.  The big advantages of the Hunter are the lower price, ease of use,
+solid-state sensor (a wire connects the sensor to the controller) and the
+4 minute cycle delay (to protect your compressor).
+
+
+***********************
+Bob writes:
+>As part of my neverending work to improve the spreadsheet program I use to keep
+>track of my brewing I decided to include an Extraction Rate Calculator (tm) to
+>automatically compute an extraction yield based on the o.g., total weight of
+>grains used, gallons of beer produced (pts/lb/gal).  I then decided to go that
+>one better and include a calculation for the maximum extraction rate based on
+>some yields found in Dave Miller's book-Brewing the World's GreatBeers (p.
+>129).  These yields in alpha order are:
+
+
+        .
+        .
+        .
+>Malt extract (dry)     45
+>Malt extract (syrup)        35
+
+
+Well, I feel that dry extracts vary between 42 and 45 pts/lb/gal and there
+is quite a bit more variability in syrups (from 32 up to even 40 for
+Northwestern.)
+
+
+***************************************************************************
+DISCLAIMER: I *do* own a homebrew shop/mailorder house, I *do* sell the
+Amazing Wheel of Beer, I *do not* yet sell either of the three thermostats,
+but when I do I *will* carry all three and finally I carry a *variety* of
+extracts but use Northwestern a lot, so I happen to know it's pts/lb/gal
+offhand and know it's higher than most.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Wed,  7 Jul 93 16:40:35 EDT
+From: Bruce=Kiley%SIG%SNI%sig`at`sni-usa.com
+Subject: 
+
+
+
+
+Does anyone have a set of plans of detailed description on how to build beer 
+cases out of wood?
+
+
+Please reply to brucek`at`sig.sni-usa.com
+
+
+Thanks in advance,
+
+
+Bruce
+
+
+
+
+------------------------------
+
+
+Date: Wed, 07 Jul 1993 16:43:46 -0400 (EDT)
+From: BILLOK`at`delphi.com
+Subject: HB Digest Back issue helpKK
+
+
+
+
+H
+P
+P
+P
+P
+P
+P
+
+
+------------------------------
+
+
+Date: Wed, 7 Jul 1993 17:16:00 -0400 (EDT)
+From: garvin`at`grebyn.com (Rick Garvin)
+Subject: Hop bags/mash Ph
+
+
+
+
+korz`at`iepubj.att.com writes:
+
+
+> Indeed hop particles will help with protein coagulation, but I feel that you
+> should wait till after the hot break to add the hops in the first place.
+> The last time I recall reading about this is in a post from Stuart somewhere
+> around HBD 1150.  My contention, as that mentioned by Stuart, is that the
+> hops will do too-good a job coagulating proteins *AROUND THEMSELVES* thereby 
+> reducing the utilization.  Now, if you wait till after the hot break, I
+> suggest that there will still be some coagulation of proteins around the
+> hops, but not nearly as much as if the hops were added before the hot break.
+> 
+> Why does this matter?  Well, the theory is that the protein coagulated
+> around the hops will reduce utilization.  I have not done side-by-side
+> tests of this, but I do recall a significant increase in hop utilization
+> when I began to wait for the hot break before adding the hops.  I did not
+> put the two together till someone on the HBD mentioned it.
+
+
+There is another issue at stake here. These protein molecules are
+contributors to haze. We all like our beers to clear without filtering,
+so we want to use all of the tools we have to coagulate these proteins.
+If you place your hops in the wort before the boil and the hot
+break occurs you will not get the full benefit of the hot break. The hard
+resins from the hops will bind with protein molecules that would have
+otherwise coagulated without their aid.
+
+
+For me the extra coagulation power is secondary to any added efficiency
+in utilization. I am also an avowed user of pellitized hops. I do not
+put my hops or my dates in bags.
+
+
+Cheers, Rick
+
+
+------------------------------
+
+
+Date: 8 Jul 1993 05:16:40 -0600
+From: "Manning, Martin P" <manning#m#_martin_p`at`mcst.ae.ge.com>
+Subject: Keeping Soda Kegs Cool
+
+
+        For keeping kegs cool , there is a simple, low cost alternative to a bucket of
+ice-   insulate!  All you need is a larger version of the foam plastic
+single-can insulators that are popular among the canned beer crowd. The
+insulator I use is made from a polyethylene foam sleeping pad, of the type used
+by backpackers.  These can be purchased at sporting goods stores for about ten
+dollars, and are big enough to make a couple of insulators, if you get one
+longer than about 55 inches. Use contact cement to join the ends of a piece of
+the pad, which has been cut to the propper width (the height of the keg), and
+length (about 3/16" shy of having the ends meet when it's wrapped around the
+keg). To use the insulator, just slip it down over the top of the keg when you
+remove it from cold storage. 
+
+
+Martin Manning
+
+
+------------------------------
+
+
+Date: Wed, 7 Jul 1993 15:51:26 -0700 (PDT)
+From: "Mark S. Nelson" <mnelson`at`eis.calstate.edu>
+Subject: Re: KQED Festival
+
+
+I have one very serious objection to the way this festival is being run. 
+That is the fact that it only runs for three hours.  Who came up with that
+brilliant idea?  
+
+
+I have always found that the best brew/food festivals are the ones that
+allow you plenty of time to relax and enjoy the offerings.  To charge
+$30.00 for what is billed as the largest event of its kind, then to allow
+barely enough time to get started, is pretty bad.
+
+
+Personally, I'll save my money for the smaller festivals that give you for
+fun and enjoyment.
+
+
+- --------------------------------------------------------------------------
+ ...And Rene Descartes was a drunken fart
+"I drink therefor I am!"
+
+
+Mark S. Nelson      nelsonm`at`axe.humboldt.edu      mnelson`at`eis.calstate.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 07 Jul 93 21:44:04 EDT
+From: drwho2959`at`aol.com
+Subject: Home Brew U BBS: CHANGES!!
+
+
+Announcing a new "campus" of the popular BBS dedicated exclusively to
+Home Brewing and Beer Appreciation:
+
+
+HOME BREW U. - MIDWEST
+(708)705-7263, N,8,1
+1200-14400 bps, V.42bis
+
+
+I plan to run the new campus in much the same manner as the old one.
+The focus is on BEER (making it, buying it, drinking it, and ENJOYING it!)
+While a large library of beer-related files is available, the REAL
+strength of this BBS is in the quality of brewing knowledge contained
+in the message base.  So please remember to take a look at the messages,
+and feel free to ask questions.  Many novice brewers have gotten prompt
+help and advice from the HBU message base.
+
+
+Beer lovers in the Southern USA should note that the original Home Brew U.
+continues to operate in Houston, Texas, with a new Sysop and a new phone
+number: (713)923-6418.  Its name has been changed to 'Home Brew U -
+Southwestern Campus'.
+*----------------------------------------------------------------------*
+| Sysop                    Andrew Patrick                      Founder |
+| Home Brew U-Midwest                            Home Brew U-Southwest |
+| (708)705-7263     Internet: andinator`at`delphi.com       (713)923-6418 |
+*----------------------------------------------------------------------*
+
+
+------------------------------
+
+
+Date: Wed, 7 Jul 93 23:16:57 EDT
+From: <geotex`at`engin.umich.edu>
+Subject:  Specialty Products
+
+
+
+
+Does anyone have any experience with Specialty Products Inc.? They have
+their "SuperBrau" malt extracts for $80 for 12 3.1 lb. cans.  They are
+%100 malt.  Seems like a good deal to me. Any thoughts.  
+
+
+please reply by e-mail or post if you think it's of interest to others.
+Alex Ramos
+geotex`at`caen.engin.umich.edu
+
+
+------------------------------
+
+
+Date: Thu, 8 Jul 93 01:24:08 -0500
+From: bliss`at`pixel.convex.com (Brian Bliss)
+Subject: water/racking tip/belgian ale
+
+
+In HBD #1171 Mark Garetz writes:
+> Forgive me for a bit of a tangent here, but this is kind of like why there
+> aren't really any good formulas for predicting bitterness based on all the
+> variables.  The reason is that commercial breweries don't change their
+> process often.
+ ...
+> So do they care to have a formula that they can plug in lots
+> of variables and get a reasonably accurate bitterness calculation?  No. 
+> So we don't have one either (yet).
+
+
+A lot of it has to do with your water, and how it affects hop
+utilization.  Boil Time / AAU tables are a start, but don't
+take water qualiity into account.
+
+
+- ------------------------------
+
+
+>Mark Garetz <mgaretz`at`hoptech.com> writes:
+>err a bit on the high side when setting the tube depth.  BTW, I have found 
+>the "orange racking tip" thingy to be essentially worthless.
+
+
+gotta disagree with this one.  the orange racking tip thingy gets
+me at least 1/2" more clean wort out of a 5 gal carboy before it
+starts picking up trub (out of the post-boil pre-ferment wort,
+which doesn't cake down).  
+
+
+- ------------------------------
+
+
+>I think the concensus is that brewing Belgian-style beers is tough to do,
+>and I'm sure that anyone who's seriously worked on this has had more than
+>their share of disappointments.  
+
+
+I can't seem to brew high-gravity ale that doesn't turn out belgian-like.
+High ferment temp is the big thing.  Put an electric blanket around
+your fermenter for the first day or two.   Add a pound of sugar or
+two, any type (but different tastes).  If you add finish/dry hops, saaz
+works best.  It's a lot easier to enjoy the irreproducible results than
+it is to worry about consistency.  Relax and don't worry, because
+belgian ales are not well-defined and you can get away with a lot in
+a competition.
+
+
+prosit!
+
+
+bb
+
+
+
+
+------------------------------
+
+
+Date:     Thu, 8 Jul 93 8:07:23 EDT
+From: "Peter J. Burke" (FSAC-PMD) <pburke`at`PICA.ARMY.MIL>
+Subject:  Schlitz
+
+
+Schlitz took an award at the GABF because it is a great
+beer. Just because it is not a microbrewery doesn't
+make it garbage.
+
+
+My two cents.
+Pete Burke
+
+
+
+
+------------------------------
+
+
+Date: 08 Jul 1993 08:16:08 GMT
+From: "Tom Stolfi" <WAUTS`at`cwemail.ceco.com>
+Subject: Copper Manifold System
+
+
+From: Tom Stolfi                                   WAUTS    - CWE1IIN
+To: Jeff Benjamin                                BENJI    - CWEMAIL
+Subject: Copper Manifold System
+
+
+Jeff,
+Since the HBD has been filled with the copper manifold/easy masher/zapap
+thread I thought I'd send you a note thanking you for your help.
+I have been using a copper manifold system for my two last batches (it works
+works very well :-)) that is based on your design.  I only changed one thing,
+instead of soldering a copper 1/2" to 3/8' reducer I purchased a larger
+(I can't recall the size) vinyl tube that fits over the 1/2" pipe.  The
+vinyl tube needs to be heated in hot water in order to fit it on the
+copper pipe but creates an airtight fit.  Using a large plastic hose clamp,
+with adjustable click stops, on the tightest setting that allows liquid to
+flow lauters six gallons in 45 minutes.  The only drawback is that you need to
+brace the tubing where it comes out of the standpipe or it bends over. I used
+some copper wire and it worked OK but I am trying to come up with a better
+solution.  I thought you might be interested in any modifications of your
+system.   Thanks.
+
+
+
+
+
+
+
+
+Tom Stolfi                                           wauts`at`cwemail.ceco.com
+Commonwealth Edison Co                               Waukegan, IL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: 8 Jul 93 04:04:57 EST
+From: "Anderso_A" <Anderso_A%55W3.CCBRIDGE.SEAE.mrouter`at`seaa.navsea.navy.mil>
+Subject: Siphoning
+
+
+Message Creation Date was at  8-JUL-1993 08:44:00
+      
+          Greetings,
+               I recently brewed a relatively light batch which is
+          still sitting in the primary fermenter.  I plan to run an
+          experiment on this beer.  I will split the beer into two
+          separate carboys for secondary fermentation.  I will have a
+          bed of raspberries in one of the carboys in the attempt to
+          create a fruit beer without loosing the fruit aroma.  In the
+          other secondary carboy the beer will ferment w/o any fruit. 
+          This way I can compare and determine the exact contribution
+          of the raspberries.
+
+
+               Now the questions:
+
+
+          1. Is 2 lb raspberries/gallon of beer a reasonable amount?
+
+
+          2. Should I use a Campden tablet overnight in the
+          raspberries to prevent introducing any new bacteria in the
+          secondary fermenter?
+
+
+          3. Siphoning:  If I siphon first into one carboy and then
+          into the second, I'm afraid I may end up with differing
+          beers.  I would think the first carboy would get the lighter
+          beer and the second a heavier beer (and more trub remnants).
+               I was thinking of a "Y" siphoning connector.  The beer
+          being siphoned would hit the "Y" connector and then branch
+          out down two paths into the two carboys.  I would end up
+          using 3 lengths of 3/8 " tubing along with the "Y" connector
+          to accomplish the siphon.
+               Does anyone know if this would work, or is it doomed to
+          abject failure?
+               If it would work, does anyone know where I could
+          procure a "Y" connector?
+
+
+          TIA
+
+
+          Andy A
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Jul 93 08:25 CDT
+From: othon`at`ial7.jsc.nasa.gov (Bill Othon.LinCom)
+Subject: Hops and hot break
+
+
+Darren Aaberge discusses hops and hot break, and I have some
+questions:
+
+
+1) from the FAQ file, what and when is hot break?
+2) do you wait for hot break before adding bittering hops (the
+hops usually added at the beginning of the boil). Or are we
+talking aromatic hop addition here?
+
+
+T-54 days till legal brewpubs in Texas....
+ -Bill
+                                            /\    |__|    /\
+=====================================      /  \   |  |   /  \
+Bill Othon <othon`at`ial7.jsc.nasa.gov>      /    ---|  |---    \
+Tetherologist                             \                  /
+LinCom Corporation - Houston Division      \  /\/\    /\/\  /
+(713) 483-1858                              \/    \  /    \/
+                                                   \/
+
+
+------------------------------
+
+
+Date: Thu, 8 Jul 1993 07:23:07 -0700 (PDT)
+From: John Brooks <jbrooks`at`u.washington.edu>
+Subject: Duval, Fuller's ESB and Full Sail Ales
+
+
+
+
+In reply to the HBD inquiries of Domenick Venezia (6/30/93) and Tim Born
+(7/1/93) about recipes, I offer the following: 
+
+
+Duvel - Ingredients: pale malt; Saaz and Styrian hops (30 B.U.); top
+fermenting yeast; brewing sugar for bottle fermentation; O.G. 1.070,
+degrees Plato 17.5; 8.5% alcohol by volume; unpasteurized.
+
+
+Fuller's E.S.B. (export) - Ingredients: pale ale and crystal malt; flaked
+maize; caramel and brewing sugar; Challenger, Northdown and Target
+bittering hops, Goldings aromatic hops; O.G. 1.060, degrees Plato 14.8
+(ale that is kegged/casked for domestic consumption is O.G. 1.054);
+alcohol by volume 6.0%. 
+
+
+Redhook's E.S.B. is reputed to be a take-off on Fuller's (and at 50,000
+barrels this year, successfully so) - Ingredients: 2-row Klages malt,
+caramel malt (60L); Willamette and Tettnanger hops; O.G. 1.054; 4.3%
+alcohol by weight; no pasteurization; another interesting point about all
+of Redhook's products is that carbonation comes from their primary
+fermentation in airtight vessels (no secondary fermentation, bottle
+fermentation or CO2 injection). 
+
+
+Full Sail Golden Ale - Ingredients: Oregon 2-row Klages malt, caramel and
+Cara-pils malt; Oregon Tettnanger and Halletauer hops.
+
+
+Full Sail Amber Ale - Ingredients: 2-row pale malt, caramel and chocolate
+malts; Kent Goldings and Willamette hops. 
+
+
+The source for the info on Duvel and Fuller's is "The European Beer
+Almanac" by Roger Protz, 1991, Lochnar Publishing, Scotland.  The sources
+for Redhook and Full Sail are those companies published product sheets. 
+
+
+I would be interested any more detailed info anyone may have on Full Sail
+Amber (O.G.'s, B.U.'s, etc.).  When I downloaded Cat's Meow, I found
+a reference to Full Sail Amber in the index, but not in the text.  Please
+post or reply to private e-mail. 
+
+
+John Brooks
+jbrooks`at`carson.u.washington.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Jul 93 10:14:34 CDT
+From: hinz`at`memphis.med.ge.com (David Hinz)
+Subject: Hunter Airstats are a myth!
+
+
+Greetings.
+
+
+I've just recently started lagering, and I found it impossible to find
+a Hunter Airstat anywhere in the Milwaukee, Wisconsin area.  Everyone I talk
+to at home supply type stores (Menards, etc) give me that look of "Yeah, right,
+temperature controller...uh huh....sure....that's OK"  You know, that look.
+
+
+Anyway, if someone could e-mail me an address or phone number for Hunter, or
+a mail-order source for these things, I'd appreciate the heck out of it.
+
+
+
+
+
+
+On another note:  I've got 33 pounds of strawberries ordered, anyone have a
+good recipe for a strawberry ale, wine, mead, or whatever?  Thanks!
+
+
+
+
+Dave Hinz
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Jul 93 09:10:13 -0700
+From: sag5004`at`yak.ca.boeing.com (Ford Prefect)
+Subject: Summary of a large scale home system
+
+
+I guess that I have waited long enough for the replies to trickle
+in...  The executive summary was lots of "me too" replies :-)
+
+
+Basically when you scale up in size you need to think long and hard
+about the following:
+
+
+Anything >1bbl will you will probably need pumps (or a very tall
+gravity system :-)  And need to make sure you can move around large
+quantities of hot fluids in a timely maner.
+
+
+How to handle large amounts of grain, floorspace and other bits.  e.q.
+How do you crush and handle and dispose of a the huge amount of grain
+you will be using.
+
+
+I was warned to not forget about losses (of product) in the transfer
+and handling process.
+
+
+One person wrote that he would write up his experiences in brewing in
+a 2bbl brewhouse when he get a spare moment.  Look for it in an upcoming
+issue of the HBD...  (sorry, I don't know when)
+
+
+"It is not as easy as one might think to design a plug and play system of
+this size."  I know that the system that I use now has sort of evolved to
+what it is now, and the problem with doing this in a large scale is that
+it gets expensive fast.
+
+
+ - ---------
+A couple of people replied with stuff that they have for sale.  All 
+has been posted in the HBD 
+
+
+A guy in Ohio has a 112 SS vessel, and another guy Arizona has a few
+leftover pieces (kegs, boiler and vessel, and a fermenter)  [Sorry I
+am not posting their names because I didn't ask permission too]
+
+
+ - ----------
+It appears that boiler geometry is use whatever is convenient to
+fabricate or buy.  You should stick to using standard sizes of
+stainless sheets ( basically 4x 6,8,or 10 feet) because this stuff is
+$$$ and you don't want to waste any.
+
+
+I was warned against getting the lauter geometry 'too vertical' and was
+given a rough number of 1-3 feet is a good depth for a grain bed.
+
+
+
+
+Sorry, about the disjointed ramblings, but this is what I know at this time.
+I was really hoping that there would be a journal article I could read, but
+no such luck :-(  I will report back periodically if I learn anything
+new.
+
+
+Thanks to 
+
+
+Scott Wisler (swisler`at`c0431.ae.ge.com)
+Jim Busch (busch`at`daacdev1.stx.com)
+Kinney Baughman (baughmankr`at`conrad.appstate.edu)
+Ray Brice (ray`at`hwr.arizona.edu)
+
+
+and to the many nameless others that I accidently deleted.
+
+
+
+
+Later,
+
+
+ps.  I am getting married on the 24th so I wont be reading my mail for
+a couple of weeks after that.
+
+
+stuart galt                          boeing computer services
+sag5004`at`yak.boeing.com               bellvue washington
+(206) 865-3764                       or home (206) 361-0190
+#include <standard/disclaim.h>
+I don't know what they say, they don't know what I say...
+
+
+------------------------------
+
+
+Date: Thu, 8 Jul 93 09:42:18 PDT
+From: Keith A. MacNeal HLO1-1/T09 DTN 225-6171  08-Jul-1993 1228 <macneal`at`pate.enet.dec.com>
+Subject: More on "sparging" and light extracts
+
+
+>Date: Tue, 29 Jun 1993 12:10:00 -0400 (EDT)
+>From: Kinney Baughman <BAUGHMANKR`at`conrad.appstate.edu>
+>Subject: Bits and pieces
+
+
+>Hi ya'll!
+
+
+>Keith mentions:
+>>Charlie Papazian in TCJOH refers to the dumping of the wort through a strainer
+>>into the fermenter to remove the hops and any other particulates as sparging.
+
+
+>And I disagree with the esteemed CP on this.  While I'm not one who 
+>thinks you need to rack off the cold break before fermentation begins, 
+>I do believe you need to get as clear a runoff as possible off the hot 
+>break when going to the fermenter. 
+
+
+I was merely trying to point out that CP called this sparging which is 
+probably what the original poster meant when he used the term.
+
+
+By the way, it seems to me that you agree with CP on this.  The "sparging" of 
+the wort into the primary seems to remove most of the hotbreak material along 
+with the hops.
+
+
+>>This might be the source of the confusion.  He also recommends scooping out
+>>the specialty grains just prior to the wort coming to a boil.
+
+
+>Hmm... The conventional wisdom here is to remove the grains at 170 
+>degrees to avoid leaching tannins into the wort.  Waiting until just 
+>before the boil is too long.
+
+
+This sounds like a momily to me.  I haven't noticed an astrigency problem with 
+beers I've made to date using this method and I know of several other brewers 
+who use this method with success.
+
+
+>Date: Tue, 29 Jun 93 10:39:32 PDT
+>From: nexgen!bart`at`olivea.ATC.Olivetti.Com (Bart Thielges)
+>Subject: storing kegs and sanitizing fermeter lids
+
+
+
+
+>Here's a few of questions for the experts :
+
+
+>1) I haven't been able to find a good way to immerse my fermeter lid (a 
+>        5 gallon white plastic bucket with snap on lid) in the sanitizing
+>        solution.  I can distort the bucket and jam the lid in part way,
+>        but this could scratch the sides of the bucket and besides does 
+>        not totally immerse the lid.  Also, I don't have any other vessel
+>        larger than the bucket.  I've been splashing the sanitizing solution 
+>        all over the lid in the hopes that the contact time is long enough.
+>        Is it ?  Do I need to buy a larger soaking vessel ?
+
+
+I simply fill the primary up to capacity and snap on the lid and let it soak.  
+Just before I'm ready to go, I wipe down the lid with a sponge that has been 
+soaking in the sanitizing solution.  Seems to work OK so far.  Wiping stuff 
+down was recommended by a local supply shop.  I think the physical action 
+of the wipe would offset the minimal contact time.
+
+
+
+
+- ------------------------------
+
+
+>Date: Tue, 29 Jun 93 12:43 EDT
+>From: LYONS`at`adc2.adc.ray.com
+>Subject: Light (Lovibond) Extract
+
+
+>I seem to recall some HBDers complaining that the American Eagle 
+>dry extract product had significant amounts of corn sugar mixed in 
+>with the malt.  This would certainly make a light beer, but it may 
+>be better to stay with a quality extract, such as M&F or Laaglander, 
+>which claims to be all malt.
+
+
+I hadn't heard that.  I've used American Eagle for a few batches and noticed 
+no characteristic cidery taste.  It also claims to be all malt.  The use of 
+corn sugar might explain the low price, though.
+
+
+Keith A. MacNeal
+Digital Equipment Corp.
+Hudson, MA
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #1178, 07/09/93
+*************************************
+-------

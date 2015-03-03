@@ -1,0 +1,1037 @@
+﻿This file received at Sierra.Stanford.EDU  92/12/14 00:56:56
+
+
+
+
+HOMEBREW Digest #1032                             Mon 14 December 1992
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  yeast (J. Fingerle)
+  .Z extension (thutt)
+  pots (mgx)
+  Maltmill vs. Mercato Round 2 (7226 Lacroix)
+  sparging technique (Mark Garti  mrgarti`at`xyplex.com)
+  Weird Starter (summary) (Alan B. Carlson)
+  I'll PASS on the Mexican WATER; spiceweirdness; kegs (The Ice-9-man Cometh)
+  Mail Order Sources: Need a List! (Jon Knowles)
+  blowoff or blowup?  (davehyde)
+  blowoff (   Paul Biron)
+  Comments on Belgian Ale Book (Joe Rolfe)
+  La Chouffe (jim busch)
+  results of vanilla brew (dave ballard)
+  iodine test & buffering sparge water (Scott James.)
+  Brewpubs (almost) legal in Michigan ("Spencer W. Thomas")
+  when to pitch a starter? (Peter Maxwell)
+  "grapefruit" Hops (whg)
+  Sparging (Jack Schmidling)
+  Good Wheatbeer (DBIRCH)
+  Questions about imports (Carlo Fusco)
+  yeast's tolerance of alcohol (Rob Bradley)
+  Cleaning stoves after boil overs (MIKE LELIVELT)
+  Perfect Brew! :-) (Todd Enders - WD0BCI)
+
+
+
+
+Send articles for __publication__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com
+Archives are available via anonymous ftp from sierra.stanford.edu.
+    (Those without ftp access may retrieve files via mail from
+    listserv`at`sierra.stanford.edu. Send HELP as the body of a
+    message to that address to receive listserver instructions.)
+**Please do not send me requests for back issues!**
+*********(They will be silenty discarded!)*********
+**For Cat's Meow information, send mail to lutzen`at`novell.physics.umr.edu**
+
+
+----------------------------------------------------------------------
+
+
+Date: Fri, 11 Dec 92 07:51:40 EST
+From: fingerle`at`NADC.NADC.NAVY.MIL (J. Fingerle)
+Subject: yeast
+
+
+ 
+I'd like to open a thread concerning the culturing of yeast. 
+If there is enough interest, this could be done via the 
+digest, but I suspect private email might be better.
+
+
+Anyway, I just recently bought some liquid yeast and was a bit 
+shocked at the price; not that it is outlandish, or anything, 
+but after using the dry yeast that comes free with the extract 
+syrup, it seems like its a lot of $.  So, my next thoughts turn
+to culturing yeast.
+
+
+Using Papazian, 2nd edition, I have no problem with the explanation
+of the preparation of the medium.  Now, on p279, under the heading 
+"Culturing the yeast", he says to open the container of pure yeast 
+culture and pour it into your previously prepared medium (6 oz of wort 
+in a 12 oz vigorously sanitized bottle.)
+
+
+My liquid yeast has the two sections of liquid, one of which 
+your supposed to break, then let the package swell up.  Do you do 
+do this, allow for the swelling, then dump the entire thing
+the bottle?  Or do you break the inner part
+and immediately dump both sections into the bottle?  Or do you 
+ignore the inner part and just dump the one section in?
+
+
+Once the liquid yeast is in the bottle, you place a fermentation
+lock on it, according to Papazian.  Fermentation starts, but then what?
+Papazain says stick it in the refrigerator, then repropogate in 2 to
+4 weeks.  When do you use it?  When you repropogate, do you split
+the bottle contents in half and propogate two cultures?  Do you drain
+off the liquid in the top half of the bottle and just use the sediment?
+Do you have to let everything get to room temperature?
+
+
+I have so many questions, about this, that I may as well stop at this 
+point.  Can anyone give me some pointers and/or step-by-step 
+instructions?  And, perhaps, can anyone render an opinion: I'm 
+still a beginner, having only brewed 5 batches, am I getting
+in over my head to quickly?
+
+
+Thanks!
+
+
+- --
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+name:  Jimmy                              What's wrong here: A child can get a
+email: fingerle`at`NADC.NADC.NAVY.MIL    condom from the school nurse anytime but
+ -or-   fingerle`at`NADC.NAVY.MIL      needs parental permission to get an aspirin
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 07:59:05 EST
+From: thutt <thutt`at`MAIL.CASI.NASA.GOV>
+Subject: .Z extension
+
+
+      Since there has been no concrete answer to the .Z question, I'll
+      answer it once and for all.
+
+
+      The .Z is a file compressed using the Unix(tm) 'compress' program.
+      If you have a Unix(tm) machine, there are two ways to generally
+      uncompress the file:
+
+
+          1) compress -d filename.Z
+          2) uncompress filename.Z
+
+
+      When the decompression is complete, you will be left with a
+      'filename',  and 'filename.Z' will have been deleted.
+
+
+      If you are using a 16 bit PC, you may have some problems.  The
+      method required to compress/decompress the data uses a table of a
+      specified bit size.  On most Unix(tm) machines, this table size is
+      16bit.  Unfortunately, this is generally too big for a simple
+      recompile of the program on a PC.  There are specific
+      recompilations of the program that will allow you to use 16bit
+      compress on a PC.
+
+
+      You can FTP several PC versions from the wuarchive.wustl.edu (ip
+      not known at this time) server.  The simtel site will also have
+      these.
+
+
+      If you cannot FTP things, and you really need the software, you can
+      send me a disk (any format) and a SASE, and I'll be happy to send
+      you the versions you require (actually, I'll send you all the
+      versions I have)).  If you are interested, drop me a line, and I'll
+      give you my address.
+
+
+      Sorry, due to our network (don't get me started on this
+      subject...), I cannot send files via email at this time.  I am
+      working on a custom version of uuencode that will work with
+      c(rappy)c(rappy):Mail, but it is not done yet.
+
+
+      Hope this helps.
+
+
+      Taylor
+      Championing worldwide usage of Oberon-2!
+
+
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 1992 08:11:16 +0600
+From: mgx`at`solid.ssd.ornl.gov
+Subject: pots
+
+
+In hbd #1031 Judy Bayliss asked about cooking pots for brewing:
+
+
+>The article suggested a stainless steel stewpot, the
+>one we have is graniteware, or whatever they call the dark blue cookware
+>with white specks.  Can we use that, or does it have to be stainless steel ?
+>Any advice or suggestions would be appreciated.
+
+
+Judy, both stainless steel and enamelware are good for homebrewing.  The
+stainless will have a longer lifetime.   Don't use the enamelware if it has
+been chipped and shows rust.  Aluminum pots are ok for producing hot water
+for sparging, but should not come in contact with the mash or wort.  
+
+
+Judy,  I tried to email u directly but it bounced.  Please try to email me
+so my mailer can get to know yours! :-)  Good Luck with  the beer making!
+
+
+Michael D. Galloway
+mgx`at`solid.ssd.ornl.gov
+
+
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 06:04:10 MST
+From: stevel`at`chs.com (7226 Lacroix)
+Subject: Maltmill vs. Mercato Round 2
+
+
+        Well, I'm not usually one to sing the praises of a gizmo for very long
+but the response(s) to my previous post seem to require a further comment.
+To the person who is happy with his Mercato...Great!  I was just as happy
+brewing with my old thin aluminum kettle...until I got a better one.  And
+I remember how happy I was when I got my first bottle filler, and how neat it
+was...until I got a Phil's Philler.  My point wasn't that some people would
+not be happy with their Mercato (or for that matter their Corona!).  Having
+USED the Maltmill, I just don't think I would be happy trading a Maltmill for
+a Mercato.  That little hopper (how big is it, about a cup??) and that tiny
+crank (do you hold it with 2 fingers or 3??) just don't to be a lot of fun
+to mill 20 or so pounds of grain...but then again, different strokes...
+Finally, I would use the same logic you used when trying to get the biggest
+bang for your buck...if the Mercato is worth the extra bucks over the Corona..
+there is no doubt that the Maltmill is worth a few bucks more when "compared"
+to the Mercato...but then again...what about the 300+ owners of the Maltmill??
+What sez you guys???
+Oh...by the way Mercato owners...how easy is it to get service from the 
+company which makes the Mercato??????????????
+Steve Lacroix
+Primitive Brewing
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 08:27:25 EST
+From: garti`at`mrg.xyplex.com (Mark Garti  mrgarti`at`xyplex.com)
+Subject: sparging technique
+
+
+I use a zapapp lauter tun (bucket in bucket).  It was made from
+2 6.5 gallon buckets. all this talk about sparging and solution
+concentration had me thinking about my technique.  when sparging
+and adding sparge water, are you supposed to let the water level
+start to drop below the the top of the grain before adding more
+sparge water.  OR do you never let this happen.  All the books
+are pretty grey here.
+
+
+also no one touched my question about reasonable conversion times.
+i had asked if most people end up doing a conversion step of 45-90
+minutes?  papazzian had indicated a total time of about 25 minutes.
+is anyone getting decent efficencies with this short a time.  I'm
+not but i don't know if this is the problem, or if it's something
+else.  i usually get 25 ppg.
+Mark   mrgarti`at`xyplex.com
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 15:00:17 +0100
+From: Alan B. Carlson <alanc`at`cs.chalmers.se>
+Subject: Weird Starter (summary)
+
+
+I'd like to start out by thanking all those who responded to
+my post about "weird starters" in HBD-1024. All the responses
+agreed that the gravity of the starter wort was way too high -
+way over the generally agreed upon wort gravity of 1.020 - and
+that what I was seeing floating around in the starter was 
+probably sugar crystals. So, this is another case where one
+throws out the recommedations of the local homebrew shop (I
+was, after all, just following their instructions :-) ).
+
+
+I would like to add one data point. After having posted my message
+to HBD, and being too impatient to wait for a reponse, I began another
+starter with the same immense gravity (once again using granulated sugar).
+This time I used first generation Wyeast Bohemian Pilsener (as I had in producing
+the beer I took the dregs from in the original starter). After pitching the
+starter (which looked to be okay), it took 6 (!) days before I noticed
+significant fermentation - i.e. before it started bubbling in the airlock.
+The same thing happened the first time I used Wyeast Bohemian Pilsener and
+followed the instructions from the local homebrew shop. So, I guess the
+lesson is: Keep your starter wort's OG down at a reasonable level or beware!
+
+
+Alan
+
+
+- -------------------------------------------------------------------------------
+Alan B. Carlson                      Phone: +46 31 772 10 73
+Chalmers University of Technology    UUCP: alanc`at`cs.chalmers.se 
+Department of Computer Sciences      
+S-412 96 Gothenburg                  Go IFK GOETEBORG !!
+SWEDEN  
+- -------------------------------------------------------------------------------
+
+
+------------------------------
+
+
+Date:    Fri, 11 Dec 1992 8:55:55 -0600 (CST)
+From: SMITH`at`EPVAX.MSFC.NASA.GOV (The Ice-9-man Cometh)
+Subject: I'll PASS on the Mexican WATER; spiceweirdness; kegs
+
+
+>From: BLASS`at`bigvax.alfred.edu (YOU'VE GOT THE EGGS, I'VE GOT THE SCRAPPLE, LET'S MAKE US A BREAKFAST)
+>I am interested in recipes for mexican beers, like Corona, and
+>how to make malt liquor.  I tried a few different malt liquors, some 
+>enjoyable (Mickey's Fine Malt Liquor), some not that enjoyable.  How
+>is it made and are there any recipes?
+
+
+I understand that there is a secret ingredient in US-import Corona, but
+you won't find it in any of MY recipes.  *grin*  As for malt liquors...
+I have been told that the only difference between, say, Schlitz and 
+Schlitz Malt Liquor is a bunch of corn sugar to add alcohol.  Forget 'em
+and brew a nice pale ale or something, if ya ask me.
+
+
+>From: John Fitzgerald <johnf`at`ccgate.SanDiegoCA.NCR.COM>
+>I bottled my spicy Christmas ale recently, and within 1 week of bottling, 
+>something ugly is happening in the bottles.  There is a thin white oil slick
+>on the surface of the beer, climbing about 1/8" up the glass on the inside.
+>Is this definitely from an infection?  I've never seen anything like it in the
+>past 3 years/25 batches.
+
+
+My spiced holiday brew did something similar:  a few floaties in the
+bottles, white, which subsequently sank and have not shown up again.  Very
+weird.  I don't know if it's an infection or not as this was the last
+brew I made without boiling all the water first, so my sanitation may be
+suspect.  Naturally, I blame the Wyeast.  :)  My recipe was very similar
+to yours, minus the vanilla and a lot of cinnamon, and yeah, it took a
+long time to clear...I finally bottled before it cleared, it took over a
+month in the bottle after that, even.
+
+
+>From: davehyde`at`tecnet1.jcte.jcs.mil
+>keg is one of those newer cylindrical types without a bung.  My question:  How
+>do I get my beer in?  There's got to be some way to get the tap fitting out,
+>but everything I try seems to require too much force to be working properly.
+
+
+There's a snapring holding everything down.  You can pry it out using a
+thin screwdriver with not much force at all; it's thin metal and has a
+cutout on which you can pry.  Once it's out, the whole fitting and dip
+tube assembly lifts up and out, no problemo.  Getting the ring back IN is
+the hard part, comparatively.
+
+
+
+
+|    James W. Smith, NASA MSFC EP-53     |     SMITH`at`epvax.msfc.nasa.gov     |
+|     "I'll kiss you only if you promise not to bite me again"  --Binky      |
+|    Neither NASA nor (!James) is responsible for what I say. Mea culpa.     | 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 08:56:07 CST
+From: jknowles`at`unmc.edu (Jon Knowles)
+Subject: Mail Order Sources: Need a List!
+
+
+Has anyone compiled a list of mail order places for brewing supplies?  I have
+only the Williams Brewing catalog and would like to know of other sources 
+so that I can make comparisons on supplies, costs, etc.
+Thanks
+Jon   jknowles`at`unmc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 09:59:06 EST
+From: davehyde`at`tecnet1.jcte.jcs.mil
+Subject: blowoff or blowup? 
+
+
+
+
+Since the topic has come up, here's one of my earlier experiences with first
+stage blowoff in a carboy.  I had brewed a batch of something (you'll see why
+I've forgotten), dumped it into a carboy, which it almost filled.  Mistake #1.
+
+
+I went ahead and pitched it with dry yeast without draining any, and stuck in a
+
+
+blowoff tube.  Mistake #2.  I put it in the guest room, the warmest room of the
+
+
+house, and let it set.  Mistake #3.  The next night I had to work late, and
+ended up staying with a friend rather than drive home exhausted.  I got a
+worried call from my wife, who said that the beer didn't look very active, but
+that the blowoff tube was clogged.  Being my level headed self, I told her to
+just pull the tube out (meaning leave the stopper behind), rinse it w/ clean
+water, and replace it.  Mistake #4.  Fine, and she hung up.  About 1/2 hour
+later, the PANIC call comes.  Apparently she had pulled the stopper out and
+gone to the bathroom to rinse it.  Nothing happened when she pulled the
+stopper, BTW.  While rinsing, she heard a WHOOSH (as she put it), turned back,
+and saw a 2" column of "beer" spewing out of the carboy, bouncing off the
+ceiling, and splattering all over the walls of the room.
+
+
+I came home after all that night.
+
+
+Dave Hyde
+davehyde`at`tecnet1.jcte.jcs.mil
+
+
+BTW I can only store beer in the basement now.
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 10:26:57 EST
+From: paulb%ted`at`juliet.ll.mit.edu (   Paul Biron)
+Subject: blowoff
+
+
+J. Knight writes:
+
+
+
+
+> A question for all you blower-offers.
+
+
+> I generally do primary fermentation in my good ole plastic bucket.  Because 
+> of gettin some yuck up through the airlock a couple of times, I've been using 
+> semi-blowoff - that is, I have an old racking tube with a stiff part joined 
+> to a flexible part, and the stiff part fits down through the airlock hole in 
+> the lid.  I use this for "blowoff"  although the larger capacity of the 
+> bucket means relatively little stuff is actually blown off.
+
+
+> Now, if I want to try a real blowoff - that is, with a 5-gal glass carboy - 
+> can I just use this hose in my regular stopper?  Do I need the 1-inch tube I 
+> read about occasionally because the small i.d. of my present device might 
+> lead to clogging and possibly a very large and messy grenade?  If so, what 
+> kind of equipment do I need for the carboy mouth and where do I get it?
+
+
+> Thanks again for all of your Greate Wisdomme.
+
+
+> Jonathan
+
+
+I would definately use the 1" hose as opposed to the racking tube. The amount 
+of gunk that gets pumped out through my hose would definately clog a small
+diameter tube and possibly lead to a mess. As far as equipment, all you need
+is a 3' length of 1" tube and a bucket of water. Make sure that the carboy
+is filled into the bottom of the neck, insert the tube 1-2 inches into the neck
+and stick the other end into a bucket of water to create an air lock. I find
+that it works best if the carboy sits higher than the bucket. I replace this
+setup with a 3-piece airlock when the kreusen falls. 
+
+
+I can't recall the brand name, but the brew shop where I get my supplies
+sells a glass blowoff tube for $19.95. It has a foam sleeve to protect from
+breaking against the carboy and is much easier to clean than the glass tube. 
+I would recommend in getting one of these since the plastic tube needs
+occasional replacement.
+Call Heart's Liquors at 407-298-4103 for orders
+
+
+Paul Biron        MIT/Lincoln Laboratory
+                Teminal Doppler Weather Radar
+                Kissimmee, Florida
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 10:35:26 EST
+From: Joe Rolfe <jdr`at`wang.com>
+Subject: Comments on Belgian Ale Book
+
+
+hi all,
+
+
+having been close to being nuked on another net list about some comments
+i made in response to other comments regarding Pierre Rajotte's Belgian
+Ale book.  the general consensus seems to be that the book failed to
+provide the level of depth and  missed the mark.
+
+
+If anyone has problems (other than editorial/publishing) please forward them
+to me at the address below.  I will forward them to Pierre enmasse after 
+a reasonable time period, to solicit clarification or whatever. You may
+or may not want to include some personal information (like number of years
+brewing, professional or as a hobby any other background you care to add
+that could be relevant to the response. (just tlaked to pierre he agrees
+to respond)..... 
+
+
+I was under the impression the book was a success as the number of Yeah vs Nay
+articles posted in many different net lists was tilted to the yeah side.
+
+
+i have no monetary interest in the book or Pierre's business matters, except
+that i am a satisfied customer of his brewing equipment.
+- -- 
+joe rolfe 
+jdr`at`wang.com    
+508-967-5760
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 16:46:43 EST
+From: jim busch <busch`at`daacdev1.stx.com>
+Subject: La Chouffe
+
+
+Recently, a friend of mine brought back some delicious belgium
+ale: La Chouffe.  I am thinking of doing some experiments with 
+the yeast that we cultured, and I thought Id ask if anyone 
+out there in digest land has ever brewed with this yeast.  I
+am particularly interested if anyone cultured it or brewed
+directly with the dregs.  
+
+
+FWIW, La Chouffe is  a small craft brewery in Belgium.  The 
+beer weighs in at 7.8%vol, and it is actually available on
+draft in a few locations. I found it in Brugge, at the beer
+place that M. Jackson talks about in his book and video.
+A very well made beer!
+
+
+Jim Busch
+
+
+
+
+------------------------------
+
+
+Date: 11 Dec 1992  15:01 EST
+From: dab`at`donner.cc.bellcore.com (dave ballard)
+Subject: results of vanilla brew
+
+
+
+
+hey now-  you may remember from a couple of months ago that i was looking 
+to do a batch of brew with vanilla beans and was looking for suggestions.
+well, i went ahead and did it and wanted to let you know how it 
+turned out.  here's the recipe:
+
+
+Vanilla Bean Stout (5 gal)
+
+
+2 lb  crystal (90L)
+4 oz  chocolate malt
+4 oz  black patent malt         
+2 oz  roasted barley 
+6 lb  dark dme
+
+
+1.5 oz  Northern Brewer (60 min)
+ .5 oz  Eroica (finish)
+
+
+Wyeast Irish (1098)
+
+
+og = n/a
+
+
+mashed grains for 45 min. `at` 152 F, sparged to kettle, added dme, etc.  
+i did a normal primary ferment for about a week and then racked to the
+secondary on top of 4 6" vanilla beans sliced lengthwise down the middle
+to expose the good stuff.  after 3 or 4 days all signs of fermentation stopped
+with the gravity only at 1022.  i let it sit a little while longer and 
+got no improvement.  i then pitched an 8oz culture of Narraganset ale
+yeast (from the yeast culturing kit) in an attempt to fire the thing up
+again.  i let it sit for about 3 more weeks before bottling.  the final
+gravity was 1018.  hmmm.  
+
+
+anyway, the final product has a really nice blend of roasted malt and 
+vanilla, almost like a vanilla-flavored coffee.  i noticed a lot of
+oil from the beans in the secondary, though, and not surprisingly the 
+head retention is very poor.  when you swirl the beer around in the glass 
+it foams up but then it just slides down the sides in a kind of oily 
+manner.  the aroma is outstanding.  i'm extremely happy with the 
+beer and will definitely do it again.  i might cut back to 2 or 3 beans, 
+however, especially if i do a porter.
+
+
+so there you go.  now go out and try it yourself, you'll like the results.
+
+
+coming next week:  kiwi wheat...
+
+
+dab
+
+
+=========================================================================
+dave ballard        
+dab`at`cc.bellcore.com 
+=========================================================================
+
+
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 10:38:34 MST
+From: scojam`at`scojam.Auto-trol.COM (Scott James.)
+Subject: iodine test & buffering sparge water
+
+
+
+
+I've used iodine to test a small piece of grain as an indicator of
+starch conversion and it seems to work.  I pull out a grain sample
+and put it in a white plate.  After adding a drop of iodine, I look
+to see if it remains light brown or turns dark blue (starch present).
+Sometimes it takes upwards of two hours for complete conversion! I
+think my mash is to dilute (around 2-3 gallons in 6-8 lbs pale malt).
+
+
+I found that buffering my sparge water (2-3 gallons) with 1/2 teaspoon
+gypsum greatly increased my extraction rates.  Does anybody else do
+this to?  I live in Denver (rocky mountain stream water) so maybe our
+water needs a little mineral supplement?
+
+
+- --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--
+Scott James                                scojam`at`Auto-Trol.COM
+Ham (N0LHX) -:- Guitarist               Auto-Trol Technology
+HomeBrewer - Student Pilot                Denver, Colorado USA
+- --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--
+
+
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 14:10:34 EST
+From: "Spencer W. Thomas" <Spencer.W.Thomas`at`med.umich.edu>
+Subject: Brewpubs (almost) legal in Michigan
+
+
+The MI State Senate passed the long-awaited "Brewpub" bill on the last
+day of the session this year.  This bill creates a new class of
+brewery: the "brewpub".  A restaurant or bar that *already has a
+liquor license* can brew beer *for consumption on the premises*.  A
+given individual (or Inc.? After all, incorporated entities are
+usually treated as individuals in the law.) can only own a single
+brewpub.  Despite the obvious limitations, many of us are ecstatic
+that we've gotten this far.  (The bill needs to be signed by the gov,
+but I've been told that that's basically irrelevant.  It was passed by
+both houses "with immediate effect", so he will need to explicitly
+veto it or it goes into effect in 14 days from passage, anyway.  Since
+basically nobody is against the law (not even the commercial brewers),
+it is very unlikely he would veto it.)
+
+
+In fact, there's a brewpub planned for Ann Arbor.  These folks have
+been proceeding with their plans, on the assumption that the bill
+would pass (they did hire a lobbyist to help make that assumption
+valid).  Shamelessly lifted from the Ann Arbor News, December 5, 1992:
+
+
+         By Dave Wilkins          
+ A local couple has overcome the most daunting obstacle to their plans
+to bring a West Coast phenomenon, the brewpub, to downtown Ann Arbor.
+ The state Senate cleared the way late Thursday - the last day of the
+current legislative session - by passing a bill to allow brewpubs to
+operate in Michigan.
+ Barry Seifer and Jennifer Kirscht say the Senate's action, if signed
+into law by the governor, puts them on track to open Grizzly Peak
+Brewing Co. in a historically renovated downtown building on May 1. It
+would be the first such brewpub in Michigan and would employ an
+estimated 100 people. "We are ready to start construction right after
+the first of the year," Seifer said Friday about the proposed brewpub,
+which would produce specialty beers and serve them on the premises.
+ At Grizzly Peak, Seifer and Kirscht say they will serve high-
+quality, non-pasteurized beers, stock a full bar and offer both tavern
+food and a quieter upscale dining area. They plan a room for banquets
+and another featuring live music, while also operating a home
+furnishings store in a third-floor loft.
+ The site is at two buildings formerly occupied by the Cracked Crab
+restaurant in the 100 block of West Washington Street.
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 1992 16:11:19 -0800 (PST)
+From: Peter Maxwell <peterm`at`aoraki.dtc.hp.com>
+Subject: when to pitch a starter?
+
+
+I'm about to embark on my first ever use of liquid yeast.  I've made up a
+starter of 1 pint of wort and am waiting for the frothies to start.  This
+raises the question on exactly when to pitch this starter.  In particular:
+
+
+1.  The instructions indicate "at high krausen".  Is this the normally done
+practice?
+
+
+2.  Why the above?  What happens if one waits until the starter is fermented
+out and all activity ceases?  I would have thought that the yeast are
+continually multiplying during fermentation, as well as during aerobic
+respiration, so that the maximum cell count would result from using it
+later.
+
+
+3.  In conjunction with 2, I gather the yeast go dormant at the end of
+fermentation, but so what?  When beer is bottled, fermentation has
+definitely stopped, but the yeast happily rapidly ferments the priming
+sugar.  So what's the difference between this and pitching fermented-out
+starter into fresh wort?
+
+
+I'm confused, please help.
+
+
+Thanks.
+
+
+        Peter
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 15:44:34 CST
+From: whg`at`tellabs.com
+Subject: "grapefruit" Hops
+
+
+
+
+
+
+I've found that high alpha hops give even more of the grapefruit taste when
+use at the end of the boil.   I've gotten a ton with centennial, which makes
+sense as it is the high alpha version of cascade.  I've also (I think, don't
+have my notes) gotten it with chinoks and others.
+
+
+Walt
+
+
+"~a
+Walter Gude    ||   whg`at`tellabs.com
+
+
+------------------------------
+
+
+Date: Fri, 11 Dec 92 23:20 CST
+From: arf`at`ddsw1.mcs.com (Jack Schmidling)
+Subject: Sparging
+
+
+ 
+ >From: Phil Hultin <HULTINP`at`QUCDN.QueensU.CA>
+ 
+ >Recent postings have wondered about why sparge the mash.  It was suggested
+ that instead of using x litres of mash and y litres of sparge, just
+ use (x+y) litres in the mash to get the same effect.  THIS WILL NOT GIVE
+ THE SAME EXTRACT.  Sparging is a more efficient way of removing the
+ sugars from the grains than is single batch extraction.
+ 
+ >The reason for this is rather difficult to explain without pictures, but
+ maybe can be demonstrated by example.
+ 
+ You did a fine job without pictures.  I painted one in my modest brain while 
+ reading your explanation and felt very humble not having figured it out 
+ myself.  I could have probably even come up with the 20% loss without ever 
+ running the tests.  If we run off 10 gals of wort at 1.040 from, let's say 12 
+ lbs of grain, all we need to know is how much liquid is still in the wet 
+ grain.  We know what the gravity is and I would guess that there is problably 
+ 2 gals of water.  Close enough to 20% for discussion purposes and 20% is 
+ enough to make sparging worth the trouble.
+ 
+ Nice contribution Phil.
+ 
+ I will admit that I was expecting all sorts of expert testimony that it would 
+ make lousy beer for reasons of chemestry but there were only a very few 
+ feeble offerings in that realm.
+ 
+ js
+
+
+------------------------------
+
+
+Date:         12 Dec 92 16:56:57 SAST
+From: DBIRCH`at`eleceng.uct.ac.za
+Subject:      Good Wheatbeer
+
+
+A pub has just opened near my home, and it sells a good selection of
+imported beers. Can anyone advise me on what would be good to try?
+I was thinking along the lines of a German Wheat beer or anything
+unlike the beers we get here (Lager pilsener lager and more lager)
+
+
+Other than that, does anybody have a recipe for nachos? I need an
+interesting snack to go with my beer.
+
+
+Thanks  Dave
+David Birch
+UCT
+- ---------------------------------------------------------
+Where do people get all those witty quotes they
+use in their signature files?
+- ---------------------------------------------------------
+
+
+------------------------------
+
+
+Date: Sun, 13 Dec 1992 02:34 EST
+From: Carlo Fusco <G1400023`at`NICKEL.LAURENTIAN.CA>
+Subject: Questions about imports
+
+
+Hello everyone,
+
+
+I have a few questions about imported beer in Canada. Tonight I tried 
+Simpatico amber and golden. What confused me is that the golden is brewed in 
+Mexico and the amber is brewed in the USA. Is Simpatico a Mexican or American 
+company by origin? What rating is the amber for hops, asuming American Bud is 
+a 2 and Pilsner Urquell is a 20?
+
+
+A question for Canadians from Ontario. Has anyone tried importing beer by the 
+Vinage's division of the liquor store? If yes, what type of mark up should I 
+expect? I want to get a case [24] of Sierra Nivada Pale Ale [I would like to 
+try it since I hear so much about it], but the people at the liquor store 
+never heard of it. 
+
+
+Now a question for American's. I had the opertunity to try the Samual Adams 
+Boston Ale. What are people's opinions of this beer?...I liked it, there is 
+nothing like it in Canada, from a domestic view point.
+
+
+Finally, I have an update for the brewing on-line list I have been updating. 
+My problem now is that the list is greater than the 8K allowed by the HBD. Is 
+there a way around this limit or must I now submit it to the archive? If I 
+have to submit it to the archive, how do I do it?
+
+
+Thanks to everyone
+
+
+Carlo Fusco
+g1400023`at`nickel.laurentian.ca
+
+
+------------------------------
+
+
+Date: Sun, 13 Dec 92 16:56:45 -0500
+From: bradley`at`adx.adelphi.edu (Rob Bradley)
+Subject: yeast's tolerance of alcohol
+
+
+I racked a gallon of cyser today.  Using M&F dry, the gravity fell
+from 1082 to 1002 in only 3 weeks.  I was somewhat disappointed:
+I used ale yeast instead of, e.g., champagne yeast to get a higher
+final gravity.  I figured the alcohol would kill off the yeast
+somewhere around 8% alcohol by volume, leaving me an FG of 1020
+or above.
+
+
+Does anybody have any information as to the levels of alcohol
+our familiar yeasts (liquid and dry) find toxic?  Would I have
+done better using some Wyeast?  [Given that Bigfoot is made
+with 1056, that one's abviously not a candidate.]
+
+
+Cheers,
+
+
+Rob (bradley`at`adx.adelphi.edu)
+
+
+------------------------------
+
+
+Date: Sun, 13 Dec 92 18:29 EDT
+From: MIKE LELIVELT <MJL%UNCVX1.BITNET`at`VTVM2.CC.VT.EDU>
+Subject: Cleaning stoves after boil overs
+
+
+Well after fifteen batches, I got cocky and walked away from a covered pot and
+I paid the boil over price for the first time.  I KNOW this has been discussed
+here before but I never paid any attention.  How to I get this crap off of my
+stove?  I've tried "Soft-Scrub" but it just doesn't cut it.  Please, if I don't
+get this off my wife might leave me else quit brewing.  I'd really miss her
+too.  MIKE
+
+
+------------------------------
+
+
+Date: Sun, 13 Dec 1992 22:19:43 -0600
+From: Todd Enders - WD0BCI <enders`at`plains.NoDak.edu>
+Subject: Perfect Brew! :-)
+
+
+
+
+     The subject line is a bit loaded, but bear with me.  The results speak for
+themselves.
+
+
+     Yesterday I made a batch of Best Bitter/ESB, using the following
+ingredients:
+
+
+     Special Bitter #9
+
+
+7# US 2-row pale malt
+1# 60L Crystal Malt
+0.5# Wheat Malt
+1 oz. Black Patent Malt
+1 oz. 10.9% alpha Centennial hops
+Wyeast 1028
+
+
+Mash in: 12 qt. `at` 140F
+Mash: 60 min. `at` 150-156 F pH 5.2
+Mash out: 15 min. `at` 170F
+
+
+Sparge: 5 gal. acidified to pH 5.8 w/lactic acid.
+
+
+Boil: 90 minutes
+Hops: 1 addition, 45 min. from end.
+
+
+     Nothing unusual at this point, but note well the following:
+
+
+OG: 1.058 (!!!)
+
+
+     I used the theoretical values in Miller's CHoHB, and the SG points avail-
+able from the grain bill were 290.  Multiply 58 by 5 and be amazed as I was!
+Yes, I got 100% of theoretical extraction, and only sparged 5 gal.!  How?  I'll
+describe my sparge procedure this time, because I believe herein lies the key.
+
+
+     For lautering, I use the bucket in bucket tun.  I'd suspect that it's the
+same as many other brewers use.  It isn't insulated, or anything fancy.  Sparge
+water was acidified with lactic acid ala Miller.  Here's the difference.  I
+recirculated the initial runoff for the equivalent of 6 gal.  Then I began the
+sparge with 1/2 of the water heated to 170F and recirculated it once.  I 
+finished up with the last 2.5 gal., which was also recirculated once.  Total
+sparge time was about 2.5 hours.  The sparge was a good bit longer than usual,
+but those results!!!  The runoff was reheated between recirculations, BTW.
+The last runnings had no preceivable tannic taste.
+
+
+     The gods must have been watching over me, since after the boil and cooling
+I had *exactly* 5 gal. in the primary.  Right on the mark, no question.
+
+
+     This was the first time I had tried Centennial hops.  I've tended to lean
+toward Perle hops for bittering, but I've changed my mind!  If you haven't 
+tried them, they are a wonderful high alpha hop, with the bittering reminiscent
+of spruce/evergreen.  Tasty!  It might help that I have them from the 1992
+crop. :-)  They came from Freshops, BTW.
+
+
+     So is this *really* the perfect brew?  I'll let you know in a few weeks!
+
+
+Todd
+
+
+===============================================================================
+Todd Enders - WD0BCI                  ARPA: enders`at`plains.nodak.edu
+Computer Center                       UUCP: ...!uunet!plains!enders
+Minot State University                  or: ...!hplabs!hp-lsd!plains!enders
+Minot, ND  58701                     Bitnet: enders`at`plains
+===============================================================================
+
+
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #1032, 12/14/92
+*************************************
+-------

@@ -1,0 +1,1366 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA20306
+        for <spencer`at`srvr5.engin.umich.edu>; Tue, 20 Mar 2001 01:37:24 -0500 (EST)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr20.engin.umich.edu (8.9.3/8.9.1) with ESMTP id BAA20322;
+        Tue, 20 Mar 2001 01:37:03 -0500 (EST)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA10697
+        for realhomebrew; Tue, 20 Mar 2001 00:44:31 -0500
+Date: Tue, 20 Mar 2001 00:44:31 -0500
+Message-Id: <200103200544.AAA10697`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3585 (March 20, 2001)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3585                             Tue 20 March 2001
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Chiller Wars - Thermodynamics skirmish ("Tom Williams")
+  Braided PVC tubing ("Steve Guernsey")
+  RE: Super V All-Copper CF Chiller (Rod Prather)
+  CO2 output question (Rob)
+  cold break question (Rob)
+  GFI Clarifications ("Jason Henning")
+  OT: Hermione ... for anyone else thats wondering (Rob B)
+  More wide ranging questions ("Hedglin, Nils A")
+  Is this a new style? (Jeremy Bergsman)
+  re: Timing Oxygenation ("Stephen Alexander")
+  Drunk Monk Challenge - Judges DESPERATELY needed! ("Formanek, Joe")
+  re: igloo vs. gott tuns (rectangular vs. round) (Nathan Matta)
+  Hard Candy as an Adjunct??? (BOB Rutkowski)
+  Re: Hermione (Jeff Renner)
+  GFI/Intent (AJ)
+  Hermione ("jps")
+  keg purging with CO2 ("Czerpak, Pete")
+  ideal CF chiller length? (Thomas A Gardner)
+  Bummed about my water analysis (Chris Topoleski)
+  Stuff ("Gustave Rappold")
+  Jethro Gump ("Jim Hagey")
+  RE: Winnipeg lager (Brian Lundeen)
+  yeast slurries ("H Stearns Laseur")
+  Re: Mashing Laaglander Light DME ("Paul Smart")
+  mail order vs. local and shipping costs ("Paddock Wood Brewing Supplies")
+  convoluted tubing counterflow chillers (Chuck Dougherty)
+  re: cheap apartment lager (Don Price)
+  Fridge vs. GFI (Part II) ("Bob Sutton")
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+*
+* Drunk Monk Challenge Entry Deadline is 3/17/01!
+* http://www.sgu.net/ukg/dmc/ for more information
+*
+* Maltose Falcons Mayfaire Entry Deadline is 3/20/01!
+* http://www.maltosefalcons.com/ for more information
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 18 Mar 2001 13:24:47 -0500
+From: "Tom Williams" <williams2353`at`hotmail.com>
+Subject: Chiller Wars - Thermodynamics skirmish
+
+
+Ron LaBorde and Ken Johnson raise questions about heat transfer:
+
+
+>From: Ken & Bennett Johnson <fearless1`at`abac.com>
+>
+>.... A lot of water, moving slowly past the inner (hot wort filled) >tube, 
+>will perform the best. It will also use the least amount of
+>chill water!.....
+
+
+"He said the air moves through so fast, that it cannot absorb the heat =
+as well."
+
+
+OK, the answer to the velocity question depends on the objective.  If you 
+want to maximize the rate of heat transfer between the fluids, then high 
+velocity is good.  The heat transfer coefficient increases with higher 
+velocities (Reynolds number).
+
+
+However, if it is efficient use of the cooling medium (i.e., optimum cooling 
+water pumping power or air conditioner condenser fan power in your A/C 
+example) then there is some optimum flowrate which balances increasing fluid 
+film coefficient with cooling medium mass flow.
+
+
+For cooling wort, I don't believe the cost of the cooling medium flow is an 
+issue.  Pump as much through your cooler as you can, and I challenge you to 
+detect the incremental cost of the higher flow.
+
+
+Tom Williams
+Dunwoody, Georgia
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 18 Mar 2001 11:12:16 -0800
+From: "Steve Guernsey" <flight8341`at`home.com>
+Subject: Braided PVC tubing
+
+
+        We at Garage Brewing finally got to the point in our brewery expansion that
+we were able to run water from HLT to ferment.  We decided on the green
+light for the 50 gallon brew session next Saturday.  However, we noticed an
+off flavour in the water of the garden hose variety.
+        In assembling  the new brewery we opted for the braided PVC tubing that can
+be found at the Home Depot, which is responsible for that off flavour.  It
+was sturdy enough to hold up on the input of our pumps (doesn't "squish").
+We assumed that since the tubing was intended for residential water
+applications that the odor/flavour would simply rinse out.  This has not
+been the case yet.
+        We currently have the tubing soaking in water.  Has anyone else used this
+type of tubing?  How do you get rid of that PVC flavour?  If we can't, could
+anyone recommend a suitable alternative?  It has to be semi-rigid however.
+We would prefer to not go to a rigid pipe set up like copper.  Also, in a
+similar vein, is the vinyl tubing they sell at Home Depot, the same as that
+sold in your typical brew shop?
+
+
+
+
+Thank Maltose above for the HBD!
+Steve G.
+PDX
+
+
+RIDE FAST, SHOOT STRAIGHT, AND SPEAK THE TRUTH.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 18 Mar 2001 17:19:53 -0500
+From: Rod Prather <rodpr`at`iquest.net>
+Subject: RE: Super V All-Copper CF Chiller
+
+
+Ron,,, You said..
+
+
+I have been told by a refrigeration
+mechanic that if the fan motor in the condenser unit is replaced by a higher
+speed motor, that the air moves through the coils too fast and less not more
+cooling efficiency will occur 
+
+
+Note the word efficiency.  A race car isn't very efficient but it does run
+fast.  It just means that you will get increased cooling but at a higher cost
+due to the higher powered motor...  I don't think it will hurt anything..
+- -- 
+Rod Prather, PooterDuude
+Indianapolis, Indiana
+
+
+
+
+------------------------------
+
+
+Date: Sun, 18 Mar 2001 17:29:18 -0600
+From: Rob <shrav`at`swbell.net>
+Subject: CO2 output question
+
+
+I was wondering if there is anyway to calculate how much CO2 is =
+generated (roughly) by a 5 gallon wort fermentation process? I know =
+that's a  pretty broad question, because obviously CO2 is created at =
+different rates depending where in the fermentation cycle the wort is =
+in..  I thought maybe there was  a way to calculate based on the =
+difference in starting and final gravities for a given volume of wort.. =
+Also, I was wondering, is CO2 the only gas being given off through the =
+airlock in this process? thanks
+
+
+rob
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 18 Mar 2001 19:18:01 -0600
+From: Rob <shrav`at`swbell.net>
+Subject: cold break question
+
+
+Hey all. .got another question.. I was in the bookstore reading brew ware's
+equipment book (cool book, btw), and was reading on reasons for dropping
+wort below 60 to get a good cold break to drop out haze forming proteins..
+for a clearer final product.. This sounds like something i'd be interested
+in doing because my first batch (a wheat) i made last month was quite
+cloudy.. My question is, if you do drop the wort temp  below 60, how long
+should you keep it down there, and also do you let it warm back up before
+you pitch the yeast, or do you pitch the yeast, cover it up, and let it rise
+to normal fermentation temperatures? I'd imagine the latter to prevent
+contamination that could occur while waiting for the wort temp to raise to
+normal temps..
+
+
+Thanks
+
+
+rob
+apls`at`altavista.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 02:00:00 -0500
+From: "Jason Henning" <jason`at`thehennings.com>
+Subject: GFI Clarifications
+
+
+Hello-
+
+
+There sure seems to be some misunderstanding about GFIs. GFIs simply checks
+to make sure that the current on the neutral is no more than 10 milliamps
+less than the current on the hot wire. If it is, it trips. Everyone seems to
+under stand that part.
+
+
+Here's were the confusion lies. GFIs are susceptible to tripping with
+inductive loads. Inductive loads have windings, examples are motors,
+transformers, and ballast. Induction causes the current to shift out of
+phase, this shift is called the phase angle. The cosine of  the phase angle
+equals the power factor. In these situations, amps x voltage does not equal
+wattage (as in a purely resistive load), instead, amps x voltage x power
+factor equals wattage. Btw, loads with phase angles cheat the power company
+because your meter reads wattage.
+
+
+When the amperage and phase angle are great enough, the GFI thinks the hot
+and the neutral are imbalanced and will trip. Yes, it will trip although
+there is no true ground fault. For this very reason the National Electric
+Code exempts deep freezers, refrigerators, sump pumps, ect from GFI
+requirements. While leakage (a small current direct short) will cause a true
+ground fault, the phase angle can appear to a GFI to be a ground fault.
+
+
+OK, so what happened with Bob Sutton's fridge then? I'm guessing it's an
+older fridge. It probably has developed some leakage and the leakage has
+continued to worsen with time. Perhaps when the power was restored, there
+was a spike that compounded the leakage or maybe it was just coincidence.
+Anyway, the leakage and the current/phase angle situation combined makes for
+what appears to be a 10 milliamp fault to the GFI.
+
+
+If the fridge is plugged into a GFI, the simple solution is to replace the
+outlet with a standard outlet. You could even get fancy and get a single
+receptacle outlet. If it's a outlet that's fed by a GFI, other action needs
+to be taken. A picture is worth a 1000 words, so see my diagram at
+http://thehennings.com/images/brc/gfi.jpg . This method allows you to change
+everything without needing to pull any new wire or opening up the walls. All
+changes are made in the junction boxes.
+
+
+Here are some comments that need correcting:
+
+
+"If the GFCI doesn't trip when a substantial load is applied (try a blow
+dryer), it is probably ok." - GFIs don't provide overcurrent protection, you
+can run 30 amps through a 15 amp GFI and it won't trip because of the
+current. It may fail because it's not designed for 30 amps however.
+
+
+"The leakage that is causing the GFCI to trip is probably not enough to trip
+a circuit breaker." - Circuit breakers do not provide ground fault
+protection. Only when the hot wire is drawing in excess of the breaker
+rating will it trip.
+
+
+"The fridge might work just fine on a non-GFI circuit but remember that the
+GFI is telling you that there is an inappropriate path." - Not necessarily,
+the fridge's current and phase angle may be the only problem.
+
+
+"[A] GFI outlet provides a redundant safety mechanism to a properly grounded
+electrical circuit." - A normal circuit has no GFI protection. A GFI
+provides additional protection, not redundant protection.
+
+
+"In the case of a direct short between the phase and the ground wire within
+an appliance there will be a 100% imbalance between the phase and the
+neutral i.e. all return current will flow through the ground wire and none
+through the neutral. That is exactly what the ground wire is there for so
+the GFI does not sense a "ground fault" because there isn't one." - False,
+the definition of a ground fault is current flowing to ground whether it be
+thru the ground wire or some other path. For example, a $15 outlet checker
+with a GFI test button puts a small load (15 milliamp I believe) between the
+hot and ground when the button is pressed causing the GFI trip.
+
+
+And so concludes the lesson...
+
+
+Cheers,
+Jason Henning
+http://thehennings.com/
+
+
+Sometimes we brew in no particular way but our own.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 19:01:52 +1100
+From: Rob B <rbyrnes`at`ozemail.com.au>
+Subject: OT: Hermione ... for anyone else thats wondering
+
+
+The Hermione reference is from the Harry Potter novels .... nah, I won't 
+spoil it, read the books :)
+
+
+Cheers,
+Rob
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 01:00:45 -0800
+From: "Hedglin, Nils A" <nils.a.hedglin`at`intel.com>
+Subject: More wide ranging questions
+
+
+Hello again, time for more questions:
+
+
+1) I'll be bottling the Honey Porter I made this coming weekend.  Somewhere
+I read that you can use a mixture of ammonia & water to remove the labels
+off beer bottles.  But, now I can't find the reference.  Anyone know what
+dillution mixture would be used?
+
+
+2) I'll be brewing the Honey Porter again, but using the recipe's suggetion
+of Wyeast Irish Ale instead, but this will be the 1st time I'll be using wet
+yeast.  Effectively, what's the difference between Wyeast & Whitelabs &
+which would you recommend?  I thought the main difference was that the
+Whitelab was immediately pitchable, & Wyeast needed to have a starter made.
+But, the guy at the brewing store said that the Wyeast was immediately
+pitchable too.
+
+
+3) I'm also planning on dry hopping, but the original recipe doesn't call
+for it.  What amount of which hops (bittering or aroma) should be added?  I
+only have access to pelletized hops if that makes a difference.
+
+
+4) Any way to reduce the undesirable flatulent affects of beer?
+
+
+5) A local Caribbean restaurant introduced me to my new favorite drink
+called a Raddler.  It might be a play on the Snakebite, since it's made with
+1/2 Newcastle & 1/2 non-alcoholic Ginger Beer.  It's a very refreshing
+drink, the ginger beer cuts the alcohol & the alcohol cuts the ginger taste.
+It's kind of like a dark Zima.  Any ideas on the history of this drink?  Is
+it really from the Caribbean?
+
+
+6) Is there a problem with pitching too much yeast in the wort?  I would
+like to try splitting a batch after the boil & use 2 different types of
+yeast to see how they affect the beer.   Should I reduce the yeast for these
+2.5 gallon batches?
+
+
+Thanks again,
+Nils
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 07:19:59 -0500
+From: Jeremy Bergsman <jeremy`at`bergsman.org>
+Subject: Is this a new style?
+
+
+Sean Richens proposes a malty, cascade-hopped near lager and wonders if it
+is new.  It sounds a lot like what a lot of brewpubs turn out as a pale
+ale.  Yours would be darker, maltier, and hoppier, but basically similar. 
+It seems to me that many lesser brewpubs ferment their ales very cool to
+court the "clean and crisp" beer crowd.
+
+
+It also reminds me of a strange house brew available in a bar in Palo Alto,
+CA.  In addition to their house brew they have SNPA and some slightly
+colored megabrew.  I'll be damned if their house brew doesn't taste like a
+blend of the two.
+
+
+In any case Jeff doesn't claim to have invented the style, so if you name it
+and promote its brewing, you will have the same claim to fame as Jeff. 
+Well, OK, I guess you'll still never the be the center of the homebrewing
+universe.
+- -- 
+Jeremy Bergsman
+
+
+       ------------------ 
+\     |    Look!         |     /
+ \    | New contact info |    /
+ _\/   ------------------   \/_
+
+
+     jeremy`at`bergsman.org
+  http://www.bergsman.org/jeremy
+  _                          _
+  /\                        /\
+ /                            \
+/                              \
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 07:44:28 -0500
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: re: Timing Oxygenation
+
+
+Ant Hayes writes ...
+
+
+>I was at an IGB conference last week. During the yeast session, one of the
+>speakers had a bullet point on his overhead stating that 4 - 6 hours post
+>pitching is the ideal time to add oxygen.
+>
+>Has anyone else heard this?
+
+
+I'd be interested in the explanation they supplied, Ant.
+
+
+I wrote about the issues regarding O2 addition not so long ago in the
+digest.
+According to some studies, the first thing yeast do when they land in a
+bucket of fresh wort is
+1/ ignore the wort sugars !!!
+2/ start using their internal carbo reserves to make sterols from squalene
+reserves.
+
+
+I hesitate, especially on a HB scale where the yeast condition at pitching
+is so variable from making specific O2 addition recommendations.   *IF* the
+yeast you pitch are fat and sassy, then if you pitch the recommended levels
+in a conventional (10P-15P) wort they will have enough carbos stored to
+develop saturation level CO2 and *begin* bubbling before using any wort
+sugar.   They'll use only a small amount of O2 for the squalene->sterol
+production at that time.  If the yeast are carbo depleted or  (use an iodine
+test) they will need to use wort sugars earlier and only slowly develop the
+trehalose they need to produce sterols. and you *may* get a delay.
+
+
+In any case it's extremely likely that by the time you see 1st bubbles,
+whether that's 5 hours or 18 hours, your yeast will need O2 to develop any
+further sterols and UFAs.  Also that earlier O2 *may* not do much good,
+especially if they yeast are in less than ideal shape.
+
+
+I suspect that part of the reason why later O2 addition is recommended is
+that commercially re-pitched yeast is not in ideal shape, they may have less
+than idea carbo and squalene levels.   That is part of the trade-off between
+making great beer and making great yeast and not a condemnation of their
+methods.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 08:08:21 -0600
+From: "Formanek, Joe" <Jformanek`at`griffithlabs.com>
+Subject: Drunk Monk Challenge - Judges DESPERATELY needed!
+
+
+Good day to all!!!
+This is an urgent request for judges to help out at the Drunk Monk Challenge
+in Warrenville, IL on Saturday, March 24th.  If you are in the Chicago
+region or will be in the region next weekend and would like to help out,
+PLEASE contact Judge Cordinator Steve McKenna at mckennst`at`earthlink net. 
+
+
+Thanks in advance!
+Joe Formanek
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 09:40:43 -0500
+From: Nathan Matta <whatsa`at`MIT.EDU>
+Subject: re: igloo vs. gott tuns (rectangular vs. round)
+
+
+ >>>
+From: "John Stegenga" <john`at`stegenga.net>
+
+
+I know I'm way behind on my reading, but $39 for a 10gal round
+cooler just don't make sense.  I've been using my 48qt rectangle
+Coleman coolers (mash and liquor tank) for almost 2 years now
+with no ill effects - and I paid about $28 for the both!
+
+
+John C. Stegenga, Jr., Woodstock, GA.
+<<<
+
+
+John and others,
+
+
+     As with any brewing device (CCFs included), what's important is your own
+satisfaction.  I plan on going all-grain this spring, and I have decided to
+shell out the extra money for a beverage cooler.  Let me tell you why :)...
+
+
+     I am a fairly novice brewer, still stretching my hobbying muscles.
+Currently, I brew 5 gallon batches of a wide variety of styles, low and
+high gravity.  However, I anticipate moving up to 10 gallon batches of
+some beers in the near future.  Ideally, then, I would like a mash/lauter
+tun that allows me to mash anything from a 5 gallon low-gravity beer to
+a 10 gallon mid-gravity beer.
+
+
+     Correct me if I'm wrong, but it seems to me that the most important
+factors when choosing a cooler are 1) ease of conversion for beer use
+and 2) depth of the grain bed.  Since most coolers are equivalent in
+regards to ease of conversion, I have focused on the depth of the grain
+bed.
+
+
+     In order for me to get a reasonable grain bed (minimum 4 inches)
+on a low-gravity 5 gallon batch, I would have to use a 5 gallon cooler,
+which makes mashing grains for a 10 gallon batch pretty tricky.
+
+
+     However, the beverage coolers have a much smaller footprint,
+which allows me to have a decent grain bed in a much larger cooler.
+The 10 gallon Gott or Igloo coolers are sized such that I can mash
+the grains for any 5 gallon and most 10 gallon beers while staying
+within a reasonable grain bed depth (4-12 inches).
+
+
+     Yes, the beverage coolers are substantially more expensive than
+the rectangular coolers.  However, I believe that the added versatility
+is worth far more than the $20 it will cost me.
+
+
+Nathan
+========================================
+Nathan Matta
+Fuzzy Beer Home Brewery
+Randolph, MA, US
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 06:58:53 -0800 (PST)
+From: BOB Rutkowski <bob--o`at`excite.com>
+Subject: Hard Candy as an Adjunct???
+
+
+To the collective from St. Louis region.
+
+
+I was having a sour apple Jolly Rancher this weekend, and a light bulb
+flashed over my head.
+
+
+Would this make a different adjunct or what? I thought of putting some in
+boiling water and melting them and maybe adding to the secondary. How much?
+When to add?
+
+
+Any inputs or ideas? Has anyone ever tried this?
+
+
+Tight Lines to all. 
+Check out my website at: 
+WWW.HOMESTEAD.COM/BOBS_PAGE_FISHING/PAGE1.HTML 
+or get me at voicemail at: 
+1-888-Excite2 extension: 618-239-9131
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 10:35:28 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Hermione
+
+
+Mike Vachom <MVachow`at`newman.k12.la.us> of New Orleans writes
+
+
+>Okay, Jeff.  You got me on the Hermione reference.  The Hermione of The
+>Winter's Tale <snip>
+
+
+Wrong Hermione.  OK, boys and girls, who can help Mike out?  Think 
+Butter Beer (that's the topical connection).  Surely some of you have 
+read at least one of the four volumes of this recent best of 
+literature for young people (and old) to have been published in years.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 11:44:22 -0400
+From: AJ <ajdel`at`mindspring.com>
+Subject: GFI/Intent
+
+
+I think I'll have to concede to Forrest on the details of the single
+phase GFI. I made the mistake of projecting my experience which is
+mostly with 3-phase GFI's to single phase.
+
+
+Now where I violently disagree with Forrest is as to whether discussion
+of such things belongs here. It unquestionably does. If it's found in a
+brewery or homebrewing situation it can and should be discussed here. We
+discuss all maner or arcane intricacies of yeast metabolism, the
+physical chemistry of pH measurement, the relationship of fermenter
+aspect ratio and so on and on. I learned something from this particular
+discussion and hope others did too. Those who disagree with this
+viewpoint have the option of using their pagedown key. I don't begrudge
+the space devoted to extract brewers even though it is of no interest to
+me and I hope the extract brewers won't begrudge the space devoted to
+tech talk.
+
+
+A. J.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 10:49:36 -0500
+From: "jps" <segedy`at`gsinet.net>
+Subject: Hermione
+
+
+Referance to Hermione is not all that obscure.  Anyone with kids who read
+recognize it from Harry Potter.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 11:43:12 -0500
+From: "Czerpak, Pete" <Pete.Czerpak`at`siigroup.com>
+Subject: keg purging with CO2
+
+
+If anybody purges their corny kegs after filling them with beer to get ride
+of some to all of the air in the headspace after closing them up here are
+some numbers to help you out.
+
+
+I assume using CO2 at 10 psi since that is about the pressure that I
+normally have available in my manifold unless I disconnect all the other
+kegs first.  Also assumed in no solubility of oxygen in beer.
+
+
+1 purge takes you to 75% of original oxygen level.
+2 purges takes you to 50% of original O2.
+3 takes you to 25% ......
+5 takes you to 10% ........
+6 takes you to 4% .......
+9 takes you to 1% .......
+14 takes you to 0.1% ......
+
+
+If you use higher pressures of CO2, it helps to decrease the # purges - for
+example using 20 psi CO2 will require 3 purges to get to 10% of original
+concentration.
+
+
+I turned up this info in a recent trade publication for ChemEng if you want
+to see the easy equations.
+
+
+Chem. Eng. Prog. Feb. 2001. page 57 to 61.  author is G. Kinsley. title is
+"Properly Purge and Inert Storage Vessels".
+
+
+Thought you all might be interested.  My normal purge is about 4.  I've
+never gone higher or tried lower really.  perhaps a test especially for
+longer aging brews with using more purges.
+
+
+Pete czerpak
+albany, NY
+
+
+
+
+
+
+------------------------------
+
+
+Date: 19 Mar 2001 09:30:34 -0800
+From: Thomas A Gardner <Thomas.A.Gardner`at`kp.org>
+Subject: ideal CF chiller length?
+
+
+I am about to build a counterflow chiller.  I got the Phil's phittings and
+ figured the longer the better, right?  Then I thought about using 5/8" or
+ 3/4" copper tubing as the outer tube and curling it up, rather than garden
+ hose.  Then I saw all this info about the Super V.  Then I thought,
+ "these seem pretty efficient, maybe I should ask what's the shortest
+ I can make it?"  My winter cold water is in the 40's, the summer is ok,
+ but I don't know the exact temperature.  So what do y'all say?  Tom
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 10:37:58 -0800 (PST)
+From: Chris Topoleski <chris_topoleski`at`yahoo.com>
+Subject: Bummed about my water analysis
+
+
+The following is a readers digest version of the four
+page month by month spreadsheet I found on my
+aqueduct's website. I've noticed a slight change in my
+beers in the past year that I have filtered the water
+instead of boiling it. 
+
+
+Chloride: 20.8ppm 
+Nitrate: 2ppm 
+Nitrite: <.3ppm 
+Sulfate: 40ppm 
+Calcium: 38.5ppm 
+Copper: 18.4ppm 
+Iron: <10ppm 
+Magnesium: 9.1ppm 
+Potassium: 3.1ppm 
+Sodium: 19.5ppm (but this is only based on a month of
+12ppm and one of 27ppm. Surface water is avg of 30ppm)
+
+
+pH: 8.2 
+Alkalinity: 76.4ppm 
+Chlorine: 2.6ppm 
+Total Hardness: 135.4ppm 
+
+
+Now, as I see it, the chloride is low, the calcium is
+low, the sodium could be low, but I don't have enough
+real info, but the pH is pretty good. I figure that
+for most of my beers, the grains in the mash will take
+care of the pH. This has been confirmed by pH
+measurements. It is always between 5.3 and 5.8, but
+does change with the season.
+
+
+I filter the water as it stands right now because it
+removes the chlorine (we just switched to chloramine).
+I wonder how much stuff that I am low on already is
+further filtered out in the process.
+
+
+Any comments on what to do with this water? I usually
+brew British styles, and it does not look very good
+for that at all. 
+
+
+Thanks in advance for your help.
+ 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 15:5:48 -0500
+From: "Gustave Rappold" <grappold`at`earthlink.net>
+Subject: Stuff
+
+
+
+
+   I had the same experience with Wyeast sweet mead, I was looking for a
+little honey taste, but when it stopped at 1.030, I tasted it and
+immediately added 2 packs of champagne yeast I had sitting around.
+Definitely not an award winner, but it made it drinkable. I have had better
+success with their dry mead strain.
+   As far as local v. mail order, I try to mix it up. Both are important to
+the craft in their own way.
+   How to lager large batches? Well, I also have a dorm fridge (currently
+for yeast and hops) and a regular fridge for lagering. This is great for a
+single batch, but when I reuse the yeast, the problem becomes how do I
+maintain both primary and lagering temps for the two batches now that
+spring is here? I think I see a fridge-powered room in my future. Speaking
+of fridges (all hail FridgeGuy), I got a glass display fridge from the
+local rec center. They were getting a little tired of having to have the
+old unit recharged every month, but it ran fine so I took it off their
+hands. Can I leak test this unit? I have access to an auto shop that
+repairs car air-conditioners, is the equipment and refrigerant the same? Do
+I need to get the make and model of the fridge to answer this question?
+
+
+"By the time 
+I get all these devices and their controllers plugged in, electricity will
+be 
+so expensive I will have to resort to digging a cave. For this, I will have 
+to have a nice Spaten on hand."
+  I'm with ya, brother. Here on Long Island, our electric rates are second
+only to Hawaii.
+  Gus 
+
+
+- --- Gustave Rappold
+- --- grappold`at`earthlink.net
+- --- EarthLink: It's your Internet.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 15:13:50 -0500
+From: "Jim Hagey" <hagey`at`attglobal.net>
+Subject: Jethro Gump
+
+
+Hi all,
+
+
+Anybody seen or heard from Jethro?  He hasn't posted since before he moved
+from Ames to Des Moines.
+
+
+I know you're busy, Rob, but I'm getting ready to bottle that big bad
+barleywine from last October and a few of the bottles have your name on them
+and I can't get them to you ;o(  Or are you still living at the same place
+and commuting to the capital.  Let me know.
+
+
+Jim Hagey
+Beer and Loafing in Kalamazoo
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 14:11:04 -0600
+From: Brian Lundeen <blundeen`at`rrc.mb.ca>
+Subject: RE: Winnipeg lager
+
+
+Brew club mate Sean Richens (who has become increasingly insistent upon
+going by the name Elvira at club meetings) has a dream:
+
+
+> I set
+> myself the goal of formulating a beer from scratch with the 
+> goal of avoiding
+> any existing style.  I will call it "Winnipeg Lager" 
+> The blurb goes:  "a moderate gravity lager, with lots of Cascade hop
+> character, and a combination of German and English style maltiness".
+> Numerically, I'm aiming at 10 SRM, 31 IBU.  My target gravity 
+> is 1038, but
+> the "commercial" version would be the usual 5% ABV.
+
+
+First off, Sean, it sounds as if your style is a slightly cleaned up version
+of that overhopped abomination that is Left Coast pale ale. As if Winnipeg
+doesn't have enough nasty things associated with it (mosquitoes, 9 months of
+winter), now you would tie in our city's good name with Cascade hops? Get
+thee hence to the pit of eternal damnation (aka River City brewpub) for such
+a suggestion. If there is beer in hell, it will surely be hopped with
+Cascades.
+
+
+Now, your goal is a laudible one, but for a true Winnipeg lager, why not
+search out the wild hops that grow in our province. I'm told there are some
+along the riverbank behind our place. The native Manitoba hop has a proud
+history of commercial usage here, and I think it behooves us to resurrect
+that tradition if we hope to think of this as a truly local beer. Dominion
+Malting malts, native hops, and water straight out of the Red, as muddy as
+you can get it. Now that's a Winnipeg Lager! I'll leave the smoked goldeye
+addition to the secondary as an option for the truly adventurous.
+
+
+Cheers,
+Brian
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 10:20:41 -0600
+From: "H Stearns Laseur" <h_stearns_laseur`at`email.mobil.com>
+Subject: yeast slurries
+
+
+
+
+
+
+<From Steve Taylor, My question is to Mark Sedam who says that he keeps yeast>
+<slurries up to 4 mths, now beg my pardon but i am still learning , but Marc>
+<by slurrie do you mean that you pour off the liquid & keep the semi liquid>
+<thicker solids on the bottom & store these in your fridge in & i quote, a>
+
+
+Steve,
+I can't answer for Mark, but I just spoon a little of the sludge paste off the
+bottom of my primary fermentor and fill the original container that the yeast
+came in (if you saved it otherwise use any small container with a lid). I also
+make sure that some of the liquid fermented beer gets in the container with the
+yeast. I fill the container with about three quarters yeast and one quarter
+liquid. Then tighten the container so it is air tight, otherwise it will leak. A
+good container size usually stores about 6 teaspoons of yeast, which is enough
+to start another five gallon batch. I've kept six different yeast samples of ale
+and lager in the refrigerator at least one year with excellent results. I've
+made several five gallon batches of beer from the original yeast sample with the
+yeast stored around two to three months between pitching. As I said, the longest
+period between pitching the stored yeast was approximately one year. Just take a
+sample out of the refrigerator and pitch it in your wort. I don't worry too much
+about sanitation. I wash a container but do not disinfect it with anything. I
+figure there is enough alcohol in the sludge and beer to keep it clean for
+future use. It seems to have worked to date.
+Cheers
+Stearns
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 18:04:19 -0500
+From: "Paul Smart" <pablo`at`maine.rr.com>
+Subject: Re: Mashing Laaglander Light DME
+
+
+Hi Steven,
+I have a couple of unanswered questions:
+
+
+>Original Hypothesis - Laagalnder Light DME contains unconverted starches
+>that result in high final gravity. These starches could be converted by
+>diastatic enzimes. This high final gravity was seen with a batch of IPA
+>which had a terminal gravity of 1.020 after two months.
+>Test 1 - minimash of 1/4 cup laaglander light DME with a tablespoon of 2
+row
+>Malt. Results - Initial starch test showed positive. After mashing, the
+>starch test showed negative. This test was run twice with the same results.
+>My conclusion from these experiments is that Laaglander Light DME, which is
+>noted for having a high percentage of non-fermentable starchees, can have
+>those starches converted to fermentable sugars by mashing.
+
+
+Q:
+Did you do a starch test on just the Laaglander DME, without crushed grain
+present? I suspect you may find no starch. If this is the case, then the
+Laaglanders
+high FG is due to dextrins, not starches.
+
+
+Q:
+What was your mash temperature? I suspect you tended to the lower end
+of the temp range (152F? Lower?)
+
+
+I don't used Laaglander myself, (I used Munton&Fison in my extract days)
+but know of several people who do, that will benefit from your experiment.
+
+
+Thanks for sharing your results!
+Pablo
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 17:32:28 -0600
+From: "Paddock Wood Brewing Supplies" <orders`at`paddockwood.com>
+Subject: mail order vs. local and shipping costs
+
+
+Mike in New Orleans says, with regard to mail order vs. local:" You could
+probably beat the shipping costs on a 50 lb. bag of malt even if you had to
+drive 2 or 3 hours each way to get to a retail operation."
+
+
+I have to disagree.  2-3 hours each way in my little '87 Honda Accord is
+about 1.5 tankfuls of gas at about $35 per fill. (Excuse my rough
+calculations, I know some would prefer that I adjust for headwinds, asphalt
+conditions, the rubber wear on the tires increasing the revolutions required
+on the return trip...but I save my retentiveness for beer making.)
+
+
+I can ship a 25kg sack of malt from Saskatoon SK, (just above North Dakota,
+eh) to Halifax on the East Coast for a shipping cost of about $28.
+Unfortunately it's not much less if I want to ship it to Regina, which is
+within the 2-3 hour proposed range.  But add in the 6 hour drive and the
+gas, and it makes more sense to ship. Even if you are only 2-3 hours away.
+If you ship 4 sacks of malt, then it may be worth a  6 hour drive. And of
+course with shipping you don't get to hang out in the brewshop and talk
+beer. A brewshop is perhaps the only store more fun than a hardware store!
+
+
+Bill asks about the differences between local and mail order shops.  I can
+hardly claim an unbiased opinion here, but I agree with the general
+sentiment: support your local shops!  Provided, of course, that they support
+you: many in the US are fortunate to have brew shops that stock all-grain
+supplies. Not so here in Canada.  Most suppliers stock tins, a few extracts,
+a few have a small selection of stale specialty malt, and a few sad stale
+hops. So I have a caveat: ask your local shops for the supplies you need. If
+they cannot or will not carry them, then support a good mail-order shop.
+
+
+Apologies to HBDers who have heard it all before, but I must rant!
+
+
+<condensed rant>
+Paddock Wood started because there were no local shops catering to serious
+all-grainers. We have discovered that similar situations exist all across
+Canada.  If it weren't so, we would be out of business. We have no desire to
+compete with other cities' local shops. Homebrewers saving a few bucks
+ordering mail-order can doom their local shop.  But until such time as local
+shops in Canada carry more than kits, Paddock Wood will have a growing
+mail-order business. I get immense satisfaction at enabling someone in
+Vancouver or Halifax to brew great beer, and even more satisfaction at
+bringing the same great ingredients to far flung towns and remote villages
+like Iqaluit, Baffin Island,  NWT, or Toronto.
+
+
+I wish good supplies were to be had everywhere, but until that time, pick a
+shop, local or mail-order and work with them to get what you need. You will
+gain the biggest impact in what is available by concentrating your brewing
+dollars. Brewers that shop widely for the best deals are not always making
+the best decisions for the hobby. If your local shop stocks a malt that you
+can get cheaper by $5 a sack by mail, BUY LOCAL.  You'll spend a lot more
+than $5 if your local goes under and you need some brewing item. On the
+other hand if your local doesn't stock something that you deem essential,
+and will not stock it, move your brewing dollars until they do. If you
+simply mail-order in the one item, there is no inducement for the shop to
+change, and no inducement for the mail order outfit to continue a wide range
+of products either. Move all your business to the shop that offers the best
+service, local or not. (A shop does not live on Peat Smoked Malt alone...).
+</condensed rant>
+
+
+
+
+cheers,
+
+
+Stephen Ross -- "Vitae sine cerevisiae sugant."
+
+
+Paddock Wood Brewing Supplies, Saskatoon, SK
+orders`at`paddockwood.com  www.paddockwood.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 17:49:13 -0600
+From: Chuck Dougherty <jdougherty`at`wlj.com>
+Subject: convoluted tubing counterflow chillers
+
+
+All of this talk about counterflow chillers over the past few weeks has
+finally inspired me to upgrade from my immersion chiller.  I am interested
+in hearing what anyone has to stay about the convoluted tubing chillers, and
+wonder if anyone has any hard data comparing them to regular tubing
+chillers.  Are there any issues other than efficiency/length I should
+consider with regard to this choice?
+
+
+Also, I am planning to recycle my immersion chiller (50 foot coil of 1/2
+inch copper) as a prechiller.  (The tap water down here easily hits 80
+degrees in the summer.)  Are there any potential problems I should be
+looking out for?  Thanks in advance for your help.
+
+
+Chuck Dougherty
+Little Rock, Arkansas
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 19:15:32 -0500
+From: Don Price <dprice1`at`tampabay.rr.com>
+Subject: re: cheap apartment lager
+
+
+Try building a fermentation chiller (http://home.elp.rr.com/brewbeer).
+No match for a real fridge or freezer but cheap.  I built one a few
+months ago and just finished my first lager.  I used the Wyeast 2112
+California Lager  yeast since is is good up to 65 F which is easy to
+keep in the chiller.  A few more weeks of ageing and I'll know how it
+turned out.
+
+
+Don
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 19 Mar 2001 20:29:25 -0500
+From: "Bob Sutton" <Bob.Sutton`at`fluor.com>
+Subject: Fridge vs. GFI (Part II)
+
+
+I want to thank everyone who responded to my fridge's GFI problems... and
+its related electrical code and safety issues interpretations.
+
+
+I followed several of the troubleshooting suggestions I received. First I
+plugged a hair dryer into the troublesome outlet, and it ran fine on the
+highest settings. Then I strung up a 100-ft extension cord from a second GFI
+circuit in the master bath - and plugged in the fridge... "click"... that
+circuit broke as well. For comparison, I hooked the hairdryer up to the
+extension cord and it ran fine on the second circuit.
+
+
+>From this, the problem appears to be with my fridge.. thanks to the "Fridge
+Guy", I have some additional troubleshooting suggestions to follow once I
+get my hands on a multimeter.
+
+
+Several folks suggested I use a conventional (non-GFI) receptacle. Maybe I'm
+anal, but if two independent GFI devices each trip when I plug in the
+fridge, I get a bit nervous circumventing what seems to be a "fault" of some
+sort...
+
+
+In the meantime, my carboy is resting comfortably in the confines of our
+kitchen fridge. My loving wife has been very supportive... until I mentioned
+that lagering could require six months...
+
+
+Bob
+Fruit Fly Brewhaus
+Yesterdays Technology Today
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3585, 03/20/01
+*************************************
+-------

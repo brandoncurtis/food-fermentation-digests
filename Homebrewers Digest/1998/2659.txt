@@ -1,0 +1,1551 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA01243
+        for <spencer`at`srvr5.engin.umich.edu>; Thu, 12 Mar 1998 01:06:59 -0500 (EST)
+Received: from twins.rs.itd.umich.edu (0`at`twins.rs.itd.umich.edu [141.211.83.39])
+        by srvr20.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA28490
+        for <spencer`at`engin.umich.edu>; Thu, 12 Mar 1998 01:06:58 -0500 (EST)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with X.500 id BAA19391; Thu, 12 Mar 1998 01:06:57 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with ESMTP id BAA19371; Thu, 12 Mar 1998 01:06:53 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA29883 for realhomebrew; Thu, 12 Mar 1998 00:53:21 -0500
+Date: Thu, 12 Mar 1998 00:53:21 -0500
+Message-Id: <199803120553.AAA29883`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2659 (March 12, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2659                             Thu 12 March 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  PID problem summary / Quick wort chilling via pump ("Keith Royster")
+  Re: translation help? (Lou Heavner)
+  RE:Weyermann Malt ("Capt. Marc Battreall")
+  Re: chloramine heresies ("Bryan L. Gros")
+  Calculating color ("David Russell")
+  Stainless Steel Contamination ? (Evan Kraus)
+  crisper/cleaner filtered taste? (Ian Smith)
+  Water treatment. ("Sandlin, Jonathan Mark - BUS")
+  mellowing meads ("Bryan L. Gros")
+  Foam Insulation (Brian Pickerill)
+  Re:Cleaning Sanke Kegs (Art Beall)
+  Mash tun insulation and Nottingham yeast (Steven Gibbs)
+  Spirit of Free Beer (Juniusiii)
+  cpvc cooler manifold and propane burner wind shield (Stephen Yavorski)
+  Bottled Water Analysis (John Palmer)
+  garden hose & brewing water (RMerid7682)
+  Too much molasses (Mark Garthwaite)
+  Corny poppets (Herbert Bresler)
+  mead myth (gnelson)
+  Re: Chloramine Heresies ("Dana H. Edgell")
+  Hop organisms ("Mort O'Sullivan")
+  Sanke Cleaning (Evan Kraus)
+  Building a basement "cool" box. (Lau William WT)
+  A rolling stone gathers no wort (Steve)
+  Deficiencies in malt extract ("Dave Draper")
+  Weighty subject ("David R. Burley")
+  Fwd: Sparge Control (mwmccaw)
+  FW: "Mail Order beer" Dgofus 3/11/98 (Vachom)
+  More praise for Victory ! ("Jonathan G. Ingram")
+  Sanitizing PET bottles ("Hans E. Hansen")
+  Chloramine heresies ("Dana H. Edgell")
+  Iodine/Iodophor?? (Headduck)
+  simple aeration ("Taber, Bruce")
+
+
+
+
+
+
+Be sure to enter the 7th NYC Spring Regional Competition
+3/22/98. Surf to http://www.wp.com/hosi/companno.html for more
+information...
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 10 Mar 1998 11:24:24 +0500
+From: "Keith Royster" <keith`at`ays.net>
+Subject: PID problem summary / Quick wort chilling via pump
+
+
+>>PID problem summary<<
+
+
+Thanks to all who responded to my recent questions regarding the 
+problems with my Omega PID giving me temperature reading about 15dF 
+too high.  I now believe the problem may actually be with my 
+thermocouple, and not the PID. I also received a lot of responses 
+from people that regularly use Omega products in their work 
+environment who echoed my sentiment that they are a good company to 
+deal with and that their products are of generally good quality.
+
+
+A lot of people suggested that I may have tried to lengthen my t/c 
+wire with some other non-t/c wire, which could cause an incorrect 
+temp reading.  Others suggested that I may have my PID set to use the 
+wrong type of t/c (type-T, type-J, etc.).  Both great suggestions, 
+but they were not the cause of my problems. One responder suggested 
+that any source of electronic interference might create such an 
+effect, but I seriously doubt that was the source of my problem.
+
+
+I think I may have discovered the real problem this weekend during a
+brew session.  I have another temp probe that I bought from Superior
+Products for about $35 that also uses a t/c connected to a digital
+temp display unit.  I noticed that it was working well at the
+beginning of the brew session when I was using it to monitor the temp
+of my sparge water, but after the probe became completely submersed
+it began to conistantly read about 20dF too high.  Later that day I
+place the probe, still connected to the display, in my oven on low
+heat to dry it out and was able to watch the temp reading slowly
+return to normal.  Therefore I think my other t/c connected to my PID
+has also gotten moisture inside that is causing the same problem. (My
+theory is that the moisture is shorting a connection which gives an
+incorrect voltage reading, thus the incorrect temp reading.)  On 
+my PID t/c, there is a black rubber stopper thingy at the junction 
+of the t/c probe and its wiring, but some of the rubber has come off 
+exposing what appears to be a woody (cork?) material underneath.  I 
+am betting that moisture has entered here and is causing the same 
+problem.
+
+
+My choices now are (1) reseal the rubber stopper and continue to use
+the same probe while adjusting for the temp difference; (2) try to
+drive out the moisture using the oven again, then reseal and use; or
+(3) just buy a new t/c.  I may opt for #3 since they aren't that
+expensive ($20) and this would eleminate most of the temp errors.
+
+
+=================================================
+
+
+>>Quick wort chilling via pump<<
+
+
+Steven Jones <stjones1`at`worldnet.att.net> mentions his method of wort 
+aeration where he loosens a connection in his tubing while he pumps 
+the wort from his kettle to his carboy allowing air to get sucked in 
+(Please, let's not revive the Venturi VS Bornoulli thread =). 
+
+
+This reminded me of a new wort chilling method I did this past
+weekend.  I have a love-hate relationship with my counterflow chiller
+because I love it's effeciency over my immersion chiller, but the
+immersion chiller is so much easier to sanitize since I just have to
+drop it in the kettle during the last few minutes of the boil.  I
+also have had problems pumping my wort through my CF-chiller because
+of the extra head created by the friction losses through the
+chiller. So this past brew session I placed the immersion chiller in
+the kettle and then used the pump to recirculate the wort from the
+bottom back to the top of the kettle, being careful not to cause
+HSA.  This constant motion in the kettle improved the efficiency of
+the immersion chiller to that of my CF-chiller, thus giving me the
+best of both worlds.  It also allowed me to run my aeration stone
+and aquarium pump in the kettle (once cooled below HSA temps) before
+pumping into my carboy.
+
+
+My question is, does anyone see any potential problems with this
+method?  I know HSA is a potential problem, but I was careful to
+eliminate all air within my pump and tubing, and to gently return
+the wort to the top of the kettle.  I did notice that my wort was
+very cloudy in the carboy, which I imagine is from the break
+material being churned up during the recirculation, but I don't see
+how that should be a problem. Assuming I decide to continue using
+this method, I might have a CF-chiller for sale in the near future
+(50' 3/8"copper inside garden hose with Phil's Phittings) =) 
+
+
+
+
+Keith Royster <keith`at`ays.net> Mooresville/Charlotte, NC
+
+
+1998 U.S.Open homebrew competition April 25th
+http://www.ays.net/brewmasters/
+Download your entry packet in Acrobat format today!
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 11:02:22 -0600
+From: lheavner`at`tcmail.frco.com (Lou Heavner)
+Subject: Re: translation help?
+
+
+     
+     Laura in Charlotte asked for some help in identifying a Dutch beer.  A 
+     dutch colleague of mine offers the following translation.  I hope it 
+     was a good beer and that this is not too late.  I'm not sure it tells 
+     you much more than you already knew, but here it is...
+     
+     Cheers,
+     
+     Lou
+     
+     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+     
+     My husband brought me a Dutch beer from the Netherlands that has me 
+     stumped.
+     It doesn't have a label but is wrapped in tissue paper printed as 
+     follows:
+     
+     Met de beste wesen van Brouwerij't IJ  Amsterdam 
+     *Best wishes of brewery 't IJ  Amsterdam 
+     extra speciaal eindejaarsbier
+     *extra special year end beer
+     voorzichtig doch vastberaden uitschenken 
+     *pour careful but determined
+     inh.33 cl. cat.s alc.9 vol.%
+     *content.....
+     bier van hoge gisting
+     *beer of high fermentation (gist= yeast) 
+     ad usum internum
+     *Latin : for internal use
+     minstens houdbaar tot eind '98
+     *use before end '98
+     met nagisting op fles
+     *with secondary fermentation in the bottle
+     
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 12:05:20 -0500
+From: "Capt. Marc Battreall" <batman`at`terranova.net>
+Subject: RE:Weyermann Malt
+
+
+Eric Schoville asks about Weyermann Pilsner Malt in HDB2649:
+
+
+Does anyone have experience with this malt?  I am thinking
+about picking up a bag because it is relatively inexpensive
+compared to other German Pilsener Malts.  Any feedback will
+be greatly appreciated.
+
+
+
+
+Eric (et al),
+
+
+I have used this malt alot making German & American style lagers with
+excellent results. According to The 1997 Brewers' Market Guide lot
+analysis on that particular malt it has 4%-5% moisture content, an SRM
+of 1-2L, and a DBFG of 80%-82%. I have found these stats to be pretty
+accurate. I personally do not use it alot because I generally get my
+malt mail order in small lots of 10-20 lbs. and the best price I have
+found is around $1.10 per pound. But, when I make a "special" pilsner or
+lager, it's well worth it. I can get Klages and other domestics for
+about $.65 a pound so I buy those in bulk of 50# lots. 
+Go for it, you won't be disappointed.
+
+
+Cheers,
+
+
+Marc 
+- -- 
+Captain Marc Battreall
+Islamorada, Florida
+Future site of "The BackCountry Brewhouse"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 09:25:47 -0800
+From: "Bryan L. Gros" <gros`at`bigfoot.com>
+Subject: Re: chloramine heresies
+
+
+AJ had some interesting data on getting rid of chlorine and
+chloramine from water.  You're not the only one who thought
+that aeration and boiling would not work with chloramine.
+
+
+The question is, why did we all think that?  My water co.
+just switched last month, and all the literature included
+with my bill the last few months talked about how this
+switch would improve the taste (I didn't taste chlorine
+before) but you could no longer boil away the chlorine
+for an aquarium as you could in the past.  Same story
+we had heard here in the digest.
+
+
+So if this information is wrong and letting water sit
+overnight or boiling it will drive off chloramine, then
+I wasted $25 on a water filter for my sink.
+  - Bryan
+
+
+Bryan Gros        gros`at`bigfoot.com
+Oakland, CA
+Visit the new Draught Board homebrew website:
+http://www.dnai.com/~thor/dboard/index.htm
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 12:34:38 -0500
+From: "David Russell" <drussel3`at`ford.com>
+Subject: Calculating color
+
+
+As a follow up to the color thread, I have a question.  As I was creating a
+recipe, I went through some preliminary calculations to determine the color of
+the beer I was to produce.  Is there anything similar to the "hops utilization
+factor" that I must consider in my calculations?
+
+
+
+
+
+
+- -- 
+David Russell   drussel3`at`ford.com    Plymouth, MI
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 11:06:41 -0500
+From: Evan Kraus <ekraus`at`avana.net>
+Subject: Stainless Steel Contamination ?
+
+
+Here is my question for U Chemical Engineer's
+
+
+Does Benzene contaminate 304 Stainless to be unusable for brewing
+equipment ???
+If not how do I clean out the residue ?
+Caustic ?
+Pasivation ?
+
+
+- -------------------------------
+Evan Kraus
+EVAN KRAUS INC.
+ekraus`at`avana.net
+http://www.mindspring.com/~ekraus/
+or
+http://www.avana.net/~ekraus/
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 10:46:44 -0700 (MST)
+From: Ian Smith <rela!isrs`at`netcom.com>
+Subject: crisper/cleaner filtered taste?
+
+
+M Vachom wrote: 
+
+
+>        Filtering is unquestionably the way to get "that commercial
+>taste," as you say.  The finer the filter, the closer you get to Zima. 
+>        I'll admit upfront that I have a problem with filtering homebrew;
+>the procedure seems antithetical to my reasons for brewing at least.  I
+>would encourage you to fiddle with malt profiles, mash schedules, water
+>chemistry, yeast and hop varieties to achieve the tastes you like before
+>you try filtering.  Remember that your micro-brewer friend must make his
+>beer saleable to a wide market, including those customers who experience a
+>kind of existential terror when faced with something other than the
+>crystal clear, characterless qualities of Bud.  He wants that guy to give
+>his brew a shot and knows he can't do it by handing him a murky 70
+>IBU pint of IPA.  
+
+
+
+
+Thanks very much for your HBD response. I should have been a little more
+specific on what I meant by "crisp/clean" taste. I was not talking about
+budmilloors mega swill, to the contrary I was actually trying to emulate a
+60+ IBU IPA brewed by a local Brewery here in Boulder, Colorado. The beer
+has a great refreshing hop finish (it is heavily dry hopped) and just
+tastes "crisp" and "clean".  I followed the commercial brewers recipe
+exactly (same water, grain, hop additions, water treatment etc.) and my
+beer tastes less hoppy (bland) and does not have a crisp finish. The
+commercial brewer told me to filter my beer - this would remove many of
+the bigger molecules and hops that tend to "clog" your palette so that the
+hop flavor doesn't get through to your taste buds. I have not confirmed
+this yet and wondered if anyone out there had noticed a difference when
+filtering. I plan on using a 2 micron filter so as not to produce a "zima"
+type beer. I would welcome any advice on filter size, sanitation
+techniques and especially on where I could purchase a suitable filter. 
+
+
+
+
+Cheers 
+Ian Smith
+isrs`at`cmed.com
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 10:07:15 -0800
+From: "Sandlin, Jonathan Mark - BUS" <SANJM304`at`bus.orst.edu>
+Subject: Water treatment.
+
+
+                I am curious about correct water treatment for all grain
+brewing.  What is the correct filtering proccesses?  I here varying
+different processes here on the hbd,  wich should I listen to?  I would love
+some help on this matter, private email is Okay.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 11:02:19 -0800
+From: "Bryan L. Gros" <gros`at`bigfoot.com>
+Subject: mellowing meads
+
+
+ddunn`at`talismanospam.com (Dick Dunn) wrote:
+>Lars <skyking`at`e193.ryd.student.liu.se> responded to my opinion that mead
+>should not need long aging times to become palatable:
+>>...I
+>> can't say I'm a experienced mead maker, but when I did a mead it took
+>> quite a time to carbonate. It took even longer to mellow tastes and I
+>> would say it hasn't done that yet.
+>
+>...The need to mellow tastes is of more concern, but we'd have to dive into
+>trying to analyze the tastes before it became clear whether it's a young
+>mead taste _vs_ an off-taste.....
+>
+>The three main culprits for off-tastes that take a while to age out are
+>an inappropriate yeast, excessive nutrient, and too-high fermentation
+>temperatures.  (And yes, I've committed all of these sins myself.  I had a
+>pomegranate melomel that took over two years to be reasonably drinkable.)
+>
+I think mead fermentation shares some characteristics of high-alcohol
+beer fermentation.  Could you elaborate a bit Dick on some of your points?  
+
+
+For example, what kinds of yeast are appropriate?  Wyeast has three (I 
+think) mead yeasts available.  How are they better than beer yeasts?
+
+
+what do excessive amounts of nutrients do to the yeast?  Cause too
+much growth?  too much fermentation byproducts?
+
+
+High fermentation temps lead to higher alcohol production, right?
+Same as in barleywines fermented too warm.  I think these will somewhat
+mellow out with extended aging.  What is the mechanism?  Are they
+reduced somehow?
+
+
+And regarding melomels, I think the distinction needs to be made
+between "mellowing" and "blending".  Mellowing refers to the degree
+of the flavoring, while blending refers to the balance or mix of the
+different flavors present.
+  - Bryan
+
+
+Bryan Gros        gros`at`bigfoot.com
+Oakland, CA
+Visit the new Draught Board homebrew website:
+http://www.dnai.com/~thor/dboard/index.htm
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 14:10:21 -0600
+From: 00bkpickeril`at`bsuvc.bsu.edu (Brian Pickerill)
+Subject: Foam Insulation
+
+
+Chris Ingermann asked: (Hi Chris!)
+
+
+I bought a NEW type of expaning foam the other day that, IMHO, beats the
+hell out of the other stuff.  This is DAP-Tex or something like that, from
+DAP (no affil.) and it's WATER BASED and easy to clean up.  Also, it's
+doesn't expand as much, so it's not likely to burst your lid (or whatever).
+I am planning to use it on my new Gott.
+
+
+DAP tex is about a dollar more, but unlike the other stuff, it's a breeze
+to clean up and you can reuse it because the nozzle doesn't get hoplessly
+clogged.
+
+
+- --Brian Pickerill, Muncie Malt Mashers, Muncie IN
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 14:49:18 -0500
+From: Art Beall <bealla`at`bellhow.com>
+Subject: Re:Cleaning Sanke Kegs
+
+
+Hello HBD Folks:
+
+
+I have been using Sanke kegs for fermentation now
+for over 1 1/2 years. No cutting or holes were
+made. Just the top spear was removed. I use a
+#10.5 stopper and either a blowoff tube or a 3
+piece airlock. At first I used a lot of caustic
+and elbow grease. But during the last year I've
+developed a technique which involves PBW, Acid
+wash, IODOPHOR, and 5 carboy brushes (standard
+ones from HB shop) that are shaped differently. My
+procedure of cleaning/sanitizing :
+
+
+1) cold water/hi pressure rinse with a carboy wand
+(avail in HB shops)
+2) stopper keg. shake and roll all around. drain.
+3) hot water/hi pressure rinse
+4) repeat step 2
+5) repeat 3 and 4
+6) add PBW, 2 tablespoons, and hottest water, 1/2
+gallon
+7) stopper keg, shake and roll
+8) use brushes 1-5 (see below). Immerse brush in
+liguid in keg and swirl in appropriate place.
+9) drain
+10) repeat steps 3 and 4
+11) add dariy acid rinse. 1 tablespoon and 1/2
+gallon hot water.
+12) repeat steps 7 thru 10
+13) add iodophore and luke warm water for 5
+gallons
+14) repeat step 7
+15) allow at least 1/ 2 hour standing on each
+side. repeating step 7 a couple more times.
+16) when ready to use, drain well and let dry; or
+drain and rinse well w/ hottest water.
+
+
+Now to the brushes. Each is shaped differently.
+Terrible ASCII art follows :
+
+
+1st brush gets bottom middle (unchanged from HB
+shop):
+                                //
+                                //
+oo----------------//
+
+
+2nd brush gets bottom sides :
+
+
+                            //
+                            //
+                            //
+oo----------------//
+
+
+3rd brush gets top corner and used vertically get
+most of side wall :
+
+
+                       //////////
+                       //
+                       |
+oo-------------|
+
+
+4th brush gets bottom side wall. Brush is totally
+straightened, then bent slightly (25deg)
+
+
+                              /////
+oo--------------/////
+
+
+
+
+5th brush gets bottom corners.
+
+
+oo------------
+                     |
+                     |       //
+                     ---////
+
+
+
+
+I've had good success w/ this method, although it
+is time consuming and slightly complicated. But w/
+a 15 gallon batch though, it save time over
+cleaning three carboys or buckets each brew.
+
+
+Maybe someone out there in HBD land has a better
+idea or method. Please speak up.
+
+
+Good Brewing!
+Art Beall
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 12:19:32 -0800
+From: Steven Gibbs <gibbs`at`lightspeed.net>
+Subject: Mash tun insulation and Nottingham yeast
+
+
+There have been several posts lately regarding mash tun insulation.
+While several of the responses would appear to have very good insulating
+characteristics, because of flamability problems and the permanency with
+which the insulation is affixed, they just don't appear as a flexible
+enough approach for the homebrewer.
+
+
+I have found a way to insulate my half-barrel SS mash tun that is
+inexpensive, flexible, easily available, and quickly removable for heat
+application or cleaning. I use a type of alum. coated plastic
+bubble-wrap found in almost all home improvement or hardware stores. I
+originally went in to buy a water heater jacket but right next to those
+was this roll of open stock insulation. Buy the width that is slightly
+wider than your mash tun is tall, and get enough in length so that it
+wraps 1 1/2 times around the tun.
+
+
+Next, purchase approx. 7-8 feet of tape backed velcro. Wrap the
+insulation around your tun and cut out the appropriate openings for your
+plumbing, thermal wells, RIMS, and whatever else you have on your tun,
+and you have a mash tun that woll hold it's  temp. to within 1 degree
+over a 120 min. mash. The velcro is of course affixed to the end of the
+insulation forming a type of [ pattern. The reason for the insulation
+going all the way past the top is that if you buy large alum. pizza pan
+it will fit perfectly over the top of the tun with the insulation
+holding it fairly tightly in place. Also, the hand holds on the top of
+the keg are covered with the insulation so the tun is sealed when in
+use. Without the top I have found appreciable heat loss to occur.
+Finally, the heat loss appears to be constant from an outside temp. from
+40 to 95 degrees.
+
+
+The other question that has come up is the use of Nottingham dry yeast,
+whichI would never use for any of my ales, let alone even consider it
+for a quasi-lager. I've used Nottingham, especally when I first sterted
+brewing because I thought "wow, isn't this great my beer finished 5
+points below expected in 2 days". Then I tasted it. Even when fermenting
+it a 65-68 degrees, Nottingham makes beer, but IMHO not a very tasty
+one. The body was gone, the ester profile was wrong and it had the taste
+of many of those brew pub's beers that have been taken over by suits
+that really don't care about quality, just the turn around times on
+their house product. If you can't use slants or a starter from liquid
+yeast, at least try some hydrated Whitbread or Windsor ale yeasts.
+Further, I have found some great flavor profiles from using Kolsch yeast
+to ferment quasi-lagers at 65 degrees.
+Happy Brewing
+Steve Gibbs
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 16:27:33 EST
+From: Juniusiii <Juniusiii`at`aol.com>
+Subject: Spirit of Free Beer
+
+
+Ladies and Gentlemen, start your brew kettles!  Brewers United for Real
+Potables (BURP) will be holding the sixth annual Spirit of Free Beer homebrew
+competition on June 6-7, 1998.  Entries are due by June 1, 1998.  Entry fees
+are:  $6.00 for the first entry; $5.00 for the second entry; and $4.00 for
+each subsequent entry.  The competition will take place at the Potomac River
+Brewing Company in Chantilly, Virginia.  All Beer styles from both the AHA and
+BJCP style guidellines will be accepted, including mead and cider.  Spirit of
+Free Beer is a qualifying event for the Masters Championship of Amateur
+Brewing (MCAB).
+
+
+For further information, contact Jay Adams at adams`at`burp.org or at
+(301)869-2621. BURP's web site at www.burp.org.  Entry forms will be available
+from BURP's web site at www.burp.org in the near future.
+
+
+Cheers,
+
+
+Jay Adams
+Minister of Culture
+Brewers United for Real Potables
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 16:59:46 -0500
+From: syavorsk`at`slb.isd.csc.com (Stephen Yavorski)
+Subject: cpvc cooler manifold and propane burner wind shield
+
+
+Hello everyone,
+
+
+I'm preparing for my first all grain batch and am in the process of building
+a manifold for a 5 gal. gott cooler.  This manifold will be an octagon with a
+pipe across the center, similar to Ken Schwartz's rectangular copper manifold
+pictured on his web site.  My first questions: What are the advantages/
+disadvantages of drilling the manifold vs. cutting it with a hacksaw?  Total
+area of opening vs opening diameter?
+
+
+Next: I've seen references for single step infusion mashes with dough-in at 140
+degrees farenheit.  Why would this be done instead of just hitting the starch
+conversion temperature range of 150-158 degrees?
+
+
+Third: I have an outdoor propane burner which I plan to use.  I have seen
+mention of cutting the bottom off a metal trash can to use as a wind shield/
+heat loss preventor around the burner and the kettle.  Does this need to be
+propped off the ground to allow air in for combustion?  Should I cut holes in
+the sides of the can?  Should the can be flush with the sides of the kettle?
+Anyone have experience with this?
+
+
+These are the questions which I haven't been able to answer through the
+archives.  Any help is greatly appreciated.  TIA.
+
+
+Steve Yavorski
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 14:51:50 -0800
+From: John Palmer <jjpalmer`at`gte.net>
+Subject: Bottled Water Analysis
+
+
+Hi Group,
+FYI, I contacted the makers of Sparklett's bottled water here in
+Pasadena.  They also market bottled water under the names Alhambra and
+Crystal out west here.
+
+
+The typical mineral analysis of these bottled waters is:
+Bicarbonate (HCO3)   5.8 ppm
+Calcium                         0.7 ppm
+Magnesium                  0.8 ppm
+Sulfate (SO4)                3.4 ppm
+Total Hardness            5.1 ppm
+Alkalinity                      4.0 ppm
+pH =               6.8 - 7.2
+
+
+For the sake of comparison, the mineral numbers from Pilsen are
+HCO3                             3 ppm
+Calcium                         10 ppm
+Mg                                 3 ppm
+Sulfate                           4 ppm
+
+
+ Perhaps AJ or Kenny can take a stab at salt additions to make the two
+equate.  If you merely added CaCl2 to increase the calcium to 10 ppm
+would that be enough, or would you have to double it to 20 ppm to
+account for the bicarbonate (bottled) being nearly double of that for
+Pilsen?
+
+
+Grist for the mill,
+John
+
+
+jjpalmer`at`gte.net
+http://www.realbeer.com/jjpalmer/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 17:49:06 EST
+From: RMerid7682 <RMerid7682`at`aol.com>
+Subject: garden hose & brewing water
+
+
+Hi all
+     
+     Kevin TenBrink asked about using a garden hose as water supply line for
+outdoor brewing. I don't know what a regular garden hose will do to the taste
+of your beer. There is an option if you don't want to take chances. Go to an
+RV dealer and buy a hose. They sell garden hoses rated for drinking water.
+It's been several years since I owned an RV so I can't guesstimate prices but
+I remember them being more expensive than regular garden hoses.
+
+
+Roger Meridith
+Decatur IL
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 17:43:09 -0600 (CST)
+From: Mark Garthwaite <mgarth`at`primate.wisc.edu>
+Subject: Too much molasses
+
+
+
+
+        With regard to adding too much molasses to a batch of beer, I had
+the exact same thing happen to me once.  I also accidently used a FULL cup
+of it in a 5 gallon partial mash Oatmeal Stout.  It didn't quite turn out
+as I had hoped.  (That's putting it mildly)  I brewed it in September of
+95 and every month I'd open a bottle and hope it would mellow out.  I wish
+I could describe what it tasted like but the best I can do is call it a
+bit of a cidery molasses taste with oatmeal stout undertones.  I think it
+would have been quite good had I not dumped in the molasses.  Anyway...I
+moved out of that apartment in August of 96 and there was a slight
+mellowing by that time but still not up to standards.  I was going to just
+dump it when a roommate that was not moving out said, "Just leave it here
+and I'll give it more time."  Okay, less for me to move.
+
+
+        Not more than a week ago I ran into that old roommate and he said
+that there was still some of that beer sitting there.  I had completely
+forgotten about it.  He said that it had improved quite a bit and another
+friend said so as well!!  I was intrigued.  I'm sorry to say that I have
+yet to go back to claim any of it but in the interest of brewing science,
+I owe it to you to go back and investigate.  I don't know whether you are
+willing to let something sit for 2 and a half years but I'll let you know
+whether it was worth it.
+
+
+ -Mark Garthwaite
+ Madison, WI
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 19:20:04 -0500
+From: Herbert Bresler <bresler.7`at`osu.edu>
+Subject: Corny poppets
+
+
+Originally, a problem posed by "Gregg Soh" <greggos`at`hotmail.com>
+<snip>
+>Corny poppets, I can't seem to get them out without them
+>deforming because they "clip" to a rim beyond the threads of the
+>ball-locks. Driving them out is like pushing againts a "barb". I end
+>up using pliers...
+
+
+===>  I stumbled upon an easy, sure-fire way to remove the most stubborn
+poppets from the ball-lock:  Remove the ball-lock from the keg and then
+attach its mate - the tap or the gas line.  The spring loaded pin pushes on
+the poppet perfectly (after all they were meant for each other) and the
+poppet pops right out without risk of damaging either the poppet or the
+ball-lock.  The only additional force I've ever had to apply is to tap the
+open end of the ball-lock on a towel or the palm of my hand.
+
+
+Good luck and good brewing,
+Herb
+bresler.7`at`osu.edu
+Columbus, Ohio
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 20:08:30 -0700
+From: gnelson <gnelson`at`coffey.com>
+Subject: mead myth
+
+
+I am curious about the recent postings concernign mead, and the time it
+takes for them to mature. looking back through my records, it has taken
+up to 16 months for my meads to finish fermenting and to drop bright and
+clear; most take around a year, some dry meads take only up to 6
+months.  All of them improve greatly with aging and maturation, up to 12
+months in the bottle. I really wonder at recipes that call for a 1 to 3
+month fermentation; are my fermentation and maturation times out of line
+or unusual? I have had made several good to great batches of mead, but
+with only 4 years experience making mead, I have to confess to being a
+newby.
+
+
+Jerry Nelson
+gnelson`at`coffey.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Mar 1998 19:14:08 -0800
+From: "Dana H. Edgell" <edgell`at`quantum-net.com>
+Subject: Re: Chloramine Heresies
+
+
+
+
+AJ mentions several herecies about how chloramines are actually easier to
+remove than chlorine.
+
+
+I don't know about the last 2 herecies but I always wondered about the
+first one that boiling removes chloramine. A few years ago, Dave Miller in
+BT stated this exact heresy in one of his Troubleshooter columns (sorry I
+don't have the issue number at work). I beleive he said boiling converts
+chloramines into free chlorine. He also discussed how lowering the pH can
+convert chloramines into free chlorine at non boiling temperatures.
+
+
+Dana Edgell
+
+
+- ------------------------------------------------------------------
+Dana Edgell                   edgell`at`quantum-net.com
+3101 Cowley Way #176          http://www.quantum-net.com/edge_ale
+San Diego, CA 92117           (619) 276-7644
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 11:51:16 -0000
+From: "Mort O'Sullivan" <tarwater`at`brew-master.com>
+Subject: Hop organisms
+
+
+In my post yesterday I wrote:
+>The major growth inhibiting organisms derived from hops have been
+>identified as trans-humulone and related (-)-humulone and colupulone
+>compounds
+
+
+That should have been "growth inhibiting compounds"
+
+
+- ----------------
+Cheers,
+Mort O'Sullivan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 07:00:17 -0500
+From: Evan Kraus <ekraus`at`avana.net>
+Subject: Sanke Cleaning
+
+
+The Sanke dip tube retaining ring can be replaced by a SS Snap Ring.
+All you have to have is a snap ring pliers (no more than $5).
+The only other issue is finding the SS snap rings.
+Several years ago I found a vendor that sold them.
+I will check my notes and see if he can be found.
+I clean mine by removing the dip tube then inverting the keg over a
+piece of 1/2" copper
+capped with a 1/4' hole in the top and horizontal slots cut in the sides
+of the pipe just below
+the cap.. The fluid moving device is an inexpensive submersible pump
+(Flow Tech).
+At first all the screws either rusted or turned black. I replaced them
+all with SS
+screws. I use either of the following to clean the kegs.
+Caustic Soda, Chlorinated Caustic Soda or PBW. An occasional Phosphoric
+Acid wash is also used.
+The Chlorinated works best. Its tough to get if your not affiliated with
+a Brewery or
+Chemical distributor. Final sanitation is also accomplished with the
+pump using either
+an Iodine based sanitizer or Parasitic Acid. All the while the dip tube
+is soaking  first in the Caustic and then the sanitizer. Final assembly
+and then the fill.
+I also use some other tricks but it takes about 1/2 hour for each, with
+my labor about 10 min.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 08:16:12 -0500
+From: Lau William WT <william.lau`at`phwilm.zeneca.com>
+Subject: Building a basement "cool" box.
+
+
+I need some advice from lurking physicists, mech. engineers,
+refrigeration experts, etc.  I was thinking of building a "cool" box in
+my basement.  I have access to a unlimited supply of polystyrene sheets
+for insulation.  My theory is:  If I build a super-insulated (say 4-6
+inches of polystyrene for the walls and ceiling) and sealed box that sit
+directly on my concrete basement floor, the interior temperature of the
+box will reach equilibrium with the temperature of the concrete floor
+(ranges between 55 - 60 oF).   Essentially I will use the concrete floor
+as the cooling unit.   Does this sound realistic?  Do I need to
+recirculate the air inside the box?  What are your thoughts?
+
+
+E-mail OK.
+
+
+Bill Lau
+
+
+Bill
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 08:08:40 -0600 (CST)
+From: Steve <JOHNSONS`at`uansv5.Vanderbilt.Edu>
+Subject: A rolling stone gathers no wort
+
+
+In HBD #2658, Dana Edgell asks about anyone having a summary regarding the
+past thread on steinbeers.  I don't have a summary, but can tell you that
+Chuck Skypeck, the brewmaster at Boscos in Nashville, TN, goes all the way to
+Colorado to get red granite to brew his Flaming Stone.  He usually uses the
+rocks in the bottom of his kettle as he is bringing the first runnings in.
+These rocks have been in the wood fired pizza ovens for most of the evening
+the day before he brews, are left in the oven, then the ovens are fired up
+again first thing in the early AM when Chuck arrives.  The rocks are then
+transferred into the wort in a large stainless basket that Chuck has to lower
+with a long climbing rope and harness through the opening of the kettle.  No
+small feat, as all of the rocks and stuff probably weigh over 100 pounds.
+Most of the rocks are chunks that weigh 10 to 15 pounds each, and do crack
+on occasion, but they hold together pretty well from one batch to the next.
+I think he brews this beer about once a month, but don't quote me on that, and
+replenishes his rock supply each fall when he goes out to GABF in Denver.
+Around here, most of our rock is either sandstone or other sedimentary rock
+that can't hold up to those kinds of temperatures.
+
+
+Steve Johnson, President
+Music City Brewers
+Nashville, TN
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 08:07:45 -6
+From: "Dave Draper" <ddraper`at`utdallas.edu>
+Subject: Deficiencies in malt extract
+
+
+Dear Friends,
+
+
+In #2658, Mark Swenson asks whether it's true that malt extracts are 
+protein deficient.  The big problem with many extracts is their low 
+contents of free amino nitrogen (FAN), due in many cases to their 
+being produced with substantial non-malt-derived sugars.  For the 
+full story on this, one should read Martin Lodahl's summary of some 
+Canadian brewing research that was in Brewing Techniques a couple of 
+years ago.  Fortunately this article is archived at the BT site, and 
+can be accessed at:
+
+
+http://brewingtechniques.com/library/backissues/issue1.2/lodahl.html
+
+
+Things might have changed some since this was written; anyone know
+of any updates?
+
+
+Hope this helps,
+
+
+Dave in Dallas
+- ---
+*****************************************************************************
+   Dave Draper, Dept Geosciences, U. Texas at Dallas, Richardson TX 75083
+   ddraper`at`utdallas.edu (commercial email unwelcome) WWW: hbd.org/~ddraper
+                 Beer page: http://hbd.org/~ddraper/beer.html
+I am speaking from a materials perspective... ---John Palmer
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 09:41:45 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Weighty subject
+
+
+Brewsters:
+
+
+Been out of town and very busy, so my comments are a little behind.
+
+
+AlK says:
+
+
+>Dave writes:
+>>Well, I have a Ph.D. in Physical Chemistry, if that's any help.
+
+
+>It does help explain why so many people argue with you ;^)!
+
+
+Actually, I hadn't noticed anyone arguing with me just people
+expressing different opinions which is their right. It's up to the
+readers to ask questions and decide who to believe.
+
+
+AlK then describes his experience with a  card playing
+(I never had time for that!) Master's Candidate Physical Chemist
+
+
+> One day we were discussing the
+>important subject of the flexibility of phonograph records and
+>she said "the vinyl records these days are so flexible, you couldn't
+>hold one edge and support a 2 kilogram mass on the opposite edge."
+
+
+>Now, how many of you (in the US) would have said "kilogram"
+and how
+>many of you in (the English speaking world!) would have (correctly)
+>said "mass?!"
+
+
+Actually she was incorrect as "mass" refers to an inertial
+characteristic.  She should have said "a force equivalent to
+a kilogram mass in a gravity field equivalent to that at the
+surface of the earth" or more succinctly  "a kilogram
+*weight*", since a kilogram mass in a zero gravity situation
+would not bend the record unless it was being accelerated.I
+ have noticed several such transgression on this subject of
+late here in the HBD, but decided to not comment until now.
+Don't argue with me - check your physics books. Besides
+if she had really been speaking English she would have
+incorrectly said "0.06854 slugs"  {8^)
+- ---------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  
+
+
+Voice e-mail OK 
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 08:59:02 -0600 (CST)
+From: mwmccaw`at`ix.netcom.com
+Subject: Fwd: Sparge Control
+
+
+Dana Edgell asks about using a swamp cooler float valve for sparge
+control.  I don't know about the valves in swamp coolers, but there
+are commonly available float valves for watering troughs, etc, that
+work just fine.
+A plumbing supply shop should have a supply of bronze float valves
+in various sizes for about ten bucks.  Another six or seven dollars
+will get you a brass threaded rod and a copper float ball.  I have
+used this setup to control sparge water addition for several 
+batches now.  I used the copper ball because I was concerned that
+the standard polyethylene one might melt or soften at mash-out 
+temperature.
+I attached some tubing to the outlet of the valve, and coil the 
+tubing on top of the grain bed.  It wraps about 3/4 of the way 
+around the mash tun (converted keg), so the sparge water flows 
+inward in a spiral pattern.
+This gives much less heat loss than with the former sparge sprinkler
+device I was previously using, and the water level maintains itself
+within about 3/8 of an inch without any valve fussing.  I love it!
+The only drawback is that you can't put a lid over the mash tun to
+keep in the heat.  I'm working on a coupling to allow me to use a
+truly vertical float, so I can use a lid with a single small hole 
+in it.  The ideal approach would probably be a low voltage 
+electrical contact (eg two wires) at the liquid level and a 
+low-voltage solenoid valve to control the water, but I havn't found
+a cheap solenoid valve that can handle up to boiling water....
+
+
+Mike McCaw
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 09:04:12 -0600
+From: Vachom <MVachow`at`newman.k12.la.us>
+Subject: FW: "Mail Order beer" Dgofus 3/11/98
+
+
+
+
+
+
+>----------
+>From:         Vachom
+>Sent:         Wednesday, March 11, 1998 8:36 AM
+>To:         'post`at`hbd.org'
+>Subject:         "Mail Order beer" Dgofus 3/11/98
+>
+>        The Winter 1997 Zymurgy magazine contains a critical piece on beer of
+>the month clubs.  The degree to which the subscriber can choose and how
+>wide his choices are were central criteria in their evaluations.  While
+>reading the descriptions of some of the clubs, it seemed to me that if
+>you live in proximity to a really good liquor/wine/beer store (i.e. if
+>you lived in a largish city with a substantial affluent community) you
+>could do just as well by shopping their occasionally.  The person to
+>whom I could imagine any of the clubs being appealing is the homebrewer
+>or beer aficianado who lives in the sticks and simply doesn't have
+>access to a wide variety of beers. The best clubs for any subscriber
+>had selections from breweries that are just too small, can't afford or
+>aren't interested in distributing nationally and therefore would never
+>show up in the swanky liquor store no matter how good its beer
+>selection. Can you ask for particular beers?  That is, can you send
+>them a list each month of the beers you want and have them go out and
+>fetch them?  Negative.  They send you a list and you choose, although I
+>suspect some of the clubs might take suggestions for future lists. 
+>Check out the Zymurgy article.
+>
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 11:58:12 -0500
+From: "Jonathan G. Ingram" <jgi105`at`psu.edu>
+Subject: More praise for Victory !
+
+
+I am home for break, and last night I finally made it out to the Victory
+brewery, for all those who can drive there I strongly recommend it. One of
+the coolest pub/restaurants I have ever been to, great atmosphere, great
+music, friendly staff, and great prices also. Tuesday nights turned out to
+be Pint Night, lucky me. So for 3.00 you got a pint of Dopplebock and you
+got to keep the pint glass (which is really cool looking BTW) and after
+that refills were only 2.00. Definetly a great deal. As for the Dopplebock
+itself. This is a beer that will sneak up on you and knock you on your ass.
+I think it was about 8% ABV. They did a great job of making sure the
+alcohol content didn't overwhelm the taste of the beer. You can also get
+their 6packs and cases at the brewery. 6packs are around 7.00 and cases
+were around 24.00. For those who don't know Victory is not just a brewpub,
+it is a working micro-brewery with a restaurant attached. 
+        Slainte! -Jon
+
+
+Jonathan Ingram - jgi105`at`psu.edu - http://www.personal.psu.edu/jgi105
+We Are Penn State!
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 09:41:46 -0500
+From: "Hans E. Hansen" <hansh`at`teleport.com>
+Subject: Sanitizing PET bottles
+
+
+I'm so excited! This is my first attempt at a HBD post.
+
+
+After drinking a brew, I used to squirt a weak bleach solution into
+the (glass) bottle and seal it with foil to give me a head start on
+bottle washing for the next batch.  Now the question: Is this a good
+idea for PET bottles?  I am concerned with the bleach being absorbed
+into the plastic.  What about iodophor?  Any other ideas?
+
+
+Thanks,
+Hans E. Hansen
+hansh`at`teleport.com
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 11:43:47 -0800
+From: "Dana H. Edgell" <edgell`at`quantum-net.com>
+Subject: Chloramine heresies
+
+
+
+
+HBD,
+
+
+I found the reference from Dave Miller supporting the chloramine heresies.
+It is not BT but Zymurgy Vol. 12, No. 2, p. 32. Summer 1989. Almost a
+decade ago!
+
+
+Dana Edgell
+
+
+- ------------------------------------------------------------------
+Dana Edgell                   edgell`at`quantum-net.com
+3101 Cowley Way #176          http://www.quantum-net.com/edge_ale
+San Diego, CA 92117           (619) 276-7644
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 15:19:38 EST
+From: Headduck <Headduck`at`aol.com>
+Subject: Iodine/Iodophor??
+
+
+Collective,
+I have purchased a farm product called "Gentle Iodine" hoping to save a few
+bucks on sanitizer.  I am not sure if I should be using this or not.  The MSDS
+sheet lists the principle hazardous component as iodine at a concentration of
+1%.  There is no indication of what the solvent is.  There is no mention of
+Lanolin.  The reason I am not sure about using it is that it has a very strong
+odor.  Much like rubbing alcohol.  If it had methyl alcohol in it wouldn't
+this be listed on the MSDS sheet?  Is the odor just very strong ethyl alcohol?
+I would sure like to use this product, but obviously do not want to risk
+spoiling beer.  What do you say, wise, experienced ones?  Should I use it as a
+sanitizer or should I just save it for future pig and sheep castrations??
+
+
+Thanks In Advance,
+
+
+Joe Yoder
+Treasurer
+Lawrence Brewer's Guild
+check out our website:  http://www.cjnetworks.com/%7Ekpb3
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 Mar 1998 15:41:51 -0500
+From: "Taber, Bruce" <Bruce.Taber`at`nrc.ca>
+Subject: simple aeration
+
+
+Hi all,
+        Lots of talk lately about wort aeration and sanitizing airstones.  
+        I use the holes-in-the-hose method and it works great.  I have
+simply drilled small (5/64) holes right through my siphon hose.  You can
+watch the air being drawn in in tiny streams of bubbles that mix well with
+the wort.  I get a great head on the wort during the transfer.  This is
+simple, inexpensive, and easy to sanitize.
+        I know that this is not new and has been mentioned before, but it
+works so well that I can't believe the amount of work that some people go to
+to achieve aeration.
+        Keeping it simple but tasty in Almonte, Ontario, Canada,
+
+
+                                                Bruce Taber
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2659, 03/12/98
+*************************************
+-------

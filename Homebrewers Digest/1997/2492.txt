@@ -1,0 +1,1436 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr7.engin.umich.edu (root`at`srvr7.engin.umich.edu [141.212.2.69])
+        by srvr5.engin.umich.edu (8.8.5/8.8.5) with ESMTP id AAA17668
+        for <spencer`at`srvr5.engin.umich.edu>; Tue, 26 Aug 1997 00:42:57 -0400 (EDT)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+          by srvr7.engin.umich.edu (8.8.7/8.8.4) with ESMTP
+          id AAA24891 for <spencer`at`engin.umich.edu>; Tue, 26 Aug 1997 00:42:56 -0400 (EDT)
+Received: (from root`at`localhost)
+        by redheat.rs.itd.umich.edu (8.8.5/2.2) with X.500 id AAA29280; Tue, 26 Aug 1997 00:42:57 -0400 (EDT)
+Received: from brew.oeonline.com (root`at`brew.oeonline.com [206.31.224.50])
+        by redheat.rs.itd.umich.edu (8.8.5/2.2) with ESMTP id AAA29262; Tue, 26 Aug 1997 00:42:54 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA27084 for realhomebrew; Tue, 26 Aug 1997 00:13:24 -0400
+Date: Tue, 26 Aug 1997 00:13:24 -0400
+Message-Id: <199708260413.AAA27084`at`brew.oeonline.com>
+To: homebrew`at`brew.oeonline.com
+From: homebrew-request`at`brew.oeonline.com (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2492 (August 26, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2492                             Tue 26 August 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Carbonic/Bicarbonate/Carbonate - Part 2 of 4 (A. J. deLange)
+  Yeastlab Bavarian Hyrdogen sulphite odor (JONATHAN BOVARD)
+  Sparge water considerations for GOTT coolers (JONATHAN BOVARD)
+  Need some help to resolve a Homer..... (m.r.p.)
+  Re: entry fee for commercially run HB contests ("Mark S. Johnston")
+  STRIKE WATER TEMP. (Lau William WT)
+  Amaranth, Buckwheat, and Oat Malt (David Johnson)
+  Re: chili from Chile ("Ted Major")
+  CHILE BEER (crablesc)
+  Wyeast Bavarian Lager problems ("C&S Peterson")
+  122 Thread/Decoction results/Filtering at room temperature ("C&S Peterson")
+  No-Sparge Gravity Prediction (KennyEddy)
+  Beer and oxalates (Edward J. Basgall)
+  Keg holes / first runnings (Dave Williams)
+  Chili from Chile (Kit Anderson)
+  7-gallon mash tun (Chris Cooper)
+  re: CP Bottle Filler Alternative (LaBorde, Ronald)
+  Looking for a cask (Jay Reeves)
+  Carbonic/Bicarbonate/Carbonate - Part 3 of 4 (A. J. deLange)
+  Carbonic/Bicarbonate/Carbonate - Part 4 of 4 (A. J. deLange)
+  All grain rests (Matthew Arnold)
+  CP filling ("Bryan L. Gros")
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to homebrew`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to homebrew-request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`realbeer.com
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        hbd.org        /pub/hbd        
+        ftp.stanford.edu        /pub/clubs/homebrew/beer
+  E-mail...
+        ftpmail`at`gatekeeper.dec.com (send a one-line e-mail message with 
+                                   the word help for instructions.)
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 21 Aug 1997 16:53:20 -0500
+From: ajdel`at`mindspring.com (A. J. deLange)
+Subject: Carbonic/Bicarbonate/Carbonate - Part 2 of 4
+
+
+Part II
+
+
+The key to solving  problems like these are the ratios
+
+
+         r1i = [HCO3-]/[H2CO3] = 10^(pHi - pK1)
+and
+         r2i = [HCO3-]/[CO3--] = 10^(pHi - pK2)
+
+
+A little 'p' before a symbol means "take the negative log to the base 10
+of". Thus pK1 is minus the log of K1. K1 is the first dissociation constant
+of carbonic acid (actually it combines the constants which describe the
+equilibrium between CO2 and H2CO3 and H3CO3 and HCO3-) and K2 is the
+second. At 25 C pK1 = 6.38 and pK2 = 10.33. The i represents a particular
+situation i.e. pHi means the pH under the circumstances we have labeled
+situation i.
+
+
+Now define di as
+
+
+         di =  1 + r1i + r1i*r2i
+
+
+If Ct millimoles (mM) of chalk are dissolved in a liter of water with
+equilibrium pH given by pHi the fraction which will have converted to
+carbonic is 1/di, the fraction which will have converted to bicarbonate
+will be r1i/di and the fraction which remaions carbonate is r1i*r2i/di.
+Thus
+
+
+         xt = Ct/di
+         yt = Ct*r1i/di
+and
+         zt = Ct*r1i*r2i/di
+
+
+represent the mM/L of, respectively, carbonic, bicarbonate and carbonate
+WHICH CAME FROM THE DISSOLVED CHALK AND NO OTHER SOURCE. Each mole which
+converts to carbonic requires 2 H+ ions and each which converts to
+bicarbonate requires 1. Thus the total requirement for H+ in this case is
+
+
+         [H+]req = 2*xt + yt = Ct*(2 + r1i)/di
+
+
+in units of mM/L or, as the charge on a hydrogen ion is 1, the value in
+milliequivalents (mEq/L) is the same.
+
+
+An example might help. If you dissolve 100 mg/L chalk using enough acid to
+get the pH to 8.00 (at 25C) you would have Ct = (100 mg)/(100 mg/mMole)  =
+1 mM/L (the molecular weight of chalk is 100). At this pH r1i = 41.6869383,
+r2 = 0.00467735, d= 42.8819228 and the fractions are 2.331985% of the total
+for carbonic (molecular weight 44), 97.213314% for bicarbonate (molecular
+weight: 61) i.e. 0.98 mMole/L or 59.8 mg/L, and 0.454701% for carbonate
+(molecular weight: 60). Thus the mole fractions and actual weights are as
+given in the following table which includes the H+ requirement:
+                                                                        Req'd
+        Species         Mole Fraction   mM/L    Molecular Wt    mg/L
+H+(mEq/L)
+
+
+        Carbonic          .0233         .0233        44         1.03      .047
+        Bicarbonate       .9721         .9721        61        59.30     0.972
+        Carbonate         .0045         .0045        60         0.27        0
+
+
+Thus we require 1.02 mEq/L of acid to do the job. If we used, as we
+suggested earlier, sulfuric acid we would add not only 1.02 mEq/L of H+ but
+also 1.02 mEq/L of sulfate by adding 1.02 mL of 1 N acid to each L of the
+water being treated. As the equivalent weight of sulfate is about 48 we
+would have 48.9 mg/L sulfate. The total water compisition would then be 40
+mg/L Ca++, 1.02 mg/L CaCO3, 59.30 mg/L HCO3-, 0.27 mg/K CO3-- and 48.9 mg/L
+sulfate.
+
+
+Now if the H+ comes from carbonic we need to analyze the bottom portion of
+the system diagram. Assume that Cc mM/L carbonic gas dissolves (the
+subscript c is a reminder that these moles come from carboniC as opposed to
+the Ct moles which come from carbonaTe). At pHi the amounts of each of the
+three species from DISSOLVED CARBONIC GAS ONLY are
+
+
+         xc = Cc/di
+         yc = Cc*r1i/di
+and
+         zc = Cc*r1i*r2i/di
+
+
+i.e. they are in exactly the same relative proportions as the species from
+the chalk. In going from carbonic to carbonate 2 H+ ions are released for
+each carbonate formed from the gas and 1 H+ is released for each
+bicarbonate formed from it. Thus the total H+ released is
+
+
+      [H+]rel = yc + 2zc = Cc*(r1i +2r1i*r2i)/di
+
+
+At equilibrium it is clear that the ions released must equal the ions
+consumed so that
+
+
+        Ct*(2 + r1i)/di = Cc*(r1i +2r1i*r2i)/di
+
+
+which is easily solved for Cc as
+
+
+          Cc = Ct*(2 + r1i)/(r1i + 2r1i*r2i)
+
+
+Once we have Cc then xc, yc and zc are obtained from the 3 formulas just above.
+Returning to the example problem we find that Cc = 1.038 mM/L of carbonic
+gas would be required to dissolve the 100 mg/L chalk and get the pH to
+8.00. most of this carbonic would convert but 0.0242 wouldn't so the total
+carbonic would be the sum of this plus the .023 from the 100 mg/L of chalk
+for a total of .0475 mM/L or 2.09 mg/L. Most of the carbonic, 1.009 mM/L
+winds up as bicarbonate for a total of 1.981 mM/L bicarbonate or 120.87
+mg/L and 0.004721 mM/L makes it all the way to carbonate which, when added
+to the residual carbonate from the chalk makes a total of 0.009268 mM/L or
+0.556 mg/L.
+
+
+- -- Continued --
+
+
+Numquam in dubio, saepe in errore.
+
+
+Remove NOSPAM to reply.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 11:14:47 +1000 (EST)
+From: JONATHAN BOVARD <j.bovard`at`student.qut.edu.au>
+Subject: Yeastlab Bavarian Hyrdogen sulphite odor
+
+
+
+
+Has anyone used the Bavarian Yeastlab before, my brew reeks quite badly of
+rotten eggs (although other Lager yeasts I have used do promote the same
+odor).
+
+
+Cheers
+Jon bovard
+Brisbane, Australia
+
+
+" Beer...more than just a breakfast drink!"
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 11:20:46 +1000 (EST)
+From: JONATHAN BOVARD <j.bovard`at`student.qut.edu.au>
+Subject: Sparge water considerations for GOTT coolers
+
+
+
+
+Since I mash in a GOTT cooler I never believed it critical to mash out, in
+the hope that sparge water will bring the temp of grain bed up for me.
+
+
+It seems apparent from HBD postings that it is the temperature of the
+grain bed, not the sparge water that is important.
+Does anyone have any ideas how much sparging with a 150f mash bed affects
+yield??
+
+
+What then should the temperature of my sparge water be to raise ht egrain
+bed from 65C(150f) to 77C(170f). Im currently using a Phils sparge arm
+attatched to a Plastic fermenter with an electric element in it. sO
+temperature raising isnt a problem.
+
+
+Any advice from those with GOTTS on any mashing aspect appreciated!!!!
+
+
+Cheers
+
+
+Jon Bovard
+Brisbane, Australia
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Aug 1997 21:13:33 -0500 (CDT)
+From: m.r.p.`at`ix.netcom.com
+Subject: Need some help to resolve a Homer.....
+
+
+Last night I was moving my latest Weize from the primary to the secondary.  
+I had just bought some new airlocks and stoppers.  Well, as you can imagine 
+when I put the airlock on, the stopper went too far in (Like all the way).  
+I could have left it, but being perfect <G> caused me to pull back to at 
+least seal it.  Well, now I had a airlock in one hand and a stopper in the 
+neck.  So while I tried to put the airlock back in the stopper it fell into 
+the carboy and sank (With Mr. Murphy laughing his head off).  No major 
+problem, I just stuck a blow-off hose on and the other end into the bucket 
+of bleach/water.  Now the questions I have are:
+
+
+Has anyone else done this before? (I'm sure I did not buy the only stopper 
+not of the correct size in the world).
+
+
+If so, did the rubber stopper change the beer in any matter (I myself don't 
+like Weize much, but the misses does, and I don't think she will like it 
+much if it tastes like a condom <G>.
+
+
+And finally, when I bottle, how can I get the bloody thing out of the 
+carboy?
+
+
+Thanks in advance for the help.
+
+
+Mike
+
+
+
+
+
+
+They kneel down, praise God, shout allelujah,
+lift up their eyes when they pray.
+When children kill children don't it make them wonder?
+Don't it make them question their faith?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Aug 1997 20:12:47 -0400
+From: "Mark S. Johnston" <msjohnst`at`talon.net>
+Subject: Re: entry fee for commercially run HB contests
+
+
+Dave Brigham writes:
+
+
+>        I'm used to club run contests, and paying less than $10 per 
+>        entry.  You'd think these folks would be able to cut an even 
+>        better entry fee since they can provide the venue (very large 
+>        stores).
+        
+>        Does anyone else have experience with contests run by 
+>        retailers/beer associated businesses?  If so, does the 
+>        advertising for this contest sound all that unusual?
+
+
+
+
+A bar in my area (Reading, PA) sponsored a competition to find a recipe
+for their "house" beer. First prize was $1000, Second was $300, and third
+was $200. There was no entry fee. However, the "rules" were a bit flaky.
+
+
+The only guideline was that this was to be a beer that would appeal to 60%
+of the beer drinking public. (AB is the largest brewery in the US, and all
+of their brands combine account for only 48% of the beer sold in the US.
+If I could meet these style guidelines, you better add a few more zeros to
+that prize amount.)
+
+
+The beer was to be judged by a tasting panel consisting of everyone from
+"beer experts" to the average beer drinker.
+
+
+They got about 2 dozen entries.  They postponed the judging for about 2
+weeks, then apparently awarded the prizes. No word on the beer being found
+on tap, though.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 08:17:19 -0400
+From: Lau William WT <william.lau`at`phwilm.zeneca.com>
+Subject: STRIKE WATER TEMP.
+
+
+I've been mashing for a while now and one of the little nuisances I run
+into is the temperature of the strike water needing to be adjusted for
+the temperature of the grain (i.e. grains are colder in the winter than
+in the summer as stored in my basement).  Does anyone have a calculation
+for the temp. of strike water to achieve a particular mash temp. that
+accounts for the grain temp.?
+
+
+No e-mail please.  Thanks,
+Bill - Glassboro, NJ
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 06:33:48 -0700
+From: David Johnson <dmjalj`at`inwave.com>
+Subject: Amaranth, Buckwheat, and Oat Malt
+
+
+Brewers,
+         I was reading through Brewing Techniques recent "Market Guide" 
+and looking at the suppliers list of products and noticed several items 
+that I thought were interesting. I wondered if anyone here had experience 
+with thes products, how they were used, how it showed up in their beer, 
+and where I might get some.
+        Grain Millers Mentions several unusual grains such as 
+pre-gelatinized amaranth and buckwheat. How do these work in beer and in 
+what amounts? The also mention malted oats. Would this have enough 
+enzymes for mashing? Maybe one could make an "oat-crystal" using Ken's 
+method.
+        Gilbertson and Page mention "brown toast" and "toffee toast". Has 
+anyone any experience with these grains?
+        I was wondering if there is anywhere I can get these products. I 
+am also interested in getting grain from Malteries Franco-Belges. Some of 
+Michael Jackson's writings suggests that at least some of Chimay's grain 
+comes from them.
+        Dave
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 09:30:07 -0400
+From: "Ted Major"<tmajor`at`exrhub.exr.com>
+Subject: Re: chili from Chile
+
+
+
+
+
+
+
+
+
+
+Loren Crow writes the Chile is a country and that chili is a spice.
+English, however,
+is much less standard than most of us like to think (and than our English
+teachers tried
+to teach us that it is), and so chile, chili, and chilli are all acceptable
+ spellings for "the pungent fruit of any of
+several cultivated varieties of capsicum."  The spelling "chile" is popular
+ in the southwestern US as it is the Spanish spelling,
+which is derived from the original Nahuatl (an Uto-Aztecan language whose
+name in Spanish means "that which pleases the
+ear".
+
+
+(We linguists don't always have much to contribute here professionally, so
+forgive me for straying somewhat from the normal brewing topics.  In
+penance I'll do a no-sparge IPA this weekend and see how Ken Schwartz's
+spreadsheet predicts OG for my setup.)
+
+
+Ted Major
+tmajor`at`english.uga.edu
+Athens, Georgia
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 10:13:20 -0400 (EDT)
+From: crablesc`at`email.uc.edu
+Subject: CHILE BEER
+
+
+In HBD #2490 Loren Crow writes: 
+
+
+"Chile is a country. A chili is a spice. I suppose one could brew in Chile, 
+for Chile, or near Chile (or, for that matter, *with* Chileans), but it 
+would be completely impossible to get Chile into a carboy!"
+
+
+I agree Loren. However, there is a way to add the "essence of Chile" to your 
+beer.  You take a 20 year old Chevy Monte Carlo and pipe the exhaust 
+directly into your carboy. MMMMMMMMMMM!
+
+
+Scott
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 97 14:22:23 UT
+From: "C&S Peterson" <CNS_PETERSON`at`classic.msn.com>
+Subject: Wyeast Bavarian Lager problems
+
+
+HBDers -
+
+
+I read some of the recent problems that folks were having with the Wyeast 
+Bavarian strain.  This is one of my favorites and I brew with it often.  
+
+
+I too had trouble getting this yeast to finish.  I ended up warming the beer 
+up to not-so-healthy lager temps to get the beer to finish.  This added some 
+unwanted fermentation flavors to the beer, which cleaned up nicely when the 
+beer was lagered at 30-35F for a few weeks.  But I was unable to attain this 
+kind of lagering temperature in my garage this winter so this years beers did 
+not clean up so well.  So next season I plan to keep it cold.  
+
+
+I don't know if I simply am not pitching enough yeast or if CO2 toxicitiy is 
+to blame (warming would drive out some of the dissolved CO2, no?), but I am 
+inclinded to think that maybe this strain is sensitive to CO2 levels.  Yeast 
+gurus have any thoughts here?
+
+
+The other procedure that has helped sustain the ferment is canning a quart or 
+so of the last bit of kettle runnoffs, refrigerating, and then decanting off 
+the sediment when you rack to the secondary.  This is essentially like kicking 
+in a traditional charge of wort/yeast just prior to secondary fermentation, as 
+described in Noonan's Brewing Lager Beer, but has the advantage of using the 
+trub laden last kettle runnings which I used to discard. 
+
+
+Chas Peterson
+Laytonsville, Md
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 97 14:13:12 UT
+From: "C&S Peterson" <CNS_PETERSON`at`classic.msn.com>
+Subject: 122 Thread/Decoction results/Filtering at room temperature
+
+
+HBDers -
+
+
+I noticed that the old "should I rest at 122 or not" thread is back.  This was 
+a popular discussion last fall/winter, and I incorporated some of the thoughts 
+exchanged here into my brewing schedule over the winter and now have had time 
+to evaluate the results.
+
+
+Here my first hand experience, FWIW:
+
+
+I have found that for the malts I get today, even when combined with flaked 
+grains, the 122 rest is very detrimental to heading properties and body.  I 
+used the 122 rest in an Octoberfest, Doppel, and 100% wheat beer.   The only 
+beer where the heading was marginally OK, was the Doppel, and that's because 
+(IMHO) of the high dextrine content and the fact that I did not take the main 
+mash through the 122 rest (it started as an infusion at 135F; the first 
+decoction started at 122).  Interestingly, the 100% wheat beer, which you 
+would expect to have great heading properties, did not.    I suspect that it 
+was the 122 rest of both the rest an decoction mash that did it.  I plan to 
+replicate this recipe in the fall, and will see if skipping the 122 rest makes 
+any difference. 
+
+
+During the thread last fall, I outlined a decoction procedure that involved 
+splitting the mash before mash in, resting the decoction mash overnight (6 to 
+8 hours) at 125-95 for an extended protien rest and acid rest.  The advantage 
+here was to lower the Ph and save a bit of time for the mash procedure.   
+Several HBDers criticized this procedure, and I promised to read-out the 
+results.   I perfomed this on an Oktoberfest and Doppel.  While I felt the 
+procedure helped a bit in the mash process, and that some of the lactic acid 
+note developed in the mash carried quite nicely through (particularly in the 
+Oktoberfest -- the slightest hint of tang in the background countered the 
+munich sweetness nicely; in the doppel, the munich sweeness overwhemed almost 
+any other flavor...).  I found these flavors favorable, and while the beers 
+scored in the mid-20s in the 97 NHC (a dissappointing result IMHO) the only 
+fault attributed to the mashing procedure was that the beers were a bit thin.
+
+
+I would not do a decoction this way again simply for the purpose of avoiding 
+anything like a 122 rest.  My plan going forward is to have a very brief rest 
+at 135-140 and go straight to the main saccrification temp.  Despite the 
+theory, I just know that when this plan was used later in my brewing season I 
+got much better body and heading results.  And I did not have any haze or 
+run-off problems.
+
+
+As far as the HBDer looking to filter `at`1 micron at room temperature, I would 
+strongly urge you to chill the beer first, if possible.  I filtered several 
+beers just slightly chilled at 0.5 microns last year and ended up with one of 
+the hazest beers in memory.
+
+
+Chas Peterson
+Laytonsville, Md
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 11:28:01 -0400 (EDT)
+From: KennyEddy`at`aol.com
+Subject: No-Sparge Gravity Prediction
+
+
+Charles Burns asks:
+
+
+"Here's a grain bill for a barley wine I'm thinking about for this coming
+weekend:
+
+
+  1.00        lb.        Cara-Pils Dextrine       
+  2.00        lb.        Cara-Vienne              
+  1.00        lb.        Light Dry Malt Extract   
+  2.00        lb.        Munich Light             
+  0.50        lb.        Oats                     
+  8.00        lb.        Pale Ale                 
+  0.25        lb.        Roast Barley             
+  0.75        lb.        Wheat                    
+
+
+My plan is to take only the first runnings and make only 2.5 to 3 gallons of
+finished beer. Question is, how do I predict the gravity of first runnings?"
+
+
+Predicitng OG for no-sparge and batch-sparge recipes is not much different
+than for "normal" recipes, you just need to think about how much sugar you're
+getting into how much volume of water.
+
+
+First, collect potential extract (100%-efficient) figures for each grain.
+ Multiply each by the weight of that grain.  Your extraction efficiency then
+tells you what portion of this potential you're actually getting into
+solution.  If you work with "total points" instead of specific gravity, it's
+easy.  Think of total points as directly related to *amount* of sugar, rather
+than concentration as SG represents.
+
+
+For your grain bill, using figures from the 1995 Zymurgy Special Issue
+("Great Grain Issue"), we have potential extracts of:
+
+
+  1.00        lb.        Cara-Pils Dextrine       `at`33 pt = 33
+  2.00        lb.        Cara-Vienne              `at`34 pt = 68   (Belgian)
+  1.00        lb.        Light Dry Malt Extract   `at`42 pt = 42
+  2.00        lb.        Munich Light             `at`33 pt = 66   (American)
+  0.50        lb.        Oats                     `at`33 pt = 17
+  8.00        lb.        Pale Ale                 `at`38 pt = 304  (British)
+  0.25        lb.        Roast Barley             `at`29 pt = 7    (British)
+  0.75        lb.        Wheat                    `at`38 pt = 29   (American)
+
+
+Add this up and you get 566 potential points (not counting the extract --
+that gets added to the boiler after mashing & draining).  Now, multiply by
+75% to account for your efficiency and you have 425 points.
+
+
+The idea now is to divide the *total points* by the *total volume* to get
+specific gravity.  Your total points (i.e., total sugar) stays fixed; the
+more volume you have (via sparging or straight dilution, for example), the
+lower your SG, but it's the same *amount* of sugar.  Say you mash in with
+1.25 qt/lb, you should have a volume (including that which will eventually be
+absorbed by the grain) of 1.25*19 lb or 5.94 gallons mash water.
+
+
+So your expected gravity is (566 * 75%) / 5.94 = 71 pt --> 1.071 SG
+
+
+The additional 1 lb extract adds 42 / 5.94 = 7 points for a grand total of
+1.078 SG.
+
+
+As for the absorbed wort, your estimate of 1 pint (1/8 gallon) per pound is
+pretty close, so you should yield about 5.94 gal - (19lb*1/8 gal/lb) = 3.6
+gallons `at` 1.078.
+
+
+Your gravity should be somewhat higher than this for a barleywine, perhaps
+1.100 or more.  Say you need another roughly 30 points (therefore 40 points
+potential); add another six pounds of pale ale malt, or 5-1/2 lb extract.
+ Work through the calculations again to verify.
+
+
+*****
+
+
+Ken Schwartz
+El Paso, TX
+KennyEddy`at`aol.com
+http://members.aol.com/kennyeddy
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 12:01:03 -0500
+From: ejb11`at`psu.edu (Edward J. Basgall)
+Subject: Beer and oxalates
+
+
+Hello collective,
+I was so intrigued by the recent oxalates, uric acid, kidney stones, gout
+threads in the HBD #2485 (John Penn), and HBD #2488 (Steve Alexander) that
+I forwarded the snips to a researcher in the field and colleague of mine at
+Bowman-Gray School of Medicine.  Our corresponce follows....
+
+
+cheers
+Ed Basgall
+SCUM trustee
+State College Underground Maltsters
+
+
+>Hi Ross (kidney stone sage),
+>I ran across this on the Home Brew Digest regarding a discussion of the
+>NIH recommendation to >avoid beer if you are prone to kidney stones.  So
+>now what?  Low purine beer?
+>ed
+
+
+>**************************************
+>Date: Thu, 14 Aug 1997 13:57:42 +0000
+>From: Steve Alexander <steve-alexander`at`worldnet.att.net>
+>Subject: Kidney Stones, Gout and Stout - pt1
+>
+>Bob Sutton asks about kidney stones and beer...
+>.....monster snip....
+
+
+>Date: Thu, 21 Aug 1997 13:40:42 -0400 (EDT)
+>To: edb`at`chem.psu.edu
+>From: Ross Holmes <rholmes`at`bgsm.edu>
+>Subject: Beer
+
+
+>Dearest Ed:
+ >       That question certainly falls in my small sphere of knowledge.
+>Beer, it is true, may be harmful to stone formers or those pre-disposed to
+>form stones because of its oxalate content.  This oxalate content is likely
+>to outweigh its risk due to its purine content.  Seeds in general are a rich
+>source of oxalate which is important for their germination. Barley is no
+>exception, although it has less oxalate than wheat.  Stout is around 10
+>mg/100 ml, so there are 30 odd mg in a bottle.  Domestic beers may be about
+>half. I am in the middle of finalizing a good method for oxalate
+>determination. With this method we answer more extensively the oxalate
+>content of beer and other essential foods.
+ >       Not all calcium oxalate stone formers need avoid oxalate and beer
+>would not be a problem as they absorb very little oxalate from the diet.
+>The others who could potentially have a problem because they absorb more
+>oxalate from their diet, should be wary.  Not a great deal is known about
+>how well oxalate in beer can be absorbed.  The content of calcium, magnesium
+>and other ions could affect how available it is for absorption.  Transit
+>time through the small intestine is another factor to consider and perhaps
+>beer is less harmful when consumed on an empty stomach rather than with
+>food, as it may pass thru quicker. There are lots of unknowns and you, or
+>perhaps the potential stone formers of the world, should be grateful that
+>Uncle Sam is giving me funds to answer these very important questions.
+>       That's it in a barley kernel.  Regards,  Ross
+
+
+At 02:21 PM 8/21/97 -0500, ed wrote:
+>Ross,
+>Thanks for the informative update.  It reinforces my desire to brew and
+>drink more cider.
+>Perhaps the molecular biologists can design oxalte reduced barley and
+>wheat.  Do you mind if I post your oxalate reply to the concerned
+>Homebrewers?
+>ed
+>
+>That's OK. If anyone has questions give them my E-mail address. Maybe I can
+>charge a bottle of home brew for any advice.  ross
+>Ross Holmes <rholmes`at`bgsm.edu>
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 12:20:00 -0400
+From: rdavis`at`gator.net (Dave Williams)
+Subject: Keg holes / first runnings
+
+
+Greetings beerlings...
+
+
+ Andrew Stavrolakis <andrew_stavrolakis`at`harvard.edu> in HBD 2490 asked:
+
+
+"What would be the best way to drill a 1.25" hole in the side of a stainless
+steel 1/4 keg?  This in order to convert keg to an electric boiler w/
+submerged heating elements a la Ken Schwartz's "plastic electric brewery"
+(sans plastic)."
+
+
+Ken reccomends using a hole saw and this will work on your keg provided that
+you get the bi-metal type.    The hole saw and arbor are usually sold
+separately (you need both) and can be found at most hadware stores or home
+improvement warehouses.  Sainless is pretty hard so be sure that you get the
+bi-metal type rather than one made for cutting wood.  you will noticeably
+dull even a bi-metal hole saw cutting a single hole in your keg.  
+
+
+Ken uses the "screw in" type element and (if I'm interpreting his
+description correctly) pinches the bucket wall between the gasketed element
+and a female threaded adapter to provide a leak proof seal.  I would be
+concerned that due to the curvature and relative inflexibility of the keg
+wall, this might not work as well with a keg.  I'm just speculating though
+because I haven't tried it.  Anyone else?   
+
+
+In my 1/2bbl keg HLT I used a  "bolt on" type heating element which has a
+square  flange with  5/16" (I think) holes at each corner.   With the flange
+type, you just drill the center hole, insert the element, mark, drill and
+tap the four bolt holes, and bolt it on with SS bolts wrapped in teflon tape.  
+
+
+Also, with the flange type element, you can drill a similar pattern of holes
+(but larger diameters) in the back of an electrical junction box ( I used a
+4"x4"x1.5" box), mount it over the outside of the element with the same
+bolts passing through the J-box and the element into the keg,  and use it to
+enclose the wiring, ground the element, and mount a switch.  I have used
+this arrangement on my HLT and my plastic barrel mash tun with no leaks and
+good results.  
+
+
+Since I'm not an electrician, and don't play one on TV, be sure to check
+your local codes before playing with electricity.  At a bare minimum make
+sure that you have an equipment ground and use ground fault protected
+outlets when brewing. 
+
+
+******************************
+
+
+ Also in HBD2490, cburns`at`egusd.k12.ca.us (Charles Burns) intends to brew a
+barleywine using only first runnings:
+<snip>
+"My plan is to take only the first runnings and make only 2.5 to 3 gallons
+of finished beer."
+<snip>
+" I'll end up with about 3 gallons of first runnings by just
+draining the mash tun. Any idea what the SG will be? I'll add 2 gallons of
+water which'll boil off in 90 minutes to leave me with about 3gallons."
+<snip>
+
+
+My question, Charles:  If you're going to boil off the 2 gallons of water
+anyway, why not use it to get a little better extraction rate by running it
+through the grain bed before it goes into the brewpot?  Is there a flavor
+advantage (ie. George Fix's yummy malt flavor) which justifies the
+extraction loss?  If so, why not run some sparge water through the grains
+and collect the wort to (pressure) can for yeast starters?  You may notice
+that I'm a little obsessive about extraction efficiency.  To me, malt sugars
+are sacred things that should not be fed to the hogs along with the spent
+grains :-).  Good luck with your S.G. estimate.  Sorry I can't help there.  
+
+
+Dave Williams 
+
+
+
+
+Whiskey's too rough
+Champagne cost too much
+And vodka puts my mouth in gear
+
+
+This little refrain should help me explain
+As a matter of fact , I like beer
+           -Tom T. Hall-
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 10:07:23 -0700
+From: Kit Anderson <kitridge`at`bigfoot.com>
+Subject: Chili from Chile
+
+
+> Sorry to be a total droid, but this has been grating on me for several
+> weeks. Chile is a country. A chili is a spice. I suppose one could brew in
+> Chile, for Chile, or near Chile (or, for that matter, *with* Chileans), but
+> it would be completely impossible to get Chile into a carboy!
+> 
+> Cheers!
+> Loren
+
+
+The only thing worse than a total droid is a total droid who is wrong. 
+Chile is;
+1)A country
+2)the fruit of the chile plant, e.g. jalapeno, etc.
+
+
+Chili is;
+1) a stew made with meat and chiles
+
+
+Of course, you can also have chili powder (ground chiles and other
+spices) and chile powder(ground chiles).
+
+
+Don't believe me? Go the the Chile Heads' Page
+http://neptune.netimages.com/~chile/
+
+
+- -- 
+Kit Anderson                                ICQ# 2242257
+Bath, Maine                                Greetings From Northeast Texas
+<kitridge`at`bigfoot.com>                http://web0.tiac.net/users/garhow/kit/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 12:26:48 -0400
+From: Chris Cooper <ccooper`at`a2607cc.msr.hp.com>
+Subject: 7-gallon mash tun  
+
+
+Hi all!
+
+
+In #2490 Ken Schwartz mentioned a 7-gallon gott style cooler he saw at
+his local Home Depot store, I just bought one last week ($20) at my local
+store in Novi Michigan, it is made by Gott/Coleman, is Highway Dept. orange
+and has the Home Depot name and logo on it. I had the store associate call
+the manufacture (there was an 800 number on the data sheet) and they 
+verified that it was suitable for hot liquids, they said that it would
+handle 180^F coffee (must be brewed by McDonalds!).  To my delight
+when I got home and started setting it up as a mash tun I found that the
+valve simply screwed out and left a silicon gasket on the inside, I found
+a brass bulkhead fitting at my local hardware store that fit the hole 
+perfectly, I added a plastic/teflon ball valve on a short 3/8" copper 
+extension on the out side and a  5" long tubular SS-screen on a 3/8"
+copper tube on the inside (my local homebrew store sells the screens
+for $10.00) and drilled a small hole in the center of the lid through
+which I inserted a dial thermometer with a long probe, the 7-gallon
+cooler is fairly short and wide and the thermometer ends up with
+the probe almost smack dab in the middle of the mash when the lid
+is in place (my local homebrew shop sells the long probe thermometer
+for around $10).  I used this setup for the first time last wednesday
+and it worked like a charm, my grain bill was #11 and there was enough
+room to do a 3 step infusion and a mashout, the cooler would porbably
+hold 15-18 pounds of grain. The tubular screen and 3/8" pipe and ball
+valve worked great and the wort ran clear after only 1/2 gallon of 
+recirculation.  This setup replaced a plastic bucket with perferated
+plastic disc in the bottom and is an improvement !  The cooler held
+my final mash temperature (158^F) for 60 minutes on my kitchen counter 
+with virually no loss of heat, in the past I keep my mash in a pot
+in my oven to maintain the temperature, while effective it meant scooping
+the mash from the pot to the plastic bucket, this is a much improved 
+system!
+
+
+This all-grain stuff just keeps getting better and better, I think half
+the fun is in developing your own equipment and methods, the other half
+in the end results!  Next I tackle the keg based cooker, I've got the kegs
+(legally aquired), the burners, everything is cut and drilled and all that is
+left is a day with the welder!  
+
+
+The garden has hops cones! Life is good!
+
+
+
+
+Chris Cooper , Commerce Michigan    --> Pine Haven Brewery <--
+Chris_Cooper`at`hp.com                 --> aka. Deb's Kitchen <--
+ 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 11:39:49 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: re: CP Bottle Filler Alternative
+
+
+From: Mark T A Nesdoly <mtn290`at`mail.usask.ca>
+
+
+ ...To the CP bottle filler owners:  How much more do you have to
+carbonate a
+beer when filling it?  i.e. the beer will lose some carbonation in the
+time
+it takes to extract the CP bottle filler and cap the bottle.  How much
+higher do you have to carbonate the beer to hit your target carbonation
+level?  For instance, if I was bottling an IPA, and was shooting for 1.6
+volumes of CO2 in the bottle, would I have to carbonate to, say, 1.8
+volumes, then remove the cap with the valve stem, and quickly cap the
+bottle?...
+
+
+Mark, you sound like you are on the right track, getting the full
+kegging setup and all.  When you walk into the land of CP bottle
+filling, it seems like a land of OZ, full of wonderment and opinion.  I
+am sure you will get many answers and a lot of advice all different.  So
+here is mine:
+
+
+When I started, I also made up some tire valve caps (The manager at
+Western Auto gave me three valve stems when I said the magic word
+HOMEBREW, but alas Western Auto has left  the New Orleans area).  Funny
+thing, I never really used them much because I subsequently found a much
+better method.
+
+
+>From talking with others, I found out that you can get the beer cold in
+the keg (35F or so),  and carbonate with C02.  I will use about 20psig.
+Then when the carbonation has been absorbed into the beer,  just use the
+poor man's CP filler - a one foot long piece of tubing shoved into the
+beer tap.  Work's great for me and I get all the carbonation I could
+ever want.  I cap immediately after filling - the few seconds it takes
+while the beer foams over the top purges any air out.  The secret is to
+reduce the pressure in the keg to about 4 or 5 psig when you start to
+fill.  This reduces foaming to a very minute amount.
+
+
+It is my opinion and just that, that the fancy valve operated CP fillers
+is just something to sell and people will buy anything, but you just do
+not need it.
+
+
+Ron
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 10:16:09
+From: Jay Reeves <jay`at`or.com>
+Subject: Looking for a cask
+
+
+Does anyone happen to know where I could obtain
+either a new or used British pin (4.5 US gal)?
+
+
+UK Supplies in PA only carries Firkins and says
+the pins are no longer made and used ones are
+rare.
+
+
+                        -Jay Reeves
+                        Huntsville, Alabama
+                                
+NOTE: Any replies need to manually change
+the "or" in the "reply to" field to "ro"
+ - sorry, but blame the spamers for that!
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 14:29:29 -0500
+From: ajdel`at`mindspring.com (A. J. deLange)
+Subject: Carbonic/Bicarbonate/Carbonate - Part 3 of 4
+
+
+Part III
+
+
+When Dana wrote:
+
+
+>Every  molecule of CaCO3 produces one CO3
+>carbonate ion which then is converted into 2 bicarbonate ions.
+
+
+he was very close to being right when the pH is reasonable and established
+by dissolved CO2 alone. The following table shows the number of molecules
+of bicarbonate resulting from each molecule of dissolved CaCO3 when the
+acid is carbonic:
+
+
+                pH   Molecules Bicarbonate
+                     from Each Calcium Carbonate
+                6       1.9998
+                7       1.9981
+                8       1.9814
+                9       1.8289
+               10       1.0333
+
+
+
+
+Now to address Dana's specific concerns:
+
+
+>Now water analysis usually gives the carbonates in ppm as CaCO3 which
+>needs to be multiplied by 0.6 to calculate the ppm CO3.
+
+
+The "ppm as CaCO3" number is simply the number of milliquivalents(of
+whatever) per liter multiplied by 50. Thus we divide ppm as CaCO3 by 50 to
+get mEq/L which is what we really need and what I wish they would use
+because I think it would eliminate a lot of confusion. The problem is that
+while carbonate and bicarbonate have approximately equal molecular weights
+(60 and 61, repectively) their equivalent weights differ by a factor of two
+as bicarbonate carries a single negative charge while carbonate carries a
+double negative charge. Thus 1 mEq/L bicarbonate (50 ppm as CaCO3) is 61
+mg/L but 1 mEq/L carbonate is 30 mg/L. To get around this problem water
+analysis reports usually give the carbonate content in terms of the
+alkalinity (which is usually specified in ppm as CaCO3 but may be in
+mEq/L). The amounts of the carbonic, bicarbonate and carbonic species can
+then be obtained unambiguously. To do this:
+
+
+1. Compute r1i = 10^(pHi - pK1) and r2i = 10^(pH - pK2)
+
+
+where pHi is the pH of the sample, pK1 = 6.38 and pK2 = 10.33 (at 25 C).
+
+
+2. Compute r1a = 10^(pHa - pK1) and r2a = 10^(pH - pK2)
+
+
+where pHa = 4.3 is the pH which defines the end point of the alkalinity
+titration (alkalinity in ppm as CaCO3 is 50 times the number of mEq of acid
+required to lower the pH of 1 liter of the test sample to pHa).
+
+
+3. Compute di = (1 + r1i + r1i*r2i) and da = (1 + r1a + r1a*r2a)
+
+
+4. Compute C =
+      (  alk - 10^(pH - 11) )/( (1/da) - (1/di) + (r1i*r2i/di) - (r1a*r2a/da)  )
+
+
+where alk is the alkalinity in mEq/L i.e. the alkalinity, in ppm as CaCO3,
+divided by 50. C is sum of the sample's concentrations of the three species
+in mM/L.
+
+
+Now     [H2CO3] = C/di.
+        [HCO3-] = C*r1i/di.
+        [CO3--] = C*r1i*r2i/di
+
+
+
+
+are the mM/L per liter of the individual species. Multiply by the
+molecular weights (respectively, 44,66 and 60) for the mg/l or multiply
+carbonic and carbonate by 100 and bicarbonate by 50 for mg/L as CaCO3.
+
+
+Dana's particular questions:
+
+
+>My 1st question is: When calculating the HCO3 ppm from a water analysis
+>or from chalk addition do I need to roughly double the CO3-- ppm?
+>(actually multiply by 122/60)
+>i.e. 1 gm of chalk in 1 litre of water gives
+>1000 ppm(mg/l) chalk = 600 ppm CO3 = 1220 ppm HCO3 (=20 mval HCO3)
+
+
+When given an alkalinity number and a pH in an analysis use the algorithm
+given above. It will usually  (7 < pH < 9.7 )turn out that the bicarbonate
+number is close to the alkalinity number if they are both expressed in mg/L
+as CaCO3 or as mEq/L. To approximate bicarbonate mg/L divide the
+alakalinity in ppm as CaCO3 by 50 and multiply by 61.
+
+
+When chalk in dissolved in a synthesis we have shown that the amount of
+bicarbonate depends on where the acid comes from. The following table gives
+the amounts of bicarbonate in solution at various values of pH from 100
+mg/L dissolved CaCO3. The "From Chalk" column indicates how much comes from
+the CaCO3 itself. It is the amount that would be found if no CO2 were used
+(i.e. the acid is hydrochloric, sulfuric, lactic...). The "From CO2" column
+indicates how much extra bicarbonate is added if only sparged CO2 is used
+to dissolve the chalk and reach the pH. The total is the sum of the two and
+represents the amount of bicarb to be found if the only acid source is CO2
+
+
+                    Bicarbonate from 100 mg/L Dissolved CaCO3
+
+
+                From             From
+        pH      Chalk            CO2            Total
+
+
+        6       17.94 mg/L      104.05 mg/L     121.99  mg/L
+        7       49.18            72.17          121.89
+        8       59.30            61.57          120.87
+        9       58.14            53.42          115.56
+       10       41.55            21.47           63.03
+
+
+- -- Continued --
+
+
+Numquam in dubio, saepe in errore.
+
+
+Remove NOSPAM to reply.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 14:29:43 -0500
+From: ajdel`at`mindspring.com (A. J. deLange)
+Subject: Carbonic/Bicarbonate/Carbonate - Part 4 of 4
+
+
+Part IV
+
+
+Dana'a second particular question:
+
+
+>My 2nd question is: What ion are people talking about when they report ppm
+>in the literature?
+
+
+>Half of the literature I have talks about CO3-- ppm and half HCO3- ppm
+>For example an article by Greg Noonan (Beer & Brewing Vol 11) says that
+>London water has 125 ppm HCO3- while a brewing techniques (Vol 1 #3)
+>article says it is 125 ppm CO3-. These obviously are taking the number
+>from the same source but which ion is really correct?
+
+
+>My personal guess right now is that the water analysis numbers are for
+>carbonate and not bicarbonate (even though bicarbonate is the ion actually
+>present in the water) This would be because they are traditionally measured
+>by the dry weight precipitated out of water by evaporation or
+>chemical treatment. This solid residue would be CaCO3.
+
+
+
+
+Descriptions of brewing water for famous brewing centers in textbooks and
+magazine articles tend to give the carbonate values as mg/L bicarbonate or
+mg/L carbonate without any distinction whatsoever and I have never seen a
+pH value given. This is woefully inadequate for anyone trying to do water
+synthesis. Now things in nature (precipitation of chalk one hand and escape
+of CO2 to the air on the other) consipire to force the pH of water with any
+appreciable carbonate content to stay near 8.4. i.e. the dissolved salts
+form a buffer system.  Given this most of the ions will be  bicarbonate (at
+least 80% between pH 7 qnd 9.7. I have always supposed, therfore, that the
+numbers in these tables are  bicarbonate in mg/L. To interpret them as
+carbonate values would require huge attendant amounts of bicarbonate and/or
+unreasonably high pH.
+
+
+If one interprets the numbers  as bicarbonate  most of the ion profiles one
+sees in books and magazines are impossible in the sense that if one totes
+up all the charges on the ions in 1 L of the water and calculates the pH
+required for electrical neutrality the answer is usually a pH of 11 or
+greater. There are certainly exceptions to this (profiles that balance at
+reasonable pH) but in the majority of cases the reported values are
+inconsistent. The inconsistency is always on the side of insufficient
+cations. One can, therefore, "fix" the profiles by adding more cation and
+bicarbonate is a cation. It would seem, thus, that bicarbonate is often
+grossly understated. The bottom line is that the ion profiles seen in books
+and magazines should be "taken with a grain of salt". I don't think there
+is any consistency between authors in what is reported in the carbonate or
+bicarbonate column and I don't think most authors understand the
+distinction.  Who knows the provenance of these profiles? They have
+certainly been around for a long time in some cases.
+
+
+The situation would be much simplified if pH and alkalinity were given
+rather than a bicarbonate or carbonate number with no pH information.
+
+
+
+
+
+
+Numquam in dubio, saepe in errore.
+
+
+Remove NOSPAM to reply.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 19:41:48 GMT
+From: mra`at`skyfry.com (Matthew Arnold)
+Subject: All grain rests
+
+
+Dearest collective,
+
+
+As my IPA sits merrily in the secondary absorbing the wonderful goodness of an
+ounce and a half of Willamette hops, my thoughts naturally turned to Fall and
+the colder weather that accompanies it. That means it's time to get ready to
+brew my Altbier again!
+
+
+I do a small partial mash, using two pounds of DeWolf-Cosyns Munich malt. I
+used the mash schedule suggested in NCJoHB, resting for a half hour at both
+113-122F and 150-155F and then mashing out at 170F. Am I wasting my time with
+the first rest? Is Belgian or German Munich malt modified enough to do a
+one-step infusion in the 150-155F ballpark? Would I be better off with a rest
+at 140F and then one at 150-155F?
+
+
+Inquiring minds want to know!
+  Matt
+
+
+P.S. This information will also come in handy because I have been considering
+doing small all-grain and mead "test batches" to see how I like it.
+
+
+------------------------------
+
+
+Date: Fri, 22 Aug 1997 13:04:25 -0700
+From: "Bryan L. Gros" <gros`at`bigfoot.com>
+Subject: CP filling
+
+
+Mark <mtn290`at`mail.usask.ca>writes:
+>To the CP bottle filler owners:  How much more do you have to carbonate a
+>beer when filling it?  i.e. the beer will lose some carbonation in the time
+>it takes to extract the CP bottle filler and cap the bottle.  How much
+>higher do you have to carbonate the beer to hit your target carbonation
+>level?  For instance, if I was bottling an IPA, and was shooting for 1.6
+>volumes of CO2 in the bottle, would I have to carbonate to, say, 1.8
+>volumes, then remove the cap with the valve stem, and quickly cap the bottle?
+>
+In theory, you shouldn't have to increase the carbonation at all when you
+fill the bottles.  The whole idea of CP filling is to keep all that
+carbonation in the bottle.  
+I'll admit that in practice, things never work as well as in theory, but if
+done right, I think the carbonation loss when filling is barely noticeable.  
+
+
+The best way is to chill the beer to very cold, chill the bottles, and you
+get no foaming in the bottle and well carbonated beer.  Subjectively, the
+same in the bottle as the keg.
+
+
+I don't measure volumes, I just go by what tastes right, so maybe others
+will give you more quantitative answers.
+
+
+          - Bryan
+            gros`at`bigfoot.com
+            Oakland, CA
+
+
+------------------------------
+End of HOMEBREW Digest #2492, 08/26/97
+*************************************
+-------

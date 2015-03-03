@@ -1,0 +1,545 @@
+﻿Subject: Cider Digest #1287, 31 December 2005
+From: cider-request@talisman.com
+
+
+
+
+Cider Digest #1287                                         31 December 2005
+
+
+                 Forum for Discussion of Cider Issues
+                      Dick Dunn, Digest Janitor
+
+
+Contents:
+  Re: press construction question (Bill)
+  Re: Press Construction (Claude Jolicoeur)
+  Re: using honey in bottle fermentation (Benjamin Watson)
+  apple brandy ("Howard, John")
+  Re: using honey in bottle fermentation (Tim Bray)
+  Re: 2005 Glows Competition (dubious entries?) (Dick Dunn)
+  RE: Cider Digest #1286, 22 December 2005 ("Mike Beck")
+  Re: Cider brandy (michael arighi)
+  RE: Press Construction ("chris horn")
+  Re: past articles (Benjamin Watson)
+  Re:  Harrison scionwood question ("John C. Campbell III")
+  cider brandy in Australia (warwick)
+
+
+Send ONLY articles for the digest to cider@talisman.com.
+Use cider-request@talisman.com for subscribe/unsubscribe/admin requests.
+    When subscribing, please include your name and a good address in the
+    message body unless you're sure your mailer generates them.
+Archives of the Digest are available at www.talisman.com/cider
+----------------------------------------------------------------------
+
+
+Subject: Re: press construction question
+From: Bill <squeeze@mars.ark.com>
+Date: Thu, 22 Dec 2005 22:40:29 -0800
+
+
+Dave - 20" racks are pretty big for a bottle jack, but I'd advise 
+getting the biggest you can find - as you say, you don't have to use all 
+the pressure available if your framework starts complaining - I think 
+you meant you'll use 4 cheeses per load? more layers, made thinner works 
+best, and you *must* use good racks between
+
+
+my somewhat heavier press is detailed here:
+http://mars.ark.com/~squeeze/pressing/
+it uses 24" racks and has 60 ton hydraulics capable of 3000psi, but I 
+never need more than 2000# - and no, the pulp will not heat up measureably
+
+
+if you can get 1 liter out of each 3-3.5# of pulp, you know you've done 
+as well as possible, but w/ a bottle jack I'd expect less
+
+
+Bill <http://mars.ark.com/~squeeze/>
+
+
+------------------------------
+
+
+Subject: Re: Press Construction
+From: Claude Jolicoeur <cjoli@gmc.ulaval.ca>
+Date: Fri, 23 Dec 2005 02:59:45 -0500
+
+
+In Cider Digest #1286, 22 December 2005
+>Subject: Press Construction
+>From: "drcath@tiac.net" <drcath@tiac.net>
+>Date: Tue, 20 Dec 2005 12:43:40 -0500
+>
+>For a welded steel press frame, what is an acceptable rating for a
+>hydraulic bottle jack that will maximize juice extraction efficiency from a
+>small rack and cloth set but will not place excessive stress on the frame
+>welds?
+
+
+Here are the basic stress calculations you need to make to insure your
+press will be sturdy enough.
+
+
+For the vertical members, the maximum stress is simply the load divided by
+the steel area. So, assuming you have 2 vertical members made of 2" square
+tubing with 3/16 wall thickness, you get:
+Area = 2 * ((2 * 2) - ((2 - 3/8) * (2 - 3/8))) = 2.72 sq.inches total
+With a 8 ton jack, you get
+Stress = 16000 lbs / 2.72 = 5900 psi, which is quite low.
+
+
+For the horizontal members, it is a bit more complicated as these work in
+bending. The maximum stress is given by the bending moment divided by the
+section modulus.
+Bending moment is the load * width / 4, in your case, 20" width and a 8 ton
+jack would give 80000 in.lb
+Section modulus (Z), for a rectangular tubing beam, is given by:
+Z = (bd^3 - hk^3)/6d
+where b is the width, d is the height of the beam, 
+k = d - 2*wall thickness, h = b - 2*wall thickness.
+Assuming you use for the horizontal members 2x4 tubing with 1/4 wall
+thickness, you would get:
+b=2, d=4, h=1.5, k=2.5, and Z = 2.65 in^3
+And the max stress would be 80000 / 2.65 = 30000 psi, which is too much for
+standard steel - it would bend. With this type of structure, you don't want
+any stress in excess of 20000 psi. You would then have to try again the
+calculation, possibly with 3/8 wall thickness it would be OK - or you could
+take a smaller jack. But, for sure, 2x2 square tubing will not make it.
+
+
+For the welds, you may assume a capacity of about 1000 lbs per linear inch
+of weld. A weld around a 2x4 tube is 10 inches long and can take 10000 lbs.
+You have 2 (one each end), so 20000 lbs would be OK.
+
+
+Hope this helps...
+
+
+Claude Jolicoeur
+today writing as a mechanical engineer for a change...
+
+
+------------------------------
+
+
+Subject: Re: using honey in bottle fermentation
+From: Benjamin Watson <bwatson@worldpath.net>
+Date: Fri, 23 Dec 2005 07:51:48 -0500
+
+
+Seth Jones wrote:
+
+
+> After three years restoring an old orchard on my property I had my
+> first crop this year. At least enough for a couple carboys. I want to
+> bottle ferment some sparkling cider and am interested in using honey
+> rather than sugar for taste and "mouth feel". Should I use the same
+> amount as sugar (2 tsp per bottle) or should I use more? Anyone have
+> other advice? Should I use something other than honey? How does that
+> taste come out? I have a blend of baldwins, northern spys and rhode
+> island greening. It's pretty tart after the first ferment. Thanks for
+> the advice. You guys are pretty impressive, I tried a lot of your
+> ciders at Cider Day this year...
+
+
+One of the more scientific people in this group (Gary, Claude, Andrew, 
+etc. etc.) will probably weigh in with more authority. But my gut 
+reaction is that secondary (bottle) fermentation with honey would be a 
+BAD idea. I can't even tell you why (without more coffee and research), 
+and perhaps you should try a couple of bottles just for the sheer 
+thrill of it. But I wouldn't risk one or two carboys' worth, if that's 
+all you're making this year.
+
+
+Adding honey to your juice for primary fermentation is fine -- it makes 
+cyser -- but I would suspect that there would be flavor and 
+fermentation problems with using a dosage of honey at bottling time. 
+For one thing, it might generate too much CO2 in a closed bottle if 
+substituted one for one with priming sugar. But more importantly, along 
+with the mouthfeel I suspect you might create a drastically different, 
+and probably odd, taste profile.
+
+
+I have two suggestions. The first is to leave the fermented cider to 
+mellow over the winter in the carboys. I generally rack once and then 
+leave the cider alone until April or May, and find that this greatly 
+improves the taste. It will mature in the bottle as well, but if the 
+object is to improve the taste, then in my experience you have a better 
+chance of encouraging malolactic fermentation by keeping it in a carboy 
+or buik container under airlock. (If there are some lees at the bottom, 
+so much the better, in terms of stimulating ML fermentation.) This will 
+have the effect of converting some of the malic acid to lactic acid, 
+reducing the perceived sharpness, and improving the mouthfeel.
+
+
+The second thing you might try using, if you're bent on addng something 
+other than sugar,, is a small amount of boiled cider (cider evaporated 
+down  to about 1/5 to 1/8 of its original volume). This is a 
+traditional product that can still be found in VT and NH. I guess I am 
+on the frontier of trying to use it for secondary fermentation, since I 
+have a small experimental batch of ice cider from last spring that was 
+VERY sharp (lots of Baldwin) and not very strong (only 9%). So, just 
+for a hoot, I added about half a cup of boiled cider to a one-gallon 
+fermenter. It sank to the bottom and stayed there, and I had to repitch 
+with a fairly aggressive wine yeast to get it going again, but then if 
+fermented slowly and steadily, with fine, small bubbles. Now the color 
+is quite nice, and I'm about to rack it off and perhaps 
+bottle-pasteurize the stuff to leave a bit of residual sweetness if it 
+tastes good. I'll try to post the results, good or bad. But boiled 
+cider may be an underutilized substance for cidermaking. I plan to make 
+a batch of New England cider with it this winter.
+
+
+Merry Christmas and a Happy New Year to all!
+
+
+Ben Watson
+Francestown, NH
+
+
+------------------------------
+
+
+Subject: apple brandy
+From: "Howard, John" <jhoward@beckerfrondorf.com>
+Date: Fri, 23 Dec 2005 09:53:27 -0500
+
+
+I'm happy to see this topic come up. Could someone share a bibliography?
+Cheers!  John Howard
+
+
+------------------------------
+
+
+Subject: Re: using honey in bottle fermentation
+From: Tim Bray <tbray@mcn.org>
+Date: Fri, 23 Dec 2005 08:55:23 -0800
+
+
+Seth,
+
+
+I've done exactly that and it worked well.  You do need to use a little 
+more honey than sugar, for two reasons:  Honey is 20% water, and it is not 
+quite as fermentable as pure cane sugar.  It's almost impossible to dose 
+bottles individually; much better to mix the honey into the entire batch 
+before bottling.  For a 5-gallon batch, I would use about 1 cup of honey, 
+or more for really fizzy champagne-style cider.  Mix the honey with an 
+equal amount of boiling hot water, then mix the syrup into the cider, then 
+bottle.
+
+
+The taste and body of a thin, sharp cider is much improved by the honey 
+notes, which will remain after in-bottle fermentation.  Much depends on the 
+yeast.  Even a good dry cider can be improved by honey!
+
+
+You can get better cider from dessert apples by waiting to pick them until 
+they are completely ripe, falling off the tree; then age them in cool (not 
+cold) storage until they lose their crispness.   Acidity goes down, starch 
+disappears, sugar goes up, and flavor improves.  Risk of spoilage or 
+infection also increases, but can be controlled with careful use of sulfite 
+and yeast.
+
+
+Cheers,
+Tim
+
+
+------------------------------
+
+
+Subject: Re: 2005 Glows Competition (dubious entries?)
+From: Dick Dunn <rcd@talisman.com>
+Date: Sat, 24 Dec 2005 16:56:02 -0700
+
+
+Prompted by some off-list discussion, and looking back at the full results
+of the recent GLOWS competition in Michigan (see digest 1283 and the web
+sites referenced by Jeff Carlson's article), I see that Strongbow was
+awarded a Silver medal in the Standard Cider category, English sub-category.
+
+
+Regardless of whether you like or loathe Strongbow, there's something gone
+wrong here.  The BJCP definition of the Standard Cider category includes
+this note:
+    The Standard category covers ciders and perries made primarily or
+    entirely from the juice of apples or pears (but not both at once).
+    The only adjunct permitted in the Standard category, and only in some
+    sub-categories, is a limited addition of sugar to achieve a suitable
+    starting gravity.
+Yet Strongbow is generally known, from various industry sources, to be
+significantly less than -half- juice.  This is comparable to most UK mass-
+market ciders, but it's neither the style nor the ingredients expected of
+an English style cider.  Compare, if you will, that you wouldn't expect
+Budweiser to be entered, let alone win, in an American Pale Ale category.
+
+
+I don't explicitly mean to single out Strongbow; it's just that it sticks
+out like a sore thumb in the results.  Add, for example, although I don't
+have any juice-composition information for Woodpecker (Bronze in the
+English category at GLOWS), I do see label information noting that it's
+got water, sugar, malic acid, caramel color, and "natural apple flavors"
+added, so it is also hardly an English Cider according to even a loose
+interpretation of the style guidelines.  Note that although sugar might
+be allowed to adjust SG upward as needed, water isn't allowed, and also
+if they're adding water they can't need sugar.  Plus, flavorings and
+caramel color are right out.
+
+
+I don't see this as a matter of "fault" so much as a growing-pain sort of
+problem in getting a competition going right.  Probably the competition
+organizers need to make the style rules particularly clear to the commercial
+entrants, WRT ingredients.
+- -- 
+Dick Dunn          rcd@talisman.com          Hygiene, Colorado  USA
+
+
+------------------------------
+
+
+Subject: RE: Cider Digest #1286, 22 December 2005
+From: "Mike Beck" <mjbeck@ujcidermill.com>
+Date: Sun, 25 Dec 2005 14:22:47 -0500
+
+
+Apple Distillation Discussion
+
+
+A MSU researcher (Kris Berglund) has published an excellent guide for
+artisan distilling.  He has used some of my apple mashes to collect data on
+pome fruit.  It is a free guide and Kris would probably send you a email
+version. (berglund@msu.edu)  I have my own distillery in Michigan, legal of
+course.  I will have brandy available in a another year, Until then I can
+only use it for my fortified apple wine.  (legal requirements on aging)
+Soon I will be firing up my still for this seasons distillations.  It is
+great fun and I encourage anyone to get the licensing and get product out on
+the market.  There are 10 distilleries in this state and half of them are
+making apple based products.
+
+
+Merry Christmas and a Happy Wassail!
+
+
+Mike Beck
+Uncle John's Cider Mill
+Uncle John's Fruit House Winery & Distillery
+
+
+------------------------------
+
+
+Subject: Re: Cider brandy
+From: michael arighi <calzinman@earthlink.net>
+Date: Sun, 25 Dec 2005 23:08:48 -0800
+
+
+This topic caught my eye because I just ran into exactly this on a
+recent trip to southern Germany. Near the Bodensee, on the
+Austro-Swiss-German border, there are a lot of people distilling spirits
+from various fruits--apples, pears, cherries. My impression is that this
+is a modernized version of a traditional craft. Anyway, I happened to
+run into one rather interesting variation on it (of which I brought a
+bottle home). It is a "Cox-Orange," distilled from Cox's Orange Pippin
+and with about a 2-3% post-distillation add-back of juice. Softens the
+alcohol and very slightly sweetens it. Also dramatically "punches out"
+the aroma.
+
+
+I had it at a friend's house initially, then located it in the weekly
+outdoor market. Quite a number of the fruit sellers appeared to do this
+as a relatively regular adjunct to their fruit sales--fermenting and
+distilling (probably their production overruns from the garden). Best of
+all, most of them had a few glasses behind the counter and were happy to
+offer you a free taste of anything that struck your fancy. A lovely, but
+inherently dangerous, way to enjoy the market. Dangerous because, unlike
+wine tasting, 39% abv spirits will put you under quickly, not to speak
+of palate fatigue.
+
+
+If any of you happen to get around the Uberlingen area in
+Baden-Wurttemburg state, on Lake Constance, I strongly recommend
+checking out the Saturday morning market (at least in the late
+Spring--don't know how late in the year it lasts).
+
+
+Michael Arighi
+Oakland CA
+
+
+------------------------------
+
+
+Subject: RE: Press Construction
+From: "chris horn" <agent_strangelove@hotmail.com>
+Date: Tue, 27 Dec 2005 08:18:54 -0800
+
+
+>For a welded steel press frame, what is an acceptable rating for a
+>hydraulic bottle jack that will maximize juice extraction efficiency from a
+>small rack and cloth set but will not place excessive stress on the frame
+>welds?
+
+
+Well in terms of stess in welds...  It depends on how the thing is 
+designed....  A few ball park guide lines on the strenth of welds (assuming 
+good weldings and loads in shear...) per inch of weld length: 1/8" 1200lbs., 
+1/4" 2400lbs., 1/2"4800lbs.....
+
+
+Best of luck,
+
+
+Chris Horn
+Scappoose Oregon USA
+(Mech. Engineer in my non-cider life....)
+
+
+
+
+'Procrastination is opportunity's assassin.'
+Victor Kiam
+
+
+------------------------------
+
+
+Subject: Re: past articles
+From: Benjamin Watson <bwatson@worldpath.net>
+Date: Tue, 27 Dec 2005 14:51:56 -0500
+
+
+
+
+Terry Mayne wrote:
+
+
+> I am fairly new to this site.  I have questions on freezing cider, before
+> and after fermentation to remove water.  Before I post my questions is
+> there a way to look up old postings to see if it has been discussed?
+
+
+Based on the Cider Janitron's recent comments about distillation -- to 
+wit, that it is probably not good to be sharing detailed information 
+about "doing it yourself" unless the "yourself" involved has a permit 
+from the federal government -- I would make a distinction here between 
+freezing and concentrating fresh cider before fermentation (absolutely 
+legal for any purpose, so far as I know, including fermenting the 
+concentrated juice into ice cider, which is still considered wine) and 
+concentrating hard cider after fermentation, which is the method 
+(fractional crystallization is the ten-cent term) for making 
+traditional applejack (a.k.a., "cider oil").
+
+
+The government considers the production of applejack equivalent to 
+distillation, and it is similarly illegal to do it without a license, 
+even though one would be hard-pressed to make an applejack that's much 
+over 18-20% abv.
+
+
+More importantly, applejack is rather nasty stuff and not recommended, 
+because it concentrates all of the impurities that a distiller would 
+discard from an eau de vie or brandy in the "heads" and the "tails" of 
+the run. Gradually concentrating the applejack by freezing and thawing 
+separates the pure ice from these "impure" compounds. And the effects 
+of drinking any quantity of such stuff are not pleasant -- wicked 
+headaches at best, and spasmodic muscle reactions (once known as "apple 
+palsy") at the worst.
+
+
+In my opinion, it is far better to make a safe (and legal, for home 
+consumption) homemade pommeau of about the same strength as applejack 
+by adding enough purchased apple brandy or eau de vie to fresh cider to 
+keep it from fermenting. I have gotten good results by mixing them 
+roughly half and half, or a little lighter.
+
+
+For a good historical and technical look at applejack or cider oil, 
+though, there is Sanborn Brown's excellent book, The Wines & Beers of 
+Old New England (Univ. of New England Press, 1978).
+
+
+Ben Watson
+Francestown, NH
+
+
+------------------------------
+
+
+Subject: Re:  Harrison scionwood question
+From: "John C. Campbell III" <jccampb@tseassoc.com>
+Date: Wed, 28 Dec 2005 08:50:00 -0500
+
+
+Well, I put an inquiry to the Honorable Tom Burford and got this in 
+response:
+
+
+> "...John, I have recollection of Nick (Botner) getting scions of 
+> Harrison from me soon after I located the trees (actually, they 
+> were in two sites one in NH and the other NJ).
+>  I was and am very comfortable with the identification of the 
+> Harrison and the Campfield, as well, for the most part because of the 
+> descriptions and drawings in Cox's annotated copy of his /A View of 
+> the Orchard/ ....that he did not live to complete and publish. It was 
+> in the Library of Congress archives and I arranged to have a copy made 
+> that I am now "preparing" for future publication.
+>  The Harrison has enormous potential. What the Newtown Albemarle 
+> Pippin is to Martinelli the Harrison could be to another vintage cider 
+> of the world.
+>  Best wishes.....Tom ..."
+
+
+Regretfully I had hoped to offer some further clinical  information 
+regarding the chemical composition of the Harrisons with this post. 
+(realizing of course that 'terroir' would dictate the information might 
+not hold true for everyone who grew the apples).   I sent an e-mail to 
+one of the presenters at the CiderMakers forum (Diane Flynt ... Blue 
+Ridge Cider in Laurel Fork, Va. http://blueridgeorchard.com ) who I 
+believe provided the Harrison juice for the Shelton's presentation ... 
+asking her if she'd gotten measurements on the juice, (to get us in the 
+ballpark) Brix, SG, acidity, etc. ... and for some odd reason she never 
+chose to  respond  to me. (maybe if I were buying some cider from her at 
+the same time -snicker-) As Lazarus Long said: 
+" ... Never appeal to a man's "better nature." He may not have one. 
+Invoking his self-interest gives you  more leverage." ...
+
+
+Now, if Brother Burford will please just hurry up and re-find the "Holy 
+Grail" of American cidermakers, the genuine Talifero apple ...  because 
+if anyone does, he's going to be the one who finds it.
+jccampb
+
+
+------------------------------
+
+
+Subject: cider brandy in Australia
+From: warwick <tokolosh@penalvagold.net>
+Date: Thu, 29 Dec 2005 18:10:45 +1030
+
+
+Hi Digest
+There are a few smaller stills legally around in Australia, Kellybrook, 
+near Melbourne make a Calvados and I have heard of several others who would 
+like to start up.  My understanding of the paperwork is that it remains 
+onerous, as well as bonds required.
+New Zealand on the other hand appears far more enlightened and anecdotally 
+there is no longer much regulation of home distilling.  I tried a 
+commercial apple grappa from NZ recently, it showed promise.  On a similar 
+note does anyone from the digest have any experience of growing pears in 
+bottles a la Poire William, how do they do it and does it work for apples?
+
+
+cheers
+Warwick
+
+
+------------------------------
+
+
+End of Cider Digest #1287
+*************************

@@ -1,0 +1,1325 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id CAA19775
+        for <spencer`at`srvr5.engin.umich.edu>; Sat, 28 Apr 2001 02:10:08 -0400 (EDT)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr20.engin.umich.edu (8.9.3/8.9.1) with ESMTP id CAA07080
+        for <spencer`at`engin.umich.edu>; Sat, 28 Apr 2001 02:10:05 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA11651
+        for realhomebrew; Sat, 28 Apr 2001 00:40:33 -0400
+Date: Sat, 28 Apr 2001 00:40:33 -0400
+Message-Id: <200104280440.AAA11651`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3619 (April 28, 2001)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3619                             Sat 28 April 2001
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: degrees C -> degrees F (Pat Babcock)
+  Re: Nitro in Beer (Pat Babcock)
+  Re: Which Roller Mill (Pat Babcock)
+  When is beer at its best? ("Rick Hamel")
+  clubs & mash time ("elvira toews")
+  oC -> oF (TOLLEY Matthew)
+  degrees C -> degrees F ("Abby, Ellen and Alan")
+  RE: Munich Dunkel Malt Bill ("Dennis Lewis")
+  Re: Thoughts on a high FG Alt (Jeff Renner)
+  Re: Munich Dunkel (Jeff Renner)
+  Mills ("Houseman, David L")
+  Roller Mills ("Dan Listermann")
+  Doctoring beers ("Jeff Beinhaur")
+  re: Thoughts on a high FG Alt (RiedelD) ("Dean Fikar")
+  Centigrade to Farenheit ("Alan Meeker")
+  re: bernzomatic O2 ("Joseph Marsh")
+  Re: Thoughts on a high FG Alt (Roger Deschner)
+  C to F (AJ)
+  RE: All Grain Question (Chris Cooper)
+  Road Trip and clubs ("Jim Hagey")
+  Nitro in beer (Dave Burley)
+  Re: All Grain Questions, Clubs ("Doug Hurst")
+  Grain Mills ("Doug Hurst")
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 26 Apr 2001 10:38:24 -0400 (EDT)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Re: degrees C -> degrees F 
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Darrell Leavitt quotes kflowers`at`aws.com ( AWS WeatherMania eNews April 23,
+2001)...
+
+
+> But our meteorologists here at AWS have discovered an easier way!
+> To easily compute a fairly accurate temperature in Fahrenheit, follow
+> these simple, easy-to-remember steps:
+> 1.  Double the temperature
+> 2.  Subtract the first digit of that number3.  Add 32
+> 
+> For example:
+> T = 25 degrees Celsius, what is it in Fahrenheit?
+> 1.  25 + 25 = 50
+> 2.  50 - 5 = 45
+> 3.  45 + 32 = 77 degrees Fahrenheit
+> Let's see if it worked using the actual mathematical equation which is:
+> F  =  9/5 degrees Celcius  +  32 degrees Fahrenheit  =  9/5(25)  +  32
+> F  =  45  +  32F  =  77It worked!
+
+
+This is well and good for estimating temperatures in the interval
+ -50C < T < 50C, but is inaccurate for any temperature not ending in "0"
+or "5", and useless for any temperature outside of that interval - useless
+for temperatures pertinent to mashing, for instance.
+
+
+For instance, 72C <> 144 - 1 + 32 = 175'F
+
+
+This is easily fixed, though, by correcting the original shortcut as
+follows:
+
+
+1) Take the number in Celsius and double it
+2) Divide the doubled temperature by 10
+3) Subtract the result from the doubled temperature
+4) Add 32 
+
+
+<imbed_tongue>That'll you get pretty durned close...</imbed_tongue>
+
+
+ie:
+
+
+The improved shortcut gives
+
+
+72C = 72*2-(72*2)/10+32 
+    = 144 - 14.4 + 32
+    = 161.6F
+
+
+compared to the traditional equation
+
+
+72C = 9/5 * 72 + 32
+    = 129.6 + 32
+    = 161.6F
+
+
+There's a non-miraculous reason why this works. Representing this
+"shortcut" algebraically:
+
+
+F = 2C-1/10(2C)+32
+
+
+Using the associative and distributive properties:
+
+
+F = 2C(1-1/10)+32
+  = 2C(9/10)+32
+
+
+And, finally, simplifying:
+
+
+F = C(9/5)+32  
+
+
+And that should look very familiar...
+
+
+
+
+
+
+Got math?
+
+
+- -- 
+ -
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+
+
+"The monster's back, isn't it?" - Kim Babcock after I emerged
+                                  from my yeast lab Saturday
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Apr 2001 07:30:07 -0400 (EDT)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Re: Nitro in Beer
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Good ol' Drew Beechum writes...
+
+
+> So as my birthday gift to myself, I bought a beer gas setup and a
+> stout faucet. Of course it never occured to me that I dunno how to
+> actually "nitrogenate." I've got a porter that could be good on
+> nitro. Any help from my fellow gadget heads as to what to do with a
+> completely unconditioned beer to a fully treated nitro beer?
+
+
+Sure!
+
+
+Step 1) Carbonate beer as you normally do, using plain old CO2 or natural
+conditioning. Carbonating with beer mix gas will only reduce the
+percentage of CO2 in the mix because N2 will not significantly dissolve in
+your beer.
+
+
+Step 2) Attach stout faucet and beer mix gas to keg and dispense.
+
+
+You see, you're not "nitrogenating" beer; you're dispensing it at higher
+than carbonation pressure using a gas that will not increase the
+carbonation level ("fizziness") in the beer.
+
+
+
+
+- -- 
+ -
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+
+
+"The monster's back, isn't it?" - Kim Babcock after I emerged
+                                  from my yeast lab Saturday
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Apr 2001 07:27:51 -0400 (EDT)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Re: Which Roller Mill
+
+
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+"John Lovett" <john.lovett`at`amcor.com.au> writes...
+
+
+> I am thinking of buying a roller mill. It would seem to come down to a
+> choice between the Listermann and Valley mills. Has anyone experience of
+> either of these and the pros and cons of each? I'm just trying to get some
+> recommendations.
+
+
+Do they still even make the Valley Mill? I thought they had gone out of
+business a few years back. If so, that would significantly narrow the
+field for me: hard to get support from a dead company.
+
+
+- -- 
+ -
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+
+
+"The monster's back, isn't it?" - Kim Babcock after I emerged
+                                  from my yeast lab Saturday
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Apr 2001 22:22:32 -0400
+From: "Rick Hamel" <hamelrick`at`hotmail.com>
+Subject: When is beer at its best?
+
+
+I typically start drinking my beers about 3 weeks after the brew date.  I
+use kegs and carbonate artificially.
+
+
+My beers usually test best when there are only a few glasses left.
+
+
+I would like to let my beer condition longer so my beer has more time to
+mature.
+
+
+Does anyone know:
+
+
+How long do the commercial breweries condition their beer in secondary? How
+long once carbonated? Cold conditioning?
+
+
+What about brew pubs?  How long is it between the time they brew the batch
+and start serving it to the public?
+
+
+Any feedback would be greatly appreciated.
+
+
+Rick
+Boston MA
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Apr 2001 22:23:27 -0500
+From: "elvira toews" <etoews1`at`home.com>
+Subject: clubs & mash time
+
+
+As a recent joiner to a brew club, my only disappointment has been the
+realization that there is no way to be brutally honest and kind at the same
+time.  By the way, Brian can also make good enough beer that at our last
+meeting I snuck out with the rest of the bottle so I wouldn't have to share
+with others.
+
+
+I've only brought one very successful brew to a meeting so far (I think?!).
+I do recognize flavours of concern in others' brews yet haven't heard any
+more than "nice beer" from people I'm sure can detect faults.  Maybe it's
+because we're Canadian.
+
+
+My dream brew club is the GABF without prizes - no scores, just blind
+tastings by master judges/brewers dedicated to improving MY beer.  Did I
+just volunteer myself as organizer?
+
+
+As far as time/temperature relations, I tried replacing overnight mashing
+(which I've done for about four years) with 30-60 minute mashes.  The
+efficiency and FG show no difference, but I've lost all control of flavour
+balance.  The take-home message would be to choose a mash time in the 30
+minute to 12 hour range that matches your lifestyle, a mash stiffness that
+fits your lautering system, a water treatment that matches your water, and
+never, ever change.  The control is then accomplished entirely through the
+mash-in temperature.
+
+
+my $0.03 worth ($0.02 US)
+Sean Richens
+srichens`at`sprint.ca
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 15:26:27 +1000
+From: TOLLEY Matthew <matthew.tolley`at`atsic.gov.au>
+Subject: oC -> oF
+
+
+From: Darrell.Leavitt`at`esc.edu
+
+
+>But our meteorologists here at AWS have discovered an easier way!
+>To easily compute a fairly accurate temperature in Fahrenheit, follow these
+>simple, easy-to-remember steps:
+>1.  Double the temperature
+>2.  Subtract the first digit of that number3.  Add 32
+
+
+I just go 'double it, take 10%, add 32'.  Works a treat (never tried it with
+fractions of a oC, though)
+
+
+For example, using the meteorologist's method with 29oC (84.2oF)
+
+
+29 x 2 = 58 - 5 = 53 + 32 = 85oC - 0.8oF too much
+
+
+Double, take 10%, add 32:
+
+
+29 x 2 = 58 - 5.8 = 52.2 + 32 = 84.2 - spot on.
+
+
+Just get yourself a GST/VAT and you'll be adding and subtracting 10% in your
+head in no time :)
+
+
+Cheers
+ ...Matt...
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 08:40:17 -0300
+From: "Abby, Ellen and Alan" <elal`at`pei.sympatico.ca>
+Subject: degrees C -> degrees F
+
+
+Having been partially metricized in the Canadian school system of the
+70's, I'll give you my real life understanding of metric.
+
+
+ - about -40 is the same in both F and C.   Good facts for northern
+Ontario February conversations with the guy you called to charge the
+dead battery in your car and not much else.
+ - thin ice on puddles, about 0 C so that must be 32 F.   Why would
+anyone pick 32 as a starting point?
+ - 10 C is about 50 F...trouble is I can't really recall what 50 F is any
+more...
+ - 20 C is the coldest shorts weather or the middle of summer here in the
+Maritimes.
+ - 30 C is about 80 F...[see comments on 50 F]
+
+
+So I guess if you really want to know, conversion formula might be in
+order.   
+
+
+1 degree C = 1.6 degree F
+1 kilometer = 0.6 miles
+1 metre = 39 inches
+1 kilogram = 2.2 pounds so 2kg extract goes in each batch of brew as the
+basic fermentable.
+
+
+Should anyone require further assistance in the Canadian school system's
+French standards I am about as useful in theat field as well...ou est la
+biere?...
+
+
+Alan in PEI
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 08:27:06 -0400
+From: "Dennis Lewis" <dblewis`at`lewisdevelopment.com>
+Subject: RE: Munich Dunkel Malt Bill
+
+
+Eric asked about his Munich Dunkel recipe to which LJ Vitt responds-
+
+
+> Eric, I suggest skipping the roasted barley.  1) a german brewer would not use
+> UNMALTED barley.  2) I believe Munich brewers would not add a roasted malt to
+> make this beer dark.  They use(d) munich malt and decoctions to get the dark
+
+
+I made a Dunkel a few months ago and found a tremendous dearth of info regarding
+the style while trying to research some pointers online. I'm also surprised that
+the AHA Style series doesn't include a book on Munchner Dunkel, as it is a
+classic beer style in every respect. I hereby volunteer myself to write this
+book, including whatever trips to Munich that it will take. Seriously.
+
+
+Anyway, I tried a grain bill of 100% Weissheimer Munich Malt (which converts
+nicely, I might add) for an 11 gallon batch. I did a complete step mash
+(40-50-60-70-77 C)with a single decoction between 60-70.  As I was recirculating
+in the lauter, I noticed in my 5/8" run-off tube that the color was a bright
+orange instead of a ruddy deep brown.
+
+
+The numbers using deg L and a linear scale say that 20 lbs * 8 deg L = 160 / 11
+gal should be about 15 deg L, or a shade lighter than Mich Dark. This stuff was
+looking like Bass Ale and I wasn't even sparging yet. I crushed 2 oz. of black
+malt and tossed it on top of the grainbed in the lauter and let it recirc for an
+extra 10 min. (Supposedly adding .125 lb * 600 = 75 / 11 gal = ~7 extra deg L)
+
+
+The end result is a great brew, appropriately colored, but I can detect a very
+faint coffee-ish burnt flavor. May be my imagination, since I know how the
+brewing session went. My wife tells me I'm overthinking it and I suspect she's
+right.
+
+
+If you want a truly dark Dunkel, I don't think you'll get it with just plain
+Munich malt. I'd add what the Deutsche call 'Farbemalz' or a pinch of 120L
+crystal. Also, your 20 lbs of malt seems a bit heavy for your OG of 1051. At 30
+ppg, you'll need more like 18.5 lbs. I get about 32 ppg so my bill was more like
+17.5 lbs. 20 lbs of malt would yield between 1054 and 1058.
+
+
+Just my zwei pfennig....
+
+
+Dennis Lewis
+
+
+In wine there is wisdom. In beer there is strenghth.
+In water there is bacteria. --German Proverb
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 09:44:55 -0400
+From: Jeff Renner <JeffRenner`at`mediaone.net>
+Subject: Re: Thoughts on a high FG Alt
+
+
+Dave Riedel <RiedelD`at`pac.dfo-mpo.gc.ca> of Victoria, Can. wrote
+
+
+>Last night I racked a batch of Alt to a corny keg and took an SG
+>reading along the way.  To my unhappy surprise, I've got a final
+>gravity of about 1.016 - for an OG of 1.047, this is really high.
+>
+>Specifics:
+>        4.1 kg        DWC Munich
+>        75g        DWC Cara-Munich
+>        500g        DWC Aromatic
+>
+>        Single infusion at 154F for ~90min.
+
+
+I think it's that last line, along with the lower fermentability of 
+Munich and Cara-Munich.  I think a mash of 148F would give better 
+attenuation.  Dornbusch recommends the same 154F that you used in his 
+book "Alt," but Warner suggests 145F for Koelsch if you are using a 
+single step mash for a well attenuated, dry beer.  While Alt is not 
+as dry as Koelschbier, I think the Munich and Cara-Munich will keep 
+it from being too dry.  I think good attenuation is important in the 
+style.  I have found well attenuated Dunkels and Viennas retain their 
+rich maltiness due to the Munich or Vienna malt.
+
+
+Jeff
+- -- 
+***Please note new address*** (old one will still work)
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`mediaone.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 09:51:54 -0400
+From: Jeff Renner <JeffRenner`at`mediaone.net>
+Subject: Re: Munich Dunkel
+
+
+LJ Vitt <lvitt4`at`yahoo.com> advises "Murray, Eric" <emurray`at`sud-chemieinc.com>
+
+
+>Eric, I suggest skipping the roasted barley.  1) a german brewer would not use
+>UNMALTED barley.  2) I believe Munich brewers would not add a roasted malt to
+>make this beer dark.  They use(d) munich malt and decoctions to get the dark
+>color.  You might hear comments like "you can't mash 100% munich".  That is
+>probably true for American made munich. Are you using European produced munich
+>malt?  I would suggest any of these brands: Dorst, Weissheimer, Weyermanns,
+>DeWolf Coysns.
+
+
+I agree.  I have had good luck with unbittered chocolate malt in my 
+latest Dunkel.  In the past I have had Dunkels with high levels of 
+Munich suddenly crash in the keg and deteriorate into wet cardboard 
+flavor of oxidation.  This is the only style it has ever happened to 
+me,, and it happened twice.  I think, as I've posted before, that a 
+small amount of darker malt acts as an electron (oxydizer) 
+interceptor and holder.
+
+
+I see no reason that US Munich, at least two row such as Briess', 
+could not convert itself at 100% and produce a good product. 
+However, I've always used German Munich and Vienna, often at close to 
+100%.
+
+
+Jeff
+- -- 
+***Please note new address*** (old one will still work)
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`mediaone.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 09:02:00 -0500
+From: "Houseman, David L" <David.Houseman`at`unisys.com>
+Subject: Mills
+
+
+With the current thread on mills I will offer one piece of advice on
+automating them.  Most of the mills available to us have a hand crank and
+can be automated by hooking up some sort of motor.  Most people suggest an
+electric drill.  I did that and it went much faster and easier than by hand.
+But the quality of the beers suffered.  In a quest to find out what was
+happening I stumbled across the fine print (when all else fails, read the
+directions), that the mill I had suggested around 300 RPM as a good top
+speed.  So if your electric drill is a variable speed number, slow it down
+to that range.  Turns out my mill, and I suspect most, will end up tearing
+the husks rather than just crushing them if you are trying to run the mill
+too fast.  Oh, it gets the job done quicker but not nearly as good a crush,
+IMO.  This month's copy of Zymurgy has an article on motorizing mills that's
+very good.  I found a motor that was about 1700 RPM and with the proper
+sheaves and belt slowed this down to about 350 RPM; this also increased the
+torque to the mill.  I'll also second Dave Burley's suggestion of milling
+twice, once open a little wider then somewhat closer gap.  This produces an
+excellent crush.
+
+
+David Houseman
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 10:23:31 -0400
+From: "Dan Listermann" <dan`at`listermann.com>
+Subject: Roller Mills
+
+
+ "Rick Hamel" <hamelrick`at`hotmail.com> Writes:
+
+
+<The Phil Mill uses a 2 litre bottle as a hopper.  Because of the small
+opening at the bottom and the small rollers it takes forever and a lot of
+effort to crush 10 pounds of malt.>
+
+
+There are some misunderstandings here.  The opening of the pop bottle hopper
+can pass far more malt than the mill can crush in a given time.  By hand the
+Philmill One can crush a pound a minute.  Ten minutes for ten pounds isn't
+too long.  With a inexpensive adapter and a 1/2" electric drill, the
+Philmill can crush 3 pounds per minute.  ( The Philmill Two can do about
+tripple these thruputs)
+
+
+<Also because it clamps on the edge of a table you can't really put a bucket
+directly under it because then you can't turn the handle.  The bucket has to
+be a foot under.  The dust produced gets all over the place.>
+
+
+Hanging another cut off pop bottle from the adjustment screw functions as a
+very nice funnel which greatly controls dust.
+
+
+<The phil mill just uses a screw to adjust the roller so have no way of
+reproducing the same setting unless you never touch it.>
+
+
+The Philmill One's adjustment thumb screw has a mark on one of its wings.
+You can simply record its location in terms of a clock face.  Any full turns
+out of adjustment will be easily obvious by visual inspection.  The grist
+would be almost intack or floury.  A simple full turn one way or the other
+will get you back to where you were. ( The Philmil Two's adjustment knob is
+a single lever )
+
+
+Another point is that mills produce grist, not gaps.  The grist needs to be
+inspected every time the mill is used even with the same malt since malt can
+change from time to time and over time.  I don't adjust the gap of a mill, I
+adjust the grist and I change the gap to do this.  I adjust the mill so that
+almost all the corns are crushed.  The change from passing a lot of whole
+corns to crushing almost all but the most underdeveloped is fairly obvious.
+
+
+
+
+ Dan Listermann
+
+
+
+
+Check out our new E-tail site at http://www.listermann.com
+
+
+Take a look at the anti-telemarketer forum.  It is my new hobby!
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 10:29:28 -0400
+From: "Jeff Beinhaur" <beinhaur`at`email.msn.com>
+Subject: Doctoring beers
+
+
+Talking about all of these clubs got me thinking. I had volunteered a few
+months ago to make a presentation at an upcoming meeting on off flavors in
+beer for our local club, CRAZY (Carlisle Regional Area Zymurgists). In
+searching the archives as well as a little experience of my own have come up
+with the following. These all would be added to some mega swill.
+
+
+Diacetyl - use imitation butter flavor
+DMS - use the juice from a can of corn or just use Rolling Rock
+Phenolic - us throat lozengers with Phenol
+Skunked - leave in the sun for a few hours
+
+
+I'd appreciate other suggestions or point me to other areas of the archives
+that I may have missed. Thanks...
+
+
+Jeff Beinhaur, Camp Hill, PA
+Home of the Yellow Breeches Brewery (and the trout are hitting
+hard....yeeeehawwww)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 09:29:00 -0700
+From: "Dean Fikar" <dfikar`at`flash.net>
+Subject: re: Thoughts on a high FG Alt (RiedelD)
+
+
+>Thoughts on a high FG Alt (RiedelD)
+>
+>Last night I racked a batch of Alt to a corny keg and took an SG
+>reading along the way.  To my unhappy surprise, I've got a final
+>gravity of about 1.016 - for an OG of 1.047, this is really high.
+>
+>Specifics:
+>4.1 kg DWC Munich
+>75g DWC Cara-Munich
+>500g DWC Aromatic
+>
+>Single infusion at 154F for ~90min.  90 min boil with a
+>huge pile (155g) of Spalt Select (because the AA was only 2.3%).
+>Pitched slurry from 3.5L starter: Wyeast 2565 (Koelsch).
+>*No oxygen (forgot to get cylinder); shook ~4L in 13L carboy with
+>yeast slurry and shook final full carboy - probably not great
+>aeration.
+>Fermented the batch at 64-65F.
+>Discovered (about 24hrs in) that krausen had blow through the
+>airlock - switched to blow-off.
+>Vigorous ferment continued for at least 2 more days.
+>
+>So, I've got a beer that's underattenuated.  Oddly enough, it doesn't
+>seem to taste sweet.  In fact, I got out a different hydrometer to
+>double-check
+>the FG because it didn't *taste* like 16 pts.  I know that when I moved to
+>aerating with O2 my FGs went down (as a general rule), so I'm fairly
+certain
+>that lack of O2 caused the premature finish.  However, is it possible that
+>I blew a sizeable portion of my working yeast out the blow-off tube?  This
+>2565 really forms a big, yeast-rich, krausen.  In other words, could I lose
+>enough yeast in mid-ferment to affect the FG?
+>
+
+
+Dave,
+
+
+Your grain bill is very similar to my standard Dusseldorf alt recipe.  Yeah,
+yours is a little underattenuated but I wouldn't worry about it too much if
+it tastes okay.  I bitter mine up so much that a little residual sweetness
+from the malt is welcome.  I don't like my alts to be dry and I rarely get
+more than 71-72% AA with my recipe.  I would suggest that you use a lower
+temp sacc. rest next time.  I usually do mine at 148-149F.  This seems to be
+necessary for me when using a high % of munich malt.
+
+
+It has been my experience that a vigorous fermentation such as you describe
+usually leads to a very nice beer if appropriate fermentation temps are
+maintained.  I have had tons of yeast blown off before and have never seen a
+detrimental effect on attenuation.  I don't know if you under oxygenated
+your wort but with a good pitching rate and such a vigorous fermentation I
+doubt that you hurt yourself much in that regard.  Try a lower temp sacc.
+rest next time.
+
+
+- ---------------------------------------------
+Dean Fikar - Ft. Worth, TX (dfikar`at`flash.net)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 10:31:38 -0400
+From: "Alan Meeker" <ameeker`at`mail.jhmi.edu>
+Subject: Centigrade to Farenheit
+
+
+>To convert Celsius (C) to Fahrenheit (F), use:
+>F = 9/5 C + 32
+>But our meteorologists here at AWS have discovered an easier way!
+>To easily compute a fairly accurate temperature in Fahrenheit, follow these
+>simple, easy-to-remember steps:
+>1.  Double the temperature
+>2.  Subtract the first digit of that number3.  Add 32"
+
+
+So..... 100 deg Celsius = 32 degrees Fahrenheit? Cool.
+
+
+ -Alan
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 09:47:53 -0500
+From: "Joseph Marsh" <josephmarsh62`at`hotmail.com>
+Subject: re: bernzomatic O2
+
+
+The little O2 cylinders are left hand thread. All O2 cylinders are threaded 
+differently from say nitrogen, exposive gases because of the potential for 
+fire/explosion. I'd say they're all left hand threads but as soon as I do 
+someone will find an exception.
+
+
+A friend of mine uses O2 and he only uses bursts of a few seconds three of 
+four times.
+
+
+It looks to me like the major expence in going to bottled O2 is the 
+stainless diffusion stone. I'm always looking for a cheaper way to do things 
+so if you find a cheap O2 gas bottle valve let me know. I've been looking 
+for weeks.
+
+
+And that's no teatwash,
+        Joe
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 10:10:26 -0500 (CDT)
+From: Roger Deschner <rogerd`at`uic.edu>
+Subject: Re: Thoughts on a high FG Alt
+
+
+Your observation of malty but not sweet means you are on the right
+track. That is one of the hallmarks of a good Altbier.
+
+
+You probably have too much, rather than too little, yeast; once you have
+enough of a krausen to force you to switch to a blow-off, you have
+plenty of yeast and then some. Munich malt just won't ferment that
+completely. OK, now lager it, by lowering the temperature gradually to
+about 45F, by about 2F per day. Rack to a secondary carboy for lagering,
+where it will continue to attenuate as long as you don't shock the yeast
+by sudden chilling.
+
+
+Decoction is brave, because it is such a mess to clean up, but what is
+more important is to use the classic German 3-step mash schedule,
+whether by infusion or decoction.
+
+
+Roger Deschner      University of Illinois at Chicago     rogerd`at`uic.edu
+============ "Beer is the reason we get up each afternoon." ============
+================ -- McNeill's Brewery, Brattleboro, VT =================
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 11:10:23 -0400
+From: AJ <ajdel`at`mindspring.com>
+Subject: C to F
+
+
+The suggested formula is
+
+
+F = 2*C - int(2*C/10) + 32
+
+
+Modifying this sligthly to
+
+
+F = 2*C - (2*C/10) + 32 = (20*C  - 2*C)/10 + 32 = 18*C/10 + 32 = 9*C/5 +
+
+
+32
+
+
+gives the exact answer. So a little mod is in order for the anal among
+us:
+
+
+1. Double the degrees C
+2. Subtract a 10th of this from the doubled C
+3. Add 32.
+
+
+Example: 21 C (what they set the thermostat to in your hotel room)
+
+
+42 - 4.2 +  32 = 42 - 4 + 32 - 0.2 = 38 + 32 - 0.2 = 70 - 0.2 = 69.8
+
+
+By putting the subtraction of the fractional part at the end you can get
+
+
+the approximate answer sooner and then refine it only if you want to.
+
+
+I like it. How the hell will I ever remember it?
+
+
+A.J.
+
+
+
+
+
+
+
+
+
+
+- --
+A.J. deLange
+CT Project Manager
+Zeta Associates
+10302 Eaton Place
+Fairfax, VA 22030
+(703) 359 8696
+855 0905
+ajdel`at`mindspring.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 11:37:11 -0400 (EDT)
+From: Chris Cooper <ccooper`at`a2607cc.msr.hp.com>
+Subject: RE: All Grain Question
+
+
+Greetings All!  Steve asks about the effects of the boil in all grain brewing.
+The effects of the boil (sometimes referred to as the kettle reactions)
+may be long debated.  Their discussion may take you down many long and
+curious paths.  The simple matter is that it is in the kettle that a beer's
+flavor, mouth feel, and character are initially determined. I don't mean to
+mize the effects of the grain bill, mash regime, hop selection, yeast variety,
+fermentation temperature or conditioning but the kettle is instrumental in
+bringing together the individual componets and making BEER. 
+
+
+Nowhere else is the process so elemental, the combination of the fruits of
+the earth, water and fire produce the sweet wort.  I am often amazed at the
+sight of the yeast working in the carboy and the working of the mash inside
+my insulated cooler is truly "magical" but the sights, sounds, and smell of
+the boil are truly phenomenal! 
+
+
+Kettle reactions are responsible for the extraction of the bitters in the 
+hops. Hop bitters and flavor compounds may be extracted in a "hop tea" but 
+the pH of the wort and the length of boil greatly effect the overall level
+of bittering in your brew.  You may buy condesensed "hop oil" in a brew shop
+and add it to a brew to increase the bitters but it will always seem a bit
+"doctor'd".  
+
+
+Longer boils carmelize some of the sugars which add color and flavor to the
+brew.  The vigor of the boil may have effects on other aspects of the brew 
+such as head retention and stability of the brew. 
+
+
+It is also my opinion that the kettle is responsible for the "marrying" of 
+the flavor profiles of the various grains and hops in the recipe.
+
+
+To me the real point of homebrewing is in the experimentation with the 
+fundamental elements of beer, the methods and of course the comradeship of 
+fellow brewers both virtual and first-hand, oh yeah, and the drinking of 
+a beer you made yourself with friends and family.
+
+
+Many of us discuss ways to shorten the brew day but I dare to say that most
+"all-grain" brewers look forward to the actual boil-time.  I us it to enjoy 
+a previous batch (I am a firm believer that you should show a wort what you
+expect of it by example ! I often tip a few drops into the boil just to give
+it a hint of the greatness to come and appease the BEER-GODS!).  The aroma 
+form the kettle usually brings out a neighbor or two for some good hearted 
+talk and a mug or two. 
+
+
+My suggestion is to go ahead and try all-grain now, there are many ways to 
+ease into it (in terms of equipment and cost).  My first batches were with a 
+grain bag in a kettle, I simply mashed-in to my strike temperature and place
+the kettle in a preheated oven.  This held the temperature well.  I quickly
+added a drain and a simple screen to one of my two kettles and the system 
+worked very well until I graduated to my 7-gallon Gott-Rubermaid cooler.  The 
+transistion to garage brewing came about step-by-step and I still brew in
+the kitchen on bitterly cold winter days (when SWMBO feels sorry for me!).
+
+
+Chris Cooper, Pine Haven Brewing (aka. Debbi's Kitchen) 
+Commerce, Michigan    Member, Ann Arbor Brewer's Guild
+(Approximately 25 miles from 0.0 Renerian)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 11:27:17 -0400
+From: "Jim Hagey" <hagey`at`attglobal.net>
+Subject: Road Trip and clubs
+
+
+
+
+  Greetings Collective,
+
+
+I am planning a road trip with my son to Northern California in a few weeks.
+Strictly for pleasure.  Will be flying into Oakland on a Saturday night.
+Staying in San Francisco with a friend (right around the corner from the
+Magnolia Brewpub) until Tuesday then we have until the following Saturday
+night to explore.  We are planning on driving up the PCH to Crescent City
+(Redwood National Park)  camping along the way.  The route back to the
+Oakland airport is wide open but would like to go through the Shasta area
+then down the spine of the Sierra (through Truckee) on the way.  Question:
+location of brewpubs?  Pubcrawler lists only one along the PCH,  the Lost
+Coast Brewery in Eureka.  Are there others?  The only other one along the
+route that I could find is the Pizza Junction/Truckee Brewing company in
+Truckee.  Any knowledge of the collective is greatly appreciated.
+
+
+Following the thread of homebrewing clubs:  I suffer from a sometimes rather
+debilitating case of social anxiety disorder and find myself quite often
+paralysed in social situations.  I have, however, been a member of a club
+here in Kalamazoo for about five or six years now that has quite a broad
+demographic (accross the male only spectrum).  Sometimes being in the club
+is the greatest; sometimes it really sucks.  I have met a number of really
+talented brewers in it and some really opinionated ones that really have no
+concept of how grain, water, hops and yeast work together.  I have to admit
+that my own beer has improved because of the contacts that I have made while
+a member.  It has given me the chance to taste a wide variety of beers that
+I otherwise would not have been able to enjoy.  It has also given me the
+chance to experience a rainbow of sensory defects that were previously just
+words and concepts.  I have found that, by in large, the community to be
+outgoing and helpful in the extreme.  If I run up against a problem they
+have always been there to help analyze and find remedy for it.  They have
+also made the mistake of electing me weiss president this year which just
+goes to show that even a socially dysfunctional, irritating person who spoke
+no more than two or three words at a meeting for over three years can be
+accepted in this community.
+
+
+
+
+Jim
+Beer and Loafing in Kalamazoo
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 12:34:30 -0400
+From: Dave Burley <Dave_Burley`at`compuserve.com>
+Subject: Nitro in beer
+
+
+Brewsters:
+
+
+Drew suddenly finds himself with too much equipment for the present. He
+asks how to go from a fully uncarbonated beer to a beer which makes use of
+his new stout spigot.
+
+
+First, Drew, you ain't the first. Nor are you the first to, perhaps, be
+confused about what's happening.  Remember nitrogen is not  very soluble in
+beer ( ten times less than CO2)  so if you use a nitrogen/CO2 to pressuize
+your beer or to push your beer you still won't be using the nitrogen/CO2
+mix to form a nice compact head, despite what you read here sometimes.
+
+
+A nitrogen/CO2 mix which you can buy as a standard mix from your gas
+supplier is used in cellars with a long run in which too high a pressure of
+CO2 needed to push the beer would result in over carbonation. Using a
+nitrogen in the mix of gases allows the partial pressure of the CO2 to be
+correct ( maybe 7 psi or so) and yet apply maybe 15 psi of total pressure
+to push the beer. But the nitrogen's only function is to push on the keg
+and it never gets into the beer to any appreciable extent and therefore
+never gets into the foam.
+
+
+What you want to get a nice head is a spigot which mixes nitrogen into the
+<foam> of the beer ( a violent mixing called "breakout" in which nitrogen
+is substituted for CO2 or mixes with CO2 in the bubble and the foam is
+micronized) . Because nitrogen is not very soluble in beer, once you get
+nitrogen into the foam bubbles it will stay, unlike CO2 which dissolves in
+the beer in the foam bubble wall and passes out. So what you need is a
+nitrogen ( or a nitrogen/CO2 mix if that is more convenient)  tank at your
+dispense. Talk to your gas supplier and he will provide the correct
+connections.
+
+
+So the answer is, Carbonate your beer as you normally do, push it out with
+CO2 or a N2/CO2 mix and use plain nitrogen or a N2/CO2 at your spigot to
+get that long lasting head you desire.  
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 12:59:31 -0500
+From: "Doug Hurst" <DougH`at`theshowdept.com>
+Subject: Re: All Grain Questions, Clubs
+
+
+Steven St Laurent asks:
+
+
+"I assume the boil of the wort in all grain is to accomplish several
+things... sanitize the wort, extract the bittering of the hops and to
+reduce the volume of the liquid. Is this indeed the case? Making a hop
+tea would tend to reduce the time needed in the boil + using less
+water/more grain in the sparge would also accomplish the same thing?"
+
+
+You are correct but there's more.  The Hot Break, when the beer begins
+to boil, and the Cold Break, when the wort is cooled, both serve to
+precipitate and coagulate proteins.  The Breaks (especially the cold
+break) help to eliminate chill haze in the finished beer.  You need a
+good rolling boil for an effective hot break and a quick cooling for the
+cold break.
+
+
+As for extracting bitterness, I wonder if the acidity of wort has
+anything to due with bitterness extraction.  Anyone? Anyone?  
+- -------
+As for clubs...  I had a feeling my post would draw some discussion.
+Drew Beechum and John Zeller made good points about the usefulness of
+competitions for receiving a non-biased, honest evaluation of beer
+regardless of winning or losing.  Dave Burley raises a very interesting
+argument about commercial beers being used as a bench mark for judging.
+I suppose it depends upon whether the brewer was trying to emulate a
+commercial beer or make something different/better.  I would think that
+there's a lot of room for original styles.  How should those be judged?
+
+
+Maybe I'll try out the naked brewing club in Florida that was featured
+in the latest Zymurgy...
+
+
+Doug Hurst (putting out the flames)
+Chicago, IL
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Apr 2001 13:06:27 -0500
+From: "Doug Hurst" <DougH`at`theshowdept.com>
+Subject: Grain Mills
+
+
+Oh yeah,  I use a Jack Schmiddling adjustable malt mill.  I chose it
+because it included a hopper, full size (length) rollers, the cost was
+less than other similar models and JSP is local. I have had nothing but
+success with it.  It's easy to remove the handle and attach a drill,
+which I did for the first time recently.  I'll never use the handle
+again.
+
+
+Apply standard non-affiliation disclaimer,
+
+
+Doug Hurst
+Chicago, IL  
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3619, 04/28/01
+*************************************
+-------

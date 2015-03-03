@@ -1,0 +1,1055 @@
+﻿Return-Path: bacchus`at`aob.org
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id PAA27732 for <spencer`at`srvr5.engin.umich.edu>; Fri, 30 Aug 1996 15:53:45 -0400 (EDT)
+Received: from truelies.rs.itd.umich.edu (truelies.rs.itd.umich.edu [141.211.83.38]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id PAA13456 for <spencer`at`engin.umich.edu>; Fri, 30 Aug 1996 15:53:40 -0400 (EDT)
+Received: by truelies.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id PAA20334; Fri, 30 Aug 1996 15:53:25 -0400 (EDT)
+Received: from aob.org by truelies.rs.itd.umich.edu (8.7.5/2.2)
+        with SMTP id PAA20274; Fri, 30 Aug 1996 15:53:07 -0400 (EDT)
+From: Homebrew Digest REQUESTS <homebrew-digest-request`at`aob.org>
+To: homebrew-digest`at`aob.org
+Subject: Homebrew Digest #2168 (Friday, 30 August 1996)
+Reply-To: Homebrew Digest SUBMISSIONS only <homebrew`at`aob.org>
+Errors-To: homebrew-digest-error`at`aob.org
+Precedence: bulk
+Date: Fri, 30 Aug 96 19:20:20 GMT
+Sender: bacchus`at`aob.org
+Message-ID:  <9608301920.aa01708`at`bacchus.aob.org>
+
+
+
+
+Homebrew Digest            Friday, 30 August 1996       Number 2168
+
+
+
+
+   FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+        Shawn Steele, Digest Janitor
+        Thanks to Rob Gardner for making the digest happen!
+
+
+Contents:
+  resistance (Electrical Safety 101) ((Dick Dunn))
+  Summer Lightning ("Dr. Gillian Grafton")
+  [none] (dyacavone`at`sprintmail.com)
+  Sorghum Beer Challenge (Michel Vandenplas)
+  ??? (Schwab_Bryan`at`CCMAIL.ncsc.navy.mil)
+  Re: Strange yeast question (Bill Rust)
+  CD-ROM ((BRIAN WURST))
+  Request for Recipes:  Bigfoot Barleywine and Harpoon IPA (Steven W. Schultz )
+  Cc: WRICHARD`at`ALOHA.intel.com ((Ken ))
+  Copy of: Pumpkin,Newbie, ("David R. Burley")
+  Copyrights (John Penn)
+  HSA ("David R. Burley")
+  glow-in-the-dark beer (lheavner`at`tcmail.frco.com)
+  Milk of Sulfatia / Those Dreary Engineers (KennyEddy`at`aol.com)
+  Cleanup Question from a Newbie (Jeff Ray)
+  UV Radiation Sanitizing ("Toler, Duffy L.")
+  BI rtm (Scott Dornseif)
+  BI rtm (Scott Dornseif)
+  YMhbr (Scott Dornseif)
+  Re: Copyrights online, etc. etc. etc. (Cory Wright)
+  Re: Heated Wyeast storage, dry hopping (Cory Wright)
+  plumbing supply ("Ray Robert")
+  RE: 15.5 barrels (mikehu`at`lmc.com)
+  chillin' ((John W. Carpenter))
+  Cheap Stainless (galley`at`hou.sperry-sun.com)
+
+
+For SUBMISSIONS to be published, send mail to:
+  homebrew`at`aob.org
+For (UN)SUBSCRIBE requests, send mail to:
+  homebrew-digest-request`at`aob.org
+  and include ONLY subscribe or unsubscribe in the BODY of the message.
+
+
+Please note that if subscribed via BEER-L, you must unsubscribe by sending
+  a one line e-mail to listserv`at`ua1vm.ua.edu that says: UNSUB BEER-L
+If your address is changing, please unsubscribe from the old address and
+  then subscribe from the new address.
+If your account is being deleted, please be courteous and unsubscribe first.
+For technical problems send e-mail to the Digest Janitor, shawn`at`aob.org.
+
+
+OTHER HOMEBREW INFORMATION
+  http://www.aob.org/aob - The AHA's web site.
+  http://alpha.rollanet.org - "The Brewery" and the Cat's Meow Archives.
+  info`at`aob.org - automated e-mail homebrewing information.
+
+
+ARCHIVES:
+  At ftp.stanford.edu in /pub/clubs/homebrew/beer via anonymous ftp.  Also
+  http://alpha.rollanet.org on the web and at majordomo`at`aob.org by e-mail.
+
+
+COPYRIGHT:
+  As with all forums such as this one, copyrights are retained by the
+  original authors. In accordance with the wishes of the members of the
+  Homebrew Digest, posts to the HBD may NOT be sold or used as part of a
+  collection that is sold without the original authors' consent. Copies
+  may ONLY be made available at no charge and should include the current
+  posting and subscription addresses for the HBD.
+
+
+----------------------------------------------------------------------
+
+
+From: rcd`at`raven.talisman.com (Dick Dunn)
+Date: 30 Aug 96 00:23:28 MDT (Fri)
+Subject: resistance (Electrical Safety 101)
+
+
+RANDY ERICKSON <RANDYE`at`mid.org> wrote, about heating elements... 
+[reference: heating element 5500W`at`240V] 
+ 
+> The element has an AC resistance due to its design and material 
+> properties, independant of voltage (Assuming pure resistance, which is 
+> close enough in this example). 
+ 
+Assuming that by "pure resistance" you mean non-reactive, OK, but that's 
+too simplistic.  Heating elements are not "pure resistance" independent of 
+voltage. 
+ 
+You can see this dramatically with a "heating element" that gets very hot-- 
+e.g., a light bulb.  A 60-watt 120-volt bulb has a cold resistance of about 
+18 ohms, but if you crank that through the ol' P = v^2 / r, you come up 
+with 800 watts!  In fact, a 60-watt bulb *does* draw more than 10x its 
+rated power when you first turn it on...but that makes it heat up, and the 
+heat increases the resistance, and the increased resistance decreases the 
+power. 
+ 
+Now, a brewing heating element doesn't get anywhere near the temp of the 
+filament of a light bulb, but there's still a non-negligible change in the 
+resistance as it heats up, and there is an implication here. 
+ 
+[excerpting a bunch] 
+>...In this example Resistance equals Voltage divided by current 
+> or 10.5 Ohms.  Power also equals Current squared times resistance, in 
+> this case 5500 Watts. 
+> 
+> If you connected this element to 120 V, the resistance would not change, 
+> it would still be 10.5 Ohms... 
+ 
+This is wrong, because at 120 V the element will not get up to the opera- 
+ting temperature implied by the power consumption at 240 V.  Randy's cal- 
+culation of 1/4 as much power at 120 V as at 240 V is correct for the ideal 
+resistor, but for a heating element it will be somewhat higher than 1/4. 
+Since 1/4 of 5500W is 1375W, this moves the numbers into the realm where 
+you want to start to think carefully.  A 15-amp 120V circuit is, in 
+principle, good for 1800W, and it would be prudent not to get right on top 
+of that.  You'll probably be over 1500W.  (Howzabout somebody take one of 
+those 5500W elements and measure the cold resistance??  That will give us 
+the other endpoint.)  So if you are on a 15A circuit, you want to be sure 
+that your wiring is healthy and you're not trying to run much else on the 
+same circuit. 
+ 
+In almost all normal cases, there's no dire danger...it's no worse than 
+when you start the coffeepot and the toaster on the same circuit at the 
+same time, and it pops a breaker.  There are safety nets; you just want to 
+stay out of 'em. 
+ 
+> Basically most home panels are rated for 100 A or more and the first line 
+> of protection is the fuse on the transformer primary which is sized to 
+> allow 150 percent overload or so... 
+ 
+Few homes are on their own transformers.  The first line of protection is 
+the per-circuit breaker (15 or 20 A) which is protecting the wiring to the 
+outlet.  Second line of protection is the 100A-or-more mains breaker; if 
+that pops you have screwed up big-time or you had a bad single-circuit 
+breaker.  Don't even think about how big a screwup it takes to hit the 
+transformer. 
+- --- 
+Dick Dunn         rcd`at`talisman.com         Boulder County, Colorado  USA 
+   ...Too bad about Boulder. 
+
+
+------------------------------
+
+
+From: "Dr. Gillian Grafton" <GRAFTONG`at`novell2.bham.ac.uk>
+Date: Fri, 30 Aug 1996 10:08:51 +0000
+Subject: Summer Lightning
+
+
+Someone wrote (apologies, I can't remember your name, I was too free 
+with the delete button): 
+ 
+>  The second question:  Has anyone out there tasted Dunce's Summer 
+> Lightning?  My wife and I had some in Salisbury and we really liked 
+> it.  As I recall, it had a really interesting honey-ish flavor that 
+> was complemented by a citrusy hop aftertaste.  I'm thinking of using 
+> a pretty standard Pale Ale malt bill but substituting 1 LB honey 
+> malt for some of the British two-row and maybe chucking in a little 
+> biscuit for good measure.  Any suggestions? 
+ 
+First of all, Summer Lightning is by the Hop Back Brewery and not 
+Bunce's (although they are very close to each other, it's an easy 
+mistake to make). Second, it's my favourite beer of all time, and 
+readers of the UK Homebrew digest will know of my long term quest to 
+clone this beer. Last night I racked 5 gallons of my latest version 
+which has to be the closest I have ever got. The recipe I used is 
+posted on the UK Homebrew web site: 
+http://www.breworld.com/homebrew/ 
+Use version two, and make the following changes. Use 25 g Goldings 
+for the full boil, 15 g Goldings for the last 5 (NOT 15) minutes, and 
+10 g Goldings to dry hop. I used the yeast from bottle conditioned 
+Summer Lightning (which Hop Back are now exporting to the USA) in 
+preference to the Wyeast German. Note that the recipe is for UK 
+gallons and not US gallons. 
+ 
+Enjoy. 
+ 
+Gillian 
+//=\   Dr. Gillian Grafton 
+\=//   Centre for Clinical Research in Immunology and Signalling 
+ //=\  University of Birmingham 
+ \=//  Birmingham B15 2TT, UK 
+  //=\ Email:  GraftonG`at`novell2.bham.ac.uk 
+  \=// WWW:  http://sun1.bham.ac.uk/graftong/ 
+
+
+------------------------------
+
+
+From: dyacavone`at`sprintmail.com
+Date: Fri, 30 Aug 1996 03:01:49 -0700
+Subject: [none]
+
+
+
+
+------------------------------
+
+
+From: Michel Vandenplas <mvdp`at`maties.sun.ac.za>
+Date: Fri, 30 Aug 96 14:34 +0200
+Subject: Sorghum Beer Challenge
+
+
+ 
+As a result of the recent discussion on sorghum beer in the Digest and 
+private email (sorry I lost one, please resend) I've decided on a novel way 
+of resolving the issue through a challenge. It's also time for me to give 
+back something to the HBD after all I've taken over the years. The challenge 
+works in the following manner: 
+ 
+1.        Bill Ridgely and Terry Tegner post their sorghum 
+          beer recipes and discussions thereof to the HBD. 
+ 
+2.        I send sorghum malt to the first 3 takers of the 
+          challenge. Sorry, limited quantities only, 
+          international mail is expensive. (Send name and 
+          postal address via private email.) 
+ 
+3.        These folk brew a batch of sorghum beer. Drink it over 
+          a period of days (punishment or pleasure depending on 
+          your point of view). Finally, they post a description, 
+          etc. of the beer to the HBD for discussion. 
+ 
+The only possible problem that I can foresee could be with custom clearance 
+of the malt by the 3 challenge takers. Any opinions? More importantly, any 
+takers?  Russel you may get your wish after all. 
+Bill? Terry? We're waiting :-) 
+ 
+Michel Vandenplas (email: mvdp`at`maties.sun.ac.za) 
+Amateur Brewing Association, Cape Town, South Africa 
+ 
+
+
+------------------------------
+
+
+From: Schwab_Bryan`at`CCMAIL.ncsc.navy.mil
+Date: Fri, 30 Aug 96 07:42:38 CDT
+Subject: ???
+
+
+     Greeetings fellow Brewers,  At the risk of appearing or sounding Anal 
+     Retentive I submitt the following question which I know has been 
+     responded to several times but I can't remember. 
+ 
+     What are the chances of having an infected batch of Ale if one sees 
+     clumps of what appears to be white moldy blotches on top of the ale in 
+     its secondary?? 
+     The other night I racked over a 5 gal batch and struggled through 
+     several stuck siphons, got so frustrated I ended up quitting and 
+     settlin' for 4 gallons and now I have these clumps of white mold on 
+     the top of the Ale. 
+ 
+     Any suggestions to what it may be?  I did during each re-siphon 
+     process "dunk" the hose and racking cane into boiling water 
+     momentarily follwed by a cold water rinse B4 re-introducing into the 
+     primary. 
+     I'd hate to dump this batch of Red Ale( Red as in Blood)which started 
+     out at 1.062 and has dropped down to 1.010. 
+ 
+     Thanks 
+     Bryan 
+     Schwab_Bryan`at`ccmail.ncsc.navy.mil 
+ 
+
+
+------------------------------
+
+
+From: Bill Rust <wrust`at`csc.com>
+Date: Fri, 30 Aug 96 08:49 EDT
+Subject: Re: Strange yeast question
+
+
+Greetings Brewmeisters, 
+ 
+John Posing writes: 
+>moving them, I noticed that yeast had clung to one side of each bottle 
+>and that it was always oriented in the same direction, NE. Can someone 
+>explain why? 
+ 
+I believe that if it were Spruce beer and the yeast clings to the north side 
+of the bottle that you have a moss infection. 
+ 
+Skol. 
+ 
+ ------------------------------------------------------------------- 
+                          | Without question, the greatest invention 
+ Bill Rust                | in the history of mankind is beer. Oh, I 
+ Master Brewer            | grant you that the wheel was also a fine 
+ Jack Pine Savage Brewery | invention, but the wheel does not go 
+ http://www.i1.net/~wrust | nearly as well with pizza.  - DAVE BARRY 
+ ------------------------------------------------------------------- 
+ 
+
+
+------------------------------
+
+
+From: brian.wurst`at`aquila.com (BRIAN WURST)
+Date: Fri, 30 Aug 96 07:52:00 -0600
+Subject: CD-ROM
+
+
+Greetings from the (current) Focus of Evil in the Homebrew World: 
+ 
+It has been with much amazement (and amusement) that I have read the 
+posts about copyrights and the HBD.  People so worried that their own 
+words, like "I pitched a Wyeast smak-pak straight into my barley wine 
+and its been three days and no krausen....is my beer ruined?" could 
+actually make people money. 
+ 
+At the request of my wife (an attorney) I must now stand up and state 
+that I am not "the guy" who put the HBD on CD-ROM.  I "confessed" to it 
+just to view the righteous indignation of those who believe such a disk 
+exists. 
+ 
+What a view! 
+ 
+Al e-mail's me a private threat to sue. 
+Others post their 2 cents to the HBD....Shawn posts he has included a 
+copyright notice in the HBD. Does that mean Al can drop *his* copyright 
+notice?  Bets are he won't. Jethro Gump weighs in with his opinions, 
+ending with"...bring on the lawyers!"  Remember, calling your attorney 
+racks up billable time and he/she isn't going to forget when they find 
+out I was pulling your leg. Kirk Fleming almost kinda defends the CD 
+maker.  Russell Mast doesn't bite, but chastises everyone for not taking 
+it off-line. Randy Erickson was the only person to actually seek more 
+information before forming an opinion...He's probably laughing at all 
+these responses like I am. 
+ 
+Everyone, Pay Attention! 
+Have you ever seen an advertisement for such a product? 
+Have you ever seen the product? 
+Do you have firsthand knowledge of anyone buying such a disk? 
+ 
+If you answered no to the three questions above, then chances are THE 
+DAMN THING DOES NOT EXIST!  Quitcherbitchin! 
+ 
+Just what is the probability that a person who has a CD-ROM drive 
+would not have access to an HBD archive?  Of that tiny minority, how 
+many are going to buy this disk rather than get on the internet?  Small 
+enough to approach zero? That's what I think.  Nobody's making any money 
+off the HBD, except those who have improved their brewing skills to the 
+point of going pro...and that ain't copyright infringement! 
+ 
+Al has good brewing advice in general so I can't call him a lunatic, but 
+his crusade against an imaginary injustice wears thin.  A copyright 
+notice on his advice just intimidates novices and gives his advice "airs 
+of legitimacy".  And if y'all are so concerned about copyrights, then 
+why are you quoting from DeClerck, Richman, Foster, Zymurgy, Brewing 
+Techniques, etc.  Did you get express permission from the authors of 
+those texts to quote from them?  Hypocrisy, I tell ya. 
+ 
+It's all been loads of fun but it should stop now.  If ya wanna continue 
+whining about this, lets go offline.... 
+ 
+Brian Wurst (brian.wurst`at`aquila.com) 
+"Nature has formed you, desire has trained you, fortune has preserved 
+you for this insanity."  -Cicero 
+
+
+------------------------------
+
+
+From: Steven W. Schultz  <swschult`at`cbdcom.apgea.army.mil>
+Date: Fri, 30 Aug 96 9:09:49 EDT
+Subject: Request for Recipes:  Bigfoot Barleywine and Harpoon IPA
+
+
+In the past year or so, my local liquor store has not had Bigfoot 
+Barlewine in stock :-( Yesterday I asked the owner about that, and he said 
+it was no longer being distributed "out east," although he wasn't sure 
+why.  Since Maryland is nearly as far "east" as you can get in this country, 
+I am now assuming the worst, which is that the non-availability of Bigfoot 
+will continue... sigh. 
+ 
+>> Anyone who has one, please provide me a recipe for a Bigfoot clone. << 
+                       ^^^^^^                           ^^^^^^^ ^^^^^ 
+I sampled Harpoon IPA this week for the first time, and it was fine-- 
+well-hopped, great flavor, and (to me) balanced.  I'm not sure if it is 
+true to style or not, but I like it.  If anyone has a recipe for a clone 
+of this stuff, please send it. 
+ 
+Thanks in advance. 
+ 
+Steve Schultz 
+Abingdon, Maryland 
+
+
+------------------------------
+
+
+From: kbjohns`at`escape.com (Ken )
+Date: Fri, 30 Aug 1996 09:23:31 -0400 (EDT)
+Subject: Cc: WRICHARD`at`ALOHA.intel.com
+
+
+Bill Richard wrote 
+ 
+>I have always brewed with an enameled brewpot and recently bought a 
+>stainless steel brewpot. The problem is this: now when I make a batch of beer 
+>it seems to have a metallic flavor to it.  Is this because of the stainless? 
+>The pot didn't cost alot ($25), is it "cheap" stainless?  What should I do to 
+>prevent this problem in the future? 
+ 
+A low cost brew pot has a very thin bottom. Since stainless has a fairly 
+poor heat transfer, a thin pot will often scorch. I suspect this is 
+contributing to the taste in you beer. You are better off staying with 
+enamel than cheap stainless. Good stainless pots cost over a hundred for 10 
+gal.
+Ken 
+Precision Brewing Systems URL http://www.wp.com/HOSI/pbscat.html 
+East Coast Brewing supply URL 
+http://virtumall.com/EastCoastBrewing/ECBMain.html
+ 
+
+
+------------------------------
+
+
+From: "David R. Burley" <103164.3202`at`CompuServe.COM>
+Date: 30 Aug 96 09:21:31 EDT
+Subject: Copy of: Pumpkin,Newbie,
+
+
+SHAWN, 
+ 
+DID YOU READ THIS PART 2 MESSAGE.  IT SHOULD HAVE GONE AT THE SAME TIME AS THE 
+OTHER MANGLED MESSAGE IT WAS SENT VIA E-MAIL WITH PART 1 ATTACHED AS A WP FILE.
+THERE SHOULD BE THIS PART 2 WHICH ENDS WITH MY NAME AND A PART 1 ALSO ENDING 
+WITH MY NAME, WHICH I WILL ALSO SEND SEPARATELY TO YOU TO SEE IF IT ARRIVES 
+WITHOUT MANGLING. 
+ 
+DAVE BURLEY 
+- ---------- Forwarded Message ---------- 
+ 
+From: David R. Burley, 103164,3202 
+TO: Shawn Steele Submissions, INTERNET:homebrew`at`aob.org 
+DATE: 8/29/96 4:30 PM 
+ 
+RE: Copy of: Pumpkin,Newbie, 
+ 
+Brewsters: 
+Part 2 
+ 
+AlK asks about the source of the taste of various salts. On the subject of 
+bitterness arising from the metal ion and/or the sulphate.  In the absence of 
+absolute knowledge or a professional quote, I would vote for both, since I have
+read it a number of times. I do know metal ions can impart bitterness, since I 
+am too familiar with iron and manganese in water ( although at near neutral it 
+could be the hydroxides - see below).  Sodium chloride has a hot taste and is 
+reputed to impart a smoothing effect on beers.  Does this mean that sodium is 
+not bitter?  I guess so. 
+ 
+I speculate below: 
+ 
+In Chemistry 101 we learn that basic things are bitter and acidic things are 
+sour.  This was a way chemists evaluated new compounds -(sometimes to their 
+detriment if their research subject was lead, mercury or arsenic compounds. 
+ergo
+"sugar of lead" - i think it is lead acetate).  So what is important in 
+determining sour or bitter when a salt dissolves in water, is"what is the 
+proton
+ion to hydroxide ion ratio in the salt solution"? At 1:1 this is neutral and pH
+= 7 so should be neither bitter nor sour. At greater than one, pH <7 acidic and
+sour.  At less than one, pH >7, and bitter 
+ 
+If one dissolves calcium sulfate in water it is probably ( I don't know) 
+neutral to very slightly acidic since calcium is a weak base  and will take up 
+hydroxide ions for it's formation of Ca(OH)+ (pKdiss = 2.6) and sulfate comes 
+from a strong acid  but will take up protons for its formation of ( HSO4)- ion 
+(pKdiss = 2.1). In all cases of divalent ions, Ca, Mg,CO3, SO4, there are two 
+equilibria to complicate things, In the case of Mg, Ca, SO4 the first stage 
+i.e.
+M(OH)2 to M(OH)+ is 100% ionized. Not so in the case of carbonate, H2CO3 can 
+exist in solution of CO2 as you know. Based on this, sodium sulfate should be 
+alkaline, since the sulfate ion pulls protons out of solution to form some 
+bisulfate ions (HSO4, pK = 2.1) and the pH should increase. Sodium chloride 
+should be neutral since sodium is a strong base and hydrochloric acid is a 
+strong acid, which may explain its hot, ionic taste, i.e. neither sour or 
+bitter.  Calcium carbonate (pK = 7 and 11 for carbonic acid) is made up of a 
+weak base and a weaker acid, so it is bitter. Sodium carbonate is made up of a 
+strong base and a weak acid  and it is really bitter. I predict that calcium 
+chloride will be neutral to sour since the Calcium ion will take up some 
+hydroxide ions, whereas the chloride comes from a strong acid.. 
+ 
+Although the first ionization for both Ca and Mg is 100% one could speculate 
+that magnesium sulfate should be less bitter than calcium sulfate and a lot 
+less
+than sodium sulfate, since even though magnesium's first ionization is 100% pK 
+=0 its second is 2.6, Ca's second pK = 1.2, pK and the sodium would not take up
+any hydroxides leaving the sulfate to take up protons and shift the ratio in 
+favor of the hydroxide ions. For carbonate the pKs are 7 and 11.  Its salts 
+would be more bitter than the comparable sulfate salt. 
+ 
+In its reaction with phosphate, magnesium has a pK = 24 and calcium has a pK = 
+33, so it will theoretically take more magnesium to drop the pH than it will 
+calcium, but both will be pretty effective, since they are both really 
+insoluble.  All pK info from Rubber Chem. Handbook 73rd ed. 
+ 
+So the answer is, as far as salts go whatever makes the pH go up above pH = 7 
+will make a solution bitter        ( whether it is sulfate or carbonate taking 
+up protons for example). Therefore, with this simple model it is the sulfate 
+that is responsible for the bitterness of the pure salt of calcium and 
+magnesium
+sulfate solutions. In the case of metal hydroxides or oxides, these are bases 
+and can supply the hydroxide which will be bitter and the acids which can 
+supply
+protons and be sour, which is where we started. As we discussed above a wort is
+not a simple thing, and will have many competing simultaneous reaction. In the 
+case of calcium sulfate in beer an excess of sulfate will be there relative to 
+the calcium because of the phosphate precipitation.  These same reasonings 
+should argue that phosphate solution derived from phosphate salts should also 
+be
+bitter, since they should be alkaline and they are, witness TSP (tri-sodium 
+polyphosphate) as a model. 
+ 
+So, it is the calcium and magnesium ions which exhibit control of the sulfate 
+and phosphate concentrations and therefore the bitterness.   Which is the 
+bitterest on a molar basis, sulfate or phosphate? Based on the pK, I guess the 
+phosphate would be, since it has two equilibria to suck up protons vs one for 
+sulfate, assuming the first eqm is totally dissociated in both cases.   So in 
+beer is it the calcium, magnesium or the sulfate and the phosphate which 
+controls the mineral bitterness? I submit that it is both anions and cations, 
+based on this reasoning. 
+ 
+Where this argument doesn't hold up is that beer has a pH that is acidic and 
+therefore we shouldn't taste any mineral bitternesss. Is it that our taste buds
+somehow neutralize the acid taste out and evaluate the salts? or that taste bud
+reactions are sorta like little pH meters?  If this is the case can the metal 
+ions with a relatively insoluble hydroxide like Ca, Mg, Fe, Mn act as a source 
+of hydroxide ions and taste bitter,whereas sodium would not?  I could guess so 
+and therefore both the cations and anions would be responsible the bitteness. 
+ 
+I said it was speculation didn't I? 
+ 
+Keep on brewin' 
+ 
+ 
+Dave Burley 
+ 
+
+
+------------------------------
+
+
+From: John Penn <john_penn`at`jhuapl.edu>
+Date: Fri, 30 Aug 1996 09:39:56 +0000
+Subject: Copyrights
+
+
+My $0.02: I respect Al and everyone's elses right to copyright their ideas 
+especially in the
+case where they want to publish a book and don't want someone else to publish 
+their ideas
+first. The initial email on Al's copyright was kind of amusing but some of the 
+following
+threads were a little harsh. If someone is publishing a CD of HBD, as long as 
+they are selling
+it at cost or if the AOB makes a little extra than cost for maintaining the 
+HBD, I think that
+is fair. As long as no one is really making money off the HBD I think it would 
+be hard to sue,
+that said, anyone making money off the HBD is abusing this service. Also, I 
+hate to see
+flaming. Everyone contributes their opinions freely and while others may not 
+agree always,
+let's respect everyone's diversity of opinion. Hope I don't get too many flames
+for this but
+thats my opinion. 
+  John Penn 
+
+
+------------------------------
+
+
+From: "David R. Burley" <103164.3202`at`CompuServe.COM>
+Date: 30 Aug 96 10:43:05 EDT
+Subject: HSA
+
+
+Brwsters: 
+ 
+Sorry I don't have the reference, since I don't keep HBD's and don't have a 
+search engine to relocate the posting. 
+ 
+Anyone know where I can get one?  Just Kidding. 
+ 
+Anyway.  An HBDer commented on the fact that George Fix sorta invented the 
+concept of hot side aereation. Not so.  He may have brought it to light in the 
+annals of HBD - thanx Doc., but it has been known for a long time that 
+aereation
+of a hot wort will produce produce an inferior product. 
+ 
+Thus:  M&BS ed.1 (1971)  p407: 
+ 
+"AEREATION 
+ 
+For satisfactory active and regular fermentation it is necessary that the wort 
+should contain sufficient dissolved oxygen. Various authors quote this as being
+between 33 and 88% air saturation. Accordingly air, or occasionally oxygen, is 
+injected into the wort. Most brewers only aereate the cold wort to give 75-90% 
+saturation (8-14 ppm of oxygen) but some brewers aereate the hot wort and 
+others
+aereate before and after refrigeration. Aereation of hot wort leads to 
+oxidation
+of wort constituents and an increase in colour........" 
+ 
+Although a lot of time is spent here on the subject of aereation, hot and cold,
+I think cooling the wort before pouring it through the air is important, for 
+those of you still removing hops with a strainer through the air, as I used to 
+do.  I can personally testify that the "hop extract tang" as identified in the 
+original British HB books (1960s)  was nothing more than HSA.  When I started 
+moving the hort wort via tubing into the (plastic) fermenter versus pouring it 
+in hot, the quality of my beer improved remarkably. 
+ 
+One thing we must always remember is that brewing in many cases does not scale 
+up or down easily.  In our case the surface to volume ratio of our operations 
+compared to breweries are vastly different. Aereation,  in particular, is a 
+major difference, since we are given the opportunity to aereate both hot and 
+cold, simply because we use such small volumes. 
+ 
+Keep on brewin' 
+ 
+Dave Burley 
+ 
+
+
+------------------------------
+
+
+From: lheavner`at`tcmail.frco.com
+Date: Fri, 30 Aug 1996 09:51:32 -0500
+Subject: glow-in-the-dark beer
+
+
+     Tom asked about using a microwave oven for sanitation.  I don't know 
+     how effective it would be on dry goods, but I use it to make starters. 
+     I make up some wort from extract and water in appropriate 
+     concentration and add to quart canning jars with wide mouths.  You can 
+     use pint or half gallon jars as well, I suppose.  I put a canning lid 
+     on the jar, but not the ring and nuke the starter solution until it 
+     has boiled for about 10 minutes.  I suppose you could add hops, but I 
+     don't.  After boiling, I take the starter solution out of the MW oven 
+     and put the ring on and tighten and allow to cool to room temp.  It 
+     should be sealed and sterile? on the inside.  When the time is right, 
+     smack the yeast pak and let it rise.  (Actually, I usually smack the 
+     yeast and verify that it is gonna expand before I make the starter.) 
+     When it is fully expanded, shake the sealed, room temperature jar of 
+     starter to aerate, remove the ring, carefully break the seal and add 
+     the yeast.  replace the lid and ring and tighten.  Then loosen the 
+     ring by about a quarter turn which should be sufficient to allow CO2 
+     to escape.  Depending on your preference, you can step up this starter 
+     to a larger volume or add directly to your fermenter.  I've only been 
+     doing the liquid yeast thing for a couple years, but never had a 
+     problem. 
+ 
+     Lou 
+     <lheavner`at`frmail.frco.com> 
+
+
+------------------------------
+
+
+From: KennyEddy`at`aol.com
+Date: Fri, 30 Aug 1996 11:03:15 -0400
+Subject: Milk of Sulfatia / Those Dreary Engineers
+
+
+William P Giffin responds to my contention that ~30 ppm or more Mg in yer 
+beer is unpleasant, wondering (along with AlK) why then aren't Burton ales 
+yucky with 60 ppm or more: 
+ 
+> My reading of the subject indicates that what Ken say is true, I just 
+> don't understand why Burton beer doesn't have this unpleasant 
+> characteristic. 
+ 
+Well, again I'm just guessing, but I suppose it's true for the much the same 
+reason that 650 ppm of sulfate works too.  Put even 100 ppm sulfate in your 
+(also pale) Pilsner and I'll bet you'll be making faces when you drink it (a' 
+la Keystone's BitterBeer Face?)  Perhpas some favorable hop interaction?  I 
+thought I read somewhere that there was even a theory that there was 
+something chemically special about Goldings hops in particular that caused 
+this unlikely synergism in Pale Ales.  Sounds goofy but so does saying that 
+650 ppm of sulfate will make your beer tastier.  Go figure. 
+ 
+***** 
+ 
+David Burley asks: 
+ 
+>Who says chemists and engineers are a dreary bunch? 
+ 
+Yeah, who says? 
+ 
+***** 
+ 
+Ken Schwartz 
+KennyEddy`at`aol.com 
+http://members.aol.com/kennyeddy 
+
+
+------------------------------
+
+
+From: Jeff Ray <djray`at`wwa.com>
+Date: Fri, 30 Aug 1996 09:29:59 -0500
+Subject: Cleanup Question from a Newbie
+
+
+During the blow-off in the early stages of fermentation, a fair amount of 
+gunge was deposited on the inside of my plastic tubing.  It's about quarter 
+inch clear tube.  Any ideas how to clean this stuff out? 
+ 
+Jeff Ray 
+_______________________________________________________________________ 
+|      Jeff Ray | djray`at`wwa.com | http://sashimi.wwa.com/~djray/       | 
+|______________________________________________________________________| 
+ 
+
+
+------------------------------
+
+
+From: "Toler, Duffy L." <TOLERD`at`cdnet.cod.edu>
+Date: Fri, 30 Aug 96 10:19:00 PDT
+Subject: UV Radiation Sanitizing
+
+
+ 
+After looking through the latest catalog from American Science & Surplus (no 
+affiliation, blah blah), I was intrigued by a product listed as "Germicidal 
+Cabinet".   A steel cabinet, 24" X 18" X 9" with 4 wire shelves and a double 
+door with locks.  An automatic timer zaps the inside with mild radiation for 
+15 minutes.  The price is $175.  They claim it kills 99+% of the bacteria 
+present. 
+ 
+Do any of our biological gurus have any opinion on how effective this would 
+be for sterilizing bottles, smaller pieces of equipment, etc.? 
+ 
+If anyone is interested the catalog number is 79245 and they can be reached 
+at (847) 982-0870 or faxed at (800) 934-0722.  You may want to get a catalog 
+too, just for the entertainment value alone.  A huge selection of electrical 
+equipment, lab glassware, educational toys and general junk.  They have a 
+retail store not far from my house and it's a homebrewer's dream.  You can 
+walk around for hours trying to figure out how to incorporate their stuff 
+into your next brewing gizmo! 
+ 
+Brewin' on the brain, 
+ 
+Duffy Toler 
+tolerd`at`cdnet.cod.edu 
+
+
+------------------------------
+
+
+From: Scott Dornseif <SDORNSE`at`wpo.it.luc.edu>
+Date: Fri, 30 Aug 1996 10:55:23 -0500
+Subject: BI rtm
+
+
+Good Morning: 
+ 
+I have just paid the $27.00 registration fee to protect the phrase: "Copyright 
+1996 Al
+Korzonas ".  Please cease and desist in it's use. 
+ 
+Sincerely 
+Scott Dornseif 
+Chicago, Illinois 
+Copyright 1996 owned exclusively by Big Irene rtm 
+ 
+ 
+
+
+------------------------------
+
+
+From: Scott Dornseif <SDORNSE`at`wpo.it.luc.edu>
+Date: Fri, 30 Aug 1996 10:56:59 -0500
+Subject: BI rtm
+
+
+From:  Scott Dornseif 
+To: LUCHICAGO.SMTP("homebrew`at`aob.org") 
+Date:  8/30/96 10:46am 
+ 
+Hello: 
+I have just paid the $27.00 registration fee to protect the phrase: "Copyright 
+1996 Al
+Korzonas ".  Please cease and desist in it's use. 
+ 
+Sincerely 
+Scott Dornseif 
+Chicago, Illinois 
+Copyright 1996 owned exclusively by Big Irene rtm 
+ 
+ 
+
+
+------------------------------
+
+
+From: Scott Dornseif <SDORNSE`at`wpo.it.luc.edu>
+Date: Fri, 30 Aug 1996 11:00:42 -0500
+Subject: YMhbr
+
+
+oops 
+ 
+
+
+------------------------------
+
+
+From: Cory Wright <cwright`at`midcom.anza.com>
+Date: Fri, 30 Aug 1996 12:22:58 -0500
+Subject: Re: Copyrights online, etc. etc. etc.
+
+
+Aaarrrgh!!!!! Not again! I thought we'd get through the year without this... 
+(yeah, right)
+ 
+DIE, THREAD, DIE, DIE, DIE!!!!! 
+ 
+Thank you, I feel much better. 
+ 
+Cheers, 
+ 
+Cory 
+cwright`at`midcom.anza.com 
+ 
+
+
+------------------------------
+
+
+From: Cory Wright <cwright`at`midcom.anza.com>
+Date: Fri, 30 Aug 1996 12:32:05 -0500
+Subject: Re: Heated Wyeast storage, dry hopping
+
+
+From: Don Trotter <dtrotter`at`imtn.tpd.dsccc.com> 
+> 
+I have seen an article in an old special issue of Zymurgy that 
+claims that 100% of the yeast in a Wyeast foil packet will be dead 
+within 3 days,  whan kept at room temperature. 
+> 
+I carried six small jars of propogated Weihenstephans around for about six 
+months in a cooler in the trunk of my car (through the middle of the 
+summer). It had been kept in my refrigerator for about three months prior. 
+No, I don't make any claim to actual intelligence, at least regarding these 
+actions. I was in the middle of job search, job find, move to job location, 
+etc. I take the approach with my brewing of "what the heck, try it", so I 
+did, and it seems that the silly stuff was still viable. Believe it, or 
+not... 
+ 
+> 
+From: WattsBrew`at`aol.com 
+Subject: Dry hopping 
+ 
+The question I have is "do the hops need any special attention or should I 
+just 
+chuck them in the secondary?, also is there any risk of contamination from 
+homegrown hops?." 
+> 
+Just chuck them in the secondary. Good luck. 
+ 
+Cheers, 
+ 
+Cory 
+cwright`at`midcom.anza.com 
+ 
+
+
+------------------------------
+
+
+From: "Ray Robert" <Ray_Robert`at`bah.com>
+Date: 30 Aug 1996 13:32:06 U
+Subject: plumbing supply
+
+
+Hi all, 
+ 
+A few weeks back someone posted an URL for american plumbing supply (i think) 
+for water filters and I have not been able to access it.  I've searched the 
+web to no avail.  Anyone got it? 
+ 
+Robert Ray 
+ray_robert`at`bah.com 
+ 
+"To hell with artificial intelligence, I'd settle for the real thing." 
+
+
+------------------------------
+
+
+From: mikehu`at`lmc.com
+Date: Fri, 30 Aug 96 11:28:10 PDT
+Subject: RE: 15.5 barrels
+
+
+ 
+Kevin O'Connor asks: 
+>Question:  Has anyone on this collective used 15.5 gal half barrels 
+>for kegging homebrew? 
+>If you have any information 
+>regarding using these kegs, I'd greatly appreciate it. 
+ 
+They work great. I use them for both primary fermenters and serving tanks. 
+All you have to do is remove the down-tube, and get yourself a tap. To remove 
+the down-tube, release *ALL* the pressure (VERY Important), then remove the 
+retaining ring located around the inside top of the bung hole with a sharp, 
+pointed tool. Once you have removed this retainer, you can lift up and turn 
+the down-tube, and then pull it out of the keg. Clean and sterilize, sorry, 
+SANITIZE, then fill with beer. Replace the down-tube and retainer, and you 
+are in busisness. Attatch your tap, charge with CO2 and shake to carbonate. 
+When I use one for my primary fermenter, I use a cork stopper with a 1" hole 
+drilled through the center to accept a blow-off tube. I made the mistake 
+(ONCE) of using an airlock and a rubber stopper. I was quite surprised and 
+amazed when it exploded, covering my ceiling and all four walls with 7 gals 
+of beer and hops. (for a detailed recounting of this experience, see HBD #1983)
+When racking to the secondary, I use a tap, CO2 and a modified down-tube. I 
+cut off 1.5" from the bottom of the tube so that I don't pickup all the sludge 
+(technical brewing term) from the bottom. Here's some more data points: 
+A size 11 rubber stopper will fit the bung perfectly. 
+You can cut the retaining ring into two pieces, which will make removing and 
+replacing it easier. I've been looking for a snap ring that will fit, but have 
+not found one yet. (if anyone knows what size to use, please let me know!) 
+ 
+Mike H. in Portland, OR 
+mikehu`at`synopsys.com 
+copyright 1996, SANKEY, inc. 
+
+
+------------------------------
+
+
+From: jwc`at`med.unc.edu (John W. Carpenter)
+Date: Fri, 30 Aug 96 15:11:16 EDT
+Subject: chillin'
+
+
+ > John in my experience and using the most efficient counterflow wort chiller 
+ > on the market, The MAXICHILLER I need 30 gals of 60F water to cool 5 gals 
+ > from boiling to 70F. 
+ > 
+ > I don't understand how 5 gals of 33F water could cool 5 gals of 212F water 
+ > to less than 106. could you explain 
+ > 
+  I cool with tap water until the wort gets to that temp.(75F-80F or so) 
+ and then use the 5gal of cold water. I guess I forgot to mention that. I 
+ also use a very slow flow rate to get the best heat transfer I can. My 
+ chiller is 50 ft. also. I also stir the wort usnig my chiller several 
+ times durring the process. I brew outside and let the water run down the 
+ driveway and often do other stuff while waiting. I don't think I use near 30 
+ gal. I've never measured it, but would guess I only use around 15 gal total. 
+ 
+ John Carpenter 
+ email - jwc`at`med.unc.edu 
+
+
+------------------------------
+
+
+From: galley`at`hou.sperry-sun.com
+Date: 
+Subject: Cheap Stainless
+
+
+ 
+ 
+     Bill Richard said: 
+ 
+ 
+          "The problem is this: now when I make a batch of beer it seems to 
+          have a metallic flavor to it.  Is this because of the stainless? 
+          The pot didn't cost alot ($25), is it "cheap" stainless?  What 
+          should I do to prevent this problem in the future? " 
+ 
+     My brew partner bought a "stainless" pot for our use.  I thought "cool 
+     - didn't even ask me to kick in $$$".  After three ruined (or at least 
+     damaged - opinions differ here) batches later, and much chasing of 
+     alternative causes I asked him how much he paid for his "stainless" 
+     pot.  You guessed it: $25 at Walmart. 
+ 
+     So, to answer your questions:  Yes, it is because of your pot.  Yes it 
+     is "cheap" stainless, probably a 400 series stainless (at best); you 
+     need 304 or 316 stainless (304 is most common and less expensive).  To 
+     prevent the problem.... well that's pretty obvious.  I wouldn't 
+     recommend cooking anything acidic in your pot, unless you like 
+     metallic spaghetti sauce. 
+ 
+     I've got our brand new 60 qt. (18-8 304 SS) Vollrath in the truck as I 
+     write this.  We are brewing with it tomorrow, and it is the first step 
+     towards a primo 10 gallon brewery.  For what it's worth, my wife was 
+     kind enough to spend half a day searching for deals on stainless stock 
+     pots (in Houston, Texas - lots of sources of used and new restaurant 
+     supplies).  The criteria were: 60 qt., Vollrath preferred, must be in 
+     stock because we were brewing Sunday.  Many sources for the Vollrath 
+     were found, and no other brands were found.  The price range was 
+     remarkable.  Low price was $186.40 special order and wait two weeks; 
+     high price was $360!!  The cheapest one that was in stock was $198.95, 
+     but they accepted our offer of $189.00.  BTW: Even in a city of 
+     4,000,000 people she was unable to locate any used SS stock pots from 
+     any of the liquidators/used vendors ("they last forever" and "we 
+     hardly ever see those" were the usual responses). 
+ 
+     Is it worth it, compared to a modified sanke?  We thought long and 
+     hard about this.  Sabco would have provided a reconditioned keg with 
+     top cut out for about $90-100 after shipping that would do the same 
+     thing.  We obviously decided that it was worth it.  YMMV, and we 
+     haven't used it yet.  We may still finish out the brewery with 
+     modified kegs rather than Vollraths.  Recommendations and suggestions 
+     are welcome. 
+ 
+ 
+     Tom Galley 
+     Long time lurker 
+ 
+ 
+
+
+------------------------------
+
+
+End of Homebrew Digest #2168
+****************************

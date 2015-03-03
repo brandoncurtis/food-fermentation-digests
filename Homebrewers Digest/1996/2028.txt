@@ -1,0 +1,1539 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id EAA25897 for <spencer`at`srvr5.engin.umich.edu>; Sat, 4 May 1996 04:05:49 -0400 (EDT)
+Received: from twins.rs.itd.umich.edu (twins.rs.itd.umich.edu [141.211.83.39]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id EAA28497 for <spencer`at`engin.umich.edu>; Sat, 4 May 1996 04:05:48 -0400 (EDT)
+Received: by twins.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id EAA07246; Sat, 4 May 1996 04:05:45 -0400 (EDT)
+Received: from hplb.hpl.hp.com by twins.rs.itd.umich.edu (8.7.5/2.2)
+        with ESMTP id EAA07235; Sat, 4 May 1996 04:05:37 -0400 (EDT)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Sat, 4 May 1996 09:04:55 +0100
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA04109; Sat, 4 May 1996 01:00:06 -0600
+Date: Sat, 4 May 1996 01:00:06 -0600
+Message-Id: <9605040700.AA04109`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #2028 (May 04, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #2028                             Sat 04 May 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Glass houses/technical errors ("Manning Martin MP")
+  Bucket label removal (Michael_Evans)
+  Nat'l Homebrewing day revisited ("Bryan L. Gros")
+  re: How to attach labels? / Fruit Concentrates / Plaid-tosis? (Greg Potts)
+  Refrigerator Control (KennyEddy)
+  ATTACHING HOMEBREW LABELS (Eric & Carolyn Metzler)
+  RE: Woody and Al (second failed post, grrr) (fwd) (Robert Paolino)
+   ("MK3052")
+  cleaning corny kegs (Moncsko)
+  Re: Sale of Homebrew Digest (Jeff Schroeder)
+  Re: Nat'l Homebrewing day revisited (Scott Abene)
+  Stale Grains?? (Larry Davids)
+  Muriatic Acid (Jim Nasiatka-Wylde)
+  Decoction mashing// Coors (Adam Rich)
+  JSP Web page (Jack Schmidling)
+  Thanks (Bill Rust)
+  CO2, CP Fillers (Todd Kirby)
+  digest ownership change ("Tracy Aquilla")
+  Re: O-Rings (hollen)
+  Dry Ice, Coors, etc. ("Huyck, Randy")
+  Beer Labels ("Huyck, Randy")
+  Homebrew Day (Jeff Frane)
+  Yeast Gene Map Completed (Bill Ridgely FTS 827-1391)
+  Re: AoB taking over (Kelly Jones)
+  Sankey Fermenter? ("Kenneth D. Joseph")
+  SS Tubing, Couplings, Etc. ("Kenneth D. Joseph")
+  Water Analysis ("Patrick E. Humphrey")
+  Ranco Temperature Controller/HBD Sale (Hugh Graham)
+  IBUs in hopped extract (Gregory King)
+  Kudos for Rob/AoB OK with Me/Oxygen-Barrier containers (Jeff Hewit)
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: 2 May 1996 12:54:20 U
+From: "Manning Martin MP" <manning_martin_mp`at`mcst.ae.ge.com>
+Subject: Glass houses/technical errors
+
+
+>Pat writes:
+
+
+>Al, Al, Al! I'm truly surprised at you. The AHA probably thinks 
+>you're a putz!
+
+
+>>And Al replied:
+
+
+>>If they ever admit they think of me this way, I'll quit as Technical
+>>Editor and let Zymurgy slide back to the level of Brew Your Own.
+
+
+Remember that thing about glass houses and throwing stones?  I would just
+like to point out that whoever reviewed the recent Zymurgy article on
+counterflow wort chillers left it so riddled with typo's, and computational
+errors that it was nearly worthless.  The persons responsible for reviewing
+that piece clearly did a great disservice to the authors, the magazine, and
+to its readers. 
+
+
+Al, if you are *single-handedly* holding up the technical quality control end
+at Zymurgy, then it must be your fault, eh?  Quit sucking on your CO2 tank!
+Your head is going to pop!  (but, where EVER did you find that
+ball-lock-to-Putz adapter?? ;^)
+
+
+MPM
+
+
+------------------------------
+
+
+Date: 02 May 96 13:21:12 EDT
+From: Michael_Evans`at`FRB-MAIN-2.CCMAIL.CompuServe.COM
+Subject: Bucket label removal
+
+
+A great way to get labels off bottles is by using ammonia.  I feel 
+confident that it will eat the glue off the buckets just as well.
+
+
+Mike
+Dallas
+
+
+
+
+------------------------------
+
+
+Date-Warning: Date header was inserted by ctrvax.Vanderbilt.Edu
+From: "Bryan L. Gros" <grosbl`at`ctrvax.Vanderbilt.Edu>
+Subject: Nat'l Homebrewing day revisited
+
+
+"the humble" Scott Abene writes (after pulling Pat and Al apart and 
+making them shake hands and apologize):
+>
+>Okay everyone...
+>
+>When should National Homebrew Day be???
+>
+>Spring?  Summer? Fall? Winter?
+>
+>Let me know.
+
+
+How about a compromise.  We'll have National HomeBREWing Day in May
+and all make a fest beer which we'll lager in our spare refridgerators (or
+in our cellars covered with a wet tshirt) and then break them out in September
+for National Homebrew Drinking Day.  
+
+
+How about it?  We've doubled the number of holidays and we've
+honored the traditions of the past.  Should we send this to Karen Barela
+or go straight to congress?!?
+
+
+               - Bryan
+                 grosbl`at`ctrvax.vanderbilt.edu
+                 Nashville, TN
+
+
+
+
+------------------------------
+
+
+Date: Thu, 2 May 1996 15:12:06 +0100
+From: gpotts`at`tube.com (Greg Potts)
+Subject: re: How to attach labels? / Fruit Concentrates / Plaid-tosis?
+
+
+>I've looked all over for info on how best to attach homemade labels to a
+>bottle.
+> I've been taping them on, but this is not attractive to say the least.
+>Any ideas?
+>
+>Thanks
+>
+>Viktor
+
+
+Hello All,
+Thought this was a good opportunity to contribute my $.02
+
+
+I was using spray-glue up until Christmas, which works well if used in a
+ventilated space, and if you are careful about the overspray. I wouldn't
+have gone out to buy the stuff, (it's pricey!), but since we had it at hand
+, what the hey....
+
+
+At Christmas-time I created a set of gift-boxes, labelled nicely by myself
+and my five-year old son Matthew. We glues them on with mucillage glue, the
+kind of stuff kindergarten kids use for cut-and-paste. It sets up quick,
+doesn't smell up the house, and washes off with water when prepping bottles
+for the next batch.
+
+
+In other news....
+
+
+Mixed up a batch of Cranbeery Ale according to the Cats meow archive. I did
+a pleasant raspberry ale a while back, and the wife suggested I try some
+more fruit beers...   Anyhow, I couldn't stomach the cost of 6 lbs of
+frozen or (Gasp) fresh raspberrys here during an Ontario Winter, so I used
+four cans of Welch's concentrate. It's a nice enough juice on its own,
+mixed 3:1 with water. Beer tasted good with about a month of conditioning,
+and will be popular come summer. I've gone with four small cans of Ocean
+Spray cranberry juice concentrate this time, which adds up to about 1.5
+lbs. (I had to use the scale in the produce section at the grocery. I've
+never seen people weigh frozen juice before!) I mean, hey... it beats seeds
+in the beer, clogged filters & wasted wort; and if you're using malt
+extract, what's wrong with concentrated fruit?
+
+
+Has anyone had any problems with concentrates? I have been careful to check
+the ingredients, so that I'm just adding pure fruit, and not additional
+preservatives...  It certainly seems like a cheaper way to get the fruit
+(from October-June, anyway), with less cleanup!
+
+
+Final Concern...
+
+
+While brewing the aforementioned, my wife put on an Ashley McIsaac CD,
+which could be clearly heard from the kitchen. He is clearly pictured as a
+plaid-clad-lad on the CD cover, and at least one song has a bagpipe
+accompanying his fiddle with gaelic lyrics. Is my beer ruined?
+
+
+
+
+gpotts`at`tube.com
+100 Mhz Power Computing 1Gb/16MB/4xCD   ***  1985 Honda 550 Nighthawk
+Remember the two most important things in life:
+      1. Don't tell everyone everything you know
+      2. 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 2 May 1996 15:55:34 -0400
+From: KennyEddy`at`aol.com
+Subject: Refrigerator Control
+
+
+To update my series on Electronic Thermometry, I have updated
+
+
+ftp://users.aol.com/kennyeddy/thermometer/thermo.zip
+
+
+to include plans for a refrigerator controller.  This was developed
+independently of Greg Walz's (walzenbrew`at`aol.com) excellent design and is
+quite different than his.  Both our designs have pro's and con's and either
+should solve the problem equally as well; choose your approach based on
+persoanl preference.  Greg's version might be a bit more expensive than mine
+but then it adds the temperature display and more-flexible programming.  Mine
+is perhaps simpler in that once it's set up and calibrated a simple twist of
+the knob gives you 30F to 70F control -- temperature readout is available but
+not necessary.  Component wiring difficulty is about the same in either case.
+
+
+This should keep Marty Tippin busy for a while!! (Thanks for html'ing our
+stuff, Marty!!)
+
+
+Ken Schwartz
+KennyEddy`at`aol.com
+
+
+------------------------------
+
+
+Date: Wed, 01 May 1996 18:23:24 -0700
+From: Eric & Carolyn Metzler <ewmetzler`at`telplus.net>
+Subject: ATTACHING HOMEBREW LABELS
+
+
+"VICTOR" nehrinv1`at`smtpgate.mugu.navy.mil
+Asked: How to attach labels?
+
+
+I've been satisfied with a stripe of rubber cement or Elmer's Glue down 
+the side of each label.  I remember reading that MILK works, and is easy 
+to peel off for bottle re-use.
+
+
+Eric W. Metzler in Enfield, ME
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 2 May 1996 18:46:41 -0500 (CDT)
+From: Robert Paolino <rpaolino`at`execpc.com>
+Subject: RE: Woody and Al (second failed post, grrr) (fwd)
+
+
+Subject: RE: Woody and Al (second failed post, grrr)
+X-Sender: rpaolino`at`earth
+To: Homebrew Digest <homebrew`at`hpfcmgw.fc.hp.com>
+Subject: Try again on rejected post (RE: Woody's Belgian Barleywine)
+Message-Id: <Pine.SOL.3.91.960501193400.15557A`at`earth>
+
+
+Let's try this one again.  Damn "Smart Quotes"....
+I've deleted some of the "non-essential" text to save space
+(and I got rid of those damn Smart Quotes :-( )
+
+
+Your article sent to homebrew is being rejected. The reason:
+ -- Contains non-ascii characters --
+
+
+You wrote:
+
+
+Date: Tue, 30 Apr 1996 22:22:20 -0500 (CDT)
+From: Robert Paolino <rpaolino`at`execpc.com>
+X-Sender: rpaolino`at`earth
+To: Homebrew Digest <homebrew`at`hpfcmgw.fc.hp.com>
+Cc: woody`at`altair.stmarys-ca.edu
+Subject: RE: A really big beer: anything special to think about?
+
+
+Woody Weaver <woody`at`altair.stmarys-ca.edu> wrote:
+[snip WW text and my response]
+
+
+[snip]
+but keep in mind that this batch may end up being one of those "learning
+experiences."
+
+
+1. It will probably be a rather malty/sweet beer (some might say pancake
+syrup). Although I would be among the last people to recommend hopped
+[snip]
+such a high gravity.), I almost hope you used a hopped extract here,
+because 1.5 ounces of Chinook isn't going to do it.  Not knowing the
+gravity of your wort as it was boiling (partial boil or full volume?) or at
+what time(s) you added hops, or whether you used loose flowers or pellets,
+I can't be too specific about the IBUs, but it doesn't sound like a lot for
+a beer that huge.  Hell, I've used more Columbus (comparable alpha) than
+that in a sub-1.050 American Pale Ale (not all added at the beginning, of
+course).  (Did I happen to mention that I'm a hophead? :-))  But let's just
+say you were using pellets and had a utilisation of 20% (I wouldn't expect
+any more with that kind of gravity.)  And let's say you boiled the whole
+1.5 ounces for 60-90 minutes in a single addition at the beginning rather
+than divided into multiple additions at different times.  At best, then,
+you got 60 IBUs (based on a five gallon batch--you didn't specify).   It's
+within range for a barley wine, but at the low end.  You might come out
+okay, but surely you were not the least bit heavy-handed with the hops. 
+AHA guideline is 1.090-1.120 OG and 50-100 IBUs.  You're just over the top
+in gravity and near the bottom for IBUs.  (If utilisation was less than
+20%, you're around 50 or even lower.)
+
+
+2.  Belgian Abbey for a barleywine?  Hey, why not?  I like experimentation,
+too.  I'll assume that you decided on other than a barleywine.  I won't get
+into the timing of when to pitch, but there is some well-reasoned thought
+that you should wait until _after_ "high krausen" (you may wish to refer to
+the archives if you want to know more), but I don't think you're going to
+get into much trouble on that count.  I'd think that 250ml is a little shy,
+especially in such a big beer, but if you aerated well and things got 
+[snip]
+
+
+3.  [snip]
+won't _need_ that long if fermentation is fairly vigourous.  I wouldn't
+_plan_ to use the Champagne yeast, though.  I think of repitching (and some
+will differ with me) as a last resort for a beer that hasn't attenuated
+sufficiently rather than something you should plan to do.  Better to start
+out with lots of good healthy yeast and lots of aeration than to repitch. 
+Others, however, swear by repitching--but not necessarily with Champagne
+[snip]
+Repitch with the same strain, or even with something fairly neutral like an
+American Ale yeast, if you're concerned about going overboard with the
+phenolics from the Belgian yeast.  Use a healthy enough culture and it can
+handle the alcohol.  For further reference, browse through some back issues
+(1995?) of Brewing Techniques--I posed the question of repitching to Dave
+Miller for his Q/A column.
+
+
+4.  There may be some cause for concern about the Cascades put right in the
+primary because of sanitation.  Those hops haven't been boiled and may
+carry some nasties you don't want in there--especially before the yeast has
+had a chance to out-compete them  If you're looking to dry hop, all the CO2
+[snip]
+Wait until secondary, where the hop character will remain, and the alcohol
+will take care of any possible concern about sanitation.
+
+
+5.  Don't worry about autolysis or oxidation.  Four weeks, especially in a
+beer that huge, is not such a long time (provided that temperatures are
+moderate).  Plastic gets a bad rap.  Take good care of it and it will take
+care of your beer.  As for its permeability, I wouldn't use plastic for
+something I wanted to age (in bulk) a long time, but a month just isn't
+long enough to worry about  The only possible concern about oxidation (not
+oxygenation) I would have here is in your repitching-- I'd  hesitate to
+aerate the beer at that time, although (if I recall correctly) Dave Miller
+didn't think it would be such a problem.  To me (and partly the reason I
+asked the question) aerating or not aerating for repitching seemed to be a
+Catch-22.  As for autolysis, there's been some discussion that autolysis
+isn't quite the problem it's made out to be.  In fact the only time I ever
+had that nasty "rubbery" flavour/odour display itself in one of my beers
+was in a very low gravity beer in which I used an older starter that I
+should have known better than to use.  I was a little suspect of the yeast
+when I pitched it, but that's what I had ready. It was a learning
+experience.  Even then, I doubt it would have been noticeable in a bigger
+beer.  (This one was a 1.024 low alcohol beer--very, very delicate and
+unforgiving of errors, to say the least.)
+
+
+[snip]
+you rack to secondary.  If you find that it is indeed too sweet, you may
+want to boil some hops in a bit of wort and add it in an attempt to balance
+the beer.  As a matter of principle, I'd prefer that to using bottled hop
+oils.  Keep in mind, though, that I haven't had occasion to try either
+method, and perhaps others can comment about adding bitterness after the
+fact and how best to do it.
+
+
+Now go have some hops,
+Now go have a beer,
+
+
+
+
+Bob Paolino                                     
+Madison                                    rpaolino`at`earth.execpc.com
+You may now go back to your regularly-scheduled beer
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date:          Thu, 2 May 1996 19:07:10 EST
+From: "MK3052" <MK3052CR`at`stem.indstate.edu>
+Subject:       
+
+
+    I am looking for a homemade recipe for wine.  If anyone has a 
+good one you can email it to me at mk3052cr`at`stem.indstate.edu
+               Thanks
+                  Cindy
+:>
+:)
+                  
+
+
+------------------------------
+
+
+Date: Thu, 2 May 1996 20:53:15 -0400
+From: Moncsko`at`aol.com
+Subject: cleaning corny kegs 
+
+
+In an HBD one or two ago, somebody asks:
+
+
+
+
+"Anyone had particular success cleaning the stubborn adhesive the soft drink
+companies seem to use on the OUTSIDE of used corny kegs? Does TSP do a
+good job? I have several to do, TIA.
+
+
+Regards,
+Russ Hendry, R.O. Planning In Sunny Invermere BC"
+
+
+
+
+Carefully scrape off the stickers with a razor blade, then use paint thinner,
+mineral spirits, turpentine, or laquer thinner on a paper towel & rub the
+glue on the outside. ( You could probably just as well use an old Mead that
+came out bad or an eaqually bad Barlywine) Naturally be carefull not to
+splash anything inside the keg. Then, wash the outside of the keg with a
+small drop of dishwashing liquid on a sponge. Use alot of water. Again, make
+sure nothing gets inside the keg. (except beer!)
+
+
+------------------------------
+
+
+Date: Thu, 2 May 1996 18:16:23 -0700 (PDT)
+From: Jeff Schroeder <jms`at`rahul.net>
+Subject: Re: Sale of Homebrew Digest
+
+
+Kelly Jones <kejones`at`ptdcs2.intel.com> writes:
+>Rob wrote:
+>
+>> This is to let you all know that it is likely that the Association of
+>> Brewers will be taking over
+>
+>Does anyone else find this extremely distressing?  Although I
+>appreciate all of Rob's effort over the years, and can certainly
+>understand if he or his provider can no longer continue to support the
+>HBD, would it be possible to hold out until we can find a
+>noncommercial, unbiased sponsor?
+>
+>Although many fine things can no doubt be said about the AoB, they are
+>also an entity which is directly or indirectly involved in making money
+>from nearly every aspect of brewing and homebrewing.  I would hate to
+>see this become a forum where members feel hesitant to discuss their
+>thoughts on Charlie, the AoB, the GABF, Zymurgy, Brewer's Publications,
+>the AHA, contests, bottle caps, etc. for fear of censorship and/or loss
+>of sponsorship.
+>
+>I know Rob's needs play a large role in making this decision, but
+>unless we are under critical time pressure, my vote is a resounding NO
+>on AoB ownership of the digest, at least until other options are
+>explored.
+
+
+And korz`at`pubs.ih.att.com (Algis R Korzonas) writes:
+>On a related note, are any of you as scared as I am about the AHA taking
+>over the HBD?
+>[...]
+
+
+And I thought I was the only one who had reservations about this.  I hate
+for this to sound like a "me too", but I have the same concerns that Kelly
+expresses.  Maybe the AoB is agreeing to take a "hands-off" approach with
+the Digest and just provide the service, but we're in trouble if they change
+their minds about that in the future.
+
+
+And to tie in another favorite thread:  Do all of our copyrighted posts
+become the property of the AoB?  Will we see the AoB profiting from the ideas
+discussed here?  (I realize that some poeple don't care about the copyright
+issue, but some do.)
+
+
+I doubt we could create a "new" HBD in the future if we become unhappy with
+this one.  Maybe I'm being a bit too paranoid, but obviously I'm not the
+only one.
+- -- 
+Jeff Schroeder      |   jms`at`rahul.net
+San Jose, CA        |   PGP'ed mail preferred.  Finger for key.
+
+
+------------------------------
+
+
+Date: Thu, 02 May 1996 21:40:15 -0500
+From: Scott Abene <skotrat`at`wwa.com>
+Subject: Re: Nat'l Homebrewing day revisited
+
+
+Bryan, 
+
+
+Being that Congress are probably much heavier drinkers than the AHA I vote
+we hit them first...
+
+
+Scott
+
+
+
+
+At 12:32 PM 5/2/96 -0500, Bryan L. Gros wrote:
+>"the humble" Scott Abene writes (after pulling Pat and Al apart and 
+>making them shake hands and apologize):
+>>
+>>Okay everyone...
+>>
+>>When should National Homebrew Day be???
+>>
+>>Spring?  Summer? Fall? Winter?
+>>
+>>Let me know.
+>
+>How about a compromise.  We'll have National HomeBREWing Day in May
+>and all make a fest beer which we'll lager in our spare refridgerators (or
+>in our cellars covered with a wet tshirt) and then break them out in September
+>for National Homebrew Drinking Day.  
+>
+>How about it?  We've doubled the number of holidays and we've
+>honored the traditions of the past.  Should we send this to Karen Barela
+>or go straight to congress?!?
+>
+>               - Bryan
+>                 grosbl`at`ctrvax.vanderbilt.edu
+>                 Nashville, TN
+>
+>
+>
+
+
+
+
+####################################################
+#                ThE-HoMe-BrEw-RaT                   #
+#           Scott Abene <skotrat`at`wwa.com>           #        
+#           http://miso.wwa.com/~skotrat           #
+# (Skotrats Official Homebrew "Beer Slut" Webpage) #
+#                        OR                        #
+#    http://miso.wwa.com/~skotrat/Brew-Rat-Chat/   #
+#  (Skotrats Brew-Rat-Chat Homebrew Chat System)   #
+#         "Get off your dead ass and brew"         #
+####################################################
+
+
+
+
+------------------------------
+
+
+Date: Thu, 2 May 1996 20:04:33 -0700
+From: l.d.`at`ix.netcom.com (Larry Davids)
+Subject: Stale Grains??
+
+
+stale??? I have grain here for partial mash pilsner that has been 
+cracked for about three weeks. Is it still usable, or do I have to  
+deep six it??? All help gratefully accepted. Thanks in advance.
+                                         Larry Davids, Glen Head, NY 
+
+
+------------------------------
+
+
+Date: Thu, 02 May 1996 22:37:33 -0500
+From: Jim Nasiatka-Wylde <Jwylde`at`interaccess.com>
+Subject: Muriatic Acid
+
+
+>
+>Date: Wed, 01 May 96 17:56:00 PDT
+>From: "Toler, Duffy L." <TOLERD`at`cdnet.cod.edu>
+>Subject: bottle cleaning
+>
+>
+>I have used the old sanitize your bottles in the dishwasher thing with great 
+>success in the past.   Our new house with the really hard water gave me less 
+>than acceptable results.  The bottles are covered with a white, rough, scaly 
+>film. I have tried soaking, scrubbing, TSP, etc. to clean them with little 
+>luck.  I was thinking of soaking them in some acidic solution.  I have some 
+>Muriatic acid for cleaning bricks, would it be a really bad idea to make a 
+>weak solution with this to soak the bottles?  or how about white vinegar 
+>instead?
+
+
+Hey Duffy!
+
+
+I wouldn't use Muriatic acid if I were you.  It's a form of HCL and is rather
+strong.  Try citric acid instead - you can get it at the grocery store as
+coffee pot cleaner or as dishwasher cleaner.  Put it in your dishwasher with
+the cleaned bottles (no soap or detergents!) and run it as per the directions 
+on the box.  Your bottles will come out sparkly clean!  (This also works well
+on glasses that are gunked up too)
+
+
+Ciao!
+Jamie
+
+
+All the money in the world is no match for hard work and ingenuity...
+ ____
+ \  /   Nothing is so strong as Gentleness;       JWylde`at`interaccess.com
+  \/       nothing so gentle as real strength           Nasiatka`at`anl.gov
+
+
+
+
+------------------------------
+
+
+Date: Fri, 03 May 1996 07:53:39 -0500
+From: rich.adam`at`Mayo.EDU (Adam Rich)
+Subject: Decoction mashing// Coors
+
+
+Hi Everyone,
+        Just for, the record I think Coors sucks.  The great thing about the
+HBD is that I don't need to worry about someone beating me up for expressing
+my opinion.
+        Now for a real live question: I though that boiling grains was bad.
+When I started brewing the game plan was extract + specialty grains with the
+strong advice: steep grains in water until a boil is reached and then Remove
+The Grain.  Otherwise, I was told, I would get destruction of protein, from
+boiling, tannin removal from the husk, and therefore cloudy and astringent beer.
+        Well, this must be false if decoction mashing is such a godsend to
+improved malt flavor and aroma for some beer styles!  Could someone explain
+this to me?  
+thanks, 
+Adam
+
+
+=======================================================
+Adam Rich, PhD     Dept. of Physiology and Biophysics
+richa`at`mayo.edu (lab)   or    arich`at`millcomm.com (home)
+The Improved HomePage: http://www.millcomm.com/~arich/index.html 
+=======================================================
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 1996 09:03:59 -0500 (CDT)
+From: Jack Schmidling <arf`at`maxx.mc.net>
+Subject: JSP Web page
+
+
+
+
+>From: korz`at`pubs.ih.att.com (Algis R Korzonas)
+
+
+>If they ever admit they think of me this way, I'll quit as Technical
+Editor and let Zymurgy slide back to the level of Brew Your Own.
+(In the May 1996 issue, they claim you should not use light-brown bottles,
+high fermentation temperatures cause increased diacetyl and acetaldehyde,
+corn sugar causes vinegar-like flavours, an EasyMasher-type lauter tun
+results in slow running lauters...
+
+
+Sounds like you ought to send your resume to BYO.  If  I read you
+correctly, the EM had a bad review in this mag.  As it would be the
+first such bad review and the only homebrew magazine I neither
+subscribe to nor advertise in, I wonder if there is any connection.
+
+
+***
+>On a related note, are any of you as scared as I am about the AHA taking
+over the HBD?
+
+
+You bet, ME!
+
+
+>If I had the facilities, I would take over the HBD, but alas, I
+don't, so I can't.
+
+
+I don't either but I can pay for them if you want to run it.
+
+
+ ...........................
+
+
+Thanks to all for the feedback and suggestions on our Web page.
+I would also like to praise Keith Royster for the great job he did 
+designing and implementing it.
+
+
+
+
+                           ***********************
+Visit our Web page for product flyers and applications information.
+                    http:/dezines.com/`at`your.service/jsp/
+
+
+
+
+js
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 1996 10:22:30 -0400
+From: Bill Rust <wrust`at`csc.com>
+Subject: Thanks
+
+
+Rob,
+
+
+I have been reading and enjoying the digest for years now.  I must confess
+that I take it somewhat for granted that I can show up for work or download
+my mail at home and expect to see my *daily* HBD.  I run a small humor list
+and edit/write a quarterly newletter.  I am always amazed that as these
+become more popular, what a challenge it becomes to keep up with them
+regularly.  It positively boggles the mind when you realize the Herculean
+task it must be to maintain the HBD.  The Digest has been through a lot of
+changes in the past 10 years and has held up surprizingly well.  It is a
+classy listserver that provides a dizzying variety of creativity, humor, and
+facinating technical information.
+
+
+My hat is off to you.  You have contributed to the creation of a homebrewing
+phenomenon, and hope you continue to be an active participant.  I'm sure I
+can speak for everyone that enjoys the digest in saying...
+
+
+Thank you!
+
+
+ ------------------------------------------------------
+ Bill Rust, Master Brewer | 
+ Jack Pine Savage Brewery | Das bier trinken ist gutes
+ Shiloh, IL        (NACE) | essen.      -IMMANUEL KANT
+ ------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 1996 10:25:30 -0400 (EDT)
+From: Todd Kirby <mkirby`at`bgsm.edu>
+Subject: CO2, CP Fillers
+
+
+It now seems well established that dry ice doesn't work well for chilling 
+wort (thanks Spencer), so how about carbonating a PET bottle full of 
+freshly racked homebrew? Would it be possible to add a weighed amount of 
+dry ice without making a bomb? It would seem that if you know the 
+temperature and the volume of liquid (beer) you're working with, there 
+must be a way to determine how much dry ice to add to give a specific 
+dissolved CO2 level, without risking blowing off one's limbs of course.
+
+
+Also, could someone please review (in a little more detail) the use of 
+the $3 counter pressure bottle filler? 
+
+
+Todd K.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 96 11:18:04 CDT
+From: "Tracy Aquilla" <aquilla`at`salus.med.uvm.edu>
+Subject: digest ownership change
+
+
+In Digest #2027:
+<U18183`at`UICVM.CC.UIC.EDU>  "Paul Sovcik" wrote:
+>> On a related note, are any of you as scared as I am about the AHA taking
+>> over the HBD?
+>Yes.  I really am a bit nervous about this.  As a HBD reader for the
+>last six years or so, I have seen quite a bit of Zymurgy and AHA bashing
+>in this forum.  I wonder if the AHA will tolerate this freedom of
+>expression -  I certainly hope so.   Hopefully, they will allow the HBD
+>to remain a self-regulated digest, and minimize AOB self-promotion.
+
+
+I too express misgivings about this, but I have a different worry. I'm
+afraid new subscribers to the digest will not receive their first issue
+until six months after they subscribe, and submissions will sit back-logged
+for up to a year. ;-)
+Tracy
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 96 08:33:42 PDT
+From: hollen`at`vigra.com
+Subject: Re: O-Rings
+
+
+>>>>> "Jim" == Jim Nasiatka-Wylde <Jwylde`at`interaccess.com> writes:
+In article 
+>> Way back when, Eric Peters <epeters`at`harris.com> said:
+>> 
+>> I have some ten gallon soda syrup kegs (ball-lock) and I am
+>> having trouble finding replacement o-rings for the lids.  Can
+>> any of you offer any advice on good hunting grounds for o-rings?
+
+
+Jim> W.W.Grainger or McMaster Carr would be good places for bulk,
+Jim> or check out the local Ace Hardware, Sears, or the local auto parts
+Jim> store.  You'll pay a bit more for the smaller packages of them
+Jim> though.
+
+
+Be very careful in O-ring selection.  The typical O-rings available
+through hardware stores, Grainger or McMaster Carr may be slightly a
+different thickness.  In some cases, if they are too thin, they will
+not seal right, or if they are too thick and not springy enough, they
+will prevent closure.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)597-7080x164                 Email: hollen`at`vigra.com
+Sr. Software Engineer - Vigra Div. of Visicom Labs  San Diego, California
+
+
+------------------------------
+
+
+Date: Fri, 3 May 96 9:01:09 -0700
+From: "Huyck, Randy" <rwh0303`at`hub.doh.wa.gov>
+Subject: Dry Ice, Coors, etc.
+
+
+If you want to put dry ice in plastic bags (or any other closed 
+container) and immerse it in your hot wort, all I can say is "Please 
+don't."  If you feel like putting a tablespoon or so of solid CO2 in a 
+heap of 5-gallon bags over and over again, and then deal with the bags 
+expanding and shoving themselves out of the pot, splattering sticky wort 
+all over your brewing area, knock yourself out.  This stuff expands far 
+too much to contain it in anything sealed and use it for cooling.  As for 
+it being cheap, if an earlier respondent's calculations were correct and 
+you need 68lbs, then it would cost $25-$30 per batch (and that's figuring 
+it at the rate we pay as a public agency, I don't know if private retail 
+is higher or not).  Surrounding your pot in the sink with dry ice may 
+work, but be careful--if you have a porcelain sink, the thermal shock may 
+crack it.  I don't know if you'd want to add water--I really doubt 
+it--you'd have water sputtering an spurting all over the place.  If you 
+have a drain in the middle of your kitchen floor and clean by just hosing 
+the place down, cool, but not practical for most of us.  (See earlier 
+comment about CO2, plastic bags, and wort.)
+
+
+
+
+
+
+As for Coors and satirical recipies, I have to stand by Mr. Finley.  
+Cheap American beer can be (and has long been) a beautiful thing.  While 
+I clearly prefer almost any homebrew or micro to Schmidt, I'm not going 
+to down an IPA after mowing the lawn.  Many of us appreciate things that 
+would be repugnant to many others, but remember--didn't an inherent 
+attraction to megaswill brands prompt you to homebrew?  If it was 
+completely unappealing, would you have wanted to do better?  Dog*&#t 
+doesn't inspire ME to go create a better turd that would be better to 
+step in...
+
+
+
+
+
+
+Thanks for the bandwidth.  I needed to rant to someone...
+
+
+_________________________________________________________________________
+
+
+Just having a hat and a pair of boots doesn't make you a cowboy
+
+
+_________________________________________________________________________
+
+
+Randy Huyck
+
+
+Immunization Program Warehouse
+
+
+Phone:  (360) 664-8688
+
+
+Fax:  (360) 664-2929
+
+
+MS: 7845
+
+
+Email:  RWH0303`at`hub.doh.wa.gov
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 96 9:23:01 -0700
+From: "Huyck, Randy" <rwh0303`at`hub.doh.wa.gov>
+Subject: Beer Labels
+
+
+Oh, yeah, need to waste more space.
+
+
+
+
+
+
+I just dip my beer labels in milk (whole, 2%, skim, doesn't matter) and 
+slap them on the bottle.  I gently pat-down any wrinkles or air bubbles 
+with a damp towel.  The labels stay on very well and slide right off when 
+wet.  Not good if you're going to ice down a bucket full of bottles for a 
+wedding or other event, but for everyday, fridge-cooled or room-temp 
+cerveza, it's the simplest method I've seen.
+
+
+
+
+
+
+________________________________________________________________________
+
+
+Just having a hat and a pair of boots doesn't make you a cowboy
+
+
+_________________________________________________________________________
+
+
+Randy Huyck
+
+
+Immunization Program Warehouse
+
+
+Phone:  (360) 664-8688
+
+
+Fax:  (360) 664-2929
+
+
+MS: 7845
+
+
+Email:  RWH0303`at`hub.doh.wa.gov
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 03 May 1996 09:30:21 -0700
+From: jfrane`at`teleport.com (Jeff Frane)
+Subject: Homebrew Day
+
+
+People can sure get stirred up about the weirdest stuff...
+
+
+Yes, it is true that homebrewers can brew year-round, and
+that commercial brewers do it all the time.  But Al Korzonas
+is correct, I think, that it is not the best time to reach
+new brewers.  Here in the Pacific NW we don't get a lot of really
+hot days until well into the summer, and here in Portland a lot
+of us have basements -- so we brew through the summer.
+
+
+But it is a *fact* that business falls off sharply at homebrew
+stores from about May through September; this is especially true
+for new brewers -- their attention is engaged elsewhere.  This is
+why I don't teach beginning brewing classes until the Fall: no
+interest.
+
+
+On the other hand, has anyone bothered to query the AHA as to
+why May was chosen?  Could it be that someone in the gummint
+offered that date and the AHA grabbed what they could?  Or could
+it be that the date is largely irrelevant, and strictly
+ornamental?  I mean, up until Al or whomever raised this issue,
+how many of you could quote the date?  And how many of you
+ever introduced someone to brewing because it what National
+Homebrew Day?
+
+
+Anyone really give a rip?
+
+
+- --Jeff Frane
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 1996 12:20:16 EST
+From: Bill Ridgely FTS 827-1391 <RIDGELY`at`A1.CBER.FDA.GOV>
+Subject: Yeast Gene Map Completed
+
+
+For those of you with an interest in molecular biology, the 
+following appeared in the 3 May morning press release from DHHS. 
+Maybe some enterprising publisher will print a poster-size gene 
+map of S. cerevisiae, suitable for hanging on your brewhouse 
+wall:
+
+
+        INTERNATIONAL TEAM COMPLETES DNA SEQUENCE OF YEAST
+ 
+        An international consortium of scientists announced it 
+        has finished spelling out the entire genetic code of a 
+        species of yeast valuable to biologists and commonly used 
+        by bakers and brewers.  The achievement required 
+        determining the order of all 12,057,500 chemical subunits 
+        contained in the yeast's nuclear DNA.  Containing some 
+        6,000 genes arranged on 16 chromosomes, the single-celled 
+        yeast is the most advanced organism yet to be sequenced.
+ 
+        Having the entire yeast DNA sequence now paves the way 
+        for scientists to study all the information encoded in 
+        the organism's genetic blueprint. Yeast has already 
+        provided biologists with a valuable resource for 
+        determining the function of individual human genes 
+        involved in medical problems, such as cancer, 
+        neurological disorders, and skeletal disorders. Over the 
+        next few years, scientists in the United States and 
+        Europe will piece together a comprehensive look at how 
+        all the genes in a cell function as an integrated system.
+
+
+Bill Ridgely        US FDA/CBER    ridgely`at`a1.cber.fda.gov
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 03 May 1996 10:49:55 -0700
+From: Kelly Jones <kejones`at`ptdcs2.intel.com>
+Subject: Re: AoB taking over
+
+
+I wrote:
+
+
+> > I would hate to see this become a forum where members feel hesitant
+> > to discuss their thoughts on Charlie, the AoB, the GABF, Zymurgy,
+> > Brewer's Publications, the AHA, contests, bottle caps, etc. for fear
+> > of censorship and/or loss of sponsorship.
+
+
+To which Shawn Steele, AoB replied:
+> We already read the digest :) 
+
+
+True, but there's a difference between participating in a forum that the
+AoB _READS_, and a forum that the AoB owns, controls, and manages.
+
+
+Let me step back for a second and say that if the Digest needs a new
+home, and the AoB has volunteered to help, then I am genuinely grateful
+for that. I am not slamming the AoB.  The HBD needed help, and they
+graciously offered it.  And I'm reasonably sure their intentions are
+honest.
+
+
+However, I still don't think the AoB is the best group to sponsor us.
+Despite its status as a 'non-profit' organization (and all that really
+means is that you don't pay dividends to stockholders, it has nothing to
+do with whether you make gobs of money or not), the AoB is deeply
+entrenched in making money from almost every aspect of brewing and
+homebrewing.  In case not everyone is aware, the AoB is the umbrella
+organization than runs the Great American Beer Fest, craftbrewer
+conventions, the AHA (which includes Zymurgy magazine, the AHA annual
+convention, the National Homebrew competition, the mythical AHA judging
+program, beer competition sanctioning, etc.), Brewer's Publications
+(which publishes all of the Beer Style series, as well as dozens of
+other books on brewing and homebrewing), and also wholesales and retails
+miscellaneous beer/brewing supplies such as glassware and
+oxygen-scavenging bottle caps.  The potential conflict of interest here
+is too great.  I think the AoB already controls enough of our brewing
+world, let's not give them one more piece of it.
+
+
+Also, if the AoB sponsors the HBD, will that give them the right to use
+it as a forum for announcements/advertisements?  It seems the AoB has a
+convention/junket/book/whatever to announce just about every week (I
+know, I'm on their mailing list).  If the answer is no, that's great.
+But if they want to do this, who are we to argue?
+
+
+And although Shawn has assured us that he/they will not attempt to
+moderate the digest, it still may produce a situation where people feel
+awkward discussing certain issues.  After all, if the AoB sponsors the
+HBD, they can certainly decide to un-sponsor us if it ever gets to be
+more trouble than it's worth.  And where will that leave us?  Looking
+for a new sponsor again!! It's better to get a neutral aponsor in the
+first place, IMO.  
+
+
+Does anyone remember what happened to the BJCP a year ago?  This was a
+judging program that was sponsored in part by the AHA.  Well,
+apparently, the AHA decided that it had "philosophical" differences with
+the BJCP, and decided to unceremoniously dump them on very short notice.
+This left the BJCP, at least for a while, floundering.  Do we want this
+to happen to us?
+
+
+I am in an admittedly awkward position here in that, although I do not
+approve of this transfer, I don't have the facilities myself to sponsor
+the digest, so I can't offer a better solution.  However, I would
+propose that we consider tranfer to the AoB an option of last resort,
+and only a temporary one at that.  In the meantime, lets continue to
+search for a neutral sponsor for this forum.
+
+
+Sorry for the bandwidth here, folks, but this is important.  The Digest
+is about to make an enormous change.  It's up to us to make sure this
+change is in the right direction.
+- -- 
+Kelly
+Portland, OR
+
+
+------------------------------
+
+
+Date: 03 May 96 13:50:15 EDT
+From: "Kenneth D. Joseph" <74651.305`at`CompuServe.COM>
+Subject: Sankey Fermenter?
+
+
+I am interested in any information regarding the conversion of a 1/2 barrel to a
+fermenter.  Please e-mail responses privately.  If there's interest I'll post a
+summary.
+
+
+thx
+
+
+kj
+
+
+
+
+------------------------------
+
+
+Date: 03 May 96 13:50:13 EDT
+From: "Kenneth D. Joseph" <74651.305`at`CompuServe.COM>
+Subject: SS Tubing, Couplings, Etc.
+
+
+DISCLAIMER:        Un-abashed Commercial "Plug".  I have no affiliation with the
+following organization, but I                 have tilted many an elbow with the sales
+person I have named as the contact below.
+
+
+Whew!  In the process of designing and purchasing materials for my 3-tier
+brewery, I researched the internet and other sources far and wide for the best
+prices for SS 304 materials.  My buddy Shane Wiechmann (pronounced "Week-man")
+at PVF Midwest, Inc. hooked me up with first rate stuff at excellent prices.
+Shane can be reached at 612-781-4342.  They UPS'd to me immediately.  Shane said
+he may put together some kind of price list for brewers so give him a call!
+Please tell him where you heard of PVF -- no, I'm not getting anything out of
+it.
+
+
+kj
+
+
+
+
+------------------------------
+
+
+Date: Fri, 03 May 1996 11:20:00 -0600 (CST)
+From: "Patrick E. Humphrey" <HUMPHREY.PATRICK`at`igate.pprd.abbott.com>
+Subject: Water Analysis
+
+
+I was finally able to dig up a water analysis for our city well water.  
+Would anyone like to comment on it?
+
+
+                        mg/L                        mg/L
+Hardness, EDTA total        2.4        Alkalinity        251
+Chloride                1.6        Fluoride        0.93
+Nitrate & NO2                0.01        Sulfate                62
+Calcium                        40.7        Sodium                35.4
+Ammonia-N                0.4        Magnesium        39.1
+Potassium                1.9         (ROE) TDS`at`180C        3.1?
+
+
+                        ug/L                        ug/L
+Copper                        10        Manganese        15
+Strontium                1400        Iron                407
+
+
+Hardness Calc.                262C mg/L        
+pH = ~6.3
+
+
+There are some other minor ions listed but I did not include them.  
+Carbonate/Bicarbonate levels were not tested and the report was created in 
+1992.
+
+
+I think the iron level is a concern.  Should I use this water for brewing?  
+If it is a an ordeal to remove the iron (if needed) I'd rather not go 
+through the trouble.  I have sent in a sample for analysis and hopefully 
+they will have a more detailed analysis.
+
+
+Thanks,
+
+
+Pat
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 1996 12:05:34 -0600 (MDT)
+From: Hugh Graham <hugh`at`lamar.ColoState.EDU>
+Subject: Ranco Temperature Controller/HBD Sale
+
+
+
+
+I just commisioned a Ranco temperature controller
+on a chest freezer.  It seems to be working well
+enough for me to continue brewing well into 
+the summer, so I thought I'd pass on the details.
+
+
+Model:            Ranco 010-1410
+Control Range:    25 to 75 F
+Differential:     6 to 25 F at low end, adjustable
+Description:      Refrigerant charged sensor, bellows activated snap action 
+                    close-on-rise switch, no electronics, mechanical dial 
+                    settings. 
+Switching Power:  120V, 24 Amps
+Size:             About 3" x 3.5" x 2", Sensor capillary length 72".
+List Price:       $47.60
+Source:           Grainger (if they'll let you buy there, they are 
+                            business-to-business sales oriented)
+                           (See page 2429 in their catalog no. 384)
+Or:               Ranco Wholesale
+                  Uni-Line Div. Robertshaw
+                  8115 U.S. Route 42 North
+                  Plain City, Ohio 43064
+                  (614) 876 8022 
+
+
+Just wire it into the hot wire of a power cord and you're all set. It has
+a mounting plate and screws.  It's designed as a commercial
+refrigeration/AC controller, so it's pretty rugged.  It contains a small 
+amount of a CFC refrigerant in its sealed sensor. 
+No connection etc.
+
+
+- ------------------------------------------
+
+
+re: HBD Sale
+
+
+Thanks to Rob for servicing the digest, it's been a great help.
+
+
+Shawn Steele wrote:
+> As a final note, please give it a few months and if the digest members
+> feel that it isn't working for them, we will willingly give it to some
+> other party who has the appropriate resources.  I am working hard with
+> Rob to make sure that nothing changes and that the Digest continues as
+> it has.
+
+
+OK, but oh boy, change is hard to take....
+
+
+If the AOB promises to remove nothing from the HBD, can we assume that it
+will also add nothing?  I'd hate to read 'RDWHAHB' at the start of every
+digest :) I would also be concerned about elements of the digest
+reappearing in Zymurgy and the like, maybe in the tips column.  A lot of
+the articles posted here are very informal and are clearly not intended
+for the rigors of more widespread publication.  Maybe recent concerns
+about the copyright of this material could be valid. Or maybe not. 
+
+
+Should we also be concerned that representatives of other branches of the
+homebrewing hierarchy would in future spurn the digest if it's owned by
+the AOB?
+
+
+Hugh
+
+
+
+
+------------------------------
+
+
+Date: Thu, 02 May 1996 14:23:54 -0500 (EST)
+From: Gregory King <GKING`at`ARSERRC.Gov>
+Subject: IBUs in hopped extract
+
+
+Greetings fellow homebrewers,
+
+
+I received a 1.8 kg can of Munton and Fison Nut Brown Ale extract as a gift.
+With the information on the label and a little algebra, I figure this will
+produce a gravity in the low 30's in a 5-gallon batch (that's US gallons).
+2 or 3 lbs of DME will complete the "grain" bill.
+
+
+Unfortunately, this is a hopped extract, so I don't know how many IBUs to
+expect.  Do any of you have this information?
+
+
+Any suggestions on how to enhance this simple recipe (e.g. finishing hops,
+type of yeast to use) will be appreciated as well.
+
+
+TIA,
+
+
+Greg
+gking`at`arserrc.gov
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 May 1996 14:22:34 -0400
+From: jhewit`at`freenet.vcu.edu (Jeff Hewit)
+Subject: Kudos for Rob/AoB OK with Me/Oxygen-Barrier containers
+
+
+
+
+
+
+I'll get in line with the rest of you and extend my thanks to
+Rob for running the HBD so well for so long.  I wish him all
+the best as he moves on.
+
+
+******
+
+
+I have no problems with the Association of Brewers taking over
+the HBD.  As an organization whose mission is to support
+brewing at all levels, I believe that they are well suited to
+do this.  In addition, as an established organization, they
+have greater resources to devote to maintaining the digest than
+do most individuals.  They also provide greater stability.  (I
+think it's amazing that Rob was able to do it for as long as he
+did.)  I believe that they will not attempt to censor the
+digest.  I am sure if any of us wish to complain about the AoB,
+Charlie P, or Zymurgy, they will run it.  I hope that they
+will respond to such complaints.  Don't be paranoid about
+associating with AoB.  After all, we're all after the same
+thing:  great beer!
+
+
+***********
+
+
+Now, I have a question.  I know that your basic grocery store
+plastic bags and plastic containers will not keep nasty oxygen
+away from hops.  I know that glass will work, but I am
+reluctant to use glass containers in my freezer.  The way my
+family throws stuff around, it's just a matter of time before
+it breaks.  I have seen acrylic containers, with clamp-down lids
+and rubber sealing rings, similar to the glass containers.  Is
+acrylic oxygen proof?  Any ideas if it will serve to store hops
+in a friendly environment?  TIA for any input on this.
+
+
+Jeff Hewit
+Midlothian, VA
+
+
+- --
+- -----------------------------------------------------------------------
+
+
+------------------------------
+End of HOMEBREW Digest #2028, 05/04/96
+*************************************
+-------

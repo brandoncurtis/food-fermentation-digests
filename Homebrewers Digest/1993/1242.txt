@@ -1,0 +1,1197 @@
+﻿This file received at Sierra.Stanford.EDU  93/10/07 00:28:17
+
+
+
+
+HOMEBREW Digest #1242                             Thu 07 October 1993
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Montreal brewpubs/watering holes info wanted. (Gerald_Wirtz)
+  Lambic Beers and U.S. Microbreweries (Matthew Evans)
+  Fast cooling of high gravity boils. (lyons)
+  RE: crush off/hop util/S. Adams (Jim Busch)
+  chilling extract brew (David Atkins)
+  Hop Utilization and Gravity (Jim Liddil)
+  SPGRAV: program to perform hydrometer corrections at any base (Spencer.W.Thomas)
+  Re: SPGRAV: program to perform hydrometer corrections at any base (Kurt Swanson)
+  Hop substitutions, cheap carboys (Domenick Venezia)
+  Flavor and aroma hops (Scott Stihler (USGS analyst))
+  Comments on Molasses ("John C. Post")
+  Re: Barleywine ferment/Dryhopping (Jeff Frane)
+  First all grain: the procedure (Ed Oriordan)
+  Re: Krush-Off (Bill Slack)
+  Maple syrup/sap (rick621)
+  Milling about (korz)
+  NO POPCORN, PLEASE! ("Marlene Spears")
+  Mash out necessary? (Domenick Venezia)
+  Krush Off Kwestion (Patrick Sobalvarro)
+  Cut rate glassware (Aaron Morris)
+  Pumpkin Ale Recipe ("Anthony Johnston")
+  Re: Chilling Wort ("Pamela J. Day 7560")
+  Victorian Ales (Chris McDermott)
+  spiced beer ("JSDAWS1`at`PROFSSR")
+  Rager Number Error (Mark Garetz)
+  Hops (what else?) (Mark Garetz)
+
+
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Archives are available via anonymous ftp from sierra.stanford.edu.
+  (Those without ftp access may retrieve files via mail from
+  listserv`at`sierra.stanford.edu. Send HELP as the body of a
+  message to that address to receive listserver instructions.)
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+
+
+----------------------------------------------------------------------
+
+
+Date:           Wed, 6 Oct 93 7:56 EDT
+From: Gerald_Wirtz`at`vos.stratus.com
+Subject:        Montreal brewpubs/watering holes info wanted.
+
+
+     I'll be heading to Montreal this weekend and would appreciate any
+information on and good brewpubs/watering holes in the area.
+
+
+     Direct replies appreciated.
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 09:23:03 -0400
+From: Daniel McMahon <dmcmahon`at`blanche.acq.osd.mil>
+
+
+From: dmcmahon
+Full-Name: Daniel McMahon`at`pr
+Subject: 5 Ltr Mini Kegs
+To: homebrew`at`hpfcmi.fc.hp.com
+
+
+I'm looking for some feedback on the pros and cons of using 5 liter
+"mini kegs", as opposed to bottling.  I can get them empty for ~$5  
+at my local homebrew supply store (or buy them full of Dinkelacker
+or Grolsch and drink that first) and buy a CO2 tap for ~$35 to use
+with them.  
+
+
+Anyone have any good/bad experiences with these mini kegs?  I intend
+some day to step up to 5 gallon Cornelius kegs, but currently:
+(1) I don't have another refrigerator to dedicate to brewing and
+(2) The total costs for fridge, CO2 tank and connections, and kegs
+are prohibitive.  Is this interim step worthwhile?  It seems to be   
+convenient by saving time and space at minimal initial cost.
+
+
+Any and all input is appreciated!
+
+
+Dan McMahon    
+
+
+------------------------------
+
+
+Date: Wed, 06 Oct 1993 09:30:54 EDT
+From: Matthew Evans <matt`at`cadif.cornell.edu>
+Subject: Lambic Beers and U.S. Microbreweries
+
+
+I've got a couple questions, hopefully someone out there knows the answer 
+to these questions:
+
+
+1)  Is there any U.S. brewery producing a true lambic beer (besides the 
+Cranberry Lambic from the Boston Brewing Co)?  If not, why not?  
+
+
+2)  I've read before that the various yeasts and bacteria needed for lambic 
+beers are available in the US, but where is a good commercial source (or 
+free source) of these microrganisms?
+
+
+3)  Has anyone tried making a homebrewed lambic in small batches.  If you 
+have I would really like to talk to you about the process, as Kriek Lambic is 
+my favorite beer and I would like to duplicate the sour bite found only in 
+lambic beers.
+
+
+4)  Are there any good publications about microbreweries?  Particularly I'm 
+interested in getting some start up information for an Entrepreneurial 
+Business class at school.
+
+
+5)  Finally, in this long list of questions, does anyone have the number for
+the Celis brewery in Texas that makes Belgian style beers?
+
+
+
+
+Thanks for your help in advance.  Please send responses to me at 
+mce1`at`cornell.edu.  Thanks and happy brewing!!!
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 10:01:36 EDT
+From: lyons%adc1`at`swlvx2.msd.ray.com
+Subject: Fast cooling of high gravity boils.
+
+
+(John Pavao writes in HBD#1239:)
+>> (snip)
+>> I am wondering if I would be better or worse off if I chilled the
+>> concentrated wort before adding it to the cold water in the carboy.
+
+
+(Carl Howes writes in HBD#1241:)
+
+
+>I would say chill your concentrate first since it will be easier to do.
+>For my first several batches I added the hot partial wort to the cold
+>water in the fermenter a la Papazian, but in view of the recent warnings
+>about HSA I went for chilling the partial boil (in my case about 2
+>gallons) to pitching temperature before adding it to the carboy for my
+>latest batch.  This took placing my kettle in a sink full of cold water
+>and changing the water three times over 45 minutes.  On adding hot
+>concentrate it took seven hours for the batch to cool to pitching temp on
+>its own, and a kitchen sink full of cold water had no noticable effect.
+>An immersion chiller would likely be more effective, but I have not yet
+>made one.  BTW, I tried sending this by private email but it bounced.
+
+
+I'm one of those who believe it is important to cool the wort ASAP after
+boiling is complete (limit DMS).  Keeping this in mind, I add two large
+blocks of ice.  This quickly brings the temperature down for pitching the
+yeast (yes, ice at 32F will provide more cooling than water at 32F).  If
+you believe adding tap water does not create a problem, then ice blocks 
+made of tap water will not cause a problem and will cool even faster.
+The important thing in making the ice blocks is not to introduce any 
+wild yeasts.  In other words, the water which is to become ice should
+be placed in a previously sanitized container which can be completely
+CLOSED from the environment (the freezer is teeming with nasty guys that
+like to spoil beer).  I use one gallon plastic milk containers and fill
+them half way (just below the handle).  They are easily cut with a knife
+and the ice block extracted. If you are one of those concerned with using
+tap water, then pre-boil the water first (and remember, boiled water will
+freeze faster than unboiled water ... less O2).  I think the addition of 
+ice blocks is a better technique than using an immersion chiller 
+when doing high gravity boils (which are diluted to final volume after 
+the boil).  The immersion chiller is the correct choice for full volume
+boils, since you do not want to dilute the wort of a full volume boil.
+
+
+Chris
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 1993 10:41:32 -0500 (EDT)
+From: Jim Busch <busch`at`daacdev1.stx.com>
+Subject: RE: crush off/hop util/S. Adams
+
+
+I read with interest the ongoing comparisons between mills.  I am more
+interested in the comparisons of extract efficiency from the test
+brews.  I know that my extract went down when I switched from pre ground
+Briess to corona ground, then the extract returned to the preground 
+equivelent with the adjustable MaltMill. Any results from the test, or
+were they all the same in the end??
+
+
+***************
+With respect to Mark's comments on hop utilization and the lack of 
+professional journels reports on the subject, I believe it is covered
+in Malting & Brewing Science, by Hough et al (not sure as I dont own
+this excellent set) but it is certainly covered in the German literature
+by Dr. Narziss, of the Weihenstephan institute, in Freising.  At any
+rate, the correlation between high OG and hop utilization is well 
+known and accepted by the pro brewers I hang out with.
+***************
+
+
+A while back I posted a bit about Mr. Kochs Jamaica Plains brewery but
+had not actually been there. I was there the Saturday before last, and
+the Sudhaus is indeed impressive, dual 15 BBl decoction kettles, each
+with a grain feed, and water spray.  The guides were a bit annoying,
+especially with respect to comments like "everyone knows no good hops
+are grown in the US" .  I just couldnt let this one pass, so I pointed
+out that if one sampled a Petes Wicked Lager, the US grown Liberty hops
+could be compared to the German equivelent.  Needless to say, they were
+not pleased to hear the words "Petes.." spoken in the hallowed grounds
+of Sam Adams......:-)
+
+
+Good brewing,
+Jim Busch
+
+
+DE HOPPEDUIVEL DRINKT MET ZWIER 'T GEZONDE BLOND HOPPEBIER!
+
+
+
+
+------------------------------
+
+
+Date: Wed, 06 Oct 93 09:46 CDT
+From: David Atkins <ATKINS`at`macc.wisc.edu>
+Subject: chilling extract brew
+
+
+I too do that extract brew.  Here's how I chill.
+ 
+My method involves a carboy primary--5, 6.5 or 7 gal size.
+ 
+My primary is a 7 gal carboy...I don't know if I'll ever use a bucket again.
+ 
+ 
+I chill the boil pot in a sink of cold water for a few minutes...ice and those
+refreezable faux-ice packets work well in the bath.  Placing about 1.5 gals of
+cold water into the carboy, I funnel my extract into the container then fill up
+to 5 gals with a heady stream of cold water.  I find that the heady stream 1)
+aid aeration and 2) cools wort not just by heat exchange with the water but with
+heat exchange with the air...get's real frothy.
+ 
+Once filled, I bung the carboy shut and for 10 - 20 minutes I prop carboy on
+edge of sink and gentle wash the carboy with cold water.  If you don't have one
+of those built in sink spray nozzles (like me) use those cheap faucet-shower
+attachment hoses you can find at a drug or discount store (a 2-3 feet length of
+rubber hose with an exceedingly simple adapter on one end and a shower head on
+the other; the shower head is removeable)  I use the hose in cleaning as well as
+wort chilling and carboy filling--remember to sanitize though.
+ 
+While chilling the carboy, rotating it slightly from time to time, I take the
+opportunity to shake the container, further aerating the wort.  From the start
+of chill to the yeast pitch takes 20-30 minutes.
+ 
+If you would like info on finding 6-7 gals carboys let me know.  I do business
+with a good supplier.  They don't know me, just my credit card number (read as
+disclaimer).
+ 
+Take care,
+David Atkins
+UW-Madison-Where every morning, leaving the house is its own cold break
+atkins`at`macc.wisc.edu
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 1993 7:51:33 -0700 (MST)
+From: Jim Liddil <JLIDDIL`at`AZCC.Arizona.EDU>
+Subject: Hop Utilization and Gravity
+
+
+% 
+% Date: Mon, 4 Oct 93 21:59:59 PDT
+% From: Mark Garetz <mgaretz`at`hoptech.com>
+% Subject: Two Hop Topics
+% 
+% There has been a bit of discussion here lately about two hop
+% topics:  gravity vs. utilization and dry hop bitterness.
+% 
+% Gravity vs. Utilization:
+% 
+% In the research for my book, I have tried to verify the common
+% homebrew wisdom that high gravity *boils* make a difference in
+% the hop utilization by attempting to find references in the 
+% commercial brewing literature.  I have not been able to find *any*
+% mention that wort *boil* gravity makes any difference in hop 
+% utilization.  The gravity at the start of *fermentation* does make
+% a difference, meaning that low gravity beers get better utilization
+% than high gravity beers.  Note that this is a fermentation effect,
+% not a boil gravity effect, and varies depending on the fermentation
+% technique.  Anyway, the *volume* of the boil *will* make a 
+% difference, which may explain Norm's comments about needing less
+% hops when switching to all grain (full volume) boils.
+
+
+I suggest you get a copy of Malting and Brewing Science by JS Hough and read
+the hop chapter and the wort boiling chapters.  Then I think you will see that
+indeed wort gravity does affect hop utilization.  
+% 
+% I asked Gail Nickerson this question ("Does boil gravity affect
+% utilization?") and she said (paraphrasing), "No.  Not unless you
+% were boiling a syrup or something of that consistency.  And if it
+% did, it would be known because the big boys are all using high 
+% gravity brewing techniques these days."
+% 
+Can she provide a reasearch reference for this statement?  As we say in rearch
+land "If it isn't published it didn't happen"
+
+
+% To summarize, then, it appears that low boil volume (regardless
+% of the SG) gives less utilization, but *boil* gravity has no effect.
+
+
+Wrong!
+
+
+% But as the gravity of the *fermenting* wort increases, utilization
+% decreases - the amount depends on your fermenting methods.
+
+
+What does volume have to do with it?  If alpha acids are in to high a
+concentration then utilization goes down due to solubility issues.  But rather
+than quote chapter and verse from M and B Science I suggest you read it and
+then repost.
+
+
+
+
+% 
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 10:58:22 EDT
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: SPGRAV: program to perform hydrometer corrections at any base
+
+
+This polynomial is much better than the previous one that was posted.
+However, why not just go to the source?  The CRC Handbook of Chemistry
+and Physics lists the S.G. of water at various temperatures, and these
+correspond exactly to the correction factors that come with the
+hydrometer, except they go up to 100C.  Of course, there's still the
+complicating factor of the sugar in solution to contend with, but I
+haven't found any source for this.  A quick experiment I did with some
+1.032 sugar solution found that the table was still correct, within
+the resolution of my hyrometer, anyway.  (Does anyone know of a source
+of S.G. tables for sugar solutions at various concentrations and
+temperatures?) 
+
+
+For those of us who don't have a computer sitting in our brewhouse,
+here's a table to print out and keep handy.  The correction is
+computed by subtracting the table value for a given temperature from
+the table value for 15C (which is what MY hydrometer is calibrated
+for) and rounded to the nearest "SG point".  
+
+
+Temp C          Correction      Table SG        
+ 0              -1              999.87          
+ 5              -1              999.99          
+10              -1              999.73          
+15               0              999.13          
+20               1              998.23          
+25               2              997.07          
+30               3              995.67          
+35               5              994.06          
+40               7              992.24          
+45               9              990.25          
+50              11              988.07          
+55              13              985.73          
+60              16              983.24          
+65              19              980.59          
+70              21              977.81          
+75              24              974.89          
+80              27              971.83          
+85              30              968.65          
+90              34              965.34          
+95              37              961.92          
+100             41              958.38          
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 1993 16:08:41 +0100 (MET)
+From: Kurt Swanson <Kurt.Swanson`at`dna.lth.se>
+Subject: Re: SPGRAV: program to perform hydrometer corrections at any base
+
+
+Spencer W. Thomas (Spencer.W.Thomas`at`med.umich.edu) in this HBD writes:
+> 
+> This polynomial is much better than the previous one that was posted.
+> However, why not just go to the source?  The CRC Handbook of Chemistry
+> and Physics lists the S.G. of water at various temperatures, and these
+> correspond exactly to the correction factors that come with the
+> hydrometer, except they go up to 100C.
+
+
+How do you think I got the polynomial.  SPGRAV works with very high
+accuracy from 00C to 1000C...  The polynomial is needed instead of the
+table because most people make temperature measurements with greater
+than 50C accuracy...
+- -- 
+Kurt Swanson, Dept. of Computer Science,
+Lunds universitet.  Kurt.Swanson`at`dna.lth.se
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 1993 08:16:50 -0700 (PDT)
+From: Domenick Venezia <venezia`at`zgi.com>
+Subject: Hop substitutions, cheap carboys
+
+
+I'm still trying to perfect that Fuller's clone and I am looking for a good
+substitution for British Northdown hops.  I've  used Cluster in the past
+but I'm underwelmed by the flavor contribution of Cluster.
+
+
+How about Styrian Goldings, or Pride of Ringwood?  Both of which are
+available locally (Seattle).  Kent Goldings?  Fuggles/Willamette?
+
+
+How about substitutions for Challenger and Target too?
+
+
+Since I have never encountered Northdown, Challenger, or Target I'm
+working in the dark on substitutions.  Can anyone recommend a good book
+on hop characteristics.  Gardening info is wasted pages. 
+
+
+Whoever was looking for cheap carboys in HBD #1241,
+
+
+St. Patrick's of Texas Brewers Supply
+12922 Staton Drive
+Austin, TX  78727
+(512) 832-9045
+
+
+7 gallon carboys - $12 - shipped in styrofoam eggs (really cool)
+They take about a #6.5 stopper, not the #7 or #7.5 listed in St. Pat's
+catalog.  The necks are threaded and included is the original plastic
+cap.  The only thing "wrong" with these carboys is that you can't use
+those nifty orange carboy cap things with the two tubes.  On the other
+hand trying to get a 5 gallon all-grain batch into a 5 gallon carboy
+can be quite a trick.
+
+
+Domenick Venezia
+ZymoGenetics, Inc.
+venezia`at`zgi.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date:         Tue, 5 Oct 1993 23:46:25 -0800
+From: scott`at`fm.gi.alaska.edu (Scott Stihler (USGS analyst))
+Subject: Flavor and aroma hops
+
+
+Greetings all,
+
+
+I have a question regarding hops. A friend of mine took the AHA beer judge 
+certification test last April and one of the question he had was "What is the
+difference between flavor and aroma hops and give examples?" This question
+confuses me. I was under the impression that they are both the same.  I thought
+the volatile hop oils which are responsible for aroma are also responsible for
+hop flavor. Does anybody know the correct answer to the AHA question and if I'm
+totally off base could ya straighten me out?
+
+
+Cheers,
+
+
+Scott
+
+
+------------------------------
+
+
+Date: Wed,  6 Oct 1993 08:53:14 -0800
+From: "John C. Post" <jpost`at`llnl.gov>
+Subject: Comments on Molasses
+
+
+A few notes on Molasses in Beer...
+
+
+1) DON'T use sulphured molasses. Yuck!
+
+
+2) Molasses takes a *long* time to ferment out completely, not as long as 
+honey, but much longer than malt. 
+
+
+3) If you have time to wait until 2) is complete, it can be a wonderful 
+accoutrement (College Word!) to the right recipe...I like it best with some 
+zippy hops, such as Saazer or a nice fresh Cascade.
+
+
+You might try some Black Treacle for an interesting flavour kick. You can 
+usually get it at those expensive gourmet stores (Williams-Sonoma comes to 
+mind...)
+
+
+john
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 1993 09:59:44 -0700 (PDT)
+From: gummitch`at`techbook.com (Jeff Frane)
+Subject: Re: Barleywine ferment/Dryhopping
+
+
+npyle`at`n33.stortek.com
+> Subject: Barley Wine fermentation schedule?
+> 
+> 
+> Anyway, I used a 1 pint starter from Wyeast London Ale yeast, which was
+> possibly a bit past high krauesen, in a 5 gallon batch.  The start of obvious
+> fermentation took over 24 hours, so I suspect I underpitched considerably.
+
+
+Bing, bing, bing.  You win the $64,000 question.  Your very slow (and
+possibly incomplete) fermentation is almost certainly a result of
+underpitching.  A one-pint starter (presumably stepped up only once from
+the Wyeast package) is OK (tho not great) for a "normal" OG, but high
+gravity worts require WAY more yeast.  It's not out of the question at
+this point for you to make a quickie batch of more normal ale, collect
+a couple of pints of furiously fermenting wort, and bung that into your
+barleywine.  It worked for me years ago, although it was a little
+earlier in the barleywine's life.  
+
+
+garetz`at`hoptech.com>
+> Subject: Two Hop Topics
+> 
+> There has been a bit of discussion here lately about two hop
+> topics:  gravity vs. utilization and dry hop bitterness.
+> 
+> Gravity vs. Utilization:
+> 
+> In the research for my book, I have tried to verify the common
+> homebrew wisdom that high gravity *boils* make a difference in
+> the hop utilization by attempting to find references in the 
+> commercial brewing literature.  I have not been able to find *any*
+> mention that wort *boil* gravity makes any difference in hop 
+> utilization.  
+
+
+As a datapoint, your text research bears out my own experience with
+hopping rates.  High gravity worts generally require higher hopping
+rates, but it's because they need higher bitterness levels to balance
+the greater body and sweetness of the beer.
+
+
+> 
+> Bitterness from Dry Hopping
+> 
+> I am at loss on this one.  I, for one, have never noticed it.  A 
+> lot of brewers report a pronounced *astringency* but not bitterness.
+> This will go away in few weeks.  It is possible that some of the
+> alpha acids in the hops had been converted to iso-alphas, but I
+> think this is unlikely.  The hops would have gone "cheesy" long
+> before there was significant conversion from ambient heat, etc.
+
+
+I have never experienced either effect in one of my dry-hopped beers.  I
+leave the hops in the kegs for many weeks without getting any "cheesy"
+quality -- probably because cheesiness is a property of oxidation -- and
+I've never noticed any additional bitterness even though I dry-hop
+pretty heavily.
+
+
+On the other hand: I was present at a tasting at UC Davis, of various
+beers that had been hopped at varying times.  You should talk to Michael
+Lewis about this, since he ran the program, but he, his students and
+those of us in the class who were actually brewers, were all surprised
+at the discernible bitterness in the one beer that had only been
+dry-hopped -- NO bittering hops or aroma hops in the boil.  And, believe
+me, in case you don't know Michael Lewis, the QC around  this issue was
+very high and the hopping rates were pretty damn low.
+
+
+Me, I have to assume the problems homebrewers are having is Pilot Error,
+and has almost nothing to do with dry-hopping.  Just a guess.
+
+
+- --Jeff Frane
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 13:33:22 -0400
+From: edo`at`marcam.com (Ed Oriordan)
+Subject: First all grain: the procedure
+
+
+I am preparing for my first all grain attempt in the next couple of weekends.
+This is what I am planning on doing.  At the end I have some questions, that
+I would appreciate if anybody could respond to.
+
+
+Also, if anything looks strange, and you are wondering why I'm doing it, I 
+probably don't know, so let me know.
+
+
+
+
+My equipment for brewing will be as follows
+
+
+36 qt cooler
+1/2" Slotted copper pipe manifold sparger to 3/8" reducer
+10 gallon enamel pot
+gas cooker burner type thing
+chiller
+7 gallon glass primary fermenter with blow-off
+5 gallon glass secondary fermenter with air lock
+
+
+1) Grind grains the night before.
+2) Heat 1 qt water per lb grain to 168F. Add some gypsum (2 Tbl.?) to lower pH.
+3) Preheat Cooler with hot water.
+4) Add grain and water to mash tun (cooler) on top of manifold. Stir.
+5) Check mash temp, adjust as needed to around 154F.
+6) Close cooler for 1 hour.
+7) Open cooler do Iodine test for conversion.  If not converted close
+   up longer.
+8) Add crystal, chocolate and cara-pils (all specialty grains).
+9) Raise temp to 170F (mashout) by adding near boiling (200F) water.
+10) Stir till 170F is hit.  Close cooler let sit 15 minutes.
+11) Hook 3/8" clear tubing to manifold.  Backflush with some near boiling water
+12) Sprinkle 4 galons 180F sparge water (add gypsum to get pH 5 - 5.5) in
+    cooler.
+13) Start siphon, keep putting liquid back in cooler till get clear run off.
+    Siphon into brew kettle. Try for no aeration.
+14) From here on I assume it is same as extract, but with more volume
+    (note: I already use a cooling coil).
+
+
+Q1 - Equip - Is 36 qt cooler ok for size (5 gallon batches)? 11.25 lbs grain.
+Q2 - Step 7 - If not converted and temp is lower than 154F should I adjust it
+back up?  Should I check every 15 minutes or leave closed?
+Q3 - Step 8 - Is this the correct time to add specialty grains? Why?
+Q4 - Step 10 - Is it ok to stir?  Is 15 minutes good?
+Q5 - Step 12 - Should I sprinkle it all in at once or just enough to cover
+grain bed and then continue adding so that I maintain a level 2 inches above
+the bed? I have a feeling the latter is correct, why? Stuck sparge?
+Q6 - Step 13 - I am nervous about the sparge,  I hear stories of it taking a
+long time.  Using the manifold will I get a continuous siphon or will I have
+to restart it periodically? How fast should I siphon? Will I have to slow the
+siphon down?  This step is somewhat of a mystery as to how it actually will
+go so some help would be appreciated?  I know I'm washing the sugars off the
+grain.  What about astringency? How do I know when I've gone long enough?
+How long will this step take (approximately)?
+Q7 - All this talk of oxidation.  Where do I have to worry about it?  In the
+past the only place I have airated was going into the primary, and the only
+place I have specifically not airated is after the yeast kicks in through
+bottling.
+
+
+Thanks a lot 
+
+
+Ed O'
+
+
+edo`at`marcam.com
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 12:20:07 EDT
+From: wslack.UUCP!wrs`at`mv.MV.COM (Bill Slack)
+Subject: Re: Krush-Off
+
+
+Phil Miller asks if the crush evaluation was blind at the Boston Wort
+Processor Krush-Off.
+
+
+No, each crush was identified to the Krush Kommittee. A quart jar was filled
+from each crush and was used for evaluation. Evaluations were made as the
+crush became available. All samples were kept and referred to by the
+committee when establishing relative quality of crush. I far as I know, no
+one on the committee had any favorite mill or predetermined expectations. I
+use a Corona, Bob Gorman ordered a Glatt Mill (don't know if this was before
+or after the test) and I don't know what Scott Keohane uses. We all watched
+the various tests as they took place. It was all pretty open and there were
+lots of opinions expressed by all present. In my opinion, the tests and
+evaluations were conducted in a fair and complete manner. A lot of people
+put in a lot of effort to pull this off and I think they succeeded.
+
+
+Bill
+
+
+__
+wrs`at`gozer.mv.com (Bill Slack)
+    
+
+
+
+
+
+
+    
+
+
+------------------------------
+
+
+Date: Wed, 06 Oct 93 14:14:05 EDT
+From: rick621`at`aol.com
+Subject: Maple syrup/sap
+
+
+Hi all, I'm new to the digest and enjoy reading the thoughts and ideas posted
+here. I have been brewing extracts for a few years and now want to try
+something different. I also make my own Maple syrup. I have heard of people
+using this in beer and also using the uncooked sap instead of water. If
+anyone has a receipe, and/or experience with using syrup or sap I would
+appreciate your thoughts on the subject. You can post it on the digest or
+E-mail me at   Rick621`at`aol.com
+
+
+Thanks 
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 13:06 CDT
+From: korz`at`iepubj.att.com
+Subject: Milling about
+
+
+Gang--
+Before another flame war ensues regarding commercialism on the HBD,
+I'd like to say that Jack has done homebrewing a great service in
+providing an affordable (to most) alternative to the Corona and for
+doing a great deal of research on the crushing of grain.  I've seen
+no less than 8 different designs of MaltMills, each design (usually)
+better than the last.  He has shown me grain crushed by various
+designs and asked me to choose which samples appeared to be the
+best crush.  I'm told he has used my opinions as well as the evaluations
+of other homebrewers and experts at the Siebel Institute of Brewing
+to improve the design of the MaltMill.  His mill has set a high standard
+for other mills that have followed.  Granted, Jack has a financial
+interest in having his mill represented well in the HBD, but then
+again, if you re-read his latest post, you'll see that there is a
+lot of good, mill-independent infomation in there.  I, for one,
+appreciate him sharing this information openly.
+
+
+Al.
+
+
+Disclaimer: I own a retail store and currently sell three of the mills
+in the Krush-off and plan to sell one more of them soon.  I've done
+evaluations myself of all but the antique mill in the Krush-off and
+have only chosen to not stock one of them due to what I deemed a poor
+crush (this was NOT one of the mills that is commercially built as
+a homebrewing malt mill).
+
+
+------------------------------
+
+
+Date:      Wed, 06 Oct 1993 14:08:58 EDT
+From: "Marlene Spears" <hopfen!marlene`at`uunet.UU.NET>
+Subject:   NO POPCORN, PLEASE!
+
+
+In HBD #1240, brewerbob`at`aol.com wrote about using *real* popcorn as
+packing material for shipping homebrew to competitions.  Please
+cease and desist!  Don't send popcorn unless you're shipping to a
+friend who doesn't mind receiving it!
+
+
+When the 1st Round AHA Nats were held in Boston, I was one of the lucky
+unpackers.  Over the four sessions, I found *all* sorts of packing
+material, including -- oh, ye gods and little fishes! -- *buttered*,
+*salted* popcorn, which greased up the bottles, the labels, the entry
+forms, the checks, and my hands.  It was really gross, kiddies.  And
+if it wasn't salted and buttered, at least the popcorn was stale and
+at worst it was moldy.  NO WAY was I about to ingest any of the stuff.
+I'm glad I didn't find any bugs or rodents in the boxes!
+
+
+I only wanted to get the bottles unpacked, tagged, and sorted so I could
+dig into the goodies Bill Murphy (site coordinator) had bought -- with
+his own funds, since the AHA wasn't reimbursing.  And even parsimonious
+and uncooperative Smadams let us have draft brew.  I hear Anchor is
+more generous.
+
+
+If you want to be kind to the unpackers, use shredded newspaper.  It
+doesn't have the static electricity problems like styrofoam "popcorn".
+After that, make sure your bottles are blank, with the proper labels attached
+by rubber bands, with blacked out caps, and without incised lettering;
+then make sure your entry forms and payment are included, and have the
+box blessed so the UPS box gremlins don't screw it up.
+
+
+- -- 
+- --------------
+
+
+marlene`at`hopfen.rsi.com
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 1993 11:20:41 -0700 (PDT)
+From: Domenick Venezia <venezia`at`zgi.com>
+Subject: Mash out necessary?
+
+
+After drilling into my right knee, steeping my feet in hot wort, melting 
+the kitchen floor, and nearly removing the tip of my left index and middle 
+fingers (I am NOT a klutz), I have decided to set aside my "Zap-pap" 
+food bucket lauter tun and try sparging with a copper manifold.  The
+situation is this:  I have a 10 gallon stainless brew kettle and any number 
+of plastic food buckets, and good warm boxes.  If I mash in a food bucket
+in a warm box then I can preheat the sparge water in the brew kettle, but
+then have no way to mash out without transfering water and mash all over
+the place.  Now, Miller (TCBoHB) is adamant that mash out is absolutely
+necessary.  Others are less certain.  Hey, it's going to be boiling in a 
+few minutes anyway.  What are the opinions from HBD land?  Is it more of a
+factor with lauter tun sparges rather than manifold sparges?  
+
+
+Thanks in advance.
+
+
+Domenick Venezia
+ZymoGenetics, Inc.
+venezia`at`zgi.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 14:32:10 EDT
+From: pgs`at`ai.mit.edu (Patrick Sobalvarro)
+Subject: Krush Off Kwestion
+
+
+   Date: Tue, 5 Oct 93 08:09:50 CDT
+   From: pmiller`at`mmm.com (Philip . Miller)
+
+
+   Many thanks to the Boston Wort Processors et al for the interesting
+   post on mills.  Just a quick question:  was it a blind judging?
+   (I.e., did the judges know which mill ground the grains they were
+   judging?)
+
+
+The judging was not blind; the judges did know which mill ground the
+grains they were judging.  In fact, they watched the grinding take
+place, and some of them even went so far as to make fun of the
+operators of the mills.  And, frankly, I noticed that a couple of them
+drank a pretty fair amount of beer as the afternoon wore on.  They're
+kind of shifty characters to begin with, actually.
+
+
+ -P.
+
+
+------------------------------
+
+
+Date:         Wed, 06 Oct 93 15:00:04 EDT
+From: Aaron Morris <SYSAM`at`ALBANY.ALBANY.EDU>
+Subject:      Cut rate glassware
+
+
+Not wishing to travel to Chicago for carboys, I went to a local Corning
+outlet and was ecstatic to find 5 gallon carboys for $8.99, less than
+three miles from my home!  That was the good news.  The bad news was
+that the local Corning outlet only had 5 gallon carboys and I was
+looking for six and three gallon carboys.  The less-than-pleasant sales
+person informed me that in no way, shape or form does Corning make
+or market anything other than 5 gallon carboys and there was no way in
+the world that she could procure for me 6 or 3 gallon carboys.  This
+doesn't ring right to me.  Does the outlet in Chicago have 3 and 65
+gallon carboys?  Unfortunately, I didn't save the address for the
+Corning outlet in Chicago.  If they do have 3 and 6 gallon carboys
+available for shipping, would some kind soul please mail to me the
+address/phone number of that outlet.  Thanks in advance!
+
+
+Aaron Morris (SYSAM`at`ALBNYVM1)
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 14:47:23 CDT
+From: "Anthony Johnston" <anthony`at`chemsun.chem.umn.edu>
+Subject: Pumpkin Ale Recipe
+
+
+Because of the number of requests for Pumpkin Ale I have seen on the HBD
+recently, here is one that I particularly enjoy:
+
+
+Barefoot Pumpkin Ale
+
+
+Bring to a boil 1qt water.  Add 1 29oz can of pumpkin (I recommend
+Libby's because it is 100% pumpkin.  So are most other brands, but make
+sure before you use it.)  Stir.  Add 1 3.3 lb can of DMS Malt extract.
+Stir.  The temp should come to about 152 F.  Hold at this temp for 40
+mins.  While this is going on you can get the rest of the ingredients to
+a boil in your brewpot:
+
+
+1 gallon water
+3.3 lbs NW (Briess) Amber malt
+
+
+Add pumpkin mash (mush?) to the brewpot and bring to a boil.  Add 1 oz
+German Hallertauer pellets and 1 oz Hersbrucker plugs.  Boil 45 mins.
+Add 1 oz Hallertauer pellets, 2 cinnamon sticks (about 2-2.5 inches
+long), 1 tsp ground cardamom, 2 tsp whole cloves, 1 tsp + 1 shake of
+nutmeg, 1 tsp ground allspice, 1 tbsp ground ginger, and 1 Tbsp Irish
+Moss flakes.  Let boil 10 mins.  Add 0.5 oz Saaz pellets.  Reduce (turn
+off heat) and cover brewpot and let steep for 5 mins.
+
+
+As I recall, sparging this mess to the fermenter was a problem because
+the pumpkin is a real fine mush.  I think I just added all of it to my
+primary and topped it off to about 5 or 5.5 gals, let it cool and racked
+away from the mush that settled out.  This leaves a lot behind.  When I
+make this again, I will do a full volume boil and use a wort chiller and
+this should cause most of the stuff to drop out.
+
+
+Yeast:  Whitbread Ale Yeast
+OG = 1.040
+Racked to secondary `at` 1.010
+FG = ca. 1.006-8
+
+
+Tasting notes:  Real nice spice/hops balance.  Good color and very
+clear.  I would enter this in a contest, but I bottled it entirely into
+large bottles. :)
+
+
+Comments/suggestions/criticisms(constructive) should be emailed direct
+to:
+
+
+anthony`at`chemsun.chem.umn.edu
+
+
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 1993 16:28:00 EST
+From: "Pamela J. Day 7560" <DAY`at`A1.TCH.HARVARD.EDU>
+Subject: Re: Chilling Wort
+
+
+I don't bother trying to chill my wort, instead I make sure that the
+water in the fermenter is a cold as I can possibly get it. I either 
+put it in a spare refrigerator (alas a luxury) the night before I brew
+or in the winter I put it out on the porch until it's cold. Depending
+upon how cold the water in the primary is, after I pour boiling wort
+into it, it's down to anywhere between 65-80F immediatly. If I wind 
+up having to wait to pitch, it's usually less than an hour.
+
+
+Good Luck!
+
+
+pam  
+
+
+------------------------------
+
+
+Date: Wed, 06 Oct 1993 17:51:14 -0500
+From: Chris McDermott <mcdermott`at`draper.com>
+Subject: Victorian Ales
+
+
+ Victorian Ales
+
+
+
+
+What exactly is a Victorian Ale (besides a the obvious: an ale brewed during
+the victorian period)?
+
+
+I'm trying to find information describing this style and the procedures to used
+to brew it, but I haven't had much luck.  Can anyone out there help.  A pointer
+to a source of literature would be great.  Personal experience would be even
+better.
+
+
+Thanks,
+
+
+Chris McDermott                                Send mail for PGP public key
+mcdermott`at`draper.com                    * * *
+617.258.2362                           *     ********************************
+617.381.9768                            * * *                          ******
+                                                                      ***  ***
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: 06 Oct 1993 14:43:14 PST
+From: "JSDAWS1`at`PROFSSR" <JSDAWS1`at`PB1.PacBell.COM>
+Subject: spiced beer
+
+
+Hi all..   I'm contemplating a spiced X-mas ale for this weekend and would
+like some opinions on the quantities and procedures for adding spices.
+My recipe is as follows for 5 gal
+
+
+10 lbs  Hugh-Baird pale malt
+1  lb   Hugh-Baird 80L Crystal     mash at 158 for 60 min
+1 oz    Kent Goldings   ( 60 min
+1/2 oz  Centenials      ( 20 min
+Wyeast 1098    ( expecting SG of 1060.. no clue where it might finish
+spices ??    cinomon, nutmeg, vanilla
+
+
+Does using whole vs powdered spices like cinomon and nutmeg make a difference
+What about vanilla extract vs. beans.
+When to add them ?   at the end of the boil or with priming sugar
+Quantities of each spice.   I'm also asuming no finishing hops as that would
+interfere with spice flavors.   Any and all opinioons appreciated.
+
+
+|    Don't anthropomorphize computers...  They don't like it.         |
+| ------------------------------------------------------------------- |
+| JACK DAWSON  -  JSDAWS1  -  415 545-0299  -  CUSTOMER BILLING  (BG) |
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 22:10:35 PDT
+From: Mark Garetz <mgaretz`at`hoptech.com>
+Subject: Rager Number Error
+
+
+A while ago someone sent me email about the 7462 error in Rager's numbers
+that all of us have taken for granted as being correct, but is in fact off
+(this is the metric to avoir. conversion constant).  I have inadvertently
+erased the note, so if whoever it was could send it again, I would be
+grateful.
+
+
+Mark
+
+
+------------------------------
+
+
+Date: Wed, 6 Oct 93 22:07:21 PDT
+From: Mark Garetz <mgaretz`at`hoptech.com>
+Subject: Hops (what else?)
+
+
+Domenick Venezia asked me to clarify my comments on 
+"fermentation utilization" and says something to the
+effect of "huh? this is an extraction technique".  (Forgive
+me for not being able to pull the comments directly, but
+I'm not on a system for the next two weeks that allows that.)
+
+
+The extraction of hop alpha acids and their subsequent 
+conversion into iso-alpha acids is only one part of the
+equation.  There are many post boil events that affect the
+final amount of iso-alphas in the finished beer.  Some are:
+Yeast type and flocculation characteristics, fermentation time
+and temperature, wort gravity, how much the wort pH drops as
+it ferments, fermentation methods, lagering or not, filtration
+or not, and more.  All of these can combine to make big
+differences in the amount of iso-alpha acids left in the beer
+by the time it reaches your lips, as opposed to simply the
+amount extracted by the boil into the sweet wort.
+
+
+I also noticed when reading my own post, that I said something
+like "as the gravity of the fermenting wort rises..." and I
+realized that some might have thought that I was implying that
+wort gravity rises as it ferments.  Of course it drops, but
+I should have said "the higher the starting gravity of the
+wort is at the time you begin fermentation, the lower your
+utilization will be."
+
+
+Interesting to note that Kelly Jones reported that his bitterness
+has gone away almost entirely, as I had reprted that other
+brewers had noted.
+
+
+Finally, I'll deal with Al's comments off-line.
+
+
+Mark
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #1242, 10/07/93
+*************************************
+-------

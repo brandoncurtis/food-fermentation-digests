@@ -1,0 +1,322 @@
+﻿HOMEBREW Digest #295                             Fri 03 November 1989
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  truncated digest (rdg)
+  Re: The great label controversy (Michael Eldredge)
+  Labels? (Mark Bradakis)
+  Now I've done it... (Doug Roberts `at` Los Alamos National Laboratory)
+  beer date decoder (Chuck Cox)
+  New [L]user question on digest format (Chris Shenton)
+  Re: Label Glues (John D. Polstra)
+  Brewing versus This Old House (Chris Shenton)
+  Smoking beer... (rauch) (Chris Shenton)
+
+
+
+
+Send submissions to homebrew%hpfcmr`at`hplabs.hp.com
+Send requests to homebrew-request%hpfcmr`at`hplabs.hp.com
+
+
+- ----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 02 Nov 89 10:31:44 MST
+From: rdg`at`hpfcmi
+Subject: truncated digest
+Full-Name:         Rob Gardner        
+
+
+Sorry about yesterday's truncated digest. I don't know how or why it happened,
+but it happened to everyone. I'm sorry that I could not personally reply to
+everyone to asked for the missing articles; It simply would have taken too
+much time. Today's digest contains the missing articles. 
+
+
+Please be patient and understanding if you do not receive some digest. If you
+missed one, chances are that you're not the only one who has sent me mail
+asking for the missing issue, and each request must be handled individually. I
+do not always have a chance to respond to all such requests immediately, and
+sometimes not at all. 
+
+
+On a related subject, I appreciate subscribers spreading the word about the
+Homebrew Digest to others, but *please* be careful to give out the correct
+address for requesting subscriptions: 
+        homebrew-request%hpfcmr`at`hplabs.hp.com
+Mail sent to homebrew%etc`at`etc gets 'published'.
+
+
+Thanks,
+Rob Gardner, Your Humble Digest Administrator
+
+
+- ------------------------------
+
+
+Date: Wed, 01 Nov 89 09:52:44 PST
+From: dredge`at`hitchrack.STANFORD.EDU (Michael Eldredge)
+Subject: Re: The great label controversy
+
+
+ I agree with the sentiment that ``... it was hard enough getting the
+ labels off the first time ...''.   I therefore am not interested in
+ adding labels to my personal supply of bottles.  However, for gifts,
+ etc. labels would be great and I've been following the suggestions
+ with great interest.
+
+
+ But, for simply demarcating one batch/bottling from another, my buddies
+ and I have found a simple and very effective method.  After capping,
+ we mark the batch number on each *cap* with an indelible marker.  Works
+ great, we never confuse batches and there are no messy labels to
+ remove for the next round.
+
+
+ Michael Eldredge
+ Stanford IC Lab
+
+
+- ------------------------------
+
+
+Date: Wed, 1 Nov 89 14:09:25 -0700
+From: mjb%hoosier`at`cs.utah.edu (Mark Bradakis)
+Subject: Labels?
+
+
+Out of curiosity, why are folks so concerned about removing labels?
+Seems to me one could just simply glue a new one over the old if you
+need to put a label on a bottle.  We just mark the caps and ignore
+labels.
+
+
+mjb.
+
+
+- ------------------------------
+
+
+Date: Wed, 1 Nov 89 16:56:15 MST
+From: roberts%studguppy`at`LANL.GOV (Doug Roberts `at` Los Alamos National Laboratory)
+Subject: Now I've done it...
+
+
+Last night a brewed an all grain batch for the first time. I used Papazian's
+Silver Dollar Porter recipe (sort of): 
+
+
+8# American 6-row (I used Klages)
+1# Munich malt
+1/2# Crystal (I used 90L)
+1/2# Black patent
+1/2# Chocolate
+1/2# Roasted barley (This is extra: it's not in Papazian's recipe)
+1 tsp calcium carbonate (Papazian calls for calcium sulfate [gypsum]
+                         I didn't have any)
+1 oz Northern Brewers - boiling
+1/2 oz Cascades       - boiling
+1/2 oz Cascades       - finishing
+
+
+I used Papazian's temperature-controlled mash procedure, sparged & boiled. 
+
+
+The start S.G. was 1.051 when I pitched rehydrated Whitbread yeast.
+
+
+You know what: I suspect the difference in quality between this batch and an
+extract batch is going to be equivalent to the difference between fresh-brewed
+coffee and instant. The wort had a much better hot & old break then I've ever
+had using extracts, and it tasted better, too. 
+
+
+The problem I always had with extracts was that you never really knew what was
+in them. 
+
+
+I think I'm sold on the concept of mashing your own :-}
+
+
+- --Doug
+================================================================
+Douglas Roberts                |
+Los Alamos National Laboratory |When choosing between two evils,  
+Box 1663, MS F-602             |I always like to try the one 
+Los Alamos, New Mexico 87545   |I've never tried before.
+(505)667-4569                  |
+dzzr`at`lanl.gov                  |
+================================================================
+
+
+Date: Wed, 1 Nov 89 14:59:06 EST
+From: chuck%bose`at`uunet.UU.NET (Chuck Cox)
+Subject: beer date decoder
+
+
+Fellow beer lovers -
+
+
+I am sure you have noticed that many beers (domestic & import) date code their
+beer by putting notches in the label. Well, here is how to decode *MOST* of
+these labels. Some labels appear to use this system but produce bizarre dates,
+so use your common sense. 
+
+
+If everyone had troff or postscript I could just send you a file to print, but
+this a more universal solution. 
+
+
+On a business-sized card draw 14 lines 1/16" apart in the middle of one of the
+long edges, then label them so: 
+
+
+        +---------------+
+        |                |
+        |- INDEX        |
+        |- 1  \                |
+        |- 2   |        |
+        |- 4   | day        |
+        |- 8   |        |
+        |- 16 /                |
+        |- 1  \                |
+        |- 2   | month        |
+        |- 4   |        |
+        |- 8  /                |
+        |- 1  \                |
+        |- 2   | year        |
+        |- 4   |        |
+        |- 8  /                |
+        |                |
+        +---------------+
+
+
+To use this card:
+One of the notches in the label will be larger than the rest, line up the
+INDEX mark on the card with this notch in the label. The rest of the notches
+should line up with some of the marks on the card. Simply total the value of
+the notches for the year, month, & day. Only the last digit of the year is
+encoded. Voila! You have decoded the date. 
+
+
+Enjoy.
+
+
+- - Chuck Cox (...!uunet!bose!chuck) - certified national beer judge
+
+
+- ------------------------------
+
+
+Date: Thu, 2 Nov 89 10:29:30 est
+From: Chris Shenton <chris`at`asylum.gsfc.nasa.gov>
+Subject: New [L]user question on digest format
+
+
+I just got my first Homebrew Digest. How do I undigestify it? I'm using
+emacs/vm and would like to automatically burst the digest into component
+messages, so I can file them into appropriate folders (eg: mead, stout,
+technique, etc). 
+
+
+Any advice/suggestions? Thanks in advance.
+_______________________________________________________________________________
+Internet: chris`at`asylum.gsfc.nasa.gov (128.183.10.155)       NASA/GSFC: Code 735
+UUCP:     uunet!asylum.gsfc.nasa.gov!chris                  Greenbelt, MD 20771
+SPAN:     PITCH::CHRIS (DECNET)                                    301-286-6093
+===============================================================================
+
+
+Date: Thu, 2 Nov 89 08:41:29 PST
+From: rutgers!vine.vine.com!polstra!jdp`at`hplabs.HP.COM (John D. Polstra)
+Subject: Re: Label Glues
+
+
+Everybody's talking about how to attach labels, I guess I might as well throw
+in my two cents worth.  I've made labels a few times using a LaserWriter.  I
+just used standard issue *removable* labels from the local office supply
+store.  (Avery S-3232, 2" X 2" `self-adhesive removable labels'.)  They work
+fine.  Just stick them on the bottles, no messing with glue at all.  They pull
+off again cleanly and easily, *provided* you don't get them wet. 
+
+
+- -- John Polstra               jdp`at`polstra.UUCP
+   Polstra & Co., Inc.        ...{uunet,sun}!practic!polstra!jdp
+   Seattle, WA                (206) 932-6482
+
+
+- ------------------------------
+
+
+Date: Thu, 2 Nov 89 13:59:34 est
+From: Chris Shenton <chris`at`asylum.gsfc.nasa.gov>
+Subject: Brewing versus This Old House
+
+
+I just moved into an 80 year old house. Water service from the street is via
+lead :-( pipes. Anyone experienced with the effects of lead in wort, and/or
+filters to remove it? (I'd prefer to avoid the expense of reverse-osmosis units
+unless it's unavoidable).
+
+
+I'm a bit hesitant to brew again until I am sure I can avoid lead-poisoning...
+Thanks.
+
+
+- ------------------------------
+
+
+Date: Thu, 2 Nov 89 14:01:28 est
+From: Chris Shenton <chris`at`asylum.gsfc.nasa.gov>
+Subject: Smoking beer... (rauch)
+
+
+On Tue, 3 Oct 89, pms`at`Sun.COM (Patrick Stirling) asked:
+> Has anyone tried brewing a smoked beer? I tried a bottle recently and
+> really liked it. I'd be interested in how you smoked - the 'real' way
+> or (dare I say it) by adding liquid smoke.  
+
+
+I did a smoked (rauch) stout once that was rather amusing. I followed
+Papazian's advice, mostly, and it was pretty simple:
+
+
+1. Soak your grains in water for 30-60 minutes.
+2. Sprinkle some mesquite or other trendy wood chips on your BBQ coals and
+   start the fire as usual.
+3. Cover with screen.
+4. When fire stabilizes, add your damp grain to the screen.
+5. Cover and let smoke for 30 minutes, turning occasionally.
+6. Brew with your smoked grains as usual.
+
+
+I used a little propane-fired hibachi/barbecue; I'm sure a Weber Kettle would
+be much better. The aluminum porch screen I had started to disintegrate after a
+while due to the heat; I suspect brass would be better if you can find it. Some
+of my grains close to the fire became carmelized and gunked up the screen;
+happily, this didn't seem to adversely affect the taste of the beer.
+
+
+My beer -- a stout, mind you -- came out so bitchin' smoky, I couldn't drink
+it for about 4 months. Even then, it was best with smoked foods or cheeses.
+Next time, I'll smoke for less time. I actually smoked for about 45 minutes, so
+the 30 above should be about right I think. Lighter-bodied beers may require
+even less time. I think experience has a lot to do with this one...
+
+
+- ------------------------------
+
+
+End of HOMEBREW Digest #295, 11/03/89
+*************************************

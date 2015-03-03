@@ -1,0 +1,1412 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA14550 for <spencer`at`srvr5.engin.umich.edu>; Fri, 15 Mar 1996 03:10:20 -0500 (EST)
+Received: from totalrecall.rs.itd.umich.edu (totalrecall.rs.itd.umich.edu [141.211.144.16]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA06682 for <spencer`at`engin.umich.edu>; Fri, 15 Mar 1996 03:10:08 -0500 (EST)
+Received: by totalrecall.rs.itd.umich.edu (8.7.4/2.3)
+        with X.500 id DAA28579; Fri, 15 Mar 1996 03:10:08 -0500 (EST)
+Received: from hplb.hpl.hp.com by totalrecall.rs.itd.umich.edu (8.7.4/2.3)
+        with ESMTP id DAA28575; Fri, 15 Mar 1996 03:10:03 -0500 (EST)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Fri, 15 Mar 1996 08:06:01 GMT
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA03796; Fri, 15 Mar 1996 01:00:06 -0700
+Date: Fri, 15 Mar 1996 01:00:06 -0700
+Message-Id: <9603150800.AA03796`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #1985 (March 15, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #1985                             Fri 15 March 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  cornys/blue glass/carbonation/Royal Oak (Algis R Korzonas)
+  Corny Keg and accessory sources (maxwell)
+  How to Predict the Terminal Gravity ("Clark D. Ritchie")
+  RIMS (Dan Gauss)
+  N2 carbonation in stout (Shawn Bleet)
+  HBD Survey (CASteveB)
+  Don't change breakers (Al Stevens)
+  stove element controller (old Fogy) (Al Stevens)
+  grolsch bottles (Wallinger)
+  Submission (Wayne Hocking)
+  Are my yeast bad ? ("Braam Greyling")
+  Re: cornys, fridges (hollen)
+  carbonation effects on lagering ("Sharon A. Ritter")
+  IR Technology in Brewing (malting) ("David Schleef")
+  1st wort hopping/ftpmail (Rolland Everitt)
+  First wort hopping and decoction mashes (Bob McCowan)
+  Advice needed for teaching a beginning homebrew class ("Michael R. Swan")
+  Water (A. J. deLange)
+  time of lagering in secondary and bottles (Darren Tyson)
+  Bass Ale clone (Jan Luttner)
+  RE: Great Grandfather's Ancient Recipe (Eric Dreher)
+  Regulators: two gauges better than one (FLATTER)
+  multi-grain beer (Darin Gibson)
+  Home brewery size (Art Steinmetz)
+  Data Pt on Filtering/Copper ("Palmer.John")
+  Witbier Recipe & Re: Stupid Tricks (Jay Reeves)
+  #cells in clear beer, yeast mutations, 1st wort hops ("Tracy Aquilla")
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 12 Mar 96 13:48:33 CST
+From: korz`at`pubs.ih.att.com (Algis R Korzonas)
+Subject: cornys/blue glass/carbonation/Royal Oak
+
+
+Neal writes:
+>If you really
+>want ball-lock fittings, but find that pin-lock kegs store better, you can
+>replace the fittings on those kegs with the ball-lock type - they have
+>standard threads.
+
+
+This is strictly a matter of luck.  *Externally* to the user, there are
+only four types of connectors:
+
+
+pin-lock gas, 
+pin-lock liquid,
+ball-lock gas, and
+ball-lock liquid.
+
+
+*Internally* (the diameter and thread of the fitting as it screws onto the
+body of the keg over the dip tube), you have a different story.  There are
+6 types (three gas-liquid pairs) of ball-lock "tank plug assemblys" (that's
+what Foxx calls them) and 6 types (three gas-liquid pairs) of pin-lock
+"tank plug assemblys."  There is only one pair that has common dimensions.
+
+
+If you are lucky enough to have 9/16-18 threads on your tank then you can
+buy the other (pin-lock or ball-lock) type of connector and it will fit.
+If you have anything else, you are stuck with the type you have.
+
+
+***
+Ted writes:
+>I have a few champagne style bottles that I was thinking of using to bottle
+>my next ale.  The problem is that they are made of blue glass. Are these safe?
+>Does anyone know if I have to be any more careful of my brew getting
+>lightstruck than with brown bottles?
+
+
+Before you started worrying about whether the glass will protect your beer,
+I assume you have already checked that your capper can handle the bottles,
+right?  Remember that many (primarily imported) Sparkling wine and Champagne
+bottles take 29-mm caps and won't work with our standard 1" caps or cappers.
+There are cappers that will handle the caps, but I've get to find a source
+of the caps in the US.
+
+
+Regarding the blue glass, no, it will no protect your beer as well as brown
+glass, but brown glass is not 100% protection anyway.  If the caps fit, I
+would go ahead and use the bottles, but just be *more* careful regarding
+exposing them to light.
+
+
+***
+Gregg writes:
+>but haven't 
+>been able to get any decent head or carbonation on my brew
+
+
+and
+>he suggested "excessive amounts of serilant in bottles or storing at 
+>excessively cool temperatures". I have been careful not to allow 
+>either. I have needed to add corn sugar to the brew to get a head
+>on it. 
+
+
+There are a couple of other reasons you might have undercarbonated beer.
+If you are boiling your bottlecaps you may be ruining their linings and
+therefore not getting a good seal.  Your capper may be defective (I once
+had a customer who could turn the caps after sealing them with a brand
+new capper -- obviously I exchanged his capper for another one).  How
+much corn sugar are you using?  Since you mentioned Charlie, I suspect
+that you are using his method of boiling 3/4 cup of priming sugar in a
+cup or two of water for a 5 gallon batch.  If you are using less than
+3/4 cup then you may be getting less carbonation that you are used to.
+If you are not boiling it in water, then you may be getting poor distribution
+and some of the bottles will be overcarbonated -- check the other case.
+If you had said that your beer had no head, but it had carbonation, then
+the obvious problems would be either not enough malt, too much refined
+sugar or a bacterial infection.  How strong is the beer?  If you made a
+really strong beer, the yeast may not have the strength to carbonate it.
+Finally, are you waiting long enough?  On standard-strength beers, you
+should wait at least two weeks, but on stronger beers, it could take a
+month or more.
+
+
+***
+Dan writes:
+>With that said...I recently had a bottle of Royal Oak pale ale
+>from Eldridge Pope.  Now, I'm not an experienced beer taster/judge
+>but I do enjoy an oaky Chardonnay.  I thought I detected a hint
+>of oak in this beer.  And that fact, together with the name....
+
+
+The name comes from a tree that King Charles (don't recall which one)
+hid in to escape from some revolutionaries that were busy overthrowing
+the Monarchy.  I have tasted this beer and although I like it, I cannot
+say that I recall an oaky character in it.  I would, however, like
+to point out that Wyeast #1028 London Ale lends a slight woody note to
+the beer.  You can get the Royal Oak yeast from the Yeast Culture Kit
+Company -- it may be the yeast that is the source of this character.
+
+
+Now that I think about it, there is an English beer that is aged in oak,
+but most certainly this would be well-used, European oak and therefore
+would not add much oak character at all.  I'm afraid I can't recall
+which brewery it is that uses those oak secondaries.
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`pubs.att.com
+Copyright 1996 Al Korzonas
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 96 14:37:04 cdt
+From: maxwell`at`prisminfo.com
+Subject: Corny Keg and accessory sources
+
+
+Someone was asking if a dual gauge regulator is better or not and the 
+subject came up of costs and sources.  Let me tell you how I got my gear 
+and what it costs...
+
+
+I called a couple of restaurant supply stores in town that sell used 
+equipment.  These guys carry everything from bar stools to spatula's and 
+everything in between, both new and used.  Here I purchased:
+
+
+1. Used ball lock Corny keg for $10.00 (lots o'yucky stuff in bottom)
+2. Used dual regulator for $10.00 (in great shape)
+3. One each in and out fitting for CO2 for $1.00 each
+
+
+Next stop: Soft drink distributor.  Here I purchased:
+
+
+1. 3' section of high pressure hose from reg to "in" fitting.  With the 
+associated hardware.  $2.00 total cost.
+
+
+Next stop: Home-brew store.  Here I purchased:
+
+
+1. Party tap
+2. ~5' of low pressure dispensing hose.  Total cost about $6.00
+
+
+Last stop: Gas distributor.  Here I purchased:
+
+
+1. Used CO2 tank, full.  ~$40.00
+
+
+
+
+So for around $75.00 I'm setup to keg.
+
+
+Tttthaaats alllll folks!
+
+
+
+
+Maxwell McDaniel
+maxwell`at`prisminfo.com
+Houston, TX
+
+
+Currently in secondary: Blue Whale Pale Ale from HopTech
+Currently in Keg: Funky Bock (It's getting better!)
+Brewing tonite: Brown Ale from HopTech
+Current CD: Jimmy Buffett, Coconut Telegraph
+
+
+No affiliation, blah blah
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 15:08:45 -0800
+From: "Clark D. Ritchie" <ritchie`at`ups.edu>
+Subject: How to Predict the Terminal Gravity
+
+
+Does anyone know a good way to predit a recipe's terminal gravity?  I
+realize that there are a lot of variables involved (temperature, yeast
+attenuation, ingredients, etc.), however there must be a good formula for
+making a ballpark estimate.  I've searched all over and can't find one.  The
+yeast FAQ has a lot of good stuff, but all of the equations require you to
+know the FG.
+
+
+Thanks... CDR
+Clark D. Ritchie, ritchie`at`ups.edu
+
+
+
+
+------------------------------
+
+
+Date: Sat, 9 Mar 96 17:09:00 -0500
+From: Dan Gauss <dang`at`traveltron.com>
+Subject: RIMS
+
+
+
+
+Hello Fellow Home Brewers,
+
+
+I am designing a RIMS system that will be sold to the home market.
+
+
+In order to make a system that will appeal to the masses,  I=C9m asking the=
+ =
+
+
+masses for your help.
+
+
+What features do you feel are vital and what features would you consider =
+
+
+optional?  How much would you be willing to spend on your =C8Dream System=
+=C9? =
+
+
+ How much assembly are you willing to do?  Would you want it as a =C8Built =
+In=C9 =
+
+
+or portable unit?  How much =C8automation=C9 would you want?  How important=
+ is =
+
+
+scalability?  What do you feel would be the ideal initial capacity?  What =
+
+
+kind of  accessories would you want to see?  Would you want a boiler and =
+
+
+burner included?
+
+
+All comments are welcome.
+
+
+If you could reply via private e-mail with your comments, it would be much =
+
+
+appreciated. (dang`at`traveltron.com)
+
+
+I will post specs throughout the design stage of this project so that all =
+
+
+can give feedback.
+
+
+Thanks in advance for all comments.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+C=C9est la vie,  Say LAGER!
+dang`at`traveltron.com
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 18:17:15 -0800 (PST)
+From: Shawn Bleet <bleet`at`unixg.ubc.ca>
+Subject: N2 carbonation in stout
+
+
+
+
+I'm a stout fan who has recently aquired both kegging capabilities
+and a brewing buddy who has access to nitrogen gas. Has anyone
+out there experimented with nitrogen or read any resouces that 
+discuss this topic? I'll let you know how my next stout turns out.
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 22:14:34 -0500
+From: CASteveB`at`aol.com
+Subject: HBD Survey
+
+
+Hello HBD collective,
+
+
+I was reviewing the Winter '95 Zymurgy and remembered filling out the AHA
+survey.  This, along with the recent "Mac User" related thread, started me
+wondering if a survey has been done for the HBD. I think it would be very
+interesting to see the composition of the HBD.
+
+
+I am toying with the idea of taking on the challange.  However, I would like
+to get some feedback on this before I start.  
+
+
+Please respond with your thoughts, feelings, warnings, encouragement, or
+ suggestions.  I will try summarize the responses and let you know my final
+decision.
+
+
+TIA for your input,
+Steve
+
+
+------------------------------
+
+
+Date: 12 Mar 96 22:17:43 EST
+From: Al Stevens <72704.743`at`compuserve.com>
+Subject: Don't change breakers
+
+
+                        > There are probably some 20A circuits scattered around;
+usually
+> the wiring gauge is the same (but check with an electrician to be sure this
+> is the case at YOUR house!), so it might be a simple matter of installing a
+> 20A breaker in place of the 15A connected to your brewing area outlets. 
+
+
+This is very SCARY advice !!  15A circuits are normally wired with 14 gauge wire
+, stamped  14/2 and ARE NOT rated for 20A.
+ 20A circuits will use 12 gauge wire  which will be stamped 12/2 or 12/3 for
+split phase (220 V).  Never arbitrarily change the size of a circuit breaker !
+it is there to protect you !                        
+
+
+With so much good advice in the HBD, please be careful in area's outside your
+expertise
+
+
+
+
+------------------------------
+
+
+Date: 12 Mar 96 22:17:46 EST
+From: Al Stevens <72704.743`at`compuserve.com>
+Subject: stove element controller (old Fogy)
+
+
+                        > After realizing how easy it is to slip one of the
+coiled burners in and
+> out of the stovetop for cleaning purposes, it dawned on me there
+> must be a way to make a plug to fit into the same receptacle. This
+> would give you access to a 220V line. In addition, you would have
+> complete boiling control from the temperature controls on the front of the
+> stove!
+
+
+If you can easily slide the elements in and out, then the connectors on the
+element probably look like two  eyes (as in hook and eyes). If this is the case,
+you could put your heater element in place of your burner ONLY IF IT  IS THE
+SAME WATTAGE OR LESS (yelling intended). Putting a bigger element in a circuit
+designed for a smaller one is asking for trouble (damage to  your stove, fires
+etc).  Get a length of 12 gauge wire (12/2) and strip about 3/4 inch at one end.
+Make eyes in the wire the same size as the ones on your stove element. these
+should slide into the element with no bare copper showing sticking out of the
+connector. Connect the other end of the wire to the element on your boiler, and
+there you have it. I would suggest trying this out with water first to get the
+hang of the controls.
+
+
+Good luck 
+
+
+Al Stevens
+Bennies Corners
+Ontario
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 21:11:13 -0600
+From: Wallinger <wawa`at`datasync.com>
+Subject: grolsch bottles
+
+
+>And, as observed by many, you can always just buy
+>the Grolsch, drink the beer, and keep the bottles!
+
+
+one other option may be to hook up with a restaurant
+or bar that serves grolsch and have them save the
+bottles for you. we have a local german restaurant that
+saves theirs and sells them for 25 cents each.
+
+
+wade
+pascagoula, mississippi
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 19:03:15 +0200
+From: ruwh`at`lockmtn.dom.EG.net (Wayne Hocking)
+Subject: Submission
+
+
+I have been increasing the capacity of my grain 
+brewing system, and have decided I need a pump to move 
+around the hot liquids. I checked in Zymurgy and found 
+that a company, Granier handles these pumps. My calls 
+to them have not yielded a pump, as they do not have a 
+retail group.
+
+
+Does anyone know of a company who can supply a pump 
+and tubing via mail order? 
+
+
+Appreciate direct response, as I get the digest sent 
+in bulk, and won't read todays for two months.
+
+
+Thanks,
+
+
+
+
+Wayne Hocking
+ruwh`at`lockmtn.dom.eg.net
+
+
+>From the shade of the Pyramids.
+
+
+
+
+
+
+------------------------------
+
+
+Date:          Wed, 13 Mar 1996 09:00:58 +200
+From: "Braam Greyling" <ACG`at`knersus.nanoteq.co.za>
+Subject:       Are my yeast bad ?
+
+
+I recently brewed my first full grain batch. What a disaster ! 
+I used WAY too much sparge water, so I threw this watery tasteless 
+beer into my primary,pitched the yeast and started praying.
+The beer I finally got tasted like a mich between ginger-beer and an 
+ale !  Why could this be ?  Well I bottled the used yeast for later 
+use anyway.
+My problem is: I brewed last night an brown caramel ale and a stout 
+and realized I dont have any other yeast left except the yeast I 
+bottled the previous time. Can I still use it ? Please ! Will it make 
+my Caramel ale an ginger ale ?!? I really do not hope so.
+Thanks in advance
+Braam Greyling           Design Engineer 
+Nanoteq (Pty) Ltd        tel. +27 (12) 665-1338  
+- ---- 24 hours in a day, 24 beers in a case ---- 
+- ----     coincidence ?????                 ----
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 96 07:09:59 PST
+From: hollen`at`vigra.com
+Subject: Re: cornys, fridges
+
+
+>>>>> "Neal" == Neal Christensen <nealc`at`selway.umt.edu> writes:
+
+
+Neal> re: ball-lock vs. pin-lock - If you really want ball-lock
+Neal> fittings, but find that pin-lock kegs store better, you can
+Neal> replace the fittings on those kegs with the ball-lock type -
+Neal> they have standard threads.
+
+
+Very wrong!  Pin lock and ball lock threads are not the same.  While
+there may be a few pin lock kegs which are compatible with ball
+threads, the majority are not.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)597-7080x119       Email: hollen`at`vigra.com
+Senior Software Engineer     Vigra, Inc.  San Diego, California
+
+
+------------------------------
+
+
+Date: 12 Mar 96 23:20:01 EST
+From: "Sharon A. Ritter" <102446.3717`at`compuserve.com>
+Subject: carbonation effects on lagering
+
+
+Does carbonation have any effect on the lagering process?
+
+
+A hypothetical case:  I have just brewed a German Pilsener. I'm planning
+to lager the beer in a corny keg for 4-6 weeks at 34 degrees F.. During 
+the final two weeks of lagering, can I hook up my CO2 tank to the keg 
+and force carbonate while finishing the lagering? Or, is there some 
+benefit to conducting the lagering phase while the beer is flat? I don't
+force carbonate by the often used "keg shaking method" but prefer to 
+hook up the gas to my refrigerated keg for about ten days.
+
+
+
+
+        Dan Ritter in Grangeville, Idaho
+        102446.3717`at`compuserve.com   
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 10:51:26 +0100
+From: "David Schleef" <schleef`at`stud.agrar.tu-muenchen.de>
+Subject: IR Technology in Brewing (malting)
+
+
+ "In #1977 Tom Penn asked about applications for IR technology in
+brewing. None come to mind."
+
+
+There are actually several uses for IR technology in the brewing and
+malting industry.  The most useful application is probably the
+immediate measurement (30secs.) of total disolved nitorgen in beer
+and in malt using either near infered transmission(IRT) or reflexion
+(IRR) technology.  The traditonal method (Kjeldahl) takes almost 4 hours
+and requires a serious ventilation and caustic setup..  It can also
+be reliably used to determine extract and water conent (malt).  The
+main advatges of IRT or IRR are the speed and convience (malt or
+barley samples can be measured whole), whereas the disadvatges are
+accuracy (eg. water content +-1%) and price (roughly $80000).
+
+
+David Schleef
+Weihenstephan
+ 
+
+
+
+
+
+
+schleef`at`hali.edv.agrar.tu-muenchen.de
+
+
+
+
+
+
+
+
+schleef`at`hali.edv.agrar.tu-muenchen.de
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 07:05:31 -0500
+From: af509`at`osfn.rhilinet.gov (Rolland Everitt)
+Subject: 1st wort hopping/ftpmail
+
+
+
+
+
+
+Since reviving the thread on first wort hopping about a week ago
+I have become thoroughly confused by Jim Dipalma's posts in which
+he seems to refer to sparge and boil as though they were the same
+process.  What am I missing here?
+
+
+Is first wort hopping nothing more than adding hops at the start
+of the boil (something I have always done)?  Don't we all do that?
+If so, then what's all the fuss?
+
+
+Tracy Aquilla was kind enough to provide me with the numbers of
+the HBD issues in which an earlier discussion of FWH appeared.
+Thanks, Tracy, I am trying to get them, but I have no ftp access,
+and as usual, ftpmail isn't working.  Has anyone ever had any
+luck with ftpmail (as advertised at the beginning of every digest)?
+I get a response from ftpmail saying that there are over 3,000
+entries ahead of mine in the queue.  The number gets larger with
+each request I send, and I conclude that it isn't working.  I
+guess I'm just another road kill on the information superhighway.
+
+
+Rolland Everitt
+af509`at`osfn.rhilinet.gov
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 08:00:03 -0500
+From: Bob McCowan <bob.mccowan`at`cfrp.varian.com>
+Subject: First wort hopping and decoction mashes
+
+
+Jim Dipalma mentions that Dave Draper says that many brewers boil for 15
+minutes or so before adding hops.  This is to form the hot break, and
+improves utilization, and is most effective for infusion mashes.
+
+
+In a decoction mash, a lot of the hot-break proteins are left behind in the
+mash tun, and the hops are typically added as soon as there is enough wort
+to start a boil.  In my case first wort hopping consists of leaving the
+flame off under the kettle during the sparge.  
+
+
+By this argument, when decoction mashing you should subtract the first-wort
+hopping from the bittering hops. When infusion mashing, however, you should
+not subtract the first-wort hops ( or maybe prorate them) from  the
+bittering hops.
+
+
+
+
+Guy Mason asks about kegs and filtering:
+
+
+I don't, and none of the homebrewers that I know filter their beer either.
+Given some time most of the yeast will drop out on their own.  Some of the
+brewpubs filter, but they often are serving beer within 2 weeks of brewing
+it.  Freshness is good, but I find that the brewpubs that rush their beer
+and filter it tend to have lackluster beers.  Maybe they're filtering out
+too much, leaving the beer thin.  They're a business, and serving the beer
+in 2 weeks rather than 4 allows them to run with half as many fermentors
+($$) - not an issue for us homebrewers, to whom money is no object :)
+
+
+
+
+Bob
+
+
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 96 8:21:21 -30000
+From: "Michael R. Swan" <mswan`at`fdic.gov>
+Subject: Advice needed for teaching a beginning homebrew class
+
+
+     I volunteered to teach a beginning homebrew class for
+our local club.  Rather than have two or three sessions, I
+am going to have one 2-3 hour session which will cover an
+entire extract batch:  from boiling, to chilling, to aeration,
+to (simulated) fermentation, to racking, to bottling, to
+capping. (Thank you, Don Walworth, for this great idea).
+
+
+     My major concern is what corners to cut and how to stream-
+line my presentation.  For example, it should not be necessary
+to boil the extract wort for a full hour---ten minutes should
+be enough time to get the idea across.  But should I even
+use extract--since the beer will never be fermented, shouldn't
+I just use colored water?  And should I even boil the wort?---
+if I do, I'll need to use a good amount of time to chill it before
+I transfer it to the fermenter.
+
+
+     As you can see, this is more complicated than it first
+appears.  Has anyone out there ever taught a course like this? 
+I would greatly appreciate *any* input on this project. Private
+email is fine. TIA.
+
+
+Mike Swan
+North Texas Homebrewers Association
+Dallas, Texas USA
+mswan`at`fdic.gov (during the day)
+goldswan`at`cyberramp.net (in the evenings)
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 09:35:53 -0500
+From: ajdel`at`interramp.com (A. J. deLange)
+Subject: Water
+
+
+Clark Ritchie had a couple of questions on water adjustment. He starts by
+asking what happens if a certain amount of calcium carbonate is added to
+water which is free of calcium and carbonates. Suppose 100 mg of chalk is
+put into 1 L of water. The flask or bottle now contains 100mg/L CaCO3 (or
+100 ppm) but it probably won't all dissolve. The water will be at a
+distressingly high pH. To get it to dissolve and bring the pH to a
+reasonable value acid must be added and, as those who have read my stuff
+before know, I advocate the use of carbonic acid because this is the way in
+which nature gets calcium carbonate into solution and the result is more
+likely to approximate the overall balance of a natural water than if
+another mineral acid is used. The reaction is
+
+
+    CaCO3 + H2CO3 --> Ca++ + 2HCO3-
+
+
+but there are other reactions going on as well so that the water actually
+contains Ca++, HCO3-, CO3--, H+, OH- and H2CO3. The relative amounts of
+these are controlled by the pH (H+ ion concentration). For pH values less
+than 8 the amount of CO3-- present is less than 1% of the total carbonic
+species and can thus be neglected. The number of H+ and OH- ions is small
+and their difference smaller for the pH range of interest so they can be
+neglected. This leaves Ca++ and HCO3- ions as the significant charge
+carriers and as the water must be electrically neutral there must be twice
+as many bicarbonate ions as calcium ions (calcium carries two positive
+cahrges and bicarbonte 1 negative). To calculate the levels using the
+example in Clark's post (1 gram chalk in 1 gallon water) start by finding
+the amount of chalk per litre: 1000 mg/3.78 litre = 264.6 mg/L. Convert
+this to millimoles per litre using the molecular weight of chalk which is
+100 (does that give a clue as to why concentrations are often expressed "as
+calcium carbonate"?): 264.6/100 = 2.646 mM/L. Each molecule of calcium
+carbonate contains 1 atom of calcium and one carbonate ion so that one mole
+of calcium carbonate contains one mole of each and we have, thus, 2.646 mM
+of Ca++ released into the solution if enough CO2 is bubbled through it to
+dissolve all the chalk. If the CO2 is bubbled until the pH reaches about 7
+then there must be (2)(2.646) mM/L = 5.298 mM/L bicarbonate. 2.646 came
+from the chalk and 2.646 came from carbonic acid. At pH 7 there is
+additional carbonic acid in the amount of one quarter of the bicarbonate of
+5.298/4 = 1.324 mM/L.
+The 2.646 mM/L Ca++ can be reported in that way or the mM/L can be
+multiplied by by the  mg/mM for calcium (40) to get (40)(2.646)= 105.8 mg/L
+Ca or the 2.646 can be multipled by the mg/L for calcium carbonate (100) to
+get 264.6 mg/L Ca as CaCO3 (which is what we started with). For bicarbonate
+the molecular weight is 61 so that (5.298)(61) = 323.2 mg/L HCO3-.
+Bicarbonate can also be expressed in terms of CaCO3 by multipling by 100.
+This gives 529.8 mg/L HCO3- as calcium carbonate. Note that this is twice
+the calcium level when it is expressed as calcium carbonate. All this boils
+down to: for each mg/L calcium carbonate DISSOLVED with CO2, the resultant
+bicarbonate level is 2 mg/L expressed as CaCO3 and .61 mg/L expressed as
+bicarbonate. The 1.324 mM/L carbonic are usually expressed in terms of the
+CO2 they carry by multiplying by 44, the molecular weight of CO2. This
+gives 58.3 mg/L carbon dioxide as carbon dioxide or 132.4 mg/L as calcium
+carbonate.
+
+
+Hardness can be expressed in several ways but where "as calcium carbonate"
+is used the hardness does increase 1 mg/L for each mg/L of calcium
+carbonate you add. It is also increased by any other calcium salt (gypsum,
+calcium chloride) or magnesium (Epsom) salt you add. The total hardness is:
+    100*[(mg/L Calcium)/40 + (mg/L Magnesium)/24.31)]
+
+
+A.J. deLange   Numquam in dubio, saepe in errore!
+ajdel`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date-Warning: Date header was inserted by SLUVCA.SLU.EDU
+From: tysondr`at`SLUVCA.SLU.EDU (Darren Tyson)
+Subject: time of lagering in secondary and bottles
+
+
+Greetings brewing collective,
+
+
+I'm curious of others' input on the maximum time of lagering in a secondary
+fermentor.  My system is closed (with a bubble airlock) and has been at
+55 to 60 deg F for about two months.  I'm planning on bottling this weekend,
+but I'd like to hear opinions as to when to bottle a true lager.  Basically,
+do _you_ lager in the secondary or in the bottle (or both).
+
+
+Thanks in advance,
+
+
+Darren         tysondr`at`sluvca.slu.edu
+
+
+ -=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-
+!  Darren Tyson, Grad Student | "I don't want to be killed  !
+!  Cell and Molecular Biology |  because of a typo--that'd  !
+!  Homebrew Sci-Fi Motorcyles |  be embarassing."           !
+!  Comics Rugby St Louis Rams |  -Commander Susan Ivanova   !
+!  Health Privacy and Liberty |              Babylon 5      !
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!
+!                  tysondr`at`sluvca.slu.edu                   !
+!     http:\\www.lookup.com\homepages\70785\dirty_pg.htm    !
+ -=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-=*#*=-
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 10:11:10 -0500
+From: Jan Luttner <jluttner`at`scoot.netis.com>
+Subject: Bass Ale clone
+
+
+Hello Homebrewers:
+
+
+Been reading this newsgroup with much interest since last Fall and this 
+is my first post.  It's amazing how many details exist in the world of 
+brewing.  One of these days soon I'll better understand some of your 
+posts.  I'm very new to brewing, only brewed my second batch last week.  
+I've been using LME and DRE along with a grain "teabag" for my batches.  
+I'm not quite ready to plunge into the all grain method (probably not 
+even the partial mash method).
+
+
+Can anyone tell me if there's a good recipe out there for a Bass Ale 
+clone?  The Cats Meow 3 has three different recipes.  Have any of you 
+tried one with any success or is there another one you might recommend 
+that's worked well for you?
+
+
+Thanks for any help.
+
+
+        Jan Luttner
+
+
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 08:24:50 -0600
+From: Eric Dreher <drehere`at`mpd.tandem.com>
+Subject: RE: Great Grandfather's Ancient Recipe 
+
+
+I'm assuming that Klondike Ken's calculations are correct about
+Sam Adam's Doppelbock claim.  It's too early in the morn for me to do
+the math.  I also think that the 1/2 lb malt in every bottle is
+probably a little more of marketing than truth as we would see it.
+
+
+        According to my Encyclopedia of Beer (BTW I have found to be
+a wonderful source of information.  Christine P. Rhodes, ED  1995)
+Sam Adam's Triple Bock is the strongest lager beer in the world at
+18.3 percent by volume (OG 39.5/1.168  FG 9.5)  
+
+
+        My conclusion is that given the assumption of correct 
+calculations, Mr. Koch is blowing a little smoke...
+
+
+Eric Dreher
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 09:27:45 -0500 (EST)
+From: FLATTER`at`RoseVC.Rose-Hulman.Edu
+Subject: Regulators: two gauges better than one
+
+
+Algis Korzonas provided a very good response to the original question, but I'd
+like to add a few more pieces of information.  The CGA [Compressed Gas Assoc.]
+recommends check valves downstream of all regulators.  I don't know if their
+advice has been incorporated into law; but the extra valve is such a
+convenience in other applications, I always put one on.  They're also cheaper
+to replace than a cylinder valve.
+
+
+On the subject of two guages, be aware that two stages and two guages are
+different concepts.  For many years we had people that assumed that a regulator
+with two gauges was a two stage regulator.  Basically a two stage regulator is
+two regulators where the output of the first is the input for the second.  They
+are used where an even flow of gas is essential.  The bottom line for the home
+beer lover is that this is wasted money.  Just another pitfall.
+
+
+"Wouldn't it be nice if taxes came with a money back guarentee?"
+Neil.Flatter`at`Rose-Hulman.Edu
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 08:29:01 -0600 (CST)
+From: Darin Gibson <darin_gibson`at`umanitoba.ca>
+Subject: multi-grain beer
+
+
+I have been making beer for a few years now, and I am up to about 2
+batches per month.  I wanted to try making something totally different,
+and have decided to make a beer with as many different types of 
+cereal grains as possible.  So far I have:
+
+
+1 kg light liquid barley malt extract
+1 kg light liquid wheat malt extract
+1 kg rice syrup
+500 g flaked rye
+500 g flaked maize
+
+
+So now I have a few questions:
+
+
+Is there some form of oats I could use?
+How would one handle the flaked grains?
+What hops would be appropriate?
+Will this be swill or might it work out ok?
+
+
+
+
+Darin
+
+
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 10:02:20 -0500
+From: asteinm`at`pipeline.com (Art Steinmetz)
+Subject: Home brewery size
+
+
+I have the singular luxury of designing my new home around my basement
+brewery.  How big is big enough I wonder.  Since bigger is, of course,
+better I'd like comments from those of you have have dedicated brewing
+spaces with some kind of permanent brew system.  How big is your space?  Is
+it big enough? 
+ 
+As currently planned the room is about 200 sq. feet.  With counter space
+and do-dads around the perimeter there is about 140 sq. ft. of floor space.
+ I plan to have some kind of 3 vessel, 1/2bbl brewery, a couple of fridges
+and slop sink. 
+ 
+Thanks for any comments.
+
+
+------------------------------
+
+
+Date: 13 Mar 1996 08:30:16 U
+From: "Palmer.John" <palmer`at`ssdgwy.mdc.com>
+Subject: Data Pt on Filtering/Copper
+
+
+Guy asked for opinions on filtering before kegging:
+
+
+For the record, I allow all of my beers to fall bright in the secondary before
+racking to the keg and force carbonating. For my ales, this is 2-3 weeks and
+for the lagers, well by the time they are done lagering, they're clear. I have
+almost no sediment in my kegs when the batch is done. 
+
+
+So, for me and my beer, no filtering is needed. I dont see a need for finings
+either. I may have a small amount of chill haze, but by and large, my beer is
+clear. I remember Jim Busch commenting on his use of finings and planning on
+using filtration. But Jim likes "Cask Conditioned Real Ale" which is consumed
+only 2 wks or so after pitching. It really is a wholly different way of
+producing and serving beer so fining and filtering are part of that
+Style/Method. You see what I am saying? 
+
+
+**
+I have been meaning to thank AJ for posting his data on copper dissolution in
+water and his beer. When Kelly responded to my post asking for hard data and
+the reasons, I thought to myself, "Good Questions, I intuitively know why, but
+I am not sure how to explain it, and dont have any measurements to illustrate
+it."
+
+
+And then AJ came along and saved me the trouble. Yea! So just to summarize:
+Copper will have a different Ionization Constant for each solvent (water or
+wort or beer), depending on the chemistry of the solvent. Distilled water which
+has no metal ions in it will be vary aggressive to a metal until the
+equilibrium contstant for that metals ions in solution is reached. As AJ
+illustrated with his Brewing Water Synthesis posts last year, the solubility of
+various salts ie. ions, is influenced by all of the ions present. My point in
+my earlier post on copper vs Wort was that the chemistry of wort was not
+usually aggressive to copper. And AJ was able to collaborate this.
+
+
+John J. Palmer - Metallurgist for MDA-SSD M&P 
+johnj`at`primenet.com  Huntington Beach, California
+Palmer House Brewery and Smithy - www.primenet.com/~johnj/
+
+
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 1996 10:43:58 -0600
+From: jay`at`ro.com (Jay Reeves)
+Subject: Witbier Recipe & Re: Stupid Tricks
+
+
+I'm sure there are a lot of folks that want to see some
+recipes posted - if you're one that doesn't, better
+find the "Page Down" key quick.
+
+
+With spring & summer just around the corner (for the
+northern hemisphere anyway), this is a great refreshing
+beer to drink lots of on a warm day, being moderate in
+alcohol.  The name comes from the fact that several
+fireflies (lightening bugs - Lampyridae family) magically
+appeared in the mash.  This one won first place in the
+2nd Annual Naked Pueblo Competition.
+
+
+"FIREFLY WITBIER"
+
+
+For 6.5 gal:
+
+
+6lb Belgian Pils
+4.6lb White Summer Wheat
+9.6oz Flaked Oats
+1.0oz 5.2% EK Goldings - 60min
+0.5oz 5.2% Styrian Goldings - 10min
+0.5oz 5.2% Styrian Goldings - `at`knockout
+0.5oz Curacao Orange Peel
+0.5oz Sweet Orange Peel
+2.0oz Coriander Seed
+5ml Lactic Acid
+Wyeast #3944 Belgian White Ale Yeast
+Several Fireflies
+
+
+OG: 1.051 - 12.5 Plato
+FG: 1.016 - 4.0 Plato
+Color SRM: 4
+IBU: 20
+Alcohol: 4.6 (v/v)
+
+
+Mash & sparge your favorite way and don't forget the
+fireflies.  Boil 10 minutes for break material then
+60 minutes following the hop schedule.  Add 1/2 of
+the orange peels and 1/2 the coriander 10min to
+knockout and the remaining orange peels/coriander
+5 minutes to knockout.  Chill & pitch.  Ferment `at` 65F.
+Mix 5ml of lactic acid to batch at bottling.
+
+
+It takes about 3 months for this beer to come into
+it's own: the lactic taste (sour) blended in real
+well after that period.
+
+
+BTW, Mike Hughes in Portland, OR posted in HBD1983
+about a stupid brewers trick: I nominate him for Best
+Brewing Story Of The Year Award (tm).  This one
+brought me to tears, Mike!
+
+
+                        -Jay Reeves
+                        Huntsville, Alabama, USA
+
+
+
+
+------------------------------
+
+
+Date: Wed, 13 Mar 96 12:15:20 CST
+From: "Tracy Aquilla" <aquilla`at`salus.med.uvm.edu>
+Subject: #cells in clear beer, yeast mutations, 1st wort hops
+
+
+In Digest #1983:
+Kyle R Roberson <roberson`at`beta.tricity.wsu.edu> wrote:
+>What is the concentration in cells per ml of suspended yeast in
+>beer that has dropped "bright"? 20,000-40,000?
+
+
+Around 10E5 (or 100,000) cells/mL. I haven't counted myslef, I just recall
+this number from somewhere (?).
+
+
+
+
+and BOBKATPOND`at`aol.com wrote:
+>
+>>>Tam Thompson writes, ". . . You can usually re-use that slurry about three
+>>>times before it starts to mutate too far into the unusable range. . . ."
+>
+>>Lorne Franklin writes,"I've read this assertion in many places
+>>and am wondering if anyone can profile the flavor, bahvior, or appearance of 
+>>"mutated" brewers yeast. I've never used yeast beyond the third generation, 
+>>but am curious of the potential problems involved with "inbred" yeast.
+>
+>Many micros and brewpubs reuse their yeast for many generations and some use 
+>the yeast forever.
+
+
+This is true and exemplifies the fact that mutation is generally not a
+problem with brewers' yeast. I remember reading somewhere that the Samuel
+Smith's Brewery has been using the same culture for over 100 years!
+ 
+>All brewers have their own methods of monitering their yeast. Some go by the 
+>number of generations, others watch the performance of the yeast carefully 
+>(such as how it flocculates and how the attenuation is ) and can tell 
+>when things are different and then dump the yeast.
+
+
+Performance in the brewery is probably the best way to monitor yeast
+quality. Unfortunately, one can produce a bad batch of beer before noticing
+that something has gone wrong.
+
+
+>As a rule 3 generations are probably enough for homebrewers. We can't 
+>possibly be as clean as a commercial setup, where they have heavy duty 
+>caustics and acid sanitisers and boiling water to run through all of their
+>equipment, so we are risking passing an infected yeast on to another batch.
+
+
+Yeast does not suddenly mutate after three generations in the brewery. The
+'3 generation rule' is arbitrary and basically makes little sense. I
+consider it to be a paranoid, over-kill safety measure somebody just dreamed
+up. Contamination from wild yeasts or bacteria is an entirely different
+problem from the selection of a mutant brewing strain, and thus should be
+handled as a separate problem.
+
+
+>As far as mutations, it depends on the strain of yeast and how much you
+>stress the yeast. High gravity beers stress the yeast and should not be
+>repitched, some say dark beers also.
+
+
+True, mutation rates are somewhat strain dependent, however "stress" doesn't
+necessarily induce mutations and it's incorrect to assume that all mutants
+will have greater fitness under a particular set of conditions and will thus
+be selected. The vast majority of mutants won't dominate the population and
+many are lethal, thus instantly self-destructing. While it's true that high
+gravity worts stress the yeast, the main reason this yeast usually isn't
+repitched is that high concentrations of alcohol weaken the yeast and one
+should never start a fermentation with a weak culture.
+
+
+>Lager yeasts are more prone than ale yeasts.
+>Some Weissen yeasts change rapidly and lose that clove-like flavor.
+
+
+Are you sure about this (both statements, particularly the first)? Can you
+provide a reference please? (I'm a skeptic, sorry.) From what I understand,
+most strains of brewers' yeast are quite stable genetically.
+
+
+
+
+and Domenick Venezia <venezia`at`zgi.com> wrote:
+>Perhap's Tam's use of the term "mutate" is unfortunate.  A true genetic
+>mutation is probably rare.
+
+
+Based solely on the size of the genome and the error rate of DNA polymerase,
+there is probably at least one point mutation in every daughter cell!
+Mutations are extremely common in nearly all species, however, most
+mutations are neutral or 'silent', meaning they have no observable effect.
+However, your point is well taken; problems developing from mutant yeast are
+probably infrequent.
+
+
+>What Tam is referring to is more appropriately termed "genetic drift".
+[snip some theory]
+
+
+Genetic drift can be defined in very simple terms. It's basically the same
+as sampling error (a statistical term). The smaller a population is, the
+larger the potential effect of genetic drift. For example, if you pick a
+single colony from a plate, you've sampled a very small subset from the
+larger population, thus altering the genotype of the subsequent population
+through sampling error (i.e. by selecting an unrepresentative sample from
+the population). Evolutionary biologists think of genetic drift and mutation
+rates as the two main forces providing the raw material needed for natural
+selection to do its thing (i.e. drive evolution). It's important to note
+that genetic drift and natural selection are two entirely different concepts.
+
+
+>When you choose that one perfect colony from a plate or slant you have selected
+>for a particular genetic profile and have left a lot of genetic variability
+>behind. A better technique for brewing is to sample multiple colonies or
+           ^^^^^^
+>resuspend all the yeast on a plate or slant and use everything.
+
+
+This really depends on whether one is trying to develop a clone or to
+maintain some level of diversity. I agree, however, if you want more
+diversity, it would be better not to pick a single colony.
+
+
+Getting back to the original question: >"wondering if anyone can profile the
+flavor, behavior, or appearance of "mutated" brewers yeast."...
+Two of the more common yeast mutations occuring in the brewhouse result in
+the loss of the ability to ferment melibiose and the loss of floculation. In
+the first case, one might observe higher than normal terminal gravities, in
+the second, cloudiness from the suspended yeast. I don't think homebrewers
+need to worry about mutations. Contamination is potentially a much bigger
+problem when 'recycling' yeast cultures.
+
+
+
+
+and dipalma`at`sky.com (Jim Dipalma) wrote:
+>I'm hoping that collectively we can come up with enough empirical data points
+>to formulate practical, rule-of-thumb procedures for homebrew size batches that
+>we can all use.
+
+
+I've done this with several recent batches now, basically following George's
+recommendation to add 1/3 of the aroma hops to the kettle while filling it.
+The improved aroma is unmistakable.
+
+
+>Dave pointed out that many brewers boil the wort for 15-30 minutes before the
+>first hop addition to allow the hot break to form, and thus any contribution of
+>iso-alpha acids from the small amount of hops used for first wort hopping can
+>be ignored, i.e., don't subtract out IBU contributions from the first wort
+>hopping as I did.
+
+
+I think that would really depend on the hops you're using. For example, in
+George's posts he described using Columbus hops for first wort hopping. With
+such a high alpha acid cultivar, I think the bittering contribution would be
+quite significant indeed! However, since this method is generally seen as a
+'Pilsener procedure', if you're using Saaz, it might not be so critical.
+
+
+>Dave also mentioned that he has a first wort hopped pils at the end of
+>primary, and a brown ale that just started fermentation.  He brewed these
+>beers without subtracting out the IBU contributions, and has promised to post
+>his results, so we'll have some useful data points in a few weeks time.
+
+
+I've used the first wort hopping method in several recent beers so we should
+have lots of data to analyze and discuss next month.
+    Tracy in Vermont
+    aquilla`at`salus.med.uvm.edu
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1985, 03/15/96
+*************************************
+-------

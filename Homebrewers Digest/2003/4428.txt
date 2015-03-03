@@ -1,0 +1,1488 @@
+﻿Subject: Homebrew Digest #4428 (December 17, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4428                             Wed 17 December 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Scorched a direct fired mash ("Urban, Michael J, WCITS")
+  Re: How to throttle magnetic pump? ("Gary Smith")
+  beer in Freiburg & Nurnberg (Germany) ("Peter A. Ensminger")
+  er: Pediococcus ("-S")
+  Re: RIMS temperature control ("Gary Smith")
+  Beersicle ("Dave Larsen")
+  re: RIMS Temperature Control ("-S")
+  RE: RIMS temperature control (Steve Jones)
+  Re: Rogue Chocolate Stout (R.A.)" <rbarrett`at`ford.com>
+  Karlsruhe (Jim Busch)
+  PID Control ("Todd M. Snyder")
+  re: Transporting Kegged Beer ("C.D. Pritchard")
+  Yeast Cannibalism? ("Gregory D. Morris")
+  re: How to throttle magnetic pump? ("C.D. Pritchard")
+  RE: Throttling Outflow of Magnetic Pump ("Parker Dutro")
+  Beer on a German Tour ("Bob Speights")
+  RIMS thermal density ("Chad Stevens")
+  5 gallons per minute ("Ronald La Borde")
+  Re: PID Control ("Mike Sharp")
+  natural chocolate flavoring (Marc Sedam)
+  creating clear canned wort ("Rob Dewhirst")
+  Re: How to throttle magnetic pump? ("David")
+  Re: RIMS Temperature Control (David Towson)
+  Re: RIMS Ramp Rates, PID Controlled etc (Dion Hollenbeck)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job. Note that the Digest now
+  automagically protects your address, so spam-proofing is a waste of
+  your time, anyway :^)
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 15 Dec 2003 19:07:24 -0500
+From: "Urban, Michael J, WCITS" <mjurban at att.com>
+Subject: Scorched a direct fired mash
+
+
+Beer Geeks -
+
+
+My brewing partner and I just finished our first all grain brew.
+Everything went well, except we managed to scorch the bottom
+of our mash tun adding direct heat for the temperature steps.
+The end effect on the flavor is yet to be determined, although the
+wort tasted pretty darn good.  I've since done some searching in the
+archives, and the good news is that at least we're not alone, as
+this seems to be a fairly common problem with direct fired mash
+tuns.  The bad news is that I didn't find a silver bullet; there wasn't
+any secret which would allow us to avoid the same situation in
+the future.  The solution seems to be to find a way to avoid direct
+heat in the mash steps.
+
+
+I've since given some thought to the alternatives.  Playing around
+with Promash tells me I can do all the steps with infusions if I
+dough in with a stiff mash (~.75 qt./lb.), and use infusion temps
+of 210 oF.  Since the mash tun is not insulated (yet), we may
+have to add small amounts of direct heat to maintain temp, but
+the ramps I think we can handle with infusions, and still end up
+with a final ration of ~1.85 qts./lb.  
+
+
+So after all this rambling, here's the question:  Are we in danger
+of local enzyme denaturing by adding water at 210 oF.?  I know
+we'll have to be stirring pretty vigorously, but still the temp
+gradient is going to be pronounced until everything stabilizes.
+
+
+Also, is there any advantage (or disadvantage) to adding the
+infusion through the outlet, thus introducing the water at the
+bottom of the mash rather than the top.  Since heat rises, I
+thought it might be better to reach a stable temp that way,
+and also to avoid any cooling at the surface.
+
+
+Advice would be appreciated.
+
+
+Michael Urban
+Winter Springs, FL
+[952.4, 170.5]
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 00:58:46 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Re: How to throttle magnetic pump?
+
+
+Brendan asks how to get or not to get pumped up
+
+
+ 
+> I've got a new magnetic pump (from morebeer.com) and was wondering if
+> the best way to throttle the flow is to (1) restrict flow output or
+> (2) use a dimmer switch to reduce power to motor. I understand that
+> reducing motor speed would also slow the cooling fan, but I guess I
+> could cool externally. Does outflow restriction have any negative
+> impact on pump/motor? Thanks in advance.
+
+
+With a magnetic pump you want to throttle the output. If you throttle the 
+input you can cause cavitation (spinning in place) and this will cause 
+bubbling which will severely affect the pumping. At high enough temps 
+maybe even a problem with hot side aeration.
+
+
+With peristaltic pumps you must throttle the intake side for with an 
+obstructon on the output you will end up with a burst output line.
+
+
+Gary
+
+
+Gary Smith
+CQ DX de KA1J
+http://musician.dyndns.org
+
+
+Most of us know how to say nothing--few of us know when.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 02:21:25 -0500
+From: "Peter A. Ensminger" <ensmingr at twcny.rr.com>
+Subject: beer in Freiburg & Nurnberg (Germany)
+
+
+Hi Stan,
+
+
+I lived in Freiburg from 1989-1991 and visited again in 1996. 
+Hausbrauerei Feierling, <http://www.inselbrauerei.de/>, was great back 
+then. Now? There's also Martin's Brau (another Hausbrauerei). Their beer 
+was less impressive, but their menu was better.
+            
+My memories of Nurnburg are a bit fuzzy, but this region is known for 
+its "smoke beer".  I would also suggest a visit to the  
+Weizenbeerglasmuseum 
+<http://museumsvielfalt-nuernberg.de/weizenbierglasmuseum/> in Nurnberg.
+
+
+Cheerio!
+Peter A. Ensminger
+Syracuse, NY
+
+
+- -----
+
+
+I have very limited internet access right now, so I haven't been able to 
+check the archives. Sorry.
+
+
+Soon I'll be driving from Prague to Nurnberg (spending a couple of nights) 
+and then to Freiburg (extreme western Germany, very close to French 
+border)--I'm picking up my nephew who lives with his mother in Freiburg 
+and bringing him back to Tabor for the holidays with his father.
+
+
+Any recommendations for beer drinking along this route?
+
+
+Thanks!
+
+
+Stan Burnett
+Tabor, CZ
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 02:33:54 -0500
+From: "-S" <-s at adelphia.net>
+Subject: er: Pediococcus
+
+
+A.J deLange writes ...
+
+
+>The aptly named P. damnosus is easily recognized under the microscope.
+>It looks like pairs or quads of little dots.
+
+
+But so do all Pedios ! Aerococci, Amaricocci are tetrad formers as well and
+it's likely some other lactos are..  Sarcina form 2x2x2 cubes which can be
+difficult to distinguish.   Further the list of Pedios include ... P.
+claussen, P. acidilactici, P. claussenii, P. damnosus, P. dextrinicus,  P.
+halophilus, P. inopinatus,  P. parvulus, P. pentosaceus and P. urinaeequi -
+all tetrad formers and several known brewery infections among these.
+
+
+Practically it doesn't matter, but they can't be identified accurately
+without a sequence of distinguishing tests or by genetic or antigen means.
+
+
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 02:06:06 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Re: RIMS temperature control
+
+
+On 16 Dec 2003 at 1:35, post at hbd.org wrote:
+
+
+Todd wants to know about RIMS flow rates
+
+
+> But 5 gpm seems really really high to me.  How can you 
+> get that much
+> flow thru the grainbed without compressing it?  What 
+> flowrate do
+> other RIMSers use?
+> 
+> Gary says that the flow is higher than 0.25-0.5 gpm, but 
+> gives no
+> number for what he uses, can you post your RIMS 
+> flowrate, Gary?  I
+> also agree with Gary about the carmelization myth.  
+> After making
+> maple
+
+
+I thought I'd mentioned my flow rate and looking back I 
+did use it in an example but didn't specify it as being my 
+existing rate. My rate is similar to Dion's and is also at 
+around five gallons per minute. I have yet to have a 
+stuck mash even once (lucky? Maybe...) I do start
+off with the output at zero and over the space of a 
+minute open it fully and never slow that down throughout 
+the cycles. 
+
+
+I have a Sanke mash-tun and a SABCO false bottom 
+and the grain at the end of mashing is 8" from the top of 
+the Mash-Tun so it is a very full bed of grain I'm mashing 
+through.  
+
+
+My last wheat beer had a grain bill of 23 pounds and 
+of that 13 was wheat. That's more than 50% wheat 
+and I had a beautiful flow. Not stirring has certain 
+advantages and the wheat did not turn to chewing
+gum in the least nor did it cause any compaction whatsoever.
+
+
+I haven't actually timed it with a stopwatch but to fill my boil
+kettle from the mash tun when I don't sparge takes certainly 
+takes no more than three minutes. All the sanke's are on the 
+same single tier and the boil kettle is filling through the siphon 
+at the bottom of the keg & going through the ball valve so it's 
+pumping against the increasing weight of the boil kettle mash. 
+With the RIMS, the flow is not against the back-pressure of 
+the liquid, it schleps in through the top of the mash-tun with 
+no added pressure to slow it down. I use two pumps in my 
+system but both are identical in flow rates.
+
+
+I mention this to give you a real time example of the rate of 
+flow.
+
+
+Bill at what was Moving Brews insisted I put the thermocouple 
+as close to the the heater output as possible and indeed my 
+probe tip is less than 2" from the proximal end of the heating 
+element. Since the controler is set to turn off at the set temp 
+and as the heat is not on steadily as the temperature 
+approaches the set point, there is no overshoot of 
+temperature. (Within five degrees or so of the set-point the 
+controler pulses on & off with more off the closer to set point
+until it is 100% off at set point) below that temp the controler 
+is essentially 100% on.
+
+
+As my entire mash-tun (top, bottom & sides), rims chamber 
+and connecting hoses are insulated with double layers of 
+metalized bubble wrap or cell foam on the hoses, it is 
+extremely efficient. I can put my hand anywhere on the mash 
+tun when it's at 170F and it is only mildly warm to the touch. 
+The controler does not turn on very often once the set temp 
+has been achieved. Overshooting the temperature can 
+not happen if you have your rims set up this way.
+
+
+Cheers,
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 09:10:45 +0000
+From: "Dave Larsen" <hunahpumonkey at hotmail.com>
+Subject: Beersicle
+
+
+So I'm trying my first lager: a Marzen.  I'm lagering it in my serving 
+fridge in a corny.   In the keg right next to it is the last gallon of a 
+California Common I was saving for a small competition in a month or so.   
+After a couple months of lagering I decided the rack the Marzen and put it 
+on the gas to carbonate.  All went very well -- well except for one thing.  
+For some reason I tapped on the California Common only to find out that it 
+was frozen solid.    Imagine that, two kegs of beer side by side, one 
+completely frozen, the other not.  I'm guessing that it has been frozen the 
+whole time I've been lagering the Marzen.  It must have been at exactly the 
+right temp in relation to the respective alcohol contents to do that.   The 
+temp on the thermometer I have in the fridge read 31 degrees F the whole 
+time.  I've since raised it to about 35 degrees F.
+
+
+So now comes the big question.  Can I just thaw it out?  Will it be okay?  
+If the temp is now 35, I guess it will thaw eventually.  However, should I 
+let it sit out at room temp or even bathe the keg in warm water?   It was a 
+kick ass California Common at one point.  I hope I did not ruin it.   I also 
+hope it did not ruin the keg it is sitting in, though it seems to have the 
+same basic shape it started with.
+
+
+Dave
+Tucson, AZ
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 04:20:49 -0500
+From: "-S" <-s at adelphia.net>
+Subject: re: RIMS Temperature Control
+
+
+Gary Smith responds to ...
+
+
+>> Temperature changes on the
+>> order of 1-2 degree F/min result in a ramp between
+>> steps taking almost as long as the targeted rests!
+
+
+>This is debatable.
+
+
+I agree but guys like Ludwig Narziss recognize this ramp rate as a serious
+problem over the protease range.   The argument can't be ignored.
+
+
+>Too fast a temperature rise will
+>caramelize the sugars.
+
+
+Not generally true.  The caramelization is due to localized high temps.  As
+many have noted lower density (larger surface area) heaters and more flow
+solve this problem.  Easier said than done.
+
+
+====
+
+
+Dave Towsend, correctly IMO, posits that mash accuracy below a couple
+degrees F is unnecessary.  Then asks ...
+
+
+>So why is a
+>sudden jump in temperature needed for a multi-temperature mash?
+
+
+Because all  modern malt is very well modified and most malts cannot stand
+much of a rest in the 50C-60C range(122F-140F) without losing foam and
+mouthfeel.  If you mash-in low you must find a way to boost through this
+range relatively fast.
+
+
+If you examine G.Fix AoBT pp29 mash schedule you'll see his boost is
+essentially instantaneous from 40C to 60C - probably a boiling water bolus.
+Kunze suggests decocting with a mash-in at 62C/143F to avoid this problem.
+
+
+Like Ron LaBorde I feel HERMS is inherently more robust in this respect,
+tho' more difficult to automate..
+
+
+==
+
+
+Most of the comments posted on enzymes are along the right lines.  I
+disagree with some fine points in DionH's comments implying saccharification
+won't occur below gelatinization temps.  Malt has considerable cold-water
+extract(CWE), releasing on the order of  25% of the available extract in
+cold water.  So yes - some fractional part of the saccharification will
+occur at 122F.  The other 3/4ths will await gelatinization as Dion writes.
+Malt gelatinization temps is in the mid-140sF, a bit higher than Dion
+suggests.  Yes to prevent high attenuation levels you should bounce over
+this range and at least to the high 150sF rapidly.
+
+
+My *opinion* is that for HBers that a protease/peptidase rests with all malt
+grists must be limited to the absolute minimum necessary to prevent haze.
+That may mean a short rest in the high 130sF or a mash-in as high as 143F
+and thus a low saccharification rest w/ some protease activity.
+
+
+After a protease rest the *only*  concern a brewer should have is to choose
+rests to favor or disfavor beta-amylase so to achieve the right level of
+attenuation.   No commercial malt will ever leave starch after even a few
+minutes at mashout temperatures.   It's extremely difficult to mistreat an
+all-malt mash so badly that it leaves starch.  Mash-in temps even at 180F
+and a bit more will not leave starch.
+
+
+In short conversion is almost certain, focus on haze reduction and correct
+attenuation to style as the parameters to control by mash schedule.
+
+
+Brewing with large amounts of starch or raw grains will change this.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 08:15:03 -0500
+From: Steve Jones <stjones1 at chartertn.net>
+Subject: RE: RIMS temperature control
+
+
+Todd Snyder posts in HBD 4427:
+
+
+>> You use 1.5F/min.  So to go from 122 to 154 took 48
+>> minutes.  Then you hold it at 154 for 60 minutes.
+
+
+Now why did they put that damn * key right next to the / 
+key? It's too easy to hit the wrong one!!
+
+
+It's 1.5 degrees per minute, not 1.5 minutes per degree. 
+Ramping up 32 degrees at 1.5 degrees per minute will take 
+21.33 minutes, not 48.
+
+
+
+
+
+
+Steve Jones, Johnson City, TN
+State of Franklin Homebrewers (http://hbd.org/franklin)
+[421.8 mi, 168.5 deg] AR
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 08:17:53 -0500
+From: "Barrett, Bob (R.A.)" <rbarrett at ford.com>
+Subject: Re: Rogue Chocolate Stout
+
+
+There have been a few postings about Rogue's Chocolate Stout.
+In the latest Rogue eNews they mention how this beer is made:
+
+
+"Chocolate Stout uses Shakespeare Stout as the base, infused
+with the essence of Dutch bittersweet chocolate."
+
+
+Doug Hurst posted the ingredients that appear on the bottle, but
+did not include the yeast.  Rogue uses their "Pac Man" yeast.
+
+
+It starts at 15 Plato and finishes at about 3.5 Plato.
+
+
+We make the beer we drink!!
+Bob Barrett
+Ann Arbor, MI
+(2.8, 103.6) Rennerian.  Jeff was at the meeting on Friday
+but not Pat!!!
+
+
+
+
+------------------------------
+
+
+Date: Tue, Dec 16 2003 9:18:11 GMT-0500
+From: Jim Busch <jim at victorybeer.com>
+Subject: Karlsruhe
+
+
+When in this area of Germany, I always make a stop
+at the Hausbrauerei Vogel, either in Karlsruhe or
+its more suburban cousin Ettlingen.  Here you will 
+find one of the worlds most amazing unfiltered
+hefetrub Pils.  Pick up a set of the nice schnapps
+glasses too.  www.vogelbraeu.de
+
+
+When in Nurnberg, go directly north to Bamberg! Stop
+at any of the numerous small breweries throughout 
+Franconia.  Kloster Weissenohe is a favorite of mine.
+
+
+Prost!
+
+
+Jim Busch
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 09:29:48 -0500
+From: "Todd M. Snyder" <tmsnyder at buffalo.edu>
+Subject: PID Control
+
+
+Mike Sharp writes:
+"The maximum ramping rate has nothing whatsoever to do with the type of
+control--it's the amount of power you apply to the heating chamber.  "
+
+
+I agree completely.  But if you have a low flowrate of wort and you set the
+heating chamber at the mash target temperature, it will take a long time to
+heat the _mash_ up to the target temperature.
+
+
+My point is that if you could heat the recirculating wort _above_ the target
+temperature to some safe but elevated temperature, you could get the heat
+into the mash faster and in something more closely resembling a step instead
+of a ramp.
+
+
+For example, lets say you want the mash to be raised to 154F and that you
+don't want the heating chamber outlet to exceed 160F.  A PC based controller
+could add the heat as fast as possible without exceeding the 160 limit.
+When the heater has been 'on' the total number of seconds needed to add the
+required heat, the software stops adding heat even though the target
+temperature may not have shown up at any of the sensors.
+
+
+A PID is not smart enough to dump the heat in all at once.  It 'sneaks up'
+on the solution with time when the temp sensor is installed on the outlet of
+the heating chamber.
+
+
+Then Mike missed the point about the scenario involving the probe somewhere
+in the mash, which _will_ cause a time delay in the control system.
+
+
+"If you're measuring the temperature at the exit of the
+heating chamber, the time delay is minor.  "
+
+
+I agree completely, using a PID with the probe at the outlet at the heating
+chamber is a perfect application for a PID.  Putting the probe in the mash
+or at the mash outlet is not.
+
+
+Putting the probe somewhere in the mash or at the mash outlet is a recipe
+for two problems. 1. Overheating the wort in the heating chamber  because
+the controller is not 'seeing' what it's heating 2. Because of the time
+delay between applying the heat and seeing the temperature change:
+overshooting the temp in the mash and at the mash outlet.
+
+
+Todd Snyder
+Buffalo, NY
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 24 Dec 2003 09:08:34
+From: "C.D. Pritchard" <cdp at chattanooga.net>
+Subject: re: Transporting Kegged Beer
+
+
+Bob Hall asked for comments on favorite methods of moving kegged beer to
+parties, vacations, etc. 
+
+
+I just strap them to a cheap moving dolly to move them but have thought
+about using a backpacking frame.  To ensure clear brew, I always cold
+condition the secondary fermenter (a keg) then rack to a dispensing keg.
+This ensures any chill haze will form/settle and remain in the secondary.
+Keeping kegs cool is usually more of a problem than moving them....
+
+
+For short term, I made a snug insulated sleeve that slips over a 5 gal.
+cornie.  It's just 3 layers of blue foam sleeping bag pad material and an
+outer covering of aluminum faced bubble wrap.  The first layer of pad is 1"
+taller than the other two- a couple of turns of rope secures it to the keg.
+ Kept 5 gal. of ale drinkable for about 5 hours on a 90+ degF day.  When
+used at room temp, I couldn't detect any temp. rise in the brew after 6
+hours.  
+
+
+For longer term dispensing from a cornie, I use a modified Rubbermaid 5
+gal. round water cooler.  With it's lid removed, a sleeve made like the
+above with 3 layers of sleeping bag pads was taped atop it and the entire
+thing (including bottom) was covered with aluminum faced bubble wrap.  The
+wrap extends ~12" above the top sleeve.  A Styrofoam lid with a slot for
+passage of the beer and co2 lines fits inside the outer wrap and atop the
+layers of pad and keg.   The exceess bubble wrap at the top is gathered and
+tied to completely seal the affair.  It also prevents the keg from floating
+upwards in the ice/water as it's drained.  it uses very little ice- one
+filling (less than 7#) of ice lasted for 12 hours on a 90+ degF day
+followed by another 12 hours inside at ~70 degF- and there was still ice
+inside the thing.  
+
+
+For smaller volumes, minikegs made from 3 and 5 liter PET bottles are the
+best IMHO.  They are much easier to transport than a 5 gal. keg and will
+fit into a fridge at the destination.  Details on them are via the URL
+below.  I used to counterpressure fill them from a cornie but have
+discovered it's not needed.  Purge 'em with co2, fill from cornie using a
+length of vinyl tubing attached to a cobra tap, put on tapping cap, connect
+to co2 and further purge a bit with the tap cap cracked open a bit then
+top-up the co2.   
+
+
+For co2 while away from home, I use one of the tire inflator type co2
+thingees.  The cartridges are expensive but they are damn handy- especially
+relative to myonly other source- a 20# co2 cylinder.  One useful addition
+is to splice in a pressure gauge and put a "red line" indication on it at
+the correct dispensing pressure- especially if others will be using the
+inflator.  
+
+
+
+
+c.d. pritchard     cdp at chattanooga.net 
+http://chattanooga.net/~cdp/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 09:37:31 -0500 (EST)
+From: "Gregory D. Morris" <gmorris at literati.com>
+Subject: Yeast Cannibalism?
+
+
+I just kegged a batch of stout a while back, and I had been using one of
+those little bicycle pump-style C02 chargers to dispense it.  It certainly
+wasn't an amazing beer, but it was certainly drinkable.  The problem I have
+here is that it now smells and tastes awful.  It has a burnt rubber-ish
+smell to it, that hbd has always attributed to yeast autolysis.  However, I
+noticed that the CO2 cartridges I use kinda have that same smell, and I was
+wondering if that might be another cause for it.  The keg was left half
+full, under pressure from the little CO2 cartridges for a few weeks, and it
+is my guess that the smelliness of the cartridges caused the beer
+smelliness.   Has anyone else had a problem like this?
+
+
+- --
+Gregory Morris
+Web Developer
+Literati
+(304) 296-8026 ext.139
+gmorris at literati.com
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 24 Dec 2003 09:44:27
+From: "C.D. Pritchard" <cdp at chattanooga.net>
+Subject: re: How to throttle magnetic pump?
+
+
+Brendan asked "...if the best way to throttle the flow is to (1) restrict
+flow output or (2) use a dimmer switch to reduce power to motor. I
+understand that reducing motor speed would also slow the cooling fan, but I
+guess I could cool externally. Does outflow restriction have any negative
+impact on pump/motor? "
+
+
+Either is fine IMHO.  For a RIMS or HERMS, it's been posted that pumps can
+damage enzymes but my experience doesn't support it.  I switched from a
+discharge valve to a ceiling fan controller for the March MDX-3 RIMS pump a
+couple of years ago and didn't notice any change.  Don't worry too much
+about motor heating- Although mine runs at much less than 1/2 speed for
+around an hour while mashing, there's been no motor overheating.  
+
+
+Some tips if you go with a changing pump speed- at least for a March MDX-3:
+ 1) A lamp dimmer won't work- use a ceiling fan speed controller.  2) Not
+all fan controllers work.  I tried a couple before I found one which
+worked.  The metal mounting plate is marked "Lutron FS-5F" - made by
+Leviton as I recall.  3) a variac (variable transformer) didn't work.  
+
+
+Given the above, I'd been better off sticking with a valve to throttle the
+flow.  If you go with a valve, a globe or even a gate type works better for
+throttling flow than a ball valve- often opening or closing a ball valve
+just a few degrees greatly/disproportionally changes the flow.  
+
+
+
+
+c.d. pritchard     cdp at chattanooga.net 
+http://chattanooga.net/~cdp/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 06:43:52 -0800
+From: "Parker Dutro" <pacman at edwardwadsworth.com>
+Subject: RE: Throttling Outflow of Magnetic Pump
+
+
+The safest way to control output is to use a ball valve or other
+adjustable valve on the exit port of the pump.  For obvious reasons
+restricting flow to the entry port would cause the pump to cavitate.
+With magnetic pumps, it is alright to shut the output valve all the way
+off.  I do this occasionally and the motor just spins and spins until I
+open the valve again.  I don't do this for extended amounts of time; it
+would be advisable to switch the pump off instead to save from
+overheating and overworking it. 
+
+
+"To every man, in his acquaintance with a new art, there comes a moment
+when that which before was meaningless first lifts, as it were, one
+corner of the curtain that hides its mystery, and reveals, in a burst of
+delight which later and fuller understanding can hardly ever equal, one
+glimpse of the indefinite possibilities within."  C.  S.  Lewis
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 08:11:18 -0700
+From: "Bob Speights" <rspeight at frii.com>
+Subject: Beer on a German Tour
+
+
+Stan,
+
+
+Do try Heidelberg if time allows.  Vetters Alt-Heidelberg Brauhaus is worth
+a side trip.  It's just off the church square in the center of town (Steing.
+9).  The fried sausages and potatoes are to die for (They make their own
+sausages and, of course, beer.)  Take a prodigious thirst.  They have a half
+dozen brews on tap at all times.  And, do make ready to make friends - it's
+that kind of place.
+
+
+Enjoy,
+
+
+Dr.Bob
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 07:16:04 -0800
+From: "Chad Stevens" <zuvaruvi at cox.net>
+Subject: RIMS thermal density
+
+
+In support of what Dion has already gotten across with what I thought was a
+reasonable degree of clarity...(heat shields up):
+
+
+For the love of Pete!  The mash and the boil are two entirely different,
+detached, and diametrically opposed events in the beer making process.  In
+the mash we want enzymes to remain intact; in the boil, we want to destroy
+the little buggers.  In a RIMS setup we're not worried about caramelization
+or blowing up $7.00 heater elements or any other cataclysmic doomsday event
+you might envision.
+
+
+The central point is this: enzymes are not thermally stable. Get them too
+hot in your heater chamber and they can't do that voodoo that they do so
+well.  Keep the watt density low!
+
+
+I feel better now.  Can we go back to talking about beer?  Anyone made Malt
+Vinegar?  Pointers?
+
+
+Chad Stevens
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 09:30:28 -0600
+From: "Ronald La Borde" <pivoron at cox.net>
+Subject: 5 gallons per minute
+
+
+>From: "Todd M. Snyder" <tmsnyder at buffalo.edu>
+>
+>But 5 gpm seems really really high to me.  How can you get that much
+flow
+>thru the grainbed without compressing it?  What flowrate do other
+RIMSers
+>use?
+
+
+Well, having not been there, I cannot say for sure just how that is
+done. However, I will tell you that I have never dreamed of achieving
+5 gpm circulation rate. Oh, of course I tried to see just how much was
+possible on my system. Never got close. My conclusion is that the
+grain in the mash sort of semi-floats in the liquor, and when one
+circulates rapidly, the grain is pulled down and gets compacted more,
+more and more (3m). So, just how one gets 5 gpm flow rate is a mystery
+to me.
+
+
+I am not saying it cannot be done, but I don't know how. For a 5
+gallon brew batch, I might get 1 gpm at the most. Normally when I do a
+10 gallon batch, I will flow somewhere around .5 gpm. No matter how
+good the filter screen, It seems to me that the limiting factor is the
+grain's ability to float without compacting. Possibly with a super
+wide and shallow grain bed it would be possible. My system uses an
+Igloo 10 gallon cooler, and the bed will be about 15 inches deep. The
+photos I see on some rigs do have a much shallower mash thickness,
+perhaps this is the secret.
+
+
+On the subject of temperature probe placement, If the flow stops, does
+it really matter where the sensor probe is placed? This is why to my
+way of thinking, a stuck mash is the kiss of death to the brewing
+session using RIMS.  The only way to keep the PID and heating element
+at desired temperature with a stuck mash would be if you had the temp
+sensor bonded to the heating element. That way the PID would be
+getting a steady diet of truth.
+
+
+For those who want to use computers, the ideal setup would be for
+several sensor probes throughout the system. In the mash tun, one
+probe at the top, one in the middle perhaps, and the computer then can
+figure out the average mash temp, which is what we really want.
+
+
+Ron
+=====
+Ronald J. La Borde -- Metairie, LA
+New Orleans is the suburb of Metairie, LA
+www.hbd.org/rlaborde
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 09:35:10 -0800
+From: "Mike Sharp" <rdcpro at hotmail.com>
+Subject: Re: PID Control
+
+
+Todd replies:
+
+
+
+
+> Mike Sharp writes:
+> "The maximum ramping rate has nothing whatsoever to do with the type of
+> control--it's the amount of power you apply to the heating chamber.  "
+>
+> I agree completely.  But if you have a low flowrate of wort and you set
+the
+> heating chamber at the mash target temperature, it will take a long time
+to
+> heat the _mash_ up to the target temperature.
+
+
+Well, if the flowrate is too low, the system is defective, and that's
+another issue.
+
+
+> My point is that if you could heat the recirculating wort _above_ the
+target
+> temperature to some safe but elevated temperature, you could get the heat
+> into the mash faster and in something more closely resembling a step
+instead
+> of a ramp.
+
+
+That's what PID will do, especially if you put the probe in the mash, the
+wort is hotter exiting the heater.  You need to control the "amount hotter"
+by setting the max "on" cycle time.  So when beginning the step, with your
+probe in the mash, you must configure your output so that when the
+controller is below the proportional band, the output is fixed to some
+maximum value (depends on the system thermodynamics).  But this is risky,
+because you don't really know how hot the wort is getting at the exit of the
+heating chamber.
+
+
+It's possible to combine two controllers to do this so that you:
+
+
+1.  Control the max temp of the wort in the heating chamber
+2.  Directly control the mash temp.
+
+
+You have two separate controllers, one set for PID control with a probe in
+the mash, the other set for proportional control (PID is unnecessary here)
+with the probe at the outlet of the heating chamber.  Ideally, you use an
+instrumented heating rod, as this has the fastest response time.  This has
+the TC embedded in the end of the heating element (some have it in the
+middle, but these are used for other purposes).  I have a heating chamber
+(which I actually use for other purposes) that is a straight cartridge
+heater with a K type TC embedded at the end of the rod.  It's a fairly
+standard cartridge heater, and the heating chamber is a straight stainless
+tube with a swagelock T at both ends.  The heater enters the "in" end, and
+sticks about 3/4 of the way up the tube.  I'll post a picture this weekend.
+
+
+Anyway, the way this works is the two controllers control separate SSRs
+wired in series together with the heating element.  When the system begins
+the step, the PID controller in the mash goes to 100%, because the mash temp
+is well below setpoint.  The P controller in the heating chamber is also at
+it's max value, which depends on your system.  Let's say you run your
+element at 100% power, because you have a low enough watt density.
+
+
+Very quickly the chamber heats up (but the mash hasn't).  The P controller
+enters it's proportional band, which is set so that the max temp of the PB
+is the max "safe" temp for the wort.  The heating chamber gets to the final
+temp quickly as the the P controller begins cutting back on output.  Even
+though the mash PID controller is at 100%, the heating chamber controller is
+the one controlling power to the heater.    Increasing flow at this point
+will cause the P controller to increase it's output, but temp will never go
+above the max safe temp.  Let's say your controller stabilizes at 60% power.
+In practice, this actually decreases slowly as the incoming wort gets
+hotter.
+
+
+As the mash heats up (and it's doing it as fast as it can, given your
+systems characteristics), it eventually enters it's own PB, and the SSR
+(which has been wide open until now) begins to cut back.  At some point,
+it's going to have a lower output than the SSR for the heating chamber.
+Remember, both SSRs are in series, controlling the same heater.  The
+controller with the lower percent output is the one that actually controls.
+It's like having to valve in series.  One can be wide open, but if the other
+is mostly shut, it's the one that controls the flow.
+
+
+Once the PID controller begins lowering output (as the mash heats up), the P
+controller will slowly increase it's output to your max setting (assume 100%
+for this example), because it sees heating chamber temperature falling, and
+it tries to raise it.  But it doesn't matter, because now power is
+controlled by the mash temp.
+
+
+This approach allows 1.  Exact mash temp control and 2.  the fastest
+possible heating time.
+
+
+power-----| Mash SSR|-----|Heat Chamber SSR]----Heater
+
+
+>
+> For example, lets say you want the mash to be raised to 154F and that you
+> don't want the heating chamber outlet to exceed 160F.  A PC based
+controller
+> could add the heat as fast as possible without exceeding the 160 limit.
+> When the heater has been 'on' the total number of seconds needed to add
+the
+> required heat, the software stops adding heat even though the target
+> temperature may not have shown up at any of the sensors.
+
+
+This is called "feed forward" control.  Some systems--especially systems
+with long lag times from the time the controlled variable is changed to the
+time the wild variable is perceived to respond--can only be controlled by
+feed forward.   The symptom is that with "feedback" control, the wild
+variable oscillates around the setpoint, and cannot be tuned in, or else it
+overshoots very badly, no matter what the tuning.  Most modern process
+controllers that do PID allow feed forward control, but this is much harder
+to tune, and you must know the system thermodynamics intimately.  It will
+change with different mash schedules.  With systems that do not have fixed
+characteristics, it's difficult to come up with the tuniing parameter.
+
+
+You can obviously do the control with a PC, but what you're doing is
+essentially the same thing a dedicated process controller would do.  You'd
+be better off using the PC as an MMI front end to the process controllers,
+and modify tuning parameters based on recipe selection which would be
+derived emirically, unless you remember more of your college thermo than I
+do...
+
+
+>
+> A PID is not smart enough to dump the heat in all at once.  It 'sneaks up'
+> on the solution with time when the temp sensor is installed on the outlet
+of
+> the heating chamber.
+
+
+This isn't necessarily a characteristic of PID control, it's a
+characteristic of "feedback" control, which may be PID or not.  A simple
+thermostatic control exhibits this same characteristic.
+
+
+>
+> Then Mike missed the point about the scenario involving the probe
+somewhere
+> in the mash, which _will_ cause a time delay in the control system.
+>
+
+
+Reasonable time delays can be tuned.  Excessive time delays are symptoms of
+poor design.  If the rare case occurs where the time delay is inevitable
+(especially if the delay is due to measurement delay, and not actual process
+delay), then you must use feed forward control.  An example would be if you
+had a massive thermowell, and the mash heats up but it takes several minutes
+for your probe to measure it.
+
+
+Regards,
+Mike Sharp
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 14:59:36 -0500
+From: Marc Sedam <marc_sedam at unc.edu>
+Subject: natural chocolate flavoring
+
+
+This topic comes up every now and again, from someone wanting to clone 
+either Rogue or Young's Double Chocolate Stout.  
+
+
+What you need to get is, really, called natural chocolate 
+flavoring/extract.  The one place I'm certain carries it is Williams 
+Sonoma.  At $10 for an 8oz bottle, it it a pricey little bugger.  I 
+don't know if you need a full bottle per batch or not, but that's what 
+you need to get the chocolate flavor.  
+
+
+I've successfully used cocoa in brewing but then you have to balance the 
+bitterness of the cocoa with the bitterness of hops, etc.  Can be hard 
+to get right.
+
+
+Cheers!
+Marc
+
+
+- -- 
+
+
+Marc Sedam
+Chapel Hill, NC
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 15:37:17 -0600
+From: "Rob Dewhirst" <rob at hairydogbrewery.com>
+Subject: creating clear canned wort
+
+
+I have canned wort in a pressure canner in the past, for use with starters.
+The base was light DME.
+
+
+I stopped doing this because there was so much break material in the canned
+wort.  I tried pre-boiling and then canning, but it did not help much.
+
+
+Any suggestions?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 14:39:25 -0800
+From: "David" <gates at island.net>
+Subject: Re: How to throttle magnetic pump?
+
+
+>I've got a new magnetic pump (from morebeer.com) and was wondering if
+the best way to throttle the flow is to (1) restrict >flow output or (2)
+use a dimmer switch to reduce power to motor. I understand that reducing
+motor speed would also slow
+>the cooling fan, but I guess I could cool externally. Does outflow
+restriction have any negative impact on pump/motor
+>Thanks in advance.
+
+
+Brendan,
+Throttle the output of the pump.  The pump is a non-positive
+displacement pump so the normal practice is to throttle the output; this
+will not have any sort of adverse effect on the pump.  Having said that,
+don't shut off the output and leave the pump running as you will burn
+out the seal on the pump and render it useless.
+
+
+David Gates
+Victoria, BC
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Dec 2003 18:35:40 -0500
+From: David Towson <dtowson at comcast.net>
+Subject: Re: RIMS Temperature Control
+
+
+Wow, I've been away from the digest for a couple days, and there's been a 
+lot of interesting stuff posted on this subject.  Particular thanks to 
+Steve for his good answer to my question about why rapid temperature steps 
+are desirable, at least across the 122 - 140 F range.
+
+
+Todd asked some specific questions about my system performance, and I'll 
+try to answer them now.  I have a 3-tier system using 15-gallon stainless 
+steel vessels.  Each vessel has a natural gas burner under it, and I have 
+individually ported the burners to get different heating rates.  The HLT 
+burner puts out the most, the kettle burner is next, and the mash tun 
+burner is quite a bit lower than the other two.  I only use the mash burner 
+to pre-boil my water, and to provide a little boost heat during ramps, and 
+then it's throttled way back so as not to overheat the wort under the false 
+bottom.
+
+
+I had never measured the flow rate during recirculation, so I had to 
+conduct an experiment to estimate that.  I set everything up as usual, 
+except that I used only water in the mash tun, and I put a bucket inside to 
+collect the water so I could measure it.  I have learned from experience 
+how much I can open the throttling valve on the pump discharge before I 
+risk sticking the mash, and that's where I set it for this experiment.  I 
+ran four trials, and averaged about 1.6 gallons per minute.  For 
+comparison, I ran one more trial with the throttling valve wide open and 
+got 2 gallons per minute.  In all cases, the water was being pumped through 
+the HERMS coil, which offers a very substantial impediment to flow (45 feet 
+of helf-inch copper tubing, plus five feet of half-inch hose and assorted 
+plumbing hardware.  In an actual mashing situation, I expect the rates will 
+be a bit lower due to increased pump suction caused by the grist.
+
+
+Todd also asked about ramp rates.  I only make one beer regularly that 
+needs stepping, and that's an oatmeal milk stout.  I do a glucan rest at 
+108, a beta rest at 138, an alpha rest at 157, and mashout at 170.  I have 
+clocked the ramp times on occasion, but never wrote them down.  However, 
+based on my memory of the most recent times, the ramp rate runs between 
+about 1.0 and 1.5 degrees-per-minute depending on the temperature 
+difference between the step temperature and the HLT temperature, with the 
+greater difference giving the faster ramp as expected.
+
+
+While reading the various posts, it occurred to me that perhaps a different 
+approach might be useful in addressing the question of whether a "fancy 
+controller" can provide much faster steps in an electric RIMS.  Let's 
+assume for sake of discussion that all heat transfer is perfect, and there 
+are no losses whatever.
+
+
+This example is for a step from 100 F to 150 F, a difference of 50 degrees, 
+which roughly equates to a step from a glucan rest to a low single 
+saccharification rest.  From some web sources, I determined that water at 
+125 degrees (the midpoint temperature for this example) has a density of 
+about 8.25 pounds-per-gallon.  And since one Btu will raise one pound of 
+water one degree F, it will take 8.25 x 50 = 412.5 Btus to raise one gallon 
+50 degrees.
+
+
+I do 10-gallon batches, which seems pretty common for RIM/HERM systems, and 
+my usual amount of mash water is eight gallons.  That's how much it takes 
+to cover my temperature probe, which is installed in place of a dial 
+thermometer that came with my equipment (a Sabco keg).  So there's no fancy 
+reason why I put it there; it's just where I could put it.  I did, however, 
+intentionally keep the probe short, so it "sees" the temperature near the 
+outside of the keg, where the heat loss is greatest.
+
+
+Going on with the example, to raise 8 gallons 50 degrees, will take 412.5 x 
+8 = 3300 Btus.  Now, here's where we get to the meat of this example.  To 
+develop one Btu in one hour takes 0.293 watts.  So using the example target 
+of 3300 Btus and this relationship, we can generate the following table 
+showing the power needed to get our 50-degree temperature change in various 
+fractions of an hour.
+
+
+        5 minutes        11,603 watts
+        10 minutes        5,801 watts
+        15 minutes        3,868 watts
+        20 minutes        2,901 watts
+        30 minutes        1,934 watts
+
+
+These are the powers needed to raise 8 gallons of water through the example 
+50-degree step in the times indicated.  And this is for a perfect system 
+with no losses, with the heater turned on full, and left on until the job 
+is done.  In other words, there is no controller - just a switch, and 
+heating occurs at the maximum possible rate.
+
+
+But a real electric RIMS is not a perfect system, and it has losses.  So 
+more watts than those shown above will actually be needed to do the 
+50-degree step in the times shown.  The reader can scale the above powers 
+upward by whatever factor seems appropriate to account for system losses, 
+but whatever the factor, were talking some serious power levels here for 
+rapid steps.  And unless those watts can be converted into heat in the wort 
+in the specified time without damaging the wort through excessive local 
+heating, the indicated step times cannot be achieved no matter what kind of 
+controller is used.
+
+
+I have no experience with an electric RIMS, but I suspect that doing really 
+fast steps with such a system will require a truly huge multi-element 
+heating chamber and a high flow rate, in order to have the power needed 
+while keeping the wort temperature within a safe range.  If I were building 
+such a system, I'd want to have solved that problem before I spent a lot of 
+time thinking about a fancy controller.
+
+
+Dave in Bel Air, MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: 16 Dec 2003 18:41:56 -0800
+From: Dion Hollenbeck <hollen at woodsprite.com>
+Subject: Re: RIMS Ramp Rates, PID Controlled etc
+
+
+>> FRASERJ  writes:
+
+
+JMF> I am guessing a PID Controller would throttle my system using
+JMF> power control (cutting back on wattage) better than my hard
+JMF> ON/OFF control of the elements would.
+
+
+Actually, the PID controller does the same thing, ON/OFF only.  It
+does not directly cut back on wattage.  There are some PID
+controllers capable of outputting a voltage level corresponding to a
+percentage of full on, but I don't see how that could control a heater
+element without some more sophisticated electronics sitting between
+the element and the PID capable of sensing the PID voltage level and
+translating it into some sort of sine wave clipping like a dimmer
+switch does.  Most likely possible to do, but most RIMS systems I know
+of use PID controllers that do ON/OFF, varying the percentage of
+ON/OFF as the setpoint is neared or lost.  This percentage and the
+number of seconds one ON or OFF unit is can generally be set in the
+PID.
+
+
+dion
+- -- 
+Dion Hollenbeck  Email:  hollen at woodsprite.com
+Home Page:       http://www.woodsprite.com
+Brewing Page:    http://hbd.org/hollen
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4428, 12/17/03
+*************************************
+-------

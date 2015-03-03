@@ -1,0 +1,1409 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Mon May 22 03:36:10 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["46828" "Mon" "22" "May" "1995" "01:01:02" "-0600" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1123" "Homebrew Digest #1737 (May 22, 1995)" "^Date:" nil nil "5" nil nil nil nil]
+        nil)
+Received: by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with X.500 id DAA21667; Mon, 22 May 1995 03:36:02 -0400
+Received: from goodman.itn.med.umich.edu by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with SMTP id DAA21660; Mon, 22 May 1995 03:35:56 -0400
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA01180
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Mon, 22 May 95 03:35:50 -0400
+Received: from hpfcmi.fc.hp.com (hpfcrdg.fc.hp.com) by hpfcla.fc.hp.com with ESMTP
+        (1.37.109.16/15.5+ECS 3.3) id AA026088088; Mon, 22 May 1995 01:34:49 -0600
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.10 $/15.5+IOS 3.22) id AA110886062; Mon, 22 May 1995 01:01:02 -0600
+Message-Id: <199505220701.AA110886062`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+Date: Mon, 22 May 1995 01:01:02 -0600
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1737 (May 22, 1995)
+
+
+
+
+
+
+HOMEBREW Digest #1737                             Mon 22 May 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Fix mash schedule/EasyMasher<tm> (Steve Robinson)
+  Re: Bitter brew (PatrickM50)
+  Enzyme file renamed... (kevin)
+  Drakes/Stout Dispense ("David B. Sapsis")
+  Re: Stuck fermentations (HBD#1735) (G. Garnett)
+  re ftp.stanford.edu (Tim_Fields_at_Relay__Tech__Vienna)
+  Androgenous first name (kit.anderson)
+  dWC Malts and FG (Kirk R Fleming)
+  Toronto (Scott Howe)
+  Irish Moss roundup/pitching feedback (Tim_Fields_at_Relay__Tech__Vienna)
+  request for Honey Porter Recipe (DUSTHOMP)
+  Pete's Wicked Summer Brew (Jeff Guillet)
+  Astringent mouths and pressed strawbs. (Russell Mast)
+  drinking water safe hoses? (Steve Peters)
+  RIMS (Eamonn McKernan)
+  Re: Starter Aeration Trick\Draft Mix (RWaterfall)
+  SUNSHINE CHALLENGE RESULTS (CFHBGordon)
+  Kirin's "first pressings" (Robert Lauriston/Patricia Bennett)
+  beer-balls (John Shearer)
+  SIGNOFF homebrew%hpfcmr`at`hplabs.hp.com (ESSNER RICHARD L)
+  Toxic...like it or not! (DocsBrew)
+  Re: Lautering gadgets (Dan Sherman)
+  MASH SCHEDULE (j.conklin5)
+  10 gallon corny kegs (Kenneth Whitney)
+  Hop Oil/Coconut Oil/Oil Slick ("Robert W. Mech")
+  Copper breweries ("terence tegner")
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 19 May 95 10:19:34 EDT
+From: Steve Robinson <Steve.Robinson`at`analog.com>
+Subject: Fix mash schedule/EasyMasher<tm>
+
+
+
+
+Russel Brodeur writes, regarding the Fix mash schedule:
+
+
+> It seems to me as though the rest at 140 F does virtually nothing at all,
+> and the entire conversion is taking place at 158 F, hence the high FG's.
+> This is the logic which prompted me to increase the 2nd rest to 145 F.  
+
+
+I also use the Fix mash schedule, and have been very pleased with the results.
+I do not experience the high FG problem that started this thread, and I think
+it's important to understand one of the main advantages of this schedule.
+
+
+The degree of fermentability of the wort can be controlled by changing the
+times spent at 60C and 70C (140F and 158F).  To make the wort more fermentable
+you should spend MORE time at 60C and less at 70C.  My most recent experience
+with this is a porter which started at 1.055 and finished at 1.012.  The mash
+schedule was straight from Dr. Fix's post in HBD #1506 (30 minutes at 60C, 
+followed by 30 minutes at 70C).  To make a wort with a lower FG, I would adjust
+the times to 40 minutes at 60C/20 minutes at 70C.
+
+
+This leads me to wonder if perhaps your thermometer is reading too high?  If
+your 140/158 rests were really at 136/154, then the initial rest may be doing
+very little.  You would then be following it with a short saccharification rest
+at 154F, producing a dextrinous wort.  This would also explain why boosting the
+140 rest to 145 helps.
+
+
+Andy Donohue writes:
+
+
+> There have been a few posts lately about trub removal and
+> hops clogging CF chillers. I use a homemade easy masher
+> for mashing and in my kettle. Even if you don't wan't to
+> mash with an EM, they are excellent for trub removal.
+
+
+This is probably true if you use a CF wort chiller.  I use an immersion
+chiller, and the one time I tried this the EM plugged up and I spent half an
+hour rubbing the side of the screen with a spoon in order to keep the flow
+going.  I have also heard several other instances of the EM clogging up with
+hop residue and trub, and the common denominator seems to be immersion
+chilling.
+
+
+I still use the EM in my mash tun, but in the boil kettle I have replaced it
+with a copper ring drilled with zillions of small holes and I have had no
+clogging problems since.
+
+
+Steve Robinson in North Andover, MA
+steve.robinson`at`analog.com
+[insert pithy quote here]
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 10:22:29 -0400
+From: PatrickM50`at`aol.com
+Subject: Re: Bitter brew
+
+
+In HBD 1735, Palmer Davis noted that:
+>>>>>>>>>>>
+The last two batches that I've bottled have suffered from a curious
+problem.  ...  before I bottled both, as the SG's fall leveled off, the beer
+began to
+develop a harsh, astringent character, which was still present at
+bottling time.  What happened, and will this go away with time?
+<<<<<<<<<<
+
+
+Same thing happened to a batch of California Common I made recently.  I
+believe it was due to having too high a PH level in my sparge water, but as
+you didn't say whether your's was an extract or all grain brew I don't know
+if this is your problem.  Also, I had split the 5 gal batch between two pots
+on the stove and while I was cooling one, I believe the finishing hops in the
+other had more time in the wort than they should have, thus contributing more
+bitterness than planned.  In any event, I couldn't even drink the first
+bottle at two weeks, but after a month the bitterness was down considerably.
+ After two months it was outright delicious.  And I'm saving the last bottle
+for a special occasion :-)
+
+
+Hope this helps!
+
+
+Pat Maloney
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 08:58:07 -0600 (MDT)
+From: kevin`at`wheels.aar.com
+Subject: Enzyme file renamed...
+
+
+I spoke too soon about the enzyme file.  It was renamed when it was
+entered to the ftp site.  The correct info is now:
+
+
+site:  ftp.stanford.edu  (anonymous ftp)
+location: /pub/clubs/homebrew/docs/using_enzymes.Z
+
+
+
+
+Another person requested to make it available via his WWW pages.  It
+can also be seen at:
+
+
+http://alpha.rollanet.org/library/enzymes595.html
+
+
+Kevin
+
+
+- -- 
+Kevin Hass WB0DPN       ! 
+                        !  PGP public key by request via email
+kevin`at`wheels.aar.com    !
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 08:04:24 -0700 (PDT)
+From: "David B. Sapsis" <dbsapsis`at`nature.Berkeley.EDU>
+Subject: Drakes/Stout Dispense
+
+
+Top of the mornin' to y'all,
+Glen asks about parameters for Drake's Ale:
+For those regionally interested I can give some insight, although I
+believe that Roger has altered the recipe somewhat since I saw it
+brewed.  The beer is kindof a hybrid between a big british brown (?) and
+an old ale. The is a distinctive caramel malt character coming from the
+use of medium dark british crystal (80 Lov H. Baird) at about 10% of
+grist.  The balance of the grain  is (was) Great Western 2 row. 
+Straight infusion mash, mid 150's, gravity mid 1050's.  The hopping is
+quite interesting.  He was using Chinook for bittering to approx. 30
+IBU, with Willamettes and Kents used for finish, with a clear but light
+touch.  Yeast strain is Windsor.  Apparent attenuation is right around
+73-75%.  The most dominant facet of the beer in my opinion is from the
+british caramel, and you will not get it using domestics.  Incidentally,
+some local pubs will pull this beer on a handpump, which dramatically
+improves it's british posturing.
+***************
+Todd queries about dispensing stout from N2 setups:
+The following relates toboth what I have been told by distributors and
+my own experience.
+1) Guiness mix is 70%N2 and 30%CO2;
+2) The effects of the CO2 in these types of beers are like its effect in
+any beer -- it adds some carbonic acid sharpness and fills mouthfeel to
+some extent; the CO2 coming out of solution and the high surface tension
+of the beer result in the famous head.  The N2 basically allows the beer
+to be dispensed at very high pressure without effecting dissolved gas
+coposition.  This is important for generation of nucleation sites as it
+is dispensed through a controlled sparkler tap (guinness tap).
+3) Dispense temp is a function of temperature: I have had very good
+results dispensing 55F beer using 35-45 psi
+4) While the flow control tap is not obligatory, as stated above, the
+capability to withstand very high top pressure and force the beer to
+initiate foaming both contibute to the foam stand.  Common cobra head
+faucets give out and leak commonly at pressures above 30 psi.  I have a
+Murphy's style tap which also has a flow controller valve like the older
+guinness types.  This is a nice feature, particularly for making black
+'n tans.  If you are serious enough to get a separate N2 cylinder, I
+highly suggest getting an appropriate tap.  Incidentally, I have heard
+that the Guinness style taps are no longer available with the flow
+control knob.  I am not certain of theis report, but I have noticed all
+new Guinness taps to be of bronze colored metal, and lacking the valve. 
+The new Murphy's taps do have the valve.  When I was looking into
+getting mine, there was a significant difference in price, however; the
+valved versions ran over $110 (but I got mine free --- wheeeee!)
+5) I use separate CO2 and (pure) N2 cylinders.  I shoot for dissolved
+CO2 at about 1.5 volumes and use the straght nitrogen for dispense,
+usually around 40 psi.  Works great for me (and not just for stouts).
+
+
+Hope this helps,
+- --dave in Oakland soon to be Sacratomato   dbsapsis`at`nature.berkeley.edu
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 11:03:41 -0400
+From: ggarnett`at`qrc.com (G. Garnett)
+Subject: Re: Stuck fermentations (HBD#1735)
+
+
+In HBD#1735, Ilkka Sysil <isysila`at`clinet.fi> wrote:
+>I cannot see very much point in cosidering cures for stuck fermentation.
+>Stuck fermentation definitely means that things have gone unfortunately
+>& *irreversibly* awry in much earlier stage of brewing process.
+>
+>Stuck fermentation is almost exclusively due to *wrong* composition
+>of sugars in the wort provided that aeration of wort has been done
+>properly and yeast & pitching rate is ok.
+
+
+Having a wort with too high a proportion of unfermentables is only one 
+cause of stuck ferments (and, I should note, one cause which does 
+_not_ apply to extract brewers!).  As you note above, under-aeration
+and yeast underpitching can also cause stuck ferments.
+
+
+As can poor temperature control (allowing the fermentation to get too
+cold for the strain of yeast involved), use of a yeast unable to tolerate
+high alchohol leves in a high-gravity beer, or even a yeast that tends
+to flocculate early.
+
+
+All of these can result in "stuck" ferments, and most - if not all - of
+these conditions can be "fixed", one way or another.  I feel that there
+is good reason to discuss stuck ferments on the HBD.  Not only can
+possible "fixes" be proposed, but many readers can learn something from
+the discussions - and hopefully avoid making that kind of mistake themselves.
+
+
+On the HBD, at least, there are very few bad questions - just bad answers.
+Even the repeated "Help! Is my Beer Ruined?" posts.  I certainly understand
+how these can get tiresome, but look at it from the point of view of the
+poster:  What most of them need is some reassurance and maybe some basic
+tips.  If the HBD's master brewers don't feel like answering, there are 
+plenty of us who aren't that advanced who will quietly do what's needed
+via private email, and you can skip over the post without guilt.  
+
+
+Recently, I've become concerned that we on the HBD haven't been presenting as 
+friendly a face towards newcomers as we might - and in some cases, OUR 
+treatment of these newbies will determine whether they stay in the hobby, or 
+leave for some other endeavour.
+
+
+>There is no point doctoring the remaining much too high amount of dextrins
+>into fermentable sugars [...] In [...] brewing the ratio of fermentables vs.
+>unfermentables is adjusted [... during ...] *mashing* exactly the way which 
+>comes up with desired composition of sugars in wort.
+
+
+That's great, and I'm sure most of the readers of the list who brew all-grain
+beers know about it.  On the other hand, my all-grainer friends' TARDIS is 
+broken - by the time the ferment sticks, we can't go back in time to correct 
+the mash schedule.  This is, of course, why we keep a notebook, so that we can 
+record what we did wrong and learn from our mistakes.
+
+
+On the other hand, I for one am loath to pour beer down the drain (I subscribe
+to the Irish belief that on judgement day, you're suspended head-down in a
+barrel of all the alchohol you've ever spilled - and if you drown, to Hell 
+with you).  If there's a something I can do that can save the batch, I'd 
+rather save it if it'll be drinkable at all.  A "ruined" batch like that 
+will probably never win any prizes, but when I'm thirsty I don't want a 
+prize, I just want a beer.
+
+
+I sometimes wonder just how much perfectly drinkable beer is poured down
+drains each year by tense, worried homebrewers.
+
+
+
+
+Guy Garnett - ggarnett`at`qrc.com
+- ----------------------------------------------------------------------------
+                                          Hakuna Matata and Have a Homebrew!
+Standard disclaimers apply
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 May 95 11:17:40 EST
+From: Tim_Fields_at_Relay__Tech__Vienna`at`relay.com
+Subject: re ftp.stanford.edu
+
+
+Given Drew's question in today's HBD re unzipping files from 
+ftp.stanford.edu, I thought I would post an experience I had recently re 
+this site.  Note I run on a MAC, so you may want to scroll on down if you 
+don't use one (you should of course go right out and buy one!). Also note 
+that my problem related to a .z file, not a .zip file.
+
+
+I was attempting to download the all about grain FAQ referenced recently in 
+HBD,   I was accessing via Compuserve FTP if it matters. I downloaded it 
+without the .z extension, presuming the server would uncompress it for me 
+like the instructions say it will.  Well, it didn't (file was full of ascii 
+chars when i copied it to a DOS disk and tried to open it on a PC) and 
+attempting to open the downloaded file on my MAC gave me messages that I 
+did not have the Compress program it was created with.  After a good bit of 
+trial and failure, it turns out that this file with a .z extension is 
+apparently a compressed unix file. I downloaded a program called 
+MacCompress from Compuserve (apparently the MAC version of this Compress 
+pgm), and that (finally) did the trick.
+
+
+For what it's worth ...
+
+
+
+
+Tim Fields
+ Timf`at`relay.com
+ Relay Technology, Inc., SQL/DS Division
+ Vienna, VA, USA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 May 95 10:55:59 -0500
+From: kit.anderson`at`acornbbs.com
+Subject: Androgenous first name
+
+
+
+
+                             
+
+
+
+
+
+
+> "Yup, Kit's (Anderson) a brewer...
+>  What he isn't is a woman." - Dan
+
+
+
+
+ "I yam whatsk I yam." -Popeye the Sailor
+
+
+
+
+ Thank you for clearing that up, Dan. I have had some interesting =
+
+
+ propositions,though. 
+
+
+ "SWM, homebrewer, almost-40-something, portly stature, seeks-20-
+ something fit SWF  who enjoys watching televised sports and
+ washing bottles. Send picture of wort chiller."
+
+
+ Androgenous names can be fun in cyberspace.
+
+
+Kit "Travels With Chiles" Anderson
+Bath, Maine
+<kit.anderson`at`acornbbs.com>
+*
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 10:03:20 -0600
+From: flemingk`at`usa.net (Kirk R Fleming)
+Subject: dWC Malts and FG
+
+
+Russ Brodeur says:
+
+
+>I'm going to brew an English bitter...
+>I'm shooting for an OG around 40-45 and hope to get the FG down to 10-15
+
+
+I've not used dWC--I've been using Baird exclusively for the pale ale malt,
+and (probably) Baird or M&F for the crystal.  For light bitters w/OGs at
+38 and 33 I've gotten FGs of 10 for both using 1098 and 1084, respectively.
+Mash was 105F for 30 min and 153-154F for 60 min.  Mash pH was not measured 
+for either run, but recent pale batches with gypsum or Burton salts have 
+been ~5.4 at ~100F.
+
+
+In Fix's post (18 Aug 94) his bill of 24 lbs dWC, 2 lbs dWC CaraVienne and
+1 lb dWC aromatic, run at 40/60/70C (30 min each), "typically" gets OG ~ 53.
+The thrust of his talk centered on the influence of a 40C rest on extraction,
+BUT he adds that the ratio of times spent at 60 and 70C strongly influence 
+fermentability.  To wit, if time(60C)/time(70C) = 1/3, then he said ADF 
+will be in the low 70s (as percent).  OTOH, if this same ratio is 3/1, 
+ADF moves up to the mid-80s.  He uses 15 min/45 min and 45 min/15 min as
+examples.
+
+
+Say you can get 85%, then we have:
+
+
+             .85 = (OE - AE)/OE
+
+
+Using about 40 pts as the OG, to get:
+
+
+           ~40/4 = 10P as the OE, then
+
+
+             .85(10) - 10 = -AE, or AE = 1.5 (deg Plato)
+
+
+Converting to gravity: FG ~ 1.006.  I don't believe it, but the only way to 
+know is to try it, bearing in mind we don't know what kind of yeast he
+used to get these estimates.
+
+
+What I'd like is a plot based on empirical data of time(60C)/time(70C) vs.
+maltose/maltotriose.  I think such a plot would be very interesting, 
+especial if the Mouthfeel Index could be incorporated somehow. :-) Since
+Russ proposed a grain bill having about 7% non-pale ale malt vs. Fix's ~12%
+non-pale bill, seems he should get comparable results.
+
+
+Say, I have about five 1/2 gallon jugs and an excuse to brew, er, I mean a
+problem to research...better get cracking.
+
+
+
+
+
+
+
+
+
+
+Kirk R Fleming / Colorado Springs / flemingk`at`usa.net
+"You can't get enough, but enough ain't the test."
+                                      David Bowie
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 08:36:33 -0700
+From: Scott Howe <howe`at`appmag.com>
+Subject: Toronto
+
+
+
+
+ Yep, It's one of those posts... I'm going to Toronto and want to know where
+to drink.  Good beer-bars/restaurants, must see sights would be appreciated.
+
+
+ I'll be there June 17-24; are there any fests that week there or close? 
+    Thanks in advance for private e-mail responses.
+       --Aubrey Scott Howe, III
+         Santa Barbara, Ca
+
+
+------------------------------
+
+
+Date: Fri, 19 May 95 12:11:12 EST
+From: Tim_Fields_at_Relay__Tech__Vienna`at`relay.com
+Subject: Irish Moss roundup/pitching feedback
+
+
+Many thanks to all who responded to my query about Irish Moss.  Here are 
+the results:
+ 
+     7 direct responses and 1 HBD posting
+     
+When to add:
+     with 20 mins to go in the boil = 1
+     with 15 mins to go in the boil = 7
+
+
+All but one suggested re-hydrating the IM before adding it to the boil.  
+Length-of-rehydration-time ranged from overnight to a half an hour, with 
+most opting for 1 or 2 hours.  One to two cups of warm to very hot water 
+was the preferred rehydration medium.  Overall, respondents said that the 
+combo of rehydration and adding 15 mins from the END of the boil produced 
+by far the best results, but all noted that any use if IM resulted in 
+clearer brews.
+
+
+Amount to use:
+     ranged from 1 tsp. to 1 TBS. 
+     Average suggestion was 1 or 2 tsp.
+
+
+My favorite comment: "The smell of wet Irish Moss is like a trip to the 
+beach"
+
+
+and ...
+
+
+RE Pitching Rates:
+I received a response to my response to the pitching question (say that 10 
+times fast) stating that pitch rates for a "standard" ale should be the 
+slurry from a 1/10th batch size.  For 5 gals, that equals the slurry from a 
+1/2 Gal starter (4 pts) -  compared to the one pt I suggested.  For higher 
+gravities and lagers, use more (1 GAL starter or more).  IMO pitching rate 
+is important, so I'm passing this on fyi (I'm going to increase my rate).  
+In hindsight, I may have misinterpreted the yeast FAQ - I "read" 1 PT of 
+STARTER - it may very well have said/meant 1 PT of SLURRY - a big diff.
+
+
+Tim Fields
+ Timf`at`relay.com
+ Relay Technology, Inc., SQL/DS Division
+ Vienna, VA, USA
+
+
+
+
+
+
+------------------------------
+
+
+Date:         Fri, 19 May 95 10:07:47 MST
+From: DUSTHOMP`at`idbsu.idbsu.edu
+Subject:      request for Honey Porter Recipe
+
+
+Does anyone have a Honey Porter Recipe?  My daughter wants me to try
+making one..  Thanks
+
+
+ Shirley Thompson      User Service Center      Boise State University
+                    Dusthomp`at`Idbsu.Idbsu.Edu                            du
+Here's to it and to it again, if you don't do it, when you get to it,
+you may never get to it to do it again. . .
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 16:11:00 GMT
+From: jeff.guillet`at`lcabin.com (Jeff Guillet)
+Subject: Pete's Wicked Summer Brew
+
+
+
+
+Dan Pack wrote:
+
+
+H>Finally, over the weekend I tasted Pete's Wicked Summer Brew.  It's a
+H>partial wheat brew with a subtle "tang of lemon" or so the label
+H>claims. There is a slight lemon flavor in the first few swallows which
+H>I found annoying but other than that I thought it was rather nice.
+H>It's not trying to be a true wheat beer, IMHO, but it seems they used
+H>some amount of wheat to simply lighten the body.
+
+
+Actually, I think the label claims it's an IPA with lemon flavor, not a 
+wheat.  I really didn't think much of it.  Especially for the price.  
+The lemon flavor is so weak that I didn't really notice it at all.  I 
+liked the Christmas brew a lot better.
+
+
+ -=Jeff=-   Pacifica, CA
+jeff.guillet`at`lcabin.com
+
+
+* CMPQwk 1.42-R2 * Reg #1757 *
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 13:02:51 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Astringent mouths and pressed strawbs.
+
+
+
+
+> From: palmer`at`ansoft.com (Palmer Davis)
+> Subject: Harsh, astringent taste from end of secondary?
+
+
+My guess is that your astringency comes long before your secondary, it's just
+that the sweetness of the unfinished wort covers it up before then.
+
+
+Possibly you're having tannin extraction from your grains or your bittering 
+hop levels are high.  If it's hops, that should mellow with age reasonably
+quickly.
+
+
+> From: usfmchql`at`ibmmail.com
+> Subject: Extract brewing is for mouthfeeling hydrometers                  
+
+
+Yes.
+
+
+> > well extract brewing is for Russell Mast! Yeah! That's it!
+
+
+Actually, I've been brewing all grain these days.  Nonetheless, he's got a 
+point - I will gladly take gifts of extract beers. 
+
+
+> > I drank a light lager, then I drank a heavy nut-brown. Put my finger 
+> > in my mouth each time and it felt the same. Go figure...
+
+
+Your finger or your beer?
+
+
+> From: "Troy Howard"  <troy`at`oculus.jsei.ucla.edu>
+> Subject: Kirin's "First Pressings"
+
+
+I think they use a little magazine paper in the mash.
+
+
+> From: Larry Lowe <lnl`at`apwk01g3.abrfc.noaa.gov>
+> Subject: strawbeerries
+
+
+>   i am an extract brewer. i have a small patch of strawberries and they are
+>  quite tasty. i was wondering if it is possible to brew a batch of beer with 
+>  them 
+
+
+But of course.  Use a lot, like a quart per gallon or more.  
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 11:30:47 -0700
+From: stevep`at`pcx.ncd.com (Steve Peters)
+Subject: drinking water safe hoses?
+
+
+Howdy Fellow Brewers!
+
+
+I am fortunate in being able to move from my 5 gallon stovetop system, to a 10
+gallon, propane fired, all-grain brewery in my basement where it doesn't matter
+what I spill on the floor.  To bring the system to full-functionallity I need
+to move my brewing water from my laundry sink to the brewery which is a good
+20-30 feet away.  In the stores lately I have seen "drinking water safe" garden
+hose being sold.  This seems like it would be a good solution for filling my
+sparge kettle, etc.  Has anyone used a product like this, or have any other
+knowledge of whether or not it imparts off-flavors?
+
+
+ -Steve
+
+
+- -- 
+
+
+  ...+ Steve Peters : stevep`at`pcx.ncd.com  ....|.. Even Jesus wanted just ...
+ ....+ Sustaining Engineering and Support ....|...  a little more time  .....
+  ...+ Network Computing Devices, Inc  .......|...... :  Tom Waits   .......
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 14:42:21 -0400
+From: eamonn`at`chinook.physics.utoronto.ca (Eamonn McKernan)
+Subject: RIMS
+
+
+Oh boy: my favourite HDB topic: RIMS!
+
+
+Tim, SS screen is very expensive. I paid $75 CDN for about 4 square ft. I tied
+it with wire (fishing line disentangles, unless you know of better knots than
+I. Someone want to start a "string thread"? ha ha... ) to an aluminum perforated
+pizza pan. All that money for stainless mesh, and no one sells stainless pans.
+Bitter. Whether my effective open area for runoff is limited by the open area
+of the pizza pan, or the mesh spacing I don't know. But I suspect that it's
+closer to that of the mesh
+
+
+A warning about the motor controller: get the pin-outs right for the triac. I
+wasted a day because the place I bought the thing from didn't know the
+correct pin-outs, and I thought I had guessed them correctly. I was wrong.
+
+
+As for the keg, I got a Golden Gate shaped keg without the bung hole in the 
+side. These are ideal, because then you don't have to cut the pizza pan in half 
+to get it into the keg. The bottom of the keg tapers in, so a 14" pan fit 
+through the hole I cut in the top, and still rests above the bottom. I used
+a jig saw and blades with lots of fine teeth  (31 per inch I think) to cut the
+keg. Cut slowly, don't force it or the blades melt. My stainless steel pipe
+coupling is welded to the bottom middle of the keg. Not to the side as is
+commly done. The bottom slopes towards the centre, so every precious drop
+of wort is collected. The only reason to weld to the side (as far as I can 
+tell) would be if you have a burner heating the keg. With a RIMS, this is not
+an issue, so keep it simple. Though I have yet to build a stand for mine, it
+shouldn't be too difficult (cross my fingers). But obviously one can't simply
+rest the keg directly on a table top if it's got a pipe sticking out of the
+bottom.
+
+
+I'm taking next week off school, so hopefully I'll finish putting mine
+together. Have I mentionned that this is my favourite HBD topic...?
+
+
+        Good luck,
+        Eamonn
+        eamonn`at`atmosp.physics.utoronto.ca
+p.s. I hope I spelled "Tim" correctly. Sorry again Russell!
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 15:56:18 -0400
+From: RWaterfall`at`aol.com
+Subject: Re: Starter Aeration Trick\Draft Mix
+
+
+Elde`at`aol.com said in HBD1735 - "I aerate my starter by whipping it for a
+minute or two at the end of the boil.  (Still hot enough to hopefully kill
+any nasty's, and its *starter* HSA is not an issue.)"
+- ---------
+The solubility of oxygen (or any gases) in boiling wort or water is much
+lower than at room temp.  Dr. David C. Harsh posted the following data in
+HBD1701:
+
+
+ " At 20 C, solubility of oxygen in chlorine free water in contact with air
+is reported at 9.09 ppm.  Exposure to pure oxygen would result in maximum
+solubility of 43.49 ppm [(9.09/.209)].  Solubility of oxygen in water at 50 C
+exposed to air is 5.47 ppm....at 80 C the solubility is reduced to 5.3 ppm."
+
+
+When you heat water up you see small bubbles being generated long before you
+hit boiling temp.  This is the dissolved gases being driven off.
+- --------------
+Regarding Todd Ehlers' questions about N2/CO2 gas mix (also in HBD1735),  I
+asked the owner of a local bar [Mahar's - no affiliation,just a satisfied
+customer(NAJASC)] that has about 50 drafts and hundreds of bottled beers
+about his setup for Guinness.  Jim uses straight nitrogen at 30 to 32 psi
+(cellar temp) for his stouts because of a side-by-side tasting he did one
+night using 100%N2 on one keg and 75%N2/25%CO2 on the other.  He noticed a
+slight improvement in flavor with the N2.  He said that those present who
+prefered the gas mix were not habitual stout drinkers.  Those prefering the
+N2 were.  He figures it's better to satisfy the diehards.  He did notice that
+the last several pints from the N2 keg didn't do the frothing head
+ production thing.  He changes kegs when he gets to that point.  Jim also
+said that Guinness likes bars to use the draft mix so you DON'T have the
+inconsistency on the last pints.  He uses a 60/40? mix fror the rest of his
+ales (I didn't ask about the pressure) to give them a smoother feel.
+
+
+Technically, you need the higher pressure with draft mix or N2 because N2 is
+much less soluble than CO2.  Also the lower percentage of CO2 (30% instead of
+100%) lowers the solubility of the CO2 at a given pressure (Henry's Law).
+ I'm not exactly sure how using 2 separate cylinders of CO2 and N2 would
+work. It seems like setting the pressure gauges in a 7:3 ratio (NOTE: use
+absolute pressure=psig+14.7psi at sea level) would give you a 7:3 mix of gas.
+ You would need to hook up the lower pressure tank first.  If you hook up the
+higher pressure tank first, none of the other gas will flow in.  I am
+assuming that you would be using some kind of manifold to introduce both
+gases continouously and simultaneously.  If you are adding one then the other
+sequentially, you would need to use a 10:3 pressure ratio to get a 7:3 gas
+mixture.  The vastly different solubilities may screw this up entirely
+though.
+
+
+Good Luck,
+Bob Waterfall
+Troy, NY, USA 
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 16:16:01 -0400
+From: CFHBGordon`at`aol.com
+Subject: SUNSHINE CHALLENGE RESULTS
+
+
+SIXTH ANNUAL SUNSHINE CHALLENGE RESULTS
+                    
+On May 6th & 7th, the biggest homebrew competition ever held in the State of
+Florida took place at the Holiday Inn & The Mill on Kirkman Rd in Orlando.
+ There was a record 270 entries, up from the 229 last year.  Over 60 judges,
+stewards and event organizers participated in this American Homebrewers
+Assoc. Sanctioned Competition.  The number of categories increased from 22
+last year to 25 this year.  Many thanks to all who participated.
+
+
+AND CONGRATULATIONS - 
+Barley Wine                                 Belgian & French Ale
+1. Bill Frazier-CFHB                   1. Jeff Miller & Victor Sears-PDB
+2. Carl Saxer-CFHB                     2. Ronald Raike-CFHB
+3. Matthew Hopkins-CFHB           3. John Kern-RS & BEERS
+
+
+Belgian-style Lambic                  Brown Ale
+1. Joe Johnston-HBFB                  1. Joe Johnston-HBFB
+2. Ron Wilkinson-CFHB                2. Ronald Raike-CFHB
+3. Ronald Raike-CFHB                  3. John Huie-CFHB-Haines City
+
+
+English-style Pale Ale                Amercian-style Ales
+1. Steve Vallancourt-CFHB         1. Todd Kellenbenz-FOAM Rangers
+2. Steve Roberts-FOAM Rangers  2. Dave Pappas & Carl Minion-CFHB
+3. Pat Frost-CFHB                       3. John Allen-Covert Hops Society
+
+
+English Bitters                            Scottish Ales
+1. D. Pappas/Gary Michel-CFHB    1. Ronald Raike-CFHB
+2. Michele Wohleber-CFHB           2. Dennis Cobb - No Club
+3. D. Pappas-CFHB                        3. Gary Michel - CFHB
+
+
+Porters                                         English & Scottish Strong Ale
+1. D. Pappas/S. Vallencourt-CFHB 1. D. Pappas-CFHB
+2. Preston Merrick-CFHB               2. Steve Vallencourt-CFHB
+3. Steve Vallencourt-CFHB            3. Ron Bach-CFHB
+
+
+Stouts                                            Bock
+1. Dennis Cobb - No Club                1. Michaela Dobie-Tampa BEERS
+2. Preston Merrick-CFHB                2. Mark Stober-Tampa BEERS
+3. Gordon Cain-CFHB                       3. Scott Christoffel-CFHB
+
+
+Bavaria Darks &                              Classic Pilsner
+German Lite Lager
+1. Carl Saxer-CFHB                         1. Darrell Simon-NTHB
+2. Steve Peeler-CB                         2. Jeff Miller&Victor Sears-PDB
+3. Russ Bee-NTHB                           3. Charley Milan-RS
+
+
+Amercian Lagers                           Vienna/Oktoberfest/Marzen
+1. Lynn Seelos-SAAZ                     1 . Todd Kelenbenz-FOAM Rangers
+2. T. Kellenbenz-FOAM Rangers      2. William Jenkins-HBFB
+3. Steve Peeler-CB                        3. Steve Peeler-CB
+
+
+German-style Ale                          Fruit Beers
+1. T. Kellenbenz-FOAM Rangers      1. R. Wilkinson/Walt Nason-CFHB 
+2. Jeff Miller & Victor Sears-PDB  2. Ronald Raike-CFHB
+3. Ron Bach-CFHB                           3. Russ Bee-NTHA
+
+
+Herb Beers                                      Specialty Beer
+1. T. Kellenbenz-FOAM Rangers       1. Richard Payson-CFHB
+2. Bruce Ficalora-CFHB                   2. Carl Minion-CFHB
+3. Dave Pappas-CFHB                       3. Gary Michel-CFHB
+
+
+Smoked Beer                              California Common Beers
+1. W.F. (Billy) Kendrick-SAAZ    1. Rob & Vicki Hearst-CFHB
+2. Vicki Hearst-CFHB                 2. D. Pappas/Bruce Piccolora-CFHB
+3. Larry Mayhew-FOAM Rangers  3. Luke Scott-CFHB
+
+
+German-style Wheat Beer           Traditional Mead/Herb Mead
+1. Mitchel Whitington - No Club  1. Darrell Simon-NTHA
+2. Steve Peller-CFHB                  2. Ronald Raike-CFHB
+3. Lynn Seelos-SAAZ                   3. Dave Pappas-CFHB
+
+
+Fruit Mead
+1. Gerry Pelzer-CFHB
+2. Leroy Gibbins-FOAM Rangers
+3. Leroy Gibbins-FOAM Rangers
+
+
+BEST OF SHOW: Todd Kellenbenz - Oktoberfest - FOAM Rangers
+FIRST RUNNER-UP:  Dave Pappas - Scottish Strong Ale - CFHB
+SECOND RUNNER-UP:  Gerry Pelzer - Fruit mead - CFHB
+
+
+
+
+
+
+HOMEBREW CLUB ABBREVIATIONS
+Carolina Brewmasters                          -  CB
+Central Florida Hombrewers                 -  CFHB
+Covert Hops Society                              -  CHS
+FOAM Rangers                                        -  FOAM R.
+The Home Brewery Firehouse Brewers   -  HBFB
+North Texas Homebrewers Association  -  NTHA
+Palm Beach Draughtsman                       -  PBD
+Spacecoast Assoc. for the Advancement 
+                                            of Zymurgy -  SAAZ
+Reed Stick Brewmasters                        -  RS
+Tampa Bay Brewing Enthusiasts 
+                               Enjoying Real Suds  -  Tampa BEERS
+
+
+(No flames please - this is posted as a courtesy to those who have asked for
+it.  Sorry if there are typos or if your name is spelled incorrectly - I just
+passed it along the way it was handed to me.)
+
+
+Happy Brewing
+
+
+Gordon
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 May 95 13:29:57 -0700
+From: robtrish`at`noif.ncp.bc.ca (Robert Lauriston/Patricia Bennett)
+Subject: Kirin's "first pressings"
+
+
+
+
+Re:  Kirin's "First Pressings"
+
+
+Troy Howard wrote:
+I heard an astonishing radio ad for Kirin: "high quality first pressings" as 
+opposed to other beers that are made by mixing the "first, second, and third 
+pressings".
+I suppose that Kirin could use some sort of forced lautering process (so the 
+wort _might_ be described as a "pressing"), but more likely the ad company has 
+no clue how beer is made and thought it was similar to wine making.
+Anyone know if Kirin really uses some sort of novel "pressing" process to 
+produce wort?
+
+
+
+
+I don't know what Kirin does, but I can describe some modern brewing 
+technology.  A lauter tun with a husk filter bed is the traditional method 
+of separating liquid extract from the remains of the grain after mashing.  
+Another method now in widespread use in large breweries is the use of a mash 
+filter which is indeed a sort of forced lautering similar to winemaking, or 
+similar to the filtration of beer.  Coors uses mash filters and therefore 
+there are no lautertuns in their brewhouse.  Slightly embarassing when I 
+asked where they were.
+
+
+As for the 'first' part of the term 'first pressings', I can speculate.  
+(Perhaps an odd translation?)  In lautering, it is common to refer to the 
+liquid which is drawn off before sparge water is added as 'first wort'.  
+This is the liquid which was used in mashing and the amont of it depends 
+upon the amount of water used in mashing aka mash thickness.  The analogous 
+liquid drawn from a mash filter might be called the'first pressings'.  It is 
+unlikely that Kirin would mash with an extremely thin mash since it would be 
+an uneconomical use of the vessels (even if they could compensate for the 
+biochemical differences in a thin mash);  therefore 'first pressings' like 
+'first wort' would have to be diluted before fermentation, even in high 
+gravity brewing.
+
+
+I would never want to endorse beer marketing as a source of technical 
+information about brewing, but sparging does have the potential to extract 
+undesirable materials and so it might be justified to consider beer made 
+only from 'first pressings' as superior.  But the idea of a 'superior' beer 
+doesn't leave much room for individual taste.  
+
+
+The speculation really begins when you ask, what do they do with the second 
+and third runnings?  Make a different line of beers or other products?  
+Using these liquids for subsequent mashes would likely make them too thick 
+and interfere with mash reactions.  Someone else might have a suggestion 
+about what the difference between the second and third pressings would be.
+
+
+- -- rob lauriston <robtrish`at`noif.ncp.bc.ca>
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 May 95 17:10:20 PDT
+From: jds`at`equinox.shaysnet.com (John Shearer)
+Subject: beer-balls
+
+
+
+
+ greeting!
+ 
+ A couple of quick questions for the collective:
+ 
+ Does anyone know where I can get those rubber tops for beer balls 
+ -aka beer spheres?  I have several of them left over from my younger 
+ days of drinking the 'B' word, and thought they might be a good 
+ solution to my 'beer storage' problems.
+ 
+ What I plan to do is prime a 5 gal batch with a half cup corn sugar 
+ in solution, fill the ball, crimp the top with pliers, and wait.  I 
+ would of course watch for a time to make sure there are no leaks 
+ around the top.  I am used to force carbonating, but I guess I can 
+ deal with a little sediment:-)
+ 
+ Here are the pros as I see them-  They are the perfect size (5 
+ gals).  They are cheap (free plus the cost of the top - and who can 
+ afford, or has the fridge space, to have several cornies hanging 
+ around).  I find the balls much easier to cool than cornies in an 
+ outdoor setting.  I can store them for several months at room temp 
+ before use while they condition.  No CO2 to muck with during the 
+ parties.  The taps are cheap, and can be purchased anywhere you can 
+ buy beer balls.
+ 
+ This leads to my other question - does anyone have any 'cons' or 
+ problems with all I've said?
+ 
+ Any info would be greatly appreciated as the summer months are 
+ nearly upon us and my beer supplies are short! :-(
+ 
+ Please respond via private e-mail because I get behind on my digests 
+ and I'm getting kind of desperate to find an economical solution.  
+ (Heaven forbid I actually bottle a batch!)  I will post a summary if 
+ anything interesting comes through.
+ 
+ TIA
+ john
+ 
+ jds`at`equinox.shaysnet.com
+
+
+
+
+------------------------------
+
+
+Date:        Fri, 19 May 95 16:44:52 CDT
+From: ESSNER RICHARD L <C767SCB`at`SEMOVM.SEMO.EDU>
+Subject: SIGNOFF homebrew%hpfcmr`at`hplabs.hp.com
+
+
+SIGNOFF homebrew%hpfcmr`at`hplabs.hp.com
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 18:54:12 -0400
+From: DocsBrew`at`aol.com
+Subject: Toxic...like it or not!
+
+
+In the hbd of 15 May, Domenick V. states:
+
+
+>Sell your home!  Wear a respirator!  Get a grip!!  How many mercury >amalgam
+dental fillings have you got in your mouth, Dave?  I have >about 4 or 5
+containing many thermometers worth of mercury.  Do >you consider your mouth a
+total loss?  Of course not, you blithely >chew your food and swallow it
+without a thought.  Quit scaring >people needlessly. 
+
+
+Sweden has recently outlawed mercury amalgams, and Germany has outlawed them
+on pregnant women - don't you think that means something?  Whether the ADA
+says so or not, lots of research has shown dental amalgams to be quite toxic.
+ Many dentists are refusing to use them, and many patients are having them
+removed.
+
+
+>Scrub the brew kettle in question with a scouring pad, wash the >residue
+down the drain and be done with it.
+
+
+Hg is a toxic and hazardous substance in our sewers, too.  It's illegal to
+pour it down the drain in most places, so it's probably not a good practice
+to suggest that on the 'net.  
+
+
+I remember a local elementary school that was evacuated by the fire
+department when a thermometer broke.  HazMat team responded and the whole
+deal.  Now, I realize that county agencies may over-react in order to pad
+next year's budget, but they must have good reason, nonetheless.
+
+
+Remember that textbooks are for reference, and don't always reflect real
+life.  Numbers are fine, but don't believe everything you read.  Now, let's
+quit playing with mercury, and let's put this thread to bed.
+
+
+Doc.
+
+
+"Chiropractic, Like Gravity, Works Whether You Believe In It Or Not."
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 19:18:03 -0700 (PDT)
+From: dsherman`at`sdcc3.ucsd.edu (Dan Sherman)
+Subject: Re: Lautering gadgets
+
+
+In HBD #1734, Bill Rucker asks about lautering gadgets.
+
+
+        This is not much of a gadget, but is very cheap (which
+really appeals to me).
+
+
+Take a cheap, metal pie tin, poke holes in the bottom, and suspend
+it over your lauter tun.  That's it.  You can get your sparge water
+into the tin however you want.  Make the holes very small, at first
+& enlarge them if your flow rate isn't high enough.
+
+
+Cheers.
+
+
+Dan Sherman
+dsherman`at`ucsd.edu
+San Diego, CA
+
+
+------------------------------
+
+
+Date: Sat, 20 May 95 02:11:00 UTC
+From: j.conklin5`at`genie.geis.com
+Subject: MASH SCHEDULE
+
+
+I recently read something about Dr George Fix's recomended mash schedule
+ Could someone repost this or Email it to me
+ Thanks,
+ J.C. In Sunny Florida
+
+
+------------------------------
+
+
+Date: Fri, 19 May 1995 22:00:42 -0700
+From: kwhitney`at`ix.netcom.com (Kenneth Whitney)
+Subject: 10 gallon corny kegs
+
+
+I am interested in fermenting five-gallon batches in corny kegs and 
+have considered the following options:
+
+
+1) use a 5-gallon keg more or less as is and attach a blow-off hose to 
+one (or two) of the fittings (with poppets removed).
+
+
+2) use a 5-gallon keg without a lid as an open fermenter.
+
+
+3) drill a hole in the top of a 5-gallon keg and add a 3/4" to 1" 
+fitting for a blow-off hose.
+
+
+4) use a closed 10-gallon corny keg (with air lock attached to the gas 
+in fitting).
+
+
+Ideally, I would like to move the beer from the fermenter to 5-gallon 
+serving kegs via CO2 pressure.  
+
+
+It seems that a 10-gallon keg might be ideal.
+
+
+Does anyone know of a source for 10 gallon (or greater than 5 gallon) 
+corny kegs?  How about cost?  What are the dimensions (is it the same 
+height as a 5-gallon with a larger radius)?
+
+
+Any other (cheap) options for stainless steel fermenters?  
+
+
+------------------------------
+
+
+Date: 20 May 95 05:59:28 EDT
+From: "Robert W. Mech" <76271.3507`at`compuserve.com>
+Subject: Hop Oil/Coconut Oil/Oil Slick
+
+
+I few HBD's ago, I posted a message regarding the use of pineapple, and coconut.
+I got a good response on the Pineapple, and alot of concern about the coconut
+oil affecting head retention.  My response to most people's concerns was the
+fact that Hops too include oil, and dry hopping doesnt seem to affect head
+retention (or at least not significantly).
+
+
+So my question here is, how would coconut oil affect my head retention?  Is
+there some special property to Hop oil that makes it not affect your head?  Is
+"hop oil" really oil?  I know that its not the same TYPE of oil, so lets not
+point out the obvious. If I used a "Dried" form of coconut in the boil (like a
+hop) would I extract too much oil?  Or would it be better used in the secondary
+(like a hop) to extract less oil, but more flavor?  Im sure ill have a hard time
+finding somone who has used coconut in thier beer, but maybe somone who has used
+another oil rich indgreedient, could lend me thier wisdom.
+
+
+Rob 
+
+
+
+
+------------------------------
+
+
+Date:          Sat, 20 May 1995 12:20:25 +0200
+From: "terence tegner" <tegbrew`at`iaccess.za>
+Subject:       Copper breweries
+
+
+Hello from Africa again
+
+
+the recent discussion on copper breweries calls for comment from my 
+side.  This is purely for information and not advertising.( not that 
+I would expect to sell from this side of the big pond.)
+
+
+My company makes small breweries and supplies a complete turnkey 
+operation including brewer training so I think that we can comment 
+with a certain amount of experience.
+
+
+We have installed 7 breweries around the country varying in size from 
+200 litres to 400 litres in brew length.  All these breweries have 
+been made entirely from copper including the wort cooler and 
+fermentation vessels.
+The beer is either an ale or a lager and has a taste that brings joy 
+to real beer drinkers.  We recently had a master brewer from Berlin 
+try our beer.  His comments were to the effact that we had produce a 
+nectar fit for the gods.
+there are certain things that one has to watch, however.  always 
+rinse with citric acid after cleaning with a scourer.  In fact, we 
+recomend that the cleaning is done with a high pressure water jet and 
+then sterilise with an Iodophor.
+A bit of history reserch shows that in the UK there is still a 
+brewery that uses copper fermenters as has been the case for the last 
+200 years over there.
+The MBAA has an article on fermenter construction in their book 
+PRACTICAL BREWING which states that fermenters used to be made from 
+all sorts of materials, including wood, and were commonly lined with 
+copper.
+My advice to them who are thinking of constucting homebreweries on 
+these line is, GO FOR IT. If its good enough for the master brewers, 
+its got to be good enough for me.
+Regards  Terence Tegner
+"God Bless The Woman Who Gives Birth To A Brewer...Shakespeare.
+
+
+------------------------------
+End of HOMEBREW Digest #1737, 05/22/95
+*************************************
+-------

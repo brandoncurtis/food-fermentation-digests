@@ -1,0 +1,795 @@
+﻿Date: Fri, 4 Oct 2002 00:36:12 -0400
+Subject: Homebrew Digest #4058 (October 04, 2002)
+
+
+
+
+
+
+HOMEBREW Digest #4058                             Fri 04 October 2002
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Leviton's high current GFI ("Steve Alexander")
+  spores & such ("Steve Alexander")
+  yet more SSR/Leviton stuff ("Steve Alexander")
+  in the backwoods of colombia (Alan McKay)
+  Re: Hot Break - revisited ("Pete Calinski")
+  Oxygen regulator and conical ("Bruce Garner")
+  Re: Brewing with just the basics.... a simple brewer in a tough spot (Jeff Renner)
+  Re: Oxygen (Bill Wible)
+  Another Non-Weld All-grain Stand (Andrew Nix)
+   (EFOUCH)
+  malto-dextrin powder (AKGOURMET)
+  Porter Problem-Cold steeping help please ("John Misrahi")
+  Canadian funds available ("Canadian Subsidy Directory 2002")
+  beer X has flavour Y (Alan McKay)
+  Competition Announcement (Jim Hinken)
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* Beer is our obsession and we're late for therapy!
+*
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 3 Oct 2002 02:56:47 -0400
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: Leviton's high current GFI
+
+
+Wayne Holder says ...
+
+
+[...]
+>The actual sentence goes more like:
+>
+>"You CANNOT use a Solid State relay (SSR) with this unit. Doing so voids
+the
+>UL listing of the device."
+
+
+Does the documentation say you can't use an SSR as the power relay (the
+Leviton 50A/80A unit is just a current mismatch sensor and requires a
+separate relay for power interruption) - OR - to they mean you can't have
+an SSR circuit as part of the load  (for example in an SSR controlled
+RIMS) ?
+
+
+That an SSR can't be used as the primary power interrupter is
+understandable.
+There are some reasons why it might not be usable as part of the load -
+depending on sensor design.  The online doc doesn't say.
+
+
+>As a person that has dealt with SSR's that are shorted closed many times, I
+>would guess that UL did not trust the SSR to be open after a ground fault.
+
+
+Possible - tho' there are simple circuit design solutions the shorting
+problem
+the basic ones probably can't act fast enough to meet UL/GFI reqs.
+
+
+ -S
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 3 Oct 2002 03:09:36 -0400
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: spores & such
+
+
+A cubic foot of air runs 3 to 20 bacteria according to an Oregon
+study and the 20 is high in my experience.  There are currently
+(Early Fall) 150-450 mold spores per cubic ft throughout the
+Midwestern US.   1500 spores/cu.ft is a very high level causing
+severe problems to some individuals.
+
+
+When you factor in the fact that 99+% of these airborne pests
+couldn't live, much less thrive in a fermenter of pitched wort - air
+is pretty safe - tho' still an potential source of infection.
+
+
+The 100k spores & bacteria/cu.ft. would imply that the headspace
+in a petri dishes would contain roughly 100 spores and bacteria -
+obviously untrue.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 3 Oct 2002 04:16:19 -0400
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: yet more SSR/Leviton stuff
+
+
+Kent Fletcher says,
+
+
+>The Leviton High Current GFI is basically a 120 v. GFI with an external
+>current transformer.
+
+
+There is a sense transformer - but no current transformer.
+
+
+[...]
+>A SSR acts as a single pole switch, so it cannot
+>be used for GFI purposes. 
+
+
+I don't mind mistakes but now you're just making
+things up Kent.   Multipole SSRs have been available off-the-shelf
+for over a decade and can easily be constructed from 1-pole SSRs.
+This explanation is nonsense.  See
+http://www.morelectric.com/payne.htm#Three%20Phase%20Solid%20State%20Relay
+for an example of 2 pole SSRs rated at up to 150A.
+Omron makes tons of multipole units.
+
+
+No -  SSRs are not acceptable as a GFI interrupter relay probably
+because either their failure mode (shorted in some cases) as Wayne
+Holder suggested or their time to interrupt which is often up to half a
+cycle  (8.33ms at 60hz) in this sort of power application.
+ 
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu,  3 Oct 2002 07:00:34 -0400
+From: Alan McKay <amckay`at`neap.net>
+Subject: in the backwoods of colombia
+
+
+
+
+Adam,
+
+
+It seems to me you have two options.  That malt extract you found
+would be quite usable if you were able to find packaged enzymes that
+could be used to mash it at 150F to 160F for an hour.  In fact,
+raw unprocessed honey has the enzymes you need but I am not sure
+how much they have so you would have to experiment.  If you
+have tincture of iodine (like from the drugstore) you can test
+for starch conversion - just test on a sample that will be
+thrown out as you do not want to be eating iodine.  If it turns
+really black when you drop iodine on it, there's lots of starch.
+Test before and after for comparison.
+
+
+As for malting, the first part is to sprout the barley.  You can
+put it into a big barrel and fill with water, then drain after
+8-1212 hours and leave drained for a few hours.  Do this several
+times over 3 - 4 days and it should sprout.  You'll see a rootlet
+poke out of one end, and when that rootlet reaches the other end
+it is time to stop the process.  Actually if I recall correctly
+the rootlet squirms from one end to the other underneath the
+husk of the barleycorn - maybe someone else can clarify that
+point.
+
+
+Then you have to kiln it.  You should be able to do this in a
+very low temp oven.  Try to keep it about 150F and mix it about
+often.  Not sure how long it will take but probably 3 to 4 hours
+anyway.  And don't pile it up very  high on the baking sheet.
+This means you can only do a little at a time so this is where
+your endless supply of manpower will come in handy ;-)
+
+
+That's about it.  I think you want about 3% water, which is
+quite dry.
+
+
+- -- 
+http://www.bodensatz.com/
+The Beer Site (tm)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 3 Oct 2002 09:17:30 -0400
+From: "Pete Calinski" <pjcalinski`at`adelphia.net>
+Subject: Re: Hot Break - revisited
+
+
+David Sweeney said:
+
+
+"I decided to top off late in the boil...............The boil acted like I
+had just started the boil.  That is, there was a profusion of foam on the
+surface of the
+wort that dissipated after several minutes of boil."
+
+
+I waited to see if someone else (more up on this subject) would reply.
+Apparently not.
+
+
+I asked the same question a few years ago.  The answer I got (from Pete
+Ensminger if memory serves me, pardons all around if memory doesn't) went
+something like:
+
+
+There are substances in the wort that thicken at certain temperatures near
+but below boiling.  It is a reversible process so when the wort is in this
+temperature range, this foam appears.
+
+
+That's the story as I remember it.
+
+
+
+
+Pete Calinski
+East Amherst NY
+Near Buffalo NY
+
+
+
+
+***********************************************************
+*My goal:
+*      Go through life and never drink the same beer twice.
+*     (As long as it doesn't mean I have to skip a beer.)
+***********************************************************
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 3 Oct 2002 08:52:59 -0500
+From: "Bruce Garner" <bpgarner`at`mailbag.com>
+Subject: Oxygen regulator and conical
+
+
+Michael asks about repairing or replacing an oxygen regulator. Private
+pilots use oxygen. Perhaps by contacting a pilot and get what you need. Are
+there any pilots among us?
+
+
+Do the Toledo Metal Spinning conicals come with a closed bottom which has to
+be drilled out? If so is it flat or round?
+
+
+Bruce Garner
+Madison, WI
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 03 Oct 2002 10:34:28 -0400
+From: Jeff Renner <JeffRenner`at`comcast.net>
+Subject: Re: Brewing with just the basics.... a simple brewer in a tough spot
+
+
+"Adam Austin" <aaustin`at`vt.edu>, a self proclaimed "Simple Brewer, 
+writes from Columbia:
+
+
+>Through a crazy series of events, I have found myself in a very
+>rural guerilla controlled territory in eastern Colombia.
+
+
+Wow.  Sounds scary.  I'd love to know what's behind this.  Was it 
+something like what happened to Dorothy from Kansas?  Or is it one of 
+those things that you could tell us, but then you'd have to shoot us?
+
+
+>Barley is plentiful and cheaper than dirt.
+>Malted barley is nowhere to be found.  So now...I have to malt my own
+>barley.
+
+
+George DePiro has posted his experience on malting barley.  Check the 
+archives at http://hubris.engin.umich.edu/cgi-bin/dothread.  I would 
+guess it was two or three years ago.
+
+
+I've done it too.  I would think the main problem will be drying the 
+malt.  You can make "wind malt" outdoors if you have heat (no 
+problem, I'd guess) and relatively low humidity (probably a big 
+problem).
+
+
+>I've got ... hops covered (I hope) as I've
+>ordered seeds to grow northern brewer hops.
+
+
+I trust you haven't ordered seeds but rather rhizomes - cuttings of 
+roots.  Hop seeds don't normally breed true.  I've never seen them 
+for sale.
+
+
+The other problem with hops is growing them in the tropics.  Graham 
+Sanders of North Queensland, Australia, grows them with limited 
+success.  They grow well but don't produce much.
+
+
+I would think if can somehow get them shipped to you, some hop 
+pellets of some high alpha acid hop would be a better bet.  Get a 
+variety that is dual purpose - bittering and aroma, and stores well, 
+such as Chinook.
+
+
+>Sorry for making this so long
+
+
+An email tip (for everyone) - use the return key to break up the big 
+blocks of text into more easily read paragraphs with blank lines 
+between.  It won't seem as long.
+
+
+Good luck and keep us informed of your progress.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Thu, 03 Oct 2002 10:44:46 -0400
+From: Bill Wible <bill`at`brewbyyou.net>
+Subject: Re: Oxygen
+
+
+
+
+>I tried calling a local medical supplier and they said
+>I'd need to provide a prescription for the Oxygen.
+
+
+I've run into this, too.  Let's see, CO2, Nitrogen,
+and Propane - all deadly gasses, one of which is
+even explosive - those are readily available to the
+public almost anywhere, no questions asked.  But
+Oxygen, necessary for life, well that you need a
+prescription to buy or have.  Doesn't make sense,
+does it?
+
+
+But the fact is that O2 is commonly used in welding,
+because it makes things burn hotter.  So it can also
+be used as an accelerant or in the building of easy
+to make bombs.  Therefore it is (rightfully) controlled.
+And it was controlled even before 9/11 and the ensuing
+anti-terrorism zeal.
+
+
+Liquid Bread offers a product called the Oxynator,
+which is a small, disposable (1lb?) O2 tank with a
+regulator and diffusion stone.  They recommend 2
+15 second bursts of oxygen into 5 gallons of wort,
+and they claim a tank should last 10 or more batches.
+
+
+Bill
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 03 Oct 2002 10:50:36 -0400
+From: Andrew Nix <anix`at`vt.edu>
+Subject: Another Non-Weld All-grain Stand
+
+
+Alan McKay posted:
+
+
+Joe asks what is the best way to build a stand without welding.
+The perhaps not-so-obvious question is : wood!
+
+
+My 2 cents worth:
+
+
+I built my two tier system out of wood (2x4's), using brackets made for 
+building shelves (purchased at the local Home Depot, Lowe's what have 
+you).  I used pieces of steel angle iron with bolt holes (scrap from our 
+machine shop, but can be purchased at the same store you get the wood) to 
+hold the kegs on and to mount the burners below the kegs.
+
+
+The setup (pre-use) can be seen at (takes a little while to load since it 
+is a PDF):  http://filebox.vt.edu/users/anix/RIMS3.pdf
+
+
+the unfinished system can be viewed 
+at:  http://www.hbd.org/nrvbg/RIMS2.pdf  this shows a little more detail of 
+the assembly.
+
+
+In these pictures you can see that both kegs are supported by the angle 
+iron and that the wood at the top of the stand has aluminum flashing 
+material attached to keep it from burning.  All of the steel angle is 
+attached to the wood with heavy duty wood screws with washers.  The steel 
+is assembled to hold the burners using 1/4" bolts with lock washers 
+(important).  This whole setup was done with simple tools (drill, screw 
+driver, hammer, and socket wrench).
+
+
+After 12 batches, the only thing that has burned are the wood slats along 
+the outside of the mash tun....but who cares.  If it's hot enough on the 
+outside of the mash tun to burn, I'm not losing any heat am I?
+
+
+Drewmeister
+Andrew Nix
+Department of Mechanical Engineering
+Virginia Tech
+anix`at`vt.edu
+http://www.vt.edu:10021/A/anix
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 3 Oct 2002 10:51:00 -0400
+From: EFOUCH`at`steelcase.com
+Subject: 
+
+
+
+
+Danny posted this "humorous" website regarding listowners:
+
+
+For a laugh (at least I thought it was funny), check out
+http://www.skally.net/listowner/humor.html
+
+
+ - --Danny
+The site offers this observation:
+Q: How many people does it take to change a light bulb in cyberspace?
+Answer: 1331
+
+
+Actually, if you add up the numbers of people needed, you get 1,369.
+
+
+
+
+Eric J. Fouch
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 3 Oct 2002 14:39:11 EDT
+From: AKGOURMET`at`aol.com
+Subject: malto-dextrin powder
+
+
+Got a quick question.  I have a Tripel that started at 1.090 and finished at 
+1.010.  I was hoping for an FG of 1.015. Can I add malto-dextrin powder at 
+bottling to increase the body and mouthfeel or does the powder have to be 
+boiled?  Can I boil it in water or does it have to be wort?    Thanks.
+
+
+Bill
+Juneau, AK
+
+
+
+
+------------------------------
+
+
+Date: Thu, 3 Oct 2002 19:52:13 -0700
+From: "John Misrahi" <lmoukhin`at`sprint.ca>
+Subject: Porter Problem-Cold steeping help please
+
+
+Hi all,
+
+
+Is there a way to darken a beer once it is already in the fermenter? any
+idea if that cold steeping technique can be added once the yeast is working?
+i took a sample from the bucket of my smoked belgian porter... fantastic,,
+maltier and smokier than the last.... but i must have inadequately crushed
+the chocolate
+malt (used a rolling pin for that)... it is nowhere near dark enough for a
+porter.... it looked darker when i was filling the fermenter etc...
+i dont get it
+
+
+thanks
+
+
+John
+Montreal, Canada
+
+
+Pothole?  Thats luxury!  I have to ferment directly in my mouth.  On brew
+day I fill up my mouth with wort in the am and drop a few yeast cells in and
+3 hours later I swallow.  Wish I had a pothole to ferment in. -Mike Brennan
+on the HBD
+
+
+"Ah, Billy Beer... we elected the wrong Carter." -Homer Simpson
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 3 Oct 2002 21:58:11 -0400
+From: "Canadian Subsidy Directory 2002" <wxy15`at`sympatico.ca>
+Subject: Canadian funds available
+
+
+
+
+CANADIAN SUBSIDY DIRECTORY
+4865 HWY 138,R.R 1
+ST-ANDREWS WEST
+ONTARIO, KOC 2A0
+
+
+
+
+PRESS RELEASE
+
+
+CANADIAN SUBSIDY DIRECTORY YEAR 2002 EDITION
+Legal Deposit-National Library of Canada
+
+
+ISBN 2-922870-02-2 (2002)
+ISBN 2-922870-01-4 (2001)
+
+
+
+
+
+
+M.G. Publishing is offering to the public a revised edition of the
+Canadian Subsidy Directory, a guide containing more than 2800 direct and
+indirect financial subsidies, grants and loans offered by government
+departments and agencies, foundations, associations and organizations.  In
+this new 2002 edition all programs are well described.
+
+
+The Canadian Subsidy Directory is the most comprehensive tool to start up
+a business, improve existent activities, set up a business plan, or obtain
+assistance from experts in fields such as: Industry, transport,
+agriculture, communications, municipal infrastructure, education,
+import-export, labor, construction and renovation, the service sector,
+hi-tech industries, research and development, joint ventures, arts,
+cinema, theatre, music and recording industry, the self employed,
+contests, and new talents.
+Assistance from and for foundations and associations, guidance to prepare
+a business plan, market surveys, computers, and much more!
+
+
+The Canadian Subsidy Directory is sold $ 49.95, to obtain a copy please
+call one of the following distributors:
+
+
+Canadian Business Resource Center: (250)381-4822, 8am-4pm pacific time.
+Fureteur bookstore: (450)465-5597 Fax (450)465-8144 (credit card orders
+only).
+
+
+
+
+------------------------------
+
+
+Date: Thu,  3 Oct 2002 22:19:23 -0400
+From: Alan McKay <amckay`at`neap.net>
+Subject: beer X has flavour Y
+
+
+Folks,
+
+
+Our e-club is currently discussing doing an directed tasting, and we'd
+like to start with doing 4 to 6 beers which are good (and perhaps
+pronounced?) examples of a specific beer flavour.  e.g. 'flowery
+hop aroma' or 'diacetyl' or 'sweet in the finish'.
+
+
+What beer can you recommend for which flavour?
+
+
+cheers,
+ -Alan
+
+
+
+
+- -- 
+http://www.bodensatz.com/
+The Beer Site (tm)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 03 Oct 2002 20:48:50 -0700
+From: Jim Hinken <jim.hinken`at`verizon.net>
+Subject: Competition Announcement
+
+
+The Brews Brothers are pleased to announce Novembeerfest
+2002 homebrewing competition.  Novembeerfest is a qualifying
+event for MCAB V
+
+
+Novembeerfest will be held Saturday, November 2 at Larrys
+Homebrewing Supply, 7405 S. 212th St.  #103, Kent, WA 98032
+
+
+Entries will be accepted from all BJCP/AHA beer style
+categories, including cider and mead.  The  style guidelines
+may be viewed at
+http://www.mv.com/ipusers/slack/bjcp/style-index.html.
+Three  bottles are required for entry with an entry fee of
+U.S.$5.  The standard AHA entry form and  bottle labels may
+be used.  Entry forms may be downloaded from
+www.brewsbrothers.org.  Entries  will be accepted through
+October 26 and may be shipped to
+
+
+Jim Hinken
+24211 4 PL W
+Bothell, WA  98021
+425-483-9324
+brews.brothers`at`verizon.net
+
+
+Entries may also be dropped off at:
+
+
+Larrys Homebrewing Supply, 7405 S. 212th St. #103,Kent, WA
+98032, 206-872-6846
+Mountain Homebrew and Wine Supply, 12121 N.E. Northup Way,
+Suite 210, Bellevue, WA 98005,  206-882-9929
+Bob's Homebrew Supply, 2821 NE 55th St, Seattle, WA 98105,
+206-527-9283
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4058, 10/04/02
+*************************************
+-------

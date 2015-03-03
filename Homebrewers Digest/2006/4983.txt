@@ -1,0 +1,340 @@
+﻿Date: Wed, 29 Mar 2006 22:57:16 -0500
+Subject: Homebrew Digest #4983 (March 29, 2006)
+
+
+
+
+
+
+HOMEBREW Digest #4983                             Wed 29 March 2006
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  RE:Water Test ("A.J deLange")
+  IBU Calculations ("David Houseman")
+  NHC East Regionals ("Dave Wohlfeil")
+  Hi grav stuff ("steve.alexander")
+  EKU28 (ddarity)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 28 Mar 2006 12:45:50 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: RE:Water Test
+
+
+There are a couple of things you can estimate from this limited data 
+(alkalinity, hardness and chlorine) but most of the estimates will be 
+very crude. The best is with respect to the alkalinity. Given that the 
+water is potable the only appreciably source of alkalinity is the carbo 
+system and given the pH all of that which contributes to an alkalinity 
+reading will be bicarbonate. An alkalinity of 60 means bicarbonate in 
+the amount of 61*60/50 = 73 mg/L bicarbonate. But this is not a useful 
+number. That's why alkalinity is reported. With respect to the hardness 
+you have 50/50 = 1 milliequivalent per liter and you can guess than 60% 
+of that comes from calcium and 40% from magnesium which would give you 
+ .6*20 = 12 mg/L calcium and .4*12 = 4.8 mg/L magnesium but the 
+proportion is just a guess though it's based on typical ratios. From 
+this you can calculate a rough residual alkalinity RA = 60/50 - (.6 + 
+ .4/.2)/3.5 = 0..46 mEq/L.  Multiply by 50 to get RA of  23 ppm as CaCO3. 
+This is an RA which is low enough that you shouldn't have to worry about 
+the water being a problem with any beer style and this is really the 
+most important conclusion
+
+
+This is really about as much as you can tell. You have measured 60/50 = 
+1.2 mEq/L alkalinity which is from negatively charged ions (bicarbonate) 
+and 50/50 mEq/L hardness which is from positively charged ions (Ca++ and 
+Mg++) so according to what you know about your water at this point it is 
+shy 0.1 mEq/L positive ions. These could be sodium or potassium ions or 
+a combination but it is impossible to guess how much are present because 
+the water most probably also contains some sulfate and chloride which 
+would require more sodium and or potassium to balance. What is more 
+likely is that there is error in the readings from the test kit which is 
+probably at best readable to 10 ppm. The pH reading is definitely 
+suspect. A pH as low as 5.5 would imply a well in an area with very 
+active soil bacteria.
+
+
+If you are really interested in this go to Hach or Lamotte and buy more 
+accurate test kits. Unfortunately a complete picture is hard to get 
+because sulfate and sodium are hard to measure but if you can get good 
+alkalinity, chloride and separate calcium and magnesium hardness 
+readings educated guessing is possible. (Note: I just checked Hach and 
+they seem to have a new sulfate test but it isn't very sensitive, 50 
+mg/L, though you can improve this by evaoprating the test water to, say, 
+1/10th of its original volume to get 5 mg/L sensitivity).
+
+
+A.J.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 2006 18:34:06 -0500
+From: "David Houseman" <david.houseman at verizon.net>
+Subject: IBU Calculations
+
+
+There are several commonly used formulas for calculating IBUs.  ProMash has
+the choice of Garetz, Rager, Tinseth and Generic.  In one example of a
+recipe, the same amount of hops results in widely varing IBU calculations
+using these different formulas.  I have been use Garetz but recognized that
+my beers were on the bitter side of my expectations.  I'm considering moving
+to Rager, which would use less hops for the same calculated IBUs.  My
+questions are:  "Are any of the formulas generally recognized as being more
+accurate to measured IBU rates?  Is there any recognition that one of these
+results in beers closer to style from a sensory perspective?"
+
+
+David Houseman
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 28 Mar 2006 21:21:24 -0500
+From: "Dave Wohlfeil" <wohlfeil at apk.net>
+Subject: NHC East Regionals
+
+
+Attention Judges - We are looking for judges for the 1st round of the AHA's
+National Homebrew Competition - Eastern Region. Judging will be held on
+Friday April 28(evening), and Saturday April 29, 2006(morning and
+afternoon). They will be held at J.W. Dover in Westlake, Ohio. Lunch and
+Dinner with our big raffle will be provided on Saturday for all judges.
+Discounted hotel rooms will be available. If you are available to judge,
+please contact Dave Wohlfeil, Judge Coordinator via email at
+wohlfeil at apk.net. Thank you
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 2006 00:01:51 -0500
+From: "steve.alexander" <steve-alexander at adelphia.net>
+Subject: Hi grav stuff
+
+
+ALAN K MEEKER writes ...
+
+
+>A while back I had made an insanely strong barleywine that failed to 
+>carbonate despite a fresh addition of champagne yeast at bottling.
+
+
+I'm more of a session beer guy myself,  but I do excel at insanity
+and curiosity, so a questions to Alan ...
+
+
+How strong is 'insane' when the BJCP says a BW is SG1.080-1.120
+(roughly 20-30P?).   Also I'd be very interested to hear how
+a yeast-master like Alan handled such a hi-grav fermentation.
+
+
+==
+
+
+Michael Eyre asks ...
+
+
+>There's a nasty rumor going around that the bigger beer you try to make
+>(all grain, btw!) in a given mashtun, the less efficiency you *tend* to
+>get. I seem to be seeing this in my brewery when I make a barley wine...
+>any truth to this?
+
+
+Of course it's true - and for an obvious reason. To raise the SG of
+the sweet wort you necessarily must use less water, cut off the lauter
+earlier and therefore leave more goods in the grist - so it's less
+efficient.
+
+
+Lauter run-off will always be lower gravity than first runnings so
+the highest SG possible from any reasonable mash is that that of the
+first runnings.  If you make a "normal" mash with 1.25qt/lb (~2.5L/kg)
+then at the end of mash, the mash liquor will hit abt 1.088 or 22P.
+Now if you decrease the water:grist ratio much below this you are
+compromising the mash conversion ((not the place for it but the enzyme
+reactions require more water and so operate more slowly)).  Yes you can
+mash with 2qt/lb and increase the first running gravity to abt 26P.
+You can even drop the water down to 0.7qt/lb and get insanely high SG
+but most of the water and goods will remain in the grist and the
+efficiency will be very very low.
+
+
+Of course the extraction efficiency isn't the issue - you could lauter
+with more water to make a "small beer" from the later runnings and get
+just the same extract out of the grist.  The problem is that you can't
+apply all that extract to the hi-grav wort, as you might like.  Unless
+you concentrate the wort somehow, excessive boiling or low pressure
+evaporation of water, there is no way around the problem.
+
+
+Commercial brewers prefer to add extract to make hi-grav beers, and it's
+probably a reasonable approach for those insane gravity HB worts.
+
+
+==
+
+
+Such trouble some go to for hi-grav, and to what end - often a fusel-y
+unbalanced mess of a beer.   Another approach is to mash and ferment at
+reasonable gravity and then 'eisbock' your way to glory.  That is to
+*slowly* allow ice to form post fermentation, and remove the ice which is
+nearly pure water if you freeze slowly enough.  It's possible to achieve
+whiskey-type levels of ethanol concentration in this way, if that's your
+goal, but there are bigger advantages IMO.
+
+
+The mash extraction has completely normal efficiency, the fermentation has
+normal gravity, the fermentation normal conditions so no tricks are required
+and no funky flavors accrue.  You get complete attenuation without playing
+games.  Best of all you can use your normal brewing skills to balance the
+sweet/bitter aspects rather than guessing on a once every couple years
+barley-wine hopping level and betting on the attenuation.
+
+
+One drawback - I believe that the eisbock process is considered a form
+of distillation in the US legal code, and therefore violates federal
+law when performed without license.   Funny world where moving water
+from here to there without harming a souls is a licensed taxable
+event.  Perhaps they should require a license & tax of hurricanes
+instead.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 29 Mar 2006 10:41:31 -0600
+From: ddarity at direcway.com
+Subject: EKU28
+
+
+Does anyone out there have a good recipe for an EKU 28?
+Schedules for the decoction mash would be great!
+Many Thank,
+Dave
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4983, 03/29/06
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

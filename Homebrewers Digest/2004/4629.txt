@@ -1,0 +1,746 @@
+﻿Date: Fri, 15 Oct 2004 23:33:12 -0400
+Subject: Homebrew Digest #4629 (October 15, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4629                             Fri 15 October 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  FOY 2004 -Response- stress vs biomass yield-Fredrik ("Rob Moline")
+  Re: Stainless Steel Pump Fittings ("Rob Dewhirst")
+  Subject: Re: Electric Brewery ("Jodie Davis")
+  pH adjustments ("3rbecks")
+  Fortnight Of Yeast, 2004 - yeast washing. Acid wash versus Chlorine Dioxide ("Thomas, Chris")
+  Up and down versus longways ("Jay Spies")
+  Pump orientation (Kent Fletcher)
+  serial vs parallel ("Dave Burley")
+  Split Rock 2004 HB Competition ("David Houseman")
+  Coffee Roasters Digest ("Pat Babcock")
+  Orientation of March pumps ("Mike Sharp")
+  FOY, 2004- Response - Repitching Yeast- Steve Smith ("Rob Moline")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*               A Fortnight Of Yeast                    *
+*  Presented by the HBD in cooperation with Lallemand   *
+*      Questions submission: 10/11 - 10/22/2004         *
+* include Fortnight Of Yeast, 2004 in your subject line *
+* More info http://hbd.org/hbd/archive/4620.html#4620-3 *
+*********************************************************
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 14 Oct 2004 21:41:18 -0500
+From: "Rob Moline" <jethrogump at mchsi.com>
+Subject: FOY 2004 -Response- stress vs biomass yield-Fredrik
+
+
+     Dr. Fischborn and Dr.Waldrop, thank you very much for
+hosting another fortnight of yeast! This is like Xmas for us.
+     First I'm sorry to post so "long" and not very distinct questions
+but if I just made it short there may be misunderstandings, so I
+try to explain some of the motives and elaborate the questions.
+Your and everyone else's comments on these issues are much
+wanted!!
+     I have some questions regarding yeast that just to set them in
+proper context are related to my attempt to understand yeast
+and make a computer simulation of a beer fermentation. I am
+currently modeling the states, active dormant and dead. And
+the transitions are considered by transition probabilities
+(statistically that is), and the transition functions are supposed to
+be state functions of yeast, wort and fermentor variables. The
+below question all relate to stress and biomass yield and to an
+extent the transition probabilities between states. I hope
+to decompose the stress into some principal stresses, and find
+how the depress the biomass yield (but also how they cause
+damage and death, which is another side of it)
+Q1 --------------------------------------------------------------
+     Tracing back to Balling, many formulas in brewing, including
+alcohol/FG/OG formulas tend to assume a fixed biomass yield of
+some 5%. As I understand this is an empirically determined value,
+that I assume is an effective average under "typical conditions".
+But as far as I understand the biomass should be a dynamic
+and in an extended dynamic treatment I doesn't seem valid to
+treat the biomass yield as a constant? Stirplates in starters
+are but one example.
+     Note: I am aware that respiration levels does increase the
+biomass yield too, but that is not what I am after here. I am
+trying to understand stress depression of the yield.
+     Considering the biomass yield vs. time, during a batch fermentation.
+Since stresses build up, and especially external sugars drop in the
+very end I am assuming that the biomass yield must drop during
+fermentation. For example, as the sugar concentration is low the
+rate of energy production drops.
+Actual Q1)
+    How low is the cellwise biomass yield  at  EOF, just before the
+cells start to tend to go dormant? What do you think about the
+idea that the biomass yield drops to close to zero? What about
+correlating the transition from active to dormant with the biomass
+yield drop?
+     The idea I have is that the biomass yield in turn would depend on
+the free energy balance. Incomes - expenses. Expenses also
+including possible stress factors, transport costs etc.
+     If you feel this still is a dim question perhaps you can elaborate
+about the topics of dynamic biomass yield and biomass - stress
+correlation?
+Q2---------------------------------------------------------------
+Actual Q2)
+    In a normal batch fermentation, how would you rate these
+different factors that depress the biomass yield?
+: CO2, alcohol, concentration gradients on culture,
+UFA/sterol drop
+     When using a stirplate but *not* aerate, what factor is most
+important being responsible for the increased biomass yield?
+i.e. I want to if possible put numbers on how much the CO2
+supersaturation depresses the biomasyield. etc.
+     Have these things been quantified, and isolated from other stress
+factors? What if you stir in an pressure gas chamber of high
+CO2 pressure, would the benefit from removal of gradient be
+significant still? Or is it some mechanical excitation of the cells?
+Q3 ------------------------------------------------------------
+     As alcohol tolerance are supposed to relate to pitching rates,
+sterol levels and also other add-on stress factors, I wonder what
+the conditions are for the alcohol tolerance numbers that you
+sometimes find for strain descriptions? It seems clear that there
+has to be a limit, but it also seems that the limit can be stretched?
+(i.e. it's not fixed) so the question is thus
+Actual Q3)
+    How does yeast companies typically *define* the alcohol
+tolerance limit? i.e.. what is the exact experimental setup/conditions
+and numerical procedure used to arrive at the alcohol tolerance numbers?
+ - -----------------------------------------------------------------
+/Fredrik
+
+
+Fredrik,
+Thank you for your very interesting questions.
+     First of all we have to admit that we are not qualified to advise you
+with specifics on the modeling aspect.
+     You are absolutely right that stresses are going to affect negatively
+biomass and ethanol production. At the end of fermentation the general
+yield is very low. But you have never a homogenous cell culture meaning
+you will find a wide range of yeast generations. Most of the cells at
+the end of fermentation are still quite healthy but because of the
+conditions they are in they are are not reproducing quickly.
+     With respect to stress factors it is almost impossible to give specific
+values. If you just look for one stress under defined conditions (like
+ethanol concentration) you will get a number. As soon as you add another
+factor to the ethanol stress like temperature your number will change.
+This is unlikely to be a consistent and easy to understand relationship.
+ ...we are not trying to put you off your project but you can imagine how
+difficult your task is with all the relevant parameters taken into
+account.
+     There was a poster presented at the World Brewing Convention in San
+Diego this year in which the presenter demonstrated a model for beer
+fermentation and propagation. But he was focusing on a few key
+parameters and achieved relatively good correlation with practical
+fermentation results. We will get some more information together and ask
+Rob to pass it on to you.
+Question 2
+      It is difficult to rate the different factors because as the
+environment
+changes their impact will change. Concentration gradient will probably
+be most important towards the end of fermentation because the lack of
+ATP production will make it difficult to transport anything against the
+concentration gradient. CO2 and alcohol accumulate together but it is
+easier to remove the CO2 effect than ethanol so therefore ethanol is
+probably more important. CO2 concentration is depending on the
+hydrostatic pressure in the fermenter. The taller the fermenter the more
+important the CO2 levels become. As for the UFA/Sterol drop, it will
+happen and the amount of UFA/Sterols at the beginning coupled with the
+addition of Oxygen at the beginning will determine the impact of the
+drop.
+     On a stir plate the removal of CO2 is probably the main improvement to
+a
+static fermentation. But improved distribution of the yeast in relation
+to nutrients and ethanol should be considered as well.
+     As for CO2 supersaturation you could determine the impact on biomass on
+its own but then again these numbers are probably not relevant under
+normal brewing conditions.
+Question 3
+     Mainly from experience. We encourage our customers to give us feed back
+on their experience with our products. For some strains we will do our
+internal testing under our standard conditions to determine alcohol
+tolerance. But this is a subjective test. Other producers will have
+their own tests.
+     Finally on the growing subject of sugar consumption; Kurt Thorn and
+Alan
+Meeker are absolutely correct. To complicate things further the delay in
+maltose and maltotriose consumption is also, in part, due to induction
+of genes by maltose and maltotriose presence. Sugars like glucose
+fructose and sucrose do not require their presence to have their
+transporters in the membrane, maltose and maltotriose do.
+
+
+Keep up with your good work
+Forbes & Tobias
+
+
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.776 / Virus Database: 523 - Release Date: 10/12/2004
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 14 Oct 2004 21:49:13 -0500
+From: "Rob Dewhirst" <rob at hairydogbrewery.com>
+Subject: Re: Stainless Steel Pump Fittings
+
+
+
+
+> Has anyone found stainless steel fittings to attach to the
+> input/output threads of a March pump?  I have been using brass
+> fittings from the hardware store, but would like to upgrade to
+> stainless steel.  All web searches have yielded nothing.
+>
+> Thanks very much for a great forum!
+
+
+www.mcmaster.com will have everything you need.  Search for "stainless steel 
+pipe fittings". 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 07:32:40 -0400
+From: "Jodie Davis" <JodieDavis at adelphia.net>
+Subject: Subject: Re: Electric Brewery
+
+
+Reading about your Heat Sticks Pete, reminded my of the stick heaters we
+used up north to heat the horse's water buckets in the winter. So, I
+searched a few online tack shops and found this one:
+http://www.doversaddlery.com/product.asp?pn=X1%2D4758
+They've improved since I was a kid!
+
+
+The description says this one can bring a bucket of water to a boil. For
+a challenged tinkerer (my mediums are fabric and clay and soil, not
+electronics--no wonder I only made it through one year of engineering
+school!) is there an easy way to make/buy some kind of controller for
+it?
+
+
+How's this for a turn of events: My husband would like to get my brewing
+off the $1200 glass cook top and out of the kitchen.
+
+
+Jodie Davis
+www.rubberduckie.net
+www.jodieandcompany.com
+www.friendsinthebee.com
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 07:32:34 -0500
+From: "3rbecks" <3rbecks at sbcglobal.net>
+Subject: pH adjustments
+
+
+John
+The main reason to adjust the pH of your brewing water is to get the pH of
+the mash itself into the correct range. (5.2-5.4) You need to use pH papers
+or a meter to measure the pH of the mash. Adjusting the water without
+checking the mash pH is shooting in the dark.
+
+
+If your efficiency and the flavor of your finished beer are acceptable, I
+would probably leave well enough alone.
+
+
+Phosphoric acid (food grade) might be a better choice for acidifying your
+water, as it does not tend to flavor the water like lactic acid does.
+Another option would be diluting your tap water with RO filtered water to
+reduce the pH, but that method also reduces the mineral content of the water
+as well, so salts may have to be added back after dilution.
+
+
+If your mash pH is in the proper range, I wouldn't even mess around with
+water adjustments. If it ain't broke, don't fix it.
+
+
+Rob
+Kansas City
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 10:10:26 -0400
+From: "Thomas, Chris" <CThomas at wilmorite.com>
+Subject: Fortnight Of Yeast, 2004 - yeast washing. Acid wash versus Chlorine Dioxide
+
+
+I was wondering if you might comment on your opinion of acid washing
+versus using a chlorine dioxide (CLO2) wash. It seems that the use of
+CLO2 might be a bit easier and quicker than an acid wash based on [very
+limited] reading related to this subject.
+
+
+ -Is this something that might be relevant to a homebrewer?
+
+
+ -If you think this is a viable option, do you have any practical hints
+and/or suggestions on this method of washing yeast.
+
+
+FWIW, below are some links to relevant articles.
+
+
+http://www.birkocorp.com/brewing/yeast.asp
+
+
+http://www.brewingscience.com/yeast_care.htm
+
+
+Regards, Chris. 
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 10:45:14 -0400
+From: "Jay Spies" <jayspies at citywidehomeloans.com>
+Subject: Up and down versus longways
+
+
+All -
+
+
+Dave Burley quoteth thusly:
+
+
+>>>Jay Spies says:
+ - -----------
+"Yikes!  I know that many people here on the HBD, as well as B3 (sponsor of
+the HBD) use these pumps vertically mounted."
+ - -----------
+I suspect there may be some confusion about what is a horizontal and what is
+a
+vertical mounting.<<<
+
+
+Well, not really.  Seeing as how the mounting plate is on the same plane as
+the shaft, it's not too hard to figure out what orientation is vertical and
+what orientation is horizontal, as it relates to /mounting/.  I think many
+people have gotten my comments skewed, here.  My whole reason for bringing
+B3's vertical mounting option into the thread here is that they sell a "pump
+mounting bracket" which is basically a slotted metal piece with 2 screw
+holes for attaching to a brew stand.  See part #H357.  This can be used to
+mount the pump /vertically/.  That's what I was referring to.  I didn't mean
+the flow axis, as the orientation of the pump head is moveable to change the
+direction of flow, which would allow for horizontal mounting with varying
+flow directions.
+
+
+Technically speaking, then, vertical = up and down, while horizontal =
+longways.
+
+
+;)
+
+
+Jay Spies
+Head Mashtun Scraper
+Asinine Aleworks
+Baltimore, MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 08:34:36 -0700 (PDT)
+From: Kent Fletcher <fletcherhomebrew at yahoo.com>
+Subject: Pump orientation
+
+
+Jay Spies said:
+"Yikes!  I know that many people here on the HBD, as
+well as B3 (sponsor of the HBD) use these pumps
+vertically mounted."
+
+
+Jay, I can't remember ever seeing a picture of a brew
+rig with the pump mounted vertically.  The orientation
+the manufacturere is speaking of refers to the rotor
+and motor shaft.  The motor shaft should be level
+(parallel to the ground).  They are not talking about
+the  orientation of the suction and discharge
+connections.
+
+
+BTW, the vast majority of pumps require horizontal
+positioning, this is not something peculiar to mag
+drive units.
+
+
+Kent Fletcher
+Brewing in So Cal
+
+
+
+
+                
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 15:09:00 -0400
+From: "Dave Burley" <Dave_Burley at charter.net>
+Subject: serial vs parallel
+
+
+Brewsters:
+
+
+Alan Meeker says he spent  a lot of time with me offline discussing serial vs 
+parallel processing of  carbohydrates .
+
+
+That may be, as I dumped my old files so can't look it up, but my point is 
+that any model ( which was the subject of my comments to /Fredrik) should not 
+be serial but take into account all possible reactions. Some will be slowed 
+down by the presence of other sugars and such, which I commented on, but need 
+to be included in a comprehensive kinetic model.
+
+
+Many texts in biochemistry make the assumption about this to simplify the real 
+world complexity of multiple reactions for the reader. Check in the literature 
+for kinetic data and you will see what I am talking  about.
+
+
+Keep on Brewin'
+
+
+Dave Burley 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 18:18:22 -0400
+From: "David Houseman" <david.houseman at verizon.net>
+Subject: Split Rock 2004 HB Competition
+
+
+This is the second notice of the homebrew competition on November 20th, at
+the Split Rock Resort in the Pocono's of Pennsylvania in conjunction with
+their annual Micro Brew Festival.  Contrary to any other information,
+judging will only be on Saturday.  Entry fees, $5, will go to the American
+Diabetes Association.  This is a sanctioned competition  judging all beer,
+mead and cider styles.  Entries should be shipped to The Resort at Split
+Rock, One Lake Drive, Lake Harmony, PA 18624, Attention: Shelly Kalins Lutz,
+for receipt from November 6 to November 17.  Two (2) brown or green bottles
+with no markings are required.  Any standard entry forms identifying the
+brewer and the appropriate entry category/subcategory are acceptable.  Any
+standard homebrew competition entry and bottle identification forms are
+acceptable.  Take special note that we will use the former, 1999 BJCP style
+guidelines; not the new 2004 guidelines.  Get this from the BJCP web site at
+www.bjcp.org.
+
+
+Judges and Stewards will be needed and they should contact Shelly Kalins
+Lutz [srinfo at splitrockresort.com] or me to secure a position.  Judges and
+Stewards can hand carry their entries if they pre-register with payment.
+All judges and stewards are required to be present by 8:30 so we can get
+started promptly at 9am.  Checks should be made out to The Resort At Split
+Rock.  Judges will receive an entry to the beer festival or entry to the
+beer dinner for their efforts and need to indicate which they wish when they
+commit to participate.  The BOS winner will receive a complementary weekend
+for two at next year's Split Rock Beer Fest as well.  But just entering
+makes you a winner for helping a good cause.  More information will be
+available at the Split Rock web site:
+http://www.splitrockresort.com/beerfest/.   Or contact them at:
+spevents at splitrockresort.com.
+
+
+David Houseman
+Competition Organizer
+david.houseman at verizon.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 20:24:50 -0400
+From: "Pat Babcock" <pbabcock at hbd.org>
+Subject: Coffee Roasters Digest
+
+
+At the request of friend Arnold Neitzke, I have added the Coffee Roasters'
+Digest to the portfolio of hobby lists on the HBD. S-ubscribe via 
+coffee-request at hbd.org, post via coffee`at`hbd.org. Arnold is serving as list
+moderator.
+
+
+Enjoy!
+
+
+- --
+
+
+See ya!
+
+
+Pat Babcock in SE MI
+pbabcock at hbd.org
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 17:42:16 -0700
+From: "Mike Sharp" <rdcpro at hotmail.com>
+Subject: Orientation of March pumps
+
+
+
+
+Some are asking: when we discuss vertical vs. horizontal, do we mean the
+body of the pump or the flow (perpendicular to the body)?
+
+
+Pumps are rated with respect to the axis of rotation of the pump and motor.
+Flow has nothing to do with it--some pump housings can be rotated to give
+you different discharge directions.
+
+
+It will usually say on the motor or pump label.  Larger pumps may have
+motors that can be mounted in any direction, but then you must check the
+pump.  It depends how it's coupled to the motor.  If the impeller is mounted
+on the motor shaft, use the motor rating.  If there's a flexible coupling
+between them, check both ratings.  
+
+
+Regards,
+Mike Sharp
+
+
+
+
+------------------------------
+
+
+Date: Fri, 15 Oct 2004 21:01:43 -0500
+From: "Rob Moline" <jethrogump at mchsi.com>
+Subject: FOY, 2004- Response - Repitching Yeast- Steve Smith
+
+
+                FOY, 2004- Response - Repitching Yeast- Steve Smith
+
+
+First, my apologies for such a basic question, but in my research I have
+noticed that some people suggest reusing yeast by pitching wort over the
+existing trub/yeast in a primary fermenter immediately after racking the
+beer that had been on it into a secondary fermenter, or by harvesting some
+of that yeast to use with the new batch of wort.  Other people, including
+Wyeast and/or White Labs and John Palmer provide information for washing
+yeast when taken from the primary fermenter before repitching it.  Or, if
+timing is right, it is preferable to harvest yeast from the bottom of the
+secondary fermenter at bottling time, or by top harvesting ale yeast as it
+is found in the foam during primary fermentation.  I recently reused yeast
+for the first time.  I opted to harvest a pint of yeast/trub (placed in a
+sanitized jar) from the bottom of the primary after racking off the
+all-grain beer, and repitched about half of the yeast/trub  a couple days
+later in a different style beer that called for that same variety of yeast.
+The wort fermented practically over night (when I checked the gravity it had
+dropped to the desired level).  Did I follow an acceptable practice, or am I
+likely to end up with off flavors in my second batch of beer off of the same
+yeast (consider that I used good sanitation)?  I realize that autolysis
+could contribute to off flavors in the second batch if the yeast/trub was
+exposed to wort for too long a period..  I had fermented on the trub for
+eight days with the first batch, and plan on racking off the trub after five
+days in the second batch.
+Steve Smith
+
+
+Steve,
+Yes, you did follow acceptable practice. Usually the shorter the time until
+you repitch the yeast the better. If your fermentation finished after one
+day that might indicate that you have over pitched a bit. 5-6 g of crop
+yeast slurry per liter of wort is a good pitching rate. Or since during
+fermentation yeast multiplies up to four, five times of the original amount
+you could use roughly a quarter of your crop yeast.
+
+
+Acid washing the crop yeast makes sense if it is done properly; it will
+lower the risk of bacteria contamination. But you have to be careful with
+the temperature. Temperatures around 4 C guarantee higher viability than
+warmer temperatures above 10 C.
+
+
+You can harvest the yeast when your main fermentation is finished and the
+yeast is settled. If your second fermentation is already finished after one
+day you can probably rack the beer off the yeast after 3 days. You are right
+that you can get off-flavors from autolysis if you leave the beer too long
+on yeast after the fermentation is finished.
+
+
+Regards
+Forbes & Tobias
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.776 / Virus Database: 523 - Release Date: 10/12/2004
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4629, 10/15/04
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

@@ -1,0 +1,1336 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA21014
+        for <spencer`at`srvr5.engin.umich.edu>; Sat, 23 May 1998 01:06:11 -0400 (EDT)
+Received: from twins.rs.itd.umich.edu (twins.rs.itd.umich.edu [141.211.83.39])
+        by srvr20.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA03562
+        for <spencer`at`engin.umich.edu>; Sat, 23 May 1998 01:06:10 -0400 (EDT)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with X.500 id BAA25585; Sat, 23 May 1998 01:06:09 -0400 (EDT)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.8.6/2.5) with ESMTP id BAA25576; Sat, 23 May 1998 01:06:01 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA25601 for realhomebrew; Sat, 23 May 1998 00:37:09 -0400
+Date: Sat, 23 May 1998 00:37:09 -0400
+Message-Id: <199805230437.AAA25601`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2721 (May 23, 1998)
+Status: RO
+X-Status: 
+
+
+
+
+
+
+HOMEBREW Digest #2721                             Sat 23 May 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Theory and experiment of RIMS and induction heating. ("S. Wesley")
+  any recipe suggestions for spent grain? (Stephanie Deter)
+  Home Malting ("J.Kish")
+  Making starters: the Wrath of Algebra (Some Guy)
+  Re: moans, groans and complaints ("Timothy Green")
+  Rhubarb in beer (NEWTRADBC)
+  Hop Rhizomes. (Brad McMahon)
+  starting aeration (Andy Walsh)
+  Pitching Rates etc (Tony Barnsley)
+  Classic Beer Series (Gary Bridges)
+  AHA National Homebrew Competition (Bill Giffin)
+  Yeast pitcing - style specific ("Don Van Valkenburg")
+  Re: Scott Braker-Abene's Flame (ThE GrEaT BrEwHoLiO)
+  Hop Help (Jonathan Ingram)
+  new style series book. ("Bryan L. Gros")
+  Williams Brewing (Ralph Link)
+  Repitching 3068/Viability of Harvested Yeast ("Robert D. Dittmar")
+  RE: Secondary Impedance/SSR's/Yeast Paste (LaBorde, Ronald)
+  whoops! (Benjamin Bradburn)
+  Hop Rhizomes (Chuck Hudson MGCMD-L List Janitor 272-1522)
+  ZERO OUT OF POCKET (respond)
+  Grains and malts (Alex MacGillivray RN)
+  Aeration: How to keep it sanitary? ("Hans E. Hansen")
+  Pin Lock Kegs ("Marc Battreall")
+
+
+
+
+BURP's Spirit of Free Beer competition is June 6-7 and entry information
+is available by contacting Jay Adams (adams`at`burp.org).
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 21 May 1998 17:21:26 -0700
+From: "S. Wesley" <Wesley`at`maine.maine.edu>
+Subject: Theory and experiment of RIMS and induction heating.
+
+
+Hi Folks,
+        I was rooting through one of the closets in my lab the 
+other day while I was getting ready to do some demonstrations in one of 
+my classes when I came across a demonstration induction coil.  These this 
+is basically a coil of about 16 guage wire mounted in a stand with an 
+iron core.  It is about 8 inches long and has an inside diameter of 1.5 
+inches. It is wrapped about four or five layers deep and usually it runs 
+off 120 VAC. It can be used for lots of fun demos such as lighting a 
+light bulb attached to a coil sealed in wax under water floating a metal 
+ring in the air and spot welding.  I though, aha, the very thing to test 
+out the whole inductive heating RIMS thing!
+        I removed the core and attached it to an aircraft hangar sized 
+oops! I mean a normal sized Variac with an AC ammeter in series.  Into 
+the core I inserted a 10" long 1.25 od copper pipe filled with water. 
+Originally I thought about hooking this up to a dual trace scope with a 
+series resistor so I could measure the phase angle between the current 
+and the voltage and then calcuate the power factor. But a quick 
+calculation revealed that this would have been a waste of time.  
+        I turned on the Variac, turned up the voltage until the current 
+was 15A and waited. after two minuits the coil was starting to smoke so I 
+shut off the Variac, stirred the water with the thermometer and read the 
+temperature initially and after a min or so. The coil was too hot to 
+touch and the temperature of the water was only a few degrees warmer. It 
+appears that the vast majority of the power was deposited in the coil and 
+not in the pipe or the water.  I then allowed the coil to cool down and 
+repeated the experiment with a 1.0" glass graduated cylinder filled with 
+water and not surprisingly the rise in temperature was very small.
+        Before I performed this test I did a quick back of the envelope 
+calculation to determine the ratio of power deposited in the pipe to 
+power deposited in a coil.  I did the calculation for a different 
+geometry but the results conviced me that I would get exactly the results 
+I described above.  
+        The geomtry I used was a 1.0" diameter pipe wrapped in heavy 
+copper wire capable of carrying up to 30A. The magnetic field inside the 
+coil can be approximated by the field inside a long straight solenoid.  
+(Granted this is an overestimate, but keep in mind this is only a back of 
+the envelope calculation) Faraday's Law can then be used to calculate the 
+electric field induced in the pipe and Ohm's Law to get the current 
+density. (I assumed the same resistivity for copper pipe and copper 
+wire.) You can then easily calculate the current that will flow in the 
+secion of pipe under one coil and the resistance of the section of pipe. 
+the power dissapated in one loop of the coil and the pipe underneath it 
+can easily be calculated now and the result came out to be a ratio of 
+greater than 10 to 1.  In other words very little power actually makes it 
+into the pipe.
+        All is not lost though, because the heat which shows up in the 
+induction coil will still heat the pipe, although this is a rather odd 
+way of achieving that goal.
+        The comments of others about the safety of this type of setup 
+should not be ignored. Allow me to relate an off topic anecdote about 
+using heating tapes.  It is a common practice when working with ultra 
+high vaccum (UHV) systems to "bake" the (stainless) chambers of your 
+system to get rid undisirable materials such as water etc. more quickly 
+after closing up the system.  This is often done using wrappable heating 
+tapes. (Sometimes plugged into HUGE Variacs).  One of the graduate 
+students working on a project I was involved with wrapped an old heating 
+tape with bad insulation around a stainless bellows.  Some time after 
+start they were well into the bakeout the insulation on the tape failed 
+and shorted to the bellows and burned a hole in the stainless steel 
+bellows.  
+        I'll be checking my mail for that award from the power company.
+                                Regards
+                                Simon
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 16:28:45 -0600
+From: Stephanie Deter <stevi`at`frii.com>
+Subject: any recipe suggestions for spent grain?
+
+
+Having just started the boil on my first partial mash brew (oatmeal stout
+based on the oasis stout recipe in Homebrewer's Gold), I'm faced with
+almost two gallons volume of spent grains. I've done some searched on the
+HBD and the web and general, and have yet to find a recipe for using these
+spent grains for anything besides dog bones. Lacking a dog, I'd really
+rather try my hand at a bread of some sort. I was hoping somebody would
+have a recipe suggestion. It just seems so wasteful to send them all down
+the disposal.
+
+
+All suggestions appreciated!
+
+
+Thanks,
+Stevi Deter
+Boulder, CO
+stevi`at`frii.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 16:24:48 -0700
+From: "J.Kish" <jjkish`at`worldnet.att.net>
+Subject: Home Malting
+
+
+HBD'ers,
+    There seems to be growing interest in Home Malting.
+Only trouble is, there should be a easier source of 
+malting barley.
+  Some people have tried feed barley, but the quality of
+that leaves much to be desired.
+ Does anybody know where to obtain malting barley?
+   Joe Kish
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 20:35:27 -0400 (EDT)
+From: Some Guy <pbabcock`at`oeonline.com>
+Subject: Making starters: the Wrath of Algebra
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Jay Spies asks about starters...
+
+
+It's a matter of units. Convert the pounds and gallons to the units you 
+need, then cook up the starter to your specifications...
+
+
+The units of extraction (contribution, in the case of extracts) are 
+commonly called pgp. Mathematically, this is points x gallons / pounds.
+
+
+Using 1 gallon = 3785.4 ml and 1 lb = 453.59 grams, and assuming DME 
+yields 45 pgp...  converting: (45pts*gal/lb)*(3785.4ml/gal)/(lb*453.59g/lb). 
+Cancelling units, we have 45pts*3785.4ml/453.59g=375.5pm/g
+
+
+Let's say you want 800ml of 1.030 starter from DME. How many grams of DME 
+do you need? 30pts*800ml=453.59pts*ml/g. Solving for the mass, collecting 
+units and rounding up yields 53 grams of DME.
+
+
+You say you don't have a metric scale? Instead of using grams in the 
+conversion, use the fact that there are 16 ounces in a pound. Our 
+conversion becomes (45pts*gal/lb)*(3785.4ml/gal)/(16oz/lb)=10646pmoz (I 
+can actually sense Dave Draper cringing...) Again, we're after 800ml 
+of 1.030 starter wort: 30pts*800ml=10646pts*ml/oz. Solving for the weight, 
+collecting terms and rounding up yields  2.25 ounces (wt) of DME.
+
+
+Hope it helps! (Actually, considering the conditions during which I wrote 
+this, I hope I didn't screw the math up...)
+
+
+
+
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`oeonline.com
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org   
+The Home Brew Page                 http://oeonline.com/~pbabcock/brew.html
+   "Just a cyber-shadow of his former brewing self..."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 20:53:33 -0400
+From: "Timothy Green" <TimGreen`at`ix.netcom.com>
+Subject: Re: moans, groans and complaints
+
+
+I would like to thank all the people who took the time to answer my
+concerns. Every single one was polite and offered help when I need it.
+
+
+That in it's self shows the quality of the of the readers of the HBD! They
+were quite convincing
+
+
+In that vein, I went out and purchased a Rubbermaid/Gott 10 gallon round
+cooler to use as a mash/lauder tun, a Palse Bottom to fit and a larger
+brewpot!
+
+
+There are two things I need some help on:
+
+
+How should I alter the cooler to install a ball valve and spout so I can
+drain the wort.
+
+
+The second question is does anyone have a good recipe for a neophyte
+all-grainer to try. Now that I have the equipment, I am itching to try it
+out.
+
+
+Thanks again...
+
+
+Tim Green
+
+
+Mead is great... but very slow
+Beer is good... but much much faster
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 May 1998 22:51:30 EDT
+From: NEWTRADBC <NEWTRADBC`at`aol.com>
+Subject: Rhubarb in beer
+
+
+David Johnson asked if anyone had used Rhubarb in beer.
+
+
+Yes.  Chas Peterson and I entered a five gallon batch into the 1997 "last
+years winners" competition that the AHA does to ensure lots of homebrew at the
+homebrewers conference each year.  We used rhubarb as the 2 pounds
+"miscellaneous" ingredient each contestant is allowed (AHA provides
+remainder).  In order to maximize flavor, we cooked 4 pounds rhubarb (just a
+little water, it generates its own juice) until soft, and then processed
+through a juicer to yield 2 pounds of EXTREMELY sour rhubarb juice.  This was
+added to the secondary.
+
+
+It did make the beer slightly tart, but it wouldn't fool anyone as a lambic.
+We did not get feedback from the AHA as to how it fared in the competition
+under the moniker "SA's Rhubarb Pseudo-Lambic"  I still have a couple bottles.
+Interesting beer-but not something you want every day or to give to people who
+want to try homebrew for the first time!
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 17:43:53 +1100
+From: Brad McMahon <brad`at`sa.apana.org.au>
+Subject: Hop Rhizomes.
+
+
+Colin wrote:
+
+
+> Here in Australia, we are unable to obtain hop flowers other than
+> locally grown Pride of Ringwood and New Zealand Saaz, Hallertau 
+> Triploid and Cluster. 
+
+
+You can also get that new strain , Essas (sp?) grown in Tassie,
+which similar to Hallertauer so I'm told.
+
+
+
+
+I would like to grow my own, as we have a 
+> great climate for hop production ( cold winters, hot summers). 
+
+
+Well... sort of, most of Australia is a little cose to the
+equator, you can grow from Adelaide (38S) on down, so
+Canberra is good, Tasmania is better.
+
+
+
+
+> Does anybody know where I can obtain rhizomes from such hops
+> as Saaz, Hallertau, Fuggles, Goldings, Cascade and Hersbrucker?
+
+
+Ya just can't.
+Essas, Ringwood, Cluster and Tettnager, I know you can get.
+Many of these may not grow too well anyway, and
+most probably change characteristics.
+
+
+
+
+> Are there any customs/quarantine problems?
+
+
+Hoo boy, oh yeah!
+You cannot import any living plant/fruit/vegetable into Australia.
+Customs will destroy it on sight, and may charge you
+with a whole swag of customs offences.
+If you have come back from overseas you should remember the
+customs declaration forms... "no, I have not been on a farm
+in the last two weeks..." and being sprayed with
+insecticide on the plane!
+
+
+I would just check with Customs before you decide to order
+anything like that from overseas.....
+
+
+
+
+- --
+Brad McMahon        Adelaide, South Australia         
+brad`at`sa.apana.org.au   
+PGP
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 18:31:29 -0700
+From: Andy Walsh <awalsh`at`ventrassist.com>
+Subject: starting aeration
+
+
+>From George.
+
+
+>He is wondering why this happened, because 
+>current theory says that you need not aerate if you overpitch.
+
+
+Maybe this is Tracy's current theory - certainly not mine, and I doubt
+you'd find many brewing scientists who agreed with this. This has been
+bugging me since I first read Tracy's BT article, so feel compelled to
+finally add a counter opinion, when it is claimed to be "current
+theory".
+
+
+from John
+>However, Tracy Aquilla wrote, I think, in his BT
+>article that yeast growth in the wort was not desirable due to by products.
+
+
+One of the most important "by products" (to us beer pigs, not to the
+yeast) of yeast growth is ethanol (ethanol = "bug piss" in local slang).
+Don't want that stuff in our beer do we? Yeast produces alcohol about
+30x faster when in log phase than stationary phase. If you discourage
+growth by under aeration you encourage slow ethanol production and
+sluggish fermentation (even if it does start within 30 minutes).
+
+
+The one time I tried the non-aeration trick (with Danish II lager yeast)
+resulted in just 60% AA (cf. my normal 80% with this yeast). The wort
+was pitched directly onto yeastcake from a beer racked the same day
+(fermented 2 weeks at 10C). Yeast viability was not measured but
+unlikely to be the culprit. I should point out my worts lack significant
+cold break due to a filtration sort of technique, so the yeast must use
+O2 to synthesise sterols and unsaturated fatty acids rather than derive
+them from break material. 
+
+
+The theory that yeast multiplies just 3-4 times really only applies if
+one pitches a particular ("recommended") amount of yeast (who regularly
+measures this accurately?). A given wort O2 level tends to result in
+reasonably similar amount of yeast growth no matter what the pitching
+rate ie. constant number of cells produced, rather than a constant ratio
+of number at end to number at start. (in the extreme: beer fermented
+from yeast pitched directly from a smack pack clearly results in much
+more than 3-4 times more yeast than what was originally pitched). A
+study on this was in one of the semi-recent journals, but I do not have
+it at hand.
+
+
+Maybe you can get away with overpitching and underaeration sometimes
+(depending on such things as temperature, break level in wort, yeast
+vitality and strain), but I really don't think it is worth playing
+around with, unless you like drinking sweet beer, or know exactly what
+you are doing.
+
+
+Andy in Sydney.
+
+
+PS. Since I'm posting anyway, a Charlie Bamforth mini-review! After
+finishing the new book, I'd recommend it! The man's head is pointier
+than just about anyone else's who has written a popular beer book, but
+he generally keeps it to himself! It is easy to read, and IMHO is up to
+date in its information and accuracy! Many HBDers will be surprised at
+some of the claims he makes, so be prepared to question your opinions,
+since his sources are impeccable! Two things irritate me!
+ - the recommendation by CP on the back cover (shows the market he is
+aiming for I suppose)!
+ - every sentence seems to finish with a "!"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 10:36:56 +0100
+From: Tony Barnsley <Tony.Barnsley`at`riva-group.com>
+Subject: Pitching Rates etc
+
+
+Hi all,
+
+
+Just my tuppence worth,
+
+
+This month I have brewed two batches using Wyeast 2278 Czech Pilsner.
+The first was a Gambrinus clone using a 500 ml starter with yeast
+reclaimed from a bottle of lager made last year. The starter was well
+aerated and stepped up a couple of times. The beer was chilled and
+whirlpooled before siphoning into the fermentation bin, using a piece of
+copper tubing with 1/16 th holes drilled in it. Additional aeration
+using a slotted paddle produced 6" of foam on the surface. OG was 1.058.
+Yeast was pitched, and fermentation started within 6 hours. 
+
+
+Temp control is not my strong point nor an actual concern of mine, but
+stayed around 65F for the 5 days of primary fermentation.
+
+
+I then racked a wheat beer wort (OG 1.044) onto the yeast cake. No
+comments about using  a wheat yeast etc. My beer and that's the way I
+like it, anyway its something of an experiment. Aeration produced the
+requisite 6+" of foam, fermentation started within 4 hours, good solid
+krausen. 24 hours later NO krausen checking with the hydrometer proved
+that primary fermentation had finished. So the beer was racked into a
+secondary and will be allowed to rest.
+
+
+I've not had such a fast fermentation before even with pitching onto the
+yeast cake, so I've concluded that I've been under aerating, either that
+or temperature played a part. I'm not convinced about temperature as the
+previous batch under the same conditions didn't ferment that fast, it
+was probably underpitched.
+
+
+Wassail !
+
+
+Tony, M.i.B (Mashing in Blackpool, Lancashire, UK)
+
+
+(A very very long way from Jeff)
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 08:31:58 -0500
+From: Gary Bridges <bridges`at`iastate.edu>
+Subject: Classic Beer Series
+
+
+
+
+
+
+I happened on most of the Classic Beer Series of books at Waldenbooks on
+their bargain table for a greatly reduced price.  That was in Ames, IA.
+
+
+gary bridges
+bridges`at`iastate.edu
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 09:49:03 -0400
+From: Bill Giffin <billg`at`ctel.net>
+Subject: AHA National Homebrew Competition
+
+
+
+
+Top of the morning to yea all,
+
+
+I agree and applaud Dave Houseman's post in defense of the BJCP.  But there
+are problems with the judging of the AHA NHC.  The judges are required to
+judge the beer entered by the guidelines for the competition yet the
+majority of the winning beers do not fall within the guidelines.  
+
+
+There are too many entries to judge at each of the first round locations
+and not enough judges or time to properly judge them.
+
+
+Frequently the entries are presented to the judges far too cold, which
+makes it difficult to adequately judge.  Judging as many as thirty beers in
+a day has a tendency to destroy  your palate no matter how good a judge you
+are.  
+
+
+Errors are made in the receiving of the entries as they are being logged in
+and the correct beer is not always presented to the judges.  This happens
+in the best run competitions, yet do to the large number of entries I feel
+that the AHA NHC has a higher percentage then do most of the large regional
+competitions.
+
+
+Over the years I have entered about 30 beers into the AHA NHC.  For three
+of those entries I didn't receive a score sheet.  Two were very badly
+judged as undrinkable when in fact they were quite pleasant.  One score
+sheet didn't appear to be my entry at all as the judges said the beer was
+cloudy and the beer I had entered had been filtered.  That beer didn't
+throw even the slightest chill haze either before or after the competition
+and won a first place in a regional competition after the NHC.
+
+
+It seems that the AHA has not the skill to properly manage the NHC.  The
+competition has grown larger then their capability.
+
+
+Bill  
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 07:22:16 -0700
+From: "Don Van Valkenburg" <donvanv`at`email.msn.com>
+Subject: Yeast pitcing - style specific
+
+
+Although this is only one example, I think it backs up the assumption that
+pitching rates might be style specific and one size may not fit all styles .
+
+
+HBD 2720 >Date: Thu, 21 May 1998
+>From: "David Johnson" <dmjalj`at`inwave.com>
+David writes:
+>On another note, with this talk of pitching rates, I thought I would offer
+>a data point. Last summer I prepared two batches of weizen in series with
+>Wyeast 3068. The first was made with a regular size starter the secon was
+>pitched with a quart of yeast harvested from the first. They were entered
+>in the same competition and were judged by the same judges who commented on
+>the excellent clove character of the first and docked the second for not
+>enough. Both were fermented the same with the same aeration and
+>temperatures.
+>Dave the Barbarian.
+Thanks Dave for your input,
+Don Van Valkenburg
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 09:32:40 -0500
+From: ThE GrEaT BrEwHoLiO <skotrat`at`wwa.com>
+Subject: Re: Scott Braker-Abene's Flame
+
+
+Houseman, David Wrote:
+
+
+>In yesterday's HBD Scott Braker-Abene flamed on about the AHA and its
+>competitions, apparently without the vaguest idea of what he was talking
+>about.  To make statements like "Well this is because it is easier to
+>screw up your beer with someone else's
+>and get it into another category in the first round" indicates that he
+>is totally unaware of the procedures and processes used in the AHA first
+>round, or for that matter in any round, of the National Homebrew
+>Competition.
+
+
+No I know exactly what I was talking about and I believe that the comp is
+was and will be poorly run due to being unorganized and ill planned.
+
+
+I also know many other brewers who beers ended up in the wrong cat. due to
+poor stewarding.
+
+
+>His flaming didn't really apply to the AHA to the good judges and
+>organizers who organize and judge the first round competitions around
+>the country.  Perhaps Scott was burned by not having his great beer
+>managed or judged properly, but then these things do happen.  
+
+
+Hmmm but why are they always happening in the AHA nationals rather than
+local comps? Stop making excuses. Stop Stop Stop!
+
+
+>Hummmm...perhaps he can't read the directions...even
+>if he does claim to have Xerox copies of his entry forms?
+
+
+Give me a break... Perhaps the AHA and the ailing BJCP should come up with
+better stewards and people that don't wait till the last minute to organize
+all the brews into the flights. Perhaps I have touched a nerve that is sore.
+
+
+>If he has an issue, as he obviously does, with the judges that happened to
+>have judged his beers, he should be taking that up with the BJCP who
+>certifies the judges.  
+
+
+First of alll I would have to have an actual BJCP judge actually judge my
+brew in the AHA nationals. 99% of the time I get 2 novices judging the beer. 
+
+
+Perhaps the BJCP should then do a better job of getting judges to actually
+show up for the comps.
+
+
+>If a workable solution can be found then great, but the place to vent about
+>the judges isn't the AHA who has nothing to do with the training,
+>certification or selection of the judges in the NHC. 
+
+
+Like I said. I have rarely had an actual BJCP judge on any of my AHA
+nationals score sheets.
+
+
+
+
+Okay Dave, 
+
+
+Let's get something straight. I am not flaming the AHA. I could give a turd
+about the AHA. I do feel that their competitions are run about as well as
+their organization and that is nothing to be proud of. 
+
+
+Also, YOU... discuss wasting bandwidth and all.. Your response to me
+probably should have been kept to private email. 
+
+
+ -Scott "whatever" Abene
+##############################################################
+#                     ThE-HoMe-BrEw-RaT                      #
+#                Scott Abene <skotrat`at`wwa.com>               #
+# http://www.wwa.com/~skotrat (the Homebrew "Beer Slut" page)#
+#                                                            #
+# "The More I know About Beer, The More I Don't Need The AHA"#
+##############################################################
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 07:56:35 -0700 (PDT)
+From: Jonathan Ingram <jonathaningram`at`yahoo.com>
+Subject: Hop Help
+
+
+
+
+I was doing a 5 gallon batch yesterday and something strange happened.
+I was following a recipe for a Brown Ale. I did all the normal
+procedure. The recipe called for 1.5 oz North. Brewer for the boil and
+1/4 oz Willamette for the finish. I got the boil going added
+everything, than in the last 10 mins of my boil I opened up the hop
+bag that already contained the boiling hops and threw the willamette
+hops in (note I was using pellets), stirred everything around a little
+and let it go for 10 more minutes. After 10 mins I pulled out the hop
+bag to find that there wasn't hardly anything left in it. The hops had
+turned into a thick green powder and gone right through the mesh bag.
+What happened? So I obviously didn't want all this mess in my wort,
+problem is the hops didn't stay together as leaves so I couldn't
+really fish them out. So I ran it through a strainer on the way to the
+fermenter. I took a sample in my Hydrometer tube and let it settle,
+sure enough there was a green powder that settled on the bottom. I was
+now afraid that if I left this stuff on the bottom it would in effect
+be like dry hopping my beer. So I siphoned it to a secondary leaving
+all this crap on the bottom of my primary than pitched my yeast at
+about 11 last night. Any insight into what happened would be
+appreciated. Thanks, Jon
+
+
+
+
+
+
+==
+Jonathan Ingram
+We Are Penn State!
+JonathanIngram`at`yahoo.com
+_________________________________________________________
+DO YOU YAHOO!?
+Get your free `at`yahoo.com address at http://mail.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 08:23:04 -0700
+From: "Bryan L. Gros" <gros`at`bigfoot.com>
+Subject: new style series book.
+
+
+The AHA is giving members a good deal on books now.  Members get
+20% off the cover price AND free shipping.  I appreciate the offer, and
+I ordered the two new Style Series books, Alt and Barley Wine
+
+
+I'm dissapointed, however, in the new design of the books.  The old
+books had a bold, dark cover photo with a professional design.
+Then new books have a white barley-on-yellow-background look 
+that just looks washed out and bland.  And the shape of the book--
+shorter and wider than the old books--makes the books look
+amateur, like a college thesis.
+
+
+I guess I shouldn't judge a book by its cover, but it seems to me
+you want a series of books to look alike, not with different
+formats.  I'm sure it was a marketing decision...
+
+
+       - Bryan
+         gros`at`bigfoot.com
+         Oakland, CA
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 14:40:51 -0500
+From: Ralph Link <rlink`at`minet.gov.mb.ca>
+Subject: Williams Brewing 
+
+
+In the May 22 issue of HBD I learnt of "Williams Brewing"
+http://www.williamsbrewing.com 
+I was egear to obtain some kegs parts and a variety of other things. So I
+used the 800 number from their home page and made the call. 
+
+
+I was informed that they do not ship to Canada. I find this rather sup
+rising. They maintain a web page that is available world wide, they have an
+800 number that is aces sable from Canada, but they don't ship to Canada.
+
+
+I would suggest that either business is so good that they don't want new
+customers or they are just too lazy to go to what ever extra work there may
+be to send a parcel to Canada. I have in the past ordered many things from
+the U.S.A. and have always be treated as a welcome customer. I hope this
+company's attitude is not reflective of other companies in the same
+business.
+Ralph Link
+"Some people dream of success------while others wake up and work at it.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 14:48:40 -0500
+From: "Robert D. Dittmar" <Robert.D.Dittmar`at`stls.frb.org>
+Subject: Repitching 3068/Viability of Harvested Yeast
+
+
+     David Johnson writes in HBD #2720:
+     
+          Last summer I prepared two batches of weizen in series with
+          Wyeast 3068. The first was made with a regular size starter the 
+          secon was pitched with a quart of yeast harvested from the first. 
+          They were entered in the same competition and were judged by the 
+          same judges who commented on the excellent clove character of the 
+          first and docked the second for not enough. Both were fermented 
+          the same with the same aeration and temperatures. 
+          
+     One of the members of our brew club made a Weizen beer from Wyeast 
+     3068, and he claimed that 3068 was actually two different strains.  He 
+     claimed that he had actually streaked out the two different strains 
+     from the smack-pack, cultured two starters from the different strains, 
+     and pitched the two strains at different times in the fermentation.  I 
+     believe that he claimed that the clove producing strain was a slow 
+     starter.  If he was correct about 3068 being two strains, it might 
+     explain the difference noted in David Johnson's two beers.  At the end 
+     of the primary, perhaps one strain greatly outnumbered the other or 
+     expired before the repitching.
+     
+     ---------------------------------------------------------------------
+     
+     George DePiro and John Wilkinson discussed repitching yeast at some 
+     length, although their discussion was in the context of the necessity 
+     of oxygenating the wort.
+     
+     In one of his posts in HBD #2720, George wrote about harvested yeast:
+     
+          You may find significant cell death after just a week of storage  
+          under fermented beer in a fridge.
+     
+     Upon reading this I thought I'd mention some of my recent experience 
+     with harvested yeast.  I had harvested some Wyeast 1056 from a 
+     secondary fermenter just before I moved into my new home at the end of 
+     March.  It has been sitting in my refrigerator until this past 
+     Tuesday, when I finally got around to brewing a planned porter.  I had 
+     washed the yeast a couple of times in the interim.  Before brewing I 
+     had pitched the yeast into a small starter just to be sure that 
+     fermentation would begin, and when I saw the starter fermenting the 
+     next day, I pitched it into a 5 gallon batch (aerating the best that I 
+     could).
+     
+     Fermentation was well underway early the next morning, and when I came 
+     home from work the that day I found that fermentation had been so 
+     explosive that krausen had overflowed the airlock, something that 1056 
+     has never done to me before.  I realize that this is just one data 
+     point and my experience may be unique to 1056, but it seems that 
+     harvested yeast can stay healthy enough to produce vigorous 
+     fermentations even after 3 months under beer or water in the 
+     refrigerator.
+     
+     Rob Dittmar
+     St. Louis, MO
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 15:07:46 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: Secondary Impedance/SSR's/Yeast Paste
+
+
+First, I appreciate all the patience of the HBD members for tolerating
+this seemingly endless discussion on subjects that may be considered a
+distance from brewing.  No complaints have been registered yet, and I
+promise this subject matter too will end someday.
+
+
+>From: "A. J. deLange" <ajdel`at`mindspring.com>
+
+
+>A 1 meter long piece of half inch (ID) copper tube with 1 mm wall
+thickness would
+>have a resistance of about 0.0002 ohms. If  this is used as a single
+>turn and the primary has 100 turns then the primary will see 2 ohms and
+>draw 55 amps from a 110 volt line for a probable meltdown if the
+breaker
+>of fuse didn't do its thing first. Also,  the  copper tube would have
+to
+>dissipate 6 KW less core losses. With 314 turns on the primary the
+input
+>impedance would go up to 20 ohms for a modest current draw of 5.5 amps
+>and approximately 600 W delivered to the secondary. Much better of
+>course. How many turns on the primary of the transformer to be used?
+>This can, of course, be easily and accurately determined.
+
+
+You are indeed correct AJ.
+With a longer piece of copper tube, the resistance would also be higher,
+if 5 meters long then .001 ohms, using the figures you have presented.
+Five meters would be a reasonable size if the tube was coiled.
+
+
+One way to determine the power rating of the transformer would be to
+work backwards and know it's output power.  Let's use an example.  Say
+you had a transformer from a 12 volt 50 ampere battery charger.  This is
+a reasonable, practical device.  So the transformer will put out more
+than 12 volts AC, it needs to overcome rectifier losses, and the battery
+wants at least more than 14 volts to charge.  So this transformer will
+probably output about 16 volts at 50 amps.  We can multiply 16 * 50 and
+get 800 watts.  Here is where we get real technical and call it volt
+amps instead of watts.  Do not be discouraged here, because we are going
+to have a resistive load and they can call it anything they want but it
+is 800 pots of wower.
+
+
+Here is the fun part - we now know the transformer, it's core, and it's
+primary, and it's secondary can handle 800 watts.  Are you with me so
+far?  The secondary we do not care about, because we will replace it
+with a different secondary.  The transformer primary and the core do not
+care how you get 800 watts from the secondary, that is - you can draw 16
+volts at 50 amps as above, or you can draw 1 volt at 800 amps.  It
+really doesn't matter to the primary as long as the turns ratio is
+correct.  You can run the transformer without a secondary.  This seems
+silly at first, but oh no! Hang on.
+
+
+We are happy with the primary, it is perfect for the core, the
+manufacturer has kindly seen to that. Besides, we don't want to get
+tired fingers with all that small wire and gobs of turns.  So we will
+leave the primary alone.  This means we can only diddle with the
+secondary.  So with no secondary, we want to know how much voltage is
+output for 1 turn.  We put one turn as a secondary and measure the
+voltage.  Now we know how many turns to use to get the voltage we want.
+
+
+We keep in mind that we will have slightly less output under load
+because of losses in the primary and secondary windings of about 10
+percent or so.  We could, to be more accurate load down the original
+secondary to 800 watts and then measure with out 1 turn second
+secondary.
+
+
+We can put however many turns we want to get the voltage we want
+provided we do not exceed the current times this voltage to be 800 watts
+into the load we have.  The wire also needs to fit into the available
+space.
+
+
+The point of all this, is we are designing a transformer using
+unwavering basic principles without using many tools, so far, a
+voltmeter, our head, and some time.  We can not expect everyone to
+obtain an engineering degree in transformer design to cobble together a
+transformer, this is a hobby after all.   
+
+
+>Knowing that every line I type
+>here is archived I would never post a statement like that unless I had
+>nothing for the lawyers to take. Now don't get me wrong. I have always
+>done, and will continue to do "innovative" things and have paid,
+>fortunately only in money (and no legal fees or medical fess so far). I
+>just don't advertise my stupidities here.
+
+
+Maybe I am too naive, but I would hope someone would not take design
+ideas as permission. What did I say after all?  Let's take a peek at the
+first post on the subject:
+========================================================================
+========>>>
+
+
+If you want something really different, try this:
+
+
+Use a stainless steel coil as the heating chamber, with the mash liquid
+and pump connection by non conducting plastic tubing, then power the
+coil with high amperage low voltage AC current.  
+
+
+You will probably need to rewind a transformer by changing the secondary
+winding to a very large single or several turn conductor, then this will
+connect to your stainless heating coil.  I once played around with a
+transformer like this, with a few turns on the secondary, could make a
+coat hanger glow bright red!  You will need to experiment, with a lot of
+cut and try, and maybe get an electrician to assist in the design.  You
+can start by finding some high power battery charger, or an old welding
+transformer as the source for a transformer to rewind.
+<<<=====================================================================
+======
+
+
+This brings up a good point, how much liability is anyone responsible
+for with a suggestion or idea.  Looking above I see I suggested getting
+an electrician, I mentioned cut and try, but I also mentioned play, and
+at the start I did use the word 'try'.  So I dunno, if something like
+this makes me liable, then maybe I should be making beer, not exchanging
+ideas on an open forum. What do you guys think? 
+
+
+>Basically I think this concept
+>is a neat idea for someone who knows what he's doing (and I don't claim
+>that  that's me).
+
+
+You are most humble, and most knowing of what you are doing.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 23 May 1998 17:07:42 -0400
+From: Benjamin Bradburn <bbradbur`at`vt.edu>
+Subject: whoops!
+
+
+I've started a fairly simple English ale. That's fairly simple. The
+problem came in when I was about to take the temp to see if it was ready
+to pitch the yeast. During the process of sterilizing the thermometer I
+broke it. Will I be able to just maintain the specific gravity and be
+alright? Or does anyone have any further tips?thanks,
+                Beenjamin'
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 15:55:20 -0600
+From: Chuck Hudson MGCMD-L List Janitor 272-1522 <chudson`at`unm.edu>
+Subject: Hop Rhizomes
+
+
+ "Colin Marshall" <byoah`at`argay.com.au>
+Asked about Hop Rhizomes.
+
+
+
+
+I would Double check with you Ag Ministry before starting to look for them.
+If every thing is hunky-dory Check out the various hop suppliers on the net
+like Hop Union (No affialtion YMMV etc). Howevre I would be carefull in
+ordering hops this year due to the pordery mildew hitting the US Pacific
+Northwest. One of our H.B retailers refused to accept orders and the other
+was "convinced" by a mob of Homebrewers not to order any untill this clears
+up.
+
+
+Chuck Hudson
+Albuquerque NM
+chudson`at`unm.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 14:29:31
+From: respond`at`impact-marketing.com
+Subject: ZERO OUT OF POCKET
+
+
+If we have reached you in error and do not want to receive information 
+on money saving ideas on your printing needs, just reply to us to remove 
+you from our list and your wishes will be complied with quickly.
+
+
+We are entering 100s of business card orders per week. Because of that 
+we are able to get you prices on your typical business cards at 20-30% 
+below what you are paying right now. For your non typical, ie. four 
+color, heavy design, slick paper, etc. we can get you an even larger 
+discount. Don't wait! Contact us imediately to get in on the next run 
+and the unbelievable $avings. Email us your interest and we will get 
+back to you as soon as possible. Leave us with a phone number and your 
+Email address to contact you. Delivery times are 5-7 working days! 
+National Printing Co-op todays answer to high printing costs! 
+ 
+
+
+NATIONAL PRINTING C0-OP
+www.printingco-op.com
+respond`at`impact-marketing.com
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 16:02:09 -0800
+From: Alex MacGillivray RN <judoka`at`iname.com>
+Subject: Grains and malts
+
+
+I'm wondering if there is a chart out there that helps to convert dry
+malt recipes into whole grain recipes. I'm wondering what the ratio of
+dry malt to whole grains is. Any thoughts?
+
+
+Alex
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 19:03:43 -0700
+From: "Hans E. Hansen" <hansh`at`teleport.com>
+Subject: Aeration: How to keep it sanitary?
+
+
+Lots of discussion about aeration here lately.
+
+
+What puzzles me is how do most of you aerate w/o risking
+infection?  (Yes, O2 bottle, but what if I don't want to
+spend the $ for this setup?)  Many of the methods suggested
+look like an invitation for infection.  Shaking, sloshing,
+pouring, stirring, etc.  What about all of that airborne
+stuff that you are trying to keep out with airlocks?
+
+
+(I am too embarassed to tell you how I aerate.)
+
+
+Hans E. Hansen
+hansh`at`teleport.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 May 1998 22:27:26 -0400
+From: "Marc Battreall" <batman`at`terranova.net>
+Subject: Pin Lock Kegs
+
+
+Randy Shreve asked about pin lock kegs in HBD 2718:
+
+
+Can anybody in HBD-land shed any light on this subject???  Should I dump
+these kegs and start over?
+
+
+Randy,
+
+
+I had the same dilemma awhile back. I had 4 or 5 ball lock kegs and 2 pin
+locks. I exchanged the pin lock models with my local homebrew store owner
+for ball locks for uniformity reasons. Prior to doing this though, I had
+replaced the poppets, o-rings, and other assorted parts with new ones that I
+got from Brewer's Resource. These are the kind of parts that you really need
+to look at off the shelf and not from a catalog to make sure they are the
+right thing if you know what I mean. But, I took a chance and they (BR) sent
+me all the right stuff. Their catalog has pictures of most of the parts you
+will need, so check it out. If the kegs are in good condition otherwise, use
+them.
+
+
+(Not affiliated with Brewer's Resource disclaimer applies here...yadda
+yadda)
+
+
+Good Luck,
+
+
+Marc
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2721, 05/23/98
+*************************************
+-------

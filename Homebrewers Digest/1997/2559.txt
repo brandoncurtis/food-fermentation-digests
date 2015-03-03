@@ -1,0 +1,1414 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.8.5/8.8.5) with ESMTP id BAA05254
+        for <spencer`at`srvr5.engin.umich.edu>; Mon, 17 Nov 1997 01:03:29 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+        by srvr20.engin.umich.edu (8.8.5/8.8.5) with ESMTP id BAA13747
+        for <spencer`at`engin.umich.edu>; Mon, 17 Nov 1997 01:03:27 -0500 (EST)
+Received: (from root`at`localhost)
+        by redheat.rs.itd.umich.edu (8.8.5/2.2) with X.500 id BAA10180; Mon, 17 Nov 1997 01:03:26 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by redheat.rs.itd.umich.edu (8.8.5/2.2) with ESMTP id BAA10156; Mon, 17 Nov 1997 01:03:22 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA14424 for realhomebrew; Mon, 17 Nov 1997 00:37:04 -0500
+Date: Mon, 17 Nov 1997 00:37:04 -0500
+Message-Id: <199711170537.AAA14424`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2559 (November 17, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2559                             Mon 17 November 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Hops Calculation (Jeffrey_Tonole)
+  Udder Clean, WST, lag period, High pH starters (AllDey)
+  Cabbage/vegetable smell in fermenter? (Ian Smith)
+  Re: Yeast Starter (Anthony Capocelli)
+  Dual-mode temp controllers ("Forrest Duddles")
+  re: Kegs, Oxygen, etc.. ("Michel J. Brown")
+  homegrown hops ("Kevin F. Schramer")
+  Bubble-gum flavors ("Rick Snide")
+  Entry Deadline is Drawing Near (RBoland)
+  lager yeast priming (Eric Pendergrass)
+  Linseed Beer,Too much gelatin, Pump placement,Shocking yeast,FWH ("David R. Burley")
+  Subject: Freezer Temperature Controllers (Michael W Bardallis)
+  Subject: Brewing Flax? (Michael W Bardallis)
+  HBD Donations (Jim Anderson)
+  Donations stuff... (Some Guy)
+  Spots (LaBorde, Ronald)
+  Bad Beer  (update) (Richard Soennichsen)
+  Sanitary Tubing (Tom Clark)
+  RE: SG:Volume relationship ("Michael E. Dingas")
+  Grain storage, Belgian yeast, my sig line. ("Raymond Estrella")
+  Cyser Fermenation/100% Apple Cider?( Greg Mueller) (GMuel38838)
+  Brass ball valve (Richard Johnson)
+  Cooking Pumpkins(small??), All grain vs Extract (Jim Bentson)
+  Lefebvre Brussels White (KennyEddy)
+  brewing-related software?  ... plus 5L mini-kegs comments (Jim Graham)
+  Re: Wyeast Lager strains and higher fermentation temps ("Charles L. Ehlers")
+  Pectin Enzyme (Pete and Kris Stelter)
+  Yeast (Tom Clark)
+  homebrew cooking - stone-ground mustard (smurman)
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to homebrew`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to homebrew-request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`realbeer.com
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        hbd.org        /pub/hbd        
+        ftp.stanford.edu        /pub/clubs/homebrew/beer
+  E-mail...
+        ftpmail`at`gatekeeper.dec.com (send a one-line e-mail message with 
+                                   the word help for instructions.)
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 14 Nov 1997 19:22:15 -0800
+From: Jeffrey_Tonole`at`americancentury.com
+Subject: Hops Calculation
+
+
+
+
+WARNING:  Potentially stupid question ahead...
+
+
+I'm trying to convert an extract recipe to all-grain,
+and I'm kind of hung up on the hops part. Actually,
+it's a matter of gauging the amount of hops to use for
+a full-volume boil compared to a concentrated boil.
+
+
+Suppose I'm boiling 2.5 gallons of concentrated wort,
+which will be added to 2.5 gallons of water in the
+fermenter. Based on the specific gravity and boiling
+time of the concentrated wort -- and the amount of
+hops -- I can calculate (using Tinseth's formula)
+the BUs for the 2.5 gallons in the brewpot.
+
+
+Now, once I top this off with another 2.5 gallons of
+water, how do I calculate the BUs of the entire 5
+gallons? Is it really as simple as dividing by 2? Or
+is there some non-linear scale of BUs as you
+dilute your wort?
+
+
+(Once I have the BUs for this 5-gallon batch, I can
+use Tinseth's formula in reverse to calculate the
+amount of hops for a 5-gallon batch with a full-
+volume boil.)
+
+
+Private e-mail responses are fine; I can post a
+summary in the unlikely event there are others
+interested in this topic. Thanks in advance!
+
+
+jeff tonole
+SlothBrew
+Menlo Park, CA
+NB = 0, IQ = 0   :(
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 00:07:36 -0500 (EST)
+From: AllDey`at`aol.com
+Subject: Udder Clean, WST, lag period, High pH starters
+
+
+I received several responses to my query regarding using a product called
+Udder Clean as an inexpensive Iodophor substitute.  Most warned that these
+products tend to have lanolin and/or other products to soothe sore teats and
+would hence not be something desirable in a brew.  I checked the label and
+yup, lanolin.  There were no other dairy sanitation products available at
+that particular store except straight iodine (or at least highly concentrated
+iodine).  I did find an inexpensive phosphoric acid rinse that I think will
+work well as a rinse in my converted kegs.
+
+
+The recent WST thread prompted me to try one with my latest batch.  The
+baby-food jar full of wort was still malty and tasty after 4 days at 80F - so
+I guess I get an "A".  I found that a small coffee can inside a larger coffee
+can works well. Just put the baby food jar or whatever small vessel you use
+inside the small can and water and aquarium heater in the large can.
+
+
+All this recent talk about lag periods got me thinking we need a common
+language to define the end of the lag period.  I bet different folks have
+different conceptions/misconceptions. Is it the point where the first faint
+streaks of surface foam are evident?  A specific bubbling rate?  Solid foam
+cover? Does it need to be defined differently for lagers vs ales?  Comments? 
+
+
+I'm also interested in hearing some more discussion RE: high pH starters.
+ I've suspected my starters as the source of a couple lacto infections but
+couldn't put my finger on a specific break in sterile technique.  My water pH
+is 8.0 with a hardness of 218 ppm as CaCO3.  Would the high pH favor
+infection simply because the yeast are at a disadvantage due to suboptimal
+conditions? The bacteria "outgrow" the yeast?  This should be evident in
+starter performance - though almost all starters I've seen don't ever do much
+exciting. A few bubbles, cloudy, sediment on the flask bottom.  No rocky
+tops.
+
+
+Paul
+Cheyenne, WY    
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 09:21:01 -0700 (MST)
+From: Ian Smith <rela!isrs`at`netcom.com>
+Subject: Cabbage/vegetable smell in fermenter?
+
+
+I have just made an IPA/ESB as follows:
+
+
+Hugh Baird 2 row
+Chinook bittering hops
+EKG flavoring hops
+
+
+After counter flow chilling to 70 F I noticed a vegetable or cabbage like 
+smell eminating from the fresh wort in the carboy. Does anyone know what 
+this is? IMBR?
+
+
+Cheers
+Ian Smith
+isrs`at`rela.uucp.netcom.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 02:50:03 -0800
+From: Anthony Capocelli <acapocelli`at`pol.net>
+Subject: Re: Yeast Starter
+
+
+I smacked a pack of Wyeast Bohemian a few days ago and put it in a 45 -
+46 F attic and it was splitting it's seams within 24 hours so I went
+ahead a did a quart starter at the same temperature.
+
+
+Question to all: Should I allow my wort to chill to that temp (45 - 46F)
+before pitching the starter or is it alright to pitch around 60 F after
+force chilling and then placing the fermenter in 46F ???
+
+
+Happy brewing !
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 07:56:37 +0000
+From: "Forrest Duddles" <duddles`at`Imbecile.kzoo.edu>
+Subject: Dual-mode temp controllers
+
+
+Hi folks,
+
+
+ In HBD 2558 Michael Willits asks if temperature controllers are 
+available that will automatically heat or cool as needed to maintain 
+temperature in a chest freezer. 
+
+
+ There are several commercial controllers that would be suitable for 
+this purpose. There are some factors consider before using one 
+however. A two-stage control with two SPDT relays or switches in a 
+package similar to the Johnson A19 remote bulb controller is a common 
+form. The relay or switch outputs may be wired for two stages of 
+heating, two stages of cooling, or heating and cooling.
+
+
+ This type of controller tends to be pricey and lower cost units 
+generally have a fixed differential (deadband) between stages. More 
+expensive (and adjustable) units are often electronic with digital 
+displays. 
+ 
+ The major problem one is likely to encounter when using a heat-cool
+controller is interaction between modes. To illustrate this consider 
+a chest freezer with the compressor running and the temperature 
+dropping to setpoint. The compressor shuts off when setpoint is 
+reached but the temperature continues to drop as the refrigerant 
+pressures equalize in the system and the evaporator surfaces rise to 
+the temperature of the cabinet interior. This "flywheel effect" can 
+cause the freezer temperature to overshoot below the heating setpoint 
+and energize the heating element. This sets up a classic example of 
+short-cycling and can quickly destroy a compressor.
+
+
+ Careful setup is essential to prevent this. A wider deadband is 
+often required than is desireable and the temperature in the freezer 
+may vary. Commercial and laboratory equipment that maintain precise 
+temperatures commonly use sophisticated controllers and run the 
+refrigeration and heating units continuously, modulating the heating 
+source to achieve setpoint.
+
+
+ The most cost-effective and configurable controller to use for 
+brewing may be a design based on the Radio Shack thermometer module. 
+Greg Walz's design on the "Brewery" web site technical library should 
+work. I built one of these a couple of years ago (for use as a 
+waterbed heater controller :^) and it works great. A quick look at 
+the schematic suggests that it might easily be used for heat-cool if 
+the mode switch is removed and a second relay and transistor are 
+added.
+
+
+ The circuit board in my Ranco digital controller (ETC-111000) is 
+clearly marked for an additional relay and driver components. I 
+suspect that they offer it in a multi-stage model but I haven't been 
+able to get any info on it. I'll post to the group if I find any 
+details.
+
+
+Hope this helps!
+
+
+Forrest Duddles - FridgeGuy in Kalamazoo
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 02:58:22 -0800
+From: "Michel J. Brown" <homemade`at`spiritone.com>
+Subject: re: Kegs, Oxygen, etc..
+
+
+>Though it's not proven, Aluminum *has* been implicated in Alzheimers.
+
+
+Please *stop* spreading this unfortunate psuedoscientific mumbo-jumbo! This
+"research" was found to be one persons anecdotal quip to the synopsis of an
+ill fated and and refutable experiment where Aluminum ions where allegedly
+discovered in the substantia nigra of the human brain of Alzheimers
+victims. Real researchers have discovered that this is simply not true.
+Please stop spreading this disinformation, ok?
+
+
+                            Dr. Michel J. Brown, D.C.
+                                      homemade`at`spiritone.com 
+                   http://www.spiritone.com/~homemade/index.html
+                       "Big Man don't drink no stinking light beer!"
+                           "Big Man drink beer what got BIG TASTE!"
+                                       Big Man Brewing (R) 1996
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 07:49:46 -0800
+From: "Kevin F. Schramer" <humulus`at`megsinet.net>
+Subject: homegrown hops
+
+
+just like to comment on using homegrown hops....
+i recall this past summer someone on the digest said homegrown
+hops should just be grown as lawn ornaments and not used in
+homebrew...
+i am now proudly serving up an IPA brewed exclusively
+with homegrown hops and IMHO it is delicious.  The ale features
+mainly chinook (my biggest crop) and some cascade...sure i don't
+know the exact ibu....sure it tastes a little different than
+commercially grown....but it tastes nice and bitter and seems to
+have its own character (probably cause they're grown in the Chicago
+area)...if you arent growing hops i encourage you to try it...it's
+a fun side hobby that doesnt take a lot of time and the payoff is great
+(altho it takes acouple  years)....
+back to the taps
+kevinFschramer
+humulus`at`megsinet.net
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 10:31:03 -0500
+From: "Rick Snide" <Rick`at`RevolutionSoftware.com>
+Subject: Bubble-gum flavors
+
+
+Any suggestions on what causes a bubble gum aroma and flavor to a beer?  =
+I have had good success with a particular IPA (extract) brew but 2 out =
+of 8 have had this obnoxious scent & flavor.  Is this a known problem =
+that is correctable?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 10:35:24 -0500 (EST)
+From: RBoland`at`aol.com
+Subject: Entry Deadline is Drawing Near
+
+
+Calling All Brewers, Judges, & Stewards!
+
+
+The St. Louis Brews are holding their seventh annual Happy Holiday Homebrew
+Competition on Friday, December 12 and Saturday, December 13, 1997.  The
+competition is sanctioned by the AHA, registered with the BJCP, and part of
+the Midwest Homebrewer of the Year program.
+
+
+We invite all homebrewers to submit their beers and meads for evaluation by
+panels of experienced judges.  Our primary objective is to provide accurate,
+complete, and useful feedback to the brewer.  AHA style guidelines will be
+used with the addition of a Christmas Brau category with two subcategories.
+
+
+We also invite all BJCP registered judges and those interested in stewarding
+to assist us in evaluating the beers submitted.  Limited accommodations in
+Brews members homes are available; you can indicate your need on the
+Judge/Steward registration form.
+
+
+Our secondary objective is to have fun, and a good time will be had by all!
+ All judges, stewards, and spouses are invited to attend our Saturday holiday
+banquet and party as our guests.  
+
+
+Beers will be accepted by mail between November 20 and December 6.  Please
+visit our web site, www.stlbrews.org, for competition information and on-line
+registration or contact demmertp`at`thunder.safb.af.mil.
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 11:07:31 -0600
+From: Eric Pendergrass <eap`at`netdoor.com>
+Subject: lager yeast priming
+
+
+Thanks to everyone who responded a couple of weeks ago to my question
+about secondary transfer.
+
+
+The same batch I wrote about then, a Bohemian Pilsner, is now in the
+secondary after 2 weeks of fermentation at 46F.  After airlock activity
+leveled off I transferred to glass and am now lagering at 37F.  My OG
+was 1.040, and is now about 1.010.  My questions are these:  will the
+yeast (Wyeast Czech Pils) be sufficiently viable after 2-3 weeks of
+lagering at this temp to prime bottles?  Would it be safer to just
+assume not and pitch more yeast at bottling time, or am I just
+worrying?  At what temperature should I prime?
+
+
+- --
+ -Eric Pendergrass
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 12:17:13 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Linseed Beer,Too much gelatin, Pump placement,Shocking yeast,FWH
+
+
+Brewsters,
+
+
+Steve McKeon asks about using flax seed for brewing. Flax seed is also
+known as "linseed" and linseed oil (aka a drying oil used in making
+oil-based paints) is made from it . Not too tasty IMHO.  In any event, th=
+e
+high oil content of this seed as you described it would probably kill any=
+
+
+head on the beer even if you like the taste.
+- ----------------------------------
+Reader asks how to use gelatin and asks if there is such a thing as too
+much gelatin.  In short, yes, too much gelatin is a bad thing. 1) gelatin=
+
+
+is a protein and reacts with tannins from the hops as well as flocculatin=
+g
+yeast. This removes hop bitterness. 2) If way too much gelatin is added i=
+t
+will leave you with a cloudy beer.
+
+
+Proper way to use it, as it depends on the beer and the hop rate, etc., i=
+s
+to take several samples of the beer treat it with gelatin at various leve=
+ls
+and as with all clarifiers, check the samples in 24 hours and use the
+minimum amount that clarifies the beer.
+- -----------------------------------
+Ted Hull gives an excellent dissertation on pump cavitation and recommend=
+s
+placing the pump between the boiler and the chiller to avoid cavitation
+caused by frictional losses in the chiller.
+
+
+A couple of questions come to mind.  Doesn't the high temperature of the
+water on the boiler side cause cavitation moreso than the cooler side due=
+
+
+to the much higher vapor pressure of the hot water?  Also wouldn't the
+materials of construction  of the pump be happier at the cooler
+temperatures?  If I had a choice, I'd think the cooler the better.
+- -----------------------------------
+Charlie writes that he worries that putting the starter in the =
+
+
+refrigerator will shock the yeast. =
+
+
+
+
+Of course, that is the whole point.  They settle out that way and you can=
+
+
+pour off the starter beer before you pitch the yeast into the warmer main=
+
+
+wort and they take off.  I do this periodically when timing is a problem
+with no ill effects.
+
+
+Don't confuse this with rapidly chilling a fermenting wort and keeping it=
+
+
+there.  Noonan say that the minimum temperature drop per day is 5F (3C) t=
+o
+not shock the yeast so that they will keep fermenting at the lowered
+temperature.
+- ------------------------------------
+I got several private e-mails asking how I do FWH (first wort hopping)
+based on my comments about why I think it works.  I put the first clarifi=
+ed
+runnings into the boiler and add all the bittering hops and begin to boil=
+,
+adding the runnings and spargings as they become available.  After the la=
+st
+spargings are in, I boil for an hour.
+- ------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 12:20:42 EST
+From: dbgrowler`at`juno.com (Michael W Bardallis)
+Subject: Subject: Freezer Temperature Controllers
+
+
+Michael Willits wrote:
+
+
+ I'm trying to find information about temperature controllers for a chest
+
+
+freezer.  I'm looking for a controller that will control a cooling source
+and a 
+heating source at the same time.  I have searched previous digests and it
+seems 
+that the commercially available controllers will control either cooling
+or 
+heating (or just cooling), but not both.  I have also found plans for
+building 
+a suitable controller, but if there is a controller available pre-built,
+I 
+would rather go that route.  Thanks in advance for any help.
+
+
+Michael Willits
+Raleigh, North Carolina
+michael.willits`at`cp.novartis.com 
+
+
+Mike:
+
+
+I'm using an Omega CN9000A series temperature controller that I scavenged
+from a piece of medical equipment. It's double turbo overkill for my
+fridge, but the price was right. It supports heating/cooling,
+proportional control F/C, and a host of other functions. Output options
+include 5VDC drive for ssr, 1A triac, & relay contacts mix&match. It may
+be a bit pricey, though.... 
+Omega      Sales (800) 826-6342  Engineering   (800) 872-9436
+
+
+Temperateness sure beats temperance!
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 12:20:42 EST
+From: dbgrowler`at`juno.com (Michael W Bardallis)
+Subject: Subject: Brewing Flax?
+
+
+Steve McKeon asks,
+
+
+Recently, I have been thinking about brewing with flax.  For those of you
+that don't know what flax is, it's a small, dark, shiny grain.  Kind-of
+looks like a bug if you ask me.  I have acquired a spec sheet from a
+company
+that sells it and it says that the seed contains 43% oils (dry basis),
+40%
+protein and about 11% moisture.  It doesn't tell me about the amount of
+starch, does anyone know?  Is there anything to convert?  Has anyone
+tried
+brewing with flax as an adjunct?  Does it contribute anything?  Would the
+oils destroy my head retention?  I can't seem to find any article about
+it
+and believe me I've looked.  Thanks in advance to anyone who can answer
+these questions.
+
+
+Steve,
+
+
+The lack of starch means you could only use the flax as a minor adjunct,
+not a source of extract. Typically, grains with as little as 5% oils are
+considered to be too oily for brewing. You, however, are a homebrewer,
+and can experiment with whatever moves you (ain't it great?). Hopefully,
+the bulk of the oils will separate and form a slick on top of your
+primary ferment, which you could then siphon your beer out from under.
+Charlie P's "Slanting Annie's Chocolate Porter" uses this technique to
+separate the cocoa butter. Have fun!
+
+
+Mike
+
+
+"How I wish I was in Sherbrooke, now!"
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 10:38:50 -0800
+From: Jim Anderson <jander`at`xmission.com>
+Subject: HBD Donations
+
+
+Mike Spinelli wrote in HBD 2558:
+
+
+> I for one can't think of a more worthy cause than the perpetuation
+> of the HBD.   Having had the luxury of reading it almost daily for the
+> last 3+ years  without having to pay a single cent, I think it's time
+> to give back something..
+
+
+I've been thinking of posting on this topic for several days now, but
+I'd already endangered my lurker status a couple of weeks ago.  Oh well.
+
+
+My personal impression of Pat is that he's much too reserved (please
+limit laughs and guffaws to a maximum duration of 5 mins.) to make a big
+deal out of requesting donations.  I figure him to throw it out there
+just once and then let the chips fall where they may.  He won't beg.
+
+
+I look at it this way: I've subscribed to several brewing magazines and
+have invested at least a coupla hundred bucks in a brewing library.  In
+my two short years of brewing, though, my single best source of
+information has been right here in HBD.  What's it worth?  Decide that
+for yourself.  For me, my paltry donation borders on an insult.  (Pat,
+there's something to be learned here: try to time this type of thing so
+that it doesn't conflict with Christmas shopping! <g>)
+
+
+Let's none of us forget the close call we had with the AOB circle-jerk
+either -- we came mighty close to losing the HBD altogether.
+
+
+ESPECIALLY my fellow lurkers: C'mon, please, stop and think how valuable
+this resource really is to you.  Email Pat at pbabcock`at`oeonline.com and
+offer your help.  This ain't for HIM -- this is for all of us!
+
+
+  - Jim
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 16:03:34 -0500 (EST)
+From: Some Guy <pbabcock`at`oeonline.com>
+Subject: Donations stuff...
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+I just wanted to pop a note off thanking those who are rushing to 
+support the HBD, and those writing to urge others on. You're right: I 
+feel a bit uncomfortable asking for donations, and will generally make 
+only one appeal. 
+
+
+And, I also apologize for the timing of the request.  Don't feel bad if
+the holiday crunch prevents you from donating if donating is what you 
+wish to do. The only reason for the timing is that, generally, the 
+holiday season is the only one during which I am able to physically 
+access the server.
+
+
+Be sure to visit the Home Brew Digest web site to see who's donating 
+(pick Donors from the menu) and see where we stand in our accounting for 
+this upgrade (pick Accountability). 
+
+
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`oeonline.com
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org   
+The Home Brewing Page              http://oeonline.com/~pbabcock/brew.html
+Harvest THESE: president`at`whitehouse.gov vice.president`at`whitehouse.gov 
+               consumerline`at`ftc.gov 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 16:43:53 -0600
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: Spots
+
+
+No matter how I try, I have never been able to clean my racking hose and
+dry it without seeing spots inside.  
+I tried soaking in TSP, running hot water through after, and still I see
+spots when the hose is finally dry.
+Haven't had any infection problems yet, but this has always bothered me.
+I think I finally have come upon a solution.
+
+
+I am currently taking a wine class from a retired chemist/winemaker.
+During the class I just happened to ask him
+about this problem and he said oh - just use a small amount of alchhol
+after cleaning the hose and shake to distribute, then
+drain.
+
+
+Wow! Total success.  The hose dries in a few seconds with no water
+droplets and no stains.
+
+
+Happy Brewing
+
+
+Ron 
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 13:31:59 -0800
+From: Richard Soennichsen <richas`at`pacbell.net>
+Subject: Bad Beer  (update)
+
+
+Thanks to all who took an interest in my plight.
+        Well I have brewed aaaggggggaaaiiiiinnnnn  in another atempt at a non
+nasty brew.  Here are the changes made during this session:
+
+
+New equipment:
+
+
+All tubing
+racking cane
+bottler
+DME for starter
+
+
+New procedure:
+Cleaned and boiled ball valve (off kettle)
+used iodophor exclusively w/no rinse
+switched yeasts (W-1056 to Caligornia Lager)(ale to steam!)
+checked mash ph (5.2-5.6)
+did not use not not-so-pretty slotted tube in lauter tun (used clean
+plastic false bottom)
+Decanted wort off yeast starter.
+Sanitized wort chiller BEFORE boiling for 10
+made sure sparge temp was at or below 168
+sparged a little faster
+no hopping at 0 min(my own paranoia)
+wrapped primary in wet towwel to drop temp a degree or two
+
+
+
+
+In addition to these changes I have samples in sterile containers from:
+
+
+sterter wort sans-yeast
+cooled yeast-less wort
+inoculated wort
+
+
+I am watching these and will taste at a later date looking for infection.
+
+
+
+
+Cheers
+
+
+Rich
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 21:51:53 -0500
+From: Tom Clark <rtclark`at`eurekanet.com>
+Subject: Sanitary Tubing
+
+
+An idea I came up with perhaps others can use....(they may already)
+
+
+When not using my various pieces of vinyl tubing, I simply draw a bit of 
+sanitizing solution through the tubing then join both ends with a short 
+piece of rigid tubing (a piece of old racking cane).   Next time I need 
+to use it, it should be relatively free of any unwanted microbes.
+
+
+Tom
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1997 21:44:35 -0500
+From: "Michael E. Dingas" <dingasm`at`worldnet.att.net>
+Subject: RE: SG:Volume relationship
+
+
+Jeffrey M. Kenton  asked about the change in volume due
+to boil and change in SG due to boiling. Here is a table from The New =
+Complete Joy Of Homebrewing (page 381) for adjusting a 5 gallon batch..
+
+
+For S.G. 1.035 - 1.048
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D
+05% ( .25) More water decreases SG by .001
+15% ( .75) More water decreases SG by .005
+30% (1.5 ) More water decreases SG by .010
+50% ( 2.5) More water decreases SG by .016
+
+
+For S.G. 1.048 - 1.053
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D
+05% ( .25 ) More water decreases SG by .002
+10% ( .50 ) More water decreases SG by .003-4
+25% (1.25) More water decreases SG by .010
+30% (1.5  ) More water decreases SG by .011
+50% ( 2.5 ) More water decreases SG by .017
+
+
+For S.G. 1.055 - 1.060
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D
+05% ( .25 ) More water decreases SG by .002
+10% ( .50 ) More water decreases SG by .005
+25% (1.25) More water decreases SG by .012
+30% (1.5  ) More water decreases SG by .014
+50% ( 2.5 ) More water decreases SG by .018
+
+
+As stated in the book, "The rate of dilution and the change in specific =
+gravity are not the same for various densities."
+
+
+Mike
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 97 13:46:45 UT
+From: "Raymond Estrella" <ray-estrella`at`classic.msn.com>
+Subject: Grain storage, Belgian yeast, my sig line.
+
+
+  Hello to all, 
+Janssen Skylard asks,
+
+
+>I'm an extract brewer and use specialty grains often.  I now have a good
+>supply of extra grains.  I store them in individual ziploc bags and then 
+>into one large ziploc kept at room temp. in the closet. Is there a better 
+>way to store them? How long will they safely keep before I have to trash 
+them?
+
+
+ I just checked, and I have 13 types of specialty grains, and 6 kinds of
+base malts. The base malts I keep in 6 gallon plastic pails, with air-tight
+lids. The specialty grains I keep in either 1 gallon distilled water jugs, 
+which
+hold 4 pounds, or the wide mouth moisture proof jugs that clumping cat litter
+comes in.  They hold 10 - 12 pounds. (Save the cracks about cat crap please)
+Using jugs makes it a little easier to measure out, and see what you have, 
+or need. Grain that is kept dry should keep over a year, although I have no
+hard data on extract potential loss with aging.  Anybody?
+
+
+ Jeremy says,
+>I am preparing to brew my first Belgian triple, and I would like some
+>advice on what yeast to use. I have been considering just breaking down 
+>and using one of the Belgian strains from wyeast (Either Belgian ale (1214) 
+>or Belgian Abby II (1762)) Can anyone give me an idea as to which strain 
+>gives a better flavor profile. 
+ 
+  I do not know about 1214, but I used 1762 in three brews last year. (Triple, 
+
+
+Dubbel, single) I was very happy with the results. It does not give a phenolic
+character to the ales. It gives  bubble-gum and banana contributions, and a
+what my wife describes as a buttery finish. (Very noticeable in the lower 
+gravity
+brews) I am going to plate it out this year and keep it on hand.
+
+
+  And finally, Alan says,
+
+
+>Ray Estrella writes:
+>> ******** Never relax, constantly worry, have a better homebrew. ********
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+>>'cause your gonna NEED it, buddy!
+>OK, here's mine:
+>"Relax whenever possible, worry ONLY when you have to, and STILL have
+>a better homebrew!"
+>-Alan (a recovering anal-retentive)
+ 
+  I have been mis-understood by my sig line many times.  I am not AR. (Doesn't
+my wife wish though)  When I first started brewing I read everything I could 
+get
+my hands on. Millers (at the time) two books, Moshers, Noonen, and a bunch of 
+mags.  Then I was told " You have got to read Papazian, he's the God."  So I 
+get 
+TNCJOHB and read it in one evening. I have never looked at it since. The next
+time I went in to my favorite HB shop I told them that I was the anti-Charlie.
+Hence the saying/sig line.  Do you think I can get it on some bottle caps?
+
+
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 10:00:51 -0500 (EST)
+From: GMuel38838`at`aol.com
+Subject: Cyser Fermenation/100% Apple Cider?( Greg Mueller)
+
+
+I've been reading alot about slow and non-existent fermentations of Cyser.
+I've seen alot of brands of cider claiming to be 100% Apple Cider, but after
+reading the ingredients, chemicals are sometimes added, mainly Potassium
+Sorbate. How can companies get away with claiming something is 100% when its
+not?  Should this be a FDA issue?
+
+
+Speaking from past experience, if potassium sorbate is present, the cyser
+will not ferment. In a past batch, I used a quart starter, 1 dry packet, and
+finally a full gallon of slurry...after 2 weeks NADA.
+
+
+When buying commerical cider, you must look for words like "100% Natural" and
+NO PRESERVITIVES. Also, look for an expiration date, if its in the year 2000,
+you can bet it's loaded with Sulfites/Sorbates.
+- -----------------------------
+Beer is proof that God loves us and wants us to be happy.
+ --Benjamin Franklin
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 11:13:58 -0500
+From: Richard Johnson <Ricjohnson`at`SURRY.NET>
+Subject: Brass ball valve
+
+
+I wish to install a brass ball valve in my brewpot.  I went to a plumbing
+supply and the clerk told me the heat from my propane cooker would melt the
+nylon fitting inside the valve. I know this can be done I've seen them.  I
+need tips on how to do this.  Also do I weld it on or is there one I can
+screw in with gaskets that can take the heat?
+
+
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 16:22:40 -0500
+From: Jim Bentson <jbentson`at`htp.net>
+Subject: Cooking Pumpkins(small??), All grain vs Extract
+
+
+Hi All
+
+
+ Have been away for two weeks and just catching up. I found a number of
+references to "smaller" cooking pumpkins vs jack-o-lantern types. On Long
+Island the "cooking" pumpkins that I used this year were 23 lbs! Last years
+log shows a weight of  14 lbs They obviously come in all sizes. The main
+distinction is the orange-tan color.  These  are called "cooking", "baking",
+"neck" , "cheese" depending on which farm stand I buy them at. After baking
+to soften I freeze whatever I dont use for a later batch. This way I can
+make batches for months after the pumpkin's stop being available.
+
+
+ Have tasted this years batch of pumpkin ale  (the full volume boil one ,
+now  6 weeks in the bottle) and it is quite good but right now a little
+heavy on the cloves. From experience this will smooth out in a few weeks.
+The color is the same clear bright amber-orange color I got last year. A
+gorgeous beer with a thick pure white head.
+
+
+BTW  I have commercial brewing experience and generally brew all grain , but
+I  would not brew this beer any other way than the extract recipe. I have
+helped produce a commercial brew-pub's all-grain equivalent and can't tell
+the difference.It certainly is less work as an extract recipe.  Personally,
+I think that the extract vs all-grain thread is 'beer politics'. Just as I
+have gotten bad extract (oxidized) I have also gotten some badly malted
+chocolate grain that ruined two batches (strong burnt flavor -  I should
+have tasted the ground malt!). I rarely know any more about my grains than
+about the extract'sthat  I use when brewing favorite extract based recipes. 
+
+
+IMHO , just as is the case in cooking, the quality of the ingredients and
+the experience of the brewer have more to do with the end result than the
+method of production. The only point in favor of all-grain is that it is
+probably easier to get "fresh" grain than "fresh" extract.
+
+
+Jim Bentson
+Centerport NY
+- --
+Registered ICC User
+check out http://www.usefulware.com/~jfoltz
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 17:40:25 -0500 (EST)
+From: KennyEddy`at`aol.com
+Subject: Lefebvre Brussels White
+
+
+Anyone know if the sludge in a bottle of Lefebvre Brussels White (Quenast,
+Belgium) is the fermentation yeast?  AlK said last week:
+
+
+"Except for Orval (which is bottled with a blend of five yeasts), I don't
+know of any other Belgian brewers who use a *different* yeast for bottling
+than they did for fermentation."
+
+
+Al, are you familiar with this particular brew?
+
+
+*****
+Ken Schwartz
+El Paso, TX
+KennyEddy`at`aol.com
+http://members.aol.com/kennyeddy
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 16:43:22 -0600
+From: Jim Graham <jim`at`n5ial.gnt.com>
+Subject: brewing-related software?  ... plus 5L mini-kegs comments
+
+
+Before I re-invent the wheel, does anyone know where I can find some
+good brewing-related software that's either Unix-based, in source code
+form (i.e., something that I can compile on a Unix machine) or written
+in a portable scripting language like Perl, Tcl (with or without Tk),
+etc.?  I'm basically looking for a tool, or better yet, a combination
+of tools (which I can then wrap into one system with Tcl/Tk) that will
+do the following:
+
+
+   * Keep computerized records of past brews (recipe, dates, and
+     basically all of the vital statistics for an extract brew)
+   * Print labels (pref. plain-text labels on mailing-label strips)
+   * Do various calculations such as hop utilization given a
+     certain amount of malt extract per gallon of water in the boil,
+     IBUs from the above, estimate original gravity based on the
+     amount of malt extract used, and so on....
+   * ???  (any other ideas here?)
+
+
+If I can't find something, I can probably roll something out with Tcl/Tk,
+but the first item tends to put it into the database category, which,
+frankly, has always scared the h*ll out of me when it comes to writing
+any programs (remember, I'm a network design guy who just happens to be
+able to do some limited programming...not a real programmer!).
+
+
+Suggestions?
+
+
+Also, while I'm here, just a quick comment on the 5L mini-kegs I'd asked
+about a few months ago.  I've been using them for a while now, and am
+generally very happy with them...at least, with one tap (but it's *NOT*
+the one I'd expected to have problems with!).  I have two taps.  The
+first one I bought was the Beer King (plastic, less expensive).  I've
+had *NO* problems with this tap.  The second tap is the Party Star Deluxe
+(metal, more expensive).  I've had no end of trouble with this one (the
+beer is often flat one day after tapping the keg---particularly in cases
+where the keg is moved around after tapping).  Hopefully, keg lube (which
+I have on order) will solve this problem---I gather it's supposed to help
+get a better seal....
+
+
+Oh, one other comment....  To anyone considering the use of the 8g CO2
+cartridges instead of the 16g, forget it.  I typically get about two
+kegs per 16g cartridge, but when I tried the 8g cartridges, I ended up
+using about 3--4 cartridges *PER KEG*.  Needless to say, I don't think
+they're getting a very good seal....  Fortunately, I only have one left
+to use (might as well, right?), then they're ancient history.
+
+
+Later,
+   --jim
+
+
+- -- 
+73 DE N5IAL (/4)               MiSTie #49997         < Running Linux 2.0.21 >
+jim`at`n5ial.gnt.net || j.graham`at`ieee.org  ICBM / Hurricane: 30.39735N 86.60439W
+Jack:   DS B+Bd+O+W Y+G 2 Y L W C+ I+++ A++ S V+ F- Q++ P++ PA PL-- SC++++
+Shadow: DS B+C Y+B 2 Y L++ W+ C+ I+++ A++ S+ V-- F+++ Q++ P++ PA++ PL+ SC++++
+
+
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 19:19:15 -0600
+From: "Charles L. Ehlers" <clehlers`at`flinthills.com>
+Subject: Re: Wyeast Lager strains and higher fermentation temps
+
+
+Dave,
+  I use Wyeast for all lagering and some ales.  Because I use a refrigerator
+w/ freezer, and still use the freezer, I have to rely on the  refrigerator's
+thermostat to control the temp.  No matter how low I set the temp control
+for the freezer, the temp doesn't drop below 45 degrees F.  It usually hangs
+around 42 degrees F.
+  I've always lagered very successfully, in spite of what Wyeast publishes
+as the temp ranges (I use a calibrated refrigerator thermometer to track the
+temp.)
+  I've used the following:
+2007 Pilsen
+2035 American
+2124 Bohemian
+2272 North American
+2278 Czech Pils
+  As I said, the "warmest" I can get the fridge is 45 degrees.  I've pitched
+and placed in the fridge immediately, and have had active fermentation in 18
+hours.
+  Lately, I've been pitching and letting sit at room temp until there's and
+active fermentation, always w/in 12 hours, usually less, then putting in the
+fridge.
+  Because I can't precisely control the temp, I can't lager as Noonan
+prescribes.  I generally do a primary at 42-45 degrees.  And then do a
+secondary around 35 to 40 degrees.  The length of the primary and secondary
+varies depending on the activity and subsequent clarity of the brew.
+  Never entered any of these in a competition (have never entered ANY brew
+in a competition--too lazy) but have always had high praise from anyone
+who's tasted, including members of the local home-brew club.
+  Anyway, Wyeast WILL ferment below their optimum temps.
+Charles Ehlers
+
+
+
+
+
+
+
+
+<<Date: Wed, 12 Nov 1997 12:26:14 -0800
+From: "Riedel, Dave" <RiedelD`at`dfo-mpo.gc.ca>
+Subject: Wyeast Lager strains and higher fermentation temps
+
+
+It looks like my cellar temperature will drop to about 56-58F over the
+winter.  Wyeast lists the following fermentation ranges:
+
+
+2124 Bohemian 46-54 F
+2206 Bavarian 48-58 F
+2278 Czech Pils 48-68 F
+2308 Munich 48-56 F
+
+
+Note: the *optimum* temperatures are listed as 48-50 F.
+
+
+In light of the recent post by Jeff Renner citing some examples of lager
+ferments of 58 and 60 F, I've been contemplating doing a
+series of lagers (by repitching one initial package of Wyeast).>>
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 22:02:13 -0500
+From: Pete and Kris Stelter <pkstelt`at`wsii.com>
+Subject: Pectin Enzyme
+
+
+Today I made a cider recipe out of the Homebrewer's Recipe Guide.  The 
+recipe called for 2 tsp. of pectin enzyme.  All my homebrew store had 
+was a pectic enzyme solution.  The directions on the bottle said use 1/4
+tsp for 5 gallons.  Not knowing the effects, I used 1/4 tsp.  My questions:
+
+
+1) What is the difference between pectin and pectic enzymes?
+2) Did I add the correct amount?
+
+
+The recipe in question is the "Falling Leaves Autumn Cider" on page 145.
+
+
+Respond to: pkstelt`at`wsii.com or stelterp`at`swos.navy.mil
+
+
+Thanks.
+Pete Stelter
+Newport, RI
+
+
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 22:42:33 -0500
+From: Tom Clark <rtclark`at`eurekanet.com>
+Subject: Yeast
+
+
+Hey you biologists out there,
+
+
+How much magnification does it require to look at yeast through a cheap 
+microscope?  I happen to have an inexpensive microscope but don't know 
+really what is required.  (I am pretty ignorant about biology but I 
+still make some pretty good beer by following advice from guys like you.
+
+
+Thanks for the help.
+
+
+Tom
+
+
+
+
+------------------------------
+
+
+Date: Sun, 16 Nov 1997 20:34:06 -0800
+From: smurman`at`best.com
+Subject: homebrew cooking - stone-ground mustard
+
+
+
+
+In todays issue of cooking with smurman we're going to make
+stone-ground mustard.  Those fancy mustards you see in the store are
+basically mustard and vinegar, bringing their total production cost to
+about one nickel.  Nice profit.
+
+
+Anyway, the first thing to do is get some coarse-ground mustard.  Many
+bulk food stores will sell yellow and brown mustard seeds.  You'll
+need to grind these somehow.  I have a $10 electric grinder that I use
+for spices.  You could probably get by with a rolling pin for coarse
+grinding.  You don't really want to use mustard powder for this
+recipe.  If you have a coffee grinder, you can use that on a
+medium-coarse setting.  To clean the grinder afterwards, you can add
+some white rice and grind that up.  The rice will remove most of the
+mustard residue and leave no flavor.
+
+
+1/4 cup yellow coarse-ground mustard
+1/4 cup brown coarse-ground mustard
+1/2 cup homebrew (hoppy brews work well for this recipe)
+1 tbsp. apple cider vinegar
+
+
+In a saucepan, combine the mustard, beer, and vinegar and heat at the
+lowest setting.  Stir the mustard into the beer, then cover and let
+simmer for about 15 minutes.  Stir occasionally to prevent sticking.
+
+
+Raise the heat and add
+1 tbsp. sugar
+1/2 tsp. salt
+
+
+Let this mixture thicken and bubble for about 5 minutes.  Don't crank
+the heat all the way up though, just get a nice bubble going.  Don't
+worry if it's not thick enough right now, when it cools it will
+thicken up.
+
+
+That's it.  You can use the sauce warm as a glaze for fish or chicken,
+or you can pour it into some jars and store in the fridge.  It should
+make about two small mustard jars worth.
+
+
+Freshly made mustard it's a lot spicier and more flavorful than you're
+used to if you've never had it.  The flavor will reduce after about
+3-5 days, but it's still better (and cheaper!!) than store-bought.
+Enjoy. 
+
+
+SM
+
+
+------------------------------
+End of HOMEBREW Digest #2559, 11/17/97
+*************************************
+-------

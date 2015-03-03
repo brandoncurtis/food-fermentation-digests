@@ -1,0 +1,1508 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id AAA15869
+        for <spencer`at`srvr5.engin.umich.edu>; Thu, 21 May 1998 00:59:50 -0400 (EDT)
+Received: from stayhungry.rs.itd.umich.edu (stayhungry.rs.itd.umich.edu [141.211.83.42])
+        by srvr22.engin.umich.edu (8.8.8/8.8.8) with ESMTP id AAA01602
+        for <spencer`at`engin.umich.edu>; Thu, 21 May 1998 00:59:49 -0400 (EDT)
+Received: (from root`at`localhost)
+        by stayhungry.rs.itd.umich.edu (8.8.5/2.5) with X.500 id AAA24034; Thu, 21 May 1998 00:59:49 -0400 (EDT)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by stayhungry.rs.itd.umich.edu (8.8.5/2.5) with ESMTP id AAA24019; Thu, 21 May 1998 00:59:45 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA25272 for realhomebrew; Thu, 21 May 1998 00:20:53 -0400
+Date: Thu, 21 May 1998 00:20:53 -0400
+Message-Id: <199805210420.AAA25272`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2719 (May 21, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2719                             Thu 21 May 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  RE: incuctive heating and RIMS (LaBorde, Ronald)
+  Re: Dangers of under pitching (Scott Murman)
+  RE: Primary Control/Flavor Kits/Sulfur (LaBorde, Ronald)
+  Re: Converting grain to extract (brian_dixon)
+  Yeast pitching rates (John Wilkinson)
+  Rhubarb ("David Johnson")
+  Home malting (Jorge Blasig - IQ)
+  Re: AHA competition question (Scott Braker-Abene)
+  Wort pumps to handle boiling ("Mark S. Johnston")
+  RE: SS Cleaner ("Capt. Marc Battreall")
+  March Pump (Jeremy Bergsman)
+  re:Pin Lock Keg Woes (Phil Tully)
+  Pumps; fruit flies; close-out (Samuel Mize)
+  Re: Pin Lock Keg Woes (Ted Major)
+  Re: BW in kegs, all-grain monsters (Steve Piatz)
+  Re: pumps (Joe Rolfe)
+  Dangers of contamination: dry vs. liquid yeast (Matthew Arnold)
+  Fruit Flies, Temp Control, Label removal ("Peter J. Calinski")
+  More yeast pitching (George_De_Piro)
+  RE: Wort Pump & boiling temps (LaBorde, Ronald)
+  RE: Starting the starter (LaBorde, Ronald)
+  RE: electrocution (LaBorde, Ronald)
+  SILENCE! or Defending my Honor (EFOUCH)
+  Delta-T revisited (stencil)
+  steam injection pointers (Mike Spinelli)
+  Liquid Decoctions ("Andrew Avis")
+
+
+
+
+BURP's Spirit of Free Beer competition is June 6-7 and entry information
+is available by contacting Jay Adams (adams`at`burp.org).
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 19 May 1998 15:57:09 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: incuctive heating and RIMS
+
+
+>From: "S. Wesley" <Wesley`at`maine.maine.edu>
+
+
+>Transformers are generally engineered to maximize the mutual 
+>inductance of the primary and secondary coils. This is accomplished by 
+>closely interwinding the primary and secondary coils around a laminated
+
+
+>soft iron core to minimize losses due to eddy currents and hysteresis.
+
+
+Some are, some aren't.  Many transformers are made with entirely
+separate winding coils, the typical transformer will have the primary
+coil wound first nearest the core, then the secondary winding on top of
+the primary.  On a step down transformer, the primary wire diameter is
+smaller than the secondary, and it calculates out such that less wire is
+needed with this arrangement.  The esoteric designs you mentioned are
+generally for high frequencies, not 60 Hz.
+  
+>Any attempt to rewind the coil of the secondary around a pipe will 
+>dramatically weaken the coupling between the primary and secondary
+>coils 
+>dramatically reducing the efficiency of the transformer.
+
+
+The coil of the secondary is not wound around the pipe, the pipe IS the
+secondary.  As long as you stay within the core, all is well, if the
+windings are loose, electrically it still doesn't matter.  It will
+mechanically chatter and vibrate like crazy though.
+
+
+>If anyone really wants to try this you might find it 
+>significantly more effective to use a variac (Variable transformer) to 
+>step the voltage down.  The output of the Variac can then be connected
+to 
+>the an induction coil wound around the pipe.
+
+
+If I understand your design, the variac would replace the transformer,
+allowing a low voltage - high current feed to the RIMS coil.  Can you
+imagine the size of a high amperage variac?  You would need an airplane
+hanger to house it.
+
+
+>Keep in mind that if you are doing this in a metal pipe the 
+>metal is a much better conductor than wort so you may wind up 
+>transferring more power to the pipe than the wort.
+
+
+This is exactly what we want.  We want to power the pipe (RIMS chamber)
+with an induced magnetic field that will cause the shunted pipe's
+electrical resistance losses to manifest as heat throughout the pipe!
+
+
+>I rather suspect that 
+>you will find that the losses due to resistive heating in the induction
+
+
+>coil and in the variac (Which is not nearly as efficient as a regular 
+>transformer) will make this a very inefficient process overall.
+
+
+You suggested the variac.
+
+
+>Has anyone here ever heard of the KISS principle? :) 
+
+
+Awh, that's no fun!
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 May 1998 14:15:08 -0700 (PDT)
+From: Scott Murman <smurman`at`best.com>
+Subject: Re: Dangers of under pitching
+
+
+>      As a really quick note, the easiest way to guess at your pitching rate 
+>      is to follow this rule:  never step up the volume that the yeast get 
+>      pitched into more than 10 fold when making ales, and closer to 5 fold 
+>      for lagers.  In other words, if you are making 5 gallons (19L) of ale, 
+>      pitch at least 1/10 that volume yeast starter (0.5 gallon (1.9 L)).  
+>      Aerate well.  You will experience short lags, fast fermentations that 
+>      don't stick, and you'll have happy yeast to harvest.
+>      
+>      George De Piro (Nyack, NY)
+
+
+Yeah, what he said.  Only I'd consider those *minimum* guidelines.
+(see, George and I do agree on some things).
+
+
+Since I've been reading the HBD, I've always been struck by what I
+term an inverse attention disorder.  Folks seem to spend 90% of their
+attention worrying about 10% of the process.  I'm not saying everyone
+is guilty of this, but many will worry about predicting their IBUs to
+4 significant digits, or keeping their mash temperature within 0.1F of
+target, or whether they should add another 1% of Munich to their
+grist, but then they'll pitch a one pint starter that they worked up
+the night before, and stick it in a closet to ferment at
+goodness-knows-what temperature.
+
+
+The yeast is responsible for almost everything good (and often
+everything bad) that comes out of beer, and IMO, it should be the
+absolute number one priority in brewing.  No matter whether you're
+using kits, partial mashing, or on a 30 bbl. system, you can get the
+best improvement in your brewing by paying more attention to your
+yeast.  They deserve it.  Build them their own little room.  Spend $$
+buying them neat toys.  Make pagan offerings to them.  Then when your
+S.O. and party guests comment on how much they like your latest brew,
+you can bask in the glow and take all the credit (and then you better
+get back to brewing, because the ungrateful bastards will drink all of
+your best beer).  Once you've got your yeast consistently happy and
+healthy, then you can really start to experiment with different parts
+of your process.
+
+
+I know this sermon is old hat for many, but I don't think it can be
+repeated enough.
+
+
+</dismount soapbox>
+
+
+SM (working up a barleywine BBQ sauce recipe before I head to Europe)
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 May 1998 16:24:28 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: Primary Control/Flavor Kits/Sulfur
+
+
+>From: AJ <ajdel`at`mindspring.com>
+
+
+>Wim wrote about making a RIMS heating tube section the secondary of a
+>transformer. While this is conceptually a fine and very interesting
+idea
+>I'm not sure I'd advocate it...... 
+>
+>...............Also, the secondary is almost shorted
+>in this application thus the primary will look like an extremely low
+>impedance to the mains and there is probability that the primary will
+be
+>destroyed.
+
+
+The more I think about this, the more I believe you are right AJ.  Upon
+first hearing about using the chamber itself as the secondary, well, I
+was charmed.
+
+
+The problem I think, and as you may have already understood is that to
+get enough heat transfer surface, one would need several turns inside
+the core, and this would dictate the turns ratio.  The ratio would be
+too small causing enormous power draw from the transformer - much too
+much for any reasonable size unit.
+
+
+No, I will stick to my original design, to use a single or several turn
+secondary, connected by large conductors (welding cable) to the RIMS
+chamber that can be as long as needed for heat transfer to the wort.
+The chamber need not be a coil at all.  It may be simply a length of
+straight stainless pipe.  This way, the transformer design will not be
+constrained by chamber geometry.
+
+
+I am growing weary thinking about all this, so I will probably go on to
+the next RIMS design - let's see, hmm, microwave oven, 750 watts, seems
+good, high temp plastic tubing RIMS chamber, seems good, stuff into
+oven, seems good, now for those pesky radiation leaks...
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 May 98 14:43:19 -0700
+From: brian_dixon`at`om.cv.hp.com
+Subject: Re: Converting grain to extract
+
+
+     >Is there a formula for converting the amount of extract necessary to
+     >replace a measurement of grain? For instance, if a recipe calls for 2
+     >pounds of Laaglander malt, can I replace that w/1 pound of Laaglander
+     >malt extract?
+     >
+     >Thanks!
+     >- -- 
+     >Mike Beatty
+     
+     If what you are really trying to do is to convert an all-grain recipe 
+     to an extract-based recipe, then I highly recommend (I'm the author) 
+     the article on recipe conversion in the latest issue of 
+     BrewingTechniques magazine.  It'll provide a lot more info than just 
+     how to convert the base malt, including converting specialty grain and 
+     adjunct amounts, hop amounts, the expectations you should have for 
+     such a conversion, and the challenges involved in doing a good job of 
+     it.
+     
+     But if you are just looking for a simple conversion of the base malt 
+     (grain) to an equivalent amount of extract, then the answer is "Of 
+     course!"  But you'll need a little more information first:
+     
+     1. The maximum theoretical yield of the grain you will be using.  
+     Sometimes available via the distributor or manufacturer.  Typical for 
+     2-row would be 37 points per pound.
+     
+     2. Your extraction efficiency for your mashing system, e.g. most home 
+     brewers have efficiencies from around 65% up to around 93% or so.  It 
+     varies a lot from brewer to brewer so you really need to know what 
+     _yours_ is.
+     
+     3. The yield of the extract that you are replacing.  Also sometimes 
+     available from the manufacturer.  Also may be available from the 
+     BrewingTechniques Market Guide (see 
+     http://www.probrewer.com/marketguide.html).  Typical for dry malt 
+     extract is about 44 pts/lb, and for liquid, 36-37 pts/lb.
+     
+     
+     Now for the formulae (it takes a couple of steps):
+     
+     Step 1) Points provided by malt
+     
+     Pts from malt = (lbs malt)*(max. theor. yld)*(your efficiency)
+     
+     
+     Example: Given 6 lbs American 2-row at 37 pts/lb (max. theoretical 
+     yield) and an extraction efficiency of 70%, here's how many points are 
+     produced by the malt:
+     
+     Pts from malt = 6 lbs * 37 pts/lb * 0.70 = 155.4 pts
+     
+     
+     Now you need to provide this many points with _extract_ so the 
+     contribution will be the same.  The formula is simple:
+     
+     
+     Step 2) Pounds of extract required
+     
+     Lbs Extract Req'd = (Pts from malt) / (extract pts per lb)
+     
+     
+     Continuing the example, and assuming dry extract at 44 pts/lb:
+     
+     
+     Lbs Extract Req'd = 155.4 pts / 44 pts per lb = 3.5 lbs of extract
+     
+     
+     
+     Good luck!
+     Brian Dixon
+     
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 May 98 16:45:56 CDT
+From: jwilkins`at`wss.dsccc.com (John Wilkinson)
+Subject: Yeast pitching rates
+
+
+If the correct pitching rate for a lager is 400 ml per hectoliter (26.42 gal.)
+for a 1.048 wort and for an ale is half that, then, by my calculations, the
+correct rate for 9 gallons of 1.053 wort would be about 150 ml for lager and
+75 ml for ale or about 2 1/2 US ounces.  I recently brewed 9 gallons of
+1.053 OG ale and pitched a yeast slurry that was almost 1 inch thick at the
+bottom of a 1 gallon jug.  The jug was about 6 inches in diameter.  By my
+calculations that should have been about 15 ounces of yeast solids.  Even
+allowing for error of estimation of the thickness of the yeast, walls of the
+jug, non-flat bottom of the jug, and trub in the yeast, I would think I
+would have had at least 7 ounces of yeast.  I pitched this yeast in an
+essentially unaerated wort as I had read Tracy Aquilla's article in BT.  The
+only aeration the wort received was in running it from the CF chiller to the
+fermenter.  I fermented at about 63-64F for two weeks and had a final SG
+of 1.020.  The yeast was Wyeast 1968, by the way.  I have come to expect at
+least 75% apparent attenuation with 1968 when the wort is well aerated and
+with fermentation temps in the low 60's.  I would have expected a final SG
+of about 1.013.  I would seem that with 2-3 times the recommended pitching rate
+I would have had better results.  I have had similar results with unaerated
+worts poured to the yeast cake of previous batches which I am sure exceeded
+the recommended 2 1/2 ounces of solids.  Are my calculations wrong?  I realize
+there can be other things involved but I have not had good luck getting good
+attenuation without wort aeration no matter how much yeast I have used.
+I know I have made no controlled experiments and don't intend to claim I
+have disproved G. Fix's assertions about pitching rates but am curious as to
+what is going on in my case.  Any good ideas?
+Perhaps I have made some stupid calculation errors (it wouldn't be the first
+time).  If so, I would appreciate having that pointed out to me.
+
+
+Puzzled in Grapevine,
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`wss.dsccc.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 May 1998 18:49:33 -0500
+From: "David Johnson" <dmjalj`at`inwave.com>
+Subject: Rhubarb
+
+
+Brewers,
+        Has anyone here used rhubarb in beer? I have seen recipes for rhubarb mead
+and wine. It seems that it might be a way to make a pseudo form of one of
+the sour beer styles. I made a cranberry pwit beer a couple of years ago
+and it turned out rather well with a good level of sourness but not a lot
+of cranberry flavor. There was enough orangeness that it couldn't pass as a
+straight wit beer, But most people who were told it was a cranberry beer
+said it didn't taste like cranberries. So the redness created expectations
+that were not met. (people drink with their eyes). Rhubarb is not as red,
+and has a flavor that blends well with almost anything. So I figure it is
+worth a try.  I propose making my previous pwit recipe except I would use  
+ 2 lbs. of rhubarb (Stems Only) Cut the stems in half inch size, freeze,
+and steam them just before adding them. I would add them shortly after high
+krausen with some pectic enzyme. What do you think? I was thinking this
+could also work in other psour styles.
+        Dave
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 May 1998 20:05:01 -0300 (GMT-0300)
+From: Jorge Blasig - IQ <gisalb`at`elmer.fing.edu.uy>
+Subject: Home malting
+
+
+
+
+I have recently read several posts about home malting and crystal malt
+preparation. In fact, I have prepared crystal malt following the
+procedures suggested by Ken Schwartz, KennyEddy and Dave Burley, and it
+worked pretty good. It works just as they say.
+I have a question though now. I am a little mixed up because sometimes
+certain malts receive several names. I believe caramel malt is the same as
+crystal. Am I right? If not, I believe it would be helpful that somebody
+sends a post indicating the names of different kind of malt (those which
+have several names).
+I need to prepare carapils. Is it the same as dextrine? I need the
+procedure to prepare carapils. Any suggestions?
+
+
+
+
+Jorge Blasig
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 May 1998 21:51:09 -0500
+From: Scott Braker-Abene <skotrat`at`wwa.com>
+Subject: Re: AHA competition question
+
+
+Christopher Peterson Wote:
+
+
+>        I sent a couple of beers to the national AHA competition this year (first
+>time). I thought it was strange that they request only one beer for the
+>first round, but three for the finals. 
+
+
+Well this is because it is easier to screw up your beer with someone elses
+and get it into another category in the first round. 
+
+
+You see if you send only one bottle of your best stout that you worked your
+ass off to make wonderful and let's just say it won all the local
+competitions that you entered it in and even the local Brew Pub  Brew Master
+said it was one of the finest examples of dry stout he has ever tasted. That
+right there makes it easier for the AHA weazles to take that one bottle of
+your finest dry stout and say enter it into... Hmmm let's say the American
+Dark lager Flight of the First Round. 
+
+
+
+
+
+
+>This seems backwards to me since so
+>few beers make it to the final round. Is one beer enough? How many judges
+>actually evaluate each entry in the first round? Any other info appreciated. 
+
+
+How many Judges evaluate the beer? Well the AHA nationals uses the terms
+evaluate and judge very loosely. Of all the times I have enterd the
+nationals (3 times to be exact) they have somehow screwed up my entry in
+every one in some way er another.  
+
+
+When the beer was put into the category it was meant to (and yes I filled
+out all the labels and entry form right... I even have xeroxs to prove it)
+it then got to the great judges.
+
+
+These judges are nothing like the judges that I get in regular comps... I
+don't get Al  K. (who is an excellent Judge) or Ed Bronson (Another truly
+excellent judge), I get a bunch of novices... That don't fill out the score
+sheet and have no freaking idea of what a style is really to be. 
+
+
+Guys that take off points on a weiss beer for have no noticable hop
+bitterness and hop aroma. Guys that tell me that the clove taste in the same
+weiss beer is an obvious infection... 
+
+
+Why should any of us spend $9 plus on an entry for beer to be judged poorly? 
+
+
+As for why they want 3 bottles in the 2nd round... They need the bottles!
+
+
+I haven't vented  like this in a while and I now feel great! I need a beer.. 
+
+
+C'ya!
+
+
+ -Scott "God I love Plaid and P Babcock wears it well.." Abene
+
+
+
+
+################################################################
+#                     ThE-HoMe-BrEw-RaT                        #
+#                Scott Abene <skotrat`at`wwa.com>                 #
+# http://miso.wwa.com/~skotrat (the Homebrew "Beer Slut" page) #
+#                                                              #
+#                                                              #
+# "The More I know About Beer, The More I Don't Need The AHA"  #
+################################################################
+ 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 May 1998 23:11:50 -0400
+From: "Mark S. Johnston" <msjohnst`at`talon.net>
+Subject: Wort pumps to handle boiling
+
+
+Ron posted:
+
+
+>>My intentions are to use this pump for
+>>recirculation, sparge, whirlpool, as well as knockout, the whole deal.
+
+
+>Let's see:
+>    Recirculation, well, at most mashout 170f, not boiling.
+>    Sparge, about same, 170, or so.
+>    Whirlpool, hmm, maybe, if you hose down the boiling kettle just
+>after knockout, you can quickly drop 10 degrees off in seconds.
+
+
+>I have heard others mention boiling temps, but I can not find a need,
+>maybe there is some reason, but I can not reason why.
+
+
+I use the pump for whirlpool and knockout as well. However, I sanitize it
+and the hoses by recirculating boiling wort through it for the last 10 to
+15 minutes of the boil. By inserting the end of the hose beneath the
+surface, there is no splashing. (Yes, the pump and hoses are clean prior
+to this recirc.) 
+I could also see someone pumping wort through a counterflow chiller,
+depending upon their equipment design.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 01:12:10 -0400
+From: "Capt. Marc Battreall" <batman`at`terranova.net>
+Subject: RE: SS Cleaner
+
+
+Stacy Groene wants to know about "Barkeeper's Friend" in HBD2714:
+
+
+Stacy,
+
+
+I don't know for sure if that particular brand has what you would call a
+specific cleaner for stainless steel. If they do, I am unaware of it,
+but that doesn't mean it doesn't exist for sure.
+
+
+I have been bartending off and on since I was legal age, and I certainly
+have done my fair share of cleaning things, but the only product by that
+name I have ever seen was merely a scouring powder similar to Comet or
+Ajax. I do remember though, that it rinses alot clearer and I think it
+doesn't leave a chalky film despite the fact that it is similar in
+compostion to the above named products. It may not be designed
+specifically for stainles, but it will work.
+
+
+Maybe there is someone in the collective that knows for sure.
+
+
+Cheers,
+
+
+Marc
+- -- 
+Captain Marc Battreall
+Backcountry Brewhouse
+Islamorada, Florida
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 01:01:30 -0700
+From: Jeremy Bergsman <jeremybb`at`leland.Stanford.EDU>
+Subject: March Pump
+
+
+Kenneth Sullivan asks about a March pump:
+
+
+I also bought a March pump from C+H.  When people say to keep these
+filled with water, they mean while it's in use.  In other words,
+it must be downhill from its source (these will not self prime),
+and the inlet and outlet must be opened to allow water to fill the
+housing before it is turned on.
+
+
+I got 3 years of use out of mine before the (used) gasket needed
+replacing, but this is obviously chance from pump to pump.  I found
+that when there is no gap between the two parts of the housing
+is when it would start to leak--the gasket was no longer thick
+enough that the halves were compressing it when they were brought
+together.  I found a new gasket for ~$1.
+
+
+Have you actually found that it leaks?  From what you wrote it
+sounds OK.  If it does leak I think it's the part where there is
+no gap rather than the part where there isn't.
+
+
+When mine first started to leak I was able to get a couple more
+brews out of it by wrapping the gasket with teflon tape before
+assembly.
+
+
+BTW, I would suggest removing the pump head after every brew--
+there's no orientation where all the water will drain out and
+I found algae growing in there after a long brewing hiatus.
+- -- 
+Jeremy Bergsman
+jeremybb`at`leland.stanford.edu
+http://www-leland.stanford.edu/~jeremybb
+
+
+
+
+------------------------------
+
+
+Date:         Wed, 20 May 98 08:02:17 EDT
+From: Phil Tully <TXPHIL`at`VMETH5.OSSD.GIS.ML.COM>
+Subject:      re:Pin Lock Keg Woes
+
+
+I own both pin and ball lock kegs and obtaining parts is generally not a proble
+m.  Any local Homebrew shops should be able to order the parts from a wholesale
+r.  Looking at my wholesale catalog from FOX equipment show pages of parts for
+both types.
+regards
+Phil Tully
+Owner Tully's Brew N Barrel.
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 07:55:53 -0500 (CDT)
+From: Samuel Mize <smize`at`prime.imagin.net>
+Subject: Pumps; fruit flies; close-out
+
+
+Greetings to all, and especially to:
+
+
+ - - - - -
+> From: blacksab`at`midwest.net (Harlan Bauer)
+> Subject: High temperature pumps
+
+
+> ... high temperature pumps ...
+>  at least one that can handle boiling liquids made
+> of polysulphone.
+
+
+Boy, talk about adjuncts...
+
+
+
+
+ - - - - -
+> From: "David Johnson" <dmjalj`at`inwave.com>
+> Subject: Driving me Buggy
+
+
+> ...fruit flies...
+> I have gotten the potential food sources and
+> breeding sites cleared up but they are just hanging around.  I have
+> considered the "no-pest-strips" but they are not to be used around food
+> storage. The only thing left in that room are capped beer and corked wine.
+> Can the insecticide permeate the corks?
+
+
+I can't imagine it would.
+
+
+You could also go by a feed store and get some of the yellow fly strips
+they use in stables.  I don't think these have an insecticide on them,
+they're just paper with a sticky sweet-smelling goo on them.  They come
+rolled up in a little tube.  There are several brands.  I don't know the
+proper name for the product, but I never even get a weird look asking
+for "those yellow fly strips you hang up."
+
+
+
+
+ - - - - -
+> From: brewshop`at`coffey.com (Jeff Sturman)
+> Subject: calling it quits
+
+
+Sorry to hear it -- I hope you do well in the future.
+
+
+Best,
+Sam Mize
+
+
+- -- 
+Samuel Mize -- smize`at`imagin.net (home email) -- Team Ada
+Fight Spam - see http://www.cauce.org/
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 08:42:20
+From: Ted Major <tidmarsh`at`mindspring.com>
+Subject: Re: Pin Lock Keg Woes
+
+
+
+
+>Problem:  one of the kegs had bad poppets.  
+>Bigger Problem:  they were Coca Cola kegs.
+>I have been unsuccessful in locating replacement poppets for these kegs.  
+>One source told me that these were proprietary parts, and that there was a
+>legal problem here.
+>
+>Can anybody in HBD-land shed any light on this subject???  Should I dump
+>these kegs and start over?
+>
+>Thanks!    
+
+
+Much depends on the manufacturer of your kegs.  I have pin-lock (Coke) kegs
+made by both Firestone (black rubber) and Cornelius (red rubber).  Look at
+the engraving on the side of  your kegs to see whether they are Cornelius or 
+Firestone.  The Cornelius poppet  valves are the same for their ball-lock and 
+pin-lock kegs, so I've been able to  get parts for those from my local
+homebrew 
+shop.  For the Firestone kegs, I was referred by the local shop to Williams 
+Brewing (http://www.williamsbrewing.com),  and from looking at their web
+page, 
+they seem to have the right poppet vavles for either keg. I've no affiliation 
+with Williams and have never ordered from them, but I've seen them
+recommended 
+in this forum from time to time.
+
+
+Cheers,
+Tidmarsh Major, Birmingham, Alabama
+tidmarsh`at`mindspring.com
+"Bot we must drynk as we brew,
+   And that is bot reson."
+    -The Wakefield Master, Second Shepherds' Play
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 08:52:17 -0500 (CDT)
+From: Steve Piatz <piatz`at`cray.com>
+Subject: Re: BW in kegs, all-grain monsters
+
+
+In HBD #2716 Ray Estrella asks about where I came across the comment
+that some beers are better bottle conditioned.
+
+
+>  A friend and brewer of many gold medal winning BWs told me that
+>he was just reading something about them need true bottle conditioning
+>for proper flavor development, but I do not know where he saw it.
+>Are you out there Steve?
+>
+
+
+While I don't have total recall like some other posters to the HBD, one
+place I saw comments about bottle conditioning was in "The Analysis of
+Brewing Techniques" by Fix and Fix.  I think it is in the later part of
+the book and as I recall they do give some references.  Eric Warner in
+his book on Wheat beer also comments on bottle conditioning of that
+style yielding a smoother product.  In the case of Warner, I just read
+it last night while preparing for an BJCP Exam Prep class I am
+leading.
+
+
+I have left barley wines in the keg for a very long time (I think I
+still have a 1995 version in a keg).  My kegs are in the basement at
+55F to 65F.  When (if) I bottle I try to prime at a low level with corn
+sugar - it will take a while but they do carbonate.
+- -- 
+Steve Piatz
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 10:15:20 -0400 (EDT)
+From: Joe Rolfe <onbc`at`shore.net>
+Subject: Re: pumps 
+
+
+just one word of caution while using any pumps in a
+brewer (small or large).  Be very carefull of the discharge
+outlet and pressure.  I would suggest hard plumbing the 
+outlet of the pump over soft hose in ALL cases.  Hot wort/caustic
+and acid can cause quite a bit of discomfort (putting it mildly).
+
+
+if you do choose to soft plumb insure you have a quick exit
+from the area in the event of a hose bursting or a coupling
+coming loose.  
+
+
+but you guys/gals knew this anyway - right??
+
+
+
+
+good luck and great brewing
+
+
+joe rolfe
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 14:28:55 GMT
+From: marnold`at`netnet.net (Matthew Arnold)
+Subject: Dangers of contamination: dry vs. liquid yeast
+
+
+Many people say that dry yeast is inherently (or, more likely to be)
+contaminated than liquid yeast. I wonder if this statement can still be made or
+if tests have been run on products from Lallemand, et al.
+
+
+My concern with liquid yeast has been that even though I know the smack-pack I
+buy has a pure culture inside, once I open it, all bets are off. I try to keep
+everything as clean and sanitized as possible, but my kitchen is hardly a
+laboratory.
+
+
+My question is: where is the greater danger? Using dry yeast which may be
+contaminated, but doesn't need a starter due to the large amount of viable
+yeast, or, using liquid yeast which will need to be stepped up a couple of
+times (with the chances of contamination that come in with every step)?
+
+
+My main concern would be with the first step-up from smack-pack to starter.
+Obviously, that's the smallest number of cells and thus the greatest chance for
+an infection to overrun the starter. It would seem to be that the primary
+benefit of "pitchable" yeast (whether Wyeast XL or White Labs) would be helping
+to eliminate the possibility of an infection taking hold in that first starter.
+
+
+Any thoughts?
+  Matt
+- -----
+Webmaster, Green Bay Rackers Homebrewers' Club
+http://www.rackers.org        info`at`rackers.org
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 10:40:44 -0400
+From: "Peter J. Calinski" <PCalinski`at`iname.com>
+Subject: Fruit Flies, Temp Control, Label removal
+
+
+> ------------------------------
+> 
+> Date: Tue, 19 May 1998 08:24:30 -0500
+> From: "David Johnson" <dmjalj`at`inwave.com>
+> Subject: Driving me Buggy
+> 
+> Brewers,
+>         I have acquired a slight problem. I typically store fruit and vegetables
+> in an area in my basement which is adjacent to the area I brew in. It
+also
+> happens to be the area where I cellar my beer and wine. This winter, the
+> onions, carrots and potatoes have become infested with fruit flies.  I
+have
+> gotten rid of the fruit and vegetables but the flies have not figured out
+> where they want to go. I don't really want to brew until I have  gotten
+rid
+> of them. Any suggestions? I have gotten the potential food sources and
+
+
+Well, I had the same problem but the flies didn't show until I started the
+fermentation.  The air lock made a great fly trap. I had to empty it many
+times a day.  After a while, they stopped getting trapped.  Either I caught
+them all or they left for greener pastures.   I'm not sure which but I
+suspect the former.  I don't have a really good solution for you but I will
+say the batch came out OK; no contamination.
+
+
+
+
+> ------------------------------
+> 
+> Date: Tue, 19 May 1998 10:26:44 EDT
+> From: KennyEddy <KennyEddy`at`aol.com>
+> Subject: Electric Brewing / Gott Coolers
+> 
+(Snip)
+
+
+> Finally, you have to deal with controlling the elements.  Simple on-off
+> control is great if you're lucky enough to get the right level of boiling
+> action without a boilover.  Chances are though that you'll need to
+throttle
+> one element as a "fine adjust" of the boiling vigor.  Hi-power dimmer
+switches
+> can be found but are somewhat expensive.  Simple switched-diode
+controllers
+> can be used with some success but only offer off/half/full power control.
+
+
+Can't one adapt an electric range surface burner control?  As I recall, I
+took one apart quite a few years ago.  In those days (which, given the way
+manufactures stick with success means these days also) the burner was
+cycled on and off based on the temperature of a little heating coil under
+the knob of the control (not the temperature of the surface burner). 
+Upping the temperature setting put more pressure on the bimetallic strip
+next to the coil thus requiring the coil to be energized for a longer time.
+ The surface burner was energized whenever the coil was energized.  Thus,
+the surface burner is running open loop.  If you will, the loop is closed
+by the human.  If the pot is heating too slow, the human turns up the knob.
+ Then the coil duty cycle increases.  As I recall, the cycle times were on
+the order of a minute depending on knob setting.  
+
+
+You can observe (hear) this by listening carefully to the surface burner
+control  You'll hear it click on and off.  Or, turn on the stove and
+observe your house power watt-hour meter.  You'll see the rate of rotation
+vary as the control cycles on and off.   
+
+
+
+
+
+
+> 
+> ------------------------------
+> 
+> Date: Tue, 19 May 1998 12:31:06 -0400 (EDT)
+> From: Jeff Poretsky <jeffp`at`access.digex.net>
+> Subject: beer label removal (again)
+> 
+> A question for the list.  
+> 
+> I was collecting bottles of beers that I've had.  The collection is
+getting
+> too large for my small apartment, so I want to just save the lables.
+> 
+> How does one remove these hermitically sealed lables?  :)
+
+
+Ammonia.  I have been saving the labels for years.  Have over 150. Here is
+my system.  I saved a large plastic pretzel "jar" with a wide mouth and
+enough depth (~15") to hold a bottle. Saved the jar lid also.  Filled the
+jar about 3/4 full (need room for the bottle to fit without overflow) with
+an ammonia solution (don't remember the concentration-- maybe 2 parts H2O
+to one part ammonia) and replaced the lid.  When ever I have a beer I
+haven't had before, bring home the bottle.  I put it in the jar and replace
+the lid. (The lid pushes the bottle down so the label is submerged.) Maybe
+in an hour, maybe in four hours, the label is loose.  (It is very
+temperature dependent.  I keep it in the garage so in the summer it is
+fast, in the winter very slow.)
+
+
+I have noticed that the European bottles are very fast (straight H2O would
+work fine) but the American bottles are as you say "hermetically sealed". 
+I have had a problem with some metallic coated labels such as the Yuengling
+Black & Tan.  The metal comes off the label before the label comes off the
+bottle.
+
+
+If you keep the lid on tight all the time, the solution will last for
+months however it gets pretty cruddy. 
+
+
+
+
+
+
+> I've tried boiling water, water with bleach, and a few other variants of
+> the first two.
+> 
+> Any help would be appreciated.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 11:08:26 -0700
+From: George_De_Piro`at`berlex.com
+Subject: More yeast pitching
+
+
+     Hi all,
+     
+     Dan M. writes:
+     
+     "Repitching is an easy and economical way to get the best performance 
+     out of your yeast. With better beer as a byproduct, why would anyone 
+     not practice this procedure?"
+     
+     There is one very simple reason:  I don't always brew with the same 
+     strain over and over again!
+     
+     Of course, what Dan says is correct, if you want to brew with the same 
+     yeast several times and your technique is very sanitary, and you're 
+     timely about harvesting, etc.  Whenever I make a strong beer I make a 
+     normal gravity beer a week in advance using the same yeast (sort of a 
+     giant, consumable yeast starter).  Pitching a huge amount of yeast 
+     really is the only way to make a strong beer well.
+     
+     There are many times that I don't reuse the yeast though.  Bavarian 
+     Weizen yeasts are so distinctive that they are tough to use on other 
+     styles.  An ESB just isn't quite right when fermented with a nice 
+     Weizen yeast.
+     
+     For those times, you are obligated to make up a large starter.  It 
+     really isn't hard, and you can get more cells than Dan's #'s simply by 
+     providing some extra oxygen to the starter.  Agitation is good to.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+     
+     (George^2??)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 10:17:52 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: Wort Pump & boiling temps
+
+
+>From: "Raymond Johnson" <JOHNSONR2`at`state.mi.us>
+
+
+>By using the pump to send boiling hot wort through the CF
+chiller(before 
+>starting the water), the coils can be sanitized, and the wort returned
+to 
+>the kettle before starting the whirlpool.  Anyone who has plans to 
+>purchase a pump, should do themselves a favor and get one that handles 
+>boiling temps.  For the difference in price, it ain't worth the pain of
+
+
+>regret should the need arise for a pump that can.
+
+
+>Just friendly advice from a guy who's been there--cheers.
+
+
+Yup, I am convinced.  I too am a believer, you guys did a great job of
+convincing me!  Yes, the pump to get is one that can handle boiling
+temps.  I could not find a need, I asked, and I received -- thanks
+everyone who responded, and my hat off to the HBD.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 10:28:08 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: Starting the starter
+
+
+>From: Jay Spies <spiesjl`at`mda.state.md.us>
+
+
+>I am having a hell of a time trying to figure out the
+>correct ratio of DME to water.
+
+
+Am I missing something here, or why don't you just take hydrometer
+readings and notes?
+One thing I found is that it takes a while for all the DME to completely
+dissolve, so allow some time and stir.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 10:41:19 -0500
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: electrocution
+
+
+>From: Samuel Mize <smize`at`prime.imagin.net>
+
+
+>> From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+>> Subject: RE: Primary Control/Flavor Kits/Sulfur
+
+
+>> Any apparatus can be dangerous, propane can explode, burn your
+clothes,
+>> all life is a risk, breathing Mexican fire haze is bad also, but we
+go
+>> on and breathe anyhow.  We survive.
+
+
+>Well, yeah, we do, until we don't.
+
+
+>I'd just as soon go with proven concepts and commercial components,
+>myself, in something carrying a strong electrical current.
+
+
+>Anyone AJ can discourage probably SHOULD be discouraged from tinkering
+>up a home-built heating transformer dingus.  We don't want someone
+>half-taught to fry himself because "it sounded so easy..."
+
+
+Absolutely true, no one should be fooling around with all this
+unorthodox apparatus unless they know what they are doing, have no
+doubts about any aspect of it, are somewhat crazy, and are impossibly
+curious.
+
+
+The Curies played around with radiation, discovered x-rays, became great
+famous scientists, changed the world as we know it, but killed
+themselves eventually in the process.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: 20 May 1998 12:38:46 -0400
+From: EFOUCH`at`steelcase.com
+Subject: SILENCE! or Defending my Honor
+
+
+
+
+HBD-
+It seems like this isn't the first time a post was entitled "Eric Fouch and
+Civility".  After the last one, I promised I wouldn't post public defenses to
+my actions, but I have received two e-mails expressing concerns over my
+distaste of people of perceived (by me) lesser stature in life, and seeming
+endorsement of a caste system.  Allow me to elucidate:
+
+
+The biggest problem with my communication skills is that I sometimes don't
+feel the need to explain myself.  Here we go....
+
+
+I never said I have a problem with people who have menial or "lousy" jobs.
+I implied that I have a problem with people who don't do their "lousy" jobs
+well.
+
+
+No, my daddy didn't put me through college.  I put me through college.  I put
+me through college by doing "lousy" jobs.  But I did them well.  When I was
+scraping gum off the floor at Woolworths with a putty knife, and was asked a
+question by a customer, rather than just make something up like "that's
+seasonal, so we don't have it now", I got up, and found the manager and got
+the correct answer.  I've slung burgers, mixed mortar, stocked shelves, and
+wacked weeds with a scythe.  Always to the best of my ability.  If the guy I
+insulted because I said he couldn't cut it flippin' burgers, *could* cut it
+flippin' burgers, he would end up moving up the corporate ladder at the
+restaurant instead of inflicting his incompetence on the customers at his next
+place of short term employment.  I *DO* think I'm better than this person,
+because I care enough about whatever job I have (or had) to do it well.
+Now you see why I don't tend to explain myself.
+There.  That oughta keep the guy who *could* cut it flippin' burgers from
+spitting in my Big Mac.  (oooppps!)
+
+
+Now if you'll excuse me, I have a golf date with the Emperor.  (He hates it
+when I'm late and don't let him win)
+
+
+Sorry for the wasted bandwith.  One of the complaintants suggested an apology
+might be in order.  OK.  Apology accepted.
+
+
+Eric Fouch
+Sensitivity Trainee
+Bent Dick YoctoBrewery
+Kentwood MI
+
+
+P.S.  I don't think I'm an "*ssh*ol*", or that I make the world a "sh*tty
+pl*ce", just becuase I demand good service.
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 1998 17:01:37 GMT
+From: stencil`at`bcn.net (stencil)
+Subject: Delta-T revisited
+
+
+The idea of pumping heavy low-voltage current through a conductive
+portion of a RIMS's recirc path may not be unrealistic, especially for
+those who seek kinder, gentler heating.  To boost 30 pounds (10#
+grain, 13 qt water) at around a degree a minute requires 1800 BTU per
+hour, or about 600 watts.  A ten-foot length of 3/8-in copper tubing
+has an interior area of around 120 square inches (using Arkansas
+Metric pi = 3.0);  a soothing 5 watts per square inch.  Such tubing
+has roughly the same weight per foot (0.2#) as AWG1 wire and so
+presumably the same resistance, about 0.15 milliohms per foot.  That
+ten-foot length, around 1-1/2 milliohms, would dissipate 600 watts at
+just under a volt applied. 
+So, how to push 600 amperes down the length?  The reasonable paradigm
+would seem to be the despised soldering gun.  Our tubing is
+represented by the (relatively) high-resistance tip and current is
+provided by a transformer with a single-turn secondary consisting of a
+length of heavy-wall brass tubing flattened in the middle and bent
+into a narrow U.  The flattening is important not just for ease of
+forming but also because a hollow tube makes a poor secondary winding:
+too many flux lines fail to impinge on a conductor.  Note that there
+is no ferromagnetic core;  just a plastic bobbin on the flattened tube
+and a few hundred turns of magnet wire on it.  
+A fair approximation of this would be to flatten an 8-in length of 3/4
+or 1-in OD copper tubing, perhaps even doubling it over, and winding
+the primary - 150 turns - on it over a suitably insulated bobbin.
+This would then be attached near the ends of the liquid tube, making
+the straight bar on a D-shape; the tube could be coiled and given
+insulating sleeving or spacers so the turns don't short out.
+The weak part is the attachment between the tube and the "bar"
+secondary.  The connection must be very low-resistance to avoid
+localized overheating.
+Stainless steel tubing, while harder to work and connect - you'd want
+to gas-weld lugs to it - would have the advantage of higher
+resistance.  
+
+
+=======
+stencil -  hand-mashing with gas in the Berkshires
+=======
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 May 98 13:44:09 est
+From: paa3983`at`dscp.dla.mil (Mike Spinelli)
+Subject: steam injection pointers
+
+
+HBDers,
+
+
+Can any of you steam injectors provide some pointers on setting
+up a steam injection system for my 1 barrel system?  I plan
+on using the steam to increase the temps. in 60 pound mashes.
+
+
+My mash tun is SS and I plan on adding a Trend thermometer and
+coupling on the side.
+
+
+Will a run-of-the-mill department store pressure cooker be big 
+enough to boost up a 60 pound mash?  Reason I ask is one of our 
+club members had the brass ones to make a steam cooker out 
+of a half barrel keg ! : o.  When he firef that thing up the noise 
+it created was unlike anything I've heard.  I hope I don't need a rig
+that big.
+
+
+Thanks
+Mike Spinelli
+Mikey's Monster Brew
+Cherry Hill NJ  
+
+
+
+
+
+
+------------------------------
+
+
+Date: 20 May 1998 11:55:38 -0600
+From: "Andrew Avis" <Andrew.Avis.0519423`at`nt.com>
+Subject: Liquid Decoctions
+
+
+Brewers,
+
+
+I apologize if this topic has been covered before, but I haven't seen it 
+in the last year.  I've just moved up to 38 litre batches from 19 litres, 
+and when doing my first "large" brew last weekend I discovered that 21# 
+of grain & 6 gals of water leave no room for subsequent additions of 
+boiling water in my 10 gal cooler.  I resorted to drawing off about 1 gal 
+of runnings, bringing it to ~190F, and then adding it back to the mash to 
+hit my temps & mashout. (First rest was `at` 145 - I was aiming for 152, but 
+miscalculated heat loss during transfer of the hot water.  Next rest was 
+154F.  Mashout was 165F.)
+
+
+I have never seen a discussion of this technique before - everything I've 
+read suggests boiling water additions to raise mash temps (or decocting a 
+thick portion of mash).  Does this method present a problem, especially 
+when going from a low temp rest?  I don't know much about mash chemistry, 
+but I'm guessing that there is a lot of starch in solution, as well as 
+enzymes and tiny bits of grain - which is why I didn't boil the runnings 
+(plus the fact I did not want excessive carmel flavour).
+
+
+So I'm wondering if this technique has any drawbacks with regards to 1) 
+killing enzymes 2) doing something to the starch and 3) creating off 
+flavours.  If not, does anyone have a simple formula for calculating how 
+much runnings should be drawn off, raised to a specific temp, and then 
+added back to hit a target temp?
+
+
+Thanks for any advice.
+
+
+Andrew Avis
+Calgary, Alberta
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2719, 05/21/98
+*************************************
+-------

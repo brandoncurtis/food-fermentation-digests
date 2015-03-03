@@ -1,0 +1,321 @@
+﻿Date: Tue, 23 Oct 2007 00:07:52 -0400
+Subject: Homebrew Digest #5243 (October 22, 2007)
+
+
+
+
+
+
+HOMEBREW Digest #5243                             Mon 22 October 2007
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                     Your Business Name Here
+    Visit http://hbd.org "Sponsor the HBD"  to find out how!
+                         
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  basic brew (leavitdg)
+  Density ("A.J deLange")
+  Re: Heading to San Francisco (Dean)
+  Re: Basic Brew ("Michael O'Donnell")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 22 Oct 2007 06:54:42 -0400
+From: leavitdg at plattsburgh.edu
+Subject: basic brew
+
+
+Matt;
+
+
+ I have not brewed an extract batch for perhaps 10 years, so I will refrain from
+suggesting a recipe, but I would certainly skip the dextrose.  They say that you
+can use a little bit, with no problems, but in the "old days" they used to say
+that too much could lead to cidery/ or off flavors.
+
+
+ I would substitute either light DME (dry malt extract) and/ or some corn sugar
+for the dextrose.
+
+
+ Also, there ARE some very good dry yeasts available these days, but if you have
+access to fresh liquid yeast, I believe that this would be good.
+
+
+ Make sure that you get a full, rolling, 1 hour solid boil, as this is , to me,
+one of the keys to a good and clear brew.  I'm sure that others will help you
+with the recipe.
+
+
+ Happy Brewing!
+Darrell
+
+
+    Plattsburgh, NY 44 42 32 N Latitude
+                    73 24 16 W Longitude
+
+
+ [544.9 miles, 68.9] Apparent Rennerian
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 Oct 2007 14:37:53 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: Density
+
+
+The following coefficients:
+
+
+     K0     = 1.0013636
+     K1     = 0.0038936
+     K2     = -0.00010774
+     K3     = 1.516e-05
+     K4     = -2.8996e-06
+     K5     = -3.2143e-06
+
+
+used in the formula D = K0 + K1*P + K2*T + k3*P*P + k4*P*T + k5*T*T  
+will give you answers good to about 1 point (.001).
+Temperature is in C and strength in Plato.
+
+
+The set of coefficients:
+
+
+     K0     = 3.0942e-05
+     K1     = 0.0040422
+     K2     = 1.9326e-06
+     K3     = 4.7796e-06
+     K4     = -6.4762e-06
+     K5     = -5.4517e-06
+     K6     = 3.0215e-07
+     K7     = 1.7436e-08
+     K8     = 3.2428e-08
+     K9     = 1.2774e-08
+
+
+used in a similar formula will get you accuracy of about .0002.
+
+
+These fits are good for 0 to 100 degrees C and 0 to 21 P. Goodness 
+refers to goodness of fit to the data. This is probably good to 4 or 5 
+decimal places but this has not been verified.
+
+
+Note that these are densities (grams/cc) and not specific gravities. I 
+can do fits for specific gravities as well if this is what you need.
+
+
+A.J.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 Oct 2007 09:47:06 -0700
+From: Dean <dean at deanandadie.net>
+Subject: Re: Heading to San Francisco
+
+
+Jay White is heading to SF.
+
+
+Magnolia Pub has hands-down the best bitter I have ever tasted, and is a great
+place for brunch.  Their wall-mural is another fine reason to check it out.
+http://magnoliapub.com/
+
+
+The Toronado has a great selection of Belgians.
+http://toronado.com/
+
+
+- --Dean
+- --
+Unscrambler of eggs
+[3265.6k, 273.2deg] Apparent Rennerian
+- -------------------------------------------------------------------------------
+i am become def, the mixer of words
+
+
+I must obey the inscrutable exhortations of my soul
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 Oct 2007 10:31:51 -0700
+From: "Michael O'Donnell" <odonnell at msi.ucsb.edu>
+Subject: Re: Basic Brew
+
+
+Matt is looking to expand his brewing to make beer that tastes good.
+
+
+Matt, if you are really looking to minimize cost, I'd suggest that you 
+switch to all-grain. Lots of people will say that going to fancy liquid 
+yeast is critical, but I'd definitely stick with dry yeast over skipping 
+hops (Your recipe will make Zima, I think. Ok if you are just looking 
+for some fermented ethanol, but not really beer.)
+ 
+Here's a dirt-simple and cheap recipe.
+Buying 9 lbs of base malt and a pound of crystal malt will set you back 
+about $15
+4 oz of cascade hops will go for ~$6.
+Add a package of dry yeast for $2 and you've got 5 gallons of drinkable 
+beer for <$25. In fact, if you go to www.morebeer.com or 
+northernbrewer.com, you'll find plenty of all-grain kits for <$20... 
+about 10-20% cheaper than a comparable extract kit.
+
+
+Going into your homebrew store and choosing the the hops and grains by 
+what is cheap is another way to make it cheaper (but, given that the 
+whole thing is only $20, about the most you might save is a $1 here or 
+there)... If Magnum hops are cheaper than Cascade or Glacier hops are on 
+special sale, buy whichever. Your beer will taste different, but it will 
+still be OK.
+
+
+Read any number of brewing books (Palmer's "How to brew" is great and 
+you can read it online for free). Rig up a mash / lauter tun out of a 
+cooler you already  have around so you don't spend any money on it and 
+just brew a batch. It won't taste worse than what you've got planned.
+
+
+Once you've made your second all grain batch, you'll realize it is 
+pretty easy, and then you can start worrying about stuff like choosing 
+the appropriate yeast to get the flavor you want.
+
+
+cheers,
+mike
+Santa Barbara, CA
+>
+> Date: Sat, 20 Oct 2007 10:17:09 -0400
+> From: "Matt Falenski" <mfalenski at verizon.net>
+> Subject: Basic brew
+>
+> I have made a few brews so far using kits and following others recipes. For
+> 5 gallons, I have been using either liquid malt extract and/or dry malt
+> extract, 2-3 lbs specialty grains, 2 hop additions, and pretty much the same
+> ale yeast (only one at local homebrew store.)  I want to make a basic brew
+> that will taste good.  I was thinking 4-5 lbs of amber DME, 6 cups of
+> dextrose, and ?? yeast. (will go elsewhere if it's suggested.) Can anyone
+> note amounts or post a recipe for a very basic beer?  What I was originally
+> doing for S&G was trying to make a batch at the lowest possible cost so I
+> was skipping hops & grains and keeping other amounts lower.  
+> Thanks!
+>
+>
+>
+>   
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #5243, 10/22/07
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

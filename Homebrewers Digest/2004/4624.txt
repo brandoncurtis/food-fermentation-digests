@@ -1,0 +1,445 @@
+﻿Date: Sun, 10 Oct 2004 22:48:35 -0400
+Subject: Homebrew Digest #4624 (October 10, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4624                             Sun 10 October 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Atteunation, yeast vs wort (was Re: Cider and "low attenuation" yeast) ("Fredrik")
+  Re: Cider and "low attenuation" yeast ("-S")
+  Re: low-attenuating yeast (Fred Johnson)
+  Info needed on Brewpubs in New York State (marty)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*               A Fortnight Of Yeast                    *
+*  Presented by the HBD in cooperation with Lallemand   *
+*      Questions submission: 10/11 - 10/22/2004         *
+* include Fortnight Of Yeast, 2004 in your subject line *
+* More info http://hbd.org/hbd/archive/4620.html#4620-3 *
+*********************************************************
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 9 Oct 2004 09:43:33 +0200
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Atteunation, yeast vs wort (was Re: Cider and "low attenuation" yeast)
+
+
+Whoa, n'th post-attempt after cutting lines n-1 times, 
+sending this to the wrong address etc! This is driving me nuts :o)
+Hope the short lines doesn't make this unreadable.
+
+
+> Date: Thu, 7 Oct 2004 07:26:57 -0400
+> From: Fred Johnson <FLJohnson at portbridge.com>
+> Subject: Re: Cider and "low attenuation" yeast
+
+
+Fred Johnsson wrote that atteunation *mainly* (not only) 
+depends on the wort, and that the attenuation ranges posted 
+by the yeast manufacturers apply to some undefined 
+standardworts, fermented using some standard pitching rates, 
+and under otherwise standard conditions. I agree completeley 
+with this.
+ 
+Since this came up I thought I could post some of my thoughts 
+on this subject, showing some ballpark estiamtes I have been 
+using until I've got a full model running.
+
+
+Certainly the exact attenuation depends on the full set of 
+variables, ranging from yeast, wort and fermentor and ambient 
+variables. But for practical purposes, in order to at least be able 
+to do a little bit better ballpark estimates than the standard 
+attenuation ranges posted on the yeast manufacturers page 
+
+
+I have decomposed the problem into two parts.
+
+
+Assumptions used in this ballpark estimate
+
+
+1. The most relevant ferementables in beer wort are glucose, 
+fructose, sucrose, maltose and maltotriose.
+
+
+2. Under at least "reasonable conditions, picthing rates" most 
+strains(there might be some exceptions) fully deplete 
+everything except maltotriose.
+
+
+Definitions.
+
+
+I have attempted to parametrise the wort sugars by ...
+
+
+RDFW = Real Degree of Fermentabilit of Wort (=glucose+
+fructose+sucrose+maltose; % of extract)
+MTW = MaltoTriose contents of Wort (% of extract)
+
+
+RDF = Real Defree of Fermentability (in actual fermentation)
+MTD = MaltoTrioseDepletion (% of maltotriose depleted)
+
+
+This in this simplified variable set one would arrive at this 
+relation
+
+
+RDF = RDFW - (1-MTD)*MTW
+
+
+Thus the upper limit of fermentability is totally determined by 
+the wort (RDFW). There is no hard lower limit but for 
+"most strains" and for "reasonable" conditions I would assume 
+that the lower limit is approximately RDFW - MTW.
+
+
+What remains is to estimate MTD and MTW. 
+
+
+If you are using DME hopefully there are datasheets. I think 
+muntons light DME has something like 
+MTW = 10.4% (could be a little lower maybe)
+RDFW = 65%
+
+
+I am still working on getting control over my mashing. But 
+eventuelly I belive that MTW as well a RDFW could be at 
+least roughly estimated from the mash scheduele, by means 
+of  modelling the mash. I started this project but has had 
+time to work on it as much as I'd hoped. But evenetully I 
+figure it will fall into place. I think the hard parts is not 
+enzyme modelling, the hardest parts seems to be modelling 
+the liquification of grains and starch, but I am still working 
+on it. Until then I rely on basic empricial formulas. Fix 
+suggests some simple relations between MTW and RDFW 
+if you are using a fixed scheduele. Otherwise I figure you 
+can do some attenuation testing using low and high strains 
+to pinpoint roughly the wort parameters.
+
+
+I have transformed this into another rough formula directly 
+involving FG. There may be some minor errors in thte 
+constants from the fitting, since it depends on alot of things.
+
+
+FG = (a*OG + b) ( RDFW - MTW*(1-MTD)) 
++ (c*OG +d) 
+
+
+a = -1,180875689 
+b = 1,179398127 
+c = 0,993948859 
+d = 0,006096669 
+
+
+To estimate the MTD. I have made an assumption of this 
+"standar wort" they must be using, And translated their 
+apparent attenuation ranges into MTD ranges. It's 
+admittedly a bit foggy, but I figured it's the best you can 
+do at the moment and better than nothing. Until there is 
+a better model. I emailed  wyest on this standard wort 
+issue, but they didn't respond. My wild assumption is 
+that the standard is something like 1.040-1.045, 
+RDFW=64-65%, MTW = 10.5%, pitching rate = 
+1 million/ml/P and otherwise normal fermentation. Eventually 
+I hopeto be able to find a better estimate for MTD that also 
+includes some starvation and ethanol inhibiation issues 
+and pitching rate. For example if you fermented cider I 
+assume MTW would be practically 0% and all strains should 
+have pretty similar and full attenuation, unless it runs out of 
+some other nutritons. That is the next step to find out.
+
+
+I am still tuning the fermentation model. Right now I am 
+trying to invent some conditions to regulate transition from 
+active to dormancy. I am working on energy stress model, 
+where I translate all stress factors into energy equivalents, 
+and the idea is that at the point where the stress factors 
+are more costly than the energy production do to hard 
+digestible or low concentration of sugars, the cells will go 
+dormant. So I think of stress as a king of energy 
+thief/leakage. The the accumulated weigthed stress is 
+what I will try to trig on. So far I think the idea looks promising.
+
+
+One objection to this is that estimates MTD and MTW 
+aren't easy. But I think it can be done good enough, to 
+allow far better FG estimates that the figures put on the 
+yeast companies webpage that seem based on undefined 
+standards.
+
+
+I have only brewed for 1.5 years so I do not have alot of 
+experience, but so far I have found my estimates using this 
+accurate enough, within the measurement errors. I have made 
+some receips from scratch, and the only times I have had 
+major deviations from my estimates is when have done AG. 
+The problems is that I yet do not have a reproducable 
+procedure that I can model.
+
+
+ /Fredrik
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 10 Oct 2004 00:32:36 -0400
+From: "-S" <-s at adelphia.net>
+Subject: Re: Cider and "low attenuation" yeast
+
+
+On low attenuating yeast, Fred Johnson wrote ....
+
+
+>Certainly
+>this is a reasonable question considering that the yeast companies
+>describe their yeasts in terms of their level of attenuation, and one
+>would assume that the figures for attenuation for the yeast are tell
+>you what the yeast will do. Such was also my assumption until I
+>repeated discovered that the figures often don't really apply.
+[...]
+
+
+I agree with Fred's comments.  Not only do brewing yeast companies but also
+yeast banks like NCYC characterize yeasts on the degree and rate of
+attenuation, *BUT* those figures only have meaning  when the media(wort),
+the yeast handling and the growth conditions are standardized.  Common
+brewing results could be entirely different.
+
+
+One thing that is very puzzling wrt attenuation is that different yeasts do
+'give up' sooner than others, yet we can say with confidence that all
+brewing yeasts ferment all major fermentable wort sugars - Maltose, Glucose,
+maltotriose and residual sucrose, to some extent.  Let's put some numbers to
+this.
+
+
+Some typical 12P(1.048) wort may achieve a 75% attenuation under forced
+fermentation conditions.   75% attenuation requires the conversion of about
+61% of the extract into ethanol or fermentation of 7.3 Plato of sugar.
+[Yes, only ~60% of extract is fermentable in a typical wort !]
+
+
+In similar worts the mass breakdown of fermentables is roughly:
+    62% maltose
+    19% maltotriose
+    13.5% glucose
+    5.5% sucrose (actually 90% sucrose w/ minor amounts of others)
+
+
+As the wort attenuates and gravity readings drop from 1.048 to 1.012, the 36
+gravity degree change is nearly proportional to the fermentable sugar mass
+converted to ethanol.  So of the 36 degrees lost, about 62% of that is
+attributable to maltose fermentation and so on.  This gives the attenuation
+contribution as:
+  22.3 grav.degree,  maltose
+    6.8 grav.degree,  maltotriose
+    4.9 grav.degree,  glucose
+    2.0 grav.degree,  sucrose et al
+
+
+We know from studies that most (certainly not all) healthy brewing yeasts
+will completely ferment out glucose, sucrose, maltose in wort and that the
+amount of maltotriose unfermented is among the more variable portion of what
+is fermented.  This means that 29.2 degrees of attenuation(81% of expected
+attenuation)  is 'given' in any reasonable fermentation of this wort.  We
+fully expect that the 1.048 wort must drop to 1.018.8 for nearly any
+reasonable yeast.  The question is how much of the remaining 6.8 degrees of
+maltotriose attenuation materialize.
+
+
+Looking down Wyeast's lists of apparent attenuation ranges expected from
+various yeasts we see values given a += 2 or 3% attenuation range.
+Considering the center point of this range and ignoring the high and low
+extreme yeasts we find that typical results for low attenuating yeasts give
+around 69% attenuation and high attenuating ones about 75% under Wyeasts
+conditions.  This means a low attenuating yeast must typically consume 92%
+of the extract as a high attenuating ones.  The 8% delta corresponds to low
+attenuatnig yeast capable of fermenting all the maltose, glucose, sucrose
+and about HALF of the maltotriose in quantity.
+
+
+A few rare yeasts may turn up their noses at sucrose or fail to finish the
+maltose or whatever but it's a fair generality to say that the difference
+between high and low attenuating yeasts is how they handle the LAST HALF of
+the maltotriose.  Here's the puzzle - why do low attenuating yeast stop
+fermenting when there is still plenty of food on the table ?  Obviously
+these yeasts have the metabolic mechanisms to consume maltotriose - so why
+not finish the meal ?
+
+
+More questions than answers this time,
+ -Steve
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 10 Oct 2004 06:10:11 -0400
+From: Fred Johnson <FLJohnson at portbridge.com>
+Subject: Re: low-attenuating yeast
+
+
+Many thanks to Steve Alexander for his thoughts and comments on 
+differences between low- and high-attenuating yeasts. After careful 
+consideration of the various sugars and their proportions in wort, 
+Steve poses the reasonable question (paraphrasing), "So why do these 
+different yeasts leave behind different amounts of maltotriose?"
+
+
+This makes me wonder, "Are all maltotrioses the same? And is there room 
+here for some subclassification of these sugars, in which case a 
+particular yeast can transport and metabolize certain maltotrioses but 
+not other maltotrioses? Or perhaps there is a difference between yeasts 
+in the kinetics in the uptake or metabolism of maltotriose  (and for 
+other sugars also), such that the transporter(s) on some yeast strains 
+simply do not transport appreciably when the concentrations of the 
+substrate gets below a certain level.
+
+
+Perhaps we should pose this and related questions to the yeast experts 
+in the Fortnight of Yeast, 2004. I'll start this ball rolling and post 
+a question to Drs. Fischborn and Waldrop tomorrow.
+
+
+Fred L Johnson
+Apex, North Carolina, USA
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 10 Oct 2004 14:04:10 -0400
+From: marty <bigbrewdude at optonline.net>
+Subject: Info needed on Brewpubs in New York State
+
+
+Hello all,
+I'm new to the HBD, so I don't know if this has been discussed already...
+One of my buddies is buying a pub and he asked be to get all the information
+I could about what hoops the government want brewpub owners to jump through.
+Any ideas who to contact?  Any help would be appreciated.
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4624, 10/10/04
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

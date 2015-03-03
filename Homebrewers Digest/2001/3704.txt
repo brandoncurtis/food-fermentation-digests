@@ -1,0 +1,1090 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA22969
+        for <spencer`at`srvr5.engin.umich.edu>; Thu, 9 Aug 2001 01:03:12 -0400 (EDT)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr22.engin.umich.edu (8.9.3/8.9.1) with ESMTP id BAA02358
+        for <spencer`at`engin.umich.edu>; Thu, 9 Aug 2001 01:03:11 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA29379
+        for realhomebrew; Thu, 9 Aug 2001 00:40:29 -0400
+Date: Thu, 9 Aug 2001 00:40:29 -0400
+Message-Id: <200108090440.AAA29379`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3704 (August 09, 2001)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3704                             Thu 09 August 2001
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: Software Piracy (Robert Schmidt)
+  Re: Software Piracy (Christopher Farley)
+  Sparge Water Distributors (Karen & Troy Hager)
+  Re: At last a trip to Europe... (Massimo & Rosalba)
+  Re: Copper toxicity ("G Zellmann")
+  Re: Dry Hopping with pellets ("RJ")
+  Dry hopping ("Erik Nelson")
+  Re: opensource brewing software (Steven)
+  Dry Hopping with pellets (Joe Yoder)
+  RE: Software (Piracy) (Joel Plutchak)
+  Trip to Belgium (IndSys, SalemVA)" <Douglas.Moyer`at`indsys.ge.com>
+  Software Piracy / Opensource brewing software (Skyking)
+  CO2 and Germany (JGORMAN)
+  Sour mash beer ("Scott Basil")
+  pH (AJ)
+  NIR spectroscopy ("Sean Richens")
+  Competition Software ("Mark Tumarkin")
+  2001 Dixie Cup Competition Announcement "La Copa Dixie" ("Sean")
+  Oxidation during lautering ("Gary Smith")
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+* 
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 8 Aug 2001 01:21:57 -0400
+From: Robert Schmidt <robert`at`xcopia.ca>
+Subject: Re: Software Piracy
+
+
+
+
+> I'm interested... I've actually started to put together an xml schema for a
+> cross-platform, cross-measurement-unit recipe file format - I would prefer
+> it to be a community owned and driven concept; if we managed to get a
+> software project going, it would be an ideal forum for feedback & further
+> development.
+> 
+> In other words, count me in for the project.
+> 
+> Sam.
+
+
+That sounds cool. Chris, can you set up the mailing list (if we are doing
+something Free we could use SourceForge). It would also make sense
+for it to be a web application (would work nicely with your XML schema).
+
+
+My experience is primarily php/mysql but I know java, etc and I'm willing
+to contribute some code to this. I don't have a good idea of the
+specification, but I'm sure there are lots of people on here willing
+to help with that. However, I think we should move this discussion
+off this list quickly :)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 00:36:21 -0500
+From: Christopher Farley <chris`at`northernbrewer.com>
+Subject: Re: Software Piracy
+
+
+Mark Vernon wrote:
+> Chris, 
+> I think the reason is that ProMash, for $25 or so, is a great deal - and a
+> great product. As a programmer in a former life, I can appreciate the effort
+> required to create such a full featured application. I have no affiliation
+> with ProMash - just an extremely happy user.
+
+
+I don't disagree. ProMash is an incredibly useful piece of software,
+well worth the $25. There's nothing else that even comes close, and it
+would be a tremendous challenge to produce a product that would approach
+the usefulness of ProMash. That said, I think it's do-able.
+
+
+It's just my feeling that a community-developed brewing application
+would be extremely successful. Please don't take this the wrong way, but
+there are an enormous number of homebrew-geeks. I'm talking about the
+kind of people who wear t-shirts that say things like 'grep this', and
+do so with pride. I think that it would be very easy to find a few
+good, possibly underemployed programmers/homebrewers to work on such a
+project, especially since software development can be done across the
+world quite easily.
+
+
+Furthermore, the whole 'do it yourself' and 'shared knowledge'
+philosophy of homebrewing seems to logically lead toward a
+non-proprietary, community-developed software package. If homebrewers 
+can make beer that rivals 'the big boys', then it is certainly 
+possible for a few homebrewers to get together and make a killer 
+homebrewing application.
+
+
+If one or more competitors to ProMash were to emerge, free or otherwise,
+I think that would probably be a good thing for the small-but-vital
+brewing software 'industry'. 
+
+
+Rather than run the risk of flooding the digest with off-topic technical
+details, I've posted a few of my ideas about such a project at
+http://forum.northernbrewer.com 
+
+
+I would emphasize that I am not, nor have ever been, a software
+developer in this life or any other.
+
+
+- -- 
+Christopher Farley
+www.northernbrewer.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 07 Aug 2001 23:29:40 -0700
+From: Karen & Troy Hager <thager`at`smcoe.k12.ca.us>
+Subject: Sparge Water Distributors
+
+
+Here is a question to the collective... How many of you use some kind of
+sprinkling/manifold system to distribute the sparge/recirculation water on
+top of the grain bed? And, how many of you, like myself use nothing but the
+tube from the HLT or pump?
+
+
+When I first started brewing I was intrigued by the little sparge arm
+mechanism that spun around on its own and evenly distributed the water
+across the top of the mash tun... seemed like a nifty gadget. So I bought it
+and after trying it a couple of times I found it a big PITA to use - it was
+hard to control the temps with it as well because of the loss of temp from
+small drops falling through cool air. From that point on I just used the HLT
+tubing lying on top of the grain bed.
+
+
+In my opinion, Martin hit it on the head when he said, "The other reason I
+believe that homebrewers use sprinkler systems is
+because the big boys use them." Just think about it, if your mash tun is 10,
+20, maybe 30 feet or more across it *would* be a big deal to get the
+recirculation and sparge water to distribute evenly across the huge surface
+area, but on a homebrew scale with a mash tun maybe 18 in across?? it is
+*not* a big deal. 
+
+
+My HLT has a 1/2 tube coming off it - same as my pump for recirculation. I
+make sure the tube is under the surface and sparge or pump away. Every once
+in a while I move it around on top. That's it. This very simple method gives
+me efficiencies in the mid to high 80s for every brew.
+
+
+Martin also comments, "I've seen several sprinkling systems on the market or
+created by homebrewers.  I agree with the premise that we need to gently
+distribute sparge water across the grainbed without disturbance."
+
+
+Why? I repeatedly disturb the top inch or two of the grain bed with no ill
+effects... I suppose if you shot a high powered jet of water into the bed or
+jammed your tubing down close to the false bottom you might loose the filter
+bed but who would do that?  With a grain bed of a foot or more you can
+probably muck around all you want on top and never see any difference in the
+clarity of the runnoff.
+
+
+Just my two cents.  I've always wondered about the energy and elaborate
+innovative designs that have gone into making what I feel is a somewhat
+worthless piece of homebrewing equipment. Now I'm sure I will hear endless
+arguments from people who are in love with their specially designed manifold
+system of sparge water distribution along with filter bed flow patterns and
+calculations of how to eke out that last percent of extract.... Bring 'em
+on... maybe you will persuade me to make my own.  ;>)
+
+
+Troy
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 08 Aug 2001 10:51:26 +0200
+From: Massimo & Rosalba <rosamax`at`split.it>
+Subject: Re: At last a trip to Europe...
+
+
+Hi!
+
+
+>     My girlfriend and I are going to Europe in Sept for 3 weeks and would 
+>like some recommendations as to where to stop for good beer?? We will be 
+>driving a rental and don't mind some off the beaten track kinda gigs. We 
+>will be visitng England(shortest stay of all due to distance and time 
+>constraints), Belgium(Brussels and Antwerp), Germany(Nuremburg and Munich 
+>for Oktoberfest), Switzerland(Zurich, Interlakken, Thun, and Zermatt to see 
+>the Matterhorn), Just over the border to say we went to Italy and to have 
+>some good Italian food, then up[ through France on our way to Amsterdam. 
+
+
+Even if you want to go "just over the border to Italy" you will be
+able to sample some good italian beers, as the best 3 brewpubs/micros
+are all in NW Italy... they are:
+ - Le Baladin in Piozzo (CN) - Piemonte
+(about 2.5h from Swiss border)
+Absolutely n.1: excellent ales (brewer studied in Belgium and worked
+with Brasserie Vapeur among others). Specializing also in bottle
+conditioned ales.
+ - Birrificio Italiano in Lurago (CO) - Lombardia
+(close to swiss border)
+Best italian lagers. Well known for food also.
+ - Birrificio Lambrate in Milan - Lombardia
+Nice little place with some very good ales.
+
+
+There are also other good brewpubs (though IMO not up to the same
+level), e.g. Beba in Piemonte mountains, Busalla near Genova (my
+town), and Cittavecchia in the "Far east" near Trieste. In this moment
+there are about 70 brewpubs and microbreweries here in Italy (they
+were no more than 5 or 6 just 3 years ago).
+You can find an (almost) complete listing, including address, tel.
+numbers and some reviews in this section of my beer/homebrewing site:
+http://www.maxbeer.org/eng/guide.htm (it's in english!)
+There was a long and interesting article on Italian brewing in the
+January Issue of All About Beer, written by my friend Lorenzo.
+Here you can find an HTML version:
+http://www.allaboutbeer.com/features/216italbrew.html
+It's a bit messed up because it is "glued" with a fragment of an
+article about czech beer, and it is missing some informations, so if
+you have the magazine it is better to read it there.
+
+
+So HBDers, don't forget Italy during your Europe beer trip... it's not
+just food and wine ;-)
+
+
+Ciao
+Massimo Faraggi - Genova, Italy
+www.maxbeer.org
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 11:55:55 +0200
+From: "G Zellmann" <gregor`at`blinx.de>
+Subject: Re: Copper toxicity
+
+
+Hi fellow brewers,
+
+
+a few days ago the topic of copper toxicity came up in HBD.
+
+
+I am sure that copper can be potentially toxic to yeasts and other organisms
+in big amounts. On the other hand yeast loves traces of copper to reproduce
+healthily!
+
+
+a befriended brewmaster who owns and runs a traditional brewery in Bavaria
+made the following observation:
+
+
+He invested *lots* of money in a new 15 hl brewery recently, 100% made of
+stainless steel (kettles, piping, conical fermenters, conical lagering
+tanks). He took over the old brewery from his father and bought the new one
+to save time and energy costs.
+But with the new brewery and the old recipes, his beers would ferment down
+*always* a few points higher than with the old one. After trying different
+things with unsatisfying results (still too high FG), he finally decided to
+get the brass false bottom from his old mashing kettle cut to size and
+replace the new ss one. This solved all his fermenting troubles!
+
+
+I know of other ss breweries where the brewers hang a piece of copper into
+the boil to get some "vitamines" for the yeasts.
+
+
+I use a copper manifold as a strainer in my mash kettle and cool my worts
+with a copper immersion chiller. This seems to work fine.
+
+
+just my 2 Pfennige
+
+
+greetings
+
+
+Gregor Zellmann
+Berlin, Germany
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 07:45:34 -0400
+From: "RJ" <wortsup`at`metrocast.net>
+Subject: Re: Dry Hopping with pellets
+
+
+"Branam, Mike" <Mike.Branam`at`ccur.com> wrote:
+
+
+"I brewed an all grain Fuller's ESB this past weekend and will be racking it
+next weekend. The recipe calls for it to be dry hopped. The hops I got are
+pellets. Can I just sprinkle them into the top of the secondary carboy or do
+I need to put them in a hop sack? I usually add unflavored gelatin to the
+secondary a couple of days after racking. Will this cause a problem with the
+hops?"
+
+
+You can just toss them in or put them in a hop bagged weighed down (I use
+ceramic pie plate balls as they are relatively heavy and inert and move
+easily on removal), but in either case you'll need to rack again before
+doing the gelatin step.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 08:04:13 -0500
+From: "Erik Nelson" <heimbrauer`at`astound.net>
+Subject: Dry hopping
+
+
+I would like to know from those who have experience with this since I am new
+at it.  I will be dry hopping an esb that I will be making.  I would like to
+know if it is better to use hop pellets vs hop plugs.  One person told me to
+use plugs.  I will be putting them in a mesh bag in the secondary for two
+weeks
+
+
+Thanks
+
+
+Erik Nelson
+heimbrauer`at`astound.net
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 09:27:04 -0400 (EDT)
+From: Steven <stevensl`at`mindspring.net>
+Subject: Re: opensource brewing software
+
+
+
+
+> Check it out at http://www.usermode.org/code.html  If it doesn't provide
+> all the features you're looking for, let the development team know (or
+> better yet, get involved yourself).
+
+
+Hrm looks intresting. Got it, frankly its quite nice.
+
+
+> There are also pre-compiled binaries available for Debian and SuSE
+> Linux, or you can build your own from source.  It uses the Qt widget
+> set, which is also freely available at www.trolltech.com.
+
+
+There is also a *BSD port located in /usr/ports/misc which compiled fine
+under 4.3-stable for me.
+
+
+> If you're looking for a Windoze or Mac port, I don't know of any, but
+> then what is the point of a "free" program after purchasing a
+> proprietary OS?
+
+
+Technically speaking this could be easily ported to windows and mac. QT
+has runtime libs for both mac and windows, the only limitation the the GUI
+interface. Should be mickey mouse under windows, mac a bit more difficult
+but nevertheless do-able. 
+
+
+I'll fiddle with it under OS X and see what can happen.
+
+
+
+
+ Steven St.Laurent ::: stevensl`at`mindspring.net ::: 403forbidden.net
+
+
+"Outlook not so good." 
+That magic 8-ball knows everything! 
+I'll ask about Exchange Server next.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 08 Aug 2001 08:29:52 -0500
+From: Joe Yoder <headduck`at`swbell.net>
+Subject: Dry Hopping with pellets
+
+
+Mike wrote:
+<I brewed an all grain Fuller's ESB this past weekend and will be
+racking it
+next weekend. The recipe calls for it to be dry hopped. The hops I got
+are
+pellets. Can I just sprinkle them into the top of the secondary carboy
+or do
+I need to put them in a hop sack? I usually add unflavored gelatin to
+the
+secondary a couple of days after racking. Will this cause a problem with
+the
+hops?>
+
+
+I always use pellet hops when dry hopping.  I simply add them to the
+secondary.  The hops always seem to drop out in about a week and then I
+keg the beer.  I don't use gelatin and I don't have problems with hop
+particles in my finished beer.
+ymmv
+Joe Yoder
+Lawrence, KS
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 08:59:59 -0500 (CDT)
+From: Joel Plutchak <plutchak`at`ncsa.uiuc.edu>
+Subject: RE: Software (Piracy)
+
+
+in HBD #3703, Sam Ritchie wrote:
+>I'm interested... I've actually started to put together an xml schema for
+>a cross-platform, cross-measurement-unit recipe file format - I would
+>prefer it to be a community owned and driven concept; if we managed to
+>get a software project going, it would be an ideal forum for feedback &
+>further development.
+
+
+   Yes!  A couple years back a group brewing software effort
+started, and I tried to get them to use emerging standards
+like XML.  They'd have no part of it-- too complex, they said.
+Use platform-independent, sensible stuff like XML and Java and
+I'll contribute.
+   Incidentally, I haven't heard from the aforementioned group
+of software writers, so I assume that effort died in the
+fermenter.
+
+
+Joel Plutchak <plutchak`at`ncsa.uiuc.edu>
+Brewin' Java, XML, and beer in East-Central Illinois 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 08:17:45 -0400 
+From: "Moyer, Douglas (IndSys, SalemVA)" <Douglas.Moyer`at`indsys.ge.com>
+Subject: Trip to Belgium
+
+
+Beer Travelers,
+        SWMBO has granted my wish to take a vacation to Belgium specifically
+to visit beer-related sites. For those of you that have done similar trips,
+is any time of year significantly better than the rest? Any time that would
+clearly be a bad idea? Kel suggested November (citing that we will be doing
+beer stuff and not, therefore, concerned with the weather) but, bereft of
+information, that seems like a bad idea.
+        Comments and suggestions?
+
+
+
+
+
+
+Brew on!
+Doug Moyer
+Salem, VA
+
+
+Star City Brewers Guild: http://hbd.org/starcity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: 08 Aug 2001 16:50:24 +0200
+From: Skyking <skyking`at`bredband.net>
+Subject: Software Piracy / Opensource brewing software
+
+
+
+
+Christopher Farley brought up the idea of starting a project for
+developing an opensource brewing software (hbd#3702) and I would like
+to give my point on this and related stuff. 
+
+
+If there is a point in actually developing such a program I think it
+has to be more than a simple spreadsheet or even a advanced
+spreadsheed and I wouldn't think that bundling it with a custom made
+software for accessing the spreadsheet doesn't alter that property.
+
+
+As for QBrew (Rorik Peterson, hbd#3703), after checking it out I think
+it looks just like that, namely something that could as well easily be
+implemented through a spreadsheet. 
+
+
+As for contributing to the project I'm interested in programing and
+I've outlined some ideas about some sort of brewing software, but my
+interest is dependent on a meaningful concept as stated above. In
+addition I think there should be more than programmers involved in a
+project like this, first ther have to be potential users (other than
+the programmers) with ideas of what the software should be like and
+later there has to be someone to write decent documentation on the
+program. So I think the first thing we would have to do is to assemble
+a team and outline what we want to do and see if we have a project at
+all. If we get this going I think we need a separate mailing list and
+sooner or later a cvs repository.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 13:41:00 -0400
+From: JGORMAN`at`steelcase.com
+Subject: CO2 and Germany
+
+
+I purchased a used CO2 tank from a welding shop.  Has anyone ever experienced
+a contaminant of some sort from their tank purchased at a welding supplier?  I
+assume the only way this would happen would be during hydro-testing when the
+valve is off.
+
+
+Is it still true that you can only get a koelsch in Koln?  I am going to be in
+Nuremburg in September was hoping to try and authentic koelsch but
+unfortunately won't have the time to go to Koln.
+
+
+
+
+
+
+Jason Gorman
+River Dog Brewery
+Grand Rapids    MI
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 14:00:46 -0500
+From: "Scott Basil" <sbasil`at`glasgow-ky.com>
+Subject: Sour mash beer
+
+
+I have been brewing for several years, and have experimented with a lot of
+different styles.  But, being from Kentucky, I've always been curious about
+sour mash beer.  It doesn't seem like very many people have tried it, and the
+only recipe I have ever seen was in Charlie P's book.  Has anybody out there
+tasted or brewed a sour mash recipe?  Is it worth the time and effort?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 08 Aug 2001 19:22:09 +0000
+From: AJ <ajdel`at`mindspring.com>
+Subject: pH
+
+
+
+
+A couple of weeks ago there was debate as to how well one could measure
+pH. Yesterday the ASBC journal came and in the back they summarized
+results from the 2000 check service program. The way this works is that
+subscribers are each sent the same beer and each analyzes it in his
+laboratory. The results are then sent back the ASBC for collation. In
+2000 18 domestic and 17 international breweries participated and two
+check sample were sent out. For the first  set the standard deviation in
+pH measurement across all the labs was 0.10 pH with a mean of 4.25, a
+max of 4.37 and a min of 4.00. Pretty pathetic all around. For the
+second beer the standard deviation was 0.05 units with a mean of 4.50 a
+max of 4.62 and a min of 4.38. The first set of data hints that the 0.1
+value suggested by some might be as good as one can expect whereas the
+second set hints that half that would be a reasonable expectation. The
+fact that two professionals can measure the same sample opf beer and
+come up with answers 0.37 pH units apart just  boggles my mind. It guess
+it just proves that it doesn't matter who you are, where you work or how
+much experience you may have; if you don't know what you are doing
+you're likely to draw erroneous conclusions.  So we assume that the high
+and low guys blew it for the group. Backing out those two measurements
+gets the SD on the first beer down to 0.087 IOW it wasn't those two guys
+alone that were responsible for this miserable performance. In fact one
+begins to suspect that maybe exemplars from that set underwent pH
+changes during shipping. The fact that the second sample was so much
+better (SD 0.038 with the highest and lowest readings backed out) tends
+to suggest this.
+
+
+Before being too critical of these anonymous brewery lab workers I
+should point out that my own guys rejected a dozen microwave connectors
+based on failure to adequately consider calibration when using a network
+analyzer (a device even more finicky than a pH meter). They were, in
+fact, all good.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 18:24:37 -0500
+From: "Sean Richens" <srichens`at`sprint.ca>
+Subject: NIR spectroscopy
+
+
+Jim Suchy was good enough to send me a pdf of the following.  Unfortunately,
+I don't have a website, so I can't make it available online.  Good luck in
+tracking it down.
+
+
+J. Am. Soc. Brew. Chem. 58(2), 73-82, 2000
+Garden, Scott W., Pruneda, T., Irby, S., Hysert, D.W.
+Development of Near-Infrared Calibrations for Hop Analysis
+
+
+They use 1100-2498 nm wavelength range on hop samples coarsely ground, then
+finely ground in a Braun coffee grinder.  After that it gets complicated.
+
+
+Sean Richens
+srichens.spamsucks`at`sprint.ca
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 22:45:44 -0400
+From: "Mark Tumarkin" <mark_t`at`ix.netcom.com>
+Subject: Competition Software
+
+
+Hey y'all,
+
+
+I am a member of the AHA Board of Advisors. We are evaluating several software
+packages designed for running Homebrew Competitions. At this point, we are
+brainstorming a Features/Functions wish list. We will use this wish list to
+evaluate and compare a number of packages to try to find one that we can then
+offer to AHA and BJCP Sanctioned Competitions as freeware (at no or minimal
+charge). We'd like to choose the best possible package and then work with the
+developers to add any missing critical features. I'd like to ask for input
+from anyone who has experience as a Competition Organizer. We'd like to come
+up with a comprehensive, easy to use package that would do as much as possible
+to make organizing and running a competition easier.
+
+
+Please email me with a list of the features and functions that you'd like to
+see in this type of software. Also please let me know if you have developed
+such a package or have used  software that we should consider in our search.
+The more input we get at this stage, the better decision we'll be able to
+make. I think this is a project that will benefit the entire homebrew
+community and I'd like to invite you to help.
+
+
+It would probably be best to email me directly on this, though if there's
+enough interest we can certainly brainstorm on this list as well,
+
+
+Mark Tumarkin
+AHA Board of Advisors
+mark_t`at`ix.netcom.com
+or
+MarkTumarkin`at`aob.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 22:40:35 -0500
+From: "Sean" <SeanL`at`houston.rr.com>
+Subject:  2001 Dixie Cup Competition Announcement "La Copa Dixie"
+
+
+The Houston Foam Rangers Homebrew Club
+presents
+
+
+The 18th Annual Dixie Cup
+Homebrew Competition
+"La Copa Dixie"
+
+
+October 19-20, 2001 - Houston, Texas
+
+
+Come join the Houston Foam Rangers as we host the biggest homebrew fiesta,
+"La Copa Dixie".
+
+
+Date: October 19-20, 2001
+
+
+Location: Courtyard by Marriott - Galleria, 3131 West Loop South, Houston,
+Texas
+
+
+Eligibility: Open to any one who wishes to enter. Entries cannot be brewed
+in a commercial-type facility. Names of all persons brewing the beer must
+appear on the entry form.
+
+
+Regular Entry Due Date: October 5, 2001
+Regular Entry Fee: $6.00 per entry. (Check or money order payable to The
+Hosuton Foam Rangers).
+
+
+Late Entry Due Date: October 12, 2000
+Late Entry fee: $10.00 per entry. (Check or money order payable to The
+Houston  Foam Rangers).
+
+
+Entries: 3 unmarked 8-16 oz. brown or green unmarked bottles, for beer and
+cider. Please, no raised glass or silk screen markings or labels on the
+bottles. Printed caps must be blackened out. For mead entries, 6 oz.
+bottles, "nips" are permitted.
+
+
+Categories: Ribbons awarded in 40 Categories of Beer, Cider and Mead. See
+BJCP guidelines for details.
+
+
+One way in which we have fun is with one special beer category each year.
+The style isn't "normal" by any stretch of the imagination. Past styles have
+included "Big and Stupid", Malt Liquor (Served in a 40 oz. clear glass
+bottle that the judges passed around), or last year's "Imperial Beers.  This
+year is no exception as we offer "Beers That Burn Twice", any entry using
+hot peppers as an ingredient, and with a minimum original gravity of 1.070.
+
+
+Send your entries to:
+
+
+The Dixie Cup
+c/o DeFalco's Home Wine and Beer Supply
+8715 Stella Link Rd.
+Houston, TX 77025-3401
+
+
+Reservations: Courtyard by Marriott - Galleria Phone: 1-800-321-2211, or
+713-961-1640
+Important: Specify "Dixie Cup Homebrew Competition" to get
+$55.00 per night rate!
+
+
+Events: Covered in admission: All judging events, Potluck Supper, Fred
+Tasting, Saturday Milliconference, Award ceremony Ticket required for
+Saturday afternoon Pub Crawl
+
+
+For more information contact Jimmy Paige `at` 713-956-8438, or 281-894-0307 or
+e-mail: hop5`at`gateway.net , web site: www.foamrangers.com
+
+
+Mark your calendar for October 20 and 21, 2000!
+We hope to see you here, but bring your own sombrero!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 8 Aug 2001 22:58:31 -0500
+From: "Gary Smith" <mandolinist`at`interlync.com>
+Subject: Oxidation during lautering
+
+
+
+
+>  Christopher Mika asks:
+> 
+>  >One other issue I could use some input on is in the design of a sparge
+>  arm
+
+
+FWIW,
+
+
+My new sparge arm is probably an old design. I made it out of 1/2" 
+copper pipe, T fittings and 90 degree elbows:
+
+
+Parts list:
+
+
+11: 1/2" T's
+12: 1/2"  90 degree elbows
+16: 1/2" sections 1" long
+6:   1/2" sections 2 1/2" long
+1:   1/2" section 4" long
+1:   1/2" ID Norprene tubing 2" long
+1:   1/2" barbed Female quick disconnect from movingbrews
+
+
+
+
+there's a center T with the inflow being a 4" tube. 
+
+
+To that is are 2.5" tubes attached. These tubes run into T's which 
+also have 2.5" tubes attached.
+
+
+The tubes run into T's
+
+
+At the outer hole from the T's I connected a 90 degree elbow 
+(These are about 2 inches from the sides of a 15 gal SS keg).
+
+
+At ther inner hole from the T's I connected another T joining via a 1" 
+piece of pipe. On both ends of these T's I joined 90 degree elbows.
+
+
+All are silver soldered.
+
+
+This gives me 12 1/2" openings aproximately 3 1/2" apart from 
+each other evenly spaced. 
+
+
+The only "gap" in the even placement is at the T ends of the first 
+2 1/2" tubes coming from the inflow. 
+
+
+If I could have found a four way connector, I could have put a 90 
+degree elbow at that junction point making 14 outlets and all 3 1/2" 
+apart but I think that would be a mistake. I suspect the fluid would 
+take the path of least resistance and most of the liquid would be 
+forced out of those first 90 degree elbows.
+
+
+As it is, all the water gets equally forced down each arm which has 
+three outlets so the liquid gets evenly dispersed.
+
+
+It rests in the keg with about a 2" margin between the arm & the 
+side of the tank.
+
+
+This will be used for both RIMS & sparge. There's a Movingbrews 
+quick disconnect on the top of it so when it comes time to sparge, 
+I'll just switch connectord to the sparge tank.
+
+
+I had fun working the pattern out on autocad so that it would give 
+the maximum dispersion.
+
+
+Well, I made this part but my RIMS is still not completed. I did run 
+water through this contraption with my peristaltic (for sparge) & 
+magnetic (for RIMS) and it does a wonderful job of evenly 
+distributing the water with no discernable eddy currents.
+
+
+Yup, the proof is in the pudding though so I'll keep y'all informed 
+how well it does when put to the acid test.
+
+
+Cheers,
+
+
+Gary
+
+
+http://www.geocities.com/dawgmandolin
+
+
+P.S.: One thing I'd like to know is what's the best way to remove 
+any flux inside copper pipes once you've silver soldered them?
+
+
+I thought about making a soapy solution & recirculating it through 
+the arm for half an hour or so. Maybe a vinegar bath & recirculate 
+that?
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3704, 08/09/01
+*************************************
+-------

@@ -1,0 +1,1478 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA03655;
+        Thu, 21 Sep 2000 00:29:12 -0400 (EDT)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA24153;
+        Thu, 21 Sep 2000 00:29:10 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA11340
+        for realhomebrew; Thu, 21 Sep 2000 00:23:40 -0400
+Date: Thu, 21 Sep 2000 00:23:40 -0400
+Message-Id: <200009210423.AAA11340`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3435 (September 21, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3435                             Thu 21 September 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Brewery automation and mash control ("Todd M. Snyder")
+  MO and Haze ("Mark Vernon")
+  Re: The mystery of the yawning yeast (Project One)
+  Beestons, Marris Otter etc ("Nigel Porter")
+  Manhattan, London, Belfast ("Matt Hollingsworth")
+  take a closer look at that beer ("Tom Lombardo")
+  Plastic carboys (Richard Foote)
+  SWMBO ("Al Beers")
+  In SJ/SF? (Spencer W Thomas)
+  RE: professional kettles and missing the joke ("Brian Lundeen")
+  Moth Control (Darla Elsken)
+  Can't make it to Germany for Oktoberfest? ("Mark Tumarkin")
+  Pumps - Setting the record straight ("Donald D. Lake")
+  Re: Restarting Coopers sediment ("Dave McGuinness")
+  crystal malt at home? (JohanNico)" <JohanNico.Aikema`at`akzonobel.com>
+  re: liquid ph te sts (Edward Doernberg)
+  "Thing", Please Hand Me A Cigar ("Phil & Jill Yates")
+  RIMS Automation (Ray Kruse)
+  re: Indian Meal Moths (Matthew Comstock)
+  RE: Beechwood Aging (Tim  Burkhart)
+  FWH == YUM! ("Dan Stedman")
+  Otter malt ("Nathaniel P. Lansing")
+  Re-using Coopers Yeast ("Dave Edwards")
+  Saw Dust in wort? ("J. Doug Brown")
+  Blue Ridge Brew Off Results ("Jay and Arlene Adams")
+  AJ's Experiment, Purging, oak chips (Dave Burley)
+  Attention Fridge Guy (Scott Jose)
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+
+
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 19 Sep 2000 12:42:32 -0400
+From: "Todd M. Snyder" <tmsnyder`at`buffalo.edu>
+Subject: Brewery automation and mash control
+
+
+Hi Mike, 
+
+
+You can absolutely control external circuits using any old PC. Did you
+want to program in QuickBasic or VisualBasic? The nicest way is to use
+the parallel port, but these controls are only on/off output or on/off
+input. If you have access to a A/D board, thats the way to go if you
+want to measure and control the mash temperature. If you have a newer
+computer you could write a nicer VisualBasic program for it. I'll go
+though these one at a time:
+
+
+>1. How can I turn on a switch to the mashmixer.  Pretty simple question, I 
+>think.  Is it called a relay?  I think so.  From the people who have 
+>already automated your brewery what relay(s) do you use and where did you 
+>get them?
+
+
+Using the parallel port, you can turn on and off an individual bit so
+that if you have a 5VDC relay hooked to that one pin, it'll switch it on
+and off. I have a great book on the subject 'Parallel Port Complete' by
+Jan Axelson; www.lvr.com. If you'd like, I could write you the specific
+info you need, or you could just buy the book and blow your mind! The
+book is that good. The relays can be had at RadioShack, or www.mpja.com
+for cheaper. It's sort of a surplus place. I would get solid state
+relays if possible. They're optically isolated so no voltage spikes or
+anything can get back to the computer. 
+
+
+>2. I do not want a RIMS.  I want to keep the existing propane setup.  I 
+>looked in Grainger for a gas valve solenoid and think I've found one that I 
+>can use.  Has anyone used a gas valve solenoid?  If so which one and how 
+>did you wire it?  Do you need another relay to flip the solenoid switch?  I 
+>was thinking of using a small pilot light, so I don't have to worry about 
+>igniting and turning on the gas.  If anyone has any better suggestions on 
+>this part of the automation, I'd love to hear about it.
+
+
+I don't blame you for not wanting a RIMS. I started down that road and
+quickly realized that it was much cheaper and easier to use a 10 gallon
+Gott cooler and hit my target temperatures the first time so I wouldn't
+need to adjust temps later on. As far as a solenoid valve for the gas,
+you should be able to do that. Get a normally closed valve (NC) suitable
+for LP pressure and hopefully 5VDC. That way you wouldn't need a relay.
+It may be cheaper though to get a 120VAC valve and use another SSR
+relay, like above with same advantage of being isolated. They may have
+one cheap at mpja.com, or try www.mcmastercarr.com for more $. 
+
+
+>I plan on scrounging and finding an old IBM AT or such and one of those 
+>cards that plug into it for controlling switches and stuff.  I think it's 
+>called an A/D controller. I'm pretty good at programming, so I thought I'd 
+>write a basic program that reads the different inputs and turns on switches 
+
+
+If you can get your hands on an A/D card, do it. If you can't, I just
+saw a cheap 12 bit, 8 channel converter for the parallel port at
+http://www.mpja.com/product.asp?product=8418+KT for $55. It's a kit,
+supposedly, so you may have to do some soldering. I've done one of their
+kits for DC motor control and it was no problem. I don't see how it
+could require much soldering though, the thing looks tiny. Usually they
+spread the circuit out over a board so you can get at the soldering
+points, so I think it must be already assembled. I'll have to check my
+catalog at home. If you use this one, you'll lose the parallel port, but
+it appears to have 4 TTL outputs so you could drive 4 relays. Looks like
+you only need 3. If you can free up the parallel port (if you have an
+A/D card), you can monitor 5 pins and control 12. Or you could even add
+an expansion card with a couple parallel ports for a whole bunch of
+input and output lines! But you shouldn't need that.  
+
+
+>or gas.  For safety I plan on reading the temperature of the HLT or mash 
+>and if it doesn't rise in 30 seconds or so shut the gas down and sound an 
+
+
+Good idea, 30 seconds worth of gas couldn't do too much damage. There
+might be a lag in the temperature rise though, so you may have to play
+with the software to deal with this. Or maybe there is a electronically
+inclined person lurking that could come up with an electric 'eye' that
+would verify that the flame is lit and send a signal of 0 or 5VDC to be
+read by the parallel port? That's something to work on later.
+
+
+>alarm.  My inputs and outputs would be:
+
+
+>Input: HLT temperature
+>Input: Mash Temperature
+
+
+I was just looking at a temperature sensitive resistor at RadioShack, a
+thermistor, 103AT. It has 12.09 Kohm resistance at 20C and 0.9735 Kohm
+resistance at 100C. If you pulled one of the parallel port pins high
+(5VDC) and used it as a voltage source, you could run the thermistor in
+series with a fixed resistance and measure the voltage drop across the
+resistor using the A/D board. Just make sure the board resistance is
+much bigger than the circuit you're monitoring. Shouldn't be a problem,
+they're usually on the order of Mohm while you're circuit is on the
+order of kohm. I was going to use a 10Kohm resistor, so at 20C you'd
+read 2.23 VDC and at 100C you'd see 4.55VDC. They're $2 each, so pretty
+cheap. If you use the A/D converter kit from above, it'll only read up
+to ~4 VDC, so you'll have to use a smaller resistor, like 5K to bring
+the voltage signal down into an acceptable range. At 1K, the voltages
+are 0.38V and 2.53VDC which would be ok, but I'd use a larger value to
+keep the current down.
+
+
+>Output: Mashmixer relay(?)
+>Output: HLT Gas Solenoid Relay(?)
+>Output: Mash Tun Gas Solenoid Relay(?)
+
+
+As above, parallel port pins (individual bit control) to switch SSR's
+on/off, and solenoid valve to control gas flow. The solenoid valves are
+probably going to be the most expensive part of this. 
+
+
+If you'd like some help, let me know. I can give you a couple short (1-2
+line) Basic routines that switch on and off individual bits. It all
+seems complicated but it's not. You'll be amazed how simple it really
+is.  Also might be able to help you getting the A/D card working. Need
+to know make and model, do you have any literature on it? The info
+should be there, it's just a matter of deciphering it. 
+
+
+Todd Snyder
+Buffalo, NY
+
+
+
+
+
+
+
+
+
+
+>Algorithm
+
+
+>Heat Mash Tun to Strike temp ----> 20 min
+>Beep to alert brewer waits for brewer to press enter
+>Brewer pours grains in and mixes ---> 2 minutes
+>Brewer presses enter to start automation
+>system rests for strike rest -----> 15 min
+>30 seconds before time is up turn on mashmixer
+>Turn on mash tun gas solenoid relay
+>Heat until sac rest temp ----> approx. 15 min
+>wait for sacc rest time maintaining temp -----> 60 min
+>Turn on HLT gas solenoid relay 50 min before end.
+>30 seconds before time is up turn on mashmixer
+>Turn on mash tun gas solenoid relay
+>Heat until mash out temp is reached ----> approx. 20 min
+>alert brewer that it is time to sparge.
+>done.
+ 
+>any thoughts?
+
+
+Sounds good. 
+
+
+> - Mike from New Lenox, Il.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 10:34:27 -0700
+From: "Mark Vernon" <mark`at`pleasantstreet.com>
+Subject: MO and Haze
+
+
+In digest #3432 Nathaniel Lansing states
+>If I remember correctly MO is the only winter barley to be approved
+>for malting. This is because winter barleys tend to be too high in
+>protein levels. Maris Otter is the lowest protein level of the winter
+>barleys but it is still high, 11.5 the last spec sheet I saw. Perhaps=20
+>haze is the typical with MO. It is marketed for its' flavor, not its'
+>chill-proof ability. Granted a few process problems could lead to
+>haze but with several people mentioning the problem it could
+>be the source barley's characteristic.
+>
+>NP Lansing
+I only use Muntons Marris Otter for my Ales and have NEVER had a problem =
+with haze, exactly the opposite in fact..all my brews are crystal clear =
+with just a standard single infustion mash, so I know the haze problem =
+is not typical behavior for all Marris Otter malt
+
+
+Mark Vernon
+Pleasant Street Brewery
+www.pleasantstreet.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 10:34:20 -0800
+From: Project One <project1`at`pond.net>
+Subject: Re: The mystery of the yawning yeast
+
+
+Jason,
+
+
+I've been going through this recently with 1338.  Did a single decoction 
+Octoberfest-ale sorta thing, pitched w/ 1338 shampoo tube without a 
+starter.  It was about 80% Munich, but mashed at 148 so it (theoretically) 
+would be pretty fermentable.  Started at 1.063.  After about 6 days or so, 
+it looked like the yeast was about done.  I did as I always do, and roused 
+the yeast & left it for a few more days.  After 12 days in primary, racked 
+to secondary.  SG was 1.036!!  Pitched a pack of Danstar Nottingham, hoping 
+it would help it finish.  After another week (all the while the airlock was 
+bubbling slowly), it was only at 1.032.  Added 1/2-1 tsp. of yeast 
+nutrient.  Checked yesterday and it was finally down to 1.018 and airlock 
+activity seemed nonexistent.  This was all over the course of 5 
+weeks!  Anyway, gonna bottle the sucker tonight & hope for the best.  BTW, 
+tasting the hydrometer sample, the beer was delicious.  Not at all what I 
+set out to make, but hey, it was beer & it tasted good.
+
+
+                 ------------>Denny
+
+
+At 12:19 AM 9/19/00 -0400, you wrote:
+>------------------------------
+>
+>Date: Mon, 18 Sep 2000 14:57:42 GMT
+>From: "Foster Jason" <jasfoster`at`hotmail.com>
+>Subject: The mystery of the yawning yeast
+>
+>If I may humbly request some insight into a fermentation that I have never
+>experienced.
+>
+>On August 23, I brewed up an ale. A 70 minute mash completed conversion
+>(tested with an iodine test). Boil, cooling, etc. all went according to
+>plan. No hitches. Original gravity 1.060. Also, I added 500g brown sugar to
+>the boil (an intentional addition for this recipe only).
+>
+>I have never seen this slow a fermentation before. I have done this recipe
+>before - but not with this yeast. It went perfectly last time - fully
+>fermented in a week, with a couple weeks after for clearing.
+>
+>So, what's up? Can anyone help? Should I add more yeast? Or not worry and
+>just wait longer?
+>
+>Perplexed in Edmonton.
+>
+>Jason Foster
+>Edmonton, Alberta, Canada
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 19:15:27 +0100
+From: "Nigel Porter" <nigel`at`sparger.co.uk>
+Subject: Beestons, Marris Otter etc
+
+
+Well said Robin - summed up exactly what I was going to say.
+
+
+As for the person who said they wouldn't buy any more Beestons 
+malt, that won't be a problem as the powers to be have decided to 
+shut the maltings - it is situated in a nice old building in the centre of a 
+town, which is worth a fortune for redeveloped into posh flats.
+
+
+Beestons is one of the last traditional floor maltings left in the UK. 
+The owners (one of the big maltsers, can't remember who) is 
+planning to move prodcution to their industrial malting plant - not sure 
+if the name Beestons will still survive.
+
+
+I use Beestons Marris Otter alsmost exclusivly as my base malt and 
+havn't noticed any problems with it - there again I don't chill my ales. 
+Also, what is the problem with a chill haze - does it affect the taste? 
+Remember you drink with your mouth not your eyes.
+
+
+Also, am I right in assuming wanker is not a known term in the US? 
+Back to two nations (or three including the Aussies) seperated by a 
+common language again.
+
+
+Nigel
+Guildford, UK
+
+
+
+
+------------------------------
+
+
+Date: 19 Sep 2000 12:04:32 -0700
+From: "Matt Hollingsworth" <colorart`at`spiritone.com>
+Subject: Manhattan, London, Belfast
+
+
+Hello!
+
+
+In late October/early November I'll be visiting these cities.  I'm hoping to
+try micro/brewpub beer and real ale, and am looking for recommendations.  I
+like worn in places rather than hardcore tourist traps, but anything with
+really good beer is acceptable.  Anyobody with places to recommend or even
+books to check out on the subject can e-mail me or post here. (Of course,
+I'll check out CAMRAs book)
+
+
+Thanks for any help.
+
+
+Cheers!
+
+
+ -Matt 
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 14:08:47 -0500
+From: "Tom Lombardo" <toml`at`ednet.rvc.cc.il.us>
+Subject: take a closer look at that beer
+
+
+Ever wonder what beer looks like through a microscope?  Check out
+http://micro.magnet.fsu.edu/beershots/index.html
+
+
+Tom
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 15:13:05 -0400
+From: Richard Foote <rfoote`at`mindspring.com>
+Subject: Plastic carboys
+
+
+A couple HBD'ers out there asked whether plastic carboys were Okay to use
+as fermenters.  The two plastics identified were no. 1 (PETE) and 3 (V).
+Also, those plastic water bottles used on commercial water coolers were
+also mentioned.
+
+
+No. 1 or PETE plastic (Polyethylene Terephthalate) is a polyester based
+plastic that is approved for food contact use.  It is used for soda
+bottles, cooking oil bottles, salad dressing, catsup bottles and even
+[gasp], beer bottles.  Because PETE does not provide an oxygen barrier by
+itself, the beer and plastic folks spent a lot of time and research to
+develop the new beer bottle that is so loved by beer lovers and recyclers
+alike.  To solve the oxygen barrier problem, the PETE beer bottle had to be
+made of several (six I think) layers.  One of these layers is the actual O2
+barrier layer.  Your PETE water bottle would not have this.  So if O2
+permeability is a concern...
+
+
+No. 3 is Polyvinyl Chloride (PVC).  This is used in many food contact
+containers, especially cooking oils and some bottled water bottles.
+
+
+The other plastic used for commercial water coolers is polycarbonate, a
+rather rigid and inflexible clear plastic.
+
+
+Many of these 5 gal. water bottles have ridges molded in for strength.  One
+concern would be ease of cleaning.  Oxygen permeability would be a concern
+as far as oxidation.  That's why they had to resort to the multi-layer
+plastic beer bottle.  
+
+
+I know when I was looking for an oxygen barrier bag for storing hops, no
+single plastic on its own would do the job.  I ended up with an LDPE (low
+density polyethylene), mylar, PETE combo.
+
+
+My two cents.  
+
+
+
+
+Rick Foote
+Whistle Pig Brewing and Home Remodeling
+Murrayville, GA 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 16:14:41 EDT
+From: "Al Beers" <albeers`at`hotmail.com>
+Subject: SWMBO
+
+
+
+
+<By the way, what is a SWMBO?
+
+
+<Jerry "Beaver" Pelt
+
+
+________
+That would be "She Who Must Be Obeyed".
+
+
+_________________________________________________________________________
+Get Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com.
+
+
+Share information about yourself, create your own public profile at 
+http://profiles.msn.com.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 16:36:37 -0400
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: In SJ/SF?
+
+
+Ok, so I'm in San Jose for a conference on Oct 4-6.  I'm arriving
+fairly late on the 4th at SFO, but a beer or two before hitting the
+sack is always good. :-)  I'm departing SJO in a rush the evening of
+the 6th.
+
+
+Anyone in the area up for hoisting a few the night of the 5th?  You
+say where, and I'll buy the first round (well, within reason ;-).
+
+
+=Spencer Thomas in Ann Arbor, MI        (spencer`at`umich.edu)
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 16:41:25 -0500
+From: "Brian Lundeen" <blundeen`at`rrc.mb.ca>
+Subject: RE: professional kettles and missing the joke
+
+
+Glen Pannicke writes:
+>
+> Regarding Open Kettles, Brian Lundeen wrote:
+>
+> >In the interest of trying to sort out these seemingly
+> conflicting ideas,
+> can
+> >someone describe the mechanics of a professional brew kettle?
+>
+> I think Brian's question may be a bit rhetorical, but I'll
+> offer what I know
+> anyway...
+>
+
+
+Well, actually it wasn't meant that way, I really did want to know how these
+things work. Surely, I'm not perceived as a provocateur, am I? ;-) Anyway,
+thanks for what you posted.
+
+
+The wort
+> is then passed
+> back through the MIDDLE of the tank (below the wort level)
+> and shot through
+> a "boiling fountain" to a point above the wort level where it
+> is dispersed
+> by an adjustable spreader and allowed to fall onto the
+> surface of the wort.
+> All kinds of agitation and splashing going on here!
+
+
+But... but... but... won't that lead to...
+
+
+And Frank Tutzauer clues me in on the joke with:
+
+
+> And if I'm not mistaken, Tony Clifton was an exceedingly rude
+> alter ego of
+> the commedian Andy Kaufman, so don't read too much into his comments.
+> It's satire.  At least a little bit.
+
+
+Well, not being a fan of Mr Kaufman, I totally missed that. All this time
+I've been ranting at a fictional character. I'm sure in real life "Tony" is
+a mild-mannered, polite, well-spoken chap who I'm sure I could sit down with
+over a nice glass of Chardonnay and
+
+
+
+
+Jeez, it cost me a few hundred bucks but it was worth it to come up here and
+deal with this little puke! Cripes, I've gotten more fight back from a twist
+off cap than I got from this weenie-wanker. Well, this should shut him up
+for a while.
+
+
+That's it, I'm done, and so's this freakin' crybaby!
+
+
+Tony Clifton
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 18:22:15 -0400
+From: Darla Elsken <elsken`at`home.com>
+Subject: Moth Control
+
+
+n HBD #3433, Pat Babcock wrote:
+
+
+>I once had a moth infestation - oddly, they came in some hamster food
+and
+>quickly migrated to all the cereals in the pantry.
+
+
+We suffered a similar malady.  The little buggers get into everything.
+
+
+>Now, my garage has an infestation of the little buggers, but only on
+>the mill (all grains are contained in things they can't chew through).
+
+
+Once we had cleaned up all the cereal boxes and the cabinets, we used a
+product called "Pantry Pest Trap".  It contains a pherome to attract the
+
+
+little moths, but the inside of the box is sticky and captures the
+bugs.  We got ours at Gardens Alive (www.gardens-alive.com, nayyy),
+although I have seen them in other mail order supply catalogs.
+
+
+Kevin Elsken
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 19:49:58 -0400
+From: "Mark Tumarkin" <mark_t`at`ix.netcom.com>
+Subject: Can't make it to Germany for Oktoberfest?
+
+
+Hey y'all,
+
+
+a friend sent me the following today, hope you find it interesting.
+the short version - go to
+http://www.sensormatic.com/videocon/wiesn2k.html
+and you'll see half a dozen web cams focused on Oktoberfest, or a live feed -
+way cool for those of us who can't make it!
+
+
+anyway, here's a longer version (might as well give the sponsor their
+due) - - -
+
+
+Mark Tumarkin
+Gainesville, Fl
+
+
+
+
+    Want to attend Oktoberfest in Germany but can't afford the plane ticket?
+Just log onto www.sensormatic.com on September 16 - October 3 and you'll be
+able to attend the festivities virtually.
+
+
+    When Oktoberfest, the world's largest beer festival, opens its gates in
+Munich, Germany later this month, more than two million visitors will flock to
+the festival from all over the world. Attendees will enjoy a dozen beer
+tents - equipped with up to 10,000 seats each and featuring spectacular
+carousel rides, traditional Bavarian atmosphere and brass bands.
+
+
+    Now, (NYSE:SRM) and a team of German companies are making Oktoberfest,
+also called Wiesn, accessible to everyone in the world. With the WiesnCam2000,
+Internet users can view a live transmission of Oktoberfest.
+
+
+    "The WiesnCam2000 is based on Sensormatic's leading edge digital video
+transmission technology," says John Smith, executive vice president of
+Sensormatic's Europe/Middle East/Asia Operations. "This site will allow us to
+demonstrate the capabilities of our newest digital video transmission system,
+EYE-C, and its related software technology by transmitting live video footage
+from six cameras at the festival directly over the Internet."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Sep 2000 21:00:29 -0400
+From: "Donald D. Lake" <dlake`at`gdi.net>
+Subject: Pumps - Setting the record straight
+
+
+Quite some time ago I posted a response to an inquiry regarding the use
+of food grade magnetic pumps in brewing.  I gave my two cents and
+basically said thatbased on my experience the performance of pumps were
+marginal when pushing hot liquids.
+
+
+Although I never mentioned any names of where I bought the pump, Bill
+Stewart of Moving Brews , recognized my name and called me to inquire
+about the problems I was having.  After spending an enormous amount of
+time on the phone asking questions and analyzing the problem, he
+suggested that the problem may have been restrictions due the size of my
+valve and false bottom pick tube (which I bought elsewhere).  The valve
+was 1/2" stainless from ACE Hardware and the pickup tube was 3/8" from
+ABS. The pump & hose fittings were 1/2".  Remarkably, Bill said that
+there are different internal diameters on different 1/2" ball valves.
+
+
+After asking even more questions, he guessed that the problem was with
+the 3/8" stainless pickup tube.  I mailed him my old one and Bill
+fabricated new stainless 1/2" for me.  After receiving the new one, I
+set it aside for a few weeks while SWMBO assigned me some other
+projects.  To his credit, Bill called me every few days to see if I have
+given it a test run to see if it solved my problems.  It did!
+
+
+I now love using my pump (sounds strange doesn't it).  Bill Stewart of
+Moving Brews deserves a full salute for providing service above and
+beyond the call of duty.  I'm only sorry it took me so long to set the
+record straight.  Here's his website.
+http://www.movingbrews.com
+
+
+Don Lake
+Windermere Brewing Co.  a division of Lake Water Brewery and
+wholly-owned subsidiary of Canal Water Beverages, Inc
+
+
+PS We had our shareholders meeting at the 8th Annual Beer Fest at the
+Orlando Fair Grounds this past Friday and fended off a hostile takeover
+attempt from the Ocoee Brewing Co.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 16:19:52 +1000
+From: "Dave McGuinness" <dmcguinn`at`postoffice.utas.edu.au>
+Subject: Re: Restarting Coopers sediment
+
+
+I've also read that you can restart Cooper yeast, and that it makes a good
+ale yeast once going. However, despite several attempts using malt extract
+I've had no sucess. I concluded that the stuff I'm getting is dead, but
+don't really know what the caper is.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 07:26:14 +0200
+From: "Aikema, J.N. (JohanNico)" <JohanNico.Aikema`at`akzonobel.com>
+Subject: crystal malt at home?
+
+
+Hello,
+
+
+Graham Sanders wrote about home roasting (#3433). I have a question (for him
+or someone else).
+I did a little experiment (is it possible mashing without crushing the malt
+and/or is it possible to make crystal malt from pilsener malt at home):
+Experiment 1:
+50 grams (1.76 oz) crushed pilsener malt in 150 ml (5.3 oz) water. The malt
+had a moisture content of 8.8 % (120 degr.C=248 F).
+After 15 min. 51 degr.C (124 F), 30 min. 63 degr.C (145 F) and 15 min. 73
+degr.C (163 F) the fluid was negative with iodine, solids were positive
+(blue staining). 
+After another 15 minutes at 73 degr.C (163 F) both the fluid and solids were
+negative with iodine. I filtered and calculated about 69 % extract (with
+refractometer in filtrate). Dried (120 degr.C=248 F)spent grains were 11.9 g
+(0.4 oz), so 74 % extract (not quite, because I used some kernels for the
+iodine test). 
+Experiment 2:
+50 grams (1.76 oz) NOT crushed pilsener malt in 150 ml (5.3 oz) water.
+After 15 min. 51 degr.C (124 F), 30 min. 63 degr.C (145 F) and 15 minutes at
+73 degr.C (163 F) the fluid was iodine negative but even after 120 min. at
+73 degr.C (163 F) the solids remain positive with iodine. I filtered and
+calculated about 20 % extract (with refractometer in filtrate). Dried spent
+grains were 33.5 g (1.18 oz). Filtration went very fast (to fast). 
+Experiment 3:
+50 grams (1.76 oz) NOT crushed pilsener malt in 35 ml (1.23 oz) water
+("au-bain-marie").
+Again 15 min. 51 degr.C (124 F), 30 min. 63 degr.C (145 F) and 120 min. 73
+degr.C (163 F) and the kernels are still positive with iodine. I dried at
+120 degr.C (248 F) 43.4 g (1.53 oz) and could smell the caramel flavor.
+
+
+My conclusions:
+1. it is not possible mashing without crushing the malt.
+2. it is not possible to make crystal malt from pilsener malt (at home).
+Anybody with a divergent opinion/experience? I know, in a maltery they use
+green malt to make crystal malt.
+Any suggestions why the saccharification doen't take place (for 100%) with
+uncrushed malt??
+Greetings from Holland (Europe),
+Hans Aikema
+http://www.hopbier.myweb.nl/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 14:56:54 +0800
+From: Edward Doernberg <shevedd`at`q-net.net.au>
+Subject: re: liquid ph te sts
+
+
+the corect subject is: re: liquid ph tests
+
+
+stupid ban on posts with test in subject line
+
+
+"A. J." ajdel`at`mindspring.com claims I had a point when I stated the colour
+of beer would interfere with a reading using a liquid test kit. I have
+received a private emale from Grant Stott (the person that originally said
+liquid tests cold be used) saying he intended it for use on the sparge water
+and let the mash fall where it may.
+
+
+A.J. also mentioned "the Redox State of beer" and something called rH. I
+remember redox reactions from year 11 chem but not redox state and I have no
+idea what rH is.  Can you pleas clarify these points. If its not to much
+trouble also what dose pH stand for and did the tannins that leached out of
+the maly root in my aquarium corse the pH to do anything the test kit didn't
+notice (the water was the colour of strong tee).
+
+
+Edward
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 20:10:01 +1000
+From: "Phil & Jill Yates" <yates`at`acenet.com.au>
+Subject: "Thing", Please Hand Me A Cigar
+
+
+If anyone has had something rude and nasty to say about me lately, please
+accept my apology for lack of response. I have been snowed under with extra
+curricula activities (that being anything other than beer related) and am
+shamefully several HBD's behind.
+
+
+But I see Ray Kruse is safely home and has developed his photos.
+Geezus strewth! What a family photo!!
+I know we act like the Adam's Family here but I never realised we also look
+so much like them!
+
+
+I'm in need of another rice lager after observing that!
+
+
+It was great to have Ray and his wife here for a visit. As I have often
+said, I wish more of us could do it more often.
+Maybe Dave Edwards wouldn't have to be belting poor Freddy about the ears if
+they could just get together for a beer.
+
+
+Now about Doc Pivo, a lot of you have asked how he is. His last post titled
+: "Highly Salacious Admonitions" really gave us some indication of the
+tremendous pressure the poor Doc is under. What with winter and all coming
+on in Sweden, it gets the Doc every time.
+But thankyou for asking.
+After a bex, a cup of tea and a good lie down, he is resting lightly and
+doing just fine.
+Though I have to admit, none of us are quite willing to loosen the straps
+from his bed just yet.
+
+
+I must apologise for recently insulting my own rice lager, it was a savage
+and uncalled for attack. Besides, as I have already drunk 25 litres of it, I
+can't seriously tell people I don't really like the stuff!
+
+
+Looking forward to yet again insulting someone when I get around to catching
+up on HBD's. Now I know how Al K must feel, but that poor bugger is some
+eight months behind. He hasn't got a hope of ever getting through them. But
+I admire him for trying.
+
+
+Cheers
+Gomez
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 06:53:06 -0400
+From: Ray Kruse <rkruse`at`bigfoot.com>
+Subject: RIMS Automation
+
+
+Dave Howell responded:
+
+
+>> Has anyone used a gas valve solenoid? If so which one and how did you
+wire
+>> it? Do you need another relay to flip the solenoid switch?
+> Solenoids are highly inductive loads, if you use a relay (and not a
+solid
+> state one), you must snub the contacts with a diode back-biased, or
+you will
+> quickly cause emf in your driver circuit, and pit/melt the relay
+contacts.
+> Many industrial control houses sell solenoid valves (see www.omega.com
+for
+> one).  Have you considered a ball valve and servo arrangement?  Servos
+can
+> control the amount/flow of gas, ball valves are cheaper and available
+in the
+> local hardware store, and you won't draw a lot of current holding it
+open.
+>
+First, you have assumed that the solenoid is DC without stating your
+assumption.  If you use a 'snubber' diode on an AC circuit, you'll
+either blow the fuse, fry the diode, or fry
+the power source.
+
+
+In any event, the supply isn't as germane to this subject as the next
+item, which is a ball valve purchased at your local industrial control
+house.  This half-information is too dangerous to leave unrebutted.  Use
+
+
+valves only rated for combustible gases.  You can get them at industrial
+
+
+supply houses (outrageously expensive due to FM industrial
+requirements), but a better source, and one that will have exactly what
+you need in a 'safe valve' would be an appliance repair shop that sells
+parts to the public.  You need a gas valve for a water heater or
+furnace.
+
+
+> >I was thinking of using a small pilot light, so I don't have to worry
+about
+>> igniting and turning on the gas. If anyone has any better suggestions
+on
+>> this part of the automation, I'd love to hear about it.
+> Use a 1.5 volt barbecue sparker, you can get from your local
+home-supply
+> mega-depot berbecue parts section.  If you opt to build a board, drive
+it
+> from your unregulated supply, switch it with a transistor, and use a
+RC
+> lowpass filter (10 KHz or so) on the line (or a ferrite bead). If you
+use a
+> serial IO module or a PLC, then you may need to provide a separate
+power
+> supply.  In either case, if you drive it from your digital board, then
+
+
+> filter it.  To ignite, spark it about 1/3 sec after you open the
+valve, and
+> spark it three times, 1/3 sec apart.
+>
+Now that you've got the gas flowing and no safety interlocks, what
+happens if your spark doesn't ignite the gas?  Or if you have a hiccup
+in the gas and lose the flame?  Best bet (unless you want to be the
+owner of the largest hole in the neighborhood) is to get a
+pilot/thermocouple assembly that goes with the gas valve I mentioned
+above.
+
+
+You can still do the automation that you want by automating the main gas
+
+
+valve which will open the small amount of gas to the pilot light, while
+having the main flame gas source controlled by the pilot.  Put your
+sparker on the pilot.  The pilot will provide the protection you need
+for the main flame, unless you want to add the UV flame sensors and
+other related equipment.
+
+
+> Some other things to consider:
+> The solenoid should have contacts on it (a switch) that close when the
+valve
+> is physically open.
+
+
+Actually, you shouldn't care as much about when the valve is fully open
+as you do when the valve is not fully closed.  Any leakage from a valve
+5-95% open that is unreported is what you are interested in knowing.
+
+
+It's not worth losing your house.  Use the right equipment, think it
+through, and do it safely.
+
+
+Ray Kruse
+Glen Burnie, PRMd
+rkruse`at`bigfoot.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 05:22:10 -0700 (PDT)
+From: Matthew Comstock <mccomstock`at`yahoo.com>
+Subject: re: Indian Meal Moths
+
+
+Hi, I'm Matt (Hi Matt), and I had an Indian Meal
+Moth infestation last year (clap clap clap). 
+
+
+Look, you don't want these, they are hard to get
+rid of.  Whenever you read about putting your
+grain in plastic buckets, I am convinced its to
+keep the worms from getting out, NOT in.  If
+you're interested search for "Indian meal moth"
+on ways (twelve step program?) to get rid of em.
+
+
+So I am paranoid about bugs in the grain now (who
+can blame them, really).  I have an extra fridge.
+ There shouldn't be any problems with storing
+grain there, right, aside from condensation, and
+mold, etc.?  Does cooling or freezing mess with
+the enzymes, etc.  Keeping the grain cold ought
+to slow down the life cycle, right, so any eggs
+shouldn't hatch in the short (3 - 4 months) term.
+
+
+Matt in Cincy
+
+
+
+
+__________________________________________________
+Do You Yahoo!?
+Send instant messages & get email alerts with Yahoo! Messenger.
+http://im.yahoo.com/
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 08:06:44 -0500
+From: Tim  Burkhart <tburkhart`at`dridesign.com>
+Subject: RE: Beechwood Aging
+
+
+Cris Cooper's question about Beechwood at AB breweries reminded me I was in
+St. Louis for the AB tour two weeks ago. The best part of the tour was the
+lagering facility with those huge 3000 barrel tanks.
+
+
+Anyhoo, I was confused by the "tea strainers" with the beech chips in them.
+In the lager facility they were displayed in the tea strainer thingy... in
+the following video presentation of the brewing process, a brewery worker
+was shown raking the chips in the bottom of one of those gigantic tanks.
+
+
+I looked on their website tour and it says they cover the bottom of the
+tanks with up to 1/12 feet of chips... so which is it? Why put the chips in
+a special strainer looking container if you are just dumping them directly
+into the tanks? The tea strainer wouldn't seem to have much surface area (it
+was approx. 6' long by 3' diameter) for 3000 barrels of beer. Anyone?
+
+
+A final word... I did enjoy the tour of Budweiser... fresh Bud is not a bad
+beer... however, I can't believe I was served their specialty Hefeweizen out
+of a BOTTLE! Eee gads, at least they could have pretended to pull it from
+the tap under the counter instead of brazenly opening it in front of me. I
+was so stunned, I went back to my seat and drank it out of that tiny
+wax-paper cup and cried silently to myself.
+
+
+Tim Burkhart
+Kansas City
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 08:14:39 -0500
+From: "Dan Stedman" <dstedman`at`mn.rr.com>
+Subject: FWH == YUM!
+
+
+Hi all - nothing scientific here, just wanted to let you all
+know that I tried first wort hopping weekend before last.
+All signs point to a deliciously hoppy beer that has very
+good flavor & aroma. My FWH for a 10 gallon batch of pale
+ale were 2.75 ounces of 6.5 AA Cascade hops, after which it
+took about 30 minutes to batch sparge and get to a boil. I
+boiled for 30 minutes, added 2 ounces of 5.6 AA Perle hops,
+and boiled for another 60 minutes. That's it. No late hop
+additions whatsoever, and this is probably the hoppiest
+flavor I've ever achieved in a beer.
+
+
+I guess I'll have to try mash hopping now!
+
+
+Dan in Minnetonka, MN, USA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 09:25:00 -0400
+From: "Nathaniel P. Lansing" <delbrew`at`compuserve.com>
+Subject: Otter malt
+
+
+Paul mentioned a lower extract % with Otter,
+>>the malt was mealy to the point of
+nearly milling itself.  In brewing, this results in about 20%
+lower extract than normal, at least using my techniques, <<
+
+
+In my info from Crisp they list the characters of the various
+malts, aromatic, bready, toasty and etc. for Otter they say
+"Run-off speed- Very slow" So perhaps at a normal run-off
+rate there is some extract left behind in the grain bed? The
+dry basis % seemed in line for other fully converted malts
+81-82 so the potential is there.
+
+
+Del
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 23:22:31 +0930
+From: "Dave Edwards" <eddiedb`at`senet.com.au>
+Subject: Re-using Coopers Yeast
+
+
+
+
+Matthew Tolley pondered the following dilema:
+
+
+| I've read about restarting yeast from the sediment in bottle conditioned
+| beers, and thought I'd give the Coopers ago.  I put it in the fridge,
+waited
+| for the sediment to settle, and carefully poured off all but the last inch
+| or so of beer (which I was forced to drink, alas).  I boiled up a cup of
+| water with a tablespoon of dextrose, cooled it to 26oC, and added it to
+the
+| bottle.  I shook it up, topped it off with a cork and airlock, and went to
+| bed.
+|
+| Next day - nada.  I shook it up, and moved it to the lounge room where it
+| was a bit warmer.  Still nothing.  It's just sitting there, looking
+| decidedly unfrothy.
+
+
+It's okay mate, don't panic just yet. I encountered this same problem when I
+first tried to culture from a bottle of Coopers. Apparently, there really
+isn't all that high of a residual yeast count, and it does take some time to
+kick in. I have had some take as much as 6 days before they arc up. You will
+need to feed them a few times to get the numbers up as well, but in the end
+you'll most likely get a good quality bunch of yeast.
+
+
+Another thing is use DME instead of Dextrose to get the little beggars up.
+Malt is supposed to have more nutrient than Dextrose and generally better
+for them, but I am definitely not a guru and could be way wrong on this. I
+have often read to add yeast nutrient even when adding DME to starters just
+to help it along. Sounds good, something that I've never bothered with but.
+
+
+Cheers,
+Dave.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 10:00:02 -0400
+From: "J. Doug Brown" <dougbrown`at`citynet.net>
+Subject: Saw Dust in wort?
+
+
+Greetings,
+  Was reading the hbd and saw a post about adding saw dust to get a wood 
+aged flavor.  All of the sudden it hit me.  Wouldn't that cause the 
+production of wood alcohol?  I've heard that wood alcohol can cause 
+blindness and even death.  Will any wood products in contact with 
+fermenting wort cause the production of wood alcohol?  Are there 
+acceptable limits of wood alcohol consumption without harmfull effects, 
+or does wood alcohol stay in the body like a heavy metal and have a 
+cummulative effect on the human body?
+
+
+  Thanks for any info
+  Doug Brown
+  dougbrown`at`citynet.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 09:54:54 -0400
+From: "Jay and Arlene Adams" <goosepoint`at`teleplex.net>
+Subject: Blue Ridge Brew Off Results
+
+
+The winners list of the Bllue Ridge Brew Off htat was held in Asheville, NC
+on September 9, 2000 may be found at
+http://www.caveartstudios.com/malt/brbo.html
+
+
+Congratulations to all of the winners and thanks to all who participated!
+
+
+Cheers!
+
+
+Jay Adams
+BRBO Organizer
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 10:19:09 -0400
+From: Dave Burley <Dave_Burley`at`compuserve.com>
+Subject: AJ's Experiment, Purging, oak chips
+
+
+Brewsters:
+
+
+AJ's  excellent experiment at determining the relationship between sugars
+and SG was fun to read.
+
+
+My question is, though, how did you form a  starch "solution" of about 2%.
+Did you mean a slurry? Or how did you dissolve the starch? I would guess
+that a 2% starch solution would be pretty viscous?
+
+
+Intuitively, in a slurry, the bulk density will be affected by a slurry %,
+but I am of the impression that the SG of the slurry will depend only on
+dissolved components.?? Is this corrrect?
+- --------------------------------
+David Sweeney asks how to purge his keg.
+
+
+Many brewers are under the impression that they can just blow in CO2 and
+purge all the air from the keg in a minute or two.
+
+
+Not !!   I have even met professional micro-brewers who suffer from this
+same delusion. And their beers taste like it.
+
+
+As gases mix freely, especially when they are in motion in a small space 
+(like your keg) you will have to have many volumes of CO2 before you get
+the oxygen down to a few ppm. I think I once calculated it would take about
+5 pounds of CO2 to get a low O2 in your keg, assuming plug flow with a 50%
+percent of back mixing. 
+
+
+Think of it this way. At atmospheric ( and for ease in calculations that a
+5 gallon keg is 22.4 liters at STP) the oxygen content in a keg is 20% or
+about 150 mm of  Hg pressure. If we assume one volume of gas injected would
+reduce this by half to 10%, two to 5%., 3 to 2.5%, 4 to 1.25%, 5 to 0.625%,
+6 to 0.312%, 7 to 0.15%, 8 to 0.075, 9 to 0.037%, 10 to 0.018%.  This would
+have required about 10 moles ( 50 gallons of gas)  of CO2 to  get here and
+this would weigh 10X44 grams or 440 grams or about a  pound and the oxygen
+content would be 0.018% or 0.00792g or 180 ppm. Not nearly enough.  You can
+see where this is leading.
+
+
+Another way to think about this is how much CO2 would you have to add to 5
+gallons of air to dilute the oxygen to 1 ppm? Oxygen is 20 % or about 6
+grams in a 5 gallon keg. To dilute this to ppm you would have to add 6 X (
+32/44)  million grams of CO2 or 4.36 million grams of CO2. Or Lots of
+pounds.  
+
+
+So, however you choose to model this, the point is - don't expect just
+blowing CO2 into a tank full of air will do you any good in a reasonable
+time or amount of CO2.
+
+
+The way I do it is to fill the keg to the very top with water and push the
+water out with CO2. This guarantees you will have a totally purged keg and
+use a minimum of gas.
+- -------------------------------------------
+If you use oak chips be sure you sterilize them first by pressure cooking
+them dry ( water in the bottom of the pan, of course) by placing them in a
+bowl or something out of the water. Oak chips carry lactobacillus. Add any
+water which collects in the bowl to the beer also.
+
+
+Remember that most oak beer barrels ( except in case of some Belgian beers)
+ were treated with pitch to allow the breweries to keep them clean by
+steaming and prevent infecting the new beer.  Except in very high alcohol,
+highly hopped beers the lifetime in an untreated barrel would be pretty
+short, IMHO. I conclude that oak is not a taste commmon to the older beers,
+unless you are thinking about the lactobacillus infected "stale" ales used
+to make three threads, porter and such.
+
+
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+------------------------------
+
+
+Date: Wed, 20 Sep 2000 07:37:02 -0700
+From: Scott Jose <sejose`at`pacbell.net>
+Subject: Attention Fridge Guy
+
+
+Fridge Guy are you out there?  I did a brew last weekend and went to plug in
+my fermenting fridge.  It fired up then immediately shut down as soon as I
+plugged it in.  I pulled the plug and then plugged it back in and it did the
+same thing.  It has worked fine for years but now this.  Between brew
+sessions I leave it unplugged (I use another fridge for my keg).  I fiddled
+with the temp contoller wheel inside, it made no difference.  I use a
+Johnson temp controller with this fridge, but it's not to blame, as I moved
+it to my keg fridge and have my fermenter in there right now.
+
+
+I'm pretty good at troubleshooting and fixing stuff, but I have no knowledge
+base with fridges.  Where do I start?
+
+
+Thanks,
+Scott in Auburn, California
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3435, 09/21/00
+*************************************
+-------

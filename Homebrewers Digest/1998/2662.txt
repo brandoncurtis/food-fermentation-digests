@@ -1,0 +1,1574 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA11360
+        for <spencer`at`srvr5.engin.umich.edu>; Mon, 16 Mar 1998 01:24:59 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+        by srvr22.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA27749
+        for <spencer`at`engin.umich.edu>; Mon, 16 Mar 1998 01:24:58 -0500 (EST)
+Received: (from root`at`localhost)
+        by redheat.rs.itd.umich.edu (8.8.5/2.5) with X.500 id BAA10123; Mon, 16 Mar 1998 01:24:57 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by redheat.rs.itd.umich.edu (8.8.5/2.5) with ESMTP id BAA10111; Mon, 16 Mar 1998 01:24:53 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA31058 for realhomebrew; Mon, 16 Mar 1998 00:46:39 -0500
+Date: Mon, 16 Mar 1998 00:46:39 -0500
+Message-Id: <199803160546.AAA31058`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2662 (March 16, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2662                             Mon 16 March 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  mash water calculations (Sherry Heflin)
+  Converting a beer keg to a boiling pot (Stephen Rockey)
+  No moving parts sparge control thought (Mark Berman)
+  Too many hops? ("Michel J. Brown")
+  Re: shape of fermenter & effect on yeast (Sean Mick)
+  Help for my first lager! (Rosalba e Massimo Faraggi)
+  Yeast sludge and FWH ("Tomusiak, Mark")
+  Help for my first lager! (2) (Rosalba e Massimo Faraggi)
+  Re: autolysis (dfikar)
+  CO2 Tank Position / 6-row (Denis Barsalo)
+  Refractometer, Temp Compensated pH meter ("Raymond C. Steinhart")
+  Hop homegower Warning. (Darren Gamache)
+  re: bleach and kegs (Jon Macleod)
+  re: chlorine data (Jon Macleod)
+  Slant Vials / Transfer Box / El Nino Spores (Kyle Druey)
+  Berliner weiss ("David R. Burley")
+  Mash pH ("David R. Burley")
+  Benzene, mass (Paul Niebergall)
+  home made roller mill (Jeff Sturman)
+  Stainless Steel Brew Kettle (kbjohns)
+  Dubbel yeast? (Gordon Strong)
+  For cooks and other potential mead makers. (Fred Johnson)
+  microscopes ("Ray Estrella")
+  Newbie Question - grains w/extract (Mike Beatty)
+  All-grain to extract conversions ("Clifford A. Hicks")
+  Re: yeast storage / priming and FAN ("Hubert Hanghofer")
+  Stout faucet / Guiness faucet ("Steve Hill")
+  AG to Extract: Whatta way to go.../Overhopping Cancer (Some Guy)
+  Rolling Rock (Jason)
+
+
+
+
+
+
+Be sure to enter the 7th NYC Spring Regional Competition
+3/22/98. Surf to http://www.wp.com/hosi/companno.html for more
+information...
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 13 Mar 1998 13:24:50 -0600
+From: Sherry Heflin <sheflin`at`shreve.net>
+Subject: mash water calculations
+
+
+Hi all,
+    I've got a question about mash water and temperature. I'm presently
+using a converted Sanke keg for my mash tun and am using a false bottom
+setup. My problem lies in the fact that my valve at the bottom is set
+about two inches off the bottom and my false bottom sits on top of the
+lip of the valve. This means it takes almost 2-gallons to reach the
+level of the false bottom. I'm making ten gallon batches and having to
+use about eight+ gallons of water to cover the grain. Needless to say I
+seem to have a thin mash and was just wondering what effects that may
+have. I've figured how to hit correct mash temps, and making good brew
+but was wondering if a different setup may be better. 
+   Someone had a question about putting airlock on sanke kegs. Two
+suggestions. I have one I cut a hole in the top big enough to fit my arm
+in to clean it that when fermenting I cover with a big o-ring and a
+piece of plexi-glass that I bolt down over the o-ring with stainless
+bolts and hold down with wingnuts. A hole the size of the stopper for
+the airlock is cut into the middle of the plexi-glass. Works good and
+you can kind of see in it to see when krausen begins to fall. Another
+thing that works is boiling the orange cap for the top of a carboy and
+it will fit over the plug at the top of a sanke keg while its still real
+hot and pliable. Then just plug the one hole and put your airlock in the
+other.
+  Finally, a plea to anyone who is thinking of opening a brewpub. I live
+in Shreveport La. and there isnt a brewpub within a 150 mile radius of
+here. We've got a great riverfront here with 4 gambling riverboats.
+Somebody bring one here. Ah alas, if I could only afford to build one.
+Nothing like a good hoppy I.P.A. and spicy- assed mudbugs.
+Later. Bodie down in Dillabrew country
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 13:22:16 -0600
+From: Stephen Rockey <srockey`at`egyptian.net>
+Subject: Converting a beer keg to a boiling pot
+
+
+Hello all,
+
+
+        I recently acquired a used 15 gallon beer keg.  I want to convert it to 
+use as a boiling pot, but want to make sure I do it correctly.  Is there 
+an FAQ somewhere that has directions, and maybe some diagrams, on how 
+to, and how big to cut the hole in the top, etc.  
+        Those that have done this;  What do you use for a lid?   I also want to 
+put a valve on the bottom so I don't have to pour the wort.  Is there 
+something from the local hardware store that can be used and can stand 
+the heat?  Or is there a retail valve which would work better?  Any and 
+all help will be greatly appreciated.
+
+
+Steve Rockey
+Jacob, IL
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 14:59:20 -0500
+From: Mark Berman <mberman`at`bbn.com>
+Subject: No moving parts sparge control thought
+
+
+In HBD 2658, Dana Edgell asks about controlling sparge levels:
+
+
+>3) I am looking at using the float valve from a swamp cooler as to maintain
+>a constant sparge level (with proper ani-HSA manifold addition).
+
+
+Dana's question reminds me of a technique that I've wanted to
+use, but never quite got around to trying out.  The basic idea
+is to control sparge water level using a device built for keeping
+a cat's water bowl filled when the owner is away.  The device
+is basically a plastic bowl with a tapered ridged spike sticking up
+from the center.  You fill a two liter PET (couldn't help it) bottle
+with water and invert it onto the spike.  As kitty's water level falls
+below the rim of the bottle, additional water fills the bowl.  I think
+one of these things costs about $2 at a pet store.
+
+
+So, I wondered, why not cut the base off of a two liter bottle, feed
+in a hose from my HLT, poke a few holes in kitty's bowl, and drop the
+whole contraption on top of my grain bed?  Can anyone tell me why this
+is a dumb idea?  Better yet, has anyone tried it?  My likely next brew
+time is next weekend (March 21-22).  If I don't get any feedback, maybe
+I'll give it a try and report back.
+
+
+Mark Berman
+Somerville, MA
+berman`at`banet.net
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 12:15:12 -0800
+From: "Michel J. Brown" <homemade`at`spiritone.com>
+Subject: Too many hops?
+
+
+This just in from the local University extension office:
+
+
+"A worldwide glut of hops has driven prices so low that soome Northwest
+growers say they might not string up their vines this year. "We've got a
+poor market, and acxres are going to come out this year, that is for sure'"
+said Pat Leavy, a member of the Oregon Hop Commission who raises hops near
+Aurora. Hop industry officials in Oregon, Washington and Idaho -- where
+most of the nation's hops are grown -- are all affected by low prices
+caused by three consecutive years of record production worldwide. With the
+annual production costs running between $1 and $1.25 a pound,              
+    Leavy said, farmers cannot afford to raise a crop at the 60 to 80 cents
+a pound being offered for uncontracted acres. Last year, growers were
+raising hops on contracts paying $1.40 to $1.50 a pound for the Nugget
+variety, which is planted on about half of the 44,000 acres of hops in the
+Northwest, Leavy said. Prices plummeted after the U.S. Breweries
+Association reported that U.S. stockpiles of hops topped 59 million pounds
+last fall."
+
+
+So much for chicken little talking about the prices going up due to adverse
+weather, and the rhizome virus on the New Zealand organic Hallertau last
+year. Too bad we can't help out these poor farmers!
+  
+                       Dr. Michel J. Brown, D.C.   
+                        homemade`at`spiritone.com
+             http://www.spiritone.com/~homemade/index.shtml           
+   "In the field of observation, chance favors only the prepared mind"
+                             L. Pasteur
+
+
+   
+
+
+                                
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 12:33:48 -0800 (PST)
+From: homebrew`at`dcn.davis.ca.us (Sean Mick)
+Subject: Re: shape of fermenter & effect on yeast
+
+
+AlK writes:
+
+
+>Some yeasts simply don't ferment well when the aspect ratio of the
+>fermenter is much taller than it is wide (like 3:1).  There have been
+>many theories as to why this may be (pressure, eddy currents, etc.)
+>although none have been without some holes (i.e. DeClerck's initial
+>experiments were done on 1-liter batches... so much for pressure).
+>Two common yeasts that exhibit this behaviour are the Whitbread Ale
+>strain and Wissenschaftliche 34/70 (reportedly Wyeast #2124 in an old
+>article by Dave Logsdon, other association in other texts).
+
+
+>I have not read of any such effect during *conditioning*, but that is
+>not to say that there isn't an effect.
+
+
+Just as a datapoint, I recently fermented a 10 gallon batch of rauchbier
+with the W 34/70 yeast (from White Labs, called Chris White to confirm its
+origin). It was fermented in a tall cylindroconical stainless fermenter
+(2.5:1 ratio). The yeast was very active. I fermented it rather hot,
+between 55-60 F. This is because I did not compensate for the reduction in
+heat transfer through stainless (versus glass carboys). Oh well, live &
+learn. It did create alot of diacetyl during fermentation, but a prolonged
+(1 week) rest at 60F post fermentation eliminated the excess. The beer is
+actually very nice going into its cold conditioning. OG was 1.058, FG
+1.008. Single decoction. Hope this helps, John, as you were originally
+inquiring about fermenter geometry & how it affects yeast. Using this yeast
+before in a carboy, I did not notice much difference in activity level.
+(I'm assuming that the increased diacetyl this time is only because of the
+increased temp, as I fermented at 50F in glass). I spoke to a gentleman at
+the American Brewer's Guild (David, can't remember his last name) and he
+felt that pressure caused by the weight of the wort was insignificant on
+such a small scale (under a barrel) with respect to fermenter geometry. I
+asked him if this meant that we could theoretically ferment 5 gallons in a
+long vertical tube without pressure problems, and he said  "I don't see why
+not" Not that I plan to do this, happy with my current setup, but it's just
+another view to put it all in perspective. We homebrewers can't always
+scale down the same rules that apply to breweries. In this case it may be
+to our advantage, as we could be more flexible in our fermenter
+designs/choices. I'm not denying the problems with Whitbread yeast, BTW,
+just expressing my datapoint. Perhaps Whitbread's problems aren't related
+to pressure... (unless it exceeds 4 volumes, in which case most yeast begin
+having problems).
+
+
+
+
+
+
+Sean Mick
+Mick's Homebrew Supplies
+http://www.dcn.davis.ca.us/~homebrew
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 00:18:43 -0800
+From: Rosalba e Massimo Faraggi <rosamax`at`split.it>
+Subject: Help for my first lager!
+
+
+Hi!
+
+
+My first lager is having quite a slow fermentation. I kept it in the
+fridge between 12 C and (lately) 10 C, it started furiously the first
+day then slowed down... now it's almost 4 weeks, gravity dropped just a
+few points in the last 10 days or so, and in the last 4 days the gravity
+just did not change any more. Looks like fermentation has really stopped
+at about 1020 - 1022. OG was no more then 1070, so the attenuation
+seeems not too much! Yeast is Whitelab Czech Pils.
+So my question is, do you think it is finished? Should I just start
+lagering at colder temperatures or try to start fermentation again?
+And, I was planning to bottle condition the beer, since I am not
+equipped  for filtering and force carbonate; but if I bottle at such a
+gravity, do I risk some bottle explosion if fermentation wakes up again
+in the bottle?
+
+
+TIA and cheers!
+
+
+Massimo - Genova Italy
+http://www.split.it/users/rosamax/
+Max Italian Beer Page!
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 15:18:28 -0800
+From: "Tomusiak, Mark" <tomusiak`at`amgen.com>
+Subject: Yeast sludge and FWH
+
+
+
+
+Greetings brewers...I have a few procedural questions regarding my next
+batch.
+
+
+Firstly, I am currently fermenting a beer with Wyeast Munich Lager
+yeast, and I would like to start my next batch by simply siphoning the
+fresh wort onto the primary yeast sludge from the first batch - the
+sludge would be about two weeks old at the time that I do this.  My
+question is, is it advisable to "restart" the sludge in the primary by
+adding a small amount of starter wort first, or am I likely to get a
+strong start by just siphoning the fresh batch directly onto the sludge?
+I plan to aerate with an aquarium pump, and I definitely want a quick
+start (lag times longer than 8 hours make me cranky...).
+
+
+Secondly, I would like to try first-wort hopping the new batch with some
+swell new Tettnanger Tettnang hops that I just received.  References to
+first-wort hopping usually say something like "first-wort hopped with
+35% of the total hop bill".  Does this mean that you total up all the
+hop additions that you would add as part of a more standard schedule
+(boil, aroma and flavor hops), add the appropriate amount as first wort
+hops, and then omit the flavor/aroma hops? Do you specifically need to 
+hop and boil just the first runnings from the lauter to get this
+benefit, or can 
+you wait until you collect the entire wort volume and then boil?
+
+
+Any advice would be appreciated - Mark Tomusiak, Boulder Colorado.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 00:47:09 -0800
+From: Rosalba e Massimo Faraggi <rosamax`at`split.it>
+Subject: Help for my first lager! (2)
+
+
+I forgot to add some data to ... help you help me.
+The beer is a Bock, extract+ grains, I just added about 100 gr for  10
+liters of Carapils to the malt extract.
+The beers tastes good enough now, clean, not infected, just a bit too
+sweet. It is fermenting in a SS pot.
+Cheers and sorry for the double message
+Massimo
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 19:54:32 -0600 (CST)
+From: dfikar`at`flash.net
+Subject: Re: autolysis
+
+
+
+
+>autolysis/priming/tank geometry/headspace air/mashout/10% 
+>sucrose/diacetyl/same ingredients/soapy (Al 
+>Korzonas)
+ .
+ .
+ .
+>Just because the yeast are dead doesn't mean their enzymes are denatured.
+>Consider how long alpha amylase survives at 140F and I believe that
+>10 minutes at 140F is one pasteurisation unit, no? 
+>I think this speculation may be a little bit extreme.
+
+
+Digging back into the cobwebs of my (largely unused) double science major 
+(chemistry\biology) 20 yrs. ago to further speculate...
+
+
+I seem to recall that the enzymes that are active *within* an
+organism (e.g. yeast) are quite dependent on the biochemical milleu within
+the cell wall to function properly.  When an organism dies the cell membrane
+becomes inactive.  The living membrane is an incredibly dynamic
+regulator of what enters & exits the cell, in no small part to make sure
+that the finicky cell enzymes can function properly.  Therefore, it does not
+seem like a stretch to me that all or most of the yeast's enzymes would be
+renderended inactive when the cell dies - from whatever cause. 
+Thus, while the temperature
+elevation during pasteurization might not itself render the enzymes inactive
+the biochemical changes concomitant with cell death might.  Any practicing
+biochemists/microbiologists out there?
+
+
+- ---------------------------------------------
+Dean Fikar - Ft. Worth, TX (dfikar`at`flash.net)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 21:24:50 -0500
+From: Denis Barsalo <denisb`at`CAM.ORG>
+Subject: CO2 Tank Position / 6-row
+
+
+Hey Gang,
+
+
+        I'm in the process of moving my beer fridge and I was wondering if
+there's a reason why I couldn't lay my 10 lbs CO2 tank on its side? (I want
+to put the tank on top of the fridge, horizontaly.) Will the gas enter the
+regulator in liquid form and cause problems?
+
+
+        As far as 6-row is concerned, I've been using Canadian 6-row as my
+main malt in Lagers and Pilsners for quite a while, and often use it half
+and half with Canadian 2-row in American and Canadian Ales. I like the
+taste it imparts, especially on light lagers, and it's often cheaper to
+purchase than 2-row. I find it very unfortunate to see posts knocking the
+use of 6-row, by brewers that have never tried brewing with it!
+
+
+Denis Barsalo
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 12 Mar 1998 21:11:59 -0600
+From: "Raymond C. Steinhart" <rnr`at`popmail.mcs.net>
+Subject: Refractometer, Temp Compensated pH meter
+
+
+1) I am not sure if I have read this here or not.  How effective is a
+Refractometer for calculating both Specific Gravity (OG) as well as
+Terminal Gravity.  This would surely push the range of the meter, yes?
+What about the color of the wort from grains, what about proteins, etc.
+
+
+2) Does any one know of a Temp. Compensated pH meter capable of 100C for
+under $300.00.
+
+
+Thanks,
+
+
+Ray Steinhart
+Brewers of South Suburbia
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 21:41:24 -0800
+From: Darren Gamache <bgf`at`televar.com>
+Subject: Hop homegower Warning.
+
+
+     Hello,
+        Currently the Washington Hop Industry is fighting a new disease in the 
+pacific northwest.  It is called Powdery Mildew.  This disease is 
+terrible and it spreads like wildfire. The Washington Hop Commission has 
+produced a "Best Management Practices" list that all of the commercial 
+growers are following in the coming season.  
+        Every hop grower from the largest 3000 acre commercial operation to the 
+ornamental backyard gardener needs to know how to combat and prevent 
+this disease.  For unckecked plants will only spread the inoculum 
+further and make combating the disease that much more difficult.  
+           I encourage all hop growers to read and digest carefully the 
+information contained within the memo. The memo has been posted at 
+<www.andinator.com/brewrats/hopmildew.html>
+        On another note, powdery mildew overwinters in the arial buds of hop 
+rizomes.  For those of you that are buying rizomes from the Northwest, 
+make sure that they are PM free.  
+        I am not an authority, but if their are any questions I can field some 
+of them and the others I will refer to our industry scientists.
+                        Thanks
+                                --Darren
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 22:54:53 -0500
+From: marli`at`bbs2.rmrc.net (Jon Macleod)
+Subject: re: bleach and kegs
+
+
+I used to work for Clorox and had to deal with this question on a more
+industrial basis.  Whenever one is asking about material capability, the
+next question should be "what effect on which material?"  
+
+
+Nickel and iron are big time catalysts in the degradation of sodium
+hypochlorite.  Therfore, stainless steel will make bleach break down
+relatively quickly.  Stainless steel, however, doesn't really take part
+in the reaction, in the time to which we are referring.  (I wouldn't
+store bleach solution in it, but for sanitizing it doesn't really
+matter.)  At a bleach plant, where a batch may sit overnight, the
+concern is rapid degradation of product, not corrosion of fittings.  
+(and so, no SS is used)
+
+
+Ok what about this degradation?  We're talking degradation, not simply
+reaction.  When bleach reacts, like with organics, it makes salt water. 
+When it degrades, with a catalyst present as opposed to simply time,
+while it eventually makes salt water, first it is really freeing up the
+chlorine to react more readily with whatever is present.  That's why
+dilution is actually more effective than "straight" 5.25%.  (by lowering
+pH, water is also destabilizing)  So bottom line; you could argue that
+the nickel in your keg actually catalyzes the sanitizing effect of your
+bleach. 
+
+
+Me?  I use iodifor for my kegs and diluted bleach for all the glass and
+plastic.  Any good reason?  No.   The bleach does a bigger number on the
+plasics than the stainless.
+
+
+Mike
+
+
+PS.   I work in medical devices now and just can't bring myself to say
+sterilize or decontaminate with this stuff.  Those terms have definite
+meanings that we can't substantiate.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 23:08:06 -0500
+From: marli`at`bbs2.rmrc.net (Jon Macleod)
+Subject: re: chlorine data
+
+
+Absolutely true, some people are more sensitive to some
+elements/molecules than others.  I too have noticed that if you soak a
+plastic container in bleach solution for several days, it will smell
+so.  If, however, you clean the container and rinse, in a timely manner
+(oh, let's say something less than a couple of days) the plastic won't
+have reacted and created surface chloro- molecules.  
+
+
+Periodically, you see allegations regarding sodium hypochlorite's
+contribution to all sorts of pollutants (e.g. dioxin).  That's really
+guilt by association (Cl2).  Dioxins and most other non-salts are only
+created at high temperatures, like in a paper mill.  At "room"
+temperature, about the only thing you can make are various salts.
+
+
+There isn't enough chlorine, or enough energy available, in city water
+to be making much of anything (except dead bacteria).
+
+
+Mike
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Mar 1998 23:16:24 -0800
+From: Kyle Druey <druey`at`ibm.net>
+Subject: Slant Vials / Transfer Box / El Nino Spores
+
+
+Need a recommendation from my fellow HBDers.  I am going to purchase
+some yeast culturing vials for making slants, but I am not sure what
+size to get.  The three sizes I am considering are all borosilicate
+glass with screw thread rubber lined caps and are autoclavable.  Which
+one is the best size/type for slants:
+
+
+1)  20 mm OD X 150 mm height, test tube type with rounded bottom
+
+
+2)  17 mm OD X 60 mm height (8 ml), flat bottomed
+
+
+3)  1 dram (3.7 ml) don't know the dimensions, flat bottomed (this is my
+first choice because I can get 49 of them for $19 and they appear easy
+to clean and handle)
+
+
+What say ye plant doctors and yeast ranchers?
+****************************************************
+
+
+Also, Fix has a picture of a transfer box in his latest book.  Looks
+fairly simple to procure.  Is the transfer box worthwhile to add to the
+arsenal?
+
+
+I heard on the radio last week that due to El Nino the spore count here
+in CA is 200 or 300 times the normal amount.  I don't know if this is
+the cause or it is my sloppy sterile technique, but I did get my first
+moldy yeast starter ever (25+ batches) a few weeks ago.  Had to toss it
+and start over.
+
+
+I inquired a few weeks about a sanitary fitting for a fermenter.  I
+received some good feedback and am in the process of fabricating and
+testing a prototype.  I will report back the results if the fitting
+appears useful.  Thanks again to the HBD for the valuable input.
+
+
+Thought my beers were getting pretty good 'til I cracked open a bottle
+of Hacker-Pschorr Marzen last night.  Now I know what you get to drink
+in Paradise, my beers have a long long way to go...
+
+
+
+
+Kyle Druey
+Bakersfield, CA
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 09:32:43 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Berliner weiss
+
+
+Brewsters:
+
+
+AlK says:
+
+
+>Dave writes:
+>>OTOH, the
+>>advantage of adding the lactic acid after fermentation is that
+>>you can have both Berliner Weiss and the southern Weisse
+>>from a single batch.  Berliners sweeten this acidic brew
+>>sometimes by adding sweet simple syrup, Kir or other fruit
+>>flavored syrup. Using an actual Berliner Weisse culture has
+>>the disadvantage of potentially contaminating your equipment.
+ 
+
+
+>Southern Weisse (Bavarian Weizen) is supposed to have a
+clovey/banana
+>character which comes from the yeast.  In a Berliner Weiss,
+this would
+>be inappropriate and you should use a more "normal" yeast
+(i.e. one that
+>is not so fruity and does not create so much 4-vinyl guiaicol).
+Therefore,
+>you cannot make a good Berliner and a good Bavarian Weissbier
+from
+>the same fermenter.  You could if you split the wort and used
+two
+>different yeasts, however...
+
+
+Yep, but talk to George De Piro, he says Beliner Weiss HAS a
+clovey/banana taste and delbruckii and lots of other stuff which
+I sincerely doubt. So he discourages using lactic acid compared
+with a lactic mash. And believes my caution to avoid equipment
+contamination to be nonsense.  I guess he hasn't had much
+experience or read much about making Belgian beers where
+the same cautions apply. 
+
+
+
+
+It is true that Beliner Weiss does not have a "phenolic" profile as
+Eric Warner confirms.  I stand by my earlier comment that the
+simpler and more reliable way to make a Berliner Weiss is to
+acidify the beer with lactic acid the first time through. Next time
+use a lactic acid addition to the mash. 
+
+
+
+
+If the brewer still feels compelled to use a "natural" source of
+lactic acid it can be done safely. One way to avoid  
+
+
+contamination, once the appropriate level of lactic acid is
+determined is to make up a small sour mash and sterilize it
+by boiling briefly or holding it at near boiling for a few minutes.
+Check the achives for a method I published a year or so ago.
+This method produced 0.1N lactic acid. Using the amount
+determined by addition of lactic in the earlier experiment you
+can calculate the size of the sour mash needed.
+
+
+Using a clovey yeast without lactic acid addition is appropriate
+for the southern style.
+- -----------------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  
+
+
+Voice e-mail OK 
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 09:32:46 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Mash pH
+
+
+Brewsters:
+
+
+AlK Says:
+
+
+>I really would like some clarification from the "brewing researchers"
+amidst
+>us (AJ, Andy, Dave, Dave, George, George, Jim, Mort, Rob, etc.)
+    I've read
+>in one professional text (on two nearly consecutive pages),
+      where in one place
+>the book says that the pH of the mash should be in the
+     low 5's when measured
+>at *MASH* temperatures and in the other place it says it
+      should be in the
+>low 5's measured at *ROOM* temperature.  Since there
+       is a 0.2 to 0.5
+>(depending on your water chem, I presume) difference
+        between the pH at mash
+>temps and at room temp, I would *really* like to know
+        which is correct.
+ 
+
+
+Well, remember the pH you strive for is the "optimal" pH.
+The big question is what are you optimizing?
+
+
+Like you, I have been very frustrated by this non-specification,
+but have to presume they mean pH at the mash temperature,
+otherwise things do not make much sense. Personally,I
+ always take the pH at room temperature since pH papers
+and pH meters work better there and subtract 0.3 to estimate
+the mash pH.
+
+
+
+
+Here is some data from Malting and Brewing Science (M&BS):
+
+
+p213 in 1st edition 
+
+
+
+
+"At 150F (65.5C) the pH of the mash will be about 0.35 units
+less than at 65F (18C) due to the greater dissociation of the
+buffer substances present.  Therefore enzyme systems whose
+pH optima are known from determinations at 20C appear to
+have higher pH optima in the mash if it is cooled before the
+pH is determined.  An infusion mash is best carried out at
+pH 5.2-5.4.  Consequently the pH of the cooled mash will be
+5.5-5.7.  Alteration of the mash pH towards the acid side of
+pH 5.8 will i) allow the amylases to degrade the starch more
+rapidly ii) alter the solubility and coaguability of the proteins
+and iii) minimize the extraction of tannins.  With increasing
+acidity more soluble protein appears in the wort but the proteins
+are more degraded by the proteolytic proteins, and so the wort
+gives beer less prone to non-biological haze.
+
+
+Mashes made with distilled water have a pH of about 5.8 and the
+buffers in the grist always tend to hold this pH...."
+
+
+Ken Schwartz reports that his mash pH fell to 5.3 with only a
+tablespoon of malt in a large quantity of distilled water. I use
+RO water and mashing in with a lager malt, I come to a pH of
+5.6 at room temperature. My mashes go very well. 
+
+
+ 
+
+
+M&BS Table 8.8 page 214
+
+
+pH Characteristics of a "standard" infusion mash of "usual"
+thickness made at 150F with a pale ale malt.
+
+
+Smallest Saccharification time                                5.3-5.6 (
+wort)
+Greatest Extract in an infusion mash                      5.2-5.4 (mash)
+Greatest Extract in a decoction mash                     5.3-5.9
+Mash pH giving most fermentable wort                  5.3-5.4
+                (approx 0.2 units above pH for max extract)
+Mash impossible to filter                                           <4.7
+alpha amylase max activity ( Ca++ present)           5.3-5.7
+beta amylase max activity                                           5.3
+Perm. Sol. NItrogen maximal                                     abt. 4.6
+(mash)
+                                                                         
+  
+
+
+              4.9-5.1 (wort)
+Formol Nitrogen Maximal                                            abt 
+4.6
+(mash)
+                                                                         
+  
+
+
+              4.9-5.1 (wort)
+Proteinase Activity Maximal                                         
+4.6-5.0
+(mash)
+Phytase Activity maximal                                              abt
+
+
+5.2 (mash)
+Peptidase Activity maximal                                          
+7.8;8.6
+
+
+
+
+I presume all these pH values are at 150F to make sense with
+the above comments in M&BS. IN the future lets try to report
+temperature as well as pH.
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  
+
+
+Voice e-mail OK 
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 09:07:43 -0600
+From: Paul Niebergall <pnieb`at`burnsmcd.com>
+Subject: Benzene, mass
+
+
+Evan writes about benzene contaminated stainless steel:
+
+
+Benzene is extremely volatile and will quickly evaporate from any
+surface (especially a non-porous SS surface).  After a good washing in
+hot water and thorough drying, there should be no benzene left.
+
+
+However, benzene is extremely toxic and carcinogenic.  Inhaling a
+concentration of 500 ppm is considered immediately dangerous to life or
+health.  Exposure limits as low as 0.1 ppm have been set by the National
+Institute for Occupational Safety and Health.  The national drinking water
+standard for benzene is 5 micrograms per liter.  So even though I know it
+isn't a problem because all of the benzene will evaporate, I would not
+use stainless that held benzene just because, knowing how dangerous
+of a chemical it is, I wouldn't be able to sleep at night thinking about it.
+
+
+After being blessed once again with a reminder of how educated some
+of our most prolific posters are (of which the pomposity of the
+discussion is exceeding only by egos of the participants), Dave B. goes
+on to write:
+
+
+>>Actually she was incorrect as "mass" refers to an inertial
+>>characteristic.  She should have said...{Snip}"
+
+
+Well, in the case presented, "mass" is exactly the right word.  As in
+"supporting a 2 kg mass".  Yeah, I know that a mass in zero gravity (or
+no acceleration) exerts no force, but that tidbit of information is irrelevant
+unless some of our subscribers are reading the HBD in the space
+shuttle.  It is still a 2 kg mass that the record is (or is not) supporting.
+
+
+A better way of putting it is "supporting the force exerted by 2 kg mass
+under the prevailing conditions of acceleration". 
+
+
+And even better yet, one should say "supporting a force of 2 Newtons"
+
+
+But, the phrase "supporting a kilogram weight" is wrong.  It's a good thing
+your thesis advisor didn't hear you say that.
+
+
+>>don't argue with me.
+
+
+Why not, you are wrong?
+
+
+BTW, my reference indicates that there are 0.06852 slugs in a kg.
+
+
+Brew on, 
+
+
+Paul Niebergall
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 10:21:17 -0700
+From: brewshop`at`coffey.com (Jeff Sturman)
+Subject: home made roller mill
+
+
+A recent post dealt with making a roller mill and specifically what to use
+for the rollers.  A customer of mine recently made an adjustable, motorized
+roller mill.  After some initial problems it appears to be running just
+fine.  He used 5.75" diameter stainless steel pipe for his rollers.  No
+knurling required, since the angle between the rollers is so steep.  Each
+roller is about 14 inches in width.  It is quite an impressive machine.
+Those interested can email Mike at mbraun`at`coffey.com.  He has pictures
+which we could scan and post online if there is any interest.
+
+
+Helpful hint:  For anyone interested in super fine mesh for steeping
+grains, boiling hops, making wine, etc., go to your local paint supply
+store and pick up some paint strainer bags.  These are large, fine nylon
+mesh bags that can be altered for different applications.  The cost is
+rediculously low when compared to the purpose-made home brewing bags on the
+market.  I got this tip from a customer, Jim Shipley, who is very skilled
+at pinching pennies in the brewery.
+
+
+Finally, a blatant ad, but I hope it is okay since this is a great deal for
+home brewers looking for large stainless steel tanks.  Check out:
+
+
+www.coffey.com/~brewshop/BBHome.html
+
+
+and go to the Stainless Steel Vessels link.  These are 10 to 30 gallon ss
+tanks for $15 to $25 each!!!  Pictures included.  Sorry for the ad.
+
+
+Jeff
+casper, wy
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 13:39:38 -0500
+From: kbjohns`at`peakaccess.net
+Subject: Stainless Steel Brew Kettle
+
+
+BOS Prize in the 3/22/98 NY city spring Reg. HB Competition is a 10 gal
+Stainless Steel Brew Kettle with bottom drain and SS themometer from PBS,
+Precision Brewing Systems. Credit will be given for a larger kettle if
+desired. 
+
+
+Why not try to win it? We are also giving away $1,800 in other prizes.
+
+
+Complete information can be found at URL http://www.wp.com/hosi/companno.html
+
+
+
+
+Ken Johnsen
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 14:47:52 -0500
+From: Gordon Strong <strongg`at`earthlink.net>
+Subject: Dubbel yeast?
+
+
+I am interested in determining what variety of Wyeast is best used for a
+Belgian Dubbel.  In looking over their list, it appears there are at
+least four which might work well.  I am interesting in hearing about
+results, experiences and problems from actual use of these strains.
+
+
+I don't have easy access to other yeast suppliers, nor do I wish to
+culture my yeast from a commercial product, so I request comments be
+limited to fermenting a classic Trappist-style Dubbel using Wyeast.
+
+
+Thanks,
+
+
+Gordon Strong
+Beavercreek, OH
+strongg`at`earthlink.net
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 06:11:24 -0500
+From: Fred Johnson <FLJohnson`at`worldnet.att.net>
+Subject: For cooks and other potential mead makers.
+
+
+Fellow brewers:
+
+
+I found the following recipe for mead in a recently published general
+cookbook containing recipes for breads, soups, main dishes, appetizers,
+desserts, and everything else.   (The  contributor of the recipe, the
+cookbook, and its publisher shall remain nameless in order to protect
+the innocent.)   The well-intentioned author of the recipe did his best
+to outline the procedure and describe the needed equipment for the
+person who had never tried homebrewing -- bless his heart, God.  But
+when I read this, I laughed out loud and wondered, "What cook in his
+right mind would venture into the world of homebrewing after reading
+this recipe?"
+
+
+I hope you enjoy it as much as I did.
+- --
+
+
+MEAD
+
+
+1 qt. honey
+3 qt. water
+Nutmeg
+Pieces of ginger
+1 piece dried orange peel
+1 tsp. hops
+1 tsp. juniper berries
+1 1/2 oz. fresh yeast
+
+
+Cook honey with the water for 1 hour.  Place nutmeg,  ginger, orange
+peel, hops and juniper berries in a piece of cheesecloth, tie it closed,
+secure a weight on the end, and place in honey mixture;  boil another
+hour.  Cool honey and place in carboy (an airtight container that will
+allow gasses to escape, but will not allow air to enter;  these can be
+found at wine and beer making shops).  Dissolve the yeast in a little of
+the honey mixture, then add the mead.  Seal carboy.  Mead will ferment
+at room temperature for 6 months.  When the mead is fermented, the
+carboy will stop bubbling.  Place the carboy in cool, dry place.  After
+a year the mead will definitely be through fermenting and you can
+transfer it to bottles and seal the tops.  Watch for delayed
+fermentation, and if observed, open the bottle to allow the fermentation
+to finish, then close again.  If fermentation occurs in a sealed bottle,
+the container will most likely blow up.  The longer the mead sits, the
+better it gets.
+- --
+Fred L. Johnson
+Apex, North Carolina
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 13:05:01 -0600
+From: "Ray Estrella" <ray-estrella`at`email.msn.com>
+Subject: microscopes
+
+
+  Hello to all,
+I want to continue with my education on yeast, and think it is time to
+get a microscope.  Would those in the collective that use them, mind
+giving me a recommendation on what to look for, with yeast cell counts
+and viability studies in mind?  TIA
+
+
+Ray Estrella   Cottage Grove   MN
+ray-estrella`at`msn.com
+
+
+****** Never Relax, Constantly Worry....have a better Homebrew ******
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Mar 1998 19:57:12 +0000
+From: Mike Beatty <mbeatty`at`ols.net>
+Subject: Newbie Question - grains w/extract
+
+
+Hello all-
+
+
+I am familiar w/brewing w/extracts, but have come across a recipe I
+would like to try that calls for extract along with grains. The recipe
+says, "steep the grains in water as it boils. Remove grains." Now, my
+question is, should I do anything to the grain, such as cracking or
+grinding? Will steeping the whole grain release the flavor?
+
+
+Thanks!
+- -- 
+Mike
+______________________________________________
+Do you believe in Macintosh? Please check out: 
+
+
+<http://www.evangelist.macaddict.com/>
+
+
+
+
+------------------------------
+
+
+Date: Sun, 15 Mar 1998 10:18:22 -0500
+From: "Clifford A. Hicks" <simtech`at`ka.net>
+Subject: All-grain to extract conversions
+
+
+This has probably been discussed before but how about one more time for me .
+ . . .
+
+
+What is the conversion ratio so I can figure out how to adapt an all-grain
+recipe to an extract recipe? All responses much appreciated!
+
+
+Cliff Hicks
+simtech`at`ka.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 15 Mar 1998 18:39:01 +0100
+From: "Hubert Hanghofer" <hhanghof`at`netbeer.co.at>
+Subject: Re: yeast storage / priming and FAN
+
+
+Hello all,
+
+
+Duane Hale posted in HBD#2638:
+
+
+> In reference to the "yeast storage in distilled water" thread, an
+> alternative method is to store the yeast in a 10% sucrose and water
+> solution (1.040 OG) that has been sterilized beforehand in a pressure
+> cooker as advocated in Pierre Rajotte's "First Steps in Yeast Culture...
+
+
+and Al Korzonas commented in HBD#2660:
+
+
+> Yeast stored this way must be kept very cold (the exact temperature
+> has been posted in HBD a few years ago).  Above this magic temperature,
+> the sucrose is *fermented*!
+
+
+In the early days of yeast culturing, backup cultures stored in 10% 
+sucrose 
+were kept in a dark place at / or below 15C - far above any temp that 
+would inhibit yeast growth or fermentation! I've a copy of an old book on 
+yeast culturing, "Die Hefereinzucht" by Prof. Dr. Hans Schnegg, 
+Weihenstephan, 1947.
+
+
+He wrote that it's of great importance to inoculate the sucrose solution 
+only with small amounts of yeast slurry so that only little cloudiness of 
+the sucrose solution is obtained. This way the amount of nitrogen
+compounds [FAN] - essential for yeast growth - can only be provided by 
+yeast itself [autolysis]. This level is so low, that hardly any yeast 
+growth and certainly no fermentation (and accumulation of by products)
+does occur.
+
+
+He further underlines - as has also been addressed by Duane Hale - 
+that evaporation has to be avoided because increasing osmotic pressure 
+would kill the yeast sometimes. But on the other hand he notes that total 
+sealing of the storage flasks has shown to lower yeast viability. So 
+called 
+"Freudenreich flasks" with long, tall necks, sealed with cotton wool, were
+ 
+used.
+
+
+
+
+
+
+I think I'll give it a try and report back in 15 years or so ;-)
+
+
+I've started preparing backup cultures in Dec 1996. Along with distilled 
+water I used isotonic buffer solution made of 9 grams NaCl per litre 
+water.
+So far there is no big difference between the two types of backup media 
+but 
+some strains have only very little residual viability. - I need a whole 
+drop to get some colonies on a slant while other backup cultures only 
+require one stroke with an inoculation loop.
+
+
+I analyzed my records and can only find 2 possible conclusions so far:
+
+
+1/ Ale strains are more sensitive than lager yeasts.
+2/ In preparing backup cultures, yeast is harvested from a slant with 
+an inoculation loop and suspended in the backup media (pick up and 
+transfer 
+of any nutrient is avoided). It seems to be essential to harvest the yeast
+ 
+from the agar within the growth phase.
+
+
+~~~~~
+
+
+The inhibition of fermentation by low FAN brings up another point:
+
+
+Sometimes we read about problems when priming with sucrose, like sweet 
+taste and / or lower carbonation as expected. I wonder if low residual FAN
+ 
+levels could cause this and I'm sure that this may indeed be a problem 
+when 
+brewing (not priming) with low FAN extracts.
+
+
+Dave Burley commented on his priming method in HBD#2661
+
+
+> ...This will produce an active yeast acclimated to the sugar and
+> the beer and have sufficient FANs ( from the malt extract)  to allow
+> the yeast to carry on and carbonate quickly and reliably, unlike
+> "less-controversial" methods of adding sugar alone which work poorly,
+> slowly or at least unreliably.
+
+
+IMHO Dave's "controversial" priming method should be discussed in a 
+serious 
+and constructive way and not being pilloried on web pages. With no doubt 
+it 
+requires much experience and the right feeling to hit the exact point of 
+attenuation. Dave has this experience but the question is what could be 
+done do make it reliable to less experienced brewers?
+
+
+CHEERS &
+sehr zum Wohle!
+
+
+Hubert in Salzburg, Austria
+
+
+
+
+------------------------------
+
+
+Date: Sun, 15 Mar 1998 11:35:13 -0700
+From: "Steve Hill" <hills`at`inficad.com>
+Subject: Stout faucet / Guiness faucet
+
+
+I'm shopping for a stout faucet and have a couple of questions:
+
+
+1) Some places sell "stout faucets" and some sell "Guiness faucets".  The
+Guiness faucet costs about twice as much - what's the difference?
+
+
+2) Is there any value to "vari-flow" which allows flow rate to be adjusted
+at the faucet?
+
+
+Thanks,
+Steve
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 15 Mar 1998 13:52:33 -0500 (EST)
+From: Some Guy <pbabcock`at`oeonline.com>
+Subject: AG to Extract: Whatta way to go.../Overhopping Cancer
+
+
+Greetings, Beerlings! Take me to your lager converted from all-grain to 
+extract...
+
+
+Cliff asks...
+
+
+"What is the conversion ratio so I can figure out how to adapt an all-grain
+recipe to an extract recipe? All responses much appreciated!"
+
+
+and, since it's been so long since I made any kind of real contribution 
+to the Digest, I write...
+
+
+Answers vary on experience, extracts used, phase of the moon, conjunction
+of the planets and whether your dog is touching a RIMS heating element
+while eating hops smothered in tomatoes, but, in general, DME yields about
+45 pgp and LME yields around 36. Take the all-grain recipe's expected SG,
+subtract one, multiply by 1000, then multiply by the brew length (the
+volume of the resulting brew). Take this number and divide by the factor
+for the type of extract you want to use. 
+
+
+For example, say a stout has an SG (or OG) of 1.040, and the recipe is for
+ten gallons. First you have (1.040-1)x1000=40 points in ten gallons.  SO
+you need to add 40x10=400 "points worth" of extract to make their SG. 
+Just to make it confusing, let's say that, due to their flavor and color
+profiles, you want to use 3/4 DME and 1/4 LME. Here we go!  You need
+(400x3/4)/45=300/45=6.66lbs DME (six-and-two-thirds lb) and
+(400x1/4)/36=100/36=2.75lbs LME (rounded down a tad...) to yield the same
+gravity in ten gallons (or durned close, anyway!). 
+
+
+Yielding the desired flavor and coloration to any such converted brews is 
+usually where the mathematics go out the window, and the artistry of 
+brewing comes in. Just remember: never, NEVER boil dem grains! (unless 
+doing a decoction, of course, but that's different.) And never, NEVER 
+wear plaid whilst brewing. Unless brewing ales indiginous to Scotland, of 
+course. But then it must be a kilt, and yawl not be wearin' the skivvies, 
+lad!
+
+
+Did any one else read of the preliminary Oregon State U study showing 
+that a component of hops in beer may prevent cancer? YES! There _IS_ a 
+God! And he _IS_ a brewer!
+
+
+See ya!
+
+
+Pat Babcock dislocated in Norfolk, VA  pbabcock`at`oeonline.com 
+Home Brew Digest Janitor               janitor`at`hbd.org
+HBD Web Site                           http://hbd.org   
+The Home Brewing Page        http://oeonline.com/~pbabcock/brew.html
+               "A beer a day is, well, is a necessity."
+
+
+
+
+------------------------------
+
+
+Date: Sun, 15 Mar 1998 20:13:32 -0600
+From: Jason <jmckee`at`siue.edu>
+Subject: Rolling Rock
+
+
+I was wondering if anyone had a recipe for a Rolling Rock-like brew or
+suggestions for an approximation.  I enjoy it on hot summer days (not
+far off!) and would like to make my own version.  Extract or all-grain
+is fine. Reply via e-mail or this list is fine also.
+Thanks for any suggestions!
+
+
+Jason.
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2662, 03/16/98
+*************************************
+-------

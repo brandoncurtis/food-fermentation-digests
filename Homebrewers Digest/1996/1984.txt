@@ -1,0 +1,1428 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA20847 for <spencer`at`srvr5.engin.umich.edu>; Thu, 14 Mar 1996 03:20:49 -0500 (EST)
+Received: from truelies.rs.itd.umich.edu (truelies.rs.itd.umich.edu [141.211.83.38]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA27019 for <spencer`at`engin.umich.edu>; Thu, 14 Mar 1996 03:20:25 -0500 (EST)
+Received: by truelies.rs.itd.umich.edu (8.7.4/2.2)
+        with X.500 id DAA19817; Thu, 14 Mar 1996 03:20:24 -0500 (EST)
+Received: from hplb.hpl.hp.com by truelies.rs.itd.umich.edu (8.7.4/2.2)
+        with ESMTP id DAA19805; Thu, 14 Mar 1996 03:20:19 -0500 (EST)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Thu, 14 Mar 1996 08:17:55 GMT
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA10346; Thu, 14 Mar 1996 01:00:07 -0700
+Date: Thu, 14 Mar 1996 01:00:07 -0700
+Message-Id: <9603140800.AA10346`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #1984 (March 14, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #1984                             Thu 14 March 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  mutation, phenolic flavors, and Idophor (Mike Uchima)
+  Channel Wars (Charlie Scandrett)
+  Water Ion Concentrations (JamesN2405)
+  Source for High-Temp Hose? (Marty Tippin)
+  hop downy mildew (Douhan)
+  2 day brewing? (Brewizard)
+  Uncl: Calories and Finishing Gravity ("Calvin Perilloux")
+  Distilled Beverages (Aesoph, Michael)
+  Re-boiling the wort. ("Braam Greyling")
+  Making bread with used grains ("Braam Greyling")
+  Malt Liquor/Carbonation/Hangovers/Heaters (A. J. deLange)
+  calories ("Tracy Aquilla")
+  recipes (Michael Kerns)
+  Electric elements, wiring (Ed, Quantum PE (508) 770-2251)
+   ("Matt S. Grady")
+  Two gauge regulators (David C. Harsh)
+  Re: Electric Boilers (Spencer W Thomas)
+  culturing a 3 strain yeast... (Victor J Farren)
+  Uncl: Beer/malt liquor ("Calvin Perilloux")
+  Uncl: Homebrewers in Berlin?? ("Calvin Perilloux")
+  Re:Help my beer is infected..Wayne Wight (Victor J Farren)
+  Diacetyl and 2,3-pentanedione/ Copyright (Bob Waterfall)
+  Corny Compatible (Neal Christensen)
+  Split-day brewing (Chris Geden)
+  Wire Gauges and Circuit Breakers for Electric Boilers (KennyEddy)
+  Large fermenter (RUSt1d?)
+  Re:Royal Oak pale ale (Robert Bush)
+  DO NOT DO THIS!!!!! (was Electric Boilers) (b.j.) grier" <bjgrier`at`bnr.ca>
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 11 Mar 1996 15:31:46 -0600
+From: uchima`at`fncrd8.fnal.gov (Mike Uchima)
+Subject: mutation, phenolic flavors, and Idophor
+
+
+lachina`at`interramp.com (Lorne P. Franklin) writes:
+> 
+> Tam Thompson writes, ". . . You can usually re-use that slurry about three
+> times before it starts to mutate too far into the unusable range. . . ."
+> 
+> I've read this assertion in many places and am wondering if anyone can
+> profile the flavor, bahvior, or appearance of "mutated" brewers yeast.
+> I've never used yeast beyond the third generation, but am curious of the
+> potential problems involved with "inbred" yeast.
+
+
+I've got a strong suspicion that what we're calling "mutation" here is
+actually "contamination". Unless you've got an extremely mutant-prone strain
+of yeast, and/or top-notch sanitation procedures, my (uneducated) guess is
+that increasing levels of wild yeast and bacteria would become a problem long
+before mutation of the original strain was noticable.
+
+
+Anyone more qualified care to comment?
+
+
+jlee`at`esd.ray.com (Jerry Lee) says:
+> Well the beer from hell has given it's last act of
+> defiance...It has developed a definite phenolic
+> aroma & flavor....could the contamination occured
+> during the foaming filter I brought up  just a 
+> few files back...or is this more of case of
+> sanitation error during fermentation?  Could open 
+> fermentation been the cause?  After all the claims
+> that this wasn't a problem in open fermentation...
+
+
+What about fermentation temperature? Don't some yeasts produce phenolic
+flavors if fermented too warm?
+
+
+mikeb`at`flash.net (Michael T. Bell) says:
+>         One quick question.  What is the proper dilution rate of Iodophor?
+> I have read that the optimum is 25ppm.  That works out roughly to 1oz per 6
+> gal.  In this concentration, it stains my hoses a nice shade of light
+> brown, lovely but annoying.  Is this to high?  If it is, what is the proper
+> ppm?
+
+
+I usually use somewhat less than this, about 1/2 oz per 5 gallons. I still get
+the brown stains at this concentration. I actually find the brown stains kind
+of reassuring -- I figure if the hoses have absorbed enough iodine to stain
+them like that, then nothing's gonna grow in them when they're not in use. :-)
+
+
+- -- Mike Uchima
+- -- uchima`at`fnal.gov
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 06:47:00 +1000
+From: merino`at`cynergy.com.au (Charlie Scandrett)
+Subject: Channel Wars
+
+
+Rob Lauriston writes; (from Australia according to AK, been ethnically
+cleansed Rob?)
+>This is sometimes called 'top-dough' or by the German word 'tieg'
+>(prounounced 'teague' ;-) which means dough or paste.  Handy word just
+>'cause it's shorter. 
+
+
+I honestly thought it was "tigrr", well known German typing error and
+associate of Winnie the Pooh? I guess I see what I want to see.
+
+
+>There is no advantage to having this layer appear on the top of the mash.
+>In fact, it can be a disadvantage.  Because the layer is so gluey, the
+>sparge water can have difficulty penetrating it.  The layer can even act
+>like a piston and compact the whole bed, slowing the run-off to nil.  I had
+>this happen once on a 10 Hl system.  This is a good reason to stir up the
+>very top of the mash during lautering, so that the doughy stuff is
+>distributed among the larger particles, rather than in an impermeable layer.
+>The stirring also counter-acts channelling. 
+
+
+There is one advantage, it is the *most* effective filter of lipids in the
+recycled first runnings. However its' main disadvantage is impermeability
+which, besides the hydrostatic piston effect, can be uneven, leading to
+channeling. I agree with mixing it with the topmost layer (1").
+
+
+Al K. writes,
+>I contend that stirring the grain bed increases channelling.
+>This is how I justify this.  Consider water running slowly through the
+>grain bed.  Now here comes this rake or spoon that cuts a gorge into
+>the grain bed.  The gorge disappears as quickly as it appeared because
+>there is a layer of water on top of the grain bed.  What flowed into
+>the gorge?  Grain?  Water?
+
+
+It depends on if the prudent step of stopping the flow has been carried out.
+Grains *underwater* weigh very little and settle out easily and evenly
+depending on size. The dry SG of well modified malt is between 0.95 and 1.0
+and would float if mashing-in had not replaced entrained air with water. The
+pronounced Archimedes effect of covering the bed with water means that the
+other factors are that much more important.  Under hydrodynamic compaction
+from flow, hydrostatic compaction from teig (topdough piston effect), or
+gravitational compaction from grains above the water table, the grist
+particles don't settle easily into the raking void as they are "set".
+
+
+Jim Cave astutely observes in the first of the rural analogies,
+>No.  Im not a hydrological engineer, just a stream biologist.  
+>Obviously, erosion develops with water velocity and with time--streams
+>widen with time because of erosion.  The stream analogy with a grain-bed
+>would indicate that channelling would also develop with time.  Anything
+>that forces the process to start over again (e.g. stirring) would minimize
+>the development of channels.  Mind you, recirculation may be necessary
+>to reset the grain bed and minimize rubidity of the wort. 
+
+
+All of this is sound, time and flow rate are important in the development of
+channeling. If cloudy wort results from raking, it should be recycled
+because of the trub, lipids and unconverted starch in it.
+
+
+Also he notes,
+>         I've been told by a commercial brew that rather than suffer through
+>a stuck mash (which often results in channeling--least flow of resistance
+>and all that) complete stiring and reseting of the grainbed is preferable.
+>If the mash has shown signs of sticking, it is best to do this
+>right away than deal with the concrete afterwards.
+>I've seen signs of channelling in the two times I've had a stuck 
+>mash.  There was a mottling of the grainbed and parts were sweet and others
+>were not.  I suspect that I made the usual mistakes--recirculated too 
+>quickly, and too much; too fine a grind; too much grain.
+
+
+Stuck sparges and channeling are different manifestations of the same thing.
+Watch for uneveness in the teig and flow rate and don't be afraid to start
+again.        
+
+
+Dave H uses a river analogy,
+>  heavy particles at bottom, teig-forming
+>"grain dust" (and hot break) settling last on the top.  Like river sediment
+where
+>the big rocks settle first, and so forth, until the only thing still suspended
+>in the water is the silt particulate, which settles last.  If you use adjuncts
+>such as corn or oats, the teig is very pronounced and you get either
+>channeling down the sides of the cooler, or a stuck runoff, both not a
+>good situation.
+>My ways around this, as you appear to have already discovered, are
+>to scratch the surface of the grain bed often during the sparge  (or
+>even skim off some of the teig as it forms), or open the runoff flow
+>rapidly at first to set the grain bed before it has time to do the gradient
+>settling (or both). 
+ 
+The "scratching" is more useful as the recycling of *lots* of cloudy first
+runnings will create a thinner but more protein/lipid concentrated teig. The
+gradient effect is useful for good filtering.
+
+
+Al writes from experience,
+>and have subsequently disturbed the grain bed a little (8" grain beds or so).
+>A quick look at my runnings showed that they had gotten a little cloudy
+>suddenly, but then cleared back up quickly.
+
+
+>I think that if you were to:
+
+
+>1. stop taking runnings,
+>2. stir the grain bed,
+>3. restart taking runnings into another vessel,
+>4. recirculate till the runnings are back to "pretty clear,"
+>5. restart putting the runnings into the kettle,
+
+
+That is exactly the technique I would recommend to stir without more
+channelling. You have answered your own question Al.
+
+
+but then he distinguishes between "constant" or "occasional"
+>So there you have it.  The bottom line is: a constant and thorough stirring
+>of the mash (SNIP) will reduce channeling (SNIP),
+And probably greatly increase lipids.
+> but probably is not needed for infusion mashes made with properly-crushed
+>grain.
+OK, and pH <5.5
+> Cutting the grain bed or occasional stirring will increase channeling and
+>reduce the efficiency of the extraction.
+
+
+The elimination of hydrodynamic (flow pressure, I'll have a method of
+monitoring that in the FAQ) and extra gravitational force(exposed grain) on
+the *submerged* bed will alow *any* stirring to decrease channeling. Poorly
+modified malts, decoction mashed, will not settle after stirring as readily
+as they are heavier. In shallow homebrew lauter beds, there is not much
+hydrodynamic compaction unless the brewer is really running fast. (more on
+flow rates toomorrow) Thus, uneven teig (top dough) or too few wort outlets
+(see AK's excellent graphics on flow dynamics at "The Brewery") are probably
+the main cause of any channeling. Any stirring of the top of the bed while
+*stopped* will aleviate this. Under these conditions (stopped runnings, I
+see no logical distinction between "thorough" and "partial", or constant"
+and "occasional" except in the degree of the positive effect.
+
+
+This thread has added greatly to the upcoming Lauter FAQ which is obviously
+needed. I'll post the Channelling/Stuck Sparge extract toomorrow for comment.
+
+
+Charlie (Brisbane, Australia, where we quote AK!)
+
+
+My new rakes are horizontal,..... don't ask.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Mar 1996 19:20:57 -0500
+From: JamesN2405`at`aol.com
+Subject: Water Ion Concentrations
+
+
+This table is reprinted (with permission) from Zymurgy Vol 14 No 5 (Winter
+1991).
+It is from an article by Jon Rodin and Glenn Colon-Bonet. I cannot vouch for
+the
+accuracy of the data, but it is the only summary of this type that I have
+been able to find.
+
+
+Beer                Recommended Ion Concentrations for Beer Styles (mgl/L)
+Style                Ca++         Mg++        Na+        C03--        S04- -          Cl-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- ------------------------------------------------------------------------------
+- -----
+
+
+Pale ale           100-150         20        20-30        0        300-425          30-50
+Bitter                60-120         10        15-40        0        180-300          25-50
+Mild                25-50         10        30-40        0        95-170          50-60
+Brown ale        15-30         0        40-60        0        35-70          60-90
+Scottish ale        20-30         0        12-20        0        50-70          18-30
+Porter                60-70         0        40        60        50-70          60
+Sweet stout        55-75         0        10-20        60-80        35-55          18-30
+Dry stout         60-120         10        10-20        60-200        35-110          18-30
+Pilsener           7         2-8        2        15        5-6          5
+Light lager        35-55         0        20-35        0        85-130          35-55
+Dark lager        75-90         0        40-60        90        35-70          60-90
+Munich dark        50-75         0        5-15        60        20-35          5-20
+Maerzen                30-60         0        30-40        0        70-140          45-60
+Bock                55-65         0        40-60        60        35-55          60-90
+Doppelbock        75-85         0        40-70        90        35-55          60-110
+Alt                30-45         0        25-30        0        70-110          40-50
+Weizen                15-30         0        5-15        0        35-70          10-20
+Dortmunder        60-90         0        45-60        0        140-210          70-90
+
+
+Jim
+
+
+------------------------------
+
+
+Date: Mon, 11 Mar 1996 18:22:25 -0600
+From: Marty Tippin <martyt`at`sky.net>
+Subject: Source for High-Temp Hose?
+
+
+I'm trying to find a source for some plastic tubing for my converted keg
+system that meets the following criteria:
+  * FDA approved for food use
+  * Capable of withstanding 212F wort for extended periods of time without
+plasticizing or otherwise breaking down and leeching crap into the wort
+  * 5/8" ID
+  * Available in a length of 6 to 10 feet - I don't need a 50 ft. roll!
+  * Flexible
+  * Reasonably affordable (like $5 per foot or less)
+
+
+>From what I've found, Norton Norprene A-60F tubing will fit the bill but I
+can't get it in anything less than 50 ft. rolls.  Cole-Parmer has some other
+stuff that's available in 25 ft. rolls but is about $9 per foot.
+
+
+If anyone knows of a source for Norprene or some other tubing that will meet
+my needs, please let me know!
+
+
+ -Marty
+ martyt`at`sky.net
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Mar 1996 22:21:01 -0800 (PST)
+From: Douhan <gdouhan`at`wsunix.wsu.edu>
+Subject: hop downy mildew
+
+
+        I am a graduate student at Washington State University giving a 
+seminar on the importance of hop downy mildew in the pacific northwest. I
+would appreciate any relative info that anyone has out there in 
+cyberspace. I would also like to get some general hop trivia for 
+introductory purposes, i.e., quotes, facts, etc. Any help would be greatly 
+appreciated. 
+
+
+P.S. Any Mad River Brewing clones out there(Jamaica red, stealhead extra 
+pale ale)?
+Greg Douhan
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 02:03:06 -0500
+From: Brewizard`at`aol.com
+Subject: 2 day brewing?
+
+
+Are there any problems with doing a full mash brew over 2 days?  I was
+thinking about going through the mashing/sparging stage on 1 day then
+boiling, etc. on the next.
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 05:35:38 EST
+From: "Calvin Perilloux" <dehtpkn9`at`ibmmail.com>
+Subject: Uncl: Calories and Finishing Gravity
+
+
+  
+John DeCarlo asks recently in HBD 1982...
+  
+>I would still like to better understand how creating alcohol and loweri<
+>the FG results in fewer calories (probably just a result of chemical   <
+>reactions that generate heat or something a chemist would understand). <
+  
+Consider that yeast, as a living organism, cannot convert maltose and
+other sugars into alcohol without using a part of it to supply its own
+metabolic needs.  Some fraction of the energy is lost.  (This might be
+more complicated for nutrients that are more complex than the easily
+convertible sugars and alcohol we're dealing with in beer.  Could
+certain complex nutrients actually be made more digestible and hence
+more calorie rich by certain conversions?  Quite possibly, but the
+nutrients we're dealing with here are all very "convertible" as they
+are by the human body, which makes our concept here easier to grasp.)
+  
+Given two wort samples of equal OG, the one ending in lower FG has
+had more alcohol created (with less than 100% efficiency calorie-
+wise) from the original sugars.  The one ending in the higher FG has
+not had as much of this "calorie-wasting" metabolic activity going on,
+and hence it is higher in calories.  Think of the heat generated by
+a rapid ferment.  That's lost energy that could be going to your own
+waistline!
+  
+Calvin Perilloux                                  "Bayerisches Bier,
+dehtpkn9`at`ibmmail.com                               Staerker als Heimweh"
+Erding, Germany
+  
+
+
+------------------------------
+
+
+Date: 11 Mar 96 16:57:01 EST
+From: aesoph`at`ncemt1.ctc.com (Aesoph, Michael)
+Subject: Distilled Beverages
+
+
+Dear Collective:
+
+
+
+
+
+
+        A freind of mine has an old still that his grandfather made during 
+prohibition.  He states that it is not illegal to distill your own 
+beverages.  Is there any truth to this?  If so, is distilling safe?  I've 
+thought about distilling some of my wine or pseudo-brandy into Brandy.  
+Anyone know any good recipes for distilled beverages?
+
+
+
+
+
+
+                                        Mike Aesoph
+
+
+
+
+------------------------------
+
+
+Date:          Tue, 12 Mar 1996 14:18:59 +200
+From: "Braam Greyling" <ACG`at`knersus.nanoteq.co.za>
+Subject:       Re-boiling the wort.
+
+
+Hi
+I have been wondering. I started fermenting an pale ale a week ago. 
+Yesterday I wanted to bottle it and when I tasted it I was HORRIFIED 
+by the taste. Bacterial infection ! Me bad brewer,bad bad bad brewer
+;-)
+Now I was wondering. Could I re-'boil' this whole wort and yeast and 
+everything.Maybe add some honey or sugar. And ferment it agian ?
+I know I wont get an excellent beer out of this but maybe it is 
+drinkable. Or is it better to feed the drain's cockroaches ?
+Thanks
+Braam Greyling           Design Engineer 
+Nanoteq (Pty) Ltd        tel. +27 (12) 665-1338  
+- ---- 24 hours in a day, 24 beers in a case ---- 
+- ----     coincidence ?????                 ----
+
+
+------------------------------
+
+
+Date:          Tue, 12 Mar 1996 14:39:30 +200
+From: "Braam Greyling" <ACG`at`knersus.nanoteq.co.za>
+Subject:       Making bread with used grains
+
+
+Hi there
+I would like to make some bread with the used grains after I brewed 
+my favourite ale. Are there any recipes on the internet for baking 
+bread with the spent grains ? I could not find any on the Cats Meow.
+If somebody have some recipes could you please please please send 
+them to me ?
+If you e-mail me I will post a summary, it doesnt matter I read the 
+digest anyway everyday.
+Cheers
+Braam Greyling           Design Engineer 
+Nanoteq (Pty) Ltd        tel. +27 (12) 665-1338  
+- ---- 24 hours in a day, 24 beers in a case ---- 
+- ----     coincidence ?????                 ----
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 09:20:01 -0500
+From: ajdel`at`interramp.com (A. J. deLange)
+Subject: Malt Liquor/Carbonation/Hangovers/Heaters
+
+
+Tracy Thomason asked about the practical differences between beer and malt
+liquor having seen that label on a bottle of Paulaner Hefe-Weizen. In this
+case it is a matter of definition by your state liquor control authority:
+anything above x% (presumably 5.2 or so in this case) ABV is malt liquor.
+There are, of course, lots of laughable regulations of this sort on the
+books of the 50. I believe, for example, that in Texas anything, be it
+barleywine or bock, above a certain strength must be labeled "ale".
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Greg Dolbec has had carbonation problems and suspects that the secondary
+fermentastion is not going forward. If this is indeed the case the beer
+will taste sweet from the unfermented priming sugar. If it is the case try
+placing a few drops of fermenting beer (as from the next batch) in each
+bottle or mixing a couple of cups of fermenting beer into the bottling
+bucket. It is possible (but unlikelyu) that a flocculant strain of yeast
+may settle out before bottling to the point where bottle fermentation is
+impeded. Do the bottles give a whoosh when opened? A common problem with
+extract brews is that the beer has no head retention whatsoever so that the
+carbonation, while there, escapes in huge bubbles in a couple of minutes.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Greg also asks about hangover cures. There are lots of "eye of newt and toe
+of frog" sorts of things out there but it has been suggested that fructose
+will do the job. Fructose starts metabolism by a different pathway than
+glucose(for example it skips the points regulated by insulin) and hangover
+metabolites try to run certain parts of the metabolic system backwards. All
+the parts are coupled by elaborate feedback mechanisms so I suppose it's
+possible that fructose may straighten out the tangle that ethanol causes.
+Even if it is by placebo effect, it seems to work. It is readily available
+at health food stores (diabetics use it as a sweetener). My recipe: squeeze
+a lemmon into a small tumbler, add enough fructose to sweeten to lemonade
+level, add some water, mix and swill.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Ken Shcwarz's idea for using diodes to contol power level is darn clever!
+How about using a diode and pair of switches on each of the elements to get
+four levels of heating a la:
+
+
+                       |  <---------- 120VAC ------->  |
+                       |                               |
+                       |               Lo              |
+                       |               /               |
+                       |    Off    |--/   --|          |
+                       |     /     |    Hi  |   Htr    |
+                       |----/  ----|---->|--|--/\/\/\--|
+                       |       On                      |
+                       |                Lo             |
+                       |               /               |
+                       |    Off    |--/   --|          |
+                       |     /     |    Hi  |   Htr    |
+                       |----/  ----|---->|--|--/\/\/\--|
+                               On
+
+
+It should take less time to build this than it took me to do the ASCII art.
+
+
+A.J. deLange   Numquam in dubio, saepe in errore!
+ajdel`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 96 09:01:15 CST
+From: "Tracy Aquilla" <aquilla`at`salus.med.uvm.edu>
+Subject: calories
+
+
+In Digest 1982:
+John DeCarlo <jdecarlo`at`burp.org> wrote:
+[snip]
+>So, I am more interested in data that discusses the expected calories based 
+>on the sources of those calories.  As far as I can tell, there are two basic
+>areas:
+>   1) Ingredients (corn/wheat/malt, fermentables vs. non-fermentables, etc.)
+>   2) Fermentation (how much alcohol the yeast produced, resulting FG, etc.)
+
+
+Ethanol has 7 kcal/g, carbohydrates and proteins 4 kcal/g, and fats 9
+kcal/g. Dietary calories (abbrev. C) are actually kilocalories.
+
+
+>I think the previous data presented gives some info on a generic recipe 
+>only concerned with OG or Real Extract, so gives some data for 2).  However,
+>I would still like to better understand how creating alcohol and lowering 
+>the FG results in fewer calories (probably just a result of chemical 
+>reactions that generate heat or something a chemist would understand).
+
+
+You got it. The yeast gives off a lot of heat during fermentation.
+
+
+>Still, is it really true that it doesn't matter what ingredients you use and
+>how fermentable they are, except for how that affects the OG and FG?  That 
+>may very well be true, but I wouldn't have guessed it.  Also, does it 
+>more-or-less assume all barley, or all barley/rice/corn/wheat/rye?  What 
+>about if you add sugar or honey or cherries?
+
+
+Since were mostly talking about carbohydrates here, the source is
+insignificant. Any carbos that dissolve will contribute to specific gravity.
+The carbos yeast can't use (dextrins, starch, etc.) will just contribute to
+the calories in the finished beer.
+    Tracy
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 07:14:39 -0700
+From: mck`at`yar.cusa.com (Michael Kerns)
+Subject: recipes
+
+
+With warm weather approaching, I was wondering if anyone out there had
+extract recipes for steam beers or pale ales they would be willing to share.
+My basement is stocked with porters and stouts, I'm looking for something a
+little lighter. Many thanks for the shared wisdom. Private email is fine.
+Incidentally, I realize that for the more experienced brewers this is a
+technical resource; but I personally like the recipes I get off of here and
+sincerely thank those who post their favorites. I've tried many and haven't
+got a bad one yet. 
+TIA to all who reply.
+
+
+Mike
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 09:20:46 -0500
+From: iaciofano`at`leds.shr.tdh.qntm.com (Ed, Quantum PE (508) 770-2251)
+Subject: Electric elements, wiring
+
+
+
+
+
+
+KennyEddy writes:
+
+
+>For a typical household 120V circuit, the breaker will trip at about 15A.
+>There are probably some 20A circuits scattered around; usually the wiring
+>gauge is the same (but check with an electrician to be sure this is the case
+>at YOUR house!), so it might be a simple matter of installing a 20A breaker
+>in place of the 15A connected to your brewing area outlets.
+
+
+Umm, I'd be *real* carefull about this.  The "simple matter" of replacing 
+the breaker with a bigger one reminds me of replacing an old screw type 
+fuse with a penny.  Yeah, ask an electrician and see what he says.  Most 
+electricians I know (and I do know more than a few) always match the 
+current ratings of the wire and breaker.
+
+
+Also, while I'm thinking of it.  There's been some talk about using the
+burner connector on an electric stove as 240V access.  If you can make a 
+good mechanical connection so that shorting and ohmic heating aren't a 
+problem, the important thing you have to check is that you are not 
+violating the wattage rating of the connector.  The wattage for electric 
+elements is usually stamped on the burner support bracket.  Most small 
+size burners are about 1800 watts, with the larger ones at around 2400 watts.  
+DO NOT exceed these wattages with whatever you hook up to the burner 
+connectors.
+
+
+
+
+Regards,
+
+
+/Ed_I  (electric stovetop brewer)
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 10:32:16 -0500
+From: "Matt S. Grady" <gradym`at`btv.ibm.com>
+Subject: 
+
+
+
+
+In #1982, Nick Dahl writes:
+
+
+>I'm moving from extract to partial mash brewing, but like many people, just
+>don't have the time to commit to an "all-day and all-of-the-night" brew
+>schedule.  This is why I'd like to do a partial mash on one evening,
+>collect the "sweet liquid wort" in a sterile container, refrigerate it
+>overnight, then do an extract boil the next day, using yesterday's results
+>as the "second can."
+
+
+>Actually, I think this study has repercussions for brewers who want to move
+>to all-grain brewing, but do not have the space or want to invest in the
+>equipment needed to pull off an all-grain brew with extract equipment.
+>However, like Bob, I'd value all opinions, particularly those who think the
+>idea is crazy.
+
+
+
+
+I am finding that mashing is not really taking that much more time than 
+brewing with extracts, and that things are getting faster the more batches I 
+make.   Here's a rough 5 hr schedule that I generally follow:
+
+
+Water to strike temp - 15 min
+Mash, get sparge water ready - 1.5 hrs
+Lauter/sparge - 45 min
+Boil & cleanup - 1.5 hrs
+Chill & cleanup - 30 min
+Aerate, pitch & final cleanup - 30 min.
+
+
+SO - starting at about 6pm, I generally finish up at about 11.  Much of the 
+1st 2 hrs is spent letting the mash work, so one has time to read to the kids, 
+pet the dog, hug the spouse, etc.  I get as much sanitation out of the way as 
+possible the night before brew night, and have generally been building a yeast 
+starter in the days before as well.
+
+
+I also find the incremental equipment expense minimal.  I mash on the stove 
+with my original 5 gal. boiler.  A 2nd 4 gal. pot was purchased so all the 
+wort could be boiled ($25), and a 2nd 5 gal. plastic bucket ($4) was purchased 
+to drill holes in to make a lauter tun (already had a bottling bucket for the 
+bottom half of the tun).  Chilling is done in a bathtub with water/snow/ice, 
+along with 2l frozen pop bottle 'immersion chillers' (free).  This 'equipment' 
+has worked well for me for many batches.
+
+
+In short, I would encourage anyone interested in adding mashing to their 
+brewing regimen to make the incremental $ investment, and not worry too much 
+about the process taking too much time.  You will find your own way to improve 
+upon the above and fit it in, and you will probably be very pleased with the 
+results.
+
+
+Matt
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 10:59:02 -0500
+From: dharsh`at`alpha.che.uc.edu (David C. Harsh)
+Subject: Two gauge regulators
+
+
+Al wrote:
+>Art asks:
+>>Are two gauge regulators better than single gauge?
+>
+>In my opinion: marginally better.  You see, the high-pressure gauge
+>should warn you when you are running out of gas, right?  Well, the
+>problem is that it does not change (unless you change the temperature)
+>until all the liquid CO2 has turned to gas.
+
+
+CO2 is *not* liquified when delivered in compressed gas cylinders.  The
+saturation pressure of of CO2 at 70 F is 853.4 psia, size K cylinders come
+at about 850 psia when full, the 5 lb cylinders most homebrewers use are
+filled to 500 psia.  (Below the saturation pressure, CO2 exists as a gas.)
+The pressure will change continuously while the supply is depleted.
+Propane is delivered as a liquid, and Al's points are valid for propane
+tank pressure gauges that some people sell.
+
+
+I agree that the two gauge regulator for CO2 is only  marginally better,
+but I would still get a two gauge regulator if I had it to do over - my
+experience has been that the pressure falls extremely rapidly at the lower
+end of the pressure gauge and it would be nice to have *some* warning.
+
+
+Dave
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 11:45:30 -0500
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: Re: Electric Boilers 
+
+
+>>>>> "KennyEddy" == KennyEddy  <KennyEddy`at`aol.com> writes:
+
+
+    KennyEddy> For a typical household 120V circuit, the breaker will
+    KennyEddy> trip at about 15A.  There are probably some 20A
+    KennyEddy> circuits scattered around; usually the wiring gauge is
+    KennyEddy> the same
+
+
+WHOA!  Slow down!
+
+
+* A 20A circuit requires 12 gauge wire, while a 15A circuit requires
+only 14 gauge (14 gauge is smaller than 12 gauge).  DO NOT replace a
+15A breaker with a 20A breaker without being SURE that the wire is the
+right gauge *all the way* from the breaker panel to the outlet, AND
+that all the switches and outlets on the circuit are rated for 20A
+(most modern fixtures are).
+
+
+* Kitchen outlets, under *current* electric code, must be on 20A
+circuits.  This is good news.
+
+
+* A 15A circuit is only rated for 13A continuous load, although it
+won't trip the breaker.
+
+
+* You should be able to get 1125W out of a 15A circuit. Heck, some
+hair dryers are rated at 1500 W.
+
+
+=Spencer
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 11:56:51 -0500
+From: Victor J Farren <wigwam`at`jhunix.hcf.jhu.edu>
+Subject: culturing a 3 strain yeast...
+
+
+        I recently aquired some yeat from a friend of mine that works in a 
+brewpub.  Technically speaking he wasn't supposed to do that, but that is 
+the advantage of having friends.  The yeast is supposed to be a triple 
+strain: a strong starting yeast, a strong middle yeast and a strong 
+finishing yeast.  This is a top flocculating ale yeast that I am 
+interested in culturing.  I would think that I could harvest that yeast 
+off of the top of a primary fermenting bucket right before I rack it into 
+the secondary fermenter.  But here is the question:
+        Since it is a triple strain, at the point of harvesting (after primary 
+fermentation) will most of the begginer and middle strain have droppped to 
+the bottom, or will there be enough to ensure an even mix in the 
+subsequent culture?  
+        I think that if I "relax and have a homebrew" while 
+I am culturing, all will be fine, but I am interested in any comments 
+ people might have.  By the way, the yeast really kicks!
+
+
+                Victor Farren
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 12:01:40 EST
+From: "Calvin Perilloux" <dehtpkn9`at`ibmmail.com>
+Subject: Uncl: Beer/malt liquor
+
+
+  
+In HBD 1982 (I think), Tracy Thomason asks about the
+practical difference in malt liquor and beer/ale.
+Paulaner Hefe-Weizen was labelled as "malt liquor".
+  
+Tracy, are you doing you drinking in the Great State of Texas?
+During my time there, I remember drinking the very same beer,
+and it was also labelled Malt Liquor back then.  Actually, the
+label was overstamped after the fact, with the word "BEER" and
+the alcohol content blotted out, and then the new "Malt Liquor"
+words were printed next to there!
+  
+The rule, as I heard at the time but did not see myself
+in print in the law books, is that alcoholic malt beverages
+like beer that are over 5% alcohol must be labelled as
+malt liquor.  Paulaner Hefe-Weizen was 5.1% if I remember
+correctly (from there and bottles here).  Hence, you are
+not allowed to call it beer.  Ale, stout, malt liquor.
+But not beer.
+  
+It's a ridiculous law that turns the truth-in-labelling
+rules on their heads, but I guess it's still a current law.
+  
+Calvin Perilloux                                  "Bayerisches Bier,
+dehtpkn9`at`ibmmail.com                               Staerker als Heimweh"
+Erding, Germany
+  
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 12:03:35 EST
+From: "Calvin Perilloux" <dehtpkn9`at`ibmmail.com>
+Subject: Uncl: Homebrewers in Berlin??
+
+
+  
+Jeff Mizener, in HBD 1982, is looking for homebrewers in Germany.
+Here's some information about that, for Jeff and whoever else
+is interested in joining the ranks of homebrewers in Germany.
+  
+Yes, there are a few of us here, perhaps not as many as we'd like
+to see, but with the cheap, excellent beer available all over out
+here, we don't have as much incentive to brew.  Not only that, the
+price of apartments is a bit high, and so most people are cramped
+for room, a further disincentive.  Then, with fewer homebrewers to
+feed the market, there are far fewer homebrew shops here than in
+relatively well covered North America, and so fewer people are
+introduced to homebrewing, and so...  anyway...
+  
+A group called Vereinigung der Haus- und Hobbybrauer in Deutschland e.V.
+(German Homebrewers Association) promotes homebrewing in Germany.
+I'm currently the treasurer, for another week anyway, so I can pass on
+a bit of information about it if needed.  We currently have 60-something
+members from throughout Germany, with a noticeable concentration in
+Franken.  Members get our newsletter, which contains a list of homebrew
+suppliers in Germany and information about homebrew activities and
+a planned magazine that will come out later this year.
+  
+We're electing a new Board of Directors in the next week, so the
+addresses for information will probably change from those we have
+right now.  Members come from all over Germany, and we have no
+main office, so the address is wherever the President lives.
+Anyone wanting more details in English, send me a personal e-mail
+(see address below) and I'll send back info on how to join.
+  
+My suggestion to Jeff, judging from my own experience as a homebrewer
+moving here from the States and then looking for more equipment and
+ingredients here in Germany is to try to bring everything you
+think you might need.  Everything, all equipment, spare parts, your
+brewing pot, grain mill, etc.  It's all much more expensive here,
+if you can even find what you want.  (Cascade hops?  Good luck!)
+  
+Even bring over hops, yeast (if you can) and even malt and malt extract
+if your move is paid for.  Hops are surprisingly expensive when you try
+to buy them in small, homebrew quantities.  Finding North American and
+even English ingredients isn't easy at all, and those are the types of
+beers I brew.  (When I want a fresh Helles I step across the street
+for better stuff than I ever brewed in the States, and cheaper.)
+It's quite feasible, if your German is good enough, to beg malt and
+hops and yeast from your local brewmaster, which is what a few of our
+members do, keeping in mind that you won't have a big variety of
+ingredients to choose from, restricting part of the fun of homebrewing.
+(Oh, I miss the dozens of malt types in the States.)
+  
+Don't forget to register to brew beer once you get here.  You didn't
+think you'd be able to do anything fun here without filling out a few
+forms, did you?  This is, after all, Germany.  Fonrtunately, rules for
+homebrew have been simplified in the last couple of years, so there is
+not so much paperwork as before, but you still are required to register
+with a simple letter sent to the nearest Hauptzollamt stating where and
+when you plan to brew, liters per batch, what the degree Plato (approx)
+will be, and (ideally) state that you will not be brewing over 200 liters
+  
+  
+  
+  
+  
+  
+per year.  More than that gets complicated, as I found out after spending
+an afternoon at the Hauptzollamt-Muenchen-West recently on my quest for
+information about homebrew regulations.
+  
+The good news about brewing here is that the temperatures are generally
+pretty conducive to beer brewing.  It's no problem keeping your home
+down in the 60's for 8 months out of the year!  During the summer,
+cellars still are cold enough for cool ale ferments.  That makes for
+nice, clean beer.  Just make sure your ale yeast doesn't go into
+hibernation in the cellar in winter.
+  
+So for anyone in D-land wanting information on brewing, drop me
+an E-mail.  Because of constant job hassles, I can't guarantee quick
+response, but I'll do my best.
+  
+Calvin Perilloux                                  "Bayerisches Bier,
+dehtpkn9`at`ibmmail.com                               Staerker als Heimweh"
+Erding, Germany
+  
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 12:01:05 -0500
+From: Victor J Farren <wigwam`at`jhunix.hcf.jhu.edu>
+Subject: Re:Help my beer is infected..Wayne Wight
+
+
+
+
+        Your beer may not be infected.  In fact, those little bubbles may 
+be the result of continuing fermentation.  I am not familiar with the 
+recipie for Brown Ale, but if it contains slow fermenting sugars such as 
+honey, it may just be that it is still fermenting.  I am brewing a mead 
+(actually, has been fermenting since December) and have experienced 
+similar sights and fears.  Al it was was tiny bubbles of CO2 that were 
+coming together at the surface.  The best way to tell if it is infected 
+is to taste it.  I recommend getting a sterilized turkey baster and 
+taking a sampler of your beer.  It would be a pity to throw away a 
+perfectly good batch.
+
+
+                        Victir Farren
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 12:10:39 -0500 (EST)
+From: waterr`at`rpi.edu (Bob Waterfall)
+Subject: Diacetyl and 2,3-pentanedione/ Copyright
+
+
+Al Korzonas says in HBD 1979 (I'm just catching up after vacation):
+>2,3-pentanedione lends a honey-like flavour/aroma to the beer.  George
+>Fix says, in his Principles of Brewing Science, that there is a Belgian beer
+>that has a very prominent 2,3-pentanedione character, but I'm not sure which
+>one he means... George?  Anyone else?
+
+
+I don't know what beer Dr. Fix is talking about, in fact I've never read his
+book.  However, my guess is La Chouffe.  I had a taste at a beer festival
+last fall and my first thought was "HONEY!!!".  I even asked the rep. (from
+the distributor, not the brewery) if he knew if it was made with honey.  He
+had no idea.
+
+
+bob rogers says in 1980:
+>OTOH: if they take all the facts presented here and publish them, there
+>would be no problem.
+
+
+Of course there's a problem; separating the facts from the myths, legends,
+and "momilies". :^)
+
+
+Bob Waterfall <waterr`at`rpi.edu>,
+Troy, NY, USA
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 10:41:15 -0700
+From: nealc`at`selway.umt.edu (Neal Christensen)
+Subject: Corny Compatible 
+
+
+All right, I was wrong.  Compatible threads between pin-lock and ball-lock
+fittings are the exception rather than the rule - sorry for the miss-info.
+I do use a mixed system of ball and pin-lock kegs.  The way I deal with it
+is to make all of my lines with threaded nuts to connect to threaded
+connectors rather than hose-barb connectors.  That way I can easily use
+either type of keg and connector in-line.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 10:58:41 -0700
+From: cgeden`at`nervm.nerdc.ufl.edu (Chris Geden)
+Subject: Split-day brewing
+
+
+FWIW, I've been doing partial mashes with a split brew day for about six
+months with excellent results.  I usually mash 2-4 lb of grain and sparge
+out to a total of 1-2 gal.  I put the runnings in the fridge in washed
+milk jugs until the next day (sometimes 2-3 days), then boil the runnings
+plus water plus extract/specialty grains/hops etc as usual for a
+full-volume boil.  Why not?  The runnings are nearly sterile when they go
+in the milk
+jugs, they are then kept cold, and they are boiled again anyway.  This allows
+me to concentrate on doing a good job with the mashing and sparging without
+worrying about the long brew day ahead.  It also means not tying up an entire
+weekend day with brewing and thus avoids BRSD (brewing-related spousal
+disapproval).
+      Chris Geden
+      Gainesville ,FL
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 13:23:27 -0500
+From: KennyEddy`at`aol.com
+Subject: Wire Gauges and Circuit Breakers for Electric Boilers
+
+
+Spencer called my hand with a comment about 15A and 20A circuits "usually"
+having the same wire gauge.  He's right, using the word "usually" was overly
+optimistic, although it's certainly not unheard-of.  I DID however also
+admonish the reader to have their particular situation verified before making
+any assumptions, and I REITERATE that point:
+
+
+*******************************************************************
+DON'T ASSUME THAT YOUR 15A CIRCUIT IS 20A-CAPABLE WITHOUT HAVING IT CHECKED
+BY A QUALIFIED ELECTRICIAN!!
+*******************************************************************
+
+
+Please also note that my wiring suggestions in the previous post ARE based on
+the use of a 20A circuit!!  I said you could try it on a 15A circuit but
+you'd probably trip the breaker.  The way I presented it was potentially
+confusing, however.  Spencer's concern is apparently that the boiler could
+operate in the no-man's land between the 13A max rating and the 15A trip
+level, which *is* about where it would end up.  And he's right about the
+kitchen wiring being 20A, which *is* good news (in this case, the addition of
+a GFI outlet is all that's needed, if there's not one already there).
+ Spencer's emphasis of the wire gauge issue is VITAL to the safe operation of
+this setup.  I thank him for pointing this out, and I apologize if I confused
+or misled anyone.
+
+
+USE ONLY A 20A MINIMUM RATED CIRCUIT -- WIRING *AND* BREAKER --
+FOR THESE ELECTRIC BOILERS !!
+
+
+There.
+
+
+Ken Schwartz
+KennyEddy`at`aol.com
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 14:01:52 -0500
+From: RUSt1d? <rust1d`at`swamp.li.com>
+Subject: Large fermenter
+
+
+What are the thoughts of using a 15+ gallon fish tank as a primary
+open fermenter. Or can anyone tell me where to find carboys in the 
+10+ gallon range?
+
+
+**************************
+** rust1d`at`li.com        ** 
+** John Nicholas Varady **
+** Eve Courtney Hoyt    **
+************************** 
+
+
+http://www.netaxs.com/people/vectorsys/index.html
+
+
+
+
+------------------------------
+
+
+Date: Tue, 12 Mar 1996 20:46:16 +0100
+From: bush`at`shbf.se (Robert Bush)
+Subject: Re:Royal Oak pale ale
+
+
+Hi, Dan Pack asked about Royal Oak in HBD #1982:
+
+
+>I thought I detected a hint of oak in this beer.  And that fact, together with
+>the name....
+>Does anyone know anything about this beer?  Possibly aged in oak?
+
+
+I have found this beer very toffee-ish in both nose and mouth and also some
+pear flavour (and of course lots of hops) but I can't say I have detected
+any oak in it. The following recipe comes from a book by a British author
+(Roger Protz):
+
+
+23 litres (final volume), OG 1048, FG 1011, 30 EBU
+
+
+4 200 g Pale malt
+  530 g Crystal malt
+
+
+In the copper:
+
+
+  530 g Maltose syrup
+
+
+42 g Fuggles (90 min)
+35 g Goldings (90 min)
+10 g Goldings (15 min)
+1 tsp Irish moss (15 min)
+
+
+It's infusion mashed `at` 65 deg C for 90 minutes and Protz suggests a boil
+time of 2 hrs but IMO a 90 min boil is enough for most beers. I also
+wouldn't be afraid of dry-hopping this beer with some Goldings (even
+Styrian).
+If anyone tries this, let us know how it was.
+
+
+%%%%%%%%%%%%%%%%%%%%% WASSAIL! %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Robert Bush              Computer: Macintosh          %
+%  Eskilstuna,SWEDEN        E-mail:  bush`at`shbf.se        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+------------------------------
+
+
+Date:  Tue, 12 Mar 1996 13:28:00 -0500 
+From: "brian (b.j.) grier" <bjgrier`at`bnr.ca>
+Subject:  DO NOT DO THIS!!!!! (was Electric Boilers) 
+
+
+In HBD #1982 ...
+
+
+>Date: Sat, 9 Mar 1996 11:30:49 -0500
+>From: KennyEddy`at`aol.com
+>Subject: Electric Boilers
+>
+>For a typical household 120V circuit, the breaker will trip at about 15A.
+> There are probably some 20A circuits scattered around; usually the wiring
+>gauge is the same (but check with an electrician to be sure this is the case
+>at YOUR house!), so it might be a simple matter of installing a 20A breaker
+>in place of the 15A connected to your brewing area outlets. 
+
+
+DO NOT CHANGE YOUR BREAKERS/FUSES FROM 15 to 20 amps UNLESS YOU ARE
+ABSOLUTELY SURE THAT THE ENTIRE CIRCUIT IS 12gauge WIRE!!!!!!!
+
+
+Passing 20 amps through a 14guage wire will cause the wire to heat
+excessively and can start a fire. If the cause of the fire is traced
+to this modification your home owners insurance WILL NOT cover any
+damages.
+
+
+Brian
+
+
+------------------------------
+End of HOMEBREW Digest #1984, 03/14/96
+*************************************
+-------

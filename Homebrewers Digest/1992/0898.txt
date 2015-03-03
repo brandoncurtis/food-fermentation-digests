@@ -1,0 +1,779 @@
+﻿This file received at Sierra.Stanford.EDU  92/06/09 00:10:32
+
+
+
+
+HOMEBREW Digest #898                             Tue 09 June 1992
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Recent Steam Beer Clone & McEwan's Scotch Ale (yoost)
+  no recycle (Russ Gelinas)
+  mead (Alan Mayman)
+  Origin of Calorie Formula; Numerical Examples (George Fix)
+  London pubs & ale (gerald)
+  Keg pressure release valve question. ("DRCV06::GRAHAM")
+  Re: immersion chillers/Wyeast lag time (korz)
+  Portland (Tom Lorelle)
+  2nd Meeting of Central Mass HB Club (JOHNREED)
+  An easier way of brewing? (Tim P McNerney)
+  First lager....continues (fwd) ("Peter W. Karlson")
+  Adamstown PA Beerfest (doug)
+  Mead (Phoebe Couch)
+  Brewclubs in San Diego (Steve Slover)
+
+
+
+
+Send articles for publication to homebrew`at`hpfcmi.fc.hp.com
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+to homebrew-request`at`hpfcmi.fc.hp.com
+Archives _were_ available from netlib`at`mthvax.cs.miami.edu
+(Stay tuned for info on a new archive site)
+**Please do not send me requests for back issues!**
+**For Cat's Meow information, send mail to lutzen`at`novell.physics.umr.edu**
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 8 Jun 92 09:28:16 -0500
+From: yoost`at`judy.indstate.edu
+Subject: Recent Steam Beer Clone & McEwan's Scotch Ale
+
+
+
+
+I recently made a steam beer clone using a 'Reasonable recipe' (Extract)
+
+
+i used a 2 stage fermentation the first stage lasted about 3-4 days and
+
+
+due to the long bottling process i let the second stage go almost 3 weeks
+
+
+i use the 90 second airlock test instead of S.G. it was up to about 120 sec.
+
+
+between 'blurps' when i bottled. I used 1 cup of DME in boiling water (cooled)
+
+
+for the PRIME (5 gal). This stuff has been bottled and stored at 65-68 deg.
+
+
+for about 3 weeks now it is starting to show visible fermentation but little
+
+
+or no head.  The taste is wonderful.
+
+
+The question ...... how is head related to Carbonation ( ^^^ replace Carbonation).
+??????
+
+
+The second topic...
+
+
+McEwan's Scotch Ale - I only got one reply on my post ....
+
+
+Has no one tasted this stuff ???
+
+
+This beer has little or no head is this related to my other problem ???
+
+
+I want to 'Clone' this stuff but I don't want a Steam Beer with no head !!
+
+
+will my steam beer become more carbonated the longer I leave it.
+
+
+Should I raise the temperature ??? Lower ?? Relax And have another ?
+
+
+ -John Yoost Brewer/Programmer
+
+
+------------------------------
+
+
+Date:    Mon, 8 Jun 1992 10:38:24 -0400 (EDT)
+From: R_GELINAS`at`UNHH.UNH.EDU (Russ Gelinas)
+Subject: no recycle
+
+
+   I brewed a batch this past weekend, using Micah's advice to not
+recirculate the first runnings of the sparge.  The sparge did run clear
+after a couple of gallons.  There was more break material than a similar
+batch done the weekend before, in which I did recycle the runnings, but
+not as much as I expected (although seeing a whole uncracked grain in the
+trub was a new experience).  I'd estimate the no-recycle batch had twice
+the trub of the recycle batch, but the recycle one had very little trub
+to begin with.  The NR batch seemed clearer going into the carboy, but 
+was still very cloudy.  It should be fermented out this week.  The R batch
+is already kegged, and is still cloudy.  The NR batch won't be touched until
+the end of next week.
+
+
+   I'm trying to keep the technique for the two batches as close as possible,
+with the exception of the recycling, but they're not exact copies, so nothing
+could come of this.  I'll get back to this thread in a couple of weeks with
+all the gory details.
+
+
+   FWIW, I heard that Dewey's in Brattleboro, VT temporarily closed down
+because of infection problems, not to increase the brewery size.
+
+
+Russ
+
+
+------------------------------
+
+
+Date: Mon, 8 Jun 92 11:27:13 -0400
+From: Alan Mayman <maymanal`at`scvoting.fvo.osd.mil>
+Subject: mead
+
+
+Howdy,
+
+
+Im ready to bottle my mead now, and I want to add spices.  
+Unfortunately, all the recepies I have seen call for a 
+strong "tea" of herbs, spices, whatever, to be added just before 
+bottling.  If anyone has any specific, proven recipies for such a 
+tea I would be truly grateful for any such info.
+
+
+Thanks to all.
+
+
+Alan
+
+
+------------------------------
+
+
+Date: Mon, 8 Jun 92 11:25:58 CDT
+From: gjfix`at`utamat.uta.edu (George J Fix)
+
+
+Subject: Origin of Calorie Formula; Numerical Examples (George Fix)
+
+
+The calorie formula I quoted was derived by the committee on analysis
+of the European Brewing Congress (EBC). They started with the postulate
+that the formula should have the following form:
+
+
+    cal. = 3.55*( c1*A + c2*(RE - 0.1)).
+
+
+In this formula A is the % alcohol by weight (they report this as
+grams per 100 grams which is our degrees Plato). RE is the real extract
+measured in the same units, and the term RE - 0.1 represents the residual
+extract corrected for the ash content. The number 3.55 was a factor 
+associated with the units used (i.e., grams and kcal). It was introduced
+so that the numbers c1 and c2 would be dimensionless. The latter were
+determined by a least squares fit using standard mathematical techniques.
+
+
+The unit used for calories was kcal/1000g (calories per kilogram). This is
+how beer calories are reported in EC countries. All I did was to was to convert
+it into other units. Multiplication by FG (beer specific gravity) takes it
+to kcal/l, and the liter-oz. conversion factor takes it kcal/12 oz. This is
+the form I reported, which I rewrite as follows:
+
+
+    cal. = (24.495*A + 14.2*(RE  - 0.1))*FG.
+
+
+The problems that bothered many was the nonlinear formula for A. Rob Bradley
+brought this out nicely. Boy if people get worked up by the alcohol formula,
+they should see what we use for hops. There is not anything even remotely
+linear about any of them. 
+
+
+As far as the other issue is concerned, I personally do not see anything
+wrong with the "factor of 4" conversion from Plato to spec. gr. The only
+point I wanted to make was that it was not exact. In particular, Mike Hall's
+analysis seems entirely reasonable. 
+
+
+Perhaps the following examples might clarify these issues a bit. The data
+was taken from the German trade journal Brauindustrie. Their column "500
+Biere aus aller Welt" gives numerical profiles of beer brewed throughout
+the world. The measurements were done at Weihenstephan so the numbers are
+very good. The only exception was Michelob whose data I got from AB. The
+numbers are in % by weight ( grams per 100 grams), except those for calories.
+
+
+Paulaner Salvator
+- ------------------
+Measured data:
+          OE = 18.3 (1.076 or 1.073 for the factor of four types)
+          RE = 6.78 (1.027)
+          AE = 4.24 (1.017)
+          A = 6.17% wt.
+          kcal/1000g = 693
+          kcal/12oz. = 693*1.017*12/33.8144 = 250.1
+Balling's formulas:
+          RE = .8192*4.24 + .1808*18.3 = 6.78
+          A = (18.3 - 6.78)/(2.0665 -.010665*18.3) = 6.16% wt.
+EBC formula:
+          kcal/12 oz. = (24.495*6.16 + 14.2*6.68)*1.017 = 249.9
+
+
+By the way the linear wine formula A=100*(OG-FG) gives
+
+
+       A = 100*(1.073 - 1.017) = 5.6% wt.
+
+
+I frankly feel most homebrewers could have gotten a better estimate
+by actually tasting a glass of Salvator and guessing. The wine formulas
+do better at lower OGs, but my interest in accuracy wanes as well. Having
+said this I should also say that "acceptable accuracy" falls into the area
+of personal opinion, and thus is not amenable to rational analysis. 
+ 
+My main interest in formulas for alcohol and calories is for dopplebocks and
+barley wines. I wanted something better than "sloppy Joe" numbers not only
+to monitor personal consumption, but also as a reference for friends and
+neighbors who help me drink the beer I brew.
+
+
+Michelob
+- ----------
+Measured data:
+   OE = 12.0 
+   RE = 4.53
+   AE = 2.89
+   A  = 3.81% wt.
+   kcal/12 oz. = 156
+Calculated data:
+   RE = 4.53
+   A = 3.85% wt.
+   kcal/12 oz = 158
+
+
+EKU 28 (!):
+- ------------
+Measured data:
+    OE = 28.8 (1.124; here the factor of 4 gives 1.115)
+    RE = 12.22 
+    A = 9.42% wt.
+    kcal/12oz. = 416.5
+Calculated data:
+You are not going to believe this, but the formulas for A and kcal/12oz.
+are almost exact. I leave this as a homework exercise!
+
+
+The nonlinear term in Balling's formula is also of historic significance.
+The classical Gay-Lussac theory (see page 161 of my book) predicts a formula
+like
+
+
+    A = (OE - RE)/c,
+
+
+where c is a constant near 2. (Note that OE - RE is the amount of extract
+fermentated in grams per 100 grams). This is only the case for liquids
+like wine, which for this purpose may be considered as a simple mixture of
+glucose (dextrose) and water. Beer wort is far more subtle! This lead to
+the modern Embden-Meyerhof-Parnas theory of fermentation (pages 175-184).
+
+
+There is a practical issue here as well. Note that the denominator
+
+
+    c = 2.0665 - .010665*OE
+
+
+decreases as OE increases. Folks,there is more alcohol in our homebrews 
+than many may realize, especially those with high OEs. Take care.
+
+
+Off to Milwaukee!
+
+
+George Fix
+
+
+
+
+
+
+------------------------------
+
+
+Date:  Mon, 8 Jun 92 12:08:29 -0400
+From: gerald`at`zip.eecs.umich.edu
+Subject: London pubs & ale
+
+
+  I am going to London for several days at the end of this week.
+Exactly where I am not sure.  I am accompanying my wife on a business
+trip.  I guess I'll just have to spend my free time checking out
+the pubs as my wife slaves away in the boardroom.  I would like
+some suggestions from the digest as to the best pubs, the pubs I
+absolutely should not miss, and ale/porter brands I should sample.
+Since this is an individual request, maybe it would be best to respond
+directly to me.  All suggestions are welcome.
+
+
+Thanks,
+  gerald`at`caen.engin.umich.edu
+
+
+------------------------------
+
+
+Date: 8 Jun 92 13:29:00 EDT
+From: "DRCV06::GRAHAM" <graham%drcv06.decnet`at`drcvax.af.mil>
+Subject: Keg pressure release valve question.
+
+
+Ah, struck it rich, keggingwise, that is.  A friend owns a root beer 
+concession truck and is giving me a good used regulator, tank and hoses, 
+not to mention kegs.  He just brought over two Coke pin lock kegs.  I'm 
+gonng have to replace the O rings, of course, don't like root beer flavored 
+beer, but I have a question.
+
+
+I've never had my hands on a soda keg before.  There are two connections, 
+as I would expect.  In the center of those valves, is an area that I can 
+press on and the pressure is releaved, or I get squirted with old root 
+beer, depending on which one.  There is a bail-like handle to release the 
+top.  Is there supposed to be a separate pressure relief valce, something 
+other than the centers of the two and three pin valves?  Is it supposed to 
+be in the lid?  Have I gotton very old kegs that I shouldn't use?  Can I 
+get replacement lids with valves, or am I on the wrong track completely.  
+I'm doing this blind, so to speak, 'cause I'm really blind and got tired of 
+bottling and spilling.  Let's hear it for kegs, assuming I can get these to 
+work.
+
+
+Now, if I've gotton the wrong kind of kegs, let me down easy like, huh?
+
+
+Dan Graham
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Jun 92 13:55 CDT
+From: korz`at`iepubj.att.com
+Subject: Re: immersion chillers/Wyeast lag time
+
+
+Carl writes (regarding the "coil-in-icewater" chillers):
+>
+>It has its
+>advantages and its disadvantages just as any other method. I depends on
+>what you want/need to do.
+>
+>Advantages:
+> - the wort is cooled very quickly like in a counterflow cooler, giving
+>   a good cold break.
+> - it's a sure thing that the wort is not exposed to infection during
+>   its most vulnerable time ( 170F < wort > 70F )
+> - the materials are mostly easy to get (a pot, ice, a coil of copper
+>   tubing) and there's not alot of permanent`construction' to be done
+
+
+Also:
+ - uses a lot less water than either an immersion chiller or a traditional
+   counterflow (some use a closed loop with icewater on the chiller side)
+   -- very important in drought-stricken areas!
+>
+>Disadvantages:
+> - you need to concern yourself with the cleanliness of the inside of
+>   the tubing
+> - you have to jockey yet another pot of water
+> - you have to come up with an intake tube that will stand up to boiling
+>   wort
+> - you have to figure out how to plumb the whole thing together
+
+
+Also:
+ - the cold break ends up in the collection vessel -- you need to siphon
+   off the trub again, this time at 70F (increased risk of infection)
+>
+>
+>Carl
+>
+
+
+I'd also like to point out that it's the head (the weight of the column
+of liquid above the level of the source vessel of the siphon system) and
+the 50 feet of tubing that make starting the siphon so difficult not the
+10 feet of hose running down to Frank's basement.  Starting the siphon in
+the kitchen with a short length of hose would not help much.  What would
+help is lowering the chiller.  How about putting the chiler in the
+basement?  Once you see the wort in the tubing, you can let gravity
+fill the chiller.  I suggest PE tubing for the hot side -- it stands up
+to heat *much* better than the clear tubing.
+
+
+>Date: Fri, 5 Jun 92 12:20:46 EDT
+>From: "Theodore R. Jackson Jr." <tj2d`at`mtaac.bme.Virginia.EDU>
+>Subject: Wyeast problems (Re: Wyeast Belgian revisited)
+>
+>I have also encountered problems (infections) using 
+>Wyeast liquid cultures.  At first, I attributed the 
+>problems to poor sanitation techniques although I never
+>had a problem in any of the 18 previous batches brewed
+>with Whitbread ale yeast.  However, a recent attempt to 
+>culture Chimay yeast directly from the bottle has lead 
+>me to believe otherwise.
+
+
+Then Ted goes on to suggest that slow starts and not using
+a starter probably caused some nasties to take hold before
+the Wyeast did.  I concur.  I like Ted's suggestion for
+testing your "environment."  Good idea.
+
+
+I'd like to point out that timing is essential when not using
+a starter with Wyeast.  I've successfully made 15 or 20 beers
+using Wyeast *without* starters and have not had any infections
+with those batches.  (I've since begun using starters for even
+faster starts and for cost savings -- I split a package of Wyeast
+between three batches -- three 16 oz starters.)  The key, I've
+found, is to pitch after the correct amount of incubation.  When
+I've used packages that were *completely* swollen (almost to
+bursting) I've had slow starts (48-60 hours).  Twice, having pitched
+1 month old packages, after only 18 hours of incubation, where the
+package was only about an inch thick, I got active fermentation
+in about 12 hours.
+
+
+I theorize, that as in any starter, there is a limited amount of
+sugar.  If you pitch the yeast into the fermenter when the yeast
+is most active (high krauesen, if  using a starter container you
+can see through) your lag time is minimized.  If you wait too
+long, the yeast runs out of sugar and goes dormant again.
+Another important factor is the temperature difference between
+the starter and the wort.  I've noticed an increased lag time from
+a five degree difference (colder wort than starter).
+
+
+Granted, there are other variables, most notably the strain of
+yeast, but I think that the importance of timing the pitch with
+high krauesen has not been given the proper attention.
+
+
+Proper timing and matching the wort temperature to the starter
+temperature can give lag times close to those of dry yeast.
+
+
+I guess I've been blessed with a relatively nasty-free basement,
+since the long lags have not been a problem.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: 08 Jun 92 15:35:02 EDT
+From: Tom Lorelle <70713.2324`at`compuserve.com>
+Subject: Portland
+
+
+I'm going to Portland Friday, June 12 for the first time. Anybody in the
+area recommend some "must-see" places? Please e-mail me in interest of
+keeping bandwith down. Also, for anybody in the LA/Orange Co. area, I'm moving
+out of state and have some extra kegs to get rid of.
+
+
+Thanks,
+Tom
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Jun 92 16:02:05 EDT
+From: JOHNREED`at`BOSTON.VNET.IBM.COM
+Subject: 2nd Meeting of Central Mass HB Club
+
+
+Announcing the second meeting of the *as yet unnamed* HB Club for
+the Central Massachusetts/Rhode Island area.
+
+
+DATE:           Saturday, June 13
+
+
+TIME:           7:00 PM -- 10:00 PM
+
+
+WHERE:          Sheraton Milford
+                I-495 & Rt. 109, Milford, MA
+
+
+AGENDA:         Club Officer Nominations
+                Club Name Voting
+                HB Tasting
+                Bring your own HB, labelled (3 max)
+
+
+CONTACT:        John Reed  (617 895-2158) at work or
+                           (508 529-4470) at home
+
+
+Call me and let me know if you'll attend!  We had *FUN* at the first meeting.
+The second meeting should be even better!
+
+
+------------------------------
+
+
+Date: Mon, 8 Jun 92 13:40:26 PDT
+From: tpm%wdl58`at`wdl1.wdl.loral.com (Tim P McNerney)
+Subject: An easier way of brewing?
+
+
+I have recently started using a method for brewing which I find
+to be easier than what I was using before and I would be interested
+in comments, suggestions or problems people see with it.
+
+
+Basically, the main change was to start buying one of those 2.5
+gallon plastic water jugs.  I use the jug itself to ferment in,
+then I just get rid of the jug (my apartment recycling bins won't
+take it (only the 2 liter plastic bottles.  Are they recyclable?).
+
+
+Advantages I've found:
+
+
+1.  Cleanup is much easier.
+
+
+2.  I prefer 2.5 gallon batches since it lets me brew as often as I
+    did, but I don't end up with the backlog of beer I had before.
+
+
+3.  No fear of two foot long glass shards.
+
+
+4.  In general, easier to move around.
+
+
+5.  No need to wait for cooling to add to carboy.
+
+
+6.  I can fit the whole thing in the freezer to get it down to pitching
+    temperature.
+
+
+7.  Easier to fit in the fridge.   Before, brewing a lager was not
+    a possibility.
+
+
+8.  I don't have to use Mountain View sparkling tap water.
+
+
+9.  Faster ferments, quicker settling (I believe this is true, though
+    I don't have a large enough sample yet.
+
+
+10. Since this is a one-shot deal, no problem with getting scratches
+    in the jug.
+
+
+
+
+Disadvantages:
+
+
+1.  Cost.  Though most ingredients are scalable, yeast isn't, so the
+    cost (if using Wyeast) would be twice as much per volume.  Also,
+    brewing time is not cut in half.  The first isn't a problem since
+    I culture my own (actually, it is an advantage as I do not have to
+    make a fullsize starter) and the second doesn't bother me.  There is
+    the cost of the water and jug, though.
+
+
+2.  If I make a really good batch, then no one else gets to try any.
+
+
+3.  Somewhat strange shape of bottle makes blowoff less effective.
+
+
+4.  Most equipment not made for the Alhambra water bottle (new stoppers, 
+    etc.).
+
+
+5.  Temperature fluctuations more likely.
+
+
+6.  No obvious way for two-stage fermentaion without taking away some of
+    the advantages (ie. I would have to clean out some of the older jugs).
+
+
+
+
+Some questions:
+
+
+1.  How clean are these bottles likely to be (do I need to give them
+    a quick bleach soak)?
+
+
+2.  I know these bottles are water safe, but are they also beer safe?
+
+
+3.  Can I recycle these water bottles?
+
+
+4.  Do I need to preboil the water (I am an extract brewer and I have
+    been brewing with 1.5 gallons of water while putting the other
+    gallon or so in the freezer, making for a quick pitch)?
+
+
+5.  Any other problems which come to mind?
+
+
+
+
+Thanks.
+
+
+
+
+________________________________
+
+
+- --Tim McNerney
+- --Loral Western Development Labs
+- --(408) 473-4748
+- --tpm`at`wdl1.wdl.loral.com
+
+
+------------------------------
+
+
+Date: Mon, 8 Jun 1992 17:25:18 -0400 (EDT)
+From: "Peter W. Karlson" <pk`at`columbus.dfci.harvard.edu>
+Subject: First lager....continues (fwd)
+
+
+
+
+Thanks for all the lager answers....
+ 
+I'm still confused about the temperature issue, after I'm satisfied
+that the beer is carbonated, can the beer then travel at a higer
+temperature (70 degrees) for a day or so.
+
+
+ -pk
+
+
+
+
+------------------------------
+
+
+Date: 8 Jun 92  17:03 EST
+From: doug`at`metabolism.bitstream.com
+Subject: Adamstown PA Beerfest
+
+
+          Sorry:
+
+
+          I forgot if I saw a post about this or not.  Does anybody
+          have any information that they could post directly to me
+          concerning a beer fest in Adamstown, PA.  I'm not sure if it
+          is happening or not, just confirming a rumor.
+
+
+          Thanks in advance.
+          doug connolly
+          doug`at`bitstream.com
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Jun 92 13:40:38 PDT
+From: ithaca!amber!phoebe`at`uunet.UU.NET (Phoebe Couch)
+Subject: Mead
+
+
+Mike> I've decided to try to make a batch of mead since I can't 
+Mike> find a commercial variety to buy. I've never tasted the stuff,
+Mike> I'm just curious. --- The problem is I don't know where to 
+Mike> find good honey.  Does anyone know of a good mail order dealer
+Mike> or a local place in the Balto-Wash. area to buy bulk honey?
+
+
+I seem to remember that there is store called Bargetto<spelling> that
+sells a mead wine.
+The store I have been to is in Monterey(there is another one elsewhere).
+They also have a whole bunch of fruit wines, vinegars and wine tasting.
+
+
+P.
+
+
+------------------------------
+
+
+Date: Mon, 8 Jun 92 17:09:23 PDT
+From: slover`at`tacsys.saic.com (Steve Slover)
+Subject: Brewclubs in San Diego
+
+
+
+
+Greetings,
+
+
+Can anyone recommend any brewclubs in the San Diego area?  I would like some
+help improving my beer and maybe get some advice to ease the transition to
+all grain brewing.  I'm and extract brewer and have been brewing for about
+a year.
+
+
+Thanks.
+
+
+Steve Slover
+slover`at`tacsys.saic.com                (This address is good for about another week.)
+(619) 552-3788
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #898, 06/09/92
+*************************************
+-------

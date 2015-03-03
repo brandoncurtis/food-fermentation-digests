@@ -1,0 +1,392 @@
+﻿Date: Sun, 2 Oct 2005 23:17:27 -0400
+Subject: Homebrew Digest #4859 (October 02, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4859                             Sun 02 October 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: efficiency ("steve.alexander")
+  And another thing ! ("steve.alexander")
+  Efficiency ("Chad Stevens")
+  Grain Bill and Colour (Alexandre Enkerli)
+  re: Hydrometers, Batch Sparging efficiency ("Mike Dixon")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 01 Oct 2005 03:44:29 -0400
+From: "steve.alexander" <-s at adelphia.net>
+Subject: Re: efficiency
+
+
+Chad arrived at essentially the correct
+solution on the efficiency issue under the 
+assumption that equilibrium is reached.  *If* you
+sparge forever, then a continuous sparge collects
+5-7% more of the extract into the boiler.
+
+
+I have microscopic differences w/ Chad in the details of
+his analysis;  The extract has unaccounted volume, there
+is no need to calculate mass, since we are only interested
+in %effic, the 65% assumed efficiency already includes
+the sparge inefficiency, and some guys named Cauchy &
+Riemann have a much cleaner means of assessing the
+continuous case than any Microzaftig Excel sheet could
+ever produce [fergawdsakes Chad, at least exercise your
+HB frugality and use the free OpenOffice suite].
+
+
+The problem is this - reaching equilibrium doesn't
+happen in a real-world sparge where sparge time is
+limited.  I haven't run the numbers, but the direction
+of this correction is clear; batch isn't even as bad
+as Chad calculates.
+
+
+Diffusion of the extract from the grist to the wort
+takes time, and the rate of diffusion is dependent
+on the difference in the concentrations, well
+actually the concentration gradients overall, and
+so we expect the rate of extraction to fall as the
+wort-to-grist gradient drops.  When time is limited
+the extraction is stopped, but that terminal rate
+of extraction (the amount of extract lost by limiting
+time) isn't the same for batch vs sparge. 
+
+
+If we perform a batch vs a continuous sparge over the
+same fixed amount of time, then the batch will approach
+equilibrium more closely for each batch, (but at a
+higher SG, so a bit less efficiently as Chad's calc
+shows).  For the fixed time period continuous sparge,
+there is less time to approach equilibrium, so there
+is a relatively greater efficiency drop for continuous
+as time is reduced.
+
+
+In all, if we limit the amount of *time* available 
+for the sparge, then that 5-7% advantage for
+continuous will decrease and MAY even become
+negative(advantage to batch) in the extreme case.
+To do a proper analysis would require a numerical
+quantization of the diffusion.  I have hopes that
+John Palmer will weigh in on this topic.
+
+
+I will point out that Chad's numbers are very good HB
+values for the water/sparge/grist ratios, however
+traditional commercial UK ale brewing uses more sparge
+water, up to 9 US gallons total water for the 10lbs !
+And this will be used over 3, and possibly ever 4
+cycles (first runnnings + 2 or 3 sparges!).
+
+
+Batch vs Continuous is a pointless argument - you
+can get very good efficiency with either, efficiency
+so high that your beer flavor will suffer !   I
+know - I used to seek that extraction efficiency
+grail; nowadays I seek better flavor, so I try to limit
+my efficiency.
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 01 Oct 2005 04:26:51 -0400
+From: "steve.alexander" <-s at adelphia.net>
+Subject: And another thing !
+
+
+Special thanks to Fredrick for noting the recent JIB archives
+are open again.  They had been for a couple years, then they
+were closed - so three cheers.
+
+
+If anyone thinks the brewing science articles are irrelevant
+should take a look at the most recent issue of JIB where there
+is an article on mash viscosity which has relevance to the
+discussion of extraction efficiency.
+
+
+For many years I have preached the your HB books are wrong
+and that the increased temperature of mashout has a negligible
+impact on mash viscosity.   There are graphs to prove it in
+the several articles on mash rheology.
+
+
+http://www.scientificsocieties.org/jib/contents/current.htm
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 1 Oct 2005 09:05:22 -0700
+From: "Chad Stevens" <zuvaruvi at cox.net>
+Subject: Efficiency
+
+
+Ms. Burley (You're always calling us females - brewsters - despite 90% of
+HBD BREWERS being male   ;o) you just had to throw down the gauntlet....
+
+
+You can talk all the theory you want to, but for ME, in MY system, with the
+various methods and widgets for fly sparging I've tried over the years (and
+I realize at 18 years and a few hundred batches, my experience doesn't count
+for squat on this page) my efficiency is consistently lower with fly
+sparging than with batch sparging; fly = mid 60's to low 70's, batch = low
+80's.  And the efficiency I get with batch sparging is more consistent.
+Just dump the water in, mix, let it sit for ten minutes, run it off.
+Simple, no muss, no fuss.
+
+
+You can talk all the theory you want to, but I know from experience what
+works best in my system.
+
+
+For what it's worth (I still love ya man!),
+
+
+Chad Stevens
+QUAFF
+San Diego
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 1 Oct 2005 12:41:08 -0400
+From: Alexandre Enkerli <enkerli at gmail.com>
+Subject: Grain Bill and Colour
+
+
+Already sent a private message to Darrell about this but maybe it could 
+be discussed here.
+
+
+Darrell was asking about using
+> the pils so as to get the lightest (if you want it), and use dark 
+> malts to add color and flavor
+
+
+It might not be what he had in mind but it reminded me of the practice 
+of some brewers (including pros) who add rather large amounts of very 
+dark malts to a grain bill which would produce a rather pale beer 
+instead of using the whole palette of malt types with just a touch of 
+darker grains. Randy Mosher's /Radical Brewing/ contains 
+recommendations on developing complex grain bills and it's hard to 
+disagree with him that such a grain bill provides depth and complexity.
+Tried a few porters recently and they all tasted like a bunch of very 
+dark malts were added to the base malt with nothing in between. These 
+beers often have a rather harsh roasty character instead of a round 
+overall maltiness with roasty highlights. Can't say these beers are 
+incredibly interesting. Those brewers may have gotten the colour right, 
+but they might as well put food colouring in a pale ale.
+Of course, it's cheaper to dump roasted barley in the wort than to mash 
+many different grains, which might be a reason why some breweries use 
+so much dark malt.
+It's harder to control a complex grain bill. But different malts can 
+contribute a lot to the finished product, including mouthfeel, depth, 
+and complexity. Some malt flavours may hide other flavours but, more 
+interestingly, some combinations produce a completely new flavour which 
+couldn't be achieved any other way. In fact, even hop-heavy beers can 
+benefit from a complex grain bill. The malt flavours complement the hop 
+flavours instead of competing with them.
+
+
+Thoughts?
+
+
+Alexandre
+http://dispar.blogspot.com/
+http://www.livejournal.com/users/enkerli/
+http://blog.criticalworld.net/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 2 Oct 2005 14:09:18 -0400
+From: "Mike Dixon" <mpdixon at ipass.net>
+Subject: re: Hydrometers, Batch Sparging efficiency
+
+
+In a previous digest Chad demonstrated a mathematical calculation
+for batch sparging and an excel sheet output he uses for fly sparging.
+
+
+The biggest problem with the calculation was Chad calculated batch sparging
+on a no-sparge process.  All water added to the tun in one large quantity.
+A batch sparge process would add sparge water in batches, or more than one
+addition, most times people do TWO batches.  The calculation was not
+performed for that, and other than through experience I am not sure how it
+could be.
+
+
+Now as far as batch sparging creating a greater efficiency than fly
+sparging, that would only be possible if the fly sparging process was
+channeling at some point during the sparge or if the fly sparging process
+was performed too fast for the sugars to be rinsed from the grains.  Both of
+which could certainly be the case.
+
+
+I have not batch sparged enough to see a definitive increase or a decrease
+in efficiency as compared to my fly sparging efficiency.  However the beauty
+of batch sparging for the homebrewer as I see it, is the ability to obtain
+the wort as fast as the valve and plumbing on your tun will allow during and
+after the vorlauf.  It also does not allow channeling so a single outlet
+filter point is all that is required due to the homogenous nature of the
+tun.
+
+
+One final note would be from Chad's later posting in point #2 about most
+homebrewers using Phil's sparge arm. No offense to Dan, but it is certainly
+not required to perform a fly sparge and I know very few people that use
+one. Just perf up some foil, place it on top of the grainbed and sparge
+away. If the homebrewer than changes the batch sparging the foil idea can go
+along for the ride...
+
+
+Cheers,
+Mike Dixon
+Wake Forest, NC
+www.ipass.net/mpdixon
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4859, 10/02/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

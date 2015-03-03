@@ -1,0 +1,239 @@
+﻿HOMEBREW Digest #242                             Thu 31 August 1989
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Re: Homebrew Digest #241 (August 30, 1989) (Steve "Mr. MBA" Lindahl)
+  Attenuative Yeasts (Martin A. Lodahl)
+  extract efficiency (Pete Soper)
+
+
+
+
+Send submissions to homebrew%hpfcmr`at`hplabs.hp.com
+Send requests to homebrew-request%hpfcmr`at`hplabs.hp.com
+
+
+----------------------------------------------------------------------
+
+
+Date: Tue, 29 Aug 89 09:23:10 pdt
+From: Tom Kuhn <hpda!tkuhn`at`hplabs.HP.COM>
+
+
+  OK, for all of you who _hate_ algebra but _can_ plug numbers into a 
+formula (or formulas into a program), here is the relationship between
+initial specific gravity (SG1) and the temperature at which it was
+measured (T1), final specific gravity (SG2) and the temperature at which
+it was measured (T2), and percent alcohol by volume (A), corrected to 
+60 F.  (All temperatures are F.):
+
+
+
+
+     {0.0190 x (T1 - T2)} + {131.25 x (SG1 - SG2)} = A
+
+
+
+
+Based on Papazian, p. 47:
+     
+             (SG1 - SG2) x 105 = % Alcohol by weight
+
+
+             (% Alcohol by weight) x 1.25 = % Alcohol by volume
+
+
+
+
+   and on Doug Roberts (HBD #236)
+
+
+             (T x 1.449E-4 - 0.009) + SG(uncorrected) = SG(corrected)  
+
+
+
+
+
+
+
+
+     Now, how should this be corrected for the additional fermentation
+which occurs as the result of my priming sugar?  (I would prefer not to 
+let some of my precious carbonated elixir go flat so that it's SG can be
+measured without CO2.)
+
+
+
+
+Thanks,
+
+
+Tom Kuhn  (Neither a yo-yo maker nor a philosopher of science)
+tkuhn`at`hpcuhb
+
+
+
+
+------------------------------
+
+
+Date: Wed, 30 Aug 89 8:13:16 MDT
+From: slindahl`at`orion.cair.du.edu (Steve "Mr. MBA" Lindahl)
+Subject: Re: Homebrew Digest #241 (August 30, 1989)
+
+
+Please take me off this mailing this....thank you....
+
+
+
+
+-- 
+][][][[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+slindahl`at`orion.cair.du.edu     slindahl`at`ducair.BITNET     slindahl`at`duorion.UUCP 
+               The Devil finds works for idle circuits to do!
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+
+
+------------------------------
+
+
+Date: Wed, 30 Aug 89 9:18:27 PDT
+From: Martin A. Lodahl <pbmoss!mal`at`hplabs.HP.COM>
+Subject: Attenuative Yeasts
+
+
+In HBD 241, Patrick Stirling asks (concerning yeasts):
+
+
+> What's 'attenuative'? Sounds like it's the speed with which
+> a yeast does its job and goes dormant ...
+
+
+Aha!  Had you read Miller instead of Papazian, ... 8->  8->
+
+
+"Attenuation" refers to the degree to which wort sugars are used by
+the yeast.  Red Star Ale yeast, for example, munches merrily on
+simple and duplex sugars, but has little appetite for the more
+complex sugars.  Edme will tackle the triple sugars as well.  I've
+only once tried a semi-controlled experiment where I made two
+successive batches, varying only the yeast (first Red Star, then
+Edme).  I say "semi-controlled", because temperature during
+fermentation and fining was essentially uncontrolled, and though the
+weather was essentially the same (hotter than the hubs of Hell) for
+both batches, there may have been a significant variable introduced
+there.  The Edme yeast (considered more attenuative by Miller)
+produced a much drier brew (too dry, in fact, for my tastes), but
+with fewer initial flaws.  Both resolved well, the Red Star batch in
+about 5 weeks and the Edme batch in about 3, with the Red Star batch
+always sweeter, fruitier, and with more of the famous banana esters.
+The sweetness, in particular, I attribute to the difference in
+attenuation between the two yeasts.
+
+
+> On another tack, what do you think of using ice to cool wort? 
+
+
+I've had only good luck with this method, but I'm still at
+partial-mash brewer.  When I've got my BIG kettle so I can boil the
+whole volume of wort (anyone know a good source for 33-quart
+enameled steel canning kettles?  Can't seem to find one here), I
+won't have ice-dilution as an option any more, alas.
+
+
+= Martin A. Lodahl    Pac*Bell Minicomputer Operations Support Staff =
+= pacbell!pbmoss!mal  -or-  mal`at`pbmoss.Pacbell.COM      916.972.4821 =
+= If it's good for ancient Druids, runnin' nekkid through the wuids, =
+= Drinkin' strange fermented fluids, it's good enough for me!  8-)   =
+
+
+
+
+------------------------------
+
+
+Date: Wed, 30 Aug 89 12:39:25 EDT
+From: Pete Soper <soper`at`maxzilla.encore.com>
+Subject: extract efficiency
+
+
+"Brian CapouchfEHFTmQ:8:8" <brianc`at`zeta.saintjoe.EDU> says in HBD 241:
+
+
+>I have a topic of my own: extraction rates on mashed beers.  I can't seem to
+>ever hit the gravity reading that the writers of books recommend.  I'm always
+>lower, and I know it's probably because I'm not doing a good job on my mash
+>out.  Do others also find this common?
+
+
+  I do, although I don't know what the mash out has to do with this. One
+time when making a dry stout I got 31.5 points per pound of Briess 6 row
+malt. Every other time, using this 6 row, 2 row Klages (Briess), and 2 row
+British pale (unknown brand) I've averaged 24-29 points per pound with 28
+being the average.
+  I've traced the source of some of the discrepancy in my case. I use a
+"bucket in a bucket" lauter tun with a tap that his fairly high up from the
+bottom of the outer bucket.  This means that when I'm done sparging there are
+about 3 pints of high gravity wort left below the tap (which I don't use,
+since it is full of husks).
+  Another factor is that even after I've created all the wort I can boil
+down to a target volume in a reasonable time, the runnings from the lauter tun
+have a SG of 1.010-1.1015. The popular literature suggests sparging until the
+runnings are 1.008 or less (or the pH rises to 6 or above, etc). So I'm leaving
+extract behind in the grain too but on the other hand, at 1.010 it takes a lot
+of water to get a little bit of extract :-)
+  Also, I recirculate my first runnings once the wort is running clear. I
+suspect some of this doesn't make it all the way back through the filter bed. 
+  Finally, the above case where I got a reasonably high degree of extract I
+also had a lower than usual pH. Usually my mash pH is around 5.6 at the
+start of sparging and this is of course higher than optimimum.
+
+
+>                                         Do they then augment their worts with
+>extracts to get to recommended gravity levels, or just smile and not worry?
+
+
+  I've kept track of my average actual extract and use this to scale the
+grain amounts to compensate and match gravities. Note that this can go both
+ways. Some of the winning recipes in "Zymurgy" reflect INCREDIBLY LOW extract.
+I was looking at one recently that used over 15 pounds of grain to get 5.5 
+gallons with a gravity of 1.050! if I just copied this I'd get a beer with
+an OG of around 1.076. It would be too dark, too sweet, underhopped and
+generally rubbish compared to what was intended. Going in the more usual
+direction, if the recipe writer gets 1.035 per pound per gallon and you
+get 1.028, just copying his recipe is going to give you something thin,
+too pale and overhopped - not something that would allow me to smile very 
+much.
+  Note that I'm reporting my situation to give another data point, not
+to describe problems in search of solutions. I especially don't want to
+hear anything more about adding teaspoons of gypsum to one's mash, OK? :-)
+  Incidently, for stove top mashing I've found that a sleeping bag makes a
+great insulator for maintaining rest temps. I just put the covered pot on a
+piece of cork in the bottom of the bag (on the floor), then wrap the bag
+around and over the pot. Protein rests are kept to within a degree of
+optimum for 30 minutes, while sugar rests lose only a couple degrees per
+hour. This is with a bag rated at 30 degrees.
+
+
+----------------------------------------------------------------------
+Pete Soper                                             +1 919 481 3730
+arpa: soper`at`encore.com         uucp: {bu-cs,decvax,gould}!encore!soper 
+Encore Computer Corp, 901 Kildaire Farm Rd, bldg D, Cary, NC 27511 USA
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #242, 08/31/89
+*************************************
+-------

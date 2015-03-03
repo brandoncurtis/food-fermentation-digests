@@ -1,0 +1,885 @@
+﻿Date: Fri, 9 Aug 2002 00:38:48 -0400
+Subject: Homebrew Digest #4011 (August 09, 2002)
+
+
+
+
+
+
+HOMEBREW Digest #4011                             Fri 09 August 2002
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Liquid Level Control (Tony Barnsley)
+  deactivation of enzymes/mashing and attenuation ("Steve Alexander")
+  deactivation of enzymes/mashing and attenuation pt2 ("Steve Alexander")
+  bitter taste/aftertaste ("Jeffrey McPike")
+  Norrish Cleavages ("Dave Burley")
+  Pretzel Results (Rick)
+  Re: Rest at 122 deg F for Sierra Nevada Pale Ale Clone ("Shawn E Lupold, Ph.D")
+  Acid in beer ("Dan Listermann")
+  RE:  Rest at 122 deg F for Sierra Nevada Pale Ale Clone (Bill Tobler)
+  CACA results (Rama Roberts)
+  Hot Peppers. (Wesner Reing)
+  All grain logistics question (Victor.E.Franklin)
+  Selling recipes (Ken Pendergrass)
+  Re: Goose Island Clone (Spencer W Thomas)
+  SNPA Clone Recipe ("Eric Ahrendt")
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 8 Aug 2002 10:38:05 +0100 
+From: Tony Barnsley <tony.barnsley`at`blackpool.gov.uk>
+Subject: Liquid Level Control
+
+
+Hi all
+
+
+I know that there is someone out there that can help me sort this one out.
+
+
+I run off my sweet wort from the mash tun into an under back (Converted
+Corny) and then pump it to the boiler. What I would like to be able to do is
+to switch the speed of the pump to different levels depending on the liquid
+level in the underback. The pump speed is currently controlled by a power
+regulator and depending on the setting of the variable resistor depends on
+the pumps speed.
+
+
+What I would like to do, is to have two float switches at different heights
+in the under back. I think that there are three scenarios IMBW
+
+
+With both Floats open I would like the pump to run at a speed that enables
+the underback to continue filling (R1)
+
+
+With the Lower Float Closed the Pump runs faster, probably just about
+keeping up with the run off from the mash tun or just a bit less (R2)
+
+
+With Both floats Closed the pump runs much faster and empties the underback
+UNTIL the Lower Float Opens (R3)
+
+
+Can anyone come up with a discrete logic circuit to operate relays (opto
+isolators) that switch the three resistors into the motor speed controller
+circuit. I don't really want to get into the realm of PIC controllers.
+
+
+Also anyone know of any good (cheap or free) Circuit and PCB design software
+Probably best to contact me offline as its not 'strictly' beer related
+
+
+- --
+Wassail!
+The Scurrilous Aleman (ICQ 46254361)
+Schwarzbad Lager Brauerei, Blackpool, Lancs, UK
+
+
+Rennerian Coordinates (3605.3,47.5) No Longer Lost In The Brewing Void!
+
+
+Email Disclaimer is:
+http://www.blackpool.gov.uk/democracy/corpdocs/EmailDisclaimer.htm
+
+
+This message has been scanned by F-Secure Anti-Virus for Microsoft Exchange
+as part of the Council's e-mail and internet policy.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 07:25:22 -0400
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: deactivation of enzymes/mashing and attenuation
+
+
+Hans Aikema asks great questions like ...
+
+
+>Does anybody know how fast enzymes deactivate?
+
+
+In a 65C(149F) mash with a 2.5:1 water:grist ratio (1.25qt/lb)  the
+half-life of beta-amylase(BA) is about 16 minutes, alpha-amylase(AA)
+half-life  is about 42.5 minutes.  At 85C(185F) the numbers are roughly 5.5
+minutes for BA and 12 minutes for AA.  See JIB v97,pp85-92 for details -
+great paper by Robert Muller of BRI.
+
+
+>When I want to use the beta-amylase at say 1 hour
+>63 degr.C (145 F) and not so much alfa amylase
+>and I heat up from 63 degr.C (145 F) to 85 degr.
+>C (185 F) in 5 min., does that mean I used mainly
+>beta amylase and both are ineffective at the time the
+>mash reached 85 degr. C (185 F) ? Or is alfa
+>amylase than stil working during sparging?
+
+
+This question is based on misunderstandings that are commonly repeated in
+the HB literature.
+
+
+AA and BA are not entirely competitive.  The available sites for BA activity
+increase as AA acts tho' AA can eventually dice-up the starch into sizes
+that the BA is slow to digest.   Mashing at 63C does not prevent AA from
+acting.   The ratios of instantaneous AA activity to BA activity are nearly
+independent of temperature.   The value of a low temp (60C-67C) mash rest is
+that it allows a lot of BA activity to occur before denaturing.
+
+
+There is sufficient AA to completely convert all the starch in a single
+infusion mash at even 85C/185F - far above typical  "mash-out" temps of
+78C/172F.   Conventional pale malts has more than 20 times the potential  AA
+activity as BA activity.  The amount of AA in 1kg of pale malt can convert
+about 88kg (!!!) of starch in a 60':65C mash.   Step mashing is about
+permitting a controlled amount of BA activity to achieve the desired
+attenuation rate.  Separate protein degradation steps are usually
+unnecessary with modern malts - with *extremely* rare exceptions.
+
+
+Let's use a variation of Hans' mash as an example (60minute:63C, and boost
+to 85C for a 20 minute very hot mash-out).    During the 60':63C mash there
+is enough potential AA activity to convert 83kg of starch for every 1kg of
+pale malt !!   In the first hour there is enough potential BA activity to
+produce 4kg of maltose per 1kg malt.   Obviously there isn't enough starch
+available to use all this potential.  After the hour about 46% of the AA is
+still available and only 17% of the BA.
+
+
+During the next mash phase 20':85C there is about 32% additional potential
+AA activity (enough to convert 26kg of starch per 1kg of pale malt) and 11%
+additional BA activity (enough to produce 0.4kg of maltose per kg of pale
+malt).  At the end of this very hot mashout 15% of the original AA survives
+and only 1.4% of the BA.
+
+
+I give this example not because the specific numbers are of any value (even
+minor changes in malt, pH, mash thickness etc will throw the numbers off )
+but because it's important to observe the magnitudes of the activities under
+various circumstances.   The figures above are based on calculations that
+account for the temperature dependent denaturation rates and activity rates
+for the enzymes.   This model does not include separate terms for product
+inhibition (for example high maltose concentration slows BA activity) or
+changes in water availability.
+
+
+Note that -
+/ Pale malt contains a vast excess of potential enzyme activity compared to
+the available starch.
+/ Malt contains far more potential AA activity than BA  activity.
+/ Any saccharification rest will see the destruction of most of the BA
+within 1hr (about 75% loss at 60':60C, more at higher temps), but
+substantial AA activity can continue through mash-out.
+/ The additional enzyme activity during the mash-out period is similar to
+the same period at a lower temp, tho' losses of enzymes are greater.
+/ The ratio of AA activity to BA activity during the mash is constantly
+shifting in favor of AA, because BA denatures so quickly.
+/The end of mash-out effectively destroys the BA in the mash but mashout
+does not
+rapidly destroy the vast amounts of AA - that takes considerable time even
+at 85C.  Contrary to popular belief, the potential enzyme activity during
+the (very hot 85C in this case) mashout period is considerable.
+
+
+- ---
+
+
+It should be apparent that even given great losses in potential activity
+from sub-optimal conditions that the limiting factor in saccharification is
+the availability of starch in the mash.  A topic never addressed in the HB
+lit.  From various tables .... a 65C mash will release about 90% of the
+final malt extract in 20 minutes ... at 60C it's 90% in 50 minutes (much
+slower) and at 50C only 50% is in solution after 2+ hours.   The reasons for
+the slow release are NOT the degree of malt modification, but the
+gelatinization temperature(GT).  The GT of  malt is higher (64-67C) than raw
+barley (60-62C) because of the kilning.
+
+
+It used to be the case that English PA malt was called 'high kilned' malt
+because there was a final high temp toasting phase which decreased the
+amounts of BA enzyme considerably and also *presumably* caused a yet higher
+GT.  I read in Kunze tho' that current European practice is to kiln-off malt
+at 100-105C in order to reduce SMM levels and so avoid the costly long boils
+that used to be needed to reduce DMS/DMSO levels.  Perhaps little difference
+in the GT.
+
+
+Anyhow after any reasonable saccharification rest the activity of BA will be
+greatly decreased and the starch release rate during that period will depend
+significantly on the mash temperature.  For a highly attenuative beer it's
+probably better to get most of the starch into solution early with a 65C
+mash-in rather than slowly let the starch out with a 60C mash-in.  My
+experience is that the Fix (60C-70C-mashout) mash schedule can produce beers
+with 70-74% attenuation despite the slow starch release.  For higher
+attenuation (as in pale-ales) look to a different schedule with a hotter
+saccharification step.
+
+
+During the boost to mashout there is another release of starch from the
+grist yielding 3-10% of total extract.  The enzymes active during mashout
+will certainly convert the starch, but with the BA levels so low this final
+puff of starch may yield more dextrins than previously released starch.  For
+a more attenuative wort we'd like this final starch release to be small -
+which calls for a warmer saccharification step (like 65C) and perhaps a slow
+climb to mashout temps.
+
+
+My comments - after 1hr at 63C your mash should have completed degrading all
+the starch available.  The mash-out boost will release a little more and the
+fermentability of the carbohydrate from that last little gasp is probably
+medium-low.
+
+
+Just for reference - in Muller's paper his results give the following
+fermentability vs mash temperature for a mash with a 2.5:1 water:grist ratio
+    70C    70%
+    75C    52%
+    80C    28%
+    85C    22%
+Obviously very dextrinous beer styles require saccharification temps above
+70C/158F.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 07:34:00 -0400
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: deactivation of enzymes/mashing and attenuation pt2
+
+
+I know Kevin Crouch has been providing some interesting speculation on Paul
+Shick's mash ....
+
+
+Kevin Crouch ...
+
+
+>The notion that "full starch conversion
+>can be achieved in 15 minutes" appears to be saturated
+>in a good deal of commercial brewing rhetoric based
+>on the principles of chemistry that we've discussed in
+>recent posts, and the experiences of this community.
+>This cannot pertain to the total % of available starch
+>in the mash.
+
+
+It's saturated in reality and not rhetoric Kevin.
+
+
+EBC, IoB and ASBC each have a 'lab' mash regimes
+which are rather hot and very thin and these regularly
+produce high levels of extraction and complete
+conversion *of starch* in relatively short period of time,
+5-15 minutes.   In our cooler thicker mashes the conversion
+is slower and the release of starch is slower as well - but
+not so slow.    In an all malt grist with a high percentage of
+pils or pale-ale type malt you should get a clean iodine test
+in under 20-25 minutes at saccharification temps.
+
+
+A clean iodine test tho' only demonstrated that the amylose
+segments are below length .. ?16?.. or so - too short to
+trap iodine pairs in the amylose helix.   The stuff is still
+often too dextrinous to make good beer.
+
+
+>In addition, malt modification really
+>shouldn't be a major factor here.
+
+
+
+
+Probably not.  Malt extract levels (using hot thin lab
+mashes) are nearly constant from about halfway thru
+malt germination period. see the previous post re
+starch release and gelatinization temp.
+
+
+[...]
+> I am under the impression that
+>the main purpose of the mash-out is to de-activate any
+>viable enzymes so that the integrity of the malt
+>constitution will be maintained after the sparge,
+>which in most instances is going to be longer than the
+>combined rest times.
+
+
+That mashout inactivates all enzymes is a common and
+incorrect belief.  Complete conversion of all starch can
+be accomplished with a single infusion at 85C - well
+above conventional mash-out temps !  Mashout spells
+the end for beta-amylase tho' BA can be fairly active
+during a 77C-78C mash-out.  AA will continue to act
+to some extent after mashout and into the sparge.
+
+
+fwiw,
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 07:24:54 -0500
+From: "Jeffrey McPike" <n9cqs`at`insightbb.com>
+Subject: bitter taste/aftertaste
+
+
+Greetings.
+I have brewed for several years, and have recently had three batches that
+had a strong bitterness to them.  It isn't exactly a hop bitterness, and it
+is worse in the aftertaste than while drinking.
+
+
+I thought I was getting an infection.  I changed everything.  I sanitize
+with Iodopher.  I have little brushes to clean out tubes.  I boil all water.
+I use an imersion wort chiller.  I have purchased a new plastic primary, as
+there were scratches in my old one.  I still have the troubles.
+
+
+I am boiling in an aluminum brewpot that came with my burner as a turkey
+fryer.  I don't do anything it but boil water and boil wort.  I use a
+Stainless Steel brew paddle to stir.  Immersion chiller is copper.
+
+
+Could my beer be picking up a taste from the aluminum?
+
+
+Do I need to scrub the aluminum clean between brewings?  (I wash the
+aluminum pot, but I don't use anything like steel wool and actually work to
+get to a bright shine inside)
+
+
+Could the aluminum be reacting with the copper chiller?
+
+
+Maybe I just need to give in a buy a stainless steel brew pot, which I'm
+willing to do, but I want to know before I spend the money if it's going to
+solve my problem or not.  In other words, a SS brewpot would be desireable,
+but I want this problem of bitterness solved FIRST, or have the new pot
+solve it.
+
+
+Thanks in advance.
+Jeff
+
+
+
+
+
+
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.381 / Virus Database: 214 - Release Date: 8/2/2002
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 08:50:09 -0400
+From: "Dave Burley" <Dave_BURLEY`at`CHARTER.NET>
+Subject: Norrish Cleavages
+
+
+Brewsters:
+
+
+Leppihalme Miikkali provided a reference for a skuky beer mechanism that
+recalled some of my early academic work..
+
+
+Having done my Ph.D. in Photochemistry and research in electron spin resonance
+spectroscopy on organics as an undergraduate only a couple of years after it
+was first demonstrated at Univ. of Chicago, I found it interesting that these
+esoteric techniques are at last being used for practical purposes!  But
+Malcomb Forbes as the lead researcher?  Oh, yeah that Malcomb Forbes of UNC.
+
+
+I also have done my share of study of Norrish Type I and II cleavages, but
+we'll leave that for another time.
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 06:32:59 -0700 (PDT)
+From: Rick <ale_brewer`at`yahoo.com>
+Subject: Pretzel Results
+
+
+I finally baked a batch of Jeff Renner's pretzels last
+night, and they were so damn good I had to report it
+immediately to the HBD.  They were a huge hit with
+everyone who had them.
+
+
+I've tried making them before using baking soda with
+disappointing results. I bought some purified lye and
+used that this time, and all I can say is that they
+were fantastic. The lye really does make the
+difference.  
+
+
+One note for those making the dough in a bread machine
+like I did: you may want to use a bit more water. I
+started with 1 1/8 cups and had to add at least
+another 1/4 to 1/3 cup.  Best thing to do is monitor
+your bread machine and add water as needed.
+
+
+Thanks Jeff.
+
+
+Rick Seibt
+Mentor, OH
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 08 Aug 2002 09:33:14 -0400
+From: "Shawn E Lupold, Ph.D" <lupolds`at`jhmi.edu>
+Subject: Re: Rest at 122 deg F for Sierra Nevada Pale Ale Clone
+
+
+
+
+William Menzl writes about his first all grain recipe:
+
+
+This is the exact same recipe (Perle bitter and Cascade flavor?) as my
+first mash!  First, let me say that this turned out to be a great beer.
+It blew away all of my previous extract brews (over 10 years worth).
+All grain is labor intensive, but so far it's worth the effort.
+
+
+I can't tell you whether or not to do the protein rest, but I can tell
+you the problems I ran into brewing this recipe as my first mash.  I
+followed Papazian's schedule for 1 quart of water per pound, with an
+expected drop in temperature of 16-18 F, to get near 122 F.  It ended
+closer to 115 F, so I added more hot water to get to 122.  After the
+protein rest, I followed the recommended water addition to get to 150.
+In the end, I added almost double the recommended amount to only get to
+142-145.  In short, the lesson is that these recommended temperatures
+are guidelines and can vary widely with mash systems, temperature,
+insulation, grain density, etc., etc.  Even with all of these troubles
+(a water:grain ratio way over the 'recommended' limits, a lower temp
+mash, rain pouring into my boiling brewpot) the beer turned out awesome.
+If you do decide to go for the protein rest on your first mash, be ready
+for some deviations from the expected.  
+
+
+Some other pieces of advice I wish I had:  Run your first gallon or so
+of run off back through the grain bed.  They'll tell you to run until
+clear; however, in my experience, the first runnings are rarely crystal
+clear.  Finally, lauter slowly, as running too fast will give you low
+extraction efficiency.  I would guess the average lauter takes 40-60
+minutes for 6 gallons?  
+
+
+This will be a great beer!
+
+
+Shawn
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 09:41:41 -0400
+From: "Dan Listermann" <dan`at`listermann.com>
+Subject: Acid in beer
+
+
+
+
+Steve Alexander discusses acetic acid in beer and notes that  O2 is required
+for its formation.  I get a lot of customers who complain that their beer
+tastes like "vinegar."   Usually they are tasting acid and vinegar is the
+descriptor that they are most familiar with.  Almost always their real
+problem is lactic acid, not acidic acid because O2 should be hard to come by
+in brewing equipment.
+
+
+Dan Listermann
+
+
+Check out our E-tail site at www.listermann.com
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 08 Aug 2002 10:12:06 -0500
+From: Bill Tobler <wctobler`at`sbcglobal.net>
+Subject: RE:  Rest at 122 deg F for Sierra Nevada Pale Ale Clone
+
+
+In HBD #4010 William Menzl asks,
+
+
+"Is this rest at 122 deg F really needed or should I just do a 90 minute
+mash at 150 deg F? 
+
+
+With the malt bill you're using, I would skip the protean rest at 122 and do
+the single infusion at 150.  I have read (I think on this digest) that a
+longish rest in the 122 range can effect head retention.  If you were using
+a lot of wheat, you might want to do a protean rest.
+
+
+To find you Rennerian Coordinates, try this Calculator.
+
+
+http://mywebpages.comcast.net/levetzowbt/homebrew/rennerian.html
+
+
+Bill Tobler
+Lake Jackson, TX
+(1129.7, 219.9) Apparent Rennerian
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 09:38:16 -0700 (PDT)
+From: Rama Roberts <rama`at`retro.eng.sun.com>
+Subject: CACA results
+
+
+I brewed a CACA about a month ago, and thought I'd share the results. The 
+recipe I used was more or less what Jeff Renner suggested here a couple months 
+back, but using Maris Otter as the base, and 24 oz of corn meal. The yeast used 
+was Windsor, which I think was responsible for a fairly high FG of about 1.018 
+(used Jeff's mash schedule, a large yeast starter, and well aerated wort). 
+
+
+Having never lagered, I don't have a dedicated fridge. After about 2 weeks in 
+the secondary for a rest, I thought I'd drop it in my food fridge at 40F, where 
+it stayed for about 3 more weeks. Not sure what affect this may have had, as 
+this was my first CACA. 
+
+
+If I were going to do it again, I think I would keep the grain bill and hops 
+just as Jeff suggests, but change something to lower the FG (or perhaps raise 
+the alcohol content instead) to match its fairly full body, which doesn't seem 
+to fit. Or maybe use a domestic 2 or 6 row instead of Maris Otter? 
+ 
+In all, a very tasty beer. 
+
+
+- --rama roberts
+san francisco bay area
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 13:31:35 -0400 (EDT)
+From: Wesner Reing <wreing`at`lynx.dac.neu.edu>
+Subject: Hot Peppers.
+
+
+
+
+I'm attempting the Dry Heat Chili Ale form the July-Aug Brew Your Own. 
+And I have a question about putting peppers in the bottle.  Since The
+majority of the capsaicin is contained in the seeds, should I put a small
+slit in the peppers first to make sure that my beer is as hot as possible
+or will the "heat" leach out through the pepper anyway?  Has anyone brewed
+a beer like this?  Thanks for your help.
+
+
+Wes
+Brookline, MA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 08 Aug 2002 12:33:36 -0700
+From: Victor.E.Franklin`at`bankofamerica.com
+Subject: All grain logistics question
+
+
+
+
+
+
+Hello!
+I am going to be switching over to all-grain soon. I know the process takes
+more time so I wanted to brew larger batches.  The thought being I will be
+spending the same amount of time on the same volume of beer if I brew a
+larger batch (i.e. instead of brewing 3 extract 5 gal batches, brew 1 large
+all-grain).
+However, I am not sure how large is too large. How much can one reasonably
+brew at one time? I already have a good propane cooker. But I haven't
+purchased any of the additional equipment yet and wanted to make sure I got
+the right stuff. If I wanted to brew a 20 gallon batch for example, does the
+logistics of handling that much grain and water etc. make it an exercise in
+futility?
+
+
+Any experienced all-grainers have equipment advice for the new guy? What you
+would do different a second time around, for example?
+
+
+Are there places that sell large pots and such for just such an at home
+set-up?
+
+
+Also, If you know of a good on-line supply company would send me the link or
+number? (personal email is fine too) If anyone is interested in the list let
+me know and I will shoot you a copy.
+
+
+Thank you
+
+
+Victor Franklin
+victor.e.franklin`at`bankofamerica.com
+"Beer is proof that God loves us and wants us to be happy"
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 08 Aug 2002 16:48:12 -0400
+From: Ken Pendergrass <kenp794`at`earthlink.net>
+Subject: Selling recipes
+
+
+Colby,
+    I have bought thousands or at least a few hundred recipes in that I
+continue to by brewing recipe books and magazines. If one divides the
+price of a book by the number of recipes $1.25 is a ridiculously high
+price. I am very reticent to trust on line posted recipes. I fear anyone
+could post anything and probably before they try it. While I do know
+enough about styles to tell at a glance if a recipe is pointing in the
+right direction I just can't bring myself to use one unless posted by a
+person I recognize and then I might email the alleged author to see if
+he had posted it.
+Ken
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 08 Aug 2002 16:54:10 -0400
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: Re: Goose Island Clone 
+
+
+>>>>> "Beer" == Beer Drinker <srm775`at`yahoo.com> writes:
+
+
+
+
+    Beer> Does any one have a recipe for a Goose Island clone?
+
+
+
+
+Well, first you raise a few million dollars.  Then you get yourself a
+nice old building in Chicago.  Rip out the insides and install a
+brewery.  Build a good restaurant to go around it.  Hire yourself some
+kick-*ss brewers.  
+
+
+Or did you mean one of the MANY beers that Goose Island makes?
+
+
+=S
+
+
+
+
+------------------------------
+
+
+Date: Thu, 8 Aug 2002 17:55:20 -0400
+From: "Eric Ahrendt" <Rock67`at`PeoplePC.com>
+Subject: SNPA Clone Recipe
+
+
+William Menzel writes:
+
+
+"I am going to be brewing my first all grain batch this weekend
+and I am planning on using the recipe for cloning Sierra Nevada
+Pale Ale from Tess and Mark Szamatulski's "Clone Brews"."
+
+
+I don't think you need the rest you suggest.  I brew a clone recipe by Chris
+Frey (near, but not quite 0,0 Rennerian) that is awesome and is single
+infusion.  I think Chris developed this over 30 tries or so, and it was
+chosen for Big Brew 2000.  Chris inclides some wheat for head retention. If
+you want this recipe let me know.
+
+
+Eric Ahrendt
+Fremont, OH
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4011, 08/09/02
+*************************************
+-------

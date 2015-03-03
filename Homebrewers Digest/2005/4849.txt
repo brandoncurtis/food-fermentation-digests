@@ -1,0 +1,340 @@
+﻿Date: Fri, 16 Sep 2005 23:51:41 -0400
+Subject: Homebrew Digest #4849 (September 16, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4849                             Fri 16 September 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Pathways & philosophy (was: Esters) ("Fredrik")
+  Warming/airing your hops before use ("Fred L. Johnson")
+  Re: searching the HBD (Dean)
+  Using oats in light-coloured beer ("Greg 'groggy' Lehey")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 16 Sep 2005 08:10:03 +0200
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Pathways & philosophy (was: Esters)
+
+
+> Most texts just point to the pyruvate and the pyruvate dehydrogenase which
+> together with a CoASH directly produce acetylCoA (actually it's a 3 enzyme,
+> 3 step process).    We know that doesn't happen in  anaerobic yeast based on
+> recent studies, the enzyme is absent.  It appears that all the acetylCoA
+> comes from pyruate -> acetaldehyde -> acetate (the acetic acid anion) ->
+> acetylCoA, but most books supply few details.
+
+
+Thanks for pointing this out Steve! I find this to be a quite important point.  
+It's true that many books something are fuzzy on this. I've been 
+confused about this too. I looked up the ASC enzymes at that point, but
+wasn't cafeul enough to realize there is not one, but two. The first one is not
+relevant in fermentation, but the second one is.
+
+
+(I should point out that in a previous post I did with a crude 
+respiration/fermentation switch estimate, I didn't actually account for the 
+acetate route to acetyl-CoA, I should have. )
+
+
+The sources I have I and just rechecked says that during glucose limited 
+respiration the mitocondrial (PDH) puryvate -> acetyl-CoA is the 
+dominating pathway. But as the glycolytic rates increases the cytosolic 
+(ACS2) acetate -> acetyl-CoA route is alerted, and dominates in
+fermentation. But even during during glucose limited aerobic considtions 
+the (ACS1) acetate -> acetyl-CoA route takes care of acetate to 
+regenerate acetyl-CoA.
+
+
+I found this before, but didn't pay attention to the fact that there were 
+TWO ACS genes, ACS1 and ACS2. ASC1, is only expressed as it seems during 
+aerobic conditions. So if you stop reading there, you'll reach wrong 
+conclusions :)
+
+
+But when I lookd again, I now found that ASC2 is indeed expressed 
+and even critical for fermentative growth. 
+
+
+There is an interesting free paper available online
+
+
+The Two Acetyl-coenzyme A Synthetases of Saccharomyces
+cerevisiae Differ with Respect to Kinetic Properties and
+Transcriptional Regulation*
+http://www.jbc.org/cgi/reprint/271/46/28953 
+that shows that yeasts lacking the (ACS2) acetate -> acetyl-CoA even 
+fail to 
+grow on oxygen limited glucose. So the pathway isn't only possible, it's 
+mandatory.
+
+
+- ----------
+
+
+Som yeast philosophy talk
+
+
+I am fascinated by the fact that yeast regulations have
+ much of seemingly coordination of  regulations. One expressed gene 
+may stimulation expression of others and at first through this seems 
+to just make things even complicated. 
+But on second thought, I wonder if it's not a simplification after all, 
+if you only  look at it the right way? Even a cell, has limiting 
+processing power, why not remove redundant controls and 
+coregulate when possible? That seems sensible.
+
+
+I read an article in Yeast 2000;16:1287-1298 that points to some 
+possible correlations between membrane fluidity, and AAT synthesis 
+since both oxygen and UFA has been suggested to repress the ATF1 
+at transcriptional level, but by independent mechanisms. Instead of 
+waiting for the membranes to improve, perhaps yeast has learned that 
+once oxygen appears, it's usually only a matter of time, until the 
+will improve, so the might as well use that for triggering and be
+ ahead of things? If I was a yeast cell, I'd probably keep trying
+to find clever ways find shortcuts in the signal system and make 
+the regulation taks more compact, since even a cell has limiting 
+"computing power"? Obviusly triggering on O2 will give a more early 
+signal, and allow for faster responses that would waiting for the
+ O2 to get incorporated into lipids and put into the cell membrane. 
+
+
+ /Fredrik
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 16 Sep 2005 08:54:37 -0400
+From: "Fred L. Johnson" <FLJohnson at portbridge.com>
+Subject: Warming/airing your hops before use
+
+
+I recently heard in a podcast on basicbrewingradio.com featuring an interview
+with Gerard Lemmens that it is important to bring hops out of the freezer 24
+hours prior to using them to allow them to loose certain aromatics that can
+impart off flavors to the beer. 
+
+
+- -- 
+Fred L Johnson
+Apex, North Carolina, USA
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 16 Sep 2005 09:44:48 -0700
+From: Dean <hbd at deanandadie.net>
+Subject: Re: searching the HBD
+
+
+I use google directly to search the HBD (like the google search on the HBD
+search-page).  The trick is to use some of google's special keys.  I always use
+the following in my searches:
+
+
+site:hbd.org inurl:archive
+
+
+That limits google to all web pages on a hbd.org server with the string
+"archive" in the URL.  In other words, just the hbd archive.
+
+
+Searching the HBD is tricky because of the digest format - there's a lot of
+diverse information in each issue.  For example if I want information about a
+cooler-type mash tun, I could get digests with information about jockey boxes
+and keg-type mash tuns instead of what I want.
+
+
+If the janitors are listening to this message, I have a solution to
+inconsistent searches.  It does not take much effort on their part.  If each
+individual message was split out from the digest and given it's own page then
+information would be separated from other otherwise unrelated information.
+Then if the janitors put the messages in a different directory (such as
+/archive/messages) then we could use the aforementioned google trick to search
+discrete package of information.
+
+
+This would, of course, double the space required for the HBD, and I do not know
+how big the server is.  There is also the problem of the effort.  I volunteer
+my time to write a splitting script.
+
+
+Regards,
+- --Dean - Unscrambler of eggs
+- --
+Take your time, take your chances
+[3278.7 km, 273.4] Apparent Rennerian
+- ------------------------------------------------------------------------------
+It matters not how strait the gate / How charged with punishment the scroll
+I am the master of my fate / I am the captain of my soul.    -- Invictus --
+                                                        -- William E Henley --
+
+
+
+
+------------------------------
+
+
+Date: Sat, 17 Sep 2005 11:11:15 +0930
+From: "Greg 'groggy' Lehey" <grog at lemis.com>
+Subject: Using oats in light-coloured beer
+
+
+I'm thinking of experimenting with a bit of oatmeal in a
+light-coloured ale.  I've never used oats before, but I gather this
+isn't the way they're usually used, so before I go and do something
+silly, I'd be interested in feedback on whether it's a good idea or
+not, and what pitfalls there may be.
+
+
+Questions I have are:
+
+
+ - The main intention is to improve the head; I've been finding that
+  the lighter the colour of ale, the less the head.  So: are oats
+  going to help here?
+
+
+ - I'm planning to use commercial oat flakes intended for porridge.  Is
+  this a good idea?  If not, what should I be looking at?
+
+
+ - What difference do oats make to the colour?  I'm guessing that since
+  it's not roasted, it'll make very little difference.
+
+
+ - How much should I be trying to use?  I'm guessing 10<insert percent
+  sign here> of the total weight of the grain, but maybe 20<insert
+  percent sign here> would be a better choice.
+
+
+ - I typically use a two-step infusion mash (63<insert degree sign
+  here>/72<insert degree sign here>).  Am I going to glue up my mash
+  with porridge?
+
+
+Sorry for the <insert here>s.  The mailing list rejects the correct
+symbols.
+
+
+Greg
+- --
+Finger grog at lemis.com for PGP public key.
+See complete headers for address and phone numbers.
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4849, 09/16/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

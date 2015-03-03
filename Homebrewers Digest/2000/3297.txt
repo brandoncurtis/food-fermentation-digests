@@ -1,0 +1,1446 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA22670;
+        Wed, 12 Apr 2000 00:58:16 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA08817;
+        Wed, 12 Apr 2000 00:56:40 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA12645
+        for realhomebrew; Wed, 12 Apr 2000 00:31:32 -0400
+Date: Wed, 12 Apr 2000 00:31:32 -0400
+Message-Id: <200004120431.AAA12645`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3297 (April 12, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3297                             Wed 12 April 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Solder Saga ("Francois Zinserling")
+  Chicken Feed (William Frazier)
+  Re: RIMS electrical connections & question (Jeff Lutes)
+  RIMS ("James Johnson")
+  Sorry Phil Wilcox (Dave Burley)
+  Hello Fellow Brewers (GarthFanY2k)
+  Yeast question for the Guru (Graham Sanders)
+  Clayton Cone question ("Micah Millspaw")
+  yeast questions on flavor profile ("Czerpak, Pete")
+  high hops UK barleywine and water minerals ("Czerpak, Pete")
+  Hey Mabel/Popcorn (Richard Foote)
+  Re: Infusion Mashing help - Jeremy Arntz ("Sieben, Richard")
+  A Poem ("Drew Avis")
+  Everything you know is wrong ("Pannicke, Glen A.")
+  Re: Budweiser Engineered Barley (Jeff Renner)
+  Re: Hey Mabel... (Jeff Renner)
+  infection? (cbuckley)
+  Yeast Hydration, Infusion Mashing and England (Dan Listermann)
+  RE: Eric Murry - Everything you know is wrong (NYBombersFan)
+  Infusion Mashing Help (Lance Levsen)
+  Re: soldering connections (Susan/Bill Freeman)
+  Hot-Side Aeration ("Michael A Nemier")
+  Repost on Lager Yeasts at Ale Temperatures ("Dittmar, Robert D")
+  Bob Bratcher Writes ("Phil & Jill Yates")
+  RE: Soldering RIMS heater connection (Rod Prather)
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+* 18th Annual Oregon Homebrew Festival - entry deadline May 15th
+* More info at:  http://www.hotv.org/fest2000
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 10 Apr 2000 22:25:04 +0200
+From: "Francois Zinserling" <francois`at`designtech.co.za>
+Subject: Solder Saga
+
+
+Tom and Dee wrote about solder power connections for a RIMS:
+
+
+>in a word don't.  Heavy current carrying wires can heat up.  If they
+>heat up to much, the solder may melt and run or fracture and
+>create a bad joint which will heat even more.  If it runs and ends up
+>on some portion of the metal frame and you touch it - crispy critter.
+
+
+>So..... even if you think crimp or screw connectors are a pain, for
+>heavy current wire, they are what you should be using.
+
+
+
+
+and they got creamed by just about everybody, for trying to be helpful.
+
+
+Now, me, I'm still smarting from the wallopping I received on the "water
+in the microwave" saga, when I justly had to maneuvre my foot out of
+my mouth after being bowled over on a technicality. However, I cannot
+leave all of you to kick Tom while he's down, so here's to his defense :
+
+
+The most widely used solders are those containing about 40 percent
+tin and 60 percent lead, sometimes 50/50, with or without small per
+centages of antimony.
+
+
+Some lead alloys, which could easily be mistaken for "the most widely
+used solders" contain bismuth, tin. cadmium and mostly lead, to form
+a low melting point eutectic. These are typically used for the manufacture
+of, wait for it : .... FUSES .. and .. FIRE DETECTION (sprinklers).
+Designed to melt quickly, and at relatively low temperatures.
+
+
+On the other hand tin/lead solders containing 5 percent antimony (or silver)
+are preferred for electrical equipment because of their higher electrical
+conductivity than high-lead alloys.
+
+
+It is therefore technically possible for "solder" to melt !before! the
+insulation,
+given certain circumstances.
+
+
+However, Tom, in most cases the solder will crack first, when subjected to
+excessive physical stresses (ever noticed that the part that's been
+soldered just refuses to bend ... !%$!`at`% and you cannot fit it back into
+that little enclosure ?) It is also possible to cause a "dry" joint if you
+don't
+hold steady while the liquid solder solidifies. A stress crack or dry joint
+normally leaves little area for electricity to flow through, forming a high
+resistance point, and turns your solder joint into a very effective heater
+element, quite capable of self-destructing, or more hazardous events.
+
+
+Therefore : If your solder melts like butter : you've got the wrong stuff.
+If
+all your wires are melting : you're overloading your circuit, with little or
+no
+protection circuitry. If only your solder joint melts : you may have cracked
+the
+solder connection, or a combination of the above. If you receive a jolt :
+you
+are playing with the lions' balls! Get a qualified person to check it! (the
+wiring,
+not the balls)
+
+
+For permanent connections I prefer to solder, rather than a physical
+connection (screw, clamp or splice). I make sure that I use an electric
+grade
+solder, (hardware stockist knows the difference) a hot enough (and big
+enough) solder iron, and a steady hand.
+
+
+For a good solder connection :
+Make sure you get a good overlap of wires (don't solder end to end). A twist
+or a splice with solder (if possible) is even better.
+When soldering, heat the wires, rather than the solder. Apply a little
+solder to
+the iron tip to improve heat conductivity. Try to heat up both wires (on the
+overlap) simultaneously. Do not heat the solder! Heat the wires!
+Apply the solder at the joining area between the overlapped wires
+until the heated wire melts the solder. If the wire seems to soak up the
+liquid,
+then you're doing it right. Apply a generous amount until the whole joint
+seems "saturated" with solder. Remove iron and hold steady for a few
+seconds. (dry joints are formed, if you shake) Try not to blow it cold
+either (except if your fingers are burning !)
+
+
+BE SAFE
+
+
+Cheers
+ZING (ZA)
+Title : ................
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Apr 2000 21:45:30 +0000
+From: William Frazier <billfrazier`at`worldnet.att.net>
+Subject: Chicken Feed
+
+
+First, thank you Jeff Renner for the CAP recipe.  I LOVE THESE BEERS as they
+taste like beer did back in my youth and in my father's time.  Excellent!
+I've modified Jeff's recipe to use all Saaz leaf hops and my wife (she who
+only drinks Schaeffers Light) even likes it.
+
+
+Joe Kish says "If Lou Heavner's grandmother can take a sip of his "Carlings
+Red C.A.P.", she will recognize the beer from her youth if he uses regular corn.
+Go to an Farm animal feed store and buy a bag of 'cracked corn'"
+
+
+Well, today I stopped by the Farmer's Union Coop in Spring Hill, Kansas and
+bought a 50 pound bag of Farm Land Cracked Corn for $4.85.  This works out
+to 9.7 cents per pound.  This will really put a dent in the price of
+homebrew and I expect great things out of this corn.  Why not ~ everything
+else I buy from the Coop works great!
+
+
+The corn is cracked, just like Joe Kish describes it.  Looks like it could
+use a pass through my Corona Mill.
+
+
+If any of you local guys/gals would like some of my 50 pounds get in touch.
+At 2 pounds per 6 gallon batch this will last me 25 batches of beer.  Makes
+me thirsty.
+
+
+Regards,
+
+
+        Bill Frazier
+        Olathe, Kansas
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Apr 2000 17:42:04 -0500
+From: Jeff Lutes <jlutes`at`osprey.net>
+Subject: Re: RIMS electrical connections & question
+
+
+After reading my own reply to this message, I must apologize to
+<bigger>Tom and Dee.  It was not my intention to be rude...it was a very
+bad day.
+
+
+
+
+I also have a question about soil composition for hops.  I live in an
+area that has quite a bit of clay and was wondering if I should add sand,
+peat moss, or something else for a decent hops crop.
+
+
+
+
+Gemus Brauen Haus</bigger>
+
+
+
+
+------------------------------
+
+
+Date: Sat, 10 Jun 2000 20:29:58 -0700
+From: "James Johnson" <JaScJohnson`at`worldnet.att.net>
+Subject: RIMS
+
+
+I have a ten gallon polorware brew pot, false bottom, and temp gauge.  I
+also have a magnetic pump.  I use a cajun cooker for a heat source.
+Is it possible to use the above as a RIMS with out a hot water heater
+element?
+Has anyone done this with sucess?
+I mostly wonder about mash in.  Do you mash in by stirring with a mash
+paddle let the mash set (wording?) and then start the recirculating? Or do
+you run the pump while mashing in?
+Also, do you recirculate only during temp boosts or do you recirculate the
+whole time you are mashing?
+
+
+Thanks for any advice.
+
+
+Scott
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Apr 2000 22:46:03 -0400
+From: Dave Burley <Dave_Burley`at`compuserve.com>
+Subject: Sorry Phil Wilcox
+
+
+Brewsters:
+
+
+Well, I made my one mistrake for the year already.
+
+
+Calling Phil Yates, Phil Wilcox and blasting him was a looloo. Please
+excuuuse me Dr. Wilcox!
+
+
+Phil Yates, I do find your <obvious> humourous writing to be just that and
+have had many smiles at your cleverness as a result.  Unfortunately, as I
+have often said, this medium is not a subtle one and I often find that fine
+line between humor and insult difficult to see even with my glasses on.
+Sitting over a beer and making remarks is one thing, putting it in writing
+which is open to imterpretation is entirely another thing.
+
+
+Facts are that one must try something and do careful experiments or prove
+that another researcher has before you declare someone else is full of BS
+for commenting or suggestting something.  It is not only impolite it is
+misleading or to be blunt, lying unless you say "I have an opinion based on
+absolutely no information and that is...."
+
+
+You will recall that I suggested that others try to understand how
+important oxidation was to homebrewed beer by actually trying it on their
+<own> system. I have tasted a lot of homebrew and hot wort oxidation is
+probably the most prevalent and universal fault.  If you have always made
+your beer by open boiling and pouring hot wort through the air then you
+would probably not recognize the effect of a minor change in procedure.
+Which was my point on Pivo's supposed experiment. If his homebrews are
+heavily oxidised already by other practices then he wouldn't recognise any
+difference by a minor oxidation.  That was my point that his conclusions
+were not necessarily logical, since it assumed his control was not
+oxidised.  I don't know that.
+
+
+Frankly, I will believe  that scientific literature and my own taste buds
+that says wort oxidation at high temperatures is not a good thing. Check it
+out on your own system.
+- --------------------------------------
+Regan, Check with the professional wine equipment suppliers in Oz. A hand
+held refractometer is a standard piece of equipment.
+- --------------------------------------
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Apr 2000 23:03:56 EDT
+From: GarthFanY2k`at`cs.com
+Subject: Hello Fellow Brewers
+
+
+This lowly extract brewer has a question.  I just brewed my third batch ever. 
+ When i say JUST i mean JUST.  I brewed a English Brown Ale from a Brewer's 
+Best Kit.  My S.G. is too low.  It is supposed to be 1.040-1.047 and it 
+started at 1.028 or so.  I think i added too much water.  First question is, 
+did I ruin this batch forever?  Second question is, if not how, do i fix it.  
+I would appreciate any help the experienced HBD subscribers can give me.  
+Thank you.  You guys and gals are a WEALTH of info to a beginner like me.
+
+
+Brewin in Virginia,
+
+
+Rick Hyburg
+
+
+Private E-Mails appreciated!!!!!  
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 14:35:26 +1000
+From: Graham Sanders <GrahamS`at`bsa.qld.gov.au>
+Subject: Yeast question for the Guru
+
+
+
+
+G'day all
+
+
+Lets set the ball rolling.
+
+
+I use a counterflow cooler and let the cold break go into the fermenter
+through a simple natural airation tube.
+
+
+Given that this is not the ideal "saturation" of O2 that many say is
+necessary, I believe that if you under-airate the wort like this, it is
+actually benefical to have the cold break left in, as it allows more O2 to
+be diverted to sterol and other essential membrane production, as the yeast
+can use the cold break in other areas (yes I'm not THAT technically minded).
+
+
+If this is true, would it be benefical for most homebrewers, (who dont
+airate their beers enough, to leave the cold break in the main wort.
+
+
+Shout
+
+
+Graham Sanders
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 06:39:48 -0500
+From: "Micah Millspaw" <MMillspa`at`silganmfg.com>
+Subject: Clayton Cone question
+
+
+Mr. Cone,
+
+
+I would like to hear your opinion on 
+oxygenation vs. aeration of wort for 
+the purpose of:
+ 1. yeast propagation (increasing boimass)
+2. normal yeast fermentaion (just making beer)
+
+
+By aeration I mean the use of atmospheric gases
+in the naturally occuring varieties and volumes.
+Oxygenation being the use of almost pure oxygen.
+
+
+Micah Millspaw 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 08:12:04 -0400
+From: "Czerpak, Pete" <Pete.Czerpak`at`siigroup.com>
+Subject: yeast questions on flavor profile
+
+
+A few yeast questions that resulted from some competition comments:
+
+
+1) Is the Wyeast Fullers strain, 1968, thought to throw off deacetyl type
+compounds? Could use of about 10% flaked maize contribute to this taste?
+
+
+2) What would low temperature conditions do to the flavor profile of the
+Wyeast Weihestephen yeast in terms of phenol, clove, banana tastes?  Are
+these sensitive greatly to a 62deg F ferment temperature?
+
+
+Thanks for the help.
+
+
+Its about time to be brewing again.  
+
+
+Pete Czerpak
+Albany, NY
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 08:23:21 -0400
+From: "Czerpak, Pete" <Pete.Czerpak`at`siigroup.com>
+Subject: high hops UK barleywine and water minerals
+
+
+Good morning again,
+
+
+I'm slowly drinking down the results of my double barley wine batch from
+early this winter. Not exactly now, but a bit later in the day....  
+
+
+Does anybody know of or have dranken a UK brewed barley wine that is high in
+hops as opposed to more malty?  Does Fullers version taste like this?
+Anchors Old Foghorn and G. DePiros Ol'Musty are good examples of american
+brewed barley wines that are more malt and less hops.  Do the English ever
+overdue the hops and imitate more the american style?
+
+
+Final question for the day - if my mash water is fine for mashing, can I
+just added my minerals (mainly gypsum) at boiling to get my Albany water
+closer to UK water to bring out the crispness in my bitters and IPAs? Or
+will the mash really benefit as well? 
+
+
+Thanks.
+
+
+pete czerpak
+Albany, NY
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 09:13:23 -0400
+From: Richard Foote <rfoote`at`mindspring.com>
+Subject: Hey Mabel/Popcorn
+
+
+Joe Kish <JJKISH`at`worldnet.att.net> advises:
+>Go to an Farm animal feed store and buy a bag of 'cracked
+>corn', also called Albers' Chicken Scratch.  It's not as fine as
+>corn meal so it won't give a stuck mash.
+
+
+One concern about using a product produced for livestock would be the
+possibility it might have some additives you don't want in your beer.
+Being from the self- proclaimed "poultry capital of the world" in
+Gainesville, Georgia and working in a building that in a former life was
+used for blending pharmaceuticals into chicken feed, I'd caution that one
+should check the ingredient content first to be sure.
+
+
+Jeff Renner writes:
+>The problem with cracked corn is that it has the corn germ with all the
+corn oil.  >It can easily go rancid.  The old brewing texts are quite
+explicit about this,
+>but George DePiro and Jack Schmidling have both reported success with
+>freshly ground whole corn.  If I were to use cracked corn I think I'd grind
+>it myself so it was fresh.  Don't use anything that smells like old oil
+>paint.
+
+
+The point Jeff makes about oil content is well taken.  I remember a tour of
+Jack Daniels Distillery I took a few years back (highly recommended BTW).
+You could walk on an elevated walkway within an arms length of open top
+fermenters full of corn mash.  As I recall, the tour leader encouraged us
+to dip a finger in and taste it if we wanted.  Spying a likely looking pool
+of liquid, I did just that.  Not what I expected--pure corn oil!
+
+
+I have brewed sucessfully with popcorn--sort of a cream ale.  It was popped
+w/o oil, of course, using a skillet shaken on the stove top so as to
+prevent burning.  It was a pain.  An air popper would have been the
+equipment of choice, but I did not have one.  It was entered in this "wierd
+beer" competition and got a third place overall.  The popped popcorn was
+simply added to the grist just prior to mash-in.  Everything seemed to
+convert quite well, yielding a clear beer w/o any noticeable starch haze.
+The beer had a slight, toasted popcorny aroma when young that faded as it
+aged.
+
+
+Hope this helps,
+
+
+Rick Foote
+Whistle Pig Brewing and Home Remodeling
+Murrayville, GA
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 08:45:31 -0500
+From: "Sieben, Richard" <SIER1`at`Aerial1.com>
+Subject: Re: Infusion Mashing help - Jeremy Arntz
+
+
+Jeremy lists equipment and his intended procedure to make 2.5 to 3 gallon
+batches.
+
+
+Sure, you can do this, but it really doesn't take any more time to do a 5
+gallon batch.  I would skip the purchase of a 5 gallon stainless pot and
+spend the same money for a 33qt enamle pot so you can do full wort boils on
+5 gallons.  Also, for the same price you can get a 10 gallon square picnic
+cooler as the price you specified for a 5 gallon one.  I prefered this type
+of cooler because I could make a pipe manifold for lautering out of pvc
+plastic pipe.  As an added bonus, you can mash in the same cooler, and since
+you already have the smaller aluminum pot, you could use that for heating
+decoctions, should you decide to try your hand at that type of mashing.  (I
+did that on my first all grain batch becuase I found I couldn't really do
+step mashing in the cooler as it took too much water to raise temps!)  I
+would skip the mesh bag idea because, 1)it is just another thing to clean 2)
+it will decrease your mash efficiency, thus causing you to need more grain
+3) your grain bed in the mash/lauter tun -cooler- will act as a filter
+anyway. The cost of the pvc manifold (which I just pieced together, not
+glueing any parts so it can be disassembled and cleaned after each use) is
+about the same as the mesh bag.
+
+
+So for no additional cost beyond what you stated, you are now set up for
+single, step infusion or decoction mashing!
+
+
+As to procedure, your mash in temp looks ok, you may need to infuse
+additional amounts of boiling water to maintain the 150 degree temp, so have
+some on hand.  When  you mash out, start by running off some of the wort
+into a small pot and recirculate it through the mash bed until it runs
+clear.  Try not to splash too much if you are planning on keeping this beer
+for an extended period of time (1 year) to avoid the much dreaded HSA.  (but
+if you drink it faster than that, splash with impunity if you so wish).
+{another log on the HSA fire, hehehehe}  You add your sparge water as
+needed, needed defined as 'don't let the top of the grain bed appear above
+the level of liquid in your mash'.  This is to prevent 'setting' the mash
+and liquid will not continue to run through it, but rather cracks will
+appear in the surface of the bed and will let any additional sparge water
+run around it,leaving your sugars trapped in the grain.  
+
+
+I would have 5 gallons of sparge water on hand, you may not need it all but
+you can tell by hydrometer reading when you should stop.  (at sparge temps
+the hydrometer should read 1.000, at least it worked well for me).
+
+
+Grains:  all malt is by definition 'modified', but maybe what you are asking
+is which ones have enzymes still availble for the mashing process.
+Basically any light malt still has them as they have not been heated to the
+point of denatureing the enzymes, 2-row, 6-row, pale malt etc.  Any
+specialty malts such as carmel, black patent, chocolate malt do not have
+little or no enzymes left to work with so that they will not convert
+themselves, which is why you need to use mostly base malt in your recipe.
+To answer your question about whether or not the specialty grains are
+included in calculating your recipe, yes they are, but the extract yields
+are different.  
+
+
+Finally, get a brewing program like Suds or Promash if you have a computer
+(how else did the e-mail get to the HBD?) and it will have the info you need
+for calculating your recipes.  Also there are books availble that have this
+info as well.  I can recommend many, if you want to drop me a private
+e-mail.
+
+
+Have fun, and hope this helped you out.
+
+
+Rich Sieben
+Island Lake, IL
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 06:47:16 PDT
+From: "Drew Avis" <andrew_avis`at`hotmail.com>
+Subject: A Poem
+
+
+When I last visited the Royal Ontario Museum, I jotted this verse down as it 
+struck me not only as possibly one of the earliest examples of beer 
+marketing, but also a beautiful description of what it's like to sip a 
+particularly good homebrew on a hot day.  This is from a 13th or 14th 
+Century Yuan Dynasty lable (beer / wine / fermented beverage, it was 
+unclear):
+
+
+"Branches coated with a thin, thin ice of spring, a pure fragrance imparted 
+by the Goddess of the Moon.  It is suddenly, after the long fading of a hot 
+summer, like the white dance of an old snow-ladden pine."
+
+
+(It was amazing to see an example of a rice wine bottle from 1988 with the 
+same form as the 13th century bottle - a form that had lasted 7 centuries or 
+more - I wonder if swing tops will last that long?)
+
+
+Cheers!
+Drew AKA Dr. Pivo III
+- --
+Drew Avis, Merrickville, Ontario
+Visit Strange Brew with Drew:
+http://fast.to/strangebrew
+
+
+
+
+
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 09:41:14 -0400
+From: "Pannicke, Glen A." <glen_pannicke`at`merck.com>
+Subject: Everything you know is wrong
+
+
+On Mon, 10 Apr 2000 Eric Murray commented on the following:
+
+
+>I have not been around the HBD that long, and I do find very helpful and
+>insightful information from many of you, including Dr. Pivo. I am grateful
+>however that I have been brewing a few years prior to finding the HBD. If I
+>would have found it when I started, frankly I would have been scared out of
+>brewing. Many of us make it sound so much more complicated in a search for
+>that perfect brew than it needs to be.
+
+
+Eric,
+
+
+Bravo!  Bravo!  Great point.  
+
+
+I think that many of those who post here have been brewing for a number of
+years and may be looking for that "little extra" which makes their beer seem
+(at least to them) so much better than the next guy's.  I'm enthusiastic
+about brewing (and I'm sure I'm not alone) so I'll discuss a point until
+there is no more left to talk about.  I'll read up on it and use what the
+new guy would consider "techno-babble" in my discussions.  I've also been
+know to beleaguer a minute point.  It's all either confusing, intimidating
+or boring to the new guy.
+
+
+I'll probably be flamed by the homebrew snobs for saying it, but thank God
+for Charlie Papazian!  Charlie gave a talk this past Saturday at our club in
+Princeton, NJ.  The subject was "The Future of Homebrewing" but I wanted to
+know about the past.  I asked Charlie: "Many of us were introduced to
+homebrewing with the help of your books, but what did *YOU* have as a guide
+when you first started homebrewing."  In short, Charlie seemed to chalk it
+up to first hand experience and experimentation after learning the basics
+from an old "moonshiner".  Charlie may write much better than he speaks, but
+I'm glad I started with his books.  I think if I had to start here, I run
+screaming into the mouth of madness ;-)  And while he still uses that
+annoying "Relax. Don't worry.  Have a homebrew." line, there is no advice
+which I can find to be of more value.
+
+
+
+
+Glen Pannicke
+Merck & Co.
+Computer Validation Quality Assurance  
+email:  glen_pannicke`at`merck.com 
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 09:27:37 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Budweiser Engineered Barley
+
+
+Joel Plutchak <plutchak`at`ncsa.uiuc.edu> wrote:
+
+
+>Anyway, after the MCAB tour of the research pilot
+>plant in St. Louis, I took the public tour.  I made a point
+>of comparing Bud to Michelob, since my notes indicated they
+>both have about 30% rice but differ in the barley portion of
+>the grist: 2/3 6-row and 1/3 2-row for Bud, with 80% 2-row and
+>20% 6-row for Michelob.
+
+
+I didn't take notes, but my recollection is that Steve Michalak said that
+Bud was 1/3 rice and the balance was 2/3 6-row and 1/3 2-row.  I didn't
+hear what the 2-row:6-row balance was with Michelob, but I remember his
+saying it had only 20% rice.
+
+
+There was an awful lot of information that weekend that pertained to my
+interest in CAPs, but I couldn't process it all.  Fortunately, Jethro is
+sending me the tape from Steve's and George Fix's talk that I missed due to
+judging.  Maybe it will be covered there.  I was able to have lunch with
+Steve after the talk and pick his brain about CAPish things.  He was very
+open and said that A/B has very few trade secrets.  He said that no one
+else can afford to do what A/B does.  He really in single minded about A/B
+being the best.  Says that Augie Busch won't hear of problems with cost if
+it pertains to the qualilty of the beer.
+
+
+I did find out a secret - Augie occasionally is found in a St. Louis
+brewpub (sorry, I didn't recognize the name), whose beers he admires.
+Don't know if he wears a fake mustache, nose and glasses like Charlie P
+occasionally dons.
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 09:49:35 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Hey Mabel...
+
+
+I realize that I forgot to make a yeast suggestion Lou Heavner requested.
+I have had good luck with the New Ulm (American Lager?) variety even though
+it says it is not a pilsner strain, several German strains (Bavarian. I
+think Wyeast calls one, but not Munich), and my favorite, YCKC Ayinger (not
+in catalog but available).  I also had good luck with the Danish strain,
+which emphasizes hops over malt.  It's been years since I used it, but I've
+been wanting to try to make a crisper, drier CAP sometime and think this
+would be a good choice for that.  My current ones are richer, which I
+generally like, maybe more Bohemian/US than German/US, but change can be
+interesting.
+
+
+I think that the A/B strain (Wyeast Pilsner, I think, also labeled St.
+Louis) might be a little lacking in character, but that's not based on
+personal brewing experience, just prejudice.  The one CAP I had made with
+it was very heavy with diacetyl (I guess that's character!), but that could
+be avoided with a rest.
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan USA, c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 09:49:17 -0400
+From: cbuckley`at`newsoft.com
+Subject: infection? 
+
+
+
+
+
+
+Hello  fellow lovers of good beer.........
+
+
+I hope this is not bad news....   I have two batches of beer in my basement,
+both were bottled on the same day.  One is a lager and one is a regular light
+brown ale.  I bottled them about a month ago.   Every week I go grab one (or
+two) of each to try.  I want to learn how beer conditions in bottles so I like
+to sample them frequently to check for improvement.  Two days ago I noticed that
+both batches are developing a ring on the neck (insert - expletive).   Clearly
+we all know that could be an infection.   I have made seven batches of beer.
+this is my first sign of trouble.
+     To my question(s)-   If a bottle has a ring on the neck does that mean
+there necessarily is an infection?  Could the ring be caused by something else
+from the original wort?  Could it be wild yeast or is it bacteria?  Assuming it
+is an infection, is it likely to get worse in these bottles?  What's the best
+course of action?  Should I just dump them?   I have two batches fermenting
+currently and I am concerned that they too might get the dreaded neck ring after
+I bottle them.  How worried should I be?  Clearly I need to do a lot of cleaning
+and sanitizing.
+
+
+thanks folks -  -
+
+
+ - - The careless cleaner ? - -
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 10:04:46 -0400
+From: Dan Listermann <72723.1707`at`compuserve.com>
+Subject: Yeast Hydration, Infusion Mashing and England
+
+
+My question to Dr. Cone regards yeast rehydration.  All the packages of
+yeast contain instructions for rehydration yet they all ferment just fine
+without it.  I have to believe that such a procedure may be theoretically
+beneficial, however it would seem to be margionally usefull at least on a
+homebrew scale. 
+
+
+I own a home brew shop and a very common phone call is the " My beer is not
+fermenting." problem.  I go through the list of potential causes ( plastic
+bucket lid leaks, too cold, ect.)  About twice a week the caller will
+indicate that he rehydreated the yeast. This is a strong signal that the
+yeast has been damaged and will need to be replaced.  I have come to the
+conclusion that, since rehydration is not necessary to ferment beer
+properly and there is a strong chance that the yeast will be damaged in a
+botched rehydration, it is not desirable to recommend such a proceedure. 
+Just how important is rehydration and is it worth the risk?
+
+
+
+
+
+
+Jeremy Arntz (arntz`at`surfree.com) asks about infusion mashing.  Check out
+"Wanna Mash?" at listermann.com and relax and have a homebrew.
+
+
+Dr. Pivo (dp`at`pivo.w.se )  asks about things to do in England.  Try to take
+in the Orange Brewery Brewpub at the corner of St. Barnabus and Pimlico.  
+My wife limited me to only one while we were there. :(      
+
+
+Dan Listermann  dan`at`listermann.com    72723.1707`at`compuserve.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 10:38:59 EDT
+From: NYBombersFan`at`aol.com
+Subject: RE: Eric Murry - Everything you know is wrong
+
+
+Regarding Eric Murray and his comments on Everything You Know is Wrong
+
+
+You took the words right out of my mouth!  Way to go!  As a relatively new 
+brewer, I was beginning to feel (after reading HBD) that I was using 
+illiterate brewing practices.  The great equalizer, however, is without a 
+doubt, THE TASTE TEST.  If your beer tastes great and is appreciated by 
+legions of your friends and family then who gives a crap about 3/4 of the 
+dissertations on HBD?  
+
+
+Recently, I have found HBD to lack, shall we say, fizz?  It seems the board 
+is dominated by a few pontiffs each trying to out wit the other regarding 
+brewing practices and techniques.  While I view their information as 
+extremely valuable and thought-provoking, very little of their ramblings 
+actually help me brew better beer.  As a working man with a tie, a wife and a 
+12 year old, do I really need to know about how many yeast cells it takes to 
+make my wort turn into beer?  Hardly and certainly not on this "amateur" 
+forum.
+
+
+Reading this digest lately has reminded me of the words of French poet and 
+critic Paul Valery:
+
+
+"Science means simply the aggregate of all the recipes that are always 
+successful.  The rest is literature."
+
+
+Great literature this Homebrew Digest.  Let us not forget, however, that beer 
+is an ancient drink most likely discovered by accident.  It has been enjoyed 
+for centuries by royalty as well as plebeians.  It is a simple drink, 
+concocted not by man, but by yeast.  To overly complicate the process is 
+folly.  Can you imagine if Michelangelo had to worry about the density and 
+porosity of the bristles on his brush or the chemical composition of his 
+canvas?   The world may have been spared his great masterpieces.
+
+
+Each brewer is his own artist.  Your "fabulous" beer may get flushed (gasp!) 
+down the sink at my house and/or vice-versa.  Who is really to say?  Taste is 
+a fickle and subjective thing.  Brewing beer is as simple as using the 
+freshest ingredients and  following basic brewing and sanitation techniques.  
+Is there REALLY anything else?  Sure there are a myriad variables and 
+unknowns, but like Eric stated in his post, I too, quite frankly, find it 
+hard to brew lousy beer. 
+
+
+I hope that a few of you can come back down and join the rest of us 
+unsophisticated brewers once in a while.  But until then,
+
+
+SHOW ME THE BEER!
+
+
+ALEX
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 11:20:36 -0600
+From: Lance Levsen <l.levsen`at`printwest.com>
+Subject: Infusion Mashing Help
+
+
+"Jeremy J. Arntz" <arntz`at`surfree.com> asked about starting to mash.
+
+
+You can do any size of mash that you want. 19 l (5 US gal) is a nice size. If 
+I'm doing smaller batches it's usually for testing purposes.
+
+
+Mesh Bag. You can use it, but when I first started it turned into a total 
+disaster. Make sure the bag is _plenty_ big enough so that the weight of the 
+grains doesn't pull the bag into an inverted cone.
+
+
+It's much easier to use a slotted manifold. Quite simple to build too.
+
+
+For you sparge, you'll get better results if you could raise the grain temp up 
+to 170 before the sparge. I can't do that so I use boiling water to fill the 
+vessel, then let it sit for a while, then sparge.
+
+
+Collect the runoff and boil as per normal for a full hour, you need the extra 
+time compared to extract because there is a lot more protein in the runoff 
+from a mash. The boil coagulates the protein and with a little wait after the 
+boil (or using irish moss) will settle the proteins to the bottom of the boil 
+pot.
+
+
+I don't know about any grain conversion charts on the 'net, but I use the 
+Zymurgy Great Grain Issue, Special Issue '95. It works well enough for me.
+
+
+Yes the total grist includes the specialty grains.
+
+
+Good Brewing.
+- -- 
+Lance Levsen, Programmer
+Product Innovation,Web Development
+PWGroup - S'toon.
+477-3166
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 11:16:46 -0500
+From: Susan/Bill Freeman <potsus`at`bellsouth.net>
+Subject: Re: soldering connections
+
+
+The day that my local power company, the makers of my breaker panels,
+the manufacturers of the 7 kilns I use, the water heater manufacturers
+and the manufacturers of the solid state relays I use begin to solder or
+presolder the connections they make, then will I follow suit.  Without
+exception these entities and devices all use screw connections.  In
+spite of the fact that there should never be enough heat to actually
+melt one of these connections, the addition of solder to the end of a
+stranded wire prior to either clamping or crimping is a no no.  There IS
+enough heat generated to expand the connection and when it cools the
+contact is less than tight, resulting in additional heat being generated
+in that connection.  This is the reason that the aluminum wire used in
+house wiring during the 60s is now suspect where house fires are
+concerned.  This is also why there is a special connection grease is
+applied to the connections of drop coming into your house power panel
+from the pole outside.
+
+
+Solder is for radios and copper pipe - not for electrical connections
+where the load can generate heat.
+
+
+Bill Freeman aka Elder Rat
+KP Brewery - home of "the perfesser"
+Birmingham, AL
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 11:47:59 -0400
+From: "Michael A Nemier" <Michael.Nemier`at`ipaper.com>
+Subject: Hot-Side Aeration
+
+
+Gang:
+
+
+I'd like to throw a big old can of fuel on the (already raging) HSA fire.
+I'll spare you the suspense and tell you that I believe this phenomenon to
+be both real and harmful, and that I have experimented (perhaps a stretch
+of the term) to a great degree on this very topic.
+
+
+When I first went to all-grain brewing back in 1994, I designed and built a
+custom stainless-steel lauter tun that, with my then-simplistic
+understanding of brewing techniques/chemistry, represented the pinnacle of
+modern wort production technology.  On the plus side, it had the most
+beautiful, geometrically perfect, tightly-packed system of (dual-sized for
+tighter packing) hand-drilled holes in the "false bottom".  Still
+impressive to look at and fully suitable for framing.  As far as negatives,
+this evil piece of chromium-fortified crap featured a six-inch free-fall of
+the finely dispersed wort (through all of those little holes) into the bulk
+of the wort, with all of the obvious bed-compaction and aeration drawbacks
+of such an arrangement.  Naturally, I wasn't successfully lautering
+anything with a grain bed thicker than a couple of inches.  Instead of
+recirculating the wort through the bed (a tough proposition, as the bed
+usually took on the texture of concrete), I ran it through successively
+finer strainers (again, spraying wort in free air) between vessels until it
+was finished-beer-clear after trickling through the last, very fine (maybe
+100 mesh) stainless screen.  This entire process slowly produced
+brilliantly clear wort, at good yields (typically 32 SG point/lb/gal),
+which was aerated/oxidized within (actually, "beyond") an inch of its life.
+By way of background, the grist was Corona milled (another bad one), and
+step-infusion mashed at 122/150/156/165 degrees F with lots of stirring
+(yet another bad one).  I would describe the rest of the brewing process at
+that time (other than wort production) to be up-to-par, as I was sanitizing
+well, using liquid cultures with starters, and, by and large, using most of
+the other techniques that I know to be "right" today.
+
+
+Needless to say, the beer produced with this setup was poor-tasting due to
+very obtrusive levels of oxidation.  The malty flavors were very "dull" and
+"papery", even for styles that should have heavy malt-derived flavors
+(Scotch ales, barley wines, brews with high proportions of crystal and/or
+Munich).  The "dark grain" flavors were particularly "flat", with none of
+the pleasant coffee-like roastiness of chocolate malt or roasted barley
+making it through to the finished beer.  The beer was "dead" and
+"lifeless", to use some more useless, non-descriptive terms.
+
+
+I had tasted a lot of stale, oxidized commercial beers up to that point,
+and knew from the get-go that oxidation was what was kicking my ass.  It
+didn't take a genius to identify the lautering equipment as the bad actor,
+particularly after reading some articles by Fix implicating HSA in a host
+of beer "crimes".  I quickly built a Zapap (with the same sort of
+geometrically perfect drilling) and got unhealthily paranoid about HSA
+(from every possible silly source).  The quality of beer produced (from, at
+the time, the same milling/mashing/everything regimen) was immediately and
+immensely improved, every time, to what I would consider
+competition-contender quality.  The obvious change, to any taster, was the
+elimination of the potent, unpleasant, oxidized character.
+
+
+Admittedly, this was an unwitting experiment that tested, essentially, the
+extremes (at least on the "bad" end) of the HSA spectrum.  There is a
+clearly discernible difference in the quality of beer produced by these two
+methods, with all other variables held constant.  I can't comment on the
+incremental effect of "just a little more than my current level" of HSA,
+but I'm right now clinging to the "if a lot is a lot bad, than a little is
+a little bad".  I've tangled with the HSA demon, and it whupped my ass.  I
+don't want anything to do with it again.  I suppose that the reason why
+there haven't been a lot of good experiments done on this one is that it
+takes great nerve to perform such peculiar and ultimately fatal torture on
+otherwise lovingly-crafted wort.
+
+
+Understand that I didn't post this epistle to highlight the stupidity that
+is my brewing past (and there's plenty more where this came from).  I
+simply wanted to weigh in on a current "hot topic" for which I have some
+useful insight, and to perhaps steer folks in what I consider to be the
+correct direction.
+
+
+Mike Nemier - Extreme Suburban Cincinnati
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 13:18:36 -0500
+From: "Dittmar, Robert D" <Robert.D.Dittmar`at`stls.frb.org>
+Subject: Repost on Lager Yeasts at Ale Temperatures
+
+
+I thought I'd repost a question that I had for the collective last week both
+because my post may have been misunderstood, and because a recent post by
+Paul Shick dealt with a similar question.
+
+
+I have tried all the ale yeasts that my homebrew supply shop routinely has
+in stock.  They are happy to order any others I would like to try, but
+instead of going to all that trouble, I was wondering if I could try out
+some of the lager yeasts that they have in stock.  As I previously
+mentioned, I can only ferment at ale temperatures (around 60-65 deg. F) so
+I'd have to pick one carefully.
+
+
+I wanted to thank Rick and Charley for telling me about good results with
+2112 (California lager).  I had thought originally that that would be my
+best bet, and I will probably be giving it a try.
+
+
+I'd also like to thank J, who recommended trying the Koelsch strain, and Lee
+for recommending 1056 as a clean yeast.  However, I think I may have been
+misunderstood.  I am not looking to make beers with a clean lager-like
+profile.  I'm not really interested in making a California Common beer at
+this time either.  I know that any lager yeast used at high temperatures
+will produce many ale-like esters, phenolics, and possibly a lot of
+diacetyl.  I was wondering if any of the Wyeast lager yeasts would
+none-the-less produce a good ale, i.e. American pale ale, British bitter,
+porter, etc., when used at higher temperatures, or if, in general, the beer
+would be so estery, phenolic, and/or buttery as to be undrinkable.
+
+
+Sorry about the repost, but I saw Paul Shick's post about using 2206 as a
+"steam" yeast, and I was hoping that any information sent to him about this
+would be posted to the HBD or sent my way.  Any experiences with any of the
+lager yeasts other than 2112 at higher temperatures would also be
+appreciated.  Again, a clean lager-like flavor at the higher temperatures is
+not what I'm looking for, but I would want the beer to be drinkable before I
+took the chance.
+
+
+Thanks again, 
+
+
+Rob Dittmar
+St. Louis, MO
+
+
+
+
+------------------------------
+
+
+Date: Wed, 12 Apr 2000 06:46:29 +1000
+From: "Phil & Jill Yates" <yates`at`acenet.com.au>
+Subject: Bob Bratcher Writes
+
+
+>I have a
+>feeling that if more of us actually knew each other in the flesh >(no
+>comments from the Baron or Fouch please) there would be allot >less
+bickering
+>and name calling.
+
+
+Now I know I have been asked not to comment here, but I think what Bob has
+to say is true. Well I know Bob you are not implying that you would like to
+see Fouch in the flesh, nobody wants to see that!! Just in his tutu is quite
+far enough. But I often think how fascinating it would be to actually meet
+some of the characters of the HBD. I guess it is particularly intriguing for
+the likes of me, living so far from the American scene, of which most of you
+are a part. On the other hand, it would be a shame to give away all the name
+calling and actually have to be nice to each other. I think this would spell
+the end of the HBD, certainly as we know it.
+
+
+One person I would be particularly curious to meet is Steve Alexander. I
+can't imagine how a person can consume literature at the rate that Steve
+apparently does and still find time to brew beer, make wine and vinegar, and
+churn out the occasional piece of Japanese poetry, as the Secret Squirrel
+once observed.
+
+
+By contrast I make beer, drink beer (probably too much), fight ferociously
+with Jill and hallucinate over naked deceased film stars knocking on my
+bedroom window late at night. Probably most everyone else fits somewhere in
+between. Except of course Doc Pivo, he's way out on another limb again. And
+don't he and Steve just love each other!!
+
+
+Yes it would certainly make an interesting party if we all did actually get
+together. Well I'll rack up the balls and gas up the rice lager, the
+Billiard room is just waiting for a ding dong party. But let me know
+approximate numbers so I can round up the appropriate number of scantily
+dresses women, looks like it's going to be a wild one!
+
+
+
+
+Cheers
+Phil
+PS Dave Burley can come along too, providing he gets my name right.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Apr 2000 11:47:57 -0400
+From: Rod Prather <rodpr`at`iquest.net>
+Subject: RE: Soldering RIMS heater connection
+
+
+Ron Laborda pointed out that a solder coated wire which is 
+crimped or placed in a screw terminal will overheat and melt 
+the solder.  This can result in circuit damage, equipment damage 
+or even fires.  
+
+
+You should never solder the wire prior to putting a 
+crimp on.  When you crimp a connector it flattens the stranded 
+wire and allows for a large surface area to contact the crimp.  
+If you solder the wire first you end up with a small contact 
+area with high current going through a poor conduction interface
+i.e. copper, solder, solder, copper.  
+
+
+In any condition the connections must be clean and tight.  I still 
+recommend mechanical copper to copper connections for the best
+long
+reliability.   Since many RIMS systems are used and stored in 
+garages or out of doors, you should also consider coating the 
+wires with silicon grease to stop any corrosion of the copper
+wires.  
+
+
+If you feel you must use crimped lugs make sure you have terminal 
+strips and lugs with a rating large enough for the current.  
+- -- 
+Rod Prather
+Indianapolis, Indiana
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3297, 04/12/00
+*************************************
+-------

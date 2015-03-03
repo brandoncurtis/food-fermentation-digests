@@ -1,0 +1,1407 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id AAA16404
+        for <spencer`at`srvr5.engin.umich.edu>; Wed, 28 Jan 1998 00:49:20 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+        by srvr22.engin.umich.edu (8.8.7/8.8.7) with ESMTP id AAA08059
+        for <spencer`at`engin.umich.edu>; Wed, 28 Jan 1998 00:49:18 -0500 (EST)
+Received: (from root`at`localhost)
+        by redheat.rs.itd.umich.edu (8.8.5/2.5) with X.500 id AAA21480; Wed, 28 Jan 1998 00:49:17 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by redheat.rs.itd.umich.edu (8.8.5/2.5) with ESMTP id AAA21455; Wed, 28 Jan 1998 00:49:10 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA28247 for realhomebrew; Wed, 28 Jan 1998 00:32:04 -0500
+Date: Wed, 28 Jan 1998 00:32:04 -0500
+Message-Id: <199801280532.AAA28247`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2621 (January 28, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2621                             Wed 28 January 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Decoction mashing (michael w bardallis)
+  homebrew cooking - bottom-dweller pasta (smurman)
+  re: recapping twistoffs ("David Blaine")
+  maple beer update ("David Blaine")
+  underletting (Keith Menefy)
+  oxidized starter wort (Alex Santic)
+  runoff rate (Al Korzonas)
+  Step Mashing (Jack Schmidling)
+  Pellet&Whole Hop Utilisation/Lauter Rates (Charlie Scandrett)
+  Re: Upping Heating Efficiency (Jim Wallace)
+  re: cleaning copper manifold (Lou Heavner)
+  JSP Maltmill (non-adjustable) (Mark Arneson)
+  The Jethro Gump Report ("Rob Moline")
+  step mashing/no whirlpool/mashout (smurman)
+  Re: Propane and propane accesories (Jim Graham)
+  BrewMagic in Dallas Area (aquinn)
+  Brewing opportunities in South America ("Pagliere, Alan")
+  Re: Brewtek Saison (Jim Wallace)
+  Dry Hopping (JGORMAN)
+  Amsterdam visit ("David R. Burley")
+  HSA; When? (THaby)
+  Easy fix for Sabco false bottoms (216) 397-4352" <SHICK`at`JCVAXA.jcu.edu>
+  Competition posts (Jeff Renner)
+  Re: Storing beer yeasts and sourdough starters in same refrigerator ("Tim Wauters")
+
+
+
+
+Be sure to enter the...
+The Best of Brooklyn Homebrew Competition
+Brooklyn Brewery, Brooklyn, NY
+Entries due by 1/31/98, competition 2/7/98
+Contact Bob Weyersberg at triage`at`wfmu.org for more info.
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`realbeer.com
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 24 Jan 1998 11:31:36 -0500
+From: dbgrowler`at`juno.com (michael w bardallis)
+Subject: Decoction mashing
+
+
+Mike,
+
+
+I do a fair amount of decoction mashing this time of year (tis the
+season), and for what it's worth, the guidelines, calculations, and
+formulas only go so far. There are a lot of variables to the process:
+basic ones such as mash thickness, and harder-to-estimate/calculate ones
+like R-value of your vessels and heat loss during transfer (these being
+particular to your process/setup). Calculations go in the toilet as soon
+as you make an unscheduled infusion to adjust temp (and you will). For
+example, not only has total volume increased, but also mash thickness,
+and subsequently specific heat of your decoct, susequently AARGH!
+Hopefully, you have some decent notes from your first attempt. Using
+these as the basis for planning your next batch, make adjustments to your
+decoction volumes. Mashing in thick is a good idea, since you _will_ be
+diluting it with infusions over the course of the mash. Keeping a
+cauldron of boiling water on hand for quick temp corrections is
+definitely recommended, but practice, practice, practice is the most
+important advice I can give. Another important thing to keep in mind is
+that no matter how things go on brew day, you always get beer. It may not
+turn out exactly as intended, but it'll probably be pretty good, just the
+same.
+
+
+BTW, they mean 1/3 by volume, and it's not a bad starting point.
+
+
+Mike Bardallis
+Allen Park, MI
+
+
+That's all very well in practice; but will it work in theory?
+    ---Ken Willing
+
+
+------------------------------
+
+
+Date: Sat, 24 Jan 1998 10:44:00 -0800
+From: smurman`at`best.com
+Subject: homebrew cooking - bottom-dweller pasta
+
+
+
+
+This is another recipe using the deglazing technique, and it also uses
+relatively cheap ingredients to encourage experimentation.  This
+recipe also has a higher "foo-foo factor" than previous ones I've
+posted.  It could easily be served in any $15/plate restaurant.
+
+
+Start with
+1/4-1/2 lb. medium prawns
+1/4-1/2 lb. sea scallops (bay scallops are ok, but the larger sea
+                          scallops are preferred)
+
+
+Peal, de-vein, and wash the prawns.  Heat (medium, to medium-high) in
+a pan some olive oil, salt, and pepper.  Add the prawns and scallops,
+and cook them thoroughly, about 5-10 minutes.  You may see a lot of
+liquid form, especially if you've gotten previously frozen scallops.
+Just carefully drain the water and continue cooking.  We're going to
+make our own sauce and don't want to include a lot of old
+scallop-water.  Remove the prawns and scallops from the pan, and set
+aside.  This is a good time to add your pasta to the boiling water
+(you did remember to start some boiling water, didn't you?).
+
+
+Add to the pan,
+1 clove garlic - diced
+1 small shallot - diced
+1-2 small, hot chile peppers - diced (Thai or Serrano would be good
+                                      choices)
+
+
+Cook the garlic, etc. until it caramelizes.  Add about 4 oz. of beer,
+and scrape the bottom of the pan to loosen any crusties.  I used an
+overcarbonated steam beer (again), and that's about as dark a beer as
+I'd use.  Hoppy beers would probably work best; IPA's, APA's, and the
+like. 
+
+
+Cook this down until it's reduced by at least half, then add 1-2
+tbsp. of butter.  Do not use margarine!!  Margarine is the devil's
+tool.  Add the butter in small chunks, so that it melts easier, and
+stir it into the sauce.  Add the prawns and scallops back into the
+pan, and heat them back up, coating them with the sauce.  You're done.
+
+
+Mix the sauce with the pasta.  Linguini or fettucini or any
+medium-noodle pasta works well.  Serve in a pasta bowl with bread for
+mopping up any extra sauce (or mopping your brow if you added too many
+chile peppers).  Serves two.
+
+
+Buon appetito.
+
+
+SM
+
+
+
+
+------------------------------
+
+
+Date: Sat, 24 Jan 1998 14:53:07 -0500
+From: "David Blaine" <i.brew2`at`usa.net>
+Subject: re: recapping twistoffs
+
+
+I received almost a dozen responses and several wanted me to reply with =
+the results.  Rather than answer each individual I wanted to post back =
+here that many people do use twist off bottles.  They are not as heavy =
+duty as flip tops, but if you are giving the brew as gifts, going on a =
+trip, or have some other reason that precludes getting the bottles back, =
+it is a good alternative.  There are special caps made for twist offs, =
+they are thinner and fit to the neck easier.  You cannot twist these off =
+when opening, you need an opener.  Some bottles break, so there is a =
+degree of risk and/or waste.  Apparently these caps are common in =
+Canada.  I contacted my usual mail order source in Indiana, The Gourmet =
+Brewer, and Dave Bartz said he has them in 5 gross lots for $1.50 a =
+gross.  Thats a ton of caps, but I guess you could use them on your =
+regular bottles too.  One other consideration is that the seals are =
+possibly not as tight as your used to, so I wouldn't suggest doing this =
+with a Russian Imperial Stout or something you want to keep arround a =
+long time.  Last point to make is that a bench capper is almost =
+required.  All respondants reported crappy results with wing type =
+cappers.  Owning two different bench cappers, I'm all set!  Ciao! and =
+Great Brewing
+Dave Blaine in Deckerville Michigan
+"I deny having any sexual relationship with Bill Clinton, and I have not =
+been asked to lie about it"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 24 Jan 1998 15:00:25 -0500
+From: "David Blaine" <i.brew2`at`usa.net>
+Subject: maple beer update
+
+
+I am overdue in this post, but I am just now experiencing something =
+worth reporting at the same time that I have read an explanation.  I =
+reported back in November that I had brewed a batch of porter from a kit =
+and added one quart of maple syrup.  I bottled this at an appaling FG of =
+1.030.  I was warned about bottle bombs etc.  That was early to mid =
+November.  I am just now starting to get some slow gushers when I open =
+the brew.  The kind where when you pop the bottle and go get a glass =
+when you come back it is just starting to foam over the mouth of the =
+bottle.  Brew Your Own has an article in the current issue =
+(http://byo.com) about brewing with sugar and they report that Maple =
+ferments out so slowly that you may need to add more yeast in the =
+secondary and condition before botteling.  NOW they tell me!!!
+Brew is good but sweet, I cut it 50/50 with PBR (skip the flames) and it =
+is quite drinkable, albeit a tad overcarbonated for a porter.  Overall =
+the cut beer tastes like the Michelob Maple Ale on the market this =
+winter.  I guess that the bottles could eventualy explode if left long =
+term, but I expect they will be empty by the end of February, so I will =
+never get to know ,:-)
+Good Brewing,
+Dave Blaine in Deckerville Michigan
+I.brew2`at`usa.net=20
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Jan 1998 09:29:16 +1300
+From: Keith Menefy <kmenefy`at`ihug.co.nz>
+Subject: underletting
+
+
+G'day
+I am suprised/curious as to why there has been no comment on Dave Hopf's
+post on kettle mashing. In it he has a very reasonable piece on boiling
+grain. I had got the impression from the HBD that this was a BIG no-no.
+Yet the response has been a deafening silence. Curious
+
+
+Now the real reason for this post.
+I recently completed my first all grain brew. With all the hassle of
+temp control, carrying containers of hot liquid, starting siphons, and
+having them stop, probably as much HSA (hot side aeration) as one can
+possibly get, and other little problems there seemed to be an
+unreasonable amount of swearing going on.
+I have decided that a pump is the cure for it all.
+The question - Is underletting (feeding the liquid into the bottom of
+the grain bed.) the grain with the hot liquid a better system than
+inletting from the top?  I have done a search on the subject and got
+what I feel is an odd result. The general consensus from just a few
+responses is that it is a better system and yet all the systems I have
+checked on the net are the opposite. I think that with underletting
+there would be no need to stir the grain, the water moving upward should
+keep it moving. There would be no need to restrict the flow of the pump
+at all. It should be easier to control the temperature with the water
+moving faster and there should very little variation of temp in the
+grain itself. A deeper grain bed should be ok. It would be very easy to
+finish it with boiling water through the mash.
+All replies welcome.
+
+
+Cheers 
+   Keith Menefy                     Hukerenui                   New
+Zealand
+
+
+------------------------------
+
+
+Date: Sat, 24 Jan 1998 15:33:58 -0500
+From: Alex Santic <alex`at`brainlink.com>
+Subject: oxidized starter wort
+
+
+Let's say I prepare one liter of starter wort. Rather than pitching at the 
+moment of high krausen, say I let the starter yeast ferment a little while 
+longer and build up glycogen reserves. I then pitch the starter, which is 
+well along to becoming beer,  into oxygenated wort and voila! I now 
+effectively have a proportion of completely oxidized beer in my wort.
+
+
+Perhaps it's not a *major* factor in the flavor of the beer, but HBD is the 
+place to split hairs and this hair seems good as any for dissection. 
+Obviously, even the most accepted homebrewing techniques can be 
+sub-optimal, and unless I'm missing something this seems to be an example.
+
+
+If we want to get to the heart of the problem, it's that (unlike in 
+commercial practice) homebrewers like to use a wide variety of yeast 
+strains. It's inconvenient to arrange for 2 or 3 contiguous batches to be 
+fermented with the same strain. If there were a way to treat the primary 
+yeast cake from a fermentation such that it could be stored frozen for 3 to 
+6 months at a high level of viability, it would be one of the great 
+advances in the quality, ease and economy of homebrewing.
+
+
+Alex Santic
+NYC
+
+
+
+
+------------------------------
+
+
+Date: Sat, 24 Jan 1998 17:08:44 -0600 (CST)
+From: Al Korzonas <korz`at`xnet.com>
+Subject: runoff rate
+
+
+Darryl Richman send me private email regarding the runoff rate issue.
+
+
+He says it's documented in his book, "Bock" on pages 92-94.  He told me
+the Germans recommend a flow rate of about 0.2-0.33 gal./min, per square
+foot of surface area in a traditional mash tun.
+
+
+So, calculate the square footage of your surface area (don't forget
+that it's *radius* not diameter, like I've done in the past):
+
+
+PI * r^2 (i.e. about 3.14 times the radius squared)
+
+
+
+
+I'd like to reiterate that I feel better tun designs allow for faster
+runoff with little loss whereas tuns in which the runnings are taken
+from a small area need you to run off at a relatively slow rate to
+give the sugars a chance to diffuse from the areas of stagnant wort
+into the runnings.
+
+
+
+
+
+
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`xnet.com
+
+
+My new website (still under construction, but up-and-running):
+     http://www.brewinfo.com/brewinfo/
+
+
+------------------------------
+
+
+Date: Sat, 24 Jan 1998 21:16:30 -0800
+From: Jack Schmidling <arf`at`mc.net>
+Subject: Step Mashing
+
+
+From: GuyG4 <GuyG4`at`aol.com>
+Subject: In Defense of Step Mashing
+
+
+"Commercial breweries don't do this we are told.  I don't know, but 
+Noonan, in Appendix C (I think) of Brewing Lager Beer, disputes this.
+He claims most micros step mash....
+
+
+Keep in mind that Noonan's book is now 12 years old and if it
+was representative than, it means little now.
+
+
+I suspect that is most untrue now for all the reasons that we
+have had this thread going.  It is simply easier and cheaper to
+make beer and tool up for infusion mashing than step mashing.
+
+
+One can argue about the merits of step mashing but the micros
+chose the other approach for cost reasons, not because it makes
+better beer.
+
+
+Insulated coolers are popular because they are easier to deal with,
+not because they make better beer.
+
+
+js
+
+
+
+
+
+
+- -- 
+Visit our WEB pages: 
+                        Beer Stuff.........  http://ays.net/jsp
+                        Astronomy.......  http://user.mc.net/arf
+             ASTROPHOTO OF THE WEEK..... New Every Monday
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Jan 1998 23:19:58 +1000
+From: Charlie Scandrett <merino`at`squirrel.com.au>
+Subject: Pellet&Whole Hop Utilisation/Lauter Rates
+
+
+Hop pellets (Type 90) have their lupulin glands crushed thus losing the
+limited protection of that membrane, making them more prone to oxidation
+than whole hops. However if the processor keeps the processing temp below
+55C and packs O2 free as soon as possible after processing, they are a
+superior natural product. Their higher utilisation is due to the more rapid
+solubility of Alpha Acids from the crushed hop, allowing these acids more
+time to be isomerised in the boil. Isomerised Alpha Acid is the bitterness
+from hops.
+
+
+There is a brewer's convention that Type 90 hop pellets have about 10%
+higher utilization than whole hops. It is a bit more complex than that.
+At 10P the pellets are slightly less than 10% higher in yield.
+At 12.5P pellets are about 33% higher utilisation than whole hops.
+At 15P pellets are about 57% higher in utilisation.
+
+
+>From 10 to 15P, whole hop utilisation will fall from typically 31% to 17%.
+>From 10 to 15P Type 90 pellet utilisation will fall from about 33% to 27%
+This is one good reason commercial brewers use pellets, less roulette.
+
+
+But just when you thought it was safe to get back into the wort, these
+factors also affect utilisation.
+a) decoction mashing and extended mashout reduces hot break in the kettle,
+increasing utilisation.
+b) wort gravity. (see above)
+c) time ( anything under an hour is harder to predict, continues slowly up
+to 2.5 hours)
+d) turbulence of the boil, more means more utilisation (up to 5% difference).
+e) pH: high pH favours solubility of alpha acids, reducing pH from 5.8 to
+5.4 can knock about 12% of your utilisation.
+f)A higher ratio of Cohumulone to Humulone/Adhumulone in your hop species
+gives higher utilisation.
+f) Isomerised Alpha acids are surface active compounds, i.e they like
+bubbles and colloids. As Al K's "Brewing Techniques" experiment proves, and
+the European Brewery Convention confirms, fermenter blowoff of foam reduces
+bitterness.
+g) Lagering causes precipitation of haze forming colloidal material, and
+with it Isomerised Alpha Acids, reducing bitterness.
+
+
+The more I learn about hops, the more I realise that shooting for a
+particular IBU number has less chance than a teenager feeling around in the
+dark. Good luck and be careful.
+
+
+- ----------------------------------------------------------------------------
+- ---------
+Al Korzonas posted
+>In The Biotechnology of Malting and Brewing, Hough says that due to
+>entrained air, infusion mashes are more bouyant than decoction mashes.
+>He says it's why decoction mashes require rakes to be run during runoff.
+>Perhaps that's why infusion mashes can support much deeper grain
+>bed depths?  I'm just speculating in this paragraph... comments?
+
+
+You are not speculating, you are remembering your de Clerk!. (Brewer's
+collective unconscious, any Jungians out there?) Also an infusion mash
+produces a lot more hot break in the kettle than a decoction mash. This is
+because there is a lot of hot break already formed in a decoction mash grain
+bed and less turns up in the kettle. Trooob gooos things up and thus
+decocters have to use a shallower bed. 
+The ideal flow rate is in the order of 9 to 15mm per minute for *sparge
+flow*. This is necessary because a) The water needs time to penetrate and
+leach extract from *within* particles. This is obviously going to be slower
+than the rate of washing extract from *between* particles. b) The less dense
+sparge water gives less bouyancy to the bed and it tends to compact more
+easily - sticking problems.
+You can collect the first runnings somewhat faster (up to 25mm/min) if you
+have a tube manometer to warn  you of high bed suction that might lead to
+sticking of the lauter.
+
+
+
+
+Charlie (Brisbane, Australia)
+
+
+A Textbook of Brewing-Jean de Klerk Vol 1
+Brewing- Lewis and Young
+Hops and Hop Products (A Manual of Good Practice)-European Brewery Convention
+Manual of Malting und Brewing-Kunze
+Malting and Brewing Science- Briggs etc
+
+
+
+
+------------------------------
+
+
+Date: Sat, 24 Jan 1998 17:52:02 -0500
+From: Jim Wallace <jwallace`at`crocker.com>
+Subject: Re: Upping Heating Efficiency
+
+
+ ...........From: "Tkach, Christopher" <tkach`at`ctron.com>..............
+w/ achieving a nice rolling boil because I'm now trying
+to boil 6-7 gallons instead of the 4-4.5 gallons that I
+
+
+resulted in lower OGs and more wort than I know what to
+do with.  This was quite evident Saturday when I tried to
+make an Imperial Stout, but ended up w/ 7gal of wort (after
+a 90min boil), about 10 pts lower than expected.  My mash
+efficiency wasn't off, which means that the lower OG is due
+to the fact that I had more wort than expected (7gal vs
+5.5gal).
+ ............................................................................
+ ...............................
+I see no problem here... next time just reduce the Wort to Boil from 7 down
+to 5.5-6.25 and your OG to ferment will be accordingly higher... I collect
+7 Gal max but use a STRONG rolling boil for the full 90 min. OR use more grain
+
+
+___________________________________________
+    JIM WALLACE ... jwallace`at`crocker.com
+      http://www.crocker.com/~jwallace  
+___________________________________________
+
+
+------------------------------
+
+
+Date: Sun, 25 Jan 1998 14:34:42 -0600
+From: lheavner`at`tcmail.frco.com (Lou Heavner)
+Subject: re: cleaning copper manifold
+
+
+     From: "Bryan L. Gros" <gros`at`bigfoot.com>
+     
+     >I've got a circular copper manifold in the bottom of my boiling
+     >kettle (1/2 barrel keg).  I've got slits cut in the manifold every
+     >inch or so on the bottom, and the thing rests nearly on the
+     >bottom of the kettle.
+     
+     >It's been working great for several years, but the last six
+     >months or so, I've been having trouble getting the wort
+     >to drain.  Espeically when I've got a lot of hops, it seems
+     >the manifold gets plugged up.
+     
+     >Looking in the slits, it seems like there's a fair amount of
+     >hop/beer crud in the tubing.  Is there anyway I can clean
+     >this out?  Acid? Base?  Any suggestions?
+     
+     Hi Bryan,
+     
+     Could you cut the manifold into a few pieces and mechanically clean 
+     them with a bottle brush or a scotch brite "patch" like cleaning a gun 
+     barrel?  Afterwards, reconnect the pieces with some copper joints.  No 
+     need to solder.  As long as they don't come apart during use, any 
+     leakage will be no different than your slits allow.
+     
+     Cheers!
+     
+     Lou
+
+
+------------------------------
+
+
+Date: Sun, 25 Jan 1998 23:56:28 -0500
+From: Mark Arneson <marnes`at`hom.net>
+Subject: JSP Maltmill (non-adjustable)
+
+
+Hi all, 
+
+
+I got a JSP non-adjustable maltmill for X-mas and I just broke it in this
+weekend.
+(non-adjustable because it was recommended)
+
+
+I used 2-row pale malt grain and found that I had quite a bit of "flour".
+
+
+What is the JSP pre-adjusted for?
+I assumed it was 2-row.  Unfortunately, I don't have any experience with
+crushing
+grain so....maybe this is normal.  
+
+
+I use to use pre-crushed Bries grain and the kernels seemed to be a little
+larger
+then when I crush my own.
+
+
+Thanks for any advice.
+
+
+Mark Arneson
+Macon, GA
+marnes`at`bigfoot.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Jan 1998 23:30:20 -0600
+From: "Rob Moline" <brewer`at`ames.net>
+Subject: The Jethro Gump Report
+
+
+                 The Jethro Gump Report
+ 
+ >From: Jim Wallace <jwallace`at`crocker.com>
+ >Subject: Re: Can mash efficiency be over 90%?
+ 
+         Yes, and quite often are in commercial settings that employ mash filter
+ presses. But, this apparent measure must be qualified by the 
+ values given for efficiency by the maltster. These are often quantified by
+ such methods as the "Congress Mash," and other 'defined' measures. The
+term
+ that best defines any efficiency is described by the same measure of
+ efficiency for "Brewing Materials Efficiency,"
+                         BME % = What you got/ What You Could Have Had x 100
+ 
+         It was also stressed `at` Siebel that, even in terms of packaging house
+ efficiency,  numbers often don't tell the whole truth. Indeed, when
+certain
+ folks are told, "You will hit this number, in this time, with this number
+ of personnel," that 'fudging occurs, allowing that individual to
+ report, "Yes, we hit those targets," when in fact they did, but huge
+wastes
+ were otherwise occurring.
+ 
+ >From: stealth <stealth`at`swlink.net>
+ >Subject: brewing & Submarines
+ >  The simple answer is yes you can brew on a submarine. :)
+ >the largest problem to overcome is that all the air is recirculated and
+ the
+ >"Brewery Aroma" quickly premeates the entire boat.  :(
+ 
+         Now, here is a diversion I would love to hear more about!! This post from
+ <stealth> would seem to imply that there have been some attempts, perhaps
+ illicit, to brew `at` some depth? Please tell us more! Even just as stories
+ that "may have occurred."
+  
+ >From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+ >Subject: Licorice.
+ >Eric Fouch notices a licorice/anise flavor in his new brew.  =
+ >I suspect this is due to the amount/type of hops you used. =
+ 
+         I suspect this is an ester.
+ 
+ >From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+ >Subject: New Wort Boiling Method
+ >He described a "greener" wort boiling
+ >method.  
+ >2) In stage two, the volatile compounds are eliminated in a wort
+ >stripping column.  
+ 
+         Nothing new here, except perhaps the new readers. 
+ 
+> From: Kelly Jones <kejones`at`ptdcs2.intel.com>
+> Subject: Re: Optimum Mash Grain Depth
+> George Danz in HBD #2613 asks:
+>>What is a
+>>good guideline for ratio of grain depth to tun diameter?
+ > Why does anyone suppose that the RATIO of depth to diameter has any
+ >bearing on the mechanics of sparging?  The important parameter is
+ >DEPTH.  .
+
+
+        Paul Smith, Instructor `at` Siebel, in his notes, states, "Maximum bed
+thickness-15.8 inches. Ideal -13.8 inches. Use of adjuncts will affect
+this, (SNIP)  .....Dry milling-35 lb/sq.ft.. Conditioned dry milling-43
+lb/sq/ft. Steep conditioned milling- 53 lb/sq/ft. Reduce by 15% -25% to
+achieve 10 brews/day."
+        Of course, this is for commercial large scale practice. I know of a fella
+that has done well in a BP with thicknesses of up to 3 feet!
+ 
+ >From: Dan Cole <dcole`at`roanoke.infi.net>
+ >Subject: Lower efficiency for high-gravity beers?
+ >Has anyone (besides me) experienced significantly lower extract
+ >efficiencies for "big beers". 
+ 
+         I have, but equated it with the generally low efficiencies encountered on
+ the brewhouse I previously worked in. Now that you mention it, my
+ Barleywines were notoriously low in efficiency. But, them's the breaks, I
+ said, it still produced a decent beer. Maybe others would like to quantify
+ it?
+ 
+ >From: "PARKER,Myles" <myles.parker`at`deetya.gov.au>
+ >Subject: RE: more about labels
+ >I second Mark's comment about the UHU glue stick. I have always used them
+ and
+ >found the glue to be easy to apply and to remove.
+ 
+         And I will 'third' it. For the homebrewer, this is the simplest way, if
+ not only way to go. Cheap and efficient.
+ 
+ >From: GuyG4 <GuyG4`at`aol.com>
+ >Subject: In Defense of Step Mashing
+ >Much has been written of late, by many whose posts are met with respect
+ and
+ >awe by those of us general hobbyists, about the uselessness of step
+ mashing,
+ >and the clear superiority of the infusion mash technique.  
+ 
+         My .02.......and this will remain my viewpoint, despite any attempts to
+ prove what is already known, that I am neither a chemist, nor a diploma'd
+ brewmaster.........
+         Decoction is dead....it's usefullness is purely inherent in 'historical'
+ and 'tradition for tradition's sakes' brewing.. It's use as a means to
+ utilize unmalted cereals, AND to raise the main mash temps is no longer
+ necessary, due to "modern" barley characteristics, "modern" methods of
+ malting, and "modern" materials that allow raises in temp without burning
+the vessel.
+         Infusion mashing is suitable and the preferred method, in the absence of
+ 'cereals', and/or malted/flaked rye/wheat/oats.
+         Step infusion is the method of choice for those that have the capability
+ to do so. Not everybody does.
+        This does not mean that one cannot achieve great brews with decoction,
+merely that IMHO, there is no need to do so.
+        Just my .02. 
+ 
+> From: "John Robinson" <robinson`at`novalistech.com>
+> Subject: Covering the boil
+>What is the general consensus on a partially 
+> covered boil?  I know that the compounds that form DMS come together 
+> as that in the boil and get driven off by the steam.  My question is, 
+> if the boiler is partially covered and condensation forms on the lid 
+> (it always does) does that condensate contain high levels of DMS?  
+> High enough to cross the flavour threshold?
+> I suspose I could always taste it. :) 
+
+
+        This was also covered `at` school, and in practice I have seen this prob in
+brewpubs that employ a condensing unit on the steam stack from the boiler,
+as an alternative to having to pierce the roof of the pub. 
+        One should try to achieve an 8% reduction in kettle volume to allow for
+volatile reductions. And something that was mentioned there that John
+mentioned, and of course, being far from the brightest lad on the block,
+never occurred to me, but makes a bunch of sense, "Taste" the condensate.
+Mr. Smiith stated that once you have tasted these condensates and thier
+contained volatiles, you will take all possible steps to ensure their
+removal.
+
+
+> From: "Bryan L. Gros" <gros`at`bigfoot.com>
+> Subject: cleaning copper manifold
+> I've got a circular copper manifold in the bottom of my boiling
+> kettle (1/2 barrel keg). 
+> Looking in the slits, it seems like there's a fair amount of
+> hop/beer crud in the tubing.  Is there anyway I can clean
+> this out?  Acid? Base?  Any suggestions?
+
+
+        P.B.W.
+ 
+> From: Kyle Druey <druey`at`ibm.net>
+> Subject: 3 rad/s?  /  Carbonating Bavarian Weissbier
+> Brew Dudes:
+> John Wilkinson:
+>>to exceed 188 rpm to reach 3 meters/second tip speed.  That sounds
+>>pretty fast and I don't think I exceeded that.
+ 
+         I do hope that all realize that the 3m/sec speed was for a commercial
+setting, where the width of vessels can be up to 60 feet. The point is that
+for any system there are limits to what one can achieve with mixing without
+creating undesired negative effects. Including vortexing oxygen in, there
+are other considerations....
+        "Excessive mash mix speed can dis-associate beta glucans, leading to
+lautering problems. It can also lead to "curling' of proteins around,
+containing starches and preventing good extraction,".......... Paul Smith
+ 
+ Jethro (Commencing as an Assistant Brewer `at` a Local BP) Gump
+
+
+P.S. Congratulations to all my friends in Colorado, celebrating a fine win
+by the Bronco's, in a great game!
+
+
+ Rob Moline
+ Brewer At Large
+ brewer`at`ames.net
+ Ames, Iowa.
+ 
+ "The More I Know About Beer, The More I Realize I Need To Know More About
+Beer!"
+
+
+------------------------------
+
+
+Date: Sun, 25 Jan 1998 22:29:16 -0800
+From: smurman`at`best.com
+Subject: step mashing/no whirlpool/mashout
+
+
+
+
+
+
+Regarding the step mashing vs. infusion thread.  I've been reading
+that some don't consider adding boiling water to reach the next
+rest temperature step mashing, but rather a form of infusion
+mashing.   Huh?  Maybe I just never learned the correct terminology,
+but I'm pretty sure the enzymes don't discriminate based upon the
+source of the thermal energy addition.  To my mind step mashing is
+going from temperature to temperature, whether you use steam, boiling
+water, fire, or superheated rocks to get there.  
+
+
+//
+
+
+Whirlpooling is often touted as the best method to remove the most
+hops and break material from wort.  With my system, this would
+actually be the worst method.  I use a ring siphon around the outside
+bottom of my brew kettle.  In this case what I would really desire is
+an anti-whirlpool.  The hops that lie on the ring siphon form the
+filter bed for removing the break material.  If I were to whirlpool,
+all of my hops would end up in the center of my kettle, and all of the
+break material still in suspension with the Irish moss would end up in
+my fermenter.
+
+
+I'm not trying to be a pain, but I wanted to point out that you need
+to use techniques that work for *your* brew set-up.  Everybody's
+system is different in some way.  What's really important is to
+understand the purpose of each step, then you can understand how best
+to work it into your brew regimen.  <dismount soapbox>
+
+
+//
+
+
+I've read many times on this forum that a mashout step (raising the
+mash temp to around 165F before sparging) will improve the efficiency.
+I do use a mashout step, but I don't do it for reasons of efficiency,
+and I'm having a hard time understanding how a mashout step can affect
+efficiency in any way, provided you've done everything else correctly.
+
+
+My understanding is that a mashout to 165F is primarily to denature
+the beta-amylase enzyme so that it won't continue chewing up your
+beers body while you perform an hour long sparge.  How does it effect
+efficiency?  If anything it should reduce the efficiency.
+
+
+SM
+(somewhere, over the rainbow...)
+
+
+------------------------------
+
+
+Date: Mon, 26 Jan 1998 04:36:18 -0600
+From: Jim Graham <jim`at`n5ial.gnt.com>
+Subject: Re: Propane and propane accesories
+
+
+In HBD #2619, From: "Roger Grow" <grow`at`sumatra.mcae.stortek.com> writes:
+
+
+> Randy in Modesto is (rightfully so) concerned about the new propane
+> regulations that take effect this year. He is right, a new valve costs
+> more than a new tank
+  [....]
+> New valves are downward compatible with old
+> regulators (left hand female threaded regulators - wrench tightened ) but
+> new regulators (male threaded that are hand tightened) will not work on
+> old tanks. One of the big reasons for the change is the fact that the new
+> valves won't let propane out unless a regulator (or hose, etc) has been
+> connected.
+
+
+Sorry for the long quote, but that description is important....
+
+
+I bought a second propane tank around 17 Jan from the local Lowes, and
+paid $20 for the tank (followed by $10 for propane down the street).
+It mentioned having a new-style valve, and the description of the valve
+exactly fits the one above, including the bit about not letting propane
+flow w/o a positive seal.  So either Lowes just hasn't bothered to raise
+the prices yet, or the new tanks aren't going to be so painful after all.
+
+
+Now, to make things more interesting, we just got a Home Depot store.
+I see some big price wars coming.....
+
+
+Btw, while I'm here and mentioning Lowes, I built a counterflow wort
+chiller for less than $20.  I originally used copper tubing that was
+too small (oops!), so had to yank it out and re-do it with 3/8" copper
+tubing (20' for $8.50).  5.5 gallons from boiling to around 65 deg. F
+to 70 deg. F (current tap water temperature) in 15 minutes or less....
+
+
+Later,
+   --jim
+
+
+- -- 
+73 DE N5IAL (/4)               MiSTie #49997         < Running Linux 2.0.21 >
+jim`at`n5ial.gnt.net || j.graham`at`ieee.org  ICBM / Hurricane: 30.39735N 86.60439W
+
+
+          ===  Do not look into waveguide with remaining eye  ===
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jan 1998 06:35:02 +0000
+From: aquinn`at`postoffice.worldnet.att.net
+Subject: BrewMagic in Dallas Area
+
+
+Hi all
+
+
+Is there anyone in the Dallas/ Forth Worth area using SABCO's 
+BrewMagic System that would be willing to let me take a peek at it?
+Thanks in advance.  Private e-mail fine.
+
+
+Tony
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jan 1998 07:50:56 -0500
+From: "Pagliere, Alan" <apagliere`at`umi.com>
+Subject: Brewing opportunities in South America
+
+
+Dated Material   ****************  Act quickly
+
+
+        I have been in contact with Jesse Morrison, my good friend and
+ex-fellow-brewer. He is currently a "Maestro Cervecero", a Head Brewer,
+in fact the head brewer in the first brew pub in Colombia. What a gig,
+eh? The place is called Palos de Moguer and is located in Cali,
+Colombia.
+        Anyway, the owner of the place is planning, very seriously planning, to
+expand; opening brewpubs (I don't know if micros are in the plan) in
+other South American countries. Brazil has been mentioned and I hear
+tell of Argentina and there are no doubt other places, as yet unknown to
+me, in the works.
+        Jesse has a request from his boss, the owner, to get 20 resumes of
+potential brewers asap.  I therefore am requesting anyone among you that
+might have a hankering to practice their Spanish (or Portuguese if in
+Brazil) while brewing professionally, to get a resume together and fax
+it down to Colombia.
+        If you yourself are not interested, perhaps someone you know may be.
+
+
+        The vital info:
+
+
+        Brewpub:        Palos de Moguer
+        Owner:         Berny Silberwasser
+        Head Brewer:Jesse Morrison (my friend and ex-fellow-brewer)
+        Address:        Avenida 6A / Norte
+                        No. 22-26
+                        Cali, Colombia
+                        South America
+        Mailing Address:
+                        Jesse Morrison
+                        CD 5015
+                        P.O. Box 02-5242
+                        Miami, FL        33102-5242
+        Tel (from US):
+                        011-572-660-2840
+        Fax:                011-572-661-3366
+        e-mail:        colon`at`colombianet.net
+
+
+        The address:
+
+
+- ------------------------------------------------------
+                  Alan Pagliere
+                pagliere`at`umich.edu
+        http://www-personal.umich.edu/~pagliere/
+- ------------------------------------------------------
+  Give a man a beer and he will waste an hour;
+  teach a man to brew and he will waste a lifetime.
+    --- unknown
+- ------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Jan 1998 09:54:37 -0500
+From: Jim Wallace <jwallace`at`crocker.com>
+Subject: Re: Brewtek Saison
+
+
+- -------From: Keith Busby <kbusby`at`ou.edu>-------------
+Does anyone have recent experience with Brewtek CL-380 Saison yeast? After
+mighty flocculation and a decent impersonation of a maelstrom, the head on
+my Saturday Grand Cru batch rose so much that I have to put a blow-off tube
+on a 6.5 gal. carboy. Grain bill was the usual pilsner, small amounts of
+biscuit, aromatic, carapils, and amber candi sugar. Pitched 1 liter starter
+into 5.5 gal of OG 1.074. Temp. about 68F. Is this yeast notorious for such
+behavior? Do we know its origin? Dupont? Regal?
+- --------------------------------------------------------
+I have used the 380 and yes it is very active and you need to leave a lot
+of headspace and even then be prepared with a blowoff tube. My last batch
+with 380 was a comparison to the Dupont yeast I captured and saved to
+slant... The 380 was a much richer/fuller flavor than the dupont yeast.
+Brewers Resource is very secretive about their sources.
+___________________________________________
+    JIM WALLACE ... jwallace`at`crocker.com
+      http://www.crocker.com/~jwallace  
+___________________________________________
+
+
+------------------------------
+
+
+Date: 26 Jan 1998 08:56:35 -0500
+From: JGORMAN`at`steelcase.com
+Subject: Dry Hopping
+
+
+
+
+I am interested in trying to dry hop some beer.  I have heard 2 stories on
+this. (1)It is OK to dry hop in the secondary and in individual bottles and
+(2)dry hopping should never be done in bottles, only in the fermenter.  If
+there is someone out there that has done either or both, please shed some
+light.
+
+
+------------------------------
+
+
+Date: Mon, 26 Jan 1998 10:11:33 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Amsterdam visit
+
+
+Brewsters:
+
+
+Fred Waltman is taking a trip to Amsterdam with a non-drinking
+SO and wants some advice on what to do.  I zapped his address
+before I could send him this privately, so here it is in time for your =
+
+
+trip, I hope:
+
+
+Fred,
+
+
+Don't miss the Rijksmuseum.  Take a canal trip. Cook's can arrange
+bus and train tours if you don't want to do it yourself. Lots of very
+good restaurants, in some cases the price doesn't match the food,
+so ask around. Have coffee and pastry sweets for breakfast or
+mid-morning coffee. If you like chocolate you've come to the right place.=
+
+
+Chocolate sprinkles on everything. Or if you are staying in a Dutch
+hotel in which breakfast is part of the deal, eat cold lunchmeats,
+hardboiled eggs, runny yoghurt for breakfast to get the real
+Dutch experience.
+
+
+ Be sure to try Indonesian food while you are
+there. That little dish about the size of a silver dollar that contains
+that dark red sauce ( sambal) can be brutally hot/spicy.
+Downtown there are lots of excellent international restaurants.
+Don't miss the Argentinian restaurant where you will get your fill
+of excellent grilled meat. French restaurants and what I would
+call Continental restaurants abound. Generally very good. Don't
+miss the opportunity to try Genever ( pronouced yuh nay' ver) =
+
+
+ - especially Junge Genever ( yoong yuh nay' ver)  This is a =
+
+
+Dutch Style gin drunk straight. Of course, drink the Dutch beers.
+You will be pleasantly surprised by the great taste and body.
+
+
+Have fun and nearly everyone speaks English, so you'll do great.
+Near the train station is a flower market as I recall,so go have a look
+early in the AM.
+
+
+Amsterdam is pretty safe as far as I know, but there is a significant
+drug problem as they allow marijuana and this has drawn a class of
+people to the main drag in Amsterdam near the train station that
+aren't the best. I have never seen any problem with violence or
+robbery, however.  If you care to, you can pop into certain coffee
+houses and smoke a joint.  It's pretty surprising to me.
+
+
+If you have time go outside Amsterdam to see the tulips in April
+( even now is OK for the views and museums, etc.) and for sure
+the famous blue and white pottery museum in ??
+Name escapes me at the moment
+
+
+Take a raincoat and clothing to keep warm as the wind off
+the north sea this time of year is cold and wet.
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jan 98 9:22:24 CST
+From: <THaby`at`swri.edu> "THaby"
+Subject: HSA; When?
+
+
+Hello Brewers,
+ I have a simple question. When does HSA start? When setting up my sparge 
+water I take hot tap water from the kitchen faucet, put that into a gallon 
+pitcher and transfer that into a plastic courboy, and from there it goes 
+outside and gets dumped into the keg for further heating. I know there is
+a lot of splashing during all of this but it is pre-boil splashing. Could 
+this cause HSA? Thanks.
+ 
+Tim Haby/N5YEB
+29.497N 98.869W
+
+
+------------------------------
+
+
+Date: Mon, 26 Jan 1998 11:20:38 -0500 (EST)
+From: "PAUL SHICK (216) 397-4352" <SHICK`at`JCVAXA.jcu.edu>
+Subject: Easy fix for Sabco false bottoms
+
+
+
+
+
+
+Hello all,
+
+
+        A few months back I posted about my problems with a Sabco false 
+bottom that kept collapsing during recirculation.  Keeping the mash 
+moderately thick and pump flow rates low has avoided full collapses, but
+the false bottom still seems to flex a bit, allowing grain to come through.
+Because of this, I've had to clear the post-pump gate valve frequently during 
+recirculation, to avoid clogging.  After my initial post, a number of people 
+suggested support systems for the center of the false bottom. I've finally 
+gotten around to fabricating a simple piece that seems to fix the problem 
+entirely.
+
+
+        The problem is that the Sabco FB is a 12" diameter circle of 
+perforated stainless that's hinged in the middle, to make it easy to 
+install/remove.  There's a 1/2" hole in the middle where a drain tube runs
+through to the bottom of a converted keg.  The FB seems to flex in the 
+middle, under the weight of grain and suction from the pump, because it's
+supported only aroung the edges.  The easiest support for the middle section
+that I've been able to come up with is to take a short length of 1 1/2" OD
+copper pipe, cut to the distance from the bottom of the keg to the bottom
+of the FB (1 3/8" in my case.)  I then cut four large "slots" in the bottom
+end of the pipe, with a hacksaw, to allow the wort to flow to the drain tube. 
+The pipe fits "around" the drain tube, under the FB, supporting it from below. 
+To put the mash tun together, just put in the copper support pipe (slotted 
+end down, otherwise you'll prevent wort from reaching the drain tube,) drop 
+in the false bottom, with the center hole over the top of the copper pipe, 
+then install the drain tube down the middle.  
+
+
+Bad ASCII art follows:
+                                        ________
+                                      / ________
+                                    / /
+                                   | | <----- Drain tube
+        Side view                  | |
+                                   | |
+    False Bottom  ---------------- | | ------------------
+                           ___________________    A
+                          |             | |              |          |
+                          |        | |        |   |
+                          |           | |              |   |  
+      1.5" copper          |        | |        |   | 1 3/8"
+        pipe          ------> |      __ ____      |   |
+                          |     /  | |  \     |   |
+                          |    /   | |   \    |   |
+                          |   /    | |    \   |   |
+              ____           ----           | |     ----   V   _______
+    Keg bottom          \__________________________________/
+                
+
+
+
+
+        So far, the device has worked quite well.  The FB has shown 
+no evidence of flexing after a typical 20+ lb grain bill.  With such batches 
+before adding the support, the FB was coming out pretty warped.  It seems to 
+be a very simple fix to the problem.
+
+
+                        Paul Shick
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jan 1998 11:20:27 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Competition posts
+
+
+Brewers
+
+
+Over the past few weeks we have had several competition announcements and
+results that took up a good deal of bandwidth (one even included "(long)"
+in the subject line).  It seems to me that we've had an informal agreement
+around here that full detail posts of competitions with all of the rules,
+etc., was inappropriate, and that a short announcement with web site, phone
+number or email contact for details was more appropriate and, indeed,
+welcome.  Ralph Colaizzi <rwc`at`pair.com> of T.R.A.S.H. recently made an
+exemplary announcement of the latter type.
+
+
+Similarly, long posts of all of the winners of competitions can be replaced
+by an announcement of Best of Show winner and other interesting details
+(like the winner will be brewing a 1500 bbl batch of his Pumpernickel Stout
+for Anheuser-Busch) with a contact for full winners lists.
+
+
+I don't think this is a matter of "PgDn, Renner, if it doesn't interest
+you!" but rather one of saving bandwidth for other discussions
+(botulism?;-)), especially in these days of 3-4 day queues.  I'm  not
+presuming to appoint myself arbiter of bandwidth use, however, and am glad
+to hear dissenting opinions.  HBD is, after all, run by the concensus of
+the members.
+
+
+A related bandwidth saving suggestion, rather than wholesale copying of a
+previous post to which you are replying, consider some judicious snipping
+or a paraphrase.  This again will save more space for botulism.
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jan 1998 10:26:31 -0600
+From: "Tim Wauters" <tim.wauters`at`msichicago.org>
+Subject: Re: Storing beer yeasts and sourdough starters in same refrigerator
+
+
+
+
+Greetings and a question for the collective.  Has anyone had success
+storing sourdough starter and beer yeasts in the same refrigerator?  No, I
+haven't tried it yet but my wife (and brewing partner) is interested in
+keeping an active sourdough starter in our only refrigerator and we both
+share some concerns about cross contamination (especially in the case of
+beer yeasts)  We currently store the beer yeast in canning jars covered
+with lids and foil.  Reports of success and horror stories would be
+appreciated.  Private email is fine.
+
+
+                                TIA
+
+
+                                Tim Wauters
+                                Chicago
+
+
+------------------------------
+End of HOMEBREW Digest #2621, 01/28/98
+*************************************
+-------

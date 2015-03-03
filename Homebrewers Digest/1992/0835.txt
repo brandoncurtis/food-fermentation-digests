@@ -1,0 +1,797 @@
+﻿This file received at Mthvax.CS.Miami.EDU  92/03/03 03:15:13
+
+
+
+
+HOMEBREW Digest #835                             Tue 03 March 1992
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  recipe formulation (long, ~130 lines) (Brian Smithey)
+  <Concierge NOTICE>  (Stan Schwerin)
+  dry beer ("richard t. barrett")
+  kegging (Russ Gelinas)
+  bad beer (sherwood)
+  Cider digests and books (Michael L. Hall)
+  SN Celebration Ale (Michael T. Daly)
+  Re : blow-off vs trub (Conn Copas)
+  Hop growing (Chris Shenton)
+  Re: use of hops (Norm Pyle)
+  Home Brew Browser (KIERAN O'CONNOR)
+  Yeast Washing Info (loc)
+  Yeast Washing (Darren Evans-Young)
+  non-lambic and non-Trappist Belgians (Ray Peck)
+  Thanks (trwagner)
+  Test of the -SMTPLink from Various Networked PC's (Daniel A Conners)
+  Problems with long ferment--WYeast 1056 (Jeff Frane)
+  BJCP upcoming exams (homer)
+
+
+
+
+Send submissions to homebrew`at`hpfcmi.fc.hp.com
+Send requests to homebrew-request`at`hpfcmi.fc.hp.com
+[Please do not send me requests for back issues!]
+Archives are available from netlib`at`mthvax.cs.miami.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Sun, 1 Mar 92 11:47:53 MST
+From: chinook!smithey`at`rmtc.Central.Sun.COM (Brian Smithey)
+Subject: recipe formulation (long, ~130 lines)
+
+
+In a recent HBD, Tony Babinec (tony`at`spss.com) gave a nice description of
+the Kolsch style, along with a recipe and notes that reminded me quite a
+bit of my own recipe formulation process.  This finally inspired me to sit
+down and write this note that I've been intending to put together for quite
+some time.  Recipes and requests for recipes show up quite a bit in the HBD,
+but I can't recall ever seeing a recipe "algorithm" posted.  Hopefully
+some of you will find this useful.
+
+
+When designing a new recipe, there is often a particular style that a brewer
+has in mind; witness the number of requests for "clone" recipes that get posted
+here.  A book that I find invaluable when trying to invent a recipe for a
+style I haven't brewed before is Fred Eckhardt's "The Essentials of Beer
+Style".  The main section of this book is a self-described "beer catalog",
+with brewing profiles for 38 catagories of beer.  These profiles contain
+original and final specific gravity, color, hop bitterness, and alcohol
+content for several commercial examples in each of the catagories.  Other
+references that I consult are the Zymurgy Yeast and Hop special issues
+(and now also the latest Beer Styles special), and Dave Miller's TCHOHB.
+
+
+Generally, building a new recipe involves selecting the appropriate kinds
+and amounts of malt (for flavor, gravity, and color), selecting the
+appropriate variaties and amounts of hops (for bitterness, flavor, and
+aroma), and selecting the appropriate yeast (for attenuation and flavor).
+
+
+As in all facets of homebrewing, malt selection is always subject to the
+brewer's discretion.  My flexible rule of thumb is to use British pale
+malt and optionally crystal and dark (chocolate, black) malts for British
+ales (pale, brown, porter, stout); American 2-row (the widely available
+Klages) in place of the British pale when doing American microbrewery
+styles; and Klages, Crystal, Vienna, and Munich malts for Continental
+lager styles.  A wide variety of crystal malts, from 20L to 120L color,
+are available to allow the brewer to adjust the caramel sweetness and
+color of the finished beer.  Getting the malt flavor that is appropriate
+for the desired style is often a matter of getting the appropriate
+proportions of specialty malts; again, Eckhardt gives lots of hints.
+For example, for Bock/Dopplebock, Fred suggests dark Munich, dark caramel,
+dextrin, and black malts for darker color and sweetness.  Black malt is
+convenient for adjusting color for dark beers, as 1 or 2 oz of 500+ L
+malt can make a great difference in color with a minimal flavor impact.
+
+
+For roughly calculating the color of the finished beer, one must know
+the color (in degrees Lovibond, L) of the malt one uses in the mash.
+Color of typical beer malts runs from less than 2L for pale lager malts
+to greater than 500L for black malt and roasted barley.  If your supplier
+isn't providing the color of your malt, you may want to ask him if he can
+do so.  On pp. 54-55 of Miller's book there is a table of malt colors from
+Briess Malting, and a formula for calculating wort and beer color from the
+colors and amounts of malt used.  For extract brewers, you're pretty much
+on your own.  If any extract brewers have some emperical numbers for colors
+of malt extracts, you may want to share them with this group.  Miller's
+formula will result in a color in degrees Lovibond; unfortunately, Eckhardt's
+profiles give a color value on a 1-10 scale, with a mapping from his 1-10
+to the SRM degree, which he says is roughly equivalent to the Lovibond
+degree.  For example, he says that Ayinger Export Weissbier is color 4,
+and his table says that 3.5-4.5 is "light amber", 5.5-10 SRM.  I usually
+look at several examples of the style that I'm trying to brew, and get a
+rough idea of the SRM color I want from Fred's book.
+
+
+Calculating original specific gravity is a matter of knowing how many points
+of specific gravity you get per pound of malt per gallon of water for your
+particular process, and then calculating for the combination of malts that
+you're using and the size of the batch that you're brewing.  Miller (on p. 196)
+and Papazian both give points/#/gallon figures in their books.  Miller's tend
+to be quite a bit higher than Papazian's.  Grain brewers will have to brew a
+few batches to get a feel for how well they extract malt sugars from their
+grain, and use the values that their particular process gives them.  Extract
+brewers are probably pretty safe in assuming that the numbers in Miller's
+book are accurate, as one should expect to get 100% efficiency when using
+extracts.
+
+
+Selecting hops is another personal decision; typically one will use English
+Goldings or Fuggles when doing British ales, noble Continental hops for
+European lager styles, and popular American hops (such as Willamette or
+Cascade) for micro styles.  Again, this is wide open, and many brewers will
+also find use for the super-high alpha bittering varieties that are becoming
+popular (Eroica, Chinook, etc.).  Whatever hops you decide to use, you'll
+need to know the alpha acid content in order to calculate the bitterness
+contribution from the hops.  Again, if your supplier doesn't provide this
+information, request that they do so.  Eckhardt's book gives profile bitterness
+in IBU (International Bittering Units).  Formula for computing IBU from alpha
+acid content are available in several references available to the homebrewer;
+those that I know of are Eckhardt's "Beer Styles", Rager's article in the
+Zymurgy Hop special issue, and Byron Burch's "Brewing Quality Beers".  Using
+any of these to compute bitterness, and comparing to the profiles in Eckhardt,
+there is no reason to be under- or over-hopped for the desired style.  For
+extract brewers using hopped extracts, there is a table of many of the more
+popular hopped extracts, with bitterness values, in the Zymurgy "Hops and Beer"
+special issue; unfortunately they are in the infamous "HBU" units.  A little
+math should be able to get you to IBU's.
+
+
+The other issue involved in hopping is bitterness vs. flavor and aroma.
+Long hop boils are necessary to extract the bittering acids from hops, but
+this tends to drive off volitile flavor and aroma compounds.  Late additions
+are used when hop flavor and/or aroma are desired.  Rager's and Burch's
+IBU formula have utilization factors for late additions.  I know of no way
+to quantitatively measure the aroma and/or flavor contibutions of late hop
+additions.  You'll have to experiment with this until you get the desired
+effect.  Eckhardt's book hints occasionally when a hop flavor or aroma may
+be appropriate; also note than German (lager) brewing practice often calls
+for 3 separate hop additions, while British (ale) brewing adds all hops at
+the beginning of the boil.  Aroma may be added later by "dry hopping", a topic
+frequently covered in this digest.
+
+
+Finally, one chooses a yeast.  For Wyeast users, the names of the yeasts
+make it pretty easy to guess which one might be best for the style you're
+brewing.  An article by Burch in the Zymurgy yeast special goes into a bit
+more detail describing the character of many of the Wyeast varieties.  If
+you're using dry yeast, your choice is more often limited to a couple of
+brands, and "lager" or "ale".  Use a yeast that you're comfortable using
+that provides results with which you're happy.  If you know anything about
+the the degree of attenuation to expect with your choice of yeasts, the
+final specific gravity information from Eckhardt's book and/or sweet/dry
+descriptions of the styles can help you select an appropriate yeast.
+
+
+When you put it all together, you'll find out that things like wort specific
+gravity affect hop bitterness utilization, and you might discover that computing
+all of this stuff becomes an iterative, fine-tuning process.  Fortunately, there
+are ways to make this easier.  There are a couple of free spreadsheets floating
+around that include the formulas that I've mentioned.  I use one for the Unix
+"sc" spreadsheet and wouldn't do it without (thanks, Tom).  There are also
+commercial software programs available for home computers, check Zymurgy for
+advertisements if you're interested.  I believe that Darryl Richman's program
+for the Mac does all of this and more, including water chemistry if you're
+interested in fiddling with that.
+
+
+Beering is my hobby, not my business, I don't receive money from any sales
+of books, software,  etc. mentioned here.
+
+
+Happy brewing,
+
+
+Brian
+- --
+Brian Smithey, at home
+chinook!smithey`at`rmtc.Central.Sun.COM
+
+
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 1992 7:04:15 PST
+From: schwerin`at`mailhost.hsas.washington.edu (Stan Schwerin)
+Subject: <Concierge NOTICE> 
+
+
+Date        3/2/92
+Subject        <Concierge NOTICE>
+From        Stan Schwerin
+To        CHANGE THIS IF NECESSARY
+
+
+>From QMCONCIERGE              <Concierge NOTICE>
+Your mail in reference to "Homebrew Digest #834 (March" has been  received.
+  [ ]  I am on Vacation.
+  [X]  I have Moved.
+  [ ]  I am Away.
+I will read your mail when I return.
+
+
+
+
+Hi,  I'm skiing at Mt. Bachelor right now.  When I return on Monday, Feb 2, 
+I will read your mail.  
+If this is an emergency, please contact Chris Kilbourn.
+
+
+ -Stan Schwerin
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date:         Mon, 02 Mar 92 10:36:11 EST
+From: "richard t. barrett" <RBARRETT`at`uga.cc.uga.edu>
+Subject:      dry beer
+
+
+Hello:
+
+
+I was just wondering how a dry beer is made and if you can homebrew a dry beer.
+  I recently tried the new Keystone DRY and it wasn't that bad to me.(pretty ch
+eap too)  Any response would be appreciated.
+
+
+                                  Thanks,
+                                  Richard
+
+
+------------------------------
+
+
+Date:    Mon, 2 Mar 1992 11:13:44 -0500 (EST)
+From: R_GELINAS`at`UNHH.UNH.EDU (Russ Gelinas)
+Subject: kegging
+
+
+   Well I finally had someone knowledgeable take a look at my keg, and
+the prognosis is very good.  The only concern is the relief valve in
+the cover.  There doesn't seem to be any way to engage it; it has no ring
+to pull.  I took it apart, and it seems that it might release if you press
+on the top of it with a pointed object.  I tried that with the keg
+pressurized, but nothing happened.  Is the valve defective, or is that
+just the way they work?  The Foxx catalog has replacement valves, but
+to get a ring-pull valve I'd have to replace the whole cover.
+   Actually there's another concern: there's no check valve for the
+regulator.  Foxx doesn't seem to have them.  Could some kind soul point
+the way to someone who does?  Thanks.
+
+
+Russ   (btw, the Wyeast package that was about to burst did *not*)
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 09:12:51 -0800
+From: sherwood`at`adobe.com
+Subject: bad beer
+
+
+Thanks for the many mail messages I received with regards to my friend's
+beer.  To recap, he had over 100 good extract batches, switched brewing
+equipment and went all grain, then had 4 of 5 batches turn out to be
+undrinkable due to a sour-milk sort of odor, all with stuck fermentations.
+
+
+The consensus was underoxygenation causing the stuck fermentation, with the
+bad odor and taste being a byproduct of that.  I have two more data points.
+When I tasted my (ie, not his) beer again (this time looking for that
+off-taste) I found the same taste, though very slight.  In addition, he finally
+got around to dumping one of his kegs of bad beer.  It had sat at about 45F for
+two months.  It was now HIGHLY carbonated.  He sprayed maybe a gallon of foam
+into his sink when he noticed something -- it didn't smell bad anymore.  He
+tasted it -- and immediately stopped dumping it.  It now tasted just fine.  I
+had a glass; he was right.  Not even a trace of the odor that was once so
+overpowering we considered the batch a total loss.
+
+
+So I have a conjecture.  I recall mention here on the HBD of some chemical that
+yeast produce while reproducing that they then reabsorb later.  I thought that
+that was a mild offtaste.  Maybe not and that is what we have here?  The stuck
+fermentations perhaps preventing the reuptake?
+
+
+On the latest batch, we oxygentated the wort fairly well and had it take off
+like gangbusters.  Very active fermentation, kicked off no doubt by a large
+amount of pitched yeast (from a starter).  But it still stuck, this time at
+1030 but without the off smell of previous batches.  He racked it to a
+secondary, and fermentation picked up immediately (glub every 3 seconds).  I
+assume this was either to more oxygen or rousting the yeast.  But he racks
+gently to minimize oxygenation, and racks carefully to avoid racking the trub.
+So if he didn't pick up much 02, and siphoned off only the yeast that was
+already in suspension, why the dramatic increase in activity?  In fact, would
+oxygen help at this point at all?  There was obviously enough yeast for a
+vigorous start.  So why do they stop?  Do the yeast get 'tired' after a while
+and require O2 either to get rejuvinated or to reproduce (so you get some new,
+more vigorous yeast)?  Do they just like the change of scenery ? (:-))
+
+
+Any help with these questions is sincerely appreciated.
+
+
+Geoff Sherwood
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 10:54:11 MST
+From: mlh`at`cygnus.ta52.lanl.gov (Michael L. Hall)
+Subject: Cider digests and books
+
+
+
+
+This is directed to Daniel Roman (your email bounced):
+
+
+You told us about the cider-digest, but you didn't tell us how to
+subscribe! I'm sure that many people on the HBD may be interested.
+Please respond with the email address of the cider list.
+
+
+To everyone:
+
+
+Concerning cider, I recently bought a book from the AHA that is
+entitled "Sweet & Hard Cider", published by Storey (?) Press, for
+$10.95 +S&H. I don't know a lot about making cider, but the book looks
+excellent to me. It is very informative and takes you through the whole
+process, including grinding your apples and squeezing the juice out.
+It even tells you how to mix different kinds of apples (sweet, tart,
+tannic, base, etc.) together to make that perfect cider. I heartily
+recommend this book for those of you interested in cider. (Standard
+disclaimers about not being related to anybody that could benefit apply.)
+
+
+Michael L. Hall
+mlh`at`cygnus.ta52.lanl.gov
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 11:56:29 CST
+From: ssi!mtd`at`uunet.UU.NET (Michael T. Daly)
+Subject: SN Celebration Ale
+
+
+I know it is a bit late to ask, but does anyone have a recipe (all grain
+preferred but I can fake it) to mimmic the Serria Nevada Celebration Ale
+from last season?  
+
+
+                Mike
+
+
+                        Black Swan femto-brewery, Eau Claire, WI.
+
+
+ Mike Daly (uunet!ssi!mtd)  --  (715) 839-8484 
+ Supercomputer Systems Inc.  1414 W. Hamilton Ave.  Eau Claire, WI 54701
+ There are two kinds of people in this world.....Cannibals and Lunch.
+
+
+------------------------------
+
+
+Date: Fri, 28 Feb 92 13:38:13 GMT
+From: Conn Copas <C.V.Copas`at`loughborough.ac.uk>
+Subject: Re : blow-off vs trub
+
+
+Reading the post on scientific and statistical methods prompted me to think
+that there are two quite distinct claims being made about the effects of trub.
+The first is, that because trub is largely a tannin-protein precipitate, 
+contact with the brew may dissolve some of the tannin and produce astringent
+flavours. This effect is presumably what those who have tasted blow-off have
+detected, although it is often mislabelled as having something to do with 
+'hop resin'. The second claim is that yeast will extract oxygen from the trub
+and in the process produce more fusel oil, which at low levels can be 
+interesting, but at higher levels tastes solvent-like and possibly harsh.
+
+
+So here is one suggestion for an (incomplete) experimental design. Take some
+trub and strain it. Dry it roughly by pressing between paper towel. Now place
+it in an appropriate amount of water, preferably acidified and fortified with
+pure alcohol to obtain a beer-strength mixture. Let sit for a period around
+2 weeks, maybe with some agitating, then note whether anything has dissolved.
+
+
+Incidentally, I understand that some breweries actually employ tannin as a
+clarifying agent. I've demonstrated this to myself at home when making yeast
+starters with malt extract. Adding a pinch of grape tannin (reputedly
+equivalent to tannic acid) causes the wort to drop star bright without
+ever being brought to the boil. It also results in a darker wort and the most
+evil looking trub one is ever likely to encounter. Presumably, the breweries 
+then precipitate the dissolved tannin out with something else like gelatine 
+or Polyclar. Just to complicate the issue, tannin is also regarded as a haze
+precursor, so my chemical musings cease at this point.
+    
+- -- 
+Loughborough University of Technology          tel : (0509)263171  ext 4164
+Computer-Human Interaction Research Centre     fax : (0509)610815      
+Leicestershire  LE11 3TU           e-mail - (Janet):C.V.Copas`at`uk.ac.lut   
+G Britain                 (Internet):C.V.Copas%lut.ac.uk`at`nsfnet-relay.ac.uk
+
+
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 11:04:32 PST
+From: css`at`haze.ccsf.caltech.edu (Chris Shenton)
+Subject: Hop growing
+
+
+On Feb 25, Daniel Roman <tix!roman`at`uunet.UU.NET > writes:
+
+
+> I bought some cuttings from an outfit in Oregon and when they
+> arrived by UPS ground I immediately opened the box and stuck them in
+> the ground.  I finally dug them up and all four were dead.
+> 
+> Anybody know of a place on the east coast where I could buy some
+> cuttings so that they would not have as much a chance of drying out
+> before I get them? 
+
+
+I bought from Freshhops and had success with 8 out of the 10 rhizomes
+that I bought, 2 rhizomes of 5 different varieties. The Cascades did
+much better than the Hallertauer, Tettnanger, Mt. Hood, and
+Willamette.
+
+
+Just a data point.
+
+
+
+
+BTW: I actually live in DC -- I'm just visiting the Left Coast.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 11:43:43 MST
+From: pyle`at`intellistor.com (Norm Pyle)
+Subject: Re: use of hops
+
+
+korz`at`ihlpl.att.com writes:
+
+
+Lots of great info about hops and ...
+
+
+>Aging:
+>Both the bittering and the bouquet will diminish over time, so if you've
+>used too much, don't fret, wait 3 or 6 months.  Then again, you can't
+
+
+Is this true?  I've noticed in some brews (which accidently lay around for a
+few months) that there was a distinct loss of sweetness over time which, to
+my tongue, came off as an increased bitterness.  The sweetness normally
+balances the bitterness, so it seemed more bitter over time.  I attributed
+the loss of sweetness to a mild infection of a wild yeast or a bacteria which
+was able to ferment the "unfermentables" given enough time (I noticed no real
+"off flavors" other than this phenomenon.  I suppose with better sanitation
+this would not occur and that the effect of which Al speaks would be more
+evident.  What have others found?  I've got a vested interest in this
+question since I've got a bock in the basement which is pretty high on the
+bitter side.  If the bitterness fades a bit, it should be incredible.
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 1992 10:25 EDT
+From: KIERAN O'CONNOR <OCONNOR%SNYCORVA.bitnet`at`CUNYVM.CUNY.EDU>
+Subject: Home Brew Browser
+
+
+The upgrade of the HomeBrew Browser is out,version 1.6.  For those of
+you who dont know hwat the Brew Browser is--its a Macintosh HypeCard
+Stack for reading the HBB on your mac.  it lets you separate the
+messages and the message headers--click on the header, and you get the
+message on the irght side of the screen.
+
+
+if you want to try one out--email me with a subject line--I want my
+HBB!
+
+
+Kieran
+
+
+oconnor`at`snycorva.bitney
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 16:56:54 EST
+From: loc`at`bostech.com
+Subject: Yeast Washing Info
+
+
+Yeast washing basically is a process of mixing the
+yeast with enough hydrocloric acid to bring the
+ph of the slurry to 2.2.  You want to do this with
+yeast that has as little trub in it as possible.
+(yet another reason to use a wort chiller and separate
+the trub from the wort)
+
+
+By bringing the ph to this level you kill off any
+mutant and weak yeast.  This then gives you a strong
+yeast colony to start with.  Big breweries only wash
+a yeast batch 10 times.  After that the chances of 
+getting a mutant strain in the brew increases dramatically.
+
+
+With acid this powerful make sure you have the right
+tools and meters to do the job.  Mistakes and inappropriate
+choice of tools and containers can be costly.
+
+
+cheers,
+rogerl
+
+
+------------------------------
+
+
+Date:         Mon, 02 Mar 92 17:20:17 CST
+From: Darren Evans-Young <DARREN`at`UA1VM.UA.EDU>
+Subject:      Yeast Washing
+
+
+Those wishing instructions on washing yeast should refer to
+Homebrew Digest #731.
+
+
+Darren
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 15:22:13 PST
+From: rpeck`at`pure.com (Ray Peck)
+Subject: non-lambic and non-Trappist Belgians
+
+
+OK, I've finally kicked myself into asking about the avaiability
+and semi-reproduction of Other Belgian Wonderful Stuff (other than
+lambics and Chimay, for which there is a lot of info).
+
+
+When I was in Belgium (beer trip) this past winter, I found that my
+favorites were Rodenbach Gran Cru and Leifmann's.  I also loved a bunch
+of other things which were not lambics or Trappists (not that I don't
+*love* lambics and Trappists. . .)
+
+
+First thing is: is there anyplace in the country which can get Rodenbach?
+I found a distributer which can get Leifmann's, but they don't handle
+Rodenbach.  Does Manneken Brussel in Austin handle any Belgians besides
+Chimay?  (and the easy stuff to get: Orval, Grimbergen, St. Sixtus,
+Lindeman's, Duvel)
+
+
+Now, to get down to the get down. . .
+Assuming I can get fresh bottles to culture from (actually, have the 
+microbiologist woman who runs Fermentation Frenzy culture for me), has
+anyone else here attempted repros of Rodenbach and Leifmann's?  How
+'bout a tasty, refreshing Hoegarden for those hot summer days?
+
+
+
+
+Also, an alert for all you fans of Belgian beer:  I picked up a Michael
+Jackson book entitled "The Great Beers of Belgium", when I was in Brussels.
+It was in English (also available in Flemish and Waloon).  I've never
+heard of it in the states.  Is it available here?  Highly recomended.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 1992 19:24:09 -0500
+From: trwagner`at`unixpop.ucs.indiana.edu
+Subject: Thanks
+
+
+        Thanks to all of you who replied so quickly.  I have found that
+this hobby is one where secrets are shared and there are many who are
+willing to help others out!
+
+
+        I think my best bet, from what you all have said, is for me to go
+out and buy some REAL non-industrial type beer.  I will select a few Ales
+and Lagers and determine where my taste buds stand.  Then, I will decide
+what I want to make for my first kit.  (Of course, I will save the bottles
+for my first batch).  
+
+
+        Thanks for all your help.  
+
+
+Ted
+
+
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 16:41 PST
+From: Daniel A Conners <Daniel_A_Conners%~WHC110`at`pnlg.pnl.gov>
+Subject: Test of the -SMTPLink from Various Networked PC's
+
+
+
+
+
+
+          Will any members of the Mid-Columbia Zymurgy Association who
+          receive this message please contact me locally and let me
+          know of our success rate in utilizing the -SMTPLink via PC. 
+          Some members of our organization plan on becoming active in
+          the daily dialog from their home work stations.  Please
+          excuse our crude testing manner.  We look foward to an
+          informative exchange of data. Thank you.
+
+
+
+
+          DAC IV
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 14:19:09 PST
+From: gummitch`at`techbook.com (Jeff Frane)
+Subject: Problems with long ferment--WYeast 1056
+
+
+John C relates a problem with a loooooooooong fermentation using WYeast
+1056. I'm a little relieved to read this, actually, since I've been
+having the same problem. In fact, I've been having slow-starting prolems
+with the yeast for several batches, but this is the first time it's gone
+so slowly once fermentation began.
+
+
+In my case, I split a 10-gallon batch into two carboys. The ale started
+at 1.062. Carboy A is still obviously fermenting and is at 1.030. Carboy
+B was clearing and looked done but was at 1.038. I roused it, warmed it
+and added some wort/beer from Carboy A. We shall see. It has been three
+weeks.!  The beer tastes fine, just too sweet.
+
+
+Dave Logsdon at WYeast says he will look at this yeast and determine if
+he needs to go back to an earlier generation. If anyone else has
+experienced problems like this with 1056, please e-mail me.
+
+
+- --Jeff Frane (gummitch`at`techbook.com)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 2 Mar 92 19:42 MST
+From: homer`at`drutx.att.com
+Subject: BJCP upcoming exams
+
+
+Montreal PQ
+March 1992
+Tom Robson (514) 287-7529
+
+
+San Francisco
+April 5, 1992
+Byron Burch (707) 538-2528 - Russ Wigglesworth (415) 474-8126
+
+
+Orlando, FL
+April 11, 1992
+Ed Greenlee (407) 277-3791
+
+
+Rochester, New York
+April 25, 1992
+Stephen Hodos (716) 272-1108 272-3465
+
+
+Memphis, TN
+April 25, 1992
+Chuck Skypeck (901) 685-2293 (901) 327-7191
+
+
+Frankenmuth, MI
+May 9, 1992
+Bill Pfeiffer (313) 946-6573 (313) 285-7692
+
+
+Woodland Hill CA (LA)
+May 30, 1992
+Marty Velas (310) 329-8881  (818) 831-3705
+
+
+Orono, ME
+June 20, 1992
+Pat Baker (203) 227-8028
+
+
+
+
+Exams are in the works for Millwaukee WI and Boulder CO,
+when they are official I will post them.
+
+
+
+
+Full details on the Beer Judge Certification Program are contained
+in a booklet that can be requested by writing to:
+
+
+AHA
+PO Box 1679
+Boulder, CO 80306
+Attn: BJCP Administrator
+
+
+Jim Homer
+BJCP Co-Director
+att!drutx!homer
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #835, 03/03/92
+*************************************
+-------

@@ -1,0 +1,1455 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr7.engin.umich.edu (root`at`srvr7.engin.umich.edu [141.212.2.69])
+        by srvr5.engin.umich.edu (8.8.5/8.8.5) with ESMTP id BAA29025
+        for <spencer`at`srvr5.engin.umich.edu>; Mon, 11 Aug 1997 01:11:46 -0400 (EDT)
+Received: from twins.rs.itd.umich.edu (0`at`twins.rs.itd.umich.edu [141.211.83.39])
+          by srvr7.engin.umich.edu (8.8.4/8.8.4) with ESMTP
+          id BAA02588 for <spencer`at`engin.umich.edu>; Mon, 11 Aug 1997 01:11:45 -0400 (EDT)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.7.5/2.2) with X.500 id BAA10777; Mon, 11 Aug 1997 01:11:49 -0400 (EDT)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.7.5/2.2) with ESMTP id BAA10764; Mon, 11 Aug 1997 01:11:46 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA04949 for realhomebrew; Mon, 11 Aug 1997 00:29:56 -0400
+Date: Mon, 11 Aug 1997 00:29:56 -0400
+Message-Id: <199708110429.AAA04949`at`brew.oeonline.com>
+To: homebrew`at`brew.oeonline.com
+From: homebrew-request`at`brew.oeonline.com (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2481 (August 11, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2481                             Mon 11 August 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Controlling Fermentation Temps (David Whitwell)
+  Hop Back,Arty Acronymn ("David R. Burley")
+  Blue Moon (Kit Anderson)
+  Minnesota Brewfest and Competition (Steve Piatz)
+  Carbonation & fill level, an experiment (Spencer W Thomas)
+  Gas Flow Characteristics (eric fouch)
+  Re: Foreign Stout ( serious answer ) (Jacques Bourdouxhe)
+  Budweiser's born-on bull (Steve Jackson)
+  Re: Cold Box ("Ted Major")
+  more fun than botulism and eisbock talk ("Kerr, David")
+  Hop disease diag (th22)
+  Celis White clone (Sean Mick)
+  Rice syrup solids (Sean Mick)
+  DWC malt quality (Sean Mick)
+  5l mini kegs - Jim Graham (Alpinessj)
+  Minikeg bung in Gott ("Val J. Lipscomb")
+  Flaked barley & DME (MIS, SalemVA)"
+  Losing My Head (and body) (Charles Burns)
+  When to pick hops ? (Ian Smith)
+  Filtering beer ("Robert C. Sprecher, M.D.")
+  Re: Hop back (Joe Stone)
+  The Hop Research Department of Wye College (Andy Walsh)
+  Aureus hops ("Kevin F. Schramer")
+  pH Problems ("Joseph G. Spears")
+  Indianapolis Propane Burners (DAVE BRADLEY IC742 6-7932)
+  how to measure extract weight by volume (Eugene Sonn)
+  Low Water pH (A. J. deLange)
+  Re: Honey Brown (Rory Stenerson)
+  Re: yellowing hop leaves (Jay Reeves)
+  Buying LME from Williams Brewing? ("Bret A. Schuhmacher")
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to homebrew`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to homebrew-request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`realbeer.com
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        hbd.org        /pub/hbd        
+        ftp.stanford.edu        /pub/clubs/homebrew/beer
+  E-mail...
+        ftpmail`at`gatekeeper.dec.com (send a one-line e-mail message with 
+                                   the word help for instructions.)
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 7 Aug 1997 06:48:17 -0700
+From: dwhitwell`at`foxcomm.net (David Whitwell)
+Subject: Controlling Fermentation Temps
+
+
+O Great Brewing Collective:
+
+
+I've seen the recent discussion of temperature controllers both here and on
+RCB, and I finally decided to chime in with something I found on the web.
+
+
+At http://hbd.org/users/mtippin/  (sound familiar?)  is Marty's Homebrew
+Gadgets Page (man, this guy is my kinda gadget junkie), and near the bottom
+is a link to http://members.aol.com/kennyeddy/chiller/chiller.html  which
+has plans for building your own fermentation chiller, using polystyrene and
+frozen plastic milk jugs.  The author says his unit can be built for ~$70
+if you use all new parts.  I modified it to be a bit sturdier, but the cost
+was well under $50 because I scrounged stuff.
+
+
+Why?  Because that leaves my spare fridge open to store homebrew, my frozen
+hops, and uses a heck of a lot less power than a fridge temp controller
+would.
+
+
+Brew On!
+David Whitwell
+Half-Whit Brewing
+"Because Half the whit's Brew, and Half the Whit's Don't"
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 09:50:41 -0400
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Hop Back,Arty Acronymn
+
+
+Brewsters:
+
+
+Compuserve lied.  I still have the same transmission
+ problem.  Sorry about this inconvenience.
+- ----------------------------------------------
+Braam Greyling asks for information on a
+ hop back construction.
+
+
+I know what I mean by hop back, but I'm
+ not sure I know what you mean, since these
+ pages and publications have used the term
+ to be some sort of inline filter into which you
+ can also dry hop! while racking the wort..
+
+
+In the British brewing industry the hop back is
+ most often a shallow tank with a bottom filled
+ with narrow slots which can be covered by a =
+
+
+sliding plate also with slots.  The hot boiled wort
+ is pumped to the hop back with the plates in the
+ "closed' position and allowed to settle.
+ The plate is slid to "open" and the wort is then
+ filtered through the hop bed to remove the hot
+ break and the hops simultaneously. This wort
+ is then directed to the cooler and aerated
+ before fermentation. =
+
+
+
+
+I basically do the same thing when I rack my
+ hot, whirlpooled wort through a "Choreboy"
+an unsoaped copper or SS metal turnings
+ kitchen scrubber pad ( see back issues for
+ more discussion) at the bottom of my racking
+ cane leading from my wort boiler to my Cc
+ cooler setup.  This performs amazingly well,
+ with no clogs and when the transfer is complete
+ the whole leaf hops I use are wet, but there is no
+ liquid left.  The hot break is trapped by the hops
+ just as in the commercial variety. Cheap, simple =
+
+
+and works better than anything else I ever tried
+ ( and that's a lot of things).
+- ----------------------------------------------  =
+
+
+Privately accosted by the acronym police again,
+ I reply RT is " room temperature".  In STP terms
+ ( I.e. Standard Temperature and Pressure) it is 20C ( 68F).
+
+
+ In Britain of course that would be 62F (16C)
+( as I recall my chilly Welsh Post-doctoral days)
+ and in most of the US 68F =
+
+
+or in my Grandma's house 85F (30C)!
+- ---------------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 Aug 1997 09:52:49 -0400
+From: Kit Anderson <kitridge`at`bigfoot.com>
+Subject: Blue Moon
+
+
+Marc wrote;
+
+
+>Kit wanted to replicate the tartness in Blue Moon ale.
+
+
+No...Kit didn't. Who started this ugly rumor? Blue Moon isn't tart enough.
+It isn't anything enough. It should be called White Lite. Tartness in a real
+wit is achieved with 88% lactic acid.
+
+
+Your OG was 1059 and you couldn't tell it apart from BM? I'll wager BM isn't
+bigger than 1042. Your recipe has no wheat so, although it sounds delicious,
+it isn't a wit either.
+
+
+- ---
+Kit Anderson           ICQ#2242257
+Bath, Maine           <kitridge`at`bigfoot.com>                
+
+
+I suppose that it's theoretically possible for a Yankee to
+make decent barbecue. But it sure ain't a pretty thought!
+                                        -Smokey Pitts
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 08:58:33 -0500 (CDT)
+From: Steve Piatz <piatz`at`cray.com>
+Subject: Minnesota Brewfest and Competition
+
+
+
+
+The Minnesota Brewfest is the weekend of October 11 and 12.  The event
+includes a homebrew competition as well as a single malt scotch tasting
+and a cask conditioned ale tasting both conducted by Michael Jackson.
+See http://reality.sgi.com/piatz_craypark/brewfest.html for complete
+details of the events.  The online stuff doesn't have the entry form
+and the bottle labels (yet), you can the standard AHA sanctioned
+competition forms (I would like to just be able to link to the AHA's
+server rather than generating my own forms).
+
+
+If you can't read WEB pages send me an email and I can snail mail a
+copy to you.
+
+
+The competition has most of the standard styles placed in 14
+categories.  The prizes are great; $100 for each first place, $50 for
+second and $25 for third, each is in addition to a very nice medal.
+This year the Minnesota Brewfest is one of the competitions
+participating in the Midwest Homebrewer of the Year Award.
+
+
+Entries are accepted between 11:00 am on Monday September 22nd and 6:00
+pm on Sunday September 28th.
+
+
+If you are interested in judging the competition please let me know.
+We anticipate judging both the weekend of the event and the weekend
+prior to the event.
+
+
+- -- 
+Steve Piatz             Cray Research, a Silicon Graphics Company
+piatz`at`cray.com          655F Lone Oak Drive
+612-683-5268            Eagan, MN 55121
+
+
+------------------------------
+
+
+Date: Thu, 07 Aug 1997 10:00:49 -0400
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: Carbonation & fill level, an experiment
+
+
+Bottom line: Unfortunately, the result of the experiment is that we
+need to do it again, because of problems in learning to use the
+equipment.  (We should have started with some Budmilloors, instead.)
+
+
+Participants: Spencer Thomas (instigator), Stephen Klump (brewer),
+Jeff Knaggs (owner of test equipment).
+
+
+Stephen bottled 2 bottles each of a batch of pale ale with a high
+fill, regular fill, and low fill.  High fill was to the rim, regular
+about 1 inch down, and low to the shoulder of the bottle.
+
+
+The bottles were allowed to condition naturally for about 4 weeks.
+Spencer then drove them to the Quay Street Brewing Co. in Port Huron,
+where Jeff Knaggs has a Zahm-Nagel carbonation tester.
+
+
+We used a jury rig to fill the tester from the bottles.  This rig was,
+we think, the main cause of our problems, as it leaked quite a bit.
+We ended up needing to use both (12 oz) bottles of each sample for
+each test, so we could only make 3 measurements.
+
+
+The results were totally inconclusive, as the "measured" carbonation
+increased in the order of testing: regular, low, high.
+
+
+Jeff has figured out a new rig using stainless-steel tubing instead of
+vinyl, which he thinks will work much better next time.  Now it's just
+a matter of getting some 22oz bottles filled and conditioned for
+testing.
+
+
+=Spencer Thomas in Ann Arbor, MI        (spencer`at`umich.edu)
+
+
+------------------------------
+
+
+Date: Thu, 07 Aug 1997 10:17:39 -0400 (EDT)
+From: eric fouch <S=fouch%G=eric%DDA=ID=STC021.efouch%Steelcase-Inc`at`MCIMAIL.COM>
+Subject: Gas Flow Characteristics
+
+
+
+
+Date: Thursday, 7 August 1997 10:11am ET
+To: STC012.HOMEBRE3`at`STC010.SNADS, Craig.DeBruyn
+From: Eric.Fouch`at`STC001
+Subject: Gas Flow Characteristics
+In-Reply-To: The letter of Thursday, 7 August 1997 2:36am ET
+ 
+HBD-
+To all the gas flow gurus, a paltry conundrum:
+I want to have 13 liters per minute gas flow (propane) maintained at the
+lowest possible pressure. Actually, 10 psi is my optimum low pressure. Two
+questions: 1) What is the best configuration of the regulator and flow meter?
+Should the regulator be between the flow meter and the tank, or between the
+flow meter and the burner (providing back pressure)?
+Observation: With the regulator between the flow meter and the tank, the flame
+at the burner appears to be larger. 2) Is pressure drop in the line a major
+factor? Will a 20 foot line behave the same (in terms of flame size and BTU
+output) as a 50 foot line for the same regulator/flow meter configuration?
+ 
+OK, technically three questions, but the last two are pretty much paraphrases
+of each other.  I'll drink a Coors product as penance.
+ 
+TIA
+EJF
+efouch`at`steelcase.com
+"Mothers are the neccessity of intervention"  -Me
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 11:27:51 -0400
+From: bourdouj`at`ERE.UMontreal.CA (Jacques Bourdouxhe)
+Subject: Re: Foreign Stout ( serious answer )
+
+
+
+
+Hi Brauwmeisters,
+
+
+Dave Draper ( in Dallas )  wants to know the characteristics unique to
+Foreign Stout.
+According to Graham WHeeler's book " Brew classic European beers at home "
+Guinness Foreign Extra Stout ( FES ) has the following specifications:
+O.G. 1.073
+Alcohol content: 7.2% by volume
+Bitterness 65 EBU
+Color 200 EBC
+" A world classic,its roots in the early porters and stouts of London and
+Dublin. The beer is a blend of regular stout and a second beer that is
+matured in oak vessels. It has the horse-blanket aroma that is a result of
+attack from wild Brettanomyces yeast... "
+
+
+So, it seems that a FES should be:
+strong, hoppy and ... include a wild yeast.
+Conclusions: If you want to brew a FES true to style, you'd better
+subscribe to the Lambic Digest or maybe blend it with some Rodenbach
+Grand-Cru . I think FES is a unique  and VIABLE style and should not be
+killed by Dave.
+I hope this helps.
+
+
+Now, I have 2 questions:
+1)  Why is it called " Foreign "? is it because it is or was brewed only
+for export and is not available in Ireland, like IPA was brewed for export
+to India?
+2) Where can I buy Guinness FES in Canada?
+
+
+Jacques " support you local Bretts " in Montreal
+
+
+
+
+*************************************************
+* Oh beer! O Hodgson, Guinness, Allsop, Bass!   *
+* Names that should be on every infant's tongue *
+* ( Charles Stuart Calverley )                  *
+*************************************************
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 08:28:28 -0700 (PDT)
+From: Steve Jackson <stevejackson`at`rocketmail.com>
+Subject: Budweiser's born-on bull
+
+
+I know this isn't really homebrew related, but I figured the
+collective would find this amusing.
+
+
+There was a small item in the alternative weekly here in Indianapolis
+this week about a guy drinking a Budweiser that was "born on" July 10,
+the exact same day he was drinking the beer. Bud's local distributor
+attempted to write it off by saying that A-B's Columbus plant, where
+Indy's Bud is produced, is brewing 24-7, so it's possible that an
+early morning truck heading out of Columbus on the 10th made it to
+Indy, and the distributor got the beer to the bar and the bar got the
+beer into the customer's hands all on the same day.
+
+
+Notwithstanding the fact that I've never seen a distributor move beer
+that quickly, something seems more than a little fishy about Bud's
+"born on" dates here. Even for as something as thin as Bud produced by
+heavily industrial mechanisms, there's no way in hell that a
+fermentation could be completed in a day. And I would guess Bud's
+"exclusive beechwood aging" takes a bit longer than a few hours as
+well.
+
+
+Just goes to show what a multi-million-dollar marketing budget can do.
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________________________
+Sent by RocketMail. Get your free e-mail at http://www.rocketmail.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 13:08:17 -0400
+From: "Ted Major"<tmajor`at`exrhub.exr.com>
+Subject: Re: Cold Box
+
+
+
+
+
+
+
+
+
+
+In today's HBD, Dave Burley suggests a cold box for Jim Graham, who doesn't
+have room for a beer refrigerator.
+
+
+It just so happens that I built a prototype this weekend.  I'll put up a
+more detailed account on a web page with photos after I refine it a bit,
+but here is the rough-and-ready version.
+
+
+I picked up 50 feet of .25" ID soft copper tubing at the local building
+supply warehouse, along with a few extra hose clamps.  I used a keg to make
+a neat coil that fits into a Styrofoam cooler (until I get a nicer one for
+the task).  I put it in-line between the liquid out and picnic tap and
+filled the cooler with ice and water (the icemaker in the refrigerator
+didn't make enough ice to fill the cooler).  On the whole, it worked well
+enough, cooling the beer from 65F to about 45F.  It took about 35 PSI of
+CO2 to move the beer trough the coil, but room temp beer needs more
+pressure to maintain carbonation.  It leaked a little bit where the beer
+line met the copper tubing, but I think I can take care of that.   I think
+a full bag of ice would also cool more efficiently than the insufficient
+amount of ice I used for the test.
+
+
+Ted Major
+Athens, Georgia
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 13:24:19 -0400
+From: "Kerr, David" <David.Kerr`at`ummc.ummed.edu>
+Subject: more fun than botulism and eisbock talk
+
+
+Nathan L. Kanous II wrote:
+"It seems to me that I have heard (and have in fact tasted) a distinct
+grapefruit taste when using Chinook hops."
+Graham Barron weighed in with:
+"I've always found Cascades have the strongest grapefruit aroma and
+flavor."
+
+
+I sampled Shipyard's "Fuggles IPA" last week and was overwhelmed by the
+grapefruit aroma and flavor.  Assuming Fuggles hops are used in this
+brew (yeah, I know what happens when you ass-u-me), does mean that:
+UK Fuggles=Cascade=US Hallertauer Mittlefruher=US Tettnanger
+or
+US Fuggles=Cascade=?
+If only I has a gas chromatograph...
+Dave "I'm my own grandpa" Kerr  
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 14:57:29 -0400 (EDT)
+From: th22`at`cornell.edu
+Subject: Hop disease diag
+
+
+        A few days ago someone (sorry, I deleted your post) inquired as to
+possible reasons for yellowing of the lower leaves of their hop plants.
+David Burley suggested that it could be caused by Verticillium wilt, which
+Dave attributed to a virus, and further said that the symptoms on his
+tomato plants disappeared after switching to a VFN variety.
+        Ooh!  Ooh!  Here's my chance to contribute!  I'm a pseudo plant
+pathologist (I study plant-pathogen interactions at the molecular level)
+but I've had enough traditional plant path to know that Verticillium is in
+fact a fungus, not a virus.  The symptoms on tomato are mild wilting which
+is most pronounced during the hot part of the day.  Plants generally
+recover late in the day and look fine in the morning.  Advanced symptoms
+include marginal and interveinal necrosis of the (typically lower) leaves
+which often has a v-shape with the wide end at the leaf margin.  If you
+pull an infected plant and cut away the epidermal tissue, the vascular
+tissue will be brown, and fungal hyphae will be visible under a dissecting
+microscope or possibly with a good hand lens.
+        On HOPS (aha, some brewing info!) the leaves generally don't droop
+as they do on tomato, but the leaves do wither while remaining fairly
+rigid.  Upper leaves will wither if the plant is severely infected.  If a
+bine is pulled, the crown will remain attached to the stem (unlike a
+Fusarium-infected bine) and the vascular tissue will be brown.  This
+browning is a key diagnostic symptom, as many problems can cause wilts.  In
+both tomato and hops, leaves will have grayish patches of sporulating fungi
+on them late in the season.  Verticillium wilt typically occurs in wet or
+poorly drained soils, and is worst on Fuggles.
+        I checked our Crop Protection Chemical Control manuals for some
+labeled chemicals for use on hops.  The only labeled chemicals are all
+pre-plant soil fumigants.  They include Telone II and C-17, and Vapam, and
+can only be applied by Certified Applicators.  On tomato, Benomyl and
+carbendazim fungicides can be used as soil drenches.  I'd suggest pulling
+some of your diseased plants immidiately after harvest and checking them
+for the characteristic brown vasculature.  You could also check the roots
+for nematodes.  If your plants are in poor soil nitrogen fertilizer may
+help, but the affected leaves won't recover their former green glow.
+        Good luck!!
+
+
+Tom Herlache
+th22`at`cornell.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 13:25:18 -0700 (PDT)
+From: homebrew`at`dcn.davis.ca.us (Sean Mick)
+Subject: Celis White clone
+
+
+Barry,
+
+
+I liked what you had to say on the HBD today. I also thought it was
+inappropriate for people to chime in that Blue Moon was a hack and not to
+"style" (whatever that means for a category that only has a few commercial
+examples!), and then not even address the question/request for a clone.
+
+
+I recently brewed a Belgian White that was meant to be somewhere in the
+neighborhood of either Celis White or Hoegaarden Witbier. You may also want
+to check out the Cat's Meow for a recipe called Zoso White, which I think
+is supposed to be similar. Pierre Celis uses Cascade & Willamette for
+hopping, and Coriander & Curacao Orange Peel for aroma. Raw Texas Winter
+Wheat makes up roughly 50% of the grist, with the rest being domestic pale
+malt (I would guess Briess or Great Western). The yeast is most likely from
+Hoegaarden, but some have commented (Michael Jackson included) that the
+yeast profile is somewhat softer than that of Hoegaarden. Since you want an
+extract recipe, I would suggest finding a domestic wheat extract (50/50 or
+thereabouts), using roughly 7 lbs. for 5 gallons, and then use enough of
+the Cascade and Willamette to bitter at ~20 IBUs. There should be no hop
+aroma, some hop flavor, though. Use 1 oz. Orange peel and 1/2 oz. Coriander
+for the final 5 minutes. Buy Wyeast # 3944 Witbier yeast, White Labs Wit
+yeast (from San Diego, ready to pitch), or similar yeast from a competitor
+(or culture it from Hoegaarden bottle). Ferment at ~66F until done, should
+reach a FG of about 1.006-1.010 (depending on fermentability of extract).
+My all-grain recipe reached 1.006. Here's what I did, for reference:
+
+
+4.5# Belgian Pils malt
+3# White wheat
+1# Flaked wheat
+1/2# Flaked Oats
+1 oz. Domestic Kent Goldings-60 min
+1/2 oz. Czech Saaz -20 min
+1/2 oz. Orange Peel-5 min
+3/4 oz. Coriander-5 min
+1/2 oz. Orange Peel - dry herb in secondary
+1 coriander seed whole in each bottle (per Charlie Papazian's suggestion)
+White Labs Wit yeast (from Hoegaarden)
+10 ml Lactic Acid at bottling (actually, I used almost 1/4 of a 2 oz. 88%
+sol'n bottle)
+OG~1.050, FG 1.006
+IBU~ 20
+
+
+Mashed in at 135, raised to 150F for 1 hour. Boiled 1 hour with above
+hopping schedule, full 6.5 gallon boil (reduced to 5 over hour).
+
+
+If I had it to do over, I'd add all of the Orange Peel at the boiling, like
+indicated above. My beer has a pronounced coriander presence, so I would
+guess I have Charlie P to thank for that. Otherwise it is effervescent,
+tart, and refreshing. Color is right on for "style." Don't forget to
+pulverize the Orange Peel and coriander, like in a coffee grinder. Also,
+you should add Lactic Acid at bottling time, 5-10 ml should do nicely. You
+are shooting for 3.6-4.0 pH.
+
+
+Good luck! Let me know how it turns out.
+
+
+Sean Mick
+Mick's Homebrew Supplies
+http://www.dcn.davis.ca.us/~homebrew
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 13:45:20 -0700 (PDT)
+From: homebrew`at`dcn.davis.ca.us (Sean Mick)
+Subject: Rice syrup solids
+
+
+>My HB shop sells rice syrup solids.  What is the SG contribution of this
+>fermentable per pound.
+
+
+Bernard,
+
+
+According to my sources, rice syrup solids should yield ~45 points/lb/gal.
+ IOW 1.045 Specific gravity for 1# in 1 gallon of water. Don't know
+fermentability %,
+but it should be more fermentable than most malt extracts, since it is
+meant to lighten beer's
+ flavor and body.
+
+
+See ya,
+
+
+Sean Mick
+Mick's Homebrew Supplies
+http://www.dcn.davis.ca.us/~homebrew
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 14:03:37 -0700 (PDT)
+From: homebrew`at`dcn.davis.ca.us (Sean Mick)
+Subject: DWC malt quality
+
+
+Keith Busby <kbusby`at`ou.edu> wrote:
+>A homebrew supplier I talked with recently has stopped selling DWC malt on
+>the grounds that its quality has become inconsistent recently. Is this a
+>widespread view?
+>Graham L. Barron responded:
+
+
+>I've always found DWC to be of the highest quality and regularly of high
+>quality, at that.  DWC seemed always to make the best Belgians and German
+>lagers.
+
+
+I'd have to agree with Graham. I sell almost the complete line of DWC malts
+and have not been let down yet. I use them regularly in my own brewing. I
+have noticed that Special B can have quite a range of colors from year to
+year, which will affect the roasty character a bit. Personally, their
+Munich malt is my favorite, but all the others are quite nice. I would
+recommend them to anyone, especially over some of the domestic malt when
+being considered for a Belgian or German brew. I have not tried most of the
+German malts due to difficulty in consistently obtaining them, however. I
+may change my mind on some recommendations once I get ahold of some
+Weyermann malt. Storage, and dealing with a reputable wholesaler could
+explain some of your shop owner's difficulties. I buy from West coast
+distributors in 50lb. sacks, so I know that I am getting genuine DWC (made
+exclusively for Schreier). I sincerely hope your shop finds a way to keep
+the line of malts available for you.
+
+
+Sean Mick
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 17:02:52 -0400 (EDT)
+From: Alpinessj`at`aol.com
+Subject: 5l mini kegs - Jim Graham
+
+
+I have not seen an answer to any of Jim's questions over the last couple of
+ days so I'll give my input.
+ 
+ I started using the 5l mini's because I did not want to get into the 5
+gallon
+ corny's and C02 dispensing system (actually, my wife would not let me). But
+ w/ 1 keg and 22 oz bottles each batch did not take a lot of time to bottle.
+ 
+ I basically treated the 5l mini as a big bottle as far as priming goes.
+ However, since there is less head space per given volume of beer, you have
+to
+ cut back on the amount of priming solution. I found that half strength of a
+ normal bottling priming solution worked well. I would pour half my priming
+ solution in the bottling bucket, then rack the beer in, fill the 5l mini,
+ pour the rest of the priming solution in, gently stir, then finish bottling
+ as normal.
+ 
+ Buying the 5l mini's with beer already in them works fine, but you can't
+ follow the instructions or use the taps that come with them. They tell you
+to
+ dispense the beer by turning the keg upside down (using gravity to push out
+ the beer) and cut a hole in the top to prevent a vacuum. If you dispense
+them
+ with the taps meant for homebrew  and the C02 cartridges you'll be fine.
+ 
+ Lastly, a word on the Carbonator. I have never used this to carbonate the 5l
+ mini's, but I found it very usefull in dispensing the beer when you get
+tired
+ of buying the C02 cartridges. If you use a grolsh-type washer to make a good
+ seal, you can screw it into the back of the tap instead of the C02 cartridge
+ attachment and then hook it up to a ball-lock C02 dispenser. This provides
+ for a smoother pour because you can regulate the C02 much better, and it is
+ actually cheaper than buying the cartridges in the long run(I can fill my 10
+ lb cylinder for $11 and it lasts 6 to 12 months). The cartridges are still
+ good if you go on a camping trip or hiking where you don't want to lug
+around
+ a big C02 cannister.
+ 
+ Anyway, hope this helps and I'm sorry this went so long.
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 16:30:08 -0500 (CDT)
+From: "Val J. Lipscomb" <valjay`at`NetXpress.com>
+Subject: Minikeg bung in Gott
+
+
+In HBD #2478,Ken Schwartz says:
+
+
+> BTW this use of the bung as a bulkhead works great in a standard Gott-type
+>cooler, but since the hole is a bit off the floor of the cooler, the >manifold
+>arrangement needs to be different than I described.  Try two 45-deg couplers
+>to drop from the hole to the floor level.
+
+
+ 
+In my set-up,I raised the copper manifold using short pieces of 1/2"
+copper tubing screwed to the bottom of the manifold.This gives a space
+for draff to collect under the manifold and IMHO results in a clearer
+runoff. Mine takes a thick wall 3/8" vinyl tube through the bung to
+a 3/8 X 1/2 coupler on the manifold. I got the idea from a fellow
+club member who has his manifold sitting on a bed of 1/2" marbles.
+Works for me,YMMV.
+
+
+Val Lipscomb-brewing in San Antonio
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 16:38:06 -0400
+From: "Moyer, Douglas E (MIS, SalemVA)"
+Subject: Flaked barley & DME
+
+
+All,
+        I spent some (company) time perusing the HBD archives on using
+flaked barley in an extract stout. The primary opinions are as follows:
+
+
+1) Go ahead & steep for 30 min. `at` 150 deg.
+2) Steep with the extract at 155-158 deg for 15-30 min, only if the
+extract is diastatic.
+3) Do not steep--will not provide head retention & will cause haze (not
+visible in a stout). Partial mash with equal amounts of pale malt `at` 155
+deg for 1 hour.
+
+
+I am using Munton's amber dry malt extract, which my homebrew supply
+owner *thinks* has very little diastatic power.
+
+
+Based on the experience of those of you that are extract-brewing, how
+should I use the flaked barley (1 lb for 5 gallons)? I am not going to
+build a mash tun at this time. Will I get any head retention if I steep?
+(I really don't care about the haze, since I will be using 1 lb of
+roasted black barley.) I am willing to try to do a partial mash using a
+crock pot (to hold heat) and a strainer if I need to do so. If I need to
+do a partial mash, is equal parts of pale malt the way to go?
+
+
+I am planning on brewing on Sunday, so I would like to get a private
+email response by this afternoon (Friday). I will summarize to the group
+if I get anything worth summarizing. ;-)
+
+
+
+
+Doug Moyer
+Big Lick Brewing Collective
+"Big Lick--looking for better head."
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 97 16:34 PDT
+From: cburns`at`egusd.k12.ca.us (Charles Burns)
+Subject: Losing My Head (and body)
+
+
+Clarification. My beer gets clearer as time goes on, not cloudier. Also as 
+time goes on, it loses body and head retention. Dave B suggests it may be an 
+infection. Last week I spent 4 hours cleaning the brewery, basement and 
+refrigerator because it was beginning to smell musty/mildewey. It's spick 
+and span now and also sanitized becuase I wiped everything down with a 
+bleach solution after washing. I even took apart all the taps in the fridge, 
+sanitized those and cleaned all the hoses too. Worked up a good sweat. If 
+the problem was sanitation, it ain't no more. We'll see how the pale ale I 
+brewed on Sunday turns out.
+
+
+Charley
+
+
+
+
+------------------------------
+
+
+Date: Thu, 7 Aug 1997 17:36:31 -0600 (MDT)
+From: Ian Smith <rela!isrs`at`netcom.com>
+Subject: When to pick hops ?
+
+
+
+
+Does anyone know how to tell if and when to pick hops from the vine ? I 
+have lots of green clusters right now which smell great but cant decide 
+if it is time to pick them.
+
+
+Also there has been talk of a "grassy" smell/taste associated with home grown
+hops on the HBD. Does anyone know how to avoid/eliminate this ? I plan on
+using a food dehydrator to dry my hops - how do I know when they are dry ? 
+
+
+Cheers
+Ian Smith
+isrs`at`rela.uucp.netcom.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 Aug 1997 21:07:30 -0500
+From: "Robert C. Sprecher, M.D." <rcs8`at`en.com>
+Subject: Filtering beer
+
+
+What's the best filter size to use for filtering beer.
+
+
+I've seen 0.5, 1, 5, 10, and 20 micron filters. Any recommendations?
+
+
+Thanks.
+
+
+Rob Sprecher
+ 
+
+
+
+
+------------------------------
+
+
+Date: Thu, 07 Aug 1997 18:12:24 -0700
+From: Joe Stone <joestone`at`cisco.com>
+Subject: Re: Hop back
+
+
+Does anyone have any experience with the S.S. hopback offered by Ken
+Johnsen at Precision Brewing Systems?  The P.B.S. hopback is listed at
+$84.95.  Their web page,
+
+
+        http://www.wp.com/hosi/pbscat.html
+
+
+describes the hopback as,
+
+
+   * All Stainless Steel Construction
+   * Screws into the bottom drain (1/2") of your boiler (we recomend
+     you use an SS compression fitting)
+        o 3/8" SS compression adapter available for 3/8" drains
+        o Can also connect to your drain via 1/2" id tubing
+   * No loss of height between kettle drain & line out of hopback.
+   * Easy to open and clean.
+   * holds up to 1.5 oz. of leaf hops.
+
+
+through private E-mail, Ken has described the hopback as,
+
+
+> Vessel is all stainless (tank, in/outlet, cover & screen. Measures
+> 5 3/4" high by 5" diameter. Capacity is 1 qt. Inlet is 1/2" od tube 
+> about 3/4" below top. Outlet is also 1/2" and comes off 180 degrees
+> from inlet. Cover is held on by wing nut.
+
+
+  This is not intended to be an advertisement for P.B.S.  I'm not 
+affiliated with P.B.S., but I have had Ken modify four Vollrath pots
+for me.  Overall, I was happy with the quality of the work and I am
+considering purchasing his hopback.
+
+
+  Any thoughts?
+
+
+Joe
+
+
+------------------------------
+
+
+Date: Fri, 08 Aug 1997 11:17:39 -0700
+From: Andy Walsh <awalsh`at`crl.com.au>
+Subject: The Hop Research Department of Wye College
+
+
+Before any readers prematurely dismiss the claims of Colin Green as
+being those of a raving lunatic (that US Tettnanger = Fuggle and real
+Tettnanger is the same variety as Saaz anyway, from the samples he has
+tested), I thought I should say a little about the Hop Research
+Department of Wye College, where he works.
+
+
+The Hop Research Department holds *the* elite stocks of all hops grown
+in Britain. Material derived from these stocks is supplied to specialist
+propagation firms, then to the growing industry. Hop varieties bred at
+Wye have formed the basis of most of the hop breeding programmes
+throughout the world. It has been the main centre for scientific
+research on hops in Britain for over 100 years and has become
+established as a world leader in most aspects of hop research.
+
+
+The article was published in the Journal of the Institute of Brewing.
+This is one of the most highly regarded technical publications on
+brewing in existence, and all articles are rigorously screened by
+experts from the industry before going to print. Colin Green's
+statements would have arisen from months of extensive research at Wye
+beforehand.
+
+
+So before dismissing these claims out of hand, just ask yourself, "Do I
+know as much about hop breeding as Colin Green would?" If the answer is
+yes, you're probably in the wrong job.
+
+
+Andy.
+
+
+------------------------------
+
+
+Date: Thu, 07 Aug 1997 23:00:53 -0700
+From: "Kevin F. Schramer" <humulus`at`megsinet.net>
+Subject: Aureus hops
+
+
+I received several hop plants a few months ago from a french company:
+fuggles, wye challenger and aureus....i know about the fuggles and wye
+challenger....but I can't seem to find out anything about the Aureus.
+Can anyone out there shed some light on this hop variety?  It will be
+greatly appreciated, especially since it will be living in my yard.
+thanks
+kevin F schramer
+humulus`at`megsinet.net
+
+
+------------------------------
+
+
+Date: Fri, 8 Aug 1997 07:35:29 -0400
+From: "Joseph G. Spears" <jspears`at`twave.net>
+Subject: pH Problems
+
+
+If your pH is 5.0, you should raise it for all of your water to 
+protect your plumbing system as well as to improve your brewing.  
+This s done with an acid neutralizer added to your plumbing system as 
+the water enters your house.  They are not expensive, adjust 
+pH and add  calcium to the water.  
+
+
+Joe Spears CWS-V
+Certified Water Specilist
+
+
+------------------------------
+
+
+Date: Fri, 08 Aug 1997 11:55:33 +0000 (GMT)
+From: DAVE BRADLEY IC742 6-7932 <BRADLEY_DAVID_A`at`LILLY.COM>
+Subject: Indianapolis Propane Burners
+
+
+For those in Indy, I just saw a good deal at the sporting
+goods store Galyan's, located in Castleton.  They were
+clearing out some camping equipment, including a two-
+burner propane stove w/stand, for $79.  Now that is
+a fair price, but the interesting thing I noticed was
+this Cache Cooker unit has two ring-style burners identical in
+appearance to the Superb units.  Each burner is rated
+for 30K BTU.  Carpe burners!!  If I didn't already have
+two pseudo-ring high-pressure burners, I'd have bought this.
+Its a good deal.  The stand they're in are probably OK for
+5g batches, but the burners themselves are easily removed
+for custom mounting.  Galyan's also is selling the
+high pressure pseudo-ring single burners for $29.
+No affiliation, just sharing what I saw....
+
+
+Dave in Indy
+Home of the 3-B Brewery, (v.) Ltd.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 8 Aug 1997 08:34:55 -0400 (EDT)
+From: Eugene Sonn <eugene`at`dreamscape.com>
+Subject: how to measure extract weight by volume
+
+
+HBDers,
+        I've got a strange request.  Because I'm brewing several batches
+in short order, I bought a 15 kilogram vat of malt extract.  Here's the
+question: how do I measure out the appropriate number of POUNDS of extract
+without a scale?  Does anyone have a good approximation for how many cups
+of extract equal a pound?  I've consulted all the homebrew books I have
+access to as well as the Joy of Cooking.  Private e-mail would be great
+unless you feel everyone would benefit from the answer to this very
+specific question.
+
+
+Eugene Sonn
+eugene`at`nova.dreamscape.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 8 Aug 1997 08:52:15 -0500
+From: ajdel`at`NOSPAMmindspring.com (A. J. deLange)
+Subject: Low Water pH
+
+
+Rick Pauley asked what could be done about water at pH 5. I would guess
+that this water comes from a well in which case it is quite possible that
+the pH can be raised to a reasonable value simply by letting dissolved CO2
+escape. Try pouring a couple of quarts back and forth between buckets a few
+times and see if the pH increases. If it does, keep going to see how high
+the pH can be raised by this process. You might be surprised.
+
+
+If this is sucessful then, obviously, aeration will do the trick. Boiling
+will also remove CO2 and raise pH but may also precipitate chalk lowering
+calcium ion concentration (usually bad) and simultaneously lowering
+alkalinity (usually good).
+
+
+If aeration does not raise the pH then have the water checked. There really
+isn't anything I can think of which should find it's way into the water
+naturally other than CO2 which would lower pH this much (I don't consider
+sulfuric or nitiric acid from acid rain "natural").
+
+
+Cheers, AJ
+
+
+Numquam in dubio, saepe in errore.
+
+
+Remove NOSPAM to reply.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 8 Aug 1997 09:59:45 -0400
+From: Rory Stenerson <71762.1664`at`compuserve.com>
+Subject: Re: Honey Brown
+
+
+John Penn wrote in the last HBD:
+
+
+"I also recently made an ESB from a recipe provided by another HBD lurker=
+,
+Dave
+Kerr, and substituted 1 # of honey for the 1 # of sugar in the recipe.  I=
+n
+spite of my initial impression of "honey" beers, I must say I think I lik=
+e
+having a little honey in the beer.  It makes for a lighter tasting ale wi=
+th
+more kick than you'd expect and there's a certain flavor to the honey tha=
+t
+I
+like but cannot describe."
+
+
+Cheers to you John, may I also suggest that you use locally produced hone=
+y
+in your future formulations?  There is a big difference between the honey=
+
+
+you can get from a local beekeeper and honey found on the supermarket
+shelves.  If you wish, send me via e-mail your city and state you live in=
+
+
+and I'll send you the name of a local beekeepers association.  They will =
+be
+able to help you select a floral variety that may really enhance your nex=
+t
+brew.
+
+
+Prost,
+
+
+****************************************************************
+*               I believe that the phenomena of nature         *
+*               is the expression of infinitive intelligence   *
+*               I express my belief that all forms of life     *
+*               are manifestations of spirit                   *
+*               and thus, we are all children of God,  Peace   *
+****************************************************************
+* Rory Stenerson
+* V.P. State College Underground Maltsters, S.C.U.M. =
+
+
+* Member - Centre County Beekeepers Association    =
+
+
+* State College, PA USA                           =
+
+
+* Email: 71762.1664`at`compuserve.com               =
+
+
+*                                               =
+
+
+****************************************************************
+
+
+------------------------------
+
+
+Date: Fri, 08 Aug 1997 09:12:15
+From: Jay Reeves <jay`at`or.com>
+Subject: Re: yellowing hop leaves
+
+
+There was some talk a few weeks ago about the leaves yellowing
+on home-grown hops.  Someone (sorry, forgot who) I think mentioned
+that it was a chemical deficiency and that putting some magnesium
+sulfate on the mounds would correct the problem (or at least it did
+for them).
+
+
+I did just that to my plants and yellowing has occured since then
+to leaves that were green at the time of the MgSO4 application.
+
+
+My wife and I happened to be out in Yakima, Washington last week
+and toured HopUnion and Roy Farms.  Everyone knows that HopUnion
+is a hop broker/processor.  Roy Farms is one of the largest hop
+growers in the Yakima Valley (not to mention they are also one
+of the larger fruit producers of the area -- yes, fruit alongside
+hops).  We talked with Leslie Roy (one of three brothers that have
+been at hop growing all their life) and I asked about yellowing
+leaves.  It's strange, because he finished my question before I
+could -- obviously it was a problem he was all too aware of.
+
+
+He said the yellowing older leaves were a result of either
+irregularities in the watering patterns, or not enough sun.
+
+
+Leslie said that if the plant experiences periods of dry along
+with periods of wet, the older, lower leaves will turn yellow
+and drop (he didn't explain why that is - can anyone here?).
+He recommended that the best solution to this was to ensure
+that the plants receive water on a daily basis, but warned
+not to overwater.  He said that a drip-irrigation system was
+ideal for this and easy to do, even for the hobby-grower.
+
+
+Leslie also said that shade (or not enough sun) will cause the
+older, lower leaves to yellow in the same way.  His explanation
+was that the plant senses a decrease in sunlight and "thinks"
+it does not need the leaves for photosynthesis, so it drops
+them.  He said yellowing from that doesn't physically hurt the
+plant, although yellowing from watering irregularities could.
+
+
+I mentioned the deal about adding magnesium-sulfate and he said
+that if the yellowing was due to a chemical imbalance in the
+soil, the entire plant would be affected, not just the lower,
+older leaves.
+
+
+I wonder if by applying the MgSO4 by the person that posted
+about it, that you didn't just happen to water them a little
+more thinking that it would get the MgSO4 into the ground
+better, and thus it was actually the extra water that did the
+trick and not the MgSO4?  Just speculation....
+
+
+The drip-irrigation systems I observed in place in the fields
+were of a hard, black plastic, 1/2"-3/4" diameter hose
+(technical name?) with small holes punched in it every few feet.
+Water was run through these continuosly, providing water to
+the plants.  This type of system would be easy to make.  I
+believe this type of hose may be used in plumbing.
+
+
+The other irrigation system I saw in fields had a small ditch
+between the rows, constantly being fed water from a shut-off
+valve at the end of each row.
+
+
+Leslie said that the ground around it only needs to be kept
+moist, not saturated with water.  Another thing he said was
+not to fertilize after the burrs start to develop because
+the plant would go into a growth mode and quit putting its
+energy into hop development.   In the "big-boys" hop fields,
+the fertilizer is injected into the water.
+
+
+If anyone ever finds themselves in Yakima, you owe it to
+yourself to call ahead and arrange a tour at each of these
+places, but please call ahead.  They are very nice people
+and are willing to talk all day about hops, just as brewers
+are willing to talk all day about beer.  I wouldn't recommend
+going when they are processing the hops because they may be
+too busy.  We were shown the entire process that the hops go
+through from the field to the bail at Roy Farms, and the
+processing that HopUnion does in pelletizing and packaging.
+
+
+BTW, they're going to start picking the hops in 2-3 weeks
+and will continue into October.  The Tett's are in full
+swing and will be the first to go, with everything else
+right behind them.
+
+
+                -Jay Reeves
+                Huntsville, Alabama
+
+
+
+
+
+
+                                
+NOTE: Any replies need to manually change
+the "or" in the "reply to" field to "ro"
+ - sorry, but blame the spamers for that!
+
+
+------------------------------
+
+
+Date: Fri, 8 Aug 1997 10:42:28 -0400 (EDT)
+From: "Bret A. Schuhmacher" <bas`at`healthcare.com>
+Subject: Buying LME from Williams Brewing?
+
+
+
+
+Williams Brewing (www.williamsbrewing.com) seems pretty good - great
+prices, nice web site where you can track your order, etc. - but I'm
+worried about buying LME from them.  They sell in pre-packaged 6#
+bags.  I usually buy from other places that have big drums of LME that
+I can get say, 7.3# in a bucket.  Is the inability to get the exact
+amount a big problem when brewing?  Do you make up the difference
+between 6# and 7.3# with DME?  How/where do you store extra LME
+(like if you bought 12# from Williams and used 7.3#)?  Does it go
+bad?  
+
+
+Thanks,
+
+
+Bret
+- -- 
+A nuclear war can ruin your whole day.
+
+
+------------------------------
+End of HOMEBREW Digest #2481, 08/11/97
+*************************************
+-------

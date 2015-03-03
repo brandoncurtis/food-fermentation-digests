@@ -1,0 +1,1143 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA17782;
+        Sat, 13 Nov 1999 00:27:46 -0500 (EST)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA02224;
+        Sat, 13 Nov 1999 00:27:45 -0500 (EST)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA24882
+        for realhomebrew; Sat, 13 Nov 1999 00:18:40 -0500
+Date: Sat, 13 Nov 1999 00:18:40 -0500
+Message-Id: <199911130518.AAA24882`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3169 (November 13, 1999)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3169                             Sat 13 November 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Yeast, rants, and science vs. engineering ("Sean Richens")
+  Force carbing 5 gallon kegs over time ("Dan Kiplinger")
+  foamy StarSan (amgrady)
+  Fermenting in garbage cans? (Kurt Kiewel)
+  Cider and yeast nutrient ("Dan Kiplinger")
+  re: Brewstmas (phil sides jr)
+  Aeration and pitching (KMacneal)
+  More on Oxygenation ("Kruska, Russ")
+  Calcium Sulfate,slow ferment,headaches (Dave Burley)
+  Re: BrewTek (HBD # 3168) ("Gordon Strong")
+  Dear Santa ("SCHNEIDER,BRETT")
+  re: BrewTek, Books by ABG & Startup Brewpubs (The Artist Formerly Known As Kap'n Salty)
+  Brewers Resources, WOTTEN EGG, Yeast for Lager/Steam Beer (RCAYOT)
+  Secrets of The Horizontal Pour? (MaltyDog)
+  re:winemaking ("Nathaniel P. Lansing")
+  RE: Brewing Poem (John Wilkinson)
+  Emril Live Homebrew (Brad Miller)
+  Brewer's Resource (John Wilkinson)
+  brewtek (Jeremy Bergsman)
+  Aerate vs. Non-Aerate/Cask-conditioning... 5 gal in 7.75 gal keg? ("Riedel, Dave")
+  Brewstmas List ("Eric R. Theiner")
+  Brewstmas ("Sean Richens")
+  s. ludwigii (Jim Liddil)
+  aha 98 financials (Jim Liddil)
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+* The HBD now hosts eight digests related to this and a few other hobbies.
+* Send an email note to majordomo`at`hbd.org with the word "lists" on one 
+* line, and "help" on another (don't need the quotes) for a listing and
+* instructions for use.
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+Contact brewery`at`hbd.org for information regarding the "Cat's Meow"
+
+
+Back issues are available via:
+
+
+  HTML from...
+        http://hbd.org
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+COPYRIGHT for the Digest as a collection is currently held by hbd.org 
+  (Pat Babcock and Karl Lutzen). Digests in their entirity CANNOT be 
+  reprinted/reproduced without this entire header section unless 
+  EXPRESS written permission has been obtained from hbd.org. Digests
+  CANNOT be reprinted or reproduced in any format for redistribution
+  unless said redistribution is at absolutely NO COST to the consumer.
+COPYRIGHT for individual posts within each Digest is held by the
+  author. Articles cannot be extracted from the Digest and
+  reprinted/reproduced without the EXPRESS written permission of the 
+  author. The author and HBD must be attributed as author and source in
+  any such reprint/reproduction. (Note: QUOTING of items originally
+  appearing in the Digest in a subsequent Digest is exempt from the
+  above. Home brew clubs NOT associated with organizations having a
+  commercial interest in beer or brewing may republish articles in their
+  newsletters and/or websites provided that the author and HBD are
+  attributed. ASKING first is still a great courtesy...)
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 11 Nov 1999 13:37:31 -0600
+From: "Sean Richens" <srichens`at`sprint.ca>
+Subject: Yeast, rants, and science vs. engineering
+
+
+OK, I can't hold back my $0.02 worth any more:
+
+
+Miguel gets away with no special aeration steps, others seem to need a bit
+of rocket fuel, Molson's depends on oxygenating for the first day of
+fermentation (they do exclusively high-gravity - a capital utilization
+thing), I'm firmly in the middle.
+
+
+We all brew within certain limitations - I can't boil more than 17 L, for
+one.  But the objective is to make good, no, excellent beer by controlling
+the flavour components.  It's important to remember that each flavour
+parameter is controlled by several inputs.  I suspect that Miguel doesn't
+remove his cold break, so is less oxygen-dependent.  I just remember that
+if I plan to do trub removal, then I have to be more serious about oxygen.
+
+
+The same applies to all of the momily/necessity parameters.  A full wort
+boil is not necessary if you understand the implications of a concentrated
+boil and control the other parameters to compensate (use Irish moss,
+compensate for hop utilization, use a touch less of any caramel malts,
+etc.); and so on.
+
+
+It's engineering, not science.  Controlled experiments are a last resort,
+since we have a century and a half of good textbooks to follow.  Start with
+a reasonable but not obsessive brew set-up, and taste your beer.  Diacetyl?
+ You can adjust fermentation temperature, use a diacetyl rest, rouse your
+yeast, switch strains, etc., starting with whatever's most convenient.  And
+so on until you're proud of the beer you make and the next potential
+improvement is just not worth the cash or the trouble.
+
+
+Time for another beer,
+Sean
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Nov 1999 15:58:01 -0500
+From: "Dan Kiplinger" <knurdami`at`iname.com>
+Subject: Force carbing 5 gallon kegs over time
+
+
+Since I haven't carbonated beer by leaving it exposed to CO2 in the fridge
+(I usually just shake the s*#! out of it), I was wondering, how many days it
+takes for cold beer to come up to the right level of CO2?
+
+
+If a 5 gallon keg of beer was totally flat, cooled to 39F, and then attached
+to the CO2 at 12psig (ProMash CO2 calculator for 2.5 volumes) -- how many
+days will it take to carbonate?  I'm guessing 5-7 days.  Am I close?
+
+
+My Method:
+When I keg, I usually hook the CO2 to the liquid out of a corny keg and
+bubble it in while gently rocking the keg at a regulated pressure of around
+35psig.  The pressure (35psig), according to ProMash, is 7.5psig more than
+needed for 2.5volumes.  I continue to gently rock until I have to shake the
+keg pretty hard to get the gas to flow in.  Then I chill it overnight and
+the next day I shake and shake at about 15 to 20 psig until it tastes right.
+That means a lot of wasted CO2 (relieving the pressure to sample out of a
+cobra), lots of beer to drink at carbonating time (the beer part isn't so
+bad but I'd rather drink it carbonated to the right level), lots of time
+(letting it set for 20 min. between "juices"), and lot's of guess-work.  So
+this brings me to my experiment.............
+
+
+I decided to see how much CO2 I could dissolve into the beer right after I
+keg it (68F).  I did the usual 35psig into the dip-tube and chilled it in
+ice-water to 40F without adding anymore CO2.  The beer was still very flat.
+There were some bubbles, but it wasn't even close to the carb level.  This
+is when I decided I was going to do one of two things:
+
+
+1. Determine empirically how much more pressure I would need to use with my
+current method (rocking until the beer resists more CO2) to get the chilled
+keg "right on" without having to add anymore gas.
+2. Just keg the stuff, add a little CO2 to make a good seal, hook it up to
+the CO2 tank in the fridge, and wait a few days.
+
+
+I did not like the first idea of increasing the pressure above 35psig and
+from the flatness of the test keg I just did, it would have to be raised a
+lot.
+
+
+Dan from Kalamazoo
+
+
+PS. Kyle writes: "(forgive the simpleton explanations, I was educated in the
+state of Michigan)"
+Hey Kyle, where did you go to school?  Delton Community College?  Or were
+you referring to one of our many quality Pre-Schools.  ;-)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Nov 1999 19:28:48 -0500
+From: amgrady`at`together.net
+Subject: foamy StarSan
+
+
+Dan Ritter writes in hbd #3167 about his 1st experience with StarSan,
+and wonders what's up with all the foam!
+
+
+Dan, the foaming is part of the design of the product, intended for
+maximum expansion/coverage in 'clean-in-place' systems.  When I use it,
+I always add to the already full soaking vessel/bucket...you can't pour
+some in and then add your water - foamover city!
+
+
+5Star advertises this as no-rinse at concentrations of 200ppm (1oz in 5
+gal).  When you don't rinse, you definitely have residual bubbles/foam
+in botles, carboy, whatever, just as you note.  I tried the 1st couple
+of batches this way, and found the final result to be abnormally hazy,
+and also suffering from relatively poor head retention.  These were
+standard batches that I had done many times, so although the evidence
+was anecdotal, I switched to rinsing.
+
+
+I really like this product, but I'm not realy sure if it is more
+environmentally benign than iodophor...From the 5star web site, StarSan
+is "a blend of phosphoric acid and dodecylbenzenesulfonic acid". 
+Environmental chemists, step right in!
+
+
+Matt Grady
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Nov 1999 18:37:38 -0600
+From: Kurt Kiewel <kiewel`at`mail.chem.tamu.edu>
+Subject: Fermenting in garbage cans?
+
+
+Dave Burley ferments in plastic covered garbage cans.  Dave, can you tell
+us how you sanitize your garbage cans?  I have been shying away from
+plastic fermenters because I'm told that scratches can develop in them.
+More specifically, non-beer friendly organisms can harbor in the scratches
+that can be difficult if not impossible to remove or kill.
+
+
+Kurt Kiewel
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 01:37:25 -0500
+From: "Dan Kiplinger" <knurdami`at`iname.com>
+Subject: Cider and yeast nutrient
+
+
+Our homebrew club (KLOB) just presses nearly 2,000 pounds of apples at our
+first annual "Klopple press" and I ended up with 20 some gallons to ferment.
+Half of this belongs to two friends and I got stuck dealing with it, but
+that is another story.
+
+
+My question is:  The cider is already fermenting away and looking like it
+has the potential to go all the way -- but -- I didn't add any yeast
+nutrient.
+Q1.  Should I add the YN now to salvage the lack thereof?
+Q2.  Should I wait until the stuff stalls and then add the YN.
+Q3.  Should I just let the shit go and not worry about it? (is shit a
+naughty word that shouldn't be used?  I'll wait to have the barrage of
+personal emails to let me know).
+
+
+Dan from the "hand" state
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 02:49:21 -0500
+From: phil sides jr <psides`at`carl.net>
+Subject: re: Brewstmas
+
+
+Marc Sedam wishes:
+
+
+>P.S.  If someone could just sell a new, food grade, high
+>temperature mag drive pump for under $100 it would be on my list!
+
+
+Moving Brews does sell such a pump (a few actually) for less than
+$100... I own one ;-)
+
+
+Phil Sides, Jr.
+Concord, NH
+- --
+Macht nicht o'zapft ist, Prost!
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 07:26:43 EST
+From: KMacneal`at`aol.com
+Subject: Aeration and pitching
+
+
+I've been getting good results aerating wort by pouring through a large 
+strainer after cooling.  Pouring through a strainer gives the added benefit 
+of removing hops & hot break.
+
+
+I have seen the effects of underpitching.  I brewed the same recipe on back 
+to back weekends.  The first weekend I was in a bit of a hurry and pitched 
+the yeast directly from the smack-pack.  The second weekend I racked the 
+first batch into secondary and pitched the second batch onto the yeast cake 
+from the first batch.  The second batch had a lower lag time and higher 
+attenuation than the first batch.
+
+
+Normally I follow the suggestions in the homebrewing books and pitch a pint 
+of fermenting wort for ales and a quart for lagers.  I've grown yeast 
+starters up in 1 gallon of wort for high gravity beers (I allow the yeast to 
+settle out and decant most of the liquid before pitching).
+
+
+I haven't seen any adverse effects from pitching a fresh batch onto the yeast 
+cake from a previous batch.  I do this quite frequently.  Oftentimes I'll 
+brew a pale ale and then a porter or stout, pitching the darker wort on the 
+yeast cake from the pale.  I've find this very helpful for brewing high 
+gravity beers.  I've brewed a 'normal' gravity belgian one weekend and 
+followed it up with a high gravity belgian the following weekend, or brew an 
+IPA one weekend and follow it up with a high gravity scotch ale, or start a 
+batch of Oktoberfest and follow it up with a double bock.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 04:32:33 -0800
+From: "Kruska, Russ" <R.KRUSKA`at`CGIAR.ORG>
+Subject: More on Oxygenation
+
+
+I made the switch to pure oxygen and would like
+to post the results of the first brew, a porter (1.054).
+
+
+Our club is really famous for its porters, and we
+generally use pale malt, 1/2# chocolate, some amber
+malt (aromatic, munich), 1/2# 50L Crystal and 1056
+yeast.  Before oxygenation we simply swirled the
+carboy, and always had 2-4 week fermentations and
+the 1056 always gave us FGs of 1.012-1.014 for brews 
+in the 1.050-1.060 range.  Mash temps 150F.
+
+
+This new oxygenated porter ended at 1.006 and was
+extremely DRY.  This was not the character we wanted,
+we seemed to lose all of the sweetness of the amber
+and crystal malts.  I guess with oxygenation, brewing
+techniques also must be changed--we should have mashed
+at higher than the 150F we used.  Any comments?
+
+
+The oxygenated porter also fermented out in 1 week.
+
+
+Russ
+c/o Hoopoe Brewers
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 08:38:45 -0500
+From: Dave Burley <Dave_Burley`at`compuserve.com>
+Subject: Calcium Sulfate,slow ferment,headaches
+
+
+Brewsters:
+
+
+Matt Comstock ponders his long slow
+extract fermentation and wonders if it
+has anything to do with not adding gypsum.
+
+
+I don't find 6 days a long time to ferment,
+but it will depend on lots of things, like
+OG, yeast, temperature,pitching rate.
+And if you are normally finished in two
+days ( mine never are) then this can give
+you pause.
+
+
+Calcium does affect flocculation in some
+yeast, but only versus distilled water and
+chances are the wort you have has calcium
+in it, as does your water.  In any event,
+calcium will have no effect on the
+fermentation rate, just possibly clarification rate.
+
+
+I suspect your problem has to do with
+low FANs due to a high added sugar content
+in the extract. Add some yeast energiser or
+ammonium phosphate which you do not
+need to add to an all-grain wort.
+- ---------------------------------------------------------------- 
+
+
+Tony Gallodi asks about yeast rehydration.
+Always add dried yeast to water at about 100-110F
+or whatever the package says. Allow it to remain
+no more than 15 minutes and then pitch it. This
+technique will avoid petite bodies and a stuck
+fermentation
+- ---------------------------------------------------------------
+Many years ago I used to get blinding headaches
+when drinking Black Label while living in Britain.
+Even a single bottle would incapicitate me in 30 min.
+Turns out it was the cobalt heading agent they
+ were using at the time. So Ken, consider any 
+
+
+additives ( or cleaning agents ) you might be using
+in your beer as a candidate. Don't know why in 
+
+
+beer but people here have reported an allergy
+to sulfite which can cause headaches and rashes.
+- ---------------------------------------------------------------- 
+
+
+Keep on Brewin'
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 09:11:51 -0500
+From: "Gordon Strong" <strongg`at`earthlink.net>
+Subject: Re: BrewTek (HBD # 3168)
+
+
+Brett Spivy asks about experiences with Brewer's Resource (www.brewtek.com).
+I've ordered from them three or four times over the past three years.  I've
+ordered over the phone and the web.  I've never had any problems and would
+order from them again.  I'd probably consider them my first choice for a
+web-based order.  I think they have a great selection of equipment.
+
+
+I've also had good experiences with HopTech (www.hoptech.com), Williams
+Brewing (although their web site ordering form needs work), Heart's Homebrew
+(great chiller!), and Evergreen Brewing (the only place I could find whole
+spalt hops for Al K's altbier last year).  I've also ordered equipment from
+Sabco and Cynmar without problems.  Maybe I've been lucky.  Maybe you've
+been unlucky.  Dunno.  This is certainly not a statistically valid sample,
+but my anecdotal evidence is positive.
+
+
+I usually order from an online place once or twice a year.  I try to get
+most of my supplies locally if possible.  Sometimes I need fairly
+specialized/advanced/hard-to-find stuff and that's when I go online.  I'll
+put in a plug for my local stores, Belmont Party Supply in Dayton (great
+hours) and Listermann Manufacturing in Cincinnati (like visiting Santa's
+workshop).  It's also good to have relationships with local breweries and
+brewpubs for grain and yeast.
+
+
+Your milage may vary.  Standard disclaimers apply (no affiliation yada yada,
+just a satisfied customer).
+
+
+Gordon Strong
+Beavercreek, OH
+strongg`at`earthlink.net
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 08:25:21 -0500
+From: "SCHNEIDER,BRETT" <SCHNEIDERB`at`morganco.com>
+Subject: Dear Santa
+
+
+Here's my short list trying to meet the challenge of keeping it below $100
+per item. I would find it impossible to keep the total less than $100 and
+enjoy myself. And 3 seems 1 too few:
+
+
+40 lb propane tank (new, since I can't locate any used - HELP?) ~70
+Moving Brews Pump 9543FF (at 190F I call it high temp) ~97
+SS carbonator dip tubes from Williams Brewing ~25 (?) if memory serves me
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 14:47:32 GMT
+From: mikey`at`swampgas.com (The Artist Formerly Known As Kap'n Salty)
+Subject: re: BrewTek, Books by ABG & Startup Brewpubs
+
+
+> Has anyone here had positive experience with BrewTek / Brewer's
+> Resource?  I have three purchases under my belt from them and ONE
+> marginally positive experience.  Just curious.
+
+
+I've used them pretty extensiviley for yeast-related stuff and never
+had a problem. (I think I may have bought a pot from them too.)
+However, because of the distance from here (Covington, LA) I generally
+try to use either a local supplier or a closer mail-order place (St.
+Pats, in my case).
+
+
+Cheers -- mikey
+***********************************
+Go ahead ... try the sauce. The sauce is good. The sauce 
+
+
+
+
+------------------------------
+
+
+Date: 12 Nov 1999 08:40:01 -0500
+From: RCAYOT`at`solutia.com
+Subject: Brewers Resources, WOTTEN EGG, Yeast for Lager/Steam Beer
+
+
+     Recently, Brett A. Spivy asked about Brewers Resources.  I buy my 
+     yeast from them on slants.  I have purchased some grain from them 
+     also.  I have always been treated fairly, and recieved my murchandise 
+     on time.  (no affiliation just a satisfied customer...)
+     
+     Ken's Wotten Egg problem could be aided by adding ion exchange to his 
+     charcoal filtration.  Charcoal is for organics mostly, and the sulfur 
+     smell is probably inorganic, like H2S.  (Can H2S be produced as the 
+     result of interaction of other Sulfur containing compounds wiht Iron?)
+     
+     Now to oppening up a hopefully useful conversation herre.  I usually 
+     like to brew when I am inspired to brew something for some reason, I 
+     recently got inspired to brew three batches of beer, and re-pitch the 
+     yeast.  Here is the thread:
+     
+     1. Brew a batch of Steam Beer, aka California Commmon, use some the 
+     the recently mentioned Ashburne Mild Malt, some special B, maybe 
+     something else, 45 or so IBU, 1.052 OG.  Use a Lager yeast that is 
+     good for both Steam Beer, and Lager, ferment in my usual open 7g 
+     bucket with lid fermenter.  When fermentation subsides, rack to a 6.5g 
+     carbouy for cold conditioning and dry hopping.
+     
+     2.  The day of racking, brew a 12-14 gallon batch of Continental Lager 
+     (sorry I can't get any closer in style than that!) using Czech Pilsner 
+     and small amount of Munich, noble hops, around 40 IBU.  Pitch the 
+     yeast form the Steam onto this wort, oxygenate with Oxynator allow to 
+     ferment in my half barrel Sankey keg.  when fermentation is completed, 
+     get ready to rack to secondary/lagering vessel by transfering to 
+     another Sankey keg/fermenter.
+     
+     3.  Here is the best part.  Brew up a Dopplebock with 50% munich 50% 
+     pils malt and use the yeast cake from the Continental Lager!
+     
+     The reason for doing this is that I have the notion that my lager 
+     beers would benefit from higher pitching rate, now I usually pitch a 2 
+     or 3 times stepped up starter with plenty of yeast nutrient, aeration 
+     etc, but the actual mass of yeast is probably a little low, and I 
+     think that is why it takes my lagers a little longer than I would like 
+     to ferment, Usually 4 to 6 weeks to get to 90% of where they 
+     ultimately end up.  I think this is not only a combination of yeast, 
+     but I use my refrigerator without an external temperature controller 
+     and the temperature is pretty low (50-53F).  Anyway I was thinking 
+     that especially for the dopplebock I would need a lot of yeast and 
+     that yeast needs to be in good condition in order to work well.
+     
+     The quesitons I have are:
+     
+     A.  What yeast would be good to use for this brewing regiment, 
+     something that will work well as a Steam beer yeast, and something 
+     that will also work well at lower temperatures.  The yeast will also 
+     have to be "well behaved" and settle, not mutate or change, and remain 
+     relatively healthy in order to ferment out the final dopplebock.
+     
+     B.  How does one ensure that the yeast will remain healthy for 
+     repitching?  I intend to oxygenate each beer extensively.  Is that 
+     enough?  Should the yeast be washed, repitched into a starter before 
+     re-pitching into a full batch of wort?
+     
+     Thanks to all in advance!
+     
+     Roger Ayotte   
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 09:55:08 EST
+From: MaltyDog`at`aol.com
+Subject: Secrets of The Horizontal Pour?
+
+
+I recently returned from a trip to Belgium, and I 
+was very impressed by the fact that at some of
+the best beers bars there (notably the Kuliminator
+in Antwerp), corked beers, especially vintage corked
+beers, were served horizontally in a basket, like wine.
+
+
+I picked up a few serving baskets and have been
+storing my corked beers in the proper horizontal
+position, keeping the corks moist. There's one
+little problem I've been having. I have yet to be able
+to get a cork off a horizontal bottle without a certain
+amount of gushing. this causes several problems; 
+you lose some beer, you make a mess (unless you
+do it over the sink) and it would seem to be that with 
+all that agitation, your sediment gets pretty disturbed
+anyway, which makes the careful horizontal storage of
+the beer pointless after all this.
+
+
+I have tried being extremely delicate and careful about
+removing the cork, but there's always that moment of
+popping it, and it always seems to gush. So I'm 
+wondering, and maybe wine drinkers would have a
+better idea of this than I, is there some trick to this?
+How do you get the cork off without disturbing the sediment?
+
+
+Thanks for any suggestions on this burning matter--I'm having
+a party next weekend where I plan on serving some of my
+goodies brought back from Belgium, and I would like to
+serve them properly.
+
+
+Bill Coleman
+Brooklyn, NY
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 10:03:55 -0500
+From: "Nathaniel P. Lansing" <delbrew`at`compuserve.com>
+Subject: re:winemaking
+
+
+Jack, >>I have to buy something from you and wait a year to
+continue this discussion .<<
+No you can buy it locally. The discussion is whether wine concentrates 
+can
+produce something better than a vin ordinaire. They truely can and that 
+is
+the guarantee I offer at my store, so I do put my money where my mouth 
+is.
+I am a firm believer in "seeing is believing" that is why I suggested you
+
+
+try it yourself. The gains in technology in 20 years that have been seen 
+in
+the extract brewing and yeast management have also been seen in the grape
+
+
+concentrate industry. Perhaps even moreso because there is more money in
+the wine faction, I'd like to see a brewer by a kit for $65 without a
+blink. So the whole point in my reaction to you was only to ask that you
+not denegrate a product you haven't tried in 20 years. I  could, without
+tasting, say, " how good could your wines be, you don't have the weather 
+to
+fully ripen vinifera or most hybrids, you must chaptilize with white 
+sugar
+and ameliorate with water or chalk to get your acid levels right," but 
+you
+make wines that you are happy with and don't need to use concentrates,
+fine. That is the point of the hobby, to make something that you can't 
+find
+in stores, the feeling of "hands on". My customers are happy to take the
+time to mix, fine, filter, clean bottles, cork and age to get something
+that they feel tastes as good as anything they've bought in a store. One
+customer is a wine judge and rated a kit wine of mine as a 7 or 8. But
+until you taste one, you're right, you won't believe me. Send me a 
+private
+mail with your address and I'll get something out to you that is at least
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 09:52:19 -0600 (CST)
+From: John Wilkinson <John.Wilkinson`at`aud.alcatel.com>
+Subject: RE: Brewing Poem
+
+
+>THAT IS PATHETIC!
+
+
+>John Wilkinson wrote:
+>> 
+>> A Brewing Poem by,
+>> 
+>> George Arnold 1834-1865 (short but happy life?)
+>> 
+
+
+That was my wife that said that beautiful and well written masterpiece,
+Brewing Poem, was pathetic.  She sent it to me and must have copied the list.
+But she was an Eglish Lit. major so what does she know about poetry.  She
+doesn't even appreciate Robert Service and Rudyard Kipling.
+Other than that she is perfect.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 09:03:30 -0800
+From: Brad Miller <millerb`at`targen.com>
+Subject: Emril Live Homebrew
+
+
+        The other day while watching food TV one of their chef's, Emril
+Laggasse, had a pub special.  He made "pub food" and even went as far as to
+make "beer".  Normaly this guy is sweet, at least with food.  The beer
+though is another issue.  Each step he did was wrong and detremental to the
+beer.  Did anyone else see this?  It would be a good one to watch out for
+to have a good laugh or get mad at.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 11:42:06 -0600 (CST)
+From: John Wilkinson <John.Wilkinson`at`aud.alcatel.com>
+Subject: Brewer's Resource
+
+
+Brett Spivy asked if anyone had had positive experience with Brewer's Resource.
+I can say that I have.  I have bought quite a bit of hops and some equipment
+from them, although not recently, and have had no problems.  I would trade with
+them again.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 10:22:44 -0800
+From: Jeremy Bergsman <jeremybb`at`leland.Stanford.EDU>
+Subject: brewtek
+
+
+> From: "Brett A. Spivy" <baspivy`at`softdisk.com>
+
+
+> Has anyone here had positive experience with BrewTek / Brewer's
+> Resource?  I have three purchases under my belt from them and ONE
+> marginally positive experience.  Just curious.
+
+
+Yes, I have turned to them several times for specialty malts not carried by
+my local brewstore (mostly Belgian).  I have always had smooth dealings with
+them.  
+
+
+I respond not because I think they are especially good, since I haven't had
+enough experience for that, but because I am concerned how much louder
+unsatisfied customers tend to be than satisfied customers.
+- -- 
+Jeremy Bergsman
+jeremybb`at`stanford.edu
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 12:31:06 -0800
+From: "Riedel, Dave" <RiedelD`at`pac.dfo-mpo.gc.ca>
+Subject: Aerate vs. Non-Aerate/Cask-conditioning... 5 gal in 7.75 gal keg?
+
+
+Well, now things are picking up aren't they?
+
+
+HBD#3167 Spencer rants (to a minor extent):
+
+
+"Every time I read a post that says "I've never tasted the effects of
+<insert your favorite brewing practice ("bad" or "good") here> in my
+beer," I want to scream.  Maybe you haven't.  But that doesn't mean
+it's not there!"
+
+
+Then, in HBD#3169, Paul ups the ranting slightly and responds:
+
+
+"If you want to believe that your beer actually has flaws in it that you 
+cannot perceive, and if you insist on agonizing about boogy men that just 
+are not there, go ahead and continue to live a frustrated life.  But 
+please dont tell me that my beer is flawed even though I (or anyone else 
+without an anal complex) cant taste it."
+
+
+This is probably a bad decision on my part, but I'm going to step into
+the ring (I'll probably get hit over the head by someone yielding the
+coffee-table version of Kunze).  Paul, I think you slightly misunderstood
+Spencer.  When he says "that doesn't mean it's not there", he is not
+saying that it absolutely IS there.  He's just saying that Miguel's
+personal palate data-point may not be all that valid.  He is certainly
+NOT saying that everyone's beer is crappy unless verified as good by a big
+panel of experts.
+
+
+My experience with aeration is this:  I used to aerate with the
+venturi-tube, shake method.  I made what I feel are good beers.  However, I
+found
+that I had a fairly regular problem with under-attenuation.  I surmised
+that a likely cause of this was lack-of-oxygen at pitching time.  So, I
+began to aerate with oxygen after pitching.  My beers now seem to ferment
+more quickly and more completely.  So, for my process, I believe that
+aeration is an important step.
+
+
+The key here, however, is that there is no need to change your procedure
+unless you perceive a problem in your final product.  Miguel is happy
+with his beer without aeration.  I think that's great... don't change a
+thing.  If you think that your beer is not quite turning out the way
+you would like it to, then perhaps aeration might be something for you
+to try. 
+- -----------------------------
+I just picked up a 7.75gal Golden Gate keg that I plan to do gravity
+fed cask ales in (yum!).  If I don't want to make a 7.5+ gal batch, 
+can I simply make a 5 gal batch and prime at a higher level to make
+up the larger head-space or am I going to suffer other problems?
+
+
+Anybody doing this sort of thing?
+
+
+cheers and happy brewing,
+Dave Riedel
+Victoria, BC, Canada.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 09:49:16 -0800
+From: "Eric R. Theiner" <logic`at`skantech.com>
+Subject: Brewstmas List
+
+
+Since Marc asked:
+
+
+I can't live without:
+
+
+1) My keg setup-- pricey at $110 - 200 (depending on where you go and
+what you want)
+2) My outdoor propane cooker, $35 - 65. (If you're not brewing outdoors,
+you should for a number of reasons.)
+3) My 6.5 gallon fermenter, $18 - 30.
+4) My grain mill-- I use a PhilMill, but for homebrew applications, I
+don't think there's much difference among the many fine mills out there
+(hope I didn't just start something).  Something like $60 - 130
+(depending on which one you get).
+
+
+Unfortunately, my wants are all things that I want to build, so there's
+not much point in putting them on my list.
+
+
+Rick
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 18:10:26 -0600
+From: "Sean Richens" <srichens`at`sprint.ca>
+Subject: Brewstmas
+
+
+For my druthers, I would go with:
+
+
+ - peristaltic pump (if I ever find one under $100)
+ - keg fridge/lager season extender
+
+
+In the over $100 category, my wish list is:
+
+
+ - basement
+
+
+Sean
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 20:34:18 -0500
+From: Jim Liddil <jliddil`at`vms.arizona.edu>
+Subject: s. ludwigii
+
+
+
+
+> Date: Wed, 13 Oct 1999 05:15:23 +0000
+> From: William Frazier <billfrazier`at`worldnet.att.net>
+> Subject: Low/No alcohol beer
+> 
+> RJ asks about making a low or no alcohol all-grain beer.  I looked into
+> this subject last winter.  If the archives are up again there is a lot of
+> info there on the subject.  If not go back to Home Brew Digests on about
+> February 17, 18 or 19th and pick up on a thread about the subject of
+> removing alcohol from beer.
+> 
+> Once, when on vacation in Koblenz, Germany I had the pleasure of drinking
+> quite a few dark Malz Biers.  I told my wife that I could really drink
+> these German beers without any noticable effect only to find out later
+> that Malz Bier contains no alcohol.  Regardless, that beer was good.  It
+> was malty, sort of sweet, dark and had a great head.  Last spring while
+> in Holland I again tried some Malz Bier but, alas, the beer was just like
+> American NA beer.
+> 
+> I asked Siebel about German Malz Biers last spring and Joe Power was nice
+> enough to answer.  Joe says traditional German Ludwig's beer, going back
+> to the nineteenth century, was made by fermenting wort with Ludwig's yeast
+> (Saccharomycodes ludwigii).  This yeast cannot ferment maltose so it
+> produces low levels of alcohol.  For a 10 to 12 Plato wort the alcohol
+> would be under 2% w/w.  Joe says beers fermented by this yeast taste
+> pretty good albiet somewhat sweet.
+> 
+> I asked Wyeast if they could provide this yeast.  They can but initial
+> costs would be around $200.  As I understand it they would maintain the
+> yeast and you could place an order for it through your homebrew shop as
+> usual.  I'm interested in trying this out but the initial cost is pretty
+> steep.  If one or more homebrewers would like to try it perhaps a
+> Ludwig's yeast consortium could be formed.  If anyone is interested let
+> me know.
+> 
+> RJ...This might not solve your diabetic friend's problem since maltose
+> would be left over in the beer and that's probably a no-no for his/her
+> diet.
+> 
+>         Bill Frazier
+>         Johnson County, Kansas
+> 
+
+
+
+
+I got my hands on the S. ludwigii and have grown it up. I plan to feeze it
+and have it stored for me.  At this point I think I will prepare some for
+storage in sterile water.  I really have not method in place for
+distribution of this strain. Interested parties can contact me and we can
+try to work out something.  
+
+
+Jim Liddil
+
+
+
+
+------------------------------
+
+
+Date: Fri, 12 Nov 1999 20:45:03 -0500
+From: Jim Liddil <jliddil`at`vms.arizona.edu>
+Subject: aha 98 financials
+
+
+the AHA is swamped so I thought I'd post this here befor eit appears on
+their web site.
+                                
+                                
+Revenues        98 final
+
+
+Membership         $471,997.64 
+Advertising         $123,092.42 
+Magazine Listing         $22,794.00 
+Magazine Sales         $116,409.63 
+BP Merchandise         $218.33 
+HBSC Membership         $815.84 
+Conference         $35,867.08 
+NHC         $37,501.64 
+Sponsorship         $4,669.50 
+Clubs         $644.00 
+Big Brew         $-   
+Sanctioned Comp. Prog.         $5,411.75 
+Miscellaneous         $(106,865.22)
+        
+total         $712,556.61 
+        
+Expenses        
+        
+Marketing         $84,758.08 
+Zymurgy         $330,918.25 
+Research         $53.70 
+Conference         $70,310.36 
+NHC         $44,807.91 
+Retailers         $376.51 
+Clubs         $8,730.36 
+TechTalk         $1,569.94 
+Maps On Tap         $3,008.14 
+Sanctioned Comp. Prog         $5,461.33 
+AHA Judging         $10,660.29 
+Legalization         $2,237.57 
+Big Brew         $-   
+Overhead         $90,344.80 
+        
+total         $653,237.24 
+
+
+Overhead includes salaries not attributed to individual programs for
+divisional, customer service,        
+Info services and events staff, taxes, supplies, postage, copies and
+miscellaneous.        
+
+
+Overhead does not include rent, utilities, maintenance, administrative
+salaries, reserve expenses.        
+
+
+98Miscellaneous revenue was charge backs by Ingram distributing        
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3169, 11/13/99
+*************************************
+-------

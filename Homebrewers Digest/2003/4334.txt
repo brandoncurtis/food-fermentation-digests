@@ -1,0 +1,1527 @@
+﻿Date: Thu, 28 Aug 2003 02:06:41 -0400
+Subject: Homebrew Digest #4334 (August 28, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4334                             Thu 28 August 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: Bubbles, Tiny (and big) Bubbles ("Fredrik")
+  Re: Organizing All This Stuff ("Mike Sharp")
+  build your own hop back (Alan McKay)
+  RE: Hop Back / Percolator (Bill Tobler)
+  Low Carb Beer ("Dan Listermann")
+  Celiac Sprue ("Dan Listermann")
+  Organize brewing gagets.. ("Mike Eyre")
+  RE: Hop Back / Percolator (Kevin McDonough)
+  Sulfite in wine, O2 vs O,nitrogen sensors, CO2 danger in manufacturing and breweries ("Dave Burley")
+  Celiac Sprue (Steve Tighe)
+  re: you've got mail (Scott Alfter)
+  Re: 1st all grain brew & resultant questions (Jeff Renner)
+  Brewing Gear and Convoluted Copper Tubing ("Chip Stewart")
+  organizing brewing crap ("Jay Spies")
+  Party ball (tidmarsh)
+  Mash temp and yeast for a Foghorn Clone ("Charley Burns")
+  plastic bottle caps. ("John Sarette")
+  New Freezer - Operation Question ("Steven P. Bellner")
+  Dr. Cone Responds-Mike Zapolski-Part 1-Questions ("Rob Moline")
+  Dr. Cone Responds-Mike Zapolski-Part 2-Answers ("Rob Moline")
+  Single yeast establishments ("Chad Stevens")
+  Dr. Cone's Final Comment-Gump Reports ("Rob Moline")
+  Yeast Adaptation (Newbie Question) (Alexandre Enkerli)
+  Electric Kettle Control (yax)
+  ASSISTANCE ("jim kaka")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * *       IN  PROGRESS!       * * * * * * * *
+*          Dr. Clayton Cone Fortnight of Yeast          *
+*      8/11/03 - 8/22/03 Yeast Questions Answered       *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 27 Aug 2003 07:09:55 +0200
+From: "Fredrik" <carlsbergerensis`at`hotmail.com>
+Subject: Re: Bubbles, Tiny (and big) Bubbles
+
+
+- ------------------------------
+
+
+> /Fredrik is counting CO2 bubbles in the airlock. I did this at the
+beginning
+> of my brewing career also, so I understand.
+>
+> One thing you must remember is that CO2 is soluble in water/beer and this
+will
+> skew your results, as the fermentation can proceed for a while before any
+> bubbles come out.  Temperature is a problem to be accounted for, as
+solubility
+> of CO2 is temperature dependent.
+>
+> But the largest variable and least accountable for variable is the fact
+the
+> CO2 in a water system is slow to come to equilibrium ( and thank
+goodness!)
+> were it not, we would get a shower of beer every time we opened a bottle.
+>
+> You could try agitation during fermentation or other mechanical means to
+bring
+> the CO2 to equilibrium, but this has apparently ( IOW , jury is still out
+in
+> my book)  been shown to have adverse effects on beer quality.
+>
+> Point is, bubble counting is not a good measure of fermentation rate until
+the
+> fermeting fluid is saturated and not even then due to the non-equilibrium
+> release of CO2.
+>
+
+
+I agree with Daves critics on all points.
+
+
+Maybe I should wait defending the bubble method until I have acquired some
+more statistics as I would have some more definite arguments, but I just
+want to defend the poor bubbles(!!) here because though it's not without
+complications, it is certainly not useless, it can in fact be quite useful
+IMO :)
+
+
+There is a problem if someone puts equality between fermentation rate and
+bubbling rate, this would be a mistake I agree. Since the relation is not as
+simple as a linear correction I agree it may be good to point this out if
+anyone else wants to interpret bubbles. The relation is dynamical and not
+static, thus you could say it's "complicated" and you probably need a little
+more than a simple pocket calculator to correct for it. I will use some
+differential equations to relate them.
+
+
+I do belive that the relation between the fermentation rate and the bubbling
+rate is fairly predictable and managable at least to the rough extent
+required for me. I think the complications are a bigger problem if they are
+ignored. I agree though that the trickiest part is probably the activity of
+nucleation sites for bubbles. I intend to account for ambient temperature
+and pressure, and there are also alot of wort and fermentor specific
+paramters, one would be the nucleation activity, probably beeing promoted by
+for example trub. This do gets complex with many variables and parameters. I
+hope to extend the logger with a temp and pressure channel later on to
+improve this. There may also be a variation of bubble size, but I belive
+neither this fatal, though a complication. But time will show.
+
+
+On short timescale bubbling is random, so on the bubble to bubble timescale
+it's nothing but meaningless noise, but on a slightly larger timescale the
+variations get more significant. At least if I speak for myself, I think
+with the correct interpretations the bubble counter gives me data with an
+accuracy sufficent for my hobby based "brewing research". It can never
+compete with an expensive fermentation lab and it was never the idea and the
+comparasion is not really fair. The idea for me was a quick/dirty/cheap
+means to track my fermentation in an automated manner and to a better extent
+that just make hydrometer readings. And so far it seems to do the job.
+Hydrometer readings are excellent as such, the problem as it seems to me is
+that it normally gives you just two datapoints, FG and OG. I don't anyone
+would make thousands of manual gravity readings on a batch.
+
+
+This bubble counter idea seemed like a good idea to me. Not perfect, but the
+best I could think of at the moment and so far I am not dissapointed. The
+accurate interpretation requires input of ambient pressure and temperature.
+
+
+Perhaps there is a more clever way to track fermentation that doesn't mean
+byuing expensive lab stuff, but I didn't think of anything else so far. I
+don't look at bubbles like waste, I like to look at it as information coming
+out of there, although encoded into a noisy time stream of bubbles. My
+motivation lies on the firm belief that no matter how complex and noisy
+bubbles may seem, the information in that stream is wortwhile if just
+properly decoded. Once I make some more progress and things start to get
+more coherent I'll put a bubble page page up for this for anyone to judge
+for themselves.
+
+
+ /Fredrik
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 00:16:04 -0700
+From: "Mike Sharp" <rdcpro`at`hotmail.com>
+Subject: Re: Organizing All This Stuff
+
+
+Dave Larsen wonders how we organize All This Stuff
+
+
+"That got me wondering what everyone else does, so I thought I'd pose the
+question: How does everyone organize all their brewing crap?"
+
+
+My organization was horrible until I broke down and went to Home Despot and 
+bought a real nice 2-door white melamine storage cabinet on sale. It's about 
+6 feet tall, and 4 feet wide.  I've set it up so my conical fermenter sits 
+in the lower right compartment, shelves on the lower left hold supplies, 
+gadgets and the large shippers scale.  The top compartment is full-width, 
+and it's the "laboratory".  It holds both mag stirrers, the smaller scales, 
+glassware, colorimeter, etc.  I mounted some PVC pipe pieces to the inside 
+top of the cabinet.  My thermometers and hydrometers slide into these, and 
+are well protected.  My kettles sit on top of the cabinet. The inside of the 
+cabinet is wired for power (to run the instruments and mag stirrers) and the 
+lower right fermentation compartment has a thermostatically controlled 
+heater for winter fermentation.  It cost something like 70 or 80 bucks.
+
+
+I have a separate industrial shelving unit 8 feet high, with 4 ft by 2 ft 
+steel shelves that holds all my cooperage, and the stuff that won't fit in 
+the cabinet.  The brewhouse itself is mobile.
+
+
+My garage is still a disaster, but my brewing cabinet is very organized!
+
+
+Regards,
+Mike Sharp
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 07:09:41 -0400
+From: Alan McKay <amckay`at`neap.net>
+Subject: build your own hop back
+
+
+Here is my old design for a hop back.  Our club is having a hop back
+building party soon and I'll take some pictures to put up because
+my new design is a lot better 
+
+
+http://www.bodensatz.com/staticpages/index.php?page=20020429191318951
+
+
+- -- 
+http://www.bodensatz.com/
+The Beer Site 
+"Life begins at 60 - 1.060, that is"
+    - Denny Conn
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 06:24:19 -0500
+From: Bill Tobler <wctobler`at`sbcglobal.net>
+Subject: RE: Hop Back / Percolator
+
+
+Rodolf asked about Hop Backs and Percolators.  More Beer carries Hop Backs.
+Open the link below and then click on "Weldless kits & kettle Accessories.
+Just a satisfied customer.
+
+
+http://www.morebeer.com/
+
+
+I have a old percolator to make coffee in.  Not sure how you would use one
+to make beer.  If there is a piece of beer making equipment called a
+percolator, I don't know about it.  I'll keep tuned in.
+
+
+Bill Tobler
+Lake Jackson, TX
+(1129.7, 219.9) Apparent Rennerian
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 09:09:04 -0400
+From: "Dan Listermann" <dan`at`listermann.com>
+Subject: Low Carb Beer
+
+
+
+
+<"Don Howard" <donchoward`at`comcast.net>
+ < Is there a more complicated but doable way for a biology/chemistry
+challenged
+homebrewer?  >
+
+
+This might be counter intuitive and go against a lot of published common
+wisdom, but you get low final gravities, hence low carb, beers by using a
+lot of sugar.  I have brewed a beer that was 75% cane sugar and 25% DME.  It
+was low carb and, while it didn't taste like much, it did not have the
+cidery flavor that a lot of people will tell you that it should have.
+
+
+A 66% corn sugar beer I brewed just took third in its category at the total
+156 entry Beer and Sweat Competition Saturday.
+
+
+These beers should be given a dose of yeast nutrient because they may not
+ferment out completely because of poor yeast reproduction due to the low
+level of nutrient in the wort.  Lack of nutrient has not shown itself to
+cause the cidery flavor, that flavor is strongly associated with old, stale
+extract.
+
+
+If you want to try this yourself, I recommend using LME that you know to be
+fresh, DME or all grain.  I would hesitate to do this with canned extract
+unless the "Use By" date is 1.5 years off.
+
+
+Dan Listermann
+
+
+Check out our E-tail site at www.listermann.com
+
+
+Free shipping for orders greater than $35
+and East of the Mighty Miss.
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 09:15:01 -0400
+From: "Dan Listermann" <dan`at`listermann.com>
+Subject: Celiac Sprue
+
+
+
+
+
+
+ AJ <ajdel`at`cox.net>A colleage came to me and asked if I as a brewer could do
+anything to
+help her alleviate the beer related aspects of his daughter's plight -
+she suffers from celiac sprue (often described as an intollerance to
+wheat gluteins but barley hordeins are equally problematical). >
+
+
+We sell a kit that makes a mead that is a good fake of beer using hops and
+corn derived malto dextrin.  While it may not fit a style necessarily,
+anyone drinking it blind will instantly recognize it as beer.
+
+
+Dan Listermann
+
+
+Check out our E-tail site at www.listermann.com
+
+
+Free shipping for orders greater than $35
+and East of the Mighty Miss.
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 09:32:17 -0400
+From: "Mike Eyre" <meyre`at`sbcglobal.net>
+Subject: Organize brewing gagets..
+
+
+hatever I use, I need to be able to carry, push, pull or roll out into
+the 
+kitchen on brew day, but also be something I can easily stuff in a
+closet 
+somewhere when not in use (one day a month the kitchen belongs to me,
+the 
+rest of the time it belongs to SWMBO).
+
+
+That got me wondering what everyone else does, so I thought I'd pose the
+
+
+question: How does everyone organize all their brewing crap?
+ -!--------
+
+
+For me, that was the easiest part.. I took over an entire room of my
+house! We moved into a new house a couple years ago and since it's just
+me and the wife right now, that left 2 spare rooms.. So one is a guest
+room, and the other is "the beer room" as she calls it. ;) With the
+thoughts of a nursery swirling around in her head, this maybe short
+lived.. But I'll be damed if I don't have that entire room packed with
+kegs, mash tuns, bottles from the floor to the ceiling, and so forth.. I
+have no idea what I'm going to do when I'm 'evicted' from there..
+
+
+Mike
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 10:59:38 -0400
+From: Kevin McDonough <kmcdonou`at`nmu.edu>
+Subject: RE: Hop Back / Percolator
+
+
+Beer, Beer, and More Beer <http://www.morebeer.com/> now sells a hop back, 
+with various configurations of fittings/connections.  Their one with 1/2" 
+FNPT fittings is $79.  They go up from there, depending if you get brass 
+quick disconnects, thermoplastic QDs, or sanitary fittings to be used with 
+clover clamps.
+
+
+Simply type in hop back (two words) in their search window.
+
+
+Kevin
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 12:16:06 -0400
+From: "Dave Burley" <Dave_Burley`at`charter.net>
+Subject: Sulfite in wine, O2 vs O,nitrogen sensors, CO2 danger in manufacturing and breweries 
+
+
+Brewsters:
+
+
+Larry Suarez asks an off topic question about adjusting sulfites in wine
+before bottling.
+
+
+Titrets ( a commercial product from the hobby store) will allow you to
+determine sulfites.  Easy answer ( without getting into pH and and free vs
+bound SO2 and stuff) is add 1/8 tsp of K meta bisulfite to each 5 gallons of
+wine ( ~30 ppm SO2 under normal conditions) .
+
+
+Make up a solution of 1/8 tsp Kmetab'ite in 125 mls of water and add 5 mls (
+tsp) to each 750 ml bottle before adding wine. This prevents "bottle sickness"
+due to oxygen incorporation during bottling.
+
+
+Dsicussion to my e-mail off line, please
+- ------------------------
+Ron Laborde and others,
+
+
+Oxygen's molecular symbol ( in which state it exists for all practical
+purposes)  is O2. NOT O.   O would refer to and be called "Nascent Oxygen" or
+"atomic oxygen"   O2 is correct for our purposes.
+- ------------------------
+Pete,
+
+
+Don't you mean you will see <oxygen> sensors where nitrogen ( and other gases)
+are stored?  Nitrogen makes up 80% of air.
+- ------------------------
+Without thinking about it, a vintner friend of mine once lowered himself into
+a freshly emptied fermenter and had the good sense to realize he couldn't
+breathe and being young and athletic was able to scramble out before dying.
+
+
+Often in chemical plants and wineries and breweries multiple deaths occur in
+the same incident since friends and workers go into the same vessel quickly,
+without clearing it, to rescue a compatriot.
+
+
+And then there was O'malley who drowned at a Guinness brewery when he fell in
+the bottling tank.  He did have to get out three times to have  a pea before
+he succumbed, though.
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 09:50:15 -0700 (PDT)
+From: Steve Tighe <steve_tighe`at`yahoo.com>
+Subject: Celiac Sprue
+
+
+Date: Tue, 26 Aug 2003 19:18:08 +0000
+From: AJ <ajdel`at`cox.net>
+Subject: Sprue
+
+
+A colleage came to me and asked if I as a brewer could
+do anything to 
+help her alleviate the beer related aspects of his
+daughter's plight - 
+she suffers from celiac sprue (often described as an
+intollerance to 
+wheat gluteins but barley hordeins are equally
+problematical). I seem to 
+remember this subject coming up here before but a
+quick look at the 
+archives wasn't very helpful. Does (or has) anyone
+here brewed a beer 
+(successful or unsuccessful) for people who suffer
+from this disease? I 
+so, can you describe it, give a recipe etc.?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Celiac Sprue is an allergy to gluten, which is found
+in barley, wheat, and most other grains (and lots of
+other stuff). I have a friend with this, and his
+beverage choices are pretty much limited to wine, rum,
+potato vodka, and ta-kill-ya.
+
+
+There was an article in Zymurgy about a year ago about
+brewing gluten-free beer. Basically, you need to
+select from the very few gluten-free grains (and of
+course I can't remember what they are, but I guarantee
+your friend knows). The biggest wrinkle is you'll need
+to malt the grains yourself, unless you could somehow
+find malted versions of these grains (which the
+article suggested you wouldn't).
+
+
+There was also a concern about yeast, since yeast are
+propagated in a gluten-containing medium. I think they
+suggested dry yeast.
+
+
+In any event, yes you can brew "beer" that is
+gluten-free, but probably not with materials you
+usually buy in the homebrew shop.
+
+
+Steve in Berkeley
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 10:14:24 -0700
+From: Scott Alfter <scott`at`alfter.us>
+Subject: re: you've got mail
+
+
+On Mon, 25 Aug 2003 08:20:57 -0700 (PDT), Rama Roberts <rama`at`sun.com> wrote:
+> On a good note, Pat and I have been discussing a fix that will help limit
+> future spam. The HBD archives expose email addresses as Mailto links-
+> perfect for "scrapers" to harvest them and pass them on to spammers. Our
+> plan is to convert those addresses, for example:
+>         billgates`at`microsoft.com
+> to
+>         billgates AT microsoft DOT com
+
+
+A better form of email obfuscation would be to replace the individual
+characters with their character-entity equivalents.  Here's a website that
+converts email addresses you feed to it:
+
+
+http://alicorna.com/obfuscator.html
+
+
+It turns foo`at`bar.com into something like this:
+
+
+&#102;&#111;&#111;&#64;&#98;&#97;&#114;&#46;&#99;&#111;&#109;
+
+
+Browsers will display it properly, and if you click a mailto link, it'll
+work.  Address harvesters, though, aren't smart enough to decode the
+character entities back to plain text.  Here's an example of a webpage with
+a bunch of obfuscated addresses:
+
+
+http://snafu.alfter.us/officers.shtml
+
+
+Creating some code to generate obfuscated email addresses would be
+trivial:
+
+
+#include <stdio.h>
+#include <string.h>
+
+
+int main (int argc, char **argv)
+{
+        int i, j;
+
+
+        for (i=1; i<argc; i++)
+        {
+                for (j=0; j<strlen(argv[i]); j++)
+                        printf("&#%d;",argv[i][j]);
+                printf("\n");
+        }
+        return 0;
+}
+
+
+Call it with the addresses to obfuscate as parameters (separated with
+spaces) and it'll spit out obfuscated addresses (one per line).
+
+
+Scott Alfter
+scott`at`alfter.us
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 13:24:01 -0400
+From: Jeff Renner <jeffrenner`at`comcast.net>
+Subject: Re: 1st all grain brew & resultant questions
+
+
+Chet Nunan <katjulchet`at`yahoo.com> in Churubusco IN writes:
+
+
+>1.079, FG approx. 1.009. ...I know this is a strong beer, but I
+>get a horrible hangover from it!  A 1/2 gal growler
+>over an evening is a guaranteed head pounder.
+
+
+I don't think you need to look any further than the amount of alcohol 
+to explain your headaches.  While you might have higher alcohols 
+(fusels) from your fermentation temperature or other reasons, there 
+is some dispute as to whether or not these actually cause headaches 
+and/or hangovers.
+
+
+The calculator at 
+http://realbeer.com/spencer/attenuation.html#alcohol gives 8.2% ABV 
+for your beer, which means that in that 1/2 gallon growler, there is 
+5.25 oz (155 ml) of alcohol.  That's the equivalent of nearly nine 
+standard drinks (defined as 12 oz. beer at 5%, 5 oz. wine at 12%, 1.5 
+oz. spirits at 80 proof/40%).
+
+
+Another way of looking at this is that it is the equivalent of a half 
+bottle of vodka.  That would give me a headache!
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 13:43:19 -0400 (EDT)
+From: "Chip Stewart" <Charles`at`thestewarts.com>
+Subject: Brewing Gear and Convoluted Copper Tubing
+
+
+On Tue, 26 Aug 2003, Tucson Dave Larsen Inquired:
+> 
+> How does everyone organize all their brewing crap?
+
+
+Dave -
+
+
+I can't recommend enough the baker's rack that I picked up from Costco for about
+$70.  Not only do I store everything on it, but I even use it as the stand for
+my RIMS system - I actually brew on it!  When I'm done, I just wheel it out of
+the way.  I store all the misc. brewing stuff in plastic storage bins that store
+on the shelves.  I have some older photos of it on my web site at
+http://Charles.TheStewarts.com/brewing/ but have since added a 10 gal. hot water
+heater on top (modified to produce 170F water) for sparging.
+
+
+On another topic, I'd like to build a counterflow chiller and a hopback.  I'm
+thinking of nesting the hopback inside the chiller to save space.  Anyhow, I'd
+like to use the convoluted copper tubing inside of clear tubing for the chiller.
+ Anyone know of a source for the convoluted tubing?
+
+
+Chip Stewart
+Charles at TheStewarts.com
+http://Charles.TheStewarts.com
+
+
+Support anti-Spam legislation.
+Join the fight http://www.cauce.org
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 14:08:38 -0400
+From: "Jay Spies" <jayspies`at`citywidehomeloans.com>
+Subject: organizing brewing crap
+
+
+Hey all -
+
+
+I use an old 6 drawer highboy dresser that was sitting unused in the
+basement.  Lets me split up all my stuff into themes (hoses in one drawer,
+kegging stuff in another, etc) and it keeps the dust off of it all.  I'll
+bet the majority of readers here have at least one piece of sad lonely
+furniture in their basement like this.  Put it to use!
+
+
+Jay Spies
+Charm City Altobrewery
+Baltimore, MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 16:05:22 -0400
+From: tidmarsh`at`bellsouth.net
+Subject: Party ball
+
+
+Greetings, all--
+
+
+I've recently acquired from a non-brewing friend a commercial beer 
+sphere/party ball container.
+
+
+I've done a search of the archives and seen that in the past parts were
+available to reseal these containers after refilling, but the references 
+date back nearly a decade, so I wonder if any such products are still 
+available.
+
+
+I did notice one post from 1990 that described sealing the vessel for
+conditioning with a wired-down rubber stopper that was removed to allow 
+the tap/pump to be reused, albeit with a less than perfect seal.
+
+
+Does anyone know of a source for parts to re-use a beer-sphere? Seems just 
+the thing for a friend's annual homebrew party--the contents will be 
+consumed in a sitting, and no transportation of CO2 tanks.
+
+
+Tidmarsh Major
+Tuscaloosa, Ala.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 13:24:55 -0700
+From: "Charley Burns" <charleyburns`at`sbcglobal.net>
+Subject: Mash temp and yeast for a Foghorn Clone
+
+
+I'm ready for my next attempt to try and clone old foghorn.
+
+
+This time I'll stick with northern brewer hops all the way through, even
+though Michael Jackson thinks they use some cascade. I used cascade last
+time but the gravity was so high (1.115) that everything else was thrown
+off. I lost my notes so I don't know what yeast it was, but it was
+probably wyeast 2112 (lager yeast masquerading as an ale yeast).
+
+
+Assuming 2-row or pale ale malt for 90% and 10% crystal, what is
+recommended mash temp and which yeast is recommended?
+
+
+Should we go for a low mash temp (~147-150F) and a low attenuating yeast
+or a higher mash temp (~155-160) with a more aggressive yeast? Seems
+like both methods would leave us with a high gravity and big bodied
+beer, I'm just wondering which one would taste the best? A low
+attenuating yeast would leave more sweetness (I think) while a higher
+mash temp would give us body (dextrins) without the sweetness.
+
+
+Any comments or suggestions?
+
+
+Charley Burns
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 17:14:00 -0500
+From: "John Sarette" <j2saret`at`peoplepc.com>
+Subject: plastic bottle caps.
+
+
+Scott Cortney wants to cap clean empty beer bottles. I can help in his quest
+for plastic caps
+- ----But these would be very handy for
+keeping empty, cleaned and sanitized bottles for your next brewing
+ession.  -----
+I take plastic caps from 20 oz water and soft drink bottles
+cut them from the bottom (open side) with a cross and they will snap onto a
+beer bottle.  I sanatize them in bleach at the same time I do the bottles,
+let them both dry and cover the bottles unrinsed.  when its time to bottle I
+rinse the bottles in the dish washer.  It works fine and there is a never
+society of ours.
+
+
+John
+Duluth of the North
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.512 / Virus Database: 309 - Release Date: 8/19/2003
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 18:33:12 -0400
+From: "Steven P. Bellner" <sbellner`at`chartertn.net>
+Subject: New Freezer - Operation Question
+
+
+My beer freezer was one of the casualties of I lightning strike I
+experienced earlier this month, and my insurance company has agreed to
+replace instead of attempt a repair.  I have ordered a Whirlpool 20 cuft
+chest freezer which was about the same size as the defective unit.  I used
+the auxiliary thermostat to run the freezer at 38 F like so many people do,
+and until the damage occurred, it ran like a charm.
+
+
+I mentioned to the appliance sales rep the intended use for the freezer, and
+he immediately stated I need to have a refrigerant heater timer installed on
+the unit before I connect up the external thermostat.  He said it is
+essential to use one of these to extend the life of the compressor.  I have
+never heard of such a device.  Is this a line of bull, or is this device
+needed perhaps because of the use of the new types of refrigerant?  I have
+heard of individuals that own GE freezers that cannot use them in their
+garages because of external temperature problems in the winter that causes
+the compressors to stop pumping.  I wonder if this is a similar phenomenom.
+
+
+Steven P.  Bellner
+sbellner`at`chartertn.net
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 19:25:29 -0500
+From: "Rob Moline" <jethrogump`at`mchsi.com>
+Subject: Dr. Cone Responds-Mike Zapolski-Part 1-Questions
+
+
+                        Dr. Cone Responds-Mike Zapolski-Part 1-Questions
+
+
+   First, I'd like to thank Dr. Cone for sharing his valuable time,
+experience,
+and knowledge with the HBD organization.  My yeast related questions are as
+follows:
+   1) Cold Pitching, Why does it seem to work?
+In certain brewing forums there has been much discussion related to cold
+pitching yeast into ale worts.  Basically, about a pint of yeast is
+harvested from the primary of a brew batch and stored in a sealed container
+at refrigerator temperatures (abt 45F).   At some later time (perhaps as
+long as 1-2 months), that yeast is pitched directly from the refrigerated
+container into a new batch of sweet wort `at` 70-75F.   Based on my
+experience (and observations) this method works quite well, and appears to
+reduce lag times (from 1.5 to 4 hours).   Can you help us understand why the
+cold pitching process works?  Or have we just been lucky?
+   2) Mid-Fermentation Nutrient Additions - Are there any advantages, or
+disadvantages, that may occur by adding yeast nutrients to a beer (or wine)
+after fermentation has begun, but before the mid-point between the OG & TG?
+   3) What are the differences between yeast nutrients, extracts, hulls, and
+energizers?   What does each product do to facilitate fermentation?   At
+what stage of the brewing proces should they be added to be most effective?
+Under what circumstances should one use each of these products [what should
+the brewer look for as an indicator], and what might be a typical amount
+added to a 5 gallon batch?  Is there a product that combines these
+individual items into a single overall yeast "Superfood"?
+   4) For a given ale yeast type, does controlling ale fermentation
+temperature
+in the 60-68F range have a noticeable affect on the resulting beer's
+flavor?  If so, which ale yeast types are most sensitive to fermentation
+temperature?
+   5) What factors (that the brewer might be able to control) influences
+yeast
+attenuation?  For example, if an ale yeast has an optimum temperature range
+of 68-73, will holding the primary temperature at 68F yield a better
+attenuation, than at 73F?
+Thank you,
+Mike Zapolski, Sr.
+
+
+
+
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.512 / Virus Database: 309 - Release Date: 8/19/2003
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 19:28:13 -0500
+From: "Rob Moline" <jethrogump`at`mchsi.com>
+Subject: Dr. Cone Responds-Mike Zapolski-Part 2-Answers
+
+
+                Dr. Cone Responds-Mike Zapolski-Part 2-Answers
+Mike,
+   1. I have not seen any studies done using this protocol.  If I had to
+take a guess it would be centered around the Trehalose content in the yeast
+cell.
+Trehalose seems to be an all around stress related factor. Almost
+immediately upon the cold storage of the yeast, trehalose begins to build up
+to help the yeast to adapt to its new environment.  Upon pitching this
+stress factor assists the yeast to adapt to its new environment; warmer
+temperature and higher osmotic pressure.   If the pitching yeast is allowed
+to warm up for any appreciable time before pitching the carbohydrate
+reserve, trehalose being one of them will be quickly used up as an energy
+source.  The yeast would then take a longer time adapting to its new
+environment in the wort thus increasing the lag phase.
+   Something similar happens when using Active Dry Yeast.  The factory
+builds into each yeast cell an abundance of the stress factor; trehalose.
+Our
+recommendations is to rehydrate the yeast in warm water and pitch into the
+wort (or must) within 30 minutes, because the yeast will begin to metabolize
+its carbohydrate reserve including trehalose immediately upon reactivation
+and weaken the yeast if it is not in the presence of a new supply of energy.
+It will have also used up the stress factor that would have assisted it in
+adapting to the new osmotic environment.
+   I am sure that there is more to the explanation than I have given.
+   2. Yeast respond to a fresh source of nitrogen through out its growth
+phase and early pert of the stationary.  The sugar transport systems have a
+very
+short life(2+ hours) and enzymes involved need replenishing and a supply of
+nitrogen. So an incremental feeding is ideal especially to minimize H2S
+production.  This is ideal and begins to be a factor as the O.G increases.
+With a well mashed wort a low gravity would probably not benefit from this.
+A high gravity fermentation would definitely benefit. There are other things
+involved in incremental feeding. All the nutrients up front results in an
+increased growth of yeast with a lower level of protein when it reaches the
+stationary phase.  Incremental feeding restricts the initial growth but
+increases the yeast protein level.  The higher protein level in each cell
+increases the fermentation rate and protects the cell against alcohol
+toxicity near the end of fermentation. Again, this is only beneficial to a
+higher alcohol fermentation.
+   If you have the analysis of the wort available you can add the exact
+amount
+of nutrient. You will need to work with the nutrient supplier. Usually I
+begin with 1-2 pounds of the product per 1000 gallons(0.5 -1.0 gram /
+gallon)of wort.  That is a safe range to start with.  You can go up or down
+on the next batch according to your evaluation of the current batch.
+   3.Yeast nutrient is anything that the yeast needs for a healthy growth
+and to stay alive during the stationary phase; sugar, useable nitrogen
+(FAN),
+minerals, trace elements, vitamins and oxygen. A well balanced nutrient like
+Fermaid K will supply these requirement.  Most all malt wort contains a well
+balanced diet for low gravity fermentations. Sometimes minerals like zinc
+and magnesium are on the short side. It is when you move up to higher O.G
+and higher cereal adjuncts addition that added well balanced nutrients need
+to be considered.
+   Extracts are concentrated extractions of malted barley (malt extract) or
+autolyzed yeast with out the cell wall.  Malt extract, as you get in a kit,
+makes a very good beer.  Many of the useable nitrogens are bound up by the
+Maillard reaction and are not available to the yeast. Yeast extract contain
+most of the nutrients that the growing yeast require.  However you are
+limited in the amount that you can use.  Above a certain level, you may
+begin to detect it in the flavor of the beer.
+   Yeast hulls are my favorite.  It is probably the best balanced source of
+nutrient but can be used in a limited amount before you detect it in the
+finished beer. Lallemand yeast hulls are cell walls loosely separated from
+the cytoplasm of well  autolyzed yeast.  These cell walls contain well
+digested protein that is high in available nitrogen. It also contain lipids
+that are necessary for yeast growth and protection against alcohol toxicity.
+Lipids are what you produce when you add oxygen to the fermenting wort.
+   Diammonium phosphate is an excellent, cheap source of available nitrogen
+for the yeast. You have to evaluate it carefully for flavor and aroma
+profile if
+you use it as a sole supplement.
+   Enegizers is a name that could include any or all of the above.  Many
+distributors have their own formula.
+   Fermaid K is a well balance yeast nutrient that was formulated based on
+many years of experience of yeast production.
+   There are two new products that have come onto the market recently.  They
+do not replace the need for Fermaid K but augment it:
+GO-FERM is a product that is used in the rehydration water (not in the wort
+or must) for Active Dry Beer and Wine yeast. It maintains the vitality of
+the yeast through out the entire fermentation. This becomes important in
+higher gravity brews.
+   Servomyces offers a biological source of zinc to the yeast. The
+biological source seems to make it more available for the yeast.
+   4. If all other factors are the same, you should be able to tell the
+difference in fermenting ale at carefully controlled variations in
+temperature. Variations in the malted barley, mashing and pitching yeast
+from batch to batch can mask any differences that you would have when
+comparing different fermentation temperatures.
+   Very high alcohol fermentations where alcohol toxicity is involved,
+cooler temperature near the end may be needed for full attenuation.
+   5. Attenuation or the conversion rate of all the fermentable sugars to
+alcohol (plus by-products) is directly related to temperature. So the higher
+the temperature the faster should be the attenuation.
+   Flocculating after attenuation is primarily controlled by the yeast
+strain itself. However, excessive re-pitching and acid washing is
+detrimental to
+the hydrophobicity (flocculation) of the cell wall. A deficiency in minerals
+such as calcium adversely effect the flocculation properties of the yeast.
+Clayton Cone
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.512 / Virus Database: 309 - Release Date: 8/19/2003
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 18:37:18 -0700
+From: "Chad Stevens" <zuvaruvi`at`cox.net>
+Subject: Single yeast establishments
+
+
+Rama & Y'all,
+
+
+I once had your same disgust with commercial establishments using only one
+yeast for all their brews until I started really looking into the issue.
+Remember, it takes only one living yeast cell to reproduce and contaminate
+another yeast culture. On a large scale, it is impractical for commercial
+establishments to use more than one strain. Contamination would result as
+different batches passed through various equipment. You would in essence,
+have to make two entirely separate breweries in order to use two different
+strains on a continuing basis.
+
+
+Yes there are some small establishments (some brew pubs for example) that
+are able to deal with multiple strains but they aren't trying to keep the
+same pure
+strains going through years of production. Rather, they must re-purchase
+base strains periodically to maintain purity and as a result are decreasing
+their margin.
+
+
+I guess as homebrewers, not trying to make a milk-cow of our muse, we are
+fortunate in that we are afforded the luxury of picking a new strain for
+every batch.
+
+
+For what it's worth,
+
+
+Chad Stevens
+San Diego
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 23:13:05 -0500
+From: "Rob Moline" <jethrogump`at`mchsi.com>
+Subject: Dr. Cone's Final Comment-Gump Reports
+
+
+                        Dr. Cone's Final Comment-Gump Reports
+
+
+Folks,
+   As we wrap up a successful session with Dr. Clayton Cone and a Fortnight
+of Yeast, I would like to personally thank Dr. Cone, Dr. Fischborn, Dr.
+Waldrop, and Dr. David Logsdon.
+   Your collective generosity builds bridges of knowledge...and will
+continue to do so as the info is preserved on the HBD and the Lallemand
+website....
+   As far as the questions...WOW, what an impressive and thought provoking
+collection. The questions posed by the HBD to Dr. Cone have been brilliant
+and can only hint at the level of expertise apparent in the HB world.
+   By my calcs, all has been answered...if anyone has any that were posted
+within the session that we have missed, please let me know.
+   Thank you, brewers and brewsters. I can't disagree with a private e-mail
+comment from Fred Nolke of Anchorage, Alaska..."It's the highest and best
+use of the HBD."
+   And we owe it all to Clayton Cone.
+
+
+Cheers!
+Gump
+P.S. Fredrik, Don't let your donkeys eat your spent grain! (If you don't
+know, please ask!)
+
+
+
+
+Rob,
+   I would like to thank all the participants in the question and answer
+session during the past two weeks. I have enjoyed the experience.  It has
+been a learning curve for me. My old mind is spinning. It is always of
+interest to me as to what technical information is not getting to the home
+beer (and wine) maker or is not being understood and needs to be addressed
+in a better way. I would also like to thank Drs. Tobias Fischborn and Forbes
+Wardrop at Lallemand Research Center for their able assistance.
+   There is usually no one answer when it comes to brewing and wine making.
+There are opposing views on all aspects of fermentation.  I hope that my
+answers will open a dialogue that we can continue to respond to.
+   See you on the Lallemand website.
+Clayton Cone
+
+
+"The More I Know About Beer, The More I Realize I Need To Know More About
+Beer!"
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.512 / Virus Database: 309 - Release Date: 8/19/2003
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 28 Aug 2003 00:34:02 -0400
+From: Alexandre Enkerli <aenkerli`at`indiana.edu>
+Subject: Yeast Adaptation (Newbie Question)
+
+
+In a query to Dr. Clayton Cone, I said the following which I admit 
+might not make that much sense:
+"We're told yeast will adapt to the medium, at least for scale."
+
+
+This is due to my very limited knowledge of yeast but I'm glad we got 
+an interesting reply on the subject of yeast adaptation. Just to 
+clarify (and hopefully get a better understanding), what I meant was 
+about progressively ramping up starters. I thought the reason we can't 
+just use a very large starter right at first was that yeast adapts 
+somewhat to the wort volume.
+Sorry about that.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 27 Aug 2003 21:45:30 -0700
+From: yax <yax75`at`shaw.ca>
+Subject: Electric Kettle Control
+
+
+What is a good way of controlling your boil in an electric kettle? I was
+thinking about using just a stove rheostat, or else using two switches
+in line of the element. With both switches on 240 V would be supplied
+and with just one switch on only 120 V would be supplied. I have heard
+of some people using PID controllers, but this seems like overkill. Any
+suggestions would be great though. 
+
+
+Thanks 
+
+
+Dave
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 28 Aug 2003 06:08:19 +0100
+From: "jim kaka" <jim_kaka`at`hotmail.com>
+Subject: ASSISTANCE
+
+
+Dear Sir,
+              RE  URGENT AND CONFIDENTIAL.
+
+
+I greet you with the name of almighty God whom i
+serve.It is with heart of
+hopes that i am contacting you for an urgent
+assistance.
+
+
+Firstly,I wish you could keep this piece of
+information Confidential.I am
+Dr.JIM KAKA.I am a former Manager finance and
+accounts of AFRICAN PETROLEUM
+PLC,(AP).I was dismissed from service recently when
+the present government
+decided to sell it's major controlling share to a
+private hand which is part of
+their privatization program.Immediately a panel of
+investigation to ascertain
+the financial up  date  of the company was
+constituted led by Rtd. Justice Edet
+Nkop.It is regreting to tell you that the panel
+indicted me to have
+misappropriated over Thirty Million Pound
+Sterling.Which have been made public
+by the panel.
+
+
+At this juncture, i was adviced to move a sum of
+Twenty four point eight
+million Dollars ($24.8m)i deposited with an
+affiliate bank to Merril Lych Bank
+London to a trusted foriegn friend for safe keeping
+pending the decision of the
+government on the panel's report.And as it stands
+now,i cannot make any
+transaction with somebody that has any contact with
+me,for the surveillance is
+spreading wider.I am now soliciting for your help in
+recieving into your
+custody this sum of $24.8m.Which will gaurrantte the
+future of i and my family.
+
+
+I have made every arrangement with the bank
+concerning a smooth transfer of
+this fund $24.8m to you as soon as you respond to
+this (SOS)call. I am looking
+forward to meet you as soon as this fund comes into
+your custody.
+
+
+May the goodness of the Lord be with you
+
+
+Yours Faithfully,
+
+
+Dr.JIM KAKA.
+
+
+
+
+Dear Sir,
+              RE  URGENT AND CONFIDENTIAL.
+
+
+I greet you with the name of almighty God whom i
+serve.It is with heart of
+hopes that i am contacting you for an urgent
+assistance.
+
+
+Firstly,I wish you could keep this piece of
+information Confidential.I am
+Dr.JIM KAKA.I am a former Manager finance and
+accounts of AFRICAN PETROLEUM
+PLC,(AP).I was dismissed from service recently when
+the present government
+decided to sell it's major controlling share to a
+private hand which is part of
+their privatization program.Immediately a panel of
+investigation to ascertain
+the financial up  date  of the company was
+constituted led by Rtd. Justice Edet
+Nkop.It is regreting to tell you that the panel
+indicted me to have
+misappropriated over Thirty Million Pound
+Sterling.Which have been made public
+by the panel.
+
+
+At this juncture, i was adviced to move a sum of
+Twenty four point eight
+million Dollars ($24.8m)i deposited with an
+affiliate bank to Merril Lych Bank
+London to a trusted foriegn friend for safe keeping
+pending the decision of the
+government on the panel's report.And as it stands
+now,i cannot make any
+transaction with somebody that has any contact with
+me,for the surveillance is
+spreading wider.I am now soliciting for your help in
+recieving into your
+custody this sum of $24.8m.Which will gaurrantte the
+future of i and my family.
+
+
+I have made every arrangement with the bank
+concerning a smooth transfer of
+this fund $24.8m to you as soon as you respond to
+this (SOS)call. I am looking
+forward to meet you as soon as this fund comes into
+your custody.
+
+
+May the goodness of the Lord be with you
+
+
+Yours Faithfully,
+
+
+Dr.JIM KAKA.
+
+
+
+
+Dear Sir,
+              RE  URGENT AND CONFIDENTIAL.
+
+
+I greet you with the name of almighty God whom i
+serve.It is with heart of
+hopes that i am contacting you for an urgent
+assistance.
+
+
+Firstly,I wish you could keep this piece of
+information Confidential.I am
+Dr.JIM KAKA.I am a former Manager finance and
+accounts of AFRICAN PETROLEUM
+PLC,(AP).I was dismissed from service recently when
+the present government
+decided to sell it's major controlling share to a
+private hand which is part of
+their privatization program.Immediately a panel of
+investigation to ascertain
+the financial up  date  of the company was
+constituted led by Rtd. Justice Edet
+Nkop.It is regreting to tell you that the panel
+indicted me to have
+misappropriated over Thirty Million Pound
+Sterling.Which have been made public
+by the panel.
+
+
+At this juncture, i was adviced to move a sum of
+Twenty four point eight
+million Dollars ($24.8m)i deposited with an
+affiliate bank to Merril Lych Bank
+London to a trusted foriegn friend for safe keeping
+pending the decision of the
+government on the panel's report.And as it stands
+now,i cannot make any
+transaction with somebody that has any contact with
+me,for the surveillance is
+spreading wider.I am now soliciting for your help in
+recieving into your
+custody this sum of $24.8m.Which will gaurrantte the
+future of i and my family.
+
+
+I have made every arrangement with the bank
+concerning a smooth transfer of
+this fund $24.8m to you as soon as you respond to
+this (SOS)call. I am looking
+forward to meet you as soon as this fund comes into
+your custody.
+
+
+May the goodness of the Lord be with you
+
+
+Yours Faithfully,
+
+
+Dr.JIM KAKA.
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4334, 08/28/03
+*************************************
+-------

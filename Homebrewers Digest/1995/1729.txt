@@ -1,0 +1,1168 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Fri May 12 03:33:04 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["46043" "Fri" "12" "May" "1995" "01:00:56" "-0600" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "973" "Homebrew Digest #1729 (May 12, 1995)" "^Date:" nil nil "5" nil nil nil nil]
+        nil)
+Received: by truelies.rs.itd.umich.edu (8.6.12/2.2)
+        with X.500 id DAA16969; Fri, 12 May 1995 03:33:01 -0400
+Received: from goodman.itn.med.umich.edu by truelies.rs.itd.umich.edu (8.6.12/2.2)
+        with SMTP id DAA16964; Fri, 12 May 1995 03:33:00 -0400
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA12929
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Fri, 12 May 95 03:32:55 -0400
+Received: from hpfcmi.fc.hp.com (hpfcrdg.fc.hp.com) by hpfcla.fc.hp.com with ESMTP
+        (1.37.109.15/15.5+IOS 3.20) id AA123883857; Fri, 12 May 1995 01:30:58 -0600
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.10 $/15.5+IOS 3.22) id AA053822056; Fri, 12 May 1995 01:00:56 -0600
+Message-Id: <199505120700.AA053822056`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+Date: Fri, 12 May 1995 01:00:56 -0600
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1729 (May 12, 1995)
+
+
+
+
+
+
+HOMEBREW Digest #1729                             Fri 12 May 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Corrections & Question: Water (A. J. deLange)
+  Corn sugar (Alan Keig)
+  SS hydrometer flasks (Geoff Scott)
+  Sabco Kettle's (Evan Kraus)
+  for.sale.info (usfmchql)
+  Apartment Brewing (Steve Seaney)
+  Microwave Madness!! (I Gelman)
+  Stovetops/Excessive DMS?/Bottling (David Draper)
+  W1056 temp/hop oils vs. AA/body and FG/O2 caps/wooden false bottom (Algis R Korzonas +1 708 979 8583)
+  growing hops/dark grains/diacetyl/single-stage/cap sanitation/dry yeast (Algis R Korzonas +1 708 979 8583)
+  RE: Aeration during lauter (Jim Dipalma)
+  Re: Aeration during lauter - DMS? (Jeff Renner)
+  FG/Mouthfeel (CCCEF.KHUIZING)
+  Re: RIMS FAQ (Jeff Berton)
+  Final Gravity (LBRISTOL)
+  Bell's PA yeast / Great Taste (uswlsrap)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 10 May 1995 18:11:20 -0500
+From: ajdel`at`interramp.com (A. J. deLange)
+Subject: Corrections & Question: Water
+
+
+In my post on water chemistry in #1727 I  made a typo and then copied and
+pasted it to duplicate the error. It's pretty obvious (though I didn't spot
+it, Darren did) but D = (1 + r1 + r1*r2). The post has (1 + r1 + r1*r1) in
+two places. It should be (1 + r1 + r1*r2) in both.
+
+
+Bob Hall contacted me and suggested that my definition of ppm as CaCO3 (55
+mg/l)/(100 g/mole) = 0.55 millimole/l is incorrect and should be based on
+normality rather than molarity i.e. it should be (55 mg/l) / (50
+g/equivalent) = 1.10 milliequivalent/l. If this be correct then all values
+in millimoles in the original post should be doubled and replaced by
+milliequivalents. The milliequivalents should be multiplied by 50 to get
+back to ppm as CaCO3. The acid required is thus 1.1 milliequivalent/l and
+as normality and molarity of hydronium are the same this is 1.1 millimole
+of acid. Nothing is changed except the defintion of ppm as CaCO3.
+
+
+I took the definition I used (molar) from "Principals of Brewing Science"
+and find it very appealing in that one gets to multiply and divide by 100
+in going back and forth between molarities and ppm as CaCO3 and the
+hydronium required for neutralization is simply the alkalinity divided by
+100. On the other hand I note that my very own water report shows 150.1
+mg/l bicarbonate as the ion as  123.0 mg/l as CaCO3. (150.1)(50)/(61) =
+123.0 so it looks as if Culligan is in the normality school. So the
+question is: what is the standard?
+
+
+A.J. deLange   Numquam in dubio, saepe in errore!
+ajdel`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 14:02:52 -0800
+From: akeig`at`library.adelaide.edu.au (Alan Keig)
+Subject: Corn sugar
+
+
+G'day. I've been happy to lurk for a while but Russell Mast's reply to the
+guy who was making his first batch of home brew has brought me out of the
+woodwork:
+>Don't use corn sugar except to prime your bottles.  Don't use
+>anything else to prime your bottles.  Don't worry, etc.
+
+
+When I read this I thought that Russell was referring to Dried Corn Syrup
+which I have successfully used for years as an adjunct, usually about
+200grams in a 20 litre brew.
+I find it gives improved body, better mouthfeel and a creamier and
+longer-lasting head.
+I checked with my friendly local home brew shop bloke and he put me right.
+Apparently there's a terminology difference between the United States and
+Australia; what you call Corn Sugar is known as Dextrose [aka Sucrose] over
+here. Dried Corn Syrup is a wheat-derived adjunct.
+This leaves me with the question: what do you call Dried Corn Syrup in the USA?
+Whatever, I'd recommend that Charles Wilmer, Jr add some to his brew for
+the above reasons.
+Oh, and definitely 'don't worry!!'
+
+
+Cheers!  Alan Keig <akeig`at`library.adelaide.edu.au>
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 06:32:57 -0500
+From: gscott`at`io.org (Geoff Scott)
+Subject: SS hydrometer flasks
+
+
+Norm writes:
+>Um, Kirk are you Superman in disguise?  I'd need X-ray vision to read my
+>hydrometer through a SS tube.  Must be nice to hang out with that Lois Lane
+>babe and make beer...
+
+
+Upper Canada, a local micro here in Toronto uses metal hydrometer flasks in
+the brewhouse.  After taking a sample from a spigot on the kettle or the
+lauter tun they put the copper cylinder in a larger diameter but shorter
+tube installed in a sink.  This has water constantly running in the bottom,
+over the top and into the sink.  The sample is stirred a few times with a
+kind of plunger like instrument then the hydrometer is put in.  The excess
+wort flows over the edge and the reading is taken at the very top of the
+sample tube.  When I first saw this I wondered if the meniscus would
+interfere but it doesn't seem to be a problem.  I believe they use clear
+flasks in the fermentation house.  They sure do get their readings fast
+with this system.
+
+
+regards,
+
+
+Geoff Scott
+gscott`at`io.org
+Brewing page    http://www.io.org/~gscott
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 06:37:53 -0400 (EDT)
+From: ejk`at`bselab.bls.com (Evan Kraus)
+Subject: Sabco Kettle's
+
+
+I was thinking of buying one but a friend of mine has 2 and has had
+plenty of trouble with the screens they seem to colapse.
+Yesterday he had a 25lb mash drop the screen.
+
+
+HAS ANYOUE HAD ANY PROBLEMS WITH SABCO KETTLES ?
+
+
+Privat emails please
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 07:47:17 EDT
+From: usfmchql`at`ibmmail.com
+Subject: for.sale.info                                                    
+
+
+*** Resending note of 05/11/95 07:42                                           
+In HBD 1728, Chris Strickland asks about a beer.equipment.4.sale.faq or        
+something like that...                                                         
+                                                                               
+I remember seeing a long list of alt.for_sale.computer (or something like      
+this) specific to computer equipment (about 20 of them) and one miscellaneous  
+one on the UseNet. I second your suggestions, but go one step further - what   
+about a for sale newsgroup for brewing equipment? Anyone out there wise in the 
+ways of usenet newsgroup formation that can either do it, or give me info on   
+how I might convince my home provider (oeonline) to set one up? If this        
+happens, (or if I can make it happen) I will compile new adds on a (period of  
+time goes here)ly basis into an updated faq and upload it to the archive site  
+at Stanford for access by the UseNet inhibited.                                
+                                                                               
+What say you, oh voting members of the collective?                             
+                                                                               
+Private e-mail to pbabcock`at`oeonline.com, please!                               
+                                                                               
+"Drink all you want - I'll brew more"                                          
+                                                                               
+Pat Babcock                                                                    
+                                                                               
+
+
+------------------------------
+
+
+Date: Thu, 11 May 95 07:17:29 CDT
+From: Steve Seaney <seaney`at`pwrtrn1.me.wisc.edu>
+Subject: Apartment Brewing
+
+
+
+
+Hello,
+
+
+There's a pretty good chance my wife and I will be moving to a
+modern apartment in a few months.  I've been brewing with a king
+cooker in an old garage.  Is it possible to do all grain inside?  
+
+
+I would be interested in learning about any 'setups' or equipment that
+could make the transition easier.
+
+
+Thanks,
+Steve
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 08:50:00 -0500 (EST)
+From: I Gelman <igelman`at`smtplink.mssm.edu>
+Subject: Microwave Madness!!
+
+
+
+
+Text item: Text_1
+
+
+     
+        Microwaving discredited!!!  Let those of you without microbes cast 
+     the first stone!
+     
+        Seriously, to get back to the microwaving issue, several people 
+     have commented on the advantages and disadvantages of microwaving 
+     funnels, glass fittings, etc.  
+     
+        I just want to reiterate that sterility (ridding of all microbes, 
+     including spores) is not a standard issue in Homebrewing, but 
+     sanitation is.  In this spirit, it is sufficient to wash your 
+     equipment with chlorine-based detergents and lots of tap water.  
+     However, microwaving funnels, etc. can be helpful if you can't scrub 
+     hard-to-get-to places in your gear.  Of course, as with any 
+     sterilization-like procedure, the duration of the microwaving is 
+     critical:  5-7 minutes at high power is sufficient.
+     
+        A scientific word about microwaving.  Microwaves are produced at a 
+     frequency that oscillates H20 molecules in liquid phase (that's why 
+     microwaving is much less efficient on frozen food).  If something is 
+     zapped with sufficient radiation (i.e.- long enough) , it will 
+     effectively boil from within.  Proof of this was demonstrated to me 
+     once when a hollowed out "box" of frozen ice cream filled with pudding 
+     was microwaved, resulting in heated pudding in the center surrounded 
+     by frozen ice cream (an inverted Baked Alaska).  Kids, you may try 
+     this trick at home.
+     
+        A comment was made that microwaving a plate of food often results 
+     in only some sections being heated.  This is due to the lack of focus 
+     of the microwaves in household units, and is why more expensive units 
+     have a motorized lazy-susan to distribute the radiation more evenly 
+     over the food.  
+     
+        Lastly, I run a microbiology lab, where sterility is an issue.  We 
+     have found that microwaving solutions of under 1L for at least 10' is 
+     sufficient for FULL sterilization (remember to loosen the bottle caps 
+     to prevent steam buildup). This includes sporulating fungi and 
+     bacteria.  Thus, this procedure is ideal for people wanting to 
+     sterilize water or media to be used for yeast culturing.  However, we 
+     have found that our bacterial yields from microwaved media are lower 
+     than from autoclaved media, suggesting that the radiation tends to 
+     break down sugars and/or nutrients critical for growth.  As was 
+     reported recently, it probably this may be part of the deleterious 
+     effect on hop flavor.
+     
+        Cheers!!
+     
+     
+     Irwin Gelman (Ph.D.)
+     igelman`at`smtplink.mssm.edu
+     
+        
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 22:50:56 +1000 (EST)
+From: David Draper <ddraper`at`laurel.ocs.mq.edu.au>
+Subject: Stovetops/Excessive DMS?/Bottling
+
+
+Dear Friends, got some comments on stuff in #1728.
+
+
+Dan Pack asks about the ups and downs of stovetops for full boils.  My 
+biggest problem in using the stove is all the steam that gets 
+generated--it gets pretty swamplike in the kitchen, especially if you 
+have lots of shiny surfaces (tile, in my case); the floors in particular 
+would get very slick.  Never fell on my butt but it was close a couple 
+times.  That alone was enough to motivate me to move out onto the balcony 
+with a 3-ring burner, and all has been well ever since.
+
+
+Tom Baier has a perception of excessive DMS in recent batches and wonders 
+about the causes.  Lots of possibilities here; I won't even try to be 
+comprehensive.  First, a cheap and easy thing to change is to use a short 
+length of tubing/hose from the spigot of your lauter tun to the 
+collection vessel so that the sweet wort doesn't splash around.  I doubt 
+that not having one would enhance DMS production but it seems like good 
+practice in general.  Some of the best ways to reduce the effects of DMS 
+are: a good rolling boil; leaving the boiler uncovered as much as you 
+dare so that the compounds involved can get the heck outta there; as 
+rapid a chill as you can manage; and of course the bulk composition of 
+the malt you are using.  Some of us down here are using a malt that is, 
+among other things, more prone than usual to producing DMS precursors, 
+and there have been a couple times when a lot was emanating from my 
+fermenter (but most blew off during primary, fortunately; the styles 
+didn't have much room for DMS).  
+
+
+There has been some talk of bottling practices lately, most recently from 
+Nigel Townsend down in Tassie.  For those of us who have plastic bins 
+with spigots attached, bottling is a snap--you rack into the bin from the 
+(primary or secondary, choose one), adding your priming solution as per 
+usual, and then jam the bottling wand right into the spigot--the ones we 
+have here fit perfectly.  That is, the OD of the wand is a perfect 
+friction fit with the ID of the spigot.  Now your wand is pointing down, 
+ready to dispense.  Put a pan under the spigot to catch drips; open the 
+tap; stick a bottle in there, raising it until the bottom of the bottle 
+actuates the tip of the wand; the bottle fills; have another ready to 
+stick on there when the first is done; and so on.  Once I get this all 
+set up (i.e. beer in bottling bin, bottles ready to be filled) it takes 
+me about 20 minutes to fill a 23 litre batch, without needing 8 arms.  
+When the level of beer in the bottling bin gets low, you can easily reach 
+with one hand and tip it forward to keep things moving while using the 
+other hand to maneuver the bottle.  Takes more words to describe than to 
+do--but believe me it's better than my stabs at ASCII art.
+
+
+Cheers, Dave in Sydney
+- --
+"Cross your fingers and wait it out." ---A. J. deLange
+******************************************************************************
+David S. Draper, School of Earth Sciences, Macquarie University, NSW 2109
+Sydney, Australia. email: david.draper`at`mq.edu.au fax: +61-2-850-8428
+             ....I'm not from here, I just live here....
+
+
+------------------------------
+
+
+Date: 10 May 95 17:24:00 -0500
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: W1056 temp/hop oils vs. AA/body and FG/O2 caps/wooden false bottom
+
+
+
+
+I'm off-line for two days with a cold and the SNR of the HBD goes down the
+toliet ;^).
+
+
+***
+Lee writes:
+>In a recent HBD Al K states.  " The next 1056 batch I made, stuck.  Wyeast 
+>really doesn't like temperatures below 63F and will quit early if it
+>encounters them. "
+>
+>I have to disagree, In winter I  ferment 1056 batches in my basement at 
+>60-62F with no ill effects.  I do pitch a larger quantity of  starter 
+>slurry into the wort  and airate well.   I  get a vigorous ferment and a 
+>normal FG.
+
+
+Lee-- it depends on the temperature of the ferment, not the ambient
+temperature.  Since you used a big starter, I'll bet that your yeast
+actually raised the temperature of the green beer above 63F.  In my case,
+I inadvertently put the fermenter into a 57F room and they never quite
+got started.  I could check my brewing log, but I'll bet it was either
+a 500ml or 750ml starter I used.
+
+
+***
+recently someone wrote:
+>isomerize the hop oils
+
+
+I'm sure they meant "isomerize the alpha acids."   Hop oils provide aroma...
+it's the alpha and beta acids that provide the bitterness.
+
+
+***
+Russ write (quoting Spencer):
+>> Try this experiment: Take a glass of water (8 oz).  Take another glass
+>> of water and dissolve an ounce of sugar (about 2 tablespoons) it (SG
+>> 1.045, roughly).  Is there a difference in the mouthfeel?
+>
+>Or just put enough sugar in for an SG of 1.010 and try it.  I don't deny 
+>that sugar contributes something to mouthfeel, I'm pretty sure it does, 
+>but, according to Miller (and my admittedly limited experience), protein
+>contributes more than sugar, at least in terms of the "heavyness" or
+>"fullness" of the mouthfeel.
+
+
+Careful... could there be a difference in the mouthfeel of 1.010 worth of
+glucose and 1.010 worth of dextrins?  My gut feeling says yes.  Also, in
+a private conversation with George Fix, he told me that his experience
+indicates that protein content has a far larger effect on the body/mouthfeel
+of a beer than the dextrin content.  I would also suspect that 1.010 worth
+of dextrins may also have a different body/mouthfeel than 1.010 worth of
+proteins.
+
+
+***
+Todd writes:
+>that lead me to believe that water was the only component necessary to
+>activate the O2 absorbing caps.  The local HB shop owner said he had heard
+>that it was necessary to boil them.
+
+
+Your local HB shop owner has it backwards: boiling O2-absorbing caps ruins
+them.  The humidity in the headspace of the bottle is enough to activate
+the O2 absorption.
+
+
+***
+Jim writes (about using a wood frame and window screen as a false bottom):
+>1.  Will the screen mesh be sufficient to create a grain bed or would
+>crushed grain still be able to slip through the screen with the runnings?
+
+
+I would say, no.  Most false bottoms are less than 25% open.  Your screen
+would be well over 75%!  It may work, but you will have to recirculate 
+gallons and gallons till the grain established a filter bed.
+
+
+>2.  Does anyone see potential problems with making a false bottom using wood
+>and screen?
+
+
+In addition to the sanitation worries, I would also be concerned about
+aroma or flavour being imparted by the wood to the wort.  By all means
+DON'T USE PRESSURE-TREATED WOOD FOR SOAKING IN BEER/WORT.
+ 
+>3.  Because of my lack of lautering knowledge is there a better way to
+>create, or material to use, for a false bottom in a 40 quart, square cooler?
+
+
+1/2" solid copper tubing and some elbows/T's or soft copper tubing bent into
+a shape that fits... with small holes or slits cut-in, facing downwards.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: 10 May 95 17:30:00 -0500
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: growing hops/dark grains/diacetyl/single-stage/cap sanitation/dry yeast
+
+
+Michael writes:
+>1.) The planting instructions indicated that if the hops were of
+>different variety I needed to plant the rizomes ~5 ft. apart. If they
+>were of the same variety, plant ~3 ft apart. Why? Cross pollenation
+>possibilities?
+
+
+Cross-pollenation should not be a problem unless you have a male plant
+among your hops -- if you are buying your rhyzomes from a reputable
+place, chances are nil that it's a male.  No, the reason for the spacing
+is because the hop plants send out shoots that can stay underground for
+a few feet (especially after a few years).  The reason that this is important
+is because you might have a Nugget shoot come up amidst your Saaz shoots.
+When the plants are of the same variety, who cares which rhysome the shoot
+came from?
+
+
+>2.)I hear that the vines (bines?) can grow to ~30 ft. How much room
+>side-to-side do the plants need? I did not have the proper space
+>available to get 3 ft between plants.
+
+
+The issue here is crowding among leaves and one plant shading another.
+I have two strings and a pole for each plant to climb and the triangle
+of the bases is about 15" per side.  Overall, each plant (with one or
+two bines growing up the pole and the two strings) is about 3 feet in
+diameter.  If you used a single string for each plant and trimmed away
+all but two or three bines, you could probably plant like varieties about
+18" apart.
+
+
+>3.) Is there no way for me to be able to determine by my self or by
+>sending a sample to someone, the AA%?
+
+
+Unless you grow an awful lot of hops or brew very little, you probably won't
+grow enough to supply yourself.  I would recommend just using the homegrown
+hops for dryhopping/finishing, where the %AA is virtually immaterial.  You
+can brew a few test batches and estimate the %AA by trial and error.  Or, I
+believe you can send a sample to the University of Oregon (call ahead to
+make sure), but I'm pretty sure the cost will make it more expensive than
+store-bought.
+
+
+***
+Tom writes:
+>Q - Do I add dark grains (black patent, chocolate, etc.) at dough in 
+>or just before mash out? (and why)
+
+
+I believe there was an article on this about three or four years ago in
+Zymurgy, by Micah Millspaw, Bob Jones or both of them.  Personally, I put
+the dark grains in at dough-in, but then I also add calcium carbonate and
+other brewing salts to the mash to imitate the water of the style I'm trying
+to brew.  The dark grains lower the pH of the mash and the CaCO3 raises it.
+It is because of this, that areas with high carbonate levels (Dublin,
+Munich, London) became famous for their dark beers).
+
+
+***
+Chuck writes:
+>I have a pale ale that tasted fine (even great) for the first
+>month and a half -- lots of hop character and hop aroma.  Then it began to
+>transform.  First, for about two weeks, it developed a diacetyl flavor
+>(sort of butterscotchy), which began to mask the hops.  Now that flavor
+>seems to have transformed into an unpleasant, rough bitterness that masks
+>almost all of the hop character.
+
+
+Sounds like a Pediococcus infection.  Some strains of Pedio produce copious
+amounts of diacetyl.  I've never personally tasted a beer with such an
+infection, but George Fix has written that the diacetyl produced by a Pedio
+infection has a rough/rancid flavour, not the smooth diacetyl you get from
+yeast.  Perhaps it is just a matter of concentration?  George?
+
+
+***
+comsin19 writes:
+        1. Pros and cons of single stage brewing.
+
+
+Pros: one less transfer, less risk of infection, one less vessel to sanitize,
+one less vessel to clean.
+
+
+Con: for long ferments (e.g. lagers) the yeast spend a long time on the trub
+and dead yeast.
+
+
+Note that I personally feel that there is a big difference between using a
+plastic fermentor as a primary and a glass fermentor as a primary.  If you
+are using a plastic fermentor as your primary, I feel you should be more
+concerned about oxidation of the finished beer through the walls of the
+fermentor than about yeast autolysis or the beer sitting on the trub.  I've
+had a beer go "bad" on me (lots of aldehydes) after only three weeks in an
+HDPE plastic fermentor.  On the other hand, I've let beers sit for months
+(granted, they were always either quite dark or quite strong) in a glass
+primary with no noticable problems.  If you're making an ale, using a good
+healthy starter, fermenting the beer out in a week or 10 days and bottling
+within a 10 days of the end of fermentation, I would recommend sticking with
+a single-stage fermentation.  If you plan to lager, add fruit for a secondary
+fermentation or are often too busy to bottle until weeks later, then do
+go to a secondary.
+
+
+        2. Should I sterilize my caps and if so how is the best way?
+
+
+Yes.  I recommend a 15 minute soak in 200 ppm cool, bleach solution
+(1tbsp/gal).  Incidentally, this is sanitation, not sterilization.  You
+cannot acheive sterilization without autoclaving, pressure cooking or
+irradiation.
+
+
+***
+Dan writes:
+>1. I am using dry yeast and I have read several methods for starting the
+>yeast: a) just throw the yeast into the fermenter straight out of the 
+>package, b) mix it in 1 cup of warm water for 30 min., and c) mix it in
+>1 cup of warm water for 10 min., mix in 1 teaspoon of sugar, and wait for
+>it to churn and foam. Which is the best method? Are any of these methods 
+>wrong?
+
+
+"a" will make decent beer 9 out of 10 times, but a significant percentage of
+yeast will suffer from this treatment.  Dry yeast first need to rehydrate.
+If you put them into wort or a sugar solution, they will have a harder time
+absorbing water than if you added the yeast to plain sanitary water. "b" is
+the best, but "warm" is relative.  The proper rehydration temperature
+(according to Lallemand, one of the largest dry brewing yeast mfgrs) is between
+90 and 100F.  The time is also rather important.  Lallemand says at least
+15 minutes, but not more than 30 minutes.  "c" is probably no better than
+"b" but has the added risk of introducing a teaspoon of unsterile sugar.
+ 
+>2. What happens if I pitch twice as much yeast as needed? 
+
+
+Few homebrewers add enough yeast.  If you mean two packages in stead of
+one, the answer is, a shorter lag time (a good thing, generally speaking).
+In fact, if you are making a strong beer, adding extra yeast is just about
+required for a healthy ferment and a reasonable finishing gravity.
+ 
+>3. One more question not regarding yeast: Will I totally ruin the 
+>fermentation process if I take the airlock off for a brief amount of time
+>after it has started to ferment?
+
+
+Not to worry.  CO2 will purge-out any O2 that might get in.  There's quite
+a difference between letting air into the headspace and stirring air into
+the fermenting beer (the latter increasing diacetyl production).  After
+fermentation, the effect of beer is a little more problematic (aldehyde
+production) but in small amounts even that is below sensory threshold.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Thu, 11 May 95 10:32:49 EDT
+From: dipalma`at`sky.com (Jim Dipalma)
+Subject: RE: Aeration during lauter
+
+
+
+
+
+
+Hi All,
+
+
+In HBD#1728, Tom Baier asks:
+
+
+>I need help.
+
+
+You've come to the right place.
+
+
+>1.  While lautering, I let my sweet wort splash mightily down into
+>a bucket (as the brewkettle is currently holding the sparge liquor).
+>Is this aeration causing big-time HSA?
+
+
+I'd say yes. I use a 1/2" poly tube on the outlet of my mash/lauter tun, and
+keep the end of the tube submerged an inch or two below the level of the wort
+in the brewpot. This also helps eliminate the mess from spattering wort.
+
+
+>2.  I use corny kegs for fermenters,
+>Did we ever reach closure about the
+>effects of fermenter geometry on flavor profile?
+
+
+Yes we did. Some time ago, George Fix posted an article to the digest
+describing the effects of fermenter geometry on the flavor profile of 
+finished beer. I don't have the text of the article handy, but working from
+memory (always a dicey proposition, eh?), the article said the "ideal
+situation" is when the aspect ratio is 1:1 or less, and that it should not
+exceed 2:1. The aspect ratio of Corny kegs is a little over 3:1, I think,
+compared to about 1.5:1 for a 6.5 gallon carboy. The article noted both higher
+finishing gravities and elevated levels of diacetyl when tall, narrow
+fermenters were used versus short, squat ones. Draw your own conclusions.
+
+
+>3.  I do almost exclusively classic British styles, with a single
+>infusion at 150-154F.  Is it possible/likely that my thermometer is
+>so far off that I am really mashing at 160F+ and getting *tons* of
+>unfermentables as a result?
+
+
+Put several ice cubes in some cold water,  and wait a few minutes to give
+the ice a chance to melt a bit. Put your thermometer in, stir for a minute,
+the mixture should read roughly 32F.
+
+
+Tom, FWIW, my take on this is that you may have a combination of off flavors
+due to HSA and diacetyl that you are perceiving as DMS. Assuming that you
+are not using a malt that is extremely high in SMM (s-methyl methionine,
+a primary precursor to DMS), there are some things you can do to minimize
+DMS production, and eliminate it as a possible cause of the off flavor you
+are getting. Since you brew English ales, I assume you are using pale malt,
+which has been more highly kilned than the European lager malts that have
+this characteristic, and is thus lower in DMS precursors.
+First, use a vigorous, rolling boil, and leave the brewpot uncovered. DMS
+can be driven off as a gas during the boil if the brewpot is reasonably
+well ventilated. Second, DMS is also produced in the initial stages of
+wort cooling. A few years back, someone posted a graph that showed DMS
+production levels versus temperature. This graph clearly showed that the
+majority of DMS is produced as the wort cools from 212F to 140F. Obviously,
+the faster the wort is chilled through this temperature range, the less DMS
+is produced. What I do is leave my brewpot uncovered for the first 1 to 2
+minutes after starting my wort chiller (ObBeerGeek: it's fun to watch the
+cold break form), allowing some ventilation during the critical phase of the
+chilling. The wort is still hot enough that infection won't be a problem.
+After the first couple of minutes, cover the brewpot.
+
+
+*****************************************************
+
+
+Also in HBD #1728, Patrick G. Babcock writes:
+
+
+>In fact, she doesn't like the smell or the boiling wort.  Because of
+>this aversion, she allowed my to by a 3-kettle pico system with
+>pumps, burners, (hooo hoooo!) ALL THE GOODIES!!!
+>AIN'T LIFE GRAND?!?
+
+
+Way to go Patrick!!! The way that you skillfully parlayed your wife's
+aversion to brewing aromas into a three tier system is an inspiration to
+us all!!!
+
+
+My .02 on the women/wives in brewing thread:
+
+
+Unfortunately, my wife has not the slightest interest in brewing. Like
+Patrick's, the smell of a mash (which always reminds me of the fresh baked
+bread my grandmother used to bake) and the smell that comes from the brewpot
+a few minutes after adding hops (is there anyone among us who doesn't love
+that wonderful hop aroma?) is enough to send her fleeing to the nearest
+shopping mall. Over the years, she has patiently tolerated burnt wort on
+the stovetop, exploding mason jars, weekends when I disappeared to go judge
+someplace, slants of yeast in the fridge, the list of my brewing crimes goes
+on and on. 
+It does help that she's an enthusiastic "end-user" though. Her favorite styles
+are stout, porter, and steam beer, no lite beers need apply. And after
+suffering in silence, her first words upon arriving home from work are usually
+"what's on tap?" :-)
+
+
+           Cheers,
+            Jim               dipalma`at`sky.com
+
+
+------------------------------
+
+
+Date: Thu, 11 May 95 10:50:14 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Aeration during lauter - DMS?
+
+
+Tom Baier <BAIER_T`at`SALT.PLU.EDU> says
+
+
+>   All my beers seem to have a consistently high level of
+>   what I perceive as DMS.  While I don't always find this
+>   objectionable, I have become  frustrated, and feel that
+>   I must have a procedural flaw.
+>   
+>   1.  While lautering, I let my sweet wort splash mightily
+>   down into a bucket (as the brewkettle is currently
+>   holding the sparge liquor). Is this aeration causing
+>   big-time HSA?
+
+
+Very likely.  Add a hose extension to your Zapap outlet with the end
+below the surface of the wort so it doesn't splash.
+ 
+>   Do I just *think* that wet cardboard
+>   really tastes like canned corn?  Seems like my 75-90
+>   minute boils would cure ills introduced at this stage.
+
+
+It certainly should.  Especially since you say you make almost
+exclusively British ales.  If you are using British pale ale malt, you
+would have to work to have DMS, since well modified malt has a greatly
+reduced level of DMS precursors.  I suggest you take your beer to your
+local homebrew club for some additional opinions as to just what this
+objectionable flaw is.  You say you don't belong?  Join!  You'll be able
+to get more practical help with this kind of problem.
+
+
+>   3.  I do almost exclusively classic British styles, with
+>   a single infusion at 150-154F.  Is it possible/likely
+>   that my thermometer is so far off that I am really
+>   mashing at 160F+ and getting *tons* of unfermentables as
+>   a result?  FG is usually in the 1.010-1.015 range for
+>   pales.
+  
+British PAs usually finish at about 25% OG.  FG 10-15 sounds about
+right.
+
+
+>   I use a maltmill(tm) and zapap system, but my
+>   yields have always been below expectation (20-25
+>   p/g/p).
+
+
+That's the setup I have and I get over 30 pgp.  Have you insulated your
+Zapap to keep a steady mashout/lauter temp of 176^F?  Do at least a full
+hour mash?  Check for unconverted starch?  Check your mash pH and  water
+chemistry?
+
+
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 10:51:10 -0400
+From: CCCEF.KHUIZING`at`capital.ge.com
+Subject: FG/Mouthfeel
+
+
+
+
+     We all have to start somewhere :
+
+
+     Regarding the recent discussion about the relationship
+     between the FG of a beer and the "mouthfeel" of that
+     beer.  I believe that the definition of specific
+     gravity is the ratio of density of a particular
+     substance to the density of a base substance, water in
+     most cases.  Therefore, dissolving any substance which
+     is more dense than water into a water solution should
+     increase the specific gravity of that solution and
+     hence the "mouthfeel", (assumes we perceive a dense
+     substance as having more "body" than a less dense
+     substance).  This would seem to indicate a direct
+     correlation between the FG and "mouthfeel", if beer
+     were merely a mixture of water and substances more
+     dense than water.  However, beer tends to contain a
+     pesky, yet adorable substance known in some circles as
+     alky-hol.  Alcohol being less dense than water, will
+     cause an understatement of the "true" FG of a beer.
+     Thus if we can accurately calculate the amount of
+     alcohol in the solution and determine the exact impact
+     this has on the FG measure, we should be able to make
+     an adjustment to the FG and arrive at a FG which would
+     accurately represent the "mouthfeel" of the beer
+     (assuming all CO2 has been removed from the solution
+     prior to FG measurement).
+
+
+     This is my first attempt at contribution to this forum
+     so please take that into consideration if my logic is
+     seriously flawed.  I'm still recovering from my
+     Kentucky Derby sunburn and probably wouldn't survive
+     another scorching.
+
+
+     Keith Huizinga
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 10:58:09 -0400 (EDT)
+From: jeff344`at`voodoo.lerc.nasa.gov (Jeff Berton)
+Subject: Re: RIMS FAQ
+
+
+Kirk writes:
+>Various folks have suggest they'd be interested in [some sort of] a RIMS 
+>FAQ, but many of the suggesters are already RIMS weenies.  So far I've 
+>only come up with one Frequently Asked Question, and that's the old "what 
+>does RIMS stand for and what is it?".
+
+
+I put together a description of my RIMS a couple of years ago for some friends
+and Steve Hansen was kind enough to put it in the archives on ftp.stanford.edu.
+As the keeper of the RIMS FAQ, feel free to use it as you see fit.  It's titled
+'rims_setup' and is in the 'docs' directory.  
+- -- 
+Jeff Berton, Aeropropulsion Analysis Office, NASA Lewis Research Center 
+jeff344`at`voodoo.lerc.nasa.gov 
+
+
+------------------------------
+
+
+Date:         Thu, 11 May 95 09:52:33 CDT
+From: LBRISTOL`at`SYSUBMC.BMC.COM
+Subject:      Final Gravity
+
+
+
+
+Many thanks to all of you who have responded to my query about the
+relationship between FG and mouth feel/thickness.  In addition to the
+HBD articles posted, I received several responses via private e-mail.
+
+
+The one thing that was a clear concensus of opinion on this subject is:
+     There is no concensus of opinion.
+The opinions ranged all the way from a kurt "No", through a list of
+qualified "maybe"s, all the way to those who indicate that there is a
+direct relationship.  I think rather than trying to summarize the
+responses, I will simply quote a few of the more notable comments.
+
+
+- ------------------------------------------------------------
+From: hollen`at`megatek.com (Dion Hollenbeck)
+I think that regardless of OG, beers which finish at a higher gravity
+will have more mouthfeel.  The FG is a measure of how much
+unfermentables are left, and it is unfermentables which give mouthfeel.
+
+
+- ------------------------------------------------------------
+From: Darren_Aaberge-RA2698`at`email.sps.mot.com (Darren Aaberge)
+Final Gravity determines the dryness/sweetness of a beer.  I think its
+maybe proteins and certain flavor components in the beer that attribute
+to the mouthfeel (thickness/thinness). ...  Also, when beers are
+filtered with sub micron filters, the filter will filter out some of
+the proteins and the filtered beer will taste thinner than the
+unfiltered beer, even though they will both have the same specific
+gravity (none of the sugars are filtered out).
+
+
+- ------------------------------------------------------------
+From: kevin`at`wheels.aar.com (Kevin Hass)
+Something I have done to check the beer for unfermentables, has been to
+take a known amount of beer, and dry it completely, and then measure
+the weight of that residue.  That residue has the alcohol and water
+removed, leaving just the dextrins, carbohydrates, and other yeastie
+things behind.  From doing this, I was amazed to find out how much
+stuff was in the beer.  The batch I tested had an FG of 1.012, and also
+had something like about an ounce of this residue per 12 ounce serving
+of beer.  I would expect most of that would be unfermentable dextrins,
+but I don't know for sure.
+
+
+- ------------------------------------------------------------
+From: spencer`at`med.umich.edu
+The FG is a combination of the remaining unfermentable components
+(sugars, dextrins, proteins, etc.), which raise it, AND alcohol, which
+lowers it.  The higher alcohol beer has MORE alcohol, and thus, in
+order to have the same FG, must have MORE unfermentables.
+
+
+- ------------------------------------------------------------
+From: Russell Mast <rmast`at`fnbc.com>
+I see what you're trying to achieve, that's a way to scale mouthfeel.
+I believe that it's very accurate to try and capture mouthfeel on a
+unitary scale.  I could see a stout and a doppelbock which could be
+rated as equally 'thick' but there's a different quality to the feel.
+Of course, the same is true of color, and they have a scale for that,
+so why not mouthfeel? I think the best we'd be able to achieve for
+mouthfeel is a subjective rating system based on accepted standards.
+
+
+- ------------------------------------------------------------
+From: flemingk`at`usa.net (Kirk R Fleming)
+"Yes" if you are talking about a "class" of worts built from similar or
+identical ingredients. ...  "No" if you're comparing two beers of
+completely different classes having identical OGs. ...  Also, "complete
+attentuation" was assumed, but this term only has meaning from the
+perspective of a particular yeast.
+
+
+- ------------------------------------------------------------
+From: "Paul Stokely" <PSTOKELY`at`ea.umd.edu>
+Hops also contribute to "mouthfeel" in addition to bitterness. ...
+Between two very similarly brewed beers, I think final gravity would
+indicate most differences in the mash schedule and ratio between
+unfermentable "mouthfeel" dextrins/ fermentable sugars.
+
+
+- ------------------------------------------------------------
+From: "Patrick G. (Pat) Babcock" <pbabcock`at`oeonline.com>
+Just as flavors are made up of  taste AND aroma, I believe mouth-feel
+to be made of of several components.  Not simply a measure of the
+density (how thick).
+
+
+- ------------------------------------------------------------
+From: David Draper <ddraper`at`laurel.ocs.mq.edu.au>
+This issue is so highly subjective that trying to quantify it may be,
+although brave and Zen-like, doomed to failure.  What one person
+identifies as "body" another might call "sweetness", not because one is
+a better taster than the other, but how and what different people can
+taste has such a wide range.  The range of subtleties available in
+finished beer is enormous.
+
+
+- ------------------------------------------------------------
+From: "Troy Howard"  <troy`at`oculus.jsei.ucla.edu>
+Don't forget that carbonation levels play an important part in the
+perception of mouthfeel.
+
+
+- ------------------------------------------------------------
+Taking all of these thoughtful comments together, it seems to be that
+there is room for further research in this area.  My goal is not (as
+many seem to suggest) to use FG as an objective measure of mouthfeel,
+but as a means to quantify the influence of various mash conditions
+(such as time, temperature, pH, stiffness, etc.).  All of which are
+related to this concept of mouthfeel.  I'll see what I can glean about
+this subject and get back to you if I think I have found anything
+worthwhile.
+
+
+Especially if I take David Draper's comment to heart:  "Let us know,
+Larry, if you work this out, so we can award you the Nobel Prize in
+Brewing!"
+
+
+Cool!  :-)
+
+
+- --------------------------------------------------------
+|  Larry Bristol    |     A brave, Zen-like effort!    |
+|  SYSUBMC.BMC.COM  |                                  |
+|  (713)918-7802    |         ... but it fails.        |
+- --------------------------------------------------------
+
+
+------------------------------
+
+
+Date: Thu, 11 May 1995 10:59:33 EDT
+From: uswlsrap`at`ibmmail.com
+Subject: Bell's PA yeast / Great Taste                                    
+
+
+                                                                               
+BELL'S PALE ALE:                                                               
+I have a very happy starter going, born of the dregs of a bottle of BPA.       
+Question: is it 1056 or is it something else (and if so, what)?                
+Maybe one of you kazoo guys (Tim or Tom) can answer with some authority?       
+                                                                               
+GREAT TASTE:                                                                   
+That post about the Student-Buddy Brewfest in California (give a student       
+a real beer, and s/he'll never drink swill and never drink to get drunken      
+stupid, et cetera?) made me think that I should alert y'all to ticket sales    
+for the Ninth Annual Great Taste of the Midwest, August 12, in Madison at      
+Olin-Turville Park, on the shore of Lake Monona.                               
+                                                                               
+August sounds like a long time away, but tickets went on sale May 1 and        
+have been selling well.  This event does sell out quickly, and ticket sales    
+are limited to 2,500.  50+ breweries/150+ beers, commemorative glass,          
+unlimited sampling (none of those annoying beer tokens that you have to use    
+some places--not a flame against any particular event in California or Oregon  
+or anyplace else, in fact not a flame at all--just my personal editorial       
+comment.  I'm sure there's a reason for them some places, but not here),       
+15 bucks (or roughly 20 loonies for our friends from that civilised place to   
+the north).  A substantial part of the proceeds benefits Community Radio       
+WORT/89.9 FM.                                                                  
+                                                                               
+By mail: Madison Homebrewers and Tasters Guild / P.O. Box 1365 /               
+                  MadCity, Weirdscowsin 53701-1365                             
+         checks payable to MHTG, $15/ SASE for almost immediate service        
+                                                                               
+By phone (credit card): 608.938.1985   $16                                     
+                                                                               
+You've been advised.  Don't complain if you wait until June and find yourself  
+ticketless.                                                                    
+                                                                               
+Now go have a beer,                                                            
+                                                                               
+Bob Paolino / Disoriented in Badgerspace / uswlsrap`at`ibmmail.com                
+"People who drink light "beer" don't like the taste of beer;                   
+                            they just like to pee a lot"                       
+ --quote stolen from Capital Brewery, Middleton (Madison), WI                  
+
+
+------------------------------
+End of HOMEBREW Digest #1729, 05/12/95
+*************************************
+-------

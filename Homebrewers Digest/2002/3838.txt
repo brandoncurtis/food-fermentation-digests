@@ -1,0 +1,623 @@
+﻿Date: Mon, 14 Jan 2002 00:41:48 -0500
+Subject: Homebrew Digest #3838 (January 14, 2002)
+
+
+
+
+
+
+HOMEBREW Digest #3838                             Mon 14 January 2002
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Carbonation calculator ("Steve Jones")
+  IBU Calculations In ProMash (Jeffrey Donovan)
+  Hops Calculations (AJ)
+  Re: Force Carbonation & Keg Cooling ("D. Butler-Ehle")
+  Promash hop calculations (Pat Babcock)
+  Paulaner Hefe-Weizen Clone Recipe? ("Jodie")
+  What's the cause ...... (Andy Woods)
+
+
+
+
+*
+* Ft. Lauderdale Beer Fest to benefit the homeless
+* 1/25/02 info: http://www.homebreweronline.com
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 12 Jan 2002 09:00:31 -0500
+From: "Steve Jones" <stjones1`at`chartertn.net>
+Subject: Carbonation calculator
+
+
+In response to the recent question about calculating pressure on force
+carbonating, I've built a javascript calculator that isn't limited to a
+specific range of temps or volumes CO2.
+
+
+I've not tested it yet for Netscape, but here is a link to my brewing
+calculators page. On it is the calculator for force carbonation, among
+several others: http://users.chartertn.net/franklinbrew/tools.htm.
+
+
+
+
+Steve Jones
+Johnson City, TN
+stjones1`at`chartertn.net
+http://users.chartertn.net/franklinbrew
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 12 Jan 2002 06:51:52 -0800
+From: Jeffrey Donovan <jeffrey`at`promash.com>
+Subject: IBU Calculations In ProMash
+
+
+Richard,
+
+
+>Richard Foote wrote:
+>I have been using ProMash for a few months now.  One thing that keeps
+>hitting me is the hop bittering calculations.  It seems to take way less
+>hops to achieve a desired bitterness level than I was accustomed to over
+>many years of using long hand calculations and other brewing software.
+
+
+Ok I will try and do my best to answer this question Richard, hopefully 
+something in the following statements will click for you:
+
+
+1) The underlying formulas for all of the hop IBU calculators are for the 
+most part identical, it is the utilization calculation that is different in 
+each. You mention you feel the numbers are too high and that you are using 
+the default setting in ProMash. The default is the Rager calculation, and I 
+personally would agree that Rager numbers are usually a bit high, hence you 
+would use less hops. Have you tried using any of the other formulas such as 
+Tinseth or Garetz? I personally use Tinseth's formula, and most of the 
+brewers I talk to feel Tinseth is the most accurate of the three. Both 
+Tinseth's and Garetz's formula will give IBU values lower than Rager. The 
+reason we set the default to Rager is that this is the formula that has 
+been published the longest, and most brewers are familiar with it (most IBU 
+utilization formulas, with the exception of Tinseth, are based on Rager's 
+work).
+
+
+2) I have had the opportunity many times to take my own beers to a lab and 
+have them analyzed. Again, the Tinseth formula's prevail as the best fit in 
+almost every example (best fit, not exact match). However, I can tell you 
+right now that IBU calculations are *not* mathematical truth, nor will they 
+ever be. The best we can do is be accurate in the equations presented, and 
+we have had all of our equations independently verified by their respective 
+author.
+
+
+If you would like to see how the different formula's do stack up in the 
+Lab, I refer you to Louis Bonham's excellent article written for the now 
+defunct Brewing Techniques magazine.
+
+
+http://www.brewingtechniques.com/library/backissues/issue7.1/bonham.html
+
+
+
+
+3) What version of ProMash are you using? One problem we have had in the 
+past is that we include in the download section separate version for both 
+Home Brewers and Pro Brewers. While the actual program is identical, the 
+system settings are set to each scale accordingly. Now, in earlier version 
+we set the "Kettle Utilization" factor in the pro-scale settings to 
+accurately reflect the majority of kettles within the 17 bbl range . 
+However, we quickly discovered many homebrewers were downloading the pro 
+version because they thought the versions were different, and then *not* 
+resetting the kettle utilization factor to accurately reflect smaller scale 
+brewing systems (if your brewing 25 gallons or under this setting should be 
+set to 1.0). In version 1.6 we changed this so that each version (when 
+downloaded) defaults to a value of 1.0, leaving it to the pro-scale brewers 
+to set their correct value.
+
+
+4) If you want to provide a example of the formula you use in you hand 
+calculation, or name the other software you are using, I could perhaps be 
+of more assistance in determining the discrepancies you are seeing.
+
+
+
+
+Finally Richard states:
+
+
+>figure how to get back into wherever I need to go to change it.
+
+
+Goto the System Settings, Hop section. The default is set to Rager. All the 
+variations are outlined in the help screens, so just press the "Help" 
+button in the system settings, hop section to get a full rundown.
+
+
+I hope this helps some Richard. If you'd like to talk more regarding this 
+subject please feel free to contact me via email (jeffrey`at`promash.com) or 
+visit our Message Board on the ProMash website.
+
+
+Cheers!
+
+
+ - Jeff
+
+
+
+
+
+
+
+
+Jeffrey Donovan
+Beer Engineer
+The Sausalito Brewing Co.
+jeffrey`at`promash.com
+jeffrey`at`beerengineer.com
+http://www.promash.com
+http://www.beerengineer.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 12 Jan 2002 22:19:45 +0100
+From: AJ <ajd`at`zai.com>
+Subject: Hops Calculations
+
+
+Rick Foote asks about the hop utilization calculations in ProMash. The
+ProMash bitterness calculators cannot be expected to accurately predict
+the actual bitterness of your beer any more than any other method can.
+There are simply too many variables. ProMash accounts for many if not
+most of them. You have a choice of three models (Rager, Garetz and
+Tinseth) for actual isomerization as well as a model for diminution of
+alpha acids over time. The reason there are three models is beacuse no
+one has been able to pick a "correct" model and that is, at least in
+part, because if the perfect model were stumbled across, it would be
+hard to verify it. In order to do that one would have to relate
+something measureable in the hops (alpha acid percentage) to something
+measureable in the beer (bitterness) but this last is a subjective
+quality. Brewery labs do measure alpha (and beta) acid levels in hops
+but this is by no means a perfect measurement. Simialrly, brewery labs
+do measure the absorbance of a gasoline extract of the beer at 275 nm
+resulitng in the BU values which "express the bitter flavor of beer
+satisfactorily".
+
+
+Everyone agrees that utilization (percent of hops resin that gets
+converted to bittering principal) depends on the length of the boil and
+most agree that it depends on the concentration of the wort. It also
+depends on kettle geometry and a host of other factors. What this means
+is that the differnce that a particular brewer sees in utilization
+between an hour's boil and a half hours's boil may not be the same as
+seen by another brewer and that implies that it is unlikely that any
+particular model will exactly match the results any brewer would obtain.
+
+
+About all that can be done about this is to try to correlate the
+bitterness of the beer with the expected result. Without measurement
+this is difficult to do but I think an educated palate can guess
+bitterness to within plus and minus 5 or perhaps even plus and minus 2
+with lots of experience with beer similar to the beer being tested. This
+means that the brewer at a micro or brewpub can probably maintain his
+output to within something like those limits. The problem, of course, is
+that we don't have values for reference beers. Pilsner Urquell is at
+about 35 BU and American Megaswill at about 14 i.e. near threshold.
+Brewers never put bitterness data on their labels (it's rare enough to
+see even ABV in the US).
+
+
+Even with measurement you are likely to be surprised. I do measure the
+bitterness of most of my beers and, where the hops are from a well known
+supplier and have been kept frozen I'll see things like a measured 46
+for a predicted 42 or a measured 17 for a predicted 15 but where I've
+had to measure the hops alpha  myself (rather than rely on a packagers
+information) because the hops came in ziplock bags from the club buys,
+I've had some real surprises notable among which was a pils that was
+supposed to come out 45 and measured 70 (which, after lagering for a
+year turned into a really nice beer).
+
+
+A.J.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 12 Jan 2002 16:36:44 -0500
+From: "D. Butler-Ehle" <ulfin`at`portup.com>
+Subject: Re: Force Carbonation & Keg Cooling
+
+
+Doug Hurst writes:
+>
+>You can force carbonate your keg at room temperature.  Just pump your
+>keg up to about 30psi and let it sit a couple of days.  Check it twice a
+>day and re-pressurize as needed.
+
+
+If I'm in a hurry, I can carbonate it in about 10-20 minutes.
+Of course it works best when the beer is chilled.  (Look at
+the charts: CO2 solubility skyrockets as temperature drops...
+if you have any way to chill it at all, do so.)  I have done it with
+warm beer too, though, but it takes a lot longer.  (BTW, I'm
+refering to Cornelius-style soda tanks here, not beer kegs.)
+
+
+I crank up the pressure and shake the keg 'til either I don't hear
+the gas rushing in or my arms get tired.   Rest and repeat as
+needed.
+
+
+Note, however, that the fuller the beer tank (i.e., the less
+headspace), the less vigorously I'm able to shake the tank,
+lest I get beer splashing up into my gas line (and I hate that
+[btw, opaque tubing is designed to hide spots and yeast
+sediment; I recommend using clear hose for everything,
+so you can actually see that it needs to be cleaned/discarded
+{except maybe the drain tube from your drip tray; you don't
+want to see what's growing in that}]).
+
+
+The splashing can be avoided by removing the gas disconnect
+before shaking, then reconnecting it to give the tank another
+charge, and repeating.   Unfortunately, if you don't have much
+headspace to pressurize, you won't be adding much CO2 with each
+charge and it'll take a lot of reps.
+
+
+When I guestimate that it has enough, I shut off the gas, give it
+a final good shake (to ensure that the head pressure has reached
+equillibrium), let it settle for a few minutes (to reduce foaming
+due to turbidity and to allow incidental liquid to clear from the gas
+plug's draw tube), then check it with my pressure gauge(*).
+
+
+With pressure and temperature readings and a target for vol CO2,
+a quick look at a chart (I use Byron Burch's values as presented by
+Dave Miller in _Brewing the World's Beers_ [I think it's also in his
+_Homebrew Guide_]) tells me how close I am.
+
+
+If I overshot, first I try to convince myself not to worry about
+it and figure that giving it a shake after I've served a few pints
+will drop it into range.  However, if determine that I can't live
+with it that high, I (carefully) bleed some off using the pressure
+relief valve in the lid (some very old models don't have them).
+Give it a good shake, let it settle, then recheck the pressure.
+
+
+>To serve, you will have to reduce the
+>head pressure to about 4psi (depending upon your tapping/beer line
+>configuration)
+
+
+Quite so.  That's is a point that many homebrewers don't quite
+understand.  The pressure needed to maintain your carbonation
+at your tank temperature is not necessarily the same pressure
+needed to force the beer through your system.  When they're
+not the same, you either have to serve the tanks quickly or
+regularly re-adjust your carbonation level because the
+dispensing pressure is too low or too high to maintain it.
+
+
+Commercial beverage dispensing installations are individually
+designed such that the needed dispensing and maintenance pressures
+will be equal.  They adjust hose diameter, length, resistance;
+vary the storage temp from the dispensing temp; add compensators
+or restrictors; change rise (or fall) from tank to tap; or even add
+non-soluble gas.
+
+
+Be careful connecting a warm, carbonated keg to a gas line that's
+set to dispensing pressure.  The backpressure may drive beer
+foam into your regulator (I don't trust the check valves to
+protect me).   Don't connect the gas until serving it has lowered
+the head pressure.
+
+
+>There are a couple of ways to cool it.  You could fill a couple of
+>growlers from the tap and cool them in the refrigerator
+
+
+You may lose a lot of the carbonation as you draw from the tap
+at room temp; warm beer can't hold its breath as well as cold beer,
+and is much more sensitive to aggitation.  Overcarbonating it a
+little might help some.
+
+
+  Chillin' in da U.P.,
+  Dan Butler-Ehle
+  [411.4, 327.6] Apparent Rennerian
+
+
+(*)  My gauge is a constructed of
+a disconnect (gas ball-lock x 1/4" male flare nipple)
+a female adapter (FFL x FFL)
+a quarter-turn stopcock without check valve (MFL x 1/4" MNPT)
+a 3-way female union T (FNPT)
+a 60 psi pressure gauge (MNPT)
+another stopcock (MNPT x MFL)
+
+
+My gas hoses have FFL swivels.
+With stopcocks at either end of the gauge tool, I don't have to
+disconnect anything to check pressure or to keep beer out of
+the line if I'm shaking it vigorously.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 12 Jan 2002 17:07:32 -0500 (EST)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Promash hop calculations
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Richard asks about ProMash hop bitterness calculations...
+
+
+> I have been using ProMash for a few months now.  One thing that keeps
+> hitting me is the hop bittering calculations.  It seems to take way less
+> hops to achieve a desired bitterness level than I was accustomed to over
+> many years of using long hand calculations and other brewing software.
+> What gives?  Has anyone ever checked the accuracy of ProMash by having
+> hopped wort samples analyzed.  I know ProMash allows you to choose from
+> three different calculation methods.  I use the default method.  Can't
+> figure how to get back into wherever I need to go to change it.
+> 
+> Open discussion of this would be most welcome.
+
+
+Odd! I have to wonder what hand calculations you are using, or
+what the other software might have been using? I know that
+Jeffrey Donovan, the software's architect, had the calculations
+reviewed by Rager, Tinseth and Garetz, and they've concurred
+with his algorithms for their hop utilization calculations. I
+also know that he has implemented every possible variable to
+those calculations upon which you have control on your
+brewing. 
+
+
+Rather than truck on down the road of formal analysis, why not
+use your senses? Are the beers brewed using ProMash-calculated
+recipes much different than previous renditions? If so, which is
+closer to the target style? Were you, perhaps, overhopping
+before?
+
+
+Still, I'm betting that the problem is that you were using a
+calculation method other than the default in ProMash, so your
+problem lies in not being able to fathom how to change the
+settings. I can fix that!
+
+
+The key to most disparities between ProMash and other methods is
+that ProMash leaves nothing to assuption - you need to set it
+up! You can select calculation method, and tweak utilization for
+mash and first wort hopping methods (!) as well as adjust the
+utilization scale factor for your kettle size. Plus, you can
+CHOOSE whether to adjust utilization for plug and pellet. You
+must, however, set it up.
+
+
+These are all set very simply from the "Options" pick on the
+ProMash menu. From there, pick "System Settings" (only pick
+under that menu :^), then click on the "Hop Calculations,
+Utilization and Storage" button. Hit the radio button for the
+desired set of calculations, hit "OK". While there, set the
+other variables affecting the hopping rates as they pertain to
+your brewery (mentioned above) then click "Save As Default".
+You're now golden! Set the calculation to what you used before,
+and I'll bet the hopping levels become a bit more familiar :^).
+
+
+Another point: hopping rate calculations and the algorithms to
+implement them are not "science" - otherwise, there wouldn't be
+Garetz, Tinseth and Rager methods; there'd be a "Hop Calculation
+Formula" accepted by all (and I don't believe any commercial
+brewers are using one of these three methods for estimating
+hopping rates, so there's even more). Each of the three are
+estimated predictions against the reality, and each is different
+with its own error function. Automation of such formula can
+induce additional error (or difference) from your hand
+calculations based on the precision of variables maintained in
+the calculation. Typically, you won't even notice the
+difference; however, if there is a small difference between your
+hand calculation and that of ProMash, this could be the source
+as well (never bothered to compare. I selected my favorite
+hopping rate calculator, and noticed no appreciable change to my
+hopping schedules from the many years I'd brewed without PM.)
+
+
+One man's answer. Others?
+
+
+- -- 
+ -
+God bless America!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+[18, 92.1] Rennerian
+"The monster's back, isn't it?" - Kim Babcock after I emerged
+                                  from my yeast lab Saturday
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 13 Jan 2002 10:05:35 -0500
+From: "Jodie" <jodie`at`ga.prestige.net>
+Subject: Paulaner Hefe-Weizen Clone Recipe?
+
+
+Yesterday my husband and I found ourselves waiting for a table at The $3
+Cafe in Kennesaw, GA sitting at the long bar in front of the beer coolers.
+Being a new brewer we figured we'd try something new--research you know.
+Since we have both gravitated toward wheat beers I suggested the Shiner
+Hefeweizen. Great label and, oh, nice beer. We shared two before we were
+called to the table.
+When we ordered our burgers my husband asked for another hefeweizen. The
+waitress returned with a Paulaner. Wow! Even better. This one was spicier
+than the other, with almost a clovely touch. Winner!
+So, of course we now want to brew a similar beer.
+Can anyone direct me to a recipe to replicate this brew? As I mentioned,
+we're just beginning and don't have a mash set up (yet, but I see that
+coming! ;) ) so a malt/partial grain recipe would suit us at this stage.
+Thanks for any help,
+
+
+Jodie Barthlow
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 13 Jan 2002 23:00:34 -0500
+From: Andy Woods <woods_a`at`ACADMN.MERCER.EDU>
+Subject: What's the cause ......
+
+
+Hello all,
+
+
+   Im having a tough time evaluating a fault in a beer made by a friend.  He 
+made a clone of a Heineken Special Dark with Kolsch yeast.  At the time of 
+racking and bottling, the flavor was very good.  But when tasting a finished 
+bottle the flavor was gone, very bland, had good head when pouring, but no 
+bubbles afterwards.  I am fairly sure that it isnt phenolic cause of my recent 
+bouts with infection.  It has been conditioning for 3 weeks, and like I said, 
+is very bland, similiar to a stale soda.
+
+
+  Any suggestions??
+
+
+Andy Woods
+woods_a`at`acadmn.mercer.edu
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3838, 01/14/02
+*************************************
+-------

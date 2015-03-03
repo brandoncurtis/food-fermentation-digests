@@ -1,0 +1,2479 @@
+﻿This file received at Sierra.Stanford.EDU  92/08/11 12:04:18
+
+
+
+
+HOMEBREW Digest #944                             Mon 10 August 1992
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Re: Counter Flow Chillers <rocket science> (Paul dArmond)
+  Milwaukee homebrew supply shops ("Deborah Poirier")
+  all malt vs extracts (Mark R. Garti)
+  Pale Malt Color (Martin Wilde)
+  British v Other pale malted grains (Brett Shorten)
+  History of Sparging and Mashout (Paul dArmond)
+  Mashers & Coolers from Micah Millspaw (BOB JONES)
+  SmartCaps Info (camartens)
+  re Wort cooling (added salt) (Chip Hitchcock)
+  RE: Infections with Tap Water Rinse (BELLAGIO_DAVID)
+  The Alien Retorts (Kinney Baughman)
+  Yeast reproduction and cold break formation figures (Kinney Baughman)
+  Ken Johnson, the lamest (Kevin L. McBride)
+  All-grain Smoked Porter recipe (Kevin L. McBride)
+  Cider Yeast, Coldbreak (Jack Schmidling)
+  Runoff temp, mashout (James Dipalma)
+  7 gallon carboys (Guy D. McConnell)
+  Soft water (how to get it?) (Phillip Seitz)
+
+
+
+
+Send articles for __publication__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com
+Archives are available via anonymous ftp from sierra.stanford.edu.
+    (Those without ftp access may retrieve files via mail from
+    listserv`at`sierra.stanford.edu. Send HELP as the body of a
+    message to that address to receive listserver instructions.)
+**Please do not send me requests for back issues!**
+*********(They will be silenty discarded!)*********
+**For Cat's Meow information, send mail to lutzen`at`novell.physics.umr.edu**
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 6 Aug 1992 09:57:27 -0700 (PDT)
+From: Paul dArmond <paulf`at`henson.cc.wwu.edu>
+Subject: Re: Counter Flow Chillers <rocket science>
+
+
+In HBD #941, on 3 Aug 92, Joe Rolfe asked about cutting down on water
+usage and getting a lower output temperature from his counterflow chiller.
+
+
+Here is the Rocket Science part.
+
+
+My source is 'Cryogenic Engineering' by Russel B. Scott, D. Van Nostrand
+Co. Inc.  1959.  Heat exchangers are important to cyogenics because they
+form a very important part of the refrigerators used to liquify gases.  It
+really is "rocket science", since you need lots of LOX and other gasses to
+"make der rockets go up."  Other engineering books on steam power, oil
+refining and thermo-hydrodynamics will provide similar information.
+
+
+I'm not going to go into the mathematics, but try to explain everything as
+empirically as possible.  Heat transfer equations are very heavy on
+differential equations.  This stuff is not only hard to type without a
+mathematical typesetting system, but it isn't very accessible to most people.
+
+
+Joe's questions get right to the nub of the tradeoffs involved in heat
+exchangers.  In the best of all worlds, you would use as little water as
+possible, get the biggest temperature drop, and do it as quickly as
+possible.  Unfortunately, all three of these factors work against at least
+one of the others.  All of these factors are expressed in the
+heat-transfer coefficient.
+
+
+This coefficient is expressed as:
+
+
+watts / [(cm**2)(deg K) in CGS   Watts per square centimeter-degree Kelvin
+
+
+That's how much heat flows into the wall of the heat exchanger tube from
+the liquid in contact with the tube wall.  The formulas assume that the
+tube is straight, cylinderical, and smooth, and that the flow of the
+liquid inside of it is turbulent (i.e. the tube is small enough that the
+flow doesn't channel in the center.)  The factors that determine the heat
+transfer coefficient are:
+
+
+The specific heat of the fluid - This is a measure of heat (as opposed to
+temperature) and empirically is measured by how much ice is melted by a given
+mass at a given temperature.  Beer wort has a higher specific heat than
+water.  The concept of specific heat supposedly came from Count Rumford
+burning his mouth on some apple sauce.  The apple sauce was at the same
+temperature as his tea which didn't burn.  He had just got his first
+thermometer and was measuring everything in sight.
+
+
+The mass velocity of the liquid: g / sec cm**2  How much mass is passing
+through a given cross section each second.  For a given tubing size, this
+is strictly determined by the available pressure and flow.  For your water
+supply this is effectively limited by the maximum pressure available.
+
+
+The thermal conductivity of the liquid.  Suprisingly, this is quite low
+for most liquids.  Water is nearly an insulator, if all convection is
+supressed.  I assume that wort has a low conductivity as well.  Things
+like mercury and sodium metal have high conductivity.
+
+
+The diameter of the tube.  For tubes that don't have a circular cross
+section, this is replaced by the "hydraulic radius" which is defined as
+the cross-sectional area divided by the wetted perimeter.
+
+
+In designing a heat exchanger, there are only a few of these things that
+we can influence.  We can alter the mass velocity by turning up or down
+the flow on the faucet or altering the siphoning height.  We can pick the
+diameter of the tube that we use.
+
+
+Remember that we are looking at maximizing the heat-transfer coefficient
+at one point of the tube in one direction (wort to tube or tube to water).
+ We are only dealing with a slice, so that if the tranfer coefficient is
+maximized, then we will get the most heat transfer out of a given length
+of tubing.  The transfer coefficient will also set an upper limit on the
+in/out temperature differential for a particular length.  If the tube was
+infinitely long then the water out temp and the wort in temp would be
+equal, and the wort out temp would be the same as the water in.  The
+drawback with an infinitely long tube is that you would collapse both your
+lungs before you could get the siphon started.  Also for an immersion type
+cooler, it would not be possible to fit an infinite amount of tubing in
+your brew pot, no matter how tightly you coiled it.
+
+
+At any rate, you want the coefficient as high as you can get it.  It is
+maximized when the tube is small (or the hydralic radius is small) and the
+mass velocity is big.  This has several implications:
+
+
+1) better heat transfer means using more water (faster flow).
+2) Smaller tubes are better than bigger ones.  This makes sense, since
+there is more surface area for the same amount of copper.  It is limited
+by the ratio of cross sectional area to wall thickness.  The very small
+tubes have a problem with this, in that their inside area is small
+compared to the relative thickness of the wall.  Heat transfer is
+inversely proportional to wall thickness, so there is a limit to how small
+is small enough.
+
+
+Well, we don't want to use more water, so that's out.  Joe is already
+using 1/2" tubing in his cooler, so it would be rude to tell him to get
+smaller tubing.  Wasteful too.  What we can do is decrease the hydralic
+radius of his tube.  A circular cross-section has the lowest possible
+ratio of area to perimeter.  This is why bubbles are round.  So how about
+making the copper tubing not round.  There are some very high efficiency
+florescent light tubes that have a rippled surface to increase the surface
+to volume ratio.  The tubes look pinched, the pinches alternating 90
+degrees from each other.  Maybe this could be done with a pair of
+vice-grip plyers so the tube doesn't get pinched too much.
+
+
+This high ratio of surface are to volume is why the breweries use flat
+plate coolers, the transfer coefficient is quite high if you get away from
+using tubes.  Multiple small tubes in parallel are also used for high
+efficiency heat exchangers.
+
+
+If you are building a cooler, here are some things to consider:
+
+
+* for the same price, more feet of small tube are better than fewer feet
+of big tube.
+
+
+* The coefficients in a counterflow exchanger need to match.  The water
+side will have to have a larger flow to match the lower specific heat of
+water compared to wort.
+
+
+* If you have a choice, thinner copper tube is better since heat flow is
+equal to conductivity / thickness.
+
+
+* When using an immersion chiller, stir the wort.  This will raise the
+mass velocity on the wort side and improve the heat transfer.  Remember:
+water and wort are poor conductors, heat transfer takes place by convection.
+
+
+To get into the true "rocket science" of counterflow wort chiller design,
+the specific heat, conductivity and viscosity of hot beer wort need to be
+known.  Can anybody help?
+
+
+
+
+------------------------------
+
+
+Date:         THU, 06 Aug 92 14:46:56 EDT
+From: "Deborah Poirier" <POIRIER`at`INRS-ENER.UQuebec.CA>
+Subject:      Milwaukee homebrew supply shops
+
+
+
+
+Howdy folks
+I have a buddy who'll be in Milwaukee at the end of the month.  He'd like
+to know if there are any good homebrew supply shops. I'd appreciate any
+references, since I can get him to pick me up some cara-pils while there.
+(Rare as hen's teeth here in Montreal).
+
+
+Thank you in advance, kind souls who send me info!
+
+
+Deb
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 16:16:50 EDT
+From: garti`at`mrg.xyplex.com (Mark R. Garti)
+Subject: all malt vs extracts
+
+
+how do brews made from extracts stack up against all malt
+brews?  has recent extract technology made the difference
+negligable.  there is the obvious freedom to experiment
+with flavour, colour and sugar content - is that the point?
+can a great brew be made with extracts? or is all malt
+brewing where it's at?
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 19:26:55 GMT
+From: Martin Wilde <martin`at`gamma.intel.com>
+Subject: Pale Malt Color
+
+
+
+
+From: Brett Shorten <s05bas`at`cc.uow.edu.au>
+Subject: British v Other pale malted grains
+
+
+In Digest #942 Brett Shorten ask if British grains are darker than
+American:
+
+
+Yes they are, the color Lovibond/pound for British Pale is about 3.0.
+For American Klages/Huntington (good old BudMillOors mix) it is 2.2.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 1992 13:19:52 -0700 (PDT)
+From: Paul dArmond <paulf`at`henson.cc.wwu.edu>
+Subject: History of Sparging and Mashout
+
+
+Sparging is a fairly recent technique.  In Andrew Ure's 'Dictionary of the
+Practical and Useful Arts', 184?, sparging is described as a process only
+used in Scotland for producing high gravity ales.  Traditional English ale
+brewing used multiple mashes to get all the extract.  Usually there were
+three mashes: Strong Beer, Middle or Ordinary, and Small Beer.  The
+respective gravities were 1.060+, 1.030+ and 1.020-.  Small beer was
+sometimes called Table beer.  It is also the source of the saying, "That's
+small beer [compared to...]"  Each of the three mashes was brewed and
+fermented separately.  Porter was the first English Ale that combined the
+mashes.  [See Terry Foster's 'Porter']
+
+
+Ure's article on beer is very complete.  The process of sparging is well
+described.  Ure even compared the yields of sparging vs triple mashing,
+noting that sparging gave a better yield.  He encouraged the adoption of
+sparging as an improvement to the brewing process, and lamented that more
+brewers didn't avail themselves of this technique.
+
+
+The reason for sprinkling the sparge water over the top of the grain bed
+is that the mash tun was not kept full of liquid during the sparge.  About
+half the wort was run out before the sparging was started.  The
+sprinkling was necessary to prevent channeling in the grain bed.  No
+mention of why this was done.  The modern method of keeping the liquid
+level above the grain only requires that the added water not disturb the
+grain bed.
+
+
+Why let the liquid level drop?  My guess is that brewers were just
+continuing to hold on to the old practices learned from the triple mash
+method.  If more than half of the liquid was drained the "goods" might get
+too compact and stick.  The liquid was needed to float the grains so they
+didn't get too tight.
+
+
+My next reference to sparging comes from the 1895 Encyclopedia Brittanica
+(article on Brewing.)  Now everybody is sparging and the description is
+the same as Ure's.  Ure is even cited as the source for improved yield for
+sparging.  No mention is made of the triple mashing method.
+
+
+So in 50 years, sparging went from a curious custom of the savage Picts
+(just kidding) to the standard brewing practice in England.  Neither of
+these two sources say anything at all about lager brewing.  All references
+are only to England.  The inference is that lager brewing was a rarity in
+England at the turn of the century.
+
+
+So sparging is a recent practice, less than 150 years in widespread
+usage.
+
+
+Here's a puzzle:  Neither of these two sources say anything about mashing
+out.  The descriptions are quite detailed as to temperatures and so forth,
+so it's not an oversight.
+
+
+Who can find an early reference to mashing out?  What is the origin of
+this curious custom?
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 1992 14:42 PDT
+From: BOB JONES <BJONES`at`NOVAX.llnl.gov>
+Subject: Mashers & Coolers from Micah Millspaw
+
+
+
+
+
+
+        Wort chillers and igloo coolers. 
+Unless I misunderstood, several HBers are useing the round vertical
+type ice chests as lauter vessels,that is something to sparge in. 
+Since these industious brewers have gone to the trouble of putting
+a false bottom in the cooler why not use it as you mash tun as well,
+these things are certainly well insulated.
+Also I have seen 10 gallon metal coolers of this type at hardware stores
+for around $50 they are galvanized on the outsie and have a food grade 
+coating on the inside. A fellow in my homebrew club made a mash\lauter
+tun from one of these coolers and is very happy with it.
+
+
+        On to wort chillers, I am planning to build a newer, and I hope
+better immersion chiller. The basis of my idea is that with a 1\2 inch
+copper line with tap water running thru it picks up from the wort about as 
+much heat as is possible in the first nine feet. And  so I intend to 
+build a chiller that uses 4 circuts each 12 ft long in parallel  made 
+of 1\2 inch copper. I will have to use a manifold on both the inlet and 
+outlet and will probably add some temperature sensors and water pressure 
+guages, in hope that these may give some way to optimize the delta T by 
+varing the flow rate. Anybody try anything similar? If so please post 
+the pluses and minuses. Thanks
+
+
+                                          Micah Millspaw
+                                                8/6/92
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 15:18:41 PDT
+From: camartens`at`ucdavis.edu
+Subject: SmartCaps Info
+
+
+TO:                BEER NET MEMBERS
+
+
+FROM:         BRUCE ZENNER,
+                VICE PRESIDENT,  RESEARCH AND DEVELOPMENT
+                AQUANAUTICS CORPORATION
+
+
+CONCERNING:  USE OF SMARTCAPS*
+
+
+Some friends and fellow brewers who are on BeerNet told me that there had been some 
+discussion of SmartCaps and how to use them effectively.  Aquanautics developed these 
+crowns in collaboration with a closure manufacturer, ZapatA Industries.  I headed the 
+development project.
+
+
+These crowns have a liner material containing an oxygen scavenging formulation, and 
+can remove headspace oxygen and control oxygen permeation through the gasket material  
+for up to six months.  The chemistry is a catalyzed oxygen reduction system, and is 
+generally regarded as safe (GRAS) by U.S. FDA criteria.
+
+
+SmartCaps* are activated by exposure to high humidity,  thus they are stable under 
+normal storage conditions, and activated by the moisture content in beer.  However, they 
+should NOT be boiled to sterilize, since this will activate the oxygen reduction system 
+prior to use,  and decrease the effectiveness of the SmartCaps following bottling.
+
+
+If you sterilize your SmartCap crowns, do so by hypochlorite (bleach) or metabisulfite  
+treatment instead of boiling; you'll increase the effectiveness of the SmartCaps.
+
+
+If you have any questions, or comments, I can be reached by calling Aquanautics at (510) 
+521-4331, or by writing to me:
+Bruce Zenner
+Aquanautics Corporation
+980 Atlantic Ave., Suite 101
+Alameda, CA 94501
+
+
+Our technical services representative, Charles Benedict, can also answer questions if I am 
+not  available.
+
+
+Good luck  and remember, there are no bad beers....some are just better than others!
+Hi everyone. My name is Craig Martens. I am relatively new to brewing and 
+beernet. In response to Michael Lewandowski's inquiry about SmartCaps on
+July 14, I asked Bruce if he would write a little blurb about their use being
+that he is their inventor and also a homebrewer. I would just like to add that 
+I receive nothing for doing this etc. You can also reach Bruce through me
+if you have any questions at camartens`at`ucdavis.edu.  Brew long and prosper.
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 17:22:08 EDT
+From: cjh`at`diaspar.HQ.Ileaf.COM (Chip Hitchcock)
+Subject: re Wort cooling (added salt)
+
+
+   Adding salt to the ice blocks used in chilling isn't going to help much
+(if at all). What the salt does in icecream making is allow the water to
+stay liquid (thus contacting more of the surface of the inner canister and
+cooling it more effectively than straight ice) at temperatures below its
+normal freezing point; you can produce horrid icecream by putting too much
+salt in the freezer, which gets the mix too cold too quickly and produces
+ice crystals instead of smooth-frozen cream.
+   Somebody who has a better grasp of munging specific heats might be able
+to say whether having the ice become water at a lower temperature
+represents an improvement in cooling; in a previous round I was told that
+the specific heat of ice is much lower than that of water. But this isn't
+likely to be a large effect, since the freezing point won't be depressed
+very much---I think the limit for salty water is ~5 centigrade degrees
+based on the freezing-point depression of water and the maximum solubility
+of salt in water.
+
+
+------------------------------
+
+
+Date: 6 Aug 92 14:16:00 -0700
+From: BELLAGIO_DAVID`at`Tandem.COM
+Subject: RE: Infections with Tap Water Rinse
+
+
+In reply to Phil Miller's query about infections from tap water, I will have
+to start by saying that I am also a NOVICE with only 2.5 batches under my belt.
+I have an R/O system for my water supply that I use for my brew water. It makes
+a world of difference.  I still boil all of my water, but I still rinse with
+tap water.  What I do is turn up my hot water heater the night before to its
+hottest position.  Then I rinse with this HOT water.  I measured the temp and
+it was between 160 and 170 degrees.  You actually develop a tolerance to hot
+water after numerous sprays on your body and hands.  I figure that anything in
+there was killed by the overnight increase in temp.
+
+
+>  Tap water (at least most taps) contain VERY few bacteria or fungi.  You
+>  could hardly even find one at high magnification.
+
+
+I think the idea of adding chlorine to the water is in order to kill bacteria.
+I don't know if all bacteria is killed however.
+
+
+> The things that I kept the _same_ were 1)  I rinsed all my equipment with tap
+> water after sanitizing and 2)  I added 2 gallons of grocery store
+> fill-it-yourself distilled water to my 3 gallons of wort after the boil.
+> I figured that it's one or both of these things that's causing the infection.
+
+
+I think the tap water rinse is probably OK, but would suggest at least doing
+a hot water rinse.  I think your problem is adding the unboiled grocery store
+water.  Even though it is distilled, the container you used may not have been
+sanitized and/or the water coming out is not actually what you think.  You
+should simply boil it separately and let it cool covered, then add it in.  This
+is only my novice opinion.
+
+
+Now a question for the more experienced.  It seems that I have ran into my
+first screw up as a brewer.  I recently made a Christmas Ale which ended up
+with a OG of 1.063.  I racked the coolled wort into my primary 6.5 gallon
+plastic fermenter and topped up with sanitized cool water to what I thought
+was the 5 gallon mark, but then I worried I put too much in.  I pitched the
+yeast and figured Not to Worry.  Well that was 8/2 and now on 8/6 the
+kraeusen has gone into the airlock and clogged it.  I assume this led to the
+lid popping off the fermenter.  I ferment under my house as it stays at 70
+degrees during the summer and also has lots of bacteria present.  My question
+is what to do now?  I think I have a few options:
+
+
+1) Get pissed off more than I am now and chuck the whole thing and brew a new
+   batch and don't worry.
+
+
+2) Rack some beer out and put the lid on and clean the airlock and then worry
+   about whether it is infected or not.
+
+
+I used Wyeast 1007 and noticed that the description that someone posted before
+stated that it has high flocculation compared to medium for all the other
+Wyeast ale yeasts.  Does this mean it will produce more kraeusen?  The problem
+also is I probably will take action before I get to hear any of your responses,
+but will welcome them to help determine what to do if this happens again.
+
+
+Super Dave
+
+
+Bellagio_David`at`Tandem.Com
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 1992 20:23 EDT
+From: Kinney Baughman <BAUGHMANKR`at`CONRAD.APPSTATE.EDU>
+Subject: The Alien Retorts
+
+
+Re: Donald O'Connor's diatribe of yesterday
+
+
+Gee, Don, my post evidently got under your skin.  Sorry, Pal.  I 
+ruined several batches of beer because I didn't change the o-rings and 
+was simply trying to keep a fellow brewer from making the same 
+mistake.  It appeared to me that you were talking from a theoretical 
+point of view.  I enjoy theoretical discussions as much as anyone but 
+experience is the final arbiter.  I was just passing along my 
+experience.  
+
+
+So.  While we're on the subject.  Just what have you been doing?  Have 
+you been kegging your beers using old o-rings?  Have they been turning 
+out OK?  For the record, the stouts I made suffered no discernible 
+Coke flavors.  It wasn't until I made a lager that I realized 
+something was amiss. 
+
+
+As for the pot scrubber idea, I got it from my late brewing partner, 
+Mike Morrissey, the guy responsible for both bringing the Bruheat into 
+the U.S. and for helping me refine the bottomless fermenter which 
+eventually turned into the BrewCap.  He said he didn't know where he 
+saw the idea first but he thought it was a good one.  It could have 
+been Al Andrews.  If you say it was, I have no reason to dispute it.  
+It is a good idea and kudos to Al.  All I know is I've been using the 
+scrubber for years.  The flourish I added was to wrap it in a fine 
+mesh hop bag which, for me, greatly increased the filtering action.  
+In the spirit of the digest, I passed it along.  I sure wasn't trying 
+to slap myself on the back.  That always throws my elbow out of joint 
+and I hate it when that happens! 
+
+
+Frankly, I'm irked by your claim that I'm not interested in any "facts 
+that contradict my truth".  While you might truthfully say that of 
+yourself, I called on the chemists to settle the dispute on the blue 
+stuff on copper.  I AM interested in knowing what the stuff is.  I 
+HAVE seen it in my wort chillers and I DON't want to contaminate 
+anyone's beer.  Jeez! 
+
+
+Aw.  What the Hell.  I can't resist...
+
+
+>By the way Kinney, the next meeting in Austin for the support group
+>for humans who have been abducted by aliens is September 13.  (I'm
+>not making this up.)  Bring your o-rings.
+
+
+That's OK, Don.  You take my ticket.  Texas is a long drive from here.
+
+
+Just another cheap, boneheaded, heretical post from the Southland.
+
+
++------------------------------------------------------------------+
+| Kinney Baughman                     Appalachian State University |
+| baughmankr`at`appstate.bitnet                       Boone, NC 28608 |
+| baughmankr`at`conrad.appstate.edu                     (704)963-6949 |
+|                                                                  |
+|             Bush/Quayle '92      "Just Say Noe"                  |
++------------------------------------------------------------------+
+
+
+Sigh.  It's times like these that make me wish for the good ol' days 
+in the HBD when the members of this forum were only interested in open 
+minded, friendly discussions of the issues; when we were all genuinely 
+concerned about helping each other in their quest for the world's 
+perfect beer.  Remember when people used to commend us for being the 
+best-behaved bunch on the net?  Remember when?
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 1992 20:24 EDT
+From: Kinney Baughman <BAUGHMANKR`at`CONRAD.APPSTATE.EDU>
+Subject: Yeast reproduction and cold break formation figures
+
+
+
+
+Now let's see if I can get in a post without being flamed...
+
+
+HBD regular and Fidonet Zymurgy leader, John de Carlo asks:
+
+
+>Can anyone point me to a reference that describes the typical
+>yeast reproduction activity for homebrewers?  
+
+
+This may not be exactly what you want, John, but I finally found this 
+table when cleaning off my miserable excuse for a desk this past week-
+end.  Dave Logsdon gave it to me about 6 years ago as he was getting 
+Wyeast off the ground.
+
+
+                 Yeast Reproduction Time
+
+
+TEMPERATURE             ALE                     LAGER
+
+
+104 degrees F.          4.0 hr.                 no growth
+ 95   "                 2.0                     4.8 hr.
+ 91                     1.4                     1.8
+ 82                     1.6                     2.0
+ 68                     3.2                     3.7
+ 50                    11.0                     9.0
+ 45                    42.0                    24.0
+
+
+As I understand this table, it effectively gives us a report on lag 
+time.  The smaller the hour figure, the shorter the lag time.  Clearly
+both lager and ale yeast reproduce at faster rates at temperatures of 
+between 82 and 91 degrees.  The reproduction rate is still vigorous 
+but starts falling off at temperatures between 68 and 82 degrees.
+
+
+These are not recommended fermenting temperatures.  I assume they 
+speak to the respiration phase when the yeast is/are reproducing and 
+have yet to start fermenting the wort.  At least that's my 
+recollection of the conversation I had with Dave.  (Yo, Jeff.  If 
+you're listening, correct me if I'm wrong.)
+
+
+It's as a result of this table that I've advocated pitching yeast at 
+around 70 degrees then moving the fermenter to the basement/
+refrigerator.  The yeast reproduces at a comfortable temperature and 
+should be hitting a reasonable population figure by the time the wort 
+cools to the ambient temperature of the fermentation room/chamber and 
+starts fermenting.  Of course if you're pitching with an up and 
+running yeast starter with a sufficient yeast count, the pitching 
+temperature of the wort is not as critical. 
+
+
+Alan Edwards notes:
+
+
+>Al Korzonas writes (in HBD #941):
+>| In his talk on wort chillers at the Conference, Jeff Frane said the most
+>| enlightening (to me) fact of the whole conference: that cold break begins
+>| at 65F.  Wow!
+
+
+>Has anyone heard this statement made anywhere else?  Anyone's experience
+>bear this one out?  I have a VERY hard time believing that you need to
+>cool below 65F before you start getting cold break.
+
+
+>Before I started using an immersion chiller, I had maybe half an inch of
+>break material in my primary fermenter.  Now that I chill the wort down
+>to about 70F, I get at least three inches of cold break (after it settles
+>for a few hours).
+
+
+I decided to check my copy of _Malting and Brewing Science_ on this 
+one since I have the highest degree of respect for the opinions of 
+both Jeff and Al.  There I found the following chart that may shed 
+light on this discussion. 
+
+
+300|
+   *
+   |
+250|
+   |
+   |
+200|     *
+   |
+   |
+150|           *
+   |
+   |                  *
+100|                         
+   |                         *
+   |
+ 50|                                       *
+   |                                                            *
+   |                                                            
+  0|_____|_____|______|______|______|______|______|______|______|      
+        10    20     30     40     50     60     70     80     90
+ ^                          Temperature (degrees C.)
+ |
+ |      50     68    86     104   122    140     158   176    194
+ |                          Temperature (degrees F.)
+ |
+Cold break       (I added in the Fahrenheit temperatures -krb)  
+(mg/ml)
+                                  
+If I may interpolate, trub formation is relatively light, albeit 
+measurable, at temperatures above 100 degrees F.  At temperatures 
+below 100 degrees the curve begins to steepen significantly.  I also 
+think one could read the chart as saying that trub formation is 
+minimal until it reaches 64 degrees *Centigrade* rather than 
+Fahrenheit, at which point it begins increasing until it reaches 40 
+degrees C. where it begins increasing at a moderately faster rate. 
+
+
+Yet again, if you look at the curve at around 64 degree F., it really 
+starts taking off.  So perhaps that's what Jeff was trying to say. I 
+didn't hear Jeff's talk so I'm not sure what he said or what his 
+sources are.  Still, if this chart is to be believed trub formation 
+begins, although slightly, once the wort begins cooling,  though 
+significant trub formation doesn't occur until wort temperatures drop 
+to around 100 degrees F., with exceptionally fast cold break 
+formation kicking in at 64 degrees F. 
+
+
+The text goes on to say, 
+
+
+"During the cooling of wort, cold trub progressively precipitates.  It 
+is impossible to remove all the potential precipitate because the trub 
+continues to form during fermentation and subsequent beer cooling. 
+However, many breweries, especially those concerned with lager 
+fermentation, remove much of the cold trub... 
+
+
+A recent survey has shown that in Swiss breweries, the cold break 
+content of beers varied over a wide range...The effects on 
+fermentation, maturation and beer clarification were not significant.  
+Druing the course of successive fermentations, the preference of 
+tasting panels shifted from beers where cold trub had not been removed 
+to beers where partial removal had been practiced.  The overall 
+impression from other studies is that the presence of cold trub may 
+stimulate the rate of fermentation, possibly by providing nuclei for 
+carbon dioxide release; on the other hand, with more delicate beers 
+there seems to be more possiblity of having unacceptable sulphury 
+aroma and taste.
+ .....
+
+
+The production of cold trub has received little biochemical study.  
+Many years ago,it was claimed that to get maximum trub production it 
+was necessary to cool slowly over the range 120-80 degrees F., at 
+least 30 seconds being required, and mechanical agitation being 
+desirable.  Later results described worts where the best cold trub 
+formation occurred when cooling from 140-70 degrees F. took place in 3 
+seconds or less." (pp. 523-524) 
+
+
+So there you have it according to Hough, Briggs, Stevens and Young.  
+Some cold trub is formed as soon as the beer begins cooling, with 
+significant trub production beginning around 64 degrees F.  Not only 
+temperature but also the speed at which the wort cools appears to be a 
+factor according to some.  Its removal seems to be more important when 
+brewing delicately flavored beers than with heavily flavored ones.  At 
+least that's the way I read it.  
+
+
+Trubles on my mind,
+
+
+Kinney Baughman
+baughmankr`at`conrad.appstate.edu
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 21:13:50 EDT
+From: klm`at`mscg.com (Kevin L. McBride)
+Subject: Ken Johnson, the lamest
+
+
+Warning: This article contains a mild flame.  I tried to resolve this
+matter by e-mail, but Ken seems to be either incapable or unwilling to
+engage in a conversation where he might have to admit that he may have
+stepped a little bit out of bounds.
+
+
+I've kept it reasonably mild, but if you want to know what I really
+think about this subject, ask me by e-mail.
+
+
+I apologize in advance for the waste of bandwidth, but I needed to say
+this.  I'm pissed and I think that at least some of you are too.  To
+make up for this, I will post a recipe next.
+
+
+On Thursday, July 30th, I sent the following letter to Ken Johnson in
+response to his unnecessarily harsh statement:
+
+
+> You write:
+> 
+> > If your beer quality goes down when switching to full mash beers, then you
+> > are lame.
+> 
+> and you make yourself look like a jerk for posting such crap.  One
+> Jack Schmidling is enough, we don't need you posting flame bait too.
+> 
+> Please consider posting an apology for this rash, completely
+> unnecessary statement.
+> 
+> The purpose of the Homebrew Digest is to share knowledge and
+> experience.  My first couple of mash experiences were miserable.
+> People on the HBD helped me fix my problems and now my beers are fine.
+> We don't want novices being scared off by self-proclaimed wizards who
+> say that you are lame if you can't figure it out by yourself.
+> 
+> You probably just encouraged several beginning all-grain brewers to
+> switch back to extract brewing with your stupid comment.
+
+
+I finally received a reply from Ken today, August 6th.  His reply
+consisted of a single word:
+
+
+        "bullshit"
+
+
+Ken, I attempted to be reasonable about this.  I contacted you by
+e-mail and told you, without resorting to outright flaming, that I
+thought you were out of line and that the Homebrew Digest deserved an
+apology for your rash statement.
+
+
+I now see that attempting to reason with you is like having an
+argument with a tree stump.  You have shown yourself to be an asshole
+and I sincerely hope that you lose whatever credibility you may have
+had in this forum.
+
+
+F.O.A.D.
+
+
+- -- 
+Kevin
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 22:02:22 EDT
+From: klm`at`mscg.com (Kevin L. McBride)
+Subject: All-grain Smoked Porter recipe
+
+
+The smoked porter served at Greg Noonan's Vermont Pub & Brewery
+inspired me to brew this.  I love Greg's version and tried to come up
+with something similar.
+
+
+The smoke flavor is a little bit more assertive than in Greg's brew,
+but is not so overpowering as to be unpleasant.  The sweetness of the
+crystal and cara-pils balance the bite of the dark malt so that the
+beer is pleasantly bittersweet, as a porter should be, and the smoke
+flavor just floats over your tongue.  The finishing hops are barely
+noticeable.  The smoke masks most of the hop flavor.
+
+
+The beer is 3 weeks old now.  In a few more weeks it should be really
+wonderful.
+
+
+The name was supplied by Dan Hall.  Don't ask.  We were indulging in a
+few bottles of really good Belgian beer at the time and I think we
+were slightly buzzed.
+
+
+
+
+"Clubhouse Poked Smorter"
+=========================
+
+
+The Grist:
+
+
+    8   lbs.  M&F 2-row lager malt
+    2   lbs.  hickory smoked M&F 2-row pale malt *
+    1   lb.   Munich malt
+    1   lb.   Crystal malt
+    1/2 lb.   Choc. Malt
+    1/2 lb.   Black malt
+    1/2 lb.   Cara-pils
+
+
+    * (I had 2 lbs. of pale just lying around, so I used that as the smoked
+      grain for no particular reason other than to get rid of it.)
+
+
+    The smoked grain was done on a charcoal fired smoker with wet hickory
+    chips.  Total smoking time was close to 45 minutes.  I would have cut
+    the smoking time down, but I wet the grain first and it took that long
+    for it to dry on the smoker.
+
+
+The Mash:
+
+
+    Struck mash at ~120F for protein rest.  Pulled a single decoction,
+    brought to a boil, held for about 10 minutes, and re-infused to raise
+    temp. to about 155F which was held in a 5 gallon Igloo cooler until
+    conversion was complete.
+
+
+    Sparged with 4.5 gallons of 170F water.  Yieled ~7 gallons of wort.
+
+
+The Boil:
+
+
+    Total boil time about 70 minutes.
+
+
+    1 oz.  (~30 IBU)  Northern Brewer plug hops (boiling 60+ minutes)
+    1 oz.  Cascade leaf hops (finishing ~5 minutes)
+
+
+
+
+Chilled with Dan Hall's Immersion Chiller from Hell.
+
+
+Original Gravity:  1.052  (Actual yield to the fermenter was about 5.5
+                          gallons and this was after a good boilover where
+                          I lost at least a quart)
+
+
+Pitched a 16oz. starter of Wyeast 1028 London Ale made from a culture
+that lives in my fridge and has served me faithfully for a number of
+brews.
+
+
+After 5 days in primary, I racked to a keg and refrigerated.  I am
+slowly artificially carbonating it and letting it settle and mature.
+It won't be formally served until the September BFD meeting, but it is
+already shaping up to be a fine brew. (I sneak a taste now and then.)
+This beer should go great with sausage and other hearty foods.
+
+
+Final Gravity:  1.016
+
+
+- -- 
+Kevin
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 21:19 CDT
+From: arf`at`ddsw1.mcs.com (Jack Schmidling)
+Subject: Cider Yeast, Coldbreak
+
+
+ 
+ To: Homebrew Digest
+ Fm: Jack Schmidling
+ 
+ 
+ Date: Wed, 5 Aug 92 10:14:26 CDT
+ From: bliss`at`csrd.uiuc.edu (Brian Bliss)
+ Subject: yeasts/grain bag source
+ 
+ >I have an apple tree outside my apartment and I was wondering how to make a 
+ hard cider.  A friend has one of those juicer machines and I was thinking 
+ that would be a good way to get the juice from the apples but where do you go 
+ from there.
+ >
+ >If anyone has some recipes or suggestions please help and THANKS.
+ 
+ <don't use red star champagne yeast (ale yeast will
+ make a sweeter product).
+ 
+ That advice depends on a few variables not the least of which is the sugar 
+ content of the juice.  Most juice needs to have sugar added just to get 
+ enough alcohol to preserve it and the high tolerance of champagne yeast would 
+ not even enter the equation of most straight juice.  It would run out of 
+ sugar before even ale yeast got tired.
+ 
+ Secondly, one can always add sugar to adjust the sweetness after fermenting.
+ 
+ Thirdly, one usually will add lots of sugar to make a higher alcohol apple 
+ wine and ale yeast would produce an undrinkably sweet wine.
+ 
+ >From: BOB JONES <BJONES`at`NOVAX.llnl.gov>
+ 
+ >Subject: Wort cooling
+ 
+ >I use a immersion chiller placed in my kettle to cool the wort. During the 
+ summer months the tap water is warmer and I will use another immersion 
+ chiller to pre-cool the water by placing this cooler in a 5 gal bucket of 
+ cracked ice... I have wondered if it would help to add salt to the water 
+ before it freezes. This works to lower the temperature when
+ freezing ice cream, so why not in cooling wort?
+ 
+ 
+ It will just make your freezer work harder freezing it.  You should put the 
+ salt in the chiller with the ice to lower the temp of the water but the ice 
+ will melt faster so you will need more.  You just can't get nothing fer 
+ nothing no mo.
+ 
+ >From: rush`at`xanadu.llnl.gov (Alan Edwards)
+ >Subject: Cold Break Temperature
+ 
+ >Al Korzonas writes (in HBD #941):
+ | In his talk on wort chillers at the Conference, Jeff Frane said the most
+ | enlightening (to me) fact of the whole conference: that cold break begins
+ | at 65F.  Wow!
+ 
+ <Has anyone heard this statement made anywhere else?  Anyone's experience 
+ bear this one out?  I have a VERY hard time believing that you need to cool 
+ below 65F before you start getting cold break.
+ 
+ I have neither heard it before nor does it match experience nor do I believe 
+ a word of it.   I think it can safely be identified as a MOMILY until further 
+ evidence is offered.
+ 
+ 
+js
+ 
+
+
+------------------------------
+
+
+Date: Fri, 7 Aug 92 08:53:00 EDT
+From: dipalma`at`banshee.sw.stratus.com (James Dipalma)
+Subject: Runoff temp, mashout
+
+
+
+
+
+
+Hi All,
+
+
+        In HBD#941, I wrote:
+
+
+        I use both the hydrometer and the taste test to determine when to
+quit sparging, and have found that the taste of tannin first becomes
+noticeable around 1.020.  At about 1.015 - 1.010, there is no longer
+any detectable sweetness, this is when I stop.  Surprisingly, these
+three events (no sweetness in runoff, 1.010 on the hydrometer, and
+full pre-boil volume achieved) all seem to occur at just about the
+same time.
+
+
+        >In HBD#942, Gerald Winters wrote:
+
+
+        >I have read this from several different sources, that of
+        >terminating sparging at ~1.015, and was wondering if people were
+        >allowing the sparge runnings to cool to room temp or
+        >were adjusting to compensate for the heat of the sparge as the
+        >flow exits the sparger when checking for ~1.015.  The temp of the
+        >sparge is quite hot compared to room temp and it seem some
+        >correction would have to be made if the reading was taken from
+        >the hot liquor.
+
+
+        Whenever specific gravity is measured with a hydrometer, the
+reading must be corrected if the temperature of the solution is
+other than 60F.
+        I sparge with water at 170F, the temperature of the runoff
+is ~140F-150.  (I really have to do something to insulate my
+lauter tun a little better).  According to the references I have,
+this temperature requires a correction of, if memeory serves, 15-16
+points.  So, when I say I stop sparging at ~1.010 - 1.015, the
+hydrometer is actually reading 0.995 - 1.000.
+
+
+        > In HBD#942, Larry Barello wrote:
+
+
+        <portions of thread regarding reasons for mashout deleted>
+
+
+        >This is the conventional wisdom.  There is no way a 10 min mash
+        >out at 170f is gonna stop conversion.  I can name at least two
+        >local breweries that MASH at 160-162f! (Thomas Kemper and Hales)
+        >and I suspect a lot more around the PNW do as well.  Another
+        >8-10f isn't going to magically kill the enzymes.
+
+
+        A couple of months ago, I had an experience that would seem to
+substantiate that statement.  I arrived at my brew partner's house
+a little late, as he had just started heating the mash up to the
+sugar rest range.  We started socializing, neither of us was paying
+any attention to the mash.  About 20 minutes later, we finally got
+around to checking the temperature, and it was at 175F.  I'm not
+sure how much time it spent at that temp, probably 10-15 minutes.
+We quickly added some cold water to get the mash temp down below
+160F, we were both concerned that what we had made was a very
+expensive batch of porridge.  However, an iodine test done about
+one hour later showed conversion was complete.  The beer came out
+fine.  I had one other batch since then where the mash temp got
+to 165F briefly, and that mash converted just fine as well.
+        The moral here is that the amalyse enzyme seems to be a little
+tougher than we give it credit for.  I still mashout every batch,
+but I do it to get the grain to the same temperature as the sparge
+water, and thus prevent too much heat loss in my not-very-well
+insulated (for now) lauter tun.
+
+
+
+
+                                   Cheers,
+                                   Jim
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Aug 92 8:58:12 CDT
+From: guy`at`mspe5.b11.ingr.com (Guy D. McConnell)
+Subject: 7 gallon carboys
+
+
+    I found a great deal on 7 gallon carboys.  St. Patrick's of Texas has them
+for $10.00 in the styrofoam jackets with screw-on caps.  Their phone number
+is:  (512)832-9045.  Get 'em while they're hot!
+
+
+- -- 
+Guy McConnell  guy`at`mspe5.b11.ingr.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Aug 92 13:37 GMT
+From: Phillip Seitz <0004531571`at`mcimail.com>
+Subject: Soft water (how to get it?)
+
+
+Ladies and Gentlemen of the Jury:
+
+
+Next weekend I plan to try the extract triple recipe in Pierre Rajotte's
+_Belgian Ale_.  In his listing Rajotte specifies that this should be 
+brewed with soft water.
+
+
+Several weeks ago I did what everybody always says to do, and contacted
+my local water board (in this case the Washington Aquaduct, serving
+Washington D.C. and Arlington, VA) for information on my water.  I got
+back three massive charts listing everything anybody could conceivably 
+want to know.  Amidst this small print was the hardness table, stating
+that on average our hardness was 110 (was this for calcium carbonate?).
+
+
+According to Charlie, soft water is rated at 0-50.  I've read that water
+softeners don't actually remove the minerals but convert them, and I 
+don't have a water softener anyway.  Would it make sense to use enough
+distilled water to cut the value down to size (say, 3 gallons to two of
+tap water)?  Or am I missing something?
+
+
+I'm also perfectly willing to use 100% tap water if the alternatives are
+too complex.
+
+
+Anyway, I am specifically appealing for help from any of our HBD chemists
+or experienced brewers.  Having seen some of the more technical posts
+recently, I will ask that any explanations be kept to words of one 
+syllable or less for us members of the chemistry-impaired.  Thanks!
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #944, 08/10/92
+*************************************
+-------
+
+
+
+
+
+
+----- End Included Message -----
+
+
+This file received at Sierra.Stanford.EDU  92/08/14 20:22:57
+
+
+
+
+HOMEBREW Digest #944                             Mon 10 August 1992
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Re: Counter Flow Chillers <rocket science> (Paul dArmond)
+  Milwaukee homebrew supply shops ("Deborah Poirier")
+  all malt vs extracts (Mark R. Garti)
+  Pale Malt Color (Martin Wilde)
+  British v Other pale malted grains (Brett Shorten)
+  History of Sparging and Mashout (Paul dArmond)
+  Mashers & Coolers from Micah Millspaw (BOB JONES)
+  SmartCaps Info (camartens)
+  re Wort cooling (added salt) (Chip Hitchcock)
+  RE: Infections with Tap Water Rinse (BELLAGIO_DAVID)
+  The Alien Retorts (Kinney Baughman)
+  Yeast reproduction and cold break formation figures (Kinney Baughman)
+  Ken Johnson, the lamest (Kevin L. McBride)
+  All-grain Smoked Porter recipe (Kevin L. McBride)
+  Cider Yeast, Coldbreak (Jack Schmidling)
+  Runoff temp, mashout (James Dipalma)
+  7 gallon carboys (Guy D. McConnell)
+  Soft water (how to get it?) (Phillip Seitz)
+
+
+
+
+Send articles for __publication__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com
+Archives are available via anonymous ftp from sierra.stanford.edu.
+    (Those without ftp access may retrieve files via mail from
+    listserv`at`sierra.stanford.edu. Send HELP as the body of a
+    message to that address to receive listserver instructions.)
+**Please do not send me requests for back issues!**
+*********(They will be silenty discarded!)*********
+**For Cat's Meow information, send mail to lutzen`at`novell.physics.umr.edu**
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 6 Aug 1992 09:57:27 -0700 (PDT)
+From: Paul dArmond <paulf`at`henson.cc.wwu.edu>
+Subject: Re: Counter Flow Chillers <rocket science>
+
+
+In HBD #941, on 3 Aug 92, Joe Rolfe asked about cutting down on water
+usage and getting a lower output temperature from his counterflow chiller.
+
+
+Here is the Rocket Science part.
+
+
+My source is 'Cryogenic Engineering' by Russel B. Scott, D. Van Nostrand
+Co. Inc.  1959.  Heat exchangers are important to cyogenics because they
+form a very important part of the refrigerators used to liquify gases.  It
+really is "rocket science", since you need lots of LOX and other gasses to
+"make der rockets go up."  Other engineering books on steam power, oil
+refining and thermo-hydrodynamics will provide similar information.
+
+
+I'm not going to go into the mathematics, but try to explain everything as
+empirically as possible.  Heat transfer equations are very heavy on
+differential equations.  This stuff is not only hard to type without a
+mathematical typesetting system, but it isn't very accessible to most people.
+
+
+Joe's questions get right to the nub of the tradeoffs involved in heat
+exchangers.  In the best of all worlds, you would use as little water as
+possible, get the biggest temperature drop, and do it as quickly as
+possible.  Unfortunately, all three of these factors work against at least
+one of the others.  All of these factors are expressed in the
+heat-transfer coefficient.
+
+
+This coefficient is expressed as:
+
+
+watts / [(cm**2)(deg K) in CGS   Watts per square centimeter-degree Kelvin
+
+
+That's how much heat flows into the wall of the heat exchanger tube from
+the liquid in contact with the tube wall.  The formulas assume that the
+tube is straight, cylinderical, and smooth, and that the flow of the
+liquid inside of it is turbulent (i.e. the tube is small enough that the
+flow doesn't channel in the center.)  The factors that determine the heat
+transfer coefficient are:
+
+
+The specific heat of the fluid - This is a measure of heat (as opposed to
+temperature) and empirically is measured by how much ice is melted by a given
+mass at a given temperature.  Beer wort has a higher specific heat than
+water.  The concept of specific heat supposedly came from Count Rumford
+burning his mouth on some apple sauce.  The apple sauce was at the same
+temperature as his tea which didn't burn.  He had just got his first
+thermometer and was measuring everything in sight.
+
+
+The mass velocity of the liquid: g / sec cm**2  How much mass is passing
+through a given cross section each second.  For a given tubing size, this
+is strictly determined by the available pressure and flow.  For your water
+supply this is effectively limited by the maximum pressure available.
+
+
+The thermal conductivity of the liquid.  Suprisingly, this is quite low
+for most liquids.  Water is nearly an insulator, if all convection is
+supressed.  I assume that wort has a low conductivity as well.  Things
+like mercury and sodium metal have high conductivity.
+
+
+The diameter of the tube.  For tubes that don't have a circular cross
+section, this is replaced by the "hydraulic radius" which is defined as
+the cross-sectional area divided by the wetted perimeter.
+
+
+In designing a heat exchanger, there are only a few of these things that
+we can influence.  We can alter the mass velocity by turning up or down
+the flow on the faucet or altering the siphoning height.  We can pick the
+diameter of the tube that we use.
+
+
+Remember that we are looking at maximizing the heat-transfer coefficient
+at one point of the tube in one direction (wort to tube or tube to water).
+ We are only dealing with a slice, so that if the tranfer coefficient is
+maximized, then we will get the most heat transfer out of a given length
+of tubing.  The transfer coefficient will also set an upper limit on the
+in/out temperature differential for a particular length.  If the tube was
+infinitely long then the water out temp and the wort in temp would be
+equal, and the wort out temp would be the same as the water in.  The
+drawback with an infinitely long tube is that you would collapse both your
+lungs before you could get the siphon started.  Also for an immersion type
+cooler, it would not be possible to fit an infinite amount of tubing in
+your brew pot, no matter how tightly you coiled it.
+
+
+At any rate, you want the coefficient as high as you can get it.  It is
+maximized when the tube is small (or the hydralic radius is small) and the
+mass velocity is big.  This has several implications:
+
+
+1) better heat transfer means using more water (faster flow).
+2) Smaller tubes are better than bigger ones.  This makes sense, since
+there is more surface area for the same amount of copper.  It is limited
+by the ratio of cross sectional area to wall thickness.  The very small
+tubes have a problem with this, in that their inside area is small
+compared to the relative thickness of the wall.  Heat transfer is
+inversely proportional to wall thickness, so there is a limit to how small
+is small enough.
+
+
+Well, we don't want to use more water, so that's out.  Joe is already
+using 1/2" tubing in his cooler, so it would be rude to tell him to get
+smaller tubing.  Wasteful too.  What we can do is decrease the hydralic
+radius of his tube.  A circular cross-section has the lowest possible
+ratio of area to perimeter.  This is why bubbles are round.  So how about
+making the copper tubing not round.  There are some very high efficiency
+florescent light tubes that have a rippled surface to increase the surface
+to volume ratio.  The tubes look pinched, the pinches alternating 90
+degrees from each other.  Maybe this could be done with a pair of
+vice-grip plyers so the tube doesn't get pinched too much.
+
+
+This high ratio of surface are to volume is why the breweries use flat
+plate coolers, the transfer coefficient is quite high if you get away from
+using tubes.  Multiple small tubes in parallel are also used for high
+efficiency heat exchangers.
+
+
+If you are building a cooler, here are some things to consider:
+
+
+* for the same price, more feet of small tube are better than fewer feet
+of big tube.
+
+
+* The coefficients in a counterflow exchanger need to match.  The water
+side will have to have a larger flow to match the lower specific heat of
+water compared to wort.
+
+
+* If you have a choice, thinner copper tube is better since heat flow is
+equal to conductivity / thickness.
+
+
+* When using an immersion chiller, stir the wort.  This will raise the
+mass velocity on the wort side and improve the heat transfer.  Remember:
+water and wort are poor conductors, heat transfer takes place by convection.
+
+
+To get into the true "rocket science" of counterflow wort chiller design,
+the specific heat, conductivity and viscosity of hot beer wort need to be
+known.  Can anybody help?
+
+
+
+
+------------------------------
+
+
+Date:         THU, 06 Aug 92 14:46:56 EDT
+From: "Deborah Poirier" <POIRIER`at`INRS-ENER.UQuebec.CA>
+Subject:      Milwaukee homebrew supply shops
+
+
+
+
+Howdy folks
+I have a buddy who'll be in Milwaukee at the end of the month.  He'd like
+to know if there are any good homebrew supply shops. I'd appreciate any
+references, since I can get him to pick me up some cara-pils while there.
+(Rare as hen's teeth here in Montreal).
+
+
+Thank you in advance, kind souls who send me info!
+
+
+Deb
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 16:16:50 EDT
+From: garti`at`mrg.xyplex.com (Mark R. Garti)
+Subject: all malt vs extracts
+
+
+how do brews made from extracts stack up against all malt
+brews?  has recent extract technology made the difference
+negligable.  there is the obvious freedom to experiment
+with flavour, colour and sugar content - is that the point?
+can a great brew be made with extracts? or is all malt
+brewing where it's at?
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 19:26:55 GMT
+From: Martin Wilde <martin`at`gamma.intel.com>
+Subject: Pale Malt Color
+
+
+
+
+From: Brett Shorten <s05bas`at`cc.uow.edu.au>
+Subject: British v Other pale malted grains
+
+
+In Digest #942 Brett Shorten ask if British grains are darker than
+American:
+
+
+Yes they are, the color Lovibond/pound for British Pale is about 3.0.
+For American Klages/Huntington (good old BudMillOors mix) it is 2.2.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 1992 13:19:52 -0700 (PDT)
+From: Paul dArmond <paulf`at`henson.cc.wwu.edu>
+Subject: History of Sparging and Mashout
+
+
+Sparging is a fairly recent technique.  In Andrew Ure's 'Dictionary of the
+Practical and Useful Arts', 184?, sparging is described as a process only
+used in Scotland for producing high gravity ales.  Traditional English ale
+brewing used multiple mashes to get all the extract.  Usually there were
+three mashes: Strong Beer, Middle or Ordinary, and Small Beer.  The
+respective gravities were 1.060+, 1.030+ and 1.020-.  Small beer was
+sometimes called Table beer.  It is also the source of the saying, "That's
+small beer [compared to...]"  Each of the three mashes was brewed and
+fermented separately.  Porter was the first English Ale that combined the
+mashes.  [See Terry Foster's 'Porter']
+
+
+Ure's article on beer is very complete.  The process of sparging is well
+described.  Ure even compared the yields of sparging vs triple mashing,
+noting that sparging gave a better yield.  He encouraged the adoption of
+sparging as an improvement to the brewing process, and lamented that more
+brewers didn't avail themselves of this technique.
+
+
+The reason for sprinkling the sparge water over the top of the grain bed
+is that the mash tun was not kept full of liquid during the sparge.  About
+half the wort was run out before the sparging was started.  The
+sprinkling was necessary to prevent channeling in the grain bed.  No
+mention of why this was done.  The modern method of keeping the liquid
+level above the grain only requires that the added water not disturb the
+grain bed.
+
+
+Why let the liquid level drop?  My guess is that brewers were just
+continuing to hold on to the old practices learned from the triple mash
+method.  If more than half of the liquid was drained the "goods" might get
+too compact and stick.  The liquid was needed to float the grains so they
+didn't get too tight.
+
+
+My next reference to sparging comes from the 1895 Encyclopedia Brittanica
+(article on Brewing.)  Now everybody is sparging and the description is
+the same as Ure's.  Ure is even cited as the source for improved yield for
+sparging.  No mention is made of the triple mashing method.
+
+
+So in 50 years, sparging went from a curious custom of the savage Picts
+(just kidding) to the standard brewing practice in England.  Neither of
+these two sources say anything at all about lager brewing.  All references
+are only to England.  The inference is that lager brewing was a rarity in
+England at the turn of the century.
+
+
+So sparging is a recent practice, less than 150 years in widespread
+usage.
+
+
+Here's a puzzle:  Neither of these two sources say anything about mashing
+out.  The descriptions are quite detailed as to temperatures and so forth,
+so it's not an oversight.
+
+
+Who can find an early reference to mashing out?  What is the origin of
+this curious custom?
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 1992 14:42 PDT
+From: BOB JONES <BJONES`at`NOVAX.llnl.gov>
+Subject: Mashers & Coolers from Micah Millspaw
+
+
+
+
+
+
+        Wort chillers and igloo coolers. 
+Unless I misunderstood, several HBers are useing the round vertical
+type ice chests as lauter vessels,that is something to sparge in. 
+Since these industious brewers have gone to the trouble of putting
+a false bottom in the cooler why not use it as you mash tun as well,
+these things are certainly well insulated.
+Also I have seen 10 gallon metal coolers of this type at hardware stores
+for around $50 they are galvanized on the outsie and have a food grade 
+coating on the inside. A fellow in my homebrew club made a mash\lauter
+tun from one of these coolers and is very happy with it.
+
+
+        On to wort chillers, I am planning to build a newer, and I hope
+better immersion chiller. The basis of my idea is that with a 1\2 inch
+copper line with tap water running thru it picks up from the wort about as 
+much heat as is possible in the first nine feet. And  so I intend to 
+build a chiller that uses 4 circuts each 12 ft long in parallel  made 
+of 1\2 inch copper. I will have to use a manifold on both the inlet and 
+outlet and will probably add some temperature sensors and water pressure 
+guages, in hope that these may give some way to optimize the delta T by 
+varing the flow rate. Anybody try anything similar? If so please post 
+the pluses and minuses. Thanks
+
+
+                                          Micah Millspaw
+                                                8/6/92
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 15:18:41 PDT
+From: camartens`at`ucdavis.edu
+Subject: SmartCaps Info
+
+
+TO:                BEER NET MEMBERS
+
+
+FROM:         BRUCE ZENNER,
+                VICE PRESIDENT,  RESEARCH AND DEVELOPMENT
+                AQUANAUTICS CORPORATION
+
+
+CONCERNING:  USE OF SMARTCAPS*
+
+
+Some friends and fellow brewers who are on BeerNet told me that there had been some 
+discussion of SmartCaps and how to use them effectively.  Aquanautics developed these 
+crowns in collaboration with a closure manufacturer, ZapatA Industries.  I headed the 
+development project.
+
+
+These crowns have a liner material containing an oxygen scavenging formulation, and 
+can remove headspace oxygen and control oxygen permeation through the gasket material  
+for up to six months.  The chemistry is a catalyzed oxygen reduction system, and is 
+generally regarded as safe (GRAS) by U.S. FDA criteria.
+
+
+SmartCaps* are activated by exposure to high humidity,  thus they are stable under 
+normal storage conditions, and activated by the moisture content in beer.  However, they 
+should NOT be boiled to sterilize, since this will activate the oxygen reduction system 
+prior to use,  and decrease the effectiveness of the SmartCaps following bottling.
+
+
+If you sterilize your SmartCap crowns, do so by hypochlorite (bleach) or metabisulfite  
+treatment instead of boiling; you'll increase the effectiveness of the SmartCaps.
+
+
+If you have any questions, or comments, I can be reached by calling Aquanautics at (510) 
+521-4331, or by writing to me:
+Bruce Zenner
+Aquanautics Corporation
+980 Atlantic Ave., Suite 101
+Alameda, CA 94501
+
+
+Our technical services representative, Charles Benedict, can also answer questions if I am 
+not  available.
+
+
+Good luck  and remember, there are no bad beers....some are just better than others!
+Hi everyone. My name is Craig Martens. I am relatively new to brewing and 
+beernet. In response to Michael Lewandowski's inquiry about SmartCaps on
+July 14, I asked Bruce if he would write a little blurb about their use being
+that he is their inventor and also a homebrewer. I would just like to add that 
+I receive nothing for doing this etc. You can also reach Bruce through me
+if you have any questions at camartens`at`ucdavis.edu.  Brew long and prosper.
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 17:22:08 EDT
+From: cjh`at`diaspar.HQ.Ileaf.COM (Chip Hitchcock)
+Subject: re Wort cooling (added salt)
+
+
+   Adding salt to the ice blocks used in chilling isn't going to help much
+(if at all). What the salt does in icecream making is allow the water to
+stay liquid (thus contacting more of the surface of the inner canister and
+cooling it more effectively than straight ice) at temperatures below its
+normal freezing point; you can produce horrid icecream by putting too much
+salt in the freezer, which gets the mix too cold too quickly and produces
+ice crystals instead of smooth-frozen cream.
+   Somebody who has a better grasp of munging specific heats might be able
+to say whether having the ice become water at a lower temperature
+represents an improvement in cooling; in a previous round I was told that
+the specific heat of ice is much lower than that of water. But this isn't
+likely to be a large effect, since the freezing point won't be depressed
+very much---I think the limit for salty water is ~5 centigrade degrees
+based on the freezing-point depression of water and the maximum solubility
+of salt in water.
+
+
+------------------------------
+
+
+Date: 6 Aug 92 14:16:00 -0700
+From: BELLAGIO_DAVID`at`Tandem.COM
+Subject: RE: Infections with Tap Water Rinse
+
+
+In reply to Phil Miller's query about infections from tap water, I will have
+to start by saying that I am also a NOVICE with only 2.5 batches under my belt.
+I have an R/O system for my water supply that I use for my brew water. It makes
+a world of difference.  I still boil all of my water, but I still rinse with
+tap water.  What I do is turn up my hot water heater the night before to its
+hottest position.  Then I rinse with this HOT water.  I measured the temp and
+it was between 160 and 170 degrees.  You actually develop a tolerance to hot
+water after numerous sprays on your body and hands.  I figure that anything in
+there was killed by the overnight increase in temp.
+
+
+>  Tap water (at least most taps) contain VERY few bacteria or fungi.  You
+>  could hardly even find one at high magnification.
+
+
+I think the idea of adding chlorine to the water is in order to kill bacteria.
+I don't know if all bacteria is killed however.
+
+
+> The things that I kept the _same_ were 1)  I rinsed all my equipment with tap
+> water after sanitizing and 2)  I added 2 gallons of grocery store
+> fill-it-yourself distilled water to my 3 gallons of wort after the boil.
+> I figured that it's one or both of these things that's causing the infection.
+
+
+I think the tap water rinse is probably OK, but would suggest at least doing
+a hot water rinse.  I think your problem is adding the unboiled grocery store
+water.  Even though it is distilled, the container you used may not have been
+sanitized and/or the water coming out is not actually what you think.  You
+should simply boil it separately and let it cool covered, then add it in.  This
+is only my novice opinion.
+
+
+Now a question for the more experienced.  It seems that I have ran into my
+first screw up as a brewer.  I recently made a Christmas Ale which ended up
+with a OG of 1.063.  I racked the coolled wort into my primary 6.5 gallon
+plastic fermenter and topped up with sanitized cool water to what I thought
+was the 5 gallon mark, but then I worried I put too much in.  I pitched the
+yeast and figured Not to Worry.  Well that was 8/2 and now on 8/6 the
+kraeusen has gone into the airlock and clogged it.  I assume this led to the
+lid popping off the fermenter.  I ferment under my house as it stays at 70
+degrees during the summer and also has lots of bacteria present.  My question
+is what to do now?  I think I have a few options:
+
+
+1) Get pissed off more than I am now and chuck the whole thing and brew a new
+   batch and don't worry.
+
+
+2) Rack some beer out and put the lid on and clean the airlock and then worry
+   about whether it is infected or not.
+
+
+I used Wyeast 1007 and noticed that the description that someone posted before
+stated that it has high flocculation compared to medium for all the other
+Wyeast ale yeasts.  Does this mean it will produce more kraeusen?  The problem
+also is I probably will take action before I get to hear any of your responses,
+but will welcome them to help determine what to do if this happens again.
+
+
+Super Dave
+
+
+Bellagio_David`at`Tandem.Com
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 1992 20:23 EDT
+From: Kinney Baughman <BAUGHMANKR`at`CONRAD.APPSTATE.EDU>
+Subject: The Alien Retorts
+
+
+Re: Donald O'Connor's diatribe of yesterday
+
+
+Gee, Don, my post evidently got under your skin.  Sorry, Pal.  I 
+ruined several batches of beer because I didn't change the o-rings and 
+was simply trying to keep a fellow brewer from making the same 
+mistake.  It appeared to me that you were talking from a theoretical 
+point of view.  I enjoy theoretical discussions as much as anyone but 
+experience is the final arbiter.  I was just passing along my 
+experience.  
+
+
+So.  While we're on the subject.  Just what have you been doing?  Have 
+you been kegging your beers using old o-rings?  Have they been turning 
+out OK?  For the record, the stouts I made suffered no discernible 
+Coke flavors.  It wasn't until I made a lager that I realized 
+something was amiss. 
+
+
+As for the pot scrubber idea, I got it from my late brewing partner, 
+Mike Morrissey, the guy responsible for both bringing the Bruheat into 
+the U.S. and for helping me refine the bottomless fermenter which 
+eventually turned into the BrewCap.  He said he didn't know where he 
+saw the idea first but he thought it was a good one.  It could have 
+been Al Andrews.  If you say it was, I have no reason to dispute it.  
+It is a good idea and kudos to Al.  All I know is I've been using the 
+scrubber for years.  The flourish I added was to wrap it in a fine 
+mesh hop bag which, for me, greatly increased the filtering action.  
+In the spirit of the digest, I passed it along.  I sure wasn't trying 
+to slap myself on the back.  That always throws my elbow out of joint 
+and I hate it when that happens! 
+
+
+Frankly, I'm irked by your claim that I'm not interested in any "facts 
+that contradict my truth".  While you might truthfully say that of 
+yourself, I called on the chemists to settle the dispute on the blue 
+stuff on copper.  I AM interested in knowing what the stuff is.  I 
+HAVE seen it in my wort chillers and I DON't want to contaminate 
+anyone's beer.  Jeez! 
+
+
+Aw.  What the Hell.  I can't resist...
+
+
+>By the way Kinney, the next meeting in Austin for the support group
+>for humans who have been abducted by aliens is September 13.  (I'm
+>not making this up.)  Bring your o-rings.
+
+
+That's OK, Don.  You take my ticket.  Texas is a long drive from here.
+
+
+Just another cheap, boneheaded, heretical post from the Southland.
+
+
++------------------------------------------------------------------+
+| Kinney Baughman                     Appalachian State University |
+| baughmankr`at`appstate.bitnet                       Boone, NC 28608 |
+| baughmankr`at`conrad.appstate.edu                     (704)963-6949 |
+|                                                                  |
+|             Bush/Quayle '92      "Just Say Noe"                  |
++------------------------------------------------------------------+
+
+
+Sigh.  It's times like these that make me wish for the good ol' days 
+in the HBD when the members of this forum were only interested in open 
+minded, friendly discussions of the issues; when we were all genuinely 
+concerned about helping each other in their quest for the world's 
+perfect beer.  Remember when people used to commend us for being the 
+best-behaved bunch on the net?  Remember when?
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 1992 20:24 EDT
+From: Kinney Baughman <BAUGHMANKR`at`CONRAD.APPSTATE.EDU>
+Subject: Yeast reproduction and cold break formation figures
+
+
+
+
+Now let's see if I can get in a post without being flamed...
+
+
+HBD regular and Fidonet Zymurgy leader, John de Carlo asks:
+
+
+>Can anyone point me to a reference that describes the typical
+>yeast reproduction activity for homebrewers?  
+
+
+This may not be exactly what you want, John, but I finally found this 
+table when cleaning off my miserable excuse for a desk this past week-
+end.  Dave Logsdon gave it to me about 6 years ago as he was getting 
+Wyeast off the ground.
+
+
+                 Yeast Reproduction Time
+
+
+TEMPERATURE             ALE                     LAGER
+
+
+104 degrees F.          4.0 hr.                 no growth
+ 95   "                 2.0                     4.8 hr.
+ 91                     1.4                     1.8
+ 82                     1.6                     2.0
+ 68                     3.2                     3.7
+ 50                    11.0                     9.0
+ 45                    42.0                    24.0
+
+
+As I understand this table, it effectively gives us a report on lag 
+time.  The smaller the hour figure, the shorter the lag time.  Clearly
+both lager and ale yeast reproduce at faster rates at temperatures of 
+between 82 and 91 degrees.  The reproduction rate is still vigorous 
+but starts falling off at temperatures between 68 and 82 degrees.
+
+
+These are not recommended fermenting temperatures.  I assume they 
+speak to the respiration phase when the yeast is/are reproducing and 
+have yet to start fermenting the wort.  At least that's my 
+recollection of the conversation I had with Dave.  (Yo, Jeff.  If 
+you're listening, correct me if I'm wrong.)
+
+
+It's as a result of this table that I've advocated pitching yeast at 
+around 70 degrees then moving the fermenter to the basement/
+refrigerator.  The yeast reproduces at a comfortable temperature and 
+should be hitting a reasonable population figure by the time the wort 
+cools to the ambient temperature of the fermentation room/chamber and 
+starts fermenting.  Of course if you're pitching with an up and 
+running yeast starter with a sufficient yeast count, the pitching 
+temperature of the wort is not as critical. 
+
+
+Alan Edwards notes:
+
+
+>Al Korzonas writes (in HBD #941):
+>| In his talk on wort chillers at the Conference, Jeff Frane said the most
+>| enlightening (to me) fact of the whole conference: that cold break begins
+>| at 65F.  Wow!
+
+
+>Has anyone heard this statement made anywhere else?  Anyone's experience
+>bear this one out?  I have a VERY hard time believing that you need to
+>cool below 65F before you start getting cold break.
+
+
+>Before I started using an immersion chiller, I had maybe half an inch of
+>break material in my primary fermenter.  Now that I chill the wort down
+>to about 70F, I get at least three inches of cold break (after it settles
+>for a few hours).
+
+
+I decided to check my copy of _Malting and Brewing Science_ on this 
+one since I have the highest degree of respect for the opinions of 
+both Jeff and Al.  There I found the following chart that may shed 
+light on this discussion. 
+
+
+300|
+   *
+   |
+250|
+   |
+   |
+200|     *
+   |
+   |
+150|           *
+   |
+   |                  *
+100|                         
+   |                         *
+   |
+ 50|                                       *
+   |                                                            *
+   |                                                            
+  0|_____|_____|______|______|______|______|______|______|______|      
+        10    20     30     40     50     60     70     80     90
+ ^                          Temperature (degrees C.)
+ |
+ |      50     68    86     104   122    140     158   176    194
+ |                          Temperature (degrees F.)
+ |
+Cold break       (I added in the Fahrenheit temperatures -krb)  
+(mg/ml)
+                                  
+If I may interpolate, trub formation is relatively light, albeit 
+measurable, at temperatures above 100 degrees F.  At temperatures 
+below 100 degrees the curve begins to steepen significantly.  I also 
+think one could read the chart as saying that trub formation is 
+minimal until it reaches 64 degrees *Centigrade* rather than 
+Fahrenheit, at which point it begins increasing until it reaches 40 
+degrees C. where it begins increasing at a moderately faster rate. 
+
+
+Yet again, if you look at the curve at around 64 degree F., it really 
+starts taking off.  So perhaps that's what Jeff was trying to say. I 
+didn't hear Jeff's talk so I'm not sure what he said or what his 
+sources are.  Still, if this chart is to be believed trub formation 
+begins, although slightly, once the wort begins cooling,  though 
+significant trub formation doesn't occur until wort temperatures drop 
+to around 100 degrees F., with exceptionally fast cold break 
+formation kicking in at 64 degrees F. 
+
+
+The text goes on to say, 
+
+
+"During the cooling of wort, cold trub progressively precipitates.  It 
+is impossible to remove all the potential precipitate because the trub 
+continues to form during fermentation and subsequent beer cooling. 
+However, many breweries, especially those concerned with lager 
+fermentation, remove much of the cold trub... 
+
+
+A recent survey has shown that in Swiss breweries, the cold break 
+content of beers varied over a wide range...The effects on 
+fermentation, maturation and beer clarification were not significant.  
+Druing the course of successive fermentations, the preference of 
+tasting panels shifted from beers where cold trub had not been removed 
+to beers where partial removal had been practiced.  The overall 
+impression from other studies is that the presence of cold trub may 
+stimulate the rate of fermentation, possibly by providing nuclei for 
+carbon dioxide release; on the other hand, with more delicate beers 
+there seems to be more possiblity of having unacceptable sulphury 
+aroma and taste.
+ .....
+
+
+The production of cold trub has received little biochemical study.  
+Many years ago,it was claimed that to get maximum trub production it 
+was necessary to cool slowly over the range 120-80 degrees F., at 
+least 30 seconds being required, and mechanical agitation being 
+desirable.  Later results described worts where the best cold trub 
+formation occurred when cooling from 140-70 degrees F. took place in 3 
+seconds or less." (pp. 523-524) 
+
+
+So there you have it according to Hough, Briggs, Stevens and Young.  
+Some cold trub is formed as soon as the beer begins cooling, with 
+significant trub production beginning around 64 degrees F.  Not only 
+temperature but also the speed at which the wort cools appears to be a 
+factor according to some.  Its removal seems to be more important when 
+brewing delicately flavored beers than with heavily flavored ones.  At 
+least that's the way I read it.  
+
+
+Trubles on my mind,
+
+
+Kinney Baughman
+baughmankr`at`conrad.appstate.edu
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 21:13:50 EDT
+From: klm`at`mscg.com (Kevin L. McBride)
+Subject: Ken Johnson, the lamest
+
+
+Warning: This article contains a mild flame.  I tried to resolve this
+matter by e-mail, but Ken seems to be either incapable or unwilling to
+engage in a conversation where he might have to admit that he may have
+stepped a little bit out of bounds.
+
+
+I've kept it reasonably mild, but if you want to know what I really
+think about this subject, ask me by e-mail.
+
+
+I apologize in advance for the waste of bandwidth, but I needed to say
+this.  I'm pissed and I think that at least some of you are too.  To
+make up for this, I will post a recipe next.
+
+
+On Thursday, July 30th, I sent the following letter to Ken Johnson in
+response to his unnecessarily harsh statement:
+
+
+> You write:
+> 
+> > If your beer quality goes down when switching to full mash beers, then you
+> > are lame.
+> 
+> and you make yourself look like a jerk for posting such crap.  One
+> Jack Schmidling is enough, we don't need you posting flame bait too.
+> 
+> Please consider posting an apology for this rash, completely
+> unnecessary statement.
+> 
+> The purpose of the Homebrew Digest is to share knowledge and
+> experience.  My first couple of mash experiences were miserable.
+> People on the HBD helped me fix my problems and now my beers are fine.
+> We don't want novices being scared off by self-proclaimed wizards who
+> say that you are lame if you can't figure it out by yourself.
+> 
+> You probably just encouraged several beginning all-grain brewers to
+> switch back to extract brewing with your stupid comment.
+
+
+I finally received a reply from Ken today, August 6th.  His reply
+consisted of a single word:
+
+
+        "bullshit"
+
+
+Ken, I attempted to be reasonable about this.  I contacted you by
+e-mail and told you, without resorting to outright flaming, that I
+thought you were out of line and that the Homebrew Digest deserved an
+apology for your rash statement.
+
+
+I now see that attempting to reason with you is like having an
+argument with a tree stump.  You have shown yourself to be an asshole
+and I sincerely hope that you lose whatever credibility you may have
+had in this forum.
+
+
+F.O.A.D.
+
+
+- -- 
+Kevin
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 22:02:22 EDT
+From: klm`at`mscg.com (Kevin L. McBride)
+Subject: All-grain Smoked Porter recipe
+
+
+The smoked porter served at Greg Noonan's Vermont Pub & Brewery
+inspired me to brew this.  I love Greg's version and tried to come up
+with something similar.
+
+
+The smoke flavor is a little bit more assertive than in Greg's brew,
+but is not so overpowering as to be unpleasant.  The sweetness of the
+crystal and cara-pils balance the bite of the dark malt so that the
+beer is pleasantly bittersweet, as a porter should be, and the smoke
+flavor just floats over your tongue.  The finishing hops are barely
+noticeable.  The smoke masks most of the hop flavor.
+
+
+The beer is 3 weeks old now.  In a few more weeks it should be really
+wonderful.
+
+
+The name was supplied by Dan Hall.  Don't ask.  We were indulging in a
+few bottles of really good Belgian beer at the time and I think we
+were slightly buzzed.
+
+
+
+
+"Clubhouse Poked Smorter"
+=========================
+
+
+The Grist:
+
+
+    8   lbs.  M&F 2-row lager malt
+    2   lbs.  hickory smoked M&F 2-row pale malt *
+    1   lb.   Munich malt
+    1   lb.   Crystal malt
+    1/2 lb.   Choc. Malt
+    1/2 lb.   Black malt
+    1/2 lb.   Cara-pils
+
+
+    * (I had 2 lbs. of pale just lying around, so I used that as the smoked
+      grain for no particular reason other than to get rid of it.)
+
+
+    The smoked grain was done on a charcoal fired smoker with wet hickory
+    chips.  Total smoking time was close to 45 minutes.  I would have cut
+    the smoking time down, but I wet the grain first and it took that long
+    for it to dry on the smoker.
+
+
+The Mash:
+
+
+    Struck mash at ~120F for protein rest.  Pulled a single decoction,
+    brought to a boil, held for about 10 minutes, and re-infused to raise
+    temp. to about 155F which was held in a 5 gallon Igloo cooler until
+    conversion was complete.
+
+
+    Sparged with 4.5 gallons of 170F water.  Yieled ~7 gallons of wort.
+
+
+The Boil:
+
+
+    Total boil time about 70 minutes.
+
+
+    1 oz.  (~30 IBU)  Northern Brewer plug hops (boiling 60+ minutes)
+    1 oz.  Cascade leaf hops (finishing ~5 minutes)
+
+
+
+
+Chilled with Dan Hall's Immersion Chiller from Hell.
+
+
+Original Gravity:  1.052  (Actual yield to the fermenter was about 5.5
+                          gallons and this was after a good boilover where
+                          I lost at least a quart)
+
+
+Pitched a 16oz. starter of Wyeast 1028 London Ale made from a culture
+that lives in my fridge and has served me faithfully for a number of
+brews.
+
+
+After 5 days in primary, I racked to a keg and refrigerated.  I am
+slowly artificially carbonating it and letting it settle and mature.
+It won't be formally served until the September BFD meeting, but it is
+already shaping up to be a fine brew. (I sneak a taste now and then.)
+This beer should go great with sausage and other hearty foods.
+
+
+Final Gravity:  1.016
+
+
+- -- 
+Kevin
+
+
+------------------------------
+
+
+Date: Thu, 6 Aug 92 21:19 CDT
+From: arf`at`ddsw1.mcs.com (Jack Schmidling)
+Subject: Cider Yeast, Coldbreak
+
+
+ 
+ To: Homebrew Digest
+ Fm: Jack Schmidling
+ 
+ 
+ Date: Wed, 5 Aug 92 10:14:26 CDT
+ From: bliss`at`csrd.uiuc.edu (Brian Bliss)
+ Subject: yeasts/grain bag source
+ 
+ >I have an apple tree outside my apartment and I was wondering how to make a 
+ hard cider.  A friend has one of those juicer machines and I was thinking 
+ that would be a good way to get the juice from the apples but where do you go 
+ from there.
+ >
+ >If anyone has some recipes or suggestions please help and THANKS.
+ 
+ <don't use red star champagne yeast (ale yeast will
+ make a sweeter product).
+ 
+ That advice depends on a few variables not the least of which is the sugar 
+ content of the juice.  Most juice needs to have sugar added just to get 
+ enough alcohol to preserve it and the high tolerance of champagne yeast would 
+ not even enter the equation of most straight juice.  It would run out of 
+ sugar before even ale yeast got tired.
+ 
+ Secondly, one can always add sugar to adjust the sweetness after fermenting.
+ 
+ Thirdly, one usually will add lots of sugar to make a higher alcohol apple 
+ wine and ale yeast would produce an undrinkably sweet wine.
+ 
+ >From: BOB JONES <BJONES`at`NOVAX.llnl.gov>
+ 
+ >Subject: Wort cooling
+ 
+ >I use a immersion chiller placed in my kettle to cool the wort. During the 
+ summer months the tap water is warmer and I will use another immersion 
+ chiller to pre-cool the water by placing this cooler in a 5 gal bucket of 
+ cracked ice... I have wondered if it would help to add salt to the water 
+ before it freezes. This works to lower the temperature when
+ freezing ice cream, so why not in cooling wort?
+ 
+ 
+ It will just make your freezer work harder freezing it.  You should put the 
+ salt in the chiller with the ice to lower the temp of the water but the ice 
+ will melt faster so you will need more.  You just can't get nothing fer 
+ nothing no mo.
+ 
+ >From: rush`at`xanadu.llnl.gov (Alan Edwards)
+ >Subject: Cold Break Temperature
+ 
+ >Al Korzonas writes (in HBD #941):
+ | In his talk on wort chillers at the Conference, Jeff Frane said the most
+ | enlightening (to me) fact of the whole conference: that cold break begins
+ | at 65F.  Wow!
+ 
+ <Has anyone heard this statement made anywhere else?  Anyone's experience 
+ bear this one out?  I have a VERY hard time believing that you need to cool 
+ below 65F before you start getting cold break.
+ 
+ I have neither heard it before nor does it match experience nor do I believe 
+ a word of it.   I think it can safely be identified as a MOMILY until further 
+ evidence is offered.
+ 
+ 
+js
+ 
+
+
+------------------------------
+
+
+Date: Fri, 7 Aug 92 08:53:00 EDT
+From: dipalma`at`banshee.sw.stratus.com (James Dipalma)
+Subject: Runoff temp, mashout
+
+
+
+
+
+
+Hi All,
+
+
+        In HBD#941, I wrote:
+
+
+        I use both the hydrometer and the taste test to determine when to
+quit sparging, and have found that the taste of tannin first becomes
+noticeable around 1.020.  At about 1.015 - 1.010, there is no longer
+any detectable sweetness, this is when I stop.  Surprisingly, these
+three events (no sweetness in runoff, 1.010 on the hydrometer, and
+full pre-boil volume achieved) all seem to occur at just about the
+same time.
+
+
+        >In HBD#942, Gerald Winters wrote:
+
+
+        >I have read this from several different sources, that of
+        >terminating sparging at ~1.015, and was wondering if people were
+        >allowing the sparge runnings to cool to room temp or
+        >were adjusting to compensate for the heat of the sparge as the
+        >flow exits the sparger when checking for ~1.015.  The temp of the
+        >sparge is quite hot compared to room temp and it seem some
+        >correction would have to be made if the reading was taken from
+        >the hot liquor.
+
+
+        Whenever specific gravity is measured with a hydrometer, the
+reading must be corrected if the temperature of the solution is
+other than 60F.
+        I sparge with water at 170F, the temperature of the runoff
+is ~140F-150.  (I really have to do something to insulate my
+lauter tun a little better).  According to the references I have,
+this temperature requires a correction of, if memeory serves, 15-16
+points.  So, when I say I stop sparging at ~1.010 - 1.015, the
+hydrometer is actually reading 0.995 - 1.000.
+
+
+        > In HBD#942, Larry Barello wrote:
+
+
+        <portions of thread regarding reasons for mashout deleted>
+
+
+        >This is the conventional wisdom.  There is no way a 10 min mash
+        >out at 170f is gonna stop conversion.  I can name at least two
+        >local breweries that MASH at 160-162f! (Thomas Kemper and Hales)
+        >and I suspect a lot more around the PNW do as well.  Another
+        >8-10f isn't going to magically kill the enzymes.
+
+
+        A couple of months ago, I had an experience that would seem to
+substantiate that statement.  I arrived at my brew partner's house
+a little late, as he had just started heating the mash up to the
+sugar rest range.  We started socializing, neither of us was paying
+any attention to the mash.  About 20 minutes later, we finally got
+around to checking the temperature, and it was at 175F.  I'm not
+sure how much time it spent at that temp, probably 10-15 minutes.
+We quickly added some cold water to get the mash temp down below
+160F, we were both concerned that what we had made was a very
+expensive batch of porridge.  However, an iodine test done about
+one hour later showed conversion was complete.  The beer came out
+fine.  I had one other batch since then where the mash temp got
+to 165F briefly, and that mash converted just fine as well.
+        The moral here is that the amalyse enzyme seems to be a little
+tougher than we give it credit for.  I still mashout every batch,
+but I do it to get the grain to the same temperature as the sparge
+water, and thus prevent too much heat loss in my not-very-well
+insulated (for now) lauter tun.
+
+
+
+
+                                   Cheers,
+                                   Jim
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Aug 92 8:58:12 CDT
+From: guy`at`mspe5.b11.ingr.com (Guy D. McConnell)
+Subject: 7 gallon carboys
+
+
+    I found a great deal on 7 gallon carboys.  St. Patrick's of Texas has them
+for $10.00 in the styrofoam jackets with screw-on caps.  Their phone number
+is:  (512)832-9045.  Get 'em while they're hot!
+
+
+- -- 
+Guy McConnell  guy`at`mspe5.b11.ingr.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Aug 92 13:37 GMT
+From: Phillip Seitz <0004531571`at`mcimail.com>
+Subject: Soft water (how to get it?)
+
+
+Ladies and Gentlemen of the Jury:
+
+
+Next weekend I plan to try the extract triple recipe in Pierre Rajotte's
+_Belgian Ale_.  In his listing Rajotte specifies that this should be 
+brewed with soft water.
+
+
+Several weeks ago I did what everybody always says to do, and contacted
+my local water board (in this case the Washington Aquaduct, serving
+Washington D.C. and Arlington, VA) for information on my water.  I got
+back three massive charts listing everything anybody could conceivably 
+want to know.  Amidst this small print was the hardness table, stating
+that on average our hardness was 110 (was this for calcium carbonate?).
+
+
+According to Charlie, soft water is rated at 0-50.  I've read that water
+softeners don't actually remove the minerals but convert them, and I 
+don't have a water softener anyway.  Would it make sense to use enough
+distilled water to cut the value down to size (say, 3 gallons to two of
+tap water)?  Or am I missing something?
+
+
+I'm also perfectly willing to use 100% tap water if the alternatives are
+too complex.
+
+
+Anyway, I am specifically appealing for help from any of our HBD chemists
+or experienced brewers.  Having seen some of the more technical posts
+recently, I will ask that any explanations be kept to words of one 
+syllable or less for us members of the chemistry-impaired.  Thanks!
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #944, 08/10/92
+*************************************
+-------

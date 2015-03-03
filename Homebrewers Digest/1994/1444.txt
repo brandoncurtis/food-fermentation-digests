@@ -1,0 +1,1374 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Wed Jun  8 03:34:34 1994
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA27158
+  (5.65b/IDA-1.4.3 for spencer`at`hendrix.itn.med.umich.edu); Wed, 8 Jun 94 03:34:27 -0400
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.37.109.4/15.5+IOS 3.20) id AA06532; Wed, 8 Jun 94 01:29:17 -0600
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA29656; Wed, 8 Jun 1994 01:00:57 -0600
+Message-Id: <9406080700.AA29656`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1444 (June 08, 1994)
+Date: Wed, 8 Jun 1994 01:00:57 -0600
+
+
+
+
+
+
+HOMEBREW Digest #1444                             Wed 08 June 1994
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Aeration, how long is long enough? ("Christopher V. Sack")
+  "Alt" yeast question (Jonathan G Knight)
+  brewing books [from spencer] (Spencer.W.Thomas)
+  Caledonian Bottles (Paul Murray)
+  Contamination? (Kent Verge)
+  Re: Autolysis (Rich Fortnum)
+  Re: Amylases (Rich Fortnum)
+  Re: Cold Breaks (Rich Fortnum)
+  Re: Different Grains (Rich Fortnum)
+  Extractions rates, etc. (Michael Sheridan)
+  Hop utilization questioned (Jon Petty)
+  Pale ale? (Steve Robinson)
+  Brewing Equipment (Guy Mason)
+  Quality Vienna Malts ("Lee A. Menegoni")
+  Lids on German Steins (Jim Cave)
+  More Zima (Bob Ambrose)
+  Re: Reinheitsgebot and kettle salts (Jim Busch)
+  RE"accepted brewing practice" (Jim Busch)
+  Malts of the World (Jeff Frane)
+  Thanks (Phil Miller)
+  storing malt extract (Spencer.W.Thomas)
+  Michigan Brewpubs ("Joe Stone")
+  Attention Mathematicians! (Spencer.W.Thomas)
+  Extract Eff, Kettle SG Change ("Manning Martin MP")
+  Re: Pale Ale? (Jim Brewster)
+  Refrigerator Problem (David Knight)
+  Corn/Rice Extract (Randy M. Davis)
+  Ring around neck=infection always? (BUKOFSKY)
+  Power Sparger (Ed Oriordan)
+  Homebrew shops/good deals in Denver/Ft. Collins? (Kelly Jones)
+  piss yellow, beer strength (HOMEBRE973)
+  what temp to finish my lager? (Andy Rowan)
+
+
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+FAQs, archives and other files are available via anonymous ftp from 
+  sierra.stanford.edu. (Those without ftp access may retrieve files via 
+  mail from listserv`at`sierra.stanford.edu.  Send HELP as the body of a 
+  message to that address to receive listserver instructions.) 
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 6 Jun 1994 23:11:51 -0400 (EDT)
+From: "Christopher V. Sack" <cvsack`at`lor.syr.edu>
+Subject: Aeration, how long is long enough?
+
+
+Dear Homebrewers:
+
+
+A couple of weeks ago I made a comment that an airpump/airstone would
+oxygenate wort within 30 minutes.  I then recieved notes asking if I had
+any proof and where did I get my values for oxygen saturation.  Well, these
+comments sent me to the library, but my research schedual has postponed my
+reply until now.  My comments were second hand from a colleague who 
+worked with dissolved components in aqueous media (ie. stuff in water).
+
+
+When I checked the library computer for articles on oxygenation, I was
+surprized at the number of articles it found.  When I tracked down the
+first couple, I found that they all dealt with the oxygenation of waste
+water in treatment plants handling 100,000+ gallons per day.  I was
+reluctant to report any of these results until I located articles that
+correlated "bench top experiments" (under 20 gal.) to operating waste
+water treatment plants.  Surprizingly, the rate of transfer does not
+change upon upsizing, only the the volume of air required.
+
+
+For those who are interested, the mass transfer equation is:
+
+
+C(t) = C* - {(C* - Co) * exp[-KLa(t - t0)]}
+
+
+C(t) is the oxygen concentration at time t (mg/L)
+Co is the oxygen concentration at time t0 (mg/L)
+C* is the oxygen saturation level at the test temperature (mg/L)
+KLa is the mass transfer coefficient (per hour)
+t0 is the initial time point, usually 0 (hours)
+t is the time when C(t) is measured (hours)
+exp is the exponent base e
+
+
+The volume and density of the liquid do not effect the rate!  The density
+does not even effect the oxygen saturation level.  The five values for fine
+bubble aeration KLa varied from 6.3 to 13.8 per hour in the four articles I
+ended up using.  The average was 10.3 per hour.  (The articles also listed 
+the KLa values for coarse/big bubble and surface aeration, but I did not 
+include them in my average.)
+
+
+>From a colleague's Dissolved Oxygen Meter, the oxygen saturation values are:
+
+
+  DO        temp
+(mg/L)  deg.C. deg.F.
+ 9.07    20     68
+ 8.24    25     77
+ 7.54    30     86
+ 6.93    35     95
+
+
+These values are for water in equilibrium with air at one atmosphere.  
+The units of mg/L are the same as ppm (parts per million).
+
+
+Lets look at a practical example.  Starting with boiled wort, which is
+deoxygenated (Co = 0 mg/L), that has been cooled to 70.deg.F (C* = 9 mg/L)
+and a tranfer coefficient as described above (KLa = 10 per hour), I get
+the following results (and a crude ASCII graph):
+
+
+     DO      time
+mg/L  % sat. min.  
+  1    11    0.71    9|                *(8.5)    *(8.9)       *(8.99) 
+  2    22    1.51    8|            *(8.0)
+  3    33    2.43  m 7|        *
+  4    44    3.53  g 6|      *
+  5    56    4.87  / 5|     *
+  6    67    6.59  L 4|   *
+  7    78    9.02    3|  *
+  8    89    13.2    2| *
+  8.5  94    17.3    1|*
+  8.9  99.0  27.0    0*________________________________________
+  8.95 99.5  31.2     |    |    |    |    |    |    |    |    |
+  8.99 99.9  40.8     0    5    10   15   20   25   30   35   40 min.
+
+
+One final note.  In going from tap water to sludge, the saturation level
+does not change, only the "effective transfer rate".  The coefficient KLa
+becomes alpha * KLa, where alpha varies from 0.6 to 1.0 The actual value
+for alpha is determined by compairing the tapwater oxygen transfer rate to
+the sludge transfer rate.  Remember that sludge contains lots of
+undissolved materials.  I think wort is closer to water than it is to
+sludge! 
+
+
+For the example above, if alpha = 0.8, the KLa becomes: 0.8 * 10 per hour
+= 8 per hour. The time for 0 to 8.9 mg/L (99% sat.) would increase from
+27.0 min. to 33.8 min. 
+
+
+Literature references available upon request.  
+               ___          ___   
+Sincerely,    /   ) |   /  /   )  __   __ |        Christopher V. Sack    
+Chris        /      |  /  (___   __ ) /  )|  /     Chemistry Dept. 
+            /       | /       ) /  / /    | /      S.U.N.Y.-E.S.F. 
+           (____/*  |/* (____/ (__\ (__/  |/ \     <cvsack`at`lor.syr.edu>
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 06 Jun 1994 22:38:54 -0500 (cdt)
+From: Jonathan G Knight <KNIGHTJ`at`AC.GRIN.EDU>
+Subject: "Alt" yeast question
+
+
+
+
+I have read HBD opinion which says that the Wyeast "European" (I forget the 
+number) is an "alt" yeast, but I have also read, I think in a mail-order 
+catalogue, or perhaps even the Wyeast "Yeast Profiles" sheet, that the 
+"German" (1009 I think?) is in fact "the" "alt" yeast.
+
+
+I have not tried the "European" meself, but I made an extract+specialties 
+brew loosely based on Papazian's guidelines for an Altbier in that nifty 
+little chart he has, and it's one of the best brews I've made!
+
+
+At any rate, I'd like to invite some more discussion on this:  will the real 
+Altyeast please stand up?
+
+
+Jonathan Knight
+Grinnell, Iowa
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 00:28:34 EDT
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: brewing books [from spencer]
+
+
+I'd like to add another book to Jeff's list:
+
+
+Randy Mosher's new Brewing Companion, published by Alephenalia Press,
+1994.  It's much more in the nature of a reference manual than a
+narrative introduction to brewing.  But, it incorporates dozens of
+useful tables and charts, has several kinds pages for recording your
+brewing sessions and recipes -- lots of "blank" (that is, not filled
+in) pages in the book, or you can make copies and put them in a
+binder.  It's got chapters on basic brewing, ingredients, recipe
+design, styles, etc.  And it's visually exciting (as you might expect,
+given Randy's background as a graphic artist).
+
+
+10 years in the making, and it shows.  Unfortunately, it's also got a
+bunch of (mostly just annoying) typos.  List price is $19.95
+
+
+=S
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 1994 16:19:15 +1000 (EST)
+From: Paul Murray <pmurray`at`lingua.cltr.uq.oz.au>
+Subject: Caledonian Bottles
+
+
+Philip Proefrock asks if there are more suitable bottles for homebrew 
+than Caledonian Brewery bottles.  He says that the Caley bottles have a 
+lip that prevents the bottler from getting a grip.  I have bottled about 
+75 L in Caley bottles with no problems.  I used a two handed lever 
+capper, which while not a bench capper, seemed to work fine.  It didn't 
+cost much either.  I know that St Andrew's Ale (as it is sold in the 
+States) comes in 12oz bottles, whereas Caledonian 80/, 70/, & Golden 
+Promise (their organic beer) come in pint/20 oz/500ml bottles.  Maybe the 
+larger bottles are a different design.  Now that I live in Australia I no 
+longer have access to Caledonian bottles, but I can recomend them to 
+anyone who does.  It is well worth experimenting with different cappers 
+to find one that is compatible, because while Caley bottles may not be 
+the most fun to fill, they are certainly loads of fun to empty.  :-)
+Happy Bottling
+Paul Murray (pmurray`at`lingua.cltr.uq.oz.au)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 03:19:54 CDT
+From: kverge`at`conch.senod.uwf.edu (Kent Verge)
+Subject: Contamination?
+
+
+
+
+I am a relative novice at brewing, and was wondering about contmination 
+during the process.  My first batch went well, but my second batch had a
+few bottles that really foamed up, and I'm wondering if it was caused by
+contamination.  Does anyone know if that is a symptom, and, if so, what
+I can do to keep it from happening again?
+ 
+TIA, 
+
+
+Kent Verge
+
+
+University of West Florida
+kverge`at`conch.senod.uwf.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 09:47:27 GMT
+From: Rich Fortnum <rich`at`beerich.demon.co.uk>
+Subject: Re: Autolysis
+
+
+
+
+>In reading Foster's book on Porter over the weekend I came
+>across a comment from him that ale yeast was more prone to
+>autolysis than lager yeast.  Sorry I can't be more exact than
+>that, I'm at work and I don't have his book in front of me.  My
+>experience to date would tend to suggest the opposite is true.
+>I've never had a batch of ale yeast autolyse on me, but I have
+>had a couple lagers go after sitting at room temp for three
+>weeks or so.  Comments anyone?
+
+
+Ale yeasts find cold temperatures more hostile than lager strains.  So, when 
+placed in this condition, they try to kill others for the sake of living 
+themselves.  When I say 'this condition' I mean cold conditioning.  Diacetyl 
+rests as a warm condition is only for max 5 days, at cool temperatures also.  
+
+
+Chill your lager.  That's what lagering is - cold aging/conditioning.
+
+
+Cheers.
+
+
+BeeRich
+Malting, Brewing & Distilling Science
+Heriot-Watt University
+Edinburgh, Scotland
+e-mail: rich`at`beerich.demon.co.uk
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 09:48:47 GMT
+From: Rich Fortnum <rich`at`beerich.demon.co.uk>
+Subject: Re: Amylases
+
+
+>I'm going to use powdered amylase enzyme to convert starches in flaked
+>maize. Does anyone have any experience in doing this? What charging ratio?
+>How long? Is temp different than 148=B0F? Do I need to boil maize first? If
+>so , how long before adding enzymes?
+
+
+Which amylase is it?  Alpha or beta?  Make sure you know which one.  Read up on 
+both of them in Papazian.  Use the same temperatures.  Use about 20 ppm.  If 
+you're using flaked maize, you don't need to boil.  If you're using maize 
+grits, then you have to cook.  Cook grits for 20 minutes at boiling temps, with 
+a little bit of 2-row to keep it from turning into a solid lump.  Add to the 
+rest of the mash, then add amylases.
+
+
+You should rely on your malt for enzymes.  Use a maximum of 35% flaked maize.
+
+
+Cheerio.
+
+
+BeeRich
+Malting, Brewing & Distilling Science
+Heriot-Watt University
+Edinburgh, Scotland
+e-mail: rich`at`beerich.demon.co.uk
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 09:49:38 GMT
+From: Rich Fortnum <rich`at`beerich.demon.co.uk>
+Subject: Re: Cold Breaks
+
+
+>Am I correct in thinking that a proper cold break is necessary
+>only in all grain brewing?  Seems I've heard that somewhere before.
+>
+>I am a lowly extract brewer and sometimes after cooling my wort
+>before adding it to the primary, I have a sediment at the bottom of
+>my boiling kettle.  I've always dumped it into the fermenter but
+>should I?
+
+
+Always try to maximize cold break, by rehydrating and adding Irish Moss before 
+end of boil.  10 minutes should do, if rehydrated in water beforehand, say 
+three hours before.
+
+
+Keep it out of your fermenter.  Just do your best, with this matter.
+
+
+BeeRich
+Malting, Brewing & Distilling Science
+Heriot-Watt University
+Edinburgh, Scotland
+e-mail: rich`at`beerich.demon.co.uk
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 09:50:14 GMT
+From: Rich Fortnum <rich`at`beerich.demon.co.uk>
+Subject: Re: Different Grains
+
+
+>When I brewed my first all grain brew, I went to me local supply store and
+>the recipe I was trying was just a basic Pale Ale (Just wanted to start
+>simple).  They had a variety of 2 row grains.  They had American Pale Malt,
+>German Pale Malt and Belgin Pale Malt.  They also have a similar grouping
+>of Crystals and Wheats from differnt countries.
+
+
+They are all essentially the same type of barley (not variety though) and 
+should be generally the same.  You're playing with malting practices, total 
+nitrogen amounts, and more in depth things.  They will all work, but will 
+change your product slightly.  Obviously, you'll use British malt for pale 
+ales, if you can get some.  German and Eastern European malts will have malting 
+and mashing problems, and are great for decoction mashes (which was the orignal 
+way of using these malts).
+
+
+>The store told me that they are basically all the same, just from different
+>countries.
+
+
+Basically.
+
+
+>Is this true, or does one country make a better grain than the other. What
+>are the major differences? The prices were the same or only 5 or 10 cents a
+>pound difference.
+
+
+Not better, just different.  They all have their optimal uses, in different 
+situations.  So, better per style, or utilization.  Major differences are 
+malting quality, extraction rates, amounts of small starch granules...don't 
+worry about it.  
+
+
+What you could do to answer your own question is make three batches, each using 
+one type.  Keep everything else the same.  Temperatures, volumes, times, pH and 
+the like.  It could be great information.
+
+
+Cheers.
+
+
+BeeRich
+Malting, Brewing & Distilling Science
+Heriot-Watt University
+Edinburgh, Scotland
+e-mail: rich`at`beerich.demon.co.uk
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 7:28:25 EDT
+From: mikesher`at`acs.bu.edu (Michael Sheridan)
+Subject: Extractions rates, etc.
+
+
+Hi y'all
+ 
+I don't have one of those funky copy-and-snip email editors, so forgive me for 
+poor style in this post.
+        1)   Derek Sikes asked about his Unpale IPA from extract.  We tried 
+making one of Charlie's Pils and it was <awful>.  If you want a pale ale, start
+with a simple bitter, like Charlie's Righteous Real Ale.  It's also a good 
+basic extract recipe for experimenting with hops, fruit, etc.
+        2)   Ken R. wants to know about using twist-offs--- don't.  They can't 
+handle the pressure. In an ideal world, you'd want lots of 'bar bottles', i.e.,
+Bud longnecks.  The bottles they use for bars (refilled at least a few times)
+are thicker than the regular storebought returnables (crushed, melted, and 
+remade into bottles. It's amazing how wasteful we are!).  We use Sam Adams 
+bottles (the thin ones) and haven't had any problems.   
+        3)   Karl MacR wrote about making his stout 'stringer' (couldn't 
+resist ;-))  We've used honey to boost alcolhol content in a couple of dark 
+brews.  It ferments out VERY thoroughly, but can give a 'honey bite' flavor
+when its still young or if you use too much.  Stick with a pound or so for a 
+5 gal batch until you get a feel for the flavor.
+        4)    And now the real reason I'm writing this-- extraction rates.
+We made an oatmeal porter the other day, and I figured our final extraction 
+rate at 23 pts/#/gal.  Yuck. I think it's because we have an uninsulated Zapap
+lauter tun that radiates heat.  I stuck the floating thermometer in the tun to
+monitor its temp, to see if it stayed around 168 degrees as we sparged. No way.
+It dropped down to 150 or so within 20 min., so we started heating our sparge 
+water up to 200 degrees to compensate (yeah, we know, tannins, etc.  At least 
+its a porter, that'll hide a bit of that flavor).  No dice;  could'nt get the 
+temp above 165.  Putting the lid on the buckets helped, but I'm still a tad
+frustrated with this low temp-low extraction thing.  Jeff Renner wrote that
+he has a 'insulated and caulked' Zapap.  Huh?  How do you clean it? What's it 
+look like, etc.?  
+        The lesson we learned with this porter-- we're going to follow the SG, 
+not the recipe.  That is, we diluted our wort (with 1 gal) in the fermenter to
+top it up to 5.5 gal, and THEN took the SG. Mistake.  We had diluted it down 
+to 1.037, a bit below the 1.045 or so we wanted for the 'style'. If we had just
+gone with a 4.5 gal batch, we wouldn't have had to add 1 # dried extract to 
+boost the SG.
+
+
+Thanks for coping with a long and rambly post.  Any opinions on improving 
+the Zapap would be HIGHLY appreciated.
+
+
+Have a good day, y'all.
+
+
+Mike Sheridan and Kristina Simmons
+ 
+
+
+mikesher`at`acs.bu.edu 
+
+
+------------------------------
+
+
+Date:     Tue, 7 Jun 94 7:58:31 EDT
+From: Jon Petty <jpetty`at`PICA.ARMY.MIL>
+Subject:  Hop utilization questioned
+
+
+        I have to take exception to the hop utilization vs gravity published in
+        the HBD recently.  I recently made two identical IPAs with the
+        exception that the second batch I only boiled the hops and added the
+        extract to the hot water after the hops were strained out.  I did this
+        to compare results.  The second brew was extremely bitter compared to
+        the first.  Both used 1.5 oz of Norther Brewer, 7.5% AA. in a 1.052
+        ale.  I can't compare taste because of the bitterness difference but
+        clarity and color are the same and the second batch had a rockier head.
+        I've since made a brown ale, same OG using 3/4 oz of NB boiled without
+        the malt for 60 min and bitterness is comparable to my first IPA.  This
+        turned out to be one of my best in 28 batches.  I seem to remember
+        someone (Glen Tinseth ?) getting hop utilizations of 46% when boiled in
+        plain water. This figure more approxamates my taste results.  Besides
+        higher utilization of hops, there is no boil-over or break mat'l to
+        worry about when the malt isn't boiled; are there disadvantages ?
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 08:31:03 EDT
+From: Steve Robinson <Steve.Robinson`at`analog.com>
+Subject: Pale ale?
+
+
+> from Derek Sikes "ueymids`at`trex.oscs.montana.edu"
+
+
+> I'm on my 8th or 9th batch of homebrew and have made only darker beers so far.
+> I've enjoyed, browns, porters, some splendid stouts and bitters, a dark steam
+> etc. But I finally got the urge for a pale.  I attempted an IPA using
+> Charlie P.'s recipee but I used amber malt and so missed the piss-yellow 
+> color I was hoping for.  So I have tried again...  
+
+
+I imply from this that you are expecting a straw yellow color such as found in
+BudMillerCoors.  An IPA ought to be a nice deep copper color.  You mention that
+you have made some bitters, and an IPA should be a slightly stronger version of
+a bitter.  Your S.G. of 1.040 sounds about right for an extract version.  You
+don't mention what your hop rates were, but this sounds like it should be a nice
+beer when it's done.
+
+
+Steve Robinson
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 1994 09:03:49 +22305931 (EDT)
+From: gam`at`beluga.must.com (Guy Mason)
+Subject: Brewing Equipment
+
+
+Greetings :
+
+
+I need to tap the collective wisdom of HBD.  First a quick thank you to
+everyone who responded to my post on bottling with honey.  The Goat
+Scrotum Ale ala Guy is a smashing success.  Now on to the big question.
+Does anyone out in HBD-land have any experience using the Stoelting Home
+Brew System?  It seems like a wonderous thing for those of us who limit
+their hardware expliots to changing light bulbs.  Of course there is always
+the cost so...
+
+
+Private E-mail is welcome, all the usual disclaimers, I'm not a salesperson/
+distributor/yada-yada-yada
+
+
+TIA
+                                _ _ 
+                                O O
+/---------------------------uuu--U--uuu---------------------------\
+|   Guy Mason                                          I think,   |
+|   MUST Software International                       therefore   |
+|   E-mail : gam`at`must.com                              I brew     |
+\-----------------------------------------------------------------/
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 10:07:50 EDT
+From: "Lee A. Menegoni" <lmenegon`at`nectech.com>
+Subject: Quality Vienna Malts
+
+
+Ireks of Germany makes a fine undermodified Vienna malt that has sufficent 
+enzymes to convert itself and can be used as the base malt in Vienna and 
+Fest beers.  
+George Fix, in a previous HBD post, mentioned a less pricey quality German 
+Pilsner malt from Durst, thay also make a Vienna Malt.  These are more 
+modified than the Ireks.
+The DeWolf/Cosyns Belgian malts Pilsner and Munich (only 7L) are high 
+quality highly modified malts.  The only issue with the Belgian malts is 
+they have a lower level of SMM, a precursor of components that produce 
+malty flavor, than the German malts.
+The D/C crystal malts were very well reviewed by Doctor Fix in his article 
+on Belgian Malts in one of the early issues of Brewing Techniques.  He 
+particularly liked the Caramel Vienna malt.  The article additionally 
+included updates for the Vienna beer recipes published in the Fix's 
+beer styles book.
+           
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 1994 8:02:19 -0700 (PDT)
+From: Jim Cave <CAVE`at`PSC.ORG>
+Subject: Lids on German Steins
+
+
+        I was asked the other day "Why are there lids on German Beer Steins?"
+I thought it might have been an inovation for farmers and the like to keep
+dirt and straw and such out of their beer while working in the fields.  Does
+anyone know the real reason/history of it.
+
+
+        Thanks,  Jim Cave "I brew, therefore I am!"
+
+
+------------------------------
+
+
+Date: Tue, 07 Jun 1994 10:55:18 -0400
+From: ambroser`at`apollo.dml.georgetown.edu (Bob Ambrose)
+Subject: More Zima
+
+
+It appears this "beverage" (or whatever you want to call it) is really catching
+on. Now you can buy it in 22oz bottles!
+
+
+I don't think it will be long before we see quarts and 40oz bottles.
+Would you like to drink 40oz of Zima? Maybe if someone had a gun to my head! :)
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 1994 11:14:46 -0400 (EDT)
+From: Jim Busch <busch`at`daacdev1.stx.com>
+Subject: Re: Reinheitsgebot and kettle salts
+
+
+> From: bjones`at`novax.llnl.gov (Bob Jones)
+> Subject: German purity law???
+> 
+> >From: "Dennis Lewis" states........
+> >When I was in Munich last year, I got a tour of Spaten and they were
+> >making Franziskaner weissbier at the time. They used no other water
+> >treatments than calcium chloride. It's my opinion that water high in
+> >sulfates is not necessarily good for making weissbier because the
+> >SO4's contribute a dry palate to the brews, when you are looking for
+> >a sweeter, more malty one.
+> How does this fit in with the German purity law (I couldn't spell Rein...)?
+
+
+No problemo.  Kettle salts are allowed by rein..since the water has these
+materials occuring naturally.  Through the normal warped logic, if it 
+occurs naturally, you can add a few hundred times the amount and still
+be "pure"! So, go ahead and add Gypsum or chlorides. 
+
+
+Good brewing,
+
+
+Jim Busch
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 1994 11:33:53 -0400 (EDT)
+From: Jim Busch <busch`at`daacdev1.stx.com>
+Subject: RE"accepted brewing practice"
+
+
+What do you know, I expect the Oracle to respond directly, but instead
+I get flamed by a Don Put <dput`at`csulb.edu>:
+>  > 
+>  > > Subject: "Misinformation" revisited
+>  > > 
+>  > > >Subject: RE: tannin leaching by boiling water, free ads in BT
+>  > > 
+>  > > >I just got done skimming this misinformation . . .  
+>  > >                  ^^^^^^^^
+> > Perhaps if you had READ the complete article, you wouldn't have jumped to
+>  > such needless conclusions.  
+>  > 
+ Perhaps if you had been brewing as much and long as I have, and have been
+ reading this misinformation on this digest for as long as I have, you 
+ would have realized that any regular HDBer has read this stuff many times
+ before.  Its the same article that was rejected by Zymurgy, and what do
+ you know, it ends up in the "more technical" journel, BT. Go figure!
+ >> 
+ >>I got pretty peeved for two reasons, one is that "tips" like these have 
+ >>no basis in brewing science and are contrary to accepted practice, 
+>especially with regard to increased leaching of tannins from the lauter tun.  
+>  
+>In theory, of course, you are right.  However, the words "accepted practice"
+>leave the resonant sound, in my mind, of lemmings running for the cliff.  
+>Granted, there has been a great deal of advancement in the brewing trade,
+>and craft for that matter, by the careful study of processes.  We have all
+>gained a fair amount of control over our hobbies as a result of this, but 
+I think there is always room for new ideas and new ways of approaching things.  
+
+
+I fail to see the relationship between advocating increased tannin extraction
+and European rodents jumping into the sea!  Its hardly on the cutting edge
+of brewing science to realize that sparge waters above 180F increase tannin
+extraction, see DeClerc, or Hough et. al.  I suspect good coverage of this 
+is also found in Miller and Noonan.  How making beers that are more astringent
+is advancing the hobby is beyond me.
+> 
+>> The folks who brought us lambics, pilsners, and steam styles of beer went 
+  against "accepted practice."  Of course, they were concerned with different 
+>> types of fermentation techniques, and we are dealing with sparging 
+>> techniques here.  
+ 
+At the time of origin of these beer styles, there was no "accepted practice"!
+It was being defined. 
+>  >> 
+>If you had read Jack's article carefully, you would have stumbled across the 
+>> words: ". . . but if you use boiling water in THIS system, the average 
+>> temperature will be well below 170F and you will be lucky to keep it above 
+>> 150F" (my emphasis).  
+>  > 
+Now just what the 'ell does this mean, anyway!  Where is this mysterious
+average temp to be located?  Is he attempting to claim temp readings far
+away from the surface area that has now increased the tannins extracted in
+the lauter (hot water hits surface, surface is cooler, heat exchange takes
+place, and leaching of tannins).  Or is this "sparge bowl" some amazing 
+heat sink whereby water drops precipitously from 212F to 176F!  I mean, whats
+35F difference between friends??  And I thought one of the "wonders" of 
+kettle mashing is the ease of a mash off, ending in a tun at 170F.  If the
+tun is 170, and the sparge 212F, just where is this temp delta coming from?
+SS is a poor conductor, even if it is not insulated, which it should be at
+this stage of the process. 
+> > 
+ >Jack is merely stating what he has found to be true 
+ with regard to the easy mashing system.  I lauter in a Gott cooler and I get
+> very little temperature drop, but I imagine if I used a kettle the heat 
+>transfer would be much greater.  Therefore, I would need to boost my initial
+> sparge water temperature, wouldn't I?  
+
+
+Wrong again, Don.  If you use sparge water above 180F, you are going to 
+increase the tannins extracted.  I also use a kettle to mash in and a 
+"kettle" to lauter in .  I can assure you it is better to sparge with 
+170F water than with 190F.
+>  
+> >>Secondly, the "article" is basically free advertising for JSP and had 
+> >>no buisness being in the articles section , it belonged in some product 
+> >>review area.  
+> 
+>While there were references to obtaining said easy mashing system from
+>Jack Schmidling Productions in the article, there was also a comprehensive
+>parts list that anyone with a little motivation could have used to assemble
+>all the necessary parts, i.e., build their own easy masher.  Also, you'll
+>notice in the article it wasn't referred to as the EASYMASHER(tm).  The
+>"article" as you call it appeared in the section reserved for brewers 
+>entitled: "Brewers' Forum."  Which, in past issues, has brought us such 
+>notable contributions as:
+>"Modifying Half_Barrel Kegs for Use as Brewing Vessels," by Martin Manning
+>"A Three-Tiered Gravity-Flow Brewing System," by Bob Caplan
+>"Beer Tree: A Three-Tiered System with Roots in Simplicity," by David O'Neil
+>and many others.  All of the articles that have appeared in this section
+>of the magazine are written from the [home]brewer's perspective.  Hence, the 
+>designation "Brewers' Forum."  
+> 
+> 
+Did any of the above authors have a vested interest in the articles they
+wrote?  This is probably the reason that Zymurgy rejected it.
+
+
+now back to the previously scheduled maltmill_digest,
+
+
+Jim Busch
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 1994 08:19:26 -0700 (PDT)
+From: Jeff Frane <gummitch`at`teleport.com>
+Subject: Malts of the World
+
+
+Larry Kelly writes, plaintively:
+
+
+> 
+> When I brewed my first all grain brew, I went to me local supply store and
+> the recipe I was trying was just a basic Pale Ale (Just wanted to start
+> simple).  They had a variety of 2 row grains.  They had American Pale Malt,
+> German Pale Malt and Belgin Pale Malt.  They also have a similar grouping
+> of Crystals and Wheats from differnt countries.
+> 
+> The store told me that they are basically all the same, just from different
+> countries.
+> 
+Isn't there a malt FAQ somewhere?  I remember it being put together a
+couple of years ago... 
+
+
+Interesting that your local store carries a good selection, and hasn't
+the faintest idea why.  The short answer is: THEY ARE WRONG!!!  Malts
+originating from the US, Belgium, Germany and England are quite
+different from one another, as they should be.  Brewers in different
+countries make different sorts of beers, have different requirements for
+those beers and different expectations of their malt.
+
+
+I *think* this is addressed in the malt FAQ.  If not, it should be.
+
+
+Another, highly-prejudiced short answer: the specialty malts (caramel,
+etc.) from Europe (Belgium, especially) are superior to those produced
+in the U.S.  They are made from better barley and are made through
+better processes (I said I was prejudiced!).  To my thinking, the malts
+from Belgium's DeWolf-Cosyns are the finest in the world.
+
+
+If, in fact, you can buy these for a few cents a pound more than
+domestic, DO IT!!
+
+
+
+
+- --Jeff
+
+
+
+
+------------------------------
+
+
+Date:         Tue, 07 Jun 94 10:28:07 CDT
+From: Phil Miller <C616063`at`MIZZOU1.missouri.edu>
+Subject:      Thanks
+
+
+
+
+Thanks to all who responded to my query on how long beer keeps.
+
+
+                               Keep Brewing
+
+
+                               Phil Miller
+
+
+P.S I am moving to Carboy-Brewing from plastic bucket brewing---any tips or
+hints about this type of "brewery"?
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 12:20:15 EDT
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: storing malt extract
+
+
+ > >From *Jeff* Renner 
+
+
+ > Eric Miller wonders about spoiled canned extract.  I've seen enough
+ > swollen cans to know it's possible, especially if the factory
+ > didn't process them right.  The older they get, the more chance
+ > they have of going off, and they certainly aren't going to improve.
+ > I'd sure move that can from 85^F to a cooler place!
+
+
+Dave Miller writes in this month's issue of Brewing Techniques:
+
+
+    Liquid malt extracts ... seem to slowly deteriorate in the can or drum
+    from the day they are packaged. Very old malt syrups become dark and
+    acquire a coarse, molasses-like flavor that is obvious in beers made
+    from them.  .... About all you can do is [to] keep it at moderate
+    temperatures (60-80F) and use it within six months.
+
+
+On the brighter side, he says:
+
+
+    Dry malt extract will show deterioration by absorbing moisture from
+    the air and hardening.  I have seen it keep for a year when stored in
+    a very dry room packed in a double layer of airtight plastic.
+
+
+=S
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 09:38:06 PDT
+From: "Joe Stone" <JSTONE`at`SJEVM5.VNET.IBM.COM>
+Subject: Michigan Brewpubs
+
+
+  I hate to do it, but here it is ... another brewpub request.  If
+anyone has information related to brewpubs in Michigan, please e-mail
+me directly.
+
+
+Thanks,
+
+
+Joe
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 12:44:04 EDT
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: Attention Mathematicians!
+
+
+Here's a table I use to for making high gravity beers from
+first-runnings, only.  I then sparge second runnings to make a weaker
+beer from the remaining extract.  The method is this: mash with the
+specified water-grain ratio, then drain the bed dry.  Use these "first
+runnings" for your strong beer.  You can sparge as fast as it will go,
+because if your mash is properly mixed, the sugar in the liquor and in
+the grain are in equilibrium, so no extra sugars will be extracted by
+going slowly.
+
+
+How to read the table: the first column is quarts of water per pound
+of grain.  The second is the specific gravity of the run-off in
+"points" (e.g. 105 means 1.105).  The third column is quarts of
+run-off collected per pound.  The final column is your extract
+efficiency in pt-lb/gallon.  These are pre-boil figures, so if you
+boil down from 6 to 5 gallons, you'll get another 15% or so (e.g.,
+1.105 -> 1.120, which I actually got in my most recent "bombastic beer"
+attempt). 
+
+
+        qt/lb        SG        collect        extract
+        1        105         .4        10
+        1.25         90         .65        15
+        1.5         80         .9        18
+        2         60        1.4        21
+
+
+These numbers work for my system, and were determined by experiment.
+Your mileage may (will?) vary.  I'm assuming that each pound of wet
+grain absorbs .6 quarts of water.  A recent article in Brewing
+Techniques gave a figure of .4 qt/lb, which would obviously increase
+the amount of run-off (and would improve the efficiency).
+
+
+=S
+
+
+------------------------------
+
+
+Date: 7 Jun 1994 12:40:01 U
+From: "Manning Martin MP" <manning_martin_mp`at`mcst.ae.ge.com>
+Subject: Extract Eff, Kettle SG Change
+
+
+>From *Jeff* Renner:
+>Larry Kelly asks when to figure (pt/lb/gal), in the boiler or in the
+>fermenter.  I take at the fermenter.  This, of course,  lowers my value.  >I
+always lose a fair amount from my early estimate when  the boiler is >full
+after the sparge (I do cool my sample).  I would guess  that most >of this is
+due to loss in hops and trub.  However, you report 29  at the >beginning of
+the boil, 26 at the end, and 20 after dilution.   Something >here isn't
+right, and I don't think it is all due to the lack of  linearity >when
+diluting.
+
+
+My standard practice is to assess extract efficiency at the end of the
+sparge, and armed with this information, adjust the boil time to hit target
+gravity. A good approximation of the change in SG over the boil (or for
+dilution) is that the ratio of SG points (start/finish) is equal to the
+volume ratio (finish/start). I consider losses due to hops and trub  to cause
+a reduction in the available final volume, and these usually cost 2-3% (of
+the final volume). 
+
+
+I do not worry about any changes in SG due to trub formation, or the change
+in wort volume due to the spent hops. In spite of this, the change in gravity
+from the start of the boil to the end seems, as near as I can measure, to
+follow the (constant extract) SG-volume relationship previously stated. Since
+the final volume I measure includes the displaced volume of the hops and
+trub, and is therefore a bit high, I would guess that the effects of hop
+volume and trub formation are off-setting. 
+
+
+A 10% change in extract, as in going from 29 to 26 pt/lb/gal, seems out of
+line, and I would suspect some sort of measurement error. Consider these:
+
+
+The measured volume of wort in the kettle must be corrected to the same
+reference temperature as the SG; a 4% adjustment if you measure volume at
+boiling and correct to 60 degrees F! 
+
+
+The run-off must be well mixed prior to taking an SG reading, and failure to
+do this can give huge errors. 
+
+
+I find the typical amateur brewer's hydrometer, with 0.002 calibrations, very
+difficult to read, and each 0.001 error here (1.050 wort) will cause a 2%
+change in calculated extract.
+
+
+Martin Manning
+manning_martin_mp`at`mcst.ae.ge.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 1994 12:49:03 -0500
+From: jmb31`at`cornell.edu (Jim Brewster)
+Subject: Re: Pale Ale?
+
+
+In HBD # 1443, Derek Sikes wrote:
+
+
+>I attempted an IPA using Charlie P.'s recipee but I used amber malt and so
+>>missed the piss-yellow color I was hoping for.
+
+
+The problem is not in your recipe but in your expectations of what a "pale
+ale" should look like. An IPA is pale by the standards of 18th century
+England, when porters were the standard drink. Thus an IPA should be amber
+to deep copper in color, which hardly seems "pale" to Americans weaned on
+piss-yellow lagers!
+
+
+It is also true that beer looks a lot darker in the carboy than in your
+glass. This is just a function of amount of liquid the light must pass
+through.
+
+
+Does Charlie really expect you to get 1.070 from 7# of extract in 5 gal?
+1.040 sounds closer to reality. Go for 10# next time, and consider adding
+some bittering and flavoring hops if you aren't already doing so.
+
+
+Keep on brewing,
+
+
+Jim Brewster
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 13:02:19 EDT
+From: David Knight <dknight`at`ren.iterated.com>
+Subject: Refrigerator Problem
+
+
+
+
+This is not 100% brewing related, but I don't know where else to ask this so
+I'll keep it short and simple.
+
+
+A couple of months ago I bought a used frost free refrigerator for lagering.
+The refrigerator is about 8 years old and sits in our garage (hooked up to
+a Hunter Airstat).  When I first bought it, everything worked fine (I used
+the internal thermostat to get down to about 35F).  However, temperatures here
+in Georgia have been getting hotter and hotter lately, and the humidity has
+increased significantly, to the point that the garage can get up to 100F
+during the day.  As a result, my refrigerator is working full-time just getting
+down to around 55F.
+
+
+Am I simply asking too much of this poor beat-up appliance?  Should a 'working'
+refrigerator be able to handle conditions like that?  Would it be possible
+to get a refrigerator that could maintain 35F when the room temperature is
+around 100F and humid?  Should I just sell the thing and buy a smaller 
+refrigerator that I can store in a closet inside my house?
+
+
+Thanks in advance for any assistance.
+
+
+
+
+ -Dave Knight
+dknight`at`ren.iterated.com
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 11:04:17 MDT
+From: Randy M. Davis <rmdavis`at`mocan.mobil.com>
+Subject: Corn/Rice Extract
+
+
+
+
+Rich Webb asks...
+>Does anyone out there in HBD land have a good handle on likely
+>extraction rates for grains such as rice and corn?
+
+
+The best info I have been able to find on corn and rice indicates that they
+are high in starch and low in protein and both provide typical rates of 
+extraction of around 40 deg./lb./gal.
+
+
+- --
+
+
++-------------------------------------------------------------------------+
+| Randy Davis: Mobil Oil Canada          Calgary, Alberta  Canada         |
+|              rmdavis`at`mocan.mobil.com                                    |
+|              Phone (403) 260-4184      Fax (403) 260-7348               |
++-------------------------------------------------------------------------+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 1994 13:11:01 -0400 (EST)
+From: BUKOFSKY <sjb8052`at`minerva.cis.yale.edu>
+Subject: Ring around neck=infection always?
+
+
+
+
+I'm not worrying, only curious....
+
+
+The last few brews I have made have developed rings around the bottle neck
+where the beer meets the glass.  According to various sources, this is a
+sure sign of infection.  However, all of the beers are crystal clear and
+delicious, even after a few months.  Can this effect occur without there
+being an infection?  The only correlation I have is that these beers were
+made in much warmer conditions (10 degrees higher than non-ringed beers).
+The yeasts used were Wyeast British and the new Wheat.  Am I kidding
+myself that everything is O.K.?
+
+
+ -Scott
+
+
+No cute comment.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 13:33:32 -0400
+From: edo`at`marcam.com (Ed Oriordan)
+Subject: Power Sparger
+
+
+At this point I assume a fair number of people have read the
+most recent Zymurgy.
+
+
+Can anybody explain the benefits of the "Power Sparger"?  The author
+seemed to be implying that the benefit of the system was in its
+ability to save time (i.e. you can force more sparge water through in a
+shorter amount of time).
+
+
+I use a copper manifold in a cooler, and I have to slow down the
+speed at which I can draw sweet liquor off(I use a valve on the output side).
+ -IF- I wanted my sparges to go faster I would leave the valve wide open.
+
+
+Can somebody explain what I missed?  Is the author implying better
+extraction in a shorter time(which would be a benefit)? Or is he merely
+showing a way to decrease the sparge time (which to me would be at the
+expense of extraction, which is not a real benefit)?
+
+
+Ed O'
+edo`at`marcam.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 11:56:05 -0600
+From: Kelly Jones <k-jones`at`ee.utah.edu>
+Subject: Homebrew shops/good deals in Denver/Ft. Collins?
+
+
+
+
+Hello all:
+
+
+I'll be in Denver and Ft Collins later this month for the AHA
+conference and Ft. Collins brewfest.  While in the area, I'd like to
+check out local homebrew shops, especially if there's any bargains to
+be had.  In particular, I'm interested in finding some imported
+(eg German or Belgian) malts at reasonable prices, as my local
+homebrew shops seem to carry domestic malts, and the shipping cost for
+malt is prohibitively high.  So, does anybody know of any good shops
+and/or good bargains?
+
+
+email me, and I'll post the results later.
+
+
+Thanks,
+
+
+Kelly Jones
+
+
+------------------------------
+
+
+Date: Tue, 07 Jun 94 14:18:32 EDT
+From: HOMEBRE973`at`aol.com
+Subject: piss yellow, beer strength
+
+
+Derek Sikes asked about getting a light color beer (paleer pale ale).
+This is quite difficult to do with extracts unless you go to a full 5 gallon
+boil and use the palest of extracts such as Alexander's or William's pale
+extracts.  The canning process itself would most likely tend to darken
+extracts and carmelization tends to occur if you don't do a full 5 gallon
+boil
+
+
+Karl MacRae asks about getting a higher strength beer without sweetness.
+ Honey is probably the best way to do since it does not give a cidery flavor.
+ However, you must choose the blandest honey (clover?) you can find or you
+will add other flavors.
+
+
+Andy Kligerman
+
+
+
+
+------------------------------
+
+
+Date: Tue, 7 Jun 94 15:48:54 EDT
+From: rowan`at`ocean.rutgers.edu (Andy Rowan)
+Subject: what temp to finish my lager?
+
+
+Hi,
+
+
+OK, so I went and made my first lager.  Left it in the fridge in
+the carboy for a couple extra months, out of laziness/busyness,
+and finally bottled it the other night.
+
+
+So the question is, for this last finishing stage in the bottles,
+what temperature do I want?  If it's too cold, I'll grow old waiting,
+right?  If too warm, what results?
+
+
+Andy
+
+
+==================================================
+| Andy Rowan                                     |
+| Center for Remote Sensing and Spatial Analysis |
+| Rutgers University, New Brunswick NJ USA       |
+| rowan`at`ocean.rutgers.edu                        |
+==================================================
+
+
+------------------------------
+End of HOMEBREW Digest #1444, 06/08/94
+*************************************
+-------

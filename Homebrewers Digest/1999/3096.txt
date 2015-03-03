@@ -1,0 +1,1624 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id CAA04700;
+        Fri, 30 Jul 1999 02:10:38 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id CAA13934;
+        Fri, 30 Jul 1999 02:10:34 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.7/8.8.4)
+          id AAA13797 for realhomebrew; Fri, 30 Jul 1999 00:35:59 -0400
+Date: Fri, 30 Jul 1999 00:35:59 -0400
+Message-Id: <199907300435.AAA13797`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3096 (July 30, 1999)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3096                             Fri 30 July 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  long serving lines ("Stephen Alexander")
+  Equipment for all grain ("Russ Hobaugh")
+  O(n) to other issues... (MICHAEL WILLIAM MACEYKA)
+  Re: careful (email privacy) ("Charles T. Major")
+  Honey containing beers and bottle conditioning (Matthew Comstock)
+  Eric Fouch for President? ("Doug Moyer")
+  Primary vs. Secondary revisited (Matthew Comstock)
+  Splitting-up the brew session revisited (Matthew Comstock)
+  Call for innovations (Matthew Comstock)
+  B. Rezac - Personal Interaction (woodsj)
+  Honey ("Swintosky, Michael D.")
+  pH Tester ("Jack Schmidling")
+  Resistance Per Foot ("Christopher Farley")
+  re: how long the hoses are ("Bayer, Mark A")
+  a question for the Portlanders (Oregon version) (Marc Sedam)
+  CO2 chart origin / HBD vs AHA / searchable archives (Alan Edwards)
+  Resitance to fluid flow in a tube (Pat Babcock)
+  Re:Call for Innovations (Matthew Comstock)
+  IHA?, IHBA?, WHA?, HSA? (& other stuff) (joseph_labeck_jr)
+  San Diego Strong Ale Homebrew Competition ("Greg Lorton")
+  Stuck bottlewasher ("Philip J Wilcox")
+  Denaturing-- Temp vs. Thermal Mass (RCAYOT)
+  Re:  Ring Burners Needed - not complete brewstands ("Kelly")
+  AHA ("Bill Giffin")
+  Mills and More Mills (Dan Listermann)
+  Sodapop bottling, (Dave Burley)
+  New yeast propagation methods? (CALAMIDA Alessandro)
+  Ask not what the AHA can do for you ("Don Van Valkenburg")
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+* Subscribe to the Distilled Beverage Digest
+* Send "subscribe" in body of note to dbd-request`at`hbd.org
+* Subscribe to the Home Vintners' Digest
+* Send "subscribe" in body of note to hvd-request`at`hbd.org
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+Contact brewery`at`hbd.org for information regarding the "Cat's Meow"
+
+
+Back issues are available via:
+
+
+  HTML from...
+        http://hbd.org
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+COPYRIGHT for the Digest as a collection is currently held by hbd.org 
+  (Pat Babcock and Karl Lutzen). Digests in their entirity CANNOT be 
+  reprinted/reproduced without this entire header section unless 
+  EXPRESS written permission has been obtained from hbd.org. Digests
+  CANNOT be reprinted or reproduced in any format for redistribution
+  unless said redistribution is at absolutely NO COST to the consumer.
+COPYRIGHT for individual posts within each Digest is held by the
+  author. Articles cannot be extracted from the Digest and
+  reprinted/reproduced without the EXPRESS written permission of the 
+  author. The author and HBD must be attributed as author and source in
+  any such reprint/reproduction. (Note: QUOTING of items originally
+  appearing in the Digest in a subsequent Digest is exempt from the
+  above. Home brew clubs NOT associated with organizations having a
+  commercial interest in beer or brewing may republish articles in their
+  newsletters and/or websites provided that the author and HBD are
+  attributed. ASKING first is still a great courtesy...)
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 27 Jul 1999 11:39:14 -0400
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: long serving lines
+
+
+More engineering that science, but why not page down anyway ?
+
+
+Dave B says ...
+
+
+>Personally, I cannot see how it would work,
+>at least the way it has been explained in the  past
+>(assigning some pressure drop per foot of line)
+>makes absolutely no sense to me.
+
+
+You must assume some flow rate, then the linear pressure drop per unit
+length pops out of the formulae (ignoring some tube end effects and small
+variations in coefficients).   I think we can reasonably suspect the tubes
+sold by someone like Foxx Beverage are spec'ed for flow rates around several
+fl.ounces per second.
+
+
+>A long line
+>should slow the flow of the beer due to viscosity
+>along the walls and turning points and valves
+>(Reynolds #,  wall effect), but the beer still
+>has to come out at atmospheric pressure and
+>starts out at the head pressure of the keg.
+
+
+You are ignoring a kinetic term for accelerating the liquid from rest in the
+keg to tube velocity, but it's usually not important.
+
+
+For 1/4" ID tubing with (wild guess) 2.5 fl.oz per second flow, I calculate
+a Reynolds number of about 9500 (I'm using figures for water at 5C).  Even
+assuming beer is twice as viscous (unlikely) you'll never see laminar flow
+in any reasonable diameter beverage tubing - always turbulent flow.
+
+
+I get a pressure drop of [smooth tubing assumption, Prandtl equation,
+Prandtl-Karan Law]
+
+
+dP = L (in feet) * 0.56psi + 0.43 psi    [ 1/4" ID tubing, 2.5 fl.oz/sec ]
+                        (where the  0.43 psi is the kinetic term)
+
+
+If you change the tubing diameter(D), but keep the same flow rate, there is
+a small variation (~15% for doubling or halving the diameter) in a
+coefficient used to calculate the first term, but by far the biggest impact
+is the velocity squared (v^2) factor that applies to both terms.
+
+
+Velocity at a given flow rate is proportional to (1/D)^2, and the pressure
+differential (dP above) is proportional to v^2.  This means that dP is
+proportional to (1/D)^4.
+
+
+Dropping the tubing ID diameter from 1/4" to 3/16" means the
+
+
+dP = L (in feet) * 1.7psi + 1.35 psi    [ 3/16" ID tubing, 2.5 fl.oz/sec ]
+
+
+And for 1/8" ID tubing the figures become
+dP = L (in feet) * 7.6.psi + 6.9 psi    [ 1/8" ID tubing, 2.5 fl.oz/sec ]
+
+
+In other words to drop 12psig of pressure you could use
+20.66 feet of 1/4" ID tubing         [ (12 - 0.43) / 0.56 ]
+6.3 ft of 3/16" tubing                   [ (12-1.35) / 1.7 ]
+8 inches of 1/8" tubing               [ (12-6.9) / 7.6 ]
+And keep the tap wide open to get 2.5 fl.oz/sec .
+
+
+If you use larger diameter or longer tubes than these at 12psig, then you
+will either get higher flow rates or need to use the tap valve to slow flow.
+Either method introduces conditions of sudden change in pressure that will
+create foaming.
+
+
+Don't take the above terms as precise.  The change in pressure is related to
+the flow rate you choose squared, your tubing diameter may vary a bit yet
+have a significant impact on pressure drop, and the viscosity of the beer
+has an impact too.  You may be using various head pressures as well.
+Interesting that the relative tube smoothness has little impact during
+turbulent flow (if I read the books correctly).
+
+
+I have tried (long ago - before calculating) a longish 1/4" ID beverage
+tube, but adding 10ft to your 1/4" tube will only knock the pressure down by
+~5.6psi at a reasonable flow rate and had a similarly marginal effect on
+foam.
+
+
+If I were to try this again I would of course switch to 3/16" ID tubing.
+Dave's smaller ID tubing suggestion is, as you can see from the
+calculations, the only practical solution unless you enjoy living with a
+tangle of tubes.
+
+
+ -S
+ .
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 11:58:56 -0400
+From: "Russ Hobaugh" <Russ_Hobaugh`at`erm.com>
+Subject: Equipment for all grain
+
+
+
+
+
+
+I am getting ready to take the plunge into all grain.  I would like to know what
+the best
+equipment is to get started.  I have just purchase a 14 gal. SS brewpot, and
+will be
+building an immersion WC.  What is the consensus on a lautertun?? I have been
+told
+to go with a gott cooler with an "easymasher", my brewpot with an "em", a square
+cooler
+with slotted pipes, or the zapap system.  What are the pros and cons of these
+systems?
+I am trying to do this inexpensively, but I don't want to do it "cheap", I am
+looking for
+some good advice from all you all grain brewers on the most inexpensive and
+effective
+way to get started.
+
+
+Another question is, what is the best way to test your water for all grain?? My
+water is very
+hard, so we installed a water softener.  Is this bad for mashing?
+
+
+TIA
+
+
+Russ Hobaugh
+Goob' Dog Brewer, Birdsboro PA
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 12:14:43 -0400 (EDT)
+From: MICHAEL WILLIAM MACEYKA <mmaceyka`at`welch.jhu.edu>
+Subject: O(n) to other issues...
+
+
+Howdy all,
+
+
+        ...like who has a less appreciated sense of humor than Phil Yates. 
+ The confusing topic of oxygen and yeast growth has come up once again. Here
+is what I believe (credentials to follow).  
+
+
+        Yeast can use oxygen for two purposes.  The first is as a final
+electron acceptor during repiration.  The second is to introduce double bonds
+in carbon chains, a process necessary for yeast growth in wort for the
+production of sterols and unsaturated fatty acids.
+
+
+        Yeast "grow," i.e increase cell numbers, so long as they have
+nutrients to do so.  The limiting growth factor for yeast grown in all-malt 
+wort is oxygen for double bond production (followed closely by fixed nitrogen,
+so take care in low FAN worts).  Unless, of course, you pitch very high, but
+then you don't need to worry about anything limiting yeast growth.  Yeast grow
+under both respiratory and fermentation conditions.  More oxygen in your
+starter makes more yeast and a worse tasting starter, so decant.
+
+
+        Yeast grown in wort will not respire so long as there is 0.5% glucose
+present, which is going to be all the time except in the most overgrown of
+continually oxygenated starters.  Adding oxygen to your starter or your beer
+will help increase cell numbers not because of increasing the available energy
+but because of increasing (indirectly) the available nutrient pool.
+
+
+        I SUSPECT that most people measure lag times based on evolution of
+CO2.  I SUSPECT that respiration is slower in terms of moles CO2 produced than
+fermentation (Pasteur effect?), which is why the Crabtree effect exists at
+all. This is an irrelevant suspicion for people who make beer by normal means.
+
+
+        I have used Lallemand Nottingham quite extensively, and if I
+pitch hydrated the yeast, by the time I look in on the beer the following
+morning, CO2 is being evolved.  As I recall, some one posted that it is not a
+good idea to rehydrate the yeast with yeast nutrient as this unduly stresses
+the yeast.  It has made me wonder if longer lag times correlated with
+increasing amounts of ions in the rehydration water.  Baltimore water is
+extremely soft.
+
+
+
+
+Mike Maceyka, stb-PhD
+Baltimore, MD
+That's "soon-to-be-doctor" to you, pal.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 11:18:36 -0500 (Central Daylight Time)
+From: "Charles T. Major" <ctmajor`at`samford.edu>
+Subject: Re: careful (email privacy)
+
+
+Alan McKay note in today's HBD:
+"Not only that, but I'm pretty sure it's very illegal in 
+the USA, as Email is considered to be part of a private 
+conversation, and you can only publicize a private 
+conversation with permission of all participants."
+
+
+<Disclaimer: I'm not an attorney, and this is not 
+legal advice.>
+
+
+Email is not generally considered a private conversation, 
+or even private for that matter.  The courts tend to look 
+to "reasonable expectations of privacy" and find that with 
+email, especially email through one's employer, that there 
+is no reasonable expectation of privacy.  Thus, the prudent 
+policy would be to not include in any email message 
+(private or to a listserv) anything you wouldn't write on a 
+postcard or post on a public bulletin board.  
+
+
+Thus, reposting a private email probably isn't illegal 
+(it's not illegal to post a letter, and mail privacy is 
+much greater than email privacy).  I agree with Alan, 
+though, that posting private email is poor manners.
+
+
+Tidmarsh Major
+Birmingham, Alabama
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 09:39:26 -0700 (PDT)
+From: Matthew Comstock <mccomstock`at`yahoo.com>
+Subject: Honey containing beers and bottle conditioning
+
+
+Greetings.
+
+
+I thought I'd pass along a recent observation about recent batches I've
+made using honey to make up a large portion of the fermentables. 
+Without posting actual recipes I used, I made a 'honey stout' and a
+'honey ginger ale' loosely following Papazian recipes.  I bottled after
+two week primaries (no secondary).  The honey stout was very good, but
+bottles opened several months after capping are gushing at warmer
+temperatures.  No off-flavors observed, just higher carbonation levels.
+ I suggest that the honey sugars were not fully fermented before I
+bottled.  Essentially the bottles were overprimed.  The honey ginger
+ale has been in bottles nearly a month now and is finally well
+carbonated.  For an all-malt extract batch it usually takes about two
+weeks to reach a steady level of carbonation.  Following the honey
+stout example, I fully expect gushing bottles of the honey ginger ale
+in the next month.  I will keep this in mind the next 'honey ale' batch
+I make and either reduce the added priming sugar, or transfer to a
+secondary for a longer period of time before bottling.
+
+
+Matt Comstock in Cincinnati
+_________________________________________________________
+Do You Yahoo!?
+Get your free `at`yahoo.com address at http://mail.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 12:47:49 -0400
+From: "Doug Moyer" <shyzaboy`at`yahoo.com>
+Subject: Eric Fouch for President?
+
+
+Phil (with limited support from Jill) Yates suggests: "Eric Fouch For
+President"
+
+
+Well, Phil, to steal from a post higher up in the same digest, just because
+Eric has such strong moral character "doesn't necessarily translate into a
+productive employee". We really need to learn more about the administrative
+capabilities of each of the candidates. Can we get some feedback from Fred?
+
+
+
+
+Brew on!
+Doug Moyer
+Star City Brewers Guild: http://hbd.org/starcity
+
+
+p.s. Despite an impassioned entreaty from Brian after many beers at the GABF
+"On the road" in Baltimore last year, I am still NOT a member of AHA.
+Somehow, I don't see it happening any time soon...
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 09:51:06 -0700 (PDT)
+From: Matthew Comstock <mccomstock`at`yahoo.com>
+Subject: Primary vs. Secondary revisited
+
+
+Greeting.
+
+
+I recently posted results of an 'experiment' I did where I made two
+batches of the same pale ale recipe.  They differed in that I used only
+a primary for one batch but included a secondary for the other.  From
+my results I decided I liked the primary-only batch better and shunned
+the use of a secondary.  
+
+
+I like reusing yeast cakes.  
+
+
+I don't like bottling and brewing in the same night.
+
+
+So I'm back thinking about transferring to a secondary in order to
+reuse the yeast cake.  And my experiment suggested that in my setup
+beer transferred to a secondary doesn't fare as well as primary-only. 
+Can I have some suggestions on improving my experience with secondary
+use.  I read about people transferring early so the evolving CO2
+flushes the headspeace of the secondary container.  But I've heard that
+can lead to higher final gravities - something about flocculation.... 
+I don't have a CO2 tank, but I suppose one could be used to flush a
+waiting secondary.  I have a 6 gallon carboy for 5 gallon batches - I
+guess I should get a smaller carboy to reduce headspace.  Any other
+ideas? 
+
+
+Matt Comstock in Cincinnati
+
+
+
+
+_________________________________________________________
+Do You Yahoo!?
+Get your free `at`yahoo.com address at http://mail.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 10:03:10 -0700 (PDT)
+From: Matthew Comstock <mccomstock`at`yahoo.com>
+Subject: Splitting-up the brew session revisited
+
+
+Greetings
+
+
+I started all-grain brewing.  It takes more time.  I've tried a few
+time-saving steps.  On Friday night, I set everything up, preboil the
+Cl2 out of my mash liquor (tap water), I mill the grains.  On Saturday
+I get up early, start heating the water and am mashing by 530A.  Done
+with everything - including clean-up - by 11A.  OK, fine.  I keep
+thinking about a discussion here a while back where folks would mash
+and sparge one night and brew the next morning.  I remember thinking,
+hey great idea. Time saver. Then I remembered that many authors tell us
+to cool quickly or we'll have DMS (dimethyl sulfide) problems (is that
+right?). So I blew it off.  Now I'm wondering if that's not a problem
+because after the 'irresponsible' slow-cool, we take the wort back to
+boiling for 90 minutes or so when brewing the next morning.  Could
+someone reaffirm this for me or point me in the right direction in the
+archives where this may have been resolved?  I remember some folks
+would take the wort and boil for a few minutes before going to bed.... 
+Thanks for any insight.
+
+
+Matt Comstock in Cincinnati.
+
+
+
+
+_________________________________________________________
+Do You Yahoo!?
+Get your free `at`yahoo.com address at http://mail.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 10:16:52 -0700 (PDT)
+From: Matthew Comstock <mccomstock`at`yahoo.com>
+Subject: Call for innovations
+
+
+Greetings
+
+
+These things cycle, but the past couple months of the hbd have been
+slow.  Arguments, etc.  I have learned a lot here.  WAIT WAIT don't
+page down yet.  I suggest we compile a list of the many innovations
+we've learned here or have made in our brewing set-ups.  Not only would
+this interest novice brewers like me, but I think it would stimulate
+some more positive discussions in this forum.  I offer for example,
+someone, probably Ken Schwartz, could write a paragraph about batch
+sparging, etc along with links to articles.  These topics are archived
+elsewhere of course, but a wake up call here would probably be a good
+thing.  
+
+
+Here's an 'innovation' of my own.  Nothing new, just my way of making
+do.  I didn't want to buy any new equipment (cooler, Easymasher, etc.)
+so I came up with a custom made mash/lauter tun.  I took my bottling
+bucket and attached a CPVC (for heat) adaptor to the threads on the
+inside of the spigot.  I then ran a question-mark series of CPVC elbows
+and tubes along the bottom of the bucket.  The last long pipe had many
+holes drilled in it.  I mashed in the bucket using a grain bag and held
+the T using towels and one of those highway emergency blankets wrapped
+around and attached with a few belts.  Worked good.
+
+
+Laters,
+Matt Comstock in Cincinnati
+
+
+
+
+
+
+
+
+
+
+_________________________________________________________
+Do You Yahoo!?
+Get your free `at`yahoo.com address at http://mail.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 14:11:37 -0400
+From: woodsj`at`us.ibm.com
+Subject: B. Rezac - Personal Interaction
+
+
+
+
+
+
+I'm a few days behind with reading HBD but I see the subject is still alive.
+I also posted this same note to AHA Tech Talk last Thursday (7/22) but
+somehow it hasn't shown up yet THERE, so I'll post it HERE......hmmmm !
+
+
+I can't speak to Brian's organization and administrative skills but I found it
+totally tasteless to publicly appraise him.......imagine working for that type
+of
+employer.
+
+
+My only interaction with Brian was in late Jan. 99.  I was visiting Boulder on
+business (which I do frequently) and went to the AHA to pay my dues in
+person.  The receptionist called Brian down and he invited me upstairs to
+the office area.  Brian and I visited for an hour discussing homebrewing
+experiences, beer styles, competitions, events, and other subjects.  He
+even gave me a few bottles of barleywine laying around.  I was very
+impressed that he would spend the time with an average schmoe brewer
+that he didn't know from Adam.  I felt very welcomed into the AHA den thanks
+to Brian and I was very surprised.  It was an impression that will stay with me
+for a while.  I also got a parking ticket from the Boulder police because I
+stayed longer than anticipated.....not a problem because I thought it was
+time well spent, but made it an expensive few bottles of barleywine.
+
+
+Perhaps he should have been doing other AHA work, but I'll submit
+that maybe that's what the AHA should be doing and should be all about.
+He introduced me to many people, including Mr. Gatza, but I doubt he would
+remember.
+
+
+Everybody seems to be bashing the AHA in this forum.  I haven't been a member
+for that long so I don't know all the history.  I only know that my most
+memorable
+experience with the AHA came from Brian and I thank him for that.
+
+
+
+
+Jeff Woods
+Camp Hill, PA
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 14:24:23 -0400
+From: "Swintosky, Michael D." <Swintosk`at`timken.com>
+Subject: Honey
+
+
+Joy wrote in HBD #3093:
+
+
+" ..., honey contains bot and spores!"
+
+
+No references were cited for this statement, so I'll not bother doing
+research for mine.   : )
+
+
+The story, as I heard it, was that there was a case of botulism poisoning
+way back when.  As you might expect, honey was in the diet of unfortunate
+infant.  However, it was never proven that the honey was the source of the
+poisoning OR that an infant was any more likely to get botulism poisoning
+from honey as compared to other foods not specifically prepared to destroy
+the spores.  It is my understanding that the industry, wishing to preserve
+its pure and wholesome image, agreed to the position of warning against
+feeding honey to infants less than about a year old out of concern for the
+unknown alternative that a court might impose should a fight be
+unsuccessful.  Being an emotional issue, I think this was a wise course of
+action (if the story is true).  At any rate, I just wanted to pipe in that
+this issue is not as clear-cut as many people may well believe.  Botulism
+spores are found everywhere, including in honey.  
+
+
+Mike Swintosky, Beekeeper  (no PhD!)
+Dellroy Ohio
+4 hives
+One 1st and two 2nd place ribbons for extracted honey
+1999 Carroll County Fair,  July 19-25
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 12:02:52 -0500
+From: "Jack Schmidling" <arf`at`mc.net>
+Subject: pH Tester
+
+
+I am having trouble with my pHtestr2 and was told to revive the electrode in
+a .1 molar hcl solution for about an hour.
+
+
+I plead ignorance about big teeth.  Can someone translate that into a 
+solution/dilution I can comprehend?
+
+
+js
+
+
+PHOTO OF THE WEEK  http://user.mc.net/arf/weekly.htm
+HOME  http://user.mc.net/arf
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 14:21:26 -0500
+From: "Christopher Farley" <chris`at`northernbrewer.com>
+Subject: Resistance Per Foot
+
+
+Dave Burley writes:
+> He and I basically agree, I think. I just disagree
+> on the  bad information ( he attributes to Miller -
+> I don't know) perpetuating ( or originating)
+> the hard-to-kill idea that a certain length of hose
+> has a certain pressure drop per foot as some sort
+> of basic physical parameter is not a new idea,
+> but I see it keeps cropping up in discussions
+> here as though it were true.  Balderdash!!
+
+
+
+
+It's not just Dave Miller perpetuating this "bad" information. Here is a table
+I culled from a catalog; it is information intended for draft service
+technicians.
+
+
+
+
+      TABLE OF LINE RESISTANCE AND CAPACITIES
+- ------------------------------------------------------------------------------
+- ---------
+                Resistance per foot
+
+
+Line Sizes     Vinyl      Polyethlene    Capacity
+
+
+3/16"         2.2 lbs.      ---------      1/6 oz.
+1/4"         0.65 lbs.      0.50 lbs.      1/3 oz.
+5/16"        0.40 lbs.      ---------      1/2 oz.
+3/8"         0.20 lbs.      0.07 lbs.      3/4 oz.
+1/2"        0.025 lbs.      ---------    1-1/3 oz.
+
+
+
+
+All figures [sic].
+
+
+So there you have it. I'm going to run out and replace my 6 foot run of 3/16"
+tubing with 528 feet of 1/2 inch vinyl hose. That way I can store *all* my
+beer in the tubing, rather than the corny keg!
+
+
+Christopher Farley
+Northern Brewer, Ltd.
+Saint Paul, Minnesota
+www.northernbrewer.com
+(800) 681-2739
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 12:50:00 -0700
+From: "Bayer, Mark A" <Mark.Bayer`at`JSF.Boeing.com>
+Subject: re: how long the hoses are
+
+
+collective homebrew conscience_
+
+
+alan mckay wrote:
+
+
+>In 3091 Dave Burley ponders about hose length.
+<snip> 
+>this is an extremely well-documented area (Miller is the first 
+>place I'd encountered it).<snip> 
+
+
+>It seems fairly obvious that the inside of the hose is going to 
+>cause friction with the beer, and thus resistance.  More resistance, 
+>more energy is lost (in the form of carbonation).  Longer hose means 
+>more resistance, so less foam.  Not only does length matter, but so
+>does hose composition.  Obviously different materials will cause
+>different levels of friction, exactly like how rubbing silk on
+>your hand feels different than rubbing wool on it.  
+
+
+the energy that is lost is realized as lower momentum of the fluid.
+
+
+the importance of hose composition comes into play whenever you have vastly
+different surface irregularities between hose types.  for the flow rates we
+are likely to be experiencing, transition to turbulence is a given, no
+matter how smooth the inside of the hose is. only gross imperfections on the
+inside of the hose would cause you to see significantly different
+resistances as compared with a smooth inner surface.  i don't think we
+normally have that much variation in our choices for delivery hoses.
+
+
+>The only thing I'm not clear on here is what counter-effect on foam is 
+>experienced because the narrower diameter will mean the beer
+>should travel faster through the hose, at a higher pressure.At least
+>according to my recollection of the grade 11 physics I took some
+>15 years ago.  (I'm recalling the picture of the pipe of diameter X,
+>which then goes down to diameter X/2, then back up to X.  The
+>liquid in X/2 would - according to the authors of the textbook -
+>move faster and be under higher pressure, then it would go back
+>down again when the diameter went back up to X).<snip>  I'd be 
+>interested to hear from a REAL physicist or better yet fluid-dynamicists 
+>(much unlike myself) as to whether or not this 
+>would apply to our hoses.
+
+
+science alert:  pgdwn right now if you're not as interested as alan.
+
+
+i posted an equation yesterday that is applicable for laminar flow in a
+pipe.  while this is not what we normally have in our situation (it is
+practically always turbulent flow), i believe looking at the laminar case
+gives a good illustration of how the variables relate to each other.  they
+relate to each other in generally the same fashion in turbulent flow, it's
+just that the presence of turbulence eradicates the ability to represent the
+flow accurately using a closed form solution, which is what the laminar
+equation is.  but, we can definitely address the generality that is drawn
+from alan's example.  the generality is that a smaller diameter hose will
+produce a higher flow rate for a given pressure differential.
+
+
+here's the laminar equation again:
+
+
+vm = (R^^2/8u)(-dp/dx)
+
+
+vm = mean velocity
+R = radius of pipe
+u = absolute viscosity of fluid
+dp/dx = typically given, the pressure differential divided by the length of
+pipe
+
+
+increasing the radius increases the mean velocity.  so a larger delivery
+hose will give a faster flow, for the same keg pressure and hose length.
+
+
+alan's example from high school is fundamentally a different situation.  you
+cannot take a flow in which you have a changing diameter, look at the flow
+characteristics in each regime, and then apply those results to pipe flow.
+they're fundamentally different flows which are derived from different
+assumptions and simplifications.
+
+
+the pipe flow equation given above is a result of simplifying the
+incompressible navier-stokes equations, which take into account viscosity.
+
+
+alan's example is a demonstration of the continuity equation for inviscid,
+incompressible flows.  however, one statement is incorrect:  the flow in the
+narrower part of the channel will be at a lower pressure than in the larger
+part of the channel.  this comes from bernoulli's equation, which is a
+consequence of the momentum equation for inviscid, incompressible flow.  the
+"venturi effect" is an example of bernoulli's equation put to practical use.
+
+
+brew hard,
+
+
+mark bayer
+stl mo
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 16:21:05 -0400
+From: Marc Sedam <marc_sedam`at`unc.edu>
+Subject: a question for the Portlanders (Oregon version)
+
+
+Hi all:
+
+
+I'm making another pilgrimage to Oregon next week and have a
+grand total of one, yes one, evening to spend in Portland.  I'd
+like opinions on the *best* place in Portland where you can spend
+an evening eating a well-prepared dinner and drinking quality
+beer.  It can be a brewpub, taphouse, or restaurant with a good
+selection.  Your thoughts?  I was considering the Horse Brass
+Pub.
+
+
+Marc Sedam
+"Huisbrouwerij Zuytdam"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 14:41:34 -0700 (PDT)
+From: Alan Edwards <ale`at`cisco.com>
+Subject: CO2 chart origin / HBD vs AHA / searchable archives
+
+
+This just goes to show ya', that most of the great ideas start here,
+at the grass roots!
+
+
+Peter Santerre wondered where the CO2 formula came from.  Demonick Venezia
+first noticed it in the Summer 1994 issue of Zymurgy in an article by
+Cliff Tanner.  Actually, it originated in an HBD article (HBD #1179) and
+was created by an HBD subscriber!
+
+
+Which brings me to another point.  I found out exactly which HBD it first
+appeared in by SEARCHING the archives.  Some very nice people put up many
+many years worth of HBDs in a searchable, hypertext format!
+
+
+I don't want to discourage "newbies" from asking questions, because we
+need that in the mix.  But, if you have a question, any question, chances
+are that it has been discussed already (several times ;-).
+
+
+The knowledge base is now larger, and we've pushed the envelope of
+homebrewing information quite a bit in the last decade, so some things
+can stand to be discussed again; but people should always research their
+question first in the HBD archives and go from there.  That way we'd be
+*adding* to the knowledge base, not just rehashing.
+
+
+Start here:
+    http://hbd.org/hbd/
+and click on "Search Homebrew Digests".
+
+
+And if you feel the urge to donate your Zymurgy subscription costs
+(er, I mean your non-profit AHA donation) to the HBD fund instead, follow
+the link back to the main page and check out the Donors and Accountability
+links.
+
+
+Later,
+ -Alan in Fremont
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 19:04:39 -0400 (EDT)
+From: Pat Babcock <pbabcock`at`mail.oeonline.com>
+Subject: Resitance to fluid flow in a tube
+
+
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Chris slaps Dave with...
+
+
+> 
+> Dave Burley writes:
+> > He and I basically agree, I think. I just disagree
+> > on the  bad information ( he attributes to Miller -
+> > I don't know) perpetuating ( or originating)
+> > the hard-to-kill idea that a certain length of hose
+> > has a certain pressure drop per foot as some sort
+> > of basic physical parameter is not a new idea,
+> > but I see it keeps cropping up in discussions
+> > here as though it were true.  Balderdash!!
+> 
+> 
+> It's not just Dave Miller perpetuating this "bad" information. Here is a table
+> I culled from a catalog; it is information intended for draft service
+> technicians.
+> 
+
+
+Whap! Oooo, I bet that stings! Have another: I've seen the same in so many
+tubing specifications NOT specific to beverage delivery, it'd make your
+head spin! Dave, the concept is hard to kill because it is, well, a fact. 
+
+
+Doh! Another upside the head! 
+
+
+ -
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`oeonline.com
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org   
+The Home Brew Page                 http://oeonline.com/~pbabcock/brew.html
+   "Just a cyber-shadow of his former brewing self..."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 11:11:59 -0700 (PDT)
+From: Matthew Comstock <mccomstock`at`yahoo.com>
+Subject: Re:Call for Innovations
+
+
+I have been away from the computer several weeks and haven't read the
+hbd for awhile.  Upon perusing a few of the latest editions, things
+seem to have turned attitude-wise around since I stopped reading.  I
+was going to retract my previous post, but I still like the idea of
+compiling a list of innovative ideas.  Sorry to all that have posted
+cool stuff since I stopped reading.  No slight intended.
+
+
+Matt Comstock in Cincinnati.
+
+
+_________________________________________________________
+Do You Yahoo!?
+Get your free `at`yahoo.com address at http://mail.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 21:47:03 +0000
+From: joseph_labeck_jr`at`email.com
+Subject: IHA?, IHBA?, WHA?, HSA? (& other stuff)
+
+
+Hi, folks;
+        If we are if fact going to do something new, we should start 
+doing a bit of research. I know we have a great deal of scientific 
+knowledge, how about legal?
+        It does seem to me that it would not be that difficult to set up a 
+volunteer-based organization. It also seems to me that there would 
+have to be some sort of paid help to like answer the phones, lick 
+stamps, drink the beer sent by homebrewers in lieu of dues.
+        A group of people should get together after the research is 
+done to start planning the steps to be taken. One of those steps 
+should be finding startup money. Some of it could come from 
+donations by interested parties. Perhaps the HBD Steering 
+Committee, with some other folk added, would be a good start 
+toward such a group.
+        This would be best done in person, although some of it *could* 
+be done in a chat room.
+        I'll do some digging on my own, and see what I can find.
+
+
+============================================
+
+
+        I did a search the other day on "distance calculator" and found 
+several websites that will figure out from/to anywhere. So please 
+look at my signature and marvel at the results.
+
+
+============================================
+
+
+        I've seen a few posts lately about what horrid people we are; 
+how insular and intolerant. There have been some tongue-in-cheek 
+posts (which I enjoyed), but I don't know if anyone actually 
+answered the charge.
+        I have been reading the HBD, and occasionally posting, for 
+about 4 or 5 years now, maybe more (maybe I'll try a search for my 
+name in the archive). This is like a family. We all care about the 
+group, we help each other when needed, and we don't always get 
+along as well as we'd like.
+        There is NO BETTER place to get homebrewing information. 
+period. Even the evil NOKOMAREE had a valid point, put very 
+badly. There is great humor here. My favorite has always been the 
+last time the "pressure drop in the beer line" came up, and some 
+one figured out that a long enough line would cause negative 
+pressure at the end, sucking up the entire town.
+        There is room for all of us. The kit brewer, looking for an easy 
+way to make decent beer; the extract brewer, interested in recipe 
+formulation and the endless variety of styles, but without the 
+means to do all-grain; The all-grain folk, looking for the ability to 
+control all aspects of the process, or just looking to gaze in 
+wonderment at the way such simple things can produce such a 
+wondrous beverage.
+        I have never failed to get good information, and I have always 
+given my own help when I felt it was warranted.
+        Sorry this got so long, but I felt this needed to be said, or at 
+least, I needed to say it.
+
+
+
+
+Joe Labeck - die-hard extract brewer
+Watertown, CT
+548 mi. 91.3 deg. Rennerian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 27 Jul 1999 22:28:14 -0700
+From: "Greg Lorton" <glorton`at`cts.com>
+Subject: San Diego Strong Ale Homebrew Competition
+
+
+QUAFF and the San Diego Brew Techs are co-hosting the 1st Annual Strong Ale
+Homebrew Competition (SAHC) in San Diego, CA, this fall.  The contest will
+be held in conjunction with the 3rd Annual Strong Ale Festival which brings
+together some of the best strong beers from microbreweries and brewpubs in
+the western U.S.  The competition will take place Saturday, November 27th at
+Del Mar Stuft Pizza with the awards ceremony being held Saturday, December
+4th at the Strong Ale Festival at Pizza Port Carlsbad.  The entries are due
+between November 4 - November 19, so now is the time to brew if you don't
+have any strong ales already.  There will be a website for this competition
+which will be announced in the near future. There is a $5 fee per entry and
+only two (2) bottles are required.  Email Tyce Heldenbrand, organizer, if
+you have any questions.  Here are the categories:
+
+
+Category 1 - American Strong Ales
+1a.  American-Style Barley Wine
+1b.  American Wheat Wine
+1c.  American Strong Ales (double brown, double IPA etc..)
+Category 2 - Belgian Strong Ales
+2a.  Belgian Tripel
+2b.  Belgian Pale Strong Ale
+2c.  Belgian Dark Strong Ale
+2d.  Strong Belgian Specialties (Grand Cru, Strong Wit, Strong Saison
+etc...)
+Category 3 - English Strong Ales
+3a.  English-Style Barley Wine
+3b.  English Old/Strong Ale
+3c.  Strong Scotch Ale
+Category 4 - Strong Stouts
+4a.  Imperial Stout
+4b.  Strong Coffee Stout
+Category 5 - Bocks & Lagers
+5a.  Doppelbock
+5b.  Eisbock
+5c.  Weizenbock
+5d.  Other Strong Lagers (Strong Oktoberfest etc...)
+Category 6 - Strong Experimentals
+6a.  Holiday/Christmas Beers
+6b.  Strong Fruit Beers
+6c.  Strong Herb & Spice Beers
+6d.  Strong Experimentals
+Category 7 - Strong Meads & Ciders
+7a.  Strong Traditional Meads
+7b.  Strong Fruit & Spice Meads
+7c.  Strong Ciders
+
+
+Tyce Heldenbrand, Organizer
+Oceanside, CA
+tyce.heldenbrand`at`wfinet.com
+
+
+Greg Lorton, Assistant Organizer
+Carlsbad, CA
+glorton`at`cts.com
+
+
+Peter Zien, Assistant Organizer/Judge Coordinator
+San Diego, CA
+pz.jdzinc`at`worldnet.att.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jul 1999 09:07:54 -0400
+From: "Philip J Wilcox" <pjwilcox`at`cmsenergy.com>
+Subject: Stuck bottlewasher
+
+
+Dear HBD,
+
+
+Has anyone had their bottle washer get stuck before? I dont remember the brand
+on mine but it was manufactured in Traverse City, Michigan. I had it attached to
+the hose outside for while and then it sat on the porch (outdoors). I figured
+its all brass, its not going to rust, why take it inside. I went to use it again
+last night and attached it to the hose and nothing was getting through the
+thing. The L that relases the water still moves freely, but no water was comming
+through. Any ideas on how to "Unclog" one of these things????
+
+
+Phil Wilcox
+Poison Frog Home Brewer
+Warden-Prison City Brewers
+In Jackson, MI 32 Mi. West of Jeff Renner
+AABG, AHA, BJCP, HBD, MCAB, ETC., ad nausium...
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: 28 Jul 1999 08:13:02 -0400
+From: RCAYOT`at`solutia.com
+Subject: Denaturing-- Temp vs. Thermal Mass
+
+
+     Eric says:
+     "Temperature is a measure of energy.  In this case the energy is 
+     kinetic on a molecular level-- as particles swirl through space and 
+     collide with your thermometer, they impart a modicum of energy to the 
+     thermometer which in turn reacts to show the energy it is 
+     accumulating-- it turns the temperature dial.  The same amount of 
+     collisions will happen whenever your thermometer reads 150 F.  That 
+     energy is the only useable energy available at the time."
+     
+     A Simpler explaination is the first law of thermodynamics: Energy 
+     flows from high temperature to low temperature (regardless of thermal 
+     mass)  Since the enzymes are in intimate contact with the solution, 
+     and at the same temperature, no energy is "flowing" into or out of the 
+     enzymes at a greater or lesser extent regardless of mash thickness.  
+     
+     I think the thermal lability of enzymes can and do depend on mash 
+     thickness, but it is more to do with chemistry, chemical equilibrium 
+     etc.  Others have spoken to that!
+     
+     Roger
+     
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jul 1999 08:43:32 -0500
+From: "Kelly" <kgrigg`at`diamonddata.com>
+Subject: Re:  Ring Burners Needed - not complete brewstands
+
+
+Hey, we use them all the time down here in New Orleans for boiling shrimp
+and crawfish.  Take a look at: http://www.cajuncooker.com/  We heard this
+and possibly another place here that sells them, have 'rejects'...basically
+the burners without the stands for sale CHEAP.  We're looking into this to
+try to get the burners for our all grain set up we're going to build.
+
+
+There are some other places down here making and selling this stuff....I'll
+keep looking to see what I find....
+
+
+HTH,
+
+
+Kelly
+
+
+
+
+
+
+Date: Mon, 26 Jul 1999 20:35:09 GMT
+From: stencil`at`bcn.net (stencil)
+Subject: Re:  Ring Burners Needed - not complete brewstands
+
+
+>------------------------------
+>
+>Date: Wed, 21 Jul 1999 08:21:31 -0500
+>From: "SCHNEIDER,BRETT" <SCHNEIDERB`at`morganco.com>
+>
+>I have been searching the internet and emailing suppliers and hb shops
+>looking to buy only the cast ring burners and hoses w/regulators for adding
+>to my new brewstand. But so far no luck finding them as loose parts. Any
+>recommendations or sources people know of for these things?
+>
+> - brett
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jul 1999 09:50:50 -0400
+From: "Bill Giffin" <bgiffin`at`mint.net>
+Subject: AHA 
+
+
+Good morning all,
+
+
+With all the talk about the AHA the past few day you would think 
+that the organization is totally evil; firing what appears to be a 
+popular member of the AHA. I don't think that they are evil just 
+trying to survive.
+
+
+Should there be a new homebrew organization?  Should we boycott 
+the AHA? 
+
+
+With the way interest is dropping in the hobby I don't think that 
+enough interest could be generated to form a successful 
+organization to replace the AHA, nor would I want to.
+
+
+Boycott the AHA, why?  The AHA has been doing quite a good job 
+of destroying itself.  Over the past couple of years the AHA has 
+managed to lose about 30% of its membership.  Just wait a couple 
+more years and the organization will not be viable.  
+
+
+The problem is unless you are involved in homebrewing, which is a 
+small percentage of the population of this country then you don't 
+even know that you can brew your own beer let along know that the 
+AHA even exists.
+
+
+For the AHA to survive they are going to have to do a far better job 
+of marketing homebrewing in general and the AHA particular.  I 
+don't think that they have done these two things well for at least the 
+past three or four years.  The time has come to market the hobby 
+and get more folks interested in brewing.
+
+
+Bill
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jul 1999 10:47:39 -0400
+From: Dan Listermann <72723.1707`at`compuserve.com>
+Subject: Mills and More Mills
+
+
+One of my favorite topics!
+
+
+Mark Youngquist (memerson`at`fone.net) of Rock Bottom and will Kolb (
+wkolb`at`home.com) of  Happy Dog Brewing Supplies ask about small adjustable
+
+
+mills.  We produce the Philmill and shortly we will be introducing the
+Philmill II at the end of August.  Both of these mills are finely
+adjustable across the full face of the rolls with the simple twist of a
+single knob without any set screws or detents.  The mills can be adjusted
+
+
+loaded or unloaded, running or not running.  A sample of the grist can be
+
+
+measured by as little as a fraction of an ounce.  They can both be
+motorized with a 1/2" electric mill or other methods.  The Philmill II 
+has
+a preloaded spring to allow the passage of roll damaging objects.
+
+
+I prefer the grist of the single roll Philmill because the long slow
+crushing the design affords and the grist is only exposed on one side to
+sharp knurling.  This makes for superior hush integrity.  The two roll
+mills such as the Philmill II, however, have much better throughput. 
+
+
+Motorizing negates much of the two roll mill adventages except for 
+milling
+large quantites or where speed is important such as in a homebrew shop.
+
+
+Both of these mills are easily modified for different hopper
+configurations.  We can supply a 20 lb hopper made from a 5 gal plastic
+water bottle.
+
+
+Dan Listermann   dan`at`listermann.com   72723.1707`at`compuserve .com
+
+
+------------------------------
+
+
+Date: Wed, 28 Jul 1999 10:52:20 -0400
+From: Dave Burley <Dave_Burley`at`compuserve.com>
+Subject: Sodapop bottling,
+
+
+Brewsters:
+
+
+Braam Greyling asks for a friend why his soda pop
+(cold drink) bottled beers have an offtaste and it is
+variable from bottle to bottle.
+
+
+It is posssible that the former contents are
+contaminating the beer.  I know that when I first
+started to keg beer ( long before CP printed his
+book and these kegs and supplies were readily
+available), I was utterly shocked to find my first
+kegged lager tasted like root beer ( a peculiar
+American softdrink concoction not too popular
+outside the US)  or some disgusting combination.
+After much cleaning, I finally realized it must be the
+rubber o-rings into which this powerful flavor had
+been adsorbed. I replaced these and it worked
+great thereafter.
+
+
+I do believe he will get a better product by allowing
+the beer to run down a tube to the bottom of the bottle
+to exclude as much air as possible.  He should
+allow the bottle to "fob", i.e. foam to flow out the top
+a little and then cap it. Doing so reduces the air in
+the bottle and will reduce staling. Better yet, I 
+
+
+use a counterpressure bottle filler and it works
+great. I can sweep some of the air out with CO2
+before I bottle and then the majority of the rest of
+the air by fobbing.
+
+
+Quite possibly his problem(s) are due to light and
+he should keep his beer in the dark. I use heavy
+paper bags which we still get at the supermarket to
+"package" the bottles. Cardboard boxes and the
+like will also work fine, The fact that he found that
+his beer in a dark brown bottle to be OK adds to
+this suspicion.
+
+
+Keep on Brewin'
+
+
+
+
+Dave Burley
+
+
+------------------------------
+
+
+Date: Wed, 28 Jul 1999 16:55:05 +0200
+From: CALAMIDA Alessandro <alessandro.calamida`at`fiat.com>
+Subject: New yeast propagation methods?
+
+
+Surfing the Net, I found this site:
+ 
+http://www.yeastlink.com <http://www.yeastlink.com/> 
+ 
+There is a very interesting discussion on yeast propagation. They advocate
+incremental feed and continuous aeration of the starter. According to what's
+written there, if you manage to keep the yeast in the logarithmic growth
+phase (not allowing it to switch to alcohol production) you can collect a
+much bigger amount of yeast than traditional step-up methods. Unfortunately
+there are not many details on the exact procedure. There are many references
+to scientific literature, but I have no way to check them.
+ 
+So, in homebrewing terms, the question could be :
+Given a fixed amount of wort ( say 2 litres) , which propagation procedure
+maximize final yeast cells count?
+ 
+(Of course yeast quality and suitability should be preserved...)
+
+
+- -------------------------------------------
+Alessandro Calamida
+Torino (Italy)
+
+
+email alessandro.calamida`at`fiat.com 
+
+
+ 
+ 
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Jul 1999 08:13:47 -0700
+From: "Don Van Valkenburg" <ferment`at`flash.net>
+Subject: Ask not what the AHA can do for you
+
+
+Or to quote another philosopher
+"Can't we all just get along"
+
+
+The real problem with the AHA as well as most other homebrewing related
+businesses is a dwindling customer base.   They are just doing the
+reorganizing shuffle and trying to adjust to the changing market.
+
+
+What we all can do to help the whole industry is teach a buddy to brew.
+
+
+Give a man a beer and he will drink today
+Teach him to brew and he will always have beer
+
+
+Don Van Valkenburg
+Brew`at`steinfillers.com
+www.steinfillers.com
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3096, 07/30/99
+*************************************
+-------

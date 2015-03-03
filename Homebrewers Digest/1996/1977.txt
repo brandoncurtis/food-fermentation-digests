@@ -1,0 +1,1611 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA23703 for <spencer`at`srvr5.engin.umich.edu>; Wed, 6 Mar 1996 03:05:21 -0500 (EST)
+Received: from totalrecall.rs.itd.umich.edu (totalrecall.rs.itd.umich.edu [141.211.144.16]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA26790 for <spencer`at`engin.umich.edu>; Wed, 6 Mar 1996 03:04:52 -0500 (EST)
+Received: by totalrecall.rs.itd.umich.edu (8.7.4/2.3)
+        with X.500 id DAA11620; Wed, 6 Mar 1996 03:04:52 -0500 (EST)
+Received: from hplb.hpl.hp.com by totalrecall.rs.itd.umich.edu (8.7.4/2.3)
+        with ESMTP id DAA11595; Wed, 6 Mar 1996 03:04:41 -0500 (EST)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Wed, 6 Mar 1996 08:03:34 GMT
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA00154; Wed, 6 Mar 1996 01:00:08 -0700
+Date: Wed, 6 Mar 1996 01:00:08 -0700
+Message-Id: <9603060800.AA00154`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #1977 (March 06, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #1977                             Wed 06 March 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Advice on thick & maybe stuck darkie? (James M. Glenn)
+  Cats Meow Sources (Derek Lyons)
+  chili, copyright (Carl Howes)
+  Boston Beer Bottles (GSHUTELOCK)
+  I'm Back in the E-Mail Loop -- and SUDS for Mac Redux! (TAyres)
+  changing channelling (Rob Lauriston)
+  unsuscribe (Michael Orlyk)
+  Yes, you can re-use primary trub (Tam Thompson)
+  It's Alive (Goofy Gravities Cont.) (CASteveB)
+  Mac Programs Part II ("Kieran O'Connor")
+  Infrared Beer? (Tjpenn)
+  Sign root`at`valhalla.org off (Mike Hatz)
+  Channelling. (Jim Cave)
+  mill speed (John Regier)
+  AFCHBC Competition Results (hollen)
+  cmsg cancel <4hbg7r$amu`at`atheria.europa.com> (JJ)
+  pumps (Terence Tegner)
+  first hopping? (Rolland Everitt)
+  Homebrew in Japan (igelman)
+  wooden paddles ("mike spinelli")
+  Posting Recipes ("Dave Ebert")
+  Dry hopping (Matt_K)
+  Sierra Nevada PA clone (charlesd)
+  Phosphoic & Lactic Acids (Jay Reeves)
+  re: Better Extract Brewing Techniques (Eric W. Miller)
+  Diacetyl and Clorox (Pierre Jelenc)
+  re: categories (Eric W. Miller)
+  How to fix Diacetyl (Mark Thompson)
+  Re: Channelling (Jeff Frane)
+  Cassia/Quassia (Eric W. Miller)
+  MacTarnahan's Ale Info (Glenn Raudins)
+  Gott infusion mashing ("Dave Hinkle")
+  N2 cooling (David Raitt)
+  Re: changing channelling (Algis R Korzonas)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date-Warning: Date header was inserted by grove.iup.edu
+From: jmglenn`at`grove.iup.edu (James M. Glenn)
+Subject: Advice on thick & maybe stuck darkie?
+
+
+On a modified Porter recipe I got from who knows where, the fermentation
+activity quit after about a day and a half. My OG was around 1.072. I
+pulled a sample to see what might be going on - SG of 1.032, and a taste
+reminiscent of molasses.
+
+
+The recipe I used called for 2 lbs Crystal, 1/2 lb of both chocolate and
+black patent, plus 1 lb dry light extract and 6.6 lbs liquid light. The
+only thing I did different this time was I rinsed (150 deg) and
+squeeeeeeezed (again and again) the 6 boilbags of grains until they were
+absolutely clear.
+
+
+Thinking maybe the wort hadn't gotten enough oxygen, I pulled another
+sample and boiled it, added cold and vigorously aerated it, and added yeast
+in a 2-qt jar with lid and airlock to get myself a yeast culture that could
+get it going again. The yeast sank to the bottom of the jar and went right
+to sleep, nary a bubble.
+
+
+Now I'm thinking that maybe it really IS all done, and the high SG is due
+not to stuck fermentation but to a high percentage of unfermentables due to
+all my squeezins. Any suggestions? And would you think it's worth
+bottling/conditioning if my latest assumptions are likely?
+
+
+
+
+James Glenn
+jmglenn`at`grove.iup.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 2 Mar 1996 20:10:46 -0800
+From: Derek Lyons <elde`at`hurricane.net>
+Subject: Cats Meow Sources
+
+
+From: ac051`at`osfn.rhilinet.gov (Eric W. Miller)
+>>raudins`at`lightscape.com (Glenn Raudins) writes:
+>>
+>>I think we are missing
+>>the middle ground.   Recipes are becoming rarer, and as most of us know
+>>this is how many have improved their beers by looking at others recipes.
+>
+>Personally, I'd prefer to see *no* recipes posted to the digest.  There are
+>plenty of recipe books out there, there's the Cat's Meow, and other online
+>recipes.  But that won't happen, so I'll contine to scroll past them.
+>
+
+
+Where do you think the recipes for the Cat's Meow *came* from?  Here on the HBD.
+
+
+This is not a static hobby.  Denying recipes to people will only serve to
+stifle development of homebrewers.
+
+
+<Kudo's for simply scrolling past them, too many people simply complain.>
+
+
+
+
+------------------------------
+
+
+Date: Sat, 2 Mar 1996 23:17:05 -0500 (EST)
+From: Carl Howes <carlndeb`at`mv.mv.com>
+Subject: chili, copyright
+
+
+In #1972 Scott Rudolph asked about microwaving chili peppers (I'm not
+reproducing the post here because I find that seriously annoying).  My
+experience with spicy foods is that microwave heating intensifies the
+spiciness, sometimes a LOT.  Not necessarily a bad thing, but definitely
+one to be aware of.  I'll let a biochemist take a shot at why this
+happens.
+
+
+After almost two years away, I've noticed a couple of seemingly derisive
+references to copyright.  I also recall a fleeting reference to this
+issue a few Brewing Techniques back.  Could someone supply references
+to when this was a thread?
+
+
+Carl
+carlndeb`at`mv.mv.com
+
+
+
+
+------------------------------
+
+
+Date: Sat, 2 Mar 1996 23:26:39 -0500
+From: GSHUTELOCK`at`aol.com
+Subject: Boston Beer Bottles
+
+
+I know were not supposed to use "non-returnable" bottles for our homebrews
+but I have a question about reusing Boston Beer/Sam Adams bottles.  I used to
+buy my 12 oz bottles from my local brew store (about $ 9.95 and tax for a
+case of new empties).  Then I discovered Yuengling Porter in returnables at
+my local beer distributer (about $ 16.50 a case filled with a wonderful
+commercial brew) so I'd drink the porter and keep the bottles for my
+homebrew.  Well, the other day I purchased a couple six packs of "Sam Adams"
+Scotch Ale and Double Bock beer.  I was looking at the empty bottle and
+didn't find the usual "NO RETURN/REFILL" statement.  Also the bottles looked
+suspiciously like my new 12 oz bottles.  I weighed the brand new bottles
+(about 8 oz of glass) and then my Yuengling porter empties (about 10 oz of
+glass), and finally the "Sam Adams" bottles - 8 oz of glass!
+
+
+My question is does anyone know any reason I couldn't or shouldn't reuse
+these "Sam Adams" bottles.  Granted they are not the extra tough reusable
+bottles the commercial breweries use, but they've got as much glass (and I
+figure strength) as the empty bottles I'd been paying good money for.
+ Stacked up with the new bottles I can't even tell the two apart (shape or
+weight).  By the way, good old inexpensive "Arm & Hammer" washing soda (aka
+extremely overpriced "B-Brite") even soaked off the resistent "Sam Adams"
+ foil labels in under 30 minutes.
+
+
+George Shutelock
+Mechanicsburg, Pa
+email: gshutelock`at`aol.com
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 02:06:50 -0500
+From: TAyres`at`aol.com
+Subject: I'm Back in the E-Mail Loop -- and SUDS for Mac Redux!
+
+
+Hello, All!
+
+
+The bad news is that anyone who has tried to reach me by E-Mail since
+February 24 has gotten mail kicked back to them because of, shall we say, a
+"dispute" over billing with America On Line.  The good news is that I'm now
+back "in the loop" at TAyres`at`aol.com.  So fear not, you have not lost contact
+with me!!!  I'm now back on line.  Please resend anything you may have tried
+to send me since 2/24.
+
+
+The second bad news is that this loss of AOL for more than a week posed a
+particular problem with regard to two questions I had raised on homebrew
+group mail and newsgroup lists such as WortNet, Homebrew Digest, and Lambic
+Digest.  Pardon my resubmitting these queries, but I never got answers the
+first time because of the AOL snafu, so I'd like to try again.  Here are the
+two queries, one to all parties with knowledge and the second to "lambic
+geeks" like me:
+
+
+1)  Does anyone know of any SUDS 4.0-like shareware for the MAC platform?  If
+so, what is it like and where can I find it.  I'm very intrigued by SUDS,
+which I can use on a 486 at work, but I run MAC most of the time at the
+homebrew shop I coown and at home -- would love to find something as good as
+SUDS for Mac.  Suggestions?  And where do I find it?
+
+
+2)  Second questions is regarding my a framboise lambic I currently have in
+production.  Sour-mashed, pitched Wyeast (pseudo) Brett and Boon/Cantillon
+slurries, plus Wyeast 1056.  Lacks pedio character.  What is the feasibility
+of pitching pedio at BOTTLING time.  I'm considering doing this with pedio
+from GW Kent.  Any thought, lambic freaks?  Please post to Lambic Digest or
+respond via private E-Mail -- now working again!!! -- at TAyres`at`aol.com
+
+
+Sorry for all the waste bandwith repeating this silliness -- AOL f**cked me
+over, what can I say?
+
+
+Cheers,
+
+
+Tom Ayres
+TAyres`at`aol.com
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 96 00:28 PST
+From: robtrish`at`mindlink.bc.ca (Rob Lauriston)
+Subject: changing channelling
+
+
+
+
+Al K. quotes me on stirring the grain bed during lautering, "The stirring
+also counter-acts channelling."  He writes,
+
+
+>I contend that stirring the grain bed increases channelling.
+
+
+>This is how I justify this.  Consider water running slowly through the
+>grain bed.  Now here comes this rake or spoon that cuts a gorge into
+>the grain bed.  The gorge disappears as quickly as it appeared because
+>there is a layer of water on top of the grain bed.  What flowed into
+>the gorge?  Grain?  Water?
+
+
+I think that you could either increase or decrease channelling according to
+exactly what you did.  When I've been impatient with gummy slow wheat
+lauters, I've cut the bed with a knife praying that more liquid would go
+through, *any* liquid --- extract, schmextract.
+
+
+OTOH, with a 6 to 8 inch grain bed, I often stir up the top couple of inches
+of grain when there's only about a half inch of water on top.  I stir the
+*complete* area of the top of the mash with the result is that the top looks
+like a rather thick porridge, like the original mash.  Besides eliminating
+channels, the point of doing this was to mix the pasty teig in with other
+mash particles.   This is quite different from my knife cutting or the
+cutting that the rakes of a commercial tun would do.  There is no gorge into
+which the stirred part flows, I don't think.  If there are any channels
+remaining, BOTH water and grain flow in.  Hopefully the water keeps going
+through the surrounding bed like a normal sparge, the grain is left behind
+and voila, the channel is filled in.
+
+
+>I theorize that cutting through
+>the grain bed actually creates a "path of least resistance" which subsequent
+>sparge water runs through.  Anybody willing to agree with me on this?
+
+
+I agree with this.  I tread with trepidation into the touchy territory of
+terminology, but do we want to distinguish 'stirring' from 'cutting'?
+
+
+- -- Rob
+
+
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 09:17:00 -0500 (EST)
+From: Michael Orlyk <orlykma`at`together.net>
+Subject: unsuscribe
+
+
+unsuscribe
+
+
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 11:41:42 -0600
+From: Tamth`at`mail.utexas.edu (Tam Thompson)
+Subject: Yes, you can re-use primary trub
+
+
+In response to Darcy Munger's inquiry on 3/2/96:
+  Yes, you can re-use that primary  trub.  I used to do it all the time.
+You can usually re-use that slurry about three times before it starts
+to mutate too far into the unusable range.   This will save you much
+money on Wyeast.  The caveats:  as Darcy mentioned, of course you
+must put it in a sterilized bottle (be sure to do this using a 
+sterilized funnel or hose) with an airlock on it, and store it in the 
+fridge.  I like to use Duvel ale 12-oz bottles, since they are very short
+and squatty.  I can put a stopper and airlock on top of them and they
+still aren't very tall.  Also, be sure to label them with the date, the
+batch they came from, what Wyeast it originally was, and how many times
+you've used it before.  When I do weirdo brews, like organic ginger-pepper
+honey lager, I don't save the slurry, since it's been flavored.  I save
+it only from generic-type brews, like porter and Vienna lager.
+
+
+  I have question, as well:  I have always saved this slurry out of the
+primary.  On my recent porter and Belgian white (two separate ales), I
+didn't remember to save any until bottling.  You CAN do this with the
+slurry from the secondary, can't you (assuming that you haven't waited
+eons to bottle, or frozen your yeast, or anything)?  
+
+
+                   Hope this helps, and thanks in advance for answers,
+                   Tam Thompson
+                   Tamth`at`mail.utexas.edu
+
+
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 13:53:38 -0500
+From: CASteveB`at`aol.com
+Subject: It's Alive (Goofy Gravities Cont.)
+
+
+On 2/29 I wrote about my fermentation slowing way down with the SG at 1.060.
+ I took the measurements while racking to the secondary.  Now, 3 days later,
+the beer is *alive* again!  There is a nice 1 to 1-1/2 in layer of kraeusen
+and it is bubbling away. (a bubble every 2 sec.)  I was careful not to areate
+the beer while racking, so I don't think a great increase in available O2 is
+the cause.  Could it be a little disturbing of the trub and redistribution of
+the yeast that would revive them?  just a shot in the dark on my "Great
+Adventure in Beerland!"
+
+
+Enjoying the Trip,
+Steve
+|--------------------------------------------|
+|  owner/operator of  "Beer or Bust Brewery"  |
+|  otherwise known as  "Tiffany's Kitchen"   |
+|--------------------------------------------|
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 15:01:11 -0500 (EST)
+From: "Kieran O'Connor" <koconnor`at`syr.edu>
+Subject: Mac Programs Part II
+
+
+Here's another Mac program available from Info-Mac, the Mac shareware 
+archive:
+
+
+The Info-Mac Archive is available at 50 public and private sites around
+the world.  For the site list, request it by mail (address below), or try:
+  <ftp://mirrors.aol.com/pub/info-mac/help/mirror-list.txt>
+Also accessible by ftp.  Help files and indexes are also in info-mac/help/.
+
+
+
+
+Attached please find the FREEWARE BrewMeister v1.0 by Frank and Becky
+Grimaldi.  There is a serious lack of shareware/freeware homebrew software
+for the Macintosh.  This software is a beer "recipe database and recipe
+analysis tool" according to the readme.  I just got this from a friend who
+got it on Compuserve.  (Thanks, Lance!) I've scanned it with Disinfectant
+3.5, but haven't used it yet.
+
+
+It is geared more to the "all-grain" (scratch if you will) homebrewer,
+rather than the extract brewer.  Calculates original and final gravities,
+potential alchohol, IBUs, and Color.  Looks pretty decent if you are into
+homebrew and use a Mac, especially since there isn't much other shareware
+available.
+
+
+I am not the author.
+
+
+- --Brian Pickerill,  Muncie, IN  <00bkpickeril`at`mail.bsu.edu>
+
+
+[Archived as /info-mac/art/brew-meister-10.hqx; 174K]
+
+
+
+
+Kieran
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Kieran O'Connor
+
+
+koconnor`at`syr.edu
+Syracuse, N.Y. USA
+
+
+                  In vino veritas; in cervesio felicitas.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 16:06:43 -0500
+From: Tjpenn`at`aol.com
+Subject: Infrared Beer?
+
+
+I just started a new job where we make infrared (IR) detectors and lasers in
+the 1-2 micron wavelength range.  They are used widely in laboratories and
+industrial processes for gas detection and other measurement applications.
+ My question-are there any beer or brewing-related applications for this
+technology?
+
+
+Tom Penn
+Bordentown, NJ
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 14:02:22 -0800
+From: Mike Hatz <mhatz`at`thenet.com>
+Subject: Sign root`at`valhalla.org off
+
+
+I have sent mail to the homebrew-request list and have not heard anything
+back.  
+
+
+Please sign off:
+*`at`thenet.com
+*`at`valhalla.org
+
+
+I manage e-mail for both of these domains and NOONE gets the homebrew list.
+
+
+Thanks for some human intervention!  :)
+
+
+Mike
+root`at`thenet.com
+
+
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 16:01:22 -0800 (PST)
+From: Jim Cave <CAVE`at`PSC.ORG>
+Subject: Channelling.
+
+
+
+
+        No.  Im not a hydrological engineer, just a stream biologist.  
+Obviously, erosion develops with water velocity and with time--streams
+widen with time because of erosion.  The stream analogy with a grain-bed
+would indicate that channelling would also develop with time.  Anything
+that forces the process to start over again (e.g. stirring) would minimize
+the development of channels.  Mind you, recirculation may be necessary
+to reset the grain bed and minimize rubidity of the wort.  
+
+
+        Raking the grain-bed results in reducing the compaction of the bed
+and (according to Richman and Warner) is used in lautering of decoction
+mashes.  I've been told by a commercial brew that rather than suffer through
+a stuck mash (which often results in channeling--least flow of resistance
+and all that) complete stiring and reseting of the grainbed is preferable.
+If the mash has shown signs of sticking, it is best to do this
+right away than deal with the concrete afterwards.
+
+
+        I've seen signs of channelling in the two times I've had a stuck 
+mash.  There was a mottling of the grainbed and parts were sweet and others
+were not.  I suspect that I made the usual mistakes--recirculated too 
+quickly, and too much; too fine a grind; too much grain.  Stirring at least
+lets one give it another go and slow down the speed of recirculation.  It 
+seems that a speed that you can get away with using 24 lbs of malt is higher
+than with 35 pounds.
+
+
+                                Jim Cave
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 19:36:03 -0600 (CST)
+From: John Regier <regier`at`falcon.cc.ukans.edu>
+Subject: mill speed
+
+
+I am building a mill with 6in steel rollers on 1in shafts the motor i 
+have is a 1hp motor that rotates at roughly 250rpm. my question is what 
+is optimum speed for the rollers i can gear the motor speed up by 
+changing the sprocket but dont know what speed i should be aiming for. 
+pleese reply by email as i dont have a computer at home and check my mail 
+infrequently.                                        
+                                         Thanks for any responces
+                                                           john
+
+
+                                                
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 96 17:41:25 PST
+From: hollen`at`vigra.com
+Subject: AFCHBC Competition Results
+
+
+
+
+                             Third Annual
+              America's Finest City Homebrew Competition
+                                Results
+
+
+QUAFF Homebrew Club of San Diego. California is pleased to announce the 
+results of our third annual competition.  We would like to thank all 
+brewers, judges, and stewards who participated and helped to make this 
+a successful event.  Once again, the proportion of excellent beers we 
+received was very high.  Individual score sheets and ribbons will be 
+mailed out to the brewers within a week.  The trophy for Best of Show, 
+an engraved beer glass with the QUAFF logo, the competition 
+information, the brewer's name and beer will take a while longer since 
+it is being custom made.
+
+
+Due to some categories having insufficient entries, those categories 
+were combined with other categories for purposes of scoring.  Ribbons 
+were awarded for the combined categories together.  To prevent beers 
+which are not "Ribbon Quality" from placing for an award solely because 
+they happened to be the only beer entered in a category, minimum 
+scoring requirements were placed.  To be awarded a First Place Ribbon, 
+a minimum of 35 points must be scored, for Second Place, 30 points, and 
+for Third Place, 25 points.
+
+
+
+
+Barley Wine (01)
+English and Scottish Strong Ale (10)
+10 Entries total
+
+
+Barlery Wine 01     First
+     Greg & Liz Lorton                  (Quaff)
+Barlery Wine 01     Second
+     Rich Link                     (Quaff)
+English and Scottish Strong Ale 10 Third
+     Ray Greflein & James Selgrath      (No Club Affiliation)
+- ------------------------------------------------------------------
+
+
+Belgian and French Ale (02)
+Belgian-Style Lambic (03)
+7  Entries Total
+
+
+Belgian and French Ale 02     First, Best of Show Honorable Mention
+     Rich Link                     (Quaff)
+Belgian and French Ale 02     Second
+     Harold Gottschalk                  (Quaff)
+Belgian-Style-Lambic 03  Third
+     Fred Waltman & Steve LaBrie        (Pacific Gravity)
+- ------------------------------------------------------------------------
+
+
+Mild and Brown Ale (04)
+7 Entries Total
+
+
+Mild and Brown Ale 04    First, Best of Show Honorable Mention
+     Fred Waltman & Steve LaBrie        (Pacific Gravity)
+Mild and Brown Ale 04    Second
+     Greg & Liz Lorton                  (Quaff)
+Mild and Brown Ale 04    Third
+     Brian Jones                        (Barley Literates)
+- ---------------------------------------------------------------
+
+
+English-style Pale Ale (05)
+English Bitter (07)
+Scottish Ale (08)
+12 Entries Total
+
+
+English-Style Pale Ale 05     First
+     Rich Link                          (Quaff)
+English-Style Pale Ale 05     Second
+     Tod Fitzsimmons                    (Quaff)
+Scottish Ale 08     Third
+     Carol Satterblom                   (Pacific Gravity)
+- -----------------------------------------------------------
+
+
+American-style Ale (06)
+13 Entries total
+
+
+American Style Ale 06    First
+     Rich Link                          (Quaff)
+American Style Ale 06    Second
+     Tod Fitzsimmons                    (Quaff)
+American Style Ale 06    Third
+     James Mackey                       (Barley Literates)
+- ----------------------------------------------------------------
+
+
+Porter (09)
+15 Entries Total
+
+
+Porter 09 First, Best of Show
+     Tod Fitzsimmons                    (Quaff)
+Porter 09 Second
+     Uwe Boer                           (Foam on the Brain)
+Porter 09 Third
+     Tiffany Nyrkkanen                  (Pacific Gravity)
+- ---------------------------------------------------------
+
+
+Stout (11)
+9 Entries total
+
+
+Stout 11  First, Best of Show First Runnerup
+     Fred Waltman & Steve LaBrie        (Pacific Gravity)
+Stout 11  Second
+     Uwe Boer                           (Foam on the Brain)
+Stout 11  Third
+     Rich Link                          (Quaff)
+- ----------------------------------------------------
+
+
+Bock (12)
+7 Entries total
+
+
+Bock 12   First, Best of Show Honorable Mention
+     Frank Leers & Bobby Sparks         (Quaff)
+Bock 12   Second
+     Brian Jones                        (Barley Literates)
+Bock 12   Third
+     Dan Sherman                        (Quaff)
+- -------------------------------------------------------------------
+
+
+German Dark Lager (13)
+German Light Lager (14)
+Classic Pilsner (15)
+American Lager (16)
+Vienna/Marzen/Oktoberfest (17)
+9 Entries Total
+
+
+     No First Place Awarded
+German Dark Lager 13        Second
+     Erol Kilki                         (Quaff)
+American Lager 16   Third
+     Patrick Mckee                (Temecula Valley Homebrewer's Assoc.)
+- -------------------------------------------------------------
+
+
+German-style Wheat Beer (19)
+9 Entries total
+
+
+German-style Wheat Beer 19    First
+     Jeff Lannon                        (No Club Affiliation)
+German-style Wheat Beer 19    Second
+     Dirk Niemeyer, Brad Ebright & Mike McAllister     (No Club Affiliation)
+German-style Wheat Beer 19    Third
+     Greg & Liz Lorton                  (Quaff)
+
+
+- -------------------------------------------------------
+
+
+Smoked Beer (20)
+Specialty Beer (23)
+Fruit and Vegetable Mead (26)
+7 Entries Total
+
+
+Smoked Beer 20 First
+     Fred Waltman & Steve LaBrie        (Pacific Gravity)
+Specialty Beer 23   Second
+     Fred Waltman & Steve LaBrie        (Pacific Gravity)
+Specialty Beer 23   Third
+     Antoinette Hodges & Cher Cunningham     (No Club Affiliation)
+- --------------------------------------------------------------
+
+
+Fruit and Vegetable Beer (21)
+Herb and Spice Beer (22)
+10 entries total
+
+
+Herb and Spice Beer 22   First, Best of Show Second Runnerup
+     Tod Fitzsimmons                    (Quaff)
+Herb and Spice Beer 22   Second
+     Jim Weiner                         (No Club Affiliation)
+Fruit and Vegetable Beer 21   Third
+     Fred Waltman & Steve LaBrie        (Pacific Gravity)
+- -------------------------------------------------------------------
+
+
+German-style Ale (18)
+California Common Beer (24)
+7 Entries total
+
+
+California Common Beer 24     First, Best of Show Honorable Mention
+     Steve Rittenhouse                  (Pacific Gravity)
+California Common Beer 24     Second
+     Patrick, Mckee                (Temecula Valley Homebrewer's Assoc.)
+California Common Beer 24     Third
+     Tod Fitzsimmons                    (Quaff)
+
+
+
+
+------------------------------
+
+
+Date: Sun, 3 Mar 1996 23:43:17 GMT
+From: jj`at`europa.com (JJ)
+Subject: cmsg cancel <4hbg7r$amu`at`atheria.europa.com>
+
+
+Spam cancelled by The SPAMinator.
+Original Subject:
+  $$$$$MAKE EXTA CASH  FAST!!!!!   READ ME
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 13:40:19 +-200
+From: Terence Tegner <brewtec`at`global.co.za>
+Subject:  pumps
+
+
+
+
+
+
+- ----------
+From:         Terence Tegner[SMTP:brewtec`at`global.co.za]
+Sent:         10 February 1996 10:56
+To:         'homebrew`at`hpfcmgw.fc.hp.com'
+Subject:         pumps
+
+
+Hi from Terence in South Africa,
+has anybody ever thought of using the pumps found in auto-washing =
+machines in the home brewery?  They are supposed to work with hot =
+liquids.(I would not use them for pumping hot wort, however) They seem =
+ideal for moving cooled wort and beer around. I've used them for pumping =
+sparge water with great success.  I'm sure the pumps used over there are =
+much the same as those used here and a used pump from the repair shop =
+comes out pretty cheap.
+REGARDS
+Terence Tegner
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 07:35:43 -0500
+From: af509`at`osfn.rhilinet.gov (Rolland Everitt)
+Subject: first hopping?
+
+
+
+
+
+
+I recall that a while back there was some discussion of adding 
+aroma hops to beer in the form of a hop infusion.  I think this
+practice was called first hopping (or something similar).
+
+
+Can anyone enlighten me on this practice, or point me to an FAQ
+file?
+
+
+Rolland Everitt
+af509`at`osfn.rhilinet.gov
+
+
+------------------------------
+
+
+Date: Mon, 04 Mar 96 07:56:56 EST
+From: igelman`at`smtplink.mssm.edu
+Subject: Homebrew in Japan
+
+
+     Fellow Homebrewers:
+     
+     I just had a visit from a Japanese friend would took a keen liking to 
+     my homebrew.  I'd like to set him up with a homebrewing system in his 
+     hometown of Nagoya.  Does anyone out there have information about 
+     sources for homebrew material in Japan, and even better, in Nagoya?  
+     You can e-mail me directly.  Many thanks.
+     
+     
+     Irwin Gelman
+     igelman`at`smtplink.mssm.edu
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 08:12:48 -0400 (EDT)
+From: "mike spinelli" <paa3983`at`dpsc.dla.mil>
+Subject: wooden paddles
+
+
+Thanks to all those who gave me sources and even offered mailing me a
+paddle.  I ended up callin a local bar/restaurant supply store and picked up
+a 4 foot paddle for $8 bucks.
+Mike in Cherry Hill NJ
+
+
+------------------------------
+
+
+Date:          Mon, 4 Mar 1996 07:25:02 MST-0700
+From: "Dave Ebert" <Dave.Ebert`at`UCHSC.edu>
+Subject:       Posting Recipes
+
+
+
+
+In HBD #1974 Raudins`at`lightscape.com (Glenn Raudins) writes:
+
+
+>Personally, I'd prefer to see *no* recipes posted to the digest.  
+>There are plenty of recipe books out there, there's the Cat's 
+>Meow, and other online recipes.  But that won't happen, so I'll 
+>contine to scroll past them.
+
+
+Glenn:
+
+
+If recipes were not posted to the HBD where would the Cat's Meow get 
+it's recipes?
+
+
+Not a flame, just a comment.
+
+
+Dave
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 10:08:14 est
+From: Matt_K`at`ceo.sts-systems.ca
+Subject: Dry hopping
+
+
+Greetings everyone
+
+
+I just dry hopped for the frist time and would like to poll popular 
+opinion.  
+
+
+I used 2 Saaz plugs in the secondary and was wondering what the 
+preferred length of time is to leave the hops.  I've read 1 - 2 weeks. 
+ Is there anything to consider when leaving the hops for two weeks 
+insdead of one, other than a stronger hop aroma? 
+
+
+Many thank's
+
+
+Matt
+in Montreal
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 10:31:01 -0500 (EST)
+From: charlesd <charlesd`at`nando.net>
+Subject: Sierra Nevada PA clone
+
+
+Being a new brewer, I was very interested in the SNPA clone recipe that 
+was posted today. I have been looking for a good approximation of SNPA to 
+brew this weekend, but have not yet moved to all-grain brewing (this will 
+be my second batch). Do you (or any member of the collective, for that 
+matter) have any suggestions/references for methods to covert your 
+all-grain recipe to extract/specialty grains?
+
+
+TIA,
+ -charles douthart-
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 09:52:11 -0600
+From: jay`at`ro.com (Jay Reeves)
+Subject: Phosphoic & Lactic Acids
+
+
+Can the HBD resident chemist (or any one else) tell me why
+you should use lactic acid to drop the mash pH as opposed
+to using phosphoric acid?  I know about using salts for
+mash adjustments.  I currently use phosphoric acid to
+acidify the sparge water, but why only lactic in the mash?
+
+
+                                -Jay Reeves
+                                Huntsville, Alabama, USA
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 11:07:47 -0500
+From: ac051`at`osfn.rhilinet.gov (Eric W. Miller)
+Subject: re: Better Extract Brewing Techniques
+
+
+
+
+
+
+In HBD #1975, Greg Heiler asks about racking off cold break:
+ 
+>recommendation was that I get a 2en primary fermentation vessel and
+>rack to it 8-12 hours after pitching the yeast, before real active
+>fermentation.
+ 
+>During the first 8-12hrs a significant amount of trub settles out. The
+>thought was that getting the wort of the trub, as soon as possible,
+>would reduce/eliminate off flavors. Is this added process refinement
+>being used by anyone and is it effective? Is it worth doing?
+ 
+I used to follow that same process, based on Dave Miller's book.  I 
+stopped doing it when I gave some thought to the contents of the 
+"trub" I was leaving behind in the settling tank.  One of the big 
+components is yeast!  I spend days building a decent size starter 
+to pitch into my beer, then rack the just-beginning-to-ferment 
+wort off the top of it a few hours later.  Sure, there's lots of
+yeast in suspension, but not as much as I'd like to have. 
+ 
+One of the results of the process back then was that my beers were 
+much more prone to diacetyl (the noun that means the same as 
+2,3-butanedione ;-).  Large quantities of yeast lead to more 
+rapid fermentations and are necessary for reducing diacetyl at 
+the end of primary fermentation. 
+ 
+Eric in Newport, RI 
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 96 11:21:11 EST
+From: Pierre Jelenc <pcj1`at`columbia.edu>
+Subject: Diacetyl and Clorox
+
+
+ 
+In HOMEBREW Digest #1975 the truth emerged sequentially:
+
+
+braue`at`ratsnest.win.net (John W. Braue, III):
+> "Diacetyl" is. of course, an adjective, strictly speaking; it
+> means "characterized by the presence of two acetyl (CH[3]CH[2}-)
+> groups".
+
+
+                but
+
+
+ajdel`at`interramp.com (A. J. deLange):
+>                             is "diacetyl" is really a noun. Yes it
+> is. "Acetyl" is a noun meaning the radical CH3CO-. Put two of these
+> together and you get CH3COCOCH3 i.e. diacetyl. 
+
+
+(However it is CH3CO not CH3CO-; acetyl is a radical, not an anion)
+
+
+               then
+
+
+"Keith Royster" <keith.royster`at`ponyexpress.com>:
+>Of course diacetyl is a noun...it is the name of a chemical compound. 
+>            [ ... ]                      I also began to notice that
+> there were no chemicals at all that ended in "yl".  For example,
+                ^^^^^^^^^
+In a way, yes; but not really. (see below.)
+
+
+> there is no Benzyl, but there is a Benzyl Chloride.  There is no
+> Isopropyl, but there is isopropyl alcohol (or more correctly,
+> isopropanol).  So it does seem that something should follow
+> Diacetyl... but what?
+
+
+
+
+And there we have it, almost. It's not "diacetyl followed by what?", but
+very simply "acetyl acetyl"! Hence colloquially "diacetyl" although it is
+strictly speaking wrong: it should be (and is) "biacetyl". In such a
+context, "di" means "two of A attached to the same B", while "bi" means
+"two A attached to each other". 
+
+
+Others of the same type: biphenyl, bibenzyl, and bivinyl.
+
+
+                    ------
+
+
+And now for something completely different, KennyEddy`at`aol.com asks:
+
+
+> Anybody know much about Clorox's "new and improved" biodegradable bleach?
+>  It's supposedly a "blend" of sodium hypochlorite AND sodium hydroxide;
+
+
+That's what the "old" bleach always was.
+
+
+> supposedly it turns to saltwater (NaCL I presume) after a while.  
+
+
+That's what it always did.
+
+
+There must be more to the story.
+
+
+Pierre
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 11:25:02 -0500
+From: ac051`at`osfn.rhilinet.gov (Eric W. Miller)
+Subject: re: categories
+
+
+
+
+
+
+In HBD 1975, Andy Kligerman looks for advice on how to enter a porter and a 
+stout to which he added small amounts of peated malt. 
+ 
+>Some references say that porter can
+>have a slightly smoked character, but would most judges know this or will I
+>do better entering these in a specialty or smoked beer category?  Thanks for
+ 
+I would recommend entering it as a specialty beer, giving it a title that
+implies that you're trying to brew a historic porter, from back in the days 
+when porters tasted a bit smokey. 
+ 
+A porter judge would notice the smokey/phenolic character in sharp 
+contrast with the other un-peated porters in the flight.  Would tell you to 
+lose the smoked grains or enter the beer as a smoked beer if they knew it 
+was from smoked grain, or would tell you that your beer is probably infected 
+if they picked up just the phenolic character of the smoke. 
+ 
+The smoked beer judge would say that your *lightly* smoked beer doesn't 
+have nearly enough smoke in it.  It won't stand up well after a few great 
+big smokey Rauchbiers. 
+ 
+Good luck
+ 
+Eric in Newport, RI 
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 96 8:42:07 PST
+From: Mark Thompson <markt`at`hpdocp3.cup.hp.com>
+Subject: How to fix Diacetyl
+
+
+I have a german style pilsner that was fermented with WY2124 at 48df
+that i transfered off the yeast after about 3 weeks that has
+diacetyl levels that are too high for my taste.  My question is
+should i just wait it out and lager because it's too late (sg 50 tg 12) 
+to do a di rest, or could i pitch some fresh yeast and warm it up?
+Am I likely to reduce the diacetyl that is prob. at twice the taste
+threashold in a 2 month lagering?
+
+
+Thanks for the info. 
+
+
+Mark
+
+
+------------------------------
+
+
+Date: Mon, 04 Mar 1996 08:45:35 -0800
+From: jfrane`at`teleport.com (Jeff Frane)
+Subject: Re: Channelling
+
+
+I couldn't figure the subject head out at first; thought I'd
+wandered into a New Age newsgroup for a minute there.
+
+
+Al Korzonas wrote: (and no, this is not Dump on Al Week)
+
+
+
+
+>Here comes this thread again... I would like some soil scientists or
+>civil engineers (heck... I'll ask my Dad tonight) if stirring reduces
+>or increases channelling.  I have not had any classes on this topic
+>per se, but I have had enough physics, brewed enough and observed enough
+>grain beds to have a pretty solid opinion on this subject.  I contend
+>that stirring the grain bed increases channelling.
+>
+>This is how I justify this.  Consider water running slowly through the
+>grain bed.  Now here comes this rake or spoon that cuts a gorge into
+>the grain bed.  The gorge disappears as quickly as it appeared because
+>there is a layer of water on top of the grain bed.  What flowed into
+>the gorge?  Grain?  Water?
+>
+
+
+If you look at a good brewing text, you should find some information
+explaining why people use rakes in mashing systems, and although your
+theory may be intuitive, it's not how it works, either in the flower pot
+or the mash tun.  
+
+
+I suppose if you only drew a rake through the mash once, that you would
+simply create a new channel, but in a proper system, the rakes move slowly
+through the grain bed -- and usually deepen over the course of the mash/
+lauter/ process.  This makes is impossible for the water to find fractures
+in the bed and form channels, as the fractures are continually broken up.
+
+
+>Channelling, for those who don't know, but still haven't paged down,
+>is sort of like a 3-dimensional river that runs through something (soil,
+>a gravel filter, a grain bed, whatever). 
+
+
+Channelling is when you pay somebody a lot of money to talk with Zongo,
+who was a Sumerian priest/king and has been keeping tabs on all your
+past lives.
+
+
+>
+- --Jeff Frane
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 11:37:15 -0500
+From: ac051`at`osfn.rhilinet.gov (Eric W. Miller)
+Subject: Cassia/Quassia
+
+
+
+
+
+
+A few digests ago, I posted about Mike Urseth's quassia note:
+
+
+> I think the spelling you're looking for is "cassia," a plant whose bark is
+> more commonly known as "cinnamon."  Are you sure this brewer isn't pulling
+> your leg?
+
+
+Rick Larson (rick`at`adc.com) was nice enough to let me know that I was of
+the mark on that statement (in private email).
+
+
+Looking it up in Webster's, I find:
+
+
+"A drug from the heartwood of various tropical trees of the ailanthus
+family used esp. as a *BITTER* tonic and remedy for roundworms..."
+[emphasis mine].
+
+
+If only I had looked it up before posting....
+
+
+Apologies, and thanks to Rick.
+
+
+Eric in Newport, RI
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 1996 08:48:53 -0800 (PST)
+From: raudins`at`lightscape.com (Glenn Raudins)
+Subject: MacTarnahan's Ale Info
+
+
+Here is the info I have been able to collect on Portland Brewing's 
+MacTarnahan's Ale (without actually venturing up there.)
+
+
+MacTarnahan's Ale
+=-=-=-=-=-=-=-=-=
+
+
+Grist:
+  Pale Malt    (Gambrinus)
+  Crystal Malt (20 and 60L?)
+
+
+Cascade Hops:
+  One addition at the start of boil
+  One addition with 5 minutes left.
+  IBU: 40
+
+
+Yeast:
+  Of British Origin, strain unknown.
+
+
+O.G: 1.053
+
+
+Fermentation:
+  ~72 Degrees.
+
+
+>From the IBU measurement (thank you Portland Brewing), we can compute the
+hop additions based on each person's favorite utilization numbers and 
+formula.
+Obviously, a guess will have to be made on the grist ratios and probably
+use Wyeast's Scotch Ale strain for a lack of any other info/source.
+
+
+Sources:  Martin Wilde (thanks), and Portland Brewing's Web Page.
+
+
+When I get back from Egypt, I will try to finish off this work with a few
+test brews.
+
+
+Glenn Raudins
+raudins`at`lightscape.com
+
+
+------------------------------
+
+
+Date: 04 Mar 1996 10:09:20 -0700
+From: "Dave Hinkle" <Dave.Hinkle`at`aexp.com>
+Subject: Gott infusion mashing
+
+
+Dan wrote:
+
+
+I've been mashing in my converted 10 gallon Gott cooler for about 10, 
+five gallon batches. I have had excellent results with one step infusion
+mashes. I get about 82% extraction and beautifully clear runoff. 
+However, each time I've tried a multiple step infusion mash (with a 
+protein rest, conversion, and mash-out) I end up with a stuck sparge.
+<snip>
+- -----------------
+
+
+I have experienced this doing step mashes in my Gott too.  It took
+a couple of batches, but I finally realized what was causing it.  The
+thin final mash allows finer particles to form a thick teig (as recently 
+discussed in HBD).  I don't think it has anything to do with the "weight
+of the water" on top of the grain, but rather it is the way the grain bed
+forms in such a dilute mash:  heavy particles at bottom, teig-forming
+"grain dust" settling last on the top.  Kind of like river sediment where
+the big rocks settle first, and so forth, until the only thing still suspended
+in the water is the silt particulate, which settles last.  If you use adjuncts
+such as corn or oats, the teig is very pronounced and you get either
+channeling down the sides of the cooler, or a stuck runoff, both not a
+good situation.
+
+
+My ways around this, as you appear to have already discovered, are
+to scratch the surface of the grain bed often during the sparge  (or
+even skim off some of the teig as it forms), or open the runoff flow
+rapidly at first to set the grain bed before it has time to do the gradient
+settling (or both).  The problem with an intial wide-open lauter spigot is 
+you get a LOT of cloudy liquid you need to recirculate, but you have to 
+recirculate it slowly, and only after the grain bed has formed a fairly
+firm consistency.  It feels like a bucket brigade!  It's enough to drive 
+you to build a RIMS setup!  But seriously, what I now do is dough-in
+thick at .5 qt per pound for the protein rest, add boiling water to bring
+to conversion temp, and skip the mash-out and use hotter (175F-ish)
+sparge water.  The grain bed temp stays under 170F because the temp
+differential of the 175-180F sparge water and the 152F mash is small.
+I am not trying to re-hash the discussion about whether mash-out is 
+required or not.  I'm just saying that's what _I_ do to keep the mash in
+my Gott from getting too thin to point it becomes a PITA to sparge.  
+You could, of course, use decoction or steam injection to raise mash-
+step temps, but that's a whole different story.
+
+
+Or, just do single-step infusion ;-).
+
+
+Please, any brewing science students, feel free to enlighten us on the
+dynamics of mash consistency and lautering.  Or why the protein rest
+actually works better in a thick mash, while conversion works better in
+a thin mash (which is a good thing for us Gott mashers!).
+
+
+Dave H
+Phoenix, AZ
+
+
+------------------------------
+
+
+Date: Mon, 04 Mar 1996 12:09:19 -0500
+From: David Raitt <draitt`at`scri.fsu.edu>
+Subject: N2 cooling
+
+
+
+
+I was talking to a friend about equipment I need to buy soon the other 
+night, and specifically mentioned getting a wort chiller. He suggested 
+instead using liquid nitrogen, which he has ready access to through work.
+
+
+Off hand I can't think of a reason why (with appropriate safety precautions) 
+this wouldn't work. As has been discussed here, wrt carbonation, N2 doesn't 
+react with beer. I can't imagine that there is an infection risk from it 
+since it is pretty cold (~77 K). And the cold break would probably be 
+awesome with cooling occuring in a very few minutes (< 1?).
+
+
+Can anyone think of any problems beyond the safety issues (i.e. the N2 
+flashing into gas and throwing hot wort all over the kitchen)?
+
+
+TIA
+David
+
+
+PS We will probably try it next weekend and see how it works. If it is 
+succesful I will report back.
+
+
+- -- 
+|David Raitt Postdoc RA          | SCRI                     |  Head Brewer  |
+|draitt`at`scri.fsu.edu             | Florida State University | Chief  Taster |
+|http://www.scri.fsu.edu/~draitt/| Tallahassee, FL 32306    | Late Shipment |
+|Office: (904) 644-2434          | Fax: (904) 644-0098      |  Picobrewery  |
+************************** How 'bout them Wildcats? *************************
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 4 Mar 96 11:20:33 CST
+From: korz`at`pubs.ih.att.com (Algis R Korzonas)
+Subject: Re: changing channelling
+
+
+I've always wanted to be quoted by an Australian, and I think that
+this may be my chance...
+
+
+Rob writes:
+>OTOH, with a 6 to 8 inch grain bed, I often stir up the top couple of inches
+>of grain when there's only about a half inch of water on top.  I stir the
+>*complete* area of the top of the mash with the result is that the top looks
+>like a rather thick porridge, like the original mash.  Besides eliminating
+>channels, the point of doing this was to mix the pasty teig in with other
+>mash particles.   This is quite different from my knife cutting or the
+>cutting that the rakes of a commercial tun would do.  There is no gorge into
+>which the stirred part flows, I don't think.  If there are any channels
+>remaining, BOTH water and grain flow in.  Hopefully the water keeps going
+>through the surrounding bed like a normal sparge, the grain is left behind
+>and voila, the channel is filled in.
+
+
+I never stir my mash, but sometimes I have to increase my sparge water
+flow rate, mid-sparge.  Once or twice, I've fumbled on this operation and
+have subsequently disturbed the grain bed a little (8" grain beds or so).
+A quick look at my runnings showed that they had gotten a little cloudy
+suddenly, but then cleared back up quickly.
+
+
+I think that if you were to:
+
+
+1. stop taking runnings,
+2. stir the grain bed,
+3. restart taking runnings into another vessel,
+4. recirculate till the runnings are back to "pretty clear,"
+5. restart putting the runnings into the kettle,
+
+
+you may be getting a *little* more extract than if you just let the
+thing run without disturbing it.  Remember that 3-hour lauter that
+I mentioned in passing?  During it, I was very tempted to stir the
+grain bed (who wouldn't?), but I knew the problem was due to the 43%
+rye malt and my botched beta-glucan rest (overshot!) and not because
+I had a defective grain bed.  In the end I got 32 points/pound/gallon
+and my final runnings were (after temperature adjustment) 1.013!!!
+I could have gotten 34 points/pound/gallon if I had the patience to
+wait another hour.  In three hours I got only 6 USgallons of runnings
+in stead of my usual 7.5 or 8.
+
+
+>>I theorize that cutting through
+>>the grain bed actually creates a "path of least resistance" which subsequent
+>>sparge water runs through.  Anybody willing to agree with me on this?
+> 
+>I agree with this.  I tread with trepidation into the touchy territory of
+>terminology, but do we want to distinguish 'stirring' from 'cutting'?
+
+
+Isn't a spoon just a dull, bent knife?
+
+
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`pubs.att.com
+Copyright 1996 Al Korzonas (quoting by Australians excepted).
+
+
+------------------------------
+End of HOMEBREW Digest #1977, 03/06/96
+*************************************
+-------

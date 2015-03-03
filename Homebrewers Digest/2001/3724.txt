@@ -1,0 +1,389 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA02669
+        for <spencer`at`srvr5.engin.umich.edu>; Sat, 1 Sep 2001 00:57:02 -0400 (EDT)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr22.engin.umich.edu (8.9.3/8.9.1) with ESMTP id AAA28035
+        for <spencer`at`engin.umich.edu>; Sat, 1 Sep 2001 00:57:01 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA08255
+        for realhomebrew; Sat, 1 Sep 2001 00:38:46 -0400
+Date: Sat, 1 Sep 2001 00:38:46 -0400
+Message-Id: <200109010438.AAA08255`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3724 (September 01, 2001)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3724                             Sat 01 September 2001
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  RIMS, SSR's and heat dissipation (Bjoern.Thegeby)
+  Temperature controller + fridge == true love! ("John Zeller")
+  Harry Potter Potables (FatCat FatCat)
+  Re: Harry Potter's Butter Beer - Revealed (Jeff Renner)
+  new to kegging ("Joseph Marsh")
+  Buttered Beere again! ("Marc Gaspard")
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+* 
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 31 Aug 2001 09:30:41 +0200
+From: Bjoern.Thegeby`at`cec.eu.int
+Subject: RIMS, SSR's and heat dissipation
+
+
+I am about to build my RIMS now and have a few practical questions.
+Given that I will have a combo of 10A and liquids, I would like to put the
+electrical stuff in a safe enclosure, IP55 or thereabouts. I have never used
+a SSR before, but they seem to require a major heatsink. Where do I put the 
+SSR, inside or outside the enclosure? 
+
+
+The numbers are 220V current, 1350W element (can be upped to 2000W by 
+wiring a third loop). My planned safety measures include fusing the element 
+(10A fuse), grounding everything and a 220V GFCI. The enclosure would have 
+separate power switches for Mains, Pump and Heater, as well as a 1300/2000W
+toggle. Which of my ideas will fry me?
+
+
+Bjorn
+(Rennerian, Schmennerian, five miles from Lembeek)
+
+
+
+
+------------------------------
+
+
+Date: Fri, 31 Aug 2001 05:41:16 -0700
+From: "John Zeller" <jwz_sd`at`hotmail.com>
+Subject: Temperature controller + fridge == true love!
+
+
+Doug Moyer wrote:
+
+
+"Setting the differential to 1 degree will shorten the life of your
+refrigerator compressor. Not so my man! Since the probe is in the fermentor, 
+you have a large buffer from all of that liquid," (snip)
+regarding my comments about setting the differential too low.
+
+
+Doug, I understand the buffering principle, but how long do you think it 
+will take to change the temperature of 5 gallons of wort 1 degree?
+I suspect that even with a tight differential, the controller will overshoot 
+and then undershoot the desired temperature causing even larger temperature 
+fluctuations in the wort than if the probe were simply in the air with a 
+wider differential set on the controller.  The problem is that with your 
+method, the buffering effect will be too large.  I think you could make your 
+method work if the probe were in a smaller container of liquid with less 
+thermal mass.  Even then, what you would be doing is creating a differential 
+external to the controller itself.  Very likely, this differential would be 
+close to the 3 degree preset of the mechanical controller.  These 
+difficulties could possibly be even more of a problem if you are using a 
+freezer rather than a refrigerator as it would obviously have the potential 
+to drop the temperature much lower than the refrigerator ever could.
+
+
+My only point being that all of this is unecessary with either controller.  
+There will be very little fluctuation in the 5 gallons of wort with the 
+probe in the air.  I can easily maintain the wort temperature within one 
+degree or so with the probe in the air and this is more than stable enough 
+for brewing purposes.  It is much easier and cleaner to keep the probe out 
+of the wort and still have excellent temperature control.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 31 Aug 2001 06:09:12 -0700 (PDT)
+From: FatCat FatCat <fatcat`at`homebrew.com>
+Subject: Harry Potter Potables
+
+
+One has to wonder about the 
+desirability of beer consumed 
+by the 11-14 year old H. Potter 
+and Co.  Recall, their favorite
+beverage is iced pumpkin juice.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 31 Aug 2001 09:25:56 -0400
+From: Jeff Renner <JeffRenner`at`mediaone.net>
+Subject: Re: Harry Potter's Butter Beer - Revealed
+
+
+Phil Wilcox <pjwilcox`at`cmsenergy.com> writes:
+
+
+>I find this to be as credible a source as one could hope to find, and it
+>just goes to follow that the geography does play out well. As we all
+>know that the Hogwarts Express leave's out eastbound out of London on
+>track 49 3/4. Given the speed of trains the overnight journey puts them
+>indeed on a track for Plymouth. I speculate the secret location of
+>Hogwarts is somewhere in the Dartmoor National Park.
+
+
+No, no, no.  It is in the north!  I'm sure they talk about the 
+weather change as the train goes north (but I'm too lazy to go look 
+it up), and think of the winters.  There are no winters like that in 
+the south.  And it would be a slow train indeed that gets only as far 
+as Dartmoor overnight.
+
+
+Besides, Dartmoor is south-west of London, so why would you leave eastbound?
+
+
+Maybe you're thinking of Dartmoor Prison?
+
+
+My bet is on the wilds of North Yorkshire.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`mediaone.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Fri, 31 Aug 2001 10:30:42 -0500
+From: "Joseph Marsh" <josephmarsh62`at`hotmail.com>
+Subject: new to kegging
+
+
+Good idea, If I had stayed with bottles I'd have quit by now.
+One thing to remember is that this IS NOT rocket science. Buy your hoses a 
+bit on the long side and you can cut them down if you need to.
+
+
+I personally like to force carbonate then give my beers a shot of CO2 to 
+dispense as needed. That way I don't have to drill holes in my fridge or 
+keep my gas cylinder hooked up constantly. In my situation I'd have a 15 lb 
+gas cylinder sitting on a table top. Not a good thing to do. I seldom have 
+any problem with too much CO2. If I do I bleed it off and tap another keg.
+
+
+Do my beers meet AHA guidelines for carbonation levels? Probably not but so 
+what? They're good beers and I like 'em.
+
+
+Another thing I get laughed at for, I put "gas in", "beer out" labels on my 
+cornie kegs. Costs about $0.005 per label (masking tape and highlighter), 
+takes 10 seconds and I don't have try to read those finely etched lines by 
+refrigerator light.
+
+
+Ball locks on cornie kegs are tough to tell apart. I now have a small sketch 
+that shows the difference between gas in and beer out. It saves some anguish 
+at clean up time. Just disassemble clean up and drop all the parts in 
+sanitizer. Refer to drawing to reassemble. The drawing took maybe 30 seconds 
+to make.
+
+
+Good brewing,
+  Joe
+
+
+PS: I recently pitched out my mini kegs. Too much hassle at clean up.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 31 Aug 2001 19:45:26 -0500
+From: "Marc Gaspard" <mgaspard1`at`kc.rr.com>
+Subject: Buttered Beere again!
+
+
+I have also found a two references to 'Buttered Beere'  in Bickerdyke's
+"The Curiosities of Ale and Beer".
+
+
+Page 385:  "A favorite drink of the 17th century was Buttered Ale.  It was
+composed of ale (brewed without hops), butter, sugar and cinnamon.  In
+_Pepys' Diary_ for December 5th, 1662, 'a morning draught of _buttered
+ale_ is mentioned.  There is also reference to it in _The Convivial
+Songster_:-
+
+
+                 And now the merry spic'd bowls went round,
+                  The gossips were void of shame too;
+                 In _Butter'd Ale_ the priests half drown'd,
+                  Demands the infant's name too."
+
+
+Page 413: "...Thomas Cogan was advocating in _The Haven of Health
+(1584)_......[also] gives a curious receipt for _'Buttered Beere'_ which
+is good for a cough or chortness of wind:- Take a quart or more of
+Double Beere and put to it a good piece of fresh butter, sugar candie an
+ounce, of liquerise in powder, of ginger grated, of each a dramme, and if
+you would have it strong, put in as much long pepper and Greynes, let
+it boyle in the quart in the manner as you burne wine and who so will
+drink it, let him drinke it as hot as he may suffer.  Some put in the yolke
+of an egge or two towards the latter end , and so they make it more
+strengthfull."
+
+
+     Thought you might find it interesting!
+
+
+                                                    Marc Gaspard
+From: Phil Wilcox <pjwilcox`at`cmsenergy.com>
+Subject: Harry Potter's Butter Beer - Revealed
+
+
+Back in December there was a thread on the origin of "Butter Beer"
+Though the original poster speculated on a high diacytel low gravity
+brittish ale, I did find an interesting passage in Chapter 13 of the
+1736 London and Country Brewer. This chapter is titled "Of fermenting
+and working of beers and ales, and the pernicious practice of beating in
+the yeast detected. " Pg.83 The author has been rambling about the
+differences between various outlaying country brewing techniques. At
+this point he is referring to the people of Plymouth.
+
+
+"Their white ale is a clear wort made from pale malt, and fermented with
+what they call ripening, which is a composition, they fey, of the flower
+of malt, yeast and whites of eggs, a 'Nostrum' made and sold only by two
+or three in thise parts, but the wort is brewed and the ale vended by
+many of the publicans, which is drank while it is fermenting in Earthen
+Steens, in such a thick manner as resembles butter'd ale, and sold for
+twopence halfpenny the full quart. It is often prescribed by physicians
+to be drank by wet nurses for the encrease of their milk, and also as a
+prevalent medicine for the colick and gravel. But the Drover and Chatham
+people won't drink their butt-beer, unless it is aged, fine and strong."
+
+
+I find this to be as credible a source as one could hope to find, and it
+just goes to follow that the geography does play out well. As we all
+know that the Hogwarts Express leave's out eastbound out of London on
+track 49 3/4. Given the speed of trains the overnight journey puts them
+indeed on a track for Plymouth. I speculate the secret location of
+Hogwarts is somewhere in the Dartmoor National Park.
+
+
+Phil Wilcox
+Poison Frog Homebrewer
+Bumblefrog Meadmaker
+Leapingfrog Vintner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3724, 09/01/01
+*************************************
+-------

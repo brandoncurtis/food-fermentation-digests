@@ -1,0 +1,1508 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA12589;
+        Tue, 4 May 1999 01:58:00 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr22.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA03514;
+        Tue, 4 May 1999 01:57:58 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.7/8.8.4)
+          id AAA11666 for realhomebrew; Tue, 4 May 1999 00:22:01 -0400
+Date: Tue, 4 May 1999 00:22:01 -0400
+Message-Id: <199905040422.AAA11666`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3021 (May 04, 1999)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3021                             Tue 04 May 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  RE: : 240V Power Controller (LaBorde, Ronald)
+  CO2 leak? ("Anthony & Julie Brown")
+  Beer Alcohol Calculator Spreadsheet (Stephen Klump)
+  Cider question ("John Watts")
+  Ale & Beer in Germanic ("Charles T. Major")
+  Mead Questions (Thomas S Barnett)
+  Free rhizomes in Boston area ("Lerner, Neal")
+  More On: Diacetyl; Red Stuff (AJ)
+  Efficiency ("Mark Vernon")
+  Cherries ("Alexander S. MacGillivray RN")
+  Schaarbeek Cherries ("Grant W. Knechtel")
+  We're not all smart... (larson.jt)
+  Aerating Water/ Diacetyl (AJ)
+  bottling my kegged barleywine (Nathan Kanous)
+  Nitrogen Solubility (David Lamotte)
+  Cleaner for kegs ("Charles T. Major")
+  SureScreen ("Jeff Beinhaur")
+  tomahawk hops (Brewinales)
+  lawnmowing (kathy/jim)
+  Frothy Heads/Dark Wheat (Joel Plutchak)
+  Plaster of Paris (Dan Listermann)
+  re O2 caps ("Rob")
+  re: draught question ("Curt Abert")
+  foam discussion ("Nathaniel P. Lansing")
+  Mash thickness with recirculation (Nathan Kanous)
+  AC Q's (John Varady)
+  Calcium Phosphate precipitation (Matt Brooks)
+  Re: "Dr. Pivo" ("Larry Maxwell")
+  MI hops-grower needed (Vachom)
+  CaPO4 Precipitate (Matt Brooks)
+  dispensing pressure ("Anthony Brown")
+
+
+
+
+Beer is our obsession and we're late for therapy!
+
+
+2000 MCAB Qualifiers: Spirit of Free Beer! Competition 5/22/99
+(http://burp.org/SoFB99); Oregon Homebrew Festival 5/22/99
+(http://www.mtsw.com/hotv/fest.html); Buzz-Off! Competition 6/26/99
+(http://www.voicenet.com/~rpmattie/buzzoff)
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+Contact brewery`at`hbd.org for information regarding the "Cat's Meow"
+
+
+Back issues are available via:
+
+
+  HTML from...
+        http://hbd.org
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+COPYRIGHT for the Digest as a collection is currently held by hbd.org 
+  (Pat Babcock and Karl Lutzen). Digests in their entirity CANNOT be 
+  reprinted/reproduced without this entire header section unless 
+  EXPRESS written permission has been obtained from hbd.org. Digests
+  CANNOT be reprinted or reproduced in any format for redistribution
+  unless said redistribution is at absolutely NO COST to the consumer.
+COPYRIGHT for individual posts within each Digest is held by the
+  author. Articles cannot be extracted from the Digest and
+  reprinted/reproduced without the EXPRESS written permission of the 
+  author. The author and HBD must be attributed as author and source in
+  any such reprint/reproduction. (Note: QUOTING of items originally
+  appearing in the Digest in a subsequent Digest is exempt from the
+  above. Home brew clubs NOT associated with organizations having a
+  commercial interest in beer or brewing may republish articles in their
+  newsletters and/or websites provided that the author and HBD are
+  attributed. ASKING first is still a great courtesy...)
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 1 May 1999 23:01:08 -0500 
+From: rlabor`at`lsumc.edu (LaBorde, Ronald)
+Subject: RE: : 240V Power Controller
+
+
+>>>>
+Junior has asked me to help him with his preschool science project.  He
+wants 
+to build an infinite power control for our 240V electric heating element
+clad 
+brew kettle, similar to a Bruheat Boiler.
+<<<<
+
+
+Oohhweee, preschool and 240V already!
+
+
+>>>>
+We want to be able to have 
+infinite power settings to control the vigor of the boil.  I ran across an 
+SSR that is an analog power controller that produces a variable output from 
+0% to 100% for 240V up to 15A.......
+ ....The relay controls the power output with a 3V to 10V DC input.  How can
+I 
+make this thing work for what I want it to do?  What type of part can I use 
+to vary the DC input voltage?  How are the 2-120V lines wired to the relay? 
+<<<<
+
+
+I am not familiar with the relay you mention above, however, what follows is
+for the more common solid state relays:
+
+
+The relay is basically an on/off device.  You will find that there is no
+difference in the operation of the relay with 3V or 10V input.  This is
+merely the range of control input needed to turn the relay on.  Since the
+relay is a solid state device, you may operate it at a rapid rate to switch
+the power on/off.
+
+
+>>>>
+Or, is there an easier/better way to control the 240V feeding the electric 
+heating element?  I have tried using an electric stove top burner
+controller, 
+but the on/off cycles produced by the controller are spaced too far apart to
+
+
+produce a continuous   and even power level and boil.
+<<<<
+
+
+Correct, and the temperature variations will put much stress on the element.
+What you need is to switch on/off at a rapid rate, I use about 1/2 second as
+a good rule of thumb.  This gives very smooth control and because of the
+mass of the element, can be thought of as continuous analog control much as
+a light bulb is being powered on/off each 1/60 of a second but appears to be
+on continuously.  Actually it is, the filament cannot cool off in the 1/60
+second time, so the bulb is lighted all the time even though the power is
+removed 60 times each second.
+
+
+You can use a 555 IC timer chip in a circuit to vary the on/off from 0 to
+100% with a 1/2 second cycle time.  It is a simple circuit that I have used
+in several controllers.  You will find the circuit in "THE 555 TIMER
+APPLICATIONS SOURCEBOOK" by Howard M. Berlin published by Howard W. Sams &
+Co., Inc. page 32.
+
+
+The output of the 555 drives the relay, the relay is wired up just like a
+simple light switch, in series with the hot (black) wire to the load.  The
+solid state relay provides isolation between the control and output
+terminals, so the low voltage control circuit is completely protected from
+the AC powerline.
+
+
+Ron
+
+
+Ronald La Borde - Metairie, Louisiana - rlabor`at`lsumc.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun,  2 May 1999 00:43:35 CSTCDT
+From: "Anthony & Julie Brown" <brown32`at`web1.ecol.net>
+Subject: CO2 leak?
+
+
+I am working with my first few batches of kegged beer and am now 
+trying to trouble shoot a possible leak in my system.  I am 
+hoping someone here will be able to help me out.
+
+
+I have my keg pressure set to 17lbs for pressurizing and dispensing.
+Every morning I turn on the gas for a few seconds to "top off" the
+pressure in my kegs and turn it off again in case of any possible
+line leaks.  My question is, when I go to turn on the gas at the
+tank, the co2 tank pressure reads zero and the keg pressure is 
+about 2-3 lbs less than the 17lbs I pressurize at.  Seeing as my
+keg still within the first week of being filled, could my beer
+still be absorbing that small amount of co2 every day or would
+it seem to suggest a small leak somewhere I can not find?  At this
+time I can't find a leak, even after spraying soapy water all over
+the keg fittings and co2 tank/regulator fittings.  Is the drop
+in the co2 tank pressure when turned off normal?  Hopefully someone
+has some experience with this....
+
+
+PS.  I do hear my Co2 tank adding some pressure to my keg in the 
+morning when I gas it up so I know I have lost some minimal pressure
+somewhere.
+
+
+Thanks ahead of time...
+
+
+Tony B.
+
+
+
+
+------------------------------
+
+
+Date: Sun, 2 May 1999 08:40:24 -0400
+From: Stephen Klump <StephenKlump`at`compuserve.com>
+Subject: Beer Alcohol Calculator Spreadsheet
+
+
+Hello All,
+
+
+A while back there was a discussion about the various
+equations for calculating alcohol content in beer.
+This post is to inform you about an excel file which
+contains equations/macros to convert spgr to %alcohol.
+
+
+The spreadsheet was developed by Mr. Jim Hackbarth
+at the time with Schlitz, currently with Stroh.  He has given
+permission for these (unpublished) equations to be used
+by the homebrewing community.  The equation of interest
+involves an eighth order linear regression to fit brewing
+gravities with alcohol contents based on the (old and dusty)
+brewing tables used in the industry.  He showed me the
+book of tables which have increments in degree plato to 
+
+
+4 or 5 decimal places.
+
+
+The file can be downloaded from the Ann Arbor Brewers Guild
+web site (Http://hbd.org/aabg)  Mr. Pat Babcock was kind
+enough to post it there - any questions about downloading
+please ask him.
+
+
+Here's how it works:
+You need your beer's starting and finishing specific gravities.
+The spreadsheet  will ask you to enter you starting gravity and %RDF
+(%real Degree of Fermentation).  The second number is to 
+
+
+be manipulated till the finishing gravity (which is automatically
+calculated) equals your finishing gravity.
+The equation will give you alcohol %w/w, %v/w, and calories for
+a 12 oz bottle of beer.  And you also have calculated the %RDF
+ - which is a measure of real attenuation (as opposed to apparent
+attenuation).
+There is also a degree plato to specific gravity calculator.
+
+
+Anyway, i dont pretend to understand the math, nor do
+I claim these as my own.  I apologize that there is a macro
+in the spreadsheet to be downloaded, but my limited 
+
+
+computer/excel knowledge does no allow me to convert 
+
+
+the macro into an equation for the cells.
+
+
+The members of Ann Arbor Brewers Guild have tried it as a beta test
+and no problems have surfaced that I know of.
+
+
+Cheers!
+Stephen Klump, Ph.D.
+Senior Research Scientist
+The (Former) Stroh Brewery Company
+
+
+------------------------------
+
+
+Date: Sun, 2 May 1999 10:36:43 -0700
+From: "John Watts" <watts`at`radiks.net>
+Subject: Cider question
+
+
+As my wife is at long last finishing up her degree program, and she 
+has been very supportive of my hobby, I thought that a special brew 
+would be in order.  She has recently become quite enamoured with 
+Woodchuck Amber cider.  Anyone have a reasonably simple clone 
+of this?  Or of any Woodchuck's products?
+
+
+TIA
+
+
+John Watts
+watts`at`radiks.net
+
+
+
+
+------------------------------
+
+
+Date: Sun, 2 May 1999 11:42:53 -0500 (Central Daylight Time)
+From: "Charles T. Major" <ctmajor`at`samford.edu>
+Subject: Ale & Beer in Germanic
+
+
+The reference is H. E. Kylstra. "Ale and Beer in Germanic" 
+in _Iceland and the Medieval World: Studies in Honor of Ian 
+Maxwell._ Gabriel Turville-Petre and John Stanley Martin, 
+eds. (Victoria, Australia: Wilke & Co., Ltd., 1974).
+
+
+Tidmarsh Major
+Birmingham, Alabama
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 2 May 1999 13:12:30 -0500 (CDT)
+From: Thomas S Barnett <barnets`at`mail.auburn.edu>
+Subject: Mead Questions
+
+
+Hello all,
+        My girlfriend's not much of a beer drinker.  As a result, i'm
+hoping a honey mead, (perhaps with some fruit additions), will be
+something we can both appreciate. Having never made a mead, i thought i
+might get some advice from those more experienced.  First of all, i found
+some locally produced 'Wildflower and Red Clover Honey' which i was hoping
+to use.  Is this a suitable variety, or should i use the lighter
+varieties?  Secondly, how should fruit additions be prepared, how much
+should be used, and when should they be added?  And finally, what
+carbonation levels are appropriate? Thanks. Tom Barnett.  
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 2 May 1999 17:47:15 -0400 
+From: "Lerner, Neal" <NLerner`at`mcp.edu>
+Subject: Free rhizomes in Boston area
+
+
+Hi, Boston-area future hop growers. I have about a dozen each 
+cascade,
+willamette, saaz, and mt. hood rhizomes that I dug up today and will 
+gladly
+give away to anyone interested and willing to drop by and pick them up.
+Please respond to nlerner`at`mcp.edu. 
+
+
+  Thanks! 
+
+
+  Neal Lerner 
+  Brookline, MA 
+
+
+------------------------------
+
+
+Date: Sun, 02 May 1999 23:21:55 +0000
+From: AJ <ajdel`at`mindspring.com>
+Subject: More On: Diacetyl; Red Stuff
+
+
+I have a couple of new pieces of data to report concerning dicetyl.
+
+
+1. In further fiddling around with diacetyl I discover much to my
+surprise (I always thought I was one of those insensitive individuals)
+that I can taste and smell the stuff quite distinctly at 0.025 mg/L in
+DI water. This was checked double blind. I mixed DI water with diacetyl
+in one of two beakers and filled the other with DI just DI water. My
+assistant (OK, my wife) filled two glasses from the beakers. She didn't
+know which beaker had the diacetly but was aked to keep track of which
+beaker each glass came from. I didn't know which beaker was filled from
+which glass. I was able quickly, easily and confidently to determine
+which sample had the diacetyl. Thus I'm detecting it easily at a quarter
+to a half of the nominally reported  detection threshold (0.05 to 0.1
+mg/L). The assistant cannot detect it by smell or taste at 0.025 mg/L).
+I don't believe that I would be able to detect it at this level in beer
+where other flavors/aromas would mask it.
+
+
+2. Diacetyl isn't reduced by Campden tablets, at least in a water
+solution. I had wondered earlier if this might work and it might in the
+presence of the proper enzyme (diol dehydrogenase?). It doesn't seem to
+be reduced by ascorbic acid either.
+
+
+3. Dave Miller in his "Continental Pilsner" (Brewers Publications,
+Boulder) cites 0.1 mg/L as the taste threshold for diacetyl and lists a
+level of 0.15 mg/L for Pilsner Urquel which level he calls "well over
+the taste threshold" and then goes on to say that this borders on the
+objectionable range but is not objectionable in this case because of the
+synergism with other components of the beer flavor. I have measured
+Pilsner Urquel and found its diacetyl level (one sample, bottle, export)
+to be 0.20 mg/L i.e. reasonably close to what Miller reports. While I
+can definitely taste this level in DI water, I cannot detect the
+presence of diaceytyl in Pilsener Urquel as diacetyl because, as Miller
+says, it blends to enhance the caramel, sweetness and nuttiness. My own
+last lager was brewed with Wyeast Czech Pils, pitched at 43, fermented
+at 47  and not given a diacetyl rest (intentionally). It measured 0.27
+mg/L and I can taste and smell the diacetyl in it as diacetyl. I don't
+consider it objectionable at this level and now that I know what it is I
+recognize that I've had it before with this yeast strain. In otherwords,
+I'm now much better educated as to what diacetyl tastes like and smells
+like both in beer and by itself.
+
+
+4. Based on measurement, the Miller book, experiments with diacetyl in
+water and my last Pils I find it hard to believe that PU's diacetyl
+level is higher than about 0.2 mg/L nor that other Bohemian Pilsners
+would go much higher than say 0.3 becuse it gets pretty unpleasant to
+many at those higher levels. I haven't tested any other Bohemian Pils
+except Eger Urbier (0.11 mg/L). Cheb, where this is brewed, is a border
+town (with Germany) so perhaps they tone the diacetyl down somewhat
+there. Both the PU and the Eger samples were, of course, imported into
+the US and there is the possibility that diacetyl is toned down for the
+US market. But Bohemian Pils spiked to the 0.6 level is pretty one
+dimensional and that dimension is diacetyl. At this level it is very
+objectionable to some drinkers (e.g. my assistant).
+
+
+5. While I don't consider the smell of neat diacetyl all that pleasant
+my reaction to it isn't nearly as strong as Marc Sedam's. It never got
+near cookie-tossing level. I note, however, that the bottle is marked
+"stench".
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+On to the red stuff that precipitates when iodophor is added to hard
+water.
+1. The precipitate doesn't form unless the water is pretty hard and the
+stregth of the iodophor is pretty high.
+2. If the iodine is reduced to I- by metabite or sodium sulfite the
+precipitate disappears.
+3. If the iodine is reduced to I- before the calcium is added the
+precipitate does not form.
+4. I did a quick test for phosphate on an iodophor solution and did not
+detect any. Doesn't mean it isn't there. Just that I didn't find it in
+the quick test I did.
+
+
+Based on these observations I withdraw the suggestion that the red
+precipitate is calcium phosphate, apatite or anything similar.
+- --
+A. J. deLange
+Numquam in dubio, saepe in errore.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 2 May 1999 19:08:54 -0500
+From: "Mark Vernon" <mkv`at`netins.net>
+Subject: Efficiency
+
+
+Help, ...
+How do I increase my effidiency. My last few all-grain batches have been
+around 60%. I crush my own grain with and Automatic Mill, run the grain
+through twice on the 3rd and 2nd setting (not sure of the gap). Single
+Infusion mash temp on last batch was 155deg, for 60 min 1.33 quarts per
+pound of grain. Any ideas?
+
+
+Mark Vernon MCSE+I, MCT
+mkv`at`netins.net
+www.pleasantstreet.com
+
+
+Beer is proof that god loves mankind...
+    Ben Franklin
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 02 May 1999 17:34:21 -0800
+From: "Alexander S. MacGillivray RN" <alex_macgillivray`at`admin.state.ak.us>
+Subject: Cherries
+
+
+Does anyone know of a mail order place where I can find some choke
+cherries? Also, if anyone has a 10 gallon Gott cooler they want to get
+rid of and a 100,000 btu burner as well please let me know. Up here in
+Alaska it's hard to find things like that. Thanks in advance guys,
+
+
+Alex
+
+
+"Remember Alex states with ale"
+
+
+
+
+------------------------------
+
+
+Date: Sun, 02 May 1999 21:08:12 -0700
+From: "Grant W. Knechtel" <GWK`at`hartcrowser.com>
+Subject: Schaarbeek Cherries
+
+
+I posted a question a few weeks ago as to the botanical name for the 
+Schaarbeek cherries essential to making Kriek Lambic, as I was hoping to 
+track down some planting stock.  I had 5 private replies but no one knew 
+the proper name, so I repeat the question in case there's a knowledgable 
+person out there now who wasn't before.  Some had tried some years ago on 
+the same quest and been unsuccessful.  Thanks for the interest from those 
+who replied!  Prost
+
+
+ -Grant
+Neue Des Moines Hausbrauerei
+Des Moines, Washington USA
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 07:47:23 -0400
+From: larson.jt`at`pg.com
+Subject: We're not all smart...
+
+
+Just a quick hint for any other cerebrally-challenged brewers out there: DO
+NOT under any circumstances try to improve the heating capability of a
+170,000 btu propane burner by putting up wind shields on all four sides
+(Especially on the outside of the gas line).  Once the gas line melts, the
+brewing day is kinda ruined.  I feel stupid but lucky.  Will my freshly
+crushed grain remain fresh for at least a week?
+
+
+Todd
+larson.jt`at`pg.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 May 1999 12:09:35 +0000
+From: AJ <ajdel`at`mindspring.com>
+Subject: Aerating Water/ Diacetyl
+
+
+Doug Brown asks about the value of aerating water as a treatement. It
+certainly has its uses. It is effective in eliminating iron as it
+converts clearwater iron (FeII) to rust (FeIII) which can then be
+removed by filtration through a back washable sand bed. It does the same
+to manganese. Volatiles, sulfides mostly, are swept out as is chlorine
+but not chloramine. Chloramine can be removed by activated carbon
+granules (GAC) and it is now common to package those with KDF, an allow
+which will reduce heavy metal ions (copper, lead, mercury, chromium)
+causing them to plate onto the alloy. Oxidation, GAC and KDF will not
+remove calcium, magnesium, sodium, potassium or bicarbonate. Aeration
+will, however, expell carbon dioxide gas thus raising the pH of the
+water without the need for a neutralizer (which increases the
+alkalinity).
+
+
+* * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * * * *
+*
+
+
+Laurel writes that 2,3- butane dione and 2,3 - pentane dione are
+produced in approximately equal quantities in a normal beer. Kunze shows
+some example data showing diacetyl levels peaking at about 0.07 mg/L and
+pentanedione at about 0.02 - 0.03. Is this inconsistent with other
+data/experience? By the way, Kunze has a pretty nice discussion of this
+subject. For example, the precursor to 2,3 - pentane dione is revealed:
+it is 2-Acetohydroxybutyric acid.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * *
+
+
+Jeremy Bergsman reports that he works with a 1% V/V diacetyl solution in
+EtOH. I've been using a 1% V/V solution in water. What's the advantage
+to using EtOH?
+By the way, did anyone catch my slip on the BP of ethanol. It (at 77) is
+not that close to diacetyl's (88).
+- --
+A. J. deLange
+Numquam in dubio, saepe in errore.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 May 1999 08:17:22 -0500
+From: Nathan Kanous <nlkanous`at`pharmacy.wisc.edu>
+Subject: bottling my kegged barleywine
+
+
+Hi Everybody.  I just got done moving.  Since I wasn't ready to bottle my
+barleywine, I kegged it for the move.  It's under about 10 PSI of CO2.
+Now, I'd like to be able to bottle it.  I don't want to CP fill the
+bottles.  I don't have a CP filler and I'd like to condition this beast on
+the yeast.  I could vent the pressure and tap the keg and run the
+barleywine into a carboy and leave it for a week or two and then bottle as
+planned.  I suspect that within that time frame, most of the "excess" CO2
+(above atmospheric) should escape and then I could bottle as usual.
+Anybody else had the pleasure of doing such a thing?  Any tips would be
+appreciated. 
+
+
+Just to summarize and make sure I said it right, the barleywine is kegged
+under 10PSI and I want to bottle condition it and I don't have, nor want to
+use a CP bottle filler.  Any info on how to get it from keg to bottle with
+added yeast and primings would be appreciated.
+
+
+nathan in madison, wi
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 May 1999 23:37:29 +1000
+From: David Lamotte <lamotted`at`ozemail.com.au>
+Subject: Nitrogen Solubility
+
+
+In HBD 3020 there were a few guesses as to the relative solubility of
+N2 and CO2 with QDA's ranging from 10 to 300 times.
+
+
+To help prolong the this gas debate a little longer, I have looked up
+my SI Chemical Data book (2nd Edition 1971).  I know that it is old
+but is is a long time since I went to school.
+
+
+Solubility is quoted in grams of gas per kg water as follows :-
+
+
+At 0 deg C        N2        0.0294
+                C02        3.35
+                which is 114 times
+
+
+At 20 deg C        N2        0.0190
+                C02        1.69
+                which is 89 times
+
+
+Now back to the ASCII art for someone to explain how this translates
+into pressures measured on our guages ...
+
+
+Keep on smiling
+
+
+David Lamotte
+Brewing down under in Newcastle, NSW, Australia
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 08:40:06 -0500 (Central Daylight Time)
+From: "Charles T. Major" <ctmajor`at`samford.edu>
+Subject: Cleaner for kegs
+
+
+I use Electrasol, which is a a brand of dishwasher 
+detergent (whichever brand you choose, unscented is always 
+a good idea). At 1 cup/5 gallons it works great for 
+removing beer gunk, both from the inside of kegs and glass 
+carboys.  Mixed with hot water, the icky kraeusen ring on 
+the inside of the carboy dissolves and drops to the bottom 
+with 30 mins with no scrubbing.  I typically wipe out the 
+inside of my kegs with a sponge and run a brush through 
+the dip tube, just because I can. All in all, dishwashing 
+detergent seems like a powerful yet relatively mild brewery 
+cleaner.  I believe that Joe Rolfe has also recommended it 
+in this forum in digests past.
+
+
+Tidmarsh Major
+Birmingham, Alabama
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 09:52:42 -0400
+From: "Jeff Beinhaur" <beinhaur`at`email.msn.com>
+Subject: SureScreen
+
+
+OK I give up. I recently upgraded my system to brew ten gallon batches. I'm
+now 6 sessions into this setup and have gotten beyond my stuck sparge
+problems and leaky valves. Other than installing pumps to move the brew
+around (cause that 10 gal. batch gets heavy to move around for a gravity
+system) I'm down to one problem. Having brewed this past weekend, every
+thing worked like a charm. A good recirc, steady sparge, good conversion,
+etc., etc. I hoisted my 18 gallon brew pot full of 12 gallons of wonderful
+aroma. Started my boil, added my hops (whole leaf and quite heavily as this
+is to be an APA), no boil over but a good rolling boil. Used my wort chiller
+for the first time and within 15 to 20 minutes I as was at 80 degrees. Again
+carefully hoisted the pot to high enough point to fill the carboys.
+Confidently place the fill tube from the pot into the carboy opened the
+valve and a strong flow began. Problem is that lasted about 5 seconds and
+then nothing. With all of the hops and I assume break material the
+SureScreen was clogged. In the past I've tried a stainless steel scrubby
+around the screen and this helps but it still gets clogged. I've tried
+whirlpooling but maybe I don't know how to do this either. My last resort is
+the old "hairy arm" technique to keep the screen from clogging. Any help or
+suggestions would be greatly appreciated as I'm getting tired of naming my
+brews the "Hairy Arm Pale Ale".
+Actually, I am naming this last brew the Red Bud Pale Ale, since my red bud
+(tree not beer), was dropping its flower pedals and I'm sure a few found
+there way to the kettle. Hmmm, wonder what flavors that will instill.
+
+
+TIA.
+
+
+Jeff Beinhaur, Camp Hill, PA
+Home of the Yellow Breeches Brewery
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 09:50:34 EDT
+From: Brewinales`at`aol.com
+Subject: tomahawk hops
+
+
+i was talking with a guy on the brew-rat chat who  was mentioning his love of 
+tomahawk hops, claimed they were 17+%aa, with wonderfull spicy aroma, didn't 
+know much about ancestry ect. anybody ever heard of them?
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 May 1999 09:55:02 -0400
+From: kathy/jim <kbooth`at`scnc.waverly.k12.mi.us>
+Subject: lawnmowing
+
+
+As if this thread hadn't outrun its.........anyway.
+
+
+I've always presented the beer world I know to questioners, as a USA
+world of a few brands of "quench your thirst beers" and alot of low
+volume brands of "sippin" beers. Those Miller beer ads with the
+celebrating sports players (complete with slender, admiring, beautiful
+femmes) high fiving in the pub, or the Busch ads of the cowboys in the
+mountains chasing mustangs while the Busch cools in the icy stream of
+splashing mountain water...thems the "quench your thirst beers".
+
+
+Now...for an evening/afternoon of conversation and maybe listening to
+Irish folk music, blues or an umpah band in a bier garten, or playing a
+few hands of bridge, or having with a prime rib; these call for "sippin"
+beers.  These have flavor presence that resist chugging even tho those
+huge mugs of cool Ocktoberfest/Vienna, get gulped anyway.....I just
+can't sip my way thru a mug that size.  
+
+
+If folks break out of the BudMillerCoors mold, they switch
+modes to sipping beers and savoring the smell, the flavor, the mouthfeel
+and finally the aftertaste.  Those longnecks of "Lite" full of biting
+cold carbonation and little else, serve an important purpose in the
+hurried inbetweens of sets of line dancing or breaks in the ski
+session.  
+
+
+Can a hot, thirsty tourist drain a wit, a bitter, a hefeweizen, a
+Guiness or a Kolsch?  I can, so my "either/or" worlds maybe a bit
+shakey, but it helps me explain to the mainstream beer drinker why the
+bier world is so fasinating to me. Now to get to work so I have time to
+brew a CACA.
+
+
+cheers, jim booth, lansing, mi
+
+
+ps  set your lawnmower at 3" high,  its better for the grass and you
+don't have to cut it so often.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 09:18:36 -0500 (CDT)
+From: Joel Plutchak <plutchak`at`ncsa.uiuc.edu>
+Subject: Frothy Heads/Dark Wheat
+
+
+
+
+   On the topic of nitrogen, heading, and Guinness...
+
+
+Pat Babcock wrote:
+>Frankly, I'm firm in my belief that all nitrogen in stout does is gives
+>us the means to agitate the beer to the point it outgasses CO2....
+>In the widget, this is accomplished by by the jet of beer - beer
+>which got into the widget through the expansion of gasses in the
+>container forcing it in - agitating the remainder of the beer. In a
+>sparkler, the source of agitation is similar: forcing the beer through
+>a shower head causing multiple jets of beer.
+
+
+Conversely (at least partially), Dave Burley reasons that...
+
+
+>Nitrogen( or some non-soluble gas) is necessary to get the
+>characteristic foam on a Guiness. I agree that it is the
+>protein and other surfactants which are necessary to get a
+>foam, but the stability of the foam is due to the gas content
+>of the bubble. 
+
+
+   Just to throw another point of fact into the arena...
+
+
+   Several years back (maybe around 1991), before the advent
+of the widget, a friend hiked around England and Ireland,
+bringing me back a 6-pack of Guinness he bought at the
+brewery.  It came with a little black syringe-like thingy.
+One was instructed to inset the syringe in the beer in your
+glass, draw some up, then forcefully inject it back into the
+glass.  The result was a nice creamy Guinness-like head on
+the beer, without the benefit of nitrogen.  At the time, I
+tried it on other beer and got the same result.
+   I have no recollection as to whether the head lasted as
+long as a nitrogen-dispensed or N2-widget head.  I do still
+have the syringe-thingy, so I can do some side-by-side tests.
+- -------------------------------------------------------------
+
+
+Meanwhile, "Dr. Pivo" asks:
+>Just where do you get "dark wheat"?
+
+
+   While I don't think he asks the right question, I do have
+one answer.  Schreier Malting Company (Sheboygan WI USA) sells
+a roasted wheat from their partner DeWolf-Cosyns (somewhere in
+Belgium).  Seems to be more closely related to their Biscuit
+malt than to, e.g., roasted barley.
+- --
+Joel Plutchak <plutchak`at`uiuc.edu>
+Brewing Big in Flatlandia (aka Champaign-Urbana), Illinois
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 10:23:23 -0400
+From: Dan Listermann <72723.1707`at`compuserve.com>
+Subject: Plaster of Paris
+
+
+Frank Timmons ( Frank.Timmons`at`Allied Signal.com )  writes:
+
+
+<Plaster of paris is just calcium sulfate (half hydrate, for the chem.
+geeks), with usually a little calcium carbonate as an impurity.>
+
+
+While I may be wrong, I believe that I was taught that plaster of paris 
+had
+iron filings in it to compensate for srinkage.  It seems that the iron
+filings rust during the curing of the gypsum  and  rust has more volume
+than the origional filings.  The proper ratio produces no srinkage.
+
+
+Dan Listermann      dan`at`listermann.com        72723.1707`at`compuserve.com
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 09:46:27 -0500
+From: "Rob" <brewmasters`at`texasbrew.com>
+Subject: re O2 caps
+
+
+>Call me a purist, but the shop I buy my caps from has them in an open box
+>from which I use a metal scoop to transfer them to my waiting bag. Being
+>open as such, I cannot be certain that they would be in the same state as
+>those taken from a freshly open box (possibly the key to their/your
+>success with the no-clean method). Any brewer worthy of their salt will
+>tell you that you don't want to expose wort or beer to grain dust, right?
+>All those lacto-buggies (among others) like to hitchhike on the husk and
+>end up on the dust, we're told. Well, I've never seen much care taken in
+>this particular shop (or any other, for that matter) to prevent said dust
+>from mingling with the nearby caps.
+
+
+
+
+They really have them in an open box? Ok I can see the problems there. All
+of the caps we sell
+we have in in bags. (to keep the dust/buggies off) I just didn't think that
+the Homebrew shop would
+sell them that way.
+
+
+Rob
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 09:50:30 -0500
+From: "Curt Abert" <abert`at`flanders.isgs.uiuc.edu>
+Subject: re: draught question
+
+
+Greetings all,
+
+
+Al K. wrote in HBD #3018:
+
+
+> Finally, you should be prepared to *clean* and
+> sanitise the lines periodically.  I chose to not
+> put my faucets on the outside of my cooler.  Despite
+> the fact that my hoses and faucets are refrigerated,
+> I still get mould growth inside the faucet!  This
+> will only be faster in an unrefrigerated faucet.
+> You may find yourself shutting off the system and
+> soaking the faucets in BLC (beer line cleaner)
+> a lot more often that you would like.
+
+
+While I agree with Al on the practice of sanitizing the lines,
+my experience is the exact opposite of his when it comes to
+the taps.  I used to leave my cobra taps attached to the keg
+stored in a refridgerator, and I too suffered from mold growth
+on the taps.  However, this winter I upgraded to a 3-tap
+tower system on a 'keggerator', and have found no mold
+growth on the taps stored at ambient air temperature.
+
+
+My guess is that the relatively high humidity found in
+the fridge is the culprit, not the temperature.
+YMMV, of course.
+
+
+Curt Abert
+Champaign, IL
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 10:50:32 -0400
+From: "Nathaniel P. Lansing" <delbrew`at`compuserve.com>
+Subject: foam discussion
+
+
+Dave says DeClerck states, "A gas such as carbon dioxide which is
+moderately
+soluble in water, diffuses much more rapidly
+through the films surrounding the bubbles than
+does air. Thus, a head formed by air is much
+more stable than one formed with carbon dioxide"
+
+
+If a bubble filled with air is surrounded with air
+what would be the cause for diffusion?
+So yeah, it would be more stable.
+- --------------------------------------------------
+Dr. Pivo mentions perculation testing that shows nitrogen
+is significantly soluble. I am not clear where his nitrogen/water
+interface was, was that at the working depth of 400 metres?
+If that is the case then wouldn't the working pressure be
+in excess of 640 PSI? and I'm sure nitrogen would show
+increased solubiltiy at that pressure. Without seeing
+a schematic of the system I may be missing the evidence there.
+  If we can trust Dr. Lewis' figures of .018 volume
+of N and 1.8 CO2 in a stout with a blend of N/CO2 at the ratio
+of 1:3 at a pressure of 45 PSIA that puts the solubity of nitrogen
+hundreds of time lower than CO2, but that is beer, simple water
+reacts differently.
+  From *anecdotal* evidence, gases don't just *pop* out of solution
+instantaneously. Look at any beer you've opened, doesn't it take
+hours for a beer to go still after opening? The CO2 evolves slowly
+over a period of time, or we'd always have flat beer or bars would
+have evolved into specially licensed hyperbaric chambers.
+This was the point of my relating it to the "bends".
+If nitrogen evolved out of solution at the same rate that CO2
+left solution there would be no "bends". This is why the switch to
+helium blends for deep diving that *do* exit solution as fast or faster
+than CO2.
+
+
+- -----------------------------------------------------
+ 
+
+
+Dave also said,
+>"When someone starts a tirade with his credentials
+>in the format like "I have forgotten more technology
+>in brewing than I know", I watch out.
+
+
+ Similarly if someone says,"I taught him all I know and he still doesn't
+know a thing." better duck. <g>
+
+
+------------------------------
+
+
+Date: Mon, 03 May 1999 09:55:19 -0500
+From: Nathan Kanous <nlkanous`at`pharmacy.wisc.edu>
+Subject: Mash thickness with recirculation
+
+
+Hi!  For those of you that use pumps to recirculate the mash (RIMS, HERMS,
+etc.) what sort of grist to water ratio do you use?  I realize that with a
+false bottom, you have to have enough strike water to cover the false
+bottom, but beyond that, what sort of ratio do you use to "allow" you to
+recirculate with a pump?
+nathan in madison, wi
+trying to prevent problems before they begin
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 10:57:07 -0400 (EDT)
+From: John Varady <rust1d`at`usa.net>
+Subject: AC Q's
+
+
+I am finally putting the finishing touches on my walk in cold room. I am
+planning on using an AC unit to cool the room to 52F. I am wondering what
+the AC will do when the temp of the air outside is lower that the temp in
+the cold room? Will the fan on the AC turn on and draw cold air from outside
+into the box without running the compressor? I was planning on using a two
+thermostat arrangement that would either run the AC or a muffin fan
+depending upon the temp of the air outside. If it is lower than the set temp
+of the room then the fan would turn on, otherwise the AC would turn on.
+After thinking about it, I thought that perhaps the AC unit would only run
+the compressor when it was needed. I am trying to save electricity by only
+using the AC when necessary (especially in the fall/winter/spring when
+outdoor temps are lower than 52F).
+
+
+If the AC cannot handle this task on it's own, what kind of circuit
+arrangement would I need to do what I want? My guess is:
+
+
+I would need one temp controller to switch power between the muffin fan &
+the AC depending upon the temperature outside. Say, for example, the set
+temp is 52F. If the outside temp is 52F or lower the muffin fan would be
+supplied power. If the outside temp is greater than 52F, the power would be
+switched to the AC. I assume I would need some kind of a relay to switch the
+power between the two.
+
+
+A second controller would sense the temp inside the cold room and turn on
+the power to the above circuit (which would then turn on either the fan or
+the AC and cool the room).
+
+
+ -
+
+
+I had a blast at the big brew last weekend. I made 15 gallons of AlK Alt
+(100% Munich to 1052 & 55 IBUs; mostly from Spalt, but about 25% from
+Hallertau since I only had 1/2 pound of 3.5 AAU Spalt, not quite enough to
+hit 55 IBUs). We were having so much fun, we forgot to toast at 2 pm. Our
+site had an importer (John Strong) from Warminster Malting stop in and hang
+out for a while. He ended up leaving us 4 25kg sacks of floor malted Marris
+Otter Pale Ale. I can't wait to try it in my next batch.
+
+
+Later,
+
+
+- -- 
+John Varady                     The HomeBrew Recipe Calculating Program
+Boneyard Brewing                Custom Neon Beer Signs For Home Brewers
+Glenside, PA                            Get More Information At:
+rust1d`at`usa.net                  http://www.netaxs.com/~vectorsys/varady 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 May 1999 11:12:53 -0400
+From: Matt Brooks <mabrooks`at`erols.com>
+Subject: Calcium Phosphate precipitation
+
+
+In HBD 3019 Alan Meeker wrote,
+
+
+>Matt, I don't understand your stated requirement for high pH in order
+to get CaPO4 to precipitate.
+
+
+My post was not intended to imply that CaHPO4 (I am not certain CaPO4 is
+a compound? ) would not form in brew water or wort as it very well
+may.   Actually, if you had read my post thoroughly, as a grad student
+in the sciences (I myself having been one not too long ago) who is
+reviewing a technical statement for critique should :^) , you would have
+noticed that I said "Hydroxyapatite" would not form unless the pH was
+over 11.0, this statement is true.  Hydroxyapatite is a more complex
+form of calcium phosphate precipitate... Ca5(PO4)3OH.... which
+precipitates out at high pHs.
+
+
+Certainly Calcium Phosphate will precipitate out of a solution with
+excessive levels of both Ca and PO4 available (especially the
+orthophosphate), and favorable conditions prevail,  unfortunately I dont
+believe there will be a whole lot of free Ca available for the reaction
+to occur (unless of course the brew water has an excess of non carbonate
+Ca hardness, which would make it less then ideal for most beers) or of
+course the brewer is adding CaCl2, or CaSO4.  Even if the brewer is
+adding readily available forms of Ca it is not as simple as adding two
+reagents to a test tube to get CaPO4 to precipitate out of solution, as
+there are numerous other reaction competing in the mash.
+
+
+>The only source I could quickly lay my hands on (MBAA The Practical
+Brewer) quotes PO4 levels in wort >at between 575 and 846 mg/L for a 12
+degP wort.
+
+
+A question regarding MBAA analysis of "PO4" concentrations in wort,  are
+these actual orthophosphate concentrations (the readily reactive form of
+phosphorus) , are they recorded as "mg/L as phosphorus" it is very
+unusual to post a PO4 concentration alone rather the convention is to
+post orthophosphates in "mg/L as phosphorus".  Unless the PO4 is readily
+available (weak acid or strong base form, as in a phosphate buffer
+soln.. also high localized PO4 concentrations are key for getting the
+precipitation to occur) for the reaction with Ca it would take a bit of
+coaxing to get it going, if it proceeded forward at all.   The calcium
+phosphate system is very complex, and there are a variety of solids that
+can form.  These solids can be grouped as follows:  Orthophosphates,
+Polyphosphates, Mataphosphates, and Organicphosphates,  within these
+major groups there are numerous individual compounds that may form as a
+result of phosphate complexing.   Also the absence of excessive
+alkalinity (over and above the hardness requirement) will need to be
+investigated, as CaCO3 will tend to readily form if additional Ca
+becomes available from CaCl2 additions.
+
+
+In short, can CaHPO4 precipitation occur in wort, perhaps, but I dont
+think it is occurring.  Maybe someone can convince me otherwise,  as I
+have been known to be wrong before, but just once, and that was when I
+thought I was wrong,  but as it turned out I was actually right   :^).
+
+
+
+
+Matt B.
+Northern VA.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 May 1999 08:27:42 -0700
+From: "Larry Maxwell" <Larry`at`bmhm.com>
+Subject: Re: "Dr. Pivo"
+
+
+Dave Burley writes:
+
+
+>If I have to call Dr. Pivo "Dr." ( whether he is or
+>not so educated), then lots of other folks here,
+>including me, should be so honored.  Frankly,
+>this is not a forum for that kind of name calling.
+>Like all others, I prefer  to be called by my given
+>name or nickname - please stick to "Dave"
+
+
+If "Dr. Pivo" is not his nickname, then he is one
+lucky brew(st)er!  Cool name.
+
+
+ -Larry (just "Larry") in San Diego
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 11:29:16 -0500 
+From: Vachom <MVachow`at`newman.k12.la.us>
+Subject: MI hops-grower needed
+
+
+After several months of fast-talking, I've convinced my mother, an
+herb-farmer, to produce hops on her farm in northern Michigan.  Word has
+gotten out quickly, and she has already received orders for dried hops and
+rhizomes from local brewers--and the hops are still in planting flats in the
+greenhouse.  My mother is in need of advice, however, from an experienced
+hops grower.  She's done lots of reading, has decades of horticultural
+experience with a wide variety of flowers, herbs, vegetables, etc., but
+she's been gardening privately and commercially long enough to know that she
+needs some on-site, practical advice from someone who's grown
+hops--particularly on how to protect the plants from vermin and disease.  If
+you live in Michigan or plan on visiting this spring and have hops-growing
+experience, please drop me an email.  It's a beautiful farm, right in cherry
+country, lots of flowers, herbs, etc. near lots of vacation attractions.
+I'm certain such an adviser would get some free fresh hops and rhizomes,
+too.  
+
+
+Mike
+New Orleans, LA
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 May 1999 12:39:01 -0400
+From: Matt Brooks <mabrooks`at`erols.com>
+Subject: CaPO4 Precipitate
+
+
+In HBD 3019 AJ wrote:
+
+
+>Matt Brooks posted in #3016 that phosphate does not precipitate until
+>high pH is reached and that the precip does not form on an equivalent
+>per equivalent basis. Strictly speaking neither of these statements is
+>quite correct
+
+
+Actually I said that "Hydroxyapatite" [Ca5(PO4)3OH] does not precipitate
+until the pH reaches 11.0, which still holds true.
+
+
+>These reactions occur on an equivalent basis as do all reactions
+
+
+not really:
+
+
+this particular reaction (hydroxyapatite formation) is a pH driven
+reaction, not a milliequivalent per milliequivalent based reaction, as
+the hydroxyapatite compound has an OH attached which is a direct result
+of the excessively high pH at which this reaction occurs.   The
+formation of hydroxyapatite is spontaneous at pH 11.0 and will only
+cease when all the PO4 is complexed with Ca or the pH is lowered.
+
+
+As I just posted to the HBD about CaPO4 complexes suffice to say there
+is alot of competing reaction and there are way too many phosphate
+complexes (Orthophospates, Polyphosphates, Metaphophates, and
+Organicphosphates), that could form in a wort solution that may take
+precedence to calcium phosphate precipitation.
+
+
+Could calcium phosphate precipitation occur, certainly, does it occur I
+don't think so, not to the extent that it plays a role in the brewing
+process (i.e. negative effects)....
+
+
+> we raise the pH converting
+>them to, respectively CO3-- and PO4---, in the presence of calcium as,
+>for example, by using calcium hydroxide as the alkali). This promotes
+>the formation of highly insoluble calcium carbonate and calcium
+>phosphate (actually hydroxyappatite in the case of phosphate)
+
+
+Actually as stated above "Hydroxyapatite" will not form unless the pH is
+11.0 or greater, Calcium Hydrogen Phosphate, or Tricalcium Phosphate may
+form at lower pHs but to my knowledge the hydroxyapatite form does not
+occur at less then pH = 11.0.
+
+
+>Furthermore, the solubility product of hydroxyappatite is uncertain to
+about 10 orders of magnitude.
+
+
+perhaps, however the K (so) of hydroxyapatite is 10 (-55.9- uppercase)
+which is about as small as I have seen for a compound (except Fe2S3) so
+10 order of magnitude seems of little consequence, as 10(-45) is still
+quite insoluble.
+
+
+Also, the statement that barley malt is 1% phosphate does not indicate
+that it is in the reactive form of orthophosphate [HxPO4] (where x = the
+number of hydrogens), it could be bound up in Organicphosphate (or
+other) complexes such as glucose 6-phosphate, or phospholipids,
+nucleotides, phosphoamides etc.......  Unless of course you meant that
+barley was 1% orthophosphate, which seems a bit excessive to me, one
+would first have to break the existing phosphate complex to get
+phosphate onto the reactive form before calcium could complex with it,
+unless the complex was relatively weak to begin with, this could be a
+challenge.
+
+
+I hope this post does not escalate into another ongoing debate about a
+topic that I dont believe really makes a difference in the brewing
+process, and isnt that the bottom line.........does it make a
+difference?
+
+
+
+
+Matt B.
+Northern VA.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 May 1999 12:42:14 -0500
+From: "Anthony Brown" <brown32`at`ecol.net>
+Subject: dispensing pressure
+
+
+Just another quick kegging question...
+
+
+I store my beer in kegs in the fridge at around 40 degrees, and to
+carbonate it to my
+liking I need to pressurize to 18 or so psi.  To dispense however, i need
+to crank it down to 8 or so psi to avoid excessive foaming even with 6 feet
+of 3/16" tubing attatched.  My question is after my beer is adequately
+carbonated at 18 psi, can I just leave the pressure in the kegs at 8-10 psi
+for dispensing without losing carbonation over time?
+
+
+Any help would make my life easier without all that regulator adjusting,
+and I would really rather not have 8-10 feet of tubing wrapped up in my
+fridge....
+
+
+Thanks, 
+
+
+Tony B.
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3021, 05/04/99
+*************************************
+-------

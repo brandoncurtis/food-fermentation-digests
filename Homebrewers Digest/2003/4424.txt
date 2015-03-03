@@ -1,0 +1,711 @@
+﻿Subject: Homebrew Digest #4424 (December 12, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4424                             Fri 12 December 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: RIMS Controller ("Gary Smith")
+  P.damnosis ("-S")
+  Transporting Kegged Beer (Bob Hall)
+  CIP products ("Kenneth Peters")
+  RIMS Temperature Control ("Todd M. Snyder")
+  Renner's Eggnog ("David Craft")
+  Thanks Pat ("Michael O'Donnell")
+  Brewing Botanicals (Sweet Gale and Grains of Paradise) (Alexandre Enkerli)
+  Re: The elusive maltiness ("Martin Brungard")
+  Wiki for Beer and Brewing?? (Alexandre Enkerli)
+  Wiki, wiki (Pat Babcock)
+  Re: Grains of Paradise ("Kevin Morgan")
+  Counter Phil thingy - huh? (Torrey Nommesen)
+  corny fermenters ("Patrick Hughes")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job. Note that the Digest now
+  automagically protects your address, so spam-proofing is a waste of
+  your time, anyway :^)
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 11 Dec 2003 01:04:20 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Re: RIMS Controller
+
+
+
+
+
+
+<snip>
+
+
+> So is there a company that sells a RIMS controller and
+> temperature probes?
+
+
+Dave,
+
+
+Look at my rims page. I've listed the kind of PID controller I chose. 
+It provides a pulsed DC output which increases in firing sequence 
+the farther from the setting it is. The closer to set temp, the more 
+off time. Above set temp there is no firing. This controls a 50A 
+SSR triggered by +3-32V This PID I believe ranges around 
+10VDC. It sells new for around $200. I believe mine is a 
+CN9121A with the pulsed primary & 5A SS relay secondary 
+output. I could see no advantage to using a relay output from 
+the PID and using the SSR handles all of it quietly & without 
+welded contactors.
+
+
+I'm thinking still of running my ultra low watt heating element 
+(82" worth of element) at 220 and in that case I'll simply add a 
+second 50A SSR in parallel and the second line through it.
+
+
+I got the PID on Ebay for I believe $35 new.
+I bought three 50A SSRs for like $2.75 each new.
+
+
+The thermocouple was sold by Movingbrews which is belly up 
+but it's a "J" style and in the rims I've got, the temp never varys 
+more than 1 degree F down (never goes over) once the set 
+temp is attained and I run my march pump at full output 
+(5 gal/min). My last batch of wheat was an experiment and 
+I used around 50% wheat and the RIMS with this controller 
+was still full output & the same temperature stats.
+
+
+This "J" has a nice wire braid shielding the wires.  Any 
+decent thermocouple should be just fine.
+
+
+Like everything on ebay, there's good deals to be had until 
+someone gung-ho decides they just have to have "whatever" 
+right now & then the bidding goes un-necessarily high.
+
+
+Patience grasshopper...
+
+
+Gary
+
+
+Gary Smith
+CQ DX de KA1J
+http://musician.dyndns.org
+http://musician.dyndns.org/homebrew.html
+
+
+
+
+"Give a man a beer and he'll drink for five minutes.
+Teach him where the beer is, he'll drink for a lifetime and get it himself".
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 02:43:31 -0500
+From: "-S" <-s at adelphia.net>
+Subject: P.damnosis
+
+
+You cannot identify an infection organism by aroma and taste alone.  All
+sorts of infection organisms share very similar metabolic processes and
+by-products.   There are dozens if not hundreds of  organisms that can
+create butter and sweatsocks flavors alone.  In combinations many more
+possibilities for infection exist..  The probability that Jay Spies has
+P.damnosis is low.
+
+
+Identifying the organism is a difficult expensive task, and generally
+unimportant compared with recognizing that infection is present and dealing
+with its source, as Jay has done.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 08:30:08 -0500
+From: Bob Hall <rallenhall at toast.net>
+Subject: Transporting Kegged Beer
+
+
+Gary Smith offered an interesting method for transporting his kegged brews:
+
+
+"BTW, I did purchase a 3 gal keg for ease of
+transportation & if I'm going visiting with the
+3 gal keg, I fill it 1/2 way & pressurize it so I
+won't need to worry about running out of
+CO2, having to lug a 20 pound CO2 tank with
+me or buying pricey but convenient replacement
+CO2 injector cartridges."
+
+
+One of the reasons that I haven't begun kegging was the transportation 
+issue. I'd appreciate some comments on favorite methods of moving kegged 
+beer to parties, vacations, etc. Many thanks.
+
+
+Bob Hall
+Napoleon, OH
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 08:11:06 -0600
+From: "Kenneth Peters" <kpeters6 at cox.net>
+Subject: CIP products
+
+
+In the last HBD, Eric Schoville asked for a list of CIP products, costs and
+caveats. I'm sure all of the major ones will be covered and I'm equally sure
+that PBW will be among the first mentioned. And that's fine as it is a great
+product and I have used it many times. However, I also believe Straight A to
+be equally good and have never been able to see any practical difference
+between the two products in my cleaning efforts. Since Straight A is
+significantly less expensive than PBW and its producer (Rick T.) is an active
+member of the HBD, I have always wondered why PBW was usually the first
+recommendation that most folks make. I believe that since both products seem
+virtually indistinguishable in use and since Rick is always eager to add his
+support to the HBD, and since his product is substantially less expensive, I
+think we should make an effort to support him and his product first. Not
+affiliated with either company, just a satisfied user. Ken
+
+
+Ken Peters
+Harrah, Oklahoma
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 10:06:59 -0500
+From: "Todd M. Snyder" <tmsnyder at buffalo.edu>
+Subject:  RIMS Temperature Control
+
+
+Hey RIMSer's,
+
+
+I've been thinking some about RIMS temperature controls, and it seems that
+there are a couple ways that people seem to do this, but they have problems
+IMO.
+
+
+(1) Using a PID controller with the temperature probe on the mash tun
+outlet.   This will result in a time delay between the heater turning 'on'
+and the sensed temperature rise, leading to overshooting the temperature.
+This could be managed by limiting the heat input to a small value, using a
+small P, and a small I, all of which lead to a 'ramp' mash instead of a
+'step' mash.  Temperature changes on the order of 1-2 degree F/min result in
+a ramp between steps taking almost as long as the targeted rests!
+
+
+(2) Using a PID with the probe on the heating chamber outlet.  This will
+result in the mash tun never actually reaching the target, it will
+asymptotically approach the set point.  A recent BYO (?) had a brewer that
+made the set point a couple degrees higher than their actual target to
+overcome this problem.  He must have to reduce the set point as the target
+is approached, requiring the brewer to be there, monitoring the temperature
+by eye.  It spoils the point of having a 'controller' if you are really
+controlling it by hand IMO.
+
+
+(3)  Using a PID with the probe somewhere in the middle of the mash tun.
+Sort of a compromise between  1 and 2.  Still problems with overshoot unless
+you limit the heating rate.
+
+
+I'm sure people will jump all over these observations, claiming to have
+their auto-tuning PID perfectly dialed into their system with no overshoots
+and rapid ramps.  Just set it and forget it!  Please post your numbers (ramp
+rates, wattage, etc) and the location of the temp probe.
+
+
+The question I'm getting at is why are these controllers being used for this
+application?  They're not ideal for it based on the problems above.  The
+problem is that they are dumb.  They don't know how much water you have in
+your system, how many watts your heater is, how much grain you have in
+there, or what the insulative properties of your system are.
+
+
+They should be smarter.  A software based controller on a PC could walk thru
+the step changes and hold the rest temperatures based on needed heat input.
+For example, for a temperature change of X in Y gallons of water and Z
+pounds of grain, it would need to turn on the heater for T seconds.  The
+correct amount of heat would then have been added and would be mixed in by
+the pump much more rapidly than a PID system could ever do it.  The software
+would then be smart enough to wait for the temperature change to make its
+way thru the system before making another adjustment.
+
+
+During a rest, if the temperature is a couple degrees low, it would
+calculate exactly how long to turn on the heater to bump the temperature
+right back onto target.  It would also know how much heat is lost with time
+based on how well your mash tun is insulated, so those heat inputs would be
+added automatically, before observing a temperature drop.
+
+
+The end result is that there would be no more 'searching' for the target
+blindly as a PID does.  The answer to a heat adjustment problem is a simple
+Joule input equation, the PID is just not smart enough to calculate it.
+
+
+Todd Snyder
+Buffalo, NY
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 13:04:38 -0500
+From: "David Craft" <chsyhkr at bellsouth.net>
+Subject: Renner's Eggnog
+
+
+Surely the recipe has a name-
+
+
+"My Fathers Eggnog"
+
+
+"Comb That Crap Out Of Your Mustache!"
+
+
+"Why Is Dad Asleep On The Sofa"
+
+
+or someone combination of the above.
+
+
+Brewing on and maybe I'll stop by for a cup of my Brother's Eggnog.  He
+carries on the tradition of his Father in law.  Great stuff and you don't
+have to worry about Salmonella, it is pickled!
+
+
+David B. Craft
+Battleground Brewers Guild
+Crow Hill Brewery and Meadery
+Greensboro, NC
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 10:18:14 -0800
+From: "Michael O'Donnell" <mooseo at stanford.edu>
+Subject: Thanks Pat
+
+
+Pat's post about electrical work in his home brings up an important point.
+
+
+At 12:48 AM 12/11/2003 -0500, you wrote:
+>...), and we are near the time when they'll be wanting to
+>monkey with the electrical system. This means that the HBD will
+>necessarily be unnavailable for a period of time whilst they
+>perform this work.
+
+
+Although the wisdom of the HBD is the result of many, many people, the fact 
+that we all get an email every day is the result of the work of very 
+few.  Thanks  to Pat and the rest of the janitors who keep this up and running.
+
+
+Mike
+Monterey,CA 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 13:10:12 -0500
+From: Alexandre Enkerli <aenkerli at indiana.edu>
+Subject: Brewing Botanicals (Sweet Gale and Grains of Paradise) 
+
+
+Josh at UWOsh (UWisc at Oshkosh, apparently) asked about brewing 
+botanicals:
+
+
+> I am reading a homebrew catalog that lists Sweet gale and paradise 
+> seed as
+> idea for belgian style ales... has anyone used either have these? Are 
+> the
+> suitable to use in conjunction with each other?
+Haven't found these locally yet but was interested in using them. For 
+recommendations on their use in brewing, you might look at this:
+http://www.calferm.org/edu/misc/botanicals.htm
+http://www.geocities.com/bontasaurus/treatise_on_brewing.html
+
+
+Alex (aka Ale-X), in Montreal
+[555.1km, 62.8] Apparent Rennerian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 09:35:25 -0900
+From: "Martin Brungard" <mabrungard at hotmail.com>
+Subject: Re: The elusive maltiness
+
+
+It's interesting to see knowlegible comments from professional brewers like 
+Jim Busch, but I want more from him.  One of his comments, in particular, 
+raised my curiosity.  The recommendation for a mashing program that provides 
+about 80 percent ADA.
+
+
+I'm assuming that ADA refers to the Apparent Degree of Attenuation, but I'm 
+not sure.  In addition, I'm not sure what ADA a typical wort is likely to 
+achieve when employing a simple mashing schedule like a single infusion in 
+the low 150's F.  I'm assuming that the recommendation of 80 percent is on 
+the low side of normal.
+
+
+I hope that Jim or someone else would expand on this ADA discussion.  
+Information such as the expected ADA created when employing a protein rest 
+and some sachrafication rest, or the expected ADA difference when performing 
+a low temp sach rest (say 150F) vs. a high temp sach rest (say 156F).
+
+
+I'd like to hear more!  If someone could point out some typical ADA numbers 
+and how the mashing schedule affects the ADA, I would greatly appreciate it.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 15:17:28 -0500
+From: Alexandre Enkerli <aenkerli at indiana.edu>
+Subject: Wiki for Beer and Brewing??
+
+
+Hm, this just struck me. Shouldn't there be a wiki somewhere about beer 
+and brewing?
+Not as a replacement for the digest, of course. But as a supplement. A 
+way to organize some of the information that is most frequently 
+discussed.
+
+
+For those who don't know, a wiki is a community-oriented system for 
+publishing simple web pages. The syntax of these pages is extremely 
+simple and it enables people to publish snippets of information about 
+most anything. Its best-known incarnation is the WikiPedia:
+http://www.wikipedia.org/
+
+
+There could be wiki entries for procedures (SingleInfusion, 
+AcidRest...), ingredients (CaraPils, ViennaMalt...), styles (AltBier, 
+ClassicAmericanPilsner...), and even organizations (HomeBrewDigest, 
+MembersOfBarleyment, MontreAlers...), and personalities (PatBabcock, 
+JeffRenner, SteveAlexander, MichaelJackson...). Endless possibilities 
+for fun and collaboration.
+Why didn't we think about this before? Or maybe we did...
+
+
+Yeah, ok, somebody did:
+http://www.chuggnutt.com/2002/09/30/wikipedia.html
+
+
+And there are entries on beer and brewing on WikiPedia...
+http://en.wikipedia.org/wiki/Beer
+http://en.wikipedia.org/wiki/Brewing
+
+
+But there are specialized wikis in different fields and this one would 
+be a good one. Even if we eventually transfer articles to WikiPedia.
+
+
+So, who could/would host it? It's supposedly one of these things that 
+are *extremely* easy to set up and you don't need a large bandwidth. 
+But you do need a static host with some administrative privileges, 
+which isn't something I have, right now.
+
+
+AleX, in MontReal
+[555.1km, 62.8] ApparentRennerianCoordinates
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 17:39:44 -0500 (EST)
+From: Pat Babcock <pbabcock at hbd.org>
+Subject: Wiki, wiki
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+> From: Alexandre Enkerli <aenkerli at indiana.edu> writes..
+
+
+
+
+> Hm, this just struck me. Shouldn't there be a wiki somewhere about beer 
+> and brewing?
+> 
+> For those who don't know, a wiki is a community-oriented system for 
+> publishing simple web pages. The syntax of these pages is extremely 
+> simple and it enables people to publish snippets of information about 
+> 
+> There could be wiki entries for procedures (SingleInfusion, 
+> AcidRest...), ingredients (CaraPils, ViennaMalt...), styles (AltBier, 
+> ClassicAmericanPilsner...), and even organizations (HomeBrewDigest, 
+
+
+Actually, the Preserve and Club Pages on the HBD site do this,
+but somewhat exclusively. I had experimetned briefly with Twiki
+(a GNU/Open Source wiki), but the HBD server destabilized before
+I could do anything meaningful with it...
+
+
+- -- 
+ -
+God bless America!
+
+
+Pat Babcock in SE Michigan         pbabcock at hbd.org
+Home Brew Digest Janitor           janitor at hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+[18, 92.1] Rennerian
+"I don't want a pickle. I just wanna ride on my motorsickle"
+                                   - Arlo Guthrie
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 19:14:58 -0500
+From: "Kevin Morgan" <kevin.morgan2 at verizon.net>
+Subject: Re: Grains of Paradise
+
+
+Josh:
+
+
+  I've used Grains of Paradise in addition to Coriander in a Belgian
+Wit
+and I really like the results.  It gives a Black pepper like flavor
+(but
+a little milder).  I was inspired by Spanish Peaks White Ale, which
+uses
+a little black pepper.  I crushed it using a mortar and pestle, and
+added
+it to the secondary (heat sanitized).  2 Grams in 5 Gal. is a good
+starting
+Point, I've gone as high as half an ounce.
+I've never used Gale.
+
+
+  On 10 Dec 2003  jOsh tAusCheK <tauscj55 at vaxa.cis.uwosh.edu>
+Said:
+>I am reading a homebrew catalog that lists Sweet gale and paradise
+seed as
+>idea for belgian style ales... has anyone used either have these? Are
+the
+>suitable to use in conjunction with each other?
+Snip
+
+
+Kevin Morgan, Brewing and Meading in South Jersey(USA)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 17:26:46 -0800
+From: Torrey Nommesen <torrey at nommesen.com>
+Subject: Counter Phil thingy - huh?
+
+
+I bought the Counter Phil counter pressure bottle filler, and I am
+thoroughly confused. I was told that somewhere online I can download
+instructions with pictures. Does anybody know of such a site/document? I
+read the piece of paper that comes with it and I can't seem to figure it
+out.
+
+
+ -Confused
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Dec 2003 22:15:58 -0600
+From: "Patrick Hughes" <pjhinc at eriecoast.com>
+Subject: corny fermenters
+
+
+I have read here many times how some rack their beer into corny kegs when
+within a few points of terminal gravity and let this small final
+fermentation carbonate the beer. How is the corny sealed so the natural  gas
+produced by this fermentation doesn't escape? Do you just pressurize with
+CO2 first? How much pressure can the yeast handle before they stop working?
+Patrick
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4424, 12/12/03
+*************************************
+-------

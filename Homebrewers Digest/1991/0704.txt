@@ -1,0 +1,1160 @@
+﻿This file received at Mthvax.CS.Miami.EDU  91/08/19 03:11:50
+
+
+
+
+HOMEBREW Digest #704                             Mon 19 August 1991
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  alcohol by weight and volume ("Spencer W. Thomas")
+  Kegging in mini kegs (Eric Pepke)
+  Re: Sulfites (Ted Stefanik)
+  Re: Cleaning Glass Carboys (Ted Stefanik)
+  what is high gravity/weizen style definitions (Tony Babinec)
+  Re: carboys, buckets, and scratches (Chris Shenton)
+  Water treatment with CaCl2 (Ken Giles)
+  Re: Time to pour (mll)
+  Re: Time to pour (mll)
+  Lambic Critters (Martin A. Lodahl)
+  Wort chilling, etc. ("Dr. John")
+  Nordic Brew (nnieuwej)
+  lemon in weizen (Brian Smithey)
+  Calculating Alcohol Content, East Coast Homebrew Stores ("Roger Deschner")
+  Crappy malt extracts (Ron Rader)
+  Melting solidified wort agar? (Chris Shenton)
+  liquid yeast question(s) (Greg Pryzby)
+  detecting glass grenades (Chip Hitchcock)
+  Bicarbonate (ez005142)
+  Re:  Malt Extracts (Randy Casey)
+  Chill Haze (LEITH  Graham Arthur)
+  All grain pale ale malt selections (joshua.grosse)
+  Harvesting and storing hops (cj)
+  Quebec City pubs & brewpubs (STROUD) (Tim Carlson)
+  USENET Newsgroup Rec.Crafts.Brewing is on the air ("a.e.mossberg")
+  German 2-row (Andy Leith)
+  Sulfite Discussion (MIKE LIGAS)
+  MALTING (Jack Schmidling)
+  Re : Boots yeast (Conn Copas)
+
+
+
+
+Send submissions to homebrew%hpfcmi`at`hplabs.hp.com
+Send requests to homebrew-request%hpfcmi`at`hplabs.hp.com
+[Please do not send me requests for back issues]
+Archives are available from netlib`at`mthvax.cs.miami.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Fri, 16 Aug 91 09:53:06 EDT
+From: "Spencer W. Thomas" <Spencer.W.Thomas`at`med.umich.edu>
+Subject: alcohol by weight and volume
+
+
+Clearly, these formulas are approximations, valid at low
+concentration.  I'll address the second, as it is subject to fewer
+guesses.
+
+
+%V(alc) = 100 * V(alc) / V(alc+water)
+%W(alc) = 100 * W(alc) / W(alc+water)
+1/SG(alc) = 1.25 = V(alc) / W(alc)
+%V(alc) / %W(alc) = V(alc) / W(alc) * W(alc+water) / V(alc+water)
+        = 1.25 * W(alc+water) / V(alc+water)
+
+
+Now, if the amount of alcohol is small compared to the amount of water,
+the second fraction is approximately 1.  Assume the total weight is 1,
+the weight of the alcohol is wa, and therefore, the weight of the water
+is 1 - wa.
+
+
+        W(alc+water) / V(alc+water) = 1 / (1.25 * wa + (1 - wa)) =
+                1 / (1 + .25*wa) = 1 / (1 + .25 * %W(alc) / 100)
+
+
+For a 4% by weight brew, this amounts to
+
+
+        1 / 1.01 = .99
+
+
+so the true percentage of alcohol by volume, instead of being 5% is
+4.95%.  Not really a measurable difference, at least with HB equipment.
+
+
+
+
+------------------------------
+
+
+Date:    Fri, 16 Aug 1991 10:33:33 EDT
+From: PEPKE`at`SCRI1.SCRI.FSU.EDU (Eric Pepke)
+Subject: Kegging in mini kegs
+
+
+I "kegged" a batch of bitter in a couple of mini kegs a few weeks ago.
+(By mini kegs, I mean those 5 liter cans that are roughly shaped like 
+kegs and have a stopper with a 1 cm hole in the top.)  It worked fine.  I 
+just santitized the can, poured the beer in, and plugged it up with one of
+the minimalist taps.  They hissed and bubbled a bit through the imperfect
+seal over the next couple of weeks.  Last night, I tried drinking the first
+results.  I used a CO2 tap designed for the kegs inserted not quite to the
+bottom to avoid picking up sludge.  The beer was not carbonated much at all,
+which was desirable, as this was supposed to be a bitter.  In contrast, the
+same beer bottled (with bulk priming) was a borderline gusher.
+
+
+The total annoyance factor, though, was not much less than bottling.
+
+
+Eric Pepke                                     INTERNET: pepke`at`gw.scri.fsu.edu
+Supercomputer Computations Research Institute  MFENET:   pepke`at`fsu
+Florida State University                       SPAN:     scri::pepke
+Tallahassee, FL 32306-4052                     BITNET:   pepke`at`fsu
+
+
+Disclaimer: My employers seldom even LISTEN to my opinions.
+Meta-disclaimer: Any society that needs disclaimers has too many lawyers.
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 10:44:47 EDT
+From: ted`at`evi.com (Ted Stefanik)
+Subject: Re: Sulfites
+
+
+Spencer W. Thomas writes:
+> Unfortunately for those sensitive to sulfites, a certain amount can be
+> produced during fermentation.  This is why almost all (in fact all that
+> I've seen) wines are labelled "contains sulfites".  I don't know if
+> this is also true of beer (I haven't seen such labels on beers), maybe
+> it's something in grapes that does it.
+
+
+I was under the impression that the sulfites were added to the wine must before
+fermentation and during racking.  Sulfites are added in the form of SO2 gas, or
+as sodium metabisulfite or potassium metabisulfite.  Sulfites are added to kill
+stray bacteria and yeasts in the must.
+
+
+I've never heard that SO2 can be produced by fermentation and I'm quite suspect
+of this claim.  The reason that most wine bottles are labelled as "contains
+sulfites" is that most wine makers use sulfites to control the quality of the
+product; the practice is near universal.
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 11:03:35 EDT
+From: ted`at`evi.com (Ted Stefanik)
+Subject: Re: Cleaning Glass Carboys
+
+
+>From GC Woods:
+
+
+> If there is some gadget I'm missing to clean carboys, please e-mail me!
+
+
+I clean my carboys as follows.  It never fails to get them 100% clean.
+
+
+1) Fill the carboy with hot water to within 2 inches of the top.
+2) Top off with chlorine bleach
+3) Let stand for several hours.  You should see the scum bubble off the sides!
+4) Brush the carboy thoroughly with an appropriately sized carboy brush.
+   (Carboy brushes of various sizes are available from your local homebrew
+    supply store).
+5) Rinse the carboy thoroughly with a jet-stream type bottle washer
+   (also available at your homebrew supply store).
+
+
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 10:29:33 CDT
+From: tony`at`spss.com (Tony Babinec)
+Subject: what is high gravity/weizen style definitions
+
+
+A few digests ago, someone posed the question of what's a high-gravity
+beer.  I think of a starting gravity of about 1050 or so as the
+cutoff.  Why?
+
+
+If you think of the common styles, here are some gravity ranges and
+styles.
+
+
+1030s       berliner weisse, mild, ordinary bitter
+1040s       brown ale, kolsch, alt, standard pale ale, standard pilsner
+1045-1055   munich helles, munich dark, vienna, flanders brown, 
+            california common beer 
+1050-1060   dortmund, maerzen
+1060+       trappist, old ale, bock, doppelbock, imperial stout, etc.
+
+
+Beers in the 1030s are truly session beers.  You can have 2 or 3 pints
+for lunch (food optional) and go back to work and still expect to
+function.  Beers in the 1040s and 1050s are progressively heftier.  By
+the time you get to the 1060s, alcohol is pronounced and even becomes
+part of the expected flavor and aroma profile.
+
+
+A related reason for considering 1050 the cutoff is that high-gravity
+worts, with 1050 or so being the cutoff, require progressively greater
+hops due to inefficient hop utilization.  See Ramsey's article in the
+special hop issue of Zymurgy for the formula including the adjustment.
+
+
+An interesting related point is this.  When I brewed extract beers,
+I'd add the malt to a couple of gallons of water, and top off to 5
+gallons in the fermenter.  I assume this is how many homebrewers do
+it, given the expense of large brewpots.  In this situation, the
+couple of gallons of wort are a high-gravity wort.  For example, if
+the wort when topped off with 2.5 gallons of water becomes 5 gallons
+of 1050-gravity wort, then the original 2.5 gallons of wort before
+topping off must have been 1100-gravity wort.  By all rights, hop
+additions should take this into account!  Needless to say, when I
+thought of hop additions in the 1/4-1/2 ounce increments the book
+recipe called for, this point was not known or appreciated.
+
+
+Regarding Weizens, here are style attributes taken from a recent
+Zymurgy which presented definitions of the styles.
+
+
+                      weizen     dunkelw   weizenbock
+starting gravity   1040-1050   1045-1055   1066-1080
+alcohol volume      4.5-5.0%    4.5-6.0%    6.5-7.5%
+IBUs                  8-  14     10-  15     10-  15
+SRM range             3-   8     17-  22      7-  30
+
+
+So, according to these style definitions, a dunkel weizen is a dark
+weizen with perhaps a slightly higher starting gravity, while a
+weizenbock is definitely a bock in starting gravity while affording
+the brewer much leeway in color.
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 11:07:49 EDT
+From: Chris Shenton <chris`at`endgame.gsfc.nasa.gov>
+Subject: Re: carboys, buckets, and scratches
+
+
+On 15 Aug 91 16:41:49 EDT (Thu), GC Woods <gcw`at`garage.att.com> said:
+
+
+>From: Chris Shenton <chris`at`asylum.gsfc.nasa.gov>
+>Carboys are easier to keep clean than buckets -- they don't scratch like
+>plastic -- so there will be less chance of infection. I wouldn't worry
+
+
+Geoff> You must be kidding. Maybe I am not using the correct type of brush or 
+Geoff> something, but I can wash out a food grade plastic bucket with no
+Geoff> problem (and no scratches yet), but have a very difficult time getting
+Geoff> all of the stuck junk off the inside of a glass carboy.
+
+
+No scratches yet *that*you*can*see*. I usually fill the carboy with hot
+water and bleach and let it soak overnight if there's serious scum in it.
+
+
+Geoff> If there is some gadget I'm missing to clean carboys, please e-mail me!
+
+
+A long handled bottle-type brush helps too, once the soaking has softened
+up the goo. [such technical terms!]
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 09:18:46 PDT
+From: keng`at`ic.MENTORG.COM (Ken Giles)
+Subject: Water treatment with CaCl2
+
+
+George fix states (in Principles of Brewing Science, p.20) that bicarbonate 
+(HCO3) combines with calcium ions to form calcium carbonate (CaCO3), water, and 
+carbon dioxide when heat is applied and aeration is performed. Calcium carbonate 
+is precipitated. Here's the formula:
+
+
+
+
+                       heat
+   Ca(+2) + 2HCO3(-) --------> CaCO3 + H2O + CO2
+                     aeration
+
+
+He further states that the calcium content must be above ~10 mg/l to facilitate
+this reaction.
+
+
+As for the resulting cloride ions, I can't find a place where he mentions their 
+effect. _Clorine_ is a problem because it causes formation of clorophenol 
+compounds, which adversely affect flavor. Cloride ions will not cause this 
+problem. Since NaCl (and hence, cloride ions) is a common additive in pale ales, 
+it seems like low risk to have some extra cloride hanging around. Someone was 
+concerned about the resulting saltiness. Doesn't this require presence of sodium 
+as well?
+
+
+George also says on p.13 that "Calcium cloride is finding increasing favor in
+water treatment programs because it does not have sulfur ions." Its useful to
+keep in mind that the intended audience for Principles of Brewing Science is
+the microbrewery industry as well as the homebrew crowd.
+
+
+
+
+P.S. If you're trying to achieve a target concentration of calcuim ions,
+note that calcium cloride is really (according to George, p.12)
+CaCl2 + 2H2O. This will affect your molecular weight calculations.
+
+
+kg.
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 11:19:47 -0500
+From: mll`at`aio.jsc.nasa.gov
+Subject: Re: Time to pour
+
+
+Bill Thacker writes:
+>Michael Bass writes:
+>
+>> I had the good fortune to attend a conference in Berlin, Germany.
+>> One of the interesting features of the way they
+>> server beers: Apparently the length of time it takes to pour a beer is
+>> a measure of the quality of the beer and the bartender.  It takes
+>> anywhere from 5 to 10 minutes to poor a good beer.  (You have to wait
+>> for the head to die down before you can continue to fill the glass!)
+>
+>Coincidentally, a friend of mine, in a telephone call Sunday night, 
+>mentioned discovering a bar in Chicago which served Guinness on tap.
+>He marvelled that it took several minutes to pour the beer, because of the
+>foaming, and asked me what that meant.  >
+>
+>Several possibilities dawned on me, including the "new keg" foaminess
+>mentioned here, but he assured me that he'd investigated for a sufficiently
+>long time to see the keg well on its way toward emptiness. 8-)
+>
+>Also, his description of the flavor didn't match with my own very well,
+>giving me to wonder if this bar might be serving the *real* draught Guinness 
+>as found in Ireland (it *is* an Irish pub).
+
+
+I worked for a 
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 11:25:07 -0500
+From: mll`at`aio.jsc.nasa.gov
+Subject: Re: Time to pour
+
+
+Bill Thacker writes:
+>Michael Bass writes:
+>
+>> I had the good fortune to attend a conference in Berlin, Germany.
+>> One of the interesting features of the way they
+>> server beers: Apparently the length of time it takes to pour a beer is
+>> a measure of the quality of the beer and the bartender.  It takes
+>> anywhere from 5 to 10 minutes to poor a good beer.  (You have to wait
+>> for the head to die down before you can continue to fill the glass!)
+>
+>Coincidentally, a friend of mine, in a telephone call Sunday night, 
+>mentioned discovering a bar in Chicago which served Guinness on tap.
+>He marvelled that it took several minutes to pour the beer, because of the
+>foaming, and asked me what that meant.  >
+>
+>Several possibilities dawned on me, including the "new keg" foaminess
+>mentioned here, but he assured me that he'd investigated for a sufficiently
+>long time to see the keg well on its way toward emptiness. 8-)
+>
+>Also, his description of the flavor didn't match with my own very well,
+>giving me to wonder if this bar might be serving the *real* draught Guinness 
+>as found in Ireland (it *is* an Irish pub).
+
+
+I worked for a restaurant in Munich about 10 years ago.  We had 3 kinds of
+beer, a normal helles, a Pilsner, and Guinness.  The helles poured in a few
+seconds.  The Guinness took about 10-12 minutes to pour, and the Pilsner
+took almost 15!!!  That was not unusual either as when we would drink
+Pilsner at other places, we would generally order the next round just as
+the last round we ordered was being served.
+
+
+=====================================================================
+Mark L. Littlefield               Automation and Robotics Division
+internet: mll`at`aio.jsc.nasa.gov       Intelligent Systems Branch
+USsnail:  Lockheed Engineering and Sciences 
+          2400 Nasa Rd 1 / MS 19            
+          Houston, TX 77058-3711
+
+
+"The closest night table, when I tried to open it, nearly bit my hand
+off...No, that wasn't at all how furniture was suppose to behave; there was
+clearly something wrong with this agriculture." - Tichy: The Star Diaries
+====================================================================
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 9:15:26 PDT
+From: Martin A. Lodahl <pbmoss!malodah`at`PacBell.COM>
+Subject: Lambic Critters
+
+
+In HOMEBREW Digest #703, Andy Leith asked:
+
+
+> Does anybody know of somewhere I can get hold of the cultures 
+> necessary to make a kriek, for less than the $45 that it costs from 
+> UC Davis?
+
+
+Contact Mike Sharp (msharp`at`hawk.ulowell.edu).  He has virtually all
+of them.  The two "big hitters" as identified by Jean-Xavier
+Guinard, Pediococcus damnosus and Brettanomyces bruxellensis, come
+from a lab "of awsome repute" that refers to remain nameless, and
+are marvelously vigorous and apparently quite pure.
+
+
+= Martin A. Lodahl                           Pacific*Bell Systems Analyst =
+= malodah`at`pbmoss.Pacbell.COM       Sacramento, CA       916.972.4821 =
+= If it's good for ancient Druids, runnin' nekkid through the wuids, =
+= Drinkin' strange fermented fluids, it's good enough for me!  8-)   =
+
+
+
+
+------------------------------
+
+
+Date:         Fri, 16 Aug 91 12:29:37 EDT
+From: "Dr. John" <JELJ`at`CORNELLA.cit.cornell.edu>
+Subject:      Wort chilling, etc.
+
+
+In HBD #701 Steve Anthony asked about a wort chilling system based on ice water
+
+
+This is the sort of system I have employed since I started doing all-grain,
+full-mash beers.  I opted for a somewhat simpler design though.  I use a
+coil (20 or 25', I can't remember which) of 1/4" copper tubing immersed in a 5
+gallon bucket of ice water.  I won't bore you with the details now, anyone who
+is interested can get in touch for a more in-depth description.  This system
+chills 5 gallons of wort in about 20 or 25 minutes, and gives me a very good
+cold break; the wort goes in boiling hot and very clear and emerges cool
+(somewhere in the 60's (F)) and lokking as muddy as the Mississippi.
+By incorporating both parts of my Zapap lauter tun into the
+chilling system, I kept the expense to a minimum.  In addition to the coil of
+copper tubing the only extras I needed to put this together were an extra 5
+gallon bucket (food grade of course, and thick enough so that it doesn't
+distort when filled with boiling wort), a couple short lengths of racking
+tubing, and a couple little metal hose clamps.  I'm not sure, but I suspect
+that this method uses less water than either a counterflow or an immersion
+chiller.
+
+
+On another topic, Geoff Woods, in HBD #703, says that he thinks carboys are
+more difficult to clean than plastic fermenters.
+
+
+Carboys aren't really all that difficult to clean, if you have patience and
+a carboy brush.  I usually rinse mine several times to loosen as much of the
+gunk as I can, then fill them completely with a bleach solution and let them
+soak for several days.  This usually loosens most of the rest of the gunk and
+the carboy brush will get whatever is left.  Of course you can omit the soak
+and have at it with the carboy brush immediately after the carboy is emptied.
+One indispensable item, at least for me since I haven't come up with the
+bucks for a keg system yet, is one of those jet bottle washers.  They really
+speed up the rinsing of bleach-soaked bottles, and put out a forceful enough
+spray to do a nice job on carboys too.
+
+
+Mitch Evans, in HBD #702, related the sad tale of an exploding bottle and its
+nasty effect on his thumb.
+
+
+I hope things are on the mend Mitch.  You might consider getting a kit to do
+a reducing sugar test.  I have some of the Clinitest tablets that are sold
+by drug stores to diabetics.  There was an article in Zymurgy, a couple years
+ago, by Nancy Vineyard on using this kit to test beer for reducing sugars.
+I'm not sure about her suggested procedure, seems that she doesn't use
+enough beer to get a good test, but I haven't gotten around to calibrating
+the thing myself yet, haven't felt a pressing need as I haven't had any
+explosions.  This sort of test, if properly calibrated, should be more reliable
+than the hydrometer and a prayer method that seems to be so commonly used.
+
+
+Al Edwards, in #703, raises a question about formulae for approximating alcohol
+content based on attenuation.
+
+
+These formulae, or something very much like them, come from Papazian, and
+probably elsewhere.  Now, while they obviously break down for extreme values
+on the high end they are probably accurate enough for approximating alcohol
+contents in the ranges we normally achieve with our beers.  If you want
+something more technical try Noonan's "Brewing Lager Beer" in which you will
+find a description of how to go about determining real attenuation, as opposed
+to apparent attenuation, and a bunch of related stuff.  As for me, I'll stick
+to the approximation I can get using my hydrometer and calculator.  Even though
+the relationships may not be linear the approximation seems good enough, we are
+probably talking about some pretty small approximation errors here.
+
+
+Ooogy wawa,
+
+
+Dr. John
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 12:40:35 -0400
+From: nnieuwej`at`pooh.bowdoin.edu
+Subject: Nordic Brew
+
+
+Does anybody know anything about Scandinavian beers?  I'm particularly
+interested in anything Norwegian brews that may be commercially available
+in this country.
+
+
+ -Nils
+
+
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 10:17:29 PDT
+From: smithey`at`esosun.css.gov (Brian Smithey)
+Subject: lemon in weizen
+
+
+I've seen mention in Jackson's writing that Bavarian weizen is
+traditionally served with lemon, but have never been able to
+determine how it's CONSUMED.  Is the lemon wedge left on the
+glass for aroma only, or is the juice squeezed into the beer,
+or the lemon intermittently sucked on, etc. ?  Perhaps some
+of you who have been there and had the real thing can help
+me out, I've brewed some weizen and would like to try some
+with lemon.
+
+
+Thanks,
+Brian
+- --
+Brian Smithey
+smithey`at`esosun.css.gov  -  uunet!seismo!esosun!smithey
+
+
+------------------------------
+
+
+Date: 16 August 1991 12:21:41 CDT
+From: "Roger Deschner" <U52983`at`UICVM.uic.edu>
+Subject: Calculating Alcohol Content, East Coast Homebrew Stores
+
+
+In HBD 703, Alan Edwards asked:
+
+
+> If you don't know the correct equations, what do you use in practice?
+
+
+I use Dr. Bob Technical's Amazing Wheel of Wort. You just dial in how
+much of what you used to make it, and all the numbers are right there on
+the wheel. Get one from your local homebrew supply shop.
+
+
+and somebody else asked about East Coast homebrew suppliers. I've used
+The Modern Brewer, in Cambridge, Mass. The phone number is easy to
+remember - 1-800-SEND-ALE.
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 11:46:26 EDT
+From: rlr%bbt`at`mcnc.org (Ron Rader)
+Subject: Crappy malt extracts
+
+
+  Thanks very much to Martin for posting the Extract Report.  I found it very
+interesting, although depressing.
+
+
+  I'd like all the extract brewers to post their experiences with particular
+extract brands, so we can all figure out which brands to select and which to
+avoid.  It's hard to believe that a product labelled "100% Barley Malt Extract"
+could have a lot of sugar syrup added.  Sucks.
+
+
+- -- 
+ron rader, jr  rlr`at`bbt.com OR ...!mcnc!bbt!rlr = Opinions are my own and do
+| |  i gotta six-pack & nothing to do...       = not necessarily reflect those
+ | | i gotta six-pack & i don't need you       = of BroadBand Tech. (SO THERE!)
+  *** Punk ain't no religious cult, punk means thinking for yourself - DKs ***
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 13:57:09 EDT
+From: Chris Shenton <chris`at`endgame.gsfc.nasa.gov>
+Subject: Melting solidified wort agar?
+
+
+If I cook up a batch of wort for culturing stuff, then solidify with agar,
+can I assume I can melt it later? By boiling, or steaming? (Microwave? :-)
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 01:48:07 EDT
+From: neptune!pryzby`at`uunet.UU.NET (Greg Pryzby)
+Subject: liquid yeast question(s)
+
+
+I have made the jump from dry to liquid yeast with my latest batch. I
+have a few questions concerning liquid yeast though. 
+
+
+I started the liquid yeast about 26 hours before I needed it. The package
+was HUGE (I don't think it could have gotten bigger.) I pitched the
+yeast at 70F and waited for the fermentation to start. Well, about 48
+hours later the fermentation started. But it has been VERY slow. With dry
+yeast, the fermentation started within a few hours and was vigorous for a
+few days and done between 3-5 days. This batch looks like it is going to 
+take alittle (or alot) longer.
+
+
+Is this typical for liquid yeast? A slow start (about 48 hours to start)?
+Slow fermentation (some bubbling)?
+
+
+Temp should not be a problem, it is the same as for my last batches,
+between 70-76F.
+
+
+I would appreciate any feedback from someone who can tell me about the
+difference between liquid and dry yeast. And why liquid yeast is preferred?
+Or will I know that when the batch is tasted?
+
+
+peace,
+ greg
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 14:38:14 EDT
+From: cjh`at`vallance.HQ.Ileaf.COM (Chip Hitchcock)
+Subject: detecting glass grenades
+
+
+   David Resch points out that a bottle whose cap has become convex is
+overpressured. I found the hard way that it's easier to spot an everting
+cap if you've used bottles with a long collar (e.g., most bar bottles).
+The homebrewer's standard two-lever capper makes a distinct, sharp-edged
+dimple when capping long-collared bottles; you can see a pressure problem
+starting if part of the edge of the dimple smooths out.
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 10:57:11 -0700
+From: ez005142`at`pollux.ucdavis.edu
+Subject: Bicarbonate
+
+
+
+
+Thanks to all who responded to my somewhat foolish questions regarding
+chlorine and chloride.  After several people beat me over the head, I think
+I am finally beginning to understand why my idea won';t worlk.  But if
+my idea is that bad, how the hell does one get rid of 700 ppm of bicarbonate?
+One answer given awhil back was to use acid to shift the buffering potential
+(or something like that) to a level where the bicarbonate would por
+precipitate out.  But what would it precipitate out as, and where would it
+get positively charged ions to bind with.  According to Miller you need
+a certain ratio of Ca+ ions to each carbonate ion in order to precipitate
+anything.  In my water I've only got 70 ppm og of Ca+.  Where would all
+the precipitate come from?  I can't add more Ca+ because all the compounds
+containing Ca+ also contain things I don't want in my water (like Cl- and
+sulfates)  Doesn't anyone else have this problem or is Davis water really
+THAT bad?  Or am I oworrying about something that really doens't matter
+anyhow.  
+
+
+In any case, I appreciate all the answers on my last stab in the dark.
+Thanks to everyone who can help me with my currect questions.
+
+
+Pretty soon I'll say screw it and buy bottled water!
+
+
+Adios
+
+
+Chris Swingley                csswingley`at`ucdavis.edu
+Institute of Ecology
+University of California, Davis
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 11:37:57 PDT
+From: rcasey`at`caticsuf.CSUFresno.EDU (Randy Casey)
+Subject: Re:  Malt Extracts
+
+
+>Martin A. Lodahl <pbmoss!malodah`at`PacBell.COM>
+>The sugar profiles provided the real bombshell.  They divided the
+>extracts into 3 groups, according to the contents listed on the
+>labels.  Groups 2 and 3 both had various supplements listed, and the
+>analyses tracked pretty well with the labeling.  Group 1 extracts,
+>however, "were labeled at the source as pure malt extracts".  Of the
+>21 extracts in that group, a commendable 14 had carbohydrate
+>profiles "similar to the standard all-malt wort"
+
+
+        I was wondering if the list of extracts by group
+could be posted.  I would like to see what brands/styles
+were labeled pure and what ones were 'supplemented' with
+other frementables.
+
+
+- -----------------
+rcasey`at`caticsuf.csufresno.edu
+Randy Casey
+
+
+
+
+------------------------------
+
+
+Date:         Fri, 16 Aug 1991 15:38:32 -0300
+From: LEITH  Graham Arthur <leith`at`ecf.toronto.edu>
+Subject: Chill Haze
+
+
+
+
+I have recently moved up from kit brewing to brewing with extracts, adjunct
+grains, and hops.  While I have been very pleased with the taste of these
+beers, they have a chill haze that I never encountered with the kits.  I
+suspect that it is due to the proteins dissolved in the wort from the adjunct
+grains (crystal malt and toasted barley malt) that I've been using.  I put the
+adjuncts into the cold water and remove them when it comes to a boil, then add
+the extract.
+
+
+Does anybody have any suggestions on the use of finings, or better still, how
+to avoid a chill haze without the use of finings?  Is it alright to add finings
+to a secondary or will this precipitate out too much of the yeast needed for
+bottle carbonation?   Should I close my eyes, not worry, and just enjoy the
+taste of the beer?
+
+
+Graham Leith
+
+
+------------------------------
+
+
+Date: Friday, 16 August 1991 10:12am ET
+From: joshua.grosse`at`amail.amdahl.com
+Subject: All grain pale ale malt selections
+
+
+
+
+In HBD #703, tony`at`spss.com (Tony Babinec) writes:
+
+
+> The degree of kilning of British pale ale malt accounts for the
+> wonderful color of pale ales....
+
+
+I'm an extract brewer and make IPAs using an amber extract with crystal
+malt as an adjunct.  My books on brewing (and they're for extract
+brewers, of course) tell me that my wonderful copper-red color comes
+from the crystal malt.  Killian's Red (a Coors commercial lager)
+describes their use of caramel malt (US commercial name for crystal
+malt) in the beer.
+
+
+Is British pale malt a cross between, say, German 2-row and crystal
+malt?  I don't have any recipies for all-grain pale ale, so I wonder.
+- -----------------------------------------------------------------
+Josh Grosse                                jdg00`at`amail.amdahl.com
+Amdahl Corp.                               313-358-4440
+Southfield, Michigan
+
+
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 15:12:28 EDT
+From: cj`at`wisny.att.com
+Subject: Harvesting and storing hops
+
+
+    Someone recently asked how to tell when hops are ready to harvest
+and I don't remember seeing an answer.  Mine are getting to that point
+and, while I can make a pretty good guess, some advice would be helpful.
+The buds seem a little small right now, but in past years I think I've
+let them go a little too long.
+
+
+    Once the hops have been picked, what's the proper way of processing
+and storing them?  I had one shop tell me to just put them in plastic
+bags in my freezer, but it seems like they get a little too damp this
+way.
+
+
+    One final question.  Is there any way to tell what I've got?  The
+hops were just growing there when I bought the house (no, that wasn't
+a consideration -- I didn't notice them until the first time I mowed
+the yard -- they're growing semi-wild along the edge of the property)
+and I've got now idea what variety they are.  I'm pretty sure the
+previous owner didn't use them & he had the place for 15 years before
+me.  The house was built in 1823, so who knows how old they really are.
+
+
+    Thanks for any help.
+
+
+Chris Hughes                cj`at`wisny.att.com        508-374-5613
+
+
+------------------------------
+
+
+Date: Fri, 16 Aug 91 17:40:09 MDT
+From: Tim Carlson <timc`at`hpfctjc.fc.hp.com>
+Subject:  Quebec City pubs & brewpubs (STROUD)
+Full-Name: Tim Carlson
+
+
+>
+>I'm going to Quebec City in a few weeks.  Never having been there, I wondered 
+>if anyone knows of any especially good bars/pubs/restaurants to visit.  A good 
+>beer selection is important, of course.  
+>
+>Also, I believe that there is one brewpub there, called L'Inox???  Anyone ever 
+>been there?
+>
+
+
+I've been trying to catch up on mail after having been gone for almost 2 weeks,
+and haven't seen any response to this request.
+
+
+I was in New England & Quebec in June of this year, and stopped in at L'Inox.
+L'Inox is in old town (vieux ville, if I remember my spelling); in fact its in
+the lower part of old town (along the river) at the 'downstream' end of town
+(northeast I think).  I probably have the address at home; let me know if you
+want the address....
+
+
+When I was there they had 2 "blonde" biers (light color); one filtered and one
+unfiltered (and slightly cloudy).  The bartender gave us a sample of each of
+the biers, and I decided that the unfiltered was better (more hops taste as
+I recall).  The only food that they serve is steamed sausages in a steamed
+bagette (french roll) -- not fancy, but still good.
+
+
+For a 1 or 2 block stretch along the "main drag" (something boulevard, as I
+recall) just outside of vieux ville, the street is lined with restaurants
+and sidewalk cafes.  We ate dinner one nite at a place serving excellent 
+"homemade" sausages and good bier, and at another restaurant serving great
+dinner and dessert crepes (and reasonably good bier).
+
+
+Hope this helps,
+
+
+Tim Carlson        
+Hewlett Packard
+Fort Collins, CO 
+timc`at`hpfctjc.fc.hp.com
+
+
+------------------------------
+
+
+Date: Sat, 17 Aug 91 13:29:18 -0400
+From: "a.e.mossberg" <aem`at`mthvax.cs.miami.edu>
+Subject: USENET Newsgroup Rec.Crafts.Brewing is on the air
+
+
+
+
+The vote succeeded, and USENET has a new newsgroups dedicated
+to brewing: rec.crafts.brewing
+
+
+For a test period, I will be posting the Homebrew Digest to
+the group.
+
+
+aem
+
+
+------------------------------
+
+
+Date: Sat, 17 Aug 91 13:36:26 CDT
+From: andy`at`wups.wustl.edu (Andy Leith)
+Subject: German 2-row
+
+
+Tony Babinec writes that
+>German 2-row malt is suited for pilsners.  It tends to be
+>less-modified.  If it were especially undermodified, you might have to
+>use a decoction mash.  If it isn't too undermodified, you could use a
+>step-infusion mash.
+
+
+Apparently many commercial German brewers now use a single step
+infusion (to save on energy costs), so I assume that you don't
+necessarily "have" to use a step infusion with German 2-row.
+
+
+On an unrelated topic I recall reading several weeks ago that
+someone recommended only using British crystal for making bitters
+and pale ales. I have had good successes with Briesse crystal malts
+and don't think that the secret to making good bitters lies with the
+nationality of the crystal used.  What does help is to let the cooled wort sit overnight in the fridge, and racking it off of the trub
+before pitching the yeast. I only use British pale ale malt for
+pale ales, and this may help. (A 55lb sack costs me $45).
+
+
+Andy
+
+
+------------------------------
+
+
+Date:         Sat, 17 Aug 1991 23:04:00 -0400
+From: MIKE LIGAS <LIGAS`at`SSCvax.CIS.McMaster.CA>
+Subject: Sulfite Discussion
+
+
+It seems that I've touched a sensitive point with some HBD'ers with my mention
+of sulfites in mead making. First of all, if one is making staight mead (no
+additional fruits) then a boil is all that is needed to provide sufficient
+killing of unwanted microbes. As I mentioned a few issues ago, I use a low
+level of potassium metabisulfite when fresh fruit is added to the preboiled
+and cooled honey/water mixture, and that sulfiting is a standard practice in
+winemaking. One can make wine without sulfiting and let the resident yeasts in
+the must carry out the fermentation. This would of course be true to historical
+methods but can be a hit or miss proposition depending on the yeasts present.
+
+
+The advent of pure strains with particular fermentative characteristics allowed
+zymurgists more control over the final outcome of their fermented nectars. It
+followed that to ensure that the yeast strain of choice would dominate the
+fermentation one would need to kill or reduce the population of 'wild' yeast
+and other microbes prior to pitching the chosen strain. Hence the use of
+sulfites when using fresh fruit since boiling fruit would set the pectin and
+destroy some of the finer aromatic and flavour components of the fruit.
+
+
+One objection to sulfiting is that some people are 'allergic' to sulfites. This
+is partially true. The real problem is that sulfites hypersensitize you to what
+you are already allergic to, like airborne dust and mould. Many wine makers add
+a small amount of sulfite to their wine at bottling time in order to ensure a
+long shelf life and to actually enhance bouquet development in the bottle. The
+problem here is that SO2 cannot escape and the wine can pose a threat to those
+who suffer from allergies. I have experienced quite an attack of sneezing and
+watery eyes once after consuming a heavily sulfited Italian red wine.
+
+
+The trick is to use minimal sulfite to ensure that most wild beasts are killed
+or weakened and to add sulfite 24 hours prior to pitching your yeast, thus
+allowing sufficient time for SO2 dissipation. Do not sulfite prior to bottling.
+
+
+The use of sulfites is not restricted to wine and mead making. Read the
+contents of a bottle of Mackeson's XXX Stout. Sucrose is added at bottling time
+to make this Sweet Stout style of beer but if the yeast fermented the
+additional sucrose a Stout bomb would be the result. Therefore the beer is
+pasteurized and sulfited to stabilize it from bottle fermentation.
+
+
+IMHO, judicial use of sulfite is warranted in certain circumstances and should
+pose no real health problem unless you constantly exhibit allergic reactions to
+various allergens.
+
+
+
+
+------------------------------
+
+
+Date: Sat, 17 Aug 91 09:57 CDT
+From: arf`at`ddsw1.mcs.com (Jack Schmidling)
+Subject: MALTING
+
+
+ 
+ To: Homebrew Digest
+ Fm: Jack Schmidling
+ 
+ Subject:  MALTING BARLEY, AGAIN
+ 
+ I note, with some cynicism, Darryl Richman's comment in 
+ Zymurgy, that the brewmaster of Pilsner Urguell seemed 
+ totally ignorant of the malting process.
+ 
+ From the responses I received to a very basic question on 
+ malting, that particular form of ignorance seems to apply 
+ equally to home brewers.
+ 
+ The diagram in the article came tantalizingly close to 
+ answering my question but left out details that could be 
+ used in action.
+ 
+ As I suspected, in order to get acceptable germination, 
+ dormancy must be broken.  He talks about three steeping 
+ periods and a temperature range but leaves out what 
+ separates one "period" from another.  
+ 
+ What happens after 21 hours at 15-17 degs that seperates 
+ this period from the next 21 hour period or from the final 
+ 17 hour period?
+ 
+ I have been experimenting with freezing, friging and 
+ steeping but surely someone out there can save me from 
+ re-inventing the wheel.
+ 
+ Darryl.... where are you?  Finish your article.
+ 
+ jack
+ 
+ 
+
+
+
+
+------------------------------
+
+
+Date: Sun, 18 Aug 91 18:47:52 bst
+From: Conn Copas <C.V.Copas`at`loughborough.ac.uk>
+Subject: Re : Boots yeast
+
+
+Regarding the difference between Boots' 'standard' and 'genuine brewers'
+dried yeasts, I have only tried the latter and can vouch for it
+(surprisingly enough, given the supplier !). It is a good general-purpose
+yeast, producing a very clean flavour even at fermentation temperatures up
+to 25 C; possibly a bit too neutral for ale fanatics. Its other main
+characteristic is its sedimenting ability, which allows glasses to be
+poured repeatedly from the bottle without disturbing the deposit. Keeps
+fermenting down to at least 15 C. For reasons that escape me, it seems to
+produce a better head on the finished beer than some other strains I have
+used. Looks like a mainly bottom fermenter.  
+
+
+Come to think of it, where are all these top fermenting yeasts we keep
+reading about ? You know the ones I mean, that are supposed to send up
+rocky pancake heads of yeast which threaten to engulf the house, and which
+require daily skimming and rousing management. I have tried most of the
+commercial dried yeasts available in both Australia and England, and am yet
+to see anything which resembles this description. Ditto culturing from
+Guinness, although I suppose they could be using a supplementary
+bottle-conditioning strain. The only thing I haven't tried is begging the
+dregs from a cask at the local pub. We have very few liquid cultures
+available here in the UK.
+
+
+Which brings me to another set of questions : is it possible that top
+fermenting yeasts do not like closed fermentation ? In the absence of
+oxygen, might they possibly dive to the bottom ? Consequently, are we
+robbing our ales of some complexity by using airlocks during primary
+fermentation ?
+
+
+Just to complicate matters further, I recently tried Geordie's Extra Pils
+kit. The kit is touted as producing a genuine continental lager (and does,
+full of sulphide). Strangely enough, there are also instructions to rouse
+the yeast daily. Why do this with a lager yeast ?
+
+
+Lastly (I know, I'm full of questions today), what about the advice not to
+stir yeast with metal spoons. Myth or not ?   
+
+
+Conn V Copas                                   tel : (0509)263171  ext 4164
+Loughborough University of Technology          fax : (0509)610815
+Computer-Human Interaction Research Centre            
+Leicestershire  LE11 3TU                    e-mail -    
+G Britain                         (Janet):C.V.Copas`at`uk.ac.lut  
+                     (Internet):C.V.Copas%lut.ac.uk`at`nsfnet-relay.ac.uk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #704, 08/19/91
+*************************************
+-------

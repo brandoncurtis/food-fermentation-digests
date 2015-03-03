@@ -1,0 +1,726 @@
+﻿Date: Tue, 25 Mar 2003 00:41:29 -0500
+Subject: Homebrew Digest #4204 (March 25, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4204                             Tue 25 March 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  PID Controls ("Michael O'Donnell")
+  acetic mashes ("Raj B. Apte")
+  re: "The Brewers' Handbook" by Ted Goldammer ("Mark Tumarkin")
+  RE: Igloo Conversion (Jonathan Royce)
+  Procon Pump???? ("Guillote")
+  Beerjolais nouveau ("Mike Dixon")
+  Re: Beerjolais nouveau (Larry Bristol)
+  fastest beer in the east (Marc Sedam)
+  Irish Red (Leo Vitt)
+  white film ("Buck Wilke")
+  "burnt sugar" (Jeremy Bergsman)
+  Kettle False Bottoms (Lonzo McLaughlin)
+  Mountain Creek Water in Brewing (Andrew Nix)
+  enzymes an overnight mashing ("greg man")
+  Kellogs' Black and Tan (John)
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* The HBD Logo Store is now open!
+* http://www.cafeshops.com/hbdstore
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 23 Mar 2003 21:44:58 -0800
+From: "Michael O'Donnell" <mooseo`at`stanford.edu>
+Subject: PID Controls
+
+
+
+
+>Doug Moyer had a question about a PID controller & SSR
+>
+>    "I have an Omega 1/16 DIN MICROMEGA Autotune PID
+>Temperature Controller, model CN77333. This unit's
+>outputs are both Relay SPDT 5 A at 120. As I
+>understand it, these are mechanical relays, as opposed
+>to SSRs. As such is it possible to use this unit to
+>control a RIMS heater?"
+>
+>Set the time constant to a value somewhere around 2 seconds, and you should
+>be ok with the relays.  You'll need to set up some sort of control voltage
+>for the SSR--but that will depend on the SSR.  Wire the control voltage
+>through the NO contact of the relay.  The relay is 5A at 120V, but that
+>doesn't mean it "puts out" 120v...that's just it's rating.
+
+
+Before you go about doing anything like this, I'd highly recommend taking 
+Pat Reddy's suggestion from last week and just buying an SSR controller on 
+Ebay.  You can probably get one for around $50, then turn around and sell 
+your relay one for the same amount.  Much better to start with the right 
+part than to try and kluge it together, especially if there is no cost 
+savings.
+
+
+I bought 2 of them last week and got great deals.IIn a bit of shameless 
+self-promotion, one of  them is about to go back up for sale because I 
+forgot I wanted to use a thermocouple and got a controller that needs an 
+RTD probe... if you have a use for an 0mron E5CX-RP, let me know.  Although 
+I am a big promoter of Ebay, it is easy to get burned by purchasing the 
+wrong item if you don't take the time to download the instruction manual 
+and make sure you are getting the right thing before you bid.  Once you are 
+sure, you can get what you need.
+
+
+cheers,
+mike
+Monterey, CA 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 00:03:43 -0800 (PST)
+From: "Raj B. Apte" <raj_apte`at`yahoo.com>
+Subject: acetic mashes
+
+
+All,
+
+
+Can anyone explain how acetic acid is produced during
+mashing? I refer specifically to p56 of "Wines & Beers
+of Old New England" by Sanborn Brown of MIT:
+
+
+ ...and this cracked malt, called grist, was steeped in
+hot water for several hours somewhat below the boiling
+point. If the water was too cool, the process did not
+work, and if it was too hot, acetic acid was rapidly
+produced which would spoil the beer. The early farmers
+adjusted the mashing temperature by taste--if too
+cool, the wort did not become sweet; if too hot, they
+were warned by the vinegar taste.
+
+
+This is clearly not thermophilic lactic acid mashing
+ala Papazian. From the sound of it, I don't think he's
+refering to a possible acetic fermentation that could
+come from a highly dextrinous wort--that should take a
+few days (as in lambic, which has an early acetic
+production by bacteria).
+
+
+Any ideas?
+
+
+raj
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 06:47:16 -0500
+From: "Mark Tumarkin" <mark_t`at`ix.netcom.com>
+Subject: re: "The Brewers' Handbook" by Ted Goldammer
+
+
+Bill Halstead wrote:
+"In regard to Steinfillers question about reference books I would certainly
+concur with Mr. Daniels.  Another book that can serve as a good reference
+source, though not as technical nor as in depth as some of the other books
+mentioned, is "The Brewers' Handbook" by Ted Goldammer.  It's 457 pages and
+gives an excellent overview of the commercial brewing process as well as has
+chapters on the U.S. beer market and beer styles."
+
+
+You can read Ted Goldammer's book online at
+http://www.beer-brewing.com/index.htm
+Although the website says something about 'selected excerpts' it appears to be
+the complete book, though I'm not sure about that. Anyhow, it's a valuable
+link to have bookmarked.
+
+
+Mark Tumarkin
+Hogtown Brewers
+Gainesville, FL
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 05:03:07 -0800
+From: Jonathan Royce <jonathan`at`woodburybrewingco.com>
+Subject: RE: Igloo Conversion 
+
+
+Mary Johnson asked about converting a 3 qt Igloo for partial mashes. 
+
+
+First, let me just say that I am also a partial masher, and in IMHO a 3 qt 
+cooler is too small to be useful. I went with a 2 gallon cooler from Home 
+Depot and it is just about right--allows for 4-5 lbs of grain per 5 gallon 
+batch and gives anywhere from 8-12 quarts of runoff. You can see the design 
+on my website- -I went with a sealed bulkhead fitting, but my cooler was 
+rectangular so making the seal was easier than in a round cooler. 
+
+
+Anyway, if you're determined to try the 3 qt design, I see no reason why 
+drilling a 7/8" hole wouldn't work. Just be sure to use a very sharp hole
+saw so that you get a nice round hole and (if possible) fix something inside 
+the cooler wall that you can drill into. This method will prevent the plastic 
+inside the cooler from becoming frayed or broken and will provide a better 
+edge to seal against. Even better, if you have access to a hole punch, drill 
+a hole big enough for the hole punch bolt and then make the hole using the 
+punch. This will provide the cleanest, roundest hole you can make. 
+
+
+HTH, 
+
+
+
+
+Jonathan
+Woodbury Brewing Co.
+www.woodburybrewingco.com
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 10:28:27 -0300
+From: "Guillote" <guillote`at`castresana-sa.com>
+Subject: Procon Pump????
+
+
+Hi!
+My name is Guillermo im from Argentina.
+So, I could take a "REDHEAD PROCON PUMP" from a Coke dispenser machine. I
+want to know if someone have experience whit this pump. Im thinking use it
+for my Herms System.
+Coments???
+Thanks.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 08:44:04 -0500
+From: "Mike Dixon" <mpdixon`at`ipass.net>
+Subject: Beerjolais nouveau
+
+
+
+
+> From: Jeff Renner <jeffrenner`at`comcast.net>
+> How young have you served your beer?  How about five days?
+>[snip]
+> So, five days old.  And it tasted pretty damn good.  Can you top that?
+
+
+Let's see, you brewed on Monday, served on Saturday.
+
+
+I guess I gotcha with a 4 day old.  I brewed 3 batches one Saturday (a
+couple of years ago), one of which was a partigyle which ended up with quite
+a bit of extra wort so I made an additional 3 gallon batch.  The grist of
+the partigyle was mainly wheat and pale malt, and it had been through a step
+mash, also I took the final runnings of the first batch I had made and used
+that in the boil as well.  The OG post boil was about 1.040.  I did not have
+enough wort to make the 3 gallon batch, so I dumped the trub from the two
+previous batches through a collander and strainer and collected all the wort
+left in the kettle from 2 batches that were part of the partigyle and the
+trub from the "cleanup" batch.
+
+
+I pitched the only "extra" yeast I had, Edme, and left to ferment.  The next
+day, Sunday, the fermentation appeared done, so I decided to put it into a
+seconday.  I checked the gravity on Monday and it was completely fermented.
+I fined with gelatin since I now had the idea to take it to the club meeting
+on Wednesday.  On Tuesday, I kegged and force carbonated.  On Wednesday, I
+served it at the meeting.  Most people thought it was pretty good, one
+person picked out it was "extremely" young beer. Was it good, yes, was it
+outstanding, no.  It really didn't mellow and become great beer with age,
+but it remained a fairly decent beer to be the dregs from multiple mashes
+and multiple boils...
+
+
+Cheers,
+Mike
+www.ipass.net/~mpdixon/homebrew.htm
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 07:54:57 -0600
+From: Larry Bristol <larry`at`doubleluck.com>
+Subject: Re: Beerjolais nouveau
+
+
+On Sun, 23 Mar 2003 22:49:11 -0500,  Jeff Renner <jeffrenner`at`comcast.net> 
+wrote:
+
+
+> How young have you served your beer?  How about five days?
+> Here's the story, which includes a stupid brewer's trick.
+>...snip...
+> So, five days old.  And it tasted pretty damn good.  Can you top that?
+
+
+Yep.  I had some friends chew on some grain five days before the beer was 
+even brewed, and it tasted great!  There is a lot to be said for serving 
+"fresh" beer.
+
+
+Neat story.  It reminds me of my very first batch of homebrew made on 
+April 1, 1982.  [I started as a child, you know?  Think about it --- in 
+just a few days, my beer is going to be old enough to drink itself!]  
+Seven days in the fermenter and then bottled.  You're supposed to let it 
+condition for 2 weeks, right?  On the fifth day, my neighbor and I 
+decided we should test one to see how the carbonation was coming along.  
+By the time it was "ready", it was gone!
+
+
+- -- 
+Larry Bristol
+The Double Luck
+Bellville, TX
+http://www.doubleluck.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 09:33:11 -0500
+From: Marc Sedam <marc_sedam`at`unc.edu>
+Subject: fastest beer in the east
+
+
+I can beat Jeff R. by one day.  After moving into my new pad I quickly 
+found myself with NO beer, having extinguished the reserves in the hot 
+moving days.  I did have some malt left and ground up 7lbs pils and a 
+pound of 40L crystal.  Pitched a sachets of EDME dry yeast at 10pm on 
+Wednesday and racked to the keg on 10am Friday.  The beer was already 
+clearing and there was just enough fermentability left that it 
+carbonated sufficiently by Saturday evening.  Chill and serve.  A bit 
+hazy but fresh as all get out.
+
+
+- -- 
+
+
+Marc Sedam
+Chapel Hill, NC
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 07:05:34 -0800 (PST)
+From: Leo Vitt <leo_vitt`at`yahoo.com>
+Subject: Irish Red
+
+
+Cas Koralewski asked:
+
+
+>What BJCP style does "Irish Red Ale" fall into?
+
+
+The old AHA categories had this under brown ales.  I don't think
+the current BJCP categories list it.  If it is not, maybe we should 
+ask - Should it be included?
+
+
+If I am correct that it is not a current BCJP category, you can
+submit it to a competition under 24 Specialty/Experimental/Historical.
+
+
+=====
+Leo Vitt
+Sidney, NE
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 11:13:42 -0500
+From: "Buck Wilke" <brewer`at`valkyrie.net>
+Subject: white film
+
+
+hello fellow brewers,
+
+
+first time posting. if anyone can answer this question i know that it is 
+the collective.
+i had a pale ale sitting in a conical fermenter with the loose fitting 
+lid (mini-brew from hobby beverage, and i have never had this problem 
+before). this brew was dry-hopped. after dry-hopping for 2 weeks i 
+lifted the lid and removed the hops. two days later i was ready to keg 
+the batch. upon opening the lid i saw this thick bubbly white film, it 
+almost looked like "mother" on vinegar. however the brew had no sour 
+odor or taste, it tastes quite good.
+when this film is touched chunks, fall into the brew and suspend. i 
+drained and filtered the batch through a very fine strainer with double 
+layered cheesecloth in it. all looked well. i let this settle for a day, 
+it was about half way settled and the white film was back.
+this time i took 5 campden tablets and crushed them. i then filtered the 
+brew again on top of the campden tablets. thinking that maybe this was a 
+yeastie thing starting (the fermenter was in the kitchen, and my wife 
+was baking a lot of bread). i know, i'm grabbing at straws. the brew was 
+settling out nicely and bang the white film is back. there is no sulfur 
+taste or odor to the brew, which may have been possible with the campden 
+tablets.
+i am now planning to allow the brew to settle completely. then refilter 
+and keg.
+does anyone have any idea what this is? and what to do? and is this is a 
+bad idea, of refiltering and kegging?
+
+
+buck wilke
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 12:34:47 -0500
+From: Jeremy Bergsman <jeremy`at`bergsman.org>
+Subject: "burnt sugar"
+
+
+I think Tidmarsh was referring to my grandfather's beer making instructions,
+which do indeed refer to making "burnt sugar" to color and flavor some
+beer.  These are at:
+http://bergsman.org/jeremy/beerstuff/fritz.html
+
+
+I think that the process (like the whole document) is interesting for
+historical reasons, but probably not very enlightening for how to proceed in
+practice nowadays.  Here's what it says:
+
+
+Burnt sugar for colouring:  1lb. sugar (cane or corn), put in pan, cook to
+brownish-black colour, then add small amount of water and cook to a thin
+liquid.  When finished should have about 1/2 dipper full (3 quart dipper)
+
+
+I have posted in the past on making sugar syrups and I agree that Jeff's
+approach is unnecessarily involved.  Just add water when the caramel gets
+where you want it.  Just do it *carefully* because the caramel is *very* hot
+and even better at burning you and the water will instantly boil and tend to
+splatter things around.
+- -- 
+Jeremy Bergsman
+jeremy`at`bergsman.org
+http://www.bergsman.org/jeremy
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 09:43:26 -0800 (PST)
+From: Lonzo McLaughlin <lonkelm`at`yahoo.com>
+Subject: Kettle False Bottoms
+
+
+Hello,
+
+
+I have a 3 tier converted keg system.  I'm having
+trouble getting all of the work out of my kettle after
+I finish the boil.
+
+
+My pickup tube goes to the center and bottom of the
+keg and I have a scrubbie on the end.
+
+
+I normally use hop pellets in my brew sessions.  
+I see Sabco has a false bottom with 3/32" holes.  I
+would think the fine particles of the pellets would
+make it through this no?
+
+
+Please let me know how other have made this part of
+their system successful.
+
+
+Lonzo
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 14:47:02 -0500
+From: Andrew Nix <anix`at`vt.edu>
+Subject: Mountain Creek Water in Brewing
+
+
+Hello all,
+
+
+I have been tossing around the idea of using the water from my favorite 
+wild trout stream in the mountains here in SW VA and wanted to see if 
+anyone has tried this before with their local streams.  I know there is a 
+large variation in the water from watershed to watershed depending on the 
+soil and rock formations.   Has anyone tried to make a beer from mountain 
+stream water, and if so, what adjustments, if any, did you make to the 
+water chemistry before brewing with it?
+
+
+I know I could send a sample off for chemical analysis, but I'm not going 
+to go that far.  I want to make an American pale with it, so I may not 
+treat it at all and just see how the beer comes out.
+
+
+Andrew Nix
+Research Associate
+Transonic Turbine Cascade Heat Transfer Group
+Department of Mechanical Engineering
+Virginia Tech
+100B Randolph Hall
+(540) 231-6939
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 19:54:51 -0500
+From: "greg man" <dropthebeer`at`hotmail.com>
+Subject: enzymes an overnight mashing
+
+
+
+
+  I tried overnight mashing last weekend on a belgian sasion. The whole 
+process cut 2 hours out of my brew day (well, cut it on one day an added it 
+to another I guess). It seemed to work pretty good, but my final resting 
+temp the next morning was a little low `at` 130F. Too close to the danger zone 
+for me, so next time I'll try to find a better way of insulating the cooler. 
+Any suggestions would be appreciated!!
+  This method of mashing is particularly useful for those of us who like to 
+do decoction or complex mashing schedules. After a 2-3 hours of working on a 
+mash your ready for bed and now that's just what you get to do.
+  I have only two questions for the collective chemistry majors out there 
+about the process. First do coolers lose heat in a linier scale? For example 
+I left the mash at 1am `at` 150F. 10 am the next day the mash reached 130F. If 
+it was linier then every hour the mash dropped 2.5 degrees. That to me 
+sounds like a step mash in reverse? You could assume a backward mash 
+temperature rest schedule?
+
+
+  The second is this I wondered If the temp will fall that much over night 
+then I will have to start at a higher final resting temp. Will resting the 
+mash over night at say 158F destroy all of the beta enzymes?
+  What I mean is by the time the mash reaches say 148F will there be any 
+beta left to convert starches to fermentable sugars? I have read a few times 
+that at higher temps enzymes are eventually destroyed. Of corset with the 
+length of time mashing that is involved in overnight mashing, I would 
+suppose even if a small about of enzymes were left they would have enough 
+time to do there job?
+
+
+  What about if the mash stays too long `at` 130F? Will I have a headless beer? 
+Or will it become very thin in body an mouth feel?
+
+
+thanks all...............gregman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 24 Mar 2003 19:51:36 -0800 (PST)
+From: John <j2saret`at`yahoo.com>
+Subject: Kellogs' Black and Tan
+
+
+Thanks to both Jeff and Marc for their (differing)
+replies to my question on cereal mash.  By a remakable
+conincidence the grocery store had a sale on Kellogs
+Corn Flakes.  I had enough grain on hand to brew
+another batch of the Black and Tan that I had just
+moved to my secondary so I thought "why not  In one
+fell swoop I can produce both a CAP and a CACA,
+discovering along the way the difference between
+brewing with corn meal and corn flakes.  Having the
+two beers on hand to compare the flavour with and with
+out corn will be instructive and the process might
+teach me something."  So far so good.  I kettle mash
+and the mash with corn flakes took  seven minutes
+longer than the previous batch without.  The sparge
+yielded less liquid than expected (5.3 gal vs the
+projected 5.8)  so I will be topping up the primary
+once it is chilled.  I am excited about the experiment
+and if successful will be moving on to include rice
+crispies in my arsenal.  On a unrelated note I got my
+Sportsman's Guide catalog to day and I see they are
+offering 30qt u.s. aluminum fry pot with a screened
+drain spigot for $49.97.  It looks like it could be a
+great boiling pot/primary.  Any feedback?
+
+
+John
+545.3, 308.5
+(oh no I've joined the cult, dues are next)
+
+
+___________________________________________________________
+Sent by ePrompter, the premier email notification
+software.
+Free download at http://www.ePrompter.com.
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4204, 03/25/03
+*************************************
+-------

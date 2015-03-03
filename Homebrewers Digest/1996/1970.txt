@@ -1,0 +1,1515 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA16971 for <spencer`at`srvr5.engin.umich.edu>; Tue, 27 Feb 1996 03:10:33 -0500 (EST)
+Received: from truelies.rs.itd.umich.edu (truelies.rs.itd.umich.edu [141.211.83.38]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA20934 for <spencer`at`engin.umich.edu>; Tue, 27 Feb 1996 03:09:26 -0500 (EST)
+Received: by truelies.rs.itd.umich.edu (8.7.1/2.2)
+        with X.500 id DAA27728; Tue, 27 Feb 1996 03:09:26 -0500 (EST)
+Received: from hplb.hpl.hp.com by truelies.rs.itd.umich.edu (8.7.1/2.2)
+        with ESMTP id DAA27710; Tue, 27 Feb 1996 03:09:18 -0500 (EST)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Tue, 27 Feb 1996 08:06:52 GMT
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA15141; Tue, 27 Feb 1996 01:00:07 -0700
+Date: Tue, 27 Feb 1996 01:00:07 -0700
+Message-Id: <9602270800.AA15141`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #1970 (February 27, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #1970                             Tue 27 February 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Goofy Gravities/Water analysis (CASteveB)
+  Questions on Zymurgy CF chiller test ("Mark G. Schmitt")
+  re: funky bock (lheavner)
+  ss pot/bleach temp/ESB recipe ("Sharon A. Ritter")
+  Special "B" is crystal??!! (Jim Cave)
+  re: RIMS question (C.D. Pritchard)
+  Starting out (John W. Braue, III)
+  Elephant Malt Clone (bugman2)
+  Cervesa autentica! (Charlie Scandrett)
+  Spent Grains in bread. (Alan Folsom)
+  Sumerian Beer description (Terry Smith)
+  Frozen Wyeast lives! (Scott Bukofsky)
+  malt/proteins (Jim Busch)
+  Club Wort Presents the 1st Annual BJCP sanctioned Easter (Scott Abene)
+  little orange thingie? (Chuck Wettergreen)
+  Pet Bottles and Dishwashers (J. Matthew Saunders)
+  RE: Krausening and Gyle / botulism (Alec Saunders)
+  Re: Brewers Companion (Mark Thompson)
+  first time brewer, HELP! ("FINLEY, BARRY CURTIS")
+  High Terminal Gravity (Lorne P. Franklin)
+  It's not beer. (Domenick Venezia)
+  Water-Brita Filters (ArnoldWa)
+  mixed gases....continued (Jerry Lee)
+  Re: Starting Out (Robert Bush)
+  Bottle to Bottle Transfer (kgmiller)
+  Re: "The Brewer's Companion", Mosher (Bob McCowan)
+  Re: European Brewery Tours (Robert Bush)
+  The Macitosh Minority / Brew-ware (Simonzip)
+  Re: mixed gases....continued (Jerry Lee)
+  Mike's List of Homebrewing Suppliers-UPDATE (Mike White)
+  Micro shopping in Denver (DEBOLT BRUCE)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 25 Feb 1996 15:20:49 -0500
+From: CASteveB`at`aol.com
+Subject: Goofy Gravities/Water analysis
+
+
+Hello brewers!
+
+
+Last Sunday (18 Feb) I brewed an American Pale Ale.  I used 6 lbs. Light DME
+as well as some steeped specialty grains.  For a 5 gal batch, this should
+have yielded a SG of approximately 1.050 (Assuming 1.042 for the DME).  After
+it was in the fermenter I took a SG reading and it was 1.026! (It also tasted
+incredibly bitter, which I think would make sense if the SG was half of what
+I was shooting for.)  After a little contemplation that night I decided that
+first thing in the morning I would  boil up some more DME,  put it in another
+fermenter, and rack as much as I could out of the first fermenter into the
+new one. Since I got half of what I wanted the first time, I used another 6
+lbs. DME with 1 gal of water (as little water as I thought would work) the
+second time.  Everything went well and I got most of the first batch into the
+second fermenter (as well as a *really* clear wort because of all the trub
+that settled overnight).  I took another reading and the SG was 1.080!  I
+could see it being a little higher than the 1.050 I was origanally hoping
+for, but not that high.  It has been fermenting very well throughout the
+week, and I will rack to the secondary sometime this week.  Where did I mess
+up?  Do you think this will turn out to be O.K. even though not exactly what
+I was hoping for?
+
+
+My second issue involves the water analysis I received.  Here is what I have:
+pH: 7.3 - 7.7;  Hardness: 480 mg/l as CaC03; SO4: 10 ppm; Cl: 6 ppm; Na: 4.69
+ppm.
+I had also requested info on Ca, Mg, C03, and 2(HCO3), but they left that
+blank.  I have read the section on water in both of C. Papazian's books, and
+am still a little confused about what the results mean for me.  I plan to
+stick to extracts with specialty grains for the near future (I will probably
+be moving before I jump into any mashing), so do I need to worry that much
+about my extra hard water.  I do use an activated charcoal filter for all my
+brewing water, but do I need to do more?  Will using better water improve my
+beer that much (both in taste and other qualities such as head retention)?
+
+
+TIA for the help.  I feel very fortunate to have access to the wealth of
+knowledge and experience that I have found in the HBD.  
+
+
+Steve
+
+
+
+
+------------------------------
+
+
+Date: 25 Feb 96 16:18:52 EST
+From: "Mark G. Schmitt" <102160.1456`at`compuserve.com>
+Subject: Questions on Zymurgy CF chiller test
+
+
+Could someone help me understand the test results from Zymurgy's counterflow
+wort chiller evaluation?  Perhaps I don't know what the authors mean by *Time To
+Cool 5 Gal* of wort.  To me this implies the time it takes for 5 gal of wort to
+gravitate through the inside copper tube.  If so, then why does it takes 20+ min
+to go through 25' of 3/8 OD tubing but only 12+ to traverse 50'?  Are not the
+Brewers Resource model and the 25' Listermann model identical except for the
+garden hose?  Then how come the wort flow is 19.7 gal/hr for the former but 14.9
+gal/hr for the latter?  I was a little suprised to note that the extra 25' of
+tubing in the second Listermann chiller only dropped the wort temp by one
+additional degree to 64F even though the coolent temperature is 52F.  Finally,
+is the key to CF design a large diameter inner tube as in the Heart's chiller?
+I was pleased to see this comparision as my current CF chiller is about shot and
+I am in the market to buy/make a new one.  But this article left me a little
+confused.
+
+
+Mark Schmitt
+102160.1456`at`compu$erve.com
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Feb 1996 16:52:33 -0600
+From: lheavner`at`tcmail.frco.com
+Subject: re: funky bock
+
+
+     In HBD 1968, Maxwell McDaniel asks about improving a kit based on LME 
+     for a bock.  The worst beers I ever made were kits obtained from 
+     England by a coworker on a trip he made over there.  They were a Gordie 
+     Gold Medal Bitter and a Gordie Mild.  I was trying to remain true to 
+     the styles assuming that the kits were as advertised.  Therefore, I 
+     made approximately 3 gal/batch rather than 5 gal and have to add the 
+     recommended table sugar.  I questioned the viability of the yeasts 
+     provided, so I used a nottingham dry yeast for each following the usual 
+     procedures.  The "Gold Medal" kit contained a packet of hops which was 
+     also suspect.  Therefore, hopped it with an oz of fuggles (1/2 at the 
+     begin of the boil and 1/2 with about 5 minutes left).  Both beers 
+     turned out nearly black in color and excessively bitter almost burnt 
+     tasting.  I was embarrased, but glad to give away most of the batches 
+     to the guy who asked me to make them.  (I did later give him some good 
+     ESB made from extract & grains to protect my reputation) When I 
+     examined the label on the LME cans, the 2nd ingredient was carmel.  
+     That is what I suspect dominated the flavor and surely caused the dark 
+     color.  I don't know if using corn sugar or corn syrup to make a 5 gal 
+     batch would have been an improvement, but I doubt it.  It probably 
+     wouldn't have been any worse though.  I found that blending them off 
+     with domestic lite beer (kept in the fridge for some of my tasteless 
+     friends, not for me) made them more drinkable.  I got the idea from 
+     Black & Tans, but I'd rather have a real Black & Tan, anyday.
+     
+     Bottom Line: If carmel is a key ingredient, you may have to live with 
+     the off flavor or find a way to dispose of it.  If you are determined 
+     to consume it, try blending it off with something that will balance 
+     out the flavor.  Take the advice for extract brewing offered earlier 
+     in HBD, and if possible, brew w/ pale malt extract and use specialty 
+     grains to achieve color and special taste objectives.  And consider 
+     liquid yeast, especially when trying to achieve unusual styles.  Good 
+     luck however it turns out!
+
+
+------------------------------
+
+
+Date: 25 Feb 96 18:43:55 EST
+From: "Sharon A. Ritter" <102446.3717`at`compuserve.com>
+Subject: ss pot/bleach temp/ESB recipe
+
+
+<Mitch Hogg asks about upgrading from his enameled steel pot (HB1963).>
+
+
+        I hemmed and hawed for a year about the cost of a quality SS pot. Just
+like Mitch, my once-a-month all grain batches were taking a toll on my 
+enameled pot. I recently bit my tongue (my wife bit hers too) and shelled out 
+$160 for a Vollrath 38.5 quart stainless steel vessel (it's a "vessel" at that
+price).  I love it and hope to pass it on to my children as a family heirloom.
+
+
+<Mitch also inquired about the reason to use cold water, not hot, when mixing 
+bleach.>
+
+
+        I believe the primary reason is that hot water and bleach makes for 
+more chlorine gas than mixing with cold water. I don't think there is a 
+practical difference in terms of sanitizing effectiveness. But, what do I know
+about science!?
+
+
+Now MY question:
+
+
+        I'm want to brew an Extra Special Bitter that tastes and smells like 
+Deschutes' Bachelor Bitter and NOT like Red Hook's ESB. (What is that aroma I 
+smell in the Red Hook variety?) I like the clean but fruity taste and the 
+unmistakeable Kent Goldings hops flavor and aroma in the Bachelor Bitter.  I 
+plan to use Wyeast #1968 `at` 62F, Hugh Baird 2-row, 8% 90L English Crystal, 5% 
+Flaked Wheat, and 35 IBU's of Goldings hops. SG of about 1.044.  Any thoughts 
+about this recipe and the taste profile I seek?
+
+
+        Dan Ritter in Grangeville, Idaho
+        102446.3717`at`compuserve.com  
+
+
+        
+
+
+------------------------------
+
+
+Date: Sun, 25 Feb 1996 17:26:24 -0800 (PST)
+From: Jim Cave <CAVE`at`PSC.ORG>
+Subject: Special "B" is crystal??!!
+
+
+
+
+        I could be corrected, but I read the post by (?) concerning the
+use of special B and the comment was made that this was some sort of 
+a special, high roast crystal malt.  This does not look to be the case
+from my examination of this malt.  It appears to be some sort of high 
+roast malt but I could not see any caramelization of the interiour of the
+malt that would indicate a crystalization inside.  I chewed a several 
+kernals and the perception is one of a drying roast, rather than a 
+lusiousness (which would be perceived from crystal).  Has anyone seen
+a spec. sheet on the production of this malt?
+
+
+        I broke in half and chewed 20 odd kernals of DC caramunich and
+it would seem to me that about half of these are caramelized and crystalized
+malt (fairly high roast) and the other half appear to be some sort of 
+high roast munich malt.  Does anyone know if this is a blended malt from
+two different processes?
+
+
+        BTW, the Special "B" I examined was Dewolf Cosyns.
+
+
+                                Jim Cave
+
+
+------------------------------
+
+
+Date: Sun, 25 Feb 96 22:12 EST
+From: cdp`at`chattanooga.net (C.D. Pritchard)
+Subject: re: RIMS question
+
+
+"Keith Royster" <keith.royster`at`ponyexpress.com> posted in 1963:
+
+
+>How do those of you with RIMS deliver the wort to the top of the grain bed
+>gently and evenly?  
+
+
+First try was a manifold made from about 4' of copper 3/8" tubing coiled
+into a spiral.  The manifold had varing sized and spaced holes in an effort
+to get both a uniform and a low velocity flow.  After much expermentation I
+concluded it couldn't be done and used for both wort and sparge water
+distribution as I'd hoped.  I was preparing to build another one from
+perforated 1/2" copper pipe  
+with a center feed nipple when I spied a 5 gallon poly pail and some
+synapses fired in an unusual manner (IOW, a brain-fart).  I cut the pail
+about 5" from the bottom except for 3 "ears" extending above it.  The bottom
+was perforated with 90 uniformally spaced 3/32" holes.  I drilled out about
+12 of the holes in the copper manifold to 3/16" and put it in the remains of
+the pail.  The pail thing is hung from hooks made from 12 ga copper wire at
+the top of the RIMS tun via chains fastened to the ears on the pail.  The
+chains and hooks allow for easy adjustment of the height of the thing in the
+tun and the ears hold it centered in the tun.  I haven't mashed with it yet,
+but, holding it above the tun and observing the exit flow, it's very gentle
+and very uniform.  I expect it will work well both for wort return and for
+sparging.  At 2 GPM (as of now, my max flowrate) the fluid in the pail thing
+is about 1/2" deep.  If you have the oft' recommended higher flowrate pump,
+you may need larger or more holes in the thing.  At a sparge trickle, the
+holes in the bottom of the copper manifold are just barely covered.  The
+only potiential problem is that the rim at the bottom of the pail could trap
+a bit of air if you don't put some holes there and don't jiggle the thing a
+bit to ensure the air is bleed off.  Other than trying to find copper or SS
+chain (I used brass but since it's not in the mash, I don't worry), the
+thing is easy and cheap to build.  
+
+
+>do you think occasional stirring of the grain bed is necessary (maybe 
+>between temp steps) to eliminate temperature pockets, or should the 
+>grain be be shallow enough (even with a 10 gallon batch in a modified 
+>sankey keg) so as not to have these temperature pockets? 
+
+
+One of the advantages of the RIMS is that stirring isn't required except at
+while doughing in!  Perhaps it's desirable if your tun isn't well insulated
+or the flow through the bed isn't uniform but, you should deal with those
+sorts of problems directly rather than by stirring.  With a good system you
+*may* increase the extract a point or so.  IMHO, a few cents worth of
+additional grain is a great bargin when compared with stirring! 
+
+
+Once I get my 'puterized control fine-tuned, I plan on adding several
+additional temp sensors to the tun.  I'll will report what I find; however,
+like other variables, YMWillV.
+
+
+C.D. Pritchard    cdp`at`chattanooga.net
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 07:28:20
+From: braue`at`ratsnest.win.net (John W. Braue, III)
+Subject: Starting out
+
+
+sbrborg`at`umslvma.umsl.edu (Brian Borgstede) writes:
+
+
+>I plan to buy a primary firmenter [sic] (Large plastic food grade
+>bucket w/lid.) and carboy w/bubbler.
+>What size carboy should I buy. (This seems to be the most expensive part
+>and I only want to buy one)
+
+
+Quite simply:  buy one approximately the same size as the primary
+fermenter.
+
+
+As you have noted, 5 US gallons is a pretty standard size for
+recipes.  The primary fermenter should be somewhat larger than this
+to allow for the vigorous production of kraeusen by the
+fermenter.  The carboy, of 5 gal. size, can then be used secondary
+fermentation, dry hopping, etc.
+
+
+If you're not planning for the use of the carboy for these
+purposes, don't buy one.
+
+
+
+
+- --
+John W. Braue, III                     braue`at`ratsnest.win.net
+                                    john.braue`at`berlinwall.org 
+
+
+"The water of England is not drinkable"
+- -- Elizabeth of York in a letter to the Infanta Catalina of Aragon
+
+
+I've decided that I must be the Messiah; people expect me to work 
+miracles, and when I don't, I get crucified.
+
+
+------------------------------
+
+
+Date: Sun Feb 25 22:51:33 1996
+From: bugman2`at`aroundhorn.win.net
+Subject: Elephant Malt Clone
+
+
+Does anyone have a all grain recipe similiar to Elephant Malt from Denmark?
+
+
+
+
+
+
+Mail sent with Portico for Excalibur
+
+
+------------------------------
+
+
+Date: Sat, 25 Feb 1995 00:17:49 +1100
+From: merino`at`cynergy.com.au (Charlie Scandrett)
+Subject: Cervesa autentica!
+
+
+Could those Spanish speakers among us respond to Imanol's posts when they
+come, beer should speak all languages.
+
+
+>Date: Sun, 25 Feb 1996 00:13:55
+>To: Imanol
+>From: Charlie <merino`at`buggs.cynergy.com.au>
+>Subject: Cervesa autentica!
+>
+>Bienvenido Imanol!
+>Soy australiano quien habler un porquito de espanol. Por favor, manda su
+cartes en espanol, mucho gentes hablan este idioma. Nosotros responderemos
+en espanol por correo en privado. El nivel de "Home Brew Digest" es por
+principiantes and experimentados cerverceros.
+>
+>esperemos,
+>
+>Charlie (Brisbane, Australia)
+>
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 05:44:22 -0800
+From: folsom`at`ix.netcom.com (Alan Folsom)
+Subject: Spent Grains in bread.
+
+
+Recently there was a discussion regarding using spent grains in bread, 
+which I have mislaid.  Can someone summarize for me by email?  
+Quantities, and adjustments to recipes appreciated, or even example 
+recipes.
+
+
+Thanks, Al Folsom
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 09:26:24 -0500
+From: tsmith`at`tiac.net (Terry Smith)
+Subject: Sumerian Beer description
+
+
+  Someone here recently asked about the project to recreate a Sumerian Beer.
+One major contributors was Fritz Maytag.  
+
+
+  There has apparently been a flurry of discussion of this on an ancient
+near east mailing list.  A friend sent me a reference to an article on the
+process.  Try:
+
+
+    http://s-kanslia-3.hut.fi/SumerianBeer.html
+
+
+ I suggest that you look at it, even if you aren't interested in Sumerian
+beer, for the lovely and moving Sumerian "Hymn to Ninkasi".  One verse of
+this hymn is quoted here: 
+
+
+  When you pour out the filtered beer 
+    of the collector vat,
+  It is [like] the onrush of 
+    Tigris and Euphrates.
+  Ninkasi, you are the one who pours out the
+    filtered beer of the collector vat,
+  It is [like] the onrush of 
+    Tigris and Euphrates.
+
+
+ These folks were our spiritual cousins.....
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 09:28:51 -0500 (EST)
+From: Scott Bukofsky <scott.bukofsky`at`yale.edu>
+Subject: Frozen Wyeast lives!
+
+
+Thanks to all those who responded to my fears about a frozen Wyeast 
+packet.  After making a starter culture, the yeast kicked right in.  It 
+is now fermenting happily in a 5-gallon batch of beer.  Yeast are hardier 
+creatures than I realized.
+
+
+ -Scott
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 09:51:33 -0500 (EST)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: malt/proteins
+
+
+Charlie writes some good stuff about malts/protein:
+
+
+<Also enzymic modification of the protein profile is dominated by malting,
+
+
+This cannot be emphasized enough.  It is why I asked awhile ago what
+types of malts are considered low in degree of modification and received
+few good responses.  The bottom line is that the maltsters, for their
+own benefits and not for brewers, are doing too much of the work of 
+brewers.  Pro brewers must demand malt that meets the needs of the craft
+brewer, and if that means one wants to make classic Bavarian lagers it
+can be very difficult to find an adequate malt.
+
+
+
+
+< If they step mash before going to bed they could produce up to 50% of their
+<final Amino Acid content in their mash, but after 55C, very few increased
+AA's
+
+
+The bulk of the amino acid profile is also fixed by the maltster and not
+by mashing techniques, although they play relatively minor role.
+
+
+Lance Stronk babbles:
+
+
+<Again, I understand that it is possible to blab away on the HBD but this is
+garbage.  I am not the HBD police but, 
+
+
+Piss off and scroll down for crissakes.  The post was just fine and 
+fairly accurate.
+
+
+And Rob says about domestic 2 row:
+
+
+<As far as I'm concerned, the domestic 2-row malts out there are more like
+<lager malt, because of the typically higher enzyme levels and the noticeable
+<if not prodigious amount of DMS production during brewing.  Certainly, 
+<brewers' techniques will affect the level of DMS in the final product, but
+<I'm firmly rooted in the camp that English Style ales should not have DMS
+<levels above flavor threshold.  As such I feel domestic malts are more suited
+<for lagers, Belgian ales, Kolsch, and Alt.
+
+
+In my experience I could wave a pot of 155F water over domestic 2 row 
+and it would convert!  As for "better for non English ales", I would
+point out that the vast majority of craft ales are produced with this
+type of malt.  Many rave about the ales of Anchor, Sierra, etc and it
+is domestic  2 row.   While a decent lager can be made with this malt,
+a better lager can be made with the likes of malt from Bamberg.  I
+dont feel that a traditional alt can be produced with domestic 2 row,
+nor a clean Koelsch, it would be too grainy.
+
+
+Jim Busch
+                     
+                     A Victory For Your Taste!
+                      Festbier, Lager and IPA (and Pils, and Mild
+                      and Doppelbock and .....)
+
+
+No copyright implied, wanted, or thought tasteful - Jeff Frane.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 09:33:47 -0600
+From: Scott Abene <skotrat`at`wwa.com>
+Subject: Club Wort Presents the 1st Annual BJCP sanctioned Easter
+
+
+                                 CLUB WORT
+                PRESENTS THE 1ST ANNUAL BJCP SANCTIONED
+                       EASTER INVITATIONAL HOMEBREW
+                                COMPETITION
+
+
+
+
+
+
+DATE: 
+
+
+        Saturday, April 6, 1996 
+
+
+LOCATION: 
+
+
+        Durty Nellie's West Irish Pub Corner of Bothwell and Slade Streets
+Palatine, IL         60007 Phone (847) 358-9150 (for directions).
+
+
+CATEGORIES: 
+
+
+        All AHA recognized categories except sake. Number of categories and
+flights             based on number of entries.
+
+
+ENTRY REQUIREMENTS: 
+
+
+        Three (3) capped bottles per entry. 10-14 oz. Green or brown glass
+bottles              required. Glass should have no paper or inked labels,
+raised glass brand-name           designs, or any other distinguishing marks
+on the bottle. Lettering or graphics         on bottle caps must be
+obliterated with black permanent marker. Corked bottles          or
+swing-tops are not allowed. Bottle ID Form must be attached to each entry
+with a rubber band. Entry forms should be completely filled out (category
+and           sub-category included!) and enclosed with entries.
+
+
+                          All entries should be mailed to: 
+
+
+                                Chuck Gollay
+                                 c/o BBPCo.
+                              400 Lexington Drive
+                            Buffalo Grove, IL 60089
+
+
+                            email: Brudaddy`at`wwa.com
+
+
+        Please contact Chuck at the Phone number below or the email address
+above for a competition entry packet.
+
+
+        Deadline to receive entry forms and beer is Monday, April 1, 1996.
+Competition organizers are not responsible for entries lost/delayed in mail.
+All entries become the property of Club Wort. Call Chuck Gollay at
+847-991-6855 or e-mail to if you want to confirm receipt of entry. No other
+confirmation will be given!
+
+
+FEES: 
+
+
+        1-3 Entries: $5 per entry ($4 for members)
+        4+ Entries: $4 per entry ($3.50 for members)
+        Make checks payable to CLUB WORT.
+
+
+JUDGING: 
+
+
+        Homebrew competition judging will take place beginning at 11:00 A.M.
+AHA judging 
+        guidelines will be followed. Judges will not evaluate beers in
+categories in            which they have entries. Evaluations and results
+will be returned to each               entrant within 2-3 weeks.
+
+
+AWARDS: 
+
+
+        Ribbons will be given to the top three finishers in each flight.
+Blue ribbon            winners will also be awarded various prizes still to
+be determined. Best of Show         winner will receive an authentic German
+beer stein.
+
+
+AGE: 
+
+
+        All entries must be brewed and submitted by persons at least 21
+years of age.
+        Please direct questions to Chuck Gollay at (847)-991-6855 or by e-mail. 
+
+
+              Please copy and distribute freely to any and all homebrewers.
+
+
+
+
+     Also check out the Club Wort Webpage at
+http://miso.wwa.com/~skotrat/cwort.html
+
+
+Please direct all competition queries to Chuck Gollay ( Brudaddy`at`wwa.com )
+and not Scott Abene. Thanks! Enjoy!
+
+
+
+
+
+
+
+
+
+
+****************************************************
+*                    Scott Abene                           *
+*                 skotrat`at`wwa.com                   *
+*           http://miso.wwa.com/~skotrat           *
+* (Skotrats Official Homebrew "Beer Slut" Webpage) *
+*         "Get off your dead ass and brew"         *
+****************************************************
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 09:56:31 -0600
+From: chuckmw`at`mcs.net (Chuck Wettergreen)
+Subject: little orange thingie?
+
+
+In #1968 Russel Mast (rmast`at`fnbc.com) asks about the little orange
+thingie on the end of a racking cane.
+
+
+HH> Bad ASCII, eh?  The "o" is a little orange thing.
+
+
+HH> your hose.  This is a pretty standard piece of equipment.  (Side note
+ - what the hell is this thing called?)
+
+
+It is known as a "foot", just like a "foot valve".
+
+
+Cheers,
+Chuck
+/*/*/*/*/*/*/*/*/*/*/*/*/*
+Chuck Wettergreen
+chuckmw`at`mcs.com
+Geneva, Il
+/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 11:18:32 -0500
+From: saunderm`at`vt.edu (J. Matthew Saunders)
+Subject: Pet Bottles and Dishwashers
+
+
+Tracy writes:
+
+
+>Are PET bottles dishwasher safe?  I was going to try a couple with my
+>next batch of beer but wanted to know how to clean them.  Is just
+>bleaching enough if they can't make it through the dishwasher?
+
+
+PET bottles are decidedly un-dishwasher safe.  I have several PET blobs
+from sending them through the cycle.  Bleaching is enough. I've been
+brewing for 7 years with them--sanitizing with bleach--and have never had a
+problem.
+
+
+I use two or three tablespoons of bleach per gallon of sanitizing water and
+soak the bottles for ten minutes (same with the caps).  I then rinse them
+and cap them lightly for bottling later.  Works dandy.
+
+
+Cheers!
+Matthew
+
+
+============================================================================
+              "Madness takes its toll.  Please have exact change."
+
+
+                              J. Matthew Saunders
+                                saunderm`at`vt.edu
+
+
+          http://fbox.vt.edu:10021/S/saunderm/index.html/page_1.html
+============================================================================
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 08:30:56 -0800
+From: Alec Saunders <alecs`at`MICROSOFT.com>
+Subject: RE: Krausening and Gyle / botulism
+
+
+>
+>HuskerRed`at`aol.com writes:
+
+
+>>I was think about doing it.  I would use his formula to calculate the 
+>>amount of gyle required, freeze it in a clean plastic container.  I would 
+>>then thaw it out in a pan and boil it.  Allow it to cold.  Then add it to 
+>>the wort in my bottling bucket.  CP says to save in a sterile jar in the 
+>>refrigerator and then pitch.  Is there any reason way freezing and 
+>>reboiling wouldn't be better?  Or is this whole process just a PITA and 
+>>just not worth the trouble? 
+
+
+I have done this.  Purely subjective viewpoint - I think it produces
+some minor differences in the beer.  I ended up with a beer that had
+very fine bubbles and lots of carbonation and nice head retention.  How
+much of that was due to the beer itself vs. how it was primed... well,
+your guess is as good as mine.  It was a very fine beer though.
+
+
+On a related topic, a while ago there was some discussion about canning
+starters (I used to use one of my canned starters for "krausening" when
+I did this).  Someone commented that they were worried about botulism in
+a canned starter, which is why they didn't do this.  Well, just recently
+I came across some really good info about botulism in a book on canning
+and smoking fish.
+
+
+Short answer:  there is no reason to be worried about botulism from
+canned beer starters.
+
+
+Long answer: Botulism is a toxin produced by the bacteria Clostridium
+Botulinum.  Simply boiling the wort kills any bacteria which might be
+present, and also destroys the toxin.  And, from the "Health Protection
+Branch, Botulism Reference Centre" at the Government of Canada --
+"Canned fruits, jams and jellies, and pickles and relishes do not cause
+botulism; high concentrations of acid, salt, or sugar prevent the growth
+of botulinum bacteria".  I would guess that the heat of canning combined
+with the fact that wort is basically sugary water is enough to deal with
+those little botulism bacterias...
+>
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 96 8:48:15 PST
+From: Mark Thompson <markt`at`hpdocp3.cup.hp.com>
+Subject: Re: Brewers Companion
+
+
+D & S Painter wrote :
+> I now have a quick question for anyone who has purchased or has been in 
+> contact with Randy Mosher's book The Brewer's Companion; could you 
+> please give me a review on this book. 
+
+
+I picked up this book last year and after reading it I wasn't all that 
+excited about it and sorry that I spent $20 for it.  I have found David 
+Miller's new book much more interesting and a better use of my money.
+For me TBC has about 20 pages of usefull information.  Much of it seems
+to be targeted towards someone that doesn't have an online brewlog or
+notebook. There are many pages dedicated to logging ones brew session.
+There are some reference pages that can be usefull also, but not worth
+the price.
+All in all i wouldn't recommend it.
+
+
+Mark
+
+
+------------------------------
+
+
+Date:        Mon, 26 Feb 1996 12:25:20 EST
+From: "FINLEY, BARRY CURTIS" <BFINLEY`at`MUSIC.CC.UGA.EDU>
+Subject: first time brewer, HELP!
+
+
+I have been interested in brewing for quite some time.  I enjoy a
+good beer more than just about anything.  I joined this group so I
+could possibly get some advice for people that have become skilled
+brewers through their experience.  I don't even know  how to start.
+Is there some good literature that can help me out?  Also, can
+I get some input on the best system for a beginer is?
+
+
+Thanks for your help
+Barry Finley
+Atlanta, Ga.
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 12:31:53 -0400
+From: lachina`at`interramp.com (Lorne P. Franklin)
+Subject: High Terminal Gravity
+
+
+
+
+In HBD 1968 Kelly wrote:
+
+
+I allways use wyeast liquid yeast and I get a steady slow fermentation but
+usually end up with a higher finish gravity than I should have. I'm talking
+about a pilsner at 18 - 20. I usually do my ales at 65 deg. And Lagers
+start at the same and end up in the fridge at 35 deg.
+
+
+- -->Ditto for me.  I've been brewing for three years and mashing for two.
+I'm generally very pleased with the results of my work, but the terminal
+gravity is not as low as sources indicate that it should be. This applies
+to both low (150F) and high (157F) starch-conversion temperatures.
+
+
+However, Kelly, I do use yeast starters (20 fluid oz. for ales, 30 fluid
+oz. for lagers).  So, if there is a common cause of our shared frustration,
+I don't think that increasing the volume of yeast will bring down the T.G.
+in your finished beers.
+
+
+Perhaps someone else can shed some light . . .
+
+
+
+
+L o r n e  F r a n k l i n
+     Lachina Publishing Services
+     t. 216.292.7959 - f. 216.292.3639
+     lachina`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 09:50:29 -0800 (PST)
+From: Domenick Venezia <venezia`at`zgi.com>
+Subject: It's not beer.
+
+
+
+
+I hesitate to reprint this recipe, and forgive me, but I feel it 
+necessary as justification for what follows ...
+
+
+> In HBD #1969 From: careyj`at`clan.TartanNET.ns.ca (John Carey)
+
+
+>I've been reading all the high tech info on brewing for the past week or
+>so but don't see much to help the average person who just wants to make a
+>batch of suds as simply as possible.  Hence, for the help of any such
+>person on the HBD list I submit the following recipe which I have been
+>using for some twenty years or so with considerable success. 
+>
+>Ingredients:
+>        4 kg white sugar,(corn if preferred)
+>        2 cans (1.13kg) Brewmix malt
+>        1 can doric malt
+>        various types of hop pellets to taste.
+>This makes 14 doz. bottles of brew.  About 7%
+> alcohol by vol.
+> ... <snip>
+
+
+I am having a very hard time responding to this post because it literaly
+left me speechless.  Thankfully, it was a temporary condition.
+
+
+First, John, this is a beer list.  I am not a beer snob but your recipe is
+not for beer.  It appears to be a lightly flavored alcoholic solution, not
+unlike Zima, though you do mention hops.  My guess is that its primary
+function is the production of cheap, non-lethal, drunkedness.
+
+
+If I understand your first line it means that you have been monitoring the
+HBD for a week, and have missed its point entirely.  You are quite correct
+in stating that there's not "much to help the average person who just
+wants to make a batch of suds as simply as possible."  This is a list for
+people who like to brew.  For people who enjoy the process and the
+results.  Who strive for better beer, even better beer more simply, but
+the operative adjective here is "better".  This list is the antithesis to
+the cane sugar, molasses, and baker's yeast type beers of prohibition
+of which yours is a modern example. 
+
+
+You have been making this for twenty years with "considerable success".  I
+am curious as to the definition of success in this case. 
+
+
+Domenick Venezia
+Seattle, WA
+venezia`at`zgi.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 14:01:44 -0500
+From: ArnoldWa`at`aol.com
+Subject: Water-Brita Filters
+
+
+In HBD #1965 Mr. A.J. deLange discussed water pH and carbon filters.  He
+stated:
+>Again in # 1961 David Pike asks why city water at pH 8.5 comes out of his
+>charcoal filter at pH 6.5 - 7. My usual suspicion in this case is that the
+>filter is more than a charcoal filter i.e. a filter like a Brita filter...
+>...This is simply confirmed by boiling a sample of the water and checking
+the
+pH. If it drops back to around 8.4...
+
+
+I live in San Fran. where the water is very soft and the pH is high (avg.
+8.6).  I use a Brita filter and have observed the same effects as Mr. Pike.
+ I recently tried boiling a sample and checking the pH:  Tap water pH was
+7.6.  After Brita filtering it was 6.7.  After boiling and force chilling it
+was 6.8.  When allowed to cool slowly, it went back to 7.6.
+
+
+I was not aware that the Brita is more than a carbon filter.  Does it
+completely remove all the ions (i.e. 0 ppm Ca, etc.)?  Also, I do not
+understand what caused the pH to return to 7.6 when the water cooled.
+
+
+Any clarification would be greatly appreciated.
+
+
+Don Walsh
+(arnoldwa`at`aol.com)
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 11:05:39 -0800
+From: jlee`at`esd.ray.com (Jerry Lee)
+Subject: mixed gases....continued
+
+
+If you've got the tank, and it's only $12...
+
+
+Go for it, why ask others...just try it and then
+post how well it worked or didn't.  
+
+
+If you carbonate with full CO2 and then drive
+with nitrogen it seems to be the best of both
+worlds although a little unnecessary.  Are your
+beers over-carbonating?  If not then why drive
+with nitrogen?  
+
+
+If you are over-carbonating then the percent
+of CO2 vs Nitrogen will depend upon your beer,
+not the concept of someones opinion.  Experiment...
+
+
+Personally I would not pay the expense, or try
+the high pressures of pure nitrogen. Stay with
+the mix and use your CO2 regulator (and lower
+pressures).  Once again...only opinion and not
+worth the time it took to type this..sorry :-}
+
+
+Disclaimer...no I am not the "expert" I just
+called some bottlers and beer distributors for
+the basis of both these responses...call your
+own "experts" for a consensus.
+
+
+               =====================================================
+  ~~~~~       /                                                            \
+ //\\\\\     /   Jerry D. Lee, Jr. | SEPG Methods & Tools Chairman  /
+{| ~ ~ |}   /   Raytheon ESD           | E-Mail : jlee`at`eng.esd.ray.com  \
+ |  ^  |   /   6380 Hollister Ave  | Tel    : 805-967-5511 ext2306   \ 
+  \ = /           \  Goleta, CA  93117           | Fax    : 805-964-9185            _/
+- --/\-/\--   \                                                            \
+  \/^\/      \+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=|
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 20:55:26 +0100
+From: bush`at`shbf.se (Robert Bush)
+Subject: Re: Starting Out
+
+
+In #1969 sbrborg`at`umslvma.umsl.edu (Brian Borgstede) asked:
+
+
+>I plan to buy a primary firmenter (Large plastic food grade bucket w/lid.)
+>and carboy w/bubbler.
+>What size carboy should I buy. (This seems to be the most expensive part
+>and I only want to buy one)
+
+
+I suggest bying two plastic buckets and skip the carboy! Plastic buckets
+are cheap, durable and can be fitted with a tap (and "bubbler") for
+instance. If you've followed the digest you can't have missed all the
+stories about carboys cracking and people getting wort all over their
+floors. They're heavier, more difficult to clean, fragile (dangerous if you
+break them), they let light through, and, as you point out, are expensive
+(compared to a plastic bucket anyway). I've been using plastic fermenters
+for seven years now and don't regret for a minute that I got rid of my
+glass carboy. The only reason I can see for using them is the fact that you
+can see when the beer clears out.
+One drawback with plastic buckets is that they get scratched over time if
+you mistreat them but you would probably have dropped a couple of carboys
+during that time.
+I know all you carboy fans out there will try to convince me that they're
+better but I'm not trying to create a battle similar to the Mac/PC-war
+here, just give my opinions! BTW, welcome to a great hobby!
+
+
+%%%%%%%%%%%%%%%%%%%%% WASSAIL! %%%%%%%%%%%%%%%%%
+%  Robert Bush                                 %
+%  Eskilstuna,SWEDEN   E-mail:  bush`at`shbf.se   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 96 16:02:28 EST
+From: kgmiller`at`wsicorp.com
+Subject: Bottle to Bottle Transfer
+
+
+     I am lucky enough to have a wife who works in a beer store, so I do 
+     most of my bottling in 16 oz and 1 liter swing top bottles.  I have a 
+     I.P.A. in swing to bottles which I would like to enter into a few 
+     contests.  My problem is moving the beer to the 12 oz crown capped 
+     bottles required by most contests.  
+     
+     Can anyone offer a way to move the beer without negatively affecting 
+     the flavor and carbonation?
+     
+     Thanks for the help,
+     
+     Ken
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 16:03:12 -0500
+From: Bob McCowan <bob.mccowan`at`cfrp.varian.com>
+Subject:  Re: "The Brewer's Companion", Mosher
+
+
+
+
+I have the first edition of this book and it does indeed have a lot of
+charts, and other detailed information.  However, the book is full of
+errors.  For instance, a page will end in the middle of a paragraph, and the
+next page is a chart of some sort.  Unfortunately the rest of the paragraph
+does not turn up on the following page, or anywhere else in the book, for
+that matter.
+
+
+A number of the charts seem inconsistent, possibly they are mislabeled.
+
+
+There is some good information in the book, but it is so error prone that
+it's hard to figure out what to trust. How this book got past even a cursory
+proofreading is beyond me.  Hopefully it's improved with the second edition.
+
+
+Bob
+Bob McCowan
+bob.mccowan`at`cfrp.varian.com
+"You can't talk to a man with a shotgun in his hand" (Carole King)
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 22:04:37 +0100
+From: bush`at`shbf.se (Robert Bush)
+Subject: Re: European Brewery Tours
+
+
+In #1969 Jim Booth ("Kathy Booth (Waverly)" <kbooth`at`isd.ingham.k12.mi.us>)
+wrote:
+
+
+>Sposual unit and I will be touring in England, Scotland, Ireland,
+>France, Belgium and Holland in July.  I have a limited opportunity to
+>visit notable breweries and pubs and I would appreciate "do not miss" tours.
+>Sposual unit has seen numerous US breweries and pubs, and the modern
+>industrial scene is "Ho-hum".
+>
+>        So far I've identified:
+
+
+>Brewing Museum on Brussell's great square
+>Straffe Hendrik Brewrie in Bruges,
+>Guiness in Dublin, IRE
+>Samual Smith Museum in York, England
+
+
+One warning / two recommendations: Guinness is oh so boooring! I went there
+in 1985 (things might have changed but I doubt it) and it wasn't a brewery,
+it was friggin factory! They took us on a "train"-tour on the outside to
+see the pipes, the silos and the like and then we were shown a 45 min.
+video shot inside the factory plus the standard beginners information on
+what beer consists of and how it's brewed. After that it was in to the
+sampling "room" (more of a giant restaurant) were we had a pint of
+(excellent I must say) beer. The next group of people stood outside waiting
+for their turn so we had to leave after half an hour.
+I don't know if they're any better but I would try Beamish or Murphy's in
+the southeast of Ireland (Cork) instead.
+As for the recommendations, Fuller's of London is brilliant these days.
+They used to charge you a fee of 2.5 GBP (which isn't bad) but they took
+that away and opened up a souvenir shop with plenty of gear to drewl over.
+The brewery tour is very good. You walk around in a small group (10-12
+instead of the 50-60 at Guinness) and you can actually hear what the guide
+is saying (if you can handle the British accent).
+Young's is my favourite. It has a nice (almost homebrewery-) feel to it and
+you walk around between the fermenters and you can grab a handful of yeast
+if you dare ;-). It feels like you're really close to the brewing process
+and everything. You also get to see the brewery stable and the famous ram.
+Ask the guide to tell you the story about how they used to make a special
+fishing-fly from the hair of the rams scrotum!
+
+
+Have a nice trip and let us know how it turned out!
+
+
+%%%%%%%%%%%%%%%%%%%%% WASSAIL! %%%%%%%%%%%%%%%%%
+%  Robert Bush                                 %
+%  Eskilstuna,SWEDEN   E-mail:  bush`at`shbf.se   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 16:47:42 -0500
+From: Simonzip`at`aol.com
+Subject: The Macitosh Minority / Brew-ware
+
+
+I brew AND I use a Mac.
+I've never seen SUD's so I don't know what it can or can't do. I have found,
+on the AOL brew forum, a piece of freeware called Brewer's Notebook that
+pretty much suites my basic extract brewing needs. It is a small stand alone
+application written by Tim Wiley. Some of the calculations include alcohol
+content, apparent attenuation, specific gravity correction based on temp.,
+hop utilization and IBU. There is also search capability for any field. Nice
+thing is you can export a text file of any recipe, very convenient for
+posting online for others, example:
+
+
+Brew Name: 24 Black Silk
+Category/Type: Coffee Stout
+Date Brewed: 1-8-96
+Date Bottled: 1-23
+Original Gravity: 1.052
+Final Gravity: 1.018
+Batch Number: 25
+Batch Size: 6 gal
+Alcohol Content: 4.6%
+Apparent Attenuation: 64%
+
+
+Grains/Malt Extract: 
+8 lb. Mountmellick stout kit
+1/2 cup flaked barley
+2 cups Quaker oats
+1/2 cup black patent
+1/4 cup chocolate malt
+
+
+Hops: 
+1/2 oz. Fuggles (60 min.)
+1/2 oz. Fuggles (10 min.)
+
+
+Special Ingredients: 
+4 oz. unsweetened chocolate
+1/4 lb. ground coffee of choice (Ghiradelli Chocolate Caramel this batch)
+
+
+Yeast: Yeast Lab A05 Irish Ale (starter)
+
+
+Brewing Procedure/Fermentation Log: 
+Steeped grains and oats 30 min. `at` 140-145, then up to 155 for 10 min.
+Add extract & 0.5 oz Fuggles, boil 50 min.
+Add chocolate. 
+With 5 min. to go add rest of Fuggles.
+At 60 min., kill heat, add coffee and let it steep 20 min.
+Pull coffee, cool, transfer to fermenter, top up with water.
+Pitched starter `at` 74x. Shook like hell.
+Bubbles in airlock within 12 hours.
+
+
+Comments: 
+Used bottled water.
+Used nylon grain bags for grains, hops and coffee.
+Racked to secondary 1-16, uumm tastes very fine.
+
+
+Anyway, it works for me. I guess I could send it as an attachment to anyone
+who's interested (I'm asking for it aren't I, or ARE there only 4 of us Mac
+users).
+
+
+Brew Well FWIW,
+Darrin
+
+
+(I came up with a cute exclamation this time):
+
+
+"Lookin' back in front of me..."
+SRV
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 12:49:04 -0800
+From: jlee`at`esd.ray.com (Jerry Lee)
+Subject: Re: mixed gases....continued
+
+
+ Jeff Renner <nerenner`at`umich.edu> says:  (a whole bunch)
+
+
+Good answer Jeff...this one was worth printing and keeping...Thanx
+
+
+               =====================================================
+  ~~~~~       /                                                            \
+ //\\\\\     /   Jerry D. Lee, Jr. | SEPG Methods & Tools Chairman  /
+{| ~ ~ |}   /   Raytheon ESD           | E-Mail : jlee`at`eng.esd.ray.com  \
+ |  ^  |   /   6380 Hollister Ave  | Tel    : 805-967-5511 ext2306   \ 
+  \ = /           \  Goleta, CA  93117           | Fax    : 805-964-9185            _/
+- --/\-/\--   \                                                            \
+  \/^\/      \+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=|
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 1996 19:08:37 -0600
+From: mike`at`datasync.com (Mike White)
+Subject: Mike's List of Homebrewing Suppliers-UPDATE
+
+
+I have repaired the problem some of you reported with my list of Mail-Order
+homebrewing suppliers.  Now you should have no problem accessing the page.
+To view the list set your web browser to:
+
+
+http://www.datasync.com/~mike/cafe.html
+
+
+and look for the link to Mike's list of homebrewing suppliers.  You won't be
+dissappointed.
+- ------------------------------------------------------------
+Thought for the day:
+
+
+There's a thin line between Saturday night and Sunday morning.-J. Buffett
+- ------------------------------------------------------------
+                          \\\|///
+                        \\  - -  //
+                         (  `at` `at`  )
+                          \ (_) /
+                           \ o /
++----------------------oOOo-----oOOo-----+
+| Mike White           mike`at`datasync.com |
+|                                        |
++---------------------+--------Oooo------+
+                        oooO   (   )
+                       (   )    ) /
+                        \ (    (_/
+                         \_)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Feb 96 19:14:34 -0600
+From: DEBOLT BRUCE <bdebolt`at`dow.com>
+Subject: Micro shopping in Denver
+
+
+Excuse the bandwidth.
+
+
+I'll be in Denver on March 5 and would like to know the best places to buy
+bottled micros.  Especially interested in Doggie Style PA, Left Hand
+Brewing, Avery, and Deschutes (from Oregon - Batchelor Bitter, Cascade
+Golden).  Will be staying in the Tech Center area south of downtown just
+off the interstate, but have a car so can drive further.
+
+
+TIA,
+Bruce DeBolt
+bdebolt`at`dow.com
+
+
+------------------------------
+End of HOMEBREW Digest #1970, 02/27/96
+*************************************
+-------

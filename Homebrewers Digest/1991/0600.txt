@@ -1,0 +1,604 @@
+﻿This file received at Mthvax.CS.Miami.EDU  91/03/20 03:19:40
+
+
+
+
+HOMEBREW Digest #600                             Wed 20 March 1991
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Beer in Wilks Barre (chip upsal)
+  Re: Copper Dupe (Michael Zentner)
+  cleaning copper  (Carl West x4449)
+  Sanitation (Brian D. Moore)
+  Yeast - opinions and comments (Ron Ezetta)
+  Private stock liquid yeast (flowers)
+  Re: Copper Dupe (John Polstra)
+  Cleaning copper ("Eric Roe")
+  Uninformed Speculation on Cleaning Copper Tubing (Jon Binkley)
+  alcohol content (Brian Bliss)
+  Cu and Rocks (adams)
+  Derry Air Beer Drinkers (Jack Webb)
+  Sanitizing, Sanity, and Multiple Yeast-Caking (rransom)
+
+
+
+
+Send submissions to homebrew%hpfcmi`at`hplabs.hp.com
+Send requests to homebrew-request%hpfcmi`at`hplabs.hp.com
+[Please do not send me requests for back issues]
+Archives are available from netlib`at`mthvax.cs.miami.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: 19 Mar 91 06:31:10 EST
+From: chip upsal <70731.3556`at`compuserve.com>
+Subject: Beer in Wilks Barre
+
+
+I am traveling to Wilks Barre PA to visit with inlaws next week.  Thus I
+will need to know how and where to get quality brews in the area.  I had
+trouble last time I was there so any help would be appricated.
+
+
+
+
+Chip
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 91 09:32:21 -0500
+From: zentner`at`ecn.purdue.edu (Michael Zentner)
+Subject: Re: Copper Dupe
+
+
+
+
+Nick Thomas asks about using his 1/2 inch tubing to reconstruct a chiller
+with 3/8" OD copper in place of 1/4".  This brings up a favourite topic,
+what to do with leftover failed brew projects that don't work out and that
+your wife doesn't want sitting around.
+
+
+First, though, sure, I'd try to use the 1/2 inch tubing, but I suspect that
+it will require quite a fast flow rate, given that you have 1/2"ID surrounding
+3/8" OD.  This leaves you an anulus of 1/16" around, whereas before, you had
+a 1/8" anulus (with the 1/4" tubing).  If your 1/4" one was like mine, you
+had no problem with cooling efficiency, cooling water being at a mere trickle
+to get the temperature down to 20C.  Using rough estimates, one can calculate
+an approximate value of increased flow rate:
+
+
+  Volumetric flow rate is directly related to the linear velocity (average
+  across the cross section of flow) and the cross sectional area.  Suppose
+  that the walls of refrigeration tubing are 1/16" (just a guess).  In
+  the two chillers, the ratio of how much hot stuff will be flowing in the
+  3/8" chill compared to the 1/4" chiller is:
+                 2
+      [ 1     1 ]
+      [--  -  --]
+      [ 4     16]
+     -------------   =   2.776
+                 2
+      [ 3     1 ]
+      [--  -  --]
+      [ 8     16]
+
+
+  (the pi's cancel out)
+
+
+this ratio gives us a ratio roughly of how much more hot stuff will
+be flowing through the tubing in the new chiller.  That is, there now
+will be 2.776 times the quantity of the 1/4" chiller of hot wort flow
+ing through the chiller in the same amount of time.  This is a
+conservative estimate, since I think the linear velocity will also be 
+greater, but here I've assumed them equal in the interest of being
+conservative.
+
+
+Now, for the chilling fluid side, we  can compare the ratio of the
+areas of the anuli: (old/new)
+         2        2
+       1        1
+      --   -   --   =  .1875 (old anulus)
+       2        4
+
+
+Now, if we assume that the heat transfer rate will be the same as
+the old chiller in the new chiller (and it won't, it should be slower
+since we are dealing with laminar flow of the wort, thus taking it 
+longer to transfer the heat from the hot "middle stream" of the hot
+side of the chiller), then we'd like roughly 2.776 times the flow
+in cooling fluid of the old chiller, 2.776*.1875 = .5205.  Examining
+the area (again, not including pi) of the new anulus, we get:
+         2        2
+       1        3
+      --    -  --   =   .1094
+       2        8
+
+
+Therefore, we would need to up the flow rate by a factor of
+.5205/.1094 = 4.758.  What is seen, then is that the chilling will
+happen 2.776 times as fast, but the required flow of cooling water
+is 4-5 times as high, thus using more water than the older design.
+Again, these are conservative estimates, not exact calculations,
+so the flow rate may even need to be higher.
+
+
+So, go ahead and try the old 1/2" tubing you have and see what 
+happens.  What do you have to lose?  You can always uncoil it
+and buy bigger hose.  The cheapest source of hose is garden hose.
+if you don't want to deal with the things on the end of the hose,
+cut them off.  You could try 5/8" hose.  I got lucky last weekend
+and found hose with an inside diameter larger than 5/8" at a
+store called Big Lots.  
+
+
+As for what I'm going to do with the left over 1/4" tubing?  Either
+make an immersion chiller or build a styrofoam box with the
+tubing inside as coils, which carry ice water from an external
+cooler in a cycle around the inside of the box, to be used as a
+lagering system, since I don't have a place or budget for another
+refrigerator now.
+
+
+Feel free to correct me if you've tried this already and know that
+my estimates are wrong...I'd be interested.
+
+
+Mike    zentner`at`ecn.purdue.edu
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 91 11:15:16 EST
+From: eisen`at`kopf.HQ.Ileaf.COM (Carl West x4449)
+Subject: cleaning copper 
+
+
+Randy,
+   I suspect that hit it on the head when you said:
+
+
+> I think the reason is that the
+>wort is pretty acidic, and a boiling acidic solution did a great
+>job of cleaning his copper. 
+
+
+How about actually using a boiling acidic solution? A little
+vinegar in a pot o' boiling water will probably do a fine job of
+shining up your copper before your wort does it.
+
+
+ -Carl West
+
+
+"What are all these bits of green stuff in your beer?"
+"Verdebris."
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 91 10:21:03 CST
+From: Brian D. Moore <bdm`at`fabry.rice.edu>
+Subject: Sanitation
+
+
+
+
+     This is obviously a subject which has been beaten to within an inch of its
+interest, so I will be specific.  I realize that people have their own pet
+routines, but I am quite happy (with the exception of my lungs) just using
+sodium metabisulfite solution as my exclusive sanitation routine.  The question
+is:  is this sufficient in and of itself, or should I be flushing the fermentorswith something with more oomph?  I do not want to deviate from my current plan
+unless I absolutely have to, so be biological!
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 91 09:18:13 PST
+From: Ron Ezetta <rone`at`loowit.wr.tek.com>
+Subject: Yeast - opinions and comments
+
+
+
+
+  A homebrew buddy of mine has a great distaste for dark beers made
+  with Red Star dry ale yeast.  He describes the taste as "offensive".
+  However, he does not notice the "offensive" taste in lighter
+  homebrews.
+
+
+  Has anyone else noticed this problem with Red Star ale yeast?
+
+
+  Does anyone have a recommendation of yeast brands (besides
+  Wyeast, which everyone seems to love, albeit spendy).  I have read
+  Martin Lodahl's article describing the two-year-old contamination
+  problem with Edme dry yeast.  Any other yeasts to watch out for?
+
+
+  Please send email, I will post a summary (promise).
+
+
+- ----
+  Age 18:       - - - - - - - - - - -- - - - - - - - - - - -     Age 30:
+ 1. Sex        |   Ron Ezetta         | Days, weeks, months. | 1. Basketball
+ 2. Beer       |rone`at`loowit.WR.TEK.COM| Who knows?  - Eeyore | 2. Homebrew
+ 3. Basketball  - - - - - - - - - - -- - - - - - - - - - - -   3. Sex
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 1991 11:24:10 -0600
+From: flowers`at`csrd.uiuc.edu
+Subject: Private stock liquid yeast
+
+
+Concerning Dan Graham post about The Homebrewer's Store's private yeast
+product...
+
+
+I was in Bccchus and Barleycorn in Merriam KS (Kansas City for all
+practical puposes) recently and noticed that they too were selling cultured
+liquid yeast for about $1.50 a bottle.  The bottles were labled Bud Lager I
+believe, which made me think it was from a Wyeast package.  There was no
+number associated with it though.  Anyway, these bottles were ready to go
+so I used one and the beer turned out great.  I don't know if it's really
+fair for them to do that (reculture and resell the product). I guess it
+could have been their own yeast, but it didn't look like they had any lab
+facilities.
+
+
+Is that the same situation with The Homebrewer's Store, or do you mean they
+have developed their own strain?
+
+
+Give it a try and let us know how it comes out.
+
+
+ -Craig
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 91 09:08:06 PST
+From: polstra!jdp`at`uunet.UU.NET (John Polstra)
+Subject: Re: Copper Dupe
+
+
+In HBD #599, nt`at`Eng.Sun.COM (Nick Thomas) wrote about a flow-thru
+chiller that he made:
+
+
+> Can I replace the 1/4-inch copper tubing with 3/8-inch copper and use
+> the the same 1/2-inch plasting tubing for the outter tube?
+
+
+Yes, it works fine.  But mine is about 15' long (if I remember
+correctly) and that's really not quite long enough.  My next one will be
+at least 25'.
+
+
+> The surprise of my week was to discover that the plastic tube cost more
+> than the copper!
+
+
+Next time, just buy a 1/2-inch garden hose.  That's much cheaper.  It
+doesn't have to be food grade since the beer never comes in contact with
+it.
+
+
+   John Polstra               polstra!jdp`at`uunet.uu.net
+   Polstra & Co., Inc.           ...!uunet!polstra!jdp
+   Seattle, Washington USA              (206) 932-6482
+   "Self-knowledge is always bad news."  -- John Barth
+
+
+------------------------------
+
+
+Date:    Tue, 19 Mar 91 13:40 EST
+From: "Eric Roe" <KXR11`at`PSUVM.PSU.EDU>
+Subject: Cleaning copper
+
+
+In HBD #599 Randy Tidd writes:
+
+
+> job of cleaning his copper.  Does anyone have any way to clean the
+> copper BEFORE immersion in the wort?  I was thinking of washing with
+> hot ammonia then rinsing well with water, but I don't know if that
+> would do the trick.
+
+
+Actually ammonia probably won't work -- it's an alkali (base).  You might
+try a soaking the chiller in a solution made of water and vinegar for a few
+hours or overnight.  That should get the copper nice and shiny.
+
+
+                                           Eric
+                                   <kxr11`at`psuvm.psu.edu>
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 91 12:03:25 -0700
+From: Jon Binkley <binkley`at`beagle.Colorado.EDU>
+Subject: Uninformed Speculation on Cleaning Copper Tubing
+
+
+
+
+In Digest #599, rtidd`at`ccels2.mitre.org (Randy Tidd) wrote:
+
+
+>I read somewhere (either in the digest or rec.food.drink) about a guy
+>that tried to clean his chiller, but when he dunked it in the boiling
+>wort it got REALLY clean, and all the stuff from the tubing came off
+>and made a film on top of his wort.  I think the reason is that the
+>wort is pretty acidic, and a boiling acidic solution did a great
+>job of cleaning his copper.  Does anyone have any way to clean the
+>copper BEFORE immersion in the wort?  I was thinking of washing with
+>hot ammonia then rinsing well with water, but I don't know if that
+>would do the trick.
+
+
+If treatment in weak acid really cleans copper without doing anything
+nasty to it, why not soak the tubing in some diluted vinegar?  Hell,
+it couldn't do anything worse to it than the wort, as long as you get
+the pH into the same ballpark.
+
+
+ -Jon Binkley
+binkley`at`boulder.colorado.edu
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 91 13:58:48 CST
+From: bliss`at`csrd.uiuc.edu (Brian Bliss)
+Subject: alcohol content
+
+
+
+
+How can I measure the alcohol content of my beer, without 
+taking two hydrometer readings and subtracting?
+I don't really trust the initial hydrometer readings
+of freshly boiled wort - It's usually not mixed up enough.
+Even if I stir it, the heavy stuff at the bottom 
+settles out before I can get a reading.  I'd take out
+the siphon and get a reading from the middle, but
+that's a pain - one more thing to sterilize, and
+it still wouldn't take into account fermentation
+of the shit at the bottom.
+
+
+Especially in my last batch, the stuff at the bottom
+showed signs of fermentation (like big gushers of sediment
+suddenly coming to the top, and then settling out again)
+
+
+bb
+
+
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 91 15:17:58 EST
+From: adams`at`bostech.com
+Subject: Cu and Rocks
+
+
+Adding to the copper discussion...
+
+
+The latest Zymurgy indicates that copper deficient rats who drank Budweiser 
+lived 6 times as long as rats who drank water. I seriously doubt that Bud is
+brewed in copper vessels, so perhaps beer causes the body to absorb copper
+more readily. This would be bad news if we are making beer that contains near
+maximal quantities of copper, wouldn't it?
+
+
+In regard to Rolling Rock, there are 2 styles of 12 ounce bottles. One is the
+twist off, short neck, and the other is the way cool long neck painted label
+variety. It's a lot of fun to make homebrew stout in Rolling Rock bottles, as
+long as you keep them in the dark. I've never seen the ponies in New England.
+They would come in handy, though.
+
+
+- --Dave Adams
+Boston Technology
+
+
+------------------------------
+
+
+Date:         19 Mar 91 13:51:05 EST
+From: Jack Webb <JACK.L.WEBB`at`OFFICE.WANG.COM>
+Subject:      Derry Air Beer Drinkers
+
+
+
+
+In HBD #599, Dan Graham writes:
+> As I am beginning my homebrewing avocation, I realize that I'll probably
+> brew in smaller than five gallon batches since I am the only person I know
+> in my immediate vicinity who likes beer.
+
+
+Gee, Dan - sounds like you don't get out of the house much :-)
+
+
+Jack Webb - Wang Labs, Lowell MA
+"Make it in Taxachusettes -
+   Spend it on homebrew in the good 'ol Derry Air of Cow Hampshire"
+
+
+------------------------------
+
+
+Date: Tue, 19 Mar 1991 19:59:56 EST
+From: rransom`at`bchm1.aclcb.purdue.edu
+Subject: Sanitizing, Sanity, and Multiple Yeast-Caking
+
+
+
+
+SANITIZING, SANITY:
+        The homebrewing world is saturated with a paranoia about cleanliness,
+sanitization, and even sterilization.  I used to be one of the horde of brew
+freaks that chlorinated, sufitated, boiled, and even autoclaved their wares
+before allowing wort or beer to see them.  I've been brewing for more than 
+eight years, and I've found that this is unnecessary and downright detrimental
+to a fine brew.
+        Cleanliness is a must.  Don't go gonzo and use oven-cleaner scrub 
+pads or difficult to rinse detergents, but get those nasty deposits off your
+fermenters and other equipment.  Rinse bottles well after using and well before
+putting in beer (my ritual is 3 times after drinking and 3 times before 
+bottling).  Old deposits can be removed by soaking in hot hot water, with
+perhaps a bit of bleach, but rinse well.
+        Sanitization is a waste of time.  I know this will draw flack from the
+horde, but hear me out.  Germs and yucky old microorganisms that are in your
+wort before it gets boiled (I'm talking all-grain mash here) will die in
+agony in the boil.  If your yeast is worth talking about, much less using, it
+will kick the stuffing out of any organisms that derive from the spores which
+live through a boil.  Yeast produce a host of anti-microbial secondary 
+metabolites, primarily alcohol, carbon dioxide, and the attendant fall in pH
+which fermentation generates, but there are a host of other compounds which
+yeast produces that inhibit competitors.  The point is that a good pitch will
+leave the brewing yeast far ahead of the rest of the nasty things you don't
+want growing in your wort (there are quite a few yeast cells in 14 g).
+        I will outline below my primary weapon in the war against contamination
+but here are a few other pointers:
+        ---use glass fermenters:  those plastic bucket things are an accident
+                waiting to happen.  Can't be cleaned completely, allow too
+                much oxidation; come on, spend the extra money.  Live a little.
+        ---move up to all-grain mashing:  my beers are soo very much better
+                and incredibly cheaper (malt from the local maltster is about
+                19 cents a pound if you can get a number of brewers together
+                to buy; we get 1000+ lb lots) than when I did it out of cans.
+                Boiling the whole wort is a great sanitizer.
+        ---don't transfer to a secondary:  here I get into serious trouble
+                with the horde.  I've had more trouble with off flavors and
+                contamination from transferring that all disappeared when I
+                stopped doing it.  As you'll see below, I have gone to the
+                opposite extreme.
+        ---rinse, don't chlorinate:  tap water has enough halogens in it 
+                already, don't add more.  Chlorine hasn't helped my few
+                contamination problems, gives me a headache, and ruins my
+                angel-soft hands.  I think it gives an off flavor too, but
+                it may be imagination.  The main problem is that it inhibits
+                yeast growth, which is like shooting yourself in the foot
+                to cure hangnails.  A healthy, hearty yeast strain is all
+                important.
+        ---clean stainless steel kegs with boiling water:  a panfull of 
+                boiling water added after washing and rinsing your keg is a
+                great step to remove trace detergent, microstains, and to 
+                effectively sanitize.  Dump in it, seal the keg, put on some
+                CO2, and blow it all out your tapper.  Clean and fast.
+        ---rinse problem areas with boiling water:  my immersion chiller gets
+                socked with boiling water, etc, etc.
+        ---don't bother!:  I never use chlorine, often don't rinse with boiling
+                water, use as little detergent as I can, and in general don't
+                worry about it.  I haven't had a bad batch in years.
+        ---keep it cool:  well, yes I had some bad batches, but this was in
+                an Indiana high summer, with fermentation temperatures in the
+                70's and up.  Sharp mouth feel and tinny taste is an indication
+                of temp problems.  Keep it in the 50's and you're in heaven,
+                but 60's are nice too.
+
+
+Well, enough of that.  Now for the really controversial method of insuring a
+great yeast pitch:
+
+
+...AND MULTIPLE YEAST-CAKING
+
+
+        I brew 10 gallon batches by an all-grain mash, and ferment in 6 to 6.5
+gallon glass containers (acid carboys).  I generally put 5 gallons of beer in
+each, so there is plenty of head room.  I start "new" fermentations whenever I
+have taken a break from brewing, every few months or so.  The "new" pitch is
+1 package of Whitbread Ale yeast (14g foil packets) per 5 gallons.  I let
+my beers ferment for 1 - 3 months (yes, months) without transfer to secondary,
+and then when ready I brew another batch.
+        When the new batch is done boiling and is ready to be cooled, I bottle
+and/or keg the last batch.  One of the nice things about Whitbread yeast is
+that the yeast cake in very firm, so I can recover ALL the beer.  After 
+siphoning off the beer I replace the lock and finish bottling the old and
+cooling the new.  I then pour (violently) the new wort on top of the old yeast
+cake.
+        Sound horrid?  I have brewed up to 10 "generations" on the same cake
+and it is wonderful.  The beers get progressively smoother and especially 
+creamier, with heads to die for and teeny tiny bubbles.  The beers are ready
+to drink right out of the fermenter, and after three days in the keg with 
+minimal priming are being drunk.  Totally finished.  Best idea I ever had.
+        Some pointers:
+                ---use Whitbread ALE yeast
+                ---ferment as cool as possible (50-55 degrees F)
+                ---don't let the old cake sit long without beer on it.  20
+                        minutes is a good number.
+                ---ferment at least 3 weeks, or as long as you can stand it.
+                ---this works best for beers in the SG 1.045 and up range, but
+                        if you ferment at a low temperature you can make a
+                        smashing light.
+
+
+I've also noticed that my beers are very clear very soon after kegging.  The 
+yeast has mostly settled by the time I keg, and the second pint is clear as
+crystal.
+        I've used this method for the last two years with no (NO) contamination
+problems and no (NO) yeast bite.  The fermentation is gentle with no huge
+masses of foam to blow off (I never have to use a blow off tube), and the
+hideous looking rings of dried yeast have no effect on the next wort (if you
+fill the later fermentations past the level of the old one).
+        Before blasting this method, try it.
+
+
+        Thanks for listening, lots of love:
+                        Richard Ransom (Father Barleywine)
+                        rransom`at`aclcb.purdue.edu
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #600, 03/20/91
+*************************************
+-------

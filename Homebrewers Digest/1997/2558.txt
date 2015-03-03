@@ -1,0 +1,1624 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.8.5/8.8.5) with ESMTP id AAA18885
+        for <spencer`at`srvr5.engin.umich.edu>; Sat, 15 Nov 1997 00:43:26 -0500 (EST)
+Received: from twins.rs.itd.umich.edu (0`at`twins.rs.itd.umich.edu [141.211.83.39])
+        by srvr20.engin.umich.edu (8.8.5/8.8.5) with ESMTP id AAA02335
+        for <spencer`at`engin.umich.edu>; Sat, 15 Nov 1997 00:43:25 -0500 (EST)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.8.6/2.2) with X.500 id AAA27837; Sat, 15 Nov 1997 00:44:01 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.8.6/2.2) with ESMTP id AAA27829; Sat, 15 Nov 1997 00:43:56 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA01825 for realhomebrew; Sat, 15 Nov 1997 00:20:36 -0500
+Date: Sat, 15 Nov 1997 00:20:36 -0500
+Message-Id: <199711150520.AAA01825`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2558 (November 15, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2558                             Sat 15 November 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  gnireenignE ("Steven W. Smith")
+  SG:Volume relationship ("Jeffrey M. Kenton")
+  Re: Wort chilling (Jacques Bourdouxhe)
+  Artful Cooling (Paul Niebergall)
+  Motorizing Valley Mill ("Dean Fikar")
+  various questions ("Rob Miller")
+  Brewing Flax? ("Steve McKeon")
+  Gelatin Finings ("Michael E. Dingas")
+  Starters and Lactic Acid (Joseph S. Kallo)
+  Schofferhofer bottling strain or fermentaion strain (Jon Bovard)
+  Freezer Temperature Controllers ("WILLITS MICHAEL EXC CP US")
+  Bottling yeast and the like... (Some Guy)
+  Resuscitating Ale,Mill Rolls,Slow Wort Chilling ("David R. Burley")
+  Wyeast NW ESB Test Yeast? (Brian_Moore)
+  re: pump summary ("Ted Hull")
+  Kulmbach beerfest receipe request (David Oka)
+  Jack's "experiment" (David C. Harsh)
+  Yeast Starter ("C&S Peterson")
+  Oxygenating wort (Alan Edwards)
+  RE: Inside information (Todd McAllister)
+  Schmidling & wort chilling (ensmingr)
+  Re: Holiday beer with Maple? (Alan Edwards)
+  Missing HBD from 1996 (Samuel Mize)
+  Fehling's solution nit (AJ)
+  Re: Oxygen Results (brian_dixon)
+  Re: Inside Information (on Belgian bottle yeasts) (brian_dixon)
+  Donations for the HBD Computer Gizmo (Mike Spinelli)
+  Yeast Slant Prep ("Capt. Marc Battreall")
+  When DOEs the lag time end anyway ?? (Mike Spinelli)
+  he was probably brewing out-of-style (applmgr)
+  re: Yeast Starter - refridgerate? (Charles Burns)
+  Re: Oxygen Results ("Michael Gerholdt")
+  Sweetening Brown Ale (atlantis)
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to homebrew`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to homebrew-request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`realbeer.com
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        hbd.org        /pub/hbd        
+        ftp.stanford.edu        /pub/clubs/homebrew/beer
+  E-mail...
+        ftpmail`at`gatekeeper.dec.com (send a one-line e-mail message with 
+                                   the word help for instructions.)
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 13 Nov 1997 10:16:12 -0700 (MST)
+From: "Steven W. Smith" <SYSSWS`at`gc.maricopa.edu>
+Subject: gnireenignE
+
+
+  "Reverse engineering", that is.  I'd like to do an after-the-fact 
+calculation of what my beer's vital stats might be and am looking for a 
+program or spreadsheet that would help.  The beer's been in the secondary for 
+about a week.  I've got good records of everything about it with the exception 
+of SG readings.  I'm mostly interested in calculating % ETOH and a ballpark 
+estimate of bitterness.
+
+
+  I've owned a hydrometer for at least 10 years, but for some reason I never 
+get around to using it.  Likewise, I've read volumes of "fascinating" hop 
+utilization/calculation data on the HBD, but it unerringly ricochets off of 
+my long-term memory.  I plan to inflict this brew on friends and family 
+during the holidays and I'd like to be more specific than my standard: 
+"it's got plenty of alcohol".  A direct reply is probably in order.
+TIA, Steve
+
+
+Steven W. Smith, Systems Programmer. Glendale Community College. Glendale Az.
+syssws`at`HoldTheSpam.gc.maricopa.edu  minus HoldTheSpam.
+"Sometimes I think I'd be better off dead. No, wait, not me, you." Jack Handy
+
+
+------------------------------
+
+
+Date: Thu, 13 Nov 1997 13:24:58 -0600
+From: "Jeffrey M. Kenton" <jkenton`at`iastate.edu>
+Subject: SG:Volume relationship
+
+
+Hello, I am looking through some notes I have acquired regarding recipe
+formulation.  I have one question:
+
+
+Is there a straight line (1:1) correspondence between change in volume due
+to boil and change in SG due to boiling?
+
+
+For example,  a recipe began with 7 gallons of 1.041 wort, boiled down to
+4.75 gallons (SG 1.055), then added 0.75 gallons make-up water to give 5.5
+gallons with a final SG of 1.048. I will simplify the SG by using the
+numbers to the right of the decimal point as integers, and abandon the
+numerals to the left of the decimal point for the sake of discussion.
+
+
+I can see that, in this case, the difference between 7 x 41 and 5.5 x 48 is
+very close (-0.004 SG; 7 x 41 is 287; 287 / 5.5= 52.2 or 1.052 as opposed
+to 1.048)
+
+
+Is this a negligible difference? Does this relationship hold up across all
+ranges of specific gravity?
+
+
+I will summarize private emails and report back.
+
+
+Jeff
+
+
+Jeffrey M. Kenton                    "Don't be afraid to go out on a limb,
+N013 Lagomarcino Hall                that's where the fruit is." - Anonymous
+(515) 294-9997                       "Information comes, knowledge lingers"
+jkenton`at`iastate.edu                                   - Alfred Lord Tennyson
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 13 Nov 1997 15:03:51 -0400
+From: bourdouj`at`EOA.UMontreal.CA (Jacques Bourdouxhe)
+Subject: Re: Wort chilling
+
+
+Jack said
+>From: Jack Schmidling <arf`at`mc.net>
+>Subject: Wort Chilling, End of Test
+>Change No.2 was eliminating the forced chilling of wort.  I
+>simply put the lid on the kettle shortly after end of boil
+>and transfered to the fermenter in the morning.
+>
+>js
+
+
+Jack, please be aware that I already trademarked the name Easynochiller.
+
+
+Jacques in Montreal
+
+
+*************************************************
+* Oh beer! O Hodgson, Guinness, Allsop, Bass!   *
+* Names that should be on every infant's tongue *
+* ( Charles Stuart Calverley )                  *
+*************************************************
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 13 Nov 1997 12:44:53 -0600
+From: Paul Niebergall <pnieb`at`burnsmcd.com>
+Subject:  Artful Cooling
+
+
+Jack Schmidling writes in HBD 2556:
+
+
+>>Change No.2 was eliminating the forced chilling of wort.  I simply put
+>>the lid on the kettle shortly after end of boil and transferred to the
+>>fermenter in the morning.
+
+
+>>All my beers (including one made in March) received the usual rave
+>>reviews at our Third Annual Octoberfest/Star Party.  Furthermore, at
+>>no time did I or my wife notice anything unusual about any of our
+>>beers over the summer.
+
+
+>>I guess the yeast business should come as no surprise but I think it is
+>>time to put wort chilling into proper prospective, i.e., just something
+>>else to stimulate endless discussions and entrepreneurial juices not to
+>>mention delighting the nice folks who sell advertising.
+- ------------------------------
+
+
+Lemme guess how the overly anal brew nazis will respond to this one
+(tongue firmly in cheek mode):
+
+
+MY GOD!  What have you done?  Don?t you know that every beer
+reference I have read says that not cooling you wort will absolutely
+make rotten beer every single time. Don't you know what DMS is (insert
+long dissertation on DMS formation theory)?   It has been scientifically
+proven beyond a doubt in every study (all two of them - Uh, my
+references are around here somewhere. Yeah, that?s it, I don?t have
+them with me right now but I am an expert in scientific research - so take
+my word for it).  You should pour it all down the drain, immediately.  As
+for you and your wife not noticing anything unusual, well obviously you
+don?t know how to taste beer correctly.  I have degrees in chemistry,
+engineering, law, philosophy, and I am a grade school art teacher.  I have
+been brewing  for x years, I have been a certified beer judge to x years, 
+I have a trained palette, and I always brew the best beer possible.  This
+makes me the only person qualified to judge your beer (even though I
+have never tasted it) and I can tell you from 1000 miles away - your beer
+stinks.  Quit dispensing bad information to people on the HBD.  For we
+cannot think for ourselves and you may cause somebody to brew a beer
+that isn?t up to my personal standards. 
+
+
+Score one for artful cooling rates!  
+
+
+Brew on,
+
+
+Paul Niebergall
+(I know, I know - please don't lecture me on why you should cool your
+wort
+
+
+
+
+------------------------------
+
+
+Date: Thu, 13 Nov 1997 18:15:48 -0600
+From: "Dean Fikar" <dfikar`at`flash.net>
+Subject: Motorizing Valley Mill
+
+
+>From: "Raymond C. Steinhart" <rnr`at`popmail.mcs.net>
+>Subject: Grain Mill Torque Requirements
+>I have a valley mill and would like to motorize it.  I want to use a
+>small gear reduction motor for power.  My question is, has anyone
+>determined the torque requirements of a typical homebrew grain mill?
+>Anyone can mount a 1/4hp motor and sheave it down, by I want to keep my
+>system compact and have found some small but powerful motors in
+>Grainger. Any help would be appreciated.
+
+
+I  just motorized my Valley Mill last week.  I used  a 177 RPM GE gearmotor
+ordered from the Surplus Center (800-488-3407) part # 5-1098 for about $26
++ shipping.  I believe it has 40 in.-lb. torque which is more than enough. 
+I can mill 5 lbs. of grain in about 70 seconds and get a perfect crush. 
+I'm thrilled!
+
+
+Dean Fikar
+- ----------------
+dfikar`at`flash.net
+
+
+------------------------------
+
+
+Date: Thu, 13 Nov 1997 15:17:09 -0900
+From: "Rob Miller" <robm`at`alaska.net>
+Subject: various questions
+
+
+I have a few questions for the collective...
+
+
+1.  Bottlecaps.  I typically sanitize mine with a 10 minute boil.  I have
+never had problems with the seals coming loose.  My question is, if I use
+"oxycaps", will boiling denature the oxygen-absorbing capability of these
+caps?  Also, since yeast is an oxygen scavanger, are these caps worth the
+extra money?
+
+
+2.  Will someone please explain to me how I can put several pounds of cane
+sugar in a soda pop recipe, pitch chamgane yeast in it, and not have
+automatic bottle-bombs?  My dad used to make "homebrew" back in the 60s
+with cane sugar, blue-ribbon malt, and Fleischman's baking yeast.  The
+yeast definitely munched the sugar, and in more than priming quantities. 
+Why don't soda bottles blow?  I have made lots of batches of beer and never
+blown a bottle (knock on wood), nor had flat beer so I have reasonable
+control of the process.  But I have made 4 batches of pop for my kids, used
+the same amount of yeast in each, and had flat, normally carbonated,
+gushers, and even a couple of bombs.  I am at a loss as to how to control
+the process.  I don't have kegging equipment at present, so that's not an
+option right now.
+
+
+3.  I have a batch of all-grain barleywine in the fermenter (OG = 1.104)
+which I pitched with Wyeast 1028 (London Ale yeast) in about a 1 quart
+starter.  I have heard that this yeast is up to the job, but I am concerned
+that it might crap out short of carbonating my bottles.  I can see three
+ways to go:
+
+
+a)  bottle as usual and don't worry--hope it carbonates (hate leaving this
+to chance, though....
+
+
+b)  add more yeast starter (perhaps of a more tolerant yeast such as Wyeast
+Scotch Ale yeast) at priming time and hope that it is merely more
+alcohol-tolerant and not able to ferment stuff the 1028 can't,
+
+
+c)  add champagne yeast late in the secondary fermentation, let it feast
+for a while until it is nearly done, then prime and bottle.
+
+
+The obvious risk of a) is flat beer.  b) seems safer, but perhaps would
+yield more sediment in the bottles.  My concern with c) would be
+potentially changing the flavor-profile of the beer.  I used 1028 because
+that's the flavor profile I wanted.  Or perhaps do c), only with the Scotch
+Ale yeast?  Comments and suggestions?
+
+
+Thank you for your help.
+
+
+Rob Miller
+Nunatak Brewery
+Juneau, AK
+
+
+robm`at`alaska.net
+
+
+------------------------------
+
+
+Date: Thu, 13 Nov 1997 17:49:27 -0800
+From: "Steve McKeon" <s_mckeon`at`email.msn.com>
+Subject: Brewing Flax?
+
+
+Recently, I have been thinking about brewing with flax.  For those of you
+that don't know what flax is, it's a small, dark, shiny grain.  Kind-of
+looks like a bug if you ask me.  I have acquired a spec sheet from a company
+that sells it and it says that the seed contains 43% oils (dry basis), 40%
+protein and about 11% moisture.  It doesn't tell me about the amount of
+starch, does anyone know?  Is there anything to convert?  Has anyone tried
+brewing with flax as an adjunct?  Does it contribute anything?  Would the
+oils destroy my head retention?  I can't seem to find any article about it
+and believe me I've looked.  Thanks in advance to anyone who can answer
+these questions.
+
+
+Steve
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 13 Nov 1997 20:52:57 -0500
+From: "Michael E. Dingas" <dingasm`at`worldnet.att.net>
+Subject: Gelatin Finings
+
+
+I'm getting ready to bottle this weekend and wanted to try adding =
+gelatin finings in the priming bucket to clarify the beer. The Complete =
+Handbook of Home Brewing says add 1/2 to 1 teaspoon for 5-gallons while =
+The New Complete Joy of Home Brewing says add 1 tablespoon without =
+mentioning volume. What is a reasonable amount for an American Pale Ale =
+and is there such a thing as adding too much clarifier?
+
+
+------------------------------
+
+
+Date: Thu, 13 Nov 97 21:59:32 -0600
+From: jkallo`at`snaefell.tamu.edu (Joseph S. Kallo)
+Subject: Starters and Lactic Acid
+
+
+Hello all.
+
+
+Just having one of the members of my *excellent* first batch--an IPA that
+will never see the four weeks in the bottle that is supposed to perfect it.
+I have an observation and a couple of questions.
+
+
+Concerning the starter thread, I brewed my second batch this past weekend
+and decided to attempt to shorten the 24hr. lag I had in my first batch. I
+popped the wyeast irish ale yeast pack at ~1pm the day before brewing. By
+around 10pm, the pack was as swollen as could be and I pitched it to 2cps
+of 1.020 wort. The next morning I added another 2cps of wort of the same SG
+and by 6pm that eve had one heck of an active starter. I pitched this to a
+pretty heavy stout (1.070) and had steady bubbling in the airlock within
+5hrs.
+
+
+My questions:
+
+
+What are the problems associated with over-pitching, and does this sound
+like a case of such?
+
+
+How would I go about adding sweetness to the stout at bottling time
+(presumably with lactic acid)? I am looking for some suggestion as to how
+much sweetener I should add to achieve my desired result (something like
+Sheaf's ).
+
+
+3/20%
+
+
+JK
+
+
+- --------------------------------------
+Joseph S. Kallo
+Department  of Philosophy
+Texas A&M University
+jkallo`at`snaefell.tamu.edu
+- --------------------------------------
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 15 Nov 1986 07:44:24 +1100
+From: Jon Bovard <j.bovard`at`student.qut.edu.au>
+Subject: Schofferhofer bottling strain or fermentaion strain
+
+
+Greetings.
+
+
+Just got me a bottle of Schofferhofer Hefeweisen and would like to reuse the
+yeast in a similar wheat beer.
+Anyone knwo if the strain is bottling or fermentation strain?
+Cheers
+JB
+Brisbane AUS
+
+
+
+
+------------------------------
+
+
+Date: 13 Nov 1997 08:55:37 -0500
+From: "WILLITS MICHAEL EXC CP US" <michael.willits`at`usre.mhs.ciba.com>
+Subject: Freezer Temperature Controllers
+
+
+Hi,
+
+
+ I'm trying to find information about temperature controllers for a chest 
+freezer.  I'm looking for a controller that will control a cooling source and a 
+heating source at the same time.  I have searched previous digests and it seems 
+that the commercially available controllers will control either cooling or 
+heating (or just cooling), but not both.  I have also found plans for building 
+a suitable controller, but if there is a controller available pre-built, I 
+would rather go that route.  Thanks in advance for any help.
+
+
+Michael Willits
+Raleigh, North Carolina
+michael.willits`at`cp.novartis.com  
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 08:10:00 -0500 (EST)
+From: Some Guy <pbabcock`at`oeonline.com>
+Subject: Bottling yeast and the like...
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+With all the questions related to bottling strains lately, I'd kindly like
+to direct the web-equipped braumeisters of the HBD to cast their
+cyber-eyes upon:
+
+
+http://www.nada.kth.se/~alun/Beer/Bottle-Yeasts/
+
+
+This site, "Yeasts From Bottle Conditioned Beers", created by Anders 
+Lundquist is a veritable cornucopia of such information....
+
+
+See ya!
+
+
+Pat Babcock in SE Michigan                pbabcock`at`oeonline.com
+Home Brew Digest Janitor                  janitor`at`hbd.org
+Harvest THESE: rhundt`at`fcc.gov jQuello`at`fcc.gov sness`at`fcc.gov rchong`at`fcc.gov
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 08:16:13 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Resuscitating Ale,Mill Rolls,Slow Wort Chilling
+
+
+Brewsters:
+
+
+John Watts writes about a Lemon Wheat Ale
+which is undercarbonated. Well you could
+move to Denver or make up a Starter with
+1 tlb of malt extract and yeast allow it to
+reach kraeusen in 12 hours.  Add more
+priming sugar as syrup
+( I'd guess half the normal amount??)
+to your beer still in the bottle, then a little
+of the active starter and seal it back up.
+Store it at 70F off the floor for a week or so
+and it should be OK.
+- ----------------------------------------
+Ralph Link asks about building a mill
+as outlined in Brew Ware.  I once converted
+a noodle maker to a grain mill unsatisfactorily.
+The reason it didn't work well was that
+the surface of the rollers was very smooth
+( naturally) and it would not pick up the grain
+and pull it through the nip without my pushing
+it through. (a PITA to say the least)
+Large rollers - say 10 -12 inch don't have
+this problem because the nip angle is
+much smaller and the grain is carried into
+the nip slowly.  For the small rolls an inch
+or two in diameter, like we might build, =
+
+
+it is important to have *knurled* surfaces
+on the rolls to grab the grain and pull it
+into the nip to get an efficient milling.
+I also suggest that any mill you buy or
+build have an adjustable nip, so you can mill
+different size grains and mill them twice
+to get the best crush (equivalent to a
+four roll mill) for a stick-free sparge.
+There is a reason the big boys use a
+six roll mill in preparing their grain.
+- ----------------------------------------
+Jack Schmidling takes the position that
+rapid wort chilling is not necessary to =
+
+
+produce good beer.  As long as you
+don't pour wort through the air while it is hot
+I'd have to say you may be able to make =
+
+
+good beer this way. =
+
+
+
+
+As I recall, You didn't describe clearly enough
+to say how you handled the wort after boiling.
+If you just put the lid on the kettle and =
+
+
+allowed it to cool down overnight then
+you clearly won't have as big of a problem =
+
+
+as if you tried to strain off the hops while
+the wort was hot.  The large shot of yeast
+may also have helped since the wort was
+likely fermenting in a few hours after you
+pitched it onto the previous batch dregs.
+In addition to HSA slow cooling of wort
+provides a good temperature and time
+for bacteria to operate at warm temperatures
+in a nearly perfect medium.
+
+
+I'd also have to say your comparison is
+faulty and your results inconclusive,
+since you didn't compare it directly to a wort
+which had been cooled quickly. You were
+also comparing last year's beer which had =
+
+
+apparently been under-pitched to beer which
+had been properly or, perhaps, over-pitched. =
+
+
+
+
+Sorry, Jack, I can't agree with you based on
+your poor experimental conditions and
+lots of my batches made both ways. =
+
+
+
+
+Cooling the wort quickly and pitching =
+
+
+properly  high quantities of yeast =
+
+
+is the secret to great beer.
+I wouldn't encourage anyone to do otherwise.
+- -------------------------------------------
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 08:28:39 -0600
+From: Brian_Moore`at`gwsmtpscla01.mis.amat.com
+Subject: Wyeast NW ESB Test Yeast?
+
+
+Greetings all,
+
+
+My local homebrew supply shop here in Austin was recently test marketing 2
+new Wyeast strains.  One of these strains was labeled as "NW ESB".  The
+name led me to beleive that maybe it was Redhook yeast or something
+similar.  Anyway,  I put together a basic ESB recipe (10 gallons):
+
+
+16# English Pale Malt
+1# 80L Crystal Malt
+1# Flaked Barley
+
+
+Hops:
+
+
+2 oz EKG `at` 4.8% for 60 min
+1 oz EKG `at` 4.8% for 30 min
+1 oz Fuggle `at` 2.8% for 30 min
+2 oz Fuggle `at` 2.8% for 10 min.
+
+
+The wort started at 1.048.  The primary fermentation took place at 64-68
+degrees F for 12 days (ok I was a little lazy).  I transferred the beer to
+the secondary last night.
+
+
+Upon observation, it was fairly cloudy, probably due to yeast activity.
+The gravity was down to 1.012.  The taste and aroma was very surprising.
+Not at all like an ESB.  It was very spicey.  It has a definite belgian
+sort of twang to it, almost like a strong wit beer.  Actually, this might
+be the best wit beer I've ever made.  Does anyone else out there have any
+experience with this yeast?  I don't really think I would call it an ESB
+yeast, but I would definitely like to brew with it again.
+
+
+Brian in Austin
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 97 3:57:52 EST
+From: "Ted Hull" <THull`at`brwncald.com>
+Subject: re: pump summary
+
+
+My $0.02 as a consulting engineer who deals with pumps:
+
+
+It's better to put the pump between the boiler (or whatever 
+source) and the chiller.  As the wort/water/whatever goes 
+through the chiller it loses head to friction. Between that and 
+any frictional losses due to valves, fittings, etc. you could 
+run into problems.
+
+
+Here's why:  Every pump has a characteristic operating curve of 
+head (as in feet of water, which can be converted to psi) versus 
+flow. There's also a curve for that pump of the Net Positive 
+Suction Head (NPSH) that's required for the pump to operate at a 
+given flow. Based on the height of liquid in the boiler in 
+relation to the pump, the frictional losses between it and the 
+pump from valves, etc., and other factors (vapor pressure, 
+atmospheric pressure, etc.), the pump and piping setup has a 
+certain amount of available NPSH.  If the available NPSH is less 
+than the required NPSH for the pump (and we always use a safety 
+factor of NPSHa has to be 2X NPSHr), the head/pressure on the 
+upstream side of the pump impeller could be low enough to cause 
+vaporization and cavitation of the pump. My offhand guess is 
+that a high temperature liquid has a higher vapor pressure and 
+would be more likely to do this (but that's part of the 
+available NPSH calculation)
+
+
+When a pump cavitates, microscopic vapor bubbles are formed on 
+the low pressure side of the impeller and then rapidly collapse 
+on themselves. The stress at the point is large and the impeller 
+can actually erode (i.e. be eaten away).
+
+
+So, to be safe it's a good idea to keep the intake side of your 
+pump free of twists, curves, valves, and chillers. If you need 
+to control flow, it's better to do it on the discharge side with 
+a valve. Simply put, it's better to push something with a pump 
+than to pull it.
+
+
+Granted, it's much more important when your pump costs $50K than 
+when it's only $100, but it's your money. Better safe than 
+sorry, I say. Unless you'd like to do the calculations. It's 
+hard to find NPSH curves for such small pumps and it's a pain to 
+calculate the frictional losses through all of your intake 
+piping for small diameter piping.
+
+
+Good Luck!
+
+
+Ted Hull
+Atlanta, GA
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 21:46:59 -0500
+From: David Oka <oka`at`steptechinc.com>
+Subject: Kulmbach beerfest receipe request
+
+
+My brother in law is from Kulmbachh Germany (just north of Nurnberg) and =
+has told me about the beer fest that they celebrate there in July.  I =
+wanted to try to brew some beer for him for a Christmas present and am =
+looking for a receipe approximating the beer that they serve there.  =
+Since I've never been to Germany before and haven't ever heard of =
+Kulmbach before I have no idea what their beer would taste like.  I've =
+checked all the books on beer styles that I can get my hands on.  =
+Michael Jackson mentions Kulmbach beer as a dark lager but doesn't =
+provide any receipes.  Can anyone out there help me out?
+
+
+David
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 10:00:46 -0500
+From: David.Harsh`at`UC.Edu (David C. Harsh)
+Subject: Jack's "experiment"
+
+
+Jack Schmidling writes:
+>...I started each batch with about a gallon of sludge
+>...eliminating the forced chilling of wort...
+
+
+>...All my beers received the usual rave reviews...
+
+
+What I believe this proves is that you can have a good party with 10
+batches of homemade beer even if the beer has minor defects.  I recall an
+IPA that I took to a departmental picnic; it too received rave reviews
+despite significant fruitiness and easily perceived diacetyl.
+
+
+I won't argue the effect of yeast pitching, especially since "pitch more
+yeast" is almost always good advice.
+
+
+However, if you really want to prove your point on chilling, make a 10
+gallon batch of American Light Lager or Bohemian Pilsner (or any other very
+light style), chill only half and then enter the resulting brews in several
+(i.e., 10 or 20) large competitions.  If at that point, there is no
+statistical difference in the scoring, then you'll have some good results
+worthy of publication in places other than HBD.
+
+
+Until good data arrives, I'll have to agree that there are a lot of
+mommilies out there...
+
+
+Dave
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&                  Dave Harsh                    &
+&   Bloatarian Brewing League; Cincinnati, OH    &
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+                     O-
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 97 16:09:15 UT
+From: "C&S Peterson" <CNS_PETERSON`at`classic.msn.com>
+Subject: Yeast Starter
+
+
+HBDers -
+
+
+I have read with great interest some of the discussions regarding yeast 
+starters.  The discussions seem to indicate that using 1.020 started  is 
+acceptable.  I always thought that you should try to make the starter the same 
+temperature and composition as the wort it was to be pitched in.  Is this 
+true?  Or maybe its only true for the last step of the yeast growth cycle?  
+[Eg, start with a 1.020 starter, and then pitch that slurry into a starter 
+similar to the beer it is to be used with say 1.050.]
+
+
+In this vain, I am planning to start my lager smack-pacs of Wyeast in the 
+frige, even if it initially takes a week or more to swell.  Does anyone out 
+there have experience with this?  How long (generally) will it take a smack 
+pack of Bavarian/Bohemian lager yeast to swell in a 45 deg F environment?
+
+
+In the past I have resorted to using warm starters and warm initial ferments 
+on my lagers to get the yeasties rolling.  This year I'm tring my best to be a 
+*good boy* and treat my yeast with the respect it deserves......hell, I may 
+even rack off the trub that gets carried over into the primary!
+
+
+TIA,
+
+
+Chas Peterson
+Laytonsville, Md
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 08:10:49 -0800
+From: Alan Edwards <ale`at`cisco.com>
+Subject: Oxygenating wort
+
+
+| In HBD# 2556 you wrote:
+|  ....
+| >Bottom line, my fermentation took 24 HOURS to get going! That's much
+| >longer than using my old aquarium pump and stone (from Brewers
+| >Resource).
+|  ...
+| 
+| I don't think stirring has anything to do with it.  I think you added 
+| more O2 than perhaps you should have.
+| 
+| >3. Okay, next time.. more O2, of course. No problem... well except
+| >that these cylinders may last for only a few batches... which starts
+| >me thinking:
+| 
+| Less O2. :)  One 30 second blast is probably quite sufficient.  In 
+| Ray Daniels' book Designing Great Beers he points out that despite 
+| yeasts known requirement for O2,
+| many homebrews make fabulous beer with minimal aeration.
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Hmmm.  I have well over 20 datapoints for you:
+
+
+I consistently get very short lag-times.
+Guess what my overly-complicated method of aerations is?
+
+
+I SHAKE MY CARBOY.  DUH!
+
+
+You guys are making it too complicated, expensive, and time-consuming!
+And what is your return?  Tell me.
+
+
+I get very short lag-times because I use an 800ml starter culture.
+It's very easy, and inexpensive.  And I make great beer.
+
+
+Yeast, not oxygen!
+
+
+Ray Estrella writes:
+> ******** Never relax, constantly worry, have a better homebrew. ********
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+'cause your gonna NEED it, buddy!
+
+
+OK, here's mine:
+"Relax whenever possible, worry ONLY when you have to, and STILL have
+a better homebrew!"
+
+
+ -Alan (a recovering anal-retentive)
+
+
+Alan Edwards (ale`at`cisco.com)    H3CO.____       O            CH3
+Systems Administration Manager,     /    \      ||           |
+Chile-Head, Homebrewer          HO-<      >-C-N-C-(CH2)4-C=C-C-CH3
+Cisco Systems Inc  408-526-5283     \____/ H2 H          H H H     Capsaicin
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 09:44:53 -0700
+From: Todd McAllister <toddmc`at`burgoyne.com>
+Subject: RE: Inside information
+
+
+>Mark D Weaver writes:
+
+
+>>Well, I have a rather high placed informant in Belgium (he's Belgian
+>Royalty) >>and he informed me that the yeast on the bottom of all those
+>bottles is not the >>yeast used to brew the beer with, but another
+yeast >they add in.
+
+
+Then Bill Coleman, The MaltyDog replies:
+
+
+>Well, then, let's go to Arkansas, find ourselves a cousin of Bill
+Clinton, and ask >him what yeast Anchor Steam uses! He ought to know!
+
+
+Good hell, do you actually think Bill Clinton's cousin in Arkansas could
+tell use what yeast strain Anchor Steam uses?  That's ridiculous!
+
+
+Now, of course, if we want to know the chemical make up of Coor's rocky
+mountain spring water, he may be able to help us out.  ;-)
+
+
+Come to think of it, maybe my cousin in San Fransisco could tell us what
+yeast Anchor Steam uses.
+
+
+ -Todd-- Who's been chewing on his tounge from keeping it in his cheek
+for so long,
+
+
+"Not all chemicals are bad. Without chemicals such as hydrogen and
+oxygen, for example, there would be no way to make water, a vital
+ingredient in beer."
+       --Dave Barry
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 12:00:29 -0500
+From: ensmingr`at`npac.syr.edu
+Subject: Schmidling & wort chilling
+
+
+To Jack Schmidling and HBDers,
+
+
+Regarding Jack's recent post on wort chillers in home brewing ...
+
+
+I agree that it is unnecessary for a home brewer who makes 5 gal batches
+to make or buy a fancy wort chiller.  However, I use a procedure to
+chill my 5-6 gal of wort that is faster and not much more work than his
+"no chill" method. 
+
+
+I boil my wort (initial volume 6-7 gal) on an electric stove in a 5 gal
+pot and a 4 gal pot.  I cover and cool the 4 gal pot (which has 2-3 gal
+of wort) by immersing it in my kitchen sink which I filled with cold
+water; I treat the 5 gal pot the same way, using my basement sink.
+(When I lived solo in an apartment, I used my bathtub for cooling.)  My
+method isn't much more work than letting the brew kettle sit on the
+stove top overnight, but it chills the wort to about 70 deg in about an
+hour.  This is faster than brewpubs or microbreweries and is much faster
+than megabreweries.
+
+
+I have seen theoretical ('hand waving') arguments as to why a home
+brewer's 5 gal of wort must be chilled in 15-20 minutes with some sort
+of snazzy counter-flow wort chiller, but I have not seen blind taste
+tests nor chemical tests which support this claim.  Has anyone?
+
+
+Peter A. Ensminger
+ensmingr`at`npac.syr.edu
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 09:39:03 -0800
+From: Alan Edwards <ale`at`cisco.com>
+Subject: Re: Holiday beer with Maple?
+
+
+In HBD #2556, Dave Carter (dcarter`at`me2.splp.com) writes:
+| I've been thinking of making a Christmas/Holiday Ale and I've noticed   
+| alot of the recipes use honey or brown sugar/molasses. I happen to have a   
+| pint of pure Maple syrup. ...
+
+
+If you want the maple flavor to come through, you will need to add more
+than 1 pint, especially if the flavor must contend with spices for
+attention.
+
+
+I just brewed a 6.7 gallon batch of Maple Ale (total SG: 1.058) with
+1.5 quarts of maple syrup ("pasteurized" at 150 degrees for 10 minutes
+and added to the already fermenting wort).  Nothing else was special
+about it except that I tried to keep the total IBUs lower than usual
+and didn't add any late-boil hops that would contend with the maple
+flavor and aroma.  (If you are interested: 9# 2-row and 2# crystal.)
+
+
+The maple flavor turned out pretty subtle.  If you tasted it, I'd bet you
+wouldn't be able to tell what the "guest" flavor was, until I told you.
+
+
+
+
+If I were brewing a 5 gallon batch of spiced ale and wanted maple flavor,
+I'd probably consider adding 2-3 quarts.  The problem is that you are adding
+a significant amount of fermentables (sucrose), and must lessen the malt
+to arrive at a target SG--or just go for the big beer and wing it ;-).
+(I calculated the gravity of the maple syrup that I bought to be 1.347.)
+
+
+ -Alan
+
+
+Alan Edwards (ale`at`cisco.com)    H3CO.____       O            CH3
+Systems Administration Manager,     /    \      ||           |
+Chile-Head, Homebrewer          HO-<      >-C-N-C-(CH2)4-C=C-C-CH3
+Cisco Systems Inc  408-526-5283     \____/ H2 H          H H H     Capsaicin
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 11:39:18 -0600 (CST)
+From: Samuel Mize <smize`at`prime.imagin.net>
+Subject: Missing HBD from 1996
+
+
+Greetings,
+
+
+The HBD archives are missing HBD #2290 -- "v2 #10" in the revisionist
+numbering (hack, ptooey).
+
+
+If anyone has a copy laying around, I'd appreciate getting it.
+
+
+Thanks,
+Sam Mize
+- -- 
+Samuel Mize -- smize`at`imagin.net -- Team Ada
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 13:55:29 -0400
+From: ajdel`at`mindspring.com (AJ)
+Subject: Fehling's solution nit
+
+
+It is the cupric ion in Fehling's (or Benedict's) reagent which is reduced.
+An aldehyde (or keto) group in the sugar is oxidized thus it is the
+reducing agent. Thus sugars with available aldehyde (or keto) groups are
+referred to as "reducing sugars". Sucrose is one of very few (and I can't
+come up with another) disaccharide in which the anomeric (keto or aldo)
+carbon takes part in the glycoside bond and is thus not available to reduce
+copper. If a monosaccharide is represented E-A with E representing an
+enantiomeric carbon and A the anomeric carbon, a typical dissachcaride
+(such as maltose or lactose) would be represented as E-AgE-A with "g"
+representing the glycoside (1-4 in this case) bond  between the anomeric
+carbon (1) on one monosachharide molecule and a enantiomeric (4) carbon on
+the other. The anomeric carbon is, in this case, still avalilable to reduce
+cupric ion and thus react with Fehling's (or Benedict's) reagent. In
+sucrose the arrangement is E-AgA-E (1-2) bond i.e. the anomeric carbons are
+tied up in linking the fructose and glucose molecules and are thus not
+available to reduce Fehling's reagent and sucrose is not a reducing sugar.
+Glucose and fructose individuall have the E-A structure
+
+
+Unfermentable sugars have the structure E-AgE-AgE-Ag...E-AgE-A i.e. they
+have an available anomeric carbon which can reduce Fehling's reagent and
+will be detected. The end of the chain with this carbon is often called the
+"reducing end" of the chain. Thus dextrinous beers will give indications
+that reducing sugars are present even though fermentation is complete and
+brewers using Fehlings or Benedicts solution to detect the end of
+fermentation need to be aware of this fact. Just as one detects the end of
+fermentation with a hydrometer by noting that the readings have stopped
+decreasing so one should see that reducing sugar readings stop decreasing
+(Noonan says they should be at less than 2% - 2% of what I don't know) when
+fermentation is complete.
+
+
+Numquam in dubio, saepe in errore.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 97 10:10:27 -0800
+From: brian_dixon`at`om.cv.hp.com
+Subject: Re: Oxygen Results
+
+
+>>Bottom line, my fermentation took 24 HOURS to get going! That's much
+>>longer than using my old aquarium pump and stone (from Brewers
+>>Resource).
+>
+>In a recent BT article on aeration from various sources, the author 
+>made the point that worts with higher dissolved oxygen levels actually 
+>have longer lag times.  This is because the yeast respire longer.
+
+
+This is true, and indicates that a little knowledge combined with the
+lag time should help you decide what the problem is.  Also of concern is
+the 'healthiness' of the yeast's growth environment, e.g. the wort.  If
+it's an all-grain or partial mash brew and your pH's were correct, then
+you're fine.  If it's extract, then it's probably ok unless the extract
+is older than 4 to 6 months (from manufacturing date).  Other than that,
+considering the health of the starter and the aeration/oxygenation and
+the respiration issue should answer the question about how long a
+particular lag time turned out to be.  (Longer not necessarily being
+worse as you mention).
+
+
+>>2. After aerating my wort, I poured in my 1.5 quarts of starter. But 
+>>I did NOT STIR the mixture. Could that be the cause of my long lag 
+>>time? I have never stirred in the past, but my old aquarium pump 
+[snip]
+>
+>I don't think stirring has anything to do with it.  I think you added 
+>more O2 than perhaps you should have.
+
+
+"More O2 than perhaps you should have" is not an issue IF you give the
+wort 5 to 7 minutes to "rest", e.g. reach equilibrium, after
+oxygenating.  In the BT article that you mention above, I believe they
+point out that it is possible to put too much oxygen in the wort, but
+that it comes back out of solution within 5 to 7 minutes.  The
+recommendation was to use two 20-30 second blasts, assuming a
+Oxygenator/Liquid Bread type system, separated by a few minutes, and
+then waiting a couple of minutes before pitching.
+
+
+>>3. Okay, next time.. more O2, of course. No problem... well except
+>>that these cylinders may last for only a few batches... which starts
+>>me thinking:
+>
+>Less O2. :)  One 30 second blast is probably quite sufficient.  In 
+>Ray Daniels' book Designing Great Beers he points out that despite 
+>yeasts known requirement for O2, many homebrews make fabulous beer 
+>with minimal aeration....Based on my own experience it is possible to 
+>over oxygenate the wort, perhaps not technically, but from a 
+>practical point of view.  If your lag time is 24 hours and your yeast 
+>were in good shape, cut back on the O2 until you get what you 
+>consider to be acceptable lag times.
+
+
+This would be an interesting experiment for a homebrewer to do (or a
+club).  You may want to make it a 2-variable experiment and correlate
+oxygenation with the amount of yeast pitched, because the yeast count
+will make a difference, e.g. the size of the starter or amount of
+slurry.
+
+
+Brian
+
+
+
+
+ .......................................................................
+
+
+Item Subject: WINMAIL.DAT
+Couldn't convert Microsoft Mail Message Data item to text at a gateway.
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 97 10:13:06 -0800
+From: brian_dixon`at`om.cv.hp.com
+Subject: Re: Inside Information (on Belgian bottle yeasts)
+
+
+>>Well, I have a rather high placed informant in Belgium (he's Belgian
+>>Royalty) and he informed me that the yeast on the bottom of all those
+>>bottles is not the yeast used to brew the beer with, but another yeast
+>>they add in.
+>
+>Well, then, let's go to Arkansas, find ourselves a cousin of Bill
+Clinton,
+>and ask him what yeast Anchor Steam uses! He ought to know!
+
+
+But in Arkansas, EVERYONE is Bill's cousin!  (And they all raise
+chickens)
+
+
+Brian
+
+
+ .......................................................................
+
+
+Item Subject: WINMAIL.DAT
+Couldn't convert Microsoft Mail Message Data item to text at a gateway.
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 97 14:08:26 est
+From: paa3983`at`dpsc.dla.mil (Mike Spinelli)
+Subject: Donations for the HBD Computer Gizmo
+
+
+HBDers,
+
+
+I for one can't think of a more worthy cause than the perpetuation
+of the HBD.   Having had the luxury of reading it almost daily for the 
+last 3+ years  without having to pay a single cent, I think it's time 
+to give back something..
+
+
+I encourage all HBDers far and wide to contribute to this worthy
+and noble cause.  If Webster's had a definition for "labor of love",
+I'm sure it would be the HBD.
+
+
+Mike Spinelli
+Cherry Hill NJ
+Mikey's Monster Brew
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 15:10:00 -0500
+From: "Capt. Marc Battreall" <batman`at`reefnet.com>
+Subject: Yeast Slant Prep
+
+
+In HBD 2554 Mike Ownings wrote:
+
+
+>A lot of people seem to have trouble with gelatin.  I suspect it is
+>more of a problem in warmer climates.  You might just want to try
+>agar.  Note that you CAN get agar in small quantities,  both from
+>Brewer's Resource. Remember, a little goes a REAL long way.  Both of
+>these sources will sell a couple of ounces,  which makes a LOT of
+>slants and petri dishes and is pretty cheap.
+
+
+I was wondering a few things. I just purchased some glass test tubes and
+a two ounce package of agar from Brewtek. I want to start making my own
+blank slants because the ones they sell are getting costly in the
+quantity I need. 
+
+
+Question #1 - Is the agar they sell properly prepared with nutrients and
+do I need to do anything special besides prep it in a pressure cooker?
+
+
+Question #2 - I only bought 2 oz. How many blank slants can I expect
+based on an average.
+
+
+I would appreciate any responses from anyone who can help.
+Please post them to the HDB. Not that I don't want personal e-mail, I
+just think that others can benefit too. 
+
+
+Marc
+
+
+
+
+- -- 
+Capt. Marc D. Battreall
+batman`at`reefnet.com
+in The Fabulous Florida Keys
+future site of "The BackCountry Brewhouse"
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 97 15:50:18 est
+From: paa3983`at`dpsc.dla.mil (Mike Spinelli)
+Subject: When DOEs the lag time end anyway ??
+
+
+HBDers,
+We all talk  about lag times with yeast and such, and I have
+question for the collective:  When DOES the lag time end and ferment
+begin?
+
+
+Is it  when you start seeing positive presssure on the airlock or when
+bubbles start blowin' thru the airlock?
+Thanks
+
+
+Mike Spinelli
+Cherry Hill NJ
+Mikey's Monster Brew  
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 97 16:44 EST
+From: applmgr`at`rpc1268.DaytonOH.NCR.COM
+Subject: he was probably brewing out-of-style
+
+
+True story off the AP Wire:
+ 11/14/1997 06:49 EST 
+ Head of Siberian Brewing Co. Killed 
+
+
+ MOSCOW (AP) -- A gunman killed the director of Siberia's 
+ largest beer and soft drink company today in an apparent contract
+ slaying, the ITAR-Tass news agency reported. 
+
+
+ Ivan Bagnyuk, 46, head of the Rosar company in Omsk in 
+ eastern Siberia, had just driven his car to the gates of 
+ his factory when an attacker fired three shots through the 
+ car's windshield, the news agency said. 
+
+
+ The gunman shot Bagnyuk one more time in the head before 
+ fleeing in a car, ITAR-Tass said. 
+
+
+ Police declined to comment on possible motives. 
+
+
+ Contract killings have become a common way of settling 
+ disputes between Russian businessmen competing for control of
+ companies. 
+
+
+Hey Rob,
+Aren't you glad you didn't work there? 
+Insert smiley face
+
+
+Kevin MacRae  
+Kevin.MacRae`at`PeachtreeCityGA.NCR.COM
+Peachtree City, GA
+WUHAHBDW    "Wake up, Have a Homebrew, Don't Worry"
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 97 08:07 PST
+From: cburns`at`egusd.k12.ca.us (Charles Burns)
+Subject: re: Yeast Starter - refridgerate?
+
+
+Dave Burley writes in hbd 2557:
+
+
+>If it is an Ale yeast and most lager yeasts,
+>just put the starter in the refrigerator overnight
+>and you can pour off most of the liquid...
+
+
+I used to do this but after reading much about how rapid temperature changes 
+can affect yeasts, I stopped doing it. I don't believe the problem is the 
+rapid cooling, the yeast should just go dormant. Its the rapid increase in 
+temperature later on (the next day?) when you pitch it. If you really want 
+to do this, I suggest that early on brew day the first thing to do is to 
+remove the starter from the fridge and let it warm up to room temp on its 
+own, well in advance of pitching. What I've tried to do for the last few 
+months is to have the yeast starter going well in advance of brew day such 
+that I can decant the beer (most of it anyway) and then pitch, with the beer 
+being pretty clear. But it does take some longer range planning to do this.
+
+
+Charley in N.Cal
+
+
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 17:11:41 -0500
+From: "Michael Gerholdt" <gerholdt`at`ait.fredonia.edu>
+Subject: Re: Oxygen Results
+
+
+John Robinson wrote in HBD #2557:
+
+
+>In Ray Daniels' book Designing Great Beers he points out that despite 
+>yeasts known requirement for O2, many homebrews make fabulous beer 
+>with minimal aeration...
+
+
+"Requirement?" The fact is that respiring yeast do not require O2,
+according to Tracy Aquilla.
+
+
+I believe that the perceived need to oxygenate yeast among homebrewers is
+largely associated with the fact that we tend to underpitch, and use O2 to
+compensate.
+
+
+When yeast is pitched in sufficient quantities, as I understand it, minimal
+oxygenation is needed.
+
+
+This point has been offered to the homebrew community many times over from
+various sources, but has not achieved the popularity of relatively
+indiscriminate oxygenating.
+
+
+Personally, I have had excellent results with large starters and very
+little aeration. Lag times haven't been a problem.
+
+
+The desirability of oxygenating may also vary from one strain of yeast to
+another. In some cases it may be not good practice to aerate at all.
+
+
+It seems that we tend to take a "one size fits all" approach in general to
+this issue. I'd like to learn more about it. Does anyone know a good
+source?
+
+
+Thanks,
+
+
+Michael Gerholdt
+
+
+------------------------------
+
+
+Date: Fri, 14 Nov 1997 20:23:10 -0500
+From: atlantis`at`vgernet.net
+Subject: Sweetening Brown Ale
+
+
+I just made a delicious "Nut Brown Ale" from a partial mash,
+pre-packaged kit that I changed the hopping schedule on and added some
+dry LME to the wort.  The aroma of molasses was fantastic and it had a
+really nice flavor.  I was hoping to duplicate a brown ale I had
+previously had at a brew pub, and it was "just a touch - SWEETER"  I'm
+not looking for candy, but I felt that was a perfect brown ale.
+
+
+I'd like to add a touch of sweetness, but my question is, do I add a cup
+of dark brown sugar, or some amount of dexetrin, because it's a
+sweetener that doesn't ferment?
+
+
+Any help would be appreciated, private email OK, too.
+
+
+Henry Dondi
+Dalton, Mass.
+atlantis`at`vgernet.net
+
+
+------------------------------
+End of HOMEBREW Digest #2558, 11/15/97
+*************************************
+-------

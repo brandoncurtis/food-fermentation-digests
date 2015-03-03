@@ -1,0 +1,1353 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Fri Jul 28 04:01:05 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["45293" "Fri" "28" "July" "1995" "01:00:59" "-0600" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1064" "Homebrew Digest #1793 (July 28, 1995)" "^Date:" nil nil "7" nil nil nil nil]
+        nil)
+Received: from totalrecall.rs.itd.umich.edu (totalrecall.rs.itd.umich.edu [141.211.144.16]) by mendel.hgp.med.umich.edu (8.6.12/8.6.12) with ESMTP id EAA21376 for <spencer`at`mendel.hgp.med.umich.edu>; Fri, 28 Jul 1995 04:01:01 -0400
+Received: by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with X.500 id DAA21959; Fri, 28 Jul 1995 03:23:32 -0400
+Received: from hpfcla.fc.hp.com by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with ESMTP id DAA21953; Fri, 28 Jul 1995 03:23:28 -0400
+Received: from hpfcmi.fc.hp.com (hpfcrdg.fc.hp.com) by hpfcla.fc.hp.com with ESMTP
+        (1.37.109.16/15.5+IOS 3.20) id AA248836062; Fri, 28 Jul 1995 01:21:02 -0600
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.11 $/15.5+IOS 3.22) id AA222974859; Fri, 28 Jul 1995 01:00:59 -0600
+Message-Id: <199507280700.AA222974859`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+Date: Fri, 28 Jul 1995 01:00:59 -0600
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1793 (July 28, 1995)
+
+
+
+
+
+
+HOMEBREW Digest #1793                             Fri 28 July 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Thermodynamic Sulphur Chillout (Part 2) (CHARLIE SCANDRETT)
+  Dry Hopping (Norman C. Pyle)
+  RE: Brewing in the flames of Heck (CGEDEN)
+  Auto Reply from Watch_Mail for 26-JUL-1995 18:00 to 7-AUG-1995 08:00 (PAUL O'KEEFE LKG1-2/F08 226-7029 - NAC/ENT  26-Jul-1995 2033)
+  Green Malt/Wind Malt ("Eric W. Miller")
+  RJ Riptides in San Diego ("Michael D. Fairbrother")
+  RE:  Yeast Cake (Dave Whitman)
+  Fermentap (kgmiller)
+  Oxygen tanks (Jim Busch)
+  Wheeler Real Ale Books (Jay Weissler)
+  re killians (Tim_Fields_at_Relay__Tech__Vienna)
+  Re: Architecture Questionnaire revisited.... (Jim Dipalma)
+  BBC Maerzen (Jim Busch)
+  Liefmans (Jim Busch)
+  Re: RIMS & Wyeast 3944 (Jay Reeves)
+  One more Oud Bruin quip... (Russell Mast)
+  more suggestions about Krieks (David Taylor)
+  Marzen Yeast Strain (Rob Reed)
+  Priming lagers / Upgrading equipment /$0.02 on Laaglander thread ("John MCCafferty")
+  Sight Guage / Gambrinus (Norman C. Pyle)
+  keg dry hopping... (bob dougherty)
+  Re: Scientific Mashing Breakthru! (Dan Sherman)
+  Basmati Ale (Saylor1/Apple)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 27 Jul 95 07:34:49 +1000
+From: CHARLIE SCANDRETT <merino`at`ozemail.com.au>
+Subject: Thermodynamic Sulphur Chillout (Part 2)
+
+
+This is the second of a 2 part post about chilling and why. Part 1 was about 
+Di-Methyl Sulphide.
+
+
+* Norman Pyle in HBD 1778 started a thread on "chillers" that I sympathize 
+with. The thermodynamic terminology of homebrewers is esoteric and  serves 
+little technical purpose.
+* Robert Brown in HBD 1780 attempts to coin an awesome nomenclature.
+* Lee Allison in HBD 1780 wants to build a plate exchanger, I have a simple 
+design.
+* Tom Williams (refreshingly) identifies "chillers" as heat exchangers and 
+introduces the correct technical description but wants to know why?
+
+
+I left the Physics department for Literature 20 years ago, confident that the 
+mysteries of thermodynamics would never torment me again. Alas, now I must dip 
+my big toe in it again.
+
+
+As I said in a previous post, I am constructing a 70 litre test model of a full 
+mini-brewery for assembly in central Russia. To this end I have been pestering 
+engineers, beer in hand.
+
+
+FAQ- How do I chill it?
+
+
+With a heat exchanger of course. All our contraptions of copper, plastic and 
+water are heat exchangers. Heat exchanging is a highly advanced  industry that 
+knows what it is doing, so why do we reinvent the wheel?
+The most common classes of heat exchangers are
+ "parallel flow" in which the two fluids(or gases) flow parallel and in the 
+same direction.
+ "crossflow" in which they flow across each other's path,usually 90 degrees
+ "counterflow" is parallel flow in oposite directions
+The reason for this terminology is that different mathematical formulas are 
+used to calculate the heat transfer in these different configurations, heat 
+exchangers are named by *how the two fluids move in relation to each other*.
+The "Cu tube in a hose" is a counterflow heat exchanger. The coolant water 
+should run opposite to the wort because this is by far the most efficient. It 
+is possible to cool the wort to below the exit temperature of the water.
+The "Cu tube in a bucket/bathtub of ice water" is a crossflow exchanger. It 
+should be continously stirred and because the flow is not parallel to the Cu 
+wall, boundary layers are not a problem outside the tube. The "cold coil in 
+wort" system is also crossflow.
+The kettle in a snow drift (my Russian grandmother-in-laws method) is a non 
+flow system and fraught with temperature stratification problems and the 
+transmission coefficient of water. (stir vigorously and it has the same 
+properties as crossflow.)
+
+
+FAQ-What is best?
+
+
+Well, let us look at some of the basics. Heat must flow from wort to coolant. 
+The main barrier is the metal wall. *Wrong!*
+The first trap I fell into was confusing "coeficients of heat transfer" with 
+"coeficients of heat transmission". Heat travels through things and most high 
+school kids could find out that Cu is 7 times better at this than steel.
+But the heat *transmission* properties of water are lousy and in a laminar flow 
+situation a boundary layer forms on the wall of you tube, becoming an 
+insulator. As well,  the interface between liquid/metal and then metal/liquid 
+has it's own resistance called the coeficient of heat *transfer*. 
+The actual bit of metal (if its under 3mm) contributes much less than 10% to 
+the "overall coeficient of heat transfer".
+
+
+The rate of heat transfer depends on a few vital factors
+a/ The area of you exchanger (ie length of tube)
+b/ getting rid of the boundry layer by achieving "turbulent flow" (dramatic 
+improvement, convection replaces transmission)
+c/ the thermal pressure, known as the "logarithmic mean temperature 
+difference". (always greater for counterflow)
+d/ the overall coeficient of heat transfer, which depends a lot on b/
+
+
+Without trying to understand Prandtl and Renyolds numbers, turbulent flow is 
+achieved in a 1/2 " tube at .11 m/sec, in
+a 3/8" tube at .14 m/sec, and in a 1/4 " tube at .22 m/sec, which quite simply 
+means in eachl case, 
+
+
+*put 5 gallons through your (1/2":3/8":1/4") exchanger in under (22:31:46) 
+minutes and you have turbulent flow*, (Charlie's Law)
+
+
+The overall coeficient of transfer jumps from about 1.25 KW/m2 K  to about 12.5 
+KW/m2 K ! Fast flow systems rule OK?
+
+
+Example:
+Now 5 gallons of wort at 100 C cooled to 20 C needs to loose about 6300 KJ of 
+energy, 
+If the temp difference (dT1) at exit of coolant and entrance of wort (same end) 
+is 30 C (run the hose fast)  and at wort exit (dT2) = 5 C the the log mean temp 
+difference O  = (dT1-dT2)/(loge (dT1/dT2)) = 13.8 C
+
+
+    Now Q=U A O            (Q=heat transfer rate, U= coeficient, A= area, O= 
+log mean temp diff)
+
+
+If we want to cool in 10 minutes we need a rate of 10.5 KW which translates 
+theoretically  into about 8 feet of 3/8 tube in a hose. Extra area in heat 
+exchanges can't hurt and gives more control, so buy 12 feet.  But tap water is 
+seldom 5 C below the desired final temperature, especially for lager brewers.
+A crossflow "finishing" exchanger of 4 feet of tube in a ice bucket will pull 
+it down a further 8 > 12 C without need to change the ice coolant.
+
+
+The "tap water in a hose around a tube of wort" and "tap water in a coil in 
+stirred wort" are thermodynamically efficient, but suffer from the limitation 
+of the tap temperature as some thermal pressure is needed to drive the heat 
+exchange.
+
+
+The "coil in an ice bucket/bathtub" systems on their own need coolant changes 
+and constant stirring.
+
+
+The combination counterflow, crossflow exchanger avoids most of this except the 
+stirring, the tap water receives most of the energy, preventing the rapid 
+heating of the ice bucket.
+
+
+To control you cooling for DMS results, the siphon height or outlet 
+constriction will adjust your flow rate of wort and thus your cooling time. The 
+tap water flow rate will adjust your final temperature to the desired figure. 
+Record your results and taste the difference.
+
+
+FAQ- How do I clean it?
+
+
+Simple, a fishing sinker and some 40 lb line. Drop it down your tube propelled 
+by water pressure and then pull through a rag with whatever cleaning agent you 
+prefer. Those with military training with recognise the rifle pull-through 
+technology.
+ Pubs force tennis-size foam balls through their beer lines under pressure.
+
+
+Not so FAQ-What is a Plate exchanger?
+
+
+If anyone wants to build a simple plate exchanger, please post me.
+Plate exchangers have coolant and wort flowing on alternate sides of many 
+plates of metal with gasket spacers, a sort of thermodynamic sandwich. Their 
+advantages are massive surface area, good turbulent flow and you can take them 
+apart to clean them! They are run counterflow and can be configured as very 
+efficient heat-recovery pastuerizers.
+ I'll work out how to send my drawings on this Internet thingame.
+
+
+"Religion is humankinds attempt to comunicate with the weather, beer is their 
+attempt to ignore it"  Anon
+
+
+Charlie   (merino`at`ozemail.com.au)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Jul 95 12:30:41 MDT
+From: Norman C. Pyle <npyle`at`hp7013.ecae.StorTek.COM>
+Subject: Dry Hopping
+
+
+Stan Gregory wrote:
+
+
+>First post. Made an all grain English pale ale (bitter) and decided to dry
+>hop with a 0.5 oz E. Kent Golding plug. First mistake was adding the plug to
+>the primary before fermentation had settled down. The aroma was scrubbed by
+>CO2 for the most part. Later racked to secondary and probably should have
+
+
+I agree that you should dry hop in the secondary, rather than the primary,
+but another thing could have contributed to the lack of aroma from this.
+EKGs are not strongly aromatic.  They have a fine aroma indeed, but it is
+not overwhelming.  I would suggest at least 1 oz. of EKGs in 5 gallons for
+that real "hello!" aroma.
+
+
+>dry hopped then. I didn't. Decided to add a plug of K. Golding to the Corney
+>at kegging, having read that hops float. Big mistake. They don't all float,
+>and small hop particles impacted the out flow. Tried back flushing the
+>beverage side with CO2, thinking that would clear the obstruction. It
+>didn't. Finally ended up attaching a copper Chore Boy scrub pad to the
+>siphon tube and transferred the beer to another keg.
+
+
+The simple way is to use a hop bag.  Boil the hop bag, insert hops, drop in
+keg.  When the aroma is where you like it, pull the bag out (use your
+racking cane, upside-down and sanitized, as a hook).  If it never seems to
+be getting too strong, you can just leave the bag in there until the keg
+is empty.  Simple is as simple does.
+
+
+Cheers,
+Norm
+
+
+------------------------------
+
+
+Date:         Wed, 26 Jul 95 18:39:41 EDT
+From: CGEDEN`at`NERVM.NERDC.UFL.EDU
+Subject:      RE: Brewing in the flames of Heck
+
+
+Since I've never heard of anyone using a system quite like the one that
+I use, I thought I'd mention it here.  I live in Florida where we don't
+get many 100 degree days but potloads of 95 deg. days.  Like Ken Goodrow,
+we don't run the AC often or cold enough to solve the problem.  Here is
+my solution:
+
+
+     The fermenter is first placed in a 15-20 gallon plastic bucket with
+handles.  At K-Mart they call them "laundry tubs"; in any event they are
+big, sturdy, have handles, and are cheap.  The fermenter in a tub is placed on
+a sheet of cardboard onto which is glued a sheet of household insulation
+material.  You could use any kind I'm sure, but I used the polyisocyanurate
+type sandwiched between refletive foil; this costs more than the "styrofoam"
+types but what the heck you don't need much of it.  I then assemble a box aroun
+around the tub that is made up of 4 more sections of plywood with insulation gl
+u
+glued on it.  Elmer's glue works fine for this, and the box is assembled with
+the insulation side facing inwards.  The sides are held together by stretching
+rubber bands around metal push-pins that are positioned near all of the corners
+of each sheet.  For a lid I then place on top two half-sheets of plywood-
+insulation amalgam with a semi-circle cut at the midpoint of one side so
+that the two pieces slide around the neck of the carboy like a Puritan
+prisoner's head in the stocks.  Cold water is added to the laundry tub so
+that the fermenter is now sitting in a 10-gallon jacket of cold water within
+an insulated box.  The only part that is outside the box is the very top of
+the carboy.
+   I keep this fermenter-in-an-icebox in my garage, where temps range from
+a low of 75 to a high of 97 most days this time of year.  By adding 2 small
+blue ice packs to the water in the tub in the morning, and one ice pack
+at night (actually I just rotate them in and out of the freezer, 2 in AM, 1 in
+PM), this system keeps the beer at a constant 63 degrees.  What I like about
+this setup is that the insulated box breaks down to a small, flat object
+when its not being used so storage space is not a problem.
+   Sorry for the long post, but this system really works well and IMO solves
+the problem of hot-weather brewing nicely without the expense of buying
+a second refrigerator just for beer.
+     Chris Geden in Gainesviulle, FL
+
+
+------------------------------
+
+
+Date: Wed, 26 Jul 95 20:35:48 EDT
+From: PAUL O'KEEFE LKG1-2/F08 226-7029 - NAC/ENT  26-Jul-1995 2033 <okeefe`at`nac.enet.dec.com>
+Subject: Auto Reply from Watch_Mail for 26-JUL-1995 18:00 to 7-AUG-1995 08:00
+
+
+
+
+ Hi,
+
+
+        I'm on Vacation from Thursday 7/27, returning Monday 8/7
+ Unless your good at tracking in the lakes region of Maine ... I'll see you
+ on Monday ... August 7.
+
+
+ If you need immediate assistance :
+
+
+ For Wavelan/RoamAbout
+        Vickie Prescott        Delni::Prescott
+        Jeff Schwartz        Took::Schwartz
+
+
+
+
+        If there are any cost center related questions, forward them to
+        Dolores Miller Delni::Dolores
+
+
+        Thanks, and I'll see you on the 7th of August
+
+
+ Paul O'keefe
+
+
+------------------------------
+
+
+Date: Wed, 26 Jul 1995 19:45:45 -0600
+From: "Eric W. Miller" <emiller`at`mail.bbsnet.com>
+Subject: Green Malt/Wind Malt
+
+
+In HBD 1790, Jim Busch says:
+
+
+>I gather that
+>wind malt (green malt??) was not very modified.
+
+
+I had to look this one up, and I'm glad I did.  Green malt is what malt is
+called right after germination, but before drying.  Wind malt is just what it
+sounds like; instead of drying the green malt in a kiln, it is "prepared by
+thinly spreading green malt from six-rowed barley on screens, in special
+lofts, and leaving it to dry.  This material is used to prepare 'old
+Louvain' beers, and presumably has a high enzyme content." - M&BS p. 141
+
+
+I didn't see anything about the degree of modification of typical wind
+malts.  Sounds like the idea is to use lots of enzymes (from the 6-row) and
+not waste any (by kilning) in order to convert the unmalted wheat easily.
+
+
+Anybody out there tried making their own wind-malt for a wit?  Sounds like fun.
+
+
+Eric
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 06:25:26 -0400
+From: "Michael D. Fairbrother" <mdf`at`apollo.hp.com>
+Subject: RJ Riptides in San Diego
+
+
+
+
+While in San Diego, I had some honey ale at RJ Riptides, it was
+quite good.  Being new to the brewing process I was wondering how
+they got the honey flavor to be so pronounced.  I suspect that
+they might of used some sort of yeast that dies off early.  The one
+attempt that I tried ended up making a beer with quite the punch,
+all the honey fermented.
+
+
+Any way if anyone knows the scoop, I would love to try and recreate
+that beer.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 07:51:30 -0400
+From: dwhitman`at`rohmhaas.com (Dave Whitman)
+Subject: RE:  Yeast Cake
+
+
+In HBD #1791, CINIBUMK`at`ml.wpafb.af.mil asks:
+
+
+>the yeast cake which is usually a smooth dense layer looks more like a
+>rather loosely packed layer of browned hamburger (for lack of a better
+>description).  The only difference from what I have done in the past was to
+>use darker crystal malt (120L instead of 60L) and Irish moss...Anyone have
+>any ideas?
+
+
+This is a normal result of using irish moss.  The granular looking stuff is
+coagulated irish moss / protein complex - trub on steroids.   I notice
+exactly the thing you describe on all batches in which I use irish moss.
+Your yeast is probably precipitating normally, but you've got these lumps
+of trub that break up the layer and make it look funny.
+
+
+
+
+- ---
+Dave Whitman
+Rohm and Haas Specialty Materials
+dwhitman`at`rohmhaas.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 95 09:03:31 EST
+From: kgmiller`at`wsicorp.com
+Subject: Fermentap
+
+
+     I am considering purchasing the Fermentap.  This is the airlock/valve 
+     which allow you to invert your carboy.  Has anyone used this piece of 
+     equipment before.  I would appreciate any opinions.
+     
+     Thanks,
+     
+     Ken
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 09:30:57 -0400 (EDT)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: Oxygen tanks
+
+
+Jim asks about the use of welding oxygen.  I think A.J. covered it
+pretty well, but Ill relate my experiences as well.
+
+
+I have a 80 cu. ft. tank.  I bought it new, but it is for welding. It
+has only had O2 in it.  This tank stands about 4 ft tall and will 
+aeriate about 15 BBls of wort, assuming use of a diffusion stone and
+run time of 45-60 minutes/BBl.  I got a reconditioned welding regulator,
+it still cost me around $50, I wonder why O2 regs cost more than 
+CO2.  The reconditioning meant new seals.  While I agree that O2 under
+pressure is sanitary, the fact that I use welding gas could lead to
+some residule oils/particulate matter.  I use a .2 micron medical disc
+filter inline, after the reg.  This filter is intended to be disposable
+in the medical field but Ive been using it for over 2 years now.  If
+you have the option in regs, buy one that reads in litres/min.  If you
+want to have a really cool professional system try adapting an inline
+diffuser into your counterflow chiller.  I didnt do this, but it would
+be nice, I just bubble it into the wort with a SS stone. Inline is 
+more efficient, but O2 is pretty cheap.  
+
+
+I think the tank was about $100-120.  Refills are about $12.
+
+
+For the newer brewers: you *must* aeriate the wort much more than the
+average "shake the carboy" method, and pitch enough yeast.
+
+
+A.J.: tell us more about the "oxygenator stone".  Is it similar to a 
+sintered SS stone, and how does it carbonate corny's, during transfer
+from one corny to another or somehow into the one corny???
+
+
+Hope this helps,
+
+
+Jim Busch
+Colesville, Md
+busch`at`mews.gsfc.nasa.gov
+
+
+"DE HOPPEDUIVEL DRINKT MET ZWIER 'T GEZONDE BLOND HOPPEBIER!"
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 95 08:31:29 -0500
+From: jay_weissler`at`il.us.swissbank.com (Jay Weissler)
+Subject: Wheeler Real Ale Books
+
+
+I'm thinking of mail ordering one of the Wheeler real ale books. The  
+question is which one. How do they differ? Is one more process  
+oriented and the other more recipe oriented ala the Miller books? I'm  
+pretty comfortable with my process and would like a good recipe  
+collection. On the other hand, if there is really something to be  
+learned from his process (that hasn't been covered here, like the  
+dropping discussion) or if you need his process to make the recipes  
+work, then I would be more interested in that. 
+
+
+
+
+TIA
+jayw
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 95 10:01:09 EST
+From: Tim_Fields_at_Relay__Tech__Vienna`at`relay.com
+Subject: re killians
+
+
+     In #1792, John (jharding`at`aztec.asu.edu) asks:
+     
+     >I am wondering if anyone has a recipe for George Killian's
+     >Irish Red.  I have checked out The Cat's Meow and found
+     >a couple of close ones.  Can anyone lend a hand?
+     
+     I just bottled my first attempt at Dana's Smilin' Irish Eyes Red Ale - 
+     recipe from Cats Meow 3. I don't know how close to Killians it is (I 
+     don't drink K), but it tastes pretty good to me, and I'd recommend 
+     trying the recipe. One caveat: I substituted Ireks LME for the 
+     Alexanders called for in the recipe. 
+     
+     If it helps - Guy McConnell (who contributed the recipe) opinionizes 
+     (yeah, I know - but it works) that this recipe is close to these 
+     commercial beers: Irish Ale from Boulevard Brewing Co, and Red 
+     Mountain Red Ale from Birmingham Brewing Co.
+     
+     -Tim
+     
+     Tim Fields / Vienna, VA, USA / timf`at`relay.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 95 10:22:25 EDT
+From: dipalma`at`sky.com (Jim Dipalma)
+Subject: Re: Architecture Questionnaire revisited....
+
+
+
+
+
+
+Hi All,
+
+
+  In HBD#1792, our resident quack, DocsBrew`at`aol.com spews forth: 
+
+
+>Dear James,
+
+
+>Thank you for your posting of July 26.  I think you have made your position
+>even more clear.  I apologize for the paranoid portion of the hbd collective
+                                       ^^^^^^^^
+>who feel they must flame everyone for every reason
+                    ^^^^^
+  After seeing this, I re-read the posts from the only two people who
+responded (Tim Fields in HBD#1789, and Brent Irvine in HBD#1790). There is
+*nothing* in either post that can be even remotely construed as either
+flames or paranoia. *Both* of these posts merely pointed out that some
+of the questions in James Gaspar's questionnaire seemed more like the
+type of demographic survey done in marketing than anything to do with the
+technical aspects of brewing beer. This is *exactly* the same reaction I
+had when I read it. Further, rather than flame Mr. Gaspar, the posts
+simply requested clarification:
+
+
+Tim> what's this questionnaire got to do with architecture???
+
+
+Brent> Perhaps if the student would enlighten us as to what he is seeking.
+
+
+  To James Gaspar's credit, he promptly posted a clarification. FWIW, I am
+satisified that both the questionnaire and his motives are legitimate, that
+there was no misrepresentation of either.
+
+
+  Doc (why won't you post your real name) continued to blather: 
+
+
+>- the fact is that you
+>should expect flames every time you post anything.
+
+
+This from someone who posts under a pseudonym. So now who's being paranoid?
+
+
+           Jim               dipalma`at`sky.com
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 10:29:39 -0400 (EDT)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: BBC Maerzen
+
+
+Kirk says about Baltimores Maerzen:
+
+
+<These are exerpts from information sent to me from Robert:
+     >The yeast is definitely the Weinstephan 07 lager yeast, which is the 
+     >same as Wyeast's  #1007.  All his malts are Gambrinus (yes, North 
+     >American) two row.  I'm not sure of the percentages of the grain, but 
+     >it is a mixture of Munich, crystal and lager malt.  Finishing hops 
+     >are most likely Saaz, and bittering hops are problably Cluster.  
+     >These are what he uses on most of his beers. 
+
+
+Robert knows not what he speaks of.
+
+
+I have some experience with the brewers who have brewed at BBC between
+89 and Jan 95.  In fact, both of these brewers are involved in a startup
+micro that Im also involved with.  The first BBC brewer is our CEO/brewmaster
+and the second brewer is our President/brewer.  I know of what I speak.
+
+
+All of the lagers are BBC are fermented with Weihenstephan (note spelling)
+34/70.  I have no idea what Wyeast calls their version of this.  34/70 is
+a very clean, very popular lager yeast.  Ive heard it is one of the most
+commonly used yeasts in brewing, worldwide.
+
+
+Ferment temps should be begun at 48F, with tons of aeriation.  At the
+BBC they also employ a floatation tank to remove cold trub prior to 
+fermentation, as is the norm in Germany.  Ferments are typically 7-10
+days.  I would be suprised to hear if it ever climbs above 55F, but
+in August, this might occur.  34/70 is so clean that most brewers omit
+any diacetyl rest.  After fermentation, the beer is dropped 2F/day until
+it reaches 31F where it lagers for 5-6 weeks.
+
+
+All of BBC's (as well as Penn Brewery) base malts are US 2 row made by
+Froederts.  Froederts is a good US malt, I like it a bit more than 
+Briess or GW.  Gambrinus specialities are used, mostly in the hefeweizen
+but also as specialties..
+
+
+Clusters for the boil have been used, mostly to reduce the trub load in
+the whirlpool for the abusively hopped Pils.  
+
+
+The original maerzen was of more traditional OG, ~13P.  It is now closer
+to 12P.  A typical step infusion is used.  This is not to be confused 
+with a boiling water infusion. 
+
+
+<Does this fit into the traditional Marzen category?
+
+
+It is a bit on the light side for a traditional maerzen.  Compare to
+the excellent examples: Wurzburg Maerzen, Spatan and Paulaner which
+should be available in late August in fresh form.
+
+
+To really be authentic, one needs to find Vienna malts.  Vienna and
+Munich malts and a double decoction will get you closer to the real
+thing.  Try to get German malts too.  Id also use Perle or Spalt or
+Hallertau Hallertau for bittering and keep the IBUs in the 25-30 range.
+Dont add finish hops past 15 minutes before knock out.
+
+
+Hope this helps,
+
+
+Jim Busch
+busch`at`mews.gsfc.nasa.gov
+
+
+"DE HOPPEDUIVEL DRINKT MET ZWIER 'T GEZONDE BLOND HOPPEBIER!"
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 10:35:50 -0400 (EDT)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: Liefmans
+
+
+<I was going to answer Nick, but the answer is not what most people want
+<to hear: no one knows how to make Liefmanns. 
+
+
+Even Liefmans doesnt know how to make Liefmans!!
+
+
+Seriously, Liefmans is now run by Riva.  As the great Belgian beer
+hunter, Peter Crombecq says, this is bad.  Liefmans is now a sweetish
+fruit flavored relic of its former self.  Goudenband has been bastardized
+to the extent of being 8% ABV with zero trace of lactic or sourness of
+any kind.  If you can find the old Goudenband at ~5.1%, hoard it up for
+it will be soon be gone.  
+
+
+This is one of my saddest discoveries of my last Belgian beer hunt :(
+
+
+< - if you really want to clone it right, you should think "brettanomyces"
+
+
+Really, Brett??
+
+
+Jim Busch
+
+
+PS: Fortuneatly, Rodenbach and Rodenbach Grand Cru remain in excellent 
+condition.
+
+
+------------------------------
+
+
+Date: 27 Jul 95 10:42:44 EDT
+From: Jay Reeves <73362.600`at`compuserve.com>
+Subject: Re: RIMS & Wyeast 3944
+
+
+In #1791, Eamonn McKernan sez about his RIMS:
+
+
+> There's gotta be a better way to do this.  Preferably without using silicone.
+
+
+There is:  Here at the concentration camp, we design and manufacture computer
+controlled water management devices.  One of the products uses a thermistor
+epoxied inside of a brass housing.  We went thru about 4 different types of
+epoxy before we found one that kept its integrity up to temps of 180F.  This
+had to be an FDA approved epoxy.  It is called URA-BOND 24-HV from Resin
+Technology Group, Inc.  They have 2 sits: Easton, MA (508-230-8070) &
+Germantown, WI (414-251-2275).  You can call and ask for a sample - just don't
+let them know it's for a one-time personal use - make up some kinda BS about
+possibly using it to manufacture RIMS systems on a large scale (I know, it's
+lying, but hey, it's got me lots of free stuff that I'd otherwise have to spend
+my
+beer money on!)
+
+
+The stuff has a temp range of -60C to 120C, tensile strength of 2000 PSI,
+elongation of 800% (that's right!) and I can't find the coefficient of expansion
+rating but I know it was good enough to keep a water-tight seal with brass.
+Cure
+time is 30 mins tack free, 30-40 mins handling strength, 15 mins `at` 150F and
+overnight `at` room temp.  It's also FDA approved which is exactly what is
+needed.
+
+
+I don't know much about RIMS (yet) but I would ditch the bung for a brass plug
+(hardware store) that has been drilled large enough to insert the thermistor,
+then
+shoot the epoxy in around it - solder this in the pipe.  I would also be sure
+that
+the thermistor is out in the main flow instead of at the end of a tube like the
+ASCII-art shows - we've found that the temp can vary as much as 3-4 degrees
+with that setup due to an eddy current forming in the pocket, but then again I'm
+not sure how accurate you wanna be.
+
+
+On thermistors: I don't know where everyone gets theirs, but THE thermistor
+company is Fenwal Electronics in Milford, MA (508-478-6000).  We've found that
+the standard NTC glass probe (not the glass bead) units are best suited for
+immersion applications.  Again, free samples for white lies.
+
+
+Now a question:  At what temp does everyone ferment Wyeast 3944?  The
+Wyeast data sheet claims 60-68F but I'll be damned if it doesn't go to sleep or
+stop when it gets around 66F.
+
+
+                        -Jay "Will lie for beer" Reeves
+                        Huntsville, Alabama, USA
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 11:45:13 -0500
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: One more Oud Bruin quip...
+
+
+
+
+One more thing about the Liefmann's beers and their ilk.  There's a 
+certain velvetty softness to the mouthfeel.  It's not like it's 
+specifically thicker or thinner than other beers, but there's something 
+else in there.  I think it might be related in part to the long boiling time 
+because there is a hint of that unique mouthfeel element in Kwak Pawuel (sp?),
+another Belgian beer which is hard to categorize.  Kwak is made with rather 
+pale malts boiled for an extremely long time and comes out rather dark.
+Very yummy stuff.  
+
+
+It's mouthfeels like this that make me think that ranking mouthfeel in series
+might miss a lot of good info.  I wouldn't call it 'smooth' and definately
+not 'viscous', but soft and resembling cloth in some way.
+
+
+Perhaps the source of the mouthfeel might be the same as the elusive flavors.
+Might have something to do with an odd strain of brett, pediococcus, 
+cryptococcus, or who-knows-what-else.
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 10:55:27 -0600 (MDT)
+From: David Taylor <dptaylor`at`lamar.ColoState.EDU>
+Subject: more suggestions about Krieks
+
+
+
+
+> > From: Nick Hiams <oleum`at`spuddy.mew.co.uk>
+>
+> > PS does anyone know what to to with between 5 and 10 lb of dark very ripe
+> > cherries. I can't eat any more [I must've eaten about 10 lb already in the
+> > last week...and my wife ...and my kids...and everyone at work]. I thought
+> > of steeping them in brandy to make cherry brandy something like sloes and
+> > gin but I'd rather make a cherry beer. Anyone have a recipe for Liefmanns
+> > Kriek? This is gorgeous.
+>
+//////////////////////////////////////////////////////////////////////////////
+        As for a suggestion of what to do with the cherries, I like the 
+Kriek recipe in the back of Dave Miller's book. I modified it by letting
+the fermentation get going for about 4 days in a covered plastic tub and
+then SLOWLY adding pitted cherries (which I had scalded in hot water). I
+left it in the secondary carboy for a month. For the first 2 months it 
+was rather awful (like a mixture of Coors and cherry soda), but it then 
+acquired a really nice flavor and character. The only change I would make 
+would be to leave it in the secondary longer: although the beer was 
+clear of particles after it was poured, there was a floqulant layer in 
+the bottom half inch of the bottles and I had to decant carefully.
+
+
+        I think that if I wanted a Leifmanns clone, I would start with
+about 3 gallons of underhopped rather stong brown ale and handle the
+cherries the same way.
+                                                Dave Taylor
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 12:57:42 -0400 (CDT)
+From: Rob Reed <rhreed`at`icdc.delcoelect.com>
+Subject: Marzen Yeast Strain
+
+
+
+
+kwh`at`roadnet.ups.com (Harralson, Kirk) reports:
+
+
+>      Last week, I posted a request for information on Marzens, particularly 
+>      DeGroen Marzen produced by the Baltimore Brewing Company.  I had only 
+>      one reply, but it was extremely informative.
+>      
+>      These are exerpts from information sent to me from Robert Chizmadia:
+>      
+>      >The yeast is definitely the Weinstephan 07 lager yeast, which is the 
+>      >same as Wyeast's  #1007.
+
+
+This looks like a typo 'cause WYEAST 1007 is German Ale, perhaps he was 
+thinking about Wyeast 2124 Bohemian lager (Weihenstephen 34/70) strain?
+
+
+Cheers,
+
+
+Rob Reed   
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 95 13:47:07 EDT
+From: "John MCCafferty" <johnm`at`giant.IntraNet.com>
+Subject: Priming lagers / Upgrading equipment /$0.02 on Laaglander thread
+
+
+A question for you lager brewers.  I've noticed that my lagers are generally
+overcarbonated.  I use 3/4 cup of corn sugar as with some other brews but
+they are just busting with bubbles when mature.  I believe the problem is
+priming and bottling the beer when it is still cold and holding CO2.  Do you 
+generally let your lager warm up to room temperature prior to priming and 
+bottling or do you adjust the priming rate based on the temperature of the 
+brew at bottling?  If the latter, is there a schedule or formula available that
+I can use to determine the proper priming amount?        
+
+
+I also have some questions on upgrading equipment.  I am currently a stove top
+all grainer.  I mash in a 5 gallon SS stock pot, lauter/sparge in a Phils
+setup, and boil on an electric stove top in a 8 gallon ceramic on steel jobber.
+I've recently come upon some money (Happy to me!) and want to move my system
+out doors (I have a screened in deck).  My first purchase is obviously a
+propane burner.  Those of you that use propane burners. 
+
+
+How do you do your temp step mashes on the burner in a kettle?  On the stove
+top, I get to my target temp and then place the covered mash pot into the 
+prewarmed oven.  If I am ouside in the dead of winter, will the lowest setting 
+on the raidal burner keep the temp stable or do I need to build an insulated 
+box to put the kettle in b/t steps?  
+
+
+Or do most of you do single step in a Gott cooler usig the burner for heating 
+the mash water, the sparge water, and then doing the boil?  How effective are
+infusions of boiling water into the Gott cooler to do step mashes?
+
+
+Would life be a lot easier with double burner model?
+
+
+I have been perusing the King Kooker catalog and am considering a couple of 
+models.  Can anyone comment on the following?
+
+
+#82PK   recessed ring burner with 12" tripod, wind guard, 170K BTU ($57)
+
+
+#83PK   recessed ring burner with 30 inch legs, wind guard, 170K BTU  ($65)
+        If I get a converted keg, I believe I need the extra height this model
+        provides so that I can drain the keg without having to first lift it 
+        off the 12" tripod to rack into the carboy.
+                                                  
+#CS8    camp stove with 2 ring burners; 26 "" fold up legs, wind guard, 170KBTU 
+($85)   Anyone know the cooking surface for this baby?  The appeal is having
+        sparge water on one and mashing on the other or do I even need to worry
+       about geting the mash water to right temp on time given the BTUs?
+
+
+So next I think is a malt mill. I am leaning towards Jack's Malt Mill unless
+convinced otherwise.  I like the idea of buying 50# bags of grain rather than
+paying $1+/pound at the brew store.
+
+
+OR should I go for a bigger brew length and get a converted keg for a brew
+kettle (vollrath and PBS stuff seems so expensive).  Do the the Sabco kettles
+have a threaded/barbed spout to connect some type of hose to it? Do they come
+with a lid? What is the diameter of those sankey kegs they use?  How heavy is
+one filled with 10 gallons of brew?
+
+
+If I go to the bigger brew length, I guess I go to kegging as well. I've
+already acquired 2 pin lock cornies in excellent condition for nada. I'll guess
+I'll then be asking all those keg questions I skip over now.
+          
+On the Laaglander thread.  I do not think the extract is bad per se.  You just
+need to know what it is and use it appropriately.  I've used it w/good results
+in combination with Alexanders pale LME.  It adds the right amount of body to
+the beers I've brewed with it.  I think Miller recommends it in his
+recipes in Brewing the World's Greatest Beers (great book BTW).  I've used 2#s 
+of Laaglander with a 4# can of Alexander's for a Kolsch  (WYeast 1007), 1Lb 
+with Alexanders and 1# of rice syrup solids for an american lager (2007), and 
+3#s with a can of M&F for a holiday brew.  I believe all or some of these 
+recipes are in Miller's book. 
+                                                                  
+        It was a fair wind that blew a man to the ale. - Wahsington Irving
+        
+                                John McCafferty
+                                Chelmsford, MA
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 95 12:44:06 MDT
+From: Norman C. Pyle <npyle`at`hp7013.ecae.StorTek.COM>
+Subject: Sight Guage / Gambrinus
+
+
+The BixMeister asked:
+
+
+>I have a new query rather a couple of queries.  First for those
+>do-it-yourselfers-how do you construct a liquid level sight tube.  I have
+
+
+Well I've done it a couple of different ways, both on hot liquor tanks made
+from converted kegs.
+
+
+The first one was pretty crude but it did the trick.  Out of my hot liquor
+tank I adapted the fittings to sweat (that's soldered) fittings.  I sweated
+on a T, with the "side port" pointing up.  On top of that I clamped a piece
+of stiff opaque (I think LDPE) tubing.  I backed it with a piece of aluminum
+and put level markings on that.  In this case the outlet of the T went to
+the valve and then downstream.  The major drawback here is that the low
+pressure caused by the flow of liquid out (when the valve was open) caused
+the sight tubing reading to be way off.  I had to stop the flow to check the
+level.  The advantage is that only one hole was required in the tank.
+
+
+The new improved version is sweet.  I found a stainless steel L that had 1/2"
+MPT on one side and (I think) 5/8" compression on the other.  I found a glass
+tube with the same OD as the compression side ID.  The 1/2" MPT threads into
+the FPT fitting on my tank and the elbow points up.  The glass tube fits down
+into the L and the compression nut slides down the glass.  To keep from
+cracking the glass when you tighten the compression nut, replace the
+compression ring with a rubber washer of appropriate dimensions.  As the nut
+is tightened, the rubber is compressed, making a good seal (this has never
+leaked in over a year).  Now this setup is a dedicated sight tube, i.e. the
+valve comes off another outlet of the tank.  Now I don't have the problem
+with the flow messing up my guage.  Oh, I used finger nail polish to put 1
+quart increments on the glass - works like a charm.  I support the top of the
+tube with an eye-bolt attached to the top skirt of the keg.
+
+
+**
+
+
+Kirk Harralson wrote, on Robert Chizmadia's description of Baltimore
+Brewing's Maerzen:
+
+
+>   RC>same as Wyeast's  #1007.  All his malts are Gambrinus (yes, North
+>   RC>American) two row.  I'm not sure of the percentages of the grain, but
+>   RC>it is a mixture of Munich, crystal and lager malt.  Finishing hops
+
+
+KH>     I was surprised by both the use of American 2-row and Cluster
+KH>     bittering hops.  Does this fit into the traditional Marzen category?
+
+
+First of all, let me say that I've never had the BBC Maerzen; I just want to
+comment on a couple of things.  I'd be surprised if they get away with using
+Clusters in this beer, but I've seen much stranger.  Secondly, I wouldn't
+call the Gambrinus malt "American 2-row"; that is misleading.
+
+
+The owner of Gambrinus, can't recall his name just now, is a Weinstephan
+graduate who markets his grain as a reasonable substitute, or maybe a better
+choice, for German grains.  I think they shouldn't be compared to a
+Briess-malted Harringtons 2-row, because I don't think they are anywhere
+close to the same.  Both are "American", that is North American - Briess from
+the US, Gambrinus from BC, Canada, and they both malt 2-row barley, but I
+think that's where the similarities end.  I know Gambrinus sells to Tabernash
+Brewing Company in Denver, and they are a traditional, German style lager
+brewery.
+
+
+Cheers,
+Norm
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 12:05:13 -0700 (PDT)
+From: bob dougherty <wolfgang`at`cats.ucsc.edu>
+Subject: keg dry hopping...
+
+
+There have been several posts about keeping hop particles from messing 
+with the pick-up tube when dry hopping in a keg.  Some have suggested 
+using a mesh bag to contain the hops.  An alternative which I find a bit 
+more elegant is to cover the pick-up tube with a fine stainless mesh.  
+
+
+I got enough mesh to do two kegs from one of those "tea-balls" sold for 
+making tea with loose leaves.  Disassemble the ball and you have two 
+half-sphere screens that are about the right size and can be sealed 
+around the pick-up tube with some stainless or copper wire (although I 
+find something a bit more flexible makes it easier to get on and off, 
+like a good clean rubber or latex band).  Obviously, it has to be attached 
+from within the keg.  I found it easiest to form it to the right shape 
+with the tube removed, then just slip it on as you're sliding the tube back 
+in.  It's like a snug-fitting cap for the pu tube which can be easily 
+slipped on and off for cleaning. 
+
+
+With this method, I just dump whole hops right into the keg.  The first 
+pint or two will have some very fine hop particles (and lots of hop 
+flavor!), but the subsequent pints are generally crystal clear.  I've done 
+this 20 times or so (with up to an ounce of whole hops) and never had a 
+clog...
+
+
+Oh yea- for added protection from the finer hop particles, I've stuffed a 
+"stainless steel line filter" (from American Science & Surplus, #4258, $2 
+for 6 of 'em) into the end of the pick-up tube.  It's essentially a 
+_very_ fine stainless mesh.  I tried using just the line filter, but it 
+clogs too easily without the coarser mesh from the tea-ball to catch the 
+bigger stuff.  This second mesh is quite optional, though.  You'll just 
+get a little more fine stuff in those first few pints without it...  
+However, if you dry hop with pellets, you may need it.  Actually, I 
+haven't tried pellets (too many sources of superbly-handled whole hops!), 
+so no promises there...
+
+
+have fun,
+bob
+
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+   Robert F Dougherty         Board of Psychology       (408)459-4559 (office)
+ wolfgang`at`cats.ucsc.edu    UCSC, Santa Cruz, CA 95064   (408)458-2428 (message)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 12:14:54 -0700 (PDT)
+From: Dan Sherman <dsherman`at`sdcc3.ucsd.edu>
+Subject: Re: Scientific Mashing Breakthru!
+
+
+John Palmer <palmer`at`ssdgwy.mdc.com> wrote:
+
+
+>So! We now have a brewing constant for figuring how much grain can be 
+>mashed in a fixed volume. 1 Pound of 2 Row Malt mixed with 1 Quart of Water
+>produces a volume of 42 fluid ounces.
+
+
+
+
+And, since 1 quart of water is 32 fl. oz., we can conclude that 1 pound 
+of 2 row malt displaces about 10 fl. oz.
+
+
+So, assuming you use at least 1 qt/lb:
+
+
+mash volume (in ounces) = (total quarts of water)*32 + (lbs of malt)*10
+                or
+mash vol. (gallons) = (total quarts of water)*0.25 + (lbs of malt)*0.08
+
+
+
+
+>In summary, 10 lbs of Malt at 1.5 qt/lb would fill just over 4.5 gallons
+
+
+mash vol. (gal.) = (15)*0.25 + (10)*.08 = 4.55 gal.
+
+
+
+
+Thanks, John.  Great job!!
+
+
+Cheers!
+
+
+Dan Sherman
+San Diego, CA
+dsherman`at`ucsd.edu
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 13:00:47 -0700
+From: Saylor1/Apple`at`eworld.com
+Subject: Basmati Ale
+
+
+A few days back I posted a request for information regarding the proper
+method of preparation of rice for the mash.  I've got this crazy notion that
+Basmati rice would lend a very interesting aroma to an IPA.  I've received
+several reply's stating that this sounds like a cool idea, and requests to
+hear of the results but no help with how to actually prepare the rice.
+
+
+So if anyone out there has the know-how I'd really appreciate your input.
+ Look's like some others would as well.  TIA
+
+
+Brew On
+
+
+------------------------------
+End of HOMEBREW Digest #1793, 07/28/95
+*************************************
+-------

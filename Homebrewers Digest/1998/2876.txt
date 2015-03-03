@@ -1,0 +1,1560 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA14706
+        for <spencer`at`srvr5.engin.umich.edu>; Mon, 16 Nov 1998 01:33:02 -0500 (EST)
+Received: from brew.oeonline.com (root`at`brew.oeonline.com [206.31.224.50])
+        by srvr22.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA04894;
+        Mon, 16 Nov 1998 01:33:00 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id BAA22134 for realhomebrew; Mon, 16 Nov 1998 01:21:46 -0500
+Date: Mon, 16 Nov 1998 01:21:46 -0500
+Message-Id: <199811160621.BAA22134`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2876 (November 16, 1998)
+Status:  O
+
+
+
+
+
+
+HOMEBREW Digest #2876                             Mon 16 November 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  too low flow (Paul Niebergall)
+  flat beer, caramel, oat,metabisulfite ("David R. Burley")
+  Sight Glass Info (WayneM38)
+  Re: Fermentability of crystal/dextrin malts ("Dave Humes")
+  cooking ("Bryan L. Gros")
+  spruce maple mead??? freezer ("Bryan L. Gros")
+  Old Bay Beer (Mikey Beck)
+  Re: Linguistic history of 'wort' (Tidmarsh Major)
+  Hogshead Tapper ("Timmy Runnette")
+  pump/damp rid (William Frazier)
+  Home Malting ("J.Kish")
+  re: pepper experiment, low density foam for lautering ("Ludwig's")
+  Wyeast ("J.Kish")
+  Flip top vs. cap top ("Sandy Macmillan")
+  Roggenbier / controlling diacetyl ("George De Piro")
+  Re. flip top vs. cap top (Malcolm Purves)
+  Roggenbier (ThomasM923)
+  oxidation during bottling (ThomasM923)
+  RE: Site glass (John_E_Schnupp)
+  Stokes flow/law & fluid mechanics (David C. Harsh)
+  Alt recipe (Mike Marshburn)
+  Pronunciation (Ken Schwartz)
+  Who am I? (Jeff Renner)
+  Hops Toxiciy in Dogs ("Fred L. Johnson")
+  Chlorine dioxide (ThomasM923)
+  Change of Address ("Edmund J. Busch")
+  Yet another newbie question ("Jan Brown southern U.S.A.")
+
+
+
+
+Beer is our obsession and we're late for therapy!
+
+
+Send your entries in for Hoppiest Event On Earth yet?
+Details:  http://members.tripod.com/~BrewMiester_2/Home.html
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 13 Nov 1998 13:49:09 -0600
+From: Paul Niebergall <pnieb`at`burnsmcd.com>
+Subject: too low flow
+
+
+In Friday's HBD Scott Murmen writes:
+
+
+>Assuming you draw 6 gal. in 60 minutes, and using a cross sectional
+>area of your lauter tun as 1 sq. ft., the downward velocity is about
+>200x10-6 ft/sec.  The kinematic viscosity of water is about 0.5X10-5
+>sq. ft/sec at 140F, which gives an *upper bound* on the Reynolds
+>number of about 10.  Very low Reynolds number flow indeed.  As I
+>suggested, this is definitely in the range of what's called Stokes' flow.
+
+
+Whoa, that is a awfully low velocity you are quoting there.
+If you draw 6 gal. in 60 minutes, then your flow rate (Q) is 6 gallons/60
+minutes or 0.10 gpm.  Divide this number by 7.48 (the number of gallons
+in a cubic foot) and you get 0.013 cubic feet per minute (cfm).  So,  
+
+
+        Q = 0.013 cfm
+
+
+>From pipe flow theory, we know that Q = AV (volumetric flow rate Q =
+cross-sectional Area x Velocity).  Re-arranging this equation to get
+velocity (V=Q/A), we can calculate the fluid velocity:
+
+
+        V = 0.013 cfm/1.0 square foot = 0.013 feet per minute (fpm)
+
+
+BUT, this is not the velocity we want because this is not pipe flow.  It is
+flow through porous media.  The Darcy velocity (little v) is what we
+want. To get that we divide the specific discharge (big V) by the porosity
+of the media (n), because only the pore space is open to flow.
+
+
+        v=V/n
+
+
+Note that in this equation, little v will always be larger that big V because
+porosity is expressed as a fraction, and the same amount of water is
+now forced to flow through a smaller area, thus increasing the velocity. 
+I do not know what the porosity of a grain bed is, but for example I will
+assume it is somewhere between 25 and 75 percent (0.25 to 0.75). 
+Using this assumed range of porosity values, we can calculate velocities
+of:
+
+
+        v = 0.013 fpm/0.25 = 0.052 fpm
+
+
+and,
+        v = 0.013 fpm/0.75 = 0.017 fpm
+
+
+Anyway, using the numbers given by Scott above there is no way we
+can get a value of 200x10-6 ft/sec for either big V or little v.  Which leads
+me to conclude that, if we cannot calculate fluid velocity correctly, we
+should not even begin to discuss things like Reynolds numbers or Stokes
+law.
+
+
+
+
+
+
+Brew on, 
+
+
+Paul Niebergall
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Nov 1998 14:51:55 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: flat beer, caramel, oat,metabisulfite
+
+
+ 
+
+
+
+
+Brewsters:
+
+
+Pete Gottfield has experienced a common problem with beer that has
+been racked and stored too long before bottling. The yeast goes dormant
+and cannot satisfactorily ferment the added priming sugar. The result?
+Flat beer. This is especially a problem with high alcohol beers. His wife
+
+
+accepts this flatness as a common occurrence for male brewers from
+time to time. Paul disclaims any personal knowledge of this until now.
+
+
+I suggest you review my method in the archives for bottling with a
+"kraeusen starter" which uses a boiled and cooled starter consisting of a
+
+
+tablespoon of malt extract, the priming sugar and to which is added
+some of the yeast and beer from the bottom of the secondary
+ .
+In 12 hours you will see activity and can bottle.  Your beer will 
+reliably
+come
+to condition quickly and to the same amount every time.  AlK has 
+repeatedly
+criticized this technique ( never having tried it, to my knowledge) 
+because
+he
+believes it to be unreliable since the priming sugar can be fermented.
+I do not doubt that at all if it is left too long. In my experience I 
+have
+been
+quite successful with waiting 12 hours and then bottling.  Frankly, the 
+way
+you are doing it now, and as Al suggests, produces the most unreliable
+level of carbonation of all doesn't it?
+
+
+ I started this method when sucrose was the only sugar available
+( way back in the dark days of home brewing) and I wanted the yeast's
+external enzyme invertase to invert the sugar before using it to prime.
+Having it concentrated improved the chance that it would work on the
+sugar.  It really works very well and gives reliable carbonation.
+
+
+If you prime with corn sugar, then this combination of the suagr and
+starter
+ is not needed and you could undoubtedly re-energize the yeast in a small
+
+
+sample from the bottom of the secondary with the tablespoon of malt 
+extract
+boiled and cooled in a small amount of water by itself providing the FAN
+necessary to get some growth of this yeast in the beer.  You should then
+boil the priming sugar separately in water and let it cool. Although I do
+
+
+not think it is necessary and have never tried it, this latter method
+should
+remove AlK's objection to this technique.
+
+
+To produce the equivalent of Viagra for your current brew I would start
+some
+yeast in a little boiled and cooled malt extract solution and add it to
+each bottle.
+4 ounces of water with a tablespoon of malt extract boiled and cooled.
+Pitch the yeast and allow it to become active.  1/2 teaspoon of this in
+each
+of 50 bottles will do the trick I'll bet. 
+
+
+- --------------------------------------
+Dave Hume asks if a written suggestion based on the method of preparation
+
+
+in which pale malt is toasted versus converting the endosperm by wet
+kilning is used to distinguish between caramel amd crystal malt in the
+brewing industry..
+
+
+In my experience Crystal Malt is a British usage in origin and Caramel 
+Malt
+is
+the US usage for a very similar product. I had originally thought that 
+the
+use
+of the trademark Cara(mel)-Pils(ner) originated in the the Germanic
+speaking
+and Germanic brewing style countries. This theory fell down when
+I realized that the Germans spell it Karamel. How about the Belgians?
+( the origin of Cara-Pils) I suspect they spell it Caramel like the 
+French.
+
+
+ In any event, Carapils is clearly headed toward the pilsner industry and
+
+
+it
+is a converted endosperm and is undoubtedly a malt style called caramel 
+by
+the users. I do not think Briggs' suggestion holds water based on usage
+since
+he would classify cara-pils a crystal malt. 
+
+
+- ----------------------------------------------
+Phil Wilcox suggests using Campden tablets or metabisulfite in beer to 
+kill
+off
+yeasts.  Don't try it.  First place, the pH of beer is too high for the
+bisulfite to
+be active.  Metabisulfite needs a pH of 3.3 or below to be active.
+ Second place, any sulfur dioxide in the beer will be swept out by the
+Carbon
+Dioxide bubbles and you will likely detect it more than you would with a
+wine.
+
+
+If you did use Red Star Champagne yeast, it is a variety of S. Cerevisiae
+
+
+just like beer yeast. If you used a finishing yeast ( aka Prisse de 
+Mousse
+and the
+ like) it is S. Bayanus and it definitely will ferment all the sugars out
+
+
+and you
+will have a non-sweet beer like most beers, and it will probably 
+carbonate
+well.
+
+
+Don't do anything unusual, just bottle away.
+- --------------------------------------------
+In the middle of another of his learmed discourses, Jeff Renner ponders 
+the
+question of why is "oats" always plural.
+
+
+Kind of reminds me of Ogre in the Revenge of the Nerds II.  In the midst 
+of
+a highly philosophical discussion by the nerds, Ogre says "suppose C-A-T
+really spelled dog" and all the nerds,  who are high on mariajuana, say 
+in
+unison "yeaaah".
+
+
+Actually oats isn't always used in the plural in the Germanic Anglo-Saxon
+
+
+Language where it originated. It is a holdover word from before the 
+Norman
+conquest when these Saxons were defeated and were slaves to the Normans.
+These Saxon slaves did the cooking and farm work and were the wenches 
+these
+Normans visited at night. So many of these words ( many four letter ones
+like
+oats) were useful  and carried over into the modern English language,
+despite
+the onslaught of the French based words.
+
+
+We don't always use it in the plural either.  We say Oatbread
+or Oatmeal. We do always say "groats" as the plural to describe some
+crushed
+or processed grain ( usually oats) and do not say "groat" without the "s"
+
+
+unless we are talking about an obscure British coin.  
+
+
+- --------------------------------------------
+
+
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  
+
+
+Voice e-mail OK 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Nov 1998 15:51:30 EST
+From: WayneM38`at`aol.com
+Subject: Sight Glass Info
+
+
+<< Date: Thu, 12 Nov 1998 00:58:42 EST
+From: BrwrOfBeer`at`aol.com
+Subject: Site glass
+
+
+Can a site glass be put on the side of a converted Keg with out welding?  If
+so, what is the best way of doing so?  Any advice welcome.  E-mail ok.
+Prost,
+Scott
+
+
+ >>
+Scott I have two converted kegs that have 1/2 in welded couplings.
+I added a sight glass in one of the by using a 2 in long 1/2 in. brass
+threaded nipple and drilling in a hole to accept a threaded hose barb fitting.
+I soldered it in. This nipple was then threaded into the lower coupling and my
+ball valve attached to the nipple.  The 3/16 hose barb points up and has a
+section of poly hose running up the keg.  I made a protective sleve/volume
+marker by slicing a window in a 5/8 copper pipe and secured the pipe at the
+top of the keg through an eye bolt to the top keg chine. It slides right over
+the hose barb fitting and rests on the brass nipple on the bottom.
+
+
+Good points of this design:
+Did not require additional welded keg fitting.
+Will not clog because sight glass is on filtered side of supply. Screen/filter
+on inside of keg prevents any junk from getting into sight glass.
+At lowest level of keg possible.
+Protected from bottom burner heat my nipple and ball valve.
+Sits right in front of you for easy viewing and volume measurment.
+Easy to clean.
+
+
+Bad points of this design:
+
+
+I use this on both my HLT and brew kettle on my RIMS system.
+Because the poly plastic tube is open on top,  in order to pump or draw off
+any liquid and get an accurate reading of liquid volume, the tube must be
+closed off in some manner.  Scared the hell out of myself the first time I
+started my pump with the tube open. Installed a small needle valve on the top
+of each one an can now pump without the sucking air problem..  Must still
+close ball valve on pump to get accurate liquid reading but that is no big
+deal.
+
+
+Just my experience.
+Hope this helps.
+
+
+One other data point. I wanted to hit my target volumes and OG's as close as
+possible after sparging, boiling etc. but kept comming up a bit short on the
+final cooled volume of wort in my fermentors. I have a cooling coil installed
+in my brewkettle and pump directly into the carboy.
+Someone pointed out here that there is about a 4% expansion of water from 60
+degrees to 212 degrees. So if I stopped boiling at 6 gal, and cooled the wort,
+the volume would drop by about .3 gal. in a 6 gal batch.
+Missing wort found!!!
+
+
+Make sure you calibrate the sight glass accordingly.
+
+
+Wayne
+Big Fun Brewing
+Milwaukee
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Nov 1998 16:28:23 -0500
+From: "Dave Humes" <humesdg1`at`earthlink.net>
+Subject: Re: Fermentability of crystal/dextrin malts
+
+
+
+
+Mort O'Sullivan's explanation is very interesting.  It seems to be on
+the very edge of understanding.  I suspected that the simple
+explanation of "mashing" in the kernel creating non-fermentable
+dextrins was either incomplete for faulty.  Like many areas of
+investigation, the answer to one question is the basis for many new
+questions.  Such is the case here.
+
+
+Mort's explanation accounts for how amylose is converted during the
+production of crystal malts into non-fermentable extract.  Now, if
+amylose survives stewing relatively intact, but is subsequently
+changed in the kiln into something which is enzyme-resistant, I'd be
+worried about such large molecules surviving into the final product. 
+Sounds like a formula for starch haze and instability.  But, then who
+knows what it is really converted into.
+
+
+According to Mort's explanation, amylopectin is preferentially
+hydrolyzed during the production of crystal malts.  This presumably
+results in fermentable extract in the case of crystal malts.  For
+dextrin malts, which are stewed at a higher temperature, the balance
+is more towards non-fermentable dextrins.  But, these should be
+subject to enzymatic activity in the mash and hence still lead to
+fermentable extract.  I suspect that it is fairly well established
+through empirical results that dextrin malts do indeed contribute
+minimal fermentable extract.  So, why aren't the dextrins resulting
+from hydrolyzed amylopectin degraded in the mash to simpler sugars? 
+I suspect the answer lies in Mort's final paragraph.  The eventual
+kilning of the stewed grain must convert the dextrins into something
+else which is enzyme resistant.  I don't know how much cross linking
+there is in dextrins, but maybe the drying and kilning processes
+change the cross linking such that the accessibility of the molecules
+to the mash enzymes is reduced.  
+
+
+This analysis does bring up an interesting point.  There is a
+diffence between converting at a higher temperature in the mash
+versus adding dextrin malts to effect an improvement in the body of a
+beer.  In the former case, the high temperature mash results in
+non-fermentable dextrins passing into the final beer.  In the latter,
+it's something else (to be determined) which is contributing to the
+body, since dextrins from the malt would be degraded  in the mash. 
+I'd like to hear some opinions on which is preferable.
+
+
+- --Dave
+
+
+
+
+
+
+
+
+
+
+
+
+Dave Humes                             >>humesdg1`at`earthlink.net<<
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Nov 1998 13:30:38 -0800
+From: "Bryan L. Gros" <gros`at`bigfoot.com>
+Subject: cooking
+
+
+Jim Booth writes:
+
+
+>1)  I assume almost any recipe that uses wine or vinegar to deglaze a
+>pan surface could use beer as a substitute?  Opinions or guidelines?
+
+
+Sure. use beer. Just think about the flavors you want. And remember, 
+in sauces you usually reduce the liquid, which concentrates the flavors.
+So a mildly bitter beer may add a significant bitterness to the dish.
+
+
+>2)  Recipes as stews, soups or braizes could use beer?
+
+
+Yep. And you probably don't concentrate the flavors as with a
+sauce.
+
+
+>4)  Does baking with beer have any advantages over other liquids?
+Not that I can think of, except the carbonation may cause things
+to rise a bit more than if you used a non-cabonated liquid. I would
+imagine something like dinner rolls would be good with doppelbock
+added to the dough.
+
+
+I think in general, a balanced beer would go well with most food.
+
+
+Bryan Gros    gros`at`bigfoot.com
+Oakland, CA
+
+
+Organizer, 1999 National Bay Area Brew Off
+http://www.dnai.com/~thor/dboard/babo99.htm
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Nov 1998 13:37:42 -0800
+From: "Bryan L. Gros" <gros`at`bigfoot.com>
+Subject: spruce maple mead??? freezer
+
+
+Rick Olivo <ashpress`at`win.bright.net> writes:
+>...A BIT OF BACKGROUND...  The
+>Wisconsin lead rush saw communities of lead miners springing up overnight.
+>So eager were these men to dig up the richs of lead (used for many
+>purposes, especially lead bullets, soft castings etc.) that they lived in
+>their diggings, had stores and homes in holes in the ground. ...
+> the beer consisted of maple syrup
+>(sugar?) and honey obtained in trade with friendly indians, and spruce
+>needles as a bittering agent instead of hops. I understand that the
+>beverage was quick to ferment being ready to drink in a month...
+> I must admit I am puzzled by the rapidity at which it was ready
+>to drink. I know honey meads can take over a year to properly mature. How
+>could this brew be ready to drink so soon? 
+
+
+Well, if I lived in a hole in the ground and dug up lead seven days 
+a week, I'd have a much different opinion on "ready to drink" than I 
+do now!
+Sounds nasty to me.
+
+
+******
+I've been using the crystals that others have mentioned
+(Damp-Rid?) in my chest freezer to absorb moisture.
+It works pretty well, but I still get condensation. If I lager, and run
+the freezer around 50 to 60F, I get a lot of condensation and often,
+mold.
+When I have the freezer down to 40 or less, I get much less
+condensation. Makes sense I guess. 
+
+
+Also, my cup of dessicant has a very hard layer on top, as other
+people have reported. I don't get any puddles in the lid, but I get
+puddles in the cup on the hard layer. I pour this off when I think
+about it, but I wonder if there is a better way. I may look out for
+the "dirty" crystals that others have mentioned.
+
+
+Bryan Gros    gros`at`bigfoot.com
+Oakland, CA
+
+
+Organizer, 1999 National Bay Area Brew Off
+http://www.dnai.com/~thor/dboard/babo99.htm
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Nov 1998 13:43:49 -0800 (PST)
+From: Mikey Beck <stilts121`at`yahoo.com>
+Subject: Old Bay Beer
+
+
+My girlfriend asked me today if it was possible to make a beer
+seasoned with Old Bay (that rancid stuff Marylanders go nuts over).  I
+told her it was *possible* but I sure as hell wouldn't drink it.  But
+I told her I'd pitch the idea to the homebrew collective and see what
+you all thought about it.  Personally, I can't see any reason to use
+Old Bay in a beer or how it would complement any given beer's flavors.
+ Any thoughts?
+
+
+cheers,
+mikey.
+BSSC/121
+
+
+
+
+
+
+
+
+_________________________________________________________
+DO YOU YAHOO!?
+Get your free `at`yahoo.com address at http://mail.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Nov 1998 17:56:41 -0600
+From: Tidmarsh Major <tidmarsh`at`mindspring.com>
+Subject: Re: Linguistic history of 'wort'
+
+
+On the pronunciation of wort, Marc Fries suggests a Modern High German
+approach.
+<historical linguistics>
+One thing to remember is that by and large, English did not borrow
+basic brewing terms such as 'mash,' 'malt,' and 'wort' from German. 
+Both languages are members of the Germanic branch of Indo-European,
+and most of our brewing terms trace their roots back to Common
+Germanic, before the Angles and Saxons settled (or invaded, depending
+on your perspective) Britain, so that most German and English cognate
+brewing terms derive from a common source, Germanic *wurtjo-, rather
+than a borrowing from one to the other.  The difference in
+pronunciationi of "w" in High German dialects is a result of the
+second sound shift, described by the famed linguist and fairy-tale
+scholar, Jakob Grimm.  'Wort' derives from Old English 'wyrt' meaning
+root or herb, hence 'wort' an infusion of herbs and malt.
+</historical linguistics>
+Whew, sometimes I can't stop myself.
+
+
+Tidmarsh Major
+Birmingham, Alabama
+
+
+
+
+------------------------------
+
+
+Date: Fri, 13 Nov 1998 17:23:25 -0800
+From: "Timmy Runnette" <parothed`at`napanet.net>
+Subject: Hogshead Tapper
+
+
+Anyone have any experience with the Hogshead Tapper for lagering/dispensing
+homebrew?  Saw it featured in Zymurgy this month and checked out the
+Website.  Does anyone have any other recommendations on customizing a
+refrigerator for lagering and brewing?
+Thanks in advance!
+
+
+Cheers
+
+
+
+
+Timmy
+parothed`at`napanet.net
+par8head`at`usa.net
+ICQ#645265
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 02:15:04 +0000
+From: William Frazier <billfrazier`at`worldnet.att.net>
+Subject: pump/damp rid
+
+
+Dave Schaff asks about a pump to use when racking beer.  I use a peristaltic
+pump that will empty 5 gallon carboys in 3 or 4 minutes.  The nice thing
+about this pump is the only part that contacts the beer is the internal
+surface of the tubing so sterilization and clean-up are quite simple.  You
+can get some info on these pumps from;
+
+
+        Barnant Company
+        1-800-637-3739
+        fax 1-708-381-7053
+
+
+        Ask for Masterflex Pump info  
+
+
+Concerning damp freezer chests or refrigerators, try Oasis which is a
+product used by florists.  Oasis comes in brick size blocks and will absorb
+a lot of water.  When it becomes saturated just remove and let air dry for
+later use.  You can buy Oasis at craft stores or perhaps at your local
+florist shop.
+
+
+        Bill Frazier
+        Briarpatch Brewing
+        Johnson County, Kansas
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Nov 1998 18:18:16 -0800
+From: "J.Kish" <jjkish`at`worldnet.att.net>
+Subject: Home Malting
+
+
+Jeff Renner,
+     That article about home malting by R.C. Dale sure turned me on.
+The only problem is; It's so difficult to obtain good brewer's barley!
+The market should open up so that home brewers can buy bags of
+Harrington or Klages barley, or even six-row barley for experimenting!
+Why don't you lead the way?
+      Joe Kish
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 01:05:18 -0500
+From: "Ludwig's" <dludwig`at`us.hsanet.net>
+Subject: re: pepper experiment, low density foam for lautering 
+
+
+Scott M. said,
+> ...the lauter tun.  Obviously the experiment was a failure, because it
+> didn't seem to convince David of anything, other than possibly I'm a
+> buffoon.
+
+
+Not at all.
+
+
+> The comment that I made earlier was "the only energy potential of any
+> importance to this flow is gravity, and hence, the only possible
+> direction for the gradient of the potential is down."  I don't know
+> why that statement would cause so much arm waving and concern.
+
+
+Because your statement sounds like it considers other dynamics in the
+mash 
+as trivial, which is not the case, IMHO.
+
+
+> As for John's experimental photos.  The way I interpreted those (and I
+> really just glanced), was a uniform downward flow with boundary layers
+> on both walls.  The dye within the boundary layers will move slower..
+
+
+I don't see this as a boundary layer phenomenom in a macro sense. For
+example: why didn't noticable boundary layers form in the multi-manifold
+experiment. There is a grain bed that is totally impeding any boundary
+layer formation (in a classical sense, I guess). There is, of course
+boundary layers forming around every particle in the mash. Whoah! Model
+that. I still stand behind the simple stream tube model which is enough
+to understand the basics of what's going on in the mash. 
+
+
+As an additional thought, though, and since many of us think about this
+stuff for fun. There is a product that is called low density foam, and
+it's used in some military fuel tanks. It is highly porous, as the name
+might suggest. This foam might make a good medium for further
+experiments into lauter efficiency. I think that this stuff might also
+be useable for lautering. Perhaps a 1 inch thick piece or maybe 1/2
+inch, might work pretty good over your false bottom or manifold and
+would be easy to clean, maybe. I don't know what the toxicity of this
+stuff is and whether it is heat resistant or not. If anyone has a line
+on this stuff or if there is a commercial equivalent, let us know.
+
+
+Dave Ludwig 
+Flat Iron Brewery
+SO MD
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 Nov 1998 18:31:21 -0800
+From: "J.Kish" <jjkish`at`worldnet.att.net>
+Subject: Wyeast
+
+
+>problems.  In short, with the new packs you and I pay more but get no
+>real benefits.  Can we convince Wyeast to continue producing the
+smaller
+>packs?  Or is my information wrong regarding Wyeast's plans to phase
+out
+>the smaller packs?  --Chuck in Lawrence, KS
+ .
+What we need to do is convince Wyeast to put out even smaller packs
+than the small ones--Half size---and charge half the price!
+ The only way you could avoid making starters, is when Wyeast puts out
+smack-packs with one cup of culture---They'll never do that!
+      Joe Kish
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 09:53:00 +0300
+From: "Sandy Macmillan" <scotsman`at`ncc.moc.kw>
+Subject: Flip top vs. cap top
+
+
+I have kept beer in flip top for over one year, in fact lost a few bottles
+and only found then when I moved.
+The rubber ring was OK but after opening the bottle I had to replace them,
+they had taken a set and were no longer flexible. Carbonation was retained.
+I now use new rubber rings and bend the wire clip slightly to get a better
+seal.
+
+
+
+
+Sandy Macmillan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 98 08:00:04 PST
+From: "George De Piro" <gdepiro`at`fcc.net>
+Subject: Roggenbier / controlling diacetyl
+
+
+Hi all,
+
+
+Schierlinger Roggenbier, made by a small brewery that was bought out by 
+Thurn
+und Taxis, has not been produced in about 2 years.  If you see it at the 
+store
+berate the shop manager for selling such obviously stale garbage to the
+unsuspecting public.
+
+
+Thurn und Taxis Roggenbier replaced Schierlinger.  If you can find a 
+fresh
+bottle, you will enjoy a beer that is very Weizen (pronounced VI-tsuhn) 
+like,
+with banana and clove notes and a dry, spicy finish.
+
+
+I have made a 60% rye beer with good results, except that the production
+was a disaster.  The lauter set up like a bucket of cement.  I stirred 
+constantly
+to keep the flow going, collected the cloudy runoff and allowed it to 
+settle
+for 4 days in the fridge (I couldn't get to it before 4 days).
+
+
+I siphoned the clear wort off the draff, discovered it was quite sour, 
+and
+finished the batch anyway.  I used the typical Weihenstephan 68
+Weizen yeast.  The beer was outstanding, if I do say so myself.  The 
+sourness
+added a depth that is missing in the commercial examples (Schielinger, 
+at that
+time).  The sourness was much milder in the finshed beer than the 
+refrigerated
+wort.
+
+
+Brewing a Roggenbier with less than 50% rye malt will make a beer that 
+is not
+like the German examples, but it will still be tasty.
+- ------------------------------------------------------
+Dean talks about Wyeast 2308 (Munich lager) and its need for a diacetyl 
+rest.
+He also mentions some beer he made that, to him, was diacetyl-free, but 
+got
+comments to the contrary from a homebrew contest.
+
+
+I have posted quite a bit about testing your young beer for its diacetyl
+potential, and Louis Bonham wrote the test up in a recent Brewing 
+Techniques.
+I'll summarize here again:
+
+
+Yeast make alpha acetolactate (AAL), not diacetyl.  AAL is relatively 
+tasteless.
+AAL oxides to diacetyl (oxidative decarboxylation) over time in beer.  
+Heat and
+oxygen speed this up.  Yeast that have NOT been exposed to oxygen 
+post-pitching
+can and will metabolize diacetyl.
+
+
+If your beer has a lot of AAL it won't taste like diacetyl, but over time
+ it will become
+diacetyl-ridden.  How can you tell if your beer has a lot of AAL?  
+Simple:
+
+
+Take two aliquots (samples) of the young beer.  Put one in a loosley 
+covered
+jar and heat to about 150F (60C) for 20-30 minutes while keeping the 
+other
+sample cool.  Smell and taste both samples.  If the heated sample tastes 
+buttery
+and the cool sample does not, the beer has a lot of AAL and requires a 
+diacetyl
+rest.
+
+
+If both samples are not buttery, you have no AAL to deal with (note:  if 
+this
+beer becomes buttery later on you will have a good idea that the source 
+of
+diacetyl is a pediococcus infection).
+
+
+If both samples are buttery, try a diacetyl rest.
+
+
+A diacetyl rest works because at the higher temperature the AAL gets 
+converted
+to diacetyl and then gets metabolized by the yeast.  If you lager the 
+beer at low
+temperatures diacetyl reduction will occur, but at a much slower rate.
+
+
+Have fun!
+
+
+George de Piro  (Nyack, NY)  "Nyack" rhymes with "kayack" (you know, the 
+boat)
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 14:58:51 +0000
+From: Malcolm Purves <malcolm.purves`at`which.net>
+Subject: Re. flip top vs. cap top
+
+
+Hello, I am new to this list and this is my first go at a post to it,
+so please forgive any mistakes.
+
+
+Victor Farren asked :-
+> Has anyone kept beer in these flip top bottles for a long
+> time (around 1yr or more)?
+
+
+Yes, I have.
+
+
+> Do the grommets do an appreciable job of
+> keeping carbonation
+
+
+Yes, to my surprise, they did !
+
+
+That was the short, quick answer, the longer one is :---
+
+
+I cannot speak for caps, I have never used them.
+My beers dont usually get a chance to remain in bottle very long,
+I seem to have a continuous beer flow crisis :-(  !
+Let me tell you about it :-
+In October 1997 I made two smoked beers, one using German smoked malt
+and the other using Scottish peat smoked malt.
+They were both og. 1035 approx. They both gave a lower extract than
+I usually obtain.
+Bottled in 450ml fliptop "Grolsch" bottles.( most of my brews go into 2
+pint flaggons, but I suspected that these smoked beers would need to be
+drunk in small quantities until my taste buds had done some getting
+used to it. )
+
+
+Well, to cut a long story short, most of them got put away in a cool
+dark corner and were forgoten.
+Just a couple of weeks ago I gave them a try, expecting that such a low
+gravity beer after 1year+1month would now be ready to throw down the
+drain. NO ! Surprise!
+
+
+They both had retained pressure, both still poured with a head ( the
+Scottish had a better head ) and both were still drinkable.
+Well, as drinkable as they ever were :-(
+Sadly the overpowering smoked flavour had not abated or mellowed at all.
+
+
+> I was thinking of giving some away as gifts.
+
+
+That sounds like a nice idea,
+but I am probably a bit of a long from you, sadly !!! <G>
+
+
+Best wishes from SW England,
+happy brewing,
+Malcolm.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 10:16:35 EST
+From: ThomasM923`at`aol.com
+Subject: Roggenbier
+
+
+"Timmons, Frank" <Frank.Timmons`at`alliedsignal.com writes asking about
+Roggenbier.
+
+
+Frank,
+
+
+I read somewhere that a German brewer of Roggenbier uses some kind of pressure
+sparging technique to force the sparge water through the grain bed. The grist
+had a high percentage of rye in it, something like what you suggested (65%) as
+I recall.
+Rye can really gum things up. I would keep the level of rye down to about 25%
+or less and a beta-glucan rest between 104-113 degrees F to break down the
+gums.
+I brew a rye pilsner with ~10% flaked rye and at that level the taste of the
+rye comes through quite well, and with a beta-glucan rest there is no
+noticable increase in sparging time.
+
+
+Thomas Murray
+Maplewood, NJ
+
+
+PS-
+
+
+I've had an German import Roggenbier, unfortunately I can't remember the name
+of it. It seemed like a dark german ale with some banana and clove type
+flavors. Oddly enough, I couldn't find any obvious rye flavor in it.
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 10:27:44 EST
+From: ThomasM923`at`aol.com
+Subject: oxidation during bottling
+
+
+In the Homebrew Digest #2870 Sat 07 November 1998 Eric Fouch said this about
+an oxidation problem:
+"The only thing I can think of is the bottling step. I don't try to minimize
+the little bit of gurgling that takes place when I use my bottling wand.
+Anyway, I wonder how important that little gurgle gurgle is."
+
+
+Eric---
+
+
+That little gurgle-gurgle could be the cause of  your oxidation problem. In
+the past, I have noticed oxidation byproducts in some of the bottles of a
+certain batch but not in others. While I used to try to be careful when I
+started filling, occasionally I would be daydreaming instead of paying
+attention and let the beer splash off the bottom. After a few batches with
+some bottles tasting rough and others tasting fine, I decided that this was
+the source of the oxidation and I started to be lot more careful. 
+If you are using a plastic filler with a valve on the bottom, be very careful.
+If you watch closely, you can see the beer actually jet out of the openings if
+the valve is not open fully. This is definitely not a nice thing to do to your
+beer. I came up with a nice beer friendly gadget to fill bottles with last
+year and I have had good results so far. It is also very simple. I took a
+piece of brass tubing (the hobby store type) that was 3/16" in diameter,
+rigged up a fitting so it would fit on 3/8" vinyl tubing and used it to fill
+like this:
+First, I hold the top of the filler and the end of the hose in my hand and
+bend the tubing over on itself to form a kink. The brass tube is narrow enough
+so the beer stays inside it by surface tension when the tubing is kinked. Then
+I slowly let the kink open to allow the beer to begin flowing ( a very gentle
+flow can be produced this way). Once there is about an inch in the bottom, I
+allow the tubing to open fully.
+I intentionally chose a narrow tube for the filler so that the beer would stay
+put while the hose was kinked. I would recommend trying a  piece of brass
+tubing with a larger inside diameter (I haven't yet) because the flow is a
+little slow. The adapter fitting is easy to make. If anyone is interested,
+I'll gladly provide the details.
+
+
+
+
+Thomas Murray
+Maplewood, NJ
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 07:17:40 -0800
+From: John_E_Schnupp`at`amat.com
+Subject: RE: Site glass
+
+
+>I installed site glass in both of my converted kegs. I used a 3/8ths inch
+>brass 90 degree angle. On one end it's 3/8ths pipe thread, the other end
+is
+>3/8ths inch compression. Drill and tap a hole in the keg for the threaded
+>end of the adapter, wrap the threads with Teflon tape and install into the
+
+
+I did it that way also.
+
+
+
+
+>POLYCARBONATE tubing for the sight glass/tube. The upper end of the tube
+can
+>be anchored with an eye bolt fitted with a rubber grommet.
+>Mine have been in place for a couple years with no problems.
+
+
+Be careful here.  You may want to do a test run be heating water.  The
+first
+time I used mine (hot water tank) the plastic got soft and started to droop
+(I didn't have the top fastened) and it started to leak at the compression
+nut.  It was only water.  I drained the water and installed a piece of
+copper
+tubing as a temporary fix.  My next brew session, I used a small piece of
+aluminium under the fitting  as a heat shield, haven't had a problem since
+
+
+John Schnupp, N3CNL
+Colchester, VT
+95 XLH 1200
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 12:16:20 -0500
+From: David.Harsh`at`uc.edu (David C. Harsh)
+Subject: Stokes flow/law & fluid mechanics
+
+
+Paul Niebergall <pnieb`at`burnsmcd.com> quoted the CRC Handbook
+>"Stokes Law: Gives the rate of fall of a small sphere in a viscous fluid.
+>When a small sphere falls under the action of gravity through a viscous
+><medium, it ultimately aquires a constant velocity."
+>
+>Clearly, this has nothing to do with the flow of a liquid (such as wort)
+>through a porous medium (such as a grain bed).  ...
+>Stokes has nothing to do with the Reynolds number.  Stokes is applied to
+>a fluid that is at rest (not moving).  Reynolds numbers only apply to fluids
+>that are flowing.  I beleive what Scott is trying to define is called "laminar"
+>flow (Reynolds number less than 2000).
+
+
+This is not correct in many cases.
+
+
+1.  Stokes flow applies to very slow (sometimes called "creeping") flow.
+The velocity can either be a moving fluid with a stationary object or a
+moving object.  The only important thing is that the motion is RELATIVE.
+(Remember those bad PSSC physics movies or am I dating myself here?)  In
+the case of a sphere, the characteristic dimension is the diameter and the
+Stokes flow assumption requires Re<<1, typically .1 or less.  This Re has a
+subscript "p" and is called the Particle Reynolds number
+
+
+Stokes law is derived based on the assumptions of stokes flow, but the
+creeping flow assumption is not restricted to being applied to falling
+objects in a fluid, you can use creeping flow to calculate velocity
+profiles in highly viscous flows if they are assigned by a particularly
+sadistic fluid mechanics instructor ;)
+
+
+2.  Laminar flow being below 2000 (or 2100, 2300 +/-) is restricted to flow
+in circular pipes.  For spheres, it must be less than 1; over a flat plate
+less than 10,000.
+
+
+3.  Just to confuse things, the CRC definition of Stokes law neglects that
+all objects falling through a fluid (viscous or not) acquire a terminal
+velocity and depending on the value of Rep, different methods can be used
+to calculate the terminal velocity.
+{fluid mechanics lecture mode off}
+
+
+FWIW, I thought Scott was comparing the flow regime on a qualitative basis
+and not claiming strict applicability of Stoke's flow for this case.  I
+think his argument was valid.
+
+
+Dave
+
+
+                      Dave Harsh
+       Bloatarian Brewing League, Cincinnati, OH
+                         O-
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 13:27:48 -0500
+From: Mike Marshburn <mike48`at`erols.com>
+Subject: Alt recipe
+
+
+Hello neighbors
+After reading all the posts about Alt,  without ever tasting one, I've
+decided to brew one.
+Here is the recipe I've settled on:
+5lbs DWC Munich dark (only one available)
+4lbs Canadien two row
+Yeast Labs A06 Dusseldorf Ale 1/2 gal starter
+2oz Liberty 3.4AA (1.5oz 60 min .5oz 5 min) I also have Ultra at 2.3AA,
+but no German hops
+90min mash 153-150F. Boil 90 mins. Seperate 1 gal of first runnings and
+boil down to 1qt and add to main boil at knock out for malty flavor. I
+should end up at 1.045-48, 33IBU's  and 17SRM for 5.5gal into the
+fermenter. Any comments or suggestions welcomed.
+
+
+Mike M, Virginia Beach, Va
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 15:12:05 -0700
+From: Ken Schwartz <kenbob`at`elp.rr.com>
+Subject: Pronunciation
+
+
+The definitive pronunciation guide:
+
+
+Trub - "gunk"
+Wort - "stik-ee brown yeest fud"
+Vorlauf - "run-awf"
+Sparge - "rins"
+Spargate - "rinsd stuf"
+Diacetyl - "but-tree flay-ver"
+Decoction - "big mes"
+ 
+*****
+
+
+Ken Schwartz
+El Paso, TX
+kenbob`at`elp.rr.com
+http://home.elp.rr.com/brewbeer
+
+
+
+
+------------------------------
+
+
+Date: Sat, 14 Nov 1998 21:20:13 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Who am I?
+
+
+Shane <scook`at`infoserve.net> asked
+
+
+>Who is Jeff Renner and how did he get selected to be the milepost from
+>which distances are measured? Also, what happens when he travels, does
+>the space time continuum get shifted?
+
+
+I am the all powerful OZ! (pay no attention to the man behind the curtain).
+
+
+I guess since you've asked twice and no one else answered, we'll have to
+let you on the secret.  I'm a long time brewer (first brew 1973) and HBD
+resident.  Every six months or so I post a note asking folks to include
+there location in their posts.  It  might help answer questions (like,
+what's wrong with my water, or where can I get ingredient X), you might
+find out you have a neighbor who brews, and it just helps foster community.
+One time after such a request a couple of years ago, my good friend Dan
+McConnell (of YeastLab and Yeast Culture Kit Co) posted an answer to
+someone's question with the signature, "Dan McConnell, about three miles
+southeast of Jeff Renner."  Then Spencer Thomas (Spencer's Beer Page)
+posted with a signature "about five miles southeast of Jeff Renner and two
+miles from Dan."  Then we were off to the races.  We've had folks post as
+far away as Tasmania, Austria, South Africa and points between include
+distances to me.  Some have specified mileage, KM, altitude, latitude and
+longitude, etc.  Some have plugged in locations in GPS software and have
+come up what they thought was precise distances, but did they know where I
+was?
+
+
+So, keep posting your location, everyone.  Distance from the center of the
+hombrewing universe is optional.  As for me, I'm having an out of body
+experience, so I'm presently some distance from myself.
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 15 Nov 1998 08:01:52 -0500
+From: "Fred L. Johnson" <FLJohnson`at`worldnet.att.net>
+Subject: Hops Toxiciy in Dogs
+
+
+Fred Nolke asked about the toxicity of hops in dogs.
+
+
+Lots of good info can be found at the URL below.  (Pretty scary stuff!)
+
+
+www.shopthenet.net/greyhound/nl/june1996vol2iss2/hops.html
+- --
+Fred L. Johnson
+Apex, North Carolina
+USA
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 15 Nov 1998 08:05:31 EST
+From: ThomasM923`at`aol.com
+Subject: Chlorine dioxide
+
+
+Does anyone know where I can get Oxine (trade name) or chlorine dioxide for
+sanitizing? I'm looking for a quantity of under a gallon. Five Star has it but
+they will not sell it to homebrewers.
+
+
+Thomas Murray
+Maplewood, NJ
+
+
+
+
+------------------------------
+
+
+Date: Sun, 15 Nov 1998 19:01:43 -0500
+From: "Edmund J. Busch" <Brewmaster`at`compuserve.com>
+Subject: Change of Address
+
+
+Ed Busch is changing his e-mail address. Effective immediately, please 
+send
+e-mail to:
+
+
+Brewmaster`at`netscape.net.
+
+
+The old address will be good until 11/19. After that, please contact me 
+at
+the new address.
+
+
+Thanks,
+Ed
+
+
+------------------------------
+
+
+Date: Sun, 15 Nov 1998 18:32:44 -0600
+From: "Jan Brown southern U.S.A." <jbrown58`at`bellsouth.net>
+Subject: Yet another newbie question
+
+
+I have had tons of help from you guys but now I'm stumped. When we
+discussed my messed up ale that ended up being a barley wine or strong
+ale( I used champage yeast, my stupid) I was told that it could take a
+long time for this stuff to finish. So why are we at 1 bubble every
+18-20 seconds after only 6 days????? What IS finished???? I took a
+sample and the s.g. is 1.022. Its even beginning to clear. Should I rack
+it to a secondary or let it sit or what.
+jan
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2876, 11/16/98
+*************************************
+-------

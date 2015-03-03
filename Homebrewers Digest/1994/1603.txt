@@ -1,0 +1,1344 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Tue Dec 13 03:30:09 1994
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["47042" "Tue" "13" "December" "1994" "01:01:09" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1079" "Homebrew Digest #1603 (December 13, 1994)" "^From:" nil nil "12" nil nil nil nil]
+        nil)
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA00141
+  (5.65b/IDA-1.4.3 for spencer`at`hendrix.itn.med.umich.edu); Tue, 13 Dec 94 03:30:02 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA29482; Tue, 13 Dec 1994 01:29:34 -0700
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA01640; Tue, 13 Dec 1994 01:01:09 -0700
+Message-Id: <9412130801.AA01640`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1603 (December 13, 1994)
+Date: Tue, 13 Dec 1994 01:01:09 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1603                             Tue 13 December 1994
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  CIAC Notes 94-04: "Good Times" virus hoax (brian)
+  glugging carboys (rhawkins)
+  Wyeast Strains (Rich Larsen)
+  Cheap temperature control (Bob Chiz)
+  RE:ferment temp control (Jim Busch)
+  Top & Bottom Yeast (Rob Reed)
+  Ring necks, Improved air quality (Chris Cooper)
+  FOOP and Fermenter Geometry (Bob Chiz)
+   (Gabriel M Guzman)
+  Twas a While Before Christmas ("Palmer.John")
+  diacetyl rest ques. (Dan Sherman)
+  subscription request (HRWAGNER)
+  G.Heileman joins the fray (GARY SINK 206-553-4687)
+  Stabile Fermentation Temp / Don't Try This At Home!!! (Gary Bell)
+   (Julie A Espy)
+  Water Heaters, Protein/Fermenter drivel (todd boyce)
+  Coriander / Hops???? (GRMarkel)
+  Re: winter yeasts (Peter Mumford)
+  Fermentap / pH meter / value of FOOP thread (Jay Lonner)
+  Aeration and Alcohol (Anthony Meehan)
+  Wort Guard & Oxygen Free Bottling (Phil Brushaber)
+  replies to my hot-side aeration question ("Lee A. Kirkpatrick"                       )
+  two more questions ("Lee A. Kirkpatrick"                       )
+  strainers (Michael Minter)
+  Fermentation temperature, Fermentable added to secondary (Philip Gravel)
+  Chief Petty Bottlewasher ("Rebecca S. Myers")
+  Converting recipes (MYETTE)
+  Apologies (Kerry Drake)
+  Tannins from hi pH sparge ("NAME SEAN O'KEEFE, IFAS FOOD SCIENCE")
+  Raspberry Wheat beer Recipe (Ian Russell Ollmann)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+FAQs, archives and other files are available via anonymous ftp from 
+  sierra.stanford.edu. (Those without ftp access may retrieve files via 
+  mail from listserv`at`sierra.stanford.edu.  Send HELP as the body of a 
+  message to that address to receive listserver instructions.) 
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 09 Dec 94 13:38:32 -0500
+From: brian`at`kokom.mit.edu
+Subject: CIAC Notes 94-04: "Good Times" virus hoax
+
+
+
+
+[For further information contact ciac`at`llnl.gov]
+
+
+             U.S. DOE's Computer Incident Advisory Capability
+           ___  __ __    _     ___           __  __ __   __   __
+          /       |     /_\   /       |\ |  /  \   |    |_   /_
+          \___  __|__  /   \  \___    | \|  \__/   |    |__  __/
+
+
+Number 94-04                                                December 6, 1994
+
+
+ ------------------- A - T - T - E - N - T - I - O - N -------------------
+|  CIAC is available 24-hours a day via its two skypage numbers.  To use  |
+|  this service, dial 1-800-759-7243.  The PIN numbers are: 8550070 (for  |
+|  the CIAC duty person) and 8550074 (for the CIAC manager).  Please keep |
+|  these numbers handy.                                                   |
+ -------------------------------------------------------------------------
+
+
+Welcome to the fourth issue of CIAC Notes!  This is a special edition to
+clear up recent reports of a "good times" virus-hoax.  Let us know if you
+have topics you would like addressed or have feedback on what is useful and
+what is not.  Please contact the editor, Allan L. Van Lehn, CIAC,
+510-422-8193 or send E-mail to ciac`at`llnl.gov. 
+
+
+  $-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+  $ Reference to any specific commercial product does not necessarily   $
+  $ constitute or imply its endorsement, recommendation or favoring by  $
+  $ CIAC, the University of California, or the United States Government.$
+  $-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$-$
+
+
+THE "Good Times" VIRUS IS AN URBAN LEGEND
+
+
+In the early part of December, CIAC started to receive information requests
+about a supposed "virus" which could be contracted via America OnLine, simply
+by reading a message.  The following is the message that CIAC received: 
+
+
+ ---------------------------------------------------------------------------
+| Here is some important information. Beware of a file called Goodtimes.    |
+|                                                                           |
+|  Happy Chanukah everyone, and be careful out there. There is a virus on   |
+| America Online being sent by E-Mail.  If you get anything called "Good    |
+| Times", DON'T read it or download it.  It is a virus that will erase your |
+| hard drive.  Forward this to all your friends.  It may help them a lot.   |
+ ---------------------------------------------------------------------------
+
+
+THIS IS A HOAX.  Upon investigation, CIAC has determined that this message
+originated from both a user of America Online and a student at a university
+at approximately the same time, and it was meant to be a hoax. 
+
+
+CIAC has also seen other variations of this hoax, the main one is that any
+electronic mail message with the subject line of "xxx-1" will infect your
+computer. 
+
+
+This rumor has been spreading very widely.  This spread is due mainly to the
+fact that many people have seen a message with "Good Times" in the header. 
+They delete the message without reading it, thus believing that they have
+saved themselves from being attacked. These first-hand reports give a false
+sense of credibility to the alert message. 
+
+
+There has been one confirmation of a person who received a message with
+"xxx-1" in the header, but an empty message body.  Then, (in a panic, because
+he had heard the alert), he checked his PC for viruses (the first time he
+checked his machine in months) and found a pre-existing virus on his machine.
+ He incorrectly came to the conclusion that the E-mail message gave him the
+virus (this particular virus could NOT POSSIBLY have spread via an E-mail
+message).  This person then spread his alert. 
+
+
+As of this date, there are no known viruses which can infect merely through
+reading a mail message.  For a virus to spread some program must be executed.
+Reading a mail message does not execute the mail message.  Yes, Trojans have
+been found as executable attachments to mail messages, the most notorious
+being the IBM VM Christmas Card Trojan of 1987, also the TERM MODULE Worm
+(reference CIAC Bulletin B-7) and the GAME2 MODULE Worm (CIAC Bulletin B-12).
+ But this is not the case for this particular "virus" alert. 
+
+
+If you encounter this message being distributed on any mailing lists, simply
+ignore it or send a follow-up message stating that this is a false rumor. 
+
+
+Karyn Pichnarczyk
+CIAC Team
+ciac`at`llnl.gov
+
+
+
+
+- -------------------------------
+Contacting CIAC
+
+
+If you require additional assistance or wish to report a vulnerability, call
+CIAC at 510-422-8193, fax messages to 510-423-8002 or send E-mail to
+ciac`at`llnl.gov.  For emergencies and off-hour assistance, call 1-800-SKY-PAGE
+(759-7243) and enter PIN number 8550070 (primary) or 8550074 (secondary). 
+The CIAC Duty Officer, a rotating responsibility, carries the primary
+skypager. The Project Leader carries the secondary skypager.  If you are
+unable to contact CIAC via phone, please use the skypage system. 
+
+
+- -------------------------------
+This document was prepared as an account of work sponsored by an agency of
+the United States Government.  Neither the United States Government nor the
+University of California nor any of their employees, makes any warranty,
+express or implied, or assumes any legal liability or responsibility for the
+accuracy, completeness, or usefulness of any information, apparatus, product,
+or process disclosed, or represents that its use would not infringe privately
+owned rights.  Reference herein to any specific commercial products, process,
+or service by trade name, trademark, manufacturer, or otherwise, does not
+necessarily constitute or imply its endorsement, recommendation or favoring
+by the United States Government or the University of California.  The views
+and opinions of authors expressed herein do not necessarily state or reflect
+those of the United States Government or the University of California, and
+shall not be used for advertising or product endorsement purposes. 
+
+
+- -------------------------------
+End of CIAC Notes Number 94-04  94_12_06
+****************************************
+
+
+- ----
+Brian McAllister                             Internet: mcallister`at`mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 13:05:50 -0600
+From: rhawkins`at`iastate.edu
+Subject: glugging carboys
+
+
+
+
+
+
+The glug of a carboy can also be eliminated with your racking tube--just
+put your thumb over the end as you insert it into the carboy, and
+turn carboy upside down, making sure that the tip of the tube is in the
+airspace.  
+
+
+- -- 
+R E HAWKINS
+rhawkins`at`iastate.edu
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 13:57:33 -0600 (CST)
+From: Rich Larsen <rlarsen`at`free.org>
+Subject: Wyeast Strains
+
+
+I have noticed that in the past folks here post that they used
+wyeast 2565 or 1056 or 2007 or some such number.
+
+
+For the beginners out there, these numbers refer to the WYEAST
+strain number.  Sometimes it can be pretty confusing as to
+which yeast was actually used.  I know I can't remember all the
+numbers myself.
+
+
+SO... for the numerically challenged I offer the following list.
+
+
+ALE                        Lager             Advanced
+
+
+1007 German                2007 Pilsen (A/B) 1968 London ESB (Fullers)
+1056 American (Chico)      2042 Danish       1728 Scottish (Theakston)
+1084 Irish (Guinness)      2206 Bavarian     2565 Kolsch
+1098 British (Whitbread?)  2308 Munich       2278 Czech Pils (Pils Urquell)
+1338 European              2035 American     3068 Weinhenstephan wheat
+1028 London (Youngs)       2124 Bohemian     3944 Belgian Abbey (Chimay)
+3056 Bavarian Wheat        2112 California   3944 Belgian White (Hoogarden)
+                                  (Anchor)   3278 B. Brett. Bruxellensis
+
+
+The comments in the parenthesis are what I had heard to be the sources of
+some of the strains.  If anyone else would like to add/correct my assumtions
+please do!
+
+
+=> Rich  (rlarsen`at`squeaky.free.org)
+________________________________________________________________________
+Rich Larsen, Midlothian, IL * Also on HomeBrew University (708) 705-7263
+    "I never drink... wine"  Bela Lugosi as Dracula
+________________________________________________________________________
+
+
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 94 12:42:22 MST
+From: chiz`at`atmel.com (Bob Chiz)
+Subject: Cheap temperature control
+
+
+
+
+dweller`at`GVSU.EDU (RONALD DWELLE) asks about cheap ways to control
+fermentation temp.  One suggestion that I have heard and plan to use on
+my next batch is to put the carboy in a larger bucket (I'm using my old
+seven gallon plastic fermenter) filled with water and use an aquarium
+heater to maintain the temperature of this water.
+
+
+Bob Chizmadia             chiz`at`atmel.com
+Colorado Springs, CO
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 15:22:02 -0500 (EST)
+From: Jim Busch <busch`at`daacdev1.stx.com>
+Subject: RE:ferment temp control
+
+
+Ron asks:
+
+
+<Any suggestions for a super cheapo temp controller
+
+
+Put the carboy in a plastic bucket (the fermenter type works
+well), add some water to this, and bolt a $10 aquarium heater
+to the side.  Be careful with the temp setting, keep it around 60F.
+Also be careful the heater wont melt the bucket sides (or use a 
+metal container).
+
+
+Jim Busch
+Colesville, Md
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 15:43:08 -0500 (EST)
+From: Rob Reed <rhreed`at`icdc.delcoelect.com>
+Subject: Top & Bottom Yeast
+
+
+ "pratte" <PRATTE`at`GG.csc.peachnet.edu> writes:
+
+
+> 
+> 1)  Benard convection occurs when you have HEATING on the bottom and 
+> COOLING on top (not on the sides).  If I use top-fermenting yeast, 
+> then the heat that is being produced in my tank should be on top.  
+> This tends to cut off any convection.  By cooling the sides in a long 
+> vertical slot, I can insure that there is ALWAYS convection in the 
+> tank as long as there is a temperature difference between the sides 
+> of the wall and the body of the fluid (i.e. heat is being produced by 
+> the yeast).
+> 
+> 2)  If I use bottom-fermenting yeast, then the heat is produced on the 
+> bottom.  By cooling on top, I could create Benard cells. 
+
+
+Correct me if I'm wrong, but isn't the classification of yeast as 'top
+fermenting' or 'bottom fermenting' a reference to its tendency to
+*floculate* to the top of the fermenting vessel or the bottom of the
+vessel, respectively?  With both types of yeast, yeast are active
+throughout the fermenting beer.  While this doesn't rule out the 
+existence of a temperature gradient in the fermentor, I feel it is a
+bit of an oversimplication to suggest that top yeasts ferment only
+at the surface of the beer, and bottom yeasts ferment only on the
+bottom of the vessel.
+
+
+
+
+ -Rob Reed
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 16:53:09 -0500
+From: Chris Cooper <ccooper`at`a2607cc.msr.hp.com>
+Subject: Ring necks, Improved air quality
+
+
+   While in pheasants it's pleasant,
+   In home brewed it's rude!
+
+
+Well I think I'm becoming superstious, on batch number "13" I seem to have
+some type of infection?  There is a very slight ring around the bottle neck
+at the liquid level made of very small particles.  This was an extract
+pale ale made with  North Western Amber LME, 1# crystal, .5# toasted barley
+The secondary was dry-hopped (hop plug) and had 1/4 cup of oak chips 
+(oven cured 200F for 30 min.).  I tried a bottle 10 days and 20 days after
+bottling, aroma and carbonation are fine, the taste is ok but slightly bitter
+and tart (not bad but definitely off compared to my other pale ales).
+My question is what have I hatched here and will time improve it or should I 
+just pass this stuff off on my budies that think Buttwiper is good beer
+(Just kidding I want my friends to appreciate good beer not bilge water).
+I have searched the last 500 HBD's for "ring neck" references and while most
+suggest this as a sympton of bacterial infection there have been many
+differing opinions and explanations.  I know sanitation is the obvious area
+for examination but I use B-brite and bleach liberally and think I have
+it covered.  Your comments and suggestions are welcomed. 
+
+
+   Tis the Season  
+   of Nogs and Grogs
+   and Brews and Cru's
+
+
+On a lighter note I finally brewed my holiday beer (a spiced ale with
+coriander, ginger, cinnamon, orange zest, & cloves) and when my wife
+returned from a shopping trip instead of the normal amount of verbal 
+abuse I receive about air quality she really liked the aroma coming
+from the brewery (she calls it the kitchen, but what's in a name). 
+If you haven't tried a spice beer yet get going the house really
+smells like Christmas now, bye for now I've got to go deck the 
+halls with boughs of Hops! (Never did like Holly that much,
+thorns, poison berries, you can't make beer out of it)
+
+
+Chris Cooper , Commerce Michigan    --> Where ever you go <--
+ccooper`at`a2607.cc.msr.hp.com         --> There you are     <--
+
+
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 94 15:11:25 MST
+From: chiz`at`atmel.com (Bob Chiz)
+Subject: FOOP and Fermenter Geometry
+
+
+
+
+Risking my lurker status of a year and a half, 
+
+
+In HBD #1600, Danny Owen writes:
+
+
+> A third issue that I would like to (briefly) address is the nature of 
+> some of the discussions on this publication. When I first found out about 
+>the HBD I was very excited. I had found an excellent resource for homebrewers.
+>I could ask and answer qwuestions and exchange USEFUL information about the 
+>art/science of homebrewing with people all over the world! After spending 
+>quite a bit of time reading various post for about the last year I can 
+>honestly say that I am quite disappointed with this forum. The whole 
+>discussion about "protien denaturing and re-naturing" is one of the most 
+>absurd discussions I have ever heard. I have shared this resource with the 
+>brewmaster of the local micro and his only comment about it was "these people
+>obviously don't spend any time brewing. They talk too much to have time to 
+>brew anything." I must agree with his sentiment. I believe that this could be 
+>a much better forum if we had more talk about what/when somebody brewed than 
+>"pretien re-naturing" (which is the most useless topic I could imagine). If we 
+>had more reicpies and more talk about history of beer and brewing
+>techniques and the like then this would indeed be the ultimate forum for 
+>discussion about beer that I could imagine.
+
+
+Another post a few digests ago stated basically the same thing.  Both the 
+FOOP discussion and the fermenter geometry discussion have given some depth
+to this digest that has been lacking for a long time.  I am sure there are
+alot of brewer's reading this digest like myself, accomplished all grain
+( or extract ) brewer's who may not contribute frequently because when there 
+is a beginner question, an advanced brewer who posts more frequently will 
+answer. But we are not knowledgable enough to join in the conversation of FOOP
+or fermenter geometry.  To people like me, this is where the value of the HBD
+lies.  
+
+
+As to the value of the protein denaturing/renaturing, to people who keg and
+force carbonate, such as myself, discussion like this holds a lot of merit.
+For those people who are considering extending there brew length from 5 to
+10 or 15 gallons, fermenter geometry is important to consider for what shape
+fermenter to build or buy.
+
+
+Personally, I skip over recipes in the digest.  I would much rather see a 
+discussion of affects of ingredients, such as identical grain bills/varying
+yeast discussions that have occurred in the past.  I'm not impressed with 
+"here's my recipe and I like it" posts.
+
+
+Remember, this is the homeBREW digest, not a beer lover's digest.  Anything,
+even complex microbiology and physics, that pertain to any aspect of the
+beer making process, should be fair game for discussion.
+
+
+Sorry to ramble, I've stayed out of most of "content of the digest 
+discussions", but some useful info for advanced brewers is starting to show
+up more frequently and I don't want to see it disappear.
+
+
+Bob Chizmadia               chiz`at`atmel.com
+Colorado Springs, CO
+
+
+
+
+------------------------------
+
+
+Date:        Fri, 09 Dec 94 15:37:38 MST
+From: Gabriel M Guzman <ICDI%UTEP.bitnet`at`utepvm.utep.edu>
+Subject: 
+
+
+Hello,
+  My name's Gabe Guzman and I recently saw your address in a book of
+mine... I am a fan of homebrewing and would like to become a member
+of your mailing list... thank you for your time.
+                                          G.G.
+
+
+------------------------------
+
+
+Date: 9 Dec 1994 14:38:58 U
+From: "Palmer.John" <palmer`at`ssdgwy.mdc.com>
+Subject: Twas a While Before Christmas
+
+
+Twas a few weeks before Christmas and all around the house, not an airlock was
+bubbling, in spite of myself.  My Vienna was lagering in the refrigerator out
+there, with hopes that a truly fine beer, I soon could share.
+
+
+The Airstat was useless, 32F couldn't be set, so I turned the Fridge to Low, to
+see what I would get.  On Monday it was 40, On Tuesday lower yet, On Wednesday
+morning I tweaked it, seemed like a good bet.
+
+
+Later that day when I walked out to the shed, my nose gave me pause, I was
+filled with dread.  In through the door I hurried and dashed, when I tripped on
+the stoop and fell with a crash.  Everything looked ordinary, well what do you
+know, but just in case, I opened the fridge slow.
+
+
+When what to my wondering eyes should appear, My carboy had FROZE, I had made
+Ice beer!  My first thought was tragic, I was worried a bit, I sat there and
+pondered, then muttered, "Aw Sh**!"
+
+
+More rapid than eagles, my curses they came, and I gestured and shouted and
+called the fridge bad names. "You Basturd! How could you!  You are surely to
+blame!  You're worthless, You're scrap metal, not worth the electric bills I'm
+paying!  To the end of the driveway, with one little call, They will haul you
+away, haul away, haul away all!"
+
+
+Unlike dry leaves that before the hurricane fly, when brewers meet with an
+obstacle, they'll give it another try.  So back to the house, wondering what to
+do, five gallons of frozen beer, a frozen airlock too.  And then in a
+twinkling, I felt like a doof, the carboy wasn't broken, the beer would
+probably pull through.
+
+
+I returned to the shed, after hurrying around gathering cleaning supplies,
+towels, whatever could be found.  I changed my clothes, having come home from
+work, if I were to stain them, my wife would go berzerk.  I was loaded with
+paper towels, I knew just what to do, I had Iodophor-ed water and a heating pad
+too.  
+
+
+The carboy, how it twinkled!  I knew to be wary, the bottom wasn't frozen but
+the ice on top was scary!  That bastard refridge, it had laid me low, trying to
+kill my beer under a layer of snow.  I cleaned off the top and washed off the
+sides, picked up a block of ice and threw it outside.  I couldn't find the
+airlock, it was under a shelf, and I laughed when I saw it, in spite of myself.
+ 
+
+
+The work of a half hour out there in the shed, soon gave me to know, I had
+nothing to dread.  The heating pad was working, the ice fell back in, I
+re-sanitized the airlock, I knew where it had been.  Not an Eisbock, but a
+Vienna I chose, it was the end of the crisis of the lager that froze.
+
+
+I sprang to my feet, to my wife gave a whistle, and we went off to bed under
+the down comforter to wrestle.  But the fridge heard me exclaim as I walked out
+of sight, "Try that again, you bastard, and you'll be recycled all right!"
+
+
+John J. Palmer - Metallurgist for MDA-SSD M&P
+palmer`at`ssdgwy.mdc.com  Huntington Beach, California
+          *Brewing is Fun*
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 14:18:17 -0800 (PST)
+From: dsherman`at`sdcc3.UCSD.EDU (Dan Sherman)
+Subject: diacetyl rest ques.
+
+
+I was scanning through some recipes in the Cat's Meow 3 on the www,
+and saw a reference to a "diacetyl rest" in one of the recipes
+(sorry, I forget which one).  The author of the recipe mentioned a
+24 hour diacetyl rest, after lagering, before bottling.
+
+
+My question:  what exactly is a diacetyl rest?
+
+
+Please correct me if I'm wrong, but I believe that diacetyl is most
+often produced when wort is fermented at temperatures which are too
+high (I imagine this is yeast strain dependent).
+
+
+I'm planning my first lager & have the starter going at 48 F, which
+will be the same temp. as my primary fermentation.  Is a diacetyl
+rest necessary if my fermenting wort never gets above 50 F (using
+Wyeast Bavarian Lager #2206)?
+
+
+TIA
+
+
+Dan Sherman
+San Diego, CA
+dsherman`at`ucsd.edu
+
+
+------------------------------
+
+
+Date: Fri, 09 Dec 1994 19:46:05 -0500 (EST)
+From: HRWAGNER`at`delphi.com
+Subject: subscription request
+
+
+SUB HOMEBREW Harry Wagner
+
+
+------------------------------
+
+
+Date: Fri, 09 Dec 1994 19:26:00 -0500 (EST)
+From: GARY SINK 206-553-4687 <SINK.GARY`at`epamail.epa.gov>
+Subject: G.Heileman joins the fray
+
+
+
+
+          The Seattle P-I reports that G. Heileman Brewing (Rainier, Old 
+          Style, Lone Star Beer) -plans to introduce a new line of beers 
+          under the "Yakima" brand aimed at drinkers who might otherwise 
+          defect to imports or microbrews.  They may introduce as many as 
+          30 new beers in 1995...blah blah blah..."As for the strategy of a 
+          major beermaker introducing so many speciality brews, the 
+          outspoken (Bert) Grant said Heileman is 'flailing around... 
+          They're hoping one will take off.'" 
+          
+          Hmmm, craft brewing, 10,000 bbl at a time.
+          
+          GSINK
+          sink.gary`at`epamail.epa.gov
+
+
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 17:01:08 -0800
+From: gbell`at`ix.netcom.com (Gary Bell)
+Subject: Stabile Fermentation Temp / Don't Try This At Home!!!
+
+
+Ronald Dwelle (dweller`at`GVSU.EDU) wrote:
+
+
+>It's winter and cooling down in my brew space. I basically cannot 
+>easily control the temperature of my wort during ferment and tend to 
+>have anything from 50-65 F during a two-week stint. Last winter, I 
+> tried the following yeasts [snip]
+>     
+>Any suggestions short of investing in some sort of wort warmer/cooler?
+>     
+>Any suggestions for a super cheapo temp controller (I use 5-gallon 
+>carboys, mostly).
+
+
+The easiest way is to buy a 32 gallon plastic garbage pail, put your 
+fermenter in it, and fill it to the level of the wort with water. I add a 
+little iodophor to keep it algae- and mold-free. The high heat capacity of 
+the water keeps your brew temperature *very* stable. This fall the 
+temperature of my brew porch fluctuated from 55 - 75 F, but the water baths 
+kept my fermentations right on at 65 F. The lids help to keep dust, dogs, 
+and other villains out of your brew. I bought two Rubbermaid trash cans on 
+wheels for about $10 each - it's nice to be able to move them around without 
+dislocating your spine! :-)
+
+
+*****
+
+
+On another note I had a most disagreeable experience last week. I woke up in 
+the wee hours to head off to an early business meeting last Friday and 
+groped into my pocket for my contact lens "wetting solution".  
+Aaaaarrrggghh! It was hop oil! Two hours in emergency under an eye bath 
+added to the experience. It's an odd catch-22 that you can't see what you're 
+putting into your eyes until you put in eye drops. I'm wiser now, and 
+probably no worse for wear, but the alcohol and pH 5 of the drops definitely 
+did a number on my mucous membranes for a few days. ;-( [actually it was the 
+left eye]. Fortunately this incident has not dampened my enthusiasm for 
+lupulin.
+
+
+
+
+Cheers,
+
+
+G.
+
+
+- -- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Gary Bell                   "Quis dolor cui dolium?"
+Lake Elsinore, CA                
+(909) 674-3637 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 17:32:41 -0800 (PST)
+From: Julie A Espy <jespy`at`tuba.aix.calpoly.edu>
+Subject: 
+
+
+
+
+set homebrew`at`hpfcmi.fc.hp.com nomail
+
+
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 17:54:52 -0700 (MST)
+From: todd boyce <tboyce`at`bohemia.metronet.org>
+Subject: Water Heaters, Protein/Fermenter drivel
+
+
+        Thanks to the two people whom e-mailed me suggestions on
+converting the heating element on my leaking water heater to more suitible
+purposes. The guy whom wanted info forwarded, it bounced.
+        The conversion is accomplished with a 10 dollar or less part that
+can be obtained at a plumbing store, or if your buying new heater they are
+shipped with both orifices, so just ask the guy whom is installing the new
+unit for the other set(propane). Break out the power tools and saw in half or
+whatever, thats about it. Oh and put that 70 bucks that you saved on a king
+kooker to better uses. I'm going to try it. This time next year I'll
+repost the results.
+        I have to mention that I support D. Owens views on the recent
+discussions on molecular structures of wort proteins. Post it to
+scientific brewers digest or some such other ego trip place. Yes I do scroll
+past
+those posts. I can remember watching in amazement as my Weissen yeastys
+chased each other around in chaotic circles, gorging on fermentables in a
+5 gallon carboy. How's that for vessel convection? O.K. ?
+
+
+Todd Boyce
+tboyce`at`bohemia.metronet.org
+        
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 10 Dec 1994 00:20:55 -0500
+From: GRMarkel`at`aol.com
+Subject: Coriander / Hops????
+
+
+c:\hbd.txt
+
+
+------------------------------
+
+
+Date: Fri, 9 Dec 1994 22:04:42 -0800 (PST)
+From: Peter Mumford <pmumford`at`seanet.com>
+Subject: Re: winter yeasts
+
+
+greetings brewers!
+
+
+d weller writes about problems with cold fermentation with ale yeasts in 
+winter.  there are various easy solutions to this problem.  the first 
+thing to do is insulate the carboy - a foam camping mattress is useful.  
+if that doesnt do it, try putting the carboy in a cabinet with a 
+lightbulb.  i've found a fifteen watt bulb will keep my carboy between 67 
+and 70 degrees.
+
+
+cheers, peter mumford
+
+
+------------------------------
+
+
+Date: Fri, 09 Dec 1994 23:57:20 -0800 (PST)
+From: Jay Lonner <8635660`at`NESSIE.CC.WWU.EDU>
+Subject: Fermentap / pH meter / value of FOOP thread
+
+
+Brewers,
+
+
+I have a Fermentap and used it for the first time on an all-grain oatmeal stout
+I brewed on 12/3.  At this point I'm not happy with the device but I'm going to
+try it on a few more batches before I give up on it completely.
+
+
+I bought the Fermentap as a weapon to use in the Trub Wars.  I get lots of trub
+in my fermenter and it really bugs me; I figured that the Fermentap would be
+ideal for getting rid of the stuff with a minimum of hassle.  Unfortunately
+this has not been the case with my current batch.  I have found that the trub
+tends to adhere to the sides and neck of the inverted carboy, making it
+difficult to get rid of in a concentrated form.  I have lost over a gallon of
+beer in attempting to drain off the trub, and I still have a significant
+residue.
+
+
+I have also noticed some leaking around the valve assembly (maybe a
+half-teaspoon a day) which bothers me primarily because it's a sanitation
+hazard.  I was also annoyed to find that the Fermentap does NOT work on 6.5
+gallon carboys, as advertised.  The valve assembly does not fit tightly into
+the neck of the larger carboy.  One of the main reasons I opted to buy a
+Fermentap as opposed to a BrewCap was the ability to use a larger carboy as a
+fermenter (I don't like to use the "blow-off" system).  (I should also note
+that another strike against the BrewCap was the fact that it took ~6 months to
+hear back from BrewCo after sending them my dollar.)
+
+
+So, while I'll be trying a few more batches with the Fermentap, at this point I
+wish I had bought another 6.5 gallon carboy with the $30.00.
+
+
+Abrupt change of thought:  I just ordered a digital pH meter that may appeal to
+other gadget-heads.  It's called the pHTestr 3, and it's manufactured by Oakton
+(a trademark of Cole Parmer Instruments).  It features automatic temperature
+compensation up to 122 F and multipoint calibration.  Resolution is +/- 0.01
+pH; accuracy is +/- 0.02 pH (+/- 0.05 pH at the extremes in temperature range). 
+It's a little pricey at $89.50 but I really wanted a unit with automatic
+temperature compensation.  I ordered it through the lab I work for from
+Sigma-Aldrich, phone number 800-325-3010.  The catalog number of the unit is
+Z25,313-8.  I don't know if Sigma-Aldrich will sell to individuals (actually
+I'm pretty sure they won't) but the resourceful among you may have ways of
+getting around that.
+
+
+Lastly, I would like to say that I have found the recent FOOP discussion to be
+very interesting, unlike other some other subscribers.  I am interested in the
+science of brewing more than the art of brewing, and discussions like these are
+much more welcome than requests for brewpubs, etc.  I kindly advise the
+gentleman to stick to rec.crafts.brewing if he'd rather skip discussions of
+more advanced brewing-related matters; on the other hand, if you keep reading
+the HBD you just might learn something.
+
+
+Jay Lonner / 8635660`at`nessie.cc.wwu.edu / Bellingham, WA
+
+
+------------------------------
+
+
+Date: Sat, 10 Dec 94 07:27:00 EST
+From: anthony_meehan`at`Merck.Com (Anthony Meehan)
+Subject: Aeration and Alcohol
+
+
+
+
+In HBD #1596 Marybeth Raines points out:  "The so-called Crabtree effect 
+suggests that fermentation can occur in the presence of oxygen if the 
+glucose concentration is
+above 1%", and "The reason why I don't think continuous aeration will give a 
+non-alcoholic beer is because fermentation can occur in the presence of 
+oxygen".  Fermentation occurs in aerobically growing yeast at high glucose 
+concentration because of limited capacitance in the Krebs cycle; that is, in 
+the presence of excess glucose, the rate of carbon flux through glycolysis 
+(glucose to pyruvate) is higher than the rate of the reactions downstream 
+from pyruvate (through the Krebs cycle and respiration).  The excess 
+pyruvate is converted to ethanol and creates ATP in the process. After the 
+glucose has become exhausted, the yeast can aerobically consume the ethanol. 
+ It is, therefore, possible to make a non-alcoholic beer with continuous 
+aeration; but you'll have to wait a while because there's a lag between the 
+glucose metabolism and ethanol metabolism. In addition, I don't know how 
+oxygen will affect your taste and sterility.
+
+
+Tony Meehan
+meehan`at`merck.com
+
+
+------------------------------
+
+
+Date: Sat, 10 Dec 1994 08:46:18 -0800 (PST)
+From: Phil Brushaber <pbrush`at`netcom.com>
+Subject: Wort Guard & Oxygen Free Bottling
+
+
+Like many of you I own a kegging setup but also bottle (for contests, 
+friends, etc.) Recently I went out and bought myself a "toy" for brewing. 
+Williams Brewing, San Leandro (I'm not affiliated with them, etc>) sells 
+a device called the wort guard. Its a hose which fits on to your C02 tank 
+and allows you to spray CO2 into carboys, kegs, etc. providing a blanket 
+of CO2 over your wort and preventing oxidaion. If you spray about 8 
+seconds of CO2 into a receiving carboy the transfer is oxygen free.
+
+
+I expanded this principle to bottling. Now after cleaning the bottles and 
+just before filling them from my keg filled with beer and corn sugar (for 
+carbonation) I spray a shot of CO2 into each bottle, I then fill from the 
+keg into the bottle. No mess. No waste. No (or not much) oxygen.
+
+
+Admittedly not worth buying a kegging setup for, but if you've already 
+got it, it makes bottling a breeze!
+
+
+ Phil Brushaber   *******   pbrush`at`netcom.com   *******   Dallas, Texas
+
+
+
+
+------------------------------
+
+
+Date:    Sat, 10 Dec 94 13:00 EST
+From: "Lee A. Kirkpatrick"                        <WPSSLAK%WMMVS.BITNET`at`VTBIT.CC.VT.EDU>
+Subject: replies to my hot-side aeration question
+
+
+Thanks to all the people who responded to my question about
+hot side aeration.  I had described my method (based on Papazian)
+of dumping hot or only-partially-cooled extract-based wort from
+my cookpot (approx. 2 gal.) directly (through a strainer) into a
+fermenter containing cold water.  I wanted to know if the aeration
+caused by this aggressive mixing of cold water and hot wort would
+cause "hot side aeration" and thus problems.  Here's a brief
+summary of the responses I received, for those who are interested:
+
+
+1) Several people told me that if I'm not getting off flavors
+(e.g., "wet cardboard"), don't worry.  Fair enough.
+
+
+2) Several people suggested cooling the cooked wort more thoroughly
+to a temperature below 80 degrees before dumping/sparging into the
+fermenter.  It was also suggested that this would also result in
+increased cold break, the product of which could be left behind
+in the bottom of the pot given sufficient time to settle out
+and a careful pour.
+
+
+3) Two people suggested, in conjunction with (2) above, RACKING
+the cooked wort gently into the fermenter and then aerating
+subsequently.  This method has the additional advantage of
+making it easier to leave break material and other sediment
+behind in the bottom of the cookpot.
+
+
+   The only objection I have to these procedures is that if 80
+degree wort is mixed with cold water (at least from my tap), the
+resulting mix will be too cool to pitch the yeast -- so I have
+to wait for the temperature to increase a bit before pitching.
+In my experience, a ten-minute ice bath chills the wort in my
+cookpot to about 140-150 degrees, and when I pour this into
+my fermenter and top to 5 gallons the resulting temperature is
+just about right for pitching (i.e., 70-75 degrees), at least
+for the ale yeasts I use.  I like being able to pitch as soon
+as possible, both for convenience and to minimize chances of
+contamination.
+
+
+4) The suggestion that wins the simplicity-and-convenience award
+was to more thoroughly cool the cooked wort in the pot by simply
+adding some of the cold top-off water directly to the cooked wort
+in the pot before dumping, rather than adding all the top-off water
+directly into the fermenter.  In combination with a brief ice-bath
+chilling procedure, this should produce a diluted wort in the pot
+that is cool enough for dumping without danger of hot-side aeration.
+(And the result in the fermenter should be the same as per my
+usual procedure, i.e., pretty close to pitching temperature.)
+
+
+For my part, I think I'll go with (4), which requires only a minor
+modification of my usual procedure and which will then make (1)
+easier to attain.
+
+
+Incidentally, one brewer gently scolded me for using
+the term "sparging" to refer to the process of pouring the
+contents of my cookpot through a strainer (to remove hops, etc.)
+into my primary fermenter; he wanted to reserve the term for
+the process of rinsing mashed grains as part of the all-grain
+process.  Is there a consensus on this?  I thought "sparging"
+was pretty much synonymous with "straining wort," as "racking"
+is pretty much synonymous with "siphoning" or "transferring."
+This is probably a trivial point, but anybody have strong
+opinions about it one way or the other?  I'm not really all that
+compulsive (Is there a hyphen in "anal-retentive"?), but I'm
+enough of a purist to want to get my vocabulary right.
+
+
+- --Lee Kirkpatrick (wpsslak`at`wmmvs.cc.wm.edu)
+
+
+------------------------------
+
+
+Date:    Sat, 10 Dec 94 13:07 EST
+From: "Lee A. Kirkpatrick"                        <WPSSLAK%WMMVS.BITNET`at`VTBIT.CC.VT.EDU>
+Subject: two more questions
+
+
+Sorry to gobble up so much bandwidth today, but I seem to be
+full of curiosity this afternoon.  Two questions for the
+collective wisdom out there:
+
+
+1) A friend of mine recently bought some Samuel Smith's Winter
+Welcome and found it to be "skunky."  Now, my understanding was
+that SS has always been able to get away with using clear bottles
+because something about their brewing process resulted in the
+elimination of whatever it is in hops that reacts with light
+to cause skunkiness.  (Sorry for my imprecision here; I'm
+chemistry-challenged.  But I think the gist is right.)  If so,
+what's up with the Winter Warmer?  Anybody else come across this?
+
+
+(2) Does anybody know whether any of our favorite (or not so
+favorite) microbreweries are exporting any of their products
+to Europe, or have plans to do so in the near future?
+
+
+Lee Kirkpatrick (wpsslak`at`wmmvs.cc.wm.edu)
+
+
+------------------------------
+
+
+Date: Sat, 10 Dec 94 12:32:01 CST
+From: minter`at`lsil.com (Michael Minter)
+Subject: strainers
+
+
+Question. What types of strainers are prefered for straining chilled
+wort into a primary? During my last batch I tried using a large funnel
+that came with a strainer insert and the damn thing clogged after
+the first pint or so of liquid had passed through. This doesn't seem
+very practical.
+
+
+Any thoughts?
+
+
+ -Michael
+
+
+------------------------------
+
+
+Date: Sat, 10 Dec 94 22:32 CST
+From: pgravel`at`mcs.com (Philip Gravel)
+Subject: Fermentation temperature, Fermentable added to secondary
+
+
+===> Ronald Dwelle asks about controlling fermentaton temperatures:
+
+
+>     It's winter and cooling down in my brew space. I basically cannot 
+>     easily control the temperature of my wort during ferment and tend to 
+>     have anything from 50-65 F during a two-week stint.
+>     
+>     Any suggestions short of investing in some sort of wort warmer/cooler?
+>     
+>     Any suggestions for a super cheapo temp controller (I use 5-gallon 
+>     carboys, mostly).
+
+
+Try putting your carboy in a large, plastic garbage can with water in it.
+If the ambient temperature is too warm, add frozen plastic bottles (Evian
+0.5 liter work well) of water periodically to keep the temperature down.
+If it is too cool, try using an aquarium heater.
+
+
+===> Eamonn McKernan discusses late addition of fermentables:
+
+
+>I am thrilled to see that people are discussing my question about possible
+>ill effects of the late addition (ie in the secondary) of fermentables to
+>precious homebrew.
+
+
+[snip, snip, snip...]
+
+
+>I have two terrible batches of beer which I am presently blaming on late
+>additions of fermentables. ( I'm still relatively new at this brewing thing,
+>so I keep trying "improvements". I just hate waiting! I know RDWHAHB.)
+>
+>A lovely Pale Ale went really bitter after a month in the bottle.
+>                                           I had added a pound or two of
+>DME to the secondary.
+>
+>The most recent failure: Unspoken Passion Imperial Stout from Papazian.
+>$110 in ingredients, and the stuff is again terribly bitter. Undrinkable.
+>I again added DME to the secondary because the OG was too low and it needed
+>more zing. A very expensive mistake!
+
+
+I've not heard that adding frementables to the secondary increases bitter-
+ness.  I wonder what would cause that.  Seems odd to me.
+
+
+- -- 
+Phil
+_____________________________________________________________
+Philip Gravel                                 pgravel`at`mcs.com
+
+
+------------------------------
+
+
+Date: Sat, 10 Dec 1994 22:03:51 -0800 (PST)
+From: "Rebecca S. Myers" <rmyers`at`netcom.com>
+Subject: Chief Petty Bottlewasher
+
+
+
+
+Phil Miller comments on marking caps instead of labeling: "This way
+I do not have to keep taking off those messy labels, and can wash
+some bottles in the dishwasher."
+
+
+Does the dishwasher *really* work in washing out the bottles? I know
+some of you will say, sure, it heat sterilizes them, too. But, having to
+deal with a couple of lazy parents who return bottles unwashed, I'd like
+to know if this method works, or if I still must employ my four-step
+method of, soap soak, scrub, rinse, bleach soak.
+
+
+Thanks,
+Becky
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 11 Dec 1994 12:24:30 -0500 (EST)
+From: MYETTE`at`delphi.com
+Subject: Converting recipes
+
+
+Can someone explain to me in laypersons terms on how I can convert an All
+Grain recipe to an Extract recipe and the same goes for an Extract recipe to
+an All Grain. 
+
+
+My mashing procedures get me around a 80-85% extract rate.
+
+
+Ann
+Myette`at`delphi.com
+
+
+------------------------------
+
+
+Date: 11 Dec 94 14:35:18 EST
+From: Kerry Drake <75347.2350`at`compuserve.com>
+Subject: Apologies
+
+
+I've only had access to the HBD for a few weeks.  I think it's great.  I have
+one request for everyone who keeps apologizing for posting here - STOP.
+This can only be a good source of information and entertainment if
+everyone keeps posting.  If someone doesn't like something posted, they
+are free to skip over it.  Afterall, it's all just zeros, ones and electron
+transfer anyway, I don't think we'll run out anytime soon.
+
+
+With that off my chest, thanks to all the contributors for a most informative
+medium; I've been brewing for about a year (all-grain after the first 4 batches)
+and love it.
+
+
+See how easy that was... No apologies!!
+
+
+Kerry in OKC    (75347,2350`at`compuserve.com)
+
+
+
+
+------------------------------
+
+
+Date: Sun, 11 Dec 1994 17:22:53 -0500 (EST)
+From: "NAME SEAN O'KEEFE, IFAS FOOD SCIENCE" <SFO`at`gnv.ifas.ufl.edu>
+Subject: Tannins from hi pH sparge
+
+
+Well I just tried my latest all grain batch, a brown lager.  Great but it
+has a bitterness I perceive to be tannins.  I havn't bothered adjusting
+pH in the past (I will from now on) so I guess that my pH was too high
+since I stopped sparging at ca. 2P.  Now what?  Will this beer ever
+age into respectability or is it doomed?  I don't mind aging it 
+several years at 5C if it will soften and become enjoyable.  Anyone
+age beer with this problem ?  Thanks in advance.
+
+
+------------------------------
+
+
+Date: Sun, 11 Dec 1994 17:46:03 -0800 (PST)
+From: Ian Russell Ollmann <iano`at`scripps.edu>
+Subject: Raspberry Wheat beer Recipe
+
+
+A Dark Raspberry Wheat Beer:
+
+
+In my enthusiastic college days, we put together a wonderful brew, which I
+have never been able to drink more than three of in an evening due to extreme
+intoxication (I'm a 185 lb. male.) At age of only 2.5 weeks, it won 2nd in
+the Dixie Cup fruit beer competition behind a blueberry ale from Brassoria
+County, Texas. It, however, probably cannot be called a true beer to you
+purists out there, due to its raspberry content and strong wine flavors. I
+hesistate to call it a beer myself. It's not a wine either, so let us put it
+down as a scrumptious synthesis of the two. Just made some this month and the
+recipe still works despite a few years in the back of my head. I highly
+recommend everything about it, except cost per bottle (.80 - $1.00): 
+
+
+
+
+For five gallons:
+3-4.5 lbs         Laaglander dark powdered malt extract
+3 lbs.                dry or canned wheat extract
+11 12oz. cans        Knudsens frozen Raspberry Nectar concentrate (Avail. in 
+                        whole foods stores)
+1.25 oz                Hallertauer Hops (boiling)
+0.25 oz                Hallertauer Hops (finshing)
+0.5 oz                Saaz Hops (finishing)
+1 tsp                 North Sea Irish Moss
+1 pkg                Munton and Fison Ale yeast
+
+
+Be careful with this recipe. At all stages prior to bottling, it it quite
+eager to escape from whatever container it is placed in including the wort
+pot. Combine grain extracts in your largest pot along with enough water to
+fill it 2/3 full (No more than 3 1/2 gals.) and boil for 45 mins. 30 mins
+before end of boil, add boiling hops and Irish moss. Add finishing hops 5 
+mins. before end of boil.  Upon completion, place in primary fermentation
+container, add water to 4-4.25 gals. and allow to cool to 150 deg F. Add six
+cans of the Raspberry Nectar, cover and allow to cool to body temp before
+pitching yeast.  After a couple of days, when the head subsides, add the
+other five cans of raspberry concentrate. (It really likes to go out the top
+at this stage.) In two or three more days, the head should again subside, at
+which time it should be racked into a glass carbouy with a minimum of head
+space. Follow the progress of fermentation. When the ring of bubbles
+dissappears at the neck of the carbouy, it is time to bottle. Rack and
+combine with 3/4 cup of corn sugar (dissolved in a minimum of boiling water)
+and bottle.  It should be ready in three to four weeks from bottling time,
+which makes it the fastest wine that I've ever made, if it can be said 
+to be such. Personally, I think it's the best too.
+
+
+                                Ian Ollmann
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1603, 12/13/94
+*************************************
+-------

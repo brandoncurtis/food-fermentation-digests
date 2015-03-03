@@ -1,0 +1,619 @@
+﻿Date: Fri, 19 Aug 2005 23:41:07 -0400
+Subject: Homebrew Digest #4827 (August 19, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4827                             Fri 19 August 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  stealing, er, ah, borrowing yeast (Jeremy Bergsman)
+  Light Absorbtion in Beer ("A.J deLange")
+  ProMash and efficiency ("May, Jeff")
+  efficiency (leavitdg)
+  Re:  Where oh where did my efficiency go? ("Rogers, Mike")
+  RE: Light Absorption in Beer (Steven Parfitt)
+  Efficiency ("Spencer W. Thomas")
+  Effficiency... is this where it went? ("Michael Eyre")
+  Podcasts for the Discriminating Brewer? (Alexandre Enkerli)
+  Re: Light Absorption in Beer ("Michael O'Donnell")
+  Italian Rolex order Willard ("Marion Prather")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 18 Aug 2005 23:28:53 -0400
+From: Jeremy Bergsman <jeremy at bergsman.org>
+Subject: stealing, er, ah, borrowing yeast
+
+
+Regarding obtaining Erdinger or other yeasts:
+
+
+Seems to me that if you can get into a brewery (on a tour), it shouldn't be 
+too hard to come away with some of their yeast.  One should come prepared 
+with a sterile tube or two.  Obviously if you are roaming free around open 
+fermenters you will be in great shape.  But even if you are not, you may 
+well find a 5 gallon bucket being used at the end of a blow off tube.  Even 
+a swab from the wall or floor will probably pick up the brewing yeast as a 
+reasonable fraction of all bugs.  Or you could just ask....
+
+
+Would anyone care to share tips or techniques?
+- -- 
+Jeremy Bergsman
+jeremy at bergsman.org
+http://www.bergsman.org/jeremy
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 12:28:31 +0000
+From: "A.J deLange" <ajdel at cox.net>
+Subject: Light Absorbtion in Beer
+
+
+All beer is ultimately red. Even the palest pilsner will, if the optical 
+path is long enough, absorb all the blue light leaving a red color. To 
+see this shine a flashlight through a carboy full of pale beer or 
+through a mug of Guiness. Beer color is defined in terms of the 
+absorbtion of blue light. The SRM color is 10 times the absorbtion of 
+half an inch of beer at 430 nm well into the blue. Thus if o[tical 
+absorbtion is to be the measured parameter blue light is clearly the 
+choice though, as mentioned, differences in blue light absorbtion can be 
+appreciable between Pils and Stout, for example. Given this I would 
+think that a conductivity based sensor would be simpler to implement 
+requiring only two insulated probes fixed at the two levels of interest. 
+Relatively high impedance between a probe and the vessel indicates the 
+probe is dry; low indicates it is immersed. Another thought would be to 
+put the underback on an electronic scale and tap the weight reading from 
+the scale's display or, at the more elegent end, rig something with a 
+load cell.
+
+
+A.J.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 08:20:55 -0400
+From: "May, Jeff" <Jeff.May at uscellular.com>
+Subject: ProMash and efficiency
+
+
+If you like your beer, don't let some program tell you otherwise.  The
+settings in ProMash will have a significant impact on your final results.
+You need to tweak ProMash for all the specifics of your setup.  It is
+amazing how much dead space can affect your final numbers.
+
+
+I am having efficiency problems according to Promash as well, however, my
+problem is in the other direction.  I have been hitting the 90s and
+occasionally go over 100%.  My batch sparges have even be in the high 80s.
+Boy, the mega breweries would love me.  I was concerned that I was
+over-sparging but that was put to rest after talking with other brewers.  In
+earlier conversations with John Peed, we determined that the contribution
+values I have are too low.  I'm using the defaults that were installed with
+the program.  For example, I use Muntons Maris Otter 3.0L (GB) as my base.
+The PPPG is 1.030 in ProMash.  My last session ran at 93% using these
+numbers.    Most of the other brewers say their PPPG numbers are higher than
+what I use.  Where can I find accurate numbers for the different malts I
+use?
+
+
+Jeff May
+Wilmington, NC
+AR[649.7,148.6]
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 08:23:50 -0400
+From: leavitdg at plattsburgh.edu
+Subject: efficiency
+
+
+Mike;
+
+
+ I don't think that you mention how long it took to sparge.  To me, that is at 
+least one variable to consider.  For a 5.5 gallon batch I need to keep the 
+sparge time to 45 min at least, usually 1 hour, or I get low efficiency.
+
+
+ I am sure others will mention the other factors, but this is one that comes 
+to mind for me first.
+
+
+Darrell
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 08:46:29 -0400
+From: "Rogers, Mike" <mike.rogers at eds.com>
+Subject: Re:  Where oh where did my efficiency go?
+
+
+Hi Mike.
+
+
+I only wanted to mention that I have been using ProMash for about 4
+years with 10 gallon all grain brews.  The program is dead on with mash
+efficiency.  I'm consistently between 80-84%.  I do a continuous sparge
+of about 35-45 minutes.  I mash in a 10 gallon Gott cooler.  ProMash is
+an excellent brew session tool if you understand the metrics and
+functionality.  Many of my friends simply use it for recipe formulation
+and do not use the brew session screens.  I assume you are taking the
+final gravity check in the fermentor (via a post boil hydro test).
+ProMash allows you to take the final gravity check via kettle or
+fermentor and different logic exists...
+- --------------
+Date: Thu, 18 Aug 2005 08:46:58 -0700
+From: "Michael Eyre" <meyre at sbcglobal.net>
+Subject: Where oh where did my efficiency go?
+
+
+Got a question for you all that I can't quite wrap my head around...
+
+
+My friend and I do 10 gallon batches of allgrain beer, of various types.
+We split the batch 50/50 and call it OK about once or twice a month. So
+we never really have any problems until one of us invents one... and
+this is how our latest problem came about. My pal get's this nifty
+program called Promash, and plugs in our last beer to it's inner
+workings and determines that or efficiency is extremely low.. so he
+says. Something on the order of 56-58% efficient. I should mention that
+this is a 3 tier gravity feed 1/2 barrel keg setup, that we occasionally
+use a cooler to mash in instead of the keg, depending on our whims of
+that session. We batch sparge as well, using two sparges. Our last beer
+that he plugged in was an American style wheat with 60% malt 40% wheat,
+and the first runnings were about 1.060 and the second sparge was about
+1.040. We got an average of 1.053, which was right where we wanted to be
+on a 12 gallon pre-boil pull. Later boiled down to 11 gallons and split
+two ways. Excellent! Anyway, when he starts talking about rotten
+efficiency a coupe days ago, which is a few weeks after the brew, I'm
+wondering... is our system just bad? Does it matter if it is, cause it's
+still cheap to run. But my main question is... what would have happened
+if we had done a third sparge, would it have some out somewhere neat
+1.020, which is still viable to use, properly boiled down in the kettle,
+and is THAT where the lost efficency went? Another question is, why
+wasn't the second sparge 1.060 as well, since isn't that the idea of the
+batch sparge, to get one big run of evenly mixed wort/sugar? Hell, I
+don't know the maximum solubility of water for sugar/wort... so I guess
+that's what I'm having difficulties with.. why doesn't all the sugar
+come out of the grain into the second sparge, did we not wait long
+enough, stir long enough, etc. to make the second sparge work? We
+stirred and waited about 10 minutes before we opened the drain for the
+second run. I think I'm babbling now, so I'll end this, but I think I
+got my idea across... I guess I'm just wondering how to get the
+remaining stuff out of the grain that we apparently missed.
+
+
+Mike
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 05:55:23 -0700 (PDT)
+From: Steven Parfitt <thegimp98 at yahoo.com>
+Subject: RE: Light Absorption in Beer
+
+
+Tony Barnsley seeks to perform optical level sensing  
+
+
+>Hi all,
+>
+>I am looking at several ways to control the rate at
+>which wort is pumped from my under back back to the
+mash tun and off to the boiler. The rate 
+of pumping should depend on the level of wort in the
+under back
+
+
+ ....SNIPI...
+
+
+I'd go with the new 'White" LED or IR (Infared).
+
+
+I don't know if an LED could emit enough light to
+skunk your beer to a detectable lever, but I would
+stay away from blue for that reason. 
+
+
+I think the IR would be best, however you can't see
+the light to verify operation.
+
+
+Pick up a couple of IR "Slotted Optical Switches" and
+cut them in half. Use the emitter and detectors from
+them in pairs as they are matched for performance.
+
+
+>Regards
+>
+>le Man ( The Brewer Formerly Known As Aleman ) 
+>Mashing in Blackpool, Lancashire, UK
+
+
+
+
+Steven, -75 XLCH- Ironhead Nano-Brewery  http://thegimp.8k.com
+Johnson City, TN [422.7, 169.2] Rennerian 
+
+
+"There is no such thing as gravity, the earth sucks." Wings Whiplash - 1968
+
+
+
+
+                
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 10:39:06 -0400
+From: "Spencer W. Thomas" <hbd at spencerwthomas.com>
+Subject: Efficiency
+
+
+My thought: if you like your beer, and you don't feel you're spending 
+too much on ingredients, don't worry about it.
+
+
+In fact, some experience shows that undersparging can improve the flavor 
+of your beer (as oversparging can definitely hurt it.)  If you were a 
+pro brewer with thin profit margins, then you'd need to worry.  But it's 
+a hobby.  You're making better beer for less money and having fun at the 
+same time.  So really, don't sweat it.
+
+
+For me, the only reason to be concerned about efficiency is to know what 
+my system efficiency is, so I can predict how strong/weak my beer is 
+going to be.  If I'm trying to make a Mild, and I end up with a brown 
+ale at 1.048 instead of my target of 1.032, then I'm unhappy (or I can 
+just enjoy the brown ale!)  Or, if I'm trying to make an IPA at 1.060 
+and end up with a Pale Ale at 1.045, then again, I might be unhappy.
+
+
+RDWHAHB
+
+
+=Spencer in Ann Arbor
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 08:59:12 -0700
+From: "Michael Eyre" <meyre at sbcglobal.net>
+Subject: Effficiency... is this where it went?
+
+
+Is speaking offline with some members, an idea struck. I discussed it
+with my brew partner and he concurred. Since we had just switched to
+batch sparge two brews ago, we were a little confused about the
+procedure. I believe what we did was add the 1-1.25 quarts per lb of
+water, AS WELL AS the "grain absorption" water, too... So, if my math is
+right, we ended up using almost 2 quarts per lb. With the addition of
+this extra water, on the order of about 2.5 gallons in a 17lb total
+grain beer, what effect do you think this would have on the efficiency?
+On the beer itself? Are we on the right track, or no?
+
+
+Mike
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 16:23:53 -0400
+From: Alexandre Enkerli <enkerli at gmail.com>
+Subject: Podcasts for the Discriminating Brewer?
+
+
+Stephen George replied, on podcasts:
+
+
+> I listened to a couple and found them a complete waste of time
+Fair enough. Was wondering about other people's impressions.
+
+
+> If there are any that are really useful, I'd be keen to add them to my 
+> subscriptions.
+Well, those podcasts have different uses... Haven't really spent that 
+much time with them but am occasionally downloading an episode of one 
+or the other.
+
+
+Though meant for more beginning brewers, Basic Brewing does have some 
+interesting comments about methods and such.
+http://www.basicbrewing.com/radio/radio.rss
+http://www.basicbrewing.com/
+
+
+The Aussie podcast you mention can in fact delve into interesting 
+technical issues, such as a discussion on pitching rates. Sure, they're 
+mostly having fun and talking beer, but that's part of the thing.
+http://rss.oz.craftbrewer.org/
+http://oz.craftbrewer.org/
+
+
+PodBeer is more like the beer equivalent of Mark Prince's CoffeeGeek 
+podcast. It's still rather new but seems to be going in that direction. 
+Some beer-related news, interviews with people who have an interest in 
+beer... Maybe a bit opinionated.
+http://www.podbeer.com/beer/wp-rss2.php?category_name=PodCasts
+http://www.podbeer.com/beer/
+
+
+On CraftBeerRadio, they mostly do sampling sessions by beer styles. A 
+bit like an audio version of a RateBeer discussion with some beer 
+factoids.
+http://craftbeerradio.com/CraftBeerRadio.xml
+http://www.craftbeerradio.com/
+
+
+The Good Beer Show is a music and beer show from Muncie, IN. It's, 
+well, one way to do it. At least they care about good beer, have 
+interviews with brewers and musicians, talk about beer culture...
+http://goodbeershow.com/wp-rss2.php
+http://goodbeershow.com/
+
+
+The Beer Show Online is a podcasted version of a radio show. Typical 
+radio show format with extended phone interviews with brewers and other 
+beer personalities. Maybe a bit like a beer magazine in audio form.
+http://www.thebeershowonline.com/podcasts/TheBeerShowOnline.xml
+http://thebeershowonline.com/
+
+
+Only listened to one episode of Big Foamy Head (after sending the other 
+message). It's more of a "beercast" which is a podcast using 
+conversations over beer as the basis for the podcast. They talked a 
+little bit about the beer but their involvement in the beer world may 
+be rather limited.
+http://feeds.feedburner.com/BigFoamyHead
+
+
+
+
+Now, maybe there's room for a podcast version of HBD? There's a number 
+of radio people in the beer world and, surely, some people might have 
+fun creating the ultimate brewer podcast? It's easy to do and doesn't 
+need to obey any strict set of broadcasting rules, including the need 
+for an audience. Imagine this: a fortnight of yeast in audio format? 
+Interviews with Stephen Alexander and Jeff Renner. Audio commentaries 
+from BJCP judges. Competition announcements. "Soundseeing" brewery 
+tours. Video presentations of brewing methods...
+It could be *great*!
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Aug 2005 16:06:30 -0700
+From: "Michael O'Donnell" <mooseo at stanford.edu>
+Subject: Re: Light Absorption in Beer
+
+
+Tony,
+
+
+My gut feeling is that you might run into problems with particulates 
+sticking to the sensor as the level drains out as well as the different 
+colors of wort, but I might be wrong. I'm sure optical sensors get used for 
+such applications, and you might find a manufacturer willing to send you 
+two evaluation samples of optical fluid level sensors.
+
+
+Another approach that you might want to try is capacitance sensing...
+
+
+I have used off the shelf capacitance sensor chips for sensing the presence 
+of fluid.  Measuring levels in a tank is one of the typical uses for such 
+sensors.
+I used Qprox301 products from a company called Quantum... here is their 
+website, with an article on fluid sensing...
+http://www.qprox.com/background/level_sensing.php
+  look through their forums for some info on different applications. My 
+application never worked fully because of residual water remaining on the 
+probe. There are ways around this for use within tanks, that i was not able 
+to try in my application. I'd probably build a concentric sensor out of 
+silicon or teflon and run it down the inside of the tank. That way it would 
+be totally sealed and could take the heat. The only problem with 
+experimenting with this approach is that you have to buy a programmer for 
+the chips for about $50. The chips themselves are only ~$2. I suspect that 
+you could make it work without much trouble, though.
+
+
+Good luck.
+
+
+cheers,
+Mike
+Monterey, CA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Aug 2005 01:20:09 +0100
+From: "Marion Prather" <wiagqjkpjeql at naegelimanagement.ch>
+Subject: Italian Rolex order Willard
+
+
+REPLICASONLINE - WE NEVER COMPROMISE ON QUALITY
+
+
+Rolex replica is our speciality
+We guarantee lowest prices and highest quality
+We are the Direct manufacturers.
+
+
+For top quality rolex watchs pleas visit:
+
+
+http://www.onereplica.net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+carnal igu keyhole yl [2
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4827, 08/19/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

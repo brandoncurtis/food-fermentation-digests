@@ -1,0 +1,380 @@
+﻿Date: Mon, 1 Oct 2007 00:14:22 -0400
+Subject: Homebrew Digest #5235 (September 30, 2007)
+
+
+
+
+
+
+HOMEBREW Digest #5235                             Sun 30 September 2007
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                     Your Business Name Here
+    Visit http://hbd.org "Sponsor the HBD"  to find out how!
+                         
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  RE: Effect of dissolved extract on volume ("Bill Pierce")
+  10th Annual Hoppy Halloween Challenge ("Susan Ruud")
+  Split Rock Homebrew Competition ("Al Hazan")
+  "How would you like to have your ad on 2 Million Websites ?" (BlogBlaster)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 28 Sep 2007 10:51:05 -0400
+From: "Bill Pierce" <BillPierce at aol.com>
+Subject: RE: Effect of dissolved extract on volume
+
+
+Thanks for the replies to my question about the increase in wort
+volume due to the dissolved extract.  As A.J. deLange points out,
+the errors in the assumptions used for wort volume calculations
+cancel each other out to some extent.  Moreover, he is correct that
+most of us plan for a wort of x volume at y gravity and sparge until
+we achieve the desired pre-boil volume.  Assuming a consistent
+extract efficiency, this typically allows an accuracy within about
+0.002 (2 gravity points) in achieving the target gravity.
+
+
+I wouldn't call the error insignificant, however, at least
+potentially.  If I plug one of my recipes (10 gallons of 1.051 O.G.
+robust porter) into ProMash, it calculates I will require 16.45
+gallons of water, including 9.87 gallons for sparging.  The
+calculated pre-boil target volume is 13.51 gallons (so far as I can
+tell, adjusted for neither the dissolved extract nor  the expansion
+due to the increase in temperature) and the target gravity is
+1.0437.  On the other hand, my spreadsheet calculates 15.74 gallons
+of cold water needed, 9.16 gallons of it for sparging.  The
+calculated pre-boil target volume is 13.40 gallons (adjusted for
+both the dissolved extract and the expansion due to temperature) and
+the target gravity is 1.0443.
+
+
+Should I trust the ProMash calculations and sparge until the mash is
+drained (I agree this is not such a good idea, but some brewers do
+exactly that), the actual pre-boil volume (adjusted for both
+temperature and the dissolved extract, which ProMash apparently does
+not do) would be  14.12 gallons and the gravity would be 1.0418.  A
+volume error of 0.8 gallons and a gravity error of 2.5 extract
+points are greater than I am aiming for in my brewing.
+
+
+Now because I (and many other prudent brewers) typically sparge only
+until reaching the target pre-boil volume, the effects of the errors
+are less pronounced.  Should I rely on the pre-boil volume
+calculated by ProMash in the example above, the actual pre-boil
+gravity according to my calculations would be 1.0434 rather than the
+target of 1.0443.  The difference of 0.9 extract points is due to
+the sugars remaining in the small volume of water not quite
+completely drained from the grain.  This is within the margin of
+error I normally consider acceptable.  In the past, before I
+discovered that the software apparently does not account for the
+increase in volume due to the dissolved extract, I merely fudged by
+adjusting the presumed extract efficiency down a percent or two and
+increasing the amount of base malt by half a pound.
+
+
+So you're right that the error is not a huge one and it's mitigated
+by the manner in which many of us brew.  But why not strive for
+accuracy and avoid fudging the results when it's possible to do so?
+Furthermore, some of us like to tinker under the hood in an attempt
+to explain what is really happening.
+
+
+Anyway, this proves my suspicion about the difference in both
+gravity and
+volume between adding x mass of extract to y volume of water, and
+wort that is y volume with x mass of dissolved extract.
+
+
+As for Nick Turbov's question as to whether the volume increase is
+real, I did a very brief experiment at home with table sugar and
+distilled water.  While I have a lab balance with an accuracy of 0.1
+gram, I am only able to measure volume to an accuracy of a little
+less than 5  ml (I lack a good graduated cylinder).  I dissolved 100
+grams of sucrose in as close as I could measure to 1 liter of
+distilled water.  The temperature for all of the items was that of
+my kitchen (72 F at the time).  There was indeed an increase in the
+volume of a little more than 60 ml, again as close as I could
+measure.  This seems very much in line with the volume increase of
+61.4 ml for each 100 grams of dissolved sucrose I quoted in my
+original post.
+
+
+At any rate, it provides sufficient confirmation for the effect.
+
+
+Brew on!
+
+
+Bill Pierce
+Cellar Door Homebrewery
+Burlington, Ontario
+BillPierce (at) aol (dot) com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Sep 2007 15:35:20 -0500
+From: "Susan Ruud" <susan.ruud at ndsu.edu>
+Subject: 10th Annual Hoppy Halloween Challenge
+
+
+We would like to invite you to enter and judge at the 10th annual Hoppy
+Halloween Challenge.
+
+
+In keeping with the seasonal theme of Halloween, entries will be accepted
+from October 1st to October 13th (Scary! Are you scared yet?).  To make
+entering the Hoppy Halloween Challenge as easy as possible, we have on-line
+registration this year. 
+
+
+Complete details can be found at:
+http://www.prairiehomebrewers.org/hoppyhalloween.htm
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 29 Sep 2007 09:21:26 -0400
+From: "Al Hazan" <hazan at ptd.net>
+Subject: Split Rock Homebrew Competition
+
+
+This is the second announcement for the Homebrew Competition to be held on
+Saturday, November 17th, at the Split Rock Resort in Pennsylvania's Pocono
+Mountains. This competition is held in conjunction with their annual Micro
+Brew Festival. 
+
+
+This is a sanctioned competition judging all beer, mead and cider styles.
+Entries should be shipped to the Resort at Split Rock, One Lake Drive, Lake
+Harmony, PA 18624, and Attention: Shelly Kalins Lutz, for receipt from
+November 3rd to November 15th.
+
+
+Entry fees of $5 per entry will be donated to the Make-A-Wish Foundation.
+By simply entering, you will be helping this charitable organization help
+others.  Checks should be made out to The Resort at Split Rock.  
+
+
+Two (2) brown or green bottles with no markings are required. Please use
+rubber bands to attach bottle labels.  No tape please.  Any standard entry
+forms identifying the brewer and the appropriate entry category/subcategory
+are acceptable.  The 2004 BJCP Style Guidelines will be used for this
+competition.  Get this from the BJCP web site at www.bjcp.org.
+
+
+Judges are very, very much needed and they should contact me to secure a
+position.
+
+
+Judges and Stewards can hand carry their entries if they pre-register with
+payment.  All judges and stewards are required to be present by 8:30 so we
+can get started promptly at 9am.  Judges will receive an entry to the beer
+festival or entry to the beer dinner for their efforts and need to indicate
+which they wish when they commit to participate.  
+
+
+The BOS winner will receive a complementary weekend for two at next year's
+Split Rock Beer Fest as well.  
+
+
+More information will be available at the Split Rock web site: 
+http://www.splitrockresort.com/beerfest/.   Or contact them at: spevents at
+splitrockresort.com.
+
+
+Al Hazan
+Competition Organizer
+hazan at ptd.net
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: 30 Sep 2007 20:14:47 -0700
+From: BlogBlaster at hbd.org
+Subject: "How would you like to have your ad on 2 Million Websites ?"
+
+
+How would you like 2 Million Sites linking to your ad ?
+
+
+Weblog or blog population is exploding around the world, resembling the 
+growth of e-mail users in the 1990s.
+
+
+Post your ads where people read them!
+
+
+ - What if you could place your ad on all these sites ?
+Right, that would mean you would have millions of sites linking to your ad. 
+
+
+I have developed a software that automatically places your ad on millions 
+of blogs.
+
+
+You will receive thousands of targeted hits to your website as Blog Blaster 
+places your ad on blogs that match your ad's category.
+This method has never been released to the public before. Very few, if 
+anyone has implemented this.
+
+
+
+
+
+
+http://www.promote-biz.net/mg/blogblaster/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unsubscribe
+
+
+webmaster at promote-biz.net 
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #5235, 09/30/07
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

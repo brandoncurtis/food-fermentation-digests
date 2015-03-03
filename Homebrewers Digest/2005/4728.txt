@@ -1,0 +1,690 @@
+﻿Date: Mon, 28 Feb 2005 23:13:05 -0500
+Subject: Homebrew Digest #4728 (February 28, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4728                             Mon 28 February 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: Help with Electric System ("Craig S. Cottingham")
+  Approximating British pale ale in Germany (Randy Ricchi)
+  Electric brewing ("Todd Snyder")
+  RE:  Help with Electric System ("Todd Snyder")
+  WZZ HBC 2005 Winners ("John C.Tull")
+  Re: Irish kegging equipment (Peter Cox)
+  Re: Re: "No Hose Barb" site ("Meyer, Aaron D.")
+  Re: Electric brew questions (Kent Fletcher)
+  AHA board elections (Jeff Renner)
+  Growing hops in Central Texas ("Randy Scott")
+  Small keg pressure system ("Michael O'Donnell")
+  SafAle 56 American Ale ("H. Dowda")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 27 Feb 2005 22:16:03 -0600
+From: "Craig S. Cottingham" <craig at cottingham.net>
+Subject: Re: Help with Electric System
+
+
+On Feb 26, 2005, at 12:48, Scott McAfee <scmcafee at cox.net> wrote:
+
+
+> 2) How long does it take 2000W to heat up 15 gallons of water?
+
+
+Unfortunately, there's not enough information in your question to 
+provide a proper answer. That, however, will not stop me. :-)
+
+
+The equation we're interested in is:
+
+
+   degF/min = (0.0068 * Watts) / (gallons * loss factor)
+
+
+where "loss factor" is a fudge that depends on how well insulated your 
+vessel is, whether it's covered (which I suppose is somewhat the same 
+thing), etc. The web page where I found this equation (which is now 
+accessable only through the Wayback Machine <http://web.archive.org>, 
+and no, I don't have the URL anymore) suggests 1.05 for an insulated 
+vessel and 1.10 to 1.15 for less well-insulated vessels.
+
+
+Let's assume that your vessel is uninsulated and a pretty good 
+conductor of heat, so we'll choose the higher end for the loss factor.
+
+
+   degF/min = (0.0068 * 2000) / (15 * 1.15) = 0.788
+
+
+That's about 3 degF every 4 minutes. If you're heating from 60 degF (a 
+little above normal ground temp for mid-latitude America) to 212 degF 
+(boiling), it's going to take 193 minutes -- more than 3 hours. 
+Insulating the vessel cuts a whopping 17 minutes off of the time, to 
+slightly *under* 3 hours.
+
+
+There are only two ways you're going to radically change that time. 
+Decrease the volume of water, or increase the wattage.
+
+
+- --
+Craig S. Cottingham
+craig at cottingham.net
+OpenPGP key available from:
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x7977F79C
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 07:47:11 -0500
+From: Randy Ricchi <rricchi at houghton.k12.mi.us>
+Subject: Approximating British pale ale in Germany
+
+
+Others have suggested a small amount of caramal (crystal) malt and pils.
+The problem is, pale ale malt doesn't taste caramelly.  I've found a
+mixture of  vienna malt and pils malt, roughly 50/50, brings good
+results.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 09:55:48 -0500
+From: "Todd Snyder" <tmsnyder at buffalo.edu>
+Subject: Electric brewing
+
+
+Eric, 
+
+
+Electric brewing has many big advantages, one is SPEED!  2 4500 watt
+elements bring 6 gallons of water from tap temperature to a boil in
+something like 16 minutes. 
+
+
+The way I did this was to install a sub-panel in my brewery.  I got a 220v
+50A GFI breaker for the main panel and ran #6 wire to the sub-panel in the
+brewery.  Then I switch on/off your heaters using 20A breakers in the
+subpanel, using #12 wire for the elements, making sure everything is
+grounded.  This includes the kettle near the element. 
+
+
+If you're not comfortable with wiring, hire an electrician.  You might be
+able to get one of them to do it as a side job after their regular work and
+pay them in beer!  And don't be afraid of 220 V, it's actually only 110 V if
+you accidentally touch a hot wire, just like "regular" power.  The only way
+you'd see 220 would be if you were unlucky/stupid enough to touch the two
+'hot' wires at the same time.  This should be almost impossible though,
+because when you're all done everything should be inside enclosures and
+safe. 
+
+
+There's no reason to run the large low watt density elements at a reduced
+voltage. They won't scorch unless you fail to clean them after brewing; they
+seem to build a white/brown protein layer which eventually will flake off
+the element.  Scrubbing them well in between uses is quick and easy and
+prevents this. 
+
+
+To anyone thinking electric brewing might not be safe, consider all the
+people out there bathing and showering in water being simultaneously heated
+by electricity in their hot water tanks!  And those are not GFI protected. 
+
+
+Todd in Buffalo
+
+
+
+
+
+
+Bill Tobler writes:
+
+
+"Electric brewing indoors is great. In my opinion, you must use 220  
+volts so you don't spend half your time waiting for things to get hot.   
+This takes some serious power requirements, but it is worth the extra  
+trouble."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 10:24:26 -0500
+From: "Todd Snyder" <tmsnyder at buffalo.edu>
+Subject: RE:  Help with Electric System
+
+
+Scott, 
+
+
+I'm not sure mounting the element on the bottom is a good idea, that's where
+any leaks or boil over will end up. 
+
+
+I bent two of my elements 90 degrees by placing them in a tubing bender, the
+two legs fit into the bender in the 1/4 and 3/8" slots as close to the
+threaded end as possible.  No need to heat it to bend it, they're made of
+copper tubing. 
+
+
+
+
+2000W is not very much, a toaster oven is about the same wattage.
+
+
+2000W heating 15 gallons of water will take:
+        (15 gal)(3780 mL/gal)(4.186 J/g-degC)/(4000 J/s) = 59 s/degC  
+        (60s/min)/(59 s/degC) = 1.01 degC/min = 1.8 degF/min
+
+
+So to go from 40F to 212F would take 310 minutes!  That's too long unless
+you're heating your HLT overnight for the next day's brewing. 
+
+
+Todd in Buffalo
+
+
+
+
+Scott McAfee wrote:
+
+
+"Rick was asking about hot water heater element installation.
+
+
+I picked up a 2000W 110v element at Home Depot and was wondering the 
+same thing.
+On a return trip to Home Depot, I noticed they had an adapter to go from 
+a screw in type
+element to a four bolt bulkhead/seal type hot water heater fitting. I 
+haven't installed it yet,
+but it was only six bucks so I figured it was worth the try.  I'm 
+putting it on the flat spot on
+the bottom of a Sankey keg I'm not currently using.  My element has an 
+OD at the
+threads of 1 and 9/32, by the way. 
+
+
+Some questions I'm wondering:
+1) can you heat up and bend those elements without damaging them?
+2) How long does it take 2000W to heat up 15 gallons of water?"
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 07:50:32 -0800
+From: "John C.Tull" <jctull at gmail.com>
+Subject: WZZ HBC 2005 Winners
+
+
+The winners are in! We had a wonderful event that included excellent 
+judges and stewards. The Best of Show kudos go to Jonathan Plise` of 
+the Diabolical Order of Zymurical Enthusiasts (DOZE)! Congratulations 
+to him and everyone that entered beers in this event. We had 162 
+entries from 62 entrants spanning 9 states. This was the biggest number 
+of entries we have had in the last four years of the competition, and 
+it is a 30% increase over last year's entries!
+
+
+Feedback forms from judges will be mailed out by 5 March 2005, and 
+prizes should be out by the end of the month.
+
+
+You can view complete results online at:
+http://washoezz.net/results2005.html
+
+
+Cheers,
+John Tull
+WZZ HBC Organizer
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 13:28:52 -0600
+From: Peter Cox <pcox at southbull.com>
+Subject: Re: Irish kegging equipment
+
+
+Calvin -
+Thanks for the information. I'll definitely bring my kegs
+over with me, then - as well as the regulator. 
+
+
+What sorts of kegs are used there, then?
+
+
+Cheers,
+Peter
+
+
+On 22:06  25/Feb/05, Calvin Perilloux wrote:
+> Peter Cox asks about his kegging equipment:
+> 
+> > I'll be moving back to Ireland soon, and am not sure 
+> > if the standards are the same there. 
+> > If I take my kegs and cylinder/regulator back with me, 
+> > will I be able to get refills/replacement parts? Or am I better
+> > off leaving the gear here and getting new stuff in Ireland?
+> 
+> Much better to just leave it at my house in the USA, 
+> where I'll dispose of it for you.  But seriously...
+> 
+> I'll take a guess that the Irish standards are probably 
+> the same (or nearly) to the English standards.  Bring most
+> of your kit.  I'm assuming you're talking about the usual
+> 5-gal keg system that homebrewers use, and not the commercial
+> Sankey/etc. stuff.  Here's the details, based on my UK experience, 
+> which I think would *probably* apply for Ireland/EU:
+> 
+> (1) Corny kegs.  Great!  You can maybe get parts in the UK,
+>     ir possibly Ireland, but for small things like poppets, 
+>     etc. just order them from the USA.  They're light and cheap 
+>     to ship.  Corny kegs are in use in the UK by homebrewers
+>     but are a premium item, rather expensive.  So bring yours.
+> 
+> (2) Regulator.  I've used my British regulator in the UK,
+>     Australia, and in the USA as well.  No problem, but
+>     your US regulator probably has that unfathomable psi stuff 
+>     instead of kPa and Bar.  It might confuse people who
+>     use those things over there.  Hee hee.  But you'll manage OK,
+>     and it ought to work just as usual.  Make sure you have 
+>     washers, not the "washerless" fittings I've seen on a
+>     few US regulator/tank sets.
+> 
+> (3) CO2 tank.  This might be the only problem.  First off, 
+>     you'll almost certainly have to ship it empty.  Then to
+>     get it filled, I'm not sure the test stamp from the US
+>     is recognised over there.  Not only that, some places
+>     require that you lease/rent/borrow THEIR tanks, and they
+>     won't even touch yours.  I think Air Liquide was bad about
+>     that.  BOC and distributors were better.
+> 
+> So I'd sell the tank here, barring any disputing evidence from 
+> someone else on HBD.  And if you're lucky enough to live three 
+> doors down from a welding supply shop like I did (nice neighbour-
+> hood -- note that only a homebrewer might call that "lucky"!) 
+> then they'll fix you up one way or another. 
+> 
+> Calvin Perilloux
+> Middletown, Maryland, USA
+> 
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 13:50:32 -0600
+From: "Meyer, Aaron D." <Aaron.Meyer at oneok.com>
+Subject: Re: Re: "No Hose Barb" site
+
+
+>"I purchased my QD's from US Plastics (part #'s 60465 & 60467).  They
+were >very inexpensive."
+>$5 for each connection + shipping, if I read this right.  Hose barbs
+are >inexpensive.  These QD's are not.
+>Will someone wake me up when quick disconnects get less than the 75
+cent  nylon hose barbs I can buy at my local hardware store?
+
+
+I use nylon garden hose fittings myself. If you are after an alternative
+to QD and barb fittings check them out. My hardware store has them for
+about 2$ to 2.5$ per connection.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 12:08:32 -0800 (PST)
+From: Kent Fletcher <fletcherhomebrew at yahoo.com>
+Subject: Re: Electric brew questions
+
+
+Scot McAfee pondered:
+
+
+> On a return trip to Home Depot, I noticed they had
+> an adapter to go from a screw in type element to a
+> four bolt bulkhead/seal type hot water heater
+> fitting. I haven't installed it yet, but it was only
+> six bucks so I figured it was worth the try.  I'm
+> putting it on the flat spot on the bottom of a
+> Sankey keg I'm not currently using.  My element
+> has an OD at the threads of 1 and 9/32, by the way. 
+
+
+Good luck with the flange adapter.  It has no
+relationship to a bulkhead fitting, it's made to be
+able to install a screw-in element on a water heater
+that has a matching four bolt flange.  Might as well
+return it to HD before you ruin your keg.  BTW, the
+threads on that element are 1" NPS, just like 90+% of
+them.  There were elements made with inch and a
+quarter NPS threads, but they're pretty much obsolete.
+
+
+> Some questions I'm wondering:
+> 1) can you heat up and bend those elements without
+> damaging them?
+
+
+No.  Don't try it, you'll just destroy the element. 
+Think about it:  Heater elements burn themselves out
+in a very short time if energized dry, and it would
+take a lot more heat that that to be able to bend the
+rod.
+
+
+> 2) How long does it take 2000W to heat up 15 gallons
+> of water?
+
+
+A 2000 watt element will heat 15 gallons of water in
+an at about 0.7 to 0.9 deg F per minute, depending on
+how well the tun is insulated.  
+
+
+Also, that 2000 watt element should be connected to a
+dedicated 20 amp circuit, with 12 ga minimum wire
+size.  If you plug it into a typical 15 amp household
+circuit it will trip.  If it doesn't trip, don't think
+you're OK, that's even worse!  2000 watts at 117 volts
+(average US) is 17 amps, and if it doesn't trip a 15
+amp circuit, then you are risking a fire.
+
+
+Like Bill Tobler said, if you want to go electric, do
+it right and go with a 220 volt setup.  Of course it
+you only need to make 3-5 gallon batches, and time is
+not a consideration, then use a 1500 watt max 120 volt
+element, plugged into a GFCI outlet.  It will work,
+just takes longer, and you don't get a real vigorous
+boil.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 15:46:03 -0500
+From: Jeff Renner <jeffrenner at comcast.net>
+Subject: AHA board elections
+
+
+AHA members
+
+
+That's all of you, right?  ;-)
+
+
+The election for the AHA Governing Committee (formerly Board of 
+Advisors) is open now until April 1.
+
+
+Candidates' statements and ballots are available in the March/April 
+Zymurgy or online at 
+http://beertown.org/homebrewing/membership/elections.aspx.
+
+
+Your AHA Governing Committee representatives have a very direct 
+impact on the direction of your Association.  There are nine well 
+qualified candidates running for the four open spots.  Please review 
+the statements and vote.  We on the Governing Committee want the AHA 
+to be a member driven and responsive organization.  Your vote is part 
+of this.
+
+
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner at comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 17:11:14 -0600
+From: "Randy Scott" <lists at rscott.us>
+Subject: Growing hops in Central Texas
+
+
+I would like to try growing hops this year. I'm in Austin TX - about 31 deg. 
+latitude. That's a fair bit out of the recommended growing zone of 35-55 
+deg. I assume that this means two problems - it's too hot, and there aren't 
+enough hours of sunlight per day.
+
+
+Any recommendations on varieties for this climate? I've done the Google 
+thing but haven't come up with a consensus on what varieties would work best 
+here. Cascade seems like a popular grower's choice. If they'd grow, I'd like 
+to try Willamette and Kent Golding - although the latter seems like a long 
+shot for this climate.
+
+
+Also, I've gotten conflicting advice on where to plant (south-facing to 
+maximize sunlight exposure, or east-facing to minimize heat). Thoughts?
+
+
+Any other advise or experiences?
+
+
+thanks
+ras
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 16:44:05 -0800
+From: "Michael O'Donnell" <mooseo at stanford.edu>
+Subject: Small keg pressure system
+
+
+Hi all,
+
+
+I was just trolling around the net and came up with something that I've 
+been looking for: a small CO2 delivery system for taking kegs to 
+parties.  I knew that the paintball people had little CO2 tanks, but they 
+use a strange valve (similar to disposable propane tanks) that won't fit a 
+standard regulator.  Then I heard about a "stabilizer" regulator which 
+allows a lot of adjustment... turns out that they are already aware of the 
+homebrew community, since they offer a "Beer" version.
+http://www.palmer-pursuit.com/online-catalog/stabilizer.htm
+
+
+No affiliation, yadda, yadda... can't even afford one, but it looks cool 
+without the waste of using disposable cartridges. Might be handy for people 
+trying to do conversions in really small refrigerators.
+
+
+cheers,
+Mike
+Monterey, CA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 28 Feb 2005 18:24:58 -0800 (PST)
+From: "H. Dowda" <hdowda at yahoo.com>
+Subject: SafAle 56 American Ale
+
+
+This product is on the Crosby and Baker web site.  Is
+anyone selling it?
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4728, 02/28/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

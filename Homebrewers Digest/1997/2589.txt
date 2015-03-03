@@ -1,0 +1,1554 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.5/8.8.5) with ESMTP id BAA09007
+        for <spencer`at`srvr5.engin.umich.edu>; Mon, 22 Dec 1997 01:35:43 -0500 (EST)
+Received: from twins.rs.itd.umich.edu (0`at`twins.rs.itd.umich.edu [141.211.83.39])
+        by srvr22.engin.umich.edu (8.8.7/8.8.7) with ESMTP id BAA25767
+        for <spencer`at`engin.umich.edu>; Mon, 22 Dec 1997 01:35:42 -0500 (EST)
+Received: (from root`at`localhost)
+        by twins.rs.itd.umich.edu (8.8.6/2.2) with X.500 id BAA10837; Mon, 22 Dec 1997 01:36:32 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by twins.rs.itd.umich.edu (8.8.6/2.2) with ESMTP id BAA10832; Mon, 22 Dec 1997 01:36:29 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA08023 for realhomebrew; Mon, 22 Dec 1997 00:32:16 -0500
+Date: Mon, 22 Dec 1997 00:32:16 -0500
+Message-Id: <199712220532.AAA08023`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2589 (December 22, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2589                             Mon 22 December 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Mash efficiency / Decoction mashing & Lautering (George De Piro)
+  Carbonation,Dangerous "NA " beer ("David R. Burley")
+  Cleaning Rust (John Palmer)
+  sankee keg for dispencing beer (michael rose)
+  Nitrogen and stout taps (Jack Schmidling)
+  RE: Nitrogen and Stout taps ("Mike Pierce")
+  $3.50 beer (Al Korzonas)
+  Re:Bottle Carbonation (Overfilling) (Kelly Jones)
+  Negra Modelo ("phil sides")
+  Re: Bottle Carbonation (Overfilling) (Scott Murman)
+  Cheap Orval... (Some Guy)
+  sweetening; nitrogen; gas burners; Orval (Samuel Mize)
+  Re: Don't go rushing to throw out your carboy and blow off tube (dfikar)
+  Press release: More MCAB News (Louis Bonham)
+  put your head back (AlannnnT)
+  More 60/70 and AA (Kyle Druey)
+  Aerating with wine yeasts (Chasman)
+  Using Malto-Dextrin/Lactose ("Roy R. Rimmele")
+  Triple Bock (Scott Moore)
+  corney secondary (crablesc)
+  Mills (Bill Giffin)
+  Open and Closed cases,Wine vs Beer Yeasts,Yeast storage ("David R. Burley")
+  Small-Scale Brewing, a review (Jack Schmidling)
+  Announcing URLs to this list ("Alan McKay")
+  Pils vs Pilsener ("Alan McKay")
+  Cooking the alcohol off (Mike Allred)
+  Steve's efficiency treatise ("Bryan L. Gros")
+
+
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to homebrew`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to homebrew-request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`realbeer.com
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org                        /pub/hbd/digests
+        ftp://ftp.stanford.edui                /pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 17 Dec 1997 09:06:20 -0800
+From: George_De_Piro`at`berlex.com (George De Piro)
+Subject: Mash efficiency / Decoction mashing & Lautering
+
+
+     Hi all,
+     
+     Steve contributed a great post about mash efficiency calculations.  I 
+     just wanted to comment on it a bit.
+     
+     I feel that Method D (the method that compares your actual extract to 
+     a somewhat random ideal for each malt type) is quite useful for recipe 
+     formulation.  As long as you keep careful notes, you will know what 
+     efficiency to expect from each malt type that you use, and recipes can 
+     be consistently repeated.  The first time you use a malt type is the 
+     only time that you may experience a bit of inaccuracy, because you 
+     don't know for sure how accurate the "ideal" extract number that you 
+     are using is.  In my experience you will be close, though.
+     
+     Not all homebrewers (very few, in fact) have access to malt spec 
+     sheets, and even fewer have access to the spec sheets for the actual 
+     lots of malt they are working with.  For this reason I find method D 
+     to be most useful.  Even though the values published in the Great 
+     Grain Issue are a bit whacked, I use them consistently, take careful 
+     notes, and can therefore formulate recipes with very good accuracy and 
+     consistency.  I always hit my OG + or - a point at the intended 
+     volume.
+     ---------------------------------
+     Paul (or the person he was responding to; it's hard to tell) asked if 
+     decoction mashing Marris-Otter malt could give it a greater tendency 
+     to cause a slow sparge.
+     
+     Decoction mashing any malt can make for a slower sparge.  While 
+     decoction mashing can reduce wort viscosity by removing proteins from 
+     the wort, this protein degradation also reduces the malt's structural 
+     integrity (large proteins and glucans are the "girders" of the grain). 
+      This means that the grain bed is easier to compact into a thick, 
+     impenetrable mass if you are not careful about controlling the rate of 
+     run-off.
+     
+     Of course, the brewing system will have a tremendous influence on 
+     susceptibility to stuck lauters, but in general one needs to be a bit 
+     more careful about running-off too quickly when decoction mashing.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 10:44:37 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Carbonation,Dangerous "NA " beer
+
+
+Brewsters:
+
+
+> JC Ferguson says:I
+>have a "stout" fawcet that I use to serve homebrew with the N2/CO2
+>gas mix, ala guinness.  I serve the beer out of cornelius kegs in a frid=
+ge
+>that has a temp at about 40F or so. .>
+
+
+>My problem is I can never get the beer to dispense ala guinness!  =
+
+
+>When I keg, I do not prime at all, since that would generate CO2.
+
+
+There's the mistake. Either prime or force carbonate with *pure* CO2.
+
+
+>I tap the keg, turn on the guinness gas, and pour a pint, but it comes
+>out with NO head! =
+
+
+
+
+Well, the beer has no CO2 in it, the applied gas is just pushing it out.
+
+
+> i have tried force carbonating with the guinness
+>gas on at 28 PSI and shaking the keg without a whole lot of luck.  =
+
+
+
+
+This gas is only partially CO2 which dissolves in the beer and the
+major head pressure is N2.
+
+
+>what I have observed is as the keg gets lower, the head starts to get
+>better. =
+
+
+
+
+Not surprising, as the keg gets lower you have a higher CO2 =
+
+
+amount/ beer which can dissolve in the beer at a given pressure.
+
+
+>What I'm looking for is a sure-fire, step-by-step method of getting
+>this to work just like force carbonating using C02 and having good
+results.
+
+
+Carbonate the beer in the Cornie first with *pure* CO2.
+
+
+The reason the Guiness tap works is that the beer comes out
+already carbonated.  In the mixer faucet, nitrogen is forced into
+the *foam* bubble (not the beer) - called "breaking out".
+The nitrogen gas virtually is not soluble in the beer, doesn't pass
+through the bubble wall quickly like CO2 and the foam has =
+
+
+a looong life.
+- ----------------------------------------------
+ "Liquid Man" aka Craig Myers says:
+
+
+>As to your question of NA brews:
+
+
+>1. Pre-heat the oven to 180 degrees F.
+>2. Place fermented beer in SS or enameled-pot in oven.
+>3. Leave in oven for 20-30 minutes, stirring occasionally.
+>4. Remove beer from oven and give final stir.
+>5. Cool beer using similar methods as when cooling wort.
+>6. Use force carbonation method to carbonate, or use
+priming sugar   and pitch yeast (baking killed all active yeast).
+>7. Bottle when beer is cool.
+>8. Wait normal couple of weeks as with alcoholic beers.
+
+
+>Viola!  Non-alcoholic Homebrew!
+
+
+Craig this is absolute BULLSHIT.  Do NOT ever give this "NA beer"
+to a recovering alcoholic or you will cause him/her a great deal
+of agony, as it has plenty of alcohol in it.  I have seen this sort of
+process published before.  Where did you find it?
+I'll try to kill this dangerous rumor.
+- ----------------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 09:14:16 -0800
+From: John Palmer <jjpalmer`at`gte.net>
+Subject: Cleaning Rust
+
+
+Bob asked how to clean the rusty weld on his keg.
+
+
+Very easy.  Use an oxalic acid based cleanser like Revereware Copper
+Cleaner, Kleen King Stainless Cleanser, or Bar Keepers Friend.  Put a
+little on a cloth and scour the rust away.  Rinse it thoroughly with
+fresh water, dry it, and allow it to sit exposed to the air indoors for
+a week or two. The rust should not return. ever.
+
+
+John Palmer
+metallurgist
+jjpalmer`at`realbeer.com
+http://www.realbeer.com/jjpalmer/
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 09:36:34 -0800
+From: michael rose <mrose`at`ucr.campus.mci.net>
+Subject: sankee keg for dispencing beer
+
+
+I hope to be doing 12 gallon batches soon and have realized that 2.5
+cornies just isn't going to work for me. My plans are to take a sankee
+keg and weld a 1" ball valve onto it. I'll use the valve for cleaning,
+rinising, filling with beer and carbonating via a airstone. I'll
+dispence beer with a regular sankee tap. For those of you that have
+already done this, any advice that you can give me would be appreciated.
+The drilling and welding will be done professionally.
+
+
+Jeff, from the I-15 south, exit and go left on Blaine. Left on Flanders
+for one block then right on Spruce St.
+mrose`at`ucr.campus.mci.net     mike rose    418 Spruce St.
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 10:37:14 -0800
+From: Jack Schmidling <arf`at`mc.net>
+Subject: Nitrogen and stout taps
+
+
+From: JC Ferguson <jc.ferguson`at`digital.com>
+
+
+Sorry to have to do this again but you have fallen into
+the Momily trap.
+
+
+Contrary to urban legend, nitrogen is not soluble in beer.
+Any attempt to carbonate with it will fail, even with a 
+50/50 mix.
+
+
+Guiness may have tiny bubbles but they are not nitrogen.
+
+
+The reason nitrogen is used to dispense beer is not to
+produce a nice head, it is because it can be dispensed at a
+higher pressure without causing additional carbonation and
+the foam that goes with it.  It's so they can sell more
+beer faster not to make tiny bubbles.
+
+
+Don't feel bad, I got sucked into it too but now I am back
+to good old CO2.  The reason I am so smart is because I have
+made so many mistakes.
+
+
+js
+
+
+- -- 
+Visit our WEB pages: 
+                        Beer Stuff.........http://ays.net/jsp
+                        Astronomy.......http://user.mc.net/arf
+             ASTROPHOTO OF THE WEEK..... New Every Monday
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 11:12:25 -0800
+From: "Mike Pierce" <mpierce`at`ccnet.com>
+Subject: RE: Nitrogen and Stout taps
+
+
+I don't have a sure fire step by step method, but I do know that Nitrogen is
+*much* less soluble than CO2. The fact that you are tending to get some
+effect towards the end of the keg indicates that when you change the
+gas/beer ratio in favor of the gas (less beer in keg--more gas) coupled with
+the duration (time in contact with gas) you are going in the right
+direction.
+The amount of dissolved gas in liquid is a result of three factors:
+1) Pressure
+2)Temperature (gas more absorbable at lower temps)
+3) Time
+If your tanks seal well, and you are not pressed for time, try using about
+60psi on the Nitro, and two days duration. Agitation helps, as would forcing
+the Nitro through a stone.
+Experiment. Document. Taste. As many times as it takes. That's my formula!
+Hope it helps.
+
+
+Wassail!
+
+
+Mike Pierce
+=::=::=::=::=::=::=::=
+mpierce`at`ccnet.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 13:25:49 -0600 (CST)
+From: Al Korzonas <korz`at`xnet.com>
+Subject: $3.50 beer
+
+
+Joe writes about Orval...
+
+
+>but I don't often shell out 3.50 for a 12 oz. beer.
+
+
+When you consider what Bud costs at a bar, I'd rather
+drink Orval at home (less smoky too!).
+
+
+In response to your question Joe... yes, Orval is usually
+very highly carbonated.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 12:05:05 -0800
+From: Kelly Jones <kejones`at`ptdcs2.intel.com>
+Subject: Re:Bottle Carbonation (Overfilling)
+
+
+In HBD #2585, Todd Goodman writes:
+> I've experienced exploding bottled homebrew once and that was with a batch
+> that I attempted to fill to the top in an attempt to reduce the oxygen in
+> the bottle.
+
+
+The most likely cause of your exploding bottles had nothing to do with
+overcarbonation (which, as you noticed in your other bottles, didn't
+exist) but but instead was caused by simple thermal expansion:  Beer,
+being pretty incompressible, and having a CTE (coefficient of thermal
+expansion) not equal to that of the glass, can exert enormous forces if
+the temperature changes after bottling.  Usually, the headspace acts
+like a cushion to absorb this force.  If there's no headspace, theres no
+cushion, and you run a higher risk of exploding bottles when the beer
+expands.
+
+
+Always leave at least a little bit of headspace in any bottle.
+
+
+Kelly
+Hillsboro, OR
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 12:42:18 PST
+From: "phil sides" <hopsock`at`hotmail.com>
+Subject: Negra Modelo
+
+
+>Date: Mon, 15 Dec 97 12:33:05 CST
+>From: jwilkins`at`wss.dsccc.com (John Wilkinson)
+>Subject: Negra Modelo
+
+
+>Negra Modelo (not Negro Modelo) is called a "dark ale" on its label.
+>I don't know if it is really an ale but it is the best Mexican, or >for 
+that matter the best American, beer I have had.  I had a couple >last 
+night in Joe T. Garcia's restaurant in Ft. Worth, as a matter of >fact.
+
+
+>John Wilkinson - Grapevine, Texas - jwilkins`at`wss.dsccc.com
+
+
+John,
+Actually, Negra Modelo is a fine example of a Vienna-style Lager.  There 
+actually is a good story about how the German-trained brewmasters ended 
+up in Mexico, but I think I had a few too many Lagers that night.  
+Anyone else remember?
+
+
+
+
+
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 14:38:42 -0800
+From: Scott Murman <smurman`at`best.com>
+Subject: Re: Bottle Carbonation (Overfilling) 
+
+
+
+
+> I know others have reported exploding bottles when underfilled, but
+> this seems counterintuitive to me (and counter to my experiences
+> since I usually bottle a partially filled bottle each batch).
+> 
+> Todd Goodman
+
+
+As one who has written to the HBD about this subject in the past, I
+just wanted to clarify what I observed.  I did not note that the
+underfilled bottles were more prone to explode.  I had some
+over-filled, and some under-filled bottles from the same batch, and I
+don't know exactly which ones broke.  I did note that when I relieved
+the pressure on these babies, the underfilled bottles seemed much more
+carbonated.  In fact they resulted in gushers.  I've since felt that
+for some reason a low fill level can rapidly bring the CO2 out of
+solution, but I don't know why.  I don't have any theories I'm crazy
+about, so if anyone wants to speculate (publicly or privately) I'm
+willing to listen.
+
+
+SM
+about 1-1/2 hours southwest of the Lagunitas Brewing Co.
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 17:59:52 -0500 (EST)
+From: Some Guy <pbabcock`at`oeonline.com>
+Subject: Cheap Orval...
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Joe writes about Orval... 
+                                                                                
+>but I don't often shell out 3.50 for a 12 oz. beer.     
+
+
+Ye gads! $3.50?!? Where do you live? That's almost half what I pay!
+Pack yer bags, Ma! We's movin' today!
+
+
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`oeonline.com
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org   
+The Home Brewing Page              http://oeonline.com/~pbabcock/brew.html
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 17:20:56 -0600 (CST)
+From: Samuel Mize <smize`at`prime.imagin.net>
+Subject: sweetening; nitrogen; gas burners; Orval
+
+
+Greetings to all,
+
+
+A couple of people have recently asked about sweetening a stout
+without using lactose.  It that it was commonplace historically
+to sweeten beer when it was served, by adding some sugar or
+simple syrup.  This is still done today with at least one brand
+of lambic.  If you can't get the sweetness you want by adjusting
+your mash or caramelizing your wort, you might try this.
+
+
+
+
+> From: JC Ferguson <jc.ferguson`at`digital.com>
+> Subject: Nitrogen and stout taps
+> 
+> I have a "stout" fawcet that I use to serve homebrew with the N2/CO2
+> gas mix, ala guinness.
+ ...
+> When I keg, I do not prime at all, since that would generate CO2.
+> I tap the keg, turn on the guinness gas, and pour a pint, but it comes
+> out with NO head!
+
+
+With no CO2, you will get no head.  You need to lightly prime or
+force-carbonate lightly, then DISPENSE with the N2/CO2.  I don't know how
+many volumes of CO2 to tell you to carbonate to.
+
+
+> what I have observed is as the keg gets lower, the head starts to get
+> better. 
+
+
+Yep.  More CO2 is getting forced into the beer.
+
+
+
+
+> From: Stankau <Stankau`at`aol.com>
+> Subject: Request advice on gas burners
+> 
+> Fortunately as a compromise I am getting a
+> gas burner for Christmas.
+
+
+The advice I've seen, that makes sense to me, is to look for a ring burner
+rather than a "jet engine" type burner, as those tend to shoot a lot of your
+BTUs right past the kettle.  You'll spend a lot more on propane.  From what
+I've read, a 30K BTU ring burner will boil your wort plenty fast, but "fast
+enough" varies widely from person to person.  Some people really love their
+rocket engines, believe they get a faster boil (may be right), and don't mind
+paying for the extra propane.
+
+
+
+
+> From: Headduck <Headduck`at`aol.com>
+> Subject: Orval and bad grain info
+> 
+> Just a note on bad information.  I bought a can of extract recently
+> ...  On the label
+> under ways to improve your brew it states: "More colorful and flavorful beers
+> can be made to suit your own taste by adding crushed caramel, crystal and/or
+> black malt to the boiling wort."
+> 
+> Shouldn't these people know better???
+
+
+Well, they said it would be "more flavorful" -- tannic astringency is a
+flavor...  Maybe they figure if you're having trouble using specialty grains,
+you'll buy more of their pre-flavored kits.  Or maybe they're just big
+Papazian fans.
+
+
+Best,
+Sam Mize
+Irving TX
+
+
+Beer is my heaven, but I'm too early to be late.
+ - -- 
+Samuel Mize -- smize`at`imagin.net -- Team Ada
+Fight Spam - see http://www.cauce.org/
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 20:39:16 -0600 (CST)
+From: dfikar`at`flash.net
+Subject: Re: Don't go rushing to throw out your carboy and blow off tube
+
+
+
+
+>Don't go rushing to throw out your carboy and blow off tube (George De Piro)
+>
+>     Hi all,
+>     
+>     Dave Burley writes about the evils of blow off tubes and closed 
+>     fermenters (i.e., carboys).  He encourages the use of a plastic pail 
+>     covered with plastic wrap.
+>     
+>     While you can get acceptable results using his method, plastic pails 
+>     are actually quite a bit more difficult to keep in sanitary condition 
+>     than glass carboys.  Plastic scratches easily, and once it is 
+>     scratched, it is no longer useful as a sanitary vessel.
+
+
+I respectfully disagree.  I have been brewing for only about 14 months now but
+have made 31 batches to date - all in the same plastic bucket that I started
+out with.  You can keep from scratching the plastic simply by using your hand
+to wipe off the gunk with warm water.  It rarely takes me more than a couple
+of minutes to clean the bucket.  I use iodophore to sanitize the bucket after
+is clean.  I have never had an infection - at least that I know of. :-)
+
+
+Also, you make mention of infection potential from dirty blow off tubes.  I
+did not see the original post.  I assume that by "dirty" you mean the spooge
+that blows through the tube (yeast, etc.).  If so, I would wonder what the
+souce of the pathogen would be if you use sanitized tubing with the loose end
+submersed in disinfectant?  I know that the gunk in the tube would make
+good nutrient media for bugs but how would they get in there in a closed
+blowoff system?  
+
+
+- ---------------------------------------------
+Dean Fikar - Ft. Worth, TX (dfikar`at`flash.net)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 21:23:56 -0600
+From: Louis Bonham <lkbonham`at`phoenix.net>
+Subject: Press release: More MCAB News
+
+
+The Masters Championship of Amateur Brewing ("MCAB") is pleased to
+announce that it has added the Bay Area Mashers' World Cup of Beer
+competition as its California-based Qualifying Event.   When the original
+list of Qualifying Events was announced last month, the MCAB indicated
+that it was seeking to identify a suitable California competition to serve as
+a QE.  Thanks to the hard work of MCAB Steering Committee member
+Byron Burch, we were able to find several excellent competitions to choose
+from.
+
+
+At present, nine of the eleven invited Qualifying Events have confirmed that
+they will participate in the MCAB.  In chronological order, they are:
+
+
+February 20-21           Kansas City Bier Meisters competition
+                        Contact person: Alberta Rager
+                        913-894-9131
+
+
+February 20-21          Boston Homebrew Competition
+                        Contact person: Ken Jucks
+                        jucks`at`cfaft4.harvard.edu
+
+
+March 28                World Cup of Beer (Berkeley, CA)
+                        Contact person: Doug Ashcraft
+                        Ashcraftmd`at`aol.com
+
+
+April 18                Bidal Society Competition (Kenosha, WI)
+                        Contact person: Jeffrey C. Sparrow
+                         jeffrey.c.sparrow`at`monsanto.com
+
+
+May 15                  Sunshine Challenge (Orlando, FL)
+                        Contact persons: Steve Vallancourt
+                        STEVEBRAU`at`aol.com
+                        Carl Saxer
+                        clsaxer`at`aol.com
+
+
+June 7                  BURP Spirit of Free Beer (Vienna, VA)
+                        Contact person: Mark Stevens
+                        stevens`at`burp.org
+
+
+June                    BUZZ-Off (Philadelphia, PA)
+                        Contact person: Chuck Hanning
+                        Chuck_R_Hanning`at`sbphrd.com
+
+
+October                 Dixie Cup (Houston, Texas)
+                        Contact person: Steve Moore
+                        swm`at`pdq.net
+
+
+November                Novembeerfest (Seattle, WA)
+                        Contact person: Jim Hinken
+                        jhinken`at`accessone.com
+
+
+The two remaining invited QE's -- the Bluebonnet Brew Off (Dallas-Fort Worth,
+TX) and a Canadian competition to be designated by the CABA -- have not yet
+accepted or declined the MCAB's invitation.  The CABA has indicated its strong
+interest in participating in the MCAB, but is having difficulties in finding a
+Canadian club with sufficient resources that is willing to run a QE. The
+Bluebonnet Brew Off has indicated that it may have an administrative problem
+with the MCAB's requirement of BJCP style guides for the 18 MCAB
+Qualifying Styles.  While the MCAB hopes that these issues can be resolved by
+year end, it is possible that replacements for these QE's may have to be found.
+
+
+The actual MCAB competition will be held in Houston in early 1999, and will
+be hosted by the Foam Rangers Homebrew Club of Houston.  Current Foam
+Rangers' Grand Wazoo and former Dixie Cup organizer Steve Moore will be
+in charge of the logistics for the actual competition.  The formal rules for the
+
+
+MCAB competition are under development, and will hopefully be released
+early in 1998.  We also hope to name a date and precise location for the
+MCAB soon.
+
+
+Finally, noted beer authority Fred Eckhardt has joined the MCAB
+Steering Committee.  Eckhardt, author of The Essentials of Beer Style
+and numerous other works, brings his decades of experience in the world
+of amateur brewing to the MCAB.  We are pleased and honored to have
+Fred as a part of the MCAB team.
+
+
+For more information on the MCAB, check the MCAB website:
+
+
+hbd.org/mcab
+
+
+or contact Louis K. Bonham at lkbonham`at`phoenix.net.
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 01:39:24 EST
+From: AlannnnT <AlannnnT`at`aol.com>
+Subject: put your head back
+
+
+Hi all,
+
+
+I've got another way to put the head back in your poured beer. In case you are
+sitting in a pub and don't happen to have a syringe handy, try this old
+photographer's trick. 
+Start with a headless glass-o-brew, not full! Leave room for head development.
+Roll up your tiny, otherwise useless, bar napkin into the shape of a skiny
+cigar. Hold one end of the napkin firmly in your drinking hand. Very quickly
+plunge the end of the napkin into the beer and rapidly piston the napkin up
+and down 5 or 6 times. Viola! Mega head appears magicaly in the glass [and all
+over the bar top].
+
+
+I have used this technique many times in my former life as a photographer, try
+it, it has never let me down. And no special tools required.
+
+
+Alan Talman
+Thirty or thirty five miles from Brooklyn Brewing Co. GABF gold and bronze
+winners 1997. Damn good beer too. [for store bought]
+ 
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 00:09:02 -0800
+From: Kyle Druey <kdldmd`at`lightspeed.net>
+Subject: More 60/70 and AA
+
+
+Concerning a 140 F rest and apparent attenuation Dave Burley writes:
+
+
+>Kyle Druey did a nice number manipulation with his series of
+>mashes in an attempt to discover a relationship between a hold
+>at 140F and the %AA.  I was surprised to see this, since I believe
+>such a relationship doesn't exist. How then can his hard numbers
+>match up with my cognitative dissonance?
+
+
+Here is what others say about the relationship between mashing at lower 
+temperatures and fermentability:
+
+
+"many traditional mashing systems have used two or more temperature rests 
+in that part of the mash devoted to starch conversion.  One rest is 
+typically in the range of 55 to 60 C, which is optimal for amylase 
+activity.  During this rest 70 to 80% of the starch is converted.  A 
+second rest in the range of 65 to 70 C is used to finish off the starch 
+conversion at a faster rate."  
+Fix, "Principles of Brewing Science" p. 95
+
+
+"...lower temperatures yield worts with greater fermentability, while 
+higher temperatures produce higher dextrin levels."
+Fix, "Principles..." p. 96
+
+
+These paraphrased comments are from "Brewing" by Michael Lewis and Tom 
+Young:
+ -beta amylase works best at 55-60 C while alpha amylase about 10-15 C  
+ higher, p. 109
+ -mashing is *beta amylase* sensitive and therefore  a 
+ fermentability-sensitive event, p. 109
+ -beta amylase denatures in 10 minutes at 70 C,  p.111 fig 7.2
+ -errors that affect beta amylase activity will show up in lower  
+ fermentability before total extract (alpha amylase) is affected by the  
+ same error, p. 114
+ -some mashing procedures incorporate a temp stand at about 55 C  
+ specifically to promote beta amylase action and hence wort  
+ fermentability, p. 117
+ 
+I believe that the refenrences cited above all support my analysis that 
+there indeed is a relationship between the amount of time the mash is 
+held at 140 F and the apparent attenuation of the wort.  Using only a 
+linear regression of my data with apparent attentuation as the dependent 
+variable and the time at 140 F as the independent variable produces a 
+correlation coefficient of 0.95.  I think even Dave Burley would agree 
+this indicates a strong relationship.  I know Dave will probably try and 
+convice me that my mashing data has produced a spurrious relationship, 
+but then again Fix, Lewis, and Young seem to indicate to the contrary.
+
+
+Kyle Druey
+brewing in Bakersfield, CA
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 1997 23:49:56 -0800
+From: Chasman <cwhudak`at`gemini.adnc.com>
+Subject: Aerating with wine yeasts
+
+
+Andrew asks why you don't aerate with wine yeasts:
+
+
+>Why is oxygenation not an issue w/ wine yeasts, at least not in the home
+>wine making literature that I've read?  I was quite suprised to read that
+>ale & wine yeasts are actually the same kind of yeast (obviously different
+>strains) - so why do you not oxygenate your must when you must (heh heh)
+>oxygenate your wort?
+
+
+I oxygenate anything that I am going to ferment regardless of the type of
+yeast, that includes musts (mead, cider, wine) and wort. I have never heard
+that wine yeasts don't need oxygenated wort/must and having transitioned to
+mead/cider making from beer, I continue to oxygenate.
+
+
+I did peruse my one winemaking book and it discusses the idea that in the
+presence of oxygen, the yeast will not produce the maximum amount of
+alcohol from the available sugar and that you want to eliminate any oxygen
+in the must after fermentation starts.
+
+
+Hmmm, perhaps it has to do with the differences in production methods for
+beer and wine...
+
+
+In beer making, after boiling the wort for 60+ minutes, you have driven off
+most if not all of the oxygen that the yeast need for cell growth. In must
+production, the crushing of the fruit probably splashes the must around a
+bit and aerates it to some degree. 
+
+
+Sounds reasonable to me. AFAIK, wine and ale yeasts do not differ in their
+oxygen requirements. I say don't debate, aerate!! (chuckle, chuckle).
+
+
+Charles Hudak in San Diego, California (Living large in Ocean Beach!!)
+cwhudak`at`adnc.com
+ICQ# 4253902
+"If God had intended for us to drink beer, he would have given us stomachs."
+- --David Daye
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 17 Dec 97 22:03:19 -0500
+From: "Roy R. Rimmele" <flossbos`at`downcity.net>
+Subject: Using Malto-Dextrin/Lactose
+
+
+I recently brewed a Raspberry Stout. When I racked it into the secondary, 
+there was a very distinct change from very raspberry sweet taste after 
+brewing. The fruit taste has become very tart. I experienced this 
+previously when I brewed a lambic style kriek. The trouble is I would 
+like to take the edge off the tartness, and make the finished beer a bit 
+sweeter. After reading in Papazzion's book about malto-dextrin and 
+lactose, I think I want to use malto-dextrin when I bottle.....Help! 
+Please let me hear how you've used it. Did you achieve the results you 
+wanted? How much did you use for a 5 gallon batch?.....Thanks in advance 
+Roy :{)
+
+
+>                            Roy R. Rimmele
+>                         flossbos`at`mindport.net
+>                           flossboss`at`aol.com
+
+
+                     'So much beer.....so little time!
+>
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 09:20:28 -0500
+From: Scott Moore <kcumoore`at`earthlink.net>
+Subject: Triple Bock
+
+
+Being a long time lurker on this forum I'd like to first thank the
+collective for helping make each batch I've made great (so far...).
+
+
+I recently had a chance to try Samuel Adams Triple Bock and I was very
+disappointed.  I found it to be thick, sickenly sweet with no hop
+balance, and uncarbonated.  I'm a big fan of high gravity beers
+(Eggenberger Urbock being the best beer ever produced) and  at 6.50 a
+bottle I expected it to be at least drinkable.
+
+
+My question, is this typical for this beer or did I just get a hold of a
+bad batch?  I really like unique beers and will try anything a couple of
+times but I have a hard time believing anyone would find this beer
+good.  If it was a bad batch I would like to give it another shot.
+
+
+Private replies are fine to save bandwidth.
+
+
+Thanks,
+
+
+Scott Moore
+Currently lagering in Cleveland, OH - The Rock and Roll Capital of the
+Universe and not too far from Jeff.
+kcumoore`at`earthlink.net
+
+
+Clever sig still under construction...
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 10:03:58 -0500
+From: crablesc`at`email.uc.edu
+Subject: corney secondary
+
+
+My apologies to the collective for dredging up an old thread but I recall a 
+discussion not too long ago on using a corney keg as a primary or secondary 
+fermenter. I wish to lager a bock but alas, it's a little tight in the 
+fridge for a carboy in addition to the two kegs presently occupying it. 
+However, a third corney would fit. My question is, what type of air-lock 
+setup works best for this arrangement? Thanks.
+Scott Crable
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 10:07:17 -0500
+From: Bill Giffin <billg`at`ctel.net>
+Subject: Mills
+
+
+Top of the morning to ye all,
+
+
+Again Jack defends his mill, and I agree his mill is fairly well made.  But
+for the money you cannot beat the Corona mill.  Dollar for dollar, without
+question the Corona is the best buy.  Contrary to Jack's assessment  the
+malt  mill will allow small grains to pass through the mill without being
+properly crushed.  I also had a difficult time getting the proper crush on
+some German Pilsner malt.
+
+
+If you take apart a Corona mill you will see that the plates are not flat,
+but when properly adjusted the mill presents much same attack as a
+commercial mill.  Much of the problem with the Corona comes from the mill
+not been properly adjusted.  To properly adjust the Corona, use a dime as a
+feeler gauge then take additional 1/4 to 1/8 turn inward then the mill will
+be properly adjusted.  
+
+
+Much of the reason for fractured husks has been as a result of not properly
+adjusting the mill.  If the mill is adjusted to couarsely than the malt
+corn goes through the mill on end breaking up the husk.
+
+
+Stuck mashes are more a result of improper process than to fine a crush.
+
+
+When I conducted a screen test on both the malt mill and the Corona only 50
+percent of the crush pasted through the screen from the malt crushed by the
+malt mill whereas 75 percent passed through the screen when using the
+Corona mill.  A properly set commercial mill would allow 85 percent to pass
+through the screen.  You see  the Corona came closer to commercial
+standards that did a malt mill.
+
+
+Save your money and don't buy an expensive mill, get a Corona. 
+
+
+Bill
+
+
+Bill Giffin
+61 pleasant street
+Richmond, Maine
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 09:51:50 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Open and Closed cases,Wine vs Beer Yeasts,Yeast storage
+
+
+Brewsters:
+
+
+AlK comments on my comments:
+
+
+>You've been critical of me for questioning the Clinitest without
+>experience,
+
+
+Yep
+
+
+> but it's okay for you to question blowoff hose cleaning
+>methods with which you have no experience?  Ahh, ahh, ahh... ;^).
+
+
+{8^)  Not true.  My first excursion into brewing used this method =
+
+
+ - long before Charlie's book.  I may have been shown this method
+by another Prohibition trained brewer ( and maybe that's where
+Charlie learned it?) or invented it myself - don't remember.
+I even tried to ferment at a more concentrated wort and then
+dilute it to keep down the foam. I do know that when I met open
+fermentation methods during my post-doc in Britain, I knew this
+was the way.  When Charlie's book came out, I tried it again and
+was totally disappointed. With all grain of course it is impossible
+to use a 5 gallon fermenter and a 6.5 gallon is a must.
+
+
+My point is, if you are going to use a 6.5 gallon fermenter to prevent
+overflow, why not use open fermenter which can be easily cleaned?
+
+
+>Ever tried it?  A 1-day soak in PBW or a week in 200ppm chlorine bleach
+>makes that grungy ring wipe off easily.  Again, are you speaking from
+>experience?  I am.
+
+
+Yep.  First, I don't like to have gallons of water sitting around
+with organic material  in them -( other than beer).  My plastic
+containers can be nested easily and put away in my brewing
+closet when dry.  I have let them sit around on occasion with
+water and a little bleach in them when I was pressed for time =
+
+
+and I don't disagree that the ring is softer than after the fermentation.=
+
+
+However, a quick wash with bleach and hot water immediately
+on racking the beer to the secondary is all that is needed and =
+
+
+how I normally do it.  I just have no good reason to do as you
+suggest and a long time sitting around with depleted, dilute bleach =
+
+
+could lead to contamination.
+
+
+>  I've used both open and closed fermenters.
+>Incidently, those plastic scrubbers are likely to scratch your fermenter=
+=2E
+
+
+I normally don't use any scrubber.  At the most, a paper towel,
+although I have used a plastic scrubber, on occasion,
+without problem. I have yet to see the proof that scratches on
+either glass or plastic harbor microorganisms in properly
+disinfected equipment. I suspect a Charlie P mommily.
+
+
+The biggest problems with glass are that it is heavy, breakable
+and thermally shocked as a recent contributor noticed when his
+rug started turning brown suspiciously close to his closet.
+This thermal sensitivity may be why you have to use cold soaks
+over a long time. Ease in storing the dry fermenter with stuff in it
+is a plus in my case.  =
+
+
+
+
+To re-iterate my point - there is no reason why great beer can't be
+made in either method as experience in both our cases =
+
+
+( and many others) show.  The question comes down to the
+ease of use and the risks of each method. I still come down =
+
+
+on the side of open fermentation in plastic as I have detailed
+previously. That's what makes horse races I guess - it is a
+personal decision and hopefully we have explored all the issues.
+- -----------------------------------
+Drew Avis says:
+
+
+>Why is oxygenation not an issue w/ wine yeasts, at least not in the home=
+
+
+>wine making literature that I've read?  I was quite suprised to read tha=
+t
+>ale & wine yeasts are actually the same kind of yeast (obviously differe=
+nt
+>strains) - so why do you not oxygenate your must when you must (heh heh)=
+
+
+>oxygenate your wort?
+
+
+Good question. Being both a brewer and a wine maker, I
+asked the same question.  It amounts to the fact that you use
+wine yeast only once and can use brewer's yeast more times.
+In wine also, the non-enzymic browning from oxygen is also a problem
+and would give a rotted fruit taste to the wine.
+
+
+I only oxygenate wort since I re-use my beer yeasts many times
+and evidence (M&BS) has it that if you don't oxygenate the wort
+before fermentation then the yeast begins to ferment more and =
+
+
+more poorly with subsequebt pitchings, giving off-flavors
+(like esters, aldehydes, etc.)  and lower AA.
+
+
+There is a substantial difference over 5 re-uses.
+
+
+I suspect the myth ( as best as I can tell) that yeast "mutate" after
+5 re-uses is due to this kind of phenomenon and perhaps
+bacterial contamination.
+
+
+On the negative side, AJ DeLAnge has pointed out that oxygenation
+of the cold wort can produce aldehydes ala his comments on the
+smell of starters after oxygenation.  I always oxygenate my worts
+with the active yeast already pitched to reduce any side reactions
+like this and hope any by-products are chewed up during the
+fermentation.
+- --------------------------------------------------------
+AlK comments on my suggestion to use distilled, =
+
+
+sterile water to store yeast a long time.
+
+
+Like you, I have re-juvenated yeast from beers some
+years old, but my comment was that this can be dangerous, =
+
+
+since the beer above the yeast can become bacterially
+contaminated.  I have also had the experience that yeast =
+
+
+ - especially lager- continued to ferment the higher sugars
+and other stuff in the beer and produce a real fizzer which
+caused me to lose a substantial portion of yeast.
+
+
+My suggestion to cause the yeast to go dormant and prevent
+bacterial contamination by removing all food sources is not
+a development of mine, but comes from Copenhagen about
+1930 ( or maybe earlier) or so as I recall and allows one to
+store yeast at room temperature for several years.
+
+
+I store my yeast in the refrigerator, capped and under water.
+If Santa's real good to me,I'll get a sterilizable vacuum funnel,
+so I can do this washing faster with less chance of contamination. =
+
+
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 08:26:51 -0800
+From: Jack Schmidling <arf`at`mc.net>
+Subject: Small-Scale Brewing, a review
+
+
+Small-Scale Brewing
+By: Ilkka Sysila
+
+
+Calling this a review is a bit misleading because I only skimmed it 
+and read the parts that I found most interesting.  Ilkaa does a nice
+job of covering the fundamentals of brewing  in a manner somewhere
+between Papazian and Fix.  It's about as technical as one needs to
+get to make good beer and at the same time, easy reading.
+
+
+This book is aimed at the advanced brewer and the discussions and
+illustrations are a  mix of serious homebrew equipment and small to
+medium scale commercial brewing.  It is refreshing not to have to
+wade through all the really basic stuff like hydrometers, blow off
+tubes and bottle cappers.
+
+
+What I like most about the book (written in Finland) is the "local
+color".   The photos alone make the book unique.  The chapter on
+water opens with a picture of a boy straining at a rural hand pump
+to fill a plastic bucket.  Glass carboys are presented in quaint woven
+baskets.  One local brewery looks more like an outhouse on a farm.
+
+
+The very extensive section on Finnish Sahti shows an old geezer
+sparging a batch in a hollowed out log setup that looks like it is
+several centuries older than he is.  The aura is only destroyed when
+we later see how they are made these days.  The guy with the
+chain saw just doesn't fit.
+
+
+The photos and drawings on the commercial operations  will provide
+hours of serious pondering.  They are a gold mine of ideas.
+
+
+I have been exchanging mail with the author for a number of years
+and he sent me a copy for my own enjoyment and I thought I 
+would share my thoughts with the group.  As a point of interest,
+one of the photos shows a Finnish version of a large hopper on
+one of our mills.
+
+
+The only problem with the book is that it is not readily available
+in this country but I guess he is working on that.  If you want to
+communicate with the author his email is:    isysila`at`clinet.fi
+
+
+js 
+
+
+- -- 
+Visit our WEB pages: 
+                        Beer Stuff.........http://ays.net/jsp
+                        Astronomy.......http://user.mc.net/arf
+             ASTROPHOTO OF THE WEEK..... New Every Monday
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 10:27:26 -0500
+From: "Alan McKay" <Alan.McKay.amckay`at`nt.com>
+Subject: Announcing URLs to this list
+
+
+
+
+Hi folks,
+>
+>When you announce a URL to the HBD , if you give a complete URL most 
+>Email and web programs will allow people to click directly on the URL to go
+>to the site.  
+>But when you give only a partial URL as many people do in the HBD, we can't
+>click 
+>directly on it. Typing a few extra characters saves us all a lot of typing.
+>
+>e.g.
+>
+>www.realbeer.com/
+>http:/www.realbeer.com/
+>
+>In my mail program, I can click directly on the 2nd one, but not on the first
+>one.
+>
+>So please, folks, give complete URLs.
+>
+>cheers,
+>-Alan
+>
+>
+>--
+>Alan McKay
+>Nortel Enterprise Networks
+>Norstar / Companion / Monterey Operations
+>PC Support Prime
+>
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 10:22:41 -0500
+From: "Alan McKay" <Alan.McKay.amckay`at`nt.com>
+Subject: Pils vs Pilsener
+
+
+
+
+The only difference between "Pils" and "Pilsener" is that the former
+is the English word, and the latter is the German word.
+
+
+ -Alan
+
+
+- --
+Alan McKay
+Nortel Enterprise Networks
+Norstar / Companion / Monterey Operations
+PC Support Prime
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 09:52:15 -0700
+From: Mike Allred <mballred`at`xmission.com>
+Subject: Cooking the alcohol off
+
+
+>From: "Liquid Man" <luv2jeep`at`redrose.net>
+>As to your question of NA brews:
+
+
+>1. Pre-heat the oven to 180 degrees F.
+>2. Place fermented beer in SS or enameled-pot in oven.
+>3. Leave in oven for 20-30 minutes, stirring occasionally.
+>4. Remove beer from oven and give final stir.
+
+
+(SNIP)
+
+
+I'm no expert, but wouldn't this procedure produce alcohol fumes that could
+explode when the oven 'cycles' to keep the heat constant?
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Dec 1997 10:04:54 -0800
+From: "Bryan L. Gros" <gros`at`bigfoot.com>
+Subject: Steve's efficiency treatise
+
+
+In HBD #2585, Steve Alexander posted a great article
+describing four methods of measuring your mash or
+brew efficiency.  Very clear, straightforward descriptions
+of each measure, and he recommends comparing your
+numbers to the DBCG numbers (dry basis coarse
+grind percentage, available on malt spec sheets).
+
+
+Steve, as you explain, all methods use numbers from either
+malt spec sheets or average numbers from some publication.
+
+
+Method A uses the percent moisture numbers from BT
+Market Guide.  Method B uses the DBCG numbers, also
+from the BTMG.  Method C uses the "homebrew" standard
+of 36 pts/lb/gal.  And Method D uses potential pts/lb/gal
+from the Zymurgy Great Grain issue.
+
+
+You mention that the numbers for Methods C&D are fairly
+arbitrary and thus are poor standards for comparison.  But
+what about the numbers for Method A & B?  Are the moisture
+numbers more constant from batch to batch, or malster to
+maltster?  How does moisture in the malt change during
+storage?
+
+
+If moisture numbers are fairly constant, then simply
+tracking your extract (in pts/lb/gal) from batch to batch
+would suffice.  If you normally get 28 pts/lb/gal and on a
+certain batch you get 26, you know something changed.  
+One advantage of Steve's Method B is that it would account
+for lower extraction due to the specialty malts used.
+
+
+  - Bryan
+
+
+Bryan Gros
+gros`at`bigfoot.com
+Oakland CA
+Visit the Draught Board site
+http://www.dnai.com/~thor/dboard/index.htm
+
+
+------------------------------
+End of HOMEBREW Digest #2589, 12/22/97
+*************************************
+-------

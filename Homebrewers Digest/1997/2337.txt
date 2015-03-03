@@ -1,0 +1,1337 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr12.engin.umich.edu (root`at`srvr12.engin.umich.edu [141.212.2.68]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id SAA22988 for <spencer`at`srvr5.engin.umich.edu>; Wed, 5 Feb 1997 18:18:45 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+          by srvr12.engin.umich.edu (8.8.4/8.8.4) with ESMTP
+          id RAA23051 for <spencer`at`engin.umich.edu>; Wed, 5 Feb 1997 17:07:38 -0500 (EST)
+Received: by redheat.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id RAA17203; Wed, 5 Feb 1997 17:07:37 -0500 (EST)
+Received: from brew.oeonline.com by redheat.rs.itd.umich.edu (8.7.5/2.2)
+        with ESMTP id RAA17144; Wed, 5 Feb 1997 17:07:29 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id NAA32122 for realhomebrew; Wed, 5 Feb 1997 13:14:50 -0500
+Date: Wed, 5 Feb 1997 13:14:50 -0500
+Message-Id: <199702051814.NAA32122`at`brew.oeonline.com>
+To: homebrew`at`brew.oeonline.com
+From: homebrew-request`at`brew.oeonline.com (Request Address Only - No Articles)
+Reply-to: homebrew`at`brew.oeonline.com (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`brew.oeonline.com
+Precedence: bulk
+Subject: Homebrew Digest #2337 (February 05, 1997)
+
+
+
+
+
+
+HOMEBREW Digest #2337                             Wed 05 February 1997
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`brew.oeonline.com
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Wyeast 1056 and High O.G. (Eric Scheidler)
+  Dead Yeast ??? (Matthew Taylor)
+  Copper/Formulation Seminar/Gueuze/Flavor :-( (Rob Moline)
+  Hops (Bruce Baker)
+  Mashing? (Mark)
+  Barstow BEER??? ("Jeff L. Foley")
+  spigot for Aluminum brewpot ("John T. Moore")
+  Re: Malting amaranth (Scott Kaczorowski)
+  Re:NT 3.5 "easter egg" ("Mark S. Johnston")
+  1997 Moon Madness ("Mark S. Johnston")
+  re: Large Volume Bottling (Mike Porter)
+  Canning Wort = Death? (Katy or Delano DuGarm)
+  Predicting FG, Predicting OG ("David R. Burley")
+  The Decoction From Hell - What Did I Create? (BernardCh)
+  Beer recipe clones (DavidR8467)
+  Beer Engine Source in London? ("C&S Peterson")
+  Beer in SF ("C&S Peterson")
+  Filtering Beer.... ("C&S Peterson")
+  Re: purging with CO2 ("Keith Royster")
+  Stout, Siphons, History of HBD (Paul Ward)
+  Heineken in green glass (John Chang)
+  Hail to Ale COC Results (Larry M Matthews)
+  Melanoidins, Who Needs 'em? (Strawberries have dextrin?) (Charles Burns)
+  Newbie making stout (bmurrey)
+  Strange Fermentation (Bob Bessette/PicTel)
+  Brew-Ski '97 (Homebrewing Competition) (Jeff Handley & Gene Almquist)
+  Milk Stout, paddling along ("David R. Burley")
+  Homebrew Digest #2335 (February 04, 1997) -Reply (Skjalg Myklebust)
+  suscribe mailinglist (Gero en Rico)
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  brew.oeonline.com 
+
+
+Send articles for __publication_only__ to homebrew`at`brew.oeonline.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`brew.oeonline.com BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  you must unsubscribe by sending a one line e-mail to listserv`at`ua1vm.ua.edu 
+  that says: UNSUB BEER-L
+
+
+Thanks to Pete Soper, Rob Gardner and all others for making the Homebrew
+  Digest what it is. Visit the HBD Hall of Fame at:
+                        http://brew.oeonline.com/
+
+
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 3 Feb 1997 15:54:21 -0600 (CST)
+From: Eric Scheidler <ejs000`at`dns.colum.edu>
+Subject: Wyeast 1056 and High O.G.
+
+
+Yesterday I pitched a large quantity of healthy Wyeast 1056 into a wort 
+of much higher gravity than I was expecting--1.073.  I'm aiming for an 
+old ale, so the gravity itself is fine with me, but I'm a little 
+concerned that 1056 might not be able to handle it.  I'd have diluted the 
+wort a bit, but at the time of pitching the wort in my hydrometer was 
+still rather foamy, so I couldn't read the gravity.
+
+
+Anybody have any experience with 1056 and a gravity this high?  If the 
+yeast peters out, would pitching some fresh 1056 (I have a culture in my 
+fridge available) help?  Or should I go with a high-alcohol-tolerant 
+yeast if this yeast can't make it?
+
+
+Thanks.  (By the way, this is my first partial mash--staggeringly more 
+work than extract, but deeply satisfying.)
+
+
+|  Eric J. Scheidler   || "In much wisdom is much vexation, and he who in- |
+| ejs000`at`dns.colum.edu || creases knowledge increases sorrow." Eccles 1:18 |
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 Feb 97 14:15:52 -0800
+From: Matthew Taylor <mtaylor`at`mail.valverde.edu>
+Subject:  Dead Yeast ???
+
+
+Hello all Homebrewers
+
+
+Here's my situation;  The last batch of beer I brewed got off to a  
+bad start.  I mistakenly pitched a yeast slurry that was almost 6  
+weeks old instead of the 2 or 3 weeks old like I thoght.  I  
+realized it after I smelt the jar.  The risdule yeast had a very  
+sour off smell.  It was late that day so it was too late to go get  
+fresh yeast from the home brew store.  First thing the next morning  
+I went out to check and there was only a slight sign of  
+fermentation starting, and as I had hoped, a good layer of yeast  
+that had setteled out in the bottom of the carboy.  I went down to  
+the shop and bought some fresh yeast, came home and racked the beer  
+and pitched the new yeast(I figured I needed to use the dry stuff,  
+I couldn't wait to make a starter.)
+With the fresh yeast things got foaming in about 4 hours.  The gas  
+coming out of the airlock had the rubbery smell that I was affraid  
+of.  The rest of the primary went well. After racking to the  
+secondary and dry hopping with whole leaf hops, things got cold in  
+southern California and it took almost three weeks for the yeast to  
+drop out and the beer to clear.
+At bottling time there was still a faint aroma of burnt rubber  
+(what is that "auto- something word?)  Last night I tried a bottle  
+after two weeks of conditioning, and was plesently surprised.  It  
+had a little off taste in the first sip, but no where near as bad  
+as I thought it might.  My wife tried it and liked it.  After I  
+explained the burnt rubber taste she tried it again, and said it  
+was there but not very strong.
+
+
+Finally my question, will the situation improve, will the off taste  
+(not very noticable now) get stronger or mellow with more time in  
+the bottle?
+
+
+Thanks for your help
+
+
+Matt Taylor
+
+
+Private e-mail is fine
+mtaylor`at`valverde.edu
+
+
+------------------------------
+
+
+Date: Mon, 3 Feb 1997 16:31:23 -0600
+From: Rob Moline <brewer`at`kansas.net>
+Subject: Copper/Formulation Seminar/Gueuze/Flavor :-(
+
+
+                        The Jethro Gump Report
+>From: "C.D. Pritchard" <cdp`at`mail.chattanooga.net>
+>Subject: re: Jethro on Copper,
+>Jethro posted:
+>> ...the fear being that copper might be leached from the brass, and harm the
+>customer.
+>..... it was my understanding that the problem with brass was
+>the lead which some alloys contain. 
+>Is this yet another health scare?  
+
+
+        Apparently. They only were concerned with copper content, and from
+their own testing, it is apparent that levels in finished beer are
+miniscule....as another co-respondent said in private
+e-mail...(paraphrased).."without knowing the copper content in the water and
+malts used to brew, measurements in finished beer are useless, in regards to
+copper being leached from brass fittings and faucets."
+
+
+Recipe Formulation Seminar..
+        There will be a R.F.S. on Feb 23, 97 at the Holiday Inn/Overland
+Park, Kansas, from 10 am to 3 pm. Costs $49, includes lecture, notes, lunch,
+and discounts on books. This seminar follows the K.C. Biermeisters annual
+competition and mini-conference, and will be conducted by Ray Daniels for
+the Craft Beer Institute. Register..(800)-229-1832.
+
+
+Gueuze Pronunciation..
+        Local professor of French at KSU, Belgian born Claire Dehon
+<dehoncl`at`ksu.edu> says the easiest way for English speakers to pronounce
+gueuze is "guh-ze" with a short u, like in 'duh'. Interestingly, the French
+use a similar word, 'la gueuse,' to refer in colloquial slang to a
+prostitute. Just shows that you gotta be careful what you ask for in
+languages your not fully conversant with!
+
+
+Flavor of the Month...:-(
+        My new assistant goofed and kegged up a 1/2 bbl of Barleywine into a
+keg that was preloaded with Jalapeno extract for a Jalapeno beer....ouch!
+One of those beers that people either love or detest, and the former, in no
+way, outnumber the latter! We call it "Carrie Nation's Axe." I just couldn't
+bring myself to throw it away.
+Cheers!
+Jethro
+Rob Moline
+Little Apple Brewing Company,
+Manhattan, Kansas.
+
+
+"The More I Know About Beer, The More I Realize I Need To Know More About Beer!"
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 12:07:46 +1300
+From: Bruce Baker <Bruce.E.Baker`at`tsy.treasury.govt.nz>
+Subject: Hops
+
+
+G'day y'all,
+
+
+Something I've been wondering about lately is how different are different 
+varieties of hops.  So far, I've tried some New Zealand grown Hallertau, 
+Stiklebracht (which I have never seen reference to in books, but is described 
+as a relative of Northern Brewer), and some Saaz I got from Australia.
+
+
+My impression is that the two strands of New Zealand hops are very much the 
+same, while the Saaz hops are less bitter.  Is there any consensus on whether 
+hops are wildly different (like bell peppers and habaneros) or quite similar 
+(like Burpee Big Boy and Beefsteak tomatoes).
+
+
+Cheers,
+Bruce
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 08:50:52 +0900
+From: Mark <hobie`at`soback.kornet.nm.kr>
+Subject: Mashing?
+
+
+Hello all,
+ I have been extract brewing for about three years now and ready to make the
+switch to mashing.
+ - I ve read bits and pieces about mashing but still havent gotten the
+entire process set in my mind...whats the best source (in "good ole
+homebrew" terms) of complete information?
+ - Going to be in Korea for the next several years and need to buy my
+mashing equipment on a quick visit to the states. Is there a complete system
+that I can grab to get started?
+ - (See question #2) Anyone know how to make a good rice beer? : ) or : (
+    
+Email me with any help. Going home soon. hobie`at`soback.kornet.nm.kr
+
+
+Has anyone read AOB's "How to open a brewpub....."   is it worth the money
+for any considering a brewpub within the next 5-10 years?
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 Feb 1997 19:28:50 -0500
+From: "Jeff L. Foley" <102120.1255`at`compuserve.com>
+Subject: Barstow BEER???
+
+
+I am traveling to the Barstow, Ft. Irwin CA, on business. Can anyone tell
+me of any brewpubs, breweries, tastins/festival or homebrew shops in ths
+area?
+ 
+
+
+------------------------------
+
+
+Date: Mon, 03 Feb 1997 16:25:58 -0600
+From: "John T. Moore" <JMOORE`at`sfasu.edu>
+Subject: spigot for Aluminum brewpot
+
+
+Another homebrew lurker comes out of the closet: I've been reading the HBD
+for about a year now and have learned many things. As a novice I greatly
+appreciate the experienced brewers sharing their knowledge/experiences.
+Hopefully I will be able to learn to be a better brewer.
+Now for my question: I have a large aluminum brewpot for my boils (I don't
+really want to open the Aluminum vs SS debate again) and I'm thing of adding
+a spigot to it to save wear and tear on my back. I would like to use a
+bulkhead-type fitting instead of having someone try to weld a fitting into
+place. However, I also know that there is such a process called electrolytic
+corrossion caused by joining two different metals. Would this be a problem
+in my case and if so how can it be solved (other than buying a SS pot -
+having a teacher's salary and a frugal wife prevents this).
+
+
+TIA
+
+
+                John Moore
+                MOORE-or-Less Brewery -  located in the heart of East Texas
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 Feb 1997 17:00:48 PST
+From: Scott Kaczorowski <kacz`at`aisf.com>
+Subject: Re: Malting amaranth
+
+
+
+
+Andy asks in HBD #2334:
+
+
+> I had a dream of making a high-percentage amaranth beer which would
+> require home-malting 5 pounds or so. I've just tried test malting a
+> pound and all I succeeded in creating was an incredibly foul stench.
+
+
+I've done some home malting of corn, and you have to turn the "piece"
+often.  Just get in there and gently stir it up at least twice a day.
+Rinsing is important too, but you must turn it as well so that you
+discourage the growth of mold and allow the grain to get some air.
+This also seems to make the rate of sprouting more even.
+
+
+> I used a tall container-
+
+
+Use something shallower, like a plastic tub with holes drilled in the
+bottom.  I'd *guess* that for a small grain like amaranth you'd want
+about 1 to 2 inches deep.  You can cover the tub with a damp towel to
+keep the grain from drying out.
+
+
+The rest of your procedure sounds fine.
+
+
+Why not try it without malting it first?  Be a lot simpler and the
+worst thing that could happen would be that the finished beer is cloudy.
+Not much of a tragedy IMO.
+
+
+
+
+Scott Kaczorowski
+Long Beach, CA
+kacz`at`aisf.com
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 Feb 1997 20:05:38 -0500
+From: "Mark S. Johnston" <msjohnst`at`talon.net>
+Subject: Re:NT 3.5 "easter egg" 
+
+
+Richard Scholz writes:
+
+
+>Since all of us use a computer to post, here's a little hidden feature of
+>Microsoft's NT 3.5x OS. (know as an Easter Egg by the programing
+cognoscenti)
+>If one types "BEER" into the 3D text screensaver built into NT. One get
+more
+>than 50 beer brands and styles randomly scrolled on the screen instead of
+the
+>word "BEER". Lots of belgians , british and american microbrew brands
+along
+>with style names like IPA,
+>Weisse, Trippel etc. Just thought people with NT in front of them at work
+or
+>home would like to know. 
+
+
+I have this at work. What amazes me is how many are misspelled!
+
+
+"Guiness"?
+"Whatney's"?
+
+
+At least Fix was spelled correctly. For all the money Bill Gates makes on
+this, you'd think that his spell checker was working.;-) 
+
+
+
+
+------------------------------
+
+
+Date: Mon, 3 Feb 1997 21:13:06 -0500
+From: "Mark S. Johnston" <msjohnst`at`talon.net>
+Subject: 1997 Moon Madness
+
+
+Just a reminder that the Sixth Annual Moon Madness Homebrew Competition
+will be held on March 8, 1997 at the Market House Pub and Pretzel City
+Brewing Co. in Reading, PA. Entries may be sent between 2/12 and 2/26 to:
+
+
+        Brew-Ha-Ha, Ltd.
+        RD2 Box 2519-1
+        Route 222
+        Fleetwood, PA  19522
+
+
+Two bottles per entry, brown or green glass, 10 - 16 oz. No swing
+tops--crown caps only. Use standard AHA recipe form and bottle labels or
+Email msjohnst`at`talon.net for entry packet. Entry fees are $6 for the first
+entry and $5 for each additional entry. 1997 AHA style guidelines and
+categories apply. 
+
+
+Judges and Stewards are also needed. Email msjohnst`at`talon.net with your
+snail mail address for forms and info. Or send the standard AHA Judge
+Waiver Form with BJCP experience level and T-shirt size to the above
+address.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 03 Feb 1997 20:29:28 -0600
+From: Mike Porter <mikeporter`at`worldnet.att.net>
+Subject: re: Large Volume Bottling
+
+
+I have used 2L pet bottles with good results on several occasions.  If
+the beer will be in the bottle for less than 2-3 months, so long as you
+keep it out of the light you should be fine.  When refridgerated, I have
+had beer in these bottles for over 4 months with no problem.
+
+
+map
+- -- 
+Mike Porter                Stress and Vibration Consulting Services
+Dynamic Analysis        FEA Consulting and Training
+(913) 341-3269
+
+
+------------------------------
+
+
+Date: Mon, 03 Feb 1997 22:36:18 -0500
+From: Katy or Delano DuGarm <dugarm`at`mnsinc.com>
+Subject: Canning Wort = Death?
+
+
+
+
+>I've always used "Mason" jars for canning wort for subsequent use as
+>starters.  Recently, lacking sufficient jars, I tried ordinary 12 oz. beer
+>bottles with good results.
+
+
+>Method was the typical canning method- boil
+>bottles, drain breifly and fill while hot with boiling wort, cap (I didn't
+>preheat the caps) and process for 30 mins. in a boiling water bath.  A
+>caveat:  be careful around hot fluids- .
+
+
+A more important caveat is that YOU CANNOT SAFELY CAN WORT IN A BOILING
+WATER BATH.  Sorry about the shouting, but it is not good procedure to can
+anything  with a pH higher than 4.2 in a boiling water bath.  Everything
+else, like wort, needs a pressure canner.  If you don't believe me, look in
+the Ball Blue Book, the Kerr Canning Guide, _Putting Foods By_ or any other
+modern canning cookbook.  I agree that canning wort is a timesaver, but it
+is stupid to put your health at risk to save a few minutes.  While botulism
+is quite rare, it is most often caused by home-canned food, and its effects
+are irreversable.
+
+
+Delano DuGarm
+Arlington, Virginia
+dugarm`at`mnsinc.com
+
+
+
+
+Delano DuGarm
+Arlington, Virginia
+dugarm`at`mnsinc.com
+
+
+------------------------------
+
+
+Date: 03 Feb 97 22:43:45 EST
+From: "David R. Burley" <103164.3202`at`CompuServe.COM>
+Subject: Predicting FG, Predicting OG
+
+
+Brewsters,
+
+
+Charles Rich says about his method of fermenting a small batch at high
+temperature to predict the FG before the main batch finishes.:
+ 
+> In practice I find very good agreement between predicted and actual FG's
+> **to the resolution of a hydrometer reading** (emphasis mine). 
+
+
+That "accuracy and repeatability" rather than the resolution of the hydrometer
+is strongly affected by the CO2 bubbles in the still fermenting beer, I'm sure.
+It is possible to do it the way you suggest and likely get decent results most
+of the time,  just not very practical IMHO when Clinitest is so easy to use.
+- ------------------------------------------
+Ray Love is having OG problems with pale malt syrup:
+
+
+I assume the bulk syrup is of constant consistency and not obviously picking up
+moisture from the air, fermenting or any other weird thing.  What is the% water?
+
+
+I assume the wort is well stirred and has the same gravity on top as on bottom.
+Often that last gallon or so of water added to bring the wort up to 5+ gallons
+doesn't get stirred in very well.  How well do you stir it?  If you have this
+problem rack it into another carboy with the wort swirling in the bottom of the
+second carboy, move the hose up and down in the first carboy.  Testing  the SG
+several times a few hours apart will show you if you have this problem.  If the
+SG goes up over time, improper stirring is your problem.
+
+
+Although I favor a poor job of stirring as the culprit to explain these large
+discrepancies, I have to ask this also. Are you correcting your OG readings to
+60F? and measuring it at a standard volume of wort? ( say all at 5.5 gallons or
+whatever)   Try a test, take a known amount of extract, dilute it to a known
+volume with water, Stir very well,  measure the temperarture and the SG.  Go to
+Charlie Papazians book and check what you should get.  If you don't have his
+book e-mail me your results and I will tell you if the extract is on target or
+not.
+- -------------------------------------------
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Voice e-mail OK
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 03:14:13 -0500 (EST)
+From: BernardCh`at`aol.com
+Subject: The Decoction From Hell - What Did I Create?
+
+
+Comments from the collective and especially the experienced decoction  masher
+are requested.
+
+
+Tried my first decoction Sunday, which became the decoction from hell.  Grain
+bill was 7.25# Belgian Munich, 1.5# Belgian CaraMunich, 2# Crystal 60L, 2.50
+Belgian pilsner malt.  The planned mash schedule was to mash in with .9
+qts/pound to reach a 131F rest, hold for 15 minutes.  Pull 40-50% of the
+thickest part, heat to 158F, hold for 10 minutes, heat slowly though to
+boiling, boil for 5 minutes.  Return this first decotion to the main mash to
+reach 158F rest.  After conversion, pull the thinnest 50% of the mash, heat
+to boiling for 5 minutes, return to main mash to reach 170F mash out
+temperature.
+
+
+Ok lets mash!
+
+
+Mashed in as above (12 qts total H2O at 147F) and actually got 131F (At this
+point I was overwhelmed with joy! :)).  Rested for 15 minutes (the mash, not
+me) and pulled the first decoction.  Decoction was thick, not runny, and
+didn't scorch.  Did the decoction thing per schedule above (confidence is
+building in my abilities) and returned to main mash which had only dropped to
+128F (from 131F)  Added the decoction back to the main mash hoping (expecting
+actually, high confidence level now) to get 158F.  What!  Temperature
+stabilized at about 145F!!!!  All confidence is now gone :(  Threw the whole
+mash kettle on the cooker and heated entire mash up to 158F.  Waited for
+conversion (60minutes or so)  Not wanting to tempt fate again pulling another
+decoction I just heated the whole #$%^& mash up to 168F for mash out.
+ Transfered to lauter tun and sparged as usual.
+
+
+Was expecting an OG of around 1.072, got only about 1.062.  OK not bad, this
+was a learning experience.
+
+
+I know it's not ruined.  It was wort, it's fermenting, it will be beer and
+I'll drink it.   So what did I actually produce with this kind of mash
+schedule?  Any ideas on how much fermentables/nonfermentables this disaster
+produced?  What kinda body might I expect?  Where did I go wrong.  What else
+can I learn from this escapde besides "don't ever try to do a decoction
+again?"
+
+
+Chuck
+BernardCh`at`aol.com
+Music City Brewers
+Nashville, TN - Music City USA
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 03:52:38 -0500 (EST)
+From: DavidR8467`at`aol.com
+Subject: Beer recipe clones
+
+
+I am fairly new to brewing, but sure liked my initial results. I have found
+bottled beers which I like, but do not know what to use in an attempt to get
+similar results. I think I lean toward the malty, sweeter, medium hopped
+types. Any (partial mash) recipe suggestions, that are similar to these
+beers?
+
+
+Brews I found to be excellent: 
+                                       Brasal Bock (Canadian Dark Lager)
+                                       McRogue Scotch Ale (Oregon)
+                                       Flag Porter (Britain)
+                                       Devil Mountain Black Honey Ale
+(California)
+I was at the Chicago Beer extravaganza on 2-2-97. Out of 35 beers I could not
+find one like the ones above. I asked my local brewing supplier, and he had
+not tasted the beers I am refering to - HELP!
+               Thanks much!! - Help a guy get started! - Thanks again
+davidr8467`at`aol.com
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 97 07:18:56 UT
+From: "C&S Peterson" <CNS_PETERSON`at`msn.com>
+Subject: Beer Engine Source in London?
+
+
+HBDers -
+
+
+I will be going to London in a few weeks on business, and am hoping to pick up 
+a beer engine or two while I am there.  My understanding is that the pubs were 
+recently required to change out their beer engines (some had brass parts), and 
+that many are simply lying around in cellars waiting to be bought by American 
+homebrewers longing to infect their brains with lead. :-)  
+
+
+Does anyone out there know of someone I can contact in the London area that 
+might have a few of these "banned" engines?
+
+
+TIA,
+
+
+Chas Peterson
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 97 07:30:02 UT
+From: "C&S Peterson" <CNS_PETERSON`at`msn.com>
+Subject: Beer in SF
+
+
+HBDers -
+
+
+Alex Santic recently wrote lamenting the poor selection of beers in SF.  I was 
+recently in the Bay area, and had no problem finding some great beers.  Of 
+course I was in the San Jose area, and had a car, so if you're willing to ride 
+the highway a bit you can find some truly great brewpubs in the Bay area.  My 
+two favorites are the Front Street brewpub (for ales) in Santa Cruz -- they 
+had some live music when I was there, and Los Gatos Brewing Company in (where 
+else) Los Gatos (IMHO, the best brewpub I've ever been considering atmosphere, 
+food, and drink -- they specialize in Lagers).
+
+
+Granted SF is not Seattle or Portland where you can easily find cask ales and 
+the like, but remember you are in wine country!  
+
+
+The Tied House and Gordon-Biersch (sic) are always good standbys too.
+
+
+Perhaps this will help other HBDers headed to SF,
+
+
+Chas Peterson
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 97 08:04:59 UT
+From: "C&S Peterson" <CNS_PETERSON`at`msn.com>
+Subject: Filtering Beer....
+
+
+HBDers -
+
+
+I just wanted to give the filtering thread a kick or two.....
+
+
+I recently aquired a 0.5 mircon filter (from the Filter Store plus, standard 
+disclaimers, etc), and have been very interested in some of the posts 
+regarding head formation and the affect of filtration on flavor.
+
+
+So far I have "packaged" three batches of beer with the filter.  I usually 
+make 10 gallons or so -- I've been bottling 5 and kegging 5.  For the first 
+two batches, the bottles were entirely unfiltered, and the kegs were filtered 
+and forced.  Here are the results so far:
+
+
+Batch 1 -- a 100# wheat beer:
+I found no difference in flavor or head retention between the two batches.  
+Also, carbonation bubble size was, if anything, smaller in the kegged batch 
+than in the bottled batch.  This may simply be due to different carbonation 
+levels (the kegged had less carbonation).  Of course the keg batch was clear 
+and the bottled was hazy, as you would expect.  However, the bottled batch is 
+clearing somewhat as time goes on.  These results, since this was a wheat beer 
+probably loaded with protiens, may be suspect as to the heading and 
+carbonation properties.
+
+
+Batch 2 -- a low gravity mild:
+Again, I found no difference in the filtered and unfilted batches, except for 
+haze.  This too may reduce with time as the bottles clear.  
+
+
+Batch 3 -- an IPA:
+Here, I filtered 9+ gallons and will force the keg and "spunded" (sic) the 
+bottles with the remaining unfilted beer (to make a total of 10 gallons....).  
+Results TBD.  To be scientific here, I probably should have reserved a bottle 
+or two of totally unfilted beer to compare the keg-filtered bottle-unfiltered 
+bottle, but the filtering process takes so long that I didn't want to bother.  
+Which leads me too a few questions:
+
+
+What is the benefit of filtration?  My beers ususally get clear (most times to 
+commercial clarity) with Polyclar if I let them sit a month or two.  And since 
+I cannot as yet detect a flavor difference in the filtered/unfiltered batches, 
+the extra 2 hours filtering adds to my bottling process (not to mention the 
+extra expense and mess; oops I just did :-) )  does not seem to be a clear 
+"winner" of an investment.  The only advantages I see so far is that I can get 
+clear beer FAST, and if my bottle conditioning experiment works out, I may be 
+able to reduce the sediment in the bottle or keg, making it easier for 
+non-homebrewers to consume my beer (which I guess is a benefit.....).  
+
+
+Perhaps I should try a larger micron rating (say 1 micron) -- will this speed 
+the filtration process?  Intuitively I'd say yes, but others with experience 
+may have some real data points here.
+
+
+Also, I'm not keen on force carbonating.  Just my personal preference, but it 
+seems to take for me about as long to force a keg as it does to naturally 
+carbonate (yes, I simply refuse to sit and shake a keg for 15 to 30 
+minutes...).  Will a 1 micron rating leave enough yeast in the beer to prime 
+with sugar as typically done, or do I need to reserve some unfiltered beer as 
+a yeast supply?  How about a 5 micron rating?
+
+
+Just some datapoints from a "newbie" filterer,
+
+
+Chas Peterson
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 08:21:19 +0500
+From: "Keith Royster" <keith.royster`at`pex.net>
+Subject: Re: purging with CO2
+
+
+There have been a couple of posts lately describing different methods 
+of purging an empty carboy or keg with CO2 prior to racking into it.  
+The methods described so far attempt to describe how to fill the 
+container with CO2 so as not to under fill (allowing for some O2 to 
+still be in the container) or over fill (wasting precious CO2).
+
+
+I would like to offer another method.  If the price of CO2 is of no
+concern to you and/or you will not be able to sleep well at night
+unless you squeeze every last drop of O2 out of your process, then
+this may not be the tip for you.  Otherwise read on....
+
+
+What I do is first rack the beer into the keg or carboy without 
+pre-purging.  If you rack it carefully and slowly so that there is no 
+splashing, then there will actually be very little oxygen that gets 
+into the beer in the short time it takes to rack.  NOW, purge the 
+headspace with CO2!  Instead of taking ~5 minutes to waste 5 gallons 
+of CO2, you now only need to take ~15 to 30 seconds to purge the much 
+smaller headspace.  The headspace in kegs will typically be smaller 
+than carboys, so adjust your purge times accordingly.
+
+
+Even though this method does not allow for accurately knowing when to 
+stop purging, if you err on the side of caution, you should be 
+covered and you still will have used much less CO2 than if you tried 
+to purge the entire container. This process saves time and CO2, while 
+only slightly increasing the inevitable introduction of small amounts 
+of O2.
+
+
+PS- I never did get a response regarding whether or not submicron air 
+filters are necessary based on my assumption that the little nasties 
+floating around are actually not free floating but attached to larger 
+dust particles that can be filtered easily with basic cloth, cotton, 
+or something similar.  Does anyone have a comment on whether this 
+assumption (nasties do not free-float) is correct or not?
+
+
+Thanks! Oh, and thanks to Pat and Karl (and others) for the 
+new?/old? HBD!!  Your efforts are honorable and noted!
+
+
+Keith Royster - Mooresville, North Carolina
+"An Engineer is someone who measures it with a micrometer,
+marks it with a piece of chalk, and cuts it with an ax!"
+
+
+mailto:Keith.Royster`at`pex.net
+http://dezines.com/`at`your.service -`at`your.service 
+http://dezines.com/`at`your.service/cbm -Carolina BrewMasters club page 
+http://dezines.com/`at`your.service/RIMS -My RIMS (rated COOL! by the Brewery)
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 09:04:50 -0500 (EST)
+From: Paul Ward <paulw`at`doc.state.vt.us>
+Subject: Stout, Siphons, History of HBD
+
+
+Thanks to everyone who responded either privately or through the
+digest to my concerns and questions on my first stout.  I never did
+locate either the black patent or the chocolate malt called for in
+the recipe, but I have a great color and the hydrometer sample tasted
+great, so I have great expectations for the outcome of this one.
+
+
+What is the suggested priming rate for a bottled stout?  The Guinness
+I tried had that nice man-made head (nature had nothing to do with
+it).  Is a stout heavily primed to emulate the artificial Guinness
+head, or should it carry a more subdued carbonation level like an
+English bitter?
+
+
+I tried the 'Chore Boy' in a hop bag wired to a racking cane idea for
+the first (and last) time Sunday.  I was trying to impress my wife
+with the low tech solutiion to a niggling problem.  I cooled the
+wort, whirlpooled and let it set for about 1/2 hour, then inserted
+the cane/chore boy thing, grabbed the turkey baster and started the
+siphon - for about 10 seconds.  As the wort crawled back up the
+tubing, I watched the break whirl back into suspension from the
+backflow.  I could not get the siphon to start again.  I thought this
+invention was designed to work with hop pellets, but the hop bag
+became so clogged with pellet powder that the wort wouldn't siphon. 
+The turkey baster  proved insufficient to pull wort through the now
+plugged hop sack.  I tossed the baster and locked my lips around the
+tubing.  Even that couldn't pull the wort.  I gave up, pulled the
+chore boy et al. from the racking cane, reinstalled it and gave a
+real hearty suck on the tubing.  Wort jumped through the tubing, into
+my mouth, engaging a gag reflex and impressing my wife as wort
+squirted out of my nose and mouth onto her kitchen floor.  You get a
+whole new life experience when you have 8.6% AA hop particles drying
+in your nose.  You also make odd noises and facial expressions.  My
+wife thought it was worth the price of admission.
+
+
+About 8 months ago I began the task of reading all past issues of the
+HBD.  I can only read a couple of past issues a day during lunch, but
+I'm all the way up to 1992.  Believe me, there's a lot of reading to
+do, and I'm waiting to see how some of the threads turn out, and to
+see what became of some of the luminaries of the past who rarely (or
+never) post anymore.  One of the great constants, however, is Al K. 
+He was answering some of the same questions 6 years ago that he is
+answering for a whole new batch of homebrewers today.  He not only
+answers through the digest, but also takes the time to send private
+email to neophytes who run into problems.  I know because he has done
+this for me (as have several of the *VERY* knowledgable members of
+this forum).  People who are intimidated by some of the discussions
+(and expressed heat of some of those discussions) and feel that this
+forum is too advanced should just ignore the heat and grab the
+nuggets.  There is knowledge to gain here by everyone.  People who
+think the HBD is too vitriolic today should read the past digests,
+there was some unabashed bashing going on in the past.  
+
+
+I wish to thank all contributors to the HBD, past, present and future
+for helping me turn that first can of brown gooey sweet stuff into a
+drinkable beer, and for all the improvements I've made since then. 
+There is no greater jewel than knowledge.  Sometimes you have to wait
+for the lotus to open fully, however, to see the jewel within.
+
+
+Sorry to pontificate, just very appreciative of everyone here.
+
+
+Paul
+
+
+paulw`at`doc.state.vt.us
+
+
+- -- 
+If vegetarians eat vegetables, what of humanitarians?
+
+
+------------------------------
+
+
+Date: 04 Feb 97 10:23:41 EST
+From: John Chang <75411.142`at`CompuServe.COM>
+Subject: Heineken in green glass
+
+
+More on the green vs brown bottle and skunking!
+
+
+Mark Bayer wrote:
+
+
+>heineken and the others simply take advantage of this behavior (at the expense
+>of the beer, and the consumer, of course).  they *know* the effects of light on
+> beer,>but as long as joe q. style is willing to buy it, they'll gladly keep
+shipping
+> it over here.
+
+
+>i wonder, does heineken use green glass for their domestically sold beer?
+
+
+Last week a friend at work brought me two bottles of Heineken back from
+Amsterdam, after having claimed that the domestic Heineken is not close to the
+*imported* stuff we get here.  I believe the beer inside is more of an amber,
+but is bottled in brown glass.
+
+
+John Chang
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 11:08:04 -0500 (EST)
+From: Larry M Matthews <lmatt`at`ipass.net>
+Subject: Hail to Ale COC Results
+
+
+Brewers,
+   The Carboy and Trub homebrew clubs in Raleigh and Durham recently hosted
+the AHA sponsored Hail to Ale COC. Winners were:
+   1st- Shekhar & Paula Nimkar-Boston Wort Processors
+           with an American-style Amber
+   2nd-Andy Widger-Allegany Libation, Education, & Recreation Society 
+           with an American-style Pale Ale
+   3rd-Tom Viaene-Boeing Employees Wine & Beer Club (WA)
+           with an American Wheat
+   Evaluations sheets will be mailed to AHA and then forwarded to the 90
+brewers/clubs who entered this competition. If you entered the contest and
+would like more immediate feedback on your results, please send a private
+email and I'll respond within 24 hours.
+   The judges, stewards, and organizers for this COC worked hard to provide
+professional, honest and competent evaluations on beers entered. 
+   Thanks to all the clubs that took the time to select and enter their
+beers. The Shamrock Open sponsored by the Cary-Apex-Raleigh Brewers of Yore
+recently announced their annual competition for April 5, 1997. We would
+like to have you contact us if you are interested in judging or entering
+your beers for an evaluation.
+   One final humorous note on the vast range of packing provided to your
+shipped beers, I was somewhat hesitant to open the one entry that was
+wrapped in "Pampers". Even after 13 years without changing a diaper, I was
+still nervous about the contents. 
+
+
+                                         Cheers,
+                                         Larry Matthews
+                                         Carboy/Trub member
+                                         Raleigh, NC 27606
+                                         lmatt`at`ipass.net
+
+
+
+
+                                        Larry M Matthews
+                                        Carboy/Trub Member
+                                        Raleigh, NC 27606
+                                        lmatt`at`ipass.net
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 97 08:44 PST
+From: cburns`at`egusd.k12.ca.us (Charles Burns)
+Subject: Melanoidins, Who Needs 'em? (Strawberries have dextrin?)
+
+
+It was a dark and stormy night... That story is just too long. Fact is, I 
+made a practice run of my first Decoction and it went south on me. 
+Temperature control is the bane of my existence. The practice run was to be 
+my Strawberry Blond, I thought that an extra malty flavor would make the 
+beer taste like a Strawberry Milkshake (the old fashioned kind made without 
+cornstarch).
+
+
+Well, after 14 days in the primary the gravity went from 1.057 to 1.006. 
+This is just a bit too dry for my taste.
+
+
+The strawberries go into the secondary after being frozen and then 
+pasteurized. Question is, will the sugar in the strawberries be fermentable 
+or unfermentable? The beer definitely needs more body and I'm wondering if 
+the berries will take care of it.
+
+
+Please send me a copy in private email if you post a response.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 09:10:56 -0800
+From: bmurrey`at`BELLIND.COM
+Subject: Newbie making stout
+
+
+I've just bottled/kegged my first batch of beer since about 1980. It's a
+nice pale American Lager that turned out pretty well, but just a little
+on the cloudy side....nevertheless, it tastes great.
+
+
+I wish to brew a stout now, but, I'm no big fan of the very bitter
+aftertaste found in most Irish Stouts that I have sampled (which ain't
+many).
+
+
+If I used a dark DME and instead of using Black Patent Malt I chose
+something a bit less bitter (like chocolate malt), would I be able to
+still have a nice thick stout, with moderate alcohol content, and a
+little lighter on the aftertaste?
+
+
+Reply to the digest or just email me. (bmurrey`at`bellind.com)
+
+
+Thanks
+
+
+Any additional tips are appreciated. I'm using a (God forbid) 10 gallon
+plastic pail to do the primary fermentation in, then I rack over to my 6
+gallon glass jug with ferm lock. I cover the primary with a sheet of
+plastic and a big rubber band.  When the secondary slows way down I
+usually rack back to the pail, clean out the jug, and rack back to the
+secondary and let it sit for a couple more days. I find this helps to
+clear things a bit but I'm curious as to the magic that irish moss
+claims in clearing proteins.
+
+
+I'm putting my brew in the 1.5L kegs for th emost part, and 2L PET
+bottles for sharing. I hate getting just one 12 oz beer to try, what if
+it's good?  2L is a much better quantity.
+
+
+All beer is good, it's just that some is better.
+
+
+
+
+
+
+------------------------------
+
+
+Date:  4 Feb 97 10:22:34 EDT
+From: Bob Bessette/PicTel
+Subject: Strange Fermentation
+
+
+Fellow Brewers,
+ I am actually writing this from Holland. I'm here on business.I had an 
+excellent white beer last night called Wietske Witte and it was excellent. It's 
+actually made in Holland, not Belgium, even though it's very close to Belgium. 
+I plan on trying a few Belgian Whites while I'm here also.
+
+
+ Anyway, this is not why I am writing. My last batch had a rather strange 
+occurrence with the fermentation. My typical ferment happens like this. The 
+wort churns and churns pretty violently for a day or two, the airlock bubbling 
+every second for the first day or 2 and then slows down and bubbles every 10-20 
+seconds for another day or 2. This time I had the violent churning for the 
+first day or 2 and on the third day the wort was still churning but the airlock 
+did not bubble anymore. Even though the beer was still churning fairly 
+vigorously there was no bubbling at all. I don't think there was a problem but 
+I just thought that this was strange. I did not see any problem with the 
+stopper (no slight holes or air breaks) and the airlock itself appeared to be 
+fine. 
+
+
+I am not real concerned about the batch because it smelled heavenly upon 
+racking was just wondering why the air bubbles would stop so suddenly? 
+
+
+Cheers,
+Bob  (bbessett`at`pictel.com) 
+
+
+------------------------------
+
+
+Date: Tue, 04 Feb 1997 11:51:17 -0700
+From: Jeff Handley & Gene Almquist <homebrew`at`infomagic.com>
+Subject: Brew-Ski '97 (Homebrewing Competition)
+
+
+Just a quick reminder...
+The 1997 Brew-Ski Homebrewing Competition held on February 22 at the Arizona
+Snowbowl is only a few weeks away. This BJCP/AHA sanctioned competition is
+open to all brewers. Refer to The AHA '97 guidelines for entry information.
+With every beer entered you will receive a lift ticket on the day of the
+event for $15.00. Entrys must be received by Feb. 19th. If you need info
+please e-mail us outpost`at`homebrewers.com.
+
+
+
+
+------------------------------
+
+
+Date: 04 Feb 97 13:49:43 EST
+From: "David R. Burley" <103164.3202`at`CompuServe.COM>
+Subject: Milk Stout, paddling along
+
+
+Brewsters:
+
+
+Tony Owens asks about Milk Stouts and Lactating Mothers and stout rationing to
+mothers in WWII.
+
+
+Michael J. Lewis in "Stout" (Classic Beer Style Series - Brewers Publications)
+has a something to say about this and I suggest you take a look.  It appears to
+be related to health ( similar to the origin of Milk Chocolate), but Lewis
+implies at the beginning of the book that this was just a way for a woman to get
+a good drink in Victorian and post-VIctorian times ( especially in Methodist
+Wales - boyo)  without embarrassing anyone. Then again it may have helped babies
+( or the mother ) sleep better.
+
+
+I had always thought that Milk Stout was called this because lactose (milk
+sugar) was added and didn't have anything to do with nursing mothers, although
+it was a favorite among nursing mothers and this extra nutrtional product may
+have been targeted at this unfulfilled ( for religious and social reasons)
+market niche. Lewis indicates the concept of drinking mothers preceded the
+addition of the nutritional enhancers like lactose,whey and concentrated
+peptonized milk. ( and the term "milk" stout may not have been used before these
+additions either - I'm not sure about the origin of this name). He says on p 26
+"Furthermore, for nursing mothers stout or other beer is a tradition of great
+antiquity."   British truth in packaging laws now prohibit the use of the term
+Milk Stout because it is misleading.
+
+
+As far as beer restrictions in the Great War (WWII), this was attempted on many
+fronts by the then PC anti-drinking establishment. Preserving this tradition for
+mothers may have been a way of softening the position.  It was proposed at one
+time that beer production be restricted or even stopped and the grain fed to
+people and cattle ( sorta like the grain vs beef thread going through the PC
+community at present - have you eaten your 5 pounds of grain today?).  Efforts
+like this failed because it was pointed out that nutritious beer was made from
+this grain AND the cattle were fed the dried remains of the mash tun. This
+represented the most efficient use of the grain, notwithstanding the uttter
+social upheaval this would have caused if beer production were restricted or
+stopped.  Can you imagine it?! no pubs or beer in war-torn Britain!!!  Without
+the pubs and beer to foster community and relieve tensions, maybe the Americans
+wouldn't have been over-paid, over-sexed and over there!
+- ------------------------------------------------
+Rich Zurek asks:
+
+
+> I bought a paddle.  It looks like it is sealed with
+> urathane.  My question is what should I do to this paddle to use it safely to
+> stir wort?
+
+
+I built a large paddle many,many ( 10 -15 - 20?) years ago from new oak floor
+boards and sealed it with a urethane varnish. Many pounds of malt and gallons of
+wort have passed over its surface. It is still doing fine and so am I.  Properly
+cured urethane varnish is about the best sealer you can have as it is tough,
+chemically stable,  water repellant, able to withstand boiling water
+temperatures and a good bonder to wood. 
+- -------------------------------------------
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Voice e-mail OK
+
+
+
+
+------------------------------
+
+
+Date: Tue, 04 Feb 1997 14:51:18 -0500
+From: Skjalg Myklebust <MYKLEBSK`at`LANMAIL.SHU.EDU>
+Subject:  Homebrew Digest #2335 (February 04, 1997) -Reply
+
+
+unsub beer-L
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Feb 1997 21:36:15 +0100
+From: Gero en Rico <gero`at`worldonline.nl>
+Subject: suscribe mailinglist
+
+
+Hello,
+
+
+
+
+Can you send me your mailinglist???????
+
+
+
+
+Thanks
+
+
+
+
+Gero
+
+
+------------------------------
+End of HOMEBREW Digest #2337, 02/05/97
+*************************************
+-------

@@ -1,0 +1,1505 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA25872 for <spencer`at`srvr5.engin.umich.edu>; Fri, 1 Mar 1996 03:12:40 -0500 (EST)
+Received: from totalrecall.rs.itd.umich.edu (totalrecall.rs.itd.umich.edu [141.211.144.16]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA26668 for <spencer`at`engin.umich.edu>; Fri, 1 Mar 1996 03:09:13 -0500 (EST)
+Received: by totalrecall.rs.itd.umich.edu (8.7.4/2.3)
+        with X.500 id DAA06475; Fri, 1 Mar 1996 03:09:13 -0500 (EST)
+Received: from hplb.hpl.hp.com by totalrecall.rs.itd.umich.edu (8.7.4/2.3)
+        with ESMTP id DAA06459; Fri, 1 Mar 1996 03:09:07 -0500 (EST)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Fri, 1 Mar 1996 08:05:59 GMT
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA21349; Fri, 1 Mar 1996 01:00:07 -0700
+Date: Fri, 1 Mar 1996 01:00:07 -0700
+Message-Id: <9603010800.AA21349`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #1973 (March 01, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #1973                             Fri 01 March 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Don't fudge that data (GREGORY KING)
+  re: Subject: Mash Questions ("Gregg A. Howard")
+  Diacetyl - is it really a noun? (Bob McCowan)
+  chillin' (Dan McConnell)
+  Porter Recipes (Glenn Raudins)
+  Hudson Valley Homebrew Competition? (Brad Anesi)
+  re: Stuck Fermentation (Brian Pickerill)
+  HB Magazines ("John P. Linton")
+  Botulinum (Paul.Lambie)
+  polyphenols (tannins) and silicates (Steve Alexander)
+  depth of grainbed (Rob Lauriston)
+  Yeast Information Seeked. ("Roger A. Becker")
+  The Tao of Mash Temps?? ("Kenneth D. Joseph")
+  Lactobacilli from malt grain (Steve Alexander)
+  Stuck Tea Conversion and Break (Russell Mast)
+  Ready-made RIMS & pump motor controllers? (KennyEddy)
+  German vs. American Wheat Styles (Mark Peacock)
+  DWC Special B / Keg Leaks (Rob Reed)
+  Re: Kegging 101, Lagering--time and S.G. (Jim Dipalma)
+  isinglass (Jeff Struman)
+  Going to Oklahoma City ("Nathan L. Kanous II")
+  removal of name f/ list (Lewis Alexander)
+  FW: removal of name f/ list (Lewis Alexander)
+  Kegging 101 - gas leak (Robert Rogers)
+  jack daniel's oak aged pilsner (Robert Rogers)
+  Superbrau extract (t.duchesneau)
+  How to Clean Bottles (and Why Not to) (John W. Braue, III)
+  Re:European Brewery Tours. (Johan H\dggstr\vm)
+  Storage of yeast. ("Braam Greyling")
+  bottling laments (TMCASTLE)
+  Almond flavor ("Kirk Harralson")
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 28 Feb 1996 11:34:36 -0500 (EST)
+From: GREGORY KING <GKING`at`ARSERRC.Gov>
+Subject: Don't fudge that data
+
+
+John W. Braue, III (braue`at`ratsnest.win.net) wraps up his answer to
+CASteveB`at`aol.com's question about the measurement of specific gravities
+with:
+
+
+>Moral:  measure carefully, mix thoroughly, and ensure that your
+>hydrometer is calibrated correctly.  If you still don't get the
+>right answer, assume that you did anyway.  Brewing is technology
+>and art, not science; it's perfectly alright to fudge the data if
+>that gives a better result.
+
+
+John is much too quick in dismissing the role of science in brewing
+(especially since he gave such a nice scientific explanation for Steve's
+apparent problem!).
+
+
+Measuring ingredients carefully, taking careful instrument readings,
+and recording one's procedures all fall within the category of "The
+Scientific Method", and are done with the idea of being able to repro-
+duce the results of a particular brew session at a later time (as much
+as this is possible in homebrewing) or to do some post-mortem trouble-
+shooting if something happens to go wrong along the way.
+
+
+Moral: Don't fudge the data.  If your data doesn't fit your expectations,
+try to find the explanation (as John did for Steve's SG anomaly).
+
+
+Greg King
+gking`at`arserrc.gov
+
+
+
+
+------------------------------
+
+
+Date: 28 Feb 96 12:13:35 EST
+From: "Gregg A. Howard" <102012.3350`at`compuserve.com>
+Subject: re: Subject: Mash Questions
+
+
+   In HBD # 1971 Chuck wrote:  <<After the prescribed mash schedule, I did a
+starch test and noticed that all the starch was not converted. I let it rest for
+another 15 minutes (at 158F) and still all the starch had not converted. Another
+15 minutes and still nothing. I ASSuME that this was due to the fact that I was
+using a 2-row instead of a 6-row?>>
+
+
+   If the rice was fully gelatinized and you didn't have any problems
+maintaining mash temperatures, it's probably just fine.  I have been brewing
+with rice with lower ratios of both 2- & 6-row American malt than in that recipe
+for a while and have not had a problem with conversion.  What I have had a
+problem with is getting to the point where I could read an iodine test and know
+what I was looking at.  According to Dave Miller, suspended cellulose will give
+the same reaction as unconverted starch.  That might have been what you were
+seeing.  All I know is that I stopped trying to use iodine, and started
+depending solely on time and temperature to know when conversion *should* be
+complete.  It has worked for me.
+
+
+   If anyone is interested, I have a short outline of my rice brewing method
+that I wrote for Delano 'Adjunct Boy' DuGarm, who was (purportedly <G>) putting
+together an adjunct FAQ last year.
+
+
+Gregg
+
+
+Gregg A. Howard    Denver, Co.    102012.3350`at`compuserve.com
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 12:29:10 -0500
+From: Bob McCowan <bob.mccowan`at`cfrp.varian.com>
+Subject: Diacetyl - is it really a noun?
+
+
+We brewers tend to use the term diacetyl as a noun, but from the structure
+of the word it looks like an adjective.  Is it really a noun, or are we just
+trashing ( turning a noun into a verb) the language?  If it's an adjective,
+then diacetyl what?
+
+
+Bob
+
+
+- --------------------------------------------------------------------------
+Bob McCowan                            
+                                      voice:  (508)-922-6000 x208
+ATG/Receiver-Protector                fax:    (508)-922-8914
+CPI BMD
+Formerly Varian CF&RPP                e-mail: bob.mccowan`at`cfrp.varian.com
+Beverly, MA  01915
+
+
+- ---------------------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 12:35:49 -0500
+From: danmcc`at`umich.edu (Dan McConnell)
+Subject: chillin'
+
+
+Hi all....late as usual.
+
+
+>From: "Mark G. Schmitt" <102160.1456`at`compuserve.com>
+>
+>Could someone help me understand the test results from Zymurgy's counterflow
+>wort chiller evaluation?  Perhaps I don't know what the authors mean by
+>*Time To
+>Cool 5 Gal* of wort.  To me this implies the time it takes for 5 gal of wort to
+>gravitate through the inside copper tube.  If so, then why does it takes
+>20+ min
+>to go through 25' of 3/8 OD tubing but only 12+ to traverse 50'?
+
+
+It took 20+ min to drop the temperature to 65 in the 25' and 12+ min to
+drop the temperature to 64 in the 50'.  This is not a measure of the rate
+at which the wort CAN flow.   Unrestricted wort flow varied amoung the
+chillers, therefore wort flow could be used to (attempt to) nomalize the
+final wort temperture.  We restricted the flow in the 25' model so that the
+output temperature would be in a usable range.   This was less of an issue
+with the more efficient 50' models and that's why in the 50' chiller we
+could let it flow faster.
+
+
+>Are not the
+>Brewers Resource model and the 25' Listermann model identical except for the
+>garden hose?  Then how come the wort flow is 19.7 gal/hr for the former
+>but 14.9
+>gal/hr for the latter?
+
+
+They are the same length and design (the same guts), but apparently not
+equal. It must mean that either or both the diameter of the hose or the
+diameter of the coil plays an important role in the efficiency.  One could
+argue that a smaller diameter coil, on the order of 12 inches might produce
+more turbulence resulting in a more rapid cooling rate than a larger
+diameter coil of 24 inches or a chiller that was linear.
+
+
+>I was a little suprised to note that the extra 25' of
+>tubing in the second Listermann chiller only dropped the wort temp by one
+>additional degree to 64F even though the coolent temperature is 52F.
+
+
+Yes, but it dropped it much faster. We were looking at rates, not how low
+could it go.
+
+
+> Finally,
+>is the key to CF design a large diameter inner tube as in the Heart's chiller?
+
+
+Heart's chiller has internal baffling (not fins, per Heart's) to produce
+turbulent flow.  That's that key in this instance.  I suspect this unit was
+originally designed as part of another piece of equipment (oil cooler?).
+
+
+
+
+DanMcC
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 09:58:27 -0800 (PST)
+From: raudins`at`lightscape.com (Glenn Raudins)
+Subject: Porter Recipes
+
+
+As promised, here are a couple porter recipes.  ( I chose to send these 
+because I have both an extract and grain version.  I can't say this for any
+others.)
+
+
+Extract Porter: (5/4/92)
+- ------------------------
+3.3lbs M&F Dark Extract
+4.0lbs Alexander's Pale Extract
+0.5lb  M&F Dark DME 
+1.0lb  Crystal Malt (90L)
+0.5lb  Black Patent
+0.5lb  Dark Roast  
+
+
+1 oz.  Willamette (Alpha=4.2) 60 min Boil
+1 oz.  Willamette (Alpha=4.2)  2 min Boil/Steep
+
+
+Wyeast 1028
+
+
+O.G: 1.056
+F.G: 1.018
+
+
+Steep specialty grains separately
+
+
+All Grain Porter: (3/19/95)
+- ---------------------------
+7lbs 2-Row
+3lbs Klages (Old, doing a cupboard cleaning)
+1lb  Crystal Malt(90L)
+ .5lb Black Patent
+ .5lb Chocolate Malt
+
+
+1 oz. Willamette (Alpha=4.3) 60 min boil
+1 oz. Willamette (Alpha=4.3) 10 min boil/steep
+
+
+Wyeast 1028
+
+
+O.G: 1.05x
+
+
+(Sorry, I didn't list a mash schedule for it when I brewed it.  Just to
+ make up for it, I'll list an American Brown Recipe with its mash schedule.)
+
+
+All Grain American Brown: (1/16/94)
+- -----------------------------------
+9lbs  2-Row (Old)
+ .75lb Crystal Malt(40L)
+ .6lb  Belgian Choc Malt
+ .5tsp Gypsum (Adjusting mash ph)
+
+
+1 oz  Northern Brewer (Alpha=10.0) 60 min boil
+ .5 oz Cascade 15 min boil
+ .25 oz Cascade Dryhop (upon transfer to secondary.)
+
+
+Wyeast 1028
+
+
+Mash:
+  Protein Rest: 123F for 30 min
+  Bump to 154 for 90 min (or what suits you.)
+
+
+O.G: 1.052
+
+
+Ferment at 60F and condition at 13psi of CO2 for carbonation.
+
+
+Enjoy, and hopefully this will stimulate another round o
+recipe sharing.  (And yes, my record keeping has improved since
+these recipes. :-)
+
+
+Glenn
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 10:41:28 -0800
+From: BANESI`at`novell.com  (Brad Anesi)
+Subject: Hudson Valley Homebrew Competition?
+
+
+Does anyone have the details about this?
+
+
+There was a blank message regarding this a few digests ago.
+
+
+Thanks,
+
+
+Brad
+(Banesi`at`Novell.com)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 14:07:00 -0600
+From: 00bkpickeril`at`bsuvc.bsu.edu (Brian Pickerill)
+Subject: re: Stuck Fermentation
+
+
+On Mon, 26 Feb 1996 22:38:06 -0400 (EDT), Kevin <liquori`at`ACC.FAU.EDU> asks:
+
+
+>Dear Collective,
+>        First I want to thank everyone who reassured me that sticking my
+>arm in my beer wasn't the worst thing to do. Now I have a new problem.
+>        I brewed a Harpoon Winter Warmer clone (from Cat's Meow). The OG
+>was 1.061. Four days later the gravity was 1.039. Last night I transferred
+>from the primary (it was in the primary for a week) to the secondary.
+>The gravity was 1.036.
+>There has been no activity in the fermentation lock over the last
+>twenty-four
+>hours. I do not know what the terminal gravity should be, but I know this
+>is too high. I am assuming the stuck fermentation is due to the fact that
+>I did not aerate the wort (this is only my second batch and I'm still
+>catching on). I pitched a liquid Wyeast (British ale #1028). On my first
+>batch the fermentation was also stuck so I added some priming sugar to
+>the primary. This dropped the gravity very little, but left the beer with
+>a very cidery taste.
+>        Any suggestions for getting the fermentation going again? Is this
+>actually no problem and the process is just EXTREMELY slow?
+>
+>Thanks in advance...Kevin...liquori`at`acc.fau.edu
+>
+
+
+I think the best you could do is to add a fairly large quantity of settled
+yeast that had been very well aerated in the starter, (being sure that the
+temperature of the starter and the winter warmer wort were right for the
+new yeast.)  I'm assuming that you didn't use a starter with the #1028?
+Probably you would want to add more of that same yeast, but with a good dry
+yeast you could add this within a couple of days.  The idea is to add yeast
+that had plenty of O2 in their last generation, which should be able to
+continue to ferment with less than ideal O2 situation in your wort, and not
+to add more oxegenated wort.  Just adding some dry yeast would probably
+help, since most of it is pretty well oxegenated when it's dried.
+
+
+- --Brian Pickerill, Muncie, IN
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 96 14:16 EST
+From: "John P. Linton" <0003726529`at`mcimail.com>
+Subject: HB Magazines
+
+
+I am looking for a listing of Home Brewing magazines.  I have heard
+mention of Zymurgy and some others, but do not have an address or
+phone number to call for subscription information.  Any info would
+be greatly appreciated.  Thanks.
+
+
+jl 
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 10:58 -0800 (PST)
+From: Paul.Lambie`at`ncal.kaiperm.org
+Subject: Botulinum
+
+
+Regarding recent posts about botulism:  It is true that the Clostridium
+botulinum bacteria and the endotoxic it produces are destroyed by boiling.
+However, the spores may withstand 100 C for several hours and could therefore
+potentially contaminate the wort.  Spore germination and toxin production
+are both inhibited at low pH and toxin production is also reduced at
+temperatures below 6 C, so contamination of wort (especially if refrigerated)
+would be unlikely.  If one wanted to be absolutely certain that there was no
+contamination, the spores can be destroyed by moist heat at 120 C for 30 min.
+
+
+Paul Lambie
+P3 Brewers
+Rocklin, CA
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 15:46:57 -0500
+From: Steve Alexander <stevea`at`clv.mcd.mot.com>
+Subject: polyphenols (tannins) and silicates
+
+
+
+
+Some thoughts a questions ...
+
+
+Quite a few weeks ago (last year?) I believe it was Charlie Scandrett
+who suggested some radical, challenging and intriguing suggestions for
+a small brewery contstruction.  Among them the use of dehusked grain
+in order to reduce tannin extraction as I recall (sorry if the
+attribution and detail isn't quite right).  An interesting table in
+M&B Sci makes a tabular display of extract, silicate and tannin
+extraction of normal and dehusked malt for 1st wort, 1st, 2nd, 3rd and
+4th sparging [taken from, 'Grey & Stone, 1948, Wallerstein Labs Comm.
+11,301'].  The relevent parts of the table produced below:
+
+
+Normal Malt:
+          Extract%        Silicates        Tannins(mg/L)
+                        (SiO2 mg/L)
+        ---------------------------------------------
+1st wort    20.5        37                78
+1st sparge  16.9        39                49
+2nd sparge   8.3        17                25
+3nd sparge   6.0        18                24
+4nd sparge   5.0        31                18
+
+
+Dehusked Malt
+
+
+          Extract%        Silicates        Tannins(mg/L)
+                        (SiO2 mg/L)
+        ---------------------------------------------
+1st wort    25.4        nil                66
+1st sparge  13.8        nil                --
+2nd sparge   7.6        nil                24
+3nd sparge   6.4        nil                25
+4nd sparge   --         nil                --
+
+
+
+
+The final hopped wort ended up w/ virtually the same extract, 91% less
+silicates and 22% less tannins for the dehusked beer.  The dehusked
+mash also sparged out somewhat faster.
+
+
+Well without access to this paper (which isn't likely), it's a little
+hard to interpret these results, but it's fairly clear that dehusking
+will remove a very large portion of the silicates, but only a fraction
+of the tannins.  The decrease in tannins appears to be mostly in the
+first runnings.  The tannins from the 'normal malt' decrease in
+successive runnings, but not as quickly as the decrease in extract.
+It would be very nice to see this sort of table with a more detailed
+breakdown into more specific phenolic compounds.
+- --
+Silicates are mostly in the outer husk, contribute harshness to the
+final beer and, like tannins, are more readily extracted from the husk
+at higher temperatures and higher pH values.
+
+
+*Incidentally, rice hulls, which have been suggested as a mechanical
+*aid to difficult to sparge wheat and rye beers, are very high in
+*silicates.
+- --
+Polyphenols are concentrated in the pericarp and alleurone layers just
+below the outer husk(pallea + lemma).  I believe that the pericarp
+comes off with the outer husk, but if anyone can clarify this I'd like
+to hear about it.
+
+
+Are the polyphenols in the pericarp and alleurone attached in proteins
+tannin complexes ?  Why is pH a factor in their release ?  Is cold
+sparging a practical possibility ?
+
+
+Steve Alexander
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 96 12:39 PST
+From: robtrish`at`mindlink.bc.ca (Rob Lauriston)
+Subject: depth of grainbed
+
+
+
+
+Just to add my $0.02 (Canadian) worth on the subject of the depth of the
+grainbed in a lautertun.
+
+
+My LT is 40.5 cm (16 inches) in diameter, for an area of 0.128 square meters
+(1.39 square feet).  I normally use 10 kg (22 lb.) of grain because that
+gives enough wort to fill my 60 quart kettle.  So that's 78 kg/m2 or 15.8
+lb/ft2.  The depth of the grainbed is about 6-8 inches.
+
+
+I have used up to 18 kg (40 lb) in this lautertun, but the run-off was a bit
+slow.  That's 140 kg/m2 or 28 lb/ft2.  Then the grain is more like 14 inches
+deep.  The false bottom is SS wedge-wire.
+
+
+Rehberger and Luther in the Handbook of Brewing (ed. Hardwick) write,
+"Specific loading varies from milling process and lauter tun design.  Dry
+milling ranges from 33.5 - 61 lb/ft2 ..." p. 282.  However, since large
+industrial brewers may run the rakes continually during sparging, they can
+get away using a lot more grain.  So much for the references.  
+
+
+Another way to look at it is according to the factors which determine the
+minimum and maximum bed depths.  Here's a more verbose version of what Al K.
+posted.
+
+
+The minimum grain depth is the one in which you can establish a filter bed
+and get even flow of spargewater through the grainbed.  I think it was last
+summer that we went all through a discussion of particles moving up and down
+in the mash and even whether there was such a thing as a filter bed.  To
+repeat what I have observed on various brewing systems: the filter bed is
+created because the very small particles in the mash are washed away from
+the bottom of the mash in the recirculation leaving a filterbed of husks and
+other larger particles behind.  I think this filterbed is only an inch or so
+thick, based upon my experience of being able to run the rakes in a
+commercial lauter tun an inch above the bottom without causing the wort to
+become cloudy.
+
+
+So the real factor that affects the minimum grain depth is the ability to
+get an even flow through the grain.  I'm pretty sure that resistance to flow
+is proportional to the square of the grain depth.  That is, if the grain
+depth varies between three and four inches, sparge will travel through the
+four inch areas at only 56% of the rate that it goes through the three inch
+areas (3e2/4e2 = 9/16).  And especialy since the four inch area contains 33%
+more extract (4/3), this is a problem.  It could work out to much more than
+a few points per gallon.  Channeling would have a greater effect in a thin
+bed too.  In short, it's easier to get an even flow with a thicker bed (to a
+point).
+
+
+I think that the only factor affecting the maximum depth is the length of
+time it takes to lauter.  Does anyone out there have a grain bed deeper than
+a foot?  
+
+
+It seems right to me that the grain depth should be less than the diameter
+or width of the lauter tun.  The only support I can give for this feeling is
+that as the bed contracts during sparging, it can crack but almost *always*
+pulls away from the sides of the vessel.  The effect of this channelling
+would be more severe with a tall narrow LT than with a short wide LT.  This
+is where proportionality comes in. 
+
+
+I know this doesn't quite jive with what Jared wrote about Siebel's pilot
+LT: "ideal grain depth is 18 inches. ...   The >mash-tun was a tall
+rectagular box about 20 inches high, 10 inches depth and 5 >inches in
+width."  Perhaps Siebel, oriented to larger scale commercial brewing, made a
+mistake when scaling down?
+
+
+The actual height of the lauter tun is irrelevant -- as long as it's higher
+than the grain ;-)  Since the extra height of the LT above the grain serves
+no purpose, it's silly (tm) to talk about grain depth as a fraction of the
+lautertun height.
+
+
+Conclusion?  When designing a LT, you decide what range of batchsizes you
+want it to be able to accomodate, what amounts of grain that it will take to
+make those batches, and then you try to get the weight of grain per area of
+false bottom in the range of 12 to 25 lb/ft2.
+
+
+I'll compile and post of summary of others experience if people want to send
+me their numbers: size of LT, weights of grain used, perhaps with a
+description of their false bottom and approximate flow rates.
+
+
+My grandfather had a newspaper column entitled, "Maybe I'm Wrong".  I follow
+in his keystrokes.
+
+
+Rob L.
+____
+
+
+
+
+------------------------------
+
+
+Date: 28 Feb 96 16:01:58 EST
+From: "Roger A. Becker" <102425.3003`at`compuserve.com>
+Subject: Yeast Information Seeked.
+
+
+I am a new member of the Homebrew Digest group and this is my first posting.  I
+am interested in finding meaningful information about the various strains of
+yeast sold by Wyeast.  Does anyone know of a compendium of yeast information
+that may be available from the HBD that would have the information I am seeking.
+
+
+Second, does anyone have a recipe for a dried malt extract version of ESB
+English Bitter.  This is a really great ale and I have not been able to get very
+close to the real thing.  Could it be that the proper  yeast strain  is the
+missing ingredient?  Any ideas would be appreciated.
+
+
+Thanks,
+Rog
+
+
+
+
+------------------------------
+
+
+Date: 28 Feb 96 16:27:55 EST
+From: "Kenneth D. Joseph" <74651.305`at`compuserve.com>
+Subject: The Tao of Mash Temps??
+
+
+Greetings,
+I have a few questions I would love explanations from the learned about:
+1.  I would love to hear an explanation of the effect of the continuum of mash
+temperatures and their respective taste results.
+
+
+2.  What is the proper water to grain ratio -- I have been using 1.33 Quarts/#
+per a book I have.
+
+
+3.  I am doing an experiment to produce an authentic medieval ale (I know, not
+much for the refined palate) and am wondering what a good source of wild yeast
+would be since I live in the desert and its winter.  I have been told that bread
+would work, and also saw a recipe for a cider where wild yeast from the apples
+was used.  Would a sliced up apple work?
+
+
+Private e-mail is fine -- I'll post a summary.
+
+
+thx,
+
+
+Ken Joseph
+74651.305`at`compuserve.com
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 16:40:23 -0500
+From: Steve Alexander <stevea`at`clv.mcd.mot.com>
+Subject: Lactobacilli from malt grain
+
+
+
+
+Several times I've read the suggestion on HDB that malted grains can
+be used as a source of lactobaccilli for brewing acidification.  One
+of the Cat's Meow recipes call for this as well.
+
+
+As an experiment I made a 6 oz sterile wort starter from extract and
+'pitched' with a tablespoon of pale malted barley.  The airlock
+bubbled, tho never vigorously, and after 10 days I took a look.  The
+wort was somewhat cloudy.  The aroma was sort of like (yeast)
+fermenting wort but w/o the yeasty toasty smell, tho there was a
+substantial DSM odor.  The flavor was most definitely lactic acid and
+malty wort flavors.  I slipped a few drops under a microscope and -
+WOW - enough distinct bacteria to make any swamp jealous !
+
+
+Well I expected contamination but this was a jungle.  I did this
+ferment at ambient room temps (around 70F) - if I was trying hard to
+select thermophilic bacteria like L.Delbreuckii I should have kept the
+temperature up - and bumped it up higher on signs of an infection.  My
+conclusion is beware of those overnight acid rests - you can't tell
+*what* is growing in there.
+
+
+BTW - via private email I've found that The Yeast Kit Company will
+sell a pure L.Delbreuckii culture (not a smack pack) for a modest
+price.  So there is no reason for the bacterial cultural elite to make
+inferior Dry stouts and Berliner Weiss. 
+
+
+  yeast kit company page
+  http://oeonline.com/~pbabcock/yckco.html
+
+
+No relationship w/ the YKC, just a soon-to-be customer.
+
+
+Steve Alexander
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 16:14:39 -0600
+From: Russell Mast <rmast`at`fnbc.com>
+Subject: Stuck Tea Conversion and Break
+
+
+> From: liquori`at`ACC.FAU.EDU
+> Subject: Stuck Fermentation
+
+
+Have you tried sticking your arm into the beer?  That often unsticks mine.
+(Sorry, couldn't resist.)
+
+
+Seriously -
+
+
+> I am assuming the stuck fermentation is due to the fact that 
+> I did not aerate the wort 
+
+
+I think you hit the nail right on the head.
+
+
+> On my first 
+> batch the fermentation was also stuck so I added some priming sugar to 
+> the primary. This dropped the gravity very little, but left the beer with 
+> a very cidery taste. 
+
+
+That's not a good idea.  My admittedly limited knowledge of yeast physiology
+suggests that this would probably just encourage yeast dormancy.
+
+
+>         Any suggestions for getting the fermentation going again? Is this 
+> actually no problem and the process is just EXTREMELY slow? 
+
+
+It is a problem.  You already have the answer, grasshopper.  AERATE IT!  It's
+not too late, it's never too late.  Well, sometimes it is - you might oxidize
+the wort.  However, active yeast will 'reduce' those oxidized chemicals back
+to what you want them.  
+
+
+Shake shake shake, shake shake shake, shake your carboy.  (I do this with the
+carboy on the ground to minimize risk of breaking.)  
+
+
+> From: Imakebeer`at`aol.com
+> Subject: Hop Tea
+
+
+Boiling hops in water doesn't do the same as boiling them in wort - different
+chemicals come through in different proportions, and different reactions take
+place on top of that.  The best way to present different hop characteristics 
+is to brew a bunch of little test batches with an identical recipe but 
+different hoppings.  A pain?  Yes, but the only way to get accurate hop 
+representation.  
+
+
+> From: pittprog`at`usaor.net (Chuck)
+> Subject: Mash Questions
+> 
+> 
+> ... all the starch was not converted. 
+> ... I ASSuME that this was due to the
+> fact that I was using a 2-row instead of a 6-row?
+
+
+I'd bet it's something different, maybe poorly crushed grain?  
+
+
+My last batch never fully converted.  I got bored with waiting, and just 
+made beer with it.  It took a long time to clear in the carboy, and wasn't
+as high a gravity as I wanted, but it tastes great.  (It was also a bit 
+overhopped, but that's waning with age.)
+
+
+> Additionally, I have noticed that in my all grain batches
+> I get little or no hot break compared to my extract batches
+> which get plenty. Is there a reason for this?
+
+
+Weird.  I usually get a lot more.  Maybe you're not boiling vigorously enough?
+Do you do larger boils with all grain than you did with extract?  It could
+be that you have enough heat to do the smaller batches but not enough for 
+the larger batches.
+
+
+ -R
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 17:47:20 -0500
+From: KennyEddy`at`aol.com
+Subject: Ready-made RIMS & pump motor controllers?
+
+
+I received a catalog at work today from Solid State Advanced Controls (315)
+638-1300.  There are at least two items which may be of interest to y'all.  I
+know nothing about this company; I probably requested the info for reference
+some time ago.  Not even sure they'll sell to you as an "individual"
+(although their price sheet does include single quantity), but it'd be worth
+a shot if you're interested.
+
+
+Item 1 is the TCR series temperature controller.  You add an NTC thermistor
+and a pot, and wire it to the line and the heater element.  The unit switches
+when the thermistor resistance equals the pot resistance plus about 1K.  You
+can select a thermistor and pot for whatever range or sensitivity you're
+after.  The 100K thermistor Morris recommends in his original RIMS circuit
+article has a resistance of about 100K at 25C. about 25K at 55C, and about
+7.5K at 85C (to give you an idea).  The unit is in a 2" x 2" x 3/4" package
+(tiny!) with six 1/4" terminal lugs.  The package has a hole in the center
+for mounting to a heat sink with a #8 to #12 screw.  It's powered entirely
+off the AC line.  It's available in 120 or 230 VAC models, and 6, 10, or 20
+amp operation.  Price range is $33.65 (6A, either voltage) to $47.76 (20A)
+with discounts for higher volumes.  One possible drawback -- it lacks the
+anticipator circuit Morris uses, so some overshoot is to be expected (how
+much, I don't know -- depends on your system).  Accuracy is claimed to within
+1 deg C of setpoint.
+
+
+Item 2 is an AC Phase controller, which basically is a variable power
+controller.  It'd be a nice RIMS pump speed control, and other available
+models will handle much more power than that.  It's the PHS series, in a 2 x
+2 x 1 package similar to the TCR.  You just add a cheapo pot (100K for 120V,
+200K for 230V) and connect the unit to the line and the load.  It has three
+terminal lugs for connection.  Again, it's available for 120 or 230 VAC, and
+1, 6, 10, and 20A capacity (the 20A capacity is worth 2400W of control at
+120VAC and 4800W at 240VAC!).  Pricing goes from $9.28 (1A) to $24.13 (20A).
+
+
+In addition to controlling pump speed, another PHS could be used in
+conjunction woth the TCR to control the max power of the element, to serve as
+a temperature-rise rate controller.
+
+
+No affiliation blah blah blah but it might help some of you
+soldering-iron-challenged brewers out there.
+
+
+Please direct all further questions about these products to the phone number
+above...
+
+
+Ken Schwartz
+KennyEddy`at`aol.com
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 17:54:43 -0500
+From: Mark Peacock <mpeacock`at`oeonline.com>
+Subject: German vs. American Wheat Styles
+
+
+Not wanting to re-start the great Style thread, but...
+
+
+Can someone summarize the differences between German (more specifically,
+Barvarian) wheat and American wheat beers?  One obvious difference is yeast
+strains.  What about others -- hops, wheat:malt ratios, use of specialty malts?
+
+
+Thanks and regards,
+Mark Peacock
+mpeacock`at`oeonline.com
+Big Business on the Web -- http://oeonline.com/~mpeacock/bbusiness.html
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 16:36:10 -0500 (EST)
+From: Rob Reed <rhreed`at`icdc.delcoelect.com>
+Subject: DWC Special B / Keg Leaks
+
+
+A.J. wrote in describing DWC Special B malt:
+
+
+>                                Caramunich          Special-B
+
+
+> Lab. Wort Color, Lov.                72                221
+
+
+Hasn't DWC recently changed their Special B from 220L'ish to about
+150L or so?  I had not used their Special B for awhile, and I noticed
+that the last batch I bought was lighter than previous.
+
+
+////////////////////////////////////
+
+
+Dan asked about keg sealing problems:
+
+
+> When force carbonating at pressures of 8-9 psi and greater there is no
+> apparent leakage, but at dispensing pressure (about 5 psi) there is
+> significant gas leakage around to oval lid.  Thinking I had a bad O-ring
+> or micro-fissure in the lid itself, I replaced both.  Same problem,
+> same spot.  With both lid & O-ring assemblies, the leak occurs right
+> at the point where the long axis of the oval intersects the perimeter.
+
+
+Assuming there are no leaks in your keg, one solution is to buy an
+oversize large o-ring - about $5 US - from Williams in CA.  I have several 
+for older pin-lock kegs: they are fatter (larger cross section) and are more
+pliable than stock o-rings.  Another option is to serve at your 8-9 psi: if
+you choose your beverage line tubing diameter and length properly, you
+should be able to serve at 8-9 psi in the 40's (F).  Based on HBD info,
+I use 4' of 3/16" ID hose and can serve up to about 10 psi reliably.
+
+
+Cheers,
+
+
+Rob Reed
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 96 10:32:01 EST
+From: dipalma`at`sky.com (Jim Dipalma)
+Subject: Re: Kegging 101, Lagering--time and S.G.
+
+
+
+
+Hi All,
+
+
+  In HBD#1971, Dan Nelson writes:
+
+
+>I'm having one problem, though,
+>which is is getting a perfect seal around the lid of the keg.  It's a
+>5 gal. ball-lock corney, reconditioned, new gaskets, in very nice shape.
+>When force carbonating at pressures of 8-9 psi and greater there is no
+>apparent leakage, but at dispensing pressure (about 5 psi) there is
+>significant gas leakage around to oval lid.
+
+
+  That's consistent with my experience with corny kegs. It takes 10-12 psi
+to "seat" the large Oring and get a good seal. You can dispense at 10-12 psi
+with no problem, but you'll need to adjust your tubing length/diameter to
+compensate for the higher dispensing pressure.
+  FWIW, I use just over 3 feet of 3/16" beverage tubing, which drops about
+3 psi/ft (by comparison, the 1/4" tubing drops just 1 psi/ft). There's a 1 psi
+drop across the hose connect, another 1 psi across the cobra head tap, so
+the total pressure drop across the dispensing line is roughly equivalent to
+10-12 psi also.
+
+
+***********************************************************
+
+
+Also in HBD#1971, Tam Thompson writes about lagering times and SG:
+
+
+>I'm unclear about how
+>long you need to lager things.  I'd always used 2 months as a rule
+>of thumb, except for bocks (traditional, not American or Texas) and
+>Dbocks, which take 3 months.  Lately, however, I've been thinking that
+>the length of time required for lagering is probably related to the original
+>gravity.  A Dbock, at OG 1.075+, or bock, at 1.065-1.075, requires 3 months.
+>Lagers beers with lighter gravities require 2 months.
+
+
+  IMHO, lagering times are related more to yeast strain and fermentation
+schedule rather than OG. Some lager strains produce a lot of hydrogen sulfide
+(smells like rotten eggs), diacetyl, etc., during primary, and require 3-4
+months of lagering to eliminate. Conversely, other strains such as W 34/70
+ferment very cleanly, and produce good results after just 4-6 weeks of
+lagering. Use of a diacetyl rest can also shorten lagering times significantly.
+
+
+  With that said, my schedule for lagering is similar to Tam's. I use Wyeast
+2206 or 2308 for lagers above 1.060 such as bocks and festbiers, and lager
+for 3-4 months. The 2206 is one of the aforementioned strains that produces
+copious amounts of hydrogen sulfide during primary. A 1.048 pilsner pitched
+with W34/70 is generally in the glass less than 2 months after brewday. So,
+while I've also seen a correlation between lagering times and OG, I think it's
+due more to the strain of yeast used.
+
+
+>I'm
+>thinking that gravities below 1.045 could be lagered at around 32-34 F for,
+>say, 6 weeks.
+
+
+Try the W34/70, use a diacetyl rest, and this should work.
+
+
+         Cheers,
+          Jim               dipalma`at`sky.com
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 16:02:10 -0700
+From: brewshop`at`coffey.com (Jeff Struman)
+Subject: isinglass
+
+
+   Hello fellow brewers,
+
+
+ I recently started using isinglass flakes at bottling time to help clear
+my beer in the bottles.  This isn't a real important question, but I am
+curious about something:  When I add this isinglass to water it puts off
+some real obnoxious odors.  The smell makes my eyes water, my nose run and
+makes me sneeze.  If I take a good whiff of the odor it takes my breath
+away (literally.)  What's going on here?  Is this odor toxic or dangerous?
+What causes it?  And, while we're on the subject, what is the chemical or
+biological reason for isinglass' clearing properties?
+TIA for any replies,
+
+
+Jeff
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 19:55:24 -0600
+From: "Nathan L. Kanous II" <nlkanous`at`facstaff.wisc.edu>
+Subject: Going to Oklahoma City
+
+
+Wife and I are going to Oklahoma City March 7-10.  Does anyone know of any
+brewpubs / microbreweries in Oklahoma City?  
+
+
+Anybody out there from Oklahoma City?
+
+
+Private e-mail is fine.  Thanks
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 96 18:32:00 PST
+From: Lewis Alexander <lalexan`at`msbassett.kla.com>
+Subject: removal of name f/ list
+
+
+
+
+Date: feb 28,96
+From: lewis alexander
+Sub: Please remove my name from the mailing list.
+
+
+   Thanks for the great beer articles!
+
+
+E-mail address: lalexan`at`kla.com
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 96 18:47:00 PST
+From: Lewis Alexander <lalexan`at`msbassett.kla.com>
+Subject: FW: removal of name f/ list
+
+
+
+
+
+
+ ----------
+From: Lewis Alexander
+To: 'homebrew - articales'
+Subject: removal of name f/ list
+Date: Wednesday, February 28, 1996 6:30PM
+
+
+Date: feb 28,96
+From: lewis alexander
+Sub: Please remove my name from the mailing list.
+
+
+   Thanks for the great beer articles!
+
+
+E-mail address: l_alexan`at`kla.com (new address),  old address f/ ref: 
+(l_alexan`at`kla.bassett.com)
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 23:59:04 -0500
+From: bob`at`carol.net (Robert Rogers)
+Subject: Kegging 101 - gas leak
+
+
+>When force carbonating at pressures of 8-9 psi and greater there is no
+>apparent leakage, but at dispensing pressure (about 5 psi) there is
+
+
+just make beer that needs more carbonation:)
+
+
+from what i have come across so far, 5 psi is about the minimum pressure any
+corney keg will hold. the last batch i kegged started `at` about 25psi. i
+didn't foam too much on dispensing--maybe an inch in a pint mug. i think
+this has to do with the length of my tubing, which is over 6 feet.
+
+
+bob rogers,  bob`at`carol.net
+
+
+
+
+------------------------------
+
+
+Date: Wed, 28 Feb 1996 23:58:44 -0500
+From: bob`at`carol.net (Robert Rogers)
+Subject: jack daniel's oak aged pilsner
+
+
+i just found jack daniel's 1866 classic oak-aged pilsner. the side of the
+bottle claims "our oak-aged pilsner is the best of two worlds. we first
+handcrafted a traditional old world pilsner beer, using only select two-row
+barley malt, cluster and saaz hops, choice yeast and pure water. we then age
+it in a unique new world way-using jack daniel's oak barrel wood. oak-aging
+gives our pilsner a more complex character and an extra measure of golden
+color, for a pilsner unlike any other." the box goes on to add "the next
+time you're in lynchburg, tennessee, visit our small brewery and see the way
+beer used to be made". the box also comes with a card to mail to the brewery
+to join "the slow brewers of america" and receive "the latest news on old
+fashioned beer".
+
+
+the beer is very light in color and has a very crisp taste. so the question
+this brings up is: has anyone ever used wood in aging beer? oak is very high
+in tannin. why is tannin bad from grain but good from oak? i will try oak
+aging with my next pilsner (RSN). before i just dump some oak in the
+fermenter (maybe oak dowels in the secondary), are there any suggestions
+about quantity of wood (seems surface area will be the key), and precautions
+to take?
+
+
+bob rogers,  bob`at`carol.net
+
+
+
+
+------------------------------
+
+
+Date: Thu, 29 Feb 96 04:17:00 UTC 0000
+From: t.duchesneau`at`genie.com
+Subject: Superbrau extract
+
+
+  A couple suppliers here in upstate NY have listed Superbrau LME in 4# cans
+for under $7.  When I went to one of those stores to buy some last weekend,
+I was told that they didn't carry it any more because they found out that it
+contained rice.  I was told that it was only suitable to make a Bud clone.
+The other store still carries it and the person working there told me he had
+used it with success.
+
+
+  Who out there has experience with Superbrau?  Were those experiences good
+or bad?  Does anyone have first hand knowledge of the contents?  Rice?
+
+
+  TIA...                                ...Tom
+
+
+
+
+------------------------------
+
+
+Date: Thu, 29 Feb 1996 07:05:00
+From: braue`at`ratsnest.win.net (John W. Braue, III)
+Subject: How to Clean Bottles (and Why Not to)
+
+
+Craig Stewart <foghorn1`at`darwin.nbnet.nb.ca> writes in HBD #1972
+
+
+>rSlightly off the topic of *brewing* the beer, but on the topic of 
+>*bottling* the brew.  I've been brewing for a while now, partial mashes 
+>and the like.  Ive got a pain in the arse that takes a lot of the fun out 
+>of brewing for myself.  CLEANING THE DAMN BOTTLES!  I wash out the 
+>bottles after I drink them, but invariably I have to aquire new ones.  As 
+>I don't drink the domestic swill that is offered exclusivly in my small 
+>part of Canada, I have to get second hand bottles.  Some of the stuff 
+>that comes out of them makes me want to 'recycle' the obligitory 
+>homebrews that I consume while brewing and bottling.  Are there any ideas 
+>as to how to clean out this mess.  Yes, I have a dishwasher, I'm it! 
+><grin>
+
+
+Soaking overnight (or longer) in a solution of 500 ml clear ammonia
+to 20 l cold water has worked well for me in the past.  Judging
+from the use of clear bottles (it's always difficult to tell if a
+brown bottle is *really* clean, isn't it?), this removes
+everything except some label-glue residue.
+
+
+>
+>Next question, to sanitize them, how much household bleach should I put in
+>~20 - 25 litres of water.  If I put in enough to smell it, I have a devil
+>of a time geting the smell out, and if I can't smell it, I don't know if I
+>have enough!  Otherwise, I'm having fun. 
+>
+
+
+Use household bleach in the 250 - 330 ml range per 20 l of water. 
+Rinse well (i.e., don't just stick the bottle under the tap and
+call it done; actually swirl some water about on the inside) in the
+hottest possible water (I don't believe in OSHA standards, and
+have my water heater set to about 65 deg C).
+
+
+Prepping bottles *is* a pain in whatever end of the spinal column
+you prefer, isn't it?  That's why I've moved to kegging. 
+
+
+- --
+John W. Braue, III                     braue`at`ratsnest.win.net
+                                    john.braue`at`berlinwall.org 
+
+
+"The water of England is not drinkable"
+- -- Elizabeth of York in a letter to the Infanta Catalina of Aragon
+
+
+I've decided that I must be the Messiah; people expect me to work 
+miracles, and when I don't, I get crucified.
+
+
+------------------------------
+
+
+Date: Thu, 29 Feb 1996 13:43:28 +0100
+From: johan.haggstrom`at`ped.gu.se dv (Johan H\dggstr\vm)
+Subject: Re:European Brewery Tours.
+
+
+ Jim Booth writes
+"Sposual unit and I will be touring in England, Scotland, Ireland, 
+France, Belgium and Holland in July. 
+Your suggestions about historically interesting places would be appreciated."
+
+
+I visited the small geuzebrewery CATILLION in Anderlecht, a part of 
+Bruxelles (don't no the adress), a couple of years ago. It's a fantastic 
+experience. The brewery is run in a very small scale and in a traditional 
+way. Don't miss it. It's really worth a visit.
+
+
+Johan Haggstrom, Goteborg, Sweden
+
+
+
+
+------------------------------
+
+
+Date:          Thu, 29 Feb 1996 14:44:52 +200
+From: "Braam Greyling" <ACG`at`knersus.nanoteq.co.za>
+Subject:       Storage of yeast.
+
+
+Hi there
+
+
+I have a few questions about storage of yeast.
+What is the best way to store dry yeast. Can I freeze it ? How long 
+can I store it ? I ask because it is difficult for me to get the 
+right yeast for my purposes. I wish to order yeast from U.S. to my 
+country (South Africa) and would like to store it as long as 
+possible.
+If any beer mail order business read this message, please send me a 
+catalogue.
+Thanks 
+Bye
+Braam 
+
+
+------------------------------
+
+
+Date: Thu, 29 Feb 1996 08:52:36 -0500
+From: TMCASTLE`at`pwinet.upj.com
+Subject: bottling laments
+
+
+     In HBD#1972 Craig Stewart curses the chore of bottle washing and in 
+     several past issues people have mentioned the chore as a major reason 
+     for switching to kegging.  Well, to each their own, and maybe I'm so 
+     new to homebrewing; but it seems like this is an attitude issue.
+     
+     I love to wash and fill bottles.  It's part of the Zen of brewing.  
+     It's quiet time to reflect on the art and slow down the pace of life.  
+     Put on some music, enjoy a brew, "Be still and know that I am brewing 
+     (a twisted Biblical paraphrase)".
+     
+     Ski buffs sharpen their blades, fishers build their lures, homebrewers 
+     bottle (apologies to those of the kegging persuasion).
+
+
+------------------------------
+
+
+Date: Thu, 29 Feb 96 10:07:08 EST
+From: "Kirk Harralson" <kwh`at`smtpgwy.roadnet.ups.com>
+Subject: Almond flavor
+
+
+Mike Aesoph writes:
+
+
+> A while ago, I was helping a friend empty his fridge of imported beers 
+>(by consumption of course) and I noticed that some of the beers had a 
+>nice "toasted almond" taste.  Does anyone out there know a good beer 
+>recipe that includes almonds or other unique flavor ingredients?
+
+
+A guy at my local brewshop swears by his "toasted almond" ale.  His method is to
+spread a pound or so of grain on a cookie sheet, sprinkle a bottle of almond 
+extract over it, then toast it in the oven as described in Papazian.  This 
+sounded very suspect to me, but several people claim it is a fantastic beer, and
+the almond flavor really comes through.  Disclaimer:  This is second-hand 
+information only; I have never tried it.  I just thought it was an interesting 
+idea that I may try in the future.  If you try this, I would definitely suggest 
+grinding the grain before you wet it in any way.  Even the slightest amount of 
+moisture makes quite a mess in a mill.  A safer approach may be to add the 
+extract at bottling.  You could bottle half the batch as normal, and then add 
+some extract to the remainder to do a side-by-side comparison and to adjust 
+quantities.  Just remember to take very good notes.  Good Luck!
+
+
+Kirk Harralson
+Bel Air, Maryland
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1973, 03/01/96
+*************************************
+-------

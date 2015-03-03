@@ -1,0 +1,1372 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id AAA17530;
+        Tue, 23 Jun 1998 00:49:42 -0400 (EDT)
+Received: from brew.oeonline.com (root`at`brew.oeonline.com [206.31.224.50])
+        by srvr22.engin.umich.edu (8.8.8/8.8.8) with ESMTP id AAA18025;
+        Tue, 23 Jun 1998 00:49:40 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA31392 for realhomebrew; Tue, 23 Jun 1998 00:38:52 -0400
+Date: Tue, 23 Jun 1998 00:38:52 -0400
+Message-Id: <199806230438.AAA31392`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2747 (June 23, 1998)
+Status: O
+X-Status: 
+
+
+
+
+
+
+HOMEBREW Digest #2747                             Tue 23 June 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  fermentation controller (Poris)
+  Cani Sugar in Blegian brews ("Scott Nichols")
+  Steam injection (Kevin Fogarty)
+  AD: Free brewer's unit conversion software (Brian Dixon)
+  Oxynator Question ("Ed Krach")
+  Yeast sporulation ("Arnold J. Neitzke")
+  Liquid Nails and Polystyrene ("MrWES")
+  RE: Really big batches. ("S. Wesley")
+  re: Wyeast 1968 (Sharon/Dan Ritter)
+  Nip (Kyle Druey)
+  skunkiness (Jeff Renner)
+  Re:  Styrofoam working tip (Ken Schwartz)
+  Skunking in a glass... (Some Guy)
+  Technoweenius extremis (michael w bardallis)
+  Re: Attitudes and The Man Who Knew Too Much (irajay)
+  When is Homebrew not Homebrew? (Thomas Lowry)
+  Logical fallacies (Harlan Bauer)
+  Belgian Beers and Candi Sugar (Tom Wolf)
+  Calculating percentage recipe, CO2 scrubing (Michael Rose)
+  How bad is a really long protein rest? (Stephen Jorgensen)
+  Yeast Ranching Questions (Kyle Druey)
+  Racking arm ("C.D. Pritchard")
+  Eisbock's ("Brad McMahon")
+  candied vs table sugar? (kathy)
+  bashing (Jeremy Bergsman)
+  Charlie Papazian - The Full Monty? (Doug Kerfoot)
+  Fruit Beers and Attitudes ("Eric R. Tepe")
+
+
+
+
+BUZZ's Buzz-Off competition is June 27-28. Information is available at
+www.voicenet.com/~rpmattie/buzzoff or via R. Mattie at
+rpmattie`at`voicenet.com. 
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 19 Jun 1998 19:08:16 EDT
+From: Poris`at`aol.com
+Subject: fermentation controller
+
+
+   I want to control my fermentation temperature in my basement without
+constant monitoring and switching of frozen jugs in the summer and (at this
+time) without a dedicated refrigerator (ales not lagers).  Because I have
+converted kegs capable of  batch sizes over 5 gallons, I did not want to use 5
+or 6 gallon buckets so I purchased a HDPE, FDA approved, white Rubbermaid
+Brute 10 gallon container (Cole-Palmer) as a fermentation vessel.  This way I
+only need one temperature controlled fermentation system for batches up to 8
+gallons or so. 
+    My idea is to get a plastic garbage can (32 gallons is a common size),
+place the 10 gallon fermentation vessel inside and fill up the garbage can
+with water to a level close to the fermentation vessel liquid level.  This
+will increase the thermal inertia of the system (good I think) and allow me to
+leave my fermentation vessel undrilled.  My basement is pretty cool in the
+summer (75F maximum) and not so cold in the winter (50F minimum).  Even with
+the thermal inertia of the system, I am guessing that I will probably
+experience temperature swings of at least 10F over the period of a week.  I
+have been re-examining the specifications for thermoelectric coolers (TEC).
+These are solid state devices that can act as heat pumps with the application
+of a DC voltage.  One side can be made hotter or cooler than the other side by
+applying a potential across the junction.  One side will be thermally coupled
+to the water in the garbage can and the other side will be connected to a
+large aluminum heat sink outside the garbage can.  An integrated circuit
+temperature sensor (National Semiconductor LM34 or 35) can be used to monitor
+and control the temperature of the system (it puts out 10mV per F or C).  It
+will be thermally conductive epoxied to the end of a bolt through the garbage
+can wall relatively close to the TEC.  A DC voltage (determined by the desired
+temperature setpoint) from a 10 position switch or pot on the output of a
+voltage regulator can be summed  with the output of this sensor and multiplied
+and fed to the input of a unity gain power amplifier chip (National
+Semiconductor LM12).  The input voltage to the power amp is from -150mV to
++150mV (a range of 30F).  The input voltage is 0.0 volts when the temperature
+is at the setpoint, positive when the temperature exceeds the setpoint and
+negative when the temperature is below the setpoint.  The voltage applied to
+the TEC from the output of the LM12 will range from -12 volts to +12 volts.
+The amount of heat added or removed from the side coupled to the garbage can
+will be proportional to the temperature difference.  I think this system will
+be able to control the fermentation to within +/-2F for the whole year.  The
+system also requires a standard 10 amp, 15 volt bipolar power supply.
+Probable total parts cost is around $140 (surplus electronics stores).
+ Here are some questions:
+
+
+ -I could not find a reference to this specific TEC application and do not want
+to re-invent the wheel, has this been documented over the last few years
+anywhere?  They sell TEC coolers that run off your car battery, but I don't
+want to buy one (no fun), are the wrong shape and cannot heat.
+
+
+ -Based on my limited experience with aquarium coolers, I am guessing that 30
+to 50 watts should be adequate to shift the temperature of 15 gallons or so
+within the limited range that I will experience in my basement in a reasonable
+time, I don't think I will need to add or subtract more than about 10F.  Any
+comments on this capacity, I can get units up to 80 watts.  I could also use
+multiple units if necessary which may allow me to get down to lager
+temperatures with adequate insulation.
+
+
+ -I will use a 1/4-20 3" bolt for mounting the temperature sensor.  SS or
+brass?  My guess is that the relatively low  thermal conductivity of SS will
+still be adequate for this short distance from the liquid to the sensor, any
+guesses?
+
+
+ -Any guesses about how much heat is generated by primary fermentation that
+will add to my heat pumping requirements during cooling?
+
+
+ -I am hoping that liquid convection will be adequate for heat transfer within
+the garbage can.  I guess I will mount it about 1 foot from the bottom of the
+can to get convection with cooling or heating.  Any suggestions?
+
+
+ -I guess I will insulate the garbage can  to maintain the setpoint
+temperature and minimize power consumption as well.  Any simple ideas for
+this?
+
+
+ -Some TEC vendors have a minimum order of $100.  Anyone know who sells these
+units individually?  If not, I may splurge and buy 4 or 5 and hope they work!
+
+
+Thanks in advance,
+Jaime (Santa Cruz Mountains, Northern California)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Jun 1998 20:29:22 -0600
+From: "Scott Nichols" <snichols`at`digitech.com>
+Subject: Cani Sugar in Blegian brews
+
+
+Mike Spinelli writes:
+
+
+>If candi sugar ferments completely as does dextrose, sucrose, etc,
+>then what's the purpose of it? 
+>I mean if the candi sugar imparts a flavor unobtainable 
+>with malt than I could see using it, but if it's just to bump up the 
+gravity then why 
+>not just use more malt?
+
+
+Candi sugar is used in Belgian ales to increase the alcohol content 
+without resulting in a "heavy" beer. 
+
+
+If you simply used more malt the resulting beer would be more like a 
+barley wine than a Belgian ale. This is because malt does not ferment 
+completely and the residual complex sugars that are left after fermentation
+ result in a fuller beer.
+
+
+Sugar is also used because Belgian ales are hopped with aged hops 
+resulting in a less bitter beer. If you used all malt the resulting beer 
+would be too sweet.
+
+
+Scott Nichols
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Jun 1998 23:32:55 -0500
+From: Kevin Fogarty <fogarty`at`sky.net>
+Subject: Steam injection
+
+
+Bill Macher asks about ways to inject steam into the mash.
+
+
+I've tried injection into the grain bed a few times, and it accomplished
+the temperature rises well. One problem is that if I left the copper
+loop in the grain bed during rests wort would fill in through the steam
+holes and when I turned the steam back on there would be a ferocious
+hammering in the tubing. I believe the steam injection loop must be
+removed and allowed to drain during rests.
+
+
+I will be very interested to see what people think about injecting steam
+into the circulation line.
+- --
+#############################################
+Kevin Fogarty Firefighter/Paramedic
+Kansas City, Kansas Fire Department
+IAFF Local 64      fogarty`at`sky.net
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 19 Jun 1998 23:50:58 +0100
+From: Brian Dixon <mutex`at`proaxis.com>
+Subject: AD: Free brewer's unit conversion software
+
+
+
+
+Just letting people know that there's a free brewer's unit conversion
+utility at http://www.proaxis.com/~mutex.  Click on the link for the
+products page and look for "Craft Brew Unit Converter", click Download Now
+at the bottom of the page.
+
+
+Have fun!
+Brian
+
+
+PS: Here's the description from the web site:
+
+
+- --
+Craft Brew Unit Converter
+FREE. Craft Brew Unit Converter is a simple utility that includes the
+following systems of units: 
+
+
+Belgian 
+British, UK and Imperial as appropriate 
+United States, Avoirdupois and others as appropriate 
+Metric and SI 
+
+
+Types of measurements that can be converted include dry weight, liquid
+volume or capacity, temperature, grain/wort/beer color systems, and liquid
+density (degrees Plato and specific gravity). You'll find a full range of
+measures from the tiniest to the very largest, including rare and unusual
+units that can't be easily found elsewhere. 
+
+
+In addition, Craft Brew Unit Converter includes an extensive built-in help
+system, including sections on the different measurement systems of the
+world and a huge data dictionary that includes much history, trivia, and
+conversion information in itself! 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 01:50:23 -0600
+From: "Ed Krach" <Ed.Krach`at`usa.net>
+Subject: Oxynator Question
+
+
+Just a couple of questions Oh Home Brew Gurus from a first time poster
+ (long time lurker).
+
+
+1.  Anyone who has used the Oxynator from Liquid Bread care to comment on
+ the results of a couple 15 second bursts of pure Oxygen compared sloshing
+ the bucket around.  I'm currently aerating by slowly pouring 3 gallons of
+ pre-chilled water into my primary (plastic) fermentor from a height of
+ about 5 feet.  
+
+
+2.  I saw this question previously, but not an answer.  Is the oxygen in
+ those propane style canisters available in Home Depot and the like the
+ same as the one's sold with the Oxynator.  These canisters cost $7 at Home
+ Depot as opposed to $16.45 from Liquid Bread.
+
+
+Thanks for all the great tips over the years!
+
+
+Ed Krach
+Beer Forsaken Provo, Utah
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 06:48:20 -0400 (EDT)
+From: "Arnold J. Neitzke" <neitzkea`at`frc.com>
+Subject: Yeast sporulation
+
+
+George DePiro touched on this one but I found more info when I was reading
+this book from our local library and ran across this. 
+
+
+On page 287 of the "Encylopedia of Beer", it says under "Lager" (talking
+about ale yeast), "If the temperature of the ferment drops much lower
+(than 58F), the yeast goes into a state of hibernation, building a cyst
+around itself in a process called sporulation"
+
+
+Gee, I guess Al K. isn't the only one that can reply to old posts!
+
+
+_________________________________________________________
+Arnold J. Neitzke     Internet Mail: neitzkea`at`frc.com
+Brighton, Mi          CEO of the NightSky brewing Company
+- ---------------------------------------------------------
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 07:27:31 -0400
+From: "MrWES" <killshot`at`enteract.com>
+Subject: Liquid Nails and Polystyrene
+
+
+We have a product here in the US that's called "liquid nails". It's applied
+like a silicon caulk with a caulking gun. I have built a polystyrene
+fermentation chiller and used liquid nails -- the unit is very solid.
+
+
+Bill
+
+
+
+
+<snip>
+Have seen a lot of chatter about building insulated fermenters, cold
+boxes and the like of late.
+
+
+I haven't followed it closely, so at the risk of repeating, I'll pass on
+a "tip" that made life easier for me.
+
+
+I am very fond of Styrofoam (polystyrene, cellplast, frigolit, etc.) as
+an insulating material.  The biggest problem with working with it, is
+joining it to stuff.
+
+
+Regular glues of all sorts just melt it.  The special glue made for it
+is messy, horribly expensive, and likely pretty toxic.
+
+
+I learned this trick from a builder, and am forever grateful....
+
+
+The stuff that you lay tile on (and here I don't know the English
+word... it's not "grout", but the goop you make a furrowed pattern in to
+actually "glue" the tile to the intended surface.... ok we'll call it
+"tile goop") works great!
+
+
+I've done the walls of my cellar in one of my fermentation rooms, was
+pretty liberal with it at first, but it turns out you just need a
+"patch" for each corner of the intended sheet (slap it there with a
+putty knife), press it in place, and it stays there!
+
+
+It fills uneven surfaces, works on wood as well (a la cellar door), is a
+snap to work with and doesn't cost much.
+
+
+On roofs, it's probably good to have some support until it dries, but on
+walls, it is viscous enough to just slap the sheet up, and your done!
+
+
+I did that room a year ago and it's still sitting solid as a rock
+despite the (quite heavy, and sometimes unsteady) traffic.
+
+
+Dr. Pivo (gawd, I like things that work.)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 08:59:58 -0700
+From: "S. Wesley" <sWesley`at`maine.maine.edu>
+Subject: RE: Really big batches.
+
+
+Dear Scott,
+        I have been helping a friend of mine who has limited financial 
+resources start a brewery here in Maine.  We just bought him a plot of 
+land and hope to start construction on his Brewery/House towards the 
+end of the summer. The idea is to make it so that he gets both his 
+residential and commercial space for the price of a normal mortgage 
+payment. (This will not violate local zoning laws)
+        The brewery will be constructed out of modules each of which will 
+have a capacity of a bit over a barrel (55 gal). The idea is to make it 
+so that we can expand capacity as needed without having to completely 
+resize the system. Initially we will probably run with two modules, but 
+we have materials to build three. Because of limitations on chilling 
+capacity we will have to stagger the mashes by about an hour. 
+        The modules will be standard three tier gravity fed setups.  Each 
+of us has a 100 litre system at present so we will use the two pairs 
+of 100 litre kettles from the old systems as HLT's for the new system and 
+55 gal kettles.  The mash tun is still a subject of debate.  Paul wants 
+to continue using large rectangular coolers with mainfolds (two for each 
+module) I suspect this may not be kosher with health authorities as the 
+coolers are not technically food grade, and I do not think they are 
+robust enough to stand up to the heavy use they will see. Each HLT will 
+have one 175 kBTU ring burner and the kettle will have two. The HLT's are 
+positioned above the kettles in a frame built out of uni-strut.  The mash 
+tuns will be positioned on tables to the side.  
+        Normally we do step infusion mashes, but I am seriously 
+considering building a RIMS setup in order to reduce the labor necessary 
+to operate the systems.  One idea I was playing around with would be to 
+buy a small gas hot water heater and a recirculating pump for hot water 
+baseboard heat and build the RIMS using a counterflow heater.  Another 
+idea would be to take my old immersion chiller and put it into a pot on a 
+small gas burner and make the heating equivalent of a canister chiller. A 
+third option would be to heat water to a specific temp in one HLT and 
+gravity feed into the kettle in a counterflow arrangement. I plan to do 
+some tests on these ideas over the summer. One other idea I would like to 
+try is getting a really powerful pump and running the RIMS in reverse 
+with a collection manifold on the top returning through the manifold at 
+the bottom of the cooler.  This might allow for high flow rates and 
+eliminate the need to worry about grain bed compaction. Next time I 
+finish sparging I may try this out to see how it works on a bed of spent 
+grain.
+        For chilling I have been using a 50' long 1/2" copper tube inside 
+a garden hose. I have done tests with it which indicate that this 
+geometry will be able to chill one barrel batches fast enough to suit me 
+ - less than ten min. (In my experience rapid chilling has a pronounced 
+effect on the hop aroma of a beer so I am not prepared to go the JS 
+route:-))  I am fortunate to have ground water that never goes above 50F 
+and costs the price of pumping it out of the ground.  I actually plan to 
+rebuild the chiller as copper in copper so we can recycle the cooling 
+water back into the HLT's for the next brewing session.  This will 
+preheat the water somewhat, reduce the load on the septic system and 
+reduce the electric bill for running the well. 
+        The fermentation setup is a three tier arrangement also. We will 
+be using 20 Gal food grade plastic barrels. Some people may be horrified 
+at the the idea of using plastic, but I bought my first set of ten 
+plastic fermenters from a commercial brewery in Boston which makes good 
+quality beer, and I have been using them successfully for a year now with 
+no problems. The primary is on top, the secondary is below that and the 
+tertiary is below that. The bottom of the tertiary is high enough to 
+allow for racking into either a Hoff-Stevens Keg or a Firkin.  
+        I've enjoyed spending the past year playing around with the 100 
+litre system but in a sense I am really looking forward to passing the 
+whole mess over to Paul so I can go back to doing lots of three gallon 
+batches. Prior to this year I usually brewed about 125 gallons a year. 
+brewing a different recipie almost every week. This year had to stop 
+because I was about to reach our 200 gal legal limit after a few months. 
+I decided to start recruiting guest brewers to keep brewing without 
+breaking the law. (Granted the chances of getting caught are nil, but 
+since we are planning to go commercial I figure it is better not to cross 
+over the line) Several friends who have recieved multiple soda or pin 
+kegs of beer over the last year were delighted to have an opportunity to 
+try their hand at brewing. Some have come back more than once and most 
+indicated a desire to do it again. One guy custom brewed a Hoff-Stevens 
+keg of beer as a birthday present for a beer loving friend. Most of these 
+people would probably never have tried brewing even a five gallon extract 
+beer on thier own, so I was glad to have the opportunity to provide them 
+with a new experience. I got a number of good suggestions from these 
+folks, and having them around made me a lot more conscious of safety 
+issues that I might otherwise have ignored. 
+                                        Regards,
+                                        Simon
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 07:48:09 -0600
+From: Sharon/Dan Ritter <ritter`at`bitterroot.net>
+Subject: re: Wyeast 1968
+
+
+>Jeff York wrote of Wyeast 1968:
+>>Flavors are metallic and sour/lactic
+>> - similar to a young plambic exposed to untreated steel.  Blech!  This is
+>>really annoying because now I've got 10 gallons of the stuff. Any advise,
+>>similar experiences, etc?
+
+
+Richard Johnson replies:
+>I too experienced a sour flavor in an ESB when using this yeast, but my
+>fermentation temps spiked to 76 degrees during the primary and I assumed
+>this was the reason. Now I have another that has been fermenting for almost
+>3 weeks and is still bubbling about every 10 seconds. This time my temps
+>have been a constant 68 degrees. It tasted fine when racked to the secondary
+>but SG was still 1.024.
+
+
+I use 1968 as my standard ale yeast and I can't remember a sour tasting
+batch (fruity, yes!). I keep the primary fermentation temp. at 68-70 F. and
+repitch the yeast from batch to batch. This ensures that I am pitching
+LARGE quantities of yeast. I also aerate with pure O2. Primary fermentation
+is usually over in three days with attenuation in the 70% range. Because
+this strain is highly flocculant, some have advised rousing the yeast
+several times during fermentation but I've never found it necessary. A
+three week primary that is still going, and a SG of 1.024 (even considering
+this ESB's starting gravity could be as high as 1.060), makes me suspect
+that the yeast is not behaving as it should. I would suspect inadequate
+aeration, yeast quantity at pitching too low, or fermentation temp. is too
+cold.
+
+
+
+
+Dan Ritter <ritter`at`bitterroot.net>
+Ritter's MAMMOTH Brewery - Hamilton, Montana
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 19:27:03 -0700
+From: Kyle Druey <druey`at`ibm.net>
+Subject: Nip
+
+
+jbm writes:
+
+
+>I'm using a malt mill with adjustable rollers. The rollers are stainless 
+>steel with longitudinal grooves...standard stuff. What are the
+>recommended spacings of the rollers for various types of grains?
+
+
+This is a good question, and one that has been discussed little on the
+HBD.  It seems to me that the critical factors are the type of malt, the
+size of the kernels, and the modification of the malt.  I think the
+common one size fits all gap width, or nip, is 0.045" to 0.055".  Here
+are some differences I have found:
+
+
+Malt Type - 2 row and 6 row crush differently.  I don't know if it is
+the higher husk content of the 6 row, but it seems to need a tighter
+nip.  Munich and 2 row crush differently.  I am sure others can think
+many more examples.
+
+
+Kernel Size - wheat malt has a smaller kernel size than barley malt, and
+neededs a tighter nip (as I believe 6 row does?).
+
+
+Malt Modification - If you are not careful you can crush some brands of
+Maris Otter malt so as to produce a stuck lauter, but crushing GW 2 row
+at the same nip produces an excellent lauter with good extraction. I
+haven't experimented enough with this one to know exactly how to handle
+this factor, but it seems that a coarser crush can be used with highly
+modified malt.
+
+
+In general, start off with a wide nip and carefully tighten it with each
+pass.  Start with 0.07" to 0.08" for the first pass, notice how the
+grain "feels" as it passes through the rollers and is being crushed. 
+Does it feel "hard" as it goes through, does it "explode", is it
+"dropping" through without even being cracked, etc.  This will tell you
+how tight to make the second pass.
+
+
+What are the experiences of others?
+
+
+Kyle
+Bakersfield, CA
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 11:13:12 -0400
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: skunkiness
+
+
+Scott Abene <skotrat`at`wwa.com> asked:
+>And on a side note... When exactly can a beer skunk? Directly after the boil
+>is chilled or only after fermentation has taken place? <snip>
+> My guess is only after fermentation has completed
+>but I really have nothing to back that up...
+
+
+Since the skunkiness is caused by a change in the molecule of isomerized
+alpha acid, I can't think why it couldn't happen any time after the boil.
+
+
+Someone (Scott again?) recently expressed doubt that beer could skunk in
+the glass in the sun.  It certainly can.  Several years ago after a
+softball game, the other team and we were discussing the finer points of
+softball at a local beer garden and the pitcher of Molson's (or was it
+LaBatt's?) skunked in bright sunshine on the table between the first pour
+and the second!  The moral, we concluded, is to drink your beer fast!
+(You'd never have known that this was a church league!).
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 09:18:14 -0600
+From: Ken Schwartz <kenbob`at`elp.rr.com>
+Subject: Re:  Styrofoam working tip
+
+
+Dr. Pivo offers some good advice for working with Styrofoam.  He
+suggests gluing with tile adhesive, great idea.  My experience with
+building Chillers has been using "Liquid Nails", which I think would be
+much cheaper and doesn't "dissolve" the Styrofoam like the other glues
+he mentioned to avoid.  Also, cutting the material can be tricky, even
+with a knife, if you're trying to get straight, square edges.  I use a
+power saber saw and cut by eye (draw a straight line first with a
+Sharpie).  This makes a square cut if you rest the saw on the panel and
+cutting slowly keeps the line straight.  Don't use a circular saw, since
+it's too heavy to control in the soft material (though you could cut
+flat against a scrap panel of plywood to support it).
+
+
+*****
+
+
+Ken Schwartz
+El Paso, TX
+kenbob`at`elp.rr.com
+http://home.elp.rr.com/brewbeer
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 11:27:49 -0400 (EDT)
+From: Some Guy <pbabcock`at`oeonline.com>
+Subject: Skunking in a glass...
+
+
+
+
+
+
+
+
+On Sat, 20 Jun 1998 Jeff Renner wrote:
+
+
+> Since the skunkiness is caused by a change in the molecule of isomerized
+> alpha acid, I can't think why it couldn't happen any time after the boil.
+> 
+> Someone (Scott again?) recently expressed doubt that beer could skunk in
+> the glass in the sun.  It certainly can.  Several years ago after a
+> softball game, the other team and we were discussing the finer points of
+> softball at a local beer garden and the pitcher of Molson's (or was it
+> LaBatt's?) skunked in bright sunshine on the table between the first pour
+> and the second!  The moral, we concluded, is to drink your beer fast!
+> (You'd never have known that this was a church league!).
+
+
+Jeff is correct! Beer will skunk in the galss, as Rich Byrnes can attest
+to during our great Orval Brew of, what? 1995? After the boil, too; 
+though the particulates in the wort probably protect it from too much
+damage. But wait! There's more! I think skin acids can prepare hop oils
+for skunking. Roll your hands around in some hop pellets, then go to work
+in the sun. In a little while, your hands will smell like you've wrestled
+a pole-cat! 
+
+
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`oeonline.com
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://oeonline.com/~pbabcock/brew.html
+   "Just a cyber-shadow of his former brewing self..."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 11:10:43 -0400
+From: dbgrowler`at`juno.com (michael w bardallis)
+Subject: Technoweenius extremis
+
+
+John writes:
+
+
+"Talking about ad-nauseam, strange behavior, and the BJCP exam: I have
+come
+up with a novel way of studying the myriad styles defined by the BJCP
+(69!). I produced .wav files of each style's OG, IBUs, Color, description
+and commercial examples and then burned them onto a CD. Now I can listen
+to
+them in my car, at my desk, and anytime I can't spend actually studying.
+(To maintain my sanity, I electronically altered my voice so it does not
+sound like I am talking to myself)."
+
+
+Wow. I've created a .wav file of the above, burned it onto a CD, and I
+play it for my friends when they tell _me_ I'm taking this "beer thing"
+too far....
+
+
+Mike "Clearly, only moderately geeky" Bardallis
+Allen Park, MI
+
+
+_____________________________________________________________________
+You don't need to buy Internet access to use free Internet e-mail.
+Get completely free e-mail from Juno at http://www.juno.com
+Or call Juno at (800) 654-JUNO [654-5866]
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 09:46:23 +0000
+From: irajay`at`ix.netcom.com
+Subject: Re: Attitudes and The Man Who Knew Too Much
+
+
+For the life of me, I can't imagine what I said that could have 
+*pissed off* Sam Mize as much as he is.  I actually thought my 
+comments were conciliatory.   Whatever the case, I think, as with 
+Sam, that this should be my last comment on the matter as well.  I 
+don't think it's good for him to keep getting worked up like this.
+
+
+Ira
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 10:04:36 -0700 (PDT)
+From: Thomas Lowry <lowry`at`me.pdx.edu>
+Subject: When is Homebrew not Homebrew?
+
+
+Maybe this has been covered here before and if it has, feel free to dump
+on me all you want, BUT.....
+I was talking with another homebrew friend of mine and we started to
+wonder when does homebrewing stop being homebrewing and become a
+something other than homebrewing?  We were speaking specifically of a
+mutual acquaintance who, in our minds, has taken his homebrew 'hobby' to
+another level with the purchase of thousands of dollars of professional
+equipment (it was a great bargain for him though).
+
+
+Some possible definitions might be:
+1. If it is brewed at home, it is homebrew, if not...it isn't.
+2. If I brew over a certain volume per/year, I am no longer a homebrewer
+(I know some states set limits here, but aside from that).
+3. If I invest 'X' amount of dollars (fill in the blank), I cease to be a
+homebrewer.
+4. If I invest 'X' amount of time (same here), I cease to be a homebrewer.
+5. If I sell (legal or not) my beer, I am no longer a homebrewer.
+
+
+So with questions like this, how do we define homebrew and homebrewing?
+I am interested is hearing how we, as homebrewers define ourselves, not
+the legal definition of homebrew.
+
+
+Bubbling away,
+Tom L.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 11:39:22 -0500
+From: blacksab`at`midwest.net (Harlan Bauer)
+Subject: Logical fallacies
+
+
+Someone wrote:
+
+
+>How many times have 
+>you seen a post that begins:
+>...
+>*With the permission of the gods of home brew, I come to you on my knees 
+>to humbly ask my ignorant question.....*
+
+
+NEVER! Is this a quote? There seem to be quotation marks...
+
+
+This whole discussion is becoming rather troubling to me. If we have a gripe
+with the HBD, then we can discuss it rationally without resorting to all
+kinds of name calling and deceptive assertions. If there is a point to be
+made, great, give me quantitative data to support the position. The above
+quote contains at least the following logical fallacies, not to mention bare
+assertion and hyperbole:
+
+
+1. Faulty generalization
+2. Impressing by large numbers, aka, bandwagoning
+3. Popular appeal, aka, ad populum
+4. Forestalling disagreement, aka, poisoning the well
+5. Creating misgivings
+6. Misuse of humor and ridicule
+7. Emotive language
+8. Faulty generalization
+9. Leading questions
+10.Begging the question
+11.Oversimplification
+
+
+Let me end by stating two specific data points--1.) I greatly enjoy the very
+posts that have been in question; 2.) People like Al Korzonas have patiently
+fielded beginner questions in plain and simple language for many years on
+the HBD.    
+
+
+If anyone cares to respond to this post, please do so via private e-mail and
+I will collate the results and post the quantitative data. 
+
+
+Thank you,
+Harlan Bauer
+
+
+"It would be a very good thing if every trick could receive some short and
+obviously appropriate name, so that when a man used this or that particular
+trick, he could be reproved for it."
+
+
+                                             --Schopenhauer 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 10:56:54 -0600
+From: Tom Wolf <wolfhrt`at`ibm.net>
+Subject: Belgian Beers and Candi Sugar
+
+
+George De Piro writes: "The sugar ferments completely, producing alcohol
+but contributing no body or malt flavor."  Others wonder is the suger
+adds to the creamy head, but get the same answer.
+
+
+Anyone who is going to attempt a strong belgian beer should keep in mind
+that the addition of sugar will will affect the amount of malt sugars
+left behind in the beer. 
+Here is a "thought experiment". Brew two side by side batches, identical
+except for the addition of copious sugar to one batch.  Imagine a
+starting gravity of 1.060 with out the sugar and the use of an
+attenuative yeast. Add sugar to increase the gravity of batch 2 to
+1.080.  Now we can imagine that the 1.060 batch will ferment down to
+around 1.015 and be somewhat dry in character if we have done right by
+the yeast. Now in theory the batch with the sugar should end at a lower
+apparent specific gravity if all that happened was that the added sugar
+was completely converted to alcohol. The beer would be very dry and
+alcoholic.
+
+
+What actually hapens is that as the alcohol rises in the sugared batch
+the abilities of the yeast are compromised.  They can no longer do the
+same enzyme magic on all of the complex sugars so more complex malt
+sugars and different fermntation products end up in the beer.  If the
+such a batch ended at 1.020 most brewers would be happy.  In many cases
+1.030 would be the outcome. It is a real challange to get a high alcohol
+beer to end up as dry as a Trappist Tripel. The outcome will be sweeter
+foamier and have a lot of taste that the unsugared bach lacks.
+   
+Now I know that things may be different in the real  world.  Add enough
+healthy yeast of the right kind to the 1.080 batch and it will ferment
+out dry.  But imagine what will happen to the 1.060 batch with the that
+same yeast pitch!  
+
+
+Tom in California - Ever trying to make a dry trippel.
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 12:04:17 -0700
+From: Michael Rose <mrose`at`ucr.campus.mci.net>
+Subject: Calculating percentage recipe, CO2 scrubing
+
+
+In a percentage type recipe, such as;
+        
+        90% 2-row
+        5% wheat
+        5% cystral 
+
+
+Do you calculate the grist by the weight of the malt or by the points of
+sugar that each malt contributes?
+
+
+        2nd question. I've read alot about CO2 scrubing out aromas during
+primary fermentation. I'm thinking about toasting some 2-row, mashing
+with a little 6-row and adding it to the secondary instead of the
+primary. Would there be any benefit in preserving the toasted aroma or
+would I be wasting my time? 
+
+
+        TIA   Michael Rose  Riverside, CA   mrose`at`ucr.campus.mci.net
+
+
+
+
+------------------------------
+
+
+Date: Sat, 20 Jun 1998 16:16:07 -0500
+From: Stephen Jorgensen <sjorge2`at`uic.edu>
+Subject: How bad is a really long protein rest?
+
+
+>     Can anyone lay down for me the chemical consequences of a
+> much-too-long protein rest? I recently step-mashed 10 lbs of Maris Otter
+> Pale, and due to not having my water ready to bring it up to
+> saccharification temp (doh!) the stuff was at ~120F for about an hour.
+> Five hours and three teaspoons of powdered amylase later (`at` 150-155F ph
+> 5.2) I finally achieved complete conversion. I was asleep on my feet by
+> the time I pitched the yeast and spaced off taking an S.G., but it
+> finished at 1.004(six gallon batch size).  I plan to throw in an
+> infusion of about 1/4lb carapils to sweeten it up a bit, and I think it
+> will probably end up a pretty decent brew but I can't help wondering
+> what was going on in the mash.  Did the protein rest damage the grain's
+> diastatic power in some way? I suppose with Maris Otter I didn't need to
+> do one at all, but I have this clarity fetish...
+>
+> Thanks in advance for your info,
+> Stephen Jorgensen
+> sjorge2`at`uic.edu
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 21 Jun 1998 03:31:28 -0700
+From: Kyle Druey <druey`at`ibm.net>
+Subject: Yeast Ranching Questions
+
+
+I have some questions to the collective regarding yeast culturing.
+
+
+1)  Usually some condensation forms on the inside of a culture tube
+after it has been sterilized, filled with sterile media, cooled, capped,
+then placed into the fridge to solidify (this is all before innoculating
+with yeast).  Does this pose any problems?
+
+
+2)  After innoculating the slant, most of my yeast form little white pin
+dots.  These dots expand until they grow into each other, but the yeast
+never form a consistent while layer.  Is my yeast ruined?
+
+
+3)  I just recultured some 6 month old slants.  When I opened the
+culture tube the yeast smelled terrible (hey Fouch, know anything about
+bad yeasty type smells?).  I decided to use this to innoculate anyway. 
+Is my yeast ruined?
+
+
+Thanks in advance for any advice.
+
+
+Kyle Druey
+Bakersfield, CA
+
+
+glad the Bulls dynasty is over, and that Pippen will now be subject to
+life without Michael...
+
+
+
+
+------------------------------
+
+
+Date: Sun, 21 Jun 1998 07:28:56
+From: "C.D. Pritchard" <cdp`at`chattanooga.net>
+Subject: Racking arm
+
+
+>3)The biggest drawback with a racking arm is that you will have to invest in
+>a TC valve ($135 - $150) and a few TC fittings. This TC clamp allow fairy
+>good seal while the arm is rotated to lower the liquid inlet. 
+
+
+What about a racking arm made using a compression fitting instead of the
+pricey TC fittings?   Take a 1/2" NPT male x 3/8" tubing compression
+fitting and bore it out so the 3/8" tubing (the racking arm- bent to L
+shape) passes completely thru it.  Secure the fitting to the fermenter with
+a 1/2" nut liberated from a female fitting and some washers and a gasket-
+kinda like a bulk head fitting.  Loosen the compression fitting a bit to
+rotate the racking arm.
+
+
+It wouldn't be as easily sanitized as one made with TC fittings, but, it's
+a hellva lot less expensive (or cheaper, depending on your point of view).
+
+
+
+
+c.d. pritchard cdp`at`chattanooga.net 
+http://chattanooga.net/~cdp/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 Jun 1998 00:24:13 +0930
+From: "Brad McMahon" <brad`at`sa.apana.org.au>
+Subject: Eisbock's
+
+
+>From: Philip J Wilcox`at`CMS on 06/18/98 09:38 AM
+
+
+>Well, after polling my local collective I still haven't found anyone
+>who has actually made an Eisbock themselves. So I will look to the
+>great collective for advice.
+
+
+>Suggestions? Advice? Comments? Has anyone else tried this process?
+
+
+No, I haven't, but if you do, be very careful who you tell.
+In the U.S. (and most places around the world) distillation
+by fractional crystallization is illegal.
+
+
+Specifically for you, it is defined in 26 U.S.C. 5002(a)(80)(A).
+
+
+ It is unlawful to produce any distilled spirits at a place other 
+than a qualified distilled sprits plant. To do so would subject the 
+producer to the penalties of 26 U.S.C. 560l.
+
+
+The penalties are a fine of not more than $10,000 or imprisonment
+for not more than five years, or both, for each offence.
+
+
+I grabbed this info from Annie Proulx & Lew Nichols'
+book "Cider" which  has a chapter in the back on the
+legalities of production and selling. Making Eisbock
+and making Applejack is using  the same process.
+
+
+Talk to your local BATF office for more details, I guess.
+
+
+Which poses the question: Why is it an official
+AHA catagory if it is illegal to make?
+Or am I missing something?
+
+
+Still, (pun intended) I'd like to know what
+your theoretical outcome is to that theoretical
+batch that you mentioned. :-)
+
+
+>Phil Wilcox
+>Sec/$er/Editor/Webguy of the Prison City Brewers
+
+
+Please don't end up in Prison, they don't serve beer,
+especially eisbock!
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 21 Jun 1998 10:04:52 -0500
+From: kathy <kbooth`at`scnc.waverly.k12.mi.us>
+Subject: candied vs table sugar?
+
+
+Its Father's Day and as my beautiful daughters are grown with their own
+families, my wife left me to do as I please.  I read three back issues
+of the HBD, opened a Belgium Triple I'd brewed, made breakfast of a cold
+cut souse sandwich (souse=a garlicly, gelatinist lunch meat from heaven
+to a German sausage maker) and then did what us fathers do best and
+mowed the lawn.  Started a rye pilsner, planted the minature cattail my
+wife had given me for my water garden, watched a robin take a bath, fed
+the goldfish and finished the rye pilsner.  Life is good even if the TV
+still talks about Monica and Starr.  I'll post this and play a rubber of
+computer bridge.
+
+
+To those self appointed scolds of the HBD.....try any or all of the
+above.  If you must post criticisms...try messages that start with "I am
+bothered by comments that say ...........    Most of us don't want to
+package our comments in wrappings that put off readers, and will (may)
+change our intros.  
+
+
+Now a beer question.....when making a B. triple.....does the use of a
+candied sugar merely slow the fermentation as opposed to adding table
+sugar, and is that the main reason for the candied strings?  I assume
+the darkening from caramelized sugar would be an additional reason for
+the doubles.  Are there other factors involved?
+
+
+cheers, jim booth, lansing, mi  chief sanitarian of aching knees brewery
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 21 Jun 1998 13:21:37 -0700
+From: Jeremy Bergsman <jeremybb`at`leland.Stanford.EDU>
+Subject: bashing
+
+
+Although I have been enjoying the AHA bashing, seeing Paul's thinly
+veiled Al bash upset me.  A lot of good comments have been made, but I'd
+like to pipe up with an irony that struck me.  
+
+
+If the real concern here is not to drive away newbies, one should note
+that Al is the *only* person here who consitantly answers these newby
+questions over and over and over.  (I for one don't know how he has the
+patience.  Every single digest I want to respond to some post with
+either "did you bother to read the last 3 digests because your question
+was just answered" or "check the FAQ, dude".)  Even if you don't like
+his style I suggest you scan a few months' digests and subtract his
+posts and see how it looks.  How will newbies feel about the digest
+then?  BTW, while you're at it, scan a few digests from 5 years back and
+check out who was helping then too.
+- -- 
+Jeremy Bergsman
+jeremybb`at`leland.stanford.edu
+http://www-leland.stanford.edu/~jeremybb
+
+
+
+
+------------------------------
+
+
+Date: Sun, 21 Jun 1998 21:54:26 -0400
+From: Doug Kerfoot <dkerfoot`at`macatawa.org>
+Subject: Charlie Papazian - The Full Monty?
+
+
+I was sorting through some old junk the other day and came across a
+rather remarkable set of photos.  They are from my ex-sister-in-law's
+bachelorette party.  On her lap is a male dancer who appears to be none
+other than our own Charlie Papazian.
+
+
+Check 'em out at  http://www.macatawa.org/~dkerfoot/  and let me know
+what you think...
+
+
+
+
+Doug Kerfoot
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 21 Jun 1998 23:11:19 -0400
+From: "Eric R. Tepe" <erictepe`at`fuse.net>
+Subject: Fruit Beers and Attitudes
+
+
+First, I am proud to take some bandwith with my comments, being as I
+dont make many and usually ask questions, but on the subject of fruit
+beer and rasberries I have used the Oregon Fruit Puree with great
+success.  I just used the cherry puree in an ale and was not impressed
+at all.  The raspberry gives a lot of flavor and is commerically
+sterile, also use pectinase with this as it produces a clear beer.  They
+make a whole range of products that you can buy in bulk and split with
+your homebrew club.  I believe thier web address is
+http://www.oregonlink.com/fruitbeer.  Secondly, as a newer all grain
+brewer I really look forward to AlK, Jethro, Sam Mize, George DePiro and
+a host of others that usually post to this forum, to learn as much about
+this craft/hobby as I can. Is it Too much information on the subject?
+Well, I am not much into water chemistry or belgian beers, but I do
+enjoy learning about hops, malt, and various other problems that others
+have had so I might not make those same mistakes.  So, if you don't want
+to read a post I really believe you have a page down key on your
+computer keypad.
+
+
+Eric
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2747, 06/23/98
+*************************************
+-------

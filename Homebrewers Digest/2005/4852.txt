@@ -1,0 +1,520 @@
+﻿Date: Thu, 22 Sep 2005 23:38:04 -0400
+Subject: Homebrew Digest #4852 (September 22, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4852                             Thu 22 September 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Valhalla, Mead-only competition ("David Houseman")
+  Search me! ("Pat Babcock")
+  Correction: Valhalla, Mead-only competition ("David Houseman")
+  E is for Esters ..../re: Oats in light colored beer. ("-S")
+  Freezing vs. Canning wort... ("Michael Eyre")
+  flux for soldering copper (Matt)
+  re: E is for esoteric ("Chad Stevens")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 20 Sep 2005 23:11:50 -0400
+From: "David Houseman" <david.houseman at verizon.net>
+Subject: Valhalla, Mead-only competition
+
+
+This is reminder and call for judges for this mead-only competition.  If
+you've already contacted me to judge, there's no need to respond again.
+But if you haven't and can judge meads, please contact me at my email
+below.
+
+
+If you've got mead, prepare to enter the 1st annual Valhalla - The
+Meading of Life Mead-Only Competition to be held Saturday, October 15 at
+the Mt. 
+Pleasant Cafe, 311 W. Mt. Pleasant Ave, Philadelphia, PA 19119
+(http://www.mtpleasantcafe.com/).  This competition will judge meads in
+BJCP categories 24--traditional meads, 25--melomel and 26--other mead.
+One entry per subcategory per entrant, with a $5 per entry fee. The
+equivalent of at least 3 12-ounce bottles is required for judging,
+although bottle size and shape are not restricted. No identifying
+markings however can appear on the bottles.  Any standard competition
+entry form may be used.  It is the responsibility of the entrant to
+properly identify the category and sub-category based on the 2004 BJCP
+Style Guidelines.
+
+
+Meads may be mailed or dropped off at Home Sweet Homebrew, 2008 Sansom
+Street, Philadelphia, PA 19103 by Friday, October 7th.  Additional local
+drop off locations include Keystone Homebrew locations and Iron Hill
+Brewery and Restaurant in West Chester, PA.
+
+
+The competition would like to encourage knowledgeable mead judges to
+commit to judging this event.  Judges will receive breakfast and lunch.
+Judges should contact David Houseman to secure a judging seat.
+
+
+The judging will take place from 9am to 1pm. Awards will be given out
+beginning at 1:30. There will also be a tasting with numerous commercial
+meads as well as the remainder of the meads from the competition
+following the judging.  Following the competition there will be 2
+seatings for a "Mead-ieval" dinner at 4 and 6:30 pm, reservations
+required; call the restaurant at 215-242-1500 to make your reservations.
+
+
+Suzanne McMurphy, Competition Organizer (theimann at verizon.net) 
+David Houseman, Judge Coordinator (david.houseman at verizon.net) 
+Vince Galet, Asst. Competition Organizer
+
+
+
+
+------------------------------
+
+
+Date: Tue, 20 Sep 2005 23:52:03 -0400
+From: "Pat Babcock" <pbabcock at hbd.org>
+Subject: Search me!
+
+
+Greetings, Beerlings! Take me to your lager....
+
+
+Well, I suppose I have to speak up over all the search mystery on the HBD 
+site. Here's where we're at... The search on the HBD domain is based on a 
+very old (1995 - ancient, in terms of software!) free text search tool. 
+Over the years as the kernel and the C compilers used have evolved, the 
+source for this tool is no longer "compilable" unless I reach back to 
+skills that were honed razor sharp waaaaaaaayyyyyy back in 1986. And, the 
+system no longer functions as intended.
+
+
+My first approach is to determine what in the security model or directory 
+structure has caused the tool to fail, and, if possible, fix the issue. 
+This is the process I'm in now. So far, the failures (re: error messages 
+on execution)are manifold. Knocking them down one at a time as I find the 
+time. This approach will allow me to easily retain the function set and 
+scope of the existing search.
+
+
+This failing, I'll be installing a more modern package. I've been putting 
+this off since the modern ones are also slower, being written in languages 
+farther from the binary the micro loves to babble.
+
+
+In any case, we'll get there. Sooner, if not later. Patience, please! In the 
+meantime, the google search does a pretty fair job.
+
+
+- --
+
+
+See ya!
+
+
+Pat Babcock in SE Michigan
+Chief of HBD Janitorial Services
+http://hbd.org
+pbabcock at hbd.org
+
+
+
+
+------------------------------
+
+
+Date: Wed, 21 Sep 2005 19:40:28 -0400
+From: "David Houseman" <david.houseman at verizon.net>
+Subject: Correction: Valhalla, Mead-only competition
+
+
+Sorry, it's only two (2) bottles of precious mead for this competition, not
+3.
+
+
+Dave Houseman
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Sep 2005 06:15:59 -0400
+From: "-S" <-s at adelphia.net>
+Subject: E is for Esters ..../re: Oats in light colored beer.
+
+
+I know Chad Stevens knows better, yet  ....
+> The important part to note is that oats have a higher fat/lipid
+content[...]
+> Fats and Lipids are bad for foam; their derivatives can be major flavor
+and
+> aroma contributors however.
+
+
+True *if* these lipids persist into the beer, but they don't.  Yeast can and
+will consume many times the lipids that appear in normal wort.  I suspect
+that oats (and rye) have more foam-negative glucans and less of the
+hydrophobic glycoproteins necessary for great head.
+
+
+> [..] both fats and lipids are made up of fatty acids and are generally
+> not soluble in water but are soluble in acids, alcohol, and bile.
+
+
+By definitio, "lipid" is the fraction soluble in non-polar organic solvents,
+but not in water.  Fatty acids are the aliphatic(- big word for straight
+carbon chain) carboxcylic acids.  The mid-length and long FAs are lipids (C6
+and longer), but the short ones, like acetic acid(C2.FA) and butanoic(C4)
+are water soluble and not lipids.  Fats (di- & tri- acyl-glycerides) are
+made from long chain fatty acids, but many many other lipids are NOT made of
+fatty acid (sterols, hops oils, terpenes).
+
+
+> Typically, to make an ester, all you need is an alcohol and a fatty acid.
+
+
+Not really  - and we've just been over this in excrutiating detail.    If
+anyone cares to disprove the statement above, just mix some vinegar (the C2
+fatty acid) with ethanol and wait until you smell the resulting
+ethyl-acetate ester (nail polish remover aroma).  It will probably take
+several centuries since you have forgotten that this is an enzymatically
+controlled reaction.
+
+
+The most important carboxylic acid involved in beer ester formation is
+acetic acid, not a lipid, and not derived from grain lipids but from sugars.
+The next most important carboxylic acids for esters are butanoic & hexanoic
+and these are mostly from yeast building fatty acids, not grain lipids.
+
+
+The primary ester formation process is rate limited by the alcohol
+acyl-transferase (AAT) class of enzymes.   The AAT type, quantity and
+activity is dependent on yeast genetics, yeast metabolic conditions and
+temperature.
+
+
+Also adding long chain fatty acids to wort DECREASES the final ester levels
+in beer.  There are several reasons: FAs, particularly UFAs may be a growth
+limiting factor for yeast;   Long FAs, the most abundant type,  are strongly
+inhibitory of the AAT enzyme; yeast may be inhibited from even producing
+AATs in the presences of free FAs.
+
+
+The small FAs produce floral&fruity esters, while long FAs esters are about
+as fruity and floral as the deep fat fryer at a MacDonalds.   See
+"insecticidal soap", a combination of long FA esters and salts for example.
+
+
+> The number of possibilities is a function of the number of fatty acids
+> available and the number of alcohols available.
+*** and rate determined by AAT enzymes, not by substrate.
+
+
+> All of the even numbered C2
+> to C30 common saturated fatty acids are found in nature.  That is 15 fatty
+> acids.
+
+
+As an aside, there small but significant amounts of odd-chain length fatty
+acids (C3, C5, C7) in yeast and hops.  These have a very interesting
+metabolic origins and fates.    Hops are actually fairly rich in heptanoic
+acid(C7) probably as a precursor to it's aromatic oils.
+
+
+> So 15 fatty acids multiplied by 4 alcohols are 60 ester
+> possibilities.
+
+
+There are probably about 20FAs and even more carboxcylic acids in the
+fermenter, but only half a dozen appear in sufficient abundance to cause any
+ester aroma (~1ppm for most esters).   The longest FA to regularly finish
+above 1ppm is hexanoic often around 2.5ppm.   Only 3 FAs are seriously
+implicated in beer esters above aroma threshold, acetic, butanoic, and
+hexanoic(C2, C4, C6) [[wtih ethyl-octanoate from octanoic(C8) as a special
+case]].   The long chain  lipids just aren't a significant part of the ester
+aroma story.
+
+
+There have also been 40 fusels identified in beer, but the only 6 alcohols
+than make the aroma concentration cut are ethanol, n-propanol, iso-butanol,
+n-methyl-butanol,  and 2-phenyl-ethyl alcohol maybe 2-methyl-propanol.
+Technically glycerol is a very abundant alcohol in beer (up to 1000ppm), but
+isn't involved in common ester formation (well fats are really poly-esters
+of long FAs and glycerol, but they don't smell like much)   [[Why no small
+carboxylic esters of glycerol  in beer ?  I mean butter contains
+glycerol-butryrate, not that I'd enjoy buttery beer]].
+
+
+Anyway 6 FAs * maybe 6 Alcs hit the concentrations to be involved so maybe
+there *could* be a universe of 36 beer esters that could ever hit aroma
+threshold  Just over 100 esters have been identified in beer, tho' most far
+below threshold.
+
+
+This calculation ignores that  yeast enzymes are selective, and most of
+these 36 hypotheically important esters are almost absent because the enzyme
+activity isn't there.  For example n-methyl-butanol and n-propanoal are
+sufficiently abundant fusels, but common yeast AAT enzymes almost ignore
+these alcs.
+
+
+No the ester list is more like this (for ales)
+
+
+    ethyl acetate         <=  ethanol + acetic            18 ppm
+    ethyl butyrate       <= ethanol + butanoic         0.5 ppm
+    ethyl hexanoate    <= ethanol + hexanoic        0.95 ppm
+    ethyl octanoate    <= ethanol + octanoic         1.5 ppm(!)
+
+
+    isobutyl-acetate    <= isobutanol + acetic         40 ppb
+    // little other isobutanol contribution.
+    // n-propanol seems to play no role in esters !
+
+
+    isoamyl acetate        <= n-methyl-butanol + acetic    6.3 ppm
+    isoamyl buyrate        <= n-methyl-butanol + butanoic    0.5 ppm
+    isoamyl hexanotate    <= n-methyl-butanol + hexanoic    0.42 ppm
+
+
+   2-phenyl-ethyl acetate <= 2-pheyl-ethyl + acetic    1.6 ppm
+
+
+So there are maybe 8-10 significant esters from yeast.  Note that acetate
+esters (from acetic, not lipids)  are typically an order of magnitude higher
+in concentration than the related butyrate, hexanoate, and octanoate esters.
+
+
+
+
+ > Anyway,
+> more oats, more lipids, more ester possibilities.
+
+
+That is oversimplified and misdirecting.  More oats->more lipids is true for
+wort, but the yeast are happy to consume these fatty snacks leaving less
+esters and a low FA beer as a result.
+
+
+ -S
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Sep 2005 07:58:28 -0700
+From: "Michael Eyre" <meyre at sbcglobal.net>
+Subject: Freezing vs. Canning wort...
+
+
+Hey all,
+
+
+I've een pondering this canning of wort for starters thing lately... but
+I just don't' have access to a canning pot and don't have the incentive
+to go try it out right yet. Frankly, I'm a big nervous about it all. I'm
+wondering about freezing, however. Other than the fact that you'd have
+to unfreeze the frozen wort, re-boil it, then cool it again... plus the
+storage space in the freezer aspect, is there any other downside to
+freezing wort for starters?
+
+
+Mike
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Sep 2005 12:54:58 -0700 (PDT)
+From: Matt <baumssl27 at yahoo.com>
+Subject: flux for soldering copper
+
+
+All,
+
+
+I am looking for information on the best kind of flux to use for
+soldering copper to make brewery equipment.  A search of the archives
+turns up the suggestion to use water-soluble flux.  My *guess* is that
+any excess flux of this type can be simply rinsed away, but I could be
+totally wrong about that.
+
+
+The search also turns up a decade-old post by John Palmer on cleaning
+flux residue, in which he details the need to use either a
+gasoline-then-detergent cleaning regimen, or at least a detergent
+cleaning if you use liquid flux.  He makes no mention of water-soluble
+flux in that post.
+
+
+My question: what flux can I use (with silver plumber's solder) that
+will require the minimum amount of cleaning afterwards?
+
+
+I'd appreciate any help on this.
+
+
+Matt
+
+
+
+
+                
+
+
+
+
+------------------------------
+
+
+Date: Thu, 22 Sep 2005 19:37:46 -0700
+From: "Chad Stevens" <zuvaruvi at cox.net>
+Subject: re: E is for esoteric
+
+
+Steven-
+
+
+Thanks for the clarifications...I'm big into Lambic, Flemish Red, and
+primitive fermentations these days so functionally, oats and other lipid
+sources (I'm still playing with flax seed) do contribute to the ester
+profile when pedio et. al. are involved; lots more enzymes....  But yes, for
+the average Joe using Saccharomyces only, you are by and large correct.
+However, I've seen some papers which suggest increased FA contributions
+*may* survive through to the end product and *may* be expressed as increased
+ester profiles.  I have convinced myself through what I've observed in my
+own brewing, that this is more the rule than the exception.  Point was, if
+I'm making a nice clean ordinary every day APA and want a big head, I
+wouldn't add oats.  A little wheat, maybe.  And if you're really daring, for
+a five gallon batch, try boiling 2 ounces of whole flax seed in a gallon of
+water and adding that to the mash; it'll give you a persistent head like
+meringue.
+
+
+And of course, "Typically, to make an ester, all you need is an alcohol and
+a fatty acid...." was a dramatic over simplification.  We were discussing
+fermentations after all, so the enzymatic processes were a given.
+
+
+As always Steve, thanks,
+
+
+Chad Stevens
+QUAFF
+San Diego
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4852, 09/22/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

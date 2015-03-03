@@ -1,0 +1,1394 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id AAA21622;
+        Wed, 19 Aug 1998 00:47:48 -0400 (EDT)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by srvr22.engin.umich.edu (8.8.8/8.8.8) with ESMTP id AAA29871;
+        Wed, 19 Aug 1998 00:47:46 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA32139 for realhomebrew; Wed, 19 Aug 1998 00:38:01 -0400
+Date: Wed, 19 Aug 1998 00:38:01 -0400
+Message-Id: <199808190438.AAA32139`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2802 (August 19, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2802                             Wed 19 August 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Re: Spectrophotometric measurment of IBUs/Color (AJ)
+  sources for Sankey kegs ("Cameron LiDestri")
+  Funny Guy/Brew Pub Mash Schedule (EFOUCH)
+  killer yeasts ("phil grossblatt")
+  Some Pump Wiring Help? (Bradd Wheeler)
+  AHA bashing/ bottling Imperial Stout ("Victor Farren")
+  First Batch Questions (IAN FORBES)
+  Cesky pivo/yeast storage ("Brad McMahon")
+  Carbonation confusion (Steve Jackson)
+  water analysis (JPullum127)
+  Amber Ale (OGP-Tempe)" <vjm`at`ogpnet.com>
+  Secondary fermentation / accidental high mash temp (George_De_Piro)
+  kegging ("arne seeger")
+  AOB/AHA (John Wilkinson)
+  New Hop Variety: Santiam (Tim Burkhart)
+  autoclaving bottles (Eric James Urquhart)
+  water reports? (Badger Roullett)
+  parti-gyle, Party Guy (Badger Roullett)
+  weizenbock ("Bryan L. Gros")
+  Yeast Growth (Jim Liddil)
+  Beer Label of the Week ("Jay Krause")
+  Women & beer ("Hans E. Hansen")
+  Toronto weekend (Bill Watt)
+  Yeast Data ("Mort O'Sullivan")
+
+
+
+
+Let a good beer be the exclamation point at the end of your day as
+every sentence deserves proper punctuation...
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 17 Aug 1998 20:56:00 -0400
+From: AJ <ajdel`at`mindspring.com>
+Subject: Re: Spectrophotometric measurment of IBUs/Color
+
+
+ Fred Johnson had some questions about my post on measurement of BU's and
+suggested that the HBD might want to see them and my answers:
+
+
+
+
+> You recently posted to the HBD regarding measuring IBUs
+> spectrophotometrically.  I have read the standard homebrewing texts and
+> publications regarding the measurement of IBUs and SRM
+> spectrophotometrically and in both cases the upper end of the range of
+> these values more bitter or dark beers (and not-so-dark beers) is well
+> above 2 absorbance units.  Now I was always cautioned in my graduate and
+> post-graduate training (1980) that reading absorbance above about 1.2 was
+> unreliable.
+
+
+I've seen many similar comments and conclude that spectrophotometer
+technology has come along a bit in the last 15 years or so. As I mentioned in
+my post the very expensive (Varian/Cary) machines are advertized as being
+able to read absorbances as high as 7. The instument I use (Hach DR/4000) is
+probably more typical of what would be found in a small brewery's lab. It is
+spec'd as having a photometric range of 3.0 and a stray light level of 3.3.
+The noise floor is probably around 4.0. Linearity is, however, spec'ed only
+at 1.0 and it is clear that non-linearity increases as absorbtion increases.
+This is probably not so much from actual non linearity in the detector (which
+could be taken out by the microprocessor) but from noise. Noise at 4 would
+would cause a reading of 2.9 if the true absorbtion were 3. The first of the
+two procedures I describe below indicates that my instrument is definitely
+good to 2.0 but does show a noticeable decrease in linearity at 3.0. The
+stray light is well below 3.3 but may be a factor in the nonlinearity at 3. I
+tend to blame it mostly on noise because I see noise starting to creep in
+above 3 and become very noticeable at 4 which is the maximum the instrument
+displays.
+
+
+> Reassaying the sample was required and in some cases dilution
+> could be performed.
+>
+> I have been skeptical of the reported "non-linearity" or departure from
+> Beer's law that is typically encountered in measuring color in beer,
+> because the departure is on beers that have very high absorbance units by
+> the standard measurement techniques (not diluting the beer).  I suspect
+> that the departure from linearity could be from the instruments
+> limitations, not a true departure from Beer's law.
+
+
+I have suspected the same. Certainly some of the things published on this
+subject reveal some naivite with respect to the workings of
+spectrophotometers.
+
+
+> Your post to the HBD
+> suggested to me the same phenomenon when measuring IBUs.
+
+
+That's possible too, which is why I put in the comment about it being
+incumbent on the analyst to know his instrument.
+
+
+> Could you provide some reference or tell me how one distinguishes
+> nonlinearity of the instrument versus a true departure from Beer's law?
+
+
+I think the best way to do this is to put a sample of dark beer  into a cell
+whose thickness is such that the analyst is assured of a reading in the
+linear part of his instrument's response (say below 1.2 to be really
+conservative). Now dilute the beer 1:1 and place the dilution in a cell of
+twice the thickness and measure again. Repeat for other combinations of
+dilutions and cell thicknesses which should give the same absorbtion. If
+Beer's law is being obeyed, the readings will be the same. If they are not,
+it isn't.
+
+
+A quick practical check on the limits of linearity can be done by running an
+absorbtion scan from 400 to 700 nm on a darkish beer in cells of several
+thicknesses, converting each to the same pathlength and plotting the curves.
+As absorbtion at 430 nm is typically 25 times the absorbtion at 700 nm a wide
+range of absorbtions will be encountered. The curves, when adjusted to the
+same path, would overlie one another if the instrument were linear. With a
+real machine the adjusted curves for the thicker paths will show less
+absorbtion than the adjusted curves for thinner paths for values of
+absorbtion at which deviation from linearity becomes appreciable. Note that
+the adjustment to the common path uses the Lambert part of the Beer - Lambert
+law. I have never seen the Lambert part questioned though there are logical
+explanations as to why the Beer part may fail. These are consistent with many
+of the explanations given for failure of other laws of physical chemistry
+(interraction between charged particles) which are closely followed only by
+"ideally dilute solutions", a phrase which some wags take to mean slightly
+contaminated distilled water.
+
+
+As an alternative to the procedure just given a beer could be measured  in a
+1 mm cell, 2 mm cell, 5 mm cell, 1 cm cell, 1" cell etc and the results
+plotted vs path length. Departure from a straight line is a measure of the
+nonlinearity of the instrument at the absorbtion at which the deviation
+becomes noticeable defines the limit of the instrument's useful range. A
+better way still would involve the use of neutral density filters which had
+been calibrated on one of the super instruments or standard solutions of
+dichromate.
+
+
+Note: I have only checked Beer's law for the beer I am drinking as I write
+this. It is fairly light (14.5 SRM) and does obey Beer's law in a 2.54:1
+dilution.
+
+
+Another Note: If doing any of the suggested measurements it is imperative
+that the beer be free of bubbles. Even a  bubbles here and there can scatter
+light and make absorption appear to be substantially greater than it is.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 17 Aug 1998 20:55:16 -0400
+From: "Cameron LiDestri" <cameronl`at`wshu.org>
+Subject: sources for Sankey kegs
+
+
+I've been for awhile and have really gleaned alot from this list.  Now I
+have a question.  I've read alot about converting sankey kegs for brewpots
+etc, but no one has mentioned where they get them.  Paying the deposit and
+keeping the keg ain't kosher.  I read somewhere that metal scrap yards have
+them stacked like firewood and would be glad to sell 'em for about $10. 
+None of the scrap yards around here (southern CT) have them.  Nor the
+recycling centers.  I called the local Bud distributor and he said they
+always send 'em back to the brewery, no matter what condition.  So...how
+'bout it?  Where else do I look?
+
+
+ -Cam
+
+
+
+
+------------------------------
+
+
+Date: 17 Aug 1998 09:48:53 -0400
+From: EFOUCH`at`steelcase.com
+Subject: Funny Guy/Brew Pub Mash Schedule
+
+
+
+
+HBD-
+Ok, due to the number of queries about my quip about our Electronic Janitor,
+Pat Babcock, allow me to elucidate:
+OF COURSE I was kidding!  I thought the ludicrousness of someone being upset
+about such a trivial thing was hilarious!  I guess I'm just not as funny as I
+thought I think I am.  I'll keep my day job.
+Apologies to anybody I responded to privately regarding their perceived
+prudishness in not getting my joke.  I take it all back-  I'm sure all your
+dogs are not gay.
+
+
+On the discussion regarding brew pub mash schedules:
+
+
+Date: Fri, 14 Aug 1998 22:39:52 -0700
+From: Charles Hudak <cwhudak`at`home.com>
+Subject: Simi-brew
+
+
+Scott writes:
+> Would it be fair to say that if
+>all of your beers are made with a single temperature infusion mash,
+>and 80% 2-row, and you use the same yeast strain for each, and the
+>same fermentation strategy, that you're going to end up with beers
+>that all pretty much taste the same?
+
+
+Nope, wouldn't be fair to say that at all. Unfortunately, most brewpubs
+offer very similar tasting beers because a) the brewer doesn't know what
+the hell they are doing or b) market appeal dictates that they offer the
+same (or similar) bland beer but in various colors (whatever seems to be
+the current trend) e.g. bland red, bland nut brown, bland porter, etc.
+- ------------------------------------------------------------------------------
+
+
+When I toured the Kalamazoo Brewing Co. last year (HBD 2453) the tour guide
+claimed that they do all their mashes as single temp RIMS:  They heat the
+infusion water to 170F, and reheat the recirculations to 170F.
+
+
+I found that hard to believe given the quality and flavor of Kalamazoo Brewing
+Co. products.  The only one of their beers I have not loved is their new "Home
+Grown Ale"  Needs work.  The one bottle I had was skunky and tasted of
+diacetyl.  Others have reported similar experiences to me regarding that beer.
+
+
+Larry Bell definitely knows what he is doing, and has blazed the trail for
+Midwest brew pubs.  Presumably with one yeast strain, and a single temp. mash
+profile.  I would have thought these were two of the most restrictive
+parameters in making a distinctive quality product: ie. if you limit yourself
+to one yeast strain and one temp for infusion, you have shot yourself in the
+creative foot.
+Maybe a lot more talent and skill is involved, eh?
+
+
+Eric Fouch
+Minister of Apologetics
+Bent Dick YoctoBrewery
+Kentwood MI
+
+
+
+
+------------------------------
+
+
+Date: Mon, 17 Aug 1998 23:10:50 -0600
+From: "phil grossblatt" <philgro`at`swcp.com>
+Subject: killer yeasts
+
+
+Dave Burley doubts my calling him on his incorrect assertion that 
+killer yeast are so named because they create  large amounts of 
+sulfite:
+> Phil Grossblatt doubts my comment about Lallemand's
+> Killer Yeast being due to sulfite production and then proposes
+> some unknown protein which is supposed to kill undesired yeast
+> ( but not bacteria?).
+> 
+> Well, my information came from a discussion with a
+> Lallemand Yeast Salesman some years ago. It is possible
+> he was incorrect.  Would you care to provide us with the "real"
+> information Lallemand has instead of postulating some unknown
+> protein? Kinda leaves us up in the air, particularly since you appear
+> to be speaking for Lallemand. sort of.
+
+
+The exact name of the protein is unknown by ME,but it is not an 
+"unknown" protein.Yeasts can be screened for this protein ("killer 
+factor"),and those that create it are then dubbed killer yeasts.
+The most common strain,K1,is just one of these types.Some yeast 
+actually show resistance to the killer factor.
+  My sources for this fact are Amerine+Ough's textbook on wine 
+production,and a conversation with Scott Labs,which is a dealer for 
+Lallemand's products.I'd quote the text with the page number and 
+edition,but it's at work.I believe you were the one speaking for 
+Lallemand-I merely suggested that I doubted they would be giving 
+out misinformation,when the true situation is an established fact
+and has been known for over a decade.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 09:17:05 -0700 (PDT)
+From: Bradd Wheeler <braddw`at`rounder.com>
+Subject: Some Pump Wiring Help?
+
+
+
+
+I recently purchased a magnetic drive pump from Moving Brews. the
+specifications being 110v, 60Hz, 1 Phase, 80 Watts, 1.2 Amps.
+
+
+I have a very rudimentary understanding of electricity so let me explain
+my situation and perhaps someone can help.
+
+
+Coming from the pump I've got 3 wires Black, White and Green.  I purchased
+an extension cord (Heavier gauge than the leads from the pump) which also
+has Black, White and Green wires.  I know at least that Green is the
+ground and I am assuming Black is negative and white is positive.
+
+
+Now, If I were to cut off the female plug from the extension cord
+and then connect White to White, Green to Green, and Black to
+Black the pump would work properly once plugged in correct?
+
+
+My question comes about installing a switch between the pump and the wall
+plate.  For this purpose I would like to use a simple household light
+switch in a watertight PVC housing.  On the switch there are 3
+connections, one for the ground, and 2 for the switch.  As I understand
+it, with the switch in the off position, the connection between the latter 
+two is broken and with the switch in the on position this connection is
+completed.
+
+
+Now my question.  Can I simply wire the ground to the ground, the White to
+the White, and then Wire the Black wires one to each of the connections on
+the switch?  Therefore interrupting the circuit when the switch is off and
+completing it when the switch is on?
+
+
+I apologize for my rudimentary explanation here, but if anyone can help
+out I would be much obliged.
+
+
+I'd hate to have to pay an electrician to do what I assume is pretty easy
+to do, but then again I don't want to burn out my pump, or for that
+matter, me!
+
+
+All this work, I'm gettin' real thirsty for that Best Bitter .. .. .. ..
+
+
+Thanks alot .. ... ....
+
+
+ - Bradd Wheeler
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 09:20:50 -0400
+From: "Victor Farren" <vfarren`at`smtp.cdie.org>
+Subject: AHA bashing/ bottling Imperial Stout
+
+
+I do not want to start another AHA bashing thread, please!  It is just 
+that I am fairly new to the digest and have noticed a definite anti-AHA 
+current amongst certain members.  I have to say that I am not a real big 
+fan of their publication (Zymurgy) as I find they have a lot of fluff in 
+it.  I prefer the more technical articles found in Brewing Techniques, but 
+that is just me.  Anyone care to provide me a short history of why the AHA 
+is despised?  Someone posted something about the AHA trying to do 
+something to the digest??
+Private emails are fine, in fact encouraged.
+
+
+I posted a long question about a week ago and never got an answer so 
+I'll post again.  I am about to bottle an Imperial Stout (OG 1.090) and 
+had read in a post that it is a good idea to include some fresh yeast in 
+order to ensure proper carbonation.
+Can I add fresh starter from the dregs of the 2ndary and use the newly 
+fermenting yeast when bottling or will the high alcohol in the IS have 
+made them too loopy to do a good job?  Will they be prone to giving off 
+flavors?  I know that it is not a good idea to ferment another batch with 
+yeast that has fermented a BIG beer b/c the alcohol content mutates them, 
+but I don't know if that would hold for bottling where there is a small 
+addition of fermentable sugar and thus not a lot of new fermenting going 
+on.
+
+
+Thanks in advance,
+
+
+Victor 
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 10:30:19 -0400
+From: IAN FORBES <IFORBES`at`BCBSCT.COM>
+Subject: First Batch Questions
+
+
+Hello to all,
+
+
+I just brewed my first batch of beer last Wednesday and I have several
+questions/concerns.  I know that I will receive valuable information from
+the collective so I have decided to post the recipe and my notes here.
+
+
+First the recipe;
+6.6 lbs John Bull Light Malt Extract
+3/4 lb Honey Malt
+1 oz Styrian Goldings Hops (plugs) 60 min
+1/2 oz Styrian Goldings Hops (plug) 5 min
+1 pkg EDME dry yeast 
+
+
+boil volume 2.5 gal
+final volume 5 gal
+og 1.056
+
+
+ok.  I steeped the honey malt at 170 deg for 30 min,  removed grain bag,
+added the extract, and brought the wort to a boil. I added my hops per
+schedule and completed the boil.  Towards the end of the boil I
+rehydrated the yeast in 90 deg water.  At the end of the boil I removed
+my hop bags and added the wort to 3 gal cooled sanitized water in the
+fermentation bucket.  I tried to avoid splashing as much as possible. 
+After I had combined the wort and water the mixture was still about 125
+deg.  I don't know why, but I thought it would be much cooler (in
+hindsight I guess I wasn't thinking very much).  I cooled and aerated the
+wort to just under 80 deg and pitched the yeast.
+
+
+Now for my questions and concerns;
+1)  Even though I was trying to be careful not to splash hot wort, I know
+for a fact that several times when I took the spoon out I let drops fall
+back in (I need to work on cultivating a "brewer's mentality" my habits in
+the kitchen).  How bad is this?
+2) It took a looong time to cool the wort down to 80 deg from 125 (about
+1.5 hours).  During this time I had the fermentation bucket (plastic) in a
+cool water bath and I was constantly stirring the wort gently so as not
+to aerate the mixture.  What is the likelihood that I have infected my batch
+due to leaving the wort exposed to my kitchen air for so long.  What is
+the likelihood that the wort suffered by being to hot for to long and how
+likely is it that I caused HSA even though I was trying to be careful?
+3) When I pitched the yeast into the wort I did not stir the yeast in, I just
+poured it into previously aerated wort.  Should I have mixed or stirred
+the yeast in?
+4)  Is there any type of guide as to how tight or loose the weave on hop
+and grain bags should be?  The ones I used seemed kind of loose and it
+seemed that quite a few particles were released into the wort.  Is this
+normal?
+5)  I also need to learn patience, but I just couldn't help myself.  Last night
+(Monday) I had to peek at my fermenting brew.  I never really saw active
+fermentation (plastic for this batch, but never again!), but I knew
+something was going on, even though there was no bubbling in the air
+lock,  because the next day the  Fermomoter (sp?) showed a temp of 78
+when the air temp was 70.  My curiosity got the best of me so I opened
+it up and took a hydrometer reading.  The gravity is at 1.020.  I figured
+out that I should get down to between 1.016 - 1.019 based on the
+apparent attenuation listing for the yeast I used.  So I am guessing it is
+nearly completed.  Having never witnessed a batch of fermented/ing
+beer I have a few questions about appearance.  This batch smelled like
+beer.  The top was not clear which is what I expected.  On the top there
+were clusters of bubbles that I would describe as bubbles that a spittle
+bug would produce (if you know what that looks like). There are also
+very small (half a pea) sized "globs' on the surface.  Some of these
+stuck to my hydrometer when I pulled it out and I am guessing that it is
+some type of break material?  One of the reasons that I wanted to see
+the beer is that I was having nightmares that I would take the top off and
+there would be such a bad infection that the beer would pull itself out of
+the bucket.  I am thinking that this is probably not an infection because; 1
+ - it doesn't smell infected, and 2 - the fermentation must have occurred
+incredibly fast (started within 6-8 hrs and completed within 36 hours) so
+that it doesn't seem like there was a large window of time for infection
+to occur.  What do you think.  Should I let this sit for awhile longer,
+should I rack and bottle or what?
+
+
+Before I brew my next batch I plan on purchasing a glass carboy so I
+can make sure I am keeping the air out and so I can see what is going on
+when curiosity gets the best of me.  I also plan on making an immersion
+chiller and I plan on buying some iodophor for the quick contact time
+requirements.
+
+
+Before I go I would like to thank all of you who contacted me after my
+first post with recommendations for starter kits.  I would also like to
+thank Al K., and Al if I had followed all of your advice I would be writing
+this post!  And a big thanks to HBD for an amazing amount of useful
+information.  Keep up the good work everyone.
+
+
+Ian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 19 Aug 1998 00:03:04 +0930
+From: "Brad McMahon" <brad`at`sa.apana.org.au>
+Subject: Cesky pivo/yeast storage
+
+
+>One thing I've noticed in many American clones, and even several
+>European lagers, is a lack of the acidic undertones that make a PU,
+>Lobkowicz, or Velke Popovice so great.
+
+
+Ahh, pivo primo od kozla!
+I don't perceive them as being acidic, rather than that taste being
+a product of bitterness and yeast.
+
+
+>I'm curious to hear what the more expert tasters have to say about 
+>the sour undertones. For example, Sam Adams's Bohemian lager falls 
+>flat on its face (IMHO), yet I recall (vaguely) that its 
+>decoction-brewed and uses only the finest Saaz hops.
+
+
+Haven't tried SA Bohemian lager, but have tried their Golden Pilsner
+and that wasn't close, though Pete's Wicked Bohemian Pilsner was
+a credible version, that was reminiscent (to me) of Mestan or 
+Radegast.
+Sour undertones? Only on old kegs. I had _terrible_ Velkopovicke
+Kozel at that American sports bar on Vodickova (I think, somewhere
+off Vaclavske nam. at any rate), couldn't finish the glass.
+
+
+>I've recently found an article Ed Basgall posted in HBD #2151,
+>regarding freezing yeast in a 15% DME solution. I thought this might
+>be a good idea for me, as I'm kind of clumsy and inexperienced in
+>handling slants. I can't decide which would be a better method, 
+>slants or frozen wort.
+
+
+Storage in vials with distilled water should be OK, but I store in 
+freezer with 25%yeast,and a 50/50 solution of distilled water and
+glycerine.
+
+
+> However, I've often read that weisen is usually brewed with
+> one strain, filtered, and bottled with yet another.
+> If this is so, how should I go about capturing and reproducing a
+> truly genuine weisen?
+
+
+That's usually the case, but the culturing strain page at
+http://www.nada.kth.se/~alun/Beer/Bottle-Yeasts/
+shows that Schoefferhoffer doesn't do that. I can get this 
+beer locally, but haven't tried culturing their hefeweizen since
+learning this, so I can't vouch for its validity.
+
+
+>Do they breed in captivity?
+
+
+At the risk of sounding glib, yes. I can't see the problem with 
+trying the Wyeast/Yeastlabs/whoever strains. They have been cultured
+from Weihenstephan or Bavarian breweries anyway.
+
+
+Na Zdravi!
+
+
+Brad
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 08:32:10 -0700 (PDT)
+From: Steve Jackson <stevejackson`at`rocketmail.com>
+Subject: Carbonation confusion
+
+
+I was contemplating the issues of bottle carbonation last night
+(nothing better to do, I guess) and came across a paradox that I can't
+figure (or find) an explanation for.
+
+
+As I understand bottle conditioning, it typically takes the yeast a
+very short amount of time -- on the order of a day or two -- to
+ferment the sugar (I'm assuming the use of glucose here, since wort or
+DME would take longer). The remainder of the wait is for the evolved
+CO2 to dissolve into solution.
+
+
+Now, CO2 will more readily (and more quickly) dissolve into solution
+at lower temperatures. So, logic would dictate that after fermentation
+of the priming solution has been completed, carbonation would occur
+quicker if the bottle were dropped to a lower temperature.
+
+
+My experience runs completely counter to this. In the winter months,
+when the apartment is kept around 70 (and the beer closet probably
+around 65), it frequently takes a good three weeks for my beer to
+carbonate. In the summer months, when the apartment is about 78 (and
+the beer closet probably in the low 70s), I frequently have beers
+carbonate in a week.
+
+
+Given CO2's "reluctance" to dissolve at warmer temps, I would think
+that carbonation would take *longer* during the summer, at least in
+theory. Of course, I realize that there are many things that are
+supposed to take place in theory and operate completely differently in
+practice, and this may be one of them. I'm simply curious as to why
+theory and practice don't mesh in this case (or if I'm simply
+misunderstanding or misapplying the theory).
+
+
+ -Steve in Indianapolis
+
+
+
+
+
+
+
+
+ 
+_________________________________________________________
+DO YOU YAHOO!?
+Get your free `at`yahoo.com address at http://mail.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 11:55:06 EDT
+From: JPullum127`at`aol.com
+Subject: water analysis
+
+
+beyond a doubt brewers are the nicest and most helpfull folks around. i got
+over 1/2 dozen offers to help me interperet my water analysis. thanks to all
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 98 08:55:00 EDT
+From: "Mitchell, Vincent (OGP-Tempe)" <vjm`at`ogpnet.com>
+Subject: Amber Ale
+
+
+
+
+Howdy all,
+
+
+First I would like to thank Al Korzonas for responding to my dirty dishwater 
+question.  Second I was wondering if anyone out there has a good recipe for 
+either a Irish red type ale or an amber ale.   I am an extract and specialty 
+grain brewer, but have been known dive into an all-grain from time to time. 
+ Your replies will be greatly welcomed.
+
+
+
+
+Vince Mitchell
+vjm`at`ogpnet.com
+mitchells`at`inficad.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 12:37:05 -0700
+From: George_De_Piro`at`berlex.com
+Subject: Secondary fermentation / accidental high mash temp
+
+
+     Hi all,
+     
+     Dave H. relates a tale of woe about his fermentation being sluggish 
+     despite the fact that he pitched a high-volume starter.  The ferment 
+     was going strong shortly after pitching, and after just 72 hours 
+     airlock activity at fallen off, so he racked the beer to the 
+     "secondary fermenter."  The SG was 1.020.  Several days later is it is 
+     only down to 1.017.
+     
+     Once again the term "secondary fermenter" has caused a fermentation 
+     problem.  It really should be referred to as a "clearing tank" or 
+     somesuch.  Dave removed the majority of the yeast from the beer before 
+     his fermentation was complete.  No wonder it is sluggish now!
+     
+     Unless the young beer has been on the primary yeast for so long as to 
+     cause you concern about yeasty off-flavors (1-2 weeks depending on 
+     temperature and strain) leave it on the yeast until fermentation is 
+     done (or really close to it).  The poorly named "secondary" is really 
+     a clearing tank where excess yeast can be allowed (or forced) to 
+     flocculate, and finings and such can be added.
+     
+     I often don't bother using a "secondary" at all for some styles of 
+     beer.  If clarity isn't an issue (like with Hefeweizen) I prefer to 
+     minimize the number of transfers (each transfer brings the risk of 
+     oxidation and infection, not to mention extra work).
+     
+     Dave's beer will probably finish, but if he wants to speed things up 
+     he could give it a dose of Kraeusen wort. 
+     ------------------------------
+     Lou H. asks about the consequences of holding the mash at 160F (71.1C) 
+     for 20 minutes before cooling it down to his intended saccharification 
+     temperature.
+     
+     Beta amylase can only survive for 10 minutes at 158F (70C).  Your wort 
+     will be very dextrin-rich and finish at a higher gravity than you had 
+     hoped.  You probably achieved complete conversion (your clear lauter 
+     runoff indicates this, as well as the long time you spent at alpha 
+     amylase friendly temperatures.
+     
+     I have made sweet stouts without milk sugar by mashing at 71C and 
+     using almost no hops.  Works pretty well, and your lactose intolerant 
+     and vegan friends will be able to drink it.
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 11:04:37 -0600
+From: "arne seeger" <seeger`at`pdrpip.com>
+Subject: kegging
+
+
+I am getting ready to purchase my first korny kegging system and I have a
+few questions.  I like the idea of force carbonation so I don't have to
+wait so long to try my brew, what is the best way to force carbonate?  When
+force carbonating does the carbonation stay indefinetly?  Looking through
+many catalogs I noticed a lot of places sell carbonation stones.  What are
+they, how do they work, and are they worth the $20?  I live in a place
+where there are no homebrew shops or clubs so HBD has been a great source
+for info.  I hate venturing into new territory blind so any help is greatly
+appreciated.
+Thanks,
+Arne Seeger
+seeger`at`pdrpip.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 98 12:13:17 CDT
+From: jwilkins`at`wss.dsccc.com (John Wilkinson)
+Subject: AOB/AHA
+
+
+Jim Liddil wrote:
+
+
+>Remember what the AOB/AHA tried to do to this forum.
+
+
+I don't remember them trying to do anything to this forum.  As I remember it
+they picked up HBD when the original janitor had to let it go and they tried
+to adapt it to a different mail server.  They had problems and were flailed
+pretty well for every error.  When they abandoned it after all the abuse
+Pat and Karl were good enough to pick it up.  Granted they are much more
+competent and are doing a much better job but I don't think AOB/AHA tried
+to "do" anything to the forum.  They didn't do the job of taking over HBD
+very well but I can't say I blame them for dropping it after all the hell
+they caught.  We are quite lucky anyone will take this on and should keep in
+mind what it is costing us.  Nothing.
+
+
+Thanks again Karl and Pat.
+
+
+John Wilkinson - Grapevine, Texas - jwilkins`at`wss.dsccc.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 12:53:46 -0500
+From: Tim Burkhart <tburkhart`at`dridesign.com>
+Subject: New Hop Variety: Santiam
+
+
+I'm not a hop grower (yet) or a user of Tettnanger but thought this might be
+of interest to someone.
+
+
+The USDA-ARS is announcing their "Santiam" hop as a new naturally seedless
+variety of Tettnanger.
+They say that while Tettnanger is grown in the U.S.,  its yield is lower
+than Tettnager grown in Germany. Santiam supposedly yields twice as much as
+U.S. grown Tettnager.
+
+
+There is a very short article on the Science Update page of the August '98
+Agriculture Research magazine.
+http://www.ars.usda.gov/is/AR/archive/aug98/sci0898.htm   ...scroll to the
+bottom of the page.
+
+
+Tim Burkhart
+Kansas City
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 10:57:29 -0700 (PDT)
+From: Eric James Urquhart <eurquhar`at`sfu.ca>
+Subject: autoclaving bottles
+
+
+In response to the use of an autoclave to "sanitize " bottles, just do it. 
+I have done this many times with not 1 bottle ever breaking.  A 20 minute
+run on dry cycle at 121 C will STERILIZE the bottles.  Put a small
+aluminium foil cap over the top ( about 4 inches wide before forming over
+the opening) and run.  Just make sure the bottles are free of deposits as 
+they will harden and darken during sterilization.  They will be sterile 
+though.
+
+
+Eric Urquhart, Centre for Pest Management,
+Dept. of Biological Sciences, Simon Fraser University,
+8888 University Drive,
+Burnaby, British Columbia, CANADA V5A 1S6
+
+
+lab (604) 291-3090 fax (604) 291-3496
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 11:29:02 -0700
+From: Badger Roullett <branderr`at`microsoft.com>
+Subject: water reports?
+
+
+is there a web page that is collecting the major cities water reports out
+there?  i am from Seattle, and i know some has done it.  if somewhere out
+there is a water report for my city, can someone point me in the right
+direction?
+
+
+badger
+
+
+***************************************************
+Brander Roullett aka Badger
+Homepage: http://www.nwlink.com/~badger
+Brewing Page: http://www.nwlink.com/~badger/badgbeer.html
+In the SCA: Lord Frederic Badger of Amberhaven
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 11:29:04 -0700
+From: Badger Roullett <branderr`at`microsoft.com>
+Subject: parti-gyle, Party Guy
+
+
+Date: Mon, 17 Aug 1998 16:49:26 -0700
+From: "Riedel, Dave" <RiedelD`at`PAC.DFO-MPO.GC.CA>
+Subject: Parti-Gyle Brewing/Thanks Mark!
+
+
+>Badger brought up the parti-gyle concept of big/small beer
+>brewing in a single batch.  I have a data-point to pass on.
+
+
+Thanks!! this is exactly what i was looking for.  this and all the helpful
+mails i have recieved are making this learnign curve less steep, and more
+fun!!
+
+
+>Using about 12 lbs of malt, I made 3 gallons of 1.099 
+>Barleywine and 6 gallons of 1.048ish Brown Ale by using
+>the first runnings for the BW, then adding some chocolate 
+>malt, recirc'ing a bit then sparging the grain bed to get the
+>brown ale.  Both beers came out very well.  
+
+
+i am guessing you added the choc malt to the grain not the BW...  :)  I
+would very much like to see your recipie, and amounts if you still have that
+information around.  what size mash tun did you use for this.
+
+
+Of all the mails i have recieved.  two methods seem the most likely to
+achieve two good beers.
+
+
+1: above method.  smaller first runnings, larger second.  hydrometer
+readings to reach a set gravity control this method.
+
+
+2: same size batches, but adding more grain to the mash tun for the second
+runnings to achieve a slightly less "small" small beer.  the factoid posted
+(to me or to list i don't   remember) about 2 equal sized runnings woudl
+result in 70% of sugars in first runnings, and %30 in second runnings are
+useful here.
+
+
+I am not sure which way i am going yet, but i have a weekend freeing up in
+two weeks, and i am going to try then.  i will post results when i get it.
+
+
+badger
+***************************************************
+Brander Roullett aka Badger
+Homepage: http://www.nwlink.com/~badger
+Brewing Page: http://www.nwlink.com/~badger/badgbeer.html
+In the SCA: Lord Frederic Badger of Amberhaven
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 12:23:25 -0700
+From: "Bryan L. Gros" <gros`at`bigfoot.com>
+Subject: weizenbock
+
+
+For my holiday beer this year, I'd like to make a weizenbock. I 
+had a great pint (okay, half litre) at Baltimore Brewing one day.
+
+
+My understanding of the style is basically that it is a "high gravity"
+bavarian wheat beer. I'm definately looking for the weizen esters 
+and phenols.
+
+
+Questions.
+What OG should I shoot for.  1080?
+Does the Wyeast 3068 work well for this style?
+Any mashing or fermentation advice?
+
+
+Thanks.
+
+
+
+
+  - Bryan
+
+
+Bryan Gros        gros`at`bigfoot.com
+Oakland, CA
+Visit the new Draught Board homebrew website:
+http://www.valhallabrewing.com/~thor/dboard/index.htm
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 13:43:24 +0000
+From: Jim Liddil <jliddil`at`azcc.arizona.edu>
+Subject: Yeast Growth
+
+
+Steve Alexander has mentioned how various sources indicate yeast 
+multiplication amounts. so I thought I would post what I have found. Do 
+these numbers matter to us as homebrewers is the question I will address 
+later. This will be in the context of what I think matters adn what I do. 
+Not what everyone else should think or do.
+
+
+As far a books go I personally feel one should have every brewing book ever
+written. Also a good basic chemistry text, organic chemistry text, an 
+analytical chemistry text, a copy of Ionic Equilibrium by Q. Fernando, a P. 
+chem text, and a biochem text. A few microbiolgy books are also good. And 
+access to a good university library. And yes it certainly help to have a good 
+grasp of all of the above when one goes to a brewing school. 
+
+
+Jim Liddil
+
+
+Yeast Technology 
+"Generally, there is a sixfold to eightfold yeast growth during a commercial 
+brewery fermentation" 
+M&BS vol. 2 pg 619 
+"Commercial fermentations generally result in between two and three doublings 
+of the yeast population." 
+>From Brewing Science J.R.Pollock 
+For lager a maximum of 30-50 million cells/ml 
+For Ale 60-100 million cells/ml 
+The Practical Brewer 
+Reproduction ratio of 4 for bottom yeasts
+Pitching rate (g/L) yeast collected (g/L) 
+0.54                         3.01 
+1.10                         3.56 
+1.60                         4.08 
+2.32                         4.7 
+4.62                         6.91 
+
+
+Declerck 
+Fourfold increase for lager 
+Tenfold increase for ale
+
+
+Brewing by Lewis and Young 
+"the brewer can expect to produce about five times the amount of yeast he 
+or she uses"
+"Even on wort yeast must be cajoled into producing the maximum amount of 
+alcohol and the minimum amount of growth by restricting the availability of 
+oxygen and using lower fermentation temperatures (9-20 C) than those 
+preferred by the organism (25-28 C)"
+
+
+The Biotechnology of malting and brewing j.s hough 
+"such an inoculum therefore only multiplies 4-5 fold, equivalent to each cell 
+dividing by budding 2-3 times"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 17:18:41 -0500
+From: "Jay Krause" <krause`at`galis.com>
+Subject: Beer Label of the Week
+
+
+Sorry for the wrong address, it should be:
+
+
+http://members.tripod.com/~beerlable
+
+
+You just get in the habit of typing "www."
+
+
+Thanks,
+Jay Krause
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 15:19:54 -0700
+From: "Hans E. Hansen" <hansh`at`teleport.com>
+Subject: Women & beer
+
+
+Monika sez:
+<
+Date: Mon, 3 Aug 1998 11:07:04 -0500
+From: Monika Schultz <mschultz`at`spacehab.com>
+Subject: Women Brewers
+
+
+There has been some speculation lately about why so few women brew beer 
+these days.  One poster suggested lifting heavy carboys, etc may be one 
+reason.  As a female brewer, I think it's even more basic than that.  
+Most women simply don't like beer.  Certainly not ALL women (no gender 
+slight intended), I know a few who love beer. > <snip>
+
+
+I know quite a few women who like the taste of at least some
+beers, but won't drink them because they complain that beer
+"makes me gassy."
+
+
+I thought that was, in part, the object of beer drinking. :^)
+
+
+Hans E. Hansen
+hansh`at`teleport.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 18 Aug 1998 17:32:18 -0700
+From: Bill Watt <wattbrew`at`buffnet.net>
+Subject: Toronto weekend
+
+
+I am going to Toronto this weekend and unfortunately will not have time
+to visit all the beer places I would like.  So, I turn to you for help.
+If you could only visit 1 or 2 pubs or breweries, what would they be? I
+will go with the majority.
+
+
+TIA for the tips.
+Bill Watt
+- -- 
+
+
+Brewing beer in Lancaster, NY
+Watt's Brewing
+Bill Watt - wattbrew`at`buffnet.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 19 Aug 1998 01:20:42 +0100
+From: "Mort O'Sullivan" <tarwater`at`brew-master.com>
+Subject: Yeast Data
+
+
+A while back someone (I can't remember who) asked for for representative
+cell counts for a given weight or volume of sedimented yeast.
+The problem with this request is that the cell concentration in your yeast
+cake depends on the packing density of your yeast. This will in turn depend
+on a number of factors such as average cell size, flocculation
+characteristics and other cell surface phenomenon, and probably a half
+dozen other factors. Thus the concentration of cells in your cake will vary
+not only between different yeast strains, but also with the same strain if
+the average age and/or size of the cells is different from one batch to the
+next.
+You could minimize these differences somewhat by forcing tighter packing of
+the cells through centrifugation. This is what I do when pitching my
+experimental fermentations and as a rule of thumb, it generally works out
+that 0.35 g of yeast cells centrifuged at 4000g for 5 min and pitched into
+100 ml of medium will give a cell concentration of 12 million cells/ml.
+
+
+The other day I happened to have 7 flasks of leftover yeast so I decided I
+would demonstrate how the concentration of yeast in the sediment varies
+between strains. I let the yeast settle naturally and stored it under fully
+fermented beer in the refrigerator for 72 h. I then decanted off the liquid
+and transferred a known weight of the yeast cake to a clean centrifuge tube
+and added distilled water to make approximately 10 ml (but I knew *exactly*
+how much in each particular case). I then counted the yeast and calculated
+the cells/unit weight in the original slurry.
+To test my own rule-of-thumb method, I then centrifuged each of these tubes
+at 4000g for 5 minutes, decanted off the liquid, and weighed the yeast so
+that I could calculate the cells/g.
+The data for 7 different yeast strains is shown below. I am only providing
+the data so that those who wish can use it as a rough guide for figuring
+out how much yeast to pitch. However, I make no claims that my results
+would be the same you would achieve, even using the same 7 strains.  (I
+hope the rows don't wrap to multimple lines--they are all 75 or fewer
+characters):
+
+
+
+
++++Cell Concentration of Yeast Cake (Gravity Sedimentation)+++
+                    A        B       C       D       E       F       G
+                  ------  ------   ------  ------  ------  ------  ------
+Wt. of yeast (g)    0.55     0.9     1.88    2.06     1.2    1.31    2.32
+Dilution (ml)      10.00   10.00    10.00   12.20   10.25   10.62   10.13
+Conc. (cells/ml)  4.6E+8  2.3E+8   7.7E+8  5.6E+8  2.3E+8  3.6E+8  8.2E+8
+Viability          85.1%   89.0%    96.4%   96.4%   93.5%   97.9%  100.0%
+Total Cells       4.6E+9  2.3E+9   7.7E+9  6.8E+9  2.4E+9  3.8E+9  8.3E+9
+Cells/g of cake   8.4E+9  2.6E+9   4.1E+9  3.3E+9  2.0E+9  2.9E+9  3.6E+9
+Wt. needed for      22.6    74.1     46.2    57.1    96.3    64.9    52.9
+   commercial pitch
+   rate* (g)
+Approx. volume for  0.77    2.50     1.56    1.93    3.26    2.19    1.79
+   comm. pitch rate*
+   (fl. oz.)
+
+
+*Commercial pitching rates generally vary from 10-20 million cells/ml, but
+will be assumed to be 10 million cells/ml for purposes of calculation.
+
+
+
+
++++Cell Concentration of Centrifuged Yeast (4000g 5 min 4C)+++
+                    A        B       C       D       E       F       G
+                  ------  ------   ------  ------  ------  ------  ------
+Wt. of yeast (g)    0.37    0.69     1.51    1.40    0.63    0.69    1.87
+Vol. of yeast(ml)    0.4     0.7      1.5     1.5     0.6     0.7     1.9
+Total Cells       4.6E+9  2.3E+9   7.7E+9  6.8E+9  2.4E+9  3.8E+9  8.3E+9
+Viability          85.1%   89.0%    96.4%   96.4%   93.5%   97.9%  100.0%
+Total Cells       1.8E+9  1.6E+9   1.2E+10 1.0E+10 1.4E+9  2.7E+9  1.6E+10
+Cell conc if      4.4E+7  1.2E+7   1.8E+7  1.7E+7  1.3E+7  1.9E+7  1.6E+7
+   0.35g pitched
+   into 100ml wort
+
+
+
+
+I also noticed some very old Wyeast packs hiding in the corner of the
+refrigerator and thought it would be interesting to show the cell
+concentration that would be achieved by pitching into 5 gal. of wort by
+following the manufacturers instructions and then comparing this to the
+rate achieved when using dried yeast packets. (This has probably been shown
+before on the HBD, but at least this will provide some more data).
+
+
+For the preparationof the Wyeast, I broke the packs and allowed to incubate
+for 48 h. After this time one pack (1084) had completely expanded, while
+the other (2124) had only expanded to about 3/4-inch thick. I poures the
+contents of each pack into a graduated cylinder to measure the volume (50
+ml in both cases) and then counted the yeast and calculated the pitching
+rate if the entire volume were pitched immediately into 5 gal. of wort.
+
+
+For the dried yeast, I rehydrated the packs in 100 ml of 40C water for 15
+minutes before enumerating.
+
+
+
+
++++Cell Concentrations in Wyeast Smack Packs+++
+                            C        H
+                          ------   ------
+Conc. in Pack(cells/ml)   5.8E+7   8.0E+7
+Viability                  80.0%    97.8%
+Total Cells               2.9E+9   4.0E+9
+Conc. in 5 gal (cell/ml)  1.5E+5   2.1E+5
+% commercial pitch rate*    1.5%     2.1%
+
+
+Note: Strain C = Wyeast 1084 (Irish Ale), 21 months old; Strain H = Wyeast
+2124 (Bohemian), 22 months old.
+
+
+
+
+
+
++++Cell Concentrations in Dried Yeast Sachets+++
+                            I        J
+                          ------   ------
+Net wt. (g)                12.17     4.63
+Dilution (ml)                100      100
+Conc. (cells/ml)          2.5E+9   1.5E+9
+Viability                  99.4%    99.3%
+Total Cells               2.5E+11  1.5E+11
+Conc. in 5 gal (cell/ml)  1.3E+7   7.9E+6
+% commercial pitch rate*  132.1%   79.3%
+
+
+Note: Strain I = EDME dried ale yeast; Strain J = Gervin Commonwealth Ale
+Yeast
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2802, 08/19/98
+*************************************
+-------

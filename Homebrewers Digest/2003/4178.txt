@@ -1,0 +1,1555 @@
+﻿Date: Sat, 22 Feb 2003 00:50:21 -0500
+Subject: Homebrew Digest #4178 (February 22, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4178                             Sat 22 February 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  re: Mash heating and enzyme denaturing ("Steve Alexander")
+  Re: Beer Engines and Minikegs (Teresa Knezek)
+  Idiots Unite! ("Rob Moline")
+  re: Dilution of wort - IBU calcs (Jonathan ROyce)
+  re: passivation ("Haborak, Kevin")
+  Re: : Whilpooling and Wort Transfer Question ("Pete Calinski")
+  Pete's Malted Milk Balls ("Jodie Davis")
+  Piraat yeast ("Jason Henning")
+  HERMS redux - the Juan Valdez method ("K. Gold or G. McLane")
+  Re:  Whirlpooling and Wort Transfer Question (Bill Tobler)
+  Re: extended secondary and bottle conditioning (Jeff Renner)
+  passivating stainless steel ("Jim Dunlap")
+  V-wire spacing ("Stephen Cavan")
+  Re: Mash heating and enzyme denaturing ("Martin Brungard")
+  Yeast Taste ("Andrew Moore")
+  various and sunder. ("Dr. Pivo")
+  RE: Whirlpooling and Wort Transfer ("Bob Hewitt")
+  Re: Fruit Flavorings (Bill Wible)
+  Stainless Passivation (Chuck Doucette)
+  fruit flavor and lagering two beers (Marc Sedam)
+  Re: saving yeast from pitchable tubes (Mark Beck)
+  Boil Gravity -> Original Gravity (darrell.leavitt)
+  Old grains and Guinness bottles? (MJHarper)
+  2003 South Shore Brewoff - competition announcement (McNally Geoffrey A NPRI)
+  Re.Aroma Hopping ("Patrick Hughes")
+  Re.Energy Sources ("Patrick Hughes")
+  Stability test ("Patrick Hughes")
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* The HBD Logo Store is now open!
+* http://www.cafeshops.com/hbdstore
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 20 Feb 2003 23:28:13 -0500
+From: "Steve Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: re: Mash heating and enzyme denaturing
+
+
+J.W. van Groenigen asks ...,
+
+
+>we had a discussion on our Dutch forum on mash heating. It is suggested in
+a
+>lot of brewing resources that you shouldn't raise your mash temp with more
+>than about 1 degree Celcius per minute, because otherwise the enzymes may
+>denature. Now, why is that exactly? Is it because the HEAT RISE ITSELF is
+>harmful to the enzymes (and why, then)? Or is it because during a faster
+>heat rise local hot-spots will develop (> about 72 C, say) that will
+>denature the enzymes.
+
+
+It's not the rate of heating, it's the instantaneous temperature that
+determines the rate of denaturation.    Denaturation rate is just like most
+chemical reactions rates with an e^-(E/RT) temperature dependence  [the
+exponent letters stand for:  E - energy of the denaturing reaction, R - the
+gas constant, T - the absolute temperature].  There is no (dT/dt) rate of
+temperature change term.
+
+
+>In other words: if you had somehow found a way to heat the mash without
+>creating any hot spots, would it then be possible to heat the mash much
+>faster?
+
+
+Exactly.   The hot spots are regions where the denaturation rate is higher.
+We want heat to flow evenly into the entire mash and heat is transferred
+(flows) only by radiation, convection or conduction.    For radiation I've
+played with small microwave mashes and it works but there may be issues
+there and home microwaves still cause hot-spots and are underpowered.
+Convection with stirrers & pumps (HERMS, RIMS) is very effective at
+preventing hot spots.   Thermal conductivity of the mash can't be altered
+much, but having a good thermal conducting mash tuns (aluminum & copper but
+not stainless) helps prevent surface transfer hot-spots from direct heaters.
+Also heating the mash through a larger surface area helps reduce excess
+localized heating.  RIMS electric heating elements are a serious problem
+since they transfer all the heat through a very small surface area - this is
+compensated by the high levels of convection afforded by the pump.
+
+
+- --
+I don't think that denaturing enzymes is a serious problem unless you have a
+high percentage of adjunct.
+
+
+Pale malt always has plenty of alpha-amylase, so the 'trick' is to get
+enough work out of the beta-amylase to get the fermentability you want.
+For modern malts there is usually little need for mash rests below the
+saccharification range (<60C).  If you mash-in at the low saccharification
+range (60C-65C) and rest till you have enough fermentability from the
+beta-amylase, then there is little worry that a fast boost to higher
+temperatures will cause any difficulty - even if hot-spots do appear.
+There is so much alpha amylase in any pale malt that it would be difficult
+to prevent a successful completion of the mash after the low
+saccharification rest.
+
+
+If you do decide to mash-in below 60C then I would be careful to avoid hot
+spots till you are have set the fermentability after the low
+saccharification rest.
+
+
+Hot spots can also turn into scorch spots and that is a serous flavor
+problem.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 20 Feb 2003 21:22:12 -0900
+From: Teresa Knezek <teresa`at`mivox.com>
+Subject: Re: Beer Engines and Minikegs
+
+
+On or thereabout 2/21/03, Request Address Only - No Articles spoke thusly:
+>A beer engine sucks the beer out of the keg and the keg's tap
+>should have little restriction so as to prevent premature foaming.
+
+
+I found the 5/8" ID hose works great. Because of the lack of 
+pressure, the beer engine also needs to produce a certain amount of 
+foam, or you get flat-looking gravity feed type beer.
+
+
+>I am having a good time with it.  You have to drink a lot of beer to
+>properly test a beer engine.
+
+
+Darn straight you do. I've decided to take the last 1/2 case of rye 
+ale I have in bottles, and pour it all into my minikeg, so I can test 
+the engine some more this weekend.
+
+
+One feature I noticed on my engine, which you ought to think about 
+doing, is the foam 'can cooler' type insulating sleeve around the 
+cylinder. Since 1/2 pint of beer sits in the cylinder waiting for you 
+to pour the next pint, it's a good idea to insulate it to keep a bit 
+of a chill on the liquid.
+- -- 
+:: Teresa ::
+http://www.mivox.com/
+
+
+"Politics is supposed to be the second oldest profession. I
+have come to realize that it bears a very close resemblance
+to the first."
+        -- Ronald Reagan
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 00:34:33 -0600
+From: "Rob Moline" <jethrogump`at`mchsi.com>
+Subject: Idiots Unite!
+
+
+                        Idiots Unite!
+
+
+>Dry yeast is a joke.  Let's not start that again.  If you're
+>brewing with it, you're the idiot - not me....
+>Bill Wible
+
+
+     Dry yeast is just another tool in the kitbag, mate...one that many have
+come to count on for reliability and convenience.
+     Sitting here tonight sipping a "Big 12 Barleywine" made by the Ames'
+Brewers League as a club brew, with Nottingham dry yeast.... convenience and
+reliability are not a concern.....just enjoying this lovely brew, what other
+concerns could I have?
+
+
+     But Mr. Wible, it might be of interest for you to learn that a brewer
+in the UK has done a trick that might befuddle you. Verify this....
+http://home.swipnet.se/~w-62213/gbbf02.htm
+     Graham Trott, of the Triple FFF Brewing Company from Fourmarks, near
+Alton, Hampshire, England.....scored high marks `at` the GBBF, Olympia, London
+2002. Graham established his brewery in 1997 on a very small scale and has
+worked his volume up to an 18 bbl brewlength.
+     Naming his brews after rock songs, his "Pressed Rat and Warthog" won
+the Gold Medal in the Mild Category and "Moondance" won Gold for Best
+Bitter.
+     "Moondance" also received a Bronze for "Supreme Champion Beer of
+Britain," behind two national breweries, a really fantastic achievement for
+a micro brewery, which Graham is really proud about.
+     Both beers were brewed using Danstar Nottingham Yeast and
+Servomyces.....
+
+
+     So dry yeast is for idiots? Lets unite!
+
+
+     If you have an award winning brew with Danstar yeasts.....Why don't you
+send me your information...including details of your brew, award, etc, so
+that I can include them for submission for a webpage? Full attributions,
+etc...and we can help other idiots....
+     If any LHBS owners would like to have their shop listed as a supplier
+of Danstar yeasts, please forward their shop details, addresses, webpage
+links, phone numbers, etc....
+
+
+     If being an idiot includes winning GBBF Golds for Mild and Best Bitter,
+and placing with a 3rd in "Supreme Champion Beer of Britain"...
+
+
+     I guess us idiots will just have to live with the shame....(snif).....
+
+
+Cheers!
+Rob Moline
+Lallemand
+
+
+     Lallemand Scholarship Opportunities Arrive Soon!
+
+
+"The More I Know About Beer, The More I Realize I Need To Know More About
+Beer!"
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.456 / Virus Database: 256 - Release Date: 2/18/2003
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 04:31:42 -0800
+From: Jonathan ROyce <jonathan`at`woodburybrewingco.com>
+Subject: re: Dilution of wort - IBU calcs 
+
+
+Joseph Passante wants to boil 8 gallons and dilute to 10. His question is "how 
+does the boiled water that I dilute my wort with at the end of boil affect the 
+calculated IBU?  Is it a percent reduction?" 
+ 
+I suspect that the brewing software asks somewhere for the boil volume and the 
+finished volume (like the HBD Recipator--http://www.hbd.org/recipator). If this 
+is the case, it has probably already figured out the dilution factor, but if 
+not the answer to the question is yes. The equations work like this: 
+ 
+IBU = (alpha acid%)(utilization)(mass)(75)/(final volume) 
+ 
+where utilization is a function of the SG of the boil. 
+ 
+The utilization factor takes into account the higher gravity of the 
+concentrated wort, while the IBU calc takes into account the volume of the 
+fermentation. 
+ 
+If you calculated the IBUs as if you were making an 8 gallon batch, then you 
+could recalculate for a 10 gallon batch by multiplying by 0.8 (8/10). 
+ 
+Jeff Palmer provides a good (and more detailed) explanation of all this in his 
+book: 
+http://www.howtobrew.com/section1/chapter5-5.html
+
+
+HTH,
+Jonathan
+Woodbury Brewing Co.
+www.woodburybrewingco.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 05:18:36 -0800
+From: "Haborak, Kevin" <KHaborak`at`golder.com>
+Subject: re: passivation
+
+
+Mike,  
+
+
+All acids are corrosive, assuming you have the same amount of acid mixed in
+the same amount of water phosphoric is much more corrosive than HCl
+(muratic).  Probably the most accessible weaker acids will be carbonic acid
+(any soda), citric (lemon juice) or lactic acid from the LHBS.
+
+
+Also, you could dilute any of the stronger acids so that they will be less
+corrosive than the weaker acids.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 09:13:31 -0500
+From: "Pete Calinski" <pjcalinski`at`adelphia.net>
+Subject: Re: : Whilpooling and Wort Transfer Question
+
+
+Well, I'll probably get struck my lightning for admitting this but......
+
+
+When I brewed yesterday, I had the same problem.   It was the hops pellets
+that had escaped through the hop bag.  They plugged up the spigot.  To
+loosen them, I put a piece of tubing on the hose barb and blew back through
+the spigot.  It took quite a bit of force, held for many seconds before they
+broke loose.  When they did, I got a great burst of exhaled air to oxygenate
+the wort.
+
+
+No HSA fears since the wort was already chilled.  Sanitation????  Well, most
+of the air was probably from the dead space in my mouth and trachea and
+never in my lungs.
+
+
+Relax, have a homebrew.
+
+
+Pete Calinski
+East Amherst NY
+Near Buffalo NY
+
+
+
+
+***********************************************************
+*My goal:
+*      Go through life and never drink the same beer twice.
+*     (As long as it doesn't mean I have to skip a beer.)
+***********************************************************
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 09:35:04 -0500
+From: "Jodie Davis" <JodieDavis`at`adelphia.net>
+Subject: Pete's Malted Milk Balls
+
+
+
+
+>I saw the posting about Pete's Malted Choco balls,
+>which is not new to the market. Briess Malting has them since
+>years and send'd them to customers.
+
+
+>Fred Scheer
+>Brewsbrothers.net
+
+
+Hey Fred,
+
+
+I'm the one who posted that. I received an email from Pete himself
+yesterday. Evidently someone forwarded my message to him.
+
+
+Here's what he said:
+"Roger Briess, who passed away, about a year ago, was a friend and
+always passed out malted milk balls.  I wanted to honor him by using his
+malts."
+
+
+He also said he makes his malt "crunchies" from a mix of two powders
+from Briess. And that they are hoping for distribution on the east coast
+in 2004.
+I'm ready!
+
+
+Jodie Davis
+Canton, Georgia
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 10:02:33 -0500
+From: "Jason Henning" <jason`at`thehennings.com>
+Subject: Piraat yeast
+
+
+Hey all-
+
+
+I'm wanting to do a Belgian strong ale. One of my faves is Piraat. Is there
+any reason to think that the brown ring in the bottom of the bottle is
+anything but their normal fermenting yeast?
+
+
+Cheers,
+Jason Henning
+
+
+47ms from Jeff Renner on the super highway
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 11:06:43 -0500
+From: "K. Gold or G. McLane" <ktgold`at`umich.edu>
+Subject: HERMS redux - the Juan Valdez method 
+
+
+Gals and Gents,
+So this is the story...
+I'm building myself a better brewery right now, and have decided on some
+form of HERMS (see previous post from 2/7/03).  A buncha folks gave me some
+great input, some of which was a bit discouraging but all of which was
+helpful, so I've gone off in many directions, scribbled lots of ideas,
+yadda yadda.  I was directed to the website of a fellow who built a nice
+HERMS set-up called the HERMIT, in which the recirc coil is housed in a
+bucket of pumped, temp-controlled heated water
+(http://sdcollins.home.mindspring.com/index.html; careful, this guy REALLY
+hates barbed fittings.  You have been warned.)
+
+
+Fast forward: tinkering around in my basement, I found an old percolating
+(not drip) coffee maker, about 3 gallons, 1090 W.  Simple as dirt, just an
+aluminum bucket with a heating element in the base, attached to a gizmo I
+think is called a thermister (turns off the element when a certain
+temperature is reached - yer coffee's done).  So I took off the gizmo,
+wired it up with a torchiere lamp dimmer, and viola, the thing heats water
+real nice, up to boiling (though it smokes a bit and the lamp dimmer gets
+kinda hot.)  The lamp dimmer is rated to 500 W.  I did some tests with a
+copper 3/8" coil of about 8' long, and got a delta T of 43 deg when the
+entering water was cold and the tank water was 124 degr, but of about 10
+deg when the entering circ water was 130 deg and the tank water was 146
+deg.  I'm guessing this would be some kind of asymmtotic (sp?) curve,
+giving me decreasing delta T's as the water gets hotter.  One nice thing
+about this device is that I don't need a pump...the water convects very
+well, since the element is a little well at the bottom - sorta
+percolates...go figure.  I can almost see the little water vectors curving
+up and down.  
+
+
+Here're my electrically-challenged questions:
+ -Am I going to burn out the dimmer?  Am I asking for a nice little
+electrical fire?
+ -I have another torchiere...if I hook up two 500W dimmers in series, do I
+get 1000W capacity?
+ -When I hook this thing up to my Johnson Controls temp controller (don't
+have the specs on it handy) am I in any danger of burning out my controller?
+ -Has anyone had experience, good and bad, with this set-up? (I did a search
+on the HBD for this, but only found sparging ideas for coffee makers)
+
+
+Yes, yes, GFCI, yeah I know...
+
+
+Greg McLane
+5 minutes east on Dexter, if I drive real fast and don't get stuck behind
+that geezer in the K-car, Apparent Rennarian
+    
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 09:34:49 -0600
+From: Bill Tobler <wctobler`at`sbcglobal.net>
+Subject: Re:  Whirlpooling and Wort Transfer Question
+
+
+Michael posted yesterday that he's having trouble "Getting the wort out"  as
+we sometimes say.  Using a drain valve in the kettle and pellet hops can be
+very frustrating.  They clog everything.  On top of that, most Polarware
+pots don't have threads inside to attach a pickup tube.  I think St. Pats
+has one made just for them with a swedgelock fitting inside and a pickup.  I
+was pretty upset with my Polarware pots when I first got them because of
+this.  I ended up tapping the inside hole to 1/4 NPT and installing an "S"
+shaped pickup tube with a Bazooka Screen on the end.  I quit buying pellet
+hops and only use whole and plug hops.  The hops settle out around the
+screen and filter most of the hot break.  No need to whirlpool. I have not
+had any problems sense I started doing this.
+
+
+That was how I brewed before I built my HERMS.  Now, I moved the Polarware
+pot to mash tun duty and use a Sanke keg for the kettle, with the same drain
+setup.  Valve, pickup tube and Bazooka screen.  The keg works good because
+the keg bottom is concave and the drain pickup tube is right down in the
+center and I leave very little wort behind.  My new kettle, still on the
+drawing board, is a 15 gallon Volrath Pot.  It has a flat bottom, and I'm
+not sure how I'm going to attack that one.  I'm thinking the basic setup
+will be the same, but the Bazooka Screen will be up against the wall of the
+kettle.  This way, when I'm pumping to the fermenter, I can wedge up the
+opposite end a little and get the very last drop, I think.  It will be trial
+and error as all new methods are.
+
+
+I've got lots of pictures if anybody wants to see.
+
+
+Bill Tobler
+Lake Jackson, TX
+(1129.7, 219.9) Apparent Rennerian
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 10:34:43 -0500
+From: Jeff Renner <jeffrenner`at`comcast.net>
+Subject: Re: extended secondary and bottle conditioning
+
+
+Greg Brooks <gbrooks`at`pgharts.org> writes from Pittsburgh, PA:
+
+
+>After 44 days in secondary will there be enough yeast still
+>in suspension for bottle conditioning?  Or, should I add more yeast
+>when I bottle?  I only ask because I know this yeast is supposed to
+>be very flocculant, unfortunately this is my first time using this
+>particular strain.
+
+
+This shouldn't be a problem unless the secondary has been warm enough 
+to harm the yeast, and I doubt that this is the case in Pittsburgh in 
+the winter.  Just be sure to slurp up some extra yeast from the 
+bottom of the secondary with the racking cane when you are 
+transferring to the priming vessel.  Then, since it is very 
+flocculant, stir it up a bit when you stir in the sugar solution to 
+break up clumps.
+
+
+I like to bottle very clear beer so there is a minimal layer of yeast 
+on the bottom of the bottles.  A layer of paint's thickness is my 
+aim.  This gives clear beer in the glass more easily.  We do, after 
+all, drink (and eat) with our eyes.  Since your yeast is very 
+flocculant, this should work well for you.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner`at`comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 08:02:38 -0800
+From: "Jim Dunlap" <jdpils`at`attbi.com>
+Subject: passivating stainless steel
+
+
+Greetings Beerlings,
+
+
+I am looking for some opinions on passivating stainless steel kegs.  I just
+cleaned my kegs on 2/20 and planned to brew on 2/25.  I scrubbed the kegs
+with a green scotch brite pad anad Barkeep's Friend (oxalic acid based.)
+Then did a 110 F 30 minute soak with 1.5 oz PBW per gallon of water and the
+same temp water rinse followed by cold water.  John Palmer's online info
+says it will take a week or two to passivate in air.  This other site I
+found says it is much faster http://www.sepha.com/stainless.htm.
+
+
+I am wondering if anyone has had negative results brewing so quickly after
+such a cleaning.  I usually scrub my kegs with standard dish soap and the
+green pad after brewing and have brewed the next day without any noticable
+metallic flavors.
+
+
+Thanks in Advance
+
+
+Jim Dunlap
+Woodinville WA
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 10:00:51 -0500
+From: "Stephen Cavan" <scavan`at`sprint.ca>
+Subject: V-wire spacing
+
+
+I am looking at placing V-wire in a mash tun, and my memory tells me that I
+should look for 3/32" gaps.  Is this correct? Is the spacing critical?
+
+
+Thanks,
+Steve
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 12:18:11 -0500
+From: "Martin Brungard" <Martin.Brungard`at`trow.com>
+Subject: Re: Mash heating and enzyme denaturing
+
+
+I agree that enzyme denaturing is a potential problem in some mashing
+systems.  I believe that Jeff Renner correctly points out that local wort
+overheating could denature the enzymes.  I have my observations and results
+that confirm this problem.
+
+
+I use an electric RIMS.  My heater is controlled with only an on/off switch.
+I have noticed a tendency for my brews to be underattenuated for about the
+past year or so.  My local homebrew shop switched to a grain mill with a
+finer grind at about that time.  I knew that my flow rate through the RIMS
+had become more limited with the change in the grind and I needed to be more
+careful with the application of heat.  I just didn't know how rapidly the
+wort temperature rises when the flow rate is low.
+
+
+I just modified my system to incorporate a thermometer probe at the heating
+chamber outlet.  The observations from that location were alarming.  The wort
+temperature could easily exceed 168F without manual toggling of the power
+switch.  I can say that I had not been toggling power so actively in the
+past.  
+
+
+My preference for my beers has been slanted to higher body and lower
+attenuation, therefore I have routinely used mashing rests in the upper
+150's.  My system has a thermometer probe at the wort outlet from my tun.  I
+had checked that thermometer for accuracy a couple of years ago and I checked
+it again last week.  It reads within a degree of the freezing/boiling temps
+when checked, so I'm satisfied with it.  The low attenuation had already
+caught my attention.  Low attenuation isn't a great concern to me, but there
+was a lack of clarity and "cleanliness" to my beers that needed correction.
+To correct the low attenuation, I had been using lower and lower mash
+temperature rests.  Unfortunately, the lower temp rests did not improve the
+attenuation.  The wort temperature results at the heating chamber outlet now
+explain why.  I had been denaturing my enzymes during mashing, ultimately
+limiting the conversion.
+ 
+It is now apparent that the wort temperature at the heating chamber outlet
+must be more closely monitored and the heat application throttled to match
+flow conditions.  The same thing can be said for an under fired mash tun,
+monitoring the wort temp under a false bottom and throttling the gas are
+probably wise.
+
+
+Now that my system has adequate temperature monitoring capability, I need to
+incorporate an infinite switch into my heating element circuit.  That will
+enable me to produce a limited wort temperature at the heater outlet under
+all flow conditions. 
+
+
+That advice to limit temperature rise is probably sage advice, but I think
+that incorporating the ability to monitor and control is the ultimate goal.
+
+
+Martin Brungard
+Tallahassee, FL 
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 12:26:12 -0500
+From: "Andrew Moore" <abmjunk`at`hotmail.com>
+Subject: Yeast Taste
+
+
+Mike:
+
+
+You asked about yeast taste in your cider. First of all, I am a fan of the 
+store-bought apple juice cider process; it's simple and yields a drinkable 
+beverage with very little fuss. I also experienced the yeast flavor you 
+described, especially when using Cooper's dry ale yeast. I have found other 
+yeasts to be less prevalent in flavor, i.e. Danstar's Nottingham (I think) 
+and Munton's ale yeast. My advice is to experiment with the different kinds 
+of yeast and give the cider some time to condition. After about four weeks, 
+the yeast flavor in the Cooper's batch diminished to an acceptable level.
+
+
+Andrew Moore
+Richmond, Virginia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 18:51:14 +0100
+From: "Dr. Pivo" <dp`at`pivo.w.se>
+Subject: various and sunder.
+
+
+A quick fly by with some commentary of late:
+
+
+
+
+>  It
+> wasn't Protestants or Catholics who blew up the WTC, was it?
+>
+
+
+Them pesky muslims. On the other hand, having been through the
+"Inquisition", it does sort of give you a balanced view.  Now, I'm not
+usually a "squeemish guy", but when that guy in the funny hat pulled my
+entrails out with a meat hook and stuck them in front of my face, I'll
+tell you right now that it nearly put me off my beer!!
+
+
+And I don't harbour a grudge against Catholics at all..... 'cept maybe
+the one who put the red hot poker up my  (*).
+
+
+
+
+> Dry yeast is a joke.  Let's not start that again.  If you're
+> brewing with it, you're the idiot
+>
+Probably worth mentioning that many VERY LARGE breweries and micros use
+dry yeast... and even myself have had many the occasion.  It's been kind
+of fun to banter tips on yeast care with those fellows, and see what
+lovely things can be produced.  I guess we'll call this "success of the
+collective moronics".
+
+
+George de Piro writes in same:
+
+
+
+
+>  I really don't
+> like the way filtration strips body and flavor from beer, so I fine most
+> beers with gelatin
+>
+
+
+I can't say if you're winning anything there with gelatin over
+filtration. I can say that they both (as well as modern polysyllabics)
+strip consumate ammounts of both from the product.  This has never been
+a tough one for me to show at blind tastings, including both filtration
+and gelatin..
+
+
+Commercial breweries (with the exception of German micros, where a pile
+of yeast and haze seem to be requisite for being considered "the real
+thing) do have to deal with clarity.  Homebrewers do not.  They can deal
+with flavour instead, and NO clarification method will improve it, and
+ALL will be detrimental. Simple as that.
+
+
+I'd make 2 brazen suggestions here. Anyone doubting the above can quite
+simply set up a blind tasting (why not "triangle" it? easier, and you
+get "statistics"!) with the "stuff in the buff" versus any method of
+clarification.
+
+
+Remember to serve in opaque containers.  This only turns out one way
+when I do it.  Why not engage your local brewclub for the tasting?
+
+
+For George and other Micro brewers, I'd like to pass on the following. I
+was at one brewery where they served a "lager" under one name (they used
+filtration), and served one called "Natural Cellar" on another tap, that
+had simply bypassed the filtration step (that is... did nothing).
+
+
+You might try racking off some before you dump the gelatin in.  This not
+only adds an extra tap at the pumps (which seems to be a sort of micro
+status, an unfortunate trend, methinks, as often many of the styles
+served can be way beyond the talents of the brewer, and I personally
+don't like to taste through "five" to find the one the brewer knew how
+to do), but the public gets a chance to educate their pallate as well.
+
+
+You're ALWAYS going to have to have star bright beer on tap, but I'll
+bet you'll find your regulars drifting to the more full bodied hazier
+version.
+
+
+
+
+> It is suggested in a
+> lot of brewing resources that you shouldn't raise your mash temp with more
+> than about 1 degree Celcius per minute, because otherwise the enzymes may
+> denature
+>
+
+
+The technique you describe is I believe called "buttoning" and the
+belief that it is necessary is what I believe is called "A Load of
+Crap".  As with so many things I lived with that kind of fear for many
+years after reading the smae sage advice as thou, until I finally said
+"HEY! When you decoct you BOIL a third of the stuff, and sometimes you
+can do that 4 times and still make beer!  I think we're talking a fair
+ammount of enzyme excess here!
+
+
+Since then, I first cautiously, and later brazenly wacked on the heat
+without stirring and learned the ammount of excess I had to get in the
+bottom, that made the whole come right with a quick stir after (ie heat
+on 6 minutes, quick stir, lid on. wait)  Know what? Total extract didn't
+change a whit.
+
+
+If you use a recirculating external heat source, you "could" run into
+problems, but I'm guessing that even there you'd get by.  If you're
+doing the standard "I've got a pot on my stove" brew, I'd file that
+under "things that people like to worry about, because thay have to have
+something to worry about".
+
+
+Dr. Pivo
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 13:06:12 -0500
+From: "Bob Hewitt" <rthewitt3`at`hotmail.com>
+Subject: RE: Whirlpooling and Wort Transfer
+
+
+Michael Fross asks about transferring wort from his 10-gallon pot into a 
+fermenter.
+
+
+Michael, I have just about the same setup, and I had the same problem until 
+I created a manifold based on this:
+
+
+http://www.bodensatz.com/staticpages/index.php?page=20020429190941604
+
+
+
+
+Instead of the riser to the top of the kettle, though, I made a big circle 
+that empties directly into the outlet port.
+
+
+I used 3/8 soft copper tubing, bent into a circle that fits into the 
+circumference of the pot.
+
+
+Next, I put a compression-fit copper T where the two "ends" of the circle 
+meet.
+
+
+Then I cut a small length of 3/8 copper tube and put it into the open "T" 
+port, and into the kettle's outlet port.
+
+
+Next, I drilled 3/32 holes on the BOTTOM of the circular tube, on the 
+half-circle AWAY from the port. My reasoning for hole placement is that the 
+tube would rise off the bottom as it got closer to the outlet, and I wanted 
+to keep the siphon going as long as possible.
+
+
+Last, I bent the circle so that the part with the holes rests on the bottom, 
+and the other half rises up to the outlet port level.
+
+
+So, I chill with an immersion chiller, give it a good stir, let the motion 
+stop, and run out through the valve. I get about 2 quarts of cloudy wort, 
+then crystal clear. I stop when it starts to cloud again.
+
+
+
+
+Bob Hewitt
+Cincinnati, Ohio
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 14:08:02 -0500
+From: Bill Wible <bill`at`brewbyyou.net>
+Subject: Re: Fruit Flavorings
+
+
+
+
+My own experience with fruit flavorings has been
+very positive.  The best cherry wheat beer I ever
+made was with cherry flavoring, and not real fruit.
+
+
+I've found the flavorings to be easier to use, and
+I've found they produce a flavor people like, for
+the most part.  But beer judges just don't seem to
+like them, as someone else said.
+
+
+I've sat with judges on fruit beers a couple times,
+and comments like "this doesn't taste natural" or
+"this tastes like something that was added afterward",
+"this is a phony flavor", etc have been pretty common
+comments from some judges that I've done fruit beers
+with.
+
+
+ 
+If you don't plan on entering the beer in a competition,
+its no big deal, the extracts are fine.  And all fruit
+beers violate the Rheinheitsgebot anyway, so it doesn't
+matter whether you use real fruit or fruit flavor
+extract from that standpoint.
+
+
+Other than using the flavorings, I've always read
+there are 2 ways to make fruit flavored beers using
+real fruit.
+
+
+The first says to break or cut the fruit open, and
+then boil it in the wort for the last few minutes,
+or do a long post-boil steep with the fruit after
+turning off the heat, much like you would with an
+aroma hop addition. I never tried this.  I thought
+the primary ferment would scrub away to much of
+the fruit flavor.
+
+
+The second says to add the fruit to the secondary
+fermenter.  This idea seemed to make more sense to
+me, because it seemed the yeast would have settled
+down at that point, and its more like "dry hopping".
+
+
+I've tried to make fruit beers a couple times using
+real fruit and the second method, but never got much
+fruit flavor doing that, especially in the one lambic
+I attempted.
+
+
+When I added fruit to the secondary, it seems to me
+the yeast went to work on all the sugars from the
+fruit, and washed away all the flavor.
+
+
+I used an ample amount of fruit for the recipe
+(Raspberries, for example, 7 lbs in a 5 gallon batch)
+and there was initially alot of fruit aroma, etc, but
+it seemed to fade and go away after a few days, and
+fermentation activity kicked up, too, after adding
+the fruit, which is why I say I think the yeast
+scrubbed out all the fruit flavor.
+
+
+Anybody used either of these 2 methods successfully?
+Does anybody use or has anybody tried potassium sorbate
+or one of the other chemicals winemakers use to prevent
+this? Does it seem like a good idea?
+
+
+Thanks
+
+
+Bill
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 11:27:04 -0800 (PST)
+From: Chuck Doucette <cdoucette61`at`yahoo.com>
+Subject: Stainless Passivation
+
+
+In HBD #4176, Mike Sharp talks about passivating
+stainless steel with hot nitric acid. This seems to be
+a non-eco-friendly process (read: not easy for a guy
+to get away with in his basement!) I have been doing a
+small amount of research in this area myself for
+similar reasons. In the on-line literature I have
+found so far, citric acid sounds like the way to go.
+It is reasonably safe, easy to get rid of (you can
+rinse it down the drain), and not to hard to get.
+Check out the folowing links for information and a
+source of citric acid.
+
+
+http://www.chemistrystore.com/Citric_Acid.htm
+http://www.ntscorp.com/scripts/test/test295.html?tstcat=89
+http://chemistry.about.com/gi/dynamic/offsite.htm?
+site=http://www.pfonline.com/articles/059905.html
+
+
+You may have to copy and paste the last address.
+
+
+Hope this helps.
+
+
+Chuck Doucette
+O'Fallon, IL
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 14:40:19 -0500
+From: Marc Sedam <marc_sedam`at`unc.edu>
+Subject: fruit flavor and lagering two beers
+
+
+I, too, have some issues with lagers in that people like to drink mine 
+and I never have enough supply.  One particularly interesting way I've 
+found to get around this is to...er...plan ahead.
+
+
+I usually let my lagers ferment for two weeks, then transfer to the keg 
+whether it's totally fermented out or not.  If it's not totally done, 
+it's often a day or two away.  In any event, I brew up another lager on 
+the day I plan to rack to the serving keg, and turn the temperature of 
+the fridge up to about 55F.  Transfer the first lager and rack the new 
+wort on top of the yeast cake.  After 24 hours at 55F, I turn the fridge 
+down to 50F (my lager fermentation temp) and hold for three days.  Turn 
+down to 45F and hold for three days.  Repeat until the fridge is back to 
+your lagering temps.  Raising the temperature helps start a 
+pseudo-diacetyl rest and improves the maturation of the first beer.  Of 
+course you can still drink it a bit warm.  Then both get cooled back 
+down to lagering temps and you have one beer ready to drink while the 
+other is lagering.  If you looooooove lagers, you can repeat this many 
+times.
+
+
+Someone else was discussing getting the "fruit" in fruit beers...
+A HB friend of mine once suggested priming your keg with a pound of 
+frozen-thawed fruit of the flavor that you want.  Put the fruit in a hop 
+bag and just serve when the beer is carbonated.  I never tried this but 
+he did say it worked.
+
+
+What I've done lately, with great success, is priming the beer with pure 
+fruit juice of the fruit flavor I want in the beer.  It's actually very 
+easy to calculate how much juice since the grams of sugar per serving 
+are right on the nutritional panel.  I did this same procedure with an 
+Apricot ESB, primed with a quart of Looza Apricot Puree (about $3.50). 
+ The original beer had no apricots in it, but the final product (after 
+the first few pints of Apricot Trub) has a very nice fruit flavor and 
+slight aroma.  After 2-3 weeks the flavors melded perfectly.
+
+
+For example, I just made a cherry witbier with a can of 100% cherry 
+puree from Oregon.  Nice beer...mild fruit flavor.  But I did find a 
+quart of 100% pure organic black cherry juice at our local Whole Foods 
+Market.  There are 132g of sugars in the jar, and I only need about 
+110g.  Enough for a glass left over prior to pouring it in the keg.  I 
+should have this delicious little number in the keg by next Friday.
+
+
+Cheers!
+Marc
+
+
+- -- 
+
+
+Marc Sedam
+Associate Director
+Office of Technology Development
+The University of North Carolina at Chapel Hill
+308 Bynum Hall; CB# 4105
+Chapel Hill, NC  27599-4105
+
+
+919.966.3929  (phone)
+919.962.0646  (fax)
+OTD site :  http://www.research.unc.edu/otd
+Monthly Seminar Info:  http://www.research.unc.edu/otd/seminar/
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 12:09:50 -0800
+From: Mark Beck <beckmk`at`whitman.edu>
+Subject: Re: saving yeast from pitchable tubes
+
+
+Steve Stanley was wanting info from my previous post (HBD #4174) about 
+saving yeast from pitchable tubes.  Since other people may be interested in 
+this as well, I thought I'd post the two offline responses that I got.  I 
+assume they won't mind, but I've deleted their names just in case.
+______________________________________________________________________
+#1
+
+
+I have split Wyeast tubes three ways and have split some just two.
+
+
+They have about 100 ml of solution so I try to estimate 30 ml into a 250 ml 
+flask of starter wort on a stir plate. You can see the volume in the tube 
+if you hold it up to a light source. Works very well. You just need a extra 
+few days to build a starter. Common wisdom says not to step up more than 
+10x on each step up. Using this method I can get three 10 gallon batches 
+from one tube. I usually brew about 3-4 different styles a year and don't 
+pitch on yeast cakes.
+
+
+It is a great compromise, 1/3 the cost, you can keep a few yeast types on 
+hand without the big hassle of yeast ranching. I don't brew in the dead of 
+winter so each spring I can start out with a fresh tube and I am good to go 
+for 30 gallons which is a lot of one style for me. I let Wyeast do the 
+difficult part...
+
+
+My homebrew shop is not happy about cutting my yeast costs by 1/3 and does 
+not carry tubes in the summer because of shipping difficulties or so he says.
+
+
+My biggest surprise was using my house brown ale yeast 1098 on Skot's B52 
+Honey Wheat. Totally different taste out of the same yeast. Great recipe if 
+you have not tried it.
+
+
+Go for it!
+____________________________________________________
+#2
+I haven't tried this with wyeasst, but have done it many times with white 
+labs tubes. I get my starter ready, open the tube and dump 1/2 of it out ( 
+I mark the tube at the 1/2 point with a sharpie before I open it). Quickly 
+replace the lid on the tube and dunk the whole thing in star san. I then 
+place the tube in a sanitized pint bottle and put the lid on it. When I use 
+the second 1/2, I flame the lip of the tube just to be certain. Never had a 
+problem. However, I don't do that anymore, I use Yeast Bank to save yeast. 
+Hope this helps.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 15:17:14 -0500
+From: darrell.leavitt`at`plattsburgh.edu
+Subject: Boil Gravity -> Original Gravity
+
+
+Do any of you fellow brewers keep track of the predictable differences 
+between your boil gravity and your final gravity?  I know that it assumes 
+a degree of standardization of practice, ie boil time being mostly the 
+same, etc......
+
+
+I have found that over the last 40 all-grain batches (since last March) I 
+have averaged 8 points in gain , ie from the boil to the original 
+gravity...so, for ex, a boil gravity of 1.050 should (for me) result in 
+1.058 final gravity...if I use mostly the same procedures...
+
+
+So my question is: does this match or come close to what others have 
+noticed?
+
+
+
+
+ ..Darrell
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 15:37:23 -0500
+From: MJHarper`at`adelphia.net
+Subject: Old grains and Guinness bottles?
+
+
+
+
+Hey folks,
+
+
+After a long absence I'm gearing up to start brewing again.
+I've got several kinds of grain still in sealed bags, in
+Tupperware, that has been stored in a cool dark cabinet in
+the basement for a few years now.  No issues of mold, or
+dampness or air infiltration of any sort.  I checked out one
+container today, and it seems as fresh as it was when I got it.
+
+
+Question is, under these conditions how long does UNcrushed
+grain stay viable?
+
+
+Try it and see what happens?
+
+
+Forget it, don't waste my effort and just toss it?
+
+
+Why even consider it?   Because it seems a waste to just
+pitch it, and it includes some nice Special B, Vienna Pale,
+etc.  Not just run of the mill grains.
+
+
+
+
+Next question:
+
+
+A friend and I were downing a couple of Guinness the other day and the
+question was posed "hey Matt, could you bottle a stout in these bottles and
+get the benefits of the widget?"  My response was "I dunno.... Maybe."
+First I'd be concerned about sanitizing the things, then I wonder, would it
+work?  Anybody tried it?
+
+
+Thanks much!
+
+
+ -Matthew
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 16:06:11 -0500
+From: McNally Geoffrey A NPRI <McNallyGA`at`Npt.NUWC.Navy.Mil>
+Subject: 2003 South Shore Brewoff - competition announcement
+
+
+
+
+  The South Shore Brew Club is pleased to announce our 8th annual
+South Shore Brewoff.
+
+
+  The competition will be held on Saturday, April 19th, 2003 at the
+Rock Bottom Brewery in Braintree, MA.  Entry deadline is Saturday,
+April 5th, 2003.
+
+
+  We have registered with the Beer Judge Certification Program (BJCP)
+and will be accepting entries in all 26 BJCP categories (including
+mead and cider).
+
+
+  Competition entry packages containing entry forms, bottle labels,
+judge/steward registration form, and other related information will
+be available soon from our club website:
+
+
+http://members.aol.com/brewclub/
+
+
+  If you have any questions contact Geoffrey McNally, the competition
+organizer, at mcnallyga`at`npt.nuwc.navy.mil or 401-624-3953.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 21:53:28 -0600
+From: "Patrick Hughes" <pjhinc`at`eriecoast.com>
+Subject: Re.Aroma Hopping
+
+
+I was suspicious of this added bitterness that George DePiro suggests is
+added by last addition hops while sitting in the kettle waiting to flow thru
+the C.F. chiller. I have been getting some overly bitter beers and was
+thinking this might be a contributing factor, but all the literature says
+otherwise.Since using the CF chiller I have been adding my aroma addition,
+letting them steep, then starting the flow thru the chiller. So my steeping
+time  is doubled and I still am not getting the desired aroma. I am confused
+about the $3.50 hop back though. If I stuff the hop filled sack into the hot
+wort and start the flow the hops are still in contact with the hot wort for
+a significant length of time as it takes about 20 minutes to run the wort
+thru the chiller. What about rinsing the hops with the cold wort as it exits
+the chiller . Is this not sanitary. Also isthe pole you use to stuff the
+hops into the hot wort pressure treated or not?
+Pat
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 22:26:28 -0600
+From: "Patrick Hughes" <pjhinc`at`eriecoast.com>
+Subject: Re.Energy Sources
+
+
+Hope I am not too far behind,on this one but I can never keep up on my
+reading. Dion responded to Rick about using household LP gas for his brewery
+and got me more confused. I put together my brewery [over 4 years now and
+still not done] in my new house excited about the prospect of using the
+propane that Iwould pipe thru the house for cooking and drying clothes
+anyway. I talked to my LP supplier and he told me that the gas they supplied
+to the house was of low pressure about 9lbsand would not work with a King
+Kooker type unit gecause they were designed for a much highr incoming
+pressure. So I bought a burner from BB&MB  that was designed for this
+application, it works ok but is not nearly as efficient as my other types
+that work off a 20 lb LP tank. Much soot production not as hot. If anyone
+were to use this unit I would suggest hard piping the burner with 1/2" pipe.
+The burner has a 1/2" orifice coming in, but the regulator that comes with
+it only has a 3/8" orifice coming out. I did end up trying my Camp Chef
+burnr on the household propane but it did not work well at all.
+Pat
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 21 Feb 2003 22:49:57 -0600
+From: "Patrick Hughes" <pjhinc`at`eriecoast.com>
+Subject: Stability test
+
+
+Tried the stability test Steve A. and Dean F. spoke of. Put wort sample in
+small jelly jar about  .5" of air space. Opened 72 hours later smelled and
+looked fine. Opened 12 hours after that smelled looked and tasted fine. Did
+I conduct this test correctly?
+Have been not able to achieve a good cold break,with the nice large clumps
+forming immediately after cooling, amongst other problems, so I set out to
+try and conduct a very regimented mash schedule, and boiling, cooling,
+trying to follow all the rules, brew day to clean up my act. StepMashed,
+[had been doing single temp infusuion to sparge out at 170] recirculated
+perfectly clear wort to boiler , full blown rolling boil with the lid off,
+threw in 1.5 t. just purchased Irish Moss ran thru C.F. chiller 60F. into
+fermenter. Perfect immediate cold break. What did I do right? Does Irish
+moss go bad? I had even done an all extract batch a few months ago to try to
+isolate what some of my problems were and still did not achieve a good cold
+break. Is it OK to leave wort sit overnight to rack off cold break material
+then pitch yeast. I thought I saw that Steve A. had said he did this?
+Patrick
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4178, 02/22/03
+*************************************
+-------

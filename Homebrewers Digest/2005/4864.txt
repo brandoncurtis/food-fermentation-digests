@@ -1,0 +1,869 @@
+﻿Date: Sat, 8 Oct 2005 00:13:37 -0400
+Subject: Homebrew Digest #4864 (October 07, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4864                             Fri 07 October 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Analysis of continuous sparge / Just what is "efficiency" anyway? (David Harsh)
+  rre: RE: continuous sparge analysis ("steve.alexander")
+  Re: Mash Viscosity (Chad)
+  Reading Kunze Carefully ("Dave Burley")
+  batch vs continuous sparge efficiency ("William Frazier")
+  Re: reply regarding analysis (Denny Conn)
+  My Efficiency problem.. fixed? ("Michael Eyre")
+  mashing and sparging, time and efficiency (Matt)
+  Kunze on batch vs continuous sparge efficiency (Bill Velek)
+  WLP099 Yeast? ("Dave and Joan King")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 7 Oct 2005 00:00:31 -0400
+From: David Harsh <dharsh at fuse.net>
+Subject: Analysis of continuous sparge / Just what is "efficiency" anyway?
+
+
+Greetings-
+
+
+In HBD #4863, steve.alexander wrote:
+> David Harsh <dharsh at fuse.net> writes:
+>>> "S/2 case":
+>>> Step 1: remove S/2 of the original mash water. <snip>
+>>> Step 2: After equilibrium, we again replace S/2 of the liquid.
+>>> <snip>
+>>> Drain: Finally we drain the (M+X-U) volume of liquid
+>>
+>> What is described here is a sparge process where the grain bed is
+>> continuously stirred
+>
+> No Dave there is no stirring.
+
+
+Of course not.  You cut out my words that said "analagous to a mixed 
+tank reactor".  The analogy is valid because you are assuming uniform 
+conditions within the grain bed.  In process engineering, the model is 
+assumed to be uniformly mixed.  So, if you include that assumption, 
+your calculations are accurate.  But there is no stirring, as you say.
+
+
+> Of course this simple model doesn't account for the concentration 
+> differences between the top & bottom of the grist bed, but with 
+> shallow beds I doubt this factor changes the outcome.   In fairness we 
+> should also point out that fly sparging extracts more from the top of 
+> the grist heap and less from the bottom, and suffers in comparison to 
+> the uniform extraction of batch.
+
+
+So you are saying that
+1.  there are concentration differences throughout the bed, but they 
+don't affect the modelling.
+2.  concentration differences throughout the bed produce an inferior 
+extract
+
+
+These are major assumptions.  #2, of course, is the reason the debate 
+exists to begin with.  It just seems ironic that the assumption that 
+caused the debate to begin with is contradicted by the basic assumption 
+of your model.
+
+
+> When we devolve to the point of voting on facts I'll keep your 
+> unsupported opinion in mind.  You'll be pleased to read that 
+> professional brewing texts disagree with your opinion.  My crude model 
+> disagrees with your opinion.  In fact no credible evidence has yet 
+> been presented supporting your opinion.    Support it with something 
+> thoughtful or talk to the hand.
+
+
+My unsupported facts?  Please.  Your crude model doesn't describe the 
+physical system accurately - so there's a lack of evidence all around.  
+Two major assumptions, equilibrium and uniform bed conditions, are made 
+and neither is supported.  Equilibrium isn't addressed and 
+concentration profiles are dismissed with the wave of a hand.  As I 
+have previously stated, a differential analysis of the bed is necessary 
+to accurately depict the physical picture and until I see a model that 
+accurately describes the real system, I will reject it as inaccurate.  
+Likewise for unjustified assumptions.
+
+
+The problem with your crude model is that as the amount of water added 
+and removed becomes smaller, the system describes (in exact detail) a 
+stirred tank reactor since you have imposed the uniform concentration 
+condition.  And yes, you derived the precise functional form for the 
+outlet concentration profile in response to a step change in input for 
+a continuous stirred tank reactor.  So 10 out of 10 for mathematical 
+rigor, but a big zero on picking the correct model for the process.  A 
+packed bed is not a stirred tank.
+
+
+Here's two issues that must be answered (i.e., proven to not be a 
+factor) if they are to be ignored:
+1.  If flow is very slow, equilibrium can be reached, but in that case 
+the term for axial dispersion must be considered.
+2.  If flow is very high, axial dispersion may be neglected, but then 
+equilibrium is not reached.
+        Source:  Hines and Maddox, Mass Transfer Fundamentals and 
+Applications, Prentice Hall 1985, Section 14.4
+(and of course, for the "in between" case, both must be considered)  
+And "flow" refers to rate of sparging.
+
+
+The quote from Kunze is interesting.  If there's data to support this, 
+by all means present it!   It contradicts all published chemical 
+engineering literature (such as Hinds), but I'd like to see the data 
+used to support the statement.
+
+
+But Steve, you also said in #4859:
+> under the
+> assumption that equilibrium is reached.  *If* you
+> sparge forever, then a continuous sparge collects
+> 5-7% more of the extract into the boiler.
+
+
+So, your model assumes equilbrium, yet disproves this?  What gives?  
+I'm assuming you had a basis for the 5-7% statement.  I find it 
+interesting that the megabreweries, who are known to obsessed with 
+maximum efficiency, don't batch sparge.  (I hear their yield is pretty 
+good.  I've also heard lots of comments on Budmilloors, but grainy or 
+astringent has never been one - and we should if continuous sparging is 
+really so bad.)  Sparging forever would imply time is not an issue - 
+but according to your quote from Kunze, that would make batch sparging 
+more efficient.  It can't be a matter of more sparge water volume, 
+because then you could get everything by any method.
+
+
+To prove/disprove either case, we'd need data to generate a 
+breakthrough curve for the bed to prove my point.  And we still lack 
+that equilibrium data required to run the calcs.  And I'm still not 
+sure what we'd learn that isn't already in the process literature.
+
+
+- -------
+That being said.....
+The whole discussion started on "efficiency" and I think that the 
+modeling details are a confusing the trees for the forest.  We could 
+consider "efficiency" to be any of the following:
+
+
+1.  Maximum extract from grain
+2.  Maximum extract obtained per time
+3.  Maximum extract obtained per fixed quantity of sparge water
+4.  Maximum extract per fixed quantity of sparge water per time
+5.  Minimum time (take first runnings and be done with it)
+
+
+In my system, where the typical batch is 10 gallons of a strong beer 
+(OG>1.070), my method stops (continuous) sparging when I have enough 
+wort at the proper gravity.  I gladly sacrifice efficiency, as time is 
+my most valuable commodity.  And I'll point out that Steve A. said he 
+routinely sacrifices efficiency for desired quality.  But for a pale 
+ale, I usually get very good efficiency and do not hear complaints 
+about graininess or astrigency from colleagues or judges.
+
+
+Dave Harsh                                                Cincinnati, OH
+Bloatarian Brewing League
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Oct 2005 07:05:11 -0400
+From: "steve.alexander" <-s at adelphia.net>
+Subject: rre: RE: continuous sparge analysis
+
+
+John Oswald states ...
+
+
+
+
+>>So when Steve Alexander describes the continuous sparge as
+>>"Now instead of draining this entire amount as in batch
+>> sparging...." What???
+>  
+>
+
+
+Right, in a continuous sparge one generally does not allow
+the free liquid level to drop below the top of grist-bed.
+If you do you may get a blocking compaction.  This is true for
+both commercial and HB practice (see Kunze quote).
+
+
+Not draining *any* of the head liquor is a unfair comparison,
+except that the result is clearly identical for both methods
+up to that point, and diverge according to the model after that
+point.  If you prefer, calculate this initial identical withdrawal
+from both, then substitute M', X' into the equations and get the
+same comparative result for the remainder.  Yes it reduces the
+advantage in percentage points or in extract mass, but it can't
+reverse the advantage of batch method.
+
+
+
+
+
+
+>>Steve's math starts correct but is complicated as written (an
+>>Excell spreadsheet is far less confusing).
+>  
+>
+
+
+I agree.   Someday we'll be HTML-ized.
+
+
+
+
+>>But his described
+>>"continuous" sparging technique is truly a worst case senario
+>  
+>
+
+
+No, it's hardly the worst case, but also not the best. I assume a
+static equilibrium for the extract gradient which is better than
+continuous can really achieve.  You see continuous liquor is initially
+at high SG and so there isn't much of an average gradient to extract
+the goods.  We do ignore an advantage of continuous which is that
+it is removing selectively higher gravity runnings from the bottom,
+but in the initial look it seems that this can only cause continuous
+to approach batch performance imperfectly and also slowly and never
+exceed it.
+
+
+If you want to argue the real batch advantage is only half as much
+as the simple model imples - you may well be right.  I don't see
+the advantage switching.
+
+
+
+
+>>Adding the sparge before the initial run is silly.[...]
+>  
+>
+
+
+So you'd prefer that I add more difficult to parse math in
+order to model region where both systems have identical
+performance ?
+
+
+I'm relatively pleased with the batch model, aside from diffusion,
+but continuous has numerous dynamical variables that make a
+full analysis quite difficult.  The point is NOT that this
+method is 4.7% less efficient than that one, but rather
+that the gross features of one method imply less efficiency
+than the other.
+
+
+Also - hopefully you'll recognize that these 5%
+type differences are pointless to the Brewer.  Who in his
+right mind would buy new sparging gear rather than tossing
+an extra 35 cents of grist onto the heap.  Continuous probably
+takes less time/effort  and could be more easily automated; 10
+minutes off your brew-day is worth more than 5% extra malt.
+OTOH a single batch sparge is very simple and is efficient
+enough for any HBer. 
+
+
+Also I'm an advocate of lower efficiency for better tasting
+wort, and I believe you should try to keep efficiency down
+to 75% or certainly below 80% ... advantage to continuous !
+
+
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Oct 2005 10:25:15 -0400
+From: Chad 
+Subject: Re: Mash Viscosity
+
+
+Marc -
+
+
+Very interesting post on viscosity.  Could you please clarify this statement:
+
+
+"  3)  Mash-outs are recommended for a couple of reasons.  First, it kills
+off the enzymatic action of the wort (mostly).  Why do we care?  If you
+want to "fix" the attenuation of the beer reproduceably, then you want the
+enzymes dead at the same time frame time after time.  Alpha amylase
+can still be a pretty active little molecule at high temps, and can affect
+the attenuation during the short time it remains active during the wort's
+way to boiling.  "
+
+
+What confuses me is what the enzymes would act upon.  I thought mashes
+were stopped when starch conversion was complete.  Are you saying that
+some ungelatanized starch will run through to the boil if no mash-out
+is done, and that alpha amylase will act upon those "run-through"
+granules when they gelatanize pre-boil?
+
+
+The other thing that confuses me is that you state that the
+gelatanization temperature for malt and corn generally doesn't exceed
+65 C or 149 F (I thought it was higher for raw barley, wheat, oats,
+etc., and that's why you buy flaked adjuncts).  So shouldn't the malt
+starch be gelatanized already?
+
+
+CT
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Oct 2005 11:10:16 -0400
+From: "Dave Burley" <Dave_Burley at charter.net>
+Subject: Reading Kunze Carefully
+
+
+Brewsters:
+
+
+Steve, Steve, Steve, why do you always try to make any discussion personal?
+I don't. This is not a battle, don't attack me, just search for truth. And
+quoting debating techniques with website references makes all your rhetoric
+appear silly.
+
+
+SteveA (and John Palmer copied me)quoted extensively from Kunze hoping to
+prove that continuous sparging was less efficient than batch sparging. 
+
+
+Sorry.
+
+
+If you read Kunze <carefully> you will see he is discussing doing a very
+<rapid> continuous sparge which we all know (or should because I always say
+this)is less efficient than a <slow> continuous sparge.
+
+
+How do I know this is what he is discussing? Kunze says:
+
+
+"Of course sparging is rather quicker if it is done continuously, but the
+yield is higher if two or three small small sparges are used because the
+sparge water then has more time to extract the spent grain contents." 
+
+
+Kunze goes on:
+
+
+"When time does not play an important role, because of the higher yield,
+sparging is performed in several steps [sja- batches]".
+
+
+
+
+Kunze says that the batch sparges he is talking about take longer than the
+continuous sparge. Batch sparging, according to Kunze, is used when the
+brewer has plenty of time. 
+
+
+Huh?  I thought the whole point (at least from my reading here)of doing a
+batch sparge was that it is faster than a continuous sparge. So Kunze is
+talking about doing a <rapid> continuous sparge versus a <leisurely> and
+possibly multi-step batch sparge. I agree he could be right under these
+conditions.  Kunze fails to explore all potential conditions of continuous
+sparging or is just commenting on applications in breweries using a rapid
+continuous sparge he is familiar with. 
+
+
+So there is no mystery here, just a mis-reading of Kunze without asking the
+proper questions about the conditions. Also Kunze notes that more and
+smaller, leisurely batch sparges produces a better extraction and SteveA
+notes that at infinity lots of little batch sparges become continuous
+sparging. I agree. 
+
+
+The logical deduction is, of course, that continuous sparging (if the
+equilibrium between the sparge water and the wort inside the grain is
+allowed to be established)is more efficient.
+
+
+Batch sparging is inherently less efficient at removing sugar from a mash
+than continuous sparging for the reasons I commented on before. But the
+condition, which I noted before, is that the sparge water comes into
+equilibrium with the wort contained in the grain. Steve notes that this
+could take an infinite amount of time but comments that in practicality it
+takes a few minutes and I agree. 
+
+
+So, slow continuous sparging (about an hour) will produce the best result,
+since in normal one or two step batch sparges, even done slowly, the
+specific gravity of the sparge water after the extraction will be higher
+than the sparge water at the end of a continuous sparge, indicating that the
+SG of the wort inside the grain is higher with a batch sparge and the
+extraction less effcient.
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Oct 2005 10:17:46 -0500
+From: "William Frazier" <billfrazier at worldnet.att.net>
+Subject: batch vs continuous sparge efficiency
+
+
+John Oswald writes "Adding the sparge before the initial run is silly. It's 
+like rinsing in
+the clothes washer before pumping out the wash water. Of course it will take 
+forever and be less efficient."
+
+
+I agree but some brewers take batch sparging to the extreme.  A friend does 
+no sparge brewing.  He adds all the sparge water to the mash and then just 
+drains the mash into the kettle.  Of course, it takes him twice as much 
+grain to end up with the same OG in the kettle as my continuous sparging 
+process.
+
+
+So far I haven't seen any real world examples of differences in the amount 
+of grain required to deliver the same starting gravity to the kettle, 
+regardless of how much potential extract remains in the grain bed, from 
+batch versus continuous sparging techniques.  Are there any good examples 
+out there?
+
+
+For batch sparging how many individual sparges are usually required, how 
+long do you let the individual batches of sparge water rest with the grain 
+before draining and how long is the entire sparging step?
+
+
+Bill Frazier
+Olathe, Kansas USA 
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Oct 2005 08:31:25 -0800
+From: Denny Conn <denny at projectoneaudio.com>
+Subject: Re: reply regarding analysis
+
+
+I appreciate all the scientific analysis, even if it makes my head spin and 
+takes me days to fully absorb.  But I'm a practical kinda guy...I try 
+different things and find out what works for me.  One thing I've 
+experimented with is differing rest times for the batch sparge 
+addition.  I've tried everything from 30 minutes, to stirring in the sparge 
+water and immediately recirculating and running off.  within the limits of 
+my ability to measure, I have found no difference in the gravity of the 
+sparge runoff based on length of rest.  Of course, I never discount the 
+fact that maybe I'm doing something wrong, but I've performed this 
+experiment maybe a dozen times and gotten consistent results.  Theory is 
+great, but experience always wins...
+
+
+         ----------------->Denny
+
+
+At 11:55 PM 10/6/05 -0400, you wrote:
+> > Therefore, IF one waits long enough to reach
+> > equilibrium batch sparge will be more efficent. But
+> > fly sparging may be more efficient if sparging is done
+> > before equilibrium is achieved.
+>
+>
+>Yes, exactly, but the "long enough" is apparently less than 15 minutes
+>per batch sparge rest.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Oct 2005 09:16:52 -0700
+From: "Michael Eyre" <meyre at sbcglobal.net>
+Subject: My Efficiency problem.. fixed?
+
+
+Hello all!
+
+
+This whole thing about brew house efficiency is fantastic. I know some
+are calling for an end to the 'discussion' before it turns into a brawl,
+but it really is informative to a lot of the rest of us, brawl or not. A
+lot of things to think of in here recently. 
+
+
+Anyway, I told you all I'd get back to you after the two beers planned
+for last Friday were completed using a new crush, as most of you pointed
+out that that is what appears to be my problem, based on the description
+I gave.
+Since we (me and my partner) were doing two beers side by side that day,
+we did two new types of crushes, one double rolled at .045 gap and the
+other grain was crushed at .065 for the first pass and .035 for the
+second pass. The grain looked remarkably similar, but perhaps the husk
+was slightly better intact on the second crush method. We used a
+rectangle cooler on the first mash and a converted keg on the second,
+both with slotted copper tubes for a filter. With the exception of a
+slight stuck mash on the second sparge (remember, we batch sparge!) that
+was easily fixed, there was no problem with either brew.
+
+
+In fact, we found record numbers and improvements in efficiency.
+Depending on who's doing the calculation, either me or my friend, we
+came up with either 77% or 81% efficiency for the Stout we made, and in
+the end didn't have enough room in the boiler to collect everything that
+might have been available for the beer. We had way too much wort in the
+boiler and had to stop there to boil. The Barley wine we made was
+difficult to calculate, so we're not sure what the efficiency was,
+because we didn't collect everything the grain had to offer for one
+beer, and in fact, ended up combining the grain from the stout mentioned
+above and making a mixture of mutant beer from the two of them. 
+
+
+In either case, the lauter was fine and our efficiency is now greatly
+improved. It was indeed all in the crush. Thanks to the lot of you who
+diagnosed this problem and helped us out from the dregs of 50%
+efficiency. 
+
+
+Mike
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Oct 2005 09:19:36 -0700 (PDT)
+From: Matt <baumssl27 at yahoo.com>
+Subject: mashing and sparging, time and efficiency
+
+
+As far as batch vs. fly sparging goes, I think a key point has been
+missed.  I think it was Steve who noted that either method can be used
+to extract TOO MUCH sugar from the grain (i.e. to oversparge).  So to
+me, the real question is "for a desired level of efficiency and
+attenuation, what is the fastest mash/sparge regimen that does not
+compromise the beer's quality?"
+
+
+Other people might seek the least complicated method or the one that
+requires the least attention, but probably a lot of us just want to
+minimize the time.  Especially those of us who brew in small apartment
+kitchens.  Here are some speed related ideas and my thoughts/questions:
+
+
+1. If Denny Conn is right, and we can run off batch sparges at full
+throttle, then I think batch sparging must be MUCH faster than
+continuous.  I have been running my nosparge batches off at about 1
+qt/minute, for no good reason, but if we can get away with going faster
+(still get good filtering and avoid a stuck mash) many of us would want
+to.  Can we really do this?  (I'll probably try, regardless.)
+
+
+2. According to references in posts by Steve in the past, beta-amylase
+activity is essentially gone in 45 minutes--or at most in an hour--at
+150F.  So why hold a 150F single infusion longer than that, unless you
+just want a bit of extra efficiency?  Assume we have a good crush.
+
+
+3. Suppose we run off the first batch after just 30 minutes, and this
+runoff takes 15 minutes.  I think it is true that most of the enzymes
+are in the liquid portion of the mash, and so when all of the first
+runnings are collected, they will be about as fermentable as they would
+be if you took the first runnings at 45 minutes.  True?
+
+
+4. Suppose you then want to do a batch sparge.  If you had run off the
+first runnings at 45 minutes, the remaining stuff in the mash tun would
+be about as fermentable as it can get (for a single infusion at 150F). 
+But you ran off at 30 minutes, thus depriving the mash of whatever BA
+was in those runnings for an average of 7.5 minutes.  Will this
+significantly affect the fermentability of the second runnings?
+
+
+5. Finally, how long do you really have to wait for the batch sparge
+water to extract, say, 90% of it's potential before you run it off?
+
+
+In most of these exponential-type processes, I like to clip the ends,
+and I'm sure I'm happier for it.
+
+
+Matt
+
+
+
+
+                
+
+
+
+
+------------------------------
+
+
+Date: Fri, 07 Oct 2005 13:51:33 -0500
+From: Bill Velek <billvelek at alltel.net>
+Subject: Kunze on batch vs continuous sparge efficiency
+
+
+In HBD #4863, Steve Alexander continued to discuss the differences in 
+efficiency between batch sparging and fly sparging, quoting Kunze, 
+"Technology Brewing and Malting".  The quoted comments by Kunze raise a 
+couple of additional thoughts in my mind; Kunze is quoted as stating:
+
+
+"...  Of course sparging is rather quicker if it is done continuously, 
+but the yield is higher if two or three small small sparges are used 
+because the sparge water then has more time to extract the spent grain 
+contents. ...".
+
+
+Isn't Kunze saying that fly sparging is faster?  I was under the 
+impression that batch sparging is supposed to be quicker, overall, than 
+fly.  I think that Denny Conn's page http://hbd.org/cascade/dennybrew/ 
+states this quite clearly, and I believe I've read it in other sources 
+as well, but Kunze seems to me to be stating the opposite.  Perhaps 
+Denny would care to comment.
+
+
+Kunze continues:
+"...  The limited mixing [sja- between batch sparges], and therefore 
+greater extract difference between the sparge water and the extract 
+solution contained in the spent grains, accelerates the washing out of 
+the extract (extraction)."
+
+
+I interpret Kunze's reference to "limited mixing" to mean "limited 
+stirring"; is that correct?  Denny Conn's site (above link) describes 
+batch sparging as including stirring: "... an addition of sparge water 
+is added.  This is stirred into the mash, allowed to rest for a few 
+minutes, thoroughly stirred again, ...".  Moreover, it would seem to me 
+that more mixing, as in actual recirculation in a RIMS, would logically 
+improve extraction due to something for which I don't have a scientific 
+label -- but it is essentially the same thing we see with "chill factor" 
+and making heat exchanges more efficient by stirring.  In addition, I 
+know that I have read somewhere recently that extraction is also due, in 
+some part, to "shear", i.e., mechanical movement within the mash, which 
+comes from stirring (or "mixing"?).  In fact, although I don't have a 
+RIMS, I have been under the impression that they are commonly used to 
+continuously recirculate the mash rather than just to step temperature, 
+and that at least part of the reason is to improve extraction.  So, what 
+is the answer regarding "mixing" or "stirring" -- assuming, of course, 
+that it is done without aerating the mash (don't want HSA).
+
+
+Kunze continues, "Both procedures are used commonly in practice. ..."
+For some odd reason, I've been under the impression that almost all 
+commercial breweries use fly sparging; is that not generally true?
+
+
+Incidentally, Denny's webpage indicates that "... extraction rates (for 
+batch sparging) ... range from slightly less to slightly more than fly 
+sparging."
+
+
+Cheers.
+
+
+Bill Velek
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 7 Oct 2005 21:31:37 -0400
+From: "Dave and Joan King" <dking3 at stny.rr.com>
+Subject: WLP099 Yeast?
+
+
+I couldn't get my normal American (Chico) yeast, so I got White Labs WLP099. 
+I've made an IPA (O.G. = 1.073, about 80 IBU) with a pint and an Imperial 
+Stout (O.G. = 1.083, about 90 IBU), racked onto the yeast in the empty 
+primary carboy from the IPA, both are still fermenting, and I mean they're 
+going to town!  The former is almost 2 weeks along, 1/2 of that in the 
+secondary.  The Imperial Stout is still in the primary, after a week.
+
+
+I'm getting ready to make an old favorite American Brown Ale, but I'm 
+getting concerned.  They claim 80% apparent attenuation, which is only about 
+5% higher than I'm used to with Wyeast 1056, but based on the activity I'm 
+seeing, I think it'll end up super dry, and my bittering levels will be way 
+too high for the malt sweetness left.  I usually get final gravities of 
+about 1.016 for the IPA, and 1.021 for the Imperial Stout, but this time, 
+I'll bet they'll go much lower.  I'm concerned I'll get 90% apparent 
+attenuation, or so, which will really ruin my balance.
+
+
+>From their website;
+WLP099 Super High Gravity Yeast - Supposed to ferment to 25% ABV, 80% 
+attenuation, With low gravity beers, this yeast produces a nice, subtle 
+English ale-like ester profile. As the gravity increases, some phenolic 
+character is evident, followed by the winey-ness of beers over 16% ABV. Most 
+fermentations will stop between 12-16% ABV unless these high gravity tips 
+are performed:
+
+
+Any experience with this yeast, suggested recipe corrections ?  TAT
+
+
+        Dave King, BIER, [396.1, 89.1] Apparent Rennerian 
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4864, 10/07/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

@@ -1,0 +1,1411 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA14878;
+        Tue, 16 Feb 1999 01:14:10 -0500 (EST)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA07525;
+        Tue, 16 Feb 1999 01:14:09 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.7/8.8.4)
+          id AAA31078 for realhomebrew; Tue, 16 Feb 1999 00:24:16 -0500
+Date: Tue, 16 Feb 1999 00:24:16 -0500
+Message-Id: <199902160524.AAA31078`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2955 (February 16, 1999)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #2955                             Tue 16 February 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Fermentation woes (Michael Pratt)
+  counterflow chiller design ("S. Wesley")
+  yeast under pressure ("Stephen Alexander")
+  unitap ("Thomas Kramer")
+  candi sugar (Dan Kasen)
+  Motors for Malt Mill (Joy Hansen)
+  Help (Joy Hansen)
+  Re: Dispensing from kegs without a CO2 bottle (Jim Larsen)
+  making candi sugar (Dan Kasen)
+  Rollmaster mill availability (John Mitchell)
+  ice cube momily & creamer tap ("C.D. Pritchard")
+  stirplate timer & O2 at kegging & brewery sink ("C.D. Pritchard")
+  The Dave Draper Report ("Rob Moline")
+  Temperature Controller (Joe KISH)
+  an extract brew, but i dare ya to try it ("Gradh O'Dunadaig")
+  Racking the lees. (Rod Prather)
+  "pulling the decoction": question (LEAVITDG)
+  yeast/alcohol tolerance ("Stephen Alexander")
+  Ooops (AJ)
+  Decarbonating (AJ)
+  re: Stir plates that are too hot (Jim Larsen)
+  Setup and solution to the CFC problem (part 2) ("S. Wesley")
+  Setup and solution to the CFC problem (part 1) ("S. Wesley")
+  New Millennium brews... ("Peter J. Calinski")
+  Correction to posted MCAB results (Louis Bonham)
+  Rochefort Yeast / Sensory evaluation (Nathan Kanous)
+  canned priming solutions ("Raymond Lowe")
+  Brew Kettles (Mark Garthwaite)
+  Hot water freezes faster? ("Eric R. Theiner")
+  Autolysis & Rousing ("ajphoto")
+
+
+
+
+Beer is our obsession and we're late for therapy!
+
+
+Enter The Mazer Cup! _THE_ mead competition.
+Details available at http://hbd.org/mazercup
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+Contact brewery`at`hbd.org for information regarding the "Cat's Meow"
+
+
+Back issues are available via:
+
+
+  HTML from...
+        http://hbd.org
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+COPYRIGHT for the Digest as a collection is currently held by hbd.org 
+  (Pat Babcock and Karl Lutzen). Digests in their entirity CANNOT be 
+  reprinted/reproduced without this entire header section unless 
+  EXPRESS written permission has been obtained from hbd.org. Digests
+  CANNOT be reprinted or reproduced in any format for redistribution
+  unless said redistribution is at absolutely NO COST to the consumer.
+COPYRIGHT for individual posts within each Digest is held by the
+  author. Articles cannot be extracted from the Digest and
+  reprinted/reproduced without the EXPRESS written permission of the 
+  author. The author and HBD must be attributed as author and source in
+  any such reprint/reproduction. (Note: QUOTING of items originally
+  appearing in the Digest in a subsequent Digest is exempt from the
+  above. Home brew clubs NOT associated with organizations having a
+  commercial interest in beer or brewing may republish articles in their
+  newsletters and/or websites provided that the author and HBD are
+  attributed. ASKING first is still a great courtesy...)
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 12 Feb 1999 22:07:23 -0500
+From: Michael Pratt <Michael.Pratt`at`Ottawa.com>
+Subject: Fermentation woes
+
+
+I guess it's time to break down and ask a question.
+I have been brewing all grain for almost two years. I have been buying my
+grain and hops from the same source. I have been using water from the same
+source and treating it with gypsum, burton salts and citric acid in the
+same fashion for most of the time.
+My problem is fermentation. I seem to live in a place where pH test papers,
+iodine tests and certified thermometers are either unavailable or way
+beyond the price I'm willing to pay. Therefore, I cannot accurately measure
+the values that my finished mash or wort would exhibit.
+This year my finishing gravities - for about 8 batches in a row have been
+over 1.020! I think something is wrong. Previously my FG's were in the
+range of 1.013-1.016. Sometimes I would get as low as 1.008-1.010 for a low
+OG beer with a particularly strong liquid yeast.
+My fermentation temperatures are 59-64F for ales; 54-59F for lagers. I have
+used Coopers and Munton & Fison for dry yeast; Wyeast 1098? British, 1056
+American and 2278 Czech. I have upped my sanitation practices with each
+batch (although I have never been lax with sanitation in the past). I have
+tried rehydrating the dry and pitching it straight into the wort. I have
+tried stepping up the liquid yeast to 1 pint, 1 quart and 1/2 gallon. I
+have even racked the cooled wort directly onto a yeast cake from a primary.
+I chill the wort and have never pitched above 68F. I have tried racking off
+the trub, and leaving it in. I have used yeast energizer. I have aerated by
+shaking and by using a nozzle and not aerating. I have tried stirring the
+yeast up after primary fermentation starts. I have purchased a carbon
+filter for my water.
+In all these 8 or so batches, I have not seen a vigorous primary
+fermentation as I used to. It always used to overflow. Now it never does.
+How can I realize my past experiences? How do I get my primary
+fermentations to be mor vigorous?
+
+
+HELP
+
+
+Michael Pratt
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 00:16:08 -0500
+From: "S. Wesley" <WESLEY`at`MAINE.MAINE.EDU>
+Subject: counterflow chiller design
+
+
+About two years ago I designed and built a counterflow chiller (CFC)
+for my home brewery.  I had a number of design constraints which I
+wished to satisfy.  I wanted to be able to chill 20 gallons in 10 min
+using the 12C water from my well which can be delivered to the brewery
+at a maximum rate of 5 gal per min.  As part of the process of trying
+to understand the design constraints of the CFC I developed a set of
+equations describing the temperature of the wort (hereafter beer-b)
+and water (w) as a function of position along the length of the
+chiller(L).  I am presenting the results here in hopes that they may
+be useful to anyone else interested in designing a chiller under
+similar constraints.
+
+
+These equations were derived using the equation for the rate of heat
+transfer which can be found in any introductory university physics
+text:   dQ/dt = kA(T1-T2)/d Clearly there is some difficulty in trying
+to apply this equation to the transfer of heat out of a fluid flowing
+though one pipe and into the fluid in another because of the poor
+ability of water to conduct heat away from the metal between the
+fluids.  Creating a turbulent flow will help to allieviate this
+problem somewhat, but not completely.  It is my contention that as
+long as the parameters involved in this discussion are not varied over
+too wide a range it is possible to compenstate for this problem by
+replacing the thermal conductivity "k" in the equation by an
+"effective k" of lower value which can be determined empirically.
+
+
+Here are the equations which describe temperature of beer and water as
+a function of position (x) from the beer inlet of a chiller of length
+(L).  Tb(x) = A + Be^(-(S-R)x)     Tw(x) = A + De^(-(S-R)x)     with
+B/D = S/R Here    S = kp/(wc(phimb))     R = kp/(wc(phimw)) with
+thermal conductivity (k), tube circumfrence (p), tube wall thickness
+(w), specific heat (c), and rates of mass flow ((phimb)&(phimw). k =
+385 W/(mK)  (expected value for copper) k = 4.5 W/(mK)  (effective
+value in my chiller) c = 4190 J/(kgK) p = .040 m         (for a .50" diameter
+tube) or more generally: p = 3.14 x .0254(m/in) x (diameter in inches)
+w = .0016 m        (for a 1/16 th inch wall thickness) or more generally w =
+ .0254(m/in) x (wall thickness in inches) (phimw) = the mass rate of
+flow in kg/s. in other words the number of kg of water (or beer)
+entering or exiting the tube per second.  This  can be easily
+calculated from the number of gallons per min as follows: phimw = (#
+of gal/min) x (3.79 litres/gal) x (1 min/60s) (1kg/litre)
+
+
+How can these equations be used to help design a chiller?  Suppose you
+have beer which starts at 100C (Tbi) which you want to cool to 20C
+(Tbo) using well water which is 12C (Twi). You want to pump beer at
+2.0 GPM and water at 5.0 GPM using .500 " diameter copper tubing.  How
+long should the chiller be? 1) Determine the output water temp (Two). 
+Two = Twi + (R/S)( Tbi-Tbo)  (44C for me.) 2) Solve for L.  L =
+ln((Tbi-Two)-(Tbo-Twi))/(S-R)    (S-R) =.13      (R/S) = .40 to get a
+chiller length of 15m or about 50 feet, which, coincidentally, is the
+length of my chiller. Just for reference A = 6.67C, B = 93.3C, and D =
+37.3C for my chiller operated under these conditions.  These will vary
+quite a bit from chiller to chiller depending on the design and
+operating conditons.
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 07:30:20 -0500
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: yeast under pressure
+
+
+Simon Wesley writes ...
+>[...] KARL thinks I'm an ASS
+Welcome to the club - it's not very exclusive tho'.
+
+
+>Does anyone have information from a reliable resource which discusses
+>the impact of pressure on fermentation?  Specifically, Is there a
+>point at which the fermentation activity of yeast will be
+>significantly impacted due to increased pressure, and if so when?
+
+
+'The Yeasts' Rose&Harrison, Academic Press London, discusses yeast under
+pressure as relates to wine fermentation with Saccharomyces Cerevisiae var
+Ovoidum.  At 3-4 atmospheres (45-60psi) yeast cease to grow, but continue to
+ferment.  At ~8 atm (120psi) yeast cease to ferment.  The higher pressures
+are used in the wine industry to stop fermentation.
+- --
+Andy Walsh kindly sent me three papers back in 1997 related to beer and
+pressure:
+
+
+1/ JIB 90, 1984, pp 81-84, "The Response of S.C to Fermentation under Carbon
+Dioxide Pressure"
+2/ JIB 98, pp 509-513, 1992, "The Formation of Esters and Higher Alcohols
+During Brewery Fermentation: The Effect of CO2 Pressure".
+3/ MBAATQ, 32(3), pp 159-163, "Regulation Mechanism of Ester Formation by
+Dissolved CO2 during Beer Fermentation".
+
+
+And several others that discuss CO2 levels vs esters w/o added head
+pressure.
+
+
+
+
+Paper 1/ from Heriot-Watt tests ale yeast under pressure ...
+
+
+At  >2atm(30+psi) the rate of fermentation, growth and fusel production
+declines and pH remains higher.  The effect on VDKs is variable, but except
+at very low temps, pressure causes the rate of VDK removal to be the same or
+higher than w/o pressure for LAGER yeasts.  For the ALE yeast under test
+(NCYC1108) the pressure increased the final level of VDKs.
+
+
+Low pressure (up to 0.2atm/3psi) enhances growth rate.
+0.3-0.5 atm(4.5-7.5psi) causes some growth inhibition.
+2.5-3.0 atm(37-45psi) prevents cell growth entirely.
+
+
+At 20C/2atm(28psi) the fermentation speed for the ale yeast was about 1/2
+normal, the final fusel levels were only 30-75% of normal (varying from
+fusel to fusel), the final pH was about 0.4 higher, and the final yeast cell
+count was about 25% lower.
+- --
+The second paper,from Delft U Biochem Engineering, test a lager yeast at 0,
+1.0 and 2.0 atm overpressure.  They show that the impact of overpressure on
+fusels is relatively small (5-10%`at`1atm, 20-40%`at`2atm) compared with the
+decline in yeast biomass(30%`at`1atm, 70%`at`2atm).  Ester level decrease is the
+same as biomass decrease at 2atm (70%), and the ester decline is even
+greater than the biomass decline at 1atm.(50% vs 30%).
+
+
+If you want to minimize esters with a modest decline in yeast growth for
+lager yeast, 1atm is about right.
+- --
+The third paper, from Suntory Japan, indicates that under pressure yeast
+have unusually low levels of acetyl-CoA.  At 1.5 atm the level stayed around
+30-40ugm/g, while in the control (no pressure yeast) the level peaked around
+90ugm/gm.  They showed that a precursor enzyme, pyruvate decarboxylase, has
+it's activity suppressed as the dissolved  CO2 level rises.
+
+
+AcetylCoA is critical to several aspects of growth and fermentation  - so
+growth inhibition and slow fermentation under CO2 pressure is suddenly less
+mysterious.  Also ester formation involves the interaction of acetylCoA, and
+alcohol and an enzyme.  If the free pools of acetylCoA are low - the ester
+production rate should decline.  Another mystery elucidated.
+- --
+See Andy Walsh's excellent note on ester formation at:
+http://hbd.org/brewery/library/EstFormAW0696.html
+for more details ...
+
+
+For my money an overpressure of ~1atm would make some sense for fermenting
+lagers at higher temps.  It's value is otherwise seems limited.
+
+
+Steve
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 08:41:08 -0500
+From: "Thomas Kramer" <tkramer`at`monad.net>
+Subject: unitap
+
+
+I went down to my local gas supply store to get a refill on my c02 tank.
+The guy told me about a new product that they (Merriam-graves a NewEgland
+Chain) sell for pushing beer out called Unitap.  It seems that Unitap in a
+mix of C02 and nitrogen, they say it's better then C02, it pushes beer
+faster longer distances with less foam.  I wonder if anyone has tried this
+product, or is it something that bars would use and not homebrews?
+
+
+tom Keene, NH
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 07:53:20 -0600
+From: Dan Kasen <dkasen`at`flash.net>
+Subject: candi sugar
+
+
+B.R. Rolya asked about making dark candi sugar.
+
+
+I have made dark candi sugar several times and I start out with brown
+sugar to make it.
+
+
+Dan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 08:45:43 -0500
+From: joytbrew`at`halifax.com (Joy Hansen)
+Subject: Motors for Malt Mill
+
+
+OK Badger,
+
+
+Here's the best advice I give out when Murphy isn't around to screw things
+up.
+
+
+Other home brewer friends have worried about how to motorize a malt mill to
+survive milling 30 pounds of malt without taking an entire day in advance of
+brewing.  Several friends bought high torque, geared motors specific for the
+purpose.  Most failed to have the flexibility and reliability needed for
+infrequent brewing sessions.  Sooooo, .  .  .
+
+
+I use a  10 year old Schmidling adjustable Malt Mill.  Unlike most home
+brewers, I set the center of the roller gap to 60 thousands.  Since this
+mill was designed (IMHO)   for hand cranking, the motor to use must have the
+same characteristics as the human hand.  I choose about 100 RPM as a
+starting point.  My human hand required frequent rests for 20 to 30 pounds
+of malt.  By chance, while I was at a Sears & Roebuck service center, I
+noted a refurbished 1/2 inch vari- speed/torque electric drill.  The unit
+cost about $40 at the time.  I hook it up to the drive shaft of the malt
+mill in the usual fashion, lock the speed trigger in the full on position,
+and slow the speed with the vari-torque knob.  When the malt starts through
+the mill, I adjust the vari-torque knob to near 100 RPM.   SMALL OR LARGE
+ELECTRIC DRILLS WHICH CANNOT BE OPERATED AT 100 RPM (imho) ARE NOT SUITABLE
+TO DRIVE A MALT MILL.   The Sears & Roebuck electric drill mentioned  is in
+use by at least two home brewers using the Schmidling Malt Mill.  It's
+operated perfectly over several years and dozens of milling sessions without
+over heating, gear failure, or shorting out.
+
+
+Different malts being of differing hardness and kernel size require the
+adjustability of the roller speed and gap.  IMHO the roller speed is the
+most important and easy to adjust if the roller spacing is in the ball park.
+My setup for the Schmidling mill is 60 thousands in the center.  The ends
+are possibly 40 and 80 thousands; however, I haven't taken the time to
+check.  Too high a speed and most two roller mills become grinders!  I don't
+know if there is such a condition where the speed could be too slow?
+
+
+My purpose in milling is to leave as much husk intact as possible and at
+least crack the malt kernel without producing mostly fines ( I still get a
+lot of fines).   So, I adjust the speed as different malts, wheat, caramel,
+chocolate, pale, etc. are milled.   I do all this to maximize the flow
+through my RIMS mash.  With Breiss Pale two row, I typically get 28 points.
+With DC Pale two row, I typically get 33 points.
+
+
+Again, this setup seems to work OK for me.  IMHO it will work for you.
+
+
+                               Joy"T"Brew with BURP (Brewers United for Real
+Potables)
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 08:59:59 -0500
+From: joytbrew`at`halifax.com (Joy Hansen)
+Subject: Help
+
+
+I'm using several controllers prepared by using the schematics in the Rodney
+Morris article published in Zymurgy Special Issue 1992, pages 49, etc.  I
+thought I had corrections to the publication; however, I can't find them.
+If you recall what the changes are, I'd sure appreciate the information.
+
+
+Thanks,
+
+
+                                               Joy"T"Brew
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 08:30:41 -0600 (CST)
+From: Jim Larsen <jal`at`oasis.novia.net>
+Subject: Re: Dispensing from kegs without a CO2 bottle
+
+
+
+
+Several people, most recently Phil Wilcox, have posted about this topic.
+I recall many years ago post in a three-digit HBD from a brewer who had
+moved to France and was unable to get a hold of CO2 kegging equipment. He
+conceived of a way to harvest the CO2 from fermentation in a corny and
+control the pressure using water pressure from the kitchen tap. Does
+anyone recall this scheme?
+
+
+Jim Larsen
+Ceverseria Alfresco
+Omaha, NE
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 08:47:33 -0600
+From: Dan Kasen <dkasen`at`flash.net>
+Subject: making candi sugar
+
+
+To make candi sugar see   You can Rock Candy
+
+
+Dan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 13:52:43 -0500
+From: John Mitchell <jlmitch`at`charlotte.infi.net>
+Subject: Rollmaster mill availability
+
+
+Back around the middle of 1998, I saw a mill advertised in Zymurgy which
+appeared to be a good mill.  It was called the Rollmaster Roller Mill and
+the web address given was www.highlander-brew.com.  I left the country for
+a while and when I came back I found the site is no longer around.  Does
+anyone know if they are still in business?  Has anyone tried one of these
+mills?  If so, was it worth the money?
+
+
+John Mitchell
+Gastonia, North Carolina
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 15:36:29
+From: "C.D. Pritchard" <cdp`at`chattanooga.net>
+Subject: ice cube momily & creamer tap
+
+
+Hot water won't freeze faster than colder water.  I think this old saw
+probably evolved when someone heard that the heat of fusion (the quantity
+of heat which must be removed to convert 32 degF water from liquid to
+solid) is 144 Btu/lb. while 142 Btu/lb. (a bit less) is required to drop
+water from boiling to 32 degF and brain-farted the old saw.  
+
+
+ - - -
+re: the creamer type taps:  I don't have bar type taps or the creamer tap-
+I use cobra taps instead.  After about filling a glass, if it needs more
+foam,  I tease the tap open just a bit to dispense a head of foam.  
+
+
+
+
+c.d. pritchard cdp`at`chattanooga.net 
+web site:      http://chattanooga.net/~cdp/  
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 15:26:36
+From: "C.D. Pritchard" <cdp`at`chattanooga.net>
+Subject: stirplate timer & O2 at kegging & brewery sink
+
+
+Philip J Wilcox <pjwilcox`at`cmsenergy.com> asked:
+
+
+>Electronic timers:
+>My stirplate... puts out too much heat to use
+>on an overnight basis. I was thinking of getting a timer to turn on and off
+>the electricity thus keeping it from getting to hot... Security light 
+>timers... only have one or two settings.
+
+
+Use a control intended for controlling an electric range surface element
+and splice it in series with the 120 VAC to the heater.  They control the
+heat by cycling the heater on and off with a varible duty cycle.  The one I
+use in with my electric boiler has about a 30 second or so total cycle time
+with the duty cycle variable from 10% to 100% (~3 to 30 seconds on time
+each 30 seconds).  New ones go for $10-$20 at appliance parts stores (mine
+is a 120 VAC model F16-713 from Johnstone Supply, $16.65).  For less cost,
+salvage one from a discarded stove.
+
+
+A cheaper and perhaps better option is to try a regular light dimmer.
+
+
+Do NOT splice in either type so it turns the stirrer on/off along with the
+heater- the relatively short cycle time or chopped voltage may cause the
+stirrer motor to overheat and maybe even burn out.
+
+
+ - - - 
+Rob.Green1`at`firstunion.com asked:
+ 
+>Does agitating cornelius kegs during forced carbonation may cause
+>oxidation? I was following a thread in the archive that hinted at that, but
+>never saw this issue put to rest.
+
+
+Was this gem posted with the orginal "hot water freezes faster" thread?
+:-)  If you purge the keg of air, there's no O2 to oxidize the brew.  I to
+purge after sanitizing by filling the keg (with disconnects and a hose
+attached to each disconnect fittings) with Iodophor, letting it sit then
+applying CO2 via the gas disconnect to force the Iodophor out the liquid
+line 'til the keg's "empty".  Since I have both dip tubes in my kegs
+whacked off, I shut off the CO2, connect the CO2 on the liquid fitting,
+invert the keg, and tilt so the gas disconnect is the lowest part of the
+keg (hint: drill a hole in the rubber keg base opposite the gas disconnect
+fitting so you can easily hang 'em this way) and apply CO2 to help force
+the Iodophor out of the gas disconnect.  Seal off both hoses, leave
+up-side-down for 5 minutes or so then open both to allow the residual
+Iodophor to drain out.  Leave ya with everything sanitized and very, very
+little O2 in the keg.
+
+
+ - - -
+Since there's been a bit of bragging on one's significant others... mine
+let me take over a spare bathroom for cleaning and storing brewing stuff.
+Which brings up a brain-fart for anyone planning a home brewery: use a
+fiberglass bathtube/enclosure as a sink but mount it on a raised base so
+it's at a height that'll save your back.  A storage cabinet as the raised
+base would be great.  Scratched/dented ones go for as little as $50 in
+these parts- hardly more than what a cheap plastic laundry sink will cost
+ya.  I've hooks attached to the walls of the our enclosure for hang wet
+stuff to drain like kegs and hoses as well as a bottle draining rack.  The
+enclosure contains all the drips and 3/4 of the spray one gets when a hose
+or tubing under water pressure gets away from ya :-).   
+
+
+c.d. pritchard cdp`at`chattanooga.net 
+web site:      http://chattanooga.net/~cdp/  
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 22:55:34 -0600
+From: "Rob Moline" <brewer`at`isunet.net>
+Subject: The Dave Draper Report
+
+
+                        The Dave Draper Report
+
+
+Dear Friends,
+
+
+Greetings after a long hiatus.  I've moved yet again, so that Dave in
+Bristol,then in Sydney,then in Dallas, is now Dave in Houston.  Got pretty
+much the dream job working with NASA, so now I'm going to be hobnobbing with
+the Foam Rangers, Mashtronauts, and KGB folks.  I'm writing from Rob
+Moline's hotel room near the end of the first MCAB, a couple of hours after
+the awards ceremony.  It's been a very good event, and Louis Bonham and all
+his crew deserve a lot of thanks for the excellent job done in organizing
+and putting on this great show.  I had the chance to finally meet Jethro and
+Spencer Thomas and Jeff Renner (who *can* be bought for $3.50-- I have the
+receipt) and George dePiro and Phil Wilcox and a whole bunch of others.
+Lots of great beer and good company, and the awards ceremony inside the St.
+Arnold's brewery where three of their beers plus a host of other local
+micros were on tap.  All I can say is that anyone who is within range should
+make an effort to attend next year's MCAB in St. Louis... I know I'll be
+there.
+
+
+Glad to see you all again.. here's Jethro.
+
+
+        Well, it's late `at` night and the fun has to end! Man, what a great
+collection of talent that was assembled for this event!    Clayton Cone,
+Chris White, Dave Miller, Paul Farnsworth, George Fix, Ralph Olsen, Chris
+Mueller, Spencer Thomas, Harlan Bauer, (who has to supercede me by a
+geometric level of intensity!), George dePiro.............it's been a
+situation where there simply are not enough hours in the day to hear that
+they all can say.....or that the attendees can absorb!
+
+
+        Anyhoo, we'll say g'day, and hooray....and be off like a piece of cheese!
+
+
+Cheers!
+Jethro Gump and Dave in Houston  (Who has the DREAM JOB!!)
+
+
+Rob Moline
+brewer`at`isunet.net
+
+
+"0.00 Miles From, And Two Floors Above (!!!) The Center Of the Brewing
+Universe, Jeff Renner!!"
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 11 Feb 1999 01:51:02 -0800
+From: Joe KISH <jjkish`at`worldnet.att.net>
+Subject: Temperature Controller
+
+
+To: Joy Hansen,
+   The RCA Data Sheet for the CA3059 (in the Rodney Morris temperature
+controller) says that the resistor on pin 5 of the CA3059 should be
+10K 2watt, and NOT 8.2K, as in the drawing. 
+
+
+ Does anyone else know about more corrections?  We would like to hear
+from you!   Has anyone made a printed circuit board drawing?   Is it
+available to the collective?
+      Joe Kish
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 22:14:30 PST
+From: "Gradh O'Dunadaig" <odunadaig`at`hotmail.com>
+Subject: an extract brew, but i dare ya to try it
+
+
+The Wrath of Gradh
+
+
+for 5 gallons:
+
+
+6# light syrup extract
+2# light DME
+8oz crystal 10
+8oz munich
+2oz columbus leaf (60 min)
+1oz eroica leaf (60 min)
+1oz cascade leaf (30 min)
+0.5oz cascade (10 min)
+1.5oz cascade (dry)
+
+
+OG. 1.060
+FG. 1.011
+
+
+THIS IS BEER!!!
+
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+
+
+
+
+------------------------------
+
+
+Date: Sun, 14 Feb 1999 03:38:05 -0500
+From: Rod Prather <rodpr`at`iquest.net>
+Subject: Racking the lees.
+
+
+Dave,  Wouldn't  this process encourage autolysis.  I thought autolysis was
+a situation where the yeast consumed the hulls of spent yeast.    An
+undesirable flavor in wine as well as beer.   It would be desirable to
+transfer a some of  the yeast cake but I question the wisdom of suspending
+all of the lees in the beer, er, barley wine.  As a matter of fact, I was
+always told to rack off of the lees to prevent autolysis.
+
+
+> For those of you who have been making high "FG" barleywines
+> try "dropping" the  barleywines two or three times during the early
+> part of the fermentation by racking the wines into other carboys.
+> Do not rack off the yeast, but transfer all of the contents from one
+> carboy to another.
+>
+>  If you have a large enough carboy, use a stirrer made of a dowel
+> with a new moon shaped blade which can rotate so that it can
+> be inserted into the carboy and removed. Coat it with
+> polyurethane and allow it to dry a week before using.Spin the
+> stirrer to stir up the yeast by rolling the dowel back and forth
+> using the palms of the hands.
+>
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 14 Feb 1999 08:37:25 -0500 (EST)
+From: LEAVITDG`at`SPLAVA.CC.PLATTSBURGH.EDU
+Subject: "pulling the decoction": question
+
+
+I read with interest to post about raising the mash to 149, then 
+pulling the decoction, etc...and have a question:
+I tried this by taking about 1/2 gallon out of a 4 gal batch, and boiled
+the whole thing (grain and liquid).  Is this ok, ? Or , is it better
+to try to get just the liquid?
+ ..Darrell
+<Plattsburgh, NY>...far from Jeff R, but glad we have email so as to keep
+up on his, and the rest of your posts to this digest.
+
+
+
+
+------------------------------
+
+
+Date: Sun, 14 Feb 1999 16:02:19 -0500
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: yeast/alcohol tolerance
+
+
+Rob - some comments on your 3 part post.
+1/ Wow ! Thanks.
+2/ Could you give a full citations ?  Was this from the MBAATQ, issue, vol
+?
+3/ My synopsis/comments follow - could you fill in some of the details as
+you
+  understand them ... especially figure 5 since this might be of
+   considerable practical value to HB high gravity brewers.
+4/ Reference 22 is ???
+5/ Did the paper give results for Sterol/UFA/FAN additions alone and in
+various combinations.  If so which appear to be most effective ?  I get the
+impression that added sterol isn't the issue, but FAN (what levels?) and
+certain unsaturated FA's are.
+===
+
+
+Brewing yeast can fully ferment high gravity wort with proper nutrition and
+reach 16.2% alc `at`14C/57F, high yeast viability, normal brewing periods.
+Wort must contain nitrogen supplements (yeast extract, FAN) and either
+sterol(ergosterol) + UFA(oleic fraction of TWEEN80) supplements.
+Fermentation then proceeds rapidly DUE TO INCREASED YEAST GROWTH, [not
+increased alcohol tolerance].
+
+
+O2 deficiencies can be overcome by either the addition of 24 ppm ergosterol
+with 0.24% (vol/vol) Tween 80 as a source of oleic acid OR by periods of
+oxygenation during the fermentation.
+
+
+[Both of these methods have potentially serious negative flavor/head
+consequences for beer.  Chronic human sterol intake around 1mg/day (~1.5
+fl.oz at 24ppm) can result in hypercalcemia with CNS consequences - so don't
+try this at home !]
+
+
+High gravity worts had insufficient FAN.  Levels of yeast extract (nitrogen)
+required can be drastically reduced by the use of an all malt base.(Fig 5).
+[Rob - can you tell us what is in fig 5 ?  This should indicate how much
+yeast extract is needed when brewing barleywines - no ?]
+
+
+Tolerance to the effects of ethanol on generation time, viability, and
+solute uptake are enhanced when C18:2 UFA [linoleic acid], rather than C18:1
+[oleic acid] was added.
+
+
+[C18:1(oleic acid), C18:2(linoleic) have 18 carbons, one and two degrees of
+unsaturation resp'y.  The unsaturated bond synthesis requires oxygen.  The
+statement above says than linoleic protects yeast from the negatives of
+ethanol.  Is linoleic+FAN the key to high gravity ferments ?]
+
+
+The early rise and then continued decline in fermentative power values has
+been attributed to an increase in the cellular levels of hexokinase activity
+by the buildup of intracellular ethanol levels with time(27).
+
+
+[hexokinase is an enzyme that starts off the fermentation process by
+converting various hexose sugars into their hexose-6-phosphate form.
+ATP(energy) and Magnesium ions are required.  The phosphated sugars have an
+inhibitory effect on the enzyme(regulation).  What is the impact of ethanol
+on this step ?]
+
+
+Yeast glycogen and sterols were found to differ considerably between
+anaerobic and semi-anaerobic conditions and on the nutritional supplement
+used.
+
+
+Glycogen - < 10%  semi-anaerobic, unsupplemented or supplemented
+                 ~30%   anaerobic fermentations [no supplement ??]
+                  10.5%  anaerobic, fully supplemented (fastest ferment)
+Sterol -       0.85-1.09% semi-anaerobic [w/o-with supplement?]
+                  0.27-0.56% anaerobic     [w/o-with supplement?]
+
+
+Sterols were not the limit of growth. [!!]  [Or else sterol >0.2% is
+required for high gravity/high ethanol growth.  Glycogen is an energy
+storage carbohydrate, so high levels result from non-carbohydrate growth
+limits (the energy would be used to grow if possible).]
+==
+
+
+The addition of sterol *appears* to be unnecessary. Among the UFAs linoleic
+is most effective than oleic.  Will oleic+FAN do the trick ?
+
+
+I still have doubts that UFA additions or mid-fermentation oxygenation will
+make a tasty beer, but this should add some weight to the idea of repitching
+healthy well aerated starters with FAN additions.
+
+
+Steve
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 12:58:58 +0000
+From: AJ <ajdel`at`mindspring.com>
+Subject: Ooops
+
+
+Yesterday I posted to the effect that clear water (ferrous) iron would
+oxidize copper. It is, of course, ferric (Fe+++) that oxidizes copper
+being reduced to Fe++ (clear water iron) in the process. Sorry about the
+goof.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 13:21:30 +0000
+From: AJ <ajdel`at`mindspring.com>
+Subject: Decarbonating
+
+
+Amen to Adam's comments about boiling as a means of decarbonation. The
+majority of homebrewers (those in the coastal regions) in the US will be
+unable to use it because their water isn't alkaline/hard enough. With
+less hard water when the precipitate forms, if it forms, it is so finely
+divided that it stays in suspension for ever i.e. it's very difficult to
+separate  the water from the precipitate. And, as Adam pointed out, you
+don't get all the alkalinity anyway. It is, however, extremely simple to
+measure alkalinity and hardness and thus residual alkalinity. Looking at
+Adam's post I'm not sure he means the same thing by "residual" as I do.
+I'm speaking of Kohlbach's Residual Alkalinity which is calculated by
+adding half the magnesium hardness to the calcium hardness, dividing the
+sum by 3.5 an subtracting from the alkalinity.
+
+
+The biggest disadvantage to boiling is that it requires heat. A
+commercial operation seldom use it for that reason. Addition of lime has
+the same effect, uses no energy (except that required to stir the mix),
+is safer, as effective and adds some calcium in cases where starting pH
+is low (i.e. residual alkalinity is reduced through bicarb decrease
+_and_ calcium increase). Boiling may be prefferable where
+chlorine/chloramine need to be eliminated as well as bicarbonate.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 07:28:31 -0600 (CST)
+From: Jim Larsen <jal`at`oasis.novia.net>
+Subject: re: Stir plates that are too hot
+
+
+
+
+You might try lifting the flask off the plate with a piece of bent coat
+hanger or the like. If this does not reduce the temp adequately, run a
+small fan, like the sort used to cool your PC, over the plate and under
+the flask. 
+
+
+Jim Larsen
+Ceveseria Alfresco
+Omaha, NE
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 09:15:15 -0500
+From: "S. Wesley" <WESLEY`at`MAINE.MAINE.EDU>
+Subject: Setup and solution to the CFC problem (part 2)
+
+
+Consider a slice of width (dx) located at some position x along the 
+chiller. The rate of heat transfer (Q is heat) is given by the 
+equation dQ/dt = [Tw(x) -Tb(x)]kp(dx)/W.
+The change in beer temperature (dTb) is related to dQ by the equation 
+dQ= dmC(dTb) and dt = dx/Vb. Here m is mass, C is specific heat and  
+Vb is velocity.  Putting all of this together gives:
+[(dm)(Vb)C(dTb)]/(dx) =  [Tw(x) -Tb(x)]p(dx)/W,  or 
+ (dTb)/(dx) =  [Tw(x) -Tb(x)]kp(dx)/[W(dm)(Vb)C] 
+the differential element of mass can be replaced by
+dm = (rho)[(Ab)(dx)].  Here (rho) is density and [(Ab)(dx)] is the 
+volume of the differential element of mass.  (I am making the 
+approximation that the densities of beer and water and the specific 
+heats of beer and water are the same).  Substituting and canceling 
+gives  (dTb)/(dx) =  [Tw(x) -Tb(x)]kp/[W(rho)(Ab)(Vb)C]
+The combination of (rho)(Ab)(Vb) is simply the mass flux or mass rate 
+of flow of beer through the system.  This combination can easily be 
+calculated from the flow rate in Gal/min using the equation in my 
+earlier post. So with (phimb) = (rho)(Ab)(Vb) The equation becomes: 
+(dTb)/(dx) =  [Tw(x) -Tb(x)]kp/[W(phimb)C]  By similar arguments 
+(dTw)/(dx) =  [Tw(x) -Tb(x)]kp/[W(phimw)C] the eqation for water 
+can be derived.  Let us simplify these equations further by making 
+the substitutions:  S = kp/[W(phimb)C] and  R = kp/[W(phimw)C
+(dTb)/(dx) = S [Tw(x) -Tb(x)] and (dTw)/(dx) = R [Tw(x) -Tb(x)]
+Fortunately, this system of coupled differential equations can be 
+solved by inspection.  
+
+
+The equations show that Tb(x) and Tw(x) have the same derivative 
+(except for a multiplicative constant) indicating that they are probably 
+the same function except for additive and multiplicative constants.  
+The function is therefore essentially proportional to its own 
+derivative indicating an exponential (decay in this case) function of 
+some sort.  Tb(x) = A + Be^(-Gx) and Tw(x) = C + De^(-Gx). Further 
+reflection tells us that A = C since additive constants will be lost 
+when differentiating the left side of the equation and they can only 
+be lost on the right if they cancel out in the subtraction.
+Tb(x) = A + Be^(-Gx) and Tw(x) = A + De^(-Gx)
+The value of the decay constant G can be found by differentiating the 
+two functions and substituting them into the differential equations.
+ -GBe^(-Gx) = S(D- B)e^(-Gx) and  -GDe^(-Gx) = R(D- B)e^(-Gx)
+canceling the exponential gives -GB = S(D-B)  and -GD = R(D-B)
+dividing the two equations gives  B/D = S/R and substituting gives 
+G = S-R.  
+
+
+The question most people want to answer when designing a CFC is "How 
+long should I make it?"  This can be answered using the equations I 
+gave at the end of my previous post. I suggest using my empirical 
+value of k = 4.5 W/mK as a starting point.  If you expect to run your 
+system a lot slower  you should probably reduce this value.   I seem 
+to remember that there is enough data in Pat  Babcock's comparison of 
+CF and immersion chillers at the brewerey website to get another 
+value of k for a slower flow system.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 09:15:14 -0500
+From: "S. Wesley" <WESLEY`at`MAINE.MAINE.EDU>
+Subject: Setup and solution to the CFC problem (part 1)
+
+
+The subject of the mathematical solution to the CFC problem shows up
+peoriodically on HBD and is just as regularly dismissed as  complex
+and therefore too difficult to solve.  In reality the method of
+setting up and solving the problem is accessible to anyone who has a
+basic understanding of calculus. Furthermore the solutions, once
+derived, can be used by anyone who knows how to use the exponential
+and natural log keys on a scientific calculator as I demonstrated in a
+post which is still in the queue at the time of writing.  In HBD
+#2954-7 Mike Swintosky suggests that the problem can be approached
+more simply by simplifying the copper layer between the two
+counterflowing fluids and he is right on target. One of the major
+problems with the solution to this problem is that it requires the use
+of a heat transfer coefficient which must be determined empirically. 
+One of the advantages of this is that is absorbs any errors introduced
+by approximations leaving an equation which has the right functional
+form.  What this enables you to do is understand how changes in things
+such as chiller length, (wall thickness??), tube circumfrence and flow
+rate will affect chiller performance in a reliable mathematical way as
+long as k does not vary too much as the other quantities (most notably
+flow rate) are varied. Now for the solution.
+
+
+Imagine two rectangular pipes of length L separated by a common 
+boundary which is a sheet of copper.  The sheet of copper has a 
+length L and a width p equal to the circumfrence (perimeter?) of the
+inner copper tube. The thickness of the sheet (W) is equal to the
+width of the tube wall.  One pipe of area Ab carries wort (hereafter
+beer-b) in one direction and the other of area Aw carries water in the
+other direciton. Let length along the tube be described by x and the
+temperature of beer and water at a particular point be described by
+Tb(x) and Tw(x) respectively. Beer will flow in from x=0 and water
+from x=L, so Tb(0) = Tbi (Temperature of beer in) and Tw(L) = Twi
+(Temperature of water in) Similarly Tb(L) = Tbo and Tw(0) = Two.
+
+
+
+
+------------------------------
+
+
+Date: Sat, 13 Feb 1999 22:37:35 -0500
+From: "Peter J. Calinski" <PCalinski`at`iname.com>
+Subject: New Millennium brews...
+
+
+
+
+
+
+
+
+>Hey, just a thought, if you are making a 'New Millennium' barley
+wine....it
+>will have plenty of time to age.  You will drink it in 2001.....
+
+
+>Year 2000 isn't the change of the millennium, 2001 is.  We started at year
+1,
+>not year 0....
+
+
+>Just a thought....
+
+
+Another thought.  Shouldn't the O.G. be 2.000 ?
+
+
+
+
+Pete Calinski
+East Amherst NY
+Near Buffalo NY
+0 Degrees 30.21 Min North, 4 Degrees 05.11 Min. East of Jeff Renner
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 08:17:21 -0600
+From: Louis Bonham <lkbonham`at`hypercon.com>
+Subject: Correction to posted MCAB results
+
+
+Hi folks:
+
+
+The results I posted yesterday had an embarrassing typo -- the winner in
+American Brown was in fact Chris Lavoie, and not Robert Acosta and & Pete
+Rodriguez.  In typing up the results Sunday after getting about 8 hours sleep
+over the previous 3 days, I just didn't proof it carefully.  (Cut and paste
+error in creating the winner list from the list of entrants.)  I've already sent
+an e-mail to Robert Acosta and & Pete Rodriguez apologizing for the snafu.
+
+
+Rest assured that the proper winner was announced at the MCAB on Saturday, and
+that I had 2 other people cross check my handwritten list of winners against the
+beer ID sheets before we announced the winners.
+
+
+Louis K. Bonham
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 08:42:17 -0600
+From: Nathan Kanous <nlkanous`at`pharmacy.wisc.edu>
+Subject: Rochefort Yeast / Sensory evaluation
+
+
+Hi Everybody!  I've got a starter of Rochefort yeast going.  One thing I've
+noticed is how dry this yeast finishes.  I made one previous batch using
+this (Wyeast 1762) and noticed how much more bitter this beer tasted than
+the IBU's would have indicated for a brew of such OG and FG.
+
+
+So, how does the dry finish of this yeast impact on sensory perceptions?
+What I'm really asking, is what charactersitics of beers meld well with
+this dry finish?  It appears that the bitterness of a given brew may be
+accentuated by the dry finish.  What about hop flavors?  Would a yeast with
+a dry finish go well in a beer with a relatively high level of finishing
+hops?  Is this yeast better suited to a really malty HUGE beer? 
+
+
+Kind of a strange question, but I've never been accused of being much else.
+ Any thoughts would be appreciated!  TIA....oh yeah, anybody brewed with
+this yeast got any experiences to pass along?  Thanks.
+nathan in Madison, wi
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 10:04:32 -0500
+From: "Raymond Lowe" <WRLowe`at`worldnet.att.net>
+Subject: canned priming solutions
+
+
+Brewers,
+    I have a question. I made priming solutions that I canned in the
+pressure canner. I did this in pint jars. I measured 4.5oz corn sugar to
+each jar and filled with water. Canned in the pressure canner for 15min at
+15lbs. pressure. Has anybody else tried this? I have used this in my last 2
+beers, and they seem a little sweet after conditioning.
+    Could this have caramelized in the pressure canner?They seem to have a
+slight tint to them. When mixed, before canning they were clear. I was
+canning wort for yeast starters when I got this idea.Thanks for the help
+Raymond Lowe
+Catawba, Virginia
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 09:36:09 -0600 (CST)
+From: Mark Garthwaite <mgarth`at`primate.wisc.edu>
+Subject: Brew Kettles
+
+
+
+
+Rodney asks of a source for a brew kettle for full-wort boils...
+
+
+        I've had good luck at restaurant auctions (restaurants that are
+going out of business).  They are few and far between but great sources.
+
+
+ -Mark
+
+
+Mark Garthwaite
+Madison, WI
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 10:56:16 -0500
+From: "Eric R. Theiner" <logic`at`skantech.com>
+Subject: Hot water freezes faster?
+
+
+We're getting far afield from beer, but I have a chip on my shoulder
+regarding people who refuse to examine the facts in preference of their
+own (possibly incorrect) beliefs.  Call it a side effect of conducting
+pure research for too long.
+
+
+This reference and abstract came from a web site that I suspect the
+naysayers ignored.  If anyone wants to challenge the subject statement,
+please argue with the research rather than resorting to vulgarities.
+
+
+Am. J. Phys., Vol. 63, No. 10, October 1995 Pages 882-885
+Supercooling and the Mpemba effect: When hot water freezes quicker than
+cold
+David Auerbach Max-Planck-Institut fur Stromungsforschung, Bunsenstrasse
+10, D-37073 Gottingen, Germany
+(Received 2 November 1994; accepted for publication 28 March 1995)
+
+
+     Temperature measurements taken near vessel walls show that
+initially hot water may
+     well begin to freeze quicker than cold. This is not, as previously
+surmised, due to the
+     cooling history of the water (e.g., air expulsion during heating).
+Rather, supercooling
+     virtually always takes place. On those occasions where the cold
+water supercools
+     sufficiently more than the hot the Mpemba scenario is the
+following: The hot water
+     supercools, but only slightly, before spontaneously freezing.
+Superficially it looks
+     completely frozen. The cold water (in larger volume than that of
+the hot sample)
+     supercools to a lower local temperature than the hot before it
+spontaneously freezes.
+     This scenario can occur more often for ambient cooling temperatures
+between -6
+     (degree)C and -12 (degree)C. (Copyright) 1995 American Association
+of Physics
+     Teachers.
+
+
+Rick Theiner
+LOGIC, Inc.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Feb 1999 10:54:19 -0500
+From: "ajphoto" <ajphoto`at`columbus.rr.com>
+Subject: Autolysis & Rousing
+
+
+What effect would rousing of the primary have on the
+flavor contribution of autolysis byproducts?  I sometimes
+notice lighter versions of the flavors mentioned though I
+never exceed two weeks in the primary even for Lagers
+and high gravity ales.  I often agitate the primary to lower
+F.G.  Is this increasing the flavor transfer?  I wait to be
+sure that there  is CO2 in the headspace before I rouse.
+
+
+A.J. Zanyk
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2955, 02/16/99
+*************************************
+-------

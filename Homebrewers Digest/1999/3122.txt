@@ -1,0 +1,1536 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id CAA13721;
+        Sat, 28 Aug 1999 02:05:19 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id CAA05972;
+        Sat, 28 Aug 1999 02:05:14 -0400 (EDT)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.7/8.8.4)
+          id AAA04017 for realhomebrew; Sat, 28 Aug 1999 00:30:09 -0400
+Date: Sat, 28 Aug 1999 00:30:09 -0400
+Message-Id: <199908280430.AAA04017`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3122 (August 28, 1999)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3122                             Sat 28 August 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Subscription probe completed (Homebrew Digest)
+  Most Common Calculations (David Sweeney)
+  attenuation ("St. Patrick's")
+  Brewing Techniques ("St. Patrick's")
+  Cleaning CPWC's (Nancy George)
+  yeast (Spencer W Thomas)
+  Re: Judging Inconsistencies (Spencer W Thomas)
+  pseudonyms ("Arnold Chickenshorts")
+  Re: Judging Inconsistencies (Pat Babcock)
+  are hops our obsession? (AlannnnT)
+  HBD and publicity ("Josh Hawkins")
+  Experience with White Labs Hefe Weizen IV (WLP380)? (Dave Humes)
+  Mint Choc.Stout, George Fix, and Windriver referral (James Jerome)
+  Re: How rude! (Steve Lacey)
+  re: Pivo inferno on NAT gas... ("John Stegenga")
+  re: mash mixer/evaporative cooling (Lou.Heavner)
+  Cereal Mash and HSA ("Alan McKay")
+  economies of scale (MVachow)
+  Re:Primary vs. Secondary Experiment (Matthew Comstock)
+  ethyl hexanoate ("Arnold Chickenshorts")
+  Beer in South Africa (John Roe)
+  cleaning cf chiller, copper tubing info ("St. Patrick's")
+  Peppery flavor in beer (MICHAEL WILLIAM MACEYKA)
+  My no-sparge experience/data series (Dean Fikar)
+  AHA Club-Only Mead judging postponement (Ken Schramm)
+  Cleaning CF heat exchanges, revisited... (Harlan Bauer)
+  re: Scottish Ales (Scott Murman)
+  homemade eisbock (Bryan Gros)
+  Re: High gravity follies (Matthew Comstock)
+
+
+
+
+* Beer is our obsession and we're late for therapy!
+
+
+* The HBD now hosts eight digests related to this and a few other hobbies.
+* The latest are the Gadgeteers Digest (gadget`at`hbd.org) and the Home
+* Brew Shop Owners' Discussion Forum (brewshop`at`hbd.org).
+* Send an email note to majordomo`at`hbd.org with the word "lists" on one 
+* line, and "help" on another (don't need the quotes) for a listing and
+* instructions for use.
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+Contact brewery`at`hbd.org for information regarding the "Cat's Meow"
+
+
+Back issues are available via:
+
+
+  HTML from...
+        http://hbd.org
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+COPYRIGHT for the Digest as a collection is currently held by hbd.org 
+  (Pat Babcock and Karl Lutzen). Digests in their entirity CANNOT be 
+  reprinted/reproduced without this entire header section unless 
+  EXPRESS written permission has been obtained from hbd.org. Digests
+  CANNOT be reprinted or reproduced in any format for redistribution
+  unless said redistribution is at absolutely NO COST to the consumer.
+COPYRIGHT for individual posts within each Digest is held by the
+  author. Articles cannot be extracted from the Digest and
+  reprinted/reproduced without the EXPRESS written permission of the 
+  author. The author and HBD must be attributed as author and source in
+  any such reprint/reproduction. (Note: QUOTING of items originally
+  appearing in the Digest in a subsequent Digest is exempt from the
+  above. Home brew clubs NOT associated with organizations having a
+  commercial interest in beer or brewing may republish articles in their
+  newsletters and/or websites provided that the author and HBD are
+  attributed. ASKING first is still a great courtesy...)
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 27 Aug 1999 09:51:58 -0400 (EDT)
+From: Homebrew Digest <hbd`at`brew.oeonline.com>
+Subject: Subscription probe completed
+
+
+Greetings, Beerlings! Take me to your lager....
+
+
+The recent subscription "probe" is complete, and the subscription list is
+now over 300 users leaner. Unfortunately, though, some of the errors
+returned that removed addresses from the list were ambiguous - they
+indicated permanent errors, but some looked like a services attempt to
+divert spam. If you find yourself reading the Digest on the web because
+you're suddenly not getting it in your mailbox anymore, simply
+resubscribe.
+
+
+And, please: if you are leaving a mail account, please, please, please
+unsubscribe from the HBD (and any other internet mail list you are
+subscribed to) first. This is a time-consuming process. If I automate the
+process, many would simply be dropped rather than have their addresses
+corrected. And the "personal touch" allows those whoare having trouble
+unsubscribing a little help, too.
+
+
+Cheers!
+
+
+The Home Brew Digest Janitorial Staff
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 15:44:49 -0500
+From: David Sweeney <David`at`stulife2.tamu.edu>
+Subject: Most Common Calculations
+
+
+Howdy All!
+
+
+I'm thinking about writing a brewing calculator program for the 3COM Palm.
+I've been using my PC for brew calculations, and it's not as convenient as a
+Palm application would be.
+
+
+So...I'm trying to come up with a set of the most common brewing
+calculations that we use.  There are many excellent calculators (many on The
+Brewery) that I can use for a standard. What I would like from the
+collective is your top 12 most useful brewing calculations and how you
+calculate them.
+
+
+For your hard work, I promise post my Palm brewers calculator application to
+The Brewery for all to use.
+
+
+Cheers,
+
+
+David Sweeney
+Texas A&M University
+David`at`stulife2.tamu.edu <mailto:David`at`stulife2.tamu.edu> 
+- --I'm learning big things
+- --David's 3 year old daughter
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 17:23:15 -0500
+From: "St. Patrick's" <stpats`at`bga.com>
+Subject: attenuation
+
+
+Attenuation
+The brewers who suggested attenuation is largely controlled by mash
+schedule would seem to be on the mark.  When Michael Jackson and I were
+visiting breweries in the Czech Republic earlier this month this issue came
+up in particular at Hostan Znojmo Brewery.  The brewery produces beer for
+export to Austria which is more fully attenuated than the beer for Czech
+consumption.
+
+
+Assorted photos of the Czech Republic trip on our web site.
+
+
+Lynne O'Connor
+St. Patrick's of Texas
+Brewers Supply
+http://www.stpats.com
+stpats`at`bga.com
+ 512-989-9727
+ 512-989-8982 facsimile
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 17:23:42 -0500
+From: "St. Patrick's" <stpats`at`bga.com>
+Subject: Brewing Techniques
+
+
+Brewing Techniques
+It is my understanding that BT is indeed out of business.  IMHO, Brewing
+Techniques was the leader of the homebrewer magazines over the past several
+years in advancing the hobby and they will be dearly missed.
+
+
+Lynne O'Connor
+
+
+St. Patrick's of Texas
+Brewers Supply
+http://www.stpats.com
+stpats`at`bga.com
+ 512-989-9727
+ 512-989-8982 facsimile
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 17:44:49 -0400
+From: Nancy George <homsweet`at`voicenet.com>
+Subject: Cleaning CPWC's
+
+
+Regarding the cleaning of CPWC's, National Chemical Co. makes a product
+called BLC (Beer line cleaner)it's actually designed to clean-in-place draft
+systems but I find it very useful around the homebrewery. Add 2oz to 5
+gallons of boiling water flush the entire amount through the chiller IN BOTH
+DIRECTIONS. Run it through, turn the chiller over and then run it through
+the other way. Follow with a 10 minute water flush. It's amazing the gunk
+that this strips out of the inside of that puppy!
+Nancy & George
+HomeSweet Homebrew                 
+2008 Sansom St. Phila PA 19103 USA       
+215-569-9469 215-569-4633 (fax)    
+homsweet`at`voicenet.com
+www.beerphiladelphia/homesweet         
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 19:39:41 -0400
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: yeast
+
+
+
+
+How many buds would a yeast cell bud if a yeast cell could bud buds? 
+
+
+Try that one three times fast. 
+
+
+:=)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 19:53:31 -0400
+From: Spencer W Thomas <spencer`at`engin.umich.edu>
+Subject: Re: Judging Inconsistencies 
+
+
+Unfortunately, the bjcp certification process is really only a start.
+
+
+It does not, for example, require that the judge quantify the amount
+of hop aroma in a test beer, or be able to recognize and distinguish
+Tettnang from Cascade hops, for example.  Some hop aromas come through
+smelling like other things to a less-experienced judge (for example,
+there is frequently a "fruity" aroma in German pilsners which is
+often from the hops.)  Or maybe one of the judges is a smoker, which
+can really throw off aroma perception.  I don't know.  Sounds to me
+like 2 out of 3 of the judges agreed that there was low hop aroma, but
+the third judge (the one who wanted more) wasn't reading the style
+guideline very carefully.
+
+
+Koelsch is a tough style to judge because most of us have never had a
+real one.  So we have to go by the words in the description, and not
+by some taste-memory.  It's a lot easier to do an Irish-style dry
+stout because we've all (presumably) had draft Guinness in the past
+and have some sort of reference to go on.
+
+
+Personally, I don't think that "medium but a little much for style"
+and "ok for style but a little thin" are "180 degrees" apart.
+Probably the two judges have a slightly different opinion of what the
+proper body for a Koelsch should be, and slightly different
+calibration points on "thin" vs "medium".  So one finds the body a bit
+large, and thus more than he thinks a Koelsch should have, while the
+other finds it a bit small, but close to what a Koelsch should have.
+
+
+One thing that I've found in judging is that we are most likely to
+disagree on the beers "in the middle".  The really bad ones are pretty
+easy to pick out, and the *really good* ones are also easy to pick
+out.  But the ones in the middle, from say 25-38 are where we're most
+likely to disagree on the particulars.  I recently judged a bunch of
+Koelsches for a local homebrew competition.  I don't know if one was
+yours (although I doubt it because there were only two of us on the
+panel).  We had a bunch of Ok to good beers, and then one outstanding
+beer.  There was absolutely no question about the one.  On the others,
+we had sometimes to discuss things to come to a consensus.
+
+
+=Spencer Thomas in Ann Arbor, MI        (spencer`at`umich.edu)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 18:21:21 PDT
+From: "Arnold Chickenshorts" <achickenshorts`at`hotmail.com>
+Subject: pseudonyms
+
+
+It has come to my attention that certain posters to this digest have been 
+using pseudonyms. I abhor this practice and insist it stop immediately.
+
+
+Arnold Chickenshorts
+
+
+
+
+_______________________________________________________________
+Get Free Email and Do More On The Web. Visit http://www.msn.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 22:16:04 -0400 (EDT)
+From: Pat Babcock <pbabcock`at`mail.oeonline.com>
+Subject: Re: Judging Inconsistencies
+
+
+Greetings, Beerlngs! Take me to your lager...
+
+
+Though some would argue that I don't take _anything_ seriously, there are
+a few things. Judging beers is one. Something I hold close when
+participating in a competition is that home brewers are not there for the
+judges. Quite the contrary: judges are there for the homebrewers. Spencer
+hits some of the points rihgt on the money in his post:
+
+
+> Unfortunately, the bjcp certification process is really only a start.
+> 
+> It does not, for example, require that the judge quantify the amount
+> of hop aroma in a test beer, or be able to recognize and distinguish
+> Tettnang from Cascade hops, for example.  
+> smelling like other things to a less-experienced judge (for example,
+> there is frequently a "fruity" aroma in German pilsners which is
+<snip> 
+> Or maybe one of the judges is a smoker, which
+> can really throw off aroma perception.  I don't know.  Sounds to me
+> like 2 out of 3 of the judges agreed that there was low hop aroma, but
+> the third judge (the one who wanted more) wasn't reading the style
+> guideline very carefully.
+
+
+This is right on the money. Those who have found my name on their score
+sheets will note that I rarely, if ever, try to identify a hop. I will
+comment on the aroma and flavor and it's applicability to the style, but
+I'm not not good enough yet to tell you beyond a shadow of a doubt that
+what hop you used. Sitting across from some top-notch judges over the
+last few years have taught me this. Yup, I agree with Spencer's analysis. 
+
+
+> Koelsch is a tough style to judge because most of us have never had a
+> real one.  So we have to go by the words in the description, and not
+> by some taste-memory.  It's a lot easier to do an Irish-style dry
+> stout because we've all (presumably) had draft Guinness in the past
+> and have some sort of reference to go on.
+
+
+Another on the mark. I have had a "real" koelsch. Thanks to a friend of
+mine who brought me some back from Cologne - fresh! - I have had several.
+The style definitions I have read do not fully match the meory of these
+beers. There is a lot in the description that is spot on, but there are
+things I see as missing. That the style guides, or my faulty memory? (I
+vote on the latter, but it's probably the former. How's that for
+fence-sitting?  ;-)
+
+
+> One thing that I've found in judging is that we are most likely to
+> disagree on the beers "in the middle".  The really bad ones are pretty
+> easy to pick out, and the *really good* ones are also easy to pick out. 
+> But the ones in the middle, from say 25-38 are where we're most likely
+> to disagree on the particulars.  I recently judged a bunch of Koelsches
+
+
+OH YOU HAVE NAILED IT. Though there is occasionally some discussion
+amongst the good and the bad. Particularly the good when there are a bunch
+of them, but this is usually just to separate the best of the flight from
+the rest of the flight. Minor point.
+
+
+> for a local homebrew competition.  I don't know if one was yours
+> (although I doubt it because there were only two of us on the panel). 
+> We had a bunch of Ok to good beers, and then one outstanding beer. 
+> There was absolutely no question about the one.  On the others, we had
+> sometimes to discuss things to come to a consensus. 
+
+
+Heh! I can attest to that. I was the other judge...
+
+
+Beer judging is a learning experience to me. With each session, I learn to
+identify more of the flavor components I find in beers, and, therefor I
+can do a better job of telling you about your beer. By doing a better job
+of telling you about your beer, maybe I'll tell you something that
+improves them and you take a ribbon in the next round (for all of you
+taking ribbons now, judging your beers is usually a privelege and a major
+part of the learning experience.)
+
+
+I think, for the vast majority of us out there judging beers, it is just
+that: an opportunity to learn more about beer and the hope that, through
+that learning, we might help a fellow homebrewer out of a rut. Most are
+not the ego-driven megalomaniacs I am - er - that some picture us to be...
+
+
+ -
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`oeonline.com
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org   
+The Home Brew Page                 http://oeonline.com/~pbabcock/brew.html
+   "Just a cyber-shadow of his former brewing self..."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Aug 1999 22:12:36 EDT
+From: AlannnnT`at`aol.com
+Subject: are hops our obsession? 
+
+
+Rod Prather wrote:
+
+
+>A few friends and I were talking about hops and it's relationship to
+>cannabis.  With the recent news that the actual addictive site of THC is in
+>the short term memory, we were wondering if there might be an addictive
+>compound in hops.  Has anyone read anything about this.
+
+
+Yes, the addictive compound attached to hops, is BEER, preferably homebrew of 
+course.
+
+
+Alan Talman
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 02:02:34 GMT
+From: "Josh Hawkins" <hutster31`at`hotmail.com>
+Subject: HBD and publicity
+
+
+Hey guys,
+
+
+Looks like the Brewing Techniques Magazine is on it's way out. Very sadly, 
+our favorite mag is at the printer, but is not gonna get printed.
+
+
+Swirling rumors involve bad news and personal problems for the publisher as 
+being at the heart of it all. Maybe someone out there wants to buy a 
+magazine?
+
+
+I wonder what that means for the publicity campaign.
+
+
+Robert Z
+
+
+
+
+
+
+_______________________________________________________________
+Get Free Email and Do More On The Web. Visit http://www.msn.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 99 00:40:43 -0400
+From: Dave Humes <humesdg1`at`earthlink.net>
+Subject: Experience with White Labs Hefe Weizen IV (WLP380)?
+
+
+Greetings,
+
+
+Has anyone had the opportunity to try White Labs Hefeweizen IV (WLP380)
+yeast yet?  I just did a split batch between it and the more common WLP300
+and got some surprising results.  WLP380 has a specified apparent
+attenuation of 73-80%, whereas WLP300 has a slightly lower range of
+72-76%.  The 10 gal, 60% wheat malt / 40% Pils malt split batch started
+with an OG of 1.054.  I do not directly pitch the White Labs yeast despite
+the claims of it being pitchable yeast.  Each tube was initially pitched
+into 2000mL of 1.040 sterile wort, allowed ferment out, decanted the spent
+beer, repitched again into another 2000mL of 1.040 sterile wort, allowed
+to ferment out, and on brew day decanted and fed 500mL 1.040 sterile wort
+5 hours before pitching.  The starters were each oxygenated with O2 prior
+to pitching.  The wort was also oxygenated.  
+
+
+Both 6.5 gal fermenters were kept in the same temperature controlled
+freezer at 65F.  Actual fermentation temperature runs a few degrees
+higher.  Both fermenters were actively fermenting 4 hours after pitching
+and high kraeusen was reached in about 15 hours.  Both fermentations were
+very vigourous requiring blowoff tubes in the beginning.  Both fermenters
+did blow off some yeast, but the most was lost from the WLP300 batch. 
+Eleven days after pitching, the WLP300 batch was  down to 1.013 and it had
+mostly dropped.  The WLP380 batch only made it down to 1.019 in the same
+amount of time and it had completely quit.  The   other night I racked the
+WLP300 batch off to a secondary carboy and  racked the WLP380 batch on top
+of the yeast cake from the WLP300.  Next  morning I was greeted with a new
+head of kraeusen and a bubbling airlock.
+
+
+Despite the poor attenuation performance of the WLP380, I really like its
+taste.  Here's the White Labs description:
+
+
+WLP380- Hefeweizen IV Ale Yeast: 
+
+
+Large clove and phenolic aroma and flavor, with minimal
+banana. Refreshing citrus and apricot notes. Crisp, drinkable hefeweizen.
+Less flocculant than WLP300, and sulfur
+production is higher. 
+
+
+Attenuation: 73-80% 
+
+
+Flocculation: Low. 
+
+
+Optimum Fermentation Temperature: 66-70F.
+
+
+
+
+- --Dave
+
+
+- -- 
+- -----------------------------------------------------------
+Dave Humes <humesdg1`at`earthlink.net>                  Dave Humes
+- -----------------------------------------------------------
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 01:15:33 +0000
+From: James Jerome <jkjerome`at`bellsouth.net>
+Subject: Mint Choc.Stout, George Fix, and Windriver referral
+
+
+Hi Ya'll
+
+
+I just purchased ingredients today ingredients for my forthcoming mint
+chocolate stout at my local homebrew shop.  As usual, I bought more
+stuff than I needed.  So now I am ready to make stout, IPA, and a batch
+of barley wine, can't wait.  I also was ale to purchase the last two
+bottles of Thomas Paine Ale extant, luckily refrigerated until my
+purchas.  Pretty good stuff.   
+
+
+My thanks to Lois Bonham's post concerning George Fix's comments on
+icebrew.  I have the paatent on order and, yep, it is a Labatt's patent.
+They earned it so give 'em credit.  Based on the sincere admonitions of
+of Alan Meeker and others, I have ordered all (yep, all) books wth
+George's name as author.  I am tired of not having read what everyone
+else has read.  I am apparently on the list of pre-paid customers
+waiting on the second edition.  I have had to switch to Amazon. com b/c
+my local bookseller apparently pulls major vacuum (He sucks).   George,
+I still say Go Tigerss! if you are out there.
+
+
+Rob Wallace's positive comments abut "Windriver" are indicative of my
+need to give them some business.  Once my wife gives methe budget go
+ahead, I plan to order.  By the way, Northern Brewer and Cellar
+Homebrewing are my recommendations for mail-order.  They are good,
+accurate, and efficient (I still have much business for them).  A
+positive customer report sort of pushes me to support  them.
+
+
+To Brew or Not to Brew is not the question, the question is how much and
+is it ready yet?
+
+
+Hoppily,
+
+
+Jett Jerome
+Ooltewah, TN
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 16:17:35 +1000
+From: Steve Lacey <stevel`at`sf.nsw.gov.au>
+Subject: Re: How rude!
+
+
+Pat prudishly wrote:
+>AJ expresses some gas in his dissertation, and then doesn't even have the
+>common courtesy to excuse himself:
+
+
+>> I was best at the conclusion of a master judging course run by my club
+>> (BURP) where we had practice judging sessions every week for a couple of
+>> months. 
+
+
+>You see it? Right there! How rude! AJ: this is _not_ a common barroom!
+>Please excuse yourself after belching! I'd rather prefer you waited until
+>after you had finished speaking before doing so. What's next?
+>Flatulence in the forum? Harumph!
+
+
+I for one have no problems with AJ's personal habits. At my weekly BRRT
+sessions (that's Brewing Related Relaxation Therapy) we are taught that
+bodily functions are not something to be embarrassed about. BRRT sessions
+are founded on the cost-effective PARP (Parsimonious Alcohol Relaxation
+Program). There are four over-riding principles to PARP. These are that
+alcohol is for Pleasure, Healing, Health and Truth (PHHT). Sometimes BRRT
+sessions become quite raucous as we BRRT, PARP and PHHT our way to nirvana.
+AJ would be quite at home in one of our sessions (BURP, 'scuse me!). Pat, on
+the other hand, with his prudish ways, is in desperate need of some BRRT and
+PARP therapy as a matter of some urgency.
+
+
+I mercifully choose to end this post now.
+
+
+Steve Lacey in Siddley
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 07:20:28 -0400
+From: "John Stegenga" <bigjohns`at`mindspring.com>
+Subject: re: Pivo inferno on NAT gas...
+
+
+In the 8/27 HBD ThomasM923 wrote:
+
+
+>Date: Wed, 25 Aug 1999 23:26:51 EDT
+>From: ThomasM923`at`aol.com
+>Subject: Burn Baby, Burn...Pivo Inferno...
+>
+>Oh, did I mention that I want to connect the burner to my house gas supply
+>(natural gas)? How does one go about this? Black iron pipe all the way up
+to
+>the burner? What kind of valve? And...
+
+
+Hey, I can contribute here!  Cool!
+
+
+Home Depot carries, in their gas grill section, a Natural Gas quick connect
+conversion kit for about $40.  It consists of a QuickConnect valve and a
+12ft hose.  If you have a stub (you should have a T with a capped short
+lenght of iron pipe after the shutoff that goes to your furnace) you attach
+a 1/2 to 3/8 brass flare coupling here - dope the pipe threads with that
+plumbers dope stuff - and then attach the quick connect to this.  Make sure
+you turn off the gas somewhere BEFORE the stub prior to trying this.  Test
+the whole deal for leaks.  Then hook up the hose to the burner input (where
+you'd attach the propane regulator hose) and then to the quick connect.
+Turn on the appliance and fire it up!  You cannot use 'jet' or 'high
+pressure' propane devices on a NAT line.  Usually this means burners rated
+around 35Kbtu or less are available to you.  Contact the manufacturer if you
+have doubt.
+
+
+DISCLAIMER/NOTE:  I'm not a plumber or a gas engineer.  Use of these
+instructions is at your own risk.  If you don't want to risk blowing up your
+house, get a plumber to help you.
+
+
+NOTE 2:  You're going to reduce your output by 20/25% here because a low
+pressure propane device gets fuel at a slightly higher pressure than the
+1/2psi on your NAT feed, and because of other things I can't remember.  I do
+know that some devices you can drill the orafice (where the gas shoots into
+the burner) out a little to increase the btu's.  Again - see the disclaimer
+and contact the manufacturer for details!
+
+
+John
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 08:05:57 -0500
+From: Lou.Heavner`at`frco.com
+Subject: re: mash mixer/evaporative cooling
+
+
+     From: "Dana H. Edgell" <edgell`at`far-tech.com>
+
+
+     #1
+
+
+     I have an ice-cream motor and a fan blade that I am attempting to use
+     as a mash-mixer. The problem is that the motor goes clockwise and the
+     fan blade is counter-clockwise which results in the mash being pulled
+     up from the bottom by the mixer. {Snip}
+
+
+         LWH>>>>Anyway you could mount the shaft to the other (outboard)
+                side of the fan blade unit?  weld? clamp?  That seems way
+                too  obvious, so it probably isn't possible, but it seemed
+                worth asking.
+
+
+     #2
+     All the disccusion about evaporative cooling has me thinking about
+     some brass & stainless steel nozzels I have for a mister. They have a
+     0.012"/0.3mm orifice and a flow rate of 0.540 gal/hr `at` 45psi water
+     pressure.
+
+
+         LWH>>>>Check out http://www.texasgardener.com/ and look for an
+                article in the July/Aug 99 issue where they do that in a
+                garden.  I have used a spray bottle and squirted the sides
+                of the kettle  for faster cooling when I'm there.  Usually
+                chilling is unattended while I do ther things like feed the
+                kids.  ;)
+
+
+     {Snip}
+
+
+     I have noticed that my carboy t-shirts aren't the most effective at
+     sucking up water and dry out near the top. A mister could keep the
+     t-shirt wet. The mist could also keep my entire garage cooler and
+     help that way.   {Snip}
+
+
+
+
+         LWH>>>>I too find that unattended t-shirts will dry out at top.
+                ****QDA**** I suspect that a polyester t-shirt or synthetic
+                material in general will wick better.  This is based on the
+                common wisdom/momily of skiing that orlon socks are better
+                than cotton because they will wick more moisture away from
+                your feet keeping them dryer.  **** END QDA****  Do you
+                ferment outdoors in the garage?  Wow! my garage is
+                currently running about 110 DegF with the door open, don't
+                think any evaporative cooling is going to help me there!  I
+                ferment ales in a plastic pail using the t-shirt.  It has a
+                flat top, so what I do instead of spraying, is put some ice
+                cubes on top and let them melt and drip down the sides.
+                Keeps from having to replace as much water in the pot.  I
+                do get a lot of evaporation, but I've never measured it.  I
+                add about 6-10 ice cubes before and after work and still
+                add water once or twice a week to the cooling water
+                resevoir.  The neat thing about this is the cooling water
+                temp remains more constant than when adding ice to it
+                directly and you still get to take advantage of the heat of
+                melting, albeit indirectly, as well as the heat of
+                vaporization.  Phase changes always result in more heat
+                transfer than small temperature differences.
+
+
+     Cheers!
+
+
+     Lou Heavner - Austin, TX  home of the Lagniappe Brewery... something
+     extra in every sip!
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 09:31:51 -0400
+From: "Alan McKay" <amckay`at`nortelnetworks.com>
+Subject: Cereal Mash and HSA
+
+
+
+
+I find the best way to avoid HSA is simply to ignore all the dire warnings
+and the doom-and-gloomers.  I regularly dump half my 12 gallon mash
+from my kettle to the lauter-tun, and have never once had a problem.
+
+
+To quote Dr Pivo, "let's put HSA to BED" ;-)
+
+
+Or you can just take a 4 quart (4 litre) Pyrex measuring cup and scoop
+out the Cereal Mash a bit at a time, and add to your main mash like that.
+
+
+cheers,
+ -Alan
+> about personal survival rather than hot-side aeration problems. How do you
+add 
+> the cereal mash in without a) serious burns, b) serious HSA, and c)
+serious arm 
+> strain ? Any serious (or non-serious) suggestions welcomed. 
+
+
+- --
+Alan McKay
+OS Support                        amckay`at`nortelnetworks.com
+Small Site Integration        613-765-6843 (ESN 395)
+Nortel Networks                All opinions expressed are my own
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 08:37:03 -0500
+From: MVachow`at`newman.k12.la.us
+Subject: economies of scale
+
+
+Marc Sedam points out the hypocrisy in supply shop owners' complaints about
+their wholesalers using the same business tactics they themselves employ on
+the retail end.  I would add to his remarks my own guess at the sub-text of
+Wyeast's tactics, namely, that Wyeast sees the writing on the carboy, as it
+were:  the homebrewing fad has peaked out and is currently headed down the
+steep part of the curve.  Soon enough there simply won't be enough business
+for a Wyeast and a White Labs and certainly not for the few other smaller
+yeast operations.  So, they're trying to lock down their retail business,
+probably doing the same with their commercial customers in hopes that
+they'll be the last yeast operation standing 10 years from now.  For most
+homebrewers who have developed the hobby as a lifelong pursuit, the larger
+implications mean  fewer (if any) supply shops in your area and less variety
+at the few shops still around (picture your supply shop as the retail
+equivalent of Brew Your Own magazine, soon to be the last homebrew mag
+standing [?]).  Massive retail/mail-order operations like St. Pat's will
+profit for a short period of time with increased orders from homebrewers
+disgusted by the fact that their local supply shops no longer carry Belgian
+crystal malts.  But even these kinds of operations will feel the pinch
+eventually and will duke it out to be one of a small number of mail-order
+businesses left.  Thus speaks the cynic.
+
+
+Mike 
+New Orleans, LA
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 06:54:46 -0700 (PDT)
+From: Matthew Comstock <mccomstock`at`yahoo.com>
+Subject: Re:Primary vs. Secondary Experiment
+
+
+Thanks for responding to this discussion,Al.  
+
+
+Triplets and Tripels?  Congrats on both counts.  You wrote:
+
+
+"The beer that was made with a secondary had a slightly less
+intense aroma and flavour.  Both clearly had some higher
+alcohols and spicy character, but they were noticeably stronger
+in the beer made only with a primary."
+
+
+I apologize for my inexperience with Belgian beers, but is this a good
+result or a bad one.  Is the primary-only better because it is spicier
+and has some higher alcohols present?
+
+
+Interestingly, after convincing myself that I don't always need to
+follow the same old rote advice '...if you really want to make good
+beer, transfer to a secondary....'  I made a Tripel of my own and
+transferred to a secondary soon after the primary finished bubbling. 
+With your post, I kinda wish I hadn't.  Why did I?  I don't know. I was
+worried about the higher alcohol level in the beer maybe leading to
+autolysis.  I've never used the Wyeast 1214 before.  It seems like when
+I've read about autolysis its always been with a goofy yeast source; a
+novel strain or something recultured from a commercial bottle, etc.  So
+I transferred to a secondary against my better judgement as I had both
+a higher EtOH level and a novel yeast strain.  We'll see how it turns
+out.
+
+
+Thanks again for your comments.
+
+
+Matt Comstock in Cincinnati.
+
+
+
+
+__________________________________________________
+Do You Yahoo!?
+Bid and sell for free at http://auctions.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 07:09:47 PDT
+From: "Arnold Chickenshorts" <achickenshorts`at`hotmail.com>
+Subject: ethyl hexanoate
+
+
+>Also note that ethyl hexanoate in beer in usually caused by insufficient 
+>aeration.
+
+
+Wrong AJ.
+
+
+Late hops is the primary etiology. Methyl hexanoate in hops is 
+trans-esterified by yeast to the ethyl ester.
+
+
+Arnold.
+
+
+
+
+_______________________________________________________________
+Get Free Email and Do More On The Web. Visit http://www.msn.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 11:53:20 -0400
+From: John Roe <Sensei_John_Roe`at`compuserve.com>
+Subject: Beer in South Africa
+
+
+Are there many/any exceptional beers that
+are unique to South Africa?  Any also available
+in the USA?  In LoCal?
+
+
+John Roe
+Laguna Hills, Ca
+www.martialartsacademy.org
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 11:11:42 -0500
+From: "St. Patrick's" <stpats`at`bga.com>
+Subject: cleaning cf chiller, copper tubing info
+
+
+Cleaning CFWC
+St. Pat's sells tubing brushes that are 66" long.  Many CFWC have less than
+10' of inner tubing so cleaning from both ends does the job.  However,
+since the tubing is coiled, it's difficult to push 3/8" brush all the way
+into 1/2" copper tubing (3/8" ID) or 1/4" brush into 3/8" tubing (1/4" ID).
+ If you have a CFWC with 1/2" copper (3/8" ID) then I recommend a 1/4"
+brush.  Or if you have CFWC with 3/8" copper or the 3/8" Stainless steel
+inner coil such as we make, then I recommend the 3/16" brush.
+
+
+A note of clarification:
+Refrigeration tubing is denoted by it's OD.  Pipe by its ID.  Refrig is
+soft copper but plumbing tubing can also be soft,  hence the confusion.
+
+
+"Cleaned and Capped" are the key words in selecting tubing for wort chillers.
+Both the stainless steel (3/8") as well as the copper (1/2")  used for our new
+CFWC is "cleaned and capped".  We also use cleaned and capped copper for the
+outer coils but that would not really be necessary unless you plan on
+consuming the cooling water.
+
+
+Lynne O'Connor
+
+
+St. Patrick's of Texas
+Brewers Supply
+http://www.stpats.com
+stpats`at`bga.com
+ 512-989-9727
+ 512-989-8982 facsimile
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 12:38:57 -0400 (EDT)
+From: MICHAEL WILLIAM MACEYKA <mmaceyka`at`welch.jhu.edu>
+Subject: Peppery flavor in beer
+
+
+Howdy,
+
+
+        Thomas Murray asks about black pepper flavor in beer.  I have not
+noticed this flavor in the beers he mentioned, but I have noticed what I
+perceive as a peppery flavor in beers that had small amounts of coarsely
+ground coriander and in older beers that had lots of coriander but the orangey
+flavor had diminished.  I also detect what I call black pepper in more intense
+red wines like zinfindel and shiraz, which I always attributed to the
+tannins from these grapes.  To duplicate it in beers, I would suggest going
+with a bit of the real thing, adding at bottling to taste.
+
+
+Mike Maceyka
+Four Square Brewing
+Baltimore, MD
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 11:56:16 -0500
+From: Dean Fikar <dfikar`at`flash.net>
+Subject: My no-sparge experience/data series
+
+
+In an earlier post, I alluded to my no-sparge experience and recieved a
+number of emails requesting me to post my data.  Here goes...
+
+
+The stength (SG) of the runoff, of course, varies inversely with amount
+of water used per pound of grain.  OTOH, the volume of the runoff is
+greater with higher water/grist ratios.  For the last 14-15 months most
+of my mashes have been of the no-sparge variety.  The following is my
+data, split into decoction and non-decoction series.  I did the split
+since my extraction rates are significantly higher with the decoction
+mashes.  This seems to be a common scenario for most brewers.  As you
+can see, the correlation coefficients are pretty good for both series
+(about 0.92).  The decoction series, however, has too few data points to
+be completely trusted, IMHO.  I feel pretty good about the non-decoction
+series at this point.  Obviously, the different types of systems we brew
+with may have something to do with the repeatability of the results and
+standard disclaimers certainly apply here.  I would be careful about
+extrapolating values outside the posted ranges (i.e. about 1.9 - 2.0
+qts/lb for decoctions and 1.5 - 2.1 qts/lb for non-decoctions). 
+
+
+FWIW, all of these batches were mashed using an ultra low-tech 10 gal.
+cooler with a slotted copper manifold.  Most of the non-decocted batches
+were single infusion and the others were single decoctions.  I often add
+a mashout step unless I just don't feel like messing with it that
+particular day.  
+
+
+Decoction:  
+
+
+SG(Y)     qts/lb(X)
+- --        ------
+60        1.90
+62        1.85
+56        2.15
+57        2.01
+
+
+Y = 92.751 * X^-0.6726
+R2 = 0.9175
+
+
+Non-Decoction:
+
+
+SG(Y)     qts/lb(X)
+- --        ------
+62        1.80
+67        1.68
+78        1.55
+72        1.70
+82        1.58
+60        1.92
+59        1.88
+66        1.80
+63        1.74
+56        2.00
+50        2.10
+56        1.89
+
+
+Y = 153.28 * X^ -1.5005
+R2 = 0.9154  
+
+
+The other part of the equation, of course, is figuring the volume of the
+runoff.  With my system I find that the water absorbed by the grain is
+about 0.122 gal./lb. grain.
+
+
+I guess an example from a recently brewed batch might be in order:
+
+
+Mesquite smoked wheat beer (non-decoction, actual values)
+
+
+grist:    16.0 lbs
+water:     8.4 gal (incl mashout)
+qts/lb:    2.1
+runoff:    6.4 gal `at` 1.050
+
+
+The formula for predicting the runoff SG would look like this:
+
+
+Y (predicted SG) = 153.28 * (2.1 ^ -1.5005)
+                 = 1.0503 (pretty close to actual SG!)
+
+
+Predicting runoff volume:
+
+
+Water absorbed by grain = 16 * 0.122
+                        = 1.952 gal.
+
+
+Predicted runoff:
+
+
+8.4 - 1.952 = 6.448 gal. (pretty close again!) 
+
+
+I hope this helps give some idea of what kind of real-world results you
+might expect for those of you considering no-sparge brewing.  As always,
+YMMV.  FWIW, my efficiencies were in the high 50's for the non-decocted
+batches and around 60 for decoctions.
+
+
+
+
+I'd be interested in seeing anyone else's no-sparge experience posted to
+compare and contrast with mine.
+
+
+
+
+Dean Fikar - Ft. Worth, TX
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 13:40:14 -0400
+From: Ken Schramm <Ken.Schramm`at`oakland.k12.mi.us>
+Subject: AHA Club-Only Mead judging postponement
+
+
+It is with regret that I am postponing this evening's scheduled judging of
+the AHA COC "It's a mead mead mead mead world!" judging. We were not able
+to gain commitments from a large enough pool of qualified judges, and
+rather that compromise the results, I have elected to postpone the judging
+until early September, when a session with Detroit/Ann Arbor's best judges
+can be assembled.  This will also serve to provide rest time for at least
+two meads which were shipped on time but did not make it to my home until
+yesterday.  I will contact Paul Gatza, and post the results as quickly as
+possible to the fora he deems appropriate.
+
+
+If you have any questions, please contact me at this address.  My home
+phone is 248 816-1592, if you have questions about your entry.
+
+
+Again, my apologies,
+Ken Schramm
+Ann Arbor Brewers Guild.
+Troy, Michigan
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 13:31:45 -0500
+From: Harlan Bauer <blacksab`at`midwest.net>
+Subject: Cleaning CF heat exchanges, revisited...
+
+
+In response to my last post, Paul Niebergall wrote:
+
+
+>I have not noticed any beer stone or crud build up (at least as far as I 
+>can see down the copper tube - which is about 3 inches with a good 
+>flashlight) in my counter flow chiller (CFC).  I suppose that at some 
+>point you could get enough build up that it starts to interfere with the 
+>sanitization.  If you notice that you are starting to get beer stone build 
+>up, or a reduction in flow rate due to unseen build up, it probably is a 
+>good idea to start running a cleaner such as Birko or 5-Star thought the 
+>inner line of your CFC.  And of course, it probably doesnt hurt to do this 
+>just because  it makes you feel better.  (50 feet of copper tubing is a 
+>lot unknown surface area, that cant be inspected).  However, I dont think 
+>that CFCs are necessarily any more prone to causing infections than any 
+>other piece of beer making equipment. The one saving grace is that they 
+>are made of smooth copper.  There are no real crevices or scratches for 
+>bugs to adhere.  You may not be able to see the insides, but the copper 
+>gets real hot (now there is a technical term for you) during the boiling 
+>water rinse.
+
+
+1. 3-inches out of 50-feet? Hmmm. Does not seem to me to be a
+representative sample, nor a statistically significant one either.
+
+
+2. If you were to develop a buildup that was beginning to interfere with
+flow, that would constitute a HUGE amount of buildup. Even with massive
+turbulent flow (not really possible in a non-plate HE), even
+professional cleaners like Birko and 5-Star would never be able to
+remove such soils without hand scrubbing--they are designed as a
+preventative maintenence.
+
+
+3. Accumulating soils such as beer-stone (calcium oxalate) WILL
+eventually adhere to any smooth surface. Once this initially occurs,
+increased accumulation is not linear, it becomes exponential. It is in
+this accumulation that bacteria hide, and, what is worse, is partially
+insulated from the heat. 
+
+
+4. Hot water is a good sanitizer, but only when used on a clean surface.
+In addition, unless you have a temperature probe on the outfeed of the
+HE, there is no way of knowing what the actual temperature of the
+outflow is--IOW, there is a temperature drop between inlet and outlet.
+Heat sanitation is a function of temperature and contact time, in the
+same way that chemical sanitation is a function of concentration and
+contact time. I agree that in most instances, a quicky hot water rinse
+is marginally effective against wort-spoiling bacteria (enterics) which
+are heat sensitive, but this is less true of beer-spoiling organisms,
+especially pediococcus, which are considerably more heat tolerant and
+VERY difficult to destroy.
+
+
+5. Wort chillers are a common source of infection because cooled,
+un-pitched wort (a rich, nutrient media) is passing through them on the
+way to the fermenter. One can SEE whether the carboy is clean, not so
+with a HE.  
+
+
+>So long as boiling (not just "hot") water is cleaning effectively and you 
+>are not getting a crud build up, then it is also sanitizing effectively.  
+>There are quite a few people out there cleaning their CFCs with boiling 
+>water.  If counter flow chillers were so notorious for producing 
+>infections, I doubt that many people would be doing it.
+
+
+>It may be "out of sight; out of mind", but it can also be though of as "If 
+>I am not a having a problem; I am not going to worry about it"
+
+
+As I implied in #4 above, boiling water in a kettle does not equate to
+boiling water at the outfeed of a HE; therefore, all that is being run
+through the HE, especially the last portion of a 20-50 foot HE is hot
+water. Without a temperature probe, you have no way of knowing the
+actual temperature--this would be the same as not knowing the
+concentration of a chemical sanitizer and so, not knowing the proper
+contact time required for it to be effective.
+
+
+As for your final two points, these are not arguments; scientific fact
+is not based on democratic principles. I've tasted A LOT of infected
+beer, both at the homebrew level and at the professional level, and HE's
+are a common source. It is not a coincidence that brewers like George
+Fix consistently win competitions with styles that are very difficult to
+brew--it is an almost obsessive attention to detail. Brewers of that
+caliber ANTICIPATE potential problems and correct them before they
+become a problem, the same way that one changes the oil in one's car
+BEFORE a problem occurs.
+
+
+I'm not trying to tell you or any one else how to brew, I was simply
+answering the question of how best to clean and sanitize a CF
+wort-chiller and to emphasize that cleaning and sanitizing are two
+distinct and seperate procedures. The procedures I've outlined are
+industry standards, and for good reason.  
+
+
+Harlan.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 11:57:46 -0700 (PDT)
+From: Scott Murman <smurman`at`best.com>
+Subject: re: Scottish Ales
+
+
+
+
+> It is indeed true that there are very few "traditional" maltings left,
+> although intuition would suggest that very early (and now very much
+> historical) brews in Scotland were made using traditionally malted barley
+>  - which undoubtedly would have used peat as a heat source.....
+>
+> Paul Campbell 
+
+
+It's my impression that only the distilleries in the north(?) used
+peat, while in the south they used coals or wood or somesuch.  This is
+what leads to the peat-smoked scotch being more prevalent in the
+north.  Is this somehwat accurate?
+
+
+ -SM-
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 12:01:30 -0700 (PDT)
+From: Bryan Gros <blgros`at`yahoo.com>
+Subject: homemade eisbock
+
+
+Steven Smith writes:
+> [put beer in 2l bottles, put in freezer, decant and enjoy]
+>
+>Enjoy, it's a dandy, albeit extravagant, beverage.  If someone's figured out a 
+>reasonable way to make _kegs_ of eisbock, please share.
+
+
+Well, Steve, Eisbocks are easy to make in the keg. 
+Suppose, hypothetically, of course, one had a chest freezer as
+a beer fridge, with external controller. Supppose, one was cleaning
+it out and then replaced the kegs of pale ale, schwarzbier, and
+bock. Suppose, however, that one forgot to put the controller
+sensor back in the frige.
+
+
+If this scenario were to happen, the kegs would freeze. The next day you
+would have to take them out to thaw while you cleaned up the slush
+from the broken bottles. As they thawed, you could rack to a new keg.
+
+
+[Not that I have done this, but it was interesting that the eis-schwarzbier
+tasted better than the eis-bock and eis-PA.]
+
+
+===
+ - Bryan
+
+
+  Bryan Gros    gros`at`bigfoot.com
+  Oakland CA
+  "To live your life it seems,
+   is a waste without a dream..."
+                          - BoDeans
+__________________________________________________
+Do You Yahoo!?
+Bid and sell for free at http://auctions.yahoo.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 27 Aug 1999 12:06:31 -0700 (PDT)
+From: Matthew Comstock <mccomstock`at`yahoo.com>
+Subject: Re: High gravity follies
+
+
+What a story Paul.
+
+
+Now I'll never put a valve on my kettle.  It rips my back up, but the
+'pick-up-the-kettle-and-dump technique is all I can stand.  So what's
+the bid deal with a little crud.  It's clean ain't it. Boiled the tar
+out of it for 90 minutes.  Explain to me about all those trub problems
+we're trying to avoid with filters and chore-boys and siphoning out of
+the kettle and whirlpooling (in a 4 gallon kettle for crying out loud!
+You look at the kettle the wrong way and the lumps of crud shift around
+to your racking cane while siphoning).
+
+
+Matt in Cincinnati
+__________________________________________________
+Do You Yahoo!?
+Bid and sell for free at http://auctions.yahoo.com
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3122, 08/28/99
+*************************************
+-------

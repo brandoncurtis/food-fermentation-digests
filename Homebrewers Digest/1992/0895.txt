@@ -1,0 +1,643 @@
+﻿This file received at Sierra.Stanford.EDU  92/06/04 00:10:53
+
+
+
+
+HOMEBREW Digest #895                             Thu 04 June 1992
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  michigan (Anthony Rossini)
+  Alaskan Beer ? (Tony Willoughby)
+  Choke Cherries (Shirley Thompson)
+  Chimay yeast and bananas (mcnally)
+  s/Divide/Multiply (Nick Cuccia)
+  Re: Calories in homebrew (Michael L. Hall)
+  Wyeast Belgian revisited (Rob Bradley)
+  Saccharomycess delbrueckii (MILBRANDT_J)
+  Bananas (Glenn Tinseth)
+  cooler for lauter  (florianb)
+  Head retention from Micah Millspaw (BOB JONES)
+  wyeast data (Dave Coombs)
+  Problems (Shirley Thompson)
+  Wort Chillers (fjdobner)
+  Toilet Water, Dry Yeast (Jack Schmidling)
+
+
+
+
+Send articles for publication to homebrew`at`hpfcmi.fc.hp.com
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+to homebrew-request`at`hpfcmi.fc.hp.com
+Archives _were_ available from netlib`at`mthvax.cs.miami.edu
+(Stay tuned for info on a new archive site)
+**Please do not send me requests for back issues!**
+**For Cat's Meow information, send mail to lutzen`at`novell.physics.umr.edu**
+
+
+----------------------------------------------------------------------
+
+
+Date: Wed, 3 Jun 92 08:04:55 EDT
+From: rossini%biosun2`at`harvard.harvard.edu (Anthony Rossini)
+Subject: michigan
+
+
+
+
+Hey!  A friend of mine is moving to Ann Arbour (sp?), Michigan, and was
+wondering about the status of brewing supply stores up there?  Any close by,
+or will he have to start considering mail-order?
+
+
+Reply via email, I'll forward replies if anyone is interested (not sure this
+is globally relevant)
+
+
+thanks in advance,
+
+
+ -tony
+- --
+Anthony Rossini       -       rossini`at`biostat.harvard.edu
+Department of Biostatistics, Harvard School of Public Health
+677 Huntington Ave, Boston MA 02115  617-432-1056
+
+
+------------------------------
+
+
+Date: Wed, 3 Jun 92 8:38:40 EDT
+From: twilloug`at`brynmawr.webo.dg.com (Tony Willoughby)
+Subject: Alaskan Beer ?
+
+
+
+
+I'll be vacationing in Alaska in mid-August.  I'd love to try any locally
+produced beer.  Anyone know of any brewpubs or breweries that have tours?
+
+
+Oh, I'll be in Anchorage, Seward and Denali.
+
+
+- -- 
+Tony Willoughby               | He that buys land buys many stones.
+twilloug`at`brynmawr.webo.dg.com |    He that buys flesh buys many bones.
+                              | He that buys eggs buys many shells,
+                              |    But he that buys good beer buys nothing else.
+                              |                       - An Old English Saw
+
+
+------------------------------
+
+
+Date:         Wed, 03 Jun 92 08:27:58 MST
+From: Shirley Thompson <DUSTHOMP`at`idbsu.idbsu.edu>
+Subject:      Choke Cherries
+
+
+I live in the mountains and the Choke Cherries will be ripe in a couple
+of weeks.  Has anyone ever made beer or wine using Choke Cherries?  If
+so, would it be possible to get your recipe and results.  Thanks
+
+
+ -----------------------+-----------------------+-------------------------
+ Shirley Thompson       | 1910 University Drive | CREN: dusthomp`at`idbsu
+ User Service Center    | Boise, Idaho   83725  | Internet:
+ Boise State University | (208) 385-4357        | dusthomp`at`idbsu.idbsu.edu
+
+
+
+
+------------------------------
+
+
+Date: Wed, 03 Jun 92 08:34:29 -0700
+From: mcnally`at`wsl.dec.com
+Subject: Chimay yeast and bananas
+
+
+
+
+Keep in mind that there are two things that can cause the iso-amyl 
+acetate (banana) (and I could be wrong about the chemical) problem.
+One is high temperature, but I've fermented batches with Chimay at
+high temperatures without any problems.  The other is insufficient 
+aeration at pitching time.  Insufficient oxygen causes some yeast
+to develop with very thin cell walls, and for some reason completely
+unknown to me this results in excessive production of the ester.
+
+
+On the bright side, I've found that the banana taste fades with age.
+
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+Mike McNally                                           mcnally`at`wsl.dec.com
+Digital Equipment Corporation
+Western Software Lab
+
+
+------------------------------
+
+
+Date: Wed, 03 Jun 92 09:19:17 -0700
+From: Nick Cuccia <cuccia`at`remarque.berkeley.edu>
+Subject: s/Divide/Multiply
+
+
+I don't believe that I said Divide by 1000 instead of Multiply by 1000.
+
+
+Blee.
+
+
+- --Nick
+
+
+------------------------------
+
+
+Date: Wed, 3 Jun 92 11:11:10 MDT
+From: mlh`at`cygnus.ta52.lanl.gov (Michael L. Hall)
+Subject: Re: Calories in homebrew
+
+
+I know that there have already been answers to this question, including
+disclaimers by George Fix and a nice linearized version with analysis
+by Robert Bradley, but I thought someone might like to see yet another
+version of the formulas. These are the same formulas that George Fix
+gave, except that they have been converted to FG and OG (using the
+Plato to SG (divide by four) conversion that is not exact acording to
+George). This is probably what Robert did, before he linearized them.
+Anyway, here they are:
+
+
+Note that OG and FG are used in the full form (e.g. 1.045). C stands for 
+the calorie content per 12 ozs., and the {alc} and {ext} subscripts signify
+the fractions from alcohol and extract respectively.
+
+
+Other definitions:
+
+
+A   = alcohol content of finished beer in % by weight. 
+RE  = real extract of finished beer in degrees Plato. 
+OG  = original gravity of the beer. 
+FG  = final gravity of finished beer. 
+
+
+     76.8 (OG - FG)
+A  = --------------
+      (1.775 - OG)
+       
+RE = 250 (0.1808 OG + 0.8192 FG - 1)
+
+
+                       (OG - FG)
+C_{alc} =  1881.22 FG ------------
+                      (1.775 - OG)
+                     
+C_{ext} =  3550 FG (0.1808 OG + 0.8192 FG - 1.0004) 
+
+
+C  =  C_{alc} + C_{ext}
+
+
+              [ 0.53 (OG - FG)                                    ]
+C  =  3550 FG [ -------------- + (0.1808 OG + 0.8192 FG - 1.0004) ]
+              [   1.775 - OG                                      ]
+
+
+
+
+Mike Hall
+hall`at`lanl.gov
+
+
+------------------------------
+
+
+Date: Wed, 3 Jun 92 13:34:42 -0400
+From: bradley`at`adx.adelphi.edu (Rob Bradley)
+Subject: Wyeast Belgian revisited
+
+
+In hbd 894, Al korz`at`iepubj.att.com writes:
+
+
+> It appears that too many Wyeast users blame the yeast for infections
+> rather than their sanitation techniques.
+
+
+It also appears that too many Wyeast defenders blame the sanitation
+techniques of users rather than the yeast :-)
+
+
+I'm (slightly) miffed that Tom would blame my procedures, sight
+unseen, for my problems.  Nobody can be assured of perfect sanitation
+every time but, as I made abundantly clear in my posting, I used
+a tried-and-true combination of recipe and technique which, I believe,
+gave me a pretty good basis for comparison.  Meanwhile, Tom actually
+put his finger on the real problems (slowness of the yeast, high
+temperature) later in his own post, making this ad hominem all the
+more unfair.
+
+
+For the record:
+
+
+1 - Last night (day 29), the fermentation appeared to be finsihed,
+    the gravity still read 1.010 (no perceptible change in 4 days)
+    and the estery quality seemed to have significantly subsided.
+    I plan to bottle tonight (if I can get it done before the game).
+
+
+2 - I've heard from other users of Wyeast Belgian who agree that
+    the stuff takes a long time to ferment out (you're one of them,
+    Al!) and that it sometimes takes bottle aging to get over
+    an initial roughness.
+
+
+3 - 70 degrees was a ballpark, and for most of the period, it was
+    probably in the mid-high 60s.  As Al points out, that's too
+    hot for this strain of yeast.
+
+
+My patience (and lack of worry), seems to be paying off.  I've revised
+my opinion of Wyeast Belgian upwards and had intended to tell the HBD
+as much.  I think HBD readers who might someday want to try this yeast
+deserve to know that 
+
+
+    (1) the yeast is slow and
+    (2) the yeast might not be happy if you don't have a cellar.
+
+
+Cheers,
+
+
+Rob
+(bradley`at`adx.adelphi.edu)
+
+
+------------------------------
+
+
+Date: Wed, 3 Jun 92 13:36:05 CDT
+From: MILBRANDT_J`at`WUMS.wustl.edu
+Subject: Saccharomycess delbrueckii
+
+
+        In response to a message I read in the HBD a couple of days 
+ago, I have a question about the delbrueckii yeast which Wyeast packages
+in their 3056 packets. I have similarly colony-purified yeast from this packet
+which will give the chacteristic cloviness which a freind of mine was looking
+for. As you stated, other colony isolates give a maltiness which is similar  
+to many lager yeasts, while colonies of another larger appearrance are obviously delbrueckii. The problem is that when he attempted to ferment with yht this 
+tyeast (please excuse typos, I don't know how to edit on this terminal!t) 
+it stopped about halfway to the expected terminal gravity. Is this charistic 
+it stopped about halfway to the expected terminal gravity. Is this charistic 
+it stopped about halfway to the expected terminal gravity. Is this charistic 
+(sorry) of this yeast, and does it need the other strain to finish out? It is possible that I simply have a mutant, and could pick more colonies if this is the 
+case. Perhaps it is this particular strain from Wyeast?
+        I cannot completely eliminate the possibility that this merely a 
+stuck ferment due to some other factor than the yeast itself. However, he 
+says he has used the 3056 before without this problem. I certainly welcome any comments on this subject.
+
+
+Thanks,
+        tim Fahrner (apprentice typist )y
+
+
+------------------------------
+
+
+Date: Wed, 3 Jun 92 11:43:49 PDT
+From: tinsethg`at`ucs.orst.edu (Glenn Tinseth)
+Subject: Bananas
+
+
+To add another data point, my Chimay-clone using the Wyeast Belgian ale
+yeast was fermented at 58-60 F (measured on the glass outside the carboy).
+It was an all grain batch that turned out great but produced copious amts
+of banana and bubble gum esters during the ferment.
+
+
+Now four monthes later the fruitiness has subsided to the pleasant level
+and is very enjoyable. I think it is a characteristic of the yeast and 
+definitely not due to sanitation, especially since the banana aroma is 
+subsiding with age. This yeast was *very* vigourous even at 60 F.
+
+
+Chimay flavor for $2.00/gal., I can't complain =:^)
+
+
+Glenn
+
+
+------------------------------
+
+
+Date: Wed, 03 Jun 92 12:53:39 PDT
+From: florianb`at`chip.cna.tek.com
+Subject: cooler for lauter 
+
+
+Nick Zentena sez:
+
+
+Hi,
+>I just finished making a new lauter-tun
+>based on a picnic cooler. Does anybody have
+>any hints on using this versus my old
+>zap-zap unit?
+
+
+>Also whats the best way to clean the pipe.
+
+
+I have some hints:
+
+
+When you get ready to sparge, pour into the cooler your equivalent
+amount of sparge water at boiling temperature. Add the mash which will
+be at about 150 F, and stir. The resulting mixture will be reduced in
+temperature to about 170-180 F. Hot Dog! No fiddling with mash-out!
+
+
+Leave the mixture with the cooler lid on for about half an hour.
+Perhaps longer. Then re-circulate about a gallon of the water. It 
+should be very clean. Go ahead and run off the wort as fast as you
+want to. Be bold! If it slows up, take a kabob skewer and poke the
+filter bed, or drag across the surface to break up the fine sludge
+on the top of the filter bed. After all, this is what the big guys do.
+
+
+Start heating the wort as soon as you have 2 gallons or so. Use a second
+kettle to catch the remaining runoff. Don't bother with sprinkling
+sparge water over the bed after it's all run off. If you are worried
+about the loss of a few sg points, simply add another half pound of
+grain next time.  
+
+
+The best way to clean the pipe is to disassemble it if it's made of
+1/2" fittings and rinse it with cold water. If you do this right away
+without letting the gunk dry on it, you can get it very clean.
+
+
+Enjoy the rewards of easier all-grain!
+
+
+Florian
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Jun 1992 12:51 PDT
+From: BOB JONES <BJONES`at`NOVAX.llnl.gov>
+Subject: Head retention from Micah Millspaw
+
+
+
+
+        There have been some questions about both head retention (beer)
+and chill haze problems. I think that a large portion of the problem
+is a lack of lipids in the wort.
+        Lipids are very important elements for proper beer stability.
+Lipids are unsaturated fatty acids, this means that they are available
+to form new bonds with other elements of the wort. Although only a few
+ppm of lipids are present in finished wort, they can have far reaching
+effects on factors such as yeast viability, ester formation, gushing
+and flavour staling. Small variations in brewhouse procedure can produce
+large variations in wort lipids. Lipids adhere to trub particles ( trub
+contains up to 50% lipids) and to filter materials. Spent grains are high
+in lipids. A turbid top runoff from the lauter tun can contain 5 times,
+and even 40 times as many lipids as the clear wort runoff from the same
+mash. Also yeast will autolyze if it does not receive small amounts of
+ergosterol or unsaturated lipids.
+        North American grown barley malt contains very small amounts of
+free fatty acids (3.2-3.5 mg\l) opposed to european malts (18-26 mg\l).
+Insufficient fatty acid levels can result in high esters in the
+finished product and can also be responsible for gushing problems in the
+finished beer. The addition of unsaturated fatty acids can cure gushing.
+While the addition of saturated fatty acids tends to increase gushing.
+The content of unsaturated fatty acids has a strong influence on the
+formation of fermentation volitiles, notably the acetate esters. A wort
+that has been stripped of lipids could produce a beer too high in esters.
+        I beleive that a shortage of lipids may be a problem that
+homebrewers encounter because of their obsession with mash extraction
+yields. This need to eke out every trace of sugar from a mash, leads home
+brewers to practice wort recycling and or flaufing. These can be risky
+sparging techniques with regard to hot side aeration as well as stripping
+lipids from the wort. Recycling is the collecting of the wort as it runs
+out of the lauter tun and pouring it back over the grain bed. Many brewers
+claim that recycling should be done to settle the grain bed. Flaufing is
+the collecting of the wort as it runs out of the lauter tun, boiling it
+and then returning it to the top of the grain bed. These practices not
+only give oppurtunity for hot oxygen and wort reactions, but also strip
+out fatty acids (which North American grown malts are low in) that are
+essential for proper yeast nutrition.
+        I have long felt that mash recycling was a bad thing, in that
+it tends to remove a lot of large particulate matter that would otherwise
+be in the boil. I feel that these particles ( husks and grits mostly)
+provide a place for proteins to clump onto during the boil and then
+settle out more effectively in cooling.
+       I have observed much clearer finished wort (cooled) from my
+boils, when the mashes were conducted with no recycling of wort than
+from those of other brewers whose worts were made by recycling the mash.
+
+
+
+
+                                              Micah Millspaw 3/31/92
+
+
+
+
+        A lack of sufficient lipids will cause the finshed beer to have
+stability problems one of which is head retention. Above it was mentioned
+that additions of lipids could cure gushing, I would make it clear that
+gushing is a head retention problem, and that it causes acn be the same
+as those responsable for no head formation at all.
+ 
+                                             Micah Millspaw 6/3/92       
+
+
+
+
+ps.    Look for more about how chill haze and haze in general ties in
+with this in future HBDs.
+
+
+------------------------------
+
+
+Date: Wed, 03 Jun 92 18:40:26 -0400
+From: Dave Coombs <coombs`at`cme.nist.gov>
+Subject: wyeast data
+
+
+Someone posted the Wyeast data a while ago.  Is it in an archive or
+homebrew FAQ someplace so interested souls can get it?
+
+
+        dave
+
+
+------------------------------
+
+
+Date:         Wed, 03 Jun 92 16:58:50 MST
+From: Shirley Thompson <DUSTHOMP`at`idbsu.idbsu.edu>
+Subject:      Problems
+
+
+I made up two batches of beer about 10 days ago.  The first batch (a wheat beer
+) has been bubbling merrily along.  The second batch (a lite ale beer), the
+yeast is working very very slowly.  The first yeast did not appear to work,
+(I might have added it too soon, before it was cool enough), so I added more
+yeast.  It doesn't appear to be working at all, except the bubbler is raised
+up.  The temp is 65 degrees on the outside of the carboy this morning.  Can
+the yeast be working so slow that I never see the bubbler move?  I only time
+I saw the bubbler move is when I got worried and and replaced the bubbler
+with a cork and shook it up really good.  It bubbled for about 10 minutes and
+then quit.  It is inis is only my five and sixth batches of beer.   Am I just a
+then quit.  It is in a 7 gallon carboy.  This is only my fifth and sixth batche
+s of beer.
+
+
+The recipe I used was:
+
+
+      6 lb Malt Brewcon Pale
+      1 lb Hop Lite dry malt
+      20 gm Tett hops
+      15 gn Fuggles Hops
+      2 pkgs Mutton/Fison
+
+
+Am I just a worry wart or should I dump the second batch out and start out?
+Help-p!
+
+
+ -----------------------+-----------------------+-------------------------
+ Shirley Thompson       | 1910 University Drive | CREN: dusthomp`at`idbsu
+ User Service Center    | Boise, Idaho   83725  | Internet:
+ Boise State University | (208) 385-4357        | dusthomp`at`idbsu.idbsu.edu
+
+
+
+
+------------------------------
+
+
+Date: Wed, 3 Jun 92 21:54 CDT
+From: fjdobner`at`ihlpb.att.com
+Subject: Wort Chillers
+
+
+Some practical questions about using immersion-type wort chillers:
+
+
+1. How does one go about cleaning a wort chiller? When I say clean
+I mean making sure that any solid or liquid foreign matter are removed
+from the inside of the coils? Initially, I am concerned because I have
+new equipment (1/2" copper coils and hose) and want to get rid of any
+possible mnufacturing debris or oil present. 
+Would you really want to use detergent
+(for the same reasons as not using detergent for beer glasses)? If
+not, what?
+
+
+2. As far as cleaning on an ongoing basis, would you just do the same
+thing as recommended for 1) or a reduced instruction set.
+
+
+There is no thrill greated than making beer from new equipment and drinking it.
+I almost underwent a full collapse of both lungs standing in my basement
+and sucking through 15feet of vinyl hose and 35 feet of copper coil
+from a pot of boiling water in the kitchen above. I have improved the
+siphon process (luckily on a trial run with no real batch at stake)
+and gave my wife a good belly laugh all at the same time. Up until that
+my only experience of siphoning was from gas tanks and from primary and
+secondary fermentation vessels with a meek 4 or 5 feet of hose. The
+key with these larger scale siphoning jobs is to ensure that the hose
+has no air pockets of significant size. I would have not relaxed, and worried
+plenty had this been a full production batch.  
+
+
+Frank Dobner
+
+
+------------------------------
+
+
+Date: Wed, 3 Jun 92 23:19 CDT
+From: arf`at`ddsw1.mcs.com (Jack Schmidling)
+Subject: Toilet Water, Dry Yeast
+
+
+ 
+ To: Homebrew Digest
+ Fm: Jack Schmidling
+ 
+ >John Freeman writes:
+ >   My cellar gets damp and musty in the summer, so I have a constant supply
+ > of water produced from the de-humidifier.  Would this be good water to
+ > brew with?  Seems like it should be pure unadulterated water....
+ 
+ This question and all the followup have got to be in the same class as
+ the hops wine stunt.
+ 
+ Surely this is a jest!  
+ 
+ >From: tahoma!dgs1300`at`bcstec.ca.boeing.com (Don Scheidt)
+ 
+ >Yes, the Whitbread ale yeast is a combination of several strains, not a pure
+ single culture.  I'll gladly pay extra for Wyeast's liquid cultures for this
+ very reason;
+ 
+ Yes, if one really wants such a combination, it seems a bit of an ordeal to 
+ replicate it.
+ 
+ > you don't get that funky 'homebrew' nose that you get with the
+ dry yeast.
+ 
+ I separated your statement into two parts because it is NOT necessary to "pay 
+ extra for Wyeast" to solve the second problem.  One can "clean up" dry yeast 
+ with very simple culturing techniques I have described in previous articles.  
+ I defy anyone to find a "funky homebrew nose" in my beer and I have never 
+ used Wyeast or any other commercial "liquid yeast".
+ 
+ BTW, those going to the AHA conference in Milwaukee will have an opportunity 
+ to taste ARF's Generic Ale made with pure cultured, wild yeast.  In addition 
+ to a few MALTMILLS, I will be bringing a keg or two of the "WORLD'S GREATEST 
+ BEER".  Unfortunately, we have been asked to limit the serving size to three 
+ ounces.
+ 
+ js
+ 
+ 
+ 
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #895, 06/04/92
+*************************************
+-------

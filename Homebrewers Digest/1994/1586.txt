@@ -1,0 +1,1360 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Wed Nov 23 04:04:01 1994
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["45773" "Wed" "23" "November" "1994" "01:00:59" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1085" "Homebrew Digest #1586 (November 23, 1994)" "^From:" nil nil "11" nil nil nil nil]
+        nil)
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA00975
+  (5.65b/IDA-1.4.3 for spencer`at`hendrix.itn.med.umich.edu); Wed, 23 Nov 94 04:04:06 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA06354; Wed, 23 Nov 1994 02:01:27 -0700
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA00622; Wed, 23 Nov 1994 01:00:59 -0700
+Message-Id: <9411230800.AA00622`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1586 (November 23, 1994)
+Date: Wed, 23 Nov 1994 01:00:59 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1586                             Wed 23 November 1994
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  NDN: Homebrew Digest #1584 (November 21, 1994) (Gateway)
+  Colour Formulas (Fredrik Stahl)
+  Pete's Wicked Ale clone (Bob Monroe)
+  A Beer In Search of a Style (or Name) (Robert_Ser)
+  blow-off (Allan Rubinoff)
+  Low S.G. (Edward Bockman)
+  Kegs to Bottles (Dave Setser)
+  Old extract / persistent bubbles (uswlsrap)
+  Priming, blowoff ("nancy e. renner")
+  RE:yeast stuff (Jim Busch)
+  1994 THIRSTY Homebrew Competition (Wolfe)
+  Yeast from St. Arnold's in Houston? ("Matt Sisk")
+  Re: Brewsters running with wolves. (Ed Hitchcock)
+  Answer: Humor Good Luck Combo ("Craig A. Janson")
+  Re: Priming Question (Dave Coombs)
+  Re: Blowoff (Bill Szymczak)
+  bulging extract cans (T1HALL)
+  All grain process (Gordon Baldwin)
+  Re:Foam city/old extract/Time in fermenter (Algis R Korzonas +1 708 979 8583)
+  New Brewer Questions ("Patrick E. Humphrey 708-937-3295")
+  Male/female brewing (kit.anderson)
+  NDN: Homebrew Digest #1585 (November 22, 1994) (Gateway)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+FAQs, archives and other files are available via anonymous ftp from 
+  sierra.stanford.edu. (Those without ftp access may retrieve files via 
+  mail from listserv`at`sierra.stanford.edu.  Send HELP as the body of a 
+  message to that address to receive listserver instructions.) 
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: 22 Nov 1994 00:05:13 -0000
+From: Gateway`at`foxmail.gfc.edu (Gateway)
+Subject: NDN: Homebrew Digest #1584 (November 21, 1994)
+
+
+Sorry. Your message could not be delivered to:
+
+
+ymoriya,George Fox College (The name was not found at the remote site. Check
+that the name has been entered correctly.)
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 12:35:12 +0100
+From: Fredrik.Stahl`at`mathdept.umu.se (Fredrik Stahl)
+Subject: Colour Formulas
+
+
+
+
+Hello everybody,
+
+
+I hope you can help me out on this one. Looking at colour formulas in my
+different articles, books and programs, I realized that there seem to be at
+least two different methods to estimate the colour of your brew from the
+colour potential of the grains.
+
+
+
+
+Dave Miller (in The Complete Handbook of Home Brewing) uses:
+
+
+  potential * modifier * %grain * OG / 40
+
+
+summed over all the grains,
+
+
+where
+
+
+  potential = colour potential of the grain, unit L
+  modifier = factor giving the darkening of wort during boil, estimated as 1.25
+  %grain = percent of total grain weight
+  OG = original gravity of wort in points
+  40 = gravity of laboratory test wort used to obtain the potentials.
+
+
+
+
+Darryl Richman (in The Brewer's Worksheet, Excel spreadsheet available at
+Sierra) uses:
+
+
+  potential * grain_weight / total_volume
+
+
+summed over all the grains,
+
+
+where the potential now has the unit L * gallon / lbs.
+
+
+
+
+MPM (sample excel spreadsheet found at Sierra, origin unknown) uses the
+same as Darryl Richman, except for a correction if the colour estimate is
+>10:
+
+
+  corrected colour = 14.6713 * Log(colour_estimate) - 4.6713
+
+
+
+
+Here are colour potentials for some grains from the different sources:
+
+
+
+
+                Miller          Richman         MPM
+                ????            L*gal/lb        L*gal/lb
+- --------------------------------------------------------------------
+English Pale    3               3               3
+Roasted Barley  530             397             500
+Chocolate       350             397             400
+Munich          10-20           5.5             13
+2-row           1.6             2.0             1.7
+
+
+Of course, the colour potential may vary for a specific grain but Richman's
+values seem to be generally lower. (Please don't show this to the people at
+the mathematical statistics department - they'd beat me blue and yellow and
+I'd end up competing with the Swedish flag :-{O> )
+
+
+Well, sorry about the length of this. It may not be so important (the
+colour is just a very rough estimate anyway) but I'd really like to get
+things sorted out.
+
+
+Response by private e-mail is fine - I'll post a summary.
+
+
+TIA
+
+
+Fredrik Stahl (Should be a ring there), Math. Dept., Umea University, Sweden
+fredrik.stahl`at`mathdept.umu.se
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 08:29:38 -0500
+From: Bob Monroe <monroeb`at`cosmos.uicc.com>
+Subject: Pete's Wicked Ale clone
+
+
+Last month, Rick Gontarek submitted the following recipe for a clone of
+Pete's Wicked Ale. He called it "Rick's Wicked Ale." I would like
+to say that I used Rick's recipe with only minor variations and
+at bottling time last night, it tasted GREAT! I can't wait to dig into
+it. I would highly recommend Rick's recipe, which I have included below
+(with credit to Rick of course). The only change I made really was to
+dryhop with a little leftover cascades I had around the house.
+
+
+Give it a try.
+
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Bob Monroe                          |  
+Senior Engineer                     |  PH: (603) 429-8596
+Unitrode Integrated Circuits Corp.  |  FAX: (603) 424-3460
+7 Continental Blvd.                 |  e-mail: monroeb`at`uicc.com
+Merrimack, NH 03054-0399            |
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+Date: Tue, 18 Oct 1994 7:38:16 -0400 (EDT)
+From: "Rick Gontarek, Ph.D." <GONTAREK`at`FCRFV1.NCIFCRF.GOV>
+Subject: Recipes (Rick's Wicked Ale)
+
+
+Hello everyone.  A few months back I asked anyone with suggestions for a 
+Pete's wicked Ale clone to comtact me.  I received a few recipes, but as
+usual, I adapt them according to my own intuition.  I respectfully
+submit, then, my attempt to clone Pete's.  I call it...
+
+
+Rick's Wicked Ale
+
+
+8.5 lbs American 2-row pale malt
+1 lb Crystal malt (40L)
+1/2 lb Cara-pils malt
+1/3 lb Chocolate malt
+1/2 ounce Cascade hops (boil)
+1/2 ounce Brewer's Gold hops (boil)
+1/2 ounce Cascade hops (finish)
+300 ml yeast starter- Wyeast 1056
+
+
+Mash grains in 3.5 gallons of water at 75 degrees Celsius (brings temp
+to 67 degrees C).  Hold at 67 degrees C for one hour until conversion is
+complete.  Sparge with 5 gallons of water at 77 degrees C.  Boil sweet
+wort for one hour with boiling hops.  Turn off heat, add finishing hops
+and steep for 15 minutes.  Cool, strain into fermenter, bring volume up to
+5.5 gallons.  Pitch yeast.
+
+
+***Notes***
+Someone suggested I use Chinook hops, but my bottle of Pete's said that
+it was made with Brewer's gold hops.  The o.g. was 1.050, f.g. was 1.015.
+After two months in the bottle, a side by side comparison was made, and
+I proudly proclaim that my beer comes close.  The chocolate flavor was
+very fresh.  Others suggested dry-hopping, but I preferred the chocolatey
+aroma to the beer in this case.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 94 09:27:24 est
+From: Robert_Ser`at`ceo.sts-systems.ca
+Subject: A Beer In Search of a Style (or Name)
+
+
+
+
+CEO file contents:  
+Greetings, fellow HBDers!,
+ 
+    Following Ulick S.'s recent request for more posts to the HBD,
+I thought this might be a good time to submit my first post... I
+hope you'll find my question amusing, if not challenging. 
+    Last week I brewed, well, a beer. Kind of a leftover thingy...
+After buying an 8 Kg (about 18 pounds for the metrically
+challenged) bucket of Edme light LME at the incredible price of
+30$ Cdn, and brewing a bitter and a brown ale two months ago, I
+found myself with about 1.5 Kg (3.25#) of leftover malt. I also
+found a beer kit can (Armstrong's Pilsner) that had been lying
+around my basement for about 9 months. My wife, who was getting
+tired of having this mostly empty bucket taking up a lot of room
+in the fridge, suggested that I combine the beer kit can with the
+leftover Edme LME to use up the old malt and make room in the
+fridge... "No!" I cried out in complete horror! "I can't combine
+English malt with a Pilsner kit! That would ruin the style!"...
+But to no avail: she convinced me (she has quite a pretty smile
+and can be very persuasive ;-) ). I wanted something 'German'
+tasting, and this is the recipe I came up with:
+ 
+For 5 US gallons:
+ - 1 3.75# can of Armstrong's Pilsner beer kit (well hopped)
+ - 3.25# of Edme light LME
+ - 3/4# of Munich malt (steep in 150F water for 30 mins)
+ - 1/2 oz of Hallertauer hop plugs (bittering at -60 min)
+ - 1/2 oz of Saaz hop plugs (flavour at -15 mins)
+ - 1/2 oz coriander at -7 mins (yes - I fell for that coriander
+  thing. I brewed the day before Al K. mentioned that the whole
+  thing was somewhat of a joke)
+ - 1/2 oz of Hallertauer hop plugs (aroma at -2 mins)
+ - Wyeast 1338 (European Ale yeast)
+
+
+OG: 1048
+
+
+   Here is my problem: I have no idea what style of beer this is!
+Not bitter enough, too light colored and too hoppy for an Alt.
+Can't be a lager of any kind because of the yeast I used... Would
+someone be kind enough to help me out? If this is nothing else but
+an 'Ale', how about helping me come up with an interesting name
+for it? (I don't know... Leftover Ale? Empty the Fridge Brew?)
+ 
+TIA
+Rob in Montreal
+Robert_Ser`at`ceo.sts-systems.ca
+Robert Servranckx
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 94 09:39:06 EST
+From: Allan Rubinoff <rubinoff`at`BBN.COM>
+Subject: blow-off
+
+
+In HBD #1585, Steve Tinsley (stinsley`at`ti.com) writes, regarding the use
+of a blow-off hose:
+
+
+>you are blowing off active
+>yeast through your hose (this applies only to top-fermenting ale yeasts).
+>A few months ago, I broke my primary fermenter, narowly escaping major
+>lacerations, and had to purchase another one.  The guy at the homebrew
+>shop suggested I get a 7 gallon carboy for use with my 5 gallon batches,
+>that way the active yeast rises and falls, and expends all of its energy
+>on the beer, not on a journey through the blowoff hose.  Any rebutalls 
+>to this line of thought?  Do the "bad hop oils" really make a difference 
+>here?
+
+
+This seems to be a religious issue among homebrewers, but I'll throw in
+my two cents.  I ferment 3-gallon batches in a 5-gallon carboy, with no
+blow-off.  I used to use a 3-gallon carboy with blow-off, but switched
+because I thought the head retention of my beers was suffering.
+
+
+I don't know whether you lose much yeast using a blow-off, but I believe
+you lose a lot of the proteins responsible for head retention.  The
+krausen that forms on the top of the beer during fermentation is the
+same stuff that makes the head on your finished beer.  During blow-off,
+you lose a lot of krausen.
+
+
+I have not noticed any detrimental effect on the flavor of the beer
+since I made this change.  (I brew only ales, so the beer never sits on
+the trub for more than two weeks; perhaps it takes longer for the off
+flavors to develop.)  And though it may be just coincidence, my beers
+have had better head retention since I stopped using a blow-off.  
+
+
+I know most commercial brewers use blow-offs, but I wonder where the
+hose is attached to the fermenter.  I suspect at the bottom, not the
+top.  If that's so, this would mean that trub would get blown off,
+rather than krausen.  
+
+
+Allan Rubinoff
+rubinoff`at`bbn.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 09:55:12 +0500 (EST)
+From: Edward Bockman <ebock`at`telerama.lm.com>
+Subject: Low S.G.
+
+
+I attempted to brew a white beer this weekend, and am afraid that my mash 
+didn't go too well.
+The mash contained 4.5 lbs of German Pilsner, 4.0 lbs of unmalted wheat, 
+and .5 lbs of oats.
+Mashed in at 120F, rested for 20 minutes, converted at 150F for 1.5 
+hours, and mashed out at 176F.
+
+
+The reason I let the conversion go for so long was that it didn't look 
+like anything was happening.  The sparge (5.5 gallons) went very 
+quickly.  After boiling, etc. my SG was only 1.028.  
+
+
+I'm pretty sure that I did not get good conversion.  Does anybody have an 
+explanation... Was enzyme concentration too low? This is the first time I 
+used the Phil Mill to crack the grains... The husks all looked cracked, 
+but could it have left the inside to whole?  Any suggestions welcome.
+
+
+Thanks
+
+
+Edward Bockman (Pittsburgh, PA)
+  
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 10:33:41 -0500
+From: dsetser`at`nttfsrv.gsfc.nasa.gov (Dave Setser)
+Subject: Kegs to Bottles
+
+
+I've just purchased all the equipment necessary for kegging my homebrew,
+and love the convenience.  The one problem that I've encountered is
+that of bringing samples to club meetings, friends, etc.  Does anyone
+know of a method whereby I can condition my beer in the keg, and then
+use the keg to fill a limited number of bottles?  Common sense tells
+me that if I just dispense to the bottle and cap it, I'll have problems.
+I'd appreciate any response - the more detailed, the better.  Thanks
+in advance!
+
+
+Dave Setser
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 94 10:43:58 EST
+From: uswlsrap`at`ibmmail.com
+Subject: Old extract / persistent bubbles                                 
+
+
+- -------------------- Mail Item Text Follows ------------------
+
+
+To: I1010141--IBMMAIL
+
+
+From: Bob Paolino               Research Analyst
+Subject: Old extract / persistent bubbles
+
+
+Peter at BCIT asks about old cans of extract:
+
+
+I wouldn't use them for beer, particularly not for a batch I cared about. Now,
+if you were going to make a batch of generic non-descript beer for a party of
+non-beer types, you might use it if you were willing to risk the time and
+effort that it may or may not be very good. If the people who are drinking it
+usually swill down Buttwipers/Miller/Coors/Molson Light, they might think it's
+great even if it isn't your best effort. That'll have to be your call, of
+course.
+
+
+But here is a possible use for them--yeast starters. Boil up a can of this
+stuff (with some hops), diluted to give you about 1.040 or so, and can/bottle
+the wort. I don't go to the bother of canning jars and that process, although
+it's said to be the preferred method. When I make a batch of starter wort to
+put away for future use, I half-fill (okay, 1/2 to 2/3) sanitised 22 ounce
+bottles and cap them. I keep them refrigerated, but that probably isn't
+absolutely necessary, particularly if you "can" them. When I'm ready to get
+some yeast going, I pull out a bottle of wort (far enough in advance to let it
+warm to room temperature), flame the top of the bottle,and pour the wort and
+the  yeast (either from the plastic vial it's sold in or yeast previously saved
+from primary fermentation) into a sanitised 1/2 gallon bottle.  After aerating
+it, I cover the mouth of the bottle with a few layers of foil
+
+
+As for using _old_ extract, it ought to be okay for that purpose. But
+look at/smell/taste the extract or the wort you make from it. If it seems off,
+get rid of it.
+
+
+ - - - - - - - - - -
+
+
+Bruce at Virginia asks about the airlock that won't stop:
+
+
+It's hard to know what to tell you without knowing more, but here are a
+few things to consider.
+
+
+1) What's the fermentation temperature? Warm liquids don't hold CO2 in
+solution as well as cooler ones.
+
+
+2) What's the gravity? Is it still pretty high or is it in the expected
+range for a finishing gravity for the style you're brewing? If it's low
+enough, go bottle it.
+
+
+3) Do you have an infection or a wild yeast fermenting what should be
+unfermentable? Does it taste/smell okay?
+
+
+Other comments: don't follow instructions on a can of extract. Brew it right
+instead! Don't use corn sugar in your beer unless you have a good reason to use
+it. Use two cans of extract, or supplement it with some plain dry or liquid
+extract.
+
+
+Don't prime by putting a spoon of sugar in the bottle. Instead dissolve the
+corn sugar in boiling water (I use 1/3 to 1/2 cup for a 4-5 gallon batch. 3/4
+cup is typically recommended, but I find that too carbonated. YMMV.) and put
+that in your bottling bucket as you begin to rack from secondary. You'll get
+more consistent results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hope something here solves your mystery.
+
+
+Now go have a beer,
+
+
+Bob Paolino / Disoriented in Badgerspace /uswlsrap`at`ibmmail.com
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 11:01:15 -0500 (EST)
+From: "nancy e. renner" <nerenner`at`umich.edu>
+Subject: Priming, blowoff
+
+
+(From *Jeff* Renner)
+There have been several questions lately about long bubbling secondaries, 
+high FG, over/under priming, etc.  Let me offer my ideas.  First, batch 
+priming is more precise than adding sugar to each bottle.  It does carry 
+some risk of varying carbonation levels due to poorly mixed priming 
+solution.  I boil my priming sugar or malt in a couple of cups of water 
+and let it cool (covered, in a water bath sometimes) in an oversized 
+container while I set up my siphoning and bottling equipment.  Then, 
+mmidway through racking from my secondary to my priming container, I stop 
+and siphon a few cups beer into the priming solution, then siphon this 
+into the priming container, then finish racking.  This avoids much of the 
+problem of thermal and density stratification.  Then I gently stir the 
+primed beer.  You don't have to worry about oxidation.  The beer is 
+probably giving off CO2 from the agitation and this blankets the 
+surface.  Besides, O2 will be quickly metabolized by the yeast.
+
+
+As far as waiting until the bubbles completely stop, don't bother unless 
+you want to age the beer anyway (and I think there are advantages to this 
+ -clearer beer being one).  Once a minute can go on forever.  Two causes 
+that come to mind are (1)the slowly fermenting sugars that some extracts 
+have (or some mashes produce), and (2)wild yeasts that may slowly ferment 
+some complex sugars.  Either way, you may want to cut down on your 
+priming sugars if you expect to keep these beers a long time.  Over time, 
+they will become drier and more carbonated.  Unless your bottles are 
+weakened from abuse, the worst that will happen is gushing.
+
+
+Adam Rich mentions a Laaglander beer that has stopped at 1020.  This is 
+typ[ical of this extract.  It is good as part of a recipe for increasing 
+final gravity/residual sweetness, but if used 100%, you may get an 
+unbalanced beer. 
+
+
+Eric Jaquay primed with a cup of blackstrap molasses and hates the 
+flavor.  IMO, blackstrap tastes like what it is, the waste product of 
+sugar refining.  If you have to use molasses, use one of the milder 
+types, and a lot less than a cup.  Good luck with the flavor going away.  
+I think you are in a better position to find out if it does than anyone 
+else.
+****
+About blowoff.  I like it.  I think it may reduce my bittering slightly, 
+but it seems to result in cleaner tasting, smoother beers.  I like to 
+adjust my final volume in the primary so that I get less than a cup of 
+lost beer.  Most of the brown residue sticks to the top of the carboy
+or Sankey.  Soakiong in bleach removes this.  By using a one inch hose in 
+the neck of a carboy, I eliminate 
+any danger of clog and explosions.  Potential clogs are from whole hops.  
+When I ferment in a Sankey, I attach a small hose to the stopper with a 
+short piece of broken racking tube and make sure I havent siphoned any 
+large hop pieces.  Cleaning a large hope can be done with a carboy brush, 
+but I alway soak either size in bleach water.  They always seem clean.  
+Then I boil them before reuse.
+
+
+Jeff Renner in Ann Arbor, MI c/o nerenner`at`umich.edu
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 11:08:16 -0500 (EST)
+From: Jim Busch <busch`at`daacdev1.stx.com>
+Subject: RE:yeast stuff
+
+
+Randy writes:
+
+
+<I have used (and still do) trub to start a next batch but only from the 
+primary.
+
+
+Just a nit, but while there is some trub in the bottom of the primary, 
+we are a lot more interested in yeast.  Some wash the trub away using
+"sterile" water or acid.
+
+
+<As I understand it, aeration is
+most important to achieving a quick and healthy start to fermentation.
+
+
+Which leads to more yeast cells and a faster healthier fermentation. It
+is also a significant influance on flavors in the beer as a result of
+yeast products, esters, alcohols, etc.
+
+
+Norm writes:
+
+
+<I've had this question for quite some time about stepping up your starters.
+<What's the point?  For ales OR lagers, why bother stepping up the starter
+<size?  If my final goal is two quarts of starter, I'll just make a two-quart
+<starter and pitch the Wyeast right into it.  Going from a pint to a quart to
+<two quarts (for example) seems like wasted effort to me.  If the answer is
+<"lag time in the starter", I can see some concern but not a big one.  What am
+<I missing?
+
+
+The classic approach is to step up in 10-1 increments.  So a Wyeast pack of
+50 Ml should be stepped into 500 ml.  This will result in more yeast cells
+per volume of sugar, which gives quicker growth/ferment.  I dont see a big
+difference in doing a 20-1 step with 50 ml.
+
+
+
+
+John writes:
+
+
+<If you know what you are doing, and how to handle a high pressure O2 
+<cylinder, and realize how much O2 you are putting into your environment, 
+<then I say go ahead and aerate your wort this way.
+
+
+I dont want to beat this dead horse too much, but I do want to emphasize
+that you absolutely have to have a O2 regulator on your tank.  Once you
+have this, it is as easy as a CO2 tank to control.  These regs do come in 
+both psi scales for welding and Litres/min for flow rates.
+
+
+Al asks about stoves for brewing.  This is something I have been looking
+into.  Many people I have asked like the Superb, produces 35K.  I use a
+burner I fabricated out of a line of burners from Solarflow in Ohio. I
+have also used cajun cookers but the deflector plate is important in 
+heat control as is a lot of stirring when mashing.
+
+
+Jim Busch
+Colesville, Md
+
+
+------------------------------
+
+
+Date: 22 Nov 94 10:00 CST
+From: Wolfe`at`act-12-po.act.org
+Subject: 1994 THIRSTY Homebrew Competition
+
+
+1994 THIRSTY Homebrew Competition Results
+
+
+     On November 19th, 1994, The Honorable Iowa River Society of Talented
+Yeastmasters (THIRSTY) held its first AHA sanctioned homebrew competition.
+Homebrewers from 9 states entered 104 beers or meads in the 14 style
+categories.  Best of Show was awarded to Dennis Davison of CBS for his
+Still Sweet Cyser.  His prize was a $50 gift certificate from the Home Brew
+Shop in Coralville, Iowa; a plaque; and a free entry into the first round
+of the 1995 AHA national competition.  The Best of Show runner-up was Steve
+Solik from San Jose, CA.  He also received a gift certificate from the Home
+Brew Shop and a plaque.  Third place Best of Show was awarded to Ed Wolfe
+and Carol Liguori of THIRSTY.
+
+
+     First, second, and third place ribbons were awarded in each category.
+Winners in each category are listed below.
+
+
+Barley Wine & Imperial Stout                 Belgian Ale & Dark Weizen
+
+
+First:  Randy & Julie Nessler                First:  Matt Henry
+        West Branch, IA                              Overland, MO
+Second: Dennis Davison                       Second: Jim Clayton
+        Greenfield, WI                               Iowa City, IA
+Third:  Dennis Davison                       Third:  Eddie Brian
+        Greenfield, WI                               Iowa City, IA
+
+
+Brown Ale                                    English Pale Ale
+
+
+First:  Wolfe, Liguori, & Klotz              First:  Tom Keith
+        Morse, IA                                    Evanston, IL
+Second: Peter Diltz                          Second: Eddie Brian
+        Coggan, IA                                   Iowa City, IA
+Third:  Wes Meredith                         Third:  Gary Lloyd
+        Keokuk, IA                                   Topeka, KS
+
+
+American Pale & English Bitter               Scottish Ale & CA Common
+
+
+First:  Ed Wolfe & Peter Hanson              First:  Mark Kellums
+        Morse, IA                                    Mt. Zion, IL
+Second: Peter Diltz                          Second: Stacy Moser
+        Coggan, IA                                   Mesa, AZ
+Third:  Neil Cinnamon                        Third:  Dave Heddinger
+        Des Moines, IA                               Des Moines, IA
+
+
+Porter                                       Classic Dry & Foreign Stout
+
+
+First:  Steve Solik                          First:  Will Decker
+        San Jose, CA                                 Iowa City, IA
+Second: Mike Hansen                          Second: Greg & Madeline Chaney
+        Coralville, IA                               Prairie Village, KS
+Third:  Greg & Madeline Chaney               Third:  Marc Schneider
+        Prairie Village, KS                          Iowa City, IA
+
+
+Weizen                                       Bock
+
+
+First:  Ed Wolfe & Carol Liguori             First:  Roger Meredith
+        Morse, IA                                    Decatur, IL
+Second: Dave Schinker                        Second: Dennis Davison
+        Wapello, IA                                  Greensfield, WI
+Third:  Steve Solik                          Third:  Steve Solik
+        San Jose, CA                                 San Jose, CA
+
+
+American Lager                            German Lagers & Ales
+
+
+First:  Wayne Bowman                      First:  Meredith, Houston, Kearns
+        Iowa City, IA                             Keokuk, IA
+Second: Tom Dey & Carl Froeschle          Second: Steve Solik
+        Blue Springs, MO                          San Jose, CA
+Third:  Wayne Bowman                      Third:  Dennis Davison
+        Iowa City, IA                             Greenfield, WI
+
+
+Fruit Beer & Mead                            Herb/Specialty/Smoked Beer
+
+
+First:  Dennis Davison                       First:  Tom Keith
+        Greenfield, WI                               Evanston, IL
+Second: Mark Granner                         Second: Tom Keith
+        Iowa City, IA                                Evanston, IL
+Third:  Tom Keith                            Third:  Tom Keith
+        Evanston, IL                                 Evanston, IL
+
+
+
+
+     THIRSTY would like to thank all of the judges, stewards, and brewers
+who helped make this competition a success.  We would especially like to
+thank the following businesses for sponsoring the 1994 THIRSTY Homebrew
+Competition:
+
+
+     The Home Brew Shop, Coralville, IA  (319) 351-4487
+     S.P.S. Beer Stuff, Cedar Rapids, IA  (spsbeer`at`ins.infonet.net)
+     Fitzpatrick's Alehouse, Iowa City, IA  (319) 356-6900
+     David's Wines, Cedar Rapids, IA  (319) 363-8348
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 10:02:38 -0600
+From: "Matt Sisk" <mps`at`shell.com>
+Subject: Yeast from St. Arnold's in Houston?
+
+
+Has anyone in the Houston area tried to get yeast from the St. Arnold's
+microbrewery?  If so, what were the results?
+
+
+Matt Sisk                                                mps`at`shell.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 12:59:46 -0400 (AST)
+From: Ed Hitchcock <ehitchcock`at`sparc.uccb.ns.ca>
+Subject: Re: Brewsters running with wolves.
+
+
+
+
+WRT Kit Anderson's article:
+        Okay, mildly funny.  My wife, however, was not impressed.  I 
+suspect there might be some serious brewsters out there who were also 
+offended.  Unfortunately, I take a firm stance against censorship, so 
+keep 'em coming.  I'll just cringe at the female stereotyping and hold my 
+tongue from now on...
+
+
+   ----------------
+Ed Hitchcock, now on the right side of the student/staff division
+ehitchcock`at`sparc.uccb.ns.ca
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 94 12:16 EST
+From: "Craig A. Janson" <0003522158`at`mcimail.com>
+Subject: Answer: Humor Good Luck Combo
+
+
+>> If you tied buttered toast to the back of a cat and dropped it from a 
+>> height, what would happen?
+
+
+Since buttered toast always lands butter side down, and cats always land on 
+their feet if you were sure that the toast was butter side up on top of the 
+cat, you will have solved the perpetual motion question.  My guess is the cat 
+and toast combination would just spin, hovering gently above the floor.  Have a 
+homebrew, tie a peice of buttered toast to the back of a cat, relax and enjoy 
+the show.
+
+
+Craig Janson
+MCI Communications Corp.
+DEFCON
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 94 14:03:05 -0500
+From: Dave Coombs <coombs`at`cme.nist.gov>
+Subject: Re: Priming Question
+
+
+Timothy Laatsch (campus is probably getting chilly by now, isn't it?
+Been away a while now...) reports uneven priming.  
+
+
+To mix my priming solution, I rack from the secondary into a
+bottling vessel and pour the still-hot priming solution down the
+siphon tube (as you would pour down a glass rod in chem lab) in the
+early stages of racking.  This limits aeration and thermal shock
+while promoting thorough mixing.
+
+
+dave
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 14:10:27 -0500
+From: Bill Szymczak <wszymcz%ulysses`at`relay.nswc.navy.mil>
+Subject: Re: Blowoff
+
+
+In response to Thomas55`at`aol.com question about using a blowoff hose 
+Stephen Tinsley responded:
+
+
+>fermenter.  The problem with it, as it was explained to me by my friendly
+>homebrew professional, is twofold.  First, there is a contamination risk.
+>It's difficult to effectively clean a blowoff hose, and if you do, you
+>still run a greater risk of outside infection than with a high-quality
+>fermentation lock.  The second reason is that you are blowing off active
+>yeast through your hose (this applies only to top-fermenting ale yeasts).
+>A few months ago, I broke my primary fermenter, narowly escaping major
+>lacerations, and had to purchase another one.  The guy at the homebrew
+>shop suggested I get a 7 gallon carboy for use with my 5 gallon batches,
+>that way the active yeast rises and falls, and expends all of its energy
+>on the beer, not on a journey through the blowoff hose.  Any rebutalls 
+>to this line of thought?  Do the "bad hop oils" really make a difference 
+>here?
+
+
+No rebuttal, just a remark that an experiment I did and described about a year
+ago in the HBD, supports your line of thought.  I pitched my yeast starter into
+a 6 1/2 gallon batch of SG 1.041 Special Bitter, then racked into two 5 gallon
+carboys, filling one to about 3 inches from the top.  Active fermentation was
+visible in both batches after about 10 hours and the filled batch began blowing
+off after 12 hours.  After 10 days (66F) the non-blowoff batch was finished 
+with a SG of 1.011, while the blowoff batch was still at 1.020.  I bottled the
+non-blowoff batch and reracked the blowoff batch and let it sit in secondary
+for another 10 days, then bottled with a FG=1.013.  As far as "bad hop oils"
+there was only negligable differences in the two beers - some preferred the
+blowoff batch, others the non-blowoff batch, while I really couldn't tell the
+difference.  Since then I have always used my 7 gallon carboy for primary and
+will use a blowoff hose if I either fill it with more than 6 gallons or have a
+high gravity wort.  On the other hand, I feel the risk of infection using a
+blowoff is minimal, especially if your blowoff hose is soaked in a sanitizing
+solution (no need to rinse).  Also, despite the longer ferment time, using a
+blowoff didn't hurt the beer either.
+
+
+Bill Szymczak                      wszymcz`at`relay.nswc.navy.mil 
+Gaithersburg, MD                or bszymcz`at`ulysses.nswc.navy.mil
+
+
+------------------------------
+
+
+Date: 22 Nov 94 11:29:52 PT
+From: T1HALL`at`T4A.dot.ca.gov
+Subject: bulging extract cans
+
+
+You should never purchase bulging cans of extract syrup or other types of
+bulging containers with extract syrup.  You should get them for free!  The
+cause of the bulging is a wild yeast that was picked up during processing.
+>From what I understand, the store owner can remove the label or other
+packing information and get reimbursed from the manufacturer.  This summer
+I managed to get two 6 lb packages of syrup that were bulging free. The first
+I put in the refrigerator and the next morning the soft container was still
+growing so I through it in the freezer that stopped the yeast cold.  I used
+that pack in a stout and don't taste anything unusual.  The second package
+unfortunately didn't make it to fermentation, since the carboy full of fresh
+wort decided the gravitational pull was too strong and turned into a slippery
+eel just before crashing on the garage floor like a giant pumpkin spewing
+its sweet honey all over the floor.   It was ugly and what I missed was sticky
+the next day.  Oh well, live and learn.
+
+
+Jim Hall
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 10:42:25 -0800 (PST)
+From: gbaldw`at`zaphod.usin.com (Gordon Baldwin)
+Subject: All grain process
+
+
+
+
+Here is my all grain brewing process. I use this process for probably
+80% of my brewing. Total brew time is about 3 to 3.5 hours with a break
+in there for the mash. I realize there are probably lots of ways to
+improve this, but with this system I can turn out very good all grain
+ales or lagers quickly. I can even brew after work and be done in time
+to put the kids to bed.
+
+
+Materials:
+5 gallon SS pot
+8 gallon ceramic on steel pot
+zap-pap lauter tun
+long SS spoon
+Thermometer
+1/2 gallon glass measuring bowl
+6 gallon plastic primary
+5 gallon carboy
+10" strainer
+
+
+Add mash water to 5 gallon SS pot and bring it up to strike temperature.
+This is dependent on the recipe. Add the grains and add heat if
+necessary to bring it up to mash temperature. I usually mash at about
+145 deg F. Wrap the ss pot in an old sleeping bag and go away and do 
+something else. I start the mash sometimes before I go to bed at night 
+to brew in the morning, or I come home at lunch and start the mash for 
+an evenings brew session.
+
+
+When I am really ready to get brewing, I put the mash back on the stove
+and raise the temperature to about 150-155 and wrap back up in the
+sleeping bag.
+
+
+Fill the 8 gallon pot with sparge water and bring to a boil. Once the
+sparge water is boiling carefully ladle the mash into the Zap-Pap and
+add sparge water to cover the grain by 3-4 inches. Transfer the sparge
+water to the 4 gallon pot and put the 8 gallon back on the stove. (my 8
+gallon pot almost covers 2 burners). The Zap-Pap sits on a stool and the
+1/2 gallon measuring bowl sits on the floor. Recirculate about 1 gallon
+and then start carefully pouring into the 8 gallon pot. 
+
+
+Turn on the heat once there is about 1" of wort in the pot. If you go
+slow the boil should be going when the pot is about 1/2 full. Shut off
+the sparge after each bowl-full until the wort is boiling again. By the
+end of the sparge the wort has already boiled down about 1/2 gallon and
+half your boil is already done.
+
+
+Boil for an hour. During the boil is a good time to clean everything
+from the mash. 
+
+
+Near the end of the boil I start the sanatizing of the primary. 
+
+
+At 5 minutes before the end of the boil I plop the chiller in to
+sanitize. When the boil is done I run the hose from the back yard into
+the kitchen and hook it to the chiller. Chill for about 25 minutes.
+
+
+Put the strainer on top of the primary and pour the wort through the
+strainer. This does a great job of aerating, but a lot of the break
+material ends up in the primary.
+
+
+pitch the yeast, clean up the boil pot,  and you are done for the day.
+
+
+I transfer to the secondary after 2 days or whenever the foam falls back
+into the beer.
+
+
+That is my process. I realize there are lots of areas where HSA is a
+risk, but I have found that if I am careful HSA is not a problem. I
+have to splash a lot for HSA to be noticible. The benefits of this is it
+is quick and easy, and it doesn't take any expensive equipment. With the
+long mash the flavor profile is kind of a crap shoot, but I like it that
+way. When I am brewing "to style" I am a lot more careful about temp
+profiles and mash times.
+- -- 
+Gordon Baldwin
+gbaldw`at`usin.com
+Olympia Washington
+
+
+------------------------------
+
+
+Date: 22 Nov 94 19:43:00 GMT
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: Re:Foam city/old extract/Time in fermenter
+
+
+Matt writes:
+>weekend. I had kegged a batch of pale ale earlier in the week for the 
+>occasion.  It had been sitting in the fridge at about 25 psi 
+>until just before the party.  When the time came to dispense, all I 
+>managed to get from the keg were beautiful glasses of foam. (My 
+
+
+There is a direct relationship between temperature, CO2 pressure and
+volumes of dissolved CO2 in your beer.  The best discussion of this
+relationship (as well as explainations of how to adjust your hose
+lengths for a given pressure) that I've seen is in the 1992 AHA
+National Conference Proceedings, in Dave Miller's section.  I believe
+that some of this information may be in the kegging FAQ -- see the
+header of HBD to find out how to get the FAQs.  You do not have to
+increase and decrease your pressure if you have your hose lengths and
+diameters correct for the pressure you are using.  25 psi was probably
+too high a pressure for the temperature you had and the volumes of CO2
+you wanted, but the foaming had to do with not enough backpressure from
+the hose/faucet.  I store my ales at 54F, have a 6-foot, 3/16"ID beer
+hose, ending in a Cobra tap and I believe that my regulator was set to
+12psi (currently, I'm using my CO2 tank for something else and had to
+change the setting).
+
+
+***********
+Peter writes:
+>I have several cans of malt extract that I have had for about 2 1/2 years. I
+>am wondering if they are still okay to use or if they should be tossed. Is
+>there any way to tell if the extract is usable? Any tips would be appreciated.
+
+
+You can use it, but I suspect that it will be quite oxidized unless it was
+stored at near-freezing temps.  I regularly use old extract (stuff that has
+gotten too old to sell), but just for swilling beer -- nothing that I would
+serve to friends or enter in a competition.  The resulting beer is darker
+than normal for that extract and has a sort of nutty/sherrylike flavour due
+to the oxidation.
+
+
+***********
+Bruce writes:
+>Approximately one month ago I started a batch of dark English ale using a
+>canned extract. I followed the instructions and added 2.5 pounds of sugar
+>to my extract, yeast and water mixture. It has now been a month and I am
+>still waiting for the bubbler to stop bubbling. A week ago a bubble was
+>released every 1.5 minutes. Today the rate is one every 3.5 minutes. I had
+
+
+It sounds like either the extract you used was deficient in nutrients (corn
+sugar has no nutrients), you did not aerate your cooled wort enough, you
+used a very old, weak yeast or some combination of the above.  I'm assuming,
+of course, that you are not trying to ferment this "ale" at 50F.  Actually,
+some ale yeasts (like the popular Wyeast American Ale) get sluggish at
+temperatures below 63F.  I usually bottle when the airlock rate is down to
+about 1 bubble every 2 minutes, which takes about 1 to 2 weeks depending on
+the yeast, OG and temperature.  It's hard to say if your batch is done (a
+hydrometer measurement would help, but only if you know the expected terminal
+gravity -- some extracts are not very fermentable and unfamiliar brewers
+are fooled by the high FG).  If the majority of the fermentation was
+done in the first week, but then there was a three-week period of slow
+fermentation, then I would guess that you could bottle now (has the beer
+cleared, i.e. has the yeast settled out?).  If the ferment never quite got
+going, then you should probably buy a hydrometer take a reading, and send
+me email.
+
+
+If the ferment is stuck due to poor nutrition, then you can make up a good,
+well-aerated, 2 quart starter with some dry extract, maybe a small amount of
+yeast nutrient and more yeast.  Once this ferments-out, dump it into the
+primary and let this yeast finish the sugars in your wort (you can pour off
+the spent starter if you don't have room for it).  The only ways of knowing
+which extracts are high in FAN and which are not are either experience or
+there is an article in the next issue of Zymurgy which does give the FAN
+for a number of popular extracts.
+
+
+If the ferment is stuck due to underaeration or due to an old or lame yeast,
+then use the same solution as for poor nutrition, but you can probably skip
+the nutrient.
+
+
+>been the case with other batches I had brewed several years ago. Is the
+>beer ready to bottle or should I wait longer in order to avoid bursting
+>bottles after I add a teaspoon of additional sugar at the time of bottling
+>to each bottle.
+
+
+I don't recommend priming each bottle, nor should you add any more or less
+priming sugar.  I recommend siphoning the finished beer into another,
+sanitized container which contains all the priming sugar (1/2 to 3/4 cup
+of corn sugar, boiled a few minutes in a cup or two of water) and then
+siphon into bottles after stirring gently.  Incidentally, I don't believe
+there is any physical benfit from using dried malt extract for priming
+and corn sugar is considerably more easy to use.
+
+
+Al.
+korz`at`iepubj.att.com
+Palos Hills, IL
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 16:23:00 -0600 (CST)
+From: "Patrick E. Humphrey 708-937-3295" <HUMPHREY.PATRICK`at`igate.abbott.com>
+Subject: New Brewer Questions
+
+
+I am going to got out this weekend and buy the materials for my first 
+homebrew and I have a couple of questions and would appreciate any help you 
+may provide.
+
+
+1)  Charlie uses a glass carboy as a fermentation vessel, yet the Brewers
+Resource sells beginner kits with 5 gallon plastic buckets for 
+fermentation.  Which should I use/buy?
+
+
+2)  When people use the 5 gallon buckets, do they have a blow-off tube into 
+a milk jug or do they just leave the fermentation foam (krausen?) in the 
+bucket?  I read that it is a good idea to have this bubble out to get 
+rid of some nasty off flavors.
+
+
+Thanks for any help,
+
+
+Pat Humphrey
+New Brewer  :-)
+
+
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 94 15:49:10 -0400
+From: kit.anderson`at`acornbbs.com
+Subject: Male/female brewing
+
+
+
+
+TO: homebrew`at`hpfcmi.fc.hp.com
+
+
+T>From: tmmpci`at`mcs.com (Todd McGuinness)
+T>Subject: Male/Female Brewing
+
+
+T>Kit,
+
+
+T>Glad to hear that there actually are women brewers in our midst.  I
+T>would like you to know however, not all of us Male brewing types
+T>have Significant others to clean up after us...  Actually most of
+T>the Brewers I know are single and they all clean up their own
+T>messes.   
+
+
+T>Now, I'll explain why we are single:
+
+
+T>A.)  Most women don't get it when it comes to brewing males!  The
+T>passion, the quest,  the reward :-).
+T>B.)  We drink a lot of beer and not many women like that.  
+T>C.)  We usually brew 2 times a week,  not much time for anything
+T>else ( well, ok, we might make time for some things. :-))
+T>D.)  We like to tinker with brewing stuff - books, tools, new stuff,
+T>spigots, chillers, kegs, and the like.  So that takes another
+T>        hunk of our time.
+
+
+
+
+T>So, if you know any eligible female type person, I won't even
+T>include the brewing thing in this one, that actually can stand to be
+T>around somebody like this,  I have lots of eligible MAN friends that
+T>would love to be appreciated for these noble traits!  
+
+
+T>One thing we don't enjoy: is being told that our beer is too big,
+T>too hoppy on occasion, and too flavorful.  By the way,  I have been
+T>told this b4.  
+
+
+T>We also don't want to hear: why don't you make a light beer?  A true
+T>Brewer loves all styles,  from Pilsner to Imperial Stout,  and
+T>will usually make beers for the season -- I know I probably just
+T>insulted somebody, but hey, WE BREW THEREFOR WE ARE BREWERS ;-).
+
+
+T>Well that's my 2cents.
+
+
+T>Hoppy Brewing!
+
+
+T>Todd  M. McGuinness                                Beer is good
+T>food! PCI Direct
+T>A.) usual disclaimer - MOAMO    
+T>Chicago, IL 60610                                     Who let in the
+T>Moose! tmmpci`at`mcs.com                                          
+
+
+
+
+I wanted to post this response following the Brewsters' article. Maybe 
+the HBD needs to have a personals section.
+- -------------------------------------------------------------
+SWM 40-something homebrewer, "portly", balding, seeks SWF 
+early 20's, athletic build, who likes televised sports
+and washing bottles. Send picture of wort chiller.
+- -------------------------------------------------------------
+
+
+I also wanted to say that (1)the Brewsters' article is a repost, (2)I 
+did not write it, (3)and I am not female. With an androgenous name 
+like "Kit" it is  a 50/50 shot in cyberspace. It does make for a lot 
+of propositions from both sides of the aisle when in Chat mode.
+
+
+Kit Anderson
+Bath, Maine
+<kit.anderson`at`acornbbs.com>
+*
+- ---
+ * CMPQwk #1.4 * UNREGISTERED EVALUATION COPY
+
+
+------------------------------
+
+
+Date: 22 Nov 1994 13:08:37 -0000
+From: Gateway`at`foxmail.gfc.edu (Gateway)
+Subject: NDN: Homebrew Digest #1585 (November 22, 1994)
+
+
+Sorry. Your message could not be delivered to:
+
+
+ymoriya,George Fox College (The name was not found at the remote site. Check
+that the name has been entered correctly.)
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1586, 11/23/94
+*************************************
+-------

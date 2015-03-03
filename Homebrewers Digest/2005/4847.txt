@@ -1,0 +1,546 @@
+﻿Date: Thu, 15 Sep 2005 00:00:03 -0400
+Subject: Homebrew Digest #4847 (September 14, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4847                             Wed 14 September 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Re: more esters, and also acids/pt1. ("-S")
+  Re: more esters, and also acids/pt2. ("-S")
+  searching HBD ("Peter A. Ensminger")
+  esters, acids, and practical ideas for fermenting beer (Matt)
+  La Binchoise ("Chad Stevens")
+  RE: health-beneficial properties of hops (jmcdonald)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 14 Sep 2005 04:37:56 -0400
+From: "-S" <-s at adelphia.net>
+Subject: Re: more esters, and also acids/pt1.
+
+
+Uh Oh  8klimit bit me.
+ ...
+Matt asks for more on esters ...
+
+
+> Among other things, Steve explains how "stuck ferments" (shortage of
+> some growth factor other than sugar causes yeast to stop growing) are
+> likely to lead to increased acetate esters in practice.
+
+
+Not just acetate esters, esters generally.
+
+
+I referred to the class of acylCoA, not just the specific acetylCoA
+molecule.  acetylCoA is the rather hairy CoenzymeA molecule attached to the
+part of the acetic acid molecule minus a hydroxyl group (-OH)
+{ http://en.wikipedia.org/wiki/Acetic_acid ,
+http://en.wikipedia.org/wiki/Image:Acetyl_Coenzyme_A_1.jpg }.
+
+
+AcylCoA is similar but it can have ANY acyl group attached in place of the
+acetyl group.  An acyl group is just an organic ion with a terminal carboxyl
+group { terminal carbon attached to a carbonyl oxygen (=0) }.   These are
+formed from carboxylic acids, like acetic.  The other large class of
+carboxylic acids in yeast are fatty acids which also form fatty acylCoA
+molecules and then fattty esters.
+
+
+- -- 
+
+
+So here is the ester story again in in shorthand.
+a/    R1.COOH + ATP + CoASH -> R1.COSCoA  +ADP + PPi { via acytlCoA
+synthetase }
+b/    R1.COSCoA + R2.OH -> R1.COO.R2 + CoASH  { via R2 specific alcohol
+transferase }
+
+
+Step a/:  R1.COOH is the carboxylic acid, and could be acetic or a fatty
+acid or something else.   ATP is merely supplies energy to this step and
+results in the AMP and PPi residue.  CoASH is a shorthand for the
+unencumbered CoenzymeA molecule.  That notation may be clear if you realize
+that the "working end" of CoA is a sulfur 'S' atom and in the free state has
+a thiol -SH terminus.  The resulting product, ( R1.COSCoA ), is the acylCoA
+where "R1.CO" is the residue from the original carboxylic acid with the
+terminal carbonyl, and the rest is the CoA ion in place of the missing
+hydroxyl.
+
+
+Step b/: The acylCoA molecule (R1.COSCoA) interacts with an alcohol (R2.OH)
+via an alcohol transferase enzyme(AAT) and the result is the ester
+(R1.COO.R2) and the freed CoASH.  Note that ALL esters have this general
+form ( http://en.wikipedia.org/wiki/Ester ).
+
+
+So this is a general mechanism for esters in beer, not just the acetate
+esters.
+- --
+
+
+Most of the acetic acid for for the formation of acetate esters during
+fermentation comes from pyruvate to acetaldehyde converted via acetaldehyde
+dehydrogenase into acetic acid.  Many books will state that the acetylCoA
+arises directly from the action of pyruvate dehydrogenase enzyme on pyruvate
+(bypassing step a/) however this dehydrogenase enzyme is absent during
+fermentation ["Brewing Yeast & Fermentation", Boulton&Quain].  AcetylCoA may
+come from catabolizing amino acids, or beta-oxidation of fatty acids, but
+that's a minor source of acetylCoA in normal fermentation.
+
+
+- --
+more to follow ...
+
+
+ -S
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 14 Sep 2005 04:42:23 -0400
+From: "-S" <-s at adelphia.net>
+Subject: Re: more esters, and also acids/pt2.
+
+
+continued ...
+
+
+> In the interesting theory reported by John Palmer, an increase in total
+> growth leads to the production of more AAT enzymes, thus to more esters
+> produced "after the growth phase."
+
+
+Weak tea.   There is no evidence ever presented, and it is certainly not
+adequate to explain experimental results.   I suspect that the big "growth
+cessation" ester term is controlled by the yeast final biomass (not growth)
+and that the "background" ester term is probably too complex to parse out
+easily but is dependent on either the acylCoA level or the AATase level and
+early on the alcohol level  - which ever happens to be rate limiting at the
+moment..
+
+
+The paper "A flavor model for beer fermentation", by Gee & Ramirez(JIB,
+v160, pp321-329) attempts to numerically model many factors (sugar uptake,
+yeast mass, fusels, esters, alcohols, certain VDKs) and they they perform
+some test ferments and attempt to derive the coefficients for their model.
+The model assumed that the ester ethyl-acetate would be proportional to
+sugar uptake and therefore similar to their model for biomass growth.  Some
+other esters not dependent on acetylCoA were modelled as proportional to
+growth.  The model matched many experimentally measured parameters
+wonderfully, but the fusel model was a bit off and the ester model wasn't
+great at all.    It was clear that *all* ester production was very low
+during the first 50 hours of the lager fermentation and many quite low
+through 75 hours, but the model predicted an early ramp-up in line with
+yeast growth.  That didn't happen, so the model that the "background" esters
+rate is proportional to growth is fundamentally broken.
+
+
+Also read "Lipid metabolism and the regulation of volatile ester synthesis
+in s.cerevisiae", Thurston et al, (JIB v88, pp90-94).  This paper presents
+examples with graphics of measured growth *rates* and ester *rates* and it
+is clear as a bell that while this ale yeast fermentation hits an
+exponention plateau of about 12% biomass growth per hour from hours 8-21,
+then drops off rapidly specifically due to oxygen/sterol limitation.
+Meanwhile the ester levels chug along at a backgroung rate, then have a big
+spike centered around hours 21-22 and drops off rapidly.   You can't see
+this data and still believe all these mommilies and malarcky about growth
+and esters.   There is a growth related background rate certainly but there
+is also a clear early period with positive growth and no esters. Then there
+is also a huge but brief ester production rate when growth is halted by a
+non-carbolite growth limiting factor.   This growth cessation ester
+production periods is probably common when O2 and aminos and sugars all
+compete as the final lmit to growth in normal Hbrewing.
+
+
+
+
+> 1.  I think pitching rate affects total growth ONLY because of the
+> small amount of energy required for (non-growth-related) background
+> maintenance of the cells.
+
+
+Right.  Your yeast have to eat-up so much available sugar energy and
+assuming we keep the yeast happy this is primarily used for and wort
+fermentables is almost proportional to total biomass growth.
+
+
+> But if
+> there is a pool of Acetyl CoA laying around after growth stops, and AAT
+> enzymes were produced in proportion to growth, then depending on
+> reaction and denaturing rates, etc, small amounts if increased growth
+> could lead to disproportionately large increases of acetate esters.
+
+
+It's not a static pool.  acetylCoA will continue to be produced after growth
+stops if sugars->pyruvate->acetaldehyde->acetic->acetlyCoA path was still
+available (or alternatives).  The rate of production will fall, as the other
+uses for fatty acids stop.  We see this all the time in stuck fermentations.
+There is a still a little CO2 produced as fermentation proceeds to create
+maintenance energy levels.  This means
+sugar->pyruvate->acetaldehyde->ethanol is working.  There is no reason to
+think that the acetaldehyde dehydrogenase isn't still active for producing
+acetic->acetaldehyde too.
+
+
+More important, I don't buy that AATase is produced in proportion to growth,
+only a modest amount is needed till growth ceases and organisms are frugal.
+
+
+The production of esters from carboxylic acids and alcohols is energetically
+expensive, so there is a huge question looming - why do yeast bother ?   Why
+do they work to get rid of carboxylic acids ?  One theory is that the yeast
+do this to get rid of medium length fatty (carboxylic) acids.  Long fatty
+acids are made two carbons at a time from acetylCoA *only*(almost).
+Normally this lengthening stops around 16 to 18 carbons in length, and these
+long free fatty acids are joined, three at a time to glycerol and this
+combined molecule is an acyl-tri-glycerides (fat) which makes up the cell
+membranes.  The very short enoic acids (acetic and propanoic for example)
+aren't a big problem.  The headache is that medium length FA (C8 - C14) are
+toxic, so when growth stops these unfinished long FAs require hazmat
+treatment.  They are converted to esters to detoxify them.  AAT activity is
+probably only critical to yeast survival AFTER they have toxic FAs and have
+no means to lengthen them by the growth enabled mechanism.  I'd wager that
+AAT level rises rapidly as growth ceases.
+
+
+Unless ethanol and fusels are more toxic than the literature indicates,
+there is no reason yeast should ever waste ATP and acetylCoA by converting
+these to esters.  It's possibly just a side-effect of the short-FA removal
+scheme above.
+
+
+> 2. IS there a pool of Acetyl CoA lying around after growth stops?
+
+
+It's not statically, "lying around" (see above).  All organisms have a vast
+number of "feedback loops" implementented as enzymes and genetic expressions
+of enzymes.   When growth stops and the major use of acetylCoA to make fatty
+acids ceases, then the acetylCoA level will rise until some feedback
+mechanism causes the acetylCoA creation rate to slow and match the new lower
+consumption rate.   Of course there may be other feedback mechanisms
+"upstream" which stop the production with growth, but that doesn't seem to
+be the case.
+
+
+> 3. Do fatty acids ever leave the cell walls and if so what is their
+> fate?
+
+
+Cell *MEMBRANE* (the wall is just a skeleton) has long
+chain FAs formed into di- & tri-glycerides.  These can be mobilized and
+oxidized for energy (beta-oxidation, fat burning), but this effectively
+never happens in the fermenter.  The amount of mid & long FAs in beer is
+measured in parts per billion.  Short carboxcylic acids (hexanoic C6 and
+below) may reach a few ppm in beer, but don't come from the membrane.
+
+
+> 4. More practically--can I increase the iso-amyl acetate in my beer,
+> without increasing (and in fact reducing) isoamyl alcohol levels, by
+> simply adding acetic acid to the wort?  I assume not, because how would
+> it get into the yeast cells and how would it get transformed to
+> Acetyl-CoA... but who knows?
+
+
+I *suspect* that the acetic acid might make it into the yeast cells, but I
+doubt it would increase acetylCoA level levels in a significant way.   Might
+be fun to try.    An easier route to produce high ester levels has already
+been outlined here.   Brew like a newbie minus the lack of sanitation
+control.  Just be real nasty to your yeast.  Underpitch, under-oxygenate,
+ferment a little too warm, don't use any nutrient, bump up the SG a few
+points.  Of course you must start with a yeast which can produce the
+right AAT or nothing will work.
+
+
+ -S
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 14 Sep 2005 11:11:30 -0400
+From: "Peter A. Ensminger" <ensmingr at twcny.rr.com>
+Subject: searching HBD
+
+
+Try this:
+
+
+1) Go to HBD homepage: http://hbd.org/
+2) Click "Search" (under "Site Features" in left column)
+3) Type in your search term(s)
+
+
+Voila!
+
+
+Cheerio!
+Peter A. Ensminger
+Syracuse, NY
+http://hbd.org/ensmingr/
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 14 Sep 2005 10:11:21 -0700 (PDT)
+From: Matt <baumssl27 at yahoo.com>
+Subject: esters, acids, and practical ideas for fermenting beer
+
+
+Fredrik and Steve provide a lot of thoughts on my previous questions. 
+For people like me who haven't had much exposure to the biochemistry
+(and want it), the wikipedia.com pages that Steve included links for
+are great.  Now if only those JIB papers were available online as well.
+
+
+Anyway, I understand very well that in cases where some growth factor
+other than sugar causes yeast growth to slow, we get a big spike in
+ester production.  I am tempted to call this a "stuck ferment ester
+spike," and then ignore it because even when I want lots of esters I
+plan to avoid sticking my ferments.  BUT... maybe I'm going too far,
+because maybe an ester spike happens even in healthy, sugar-limited
+ferments as well.  (Also, perhaps there is no such thing as a
+completely sugar-limited ferment in practice.)  This was really why I
+asked whether there are still pools of Acetyl-CoA available after
+growth stops--but I forgot to specify that I am most interested in the
+case where growth stops *because the sugar runs out*.  Any thoughts on
+that?  If ester production is (almost) always dominated by a late
+spike/hump then I'll think a lot less about the "background"
+production.
+
+
+Also: Steve says "Most of the acetic acid for the formation of acetate
+esters during fermentation comes from pyruvate to acetaldehyde
+converted via acetaldehyde dehydrogenase into acetic acid."  An
+acetaldehyde molecule has one less oxygen than an acetic acid molecule.
+ Where does the oxygen come from to make this reaction happen?
+
+
+A Practical Idea:
+Let's say, first of all, that we pitch an adequate amount of healthy
+yeast into a sufficiently nutritious/aerated wort, so that the yeast
+are still happy and healthy when the sugar runs out.  Let's also say
+that we want to minimize diacetyl and fusel levels.  Finally let's say
+that we can easily raise the ferment temp to at least the low 70s
+whenever we want, just by leaving our carboy at room temperature and
+letting the yeast do its thing.  How do we use the ferment temp to
+control esters?
+
+
+If we want to minimize esters we can keep the temperature as low as
+possible for the yeast strain we're using.  Great.
+
+
+The point I want to make is that it *seems to me* that we should PITCH
+THE YEAST INTO VERY COOL WORT EVEN IF WE WANT LOTS OF ESTERS.  By "very
+cool" I mean the low end of our yeast strain's temp range.  If esters
+are not really produced early on, then it costs us nothing in terms of
+esters if we keep the initial ferment very cool to minimize diacetyl
+and fusel production.  This may seem obvious, but I for one have in the
+past believed things like "The Belgians ferment at 80F," and found out
+later that breweries like Westvleteren and Unibroue pitch much cooler
+and only later let the temp rise to startling heights.  I've also read
+things like "The Belgians ferment at 80, but that didn't work for me so
+I ferment Belgian styles at 64," and wondered whether such a strategy
+really gives enough esters.  The concept of a single-temp ferment seems
+convenient but flawed.  (Yes, I know I am probably not the first to say
+this.)  
+
+
+Ringwood yeast seems like another possible application.
+
+
+Matt
+
+
+
+
+
+
+
+
+                
+
+
+
+
+------------------------------
+
+
+Date: Wed, 14 Sep 2005 11:39:27 -0700
+From: "Chad Stevens" <zuvaruvi at cox.net>
+Subject: La Binchoise
+
+
+Anyone know the spice/fruit in La Binchoise Reserve Speciale?
+
+
+Thanks,
+
+
+Chad
+
+
+
+
+------------------------------
+
+
+Date: Wed, 14 Sep 2005 15:57:03 -0700
+From: <jmcdonald at library.caltech.edu>
+Subject: RE: health-beneficial properties of hops
+
+
+ 
+
+
+> Moreover, health-beneficial properties due to particular compounds  
+> present in hops confer to beer a unique position in the  
+> appreciation of (low-)alcoholic drinks.
+
+
+Anyone know more about this assertion of "health-beneficial  
+properties" of hops?
+
+
+- ---------
+I can't cite anything off the top of my head since I'm not a biologist, 
+but if you go to PubMed http://www.ncbi.nlm.nih.gov/entrez/query.fcgiand
+
+
+and search on 'Humulus' you can find many articles about the biology 
+and chemistry of hops.  Searching other academic research 
+databases will uncover many more articles documenting studies on 
+the health benefits of compounds found in hops.  Use BIOSIS, Medline, 
+or Web of Knowledge if you have access through a local university or 
+public library.
+
+
+I would guess that they did not cite specific studies since they are 
+already incorporated in the scientific knowledge of the discipline that 
+was their intended audience.  
+
+
+John
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4847, 09/14/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

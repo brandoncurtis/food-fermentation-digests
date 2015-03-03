@@ -1,0 +1,1412 @@
+﻿Subject: Homebrew Digest #4427 (December 16, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4427                             Tue 16 December 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  How to throttle magnetic pump? ("Brendan Oldham")
+  Re: beer wiki ("Greg 'groggy' Lehey")
+  Re: Was RIMS Controller now is HBD Christmas Present ("Gary Smith")
+  Re: Re: Beer in Nurnberg ("Greg 'groggy' Lehey")
+  Leuven Pale Ale Yeast ("John D. Misrahi")
+  RIMS Ramp Rates, PID Controlled etc (FRASERJ)
+  RE:Transporting keg beer (Michael Hartsock)
+   (Doug Mosher)
+  trehalose pt 2, was Re: tackling oxygen [and more] (another follow up) ("-S")
+  trehalose pt 1, was Re: tackling oxygen [and more] (another follow up) ("-S")
+  Zymurgy Calendar/Kudos submissions & Updating the AHA Clubs database ("Kathryn Porter")
+  1" SS coupling source (orourke mike)
+  RE: Rogue Chocolate Stout ("Doug Hurst")
+  PET bottle beer shelf life? (Budris)
+  PID Control ("Mike Sharp")
+  Oh, Yeah!?! (Apologies and Justifications) ("Eric R. Theiner")
+  RIMS temperature control ("Todd M. Snyder")
+  RE: food grade paint ("Brian Lundeen")
+  Caramelization ("Ronald La Borde")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job. Note that the Digest now
+  automagically protects your address, so spam-proofing is a waste of
+  your time, anyway :^)
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORS on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 14 Dec 2003 23:09:34 -0700
+From: "Brendan Oldham" <brendan_oldham at hotmail.com>
+Subject: How to throttle magnetic pump?
+
+
+I've got a new magnetic pump (from morebeer.com) and was wondering if the
+best way to throttle the flow is to (1) restrict flow output or (2) use a
+dimmer switch to reduce power to motor. I understand that reducing motor
+speed would also slow the cooling fan, but I guess I could cool externally.
+Does outflow restriction have any negative impact on pump/motor? Thanks in
+advance.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 17:15:14 +1030
+From: "Greg 'groggy' Lehey" <grog at lemis.com>
+Subject: Re: beer wiki
+
+
+On Sunday, 14 December 2003 at 13:31:24 -0500, Alan McKay wrote:
+> A fellow in Australia recently started a brewing wiki,
+> but unfortunately I do not have the link at hand.
+>
+> Will try to dig it up.
+
+
+I don't know if it's the same one, but you could take a look at
+http://www.metrak.com/wiki/homebrew/
+
+
+Greg
+- --
+Finger grog at lemis.com for PGP public key.
+See complete headers for address and phone numbers.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 00:52:24 -0600
+From: "Gary Smith" <mandolinist at ameritech.net>
+Subject: Re: Was RIMS Controller now is HBD Christmas Present
+
+
+
+
+
+
+> 
+> P.S.: A Christmas donation to the server fund would be a nice way to
+> say thanks to the Janitors & all of us.
+> 
+
+
+I should clarify, my above comment was directed to all of us on HBD & at 
+no one in particular. I just sent a donation via mail to the HBD (For some 
+reason I had a hard time getting the money transfered via payPal... Go 
+figure) & I was thinking it would be wonderful if we all sent something that 
+way because the server ain't free & so I'm taking it on myself to offer this 
+reminder to the clan.
+
+
+(Sending via check or MO or cash for the brave soul gives more to HBD 
+because there's no PayPal exchange fee)
+
+
+I belong to many listservers due to my interests & this is the only one that 
+means enough to me to donate. Perhaps it's that for you too? 
+
+
+Anyway, my 2 cents on what I think is a right good idea.
+
+
+:)
+
+
+Cheers all,
+
+
+Gary
+
+
+Gary Smith
+CQ DX de KA1J
+http://musician.dyndns.org
+http://musician.dyndns.org/homebrew.html
+
+
+If you pick up a starving dog and make him prosperous, he will not 
+bite you. This is the principal difference between a dog and a man.
+
+
+ - Mark Twain -
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 17:33:00 +1030
+From: "Greg 'groggy' Lehey" <grog at lemis.com>
+Subject: Re: Re: Beer in Nurnberg
+
+
+*sigh* The mailing list software rejected my original post because it
+contained real place names.  Here's the expurgated version.  In
+general, but not always, replace "ae" by an a with two dots on top
+(Umlaut) and ue by a u with an Umlaut.
+
+
+Greg
+
+
+- ----- Forwarded message from Greg 'groggy' Lehey <grog at auug.org.au> -----
+
+
+> Date: Mon, 15 Dec 2003 17:11:59 +1030
+> From: Greg 'groggy' Lehey <grog at auug.org.au>
+> To: Stan Burnett <stanb at xmission.com>
+> Cc: homebrew at hbd.org
+> Subject: Re: Beer in Nurnberg
+>
+> On Saturday, 13 December 2003 at  2:33:11 -0700, Stan Burnett wrote:
+>>
+>> I have very limited internet access right now, so I haven't been able to
+>> check the archives. Sorry.
+>>
+>> Soon I'll be driving from Prague to Nurnberg (spending a couple of nights)
+>> and then to Freiburg (extreme western Germany, very close to French
+>> border)--I'm picking up my nephew who lives with his mother in Freiburg
+>> and bringing him back to Tabor for the holidays with his father.
+>>
+>> Any recommendations for beer drinking along this route?
+>
+> Nope, there's not much beer round there.
+>
+> Seriously: on the road from Praha to Nuernberg there's this place
+> called Plzen where I'm told they make a reasonable beer.  Nuernberg
+> itself is pretty good, too.  From there you have a number of ways to
+> get to Freiburg.  (I assume from your description that you're talking
+> about Freiburg im Breisgau; there are many Freiburgs in Germany).
+>
+> Assuming you're staying on the freeways (not necessarily a good idea),
+> the most direct way is via Heilbronn and then either Stuttgart or
+> Heidelberg to Karlsruhe and on to Freiburg.  You might like to see
+> Heidelberg, but it's not much of a beer town.  You could also go off
+> the freeway to Rothenburg ob der Tauber, which is a nice place to
+> visit, but not specifically related to beer.
+>
+> Alternatively, you could go South to Muenchen (Munich), driving through
+> the Hallertau in the process (about 50 km north of Muenchen).  It's a
+> bit further to go, but if you're looking for beer, and you haven't
+> been there before, you'd kick yourself if you missed it.
+> Unfortunately, you'll miss one of the nicest parts of drinking in
+> Muenchen: the beer gardens.  They're only open in summer.  From there
+> you could continue to Tettnang on the North side of the Bodensee (Lake
+> Constance), not omitting Neuschwanstein Castle near Fuessen, and then
+> on to Freiburg through the Black Forest.  A lot depends on the weather
+> at this time of year, of course.
+>
+> Freiburg itself (and the area) is more wine than beer.  The beer's not
+> bad either, but it certainly doesn't have the ring that Plzen or
+> Muenchen have.
+>
+> I don't have any specific places to recommend in Plzen or Muenchen.
+> I've never been to Plzen, and in Muenchen I find the quality of the
+> pubs is pretty uniform.  I don't know any microbreweries, for
+> example.  But you could visit the Hofbraeuhaus for breakfast (yes, they
+> drink beer for breakfast in Bavaria) and get away from the stereotyped
+> tourist trap that it has otherwise become.
+
+
+- ----- End forwarded message -----
+
+
+- --
+Finger grog at lemis.com for PGP public key.
+See complete headers for address and phone numbers.
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 08:04:30 -0800
+From: "John D. Misrahi" <lmoukhin at sprint.ca>
+Subject: Leuven Pale Ale Yeast
+
+
+Has anyone used this Wyeast offering? i think it's on their 'seasonal' list
+(I have been able to order them year round unlike White Labs 'seasonals). I
+am consideing ordering a packet (Trying out some of the yeasts no one seems
+to get around using - at least no one around here). I was really happy with
+the Wyeast Saison..
+
+
+Any comments on the Leuven yeast?
+
+
+What would it be ideally suited for?
+
+
+john
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 08:11:49 -0500
+From: FRASERJ at Nationwide.com
+Subject: RIMS Ramp Rates, PID Controlled etc
+
+
+
+
+
+
+
+
+
+
+Ramp rates seem to be of concern in all the discussions recently over PID
+controllers etc.  I "somewhat" overcame the ramp rate concern by using TWO
+low density heater elements, connected in series and run at 220 Volts
+across the ends of the serially connected elements.  The result was a ramp
+rate on 1.7 degrees/minute, with no caramelization(.sp?) at all.
+
+
+And Todd, I use a Visual Basic program and digital temperature sensors to
+control my setup and I still got a pretty nasty (2-4 degrees) overshoot on
+grainbed temperatures, which I have tracked down simply to the thermal
+momentum setup in the RIMS Chamber itself!  I am guessing a PID Controller
+would throttle my system using power control (cutting back on wattage)
+better than my hard ON/OFF control of the elements would.  The discussion
+on enzymes and location of the probe makes me think I need to relocate the
+probe in the RIMS Outlet like I originally had it, but from memory I had
+attenuation problems.  Leads me to believe the each individuals RIMS
+brewery needs to be tuned according its construction!
+
+
+I partially overcame the problem by adding an extra step in my ramps and it
+works pretty well.
+
+
+John M. Fraser
+rims-brewing.tripod.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 06:53:47 -0800 (PST)
+From: Michael Hartsock <xd_haze at yahoo.com>
+Subject: RE:Transporting keg beer
+
+
+I agree with jeff about 2L bottles (I also use 3L
+bottles).  However, I have a cheaper alternative to
+the carbonator cap.  For $2 a piece I got chrome clamp
+in tire valves.  I put an air chuck on a valve off my
+co2 dist. manifold and drilled an appropriate hole in
+the cap for the 2L bottle.  YEAH! $2 carbonator cap
+instead of 12.  At that price I can afford to loose
+them.  And I also have the luxury of using smaller or
+larger bottles as appropriate.
+
+
+Secondly I just made a very inexpensive cp bottle
+filler.    I used a out dip tube off of a ruined
+corney keg and a few lengths of matching OD CPVC
+potable water tubing and a T compression fitting.  Two
+cobra faucets make for easy to use gas in and liquid
+in valves and they fit snuggly over the tubing.  Cheap
+CP bottle filler used in conjunction with cheap
+carbonator cap and your solution for transporting keg
+beer is at hand!
+
+
+If you're worried about presentation, don't be.  You
+can either pour it in to a pitcher or if your beer is
+good... the presentation won't matter.
+
+
+mike
+Columbia, MO
+
+
+=====
+"May those who love us, love us.
+And those that don't love us,
+May God turn their hearts.
+And if he doesn't turn their hearts,
+may he turn their ankles
+So we'll know them
+by their limping."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 09:35:43 -0700
+From: Doug Mosher <dhmosher at juno.com>
+Subject: 
+
+
+Hello Stan, I was stationed in Fuerth from 1978-1980 and was
+recently in Nurnburg last year for a few days.
+
+
+A list of the Nurnburg pubs can be found at
+
+
+http://www.xs4all.nl/~patto1ro/nurnpubs.htm
+
+
+with a more extensive Euro list to be found at
+
+
+http://www.xs4all.nl/~patto1ro/
+
+
+I've always had a fondness for Nurnburg and the old city, with it's
+many pubs (most of which have changed since I remember them)
+
+
+Some recommendations I would make is to  try the Nurnburg brats and
+sauerkraut which are unique to the city and also Lamms Brau heffe weiss.
+On the list I noticed Schlenkerla-Schranke which serves the famous Bamburg
+smoked beer.
+
+
+hope you enjoy your stay
+
+
+Doug Mosher
+
+
+
+
+ >Date: Sat, 13 Dec 2003 02:33:11 -0700
+ >From: Stan Burnett <stanb at xmission.com>
+ >Subject: Beer in Nurnberg
+
+
+
+
+ >I have very limited internet access right now, so I haven't been able to
+ >check the archives. Sorry.
+
+
+ >Soon I'll be driving from Prague to Nurnberg (spending a couple of nights)
+ >and then to Freiburg (extreme western Germany, very close to French
+ >border)--I'm picking up my nephew who lives with his mother in Freiburg
+ >and bringing him back to Tabor for the holidays with his father.
+
+
+ >Any recommendations for beer drinking along this route?
+
+
+ >Thanks!
+
+
+ >Stan Burnett
+ >Tabor, CZ
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 11:30:47 -0500
+From: "-S" <-s at adelphia.net>
+Subject: trehalose pt 2, was Re: tackling oxygen [and more] (another follow up)
+
+
+> Are you suggesting that the intrinsic lag is insignificant compared to the
+> apparent or saturation lag?
+
+
+We could estimate it easily enough.
+
+
+1L of CO2 at STP weighs 44/22.4 or just under 2 grams.  So 2gm/L is about 1
+volume of CO2, the level at which some bubbling will begin.  Producing this
+requires fermentation of very nearly 4gm of sugar per liter or the
+fermentation of about 0.4P of wort sugars.
+
+
+I've reviewed some time vs SG data from the texts and it seems that the last
+50 hours of log-phase growth of a good 12P brewery fermentation causes the
+loss of about 25SG degrees of *apparent* gravity.  That's about 0.5
+*apparent*SG degree per hour.  The *real* attenuation rate is about 81% of
+that using the standard estimate.   So a good late rate of fermentation is
+*roughly*  0.4SG real degree per hour or 0.1P per hour.
+
+
+We would expect that with less yeast present at the beginning that the
+"brewery lag" , the time from pitching until first CO2 bubbles, will be
+considerably longer than [0.4P/(0.1P/hr)] 4 hours.  It seems entirely
+reasonable that the 8 to 24 hour sort of lag times reported is almost
+entirely time spent saturating the wort with CO2, and relatively little time
+spent transitioning from dormant to growth phase.
+
+
+> The idea to model lag (transition from dormant state to active state) is
+to
+> consider
+>
+> - depletion of glycogen, to power sterol synthesis
+> - sterol synthesis utilizing oxygen & carbohydrates(glycogen or external
+> sugars- whichever is quickest/available)
+
+
+Given little or no nutrients, but plenty of oxygen dormant anaerobic healthy
+yeast will deplete their glycogen in a hurry - several hours, and sterol
+levels also rise very quickly under this condition - 3 hrs (see "Brewery
+Yeast Fermentation Performance", K.Smart, 2000, K.Smart, pp140-151)  while
+the squalene is minimized in abt 2 hrs.
+
+
+In more conventional once aerated brewery fermentation glycogen is used
+almost as quickly, a few hours.  The sterol levels continue to rise for
+about the first 15-20 hours of a normal fermentation.  Apparently the first
+step in the squalene-> squalene-epoxide process uses oxygen & glycogen is
+relatively quick, compared to later steps which create lanosterol and then
+other sterols from the epoxy-squalene.
+
+
+In a stirred study of the first 12hrs of fermentation there was virtually no
+cell budding to 2 hours, then the rate of budding rose to a peak by about 6
+hours (~90% of the population budding).  Total cell count didn't increase
+much till the 6hr mark.   Quain& Boulton call the transition from G0
+(stationary) to G1(growth phase at 2 hours and state this is fueled by
+glycogen breakdown.
+
+
+> - utilization of external sugars (function of membrane quality)
+> - building membrane quality (function of levels of sterols, UFAs)
+> - transition from dormant to active, correlated to membrane quality
+> - UFA synthesis
+
+
+Very complex topic with some contradictory results in the lit.
+
+
+> I was thinking that building that building the membrane requires a
+certains
+> amount of carbohydrates, and if the glycogens aren't enough, utilization
+of
+> externals are the only option. This could explain the slow start. The idea
+> is that the rate of cells entering the active state is proportional to the
+
+
+I'd think that the growth of new cell walls rather than membranes would be a
+much bigger destination for wort carbons.  Still vast amounts of energy
+(from fermentation) are needed to fuel the very expensive lipid
+construction.  As you say, if internal glycogen reserves are inadequate, as
+in unhealthy yeast stored too long,  then growth would stall after internal
+reserves were used up.  External glucose would probably be the next energy
+source brought online, but the impact on growth and lipid formation will be
+quite complex.
+
+
+There is a JIB paper by Quain et al (sorry it's not handy) in which they
+study the glycogen sterol rates explicitly.  The glycogen drops hard early
+in fermentation but only slowly rebuilds to pre-pitching levels over many
+hours (perhaps 100 hours) in the fermenter.   Much of the total glycogen is
+rebuilt very late in fermentation, just like trehalose.  From this I'd
+assume that if there is insufficient  glycogen to form lipids early on -
+that lipid growth would be stalled until both glycogen and oxygen were
+available - significantly later and maybe never.   This could explain some
+"stuck" fermentations.
+
+
+> Referring to you mentioning poking holes in the idea, can you see a major
+> flaw in this idea? If so where?
+
+
+You seem to be on the right track, but you should probably review
+Boulton&Quain, "Brewery Yeast & Fermentation" for a modern viewpoint and
+references.
+
+
+> Any idea where trehalose would enter here? that's one of the missing
+pieces
+> it seems.
+
+
+Forms largely in response to stress.  Helps preserve yeast throughout many
+forms of cell stress.  Forms late in the normal brewery fermentation with
+detectable increased uptake of wort sugars.  Forms earlier and in greater
+quantity w/ higher gravity.  Can be formed from glycogen in the precence of
+stress when other carbohydrates are absent.  It's rapidly dissimilated at
+the beginning of fermentation - first 10 hours very roughly.  I *expect*
+that the protein preserving properties of trehalose will also interfere with
+enzyme activity.  If that is so then it makes sense that trehalose is
+destroyed as the cell comes out of dormancy, and created just before
+dormancy and immediately in stress conditions.
+
+
+ -Steve
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 11:29:27 -0500
+From: "-S" <-s at adelphia.net>
+Subject: trehalose pt 1, was Re: tackling oxygen [and more] (another follow up)
+
+
+Fredrick asks ...
+
+
+> Hmmm interesting. I don't understand trehalose yet. So would act like
+> emergency stock of spare carbon? for repairs of stress damage? or does it
+> work any other way?
+
+
+Trehalose is a non-reducing disaccharide.  It's a bit like sucrose, but with
+two glucose molecules rather than a glucose+fructose.  The two number-1
+carbon molecules (the reducing ends) are coupled in an alpha configuration.
+It's been classified as GRAS (generally recognized as safe), has a sweetness
+about half that of sucrose and Cargill recently started vending it under the
+trade name 'Ascend' for use in some mass market foods as a
+sweetener+stabilizer.  That's good news for us yeast farmers since it can be
+used as a stabilizing additive when storing yeast at ~10P.  I don't know the
+price but when I looked for trehalose a few years ago it was far too
+expensive
+for HB use.
+
+
+Trehalose has a role in stabilizing proteins from desiccation and cold
+damage and probably other stresses.   A lot of micro-organisms make
+trehalose in response to stress.  Some Macro-organisms like shrimp and
+lobster do too and that probably impacts the flavor.  It's also been shown
+to have a role in stabilizing lipid membranes aside from the protein
+stabilization.   That is trehalose protects the lipid membranes during phase
+transitions to freezing & back.  To do this both sides of the membrane must
+have access to trehalose, so yeast will release some trehalose into the
+space
+between the exterior membranes and cell wall.  They have a specific enzyme
+to permit this transfer out.  The presence of glucose represses this
+transfer
+of trehalose to the membrane.  Actually glucose causes all sorts of odd
+changes aside from Crabtree effect.
+
+
+Yeast produce significant amounts of  trehalose when subjected to various
+stresses.  Brief heating of yeast causes them to accumulate trehalose and
+they are subsequently more heat resistant, for example.  For yeast at least
+trehalose protects against heat as well as cold.  Alcohol and high osmotic
+pressure (from things like hi-gravity and sorbates) cause yeast to
+accumulate trehalose.   Yeast accumulate trehalose in "nutrient deficient"
+conditions as well ... the same conditions that generally cause
+flocculation, but this is somewhat after glycogen is created.  The trehalose
+levels rise if glycogen rich dormant yeast are exposed to lots of oxygen (a
+stressor).  They actually use glycogen to form trehalose in this case.
+Quain mentions unpublished data which supports the idea that there is a
+elevation in sugar uptake late in brewery fermentation which corresponds
+with trehalose creation.
+
+
+Growing brewing yeast in low stress conditions, fermented in 10-11P wort,
+they may accumulate 2-5% trehalose by weight.  In tests with very high
+gravity wort, brewery yeast accumulate up to 25% trehalose by weight - even
+when the alcohol is removed by dialysis !    For dried baking yeast(also
+S.cerevisiae) 10% trehalose by weight is considered minimal for the drying
+process, while 15-20% is preferred.
+
+
+
+
+> I thought it would generate ATP as well though possible less than
+glycogen?
+
+
+I don't want to overstate the case.  Yeast can metabolize the glucose units
+in trehalose, but they expend energy in constructing it, and also in
+degrading
+it with trehalase enzyme.  They go to the trouble of  forming trehalose for
+"reasons" other than energy storage.  Glycogen is far better for that..
+
+
+> Isn't the biologists definition of the lag time for a cell as the time
+from
+> pitching to the time the cell is active, and a budding cycle is initiated?
+
+
+I was talking about the brewing lag time ... the time from pitching till
+evidence of fermentation is clear ... generally till CO2 evolution is
+obvious.
+
+
+> I like to make a distinction between the apparent lag (first appearance of
+> CO2 in airlock) and the intrinsic lag, and CO2 production from the yeast.
+So
+> far I haven't done very much tests to have a clear opinion what can be
+> attributed to saturation times and what are really intrinsic lags. So I am
+> attempting to account for variations in both. The saturation lag should be
+> straightforward to model once you know the production rate, so I am
+> currently trying to focus on understanding the intrinsic lag.
+
+
+That's a different thing of course.  Initially on pitching stationary phase
+anaerobic yeast into aerated wort they will consume glycogen stores and
+ignore wort sugars.  They *may* excrete amino acids as a shock reaction.
+It's a while before they start consuming wort glucose.   I'm certain you can
+find papers that describe how this impacts the cell division cycle.   Look
+for synchronized cultures as a topic.
+
+
+ -S (more to follow)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 10:08:23 -0700
+From: "Kathryn Porter" <Kathryn at aob.org>
+Subject: Zymurgy Calendar/Kudos submissions & Updating the AHA Clubs database
+
+
+Hello Homebrewers,
+Due to the Holiday season the deadline for the March/April Zymurgy 
+Calendar and Kudos submissions has been moved forward on the 
+schedule. Please have all competitions/events and organizer's reports 
+submitted by December 19, 2003 to ensure they are printed. In case you 
+didn't know, you may now submit calendar events online: 
+http://www.beertown.org/homebrewing/hb_calendar.html  
+Please send hard copies to: Kate Porter ~ Events, Association of Brewers, 
+736 Pearl St, Boulder, CO 80302.
+
+
+Also, we need your help to keep our online club locator up-to-date. Please 
+check out your club's listing on http://www.beertown.org, just select 
+Homebrew Clubs from the Locator drop down box on the right side of 
+http://www.beertown.org pages. Homebrew clubs are listed by state and 
+arranged alphabetically by city. If your club is not listed use the online
+form 
+to add it (Note: many club records were eliminated when the new locator went 
+up a few months ago in our effort to clean out old information). You can also
+
+
+make corrections to listed clubs, via the online form. Furthermore, If you
+find 
+clubs that you know have gone out of existence, please use the update form to
+delete them from our records. *Please note*, updates are not automatic, so be
+
+
+sure to allow a few days for us to update our records.
+
+
+Thanks for your help!
+
+
+Kate
+___________
+Kathryn Porter
+Association of Brewers
+www.beertown.org
+
+
+
+
+
+
+- ---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.545 / Virus Database: 339 - Release Date: 11/27/2003
+ 
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 09:21:40 -0800 (PST)
+From: orourke mike <dert12345 at yahoo.com>
+Subject: 1" SS coupling source
+
+
+Anyone know of a place to mail order 1" straight
+(merchant) threaded stainless couplings for water
+heater type elements?
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 12:06:13 -0600
+From: "Doug Hurst" <dougbeer2000 at hotmail.com>
+Subject: RE: Rogue Chocolate Stout
+
+
+Mark Arneson is looking for a Rogue Chocolate Stout recipe.  I've been 
+wanting to brew this one for a while.  One thing I like about Rogue is how 
+much information they're willing to put right on the label:
+
+
+Harrignton and Klages malt
+Crystal 135-165
+Beeston Chocolate Malt
+Rolled Oats
+Roasted Barley
+Natural Chocolate Flavoring
+Cascade Hops
+15 Plato  (~1.061 SG)
+69 IBU
+
+
+Harrington and Klages are barley varieties which may be difficult to obtain 
+but any American 2-row malt would be virtually the same.  The only 
+ingredient I'm really unsure about is Natural Chocolate Flavoring.  Perhaps 
+start with a very small amout of bakers chocolate and move up from there.  
+I'm sure someone else has experimented with chocolate and would be willing 
+to share.
+
+
+Here's the recipe I would estimate from the above:
+
+
+8-9 lbs 2-Row (depending on system efficiency)
+ .5 - .75 lb Crystal Malt (135-165L)
+ .75 - 1 lb British Chocolate Malt
+1 lb Rolled Oats
+ .75 - 1 lb Roasted Barley
+Maybe .25 oz. Baking Chocolate (not sure)
+
+
+~2 oz. Cascade 60min (assuming 6%AA)
+~1.5 - 2 oz. Cascade 30min
+~1oz. Cascade 5min
+
+
+This beer needs a lot of body and sweetness which indicates a single 
+infusion mash at 155-158F for 60 minutes.
+
+
+If you make this let us know how it turns out.
+
+
+
+
+
+
+Doug Hurst
+Chicago, IL
+[197.5, 264.8] Apparent Rennerian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 13:16:20 -0500
+From: Budris <budris at optonline.net>
+Subject: PET bottle beer shelf life?
+
+
+Does anyone know how long will beer stay "fresh" when stored in the 6-liter
+PET bottles that come with the Tap-A-Draft system?
+I'm trying to find out how long the beer will last in the PET bottles before
+there is a noticeable loss of flavor due to oxidation.
+I have been doing some research on the internet and see that PET makes a
+very poor oxygen barrier.  Oxygen gets to the beer even when the beer inside
+of the PET bottle is under pressure (carbonated).
+I saw that a company called PPG industries has come up with a spray-on
+coating that extends the shelf life of beer stored in PET bottles by several
+months.
+Are there any companies out there selling 6-liter PET bottles with this
+oxygen barrier coating?
+
+
+ -Brian Budris
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 10:55:14 -0800
+From: "Mike Sharp" <rdcpro at hotmail.com>
+Subject: PID Control
+
+
+Todd comments on PID Temperature Control
+
+
+"The problem I see with PID control is not accuracy.  Given enough time, a
+PID will force the temperature to the set point very accurately.   It will
+just take a _long_time_.  That's my problem with it."
+
+
+I know this always starts a whirlwind of postings, but I can't resist
+jumping in.  There are so many mis-conceptions about PID control.
+
+
+The maximum ramping rate has nothing whatsoever to do with the type of
+control--it's the amount of power you apply to the heating chamber.  The
+only thing that PID control does is permit the greatest possible ramping
+rate without overshoot.  It's not a question of accuracy at all, but a
+question of getting to setpoint without overshoot and at a pre-determined
+rate.
+
+
+
+
+Todd:
+"To avoid a large overshoot when there is a delay between the heat addition
+and the temperature rise, the temperature ramping rate has to be small.  A
+typical heating rate is 1 degrees F per minute.  So a 122F to 148F ramp
+would take 26 minutes"
+
+
+No, you're referring to problems with what's called "bang-bang" (technical
+term) or simple on/off control, which will overshoot badly if the heating
+rate is high.  If you're measuring the temperature at the exit of the
+heating chamber, the time delay is minor.  I say if you use any sort of
+manual control, and adjust the heating rate yourself, you're doing exactly
+what a PID does in the first place: Applying lots of heat at first, and less
+as you get close.
+
+
+PID has three methods of control.  
+
+
+1. Proportional control, which applies more power the farther you are below
+setpoint, 
+
+
+2. Derivative control, which is what prevents overshoot (the faster the temp
+is rising close to setpoint, the greater the Derivative term (which tends to
+slow things down).  
+
+
+3. Finally, there's integral control, which is what gets the control the
+last few degrees to setpoint.  Some controllers have an anti-reset windup
+setting that allows you to essentially "disable" the integral term when
+you're a long ways from setpoint.  This prevents overshoot by keeping the
+controller from trying too hard.  It's especially useful in power limited
+systems, because the controller tries so hard to get temp up, the Integral
+term can get way off.  Once the temp gets close, the integral term can't
+back down fast enough to prevent overshoot.  
+
+
+In a PID system, you first set the proportional band to a range of
+temperatures.  Let say you're trying for 148 F setpoint.  Your proportional
+band (which depends on the system physics) might be set to 10 degrees, from
+138 to 148.  At the instant the controller is set to 148 from your 122 rest,
+the wild (or process) variable is 122, temperature is not changing, and
+you're below the proportional band.  The controller begins applying full
+power (well, whatever you've set to be full power, which may in fact be a
+lot less than 100%), and temperature begins rising at the maximum rate your
+system can sustain.  
+
+
+As temperature rises, the differential term might start cutting things back,
+especially as you approach setpoint.  It's only goal is to prevent overshoot
+in a system that's tuned to reach setpoint as fast as possible.  But before
+that happens, your temperature crosses 138 F, and as the system enters it's
+proportional band, power starts decreasing.  If things were strictly
+proportional, at 148 F the power would be completely off.  So the
+temperature would actually stabilize somewhere between 138 and 148,
+depending on the heat losses of the system.    
+
+
+However, we have a PID system, so now that we're above the temp where the
+anti-reset windup setpoint is, the integral term begins increasing power to
+get the temp to setpoint.  It works agains the differential term to achieve
+setpoint.
+
+
+In a properly tuned system (and assuming you can apply as much power as you
+want), the temperature will reach a stable setpoint without overshoot faster
+using PID than any other method.  
+
+
+By the way, asymptotic approaches to a setpoint are probably going to be
+much faster than linear approaches to a setpoint.  
+
+
+Now, lest I be flamed by those who feel that throwing hot rocks into their
+mash is all the heating control a brew needs, not all systems really need
+PID control.  It depends on the local system dynamics, the degree to which
+you need to control ramping rates, and how close to setpoint you really need
+to be.  I've installed PID systems where the Integral and Differential terms
+were zero, meaning I had strictly proportional control.  This is very useful
+in some cases, such as controlling pump speed to maintain level in a tank in
+some sort of continuous process.  There, the goal is not to maintain a set
+tank level, but to keep the tank level low at full flow, and high during low
+flow, to be able to handle surges.  
+
+
+Most grants are pretty small, and a simple float switch is enough, but I've
+built systems where the flow rates are high enough where the grant level
+must be electronically controlled.  An example was a bottling line that used
+a surge tank pressurized with nitrogen to push the wine into the bottles at
+high speeds.  The waukesha pump was controlled on a VFD to maintain tank
+level no matter how fast the line was operating.  Not a PID situation, but
+definitely a "P" situation.
+
+
+Regards,
+Mike Sharp
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 13:44:42 -0500
+From: "Eric R. Theiner" <rickdude02 at earthlink.net>
+Subject: Oh, Yeah!?! (Apologies and Justifications)
+
+
+I have this sinking feeling that I have guilted a few people into 
+supporting one of my products by
+posting a whiny note.  I am sorry for that, although I am still grateful to 
+Steve and Kenneth by
+posting their support publicly, as well as a few other guys for their 
+private notes.
+
+
+Okay-- here's Point 1:  I post about cleaners because that's what I 
+know.  I happen to make
+some, and, of course, I think they're great.  It would make no sense it I 
+didn't say this.  I don't
+post about PID controllers because I have a very limited understanding of 
+them (Dr. Ray, my
+Controls professor would have a cow if he read that).  Same with any number 
+of other subjects.
+And I don't want to fill up the HBD with "me too" posts for things that are 
+reasonably well covered,
+either.
+
+
+As for the concern that I'm getting rich off the back of the HBD server, 
+rest assured that it is not
+happening.  I still work a day job, and probably will for the rest of my 
+life.  My business pays for
+homebrewing, a few toys (digital camera, kayak, etc.) and that's about 
+it.  If it made enough,
+you guys would see me at the conferences and such, but it doesn't.  And the 
+reason is most
+likely that I'm a really crappy businessman.
+
+
+But Brian Lundeen has a good point.  So here's my Point 2:  I *am* getting 
+advertising out of
+this.  In fact, the sample requests have gone through the roof since I last 
+acted like a whiny
+little kid.  And I do sponsor just about anyone who asks (usually by 
+sending free product, but
+that's not practical in this case), so it's really not about me being a 
+greedy bastard-- it's about
+me being a slug by not paying attention to my surroundings.  So my next 
+email will be to Karl
+& Pat to discuss this.  And maybe a few of you non-business owners might 
+think about doing
+it, too.  This is a great resource whether you've got something to sell or 
+not and we should
+keep it going.
+
+
+Rick Theiner
+LOGIC, Inc.
+www.ecologiccleansers.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 14:16:21 -0500
+From: "Todd M. Snyder" <tmsnyder at buffalo.edu>
+Subject: RIMS temperature control
+
+
+Hi All,
+
+
+Thanks for all the posts about RIMS temperature control.  A couple of
+discrepancies between my concept of RIMS setups and information in the posts
+have become apparent.
+
+
+I assumed that the pumping rate thru the heat chamber was fairly slow, 1 gpm
+or less.  But 5gpm was referenced by Dion as his SOP.   How does this
+compare to other RIMS?  A fast recirculation rate and a probe placement on
+the outlet of the heating chamber would allow the target temp to be reached
+quickly without ever overheating the wort.
+
+
+Assuming a simple mixed reactor, 5 gallons of wort, and 5gpm flowrate, and
+wort exiting the heating chamber at the target temperature, after 1 minute
+the temperature would be 63% to the target [ (Target -
+Temperature)/(Target - Initial) = 0.37 ] , 2 minutes would be 86%, 5 minutes
+99%, and after 10 residence times (10 minutes) it would be 99.995% on target
+compared to its initial temperature.
+
+
+But 5 gpm seems really really high to me.  How can you get that much flow
+thru the grainbed without compressing it?  What flowrate do other RIMSers
+use?
+
+
+Gary says that the flow is higher than 0.25-0.5 gpm, but gives no number for
+what he uses, can you post your RIMS flowrate, Gary?  I also agree with Gary
+about the carmelization myth.  After making maple syrup with my family for
+15+ years, I can say that a dilute sugar solution like wort will not scorch
+no matter what the watt density (within sane reason, maybe not 10^6
+watt/sqin).  The heat transfer to a maple syrup finishing pan is similar to
+homebrewing kettle set at a very high boil, and it won't scorch unless taken
+_way_ past syrup which is 66 (?) brix.  (or is that honey?)  Anyway, the
+point is that as long as there's some water in there, it won't scorch.  And
+wort is very dilute compared to syrup so it should never be a problem unless
+the mash sticks.
+
+
+I have, however,  witnessed a white slimy protein(?) layer build up on a
+recirculated wort heating element which scorches if not cleaned off between
+batches.
+
+
+Dion evokes the spirit of George Fix, seems to take offense at my comments,
+and points out that the enzymatic activity is in the wort solution, not in
+the solid portion of the mash.  I agree, and it's another reason to put the
+temp sensor on the outlet of the heating chamber to avoid overheating and
+denaturing the enzymes.
+
+
+Dion, I didn't mean to say that saccharification begins at 122. I was just
+using that as an initial temp to start a ramp as a demonstration, I know
+that other enzymes, mostly proteinases, are at work down there in that
+range.  But you did post your ramp rate, thanks.  You use 1.5F/min.  So to
+go from 122 to 154 took 48 minutes.  Then you hold it at 154 for 60 minutes.
+I agree that the 15 minute conversion idea has problems, but I never brought
+that subject up.
+
+
+So, Dion,  you are happy that the ramp time is almost as long as the
+saccharification rest?  I'm not trying to be sarchastic or anything.  It
+just seems strange to me.
+
+
+<A properly designed RIMS system will a) not scorch wort and b) will>
+<allow you to manipulate rest temperatures and achieve EXACTLY the>
+<result you want.  If a particular system will not work this way, then>
+<it was poorly designed.  There is nothing wrong with the basic RIMS>
+<principles, only in some individual's poor implementation.>
+
+
+Ok, so a 1.5F/min ramp rate resulting in a 48 minute ramp is the result of a
+well designed system?  If you say so...... (ok, now I am trying to be
+sarchastic :-)   I can't help it when someone gets so defensive.)  And sure,
+it'll achieve EXACTLY the target temp, I agree, but it will take TIME.
+
+
+Can you answer this:  If the point of the step mash is to go from one temp
+to another, why do it at only 1.5F/minute? What factors resulted in that
+value?   I mean, the goal is not to traverse thru those in-between
+temperatures at 1.5F/min, right?  You're original goal was to go from one
+temp to another, to another.  You've shown us, very well I might add, with
+actual test batches that it isn't detrimental to the wort to proceed at
+1.5F/min, but why go so slow?
+
+
+If the wort can be pumped at 5gpm (and scorching is not a problem so all the
+heat can be poured on) and the wort exiting the heater can be raised to the
+target temp by the PID (a perfect application for it, no time lag, no
+overshoot), that would lead to a ramp time of more like 3-5 minutes to be
+essentially on target throughout the mash, not 48 minutes.
+
+
+So what gives?  Is the flowrate actually much less than 5 gpm?
+
+
+Martin, what flowrates were you using for your model?  The model you
+describe sounds awesome, I'd love to see it in BYO or Zymurgy. It also makes
+a lot of sense, you write:
+
+
+"The model showed that the speed of temperature steps is predominately
+contingent upon the wort flowrate, the temperature difference of the step,
+and the depth of the grainbed."
+
+
+This jibes with my incredibly simplified model up above, a mixed reactor
+containing no solids.  It's just a 1st order model, but it says as yours
+does that:
+
+
+"My model indicates that the wort
+will have passed through the heater at least three times before a majority
+of the bed is near the target temperature,"
+
+
+Three residence times would get the temperature 95% to the target, ie a 32F
+step (122 to 154) would be at 152F after three times thru the bed, close
+enough to be considered on target.
+
+
+" If the thermocouple is located anywhere else in the
+system, the PID control is fairly useless.  The thermocouple should be
+located close to the thing (heater) its trying to control!"
+
+
+That's exactly my point.  But the question is, what's a typical flowrate
+thru the mash? It should be as high as possible without sticking the mash.
+It seems like the 1.5F/min ramps other people see is the result of flowrates
+~0.3 gal/min.  (5 gpm * 3 min/48 min).  Unless someone is able to pump a
+high flowrate, the long ramp times are inevitable it seems.
+
+
+Ken Meyer recommends using hot water additions for a step mash in
+combination with a PID heated recirc loop to maintain the temp.  That's a
+great idea too.  I mean, if you're there pushing buttons on the PID you
+might as well just add boiling water and stir it in.  Good point, Ken,
+thanks.
+
+
+Todd Snyder
+Buffalo, NY
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 14:09:23 -0600
+From: "Brian Lundeen" <BLundeen at rrc.mb.ca>
+Subject: RE: food grade paint
+
+
+
+
+> Date: Fri, 12 Dec 2003 23:08:33 -0800
+> From: "Jim Hinken" <jim.hinken at verizon.net>
+> Subject: paint
+> 
+> Presque Isle Wine cellars sells a food grade paint for 
+> presses, etc.  It should work well
+> 
+> http://shop.piwine.com/shopsite/prwc/product508.html
+> 5964 Gondola Enamel, 500 cc
+
+
+I have used this product on my grape press and its not bad. Gets a
+little beat up where stems are rubbing against it. It would likely
+suffice for the OP's purposes, with one caveat: he should check with
+Presque Isle on the temperature restrictions for this product. It might
+not be intended for use in boiling conditions and its food grade status
+might not apply there. Better safe than sorry, I always say (which of
+course, I don't actually always say, cause that would just make me seem
+kind of weird).
+
+
+Cheers
+Brian, in Winnipeg
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Dec 2003 14:31:17 -0600
+From: "Ronald La Borde" <pivoron at cox.net>
+Subject: Caramelization
+
+
+Todd M. Snyder asks several questions.
+
+
+>I used to
+>use a regular high density element, 1440 watts, 120 V, for an
+archimedes
+>rims system I was playing with and I never saw carmelization.  What I
+did
+>see was a white slimy protein? layer which, if not cleaned off
+between
+>batches, burned onto the element but did not impart any flavor that I
+could
+>percieve.  Has that been your experience too?
+
+
+That white stuff, pretty as it is, is not,  I think, protein.
+
+
+Normally I use the water from the tap filtered for chlorine removal.
+After brewing there may be a slight grey or brown coating on the
+element. This is in no way scorching, but some kind of protein
+buildup.  I have used the element several times without cleaning it
+with no problem.
+
+
+But, once I used some bottled water that I had never used before, and
+after only one brew, I had a fairly thick beautiful white coating on
+the element. I did not remove it and during the next brew, the element
+MELTED. Yes, I had to run to the hardware store and get another one,
+remove and store the brew, then replace the kettle element to
+continue.
+
+
+I never used that water again, and never had that white coating again.
+This is why I think it is not protein, but some salt impurity in that
+water that caked on it.
+
+
+I now clean the element with a plastic scrubby and some Barkeepers
+Friend after every brew, it comes off easy and is never a problem.
+
+
+As far as scorching, never happens. I brewed light wheat beers,
+Pilsners, etc with no scorching.
+
+
+By the way, it seems that RIMS people have found a nicer word for
+scorching - it's now called 'caramelization'.
+
+
+73's
+Ron
+=====
+Ronald J. La Borde -- Metairie, LA
+New Orleans is the suburb of Metairie, LA
+www.hbd.org/rlaborde
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4427, 12/16/03
+*************************************
+-------

@@ -1,0 +1,1329 @@
+﻿This file received at Mthvax.CS.Miami.EDU  91/07/19 03:10:42
+
+
+
+
+HOMEBREW Digest #683                             Fri 19 July 1991
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Irish Ale (GARY MASON  16-Jul-1991 1413)
+  re: Water, water everywhere... (Darryl Richman)
+  What light spectrum effects beer? (GC Woods)
+  Re: Brewing software (Darryl Richman)
+  Yeasts (Alec Jessiman)
+  Watermelon Beer (Ron Karwoski)
+  Microbreweries and Brewpubs (Greg Pryzby)
+  Teleford's DME (Patrick_Waara.WBST129)
+  Water, water everywhere... (Ken Schriner)
+  Brewing with Well Water (Rick Myers)
+  Muddy runoffs (BAUGHMANKR)
+  HBD Posting (Tom Bower)
+  brew kettles (Brian Bliss)
+  ginger, aphids (Bill Crick)
+  MEV Research (Bill Crick)
+
+
+
+
+Send submissions to homebrew%hpfcmi`at`hplabs.hp.com
+Send requests to homebrew-request%hpfcmi`at`hplabs.hp.com
+[Please do not send me requests for back issues]
+Archives are available from netlib`at`mthvax.cs.miami.edu
+
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 18 Jul 91 10:47:47 EDT
+From: GARY MASON  16-Jul-1991 1413 <mason`at`habs11.ENET.DEC.COM>
+Subject: Irish Ale
+
+
+Does anyone have a recipe (or two, or three, or...) for an Irish Ale?  If 
+so, would you be good enough to post it?  Also, other than the AHA 
+definition, does anyone have a good description of what one of these is?
+
+
+Thanks...Gary
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 91 07:54:16 -0700
+From: darryl`at`ism.isc.com (Darryl Richman)
+Subject: re: Water, water everywhere...
+
+
+I've never had to deal with either sulfur or iron in my water.  But you
+ought to get a copy of the transcripts from this year's AHA conference;
+they should be out by the end of the year.  Greg Noonan gave a very
+informative demonstration on testing water, including using a set of
+inexpensive test kits to determine the make up of your water.  I'm
+sure that all the details will be included in the transcripts.
+
+
+                --Darryl Richman
+
+
+------------------------------
+
+
+Date: 18 Jul 91 11:49:00 EDT (Thu)
+From: GC Woods <gcw`at`garage.att.com>
+Subject: What light spectrum effects beer?
+
+
+
+
+I've been wondering, what part of the light spectrum effects the hops in
+beer. Does fluorescent or indirect sunlight contain this part of the
+light spectrum.
+
+
+Also for the NYC area HBD folks the "Zip City Brewpub" will be opening
+around the end of August (their estimate). The address is 3 West 18th
+Street (NYC) and phone # is 212-366-6333.
+
+
+                                        Geoff
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 91 07:46:27 -0700
+From: darryl`at`ism.isc.com (Darryl Richman)
+Subject: Re: Brewing software
+
+
+> This is a great idea.  Has anyone done this in a more portable fashion
+> like for a spreasdsheet (e.g. 123 , Excel) or even in C?  I was
+> planning on getting around to writing it someday, but hopefully
+> someone has beaten me to it.  Thanks.
+
+
+The Brewer's Worksheet is available from the various archives and is an
+Excel spreadsheet I wrote to do recipe formulation work.  It will
+assist in devising water treatment, beer color and original gravity,
+and hop bitterness.  It has a lookup table for malts and adjuncts that
+can be expanded if I forgot something that you want to use.  The water
+treatment calculator takes entries of water salts and determines total
+ppm from a base water you supply (from a water report).  If you also
+supply the ion concentrations of a target water, it will give you the
+differences and a % difference to assist in getting the overall profile
+correct.  It also lets you select what units you want to work with
+throughout the process (e.g., you can work in pounds or kgs, ounces or
+grams, gallons or liters, and so on).  A brewer over on CompuServe, Art
+Steinmetz, uploaded a version that had been translated to 1-2-3 on the
+PC (sorry, I don't have a copy--would someone be willing to download
+it and send it over to aem?).
+
+
+The manual you get with The Brewer's Worksheet implies that this is a
+commercial product.  I had thought about selling it, but decided that
+polishing a spreadsheet template was more work than it was worth, so it
+really is free.
+
+
+I am working on a for-sale formulator/batch logger called The Brewer's
+Planner.  This is written in C and the first version will be for the
+Mac.  It should be available in the September time frame (look for an
+ad in the Fall Zymurgy).  I demoed a prototype of it at the NH
+Conference, and a lot of people seemed pretty interested.  I anticipate
+that I'll sell it for $50, to keep it affordable.  I hope to release
+one for the PC early next year.  (If this is too commercial, somebody
+tell me and I'll shut up. ;-)
+
+
+Other folks are doing similar things.  I know that larryba up in
+Seattle is working on a formulator written in Visual Basic, and Doug
+Henderson has a HyperCard stack with some interesting heuristics for
+automatically determining water treatment.
+
+
+                --Darryl Richman
+
+
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 91 14:15:58 EDT
+From: jessiman`at`kepler.harvard.edu (Alec Jessiman)
+Subject: Yeasts
+
+
+Hi-
+  What is the difference between an attenuative yeast and an unattenuative
+one?  
+                          Thanks,
+                        Alec
+
+
+Alec Jessiman                                     jessiman`at`kepler.harvard.edu
+Harvard University                            Division of Applied Sciences
+- ------------------------------------------------------------------------
+"I...take my hangovers as a consequence, not as a punishment" -Steinbeck
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 91 14:06:42 CDT
+From: rak`at`mayo.EDU (Ron Karwoski)
+Subject: Watermelon Beer
+
+
+I was reading the newspaper last night and I read a trivia piece that
+said the Russians make a beer from watermelon juice. This sounded timely
+and interesting though I can't imagine a Watermelon Stout. Is there anyone
+out there who has ever used watermelon juice in making beer and could
+provide some details?
+
+
+Thanks,
+Ron Karwoski        rak`at`bru.mayo.edu
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 91 10:45:36 EDT
+From: neptune!pryzby`at`uunet.UU.NET (Greg Pryzby)
+Subject: Microbreweries and Brewpubs
+
+
+The following list is available for free from AHA. It is compiled by
+Institute for Brewing Studies. Typos are most likely mine. 
+
+
+Updated 3/1/91
+
+
+MB - microbrewery 
+BP - brewpub
+* denotes MB which also has a BP on premises
+
+
+ALASKA
+MB  Alaskan Brewing and Bottling Co.
+         Juneau
+    Yukon Berwing and Bottling Co.
+         Anchorage
+
+
+ARIZONA
+MB  Crazy Ed's Black Mountain Brewing Co.
+         Cave Creek
+    Electric Dave Brewery
+         Bisbee
+BP  Barley's Brew Pub
+         Phoenix
+    Christopher Joseph Brewing Co./
+    Bandersnatch Brewpub
+         Tempe
+    Hops Brewing Co.
+         Scottsdale
+    San Francisco Bar and Grill Brewpub
+         Tuscon
+
+
+CALIFORNIA
+MB  Alpine Village Hofbrau
+          Torrance
+    Anderson Valley Brewing Co *
+          Boonville
+    Angeles Brewing Co
+          Chatsworth
+    Central Coast Brewing Co.
+          San Luis Obispo
+    Devil Mountain Brewery/Bay Brewing Co.
+          Benicia
+    Etna Brewing Co.
+          Etna
+    Firestone Brewing Co.
+          Los Olivos
+    Golden Pacific Brewing Co.
+          Emeryville
+    J&L Brewing Co.
+          San Rafael
+    Lind Brewing Co.
+          San Leandro
+    Los Angeles Brewing Co./Eureka
+    Restaurant and Brewery *
+          Los Angeles
+    Mad River Brewing Co.
+          Blue Lake
+    Mendocino Brewing Co. *
+          Hopland
+    Nevada City Brewing Co.
+          Nevada City
+    North Coast Brewing Co. *
+          Ft. Bragg
+    Obispo Brewing Co.
+          San Luis Obispo
+    St Stan's Brewery, Pub and Restaurant *
+          Modesto
+    San Andreas Brewing Co. *
+          Hollister
+    Sierra Nevada Brewing Co./Sierra Nevada
+    Taproom and Restaurant *
+          Chico
+BP  Back Alley Brewery and Bistro
+          Davis
+    Belmont Brewing Co.
+          Long Beach
+    Bison Brewing Co.
+          Berkely
+    Boulder Creek Brewing Co.
+          Boulder Creek
+    Brewhouse Grill, Mammoth Lakes
+          Mammoth Lakes
+    Brewhouse Grill, Santa Barbara
+          Santa Barbara
+    Brewpub on the Green
+          Fremont
+    Brown Street Brewing Co.
+          Napa
+    Buffalo Bill's Brewery
+          Hayward
+    Butterfield Brewery
+          Fresno
+    Callahan's Pub and Brewery
+          San Diego
+    Crown City Brewery
+          Pasadena
+    Dead Cat Alley Brewery
+          Woodland
+    Fullerton Hofbrau
+          Fullerton
+    Gordon Biersch Brewing Co. (#1)
+          Palo Alto
+    Gordon Biersch Brewing Co. (#2)
+          San Jose
+    Gorky's Cafe and Brewery
+          Los Angeles
+    Heritage Brewing Co.
+          Dana Point
+    Hogshead Brewpub
+          Sacramento
+    Humboldt Brewery
+          Arcata
+    Huttenhain's Benicia Brewpub
+          Benicia
+    Kelmers Brewhouse
+          Santa Rosa
+    La Jolla Brewing Co.
+          La Jolla
+    Lost Coast Brewing Co.
+          Eureka
+    Marin Brewing Co.
+          Larkspur
+    Monterey Brewing Co.
+          Monterey
+    Mt. Konocti Brewing Co.
+          Lakeport
+    Napa Valley Brewing Co./ Calistoga Inn
+          Calistoga
+    Okie Girl Brewery (formerly Grapevine Bry.)
+          Lebec
+    Karl Strauss' Old Columbia Berwery and Grill
+          San Diego
+    Pacific Coast Brewing Co.
+          Oakland
+    Red Kettle Fishery and Brewery
+          Encinitas
+    Rubicon Brewing Co.
+          Sacramento
+    San Francisco Brewing Co.
+          San Francisco
+    Santa Cruz Brewing Co. and Front Street Pub
+          Santa Cruz
+    Seabright Brewery
+          Santa Cruz
+    Sherwood Brewing Co.
+          Chico
+    Shields Brewing Co.
+          Downtown Ventura
+    SLO Brewing Co.
+          San Luis Obispo
+    Sudwerk Privatbrauerei Hubsch
+          Davis
+    Tied House Cafe and Brewery
+          Mountain View
+    Triple Rock Brewing Co.
+          Berkeley
+    Truckee Brewing Co./Pizza Junction
+          Truckee
+    Twenty Tank Brewery
+          San Francisco
+    Willett's Brewery
+          Napa
+    Winchester Brewing Co.
+          San Jose
+    
+COLORADO
+MB  Boulder Brewing Co. *
+          Boulder
+    Durango Brewing Co.
+          Durango
+    Odell Brewing Co.
+          Ft. Collins
+BP  Antlers Double Tree Hotel/Judge Baldwin's Brewing Co.
+          Colorado Springs
+    Breckenridge Brewery and Pub
+          Breckenbridge
+    Carver Brewing CO.
+          Durango
+    CooperSmith's Pub and Brewing
+          Ft Collins
+    The Hubcap Brewery and Kitchen
+          Vail
+    The Idle Spur Crested Butte Brewery and Restaurant
+          Crested Butte
+    Old Colorado Brewing Co.
+          Ft. Collins
+    Walnut Brewery 
+          Boulder 
+    Wynkoop Brewery Co.
+          Denver
+
+
+CONNECTICUT
+MB  Charter Oak Brewing Co.
+          Bristol
+    New England Brewing Co.
+          Norwalk
+    New Haven Brewing Co.
+          New Haven
+    
+FLORIDA
+BP  Florida Brewing Co./Miami Garlic Grill and Brewpub
+          Miami 
+    Hops Grill and Bar (#1)
+          Clearwater
+    Hops Grill and Bar (#2)
+          Tampa
+    Kidder's Ale House
+          Ft. Meyers
+    Market Street Pub
+          Gainsville
+    McGuire's Irish Pub and Brewery
+          Pensacola
+    Mill Bakery, Brewery and Eatery (#1)
+          Gainsville
+    Mill Bakery, Brewery and Eatery (#2)
+          Tallahassee
+    Mill Bakery, Brewery and Eatery (#3)
+          Winter Park
+    River Walk Brewery
+          Ft. Lauderdale
+    Sarasota Brewing Co.
+          Sarasota
+    Tampa Bay Brewing Co.
+          Tampa
+
+
+GEORGIA
+MB  Friends Brewing Co./Helenboch Brewery
+          Helen
+
+
+HAWAII
+MB  Honolulu Brewing Co.
+          Honolulu
+
+
+IDAHO
+MB  Coeur D'Alene Brewing Co./T.W. Fisher's
+    "A Brewpub" *
+          Coeur D'Alene
+    Snake River Brewing Co.
+          Caldwell
+ 
+ILLINOIS
+MB  Chicago Brewing Co.
+          Chicago
+    Pavichevich Brewing Co.
+          Elmhurst
+BP  Berghoff Brewery and Restaurant
+          Chicago
+    Chief's Brewing Co.
+          Champaign
+    Goose Island Brewing Co.
+          Chicago
+    Tap and Growler
+          Chicago
+    Weinkeller Brewery
+          Berwyn
+
+
+INDIANA
+MB  Indianapolis Brewing Co.
+          Indianapolis
+BP  Broad Ripple Brewing Co.
+          Indianapolis
+
+
+IOWA
+MB  Millstream Brewing Co.
+          Amana
+BP  Fitzpatrick's Brewing CO.
+          Iowa City
+
+
+KANSAS
+BP  Free State Brewing Co.
+          Lawrence
+
+
+KENTUCKY
+MB  Oldenberg Brewery *
+          Fort Mitchell
+
+
+LOUISIANA
+MB  Abita Brewing Co.
+          Abita Springs
+
+
+BP  Crescent City Brewhouse
+          New Orleans
+    Mill Bakery, Brewery and Eatery (#4)
+          Baton Rouge
+
+
+MAINE
+MB  D.L. Geary Brewing Co.
+          Portland
+BP  Gritty McDuff's
+          Portland
+
+
+MARYLAND
+MB  British Brewing Co.
+          Glen Burnie
+    Wild Goose Brewery
+          Cambridge
+BP  Baltimore Brewing Co.
+          Baltimore
+    Sisson's Rest/South Baltimore Brewing Co.
+          Baltimore
+
+
+MASSACHUSETTS
+MB  Boston Beer Co.
+          Boston
+    Mass. Bay Brewing Co.
+          Boston
+BP  Cambridge Brewing Co.
+          Boston
+    Commonwealth Brewing Co.
+          Boston
+    Northhampton Brewery at Brewster Court Bar
+    and Grill
+          Northhampton
+
+
+MICHIGAN
+MB  Frankenmuth Brewery
+          Frankenmuth
+    Kalamazoo Brewing Co.
+          Kalamazoo
+
+
+MINNESOTA
+MB  James Page Brewing Co.
+          Minneapolis
+    Summit Brewing Co.
+          St. Paul
+BP  Sherlock's Home
+          Minnetonka
+
+
+MISSOURI
+MB  Boulevard Brewing Co.
+          Kansas City
+
+
+MONTANA
+MB  Bayern Brewing Inc. *
+          Missoula
+    Great Northern Brewing
+          Columbia Falls
+    Montana Beverage Ltd.
+          Helena
+
+
+NEBRASKA
+BP  Union Brewery Co.
+          Virginia City
+
+
+NEW JERSEY
+MB  Clement Brewing Co.
+          Vernon
+
+
+NEW MEXICO
+MB  Manzano Mountain Brewing Co.
+          Tijeras
+    Santa Fe Brewing Co.
+          Galisteo
+BP  Embudo Station/Preston Brewery/Sangre
+    de Cristo Brewing Co.
+          Embudo
+
+
+NEW YORK
+MB  Buffalo Brewing Co./Abbott Square
+          Buffalo
+BP  Buffalo Brewpub
+          Williamsville
+    Chapter House Brewpub
+          Ithaca
+    Manhattan Brewing Co.
+          New York
+    Rochester Brewpub
+          Rochester
+
+
+NORTH CAROLINA
+BP  Dilworth Brewing Co.
+          Charlotte
+    Greenshields Pub and Brewery
+          Raleigh
+    Loggerhead Brewing Co.
+          Greensboro
+    Mill Bakery, Brewery and Eatery (#5)
+          Charlotte
+    Weeping Radish Restaurant & Brewery (#1)
+          Manteo
+    Weeping Radish Restaurant & Brewery (#2)
+          Durham
+
+
+OHIO
+MB  Columbus Brewing Co.
+          Columbus
+BP  Great Lakes Berwing Co.
+          Cleveland
+    Abbie's Landing (fomerly Growlers Grill & Bry)
+          Dayton
+    Hoster Brewing Co.
+          Columbus
+    Melbourne's Brewing Co.
+          Strongsville
+
+
+OREGON
+MB  Bridgeport Brewing Co. & Public House *
+          Portland
+    Deschutes Brewery and Public House *
+          Bend
+    Edgefield Manor
+          Troutdale
+    Hood River Brewing Co.
+          Hood River
+    Oregon Brewing Co./Bay Front Brewery and 
+    Public House *
+          Newport
+    Oregon Trail Brewery
+          Corvallis
+    Portland Brewing Co. *
+          Portland
+    Widmer Brewing Co. (#1)
+          Portland
+    Widmer Brewing Co. (#2)
+          Portland
+BP
+    Cornelius Pass Roadhouse and Brewery
+          Hillsboro
+    Fulton Pub and Brewery
+          Portland
+    High Street Pub
+          Eugene
+    Highland Pub and Brewery
+          Gresham
+    Hillsdale Brewery and Public House
+          Portland
+    Lighthouse Brew-Pub
+          Lincoln City
+    McMenamin's 
+          Beaverton
+    Oak Hills Brewpub
+          Portland
+    Pizza Deli and Brewery
+          Cave Junction
+    Roger's Zoo
+          North Bend
+    Rogue River Brewing Co.
+          Ashland
+    Steelhead Brewing Co.
+          Eugene
+    Thompson Brewery and Public House
+          Salem
+    Williamette Brewing Co.
+          Salem
+
+
+PENNSYLVANIA
+MB  Stoudt Brewery 
+          Adamstown
+BP  Dock St. Brewing Co. Brewery & Restaurant
+          Philadelphia
+    Happy Valley Brewery
+          State College
+    Pennsylvania Brewing Co./Allegheny Brewery & Pub
+          Pittsburgh
+    Philadelphia Brewing Co./Samuel Adams Brewhouse
+          Philadelphia
+
+
+TENNESSEE
+MB  Bohannon Brewing Co.
+          Nashville
+
+
+TEXAS
+MB  Dallas Brewing Co.
+          Dallas
+
+
+UTAH
+MB  Schirf Brewing Co./Wasatch Brew Pub *
+          Park City
+BP  Eddie McStiff's
+          Moab
+    Salt Lake Brewing Co./Squatter's Brewpub
+          Salt Lake City
+
+
+VERMONT
+MB  Catamount Brewing Co.
+          White River Junction
+    Otter Creek Brewing Co.
+          Middlebury
+    The Mountain Brewers Inc.
+          Bridgewater
+BP  Dewey's Ale House
+          Brattleboro
+    The Vermont Pub and Brewery of Burlington
+          Burlington
+
+
+VIRGINIA
+MB  Old Dominion Brewing Co.
+          Ashburn
+    Virginia Brewing Co.
+          Virginia Beach
+BP  The Blue Muse
+          Roanoke
+    Blue Ridge Brewing Co.
+          Charlottesville
+    19th Street Brewery
+          Virginia Beach
+
+
+WASHINGTON
+MB  Hale's Ales Ltd (#1)
+          Colville
+    Hale's Ales Ltd (#2)
+          Kirkland
+    Hart Brewing Co.
+          Kalama
+    Maritime Pacific Brewing Co.
+          Seattle
+    Pike Place Brewery
+          Seattle
+    Redhook Ale Brewery *
+          Seattle
+    Roslyn Brewing Co.
+          Roslyn
+    Thomas Kemper Brewing Co. *
+          Poulsbo
+    Yakima Brewing and Malting Co. *
+          Yakima
+BP  Big Time Brewing Co.
+          Seattle
+    Duwamps Cafe/Seattle Brewing Co.
+          Seattle
+    Fort Spokane Brewery
+          Spokane
+    Noggins Westlake Brewpub
+          Seattle
+    Pacific Northwest Brewing Co.
+          Seattle
+
+
+WISCONSIN
+MB  Capital Brewery *
+          Middleton
+    Fox Classic Brewing Co.
+          Appleton
+    Lakefront Brewery
+          Milwaukee
+    Sprecher Brewing Co.
+          Milwaukee
+BP  Appleton Brewing Co./Dos Bandidos Brew
+    Pub/Skyline House
+          Appleton
+    The Brewmaster's Pub
+          Kenosha
+    Cherryland Brewing Co.
+          Sturgeon Bay
+    Rowland's Calumet Brewery and Brewpub
+          Chilton
+    Water Street Brewery
+          Milwaukee
+
+
+WYOMING
+MB  Otto Brothers' Brewing Co.
+          Jackson
+
+
+ALBERTA
+MB  Big Rock Brewery 
+          Calgary
+    Strathcona Brewing Co.
+          Edmonton
+BP  Boccalino Pasta Bistro
+          Edmonton
+    Brewsters Brewpub and Brasserie (#2)
+          Calgary
+
+
+BRITISH COLUMBIA
+MB  Granville Island Brewing Co.
+          Vancouver
+    Horseshoe Bay Brewing Co.
+          Horseshoe Bay
+    Okanagan Spring Brewery
+          Vernon
+    Shaftebury Brewing Co.
+          Vancouver
+    Sunshine Coast Brewers
+          Sechelt
+    Vancouver Island Brewing Co.
+          Victoria
+    Whistler Brewing Co.
+          Wistler
+BP  Leeward Neighbourhood Pub
+          Comox
+    Prairie Inn Cottage Brewery
+          Saanichton
+    Spinnakers Brewpub
+          Victoria
+    Swan's Brewpub/Buckerfield's Brewery
+          Victoria
+
+
+NEW BRUNSWICK
+MB  Bavarian Specialties(Canada)/Hans Haus
+    Brewery
+          Riverview
+
+
+NOVA SCOTIA
+BP  Granite Brewery
+          Halifax
+
+
+ONTARIO
+MB  Bixel Brewing Co.
+          Brantford
+    Creemore Springs Brewery
+          Creemore
+    Niagara Falls Brewing Co.
+          Niagara Falls
+    The Northern Algonquin Brewing Co.
+          Markham
+    The Upper Canada Brewing Co.
+          Toronto
+    Wellington County Brewery
+          Guelph
+    York Brewery
+          Brampton
+BP  Amsterdam Brasserie and Brewpub
+          Toronto
+    Blue Anchor Brewery
+          Orillia
+    CC's Brew Pub
+          Mississauga
+    CEEPS Barney's Ltd.
+          London
+    Charley's Tavern
+          Windsor
+    Denison's Brewing Co./Growler's Restaurant
+          Toronto
+    Diamond Hill Brew Pub
+          Richmond Hill
+    Flying Dutchman Hotel/Lighthouse Brewpub
+          Bowmanville
+    Heidelberg Restaurant and Brewery
+          Heidelberg
+    Jolly Friar Brasserie and Brewpub
+          Sault Saint Marie
+    Kingston Brewing Co.
+          Kingston
+    Kirkland Lake Bavarian Inn/Bernie's Brew Pub
+          Kirkland Lake
+    The Lion Brewery and Museum
+          Waterloo
+    Luxembourg Brewpub
+          Mississauga
+    Madawaska Tavern
+          Arnprior
+    Marconi's Steak and Pasta House
+          Etobicoke
+    Mash McCann's
+          London
+    Master's Brasserie and Brewpub
+          Ottawa
+    Port Arthur Brasseries and Brewpub
+          Thunder Bay
+    Queen's Inn/Taylor and Bate Ltd.
+          Stratford
+    Rotterdam Brewing Co.
+          Toronto
+    Tapsters Brewhouse
+          Mississauga
+    Tracks Brewpub (formerly Houston Track)
+          Brampton
+    Union Station Brewpub
+          Markham
+    Winchester Arms
+          Mississauga
+
+
+QUEBEC
+MB  Brasal Brasserie Allemande
+          Lasalle
+    Les Brasseurs G.M.T.
+          Montreal
+    Massawippi Brewing Co.
+          Lennoxville
+    Brasserie McAuslan
+          Montreal
+    Les Brasseurs du Nord
+          St. Jerome
+    La Brasserie Portneuvoise
+          St. Casimir
+BP  La Cervoise 
+          Montreal
+    Le Cheval Blanc
+          Montreal
+    Crocodile Club
+          Montreal
+    Crocodile Club St. Laurent
+          Montreal
+    Golden Lion Brewing Co.
+          Lennoxville
+    L'Inox  
+          Quebec City
+    Mon Village Brewery
+          Hudson
+
+
+SASKATCHEWAN
+BP  Barley Mill Brewpub
+          Regina
+    Brewsters Brewpub amd Brasserie
+          Regina
+    Bushwakker Brewing Co.
+          Regina
+    Cheers Roadhouse/Saskatoon Brewing Co.
+          Saskatoon
+    Clark's Crossing Brewpub
+          Saskatoon
+    Miner's Brewpub and Eatery
+          Saskatoon
+
+
+------------------------------
+
+
+Date:         Thu, 18 Jul 1991 13:37:30 PDT
+From: Patrick_Waara.WBST129`at`xerox.com
+Subject: Teleford's DME
+
+
+Has anyone noticed a difference in the Teleford's dry malt extract lately?  I
+used to use it exclusively, because it's good malt and was significantly
+cheaper than the syrup, but for a time I was unable to get it from my local
+supplier.  He now has it again, but it looks very different than it used to.
+Teleford's used to have a crystaline quality to it; i.e., light used to shine
+off the facets in the malt.  Now it is a very fine, dull powder much like
+American Eagle dry.  Have they changed the way they malt their grains?  Are
+they still using two-row malt or have they started using the 6-row stuff?  I
+haven't had an opportunity to try the new Teleford's, so I can't tell whether
+it tastes the same or not.  Anyone?
+
+
+~Pat
+
+
+------------------------------
+
+
+Date:         Thu, 18 Jul 91 15:34:06 CDT
+From: Ken Schriner <KS06054`at`UAFSYSB.UARK.EDU>
+Subject:      Water, water everywhere...
+
+
+On Wed, 17 Jul 91 16:11:58 EDT Tom Dimock said:
+>I have some water questions for y'all.  I live in the country, and have
+... (paraphrasing) ... "bad water"
+
+
+I too live in the country, and my water is not that great, particularly
+in the summer when the well is a little low, or in the spring, when the
+well is a little high.  I solved this problem by buying my water at the
+store.  I buy the cheapest water I can find, usually about $2.50 for
+five gallons of water.  It usually states on the label that it is
+water from the Little Rock municipal water supply. (I think that means
+they treat the water from the Arkansas River.)  It has made a big
+improvement in my beer.  In fact, the large improvement for $2.50
+convinced me to spend another couple of bucks per batch on liquid
+yeast.  Easily the two biggest improvements to my beer.
+
+
+Ken Schriner (501) 575-2905            BITNET : ks06054`at`uafsysb
+U of A, Computing Services           Internet : ks06054`at`uafsysb.uark.edu
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 91 14:57:09 MDT
+From: Rick Myers <fc.hp.com!hp-lsd!hpctdpe!rcm`at`hpfcla>
+Subject: Brewing with Well Water
+Full-Name: Rick Myers
+
+
+
+
+> I have some water questions for y'all.  I live in the country, and have
+> two wells.  Well A has hard water, with enough iron to turn my particle
+> filter red in two months.  Well B is also hard, and has enough sulphur
+> to turn its particle filter black in two months.  My brewing choices are
+> well a, well B straight, or well B softened by a water softener.  What
+> should I do?  I have heard that iron is toxic to yeast - is that true,
+> and if so is there a reasonable way to remove it?
+
+
+I have been using well water with a high iron content for over a year
+with no ill effects to my beer, that I can notice.  My water has a
+distinctive odor to it, and I don't care to drink it straight out of the
+tap.  I had often wondered what it was doing to my beer, if anything, so
+I tried an experiment.  I hauled Colorado Springs city water (quite good,
+actually) home in 6 gallon jugs and used it to make my beer.  I made 3
+batches with city water, and discovered that it made absolutely no
+discernable difference in taste whether I used my well water or city water.
+Note that some styles of beer need softer or harder water than other styles,
+but I haven't been able to notice any difference when I make the same beer
+with my hard well water or the soft city water.
+
+
+Why don't you make a batch from each well using the same recipe for
+comparison purposes and then let us know how they turn out?
+
+
+Rick
+- --
+Rick Myers    rcm`at`col.hp.com
+Hewlett-Packard
+Colorado Telecommunications Division
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 1991 18:28 EST
+From: BAUGHMANKR`at`CONRAD.APPSTATE.EDU
+Subject: Muddy runoffs
+
+
+>From: bliss`at`csrd.uiuc.edu (Brian Bliss)
+
+
+>Well, on monday I tried to make my second all-grain batch,
+>and indeed, sparging is my low point.  I recirculated for
+>a half hour, and it never ran clear. 
+
+
+>What I finally did was just let the runooff sit for
+>3 hours in a fermenter, and all the husks settled to
+>the bottom 3/4".  This worked great! 
+
+
+It probably did but all-grain brewing is long enough without
+adding an extra three hours to it.
+
+
+ -Stuff Deleted-
+
+
+>Next time I'll try 6-row lager malt (I think the 2-row
+>malt, with the finer husks is the culprit), and stick a
+>grain bag in the sparge bucket.  
+
+
+AH HA!!  If (and I'm not sure from your posting) you were just
+letting the sparge water run free through the spigot on your
+lauter tun, it's no wonder it never ran clear.  By all means
+use a sparging bag or some other type of straining mechanism
+to strain out the husks.
+
+
+Don't give up on the 2 row just yet.  6-row requires a step
+mash, is more complicated and difficult to work with, and 
+as far as I can tell, doesn't taste any better, anyway.
+
+
+(Is that the sound of rushing flames coming up behind me?) :-)
+
+
+>If I still have to resort
+>to letting the runoff settle, It will become part of
+>my standard technique.
+
+
+Let's hope not.  Bear down on the straining of the husks from
+the sparge water.  It really sounds like this is the source
+of your problem.
+
+
+Cheers,
+
+
+Kinney Baughman                  |    Beer is my business and
+baughmankr`at`conrad.appstate.edu   |    I'm late for work.
+
+
+P.S.
+
+
+Just who is Darryl Richman, anyway ?  :-)
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 91 15:37:27 PDT
+From: Tom Bower <bower`at`hprnlme1.rose.hp.com>
+Subject: HBD Posting
+Full-Name: Tom Bower
+
+
+Two items for my first posting:
+
+
+1.) Water Analysis.  When I moved into my latest house I requested a water
+analysis from the local water agency.  The documentation they sent me was
+skimpy and lacked detail.  It just didn't have the information I wanted in
+order to understand my brewmaking water.  Then, one day while wandering
+through the local Sears I came upon their water-filter/softener department,
+and found that they offer a FREE water analysis service.  It works like this:
+
+
+You think you may want to purchase a water filter or softener.  You pick up
+from Sears a little plastic sample bottle and postage-prepaid envelope.  You
+take it home, fill it with water from your preferred brewmaking water faucet,
+close it, bag it and mail it off.  A couple weeks later you get a nice, big
+fat report - your free water analysis!  (The first step in the above process
+is optional. :)
+
+
+2.) Calculating the temperature to cool the wort to.  In making an extract
+beer, my brewpot usually boils about 3 gallons.  Therefore I need to top off
+my primary fermenter with 2-2.5 gallons of water before pitching the yeast.
+
+
+Since the temperature of my top-off water is usually not proper pitching
+temperature and my goal is to cool the 3 gallons of hot wort down to the
+point where I can add the top-off water and pitch the yeast immediately,
+I want to be able to calculate the proper temperature to cool the wort to
+(using my immersion chiller) such that the resulting mix ends up being a
+good pitching temperature.
+
+
+If one assumes that all the liquids involved have the properties of plain
+water (the properties invoved are density and specific heat) then the for-
+mula for the temperature to cool the wort to is:
+
+
+                             Top-off Volume
+Temp.wort = Temp.pitching + ----------------- (Temp.pitching - Temp.top-off)
+                             Hot Wort Volume
+
+
+But as we all know, the density of wort is somewhat higher than water, and
+the specific heat is probably somewhat different as well.
+
+
+Right now I'm trying to work through some numbers to see if the likely dif-
+ferences are going to make more than a few degrees' difference in the outcome,
+but I'm curious as to whether others have attempted to do this.
+
+
+Of course, the other option is to make sure my top-off water is heated to
+a good pitching temperature to begin with; then I just cool the hot wort to
+match and not worry.
+
+
+- ---------------------
+Tom Bower, HP RND R&D
+
+
+------------------------------
+
+
+Date: Thu, 18 Jul 91 19:20:05 CDT
+From: bliss`at`csrd.uiuc.edu (Brian Bliss)
+Subject: brew kettles
+
+
+
+
+Art Medlar <hman`at`violet.berkeley.edu> writes:
+> found the best deal at Ying's ...
+> Ten gallons, stainless(?) steel, with a lid, for $42.
+
+
+C.R. Saikley:
+> I have a friend who just got a good deal on a brew kettle, so I
+> thought I'd pass this along. He got a 10 gallon stainless steel
+> kettle for $39. ... He bought it at Ying's, which is at the corner of
+> Pacific and Stockton in San Francisco's China Town.
+
+
+hmm. they seem to be getting cheapert by the minute.
+Maybe if I wait until next week, I can REALLY get a bargain :-)
+
+
+.......
+
+
+> I read the label on the yeast package
+> about breaking the seal and neadinn the package. I went ahead and combined
+> the ingreadients cooked em. but about two thirds of the way through I noticed
+> on the yeast package that it said it would need a day or two to incubate.
+
+
+I did the same thing when I tasted my Wyeast british ale starter and
+found it to be infected.  I used Wyeast german ale instead.  It was
+a little slow to start, but worked fine.  The damn thing took an entire
+month to ferment, but I talked to a friend who (presumably) let his
+package incubate, and hada long fermentation, too.
+
+
+I re-cultured the dregs for the next batch, and with a ready starter
+bottle, it still took 24 hrs to start to krausen.  I aereated this
+batch fully - we'll see if it still takes a month.
+
+
+Back on the subject of infected Wyeast British ale yeast.  I thought
+I was at fault when I made the starter bottle, so I ordered another
+package.  When I arrived, the package has already started to swell,
+and the bubble had not been burst yet!  Could Wyeast have released
+an infected batch?  This has only happened on British Ale packets
+dated April 10 for me.  I cut open the foil, and tasted the solution,
+and it was slightly sour, but certainly not "vinegary".  I then
+cultured what was in the bubble, but I'll probably never use it.
+
+
+
+
+cheers!
+
+
+bb
+
+
+
+
+------------------------------
+
+
+Date:         Fri, 12 Jul 1991 13:45:37 -0400
+From: hplabs!bnr-vpa!bnr-rsc!crick (Bill Crick)
+Subject: ginger, aphids
+
+
+
+
+Regarding using ginger in beer slowing down yeast: I make ginger beer
+that has 1/2lb of fresh ginger in 2 gallons of water, and it certainly'
+doesn't slow down the fermentation in any way.
+
+
+
+
+My mother's recipe to get rid of aphids:
+
+
+Mix 2 cups of vegetable oil, and three tablespoons of dishwashing 
+liquid together.
+
+
+Taks two tablespoons of this liquid, and mix with 1 quart of water.
+Thouroughly spray plants with this liquid once a week.
+It apparently controls several types of bugs.
+
+
+Bill Crick
+
+
+
+
+
+
+------------------------------
+
+
+Date:         Mon, 15 Jul 1991 11:05:36 -0400
+From: hplabs!bnr-vpa!bnr-rsc!crick (Bill Crick)
+Subject: MEV Research
+
+
+I called the two numbers given for MeV Research in Waterloo.
+ One is a grumpy fellow who doesn't know who the !`at`#$% MeV is.
+ The other is "we cannot complete your call as dialed, Please hang up..."
+ I called directory assistance, and they have no listing for Mev anything!
+
+
+
+
+Doesn't look good. Pity, their Weiss beer yeast had a real nice tang to it.
+
+
+Bill Crick Brewius, Ergo Bust!
+
+
+
+
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #683, 07/19/91
+*************************************
+-------

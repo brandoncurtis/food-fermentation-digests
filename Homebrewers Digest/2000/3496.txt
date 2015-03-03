@@ -1,0 +1,1293 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA14887
+        for <spencer`at`srvr5.engin.umich.edu>; Wed, 6 Dec 2000 00:53:45 -0500 (EST)
+Received: from brew.hbd.org (IDENT:root`at`[63.219.236.210])
+        by srvr20.engin.umich.edu (8.9.3/8.9.1) with ESMTP id AAA04158;
+        Wed, 6 Dec 2000 00:53:42 -0500 (EST)
+Received: (from root`at`localhost)
+        by brew.hbd.org (8.9.3/8.9.3) id AAA04651
+        for realhomebrew; Wed, 6 Dec 2000 00:38:07 -0500
+Date: Wed, 6 Dec 2000 00:38:07 -0500
+Message-Id: <200012060538.AAA04651`at`brew.hbd.org>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3496 (December 06, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3496                             Wed 06 December 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Wort viscosity / John's fluid flow experiment ("Brian D. Kern")
+  Humour , Flow 'periment., Hidden valley, Oz Barley, Advice,Zinc (craftbrewer)
+  RE: Fact vs Superstition (Tony Barnsley)
+  re: Einstein's Garage ("Stephen Alexander")
+  Re: Sabco False Bottoms (Todd Goodman)
+  smoked beers ("Micah Millspaw")
+  too much irish moss ("S. SNYDER")
+  RE:  Large Corporation Rant ("Houseman, David L")
+  Lauter Tun Design (part 1) (Martin_Brungard)
+  Lauter Tun Design (part 2) (Martin_Brungard)
+  Silicon and lauter tuns (JGORMAN)
+  Re: Phalse Bottoms (Doug Hurst)
+  Cloudy StarSan ("Paddock Wood Brewing Supplies")
+  to decant or not to decant... ("Spies, Jay")
+  Celis copy receipe... (Rick Nelson)
+  making the plunge to all-grain ("Wayne Love")
+  Re: SS False Bottoms (Phil Sides)
+  Celis and a question (Beaverplt)
+  False bottoms ("Strom C. Thacker")
+  One more thing on recycling yeast ("Peed, John")
+  False Bottom Support (Epic8383)
+  Miller Brewery (Ronald Babcock)
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+*
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 4 Dec 2000 22:04:52 -0800 (PST)
+From: "Brian D. Kern" <bdk`at`srl.caltech.edu>
+Subject: Wort viscosity / John's fluid flow experiment
+
+
+I have been interested to see that a few other folks have shown an 
+interest in viscosity, in addition to the fluid flow experiments that 
+John Palmer put together.  I have a few things to say about both.
+
+
+As for viscosity, we should be aware that there are two different kinds 
+of viscosity -- kinematic viscosity and absolute (also called shear) 
+viscosity.  Kinematic viscosity (usually denoted by nu) is absolute 
+viscosity (usually eta) divided by the density.  Depending on the 
+problem you're interested in, one is more applicable than the other.  
+If you're looking at how a liquid pours out of a glass, you use kinematic 
+viscosity, because all of the forces depend on the mass (i.e. through
+vravity), but if you're stirring a pot, you use absolute viscosity, 
+because you're asking how the fluid responds to an external force.  
+As an interesting note, the kinematic viscosity of air is 10 
+times the kinematic viscosity of water -- that's a handy fact to remember.
+
+
+For water, the density only changes by a couple percent between boiling 
+and freezing, so kinematic and absolute viscosity have nearly the same 
+behavior.  On the other hand, the absolute viscosity of water changes 
+by a factor of 6 between freezing and boiling.  Here is a super-simple 
+chart:
+
+
+      0 C    5 C   10 C   25 C   50 C   75 C   100 C
+eta  1.787  1.519  1.307  0.890  0.547  0.378  0.282
+rho  0.9998 1.0000 0.9997 0.9970 0.9880 0.9749 0.9584
+
+
+eta here is the absolute viscosity in centipoise, rho is the density 
+in g/cm^3.  Notice the density does increase between 0 and 5 C, just like
+Dr. P mentioned, then decreases out to boiling, but very slowly -- not 
+like the absolute viscosity, which differs by a factor of 6 from 
+freezing to boiling.  
+
+
+In the 3 minutes I spent looking for this data (CRC Handbook), I 
+couldn't find the data for wort viscosity vs. T.  I did find the 
+relative viscosity of different mixtures at 20 C, so all I can do is 
+speculate that the viscosity vs. T is that of water, simply multiplied 
+by some factor.  Here are some examples of the relative viscosities:
+
+
+          1.025 1.050 1.075 1.100
+sucrose   1.07  1.19  1.45  2.31
+maltose   1.21  1.50  1.90  2.45
+dextrose  1.19  1.43  1.79  2.26
+urine     1.06  1.15  1.28  1.45
+
+
+The columns are specific gravity, the entries are the absolute 
+viscosity of the mixture / abs. vis. of water, all at 20 C.  I figured 
+the urine would be of interest both to mega-brewers and to homebrewers 
+who don't clean their cat-bladder fermenters well.  Notice that 
+viscosity is not linearly related to the S.G. -- I don't claim to 
+understand it, and it makes me a bit nervous to assume that its 
+temperature dependence will be just like water, but my 3 minutes of 
+look-up time is up (and my 30 minutes of typing -- can we find a more 
+inefficient medium?).  I find it interesting that the sucrose viscosity 
+is so different from the maltose / dextrose viscosities -- the 
+viscosity of a constant-temperature mash will change with time.
+
+
+As for John's fluid-flow experiments, let me join the public 
+congratulations on performing a well-executed "lab" experiment.  It turns 
+out that the flow behavior can be understood mathematically with a bare 
+minimum of assumptions.  I am still discussing with John the agreement 
+between the analytical interpretation and the experimental 
+interpretation, so I'll defer those results until we've finished 
+hashing it out between ourselves.  But let me temper John's results 
+with this caution: the results of the dye movements do not directly 
+correlate to extraction efficiencies, because the dye takes longer to 
+reach the bottom of the tun.  The dye reaches the manifold quickly, 
+because the fluid flow is fastest along the "direct" path, and takes 
+its time reaching the bottom of the tun, where it finally rinses the 
+grains down there.  But the grains at the bottom of the tun have been 
+rinsed the whole time -- since there was water (without dye) mixed 
+with the bottom grains when the flow began, it started rinsing those 
+grains immediately -- it didn't wait for the dye to reach the grains 
+before starting to extract goodies.  The dye experiment clearly shows 
+where the flow is the fastest -- straight toward the manifold -- but 
+it doesn't mean there was no extraction going on until the dye reached 
+the grains.  So all I'm saying is that the map of extraction efficiency 
+vs. position is more subtle than the dye experiment makes it out to be.  
+I'll iterate with John to make a more understandable explanation before 
+saying any more about it.
+
+
+Wouldn't it be great if everybody tested their crazy ideas like John did 
+before they posted them?
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 19:31:20 +1100
+From: craftbrewer`at`telstra.easymail.com.au
+Subject: Humour , Flow 'periment., Hidden valley, Oz Barley, Advice,Zinc  
+
+
+G'day All
+
+
+Well it great to see that every-one has realised that fun and 
+beer are not related. As appointed humour monitor for the digest 
+I am happy to report (but definitely not in hysterics - that would be 
+too much for a koala to bear), that the Humour Index is now at a 
+stable 1.5. but you may need a reference here to relate this 
+number to. Well, Texans rate about 0.3, American sit-coms rate 
+about 1.2,  a politican looking sincere 3.5, The American Election 
+about a 5.0, and me in the sack about a 7.5. 
+
+
+Yeh SWMBO always has a great laugh when I attempt to relieve 
+my excessive testosterone levels. Claims its much like my bladder, 
+small in size, and its an embarrisment how often I need to go but 
+nothing comes out.
+
+
+Now onto brewing matters. I read with interest John Palmer little 
+experiment. Now for a home experiment this was quite well done, 
+but there is an abvious flaw in his experiment  that one might 
+consider investigating further.  John relys on his observations 
+against the glass wall, this being of course obvious as he hasn't 
+yet developed the sensor perceptions we Northerners have for 
+see into the fourth dimension, which also inplies that we can also 
+see into solid objects.
+
+
+Now his assumptions assume (nice play on words) that the flow 
+will be same on the edge  of the tank as per the the middle, and 
+so it might be. But could the glass also be helping to channel 
+water as well.  Could we actually having a domed effect moving 
+thru the grain bed. What is needed is for this experiment to be 
+done again, with different coloured dyes placed throughout the 
+grain bed, and seeing what results come thru. (or has this been 
+done previously one could assume) 
+
+
+It would be nice to remove all doubt.
+
+
+Now
+
+
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Off-topic: Degree Confluence Project
+
+
+I'm sure that our members all over the world could enjoy trekking 
+to these spots.  It would be great to have a picture of a 
+homebrewer enjoying a homebrew at some remote location, such 
+as the intersection of 19 deg S 146 deg E: Near Hidden Valley, 
+QLD, Australia,
+
+
+only 40 miles or so from Graham.  Maybe he could take a photo 
+of one of the dangerous species of wildlife as he drinks his 
+beer.<<<<<
+
+
+ Ok Jeff, I just might do this. recon the rest of the world needs to 
+see a bit of Gods own country. I am impressed you actually knew 
+the actual name of the place. But getting a GPS to do this, well, 
+I think I'll just wing it and get fairly close.  After all, what happens 
+if I actually find the intersection is right on a Salties nest. No 
+Bloody way I'm going to stand there having a beer. 
+
+
+From: Philip Ritson <philip.ritson`at`adelaide.edu.au>
+Subject: Australian Barley
+
+
+
+
+South Australian Farmers are beginning to replace the familiar 
+Schooner and Franklin varieties with 2 new varieties.  Sloop is 
+replacing Schooner and Gairdner is replacing Franklin. 
+Does anyone know anything about these varieties?  Are they just 
+two more high yield low taste rubbish varieties <<<<<<
+
+
+Philip dont panick. you will always see new varieties on the 
+market as plant breeder refine their skills. True different plant 
+varieties will impart different flavours, but the biggest impact by 
+far will be what the malting houses do with the grain. the up shot 
+out of all this is basically no matter what grain they receive, they 
+will malt it to the specs of the breweries in question. End result, 
+You will notice no difference between the different varieties.
+
+
+From: David Lamotte <lamotted`at`ozemail.com.au>
+Subject: Pleasures of a new Tun
+
+
+I am a bit ashamed to confess that I have been giving advice, to 
+all who asked, on the best way to convert kegs and so on; while 
+all the time I have been stuck with a 'bucket-in-bucket' device. <<<
+
+
+Now come on David, why should you feel ashamed. There's 
+quite a few out there giving advise willy-nilly, because they heard 
+it from a friend of a friend of a........., - or read it somewhere so it 
+must be right. And worse will then defend their position. Your just 
+one of many.
+
+
+ From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: correction to Corn flavor/Tangled web .../repitching/
+pitch/zinc
+
+
+John Palmer asks about zinc additions.  I've been doing this for a 
+long time by adding about 0.5ppm of zinc from unflavored  bogus 
+cold remedy drugs.  It really can have a nice impact on 
+fermentation. <<<<
+
+
+Sources of zinc and other micronutrients can be varied. You 
+could even use those plant nutrient mixes. But I must warn people.  
+Any plant will naturally show benefits with addition of nutrients, 
+then it will stabilise, meaning that additional nutrients will have no 
+benefit what so ever. Then it will decline as the nutrient becomes 
+toxic.
+
+
+So many people may not see any benefit with a zinc addition if 
+there water is high in zinc to start with. In fact they may actually 
+see ill affects. Micronutrient additions will only benefit people who 
+have relatively pure water (like me). Whats a critical level in your 
+water. I'm still researching and experimenting, but I wouldn't do it 
+if your water is above 0.6mg/L zinc, unless you really know what 
+you are doing.
+
+
+Shout
+
+
+Graham Sanders
+
+
+Oh
+
+
+Good to see The Good Dr P. is putting up proper posts now.  
+Must have received the book. since no one else will say it
+
+
+Good work - mate.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 09:31:54 -0000 
+From: Tony Barnsley <tony.barnsley`at`blackpool.gov.uk>
+Subject: RE: Fact vs Superstition
+
+
+Joseph Kish Writes
+
+
+> Elephants aerate on thier hot side!
+
+
+Nonsense! Even my 5 year old daughter knows that Elephants Aerate at the
+back side!! :> 
+
+
+(Just DON'T ASK how we found that one out, you really do not want to go
+there!!)
+
+
+- --
+Wassail!
+The Scurrilous Aleman (ICQ 46254361)
+Schwarzbad Lager Brauerei, Blackpool, Lancs, UK
+
+
+UK HOMEBREW - A Forum on Home Brewing in the UK
+              Managed by home brewers for home brewers
+
+
+To subscribe send a blank email to uk-homebrew-subscribe`at`smartgroups.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 05:32:37 -0500
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: re: Einstein's Garage
+
+
+Jeff Greenly says ...
+
+
+>I was out hunting around for gadgetry and found a really cool website. It
+> www.einsteinsgarage.com
+
+
+Jeff, dang it - you've gone and ruined my private little auction site (few
+participants or competition).  Well I guess that cat is out of the bag and
+missing it's tail.
+
+
+I think it's a clearing house for Fischer Sci distributors mostly.  Their
+'auction' system is a bit odd, but the activity there has been  (was?)
+so low that simply meeting the (hidden) reserve price is usually sufficient
+to buy an item.
+
+
+I picked up a fabulous new(unused) Denver portable pH meter (0.1mv, temp,
+250 pt recording, programmable repetitive recording w/ time stamp, serial
+interface) with temp/pH probe for $240 a few months ago.  List was $800
+I believe.  Got a nice pocket Orion ORP meter there for $20+S&H earlier too.
+
+
+Good email responsiveness from the maintainers, but there is/was some
+weirdness about auction expiration/deadlines, I think they erroneously
+permit(ed) webpage caching too.  No timezone correction either I think.
+Maybe they've solved these issues by now. Shipping/handling prices a bit
+high though not outrageous IMO.
+
+
+I recommend it.
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 07:50:41 -0500
+From: Todd Goodman <tgoodman`at`goodmanhome.net>
+Subject: Re: Sabco False Bottoms
+
+
+* In HOMEBREW Digest #3495, Rob Dewhirst <robd`at`biocomplexity.nhm.ukans.edu>
+  wrote:
+> >From: Mjbrewit`at`aol.com
+> >
+> >http://www.kegs.com/falsebottom.html
+> >
+> >I have no affiliation, just a satisfied customer.  I can not imagine anything
+> >that could be done to improve on it.  And the price is competitive at $59.
+> 
+> I can think of one very important thing the Sabco false bottoms can improve 
+> on.
+> 
+> Center support.
+> 
+> I have two of these, and they both collapsed (the hinges "sprung") under 
+> only about 10 lbs of grain in my RIMS.
+> 
+> They work extremely well if you cut a small piece of 2" brew-safe pipe and 
+> place it on-end the center under the false bottom as a support.  Cut holes 
+> in it if you need flow-through.  It's a shame they don't sell these 
+> supports with the screens.
+
+
+I had heard this before and was concerned about it.
+
+
+Just to give an alternative viewpoint, I have two of these, one of which
+I have been using for more than five years brewing ten gallon batches
+(> 20 lbs of grain).  I recently brewed a RIS with 38lbs on one and
+didn't experience any problems.
+
+
+I'm not RIMSing.  Do you use a grant to draw the wort into the pump for
+the recirc?  Is it possible the grain bed is being compacted by the
+pump?
+
+
+No afilliation with Sabco, yadda yadda yadda, I just like their stuff.
+
+
+Todd Goodman
+
+
+Brewing in Westford, MA
+
+
+
+
+------------------------------
+
+
+Date: Tue, 05 Dec 2000 07:13:23 -0600
+From: "Micah Millspaw" <MMillspa`at`silganmfg.com>
+Subject: smoked beers
+
+
+
+
+>Date: Mon, 4 Dec 2000 21:47:48 -0500
+>From: djazzie`at`juno.com 
+>Subject: smoked beer...Finally
+
+
+>well, I finally tasted one of those smoked beers I brewed up a while
+>back.  Thanks to all those who helped me formulate the recipe.  The
+>results:  Damn good!  possibly the best tasting beer I've ever made.  Now
+>here's the conundrum:  At bottling, I tasted it and it tasted almost
+>exactly like Adelscott (the particular brand Iwas trying to emulate). 
+>Now, a little more than 2 weeks in the bottle, and it tastes more like a
+>wit! (think blue moon's belgian) which is even stranger, since the
+>ingredients for a wit are pretty different.  What could have happened?  
+
+
+I brew a lot of smoked beers and have observed that they do not age
+in the way I would expect. The beer will often become appear to
+ become very 'dry' and loses its mouthfeel. Ordinarily I would expect 
+both a ph and FG drop to explain this. I am not finding either to be 
+an explaination. It is a bothersome situation when beers that start 
+out excellant, but in a month or so completely change (not for the
+ good), but are not spoiled.
+I have been able to correlate (imperical) the smoke 'stability' with 
+the smoke source and amount of smoked malt used. Small amounts
+ of commercial peated malt appear to last the longest. Large amounts 
+of hickory smoked wheat malt the shortest. 
+
+
+Any one else have observations on this.
+
+
+Micah Millspaw - brewer at large
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 08:34:31 -0500 
+From: "S. SNYDER" <SSNYDER`at`LBGHQ.com>
+Subject: too much irish moss
+
+
+Greetings,
+
+
+OK, o how bad did I screw up?  I was making a clone of Alaskan Amber
+(partial grain/extract) when I added 1 OUNCE of Irish Moss 30 min from the
+fishy before I tossed in the flavor hops 15 min from the end.  Is this brew
+salvageable?  I guess I'll know if its drinkable by around Saturday when I
+rack it, but I'd like to know what to expect.  A good rule to follow I guess
+is to measure everything out from its original packaging and not assume
+you'll remember to measure it out in the heat of battle.
+
+
+TIA,
+
+
+Scott Snyder
+ssnyder`at`lbghq.com
+Rotten Rotti Brewing Company
+
+
+"Beer is only yeast's way of making more yeast."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 08:34:33 -0500 
+From: "Houseman, David L" <David.Houseman`at`unisys.com>
+Subject: RE:  Large Corporation Rant
+
+
+Doug Hurst goes into rant mode about large corporations.  While I share the
+frustration over Celis' closing, blaming Miller, and other large
+corporations for similar actions is misplaced.  Does Doug, or anyone else
+with similar feelings own any stock?  Any mutual funds?  Participate in a
+401K?  An IRA?  A pension plan?  All of these invest in equities and all of
+these equities are under pressure from their share holders, us, to out
+perform the market as a whole and each other.  "We have met the enemy and
+they is us..."
+
+
+Dave Houseman
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 08:50:39 -0500
+From: Martin_Brungard`at`urscorp.com
+Subject: Lauter Tun Design (part 1)
+
+
+John Palmer has performed a number of interesting experiments on false
+bottoms (FBs) and manifolds for lauter tuns. Its good work. I've promised
+John an analytical model of some of his proposed configurations...now if I
+could just get my hydraulic modeling expert to finish! John, I expect those
+models to confirm your testing observations.
+
+
+In the mean time, I've looked into some of the physical features of several
+false bottom and manifold systems. This is my report on those findings. In
+my profession as a geotechnical engineer, I constantly deal with flow
+through soil. As a matter of fact, I'm also a dam engineer (or maybe a damn
+engineer too ;-) )and that requires an excellent understanding of flow
+through porous media...ie. flow through grain too.
+
+
+First, I'll describe the physical features of some common lauter tun
+systems. These examples are not meant to be definitive, but to provide a
+comparison of these systems.
+
+
+False bottoms come in a variety of dimensions, hole sizes, and hole
+spacing. For instance, Phils Phalse bottoms come in 9- and 12-inch
+diameters for common drink cooler use. I don't know the actual hole sizes
+and spacings for these units, but I'll use some common perforated stainless
+steel plate numbers in conjunction with these diameters just to provide a
+degree of comparison.
+
+
+The 9-inch diameter version provides a total surface area of 63.6 square
+inches. Hole diameters for most of the false bottoms I've seen are
+generally in the 1/8-inch to 3/16-inch range and the percentage open area
+ranges from about 40 to 60 percent of the gross area. For the 9 inch
+version, that provides an open area of about 25- to 38-square inches. Not
+too bad.
+
+
+A 12-inch version provides a total surface area of about 113 square inches.
+Using the same 40 to 60 percent open area ratio, that provides about 45- to
+68-square inches of open area.
+
+
+Another form of intake manifold for lauter tuns is slotted piping. In the
+lauter tun configuration I'm researching for John, it uses (3) 14-inch
+long, 1/2-inch diameter pipes. The pipes are slotted on the bottom half of
+the piping. This is in a 10-inch by 16-inch rectangular cooler. The total
+surface area of the 3 pipes is 66 square inches. Assuming the pipes were
+slotted using a hacksaw or something similar, that will probably provide 2
+or 3 millimeter slot widths. Assuming that the slots were spaced at 3 or
+more times the slot width, that means that less than 1/3 of the total pipe
+surface area is slotted on the bottom. Since the bottom only is slotted,
+only about 1/6 the total surface area is open. That means about 11 square
+inches open area. By the way, it is well known in geotechnical practice
+that slots are much less prone to clogging compared to holes with a similar
+diameter.
+
+
+Another popular form of intake is the easymasher type screen. I don't have
+one in front of me, but I estimate they range from 6 to 10 inches in length
+and are about 1/2-inch diameter. That provides a total surface area of
+about 10- to 17-square inches and the whole thing could effectively be
+considered open area too.
+
+
+Another intake is a length of stainless steel hose braiding. This is the
+stuff that C.D. Pritchard likes. One that I have found easily available is
+a 5-foot long dishwasher water supply hose commonly available at Lowes or
+Home Depot. Cutting off the fittings and extracting the plastic tubing
+inside, provides a roughly 60-inch long by 1/2-inch diameter conduit. This
+stuff is interesting in that it acts like a chinese finger trap...the
+diameter grows if you push the hose braid shorter in length and the
+diameter reduces when you stretch the hose braid. Through measuring, I
+found that you actually get more surface area if you stretch the hose braid
+out as much a possible. It was about a 10 percent increase in area. The
+diameter reduced to 9 millimeters, but the length stretched to 88 inches.
+That provides a total surface area of about 98 square inches. These hose
+braids are composed of hundreds of tiny interwoven stainless steel wires.
+You could say that almost the entire surface area is open since wort could
+see
+p through any of the spaces between the wire mesh, but I could say that its
+about 2/3 or 3/4 open. That provides at least 67-square inches of open
+area. Another consideration is that the hose braid permeability is easily
+10 to 100 times more permeable than a typical grain bed. For this reason,
+you could consider the entire hose braid surface area as open area, similar
+to the easymasher.
+
+
+I believe John Palmer estimates something on the order of 0.0001 cm/second
+for a typical mash permeability. If you have a sticky mash, its probably
+much less than that. I have found that I can easily arrange this 88-inch
+hose braid in the bottom of a common 7-gallon bottling bucket to form a
+lautering manifold. I've stitched the braid together with thin copper wire
+where the adjacent loops touch each other. This forms a relatively coherent
+assembly that will stay put and lay down on the bottom of the tun. It
+covers most of the tun bottom. One problem with this type of manifold is
+that care must be exercised whenever mixing the mash, so that the paddle
+doesn't touch or damage the hose braid. It can be collapsed if care isn't
+used, but it can be bent back into shape for the next mash. Stretching the
+hose braid, as recommended above, also helps make it less susceptible to
+crushing damage.
+
+
+I feel that any of these lauter tun assemblies can be successful for normal
+mashing operations. As John Palmer pointed out, a false bottom is probably
+the ideal configuration. Fortunately, with enough manifold coverage on a
+tun bottom, a manifold system too can operate effectively.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+"Meandering to a different drummer"
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 08:52:38 -0500
+From: Martin_Brungard`at`urscorp.com
+Subject: Lauter Tun Design (part 2)
+
+
+This is part 2 of my post:
+
+
+The real test of a lauter tun comes when it is used for a RIMS. The flow
+through the system is many times higher than normal flows for wort run off.
+This makes intake capacity more important. As can be seen in the open area
+calculations above, some FB and manifold configurations can provide less
+inlet area than others.
+
+
+I submit that there is a minimum ratio of open area to tun bottom area
+exists below which, a FB or manifold system will not operate
+satisfactorily. I know from experience that the hose braid system works
+acceptably even when the grist includes 45 percent wheat and oats with the
+remainder Pils malt. No rice hulls. For my 10-inch bucket tun, the bottom
+area is about 78-square inches. The ratio of open area to bottom area in
+this case is actually greater than 1 if you buy the argument that the
+entire surface area of the braid is open area. I am more inclined to say
+that the ratio is actually around 1 (100 percent) in practice. That
+explains the apparent success in using this material.
+
+
+I have heard of many cases where Phils Phalse bottoms may not work well
+under RIMS use (I am not suggesting that they are not suitable for regular
+lauter tun duty). As I mentioned above, open area of perforated metal
+plates is on the order of 40 to 60 percent. That is the same ratio that I
+use above. I suggest that the Phils Phalse bottom product may actually have
+a lower open area percentage since it is plastic and may need more solid
+material to provide acceptable strength.
+
+
+I've heard of folks having success with FB RIMS setups, so I suggest that
+an open area ratio of about 60 percent may be the bottom limit for RIMS
+use. I suggest that this minimum open area ratio should also be applied to
+any RIMS lauter tun manifolds to provide acceptable performance. I would
+appreciate hearing from brewers with this type of equipment to confirm or
+modify this suggestion. I also know that many designs use a scraper paddle
+to assist their RIMS keep flowing. That would be good to know also.
+
+
+A recent post mentioned a lauter tun that was set up with manifolds located
+next to the walls of the tun. As John Palmer pointed out in his
+experiments, this can be a poor location due to the preferential flow at
+the interface between the tun wall and the grain mass. This phenomena is
+well known in geotechnical permeability testing. Hard walled permeameters
+(similar to our lauter tuns)can skew the permeability results of a soil
+test by about 10 times greater than the actual soil permeability. I called
+one of my university professors this morning to confirm this result. I
+think that 10 times increase is probably more applicable to clayey soils.
+The more permeable grain beds that we deal with will probably only yield a
+2 or 3 times higher flow at the tun side walls. But the point is...you will
+incur increased short circuiting of the flow if your manifolds are too
+close to the walls. The same thing can be said for FBs, the FB perforations
+don't really need to go all the way to the side walls. In fact, you could
+get a slight decrease in short circuiting if the FB stops short of the
+walls. I will have a hydraulic model created to assess the degree of short
+circuiting due to wall effects. This may help assess how far from the wall
+we need to be with our manifolds or false bottom perforations.
+
+
+One of the other aspects of lauter tun design that has been pondered
+recently is the height of a FB above the tun bottom. Unless there is some
+other brewing reason, I believe the FB should be as close as possible to
+the bottom to reduce dead space losses. One physical reason some FBs are
+well above the tun bottom is that the tun has a side outlet pipe.
+Obviously, the FB needs to be above that outlet pipe and fittings. But
+where this physical limitation doesn't exist, there is a way to evaluate
+what the minimum space between the FB and tun bottom needs to be.
+
+
+Assuming the limiting feature of the lauter tun outlet is the pipe
+diameter, we can space the FB so that the maximum velocity under the FB is
+less than the velocity in the pipe. As an example, I'll assume the pipe
+diameter is 1/2-inch. I think that most systems would probably have piping
+this size or smaller. In this analysis, I set the annular area immediately
+below the pipe inlet and the tun bottom equal to the pipe cross-section
+area. The perimeter for the 1/2-inch pipe is 1.57 inches, the pipe
+cross-section area is 0.2 square inches. Dividing the area by the perimeter
+provides a minimum spacing of 0.13 inches. Pretty small! I would probably
+double that spacing to account for hydraulic losses at the inlet to the
+pipe. But, as you can see, the spacing is small. If the outlet pipe or
+tubing is smaller, then the spacing can be correspondingly smaller. Another
+factor to consider here is that the pipe size and FB spacing probably will
+not be the limiting factor in the flow in a lauter system. Either the grain
+bed, FB, or manifold system will be the hydraulic flow limitation. In most
+cases, we purposely throttle the flow to improve extraction. Both of these
+factors suggest that FB spacing can be minimal with little effect on the
+tun operation. A very narrow FB spacing is probably OK for most situations,
+you should minimize the spacing if physically possible.
+
+
+Wow, this was a lot larger than I expected it to be. I hope you get
+something valuable out of this work.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+"Meandering to a different drummer"
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 09:14:00 -0500
+From: JGORMAN`at`steelcase.com
+Subject: Silicon and lauter tuns
+
+
+There is a food grade silicon.  I can't remember the name.  It's been a long
+time since I have used it.  All I remember is that it comes in a blue tube.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 08:45:08 -0600 
+From: Doug Hurst <DougH`at`theshowdept.com>
+Subject: Re: Phalse Bottoms
+
+
+I've seen a number of posts about floatation problems with plastic Phil type
+phalse bottoms.  I thought I would share my solution (well someone else
+thought of it and sold it to me).  My mash/lauter tun is a plastic bucket
+which I purchased pre-fabricated from Williams (Williams Mashing System) and
+solves the problem by running a small 1/8" (?) bolt throught the bottom of
+the tun up through one of the holes in the phalse bottom.  A small plastic
+wing nut then holds the  phalse bottom down.  I have never had any leakage
+through the bolt hole as it is a very tight fit.  Overall this works
+extremely well.  The bucket also works for mashing as it comes with an
+insulated jacket that fits over the entire bucket.  I have detected a 1
+degree F or less drop in temperature at the end of a 75 minute mash.
+
+
+Doug Hurst
+Chicago IL
+
+
+BTW Standard disclaimers of affiliation w/ Williams apply.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 09:24:11 -0600
+From: "Paddock Wood Brewing Supplies" <orders`at`paddockwood.com>
+Subject: Cloudy StarSan
+
+
+ Frank Tutzauer writes of his cloudy Star San:
+
+
+> My questions are, first what made it go
+> cloudy so quickly (it was a clean but unsanitized pot), and second,
+> how much additional concentrate can I add before I jeopardize its
+> no-rinse properties?  Ok, one more question:  Does it still sanitize if
+> cloudy, say with a longer contact time or something?
+
+
+And Brian Lundeen notes that he has "never had a batch of Star San stay
+clear."
+
+
+StarSan should be mixed with distilled or de-ionized or reverse osmosis
+water. I have batches that are 3 months old absolutely clear.
+
+
+It will work mixed with most tap water, but it will soon react and the pH
+will rise above 3.  When the pH rises above 3 the solution becomes cloudy.
+When this happens it can be refreshed with an addition of StarSan. I do not
+believe in using it as a no-rinse sanitizer after it is more than double
+strength.
+
+
+It is not effective as a sanitizer when it is cloudy.
+
+
+
+
+cheers,
+
+
+Stephen Ross -- "Vitae sine cerevisiae sugant."
+______________________________________________
+Paddock Wood Brewing Supplies, Saskatoon, SK
+orders`at`paddockwood.com  www.paddockwood.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 10:58:07 -0500 
+From: "Spies, Jay" <Spies`at`dhcd.state.md.us>
+Subject: to decant or not to decant...
+
+
+All -
+
+
+I'm sure this has been addressed before in previous posts about starters,
+but real quick again...
+
+
+If you continuously stir, repeatedly shake, or otherwise aerate your
+starters after initial fermentation commences (a good idea to re-saturate O2
+and maximize yeast mass), you don't ideally want to pitch that starter fluid
+into your beer wort.  Not to mention the fact that it probably won't follow
+your original recipe, it will be mega-stale.  If you do multiple step ups,
+like I do when I'm starting from a WL tube, you'll have on the order of 1/2
+gallon of liquid in your starter.  Plan ahead and leave yourself at least 2
+days to chill the finished starter and flocc out the yeast.  Then decant
+that vile stale crap.  I was stuck with not being able to decant for a
+Belgian Witbier, and had to pitch 1/2 gallon of highly oxidized starter wort
+and yeast.  You could tell, believe me.  I usually start my starters at
+least 5 to 6 days ahead of my brewday.
+
+
+HTH,
+Jay Spies
+Wishful Thinking Basement Brewery
+Baltimore, MD
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 11:24:57 -0600 
+From: Rick Nelson <Rick.Nelson`at`iVita.com>
+Subject: Celis copy receipe...
+
+
+Since this favorite of mine is going away, I'd like to know if anyone can
+give me a link to a copy receipe...
+
+
+Thanks,
+
+
+Rick
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 15:55:53 -0400
+From: "Wayne Love" <lovews`at`auracom.com>
+Subject: making the plunge to all-grain
+
+
+Well after about a year and a half of extract brewing I've finally decided
+to go all grain. I figured it was a good time to get my xmas list in to
+SWMBO. I do have some preliminary questions that I was hoping someone could
+help me out with.
+  1.. I can buy Cdn 2 row grain for about $37cdn per 25kg. or spend $69 cdn
+for Maris Otter. I plan to brew mostly pale ales and bitters. Is it worth it
+to pay the extra for Maris Otter or other premium grains?
+  2.. What do most home brewers recommend for good cheap scales? Both for
+measuring grains and hops etc. I've noticed some relatively cheap digital
+scales (Royal ex2) on ebay for approx.$20 to $25. Has anyone used these?
+Thanks for your help
+wayne
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 12:13:50 -0800 (PST)
+From: Phil Sides <hopsock.geo`at`yahoo.com>
+Subject: Re: SS False Bottoms
+
+
+Richard Foote <rfoote`at`mindspring.com> wrote:
+
+
+>3. Works well.  Due to the large volume under false
+>bottom, recirculation never seems to clear the run
+>off.  It improves but not to the degree of
+>clarity of the other two.  Also, sometimes back
+>pressure via a well-placed blow of air expelled from
+>the lungs through the attached PVC tubing is
+>needed to initiate flow.  This design is prone to
+>channeling along the keg wall.  Periodic stirring of
+>the top 4" or so of the grain bed is needed to
+counter >this tendency.  Stuck mashes occur on
+occasion, 
+
+
+Wouldn't this be a major source of HSA if you believe
+in such things.  My recommendation is to underlet with
+hot water when this occurs.  If you don't have a pump,
+I *suppose* a shot of CO2 would work as well. 
+Comments?
+
+
+Phil Sides
+Concord, NH
+
+
+
+
+__________________________________________________
+Do You Yahoo!?
+Yahoo! Shopping - Thousands of Stores. Millions of Products.
+http://shopping.yahoo.com/
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 13:02:48 -0800 (PST)
+From: Beaverplt <beaverplt`at`yahoo.com>
+Subject: Celis and a question
+
+
+I thought the best news I've heard was that Miller was
+closing the Celis operation. I know that sounds wierd,
+but you know that they will sell the operation or at
+least the name and recipe. More than likely an
+enterprising person that has guts, brains, and a
+little drive will put Celis back on the map (Maybe
+someone reading this).  
+
+
+My guess is someone at Miller lost their job over this
+mess. Miller doesn't stay in business by buying
+businesses and running them into the ground. One other
+possibility is Miller bought Celis to get their
+facility and knew ahead of time they'd drop the label.
+   
+
+
+My question is this. I've been reluctant to use
+anything but a bleach solution for sanitizing. Call me
+old fashioned, but I was leary of no rinse products.
+After my soapy beer disaster I've been rethinking my
+prejudices. My local brew supply has a white powder
+that is sold as a rinse free sanitizer. It doesn't go
+by any of the names I've read in HBD. In fact it
+doesn't have a name on it and the part timer working
+that day didn't know anything. The stuff looks like
+sugar. Can anyone venture a guess what it is? I know
+sanitizers have occupied a lot of space in previous
+HBDs and I feel bad about bringing it all up again, so
+feel free to pick on me for not paying closer
+attention.
+
+
+Thanks
+
+
+Beaver 
+
+
+__________________________________________________
+Do You Yahoo!?
+Yahoo! Shopping - Thousands of Stores. Millions of Products.
+http://shopping.yahoo.com/
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 16:24:39 -0500
+From: "Strom C. Thacker" <sthacker`at`bu.edu>
+Subject: False bottoms
+
+
+Adding to the recent replies to the false bottom query, I've been 
+very happy with the ABT (yadda, yadda) false bottom I've been using 
+in my converted sanke keg mash tun.  At $32 including the pickup 
+tube, it was very economical, too.  Extremely strong, and nice clear 
+runoff.
+
+
+Here's a question for the collective: does anyone out there use the 
+ABT false bottom with a RIMS system?  It comes with a 3/8" ID pickup 
+tube.  I've used it successfully with a pump, but I don't use a 
+heating chamber or automated temperature control so I'm not a RIMSer 
+(yet).  Just judging by sight, it seems to recirculate at a fairly 
+fast rate, but I'm curious if anyone has actually tried it with a 
+full RIMS system.
+
+
+Strom
+Newton, MA
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 17:19:18 -0500 
+From: "Peed, John" <jpeed`at`elotouch.com>
+Subject: One more thing on recycling yeast
+
+
+
+
+Thanks to all for the input on repitching yeast.  As with most subjects,
+there were many conflicting opinions, but all were informative.  One more
+question.  Many have expressed the opinion that it's best to repitch with
+yeast from the secondary, but I use isenglass to fine the secondary (it
+works very well for me).  So the question is: Does the use of isinglass make
+the yeast unsuitable for repitching?  
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 5 Dec 2000 18:45:47 EST
+From: Epic8383`at`aol.com
+Subject: False Bottom Support
+
+
+    I use a full diameter hinged false bottom in a Sanke keg m/l tun. When I 
+first got it, the failure of the hinge under the weight of the mash seemed 
+obvious, so before it's first use I gave it a little support. I took three 
+stainless steel pan head machine screws and mounted them upside down as 
+supports for the false bottom. A s/s nut on both sides of the false bottom 
+holds the screw and before tightening, I was able to customize the length for 
+good support. They're positioned about halfway between the center and the 
+wall of the keg in a triangle configuration. Never had a problem for about 
+1/2 dozen 10 gallon brews.
+   Since moving however, I have a haze in my first few batches that won't 
+filter out with a 3u plate filter. I believe it may be due to elevated iron 
+levels in my water. I'm now looking for ways to filter out the iron.
+     Gus Rappold
+     Massapequa, NY
+
+
+
+
+------------------------------
+
+
+Date: Tue, 05 Dec 2000 20:57:58 -0700
+From: Ronald Babcock <sportsdraft`at`home.com>
+Subject: Miller Brewery
+
+
+Well after reading the Miller bashing about buying and destroying Celis 
+Brewery. I have to chime in and defend Miller Brewing Company. I am not 
+afraid to proclaim my love of Miller Beer. In fact I buy MGD for very 
+special occasions. Here in Colorado one would think of maybe the "C" 
+brewery in Golden but in times of festivals Miller rises to the top. It is 
+hands down the beer of choice for my own SLUG FEST. This is the best use 
+for and best attractant for slugs. How could one argue with thousands of 
+slugs? For those of you that are gastropod challenged slugs are little 
+critters like a shell-less snail that destroy both flower and vegetable 
+gardens, not unlike mega brewery destroying micro breweries. The beer is 
+poured into jar lids and placed around your flowers and in the garden to 
+attract slugs, the slugs then fall into or crawl into the lids filled with 
+Miller and drowned. I find a lot have tried to escape this horrific death 
+when I dump them in the morning but unfortunately they have failed. I mean 
+what other beer would be more fitting for slug bait. So I wish for all of 
+you to raise a glass of your finest in celebrating the perfect marriage of 
+beer and bait.
+
+
+I know this really has something to do with nothing but I couldn't resist.
+
+
+Cheers
+
+
+Ronald Babcock - beerman`at`thedraft.org - Denver, CO
+Home of the Backyard Brewery at thedraft.org
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3496, 12/06/00
+*************************************
+-------

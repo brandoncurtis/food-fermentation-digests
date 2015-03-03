@@ -1,0 +1,1467 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Tue Jun 27 03:36:22 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["47044" "Tue" "27" "June" "1995" "01:01:04" "-0600" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1178" "Homebrew Digest #1766 (June 27, 1995)" "^Date:" nil nil "6" nil nil nil nil]
+        nil)
+Received: by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with X.500 id DAA25673; Tue, 27 Jun 1995 03:36:18 -0400
+Received: from goodman.itn.med.umich.edu by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with SMTP id DAA25668; Tue, 27 Jun 1995 03:36:17 -0400
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA11861
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Tue, 27 Jun 95 03:35:41 -0400
+X-Notice: **PLEASE NOTE** - Email addresses of the form "user`at`med.umich.edu"
+   will be invalid after Sept 1, 1995. U-Mich Med Center users should
+   check with their email administrators for further instructions.
+   Information is available at URL - http://www.med.umich.edu/mcit/mailhub/
+Received: from hpfcmi.fc.hp.com (hpfcrdg.fc.hp.com) by hpfcla.fc.hp.com with ESMTP
+        (1.37.109.16/15.5+IOS 3.20) id AA224878462; Tue, 27 Jun 1995 01:34:23 -0600
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.11 $/15.5+IOS 3.22) id AA183906463; Tue, 27 Jun 1995 01:01:04 -0600
+Message-Id: <199506270701.AA183906463`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+Date: Tue, 27 Jun 1995 01:01:04 -0600
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1766 (June 27, 1995)
+
+
+
+
+
+
+HOMEBREW Digest #1766                             Tue 27 June 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Boiler RIMS system (Glen Hathaway)
+  Dropping revisited (Domenick Venezia)
+  Acid washing yeast (Domenick Venezia)
+  sparge times (Wyss1364)
+  Re: Hop Plant Fertilizer (Dan Roman)
+  food grade VS brew grade extracts ("Keith Royster")
+  dropping and enzymes (Andy Walsh)
+  Salvaging gushers? (Nicholas Christopher)
+  RE: Converting a keg to a boiler (Greg Buckwalter)
+  RE: Harvesting fermenter yeast (Christopher Pickslay)
+  Please add (Mark King)
+  Rooty-Tooty-Fresh-N-Fruity Lambic (Otto Radtke                         )
+  carboy cooler ("mike spinelli")
+  BUZZ_OFF Results ("Houseman, David L [TR]")
+  Solution: *Never* have puffed or bulging 5l kegs again (david lawrence shea)
+  Flakey questions (Joseph.Fleming)
+  Secondary vessel ("Tom Williams")
+  ESB Recipe (Steven W. Schultz )
+  HomeBrewing in Israel (Nir Navot)
+  Homebrew Club Outline\Using Hop Teas\Dropping? ("Jim Herter")
+  Suboptimal Hop Combinations/Flux and Fermenter Flow ("Fleming, Kirk R., Capt")
+  Smokey the Beer (John D. Pavao)
+  Filling a Sankey ("Fleming, Kirk R., Capt")
+  Re: Sparge Arms for 15 gal. sys. (Dion Hollenbeck)
+  Brew pubs ("James Giacalone")
+  Grain Bag in Lauter Tun? (Troy Howard)
+  Hop Utilization at High Altitude ("LAVANSA0")
+  Puffed-up minikegs (PHIL=MEYERS)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 25 Jun 1995 01:41:58 -0400
+From: Glen Hathaway <glenh`at`icebox.iceonline.com>
+Subject: Boiler RIMS system
+
+
+Hi all...
+ 
+Subject 1:  
+  I'm a lowly extract brewer who wants to go all-grain. I'm in the 
+plumbing/hot-water heating/gasfitting business - I've got a nice
+high-efficiency boiler that I got at an auction sitting in the shop.
+Boiler is 75000 BTU and rated 95% efficient. I paid only $300 Canadian
+for it :-). The manufacturer went under, so parts aren't available - this
+means I don't want to install it in a customer's house. I've been kicking
+around ideas for a RIMS system using this boiler with a heat exchanger as
+a heat source.
+ 
+  Anybody here on the HBD have any experience with such a system or ideas
+for cool ways to connect it all up? I have access to large quantities of
+plumbing scrap and can buy plumbing parts at wholesale prices.
+ 
+Subject 2:  
+  I also have probably a dozen or so natural-gas hot-water tank burners
+kicking around - both 36000 and 50000 BTU. How well do these work as 
+wort boiling heat sources? Are they big enough to do 5 gallon full boils
+in a reasonable amount of time? Has anyone out there tried up-rating one
+of these things to a higher BTU rating by drilling the orifice? If so,
+did you experiment to see how far you could push it? What I'm getting at 
+is that, while it should be do-able, you would eventually get to a point
+where the venturi couldn't supply enough primary air for the larger amount
+of gas, and you'd start getting incomplete combustion and sooting.
+ 
+  If I don't hear from anyone about this, I will experiment to find the
+BTU limit of these burners and will post the info for you DIY brewers.
+  
+  Glen Hathaway  --  glenh`at`iceonline.com
+ 
+
+
+------------------------------
+
+
+Date: Sat, 24 Jun 1995 23:13:47 -0700 (PDT)
+From: Domenick Venezia <venezia`at`zgi.com>
+Subject: Dropping revisited
+
+
+
+
+Bob Talkiewicz says in HBD 1764:
+
+
+>I thought that the 'dropping' thread from a few months ago made it clear 
+>that it referred to racking early with minimal aeration.  At least that 
+>was the way I understood it.  
+
+
+I don't think any such consensus was ever reached.  Opinions varied, but I 
+just reviewed the dropping thread and my interpretation is that dropping 
+involves aeration.  In terms of yeast rousing it seems to me that 
+"dropping" without aeration is called "stirring" and could be more 
+easily accomplished with a spoon or by simply rocking the fermenter.
+In terms of the other effects of dropping, e.g., getting the beer off the
+trub, dropping without aerating is called "racking".
+
+
+What distinguishes "dropping" from "stirring" and "racking" is aeration.
+
+
+>(Did this evolve out of the recent  question by someone who wanted to 
+>dump into secondary using a funnel?)
+
+
+I think so.
+
+
+>What I was really after was the second result of dropping, which is to 
+>increase the level of diacetyl.  
+
+
+Increased diacetyl production is only going to result from dropping if 
+it is done with aeration, just shaking the yeast into suspension won't 
+do it.
+
+
+>BTW, rousing yeast doesn't imply aeration. The yeast just needs to get back
+>in suspension to finish its job.
+
+
+Absolutely true, but sometimes resuspension is not enough.  I have a highly 
+flocculent yeast that I am struggling with that does not respond to 
+traditional rousing (resuspension).  I suspect that it was developed as 
+an open fermenter strain.  I've used it on two batches with identical 
+results, it stops about 2/3 through the fermentation.  This was with 
+similar OGs but different base malts.  I'm going to give it one more try 
+later this summer and try dropping.  Hopefully the additional oxygen at 
+about the 1/3-1/2 point will give it the jolt it seems to need.  I 
+restarted the stuck fermentations in the previous 2 batches by pitching 
+Wyeast 1338 (European Ale).
+
+
+The question may occur to some, "Why bother?  Why not just switch yeasts?"
+Other than it is a matter of pride not to be outdone by a non-sentient 
+organism (if was the Bow-Tie yeast I might concede), this yeast has a  
+honey-floral character that is wonderful.  The batch from hell (6 week,
+4 stage stuck fermentation--it sat in the center of the kitchen for over a 
+month yielding innumerable late night stubbed toes) produced one of my
+best ESBs ever.
+
+
+Domenick Venezia
+ZymoGenetics, Inc.
+Seattle, WA
+venezia`at`zgi.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 24 Jun 1995 23:14:42 -0700 (PDT)
+From: Domenick Venezia <venezia`at`zgi.com>
+Subject: Acid washing yeast
+
+
+
+
+While washing a batch of yeast today I had a thought.  I'm not sure that
+it is original or if I am remembering something previously posted in the
+HBD.  Yeast is acid washed in a pH 2.5 solution.  Many acids could be used,
+like, phosphoric, hydrochloric, sulphuric, or nitric, just about any 
+non-toxic acid.  Generally these are mineral acids, but then I thought of
+acetic acid, i.e., vinegar.  So I went to the cupboard and grabbed the
+ubiquitous bottle of white vinegar (Heinz) and stuck a pH test strip in it 
+and guess what?  pH damn close to 2.5.  
+
+
+Can someone with a pH meter dunk your probe in white vinegar and either
+post or email me the results?  Please include the brandname in the 
+message.  My guess is that a particular brand of vinegar is going to be 
+pretty consistent for pH over different manufactured batches.  As long
+as the pH is 2.5 or less it an be used as is or diluted, so we might be
+able to come up with a standard recipe for an acid wash solution that
+you could mix in your kitchen without pH test strips or a pH meter.
+
+
+Also if someone knows why you shouldn't use vinegar to wash yeast please 
+let me know that too.  
+
+
+Domenick Venezia
+ZymoGenetics, Inc.
+Seattle, WA
+venezia`at`zgi.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Jun 1995 02:27:55 -0400
+From: Wyss1364`at`aol.com
+Subject: sparge times
+
+
+In the last few digests Jim Busch has stated some very firm opinons re:
+sparging and lautering.  I have a lot of respect for Jim's experience and
+knowledge but in this case  he contradicts what I've seen with my own eyes.
+ Somewhere (BT,HBD, his Vienna-Marzen book) George Fix wrote that shorter
+sparges make for rounder more malty and bigger beers. 
+After reading this I redesigned my converted 1/2 barrel mash-lauter tun and
+now I routinely get a 25 to 30 min. sparge with 20 - 25 # of grain.  I always
+get 34+ points to the pound and my beer has greatly improved. This method
+seems to add a complexity to the malt flavor of the finished beer that it
+lacked before. I don't think any off flavors have been introduced and one of
+the first beers I made with this set up won a ribbon( a lovely bock-thank you
+D. Richman).  All I can say is it works for me. YMMV
+
+
+Also, re: Kirk's bowtie effect-
+Since getting my hand on a couple more Sankey kegs the issue of open
+fermentation keeps growing and somewhat nagging me from what seemed to be my
+subconscious mind.  Could Kirk's fermenter be doing this to me?  Captain
+please shield that thing with lead( or mercury) to protect your fellow
+brewers.
+ 
+Thanks,
+Matt Wyss
+Albany Ca
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 5 Jun 1995 13:50:11 -0400 (EDT)
+From: romand`at`dialogic.com (Dan Roman)
+Subject: Re: Hop Plant Fertilizer
+
+
+Cow manure and Miracle Grow have too quick a release for hop plants, cow
+manure might even burn the roots.  A slow long-term release fertilizer like
+bone meal is a better choice and bone meal gives a near perfect nutrient
+mix for those rhizomes.  Just wish I could keep my dog from digging
+under the fence to get at the bone meal every time I put some down!  My
+dog is a nut though, he actually likes and will roll in dog repellant.
+- -- 
+Dan Roman           | Internet: romand`at`dialogic.com                    +
+Compliance Engineer | Personal: danno`at`intac.com                  R/C ==O==
+Dialogic Corp, NJ   | Homebrew is better brew!  Amiga after C=?      ./ \.
+
+
+------------------------------
+
+
+Date:          Sun, 25 Jun 1995 12:20:01 EST
+From: "Keith Royster" <Royster`at`mro.ehnr.state.nc.us>
+Subject:       food grade VS brew grade extracts
+
+
+I recently posted a question concerning a stuck fermentation from a
+DME recipie in which I "fixed" it with amylase enzyme (Thanks to all
+who responded to my questions).  I went back to the brew store
+yesterday (Sat) to buy another recipie and asked them if my stuck
+fermentation might be a result of an under modified/converted batch
+of DME. (BTW, they sell only Munton & Fison in DME, and have stopped
+selling the dreaded Laaglander.  Too many complaints.)  He responded 
+that these companies often produce two grades of DME, food grade (for 
+cooking) and brew grade.  The food grade has a much higher degree of 
+unfermentables and occassionaly, when switching from one type to the 
+other, some of the food grade DME *may* get mixed in with the brew 
+grade.  Just thought this might be of general interest for the 
+food/brew grade thread.  One more reason to go all-grain.......
+
+
+While I'm here, I would like to ask all the RIMS users out there
+what type of pump they are using and how they like it.  I have a
+bunch of pump catalogs, but there are no prices and too many to
+choose from.  If you could provide prices, make/model, and pumping
+rate, it would greatly shorten my research time and efforts.  Also,
+do I need one FDA approved, or just made out of food grade
+materials.  Thanks much! 
+
+
++------------------------------+------------------+
+| Keith Royster, E.I.T.        | Beer that is not |
+| Environmental Engineer       | drunk has missed |
+| NC-DEHNR / Air Quality       | its vocation.    |
+|    (704) 663-1699            |                  |
+| Royster`at`mro.ehnr.state.nc.us |  - Meyer Breslau |
++------------------------------+------------------+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 26 Jan 95 11:45:44 EST
+From: awalsh`at`pop03.ca.us.ibm.net  (Andy Walsh)
+Subject: dropping and enzymes
+
+
+On dropping beer:
+
+
+Dropping beer will only increase diacetyl levels if you
+aerate during the procedure. The Wyeast ESB is famous
+for producing diacetyl anyway, so Bob's high diacetyl levels
+are more likely due to the yeast choice rather than the dropping
+technique (Bob - you imply you had minimal aeration in your
+dropping). I have used ESB many times, and have also tried
+dropping (with and without aeration) a few times, so am not just
+spouting bull**** off the top of my head.
+
+
+It's primary function (as I see it) is similar to that of skimming krausen.
+The idea is to pull the beer from underneath the foam, before the 
+head (and associated gunk) sinks back into the beer. Thus break
+material etc. stays behind.
+
+
+I fail to see how this would aid fermentation (except if you aerate or
+deliberately stir up the yeast cake) as you leave half the yeast behind 
+too. I am not about to try this technique with a high gravity beer for example.
+***************
+On enzymes and stuck ferments.
+I have added beta-amylase on 3 separate occassions recently.
+
+
+Case A:
+Orval clone. Wyeast white 3944 yeast.
+ OG=1.062. FG=1.020. I could not reactivate the Orval dregs
+from the samples available to me here (which I believe would help the
+attenuation). Orval is quite dry, and my beer had a lot of body and 
+residual sweetness. So I added enzymes to try and reduce the gravity.
+Result: FG =1.000!
+The beer tastes like rocket fuel. My beer is ruined. It is destined for
+the drain.
+
+
+Case B:
+Strong English bitter. ESB yeast.
+This beer was dropped with aeration. It started at 1.058 and stopped
+at 1.022. It was too sweet. I added enzymes. 
+Result: FG=1.009
+The beer is OK (massive diacetyl) but is very sweet. I find it drinkable
+only if I mix it with another (drier) beer. I recently posted that every sweet
+beer I have ever tried had a high FG. This beer has proven me wrong.
+
+
+Case C:
+Tripel. 3944 yeast.
+OG=1.090. FG=1.044
+This was a stuck ferment. The enzymes reactivated fermentation. It
+currently sits in a carboy. After my other experiments I am not in a hurry
+to keg the mother.
+
+
+Discussion:
+High FGs are a result of unfermented sugars (obviously). Yeast can only
+ferment monosaccharides. Higher sugars are transported inside the cell
+where they are broken down to monosaccharides and converted to alcohol
+(and CO2 etc).
+Stuck ferments like my tripel happen because the yeast somehow loses its 
+ability to transport maltose inside the cell. This is a brewing fault.
+High FGs like the others are because the yeast cannot ferment some of the
+other more complex sugars. These are desirable to some degree in beer 
+anyway.
+Enzymes basically convert all extracellular sugars (dextrins and all) to
+monosaccharides. Thus the yeast can freely ferment all the available
+glucose. When you use an alcohol tolerant yeast such as 3944, it ferments
+all of it and gives you rocket fuel. When you use an intolerant yeast such
+as ESB, you get a sweet beer, because the yeast cannot ferment all the 
+glucose, due to high alcohol levels. Either way your beer is ruined.
+I shudder to think what has happened with my tripel!
+
+
+Conclusion?
+You have to be desperate to use enzymes in a fermentation, unless you are
+deliberately trying to make a dry style (with lowish OG). They may reduce 
+the gravity but at what cost to flavour?
+I for one shall never touch them again.
+
+
+*****************************
+////     Andy Walsh from Sydney
+////     awalsh`at`ibm.net
+////     phone 61 2 369 5711
+*****************************
+
+
+------------------------------
+
+
+Date: Sun, 25 Jun 95 22:07:42 -0400
+From: Nicholas Christopher <ir001265`at`interramp.com>
+Subject: Salvaging gushers?
+
+
+
+
+I've got a really nice IPA that I made up but about every
+third one is a gusher (must not have mixed the bottling
+sugar/malt in evenly ?). Is there an easy way to salvage
+these - pour them into a pitcher and let it settle or some
+such?
+
+
+\n
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Jun 95 22:10:37 PDT
+From: Greg Buckwalter <gregbuck`at`microsoft.com>
+Subject: RE: Converting a keg to a boiler
+
+
+>>What is the technique for removing the tap/valve assembly before I 
+get a hole cut in the top?
+
+
+First, let all the pressure out.  You may want to put a rag over the 
+tap ball. before pushing, sometimes when there's beer in there you'll 
+get a bath.  Next:
+If you look at where the tap goes in you'll notice that there is a ring 
+(like a piston ring) that keeps the tap hardware in place.  I use a 
+pudy knive to get in there start freeign the ring from under the lip.  
+Once you have it started (coming out from the lip) I use a needle nose 
+to pull on it - at that point it is easy just pull on it and it will 
+all come out (the whole ring) then all you do is twist the tap, you'll 
+see the two groves, and pull the tap out.  Done Deal.
+
+
+
+
+>>3. What interesting things should I get welded onto my keg? I 
+currently plan to put
+        a. A spigot
+        b. A thermometer
+        c. maybe some handles?
+        d. maybe a mesh screen to act as a false bottom?
+
+
+a. Yes, You'll need a nipple and a spigot (brass works well & brass 
+spigots are easy to get at your local hardware store).  If you cannot 
+find a brass nipple you can use stainless steel, have your welder braze it.
+
+
+b.  If you find a mail order setup let me know. I'm still looking.
+
+
+c. Doesn't your keg already have handles on it?
+
+
+d. Only needed for the mash keg.
+
+
+e. When you cut a hole in the top - Here's one to think about.  I 
+measured the lid of my boiling kettle and cut the hole just inside that 
+one so I had a means of putting a lid on it.  Big helper for keeping 
+the temp inside and not steaming off.
+
+
+>>Any suggestions on how/where to put these items on the keg are also 
+welcome by me.
+
+
+Put the Spigot right down on the lower part of the side if not using a 
+screen.  Otherwise you might want to put it on the bottom, but if you 
+do that you might not want to hav the nipple brazed.  If your using a 
+jet burner it gets hot down there.
+
+
+>>4. What is the theory behind the liquid-level sight thingy? I guess 
+I've never seen one in action, and don't know the details of how they 
+work. Is this a cool thing to have on a converted keg?
+
+
+Don't know I climb up on the stand that the keg is on a look down 
+inside.  What a beautiful sight it is.....
+
+
+Have fun,
+
+
+Brew On,
+
+
+Bucky
+
+
+
+
+
+
+From: Daniel Cook
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Converting a keg to a boiler
+Date: Friday, June 16, 1995 11:21AM
+
+
+Acme thread-killer #1: I got my keg legally, not in some alley from a 
+guy who said, "Psst! Hey fella, wanna buy a beat-up empty beer keg?"
+
+
+Acme thread-killer #2:  I *know* that this has been discussed before. I 
+*have* looked through the past articles and various archives. Short of 
+downloading the past 1500 issues of the HBD, I could not find what I'm 
+looking for. Any pointers to good FAQs is OK by me.
+- ---------------------
+Greetings!
+
+
+I have a 15-gallon (Molson, I think) keg that I'd like to make into a 
+large mash/lauter/boil tun. Questions:
+
+
+1. I'll probably go a local welder and try to barter with him: free 
+beer for the opportunity to blast apart a keg.  What is the technique 
+for removing the tap/valve assembly before I get a hole cut in the top?
+
+
+2. Seattle readers: any suggestions for a beer-drinking welder? Not at 
+the same time, of course.
+
+
+3. What interesting things should I get welded onto my keg? I currently 
+plan to put
+        a. A spigot
+        b. A thermometer
+        c. maybe some handles?
+        d. maybe a mesh screen to act as a false bottom?
+Any suggestions on where to get these handy items? Mail-order is fine 
+w/me, and probably preferred.
+Any suggestions on how/where to put these items on the keg are also 
+welcome by me.
+
+
+4. What is the theory behind the liquid-level sight thingy? I guess 
+I've never seen one in action, and don't know the details of how they 
+work. Is this a cool thing to have on a converted keg?
+
+
+All replies are gratefully accepted. Your responses will only help to 
+increase my brew-ability, and increase the average skill set of the 
+world's homebrewers. Basically, I'm doing this for *all* of us!
+
+
+Dan Cook
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Jun 1995 21:08:58 -0800
+From: chrispix`at`uclink2.berkeley.edu (Christopher Pickslay)
+Subject: RE: Harvesting fermenter yeast
+
+
+What advantages are there to harvesting and re-using the yeast from a prior
+batch, besides saving a few bucks? Does it noticeably improve the beer over
+using fresh liquid yeast? My impression from the last few posts on the
+process is that it seems like an awful lot of work.
+
+
+TIA,
+
+
+
+
+?:^{>
+Christopher Pickslay
+chrispix`at`uclink2.berkeley.edu
+UC Berkeley
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 25 Jun 95 21:28:59 -0700
+From: Mark King <mking`at`sparc1.castles.com>
+Subject: Please add
+
+
+Please add me to the list
+
+
+- -- 
+===========================================================================
+CASTLES Information Network  -  California's Full Internet Service Provider 
+
+
+www.castles.com                                         BBS +1 707-429-9789
+Voice information 1-800-WEB-ME-NOW                      FAX +1 707-422-5265
+===========================================================================
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date:    Sun, 25 Jun 95 21:51 PDT
+From: Otto Radtke                          <IZZY126`at`MVS.OAC.UCLA.EDU>
+Subject: Rooty-Tooty-Fresh-N-Fruity Lambic
+
+
+
+
+I just bought a pair of Lambics from some outfit that calls itself the
+Brewery De Troch Wambeek.  They put together some tropical lambics with
+strawberry and banana flavors.  The strawberry was just okay; for some
+reason it just ended up tasting sour.  It had potential...The banana on the
+other hand was very good.  It's no Lindeman's peche of course, but then
+what is?  This ale had just the right amount of flavor so that it didn't
+overpower the beer.  The banana flavor went surprisingly well with the
+tartness of the lambic.  I highly recommend you try it if that particular
+action is within your means.
+
+
+But on to the homebrew question which actually has something to do with
+the previous paragraph.  Have any of you used fruit extracts in your lambics?
+Or is it better to use fresh stuff?  When is the best time to add the
+fruit (or its flavor)?  I've never brewed a lambic but I'm getting real
+motivated to do so, and I'd appreciate the feedback from you fine fellows!
+
+
+                             Otto Radtke
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 1995 07:31:54 -0400 (EDT)
+From: "mike spinelli" <paa3983`at`dpsc.dla.mil>
+Subject: carboy cooler
+
+
+Being that summers here, I was concerned about the temp. inside my house
+which gets into the low 80s.  Not having a cool basement, I searched for and
+found a nice plastic Deep Totelocker (Rubbermaid Model #2456) in which (2) 6 1/2
+gallon carboys fit nicely.  I can then fill the totelocker with water up to
+about the 4 gallon mark w/o the carboys floating away.  The lid can be shut
+about half way with it resting atop the airlocks.  Size is 32" X 17" X 17
+7/8". Cost about $25 bucks.  Standard disclaimer.
+               Mike
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 07:57:00 EDT
+From: "Houseman, David L [TR]" <DLH1`at`trpo3.Tr.Unisys.com>
+Subject: BUZZ_OFF Results
+
+
+
+
+The BUZZ_OFF is pleased to announce the results of our second competition 
+held today at the Valley Forge Brewpub.  There were over 200 entries, with 
+many of them great beers.  While the local area was well represented, we had 
+entries from as far away as California.   Individual score sheets and any 
+un-picked-up ribbons and prizes will be mailed as soon as we can get to it; 
+give me a few days -  I don't want to look at a beer or an entry form or 
+think about this for a few days!!!
+
+
+
+
+
+
+Category                              Place          Brewer 
+                                    Style
+
+
+Strong Ales                         1st                Pickwick, B & 
+Cintron, J.     Barley Wine
+                                                2nd              Hardy, Fred 
+                           Barley Wine
+                                                3rd               Delapp, 
+Barry                        Barley Wine
+
+
+Belgian Ales                       1st               Hutchins, Owen 
+                     Lambic/Framboise
+                                                2nd              Hutchins, 
+Owen                      Wit
+                                                3rd               Hanning, 
+Chuck                     Wit
+
+
+Brown & Scottish Export  1st               Mezo, Joe 
+                               Scottish Export
+                                              2nd             Ritter, John & 
+Sue                  English Mild
+                                                3rd               Behler, 
+Jey                              English Brown
+
+
+English Pale Ales             1st               Hudock, Lisa 
+                          IPA
+                                                2nd             Wolf, 
+Ed-Liguori, C.                IPA
+                                                3rd              Grigg, Andy 
+                             English Pale Ale
+
+
+American Pale Ale           1st               Green, Charles 
+                       American Pale Ale
+                                                2nd             Gisiger, 
+Wayne                       American Pale Ale
+                                                3rd              Mezo, Joe 
+                                American Pale Ale
+
+
+English Bitter                      1st               Hardy, Fred 
+                            English Ordinary
+                                                2nd             Szymchak, 
+Bill                        English  Extra Special
+                                                3rd              Rasefske, 
+Jason                   English Special
+
+
+Stout & Porter                     1st              Lubking, Goug & Colleen 
+   Robust Porter
+                                                2nd            Colgan, Brian 
+                          Dry Stout
+                     3rd             Ritter, John & Sue 
+                 Brown Porter
+
+
+Bock & Dark Lager          1st              Terfinko, Terry 
+                       Doppelbock
+                              2nd             Pickwick, Bob 
+                        Helles Bock
+                    3rd              Johnston, Ted             Munich Dunkel
+
+
+Pale Lager               1st               Delapp, Barry           Bohemian 
+Pilsner
+                    2nd             Garfalo, Peter 
+                       American Premium
+                    3rd              Fix, George 
+                           Dortmunder/Export
+
+
+German/Mixed Ales        1st              Salotti, Lewis          California 
+Common Beer
+                    2nd            Wolf, Ed-Liguori, C. 
+             California Common Beer
+                    3rd             Hopkins, Jay              Kolsch
+
+
+Fruit & Smoked                 1st             Folsom, Alan       
+      Classic Smoked Porter
+                    2nd           Rosowski, Rich         Rauchbier
+                    3rd            Lefebvre, Paul        Strawberry Wheat
+
+
+Specialty           1st             Rosowski, Rich 
+                      Pomegranite/Cinn/Lemon
+                    2nd           Gisiger, Wayne                       Honey 
+Beer
+                    3rd            Worton, Andrew         Raspberry 
+Coriander
+
+
+German Wheat                 1st             Pickwick, Bob 
+                         Weizen
+                    2nd           Hanning, Chuck 
+                      Weizen
+                    3rd            Reyno, John            Weizen
+
+
+Meads & Ciders           1st             Delapp, Barry         Raspberry 
+Mead
+                    2nd           Iaciofano, Ed 
+                           Traditional Still Mead
+                    3rd            Hutchins, Owen         Traditional Still 
+Mead
+
+
+Labels                  1st             Putsta, Joe         
+                   2nd           Born, Allen 
+                   3rd            Colgan, Brian                            
+
+
+Best of Show:         Owen Hutchins, Lambic/Framboise
+Runner Up BOS:   Terry Terfinko, Doppelbock
+Delaware Valley Homebrewer of the Year (Total points accomulated in Hops 
+Bops, Dock Street,
+     Moon Madness and BUZZ_OFF competitions (5 points/1st, 3 points/2nd, 1 
+point/3rd):  Owen Hutchins
+
+
+David Houseman
+Competition Organizer
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 1995 08:06:01 -0500 (EST)
+From: david lawrence shea <dshea`at`indiana.edu>
+Subject: Solution: *Never* have puffed or bulging 5l kegs again
+
+
+Okay, so the subject header may be a bit grandiose, but after Chris 
+Strickland wrote about puffed out kegs during the warmer weather I 
+thought I would offer my solution.
+
+
+All that is needed is to stick a kitchen (dull) knife between the the top
+of the mini keg and the outer lip of the bung.  Push into the center very
+hard and excess CO2 will bleed out. It will sound like a compressed air
+unit at a gas station.  When you hear the CO2 flow starting to slow down
+significantly, remove the knife. I do this once a week or so until I
+encounter a time where there doesn't seem to be much excess pressure ( you
+will know it when it happens).  After this, I check the pressure every
+three or four weeks, if the keg lasts that long. 
+ 
+Initially, one might ask about having the natural CO2 pressure help in the
+tapping of the keg, and if you remove this pressure, you will have to use
+more CO2 from the tap.  Generally, I find that there will still be some
+natural pressure and more importantly, you will tend to have less foam
+problems from the onset.  If you have excess pressure, you may use less
+CO2 from the cartridges, but it may take a couple of days and many wasted
+glasses of foam before you drink your beer.  I can usually have a
+drinkable pint on my first tapping of the keg. 
+
+
+I hope this helps.
+
+
+David L. Shea
+dshea`at`nickel.indiana.edu
+Indiana University
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 09:47:50 est
+From: Joseph.Fleming`at`gsa.gov
+Subject: Flakey questions
+
+
+ Hey all,
+ 
+ Flakes
+    I'd like to thank Jacob Galley and Russ (Mast?) for his Brown Rye Ale 
+ recipe and ask a question.  His recipe calls for 1.5# of rye flakes; 
+ others I've seen calls for 4# rye malt.  My preferred store doesn't carry 
+ rye malt but has the flakes assortment (maize, barley, wheat, oats, ect.); 
+ what's the difference between malt & flakes?  How are flakes made?  Why 
+ would flaked barley, wheat or rye be preferable to malted (as I've seen in 
+ recipes)?  What is the malt:flake usage conversion ratio?  I've seen 
+ flaked wheat in wit recipes; do flaked adjuncts add to cloudiness more 
+ than malt?  Thread-searching garnered usage info: just add flakes to the 
+ mash?  Seems that flakes would make the mash thick or gummy; am I correct 
+ in assuming that in 10-20% quantities this would not pose a problem?
+ 
+ 
+ 
+ A.J.'s Water Works
+    A.J. has done an extensive amount of work to provide several methods on 
+ achieving the chemical makeup of brewing waters with distilled water.  I 
+ hate to ask a dumb question (but am going to), but would it be possible to 
+ plug in the brewer's own water figures and achieve the four-salt 
+ quantities necessary to approximate the water?  Or are there too many 
+ factors to keep track of in non-distilled water?
+    Second; the salts and acids added would mimic any mineral taste and 
+ content of the water as well?
+ 
+ 
+                Joe - joseph.fleming`at`gsa.gov
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 09:47:38 EST
+From: "Tom Williams" <twilliams`at`CCGATE.UECI.COM>
+Subject: Secondary vessel
+
+
+     In #1761 Larry Carden writes:
+     
+     > Plastic buckets are not recommended for secondary fermentation. 
+     > ...
+     > You don't need to buy another carboy, if you don't mind siphoning 
+     > to the bucket temporarily, cleaning the primary, and reusing it as  
+     > the secondary.
+     
+     Questions:
+     
+     1.  Why are plastic buckets unsuitable for secondary?
+     
+     2.  Is the answer to question #1 serious enough to warrant siphoning 
+     (and aerating) the beer twice just to reuse the glass carboy?
+     
+     I normally use my glass carboy for primary, siphon to the plastic 
+     bucket for secondary.  At bottling time, I put the priming sugar 
+     solution in the glass carboy and siphon back to it for bottling.  I 
+     haven't noticed any problems with this, but I am always on the lookout 
+     for improvements.
+     
+     
+     Tom Williams
+     Norcross, Georgia
+
+
+
+
+------------------------------
+
+
+Date:     Mon, 26 Jun 95 10:05:58 EDT
+From: Steven W. Schultz  <swschult`at`cbda9.apgea.army.mil>
+Subject:  ESB Recipe
+
+
+Recently, I asked the HBD readership for a recipe that comes close to Fuller's
+ESB.  I received one recipe from Christopher R. Vyhnal, and with his permission
+I now provide it to the HBD.  Again, my thanks to Chris.
+
+
+Steve Schultz
+
+
+- ----------------------------------------------------------------------------
+
+
+From: Christopher.R.Vyhnal`at`Dartmouth.EDU (Christopher R. Vyhnal)
+Reply-To: OKIE`at`Dartmouth.EDU
+Subject: Fuller's ESB clone
+To: swschult`at`cbda9.apgea.army.mil
+
+
+   Here's the Fuller's recipe I've been working on for awhile--I haven't yet
+bottled this particular batch, but it tasted great at racking.
+
+
+      3.3# Munton & Fison extra light extract syrup
+      4.5# 2-row malt
+      0.5# crystal (40 deg. L)
+      1.0# flaked maize
+      0.25# dark Belgian candi sugar (275 deg. L)
+
+
+   1 step infusion, mini-mash `at` 154 deg. F for 70 minutes, or until
+conversion.  Mashout `at` 170 deg. F for 20 minutes.  Sparge w/3 gallons water `at`
+150 deg. F to collect 4.25 gallons.
+
+
+      1 oz Bullion pellets (8.5 AAU) 60 mins
+      1 oz Bullion pellets (8.5 AAU) 20 mins
+      1 oz Goldings flowers (4.5 AAU) 20 mins
+      0.75 oz Goldings flowers (4.5 AAU) 10 mins
+      0.25 oz goldings flowers dry-hopped in secondary
+
+
+   You want an O.G. of around 1.052 - 1.054 (this recipe gave me 1.053). 
+Bittering hops in Fuller's, from what I've read, are not Bullion but
+Challenger, Target, and/or Northdown (which can be tough to find).  Any
+high AAU, British hop should get you pretty close as long as you finish
+with Goldings.
+        
+   The flaked maize is a must and needs to be 8-10% of your total grain
+bill.  I used the dark Belgian candi sugar to try and get a little closer
+to the right amber/orange color (my first try came out too light).
+
+
+   If you don't want to mash any grains, I'd suggest using another can of
+M&F, and a pound of corn sugar instead of the grains.  You could darken the
+beer a little by carmelizing some of the extract (leave your kettle on the
+burner when you add the extract).
+
+
+   The yeast you want to use is Wyeast's 1968 (London ale).
+
+
+Good Luck, 
+
+
+Chris
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 1995 18:05:15 +0300
+From: diagen`at`netvision.net.il (Nir Navot)
+Subject: HomeBrewing in Israel
+
+
+Living in Israel? If you are a homebrewer - or intend to be one send me a
+line.  There are around ten of us here, on last count. Just looking for
+someone to share a bottle of my latest batch with,
+Nir
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 1995 10:30:17 -0500 (EST)
+From: "Jim Herter" <James.M.Herter.1`at`nd.edu>
+Subject: Homebrew Club Outline\Using Hop Teas\Dropping?
+
+
+I am interested in initiating a local homebrew club - Does anyone have an
+outline or notes on how to get started? (i.e., charter, mission statement,
+meeting format, etc.)
+
+
+I recently brewed my first mash\extract beer. It's an old English style ale
+with an o.g of 1.072. I underestimated the hop schedule by about 10 (30.9
+vs. 40 IBU's which most references suggest). I planned on boiling a .5 ounce
+Fuggles plug for 50-60 minutes and adding this at bottling. Even though the
+beer has another week to go in the secondary, I went ahead and boiled the
+plug for 50 minutes in five cups of water. This yielded 2 cups of an
+interesting green, milky elixir. I strained the mixture through a section of
+panty hose (new, not used) and placed it in the fridge for use this
+Saturday. Will this add the desired bittering units? The AA% was 4.1 and the
+target was ~10 IBU. Will this cloud the beer too much, or will it settle
+out after two weeks in the bottle? Should I just bag the whole idea and
+settle for a slightly sweet ale?
+
+
+Does anyone have a comprehensive article on dropping that I can give to the
+Brewmaster at the local brew pub? Personal email is fine.
+
+
+One last thing. I've fought doing this for some time.
+          ***definitely*** no "a"!
+
+
+Jim Herter
+Business Manager
+Notre Dame Food Services
+(219)631-0113
+james.m.herter.1`at`nd.edu
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 10:02:00 MST
+From: "Fleming, Kirk R., Capt" <FLEMINGKR`at`afmcfafb.fafb.af.mil>
+Subject: Suboptimal Hop Combinations/Flux and Fermenter Flow
+
+
+
+
+1)  Are there certain combinations of hops which, when used in a single
+brew, create flavors which are generally accepted as unattractive?
+This question applies to both kettle hop combinations and, more
+likely, to finish hop combinations.  If there are combos many folks
+find disagreeable, have such combos been compiled anywhere?
+
+
+I'm thinking only of combinations of hops one would find used
+in 'like' beers (Fuggles, Northdown, Progress, Target, Bramling
+Cross), not combinations of two or more hops that would not normally
+or intentially be combined anyway (Saaz-Bullion might be an example).
+
+
+2)  In #1765 David Boe asked if the Bowtie Effect was magnetically
+influenced.  The first batch done in twin fermenters had patterns
+aligned in parallel along a line about 10 deg clockwise from the local
+meridian, bit a subsequent 2-fermenter batch had non-parallel axes of
+symmetry.
+
+
+KRF Colorado Springs
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 13:21:08 EDT
+From: jpavao`at`c38fs0.npt.nuwc.navy.mil (John D. Pavao)
+Subject: Smokey the Beer
+
+
+
+
+Hi,
+
+
+I'm thinking about trying the recipe in TNCJOHB for rauchbier using
+liquid smoke as one of the ingredients.  Before making the attempt,
+I would be interested to hear the opinions of those who have
+already tried it.  My major concern is knowing if the amount of
+liquid smoke called for in the recipe is okay.
+
+
+Tia for any comments.
+
+
+John D. Pavao <jpavao`at`c38.npt.nuwc.navy.mil>
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 11:38:00 MST
+From: "Fleming, Kirk R., Capt" <FLEMINGKR`at`afmcfafb.fafb.af.mil>
+Subject: Filling a Sankey
+
+
+
+
+Up 'till now we've disassembled our Sankey's to sanitize and fill with the
+frothy golden nectar.  We would now like to sanitize, leave about 1 gal
+of iodophor in the keg, re-assemble, shake, pump out the iodophor,
+and finally fill the keg with Product.
+
+
+If anyone has been able to succesfully re-plumb a coupler to allow the
+filling of an assembled Sankey keg, or if anyone knows how it is done,
+or if anyone knows why it can't be done, I'd be most appreciative.
+
+
+Also, I am unable to figure out how a Sankey coupler is built--it never
+fails to amaze me when, just as I think I have it's design deduced, I am
+amazed (and probably soaked with beer) at my ignorance.  If anyone
+has  a sectional diagram I'd sure like to get a copy.
+
+
+KRF Colorado Springs
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 12:15:57 PDT
+From: hollen`at`megatek.com (Dion Hollenbeck)
+Subject: Re: Sparge Arms for 15 gal. sys.
+
+
+>>>>> "Eric" == Eric Marzewski <ca385a19`at`nova.umuc.edu> writes:
+
+
+Eric> Looking for a sparge arm for a 15 gal. system, any besides Phils (any 
+Eric> comments on Phils)?   Thanx for the help.
+
+
+I just made one out of 1/4" rigid copper tubing.  The key is what to
+use as a swivel. I used a SS fitting which is a 1/4" female flare by
+3/8" hose barb.  Ground down the hose barb part and soldered it into
+the "T" which is at the center of the rotating arm.  The water inlet
+"down tube" is made from 1/2" rigid copper and on the end of that is a
+1/2" sweat female to 1/8" NPT female fitting, and then screwed into
+the 1/8" FNPT is an 1/8" MNPT to 1/4" male flare.   The end of the
+1/4" male flare has been ground off so that when screwed into the SS
+female flare, the nut will botton out before the flare engages,
+thereby leaving the barb to act as a swivel.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)675-4000x2814     Email: hollen`at`megatek.com
+Staff Software Engineer     Megatek Corporation, San Diego, California
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 13:23:04 MDT
+From: "James Giacalone" <JGiacalone`at`vines.ColoState.EDU>
+Subject: Brew pubs
+
+
+Does anyone out there know of any brewpubs 
+in New Orleans or Houston?
+Private E- mail is fine.
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 1995 12:36:05 -0800
+From: troy`at`opthalmos.jsei.ucla.edu (Troy Howard)
+Subject: Grain Bag in Lauter Tun?
+
+
+Hi all,
+
+
+I currently use a "Zapap" lauter tun (one bucket with lots of small holes
+drilled in the bottom placed inside another bucket).  I am concerned with
+the volume contained beneath the false bottom.  It is close to a gallon!
+
+
+Consequently, I am considering modifying my lauter tun to elimate this free
+space.  The easiest mod would be to replace the inner bucket with a grain
+bag.  I have heard reports of problems with channeling using this method.
+Does anyone have any direct experience ?
+
+
+The next easiest solution would probably be to build an "EasyMasher" type
+thing (a rolled up piece of SS screen crimped at one end and attached to a
+short piece of copper tubbing at the other).
+
+
+Any one have any comments about the relative merits and disadvantages of
+either system?
+
+
+
+
+TIA,
+
+
+ -Troy
+
+
+- ------------------------------------------------------------------------------
+Troy Howard                       | Live fast,
+troy`at`oculus.jsei.ucla.edu         | die young,
+Jules Stein Eye Institue,  UCLA   | and leave a good looking corpse.
+- ----------------------------------------------------------------------------
+- --
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 09:46:29 mdt
+From: "LAVANSA0" <LAVANSA0_at_WC-DENVER`at`ccmail.wcc.com>
+Subject: Hop Utilization at High Altitude
+
+
+     Hello all!
+     
+     Whilst brewing this weekend, (and planning to move operations up the 
+     hill, literally) I tried to reason out how to adjust recipes (or if I 
+     even need to) to counter the effects of altitude, ie, lower boiling 
+     temperature and therefore(?) lower hop utilization and/or 
+     isomerization. Does anyone out there have any words of wisdom or tips?
+     
+     Thanks,
+     Luke
+     
+     Support the Beer Lover's Party (Russian politics)
+
+
+
+
+------------------------------
+
+
+Date: Mon, 26 Jun 95 15:59:07 CDT
+From: PHIL=MEYERS%TS=DESKCASE%CS=HOU`at`bangate.compaq.com
+Subject: Puffed-up minikegs
+
+
+>From: cstrick`at`iu.net (Chris Strickland)
+>Subject: Puffed Up Mini-Kegs, and Siphoning Questions
+
+
+>Since it's summer, I've had several mini-kegs puff up.  Just curious, 
+since 
+>it's a pain to attach the tap, can I bang em back with a hammer?  Or will 
+>this make them too weak and cause them to explode.  Any other ideas?
+
+
+I had a couple of my Friess-compatible mini-kegs do this to me.  I just 
+GENTLY pushed down the center plug until I could hear a faint hiss until 
+the thing looked like it wasn't going to explode on me.
+
+
+However, I would be interested to hear the results of the hammering.... ;-0
+
+
+Regards,
+Phil
+
+
+P.S. - Forgive the garbage at the end of this post.  Our mail system does 
+it, not me...
+
+
+
+
+The following was included as an attachement.  Please use UUDECODE
+to retrieve it.  The original file name was 'ATTRIBS.BND'.
+
+
+begin 666 ATTRIBS.BND
+M0F5Y;VYD(%!A8VME9"!!='1R:6)U=&5S`$%45%))*```````4'5F9F5D+75P
+M(&UI;FEK96=S````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M`%!(24P`at`345915)3````````````````````````````````````````````
+M``````````````````````````````````!Q:2PV*U%Y;'9J````````````
+M````````0F5Y;VYD(%!R;W!R:65T87)Y($1A=&$:`````!$`````````!`"J
+M`P``````````````````````````5&5X=+\"/D9R;VTZ(&-S=')I8VM`:74N
+M;F5T("A#:')I<R!3=')I8VML86YD*0H^4W5B:F5C=#H`at`4'5F9F5D(%5P($UI
+M;FDM2V5G<RP`at`86YD(%-I<&AO;FEN9R!1=65S=&EO;G,*"CY3:6YC92!I="=S
+M('-U;6UE<BP`at`22=V92!H860`at`<V5V97)A;"!M:6YI+6ME9W,`at`<'5F9B!U<"X`at`
+M($IU<W0`at`8W5R:6]U<RP`at`<VEN8V4`at`"CYI="=S(&$`at`<&%I;B!T;R!A='1A8V`at``at`
+M=&AE('1A<"P`at`8V%N($D`at`8F%N9R!E;2!B86-K('=I=&`at``at`82!H86UM97(_("!/
+M<B!W:6QL(`H^=&AI<R!M86ME('1H96T`at`=&]O('=E86L`at`86YD(&-A=7-E('1H
+M96T`at`=&\`at`97AP;&]D92X`at`($%N>2!O=&AE<B!I9&5A<S\*"DD`at`:&%D(&$`at`8V]U
+M<&QE(&]F(&UY($9R:65S<RUC;VUP871I8FQE(&UI;FDM:V5G<R!D;R!T:&ES
+M('1O(&UE+B``at`22!J=7-T($=%3E1,62!P=7-H960`at`9&]W;B!T:&4`at`8V5N=&5R
+M('!L=6<`at`=6YT:6P`at`22!C;W5L9"!H96%R(&$`at`9F%I;G0`at`:&ES<R!U;G1I;"!T
+M:&4`at`=&AI;F<`at`;&]O:V5D(&QI:V4`at`:70`at`=V%S;B=T(&=O:6YG('1O(&5X<&QO
+M9&4`at`;VX`at`;64N"`at`I(;W=E=F5R+"!)('=O=6QD(&)E(&EN=&5R97-T960`at`=&\`at`
+M:&5A<B!T:&4`at`<F5S=6QT<R!O9B!T:&4`at`:&%M;65R:6YG+BXN+B`[+3`*"E)E
+M9V%R9',L"E!H:6P*"E`N4RX`at`+2!&;W)G:79E('1H92!G87)B86=E(&%T('1H
+M92!E;F0`at`;V8`at`=&AI<R!P;W-T+B``at`3W5R(&UA:6P`at`<WES=&5M(&1O97,`at`:70L
+M(&YO="!M92XN+N4``P"_`MX``0`!````#P`!``$``0"_``at````````#C_````
+M````D`$``````````$U3(%-A;G,`at`4V5R:68`````````````````````````
+M``````$``0`I``$`*`at`!`at```$`80!A``$`8`at`"O``$`L`#[``$`_`!!`0$`0`at`%"
+M`0$`0P$+``at`$`#`(,``at`$`#0)8``at`$`60)9``at`$`6`at`)B``at`$`8P)G``at`$`:`)H``at`$`
+M:0+```at````````````````&0``:0!`4`at`#`>P$`9`&`30(`=`at`)`7P+`2`-`<0.
+2`6`at`0`0P2`;`3`505`?`at`6;`at```
+`
+end
+
+
+------------------------------
+End of HOMEBREW Digest #1766, 06/27/95
+*************************************
+-------

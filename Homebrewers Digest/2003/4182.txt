@@ -1,0 +1,1391 @@
+﻿Date: Thu, 27 Feb 2003 00:41:11 -0500
+Subject: Homebrew Digest #4182 (February 27, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4182                             Thu 27 February 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Microwave Brewing ("Ian Watson")
+  Re:  RIMS Design ("Dennis Collins")
+  RE: Bill Wible (Sean McDonald)
+  How Long will crushed grain last? (Steve Tighe)
+  Question on grain utilization ("Andy Mikesell")
+  Re: Party Pig and staling ("Bill Riel")
+  Weight Watchers and Homebrew points ("Andy Mikesell")
+  RE: RIMs Design ("Martin Brungard")
+  Disposing of Brewery Waste Water (Stuart Lay)
+  Quick disconnects (Marc Sedam)
+  Counterflow with sabco brew magic (jim williams)
+  Carbonating in soda keg with oxygenator stone ("Romanowsky, Paul")
+  Thinking about a Kolsch (darrell.leavitt)
+  Mixing finishing sugar (bruce)
+  party pig answers (m m)
+  Re:   Regarding Passivation of Stainless Steel (Bill Tobler)
+  Re: Regarding Passivation of Stainless Steel (John Palmer)
+  Less Sour Gueuze (Hayes Antony)
+  RE: Rochefort 8 Cloning contest ("Dan Gross")
+  Charter.net (Pat Babcock)
+  Charter.net (Pat Babcock)
+  RE: Cynmar Corp. (Paul Shick)
+  RE: Cynmar (eIS) - Eastman" <stjones`at`eastman.com>
+  Monitoring bottle conditioning (David Towson)
+  Re: Guinness Bottles w w w w widgets ("Gilbert Milone")
+  Guiness Bottles; unfair competition (Scott Perfect)
+  Re: DIMS (Drop In Manifold System) ("Bret Morrow")
+  Re: liquid quick disconnects (Sedam) (David Towson)
+  Re: electric vs. lp, RIMs Design (Ronald La Borde)
+  Re: Grist/Water raito & False bottoms (David Towson)
+  Water ("Patrick Hughes")
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* The HBD Logo Store is now open!
+* http://www.cafeshops.com/hbdstore
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 25 Feb 2003 11:28:15 -0500
+From: "Ian Watson" <realtor`at`niagara.com>
+Subject: Microwave Brewing
+
+
+Hi all
+
+
+The recent talk about microwave ovens reminded me of my brother-in-laws
+method of full grain mashing.  He uses a microwave oven with the temperature
+probe.  He puts an unknown amount of water and grist ratio in a plastic tub
+to mash in and inserts the probe.  He then sets the oven temp to 155 F or
+whatever.  He calls these brews ---> MicroBrews.  I've tasted his beers, and
+they SEEM to be of normal alcohol content, so I can only assume he got
+conversion.  Just thought I'd throw this method out for discussion.  I
+thought it was a interesting idea.
+
+
+
+
+Ian Watson
+St. Catharines, Ontario, Canada
+[235, 71.9] Apparent Rennerian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 11:27:26 -0500
+From: "Dennis Collins" <dcollins`at`drain-all.com>
+Subject: Re:  RIMS Design
+
+
+Mark Vernon asks about temperature probe placement.
+
+
+This is a very important consideration when building a recirculating system.
+For most brewers, you will have one temperature controller that controls a
+heater (RIMS or HERMS) based upon a signal from a single temperature probe
+(thermocouple, RTD, etc) located somewhere in the recirc loop.  In a system
+design like this, the rule is that the farther the probe is placed from the
+source of heat in the direction of wort flow, the larger the temperature
+fluctuation you can expect in your mash.  This is why:
+
+
+When the wort is recirculated, it travels from the top of the mash, down
+through the grain bed, out of the mash tun, through the pump, then back to
+the top of the mash.  Somewhere in that loop, heat is imparted to the wort
+(heat isn't always imparted, but the wort will take the same route
+regardless of whether it is heated or not).  If your mash is at 148 F and
+the temperature controller is set for 150 F, the controller will call for
+heat and the recirculating wort will be heated somewhere in the loop.  If
+your probe is located right at the exit of your heat source, then the probe
+will know exactly when the recirculated wort reaches 150 F.  The probe will
+then signal the controller that the temperature is reached and the
+controller will modulate the heat source so that 150 F is maintained.  If
+the probe is located in the mash tun, say, 1/2 way into the bed, then the
+probe sees 148 and the controller continues to add heat to the wort.  The
+probe will only see heated wort after 1/2 of the total wort has passed
+through the heat source, but in the meantime, the heater may have heated the
+wort to 155 or so, but since the probe couldn't see it, it couldn't tell the
+controller to quit heating.  So now, the layer of heated wort in the mash
+reaches the probe and the probe tells the controller to quit heating.  The
+temperature at the probe continues to rise because the wort that was
+overheated during the delay is now passing the probe.  Meanwhile, the
+controller isn't heating and the temperature of the wort in the subsequent
+layers falls, and continues to fall because the probe is now seeing 155 F
+wort.  By the time the temperature at the probe falls to 150 F, the wort
+exiting the heat source may be at 145 F.  Soon after, the probe tells the
+controller to call for heat and the cycle repeats itself.  If you locate the
+probe even lower in the mash, even more wort has to be recirculated before
+the probe can react which will increase the temperature swing even more.
+The absolute worst case scenario is locating the probe immediately prior to
+the heat source, at which time, 100% of the wort has to be recirculated
+before probe sees any temperature change imparted by the heater.
+
+
+Some folks put by-pass loops around the heater in their systems, frankly
+I've never understood this.  Perhaps it is with systems that use the HLT as
+the heat source in which the temperature of the HLT water is hard to
+control.  Regardless, a bypass loop puts a built-in temperature variance in
+the mash because the wort will be alternately heated and cooled as the
+by-pass is alternately engaged/disengaged.  The best way to maintain a
+constant mash temperature is by measuring the wort directly exiting the heat
+source and having a properly designed heat source that can maintain a
+certain temperature.  With these two things, the controller should be able
+to maintain a constant recirculated wort temperature within 1 F.
+
+
+The issue of step mashing with a recirculating system is another matter.
+For a temp increase to occur, first the heat source must adjust itself so
+that the wort exiting the heat source is at the new temperature, then the
+entire wort volume has to be recirculated before the entire mash is at the
+new temperature.  This means the two biggest factors here are batch size and
+recirc rate.  For obvious reasons, we don't want the wort exiting the heat
+source to be above the new temperature at any time.  Also, recirc rates more
+than about 1 gallon per minute are problematic (grain bed compaction).  The
+temperature ramp rate is usually quoted in degrees F/minute, but as you can
+see, it is a two step process.  To be accurate, it should be calculated by
+taking the new temp minus the current temp divided by the total amount of
+time it takes the entire mash to reach the new temp.  If you use the time it
+takes for the wort exiting the heat source to reach temp, you can exaggerate
+the ramp rate substantially even though the entire mash hasn't reached temp.
+Expect actual ramp rates in the 1 - 1.5 F range.
+
+
+Sorry about the length.
+
+
+Dennis Collins
+Knoxville, TN
+http://sdcollins.home.mindspring.com
+
+
+"In theory, theory and practice are the same, but not in practice".
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 10:40:50 -0600
+From: Sean McDonald <seanmc`at`irga.com>
+Subject: RE: Bill Wible
+
+
+Alan,
+
+
+Your comments were unoriginal (i.e. someone's already posted using the
+"weapons inspector" theme), completely useless and painful to read.
+Christ almighty, give it up on the Bill Wible argument. If you don't
+like what he has to say atleast do everyone a favor and post an original
+thought and in a within atleast a week of his comments (not months
+later). Or, better yet, if you don't like what he has to say, ignore him
+and not post at all (when you post you're lending credence and/or
+publicity to his arguments).
+
+
+On to another subject, I'm going to Ireland in a couple of weeks and am
+wondering if anyone can recommmend any decent pubs. I'll be in Shannon,
+Galway, Dublin, Cork, Blarney and Limmerick. Any suggestions would be
+appreciated.
+
+
+
+
+Sean McDonald
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 08:43:40 -0800 (PST)
+From: Steve Tighe <steve_tighe`at`yahoo.com>
+Subject: How Long will crushed grain last?
+
+
+Hello Brewers,
+
+
+Well I couldn't find the answer to this in the
+archives, so here goes.
+
+
+I went to the LHBS on Saturday with the intention of
+brewing on Sunday. Well with one thing and another the
+grain I crushed in the store is still sitting in the
+bucket I crushed it into (dry). Hope to brew later
+this week but it may need to wait till next weekend.
+
+
+Will crushed grain still be good a week later? I'd
+hate to have to dump it, but it's not that big a deal
+($10-12 bucks) if the beer won't come out well with
+the "old" grain. And what, exactly, will go wrong with
+it? FWIW, it's 6.5 lb two-row, 3 lb munich and a pound
+of medium crystal, with a bit of wheat malt.
+
+
+Incidentally I have my SF Lager yeast sitting in the
+fridge after having fermented out in a one-quart
+starter. Will this still be good to go on Thursday or
+Saturday, or should I decant the beer and add another
+quart of wort a day or two beforehand?
+
+
+Thanks
+Steve Tighe in Berkeley CA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 11:51:55 -0500
+From: "Andy Mikesell" <andy_mikesell`at`yahoo.com>
+Subject: Question on grain utilization
+
+
+Hi all -
+
+
+I've had lower than expected OG readings from my last 4 all grain brews, so
+I took a few steps to address.
+
+
+Based on the last few HDB threads regarding instrument accuracy, I replaced
+my floating $5 thermometer with a more accurate lab thermometer.  Next, I
+replaced my hydrometer and bought a BRIX Refractometer with ATC to double
+check against.
+
+
+Still, I have lower than expected OG from the all grain kit I brewed this
+weekend from Northern Brewer:
+http://www.northernbrewer.com/docs/kis-html/1253.html.  I hit the 153 degree
+strike temperature and extended the mash from 60 minutes to 90 minutes for
+good measure.  Ending mash temperature dropped 2 degrees during the 90
+minute period.  My water PH was 5.4
+
+
+Using the grain point values at http://hbd.org/uchima/tech/extract.html
+assigned to 5.5 lbs. Wheat (39) and 4 lbs. Cara-pils Belgian (34), I should
+expect my theoretical grain points to be 350.5, or 1070.1.  The recipe says
+the OG should be 1049, which translates to approximately 70% efficiency.  My
+temperature corrected OG readings were 1041, or 58.5% efficiency.
+
+
+So, what to do?  For my next brew, should I use the recipe OG and correct
+the grain bill by the difference in efficiency?  If the expected efficiency
+is 70% and mine is 58.5%, do I add 12.5% to the grain bill in a balanced
+manner?  Is that relationship linear?
+
+
+Should I make up the difference will DME (something I'd rather not do)?
+
+
+Any ideas are appreciated!
+
+
+- ------------------------------------
+Andrew Mikesell
+Westwood, MA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 08:59:29 -0800
+From: "Bill Riel" <up883`at`victoria.tc.ca>
+Subject: Re: Party Pig and staling
+
+
+
+
+BrianS <schar`at`cardica.com> wrote:
+
+
+>My primary concern with the Party Pig is how fast the beer goes stale 
+>after the pig is "tapped".  I'm afraid that the last beer out of the pig 
+>might be getting stale by the time I get to drink it.  Is this a valid 
+>concern?  What is the experience of Party Pig users out there?
+
+
+Brian,
+
+
+don't worry about it - beer keeps quite well in the pig - the pouch
+expands to fill headspace as you tap beer, so there's no problem there.
+
+
+I've had beer in the 'pig for up to about 6 months, and not had any
+problems with staling - in fact, it's more of a problem with beer in my
+cornie kegs. I often find that once they (the cornies) get down to
+about a third full or so, they often 'lose' something. I suspect it's
+related to the volume of headspace in the cornies, and that is not an
+issue with the pig.
+
+
+Bill
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 12:03:00 -0500
+From: "Andy Mikesell" <andy_mikesell`at`yahoo.com>
+Subject: Weight Watchers and Homebrew points
+
+
+Hi all -
+
+
+Many of you may be familiar with the concept of Weight Watchers "point"
+system to help one lose weight by assigning point values to foods using a
+combination of fat/calorie/fiber content.  My wife has been doing this for a
+few months, has lost weight, and looks great.
+
+
+However, she won't drink my homebrew (more for me!) until I can determine
+the "point" value.  There are generic values assigned to "beer" but I'd like
+to provide something more authoritative.  I did a search against the
+archives, but did not find anything to calculate the value.
+
+
+Assuming the fat and fiber content is negligible, how do I figure out the
+caloric value of my homebrew?  Is there a way to do this without a precision
+lab and specialized instruments?
+
+
+
+
+- ------------------------------------
+Andrew Mikesell
+Westwood, MA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 13:10:14 -0500
+From: "Martin Brungard" <Martin.Brungard`at`trow.com>
+Subject: RE: RIMs Design
+
+
+The location of sensor probes and thermometers in a RIMS circuit is critical,
+as I have found.  In my recent post to HBD, I related my findings.  Those
+findings strongly suggest that locating a probe or thermometer at the heater
+outlet is mandatory.  It is too easy to locally overheat and denature the
+wort.  Locating a probe at the heater outlet is even more critical if a PID
+is used to control the heater.  The PID would probably be fooled if it
+measured only the tun outlet temperature, again leading to potential local
+overheating.
+ 
+I suggest that the primary temperature sensing location should be the heater
+outlet.  I further recommend that a secondary temperature sensing point
+should be at the tun outlet.  Comparison of the primary and secondary
+temperatures can be used to judge the overall mash temperature and step
+progress.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 12:05:19 -0800
+From: Stuart Lay <zzlay`at`yahoo.com>
+Subject: Disposing of Brewery Waste Water
+
+
+A question for rural brewers,
+
+
+My family and I are preparing to move to a rural area.  Instead of a 
+sewer line to dispose of waste water and sanitizing agents (I use 
+Star-San, which is advertised to be environmentally friendly), it will 
+go into the septic system.
+
+
+How much damage will this do to a septic system or the resident 
+micro-beasties?  Should I find another way to dispose of the sanitizer?  
+How do you deal with this?
+
+
+Thanks,
+
+
+stuart
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 15:21:45 -0500
+From: Marc Sedam <marc_sedam`at`unc.edu>
+Subject: Quick disconnects
+
+
+Wow, that was a quick response.  Thanks to everyone who responded.  Here 
+are the sources:
+
+
+Beer, Beer, and More Beer 
+(http://www.morebeer.com/index.html?page=detail.php3&pid=H501D)
+McMaster-Carr (http://www.mcmaster.com, part number 5385K15)
+Chester Paul Company (ph:323.245.3761, they sell Hansen QDs 
+http://coupling.tuthill.com)
+US Plastics (http://www.usplastic.com/catalog/default.asp)--search for 
+polysulfone fittings
+
+
+In each case you have the option to buy shutoff connects (where the 
+liquid will stay in the tubing) or straight-through tubing (open to air 
+so you can drain it), as well as either hose barb or NPT fittings.  I'm 
+going to buy 1/2", straight through, hose-barb fittings.  
+
+
+By the way, these puppies are expensive.  They run between $10 (Hansen) 
+to $18.75 (BBMB) per set of couplings, prior to tax and S/H.
+
+
+Enjoy.  
+__
+
+
+Marc Sedam
+Chapel Hill, NC
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 15:39:19 -0500
+From: jim williams <jimswms`at`cox.net>
+Subject: Counterflow with sabco brew magic
+
+
+Not to offend Ol'Bill too much, but my new Sabco Brew Magic system and
+Chilzilla counterflow chiller arrived today (yee hawwww!)! I can't wait to
+learn how to use this system. I have always used an immersion chiller in my
+brewing, so, not only is the brew magic new, but also the CF chiller. I
+guess, I'm just wondering if anyone out there uses this setup and could
+comment on using the counterflow. There isn't a pump from the boil kettle. I
+was under the impression that CF chillers worked best with a pump, pumping
+the wort through and into a fermentor. It seems that I may have to rely on
+gravity to do the work. My old immersion is not up to cooling 10 gallons.
+It's on it's death bed as is!
+
+
+Any comments appreciated!
+
+
+Cheers,
+jim
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 16:02:16 -0500
+From: "Romanowsky, Paul" <paul.romanowsky`at`siemens.com>
+Subject: Carbonating in soda keg with oxygenator stone
+
+
+I'm looking at "THE STONE" from Gulfstream.  It's 5/8" OD, 2" long with hose
+barb and 1 Micron porosity.  They state that you can attach it to your GAS
+input tube on the soda keg with a length of vinyl tubing.  The stone resets
+on the bottom of the keg.  Then force carbonate with CO2.  No rocking of
+keg, etc. and you can accomplish desired carbonation in about 15 minutes.
+Seems like a great idea.  Anyone out there currently doing this?  How about
+some feedback as to pros and cons.  Will be greatly appreciated.  Thanks in
+advance.
+
+
+Paul Romanowsky
+Harleysville, PA
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 17:09:03 -0500
+From: darrell.leavitt`at`plattsburgh.edu
+Subject: Thinking about a Kolsch
+
+
+
+
+I am thinking about a Kolsch, using WL German Ald/Kolsch yeast...and have 
+looked at Papazian's HOMEBREWERS GOLD, p 180-181, description of 
+Stoddard's Kolsch,...and wonder...they have no diacetyl rest.  Is that not 
+needed for this yeast/ this style?  
+
+
+The plan is for 6 lb 2 row
+                1 lb wheat
+                1 lb Munich
+
+
+Single stage infusion at 150F for 60
+
+
+I am basically following the description in Papazian,...adding some fresh 
+lager yeast as it goes into secondary...new to me...but wonder, is a 
+diacetyl rest called for?
+
+
+ ..Darrell
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 18:22:58 -0800
+From: bruce <vze4pvxk`at`verizon.net>
+Subject: Mixing finishing sugar
+
+
+Hi, I have been brewing for a while, but have been observing something
+perplexing.  When I add the finishing sugar syrup (corn sugar and water) just
+before bottling, I stir for quite a long time, but still seem to end up with a
+few bottles with too little carbonation, and a few with too much.  With stout,
+most of the bottles are fine, but an occasional bottle has largish bubbles that
+dissipate, instead of the fine smooth foam I expect.  Could there be
+contamination that spoils the carbonation and head?  Is there a foolproof way of
+mixing in the finishing sugar syrup? Thanks for your feedback.  Bruce Bush (no
+relation)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 20:00:13 -0600
+From: m m <m.morency`at`worldnet.att.net>
+Subject: party pig answers
+
+
+Addressing the concern of beer getting stale while in a Party Pig....I 
+have never had the beer in there that long to really see if this can 
+happen. I believe the pig holds about 2 1/4 gallons of beer which seems 
+to go pretty quick in my house. If all goes well there should be a nice 
+blanket of carbon dioxide in the pig that should keep it fresh as the 
+pouch expands to fill headspace. I have also noticed that the pressure 
+in the pig makes for a very clear draft.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 23:30:23 -0600
+From: Bill Tobler <wctobler`at`sbcglobal.net>
+Subject: Re:   Regarding Passivation of Stainless Steel
+
+
+At the end of John's post, he said:
+
+
+
+
+Any questions?
+
+
+Me, Me!!  If you do one of the no-no's, like severally scrubbing a used 15
+gallon Volrath pot with a box of steel wool to get years of kitchen grease
+off, what is the best fix?  The culprit was me, and I beg forgiveness and
+will do my penance tomorrow by saying the beer prayer 4 times while drinking
+4 beers.  (not all at the same time)  The pot looks fine, and has no rust
+spots.  I did this 3 or 4 months ago, and haven't used the pot yet.  Still
+sitting in the brewery, waiting to be worked on.
+
+
+On hand, I have 86% Phosphoric acid, (I make a 19/1 solution to adjust the
+pH of the sparge water sometimes) and Barkeepers Friend.  There are lots of
+big stores around just dying to get my money if none of these will do.  The
+lab guy at work might have some Nitric acid, not sure.  Or, maybe, it fixed
+itself by now?  I'm not that lucky.
+
+
+Bill Tobler
+Lake Jackson, TX
+(1129.7, 219.9) Apparent Rennerian
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 25 Feb 2003 23:32:40 -0800
+From: John Palmer <jjpalmer`at`altrionet.com>
+Subject: Re: Regarding Passivation of Stainless Steel
+
+
+
+
+On Tuesday, February 25, 2003, at 09:30 PM, Bill Tobler wrote:
+
+
+> At the end of John's post, he said:
+>
+>
+> Any questions?
+>
+> Me, Me!!  If you do one of the no-no's, like severally scrubbing a 
+> used 15
+> gallon Volrath pot with a box of steel wool to get years of kitchen 
+> grease
+> off, what is the best fix?  munch
+
+
+> On hand, I have 86% Phosphoric acid, (I make a 19/1 solution to adjust 
+> the
+> pH of the sparge water sometimes) and Barkeepers Friend.
+> Bill Tobler
+
+
+Easiest, quickest, safest: Green Scrubby and Barkeepers Friend.
+
+
+John Palmer
+john`at`howtobrew.com
+www.realbeer.com/jjpalmer
+www.howtobrew.com - the free online book of homebrewing
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 09:31:34 +0200
+From: Hayes Antony <HayesA`at`aforbes.co.za>
+Subject: Less Sour Gueuze
+
+
+Any idea how a soured beer can end up becoming less sour over time. The last
+few bottles of my once puckering gueuze attempt taste more like a lager.
+
+
+Ant Hayes
+Johannesburg
+
+
+
+
+
+
+Confidentiality Warning
+=======================
+The contents of this e-mail and any accompanying documentation
+are confidential and any use thereof, in what ever form, by anyone
+other than the addressee is strictly prohibited.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 07:08:24 -0500
+From: "Dan Gross" <degross`at`starpower.net>
+Subject: RE: Rochefort 8 Cloning contest
+
+
+I would like to thank Herman Holtrop for posting the results of the
+Rocherfort 8 cloning contest in such detail.  I can't wait to try it!
+
+
+Dan Gross
+Olney, MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 08:16:01 -0500 (EST)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Charter.net
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+I have been written by a few charter.net members who have
+complained that their Digest has suddenly been cut off. I
+am posting this in the hopes that at least one of you are
+reading via the Web in the interim as I cannot email you
+from HBD.org. 
+
+
+Please complain to charter.net. I can receive mail from you;
+however, when the Digest server (hbd.org 66.166.164.98) attempts
+to connect to charter.net, their servers time out and we cannot
+deliver the Digest. This has been going on for at least the past
+several days. The specific message we receive back, with the
+subscribed email addresses removed, is pasted below. Tke that
+message to your ISP and have them fix their problem. If they are
+blocking VCovad dialups, inform them that the range
+66.166.164.97 through 11.166.164.102 are static and have been
+since 2000.
+
+
+- -- 
+ -
+God bless America!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+[18, 92.1] Rennerian
+"I don't want a pickle. I just wanna ride on my motorsickle"
+                                   - Arlo Guthrie
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 08:16:01 -0500 (EST)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Charter.net
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+I have been written by a few charter.net members who have
+complained that their Digest has suddenly been cut off. I
+am posting this in the hopes that at least one of you are
+reading via the Web in the interim as I cannot email you
+from HBD.org. 
+
+
+Please complain to charter.net. I can receive mail from you;
+however, when the Digest server (hbd.org 66.166.164.98) attempts
+to connect to charter.net, their servers time out and we cannot
+deliver the Digest. This has been going on for at least the past
+several days. The specific message we receive back, with the
+subscribed email addresses removed, is pasted below. Take that
+message to your ISP and have them fix their problem. If they are
+blocking Covad dialups, inform them that the range
+66.166.164.97 through 11.166.164.102 are static and have been
+since 2000.
+
+
+Attached SMTP connect error message follows
+
+
+Feb 26 07:55:16 brew sendmail[29595]: AAA21147: to= ... ,
+delay=4+07:42:36, xdelay=00:00:00, mailer=esmtp, relay=mail.charter.net.,
+stat=Deferred: Connection timed out with mail.charter.net.
+
+
+
+
+- -- 
+ -
+God bless America!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+[18, 92.1] Rennerian
+"I don't want a pickle. I just wanna ride on my motorsickle"
+                                   - Arlo Guthrie
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 11:08:32 -0500
+From: Paul Shick <shick`at`jcu.edu>
+Subject: RE: Cynmar Corp.
+
+
+
+
+Hi all,
+
+
+        Michael Hartsock asks about experiences ordering
+from Cynmar Corporation, a scientific equipment company
+in Illinois.  I've dealt with them a couple of times, with
+complete satisfaction.  The prices were great, the website
+ordering went well, and the equipment arrived in good shape
+in short order.  Their prices on pH meters seem lower than
+most other places.  The hydrometers they sell seem more
+accurate than the cheaper HB shop models, but I'm too lazy
+to make up calibrating solutions to be sure.  Be warned that
+the hydrometer/thermometer combo that they offer is too long
+to be used with most sample tubes, at least to measure finishing
+gravity.
+
+
+        Their Brewer's Catalog is great fun.  I highly recommend
+the outfit.
+
+
+                        Paul Shick
+                        Cleveland Hts, Ohio
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 13:20:54 -0500
+From: "Jones, Steve (eIS) - Eastman" <stjones`at`eastman.com>
+Subject: RE: Cynmar
+
+
+Mike asked about buying from Cynmar corporation.
+
+
+I have purchased 2L Erlenmeyer flasks, magnetic stir bars, and test tube
+brushes from them. Cheap, quick, easy, and they don't have a minimum order
+as far as I can tell.
+
+
+I have not bought any hydrometers from them, but the quality of what I have
+purchased has been very good.
+
+
+Hope this helps,
+Steve Jones, Johnson City, TN; State of Franklin Homebrewers
+http://hbd.org/franklin
+[421.8 mi, 168.5 deg] Apparent Rennerian
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 14:45:36 -0500
+From: David Towson <dtowson`at`comcast.net>
+Subject: Monitoring bottle conditioning
+
+
+A few digests ago, Jeff Renner posted a suggestion for a convenient way to 
+monitor the progress of bottle-carbonation.  He suggested filling a clear 
+plastic pop bottle with beer while bottling in regular glass bottles, to 
+allow checking the progress of battle-carbonation by the "squeeze test".  A 
+week ago, I bottled a batch of Biere de Garde, and I followed Jeff's 
+suggestion.  I can now report that, in addition to checking carbonation 
+progress by squeezing the plastic bottle, one can also easily check on the 
+precipitation of yeast, and the clearing of the beer.  Be sure to keep the 
+test-bottle in the dark.
+
+
+Cheap and easy.  Thanks, Jeff.
+
+
+Dave in Bel Air, MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 15:14:25 -0500
+From: "Gilbert Milone" <gilbertmilone`at`hotmail.com>
+Subject: Re: Guinness Bottles w w w w widgets
+
+
+To sanitize the widgets, you can remove them from the bottle and soak them 
+in iodophor.I have yet to bottle a beer with them, but I have taken them out 
+of bottles.
+ -Gil
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 12:17:33 -0800
+From: Scott Perfect <perfect`at`marzen.llnl.gov>
+Subject: Guiness Bottles; unfair competition
+
+
+A couple of thoughts on the recent discussion about recycling Guinness widgets:
+
+
+The widget is not a panacea for great head - the recipe and brewing procedures
+
+
+are the first place to focus.
+
+
+The second thought is that this is a good time to mention Jeff Renner's
+
+
+"pocket beer engine," - a syringe used to shoot a stream of beer into
+
+
+a glass of beer in order to de-gas and raise the head. You can clean and
+
+
+re-use the syringe easily.
+
+
+As long as we're all in this humorous mood:
+
+
+Steve's recent recommendation of the text "Brewing Yeast & Fermentation"
+
+
+by Quain & Boulton has made me realize that we have another category of
+
+
+unfair competition - the guys with the $4K libraries.  Shall we ban him?
+
+
+Keep smiling, Bill!
+
+
+Scott A. Perfect
+San Ramon, CA
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 20:33:27 +0000
+From: "Bret Morrow" <bretmorrow`at`hotmail.com>
+Subject: Re: DIMS (Drop In Manifold System)
+
+
+
+
+Brian Lundeen ask:
+
+
+A DIMS, or Drop In Manifold System, which as the name suggests, is lowered
+through the mash after conversion for runoff. Anyone in here actually using
+one of these?
+
+
+I answer:
+
+
+Yep, I have used this type of system off-n-on from my first solo all grain 
+batch about 10 years ago.  I use a slotted copper system soldered from 
+regular 1/2" copper & fittings.  It has 3 arms that rest on the bottom of 
+the mash tun and go into a single copper pipe up and over the side of the 
+mash tun.  The copper pipe continues down the outside of the mash tun to 
+well below the level of the mash & terminates into a barbed hose connector.  
+I really like the system and have used it when somebody I brew with forgot 
+to put the stainless steel screen into the boiling kettle.  Funny how that 
+happens occasionally.
+
+
+Cheers,
+Bret Morrow
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 17:38:06 -0500
+From: David Towson <dtowson`at`comcast.net>
+Subject: Re: liquid quick disconnects (Sedam)
+
+
+In HBD 4180, Marc Sedam asks about a source of 1/2-inch QD 
+connectors.  Gilmour Corp. has a very nice line of brass QDs with garden 
+hose threads.  To use them, you will need 1/2-inch hose-barb-to-garden-hose 
+adapters available from Home Depot.  I use these extensively in my all 
+grain rig.
+
+
+The part numbers of interest are as follows (first character is a zero).
+
+
+      09QC               set of one male and one female connector
+      09QCF              female connector only
+      09QCM              male connector only
+      09QSRBAG   bag of three replacement seals for the female connector
+
+
+Contrary to what one might expect, fluid flow must be out of the female and 
+into the male for the seal to work.  The female QD screws onto a male hose 
+thread, and the male QD screws into a female hose thread.  Use rubber 
+washers.  These are excellent quality parts.
+
+
+You can order the items, as well as replacement parts, from Gilmour by 
+calling 1-800-852-2723 .    If you want to see what you're buying before 
+becoming committed, ask for a catalog.
+
+
+Dave in Bel Air,MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 15:49:34 -0800 (PST)
+From: Ronald La Borde <pivoron`at`yahoo.com>
+Subject: Re: electric vs. lp, RIMs Design
+
+
+>From: mailto:andrew_avis`at`hotmail.com
+
+
+Drew Avis discusses costs:
+
+
+>Obviously, cost is not the best reason to switch to
+>electric!
+
+
+When figuring in costs, do not forget the cost of
+galoline and time to get the propane tank filled.
+
+
+Convenience, silence, and the ability to use plastic
+kettles, etc are the reasons I use electric.
+
+
+It also helps that I can build all of the circuitry
+and wiring myself.
+- ----------------------------------
+
+
+In HBD# 4180, Mark Vernon asks "Question for the RIMs
+>brewers here, what is 
+>the location of
+>your temp probe?"
+
+
+I have the temp probe in the mash tun, about 1/4 of
+the way up from the bottom.  I have found that the
+heated recirculating liquor takes quite a while to
+flow down through the mash and affect the temp probe.
+
+
+The first time I used the equipment, I kept increasing
+the recirculation liquor temperature, then suddenly
+the mash temp shot up too high as the liquor finally
+reached the temp probe.
+
+
+Now, I have confidence in my HERMS, I know that if the
+HLT temp is 10 degrees F. higher than the desired mash
+temperature target, that I can relax and have faith in
+the proccess.
+
+
+I can be sure that the heating coil that is immersed
+into the HLT liquor is surely transfering heat into
+the mash. Do I worry about over temperature and hot
+spots - no no no, because I am using HERMS.
+
+
+I can only suggest that you RIMS people give it a try
+and see how it goes. Why worry about hot spots, temp
+probes at outflow, inflow, wherever, when with the
+HERMS, just set your HLT temperature 5-10 degrees
+above mash target, and like magic everything falls
+into place?
+
+
+
+
+
+
+=====
+Ron
+Ronald J. La Borde -- Metairie, LA
+New Orleans is the suburb of Metairie, LA
+www.hbd.org/rlaborde
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 20:44:56 -0500
+From: David Towson <dtowson`at`comcast.net>
+Subject: Re: Grist/Water raito & False bottoms
+
+
+In HBD 4180, Bill Tobler, who runs a HERMS system, asks whether or not to 
+count the water under the false bottom when figuring the grist-to-water ratio.
+
+
+It seems to me that what we're talking about here is "dilution".  And since 
+Bill is recirculating his mash liquid, all of the water is "in play" all 
+the time.  So all of the water counts.
+
+
+But for what it's worth, I just did a batch of low-gravity (for me) Wit, 
+and I used my usual 8 gallons of water, even though I only had 19 pounds of 
+grain.  That's a ratio of almost 1.7 quarts-per-pound.  I did that because 
+it takes 8 gallons to cover the temperature probe in my Sabco converted-keg 
+mash tun.  The result, so far as I can tell, was quite satisfactory.  I got 
+the usual, and very constant, 80 percent extraction efficiency, based on 
+the predicted and achieved original gravities.
+
+
+So I'm not convinced it's worth worrying about.
+
+
+Dave in Bel Air, MD
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 26 Feb 2003 23:11:12 -0600
+From: "Patrick Hughes" <pjhinc`at`eriecoast.com>
+Subject: Water
+
+
+This question is for A.J. DeLange. I am having trouble getting any
+information for free from my local Rural Water supplier. I did get the
+following info. can you help me out with this?
+Calcium 36 mg/l
+Magnesium 7.5 mg/l
+Alkylinity  85 mg/l
+hardness 122/mg/l
+I am talking to a person at the nearest office where she says they just add
+chlorine. She called the lab at the water treatment plant but she wouldn't
+let me talk to them or give me their number. So much was lost in the
+translation.   Also, are chloramines removed by a charcoal filter?
+Thanks
+Patrick
+Litchfield Ohio
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4182, 02/27/03
+*************************************
+-------

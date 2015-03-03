@@ -1,0 +1,599 @@
+﻿Date: Tue, 4 Apr 2006 23:31:03 -0400
+Subject: Homebrew Digest #4987 (April 04, 2006)
+
+
+
+
+
+
+HOMEBREW Digest #4987                             Tue 04 April 2006
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Herms controller the second (Thomas Rohner)
+  Re: Campden/sodium metabisulfite as time saving/2 day brewing aid? (jeff)
+  Re: Cherry/Fruit Ale Question ("Eric Denman")
+  RE: Cherries in Beer (Mark Nelson)
+  Hops Rhizomes in S. Illinois ("SLRJK")
+  HERMS controller ("Peed, John")
+  Re;  Campden and metabisulfite ("William Frazier")
+  Propane stove safety (tpunk)
+  RE: Campden/sodium metabisulfite as time saving/2 day brewing aid? ("Jason Gross")
+  MHTG 19th Annual Big & Huge Homebrew Competition (Eric Schoville)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 04 Apr 2006 09:00:08 +0200
+From: Thomas Rohner <t.rohner at bluewin.ch>
+Subject: Herms controller the second
+
+
+Hi Ben
+You heard a lot about Triacs and SSR's now. Normally a temp controller 
+has a DC signal for heating. This is a so called open collector output 
+(most of the times), that means it can raise the voltage to close to 12 
+or 24 volts. It has a current rating in the 100 to 200 mA range. So you 
+could hook up a couple of SSR's to it.(you only need one or two) These 
+PID temp controllers are proportional in the way as they switch the 
+load(heater) on and off with the correct pulse width. Since this heating 
+stuff is rather slow in reaction, they work different than a lamp 
+dimmer. That's called pulse packet modulation.(if my english hasn't 
+failed me) It's important, that your driver(built in or SSR) switches 
+while the voltage is close to zero, otherwise nobody in your vincinity 
+can use a tv, radio or puter. But most of the modern day SSR's will take 
+care of that. By the way, you will have to take a rather thick cabling 
+in order to get 40 Amps through. Your standard PC power cable will only 
+be good for 10 Amps or so.
+
+
+Cheers  Thomas
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Apr 2006 04:36:35 -0700 (PDT)
+From: jeff at henze.us
+Subject: Re: Campden/sodium metabisulfite as time saving/2 day brewing aid?
+
+
+Brian asks about AG brewing over 2 days....
+
+
+Brian:
+I have not tried campden tabs, so on that I can't comment. But I've split
+my batches over two days quite a few times - actually I prefer it. There
+are a couple of ways to do it:
+
+
+1) Overnight mash: I've made some nice beers by hitting my strike
+temperature just before I went to bed and letting it go until I finish the
+process in the morning. I use an insulated cooler to mash, so in the
+morning it's still quite warm, and definately done converting.
+
+
+2) Hold the wort overnight: A few times it just got too late, so I put the
+wort in a kettle and left it on my back porch (covered) overnight to
+finish the next day. Once I boiled it before I left it sit, other times I
+didn't bother with the boil first. It was fine all those times. I suppose
+that if you wanted it to sit for an extended period, you could boil and
+cover. Bacteria growth would be minimum in that situation. I clamp the lid
+with vise-grips to keep animals out.
+
+
+3) The 24 hour mash: No, this probably doesn't work quite like you'd like
+:) Things got busy in the middle of a batch and I wasn't able to get back
+to it for 24 hours and the mash had soured on me. It also stuck to an
+unbelevable degree. HOWEVER, if I had the time, I would have still sparged
+it and boiled it - it would have been bacteria free after the boil, but I
+would like to have tasted how the sourness blended with the flavor of the
+beer (it was a wheat). If I attempt a "sour mash" again, I'll have to be
+prepaired to deal with the massivly stuck sparge I anticipate now.
+
+
+Now I generally plan on doing a brewing session overnight. Setup and do as
+much of the mashing as I can the first night, then wake up early before
+the family and finish up.
+
+
+- --Jeff
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Apr 2006 09:30:26 -0400
+From: "Eric Denman" <edenman at gmail.com>
+Subject: Re: Cherry/Fruit Ale Question
+
+
+Michael
+
+
+fwiw, I recently brewed a Cherry Dubbel (adapted from the excellent
+Radical Brewing book by Randy Mosher http://www.radicalbrewing.com/ ),
+and, as I live in an area where sour cherries are quite difficult to
+find, I turned to the internet.  I found a few places that would ship
+them fresh, but the shipping costs were through the roof, so I ended
+up going with dried cherries for the sour portion:
+
+
+http://www.simply-natural.biz/Eden-Dried-Cherries.php
+
+
+For a 5-gal batch, I used 24oz of the dried montmorency cherries, and
+2lbs of sweet/bing cherries from the supermarket.  I would recommend
+pitting the fresh cherries (if you use them), and blending the whole
+thing up in a food processor or blender.  I omitted this step, and I
+don't think I got as much cherry character as I was looking for.  I
+hydrated the sour cherries prior to using them.
+
+
+People with more experience with cherries might be able to offer more
+guidance, but those are my two cents.  Does anyone know approximately
+how much of the sugar from a cherry gets fermented by a normal ale
+yeast?  I was trying to figure out how much gravity the cherries
+contributed to my batch, but I wasn't able to find any hard numbers
+anywhere
+
+
+cheers,
+Eric
+[425.7, 121.1deg] AR - Brewing in the heart of Washington, DC
+
+
+- ------------------------------
+>
+> Date: Mon, 03 Apr 2006 19:08:19 -0500
+> From: Michael Lindner <mikell at optonline.net>
+> Subject: Cherry/Fruit Ale Question
+>
+> My brew buddy and I are looking to brew a cherry  ale. We've come across
+> various recipes, and there seems to be quite a bit of variation on how
+> muhc
+> and of what to add to get cherry flavor. The recipe we've been leaning
+> towards is "Cherries Jubilee" from "The Homebrew Recipe Guide", but have
+> been
+> unable to find a source for sour cherries. We can get unsweetened sour
+> cherry
+> juice, but have no idea how juice compares to adding whole fruit in beer.
+>
+> Any guidelines, anecdotes or suggestions would be appreciated. Thanks.
+>
+> - --
+> Michael Lindner
+>
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Apr 2006 10:04:02 -0400 (GMT-04:00)
+From: Mark Nelson <menelson at mindspring.com>
+Subject: RE: Cherries in Beer
+
+
+Michael asked about the use of sour cherries in beer. I can't 
+provide too much info, but I do have a source for dried sour
+cherries. 
+
+
+Country Ovens 
+(http://www.countryovens.com/cherrystore/driedfruit.html) 
+has 'pillow packs' of dried Door County, Wisconsin, sour cherries. 
+I've used them in meads with good success. Somewhere on 
+their web site they mention the ratio of their dried 
+cherries to fresh, which I think is 1/8th lb dried to 1 lb fresh.
+I calculated the amount to use from this information 
+and my original recipe.
+
+
+Hope this helps.
+
+
+Mark Nelson
+Atlanta
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Apr 2006 09:46:30 -0500
+From: "SLRJK" <slrjk at egyptian.net>
+Subject: Hops Rhizomes in S. Illinois
+
+
+Help,
+        I'm being taken over by hops!  Actually, I need to move the hops I have and
+there are WAY too many.  I have Cascade and Nugget.  You can come dig some
+and take them on your merry way...but I would certainly take a sample of
+your homebrew.  If someone else is interested, I can send them to you if you
+pay postage.  Just let me know.
+
+
+Steve in S. IL (Near Carbondale)
+slrjk at egyptian.net
+- --
+No virus found in this outgoing message.
+Checked by AVG Free Edition.
+Version: 7.1.385 / Virus Database: 268.3.4/299 - Release Date: 3/31/2006
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Apr 2006 08:04:21 -0700
+From: "Peed, John" <jpeed at elotouch.com>
+Subject: HERMS controller
+
+
+
+
+Ben asks about a controller with triac outputs.  Triacs switch AC, so
+that's fine as long as you can find an external relay (or relays, solid
+state or otherwise) that can handle 50 amps at 220 volts and can switch
+AC with an AC control signal.  OK, so it's more like 40 amps, but you
+need a little headroom.  
+
+
+If you're asking if you absolutely need external relays of some sort,
+then the answer is absolutely yes, unless you have some monster
+industrial controller that's capable of accepting, what, 8 gauge wire?
+And switching 50 amps.  At 9 kw, you're working with some pretty serious
+power.  The typical controller has light duty outputs that are intended
+to control heavy duty relays to switch the actual power that goes to the
+elements.  If you use solid state relays, you will probably need to
+mount them on heat sinks.
+
+
+John Peed
+Oak Ridge, TN
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Apr 2006 10:17:36 -0500
+From: "William Frazier" <billfrazier at worldnet.att.net>
+Subject: Re;  Campden and metabisulfite
+
+
+Brian, use Campden or a metabisulfite salt to rid your water of chlorine and 
+chloramine.  I think potassium metabisulfite crystals are easier to use 
+because you don't have to crush Campden tablets.  I put 1/4 tsp in 10 
+gallons of brewing water.  But, I would not use sulfite to prevent or delay 
+bacterial growth in wort that is to be boiled the next day.  The pH of wort 
+is too high for reasonable amounts of sulfite to be effective.  You would 
+have to add so much you would definitely taste or smell sulfite...a burnt 
+match aroma.
+
+
+If you want to mash one night a brew the next night I would mash, sparge and 
+heat the wort to near boiling.  Then shut the heat off, cover the kettle and 
+turn off the lights.  Next day heat up to a boil and finish the beer.
+
+
+Bill Frazier
+Olathe, Kansas USA
+
+
+
+
+ .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 4 Apr 2006 09:02:49 -0700 (PDT)
+From: tpunk at riseup.net
+Subject: Propane stove safety
+
+
+Howdy,
+First, thanks for the thermometer recommendations!  I'm on the path to a
+better thermometer.  I did heat my pyrex thermometer for several hours and
+evaporated the water that got into the coil, and it works decently well
+again, but I think I'm going to go for a waterproof thermometer so I can
+have it dipped in my mash and continually monitor the temp.
+
+
+However, I've read several recommendations to use a propane powered stove
+to boil or to heat a hot liquor tank.  Do people really do this? 
+Particularly, does anyone do this inside their home?  I'm under the
+impression that propane is very dangerous to keep inside because it is
+heavier than air and any leakage at all will seep into your basement
+without you knowing, and when your heater pops on.... a bad scene ensues. 
+I need a more powerful flame than my home stove, but I'd be very worried
+about operating a propane stove in my house.  I don't have a garage... and
+doing it all outside just seems kinda silly.  So my question is:  Does
+anyone have a different set up that produces a good enough flame to make
+ten gallon batches (i'm looking ahead) or any suggestions on how to avoid
+propane?  I was thinking about trying to set up another attachment to my
+natural gas line which I could attach a portable stove to that has a
+bigger burner than my home stove, but I'd have to research that a bit as
+I've never messed with the natural gas lines before.
+
+
+Thanks!
+Tim McMahon
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 04 Apr 2006 10:16:35 -0600
+From: "Jason Gross" <jrgross at hotmail.com>
+Subject: RE: Campden/sodium metabisulfite as time saving/2 day brewing aid?
+
+
+Brian asks, "But, just how effective is sodium metabisulfite at sanitizing,
+compared to iodophor, etc...?"
+
+
+I say it's not.  I wouldn't bet the farm, because it might work.  Wikipedia 
+says "Campden tablets...are...used primarily in winemaking and beer-making 
+to kill certain bacteria and to inhibit the growth of most wild yeast."  I 
+would bold, underline, capitalize, and italicize "certain" and "most" if the 
+HBD would let me.  Does anyone know the mechanism that would explain this?  
+I have some grapes growing and would really like to get a better feel for 
+this.
+
+
+I'll list couple personal examples that fit in with Wikipedia's assessment.  
+Several years ago, I used campden tablets with peach must, and they seemed 
+to inhibit the fermentation as expected.
+
+
+Fast forward to a couple years ago, I pressed about 20 gallons of apple 
+juice to make some cider and cyser.  This was not done in a day.  So I 
+thought, "I'll just add some campden tablets to the juice and press the rest 
+of the apples next weekend."  Next weekend came and the juice pressed the 
+previous weekend was happily fizzing and fermenting.  There was no pellicle 
+or mold growing on the top, so I just let the wild beasts do their work.  
+The story has a happy ending, however, as the resulting product was very 
+tasty.  As a side note, I added the cider yeast from White Labs to the 
+freshly pressed juice, which was notably different but also good.
+
+
+This is the home vintner's digest, right?
+
+
+Confused in Mandan, ND,
+Jason Gross
+[892.8, 296.2deg] AR
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 04 Apr 2006 11:23:38 -0500
+From: Eric Schoville <eric at schoville.com>
+Subject: MHTG 19th Annual Big & Huge Homebrew Competition
+
+
+Dear Homebrewers:
+
+
+The Madison Homebrewers & Tasters Guild is proud to sponsor the 19th
+Annual Big & Huge Homebrew Competition.  Homemade beers will be
+evaluated by the trained palates of experienced beer judges.  Beer
+evaluation sheets will be returned to every entrant with helpful
+comments and advice.  Awards will be presented in five categories.  The
+Best of Show beer will receive the coveted WOOLY MAMMOTH plaque.  The
+HAIRLESS MOUSE plaque awarded to the winner of the CMS category.  Come
+to the competition to participate in the homebrew exchange and meet
+other brewers and beer lovers.
+
+
+The competition is sanctioned by the Beer Judge Certification Program
+and will follow its competition procedures.  Each beer will be evaluated
+according to Beer Judge Certification Program (BJCP) style guidelines as
+indicated by the brewer.  Please contact us if you are interested in
+judging or stewarding (see below).
+
+
+When: Saturday, May 6th
+
+
+Where:  Ale Asylum, 3698 Kinsman Blvd., Madison, WI 53704
+
+
+Entry Requirements: Three 12 ounce or larger bottles per entry.  Bottles
+and caps should have no labels or identifying marks.  Attach one
+completed entry form to each bottle with a rubber band.  Include an
+entry fee check payable to the Madison Homebrewers & Tasters Guild.
+
+
+Entry Fee:  $5 per entry
+Entry Form: http://mhtg.org/contests/2006%20Big&HugeEntry.pdf
+
+
+Categories:
+       Big Ale (Original Specific Gravity: 1.050 to 1.060)
+       Big Lager (1.050 to 1.060)
+       Huge Ale (>1.060)
+       Huge Lager (>1.060)
+       CMS (Ciders, Meads & Sakes) (>1.050)
+
+
+Prizes will be awarded to all place winners in each category.
+
+
+Entry Deadline: Deliver entries to Big & Huge Competition, c/o Ale
+Asylum, 3698 Kinsman Blvd, Madison, WI 53704 until Thursday, May 4th.
+Affix a copy of the registration form to each bottle with a rubber
+band.  Any questions?  Contact Mark Alfred, or Mark Schnepper (see below)
+
+
+About the Club: The Madison Homebrewers & Tasters Guild, Ltd. is a
+nonprofit club devoted to the brewing and appreciation of well-made
+beers.  Visit our website for more information:
+http://mhtg.org/contests/BigNHuge2006.html
+
+
+Corporate Sponsors: Ale Asylum; All About Beer Magazine; Beersmith;
+Briess Malt and Ingredients Company; Cynmar Corporation; Freshops; Hop
+Union CBS LLC; Logic Inc.; Glasses, Mugs and Steins; Malt Advocate
+Magazine; Midwest Supplies; Siebel Institute of Technology; Sierra
+Nevada Brewing Company; White Labs Inc.; Williams Brewing Company
+
+
+For further information, contact:
+Mark Alfred at (608) 217-4160, mailto:hulsie2002 at yahoo.com
+Mark Schnepper at (608) 882-4523, mailto:mschnepper at yahoo.com
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4987, 04/04/06
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

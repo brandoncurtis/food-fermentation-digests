@@ -1,0 +1,434 @@
+﻿Date: Mon, 11 Oct 2004 23:34:21 -0400
+Subject: Homebrew Digest #4625 (October 11, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4625                             Mon 11 October 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Reason for sugar residuals - (Energy/stress/biomassyield) ("Fredrik")
+  Fortnight Of Yeast, 2004 - Published attenuation levels for various yeasts (Fred Johnson)
+  Counterflow Issues (Grant Family)
+  Curve Fitting ("Martin Brungard")
+  Re: counterflow issues ("Spencer W. Thomas")
+  Atteunation, yeast vs wort (correction) ("Fredrik")
+  Pump Mounting ("Michael O'Donnell")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*               A Fortnight Of Yeast                    *
+*  Presented by the HBD in cooperation with Lallemand   *
+*      Questions submission: 10/11 - 10/22/2004         *
+* include Fortnight Of Yeast, 2004 in your subject line *
+* More info http://hbd.org/hbd/archive/4620.html#4620-3 *
+*********************************************************
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 11 Oct 2004 07:47:37 +0200
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Reason for sugar residuals - (Energy/stress/biomassyield)
+
+
+These are really interesting and head on questions! I think asking 
+this to the fortnight experts is a great idea.
+
+
+Just to stir the pot for the moment and through out some more wild
+speculations...
+
+
+ ..one working hypothesis that I intended to implement in 
+the simulation(to see if it's consistent) is a kind of  energy 
+flow model where there has to be a positive balance, 
+of energy production and expensses. Expenses are of course 
+biosynthesis, active transport of nutritions into the cell, and transport 
+of waste out of the cell. Also I suspect stressful conditions increases 
+the expenses in several ways. 
+
+
+To account for this, I think it would be unnatural for the equilibrium 
+residuals to be zero. I mean, who of us licks the plate after a meal?
+A dog might say there is still plenty of food left on the plate. Ii's not 
+wort the effort to lick the plate.
+
+
+The maltotriose is the last to do, should be because it 
+happens to be the most expensive food to refine, and different 
+strains have different affinity to it (due to variable expression?).
+
+
+I admit this is alot of theorizing and I may be wrong, but so far it looks
+promising, so if anyone can point to flaws in my reasoning before I 
+take it too far.  I would appreciate it.
+
+
+Anyway I suspect the first thing that happens is that the biomass 
+drops, of course the yeast by definition continues to grow all 
+the way until they go dormant, but as sugar concentrations drop 
+and stresses from waste products and nutrition depletion increases
+the biomass yield drops. At some point, the biomass yield is so low 
+that it is not favourable to "stay ative". The obvious suggestion to this 
+treshold would be biomassyield roughly 0. However I am not sure, 
+it's exactly 0? Any ideas? The biomass yield seems like a good 
+choice of correlator to the energy stress level? 
+
+
+That would suggest that when we see typical biomass yields of 5%, 
+it might be alot higher in the beginning when nutritions are in excess 
+and stress and production inhibition is low, and then drops. This is 
+something that seems very consistent with the major boost in biomass
+yield you get using a stirrer - even if no O2 is introduced. It reduces
+stress and concentration gradients (which is also a kind of stress). The
+only sensible explanation to this I've found is that the biomass yields
+drop to basically zero during normal conditions, and the stress reduction
+io biomass yields is major, rather than just some % one way or 
+the other.
+
+
+I think what needs to be done is to quantify this and put it all togehter
+and see what it gives.
+
+
+One question I intented to place to the fortnight is: Does the biomass 
+yield basically drop to "close to zero" before dormancy? (this is what I
+would speculate) If not, how low does it typically drop? 
+
+
+Perhaps some of you guys has any comments to this? that perhaps even 
+could lead to spin off questions to ask the experts?
+
+
+ /Fredrik
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Oct 2004 06:36:50 -0400
+From: Fred Johnson <FLJohnson at portbridge.com>
+Subject: Fortnight Of Yeast, 2004 - Published attenuation levels for various yeasts
+
+
+Commercial yeast producers and others publish attenuation figures for 
+each yeast. Are these figures obtained using a standard protocol within 
+the company publishing the results? Are these figures obtained using a 
+standard protocol across the industry? If so, how does that protocol 
+relate to the vast array of wort compositions and fermentation 
+conditions that are encountered in the commercial brewery and in the 
+home brewery?
+
+
+I suspect that the reasons yeasts vary in the degree to which they 
+attenuate wort are only partly known, but I would appreciate a brief 
+summary of what is known about this.
+
+
+Fred L Johnson
+Apex, North Carolina, USA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Oct 2004 23:32:33 +1100
+From: Grant Family <grants at netspace.net.au>
+Subject: Counterflow Issues
+
+
+Hi all,
+
+
+Today I bought a coil (18m/50ft) of 1/2 inch OD copper and would like to 
+build a counterflow chiller (CFC), but I'm not sure if my setup will allow 
+it. Here are the potential problems as far as I can see:
+
+
+i) I don't have a pump and so would need to use gravity to feed the CFC. My 
+boiler doesn't sit much more than a metre (3-3.5ft) off the ground and I'm 
+unsure of whether I'll have troubles with gravity flow.
+
+
+ii) My boiler (a keg with the top cut out) doesn't yet have a tap. As such, 
+I normally have to syphon the chilled wort (chilled with a borrowed 
+immersion chiller) out over the top of the keg and into the fermenter. Will 
+this make syphoning through a CFC too slow and/or prone to clogging?
+
+
+iii) I use only hop pellets and have no access to adequately fresh whole 
+hops. Will this cause me untold grief in terms of trub in fermenter/loss of 
+wort?
+
+
+Any advice, especially from people who had/have similar problems, would be 
+appreciated.
+Thanks,
+Stuart Grant,
+Hobart, Tasmania, Australia.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Oct 2004 05:12:22 -0800
+From: "Martin Brungard" <mabrungard at hotmail.com>
+Subject: Curve Fitting
+
+
+Lately, there have been several comments on the difficulty of developing an 
+equation for an existing data set (curve fitting).  There are software 
+packages out there that can make the job much easier.
+
+
+One of the most widely known packages is Excel.  Another is Grapher.  Both 
+of these programs are commercial and somewhat expensive.  Curve fitting is 
+not their main purpose.  Neither of these programs do this job very well.
+
+
+Fortunately, there is a cheap way to get a better solution.  There is a 
+shareware product called CurveExpert that is specifically intended for curve 
+fitting.  It does a very good job.  The program includes a number of curve 
+fitting solutions, making it more likely that you will come up with a better 
+equation for your data set.  For the limited work that most of us would 
+likely use the program for, it is essentially freeware.  You can download 
+the program from the following link.
+
+
+http://curveexpert.webhop.biz/
+
+
+For anyone dealing with developing equations for observed data, this is a 
+great time saver.
+
+
+Martin Brungard
+Tallahassee, FL
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Oct 2004 10:40:27 -0400
+From: "Spencer W. Thomas" <hbd-mod at spencerwthomas.com>
+Subject: Re: counterflow issues
+
+
+Stuart Grant asks:
+> i) I don't have a pump and so would need to use gravity to feed the CFC. My 
+> boiler doesn't sit much more than a metre (3-3.5ft) off the ground and I'm 
+> unsure of whether I'll have troubles with gravity flow.
+I've used gravity flow to pull wort through my CFC from a kettle sitting 
+on the stove top.  The stove top is about 1 meter from the floor.
+> 
+> ii) My boiler (a keg with the top cut out) doesn't yet have a tap. As such, 
+> I normally have to syphon the chilled wort (chilled with a borrowed 
+> immersion chiller) out over the top of the keg and into the fermenter. Will 
+> this make syphoning through a CFC too slow and/or prone to clogging?
+Again, I siphon from my kettle.  I have a copper "racking cane" that 
+reaches to the bottom "corner" of the kettle, and has a gentle bend at 
+the top, so that the plastic hose doesn't kink.  I did have to buy some 
+silicone tubing, as regular "vinyl" tubing is not safe for boiling 
+temperature wort.  My vinyl tubing got very soft, and also I had 
+problems with it introducing a plastic taste -- I had to dump 2 batches 
+of beer.
+> 
+> iii) I use only hop pellets and have no access to adequately fresh whole 
+> hops. Will this cause me untold grief in terms of trub in fermenter/loss of 
+> wort?
+
+
+I think that pellets may be easier to deal with than whole hops.  Whole 
+hops can easily plug the end of the racking cane, while pellet hops 
+should get sucked in, instead.  I whirlpool my wort at the end of the 
+boil.  The hops & trub settle out into a cone in the center of the 
+kettle, and by siphoning from the edge, they interfere very little with 
+the siphon.  I also enclose the end of the racking cane in a copper 
+"scrubbie" to help filter out those hops that do "wander" in that direction.
+
+
+You can see a picture of this in action at
+http://homeroastnbrew.info/homebrew/chilling/
+
+
+=Spencer
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Oct 2004 18:31:01 +0200
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Atteunation, yeast vs wort (correction)
+
+
+Thanks Fred Johnson for pointing out there a typo 
+in me previous post. I post this correction of my previous 
+post now to avoid further confusion for
+anyone else who might read this.
+
+
+In the definition of RDFW it should obviously be:
+
+
+RDFW = Real Degree of Fermentabilit of Wort 
+(=glucose+fructose+sucrose+maltose
++MALTOTRIOSE; % of extract)
+
+
+the maltotriose term was missing in my last mail, sorry. 
+(Where maltotriose = MTW)
+
+
+RDFW = is supposed to be the maximum 
+potential degree of fermentability.
+
+
+ /Fredrik
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 11 Oct 2004 10:56:16 -0700
+From: "Michael O'Donnell" <mooseo at stanford.edu>
+Subject: Pump Mounting
+
+
+Hi all,
+
+
+Probably a dumb question, but how important is it to mount a centrifugal 
+pump in a horizontal position?  I notice that March recommends it, and most 
+brewery pictures I see have them mounted that way, but I was just wondering 
+what the considerations are?  Is it a fluids issue, or worry about wear on 
+the bearings?
+
+
+cheers,
+mike
+Monterey, CA
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4625, 10/11/04
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

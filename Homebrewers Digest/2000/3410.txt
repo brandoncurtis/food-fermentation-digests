@@ -1,0 +1,1466 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.213.75.21])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA19047;
+        Wed, 23 Aug 2000 00:51:00 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr22.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA21776;
+        Wed, 23 Aug 2000 00:50:59 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA32562
+        for realhomebrew; Wed, 23 Aug 2000 00:32:16 -0400
+Date: Wed, 23 Aug 2000 00:32:16 -0400
+Message-Id: <200008230432.AAA32562`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3410 (August 23, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3410                             Wed 23 August 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Calculating OG, extraction ratings, blah blah blah (John Palmer)
+  Chlorine/Chloramine ("A. J.")
+  alpha acid measurement ("patrick finerty jr.")
+  boilovers ("Joe O'Meara")
+  Re: Mail Order ("Glen Pannicke")
+  Water (David Root)
+  Decoction Challenge (Charley Burns)
+  Will the real constant please stand up? (Jim Adwell)
+  Air lock for 10 gallon batch (TPuskar)
+  re: a hearty "Yee-haw".(complexity)/malt bills ("Stephen Alexander")
+  Oxygen Ingress at Different Stages of Wort Production ("John or Barb Sullivan")
+  Dusseldorf ("Angie and Reif Hammond")
+  Spreading spent grains and hops on lawn (EdgeAle)
+  re: specialty grains and rogue ("Stephen Alexander")
+  re: dirty bastards (Steve Lacey)
+  Good lauter tun candidate ("Bill F")
+  Captain! Newbie delurking off starboard bow! (TOLLEY Matthew)
+  HB Shops / Pub request (Lance Levsen)
+  Whirlpool ("Spies, Jay")
+  Charlie vs Noonan ("Paul Niebergall")
+  Sound Advice ("Paul Niebergall")
+  Wyeast 2178 "Lager Blend?" (Bill.X.Wible)
+  Re: Spreading spent grains and hops on lawn (Some Guy)
+  Salt Lake City Brewpubs ("Whyman Dental Lab, Inc")
+  Pearl Foam Beer ("Kevin Kutskill")
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+
+
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 19 Aug 2000 07:32:54 -0700
+From: John Palmer <jjpalmer`at`gte.net>
+Subject: Calculating OG, extraction ratings, blah blah blah
+
+
+Well Steve says I have a lot to answer for - stirring up this hornet's nest
+of questions on recipe formulation. ;-)
+
+
+Let me see if I can state it simply for you whingers out there that would
+rather not think about what goes into the fermenter in terms of points per
+pound per gallon.
+
+
+For the rest of the world, Hot Water Extract seems to be the concentration
+measurement of choice, and the units for the IoB version are liter degrees
+per kilogram. HWE is a maximum yield rating determined by a laboratory mash,
+meaning that brewers will only get a high percentage of that value under
+real mash conditions. That percentage is a brewers extract efficiency,
+typically 80-90%. And a typical base malt has a HWE of about 310 liter
+degrees per kilogram.
+
+
+So, a metric person says: I have 4 kg of 310 HWE malt, and I will make a 20
+liter batch, and I typically have a mash efficiency of 85% and that gives me
+an OG of .85 x 310 x 4 / 20 = 52.7 or a OG of 1.0527
+
+
+Right?
+ 
+Well, do you realize that if you take HWE and divide it by conversion
+factors to US units: 2.2 pounds per kg, and 3.78 liters per gallon, then you
+get Gallon Degrees per Pound? And that this dear friends is a nice way of
+saying Points per Pound per Gallon?
+
+
+Thus, if you take HWE and divide it by 8.3454 you get the maximum extract
+rating in PPG. 
+
+
+And to make the significance of this discussion a bit clearer, we in North
+America typically don't talk about our efficiency ratings but instead just
+include it. In other words, we take a maximum rating of 37 ppg multiply it
+by 85% and get 30 ppg. So, when we PPGers talk about recipe formulation and
+mash efficiency, we just say we are shooting for 30 ppg from the mash and
+use that to figure our amounts. The HWE equivalent of 30 ppg is 250, by the
+way.
+
+
+If we want to brew a 1.050 IPA, we say how many pounds of malt will I need
+at 30 ppg to yield 5 gallons of 1.050?
+5 x 50 = 250 degrees total divided by 30 ppg = 8.33 pounds of malt
+
+
+In summary, I am trying to point out that we all do it the same way, we just
+use different units. And I apologize if I seemed patronizing, I just wanted
+to make sure that I made it crystal clear. Brew On!
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 01 Jan 1904 20:13:07 +0000
+From: "A. J." <ajdel`at`mindspring.com>
+Subject: Chlorine/Chloramine
+
+
+RE: Domenick's post of the other day.
+First off, thanks for the compliment!
+
+
+I grant that you would think the AWWA would know about such things (and
+said so in the quoted post) but in this case subsequent experimentation
+showed them to be, well,  all wet. The experiments in the quoted post
+belong in the "anecdotal" category but they were followed by more
+extensive experiments which served as the basis for an article I wrote
+for BT in its last year. I'll sumarize a few findings from those
+experiments. First off, be aware that ammonia/chlorine chemistry is very
+complex. Things happen which are not easily explained. For example, I
+found that the cloramine that I produced by treating chlorine free water
+with bleach and ammonia was very much more easy to remove thatn the
+chloramine produced at the local water works by gassing first with
+chlorine and then ammonia. There is no simple explanation for this but
+phenomena of this sort are noted in the literature.
+
+
+First, dichloramine and trichloramine are indeed very volatile and thus
+tend to be completely absent from water when it reaches the consumer.
+Monochloramine is not, in any experiment I did, more volatile than
+uncombined chlorine. In experiments I did with standing water, chlorine
+escaped a 10 gallon volume of water pretty completely in a couple of
+days. With chloramine this method would take weeks to get to the same
+level. If the water was circulated and aerated most chlorine would be
+gone after about 12 hours. With chloramine about 90 hours would be
+required. Thus standing with circulation and aeration is a possible
+means of chloramine removal but probaly not the most convenient.
+
+
+Boiling drives free chlorine off very quicky. The gas is gone by the
+time the water reaches the boil so that it is not necessary to boil it
+but rather just bring it to the boil. With chloramine a full hour or
+more of boiling was found to be necessary depending on the source of the
+chloramine. Thus boiling works with chloramine but again is not very
+convenient.
+
+
+The most convenient methods of chloramine removal are granulated active
+carbon and chemical treatment. GAC filtration is relatively inexpensive
+and effective but you do need to buy, install and service the filter.
+Several sulfites will remove chloramine effectively without adding
+significant ammounts of new ions to the water. Sodium thiosulfate
+(photographer's hypo) will work but I recommend sodium or potassium
+metabisulfite which is sold in brewing and winemaking shops as powder
+and as "Campden Tablets" i.e. it's a readily available food grade
+source. I Campden tablet should treat 20 gallons of water unless the
+water authority is really loading it up. As a simple test, if it still
+smells chlorine-like, there's still un-neutralized chloramine.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 2000 12:02:47 -0400 (EDT)
+From: "patrick finerty jr." <zinc`at`finerty.net>
+Subject: alpha acid measurement
+
+
+hi folks,
+
+
+i've read that HPLC and/or spectrophotometry are accepted methods for
+determining the amount of alpha acids in beer. spec measurements are
+apparently made on toluene/MeOH extracted beer. what wavelength is
+standard for the procedure? also, what is generally used for a
+standard for these measurements? i assume such standards can be
+purchased or at least the components purchased so that i could make
+them myself. no doubt test runs using commercial brews with known IBU
+levels would be useful.
+
+
+while HPLC is certainly more rigorous, i'm really not into spending
+the time on our HPLC to do this. i'm also not willing to risk our
+columns by pumping my beer or extracts thereof through them.
+
+
+basically what i'd like is an accepted protocol for measurement of
+alpha acid content by spectrophotometry as well as some idea about how
+to convert absorbance values to IBU values.
+
+
+cheers,
+
+
+patrick in toronto
+- -- 
+       "There is only one aim in life and that is to live it."
+ Karl Shapiro,(1959) from an essay on Henry Miller's Tropic of Cancer
+              finger pfinerty`at`nyx10.nyx.net for PGP key
+                      http://www.finerty.net/pjf
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 2000 10:49:53 -0700 (PDT)
+From: "Joe O'Meara" <drumthumper_2000`at`yahoo.com>
+Subject: boilovers
+
+
+I brewed an APA yesterday, and had a boilover in my
+converted keg (1/2 bbl).  This is the first time that
+I have had this happen (in my keg anyway).  Is this
+normal?  FWIW, I have done 3 weizens in the keg also,
+and they didn't boil over.
+
+
+
+
+TIA,
+
+
+Brewing where half the state is on fire,
+
+
+=====
+Joe O'Meara
+Mad Dwarf Brewery (AKA my kitchen and coat closet)
+ICQ # 60722006
+http://homebrew.4mg.com
+
+
+__________________________________________________
+Do You Yahoo!?
+Send instant messages & get email alerts with Yahoo! Messenger.
+http://im.yahoo.com/
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 2000 14:44:34 -0400
+From: "Glen Pannicke" <glen`at`pannicke.net>
+Subject: Re: Mail Order
+
+
+After hearing of some of the poor customer service available at other
+on-line homebrew suppliers, I feel that I must post some of the web sites
+which I have had positive experiences with.  I have no affiliation with any
+of them, but good service deserves a good word.  And they don't spam the
+digest with their plugs either...
+
+
+Brewer's Resource
+http://www.brewtek.com/
+
+
+Northern Brewer
+http://www.northernbrewer.com/welcome.htm
+
+
+Beer, Beer and More Beer
+http://www.morebeer.com/
+
+
+Homebrew Adventures
+http://www.homebrewadventures.com/index.shtml
+
+
+I only use the on-line resources when my local homebrew shop has an
+outrageous price or just doesn't have what I need.  I may be a cheap bastard
+, but I like to support my local shop owner for the bulk of my purchases -
+even if it costs a little more.
+
+
+Carpe cerevisiae!
+
+
+Glen Pannicke
+http://www.pannicke.net
+"He was a wise man who invented beer" - Plato
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 2000 15:12:06 -0400
+From: David Root <droot`at`buffnet.net>
+Subject: Water
+
+
+Howdy Folks,
+
+
+I have been brewing all grain for the last 5 years.
+I moved recently, and have a well.  The water is
+"hard"  I have a bunch of off white stuff in my hot
+water heater.  Chunks big enough to plug the 1/2"
+valve for the drain.  I need CLR or a strong acid to
+clean my tub and other porcelain fixtures.  My first brew,
+I checked the PH with a liquid solution.  It was really
+green.  Maybe 9 or 10.  I added lactic acid.  First 2.5
+ml like I used to with city water and no change.  I was up
+to 70 ml, and still green. I kept adding until I used what
+was left of the bottle.  Probably
+two ounces for 14 gals of sparge water.  It ended up still
+green.  Maybe 7 or 8.  I am drinking the beer, and it is
+pretty good but not quite right.   I hopped the hell out of it.
+ A total of 7 ounces of hops including 2 oz FWH.
+Not high alpha though, 4 for
+the Saaz, and about the same for Hallertau.  I ended up
+with 10 gallons of decent beer. Should I add more acid
+next time?  The mash was right on at 4 to 5.  I tried not
+to sparge too much because of the high ph water.
+I have tried to find a place to send a sample, but have
+had no luck yet.  Please help if you can.  I have been
+reading the Digest for 7 or 8 years now.  Its different
+now than it used to be, but I still like it.
+
+
+Thanks
+
+
+D. Root     Medina NY
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 2000 12:11:29 -0700
+From: Charley Burns <cburns99`at`pacbell.net>
+Subject: Decoction Challenge
+
+
+Since I'm such a lazy guy, I'd like to take this award winning brew and
+remove the double decoction steps and reduce this from a 7 hour brew down to
+maybe 5 hours. I just don't believe that I can get the flavors that I'm used
+to though. This beer is extremely close to  Spaten Optimator. In fact if you
+mix a Salvator and Optimator together, this is about the flavor and body you
+get from this beer.
+
+
+Please - anybody - tell me how to change the recipe, keep the flavor/body
+profile the same and eliminate the double decocation (process described
+below the ingredients):
+
+
+Grist:
+  1.00        lb.        Cara-Pils
+  1.25        lb.        Cara-Vienne
+  0.25        lb.        Chocolate
+  7.00        lb.        Lager 2-Row (DWC Pils)
+  8.00        lb.        Munich Light (DWC)
+  1.00        lb.        Vienna
+  0.75        lb.        Wheat
+
+
+Hops:
+ 1.50        oz.        Hallatauer              3.7%        60 min
+ 1.00        oz.        Tettnanger              4.4%        10 min
+
+
+Grist/Water Ratio: 1 quarts/pound (thick due to limitation of mash tun size)
+
+
+Munich Wyeast 2308 - 2 quart starter
+
+
+Double Decoction.
+15 min at 134F
+pull half the mash to decoction (thick)
+10 minutes to raise up to 158F
+45 minute rest at 158F
+Boil for 20 minutes
+BAck to rest mash at 158F for 45 minutes
+Pull a third of the mash (thin)
+Boiled for 20 minutes
+Returned to rest mash at 170F
+Sparged with 185F 6 gallons
+7.5 gallons wort, Final Runnings 1.020
+90 minute boil
+Ferment at 50F for 3 weeks
+Diacetyl Rest for 2 days at 65F
+Lager at 35F for 30 days
+Force Carbonate
+
+
+OG 1.092
+FG 1.021
+
+
+So, how can a recipe formulation change eliminate all this labor?
+
+
+Charley
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 2000 15:35:11 -0400
+From: Jim Adwell <jimala`at`apical.com>
+Subject: Will the real constant please stand up?
+
+
+While fooling around with my brewing software, I decided to add a "%
+alcohol by volume" display box to it.  Searching the net and some books, I
+found the formula:
+
+
+(OG-FG) * a constant, henceforth known as 'K'
+
+
+or
+
+
+(OG-FG) / the inverse of K (1/K)
+
+
+where OG and FG could be specific gravity, 'points', or degrees Plato, with
+an appropriate value of K for each.   For simplicity, I converted all the
+formulas I found to the same form ( although most were already) :
+
+
+(OG-FG) * K,  where OG and FG are expressed as specific gravity, for
+example: (1.050 -1.012).
+
+
+I found 5 webpages with the calculation before I gave up.  In each case K
+was different:
+
+
+135.86
+131.25
+132.3
+133.33
+135
+
+
+Now these numbers all give similar answers, for example (1.050 -1.012) * K :
+
+
+5.16%
+4.99%
+5.03%
+5.07%
+5.13%
+
+
+rounded off, so I could just pick one, or average them, and be close
+enough, I suppose.  But I'd like to find out what the real constant K is.
+Does anyone know?
+
+
+Cheers, Jim
+
+
+Jim's Brewery Pages:
+http://home.ptd.net/~jimala/brewery/
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 2000 21:15:04 EDT
+From: TPuskar`at`aol.com
+Subject: Air lock for 10 gallon batch
+
+
+I've managed to obtain 2 10 gallon carboys and am planning to make at least 
+one 10 gallon batch now that I don't have to split it for the secondary.  My 
+question is this.  Can I safely use a "standard" airlock of will I be 
+possibly be generating too much gas and pop the top?  Should I resort to a 
+wide diameter tubing and overflow style lock?  Any info would be welcome.
+
+
+Thanks,
+
+
+Tom Puskar
+Howell, NJ
+
+
+
+
+------------------------------
+
+
+Date: Sun, 20 Aug 2000 07:12:42 -0400
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: re: a hearty "Yee-haw".(complexity)/malt bills
+
+
+Brian Lundeen comments
+
+
+> > I dimly recall  two in balance, one in background.
+> >
+>Not quite following you here. Is the one in background referring to a
+>bittering hop, or a less dominant character hop?
+
+
+Early hops additions do unquestionable impact flavor in addition to
+providing the bulk of bittering.  What I am referring to is a balance of the
+resulting flavors & aromas, primarily, but not exclusively from the late
+additions.  EKG and Fuggles are a classic example  where a balanced pairing
+is (IMO) better than either alone, but we've all probably had many  ales
+made with these.  Adding a third hop aroma/flavor in the  background can put
+a new spin on this classic combo.  You have to consider the aroma/flavor
+strength, not just the amount of hops.
+
+
+>What constitutes a balance
+>between two hop varieties? Is it that their characteristics are meshing, as
+>perhaps a Saaz-Tettnang pairing might, or are you talking about something
+>else?
+
+
+It's the flavor characteristics and not the hop varieties we are trying to
+balance.  In the saaz-tettnager pairing you suggest I can see that certain
+aspects would mesh well, saaz w/ it's spicey high-tone character and
+tettnager with more (what is the right description?) mouthwatering fullness.
+It's pretty easy to imagine a balanced mix of these two where both
+characteristics are evident, but neither is clearly dominant.   That is
+balance.  The latest edition of JIB (v1006,pp157-161) has a paper by Kirin
+Brewing in which they analyze the 'Genetic Distance' between 51 hop
+varieties.  Saazer and Tettnanger (along with hersbrucker, lublin,
+northdown, progress, spalter, spalter select, strisselspalt) end up in the
+same broad category.  An interesting example, Ultra is a cross of
+hallertuaer&saaz and shows both characteristics, but IMO the saaz-like
+spiciness dominates.
+
+
+It's also (IMO) possible to get a balance between more similar (flavorwiise)
+types of hops, even between two variants of Fuggles, but it takes a bit more
+thought and maybe experimentation about what contrasting elements are to be
+balanced and where a good balance lies.  I personally find it difficult to
+imagine a good balance between the wildly different, e.g. Cascades and
+H.Mittelfruh.  Can you really get both a restrained American hops flavor and
+that H.M. refined 'body' and do they 'work' together ?   But like the
+N.African sauce someone has probably done this and *may* have a great
+pairing (or a real loser).
+- --
+
+
+>Mash hopping is reported by our good friends at Paddock Wood to impart
+>similar character, but you are not getting a full dose of these hop's IBU's
+>because they don't make it into the kettle. They estimate 10% of what FWH
+>would yield for IBU.
+
+
+Hmmm - I suppose if you mash-hopped and decocted ....
+
+
+ -S
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 19 Aug 2000 09:50:19 -0500
+From: "John or Barb Sullivan" <sullvan`at`anet-stl.com>
+Subject: Oxygen Ingress at Different Stages of Wort Production
+
+
+Does anyone have any solid LITERARY information (I know this will upset the
+book burners) on oxygen ingress at various stages of the wort production
+process?   Steve Michalak of A-B has stated that they intentionally aerate
+the near boiling wort by injecting air into the wort as it falls down a
+very tall column.  This aeration actually scrubs certain undesirable
+constituents from the wort.  He also stated that at these temperatures,
+oxygen ingress is minimal and what is taken up is soon consumed by the
+yeast.  He also stated that wort is most susceptible to hot side aeration
+at other stages (lower temps) of the wort production process such as
+mashing and lautering.  Is it a coincidence that so many brewers who
+started with Charlie's method of pouring near boiling wort through the air
+and through a funnel into cold water could still brew a decent beer that
+didn't taste like cardboard?   I'm not saying that homebrewers should
+deliberately aerate the near boiling wort but perhaps its time to get a
+handle on when the wort is most susceptible to HSA.  This has a deliberate
+bearing on most procedures and processes used by homebrewers.
+
+
+George Fix:  Before I go back to Michalak again, do you have any comments?
+
+
+John Sullivan
+St.Louis, MO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 20 Aug 2000 12:47:19 -0400
+From: "Angie and Reif Hammond" <arhammond`at`mediaone.net>
+Subject: Dusseldorf
+
+
+While in Dusseldorf go to Uerige and the Fuchschen (Fox), but also be sure
+to go down to the Rhine in the Altstadt- there is a long tent where many of
+the local breweries serve their beers.  Since Alt is typically served in 0.2
+or 0.3 liter glasses, it is easy to try them all.  Alt has a wide range of
+flavors that you would miss by focusing on just the highest rated ones.
+
+
+Reif Hammond
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 20 Aug 2000 17:22:45 EDT
+From: EdgeAle`at`cs.com
+Subject: Spreading spent grains and hops on lawn
+
+
+
+
+HBD,
+
+
+I am currently house-shopping and will have a lawn for the first time. I have 
+been wondering about spreading my spent grains around the lawn as fertilizer. 
+Has anyone years of experience doing this and any advice?
+
+
+Are the grains spread wet or allowed to dry a bit?
+Should piles of grain be spread at the base of plants? (like hop bines which 
+I will be able to grow with a yard!)
+Does the pH of the grains affect the grass?
+How long does it take for the grains to break down? More to the point how 
+often can I brew and do this? 
+What about spent hops?
+
+
+Thanks for any practical advice I can get which will help answer SWMBO's 
+questions when she catches me doing it.
+
+
+Dana Edgell
+- ------------------------------------------
+Edge Ale Brewery, San Diego
+http://ourworld.cs.com/EdgeAle
+
+
+
+
+------------------------------
+
+
+Date: Sun, 20 Aug 2000 10:18:03 -0400
+From: "Stephen Alexander" <steve-alexander`at`worldnet.att.net>
+Subject: re: specialty grains and rogue
+
+
+Pete Czerpak (and others note ...
+
+
+>While I do tend to limit my use of specialty grains, I have to admit that I
+>agree with Aaron Perry about Rogue having some fantastic beers [...]
+>. Brutal Bitter is of course quite heavenly
+
+
+Yeah - I like Rogue beers very much too, but they are not exactly subtle and
+well balance like Spaten or Fuller's or Ayinger products.  They are big
+over-the-top flavored beers.  It's like the difference between 5-alarm chili
+and a fine bolito misto.  Of course the ultimate in simplicity is a pils
+like PU  where a magnificent hops and an excellent malt sit with a modest
+yeast component - nowhere to hide a flaw there.  Lambics hit the other end
+of the complexity scale, tho often with much of that complexity from
+fermentation products.
+
+
+>When done poorly, you just get a mouthfull of jumbled flavors that taste,
+>well, yucky.  For example great amounts of crystal in pale ales or huge
+>amounts of black patent in stouts.
+
+
+Right but those are basic amateur mistakes.
+
+
+>However, moderate these and they work perfectly.
+
+
+Yes, but I'd suggest that even when you get the amounts in range there is
+still a balancing that needs to be done.
+
+
+>This tends to be why folks use little bits of everything
+>[...] Nothing like a little sweetness (crystal, carapils),
+>little malt (munich), maybe some chocolate (obviously chocolate malt), in a
+>browne ale or little raisin (special B) in a belgian strong, or perhaps
+even
+>a hint of smokiness in a barley wine for complexity.
+
+
+OK, but I don't want all of these in each beer - too tiresome.
+
+
+There are definitely are a wide range of specialty malt flavors, and Al
+Korzona's book 'Homebrewing: Vol I' is the only good descriptive source I am
+aware of for many of these.  You can definitely make good tasting beers like
+Rogue with big specialty malt additions, but a more subtle touch is, more
+effective at achieving complexity and balance and drinkability.
+
+
+Drinkability - I find many higher grav and particularly high-crystal content
+sweet beers rather off-putting after the 1st pint (especially in warm
+weather).  Great first impression, but they don't always leave me wanting
+more.  Good if you want to win a contest, but not for everyday drinking.   I
+do like Rogue products, and some of the overhopped beers too, but if I had
+to choose say 3 beers only for the rest of my life they wouldn't make the
+cut.
+
+
+ -S
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 09:37:32 +1000
+From: Steve Lacey <stevel`at`sf.nsw.gov.au>
+Subject: re: dirty bastards
+
+
+My compatriots Brad and Warren are working themselves up into quite a frenzy
+about kit brewers. Well, not just any ol' kit brewers, but the cheap and
+nasty ones who rarely buy ingredients from anywhere but a supermarket. And
+in particular, verbally abuse the hard-working homebrew shop owner who
+cannot help but have a higher price due to overhead structures etc. I quote
+from Warren "He then asks the afore-mentioned homebrew store owner for some
+advice on why his beer doesn't taste too good!
+    Little ironic isn't it??? - Dirty bastard probably didn't buy any 
+bleach, would of put his budget over 10 bucks wouldn't it."
+
+
+Guys, I know what you are saying. But we have to take a stance more along
+the lines of missionaries amongst savages than this abusive tone. The "dirty
+bastard" is really just a lost soul. A poor ignorant savage who must be
+brought into the fold. Sure he could learn some manners and basic principles
+of retail pricing, but the real "dirty bastards" are the kit manufacturers
+and retail outlets which conspire to conceal all knowledge of a more
+enlightened approach to brewing. There are so many retail  home brew outlets
+that actually push kits and little else. And so few quality shops that cater
+for for the "doin' it from scratch" folks (g'day Regan and Mel). And don't
+blame the poor ignorant man in the street for the fact that the kit mfrs
+have deals to put their products on supermarket shelves at discounted
+prices. They have adopted this 10-bucks-a-brew  approach as a mantra instead
+of endeavouring to educate their customers to a higher investment=higher
+quality approach. OK, so its a free country and free enterprise is the order
+of the day. BUT, it just shits me when big guys from the kit industry go so
+far as to denigrate mash brewing and deny its legitimate place in the home
+beer making hobby. And believe me, they do.
+
+
+So spread the gospel of quality beer making to the unenlightened, and fight
+the forces of darkness that conspire to repress our side of the hobby. God
+knows, it took me the best part of 7 or 8 years to discover a world beyond
+kits.
+
+
+Cheers,
+
+
+Steve Lacey
+Sydney
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 20 Aug 2000 17:45:32 -0700
+From: "Bill F" <rwfishbu`at`nospam.home.com>
+Subject: Good lauter tun candidate
+
+
+I want to build a lauter tun from an insulated beverage cooler.  I've looked
+at several igloos, but the outlets seem pretty high from the bottom of the
+cooler (~2").  I could always go this route, but it seems like it'll leave
+quite a bit of wort in the bottom, even with agressive tipping.
+
+
+Can anyone help with either a)candidate brand and model number with an
+outlet-to-bottom distance of <1" or b)a source for good plans for an
+easy-to-build lauter tun?
+
+
+Thanks,
+Bill Fishburn
+Lacey, WA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 11:13:30 +1000
+From: TOLLEY Matthew <matthew.tolley`at`atsic.gov.au>
+Subject: Captain! Newbie delurking off starboard bow!
+
+
+</lurk>
+
+
+Hi all
+
+
+Brace yourselves - it's all beer related, and it's from an Aussie. :).
+Sorry for the long post, but after seeing my first 'real' brew bubbling away
+this morning, I feel the need to blubber uncontrollably and hand out cigars!
+
+
+I've been lurking for a while now, having decided to give this whole
+homebrew thing one last try.  Both of my previous attempts were in my uni
+days, when the height of Aussie homebrew sophistication seemed to be using a
+kilo of raw sugar instead of white sugar in your brew :).  While there were
+probably seasoned brewers doing more exciting stuff (I remember a guy in
+Engineering who was widely denouced as a heretic needing crucifixion for
+mixing two kits together and *gasp* using no sugar at all!), back in those
+days before the Web (Gopher, anybody?) there wasn't really any way for me to
+find out about it.
+
+
+After wandering (pun intended, fellow 'strayians) around my local Big W a
+few months back, I was amazed at how sophisticated brewing had become. Stop
+groaning - newbie here!  Cool - with half a kilo of this beaut dextrose
+stuff, half a kilo of raw sugar and one of these flash-looking kits I'll be
+knocking up beer as good as anything at The Wig and Pen!
+
+
+Fortunately, I happened to pick up a copy of Laurie Strachan's 'Complete
+Guide to Homebrewing in Australia 2nd Ed', and found out that I knew
+absolutely nothing about anything before I did something embarassing :).
+
+
+I found that extract brewing seemed to have jumped light years from 'add two
+litres boiling water, add one kilo white sugar, top up to 22 litres, add
+yeast'.  There were so many techniques I simply hadn't heard of - hot and
+cold breaks, steeping specialty grains, adding your own hops, using unhopped
+extracts, oxygenating your wort, using yeast starters, and so on.  And the
+science - IBUs, o Lovibond, alpha acids, attenuation!  And ye gods - what
+was this all-grain witchcraft?  Surely this went out with Prohibition
+bathtub brewing and stills in your shed?
+
+
+I rushed out to try some of these foreign brews. The extent of my palate
+development was Corona, Coopers and DAB at Oktoberfest!  Shock horror -
+Tooheys Pils isn't, and neither is Fosters Special Bitter!  I actually know
+what hops and malt taste like now :)
+
+
+On to the net, where I found John Palmer's simply amazing howtobrew.com.
+Fellow lurkers, John's guide is your Bible - seek him out, open his virtual
+skull and feast on the goo within :).
+
+
+Off to my local (well, only actually, unless you count those Butts 'n' Brew
+joints) brew shop, BrewYaOwnAtHome.  Culture shock - not a Wander kit in
+sight :).  After ooh-ing and ah-ing over the shiny kegs in the glass-doored
+fridge (and getting a swift kick from SWMBO - 'don't even think about it!'),
+staring goggle-eyed at the various demijohns filled with exotic-looking
+yeast starters, and marvelling at the sheer flow of human traffic cheerfully
+talking about stuff like whizzing up a Newcastle nut brown ale like they do
+it in their sleep, I was intercepted by brewmaster Colin (I'd say the drool
+on my chin gave me away as fresh meat).
+
+
+Colin seemed perfectly happy to answer my endless stream of inane questions
+('do you have hops?') :).  We decided I should 'keep it simple, stupid' and
+start with a modified kit or simple extract recipe til I had my basic
+techniques like sanitation down pat.  After another week of procrastinating,
+I decided to start with the eteemed Mr Palmer's first pale ale recipe in his
+other masterpiece, 'How To Brew Your First Beer Rev. F'.  With a few kilos
+of hopped extract (read, two cans of Coopers IPA) and a shiny new 19-litre
+brewpot, I was away!
+
+
+John's instructions made it a breeze - all was as he foretold.  A thick,
+frothy hot break (well, I assume it was the hot break, anyway!), a quick
+wort cooling, and much aggressive splashing about, my frothy 30-minute
+Nottingham ale starter was pitched at a perfect 20oC.  More shaking about -
+it was starting to look like Guinness in there - and in with the airlock.  A
+short time later, I heard that sweet 'bloop...bloop...bloop' sound from the
+cupboard. :)
+
+
+Enough blubbering - questions!!
+
+
+When I picked up the fermenter to move it to its dark, warm resting place,
+there was a change in pressure, and I think some of the 4ml bleach/litre
+water sanitising solution I'd put in the airlock was sucked in to the brew.
+Should I be worried?  It doesn't seem to have hurt the yeast any - I'm more
+worried about off flavours.
+
+
+I took my OG hydrometer reading from the spigot at the bottom of the
+fermenter after I'd pitched my yeast and agitated the wort.  I thought it
+seemed a little high - 3.4kg/7.5lbs of hopped extract in 23 litres/6 gallons
+of water at 19oC/66.2oF with no other adjuncts read a whopping 1.062!  Seems
+to be within 'normal' ranges for an IPA (1.050 - 1.065, according to
+'Complete Guide to Homebrewing'), but it still has me a little worried.
+Could the reading have been high because I took it from the bottom of the
+fermenter after pitching/aerating insted of before like the instructions
+clearly said? :)
+
+
+What does a 'cold break' look like?  Does a froth form on the surface of the
+cooling brew and then slowly disappear like a hot break?  What do the
+precipitating proteins look like in either break?  Specks?  Strands?  Globs?
+All I saw was a rolling black liquid, then a big-arsed white foam, then more
+rolling black :).
+
+
+I'm not racking to a secondary for my first brew.  Is it possible to safely
+bulk-prime a primary before bottling?  How would I go about it?  Does an FG
+reading have any effect on deciding how much sugar you should use to prime?
+
+
+Is dry yeast susceptible to contamination?  I snipped the packets with
+unsanitised scissors. :(
+
+
+When cooling the wort (ice in a sink with a tap gushing icy cold Canberra
+water all over one side of the pot - worked a treat!), I was stirring it
+quite a bit.  Is it safe to splash a little at this stage (it was pretty
+aggressive stirring), or is it a no-no until it's cooled below 26oC/80oF?
+
+
+I'm not a big beer drinker.  One every now and then is plenty for me - I'm
+in it for the alchemy :).  I'd prefer to have small quantities of a variety
+of beers so I can choose something to suit the food/occasion than a large
+volume of a couple of beers.  Can you brew smaller (say, 11.5 litre/2.5
+gallon) batches just by halving the recipe?
+
+
+Cheers!
+ ...Matt...
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 12:42:41 -0600
+From: Lance Levsen <l.levsen`at`printwest.com>
+Subject: HB Shops / Pub request 
+
+
+"Warren White" <warrenlw63`at`hotmail.com> wrote:
+
+
+>     Sorry this long winded, but bear with me, HERE COMES THE BEST PART!!!
+>     He then asks the afore-mentioned homebrew store owner for some advice on 
+> why his beer doesn't taste too good!
+>     Little ironic isn't it??? - Dirty bastard probably didn't buy any 
+> bleach, would of put his budget over 10 bucks wouldn't it.
+>     On a high note for these type of people though... The GST has put the 
+> price of kits down, particularly Wander Draught! Yummy! Yummy! So he doesn't 
+> have to cut down his fusel alcohol intake now or buy a gulp! Brigalow Kit!
+> 
+
+
+Hear, Hear.
+
+
+I recently found myself explaining this to people.
+
+
+The good local shop (http://www.paddockwood.com/ for those of you looking for
+mail order), no affiliation other then satisfied customer) can _tell_ me how to
+figure a decoction, or what Bisquit is going to taste like . . . or a myriad of
+other details. I am more then willing to pay extra for information. Any "Joe"
+can sell commodities, only experts can sell knowledge.
+
+
+On another note: A trip is about to be undertaken into the BC Rockies Region.
+We will be exploring the Cranbrook -> Nelson -> Revelstoke -> Golden  square
+and would like to get any info w/ regard to Micro's or Brewpubs worth seeing/
+tasting. Any help is appreciated and TIA.
+
+
+Cheers,
+
+
+
+
+- -- 
+Lance Levsen, Programmer
+Product Innovation
+PWGroup - S'toon.
+477-3166
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 14:52:39 -0400
+From: "Spies, Jay" <Spies`at`dhcd.state.md.us>
+Subject: Whirlpool
+
+
+All -
+
+
+Several on the HBD have voiced disagreement with my contention that hot wort
+shouldn't be whirlpooled, some rather vehemently so.  Well, okay then.  My
+definition of whirlpool (when I wrote the post) was a *vigorous* stirring,
+not a gentle circular motion.  The comments disagreeing with me said that
+gentle stirring of the hot wort is okay and is routinely done.  Fine with
+me.  I was simply trying to discourage people from whipping the hot wort
+around like a crazed lunatic trying to get a good vortex going.  
+
+
+If people want to stir the hot wort, or siphon it, or reboil it, or do naked
+pygmy ritual dances around it while in full scuba garb, go for it.  To each
+his own.  For my part, I tend to let the wort cool and settle more because
+I'm lazy than anything else.  I clean and put away all my brewing gear while
+the wort is settling out, and after a half hour, I just open the valve and
+drain off the then crystal clear wort.  That's what works for me.  I'll
+certainly agree that gently stirring the hot wort is fine.  Not what I do,
+but then again, I'm sure many people make far better beer than I do, too.  
+
+
+Save the salt for Papazian.
+
+
+Jay Spies
+Wishful Thinking Basement Brewery
+Baltimore MD
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 13:49:51 -0500
+From: "Paul Niebergall" <pnieb`at`burnsmcd.com>
+Subject: Charlie vs Noonan
+
+
+Brian Lundeen writes:
+
+
+>Bob, you have many questions but I think they can all be 
+>answered with a simple: ignore Papazian. As I said, I've 
+>never read him, so I can't comment on his rationale, but 
+>I've never heard of a homebrewer doing this. 
+
+
+Now there is some sound advice.   With all due respect, 
+if you have not read the Papazian, then you really have 
+no basis to pass judgement of that kind.   Sure Charlie has 
+written some things that are questionable, but 99 percent 
+of the stuff is good sound advice and highly usable.  
+Oh yeah, sure there is the infamous picture of the hot 
+wort straining fiasco.  BFD!  Take a look at the costumes 
+the that the two characters are wearing in the picture.  
+Note the modern decor of the kitchen that they are 
+standing in.  It was 1972 (guessing) for God's sake.  I 
+think we have all learned a lot more about brewing 
+since then.
+
+
+And whoever wrote the following:
+
+
+> Chas. Papazian recommends whirlpooling and 
+>siphoning off hot break trub from the wort while 
+>it is still hot, using a stainless cane rigged with a 
+>copper scrubber as a filter. He then recommends 
+>reboiling the dang wort for a short time to resanitize.
+
+
+I looked through my Papazian collection this last 
+weekend and could not find the part were he 
+recommends re-boiling the wort after whirlpooling.  
+Maybe I am missing it.  Can somebody tell me what 
+book and what page this advice appears.  Even if 
+he does say this somewhere, I doubt it is a 
+"recommendation".  It is a viable option to re-boil 
+the wort if you are that worried about contamination.  
+Considering the extreme effort that a lot of people 
+go to to make home brew that you read about here, 
+t's not that crazy of an idea.
+
+
+Maybe we should all ignore Noonan too. Doesnt he 
+write extensively about decoction mashing?  With 
+the recent thread on the almost non-existent effects 
+of decoction mashing, it seems like Noonan is 
+recommending an awful lot of extra effort for relatively 
+no gain.  Should we automatically throw his work out too?
+
+
+Paul Niebergall
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 13:54:06 -0500
+From: "Paul Niebergall" <pnieb`at`burnsmcd.com>
+Subject: Sound Advice
+
+
+Seog Lee writes concerning Charlie Papazian:
+
+
+>Follow his directions, it will help you make a good beer, 
+>but don't take all the words as truth.
+
+
+Finally some sound advice on the Papazian thread. 
+Wait a minute.  Come to think of it, shouldnt we follow 
+the exact same advice for EVERYTHING that we read about 
+home brew?  Especially what is written in the HBD? 
+Sounds like this puts Charlie in the same boat as anybody 
+else.
+
+
+Paul Niebergall
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 16:52:31 -0400
+From: Bill.X.Wible`at`QuestDiagnostics.com
+Subject: Wyeast 2178 "Lager Blend?"
+
+
+
+
+
+
+Anybody ever used Wyeast 2178 "Lager Blend"?  Looking for any experience
+with this yeast, results, what kind of beer it would be best used in, etc.
+
+
+Thanks.
+
+
+Bill
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 16:28:27 -0400 (EDT)
+From: Some Guy <pbabcock`at`hbd.org>
+Subject: Re: Spreading spent grains and hops on lawn
+
+
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Dana Edgel writes...
+
+
+> I am currently house-shopping and will have a lawn for the first time. I have 
+> been wondering about spreading my spent grains around the lawn as fertilizer. 
+> Has anyone years of experience doing this and any advice?
+
+
+I do this. I've also spread the spent grains in Kim's flowerbeds - looks
+like a nice sawdust mulch.
+
+
+> Are the grains spread wet or allowed to dry a bit?
+
+
+Wet. If you let them "dry", you'd better spread them thin. I made the
+mistake of leaving my brewery to clean overnight. Well, overnight became a
+couple of days and --- Peeeeeeeeeyou! Made the local landfills smell like
+expensive eau de toilet. I noticed the sme in "clumps" of spent grain I
+dumped in the compost heap. They smell horribly when broken open.
+
+
+> Should piles of grain be spread at the base of plants? (like hop bines which 
+> I will be able to grow with a yard!)
+
+
+Eww! Never in piles. See above. If you do, turn them often. Like hourly...
+
+
+> Does the pH of the grains affect the grass?
+
+
+Haven't noticed any detriment. I did note that weeds spring up heartily
+in the bald spots after having been "treated" with spent grains.
+
+
+> How long does it take for the grains to break down? More to the point how 
+> often can I brew and do this? 
+
+
+Disappear to my untrained eyes in a week or two. I brew sometimes twice a
+weekend, but been a pretty consistent once a week lately. Spread the
+grains on the lawn each and every time.
+
+
+> What about spent hops?
+
+
+I feed them to the plants alongside the house, or I throw them out.
+Haven't really looked at them in terms of the lawn or how long they take
+to decompose. Sorry...
+
+
+Tips: If you're grains aren't thoroughly sparged, beware the bumblebee and
+other sweet-loving insects that will descend on your property like the
+biblical plague of locusts. If your grains aren't fully converted in the
+mash, avoid piling the grains up in one spot or flies will descend upon
+your property like the biblical plague of locusts, as will neighbors who
+are offended by the ensuing stench. Break up any clumps in lawn-spread
+spent grains for the same reason. I have used a "whirlybird" hand-held
+broadcast spreader to dispense the grains; however, in my recent laziness,
+I just scoop and fling. Any clumps disintegrate under the force of a
+well-placed kick...
+
+
+- -- 
+ -
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+
+
+"The monster's back, isn't it?" - Kim Babcock after I emerged
+                                  from my yeast lab Saturday
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 16:08:09 -0600
+From: "Whyman Dental Lab, Inc" <whymandl`at`milehigh.net>
+Subject: Salt Lake City Brewpubs
+
+
+I'll be in Salt Lake next month and would like some advice on local
+brewpubs. My wife will be along, so good food and service will also be
+important.
+Private emails are fine.
+Thanks in advance,
+Roger Whyman
+Englewood, CO
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Aug 2000 19:36:59 -0400
+From: "Kevin Kutskill" <beer-geek`at`home.com>
+Subject: Pearl Foam Beer
+
+
+Okay, time to find out who knows their history.  Any one out there have any
+information, pictures, recipe hints, etc. regarding Pearl Foam Beer?  It was
+made in the early 1900's by Mount Clemens Brewing Company, in Mount Clemens,
+Michigan.  Our homebrew club is has been asked to do a demonstration brew
+and provide as much information as possible on this beer for the Bath City
+Festival this weekend in Mount Clemens.  Any information will be helpful.
+
+
+TIA,
+
+
+Kevin A. Kutskill
+President
+CRAFT (Clinton River Association of Fermenting Trendsetters)
+beer-geek`at`home.com
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3410, 08/23/00
+*************************************
+-------

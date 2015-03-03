@@ -1,0 +1,1231 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Wed Apr 27 03:35:48 1994
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA16106
+  (5.65b/IDA-1.4.3 for spencer`at`hendrix.itn.med.umich.edu); Wed, 27 Apr 94 03:33:49 -0400
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.37.109.4/15.5+IOS 3.20) id AA17164; Wed, 27 Apr 94 01:29:29 -0600
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA21934; Wed, 27 Apr 1994 01:00:46 -0600
+Message-Id: <9404270700.AA21934`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1409 (April 27, 1994)
+Date: Wed, 27 Apr 1994 01:00:46 -0600
+
+
+
+
+
+
+HOMEBREW Digest #1409                             Wed 27 April 1994
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Hunter Airstat Modification (Lee=A.=Menegoni)
+  Off to Seattle Area (25-Apr-1994 1047 -0400)
+  Holy Cow Brewpub in Vegas (Kelly Jones)
+  Transplanting hops (Eric Wade)
+  Malt Extracts (Truth in Labelling) (npyle)
+  Areation of wort (Jonathan Peakall)
+  Beer in Brussels and DC ("Stephen M. Jasinski")
+  1056 Data Point ("Glen A. Wagnecz, X6616")
+  Raleigh North C. (flehouillier)
+  re: strength of enamel pots ("Brian Thorn")
+  Re: More on cask ales (Jim Busch)
+  Subject: r.e. Subject: Bottling foamy lagers (don)
+  Apologies: Brewpubs in DC (Vanek)
+  air stones, aeration, hot air? (Jay Weissler)
+  slow fermentation (student)
+  Enamel & Cooker/ Love on a mainframe (COYOTE)
+  Under-Aeration for Scotch Ales? (Jon Higby)
+  Nashville Brewpubs (Robert Jordan)
+  Wow.... (keith.prader)
+  Viable Yeast from Bottles? (VIALEGGIO)
+  Carboy size: 5 gallon, or 6.7? (Christopher Jackson)
+  PRESSURE & HOME BREWING SYSTEMS (RB)" <Geiser`at`po1.rb.unisys.com>
+  ORACLE SPEAK (Jack Schmidling)
+  Pressure barrels/cask cond. (David Draper)
+  Re: IM and the EasySparger (Jim Busch)
+  Wort Chillers when water sh ("Rich Scotty")
+  Blowoff??? (Terry Mcguire)
+  Re:  Wort Chillers when water shortages are a problem ("Glen A. Wagnecz, X6616")
+
+
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+FAQs, archives and other files are available via anonymous ftp from 
+  sierra.stanford.edu. (Those without ftp access may retrieve files via 
+  mail from listserv`at`sierra.stanford.edu.  Send HELP as the body of a 
+  message to that address to receive listserver instructions.) 
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 25 Apr 94 10:47:27 EDT
+From: Lee=A.=Menegoni`at`nectech.com
+Subject: Hunter Airstat Modification 
+
+
+Here is the text of a previous post.  
+Coyote:  I couldn'tget mail to you.
+
+
+WARNING: Use of ACME electrical products in this modification could produce 
+unreliable results.
+ ------------------------------
+
+
+Date: 4 Jun 93 19:25:58 GMT
+From: mkenny`at`bcm1g01.attmail.com
+Subject: RE: Hunter Airstat Modification
+
+
+In HBD1156 Bruce Ray asks how to modify a Hunter Airstat to maintain 
+temperatures below 40F.
+
+
+I originally posted this last November and have been using it with
+the mod very happily ever since.  I use the airstat to control a 
+13cf chest freezer. I put the airstat in a manual "HOLD" mode and
+simply set the temperature up or down as desired. The airstat is
+designed to control a compressor driven refrigeration device (a
+room air conditioner) so it is right at home with a refrigerator or
+freezer. It turns the attached unit on when it senses a temperature
+2 degrees above the setting and off 1 degree below the setting. It
+has a built-in timer with a 4 minute delay to keep the attached unit
+from cycling too rapidly. At 45F my freezer runs less than 2 hours
+total in a 24 hour period and about 3 hours at 35F.
+
+
+You cannot change the Air Stat range but you can offset the sensor 
+calibration.  In other words, performing the following modification
+will allow you to set the Airstat at 40F yet the fridge/freezer temp
+will be maintained at 35F.
+
+
+The sensor is a thermister that provides 10K ohms of resistance at 
+25 degrees C. According to the thermister data sheet, at 32 degrees F
+: [m[K the resistance is 27.28K and 22.05K at 41 degrees F. The resistance
+decreases as the temperature rises so if you make the air stat think
+the sensor is 22k when its really 25k the air stat will say 41 but
+the sensor temp will be around 35 degrees F. This is done by simply
+putting more resistance in parallel with the sensor. Using ohms law,
+
+
+        Rt = 22K, Rth = 25K (Thermister), and Rp (parallel resistor) =
+
+
+                Rth (25K) * Rt (22K)
+                --------------------  =  183K Ohms
+                Rth (25K) - Rt (22K)
+ 
+With this resistor in place the the range of the air stat is effectively
+shifted about 5 degrees lower.  Just keep in mind that the temperature
+reading on the air stat will not match the fridge temp.
+
+
+The thermisters change in resistance is not linear. It will change about
+20k ohms going from -13F to -4F and only 2k ohms going from 68F to 77F. 
+Therefore the desired range of use should be considered before determining
+the magnitude of offset. Although, in the 12 degree swing between 33F and 
+45F this should not pose a problem.  
+
+
+                              /------------------------------------------\
+: [m[K         |----------|          | Airstat           
+  |-----------------|  |
+        \          |          |                     |   12 : 00   40  |  |
+        / Sensor   |----------|--(a)     |---|      |-----------------|  |
+        \                     |                                          |
+        /          |----------|--(b)                                     |
+        \          |          |----\                |-----------------|  |
+        |----------|          |    |                |  H  |   M  | D  |  |
+                              |----/   /-----\      |-----|------|----|  |
+                 Submini spst |       / |   | \     | PROG| HOLD | U  |  |
+                  Switch  >>> |  *    | |   | |     |-----|------|----|  |
+                    (c)       |  |    \   O   /     |  /\ |  \/  | R  |  |
+                              |        \-----/      |-----------------|  |
+                              \------------------------------------------/
+
+
+                           180K
+                (a) ------/\/\/\/------o \o----|
+                                        (c)    |
+                (b) ---------------------------
+
+
+I installed a 180K ohm resister in series with a sub-mini spst toggle
+switch mounted on the front panel just left of the AC outlet and below the
+pocket that holds the sensor. It is fairly easy to do since the sensor 
+leads are readily accessible. This switch lets me use the airstat normally
+above 40 degrees when off and down to 34-35 when on. The airstat seems to
+sample the sensor about every 5-10 seconds and will indicate the change
+in this timeframe.
+
+
+Cheers,
+Mike Kenny
+
+
+
+
+
+
+- ------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 10:48:10 EDT
+From: 25-Apr-1994 1047 -0400 <ferguson`at`zendia.enet.dec.com>
+Subject: Off to Seattle Area
+
+
+I'm off to the Seattle area later this week.
+Pls let me know what places have good chow and good brew.
+
+
+jc ferguson
+ferguson`at`zendia.dec.com
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 09:33:04 -0600
+From: Kelly Jones <k-jones`at`ee.utah.edu>
+Subject: Holy Cow Brewpub in Vegas
+
+
+
+
+In HBD #1407, Don Staib writes about the Holy Cow Brewpub in Las
+Vegas.  But, he left out the most important part.  If you gamble
+there, THEY GIVE YOU BEER FOR FREE!  I am not making this up!  Their
+beer is quite good, too, their English Ale won a medal (Gold, I think)
+at the last GABF.
+
+
+Kelly
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 08:52:01 -0700 (PDT)
+From: Eric Wade <ericwade`at`CLASS.ORG>
+Subject: Transplanting hops
+
+
+Last year I planted two hills of Cascade hops and both did beautifully the
+first year.  However, some other plants in my garden have taken off early
+this year and are shading one hill significantly.  Although the shaded
+hill has sprouted, the sprouts aren't going anywhere.  I was wondering if
+I might have any luck moving this sprouting crop to a sunnier location. 
+Advice would be appreciated.  Cutting the offending shading plants is not 
+an option.
+
+
+Eric
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 9:55:15 MDT
+From: npyle`at`n33.ecae.stortek.com
+Subject: Malt Extracts (Truth in Labelling)
+
+
+Every few weeks or so, the question arises:  what is actually *in* the malt
+extracts sold to homebrewers?  Would it be too much for extract makers to
+give us some information?  Are they hiding something?  Just saying "Pale" or
+"Amber" or "Dark" extract tells us almost nothing.  We shouldn't have to rely
+on laboratory tests to find out how the extracts are made.  I would be
+overjoyed to see something like this provided with malt extracts:
+
+
+Base malt:
+Specialty grains:
+Mash temperature:
+Mash time:
+
+
+Is this too much?  They could provide extract numbers, color numbers, and a
+whole slew of other information too, if they wanted.  Anybody want to bend
+the ears of the guys at Briess or Munton&Fison, et. al.???
+
+
+Norm
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 08:59:36 -0700
+From: belew`at`netcom.com (Jonathan Peakall)
+Subject: Areation of wort
+
+
+
+
+I have been folwing the aretion thread, and thought of another possible way
+to areate. What if I took a corny keg, filled it with water, and pressurized
+it for a day or so with O2 from my welding tank? Would the boil remove all
+the O2. I actually add most of my water during sparging, so I could get away
+with it anyway. It seems this method would have two advantages: The O2 would
+be sterile, and the amount of O2 could be controlled. What do you folks think?
+
+
+Jonathan (Lo-Tech Brewing, Inc.)
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 12:42:29 -0400 (EDT)
+From: "Stephen M. Jasinski" <jasinski`at`whq.usbm.gov>
+Subject: Beer in Brussels and DC
+
+
+I will be in Brussels for a conference and related business from May 8-13 
+and I'm looking for info on the best beer bars/restaurants.  Also good 
+places to purchase beer to bring back.
+
+
+More on DC brewpubs.  A new place just opened in Gaithersburg, MD, just 
+up I-270.  I think its called the Olde Towne Tavern??  Right now they are 
+only serving contract brews from local micros, but will start pouring 
+their own in June.  The Capitol City Brewpub is at the corner of 
+11th & H St, NW across from the convention Center.  They usually have 4 of 
+their own plus local micros on tap. 
+
+
+Steve Jasinski (jasinski`at`whq.usbm.gov) 
+
+
+------------------------------
+
+
+Date:     Mon, 25 Apr 94 13:34:13 EDT
+From: "Glen A. Wagnecz, X6616" <wagnecz`at`PICA.ARMY.MIL>
+Subject:  1056 Data Point
+
+
+Just brewed an ale this weekend with 1056 American.  I recount several
+people stating that they had problems (started slowly).  I made my
+typical starter (1# laaglander DME in 1 gallon H2O) and pitched the
+1056 after the packet puffed (which was about 12 hrs. to 1 inch thick).
+This was friday at 15:00.  I pitched to a wort of 11 gallons at 16:00
+sunday and by this morning (monday) had 2 fermenters under full steam
+(ploock..ploock..ploock!).  Less than a fourteen hour lag.  Cellar
+was about 70 F. this morning. (OG of the wort was about 1.065).
+
+
+                        Glen
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 13:33:00 EDT
+From: flehouillier`at`VNET.IBM.COM
+Subject: Raleigh North C.
+
+
+Now that it's been establish that Raleigh is not spelled Railey >GRIN<
+and that the only real brew pub is the Greenshields, can you please let me know
+ which Holiday Inn is the closest and/or the best (there are 2 downtown)
+Holiday Inn North on Capital and the Holiday Inn State Capital on Hillsborough.
+While we are on the subject which other establishments should be worth visiting
+for Blues/Jazz mixed with fine brews, incidently what are some of the "local"
+commercial brews that one should experience?.
+Again thanks for your help!
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 10:52:58 CST  
+From: "Brian Thorn" <bthorn`at`nmsu.edu>
+Subject: re: strength of enamel pots
+
+
+Regarding the recent thread on enamel or "ceramic on steel" brew pots:
+     There is good cause for concern about the strength of the handles on
+these units.  My mother was once taken to the emergency room with 2nd and
+3rd degree burns after a handle broke off of an enamel canning pot full of
+scalding Elderberry jelly concoction ready for bottling.  This was a tragedy
+akin to losing a batch of your best Pilsner-to-be, both because Ma was
+injured and because Elderberry jelly is like nectar of the gods to me.  Why
+am I only now thinking of the obvious zymological possibilities here?...
+
+
+    I use an enamel pot in brewing but I either avoid lifting it when full
+ or hold onto the wide lip at the rim.  Others have noted that they avoid
+ lifting theirs by siphoning and stringing a hose from the tap for filling.
+The caution is warranted.
+
+
+   On a related issue, after years of experience (none of it metallurgical),
+I believe there is no reason to suspect that an enamel pot cannot withstand
+the heat of a SuperMegaCajunKingCookerFlameThrower--as long as it's got some
+kind of fluid inside (wort or water probably better than gas or kerosene).
+Melting an empty one might be an interesting thing to watch, however.
+
+
+Brian Thorn
+bthorn`at`nmsu.edu
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 13:59:52 -0400 (EDT)
+From: Jim Busch <busch`at`daacdev1.stx.com>
+Subject: Re: More on cask ales
+
+
+Glen writes:
+> Subject: Cask Conditioned Ale Article
+> 
+> Hard to believe no one has mentioned the article in Brewing Techniques
+> a couple of issues ago. I  *think* (forgive any mistakes, I'm at work away
+> from my brewing piles) Fal Allen, of Pikes Place Brewery wrote the piece.
+
+
+I liked this too.  It was the practical side of tradition.  I was a bit
+suprised to read that they didnt like cask hopping at "higher levels".
+They said they settled on 1/6th of an oz per keg, if I remember right, 
+claiming a tinny effect.  I have used up to 40 oz in a 5 gal keg with 
+no tinny effects, this is with East KEnt Goldings.
+
+
+Jim
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 13:09:59 CDT
+From: don`at`tellabs.com
+Subject: Subject: r.e. Subject: Bottling foamy lagers
+
+
+
+
+>>> From: bszymcz%ulysses`at`relay.nswc.navy.mil (Bill Szymczak)
+>>> Subject: Bottling foamy lagers
+>
+>I just bottled a Weissbeer last week, that had been in a secondary  
+>for about a week -- and had the exact same problem, though not to  
+>that extent.    In fact I was also using a bottling bucket w/spigot,  
+>a short length of tubing, and a phils philler.
+>
+>I am still not sure how the foam was being produced -- although I am
+>starting to think the phils philler may be responsible.  It is nice  
+>to use and leaves little headspace, but it may be aerating the beer.
+>I haven't had that much experience with the old spring-loaded fillers  
+>to say for sure.
+I know this is a bit dated... sorry. 
+I use this exact same setup and have come to the realization that
+its the valve in the bottling bucket. Mine always traps a bubble
+around the intake to the valve which causes foaming before getting
+to the phils philler. Next time you bottle, check the 3/8 tube and
+see if you don't notice bubbles flowing down to the 
+filler. As you fill you can hear the turbulance created at the 
+bottom of the bottle as the beer flows in. I would bet the plunger 
+type bottler would be worse than the phils because of the small 
+outlet at the bottom. One thing I've found that helps is to raise 
+the bottle to just below the top of the liquid level in the bucket. 
+This lowers the head pressure in the line and decreses the flow 
+somewhat but allows the bottle to fill easier. 
+As always -- your mileage...
+
+
+don
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 13:49:05 
+From: uu1072!Vanek`at`uu5.psi.com
+Subject: Apologies: Brewpubs in DC
+
+
+
+
+To those who read my report on Bardo in Arlington, VA, my sincere
+apologies--my information was not up to date.  I went to Bardo on
+Saturday night and they DO have a brewery set up on premises.  Good
+beer too!  Ran into a bunch of homebrewers who have made it a bit of
+an amateur (impromptu) brewer's club. . .  Again, sorry about the
+misinfo. . .
+
+
+Tom Vanek
+Vanek`at`aepco.com
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 14:13:45 -0500
+From: jay_weissler`at`il.us.swissbank.com (Jay Weissler)
+Subject: air stones, aeration, hot air?
+
+
+Cold water from the tap is usually highly aerated. If you pour a  
+partial boil into a primary 1/3 to 1/2 filled with cold tap water you  
+should have sufficient aeration.
+
+
+I do a full boil & chill so I siphon against the side (mostly inside,  
+sometimes not) of my primary and let the wort run down the inside  
+while trying to keep the splashing to a minimum. This seems to work  
+for me. Fermentation starts fast (I do starter cultures) and my beers  
+can last up to a year. I believe that the wort is sufficiently  
+aerated this way and that oxidation is minimized. I don't bother to
+shake the primary other than carrying it down a flight of stairs to  
+the basement. Man was made to lift beer by the glass not the carboy.
+
+
+I do not understand why anyone would want to pump air into their  
+beer. I put an airlock on my fermenters to keep air out. Pumping air  
+in makes little sense to me and those I know who tried it, saw no  
+differences.  If memory serves, yeast becomes anerobic soon after  
+start up so continued addition of air may actually hurt. If you want  
+to do this, however, I refer you to Moe's Marine Aquarium Reference  
+for easy to construct filters. These will help eliminate dust,  
+cigarette smoke, your roommate's noxious....(well, you get the point)  
+that would otherwise be pumped into your beer.  Finally, keep the  
+pump above the level of the diffuser. Otherwise, you run the risk of  
+creating a siphon in the case of a power failure.
+
+
+By the way Moe includes a good section on water from a non-brewing  
+perspective. Also, easy DIY charcoal filters for tap water and other  
+DIY ideas that may help.  One caveat, most marine fish keepers like  
+to raise their PH, not lower it.  Use these ideas to address specific   
+problems or for the fun of experimentation.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 13:42:07 -0700 (PDT)
+From: student <vlib3521`at`sfsuvax1.sfsu.edu>
+Subject: slow fermentation
+
+
+Two weeks ago I put a "Williams" stout into the primary fermenter.  
+Nothing happened for a couple of days as far as fermentation, so I 
+aerated it.  The next morning it was bubbling away slowly.  For the next 
+few days the fermentation appeared to progress, but never very 
+vigorously.  I was ready to bottle yesterday and had sterilized my 
+bottles and was all set up before I took a gravity reading.  It was about 
+1.030 and the recipe said it should be down to at least 1.022.  I aerated 
+it again and resealed the primary fermenter.  My question is this.  If I 
+can't get the yeast to kick in and finish fermentation, should I rack it 
+and repitch the yeast?  I am at a total loss as to what went wrong.  I 
+have never had any problem with slow fermentation before.  I live in a 
+very mild climate and the temperature has been about 60 to 65 degrees 
+throughout.  I used the liquid yeast that came with the kit and the 
+packet swelled right away and I used it within a couple of days after it 
+had swelled.  Anyway I am trying to salvage this batch if I can.  Thanks 
+in advance for any advice.
+
+
+Beryl Moody
+San Bruno, CA
+vlib3521`at`sfsuvax1.sfsu.edu
+
+
+P.S.  I managed to redirect my efforts after getting all the bottles in 
+shape for bottling.  I bottled up my first barleywine, following the 
+advice of several people on the list to bottle it after about a month in 
+the secondary carboy.  My husband tried a sip and said it had quite a bit 
+of punch!
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 15:36:15 -0600 (MDT)
+From: COYOTE <SLK6P`at`cc.usu.edu>
+Subject: Enamel & Cooker/ Love on a mainframe
+
+
+> Bob Bessette (future all-grainer...)  
+RE:  Subject: Enamel-on-Steel w/King Cooker?
+
+
+ >I just brought my new enamel-on-steel kettle home ...snip...only option. 
+Buy a King Cooker... can I use a King Cooker with an enamel-on-steel kettle 
+
+
+*        FWIW:  The Coyote Cooker (aka Camp Cooker by Camp Chef)
+which has a rating of 60,000 btu ( I think it's 30,000 per burner, 2 burners)
+has been used with each of the following with no problems:
+        1. Enamel on steel 4 gallon canning pot. Even lifted FULL!
+        2. Aluminum canning pot (5g).  Yes- alum., even THIN aluminum! 
+        3. 15 gallon heavy cast, restaurant grade ....ALUMINUM pot.
+
+
+ALL have worked fine. I DO NOT get metallic tastes from using aluminum.
+I have lost more braincells from drinking homebrew and smoking hops
+than I think I remember to might have perhaps lost from use of aluminum.
+
+
+I will be adding a Stainless converted keg to the Smithfield brewlocation.
+But I WILL still use my aluminum.  It works just fine. I don't clean it
+too much. Just leave a crusty layer of wort. ALL I use it for is brewing.
+Oxidize aluminum is pretty unreactive, whereas un-oxidized is highly
+reactive.  So I figure leave a good coating, then it's fine.  It can stand up
+to acid just fine.  I don't get alkaline in contact with it.  That wood be bad.
+Aluminum is a better conductor than stainless, just harder to clean. 
+So I don't!  Just scrape off the pellets and leave the hardened wort.
+
+
+Since someone once worried about:  
+"not cleaning off the inside oxidised layer.  If you were making stew, I 
+would say go ahead, because that "seasoned layer" as its called prevents 
+food from sticking. However, I would wonder what old food flavors might 
+leach out of it when boiling wort in it. Maybe if you do a couple of dark beers
+first, it would  cover it up. "   Ok, so it ain't no Dutch Oven.
+
+
+But the point here is:  Enamel on steel should be fine.  BUT, have a grain
+of salt (or barley). My burners aren't as hot as a King Kooker's.  But they 
+do fit a Dutch Oven, and brewpot just fine!  You might consider a 
+pizza stone to rest on the electric burner, or flatten some pipe to position
+on either side and rest the pot on that, to save the burner from strain.
+
+
+As for use of a Propane Cooker indoors: The responses I got dealt mostly
+with the hazard of storing/using PROPANE indoors. Leaks can become a
+SERIOUS fire/explosion hazard.  I have mine RIGHT next to a window with 
+a window fan pulling air & exhaust out. The room is FAR from airtight.
+The propane tank intself sits outside to avoid potential propane buildup.
+(you WILL know. Imagine really nasty fart gas from cheap mexican food!)
+A window across the basement draws in fresh air. Most responses were more
+concerned with air depletion than CO accumulation. I haven't smelled any! :)
+I will be using it a relatively closed garage (big, fan exhaust again).
+Many people use them in garages w/o hazard that I'm aware of. Let me know
+if I'm wrong...please I can take it (as long as I'm still alive!)
+Good thing Coyote's have 9 lives, and extras can be ordered from ACME cat#69L.
+
+
+***
+Kinney  sed to Jack,  "Do you realize how much time we've wasted? 
+
+
+:-*  <Smack>  :-*                           I love you, too, Jack."
+
+
+*        Now Kinney, Don't you think this could be saved for e-mail.
+Talk about getting a little personal in public. 
+Come-on,  get a room fellas!     But NOT in Colorado!      :) <kidding!!>
+
+
+But really:  I do hope this, uh,  er...debate can now be considered resolved.
+                 (ok, so I know better.   Jack?  Your serve.)
+
+
+PS:  Kinney are you really 6'8".  Wow- you can make BIG beer with extracts!
+
+
+FWIW:  I thought I'd take this opportunity to chime in with some old news
+I never did get to posting.  A couple years back js and I arranged a mail 
+swap of some goods.  He posted a very nice and flattering description of his 
+impression of a Cyser I had sent him.  It was so, tasty and effective, that his 
+SO dragged him off to the bedroom before the bottle was finished.  IMHO 
+that is a GOOD sign for any Mead- type beverage.  I couldn't have had a 
+higher compliment, well except for my dad finishing off a bottle of it 
+himself. He is a mid->good quality wine-drinker.
+
+
+Anyway... point being....Jack had sent me a bottle of a Pale Ale. I was too 
+impatient to wait for it to settle, so I had a cloudy glass.  It was quite
+tasty, smooth, a bit  underhopped for my preference, but- hey...I'm a hophead 
+in a big way.  It had a good head and was overall a very clean tasty ferment.
+
+
+He had also sent a tiny sample of some brandy made from wine.  
+The joke, which I missed at the time (over my head!)  was that the beer 
+was a non-alcoholic brew, and if you wanted a kick, you were to add the 
+brandy to the beer. I was a little embarassed, but I extend it as a 
+compliment, that for the life of me, I couldn't tell!  Ok, so I was under the 
+influence of a couple of MY brews already, but I could not detect any 
+evidence of wrongdoing.  SO...  why bring this up?   Cuz I felt like it.   
+ 
+Besides, sometime back there was a discussion of making NA homebrew.  
+Just so you all know, the method of heating fermented brew to drive
+off the alcohol seems to work without detriment.  
+I'm not gonna do it!  A good hb buzz makes for better howling! Owwoooo!
+                                           
+BUT...Jack,just so you don't think I'M kissing up to you...and the rest of ya'
+I have NOT bought a Schmidling mill.  I have an 'ol flour making wheat
+grinder type aquired from an ex-girlfriend.  Motorized, stone grinding 
+wheels.  It does as good (better) as a Corona stone grinder would. I've seen 
+a Maltmill in action (Art's brew supply in SLC) and it seems fine.  I'd be
+glad to perform a comparison grind if arf would be willing to give another
+mill away as a thanks for the 10,000 he has now sold. (to ME I mean!)
+And I truly would post a QUICK response as to the results! No REALLY!
+Quicker than you can say-  "grind me baby, grind it good! Grind is fine!"
+
+
+Finally:  I did want to point out that in a video made by the above 
+mentioned Schmidling productions (tm,inc,esqu,mfr,etc.!) Jack himself
+can clearly be seen SUCKING on the end of a siphon hose, and then
+racking finished beer with a DISTINCT splashing and spraying of wort.
+Later in the Video, a homebrew suppliers is quoted as saying, "90%, no
+99% of the time the biggest problem for a newbrewer is due to oxidation. "
+
+
+Just so it doesn't sound all bad: Jack had some very nifty time-lapse
+imagery of yeast budding, and grain germination. Ok, so there was the
+cheesy computer graphics (read: mouse). I guess it's an old production.  
+
+
+SO, now I've completed MY end of the bargain and posted a statement
+of my impression of arf's NA beer.  It was an all-grain if I remember.
+                        So THERE!  Nya!  
+***
+RE: Hops.  Red Spider Woes!!!!     Seems to be my biggest pest!
+Help!  I hate the bastards!  They CAN be devasting! Some of my new
+cutting are under attack!  Go away little beasties, be gone! HELP!!!!
+
+
+Lastly: That "too hoppy" brew from Red Rock (in SLC) I would guess
+is the Amber. It is dry hopped, and has what I consider a nice dry 
+cascade hopped flavor.  It's not over-bitter, which is what I'd consider
+"too hoppy".  Have you ever tried dry hopping a homebrew? It's a truly
+different beast of a hop quality. 
+Ok, so a hop-back'll do it too!  Right  Kinney!    :)
+
+
+Really lastly this time: Another brew pub in SLC: UINTA (sp?) 1700 S. 300 W.
+Haven't never been there yet. Please report if anyone tries it!
+    o
+    |\
+  |\| \/|   \-\-\-  John (The Coyote) Wyllie   SLK6P`at`cc.usu.edu  -/-/-/
+   \     \     Originally in Logan, soon to be Smithfield (utah.   shhhhhh)
+      ----
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 16:17:49 CDT
+From: unisql!jonh`at`cs.utexas.edu (Jon Higby)
+Subject: Under-Aeration for Scotch Ales?
+
+
+In the brewing series "Scotch Ale" book, Noonan talks about under-aerating
+the wort. You are supposed to pitch huge quantities of yeast, but not aerate
+very much. The theory goes that you don't want a bunch of yeast reproduction,
+just for them to start eating. I think (and that's dangerous) this is supposed
+to reduce some of the flavors normally associated with Ales. Also, you're
+supposed to ferment at lower temps (like ~50F).
+
+
+By the way, huge quantities means a gallon starter for a S.G. 1.090
+Wee Heavy.
+
+
+The variations for each beer style is amazing. This sure is a great hobby!
+
+
+Jon /
+   / Austin
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 16:08:46 -0500 (CDT)
+From: Robert Jordan <JORDAN`at`ANLBEM.BIM.ANL.GOV>
+Subject: Nashville Brewpubs
+
+
+I'm going to Nashville for a meeting soon.  Does anyone have any suggestions
+for good brewpubs/bars to try?
+
+
+Thanks,
+Rob                RJordan`at`anl.gov
+
+
+
+
+
+
+------------------------------
+
+
+Date: 25 Apr 94 13:11:19 -0800
+From: keith.prader`at`wtgw.worldtalk.com
+Subject: Wow....
+
+
+
+
+Hello All,
+I'm a new subscriber to the group (I've received and read all of 3 distribs) 
+and was amazed at the brewers wars (extract vs. all-(mi)grain) that I've 
+seen.  I'm been a novice brewer for the past 2 or so years and (please 
+don't thrash me for it, but...) an extract brewer also.  I've had some 
+pretty good luck so far with brewing some very tasty and pretty potent 
+beers.  I even had one batch win First Place in 92 at the HWBTA in Dallas
+for the Speciatly Pale Ale catagory (English Bitter Recipe).  I've only
+had 2 batches come out bad after I got somewhat lazy during sterilization.
+I dumped those to the learning bucket and have taken more care in what I 
+do now.  I signed up to this distribution to get some helpful brewing 
+tips, do's and dont's, and your favorite recipes (extract and all-grain),
+ _NOT_ to read why someone is a non person unless they hate Zima and 
+only brew all-grain recipes.  Those of you who have made the
+step/jump/leap/dive from extract to all-grain, how long were you using
+the extract recipes?  How much was your investment for the new tools of 
+the trade needed for all-grain brewing?  I'm sure at some point in my 
+hobby I will want to make the change to all-grain, but until then 
+I'll keep on with the ole reliable extracts that have brought myself 
+and freinds many hours of frosty mug tipping hapiness.  Cheers.
+
+
+Please e-mail any of your favorite recipes and tips on brewing.  
+
+
+internet:  keith.prader`at`worldtalk.com
+x.400:  /c=us/a=telemail/p=worldtalk/s=prader/g=keith/
+
+
+ 
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  Keith Prader         | "Get me a brick out of my back yard.  Give you the 
+  keith`at`worldtalk.com  | devil if you act kind of hard.  Ain't no need of
+                       | bringin' no jive to me, 'cause your Southern Can is 
+                       | mine..."  -- Blind Willie McTell
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 11:37:38 -0400 (EDT)
+From: VIALEGGIO`at`ccmail.sunysb.edu
+Subject: Viable Yeast from Bottles?
+
+
+
+
+               State University of New York at Stony Brook
+                       Stony Brook, NY 11794-5475
+
+
+                                            Victor Ialeggio
+                                            Music
+                                            516 632-7239
+                                            25-Apr-1994 11:24am EDT
+FROM:  VIALEGGIO
+TO:    Remote Addressee                     ( _homebrew`at`hpfcmi.fc.hp.com )
+
+
+Subject: Viable Yeast from Bottles?
+
+
+Would it be possible to put together a list of
+commercially brewed beers from which people have 
+successfully cultured (and brewed with) yeast dregs?
+This would be highly entertaining, I think. It would
+probably be best if reports were based on strictly 
+personal experience (not "My friend's mother's haiku 
+instructor...")
+Pardon, please, if this exists as a FAQ--I can't access
+those items with my account.
+Anyway, e-mail replies welcome; I'll post results here.
+Thanks, Victor       vialeggio`at`ccmail.sunysb.edu
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 1994 18:18:09 -0500
+From: cbjackso`at`nickel.ucs.indiana.edu (Christopher Jackson)
+Subject: Carboy size: 5 gallon, or 6.7?
+
+
+I'm curious whether there's any sort of consensus on the best container for
+primary fermentation of a 5 gallon batch.  I'm about to purchase a second
+carboy, and don't know if I should get another 5 gal. model, and continue
+to use a blowoff tube, or whether a larger one--with its greater safety of
+having a fermentation lock on right from the start--is the way to go.
+
+
+Is getting rid of the nasty kraeusen worth the risk of contamination?
+Do the blowoff tubes often get clogged and pop off?  And just how
+nasty is that gunky foam?
+
+
+Thanks for any suggestions
+- --Chris Jackson
+
+
+cbjackso`at`nickel.ucs.indiana.edu
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 13:25:00 PDT
+From: "Geiser, Chris (RB)" <Geiser`at`po1.rb.unisys.com>
+Subject: PRESSURE & HOME BREWING SYSTEMS
+
+
+
+
+I need some help with two questions:
+1. How much pressure (PSI) is generated by a 5 gallon batch in a 6 gallon 
+fermenting vessel  ? (assuming it's not vented).
+2. I've seen a few references to home brewing systems (i.e., a complete 
+stainless steel set-up similar to a commercial system scaled down to garage 
+size) and was wondering if anyone knows how much they cost and where they're 
+available ?
+TIA,
+Chris Geiser
+geiser`at`rb.unisys.com
+619-451-4851
+BTW I really enjoyed Jim Busch's 4 part "article" on Cask Ales. 
+
+
+------------------------------
+
+
+Date: Tue, 26 Apr 94 06:42 CDT
+From: arf`at`mcs.com (Jack Schmidling)
+Subject: ORACLE SPEAK
+
+
+ 
+ >From: ar568`at`freenet.carleton.ca (Aaron Shaw)
+ 
+ >    I just read an article about food ingredients that can cause
+ harm. I was totally shocked to find Irish Moss listed. Included
+ among the reported effects are ulcers, colon cancer, and colotis.
+  
+ Thanks for saving me the trouble of trying to make my process fit the nuances 
+ of Irish Moss.  I think I will stick to filtering if I want super clear beer.
+ 
+ >From: Kinney Baughman <BAUGHMANKR`at`conrad.appstate.edu>
+ >Subject: On bended knee, my apologies...
+ 
+ I did agree to get off his back if he apologizes but this sort of apology 
+ demands at least one more attempt to straighten out the record.
+ 
+ >Oh, Jack.  You mean this hasn't been about water after all?  All this
+ because I've been rude, acted the cad and hurt your feelings?
+ 
+ Not quite but I would probably not have called you on the statement that you 
+ still have not addressed if there was not the garbage in the background.  I 
+ am really too busy these days to keep everyone honest.
+ 
+ >Jack.  Pleeeeease forgive me. 
+ 
+ I do, with pleasure....  but why didn't you just let it go at that instead of 
+ fabricating a story that makes your sincerity suspect.
+ 
+ > Almost three years ago, in private email, I rashly said I didn't believe 
+ you had sold 100 maltmills.  (I don't remember the liar and the fraud part, 
+ "fraud" not being part of my lexicon but, hey!, if you said I said it, I must 
+ have said it.  
+ 
+ You also called me an antiSemite so the fraud is pretty tame by comparison.
+ 
+ >What I do remember is that when you were thinking about joining the
+ business end of the homebrewing hobby, you had asked me as a veteran
+ homebrewing business-person about the vagaries of this peculiar business.
+ Not wanting to dash the hopes of this anxious young wannabe, I remember
+ saying it's been a long haul but that things were beginning to change.
+ (Indeed, my and many other longstanding homebrewing businesses have more
+  than tripled sales in the last two years.)  At that time you told me you
+ thought the malt mills were going to cost well over a $100.  I recall
+ saying you would have a difficult time selling a piece of equipment for
+ more than a $100 in the homebrewing market.  Clearly you took the advice of
+ this 10 year homebrewing business veteran, got the price down under a $100
+ and have a thriving business to show for it.
+ 
+ Nice self serving puff-piece but wrong on the key points.  I would give my 3 
+ year old grandaughter credit for recognizing the importance of $99 price tags 
+ but if you want to take credit, be my guest.  However, the discussion took 
+ place AFTER I had sold 100 of them and during the consequent MALTMILL lottery 
+ on the HBD.  You called me a liar because you were unable to sell $100 
+ Brueheat boilers in any comparable time/quantity and simply refused to 
+ believe that homebrewers had that kind of money based on your experience.
+ 
+ >And I congratulate you on your success.  Really.  Your maltmill has been a
+ valuable contribution to the homebrewing community as I'm sure hundreds of
+ your customers can attest....
+ 
+ Thank you.  Had you said that two years ago instead of what you said, we 
+ wouldn't be having this discussion.
+ 
+ :-*  <Smack>  :-*
+ 
+ >I love you, too, Jack.
+  
+ Me you too.  Now let's prove it by dropping this crap.
+ 
+ js
+ 
+ p.s. How much did your yield vary as a function of water variations?
+ 
+ .......
+
+
+------------------------------
+
+
+Date: Tue, 26 Apr 1994 21:58:27 +1000 (EST)
+From: David Draper <ddraper`at`laurel.ocs.mq.edu.au>
+Subject: Pressure barrels/cask cond.
+
+
+Hi All, after the excellent series on cask conditioning and a couple of
+subsequent followups (my redundancy of the week), I offer my experiences
+in using a pressure barrel for that cask-conditioned feeling.  I used a
+King Keg barrel, 5 imperial gallon capacity.  I think this one is superior
+to the Hambleton Bard or Boots version because it has a top-tap system:
+the tap is near the top, to which a hose is attached that in turn has a
+plastic "floater" on it, so you are always drawing from the top surface of
+the liquid.  It comes with a CO2-injection valve on the lid, which allows
+you to apply pressure for dispensing when the level of liquid gets
+sufficiently low that conditioning pressure is no longer enough to push
+the brew out.  A nifty trick when using this is that, when you rack into
+the barrel, you can *loosely* fit the cap, then attach your CO2 canister
+and just *barely* engage it--so that there is a slight, but constant
+stream of CO2 being injected into the barrel.  After a second or two, the
+CO2 fills the ullage in the barrel, and pushes the air (which is lighter)
+out of the loosely-fitted cap.  Another second later, and there is only
+CO2 inside the keg.  You then screw down the cap while that slight CO2
+stream is still flowing, then disengage the canister and store the barrel
+until ready to drink.  I don't take credit for this idea--I gleaned it
+from somewhere, but I don't remember where--might even have been netsters
+for all I know (sorry if I'm not crediting a reader who told me about it...)
+
+
+It is definitely true that, even with the above trick, the last 1/3 of the
+barrel will have very off flavors if the beer is drunk at the typical pace
+of a 5-gallon batch.  However, if you anticipate a rapid-consumption
+situation, it can't be beat.  Great for poker night, for example. 
+Alternatively, just put a batch in there and don't touch it *until* you
+have a rapid-consumption event.  I would suggest that, with judicious use
+of the CO2 canister, one could drink the first 1/3 of the barrel at normal
+pace, and then consume the last 2/3 in such an event, and have good beer
+throughout.  You really do get the feel of British pub beer using this--my
+British mates, some of whom were none too polite-for-politeness's-sake,
+were quite complimentary on my barreled efforts, despite the drawbacks I
+faced while brewing in Britain (as readers of my posts are now sick of
+hearing: no liquid yeast, v. poorly kept hops).
+
+
+Just my 2 pence worth.
+Cheers, Dave in Sydney
+
+
+- -- 
+******************************************************************************
+David S. Draper                        School of Earth Sciences, Macquarie University
+ddraper`at`laurel.ocs.mq.edu.au        NSW 2109 Sydney, Australia
+Fax: +61-2-805-8428                Voice: +61-2-805-8347
+
+
+------------------------------
+
+
+Date: Tue, 26 Apr 1994 09:56:56 -0400 (EDT)
+From: Jim Busch <busch`at`daacdev1.stx.com>
+Subject: Re: IM and the EasySparger
+
+
+The "ORACLE" speaks:
+>  
+>  I put 2 tbs into my ten gallon batch about 15 minutes before the end of the 
+  boil.  I let it air cool for an hour or so then added an oz of finishing hops 
+>  and put on the lid with the wort chiller built in.  
+
+
+So, did you follow the advise to rehydrate it in advance of brewing?
+
+
+>  Also, if Ulick is using Irish Moss, I can appreciate his frustration with an 
+  EASYMASHER....  it just plain won't work (as a crud filter that is).  I never 
+>  said it would work with IM but it's nice to know these things.
+
+
+Wow, sounds like an excellent argument for the SS perforated sheet false 
+bottom, but I guess you need to deal with dinosaur vendors.....
+
+
+Seriously, I think what Jack has discovered is yet another reason why 
+counterflow chillers are better than immersion, trub removal.  By combining
+both the hot and cold trub, and by optimizing your trub precipitation, you
+have overwhelmed the ability of your little home brewery to adequately 
+remove the trub.  If you had used a false bottom as a hop back, the surface
+area available to help seperate the hot trub would have kept most of the
+hot trub in the kettle.  Cold trub is not nearly as significant a problem, 
+and is easily removed if you use open fermentation to skim, as Jack and I
+do.  Cold trub can also be removed somewhat by bubbling oxygen in the 
+fermenter, essentially making a crude floatation tank.
+
+
+Good brewing,
+
+
+Jim Busch
+
+
+------------------------------
+
+
+Date: 26 Apr 1994 08:02:36 U
+From: "Rich Scotty" <rscotty`at`denitqm.ecte.uswc.uswest.com>
+Subject: Wort Chillers when water sh
+
+
+                      Subject:                              Time:  7:55 AM
+  OFFICE MEMO         Wort Chillers when water shortages_   Date:  4/26/94
+>   So, what suggestions can you give us as to how to make or utilize a
+>   chiller so as to use the least amount of water possible?
+
+
+It seems to me that to minimize water useage, you are going to have to devellop
+a closed system - in other words, recirculate the same water through the
+chiller and find a way to remove the heat from the recirculating water.  I
+would use a fairly high volume water pump that circulates water from a tank,
+through the wort chiller, then through a radiator to remove the heat from the
+water, and then back into the tank.
+
+
+You will have to play with the variables like circulation rate, total water
+volume, etc.  I'm not sure how efficient this setup would be, but it will
+conserve water.
+
+
+My guess is that you will also need a fan to circulate air through the radiator
+and dissipate the heat.  Sounds like an interesting experiment - good luck with
+it.
+
+
+Rich Scotty
+
+
+"Given the most carefully controlled conditions, yeast will do as it damn well
+pleases."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 25 Apr 94 17:18:39 EDT
+From: grctechs!tmcguire`at`grctechs.grci.com (Terry Mcguire)
+Subject: Blowoff???
+
+
+OK, stupid question time.
+Why am I not getting any of the blowoff I keep hearing about?
+I am using a 5 Gal glass carboy and a recipe for a simple amber (4 Gal).
+I'm getting good fermentation (it's bubbling its little heart out), but it
+didn't rise towards the top like the term "blowoff" would imply.  Have I
+done something incorrectly?
+
+
+On a different subject, does anyone have a Murphy's/Guinness recipe worth
+trying?
+thanks
+
+
+terry mcguire              tmcguire`at`grci.com
+
+
+------------------------------
+
+
+Date:     Tue, 26 Apr 94 11:32:32 EDT
+From: "Glen A. Wagnecz, X6616" <wagnecz`at`PICA.ARMY.MIL>
+Subject:  Re:  Wort Chillers when water shortages are a problem
+
+
+Allison-
+
+
+        If you do your laundry at home, run the water off the chiller
+into the machine.  This water would have been used anyway...
+
+
+                        Glen
+
+
+------------------------------
+End of HOMEBREW Digest #1409, 04/27/94
+*************************************
+-------

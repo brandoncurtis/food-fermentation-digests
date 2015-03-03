@@ -1,0 +1,1303 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Thu Aug 18 03:36:35 1994
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA08126
+  (5.65b/IDA-1.4.3 for spencer`at`hendrix.itn.med.umich.edu); Thu, 18 Aug 94 03:35:47 -0400
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.37.109.4/15.5+IOS 3.20) id AA03662; Thu, 18 Aug 94 01:34:57 -0600
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA03009; Thu, 18 Aug 1994 01:00:52 -0600
+Message-Id: <9408180700.AA03009`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1504 (August 18, 1994)
+Date: Thu, 18 Aug 1994 01:00:52 -0600
+
+
+
+
+
+
+HOMEBREW Digest #1504                             Thu 18 August 1994
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Seeking brewpubs in London, Ontario (Jan Holloway)
+  New C thread program (cthread) (John Pearson)
+  Steam beer--ale or lager? (David Draper)
+  Rims fix (kit.anderson)
+  Hop twine (michael j dix)
+  Homebrew Morbidity (Martin Lodahl)
+  Gott vs. Igloo (Bryan Gros)
+  carbonation troubles? ("Charles S. Jackson")
+  keg boiler drain (Mark E. Lubben)
+  low cost of homebrewing ;^) (JerryC3162)
+  Homebrew Mail List (MR RONALD L KOONS)
+  Mill test (Ulick Stafford)
+  Re: Mini-Kegs draft system. (Tel +44 784 443167)
+  Keep footnotes smaller! (PAULDORE)
+  Brewing Belgian Beers (#4): Oud Bruins ("Phillip Seitz")
+  Re: when to add fruit (Mark A. Stevens)
+  Higher Temp Lager Strains (PSTOKELY)
+  Forfeiture Law (Chris Strickland)
+
+
+
+
+
+
+******************************************************************
+**  NOTE: There will be no digest administration from August 15
+**  through August 26. PLEASE be patient when requesting changes
+**  or cancellations.
+******************************************************************
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+FAQs, archives and other files are available via anonymous ftp from 
+  sierra.stanford.edu. (Those without ftp access may retrieve files via 
+  mail from listserv`at`sierra.stanford.edu.  Send HELP as the body of a 
+  message to that address to receive listserver instructions.) 
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 15 Aug 1994 16:02:11 -0500
+From: holloway`at`ezmail.ucs.indiana.edu (Jan Holloway)
+Subject: Seeking brewpubs in London, Ontario 
+
+
+Greetings. We're heading up to London, Ontario, for a long weekend this
+Friday (August 19). Can anyone recommend brewpubs or interesting pubs in
+the area? If you want to write to me directly, I'm at
+holloway`at`ucs.indiana.edu.
+
+
+Many thanks in advance! --Jan  
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Aug 1994 16:23:17 -0500 (CDT)
+From: john`at`loki.ti.com (John Pearson)
+Subject: New C thread program (cthread)
+
+
+There is a new version of the C/curses thread program available from
+the sierra archives (/pub/homebrew/programs/thread/cthread20.tar).  The
+program is called cthread to denote that it differs from the MSDOS version
+and that Tom Kaltenbach is no longer supporting the C version.
+
+
+You can get the tar file from the archives, which contains the C code,
+documentation and a Makefile for helping compile the code.
+
+
+Tom has customized thread for the MSDOS environment.  The cthread version
+is a curses (basically, UNIX) version.
+
+
+Make no mistake that CTHREAD (C/Curses THREAD) is still basically Tom's
+original program (except for bugs which I'm sure I've introduced) with
+some enhancements.  The majority of the credit for the program should
+still go to him; blame for bugs/problems are mine.
+
+
+If you download this tar file for the new program, PLEASE read the
+documentation as the user interface has changed enough to make that
+worthwhile.
+
+
+A brief review of the enhancements:
+
+
+  o convert to case insensitive searches CONSTANTLY
+
+
+  o change to pattern matching sentences from cyclical target
+    and logical operator prompts
+    (i.e. input is like "malt and mill not miller end<return>"
+                           -- or --
+                        "malt & mill ! miller .<return>"
+    see docs for details)
+
+
+  o allow regular expression pattern matching in search targets
+    (i.e. gives you wildcard search capabilities)
+
+
+  o allow digest files to be compressed, if platform supports, to
+    save disk space (compress, gzip)
+
+
+  o highlight all matching lines in a matching message
+
+
+  o remove newline requirement for single char inputs
+
+
+  o SPACE == [M]ore while paging (like "more", "pg", etc)
+  o [B]ack up option while viewing a message
+  o [R]edisplay option while viewing a message
+
+
+  o add "automatic mode" flag on command line (-a)
+
+
+  o add pattern matching string command line input
+
+
+  o fix a bug with the search for message delimiter within the archive
+    which cut some messages short and found extra, phantom messages
+
+
+  o allow passing an alternate message delimiter on the command line
+
+
+I want to publicly thank Tom for his willingness to allow me to make upgrades
+to this program, and to Steven Hansen for getting it on the archives for us.
+
+
+John T. Pearson     pearson`at`lobby.ti.com
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 1994 07:39:58 +1000 (EST)
+From: David Draper <David.Draper`at`mq.edu.au>
+Subject: Steam beer--ale or lager?
+
+
+Dear Friends, I would like you to take part in a survey to help our brew
+club resolve a contentious question: Does the steam beer (California
+Common beer) style belong in the ale category or the lager category?  The
+club runs an ale competition in the autumn and a lager competition in the
+spring, and there is a debate over which comp to accept steam beer entries
+in.  So please, one and all, email me your vote in a format like this:
+
+
+It is a (lager or ale) because ....
+
+
+where "because..." is a short summary of why you think what you do (for
+example, "it's a lager because it uses a bottom-fermenting yeast" or "it's
+an ale because it is fermented at ale temps" or "it's a Dry Ice Light
+Belgian Trippel Framboise Bock Altbier because Michael Jackson says so").
+
+
+I will of course post the results of the poll.  Vote today!
+
+
+Thanks and Cheers, Dave in Sydney
+
+
+- -- 
+******************************************************************************
+David S. Draper, School of Earth Sciences, Macquarie University, NSW 2109
+Sydney, Australia. email: david.draper`at`mq.edu.au fax: +61-2-850-8428
+             ....I'm not from here, I just live here....
+
+
+------------------------------
+
+
+Date: Mon, 15 Aug 94 14:46:21 -0400
+From: kit.anderson`at`acornbbs.com
+Subject: Rims fix
+
+
+
+
+TO: homebrew`at`hpfcmi.fc.hp.com
+
+
+A number of people have said that they can't get Rodney Morris' RIMS 
+heat controller to  work as designed. Tim Poff sent this message to me 
+from the Zymurgy echo on Fidonet.
+
+
+Hello again.
+
+
+At the expense of sounding waaaaay off topic in a beermaking forum;
+(Trust me Mr moderator, This IS beer-Tech!)
+
+
+ I was able to get photocopies of the original rims article today,
+I owe Rodney Morris a beer if I ever meet him. Concerning your problem
+getting his temp controller circuit to run, I have two possible
+suggestions. Figure 1, MT1 is referred as a TRIAC in parts of the
+article, but is explained otherwise as a QUADRAC. If a triac were
+used, an addition of a DIAC in series with leg 'G' of the device
+would be needed to get it working right. Using the Q4015L5 specified
+could cause this problem, instead order Digi-Key part # Q4015LT which
+is the quadrac version of the device, or rig in a DIAC as shown in
+figure 2 of the same article. He has the part numbers for 'T1' and
+'T2' reversed from the way shown in the schematic except that the
+motor controller uses a 4 amp triac and diac, and the temp 
+controller requires the 15 Amp Quadrac. Confused? Me too! These mixups
+always seem to plague magazine projects. The motor controller looks
+fine, get a quadrac!
+
+
+ Another possible problem relates to buying the Triac devices from
+Radio Shack. Several months back, I bought 10 triacs from the shack,
+and couldnt get them to work, I thought I was blowing them out. I 
+spent about 2 weeks of time redesigning, and still couldnt get them
+to work. Only one unit had a part number, the rest were unmarked, and
+I cross referenced it to a TIP31 power transistor! I tested the rest
+and found that they were also TIP31's. It's like buying a bag of
+potato chips and finding it filled with nails when you get home. Cast
+a jaundiced eye towards any unmarked devices purchased there.
+
+
+ Please feel free to key your colleagues on the HBD in on the fix
+ if it works for you, and if it doesnt, give me some symptoms, and
+ I'll wing it out from there. Hope this fixes you...
+
+
+Kit Anderson <kit.anderson`at`acornbbs.com>
+*
+- ---
+ * CMPQwk #1.4 * UNREGISTERED EVALUATION COPY
+
+
+------------------------------
+
+
+Date: Mon, 15 Aug 94 15:51:42 PDT"
+From: michael j dix <mdix`at`dcssc.sj.hp.com>
+Subject: Hop twine
+
+
+Alternatives to sisal:
+
+
+My hops are twining up nylon twine without difficulty.  They go part way up
+the aircraft cable I use to support the pole; I suspect they stop at the
+point where the cable goes in full sun because it gets too hot.  Maybe I
+should try vinyl covered aircraft cable.
+
+
+One of the seed catalogs we get recommends sisal for pole bean trellises,
+because it is biodegradeable (at the end of the season, cut down trellis,
+bean vines and all; and put it in the compost heap.)  Could it already be
+rotting in your 
+location?  Alternatively, could the wind at your location be putting a lot of 
+stress in the line?
+
+
+Mike Dix (mdix`at`dcssc.sj.hp.com)
+
+
+------------------------------
+
+
+Date: Mon, 15 Aug 1994 16:19:51 -0700 (PDT)
+From: malodah`at`pbgueuze.scrm2700.PacBell.COM (Martin Lodahl)
+Subject: Homebrew Morbidity
+
+
+In HOMEBREW Digest #1500, "KWH`at`roadnet.ups.com" said:
+
+
+> Subject: Bad rumors.....
+
+
+Indeed.
+
+
+> I hate to bring up such a bad subject, but a person in my brew club 
+> recently "informed" us that Dave Line had died of cancer that was in some 
+> way related to his brewing practice -- wrong use of plastic fermenters, or 
+> something.  He also said that Cher Feirstein, who contributed several mead 
+> articles to the Cat's Meow and HBD, had died in similar manner.  It sounded 
+> like a bunch of crap to me, but I have no idea what the actual 
+> circumstances were ...
+
+
+I'd love to see his sources.
+
+
+It's my understanding that Dave Line died in an auto accident.  Cher
+Feinstein had been fighting cancer for a long time before her death, 
+but this is the first suggestion I've ever heard that there was any
+connection to homebrewing.  How could such a thing be determined?
+
+
+I think you can pretty much discount that person as a source of
+information, unless they have some data to back these assertions.
+
+
+        - Martin
+
+
+= Martin Lodahl     Systems Analyst, Capacity Planning      Pacific*Bell =
+= malodah`at`pacbell.com      Sacramento, CA USA                    916.972.4821 =
+=    If it's good for ancient Druids runnin' nekkid through the wuids,   =
+=  Drinkin' strange fermented fluids, it's good enough for me!  (Unk.)   =
+
+
+------------------------------
+
+
+Date: Mon, 15 Aug 94 16:58:43 PDT
+From: bgros`at`mindseye.berkeley.edu (Bryan Gros)
+Subject: Gott vs. Igloo
+
+
+
+
+I know that we have all decided that Gott coolers are the best since
+they can handle hot termperatures.  Does anyone know if the round
+Igloo cooler can handle temperatures close to boiling?  They seem
+to be easier to find than the Gott, but no mention of keeping thngs
+warm.
+
+
+                            - Bryan
+
+
+------------------------------
+
+
+Date:     Mon, 15 Aug 94 20:32:03 CDT
+From: "Charles S. Jackson" <sjackson`at`ftmcclln-amedd.army.mil>
+Subject:  carbonation troubles?
+
+
+Fellow Brewers,
+
+
+     As a relative neophyte (4th batch in the secondary) and proud brewer of 
+the lowly extract brew I am begining to wonder about my carbonation.  I was so 
+caught up in the excitement of my first two batches that didn't notice.  Now in
+these last two batches I see something that makes me wonder.  The airlock 
+remains balanced indicating no pressure in the secondary carboy.  Initially I 
+thought this was how it was supposed to be but my third batch, which is 23 days
+in the bottle, is rather flat.  The batch in the secondary also has a balanced 
+fluid level in the airlock and has shown no positive pressure changes in teh 48
+hours since I racked it.  I use the dreaded 3/4 cup corn sugar to prime, place 
+into the bottling bucket before the beer and count on the swirling action of 
+the siphoned beer to mix it.  My first two batches were both well carbonated.  
+If it is of any help my first was a lager malt with lager yeast fermented at 
+ale temps, second was a pils, third was a nut brown ale and this last was a
+porter.  Also I use all glass and keep the carboy covered in black plastic.
+
+
+     What is the optimal time to rack from primary to secondary. If I wait too 
+long what ill-effects, other than off flavors from sitting on the trub too 
+long, can be expected?  Can I expect my nut brown ale to increase its 
+carbonation?  At what point can I expect that carbonation is maximized?
+
+
+     Thanks for all the help.
+
+
+Steve
+- ---------------------------------------------------------------------------
+"Brewing beer is far more exciting when it is both a hobby AND a felony!"
+                                                  The Alabama Outlaw
+
+
+------------------------------
+
+
+Date: Mon, 15 Aug 1994 21:58:24 -0400
+From: mel`at`genrad.com (Mark E. Lubben)
+Subject: keg boiler drain
+
+
+I have tracked back and found several postings in the Digest about 
+boilers made from 15 gallon Sanke keg.  I have read several articles
+about how to mount drain valves in the side (weld/braze/solder/screw)
+so I think I understand that.  I gather from the HBD metalurgy series 
+that most brass and copper stuff is ok to use or stainless if I can 
+find/afford it.  Now I have a couple of other questions:
+
+
+What's a good way to handle the issue of hops plugging vs complete draining?
+Tipping to a plain bulkhead drain doesn't seem like the hot setup!
+The T drain in the Zymurgy gadgets issue looks OK if you mounted it in 
+the domed bottom, but looks mediocre mounted from the side.  It looks like 
+it would either leave a lot of wort or require an extreme tilt to get 
+the remainder into the holes at the base of the T.
+
+
+I know an EASYMASHER (tm) can be used.  I gather it dips down from the side 
+to fit toward the bottom of the dome.  This seems like it would be likely to 
+leave less of the wort than the T but it looks like it will stop for good 
+like a siphon once air hits the screen since the connector is higher.  
+Or maybe "not enough left to worry about"?  Anyone have problems with 
+hop pellet scum plugging the screens of one or a 3/8" counterflow chiller?  
+
+
+Anybody got any dynamite 'inside the boiler plumbing' ideas (not siphons)?
+Any bottom drain setups?  Quick tips about 'stay away from's welcome too.
+
+
+TIA
+Mark Lubben  mel`at`genrad.com
+- ---
+"That's a keg? It looks like a nuclear weapon."  Now my wife KNOWs I'm crazy.
+- ---
+
+
+------------------------------
+
+
+Date: Mon, 15 Aug 94 21:56:03 EDT
+From: JerryC3162`at`aol.com
+Subject: low cost of homebrewing ;^)
+
+
+Hello everybody,
+
+
+There have been quite a few posts lately regarding the costs of going all 
+grain (which I hope to do someday). Someone said around $275 for all the 
+equipment. This got me thinking about the cost of brewing - here's my 
+list of indirect brewing costs (and I'm extract-only!):
+
+
+    * Bottles - I personally had too drink ~6 cases of micro-brew to 
+build up my supply :^) - $120
+    
+    * Basic newbie setup - $50
+
+
+    * Storage - Had to move two bicycles outside to make room for brewing 
+equipment/beer storage - $400 (cost of rusting bikes)
+
+
+    * Electricity - Have to keep house 10 deg cooler than in my 
+non-brewing days (summer only) - $20? month * 3 = $60 
+
+
+    Future:
+    * Refrigerator - Need additional frig for lagering - $150-200 (used)
+
+
+    * New House    - Since I don't have room for additional frig - 
+$175,000
+
+
+    * Divorce - if my wife ever reads this = half? of my net worth = $20
+
+
+    Grand Total = $175,850.  So, $275 doesn't seem that bad.  My apologies 
+for this frivolousness.
+
+
+ - Jerry
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 15 Aug 1994 17:50:44 EDT
+From: YTJX07A`at`prodigy.com  (MR RONALD L KOONS)
+Subject: Homebrew Mail List
+
+
+- -- [ From: Ron Koons * EMC.Ver #2.0.P ] --
+
+
+Please send info
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 1994 02:57:46 -0500 (EST)
+From: ulick`at`ulix.rad.nd.edu (Ulick Stafford)
+Subject: Mill test
+
+
+I notice the Mill test was finally mentioned by, no surprise, you know who.
+And he complained that no recommendation was made, tsck, tsck.  Now,
+I think the test was the ultimate in pointlessness, because there is
+no way Zymurgy, who accepts advertising money from the manufacturers
+could give a biased response.  And when they said that the Corona was
+closer than any of the mills in the test to the 6 row mill parameters 
+they were using as a gauge, it became close to a joke.  However, I did 
+read a number of things between the lines
+
+
+the Glattmill had the lowest throughput
+the philmill was hardest to crank
+and extra tests were done on a you know what, and an unadjustable you know
+what at that, which to my mind indicates a bias on the part of the judges.
+And the greater cost of a you know what was never mentioned.
+
+
+If I were you know who, I would be more than happy with the review, useless
+and all as it was.
+
+
+(Well, no there was one factoid that may have made the article interesting.
+That is that twice milled malt was in the desired sieve range, without
+a greater propotion of small bits.  Has anyone noticed better 
+brewing results by double milling?)
+__________________________________________________________________________
+ 'Heineken!?! ... F#$% that s`at`&* ...  | Ulick Stafford, Dept of Chem. Eng.  
+    Pabst Blue Ribbon!'               | Notre Dame IN 46556
+   http://ulix.rad.nd.edu/Ulick.html  |    ulick`at`darwin.cc.nd.edu   
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 1994 09:59:27 +0000
+From: Brian Gowland <B.Gowland`at`rhbnc.ac.uk> (Tel +44 784 443167)
+Subject: Re: Mini-Kegs draft system.
+
+
+
+
+In HBD 1502, Arturo Portnoy <portna`at`rpi.edu> wrote:
+>        I am thinking about buying a minikeg system. The
+> brands name is Fass Frisch or GWKent. I would like to
+> hear your opinions......[SNIP]
+     I have three Fass-Frisch mini-kegs plus a plastic
+airpump. I am very pleased with them and intend to build
+my collection with a few kegs every month.
+     The plastic airpump works well but seems a little
+fragile. I can't say anything about either of the CO2
+injectors that you can get as I haven't tried them.
+     One word of warning - the instructions say to prime
+with 1 level tablespoon of fermentable sugar - I've been
+told that this may be too much and will cause foaming in
+certain cases - I haven't primed so far so haven't
+experienced this.
+     There are lots of plus-points to these mini-kegs -
+my favorite is that I can sit one easily by the side of
+my armchair when watching a long programme on BBC TV.
+The BBC is a non-commercial channel so there are no
+advert breaks where I can rush out to the spare bedroom
+(brewery) to get another pint. Anyone who has read Dave
+Line's book "Brewing Beers Like Those You Buy" will know
+that he would have loved these things for this reason.
+Cheers,
+     Brian
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 1994 06:27:42 -0400 (EDT)
+From: PAULDORE`at`delphi.com
+Subject: Keep footnotes smaller!
+
+
+If have seen some peoples messages containing HUGE footnotes. Keep them
+smaller because it wastes space in the HBD and that inturn makes the HBD
+issues smaller and it takes longer for messages to appear.
+
+
+Yes you should leave your name an email address at the end of a message, but
+why have a 10-20 line farewell message. Example:
+
+
+[-----------------------------------][---------------------------------]
+[                                                                      ]
+[                        Blah Blah Blah University                     ]
+[                            xxxxx xxxxxx xxxxxx                       ]
+[           Drink Beer of Die......... Give me Hops or Give me Death   ]
+[ Mary had a little lamb...... Super Duper Computa                     ]
+[-----------------------------------][---------------------------------]
+
+
+I'm sure you can see my point.  I'm not pointing a figure at any person
+or persons, but you all know who you are...
+
+
+Just leave a farewell like mine.. Short and Sweet
+
+
+pauldore`at`delphi.com
+^^^^^^^^^^^^^^^^^^^
+|||||||||||||||||||
+See!
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 94 09:30:31 -0400
+From: "Phillip Seitz" <p00644`at`psilink.com>
+Subject: Brewing Belgian Beers (#4): Oud Bruins
+
+
+Brewing Belgian Beers (#4): Oud Bruins
+
+
+Description:
+
+
+     1.045-1.060, 4.8-6% ABV, 15-25 IBU, 10-20 SRM
+     Red, deep copper or deep brown with red tints.  Acidic aroma
+     with some fruitiness.  Flavor sweet, sour and fruity, esp.
+     cherry-like.  Lactic and acetic flavors ok.  Attenuation low
+     to medium.  Medium carbonation, body medium to full. 
+     Addition of raspberries or cherries ok, should blend with
+     other flavors, may provide additional acidity.  Low
+     bitterness, no hop flavor or aroma.  No diacetyl.
+
+
+Most commercial examples are richly colored with a fruity, acidic
+aroma and an intensely fruity, sweet and sour palate.  Sourness
+varies in commercial examples, many of which are filtered and
+sweetened.  Can become wine-like with age.  Many commercial
+examples include a secondary fermentation on raspberries or sour
+cherries, and the flavors this contributes should be clear and
+should balance with the existing acidity and sweetness.
+
+
+
+
+Brewing method:
+
+
+Homebrewers have yet to master this style.  It appears that basic
+grists include pilsner malt, caramel malts, sometimes Vienna or
+Munich, and sometimes roasted malts in very small quantities for
+coloring.  In some cases the deep color is achieved by long
+boils.  Lactic and acetic bacteria provide the necessary acidity,
+and these may need a long time to achieve the proper acidity. 
+Additions of lactic acid to finished beer may work.  When used,
+fruit should be added to the secondary at 1-2 lbs per gallon of
+beer.  Any cherries used should be sour!  Carbonation is
+relatively standard, so 3/4 to 7/8 of a cup of sugar should be
+used to prime a 5 gallon batch.
+
+
+Extract brewers should start with pale extract and use lots of
+caramel malts.  Try to pick a yeast that's not going to attenuate
+too much.
+
+
+Keep in mind that you're experimenting.  However, if you're the first 
+to brew a really good one of these, you will earn a substantial laurel 
+wreath, and perhaps the Homebrew Nobel Prize.
+
+
+
+
+Common problems:
+
+
+1) Inadequate acidity.  Add lactobacillus culture, ferment
+     longer, or add lactic acid.  
+
+
+2) Fruit flavors thin or inappropriate.  Increase quantity of
+     fruit, or use sour fruit instead of pie cherries!
+
+
+3) Too light in color.  Increase use of caramel malts and/or boil
+     time.
+
+
+
+
+Commercial examples:
+
+
+Goudenband (5.1% ABV), Rodenbach Grand Cru (6.5% ABV), Liefmans
+Framboise (5.7% ABV), Liefmans Kriek
+
+
+
+
+Sample recipe:
+
+
+Bill Ridgely's Framboise (partial mash recipe for 5 gallons)
+RIDGELY`at`A1.CBER.FDA.GOV
+
+
+3.3 lbs   American Classic Light liquid extract
+2.0 lbs   Pale dry extract
+1.0 lb    Pale ale malt
+0.5 lb    Munich malt
+0.5 lb    80L crystal
+0.5 lb    Wheat malt
+0.5 lb    dextrin malt
+
+
+1.0 oz    Hallertau (4.2%) boiled for 60 minutes
+1.0 oz    Saaz (3.2%) boild for 45 minutes
+
+
+6.0 lbs   Tart red raspberries
+
+
+Fermented with Wyeast Belgian yeast
+
+
+OG: 1.062
+FG: 1.015
+
+
+Used step mash for grains--120 degrees for 30 minutes (protein
+rest), 150 degrees for 60 minutes (saccrification rest).  Gypsum
+was added to adjust the mash pH.  Total boil time 1.5 hours. 
+Raspberries were crushed and added to the brewpot at the end of
+the boil, then steeped for 15 minutes before wort chilling.  The
+raspberries were left in the primary for 7 days, then strained
+during transfer of wort to the secondary.  Total fermentation
+time: 24 days.  Fermentation temperature: 62F.
+
+
+Recommended All-Grain variation (using Belgian malts at 27
+points/lb):
+
+
+9.0 lbs   pale ale malt
+1.0 lb    aromatic malt
+1.0 lb    wheat malt
+0.5 lb    caramunich
+0.5 lb    Special B
+
+
+All other ingredients and procedures remain the same.
+
+
+[Phil's note: This recipe was the closest to the real thing I've
+tasted, with one exception: it lacked the necessary sourness,
+although some was supplied by the raspberries.  Nevertheless this
+recipe with an additional acid component or lactic fermentation
+seems like an excellent starting point for experimentation]
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 94 09:58:48 EDT
+From: Mark A. Stevens <stevens`at`stsci.edu>
+Subject: Re: when to add fruit
+
+
+In HBD 1502, JohnNewYrk`at`aol.com writes:
+
+
+> STOP!!
+>  
+> Don't add fruit to your primary.  Your wort is at it's most vunerable just
+> before fermentation begins.  Adding fruit to your wort & the dumping it all
+> into the primary would open up your wort to all kinds of nasties living in or
+> on the fruit.  Fruit is usually added to the SECONDARY, when the yeast has
+> already asserted itself and there's enough alcohol to discourage bacterial
+> infection.
+
+
+I don't think "usually added to secondary" is quite right. Fruit
+can be added to the boil, at the end of the boil along with
+aroma hops, in primary, in secondary, or even at bottling.
+
+
+As I mentioned a couple weeks ago, Ralph Bucca had an article about
+fruit beers in the July/August 1994 issue of "BarleyCorn". Here's a
+passage from his article:
+
+
+  "Adding fruit during the primary fermentation is the 
+   preferred stage. The fruit should be added after a
+   vigorous fermentation has started. There will be 
+   enough active yeast present to make sure that the
+   fruit does not contaminate the beer and that it also
+   begins fermenting. After a week the beer should be
+   racked off the yeast and fruit..."
+
+
+According to Ralph, if you choose to add to secondary, you
+really need to watch the sanitation.
+
+
+What about soaking the fruit in a mixture of alcohol and
+corn sugar before adding to the primary?  Anybody done this?
+It seems that it would create a syrup with more intense
+fruit flavors drawn out, and have the side benefit of
+sterilizing the fruit to some degree...
+
+
+Cheers!
+- ---Mark Stevens
+   stevens`at`stsci.edu
+
+
+
+
+------------------------------
+
+
+Date:          Tue, 16 Aug 1994 10:58:17 EDT
+From: PSTOKELY`at`ea.umd.edu
+Subject:       Higher Temp Lager Strains
+
+
+Gene Krauss, my return message to you bounced, so here:
+
+
+Both responses to my query on 65 - 70 degree lager fermentation 
+recommended Wyeast's California Lager #1214, which is allegedly 
+Anchor's steam yeast. Another recommendation was to wrap the 
+primary/secondary in a wet towel and place a fan right on it, in an 
+attempt to cool the vessel. Thanks.
+
+
+I'll be brewing this batch as soon as the local heat wave passes or 
+the baseball strike ends, whichever comes first, and I'll report any 
+results as I drink 'em.
+
+
+Paul S. in College Park, Maryland   "You speak in strange whispers,
+                                     friend, are you not of The Body?"
+
+
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 94 11:02:47 -0400
+From: stricklandc`at`cocoa12.ksc.nasa.gov (Chris Strickland)
+Subject: Forfeiture Law
+
+
+> I'd like to clarify one point, that being while the police can initially
+> CONFISCATE most anything they want if they think it is involved in some kind
+> of legal infraction, in order for them to KEEP it, they still have to
+> convince a court the forfeiture was valid.
+
+
+Obviously you've never had money confiscated on I-95 in Volusa County in
+Florida.  The Sheriff's department can take any large sum of money from anyone
+just because they think it might be drug money.  Most folks that challenge
+it only get back about 70% of their cash.  The rest is suppose to pay for
+administration charges.  If challenged in court the lawyers fees take up
+even a bigger charge.  This story has been on the news and the Sheriff's
+department has been investigated (only because racial biasis, not for
+confiscating the money for suspected illegal useage), but the cash
+seizures still go on.  So I sure anywhere else that there is a chance that
+seizures are evenly closely legal, these injustices will occur.  The going
+to work works only in a perfect world.
+
+
++-----------------------------------------------------------------------------+
+| Chris Strickland               |   Allin1: stricklandc                      |
+| Systems Analyst/Statistician   |   Email : stricklandc`at`cocoa12.ksc.nasa.gov |
++-----------------------------------------------------------------------------+
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 1994 08:20:26 -0700
+From: Richard B. Webb <rbw1271`at`appenine.ca.boeing.com>
+
+
+Subject: The beginners guide to advanced and all-grain brewing
+
+
+Yet another installment of
+
+
+The beginners guide to advanced and all-grain brewing
+By Richard B. Webb, the Brews Brother's 1993 Homebrewer of the year
+
+
+part 7
+
+
+3.2.     pH
+
+
+pH is a measure of the acidity of a 
+substance. There are no limits on the pH 
+measurement scale, but because the scale 
+is logarithmic (like the Richter scale for 
+measuring earthquakes), a solution with a 
+pH of 5 is ten times more acidic than a 
+solution with a pH of 6, and a solution 
+with a pH of 4 is ten times more acidic than a 
+solution with a pH of 5. Pure distilled water 
+forms the neutral point on this scale with a 
+pH value of 7. Water that has been carbonated 
+by dissolving carbon dioxide in it (forming 
+a weak carbolic acid) has a lower pH, as 
+does rain water, which absorbs carbon dioxide 
+from the atmosphere. (If the rain falls 
+through pollution from car exhaust or encounters 
+sulphur from steel mill or power plant 
+smokestacks, the water becomes even more acidic, 
+resulting in acid rain.) But there are better 
+ways to manipulate the acid/alkali balance of 
+water than carbonization or auto exhaust.
+
+
+Why do we worry about pH? Because the 
+enzymes which convert grain starch to 
+sugar work more efficiently in an environment 
+with a pH value of about 5.2-5.4. Most 
+grains, when suspended in water, tend to force 
+the pH to a value near that range, but 
+sometimes we need to intervene to create 
+the optimal conditions. This is done by adding 
+brewing salts.
+
+
+Why is Burton-on-Trent famous for its 
+pale ales, while Munich is known for its 
+darker beers? It's because of the brewing 
+water's pH. OK, it's really from the dissolved 
+minerals in the water, but that's what changes 
+the water's pH. Lighter grains leave a 
+higher pH in a solution of neutral water than 
+darker, more acidic grains. Water that has a 
+high concentration of Sulfates is lower in pH 
+than neutral water. Put another way, water 
+that is high in Sulfates is good for brewing 
+pale grains in because the resulting pH allows 
+the enzymes to work most efficiently. To sum 
+up, adding Gypsum lowers pH, while 
+adding Chalk raises pH. Burton-on-Trent 
+water is high in Sulfates (just like adding lots 
+of Gypsum), and thus lends itself to the making 
+of pale ales. (This water also accentuates 
+the bitterness of hops, and therefore is 
+useful for making very hoppy beers.) Darker 
+grains, and thus darker beers, are made 
+where the water is high in carbonates. So all of 
+the arguments about matching water to your 
+favorite brewing locale pretty much boils 
+down to getting the right pH balance for 
+the type of grains that you want to use.
+
+
+By the way, if you're putting your spent 
+grains into a compost pile, be sure to add 
+limestone or other "sweetening" agent to the 
+pile. The acidity of the grains will create 
+compost that is too acidic for most plants.
+
+
+One more word about salts and pH. Chalk 
+does not readily dissolve in neutral water. 
+It needs a slightly acidic environment to be 
+suspended in (such as grains in water in your 
+mash tun). Limestone is also chalk, formed 
+into ancient geology from the shells of 
+marine animals which sank to the bottom 
+of the sea when the critters died. Over the 
+millennia, these shells were heated and 
+compressed, forming into hard rock formations. 
+The white cliffs of Dover are just such a 
+geologic structure. Water flowing through these 
+structures can dissolve channels through 
+the rock, leading to long caves that follow the 
+meandering of the river channel that carved it. 
+Water dripping from the tops of these 
+caves leave a little bit of limestone with 
+each drip, resulting in a stalactite hanging from 
+the ceiling, while the water dripping to the 
+floor of the cave piles up the limestone, 
+resulting in stalagmites reaching up from 
+the floor. These caves form natural reservoirs 
+which city folk use to collect highly mineralized 
+water, all the better to make dark beers with!
+
+
+3.3.     Tap Water
+
+
+Because water is such a good solvent, there 
+are often things dissolved in it that don't 
+necessarily make for good beer. I was pleased 
+to read a test survey from my local water 
+district that reported no detectable sources 
+of radioactivity were found in my water. 
+Imagine my relief. However, there are 
+other things in my water that I wish weren't there.
+
+
+Chlorine
+
+
+Chlorine is used in minute amounts to 
+neutralize any organic matter that may have 
+leached into the water source. Water that 
+has been in contact with chlorine for a while, 
+such as that found in your hot water tank, can 
+be considered fairly clean of contaminants. 
+Chlorine should be boiled away before it 
+causes off-flavors in the beer, but who has the 
+time? If you're worried about off-flavors from 
+chlorine, boil your water before you use it 
+for mashing. Otherwise, don't sweat it.
+
+
+Fluoride
+
+
+Fluoride is added to the water to strengthen 
+the forming teeth of young people. It is 
+not a communist plot for world domination 
+as the John Birchers would have us believe. I have 
+not heard of fluoride becoming a problem for brewers.
+
+
+Contaminants
+
+
+This is the everything else category. Run-off 
+from pastures soaks into the ground and 
+into the water supply. Excess pesticides and 
+fertilizers do the same. Oil that is not 
+recycled, gas that spills from a siphon, 
+intentional spills and discharges threaten our 
+health, as well as the quality of the beer 
+that we make. This is where each of us, as 
+stewards of the planet, can do our part to 
+ensure healthy supplies of water for us and for 
+our descendants. And for our beer.
+
+
+Rich Webb
+
+
+------------------------------
+
+
+Date: Tue, 16 Aug 1994 08:20:56 -0700
+From: Richard B. Webb <rbw1271`at`appenine.ca.boeing.com>
+
+
+Subject: The beginners guide to advanced and all-grain brewing
+
+
+Yet another installment of
+
+
+The beginners guide to advanced and all-grain brewing
+By Richard B. Webb, the Brews Brother's 1993 Homebrewer of the year
+
+
+part 8
+
+
+3.4.     Other compounds in solution
+
+
+Beer is a fascinating collection of chemical 
+compounds all suspended in water. Pure 
+water has a density equal to 1.000. 
+Anything added to that changes the density. The 
+specific gravity and the Baling scale are 
+measures of the amount of suspended particles. 
+Before the invention of these scales, the 
+amount of sugar in a particular batch was a 
+guess at best. One old method of dissolved 
+sugar determination involved an inspector 
+with special leather pants. A bit of beer 
+wort was poured onto a wooden chair, which the 
+inspector then sat on. If, after drying, the 
+chair stuck to the inspectors butt, the amount of 
+sugar dissolved in the wort was deemed 
+sufficient. But we have inexpensive instruments 
+that can measure dissolved sugars a lot easier 
+than that. Get yourself a Hydrometer. It is 
+the single most important tool in your 
+equipment kit. And it's a lot easier on your chairs.
+
+
+Water and alcohol mix very easily together, 
+but they don't weigh the same. One 
+gallon of water and one gallon of alcohol 
+yields a mixture of 50% alcohol by volume, or 
+100 proof, but there is now less than two 
+gallons of mix. This is because the alcohol 
+molecules fit rather cozily in between the 
+water molecules, physically taking up less 
+space. Thus our intoxicating mixture of 
+alcohol and water would have a specific gravity or 
+density of 0.7939, giving 79.4% percent alcohol 
+by weight. This is why the question of 
+percent alcohol by weight or volume must 
+be addressed whenever comparing the 
+alcoholic strength of a brew.
+
+
+One last mention about living chemistry. 
+The enzymes that promote fermentable 
+sugars are very temperature sensitive. 
+Our compromise temperature of 150-153 degrees 
+Fahrenheit is almost too much for the little 
+compounds to stand. For some reason, the 
+use of one gallon of water for every three 
+or four pounds of grain for the initial mash 
+enables the enzymes to survive and work more 
+efficiently than either a thicker or thinner 
+grain soup. Not that I'm trying to encourage 
+high alcohol beers. Instead, I'm trying to 
+help you get the most sugar, fermentable or 
+not, from the starch that you've purchased 
+from your friendly neighborhood homebrew supply store.
+
+
+The boil
+
+
+You've finally finished draining and sparging 
+the grains in your mash tun. Now what? 
+>From here on out, the procedure is similar 
+to the techniques that you use for extract brewing. 
+But here are some tips that maybe you didn't know.
+
+
+When you are draining the rather warm sugar 
+liquor from your tun into the boiling 
+kettle, don't let the liquid fall too far, 
+or splash up too much. This leads to what is called 
+hot-side aeration, and can lead to some funny 
+aftertastes. Rather unpleasant aftertastes.
+
+
+You should bring the wort to a full and 
+rolling boil before  you add any hops, waiting 
+until after the foam, or hot-break, dissolves. 
+There are important chemical reactions 
+taking place in the wort even then. The 
+foam consists of proteinaceous matter that you 
+want to coagulate out of the final beer. Of 
+course, if you want a thick, full bodied beer 
+(nutritious, as the Brits would say), then a 
+long boil, over 90 minutes, will encourage the 
+protein to re-dissolve back into the wort. But 
+there are plenty of non-fermentable 
+sugars in the liquor now, especially if 
+your mash was held at temperatures above 155 
+degrees or so. This long boil will also make 
+the finished beer darker, due to 
+caramelization and other chemical reactions 
+taking place over time. If you are seeking to 
+keep the beer nice and light, mash at lower 
+temperatures, and only boil for an hour or so.
+
+
+4.     Hops
+
+
+All right you hop-heads, listen up. Be 
+careful with these things! When you were 
+using malt extract to make your beers, those 
+small boiling pots made for a denser liquid 
+than you will be using in all-grain. Consequently, 
+the extraction, or utilization of the hop 
+acids will be greater. Especially if you've 
+read the section about adding Gypsum which 
+accentuates the hops to make the perfect 
+pale ale, your hops are going to be more 
+pronounced in this thinner boiled beer. 
+If you don't do your calculations very carefully, 
+you'll be scraping bitter hop resin off of your 
+teeth long into the evening. Here's how to 
+calculate hop bitterness in beer.
+
+
+Determine the gravity of the boil (GB). If 
+GB is less than 1.050, then the gravity 
+adjustment (GA) is zero. If GB is greater 
+than 1.050, an adjustment should be made to 
+the achieved hop bitterness. 
+
+
+Determining the Gravity Adjustment (GA)
+
+
+if GB << 1.050, then GA = 0, 
+    otherwise: GA = ((GB) - 1.050)/0.2
+
+
+To determine the IBU bitterness based 
+upon the added hops and boiling time, use 
+this handy formula. (percents expressed 
+as decimal equivalents, 8% =0.08) This is good 
+for boils up to 60 minutes long, after which 
+the minutes of boil isn't changed.
+
+
+IBU = (Weight_oz * (minutes of boil/200) 
+    * (%Acid/100) * 7462)/(Volume_gal * (1 + GA))
+
+
+To determine the amount of hops of a certain 
+alpha acid needed to match a particular 
+bitterness level, use this formula:
+
+
+Weight_oz = (Volume_gal * (1 + GA) * IBU)
+    /((minutes of boil/200) * (%Acid/100) * 7462)
+
+
+This chart of my own construction shows the 
+IBUs necessary to achieve one definition 
+of "balanced" hop bitterness, based on 
+the original gravity of the wort:
+
+
+Original Gravity     recommend IBU
+1.010     4
+1.020     8
+1.030     12
+1.040     16
+1.050     24
+1.060     32
+1.070     40
+1.080     48
+1.090     56
+1.100     64
+
+
+Rich Webb
+
+
+------------------------------
+End of HOMEBREW Digest #1504, 08/18/94
+*************************************
+-------

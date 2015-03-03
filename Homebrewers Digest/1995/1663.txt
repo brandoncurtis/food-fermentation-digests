@@ -1,0 +1,1342 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Tue Feb 21 03:34:44 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["46414" "Tue" "21" "February" "1995" "01:00:55" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1073" "Homebrew Digest #1663 (February 21, 1995)" "^From:" nil nil "2" nil nil nil nil]
+        nil)
+Received: by judgmentday.rs.itd.umich.edu (8.6.9/2.2)
+        with X.500 id DAA01368; Tue, 21 Feb 1995 03:34:40 -0500
+Received: from goodman.itn.med.umich.edu by judgmentday.rs.itd.umich.edu (8.6.9/2.2)
+        with SMTP id DAA01364; Tue, 21 Feb 1995 03:34:39 -0500
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA18816
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Tue, 21 Feb 95 03:34:31 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA12730; Tue, 21 Feb 1995 01:33:32 -0700
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA21005; Tue, 21 Feb 1995 01:00:55 -0700
+Message-Id: <9502210800.AA21005`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1663 (February 21, 1995)
+Date: Tue, 21 Feb 1995 01:00:55 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1663                             Tue 21 February 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  re:IBU Arguments/spoiled starters/CO2-filled keg... (usfmchql)
+  Dual kettle IBU calculation (Robert Mongeon)
+  Lots o stuff (c-amb)
+  TRASH  V homebrew competition (RCBEER)
+  please cancel my subscription (Stan VanDeWetering)
+  Holy Gott, look at all this stuff! (Christopher P. Weirup)
+  Dropping = Racking?! / My new Web Page (John J. Palmer)
+  Wichita Competetion ("Lee Bussy")
+  Re: IBU formulas (Zeek67)
+  Re: Wheeler on "Dropping" (Tel +44 784 443167)
+  Extended Mashes ("DAVID SCHLEEF")
+  Re: BJCP Judge Rank Questions ("Lee Bussy")
+  Internet resources for the Homebrewer ("Keith Royster")
+  GOTT mash tun/lauter information ( Neil Mager )
+  chicago brewpubs (Tim Lawson)
+  Superb gas burners (mlloyd)
+  Extraction rate help! (Jeff Stampes)
+  Bonehead Update ("Harrington, Stephen J")
+  Use of leftover wort for yeast starter (Chris Strickland)
+  Re: BJCP Judge-Rank Questions... (Spencer.W.Thomas)
+  Garetz's Book (Algis R Korzonas +1 708 979 8583)
+  Klages, water ("Harralson, Kirk")
+  overpitching/poor body/pale ale ("Timothy P. Laatsch)
+  Grain Mill: Roller Texture (andrew keegan)
+  AHA/IBU (Norman Pyle)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sat, 18 Feb 1995 14:34:11 EST
+From: usfmchql`at`ibmmail.com
+Subject: re:IBU Arguments/spoiled starters/CO2-filled keg...              
+
+
+
+
+ -=> There is an on-going discussion about IBUs and hop utilizations...
+
+
+A point I feel is being missed in the current discussion regarding whose hop
+utilization formulas should be golden on what day, I think we are missing the
+point of having them at all. The benefit, IMHO, is that having a consistent
+method of determining IBUs will assist in duplicating the results of a
+recipe's author when attempting to do so. Miller's method, in his TCHBOHB, of
+saying to use xx IBUs of XXXX hops is a good start as samples of any one
+specific hop variety taken from different sources (be that 'source'
+geographical, conditional, or temporal) are not created equal. Perhaps the
+nextlogical step on this path would be to add the author of the equation used
+to determine the IBUs of the resulting brew.
+
+
+Calibrating your pallet; or using your own utilization equation or method are
+irrelevant when brewing an unfamiliar beer style from a written source. Having
+hops quoted per expected contribution to the overall bitterness, given the
+calculation used, will.
+
+
+Just my opinion.
+
+
+ -=> In HBD 1660, Art McGregor asks about his contaminated starters.
+
+
+The acidity of your beer aids in combating infection. Your starter worts, on
+the other hand, do not have that capability. More than likely you will
+experience no problems using your sanitation methods for bottling your beer
+(as you reportedly haven't had any problems to date). I do, however, boil my
+caps a little longer than that. Usually around 15 minutes. It may be brewers
+superstition, but somewhere I came up with a rule of thumb that, if it has to
+be boiled, it has to be boiled at least 15 minutes.
+
+
+Adding hops is said to help. Refrigeration, in this case, would just delay the
+action of the offending beasties. They'd still be there, just colder.
+
+
+I use canning methods to prepare my starters using a 15 minute pressure canner
+boil at 15 psi. You can do the same with a longer boil in a water-bath canner
+(ie: your brewpot). Just make sure the water boils, that it does so for about
+a half an hour, and that the mason jars are under at least two inches of
+water. I've never experienced an infection in one of these rascals...
+
+
+ -=> In HBD 1661 Algis Korzonas comments on the CO2 keg to Beer Keg gravity tap
+    method...
+
+
+Is my face red... Algis, you are quite correct. ;-) The post did read very
+'blue sky'. And the CO2 will eventually diffuse with the incoming air.
+However, this is really no different than the preventative methods we use to
+avoid oxidation while racking (following a CO2 purge); unless, of course, you
+are using a totally closed system. More 'containment' than prevention.
+
+
+To further thoughts on this subject, my 'CO2 keg' is equipped with a pressure
+relief valve which remained open only for dispensing beer, and for
+'re-purging' with CO2 in effect, enriching the CO2 environment contained
+inside - this contributed greatly to my success with this method.
+
+
+I apologize to anyone who may have read more into the method than was intended
+(and I nod to A.K.). The laws of statistical physics, regrettably, still
+apply.
+
+
+ -=> Matt K asks about B-Brite...
+
+
+In its less costly form, B-Brite is known as Arm & Hammer Super Washing Form.
+Sodium Carbonate, for the most part.
+
+
+ -=> Tom Gehrmann asks whether to buy a ss or an enamel pot...
+
+
+My vote goes to the ss. Easier to clean, and won't rust if you chip it.
+
+
+
+
+"The land of milk and honey? At least we can make mead." - Lost passage from
+                                                           The Book of Exodus
+
+
+Patrick G. Babcock
+USFMCHQL`at`IBMMAIL
+(313)33-73657 (V)
+(313)59-42328 (F)
+
+
+
+
+------------------------------
+
+
+Date: Sat, 18 Feb 1995 15:49:13 -0500 (EST)
+From: Robert Mongeon <rmongeon`at`together.net>
+Subject: Dual kettle IBU calculation
+
+
+ Hello everyone,
+  I've got a question I've been pondering for some time now. It envolves 
+ calculating IBU when boiling in 2 different kettles. I don't have the
+ cash to invest in a 7.5gal kettle so I have to use my existing 16 and
+ 20 quart brew-pots to brew my all-grain batches. My method now consists
+ of filling both pots up and boiling the wort down so that the entire batch
+ will fit into the 20 quart pot. Once done, I take a hydrometer reading so
+ I can calculate an accurate IBU reading. Because the batch will equal 5.5
+ gallons in the end I use that as my volume amount. This seems to work
+ very well as my beers all come out balanced. My question is this:
+
+
+  If I hop the two batches separatly, but together, how do I calculate the
+ IBU for the total batch when the SG of the two kettles are different. Can
+ I take two hydrometer readings and plug them into the equation using
+ 5.5 gallons as the total? Would the total IBU then be equal to the sum of
+ both batches?
+ ----------------------------- Thanks in advance ------- Rob Mongeon -------
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 18 Feb 95 17:50:24 +0000
+From: c-amb`at`math.utah.edu
+Subject: Lots o stuff
+
+
+Hi all!
+
+
+I went into lurking mode for the last several months due to the unexpected
+time demands of opening my homebrew supply store.  But now that everything 
+is underway, and I am down to a resonable 70 hours a week, I seem to have 
+a little time to become more active in the digest :-)  
+
+
+Several people wrote to me for info about opening a store while I was 
+trying to get everything up and running.  However, in the transfer of
+computer equipment I lost all my old mail.  So, if you asked me some 
+questions and I rudely ignored you please ask again. 
+
+
+First my question,
+I am confused about the Great Western Malt.  I know (?) that it is 50% 
+klages. However, I have seen Klages refered to as both a pale and a lager
+malt.  I know that Klages is a barley strain not a malt variety.  However, 
+is it made into both Pale and Lager malts?  I have ordered it as both and
+I seem to get the same bags of malt from Great Western so I am a little
+confused.  
+
+
+> I suspect that the problem was not in the headspace, but in the container
+> itself.  All the "pressure barrels" I've seen coming from the UK have been
+> made of polythene (called polyethylene in the US).  This plastic is 
+> notorious for being permiable to oxygen and, despite what appears to be 
+
+
+
+
+How does this relate to the Party Pig?  Have people noticed their beer
+getting stale during storage in a Pig?
+
+
+Matt_K`at`ceo.sts-systems.ca wrote:
+
+
+> Message:
+> I feel kind of stupid asking but what is B-Brite and where can I get 
+> it?  I tried several homebrew stores and drew a blank.
+>  
+
+
+B-Brite is a santizer/cleanser which cleans with active oxygen.  It also 
+contains sodium carbonate and sodium silicate.
+
+
+It is a product of Crosby and Baker whom your supplier should know about.
+
+
+If your supplier carries one-step cleanser this can be used as a substitute
+as they are nearly identical in my understanding.
+
+
+Jim Cave wrote:
+>         Here is what Wheeler says about Dropping (Wheeler and Protz. 1993. 
+> Brew your own real ale at home. ISBN: 1-85249-113-2
+> 
+> "After the ale has been fermenting for a couple of days, when it has 
+> attenuated to about half of the original gravity.....        
+> "The beer should be syphoned from one container to another, taking 
+> care to leave as much yeast and sediment as possible behind in the primary
+> vessel and taking care to admit the minimum of air into solution; although 
+> some air may be beneficial for certain strains of yeast. This can be 
+> achieved by using a syphon tube, the outlet of which should always be kept
+> submerged under the transferred beer......The quality of the ale is much
+> improved by dropping." 
+> 
+>         So....Wheeler says _not_ to admit a lot of air during dropping but
+> don't be too anal about it!
+
+
+This is really interesting.  "Brew Your own Real Ale at Home"
+was written at the same time Graham's book "Home Brewing, the Camra Guide" 
+was updated.  If fact, they were published at the same time.  In "Home
+Brewing", Graham writes:
+
+
+"The dropping system is an alternative to the single vessel fermentation 
+system.  With this system, when the beer has fermented a day or two, it
+is "dropped" into a secondary fermentation vessel leaving the dirty primary
+yeast head, mutant yeast cells, trub, and other debris behind....The
+advantages of the dropping system are that the dirty primary yeast head 
+and the debris on the bottom of the vessel gets left behind, and the yeast
+gets thoroughly roused.  However, a good many active yeast cells are also
+left behind on the bottom of the vessel, and some highly flocculant yeast 
+strains *require* re-aeration to encourage the yeast to multiply and restore
+the yeast count to resonable levels [emphasis mine]. It is this re-aeration 
+that is the stumbling block for many home brewers due to the fear of airborne
+infection.  It is true that re-aeration goes against the normal rules of 
+sound home-brewed beer, but it is my view that the advantages of the dropping 
+system outweigh its risk......[the dropping should be done after the yeast 
+has gone anaerobic, about 36 hours after pitching. Or when roughly half the 
+fermentable material has been used]...It is safe to run the beer from the 
+primary vessel to the secondary vessel via the tap because aeration is 
+required.....Alternatively, the beer can be siphoned from one vessel to 
+another and re-aeration performed [by pouring the wort from one fermentation
+bin to another a few times, generating plenty of violent, mechanical, 
+sloshing action.]"
+
+
+So either Graham simply forgot to update this section of "Home Brewing" 
+or he simply didn't feel that "Brew Your Own Real Ale..." was the proper
+book to introduce such a controversial topic.  He does spend much more time
+discussing "dropping" in "Home Brewing" than in "Brew Your ..." so I would
+tend to belive that he simply didn't want to make "Brew Your..." too
+confusing.+
+
+
+If and when I have the time I will try a split batch to explore the 
+advantages or dissadvantages of dropping with aeration and without.
+It would seem that it would only be advantageous for highly flocculant 
+yeast.  Graham does mention that "It is probably true that the performance
+of some yeast strains is improved by dropping whereas other yeast strains
+object to it.  I have always used the dropping system and have never had 
+difficulty."
+
+
+Well, sorry about such a long post.  I seem to have been more anxious to 
+rejoin the fold than I thought.
+
+
+                                                Mark Alston
+                                                (c-amb`at`math.utah.edu)
+                                                The Beer Nut, Inc.
+
+
+
+
+------------------------------
+
+
+Date: Sun, 19 Feb 1995 10:53:48 -0500
+From: RCBEER`at`aol.com
+Subject: TRASH  V homebrew competition
+
+
+The Three Rivers Alliance of Serious Homebrewers will be hosting their fifth
+homebrew competition on may 20 in Pittsburgh Pa.
+The deadline for entries will be may 6..
+Last year we had 180 entries and just enough judges. If you are interested in
+judging or entering this competition please send a message to me or call Greg
+Walz at 412-331-5645 and we will mail you an entry/judging packet. If you
+plan on entering and judging you can hand carry your entries if you pre
+register them before the competition deadline.
+Ralph Colaizzi
+rcbeer`at`aol.com or
+75444,1225`at`compuserve.com
+
+
+------------------------------
+
+
+Date: Sun, 19 Feb 1995 09:22:16 -0800 (PST)
+From: Stan VanDeWetering <vandewes`at`ucs.orst.edu>
+Subject: please cancel my subscription
+
+
+please cancel my subsription- thank you.
+
+
+------------------------------
+
+
+Date: Sun, 19 Feb 1995 13:43:41 -0500
+From: cerevis`at`panix.com (Christopher P. Weirup)
+Subject: Holy Gott, look at all this stuff!
+
+
+
+
+First off, let me thank everybody who responded to my request for Gott
+mash/lauter tun information.  I got a lot of responses and wasn't able to
+reply to each and everyone, so my thanks go out to you now.  Hopefully in
+the not-too-distant future I'll be able to share my Gott "expertise".
+
+
+A number of people were as interested in the Gott cooler setup and
+requested that I forward this information to them or post on the digest.
+See how there was quite of bit of information, I didn't want to use all
+that bandwidth.  Therefore, if anyone wants this Gott info, you can e-mail
+me and I'll send you the info in a handy digest format.
+
+
+The Homebrew Digest In Action.  It's a beautiful thing.
+
+
+
+
+Thanx again!
+
+
+Chris Weirup
+cerevis`at`panix.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 19 Feb 1995 12:15:45 -0800
+From: johnj`at`primenet.com (John J. Palmer)
+Subject: Dropping = Racking?! / My new Web Page
+
+
+Hi Group,
+I was just reading Saturdays HBD and saw Jim Caves post on Wheeler.
+Do you mean to tell me that we have been getting excited about racking to a
+secondary fermenter for Ales!?  No wonder it greatly improves the beer! I
+have been using a secondary since my second batch and havent looked back.
+We have had discussions of Single vs Two Stage Fermentation before with
+pros on both sides, but I have always thought I got a smoother clearer beer
+out of Two Stage.
+
+
+Here I was wondering if Dropping was something new. Did everybody else
+realize this? Am I the last one again? At least I didnt fall for the
+Coriander thread.
+**
+By the Way, I have hit the 90% mark on my new Web page located at:
+www.primenet.com/~johnj/
+It is the Palmer House Brewery and Smithy and contains my How to Brew file,
+will contain my other writings on zymurgical metallurgy, has my winning
+Chili recipe, and my How to make Chainmail Armor files (if you are
+interested). Parts of it are still under construction and I am running out
+of weekend.
+
+
+Cheers,
+John
+Brewing is Fun!
+johnj`at`primenet.com
+
+
+
+
+
+
+------------------------------
+
+
+Date:          Sun, 19 Feb 1995 21:36:00 +0000
+From: "Lee Bussy" <leeb`at`southwind.net>
+Subject:       Wichita Competetion
+
+
+This is probably one of the last notices about the Wichita 
+Competition coming up in March (who was that cheering???!!)
+
+
+Date:     March 25th, 1995
+Deadine:     March 17th, 1995
+
+
+Classes:     All Beer, Mead and Cider
+
+
+For info contact:  Me (duh!)
+
+
+Judges seats still available, beds for brewers offered.
+
+
+- --
+ -Lee Bussy          | The 4 Basic Foodgroups....      |
+ leeb`at`southwind.net | Salt, Fat, Beer & Women!        |
+ Wichita, Kansas    | http://www.southwind.net/~leeb  |
+
+
+------------------------------
+
+
+Date: Sun, 19 Feb 1995 23:42:14 -0500
+From: Zeek67`at`aol.com
+Subject: Re: IBU formulas
+
+
+Richard Webb writes:
+
+
+>What does
+>this tell us? It tells us that we are GUESSING as to what leads to hop
+>utilization and bitterness. We know what makes it go up and down, but
+>we are clueless as to the 'real' numbers.
+
+
+I encountered the same problem when trying to come up with a formula on a
+post several months ago.  I found that everyone is using different
+utilization percentages.  A book I read by (Englishman) Graham Wheeler stated
+that most homebrewers get a maximum of only ~20% utilization.  This seemed to
+work for me based on previous batches.  (I adjust for gravity, time).
+
+
+What percentage rates were used for the different ibu's given in your post?
+ Also, I have read several places that there is no significant increase in
+utilization after a 60 minute boil.  Have you found otherwise?
+
+
+~Zeek
+ZEEK67`at`AOL.COM
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 1995 09:19:06 +0000
+From: Brian Gowland <B.Gowland`at`rhbnc.ac.uk> (Tel +44 784 443167)
+Subject: Re: Wheeler on "Dropping"
+
+
+In HBD 1661, Jim Cave <CAVE`at`PSC.ORG> wrote:
+> 
+>         Here is what Wheeler says about Dropping (Wheeler and Protz.
+> 1993. Brew your own real ale at home. ISBN: 1-85249-113-2
+> 
+> [Part of quote cut]
+> 
+> "The beer should be syphoned from one container to another, taking care
+> to leave as much yeast and sediment as possible behind in the primary
+> vessel and taking care to admit the minimum of air into solution; although
+> some air may be beneficial for certain strains of yeast..."
+> 
+> [Rest of quote cut]
+> 
+>         So....Wheeler says _not_ to admit a lot of air during dropping but
+> don't be too anal about it!
+
+
+        The text from "Brew Your Own Real Ale At Home" has, to a great extent,
+been condensed from Graham Wheeler's first book "Home Brewing - The CAMRA
+Guide" which I consider to be more complete. Here's what he has to say in
+this book....
+
+
+        "The advantages of the dropping system are that the dirty primary
+yeast head and the debris on the bottom of the vessel gets left behind, and
+the yeast gets thoroughly roused. However, a good many active yeast cells
+are also left behind on the bottom of the vessel, and some highly flocculant
+yeast strains require re-aeration to encourage the yeast to multiply and
+restore the yeast count to reasonable levels. It is this re-aeration that
+is the stumbling block for many home brewers due to the fear of airborne
+infection. It is true that re-aeration goes against the normal rules of
+sound home-brewed beer, but it is my view that the advantages of the
+dropping system outweigh its risks".
+
+
+        Having read this for the first time in many months, I can see that
+the wording is "....some highly flocculant yeast strains require re-aeration..."
+and not that it should be done as a matter of course as I have been suggesting
+in the past. This was a mis-interpretation by myself when I originally read
+the section many months ago and resulted in me re-aerating everytime. In saying
+that though, I have discovered that the British ale strains that I use, tend to
+cope with re-aeration well and so I will continue to re-aerate as a matter of
+course. What is interesting is that my two favourite strains so far (Wyeast
+and Yeast Lab's British Ale strains) are supposedly only medium-flocculant
+according to Zymurgy Summer 1994 and that the only yeast that I have had
+trouble with (Wyeast #1007 German Ale) is supposedly highly-flocculant as
+detailed in the same article - go figure!
+
+
+Cheers,
+        Brian
+
+
+
+
+------------------------------
+
+
+Date:          Mon, 20 Feb 1995 11:57:40 +0200
+From: "DAVID SCHLEEF" <SCHLEEF`at`hali.edv.agrar.tu-muenchen.de>
+Subject: Extended Mashes
+
+
+In HBD 1662 Robert Mech writes: I would think that if for instance
+the mash time at 154 for 1 hour, was extended to lets say 1.5 hours,
+you could increase your extract efficency.        
+
+
+Extending your mash times will not neccesarrily increase your
+extract.  If your using well modified malt and you're treating your
+water properly(Beta-amylase works best when the water is slightly
+acidic)in addition to a relatively thin mash(1:3.5 or so), then the
+times you are using should be more than adequate, assuming those
+times do not include the time you're spending to reach your target
+temperatures.  In the lab I've gotten 80%+ effenciency by using well
+modified malts(munich light, Kongress Maischverfahren) and holding my
+various temperatures no longer than 30 minutes each.  I hope this
+helps some,
+
+
+Dave Schleef
+TU-Muenchen, Weihenstephan
+
+
+"mit Weihenstephan faengt Bier an."
+
+
+dschleef`at`hali.edv.agrar.tu-muenchen.de
+
+
+------------------------------
+
+
+Date:          Mon, 20 Feb 1995 06:55:49 +0000
+From: "Lee Bussy" <leeb`at`southwind.net>
+Subject:       Re: BJCP Judge Rank Questions
+
+
+Jim Powell asks about the BJCP:
+
+
+Good questions Jim.  As some of you know, alot of these are subject 
+to change but here's what's current (to tyhe best of my knowlege):
+
+
+> What is the BJCP?
+
+
+The BJCP is the Beer Judgce Certification Program started jointly by 
+the AHA and the HWBTA as a means of providing quality judging and 
+helpfull feedback to brewers entering their efforts into 
+sanctioned/recognized competition.
+
+
+> How does one become a judge?
+
+
+Practice, practice, practice! ;)  Alot of studying up on the worlds 
+beer styles, sampling commercial examples and experience are the best 
+ways.  Most start judging local contests and stewarding at larger 
+ones to gain experience/knowlege and to prepare for the examination.
+
+
+The current certification examination is a gruelling 3 hour essay 
+test with 4 tastings thrown in for good measure.  The test is 
+formidable but it does help to ensure that the feedback ou receive 
+from your entries into a competition is helpfull and hopefully 
+correct (we're human too).
+
+
+> How does a judge go about obtaining the next highest rank?
+
+
+You must score a certain level on the exam to be eligible to rise to 
+the next level and have the appropriate level of experience points 
+which are awarded by judging at, stewarding at or organizing 
+competitions.
+
+
+> Are there classes to take; fees to pay?
+
+
+Many clubs hold preparation classes but the bulk of the knowlege you 
+must get on your own through personal study and experience.  
+
+
+The fee for 1st time takers of the exam is currently $50 and $30 for 
+re-takes.  There are currently no yearly dues or maintenance fees.
+> Is there an anual membership fee for a judge to maintain his present rank?
+
+
+Again, not currently.  All that is required is that you continue to 
+judge competitions that present themselves.  There is no "magic 
+number" of competitions that you need attend to maintain your status.
+
+
+> Does a judge have to take future classes/exams to maintain his present rank?
+
+
+No, but the better ones will try to maintain proficciency and 
+increase their knowlege of individual styles.
+
+
+> What type of power is invested into each judge at each given rank?
+
+
+The only power is to be able to help brewers with their beers.  A 
+higher level is really a thing for the judges themselves.  There are 
+many good judges out there that aren't even members of the program.
+
+
+> What can these judges do with their certificates?
+
+
+Buy a beer at a local tavern for $2.50? :)     The certificate is really 
+a donation to the brewers in his or her community.  The judge donates 
+his time to competitions to better the craft.
+
+
+> Can the obtained skills and knowledge of a judge be used to offer a service
+> to breweries?
+
+
+Yes and no.  The program is volunteer only but it is the only 
+nationally recognized accreditation program in the US.  I suppose if 
+you were to solicit your services then it would add some credibility 
+to your efforts.
+
+
+Hope that clears some things up for you.  I'm sure others will add 
+their oopinions to mine and you will be painted a better picture of 
+the program as a whole.
+
+
+- --
+ -Lee Bussy          | The 4 Basic Foodgroups....      |
+ leeb`at`southwind.net | Salt, Fat, Beer & Women!        |
+ Wichita, Kansas    | http://www.southwind.net/~leeb  |
+
+
+------------------------------
+
+
+Date:          Mon, 20 Feb 1995 09:50:00 EST
+From: "Keith Royster" <N1EA471`at`mro.ehnr.state.nc.us>
+Subject:       Internet resources for the Homebrewer
+
+
+Hello all!
+
+
+I've recently joined a local Brewing Club and the president is 
+requesting help in writing the news letter.  I thought a short 
+article on all of the great Internet resources for the homebrewer 
+might make for an interesting article.  One problem, though, is that 
+I'm new to this Internet stuff and I also (temporarily?) only have 
+access to e-mail so all I get is this Digest.  So my request is 
+this...  I would like my fellow homebrewers out there to send me info 
+on any Brewing/Beer related internet mailing groups, Usegroups, WWW 
+sites, etc...  And remember, I'm new to this, so a brief description 
+of the site, what can be found there, and any relavent/specific 
+instructions for accessing would be greatly appreciated.  I will also be 
+glad to forward the compiled info to anyone who requests it.  TIA!!!
+
+
+
+
++------------------------------+-------------------------+
+| Keith Royster                |  NC-DEHNR / Air Qualtiy |
+| n1ea471`at`mro.ehnr.state.nc.us |  919 North Main St.     |
++------------------------------+  Mooresville, NC 28115  |
+| "I think I ran over my       |  Voice: (704) 663-1699  |
+|  Dogma with my Karma."       |  Fax:   (704) 663-6040  |
++------------------------------+-------------------------+
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 95 10:10:26 -0500
+From: neilm`at`juliet.ll.mit.edu ( Neil Mager )
+Subject: GOTT mash tun/lauter information
+
+
+
+
+There is an archive I put together about 18 months ago containing many
+articles about lauter-tun/mash-tun design for all-grain brewing.
+Its at ftp.stanford.edu, in
+/pub/clubs/homebrew/beer/docs/all-grain-equipment.Z 
+
+
+I gathered posts from several years worth of hbd's to put it together.
+
+
+There's several other archives and files that'll be helpful there
+also.
+
+
+Good luck,
+
+
+Neil
+
+
+===============================================================================
+Neil M. Mager
+MIT Lincoln Laboratory       Lexington, MA
+  Weather Radar - Group 43
+
+
+Voice                       (617) 981-4803 (W)
+Internet                    neilm`at`ll.mit.edu
+===============================================================================
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 95 10:54:16 EST
+From: Tim Lawson <lawson`at`clcunix.msj.edu>
+Subject: chicago brewpubs
+
+
+      I've heard that there are 3 new brewpubs in Chicago.  I haven't been
+there since last May but plan on going again this May.  Can anyone give
+me the names & addresses (& any info on their beers) of these brewpubs?
+(I know about Weinkeller's, Goose Island, & Berghoff's).  Thanks in
+advance!!
+
+
+Tim Lawson
+Cincinnati, Ohio
+lawson`at`clcunix.msj.edu
+
+
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 95 09:04:10 EST
+From: mlloyd`at`cuix.pscu.com
+Subject: Superb gas burners
+
+
+
+
+Does anyone have any experience or words of wisdom regarding the Superb
+gas burners? I was looking at one the other day at Liberty Malt Supply
+in Seattle.  I believe I have read that their heat output is -only-
+35,000 BTUH which strikes me as somewhat low.
+
+
+Please post to the group your experience or opinion on this product.
+Thank you.
+
+
+Michael G. Lloyd
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 95 07:55:41 MST
+From: jeff`at`neocad.com (Jeff Stampes)
+Subject: Extraction rate help!
+
+
+
+
+Ick!  I made a batch of all-grain honey ginger lager on Sunday, and while
+most everything appeared to go quite well, My extraction rate...well...it
+stunk!  I'll briefly summarize my procedures (so as to not create another 
+100 line description of my brewday...)...
+
+
+Grain Bill: 9 lbs. German 2-Row Pils, .5 lb. Dextrine, .5 Lb Wheat Malt
+            .25 Lb Crystal Malt - 20L (Oh I wish they had the 10L :)
+
+
+Mashed in grains with 11 qts. boiling H20 in coleman cooler.  Mash stablized
+at about 155F...After 75 minutes, temp was down to 151F, so an additional 3 qts
+boiling H2O was added to bring the temp to 159F...45 minutes and temp was
+down to 156F.  Transferred mash to Phalse Bottom lauter-tun, and sparged with
+4 gallons 170F H2O.  Boiled 60 minutes with hops, 4 oz. grated ginger root and
+2 lbs. honey.  FDinish hopped, cooled, pitched, etc.  (I could tell you a REALLY
+funny story about a 1/4 full carboy getting knocked onto it's side and
+rolling down a flight of wooden steps into our front yard, without cracking
+or losing a drop!  But I'll save that for an aeration antecdote).  Anyway,
+when it was all said and done, I ended up with a OG of 1.047.  At LEAST
+15points lower than I had wanted...I figure this is about a 47% yield?
+What am I doing wrong?  What water chem,otry affects yield?  Oh collective
+hbd wisdom, save my next batch!
+
+
+- -- Jeff Stampes -- NeoCAD, Inc. -- Boulder, CO -- jeff`at`neocad.com    --
+- -- Ultimate Frisbee...It's not just for dogs anymore.                -- 
+- -- Any fool can make bread out of grain...God intended it for beer!  --
+
+
+------------------------------
+
+
+Date: 20 Feb 1995 09:55:59 -0800
+From: "Harrington, Stephen J" <sharrington`at`msmail4.hac.com>
+Subject: Bonehead Update
+
+
+It's alive, it's alive.........
+
+
+The 'cursed' SNPA starter has been raised from the dead.  After about 4 days
+of looking at the dead starter, I had pretty much written it off (until I read
+a post from someone who said that it took them a long time to culture the
+yeast from a Chimay).  I have long sinced brewed, so I guess I will use this
+one for my next batch (I plan on doing the same thing but experimenting with
+mash schedule to see how it impacts extraction/clarity, etc.).   My question
+is, how can I tell if the starter is any good?  It has led a troubled life and
+I really do not trust it.  Is it as simple as smelling it, or should I take a
+taste of the 'beer' and see if it is bad?
+
+
+Cheers,
+
+
+Stephen Harrington
+Manhattan Beach, CA
+
+
+P.S.  How does one avoid having the hops they are dry-hopping with clog up the
+airlock?
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 1995 13:09:17 -0500
+From: cstrick`at`iu.net (Chris Strickland)
+Subject: Use of leftover wort for yeast starter
+
+
+I've been trying to figure out ways to use the left-over wort.  Kraustening 
+was a failure because of the extra crap it left in my beer (I have to filter 
+each bottle to drink it).  So I thought, why not make a hopped LME and 
+freeze it.  So after straining I took the left over wort and boiled it some 
+more to thicken it, then froze it in the freezer.  Is there any reason why I 
+shouldn't use this as a yeast starter?
+- --------------
+Chris Strickland
+cstrick`at`iu.net
+
+
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 95 13:53:48 EST
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: Re: BJCP Judge-Rank Questions...
+
+
+Well, the answer to that is in flux at the moment, given the AHA
+pull-out from sponsorship of the BJCP to establish their own program.
+However, you can look at the "Judgenet Archive" at the following
+addresses: 
+        ftp: guraldi.hgp.med.umich.edu in /pub/judge
+        gopher: guraldi.hgp.med.umich.edu
+        www: http://guraldi.hgp.med.umich.edu/Judge/ 
+                (capitalization important)
+
+
+The best file to look at is probably 'studyguide_v2'.
+
+
+=Spencer in Ann Arbor, MI
+
+
+------------------------------
+
+
+Date: 20 Feb 95 10:19:00 -0600
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: Garetz's Book
+
+
+Thanks to David for pointing out my mistakes.  Indeed, I should not have
+let my zeal interfere with the facts.  I should have brought in my copy of
+his book to check the text before commenting.
+
+
+However, regarding my referring to "Garetz's *Laws* of Hop Utilization,"
+what I had feared *DID* in fact occur.   Many, many unsuspecting homebrewers
+have bought the book and have brewed with the formulas that Garetz published
+and they have brewed overhopped beer with them.  Even experts among us were
+forced to dump batches as a result of these formulas.  How many copies of
+beer calculation software have been distributed with these formulas?  See
+what I mean?  All the disclaimers in the world did not protect these brewers
+from the waste of ingredients and time.
+
+
+No, David, I did not check my copy before engaging my keyboard, but the fact
+remains that the formulas are so far off from reality, that even the
+disclaimer, in my opinion, was not strong enough.  In my opinion, it should
+have read like this:
+
+
+"I've done a few isolated tests on a few beers, but most of these formulas are
+guesses.  The beer brewed with these formulas could have as much as twice the
+expected IBUs.  I'm sorry that I could not be more accurate and did not have
+the time to test all the formulas, but I have been advertizing this book in
+numerous magazines for over six months and this book is already late, so I
+despite the fact that I'm presenting untested formulas, I'll just try my luck,
+hope nobody sues me, and maybe get the formulas right in the second edition.
+This way, you're sure the buy the second edition, right?"
+
+
+
+
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 95 14:16:20 EST
+From: "Harralson, Kirk" <kwh`at`news.roadnet.ups.com>
+Subject: Klages, water
+
+
+     Just now catching up on about a week's worth of digests:
+     
+     Seems as if there is a difference of opinion on how best to mash 
+     domestic 2-row.  I was always under the impression that domestic 2-row 
+     did not need a protein rest. I have had chill haze problems with 
+     single step mashes, but didn't make the link to less body and/or 
+     mouthfeel.  Haze is not a priority with me, but body definitely is.  I 
+     have always relied on the temperature ranges in TNCJOHB for the 
+     different rests (protein, sacc., etc.).  The quotes attributed to Dr. 
+     Lewis would seem to indicate these ranges to be different for Klages.  
+     Is this correct?  Has he (or anyone else) ever quantified the benefits 
+     of using various step programs for Klages?  After reading this post, I 
+     dug out the Sept/Oct 1994 issue of Brewing Techniques in which Dave 
+     Miller discusses the pros and cons of step vs. single infusion for 
+     domestic 2-row malts.  The article left me with the impression that 
+     either method would produce good beer.  I have used the 40-60-70 mash 
+     described by George Fix, and liked the results, even though it extends 
+     an already long brew day.  I have thought about trying Papazian's 
+     schedule (something like 122F for 30 min, 146-152F for 60 min, 168F 
+     for 10 min...).  Would this be better for domestic 2-row?
+     
+     We had a representative from the local water company at one of our 
+     brew club meetings (Northern Maryland).  He said that our water supply 
+     is very shallow and affected greatly by run-off, if I remember 
+     correctly.  A water analysis done today would be completely different 
+     from one done next week, and was therefore meaningless.  I used to 
+     follow water treatment as written in recipes until I realized the end 
+     result would of course be dependent on the water I started with.  I 
+     see a lot of beginning brewers doing the same thing.  I wonder why 
+     recipes often give amounts of gypsum, etc. to add without stating the 
+     targeted concentrations.  The one area I know I could improve on is ph 
+     monitoring.  Not having a ph meter, I have to rely on papers that 
+     range all the way from a tan, semi-medium brown to a brownish 
+     semi-medium-dark tan.  Needless to say, when checking mash runoff that 
+     contains dark malts, I don't have a lot of faith in my numbers.
+     
+     Kirk Harralson
+     Bel Air, Maryland
+
+
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 1995 14:32:26 -0400 (EDT)
+From: "Timothy P. Laatsch <LAATSCH`at`kbs.msu.edu>" <LAATSCH`at`kbs.msu.edu>
+Subject: overpitching/poor body/pale ale
+
+
+Hey HBDers,
+
+
+Yesterday I brewed an all-grain Munich (OG 1.052) and poured the chilled wort 
+directly onto the dregs of the primary from my last Munich.  This may have 
+been a bit of a no-no given the amount of break material and hop residue on 
+the yeast-cake.  Regardless, it's been done.  I aerated 30 minutes following 
+"pitching" and noticed the airlock bubbling almost immediately after being 
+placed on the carboy (6-gal).  I moved the beer to my lager fermentation room 
+(50 F) and checked it 4 hours later just out of curiosity.  It had a huge head 
+and the airlock was bubbling at about 60/min!  I was astounded.  This morning 
+(15 hours after pitching) the airlock was bubbling so fast I could hardly count 
+the bubbles coming out, but I estimate the rate to have been somewhere around 
+120 bubbles/min.  And this is lager yeast!  I'm concerned that the large 
+amount of yeast may have resulted in overpitching this batch, which can lead 
+to oxygen depletion, autolysis, and sulfury odors in the beer (or so I've 
+read).  I plan to rack to secondary as soon as the head starts to recede.  
+Will this avoid the above-listed problems?  What other problems could result 
+from this very rapid burst of activity?  Am I just worrying too much?
+- ----------------------------------------------------------------------
+POOR BODY:
+Many of my extract beers were lacking body and seemed a little watery despite 
+using the appropriate volumes of water and no dilution.  This is one of the 
+big reasons I switched to all-grain----I was hoping for better body and more 
+maltiness.  Now, some of my all-grain batches are suffering the same 
+problem.  I've stopped doing protein rests, tried adding cara-pils, and mash 
+in the high-body end of the spectrum (158 F).  I'm at a loss and REALLY 
+want to correct this situation.  I realize the above-info is sketchy, but can 
+anyone suggest anything---I can give more details by private mail if necessary.
+- -----------------------------------------------------------------------
+PALE ALE:
+In hopes of correcting the above problem with poor body, I plan to do a 
+series of pale ales to refine my mashing/sparging techniques.  Below is the 
+basic recipe I plan to use:
+
+
+        8.0 lbs briess 2-row pale malt
+        1.0 lbs 20L crystal malt
+        0.5 lbs cara-pils
+
+
+        BC Kent Golding hops (24 IBU according to the LATEST v. of SUDSW)
+           ---bittering, finishing, and dry-hopping
+
+
+I thought that I might start with a standard single-infusion mash and 
+experiment from there (working towards the 40/60/70 schedule).  
+Any suggestions on mashing programs or recipe modifications would be 
+appreciated.  
+
+
+Thanks in advance for any help.
+
+
+Bones
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        Timothy P. Laatsch               
+        Graduate Student in Microbial Ecology/Bioremediation                    
+        Michigan State University / W.K. Kellogg Biological Station
+        Kalamazoo, MI        
+        laatsch`at`kbs.msu.edu
+
+
+        "...and your face looked like somethin' death brought with him
+         in his suitcase..."----WZ
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 1995 17:18:49 -0500
+From: andrew keegan <akeegan`at`kierkegaard.helios.nd.edu>
+Subject: Grain Mill: Roller Texture
+
+
+I am attempting to build a grain mill and I have read that
+many people recommend or at least talk of texture on the 
+rollers.  My question is what type of texture?  Is this simply
+rough vs. smooth or is there some sort of pattern or teeth idea?
+I am starting with smooth 2" diameter maple dowls.
+Any help or guidance would be appreciated. Private email preffered
+and if anyone else is intrested I will forward them the info.
+Thanks alot,
+        Drew Keegan (akeegan`at`trudeau.helios.nd.edu)
+
+
+------------------------------
+
+
+Date: Mon, 20 Feb 95 16:32:46 MST
+From: Norman Pyle <npyle`at`hp7013.ecae.StorTek.COM>
+Subject: AHA/IBU
+
+
+Jeff Hewit writes:
+
+
+>Lately, I have seen much trash talk on HBD and R.C.B regarding
+>the AHA.  I don't profess to know much about how the
+>organization is run, or what lead to the rift with the Beer
+>Judges.  However, as a relatively new brewer (1 year, 12
+>batches), I have found membership in AHA to be very helpful.  (I
+
+
+The AHA is designed to bring new brewers into the fold, and they do a very
+good job of this.
+
+
+>just renewed my membership for 2 years.)  When I first asked AHA
+>for info, I received a package that include some very helpful
+>hints.  I also find ZYMURGY very helpful and interesting.  In
+>response to those who complain that it is a "catalog," I find the
+>adds helpful as I search for sources of equipment and
+
+
+After you've been brewing for 3 years or so, those ads get very tiring.  How
+many times do I need to sift through the same ads for Charlie P slogans and
+sayings?  After you've seen them 10 or 20 times you start to wonder if the
+magazine couldn't fill that space with something a little more useful.
+
+
+>ingredients.  As far as judging goes, the only judge I worry
+>about is me.  I brew beer to satisfy my taste, not to score
+>points and win trophies.  Overall, the AHA is addressing my
+>needs as a homebrewer, and I will continue to support it.
+
+
+I do the same thing, but I also appreciate the need for organized judgings
+and such.  I also wonder how the AHA can make such rash decisions (like
+withdrawing support of BJCP) without even a discussion from the hundreds
+(thousands?) of members affected by these decisions.
+
+
+I don't think the AHA supports experienced brewers like they do the
+beginners.  One might argue that more experienced brewers don't need as much
+help, which may be true, but we all pay the same fees, right?  Each year when
+renewal comes around we have to decide for ourselves whether we are getting
+our money's worth from the organization.
+
+
+on the same subject, Scott Bickham writes:
+
+
+>I agree that Zymurgy is a decent publication, especially with the
+>improvements that have taken place in the past year.  The advertising is
+>a little bothersome, but it has some usefulness when you're searching
+>for ingredients and I'd rather have it there than see the price of
+>the magazine increase.  The AHA has significantly helped the craft of
+
+
+Ah, but you can now have both the advertising AND a price increase!  Price
+goes up to $33 next year.
+
+
+>homebrewing, but remember that they are motivated by profits and will do
+>anything they feel is necessary to protect their position.
+
+
+Regarding renewal, I'm not sure I will; I'm riding the fence.  The current
+issue of Zymurgy is a quality issue, probably the best I've seen in over a
+year.  This makes the $33 a little more bearable.
+
+
+**
+
+
+Fred Waltman brings up a very good point:
+
+
+>There has been much discussion about calculated vs. measured IBU's in
+>homebrew. One common thread seems to be that people are taking the IBU
+>numbers on the raw hops as gospel. It would seem that if you are going to
+>try and fit actual IBU numbers to a formula, you should also send in a
+>sample of the hops used to see what their actual amount of alpha acids
+>are. The difference between actual alpha acid and the number written on
+>the package may explain some of the wild variations
+
+
+Bingo!  If you are buying your hops from a local homebrew store, I'd ask a
+LOT of questions:  Who do you buy your hops from?  Do you separate them
+yourselves into 1 oz. packages?  How is this done?  Do you use O2 barrier
+packaging?  Does your supplier?  How are they stored?  etc. etc. etc.
+
+
+If you buy hops from The Hop Source (now owned by Just Hops) or HopUnion, or
+HopTech, then I think the alpha acid is probably pretty accurate.  Once I
+discussed with Glenn Tinseth the issue of rechecking alpha acid late in the
+hop season (many months after harvest).  He indicated that if the hops are
+stored properly (barrier packaging, purged, low temp) then the %AA will not
+have changed much from the original value, and can be used as is.  The good
+hop outlets will store properly, but I've seen very few retail stores who do
+it right.
+
+
+One other issue that comes to mind is weighing the hops.  I've seen a dozen
+different scales used to weigh hops (mostly small food scales), and most of
+them won't give you a guaranteed accuracy.  They are probably all "pretty
+close" but you don't really know how much error you are adding at this simple
+step.  Using a laboratory-grade scale is a different story, but many of us
+haven't invested in one.  I for now, have taken the tack of aiming for
+precision, rather than accuracy.  If I have as a foundation the ability to
+duplicate a certain bitterness within acceptable limits, I can take it one
+step further and adjust it upwards or downwards to meet a goal.  This is
+basically the same argument as Rich Webb's.  Another thing to think about.
+
+
+Cheers,
+Norm
+(I still think having Fort Collins, or Seattle, or San Francisco in your
+ .signature constitutes "rubbing it in", but I can live with that!!!)
+
+
+------------------------------
+End of HOMEBREW Digest #1663, 02/21/95
+*************************************
+-------

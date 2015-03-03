@@ -1,0 +1,1352 @@
+﻿Return-Path: homebrew-request`at`brew.oeonline.com
+Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.212.2.26])
+        by srvr5.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA22150
+        for <spencer`at`srvr5.engin.umich.edu>; Fri, 6 Feb 1998 01:40:13 -0500 (EST)
+Received: from redheat.rs.itd.umich.edu (0`at`redheat.rs.itd.umich.edu [141.211.83.36])
+        by srvr20.engin.umich.edu (8.8.8/8.8.8) with ESMTP id BAA14181
+        for <spencer`at`engin.umich.edu>; Fri, 6 Feb 1998 01:40:12 -0500 (EST)
+Received: (from root`at`localhost)
+        by redheat.rs.itd.umich.edu (8.8.5/2.5) with X.500 id BAA22602; Fri, 6 Feb 1998 01:40:11 -0500 (EST)
+Received: from brew.oeonline.com (brew.oeonline.com [206.31.224.50])
+        by redheat.rs.itd.umich.edu (8.8.5/2.5) with ESMTP id BAA22586; Fri, 6 Feb 1998 01:40:08 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.4/8.8.4)
+          id AAA13059 for realhomebrew; Fri, 6 Feb 1998 00:49:32 -0500
+Date: Fri, 6 Feb 1998 00:49:32 -0500
+Message-Id: <199802060549.AAA13059`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2630 (February 06, 1998)
+
+
+
+
+
+
+HOMEBREW Digest #2630                             Fri 06 February 1998
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  Guiness Bitter ("Gregg Soh")
+  temp control programming ("Chris A. Smith")
+  Counter pressure bottler answer (Bill Giffin)
+  Orlando Brewpubs? ("Schultz, Steven W.")
+  Re: Natural gas cookers (Paul Shick)
+  New Orleans / Washington, DC ("Jeffrey M. Kenton")
+  Propane (Tom Clark)
+  mashtime in the mashtun ("Spies, James")
+  Medicinal flavors / Pump sanitation / my haze (George_De_Piro)
+  Re: Use of LP Indoors (Steve Scott)
+  Re: Plastic taste (Jeff Renner)
+  Sparging, ("David R. Burley")
+  Flushin' out that mash (Samuel Mize)
+  No subject given ("Kirk Harralson")
+  Beer Engine, Refrigerators (rbarnes)
+  Brown Ale Recipe question for a friend (Rich Hampo)
+  Natural Gas Burners ("Brian Rezac")
+  Keg Lube alternative/modern malts (Tim Martin)
+  peculiar yeast starter behavior (Kevin TenBrink)
+  Butt jelly instead of keg lube... ("Pat Babcock")
+  Re: Computerized Fridge Controller (Dave Thayer)
+  mashout & extraction efficiency (Domenick Venezia)
+  false bottoms ("Emily Neufeld")
+  Growing Southern (US) Hops (GordonRick)
+  Getting rid of chlorine (GordonRick)
+
+
+
+
+
+
+
+
+NOTE NEW HOMEBREW ADDRESS:  hbd.org 
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+  (Articles are published in the order they are received.) 
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+**ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!! 
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+For "Cat's Meow" information, send mail to brewery`at`hbd.org
+
+
+Homebrew Digest Information on the Web: http://hbd.org
+
+
+Requests for back issues will be ignored. Back issues are available via:
+
+
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+
+
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 04 Feb 1998 21:09:49 PST
+From: "Gregg Soh" <greggos`at`hotmail.com>
+Subject: Guiness Bitter
+
+
+I came across the curious GUINESS BITTER in a green can today. There 
+were crates and crates of 'em in the shop but weren't for sale as 
+yet(they just came in). Never seen it before, anyone heard of it? (If I 
+recall, Dave Burley has seen it, I think).
+
+
+Greg
+
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 1998 16:17:29 +1300
+From: "Chris A. Smith" <casmith`at`metro.telecom.samsung.co.kr>
+Subject: temp control programming
+
+
+Generally I'm a lurker on this list, but I 
+thought I harp in here with a suggestion.
+
+
+Thumbing through the Dallas Semiconductor
+databook the other day, I noticed some temp
+control chips they build that might be of interest 
+in homebrew applications.  In particular, I remember 
+a thermostatic control chip (DS1621 ?) that allows you to 
+specify a temp setpoint, a hysteresis value, and
+to read back temp over a serial link.  This serial 
+interface has a very simple protocol which was
+obviously created so that you could simply connect
+the sucker directly to a PC serial port and generate
+the proper sequence of binary values in software.
+
+
+Also, they had some very curious temp sensors (DS1820)
+that could be connected daisy-chain style by a 
+single wire serial interface.  The weird thing about these
+sensors is they required no power supply - somehow
+Dallas figured out a way to use the serial link 
+voltage to run the chip.
+
+
+I don't know how much these
+chips cost, but I'd be suprised if they were 
+very pricey since Dallas makes a lot of utility-type
+chips for the PC industry, where cost is a big issue.
+
+
+Dallas Site:  http://www.dalsemi.com
+
+
+- -- Insert standard 'not-associated-with' disclaimer here --
+
+
+Good Luck.
+- -- 
+
+
+
+
+Chris A. Smith
+Document Center
+Infrastructure Networks Division
+Samsung Electronics Co., Ltd.
+Seoul, Korea
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 1998 07:36:22 -0500
+From: Bill Giffin <billg`at`ctel.net>
+Subject: Counter pressure bottler answer
+
+
+Top of the morning to yea all,
+
+
+
+
+Ken Hawkins had a question,
+>
+>Now Bill had said to adjust the Foxx bottler to appear as such:
+>         (plug)------(a
+>               |
+>          b)--|-- (c
+>               |
+>              \ /
+>               |
+>     (insert bottle hear)
+>
+>Shout when I make a wrong turn. I do not see what exactly makes this a
+>superior set up for c-p filling, then again fluids were never my strong
+>point in physics classes of old. Could someone please expound on this?
+>Also if we're going through the motions of converting wouldn't putting
+>an elbow on top keep from creating a dead spot which could (insert
+>possible bad outcome here), or at minimal inhibit the flow of sweet
+>liquid gold? The latter question could possibly be the ranting of an
+>anal retentive rookie to the c-p filling circle and if it doesn't matter
+>slap me now.
+
+
+
+
+The change in the filler is because there is CO2 always filling the bottle
+and the bottle is always under CO2 pressure.  The bottler is far more
+controllable then the original Foxx and will allow you to fill more bottles
+faster with far less foam.  When the bottle is full you purge the headspace
+with CO2 helping to prevent oxidation.  Hope this is enough reason.
+
+
+Bill
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 08:15:46 -0500
+From: "Schultz, Steven W." <swschult`at`CBDCOM-EMH1.APGEA.ARMY.MIL>
+Subject: Orlando Brewpubs?
+
+
+I'm taking a trip to Orlando, FL next week and would appreciate any
+private posts, informing me of the better brewpubs in town.  Thanks in
+advance.
+
+
+Steve Schultz
+Abingdon, MD
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 1998 09:56:07 -0500 (EST)
+From: Paul Shick <SHICK`at`JCVAXA.jcu.edu>
+Subject: Re: Natural gas cookers
+
+
+
+
+
+
+Hello all,
+
+
+        Tom Riddle asks about a source for natural gas burners for
+his new basement brewery.  You can still get NG versions of the King
+Kooker at the Grape and Granary in Akron, Ohio (www.grapeandgranary.com.) 
+I'm currently using three of these with converted kegs.  The lower NG 
+pressure seems to result in lower output than the propane versions.  It
+takes about 35 minutes to heat 10 gallons from 50F to 165F (still a lot
+quicker than my stove was for 5 gallons.)  I've had great service from the
+G and G people in person, so I assume that their mail order should be OK.
+The cost was roughly $45 per burner last summer.
+                                    
+                        Paul Shick
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 09:00:29 -0600
+From: "Jeffrey M. Kenton" <jkenton`at`iastate.edu>
+Subject: New Orleans / Washington, DC
+
+
+Hello All.
+
+
+A very brief message: I will be in New Orleans Feb 25-28 for a national
+conference, ditto Washington, DC March 11-14. If you know of some cool
+places to go (beer-related) in The Big Easy, or the Nation's Capitol, send
+me private email.
+
+
+Thanks
+
+
+Jeff Kenton
+
+
+- -------------------
+
+
+Jeff Kenton                brewer`at`iastate.edu
+Ames, Iowa                jkenton`at`iastate.edu        (515) 294 9997
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 1998 10:13:36 -0500
+From: Tom Clark <rtclark`at`eurekanet.com>
+Subject: Propane
+
+
+For those of you wanting to use propane, the outfit below has an 
+interesting looking "stove" called the BIG 60.
+
+
+No affiliation...
+
+
+http://wwbcity.com/hgas2.htm
+
+
+Tom Clark
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 10:36:31 -0500
+From: "Spies, James" <Jams`at`mlis.state.md.us>
+Subject: mashtime in the mashtun
+
+
+All -
+
+
+SMurman (sorry), in HBD #2629 stated that   >>>While diffusivity is
+secondary during the sparge, during the mash it is not.  While the
+mash is sitting parked at it's sacc. temperature, the sugar that's
+produced will try to evenly distribute in the water.  The problem is
+that we usually stop mashing after 60 min. or so, and as I said above
+diffusion is slow, so there will always be sugar trapped within the
+grains . . . <<<
+
+
+That got me thinking.  Perhaps this question as already been answered,
+but repetition is the spice of life, eh? . . . .   I mash in a 10 gallon
+Gott, and usually limit the mash to a single sacc rest at ~156dF.  I
+have always had complete conversion (per iodine test) in 60 min.
+However, has anyone done any studies comparing how much, if any,
+increase in efficiency occurs if we are to simply let the whole shebang
+sit for another 30 - 45 minutes?  Would the slow diffusion of sugars
+*out* of the middle of the grains and *into* the spaces between them
+help increase efficiency more than simply doing a painfully slow sparge
+after 60 min?  Would doing said painful sparge after 90 minutes be even
+better?  105 min?   Let the collective wisdom flow . . .
+
+
+Jay Spies
+Wishful Thinking Basement Brewery
+Baltimore, MD
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 10:10:02 -0800
+From: George_De_Piro`at`berlex.com
+Subject: Medicinal flavors / Pump sanitation / my haze
+
+
+     Hi all,
+     
+     Dave Burley responds to a post about medicinal aroma/flavor in beer.  
+     He suggests that this can be from oxidation.
+     
+     In my experience oxidation is usually expressed as a papery/cardboard 
+     aroma/flavor.  It can also come in the form of sherry and nutty tones 
+     (which, by the way, many people do not find unpleasant.  In my early 
+     days of beer-geekness I thought that many beers were supposed to taste 
+     that way!  Almost all of the imports were BADLY oxidized.)
+     
+     A more likely explanation of medicinal notes in beer is phenolic 
+     compounds.  These are often produced by wild yeast.  If the final 
+     gravity of the beer is lower than you expected, then it is almost 
+     definitely a wild yeast problem.
+     
+     Chlorine can react with phenols in the beer to form chlorophenols, but 
+     these are usually perceived as a strong swimming pool odor, not 
+     medicine.
+     -------------------------------
+     Dean asks if running hot (160F/71C) wort through his pump for 40 
+     minutes during the sparge will adequately sanitize it so that he can 
+     move cold wort through it later.
+     
+     I would NOT try this.  The effluent from the lauter tun is often much 
+     cooler than the sparge water going in the top.  I would not trust it 
+     to sanitize the pump.  The bacterial load of grain is pretty high, 
+     too, which is another reason I wouldn't use lauter tun runoff for 
+     sanitizing purposes.
+     
+     I would run nearly boiling water through the pump and hoses 
+     immediately after the sparge is complete.  If you can cap everything 
+     off, then you'll probably be OK until it is time to run the cast out 
+     wort through the system.  You could always run more hot water through 
+     it just before running the cool wort, too.
+     
+     I avoid moving cool wort through my pump.  Gravity is much simpler, 
+     and won't infect my beer!  Pumps can get pretty gunky.
+     -------------------------------
+     Dave Burley suggests that my CAP haze may be from unconverted starch 
+     from inadequate cooking of the corn meal.
+     
+     While I foolishly did not examine the beer with a microscope to 
+     determine the cause of the haze prior to fining, I feel confident that 
+     it is not starch.  The iodine test was negative at the end of the 
+     mash, and cereal cooking is not new to me.
+     
+     From experience, I know that the amount of gelatin I used should have 
+     cleared a yeast haze.  Since it didn't in this case, I'm thinking that 
+     it may have been a protein haze.  The Polyclar definitely did not seem 
+     to help any, though.  Hmmm...  By the way, Classic American Pilsners 
+     tend to be pretty darn hoppy, Dave.
+     
+     This reminds me of an interesting story about flaked corn:  One of my 
+     Siebel classmates was from a large Indian brewery.  He complained that 
+     they could not get clear runoff when using flaked maize in the mash.  
+     I postulated that his flaked maize may not have been adequately 
+     gelatinized by the manufacturer.  This supposition was then confirmed 
+     by one of the instructors:  Siebel had recently been analyzing flaked 
+     maize from several Indian producers, and found them all to be 
+     inadequately gelatinized!
+     
+     The gentleman from India then noted that when they cooked the flaked 
+     maize in a cereal cooker, they got clear runoff, but a very slow 
+     sparge.
+     
+     The slow sparge confounded everyone in the room, and the poor guy had 
+     to go back to India without a complete answer.  Any ideas from the HBD 
+     crowd?
+     
+     Have fun!
+     
+     George De Piro  (Nyack, NY)
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 1998 11:14:04 -0500
+From: sscott`at`lightlink.com (Steve Scott)
+Subject: Re: Use of LP Indoors
+
+
+>On various brew-related websites I have noticed the apparent use of=20
+>LP gas burners on indoor setups.  I understand the potential concerns=20
+>of leaking LP gathering in low areas, however, what are the=20
+>ramifications of *burning* LP indoors.  Specifically, what are the=20
+>byproducts of burning LP?  Is there potential for carbon-monoxide=20
+>buildup without adequate ventilation?
+
+
+If we assume adequate combustion air the byproducts are water vapor, CO2
+and CO.  Yes, there is a potential for hazardous levels of CO
+production.  BTW, the same concerns are present with methane (NG).
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 11:08:02 -0500
+From: Jeff Renner <nerenner`at`umich.edu>
+Subject: Re: Plastic taste
+
+
+David R. Burley writes (in his open verse style ;-)  )
+
+
+>Tim Burkhardt has a plastic taste in his bottled beer =
+>
+>that wasn't there before bottling. This taste is often =
+>
+>associated with phenols and such.  Possibly what =
+>
+>you taste is due to the beer oxidation during bottling.
+
+
+I replied to Tim privately, but suggested wild yeast or bacteria as the
+likely source or this phenolic taste.  That has been my experience as well
+as what I've read, here and elsewhere.  I've never heard of oxidation as
+the source for this.  Oxidation flavors are more typically cardboard,
+sherry, etc, I thought.
+
+
+Jeff
+
+
+ -=-=-=-=-
+Jeff Renner in Ann Arbor, Michigan c/o nerenner`at`umich.edu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943. 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 11:42:49 -0500
+From: "David R. Burley" <Dave_Burley`at`compuserve.com>
+Subject: Sparging,
+
+
+Brewsters:
+
+
+I do not know what to do about the "=3D" signs and spacing =
+
+
+of my copy.  I keep shortening the lines, etc. to no avail.  =
+
+
+My apologies.  I am sorry for the inconvenience.
+- --------------------------------------------
+Jim Bentson makes a  fine summary of the excellent =
+
+
+comments so far on the design of the sparging bed.
+And says:
+
+
+>The very fact
+>that we must drain the sparge and replace it with fresh =
+
+
+water makes me think
+>that there is some solubilty limiting factor at play. =
+
+
+Again I stress that
+>this is postulation, as I don't know the actual =
+
+
+solubility limits. Comments
+>anyone?
+
+
+Actually sugar is pretty soluble as you may know from =
+
+
+other experiences in life like candy making as well =
+
+
+as brewing.  It certainly is much more soluble than a =
+
+
+few percent  which is contained in the wort.  Those =
+
+
+candy makers and pancake eaters among us know =
+
+
+that what also happens  when something, as =
+
+
+hydrogen bonding as sugar, dissolves in water =
+
+
+is that the viscosity rises rapidly with concentration. =
+
+
+
+
+It is this viscosity functionality and not solubility =
+
+
+which is the controlling factor in efficient sparging.
+
+
+Viscosity is also dependent on the temperature of the =
+
+
+wort and other dissolved entities such as gums and =
+
+
+proteins.
+
+
+Viscosity is a kinetic phenomenon and not a =
+
+
+thermodynamic function like solubility, so rate makes =
+
+
+a difference.
+
+
+Anything you can do to reduce the viscosity of the =
+
+
+wort will make for a more efficient sparge.  =
+
+
+
+
+What can you do? =
+
+
+
+
+1) Lower wort SG  and thereby the viscosity for a =
+
+
+given amount of sugar- in other words mashing out to =
+
+
+the maximum volume possible with hot water.
+You should do this in favor of adding more sparge water
+for the same total volume since viscosity is an =
+
+
+exponential function with concentration. This may =
+
+
+not be an option if you are already at full mash volume =
+
+
+unless you boil more off.
+
+
+2) HIgher temperature ( a mash out at 167F, =
+
+
+for example, to heat up the grain bed)
+
+
+3) Glucan and protein rests, especially with =
+
+
+things like wheat and rye =
+
+
+
+
+4) Slow sparge with the sparge liquor to allow the wort =
+
+
+contained in the capillaries of the grain to diffuse into =
+
+
+the liquor. As has been pointed out here 60 to 90 =
+
+
+minutes is about right for homebrewing.
+
+
+5) Smaller cross-section of the grist particle along one =
+
+
+dimension.  i.e. a finer grind or maybe a flake shape =
+
+
+to the particle, such as you get in roller milling.  This
+means the wort in the grain capillaries doesn't have =
+
+
+so far to diffuse.
+
+
+
+
+Keep on brewin'
+
+
+
+
+Dave Burley
+Kinnelon, NJ 07405
+103164.3202`at`compuserve.com
+Dave_Burley`at`compuserve.com  =
+
+
+Voice e-mail OK =
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 13:12:22 -0600 (CST)
+From: Samuel Mize <smize`at`prime.imagin.net>
+Subject: Flushin' out that mash
+
+
+Greetings to all, and especially to:
+
+
+> HOMEBREW Digest #2629    Thu 05 February 1998
+
+
+> From: smurman`at`best.com
+> Subject: mashout
+
+
+> Second, I think that molecular diffusion plays a secondary role in the
+> removal of the sugar from the grains.
+ ...
+> So, if you agree that a mashout step cannot increase the efficiency by
+> either affecting the amylase activity or by decreasing the viscosity
+
+
+Me not know all them big words.
+
+
+However, I do know that more sugar dissolves in hotter water, and faster.
+
+
+>I think the mashout step can affect the efficiency simply by
+> the mechanical action of mixing to achieve the next temperature.
+
+
+Makes sense too.  OTOH, Schmidling and the RIMS (I saw them on tour) are
+mechanically mixing throughout the mash in either case, so this would not
+explain any difference THEY are seeing.
+
+
+Has anyone who mixes throughout the mash compared efficiencies both with
+and without mashout?
+
+
+Best,
+Sam Mize
+- -- 
+Samuel Mize -- smize`at`imagin.net -- Team Ada
+Fight Spam - see http://www.cauce.org/
+Hillary's book about Bill's private life: "It Takes a Village"
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 98 14:18:25 -0500
+From: "Kirk Harralson"<nie1kwh`at`ismd.ups.com>
+Subject: No subject given
+
+
+
+
+ Every source on fining that I've seen (beer or wine) recommends adding the 
+ fining agent(s) at the end of fermentation.  The instructions in the last 
+ wine kit I made said to add the finings (bentonite) at the start.  I found an 
+ explanation for this in the winemaking faq:
+ 
+ > G15. Why am I adding the bentonite at the beginning?  How much do I put 
+ >     in?  Where do I get it?
+ >
+ > {As I understand it, bentonite is a clearing agent.  However, in the 
+ > instructions for my kit it says to add the bentonite at the same time 
+ > as the yeast.  Why?
+ >
+ > It helps to get rid of a lot of stuff (including millions of dead yeast 
+ > cells) during the primary fermentation by having it all fall out before 
+ > clearing ever starts.  Doing so optimizes the actual clearing process
+ > by taking care of a lot of it before you even try.  It also helps avoid 
+ > foul smells from decomposing yeast -- a potential problem when your
+ > wine is in the carboy for several weeks or even months -- when you
+ > transfer the wine into the secondary by having them all fall out to the 
+ > bottom in the primary, therefore avoiding their transfer.
+ >
+ > In about 5 gallons, about 25 to 50 grams of bentonite is used.
+ > Bentonite should be easily available from your brewing supply shop.
+ 
+ Does this sound like a reasonable thing to do?  Would this reasoning apply to 
+ beer in the same manner?  What are the possible negative side effects of 
+ adding some bentonite (and/or other finings) in the last few minutes of the 
+ boil?
+ 
+ Kirk Harralson
+ Bel Air, Maryland
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 98 11:22:05 -0800
+From: rbarnes`at`sdccd.cc.ca.us
+Subject: Beer Engine, Refrigerators
+
+
+
+
+     Thanks to Sam Mize for answering my question about using a brass 
+     Fynspray pump to make the "$50 beer engine" featured in BYO. Can't use 
+     brass because of the lubricant in the pump, but the plastic pump works 
+     great. 
+     
+     To add to the refrigerator thread: I have an old (25-30 years, judging 
+     by the "Harvest Gold" color) refrigerator, approx. 16 cf, with a 
+     single door (freezer and refrig. in same compartment). I've been using 
+     this to lager, but I noticed that by turning the control to a point 
+     between defrost and "1" (the warmest setting), I can maintain a temp 
+     of 50 degrees. Will this setting hurt the unit? If it won't, I could 
+     ferment lagers without buying an external controller.
+     
+     Thanks- Randy in San Diego
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 14:51:56 -0500
+From: rhampo`at`ford.com (Rich Hampo)
+Subject: Brown Ale Recipe question for a friend
+
+
+Howdy to the Collective!
+
+
+A friend that I forward the HBD to is having difficulty posting
+so I am posting it for him. His email is drussel3`at`ford.com.
+
+
+******************************************************************
+
+
+I have recently progressed to extract/grain brewing and would like to have a
+try at formulating my own recipe.  I would like to create an English Brown Ale.
+I have a few questions:
+
+
+1. What are traditional varities of hops for Northern/Southern styles? (bitter,
+flavor, etc.)
+2. Many recipes I have downloaded call for brown sugar.  Is this to style to
+use
+brown sugar?   (light or dark)
+3. Any other suggestions...
+
+
+Thanks for the hbd.  I am now hooked and I am having a hard time justifying
+this with my wife.
+
+
+Private e-mail okay.
+
+
+- --
+David Russell   drussel3`at`ford.com    Plymouth, MI
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 13:10:00 -0700
+From: "Brian Rezac" <brian`at`aob.org>
+Subject: Natural Gas Burners
+
+
+Tom Riddle <ftr`at`oracom.com> wrote:
+> Subject: Natural Gas Burners
+> 
+> After a long, painful, absence from brewing due to changing jobs,
+> moving, getting married, etc I am ITCHING
+> to brew again.  I used to brew in my garage with a propane Cajun Cooker
+> jet engine style burner, but now I must
+> move my brewing operation indoors to the basement, and hence to natural
+> gas.  Does anyone know of a vendor
+> for a NG burner appropriate for brewing in a 1/2 bbl keg ?  Does anyone
+> have experience / recommendations
+>to give ?
+
+
+Tom,
+
+
+In the spring issue of Zymurgy, we are featuring "The Burner Road Test". 
+The article compares different propane burners specifically for homebrewing
+usage.  It doesn't cover natural gas.  However, in doing a little of the
+background research for the article, I was educated a little on converting
+propane burners to natural gas.
+
+
+You need to get a "Low Pressure" burner.  These are the burners that
+operate with low pressure regulators.  (Your jet burner is most likely high
+pressure.)  To convert these burners to natural gas, you need to replace
+the orifice (the tiny hole in the end of the gas line).  A few of the
+burner manufacturers will actually specify which burners are convertable to
+natural gas.  I believe that they even provide the replacement orifice.  
+
+
+There are probably more manufacturers that do this, but the two that I know
+of is:
+
+
+Metal Fusion, Inc. (King Kooker)
+712 St. George Ave.
+Jefferson, LA  70121
+(504) 736-0201
+
+
+Empire Comfort Systems, Inc. (Suberb)
+918 Freeburg Ave.
+Belleville, Il  62222
+(800) 851-3153
+
+
+Good Luck & Good Beer!  
+
+
+Also, congratulations on your marriage and your new job.
+
+
+ -  Brian
+
+
+Brian Rezac
+Administrator
+American Homebrewers Association  (303) 447-0816  x 121   (voice)
+736 Pearl Street                               (303) 447-2825   (fax)
+Boulder, CO  80302                           brian`at`aob.org
+U.S.A.                                             http://beertown.org
+
+
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 1998 16:47:16 -0500
+From: Tim Martin <TimMartin`at`southwest.cc.nc.us>
+Subject: Keg Lube alternative/modern malts
+
+
+Hey Neighbors,
+
+
+A mail order brew shop recommended I use Vaseline as a substitute for
+Keg lube. I personally never tried this, since I believe it's a petroleum
+based product, any brave souls care to try it and report back.
+#####################
+
+
+I certainly have enjoyed the discussion on "modern malts" please keep it
+up. I posed a question several months ago concerning my confusion to
+which malt is modern and I must confess I am still confused. 
+
+
+I have tried bitting the grain and I do see the difference now. I just did
+two batches with Klages, which are supposed to be modern fully
+modified malts (depending on which source I consult) and the Klages will
+definitely chip a tooth. To compare I chewed some Belgian caravienne
+and carapils and there is a remarkable difference in crunch ability. I did
+get considerable chill haze from the Klages with a single infusion at
+156df.
+
+
+While I like this simple method of determining modification I still don't
+understand why there is not list stating these malts need a rest and
+these malts are fully modified and they do not and etc. But correct me if
+I'm wrong but I'm sensing if I use Marris Otter this time and I don't use a
+rest but order more at a latter date it may be different and will require a
+rest. Is this why there is so much confusion over this topic and why they
+are not just spelled out on a list.
+
+
+You lose me on measuring the acrospire not sure I would recognize one
+if I held it in my finger any way. I ferment in stainless steel so I can't
+visually check and compare break levels and quite frankly a malt analysis
+sheet, if you can find one is difficult to interpret. Yes, chill haze is my
+main reason I want to chose the correct malt. I have polyclar and gelatin
+standing by to use on a batch that I kegged this weekend but I have
+never used the two and I'm resisting the urge to use them but the chill
+haze is really bugging me. 
+
+
+To Kyle Druey please keep up the research and the pursuit of truth and I
+agree with the articulate way you present the problem. From one grunt in
+the trench who's only pursuit is good clear beer in the simplest way
+(single infusion) I hope that one day soon we can solve this confusion
+over "under, moderate, highly, modern malts".
+
+
+Tim Martin
+Cullowhee, NC (next to The Great Smoky Mountain National Park)
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 1998 17:22:36 -0700
+From: Kevin TenBrink <tenbrink`at`jps.net>
+Subject: peculiar yeast starter behavior
+
+
+I recently started doing yeast starters for some of my beers and have
+noticed some peculiar things happening and would like to know if anyone
+else has experienced the same things or has an explanation as to what is
+going on.
+ I make a starter and add the yeast.  The next morning there does not
+appear to be any activity, ie fermentation, in the gallon jug that I am
+using, that is, until I give it a shake or a swirl.  Then a huge out
+gassing of CO2 occurs and it returns to its apparently docile state.  I
+wait a few minutes and give it another shake and yet another large burst
+of CO2 is emitted from the wort/starter.  This has happened on every
+occasion I have made a yeast starter, even though I have used different
+yeast, different amounts of starter wort, and different temps to store
+these starters.  Initially I thought it was the tile floor in my beer
+closet sucking the heat out of the wort, chilling it, and making the CO2
+more soluble...but this time I put a fermometer on the jug and put the
+jug on a phone book near a heat duct.  The temp has not dropped below 70
+degrees F and I am still witnessing this weird behavior.
+Any ideas?  How am I to know when the starter is done, when it stops
+spewing CO2 upon agitation?
+
+
+In follow-up to the beer swap idea, I have gotten several replies
+expressing interest, I will wait a few more days and then the beer swap
+will take effect, if you are interested, please mail me.
+
+
+thanks
+Kevin
+Nine Inch Ales
+http://www.jps.net/tenbrink/nineinchales.htm
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 19:21:33 -0500
+From: "Pat Babcock" <pbabcock`at`oeonline.com>
+Subject: Butt jelly instead of keg lube...
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Tim Martin of Cullowhee, NC (which I'd imagine is quite a distance 
+from Jeff Renner) spaketh thusly:
+
+
+> A mail order brew shop recommended I use Vaseline as a substitute
+> for Keg lube. I personally never tried this, since I believe it's a
+> petroleum based product, any brave souls care to try it and report
+> back.
+
+
+DON'T DO IT!!!! I used petroleum jelly (same by any other name), being the
+foolhardy lad that I am, on the o-ring for the strainer basket cover on my
+swimming pool filter. The seal swelled up and became gummy. Having learned
+this lesson ("Duh, um, it don't like rubber" occurred to my enfeebled
+mind) and being as thick as a brick (The mind could only understand the
+"duh" part), I proceeded to use some on the seals on a few of my cornie
+kegs. Those having more than two brain-cells to rub together (which
+appears to be everyone but me and your mail order supplier) should be able
+to guess what the result was...
+
+
+> #####################
+
+
+Um, Tim? Trying to curse us? That looks an awful lot like plaid.
+
+
+See ya!
+
+
+Pat Babcock in SE Michigan          pbabcock`at`oeonline.com
+Home Brew Digest Janitor            janitor`at`hbd.org
+AOL FDN Beer & Brewing Maven        BrewBeerd`at`aol.com
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 18:32:28 -0700 (MST)
+From: Dave Thayer <dthayer`at`netcom.com>
+Subject: Re: Computerized Fridge Controller
+
+
+In HBD #2629, Mark Riley wrote:
+
+
+> As to having a PC controlling the relay directly, all
+> I can say is that PC's have a tendancy to crash,
+> hang, or be otherwise ill disposed.  Although the
+> circuit would be more complicated, a better idea would
+> be to have the PC set the desired temperature (with a
+> DAC) and do the data logging.  Leave the switching
+> to a comparator.  If the PC crashed, the comparator
+> circuit will still be active and your freezer will stay
+> at the last set temperature (i.e. your beer won't be
+> ruined).
+
+
+The Dallas Semiconductor (http://www.dalsemi.com) DS1620 temperature
+sensor/controller IC has a digital interface you can connect to your
+computer, is factory pre calibrated to 0.5 deg C, and can be hooked to
+a relay output with programmable hysterisis. If your PC goes down it
+will run in stand-alone mode. All this for about 6 bucks.
+
+
+Disclaimer: I have not actually used one of these (it's on my to-do
+list), but from the specs I've seen it looks perfect for this
+application.
+
+
+your pal dave
+
+
+- -- 
+Dave Thayer
+Denver, Colorado USA
+dthayer`at`netcom.com 
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 18:11:58 -0800 (PST)
+From: Domenick Venezia <demonick`at`zgi.com>
+Subject: mashout & extraction efficiency
+
+
+
+
+In 2629 Smurman`at`best.com speculates on the reason(s) for the increase in
+extraction efficiency often seen when employing a mashout. 
+
+
+On two of his points I agree.  First, reduced viscosity is irrelevant (I
+will explain below), and second, molecular diffusion can not possibly
+compete with the effects of simple flushing or rinsing.  The subtle
+molecular movements driven by osmotic pressure are totally overwelmed by
+the movement of water.  
+
+
+Try this experiment.  Drop a couple of sugar cubes in a glass of warm
+water and let them dissolve on the bottom of the glass.  Wait until the
+dissolved sugar diffuses throughout the water (hours). Then, fill another
+glass 1/2 full of water and drop in a couple of sugar cubes and wait until
+they have dissolved.  As soon as they are dissolved fill the glass the
+rest of the way.  Which glass "equilibriated" faster? 
+
+
+I must however disagree with his conclusion that it is agitation that 
+is the cause of the increased extraction efficiency.  I might agree if
+we sparged while stirring the complete mash, but we don't.  In fact we
+take great pains to NOT disturb the grain bed once established.  Of course
+some "rake" or stir the very top portion of the mash bed to reduce
+channeling, but most of the solutes leave this portion of the mash quite
+quickly.
+
+
+Before I share my speculation let me say that it is unfortunate that
+someone, somewhere, at sometime brought up runoff viscosity as an
+explanation for the increased extraction that is often seen when employing
+a mashout.  The viscosity of the runoff starts high as the sparge begins
+then falls as the sparge progresses, hitting every value in-between.  If
+lower viscosity yielded greater extraction then it would happen at the
+lower viscosities that naturally occur during the sparge.  Viscosity is
+not an issue.
+
+
+Solubility is the issue.  
+
+
+More sugar dissolves in hotter water than cooler water.  If you raise the
+temperature of the mash by 20F (150F to 170F) you increase the solubility
+of dextrose from ~3300g/liter to ~4000g/liter (21% increase) which easily
+explains the increased extraction efficiency.  To realize the potential
+gains in extraction that mashout yields you must also sparge with water of
+similar temperature. 
+
+
+(Please note that the solubility values were interpolated from the Merck
+Index data points of 1.1ml/g `at` 25C, 0.8ml/g `at` 30C, 0.41ml/g `at` 50C,
+0.28ml/g `at` 70C, 0.18ml/g `at` 90C (ml of water per gram of glucose)).
+
+
+Domenick Venezia   demonick`at`zgi.antispam.com (remove .antispam)
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 05 Feb 98 21:54:30 PST
+From: "Emily Neufeld" <eneufeld`at`michianatoday.com>
+Subject: false bottoms 
+
+
+
+
+As a relatively new all-grain brewer with only one year experience and =
+limited equipment, I have been following the protein rest thread quite =
+avidly.  I an effort to gain a bit more control over my mashing I purchas=
+ed a 10 gallon rubbermaid cooler and would like a recommendation on which=
+ type of false bottom to build -- screen, manifold, eashymasher (imitator=
+) etc.  I would appreciate some advice and instructions on how to build =
+or at least directions to sites with instructions.  Private e-mail is fin=
+e.  (Note I am sending this from my wife's computer -- she is supportive =
+of my brewing but doesn't drink or brew: drewbuscareno`at`skyenet.net)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 23:53:26 EST
+From: GordonRick`at`aol.com
+Subject: Growing Southern (US) Hops
+
+
+For the hopheads in "The Land That Beer Forgot"-
+
+
+In HBD  #2629, Mark Tumarkin `at` Pura Vida Homebrewery asked about growing hops
+in the sunbelt south of the 35th parallel. I live in Columbus, Georgia -
+scorching hot summers and fairly sandy soil (similar weather to G-ville Fla,
+but fewer coeds!)  My first attempt (Cascade) was a disaster - too much sun
+and too close to a reflective garage wall. Hops love sun, but not the heat.
+Too much sun will kill them in a hurry. They also love water but need good
+drainage. In my attempt to salvage a couple of not quite dead plants, I put
+them into large pots with potting soil and tomato stakes. Lots of water! Until
+they started outgrowing the stakes, I simply moved the pots in/out of
+favorable sunspots during the day (at the time I lived close enough to work to
+do this at lunch). After they got too big for this method, I used a nylon
+string tied to  another cord strung from a corner of the house to a gutter
+(about 12' high). A fair amount of slack allowed quite a bit of movement to
+optimize sun/shade sort of like a dog run. Choosing a spot in the yard that
+will give several hours of early morning sun and some shade during the hottest
+part of the day is the key. The harvest wasn't big (4-5 oz after drying for
+two plants) but the smell of fresh lupulin (sp?) was wonderful. Unfortunately,
+we were transferred later that year and the dormant rizomes were *accidently*
+dumped out so I don't know if the pot method would work over several seasons.
+I suppose you could thin the roots each year. BTW, squirrels (tree rats) and
+deer love the tender shoots of new growth!
+
+
+Bottom line - HOPS DON'T GROW WELL IN THE SOUTH. With a lot of work it can be
+done, but I doubt commercially. I tried one plant up in the North Georgia
+mountains (grapes seem to like it OK) but I think the soil was too acid and it
+got too much shade. It survived virtually unattended, but was very scrawny and
+never produced flowers. 
+
+
+I would really like to see some Yr2K Gregor Mendel come along and crossbreed
+hops with the mighty kudzu vine! If you have never seen kudzu, Its like ivy
+with a foot per day attitude -  old barns turn into large green lumps in a
+matter of weeks, and you can not kill it! Any hophead botonists out there up
+to the challenge? I read somewhere (sorry - can't recall where) that an
+extract from the tuberous root of the kudzu vine increased the body's ability
+to metabolize alchohol. I think you see where I'm headed with this - hops that
+let you tip a few at your favorite local BP without too quickly becoming a
+menace on the highway! Until then, I guess we're stuck with designated drivers
+etc.
+
+
+Prost- 
+Rick Gordon
+Do try this at home!
+
+
+------------------------------
+
+
+Date: Thu, 5 Feb 1998 23:53:23 EST
+From: GordonRick`at`aol.com
+Subject: Getting rid of chlorine
+
+
+In HBD 2622  Michael Key asked about getting rid of chlorine. My personal
+experience with chlorine is based on high pH, low mineral content south
+Georgia water, so... The water I was using in my early HB days was sometimes
+so dosed with chlorine you could clearly smell it. I was relaxed and not
+worrying (sorry Charlie!) and figured it wasn't such a big deal. Bottom line,
+most batches tasted alot alike and tended to be very phenolic. I was thinking
+I had a rogue house yeast or bacterial infestation going on so I redoubled my
+sanitation ritual (with chlorine bleach no less!) I finally figured out that
+it might be the chlorine after all and installed an activated charcoal
+cartridge type filter on the kitchen water line. I noticed a dramatic
+improvement in my beers immediately. Not to mention the coffee, iced tea
+etc.Not being one to religiously follow directions on something so simple as a
+filter, I didn't stop to check the recommended max flow rate or anything and
+was pumping at least 1.5 to 2 GPM. I guess it worked good enough. I now filter
+all of my brewing water before treatment, but still don't worry too much about
+the flow rate as long as you don't overdo it. Boiling may not be completely
+effective with some municipal water treatments (see Fix's book), but the
+filter seems to knock the chlorine down to acceptable levels. BTW, I still use
+chlorine bleach for sanitization but rinse like the devil! 
+
+
+Rick 
+Hopfen und Malz, Gott Erhalt's
+
+
+------------------------------
+End of HOMEBREW Digest #2630, 02/06/98
+*************************************
+-------

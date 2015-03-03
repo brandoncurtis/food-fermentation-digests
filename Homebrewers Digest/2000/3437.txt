@@ -1,0 +1,1379 @@
+﻿Received: from srvr20.engin.umich.edu (root`at`srvr20.engin.umich.edu [141.213.75.22])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA24044;
+        Sat, 23 Sep 2000 00:35:20 -0400 (EDT)
+Received: from brew.oeonline.com (IDENT:root`at`brew.oeonline.com [206.31.224.50])
+        by srvr20.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id AAA02382;
+        Sat, 23 Sep 2000 00:35:19 -0400 (EDT)
+Received: (from root`at`localhost)
+        by brew.oeonline.com (8.9.3/8.9.3) id AAA07440
+        for realhomebrew; Sat, 23 Sep 2000 00:32:16 -0400
+Date: Sat, 23 Sep 2000 00:32:16 -0400
+Message-Id: <200009230432.AAA07440`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #3437 (September 23, 2000)
+Status: RO
+
+
+
+
+
+
+HOMEBREW Digest #3437                             Sat 23 September 2000
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  fridge won't start (fridgeguy)
+  rH/pH/Dissolving starch ("A. J.")
+  RE: Beechwood chips and Hefeweizen ("Dennis Lewis")
+  1st wort hopping & mash hopping (Jay Pfaffman)
+  White Labs Yeast (Althelion)
+  Controlling a Gas Heater ("Peter J. Calinski")
+  Brewery Automation & Open Kettles ("Pannicke, Glen A.")
+  Home made crystal malt (Dave Burley)
+  maltiness (Randy Ricchi)
+  wort recovery (Randy Ricchi)
+  Grain Extract Virgin (Beaverplt)
+  Wood Alcohol (Bill_Rehm)
+  Culturing yeast from beer sediment (Brian Myers)
+  Boddingtons Pub Ale ("G. M. Remec")
+  Re: Plastic carboys ("Shane A. Saylor, Eccentric Bard")
+  mead fermentation ("Atticus & Kitty")
+  Weak yeast yeild weak offspring? (Charley Burns)
+  DMS/persistent infection (Harlan Bauer)
+  Re: HBD Sponsorship (Christopher Farley)
+  Goose Island ("pksmith_morin")
+  HBD doing DSL ("Alan McKay")
+  infection troubleshooting ("Louis K. Bonham")
+  boiling vanill beans (J Daoust)
+  amber ale (Clark)
+
+
+
+
+* 
+* Beer is our obsession and we're late for therapy!
+*
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we canoot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 21 Sep 2000 09:00:18 -0400
+From: fridgeguy`at`voyager.net
+Subject: fridge won't start
+
+
+Greetings folks,
+
+
+ In HBD#3435, Scott Jose asked for help with his fridge that initially
+starts when plugged in, but then immediately quits.
+
+
+ The compressors used in domestic fridges have two motor windings.
+Both are used during compressor start-up, then the start winding is
+removed from the circuit after the compressor comes up to speed.
+
+
+ A small relay is used to engage the start winding when needed. The
+compressor start relay can be one of several types, but the most
+common is known as a "current relay" and will be plugged right onto
+the compressor's wiring terminals. I suspect the contacts are dirty or
+worn in this relay and that it is not propery engaging the start
+winding in the compressor motor.
+
+
+ There is also a thermal/current overload device wired in series with
+the compressor motor. If the compressor draws excessive current, or if
+the overload gets weak, it may "snap" open for a minute or two. This
+can be tested by immediately plugging the fridge back in after the
+comressor quits. If nothing happens for a minute or so, a click is
+heard, and the compressor again tries to start, the overload has
+likely opened.
+
+
+ If this happens it would be wise to unplug the fridge and remove the
+terminal cover and relay from the compressor. There will be three
+terminals on the compressor. These are usually labeled C (common), S
+(start), and R (run). Using a multimeter set on its lowest resistance
+range, measure the resistance between the C and R terminals and the C
+and S terminals. Then set the meter to its highest resistance range
+and measure the resistance between each of the three terminals and
+ground. 
+
+
+ If the compressor motor is good, there will be a comparatively high
+resistance between the C and (usually) R terminals, and a
+comparatively low resistance between the C and (usually) S terminals.
+The reason I hedged a bit here is because the actual resistance values
+and their relationship vary a great deal by compressor make and model.
+You should measure infinity between each of the compressor terminals
+and ground.
+
+
+ If the resisances aren't close to what I described above, please post
+your findings and I'll try to interpret them. It is possible that the
+motor windings are damaged.
+
+
+
+
+ If the resistances look ok then I'd suggest replacing the relay and
+overload. They are both common repair items and can be obtained from
+most appliance parts retailers. Bring the old ones along for
+reference.
+
+
+Hope this helps!
+- ----------------------------------------
+Forrest Duddles - Fridgeguy in Kalamazoo
+fridgeuy`at`voyager.net
+
+
+
+
+
+
+
+
+- --
+Is your email secure? http://www.pop3now.com
+(c) 1998-2000 secureFront Technologies, Inc. All rights reserved.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 13:16:27 +0000
+From: "A. J." <ajdel`at`mindspring.com>
+Subject: rH/pH/Dissolving starch
+
+
+For Edward:  rH is an archaic (50 year old) way of expressing the redox
+state of a system. It is familiar to brewers because DeClerk and other
+authors of his time use this term. As the name implies there are some
+similarites with pH. Just as the pH is related to the log of the
+activity (sort of an ionic pressure - for all practical purposes the
+concentration of) hydrogen ions, rH can be defined in terms of the log
+of  the pressure of hydrogen gas in a sense electrode required to
+explain the potential difference observed between it and a reference
+electrode pressurized to 1 atmosphere with hydrogen. While hydrogen is
+not used in either sense or reference electrodes today (except in
+special laboratory applications) one can easilly calculate the rH from
+conventional ORP (Oxidation Reduction Potential) measurements made with
+platinum combination electrodes if one wishes to compare the rH of his
+beer to values found by DeClerk.
+
+
+The redox state of a beer is defined in terms of electical potential
+measured between an inert (platinum) and reference (Ag/AgCl or similar)
+electrode. This voltage depends on the pH and the the log of the ratio
+of the concentration of oxidized substances to reduced substances in the
+beer. In converting to rH the pH factor is backed out  and this is one
+of the advantages of rH - it is a measure of redox state and not the pH
+at which it is measured.
+
+
+Obviously the higher the oxidation state the faster the beer will stale
+and so keeping it in a reduced state is very desireable. If you stick an
+ORP probe in beer and watch the meter you will see the ORP climb slowly
+as oxygen from the air gets into the beer. Drop in  a vitamin C tablet
+or a campden tablet and you will see the ORP plummet. I've often
+wondered why, in all the discussions of staling, we don't see more
+reference to the relationship of rH/ORP to beer staling. The ASBC
+procedures don't even have an ORP test though I think the "indicator
+time test" is still done for wort in Eurpope.  Measuring ORP is a bitch
+because the sample must be protected from air during collection,
+storage, transport and analysis. Perhaps that's the reason.
+
+
+The remark about the the pH dyes was based on the fact that some of them
+really indicate ORP and work because ORP depends on pH. Obviously, such
+a dye wouldn't be a very good pH indicator in a solution which contained
+a strong oxidizer or reducing agent.
+
+
+I've seen sources say that pH stands for "pundus hydrogenii" which
+translates as the "weight of hydrogen". In others the reader is  told
+that the p stands for "potenz" which means power in the sense that
+concentration of hydrogen ion equals 10 raised to the power of minus the
+pH. Both refer to S.P.L. Sorrenson's original paper which, as I have
+never seen it, I cannot comment on.
+
+
+Can't really answer the question about the maly root. Wouldn't know one
+if I tripped over it. Speaking generally, tannins are very very weak
+acids and shouldn't shift the pH.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+For Dave B.: yes, getting the starch to dissolve did require heat and
+yes, the resultant solution was pretty thick and yes, I think that
+doesn't matter in determination of specific gravity unless you are using
+an oscillating U tube meter (in which case you have to compensate for
+it) but I don't think most home brewers do that. Remember that
+"pycnometer" literally means a meter for thick things i.e. things you
+couldn't float a hydrometer in.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 10:06:44 -0400
+From: "Dennis Lewis" <dblewis`at`lewisdevelopment.com>
+Subject: RE: Beechwood chips and Hefeweizen
+
+
+
+
+> In the lager facility they were displayed in the tea strainer thingy... in
+> the following video presentation of the brewing process, a brewery worker
+> was shown raking the chips in the bottom of one of those gigantic tanks.
+
+
+They use the torpedo-shaped "tea strainer" to process the chips. It keeps
+them together during caustic cleaning and sanitizing with very hot water.
+Then they transport the chips into the tank using that container. It fits
+thru the manway.
+
+
+> beer... however, I can't believe I was served their specialty
+> Hefeweizen out of a BOTTLE!
+
+
+I am a major weissbier aficionado and this is the proper and best way to
+serve hefeweizen. In a Bavarian beergarden, you will always be served a hefe
+out of the bottle. You may see weissbiers on tap in a bar, but the vast
+majority of weissbier is bottled. Bottling allows for a couple of things
+that can't be done in a keg: (1) The beer is much more carbonated (like 3.5
+volumes) than regular beer. That makes for difficult and foamy dispensing
+from a keg. It's foamy enough out of the bottle. (2) The brewer can make
+sure that each bottle is dosed with the proper amount of yeast. Keg-dispense
+requires special mechanical agitators that are problematic. (side note: I
+got a tour of the Paulaner brewery last year and was told that they are
+using a special process that keeps the yeast in suspension in their
+weissbiers. Details were extremely and intentionally sketchy.)
+
+
+Dennis
+
+
+**A fine is a tax for doing wrong.**
+**A tax is a fine for doing well. **
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 09:05:42 -0500
+From: Jay Pfaffman <pfaffman`at`relaxpc.com>
+Subject: 1st wort hopping & mash hopping
+
+
+OK, so what's the deal with 1st wort hopping and mash hopping?  I've
+been on the list only for a week or two (to the detriment of getting
+work done on this Ph.D. nonsense that I started 5+ years ago) & I've
+seen a little about mash hopping (e.g. "Real Brewers Mash Hop").  I
+have since found a few sentences in a book about 1st wort hopping,
+but it still doesn't make much sense.  The author of the book really
+didn't get it either.
+
+
+I've recently become a all-grain brewer and have more recently
+borrowed a 80qt kettle, so I'm working on getting a bigger mash/lauter
+tun so that I can make a 10 gallon batch.  Also exciting is that for
+the first time ever I'm brewing faster than I can drink, but that's
+only because I don't have anything that's carbonated yet. 
+
+
+Finally I can tell this story to a group who'll truly appreciate it.
+My domain name is now relaxpc.com, but just over 6 years ago, I
+registered relax.com for our computer consulting business.  I'd been
+reading Papazian, and "Relax" seemed to be as useful in working with
+computers as in home brewing.  (My business cards at the time said
+"juggler, home brewer, guitarist, computer consultant"--I was really
+only a computer consultant, but it was Vermont where the motto is
+"Moonlight in Vermont, or starve."  I digress.)  Anyway though we
+didn't get the name with the intent to sell it, someone finally made
+an unsolicited offer for relax.com which we couldn't refuse, and I was
+forced to give up my "lifetime" email address & URL.  We did make a
+tidy profit, though not by west-coast standards.  The contract put
+some restrictions on our use of the word relax, so now I must say
+
+
+RelaxPC.  Don't worry.  Have a homebrew.
+
+
+- -- 
+Jay Pfaffman                           pfaffman`at`relaxpc.com
++1-615-343-1720 (office)               +1-615-460-9299 (home) 
+http://relax.ltc.vanderbilt.edu/~pfaffman/
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 10:19:57 EDT
+From: Althelion`at`aol.com
+Subject: White Labs Yeast
+
+
+Hey,
+
+
+I've now used White Labs' yeasts in about ten batches. I'd like to note the 
+following observations: 1) White Labs yeast, doesn't matter what type - lager 
+or ale, function very well. Most of my ales made with a one quart starter 
+begin fermentation in six hours. Lagers take a little longer to start, but 
+still begin quite quickly. 2) I get good attentuation with these yeasts. 
+(Note: The last dunkel I made using 75% munich malt only got down to 1019. 
+Previous threads discussed munich malt and attenuation. I'll probably only 
+use that high a grist percentage of munich in bocks in the future). 3) I 
+prefer the taste of Wyeast, style to style, over White Labs. The only 
+exception may be the White Labs East Coast Ale yeast which compares 
+favorably. I'm wondering if anybody else has made similiar observations? Have 
+I been tastebud-washed from using Wyeasts for so many years? I'm bottling a 
+northern brown ale tomorrow night made with the White Labs Edinburgh. I hope 
+to taste a second exception.
+
+
+Side Note: I personally enjoy the ramblings from down under. Most Aussie 
+influence I usually get is eatin' at The Outback and listenin' to Midnight 
+Oil. However, sometimes the phoenetic spellings are hard to decipher. 
+Whenever I encounter this problem though, I can usually encode the verse with 
+help of a dram or two of a fine single malt. 
+
+
+Later
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 10:35:10 -0400
+From: "Peter J. Calinski" <PCalinski`at`iname.com>
+Subject: Controlling a Gas Heater
+
+
+An alternative to a sparker is a glow plug.  These are typically used in
+the oven section of a gas range.  I have no idea what the parts would cost
+new but if you can salvage them from an old range, it should be simple.
+
+
+In a typical gas range, order to ensure that the gas isn't turned on unless
+the glow plug is glowing hot, the glow plug is wired is series with a
+special gas valve.   The gas valve opening function is controlled by a
+bimetallic strip.  When the operator turns on the switch, the glow plug
+(which is a very fragile ceramic so handle it gently) resistance is quite
+high, high enough that the bimetallic strip doesn't heat up and keeps the
+gas off.  As the glow plug heats up to a roaring glow, it's resistance 
+decreases and the bimetallic strip heats up and bends, thus opening the
+valve. The glow plug then ignites the gas. 
+
+
+This system is considered safe since, if the glow plug isn't hot, gas can't
+flow. 
+
+
+All you would need is a 110V relay to close the circuit like the operator
+does.
+
+
+While you are salvaging, consider grabbing the oven temperature control
+also.  It should have a range from 170F to 450F.  It may not be accurate
+enough for this application but who knows.  Also consider that the bulb
+which measures the temperature would have to be placed in the boiling wort.
+ I don't know how long it would last.  Boiling wort is a nasty environment.
+
+
+Just some ideas I had.  Never tried it myself although I did repair the
+bimetallic strip in my oven once.
+
+
+Pete Calinski
+East Amherst NY
+Near Buffalo NY
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 13:30:49 -0400
+From: "Pannicke, Glen A." <glen_pannicke`at`merck.com>
+Subject: Brewery Automation & Open Kettles
+
+
+Todd was helping Mike with brewery automation and mash control:
+
+
+> Or maybe there is a electronically
+>inclined person lurking that could come up with an electric 'eye' that
+>would verify that the flame is lit and send a signal of 0 or 5VDC to be
+>read by the parallel port? That's something to work on later.
+
+
+A photoresistor or phototransistor (IR) would work by sensing the light
+emitted from the flame.  Both would have to be shielded from ambient light,
+however.  The photoresistor would have to provide input to a comparator so
+that when the voltage through the photoresistor exceeds the level
+predetermined by the other input, the output would go high.  Same with the
+phototransistor, plus you can fiddle with the bias on the transistor to
+adjust sensitivity.  Your other option is to use a thermocouple just like
+you have in a gas furnace.  This senses the heat and again, you'd have to do
+a voltage comparison.  You don't really need an A/D converter for a go/no-go
+situation like this.  From troubleshooting my gas furnace one day, I found
+that it had a photosensor monitoring the manifold and a  thermocouple
+monitoring the pilot.  If you can make the photosensor work, go that route
+as it is an instant indicator and the thermocouple has a lag time since it
+needs to heat up.  You may find heat resistant photosensors for furnaces in
+HVAC supply catalogs which might do the trick. You'll still need a watchdog
+in your code, but it should be only a few seconds.  E-mail me if you'd like
+example schematics for the above-mentioned circuits.
+
+
+====
+Brian Lundeen suffered temporary befuddlement by the idea of a boiling
+fountain:
+
+
+>>The wort is then passed
+>> back through the MIDDLE of the tank (below the wort level)
+>> and shot through a "boiling fountain" to a point above the wort level
+where it
+>> is dispersed by an adjustable spreader and allowed to fall onto the
+>> surface of the wort.  All kinds of agitation and splashing going on here!
+
+
+>But... but... but... won't that lead to...
+
+
+I know...  I dribbled and shook a bit when I first saw it, but then the
+image of Dave Burley parading around this device with a big sign on a stick
+with the words  "steam blanket" appeared before my eyes.  I then came to
+know and was filled with the spirit (of brewing).  And I said Hallelujah!!
+;-)
+
+
+Now Dave Lamotte gets back to me with a quote from Kunze regarding covered
+kettles:
+
+
+>While I am very open about my boiling Kunze goes into considerable
+>detail on the design of such industrial kettles and observes that the
+>discharge vent always has an opening 1/6th the diameter of the kettle. 
+>If my maths are correct this would give an area of only 3% of the kettle
+>surface area (1/6 is 17%).  This is a fairly tightly fitting lid.
+
+
+Pun intended, huh?  I guess if you couple this covered kettle with the
+resulting steam blanket, I can now understand why a boiling fountain would
+not introduce O2.  Logic would also dictate that the fountain would achieve
+the same, if not better, mechanical forces in play than as with a very
+vigorous boil but at a reduced thermal load.  Much of what I've come across
+regarding the boil seems to stress the physical mixing, shearing, etc..
+forces of the vigorous boil.  I'm sure this can be overdone as well.  As for
+Fix's  quote regarding balance in boiling, this seems to fit.  One reason
+for boiling is to drive off volatiles by the combination of heat and
+exposing more of the wort to the liquid surface, but don't over do it.  I
+tend to believe that using a boiling column can maximize volatile removal
+without the need to throw so much heat into it.  It would be interesting to
+attempt this on a homebrewer's scale and taste the results.
+
+
+> The kettle exhaust is also fitted with a flap which enables it to be
+>completely sealed during heating in order to conserve energy.  Why this
+>is so? ... Sounds like a case of industrial cost savings to me.
+
+
+I'd assume so.  Unfortunately, many of the really technical texts at some
+point become obsessed with reclaiming/conserving resources and reducing
+waste.  Hey, they're trying to run a business, right?
+
+
+====
+Lastly, I would like to thank the numerous people who replied to me
+privately regarding my latest RIMS questions.  There is so much diversity in
+the RIMS & HERMS design, making a choice as to what would work best for me
+is the hardest part!
+
+
+Carpe cerevisiae!
+
+
+Glen Pannicke
+http://www.pannicke.net
+PGP Fingerprint:
+75CE 0DED 59E1 55AB 830F  214D 17D7 192D 8384 00DD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 13:33:10 -0400
+From: Dave Burley <Dave_Burley`at`compuserve.com>
+Subject: Home made crystal malt
+
+
+Brewsters:
+
+
+Hans Aikema did some experiments in which he proved that only about 20% of
+the malt will be extracted without crushing.  Seems right as proper milling
+is a critical requirement for good extraction efficiency and malt has about
+15-20% extractables as I recall. Part of the reasaon for the crush is to
+expose the starch to the enzymes, but the main reason is to wet out the
+interior of the malt so the reactions can proceed.  If the interior were
+wet ( see below) then crushing would not be necessary to get a substantial
+reaction in the uncrushed grain and a high extraction rate potential.
+However the large grain size of the uncrushed barley would mean the rate of
+extraction woud be extremely slow. As Hans also notes uncrushed grain does
+not impede the flow of the sparge water. 
+
+
+SO crushing is important for 1)exposing the interior of the grain to water
+to provide reagents for the saccharification 2) provide access for the
+enzymes in solution  3) provide a short pathway for the sugar to move out
+of the grain into the sparge water 4) slow down the rate of flow of the
+sparge water through the bed so that the efficiency of extraction is high.
+
+
+Hans also concludes that he can't make crystal malt from pilsner based on
+his experiments. And I say you can, but you must first soak the malt
+overnight or longer in cold ( refrigerator)  water, so the hydrolysis and
+enzyme solubilization can take place and the saccharification be completed
+in the oven.
+
+
+To do this, the soaked malt is drained and placed about 1" deep on a baking
+sheet and covered with aluminum foil and the temperature raised to 155F (
+measure the grainbed T with a thermometer poked through the foil) where it
+is held for 30 minutes after it reaches 155F while saccharificaton takes
+place, the foil is removed and then the temperature is raised to around
+350F ( I believe) to caramelize these sugars. Do it for a time period ( 30
+minutes to 11/2 hours)  to get the desired color. Always take a number of
+grains, cool and crush them and extract in boiling water to estimate the
+color. I often take a portion of the grains at various time periods during
+this final caramelization for various specialty blending purposes.
+
+
+This is from memory, so for the exact details check out the HBD archives
+where I have detailed my methods of preparing various specialty malts from
+pilsner malts. When I started brewing, these specialty malts were not
+available in the US and I had to develop my own methods by reading M&BS and
+other professional book and  journals.
+
+
+If memory serves, CharliePs NCJOHB has an Appendix on this also. I didn't
+read the details in Graham Sanders' pages and pages of material, but if he
+didn't give his pilsner malt an overnight soak he won't really have a
+crystal malt. A dry roast such as you did, Hans, will produce various
+grades of a "biscuit" type of malt, which  as Graham says is excellent
+immediately after you toast it.
+- ---------------------------------------
+
+
+Keep on Brewin'
+
+
+Dave Burley
+ 
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 15:54:44 -0400
+From: Randy Ricchi <rricchi`at`ccisd.k12.mi.us>
+Subject: maltiness
+
+
+A lot has been said about using Munich malt to get a nice maltiness in
+beers made with an infusion mash. Another thing to consider is the BRAND
+of munich malt. A few years ago I made a lager with 100% munich ( I
+didn't keep track of brands, but I'm pretty sure it was Durst) malt, and
+it did have that german malt character.
+
+
+This past winter I made an all munich malt lager using Weisheimer munich
+malt, and didn't get the same kind of maltiness. I got a toastiness from
+this munich malt.  This is not very scientific, since I did use
+different yeasts in the two beers.
+
+
+However, I also made an all Vienna malt lager this year, 11 gallon
+batch, and split the batch in two. I pitched Brewteks E. European lager
+yeast in one, and another Brewtek yeast in the other (American pre-pro
+type, I forget the name and I'm at work right now).  The Beer brewed
+with the E. European lager yeast had the finest malt character I have
+ever found in any homebrewed beer. Authentic, soft, German maltiness.
+This beer turned out to be a beautiful Vienna style lager.
+The other yeast was clean but didn't accentuate the malt character.
+I brewed other all Pilsner malt beers using the E. European yeast, and
+theye were clean, but didn't have the maltiness of the vienna malt beer.
+
+
+So, you have to consider that not only the malt type, but brand, and
+also yeast can make a difference in the maltiness you get in the final
+product.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 16:00:35 -0400
+From: Randy Ricchi <rricchi`at`ccisd.k12.mi.us>
+Subject: wort recovery
+
+
+A little wort recovery technique I've been using lately:
+After I immersion chill, I cover and let the break material settle for
+30-45 minutes. Then I siphon off into my fermenter. I stop syphoning
+when the racking cane starts to pick up break material.
+I pour this remainder into sanitized 1/2 gallon mason jars, cover with
+foil, and put into the freezer for an hour or so. In that time, the trub
+settles to the bottom half of the jar and you can pour the clear top
+half off into your fermenter. Or you could leave it sit in a
+refridgerator for awhile until you need some wort for yeast starters. If
+it's been sitting awhile, just pour the clear top portion into a sauce
+pan and re-boil for 10 minutes, cool, and use. I haven't bought dry
+extract for yeast starters for a long time now since I started using
+this method.
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 13:01:29 -0700 (PDT)
+From: Beaverplt <beaverplt`at`yahoo.com>
+Subject: Grain Extract Virgin
+
+
+Well, summer's over and this weekend's weather is
+supposed to be crappy. Sounds like a great opportunity
+to make a fresh batch. I was all set to do my first
+all grain until I saw the recipe for "Ucleduckfay
+Outmeal Stout" in the much maligned Complete Joy of
+Homebrewing. Anything with that name has to be tried.
+It's a grain/extract recipe so I guess you could say I
+chickened out on the all grain part. The reason for
+this post is to ask if anyone has any last minute
+advice (sort of like asking for last rites) Hopfully
+all the stuff I've learned by reading this rag will
+pay off.
+
+
+I also want to pass on some sage advice. Never, ever,
+take a sleeping pill and a laxative on the same night.
+
+
+Cheers
+
+
+Jerry "Beaver" Pelt 
+
+
+__________________________________________________
+Do You Yahoo!?
+Send instant messages & get email alerts with Yahoo! Messenger.
+http://im.yahoo.com/
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 15:17:23 -0500
+From: Bill_Rehm`at`eFunds.Com
+Subject: Wood Alcohol
+
+
+Doug Brown asked about wood in beer and the creation of wood alcohol.  The
+answer is no, this will not create wood alcohol.  Wood alcohol is a
+by-product of burning wood in the absence of oxygen.  The technical guys
+will give a better answer, but I do remember way back in high school we
+"distilled" wood making wood alcohol and charcoal (Mr Goodspeed if you are
+listening I did learn something from you!).  So don't worry about wood and
+beer making wood alcohol
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 09:04:19 +1200
+From: Brian Myers <BrianM`at`AdvantageGroup.co.nz>
+Subject: Culturing yeast from beer sediment
+
+
+Dave Edwards and Matthew Tolley were discussing
+yeast ranching...
+
+
+DME will work fine, but the best food for yeast
+is, of course, wort!  On an earlier brew day, just
+save a liter or two of your wort before pitching, put
+it in a reasonably clean PET bottle, and put it in the
+fridge. When you're ready to culture (from a commercial
+beer or your own homebrew), pour as much wort as you
+need into a saucepan, boil for a while to re-sanitise,
+cool, aerate, and feed your yeast.  I've done this
+many times. You will probably not see any foam from
+the first feeding, and there might be only a little
+airlock activity, but you should see a line of 'crud'
+in your bottle that will let you know the yeast has
+been working. Also, a taste will tell you if the
+sweetness is gone.  Feed for the final time on the day
+before you want to pitch it and you should get a quick
+start.  I've had especially good luck culturing Chimay
+and Hoegaarden White this way.
+
+
+Hope this helps,
+Brian
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 15:39:00 -0600
+From: "G. M. Remec" <gremec`at`gsbpop.uchicago.edu>
+Subject: Boddingtons Pub Ale
+
+
+Hello all,
+
+
+My wife really enjoys Boddingtons Pub Ale, and I'd earn many beer bullets
+if I could brew something similar.  Surprisingly, a search of the archives
+turned up only one recipe.  It suggested an OG of 1.035 using 96.5% pale
+malt, 0.5% black malt, and 3% sugar, with 30 IBUs from a mix of many hops
+at 60 and 15 minutes.  I'd prefer a few more data points.  To my tastes,
+Boddingtons is somewhat heavier and less bitter than the referenced recipe
+would suggest, and I'd expect to see a bit of crystal in the grist.  There
+seems to be very little hops flavor or aroma, so limited late additions
+appear appropriate.  Can anyone share a recipe with which they've had
+success in replicating this ale?  Perhaps someone can provide accurate
+basic data like OG, IBUs, SRM, etc.?  Thanks for any help.
+
+
+Cheers!
+
+
+Greg
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 18:34:05 -0400
+From: "Shane A. Saylor, Eccentric Bard" <taliesin2`at`earthlink.net>
+Subject: Re: Plastic carboys
+
+
+> A couple HBD'ers out there asked whether plastic carboys were Okay to 
+> use as fermenters.  The two plastics identified were no. 1 (PETE) and 3 
+> (V). Also, those plastic water bottles used on commercial water coolers 
+> were also mentioned.
+
+
+I'm not sure what kind of plastic my home brew kit is. But I got a clear 
+plastic hose with it and plastic carboy that looks like its a one of those
+5 gallon paint buckets that major contractor use. Thoughts? And BTW, the 
+kit itself is about 5 yrs old. Unused. :-(
+- --
+Everything on this earth has a purpose, and every disease an herb to
+cure it, and every person a mission. This is the Indian theory of
+existence. --Mourning Dove, 1888-1936
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 09:02:14 -0400
+From: "Atticus & Kitty" <katticus`at`earthlink.net>
+Subject: mead fermentation
+
+
+What a great forum! Just got my computer and didn't think I would find
+anything like this out there. I've been brewing for a few years now and have
+done well with some ales and lagers and not so well with a double bock. My
+love for Vikings though has prompted me to start a small batch of mead. It
+is a different task. I found that I didn't quit get a vigorous initial
+fermentation from my "basic" recipe. It did act up in a couple days,
+starting w/ a bubble (or two) every 35-40 seconds. The pace picked up over
+the next week until it got to about 1 bubble every 15 seconds. Then it
+slowed back down and stopped all together in almost 2 weeks. From the
+research I did on the web (all very different opinions!) I decided to rack
+and taste. What I had was a cloudy, sparkling, sweet and somewhat yeasty
+mead. Not terrible or anything but not the "drink of the gods" I was hoping
+for. I've let it set now for a week and though the air lock has a bubble in
+it I have yet to see one come up & it is still cloudy. Is this normal
+considering my recipe? Should I just be patient and let it sit ( a general
+theory on various sites) I've read some previous emails & it seems as though
+this sparkling will ferment away (if I let it). If that's the case I can see
+why it's yeasty but if not then it seems an awfully quick fermentation
+(something I had not expected from a mead).
+Recipe:
+2 Lbs clover honey (not sue bee)
+1Lb buckwheat honey
+1 Gallon of water
+1 Pkg. Red Star Champagne Yeast (started in a cup of 90 degree water)
+1 Tsp Mead Yeast Nutrient
+I pasteurized the must then after cooling added the starter and nutrient. If
+anyone has any feedback I would REALLY appreciate it as my brew store is a
+little lacking in knowledge of meads and the book I have doesn't really
+cover this problem ( if it is even one).
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 21 Sep 2000 19:33:05 -0700
+From: Charley Burns <cburns99`at`pacbell.net>
+Subject: Weak yeast yeild weak offspring?
+
+
+I made a Russian Imperial Stout (1.105 og) a few weeks ago. I dropped the
+wort on top of the yeast cake from a 1.054 og amber. It was Wyeast 1968.
+Fermentation took off like a rocket. Blew out the airlock, made a mess
+oozing out of the primary. Smelled like heaven. Then all of a sudden it just
+quit. Made it down to 1.047 and stuck.
+
+
+So after waiting 2 weeks, I pulled a Wyeast 1056 smakpak that was 18 months
+old out of the kegerator and smakked it. Took a full 9 days for it to fully
+expand. Dropped it into a quart of 1.054 (left over amber wort) and it took
+3 days to build a krausen. My idea was to use this 1056 yeast to try and
+finish off the the RIP ferment, but at this point I have my doubts if its
+going to go. It seems like the old tired weakend yeast, can't get going even
+in fresh wort.
+
+
+I added another quart of 1.054 wort this evening now that the starter is at
+high krausen. I'll dump the whole thing into the RIP in the morning, but do
+you think I'm just wasting my time and energy? Is the 1056 yeast basically
+beyond its useful life at this point?
+
+
+Charley
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 01:30:11 -0500
+From: Harlan Bauer <blacksab`at`midwest.net>
+Subject: DMS/persistent infection
+
+
+Brad Richards asks about possible causes for a persistent infection leading 
+to elevated DMS levels.
+
+
+Elevated DMS levels are a tell-tale sign of an enteric infection. Enteric 
+bacteria are a class of wort-spoiling bacteria (as opposed to beer-spoiling 
+bacteria) which infect the wort PRIOR to the onset of active fermentation. 
+Once fermentation has begun, however, the production of alcohol and the 
+lowering of the pH create a hostile environment toxic to this class of 
+bacteria. This is one reason that adequate pitching rates and aeration are 
+so important--if you can get the wort fermenting quickly enough, the 
+alcohol and relatively low pH will kill the enterics before they have 
+reached a number great enough to produce DMS levels at or above flavor 
+threshold.
+
+
+However, there are 2 distinct aromas that DMS may take. One is from 
+bacterial infection, and smells VERY strongly of rotting vegetables; the 
+other aroma is not bacterial in origin, and smells more like creamed corn, 
+the ocean or oysters (I do not detect DMS as creamed corn), and is a 
+natural part of the brewing process and is expelled during the boiling 
+process. This is one of the main reasons for conducting a vigorous boil in 
+an open kettle (the others being greater hop utilization and the 
+development of the hot break).
+
+
+Given your attention to sanitation, and the fact that your lag times are 
+relatively short, it would seem unlikely from your description that the 
+cause of your elevated DMS levels are bacterial in origin. The more likely 
+cause, without actually having smelled your beer, is that:
+
+
+ >The kettle remains closed from the time the chiller
+ >goes in (10 minutes before the end of the boil) until the chilled
+ >wort's in the primary.
+
+
+This is rather a long period of time in which the naturally occurring DMS 
+is trapped in the kettle without being able to dissipate. The resulting 
+condensate (rich in DMS) collects on the lid, and drops back into the wort. 
+This is precisely the reason that commercial kettles have a condensate ring 
+inside the stack to prevent this DMS-rich condensate from dripping back 
+into the kettle.
+
+
+So, those are the two primary causes of DMS in the finished beer. Without 
+resorting to fancy lab equipment, how do you determine the cause of the 
+elevated DMS levels? It's rather simple, really, and involves training your 
+nose to distinguish between the two. Bacterial DMS can usually be found in 
+a failed Wort Stability Test, so that becomes your first reference point. 
+The other "type" of DMS can be found in Rolling Rock, and many German 
+lagers--a Munich Helles would be a good choice because of its relatively 
+low hopping rate (hops tend to mask the aroma).
+
+
+Now, once you have trained your nose to easily distinguish between the two, 
+go back and smell you beer against these two reference points. Which does 
+it smell more like?
+
+
+If it does, in fact, turn out to be bacterial in origin, look to OVER 
+sanitization with chemicals, especially in your starters, which could 
+weaken your yeast strain causing incomplete or disordered fermentations.
+
+
+If it turns out not to be biological in origin (which I suspect), remove 
+the lid from the boiling kettle until the wort has cooled to ~120-140*F, 
+and THEN place the lid on the kettle. By this time, very little DMS is 
+being produced, and even less condensate is collecting on the lid of the 
+kettle only to fall back into the wort.
+
+
+IMO, it is almost impossible to have an enteric infection above flavor 
+threshold (assuming you don't throw a kitchen sponge into a kettle of 
+cooled wort) if reasonable sanitation is practiced and adequate quantities 
+of fresh, viable yeast is pitched along with adequate aeration, since the 
+fermenting beer acts essentially as a sanitizer. Blasphemy? Not when you 
+understand the distinction between Wort-spoiling bacteria and Beer-spoiling 
+bacteria.
+
+
+I hope this helps.
+
+
+I'd like to second the accolades Bill Stewart at Moving Brews has recently 
+been receiving here. I bought some things from him a few years ago, and I 
+can't recommend him highly enough. He definitely knows what he's selling 
+and will sell you the pump you NEED, even if it costs less than the pump 
+you thought you needed. No connection, just a very, very satisfied 
+customer. He's definitely one of us.
+
+
+Harlan.
+
+
+
+
+
+
+
+
+
+
+
+
+__
+
+
+Harlan Bauer                            Malt does more than Milton can
+Murphysboro, IL                         To justify God's ways to man...
+<blacksab`at`midwest.net>                             --A. E. Houseman
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 02:32:47 -0500 (CDT)
+From: Christopher Farley <chris`at`northernbrewer.com>
+Subject: Re: HBD Sponsorship
+
+
+Eric Schoville wrote:
+
+
+> I question whether or not a DSL line is the best possible
+> solution for the future of the HBD.  While I can see some definite
+> advantages of this route, mainly immediate access to the server by Pat,
+> the cost of $2400 per year seems extreme.
+
+
+I don't know. I think a DSL connection would be ideal for the
+HBD. Having access to the server would eliminate almost all extended
+server outages. And DSL, bandwith-wise, is probably just fine for the
+HBD. I'm not sure what HBD's subscriber base is, but we send a 6-10K
+newsletter to 5000 subscribers and it takes about 2-3 hours with a meager
+128K IDSL connection.
+
+
+> If we can find another host 
+> for the server, wouldn't that be preferable to paying $2400 per year and
+> having advertising on the server. 
+
+
+Speaking as someone who has expressed a strong interest to Pat in the full
+$2400 sponsorship, I actually think it is important to be concerned about
+the potential commercialization of the HBD. As someone who has followed
+the HBD for many years, I think there is a lot of value in the
+non-commercial tradition of the HBD. If hbd.org were inundated with
+animated, rotating banner ads, and the digest itself had sales pitches
+inserted between every message I think hbd would suffer greatly.
+
+
+On the other hand, if done properly, 'corporate' and individual
+sponsorships would raise all the needed funds and wouldn't compromise the
+integrity or fundamental mission of the hbd. Even if you were to limit
+'corporate' sponsors to a simple name + URL/800 number in the masthead
+(and I think you should), I can't imagine you'd have trouble finding
+somebody to fund HBD year after year. 
+
+
+I think that hbd is worth $2400 a year or more, and I have been very
+excited at the prospect of having my business associated with HBD
+sponsorship for the next 365 digests. I mean, for me it's a no-brainer. I
+spend a lot more money on other forms of advertising that are *way* less
+worthy, way less useful for the hobby, etc. HBD is like the "Science" or
+"Nature" of the homebrewing world. Since I told Mr. Babcock that Northern
+Brewer would be a willing donor, I've been checking my email hourly to see
+if we'd actually get an okay to send in a check. Perhaps I'm a little too
+excitable regarding this...
+
+
+> Surely amongst all of the
+> subscribers, someone knows of a company or school who could host the
+> HBD.
+
+
+There's a huge difference between having a server hosted somewhere and
+having the hardware actually at your disposal. The chatter of the hard
+drives, the flashing lights on the router... On the other hand, there are
+undoubtedly cheaper ways to host the HBD. On the other other hand, there
+*is* a willing sponsor out there (here! here!).
+
+
+- ----
+Christopher Farley
+Northern Brewer / 1150 Grand Avenue / St. Paul, MN 55105
+www.northernbrewer.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 03:46:07 -0500
+From: "pksmith_morin" <pksmith_morin`at`email.msn.com>
+Subject: Goose Island
+
+
+Hi Will - Goose Island has two brewpubs; one at 1800 Clybourn, north of
+downtown, and the other at 3525 Clark Street, again north of the Loop, in
+Wrigleyville (by the Cubs' Ballpark).
+
+
+The production facility is at 1800 Fulton Street, in the "Warehouse District."
+
+
+You can e-mail me, and I can arrange a tour of the production facility, if you
+are in the area.  Through several incarnations there, I am now the
+Distribution Manager.  You can also e-mail for more info on the pubs.
+
+
+Cheers,
+
+
+Paul Smith
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 06:33:56 -0400
+From: "Alan McKay" <amckay`at`ottawa.com>
+Subject: HBD doing DSL
+
+
+
+
+I have have to agree that $2400 US sounds pretty extreme for DSL!
+Though in looking at the page, I don't see where Eric got that number.
+Up here we can get DSL or Cable Modem for about $50 CDN per month.
+So in a year that's less than $500 US including taxes.  Someone on the
+service provider side of that DSL connection is making an awful pile
+of money, if it is a real figure.
+
+
+I've already recommended my ASP at http://www.istop.com/.
+Their prices http://www.istop.com/webprice.html are amazingly cheap,
+and especially so for the HBD since it's Canadian dollars.  I have no
+affiliation other than that I am very pleased with their service.
+
+
+I guess there is an advantage to having the server right at your fingertips,
+but there are also advantages to having someone else back it up on a
+regular basis, and keep the backup tapes stored off-site.  
+
+
+In general I think the idea of advertising on the web page is a good one,
+if it can fly and help pay for the digest.  I for one read HBD on the web, 
+and wouldn't mind one bit if there were ads there.
+
+
+Anyway, whatever happens I'm sure it will work out fine.
+
+
+cheers,
+ -Alan
+
+
+- --
+
+
+http://www.bodensatz.com/
+What's a Bodensatz? http://www.bodensatz.com/bodensatz.html
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 06:55:27 -0500
+From: "Louis K. Bonham" <lkbonham`at`hypercon.com>
+Subject: infection troubleshooting
+
+
+Hi folks:
+
+
+Brad Richards laments his possible infection problems and wonders what to
+do.  Some suggestions:
+
+
+(1)    Run wort stability and pitched wort stability tests.  (Check the HBD
+archives for "wort stability test" and "Bonham" and you should find some of
+my prior posts on this topic -- IMHO, these should be done as a matter of
+course by serious brewers on every batch)  This should give you a decent
+idea of whether your beer is infected ab initio (e.g., from transfer hoses)
+or from the yeast starter.  (From your description of your procedures, I
+suspect that you may be getting contamination from your starter.)  Of
+course, if the WST / PWST tests come out clean, but the beer still turns out
+infected, then your infection vector is probably downstream from your
+fermenter (e.g., kegs, transfer hoses, etc.)
+
+
+(2)    Plate out some of the contaminated beer on LMDA to ID what the bugs
+are.  If it's a pedio infection, replace all your plastic and get downright
+medieval on cleaning everything else -- pedio can be a real bitch to get rid
+of.
+
+
+All the best -- LKB
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 06:23:07 -0700
+From: J Daoust <dowquest1`at`home.com>
+Subject: boiling vanill beans
+
+
+Has anybody used a vanilla bean in the boil for the last 10 minutes or
+so??  I am thinking of trying it but have had one question about
+tannins...  Thanks, Jerry Daoust
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Sep 2000 09:56:02 -0400
+From: Clark <clark`at`capital.net>
+Subject: amber ale
+
+
+Hi  list,
+
+
+A couple years ago I enjoyed a "winter brew" that was flavored with
+raspberry and nutmeg.  I believe it was one of the Pete's Wicked series of
+beers.  It was a nice flavor combination.  Of course I want to make my own
+version of it, but I haven't found a recipe that looks right and I'm not
+ready to design my own yet.  From what I have learned this was an Amber Ale
+with flavor added.  What makes an ale an amber ale?  Does anyone out there
+have an all grain recipe for a suitable ale to fit this style?  
+
+
+After bottling for a year and a half, I just kegged my second batch.  I
+love it.  No bottles to rinse and rinse.  No buckets to wash, no caps to
+buy, no priming, no concerns about low carbonation.  After a long hot day
+in the foundry, I can go downstairs to the fridge, draw a big cold glass of
+beer and read the HBD.  It's great.  I gotta get a life!  Thanks to all of
+you who offered advice on getting started with kegging.  Now I need more kegs.
+
+
+Dave Clark
+Eagle Bridge, NY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #3437, 09/23/00
+*************************************
+-------

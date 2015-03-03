@@ -1,0 +1,835 @@
+﻿Date: Wed, 25 Feb 2004 00:30:01 -0500
+Subject: Homebrew Digest #4484 (February 25, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4484                             Wed 25 February 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Garden Hoses ("Terry A Harrison & Elizabeth Brown")
+  CO2 graphs and it's interpretation ("Fredrik")
+  Potassium Metabisulphate ("Rich Beecher")
+  Garden Hose in Brewing (King Queen)
+  Re:max safe ambient temp for full CO2 tank (Mike S)
+  re: Seattle brewpubs ("May, Jeff")
+  max safe ambient temp for full CO2 tank ("Michael Maag")
+  Re: static fizz (Jeff Renner)
+  RE: static fizz ("Brian Lundeen")
+  The Quest for the Mash-Out Chalice ("Steve Fletty")
+  Clinitest ("William Frazier")
+  Re: max safe ambient temp for ful CO2 tank (Calvin Perilloux)
+  Re: Seattle Brewpubs (Demonick)
+  Copper in Fermenters (Eric Schoville)
+  Light and Dark Munich Malts (Leo Vitt)
+  Re: Seattle Brewpubs (beerbuddy)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Spencer Thomas (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 23 Feb 2004 22:19:19 -0800
+From: "Terry A Harrison & Elizabeth Brown" <tahmeb at ix.netcom.com>
+Subject: Garden Hoses
+
+
+Hello,
+
+
+I used to work in the RV industry and it was very standard to use a "garden"
+hose for fresh water supply in RV's. The hoses used were generally white and
+some had a blue stripe. A trailer supply place like Camping World has these.
+The key is the wording potable water hose.
+
+
+Terry
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 08:26:40 +0100
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: CO2 graphs and it's interpretation
+
+
+I agree that eventually it is essential to improve the accuracy of the flow
+meter used. I think Ken's flowmeter is really intersting and I am glad that
+he shared his data! As I understand this is his first real run with it.
+
+
+In general I am mostly concerned with repeatability. An repeatable error is
+not a major problem as it can be calibrated away by software, while random
+errors are fatal. A non-linear calibration isn't a big problem as long as
+you are using a computer (and can model the error). As some may remember I
+posted on here about a bubble logger I made some time ago. It's a flow meter
+as well, but it works by counting bubbles. Obviously there are lots of
+issued involved, pressure of bubbles, bubble volume variation etc. But I've
+ran this for some batches now and even as is, it's very useful. Even if
+you'd get an error in the volume you still see the rough fermentation
+profile, which in itself is useful. To actually understand every peak and
+jerk is complex, and without some theoretical model I think it wouldn't make
+much sense even if you have the best flow meter around. With the bubble
+logger the flow is very noise on small time scale, as the mean time between
+bubbles is fairly random, but if you look at the time averages it looks very
+good.
+
+
+My approach is that I find my bubble logger good enough for now(though it
+may eventually need to be replaced, but I haven't put alot of energy into
+that part yet), enough to predict FG within some point anyway, and I'm
+working on a computer simulation of the CO2 graph and fermentation and I
+hope to have a alpha version coming this year. Until that is done, I doubt
+it would make much sense to have a better flow meter. So I think any
+flowmeter that's in the ballpark, with a reproducable error is great, and
+much better than nothing.
+
+
+If this turns out good I think the CO2 graphs is much more than just
+predicting FG. OG and FG are just two datapoints. If you can get the entire
+process mapped out, it's much more interesting to me, even if you would end
+up with a slight error in the FG.
+
+
+I've already done simple basic simulations of saturation lags etc, but the
+real hard part that I'm struggling with is how to model yeast dynamic
+response to ambient conditions. Some things are still bothering me, and as I
+lack proper knowledge I have to make things up mathematically in order to
+get the simulation model complete and then go back and revise it later.
+
+
+(http://hem.bredband.net/frerad/beer/simple.jpg)
+In this pic the phase shift between CO2 productio and CO2 leaving fermentor
+is shown. I'd better point out that this is a very simple simulation and not
+near the final simulation, so I don't get nuked with corrections :) It
+totally ignores that fact that the yeast go dormant  at  EOF. It basically
+ignores everything, is just models the depletion of sugar and CO2
+progressing throutgh the liquied in the simplest possible way. It does have
+a simple transition function from lag. Also the "sugar" is only the
+fermentable part. The unfermentable parts doesn't need modelling this this
+simple case.
+
+
+ /Fredrik
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 04:13:58 -0500
+From: "Rich Beecher" <rbeecher at hotmail.com>
+Subject: Potassium Metabisulphate
+
+
+24 February
+
+
+Greetings All,
+
+
+    After many years, I am returning to homebrewing. I'll be starting out 
+with extract/steeping, and will be doing a partial boil. I hope to move up 
+to mashing next year.
+    My question is: is it possible to use potassium metabisulphate to 
+pretreat the water that is not involved in the boil? I have read that wine 
+must may be treated with it the day before to kill off most of the nasties; 
+most of the sulphates evaporate, & the yeast is happy when added to the must 
+the next day. Is the same thing possible with wort (the hops/steeped runoff 
+will be boiled, along with the extract).
+    Thank you all much.
+
+
+Best Regards,
+Rich Beecher
+Chattanooga, TN
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 09:15:02 +0000
+From: King Queen <kq at kingqueen.org.uk>
+Subject: Garden Hose in Brewing
+
+
+Calvin Perilloux wrote:
+
+
+> So I was thinking of this posting regarding "plasticisers"
+> and adding some info to that, whereas I
+> believe Tim was talking 
+> about another posting using garden hose as the outer shell
+> of a counter flow wort chiller.  I think both Tim and I agree
+> that wort-contact applications are bad, and waste-water-contact
+> applications are fine.  No misinformation there, just some
+> clarification.
+
+
+This misunderstanding was down to me I'm 
+afraid - I misunderstood David Houseman's 
+post (which was about a counterflow chiller, 
+no hose > wort contact) and so my post about 
+plasticisers was a bit of a non-sequiteur I'm afraid.
+
+
+Anyway, it generated some interesting debate!
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 08:25:35 -0500
+From: mikes at flatsurface.com (Mike S)
+Subject: Re:max safe ambient temp for full CO2 tank
+
+
+
+
+>I would like to put my CO2 tank outside of my refrigerator. However, 
+>where I
+>live, average daily high temps are 100+ for 2.5 to 3 months. What is 
+>the
+>safest ambient temperature that I can keep my full CO2 tank at without
+>worry. Also, what is the highest ambient temperature for a high 
+>pressure
+>hose leading from the tank to the regulator?
+
+
+This page: http://www.privatedata.com/doomlabs/science/CO2_Science.html
+contains a useful chart for CO2 cylinders. CO2 cylinders are typically
+rated at a working pressure of 1800 psig. "100% fill" is filled to 
+design
+capacity, not filled to the brim.
+
+
+ From the chart, a 100% full CO2 cylinder is within it's working rating 
+at
+all temperatures below 110F. A 90% full would be good to about 120, and 
+an
+80% fill to about 130F (extrapolating.)
+
+
+That's to stay inside the rated "working pressure." Test pressure on 
+CO2
+cylinders is 3000 psig, and they usually have a burst disc rated around 
+
+
+2500 psig.
+
+
+Basically, unless it's overfilled, you should have no problems. Burst 
+discs
+can, however, fail at less than their design rating from metal fatigue
+after some period of use, so you may want to occasionally have a new 
+one
+put in.
+
+
+Mike
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 08:25:25 -0500
+From: "May, Jeff" <Jeff.May at uscellular.com>
+Subject: re: Seattle brewpubs
+
+
+I lived there a few years ago, but my favorites would be Pike
+Brewery downtown, and McMenamins (there are a couple around
+town).  Pike is more of a brewery that celebrates it's own
+creations and McMenamins is more of an Irish drinking house
+with a LARGE selection.  Red Hook has a public house at their
+brewery in Woodinville.  I also would have to mention Hale's
+as they sponsored our brew club.  
+
+
+Jeff (Mayzer) May         
+Mayzerbrau Nano Brew Wilmington, NC
+jeff.may at uscellular.com
+
+
+"The mind cannot fully comprehend the mind."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 08:50:23 -0500
+From: "Michael Maag" <MichaelMaag at doli.state.va.us>
+Subject: max safe ambient temp for full CO2 tank
+
+
+>Andy in Las Vegas
+> What is the safest ambient temperature that I can keep my full CO2
+tank at >without worry. Also, what is the highest ambient temperature
+for a high >pressure hose leading from the tank to the regulator? Any
+help would be >appreciated.
+
+
+The Compressed Gas Association recommendations regarding outdoor
+storage include guarding against rust damage of the cylinder bottoms,
+and shading the cylinders from direct sunlight.  CO2 cylinders are
+protected from explosion with a frangible disk which will break at high
+pressure (much lower pressure than would explode the cylinder), and vent
+all the CO2.  If the cylinder is in an area with at least some
+ventilation and not in direct sunlight, it should be fine.  The actual
+safe temp limit would be lower if the cylinder were overfilled, but that
+is taken into consideration regarding the need for shade.  In other
+words, it SHOULD be ok.
+The hose would be fine at "ambient" temps also.  Just keep it away from
+flames and hot surfaces.
+
+
+Hope this helps,
+Mike Maag, in the Shenandoah Valley
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 09:17:34 -0500
+From: Jeff Renner <jeffrenner at comcast.net>
+Subject: Re: static fizz
+
+
+JonO <burnunit at waste.org> writes from Minneapolis, MN that his Dunkel is
+
+
+>basically fermented out and ready to bottle.
+>EXCEPT, it's still active.  It's a little fizzy, with some fizz in the
+>graduated cylinder and the airlock shows positive pressure from within,
+>and it bubbles if I jostle it (like when I went to take a reading).
+
+
+The finished beer is supersaturated with CO2 and the CO2 is slowly 
+coming out of solution, especially when you bump it.  The colder the 
+beer is, the more CO2 can hold.
+
+
+>since it hasn't budged at all from that 1.013 gravity, I feel it's
+>done.  I just don't want to overprime it.  Do I wait til it's flat and
+>then go?  Or do I use less than my usual amount of priming sugar?  Or
+>do I use a normal amount but keep it cold for a while?
+
+
+You didn't tell us the starting gravity, but 1.013 seems like a good 
+terminal gravity for anything above 1.050 or so.  You need to take 
+into account the amount of CO2 in solution when you prime.  This is 
+temperature dependent, of course.
+
+
+John Palmer has a handy nomograph for this on p. 133 of his book _How 
+to Brew_.  It's in the online book at 
+http://www.howtobrew.com/section1/chapter11-4.html, or you could buy 
+the hard copy.
+
+
+Jeff
+- -- 
+Jeff Renner in Ann Arbor, Michigan USA, JeffRenner at comcast.net
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 08:48:15 -0600
+From: "Brian Lundeen" <BLundeen at rrc.mb.ca>
+Subject: RE: static fizz
+
+
+> Date: Mon, 23 Feb 2004 12:31:36 -0600
+> From: Burn Unit <burnunit at waste.org>
+> Subject: static fizz
+> 
+
+
+> since it hasn't budged at all from that 1.013 gravity, I feel it's 
+> done.  I just don't want to overprime it.  Do I wait til it's 
+> flat and 
+> then go?  Or do I use less than my usual amount of priming sugar?  Or 
+> do I use a normal amount but keep it cold for a while?
+> 
+
+
+The colder your fermentation, the more residual CO2 will remain, and
+this is what's causing the static fizz in your lager. If you wait for it
+to go flat, you will never drink that beer. ;-) 
+
+
+A good priming calculator will account for the fermentation temperature
+to provide a reasonable estimate of how much CO2 you already have and
+how much priming sugar you will therefore need to reach your desired
+level. There is a decent one at the Beer Recipator
+http://hbd.org/cgi-bin/recipator/recipator/carbonation.html It also
+provides recommended carbonation levels for a variety of styles.
+
+
+Cheers
+Brian, in Winnipeg
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 08:58:00 -0600
+From: "Steve Fletty" <fletty at umn.edu>
+Subject: The Quest for the Mash-Out Chalice
+
+
+Good Sir Brewer, are you equal to the challenge? Are you willing to test
+your Brewing Mettle against the Most Mighty Zymurgical Alchemists in All the
+Land?
+
+
+If you have the Fortitude of  Heart and haven't already Soiled Your Armor
+and deleted this email in Sheer Cowardice, then press on Brave Brewer, for
+by doing so you may win one of the Best of Show prizes, hand carved by a
+Skilled Craftsman from Rare Exotic African Black Limba Wood, which will be
+awarded at the third annual Upper Mississippi Mash-Out in May.
+
+
+Only one Brave Brewer and one Mighty Meadmaker each will receive one of
+these Coveted and Unique Chalices. Will it be you, or will you cower like a
+Mangy Dog which wets itself in Abject Fear and crawls beneath a Dung Cart?
+
+
+Please go to http://mnbrewers.com/mashout where you may view the Most
+Coveted Vessels and acquire more Knowledge and Learning about the Upper
+Mississippi Mash-Out. If you don't, then we will Break Wind in your general
+direction and Snicker Most Mischievously about your Common and Paltry
+Brewing Prowess.
+
+
+Huzzah!.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 09:50:36 -0600
+From: "William Frazier" <billfrazier at worldnet.att.net>
+Subject: Clinitest
+
+
+Dave Burley wrote "Andy in Hillsborough decries starting a new Clinitest row
+but asks about
+getting Clinitest.  You can buy the tablets from your pharmacy ( maybe 100
+in a box) and if you
+don't have the kit, just get an eyedropper from the pharmacy and use a
+testube.  The color test comparisons and instructions are in the box of
+tablets."
+
+
+Winemakers use Clinitest to test residule sugar.  It's a bad thing to have a
+bottle fermentation.  If you want a kit go to www.piwine.com.  I don't see
+Clinitest in their on-line catalog but they show it in their printed
+version.
+
+
+Bill Frazier
+Olathe, Kansas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 08:01:52 -0800 (PST)
+From: Calvin Perilloux <calvinperilloux at yahoo.com>
+Subject: Re: max safe ambient temp for ful CO2 tank
+
+
+Andy in (soon-to-be-sweltering) Las Vegas asks:
+
+
+> What is the safest ambient temperature that I can keep
+> my full CO2 tank at without worry. 
+
+
+A copy of an excellent pressure/phase state chart for CO2 is here:
+http://www.privatedata.com/doomlabs/science/CO2_Science.html
+
+
+CO2 has a critical temperature of about 88 F.  That's the 
+temperature where it becomes a gas+fluid state, and the 
+"easy" equations we learned in Physics 101 don't work, 
+hence the chart.
+
+
+I've seen from suppliers that a "service pressure" of up 
+to 1800 psi applies to aluminum tanks.  Dunno about steel,
+but likely similar.  Max test pressure is 3000 psi --  but 
+let's not even consider that.
+
+
+With a full fill, you're getting close to the max service 
+pressure on the tank at 110 F, manageable but not recommended
+because any further increase in temperature causes a rapid 
+rise in pressure - see the chart.  (Make damned sure you don't 
+have that tank in the sun at these temps.  Make damned sure 
+you don't get an overfill on a new tank at these temps.) 
+
+
+However, keep in mind that the maximum daytime temperature
+where you are is >100 F.  That means that at night, you're 
+somewhat cooler.  With thermal inertia, that tank might
+well be in the tolerable zone of 90's F.
+
+
+As for the high-pressure hose, you'll be looking at the
+same pressure as in the tank if the hose is before the
+regulator.  I'd probably want to keep the regulator on
+the tank, myself, but could be persuaded otherwise if
+anyone has good info on that.
+
+
+Calvin Perilloux
+Middletown, Maryland, USA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 08:05:36 -0800
+From: Demonick <demonick at zgi.com>
+Subject: Re: Seattle Brewpubs
+
+
+Peter, email me and perhaps we can hook up somewhere. 
+
+
+Big Time Brewery & Alehouse
+   Absolutely worth a visit.  Bhagwan's Best, the Oatmeal Stout, and
+whatever is on the engine. 
+
+
+Elysian Brewing Company
+   Yes.  Nice Pilsner.
+
+
+Gordon Biersch Brewing Company
+   A chain - forget it. 
+
+
+Hale's Ales Brewery & Pub
+Maritime Pacific Brewing
+Redhook Trolleyman
+   All three a are big YES!!  They are on the same street within a mile of
+each other.  You may or may not be interested in trying Redhook's offerings
+at the source, but at least drive by the original brick brewery.
+
+
+   At Hale's one must try the Special Bitter, and the IPA, and whatever is
+on the engine.
+
+
+   At Maritime one must try Islander Pale, and the Jolly Roger.  
+
+
+Pyramid Alehouse, Brewery & Restaurant
+Hart Brewery & Pub / Pyramid Ales
+   Same place.  Right across the street from the best ballpark in America,
+SafeCo Field - the Safe.  Big place, still make pretty good beers.  If time
+is limited skip it.
+
+
+McMenamins Queen Anne Hill
+McMenamins/Six Arms Pub
+   Chains.  Beer is insipid. 
+
+
+Pike Brewery & Pub
+   Most folks like their beer, I find it uninteresting. 
+
+
+Ram Restaurants / Big Horn Breweries
+Rock Bottom Brewery
+   Both chains - forget. 
+
+
+Manny's, small local in Georgetown - I don't know if they have a tasting
+room.  
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 10:22:54 -0600
+From: Eric Schoville <eric at schoville.com>
+Subject: Copper in Fermenters
+
+
+Is there a problem with copper in fermenters?  I would like to but a SS 
+valve in my fermenter, but all of the extra parts I have are out of 
+copper.  If not copper, what about PVC?  Does PVC tolerate acid 
+environments like wort?
+
+
+Thanks
+
+
+Eric Schoville
+http://www.schoville.com/brewery.php
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 11:53:58 -0800 (PST)
+From: Leo Vitt <leo_vitt at yahoo.com>
+Subject: Light and Dark Munich Malts
+
+
+
+
+
+
+Robert Sandefer asked about Light and Dark Munich Malts.
+
+
+"PS: Anyone who has used Munich malt (there are a lot of you I'm sure) 
+can contribute to this discussion.
+What style did you use light Munich malt in? And dark?"
+
+
+I have only used light Munich malt.  I probably will use dark in the
+future.
+
+
+I have used light in these styles:
+Altbier
+Munich Dunkel
+Bock/Dopplebock
+DunkelWeizen
+Weizenbock
+Belgian Dubbel
+Rauchbier
+Maibock
+
+
+Two - three years ago I experimented with 100% light munich in a
+dunkel.
+It was too light in color and was not that rich tasting.  Others I made
+before that with base malt of light munich, some caramunich and
+melanoidin malts fit the style better.
+
+
+There is a dark malt flavor without having the roasted malt flavor
+
+
+Altbier was a mix of light munich and pilsner malt.  Altbier is not
+nearly as dark as dunkel.  Light munich is dark enough.
+
+
+Bock and doppelbock had cara-munich, cara-vienna and melanoidian malt
+added as well.
+
+
+Maibock was half light munich half pilsner.
+
+
+Weizen bock and dunkel weizen had dark wheat, light munich and
+caramunich.
+
+
+Dubbel - I forget the ratio. 
+
+
+
+
+
+
+
+
+
+
+=====
+Leo Vitt
+Sidney, NE
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 24 Feb 2004 21:53:06 +0000
+From: beerbuddy at comcast.net
+Subject: Re: Seattle Brewpubs
+
+
+Although I moved to Santa Fe, NM a couple months ago, I still 
+consider the Seattle area home. 
+
+
+Your list of pubs is pretty good. You don't say where in the City your 
+conference is, the breweries you list are all around town. Pike's is my 
+favorite, and it is right down near the public market. It is walking 
+distance from many conference facilities. They usually have 7 or 8
+of their own, and several guest taps. Pyramid has some pretty good stuff.
+Their Alehouse is across from Safeco Field. You can get a wider 
+variety than their commonly available Pale Ale. Rock Bottom is in a
+mall in downtown, but I've found them to be inconsistent. (with the
+exception of their service, which is always poor.) 
+
+
+My favorite is not on your list. It is about 15 miles east of the 
+City. If you are out and about, check out Issaquah Brewery, across
+from the library near old-town Issaquah.  (south on exit 18 of I90
+east). Their food isn't great, but they are associated with Rogue 
+Brewery. They typically have a variety of 12 or so taps from Rogue 
+as well as one of their own. 
+
+
+Hope this helps!
+Timothy
+BeerBuddy
+snowed-in in Santa Fe, NM (formerly North Bend, WA)
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4484, 02/25/04
+*************************************
+-------

@@ -1,0 +1,770 @@
+﻿Date: Wed, 11 May 2005 01:20:58 -0400
+Subject: Homebrew Digest #4773 (May 10, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4773                             Tue 10 May 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  This Space For Rent
+      Visit http:// to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Electrical Help? ("Pete Calinski")
+  Re: Electrical Help? (Scott Alfter)
+  Re:  Perlick faucet failure? (Dennis Collins)
+  RE: Electrical Help? ("Ronald La Borde")
+  RE:  Brewer's Rendezvous - Is it Closed? ("William C. Tobler")
+  Re: RE: Electrical Help? ("Eric R. Theiner")
+  Re: Perlick faucet failure? (Dylan Tack)
+  Re: Electrical Help? ("Spencer W. Thomas")
+  RE: Electrical Help? (Steven Parfitt)
+  RE:  Perlick faucet failure? (Derek Sheehan)
+  Perlick faucets ("Peed, John")
+  RE: Something failed... ("Brian Lundeen")
+  Re: Electrical Help? (Adrian Levi)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 9 May 2005 22:25:30 -0400
+From: "Pete Calinski" <pjcalinski at adelphia.net>
+Subject: Electrical Help?
+
+
+It sounds like all the wiring is right.  Any chance you were so slow at
+plugging it in that you were making intermittent contact and causing
+multiple sparks?  Maybe just plugging it in fast would be better.
+
+
+I assume you had the element in water.  It will burn up real fast in air.
+
+
+
+
+If that doesn't cure it, can you try it with 110 V; just for giggles?
+
+
+
+
+
+
+Pete Calinski
+East Amherst NY
+Near Buffalo NY
+
+
+http://hbd.org/pcalinsk
+
+
+
+
+***********************************************************
+*My goal:
+*      Go through life and never drink the same beer twice.
+*     (As long as it doesn't mean I have to skip a beer.)
+***********************************************************
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 00:22:51 -0700
+From: Scott Alfter <scott at alfter.us>
+Subject: Re: Electrical Help?
+
+
+Eric R. Theiner wrote:
+> I have got my element for my brew kettle wired, got the extra 220v outlet 
+> wired, and have everything sealed... and I go to test it this morning and 
+> slooooowly push the plug in, and got a flash and a pop!  I pulled it back 
+> quickly and the breaker had not blown (hope nothing else blew instead!), and
+>  one of the hot poles on the plug now has a char mark on it. I'm not sure 
+> what I've done wrong, so I'll describe my wiring and diagnostics so far.
+> 
+> The heater element only has two screws.  I screwed one hot pole to each and
+>  grounded to the brass exterior of the heat stick.  I wired the outlet in 
+> such a way as to be sure (and I have doublechecked) that the two hot poles 
+> are definately continous to the element and the ground wire is continuous to
+>  ground mentioned above (on the brass exterior of the heat stick).
+
+
+
+
+What did you do with the neutral connection?  You've connected the two live 
+wires (red and white) to the heater power terminals and the ground (green) to 
+the heatstick.  With a 240V heater element, neutral (black) should be left 
+disconnected.
+
+
+At the plug, an ohmmeter across the pins should read something like this:
+
+
+live 1-ground: infinity
+live 2-ground: infinity
+live 1-neutral: infinity
+live 2-neutral: infinity
+live 1-live 2: just a few ohms, but not zero
+ground-neutral: infinity
+
+
+Resistance across the heater element (live 1-live 2) will vary according
+to the element you use. I use 120V 1.5kW elements for my heatsticks, which 
+should read 9.6 ohms (you'll probably gain a few tenths of ohms going through
+the plug and cord; I see 10 ohms at the plug). 240V 3kW elements should present
+double that resistance, or 19.2 ohms; 240V 4.5kW elements should read 12.8
+ohms. For these low values of resistance, if you can't zero the meter when it's
+shorted (many DMMs lack a zero adjustment), you'll want to measure the
+resistance of the test leads (short them together) and subtract that out of 
+your reading.
+
+
+Going between the body of the heatstick (or the body of the heater
+element) and the pins on the plug, you should get zero (or close to it) on the 
+ground pin and infinity on the rest.
+
+
+(I'm assuming that you had a 4-pin outlet (14-30R or 14-50R) put in to
+power your setup.  If you have a 3-pin outlet, things get tricky.  With
+a 6-20R, 6-30R, or 6-50R outlet, you get two lives and ground, but no
+neutral.  If everything's connected as you described, it should still
+work.  With 10-30R or 10-50R, though, you get two lives and neutral, but
+no ground.  Connecting the body of the heatstick to neutral would be a
+Bad Thing.  (The different outlet types are shown in a chart at
+http://www.leviton.com/sections/techsupp/nema.htm.))
+
+
+> After the event mentioned above, I used my multimeter to make sure that 
+> there were no shorts to the ground, and I got absolutely no deflection 
+> between the (unplugged) hot poles and the ground.  I was afraid that the 
+> silicone sealant might have crossed the poles (although I'm pretty sure it's
+>  non-conductive).
+
+
+Any silicone sealant you would use in a food-contact application would
+be non-conductive.  You might want to double-check to make sure you have
+no leaks, though.  It should also be fully-cured before you fire it up
+(give it at least 48 hours).
+
+
+   _/_  Scott Alfter
+  / v \ Visit the SNAFU website today!
+(IIGS( http://snafu.alfter.us/      Top-posting!
+  \_^_/ rm -rf /bin/laden            >What's the most annoying thing on Usenet?
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 09:50:09 -0400 (GMT-04:00)
+From: Dennis Collins <dcollins at springmail.com>
+Subject: Re:  Perlick faucet failure?
+
+
+"The facts seem straightforward - the beer apparently came out of the
+faucet with the handle in the closed position.  My only logical conclusion
+is that the faucet seal failed."
+
+
+Funny you should mention this.  I and a friend of mine both have the
+Perlick faucets and have both experienced this problem, although not
+to the degree that you did.  Theonly seal on these faucets is an O-ring
+that is the "forward seal".  It appearsthat the act of shutting off the
+faucet, pushes the seal in place and seals, however, if you don't push
+the handle back with some modicum of force, the O-ring can only
+partially seal and then sit there and leak.  The handle looks likes
+it's closed, but it's really not.  I've found that I just need to make
+sure the faucet is closed by giving the handle a good solid push
+backwards to make sure the O-ring seals.  So far so good.  If your
+seal did fail, it's a snap to replace, but I don't have the size handy.
+
+
+Other than that, I can vouch for your love of these forward sealing
+faucets.  No more stuck handles like I used to have after only a few
+days of inactivity with the standard type.  I've left these alone for
+a couple of weeks and still had no sticking at all.  In addition,
+they seem to stay cleaner because they don't have all that dried
+up beer inside.
+
+
+Prosit,
+
+
+Dennis Collins
+Knoxville, TN
+http://sdcollins.home.mindspring.com
+
+
+"In theory, theory and practice are the same, but not in practice."
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 09:17:13 -0500
+From: "Ronald La Borde" <pivoron at cox.net>
+Subject: RE: Electrical Help?
+
+
+>From: "Eric R. Theiner" <rickdude at tds.net>
+>
+>I go to test it this morning and slooooowly push the plug in,
+>and got a flash and a pop!  I pulled it back quickly and the
+>breaker had not blown
+
+
+Since many things could cause the above result, this is sort of a
+guessing exercise based on what to look for:
+
+
+First, and not to lecture, but slowly pushing in the plug was not so
+good an idea. Quickly removing it would be better, but the 240 volts
+is much faster than you ever could be. That the breaker did not blow
+could mean that the breaker is somewhat slow, or more likely whatever
+caused the pop was not enough to trip the breaker.
+
+
+What could the pop mean? You do not mention how the circuit is
+controlled. I assume you just had a direct connection. If you used
+stranded wire, and you should have, possibly a single stray strand in
+the plug, or anywhere in the wiring was causing a short that was blown
+(vaporized) when you first made contact. If this is the case, then the
+short is now gone and your measurements will not show it. Look for
+some telltale smoke residue at all the connection locations where this
+could happen.
+
+
+It is also possible that the element had a short at 240 volts that
+does not show when tested at low voltage by the multimeter. Not
+likely, but possible. You could remove the element and protect the
+open connection and try the plug again. You could connect to a 240
+volt light bulb, or easier to get, two 120 volt bulbs in series, and
+try the plug again. This will tell you the wiring to the element is
+all good.
+
+
+Finally, back to slowly pushing in the plug, it is also possible that
+nothing is wrong. Pushing in the plug slowly would cause a very small
+conduction point that would get very hot and melt, vaporize, cause a
+spark, a pop, and all sorts of entertainment at 240 volts with 20 amps
+or so.
+
+
+Ron
+=====
+Ronald J. La Borde -- Metairie, LA
+New Orleans is the suburb of Metairie, LA
+www.hbd.org/rlaborde
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 09:24:06 -0500
+From: "William C. Tobler" <wtobler at houston.rr.com>
+Subject: RE:  Brewer's Rendezvous - Is it Closed?
+
+
+Paul asked,
+
+
+<Are they closed?
+
+
+Don't know.  But...
+
+
+<If so, can anyone make a recommendation on companies which
+<supply lab supplies on a smaller scale?  Specifically, petri plates,
+<autoclavable slant rack, autoclavable pipettes?
+
+
+Try    http://www.brewstersyeast.com/
+or e-bay    
+http://search.ebay.com/autoclavable- 
+rack_W0QQsofocusZbsQQsbrftogZ1QQcatrefZC6QQfromZR10QQsacatZ 
+ -1QQcatrefZC6QQsargnZ-1QQsaslcZ2QQftrtZ1QQftrvZ1QQfsopZ1QQfsooZ1
+
+
+(You will probably have to past the above URL together to make it work.)
+
+
+They have quite a few yeast ranching supplies.
+
+
+
+
+Bill Tobler
+Lake Jackson, TX
+(1129.2, 219.9) Apparent Rennerian
+Brewing Great Beer in South Texas
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 10:02:13 -0500
+From: "Eric R. Theiner" <rickdude at tds.net>
+Subject: Re: RE: Electrical Help?
+
+
+Thanks for the reply Ron,
+
+
+Yep, I agree that I am not quite as fast as the speed of light, but my thought
+was that a reflex would be enough to keep me from getting cooked if I didn't
+have a tight connection. Perhaps untrue, but I'm an optimist.<g>
+
+
+Further investigation has determined that the problem was either an initial arc
+or the small conduction point that you mentioned. I'm installing a switch to
+prevent this in the future, but otherwise it looks like the system works like a
+champ!
+
+
+Now for the controller box...
+
+
+Rick
+
+
+>
+> From: "Ronald La Borde" <pivoron at cox.net>
+> Date: 2005/05/10 Tue AM 09:17:13 CDT
+> Subject: RE: Electrical Help?
+>
+>First, and not to lecture, but slowly pushing in the plug
+>was not so good an idea. Quickly removing it would be
+>better, but the 240 volts is much faster than you ever could
+>be. That the breaker did not blow could mean that the
+>breaker is somewhat slow, or more likely whatever caused the
+>pop was not enough to trip the breaker.
+>
+>What could the pop mean? You do not mention how the circuit
+>is controlled. I assume you just had a direct connection. If
+>you used stranded wire, and you should have, possibly a
+>single stray strand in the plug, or anywhere in the wiring
+>was causing a short that was blown (vaporized) when you
+>first made contact. If this is the case, then the short is
+>now gone and your measurements will not show it. Look for
+>some telltale smoke residue at all the connection locations
+>where this could happen.
+>
+>It is also possible that the element had a short at 240
+>volts that does not show when tested at low voltage by the
+>multimeter. Not likely, but possible. You could remove the
+>element and protect the open connection and try the plug
+>again. You could connect to a 240 volt light bulb, or easier
+>to get, two 120 volt bulbs in series, and try the plug 
+>again. This will tell you the wiring to the element is all
+>good.
+>
+>Finally, back to slowly pushing in the plug, it is also
+>possible that nothing is wrong. Pushing in the plug slowly
+>would cause a very small conduction point that would get
+>very hot and melt, vaporize, cause a spark, a pop, and all
+>sorts of entertainment at 240 volts with 20 amps or so.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 10:57:16 -0500
+From: Dylan Tack <dylan at io.com>
+Subject: Re: Perlick faucet failure?
+
+
+Ed Dorn asked about trouble with a leaky Perlick faucet...
+I use the Vent-Matic faucets (which the Perlick design is based on), 
+and haven't had trouble.  The way the seal is designed, the pressure 
+will push the valve closed.  So it's hard to imagine a new seal 
+failing.  Maybe a piece of solid debris (trub or hops?) got stuck in 
+the gate, causing it to remain open slightly?  When you found it in the 
+morning, was there gas coming out of the faucet, or had it closed again?
+
+
+ -Dylan
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 12:01:16 -0400
+From: "Spencer W. Thomas" <hbd at spencerwthomas.com>
+Subject: Re: Electrical Help?
+
+
+From: "Eric R. Theiner" <rickdude at tds.net>
+>
+>I go to test it this morning and slooooowly push the plug in,
+>and got a flash and a pop!
+
+
+Am I correct in assuming that there is no inline switch?  That the
+element is connected directly to the cord?  This is not, in my opinion,
+good practice.  If there's no switch in the device, then you should have
+a switch to cut power to the outlet.  If you can't do either, you should
+switch off the power at the breaker when you plug it in.
+
+
+It's really not a good idea to plug in (or unplug) a high-current device
+"live."  As you found, you can get nasty sparking at the time of
+contact.  You could, in the worst case, get an "instant weld" of plug to
+socket.
+
+
+Do yourself a favor and install a switch somewhere in the circuit.
+
+
+=Spencer
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 12:42:11 -0700 (PDT)
+From: Steven Parfitt <thegimp98 at yahoo.com>
+Subject: RE: Electrical Help?
+
+
+Eric R. Theiner laments:
+
+
+
+
+> Hi Guys,
+
+
+> I'm hoping that the plethora of knowledge that has 
+> gotten me to this point in building my electric 
+> brewing can help me with what I've apparently 
+> missed...
+
+
+> I have got my element for my brew kettle wired, got
+> the extra 220v outlet wired, and have everything
+> sealed... and I go to test it this morning and 
+> slooooowly push the plug in, and got a flash and a 
+> pop!  I pulled it back quickly and the breaker had 
+> not blown (hope nothing else blew instead!), and one
+
+
+> of the hot poles on the plug now has a char mark on 
+> it.
+ ....snip.....
+> Thanks!
+> Rick
+
+
+
+
+Rick, what you need is a doubble pole single throw
+switch rated at 20 Amperes (or some comfortable number
+greater than the proposed currend draw).
+
+
+Plugs and sockets are not designed for "Hot Plugging"
+and you have seen the results of doing so.
+
+
+Always make sure power is OFF before pulling a plug or
+inserting it.
+
+
+
+
+
+
+Steven, -75 XLCH- Ironhead Nano-Brewery  http://thegimp.8k.com
+Johnson City, TN [422.7, 169.2] Rennerian 
+
+
+"There is no such thing as gravity, the earth sucks." Wings Whiplash - 1968
+
+
+
+
+                
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 16:54:28 -0400
+From: Derek Sheehan <w7rex at comcast.net>
+Subject: RE:  Perlick faucet failure? 
+
+
+Ed,
+
+
+I have been using Perlick faucets for over a year with no issues at all. 
+I think they are wonderful devices that require a lot less maintenance 
+than the standard design.
+
+
+I recommend that you take it apart and inspect it carefully. You should 
+be able to detect a seal failure. Also, try the Perlick website at 
+http://www.perlick.com/warranty-info.shtml for warranty info. They have 
+a 1 year parts warranty.
+
+
+In my house if that incident happened I would have to assume that the 
+cat did it, the kids did it (or their friends) or some other mishap. My 
+faucets have been working perfectly.
+
+
+I hope you can figure it out!
+
+
+Derek
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 14:05:23 -0700
+From: "Peed, John" <jpeed at elotouch.com>
+Subject: Perlick faucets
+
+
+
+
+I have five on my beer fridge; at least two have leaked on occasion.
+You have to make darn sure that you get them fully closed - sometimes a
+couple of mine will just dribble.  I've not found cleaning to help any -
+you just have to make sure they're completely off before walking away.
+
+
+John Peed
+Oak Ridge, TN
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 10 May 2005 18:27:05 -0500
+From: "Brian Lundeen" <blundeen at mts.net>
+Subject: RE: Something failed...
+
+
+> Date: Mon, 09 May 2005 14:32:48 -0700
+> From: Ed Dorn <edorn at mailblocks.com>
+> Subject: Perlick faucet failure?
+> 
+> As of 11:00 PM last nite, all was well.  Then when I went into the 
+> garage this morning, all the beer in the keg had been dumped to the 
+> garage floor.  
+> 
+> I'm wondering if anyone has any ideas about other possible 
+> causes, 
+
+
+Did you annoy SWMBO recently? ;-)
+
+
+Cheers
+Brian, in Winnipeg
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 11 May 2005 09:58:11 +1000
+From: Adrian Levi <hoarder at optushome.com.au>
+Subject: Re: Electrical Help?
+
+
+> From: "Eric R. Theiner" <rickdude at tds.net>
+
+
+<Snipped>
+
+
+> I have got my element for my brew kettle wired, got the 
+> extra 220v outlet wired, and have everything sealed... and I
+> go to test it this morning and slooooowly push the plug in, 
+> and got a flash and a pop!  I pulled it back quickly and the
+> breaker had not blown (hope nothing else blew instead!), and
+> one of the hot poles on the plug now has a char mark on it. 
+> I'm not sure what I've done wrong, so I'll describe my 
+> wiring and diagnostics so far.
+
+
+1)Check the ohms between the two terminals on the heater, then from each 
+terminal to earth. Do these same tests at the plugtop to check for 
+transposed wires.
+3)I live in Australia so I may be wrong here; AFAIK US uses a floating 
+live system. Check your voltage from each 'hot' pin on the socket to 
+earth. and from 'hot' to 'hot'. The way I understand it, you should only 
+have 220v between the two 'hot' wires. You might have crossed the earth 
+and hot wire at the socket.
+2)Find someone with a 'megger' to test the insulation resistance of your 
+heater element. It may have a high resistance short that only shows up 
+under load voltage.
+
+
+Adrian
+
+
+
+
+- -- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.308 / Virus Database: 266.11.7 - Release Date: 9/05/2005
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4773, 05/10/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

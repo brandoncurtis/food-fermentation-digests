@@ -1,0 +1,1406 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Tue Feb  7 03:27:52 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["46506" "Tue" " 7" "February" "1995" "01:01:08" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1139" "Homebrew Digest #1651 (February 07, 1995)" "^From:" nil nil "2" nil nil nil nil]
+        nil)
+Received: by judgmentday.rs.itd.umich.edu (8.6.9/2.2)
+        with X.500 id DAA27016; Tue, 7 Feb 1995 03:27:48 -0500
+Received: from goodman.itn.med.umich.edu by judgmentday.rs.itd.umich.edu (8.6.9/2.2)
+        with SMTP id DAA27010; Tue, 7 Feb 1995 03:27:47 -0500
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA14407
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Tue, 7 Feb 95 03:27:42 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA07044; Tue, 7 Feb 1995 01:25:58 -0700
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA26693; Tue, 7 Feb 1995 01:01:08 -0700
+Message-Id: <9502070801.AA26693`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1651 (February 07, 1995)
+Date: Tue, 7 Feb 1995 01:01:08 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1651                             Tue 07 February 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  UV Disinfection of Water (DBURKE)
+  More Control Ramblings (npyle) <npyle`at`hp7013.ecae.StorTek.COM>
+  Re: More Control Ramblings (Dion Hollenbeck)
+  Iodine Test Strips. Where? (Kevin Fogarty)
+  Wheat Malt Color (Craig Amundsen)
+  Beck's Dark Recipe (JULIO CANSECO)
+  Homebrew archives location (Philip Gravel)
+  Re: Returned mail: User unknown ("Lee Bussy")
+  Aging of homebrew (TPuskar)
+  IBU prediction vs reality (MicahM1269)
+  recipes with dark malt (Lenny Garfinkel)
+  Hops Info Request (npyle) <npyle`at`hp7013.ecae.StorTek.COM>
+  Water Formulation Program (Diane S. Put)
+  imperial stout ferment (R. M. Landis)
+  Ozone (Ed Hitchcock)
+  ffts again (ANDY WALSH)
+  Homebrew Recipe Archive (Philip Gravel)
+  Coming out: ("THE FOURWHEELIN' 'TALIAN WANNABE JOKEMEISTER.")
+  Water Chemistry Software (Fred Waltman)
+  UK-oriented Homebrewing Newsgroup - Request for feedback. (Tel +44 784 443167)
+  Re: Gravity? (Tel +44 784 443167)
+  B-Brite (Evan Kraus)
+  Heard of this? (CRVAVROSKY)
+  Andechs (Chuck E. Mryglot)
+  non-alcoholic homebrew ("Wallinger, W. A.")
+  Capping ("ian sutherland")
+  Re: water analysis software (PatrickM50)
+  Removing labels ("Keith Royster")
+  culturing Chimay yeast (SPEAKER.CURTIS)
+  Chiller questions (Jim Busch)
+  Re: Plastic labels (Spencer.W.Thomas)
+  Time to eat crow (Jim Busch)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 03 Feb 1995 14:19:20 -0600
+From: DBURKE`at`smtpgate.tnrcc.texas.gov
+Subject:  UV Disinfection of Water
+
+
+There has been a lot of speculation on the digest lately
+about Ultraviolet light disinfection.  Here are some
+facts that might be interesting.  Info was gleaned from
+an EPA publication entitled "Technologies for Upgrading
+Existing or Designing New Drinking Water Treatment
+Facilities," document no. EPA/625/4-89/023.
+
+
+Most water treatment works use chlorine, chlorine
+dioxide, or monochloramines to disinfect public water
+supplies.  These chemicals can achieve both primary
+and secondary disinfection;  that is, they initially
+kill the microorganisms and then provide a sufficient
+residual amount of disinfectant to keep the water safe
+in the distribution system (pipes, to the non-technical).
+
+
+Chlorine products can have a lot of nasty effects,
+though.  Free Cl2 can produce Trihalomethanes (like
+Chloroform).  Therefore, if you don't absolutely need
+need the residual effect, such as when disinfecting
+just before dispensing like in a vending machine, then
+you can use something that produces only good primary
+disinfection like UV light.
+
+
+UV produces not toxic residuals, it has short required
+contact times, and it is relatively easy to operate and
+maintain.  It is effective against viruses and bacteria,
+but may be ineffective against giardia lamblia cysts.  
+However, most of the vending machines use reverse
+osmosis technology as treatment, and the filtration
+that the water receives would remove anything the size of
+a protozoan cyst like giardia before disinfection occurs
+anyway.
+
+
+Another thing that hinders the effectiveness of UV
+is turbidity, or suspended solids in the water but again
+the ultrafiltration achieved by the RO system makes that
+a non-issue.
+
+
+So to conclude, UV is really ideal for the vending 
+machine systems, since it gets rid of the bad guys and
+doesn't produce any new ones of its own (like possibly 
+carcinogenic chemicals).  Sorry for the long post, but
+there seems to be a lot of interest in water quality
+and water treatment on the digest and I thought this
+was timely.
+
+
+Dan
+Environmental Engineer
+dburke`at`smtpgate.tnrcc.texas.gov
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 Feb 95 13:38:35 MST
+From: Norman Pyle (npyle) <npyle`at`hp7013.ecae.StorTek.COM>
+Subject: More Control Ramblings
+
+
+It seems I've thrown a rock at a bee's nest with my snide remarks about
+control theory.  I didn't intend to insult anyone!  Yes, my comments were
+unnecessarily gruff, and for that I apologize to Teddy Winstead.  Let me take
+another shot at this thing.  I'll paraphrase a couple of emails I got on the
+subject.
+
+
+Dion Hollenbeck wrote me and politely (thanx Dion!) scolded me for ignoring
+the distinct possibility of disaster of overshoot.  It seems that in his
+experience it isn't anywhere near as simple as I describe.  Dion tried to do
+basically what I described and found it to be an unpleasant brewing
+experience, because a) he found it easy to leave the on/off switch (which
+powers his heating element) in the wrong position, and b) because the large
+thermal mass of the system makes the goal temperature difficult to achieve.
+
+
+Bill Vaughn, who apparently makes a living at this sort of thing, really
+blasted me.  He said that the question was how to do this sort of control,
+not whether it is "morally right".  I agree with Bill that the original thread
+was about how to do it, not whether to do it.  Call this a side thread and
+indulge me a bit.  It is not a flame war Bill, nor a cheap shot in my
+estimation.
+
+
+One of the problems I have with many of the RIMS setups I've heard about is
+that they monitor the temperature down in the mash rather than at the outlet
+of the heating element.  By taking feedback from a spot far removed from the
+stimulus, your feedback loop is loose, and control is difficult.  I also
+question what happens to the enzymes if they are heated to say, 210F in the
+recirculating tubing on their way back to the mash.  I know they are not
+denatured instantly but I suspect it is happening at a pretty high rate at
+that temperature.  This would also make for a steep temperature ramp, making
+overshoot more likely.  So I would monitor temperature at this point in the
+system (whether manual or automatic), as well as at a representative point
+in the mash.  I'd look for an element with a lower power output than Dion's
+1250W element (maybe a steam generator, as was mentioned in HBD before).
+The flow rate could be adjusted upward to avoid this problem as well, so
+these two key elements (heater and pump) would have to be specified according
+to practical considerations.  With this done, I believe that manual control
+is easily accomplished.  To prove it to myself, I'd certainly try the thing
+with plain water before risking grain to it.  Then I'd fiddle with the system
+as necessary, which is what I'm always doing anyway.
+
+
+My main point is that you have a great controller in your head, and you can
+use it to handle this type of system.  Throwing technology at it might work,
+in fact clearly does work well for many people, but it isn't simple and it
+isn't cheap (note that Dion says his controller is much cheaper than a
+rheostat that can handle the large power requirements of his heating element).
+Overshoot is one of the big boogie men of control systems, it is not peculiar
+to RIMS.  Again, I'm not trying to insult all of those who appreciate
+automatic control, I'm just saying that it doesn't have to go part and parcel
+with RIMS.  Finally, I don't have a RIMS, so I'm just speculating, but it's
+not like that hasn't been done in the HBD before!
+
+
+Cheers, and please call me:
+Norm
+
+
+------------------------------
+
+
+Date: Fri, 3 Feb 95 13:12:12 PST
+From: hollen`at`megatek.com (Dion Hollenbeck)
+Subject: Re: More Control Ramblings
+
+
+>>>>> "Norm" == npyle  <Norman> writes:
+
+
+I think I should reply to a few of your good points and redirect a few
+misconceptions.  Going to copy this to HBD since it think it is
+valuable for all to understand.
+
+
+Norm> One of the problems I have with many of the RIMS setups I've
+Norm> heard about is that they monitor the temperature down in the
+Norm> mash rather than at the outlet of the heating element.  
+
+
+If built according to the Morris design, the control point is at the
+inlet of the heater chamber and the temperature readout at the outlet.
+I have not personally heard of any systems built with the temperature
+readout in the mash tun, but it may be possible.  Anybody out there do
+this?  If maybe you have a microprocessor controlled heater, then
+taking a reading in the mash tun *as well* as at the heater and
+applying some sort of AI algorithms to ramp down the heater as the
+setpoint is reached may be useful, but there are *very* few computer
+controlled RIMS systems compared to simple proportional temperature
+controllers. 
+
+
+Norm> By taking feedback from a spot far removed from the stimulus,
+Norm> your feedback loop is loose, and control is difficult.  
+
+
+I agree with you entirely, but I contend that a RIMS system built with
+temperature monitoring in the mash bed or anywhere far from the heater
+element is improperly constructed.  If you limit the output of the
+heated wort at the outlet of the heater chamber to 154F, you can
+*never* raise the mash bed above that temp and cause the enzyme
+problems you describe.  
+
+
+Norm> I'd look for an element with a lower power output than Dion's
+Norm> 1250W element (maybe a steam generator, as was mentioned in HBD
+Norm> before).  The flow rate could be adjusted upward to avoid this
+Norm> problem as well, so these two key elements (heater and pump)
+Norm> would have to be specified according to practical
+Norm> considerations.
+
+
+A lower power heater element will cause the temperature rise to be too
+slow.  High temperature sacchrification rests would be impossible
+because the complete conversion would have occurred at lower temps
+favoring short sugar chains while passing through that temperature
+range on the way to a range favoring longer sugar chains.  The 1.5F
+per minute rise achieved by a 1250 watt heater (extremely low density
+ - remember, this heater element is 19" long, folded back on it self,
+which means a total heater element length of 72") is exactly what
+Miller recommends using for upward step mashes.  I agree that higher
+rates could be detrimental to the enzymes.  During the boost from one
+rest temp to another, the pump should be sped up to account for the
+extra heat.  During a rest, the pump can be slowed down.
+
+
+Norm> With this done, I believe that manual control is easily
+Norm> accomplished.  To prove it to myself, I'd certainly try the
+Norm> thing with plain water before risking grain to it.
+
+
+I agree that water is the way to test the system, but even after I did
+that, well, I already told you about my disaster.  I think the problem
+with your statement is that you are basing it on the assumption that
+you can use a lower power heater element.  I don't believe that to be
+true.  While you may be able to use a gentler means of heating like
+steam you are going to have to make your heat exchange mechanism
+*larger* to give you a boost speed of 1.5F per minute.  Morris
+designed a gas fired external heat exchanger because of the fact that
+people trying to scale a RIMS system up to 15 gals (the practical
+limit for the electrical heater element is 10 gal) found the temp
+boost to be too slow.  Regardless of the method, to get a boost which
+is fast enough without localized overheating, you are going to have to
+put in a fixed amount of heat and spread it out over a large area.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)675-4000x2814     Email: hollen`at`megatek.com
+Staff Software Engineer     Megatek Corporation, San Diego, California
+
+
+------------------------------
+
+
+Date: Fri, 3 Feb 1995 15:02:28 -0700
+From: fogarty`at`solar.sky.net (Kevin Fogarty)
+Subject: Iodine Test Strips. Where?
+
+
+Dion Hollenbeck writes that he is looking for Iodine Test Strips. On the
+last 1 Liter bottle of BTF Iodophor that I got was a little card. It was a
+free offer of a small number of test strips that measure iodine in the range
+of 0-25ppm. 
+
+
+Along with the strips came an order form for test papers measuring chlorine,
+iodine or quaternary ammonium chloride. The price is $3.25 for 2 kits of 50
+strips each. The mailing address given was Test Papers, PO Box 611, Winona
+MN 55987. Include a self-addressed stamped envelope.
+
+
+I haven't used them yet. I'm still going by the old bromide that the
+solution is still good if it's yellow. I'll be interested to hear your results.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 3 Feb 1995 18:22:54 -0600 (CST)
+From: Craig Amundsen <amundsen`at`molbio.cbs.umn.edu>
+Subject: Wheat Malt Color
+
+
+Hi -
+
+
+  I was just messing about calculating the estimated color (in deg L) of a 
+batch o' beer I have in the fermenter. This exercise came to an abrupt end
+when I was unable to find the color contribution of wheat malt (eg, a 1.040
+OG wort made with entirely with 2-row lager malt will have a color of 1.6L
+(according to Miller)). I checked Miller (both books), Papazian (both books),
+and The Practical Brewer. None of them are any help on this matter. At least
+TCHOHB lists some numbers for the major barley malt flavors. Does anyone
+out there have a reasonable number for the color contribution of wheat malt
+in a standard wort?
+
+
+TIA
+ - Craig
+
+
+PS - I have been enjoying the IBU debate quite a bit. I will now probably 
+     delay my purchase of _Using Hops_.
+- -- 
++-----------------------------+------------------------------------------------+
+| Craig Amundsen              | DILBERT - Sometimes I wonder if it's ethical   |
+| amundsen`at`molbio.cbs.umn.edu |           to do these genetic experiments. But |
+| (612) 624-2704              |           I rationalize it because it will     |
+| 250 Biological Sciences     |           improve the quality of life.         |
+| 1445 Gortner Avenue         | DOGBERT - What are you making?                 |
+| Saint Paul, MN 55108        | DILBERT - Skunkopotamus.                       |
++-----------------------------+------------------------------------------------+
+
+
+------------------------------
+
+
+Date:         Fri, 03 Feb 95 16:50:47 EST
+From: JULIO CANSECO <JCANSECO`at`UGA.CC.UGA.EDU>
+Subject:      Beck's Dark Recipe
+
+
+Would anyone please e-mail me a recipe for a Beck's Dark clone?
+Extracts please.
+Thanks,
+
+
+Julio Canseco
+jcanseco`at`uga.cc.uga.edu
+
+
+------------------------------
+
+
+Date: Sat, 4 Feb 95 00:10 CST
+From: pgravel`at`mcs.com (Philip Gravel)
+Subject: Homebrew archives location
+
+
+===> Jeff Stampes asks about the new location of the homebrew archives:
+
+
+>I know the archives have moved, I have even re-read the message
+>where we were all informed of this.  However, I still don't know where
+>they are now.  I don't know if I'm having ftp problems or if I'm in the
+>wrong place, but someone wanna' e-mail me the CURRENT archive location?
+
+
+They are now located at:   ftp.stanford.edu
+
+
+- -- 
+Phil
+_____________________________________________________________
+Philip Gravel                                 pgravel`at`mcs.com
+
+
+------------------------------
+
+
+Date:          Sat, 4 Feb 1995 07:39:35 +0000
+From: "Lee Bussy" <leeb`at`southwind.net>
+Subject:       Re: Returned mail: User unknown
+
+
+Someone with the e-mail address:
+
+
+<LAVANSA0`at`wcc.com>
+
+
+Sent me a request for a competition packet, the mail bounced.  Please 
+mail me again with a valid address.
+
+
+- --
+ -Lee Bussy          | The 4 Basic Foodgroups....      |
+ leeb`at`southwind.net | Salt, Fat, Beer & Women!        |
+ Wichita, Kansas    | http://www.southwind.net/~leeb  |
+
+
+------------------------------
+
+
+Date: Sat, 4 Feb 1995 09:54:38 -0500
+From: TPuskar`at`aol.com
+Subject: Aging of homebrew
+
+
+I've been brewing for about two years now and have never made the same brew
+twice.  Not that I haven't tried!!  :-)  Bu that's another issue.
+
+
+Due to my inherent anal retentive character, whenever I made a batch, I squirr
+eld away a few bottles for who knows what reason.  Some of these are now
+18-20 months old.  Over the holidays I decided to taste a few of them just
+for fun.  With only one exception, they were better than I remember them when
+first brewed.  The one exception was my first brew which was made from a kit
+which recommended table sugar for brewing and priming.  It tasted more like
+seltzer than beer.
+
+
+Most of the brews were ales and had been stored in my basement here in
+Jersey.  Temps fluctuate over the year but are generally between 60-80F.
+
+
+Since I am impatient, I usually land up testing my beer about a week after
+its in the bottles and finishing it within 4-6 weeks of bottling.  My
+question is this:  What is the optimum time one should wait before a beer is
+considered in its prime?  I know the answer, in part, will be "It depends..."
+on a lot of factors including style, yeast, type of fermentation etc.  I
+guess I'm curious if I should go on a brewing campaign and brew up 3-4
+batches and store them for 6 months or so.  Any comments would be
+appreciated.  Post or Email is fine but I think others lurking out there may
+be interested as well.
+
+
+++++++++++++++++++++++++++++++++
+On another issue, a good source of plastic buckets for fermenters, bottling
+and general homebrew use is the bakery dept of your local supermarket.  My loc
+al Grand Union and Pathmark save them for me and I now have a collection of 5
+gallon, 4.25 gallon and 3.5 gallon plastic buckets--all food grade with lids.
+ The cost: a six pack of homebrew.  I can't take credit for the idea--got it
+from The Frugal Brewer article.  There's other good ideas there as well.
+
+
+Cheers,
+Tom Puskar     Brewing better beer--by dumb luck!!
+
+
+
+
+------------------------------
+
+
+Date: Sat, 4 Feb 1995 11:29:52 -0500
+From: MicahM1269`at`aol.com
+Subject: IBU prediction vs reality
+
+
+Subject: Hop Utilization
+
+
+>I am going through the process of trying to calculate IBU values, and
+>have read the formulas by Rager in the 1990 special issue of Zymurgy, as
+>well as the book "Using Hops" by Mark Garetz.  After some
+>experimentation, it seems the biggest affect on calculated IBU levels is
+>the %utilization value, despite all the other correction factors
+>discussed in the Garetz book.  Unfortunately, these two sources differ
+>widely, and I recall some discussion as to the appropriate utilization
+>values being different from both sources.  Does anyone have any wisdom
+>to share on appropriate values to use for the %utilization for different
+>boil times?
+
+
+I think that this hop utilization figure is by far the biggest ??? in these
+IBU
+prediction formulas. This is my suggestion. Send a bottled sample of your
+beer ( one that you have kept good hop use records of ) to be analized. There
+are ads for such labs in both Zymurgy and BT. Once you know what the
+actual IBUs in a sample of your beer are, you can, using whomevers formula
+you like, back out the utilization %. You will then have a better starting
+piont
+for IBU predictions. But no matter what there will be variables to effect
+your
+future predictions, IBUs are only really known by testing not quessing. The
+formulas should keep you in the ball park.
+
+
+        
+micah millspaw- brewer at large
+
+
+P.S.         I would like to add that what ever formula that you select to
+extrapolate
+your % of utilization, you need to stay with that formula for your IBU
+predictions.
+Also when doing this allow in both the 'beer to be tested' and in your
+extrapolation
+efforts for incremental time factors. It may be nessesary to figure the
+largest and /or
+longest time addition of hops to the tested IBU level and interpolate the
+rest.
+have fun mm
+
+
+
+
+------------------------------
+
+
+Date: Sat, 4 Feb 1995 19:03:48 +0200 (IST)
+From: Lenny Garfinkel <lenny`at`zeus.datasrv.co.il>
+Subject: recipes with dark malt
+
+
+I just came into a lot of pale malt and almost as much of a very dark 
+malt, which from Papazian's descriptions would be either chocolate or 
+black patent.  It tastes burnt and slightly bitter.  It was fun chewing 
+on a few grains, but a mouthful would probably be unpleasant.  I have no 
+access here to the other types of specialty grains which most of the all 
+grain recipes require.  All I have is a few kilograms of pale malt and a few 
+kilograms of this dark malt.  The only recipes which I have been able to 
+find which require only these two ingredients were for brown ales, which 
+are fine, but I'd like to know if anyone out there has any other 
+suggestions for how to gainfully use up this load of dark malt.  Is there 
+any way that I can make a stout with only these two ingredients?  I do 
+have access to oatmeal,BTW.  I'd appreciate any help.
+
+
+Thanks,
+
+
+Lenny Garfinkel
+
+
+p.s. I'm planning a trip to the states in a couple of weeks during 
+which I intend to fill up on ingredients.  What small addition to the 
+pale and burnt malt above would give me just what I need for that great 
+recipe?
+
+
+_________________________________________________________________
+Dr. Leonard Garfinkel       | Internet:  lenny`at`zeus.datasrv.co.il
+Bio-Technology General      | Office Phone: 972-8-381256     
+Kiryat Weizmann             | Home Phone:   972-8-451505
+Rehovot, Israel             | FAX:          972-8-409041
+- -----------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Sat, 4 Feb 95 10:10:44 MST
+From: Norman Pyle (npyle) <npyle`at`hp7013.ecae.StorTek.COM>
+Subject: Hops Info Request
+
+
+To this point, I've ignored some of the more rare (less common?) hops in the
+Hops FAQ.  Over the months I've received requests to include some of them,
+which I've decided to do, but without more information, it's not much of a
+service.  With that in mind, I'm asking for any information you can give me
+on the following hops:
+
+
+Green Bullet (NZ)
+Motueka (NZ)
+Northdown (UK)
+Sticklebract (NZ)
+Super Alpha (NZ)
+Target (UK)
+
+
+Also, I'd like to find some commercial examples of beers using the following
+hops:
+
+
+Challenger (is it the same as Wye Challenger?)
+Progress
+Lublin
+Experimental 21484
+Spalt
+Strisselspalt
+Brewer's Gold (Pete's Wicked Ale? - can't remember)
+Bullion
+Galena
+Pride of Ringwood
+
+
+Thanks for any info you can provide; it will be included in the next revision
+of the Hops FAQ.
+
+
+**
+
+
+Rich Lenihan writes about Wyeast London ESB yeast:
+
+
+>Question:  what are other people doing to get this beer to ferment out -
+>should I be pitching *more* yeast?  Nutrients?
+>
+>BTW, I've read here and elsewhere that this yeast is very flocculent and I'm
+>convinced.  In each batch the yeast cake was the consistency of tofu.  Also,
+>from what I've observed this yeast seems to do better in the high 60's.
+>Batch 2, the stuck batch, dropped to around 60F and that's about when the
+>gravity stopped falling.
+
+
+I have a *little* experience with this yeast.  I found that in the low 60's
+it will not finish properly and will throw lots of diacetyl.  It worked much
+better for me in the high 60's F *with* periodic agitation.  You need to warm
+up your stuck batch and agitate it.  Too late to aerate it, but it is
+probably worth saving.  I think your biggest problem is with aeration, and
+I'd work hard on this.  I really like the flavors from this yeast, BTW, and
+the fact that it drops clear so quickly is a nice feature.  For the guy who
+wants a fast beer, I'd use this yeast, but make sure you pitch a lot and
+aerate a lot.  You'll have bright beer in a week!
+
+
+Norm
+
+
+------------------------------
+
+
+Date: Sat, 4 Feb 95 09:49:25 PST
+From: diput`at`eis.calstate.edu (Diane S. Put)
+Subject: Water Formulation Program
+
+
+>From: "jim robinson" <jim_robinson`at`ccmailsmtp.ast.com>
+>Subject: Water Analysis
+
+
+<snip>
+
+
+>Is it possible to come up with a program that the average Joe Brewer 
+>can "plug" in his local water numbers and come up with the proper 
+>adjustment to make a specific brew?  
+
+
+Jim, it's already been done.  If you own a spreadsheet program, check
+out the Sept/Oct and Nov/Dec 1993 issues of Brewing Techniques.  There's
+a spreadsheet design by Karl King.  The Sept/Oct issue has the overall
+outline and cell formulas; Nov/Dec has a correction to the formulas--this
+is located in the "Technical Communications" section of the ms.
+
+
+While this is not a "canned" program, anyone with a modicum of spreadsheet
+ability can do this without any problems.  I use this spreadsheet for most
+of my beers and it works very well.  
+
+
+don 
+Note new address: (dput`at`cello.gina.calstate.edu)
+
+
+- ----------------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: 04 Feb 95 15:25:35 EST
+From: R.M.Landis`at`Dartmouth.EDU (R. M. Landis)
+Subject: imperial stout ferment
+
+
+Hi.  I've been lurking for a couple of weeks now, and I know there has been
+some discussion of stuck fermentation and F.G.'s of stronger beers.  I'm still
+left wondering about mine though.  
+Here's the situation:  About 3 weeks ago, I brewed an imperial stout from a
+recipe in a Dave's book (Line or Miller?  I can't remember- something like
+Brewing great beers of the World or something).  Anyway, it seemed turn out
+well, with an O.G. of about 1.085 or so.  It underwent a very vigorous primary
+ferment for about 5 days.  I used Edme dry ale yeast and the temps were pretty
+high (70F).  After it died down, I pitched a dry champagne yeast that I had
+started in warm water, and then racked to a secondary fermenter the next
+morning.  The gravity at that time was about 1.028.  Since then, I have seen
+very little activity in the beer, and very little bubbling in the air lock. 
+The temperature has been very variable, at one point going into the high '40's. 
+I asked the local homebrew shop about the inactivity, and they said to raise
+the temperature.  Well, I got a "brewbelt" heater to put on the carboy and that
+raised the temp to about 78F.  I then saw a little activity, but not much. 
+After a week of the higher temps, there is still little activity, and the
+gravity is still about 1.028.  
+
+
+ My question is what should I expect to be happening?  Is this beer fermented
+out?  or have the little yeasties gone to sleep and won't wake up?  Should I
+have patience and keep waiting, or should I stop worrying and just get it in
+the bottle?  
+
+
+Thanks in advance, 
+
+
+Matt
+
+
+R.M.Landis`at`dartmout.edu
+
+
+P.S.  What does YMMV mean?
+
+
+------------------------------
+
+
+Date: Sun, 5 Feb 1995 16:39:01 -0400 (AST)
+From: Ed Hitchcock <ehitchcock`at`sparc.uccb.ns.ca>
+Subject: Ozone
+
+
+
+
+        First, the UV light kills bacteria directly, not by converting 
+dissolved O2 to O3.  Second, I believe Ozone (O3) is in fact odourless, 
+which makes it pretty darn dangerous.  The odour is from other compounds 
+produced by the arc that also produces the ozone.  I remember reading 
+about follow-spot operators using carbon arc ("trooper" is now the 
+generic name) spots from closed booths, and dying from Ozone poisoning 
+during a performance, due to poor ventilation.
+
+
+   ----------------
+ehitchcock`at`sparc.uccb.ns.ca
+the Pick & Fossil Picobrewery
+brewers of Ed's Paleo Pale Ale and Right Coast IPA
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 11:34:10 +1100
+From: ANDY WALSH <awalsh`at`ozemail.com.au>
+Subject: ffts again
+
+
+Hello.
+>From some of the replies I got it seems I was not clear in my last
+posting on ffts. When I said, "ffts enable you to bottle your beer
+earlier" I was not implying you should ferment your main batch at
+a higher temperature to speed fermentation. I was suggesting that
+since the fft tells you where your main fermentation will stop, you can
+bottle the beer *before* the gravity of the main batch reaches the
+terminal value. You can use Spencer's formulae to work out the 
+amount of priming sugar to add. If you do *not* perform a parallel
+fft, you must let your batch mature in the secondary for some time
+to ensure fermentation is complete. (Remember I am referring
+to strong, Belgian - style ales here that are notorious for long
+fermentations).
+I have never performed the parallel fft. In 100 or  so batches of 
+strong Belgian-style ale, I have only ever had 1 problem in over-
+carbonated beer. This was a two-yeast type "Grand Cru" style
+(recipe from Pierre Rajotte's "Belgian Ale" book), using
+Coopers Ale yeast in the primary (a low attenuator) followed
+by a fresh dose of Wyeast Belgian Ale at bottling time. The
+second yeast is much more attenuative than the first, and was
+that beer over-carbonated! I had to relieve the pressure in each
+bottle every day for a week until it was OK (the beer was fine after
+that).
+This story suggests a second use for ffts. If I had performed the 
+fft with the Coopers yeast, then added the bottling yeast to the
+fft after it finished, I could have determined the final gravity of the
+beer before bottling the main batch. This would have shown me
+the amount of priming sugar to add (in this case, none).
+I suspect the main reason most of us do not use ffts is the extra
+hassle involved. (Hands up, anyone?). One of the problems is 
+finding a nice, warm environment. Tom Clifton  suggests a foam
+container with a 5W globe inside. This sounds as good as
+anything else, so I'll give it a try for my next batch.
+
+
+Andy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 5 Feb 95 23:32 CST
+From: pgravel`at`mcs.com (Philip Gravel)
+Subject: Homebrew Recipe Archive
+
+
+===> Franklin Fuller asks about an archive of beer recipes:
+
+
+>Does anyone out there know of locations of beer recipes on the Net?  I 
+>am still an extract brewer and am looking particularly for extract 
+>recipes...although I hope to be brewing all grain sometime soon!
+
+
+Check out the Cat's Meow 2 at ftp.stanford.edu or the Cat's Meow 3 on
+the WWW with the URL of http://alpha.rollanet.org/
+
+
+- -- 
+Phil
+_____________________________________________________________
+Philip Gravel                                 pgravel`at`mcs.com
+
+
+------------------------------
+
+
+Date: Mon, 06 Feb 1995 01:11:06 -0400 (EDT)
+From: "THE FOURWHEELIN' 'TALIAN WANNABE JOKEMEISTER." <AD75173%LTUVAX.bitnet`at`CUNYVM.CUNY.EDU>
+Subject: Coming out:
+
+
+You all can add my name to the unwritten list of all-grainers now!!
+
+
+People said I couldn't do it without experienced help, but I just
+read Papazian's books and asked a bunch of questions beforehand.
+My first batch was a bit hectic (didn't even coil the imersion
+cooler until grains were mashing), but was a success.  I think I
+got 81% efficiency.
+
+
+
+
+Mash/lauter - 48qt Coleman cooler, copper tube manifold with slots on
+  bottom side.  Used about 4 feet of 1/2" copper to make rectangle-type
+  configuration with "T"s and elbows.
+
+
+Chiller - 40 feet of 3/8" copper refrigerant tubing bent into an 8" coil.
+  The siphon hoses were just slipped on the in/out of this, then cold
+  water was siphoned through it.  I waited until now to use a chiller
+  because I didn't want to waste water, but heard how important they are.
+  And besides, I just boiled the water afterwards and saved it in a carboy
+  for my next batch.  I will probably use it for starters and topping up
+  instead of boiling/cooling water.
+
+
+Question:
+  What does everyone do with their spent grains?  I ate a few spoonfuls
+  and even made a pizza, adding about 1/2 cup of them.  The pizza was
+  good, but I don't make pizzas big enough to use 9 lb of grain :-)  !
+
+
+    Aaron Dionne, in Southfield, Michigan
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 00:00:13 -0800 (PST)
+From: Fred Waltman <waltman`at`netcom.com>
+Subject: Water Chemistry Software
+
+
+
+
+Jim Robinson asks if any has (or could) write software for helping with 
+water chemistry:
+
+
+Why not a stand alone application, the Brewers Workshop from TKO Software 
+(Windows, $30) has such an option. You enter your water analysis and you 
+can select either water for a particular style or for one of the major 
+historical brewing centers (e.g., Burton, London, Pilsen, Munich, etc.).
+
+
+Fred Waltman
+Culver City Home Brewing Supply Co.
+waltman`at`netcom.com
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 09:57:31 +0000
+From: Brian Gowland <B.Gowland`at`rhbnc.ac.uk> (Tel +44 784 443167)
+Subject: UK-oriented Homebrewing Newsgroup - Request for feedback.
+
+
+
+
+6th Feb. 1995 - Second Posting
+
+
+     This has been posted to The HomeBrew Digest and to
+the Usenet Newsgroup rec.crafts.brewing.
+
+
+     This is a request for feedback on the subject of
+setting up a UK-oriented Newsgroup under the uk.* prefix
+of Newsgroups.
+
+
+     As a UK Homebrewer I have found both HBD and r.c.b
+to be invaluable and enjoyable aids to improving my
+Brew and in meeting new Net-friends on both sides of the
+Great Pond. In saying that, however, I and other UK
+Homebrewers feel that the orientation of both HBD and r.c.b
+tends toward that of US brewing and it is sometimes
+difficult for us to find answers to questions that are
+heavily oriented toward UK matters.
+
+
+     There can be no mistake that there are many differences
+in the history, styles, methods, ingredients etc. between
+UK and US brewing and there is a feeling that a UK-specific
+Newsgroup would be useful to UK Homebrewers as well as
+non-UK Homebrewers that are interested in UK-specific
+brewing matters.
+
+
+     For this purpose I have been investigating the subject
+of creating such a Newsgroup under the uk.* prefix. This
+is not an official Usenet prefix but is carried by many
+UK News servers and MAY be available outside of the UK but
+this is not clear to me at present.
+
+
+     The uk.* Newsgroups work, to an extent, like the alt.*
+Newsgroups in that they are created and maintained in a
+less formal way. There is no need for voting as such but
+a formal proposal must be submitted and discussed before
+the group can be created and it is for this reason that I
+am asking for feedback on the subject.
+
+
+     I am asking anybody who has any opinions on this
+subject to EMAIL ME DIRECTLY at...
+
+
+     B.Gowland`at`rhbnc.ac.uk
+
+
+ ...and let me know what you think of the idea. I am proposing
+that the name should be uk.rec.crafts.brewing but would like
+to hear other ideas. There is already a uk.rec.* prefix and
+the name would also indicate its parallel to r.c.b.
+
+
+     I will attempt to post this request a few more times over
+the next couple of weeks in order that I can get the attention
+of as many people as possible - apologies for the bandwidth
+used - I promise to restrict it to a minimum number of postings.
+
+
+Thanks for your time,
+
+
+Cheers,
+
+
+     Brian Gowland
+     Surrey
+     England
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 10:10:51 +0000
+From: Brian Gowland <B.Gowland`at`rhbnc.ac.uk> (Tel +44 784 443167)
+Subject: Re: Gravity?
+
+
+In HBD 1649, djones`at`iex.com (Douglas R. Jones) wrote:
+
+
+> I have been given the basic recipe for a commercial
+> beer that I love. But the folks gave me the gravity 
+> in numbers I do not comprehend. I am assuming that
+> they are in Plato (?).
+> 
+> They are:
+>                 O.G.    11.5 - 12
+>                 F.G.    2.5 - 3
+> 
+> Can anyone translate this for me?
+
+
+        If it is degrees Plato then my tables show that
+OG should be 1045-1050 and FG 1010 or slightly higher.
+Hope that helps - sorry, don't know anything about the
+Belgian 2-row that you mentioned.
+
+
+Cheers,
+        Brian
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 7:16:37 EST
+From: Evan Kraus <ejk`at`bselab.bls.com>
+Subject: B-Brite
+
+
+
+
+Questions 
+Is B-Brite safe to use in Stainless Steel Kegs and so forth ?
+And how about a cheap source for B-Brite ?
+Is B-Brite sodium "percarbonate" ?
+Is B-Brite the same as Clorox 2 ?
+Is B-Brite as good a sanatizer as Idoflor or Bleach ?
+Is Caustic Soda the same as Red Devil Lye ?
+
+
+------------------------------
+
+
+Date: Sun, 05 Feb 1995 21:17:24 -0700 (MST)
+From: CRVAVROSKY%FLC`at`VAXF.Colorado.EDU
+Subject: Heard of this?
+
+
+When I was back home I got to brew my first batch of beer.  I however, did not
+do it at home, I did it at a brew house.  It was prtty cool.  They had all the
+ingredents and equipment there to use, including recipes for the beer.
+My question is:  how (if any of you have done both) do they compare?  I mean
+can you get a more quality beer from a home brew or from a brew house?
+Just wondering.
+Chris   CRVavRosky`at`flc.colorado.edu
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 08:00:12 EST
+From: cem`at`cadre.com (Chuck E. Mryglot)
+Subject: Andechs
+
+
+ 
+ Robert Bloodworth writes:
+ 
+   
+> >Does anyone out there have a good recipe for Andechs, that dark brown nektar
+> >from those taented monks at Kloster Andechs north of Munich?
+ 
+             Just a correction.... Andechs is about 25 miles south and slightly 
+   west of Munich..... And their bock beer is excellent.... last time I was 
+   there they stopped serving it on weekends...only on Thursdays. I don't 
+   remember the reason why.
+ 
+   Anyways,   If anyone has any details of this beer I'm sure we'd all like 
+   to know.
+ 
+ ChuckM
+
+
+------------------------------
+
+
+Date: 06 Feb 95 05:30:46 PST
+From: "Wallinger, W. A." <WAWA`at`chevron.com>
+Subject: non-alcoholic homebrew
+
+
+
+
+From: Wallinger, W. A. (Wade)
+To:  OPEN ADDRESSING SERVI-OPENADDR
+Subject:  non-alcoholic homebrew
+Date: 1995-02-06 07:14
+Priority:
+
+
+- ------------------------------------------------------------------------------
+
+
+
+
+i thought i'd try making 1gal non- or low-alcohol beer as follows:
+1. mash 1# pale malt
+2. boil with hops
+3. cool down, pitch dry ale yeast and bottle immediately
+4. let sit at room temp for some amount of time (for carbonation)
+5. then place in the fridge to halt yeast activity
+
+
+this seems to work for making soda at home, although the yeast and sugar are
+different. anybody try this before? am i about to make time-bombs?
+
+
+
+
+------------------------------
+
+
+Date: Mon, 06 Feb 95 07:50:03 EST
+From: "ian sutherland" <ian_sutherland`at`mail.amsinc.com>
+Subject: Capping
+
+
+        Just to add my two-penneth to the capping and breaking subject; my 
+     brew partners and I agree that the double handled capper is a breeze 
+     with the correct bottle and the free standing single handle capper 
+     works great with all others. We may be snobbish but we never use 
+     anything less than pint size and have found that the imperial pint 
+     Bass bottles are perfect for the double handled capper. It has been an 
+     enjoyable experiencing emptying all the bottles for our use. One 
+     economic way of looking at it shows that we paid about $1 per pint for 
+     Bass. How so? Well the 22oz empties our local brew shop stock sell for 
+     about 95c + tax. Full Bass bottles our local liquor store sell at 
+     $2.10 each, with a 10% discount per case (of 12). Hence ....
+     
+        Not had a breakage yet, so figure we must be doing something right. 
+     Now, if only our beer was .....
+     
+     - Ian Sutherland
+     
+     P.S. I have heard that the Ship Inn in Milford, NJ is now online and 
+     serving two cask conditioned beers. I'll be there on the 17th!
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 09:33:00 -0500
+From: PatrickM50`at`aol.com
+Subject: Re: water analysis software
+
+
+"jim robinson" writes asking for a water formulation software program.
+The Windows software "Brewers Calculator" has a section to factor in  water
+additives per beer style and uses your local water makeup as a base.  I've
+not used it nor do I endorse it - I just saw the demo version and noticed the
+feature.  It's a $39 program available from Regent Software in Oakland, CA
+ 510-482-1609.  They'll send you the demo disk for $5 according to the ad in
+Brewing Techniques magazine or you can find it online somewhere.  That's how
+I got it but I can't remember where I found it!  Maybe on AOL, maybe at the
+archive site???  Good luck!
+
+
+------------------------------
+
+
+Date:          Mon, 6 Feb 1995 10:18:03 EST
+From: "Keith Royster" <N1EA471`at`mro.ehnr.state.nc.us>
+Subject:       Removing labels
+
+
+In HBD1649 Mark Stevens notes that some label glue remains on the 
+bottles even after soaking in a tub of chlorine solutions.  Try 
+soaking them in a warm solution of soapy water and ammonia.  It does 
+not take very much ammonia, maybe 0.5 oz in 2 or 3 gallons.  The warm 
+soapy water helps penetrate the labels, while the ammonia dissolves 
+the glue.  If this doesn't work, try the same solution and add a 
+little elbow grease :-)
+
+
+While I'm here, can someone please explain the negative comments 
+concerning Mr. Jim Koch and his beer.  Yes, I'll admit his whiney 
+voice on the radio is very annoying, but his beer is respectable, if 
+not very good, in my opinion.  Are the negative feelings directed more 
+at the commercialism than the beer?  Just curious.  Private or public 
+email is fine.
+Keith Royster
+NC-DEHNR / Air Qualtiy
+n1ea471`at`mro.ehnr.state.nc.us     
+919 North Main St.
+Mooresville, NC 28115 
+Voice: (704) 663-1699            
+Fax:   (704) 663-6040
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 10:22 EST
+From: CSS2`at`OAS.PSU.EDU     (SPEAKER.CURTIS)
+Subject: culturing Chimay yeast
+
+
+I am interested in making a Trappist/Abby style beer, and after reading the
+yeast FAQ, I decided to try to culture the dregs of a bottle of Chimay Grand
+Reserve that I received as a gift.  Made my usual starter, added the dregs,
+put on a airlock and placed in a warm place overnight.  Next morning, no
+visible activity...I shook the bottle and got a few bubbles through the
+airlock. I then put the starter bottle back in the warm spot (as warm as my
+house gets!) and waited another day...still nothing.
+What's wrong here?  Is the yeast in this 9% alcohol beer too damaged to be
+used? Does this yeast need some special treatment to bring it back to life
+(ie., a blessing from a Trappist monk?  should I play my "Chant" CD? :-) or am
+I out of luck?  On this similar thread, has anyone had good luck with the
+Wyeast #1214 in making an Abby style beer?
+Any input on this subject would be appreciated...at least the beer was good!
+Thanks in advance
+Curt
+css2`at`oas.psu.edu
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 10:31:44 -0500 (EST)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: Chiller questions
+
+
+Chris writes:
+
+
+<I currently use a "garden hose and tube" style wortchiller built
+<from ideas in the chiller FAQ.  To save space and bulk I would like
+<to switch to the "coil in a PVC tube" style.  Has anyone built
+<this type of chiller?  How does it compare in efficiency with the
+<other style.  Is it somewher between an immersion and the "garden
+<hose" style?  Would this style use more cooling water?  I've seen
+<several examples at store and in ads but don't know anyone who
+<actually uses one.
+
+
+I used one of the commercial examples of the "coil in a PVC tube"
+chillers in my first all grain brewery.  Hated it.  It was too small
+of ID tubing, the flow rate was very slow even for 6 gallons of wort.
+It did use a lot of chilling water, too.  I'd stick to your homemade
+chiller.
+- -- 
+Jim Busch
+busch`at`mews.gsfc.nasa.gov
+
+
+"DE HOPPEDUIVEL DRINKT MET ZWIER 'T GEZONDE BLOND HOPPEBIER!"
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 95 10:38:55 EST
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: Re: Plastic labels
+
+
+Mark Stevens complains about a sticky label residue.
+
+
+Try an organic solvent like toluene or acetone.  It will probably take
+that stuff right off.  We've got some little "wipes" (cloth-like
+square, impregnated with solvent, packed in a little foil packet),
+which are intended for removing surgical adhesive from skin, and which
+work great to take off stick-on label residue.  I can't remember what
+they're called, though.
+
+
+=S
+
+
+------------------------------
+
+
+Date: Mon, 6 Feb 1995 10:41:11 -0500 (EST)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: Time to eat crow
+
+
+I need to correct something I said about PVPP.  Al is completely
+correct in stating that this fining agent removes/drops tannins/
+polyphenols and does not affect proteins.  When talking about
+chill haze, it is the result of polyphenol/protein reactions, so 
+one can minimize either polyphenols or proteins, and the chill
+haze is then minimized.  I was under the incorrect presumption that
+polyphenols would somehow adhere to proteins, and I now understand 
+that this is not correct.  Can you tell that Ive never used PVPP??!
+
+
+Another note on real ales.  You can make real ales without using isinglass.
+To do this, you need to select a very good flocculating yeast strain, and
+allow the beer to settle, perferably using a keg with a short liquid side
+tube.  Just Sat, I kegged my latest ESB and bitter.  The yeast strain 
+was 1187, of which some discussion appeared in the HBD a few months back.
+I cant say enough about this yeast!  It was grown from a slant, and 
+used in a unitank in the local micro.  We harvested it from the uni, 
+and I used it in my open fermenters.  It did not top crop very well, but
+it dropped out very clear in one week of ferment.  I brewed a week ago
+Friday, it was done on last tuesday, dry hopped and then kegged on Sat,
+day 7-8 after pitching.  On Sunday, yes one day after kegging, I put the
+last partial filled keg of ESB on my beer engine and it was damn clear,
+and delicious.  Closest to Fullers ESB Ive ever made.    
+- -- 
+Jim Busch
+busch`at`mews.gsfc.nasa.gov
+
+
+"DE HOPPEDUIVEL DRINKT MET ZWIER 'T GEZONDE BLOND HOPPEBIER!"
+
+
+------------------------------
+End of HOMEBREW Digest #1651, 02/07/95
+*************************************
+-------

@@ -1,0 +1,1265 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Thu Nov 24 04:11:58 1994
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["46432" "Thu" "24" "November" "1994" "01:01:07" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1043" "Homebrew Digest #1587 (November 24, 1994)" "^From:" nil nil "11" nil nil nil nil]
+        nil)
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA27693
+  (5.65b/IDA-1.4.3 for spencer`at`hendrix.itn.med.umich.edu); Thu, 24 Nov 94 04:12:02 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA18082; Thu, 24 Nov 1994 02:09:33 -0700
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA08129; Thu, 24 Nov 1994 01:01:07 -0700
+Message-Id: <9411240801.AA08129`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1587 (November 24, 1994)
+Date: Thu, 24 Nov 1994 01:01:07 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1587                             Thu 24 November 1994
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  IBU Calculations (Zeek67)
+  Hot Side Aeration, Blowoff Tubes (Philip Gravel)
+  Witbier (Ulick Stafford)
+  Hop cuttings...How ? (Paul Jeffrey)
+  Re: Stepping up Starters (Art Steinmetz)
+  Jane! Get me of this crazy thing! ("Robert W. Mech")
+  O2 Danger discussion / double relax (David Smucker)
+  NDN: Homebrew Digest #1586 (November 23, 1994) (Gateway)
+  Beer tasting party (EKTSR)
+  Sorray about that :( (BobbyRatt)
+  Coriander in Yeast Starters (Rob Reed)
+  Re: blow-off (Allan Rubinoff)
+  Counterpressure bottling (Greg Holton)
+  Methodologies--one answer and one question... (RONALD DWELLE)
+  California Lager Yeast (Guy Mason)
+  yeast at priming (Btalk)
+  Yeast effect on head retention? (ALKinchen)
+  George Fix's Filtration Talk at AHA 94 (Al Marshall)
+  First infection / modified Zapap (MHANSEN)
+  All Grain Questions (GubGuy)
+  SLUGGERS (Why bother with GROWLERS?) ("Glen A. Wagnecz, X6616")
+  Re: Batch primimg, recipe request (claytonj)
+  disappointing lager (Eamonn McKernan)
+  Hop question (Mario Robaina)
+  growlers (Jeff Frane)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+FAQs, archives and other files are available via anonymous ftp from 
+  sierra.stanford.edu. (Those without ftp access may retrieve files via 
+  mail from listserv`at`sierra.stanford.edu.  Send HELP as the body of a 
+  message to that address to receive listserver instructions.) 
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 22 Nov 1994 20:21:30 -0500
+From: Zeek67`at`aol.com
+Subject: IBU Calculations
+
+
+
+
+I am currently writing a spreadsheet to formulate recipes and make some
+brewing calculations.  All is going well until I started working on an IBU
+formula.   The problem arises in the hops utilization.  At first go, I used
+the Time vs. O.G. chart that Papazian gives in NCJOHB.  This gives a maximum
+utilization of 30% at a 60 min. boil for a 1.040 gravity.  When I consulted
+the CAMRA book Brew Your Own Real Ale At Home by Wheeler and Protz, they
+assume a maximum utilization (o.g. not given) of 20%.  This is a major
+difference! In fact when I check their recipes this seems right on based on
+amount of hops used and IBU for style.  I also consulted Eckhardt's book The
+Essentials of Beer Styles and found his IBU style guidelines to match the
+Protz book.  If I use Papazian's utilization percentages based on my previous
+batches (which were properly hopped for style) I find the IBU's calculate to
+be way too high.
+
+
+I noiticed that Gary Bell is also finding the same problem as he stated the
+following different IBU's using different formulas for the same Winter
+Welcome recipe:
+"*Note: The hopping above gives the following IBU's based on different
+calculation methods: (1) SudsW 43.2,(2) Rager 75.7, (3) Tinseth 66.9,  
+(4) Garetz 56.7, (5) Papazian 58.9"
+
+
+
+
+For a gravity of 1.044 I have come up with the following utilizations (5 gal.
+full wort boil using hops plugs):
+60 min.: 20.6%
+30 min.: 10.3%
+10 min.: 4.5%
+
+
+The formula is 0.30 - (o.g.-0.95) for 60 min boiled hops.  
+
+
+What are other people using? I would like this to be accurate so that I can
+formulate recipes based on commercial recipes.  BTW, the above mentioned
+CAMRA book has recipes and profiles for over 100 commercial english beers.
+ It's quite good.
+
+
+~Zeek
+
+
+ZEEK67`at`AOL.COM
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 94 22:37 CST
+From: pgravel`at`mcs.com (Philip Gravel)
+Subject: Hot Side Aeration, Blowoff Tubes
+
+
+===> Thomas55 ask questions relating to hot side aeration (as did
+     Dan FitzGerald earlier):
+
+
+>     Mr Palmer mentions that he doesn't like the practice of
+>pouring hot wort into cool water waiting in the carboy but doesn't
+>say why?  Does this harm or change potential flavors? Is there any
+>potential gain by ensuring that when the wort is cooled enough to
+>be susceptible to infection it is locked safely in a sanitized
+>fermenter?
+
+
+Exposing hot wort to air leads to chemical reactions in which some
+of the components in the wort are oxidized.  This leads to flavors
+in the beer which resemble wet cardboard.  Typically, wort at tem-
+peratures above 140^F is susceptible to hot side aeration (HSA).
+Between 90^F and 130^F, the wort is most susceptible to bacterial
+infection.  Below 80^F, the wort is at its optimum for yeast growth.
+The use of a wort chiller helps to bring the temperature down rapidly
+through those temperature ranges where the wort is at risk of HSA and
+bacterial infection.
+
+
+===> Thomas55 asks about blowoff tubes:
+
+
+>     Another practice that Mr Palmer doesn't mention but I've seen
+>others recommend against is the use of a "blow off" tube for the
+>initial stages of fermentation.  I know that some worry about the
+>possibility of exploding glass and five gallons of wasted beer! 
+>I use this method but with out the stopper and small tubing
+>Papazian describes.  I use a single piece of tubing large enough
+>to fit snugly in the neck of the carboy - about an inch inside
+>diameter! ( I don't remember what size and since it is currently
+>in use I can't readily measure it!)  I don't see how anything could
+>clog this and cause any pressure buildup besides the slight
+>pressure of the 1 inch or so of water I submerge it in to keep out
+>any uninvited guests.  Am I missing something about this practice? 
+
+
+If you're going to use a blowoff tube, the method you describe reduces
+the risks of the tube clogging to about nil.  People use blowoff tubes
+to catch the krauesen which can froth out of the fermenter.  It sure
+beats having the krauesen coming up through an airlock.  If you use a
+fermenter with a sufficiently large head space, you'll get no blowoff.
+
+
+>Is there really any benefit of the removal of "excessively bitter
+>hop resins" as Papazian describes?  I also understand that the
+>Krausen (foam) may contain some concentration of fusel oils of
+>which it is a further benefit to reduce or eliminate from your
+>beer? 
+
+
+Although Papazian is a proponent of blowing off krauesen, discussion
+of this subject that I have seen here and in rec.crafts.brewing 
+indicates that this is not a universally held belief.
+
+
+- -- 
+Phil
+_____________________________________________________________
+Philip Gravel                                 pgravel`at`mcs.com
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 23:55:31 +0000
+From: Ulick Stafford <ulick`at`ulix.rad.nd.edu>
+Subject: Witbier
+
+
+
+
+There was a recent discussion of Wit beer making, and the following is my Wit
+beer recipe that recently won best Belgian Ale at the Chicago Beer 
+Society's Spooky Brew contest.  I made the beer having never tasted a Wit 
+beer from vague descriptions of the procedure, and I had to make a number of 
+modifications to my procedure.
+
+
+The bill consisted of 4.4 lb of flaked wheat (purchased at a food market),
+9 oz of oat flakes, and 5 lb of Belgian Pilsener malt.  The wheat and 
+oats were boiled in 10 qt of water.  This was added along with 4 qt of 
+cold water to the malt which had been mashed into 6 qt of 55 F cold 
+water.  The temperature of 114 F was held for 10 minutes.  Then I pulled 
+a thick `decoction' and heated it to 160 and held the temperature for 
+5-10 minutes.  I did this because I had read that Wit were made with two 
+pots but without boiling decoctions to save enzymes in the malt poor 
+mash.  When returned to the rest mash the temperature rose to 128 F, 
+which was held for 15-20 minutes.  40-50% thick decoction was again 
+pulled and heated to 150-160 for 10-15 minutes.  When returned the 
+temperature of the mash rose to 140.  This was repeated and the 
+temperature rose to 144.  At this point 2 tsp of amylase was added, and 
+the mash held for 1.5 hours.  An iodine test was negative. Then the 
+temperature was risen to 160 for 20 minutes, before mashing out at 168.  
+The sparge was slow, requiring frequent knife cuts in my copper manifold 
+Gott.  It was sparged with 24 qt of water after recycling 10 qt.  The 
+hops (25 g 12.8%aau Nugget) were added at 60 minutes of the 90 minute 
+boil.  Orange peels and coriander (no note of quantity) were added at 5 
+minutes before boil off.  After 30 minutes the chill was started 
+(immersion) and 1/2 oz of Durkee Orange flavoring was added.  The total 
+volume was 7 gallons of 11 B wort.  2 quarts were canned for priming.
+
+
+The beer was pitched with a starter made from a Belgian Ale called `Bos 
+Keun', because Wyeast white was unavailable to me.  However after 2 days 
+with no activity I added slurry of Wyeast '007, German Ale.  After a further 
+12 days the beer having reached 3 B was deliberately contaminated with a 
+fist full of malt and racked to a carboy.  After 4 more days the beer had 
+a lacy top and had reached 2.5 B.  It was pasteurized by heating to 160 
+prior to rapid chilling, the bottling wort and some fresh '007 were 
+added, and 74 bottles were filled.
+
+
+The beer was judged by a National and an Experienced (not BJCP) judge, 
+and both gave it 41/50.  The bouquet and aroma were described as citric 
+with either `hints of spice' or `no spice aroma to speak of'.  The 
+appearance was `fizzy', tight creamy head, nice hazy shine, white 
+opalescense.  Flavor was `Pretty authentic witbier taste.  Nice lactic 
+tang.  Spicing pretty light.  Wheat flavor expressed well.  Balance 
+nice.' and `Malt character dominates fruit and spice;  should be drier'.  
+Body was about right or a little full.  Overall more fruitiness and 
+coriander were recommended.
+
+
+However, despite being a blue ribbon beer the opinion of most of my 
+friends who have tried it is bad.  This is both due to unfamiliarity with 
+the style, and the overwhelming alien nature of some of the flavors. I 
+probably won't make the style again for this reason, but I hope the 
+description of my procedure helps those of you who wish to try.
+__________________________________________________________________________
+ ADVERTISEMENT.  Ph.D. Chemical Engineer  | Dr. Ulick Stafford
+    seeks industrial research position.   | P.O. Box 46, Notre Dame, IN 46556 
+    http://ulix.rad.nd.edu/Ulick.html     | Ulick.Stafford`at`nd.edu   
+
+
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 08:56:43 +0200 (WET)
+From: Paul Jeffrey <mspaulj`at`olive.mscc.huji.ac.il>
+Subject: Hop cuttings...How ?
+
+
+
+
+Greetings to all in brew-land,
+
+
+This year I grew my own hops in the back yard and I'm hooked. Just like 
+other foods, the finished product tastes better if you have grown some of 
+the ingredients with your own paws. I ordered 4 rhizomes from a well 
+known US company and although only two of them survived the passage 
+accross the Atlantic, I harvested a reasonable first year crop from them. 
+Now I WANT MORE !!
+
+
+So...the question is, can I take cuttings myself from the rootstock to 
+provide me with more bines next year, and if so, when and how do I do it 
+?? 
+
+
+Private EMail OK.
+
+
+All the best
+
+
+PaulJ.........
+
+
+------------------------------
+
+
+Date: Tue, 22 Nov 1994 23:17:43 -0500
+From: Art Steinmetz <asteinm`at`pipeline.com>
+Subject: Re: Stepping up Starters 
+
+
+npyle`at`hp7013.ecae.StorTek.COM writes:
+
+
+>why bother stepping up the starter size?
+
+
+I suspect the reason is less room for competing organisms.  A 
+higher ratio of good yeast cells to sugar molecules will make 
+it tougher for bacteria and wild yeast who will get crowded 
+out.
+
+
+That said, suppose you're in this situation (as I was 
+recently).  The yeast you pitched is doing nothing so you want 
+to pitch some more.  Do you make a starter or just pitch an 
+unswollen Wyeast pack?
+
+
+The wort is sitting there doing nothing.  I believe you need to 
+get some good yeasties in there ASAP.
+
+
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 05:04:40 -0600 (CST)
+From: "Robert W. Mech" <rwmech`at`eagle.ais.net>
+Subject: Jane! Get me of this crazy thing!
+
+
+> Date: 22 Nov 1994 00:05:13 -0000
+> From: Gateway`at`foxmail.gfc.edu (Gateway)
+> Subject: NDN: Homebrew Digest #1584 (November 21, 1994)
+> 
+> Sorry. Your message could not be delivered to:
+> 
+> ymoriya,George Fox College (The name was not found at the remote site. 
+> Check that the name has been entered correctly.)
+ 
+ Just who IS this person and place and why the hell havent they been sent 
+ 10 cases of over primed, skunked, cloudy, infected beer?
+ 
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 06:28:43 -0500 (EST)
+From: David Smucker <smucker`at`use.usit.net>
+Subject: O2 Danger discussion / double relax
+
+
+Over the last week or so of the HBD there as been a discussion about the 
+safety of the use of  O2 for wort aeration.  Jim Busch points out the 
+difficultly of reaching high concentrations of O2 in say a small room of 
+12 feet by 12 feet by 8 feet.  Jim is correct, but there is one 
+additional factor, high pressure gas tanks are just not that big!  
+ 
+The largest one you can own in most areas is either a size S at 150 cubic 
+feet or a size 160 at 160 cubic feet.  (Actual volume of a size S is just 
+under one cubic foot so at a supply pressure of 2250 psi divide by 14.5 
+psi (one atmosphere)  times .97 cubic foot we get 151 cubic feet.)  Even 
+the very large industrial high pressure type K tanks are only 242 cubic 
+feet which in general you can't own, only lease.  (Some parts of the 
+country do lease a size T at 2640 psi which holds 330 cubic feet.)  Very 
+large volumes can be obtained from liquid O2 tanks but you are unlikely 
+to have these at home.
+ 
+The point of all of this is that if you vented a whole tank for most of 
+us you would get only a 150 cubic feet of pure O2.   I have used my 160 
+cubic foot tank to do at least 15 --15 gallon batches, done a bunch of 
+metal cutting and brazing and I still have about 600 psi on this current 
+tank.  
+ 
+By the way I still feel that using pure O2 is the single biggest 
+improvement I have ever made in my brewing.
+ 
+So with Jim, I say relax and relax again.
+ 
+Now the CAUTION -- HIGH PRESSURE GASES CAN BE DANGEROUS.  Pure O2 and oil 
+or grease can cause spontaneous combustion so directing high pressure O2 
+on to oily clothing can cause a serious problem, (but you will not burn 
+up your wort).  You are most likely to hurt yourself or someone else by 
+knocking over a 100 pound tank or worse yet knocking off the valve and 
+you then have an unguided missile.  HIGH PRESSURE GAS TANKS SHOULD ALWAYS 
+BE TIED OFF.  I feel that other gases especially acetylene and propane 
+and good old gasoline are much more dangerous than an O2 tank.  Reason, 
+because leakage can result in a bad explosion and/or fire.  It pays to 
+know what you are doing and storing these in your house or basement is 
+just a plain bad idea.
+ 
+One other thing while on the subject of O2.  There are normally three 
+grades of O2, Industrial, USP (conforms to the purity standards of the 
+United States Parmacopoia) and Aviator's Breathing grade.  Aviator's 
+Breathing and USP are the same except that the AB grade has a max of 6 
+ppm of H2O (vs. 50 ppm for the other two) so that it has a dew point of 
+ -83 F.  It doesn't freeze up at high altitude.  My understanding of the 
+difference between Industrial and USP is that USP has a very strict 
+requirement that the pressure tank has never been used for any gas accept 
+USP O2.  Most suppliers fill both from the same source.  My beer gets 
+Industrial grade.  It is 99.5 % pure, but may contain a max of .5 % of 
+argon, neon, helium, nitrogen, CO2, (total not each).  That better than 
+air and my beer likes it that way.
+ 
+Dave Smucker        <smucker`at`use.usit.net>
+Knoxville, TN
+
+
+
+
+------------------------------
+
+
+Date: 23 Nov 1994 02:50:36 -0000
+From: Gateway`at`foxmail.gfc.edu (Gateway)
+Subject: NDN: Homebrew Digest #1586 (November 23, 1994)
+
+
+Sorry. Your message could not be delivered to:
+
+
+ymoriya,George Fox College (The name was not found at the remote site. Check
+that the name has been entered correctly.)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 07:14:40 -0500
+From: EKTSR`at`aol.com
+Subject: Beer tasting party
+
+
+Here's a light hearted subject to ponder and respond to:  I have introduced
+my wife to the joys of better beers thru selective purchases of better
+microbrewed beers and thru attendance of festivals.  She is so convinced now
+that our megaswilling friends are in need of enlightenment she wants to host
+a beer tasting party.  (Actually, any excuse around our merry household
+serves as a basis for a party ! !)  My question and quest is what beers would
+you suggest we serve??  I had thought of doing a style party: ie, all pale
+ales from different brewers, but this would limit the experience of our
+friends who might never have tasted yet might enjoy a wheat beer, an alt,
+etc.  So, the next thought was a light to dark party: start with a light beer
+(not a LITE beer (:-) ) and go thru pales, IPA's, 
+dunkels, stouts, etc.  
+
+
+My question is: has anyone done this before?? What beers did you serve??  If
+we choose to serve approximately 10 beers; which ten would you serve??  Keep
+in mind a megaswilling pallete that is open to new experiences.  
+
+
+THANKS!!  I'll post the results when they're in.
+Stan White, Bloomfield CT.
+ektsr`at`aol.com
+
+
+"the way to BE is to DO"--Lau Tsu
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 08:57:26 -0500
+From: BobbyRatt`at`aol.com
+Subject: Sorray about that :(
+
+
+I won't waste much bandwidth with this, other than to say that I'm sorry
+about the message that got posted in Tuesday's HBD.  I didn't find this out
+until it was too late to pull it back.  I've deleted the HBD address from the
+mail list I used so that this will never happen again.  Once again, Sorry:(
+
+
+Bob Surratt
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 08:56:29 -0500 (EST)
+From: Rob Reed <rhreed`at`icdc.delcoelect.com>
+Subject: Coriander in Yeast Starters
+
+
+
+
+With all this talk about building up and fermenting lager yeast
+starters near the planned batch fermentation temperature, it got
+me to thinking about:
+
+
+                             Coriander
+  
+If I am planning to brew a coriander beer, should I put some
+coriander into the yeast starter to allow the yeast to
+mutate, thereby developing enzymes to deal with the coriander
+in the main fermentation.  Also, if I am streaking out yeast, 
+should I add coriander to the agar media for the reason above?
+
+
+Also, has anyone put together a Coriander FAQ?
+
+
+TIA,
+
+
+ -Rob Reed
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 94 09:20:29 EST
+From: Allan Rubinoff <rubinoff`at`BBN.COM>
+Subject: Re: blow-off
+
+
+The last paragraph of my post on blow-offs in HBD #1586 was a bit muddled:
+
+
+>I know most commercial brewers use blow-offs, but I wonder where the
+>hose is attached to the fermenter.  I suspect at the bottom, not the
+>top.  If that's so, this would mean that trub would get blown off,
+>rather than krausen.  
+
+
+What I meant was this:  
+
+
+Some commercial brewers apparently use blow-offs.  (I can't cite
+specific brewers, but people have seen these on brewery tours.)  But I
+suspect that even those brewers who do use blow-offs don't allow the
+krausen to be blown off (unlike homebrewers).  This is just a guess --
+anybody know for sure?
+
+
+Allan Rubinoff
+rubinoff`at`bbn.com
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 09:32:14 -0500 (EST)
+From: greg`at`kgn.ibm.com (Greg Holton)
+Subject: Counterpressure bottling
+
+
+> 
+> Date: Tue, 22 Nov 1994 10:33:41 -0500
+> From: dsetser`at`nttfsrv.gsfc.nasa.gov (Dave Setser)
+> Subject: Kegs to Bottles
+> 
+> I've just purchased all the equipment necessary for kegging my homebrew,
+> and love the convenience.  The one problem that I've encountered is
+> that of bringing samples to club meetings, friends, etc.  Does anyone
+> know of a method whereby I can condition my beer in the keg, and then
+> use the keg to fill a limited number of bottles?  Common sense tells
+> me that if I just dispense to the bottle and cap it, I'll have problems.
+> I'd appreciate any response - the more detailed, the better.  Thanks
+> in advance!
+> 
+> Dave Setser
+> 
+
+
+Dave --  
+  What you need is a counterpressure bottler.  They can be bought for
+around $50 or made for around $20.  Attached is a description of the
+one I made, which works very well.  I use it to bring bottles to club
+meetings or otherwise share with friends and to enter in contests.
+  The $20 I quoted assumed having some of the odds & ends around
+my house, but you shouldn't have to spend much more than that.
+The ball cock valves vary a lot in price -- I got them for about $3
+from a plumbing supply place.  All parts are brass 1/4" pipe thread.
+
+
+
+
+
+
+
+
+       /^\   <-- liquid in
+       / \                                    CO2 in 
+      _/ \_  1/4 hose barb                     
+      |   |                                    /^\
+      |___|                                    / \
+      |   |                                   _/ \_
+ _____|_  |  ball cock valve                  |   |   hose barb
+|_______| |                                   |___|
+      |__ |                                   |   |
+      |   | 1/4 compression                   |   |   ball cock valve
+      |   |     fitting                       |  _|________
+      -   -                                   | |__________|
+       | |  1/4 copper tubing                 |   | 
+       | |                                    |   |
+      -   - 1/4 compression                   |---|
+      |   |     fitting                       |   |                       CO2
+    __|   |___________________   _____________|   |_______     _________  out
+    |                        |  |                        |     [_____   |
+    |                        |--|                        |__ _________|_|___
+    |        tee            nipple      tee                 |              |>>
+    |                        |--|                        |--|______________|
+    --|| ||------------------|  |-------------------------           
+      || ||  3/8 compression fitting                             air spray      
+  \---|| ||---/                                                  nozzle for
+   \  || ||  /  rubber stopper (fits bottle neck)                bleeder
+    \ || || /  
+     / | | \   3/8 OD copper tubing (~ 1.5 inch)
+       | |     flared if possible.
+       | |
+       | |  1/4 copper tubing runs through 3/8 tubing
+       | |  (from liquid inlet connection)
+       | |
+       | |
+            A short piece of plastic tubing on the end
+            will help to compensate for different bottle 
+            lengths, so you're always filling from the bottom
+            of the bottle and not splashing.
+
+
+To use, connect liquid inlet to the keg outlet and CO2 inlet to the CO2 
+cylinder.  Insert filler into neck of bottle.  Pressurize bottle with CO2
+and bleed off several times (purges air from bottle).  Pressurize again
+with CO2, allowing about 5 secs to completely pressurize.  Close CO2 valve.
+Open liquid inlet valve.  At this point, the pressure in the bottle should
+be the same as that of the keg, so no beer flows.  To cause the beer to 
+flow, crack the bleeder slowly and control flow by bleeding off CO2 pressure
+a little at a time (that's why I like to use a trigger-type spray nozzle
+there instead of another ball cock valve).  Don't let if flow too fast or
+it will foam and lose carbonation.  Close liquid inlet valve (easy to forget,
+but you'll only make that mistake once!). Cap off quickly (Grolsh bottles are 
+good for this purpose).  
+
+
+
+
+ Good Luck.
+
+
+
+
+Greg Holton
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 94 09:47:21 EST
+From: dweller`at`GVSU.EDU (RONALD DWELLE)
+Subject: Methodologies--one answer and one question...
+
+
+     I mix my priming solution and wort this way:
+        1) I draw off a couple tablespoons of the wort for a hoppy taste 
+     test.
+        2) I then make a priming solution by adding corn sugar, brown 
+     sugar, molasses, honey, or dme to about a quart of water (or maybe use 
+     gyle) and bring to a boil. (If my hopping is not right, I add hops at 
+     the end of the boil and clamp a lid on tight for 5 minutes. If I'm 
+     spicing, like for my recent Triple-Xmas Ale, I add the spice here as 
+     well.) (BTW, I made a bad mistake and tried adding "allspice" to a 
+     thanksgiving ale--gaaaaaack!)
+        3) I then gently pour the hot quart in the bottom of my primary 
+     plastic bucket (pouring it through a kitchen strainer if I have added 
+     hops).
+        4) I then (here's the secret) siphon the wort into the primary 
+     bucket by laying the siphon hose in a half circle around the edge of 
+     the bottom of the bucket, so it is lying in the priming solution. As 
+     the wort comes out, it swirls around the bucket and mixes with the 
+     priming solution. This swirling continues throughout the whole siphon  
+     (you can see the whole mass swirling the whole time) and I always get 
+     a good mix. In about 30 batches of using this method, I've never had 
+     uneven priming in the bottles.
+     
+     Now my methodology question. In the olden days, I never used to mash 
+     out, but instead would just start sparging after conversion. After a 
+     little reading and some intelligent notes on the HBD, I decided I 
+     should always do a mash-out, by raising the temperature before 
+     starting to sparge. Well, in my last three batches, I've been getting 
+     some astringency--a bad taste--that I suspect is coming from spotty 
+     overheating during mashout or sparging. I've tried both heating the 
+     mash in  a kettle on the stove (but I think I get bad hot spots in the 
+     mash) and pouring 200-205 degree water into the mash ala Papazian, to 
+     bring the mash temperature up to mash-out (but I think I get the same 
+     kind of over-hot spots). Also, to keep my sparge up around 170, I've 
+     been either applying heat to the pot or sparging with water hotter 
+     than 170, and thus inviting more tannin leaching and astringency.
+     
+     So, what's the method to keep the mash-out temperature uniform without 
+     overheating parts of the mash, and to keep the sparge temperature 
+     uniform without overheating parts of the sparge? (And don't tell me 
+     RIMS, unless you're willing to give me a setup--I'm on a tight budget 
+     and incompetent at do-it-yourselfing.)
+     Cheers,
+     Ron Dwelle(dweller`at`gvsu.edu)
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 94 9:44:09 EST
+From: Guy Mason <guy`at`polo.matrixnet.com>
+Subject: California Lager Yeast
+
+
+Happy Thanksgiving Fellow HBDer's,
+
+
+I'm dying to try a lager recipe now the several ales have been made with
+great success.  My problem is temperature, I don't have room for an extra
+fridge and the basement storage for my apartment stays fairly constant
+at 58-60F.  I can't hook up a fan to use the evaporation/wet towel method to 
+get the temperature any lower.  My homebrew supply store information source
+says that Wyeast California Lager yeast works well up to 62F, while retaining
+lager characteristics.  What's the work on this yeast?  Does it work well
+for Pilsner's, Continental Lagers, Bocks, etc.
+
+
+Thanks and remember
+
+
+California from Spanish caliente meaning hot and fornicate meaning sex...
+        The land of hot sex!!!
+- --
+
+
+                               //-n-\\                    The KLINGON
+                       _____---=======---_____           IMPERIAL FLEET
+                  =====____\   /.. ..\   /____=====    Its not just a job
+                 //         ---\__O__/---         \\   Its an ADVENTURE !
+                 \_\                             /_/
+           We destroy more by 9AM than Romulans do all day!
+
+
+                             Guy Mason
+                             Matrix Software
+                             guy`at`matrixnet.com
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 10:16:53 -0500
+From: Btalk`at`aol.com
+Subject: yeast at priming
+
+
+Recently there have been a couple posts that mentioned adding fresh yeast at
+priming bottling. The point was that the beer would condition more quickly,
+like in a weeks time. There was also something about improving shelf life.
+Interesting idea which naturally leads to questions!
+What is the likelyhood of over carbonation from doing this? Or does the beer
+just carbonate to the same point sooner?
+How much yeast/starter to use? Any yeasty flavors that develop?
+Thats it for now.
+Later,
+Bob Talkiewicz, Binghamton, NY<btalk`at`aol.com>
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 11:03:08 -0500
+From: ALKinchen`at`aol.com
+Subject: Yeast effect on head retention?
+
+
+Brewed a Boh pils: pils(bin said Ireks, later learned it was D-C), crystal,
+Saaz. Infusion mash. Protein rest, high sach rest. Split into two 5-gallon
+batches. pitched Wyeast Bohemian (2124) in half and Wyeast Czech (2278), both
+with 1 1/2 qt starters. Same temperature ferment (48^F) 4 weeks. Kegged,
+lagered 6 weeks (33^F). Bottled with identical corn sugar prime. Stored cold.
+Both crystal clear.
+
+
+The 2124 batch has a good head. The 2278 batch has a FANTASTIC head. Best
+ever. Slow collapse. Great lace.
+
+
+I am truly confident that the only difference in the two batches is the
+yeast, but never heard of such a yeast effect.
+
+
+Does anybody have any ideas.
+
+
+Al K
+
+
+ALKInchen`at`AOL.com
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 08:46:59 -0800 (PST)
+From: alm`at`ibeam.jf.intel.com (Al Marshall)
+Subject: George Fix's Filtration Talk at AHA 94
+
+
+Are the proceedings from the AHA 94 conference in Denver available?
+Can someone comment on the usefulness/completeness of the section
+documenting George Fix's talk on filtration assuming that one was not
+present at the talk?
+
+
+        Thanks in advance;
+
+
+        -- Al Marshall
+           alm`at`ibeam.intel.com
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 11:19:35 -0600
+From: MHANSEN`at`ctdmc.pmeh.uiowa.edu
+Subject:  First infection / modified Zapap
+
+
+Hey brewers,
+
+
+I have been brewing for a little over a year (14 batches) and have never
+had an infected batch. However last night, I bottled a batch that tasted
+like vinegar. Yuck! I am guessing acetobacter or lactobacillus infection. I
+just moved to a new place and this is my first batch made at the new
+location. I use good old household bleach and I am pretty anal about
+sanitation. Is it possible that there is a bacteria indiginous to my new
+location that I did not have at my old location and as a result I may have to
+change my sanitation procedures? This is discouraging because the last
+beer I brewed at the old location took second in a recent competition.
+Any ideas on eradicating this beast if it lives somewhere in my new
+kitchen? Wiping everything down with bleach? Nuking the building?
+
+
+In a post a few months ago I described my modified Zapap lauter tun and
+wanted to report that the initial results were pretty good (about 75-80%
+efficiency). A little tweeking and this thing will be great. The tun is made
+of a single 7.5 gallon plastic bucket insulated with bubble wrap that is
+coated on both sides with a foil-like material. Kept temp up in the tun very
+well. The bucket is fitted with a stainless steel false bottom that I
+fashioned out of a cylindrical flour sifter that professional chefs use. It
+fits snuggly in the bottom of the bucket with about 1 inch of space for
+foundation water. I attach a 3/8" tube to a plastic nipple that goes through
+the side of the bucket and false bottom to draw the wort away. This
+setup, sans false bottom, also serves as my bottling bucket. The whole
+thing cost me about $35 to make. 
+
+
+Brew on my friends,
+Mike (michael-d-hansen`at`uiowa.edu)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 12:28:19 -0500
+From: GubGuy`at`aol.com
+Subject: All Grain Questions
+
+
+Greetings fellow HBD'ers!
+     
+     From the Beer Wastelands, I call upon you for your help.  Being a recent
+convert to all grain,  (just finished my 4th batch) I have read through
+numerous sources in my quest for better beer; including, but not limited to,
+all FAQ's and text files  in the Sierra archives that I can access.  But
+reading is not doing, and there is still much that can be learned from
+experience (either your own or someone elses.).  What it boils down to is
+this:  I have no brewing partners < 175 miles away.  There are no local Homebr
+ew Clubs.  My nearest decent supplier is still 100 miles away, and the only
+local people I know who brew are the ones I've persuaded into doing it
+(extract only, BTW).  With this in mind, I have ran across a few questions
+that would best be answered by experienced  all grainers.  
+
+
+     Extraction rate.  For my last 2 batches, I have acheived OG's of ~1.042.
+ Some specifics:
+#1 was 5 lb German Wheat, 3 lb Vienna, 2 lb 2 Row.  Doughed in `at` 122 for a
+temp of 115 for 30 min (my target temp was 104).  Added 1.25 gal boiling
+water - temp 144 (was trying for a 140 temp) for 30 min.  Removed .5 gal
+wort, brought to boil and returned to mash - temp 150 (was trying for temp of
+158) for 20 min.  Sparged with 5 gals 170 deg water (no gypsum, lactic acid,
+etc).  I apparently forgot to record the time of the sparge, but was probably
+45 min to an hour.  OG=1.043
+
+
+#2 was 8 lb 2 Row, .5 lb 20 Crystal, .5 lb 60 Crystal, .5 lb 120 Crystal, .25
+lb Cara-Pils, 2 oz Chocolate, 2 oz Black Patent.  All grains were added to
+the mash.  I was going to do a single step infusion mash, but somehow my
+temps got messed up.  I was shooting for a target temp of 156.  What I did
+was bring 2.5 gals up to 175, added all my grain and got a temp of 145 (this
+was assuming about a 20 deg drop in temp with adding grain, as per Papazian,
+pg 296).  Thinking this was too low, I let it sit for 30 min.  Then added
+1.25 gal boiling water, brought it up to 165, held for 60 min.  Again sparged
+with 5 gals water, this time at 180 deg (again, no additives).  Sparge lasted
+45 minutes.  OG=1.040.  My total water content was a bit high, ending up with
+about 6 gallons of wort, so I think the OG was pretty consistent with batch
+#1.
+
+
+     Enough background, on with the questions.  I assume this means I'm
+getting approx 20 pts/lb/grain.  Is this correct?  Is this good, bad,
+average?  I use a zapap lauter tun with no insulation.  Batch #2 I added a
+thermometer to my grain bed; temp was 155.  Is this too low, i.e. should it
+be the same temp as the sparge water?  Is there an easy way to improve my
+yields (read inexpensive)?   And how about reaching your strike temp?  Is
+there a better, more reliable method than what I've been using?  I'm making
+pretty good beer now, but there is always room to improve.
+
+
+    With my current system 10 lbs of grain seems about the limit of what I
+can use.  If I wanted to, say, make a Dopplebock, what suggestions for
+raising the OG would be feasible?  This is assuming I don't want to cheat and
+add DME.  I was thinking perhaps using 10 lbs in the regular way, but taking
+an additional 4 lbs of crystal for steeping in a separate pot, then boiling
+down until I can add it to my big boiling kettle with the runoff from the 10
+lbs that need to be mashed.   Or maybe even making two separate batches and
+boiling both down to about 3 gals then combining the two?  Anyone used either
+of these methods?  Is it a reasonable alternative, or would I just be
+creating much more work for myself?  
+
+
+     Any hints, tips, suggestions (please, keep them clean!) welcome.  But
+wait, there's more.
+
+
+      With lagering season now upon us (at least us without any extra
+refrigeration units), I have been thinking of several ways to go about this.
+ I have a back bedroom, that if kept unheated reaches temps of ~50 deg in the
+coldest part of winter.  That would seem to be OK for the primary (?, I
+really haven't lagered before), but not quite cold enough for the secondary.
+ I have two things in mind:  #1, use said bedroom, with 2ndary in a large tub
+of water, supplemented with ice cubes or reusable ice packs every 12 (?, or
+sooner) hours.
+#2, build some kind of insulated box for outside to keep the temp constant.
+ I was thinking maybe a large cardboard box, lined with styrofoam & plastic
+(to keep the wind chill factor out of the equation), or perhaps even spending
+$10 on a roll of fiberglas house insulation, again with plastic for wind
+protection (and to keep the little particles out of everything!).  Has anyone
+tried something similar, and if so, how did it work for you?  Is an outside
+container like I described able to keep a constant temp inside when outside
+has a large fluctuation?
+
+
+     Sorry about being so long winded, but my options for help  in these
+areas is a bit limited (for the above stated reasons).  If you must, private
+email, but I think this is the kind of thing that should be discussed here
+for the benefit of other newbie all grainers.  TIA to all who make this a
+resource as valuable as all my reference books.  They can't be replaced, but
+they can certainly be discussed, challenged, and improved upon.
+
+
+
+
+
+
+GubGuy`at`aol.com        Nunc est Bibendum  (Latin; "Now is the time to drink")
+
+
+ -Ray Ownby-                         "In Wine there is Truth"   -Dostoyevsky
+  Moses Lake, WA                                 ("In vino veritas")
+
+
+
+
+
+
+------------------------------
+
+
+Date:     Wed, 23 Nov 94 14:40:35 EST
+From: "Glen A. Wagnecz, X6616" <wagnecz`at`PICA.ARMY.MIL>
+Subject:  SLUGGERS (Why bother with GROWLERS?)
+
+
+        With all this talk of "Growlers", I think "Sluggers" should
+be mentioned also.  "Sluggers" is the slang term that my friends use
+to describe my use of 22 oz Champagne bottles.  It was hatched from
+two different (cloudy) thoughts:
+
+
+        - ..."They look like a softball bat..."
+
+
+        - ..."They're sure more than a mouthfull..."
+
+
+        At any rate, sluggers can be had at any recycle center (check
+the green bin).  Like a returnable, they can be capped by any lever
+capper and most of the arbor style cappers with the standard caps.
+There are a few brands that have a slightly larger diameter and can't
+be used, so take along a cap to test the one's you suspect.
+
+
+        These are some of the brands I have found to work:
+
+
+        - Korbel Brut
+        - Martenelli Sparkling Cider
+        - Ballatori Grand Spumanti
+        - Maison Duetz Brut Rose
+        - Great Western New York Champagne
+        - Andre Dry Champagne
+        - Eden Roc Brut
+        - Andre Cold Duck
+        - Totts Blanc De Noir
+        - Espirit Sparkling Red Grape Juice
+        - Chateau St. Jean
+
+
+        I personally prefer the Korbel Brut and the Martinelli Cider
+bottles, they are nice and dark and robust.  Just don't bonk anybody
+with one!
+
+
+        A myriad of 22 oz beer bottles are also out there, amonst them
+Sam Adams Tripple Bock, Rogue Red Ale, Oasis Red Ale, etc.
+
+
+        Again, go to your nearest recycle center, especially around the
+holidays.  I have been told that the green glass doesn't even have any
+recycle value for these centers; its just cheaper to dispose when 
+separated from the main waste stream.  It's also handy to bring a
+"pick stick", which is a ten foot pole (1 inch pine bannister), with
+a piece of 1/8 to 1/4" rod bent in a hook taped to it to snag those
+hard to get (middle of the dumpster) bottles.  Don't be bashfull; most
+people, when you tell them that you are a homebrewer, will exhibit
+reactions ranging from amazement to treating you like some kind of
+alchemist ("You create beer from the elements ?!?!?!!!!").  Whatever 
+works ...
+
+
+                        Glen
+
+
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 94 14:11:54 EDT
+From: claytonj`at`cc.tacom.army.mil
+Subject: Re: Batch primimg, recipe request
+
+
+
+
+Greetings,
+
+
+In HBD 1585, Bones,  "Timothy P. Laatsch <LAATSCH`at`kbs.msu.edu>" writes:
+
+
+>...<snip>...
+>My problem(s) is(are) 
+>inconsistent carbonation from bottle to bottle and generally low carbonation.
+>I thought this method was supposed to increase consistency! 
+>...<snip>...
+>I assume the problem stems from inadequate mixing of the 
+>priming sugar with the beer or stratification, but I've been reluctant to 
+>stir in the fear of introducing oxygen.
+
+
+I bulk prime using corn sugar and a 5 gal. plastic bucket with a spigot
+attached.  Before racking to the bucket, I boil 1/2 to 3/4 cups of corn sugar
+(depending on the carbonation I want) with 1 pint of water for about 10 min. 
+I cover the pot and set it on the basement floor to cool while I get set up. 
+I pour the sugar water into the bottom of the bucket (without splashing) and
+rack with the hose on the bottom of the bucket.  As mentioned many times
+before, racking releases some of the CO2 dissolved in the beer providing a bit
+of a blanket above the beer in the bucket.  I take my sanitized brewing spoon
+and move it from the bottom to about 3/4 the way to the top, using the side as
+a fulcrum, to create an upwelling current that mixes the beer and priming
+sugar.  I move the spoon fast enough to make a visible current on the top but
+am careful not to splash or disturb the CO2 layer on top.  Do this four or
+five times and bottle as usual.  I get consistent carbonation in the bottles
+and have noticed any oxidation problems.  I think the upwelling motion mixes
+better than just stirring.
+
+
+Now for a question.  I want to try my hand at brewing a stout and feel I
+should go big or go home so, does anyone have a recipe for Grants Imperial
+Stout (I love this stuff)?  Maybe you took a tour and can pass along the some
+of the ingredients so I know where to start.  TIA.
+
+
+Cheers,
+
+
+Joe Clayton
+Farmington Hills, MI
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 94 16:41:52 EST
+From: Eamonn McKernan <eamonn`at`rainbow.physics.utoronto.ca>
+Subject: disappointing lager
+
+
+I could use some advice from the 'collected wisdom' out there. I have
+an all-grain lager sitting in the secondary slowly bubbling away, and
+I'm wondering why I bothered to brew it myself. It tastes like a light 
+version of Molson Ex. Mind you, one really has to search for any taste
+at all, the stuff has so little flavour to it. 
+If I wanted swill, I could hit the local Brewers retail, and save myself 
+the shame of admitting that I'm responsible for such lousy beer. (apologies
+to fans of ultra light beers).
+
+
+The details:
+2 step infusion mash at ~130F and 150F with lots of temperature
+variations in my uninsulated pot. Mashout, sparge, boil etc
+I don't have my ingredients here, but it was a hodgepodge of various
+lager recipes mixed together, no major surprises. I think it was mainly
+6 row, plus some munich malt. over 2 oz of hops if memory serves
+(Hallertauer?) in various stages of addition over 60 min.
+Wyeast California lager yeast reputed to be good at ale temperatures.
+No I don't have a fridge, but my basement has been steady between 13
+and 15 Celcius. I week in primary (2 carboys). 3 weeks in a 6gal glass
+secondary and still bubbling! OG 1044 or slightly higher. SG 1011 at
+racking to secondary. Still near 1011 as of last night. 
+
+
+What can I do to save this? Is it wise to add more fermentables at this
+stage of the game? In fact, is it ever wise to add fermentables after
+fermentation has gotten under way except for priming? I don't really want
+any more alcohol in the beer. Maybe some fruit flavouring, or malto-dextrins
+for (dare i hope for) beer flavour. Hell I'll dump jalapeno peppers in 
+there just so it doesn't taste like alcoholic water!
+
+
+I thought that the wonderful sweet wort I tasted before pitching was 
+sure to give me a great lager (my first lager attempt). But boy was I
+wrong!
+
+
+While on the subject, If anyone knows of a pilsner recipe for ale
+temperature ferments, I'd love to hear them . Preferably all grain.
+Something like Becks maybe.
+
+
+Thanks for listening,
+        Eamonn McKernan
+        eamonn`at`rainbow.physics.utoronto.ca
+(this means I'm from Toronto) :>
+
+
+------------------------------
+
+
+Date: Wed, 23 Nov 1994 14:05:30 -0800 (PST)
+From: sprmario`at`netcom.com (Mario Robaina)
+Subject: Hop question
+
+
+
+
+------------------------------
+
+
+Date: Mon, 21 Nov 1994 16:22:34 -0800 (PST)
+From: Jeff Frane <gummitch`at`teleport.com>
+Subject: growlers
+
+
+The last few days people have referred several times to breweries
+selling "growlers", but haven't put them in any historical context.
+At one time, this was one of the most common ways to get beer onto the
+table at home: someone (usually one of the kids) was sent out to "rush
+the growler", which meant they trotted around the corner to the local
+pub/brewery/tavern with a bucket (apparently, old lard tins were
+particularly handy) to fill with beer for mom and dad's dinner.  This is
+all pre-Prohibition, of course.  Bottles were available, but this was
+often preferred -- perhaps bottled beer wasnt that great, or maybe too
+expensive.  Most likely, this was the best way to get fresh beer on the
+table.
+
+
+I've heard that the term "growler" referred to the reaction at home when
+the bucket arrived less than full, but this may be apocryphal. 
+
+
+Here in Oregon, the brewpub laws inacted a few years back ensured that
+people could take beer home from draught sites (taverns, brewpubs,
+etc.) and something very like a growler became quite popular.
+Initially, people could bring their own vessels, but I think the law was
+revised somewhat.  After a short time, the OLCC apparently required
+brewpubs to seal the containers, and some initial attempts included a
+heat sealer that wrapped a little band around the cap.  Presumably, this
+had to do with open container laws (transportation in a motor vehicle)
+rather than any problems with people wandering around with open bottles.
+
+
+- --Jeff
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1587, 11/24/94
+*************************************
+-------

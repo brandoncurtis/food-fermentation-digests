@@ -1,0 +1,1398 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Sat Jul 29 03:10:05 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["44065" "Sat" "29" "July" "1995" "01:00:49" "-0600" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1096" "Homebrew Digest #1794 (July 29, 1995)" "^Date:" nil nil "7" nil nil nil nil]
+        nil)
+Received: from truelies.rs.itd.umich.edu (truelies.rs.itd.umich.edu [141.211.83.38]) by mendel.hgp.med.umich.edu (8.6.12/8.6.12) with ESMTP id DAA24953 for <spencer`at`mendel.hgp.med.umich.edu>; Sat, 29 Jul 1995 03:10:05 -0400
+Received: by truelies.rs.itd.umich.edu (8.6.12/2.2)
+        with X.500 id DAA10514; Sat, 29 Jul 1995 03:10:04 -0400
+Received: from hpfcla.fc.hp.com by truelies.rs.itd.umich.edu (8.6.12/2.2)
+        with ESMTP id DAA10498; Sat, 29 Jul 1995 03:10:01 -0400
+Received: from hpfcmi.fc.hp.com (hpfcrdg.fc.hp.com) by hpfcla.fc.hp.com with ESMTP
+        (1.37.109.16/15.5+IOS 3.20) id AA026571730; Sat, 29 Jul 1995 01:08:50 -0600
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.11 $/15.5+IOS 3.22) id AA255631249; Sat, 29 Jul 1995 01:00:49 -0600
+Message-Id: <199507290700.AA255631249`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+Date: Sat, 29 Jul 1995 01:00:49 -0600
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1794 (July 29, 1995)
+
+
+
+
+
+
+HOMEBREW Digest #1794                             Sat 29 July 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Lager / Sparge arm Q's (/O=PRDMSMAC/S=HUMPHREY/G=PATRICK/)
+  REQUEST: PVC MANIFOLD SETUP/SPARGE RATES (Glen_Baldridge)
+  flat beer (Tim Membrino)
+  Wyeast Belgian Wit yeast -- tart? (Chris Shenton)
+  Stainless vs Aluminum/Sight Glasses (Kirk R Fleming)
+  Brewing in plastic containers (Daniel Richardson)
+  Re: Wheeler Real Ale Books (Brian Gowland)
+  RJ Riptides in San Diego (HBD #1793) (Brandon's Daddy)
+  Suds for Windows (Allen Born)
+  Re: Oxygen tanks (Dion Hollenbeck)
+  Gambinus/Weihenstephen 34/70 - Lagers and esthers ("William D. Knudson")
+  Partial Mash questions ("Mark W. Wilson")
+  Shelf life of bottled beer (kdschida)
+  More O2 (Jim Busch)
+  Re: More O2 (Dion Hollenbeck)
+  Aeration & Foaming (LEE_BOLLARD)
+  Gambrinus and clusters (Jim Busch)
+  Mashing rice (Jeremy Ballard Bergsman)
+  Re: Booze in Space (Glen J. Stephan) (by way of rlarsen`at`squeaky.free.org (Rich Larsen))
+  Wheeler Brewing Books (Ray Daniels)
+  False Bottoms (CHARLIE SCANDRETT)
+  Help with keg conversions (GubGuy)
+  basmati rice / ftp server (Bart Thielges)
+  Thermodynamic Sulphur Chillout (Part 1) (CHARLIE SCANDRETT)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 27 Jul 1995 15:09:43 -0600
+From: /O=PRDMSMAC/S=HUMPHREY/G=PATRICK/`at`x400.pprd.abbott.com
+Subject: Lager / Sparge arm Q's
+
+
+I attempted to brew a lager clone similar to Heiniken (sp.) last week and I
+have a few questions.  
+
+
+I don't have a basement and I my extra refrigerator is filled with homebrew so
+I had to resort to the bucket/towel/t-shirt method of cooling.  Not easy to do
+during the 100 deg weather we have had and no air conditioning!  I was able to
+use my kids toy storage tub (about a 25 gallon plastic tub with handles) as my
+cooling bath.  I filled with water and kept the temperature between 50-55 deg F
+for the entire fermentation using blocks of ice.  The temperature was by no
+means constant and I don't know what effect this temperature variation will
+have on the flavor.
+
+
+The primary is now finished (8 days) and I will rack to secondary in a day or
+so.  My question is do I need to retain the temperature at 50-55 deg. during
+the secondary?  What about during bottle conditioning?  Since the most vigorous
+fermentation is completed I wouldn't think this temperature would matter as
+much.
+
+
+On another topic...
+
+
+I recently purchased a Phil's sparge arm from a reputable mail order supplier
+in preparation for my first all grain batch.  I assembled the support and did a
+trial sparge in my Gott with tap water.  The spray was fine but the arm did not
+turn.  The  connection "T" where the arm connects to the sprayer seems too
+stiff to spin.  
+(bad ASCII art to follow...)
+
+
+                         -------   <----- water flow 
+                                |        |----
+                                |        |
+                                |        |
+                                |        |
+                                |        |
+                                |        |
+                Joint seems to         |        |
+         be tight here          |        | 
+    |__________________**|_|__________________|
+    |_________________________________________|
+                                 *
+
+
+Does anyone know if this will loosen when I add the hot sparge water or do I
+need to send it back and get a new one?  I don't want to use WD40 on this
+thing.
+
+
+Please use this e-mail address:  patrick.humphrey`at`abbott.com
+The number of internal e-mail gateways tends to leave the address as listed in
+the header.
+
+
+
+
+________________________
+
+
+On the subject of agar plates or slants, 1.5%-2.0% is the standard amount of
+agar used.  Someone posted the amount 15-20% (WHOA!).  I think he ment to say
+15-20 grams per liter of media.  An ounce is approximately 37 grams. There are
+454 grams in a pound.
+
+
+A medium we currently use for fungi/yeasts is called Potato buds agar.  They
+grow quite well on this medium and it can be made from common ingredients.
+
+
+Here is the formulation:
+
+
+Potato Buds            20 grams
+Dextrose (corn sugar)  10 grams
+Agar                   15 grams
+Water                  1 Liter
+Pressure sterilize  20 minutes, 15-20 ml/plate.
+
+
+(Potato Buds are from Betty Crocker although other kinds work fine)
+
+
+
+
+Thanks,
+
+
+Pat
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 95 16:11:05 PST
+From: Glen_Baldridge`at`ccmail.medicus.com
+Subject: REQUEST: PVC MANIFOLD SETUP/SPARGE RATES
+
+
+     Two issues for the collective to help make jump to all-grain:
+     
+     1) I am looking for help to design a slotted PVC manifold for a Gott 
+     type mash/lauter system.  For those who have had success, what type of 
+     geometric design are you using?  What are you using to cut the slots 
+     (is a hacksaw OK ?) Where are the slots cut (top/bottom/sides), how 
+     deep are they and how far apart are they spaced?
+     
+     2) Does sparging seem to follow the 80/20 rule? That is, are 80% of 
+     sugars removed by the first 20% of sparge H2O?  I would like to do 
+     partial boils/chills and am willing to use more grain to compensate 
+     for lost sparge efficiency.
+     
+     TIA,
+     
+     Glen Baldridge     
+
+
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 95 18:03:56 EDT
+From: membrino%foghorn`at`nadc.nadc.navy.mil (Tim Membrino)
+Subject: flat beer
+
+
+
+
+I recently brewed an extract Porter recipe with specialty grains
+suggested by my local homebrew store owner.  I had an O.G. of 1.047
+and after about a 12 days got a stable F.G. of 1.006.  I bottled
+with the standard 3/4 cup of corn sugar (this was a 5 gal. batch)
+and waited patiently for 2 weeks.
+
+
+I tasted the first bottles 16 days after bottling and found to my
+disappointment that the beer is VERY flat.  NO head.  Only a small
+amount of "fizzy-noise" on opening.  Obviously I didn't get the
+carbonation I wanted.  The beer tastes great...just flat.  My thoughts
+are that the excessive heat retarded conditioning in the bottles.
+I am an apartment dweller and thus cannot store my brew in a nice
+cool place other than the closet.  The apt. has easily gotten over
+90 during this heat wave (no air conditioning).
+
+
+The helpful homebrew store owner said the F.G. was pretty low and that
+the typical 3/4 cup of corn sugar may not have been enough for good
+carbonation.
+
+
+I'm VERY new to homebrewing and this is my first Porter.  I'm trying
+to learn from my mistakes and was curious if anyone had other suggestions
+or similar experiences as to the cause.  Any solutions?  (at least the
+beer tastes good!)
+
+
+Thanks,
+
+
+Tim Membrino
+membrino`at`nadc.nadc.navy.mil
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 22:19:12 GMT
+From: Chris Shenton <cshenton`at`apollo.hq.nasa.gov>
+Subject: Wyeast Belgian Wit yeast -- tart? 
+
+
+Made up a 10gal batch of back-o-the-envelope Wit a couple weeks ago:
+10# pale ale malt, 10# wheat malt (yeah, malted), a little oats, some
+cardomom, some orange peel...  Had to do decoction cuz the strike
+temp was too low, and I was using a picnic cooler with slotted pipe
+manifold.
+
+
+Pitched with Wyeast Belgian Wit, which I haven't used before.
+
+
+It started fermenting beautifully, then slowed down a week later, so I
+secondaried; gravity was rather high still. A couple days later, it
+started fermenting again, with ugly, big, slimy-looking bubbles. Uh,
+oh -- major contamination! (Haven't had that since my second batch!)-:
+
+
+Let it ferment another week anyway, and threw in kegs with some boiled
+dry malt extract for priming.  Tasted rather tart. Not sure, but it
+reminds me of a lighter cousin of Goudenband. Might this be OK, and
+appropriate for the yeast?
+
+
+Question is: is the Belgian Wit yeast a two-strain beast, and is it
+supposed to give that tartness a la Goudenband? or Rodenbach (which
+would be a real win :-)
+
+
+Thanks.
+
+
+------------------------------
+
+
+Date: Thu, 27 Jul 1995 20:28:16 -0600
+From: flemingk`at`usa.net (Kirk R Fleming)
+Subject: Stainless vs Aluminum/Sight Glasses
+
+
+RE: #1792
+
+
+BixMeister asked about sight glass construction:
+- ------------------------------------------------
+
+
+Our kettle has a 1/2" NPT brass nipple threaded into the SS coupling
+which is welded thru the keg just above the bottom chine.  I drilled
+and tapped a hole into the nipple parallel to the axis of the keg, to
+accept a 1/8" NPT hose barb fitting.  I then used an 18" section of
+polyethylene icemaker supply line as the sight glass.  This tubing is
+fitted onto the hose barb.
+
+
+I used a 1/2" dia aluminum tube 18" long as a support sleeve over the
+polyethylene tubing.  The front-facing half of the tube is removed
+from 3" from the bottom to within 2" of the top of the aluminum tube,
+and the sleeve is simple slipped down over the polyehthylene.
+
+
+The polyethylene tubing is about 3/8" OD, and maybe 1/4" ID.  During
+the boil, air bubbles get into the tube and dork up the reading.  We
+have to shut down the burner for a few seconds, take a reading, then
+re-fire up the burner.  Also, polyethylene is not recommended for use
+with barbed fittings due to stress-induced cracking with such joints.
+We haven't had a problem, yet.
+
+
+Also, since the polyethylene tube is an opaque white it is troublesome
+to get a good reading with a pale wort.  I'll try to find a genuine
+glass sight glass of about 1/2" diameter next time, and I recommend if
+you have disposable cash that's the way to go.  I understand the 
+McMaster-Carr catalog has sight glasses listed.
+
+
+Jack Dickerson (DICKERSON`at`ECC7.ATENG.AZ.HONEYWELL.COM) asked:
+- -------------------------------------------------------------
+
+
+> I recently acquired a half-barrel keg that has handles on top but does
+> not appear to be stainless steel.  I think it is a Coors keg.
+
+
+> Does anyone have an idea what I have?
+
+
+The difference between stainless and aluminum is very apparent: stainless
+is a silvery-steel having a color identical to tableware (silverware).
+Aluminum is a whitish material.  All Coors kegs I have seen are stainless,
+and are stamped "Coors".
+
+
+Another way to distinguish aluminum from stainless is to look at the welds:
+aluminum welds are about 1/4" to 5/16" wide with a noticeable rounded rise
+above the adjacent material.  Stainless welds are closer to 1/8" to 3/16"
+wide and more or less flush with the adjacent material.  Any signs of bluish
+discoloration in the area of the weld joints indicates stainless...
+aluminum weld joints have no discoloration relative to the adjacent material.  
+Stainless "rings" when hit--aluminum sounds much more highly damped.
+Finally, attempt to scrape the surface of the keg with a sharp utility blade
+(hold the blade perpendicular to the line of motion).  If the blade simply
+slides across the keg even under extreme pressure, it's stainless. If the
+blade curls up a sliver of material, it's probably aluminum.  Compare the
+color of a RevereWare saucepan with a pie-tin.  RevereWare is stainless,
+pie-tins are generally aluminum.
+
+
+As far as the claim the inside "must be" stainless, the answer is no. To
+my knowledge there are no multi-material kegs (other than the Sanke's
+with plastic covered ends).  With this exception noted, stainless kegs
+are all-stainless, aluminum kegs are all-aluminum.  
+
+
+DISCLAIMER: I have not personally seen every keg produced by every keg
+manufacturer.  However, I'm VERY confident there are no aluminum kegs
+lined with stainless.
+
+
+
+
+KRF Colorado Springs
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 95 16:43:00 PDT
+From: Daniel Richardson <DJR`at`wapet.com.au>
+Subject: Brewing in plastic containers
+
+
+
+
+I used to brew in 1.25 and 1.5 litre plastic containers (cool drink type). 
+ I found that after long periods in storage, (more than 12 months) that the 
+beer lost its carbonation and was wasted.  I no longer brew in these 
+containers!.  One advantage, however was that by placing the containers in 
+the freezer for about 1/2 hour that the sediment froze in the bottom of the 
+bottle.
+
+
+Dan Richardson
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 11:29:05 +0000
+From: Brian Gowland <B.Gowland`at`rhbnc.ac.uk>
+Subject:  Re: Wheeler Real Ale Books
+
+
+In HBD 1793, jay_weissler`at`il.us.swissbank.com (Jay Weissler) wrote:
+
+
+> I'm thinking of mail ordering one of the Wheeler real ale books.
+> The question is which one. How do they differ? [Rest cut]
+
+
+        "Home Brewing - The CAMRA Guide" by Graham Wheeler is very
+much a "process" book but has a reasonable selection of ale recipes.
+The book describes UK commercial practices (traditional and modern)
+and GW translates these into the home environment. It is aimed
+specifically at the UK market and covers kit, extract, partial &
+full mash methods. Its not perfect but its considered by many UK
+homebrewers to be about the best native UK book on the subject. If
+you're familiar with traditional UK methods (such as single temp.
+infusion mashing & cask conditioning) then much of the information
+may not be necessary but if you want further insight into how Real
+Ale should be made then its worth getting. There's also a section
+on the history of various ale styles.
+        "Brew Your Own Real Ale At Home" by Graham Wheeler & Roger
+Protz is much more of a recipe book although it contains enough
+information (abridged from the other book) to get a novice started.
+There's over 100 recipes (created by GW) based on commercial British
+ales - each has tasting notes by RP). I've brewed a number of the
+recipes and, being lucky enough to get hold of the real thing easily,
+will say that all were very close to the originals (some are near
+perfect IMO).
+
+
+> ...if you need his process to make the recipes work, then I would be
+> more interested in that.
+
+
+        To a certain extent you DO need to follow his processes to
+make the recipes work. GW instructs the reader in methods that are
+as close to commercial UK brewing practices as is possible in the
+home environment. If you want to emulate Real Ale then you should
+use accepted methods in common with commercial UK breweries now and
+in the past. In saying that, however, the processes he describes
+aren't necessarily that much different from what many people on this
+list seem to use (for ale making at least). Even UK homebrewers who
+consider his books to be their brewing "bibles" interpret his instructions
+to suit their own circumstances.
+
+
+Cheers,
+        Brian
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 95 09:27:05 -0400
+From: joep`at`informix.com (Brandon's Daddy)
+Subject: RJ Riptides in San Diego (HBD #1793)
+
+
+Michael,
+
+
+>>>>> Michael D Fairbrother writes:
+
+
+ Michael> While in San Diego, I had some honey ale at RJ Riptides, it
+ Michael> was quite good.  Being new to the brewing process I was
+ Michael> wondering how they got the honey flavor to be so pronounced.
+ Michael> I suspect that they might of used some sort of yeast that dies
+ Michael> off early.  The one attempt that I tried ended up making a
+ Michael> beer with quite the punch, all the honey fermented.
+
+
+ Michael> Any way if anyone knows the scoop, I would love to try and
+ Michael> recreate that beer.
+
+
+While I can't comment on how to make that exact brew, I did make a honey
+ale with a pronounced honey flavor and aroma.  It was an extract with 3
+lbs of Palmetto Blossom honey (a strong-ish honey) and 4 lbs Alexander's
+Pale, an Alexander's Pale kicker (1.4 lbs).  I used 12 oz of Crystal 20
+and 8 oz of Cara-Pils.  Hops:  8.0%AA Pride of Ringwood (1 oz for 60
+min, 1 oz for 30 min); 5.2%AA Liberty (2 oz steeped for 5 minutes).
+
+
+Came out great!!
+
+
+joe.
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+Joe Pearl                              Sr. Sales Engineer
+Informix Software                      Direct Voice:  813-615-0616
+8675 Hidden River Parkway              Fax:           813-615-0638
+Tampa, FL  33637                       Email:    joep`at`informix.com
+(NeXTMail welcome)
+
+
+Non illegimati carborundum!
+
+
+PGP'd email preferred - for key: send me email w/subject "send me pgp key"
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 10:18:41 -0400
+From: Allen Born <BornA`at`USA.RED-CROSS.ORG>
+Subject:  Suds for Windows
+
+
+I'm having problems with Suds 4.0 for Windows, which I
+downloaded  from "The Brewery" which I accessed through
+Spencer's Beer Page.  When I try to run the program my
+screen goes blank, something flashes up that appears to say
+"Header C Error" and then my screen returns to my regular
+windows screen.  Has anyone had a similar problem with this
+program?  Can anyone point me to a copy of the program that
+works.  Could be that I'm doing something wrong but I just
+don't know.  TIA,  Allen.
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 95 08:14:25 PDT
+From: hollen`at`megatek.com (Dion Hollenbeck)
+Subject: Re: Oxygen tanks
+
+
+>>>>> "Jim" == Jim Busch <busch`at`eosdev2.gsfc.nasa.gov> writes:
+
+
+Jim> While I agree that O2 under pressure is sanitary, the fact that I
+Jim> use welding gas could lead to some residule oils/particulate
+Jim> matter.
+
+
+I have to disagree with this statement about residual oils.  One of
+the "prime directives" about welding is that you never, never, never
+use any oil near or in an oxygen regulator.  This is causing a
+disaster waiting to happen, putting something flammable in the
+presence of pure oxygen.  Since this is true, I would assume that gas
+supply companies go to extreme lengths to make sure that there is no
+oil in their oxygen.  That would be a lawsuit waiting to happen to
+them if they had any residual oils.  While I do not know this for a
+fact, it is highly unlikely that what you say is true.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)675-4000x2814     Email: hollen`at`megatek.com
+Staff Software Engineer     Megatek Corporation, San Diego, California
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I AM MOVING!!!!!
+
+
+AFTER August 4th please use:  hollen`at`vigra.com
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+------------------------------
+
+
+Date: 28 Jul 95 11:16:00 EDT
+From: "William D. Knudson" <71764.203`at`compuserve.com>
+Subject: Gambinus/Weihenstephen 34/70 - Lagers and esthers
+
+
+Ditto on Norm's comment regarding Gambrinus (Baltimore Brewing's Maerzen).
+
+
+Per Dan Gordon of Gordon Biersch, Gambrinus is headed by a Weihenstephan
+graduate.  The maltster employs a floor malting technique.  Here in Colorado, I
+understand that many Micros have switched to this as a base malt: lagers and
+ales!
+This is the base malt for the Gordon Biersch.
+
+
+I have a question about Rob Reed's yeast comment:
+
+
+>...perhaps he was think about Wyeast 2124 Bohemian lager (Weihenstephen >34/70)
+strain?
+
+
+I consulted the table in the Zymurgy Summer 1994 issue page 50.  It states that
+the Wyeast California Lager 2112 is the 34/70 rather than the Bohemian.  Anyone
+have any more on this?
+
+
+Oops, on second look the desciption for Wyeast Danish (just above "California")
+says "Warm fermenting bottom cropping strain, ferments well to 62 degrees F..."
+
+
+It looks like most of the descriptions in that table are off one line.
+
+
+I do have a lager question.  When I brew lagers, I (immersion) chill to ~70
+degrees, aeriate and pitch the starter.  I then take the carboy to the
+controlled fridge chill to 48 degrees.  Lag times are less than 24 hours.  I
+have experienced some unwanted floral (estery ?) characters in the finished
+beer.    The first bubbles never occur at temperatures greater than 52 degrees.
+In particular I've observed this using Wyeast Bavarian #2206. Temperature
+readings are per a Fermometer on the carboy.
+
+
+Are esters formed in the lag period?  Should I delay pitching for the several
+hours until desired ferment temperatures are achieved? (talk about worrying!)
+
+
+Bill 
+
+
+"Ich kann besser Deutsch sprechen, wenn ich etwas Bier getrunken habe."
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 08:37:20 -0700
+From: "Mark W. Wilson" <mwilson`at`ichips.intel.com>
+Subject: Partial Mash questions
+
+
+  Just tried my first partial mash, from the recepie in Miller, "Northern
+Brown Ale".  I didn't have any iodine, and the pH papers that I bought in a
+pinch seem to be less than accurate; they never really settled on a
+particular color.
+  Mashed 2 lbs. English 2-row with 1/2 lb. crystal and a tad of chocolate.
+Since the pH "seemed" to be normal, I did not treat the mash water, and it
+appeared to have normal pH(5.3).  On a whim I treated my 2 gal. of sparge
+water with 1 tsp. gypsum.  One step mash stove-top mash at 154-145F.
+  Sparging seemed to be really slow at first (I used a colander) but as I
+added the treated sparge water the flow rate increased fairly rapidly.  I
+got really scared when I took the gravity before boiling: 1.010!  (It was
+1.000 before it cooled to room temperature!!)
+  After boiling with 1 can malt extract and 1 lb. brown sugar, I topped of
+to five gallons.  A very trub-laden OG sample was 1.060! (Miller says it
+should be 1.048.)
+  Should I be panicking, relaxing, or just ready for some watery beer?
+
+
+- --Mark
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 95 9:09:01 PDT
+From: kdschida`at`vines.dsd.litton.com
+Subject: Shelf life of bottled beer
+
+
+Hello all:
+
+
+I was once told about a year ago or so (by whom, I can't remember) that
+our homebrew should not spend more than 5-6 months in the bottle, or the
+flavor will start deteriorating.  However, I've been noticing in several
+messages on HBD (I've been lurking here about a month now) that people
+are commenting how thier beer has improved even past a year.  Can it
+really not only stay good, but actually improve with age up to and past
+this time frame?  If so, I've got a couple questions:
+
+
+        1)        Is some kind of additive/preservative (HISS) used to make it
+                last this long?  (Or am I just naive and believed this person
+                at face value - without questioning.)
+
+
+        2)        How are you guys/ladies able to keep your beer that long before
+                drinking it all (unless of course you make 10 - 20 gallons at 
+                a time).  Although I've just recently gotten into all-graining, I'm
+                still only making 5 gal. batches.
+
+
+BTW, does anybody have a *GOOD* Christmas/Holiday beer recipe.
+Made a Holiday Ale last year from a kit and just tasted like ordinary
+beer; not very exciting when I was expecting something quite special.
+
+
+TIA,
+
+
+Kurt Dschida
+kdschida`at`vines.dsd.litton.com
+or  Compuserve: 76132,733
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 12:20:07 -0400 (EDT)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: More O2
+
+
+Dion says:
+
+
+<I have to disagree with this statement about residual oils.  One of
+<the "prime directives" about welding is that you never, never, never
+<use any oil near or in an oxygen regulator.
+
+
+This makes perfect sense and I was passing along misinformed second
+hand info.  The part about particulate matter is still an issue but
+I can see the problem of oils and O2!  Anyway, the point is that
+use a filter if it moves you but It probably wont matter.
+
+
+Jim Busch
+
+
+"DE HOPPEDUIVEL DRINKT MET ZWIER 'T GEZONDE BLOND HOPPEBIER!"
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 95 09:20:16 PDT
+From: hollen`at`megatek.com (Dion Hollenbeck)
+Subject: Re: More O2
+
+
+>>>>> "Jim" == Jim Busch <busch`at`eosdev2.gsfc.nasa.gov> writes:
+
+
+Jim> Dion says:
+Jim> <I have to disagree with this statement about residual oils.  One of
+Jim> <the "prime directives" about welding is that you never, never, never
+Jim> <use any oil near or in an oxygen regulator.
+
+
+Jim> This makes perfect sense and I was passing along misinformed second
+Jim> hand info.  The part about particulate matter is still an issue but
+Jim> I can see the problem of oils and O2!  Anyway, the point is that
+Jim> use a filter if it moves you but It probably wont matter.
+
+
+
+
+Agreed.
+
+
+dion
+
+
+- -- 
+Dion Hollenbeck (619)675-4000x2814     Email: hollen`at`megatek.com
+Staff Software Engineer     Megatek Corporation, San Diego, California
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I AM MOVING!!!!!
+
+
+AFTER August 4th please use:  hollen`at`vigra.com
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 95 11:28:54 -0600
+From: LEE_BOLLARD`at`HP-Spokane-om2.om.hp.com
+Subject: Aeration & Foaming
+
+
+Item Subject: Aeration and foaming
+     
+     
+     I recently acquired an aquarium pump aeration system (from Brewer's 
+     Resource) and wanted to query those of you using such a system as to 
+     how you handle the "foaming" problem.
+     
+     The instructions included with the aeration system say that "foaming 
+     will usually not be a problem".  For me, foaming has been a consistent 
+     problem.  
+     
+     Even with 400% head space I have foaming problems in 2L starter 
+     flasks.  When siphoning boiled/cooled wort from kettle to carboy I 
+     held back about 1.5 gallons for "foam space".  Even so, I could only 
+     run the aeration pump for a couple minutes at a time before the foam 
+     expanded to the carboy neck. While the pump was off the foam subsided 
+     *very* slowly.
+     
+     On the other hand, could you just let the foam exit out the top of the 
+     carboy while you keep the pump running?  Is this good or bad?
+     
+     Do any of you "aerators" have any tricks to share that make the 
+     aeration-pump process easier?
+     
+     Lee Bollard
+     bollard`at`spk.hp.com
+     
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 13:51:52 -0400 (EDT)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: Gambrinus and clusters
+
+
+Norm says:
+
+
+<I'd be surprised if they get away with using Clusters in this beer, 
+<but I've seen much stranger.
+
+
+Why?  Whats so strange about using a mid-high alpha hop in a 
+recipe that only needs ~20 BUs from the kettle hops.  Flavor 
+problems here?
+
+
+<Secondly, I wouldn't call the Gambrinus malt "American 2-row"; that 
+<is misleading.
+
+
+The original post clearly indicated North American 2 row, and 
+Canada is most certainly a huge part of North America.
+
+
+<The owner of Gambrinus, can't recall his name just now, is a Weinstephan
+<graduate who markets his grain as a reasonable substitute, or maybe a better
+<choice, for German grains.
+
+
+Thats Weihenstephan, and he's a Diplom Braumeister. 
+
+
+"Better" than German??!  Are you going to tell me this is better than
+Wyermann or Durst malts. In what way, higher Kolbach index!!?  Higher
+cost per container load than Wyermann (a Bamberg malting house)?
+
+
+Please correct my misunderstanding, I need to know the truth from one
+who consistently "out brews the professionals".
+
+
+Jim Busch
+busch`at`mews.gsfc.nasa.gov
+
+
+"DE HOPPEDUIVEL DRINKT MET ZWIER 'T GEZONDE BLOND HOPPEBIER!"
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 11:00:54 -0700 (PDT)
+From: Jeremy Ballard Bergsman <jeremybb`at`leland.Stanford.EDU>
+Subject: Mashing rice
+
+
+Here is what I know about mashing rice:
+The rice is combined with about 10% of the barley malt that will be used.
+Water is added and this is brought up to amylase temps (~150F).  This is
+held only briefly, after which this mixture is brought to a boil.  This
+is then added to the main mash, I believe it is used to facilitate the
+transition of the main mash to amylase temps.
+
+
+I don't know how or if the rice is ground.  I assume water treatment is
+the same, although I would assume that the rice has less ability to
+lower pH than malt, so you might need more acid and less calcium, YMMV.
+
+
+Jeremy Bergsman
+jeremybb`at`leland.stanford.edu
+http://www-leland.stanford.edu/~jeremybb/beerstuff/beerpage.html
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 14:42:59 -0500
+From: gstep`at`interaccess.com (Glen J. Stephan) (by way of rlarsen`at`squeaky.free.org (Rich Larsen))
+Subject: Re: Booze in Space
+
+
+From: sci.faux.news
+Date: July 21, 1995
+To: mailroom`at`net.net
+Subject: Cloudy Thinking
+
+
+
+
+Scientists studying G34.3, a recently discovered massive cloud of alcohol
+approximately 10Kly (~580 trillion miles) distant in the direction of
+Aquilla, have announced new findings in the August publication of The
+Australian Astronomer.
+
+
+Dr. Yangzee Wong, of the University of Adelaide in Melbourne, states that
+contrary to initial beliefs, G34.3 is not flat.
+
+
+In fact, states Wong, high resolution optical observations made by the HST,
+in conjunction with infrared recordings from the IRAS (InfraRed Astronomy
+Satelite) indicate a second, but apparently attached component to the cloud.
+
+
+These observations confirm that the main component of G34.3 consists of
+mostly ethyl alchohol with a few "jets", or streams of "bubbles" imbedded
+within.  These streams appear to consist of simple carbon dioxide gas
+molecules, discount early prepots that the cloud was flat.
+
+
+Additionally, a new, second component has been found apparently on top of
+the first.  This new component seems to consist of a carbon dioxide gas
+"froth", bound together by a thin, web-like network of as-yet unidentified
+organic materials.  This second component is visible in the optical spectrum
+at the faint magnitude 16, and is variably reported to have a light-brown to
+light-tan to off-white color.
+
+
+When asked to comment on this new discovery, Dr. Wong simply said, "G34.3
+appears to have a head on it!"
+
+
+
+
+
+
+
+
+__________________________________________________________________________
+
+
+Glen J. Stephan                                      gstep`at`interaccess.com
+Co-Founder,                        
+Arachnid World Wide       http://www.interaccess.com/users/gstep/arachnid/
+__________________________________________________________________________
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: 28 Jul 95 18:32:24 EDT
+From: Ray Daniels <71261.705`at`compuserve.com>
+Subject: Wheeler Brewing Books
+
+
+Jay Weissler (jay_weissler`at`il.us.swissbank.com) writes:  I'm thinking of mail
+ordering one of the Wheeler real ale books. The question is which one. How do
+they differ?
+
+
+I have both books and would strongly recommend that you get the "Real Ale" title
+("Brew Your Own Real Ale at Home").  This is co-authored with Roger Protz.  It
+spends only about 50 pages on brewing process and then lists more than 100 pages
+of recipes.  All the recipes are based upon the actual recipes for brand-name
+English ales including bitters, pales, milds, porters, stouts, old ales and
+barley wines.
+
+
+The earlier Wheeler book ("Home Brewing: The CAMRA Guide") is much more focused
+on process, has fewer recipes and gives fewer details for each recipe.
+
+
+By the way, most of the "Real Ale" recipes are all grain.  Also, they call for
+English hop varieties, which in addition to Goldings and Fuggles, include things
+like Challenger, Northdown and Progress.
+
+
+I think "Real Ale" is a great book.  I hope you'll enjoy it too.
+
+
+
+
+Regards,
+
+
+
+
+
+
+Ray Daniels
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 29 Jul 95 08:57:57 +1000
+From: CHARLIE SCANDRETT <merino`at`ozemail.com.au>
+Subject: False Bottoms
+
+
+Alfa Laval, the Swedish mega brewery makers, published a guide to brewery 
+processes and equipment in which they were kind enough to describe their false 
+bottoms. (Lauter Tun plates)
+
+
+   " The false bottom in the lauter tub consists of sections joined together by 
+locks to prevent gaps between the sections.    Modern lauter tuns have a 
+diameter of approximatly 8 metres. (wow!) The perforations are either circular, 
+with a diameter of    0.8 to 1 mm, or slots with a long axis of 20 to 30 mm and 
+a short axis of 0.4 to 0.7 mm. The slots are 10 mm apart in staggered    rows. 
+The plates are 5 mm thick. (bit much for HB, say 2mm) A section with oblong 
+slots is milled 3mm wide and 4mm deep    from the underside to prevent 
+clogging."
+
+
+It seems if you drill holes or mill slots, it is a good idea to drill or mill a 
+wider hole or slot from the back until about 1mm thickness of the narrow 
+opening remains. This apparently prevents clogging. I'm making one this week, 
+slot type, I'll report.
+
+
+Thanks Alfa Laval !
+
+
+Charlie     (merino`at`ozemail.com.au)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 20:04:01 -0400
+From: GubGuy`at`aol.com
+Subject: Help with keg conversions
+
+
+Greetings all!
+
+
+     After a forced 6 month or so hiatus from brewing (new house, work
+associated with a new house, etc.), I am ready to once again brew beer.  I
+mentioned this to a friend of mine, saying that I would like to improve my
+brewing setup and go to a larger, keg type arrangement.  Upon hearing this,
+he offered to give me 2 kegs he has had in his basement for many years
+(leftovers from college days), stating that he would be glad to give them a
+good home, and that also he had been wanting to get rid of them for some
+time.  So I am now the prod owner of 2 kegs in need of conversion.  I know
+really very little about this; I couldn't find a FAQ on it anywhere and my
+own experience with them is a big goose egg.  I can get the top sawed off
+(friend with major tool collection), but several questions come to mind.
+ These presumeably have VERY old beer left in them.  Would this be any cause
+for concern?  Or should I just hold my breath during the cleaning and sanitze
+like mad?  Having never actually seen on of these setups in person, I have to
+speculate on a few things (disadvantage of living in The Beer Wastelands).
+ Can valves be added without welding?  Addresses for any place that supplies
+parts for this kind of endeavor?  I'm going to the local brew store this
+weekend (local being 175 miles away), and maybe they can answer some of these
+questions, but I know there are a lot of people out there who can steer me
+the right way and probably save me a lot of money in the process.  Any help
+in this matter would be appreciated; I'll happily toast eveyone who responds
+with the first batch out of my new brewery.
+
+
+     As far as propane burners go, I searched everywhere locally and could
+not find  a decent deal; most places wanted ~$65  for a 30 to 100K BTU
+burner.  The best deal I found was in a Cabela's catalog, where they had a
+single burner, listed as 136K BTU, for $49.99.  I thought it was a pretty
+good deal, but when I called, the lady taking my order said that it was
+misprinted, and that it was actually a 175K BTU burner, which was even
+better.  So even with S&H, the thing only cost me $56 and some change.  This
+is NOT a plug for Cabela's; I haven't even got the thing yet, so I can't even
+claim to be a satisfied customer.  But the price was the best I could find in
+my neck of the woods, FWIW.  
+
+
+     TIA to anyone who can help with my troubles (if only all our problems
+could be so terrible).
+
+
+"Aye, aye, Bessy, never brew wi' bad malt upo' Michaelmas day, else you'll
+have a poor tap."
+     -Mr. Tulliver                             From "The Mill on the Floss"
+                                                                by George
+Eliot
+
+
+GubGuy`at`aol.com
+
+
+ -Ray Ownby-
+  Moses Lake, WA
+                    
+
+
+
+
+------------------------------
+
+
+Date: Fri, 28 Jul 1995 18:23:28 -0700
+From: Bart Thielges <bart.thielges`at`Xilinx.COM>
+Subject: basmati rice / ftp server
+
+
+> From: Saylor1/Apple`at`eworld.com
+
+
+> A few days back I posted a request for information regarding the proper
+> method of preparation of rice for the mash......
+
+
+I was one of the people who replied to you directly and said that I was
+planning to do the same thing.  I've been "lurking" here and not asking
+the question directly because I wanted to scan the archives before 
+adding to the HBD traffic.
+
+
+HOWEVER - the ftp server mentioned in the HBD header no longer seems to work.
+(ftpmail`at`gatekeeper.dec.com).  Does anyone know of an alternate ftpmail
+service ?  I'd like to scan the archives for further info, but I have no
+direct ftp access and must rely on e-mail servers.
+
+
+RUMOR : the aroma from basmati rice is due to added jasmine, not a 
+characteristic of the rice.  I've asked three Indian born people so
+far and the results are 2 to 1 that this rumor is incorrect.  In other
+words it seems that the flavor is from the rice itself, not an additive.
+
+
+Lookin forward to some basmati pale . . . Yum !
+
+
+Bart
+thielges`at`xilinx.com
+
+
+Brewing equipment destroyed since last post - 1 popett.
+
+
+------------------------------
+
+
+Date: Sat, 29 Jul 95 12:14:19 +1000
+From: CHARLIE SCANDRETT <merino`at`ozemail.com.au>
+Subject: Thermodynamic Sulphur Chillout (Part 1)
+
+
+This is # 1 of 2 parts about chilling and why.
+
+
+* Norman Pyle in HBD 1778 started a thread on "chillers" that I sympathize 
+with. The thermodynamic terminology of homebrewers is esoteric and  serves 
+little technical purpose.
+* Robert Brown in HBD 1780 attempts to coin an awesome nomenclature.
+* Lee Allison in HBD 1780 wants to build a plate exchanger, I have a simple 
+design.
+* Tom Williams (refreshingly) identifies "chillers" as heat exchangers and 
+introduces the correct technical description but wants to know why?
+
+
+I left the Physics department for Literature 20 years ago, confident that the 
+mysteries of thermodynamics would never torment me again. Alas, now I must dip 
+my big toe in it again.
+
+
+As I said in a previous post, I am constructing a 70 litre test model of a full 
+mini-brewery for assembly in central Russia. To this end I have been pestering 
+engineers, beer in hand.
+
+
+FAQ: Why chill quickly?
+ I see two main reasons
+  1/ To get from
+>>> the Sterile Boiling Phase  
+ >>> through the Warm Bacteria-Motel Phase 
+ >>> to the Vigorously Fermenting-Protected by Krausen Foam or Airlock Phase
+ without unwanted guests (bacteria), so time is important.
+
+
+  2/ Control of Sulphur flavours. 
+The Di-Methyl Sulphide (DMS) flavour threshold in beer is about 30 micro 
+grams/litre. DMS is produced from the malt's natural content of  S-Methyl 
+Methionine (SMM) and at temperatures greater than 70 C. In "Principals of 
+Brewing Science", p 142, Professor George Fix describes the math of this. 
+Apparently in the boil all DMS gets carried away with the exiting gases. But 
+between boil and fermentation temperature the residual heat continues the 
+reaction SMM>>>DMS with the DMS remaining in solution. Thus if cooling is 
+prolonged, a pronounced sulphur taste enters the flavour profile.
+
+
+FAQ- How quickly to chill?
+
+
+The DMS flavour appears subjective, some like it in the tertiary flavour range 
+of about half the flavour threshold of 30 micro grams/litre( ie nothing). Most 
+beer seems to be in the  secondary range of 20 to 60 micro grams. Some profiles 
+have a higher concentration. How to control it?
+
+
+In  Mr. George Fix's example, he ignores the Mash and Sparge stages, in which 
+the temperature does approach and exeed 70 C. Ignoring this should result in 
+less DMS in Wort solution than his model suggests. However he includes cooling 
+phase temperatures well below 70 C in his calculations, doing this overstates 
+the DMS in solution!? I will use George's model as is, and assume the two 
+variables would cancel out. It is just a guide anyway.
+
+
+Basically, some of the SMM converts to DMS in the boil and is carried away. 
+Part of *what is left* is converted to DMS in solution, about 25% of which is 
+then broken down in fermentation provided no DMS producing bugs are present.. 
+So the final Sulphur flavour is determined by
+a/ the SMM fraction /gram of your malt
+b/ the grams of malt/litre wort 
+c/ the boil time
+d/the cooling time
+e/ bacteria free fermentation
+
+
+Using Georgie's examples I have created two tables, the first to calculate the 
+concentration of SMM/litre Wort, and the second to calculate the % of this left 
+as DMS in solution  *after* fermentation
+
+
+                              MICRO GRAMS of SMM/ LITRE WORT BEFORE BOIL
+        * Grain Bill/Vol*            * Micro Grams SMM/Gram of Malt  (from your 
+maltster or guess 6)*
+Grams/Litre        Lbs/Gal            3         4         5         6         7 
+        8         9
+   150                     1.125          450     600      750     900    1050  
+ 1200   1350
+   200                     1.5              600     800     1000   1200   1400  
+ 1600   1800
+   300                     2.25            900     1200   1500   1800   2100   
+2400   2700
+   400                     3                1200    1600   2000   2400   2800   
+3200   3600
+   500                     3.75           1500    2000   2500   3000   3500   
+4000   4500
+
+
+This gives the initial concentration of SMM/litre  in your Mash
+
+
+                       PERCENTAGE OF INITIAL SMM LEFT AS DMS AFTER FERMENTATION
+                                              *Chilling Time*  (100 C >> 20 C)
+                                 5          10          15          20         
+30        60    Minutes
+               120           .5%        .9%      1.3%       1.7%      2.4%    
+4.2&
+*Boil        105           .6%        1.2%    1.7%       2.2%      3.1%    5.5%
+Time*       90            .8%        1.5%    2.2%       2.8%      4.1%    7.1%
+                75             1%        1.9%    2.8%       3.7%      5.3%    
+9.2%
+
+
+Example:  We have a 6 micro gram/gram SMM content malt, and a grain bill of 
+2.25 lbs/gal. We decide to boil for 90 minutes and our Supercyberchiller does 
+the trick in 10 minutes.
+
+
+                               DMS = 1800 x 1.5%= 27 micrograms/litre (Below 
+the flavour threshold of 30, in lower secondary range)
+
+
+If we cool for 15 minutes
+                               DMS= 1800 x 2.2% =40 micrograms/litre ( A slight 
+malt/sulphur tone-quite agreeable) 
+
+
+Now we try some high SMM malt at 8 /gram and a high SG brew using 3lb/gal, a 
+short boil of 75 minutes and a bathtub chiller which takes 30 minutes.
+                               DMS= 3200 x 5.3%=170 micrograms/litre (This 
+would clear your sinuses!!)
+
+
+I am not confident of these figures, could they be checked by Fixey or someone 
+more familiar with the labyrinths of chemistry? I will repost new tables if 
+corrected.
+
+
+Next: (Part 2) Heat Exchangers
+
+
+Charlie         (merino`at`ozemail.com.au)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #1794, 07/29/95
+*************************************
+-------

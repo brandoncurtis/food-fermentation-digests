@@ -1,0 +1,1456 @@
+﻿Received: from srvr22.engin.umich.edu (root`at`srvr22.engin.umich.edu [141.212.2.35])
+        by srvr5.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA14407;
+        Wed, 24 Mar 1999 01:10:18 -0500 (EST)
+Received: from brew.oeonline.com (IDENT:root`at`brewery.org [206.31.224.50])
+        by srvr22.engin.umich.edu (8.9.1a/8.9.1) with ESMTP id BAA27765;
+        Wed, 24 Mar 1999 01:10:16 -0500 (EST)
+Received: (from root`at`localhost)
+          by brew.oeonline.com (8.8.7/8.8.4)
+          id AAA22246 for realhomebrew; Wed, 24 Mar 1999 00:36:19 -0500
+Date: Wed, 24 Mar 1999 00:36:19 -0500
+Message-Id: <199903240536.AAA22246`at`brew.oeonline.com>
+To: homebrew`at`hbd.org
+From: homebrew-request`at`hbd.org (Request Address Only - No Articles)
+Reply-to: homebrew`at`hbd.org (Posting Address Only - No Requests)
+Errors-to: homebrew-request`at`hbd.org
+Precedence: bulk
+Subject: Homebrew Digest #2986 (March 24, 1999)
+Status:   
+
+
+
+
+
+
+HOMEBREW Digest #2986                             Wed 24 March 1999
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+                Many thanks to the Observer & Eccentric Newspapers of 
+                Livonia, Michigan for sponsoring the Homebrew Digest.
+                                URL: http://www.oeonline.com
+
+
+
+
+Contents:
+  A hack enhancing... (pbabcock)
+  Improved Alcohol Formula (Louis Bonham)
+  Re: no break/mash questions ("Arnold J. Neitzke")
+  Call for Judges -- Midwest 1st Round of the AHA Nationals ("Jim Hodge")
+  Lite Amber, Is it possible ("J. Doug Brown")
+  Re: Problems with the BJCP (RobertJ)
+  Sam Adam's Summer Brew Recipe (TPuskar)
+  re: HALF-Arsed brew shops (and pumps "p.s.") ("Alan McKay")
+  Bottles styles/sizes at competitions (Joel Plutchak)
+  RE: Carboy Cleaning ("King, Owen A")
+  Re: Split session brewing responses (Joel Plutchak)
+  BJCP exams and beer evaluation ("George De Piro")
+  Closed Open Fermenter (John Varady)
+  grain bags and batch sparging ("Czerpak, Pete")
+  all grainers ("Czerpak, Pete")
+  Hot - Cold - Hot - Cold (Shane)
+  Joys of counter-flow chilling ("William W. Macher")
+  open fermentors (jim williams)
+  Mazer Cup: It's Official ("Ken Schramm")
+
+
+
+
+Beer is our obsession and we're late for therapy!
+
+
+Madison Homebrewers and Tasters Guild's 13th annual Big and Huge - 28
+March 1999:  Rules and forms at www.globaldialog.com/madbrewers
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org. 
+**SUBSCRIBE AND UNSUBSCRIBE REQUESTS MUST BE SENT FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, the autoresponder and
+  the SUBSCRIBE/UNSUBSCRIBE commands will fail!
+
+
+Contact brewery`at`hbd.org for information regarding the "Cat's Meow"
+
+
+Back issues are available via:
+
+
+  HTML from...
+        http://hbd.org
+  Anonymous ftp from...
+        ftp://hbd.org/pub/hbd/digests
+        ftp://ftp.stanford.edu/pub/clubs/homebrew/beer
+  AFS users can find it under...
+        /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer
+
+
+COPYRIGHT for the Digest as a collection is currently held by hbd.org 
+  (Pat Babcock and Karl Lutzen). Digests in their entirity CANNOT be 
+  reprinted/reproduced without this entire header section unless 
+  EXPRESS written permission has been obtained from hbd.org. Digests
+  CANNOT be reprinted or reproduced in any format for redistribution
+  unless said redistribution is at absolutely NO COST to the consumer.
+COPYRIGHT for individual posts within each Digest is held by the
+  author. Articles cannot be extracted from the Digest and
+  reprinted/reproduced without the EXPRESS written permission of the 
+  author. The author and HBD must be attributed as author and source in
+  any such reprint/reproduction. (Note: QUOTING of items originally
+  appearing in the Digest in a subsequent Digest is exempt from the
+  above. Home brew clubs NOT associated with organizations having a
+  commercial interest in beer or brewing may republish articles in their
+  newsletters and/or websites provided that the author and HBD are
+  attributed. ASKING first is still a great courtesy...)
+
+
+JANITORS on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Tue, 23 Mar 1999 21:10:13 -0500 (EST)
+From: pbabcock <pbabcock`at`mail.oeonline.com>
+Subject: A hack enhancing...
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Back in December, I made some notes on plans to further automate the
+Automagical Responder. The Eagle has landed (or a Unix-hack version of it
+anyway...).
+
+
+If you are receiving more than one Digest, unsubscribe. The AR can now
+find the mutliples, and kill all but one. It will respond that it has done
+so, and instruct you to send a second unsubscribe if you really DID want
+to unsubscribe altogether.
+
+
+But wait! There's more! If you attmpt to unsubscribe, but your alias is no
+longer the same as that with which you subscribed (or the server cannot
+find your address for any other reason), it will respond with information
+regarding how to rectify the situation. This is, however, a double-edged
+sword: in the past, I would manually hunt up your address, killing any
+logically close match. Now, you will explicitly have to send a note to the
+Janitor if you simply cannot conceive of what your address might have been
+ - ie, if you don't follow the instructions in the note it sends, you may
+never get off the Digest list.
+
+
+Finally, since I am but a mere shadow compared to the powers brandished by
+REAL Unix hacks, keep an eye out for weirdnesses in your address.
+Like, say, you suddenly stop getting the Digest, or, um, something...
+
+
+See ya!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`oeonline.com
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org   
+The Home Brew Page                 http://oeonline.com/~pbabcock/brew.html
+   "Just a cyber-shadow of his former brewing self..."
+
+
+
+
+
+
+------------------------------
+
+
+Date: Mon, 22 Mar 1999 23:50:33 -0600
+From: Louis Bonham <lkbonham`at`hypercon.com>
+Subject: Improved Alcohol Formula
+
+
+Hi folks:
+
+
+I previously posted a formula (based on the Rasmussen regression equasion found
+in DeClerck, combined with Professor Siebert's Zeiss Scale - Refractive Index
+conversion equasion) for calculating alcohol levels given the Specific Gravity
+(SG) and Refractive Index (RI) of a sample:
+
+
+ABV = (1017.5596 - 277.4(SG) + 937.8135 (RI^2) - 805.1228(RI)) x (SG/0.79)
+
+
+While this formula works pretty well (tested on the data in the examples in
+DeClerck and Siebert's article, it consistently gets results within +/- 0.15%ABV
+of the given values), it's not real user friendly because most brewers'
+refractometers are calibrated only in degrees Brix, and thus you have to convert
+your Brix measurements to RI by hand using the tables in the CRC Handbook or
+similar reference works.
+
+
+Fortunately, AJ recently crunched the data from the CRC's Brix-RI table into a
+workable, highly accurate formula:
+
+
+RI = 1.3330 + 0.0014323(Brix) + 0.0000055752(Brix^2)
+
+
+Plugging this value of RI into my modification of DeClerck's equasion (and
+dropping the resulting Brix^4 term [0.0000000292(Brix^4)] as not contributing
+anything that's statistically significant) yields:
+
+
+ABV = (277.8851 - 277.4(SG) + 0.9956(Brix) + 0.00523(Brix^2) + 0.000015(Brix^3))
+x (SG/0.79)
+
+
+(Feel free to check my math and let me know if I goofed.  I checked this against
+the data in DeClerck and Siebert and the results are comparable to those
+generated by the earlier formula, so I think it's OK.)
+
+
+Some tips on using this formula:
+
+
+(1)    Your SG and refractometer measurements must be *very* precise.  If your
+gravity reading is off by 1 SG point, it skews the ABV figure by about 0.35.  If
+your refractometer reading is off by 0.2 Brix, it skews the ABV by about 0.25.
+With care, however, I suspect that most of us can get results within +/-
+0.3%ABV, which is close enough for our purposes.
+
+
+(2)    For this reason, proper use of a narrow range hydrometer to assay gravity
+is a must (unless, of course, you use a pycnometer or digital density meter for
+this purpose).  Calibrate your hydrometer with distilled water, degas beer
+samples completely, clean the hydrometer and jar before use and keep you hands
+off the busines part of the hydrometer thereafter, take accurate temperature
+readings and use the proper temperature correction charts for your hydrometer,
+and if your hydrometer is calibrated in degrees Plato, use the ASBC charts to
+convert those readings to SG -- don't just multiply by 4.
+
+
+(3)    Unless you're using a controlled-temperature refractometer (if you are,
+take your measurements at 20C), calibrate your refractometer with distilled
+water to read 0 Brix at the ambient temperature.  If your refractometer doesn't
+have a calibration / adjustment screw, you'll need to estimate how far above /
+below 0 Brix the distilled water reading is and add/subtract this value from
+your measurements.
+
+
+(4)    While the RI of ethanol is significantly more temperature sensitive than
+water or sugar solutions over the same temperature ranges, in the %ABV and
+ambient temperature ranges typically encountered by brewers the differences are
+small enough as to be, I believe, safely ignored if the refractometer is
+calibrated as described above.  For instance, the RI of a sugar solution of 5
+Brix will read about 0.00050 RI (0.35 Brix) lower at 25C than 20 C.  Pure water
+reads about 0.00051 RI (0.356 Brix) lower, and a 5% EtOH-water solution reads
+about 0.00053 (0.37 Brix) lower.
+
+
+However, at higher EtOH levels (and, of course, at higher ambient temperatures),
+the differences might become significant.   Ergo, for optimal results, try to
+calibrate your refractometer and take your refractometer readings in a place
+where the ambient temperature is fairly close to 20C / 68F, especially of you're
+analyzing a very high alcohol sample like a barley wine.
+
+
+Try this out and let me know how it works for you.
+
+
+LKB
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 06:58:31 -0500 (EST)
+From: "Arnold J. Neitzke" <neitzkea`at`frc.com>
+Subject: Re: no break/mash questions
+
+
+On Mon, 22 Mar 1999, BrewInfo (Al Korzonas) wrote:
+
+
+<SNIP>
+> It's not surprising that you didn't get hot break (and probably got
+> pretty poor cold break too)... too low a pH will decrease break
+> formation.  It becomes a big problem below 4.8 (according to the books)
+> but nothing is a step function in nature (well, maybe the impact of
+> your head on the exhaust hood) so you will begin to get less break
+> well above that 4.8... I would guess 5.2 or so.
+<SNIP>
+
+
+I guess I am confused?  You say "too low a pH will decrease break" then
+say "you will begin to get less break well above that 4.8... I would 
+guess 5.2 or so"?????
+
+
+I brewed a wheat beer this past weekend without doing any addition of
+brewing salts to the mash or checking the PH.  When I started the boil, my
+curiosity got the better of me and I checked the PH in the boiler, it was
+~6.0.
+
+
+Is this bad?  What about the PH of the ferment?  ( no I haven't
+checked, it's that curiosity thing again).
+
+
+_________________________________________________________
+Arnold J. Neitzke     Internet Mail: neitzkea`at`frc.com
+Brighton, Mi          CEO of the NightSky brewing Company
+- ---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 06:32:59 -0600
+From: "Jim Hodge" <jdhodge`at`worldnet.att.net>
+Subject: Call for Judges -- Midwest 1st Round of the AHA Nationals
+
+
+The Chicago Beer Society is hosting the Midwest 1st Round AHA Regional
+Competition once again. Judging will take place on Friday 4/16 and Saturday
+4/17 at Goose Island's Fulton Street Brewery (not the brewpub)in Chicago.
+This has traditionally been a big competition and will require the services
+of many, many judges, stewards, and generic volunteers.  Judges, especially,
+are encouraged to respond early to relieve the stress levels of the
+organizers. All interested parties should e-mail Brad at reegleyj`at`aol.com to
+sign up.
+
+
+Organizers: Brad Reeg, Jim Hodge & Jeff Sparrow
+
+
+Recognizing that judges and stewards who don't live in the Chicago area may
+require some additional incentive, the 1st Round Competition has been
+fortuitously scheduled for the same weekend as the Beer Museum Ale Fest.
+This event, sponsored by Goose Island Beer Company and the Beer Museum, will
+be held at the Goose Island Brewpub on Sunday, April 18th from 1-5pm (Not
+being fools, CBS has decreed that there will be no AHA judging on Sunday).
+
+
+The Beer Museum Ale Fest will feature Cask Conditioned Ales and Chicagoland
+Beer
+history.  Goose Island, Flossmoor Station, Glen Ellyn and Wild Onion from
+Illinois; 3 Floyds from Indiana; New Glarus, Lakefront, Sprecher, and
+Milwaukee Ale House from Wisconsin all have expressed interest in presenting
+cask examples of their products.
+
+
+Phil Pospychala, (from the Monarch Club, BCCA and the Chicago Chapter of the
+ABA) will be gathering Chicagoland Breweriana collectors and collections to
+showcase Chicago's glorious Brewing Past, while you're enjoying the taste of
+the Present!
+Bill Siebel promises a Siebel Institute historical exihibit as well!  Cost
+is $20.
+
+
+A preliminary event is also planned:  A 3+ hour Motor Coach touring
+Chicagoland's Brewing Past, hosted by Phil Pospychala..Departing from Goose
+Island Brewpub at 9 AM, proposed cost is $30.  Interested ? Call Phil (847)
+362-4016.
+
+
+Jim Hodge
+One member of the Co-organizing Triumvirate of the Midwest 1st Round AHA
+Competition
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 13:11:07 +0000
+From: "J. Doug Brown" <jbrown`at`labyrinth.net>
+Subject: Lite Amber, Is it possible
+
+
+I have John Bull Lite (hopped) and Amber (unhopped) malt extracts and
+was wondering if I should try a batch using these two malts together. 
+Has anybody done this and care to share the results?  I have looked in
+various books but have not seen any recipies that use 3.3 pounds of
+each, or any recipe that mixes lite and amber at all.  I would assume
+the beer would turn out OK as a lot of all grain brewers mix dark and
+light grains.
+
+
+On the Backdoor dealings and store front issue, I have a local homebrew
+store that is in the owners house.  This isn't so bad as he has great
+prices, however he also has more than one other job which keeps him away
+from home a great deal.  I like to support the homebrew shop, but it is
+rather inconvenient to set up a time to visit it.  I would rather pay a
+little more for products and be able to see, pick-up and hold them
+rather than just order them online.  The advice I get from the owner has
+really been helpfull, I just wish he could go to full time shop owner,
+or at least regular hours on a somewhat periodic basis.  To a new brewer
+like myself, what I learn at the shop while purchasing ingredients and
+toys for my next batch is almost invaluable.
+
+
+Doug Brown
+jbrown`at`labyrinth.net
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 08:03:30 -0500
+From: RobertJ <pbsys`at`pbsbeer.com>
+Subject: Re: Problems with the BJCP
+
+
+>From: Guy Burgess <orientalwok`at`fuse.com>
+>
+>Ted McIrvine writes:
+>> First off, it is ridiculous that a BJCP exam can use beer brewed by
+>>the
+>> exam evaluator.  Several friends have been roasted >>on the exam for
+spotting defects in beer brewed by the evaluator.
+>>Yes, the beer may be brewed by the exam proctor and
+the examinee's score is compared to the proctor's score of the same beer.
+The proctor, however, does not grade the exam. When I took the exam last
+August, the worst of the four beers was brewed by the proctor
+>and after the exam he enlightened us on why it was so bad. I was
+>"roasted" on a score I assigned to a commercial beer.
+
+
+Several years ago when taking the exam to move up to National, I evaluated
+a beer brewed by the proctor, a bitter. Fortunateley, or unfortunately, I
+had just returned form London 3 weeks prior (had a few bitters). I had
+found many problems with the exam beer. 
+
+
+After the exam we talked with the proctor and several other local judges
+about the bitter. The other judges had also evaluated the exam beers with
+the proctor. There was agreement between the proctor and these judges on
+all but the proctor's bitter. All the local judges, and most exam takers
+agreed with my evaluation. The proctor thought it was a perfect bitter and
+because of his "National" status said the lower ranked judges didn't know a
+good bitter.
+
+
+I, did get the needed score despite this difficulty, but 2 others did not
+pass and, as a result, will not take the test again and still judge as
+novices.
+
+
+While many judges/proctors may do as you say and be fair with their own
+beers (it is difficult in my opinion), others can not be. Perhaps mine was
+the rare the experience. I would also believe that it is easier for the
+proctor to be accurate if the proctor knows he has a bad beer.
+
+
+Bob
+Precision Brewing Systems URL http://www.pbsbeer.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 08:18:36 EST
+From: TPuskar`at`aol.com
+Subject: Sam Adam's Summer Brew Recipe
+
+
+Its time to start thinking about that summer brew again.  Last year I tried to
+emulate Sam's Summer Brew with moderate success.  I would welcome anyone who
+can improve on my recipe and technique.
+
+
+This was a last minute sort of brew so I did an extract and used a dry yeast.
+I'm planning an all grain this year and welcome yeast recommendations.  Here's
+what I did last time:
+
+
+It was a THREE GALLON batch
+
+
+3 lbs M & F liquid malt (55% wheat/45% barley)
+1 lb light DME
+
+
+3 grams Grains of paradise (ground with rolling pin)
+3 grams cardamom (ground with rolling pin)
+
+
+1 oz Hallertau pellets 3.2% alpha at 60 minutes
+1 oz Saaz pellets 3.2% alpha at 15 minutes
+
+
+heated 4 gallon of water on stove to about 150F.  Added extracts and raised to
+boil.  Added Hallertau at start of boil and Saaz and spices after 45 minutes.
+Irish Moss for 15 minutes.  Added zest of one lemon and juice from the lemon
+15 minutes before end of boil.  Cooled in water bath and pitched 14 g of
+Whitbread ale yeast.
+
+
+O. G.  1.052
+
+
+Fermented at cellar temp (68F or so) for a week and racked to secondary (both
+glass)  Fermented another 10 days (business trip!) and bottled after total of
+15 days.  F. G.  1.014
+
+
+For a few weeks after bottling the aroma (translate smell!!!) of the spices
+was overpowering.  It ultimately mellowed and this turned out to be a pretty
+good beer--not quite Sam's, but pretty good all in all.
+
+
+I'd like to improve on it since my son really likes Sam's and I'm trying to
+get him hooked on brewing!
+
+
+All comments welcome.
+
+
+Cheers,
+
+
+Tom Puskar
+Howell, NJ
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 08:15:24 -0600
+From: "Alan McKay" <amckay`at`nortelnetworks.com>
+Subject: re: HALF-Arsed brew shops (and pumps "p.s.")
+
+
+
+
+Hi folks,
+
+
+While we are on the topic (which I haven't really been following), I've got
+a web page
+dedicated to tips on how to tell if a brew shop is a good one.  Mainly for
+newbies.
+But with the current thread, perhaps some of you can Email me with
+suggestions
+for additions to the page.
+
+
+http://www.magma.ca/~bodnsatz/brew/tips/retailer.html
+
+
+cheers,
+ -Alan
+p.s.  Yes, I will be summarizing the pump info.  Meant to do it last weekend
+but
+forgot to forward all the Email from work to home.
+
+
+- --
+Alan McKay
+OS Support                                amckay`at`nortelnetworks.com
+Small Site Integration                613-765-6843 (ESN 395)
+Nortel Networks
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 08:25:14 -0600
+From: plutchak`at`lothlorien.ncsa.uiuc.edu (Joel Plutchak)
+Subject: Bottles styles/sizes at competitions
+
+
+In HBD #2982, It Was Written:
+[Regarding putting strong beers into small bottles...]
+
+
+>OTOH, As far as I read, only traditional 12 ounce beer  bottles are
+>allowed in competitive events.  Say you produce an outstanding brew.
+>How can you receive recognition from brewing peers?  Could you give
+>up 3+ bottles of a great strong ale?
+
+
+   I know it's not standard, but in our competition we've been
+allowing 11-ounce to 1/2-liter bottles for normal categories.
+That basically covers those cute Duvel-style bottles up to
+"standard" German 1/2-liters.
+   We've also been including a special No One Gets Out Alive
+High Gravity category, with those entries judged on a completely
+style-free basis.  Although in the past we've just asked for one
+bottle, due to the large number of entries we've been getting in
+that category, this year we're going to ask for two bottles but
+allow 6- or 7-oz "nip" bottles.  So, it's not *completely* out
+of the question to use small bottles in competition.
+   Oh yeah, the competition is the 5th Annual Boneyard Brew-Off,
+held June 11-12 here in Champaign-Urbana, Illinois.  It's an MCAB
+qualifying event (and Midwest Homebrewer of the Year, if that's
+still on).  Watch for the whole media blitz in early April, or
+contact me to get put on the mail/email interest list.
+- --
+Joel Plutchak <plutchak`at`uiuc.edu>
+Boneyard Union of Zymurgical Zealots
+Enjoying fine Spring brewing weather in east-central Illinois
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 06:34:32 -0800
+From: "King, Owen A" <Owen.King`at`PSS.Boeing.com>
+Subject: RE: Carboy Cleaning
+
+
+Rod Prather writes:
+
+
+>On cleaning carboys....
+>One little trick I use for scrubbing the inside of a carboy.  Carboy brushes
+>are quite deficient on the end and you quickly end up scrubbing with the
+>wire tip.  Take a cloth or a strip of one of those green scrubber pads and
+>attach it to the end with a wire tie.  A tie wrap would be ok  too but the
+>cloth needs to be removed for cleaning of the brush.  It works great and you
+>don't take the chance of scratching the inside of the bottle.
+
+
+While I like the idea that Rod presents, while I can't speak for generic green 
+scrubbies, the green scrubbies by Scotch Brite WILL scratch glass, so be 
+careful choosing your tools.
+
+
+Owen King, Everett, Washington
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 08:35:42 -0600
+From: plutchak`at`lothlorien.ncsa.uiuc.edu (Joel Plutchak)
+Subject: Re: Split session brewing responses
+
+
+In HBD #2984, Greg Remec wrote:
+>Another brewer pointed out that it took two full days to deliberately
+>sour a batch, so he had little concern with storing fresh wort for 8
+>to 10 hours before boiling.
+
+
+   That would be me, and I should clarify.  After Dennis Davison's
+article on Berliner Weiss came out in _Zymurgy_ a couple-few years
+ago, I brewed a sour-mash wheat beer.  The mash started smelling
+bad after 24 hours at ~110 degree F temperatures, and smelled
+pleasantly lactic after 48 hours.
+   Anyhoo, I've done split-batch brewing (for the same reasons
+Greg has) and found no apparent off aroma after letting the wort
+cool down from about 160 degrees to 85 degrees during the overnight
+hours.  I also found no problems with the finished beers.
+- --
+Joel Plutchak <plutchak`at`uiuc.edu>
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 10:06 -0800
+From: "George De Piro" <George_De_Piro`at`berlex.com>
+Subject: BJCP exams and beer evaluation
+
+
+     Hi all,
+     
+     Ted writes, regarding BJCP exams:
+     
+     "Several of my friends at Homebrewers Of Staten Island (whose 
+     beer judging abilities I value highly) have encouraged me to take 
+     the BJCP exam, which always seems to be held when I'm working on 
+     Sunday morning."
+     
+     I have administered two BJCP exams in NYC (Nov. '97, Spring '98). 
+     Nov. 97 was definitely on a Saturday.  The '98 exam may have been 
+     on a Sunday.  I can't recall.  I will be administering an exam in 
+     NYC at the end of June of this year (the 26th is the requested 
+     date).  That, too is a Saturday, so you'll have no excuses...
+     
+     Ted also wrote:
+     
+     "First off, it is ridiculous that a BJCP exam can use beer brewed 
+     by the exam evaluator.  Several friends have been roasted on the 
+     exam for spotting defects in beer brewed by the evaluator."
+     
+     To which I respond:
+     
+     My co-proctor and I were completely blind to the identity of the 
+     beers evaluated at both of the exams I administered.  I supplied 
+     homebrew, as did some of my friends.  A third party was asked to 
+     be the "beer blender."  They had the option to serve straight 
+     homebrew, straight commercial beer, or blends of any of the 
+     above.  I believe this to be the most fair way to administer the 
+     tasting test.  The exact identities of the test beers were 
+     recorded and sent to the graders to make their jobs easier.
+     
+     It is a shame that the BJCP is so stingy with experience points; 
+     it would be easier to entice a person to be the "beer blender" if 
+     I could offer them a point.
+     
+     Also, an examinee will not be "roasted" for spotting defects that 
+     the proctor does not.  The tasting portion of the exam is 30% of 
+     the total grade.  Only 20% of that 30% is based on how closely an 
+     examinee's score matches the proctors, and it is impossible to 
+     get less than about half of that 20% (I think all of those 
+     figures are close to accurate).
+     
+     When grading the tasting portion of BJCP exams I look at the 
+     comments of all the examinees and the proctors.  If a bunch of 
+     the examinees seem to agree about a beer, but the proctor is in a 
+     different universe, I will tend to believe the examinees.  It is 
+     a tough job; everybody has different acuity to different 
+     chemicals, and recognizing this is an important part of exam 
+     grading (and beer evaluation).
+     
+     It is equally important to realize that *many* beer evaluators 
+     (especially the least experienced ones) approach beer evaluation 
+     in a way that is improper.  They dig for flaws in each beer, 
+     rather than just trusting their initial impression of a beer.  If 
+     you dig hard enough into any beer, you will find flaws, even 
+     where none exist.
+     
+     This is a lesson I learned during my study at Siebel.  In the 
+     "grand finale taste panel" I correctly identified all of the 
+     flawed beers.  I also said that one of the control beers was 
+     flawed (there were two controls; Ilse is a tricky devil).  I had 
+     to really dig hard to find that "sourness" in the control beer 
+     that I said was flawed.  Had I just trusted my initial impression 
+     (and not been psyched out by the fact that I had already labeled 
+     one beer as the control), I would have scored perfectly.
+     
+     To me, it is far worse to invent flaws where none exist than to 
+     miss flaws that are real.  This is a lesson all beer evaluators 
+     should take to heart.  It has really changed the way I approach 
+     beer evaluation, and I believe I am a better judge because of 
+     this knowledge.
+     
+     That got a bit off topic...oops!
+     
+     Have fun!
+     
+     George de Piro  (Nyack, NY)
+     
+     Malted Barley Appreciation Society
+     http://members.aol.com/MaltyDog/maltind.html
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 10:20:47 -0500 (EST)
+From: John Varady <rust1d`at`usa.net>
+Subject: Closed Open Fermenter
+
+
+>Maybe it's time to come up with an acronym for the "bucket with plastic wrap"
+>system. BWPWF? UAF(User Accessible Fermenter)? EFFRS(Emergency Fruit Fly
+>Removal System)?
+
+
+At times, I have fermented in a sanke keg with a trash bag over it. It fills
+up like a hot air balloon and looks pretty cool (
+http://www.netaxs.com/people/vectorsys/varady/hbopferm.jpg ). What acronym
+would be used to describe this?
+
+
+I hope I didn't sound too harsh on the Brooklyn contest in my previous
+post...I appreciate all the time and effort given freely by the judges of
+any competition and realize that we are all amature judges. I am the final
+judge of my homebrew and regardless of the score it recieves in a
+competition, I like it.
+
+
+
+
+Marshall says:
+>calling him otherwise is uncalled for.
+
+
+and then goes on to say:
+
+
+>Hey butthead,
+
+
+Come on now Marshall, practice what you preach!
+
+
+Later,
+
+
+John
+- -- 
+John Varady                     http://www.netaxs.com/~vectorsys/varady
+Glenside, PA                    rust1d`at`usa.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 10:34:41 -0500
+From: "Czerpak, Pete" <Pete.Czerpak`at`siigroup.com>
+Subject: grain bags and batch sparging
+
+
+Gary writes about wanting to use a nylon grain bag and batch sparge to
+enter into all-grain brewing.  This is a long one so page down if you
+already know about batch sparging or do fly-sparging or just don't care
+to hear of my experiment and see my numbers.  They are practical as my
+patience was limited and it was my first time then too.
+
+
+This is precisely what i spent a few hours on friday night doing using
+my 3.5 gall pot and oven.  I brewed a 1/2 batch of pale ale with the
+grain bill of 6.5 lbs english 2 row and 0.25 lbs crystal in 2 gallons of
+mash water.  I originally estimated grain using extractions of 20 and 30
+points per pound per gallon as best and worst case scenarios to
+determine that I would get a gravity of atleast 1.050 using the above
+grain amounts. The grain and 150F water was mashed for about 3 hours in
+my oven since the water temp was  originally 150F before grain addition
+and about 135 to 140 after grain addition.  Basically I went out to
+dinner and left the pot to mash in the oven for a few extra hours to
+make up for the lower start temp.  Eventually the water temp came up to
+about 150 to 155 though. Next time I will try using correct temp water
+to start with and putting the pot in the stove to mash.
+
+
+After the mash was through and I was full of fish-fry, I batch sparged
+using a grain bag and bucket arrangement.  My bag touched the bottom
+when full so try putting a chopped up spaghetti strainer in the bucket
+to raise the bag and grains off the bottom.  I drained the first runoff
+to yield just over a gallon of liquid.  I then added about 1.125 gallons
+of 170F water and stirred the grains.  Let them sit for about 10 or 15
+minutes and then redrained the liquid.  When I drained the liquid both
+times I returned the first qt or 2 to the top of the bed to try and help
+with reducing solids carryover.  I can't tell if I only returned too
+little but the liquid was always pretty cloudy. Total drained was about
+2 gallons out of 3.125 gallons added.  I didnt drain forever though as
+my patience eventually got the best of me and some sugars were probably
+left in the grains to get tossed out. Water held up looked to be about
+0.18 gallons per lb grain.
+ 
+The grain bag I used was a 6.5 gallon sized one with a coarse mesh as
+per local shop recommendation so that I wouldnt clog the mesh with
+fines.  Well, the wort was fairly cloudly even though i returned about
+0.5 gallons of runoff back to the bucket on both drains to the pot.
+Perhaps the fine mesh bag would be the way to go.  However, in the end I
+got about 2 to 2.25 gall preboil, 1.75 gallons after boil, and dilution
+to 2.5 gallons of 1.054 beer in the fermentor.  Not too bad and slightly
+better than I predicted on a worse case.  Boiling was 60 min with 1 oz
+fuggles at 60 min, 0.5 fuggles at 15, and 0.5 fuggles at 3 min. 
+
+
+The beer has finished fermenting on a cake of 1056 from a previous batch
+and has settled out nicely.  I did end up with about 1 inch deep of
+sediments and break materials in my fermentor however.  The beer looks
+clear though which I am happy about after seeing all the sediment
+circulating around during ferementation.  
+
+
+My experiment is considered to be a success thus far and the finished
+beer will hopefully cause me to again try batch sparging and then
+eventually move into full allgrains when warmer weather approaches here
+in lovely upstate NY.  Total time spent was about 5-6 hours at the most.
+
+
+I used data and recommendations taken from HBD from 1997, 1998, and 1999
+and the  searches are still there on the hbd.org site.
+
+
+A spreadsheet that I eventaully used was :
+
+
+http://home.elp.rr.com/brewbeer/
+
+
+Thanks to Ken Schwartz for this.  It confirmed my numbers as being ok
+and gave me some starting points to shoot for in terms of sparge water
+additions, gravities of both runoffs, and other numbers.  Get this
+spreadsheet to help yourself out.  It will save some research too and it
+seems to work pretty good for my system.  The predicted numbers were a
+bit off when I used the built in water retained and efficiency of 75%
+numbers.  I was happy though that mine came out close and will take my
+corrections into account next time when calculating water and grain
+bill. Lower the efficiency (55-60% instead of 75%) and increase the
+water holdup (.18 instead of 0.13) unless I decide to drain really
+slowly with high patience and many a homebrew drunken. Perhaps a nap at
+this time would be appropriate since a watched batch sparge really
+trickles slowly.
+
+
+Much success into batch sparging and grain bag brewing. Hope you can
+beat about 20 to 22 pts per pound per gallon with a first time batch
+sparge.  I look to improve my technique next time and hopefully be more
+patient.  I did have fun though and am excited to be brewing beer a
+little bit more purely than before with extracts and specialties.  
+
+
+Until then, cheers and keep brewing.
+
+
+Feel free to email privately if you want more info or details.
+
+
+Pete Czerpak
+Big Ring Brewing - the perfect combination of passions - bikes and beers
+Process Engineer by day, Brewer and cyclist by night
+
+
+pete.czerpak`at`siigroup.com
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 10:54:04 -0500
+From: "Czerpak, Pete" <Pete.Czerpak`at`siigroup.com>
+Subject: all grainers
+
+
+To all grain brewers:
+
+
+What type of effect does leaving a mash at low starting temp (say 135 to
+140F) to eventually transition up to 150 to 155F when using long mash
+times?  Does a long mash time hurt anything? Basically I undershot the
+starting mash H2O temp once grain was added and then put the pot in the
+oven to raise and maintain the mash temp to 150 to 155F. Total time at
+135 to 155F was about 3 hrs.
+
+
+Also, how does allowing O2 to enter the wort during sparge and mash
+effect the final product (HSA???).  I figure the boiling action will
+eliminate any O2 in solution.  What are the thoughts here?  Is it a
+chemical reaction that doesn't reverse upon boiling? I only notice
+cardboardy flavors when I have strained hot wort into the fermentor but
+not when i vigorously stirred hot wort before boiling.
+
+
+Thanks.  I think my batch sparge from last friday evening was a success.
+See above post today for any info.
+
+
+Pete Czerpak
+Waterford, NY
+
+
+pete.czerpak`at`siigroup.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 10:07:08 -0600
+From: Shane`at`UH.EDU
+Subject: Hot - Cold - Hot - Cold
+
+
+I brewed a batch of porter Sunday night, and got to use my newly constructed
+50' immersion wort chiller.  It worked like a dream.  I then aerated and
+pitched the yeast (pint starter of 1056).  My hydrometer decided to try it's
+hand at skydiving part way through the brewing process so I don't have
+gravities for this batch.  It was only at this point that I realized that I
+hadn't boiled the rest of my water (I'm doing a partial mash with about 3.5
+gallons post-boil).  It was past midnight and I was tired.  So I put 1.7 gal
+in the microwave to boil and went to bed.  The next morning, the water was
+still very warm (>130F), so I put it in the fridge and went to work (didn't
+even check the fermenter - running late).  That night (last night), I
+checked the fermenter and saw that fermentation had not begun.  The wort was
+just under 40 degrees F.  Ack! I had poured ice water into the cooler I keep
+the fermenter in and the ice in it had barely melted. (I had expected it to
+melt quickly - whoops).  So, I pulled out the water I had boiled the night
+before and heated it up to 80 or so in the microwave, added it to the
+fermenter & aerated well, making sure to get the yeast all stired up again.
+The temp was then at approx. 60 F.  This morning (8 hours later) there was
+still no activity.
+
+
+In summary:
+Sun 11:30pm -> Cool 3.5 gal of wort to 72 deg F, aerate and pitch 1 pt. 1056
+yeast.
+Mon 12pm -> No activity, Wort at ~39 deg F, Added 1.7 gal of H20 `at` 80 F,
+mixed, wort now at 60 F
+Tue 8:30am -> No activity.
+
+
+What are my potential problems?  There's a chance for infection b/c of the
+lag time - is this chance lessened because of the low wort temp, or did that
+not affect the bacteria, and just inhibit the yeast?  Are the yeast still
+alive?  They went through some fairly drastic changes in temperature.  Right
+now, It's just wait and see, but how long should I wait before I pitch more
+yeast? It's 36 hours lag right now (I'm used to less than 8).  Also, would
+the yeast be affected by the concentrated wort it endured for 24 hrs, or
+would it have just gone into hibernation?
+
+
+Thanks,
+Shane Brauner
+Shane`at`uh.edu
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 10:32:03
+From: "William W. Macher" <macher`at`telerama.lm.com>
+Subject: Joys of counter-flow chilling
+
+
+
+
+And other odds and ends...
+
+
+Hi everyone!
+
+
+Since the queue seems short...I thought I would add 
+something that might complement the discussion of 
+homebrew shops and beer judging...: -)
+
+
+I just used my newly-built CF chiller for the first time and 
+WOW am I pleased. Sure beats the old emersion chiller 
+hands down.  I am so happy with this thing that I though I 
+might report my experience and perhaps encourage others 
+to move into the world of CF chilling,  if they are so 
+inclined and just need a little nudge... : -).
+
+
+This chiller is made from 50 feet of 5/16 OD copper tubing,  
+inserted inside a garden hose in the standard fashion. How 
+come nobody told me I should *lubricate* that damn 
+copper tubing before trying to force it through fifty feet of 
+hose, on a cold winter day in the snow?  
+
+
+Even with the wife at one end of the hose,  pulling it as 
+straight as possible,  it was simply a NO GO (after 25 feet 
+of tubing was down the throat of this monster) until I got 
+the brain storm to pour some liquid laundry soap in the 
+hose to serve as a lubricant. Soon after, I was winding the 
+hose/tubing combo around a corny keg,  into what was to 
+become a vertical-coil style chiller.  I chose this form 
+because I wanted to be able to completely drain the chiller 
+after use.  This seems to be possible,  although I have not 
+confirmed it by blowing air through it,  or anything like 
+that. I do get a fair amount of liquid out when I drain it.
+
+
+Last Sunday I made a 10-gallon extract batch, using the 
+boil kettle of my new,  yet-to-be-mashed-in,  steam-injected 
+rims setup.  Basically I did not want to make the first all-
+grain batch on this setup until I had some liquid yeast 
+stepped up,  and elected to use Danstar Nottingham dry 
+yeast,  light dry extract and some specialty grains for this 
+first use,  which leads to a couple observations and 
+questions.
+
+
+At the end of the boil I threw in some aroma hops and 
+turned off the heat.  I covered the kettle with a lid,  and 
+started pumping the hot wort through the CF chiller.  My 
+flow rate is a bit over a quart a minute.  I meant to time it 
+but forgot to look at the clock at the end.  It was about 30 
+minutes for 10 gallons, maybe a bit faster.
+
+
+First question:  Is there any problem with keeping the kettle 
+covered for 30 minutes while the wort is being pumped 
+through the CF chiller?   Is DMS a concern at this stage in 
+the process?  This was not a concern to me with the 
+emersion chiller,  since I was not able to cover the kettle 
+fully when using it.
+
+
+And wow! CF Chillers do drop the temperature.  I was able 
+to drop the temperature of the wort into the 50s (F) without 
+even turning the cooling water on full. Did not check the 
+temperature of the cooling water,  as I was not trying to 
+evaluate the performance of the chiller,  but I was 
+impressed.  Also,  there is considerable lag between when 
+the cooling water is adjusted and when the effect shows up 
+on the output of the chiller.  I had considerable temperature 
+excursions while I was learning to make small adjustments 
+to the ball valve and wait to see the effect.
+
+
+I am not sure how well this chiller (with 5/16 OD tubing) 
+would work in a gravity feet/siphon application.  If I were 
+making one to use in that way I would likely increase the 
+tubing size a bit to be on the safe side.  With my pump it 
+does not seem to be a problem. 
+
+
+The CF chiller sure is a great improvement over the 
+emersion chiller.  No more hovering around the pot,  gently 
+moving the chiller to increase cooling rate...I should have 
+made one sooner for use with my siphon!  Live and learn...
+
+
+Oh,  and since you are interested...hee, hee...my system is a 
+single tier which uses two pumps, and a pressure canner as 
+a steam source.  It is fired by three natural gas WOK 
+burners,  with one under each the HLT and kettle,  and one 
+under the pressure canner.  These burners are impressive. 
+
+
+Actually the three converted kegs are on a single tier,  but 
+the pressure cooker is mounted higher, above the HLT.  
+Piping is all soldered half-inch copper, employing cast-
+copper unions, in strategic locations, for ease of 
+disassembly when desired.
+
+
+One of the pumps is dedicated to the mash tun for 
+recirculation and for pumping of the wort to the boiling 
+kettle.  The other pump can move liquid from either the 
+HLT or the boil kettle,  back into either of them, and also 
+into the mash tun or through the CF chiller.  Both pumps 
+also are able to dump unwanted liquid into the basement 
+laundry tubs.  This system is not mobile. It is built 
+permanent next to the laundry tubs in the basement.  The 
+basement is above ground and has two doors that can be 
+opened for ventilation. I hope to (at some future time) set 
+up a simple web page with pictures of my system.  It came 
+together quite well.
+
+
+All connections into the kegs are home-made bulkhead 
+fittings made from 3/8 brass threaded fittings and nipples. I 
+ran a tap into the fittings so the short nipples would go in 
+enough to make a tight squeeze possible.  For gasket 
+material,  I took standard Teflon pipe tape and twisted it 
+into a thread,  which I wrapped around the pipe nipple on 
+both sides of the stainless steel of the keg wall.  This 
+worked well in the past when I put a valve in the side of an 
+enameled pot,  and has worked fine so far in this new 
+system.  Currently I have one drain in the bottom of the 
+mash tun,  and one each in the sides of the HLT and kettle.  
+I will install more in the HLT.  I am planning on inserting a 
+dial thermometer in the front and a sight tube in the side.  
+
+
+All flexible tubing is high temperature silicone which I got 
+from U. S. Plastic Corp. (1-800-537-9724).  Just a satisfied 
+customer.  I have dealt with them twice and the service was 
+good and the shipment prompt.  This tubing is rated from -
+100 to +500 F.  and is FDA approved. Not cheap...but I can 
+trust it to safely carry boiling wort at the pressures in my 
+system.  You might want to get their catalog.
+
+
+Happy brewing...Bill in Pittsburgh, PA....USA
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 08:39:15 -0800
+From: jim williams <jim&amy`at`macol.net>
+Subject: open fermentors
+
+
+George De Piro wrote:
+
+
+        "Over the past couple of weeks some people have talked about the
+
+
+     joys of using open fermenters, describing them as a plastic
+     bucket covered with plastic wrap which is secured to the bucket
+     with rubber bands.
+
+
+     Forgive my confusion, but how does this qualify as an open
+     fermenter?  It is sealed about as well as a bucket with a lid and
+     an airlock, or a carboy with an airlock.  A truly open fermenter
+     is OPEN to the atmosphere!  There is likely to be some mixing of
+     air and CO2 at the surface of the fermenting beer, which may
+     affect fermentation in ways that are desirable for certain
+     yeasts.  Covering a bucket with plastic wrap will create an
+     atmosphere within the fermenter that is similar to that within a
+     carboy."
+
+
+I agree. I'd like to hear your comments on my system: I use a ss pot as
+my fermenter, aerate like hell, lots of yeast. I've rigged a "cover" out
+of cheesecloth, and a ss ring. Keeps stuff out, llets stuff out. I used
+to go truly open. That room would be filled with amazing aromas. That
+hasn't changed a bit since I now use the "cover".
+Jim
+
+
+
+
+
+
+------------------------------
+
+
+Date: Tue, 23 Mar 1999 12:11:04 -0500
+From: "Ken Schramm" <schramk`at`resa.net>
+Subject: Mazer Cup: It's Official
+
+
+Here are the results of the Seventh Annual Mazer Cup Mead Competition:
+
+
+Overall:
+134 Competitive Entries 
+3 Non-Competitive Entries
+
+
+Best of Show Winner:
+Terry Estrin
+Vancouver, BC
+"Black Currant - Fireweed Melomel"
+
+
+Category One:  Show Mead (39 Entries)
+1st Place:  Micah Millspaw
+Oconomowoc, WI
+"96 Orrange Blossom"
+
+
+2nd Place:  Ron Barnes
+Abiline, TX
+"West Texas Special"
+
+
+3d Place: Al Korzonas
+Palos Hills, IL
+"#9703"
+
+
+Category 2: Traditional (6 Entries)
+
+
+1st Place:  Ron Lunder/Mountain Meadows Mead
+Westwood, CA
+"Honeymoon Nectar"
+
+
+2d Place: Jeff Rose
+Chelmsford, MA
+"Dr. Moist's Tupelo Mead"
+
+
+3d Place: Claire Desrosiers/Daniel Dingras
+Chepachet, RI
+
+
+Category 3: Melomel (48 Entries)
+
+
+1st Place:  Terry Estrin
+Vancouver, BC
+"Black Currant - Fireweed Melomel"
+
+
+2d Place:  David Myers
+Boulder, CO
+"Black Raspberry Blossom"
+
+
+3d Place:  Ron Barnes
+Abilene, TX
+"Jamaican Joy"
+
+
+Category 4: Cyser (11 Entries)
+
+
+1st Place: Chuck Wettergreen
+Geneva, IL
+"Custom Press Cyser"
+
+
+2d Place:  Bill Pfeiffer
+Brighton, MI
+"Pick Me Up and Put Me Down Cyser"
+
+
+3d Place: Paul Gatza
+Sunshine, CO
+"Along Came a Spider and Sat Down Be Cyser"
+
+
+Category 5: Pyment (14 Entries)
+
+
+1st Place:  Brian Myers
+Beach Haven, Auckland, New Zealand
+"42"
+
+
+2d Place:  Chuck Wettergreen
+Geneva, IL
+"Fox Grape Pyment"
+
+
+3d Place:  Bill Pfeiffer
+Brighton, MI
+"Medoc Pyment"
+
+
+Category 6: Open/Mixed (6 entries)
+
+
+1st Place:  Bill Pfeiffer
+Brighton, MI
+"Ginger Mint"
+
+
+2d Place:  Ed Measom
+Orlando, FL
+"Breakfast Mead"
+
+
+3d Place: Corrine Parker
+Reseda, CA
+"Apple-Cinnamon Mead"
+
+
+Category 7: Metheglin (9 Entries)
+
+
+1st Place:  Ron Lunder/Mountain Meadows Mead
+Westwood, CA
+"Spice Nectar"
+
+
+2d Place:  Keith Reding
+St Louis, MO
+"Cracklin Rosie Metheglin"
+
+
+3d Place:  Marie Verheyen
+Novi, MI
+"Bochet"
+
+
+Category 8: Braggot (4 Entries)
+
+
+1st Place:  Bill Pfeiffer
+Brighton, MI
+"Wheat Braggot"
+
+
+2d Place:  Stephen Rosenzweig
+Ontario, NY
+"Braggin' Braggot"
+
+
+3d Place: Al Korzonas
+Palos Hills, IL
+"Smoked Braggot"
+
+
+Congratulations to all, and thanks for entering.  We had our first 
+"Outside of the US" winners this year!  Score sheets will be going out 
+within a week, and Mazers within the month.  They are done now, and are 
+very impressive.  
+
+
+The caliber of entries was stunning again this year.  We saw the increased 
+and very welcome use of oak aging, very good sweetness-to-acid balance 
+control, and a mind-boggling diversity of ingredients.
+
+
+We apologize to all for the delay in getting judging completed.  Our 
+number of judges and available dates was somewhat limited by circumstances 
+beyond our control, and we refuse to do more than one round per judge per 
+day for safety reasons.  
+
+
+Again, our thanks.
+
+
+Ken Schramm
+Troy, MI
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2986, 03/24/99
+*************************************
+-------

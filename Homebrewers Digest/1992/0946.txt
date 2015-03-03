@@ -1,0 +1,1392 @@
+﻿This file received at Sierra.Stanford.EDU  92/08/12 23:47:05
+
+
+
+
+HOMEBREW Digest #946                             Wed 12 August 1992
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+
+
+Contents:
+  Re: Why mash-out? (Andy Phillips)
+  heat transfer properties of wort (Vote Libertarian in '92!)
+  Re: Ken Johnson, the lamest (JLIDDIL)
+  Houston hotspots (Mary E. Hall)
+  O-Rings (Chris Estes)
+  c02 purity (card)
+  O-Rings... (continued... SORRY!) (Chris Estes)
+  softer gentler water (Frank Tutzauer)
+  What's the deal? (SSIEGLER)
+  Yeast Temperatures and Amounts (GEOFF REEVES)
+  2 hour sparging (GEOFF REEVES)
+  Hop Plugs and Pellets, What's the difference (GEOFF REEVES)
+  Brewing Science Vs. M & B Science (glenn raudins)
+  Re: all malt vs. extracts (korz)
+  yeast culturing (James Dipalma)
+  Re: Cider (korz)
+  Flurry of "break" material. (bryan)
+  Re: mashtuns/chillers/lipids (korz)
+  2 pot boils (Glenn Anderson)
+  Brewpub plans for Ann Arbor, MI (Arthur Delano)
+  Cider (Jay Hersh)
+  parallel chiller (Pierre.Jelenc)
+  oring challenge (donald oconnor)
+  Apologies for duplicate posting (Andy Phillips)
+  Hop Vine Yields? (smc)
+  truncated digests (PGRAHAME)
+  Bleach and SS, holes, Minneapolis (Andy Leith)
+  co2 purity  (card)
+  Fermenting mead (Michael L. Hall)
+  Stainless Steel corrosion (Bob_Konigsberg)
+  Bleach sanitation (Brian Smithey)
+  truncated digests (Frank Tutzauer)
+  Mash - Hot Water Heater (Scott James.)
+
+
+
+
+Send articles for __publication__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com
+Archives are available via anonymous ftp from sierra.stanford.edu.
+    (Those without ftp access may retrieve files via mail from
+    listserv`at`sierra.stanford.edu. Send HELP as the body of a
+    message to that address to receive listserver instructions.)
+**Please do not send me requests for back issues!**
+*********(They will be silenty discarded!)*********
+**For Cat's Meow information, send mail to lutzen`at`novell.physics.umr.edu**
+
+
+----------------------------------------------------------------------
+
+
+Date: Mon, 10 Aug 92 11:41 GMT
+From: Andy Phillips <PHILLIPSA`at`LARS.AFRC.AC.UK>
+Subject: Re: Why mash-out?
+
+
+There's been a lot of correspondence on the HBD recently about
+the stability of enzymes at different temperatures (eg. on
+whether mash-out at 170F kills amylases), and the effect of mash
+thickness on the wort. I have access to a literature database
+that I periodically search for brewing references. One paper I
+pulled out and subsequently sent off a reprint request for was
+by Robert Muller (Brewing Research Foundation, Redhill, Surrey,
+England), entitled "The effects of mashing temperature and mash
+thickness on wort carbohydrate composition" (Journal of the
+Institute of Brewing (1991) Vol 97, pp85-92). The author is
+interested in producing normal gravity, but low fermentability
+worts for low alcohol beers. His results can be summarized as
+follows (I won't attempt to reproduce his graphs in ASCII).
+
+
+At 65C [149F in old money], the half life of alpha amylase is 42
+minutes; that of beta amylase is 15 minutes. Thus, after 30 min
+at 65C, there remains 62% of the alpha amylase activity and 25%
+of the beta amylase. At 80C [176F], both enzymes are less stable:
+the half life of alpha amylase is about 13 minutes, that of beta
+amylase about 6 minutes. The loss of beta amylase at both
+temperatures is exaggerated by the fact that there is much
+more alpha-amylase activity present to start with: the total
+potential activity of alpha amylase at 65C is 88g of starch
+hydrolysed per gram of [pale] malt; in contrast, the total
+potential activity of beta amylase is about 3.5g of maltose produced
+per gram of malt. The loss of beta amylase due to temperature
+denaturation will therefore be more significant than loss of
+alpha amylase.
+
+
+This loss of beta amylase results in a higher proportion of
+malto-dextrins, which are non-fermentable (at least with ale
+yeasts: modern super-attenuating strains, such as used for diet
+beers, are less choosy). A mash carried out continuously at 80C thus
+produces a wort which is only 20-30% fermentable, compared with the 
+65C wort which is about 80% fermentable. 
+
+
+Using this data, it's possible to draw the following conclusions
+about the consequences of a 30min "mash-out" at 170F [77C]:
+1) Beta amylase may be almost completely destroyed, but 25% of
+the alpha amylase activity will survive (and will be more active
+at the higher temperature).
+2) This alpha-amylase may break down any starch remaining in the
+mash, preventing starch haze in the final product (but increasing
+the malto-dextrin content, and so increasing the sweetness and body).
+3) The main purpose of mash-out is probably to aid in the flow
+of the sugar solution from the husks (as suggested previously),
+due to the decreased viscosity of the wort at the higher
+temperature.
+
+
+And now I have a question: why do unmalted grains such as wheat and 
+rye have to be gelatinized (cooked) before mashing? I just made a 
+batch of bitter with 2 lbs of flaked rye, forgot to gelatinize it,
+but got a sensible yield: about 85% of the maximum possible. Any
+have a hard, scientific explanation for this?
+
+
+Sorry this went on so long.
+
+
+Andy
+
+
+------------------------------
+
+
+Date:    Mon, 10 Aug 92 08:43:33 CDT
+From: smith%8616.span`at`Fedex.Msfc.Nasa.Gov (Vote Libertarian in '92!)
+Subject: heat transfer properties of wort
+
+
+
+
+hey--
+
+
+After checking my fluid-mechanics textbook (Intro. to Fluid Mechanics,
+Janna, 2nd ed.), it appears that beer wort's viscosity is going to be
+within 1% of that of water at a given temperature.  A good initial
+value to use is that of water at 100 degF, which is approximately
+1.4 x10^-5 lbf*s/ft^2.  Density is within 1% as well, but you can be
+exact with that since you have a hydrometer.  I would expect specific
+heat to be about 1-5% higher than that of water, which is 1 Btu/lbm/degF.
+Since few heat transfer correlations are accurate to within 20%, I would
+not worry too much about the exactness of wort measurements.
+
+
+One thing to remember in wort-through-a-tube chillers is that the
+viscosity is going to increase as cold break forms, causing a reduction in
+flow rate.  By how much?  Good question.  If people send me accurate
+measurements of flowrate, temperatures, tubing sizes/configurations etc.,
+I will make a stab at producing an empirical calculation of The Wort
+Chiller, but no promises....
+
+
+James Smith
+smith%8616.span`at`fedex.msfc.nasa.gov
+"Someone let the dogs out, they'll show you where the truth is"
+
+
+p.s.  Would you bickerers keep it in email?  We don't care if you
+      count coup or not.  Better yet, save the NSF some dough and
+      chill out....
+
+
+------------------------------
+
+
+Date:    Mon, 10 Aug 1992 8:31:07 -0700 (MST)
+From: JLIDDIL`at`AZCC.Arizona.EDU
+Subject: Re: Ken Johnson, the lamest
+
+
+
+
+Obviously, Ken is full of "bullshit".  Is he a master brewer? Has he won 
+numerous awards for his fine beers?  Has he won Homebrewer of the Year?  Is 
+he a certified Judge? If not then he is LAME
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 09:39:47 MDT
+From: meh`at`cygnus.ta52.lanl.gov (Mary E. Hall)
+Subject: Houston hotspots
+
+
+
+
+I'm going to Houston on business next week (8/17-8/21). I know that
+brewpubs are illegal there (I grew up in Dallas), but can anyone
+recommend someplace that I just shouldn't miss while I'm there?
+I'll be near the I-10/Hwy 6 intersection. 
+
+
+BTW, is there anything new in Dallas?
+
+
+Mary Hall
+Lost Almost, Near Mexico
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 11:45:42 -0400
+From: cestes`at`argos5.DNET.NASA.GOV (Chris Estes)
+Subject: O-Rings
+
+
+Just a comment here... It seems to me that for O-Rings have sparked a bit
+of a problem here.  For $1.50 you can buy a new one - why argue about it?
+If you like coke-flavored beer, then en
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 11:22:37 EDT 
+From: card`at`apollo.hp.com
+Subject: c02 purity
+
+
+
+
+    From New England Beer Club Digest 
+
+
+>>        There have been some questions about CO2 purity. Although I am
+>>not aware of any contamination problems with CO2...I am aware that there
+>>are atleast 3 grades of it; industrial, beverage and analytical. Of course
+>>you can figure out what use beverage grade is rated for, with analytical
+>>being the purest for scientific purposes. Industrial is the lowest quality 
+>>and used for fire extinguishers and other non-food grade needs. I personally
+>>fill my tank at a beverage supplier to insure getting a known good CO2
+>>for dispensing beer. Not sure if the industrial is acceptable, but its
+>>seems like a gamble to me. 
+>>
+>>        Also, a beverage supplier also told me that CO2 tanks can build up
+>>with oil (that apparently occurs as part of the CO2 manufacturing process.
+>>He suggested that after many refills, you can purge the oil by standing the
+>>empty tank upside down overnight. The next day, open the valve (with no 
+>>regulator attached) with the tank still inverted. The remaining CO2 will
+>>blow out any oil that has accumulated in the tank. 
+>>
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 11:50:02 -0400
+From: cestes`at`argos5.DNET.NASA.GOV (Chris Estes)
+Subject: O-Rings... (continued... SORRY!)
+
+
+As I was saying... If you like coke flavored beer then by all means drink
+it.  If a buck and a half won't put you in the poor house and you'll be
+happier with a new O-ring, then do that.  But I don't think O-rings are
+anything to warrant a signifigant philisophical discussion.  Its interesting
+to hear everyone's ideas and personal techniques, but sometimes I wonder
+about the contents of the HBD...  Perhaps we need the "Homebrew Debate Digest"!
+
+
+ -Chris Estes-
+
+
+  Dont forget: Morton Thiokol O-Rings don't hold pressure
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 1992 12:06 EST
+From: Frank Tutzauer <COMFRANK`at`ubvmsb.cc.buffalo.edu>
+Subject: softer gentler water
+
+
+In HBD 944, Phillip Seitz asks how to get soft water.  About 6 months ago, I
+picked up a great little book called, "The Pocket Guide to Bottled Water." 
+It's written by Arthur von Wiesenberger, and published by Contemporary Books
+(Chicago, 1991, ISBN 0-8092-4056-4).  I think the book is aimed at yuppies,
+but brewers can profit from it too.  When I wanted soft water, I used Great
+Bear Natural Spring Water, which was the softest I could get locally.  The
+book gives these numbers for Great Bear:
+
+
+      Ca          0.53
+      Bicarb      18.3
+      Sulphates   2.41
+      Mg          0.7
+      Na          2.85
+      Chlorides   0.93
+
+
+The figures are ppm.  The beer turned out fine.
+
+
+- --frank
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 1992 12:15 EST
+From: SSIEGLER`at`LANDO.HNS.COM
+Subject: What's the deal?
+
+
+What's the deal?
+
+
+As a new homebrewer, I need this net.  It is an invaluable source
+of information.  The constant bickering that seems to be going on
+is a real turn off for a new-b, like myself.  What am I to do if
+I have a real problem, like exploding bottles? (I am having this
+problem, if anyone wants to help.)  I certainly wont post a question
+for fear of someone's retaliation or offending someone -- quite frankly
+it scares the post-beer-product out of me.
+
+
+(Where did the term 'Flame' come from, anyway? )
+
+
+Might I suggest that attacks of this nature be sent to the person who
+offended you.  (You know, if someone ignores your e-mail, they are 
+going to ignore the posting here.  I, on the other hand, don't know
+enough to.)
+
+
+I really thought that Home Brewing's most important rule was
+                    Relax. Dont Worry.
+(OK, maybe it really is 'Sanitize', but I'm sure Relax is high up
+in the rules).
+        
+ -Stuart Siegler
+"Just because you're paranoid doesn't mean there aren't people out to get you"
+(hl)
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 10:55:11 -0600
+From: 105277`at`essdp2.lanl.gov (GEOFF REEVES)
+Subject: Yeast Temperatures and Amounts
+
+
+
+
+> >From: gkushmer`at`Jade.Tufts.EDU
+> 
+> >Maybe I should re-hydrate the Red Star package and dump some of
+> >it in the one-gallon carboy?  I could get a mason jar, sterilize
+> >it, and put the majority of the yeast in that in my fridge.
+> 
+> From: m14051`at`mwvm.mitre.org (John DeCarlo)
+> 
+> I hear this from new brewers all the time.  As far as I know,
+> even for mead, the more yeast you pitch the better off you are,
+> since it reduces the lag time during yeast reproduction.
+> 
+> Can anyone point me to a reference that describes the typical
+> yeast reproduction activity for homebrewers?  (Something like:
+> 1) Throwing in one packet of yeast scenario--fifteen minutes for
+> yeast cells to rehydrate and acclimate, twenty minutes for yeast
+> population to double once, doubles twenty times before
+> fermentation begins, lag time of 7 hours.)  You see, I have no
+> idea how long it takes the yeast to double in population, how
+> much yeast you have in 5 gallons before fermentation begins, or
+> how much yeast you might expect in a dry yeast packet (which
+> itself might have only 30% viability), a Wyeast packet, a pint
+> starter at kraeusen, etc.
+> 
+> 
+
+
+I concur that, within reason, there is no such thing as pitching too
+much yeast. They Zymurgy Special Issue on Yeast is an excellent 
+reference for the things you are wondering about. I don't have
+it here so I can't answer these questions directly. I seem to recall
+that it was considered ideal to pitch about 2 million active yeast
+cells per milliliter of wort! and that with this pitching rate
+the yeast population would double an average of 2.5 times.
+
+
+Another interesting yeast "fact" was that the yeast became active 
+most quickly if pitched into 90!F wort (or hydrated in 90!F water).
+This makes me wonder about chilling the wort down to <65!F for a 
+cold break. I typically cool to 70!-85!F. In my recent Pale Ale
+experiments I've been pitching 12g packets of Whitbread Ale Yeast
+which have given me starts in less than 2 hours which I suspect
+may be due to these warmer temperatures.
+
+
+Geoff Reeves
+Atomic City Ales
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 10:56:31 -0600
+From: 105277`at`essdp2.lanl.gov (GEOFF REEVES)
+Subject: 2 hour sparging
+
+
+
+
+        In HBD# 940, Tom Feller asks:
+
+
+
+
+>How could it take 2 hr to run water sparge water through your
+>grain bed unless the sparge was stuck(set mash?).
+
+
+        James Dipalma answers:
+
+
+>        Two hours seems a little lengthy to me as well, but it is
+>certainly possible.
+
+
+
+
+        Terry Foster suggests in his book (either "Pale Ale" or "Porter"
+I forget) that 2 hours is the _appropriate_ time for a sparge and
+that the flow should be adjusted to achieve this elapsed time.
+However he also mentions that this is not necessarily pratical for
+home brewers. Jim, let us know how your experiment goes though!
+
+
+
+
+Geoff Reeves
+Atomic City Ales
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 10:57:23 -0600
+From: 105277`at`essdp2.lanl.gov (GEOFF REEVES)
+Subject: Hop Plugs and Pellets, What's the difference
+
+
+
+
+> From: beb`at`pt.com (Bruce Buck)
+> 
+> I've been brewing for several years and have always used hop pellets.
+> Now there seems to be a lot of discussion about hop plugs.  What exactly
+> is the difference between the two?  What are the advantages and disadvantages?
+> 
+
+
+Hop pellets are ground up compressed hops. Hop plugs are unground compressed
+hops. Both can usually be found in vacuum bags or nitrogen filled bags
+so they stay fresher longer than loose hops. Hop pellets are easy to 
+work with but can be difficult to remove because they are ground so fine.
+I prefer hop plugs because they are easy to remove and, I admit it,
+simply because they look like hops once they have soaked in the
+wort for a while and loosened up. It really would be a great innovation 
+though if they made the plugs small enough in diameter to fit through the
+neck of a carboy. That problem is leading me to dry hop in my keg for the
+first time this batch. This may turn out to be a good technique anyway -
+as others have pointed out.
+
+
+Geoff Reeves
+Atomic City Ales
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 12:49:26 CDT
+From: raudins`at`galt.b11.ingr.com (glenn raudins)
+Subject: Brewing Science Vs. M & B Science
+
+
+
+
+How good are the following volumes?  I understand that one set is used at
+UC at Davis and the other supplemental at the Siebel Institute.
+
+
+        Brewing Science: Volumes 1-3  from Academic Press Inc
+
+
+        Malting and Brewing Science: Volumes 1-2
+                        from Chapman & Hall, 1982
+
+
+
+
+Also, could someone send me information and/or a contact person to obtain
+information on the courses/degrees offered by UC at Davis, in the brewing
+area (Fermentation Science).  
+
+
+Glenn Raudins
+raudins`at`galt.b11.ingr.com
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 14:24 CDT
+From: korz`at`ihpubj.att.com
+Subject: Re: all malt vs. extracts
+
+
+There are many styles of beer for which excellent brew can be made with
+extracts and some for which at least partial-mashing is almost necessary
+to make a true-to-style batch.  The lighter-colored and lighter-bodied
+styles that *require* a malt nose, IMHO, are the ones hardest to make
+excellent without mashing at least part of your grains.  I've made
+several stouts that were excellent without mashing, I just used extract
+and steeped the roasted barley and black patent malts in the water as
+I brought it to a boil.  On the other hand, when I judged bocks in the
+first round of the National Competition, very few of the beers in my
+flight had the requisite malt nose.  Although I did not check the recipes
+of the malt-nose-deficient brews, I think it's a fair assumption that the
+ones that had no malt nose were extract brews.  Now I really wish that I
+would have checked.  Its one of the added benefits of judging.
+
+
+One argument for going all-grain instead of extract is the additional
+control that you get when you mash the grain yourself.  I contend that
+there is an equal if not greater variablity available to the brewer by
+using various brands of malt extract.  Each extract maker uses different
+mash temepartures and profiles and if you experiment enough, you can
+learn which are the more-fermentable brands and which are the more
+dextrinous and which are poorly made (and create 6 inches of trub in your
+fermenter).  Another thing to consider is that the technology available
+to the extract makers is well advanced of that which we have in our
+kitchens.  Among the brands to which I have narrowed my usage, I've found
+great consistency.
+
+
+Therefore, my position on this topic is that you can make very good beer
+in all styles without mashing and you can even make excellent beer in
+some styles without mashing, but for some styles, mashing the grain yourself
+is virtually necessary to achieve excellence.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 15:56:35 EDT
+From: dipalma`at`banshee.sw.stratus.com (James Dipalma)
+Subject: yeast culturing
+
+
+
+
+
+
+Hi All,
+
+
+        As part of the never-ending quest for improvement of my beer,
+I've decided to try my hand at yeast culturing.  I have read Roger
+Leigstad's book, "Yeast Culturing for the Homebrewer", and believe
+I have the basic idea.  I have seen several posts over the past
+few months from people who have grown pure cultures from single
+yeast cells, isolated the S. delbrukii strain from Wyeast 3056, etc.
+It is these net.brewers that I ask the benefit of thier experience.
+
+
+I have located a source for glass petri dishes, pipettes, slides, etc.
+What other equipment will I need?  If a micro$cope is needed, what
+power of magnification?
+
+
+I have access to the libraries of some local colleges.  Which texts
+are recommended? 
+
+
+Procedural info on identification and isolation of different strains,
+propagation techniques, etc., would be appreciated.
+
+
+                        Peering over the edge of a deep, dark abyss,
+                                   Jim
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 15:03 CDT
+From: korz`at`ihpubj.att.com
+Subject: Re: Cider
+
+
+First off, I must say that I've never made hard cider, but my comments on
+the subject of yeast and sugar are of a philosophical nature unrelated
+to the source of the sugars.
+
+
+js says:
+>Date: Wed, 5 Aug 92 10:14:26 CDT
+>csrd.uiuc.edu (Brian Bliss)
+>Subject: yeasts/grain bag source
+>>I have an apple tree outside my apartment and I was wondering how to make a
+>hard cider.  A friend has one of those juicer machines and I was thinking
+>that would be a good way to get the juice from the apples but where do you go
+>from there.
+
+
+><don't use red star champagne yeast (ale yeast will
+>make a sweeter product).
+
+
+>That advice depends on a few variables not the least of which is the sugar
+>content of the juice.  Most juice needs to have sugar added just to get
+>enough alcohol to preserve it and the high tolerance of champagne yeast would
+>not even enter the equation of most straight juice.  It would run out of
+>sugar before even ale yeast got tired.
+
+
+Not all sugars are fermentable by every yeast.  Lactose is not fermentable
+by any of the Saccharomyces yeasts and thus can be used to sweeten cider
+(or beer or mead, for that matter) without having to kill the yeast with
+alcohol content.
+
+
+>Secondly, one can always add sugar to adjust the sweetness after fermenting.
+
+
+If mean adding sugar at bottling, this implies that you've somehow killed or
+filtered out the yeast or else the yeast will go at the new sugar.  Adding
+sugar at serving time seems heritical, but it *is* the traditional way of
+serving Faro (a Belgian Lambic style which is incredibly sour from welcomed
+lactic acid bacterial activity).
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 13:29:42 PDT
+From: bryan`at`tekgen.bv.tek.com
+Subject: Flurry of "break" material.
+
+
+  All this talk about cold break material got me to thinking about something.
+I do (90%) full wort boils in a 10 gallon brewpot and use a counterflow 
+chiller. Usually 8 to 9 gallon batches, all grain. After I am finished boiling,
+I put the finishing hops in the brewpot and put the lid on for 30 minutes.
+Then I siphon through the counterflow chiller. The wort coming out of the
+chiller is a murky brown color, (for a pale ale). Between the time I pitch
+and the time the yeast takes off, 3 to 4 inches of "fluffy break" material
+will settle into the bottom of the carboy, then when the yeast takes off,
+it all gets mixed back up together again. It usually take a week of so
+before the fermentation has settled down to the point that  the wort clears
+again. At this point, the material is more compact and is only 1 to 2 inches
+in the bottom of the carboy. I rack into the secondary at this time. It is
+usually within 10 S.G. points of being finished.
+
+
+I figure this is probably hot and cold break material, though I do get 
+around a quart of hot break in the bottom of the brewpot. Any comments about
+this "fluffy break" that gets stirred up during primary fermentation?
+
+
+Also, thanks to those who posted the good technical articles in Mondays
+digest, you know who you are and you know which parts were the good ones.
+
+
+Bryan Olson
+
+
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 15:56 CDT
+From: korz`at`ihpubj.att.com
+Subject: Re: mashtuns/chillers/lipids
+
+
+Micah writes:
+>Unless I misunderstood, several HBers are useing the round vertical
+>type ice chests as lauter vessels,that is something to sparge in. 
+>Since these industious brewers have gone to the trouble of putting
+>a false bottom in the cooler why not use it as you mash tun as well,
+>these things are certainly well insulated.
+
+
+Some do, however, this system lends itself only to single-step infusion
+mashes or decoction mashing, unless you've got an immersable heating
+element.  Upward-infusion (i.e. temperature-controlled) mashing is
+usually done in a Bruheat-type masher or stovetop and then transfered
+to the lautertun.  Note also, that "round" is not a pre-requisite.  I've
+seen many square ice chest lauter tuns.
+
+
+>        On to wort chillers, I am planning to build a newer, and I hope
+>better immersion chiller. The basis of my idea is that with a 1\2 inch
+>copper line with tap water running thru it picks up from the wort about as 
+>much heat as is possible in the first nine feet. And  so I intend to 
+>build a chiller that uses 4 circuts each 12 ft long in parallel  made 
+>of 1\2 inch copper. I will have to use a manifold on both the inlet and 
+>outlet and will probably add some temperature sensors and water pressure 
+>guages, in hope that these may give some way to optimize the delta T by 
+>varing the flow rate. Anybody try anything similar? If so please post 
+>the pluses and minuses. Thanks
+
+
+I think the idea is sound, except I would offer that you should use a
+smaller diameter tubing (I used 3/8" OD) and see how many feet have
+efficient heat transfer.  Apparently, you have the math or patience to
+determine this and I would like to know what the efficient part of the
+length is on a 3/8" OD tube.  However, I think Paul's post earlier in
+HBD944 supports your multiple tube theory.
+
+
+Since I've got your attention, Micah, could you post some references
+for your early June post regarding lipids in beer.  I was facinated and
+want to read more about them.  Thanks.
+
+
+Al.
+
+
+------------------------------
+
+
+Date:         Sun, 9 Aug 1992 20:00:00 -0400
+From: Glenn Anderson <glenn.anderson`at`canrem.com>
+Subject: 2 pot boils
+
+
+
+
+I'm wondering what adjustment would be required to my hop rate, if
+any, when using two pots to boil 5 gallons instead of one.
+
+
+Assuming that I boil 2.5 gallons in each pot and hop only one of the pots.
+I'm using the AAU system described by Miller in TCHoHB, would the utilization
+be the same as if I boiled and hopped the entire volume?
+
+
+I'm guessing not, simply because of the volume of wort present to dissolve
+hop resins into.
+
+
+I would appreciate any comments/calculations anyone could share.
+
+
+ .....GA
+- ---
+ � DeLuxe� 1.21 #11377 � Brewer fails CRC - More bottles than caps
+- --
+Canada Remote Systems  - Toronto, Ontario/Detroit, MI
+World's Largest PCBOARD System - 416-629-7000/629-7044
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 17:15:46 EDT
+From: Arthur Delano <ajd`at`itl.itd.umich.edu>
+Subject: Brewpub plans for Ann Arbor, MI
+
+
+
+
+This article appeared in the Ann Arbor News (10 August 1992, 
+Monday), page C1 .  I've condensed it greatly, mostly removing 
+information not immediately relevant to the subject and general 
+info about brewpubs which i suspect the average homebrewer knows 
+about.  A fuller version is on alt.beer and rec.crafts.brewing... 
+Sorry, but i cannot provide the article number.
+
+
+- ------------------------------------------------------------------
+
+
+Couple plans pub that offers home brew
+
+
+By Dave Wilkins (News staff writer)
+
+
+Barry Seifer and Jennifer Kirscht want to brew and serve specialty 
+beers in downtown Ann Arbor.
+  If their well-researched business plan can overcome a string of 
+obstacles, Grizzly Peak Brewing Co. could, by next spring, be 
+Michigan's first brewpub.
+  They also plan to stock a full bar, offer both burger-and-ribs 
+fare and upscale dining, have an 80-seat banquet room, add a 
+rooftop beer garden, and sell contemporary home furnishings in a 
+third-floor loft.
+  Brewpubs, however, are prohibited in Michigan.  That's one of 
+the more daunting obstacles facing Seifer and Kirscht.
+  On Jan. 1, they formed a corporation:  Seifer & Kirscht Inc.
+  Last month, they bought the Cracked Crab building.
+  They have hired an architect and a lobbyist, who is pushing a 
+bill that would allow brewpubs to operate in Michigan.
+  Still on the list of things to do:
+  + Find investors for the venture, which may cost up to $1.3 
+million.
+  + Hire a properly schooled brewmaster
+  Another hurdle:  neither Seifer or Kirscht have restaurant or 
+bar experience.  They will hire experienced people, they say.
+  Michigan's liquor laws specifically separate the manufacturing, 
+wholesaling, and retailing of alcoholic beverages -- and, 
+therefore, prohibit brewpubs.
+  Seifer and Kirscht are counting on House Bill 5407, which would 
+allow brewpubs to operate in the state under strict limits.
+  The bill has passed the House and is now in the Senate's State 
+Affairs, Tourism and Transportation committee.
+  There is no formal opposition to the bill, McKinney says.  It's 
+supported by the state Commerce Department and the Michigan 
+Restaurant Association.  The powerful Michigan Beer and Wine 
+Wholesalers Association is neutral.
+  If the bill doesn't pass, Seifer and Kirscht say they will move 
+ahead with their restaurant and bar, and perhaps brew their beer 
+at another site or contract with another brewer.
+
+
+[Any typos are mine -- AjD]
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 17:43:54 EDT
+From: Jay Hersh <hersh`at`expo.lcs.mit.edu>
+Subject: Cider
+
+
+
+
+
+
+Jack replies to someone who advises use of an ale yeast instead
+of red star champagne yeast for cider
+
+
+> That advice depends on a few variables not the least of which is the sugar
+> content of the juice.  Most juice needs to have sugar added just to get
+> enough alcohol to preserve it and the high tolerance of champagne yeast would
+> not even enter the equation of most straight juice.  It would run out of
+> sugar before even ale yeast got tired.
+>
+> Secondly, one can always add sugar to adjust the sweetness after fermenting.
+>
+> Thirdly, one usually will add lots of sugar to make a higher alcohol apple
+> wine and ale yeast would produce an undrinkably sweet wine.
+
+
+
+
+I'm not sure what you're saying here. I have used Red Star Champagne, Red
+Star Epernay, and Whitbread Ale yeasts in Ciders. I have always had to
+fortify them somewhat so that they did not ferment out too completely,
+as the apple sugars are highly fermentable, though the Ale yeast will
+tend to quit earlier than the Champagne yeast.
+
+
+I personally do not like sweetening after fermentation, and would rather
+choose the right yeast and level of fortification so that the final
+product ends at a desirable gravity.
+
+
+My personal favorite ciders were produced with the Ale yeast, or the 
+Epernay. I thin keither of these are easier to work with than the
+Champagne yeast in terms of acheiving a desirable final gravity
+
+
+
+
+        JaH
+
+
+
+
+
+
+- ------------------------------------------------------------------------
+Hopfen und Malz, Gott erhalts
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 18:35:41 EDT
+From: Pierre.Jelenc`at`cunixf.cc.columbia.edu
+Subject: parallel chiller
+
+
+In HBD #944, Micah Millspaw mentions planning to build a parallel
+immersion chiller with four 12ft lengths of 1/2 inch tubing, and asks
+for comments.
+
+
+I made something similar, with two 20ft pieces of 3/8 inch copper
+tubing. The tubing was first held together with string and tape, so as
+to be coiled side-by-side , then it was shaped so as to bring both
+inlets and outlets to two T compression fittings, the inlet one going
+to a quick-disconnect fitting to the tap, and the outlet to a similar
+quick-disconnect to the sink. The advantage is that the construction
+is all metal up to the joints, and thus can be boiled thoroughly for
+sanitizing. The in and outflow plastic tubings are then connected and
+the water started in seconds, without heat damage to them.
+
+
+This construction allows me to cool 5 full gallons to water-temperature
+plus 5 degrees F in a bit less than 15 minutes. The wort must be
+stirred slowly to optimize heat transfer.
+
+
+Pierre
+
+
+
+
+Pierre Jelenc                        pcj1`at`cunixf.cc.columbia.edu 
+                                    Columbia University, New York
+
+
+------------------------------
+
+
+Date: Mon, 10 Aug 92 12:46:29 -0500
+From: oconnor`at`ccwf.cc.utexas.edu (donald oconnor)
+Subject: oring challenge
+
+
+
+
+okay guys. rather than continue on along this "is too, is not"
+discussion about orings and soda let's have a little experiment
+to put a little substance behind the opinions.
+
+
+here's the experiment.  i have what i think most would call a 
+light lager (9 lbs vienna malt and some saaz hops) that's been
+sitting in a used keg for about 5 weeks now.  it was the first
+time i had used the keg and i did nothing special at all to clean
+either the keg or orings.  i.e., i simply rinsed the soda out with\
+warm water and cleaned the oring and lid with warm water, then
+soaked the keg in a weak bleach solution before filling with the\
+beer.  i am willing to ship a bottle of this beer to
+several people who have been claiming that old orings will ruin
+the beer.  all they have to do is taste and smell the beer and
+tell me what kind of soda pop was in the keg before the beer.  
+i will even tell them that it was either coke, root beer, or
+dr. pepper.  i personally doubt that anyone will be able
+to detect any hint of any soda pop whatsoever let alone
+claim that it has 'ruined' the beer, but we shall see.
+
+
+Now who should be the judges.  I must insist that kinney baugham and
+al korz be 2 of them since they seem the most insistent.  others
+i would like on the panel are al richter, john rose, glenn tinseth
+and the person who wanted to send me an old root beer oring whose
+name i can't seem remember.  there was another gentleman who posted
+to the digest last friday expressing his experience who would be
+a good choice as well.  It will cost about 3 bucks each to ship
+these out so i'm not inclined to send one to everyone reading the
+digest but i think i have room for a couple of more.  So these
+people should simply email me there postal address and i will send
+off a bottle in the next day or two.  I don't use a counterpressure 
+bottle filler but i've had good success filling bottles with a piece
+of vinyl tubing attached to the end of the picnic faucet as 
+someone suggested on the digest some time ago.  when you get your 
+bottle do whatever you like to determine which soda pop (root beer,
+coke, or dr. pepper) was previously in the keg and just email me the
+answer. i will post the results to the digest after receiving all of
+the replies.
+
+
+So there's the challenge. let's see if kinney b and al k are really so
+sure of their previous statements that an old oring will 'ruin'
+a light lager.
+
+
+by the way, if al korz' address contains words with more than 4 letters
+someone may wish to help him out. based on his personal email to me
+i can assure you he needs no help with the 4 letter words.  he's 
+mastered them all.
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 92 10:25 GMT
+From: Andy Phillips <PHILLIPSA`at`LARS.AFRC.AC.UK>
+Subject: Apologies for duplicate posting
+
+
+Very sorry, but you may have noticed that I sent a double posting 
+of my tome about amylase temperature stability. This was because
+the connection between the US and UK was down, and my first
+posting (last week) generated no response from Rob's mailer, so
+I waited three days and re-posted. Apologies to all those
+who waded through the second posting with a strange sense
+of deja vu.
+
+
+Andy
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 92 09:46 EDT
+From: smc`at`hotsc.att.com
+Subject: Hop Vine Yields?
+
+
+Reading about all the lucky homebrewers with their own hop vines has
+made me curious.  What kind of yield do you get from a hop vine, in
+ounces, once you've dried the hops?  E.g., is it 6 oz, or 6 lbs?
+
+
+If I dedicate about 10' of a small garden along the side of a house
+to hops, what could I expect for a total crop?
+
+
+Steve Casagrande
+smc`at`hotsc.att.com
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 1992 10:17 EDT
+From: PGRAHAME%BENTLEY.BITNET`at`mitvma.mit.edu
+Subject: truncated digests
+
+
+In HBD 945, Dave Bircreports receiving a truncated digest on August 6.
+The same thing happened to me, too.  Dave, the digest is not really
+truncated, which is evident from the fact that your directory will show
+that it's a long file.  The cause of the problem will not show up in
+Wordperfect, nor--I suspect--would it in other wordprocessing formats.
+The problem is simple: a control-Z code was entered in the text at line
+200.  The software interprets this as "end of the file" thus creating
+the appearance of truncation.  I could not discover this bug with "Reveal
+Codes" presumably because it lies "outside" the file as read by the
+software.  However, the solution is simple.  Just go into the file with
+DOS EDLIN or a similar editor, and DELETE line 200 (there is nothing on
+it but Control-Z).  Then SAVE the file.  Magically, the whole file will
+now be readable.
+Salut,
+Peter Grahame   pgrahame`at`bentley.bitnet
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 92 09:58:30 CDT
+From: andy`at`tonga.wustl.edu (Andy Leith)
+Subject: Bleach and SS, holes, Minneapolis
+
+
+Jack posts details (#945) of an experiment that he did to determine
+whether or not bleach will corrode stainless steel.  He didn't have
+an empty keg to use in the experiment. Some time back I got lazy and
+left a cornelius keg of mine sitting with the bleach sanitizing
+solution in it. The following week I kegged an IPA and when I
+pressured up with CO2, a thin stream of pale ale spurted across the
+kitchen from a tiny pin hole in the side of the tank. 
+ So if you leave bleach solution in your keg for a long enough time
+(> 1 week) it probably WILL corrode the keg regardless of what intuition
+may say to the contrary.
+If anyone has any safe ideas on how to repair a pin hole in my keg I
+would be most grateful.
+I would also like to know of any brew shops, brew pubs, clubs, or
+homebrewers in the Minneapolis area, as I am moving there from St. Louis
+in a couple of weeks
+Thanks
+  Andy Leith    andy`at`wups.wustl.edu
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 92 10:54:21 EDT 
+From: card`at`apollo.hp.com
+Subject: co2 purity 
+
+
+
+
+  FYI From New England Beer Club
+
+
+
+
+/Mal Card 
+
+
+>>
+>>
+>>        There have been some questions about CO2 purity. Although I am
+>>not aware of any contamination problems with CO2...I am aware that there
+>>are atleast 3 grades of it; industrial, beverage and analytical. Of course
+>>you can figure out what use beverage grade is rated for, with analytical
+>>being the purest for scientific purposes. Industrial is the lowest quality 
+>>and used for fire extinguishers and other non-food grade needs. I personally
+>>fill my tank at a beverage supplier to insure getting a known good CO2
+>>for dispensing beer. Not sure if the industrial is acceptable, but its
+>>seems like a gamble to me. 
+>>
+>>        Also, a beverage supplier also told me that CO2 tanks can build up
+>>with oil (that apparently occurs as part of the CO2 manufacturing process.
+>>He suggested that after many refills, you can purge the oil by standing the
+>>empty tank upside down overnight. The next day, open the valve (with no 
+>>regulator attached) with the tank still inverted. The remaining CO2 will
+>>blow out any oil that has accumulated in the tank. 
+>>
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 92 09:47:22 MDT
+From: mlh`at`cygnus.ta52.lanl.gov (Michael L. Hall)
+Subject: Fermenting mead
+
+
+
+
+Hank Luer writes:
+
+
+>Regarding fermentation of honey to make mead: About eleven years
+>ago I bought five gallons of wild-flower honey, diluted it to a
+>specific gravity of 1.1 (wine strength), added acid blend (tar-
+>taric, citric, malic) to .9% and sprinkled in five sachets (5g ea)
+>of dry montrachet wine yeast. This produced about 25 gallons of
+>liquid. It was January and both the water and the fermentarium
+>(New Jersey cellar) were cold. I waited. Nothing happened.
+
+
+[goes on to mention trying several other things, finally adding
+some grapes and being successful.]
+
+
+The thing that you were missing in the first trial was yeast 
+nutrient. Normally, brewers don't have to worry about this, 
+because it is contained in the ingredients (malt or fruit).  
+However, if you are making a straight mead (no fruit, only 
+honey), then you need to add yeast nutrient yourself. Yeast
+nutrient can be as simple as ammonium chloride, but there are 
+also various brand names available on the market that different 
+people swear by. Any good book on making mead should have a 
+discussion of this.
+
+
+Mike Hall
+hall`at`lanl.gov
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 92 09:33 PDT
+From: Bob_Konigsberg`at`3mail.3com.com
+Subject: Stainless Steel corrosion
+
+
+In HBD # 945 Jack Schmidling writes about his chlorine/stainless steel 
+experiment.
+
+
+I've had corrosion problems with stainless especially where it is of 
+cheap(er) quality.  The first stock pot I had was ok, but I left the lid 
+on, with liquid (no chlorine) overnight, and the next morning, the lid 
+was covered with rust flowers and pitting.  In two cases our stainless 
+tableware (an inexpensive set) has developed similar marks.
+
+
+FWIW, it seems that the mixing of ingredients in the stainless alloy is 
+not always as good as it should be, and lumps (crystals??) of straight 
+steel/iron are left in the material so that the chromium oxide (whatever 
+form) does not form a complete seal on the material, hence the rusting.
+
+
+None of the high quality stainless stuff I've bought has ever shown any 
+of these problems, so it goes back to "you get what you pay for" or if 
+not, then take it back to the store.
+
+
+BobK
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 92 10:48:53 MDT
+From: Brian.Smithey`at`Central.Sun.COM (Brian Smithey)
+Subject: Bleach sanitation
+
+
+>>>>> In HBD #945, JKL <JLAWRENCE`at`UH01.Colorado.EDU> writes:
+
+
+> In HB943, Jeff Frane writes:
+
+
+Jeff> Change them both, why don't you. If you're sanitizing with the right
+Jeff> concentration of chlorine you shouldn't have to rinse at all, and you're
+Jeff> pretty much defeating the purpose by throwing that water onto your
+Jeff> sanitized surfaces -- try using boiled water if you feel a need to
+Jeff> rinse.
+
+
+Jane>    OK, I'll bite.  What's the "right" concentration of chlorine?  I 
+Jane> thought you had to rinse until there wasn't any more smell.  Won't any
+Jane> chlorine left on the equipment kill all the good stuff?  (I'm currently
+Jane> using 1-2 Tbl. of chlorine bleach per 1 gal water.)
+
+
+
+
+This was covered a while ago on the HBD, I think Bob Jones and
+George Fix went back and forth on it a bit.  I seem to remember
+the final outcome being that 1/2 c. of grocery store bleach
+per 5 gallons of water was sufficient to get the chlorine level
+to the 200 ppm or whatever concentration it was that will
+sanitize.  I've been using this concentration with 30 minute
+contact times and no rinsing for about 4 or 5 batches now, and
+haven't noticed any problems -- my yeast takes off ok, and I
+don't notice any off-flavors from the bleach treatment.  I am
+very careful to pour out every bit of chlorine/water that I
+can, which usually requires tipping the carboy upside down
+several times with several minute "rest" periods in between,
+to allow the drops to run down the side and pool in the bottom
+of the carboy.  The pools pour out easier than trying to shake
+the drops out.
+
+
+If you want to convince yourself that the beer flavor isn't
+being affected, take it to your local homebrew club and have
+some guinea pigs taste test it for you (Hi Dave!).  Or enter
+it in a competition that will provide feedback and check what
+the judges say.  Or drink it yourself, and if you're happy
+then it works.
+
+
+A quick run of "units" shows 16 tablespoons per cup, so I'm
+using 8 tablespoons per 5 gallons.  Your 1-2 Tbl. per gallon
+(5-10 Tbl. per 5 gallons) is right in the ballpark.
+
+
+Brian
+- --
+Brian Smithey / Sun Microsystems / Colorado Springs, CO
+smithey`at`rmtc.Central.Sun.COM
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 1992 13:11 EST
+From: Frank Tutzauer <COMFRANK`at`ubvmsb.cc.buffalo.edu>
+Subject: truncated digests
+
+
+About these truncated digests.  I think what happens is sometimes a stray end-
+of-file marker gets put in.  For example, I use WordPerfect to write my posts,
+which I then save as ASCII and upload to the Vax for mailing.  The problem is
+that WordPerfect puts an EOF at the end of the file, which I then strip out
+using my Vax editor.  Sometimes I forget, though, and then depending on the
+software you use to read the digest, you may or may not get truncated at the
+EOF I left in.  My software (Browse) ignores the end-of-file, so the digest
+looks ok to me, but other software respects the EOF, hence truncation.  Even
+if you get someone to email you another copy, until the EOF is stripped,
+you'll still get truncated.
+
+
+Now let's just hope I remember to take the end-of-file out of THIS post.
+
+
+- --frank
+
+
+
+
+------------------------------
+
+
+Date: Tue, 11 Aug 92 11:12:26 MDT
+From: scojam`at`scojam.Auto-trol.COM (Scott James.)
+Subject: Mash - Hot Water Heater
+
+
+
+
+Last time I suggested the idea of mashing with a modified hot water heater.
+After some investigation, here is what I've discovered...
+
+
+1.  Hot water heaters are insulated with 1~3" glass.  This would be a real
+    pain to cut through.
+
+
+2.  They heat upto 180F, but with a variance of +/- 20F.  The stability comes
+    from the thermal isolation of that thick glass barrier.
+
+
+After talking with this owner/operator of a local heating business, we started
+talking about possibilities.  They ranged from using a kiln(!!) with a temp.
+controller to keep a steel vessel at a constant mash temperature to using a
+pot wrapped with nichrome wire as the heating element, all encased in some
+kind of insulation.
+
+
+To me, this almost sounds like building a nuclear powered baby-bottle warmer.
+It could be done, but why so expensive?
+
+
+I'm currently using a 50 qt. coleman cooler with added hot water... draining
+through a copper tube with slits cut into it with a hack saw.  I keep getting
+stuck sparges, but I think it's because the brew shop I use to grind my malt
+uses an old coffee mill--I get lots of flour.
+
+
+Oh well, I just wanted to keep you posted about ideas and progress (or lack of)
+
+
+- --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--
+Scott James (N0LHX)                        scojam`at`Auto-Trol.COM
+Ham - Guitarist - HomeBrewer - Pilot        Auto-Trol Technology
+- --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+
+
+End of HOMEBREW Digest #946, 08/12/92
+*************************************
+-------

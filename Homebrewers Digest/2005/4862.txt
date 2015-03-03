@@ -1,0 +1,895 @@
+﻿Date: Wed, 5 Oct 2005 23:59:56 -0400
+Subject: Homebrew Digest #4862 (October 05, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4862                             Wed 05 October 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Analysis of the Continuous sparging process/Viscosity issues (David Harsh)
+  Re: Mashout temp and viscosity ("Peter A. Ensminger")
+  The Second 2nd Annual Hogtown Brew-Off (Mark Tumarkin)
+  racking of p-lambics (KEITH R BUSBY)
+  Re: And another thing ! (Jeff Renner)
+  Viscosity ("Spencer W. Thomas")
+  RE: Subject: efficiency, 1/ batch sparge analysis (Steven Parfitt)
+  Sparge efficiency, Mash out and CharlieP ("Dave Burley")
+  Re: Wort Chiller Efficiency ("Craig S. Cottingham")
+  RE: Wort Chiller Efficiency ("Mike Sharp")
+  The Second 2nd Annual Hogtown Brew-Off (Mark Tumarkin)
+  Steve Alexander and Steve Jones  re Efficiency and Batch Sparging (Bill Velek)
+  Dixie Cup XXII call for judges ("rkolacny")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 5 Oct 2005 00:06:21 -0400
+From: David Harsh <dharsh at fuse.net>
+Subject: Analysis of the Continuous sparging process/Viscosity issues
+
+
+Steve Alexander presents an interesting analysis of a continuous 
+sparging process, but unfortunately, he hasn't modelled the grain bed 
+used in any lauter tun I've ever encountered.
+
+
+Look at the process as described in the model:
+
+
+>   "S/2 case":
+>   Step 1: remove S/2 of the original mash water.  <snip>
+>   Step 2: After equilibrium, we again replace S/2 of the liquid.  
+> <snip>
+>    Drain:  Finally we drain the (M+X-U) volume of liquid
+
+
+What is described here is a sparge process where the grain bed is 
+continuously stirred in order to maintain a uniform concentration 
+within the entire bed; analogous to a stirred tank reactor.  Since 
+we're dealing with a fixed bed extraction, operating in unsteady state 
+with varying conditions within the grain bed, the calculations here do 
+not apply.
+
+
+In order to properly model this system (which I think would be a 
+colossal waste of time - I'd rather add the proverbial pound of grain 
+if efficiency is the issue) we need to know some sort of equilibrium 
+relation between the solution and the grain phase; a "sorption 
+isotherm" of some sort.  That, with a suitable SWAG with regard to the 
+bed characteristics, might yield useful information.  But a) I doubt it 
+and b) I no longer have students to assign such problems to!  But I do 
+know that the problem has been set up and solved in Carnahan's Applied 
+Numerical Methods text I used back when Fortran was considered an 
+advanced programming language.
+
+
+If properly modelled, I doubt that the batch process would be found to 
+more efficient.  I'll also comment that "efficiency" here could have so 
+many meanings.  Taking the time to solve the mathematical model would 
+not count as efficient in my opinion.  But I digress.
+
+
+- ---------------------------
+On mash viscosity-
+        I always assumed that beginning homebrew books were just using 
+improper terminology and that they were referring to wort or extract 
+liquid viscosity, which does decrease with temperature.  The references 
+provided in recent digests actually measured the viscosity of the mash 
+itself, and since the grain is stationary during lautering, the mash 
+viscosity would have no effect on the process - the wort viscosity is 
+another matter, however.  I didn't find the lack of mash viscosity 
+decrease particularly surprising though - the volume fraction of solids 
+in the mash doesn't change much and that's the primary factor if you 
+look at most correlations for viscosity of suspensions (see Einstein's 
+pioneering work in the field).
+        So why would mash out help efficiency?  Liquid viscosity decreases, 
+mass diffusivity increases slightly; thus the Schmidt number decreases 
+and the particle Reynolds number increases (both changes are small).  
+So there wouldn't be much effect on mass transfer coefficient.  The 
+only thing left is the equilibrium sorption relationship - the isotherm 
+I mentioned earlier.  I would suspect if there's an effect, that's 
+where we'd find it.
+
+
+Dave Harsh                                                Cincinnati, OH
+Bloatarian Brewing League
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Oct 2005 00:34:48 -0400
+From: "Peter A. Ensminger" <ensmingr at twcny.rr.com>
+Subject: Re: Mashout temp and viscosity
+
+
+Yes, the effect is negligible! (as noted by -S in
+http://www.hbd.org/hbd/archive/4859.html#4859-2 ). Figure 2d in J Inst > 
+Brew 111(2): 165-75 is especially relevant. Under the conditions of
+these experiments, an elevated mashout temperature (78C=172F) has little
+effect on wort viscosity.
+
+
+Anyone know of an 'el cheapo' viscometer that a poor homebrewer could
+afford?
+
+
+Cheerio!
+Peter A. Ensminger
+Syracuse, NY
+hbd.org/ensmingr
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Oct 2005 06:48:26 -0400
+From: Mark Tumarkin <tumarkin at hogtownbrewers.org>
+Subject: The Second 2nd Annual Hogtown Brew-Off
+
+
+The Second Time Around; the "2nd Annual" Hogtown Brew-Off is Back!
+
+
+After the first 2nd Annual Hogtown Brew-Off was canceled last year due
+to a series of unasked-for hurricanes, we're back bigger than ever! This 
+time,
+the Second 2nd Annual Hogtown Brew-Off will be held on Saturday,
+November 19th. We're looking for entries in all BJCP categories of Beer, 
+Mead
+ and Cider. The competition is sanctioned by both the AHA and the BJCP.
+The entry window opens Monday, Oct. 24th and closes Friday, Nov. 11th.
+
+
+Please check our website at www.hogtownbrewers.org for everything you'll 
+need
+to enter the Brew-off.  We anticipate that this page will be fully 
+functional very soon
+with on-line registration for judges, electronic entry forms, and the 
+full details of all activities.
+
+
+Check back at the website over the next several weeks for additional 
+information.
+If you're local, or willing to travel, we're going to need help from you 
+judges to give the
+entrants the best possible feedback. And as with the 1st Annual Hogtown 
+Brew-Off,
+we plan to show you a great time! We've got a great new location at the 
+brand new
+Pontiac Tavern. We'll be holding another One Pub Pub-Crawl to Stubbies. 
+And of course,
+we'll have another great award ceremony and dinner, with some great 
+prizes and an
+awesome raffle. So don't miss it - mark your calendars now.
+
+
+Last time, we got some great entries from Florida and around the 
+country. We're looking
+forward to even more this year.
+
+
+thanks,
+Mark Tumarkin
+
+
+Please direct any questions to Craig Birkmaier, Competition Organizer
+Phone: 352 258-2543 Email: craig at pcube.com
+Or judging questions to Dave Williams, Chief Judge
+Email:  rdavis at gator.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Oct 2005 07:43:48 -0500
+From: KEITH R BUSBY <kbusby at wisc.edu>
+Subject: racking of p-lambics
+
+
+Am I right in assuming that it is undesirable to rack p-lambics (or sour
+beers using Wyeast Roeselaere) to secondary at all?
+
+
+Keith
+
+
+Keith Busby
+Douglas Kelly Professor of Medieval French
+Department of French and Italian
+The University of Wisconsin
+618 Van Hise Hall
+Madison, WI 53706
+(608) 262-3941
+(608) 265-3892 (fax)
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Oct 2005 08:48:01 -0400
+From: Jeff Renner <jsrenner at umich.edu>
+Subject: Re: And another thing ! 
+
+
+Mike Dixon of Wake Forest, NC  wrote about mash viscosity:
+
+
+> What I do know is that stirring the mash I create at home becomes  
+> easier as
+> the temperature increases from after dough in to mashout. ... I'm fine
+> with atrributing it to a lowered viscosity of the mash due to the  
+> higher
+> temperature.
+
+
+I think it may be due to the mash enzymes acting on the starch and  
+making it less viscous.  I see this all the time at a constant  
+temperature when doing a cereal mash with corn meal.  It noticeably  
+thins out with time at a constant temperature.
+
+
+Jeff
+
+
+- ---
+Jeff Renner in Ann Arbor, Michigan USA, jsrennerATumichDOTedu
+"One never knows, do one?"  Fats Waller, American Musician, 1904-1943
+***Please note new address***
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Oct 2005 09:07:33 -0400
+From: "Spencer W. Thomas" <spencer at spencerwthomas.com>
+Subject: Viscosity
+
+
+Jeff Renner speculates:
+
+
+>I think it may be due to the mash enzymes acting on the starch and  
+>making it less viscous.  I see this all the time at a constant  
+>temperature when doing a cereal mash with corn meal.  It noticeably  
+>thins out with time at a constant temperature.
+>
+Yup.  If you scan the articles that have been thrown around over the
+last few days, you'll see a significant correlation between viscosity
+reduction and amylase concentration.  A couple of them show an
+interesting *increase* in viscosity, apparently related to
+gelatinization of some malt components during the temperature step up to
+the first amylase rest.  This makes it pretty clear that temperature is
+*not* the major determinant of viscosity in a mash.
+
+
+=S
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Oct 2005 06:56:09 -0700 (PDT)
+From: Steven Parfitt <thegimp98 at yahoo.com>
+Subject: RE: Subject: efficiency, 1/ batch sparge analysis
+
+
+steve does a nice job of laying out the analysis of
+batch vs fly (or imcremental) sparging.
+
+
+<Well my face may red, but it's others acting like
+<baboons here. Continuous sparge is LESS efficient
+<than batch in the general case.
+<But it requires some detailed analysis to see why.
+
+
+ ...snip...
+
+
+<Now all mashes start with a volume of mash water M,
+<and we assume that after the relatively long mash
+<period that the extract both in and outside the grist
+<are near equilibrium.
+
+
+Ah-Ha! But are they really near equilibrium? How long
+does it take to reach this equilibrium? Is a 40 minute
+mash followied by a 20 minute drain, and 20 minute
+wait before draining the second sparge enough?
+
+
+If not, then the equations need to be driven by the
+differnece between in extract solution and not in
+solution in which case fly sparge creates a greater
+differnetial to drive the equations. 
+
+
+Therefore, IF one waits long enough to reach
+equilibrium batch sparge will be more efficent. But
+fly sparging may be more efficient if sparging is done
+before equilibrium is achieved.
+
+
+
+
+
+
+Steven, -75 XLCH- Ironhead Nano-Brewery  http://thegimp.8k.com
+Johnson City, TN [422.7, 169.2] Rennerian 
+
+
+"There is no such thing as gravity, the earth sucks." Wings Whiplash - 1968
+
+
+
+
+                
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Oct 2005 09:58:48 -0400
+From: "Dave Burley" <Dave_Burley at charter.net>
+Subject: Sparge efficiency, Mash out and CharlieP
+
+
+Brewsters:
+
+
+SteveA insists that batch sparging is more efficient than continuous
+sparging in terms of removing soluble sugar and expends several pages with
+his examples to try to prove it, denying Chemical and Chemical Engineering
+concepts to the contrary.
+
+
+Here is a simple way to think about it.
+
+
+At the end of the sparge in either case, the wort coming from the sparge has
+a certain specific gravity. We know for sure the wort inside the grain is
+probably more than the wort but If we make the simple assumption (not really
+true) that the specific gravity of the wort inside the grain is the same as
+the wort outside the grain, then we can see that with the batch sparge, in
+which the final sparge has a specific gravity of say 1.030 or whatever, and
+the continuous sparge has a value of 1.006 or less, there will be a clear
+difference in the amount of sugar left in the grain.  I leave it up to the
+student to calculate the amount of sugar left in the grain in both cases,
+given that after the mash about a pint (I think) of water is contained in
+each dry pound of malt.  
+
+
+Clearly the lower specific gravity at the end of the sparge, in the case of
+the continuous sparge, indicates the better efficiency of this process since
+there is less sugar absorbed in the remaining brewer's grains.  Now go back
+and examine the original assumption and you will see an even bigger
+difference, since the continuous sparge allows the establishment of an
+equilibrium of the wort in the grain with the sparge water and the much
+shorter time of the batch sparge likely does not, as studies on the
+efficiency of different rates of continuous sparge would indicate.  Faster
+sparges are less efficient. 
+
+
+When you realize that in the continuous sparge, the exiting specific gravity
+is the highest value in the whole column of grain and then go back and
+re-examine these cases, it becomes even clearer. 
+
+
+Try the experiment I suggested in which these two sparging methods are done
+with the same batch. Then add the same <volume> (say 4 cups) of drained
+brewer's grains to the same amount of water (maybe a pint to cover) and
+allow it to stand overnight. Measure the sugar concentration of the water in
+each case with Clinitest and you will find the batch sparge will have the
+higher concentration, proving it is less efficient.
+
+
+- ---------------
+Steve, the reason for the temperature boost at the end of the mash (aka
+mashout) has nothing to do with the viscosity change (which is in fact lower
+at the higher temperature, as we both now agree) but is done to clean up any
+starch - avoiding a "Blue mash", as the Germans call it, and to stop any
+enzyme action. Co-incidentallly, the lower viscosity of the wort will allow
+faster draining and most likely a faster establishment of equilibrium at the
+higher temperature, and, although I have never seen the wort viscosity given
+as the reason for the mashout, I agree with you a lower mash viscosity is
+not the raison d'etre. Pardon my French.
+
+
+- ---------------
+Steve, I wasn't denigrating CharlieP by using his own description of himself
+(which I find quite amusing as I do some of his other clever attempts at
+humor), just pointing out the origin of the "add another pound of malt" and
+the state of the art when CharlieP wrote that. I doubt that today he would
+say that, just like he now knows how to do an iodine test including the
+grain and recommends longer mashes and not to spray hot wort through the
+air. In fact, I think CharlieP has done a great thing for the Home Brewing
+industry in the US and around the world and his position and big paycheck
+(clearly more than a grade school teacher) shows people appreciate that.
+
+
+- --------------
+And you couldn't see me smiling when I wrote that "graininess" flavor thing,
+just to get your back up. {8^)  I do find, however, that continuous sparging
+does give a more complex flavor to the beer, compared to batch sparged and
+malt extract beers. Whether or not a bunch of other unknown people with
+other unknown preferences and experience (without commenting on the
+difference in complexity) prefer it or not is irrelevant.
+
+
+Keep on Brewin'
+
+
+Dave Burley
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Oct 2005 10:33:35 -0500
+From: "Craig S. Cottingham" <craig at cottingham.net>
+Subject: Re: Wort Chiller Efficiency
+
+
+On Oct 4, 2005, at 07:29, Pete Limosani <peteLimo at comcast.net> wrote:
+
+
+> I'm trying cut down on my water usage during a brew session.
+>
+> I boil about 7.5 gallons down to 6 and use an immersion chiller to 
+> cool it.
+> It generally takes 20-25 minutes to get from boiling to 70-75*.
+>
+> When I first start cooling I open up the valve full throttle and the 
+> water
+> escaping the chiller is steaming. The difference in temperature 
+> between water
+> entering the chiller and exiting the chiller is great. As the wort 
+> cools down,
+> the difference in temperature closes and it takes longer to drop that 
+> next
+> degree.
+>
+> As the difference in temperature decreases, I am tempted to slow the 
+> amount
+> of water running through the chiller to save water. My thinking is 
+> that less
+> water will be used, but the water may extract a couple more degrees 
+> while
+> it is travelling.
+>
+> Is my logic flawed?
+
+
+At first, I thought this was going to be easy to answer. Then I thought 
+about it some more, and realized it was more difficult. Then I thought 
+some more, and I realized it was a *lot* more difficult. A gut feeling 
+became algebra, which became differential equations. Too many years 
+(and beers) have passed since college; I don't have the math muscles I 
+used to.
+
+
+So it's back to the gut feeling.
+
+
+> Will I use less water over the whole cooling cycle by keeping it wide 
+> open?
+
+
+I'm confident answering "no" to this.
+
+
+Heat transfer is a function of temperature differential and time. The 
+greater the difference in temperature between the wort and the cooling 
+water, the faster heat will flow from one to the other. The *quantity* 
+of heat that's transferred is this rate times the amount of time that 
+the cooling water is in contact with the wort.
+
+
+Twenty feet of 3/8" OD copper tubing has an interior volume of about 
+0.075 gallons (a little less than 1 1/4 C). My kitchen faucet can fill 
+a gallon jug in a little over 30 seconds (for a flow rate of about 2 
+gal/min), and I expect without hard evidence that my garden hose could 
+do it faster. At 2 gal/min, water goes from one end of your immersion 
+chiller to the other in about 2 seconds. When the wort has just 
+finished boiling, that's enough time to soak up a fair amount of heat, 
+but as the wort temperature drops, less and less heat flows in that 2 
+seconds. You can't increase the rate of heat transfer -- in fact, it's 
+going down, because the temperature differential is going down -- so 
+you have to increase the amount of time heat has to transfer.
+
+
+In other words,
+
+
+> Or will I use less water by slowing the flow and waiting a little 
+> longer?
+
+
+Yes.
+
+
+> How do I find the best balance between the rate of flow and the rate 
+> of heat
+> extraction?
+
+
+This is where it gets interesting. We could use math -- okay, maybe you 
+could use math; I can't, because I've forgotten the necessary math 
+skills. :-) So let's try to approach it empirically.
+
+
+Since heat flows only when there's a difference in temperature, the 
+cooling water will never get hotter than the wort. But if the 
+temperature of the cooling water at the exit is lower than the 
+temperature of the wort, we're leaving money on the table; there was a 
+little more potential for heat transfer. What we should be aiming for 
+is for the exit temperature of the cooling water to be the same as the 
+wort temperature.
+
+
+You could set up thermometers in the wort and the exit of the chiller, 
+and monitor them closely, continuously reducing the flow rate of the 
+cooling water... or you could relax and drink whatever you made the 
+last time you brewed. Start your cooling water full bore. As you clean 
+up, occasionally feel the water coming out of the chiller; as soon as 
+you notice it feels cool or tepid instead of warm or hot, turn the 
+water down.
+
+
+Hope this helps.
+
+
+- --
+Craig S. Cottingham
+craig at cottingham.net
+OpenPGP key available from:
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x7977F79C
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Oct 2005 09:13:13 -0700
+From: "Mike Sharp" <rdcpro at hotmail.com>
+Subject: RE: Wort Chiller Efficiency
+
+
+
+
+Pete Limosani asks about Wort Chiller Efficiency:
+
+
+"I'm trying cut down on my water usage during a brew session."
+
+
+If minimizing water use while chilling is important, use a counterflow
+chiller. It's much more efficient than an immersion chiller (though a bit
+more of a pain to use).
+
+
+Regards,
+Mike Sharp
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Oct 2005 13:02:31 -0400
+From: Mark Tumarkin <tumarkin at hogtownbrewers.org>
+Subject: The Second 2nd Annual Hogtown Brew-Off
+
+
+The Second Time Around; the "2nd Annual" Hogtown Brew-off is 
+back!!
+
+
+After the first 2nd Annual Hogtown Brew-off was cancelled 
+last year due a series of unasked-for hurricanes, we're back 
+bigger than ever! This time the Second 2nd Annual Hogtown 
+Brew-off will be held on Saturday, November 19th. We're 
+looking for entries in all BJCP beer, cider & mead 
+categories. The event is sanctioned by both the BJCP & AHA. 
+The entry window opens Monday, Oct 24th & closes Friday, Nov 
+11th.
+
+
+Please check our website at www.hogtownbrewers.org for all 
+info concerning the Brew-off. We anticipate that this page 
+will be fully functional very soon with electronic entry 
+forms, online judge-entry, and full details on all activities.
+
+
+Check back at the website over the next several weeks for 
+addtional info. If you're local, or willing to travel, we're 
+  going to need help from you judges to give the entrants 
+the best possible feedback. And as with the 1st Annual 
+Hogtown Brew-off, we plan to show you a great time! We've 
+got a great new location at the brand new Pontiac Tavern. 
+We'll be holding another One Pub Pub-Crawl to Stubbies. And 
+of course, we'll have another great award ceremony & dinner, 
+with some great prizes and an awesome raffle. So don't miss 
+it - mark your calendars now.
+
+
+Las time, we got some great entries from Florida & around 
+the country. We're looking forward to even more this year.
+
+
+thanks,
+Mark Tumarkin
+
+
+Please direct any questions to Craig Birkmaier, Competition 
+Organizer craig at pcube or to Dave Williams, Chief Judge at 
+rdavis at gator.net
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Oct 2005 13:18:09 -0500
+From: Bill Velek <billvelek at alltel.net>
+Subject: Steve Alexander and Steve Jones  re Efficiency and Batch Sparging
+
+
+Steve Alexander: those were outstanding posts you wrote containing the 
+mathematical proof that batch sparging is actually more efficient than 
+fly sparging.  Thank you.
+
+
+I do have one question, though.  Early in your first post, you stated:
+"Let's say we have X volume units of soluble extract (when in solution) 
+and let's just estimate that this has some density in solution around 
+1.55 times that of water - close to mash extract, so the mass of extract 
+is then X * 1.55."
+
+
+Was that extraneous info, or does it relate in some way to the math you 
+have done?  No problem if it's extraneous, except that it initially 
+caused me some slight confusion as I looked for it later in your post. 
+I say that because the "1.55" constant never appears again anywhere in 
+your math, nor can I find where you have substituted it with a variable. 
+  Am I missing something?
+- ---
+Steve Jones: until Steve Alexander posted his mathematical proof, I was 
+very much persuaded by the apparent logic of your post.  After looking 
+at his math, I felt compelled to sort out the logic to try to figure out 
+why they didn't seem to agree.  I _think_ I have it figured out now.  I 
+think that all of your premises were/are correct, but I think that you 
+and I both jumped to the wrong conclusion.  While it is no doubt true 
+that the SG of the final 'batch' will always be higher than the SG of 
+the final runnings on the fly (continuous sparging), that doesn't 
+logically mean that there is more sugar left behind in the grain bed, 
+like I think we each assumed.  I think the answer is that we should not 
+consider the SG of the final batch that is _drained_, but rather we 
+should consider what would be the SG of the tun when it is refilled with 
+the same volume as remains when the fly sparging is stopped.  I think, 
+based on the math, that we would find that when it is diluted (as if we 
+were planning to do a third batch sparge), that the SG of the 3rd batch 
+would be lower than the SG of what remains at the end of a fly sparge. 
+I hope I'm making some sense here.
+- ---
+Thanks again to everyone; this was all very interesting and thought 
+provoking, but now I have a couple of follow-up questions: in another 
+brewing forum, I was advised of the importance of "floating" the grain 
+bed in the tun by minimizing stirring in order to allow air to remain 
+trapped in the grist.  But it is my understanding that when batch 
+sparging, new sparge water is stirred into the grain bed to dissolve 
+remaining sugars.  Because of the stirring, I assume that the bed does 
+not float, per se; is that true, and does it matter when batch sparging? 
+  If the bed doesn't float, are there more stuck mashes associated with 
+batch sparging?
+
+
+Thanks for any further info.
+
+
+Bill Velek
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed,  5 Oct 2005 15:59:11 -0500
+From: "rkolacny" <rkolacny at mail.ev1.net>
+Subject: Dixie Cup XXII call for judges
+
+
+ATTENTION:
+
+
+Beer Judges Needed!!!
+
+
+It is Dixie Cup time again! and we will start judging the Dixie 
+Cup XXII entries soon. Please, come be a part of Dixie Cup and 
+help us judge. We need beer judges of all skill levels to come and 
+help out. Don't worry if you are not BJCP ranked. We will either 
+put you on a panel with experienced judges or use you as a 
+steward. Everyone can be a beer judge!!!
+
+
+Here is the judging schedule:
+
+
+10/16 First round judging at Saint Arnold Brewing Company from 9 
+AM to 4 PM.
+
+
+10/18 First round judging continues at Saint Arnold Brewing 
+Company from 6 PM to 10 PM. (This judging session is contingent
+upon progress made on Sunday).
+
+
+10/21 First round judging continues Noon -
+
+
+10/22 Second round judging Noon -
+
+
+That's it! Please come out and give generously!
+
+
+Na zdravi (to your health or cheers!)
+
+
+Rob Kolacny 
+Dixie Cup Coordinator
+http://www.crunchyfrog.net/dixiecup/
+Secondary Fermenter 
+Foam Rangers
+www.foamrangers.com
+rkolacny at ev1.net 
+979 532 8056 wk 
+979 532 1932 hm 
+979 533 1173 cell
+ 
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4862, 10/05/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

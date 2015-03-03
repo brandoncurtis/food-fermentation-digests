@@ -1,0 +1,1400 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Mon Feb 13 03:38:54 1995
+Status: O
+X-VM-v5-Data: ([nil t nil nil nil nil nil nil nil]
+        ["46959" "Mon" "13" "February" "1995" "01:01:02" "-0700" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1129" "Homebrew Digest #1656 (February 13, 1995)" "^From:" nil nil "2" nil nil nil nil]
+        nil)
+Received: by judgmentday.rs.itd.umich.edu (8.6.9/2.2)
+        with X.500 id DAA24959; Mon, 13 Feb 1995 03:38:51 -0500
+Received: from goodman.itn.med.umich.edu by judgmentday.rs.itd.umich.edu (8.6.9/2.2)
+        with SMTP id DAA24953; Mon, 13 Feb 1995 03:38:49 -0500
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA12559
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Mon, 13 Feb 95 03:38:43 -0500
+Received: from hpfcrdg.fc.hp.com by hpfcla.fc.hp.com with SMTP
+        (1.38.193.4/15.5+IOS 3.20) id AA25019; Mon, 13 Feb 1995 01:38:09 -0700
+Received: by hpfcmi.fc.hp.com
+        (1.36.108.4/15.5+IOS 3.22) id AA20003; Mon, 13 Feb 1995 01:01:02 -0700
+Message-Id: <9502130801.AA20003`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1656 (February 13, 1995)
+Date: Mon, 13 Feb 1995 01:01:02 -0700
+
+
+
+
+
+
+HOMEBREW Digest #1656                             Mon 13 February 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Sanitizing kegs (Al Pacifico)
+  Sleepy yeasties (Ian the camel)
+  Automated brewing (BILL MARKS)
+  Belgian Trippels (Diane S. Put)
+  Hail to Ale Competition (offpeak)
+  5L taps/ftpmail (Ronald Moucka)
+  BBC Hops (Ronald Moucka)
+  BBC hops/another use for steam (Ronald Moucka)
+  Gravity dispensing and Oxygen (Gilad Barak)
+  RIMS Temperature Control (Evan Kraus)
+  Wooden Casks (Terry Terfinko)
+  Re: AHA/BJCP/HBWTA split (David Cutkosky)
+  Rare Hops (Gary Bell)
+  Re: Feeback Request: UK-Oriented Homebrewing (Tel +44 784 443167)
+  My ESB (Jim Busch)
+  Re: Belgian Dubbel (John DeCarlo              )
+  Re: Water Adjustments (Spencer.W.Thomas)
+  AHA and the BJCP (Mark A. Stevens)
+  Re: removing rubber (Spencer.W.Thomas)
+  Belhaven recipe (Jim Cave)
+  RIMS Temperature Control (Jeff Berton)
+  Preparation of Isinglass (Jim Cave)
+  RE: Grain FAQ, Cloudy Beer Problem (Jim Dipalma)
+  Aeration in 2ndary/Screw-top Buckets/ (" Patrick G. Babcock")
+  Pressure Relief Valves for Soda Kegs, Stirring (Waldon, Tracy )
+  Newsgroups? (Scott Howe)
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Thu, 9 Feb 1995 12:46:35 -0800 (PST)
+From: Al Pacifico <pacifico`at`u.washington.edu>
+Subject: Sanitizing kegs
+
+
+Since there's been a lot of discussion about sanitizing Cornelius kegs 
+lately, I wanted to share an approach I've used and see what people think.
+  I take a 5 gallon keg and add about two gallons of boiloing water, then 
+seal it. I shake it up real hard and let it sit on the floor a while. I 
+then might flip it and rest it on its top to let the boiling water 
+contact the lid and seal for a while. Then I attack a quick disconnect to 
+the "in" connector while it's inverted to drain some boiling water 
+through that connector. The shaking of the keg generates steam and 
+pressure within, so the water comes out pretty quickly. I use this 
+technique to sanitize the pressure relief valve and the "out" connector 
+and siphon tube.
+  I've never had any problems with my kegs using this technique, although 
+if the boiling water sits in there a long time, the rubber boot at the 
+bottom smells kind of funny.
+  Anyone tried this or had problems with damaging kegs or inadequately 
+sanitizing them?
+
+
+al pacifico
+university of washington
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 9 Feb 1995 16:48:55 -0600 (CST)
+From: Ian the camel <ianq`at`owlnet.rice.edu>
+Subject: Sleepy yeasties
+
+
+
+
+        Had a quick question for the hefty stout-makers.  Was making a 
+stout with some of the following: 6 lbs dark malt extract, 4 amber, 17.6 
+oz. turbinado and a pound of treacle.  All in all, starting gravity was 
+about 1.110 (Oy!) and, after a little vigorous fermentation with Irish 
+Wyeast, it settled to around 1.047.  Upon tasting, it's still pretty 
+sweet, and presumably the high alcohol content made life unhappy for the 
+poor little yeasties (that'll teach me to use so many sugars).  Pitched 
+in some addtional Wyeast sweet mead in a honey starter, and not much 
+happened (after two or three days it was still 1.047).  Any suggestions?  
+I want to stray from champagne yeast because it might rob the treacle of 
+its flavor.  The local brew store suggested blue lalvin yeast in an apple 
+juice starter.  Anyone have any suggestions?  Furthermore, does anybody 
+have any idea why apple juice is allegedly so effective?  Thanks muchly.
+
+
+
+
+
+
+
+
+Ian Quigley (ianq`at`owlnet.rice.edu)
+Baker 151, Rice University        
+Houston, Texas 77005-1891
+                                                        
+
+
+
+
+------------------------------
+
+
+Date: Thu, 09 Feb 95 18:56:00 -0400
+From: bill.marks`at`nccbbs.com (BILL MARKS)
+Subject: Automated brewing
+
+
+Norm Pyle's luke warm response to the idea of automating an all
+grain system got me thinking.  Can it be done - not should it -
+but can it.  I'm going to try it just for the fun of it.  I'm
+going to automate it using a 386 and a couple of ADCs and relay
+boards.  That part is simple at least in terms of locating
+hardware that will work. I already have the pumps and
+temperature sensors and a gas fired recirculation system using
+a Superb propane burner that I can fine adjust to raise the
+mash temperature at 1.5 - 2 deg F per minute.  I have even got
+good, consistent numbers for the overshoot so I know when to
+quit pouring the BTUs to it and hit the temperature I want.
+The problem: valves.  I need a source for solenoid or motor
+operated valves in the 3/8 inch pipe size range.  I'm going to
+nedd 8 or so.  AQny thoughts out there in HBD land?  E-mail is
+fine or answer in the digest and keep the thread alive.
+
+
+Obviously, I would like to hear from anybody that has actually
+automated a 3 vessel, 15 gallon system.
+
+
+TIA
+Bill Marks
+Portsmouth, RI
+
+
+------------------------------
+
+
+Date: Thu, 9 Feb 95 18:24:21 PST
+From: diput`at`eis.calstate.edu (Diane S. Put)
+Subject: Belgian Trippels
+
+
+>From *Don* Put: 
+
+
+Dave Pike <davep`at`cirrus.com> asks:
+
+
+>What's the HBD's concensus on the best sugar for brewing Belgian style 
+>Trippels? Does corn sugar work ok, or does an invert or candi sugar 
+>work better?
+
+
+I just brewed a tripple, trippel, or triple (I have found it spelled 
+different ways in different publications, although the spellings with
+double "p" seem to be more common) and about 13.5% of the grain bill
+was sugar.  Rajotte, in the _Belgian_Ale_ book, states that you can use
+"up to about 25% of total extract" when brewing this style.  Here's what
+I added for a 10 gallon batch:
+
+
+1 lb. Clear candi sugar (which I'm told is just regular sucrose)
+1 lb. Medium candi sugar (it's nice to have most of my family in Belgium!)
+      This is a combination of carmelized sugar and invert sugar in almost
+      a 50/50 mixture according to the spec sheets I have from Candico, 
+      Belgium's premiere producer of sugar products.
+2 lbs. Invert sugar made using Jeff Frane's recipe from Zymurgy.  Thanks,
+       Jeff!
+
+
+This was added to the wort obtained from 26lbs. of Belgian Pils malt.
+The resulting wort (11.5 gallons post boil) was 1.088 SG.  I pitched a 
+large, healthy yeast starter (this is very important for these high-
+gravity brews) and it fermented out to 1.010 at 60F.  I tasted it tonight
+and it's everything a trippel should be: clean, fairly neutral tasting (none
+of the higher alcohols that really don't belong here), a slighty sweet
+finish, good mouth feel, and a lingering warm feeling from the alcohol 
+(about 10.23% by volume).  It's extremely smooth for being so strong.  
+
+
+I plan on conditioning it for a couple months at 50F (my cellar temp right 
+now), then pitching fresh yeast at bottling time.  This is extremely 
+important when you want to reproduce the lively nature of the Belgian
+high-gravity ales.  It's also good practice for any high-gravity beers. 
+
+
+Hope this helps,
+
+
+don
+(diput`at`eis.calstate.edu until Feb. 20th)
+(dput`at`cello.gina.calstate.edu after Feb. 20th)
+
+
+
+
+
+
+
+
+- ----------------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: Thu, 9 Feb 1995 22:18:09 -0500
+From: offpeak`at`aol.com
+Subject: Hail to Ale Competition
+
+
+I have a story to relate about a recent AHA Club-Only competition.  I am
+pretty steamed, but would like to get others' opinions.
+
+
+A brewer in our club, The Prairie Homebrewing Companions of Fargo, North
+Dakota, had a pale ale pass the club gauntlet, and be entered in the Hail
+to Ale competition in Florida.  Today,  he got his score sheets back:  two
+recognized judges scored the IPA 47 and 47 in the first round.  This ale
+did not place in the second (final) round!  After calling a couple of
+other members of the club, he called James Spence, at the AHA, to see what
+kind of scores the first, second, and third place finishers had.  The
+scores were 44, 37, and 36, respectively.  Reportedly, Spence said "high
+scorers do not always win this type of competition".  There apparently was
+some kind of second/final round, but apparently no scores were given; it
+was some kind of perception thing.
+
+
+If the story above is accurate, which I believe it is, what is the use of
+entering this type of contest?
+
+
+------------------------------
+
+
+Date: Wed, 18 Jan 1995 15:43:41 GMT
+From: rmoucka`at`omn.com (Ronald Moucka)
+Subject: 5L taps/ftpmail
+
+
+Fellow Brewers,
+
+
+Two quick questions:  I would like to obtain a second 5L
+mini keg tap for parts.  Does anyone out ther have one
+they've given up on?  I'd be willing to pay a few bucks for
+one, especially if the tapping part is still functional (I
+don't care if the CO2 end isn't).
+
+
+Secondly, can someone help me with ftpmail?  I've tried
+every syntax I can think of, but can't seem to get it to
+work.  My access to the net is through a BBS, and is not
+"real time" so I'm forced to use the ftpmail method.  I'm
+trying to get a DOS copy of SUDS.  I know the archives have
+moved, but do the archives include only back issues of HBD,
+or does it include all the FAQ's, programs, etc?  Sorry this
+isn't directly beer related, but I've run out of options.
+
+
+Many TIA
+       .:.
+      :.:.
+    /|~~~~|
+   (_| D  |
+     |  B |   Ron Moucka, Brewmaster
+     `----'   DayBar Brewing, Ltd.
+  "It's not so much an indication of our legal structure
+   as it is a reflection of our abilities."
+rmoucka`at`omn.com
+
+
+------------------------------
+
+
+Date: Tue, 24 Jan 1995 17:54:06 GMT
+From: rmoucka`at`omn.com (Ronald Moucka)
+Subject: BBC Hops
+
+
+Brew Buds,
+
+
+About 3 months ago I sent Jim and the good folks at Boston
+Brewing Co (tm) a check for $12.00 for a pound of the
+illusive Mittlefrueh hops rumored to be available to
+homebrewers.  Although the check has not been cashed, I
+never heard a word from them.  Has anyone else out there
+tried this and received anything from them?  Unfortunately,
+I don't seem to be able to put my hands on their address or
+phone.  Can anyone help me here?
+
+
+Am I just a chump or what?
+       .:.
+      :.:.
+    /|~~~~|
+   (_| D  |
+     |  B |   Ron Moucka, Brewmaster
+     `----'   DayBar Brewing, Ltd.
+  "It's not so much an indication of our legal structure
+   as it is a reflection of our abilities."
+rmoucka`at`omn.com
+
+
+------------------------------
+
+
+Date: Thu, 26 Jan 1995 16:27:17 GMT
+From: rmoucka`at`omn.com (Ronald Moucka)
+Subject: BBC hops/another use for steam
+
+
+Brewers,
+
+
+The day I posted my question about what ever happened to the
+Boston Beer Co hop offer, I received a calendar from BBC
+with their address and phone on the first page.  Cool daily
+calendar with a beer quote or trivia for each day of the
+year.  They can be had free of charge by writing BBC at The
+Brewery, 30 Germania St., Boston, MA 02130 or call 617 522-
+3400.  Say what you will about Jim Koch and his business
+practices, they make a decent beer and if you can overlook
+the blatant commercialism of their freebees, they are nice.
+Anyway, as for the hops, they are still available.
+According to the person answering the phone at BBC, they are
+waiting for a large enough number of orders to make a bulk
+mailing.  One pound of Mittlefreuh hops (pellets I think) for
+$12.  Send a check to the above address.  My thanks to those
+of you who answered my post.  Hope this answers any
+questions.
+
+
+On another note, I've noticed a lot of talk about steam
+lately.  I have another use for steam that was suggested by
+a member of my local brew club.  I've been using it for a
+few years now with no ill effects.  I use steam to clean my
+kegs.  I picked up a tea pot at a second hand store for 25
+cents.  Take a drilled rubber stopper (#8 I think) and
+insert a short piece of copper tubing (4").  Now attach a 4-
+6' piece of hose to the copper tube and a liquid disconnect
+on the other end.  Now simply insert the stopper in the tea
+pot and connect the liquid disconnect to the keg.  Make sure
+you attach a gas disconnect to the other side of the keg to
+vent out the steam.  Put some water in your tea pot and
+boil.  The steam will sanitize the kegs and poppets in 15-20
+minutes.  Make sure your system is open or the pressure will
+build up and blow your stopper across the room in no time.
+Takes an hour or two to cool and you will want to drain the
+condensation from the keg.  I've never had a contamination
+problem using this method.  YMMV All disclaimers apply.
+
+
+Brew On,
+       .:.
+      :.:.
+    /|~~~~|
+   (_| D  |
+     |  B |   Ron Moucka, Brewmaster
+     `----'   DayBar Brewing, Ltd.
+  "It's not so much an indication of our legal structure
+   as it is a reflection of our abilities."
+rmoucka`at`omn.com
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 12:08:04 --300
+From: gilad`at`orbotech.co.il (Gilad Barak)
+Subject: Gravity dispensing and Oxygen
+
+
+In HBD1654 <ferguson`at`zendia.enet.dec.com> said:
+>[snip]
+> you can always gravity tap the keg, however, you will be introducing
+> oxegen, and therefore should probably finish it off within 5 days before
+> the beer spoils.
+
+
+IMHO oxygen has nowhere to come from because this is a sealed container with
+CO2 in the headspace.
+What will happen is that with gravity dispensing the pressure will
+simply drop and the beer will get less carbonated, but not oxygenated.
+When beer is dispensed by gravity the headspace grows and the pressure falls
+(Dalton`s law - Pressure * Volume = constant). The dissolved CO2 in the beer 
+will diffuse to the headspace until equilibrium is reached (Henry`s law) so 
+what actually goes into the increased headspace is CO2. The pressure in the
+headsoace will rise but will be lower than at the beginning and the beer will 
+now be less carbonated. It will not spoil, it will simply go flat. 
+
+
+- -----------------------------------------------------------------------------
+Gilad Barak - Israel
+gilad`at`orbotech.co.il
+- -----------------------------------------------------------------------------
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 95 6:54:11 EST
+From: Evan Kraus <ejk`at`bselab.bls.com>
+Subject: RIMS Temperature Control
+
+
+With all the talk of AI or PID control for say a RIMS system by a PC.
+Has anyone written any code to say read an A to D device such as that
+shown in the Jan/Feb issue of BT and take those readings and say pulse an
+electronic relay or triac and keep the mash temp within a desired range
+and at selected times raise said temp up to complete a mashing schedule ?
+
+
+Well if your out there I am interested and can build the components
+required to interface with the I/O of a pc.
+
+
+I already use a RIMS and love it but I am interested in further
+automating my mashing procedures
+
+
+What I am looking for is a program that will read an A/D device 
+and is able to pulse a triac etc. with the ability for me to put in 
+the times and temperatures for a  at least of 4 rests and to possibly 
+increase the speed of the pump during the move up in temp from one rest
+to another.
+
+
+I would also suppose that there are others out there that would also be 
+interested in this !!
+
+
+Evan
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 95 8:20:09 EST
+From: Terry Terfinko <terfintt`at`ttown.apci.com>
+Subject: Wooden Casks
+
+
+John Dunlop asks:
+
+
+>Can anyone provide me with addresses or phone numbers of USA <
+>suppliers of wooden casks and supplies in the 3 to 5 gallon range.<
+
+
+The Brewlab carries some unique items for casking beer.  They have 3
+to 15 gallon oak casks.  They are putting a new catalog together and will 
+soon have an 800 number for mail-order.  No affiliation... etc.
+        The Brewlab
+        1039 Hamilton Street
+        Allentown, PA  18101
+        Phone:  610-821-8410
+
+
+Cheers,
+Terry Terfinko - terfintt`at`ttown.apci.com
+
+
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 08:45:45 -0500
+From: davidc`at`interaccess.com (David Cutkosky)
+Subject: Re: AHA/BJCP/HBWTA split
+
+
+
+
+In HBD #1654 (Norman Pyle) npyle`at`hp7013.ecae.StorTek.COM writes:
+
+
+>I for one, can't help but see this AHA/BJCP/HBWTA split as a power struggle.
+>If so, this can do homebrewing no good at all.  I'd like to hear some
+>discussion from current BJCP judges on this.  What's going on here, folks?
+
+
+
+
+Norm:
+
+
+This is currently being *hotly* debated on the beer judge digest. This
+probably isn't the correct forum to be discussing the political impacts of
+organizations in the brewing community. The header information from the
+digest is included below. See the archive site for past copies of the digest
+and the reaction of respected judges.
+
+
+                         THE BEER JUDGE DIGEST
+
+
+                 digest submissions: judge`at`synchro.com
+          administrative requests: judge-request`at`synchro.com
+    send cancellations & rank updates to the administrative address
+          messages sent to the wrong address will be ignored
+
+
+          FTP Archives: guraldi.hgp.med.umich.edu in /pub/judge
+        WWW Archives: http://guraldi.hgp.med.umich.edu/Beer/Judge
+              Gopher Archives: guraldi.hgp.med.umich.edu
+
+
+                 Editor: Chuck Cox <chuck`at`synchro.com>
+       Archivist: Spencer Thomas <spencer.w.thomas`at`med.umich.edu>
+
+
+
+
+
+
+- --                              
+David,   St. Charles, IL
+                               Dammit Jim, I'm a homebrewer
+davidc`at`interaccess.com                  not a doctor!
+
+
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 07:23:46 -0800
+From: gbell`at`ix.netcom.com (Gary Bell)
+Subject: Rare Hops
+
+
+I dropped by to visit a friend who runs a small brewery yesterday and 
+discovered a new hop. It's called Columbus, and is *very* impressive. 
+It's a high alpha hop (13.5%) but still retains great aroma qualities. I 
+think it's derived from Cascade (?), but it has greater complexity of 
+aroma - it has a faint spiciness that reminds me of Hallertauer. My 
+buddy had just used it for aroma in his IPA and it was stunning!
+
+
+I assume it will be awhile before we see it in the homebrew catalogues, 
+though!
+
+
+Cheers,
+
+
+Gary
+
+
+
+
+
+
+- -- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Gary Bell             "Laxo, non excrucio, poto cervisia domestica."
+Lake Elsinore, CA                
+(909) 674-3637 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 13:28:49 +0000
+From: Brian Gowland <B.Gowland`at`rhbnc.ac.uk> (Tel +44 784 443167)
+Subject: Re: Feeback Request: UK-Oriented Homebrewing
+
+
+In HBD 1654, "Fleming, Kirk R., Capt" <FLEMINGKR`at`afmcfafb.fafb.af.mil>
+wrote:
+> 
+> I've now seen two of your HBD posts and assume you haven't seen
+> any responses.  I'm replying publicly because I would like HBD
+> reader's thoughts here, too.
+> 
+
+
+        My reason for multiple postings were, partially based on the
+reasons behind the original request. I, as a UK reader of HBD, will
+often only scan quickly through HBD if I am short of time. If most
+of the postings appear to be on subjects that are not applicable
+to me then I will not spend too much time on any particular issue
+of the digest. I occasionally miss interesting posts this way. My
+fears were that other UK brewers may do the same and hence the second
+posting to catch anybody that slipped through the net (no pun
+intended). :)
+        As far as response is concerned, I have had a fair number
+of responses, mostly from UK readers of HBD and r.c.b but a few
+from the US and Canada. Some of the non-UK repsonses have been simple
+"yes" votes but others have expressed worries similar to your own
+and for similar reasons.
+
+
+> 
+> ...much if not most of our supplies come from the the UK, as did the
+> Sex Pistols, I believe.
+> 
+
+
+        Don't you go blaming me for the Sex Pistols - that was Malcolm
+MacClaren's fault. :)
+
+
+> 
+> So....although I feel strongly you should have your own news
+> group if you want one (and shouldn't have to answer to anyone
+> to put one in place), I for one would hate to lose insight into whatever it 
+> is you're doing with beer over there.  I don't mind
+> subscribing to another news group and don't see what harm it
+> could do--but I'm a USENET neophyte.
+> 
+
+
+        This is one of the sentiments expressed by the non-UK respondees.
+Firstly, it is not our intention to take a "we're having a party and you're
+not invited" approach. Although there is a complication that uk. prefixed
+groups may not be widely available outside of the UK, this is, I understand,
+not always going to be the case. I believe that at least some of these
+groups are available outside of the UK which shows that non-UK site
+administrators may well be open to accepting the group if there is sufficient
+interest in their specific content. So why propose a service which may not,
+in the short term at least, be available to some of the people who may be
+interested? Basically, uk. groups are not part of Usenet and so do not have
+the same problems associated with setting them up (request for votes, minimum
+numbers etc.). They are likened to the alt. category in that they are less
+formal and less complicated to set up (although there are some small
+formalities). Judging by response that I have had, there are nowhere near
+enough people for the idea of a Usenet group to be taken seriously but this
+sort of issue is not considered so important for uk. goups. I and one or two
+other UK net-brewers have been talking on and off about the desire for
+UK-specific services since sometime last year and, it is not only me who
+feels strongly that the heavy leanings of HBD and r.c.b toward non-UK
+issues ultimately dilutes the usefulness of these areas to us. My discovery
+of the uk. prefixed groups and the relative ease of access to them is the
+result of the requests for feedback on this subject. If it turned out that
+there were only one or two of us that felt this way then it would have shown
+that it was us who had the problem. As it turns out, it would appear that
+a good number of UK net-brewers feel the same way and so my request seems
+to have been justified. Whether or not a new group would be a success or
+not is another matter but the facts would indicate that we UK people need
+to sort something out between us to enhance, not replace, what HBD and
+r.c.b can do for us all.
+        On an overall note, it is a sad fact that the UK HB world is nowhere
+near as advanced or progressive as that in the US. This doesn't mean that
+there aren't HBers out there who don't want help or contact with other UK
+homebrewers. What it means is that there are limited resources available
+to UK HBers where they can get that help or make that contact. It is as a
+result of these facts that some of us feel that a UK specific service
+would strengthen our HB world and be a positive thing all round. There are
+one or two other issues which are on the cards and may come about if we
+can get our acts together - assuming that any of these things happen then
+we will keep you all posted.
+
+
+Cheers,
+        Brian Gowland
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 11:01:11 -0500 (EST)
+From: Jim Busch <busch`at`eosdev2.gsfc.nasa.gov>
+Subject: My ESB
+
+
+Ive got a lot of requests for my ESB recipe, so Ill post it.
+
+
+Its not Fullers ESB, but on an engine, its close enough!
+
+
+Munton & Fison Pale ale malt
+Dewolf Munich 3-5%
+Dewolf CaraVienne 3-5%
+Dewolf CaraMunich 3-5%
+
+
+OG 13.2, FG 3.2
+
+
+Kettle hops, 70g Styrian Goldings, 60 min
+             15g Styrian Goldings, 25 min
+             Finish       36g East Kent Goldings, 0 min
+             36g East Kent Goldings, dry hop
+             Note these are whole hops (5%), reduce if you use pellets.
+
+
+             Mash 148F 10 min, raise to 152-4F for 45, raise to 170, lauter.
+
+
+             Use a British yeast like Wyeast 1098/1968.
+
+
+I actually brew this to an cast out OG of 16.3P and dilute to 13.2P. If
+you brew a regular version, then go low or skip the Munich malt.  I dont
+list pounds of malt, since this will vary with each brewers system.
+- -- 
+Jim Busch
+busch`at`mews.gsfc.nasa.gov
+
+
+"DE HOPPEDUIVEL DRINKT MET ZWIER 'T GEZONDE BLOND HOPPEBIER!"
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 95 11:08:03 EST
+From: John DeCarlo               <jdecarlo`at`homebrew.mitre.org>
+Subject: Re: Belgian Dubbel
+
+
+DCB2%OPS%DCPP`at`bangate.pge.com wrote:
+
+
+>Paul had asked if anyone had a recipe for Belgian Dubbel.
+>I used this recipe when I did my first mashing.  It came out dark and quite
+>strong.  Since the bitterness is rather low it has a deceptive sweetness
+>about it that masks it true strength and a lot of body. Know your limit<g>.
+>For 5 gallons (US) use:
+>
+>9.5 lbs pale malt
+>4 oz.   Crystal malt (20 deg L)
+>4 oz.   Brown malt
+
+
+After tasting many Belgian Dubbels, and brewing the the Belgian Special B 
+malt, I suggest that you really need at least 4 oz. of this (if not 8 oz or 
+more) for a more authentic version.
+
+
+John DeCarlo, MITRE Corporation, McLean, VA--My views are my own
+Fidonet:  1:109/131  Internet:  jdecarlo`at`mitre.org
+
+
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 95 11:09:33 EST
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: Re: Water Adjustments
+
+
+Pulsifer`at`aol.com wrote about Water Adjustments: 
+ >  I added gypsum.  The pH was still high.
+
+
+A common misconception.  Gypsum, in and of itself, does NOT reduce pH.
+It adds calcium, which reacts with compounds *in the grain* to
+produce acid (phytic acid, as I recall).  So your pH measurements are
+really irrelevant unless you do them in a mash.
+
+
+=S
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 11:08:23 -0500
+From: stevens`at`stsci.edu (Mark A. Stevens)
+Subject: AHA and the BJCP
+
+
+In HBD 1654, Lee Bussy (leeb`at`southwind.net) writes:
+
+
+> I have seen a couple of posts from people regarding the AHA's
+> pullout of the BJCP.
+> First of all, the thread should never have been started here.  After
+> this I suggest we keep it to the JudgeNet where it belongs.
+> Second, It doesn't concern the average homebrewer, but it does
+> suggest a general trend in the AHA towards a kinder, gentler
+> dictatorship!
+
+
+Homebrewers who are not judges and don't read JudgeNet should at least
+be aware that the AHA has chosen to abandon the BJCP. They should know
+that the BJCP continues to exist independently of AHA. They should not
+be surprised when the AHA rolls out an "alternative" (i.e., controlled
+by AHA with no input from homebrewers) judging program and they should 
+not be surprised to hear about growing discontent with AHA in the 
+homebrewing community.
+
+
+Yeah, JudgeNet is the best place for the discussion to continue, but
+Average Joe Homebrewer should at least be aware that the issues exist
+so that he or she can look for the discussion if they're interested and
+will at least know to take whatever Zymurgy prints about this issue
+with a ton of salt. 
+
+
+Cheers!
+- ---Mark Stevens
+   stevens`at`stsci.edu
+
+
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 95 11:04:12 EST
+From: Spencer.W.Thomas`at`med.umich.edu
+Subject: Re: removing rubber
+
+
+Algis R. Korzonas wrote about removing rubber: 
+ > I suppose you could use fine steel wool, but I believe you would
+ > have to use *stainless* steel wool (if you can find it).  I recall reading
+ > somewhere that regular steel wool should not be used on stainless steel.
+
+
+How about a "ScotchBrite" pad?  It's sort of "plastic steel wool".  I
+bet it would do the trick nicely.
+
+
+=Spencer in Ann Arbor, MI
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 9:32:28 -0800 (PST)
+From: Jim Cave <CAVE`at`PSC.ORG>
+Subject: Belhaven recipe
+
+
+        There have been several requests for the Belhaven (export) recipe.
+This one is the one that is the export (i.e. bottled version).  Wheeler and
+Protz have the actual brewers formulations.  Note:  Most of you will find 
+that you will get probably 20% more extract from this recipe than they
+indicate.  You will want to adjust for your systems.  The percentages given
+include the sugar added (i.e. 86% pale, 2.5% crystal, 1.5% black, and 10% 
+maltose).
+
+
+       From: Wheeler and Protz, 1993, Brew your own Real Ale at home.
+       ISBN-85249-113-2 CAMRA, St Albans.
+
+
+Belhaven, 80/
+Scottish Cask-Conditioned Ale
+OG:  1.0415
+
+
+Mash:
+
+
+Pale malt:    3,900 g (86%)
+Crystal Malt: 115 g (2.5%)
+Black Malt:   65 g 1.(1.5%)
+
+
+"In the copper"
+Maltose syrup:450 g
+B.C. Bramlings: 23 g (start of boil)
+Fuggles Hops: 31 g (start of boil)
+Goldings:     12 g (last 15 minutes)
+Irish Moss:   1 tsp (last 15 minutes)
+
+
+Mash temp 65 C
+Mash Liquor 10 litres
+Mash time 90 minutes
+Boil time 2 hours
+Alcohol content 4.2%
+Final Gravity 1.010
+Bitterness 28 EBU
+Final Volume:  23 litres
+
+
+The extract version calls for replacing the pale malt with 2,850 g of
+non-diastatic, light coloured exctact.
+
+
+For the mash, Protz in his other book (Real Ale drinkers almanac-CAMRA)
+quotes the same percentages as above but instead of Maltose syrup, he
+quotes liquid sugar.  Personally I don't think it matters.  I think you'll have 
+to adjust all ingredients proportionally on this one to match your brewing 
+system.  
+
+
+              
+                      Enjoy!   Jim Cave
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 13:16:15 -0500 (EST)
+From: jeff344`at`voodoo.lerc.nasa.gov (Jeff Berton)
+Subject: RIMS Temperature Control
+
+
+Kirk writes:
+>I argue that
+>because the period of the entire wort circulation cycle is
+>small (~8 gallons of mash liquor pumped at ~7GPM) my temp
+>reading *is* the temp, for all practical purposes.  What we
+>don't know (among many other things :->) is whether we can
+>actually pump that fast thru the grain bed or not.  TBD.
+
+
+I think you'll find that to be true.  In my RIMS, I have several thermistors
+mounted throughout the system.  When I'm pumping at my maximum rate, I can't
+tell the difference in temperature between the thermistor in the mash tun and
+the thermistor at the exit of my 1000W electric heater.  The tun is insulated,
+and my magnetic-drive pump is rated at 5.5 gpm at zero head.  I'm sure there is
+some friction head loss when pumping through a grain bed, but my eye can't tell
+the difference in the pumping rate.  I'll have to measure it next time I brew. 
+Incidentally, the only time I do not pump at the maximum rate is when I'm
+sparging.  I first tried sparging with the pump off, but the tun developed
+temperature gradients throughout the process.  Now when I sparge, I take
+advantage of the basic RIMS concept and I pump at a reduced rate (with the
+heater slightly on) so that I do not disturb the grain bed.  
+
+
+Donbrew writes: 
+>Tried dimmer, don"t work at all. You do need the flicker effect of the 
+>controller on the heater. Full power on at any time is death to enzymes in my 
+>experience.
+
+
+For those of you, like myself, who are intimidated by building complicated
+control circuits, I use a dimmer with success.  It's rated at 1000W (the same
+as my electric immersion heater) and cost about $20.  Any hardware store will
+carry them.  As I approach a rest temperature, I turn the dimmer down.  It's
+easy to find the equilibrium setting required to maintain a temperature.  I can
+even walk away for fifteen minutes at a time without worrying about straying
+from my desired temperature.  And since the heater exit temperature is
+virtually the same as my mash temperature, I don't think I'm denaturing any
+enzymes or scorching the liquor.  I think a good pump is essential to a RIMS'
+success.
+
+
+Here's a question for everyone:  at 1000W, I can heat my particular mash at
+about one degree Fahrenheit per minute.  Is there any information that would
+indicate this is too slow?  To compensate for the elevated beta amylase
+reactions, I suppose I could simply target a higher starch conversion
+temperature, but I haven't worried about it.  Some large breweries' mash tuns
+are heated, rather than infused with hot water.  What is a typical heating rate
+in such a brewery?
+
+
+Also, rather than using a dimmer switch, has anyone tried to control their
+electric heaters using one of those variable time-delay solid state relays?
+They just turn the current on and off at intervals set by a knob, and, from the
+heater's point of view, would have much the same effect as a dimmer switch. 
+And since dimmer switch prices rise dramatically with capacity, I would think
+such a relay would be better suited for controlling heaters greater than 1000W.
+- --
+Jeff Berton, Aeropropulsion Analysis Office, NASA Lewis Research Center
+jeff344`at`voodoo.lerc.nasa.gov
+
+
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 10:32:18 -0800 (PST)
+From: Jim Cave <CAVE`at`PSC.ORG>
+Subject: Preparation of Isinglass
+
+
+      There has been some discussion about the correct use of Isinglass. 
+Isinglass is a very good fining and I believe that it is the best one to use in
+cask-conditioned ales.  It does, however, require some additional preparation
+which includes:  rehydration, addition of acid blend, use of a blender, and
+refrigeration.  Apparently, if the temperature of Isinglass exceeds 20 C it will
+become inactive. Also, I have found that if it is frozen, it will also become
+inactive.  
+
+
+      Wheeler (Home Brewing, The CAMRA guide) states that preparation
+will require blending, preferably one hour.  He does not mention the use of
+acid blend.  However, he does indicate the appropriate quantity to be used:
+50 milligrams per litre of beer to be fined. This works out to about 1.25 g
+per 25 litres, or about 1 gram per 5 U.S. Gal.  It should be mixed into a
+small quantity of beer prior to adding to the main batch.
+
+
+      Terry Foster (Pale Ale, Classic beer series) indicates he uses 5 grams
+of dry Isinglass and 5 grams tartaric acid (or winemakers acid blend) and one
+gram of sodium metabisulphite to one pint (English?) of water.  This is
+shaken 3-4 times a day for 4 days.  He uses 6 oz of this to 5 gallons of
+beer. (Note, this is a slightly higher quantity).
+
+
+      I use the following procedure:  2.5 grams of Isinglass, 2 grams of
+ascorbic acid, 500 ml water. Stir and let sit in fridge for a couple of hours. 
+Blend with a Braun hand blender for a minute. Return to fridge. Blend when
+you feel like it a few times more.  There should be no chunks visible. Ready
+for use in 12 hours.  Shake gently before using. Store in stoppered bottle
+(Grolsch bottle is good).  Use a third of this solution (167 mls) for each 
+cornelius keg.  Beer is bright in 24 hours.  You should try and be as sanitary
+as possible when doing this.
+
+
+      What I am not sure about is the precise pH that is required.  I'm
+guessing.  There may be someone on the 'Net who knows.  Vancouver
+water is the softest in the world (< 5 ug hardness) and is slightly acid. 
+Therefore, there is no buffering going on.
+
+
+                        Jim Cave
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 95 10:59:56 EST
+From: dipalma`at`sky.com (Jim Dipalma)
+Subject: RE: Grain FAQ, Cloudy Beer Problem
+
+
+
+
+   Hi All,
+
+
+In HBD #1654, GRMarkel asks:
+
+
+>A couple of months ago someone submitted a summary of grains and their uses.
+>I thought it was going to be entered as a FAQ - grains but after searching
+>the sanford site I could not locate it. If someone could tell me what
+>number(s) of HBD this summary appeared in, it would be a great help.
+
+
+  I saved those articles, and have them online. In the interest of conserving
+bandwidth, I won't re-post them here. Anyone who would like a copy, send
+private email to the address below.
+
+
+Ken Schroeder writes about a problem with cloudy beer:
+
+
+>For the past three or four months my beers have been coming out cloudy. Even
+>several weeks of cold conditioning does not clear the beer.
+
+
+  Cloudiness can occur from many causes, each of which requires different
+treatments.
+
+
+>I recirculate the wort as I raise
+>the mash to strike, allow the grain bed to set and start a long sparge (1 to
+>1.5 hrs.) once the wort runs clear (subjective term).
+           ^^^^ ^^^ ^^^^ ^^^^ ^^^^^  ^^^^^^^^^^^^^^^^
+  The wort from your lauter tun should run very clear after a few minutes of
+recirculation. If it doesn't, you likely have either a filtration problem, or
+you're getting unconverted starch in the wort. Check the crush, the husks
+should be nearly intact. If they are shredded, the filtration provided by the
+grain bed will suffer, and you will have difficulty getting the wort to run
+clear. As for the unconverted starch, sacc. rest temperatures of 60C-68C are
+reasonable, but you did not mention how long these temps are held, or
+whether you checked for complete conversion. Also, check your grain bed temp,
+it should be under 170F. 
+
+
+>My mash usually sits at about
+>5.4 or 5.3 pH during the mash and dropps to 4.8 to 5.0 during sparge.
+                                   ^^^^^^^^^^^^^^^^^^^^
+  This is a sign that the sparge water is over-acidified. A good rule of thumb
+here is to acidify the sparge water to 5.7-5.8 or so, so that the pH in the
+tun will *rise* from ~5.2-5.4 at the beginning of the sparge, but still be
+somewhere under 6.0 at the conclusion (excess tannin extraction becomes a
+problem if the pH rises above 6.0). Check the pH of the wort just prior to
+the boil, it should be roughly 5.7-5.8 or so. A pH of 5.0 or less, which
+yours is, inhibits the coagulation of proteins, you will not get a good hot
+break. The resulting high level of long chain proteins in the beer causes
+both haze and stability problems.
+  If the beer is clear at room temperature but becomes cloudy when chilled,
+then you have a chill haze problem. Rehydrate 1 TBS of Irish moss a few hours
+before the boil, and add it for the last 15 minutes. Fining with polyclar at
+the end of secondary fermenation is also effective against chill haze.
+  Finally, there are some strains of yeast that have notoriously poor
+flocculation characteristics (Wyeast 1098 English, e.g.). I've had wort that
+was crystal clear after trub seperation turn extremely cloudy after pitching
+with 1098. Two weeks of fermentation and racking to secondary does nothing
+to improve the clarity, I routinely have to fine with gelatin when using
+this yeast.
+
+
+         Hope this helps,
+           Jim               dipalma`at`sky.com
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 15:06:49 EST
+From: " Patrick G. Babcock" <usfmchql`at`ibmmail.com>
+Subject: Aeration in 2ndary/Screw-top Buckets/                            
+
+
+*** Resending note of 02/10/95 13:50
+* Man's mind, stretched by a new idea, never goes back to its *
+* original dimension.                 - Oliver Wendell Holmes *
+Subject: 2ndary Aeration/Immersion chiller/Screwtop Buckets/Cloramine/BJCP
+
+
+ -=> In HBD #1654, Cap'n Kirk asks about aeration during fermentation (that's
+    effectively what dropping the beer is, right?)...
+
+
+Oxidation of the beer, and the associated 'off' flavors, are the traditional
+concerns (in the U.S, anyway). This is not intended as a flame against Brian;
+just a simple statement!
+
+
+I was also intrigued by his post regarding dropping the beer. Perhaps we've
+been too damned concerned with something that isn't going to have a great
+effect on our beer? (Another occurrence of those 'experts' spouting their
+opinions, I would imagine?) Anyway, I, too, intend to try this dropping of the
+beer on my next British ale (superstition will prevent me from doing it on
+anything else until I prove it out on that for which it was intended...)
+
+
+ -=> in HBD #1654, Eamonn McKernan asks about stirring the wort while immersion
+    chilling goes to work...
+
+
+Yes! Stirring the hot wort (gently) to move it around the chiller coils will
+improve efficiency. Actually, when I was an immersion-type guy, I used to do
+it by moving the chilling coils around in the wort (had about 3 inches in any
+given direction...). Did this on and off (figure in the boredom factor, and
+the intense boredom factor) during the cooling. Never resulted in an
+infection.
+
+
+ -=> In HBD #1653 someone asks for screw-top buckets for less than a fortune...
+
+
+B&B brewing has screw-tops for $10.50 + shipping; $9.75 each for two or more.
+B&B Brewing 1-800-834-5459...
+    ...ask for a catalog. (BTW: I'm not affiliated...)
+
+
+ -=> Dean A. Pulsifier asks about chloramine removal...
+
+
+I may have posted this here before (so many forums, so little memory...), but
+I believe chloramines can be removed through the use of activated charcoal
+filtration. I achieve this through an Omni Whole House filter (BTW: this is
+the basis for the Filter Store's beer filter. It and the necessary conversion
+fittings can be had for a lot less than their filter. The 5 micron cartridges?
+If you make your's out of the same size unit as their's, I assume you could
+buy the cartridges from the Filter Store...). Anyway, my house water also
+smells and tastes a lot better since installing this puppy. Change the
+cartridge about once every six months (depends on your usage)...
+
+
+ -=-=-=-=-=-=-=-=- Thermal barrier. Cross at your own risk. -=-=-=-=-=-=-=-=-=-
+
+
+ -=> And, also in HBD 1654, Lee Bussey preaches that ol' time religion -
+    Oh, ye lowly ones...
+
+
+Well, Lee, I'm sorry you feel that we are not worthy of discussing this topic
+here. Personally, I've met several judges who aren't worth a cracked carboy.
+(Must have cheated on their tests, hey?) On the other hand, I've met more who
+were very knowledgeable, and actually helpful. (You seemed to fit this
+category, as do the majority of judges.) However, about every judge I've ever
+met demonstrates that same arrogance, at some point or other. Granted, you've
+studied, demonstrated your knowledge on a grueling test, and sat in judgement
+over many peoples' brewing endeavors. You've probably bolstered a few;
+probably crushed a few. I'm happy for you. Just remember - Homebrewers aren't
+for judges - in fact, the converse is true: judges are for homebrewers.
+Without people willing to have the fruits of their efforts scrutinized, beer
+judges would find life tediously boring. Yeah, you've made a 'sacrifice' to
+try and help us meek little brewers out. Doesn't mean we have to appreciate
+it...
+
+
+Sorry for the flaming, but this is a democracy. We can talk about anything we
+like. (Cordiality? Public flammables beget public flames. I'm sure I won't be
+alone...)
+
+
+Brewing with napalm in Detroit....
+P.G. Babcock
+
+
+
+
+------------------------------
+
+
+Date: Fri Feb 10 15:35:30 1995
+From: <TWALDON`at`fcc.gov>  (Waldon, Tracy )
+Subject: Pressure Relief Valves for Soda Kegs, Stirring
+
+
+Dave Pike asks:
+
+
+  < Does anyone know of, or use, automatic pressure release valves while 
+      fermenting in corny kegs? 
+
+
+Brian North of North Brewery Supplies in Milwaukee carries just such an item.  I
+don't have the address or phone with me at work, but he should have an ad in
+Zymurgy or Brewing Techniques.  
+
+
+The item comes with or without a gauge and I believe it runs $15 to $25.  I have
+not used one, but have had my eye on it myself.  
+
+
+One note of caution when fermenting in 5 gallon kegs is that the decrease in the
+ratio of bottom surface area to volume may cause a reduction in diacetyl pickup
+as fermentation ends.  Reportedly  the problem is much less pronounced when
+using 10 gallon cornelius kegs.  Certainly the yeast strain is particularly
+important here.
+
+
+
+
+Eamonn McKernan asks:
+
+
+< I'm looking for your vote on immersion chillers: To stir or not to stir?
+
+
+Stir.  If you are using an immersion chiller the lid will already 
+be cracked open a bit for the hoses.  I find this to be plenty 
+of room for the handle of my large SS spoon to stick out. 
+ I don't stir for the first 10 - 15 minutes (until wort gets down to 
+about 120 F)  because I'm lazy.  Although I could argue that 
+it's to reduce hot-side aeration.  I then just sort of pump the blade
+ of the spoon up and down to get some movement of the
+ wort.  If your tap water is as warm as it is in N. Virginia, then 
+the stirring is the only way to go.  No problems with infections 
+and unlikely to occur since lid stays on the pot.  Although a 
+healthy dose of yeast doesn't hurt either.
+
+
+                                                                           Tracy
+
+
+
+
+------------------------------
+
+
+Date: Fri, 10 Feb 1995 11:42:45 -0800
+From: Scott Howe <howe`at`appmag.com>
+Subject: Newsgroups?
+
+
+Greetings, and pardon my cluttering the Digest with this.
+
+
+    I need some advice on Brewing/Beer Newsgroups.  I am getting Net access 
+through work, and they tell me they will only give me access to two newsgroups. 
+I am going to get on the Austrailian Rules Football list, so that leaves ONE 
+for Beer.  Our news server privides a few that deal with beer.  Of the 
+following, I need to pick ONE.  Which ONE should it be?  
+
+
+   alt.beer
+   alt.beer.like-molson-eh
+   rec.food.drink.beer
+   muc.lists.beer.homebrew
+   rec.crafts.brewing
+   uiuc.org.homebrewers
+
+
+    Another thing I need to know is whether any of the above have the mailing 
+list option (Like HBD) in which case I would not pick it for the newsgroup, 
+and get on the mailing list instead (Prefered!!!).  
+
+
+    Maybe something said about each group any of you are a part of would be nice
+as well.  My guess is that the alt.beer.like-molson-eh group is not for me, eh.
+But I could be wrong.  What do the other homebrewing lists have that HBD does 
+not?  My guess on the "beer" ones is that they have more info on commercial 
+(mostly Micro) brewers, which does sound interesting to me; you can never 
+have too much gossip! :)
+
+
+   Thanks in advance for PRIVATE E-MAIL RESPONSES ONLY.  No need to clutter
+HBD with this any more than necessary (and my note is bad enough!).  :| 
+
+
+                    --Aubrey Howe, III
+                      Brew more Beer!!!
+
+
+------------------------------
+End of HOMEBREW Digest #1656, 02/13/95
+*************************************
+-------

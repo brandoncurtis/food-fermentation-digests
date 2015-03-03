@@ -1,0 +1,349 @@
+﻿Date: Sun, 7 Aug 2005 23:17:05 -0400
+Subject: Homebrew Digest #4819 (August 07, 2005)
+
+
+
+
+
+
+HOMEBREW Digest #4819                             Sun 07 August 2005
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+Visit http://www.northernbrewer.com  to show your appreciation!
+               Or call them at 1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Crabtree effect and metabolic overflow at pyruvate branch ("Fredrik")
+  secondary fermentation in bottle (KEITH R BUSBY)
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Thank you, Drs. Cone, Fischborn, Waldrop, Lemcke, &  *
+* Powell! Fortnight of Yeast Question Sumbission is now *
+* closed.  Please save further questions for next year. *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Sun, 7 Aug 2005 21:44:05 +0200
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Crabtree effect and metabolic overflow at pyruvate branch
+
+
+Hello everyone. All recent talks on the crabtree discussions 
+is interesting.
+
+
+FWIW I have some comments on which I would like
+to get some feedback.
+
+
+It seems that many "effects in yeast" take place at different
+levels. The basic level is the phenomena that can typically 
+appear in any complex dynamical system due to constraints in
+the metabolic network, like energy and mass balancing. Ontop
+of this there are regulatory control of enzymes and gene 
+expression.
+
+
+If you consider a really simplified view of the main energy and 
+carbon flow, it seems that at least to principle, the 
+crabtree effect can be understood from (an almost) pure dynamical
+point of view? though I'm sure the phenomenon is further be 
+tweaked and enhanced by more not so easy to understand regulatory 
+responses in the cell. But OTOH I think that even the not so 
+easy to understand regulatory behaviours often may have a dynamic
+explanation, at least for triggerings.
+
+
+First there is sugaruptake, then there is glycolysis,
+then at the pyruvate branch the flow is put to
+competion with pyruvatedecarboxylase(pdc)
+(to acetadelhyde/fermentation), 
+pyruvatedehydrogenas(pdh)(to acetyl-CoA) and also some 
+pipelining directly into misc biosynthesis.
+
+
+Each of these pipelines has an affinity, and a capacity,
+and also a different energy balancing etc. Affect the flow
+in one pipeline and the flow in remote places in the network 
+might change.
+
+
+I don't find the refenrece now but I know I read a paper 
+claming that, pdh has a factor 10 higher *affinity*(prefenece) 
+for pyruvate as compared to pdc. pdc has a factir 10 higher 
+*capacity* for purvate as comapared to pdh. (If anyone wants 
+it I can look for it, I just have no structure on references 
+atm so I have to wade through lots of htings). 
+
+
+But a general good reference is a really nice thesis on the
+"Physiological Roles of pyruvate decarboxylase in Saccharomyces cerevisiae"
+by Marcel Flikweert - http://www.xs4all.nl/~marcelf/Thesis.htm
+Excellent site I found recently where the articles are free to download. Maybe
+these numbers are from there even (I forgot!?), but it's a great thesis and
+outstanding bedtime and/or bathtub reading. 
+
+
+So already here one would expect that at low glycolysis rates, 
+the respiratory pathways is *preferred*, given that oxidative 
+phosporylation is running and there is O2 etc. (pasteur effect)
+
+
+At higher glycolysis rates, this branch is saturated, and 
+there is an overflow into the pdc.
+
+
+This alone (so far) however, doesn't seem to explain the 
+"suppression" of respiratory pathway, it is just a simple 
+"overflow" - so more is needed.
+
+
+But then at a closer look, what happens if the glycolysis 
+rate increase? Then the growth rate typically increase too right? 
+And so does the demand for building blocks. The puruvate brach 
+is then also more drained for carbon, and the acetyl pool is 
+also drained for carbon to.
+
+
+This seems to imply that, given that the pdh is saturated, 
+then acetyl-CoA production is in a simple estimate, at max. At 
+this point there seems to be a competition for acetyl-CoA between 
+respiratory energy transduction pathways and biosynthesis of for 
+example fatty acids.
+
+
+So, at this point - if the growth rate is to be able to 
+increase - it seems that the respiratory consumption of acetyl-CoA 
+must be not only "saturated and overflowed", it must also be 
+*downregulated* to maintain the mass balance.
+
+
+I have no idea how far this effect lats to explain things when 
+you start to put numbers on it, but it seems to me it could at 
+least help understand the pasteur and crabtree effects, and any
+additional regulatory things probably enhance these dynamic effects.
+
+
+So from this possibly oversimplified and even incorrect description
+it seems to me put simple
+
+
+The "Crabtree effect" can be roughly understood the combined effect of 
+
+
+1) saturation of the acetyl-CoA production at high glycolysis rates, 
+causing metabolic overflow at hte pyruvate branch
+
+
+2) downregulation of the respiratory activity, due to growth related
+mass flow competition at the acetyl-CoA branch?
+
+
+The "pasteur effect" would as it seems caused by pdh winning the 
+competition for pyruvate, when there is oxygen. The pasteur effect
+will exist only if pdh is not near saturation, because then in despited
+of the higher affinity, there is an overflow to alcoholic fermentation.
+
+
+This is admittedly an oversimplification, there are more draining 
+going on in the flow, pentose pathways, and also a shunting via 
+acetate back to acetyl-CoA. But from papers I've read this shunting 
+while highly significant also limited capacity, so it is likely 
+insufficient(?) to regenerate enough acetyl-CoA to prevent biosynthesis 
+from draining the acetyl-CoA pool. Even if you add these things, 
+and the redox balancing I suspect the general conclusion holds to principle.
+Though if you were to put numbers on things all pathways probably has to
+be accounted for.
+
+
+Quick simplified pic I made 
+http://hem.bredband.net/frerad/beer/modelling/pictures/crabtree.jpg
+
+
+So it seems to me that the "crabtree" breaking point, seems to be
+related to the ratio of the pdh pathway "bandwidth" and the rate 
+of glycolysis but also the energy consumption of biosynthesis. So
+another complication may be thta the cost for growth increases as
+stress factors accumulate (maybe likely in when alcohol anc acids 
+are produced and osmosis increase?) Too much to keep
+in the head at once. I'd need a computer. 
+
+
+Since glucose as far as I understnad is the quickest sugar to uptake, 
+it is also expected to generate one of the higest glycolytic rates?
+
+
+Of course, if this is not so, the idea fails. Does anyone
+know if this is so or ot? 
+
+
+Once migth wonder, if the capacity of the pdh pathway is so limiting,
+why doesn't the cell just synthesise more pdh?? I don't know. But I
+figure that a general thing is that would increase various pool
+sizes too, and would also probably affect the steady state redox 
+balance? So while I have no idea why, there seems to be many 
+possible understandable reasons?? Comments??
+
+
+These reasoning may well be flawed, as I'm still no biologist, but it's
+how I personally currently think of these things where I am
+constantly trying to improve my understanding. I'd love to get 
+some comments on this or if anyone see any obvious flaws in the 
+reasoning.
+
+
+( I posted about a simplified computer simulations of metabolism 
+before, and while I'm still working on it. The more I learn the 
+more do I see how much computing power I am going to need due to 
+the :-( So right now, it looks like my original strategy is not 
+going to work so well due to limited computing power. So I am 
+currently trying to figure out how to try to implement even this 
+very limited model in a way that it will work on a normal PC.
+
+
+The basic dynamics will probably be workable, though it is probably 
+going to take many hours on a PC. The other problem I recently 
+found out is that the mimicing of regulation intelligence seems to 
+require probably even more computing power than the "kinetics" alone
+unless i simplifiy it even more. So it is definitly going to take a 
+little longer than I first thought. I had to make the regulation
+more intelligent. My first idea to use set regulation functions
+are not good enough mainly because they would most certainly be able
+to work, but I would end up with way too many parameters and they
+would require constant tweaking. )
+
+
+I'd like comments from the other of you on this list, if you think this
+makes sense, or you see some flaws I missed?
+
+
+ /Fredrik
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 07 Aug 2005 20:18:22 -0500
+From: KEITH R BUSBY <kbusby at wisc.edu>
+Subject: secondary fermentation in bottle
+
+
+Does anyone have experience of secondary fermentation of Tripels in
+bottle? While in Brussels last week, I read that Tongerlo adds yeast at
+bottling to heighten flavors and aromas. Would one use the same yeast as
+for primary or a different one (the text I read mentioned primary yeasts
+in the plural)? How would one do it? Add with priming sugar? If so, how
+much? Or perhaps a drop per bottle? Is there a risk of gushers or bottle
+bombs?
+
+
+Keith
+
+
+Keith Busby
+Douglas Kelly Professor of Medieval French
+Department of French and Italian
+The University of Wisconsin
+618 Van Hise Hall
+Madison, WI 53706
+(608) 262-3941
+(608) 265-3892 (fax)
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4819, 08/07/05
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

@@ -1,0 +1,148 @@
+﻿HOMEBREW Digest #105                             Tue 21 March 1989
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Coordinator
+
+
+Contents:
+  AHA conference cost (Dick Dunn)
+  knowing where you are (Dick Dunn)
+
+
+Send submissions to homebrew%hpfcmr`at`hplabs.hp.com
+Send requests to homebrew-request%hpfcmr`at`hplabs.hp.com
+
+
+----------------------------------------------------------------------
+
+
+Date: 19 Mar 89 23:04:26 MST (Sun)
+From: hplabs!utah-cs!cs.utexas.edu!raven!rcd (Dick Dunn)
+Subject: AHA conference cost
+
+
+Erik A. Henchal wrote:
+
+
+> I received the registration information for the AHA conference in
+> June.  I was a little taken back by the registration fee of $240
+> for members and $290 for non-members.  Do others find this
+> registration fee a little high?...
+
+
+I do.  The actual low figure is $210 if you're a member and register by
+the end of April (which is reasonable advance warning), so let's use that
+as a basis for comparison.  This is for roughly three days of AHA stuff.
+(The conference runs for four days, but the first day is minimal and the
+last day looks rather light.)  There are really two days of technical
+stuff.  Folks who are inclined to complain about value/dollar might object
+to the Friday afternoon item of "Two-and-a-half hours of luxurious FREE
+TIME".  (You pay for the free time as part of the conference cost,
+right?:-)
+
+
+For a very rough comparison, the last USENIX cost $150 for a full three
+days of technical presentations.  AHA has two lunches and two dinners,
+where USENIX has stuff at breaks (3 "continental breakfasts" and 3
+afternoon liquids-only) plus one evening buffet-like event--this is either
+a break-even or slightly in favor of AHA.  USENIX gives you the proceedings
+with conference registration.  The USENIX presentations are short, but
+there are a lot of them, and they have to do something to compensate the
+authors, I assume.  (Anybody know what they get?)
+
+
+I think Eric Henchal's idea of getting it under $100 is a little
+ambitious, but I could see $150 as a reasonable target...and $210 is a lot
+more than that.
+
+
+One of the questions bearing on the comparison of conferences is whether
+the conference is viewed as a fund-raising activity.  I don't think USENIX
+_per_se_ is a fund-raiser...the tutorials might be, but they're separate.
+I would hope that the AHA conference is not seen as a fund-raiser, because
+they do other things (like the beer festivals) to raise money.
+---
+Dick Dunn        {ncar;ico;stcvax}!raven!rcd                (303)494-0965
+                        or        rcd`at`raven.uucp
+
+
+------------------------------
+
+
+Date: 19 Mar 89 23:33:12 MST (Sun)
+From: hplabs!utah-cs!cs.utexas.edu!raven!rcd (Dick Dunn)
+Subject: knowing where you are
+
+
+Folks, we can do a lot to facilitate email for personal conversations with
+a little care in addresses...Batte wrote:
+
+
+> ...Although I can reach the network
+> address MOST of the time, there are many of
+> your home or commercial addresses which DO NOT
+> link...
+
+
+Part of the problem is that people don't necessarily know where they are!
+The first thing to do is find out what your address is; the second thing
+is to put that address in your signature, and religiously append that to
+every piece of mail you send.  (I can't remember whether I appended my
+signature to the last note I sent to `homebrew', but if I forgot, flame
+away [by email:-] since I deserve it!)  The reason a signature is needed
+is that even if your mail leaves you with a good return address, the
+chances are high that it will get munged into uselessness if it crosses a
+gateway.  Signatures, being text, aren't subject to the rewriting that
+happens to the headers of mail.
+
+
+People mistakenly assume that the mailing list operates on bitnet or
+fidonet or uucp or whatever.  It doesn't; it comes by all manner of
+combinations of networks.  That means you gotta have your act together
+about giving an address.  It also means, alas, that there are some
+addresses you'll never be able to reach because there are lots of bad
+mailers managed by people who won't fix them, and these stand in your path.
+
+
+I can give a few easy guidelines for a couple classes of addresses:
+   - An address like joe`at`machine (with no "." in machine) is always wrong--
+     this is a local address and is useless to the rest of the world.
+   - If you can get to the machine `uunet', you can hand over a path for a
+     uucp site (a "bang path", so called because the address is formed with
+     ! as the separator).
+   - If you can get to an internet machine, you can hand over a domain-style
+     address (like fred`at`rock.boulder.edu).  Internet addresses are good if
+     anything is.
+   - Simple uucp addresses like raven!rcd are only useful for people who
+     are on, or can get to, a machine with pathalias and routing software.
+   - "UUCP domain" addresses, like rcd`at`raven.uucp, are technically wrong
+     but have been made to work.
+It would be nice if we had one standard form of address...but we don't.
+We're no worse off than the rest of the [slightly] electronically-connected
+world...which is small consolation.  Can someone tell us how to get to the
+bitnet world, for example?
+
+
+> By the way, Charlie Papazian and the AHA apparently are going to
+> be available through a SIG on Compuserve soon.  I wish that they
+> were simply tied into BITNET to participate in this forum which
+> is obviously more active...
+
+
+Well, yeah...BITNET or uucp or the Internet or...
+
+
+Does anyone know more about this?  Why don't we see if we can at least
+automagically gateway some of it into the mailing list.  It's interesting
+that Charlie didn't try to do this, since there must be a couple dozen
+people in Boulder who could have arranged it!
+---
+Dick Dunn        {ncar;ico;stcvax}!raven!rcd                (303)494-0965
+                        or        rcd`at`raven.uucp
+
+
+------------------------------
+
+
+End of HOMEBREW Digest

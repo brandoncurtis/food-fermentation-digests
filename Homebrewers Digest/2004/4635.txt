@@ -1,0 +1,418 @@
+﻿Date: Fri, 22 Oct 2004 22:43:09 -0400
+Subject: Homebrew Digest #4635 (October 22, 2004)
+
+
+
+
+
+
+HOMEBREW Digest #4635                             Fri 22 October 2004
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: pbabcock at hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+                  Beer, Beer, and More Beer
+      Visit http://morebeer.com to show your appreciation!
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  Fortnight Of Yeast, 2004 - location of invertase action? / Philosophy and communication ("Fredrik")
+  My Head Hurts (Jim Bermingham)
+  Sugar utilization - Practical Phil, Intransigent Dave (ALAN K MEEKER)
+  Wyeast storage time (Calvin Perilloux)
+  Insulating Keg Kettles ("Mike Eyre")
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           The HBD Logo Store is now open!             *
+*            http://www.hbd.org/store.html              *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Suppport this service: http://hbd.org/donate.shtml   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*   Beer is our obsession and we're late for therapy!   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*               A Fortnight Of Yeast                    *
+*  Presented by the HBD in cooperation with Lallemand   *
+*      Questions submission: 10/11 - 10/22/2004         *
+* include Fortnight Of Yeast, 2004 in your subject line *
+* More info http://hbd.org/hbd/archive/4620.html#4620-3 *
+*********************************************************
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+LOOKING TO BUY OR SELL USED EQUIPMENT? Please do not post about it here. Go
+instead to http://homebrewfleamarket.com and post a free ad there.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITORs on duty: Pat Babcock (pbabcock at hbd dot org), Jason Henning,
+                  and Spencer Thomas
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Fri, 22 Oct 2004 08:25:25 +0200
+From: "Fredrik" <carlsbergerensis at hotmail.com>
+Subject: Fortnight Of Yeast, 2004 - location of invertase action? / Philosophy and communication
+
+
+I combine this post with another question to  
+Tobias and Forbes. (The fortnight question at the bottom.)
+
+
+- --------------------------------------------------
+I feel a bit like a nucleation site and responsible for trigging the
+bursts of parallell/serial issues lately. I also confess beeing
+a yeast philospher :) 
+
+
+The harder questions you ask, the more important does 
+language, terminology and the proper construction of the 
+question become.
+
+
+IMO, in real life more often than not, many questions are indeed
+fuzzy. While a computer would simply reject it as syntax error, 
+a human philosopher will not do so, that is too easy.
+
+
+Once a question is properly posed and technically well defined
+answering it is often principally a matter of "computing" and thus
+from a philosophers point of view - trivial. I find the learning
+*process* itself intruguing. Sometimes I find the mechanism 
+of concluding something more interesting that then conclusion 
+itself. Facts are like matter, while the "why" is the essence of life.
+
+
+My experience is that many real problems, and almost *all* of 
+the most profound ones, are fuzzy questions, and does require
+a "philosophical aspect" to solve them. You can not (currently) 
+ask a computer something like, at what point of complexity
+does matter turn into life? It is a fuzzy question, yet I find it
+quite relevant and most humans does get the basic quest,
+but we lack logic to deal with it. This is were a computer fails,
+but a philosopher will invent new logic as needed. IMO one 
+of the differences between a computing device and real 
+intelligence is the capabiilty to invent new logic, and not turn 
+into syntax error halts.
+
+
+What I am trying to say is that some of this discussions look to
+me a bit like we are computers here. I think everyone agree
+the basic (fuzzy) question, we want to know how yeast behaves. 
+
+
+Look at something like this (*just in principle*, beware for tyupos)
+
+
+x = the entire set of variables, yeast, wort and fermentor 
+(except time!)
+
+
+dglucose/dt = - fg(x)*glucose*yeast_active + 
++ 0.5 * [ - fs1(x)*sucrose*invertase_wort - 
+fs2(x)*sucrose*invertase_surfacebound ]
+  
+dfructose/dt = - ff(x)*fructose*yeast_active + 
++ 0.5 * [ - fs1(x)*sucrose*invertase_wort - 
+fs2(x)*sucrose*invertase_surfacebound ]
+
+
+dsucrose/dt = - fs1(x)*sucrose*invertase_wort 
+ - fs2(x)*sucrose*invertase_surfacebound
+
+
+dmaltose/dt = - fm(x)*maltose*yeast_active
+dmaltotriose/dt = - fmt(x)*maltotriose*yeast_active
+
+
+note that the equations account for the active yeast.
+The dormant yeast does not consume wort sugars.
+So once the yeast go dormant, the remaining sugars 
+will be left as residuals.
+
+
+f are different regulations. Let's assume some typical 
+enzyme kinetics (michaelis-menten) this might be 
+something like
+
+
+fg(x) = ag(x) / { glucose + kg(x) }
+ff(x) = af(x) / { fructose + kf(x) }
+ ..etc
+
+
+where ag() and kg() are further regulations to find out, so using 
+knowledge, I will keep expanding thse regualtors, until I reach a 
+level where it's reasonable to think thet are constants, then these 
+will be my model parameters, and of course each parameters 
+should be intristic to yeast, wort or fermentor. Ther must not be 
+parameters that depend on everything. 
+  
+The problem would be to find these regulations. The model will 
+be *crowded* with these regulation functions, and they must 
+all satisfy balancing of energy, redox, carbon, nitrogen etc.
+
+
+So training the model is to keep tweaking the regulation 
+*functions* and also to tune in the parameters.
+
+
+On thing I failed to find is if the invertase enzymes are cellbound 
+or expelled freely into wort, or both??? I know that in theory 
+there are both options but for brewing yeast I don't know 
+which is relevant? I think I asked this question before on here 
+long time ago but I got no comments.
+
+
+Worst case I have to account for both, like above. Any ideas?
+
+
+- -------------> Fortnight question to Tobias and Forbes.
+
+
+(As speculated above)
+
+
+Where is the location of action of invertase splitting sucrose? I 
+wonder if it is all expelled into the wort, or if there is also 
+relevant activity on the cell surface suface bound inverase? I 
+remember reading some cells do have cellbound sucrose 
+enzymes, what is that the case for S.C?
+
+
+ /Fredrik
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Oct 2004 08:14:12 -0500
+From: Jim Bermingham <JBHAM6843 at netscape.net>
+Subject: My Head Hurts
+
+
+My head hurts.  I think I have an "ose" headache.  With all the glucose, 
+fructose and sucrose being batted around on the HBD and finding out that 
+I am in the 1% minority of the HBD readers because I'm not sophisticated 
+enough to understand Brettanomyces/Dekkera sp., my head is splitting.  
+Here I am, just back from two weeks of lavish living in Sin City, 
+Nevada, already feeling bad because I lost the shirt off my back and 
+thought I would have to sell the farm just to pay my gambling debt. And 
+instead of relaxing and settling back to enjoy catching up on all the 
+post I missed  I get this feeling that all of a sudden no one is 
+interested in brewing beer and sharing ideas on ways to improve their 
+brewing. " I'm smarter than anyone else about most things, and I'm going 
+to prove it" seems to be the attitude of the day.  Maybe I'm missing the 
+point and if I was much smarter than I am I would see where all this 
+would improve my brewing enough to beat Bev Blackwood in at least one of 
+the brewing competitions.  But I still refuse to wear a skirt like Bev 
+does.  He has better looking legs than I do.  I don't know if knowledge 
+of the "ose" or his good looking legs is the key to all his ribbons.  
+Enjoyed all the beers from The Chicago Brewing Company and the Triple 7 
+Brewery while in Vegas.  If anyone happens to be in Millsap Texas come 
+on by and we will have a few beers. Iif you can't come, send money I 
+have some debts to pay.  Can't brew with two broken knee caps.
+
+
+Jim Bermingham
+Millsap, TX
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Oct 2004 09:23:52 -0400
+From: ALAN K MEEKER <ameeker at mail.jhmi.edu>
+Subject: Sugar utilization - Practical Phil, Intransigent Dave
+
+
+My associate Phil Yates asks, what /practical/ use is there in discussing
+the details of yeast sugar utilization? Well Phil you are correct, this
+topic isn't likely to have much (if any) practical benefit to the average
+homebrewer. Rather this falls into the class of more esoteric/technical
+discussions that often take place here. Since the que has been short
+lately these posts aren't displacing any other discussions, and there are
+certainly folks interested in such details regardless of their potential
+to directly help out one's brewing practice. Remember, the PgDn key is
+always nearby... :)
+
+
+Dave Burley commented: 
+
+
+"As I have often in the past, I will forgive what I perceive to be an
+arrogant tone and ask that you focus on the issue which you brought up."
+
+
+ -What you perceived as arrogant was merely exasperation on my part. If
+you re-read what I posted you'll see that it focuses /entirely/ and
+succinctly on the one topic I brought up - that of sequential sugar use.
+
+
+"I commented from the beginning of my discussion ( with /Fredrik) about 
+glucose blocking certain pathways and many other comments relating to 
+using a kinetic and not a misunderstood "energy" approach in /Fredrik's
+<fermentation modelling> work."
+
+
+ -What you ALSO said /repeatedly/ (which I cited in my last e-mail) was
+that the concept of sequential sugar utilization was incorrect and that
+this may be part of Fredrik's problem in modelling. This is what I 
+responded to and is the only topic I have been addressing.  
+
+
+"But as far as the discussion topic which you chose to open, about what happens 
+in the yeast cell, as far as I know, glucose does not block the parallel 
+assimilation of fructose or sucrose. If you have any evidence besides your 
+opinion, I'd like to see it"
+
+
+ -I never said glucose blocks fructose or sucrose. What I have said, and what 
+was confirmed by Fischborn and Waldrop, is that glucose blocks maltose and
+maltotriose uptake. Again, pretty simple idea. 
+
+
+ -Alan Meeker
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Oct 2004 07:53:34 -0700 (PDT)
+From: Calvin Perilloux <calvinperilloux at yahoo.com>
+Subject: Wyeast storage time
+
+
+[Robert Zukosky asks about the state of his nearly 4-year-old
+ Wyeast smack pack that took 6 days to expand.]
+
+
+Not to worry (much).  If the package expanded, you're probably
+in good shape.  You'll have FAR fewer yeast cells than in a
+fresh pack, though, so careful attention to starter sanitation
+is recommended.  
+ 
+You might also consider a multistage starter, beginning
+fairly small (250 ml or even 100 ml?) before working up, 
+since you are beginning with so few viable cells.  
+
+
+I've used smack packs that have been in the fridge for 4 years,
+and I've had normal fermentations with no problems or off-flavors;
+this is when using at least a two-stage starter culture to get
+the cell count up to something reasonable.  
+
+
+Calvin Perilloux
+Middletown, Maryland, USA
+
+
+
+
+
+
+------------------------------
+
+
+Date: Fri, 22 Oct 2004 10:55:53 -0400
+From: "Mike Eyre" <meyre at sbcglobal.net>
+Subject: Insulating Keg Kettles
+
+
+Hey all.. looking for info on good ways to insulate a keg mash kettle.
+Did some searching on the matter and found surprisingly little info out
+there. Saw some designs with a rather elaborate outside skeleton of
+various materials, but that bulks up the keg a lot and they're heavy
+enough for me to lift off the second rack of my gravity feed design. Saw
+some others with some sort of jacket.. curious if this is the best
+approach for light weight and easy access to the tun when needed.. what
+are you all doing?
+
+
+Mike
+
+
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4635, 10/22/04
+*************************************
+-------
+
+
+
+
+
+
+
+
+
+
+New HBD Mailer Routine Implemented 07/26/2004
+
+
+Sendbrew v2004091601

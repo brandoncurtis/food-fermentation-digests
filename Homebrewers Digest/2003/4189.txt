@@ -1,0 +1,1056 @@
+﻿Date: Fri, 7 Mar 2003 00:41:47 -0500
+Subject: Homebrew Digest #4189 (March 07, 2003)
+
+
+
+
+
+
+HOMEBREW Digest #4189                             Fri 07 March 2003
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Digest Janitor: janitor`at`hbd.org
+
+
+
+
+***************************************************************
+       THIS YEAR'S HOME BREW DIGEST BROUGHT TO YOU BY: 
+
+
+          Northern  Brewer, Ltd. Home Brew Supplies
+        http://www.northernbrewer.com  1-800-681-2739
+
+
+    Support those who support you! Visit our sponsor's site!
+********** Also visit http://hbd.org/hbdsponsors.html *********
+
+
+
+
+Contents:
+  RE: Deadband Controller ("Mike Sharp")
+  Re: Stainless Steel Scrubbies (John Palmer)
+  Hot Break and protien rest (Murray Manson)
+  Greed and serving memories ("Wayne Holder")
+  Chicago water analysis help ("Scott Staley")
+  RE: GUINNESS WIDGET ("Scott Staley")
+  RE:  Deadband Controller (Bill Tobler)
+  Dryhopping a Lager (ILRI)" <R.KRUSKA`at`CGIAR.ORG>
+  re: Biere de Gardge (Jonathan Royce)
+  RE: Burning widgets in your chicken (Pat Babcock)
+  Cider Question (Beer Drinker)
+  TMS And Naked Greed ("Reddy, Pat")
+  Moving on... (Pat Babcock)
+  re:  GUINNESS WIDGET ("Davison, Patrick")
+  Widget (AJ)
+  extreme lag in primary (Brian Dube)
+  Undercounter Fridge? (mohrstrom)
+  The Fridge ("Adam Wead")
+  My little yeast rant (Brian Lundeen)
+  re: biere de garde (homebre973)
+  I have been drinking heavily this evening.... ("Scott D. Braker-Abene")
+
+
+
+
+*
+* Show your HBD pride! Wear an HBD Badge! 
+* http://hbd.org/cgi-bin/shopping
+*
+* The HBD Logo Store is now open!
+* http://www.cafeshops.com/hbdstore
+*
+* Beer is our obsession and we're late for therapy!
+*
+
+
+Send articles for __publication_only__ to post`at`hbd.org
+
+
+If your e-mail account is being deleted, please unsubscribe first!!
+
+
+To SUBSCRIBE or UNSUBSCRIBE send an e-mail message with the word
+  "subscribe" or "unsubscribe" to request`at`hbd.org FROM THE E-MAIL
+  ACCOUNT YOU WISH TO HAVE SUBSCRIBED OR UNSUBSCRIBED!!!**
+IF YOU HAVE SPAM-PROOFED your e-mail address, you cannot subscribe to
+  the digest as we cannot reach you. We will not correct your address
+  for the automation - that's your job.
+
+
+HAVING TROUBLE posting, subscribing or unsusubscribing? See the HBD FAQ at
+http://hbd.org.
+
+
+The HBD is a copyrighted document. The compilation is copyright 
+  HBD.ORG. Individual postings are copyright by their authors. ASK 
+  before reproducing and you'll rarely have trouble. Digest content 
+  cannot be reproduced by any means for sale or profit.
+
+
+More information is available by sending the word "info" to 
+req`at`hbd.org or read the HBD FAQ at http://hbd.org.
+
+
+JANITOR on duty: Pat Babcock and Karl Lutzen (janitor`at`hbd.org)
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 5 Mar 2003 20:57:09 -0800
+From: "Mike Sharp" <rdcpro`at`hotmail.com>
+Subject: RE: Deadband Controller
+
+
+
+
+Date: Wed, 5 Mar 2003 09:04:36 -0600 
+From: "Reddy, Pat" <Pat.Reddy`at`mavtech.cc>
+Subject: Deadband Controller
+
+
+Pat Reddy gives a 'Heads up' to J. Keller"
+
+
+>Fortunately, Cole Parmer has just started a promotion
+>on ON-OFF temperature controllers.  For $39 you get
+>a 16A SPST relay, deadband control, and a probe (probably
+>not waterproof).
+
+
+"A deadband controller is not the same (not even close) to the PID
+controllers you've seen so much talk about here the last few days...."
+
+
+If I understood his idea, he was intending to use it only for an
+over-temperature limiter, with the relay in series with the SSR or whatever
+that the PID uses.  So, the PID measures the mash temp, controlling just
+fine, and since temp is below the deadband controller setpoint, it's relay
+remains closed.  Power to the heater is limited by the PID controller.  
+
+
+But if the mash becomes stuck, flow drops and the temp in the RIMS chamber
+goes too high. The deadband controller keeps the heater from getting too
+hot, by shutting things down (until the chamber cools off).  
+
+
+I imagine it would continue to work, albeit with some serious temperature
+cycling, in that case. However, if he's really got gadget fever, he could
+buy a SPDT relay, and sound an alarm in the event the DB controller shuts
+off. 
+
+
+Regards,
+Mike Sharp
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Mar 2003 21:17:40 -0800
+From: John Palmer <jjpalmer`at`altrionet.com>
+Subject: Re: Stainless Steel Scrubbies
+
+
+Dave asked whether stainless steel scrubbies would be non-corrosive for 
+cleaning stainless steel.
+Short answer: I am not sure.
+Long answer: Depends on what grade of stainless steel is used to make 
+the scrubbies. If its the austenitic aka 300 series aka 18-8 type 
+(Kegs, good Pots), then it would probably always be okay. But if it is 
+of the martensitic aka 400 series (Knives, some fittings, (doubt it)) 
+or the ferritic (cheap stainless flatware, cheap pots) then it would 
+probably lead to problems. I am guessing that ss scrubbies are the 
+cheaper ferritic types.
+
+
+
+
+John Palmer
+john`at`howtobrew.com
+www.realbeer.com/jjpalmer
+www.howtobrew.com - the free online book of homebrewing
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Mar 2003 21:53:56 -0800
+From: Murray Manson <mansonm`at`shaw.ca>
+Subject: Hot Break and protien rest
+
+
+While brewing a pale ale the other day, I produced a very strong hot
+break,  heavier than anything I've encountered before. Would this
+indicate that the protien rest was too long or even unnecessary? I was
+using 2 row pale malt, some crystal and honey malt, and had a 30 minute
+rest at 50 celcius during the mash. Any ideas on how a heavy hot break
+could influense the final product?
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Mar 2003 22:31:12 -0800
+From: "Wayne Holder" <zymie`at`charter.net>
+Subject: Greed and serving memories
+
+
+Rich Scotty posts:
+
+
+"Bad news for those of us who procrastinated on constructing a conical
+fermentor.  Toledo Metal Spinning has doubled all their prices on the
+conical
+hopper family.  The 12.5 gallon model TMS16914 was about $74 as memory
+serves.  It is now $152 - a little over 100% jump overnight!
+
+
+Does anyone know of another source for these vessels?  TMS got greedy...
+"
+
+
+Rich, you should check your memory server, I believe you have a parity
+error.
+
+
+It is true that TMS has re-aligned their pricing matrix to reflect a volume
+pricing discount structure. While the single piece price has increased, it
+is not a "100% jump overnight". I always recommend checking your facts
+before publicly posting, especially when using terms like "greedy".
+
+
+I understand what TMS did for two reasons:
+
+
+1. As a homebrewing product manufacturer/wholesaler, I can tell you first
+hand about the added time and costs involved in shipping large quantities of
+small orders. It simply is more efficient to be able to ship a larger
+quantity of items to a smaller number of locations than it is to ship a
+smaller quantity of items to a larger number of locations.
+
+
+Bottom line: onesie, twosie orders are a PITA.
+
+
+2. I have actually talked to the V.P. of TMS.
+
+
+Distribution through homebrew supply retailers is in the works.
+
+
+Nothing beats actual information. Calling people greedy that don't deserve
+it is uncalled for.
+
+
+I would venture to say that if you do find someone that fabricates one-piece
+spun Stainless hoppers, you won't find them any cheaper for a single piece.
+Stainless fabrication is not cheap.
+
+
+
+
+Wayne Holder AKA Zymie
+Long Beach, CA
+http://www.zymico.com
+
+
+
+
+"All paid for by our good customers"
+
+
+- -- Lynne O'Connor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Mar 2003 06:54:05 +0000
+From: "Scott Staley" <staleop`at`hotmail.com>
+Subject: Chicago water analysis help
+
+
+If anyone who has any knowledge of water relating to mashing has time and 
+would not mind looking at my chicago water analysis at
+http://www.ci.chi.il.us/WaterManagement/water.html# I would love to hear 
+some opinions on it.  I've only done 4 all grain batches, all using 
+distilled water, adding a couple tsp of dried malt extract and gypsum, 
+following something I read in Ken Schwartz's partial mash paper.  I'd rather 
+not make a trip to the store to buy water. If I just boil my tap water and 
+let it sit overnight to get rid of any chlorine, should I be fine to mash?
+thanks,
+ -scott
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Mar 2003 07:03:11 +0000
+From: "Scott Staley" <staleop`at`hotmail.com>
+Subject: RE: GUINNESS WIDGET
+
+
+I think I first heard about this chicken recipe on this forum a year or so 
+ago.  There was something on an NPR radio broadcast about it.  I've never 
+heard of the book, but I made the chicken and I think that the beer can is 
+supposed to be opened, so maybe that would make using Guiness with a widget 
+not a problem.  But, why use Guniess?  I think the beer just serves a 
+moisture while the bird is cooking.  I never tasted any type of beer flavor 
+eating the chicken.  You could probably fill an empty pop can with water, 
+rather than waste a Guiness. It's similar to a recipe in Marcella Hazan's 
+Italian cookbook, which is excellent, for chicken with 2 lemons.  2 lemons 
+in the cavity, that's it.  They moisten it and it comes out great.
+ -scott
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Mar 2003 04:56:53 -0600
+From: Bill Tobler <wctobler`at`sbcglobal.net>
+Subject: RE:  Deadband Controller
+
+
+Yesterday, Pat said:
+
+
+    "A deadband controller is not the same (not even close) to the PID
+controllers you've seen so much talk about here the last few days.  A
+deadband controller is just as it sounds.  Set your desired temp to 150 with
+an 8 degree deadband and your heating element (RIMS) will go on until 154 is
+reached and then shut off until the temp drops down to 146 then ramp the
+temp up to 154 again.  Or, in HERMS terms...the heat exchange solenoid will
+remain open until your probe, where ever it may be, reads 154 then switch to
+the bypass until the low side of 146 in sensed.  This would no doubt cause a
+serious temperature fluctuation exactly like Dennis Collins described in his
+attempt to discredit us superior HERMS brewers :) . A PID controller on the
+other hand will learn to switch it's output(s) on and off to MAINTAIN a
+setpoint temperature by applying it's control output (0-100%) to the amount
+of time the output(s) are held on.  This equates to little, if any in some
+designs, temperature fluctuation...snip"
+
+
+Pat, I could use some direction here.  My HERMS has a 3-way valve on the
+inlet of the HLT coil, and I have two Omega PID controllers, one for the HLT
+and the other for the mash.  When I tried using PID control for the mash
+tun, as the mash approached temperature, the three way starting going back
+and forth very rapidly, bypassing every few seconds.  I ended up putting the
+controller in on/off control, and setting the deadband at about 1.5% of
+setpoint.  This seems to work very good, keeping the mash within two degrees
+of setpoint.  My mash tun is insulated, so it hold heat very well.  This
+works well for me, but I would like to know more about using the PID control
+mode with a solenoid valve.  I have the capability, but it just did not seem
+to work very good.  Thanks!!
+
+
+Bill Tobler
+Lake Jackson, TX
+(1129.7, 219.9) Apparent Rennerian
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Mar 2003 02:49:31 -0800
+From: "Kruska, Russ (ILRI)" <R.KRUSKA`at`CGIAR.ORG>
+Subject: Dryhopping a Lager
+
+
+Hi all,
+
+
+Have my first lager ever (a Pilsener) in primary now for almost 2 weeks
+(50F)
+and need to transfer to a Corny keg this weekend. I would like to dry hop
+with Saaz whole hops during the secondary/lagering stage, but I also do not
+want to
+do another transfer later to another keg.  Any ideas?
+
+
+I also am confused about when to force carbonate (if at all) during
+secondary.
+I have read that it is good not to ferment under pressure. So do I keep
+releasing
+the pressure during the lagering, and then force carbonare after lagering is
+finished?
+
+
+Russ Kruska
+Nairobi, Kenya
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu,  6 Mar 2003 04:37:34 -0800
+From: Jonathan Royce <jonathan`at`woodburybrewingco.com>
+Subject: re: Biere de Gardge
+
+
+Jeff Renner wrote:
+
+
+"I think some kind of Belgian yeast might work, but so many would be so
+wrong."
+
+
+I made a Biere de Garde (actually a Biere de Mars, but close enough) this year 
+and I really enjoy it. (The recipe can be found on my website.) It's a 
+beautiful rusty-orange color and is malty and slightly phenolic. The yeast that 
+I used was Wyeast 3787--Trappist High Gravity. From Wyeast's website:
+
+
+"3787 Trappist High Gravity
+Robust top cropping yeast with phenolic character. Alcohol tolerance to 12%. 
+Ideal for Biere de Garde. Ferments dry with rich ester profile and malty 
+palate. Flocculation medium; apparent attenuation 75-80%. (64-78o F)"
+
+
+The style guideline for flavor is:
+
+
+"A medium to high malt flavor often characterized by toffee or caramel aspects 
+is typical. A slight musty or woody character may be present. Hop bitterness is 
+often modest, though subtle and restrained hop flavors may occur. Diacetyl low 
+to none."
+
+
+I think I got most of this using the 3787, although I would have liked it to be 
+a little more earthy so I will probably use more corriander seed.
+
+
+HTH,
+Jonathan
+Woodbury Brewing Co.
+www.woodburybrewingco.com
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 08:51:56 -0500 (EST)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: RE: Burning widgets in your chicken
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+Um, the widget is made of plastic. When you cram that can up your birdy's
+buttocks, and stand the can on the hot coals, you'll need to ensure that
+the beer never boils completely off. Otherwise, at the very least, you'll
+have a moist bird that tastes like a rubber chicken. Burning plastics give
+off toxins, too. Mmmm. yummy!
+
+
+Best bet, if you must use Guinness or some other widget-equipped beer, is
+to pour the brew into a widget-free can before packing it up your
+bird's... well, you know.
+
+
+- -- 
+ -
+God bless America!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+[18, 92.1] Rennerian
+"I don't want a pickle. I just wanna ride on my motorsickle"
+                                   - Arlo Guthrie
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 06:58:32 -0800 (PST)
+From: Beer Drinker <srm775`at`yahoo.com>
+Subject: Cider Question
+
+
+I made a apple cider and was under the impression that
+it cleared by itself, however, it's been sitting for
+quite some time and is still fairly opaque. I believe
+the active fermentation is over (i.e. it hasn't
+bubbled in some time). My question is this, should I
+add some geletin to clear it, like I do with my beer?
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 09:00:06 -0600 
+From: "Reddy, Pat" <Pat.Reddy`at`mavtech.cc>
+Subject: TMS And Naked Greed
+
+
+Rich,
+
+
+Damn, I was only weeks away from nabbing the TMS16914 myself.
+Say...your title says "Chief Fabricator"....
+Any chance you can fabricate a few hundred conical fermentors for the group?
+Sounds to me like we've found our replacement supplier.
+
+
+
+
+Pat Reddy
+MAVERICK Technologies
+Controls Engineer
+pat.reddy`at`mavtech.cc
+ 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 08:59:08 -0500 (EST)
+From: Pat Babcock <pbabcock`at`hbd.org>
+Subject: Moving on...
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+As time allows, I've been s-l-o-w-l-y moving HBD content onto
+the new server. Clubs and others whose sites are housed on the
+HBD server would be well advised to maintian a local (on your
+pc...) backup of your current website in the event there are any
+accidents in transfer. I will do my best to preserve your site;
+however, accidents happen, and I do not have the capacity in
+time or tape to back up the entirity of the "clubs" directory
+prior to making the move.
+
+
+When the move is complete, all webmasters will need to contact
+me for their access information. I will notify via the HBD and
+the web site when this occurs. 
+
+
+I'll keep y'all posted.
+
+
+- -- 
+ -
+God bless America!
+
+
+Pat Babcock in SE Michigan         pbabcock`at`hbd.org
+Home Brew Digest Janitor           janitor`at`hbd.org
+HBD Web Site                       http://hbd.org
+The Home Brew Page                 http://hbd.org/pbabcock
+[18, 92.1] Rennerian
+"I don't want a pickle. I just wanna ride on my motorsickle"
+                                   - Arlo Guthrie
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 10:46:47 -0500 
+From: "Davison, Patrick" <Davison`at`nsf.org>
+Subject: re:  GUINNESS WIDGET
+
+
+On Tue, 4 Mar 2003 23:33:48, MATTHEW HAHN asked a question about the
+GUINNESS WIDGET:
+
+
+"I got the book BEER CAN CHICKEN as a gift. It contains recipes that call 
+for an open can of beer to be inserted into a whole chicken on the 
+grill. As I rarely drink canned beer, I am wondering if it is safe to do 
+this with a Guinness or other can that contains a widget. Anybody try it?"
+
+
+As a long-time lurker, I am proud to say I can finally provide some
+thoughtful insight!
+
+
+Here's what I recommend:  Buy yourself a four-pack of Guinness Draught in
+cans, or maybe two or three just to be safe.  Then call a friend who has
+poorly developed tastes in his/her choice of beer.  Offer to swap a homebrew
+or one of your Guinness Draughts in exchange for a can of whatever is in the
+back of his/her fridge.  Then guilt them into making it two cans, or perhaps
+three.  Anyway, buy as many chickens as you have cans of exchanged beer,
+prepare the chickens as instructed in the recipe, and drink the remaining
+Guinness Draughts with your meal.
+
+
+I made beer can chicken a few times last summer.  It's amazingly good, and
+if my memory serves me correctly, I used Miller Lite.  The beer stuck inside
+the cavity steams the meat from the inside-out, making for an extremely
+juicy bird that's almost impossible to overcook, not to mention it's rather
+fun and humorous to see a chicken sitting on a can on your grill.  
+
+
+If you want to cook the bird with Guinness, I don't think the widget would
+get to a melting temperature, but the taller can might make the bird sit
+funny.  You could always pour the Guinness into any empty 12-ounce aluminum
+can.
+
+
+For those of you wanting to try the recipe, there are a number of websites
+that have a recipe available.  The first hit when I searched on Google.com
+is listed below:
+
+
+http://organizedhome.com/kitchen/beercan.html
+
+
+Enjoy,
+
+
+Pat Davison
+Ferndale, MI
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Mar 2003 16:00:12 +0000
+From: AJ <ajdel`at`cox.net>
+Subject: Widget
+
+
+The widget is placed in the can and both are purged of air (how this is 
+done I don't know - a combination of vacuum and CO2 I'd guess). The can 
+is then filled with carbonated beer, two drops of liquid nitrogen are 
+put in and the can quickly sealed. The sealed can then goes through a 
+flash pasteurizer. It is the rise in temperature in the pasteurizer that 
+vaporizes the nitrogen and  increases its pressure in the can enough to 
+force beer into the widget through the tiny hole (the widget  interior 
+is still at atmospheric pressure). After cooling, the interior of the 
+can and interior of the widget are at the same pressure but it is higher 
+than atmospheric. Thus when the can is opened and the headspace comes to 
+atmospheric pressure you have the opposite of the situation in the 
+pasteurizer: the pressure in the widget is higher than the pressure in 
+the can and beer rushes out through the little hole to disturb the bear 
+and produce the visual effect.
+
+
+A.J.
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu,  6 Mar 2003 10:49:58 -0600
+From: Brian Dube <brian.dube`at`gotgoat.com>
+Subject: extreme lag in primary
+
+
+I brewed a 5-gallon batch of American cream ale on 
+Saturday, 01 March, and there is still no activity in the 
+air lock. I used a small yeast starter, but I did forget to 
+add yeast nutrient. Even if this batch does eventually take 
+off, will it be ruined by off-flavors (assuming an 
+infection doesn't take hold first)? I'm sorry that I'm 
+posting a question I can answer using the wait-and-see 
+method; I would rather just throw the batch out now if you 
+think this lag time is going to ruin the beer.
+
+
+Thanks,
+Brian
+
+
+- --
+Brian Dube
+Columbia, Missouri
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Mar 2003 12:07:09 -0500
+From: mohrstrom`at`core.com
+Subject: Undercounter Fridge?
+
+
+IIRC, Adam originally asked about an undercounter fridge:
+
+
+> I've narrowed my choices down to the Danby DAR452 model, 
+> and a Kenmore 3.6 cu. ft. model available from Sears. 
+
+
+Sorry for not posting sooner, but if you are really looking for an 
+_undercounter_ fridge (and not just a small one), check the clearance 
+requirements.  I purchased one from Best Buy that I needed to return 
+after reading the manual (29 days after purchase ...).  While it fit under 
+the counter, it required a few inches of clearance around the sides for 
+heat dissapation.
+
+
+Mark in Kalamazoo
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Mar 2003 10:30:56 -0700
+From: "Adam Wead" <a_wead`at`hotmail.com>
+Subject: The Fridge
+
+
+Dear all:
+
+
+Thanks again for all the responses I've gotten on the fridge question.
+
+
+Last night I went over to my local Sears and found a Kenmore model on sale 
+for $100.  I suppose I could have shopped around for a cheaper, used one, 
+but I wanted to get the thing over with.
+
+
+I had to make a couple of modifications.  I cut out the plastic shelving 
+that was on the indside of the door...no big deal.  This one did have a 
+freezer plate section at the top.  I thought I could take the whole thing 
+out, but I didn't realize till I brought it home that the coolant actually 
+circulated through the plate!  So, I took it off and very carefully bent it 
+straight...well, straight enough so that it fits in the back.  Now it holds 
+one corny and the CO2 tank quite nicely.
+
+
+There's no coolant leakage, so everything appears ok...
+
+
+Cold beer anyone?
+
+
+adam wead
+(bloomington, in)
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 18:08:05 -0600 
+From: Brian Lundeen <BLundeen`at`rrc.mb.ca>
+Subject: My little yeast rant
+
+
+Steve Cavan writes:
+
+
+> On the not quite related point of yeast pitching levels, I 
+> believe you need
+> to increase pitching rates for "cold pitching".   DCL 
+> suggests approximately
+> .75 gms per L at 12C but 3 gms per L at 9C.
+> 
+
+
+Absolutely, and that is why I decided to split up bricks into 50 g packs. 
+
+
+Now, I'll bet you're just trying to get me going on my White Labs rant in
+this forum by bringing this up aren't you? ;-)
+
+
+Well, OK, the gist of it is...
+
+
+I'm a little fed up with yeast manufacturers calling themselves pitchable
+when in fact they aren't. At least, not if good brewing practices are
+followed, and I don't consider the advice to pitch lager yeast into 70F wort
+as good brewing practice.
+
+
+I want a suitable cell count for cold pitching, at an affordable price, and
+easy to use (translation: no starter). Dry yeasts give that to me, the
+phenolics are just a bonus. ;-) (Sorry, Bill, you're a good sport). 
+
+
+The question is, why can't the liquid yeast people start putting out
+products with respectable cell counts at a price near to what they are
+providing now? I suspect that a sizeable part of the cost of a yeast pack or
+tube or whatever is the overhead cost of producing it period, and has little
+to do with the quantity of yeast provided. My guess is, they could produce
+what I want, they just have little incentive to do it. 
+
+
+When the majority of the brewing world is happy with making starters, and
+raves about the superiority of liquid yeasts, why should Wyeast or White
+Labs change their approach? 
+
+
+Don't get me wrong, I'm pushing as hard as anyone to get White Labs into my
+local market. I want the variety. I just want them to make their product in
+a form that suits my brewing needs.
+
+
+Cheers
+Brian Lundeen
+Brewing at [819 miles, 313.8 deg] aka Winnipeg
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 21:45:45 -0500 (EST)
+From: homebre973`at`mindspring.com
+Subject: re: biere de garde
+
+
+I made this style about 6 years ago and it 
+came in second in Best of Show and scored 
+an average 41.2.  I tried to make it again
+using the same recipe, but I fermented it at 
+too high a temperature (67 F) and it was too 
+estery, so a cool fermentation 
+is critical.  I developed this after 
+e-mailing with Kit Anderson on the 
+HBD back then.
+
+
+    Biere de Point Guard 
+
+
+   Category         :  Biere de Garde           
+   Method           :  Full Mash
+   Starting Gravity :  1.063
+   Ending Gravity   :  1.016
+   Alcohol content  :  6.1%
+   Recipe Makes     :  5.0 gallons
+   Total Grain      : 11.75 lbs.
+   Color (srm)      : 12.2
+   Efficiency       :  75%
+   Hop IBUs         : 27.0
+
+
+Malts/Sugars:
+  0.75        lb.        sucrose                  
+  0.50        lb.        CaraMunich 60L           
+  5.00        lb.        Vienna                   
+  0.50        lb.        Wheat                    
+  4.00        lb.        Lager 2-Row              
+  1.00        lb.        Light Dry Malt Extract   
+
+
+Hops:
+ 0.25        oz.        N.Brewer pellet         7.2%        90 min
+ 0.50        oz.        Gr. Hal.Hers.Pt         2.6%        30 min
+ 0.50        oz.        Tettnanger          3.4%        60 min
+
+
+Grain Starting Temperature: 65F
+Desired Grain/Water Ratio: 1.25 quarts/pound
+Strike Water:  3.67 gallons of water at 133F
+First Mash Temperature: 122F
+Second Mash Temperature: 158F
+Boiling Water to add:  2.92 gallons 
+
+
+Notes:
+1/18/99
+2 tsp gypsum in mash water
+15 min protein rest at 122 F
+not enough room in tun, took out 
+some a brought to boil
+to raise temp to 158 F at 11:03
+added rehydrated TBS of irish moss in 1 pint
+cooled add pitched Wyeast 3787  at 67 F.
+Lager for 1 month after a 2 to 3 wk fermentation
+ferment at room temp 55 to 60 F.  \
+
+
+Hope this helps,
+Andy from Hillsborough
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Mar 2003 19:37:10 -0800 (PST)
+From: "Scott D. Braker-Abene" <skotrat`at`yahoo.com>
+Subject: I have been drinking heavily this evening.... 
+
+
+Then again... 
+
+
+What else would you do in Wayne, PA???
+
+
+However, All that being said....
+
+
+Dave Burley has been on recently and so has Al K... 
+
+
+So.... 
+
+
+What ever came of the great CLINITEST debate?
+
+
+hehehehehehhheheehhhehehh
+
+
+ -Scott "Pat Babcock is Jealous of the Plaid" Abene
+
+
+=====
+"My life is a dark room... One big dark room"
+ - BeetleJuice
+
+
+http://www.skotrat.com/skotrat - Skotrats Beer Page
+http://www.brewrats.org - BrewRats HomeBrew Club
+
+
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #4189, 03/07/03
+*************************************
+-------

@@ -1,0 +1,1446 @@
+﻿From rdg`at`hpfcmi.fc.hp.com Sat Apr  8 03:29:14 1995
+X-VM-v5-Data: ([t nil nil nil nil nil nil nil nil]
+        ["46838" "Sat" " 8" "April" "1995" "01:01:08" "-0600" "Request Address Only" "homebrew-request`at`hpfcmi.fc.hp.com" nil "1148" "Homebrew Digest #1701 (April 08, 1995)" "^From:" nil nil "4" nil nil nil nil]
+        nil)
+Received: by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with X.500 id DAA08038; Sat, 8 Apr 1995 03:29:11 -0400
+Received: from goodman.itn.med.umich.edu by totalrecall.rs.itd.umich.edu (8.6.12/2.3)
+        with SMTP id DAA08033; Sat, 8 Apr 1995 03:29:09 -0400
+Received: from hpfcla.fc.hp.com by goodman.itn.med.umich.edu with SMTP id AA02120
+  (5.65b/IDA-1.4.3 for spencer`at`umich.edu); Sat, 8 Apr 95 03:29:02 -0400
+Received: from hpfcmi.fc.hp.com (hpfcrdg.fc.hp.com) by hpfcla.fc.hp.com with ESMTP
+        (1.37.109.15/15.5+IOS 3.20) id AA041476065; Sat, 8 Apr 1995 01:27:46 -0600
+Received: by hpfcmi.fc.hp.com
+        ($Revision: 1.36.108.10 $/15.5+IOS 3.22) id AA219324468; Sat, 8 Apr 1995 01:01:08 -0600
+Message-Id: <199504080701.AA219324468`at`hpfcmi.fc.hp.com>
+Reply-To: homebrew`at`hpfcmi.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmi.fc.hp.com
+Precedence: bulk
+From: homebrew-request`at`hpfcmi.fc.hp.com (Request Address Only - No Articles)
+To: homebrew`at`hpfcmi.fc.hp.com
+Subject: Homebrew Digest #1701 (April 08, 1995)
+Date: Sat, 8 Apr 1995 01:01:08 -0600
+
+
+
+
+
+
+HOMEBREW Digest #1701                             Sat 08 April 1995
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  RIMS programming (Chuck Wettergreen)
+  Source of seed barley? (Kelly Jones)
+  Wooden Casks ("Fleming, Kirk R., Capt")
+  Re:  Cornelius Kegging Questions (john shearer)
+  noble hops & yeast question (A2J)
+  hot sparge (George Danz 919-405-3632)
+  Covered boils/racking off trub/floral? Cascades/reusing hops (Algis R Korzonas +1 708 979 8583)
+  Chilling Wort With Ice (Daniel Burke)
+  RE:Spring Brewing stock offering (JOHNMAJ)
+  Priming w/ Honey: My Mileage (Gee Starr)
+  airlock stopped/30-hour ferment/long secondary/Orval consulting/DME priming (Algis R Korzonas +1 708 979 8583)
+  TIA\Starters\All grain Mashing (MClarke950)
+  wort aeration and plumbing tip (PERSAND)
+  Beer Engine comment (PERSAND)
+  AFCHBC Results Request (Dion Hollenbeck)
+  carboy vs. TSP (FR BRADLEY BARBER)
+  Retraction:  posting of competition results (Jay Lonner)
+  Yeast Culturing (Doug Flagg)
+  Yeast, Hand Towels, RIMS ("Robert W. Mech")
+  coleman coolers (Lenny Garfinkel)
+  Is all HDPE plastic food grade? (Aric Rothman)
+  Re: DWC Based Malt Extracts (James L Blue)
+  CO2 Output (Brenton, Chris)
+  Valley Mill (Douglas O'Brien)
+  Moravian malts ("Harralson, Kirk")
+  anyone want to share some bitter orange peel? ("Lee A. Kirkpatrick"                       )
+  yap... ("Paul Stokely")
+  Recirculation Pump (Ben Rettig)
+  CO (MnMGuy)
+  Curacao/Orange Peel Sources (Aaron Shaw)
+  Why decoction mash ("Lee A. Menegoni")
+
+
+
+
+
+
+******************************************************************
+* NEW POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+Send articles for __publication_only__ to homebrew`at`hpfcmi.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmi.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`novell.physics.umr.edu
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Wed, 5 Apr 1995 13:32:37 -0500
+From: chuckmw`at`mcs.com (Chuck Wettergreen)
+Subject: RIMS programming
+
+
+RIMS constructioneers!
+
+
+Bill Machrone's (sp?) column in the February PC Magazine described a piece of
+Radio Shack hardware which might just fit the bill for automating your RIMS
+system.
+
+
+He described something called a BASIC stamp card. This little (2" X 3")
+circuit board hooks up to your computer serial port and can be programmed
+with the BASIC supplied on a diskette. It has a number (6? 9?) of in/out
+ports for, as he described it, just about any sensor or LED you'd care to
+hook up, all cheaply available from Radio Shack. It is powered by a 9V
+battery and costs $29. Another model costs $49 and has more in/out ports,
+plus additional features. Sounds like it could be used for either RIMS or
+refrigerator temp control.
+
+
+He described radio controlled model airplane builders using this board to
+sense when the radio signal is lost and then initiate one of several flight
+patterns which should bring the plane back into radio range.
+
+
+I'm (obviously) not electronically gifted, but this little number sounds
+pretty darn easy to set up, providing you can program a little in BASIC,
+and anyone can do that...
+
+
+Cheers,
+Chuck
+
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*
+Chuck Wettergreen
+chuckmw`at`mcs.com
+Geneva, Il
+/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 1995 12:50:25 -0600
+From: k-jones`at`ee.utah.edu (Kelly Jones)
+Subject: Source of seed barley?
+
+
+I'm interested in planting some barley in the backyard garden this year.
+Mostly for aesthetic purposes; I doubt it would be worth the effort for
+brewing.  Does anyone know where to buy small quantities of seed quality
+barley?  I've planted wheat which came straight from the bulk section of
+the food store before, and it sprouted just fine.  However, the barley I've
+seen there is usually 'pearled', which I suspect would not sprout so well.
+Ditto for the flaked. :) Does anyone know of a source (mail order or
+otherwise) for sproutable barley?
+
+
+Kelly
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Apr 95 14:00:00 MST
+From: "Fleming, Kirk R., Capt" <FLEMINGKR`at`afmcfafb.fafb.af.mil>
+Subject: Wooden Casks
+
+
+
+
+In an earlier HBD I asked for info re: sources of wooden casks and was given 
+the phone number of BrewLab, whom I called today.  I spoke with Jim who was 
+conducting beer-related experiments with a new cask when I called.  He 
+explained that there were a number of issues related to the use of wooden 
+casks, and he was trying to determine just what conditioning would be 
+required to make them useable.
+
+
+The casks he offers are made of American white oak, and he told me this oak 
+is different from European oak in that it has a higher concentration of 
+leachable tannins.  He was finding that batch one from a fresh cask had 
+noticeable "oak" qualities.
+
+
+He did say he felt he would be able to provide a fairly complete and 
+accurate picture of what the use of wooden casks would involve by the end of 
+the month, and that an associate would publish his Final Report on the 'net. 
+ I also offerred to post his report here if it was of an "appropriate" 
+nature.
+
+
+In any case, even though I told Jim I would be very willing to pay his $70 
+for a 3 gal cask (he offers the 5 gal at $90), he made no attempt to sell me 
+one.  He instead seemed far more concerned I understand the limitations and 
+problems of this technology.  He got points for that.  Brew Lab is at 
+800-900-8410 or 610-821-8410.
+
+
+I have no affiliation or fin interest in BrewLab and to date have not been a 
+customer; I only felt that many in the HBD community would be interested in 
+such a product.  There is at least one person who thinks I'm positively 
+insane for even considering the idea.
+
+
+Kirk R Fleming / Colorado Springs / flemingk`at`usa.net
+
+
+------------------------------
+
+
+Date: Wed,  5 Apr 95 16:30:52 PDT
+From: jds`at`equinox.ShaysNet.COM (john shearer)
+Subject: Re:  Cornelius Kegging Questions
+
+
+In HBD1697 Jim Fitzgerald writes asking for help with his 'cornelius 
+kegging'.  Now I don't consider myself an expert by any means, but I have had 
+great success with kegging and would like to help where I can.  There is a 
+chart in Byron Burch's book (I forget the title, but it's that thin one) 
+which describes various pressures to use, a time structure, etc for kegging. 
+ The same chart is also in Zymurgy's special issue on 'Gadgets'.  In that 
+same issue is also a good compilation of other kegging products and 
+procedures.
+
+
+Again, I don't consider myself an expert, but my last keg stayed under 
+pressure for several weeks with no noticable change until the last 2 or 3 
+mugs which were a little foamy (I used about 8psi to dispense).
+
+
+This leads me to something I've been wondering about for a while.  OK, it may 
+be a little obvious, but how do commercial breweries carbonate their beer?  
+
+
+jds
+
+
+
+
+- --------------------------------------------------------
+
+
+jds`at`equinox.shaysnet.com
+
+
+'I..am not an..animal!  I..am a..Home Brewer!
+
+
+
+
+------------------------------
+
+
+Date:     Wed, 05 Apr 1995  16:47:25 EDT
+From: A2J`at`CU.NIH.GOV
+Subject:  noble hops & yeast question
+
+
+ Neophyte Questions of the day:
+
+
+ 1. I just received my Noble hops from SA. Does anyone have a great
+    extract recipe I could use these in ?
+
+
+ 2. I was at our local brewpub and was talking with the brewer/owner.
+    When I told him that I was just learnig how brew beer he offerd
+    me free yeast. He said to just bring a jar and he would fill it up.
+    I'd be intersted to hear anyones thoughts on this. What kind of
+    container, how should I clean the jar, how much do I need, or is
+    just a bad idea altogether ? Does this stuff keep in the fridge?
+
+
+ Thanks for you help,
+
+
+ A.Lake (a2j.`at`cu.nih.gov)
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 1995 17:29:05 -0400
+From: danz`at`rtp.semi.harris.com (George Danz 919-405-3632)
+Subject: hot sparge
+
+
+The below concerns several of us who have used real hot sparge without
+first raising mash to 168F prior to sparging.  As you can read below, I
+tried this last batch and after tasting after boil didn't seem to be 
+tannic in nature.  I was doing a clone Oktoberfest using #1338 Wyeast per
+an article which referenced George Fix doing Oktoberfest beer.  This
+as you may know is an ALE yeast, but is supposed to be clean of ALE like 
+esters.  We'll see.
+
+
+
+
+I've been told the same thing and I inadvertantly did a near 212 sparge
+last brew session a week or so ago.  Still fermenting wildly, after a week, 
+but I had such great extraction... 1066 with 20.25 lbs grain for 11 gals in 
+fermenter that I'm wondering if there just isn't enough time in the hot stuff
+to cause significant leaching of tannins?
+
+
+I'm going to be very critical of this batch, but I'm wondering if anyone
+else has also been doing this?
+
+
+- ------
+Best Regards,
+
+
+George E. Danz              Address:
+danz`at`rtp.semi.harris.com      PO Box 13996
+(919)405-3632 Work            Research Triangle Park, NC 27709
+(919)405-3651 FAX             
+
+
+------------------------------
+
+
+Date: 5 Apr 95 16:33:00 -0500
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: Covered boils/racking off trub/floral? Cascades/reusing hops
+
+
+Jim writes:
+>I was not referring to DMS.  The condensate contains very 
+>unpleasent bitter compounds that are better left out of the wort.
+
+
+I have not noticed any off-flavours at all, DMS or any other type.
+Perhaps what needs to be done is that the condensate should be
+collected and tasted?  I'll try to remember to do this.
+
+
+***
+>If I  make fruity, hoppy pale ales or dark ales,
+>I tend not to notice if I leave any break material in the carboy, perhaps 
+>because the flavor profile of these beers is already dominated by esters and
+>the like. However, a Munich Helles, or any other light tasting lager will
+>clearly show the effects of sitting on the trub in terms of pholic and perhaps
+>oxidized flavors. I made a Munich dunkel last spring that was somewhat
+>phenolic, and which grew worse through time. I attributed this flavor and
+>lack of stability to a poor job of racking the beer off the trub (it was
+>fermented at 50 F.). Other opinions/suggestions?
+
+
+I don't make any special efforts to rack off the cold break, although I
+do skim the hot break off the top of the boil and I although I make mostly
+ales, I've made some very light, very pale, relatively low-hop-rate ales
+which would have shown off flavors quite easily.  Unless you are letting
+the finished beer sit on the trub for weeks, I really don't think there
+is a lot of off-flavour from not racking early-on in the batch.  Phenolic
+flavours are almost always a sign of wild yeast infection -- the "grew
+worse through time" is also an indication that this was a wild yeast
+infection.  I have to disagree that this flavour was due to your not racking
+off the trub.
+
+
+***
+Lee writes:
+ I suppose it could be done but in your example... Cascades, they 
+ would more than likely not be a good candidate for a bittering hop as 
+ they tend to leave a more floral taste (best way I can explain it) 
+ when boiled for too long and I generally fault a beer in competition 
+ that displays that characteristic.  Although, YMMV of course.
+
+
+I'm confused by this.  It's the "when boiled too long" part that I find
+confusing.  Cascades are well known for their citrusy/grapefruity
+aroma and flavour.  I have made many beers with Cascades as the bittering
+hop and have not noticed a "floral taste."  I also am rather bothered
+by your statement that you "generally fault a beer in a competition
+that displays this characteristic."  If it is a Munich Helles or an
+American Premium Lager and has a floral aroma, then perhaps it is not
+in style, but if you are lowering the score of an American Pale Ale
+or a Stout because it has a floral character, then I must disagree.
+
+
+Personally, I believe that Willamettes have a slight floral bouquet.
+Many French beers have a tendancy to have a floral character, for
+example Bruegg Lager.  I don't know what kind of hops the French use,
+perhaps Strisselspalt?
+
+
+Lee continues:
+ I don't know if you read Noonans book on Scottish Ales but he states 
+ that as you only utilize ~ 30% of the available bittering acids, the 
+ hops may be and are being re-used in a second runnings beer.  
+
+
+I don't have my copy here and I have not read it cover-to-cover yet,
+but I believe that either Noonan or Lee may be misinterpreting something
+here.  In fact, a great deal more than 30% of the available bittering
+acids are removed from the hops -- however, much of the acids are lost
+due to a number of factors and no more than 20-30% of the available
+bittering acids actually *make it to your drinking glass*.  Losses include
+insolubility in the wort and fermentation losses.  It does not mean that
+70% of the acids remain in the hops.  I have read that brewers used to
+(and perhaps some still do) make several beers from 1st, 2nd and 3rd
+runnings and that hops were reused in these subsequent boils, but it is
+*incorrect* to say that this is possible because only 30% of the bittering
+potential of the hops is utilized in the first boil.
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 1995 17:00:44 -0500 (CDT)
+From: Daniel Burke <dburke`at`eden.com>
+Subject: Chilling Wort With Ice
+
+
+A friend asked me today about simply putting large chunks of ice into the 
+brewpot after the boil to chill the wort (instead of using a chiller).
+
+
+His plan is to freeze distilled water in gallon jugs, and then slit the 
+jug off and plop the 1 gallon ice blob into the hot wort.  I advised 
+against it, but after thinking about it, I'm hard pressed to say exactly 
+why.  I suppose you could minimize splashing and avoid aeration, and if 
+the water's sterile to begin with maybe infection wouldn't be a problem.
+
+
+Anyone had any experience with this method of wort chilling?  Good 
+experiences or bad would be welcome.  Please do not reply directly to me; 
+you may reply to Steve Ligon, sligon`at`smtpgate.tnrcc.texas.gov.  He has 
+e-mail access but no digest.
+
+
+Thanks once again,
+Daniel Burke
+dburke`at`eden.com
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 1995 18:53:53 -0400
+From: JOHNMAJ`at`aol.com
+Subject: RE:Spring Brewing stock offering
+
+
+I got Spring Street's prospectous at the Camdenfest 95 beer festival. The
+first thing that struck me odd was that the company was there giving away
+their packets, but they had no beer. To my mind what better way to convince
+people to buy stock in a brewery than by giving them a sample of your great
+beer.
+
+
+ First Spring Street is a contract brewerey. There beers are made at
+Minnesota Brewing Company. Read this as meaning a very minimal outlay to get
+started. The company has two brewers signed on as consultants, Herm Heggar,
+and Doctor Joesph L Owades. Herm Heggar produced wit beer in Belguim, and was
+good enough at it to sell his brewery. Dr Owades is a brewing scientist of
+some kind I think. 
+
+
+Anyway for me the bottom line was in two years of operation the company spent
+$900.000 dollars, and sold 2957 barrels of beer. Considering they own no
+property, and paid nothing for equipment this does not seem to be a good
+deal. Also the stock you buy for $1.50 is immediatly deluted to $1.21. The
+company has never paid dividends, and does not plan to in the forseeable
+future. Also this stock will not be tradeable on the stock market. 
+
+
+The company is in large part owned by a New York Advertising firm called
+Mezzina/Brown Inc. This in and of itself would not make me nervous, but
+almost all the $4 million they hope to raise with this offering will go into
+advertising. 
+
+
+Given the fact that they have already spent close to $1 million in
+advertising, and promotions, and sold less in two years than some brewpups do
+in a year, I think I could find better ways to invest my money.
+
+
+John Majetic
+
+
+Why? Because we love to hate Zima 
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 1995 18:01:25 -0500
+From: geestarr`at`edge.ercnet.com (Gee Starr)
+Subject: Priming w/ Honey: My Mileage
+
+
+Well, two batches ago I found sitting down to bottle a "let's clean the
+closet" batch only to find that I had apparently cleaned too well: the
+cupboard wassurprisingly bare of both corn sugar and DME (actually, I
+suspect house-key wielding neighbors over a lapse in personal prudence, but
+I took a left-over lasagna from their fridge other night, so what can I
+say?)...anyhow, after a quick check of CP's HBCompanion, I substituted one
+cup of clover honey.
+
+
+The result was the best-carbonated batch I've done. Perhaps a bit on the
+bubbly side, but I wrote that off to bottling a bit to soon before
+fermentation was complete, and at any rate, no gushers, no grenades, just
+well-bubbled brew.
+
+
+Fast forward to yesterday (4 April) wherein, upon sitting down to bottle a
+well-fermented mutant-stout, I discovered that the missing corn sugar and
+DME had not mysteriously re-appeared. So I reached for the clover honey
+again, preparing  one cup and whistling a tune of fond apprehension.
+
+
+Then today I check my week-long backlog of HBD to find the vox hopuli
+(ouch) almost feverish with warnings! "One cup equals death by shrapnel!"
+"Three quarters cup or burst!"  "Give it half or you'll get Hell!" 
+
+
+Yikes! Even as I sit here I wonder what type of oversized Rorsharch Test
+might loom from my ceiling in the next few days...then again, so far one
+cup has served me well (it was *one* cup wasn't it...that *is* what I wrote
+down, isn't it?...damn the devils of apprehension and selective memory
+pitchforking my brain!)
+
+
+Anyhow...for those wanting answers to the "how much honey" question,
+consider my the pig of guinea. Wagers, anyone?
+
+
+gee
+
+
+ ------------------------------------------------- /  \ ----
+| <geestarr`at`edge.ercnet.com>                      o o  o    |              
+     
+| "...and the 'g' stands for 'non-sequitur.'"     o O       |  
+ --------------------------------------------------- o -----
+
+
+
+
+
+
+------------------------------
+
+
+Date: 5 Apr 95 16:37:00 -0500
+From: korz`at`iepubj.att.com (Algis R Korzonas +1 708 979 8583)
+Subject: airlock stopped/30-hour ferment/long secondary/Orval consulting/DME priming
+
+
+Rob writes:
+>I racked the beer Friday evening and will probably bottle tonight. One thing
+>I did notice was that within 24 hours of racking there was no more bubbling
+>in the airlock. Is that normal?
+
+
+The agitation and pressure changes during racking cause a lot of the CO2
+that was dissolved in the beer to come out of solution.  After racking the
+beer, if there is still some sugar for the yeast to eat, it can take a
+day or two for the beer to re-saturate with CO2.  Until the beer is saturated
+with CO2, the airlock will not show activity.  Your question is one of
+two that can be generated by this phenomenon.  The other question is: "My
+beer seemed done, but when I racked it to the secondary, fermentation began
+again."  Actually, most often, this is just the CO2 coming out of solution
+due to the agitation of racking.  In some circumstances, however, rousing
+the yeast can sometimes cause a stuck ferment to restart, but usually this
+is only for very high gravity worts or very flocculant yeasts.
+
+
+***
+Jeff writes:
+>Spruce Lager,  but it seems the fermentation has all but stopped, just a 
+>little over 30 hours since it started.  I pitched two packets of M & F Ale 
+>yeast, at 72 degrees, and I am wondering what to do now...
+
+
+At 72 degrees, M&F (dry) ale yeast can compleat most of it's work in 30 hours.
+What you should do is wait 3 to 7 days for the yeast to settle and then on
+to bottling.
+
+
+***
+Gary writes:
+>I brewed a lager (extract) with Wyeast liquid yeast. After about a week
+>of very nice fermenting in the primary (at about 65 deg F), I transfered
+>it over to the secondary (at about 50 deg F). Well, due to work, and 
+>projects (all the wife's) around the house, over 2 months has passed
+>and it's still in there. Is it still good ("Lagering" at 50 deg) for 2 
+>months, or is it tree fertilizer. If it's still good, should I get my ass
+>in gear and bottle now (and do I need to add more yeast).
+
+
+Sounds more like a "steam" beer than a lager.  At 65F, it doesn't matter
+that you used lager yeast -- it's going to have some ale character/esters.
+Two months at 50F should not be a problem -- go ahead and bottle it.  Had
+you not racked to a secondary you may have gotten some off flavours, but
+I think your beer should be just fine.  Some say add more yeast, but
+personally, I would not.
+
+
+***
+Jim writes:
+>Since he is a paid brewer, why should we give away recipes on some hard
+>to make styles, so he can make money on em?  Shouldnt a pro brewer who 
+>wants this have to pay something for it?  OK, SNPA and Liberty are no
+>brainers, but Orval...... If its references he wants, Id be happy to 
+>do some consulting for him.
+
+
+Ahem... I have a half-case of homebrewed Orval clones in the basement
+and would be willing to consult also.  Have you similar credentials Jim?  ;^).
+
+
+***
+Rob writes:
+>Are all of you folks 
+>switching over from using corn sugar to honey, DME to honey, or what? I would
+>like to hear some chatter about people's experiences with priming with DME!
+
+
+I'm not switching to honey priming.  I switched from dextrose to DME and then
+back again when I got "ring around the collar" from the protein in the DME.
+Corn sugar (dextrose) is easier, cheaper and the beer tastes exactly the
+same as with DME priming, so why bother, unless you want to put "Reinheitsgebot"
+on your bottles?
+
+
+Al.
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 1995 19:45:40 -0400
+From: MClarke950`at`aol.com
+Subject: TIA\Starters\All grain Mashing
+
+
+Jay Seigfreid asks: 
+>What does TIA mean.  Where Is the faq?, man.  I
+>keep seeing this but don't have a clue. 
+Thanks In Advance
+There's a Homebrew Digist accronym file in the archives Stanford.edu.  
+
+
+Keith asks:
+>Now I am interested in preparing a healthy starter in as little time
+>without compromising the quality of it.  I am thinking of taking 5 >cups
+water boiling it and adding 1 cup DME chill and pitch in a large >jar with
+air lock. It should be at high kr. the next day--BREW DAY.  >Oh ya, I'd also
+hop the starter with a few pelots.  
+>I'd appreciate comments on whether I should make step, wait until >after
+high kr... 
+
+
+Keith, I usually pop the seal on the wyeast and let it rise.  In a day or so
+I  boil a pint of water and add 6 tablespoons of dry extract and one hop
+cone.  I let the wort cool to room temperature (covered) before I pitch the
+yeast.  A 22oz or champagne bottle works well.  I usually pick up the yeast
+on tuesday if I'm going to brew on Saturday. YMMV.   
+ .
+Bob askes:
+>Any advice on pros/cons of infusion vs. decoction mashing would be 
+>appreciated.
+>I'm planning to use a chest-type cooler for>mashing, and a 7 gallon
+>plastic bucket with a false bottom for sparging. 
+>Has anyone  experienced batch to batch off flavors using plastic.
+
+
+For ales, infusion is the way to go.  Use decoction when you're trying to
+create authentic lagers or specialty ales (see the decoction FAQ in the HBD
+archives). I use a 8 gallon kettle to mash in and I made an insulated box to
+set it in (thanks to Dave Miller.)  People get excellent results with
+coolers, but I like the versatilityof being able to experiment.  I can do
+step infusion mashing, decoction or infusion.A cooler pretty much dictates an
+infusion mash.  I also use the two bucket sparge system without any off
+tastes. 
+            
+Question: I primed a brown ale with sugar-in-the-raw (Demarara (sp?)sugar?)
+and I used 3/4 cup.  The beer is over carbonated, I get abpout a half a glass
+of foam.  Has anyone else used this before.
+
+
+
+
+TIA
+Mike
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 1995 21:02:25 -0400
+From: PERSAND`at`aol.com
+Subject: wort aeration and plumbing tip
+
+
+What seems to work for me is this:  I syphon my chilled wort from the
+boilling kettle at a height of about 3' into my primary vessel.  This gives
+me about  8" of foam on top.  I then add the proofed (wyeast or dry) yeast
+and stir for 5 minutes.  I usually get fermentation activity within 5-8
+hours.
+
+
+My brewery/laundry tub has a male garden hose outlet.  To attach various
+items such as immersion hose, bottle washer, etc. I use a quick-disconnect
+fitting which can be purchased at any hardware/garden store.  These fittings
+are used to quickly attach nozzles, sprinklers, etc. to a garden hose.
+                                  This really saves a lot of 'screwing
+around'  with different devices. :-)
+Hope this helps some 'oldies' and 'newbies'!
+Paul Rybak
+   
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 1995 21:03:03 -0400
+From: PERSAND`at`aol.com
+Subject: Beer Engine comment
+
+
+A quick story concerning my experince with the recent post on a home beer
+engine.  It concerns using a food injector-type syringe to simulate a beer
+engine.  I used a bulb baster with a 3/32 hose attached.  Sucking up the
+liquid and forcing it back into the glass really does give a fine bead of
+foam! I did find that some glasses overflowed and had to be quickly sipped to
+prevent spillovers.
+Today I had one of those glasses that foamed over.  I quickly dove to the
+glass to suck up the foam and guess what.  I hit my mouth on the rim of the
+glass a chipped the enamal off  my (fortunately a cap)  tooth!  Well, after a
+half hour at the dentist, the tooth (cap)  was reasonably repaired.  But it
+will be about a $400 total repair bill!
+The 'home-style' beer engine is great-I just have to be a little more
+carefull about worrying about spill-overs!
+Again, a possible waste of BW but hope you find this humorous ( It IS now to
+me!)
+MAYBE  I  SHOULD  USE  PLASTIC  GLASSES!
+
+
+Paul Rybak
+
+
+------------------------------
+
+
+Date: Wed, 5 Apr 95 20:57:06 PDT
+From: hollen`at`megatek.com (Dion Hollenbeck)
+Subject: AFCHBC Results Request
+
+
+
+
+If anyone who entered the America's Finest City Homebrew Competition
+got a packet with a score sheet which did not belong to them, please
+contact me.  The person who is missing a score sheet would appreciate
+it very much.
+
+
+thanks,
+dion
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Apr 1995 23:33:33 EDT
+From: PPWF22A`at`prodigy.com (FR BRADLEY BARBER)
+Subject: carboy vs. TSP
+
+
+Help!!  Recently I filled a dirty carboy with a solution of 
+1 tsp. of TSP per gal. of cold water (according to my
+supplier's instruction).  Then I got lazy and allowed it to 
+sit for several days.  When I returned with my carboy brush 
+to scrub -- the carboy refused to come totally clean.  There 
+remained a residue of TSP on the interior that would not
+rinse with either hot or cold water.  I have been able to
+rub it off near the neck, but this stuff is stubborn.
+
+
+I consulted a chemistry teacher who suggested that this
+might be our hard water combined with the TSP.  He also
+suggested that I try rinsing with a solution of "Lime-Away", 
+which if I understand the stuff is a mild solution of
+phosphoric and hydroxyacetic acid.  But before doing that, I 
+wanted to consult the HBD wizards.
+
+
+Any suggestions?  (other than not procrastinating next time 
+- -- I've learned my lesson!)
+
+
+Private E-mail is fine, but please reply to the address
+below.
+
+
+Brad Barber
+bbarber`at`tenet.edu 
+
+
+
+
+
+
+------------------------------
+
+
+Date: Wed, 05 Apr 1995 21:43:17 -0800 (PST)
+From: Jay Lonner <8635660`at`NESSIE.CC.WWU.EDU>
+Subject: Retraction:  posting of competition results
+
+
+Brewers,
+
+
+A few days ago I submitted a brief note to the HBD in which I asked people to
+refrain from posting competition results.  This request picked up where a
+thread from last year left off, and touches on an issue that I mistakenly
+thought had been settled.  Well, after exchanging email with some HBD regulars
+who disagreed with my position, I would like to issue a retraction.  I
+recognize that not every post will be of interest to every brewer, and while I
+singled out competition results because of the space they can take up, there
+are a lot of people who value that information.  And, after thinking about it
+some more, I can see how posting that stuff to the HBD is less of a hassle than
+dealing with tons of individual requests for results.  On the whole, I guess I
+underestimated the number of people who are interested in entering their beers
+in competitions.
+
+
+This weekend I promise to chug a warm, skunked Corona with a lime stuffed down
+its neck as penance.  Mmm, Lent.
+
+
+Jay Lonner              8635660`at`nessie.cc.wwu.edu              Bellingham, WA
+- -----------------------------------------------------------------------------
+ "Let be be the finale of seem/The only emperor is the emperor of ice cream."
+
+
+------------------------------
+
+
+Date: Tue,  4 Apr 1995 15:01:00 GMT
+From: doug.flagg`at`chksix.com (Doug Flagg)
+Subject:  Yeast Culturing
+
+
+
+
+To: HOMEBREW`at`HPFCMI.FC.HP.COM
+Subject: Yeast Culturing
+
+
+Keith comments on yeast culturing:
+
+
+>I took a Wyeast 1056 popped it and
+>let it swell, added a pint of bottled wort, let it ferment out, poured
+>off the fermented beer and added another pint of wort.  I tasted the
+>fermented beer and it tasted like a wine rather than beer.  Needless to
+>say, I didn't brew that weekend.
+
+
+That -is- the way to go about it (with minor variations depending on
+who you talk to).  Personally, I like to start with 1/2 pint, go to a
+pint (without draining off the original starter), and then graduate
+to a quart.
+
+
+I, also, taste the fermented beer and notice it invariably tastes like
+wine/cider.  I put this down to the fact that the yeast/wort ratio is
+ -much- greater than in a regular ferment and this influences the flavor.
+The yeast, however, never effects my beer with this flavor.
+
+
+Any experts on the subject??
+
+
+Doug Flagg
+doug.flagg`at`chksix.com
+
+
+
+
+
+
+- ---
+ * OLXWin 1.00 * Backup not found: (A)bort (R)etry (P)anic
+
+
+------------------------------
+
+
+Date: Thu, 6 Apr 1995 04:19:22 -0500 (CDT)
+From: "Robert W. Mech" <rwmech`at`eagle.ais.net>
+Subject: Yeast, Hand Towels, RIMS
+
+
+First of id like to ask if somone would like to share some in-depth 
+conversation outside the HBD about yeast.  Specificly, im curious as to 
+improving my techniques in starters, and I also would like the ability to 
+learn to analyze used yeast. i.e. examine how well the yeast did, how to 
+improve per batch, how to make consistant batches of the same beer.  If 
+somone out there is a yeast god, and has some time, id be up for some 
+discussion.  Im no microbiologist, just want more information.
+
+
+*********************************
+
+
+Secondly, Kevin McEnhill asked about bar towels...  Why bother with 
+OTHER peoples towels, why not buy some white hand towels, go to a t-shirt 
+shop, and have them imprint "McEnhill Brewing Co" or something similar.  
+Im sure your friends and family would find those much more impressive 
+than "Miller" or "Bud" imprinted on them.  Most T-Shirt shops should have 
+lettering and facilities available to print just what you need at a low 
+price.
+
+
+******************************************
+
+
+Lastly, being the frugal brewer, im interested in constructing a 3 tier 
+gravity fed system.  I know that a few places sell complete kits to do 
+this, however im curious if building one would be cheaper.  Has anyone 
+priced burners, etc?  Does it end up cheaper making your own setup or 
+just purchasing one of the ones listed in Zymurgy, BT, etc.  I know I can 
+get the kegs for the lousy $10 deposit (please, no legality flames) and 
+constructing the rack itself shouldnt be too hard (have welder friends).  
+Would it be cheaper to build this myself?
+
+
+- -- 
+Robert W. Mech | All Grain HomeBrewer.  President, Fermentors At Large
+Elk Grove, IL. | Author Of "Frugal Brewers Guide To Brewing Aids"
+rwmech`at`ais.net | For More Information:(Sorry, they now charge for my WWW page)
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Apr 1995 12:50:29 +0200 (IST)
+From: Lenny Garfinkel <lenny`at`zeus.datasrv.co.il>
+Subject: coleman coolers
+
+
+I would like to prepare a picnic cooler mash tun and would like to know 
+if anyone has info on the heat resistance of Coleman coolers.  I know 
+that Gott is preferred over Rubbermaid since they stand up to mash temps 
+better.  What about Coleman?  I have not seen Gott coolers here in Israel.
+
+
+Lenny
+
+
+_________________________________________________________________
+Dr. Leonard Garfinkel       | Internet:  lenny`at`zeus.datasrv.co.il
+Bio-Technology General      | Office Phone: 972-8-381256     
+Kiryat Weizmann             | Home Phone:   972-8-451505
+Rehovot, Israel             | FAX:          972-8-409041
+- -----------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+Date: 06 Apr 95 08:14:44 EDT
+From: Aric Rothman <74021.1103`at`compuserve.com>
+Subject: Is all HDPE plastic food grade?
+
+
+I've purchased two HDPE plastic buckets from a hardware store.  I intend
+to make a Zapap lauter tun.  Is all HDPE (white) food grade?  HDPE
+appears in raised letters on the bottom of the bucket, with no mention
+of whether or not the plastic is food grade.
+
+
+TIA
+Aric
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Apr 1995 08:25:11 -0400
+From: blue`at`cam.nist.gov (James L Blue)
+Subject: Re: DWC Based Malt Extracts
+
+
+They are carried by BrewBetter Supply in Cary, NC. It's fairly new,
+still operated out of the home of the proprietor.
+919-467-8934 (no 800-number) brewbetter`at`aol.com
+
+
+They started out carrying only a few of the DWC grains, but early
+this month they said their next shipment would have the full DWC
+line. DWC Pale Ale malt was, as I remember, $38.50 for 50 pounds.
+
+
+I have ordered from them twice and found them to be pleasant to
+talk to, and more important, quick and reliable.
+
+
+------------------------------
+
+
+Date: Thu, 06 Apr 95 08:54:38 EST
+From: cbrenton`at`digprod.com (Brenton, Chris)
+Subject: CO2 Output
+
+
+     Does anyone know of a formula for calculating the CO2 output for a 
+     given amount of sugar/water/yeast? Parts per million over time would 
+     be ideal.
+
+
+------------------------------
+
+
+Date: Thu, 06 Apr 1995 09:39:23 -0400
+From: douglas.obrien`at`ccrs.emr.ca (Douglas O'Brien)
+Subject: Valley Mill
+
+
+arf`at`mcs.com (Jack Schmidling) writes:
+
+
+> The next item I call your attention to is the current promotion of the 
+> "Valley Mill" by a "friend" of the manufacturer.
+
+
+I have made a couple of postings recently about the Valley Mill on HBD (in
+response to requests for information) but I assume Jack is referring to
+the post about 4 weeks ago by Weldon P. (a friend of the not-on-the-net 
+manufacturer) in the rec.crafts.brewing newsgroup as this current "promotion".
+ 
+> While on that subject, I note that the claim is made that this mill is all 
+> stainless steel.  
+
+
+Where exactly have you noted this claim?  I can't find it in any back issues
+or posts.  The mill that I bought from a local homebrew supply store is not
+all stainless steel.
+
+
+Cheers,
+
+
+Doug
+(standard disclaimers apply)
+- --
+Douglas J. O'Brien                douglas.obrien`at`ccrs.nrcan.gc.ca
+Canada Centre for Remote Sensing  tel: (613) 947-1287
+588 Booth Street                  fax: (613) 947-1385
+Ottawa, Ontario, Canada
+K1A 0Y7
+
+
+
+
+------------------------------
+
+
+Date: Thu, 06 Apr 95 09:50:22 EST
+From: "Harralson, Kirk" <kwh`at`news.roadnet.ups.com>
+Subject: Moravian malts
+
+
+Rick Myers writes:
+
+
+>Coors uses Moravian III exclusively in most (if not all) of its products.
+>All of Coors barley is contract-grown, whereas other mega-brewers purchase
+>mostly from the open market.  Coors owns all rights to Moravian III
+>barley, so if other brewers use it, it is rejected Coors barley.
+
+
+The Williams catalog lists "Two-row pale Moravian German malt for mashing 
+authentic German lagers" (pg 28, Spring 95 catalog).  The price is $1.45/lb or 
+$65.50 for a 55lb sack.  However, I don't know what the particular differences 
+are between Moravian and Moravian III malts.  This caught my eye since George 
+Fix talked at length about Moravian malt in his Vienna, Marzen, Octoberfest 
+book.  I asked my local homebrew shop if they could get it, and they said "No 
+way", and were genuinely surprised that Williams carried it.  Does anybody have 
+first-hand experience with this malt?  Usual disclaimers -- no affiliation with 
+Williams.
+
+
+Kirk Harralson
+Bel Air, Maryland
+     
+
+
+
+
+------------------------------
+
+
+Date:    Thu, 06 Apr 95 10:26 EDT
+From: "Lee A. Kirkpatrick"                        <WPSSLAK%WMMVS.BITNET`at`VTBIT.CC.VT.EDU>
+Subject: anyone want to share some bitter orange peel?
+
+
+   I'm getting ready to brew a Belgian wit beer and need some
+bitter orange peel.  I was going to order some from the Frozen
+Wort as recommended in someone's previous posting, but can't get
+through to them.  Besides, I suspect I'd have to buy way more than
+I need for one or two batches anyway.  (I think someone mentioned
+4-ounce packages, and I think I only need about half an ounce.)
+
+
+   So, is there anyone out there who has recently purchased
+some of this stuff, or plans to in the near future, who'd be
+willing to, say, split an order with me?  I'd of course pay
+for my half (or whatever proportion you'd share) plus cost of
+mailing it to me.  E-mail address below.  Thanks mucho.
+
+
+- --Lee Kirkpatrick
+  wpsslak`at`wmmvs (BITNET) or wpsslak`at`wmmvs.cc.wm.edu
+
+
+------------------------------
+
+
+Date:          Thu, 6 Apr 1995 10:30:56 EDT
+From: "Paul Stokely" <PSTOKELY`at`ea.umd.edu>
+Subject:       yap...
+
+
+I didn't know we HBDers were being scored on frequency, so I will 
+post here once in a while instead of always replying privately. ;)
+
+
+Phillip Dickerson asks:
+
+
+>1)  What really is the need to make a starter? Is it really worth the 
+>trouble, with say a Wyeast product?
+
+
+Yes! I have found that my lagers benefit from being pitched with 
+yeast started 2 or 3 days earlier. Is the difference worth the 
+hassle? That's for each to decide.
+
+
+>2)  If I wanted to force them to ferment some more, could I rack to a
+>secondary and pitch more yeast?  
+
+
+Racking fermenting beer is often said to "rouse" the yeast. Adding 
+more yeast will probably not give you a lower Final Gravity, unless 
+you believe the 1st yeast somehow died or your second pitch is with a 
+more attenuative yeast. I've done this with barley wines. 
+
+
+>3) If I do encounter a stuck fermentation with a Wyeast, what would 
+>happen if I re-pitch with dry yeast?  Will the flavor profile be 
+>proportional to the amount of fermentation that each yeast was able 
+>to accomplish?
+
+
+More or less "yes". Yeast not only eat sugars and excrete ethanol, 
+but they also reduce diacetyl, eat trub and other procucts, depending 
+on the strain, when sugars run low. To me, the true value of liquid 
+yeasts is the control over by-product formation. That control is 
+dimished when using dry yeasts.
+
+
+>4)  Lastly, I'm really considering trying a secondary.  Won't I run 
+>the risk of oxidation when I rack into the secondary?  It seems 
+>that you'd end up with a headspace full of O2???
+
+
+You do run the risk of oxidizing, but that can be minimized by 
+racking carefully (underlet the incoming wort and don't splash!) and 
+by timing your rack (do it while fermentation is still strong and the 
+evolving CO2 will push air out of your secondary.)
+
+
+
+
+Frederick Stahl asks about water treatment options:
+
+
+>1) Treat mash water only. 2) Treat sparge water. 3) Both 1) and 2) 
+>above. This would result in more than 30 liters (8 gallons) of water 
+>for a 23 liter (6 gallon) batch.
+
+
+You should treat mash water to boost soluble minerals which your mash 
+enzymes need in order to function. How much is a function of your 
+water supply and the finish you wish your beer to have. Getting an 
+analysis from the water treatment plant takes only a phone call. 
+Checking well water is only a matter of `at` $20 from Agway, Sears, a 
+cooperative extension or (some) universities. Hey, its fun!
+
+
+Treat sparge water to lower the pH.
+
+
+4) Add the water treatment in the boil.
+
+
+I have only heard of this being done when a brewer wished to get a 
+REALLY dry finish on a stout and though that adding sulfates to the 
+mash would inhibit malt enzymes.
+_____________________
+
+
+I have an overly simple yardstick: brewers who seem to know less than 
+me are "novice" and brewers who know more are "expert". I usually 
+reply privately to HBD questions, so that the bulk of the posted 
+discussions would be on "expert" matters. Maybe all respondents should 
+post publicly now and again, if only to answer the question "who's 
+out there?"
+
+
+Paul S. in College Park, Maryland.      "My Latin is rusty"
+
+
+------------------------------
+
+
+Date: Thu, 6 Apr 95 09:30:14 EST
+From: blrett`at`most.magec.com (Ben Rettig)
+Subject: Recirculation Pump
+
+
+I am currently in the process of increasing my brewing capacity to the 16
+gallon size. I am in need of an acceptable magnetically coupled pump to
+move the wort around. Can anyone direct me where to find a pump. Low budget
+project as usual.
+Private E-mail responses are O.K. TIA!
+
+
+Ben Rettig
+blrett`at`pophost.magec.com
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Apr 1995 10:38:36 -0400
+From: MnMGuy`at`aol.com
+Subject: CO
+
+
+>Consider testing for CO for those who have a gas fired brewery or any
+>gas 
+>appliance for that matter.  Not even sure if would be safe brewing in
+>an 
+>open garage on a still day.  Better safe than sorry.  
+>
+> -KJB
+>
+>P.S.  Consumer reports recommends that folk avoid the little Carbon
+>Monoxide 
+>test cards which usually sell for less than $10.  They have limited
+>accuracy, 
+>and do not have an audible alarm if trouble rears its ugly head.
+
+
+
+
+I would have to strongly agree agree with this post.  The consumer product
+safety commission urges every home to have a carbon monoxide detector.  With
+today's tight, energy-efficient homes, CO can build up considerably, even if
+you are not a brewer.
+
+
+First, a disclaimer.  I own stock in First Alert, the world's leading manufact
+urer of CO detectors.  Do NOT buy a First Alert detector if you are a brewer.
+ It is designed to detect slow buildup of CO over at least ten hours.  This
+is fine for a home that may be developing a furnace leak but not for you guys
+firing up that jet engine in the basement.  Also, those cards are worthless
+too.
+
+
+Get one of those digital readout ones like the original poster.  Do NOT
+sample the air immediately next to your setup.  You already know CO is being
+produced, the concern is if it is building up elsewhere.  CO is neither
+heavier or lighter than air.  When it is hot, it rises, then sinks as it
+cools.  Put your detector in a living or sleeping area, or perhaps between
+your setup and such areas.
+
+
+Symptoms of CO poisoning are similar to the flu.  If awake, you will know you
+are sick.  When sleeping, you may not.  A better detector than the First
+Alert for 24 hour protection of sleeping areas is made by PAMA of Israel.  It
+is around eighty bucks but you do not have to buy $35 replacement cartridges
+every year like the First Alert.  The PAMA unit samples the air every ten
+minutes and does not wait for a buildup over several hours.  If you are in
+the USA, private e-mail me and I will dig up the number for someone here that
+imports that device.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+Date: Thu, 6 Apr 1995 11:02:37 -0400
+From: ar568`at`freenet.carleton.ca (Aaron Shaw)
+Subject: Curacao/Orange Peel Sources
+
+
+>From: "Crake_Kurtis_LT" <Crake_Kurtis_LT`at`hq.navsea.navy.mil>
+>Subject: Ingredients for Belgian White
+
+
+
+
+>     My wife wants to brew an all-grain Belgian White, and she's having
+>     some difficulty finding a source for bitter orange peel.  She has
+
+
+>     Could those of you who have attempted this style provide any
+>     information on sources for bitter (or Curacao) orange peel, or use of
+>     alternates (I've heard use of tangerine peel mentioned)?  Any sources
+>     local to Northern VA/MD/DC would be most helpful. 
+
+
+     Have you tried any health food stores? The ones in my area carry
+various types of dried orange peels (4+). Good Luck.
+
+
+- --
+      "Come my lad, and drink some beer!"
+                                           Aaron Shaw
+                                           Ottawa, Canada
+
+
+------------------------------
+
+
+Date: Thu, 6 Apr 95 10:51:12 EDT
+From: "Lee A. Menegoni" <lmenegoni`at`nectech.com>
+Subject: Why decoction mash
+
+
+For a very fine discussion of decoction mashing look at the Bock book by 
+Darryl Richman.
+The short answer to "is there any advantage to decoting a fully modified 
+grain" is Yes.
+ 
+One does a decostion for 3 reasons:
+1) Add raise the temp of the main mash by adding heat from the decocted 
+submash.
+2) Improve extraction by making more starch available to the enymes.
+and importantly for flavor and aroma characteristics
+3) Production of melanodins
+
+
+There are other benefits that are side effects of the boiling the grains, 
+protein reduction and improved lautering.
+
+
+Why do multiple decotions?  More melanodin production at the expense of 
+time.
+
+
+I find that doing a single decotion is the easiest way for me to raise my 
+mash from 140F to 158F when doing a 40-60-70 mash.  For the sake of time 
+saving I never do more than 2 decoctions.
+I use hot water to raise the mash to mashout temp.
+
+
+For a 40 - 60 -70
+I pull the decoction after the mash stabilizes at 140F,  slowly raise ithe 
+decoction to 158 and hold for 30 minutes then boil for 15 minutes and mix 
+back with main mash until converted.  This save time.  For a light lager I 
+would reduce the boil time.  For a Chech pils I do a double decotion. 
+
+
+------------------------------
+End of HOMEBREW Digest #1701, 04/08/95
+*************************************
+-------

@@ -1,0 +1,788 @@
+﻿Return-Path: rdg`at`hpfcmgw.fc.hp.com
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id DAA18817 for <spencer`at`srvr5.engin.umich.edu>; Mon, 8 Apr 1996 03:21:38 -0400 (EDT)
+Received: from truelies.rs.itd.umich.edu (truelies.rs.itd.umich.edu [141.211.83.38]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id DAA12884 for <spencer`at`engin.umich.edu>; Mon, 8 Apr 1996 03:21:37 -0400 (EDT)
+Received: by truelies.rs.itd.umich.edu (8.7.4/2.2)
+        with X.500 id DAA14149; Mon, 8 Apr 1996 03:21:35 -0400 (EDT)
+Received: from hplb.hpl.hp.com by truelies.rs.itd.umich.edu (8.7.4/2.2)
+        with ESMTP id DAA14131; Mon, 8 Apr 1996 03:21:31 -0400 (EDT)
+Received: from hpfcmgw.fc.hp.com by hplb.hpl.hp.com; Mon, 8 Apr 1996 08:15:50 +0100
+Received: by hpfcmgw.fc.hp.com
+        (1.38.193.4/15.5+IOS 3.22) id AA24272; Mon, 8 Apr 1996 01:00:04 -0600
+Date: Mon, 8 Apr 1996 01:00:04 -0600
+Message-Id: <9604080700.AA24272`at`hpfcmgw.fc.hp.com>
+To: homebrew%hpfcmgw.fc.hp.com`at`hplb.hpl.hp.com
+From: homebrew-request`at`hpfcmgw.fc.hp.com (Request Address Only - No Articles)
+Reply-To: homebrew`at`hpfcmgw.fc.hp.com (Posting Address Only - No Requests)
+Errors-To: homebrew-request`at`hpfcmgw.fc.hp.com
+Precedence: bulk
+Subject: Homebrew Digest #2005 (April 08, 1996)
+
+
+
+
+
+
+HOMEBREW Digest #2005                             Mon 08 April 1996
+
+
+
+
+        FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+                Rob Gardner, Digest Janitor
+
+
+
+
+Contents:
+  Re: ANYONE (Schneider)
+  Alkalinity/Aeration/Electrons/Water Analysis (A. J. deLange)
+  Sake (Douglas Kerfoot)
+  (Fwd) Re: Homebrew Digest #2004 (April 06, 1996) ("Pat Babcock")
+  Thermometers (KennyEddy)
+  Mucor (A. J. deLange)
+  Auto Sparge (Bob Jones)
+  BJCP Study Guide; Temp Control Plans (WALZENBREW)
+  re: keeping my cool (C.D. Pritchard)
+  Hey! How 'bout this?!? ("Pat Babcock")
+  HBU-MCC is dead. Long live the net... ("Pat Babcock")
+  dishwasher for sterilization (Dutch)
+
+
+
+
+
+
+******************************************************************
+* POLICY NOTE: Due to the incredible volume of bouncing mail,
+* I am going to have to start removing addresses from the list
+* that cause ongoing problems. In particular, if your mailbox
+* is full or your account over quota, and this results in bounced
+* mail, your address will be removed from the list after a few days.
+* 
+* If you use a 'vacation' program, please be sure that it only
+* sends a automated reply to homebrew-request *once*. If I get
+* more than one, then I'll delete your address from the list.
+******************************************************************
+ 
+#################################################################
+#
+# YET ANOTHER NEW FEDERAL REGULATION: if you are UNSUBSCRIBING from the
+# digest, please make sure you send your request to the same service
+# provider that you sent your subscription request!!! I am now receiving
+# many unsubscribe requests that do not match any address on my mailing
+# list, and effective immediately I will be silently deleting such
+# requests.
+#
+#################################################################
+NOTE NEW HOMEBREW ADDRESS hpfcmgw!
+
+
+Send articles for __publication_only__ to homebrew`at`hpfcmgw.fc.hp.com
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-request`at`hpfcmgw.fc.hp.com, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way! 
+If your account is being deleted, please be courteous and unsubscribe first.
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at
+  ftp.stanford.edu.  Use ftp to log in as anonymous and give your full
+  e-mail address as the password, look under the directory
+  /pub/clubs/homebrew/beer directory.  AFS users can find it under
+  /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.  If you do not have
+  ftp capability you may access the files via e-mail using the ftpmail
+  service at gatekeeper.dec.com.  For information about this service,
+  send an e-mail message to ftpmail`at`gatekeeper.dec.com with the word
+  "help" (without the quotes) in the body of the message.
+
+
+----------------------------------------------------------------------
+
+
+
+
+Date: Mon, 01 Apr 1996 21:35:09 -0800
+From: Schneider <djs`at`micron.net>
+Subject: Re: ANYONE
+
+
+Dean wrote:
+> 
+> Does anyone ever read this news group.  If you do, leave a message.
+
+
+Yea, when while I'm waiting for my wort to chill down.
+
+
+------------------------------
+
+
+Date: Sat, 6 Apr 1996 12:35:04 -0500
+From: ajdel`at`interramp.com (A. J. deLange)
+Subject: Alkalinity/Aeration/Electrons/Water Analysis
+
+
+In # 2004 Greg King gave a method for calculating alkalinity from the other
+entries in a water report. There's nothing wrong with his method but the
+same answer can usually be gotten much more quickly. If the pH of the water
+is below 8.3, then the alkalinity, expressed in milliequivalents per litre,
+(DeClerk calls them "millivals" but they are the same thing) IS the
+bicarbonate concentration (to within a % or so) in the same units. To
+continue with the Louvier water (which is becoming as well known as Perrier
+water) as an example the alkalinity was 196 ppm as CaCO3. To convert to
+mEq/L divide by 50 giving 3.92 mEq/L. This is the mEq/L for bicarbonate.
+Multiply by 61, the equivalent weight of bicarbonate, to get the ppm
+bicarbonate: 239 which is the number in the report.
+
+
+Combining the two steps, compute alkalinity from bicarbonate by multipling
+by 61/50 = 1.22. It is probable that the bicarbonate number in Ray's report
+was obtained by the reverse of this procedure. It is the usual practice to
+measure alkalinity (the method is in my post on Lime in #2004) in
+milliequivalents per litre and then convert that number to bicarbonate by
+multiplying by 61. This is fine in the case where the water pH is less than
+8.3 and where other ions which can effect alkalinity, such as reactive
+phosphate, are not present or present only in small quantity. Otherwise,
+the procedures are a little more complicated but not terribly so. In these
+cases, Greg's method might be preferrable.
+
+
+Doing an electrical neutrality computation is an important quality control
+step for the analyst. If the magnitude of the sum of all the anion and
+cation equivalences is more than, say, a tenth of a milliequivalent per
+litre (Louvier's report comes in just at this level) there is reason to
+suspect either that a measurement was appreciably in error or that there is
+an unaccounted for ion.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Mark Elliot asked about how long to aerate with an airstone. I have done
+some experiments with a sintered stainless airstone and found that about 9
+minutes of bubbling compressed air at a rate which gave reasonably sized
+bubbles brought 2.5 gallons of deoxygenated water in a carboy to 99% of
+saturation. By contrast, 8 minutes of vigorous shaking acheived 87% of
+saturation and 1 and a half minutes with bottled oxygen produced 121%.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Dan Gerth wonders about "mollified electrons". Well, all these science
+books tell you that electrons have a spin of plus or minus a half. But they
+never tell you half of what! I'll bet that the people who make this scale
+device have figured out how to get these electrons to spin at half of
+something that is less than half of the ordinary thing and thus, they are
+not in such a tizzy as ordinary electrons and are so mollified.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Pat bemoans the difficulty in getting a reasonable water analysis reporting
+that his "Sanitary District" wants $10/ion for a determination. If you are
+on a well, I can understand this. If the "Sanitary District" supplies you
+with water then you are being given the runaround. A supplier MUST do
+analyses to insure that his water meets mandated federal, state, and
+possibly local, standards in other words, they have the data and should
+supply it. If the supply entity is public or quasi public they are probably
+required by law to furnish the data.
+
+
+All that aside, after some thought I have decided that I would be willing
+to do brewing-specific analyses for anyone who wants them on a trial basis
+(in other words, I don't want to make a career of this). Water would have
+to be shipped to me and I'd have to charge something for my time and the
+reagents. I don't want to get "commercial" here so send me private e-mail
+if anyone is interested and I'll see what might be worked out.
+
+
+A.J. deLange   Numquam in dubio, saepe in errore!
+ajdel`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sat, 06 Apr 1996 13:04:11 -0500
+From: Douglas Kerfoot <dkerfoot`at`macatawa.org>
+Subject: Sake
+
+
+Does anyone know of any web resources for sake making?  I thought there 
+was a Sake Digest, but I can't find any info on it.  I am also looking 
+for sources for rice Koji (the moldy rice, not the liquid enzyme).
+
+
+Private responses will be summarized.  Thanks
+
+
+Doug
+
+
+
+
+------------------------------
+
+
+Date: Sat, 6 Apr 1996 16:23:19 +0500
+From: "Pat Babcock" <pbabcock`at`oeonline.com>
+Subject: (Fwd) Re: Homebrew Digest #2004 (April 06, 1996)
+
+
+In HOMEBREW Digest #2004, John 'Cisco' Francisco sez:
+
+
+> I just got back from UPS shipping two entries to the AHA
+> nationals and was very surprised by a new policy at UPS.
+> ALL PACKAGES WILL BE OPENED AND INSPECTED.
+
+
+<SNIP> 
+
+
+> Everyone should call UPS and file a formal complaint about
+> this 'police state' tactic. Don't bother complaining to the 
+> customer service representative that answers the phone,
+> ask to speak to their supervisor to file a formal compliant.
+
+
+{"Captain: Short sighted scanners show a subject of a political
+nature spotted off the starboard bow!"}
+{"Scotty: Engage left-brain political rant engines! Rant 6! Prepare
+the Blowhard torpedoes! Charge up the phrasers! Blinders up!"} 
+{"Aye, Coptin!"}
+{"Phrasers charged. Torpedoes ready in all forward and aft tubes.
+Blinders at 100%"}
+{"Fire phrasers!"}
+
+
+I'm not corroborating what Cisco has said - I haven't sent a brew
+package through the UPS since January - but I would like to think he
+has no reason to lead us astray with a fictitious report. That said:
+
+
+{"Phrasers fired. Direct hit. Damage minimal."}
+{"Fire Blowhard torpedoes. All tubes."}
+{"Torpedoes away."}
+
+
+ANAL (Am Not A Lawyer), but this "policy" sounds like an invasion of 
+privacy. You know - unconstitutional? They can't even look in your 
+GARBAGE CAN without having  a warrant. What gives the UPS the right 
+to search through something that you _haven't_ discarded?
+
+
+{"Torpedoes hit. Enemy blinders at 60%. They are turning to engage 
+us.}
+{"Scotty! Rant 9!"}
+
+
+I know, I know: There may be transportation/safety laws, "while in
+possession" concerns,  and such that they can fall back on (like
+metal detectors at the airport, customs, etc...) but doesn't the fact
+that no new law has been enacted requiring this tactic coupled with
+the fact that they never did the inspection gig before set any kind
+of legal precedent? 
+
+
+{"Enemy coherent-thought disruptors powering up. We cannot withstand
+an attack from these weapons at this time, Captain."}
+{"Scotty! I need MORE POWER!!!!"}
+{"But, Coptin! I'm givin yer all she's got!}
+{"Fire forward phrasers. Lay in a course away from the enemy and fire 
+as we go."}
+
+
+This sounds like something the ACLU or some other legal wolf-pack is
+gonna jump on mighty hard and fast. (Probably not, though. They're
+too busy with important social engineering tasks - like getting the
+Christ out of Christmas and other such important things - to worry
+about an action that might even be USEFUL.) 
+
+
+{"Scotty! I need those rant engines NOW!"}
+{"Coptin! I've redirected life support to the rant engines! Make the 
+jump in logic quickly!"}
+
+
+Anyway, maybe those phone calls would be better placed to your local
+ACLU rather than to the UPS. After all - just by having the policy, they
+have demonstrated how near and dear they hold your (our) rights. What
+difference is a phone call going to make? 
+
+
+Just my $0.02.  Brew on, comrades, brew on! Nostrovnia!
+
+
+{"Warning! Hull breach on the command deck. Rant plasma core
+detonation imminent..."}
+
+
+Man, I Gotta lay off the coffee...
+
+
+ - ---
+
+
+ - Pat Babcock
+pbabcock`at`oeonline.com
+http://oeonline.com/~pbabcock/
+
+
+(C) Copyright 1996 Mussell Rats
+
+
+See ya!
+
+
+Pat Babcock in Canton, Michigan (Western Suburb of Detroit)
+pbabcock`at`oeonline.com  URL: http://oeonline.com/~pbabcock/
+    Let a good beer be the exclamation point at the 
+    end of your day as every sentence requires proper 
+     punctuation.
+           -- PGB
+
+
+
+
+------------------------------
+
+
+Date: Sat, 6 Apr 1996 18:17:33 -0500
+From: KennyEddy`at`aol.com
+Subject: Thermometers
+
+
+John Mrazek commented on my Cheap-Ass thermometer article.  His point was
+basically that other devices do the same trick with less wiring.  This is
+true to a point but at the risk of sounding agumentive I'd like to bring it
+into perspective.  There are certainly many ways to skin the old kitty-kat,
+and the "Really Cheap-Ass Digital Thermometer" wasn't necessarily intended to
+be the best and final solution to the problem.  I'll address John's points
+one-by-one:
+
+
+> On the other hand in Brewing Techniques (March - April 1994) Mr. Robert
+> McIlvaine has published a article on temperature measuring using sensors
+> made for such use. They are: 
+>                         1. Very inexpensive
+
+
+The "D" grade LM34 can be mail-ordered for about $3 (assuming you're also
+meeting the typical $25.00 minimum charge or $5.00 surcharge).  Its accuracy
+according to the National data sheet is +/-4F.  The "C" and "A" grades are
+available (3F and 2F accuracy respectively) at prices ranging up to $30
+depending on grade and package style.  These are "guaranteed" accuracies.
+ "Typical" accuracies at elevated temperatures are 0.8F for the "A" and "C"
+and 1.6F for the "D" grade (but about twice as good at room temp).  Chances
+are that any given sensor will be as good or better than this but these are
+the published performance specs.  Improving accuracy over these specs is
+possible but requires added calibration circuitry.
+
+
+>                         2. Laser trimmed for accuracy
+
+
+True, but see (1).
+
+
+>                         3. Accuracy of .1 Degree Fahrenheit
+
+
+A *controller* built using this or any other semiconductor sensor (like a
+diode) properly calibrated could conceivably *hold* a temperature to this
+accuracy, but right out of the box, the *sensor's* accuracy is only as good
+as described in (1).  In the above-referenced article, McIlvaine writes:
+"[it] indicates temperatures from 0F to 250F within 0.1 degrees of
+*accuracy*"...I would venture to say he really means "resolution", which
+would then make it a correct statement.
+
+
+>                         4. Your choice of either Celsius or Fahrenheit
+>                            sensor
+
+
+Great feature.  But no particular advantage over other circuits topologies.
+
+
+>                         5. It will direct read to your Voltmeter
+
+
+I built a direct-reading (10 mV/deg F) enhancement of the simple thermometer
+I presented, which can be built for about $10 (mo' less).
+
+
+>                         6. To do that you only need a 9 Volt Battery and a
+>                            2K resistor.
+
+
+The resistor actually isn't necessary with the '34 or '35, and can actually
+degrade accuracy if your meter's input impedence is fairly low.  Most DVMs'
+input impedences are very high but an analog meter is likely to be a problem
+in this respect. 
+ 
+>In other subsequent articles he also gets to computer controlled brewing
+>etc. It was the best info i got to be able to make a fully computerized
+>mashing process.
+
+
+I've seen these other articles and I think he's doing a great job with them.
+ For those so inclined (and possessing the required programming skills to
+create the necessary interfaces), it's the ultimate.  But having to dedicate
+even a $200 surplus 286 and monitor to the garage brewery or (gasp) having to
+haul my brand-new $2000 P166 downstairs every brewday makes a
+much-less-expensive and more-compact RIMS controller box fairly attractive
+for that aspect of the job.  Toss in level controls and valve operators, and
+yes, a PC starts llooking mighty slick, but I suspect that's beyond most
+homebrewers' needs.
+
+
+> It seems like a lot of work just to have a thermometer.But having a nice
+> chart so you can convert measured voltage into a temperature reading must
+> be cool.
+
+
+C'mon now.  I DID say this circuit was for "demonstration purposes" and that
+it did not read directly.  The idea was to introduce and demonstrate the
+basic idea and allow an interested reader to see for him/herself the accurate
+response of a very simple circuit.
+
+
+Ken Schwartz
+KennyEddy`at`aol.com
+
+
+------------------------------
+
+
+Date: Sun, 7 Apr 1996 09:28:17 -0500
+From: ajdel`at`interramp.com (A. J. deLange)
+Subject: Mucor
+
+
+With everything else in my last post I forgor Mucor ("How could he forget
+Mucor?" you are probably asking yourself.") which John Thompson asked about
+in #2002. Mucor is a genus of mould in the order Mucorales of the class
+Zygomycota (sometimes referred to a Phycomycetes). It reproduces sexually
+by the formation of zygospores and assexually by the production of
+sporangia (which are sort of like the seeded head of a daisy) which release
+sproangiospores (the "seeds"). It is found in soil and water (i.e. the
+members of the class typically are) and can therefore be presumed to be a
+possible source of infection for beer if good sanitation procedures are not
+followed. In man, Mucorales are "opportunistic systemic pathogens" which
+means that they do not ordinarily bother us but may use us as lunch if our
+immune systems are weakened by disease (such as diabetes) or by other
+means. Apparently some current wholesale dispensation of antibiotics,
+corticosteroids etc. has increased the incidence of infections by these
+fungi appreciably. Mucormycosis is still, however, very rare. I would assum
+that a homebrew which is not infected would be as free of Mucor as any
+other wild yeast/fungus. Certainly micro-filtered or Pasteurized beer would
+be.
+
+
+A.J. deLange   Numquam in dubio, saepe in errore!
+ajdel`at`interramp.com
+
+
+
+
+
+
+------------------------------
+
+
+Date: Sun, 07 Apr 1996 08:43:29 -0800
+From: Bob Jones <bjones`at`bdt.com>
+Subject: Auto Sparge
+
+
+>Does anyone have a clever way to automatically control the level of 
+>sparge water above the mash/lauter tun grain bed ?
+
+
+Yep been doing it for years!!! Look in the HBD archives for hits on "Uncle
+Bob's auto sparge" or some such nonsense.
+
+
+Bob Jones in Alamo, Calif.
+bjones`at`bdt.com
+http://www.bdt.com:80/home/bjones/
+
+
+
+
+------------------------------
+
+
+Date: Sun, 7 Apr 1996 14:33:46 -0400
+From: WALZENBREW`at`aol.com
+Subject: BJCP Study Guide; Temp Control Plans
+
+
+Just another update for those interested:  I have my 100+ page BJCP exam
+study guide (with sample questions) as both a text file and a WordPerfect 5.1
+document on the TRASH home page:
+
+
+http://members.gnn.com/rcolaizzi/trash.htm
+
+
+Additionally, the Study Guide now has its own home page at
+
+
+http://oeonline.com/~pbabcock/bjcp.html
+
+
+where you can browse through it online.
+
+
+My plans for a complete refrigerator/freezer temperature control using a
+Radio Shack module, including a GIF of the schematic, parts list, and
+assembly and use instructions, is also located on the TRASH home page.
+
+
+Cheers,
+Greg Walz
+MA Rep, BJCP Board of Directors
+
+
+
+
+------------------------------
+
+
+Date: Sun, 7 Apr 96 21:01 EDT
+From: cdp`at`chattanooga.net (C.D. Pritchard)
+Subject: re: keeping my cool
+
+
+ccrenshaw`at`mail.utexas.edu (Clay Crenshaw) in #1998:
+>My apartment hovers aroud 76-80 F, and I want to ferment at 65 F or so.
+>Besides investing in a THIRD refrigerator, does anyone have any creative,
+>or even obvious, solutions?  Cheap is preferred, but not absolutely
+>necessary.
+
+
+Here's what I want to try:  Use a freezer as as a heat sink:  Put the
+fermenter and a cooling coil in an insulated box and another coil in a
+freezer.  Put tubing and a pump between them and use an antifreeze solution
+as a heat transfer fluid.  Control the pump based on temperature of the
+fermenter. A fan blowing across both coils will probably be needed.  Add-on
+automotive transmission coolers would make better heat exchangers than the
+coils.  I plan on making the fermenting box from rigid foam insulation-
+basically a bottomless box that can be slipped off the fermenter and cooling
+equipment so I can watch the yeast:
+
+
+   +-----------+     X : fan- maybe 2 or 3 muffin fans
+   |     ||    |     # : cooling coil or heat exchanger
+   |    -  -   |
+   |   /    \  |<--- 2" or so thick foam box w/o attached bottom
+   | X#|    |  |
+   | X#|    |<-|----- Fermenter
+   | X#+----+  |
+   |===========<----- Bottom- foam w/ plywood top
+
+
+       
+I'm hoping it'll maintain lagering as well as fermenting temperatures.  Adding 
+a heating element would allow boosting the temp. for dicetyl rests.  If 
+anyone's been down this road before, I'd like to hear about it.
+
+
+What doesn't work:  I tried something similar to the above for a lagering
+chamber.  Instead of the "cold" coil, I used a bucket of glycerine/water
+antifreeze in a freezer.  The "warm" coil was submerged in a water bath in
+an insulated garbage can.  The non-frostfree freezer frosted up pretty badly
+and the experiment was terminated.   I think not precooling the water bath
+and the pumping running all the time was a major factor in the failure...
+
+
+>Also, has anyone had much success with a "prechiller" (additional coil
+>immersed in ice bath) in an immersion-type chiller?  
+
+
+I've tried putting a in-line prechiller coil upstream of the immersion
+chiller. About 15' of coiled 1/4" copper tubing and a flow rate of 2 GPM or
+so didn't work too well.  Maybe a more tubing or agitating the prechiller
+coil more would have helped...
+
+
+In summer, I cool the wort to within 10degF or so of the tap water
+temperature then pump ice water through the immersion chiller.  I make a ice
+water bath in a cooler and use a bilge pump in the cooler to push it through
+the chiller.  I return the water back to the cooler and add more ice if
+necessary.  
+
+
+>Also, when using an immersion chiller, what kind of water pressure would be
+>most efficient?  Is fast-running water significantly more effective than
+>slow-running water?
+
+
+As long as you have turbulent flow (not much for 1/4" tubing- about 1 GPM or
+less I'd guess), the flow doesn't matter much.  Assumming turbulent flow,
+the limiting factor for an immersion chiller is the velocity of the wort
+over the coils (e.g. from moving the coil, stirring the wort or rocking the
+kettle), not the velocity of water flow through the chiller.
+C.D. Pritchard    cdp`at`chattanooga.net
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 09:32:07 +0500
+From: "Pat Babcock" <pbabcock`at`oeonline.com>
+Subject: Hey! How 'bout this?!?
+
+
+Greetings, Beerlings! Take me to your lager! Or, mebbe SEND me some 
+in the mail! 
+
+
+The Drinkur Purdee Department Of Thoughts That Usually Cause Me A 
+Hell Of A Lot More Work Than I Thought They Would has thought of 
+something to get me in a WHOLE lot more trouble! How about a Homebrew 
+Digest Brew-Buddy Program?!? Kind of like an extension of the 
+Homebrew Flea Market! 
+
+
+Here's how I see it working: You send a note to pbabcock`at`oeonline.com
+with "Brewbuddy Wanted" in the subject.  In the note, you include
+your name, e-mail address, country of residence, styles you brew and
+styles you're interested in. I post your info on a web page (also
+planned to be echoed on the Drinkur Purdee Document Echo for you
+Web-challenged individuals). People can browse the page, and send
+e-mail to those they'd like to "Buddy Up" with. Then, y'all can mail
+beer back and forth and REALLY PISS OFF THE UPS, er, um , no - I
+mean experience each others brews, and, perhaps, experience styles
+you'd otherwise not have dabbled in (or get some really nasty
+infected swill from someone needing troubleshooting. Hey! It could
+happen...).
+
+
+Well? Whattaya think? Worth a shot?!? (This glass of Duvel is doing 
+STRANGE things to my head, eh?!? I _LIKE_ it!)
+
+
+If interested, send your "Brew Buddy Wanted" notes along, and I'll 
+get on it ASAP. Otherwise, you know where to send the flames. That's 
+right: to the automated operators at 1-800-swill-bud....
+
+
+The Drinkur Purdee How Do I Get Myself Into THese Things Department 
+is standing by....
+
+
+(Now: on to my last remaining bottle of Australian Dogbolter Dark 
+Lager. Dave? Wanna send me a case?!? Didn't think so...)
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 09:43:58 +0500
+From: "Pat Babcock" <pbabcock`at`oeonline.com>
+Subject: HBU-MCC is dead. Long live the net...
+
+
+Hmm. Rejected. TWICE!!! Notes out of sequence now. References to
+Duvel backwards. Must adjust time. M-u-s-t ..... A-d-j-u-s-t-..... T-i -m -e
+
+
+- ----------------------------------
+
+
+Greetings, Beerlings! Take me to your lager...
+
+
+As I sit sipping my Easter glass of Duvel (Yummy! But I _still_ like
+Orval better!), I must make a somewhat saddening announcement (excuse
+me whilst I choke back my tears):
+
+
+A year to the date of its inception, The Homebrew University - Motor
+City Campus bulletin board is officially pronounced... 
+
+
+                                                       ...DEAD!
+
+
+Unfortunately, the concept never caught on here. The only posts in
+any message bases were my own; the only file uploaded by anyone other
+than myself was a virus. (Didn't REALLY think I'd allow it to infect
+one of my machines, did you?) 90 member out of which maybe ten are
+regulars. I like to blame the popularity and availability of the Net
+in this area (See? We in Michigan _ARE_ more evolved than the rest of
+you =) Besides: my dad needs a new machine...
+
+
+Anyway, though it is still up at the moment, I'll be pulling the
+plug sometime between now and May 1st. Just thought y'all would like
+to know...
+
+
+See ya!
+Pat Babcock
+pbabcock`at`oeonline.com
+ex-sysop of the HBU-MCC BBS
+(C) Copyright 1996 Lemuss Star
+
+
+See ya!
+
+
+Pat Babcock in Canton, Michigan (Western Suburb of Detroit)
+pbabcock`at`oeonline.com  URL: http://oeonline.com/~pbabcock/
+
+
+
+
+------------------------------
+
+
+Date: Mon, 8 Apr 1996 00:26:30 -0400
+From: leake.5`at`osu.edu (Dutch)
+Subject: dishwasher for sterilization
+
+
+        Hi all, I read the recent posting about sterilizing bottles in a
+dishwasher with bleach add to (help?) sterilize.  I use my dishwasher but
+never add bleach.  I was reluctant to advise anyone to do this becaus I
+didn't know what temperature the bottles reached during the heated dry
+cycle. (I assume people have a heated dry cycle if they use their
+dishwashers for sterilization.)  Well today I bottled two batches, an
+Astrailian lager style ale (I had to make this for work to test "new" malt)
+and a Kolsh ale, and took temperature readings during sterilization.  
+        I took a reading with no bottles in during the middle of the dry
+cycle, 200 F was the temp. When the bottles were in, the reading was 170 F
+so I ran the dry dycle again and achieved a temp of 183 F.  From now on I
+will run the heat dry cycle twice to make shure my bottles are sterilized.
+183 F steam should sterilize my bottles well.
+
+
+        Watch out those bottles will burn your hands!!!!
+        Walter
+        Leake.5`at`osu.edu
+
+
+Oh, Wyeast comes to my local homebrew store marked
+
+
+
+
+------------------------------
+End of HOMEBREW Digest #2005, 04/08/96
+*************************************
+-------

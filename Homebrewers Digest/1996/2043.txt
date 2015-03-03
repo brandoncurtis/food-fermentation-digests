@@ -1,0 +1,1363 @@
+﻿Return-Path: bacchus`at`aob.org
+Received: from srvr8.engin.umich.edu (root`at`srvr8.engin.umich.edu [141.212.2.81]) by srvr5.engin.umich.edu (8.7.5/8.7.3) with ESMTP id TAA05718 for <spencer`at`srvr5.engin.umich.edu>; Wed, 22 May 1996 19:13:44 -0400 (EDT)
+Received: from truelies.rs.itd.umich.edu (truelies.rs.itd.umich.edu [141.211.83.38]) by srvr8.engin.umich.edu (8.7.4/8.7.3) with ESMTP id TAA08106 for <spencer`at`engin.umich.edu>; Wed, 22 May 1996 19:13:42 -0400 (EDT)
+Received: by truelies.rs.itd.umich.edu (8.7.5/2.2)
+        with X.500 id TAA05259; Wed, 22 May 1996 19:13:41 -0400 (EDT)
+Received: from ns-1.csn.net by truelies.rs.itd.umich.edu (8.7.5/2.2)
+        with SMTP id TAA05254; Wed, 22 May 1996 19:13:40 -0400 (EDT)
+Received: from aob.org (bacchus.aob.org) by ns-1.csn.net with SMTP id AA19484
+  (5.65c/IDA-1.4.4 for <spencer`at`umich.edu>); Wed, 22 May 1996 16:05:05 -0600
+From: Homebrew Digest REQUESTS <homebrew-digest-request`at`aob.org>
+To: homebrew-digest`at`aob.org
+Subject:   Homebrew Digest #2043 (Wednesday, 22 May 1996)
+Reply-To: Homebrew Digest SUBMISSIONS only <homebrew`at`aob.org>
+Errors-To: Homebrew Digest REQUESTS <homebrew-digest-request`at`aob.org>
+Precedence: bulk
+Date: Wed, 22 May 96 6:00:33 GMT
+Sender: bacchus`at`aob.org
+Message-Id:  <9605220600.aa20915`at`bacchus.aob.org>
+Status: ORrf
+
+
+
+
+Homebrew Digest            Wednesday, 22 May 1996       Number 2043
+
+
+
+
+   FORUM ON BEER, HOMEBREWING, AND RELATED ISSUES
+        Shawn Steele, Digest Janitor
+        Thanks to Rob Gardner for making the digest happen!
+
+
+Contents:
+  FWH, O2 Bags (Bob McCowan)
+  hop seeds (Dave Higdon)
+  Reviews and Whiners (Jack Schmidling)
+  Keg lube ("Michael T. Bell")
+  Re: Heart of the Hops (Roger Deschner  )
+  Causes of stuck runoff & haze in rye & wheat beers (George De Piro)
+  Priming rates for Mini-Kegs ("Michael J. LeLaurin, IR/BRC, 245-7880")
+  Welcome, Shawn! (pbabcock.ford`at`e-mail.com)
+  Re: Wine Maker (John Artherton)
+  Non subscriber postings ("Rich Byrnes                      USAET(UTC -04:00)")
+  HBD Advertising Scandal! ("Dr. Larry Allen")
+  Ooops. ("Dr. Larry Allen")
+  The Great Crabtree Debate.... (Jim Cave)
+  carbonation in keg (Paul - McDonald)
+  Febuary's Mead (Thomas Trautman)
+  using lactobacillus to begin fermentation (Cindy Renfrow)
+  Hydrogen sulfide (Paul.Lambie`at`ncal.kaiperm.org)
+  Carbonator (TM) trick ("Steven W. Smith")
+  re:immersion chiller dimensions (John Chang)
+  re: HOMEBREW DIGEST MOVED (brewmaster Mitch)
+  Re: All grain vs. Partial extract (Kirk Johnson)
+  liquid yeast woes ("Jeremy E. Mirsky")
+  Draft lines thru the house (Darrin Pertschi)
+  Pressure drop in hose (Kelly Jones)
+  Dry Hopping (Dave Draper)
+  Heart of the Hops (Don Van Valkenburg)
+  Timed Question (usbscrhc`at`ibmmail.com)
+  light and hops/100% fruit extracts (Algis R Korzonas)
+  Re: Maltrodextrin - usage (Des Zein)
+  BreWater 2.0 News Flash (KennyEddy`at`aol.com)
+  Grain Mills (Scott Abene)
+
+
+NOTE NEW HOMEBREW ADDRESSES
+  homebrew`at`aob.org                (SUBMISSIONS only)
+  homebrew-digest-request`at`aob.org (for REQUESTS only)
+
+
+Send articles for __publication_only__ to homebrew`at`aob.org
+  (Articles are published in the order they are received.)
+Send UNSUBSCRIBE and all other requests, ie, address change, etc.,
+  to homebrew-digest-request`at`aob.org, BUT PLEASE NOTE that if
+  you subscribed via the BITNET listserver (BEER-L`at`UA1VM.UA.EDU),
+  then you MUST unsubscribe the same way!
+This list service is now being provided by majordomo`at`aob.org, so some
+  of the commands may have changed.
+If your account is being deleted, please be courteous and unsubscribe first.
+
+
+ARCHIVES & OTHER INFORMATION
+
+
+Please don't send me requests for back issues - you will be silently ignored.
+For "Cat's Meow" information, send mail to lutzen`at`alpha.rollanet.org or visit
+http://alpha.rollanet.org on the Web.  Othere information is available by
+e-mail from info`at`aob.org and on the AHA's web site at http://www.aob.org/aob.
+ARCHIVES:
+  An archive of previous issues of this digest, as well as other beer
+  related information can be accessed via anonymous ftp at ftp.stanford.edu.
+  Use ftp to log in as anonymous and give your full e-mail address as the
+  password, look under the directory /pub/clubs/homebrew/beer directory.
+  AFS users can find it at /afs/ir.stanford.edu/ftp/pub/clubs/homebrew/beer.
+  If you do not have ftp capability you may access the files via e-mail
+  using the ftpmail service at gatekeeper.dec.com.  For information about
+  this service, send an e-mail message to ftpmail`at`gatekeeper.dec.com with
+  the word "help" (without the quotes) in the body of the message.  Some
+  archives are available via majordomo`at`aob.org.
+
+
+----------------------------------------------------------------------
+
+
+From: Bob McCowan <bob.mccowan`at`cfrp.varian.com>
+Date: Tue, 21 May 1996 08:07:30 -0400
+Subject: FWH, O2 Bags
+
+
+A lot of people have posted little or no hop aroma with FWH.  I made a
+pilsener with whole saaz, 5 oz in 8 gallons, 25% FWH, 50% at the start of
+the boil, the remaining 25% 30 minutes before strike.  The wort was
+decoction mashed ans had an OG of 1.051.  Fermentation was done at 50F with
+L09 from Yeast culture kit co.
+
+
+The hops I used were whole flower Saaz, fresh from the O2 bag from Just
+Hops.  Very nice hops.  The beer has a moderate hop aroma - very nice, with
+no grassiness.  There is also a fairly strong hop flavor and bitterness,
+again with no grassiness.
+
+
+
+
+George Fix's original post on FWH implied that only the *finest* hops should
+be used for FWH.  Maybe this is the difference.
+
+
+- ----------------------------
+
+
+O2 Bags-
+
+
+I have a dazey vacuum seal-a-meal, and the vacuum is not particularly
+effective. You'd do much better with a straw to suck the air out.  The
+sealing part works well, and will reseal the O2 bags from Just Hops.  I
+imagine it will reseal other O2 bags as well.
+
+
+I am dismayed to hear that the bags in the vacuum seal-a-meal are not good
+O2 bags.  What good is a vacuum sealer if the bags are not good bariers?
+
+
+- ---------------------------
+
+
+Disclaimer: My only affiliation with Just Hops is that of satisfied customer.
+
+
+Bob
+
+
+
+
+- --------------------------------------------------------------------------
+Bob McCowan                            
+                                      voice:  (508)-922-6000 x208
+ATG/Receiver-Protector                fax:    (508)-922-8914
+CPI BMD
+Formerly Varian CF&RPP                e-mail: bob.mccowan`at`bmd.cpii.com or
+Beverly, MA  01915                            bob.mccowan`at`cfrp.varian.com
+
+
+- ---------------------------------------------------------------------------
+
+
+
+
+------------------------------
+
+
+From: Dave Higdon <DAVEH`at`qesrv1.bwi.wec.com>
+Date: Tue, 21 May 1996 09:02:01 EST
+Subject: hop seeds
+
+
+I looking to produce a strain of hops in my area (southern Maryland). 
+Does anyone know where I can get seeds, not rhyzhomes, seeds.
+
+
+------------------------------
+
+
+From: Jack Schmidling <arf`at`maxx.mc.net>
+Date: Tue, 21 May 1996 08:20:22 -0500 (CDT)
+Subject: Reviews and Whiners
+
+
+>From: robtrish`at`mindlink.bc.ca (Rob Lauriston)
+
+
+>Jack thought his mill got a bad review in a magazine because he didn't
+advertise in it....
+
+
+I think you are confused.  The MM never had a bad review.  You are
+referring to a comment I made about a comment someone else made
+about an EASYMASHER review in said magazine.  I did not see
+the review and simply offered a gratitutous opinion.
+
+
+
+
+>From: Bill Giffin <billg`at`maine.com>
+
+
+>Many folks are happy with the MaltMill and 28-30 pppg.
+
+
+Are you implying some connection between those number and
+the MM?  If so, you need to elaborate.
+
+
+>  I would much rather have a yeild of 31-35 pppg. 
+
+
+One can change the yield that much just by using a different malt
+or any number of  variable changes.
+
+
+> That last 10 per cent is where a lot of the flavor
+resides.
+
+
+That I find very hard to believe and many would contend that
+is where most of the evils lie.
+
+
+ Aside from better flavor.  I paid for the malt and I will get
+everything I can out of it.  
+
+
+No one is discouraging you from doing that but what does it have 
+to do with a MM.
+
+
+>For doubting Tracy.  That was the crush I got with my poor old beat up,
+terrrible Corona....
+
+
+I have posted several times, a study I did comparing the Corona with
+several variations of the MM.  It was actually a test of  the 
+EASYMASHER because I used the Corona to make flour and I
+wanted to see how the EM dealt with it.  Bottom line is, the yield
+was about the same but the flour wort from the Corona was clearer.
+You figure that one out.
+
+
+I never claimed that you couldn't make good beer with a Corona and
+people who buy rollers mills for that reason are being mislead.  Most
+people like their MM's because it turns a chore into a really fun
+part of brewing.  It's the right tool for the job and a pleasure to use.
+The Corona is a compromise that works but is a pain in the butt
+to use BUT it's cheap..
+
+
+>From: denisb`at`cam.org (Denis Barsalo)
+
+
+>Every time *anyone* has an *anything* to say about Mills,
+ EZMashers, Skewed Rollers, Fixed Rollers, etc. on comes 
+Jack with a "rant" to defend his *product*.
+
+
+A slight correction....  everytime anyone has anything INCORRECT
+to say about......
+
+
+> Look, I. don't mind reading ....
+
+
+Well, I DO mind reading statements that misrepresent my products and
+you will just have to get used to my defending them because I will
+continue to do so.
+
+
+
+
+                           ***********************
+ Visit our Web page for product flyers, applications info and other
+  totally unbiased opinions from the World's Greatest Brewer.
+                      http://dezines.com/`at`your.service/jsp/
+
+
+
+
+
+
+
+
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: "Michael T. Bell" <mikeb`at`flash.net>
+Date: Tue, 21 May 1996 08:35:37 -0500
+Subject: Keg lube
+
+
+In HBD#2042 Howard writes,
+
+
+> Does anyone use anything in addition to the o-ring to seal the top of the
+> corny kegs? I'm thinking there might be some food grade viscous stuff (grease
+> of sorts???) to help this seal. I have a couple kegs that just don't have a
+> perfect fit and it takes more effort than necessary to get the seal....
+> I played for about 20 minutes this morning just to make sure I'm carbonated
+> for this afternoon, and I don't like sitting at work with my hands smelling
+> like brew!! (ok, I do like it)  And where do you get replacement o-rings, while
+> I'm at it??Thanks!
+
+
+Look for a product called Keg Lube from Williams Brewing.  It is food grade 
+and has the look and feel of Vasoline.  It worked great on my 5L kegs.  
+Should be very good for your purposes.
+
+
+- -- 
+- -mtb
+beer is good food
+
+
+
+
+ Michael T. Bell                          
+ E- mail:  mikeb`at`flash.net                     
+ Home:  817.468.8849                                 
+ Fax:  817.468.7121
+
+
+------------------------------
+
+
+From: Roger Deschner   <U52983`at`uicvm.uic.edu>
+Date: Tue, 21 May 1996 08:21:21 CDT
+Subject: Re: Heart of the Hops
+
+
+It's both more interesting, and more sinister.
+
+
+They are not surgically removing the leaves, the lupilin, the gizzards,
+or anything of that sort to get at the hop's heart organ.
+
+
+Instead, it is basically a waste product. Miller extracts the alpha-acid
+from hops for use (admittedly, by the thimblefull per zillion-gallon
+batch) in its regular beers such as MGD, High Life, etc. What is left
+over is all this wet green vegetable material that was formerly
+landfilled or used as garden mulch. Now they're brewing with it.
+
+
+The end product is a remarkable brew. I have never before tasted a beer
+which had such high hop flavor and such low hop bitterness, together. But
+it makes sense when you know how it is made with the "Heart of the Hops".
+I'm not saying new Miller Beer is good beer, or bad beer, but rather more
+of a curiosity.
+
+
+Roger Deschner      University of Illinois at Chicago     rogerd`at`uic.edu
+Aliases: u52983`at`uicvm.uic.edu    R.Deschner`at`uic.edu     USUICZ3P`at`IBMMAIL
+=============== "Civilization was CAUSED by beer." =====================
+
+
+------------------------------
+
+
+From: George De Piro <George_De_Piro`at`berlex.com>
+Date: Tue, 21 May 1996 07:51:14 -0700
+Subject: Causes of stuck runoff & haze in rye & wheat beers
+
+
+     In HBD #2041 Guy Gregory states that it is the fine grain particles of 
+     rye and wheat that cause stuck sparges and hazy beer.  This is not 
+     entirely correct.  If the grain is milled too fine, then the small 
+     particles will indeed clog the lauter tun (as Guy states).  If the 
+     grains are milled properly, you can still experience trouble in the 
+     lauter tun because of the high protein content of these grains (see 
+     Eric Warner's book about Wheat Beers).  Rye is especially gummy 
+     (protein gum, that is) but unmalted grains (like raw barley) are also 
+     high in protein and can cause problems.  During malting, proteins are 
+     degraded.  That's why you can skip the protein rest with highly 
+     modified malts (like English Pale Malt) and not have any lautering 
+     problems.
+     
+     The haze in these beers is also caused by the high protein content of 
+     the grains, not by fine grain particles.  Remember that chill haze is 
+     caused by protein-tannin complexes.  If fine particles were making it 
+     all the way to your finished beer, they would cause more problems than 
+     just haze!  Unconverted starch particles would leave the beer VERY 
+     vulnerable to infection (because brewing yeasts don't metabolize 
+     starch, but some bacteria do) and husk fines would very likely make 
+     the beer unpalatably astringent.
+     
+     My wheat worts are quite clear before the boil-no fine particles are 
+     getting through.  If you desire clear wheat and rye beers, use a 
+     protein rest, a relatively long boil (good hot break), quick wort 
+     chilling (good cold break), and cold-lager the beer to settle out the 
+     chill haze (or filter it if you're in a rush).
+     
+     George De Piro
+     PS: Sorry if this is posted twice, but I had trouble figuring out ccmail
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: "Michael J. LeLaurin, IR/BRC, 245-7880" <lelaurin`at`shellus.com>
+Date: Mon, 20 May 96 14:34:22 -0500
+Subject: Priming rates for Mini-Kegs
+
+
+All,
+
+
+I have just started using the approximate 1.25 gallon kegs. I was told
+to prime with 1 level tablespoon of corn sugar / keg. The first keg I
+tapped was/is flat. The beer conditioned for 2 weeks at room
+temperature and then for 6 days in the fridge. The beer is a rather
+heavy stout. Maybe it needed longer to condition. Now to my
+questions...
+
+
+1.) Is the 1 level tablespoon the right amount?
+
+
+2.) I boiled about 1/2 cup of water and disolved the sugar
+    in the water and added to the keg as the beer was being siphoned
+    into the keg. Right or wrong procedure? Too much water?
+    Don't use water at all...? Just add dry sugar to keg...?
+
+
+Please advise.....I'm tired of bottlin'!!
+
+
+Thanx................
+
+
+d:-)
+
+
+**********************************************************************
+* Michael J. LeLaurin      |    oooooo   |I was told by my wife that *
+* Integrated Interpretation|   oooooooo  |if I brew one more batch   *
+* Shell EP Technology Co.  | /_|  oooooo |of beer she would leave me!*
+* Phone (713)245-7880      |// |    ooo  |                           *
+* FAX   (713)245-7581      |\\_|   oo |  |                           *
+*                          | \_|     o|  | I'm going to miss her :-) *
+*                          |   |______|  |                           *
+*=====================================================================
+*  e-mail:lelaurin   internet:lelaurin`at`shell.com     PROFS id mjl8   *
+**********************************************************************
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: pbabcock.ford`at`e-mail.com
+Date: Tue, 21 May 1996 11:12:11 EDT
+Subject: Welcome, Shawn!
+
+
+Pat Babcock             Internet: pbabcock.ford`at`e-mail.com                      
+Bronco Plant Vehicle Team - Body Construction Assembly Engineer                 
+Subject: Welcome, Shawn!                                                        
+
+
+Just a quickie to note the passing of Rob Gardner as Digest Janitor, and to wel 
+come Shawn Steele in that capacity.                                             
+
+
+Shawn: They're mighty big shoes you're stepping into. From what I know of you,  
+they should be a perfect fit!                                                   
+
+
+Long live the Digest!                                                           
+
+
+See ya!                                                                         
+Pat Babcock     pbabcock`at`oeonline.com                                           
+http://oeonline.com/~pbabcock/brew.html                                         
+
+
+
+
+------------------------------
+
+
+From: John Artherton <metlhead`at`ix.netcom.com>
+Date: Tue, 21 May 1996 01:35:43 -0700
+Subject: Re: Wine Maker
+
+
+Aesoph, Michael wrote:
+> 
+> Sir:
+> 
+>   You use a complicated wine recipe.  I would like to know where you 
+> get it from and how well it works.  I've been using nothing but sugar,
+> lemons, fruit, raisens and yeast - no chemicals and things turn out
+> pretty good.  Plus it's one hell of a lot cheaper ($1 per bottle).
+> Please give me the scoop on the sparkling wine aspect as well. 
+
+
+I work at a company which produces filtered, pastuerized, and 
+concentrated juices from raw fruits.  I am experimenting with the proper
+dilution rates for wines.  I dilute down to single strength presently, 
+then add sugar to bring the specific gravity up to where I want it.  I 
+am using the acids to adjust the total acid content to 0.60%.  As far as 
+costs go, I get the sugars, juice concentrates and chemicals for free as 
+samples.  My cost is in the equipment and time.  I have been told that 
+1/3 to 1/2 cup per 5 gallons for bottle priming will work, haven't tried 
+it yet.  Just did a batch of red cherry wine today!  Hope it's good.
+
+
+Thanks for your reply, will have to try your recipe, I have some grapes 
+growing every year (small patch maybe 50 lbs.)
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: "Rich Byrnes                      USAET(UTC -04:00)" <rbyrnes2.ford`at`e-mail.com>
+Date: Tue, 21 May 1996 12:02:17 EDT
+Subject: Non subscriber postings
+
+
+Hold on here, before we get crazy and close the doors on posting                
+lets consider how many legitimate non-subscribers we have out                   
+there.                                                                          
+
+
+A well renowned brewer I work with (lets call him the plaid man)                
+is the main subscriber, and turns around and fans it out to about               
+50 people in the club, all "non-subscribers".  Does this mean that              
+us 50 can't post if this plan goes through, what's to prevent                   
+someone for subscribing for a day, posting his ad, then unsubscribing.          
+
+
+Let's not get too paranoid, this is a public forum, and while I cringe          
+at those ads, I also cringe at mill-wars, canadian beer bashing, 18             
+page dissertations on water chemistry, contest results etc, all of              
+which have been discussed st great lengths in the past, thank god my            
+page down key functions as intended (oh no, the religion thread resurfaces)     
+
+
+I would rather not see any ads either, but lets not shut the forum down         
+to outsiders as a control method, thanks!                                       
+
+
+Regards,_Rich Byrnes Jr                                                         
+Fermental Order of Renaissance Draughtsmen     \\\|///                          
+phone #(313)323-2613, fax #390-4520_______o000_(.) (.)_000o                     
+rbyrnes2.ford`at`e-mail.com                         (_)                            
+
+
+
+
+------------------------------
+
+
+From: "Dr. Larry Allen" <docsbrew`at`inland.net>
+Date: Tue, 21 May 1996 09:18:33 -0700
+Subject: HBD Advertising Scandal!
+
+
+Well I just gotta toss in my $.02.  
+
+
+I totally agree that this is not the place for advertisements, but taking it
+to the other extreme, I implore you not to support ANY type of censorship.
+This talk about unsubscribing someone is silly - they can just re-up if they
+want - even under another or an assumed name!  If someone REALLY wants to
+mess with the digest - or an individual - they're gonna find a way to do it.
+Flame throwers and spam hurlers should just be ignored, and MAYBE they'll go
+away.  Of course, maybe they won't, but that's the price, blah, blah.  
+
+
+Especially now that the AoB has taken the reins (and this is NOT an AoB
+slam!), imagine if somebody formed the _Nat'l_Homebrewers_Association_ (can
+you see it - the Superbowl of Homebrew!), but they weren't allowed to post
+to HBD because they're "the enemy!"  That would be silly.  
+
+
+We must be tolerant - - and allow even stupid people to participate!
+
+
+LPA
+The strength of the Constitution lies entirely 
+in the determination of each citizen to defend it.
+                                        Albert Einstein
+
+
+
+
+------------------------------
+
+
+From: "Dr. Larry Allen" <docsbrew`at`inland.net>
+Date: Tue, 21 May 1996 09:18:40 -0700
+Subject: Ooops.
+
+
+Sorry for the long signature.  Forgot it was there.
+Hope you learned something, tho!
+
+
+LPA
+The strength of the Constitution lies entirely 
+in the determination of each citizen to defend it.
+                                        Albert Einstein
+
+
+
+
+------------------------------
+
+
+From: Jim Cave <CAVE`at`psc.org>
+Date: Tue, 21 May 1996 9:31:17 -0700 (PDT)
+Subject: The Great Crabtree Debate....
+
+
+        Al talks about the crabtree effects and notes that this still
+occurs with maltose.  However, malt extract contains other sugars than
+maltose and other simple sugars.  In my opinion, and it is only an opinion,
+the crabtree effect is irrelevent with the levels of sugars added to 
+bottle condition.  Yeast health is probably far more important.  I have found
+far better and faster bottle conditioning, when I add a small (250 ml) starter
+to 20 litres of beer for bottle conditioning.  Conditioning will take place 
+very rapidly.  As for oxygen, I would suspect that a healthy yeast from an
+all malt starter would likely very quickly assimilate any oxygen in a head 
+space in a bottle of beer.
+
+
+        On adding Dextrose to beer....
+
+
+        I made a Duvel clone with two (reputedly) different strains of the 
+Duvel yeasts.  Duvel is mashed to about 1.058 and then the gravity is raise
+to the 1.070's with dextrose.  For fear of Crabtree with the very high levels 
+of dextrose to be added, I prepared a very large starter (2.5 litres) with 
+45 litres of beer. I pitched this in a conventional gravity 1.058 wort, well 
+oxygenated, and got a very happy ferment going.  My thoughts were to get a 
+vigorous ferment and then add liquid dextrose...wrong!  I added the Dextrose
+and the ferment virtually came to a halt.  It took 3 weeks for the yeast to
+finally poop out and as it was still sweet, I ended up finishing the beer
+with some Celis yeast which I had collected from a Primary.  This finished 
+quickly.
+
+
+        The moral to the story is...make a small beer first and pitch all
+of this yeast into a strong beer made with dextrose.  BTW this beer was 
+bottle conditioned with fresh Duvel yeast and was fully conditioned in 5 days. 
+The resulting beer was judged quite close to Duvel and in a side-by-side blind
+taste test with the real duvel, judges, thought the real "Duvel" tasted 
+"old", which may have been the case.  Both were bottled in Duvel bottles with
+Duvel caps.
+
+
+                                Jim Cave
+
+
+------------------------------
+
+
+From: Paul - McDonald <pzm`at`rfc.comm.harris.com>
+Date: Tue, 21 May 1996 12:37:10 -0400 (EDT)
+Subject: carbonation in keg
+
+
+I have just built a counter flow bottle filler and I was wondering if 
+anyone had any info on how much carbonation I should have so that the 
+beer comes out ok in the bottle. I have a gauge that fits my keg so I 
+can control the amount of co2 build up. (I was planning on conditioning
+the beer naturally.)
+
+
+Thanks- paul mcdonald
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: Thomas Trautman <cc47jv18`at`coastalnet.com>
+Date: Tue, 21 May 1996 13:20:29 -0400
+Subject: Febuary's Mead
+
+
+Dear Digest,
+
+
+   I've just cracked open the first of my blackberry mead.   I 
+personally have never had any sort of mead before.  I'm not sure what it 
+should taste like.  This stuff tastes like red wine with a kick.(15%+ 
+alc.)  I like it, but it's not very fruity at all.  I pasturized the 
+berries after the boil and let them steep for a week in the primary.  
+After that I racked it to a carboy, secondary, for four weeks.  Then 
+bottled.  Is this mead just too green?  Will it mello with age?
+
+
+
+
+Thomas "t-man" Trautman
+
+
+   I'm going to line my pockets with money and sin
+
+
+------------------------------
+
+
+From: Cindy Renfrow <renfrow`at`skylands.net>
+Date: Tue, 21 May 1996 13:50:51 +0100
+Subject: using lactobacillus to begin fermentation
+
+
+Hello! I'm relaying a request for information. Does anyone have any old
+recipes which use lactobacillus (whey, yogurt, sour milk, etc.) to begin
+fermentation of a beverage, any beverage?  (In particular, she is hoping to
+find a recipe for small beer which is made with whey.) If so, please email
+me with a citation or recipe.  Thanks!!
+
+
+Cindy Renfrow
+renfrow`at`skylands.net
+http://www.alcasoft.com/renfrow/
+
+
+
+
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: Paul.Lambie`at`ncal.kaiperm.org
+Date: Tue, 21 May 1996 10:41 -0700 (PDT)
+Subject: Hydrogen sulfide
+
+
+I brewed my first batch of wheat beer this last weekend and have noted
+an odor of hydrogen sulfide from the fermentation:
+8 lbs. DeWolf Cosyns Pils malt
+8 lbs. Great Western white winter wheat
+Infusion mash at 155 F with 1 tsp gypsum
+Chilled wort split into 2 carboys - total 11 gallons, O.G. 1.042
+2 quart starter Wyeast #3068 pitched into each carboy
+Fermentation began quickly at 65 F
+
+
+There has been a strong hydrogen sulfide odor throughout the
+fermentation.  Is this characteristic of this particular yeast strain or
+is there another cause for this?  Will this eventually be purged by CO2;
+if so, long will this take?
+
+
+TIA
+Paul Lambie
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: "Steven W. Smith" <SYSSWS`at`gc.maricopa.edu>
+Date: Tue, 21 May 1996 11:25:47 -0700 (MST)
+Subject: Carbonator (TM) trick
+
+
+  Hola, zymurgists,  I'm back from an extended lack of anything useful to 
+write about!  I'm up to early April with my HBD readings (that durned 
+vacation set me back big-time), so if this is common knowlege I apologize...
+
+
+  In reply to Art McGregor's Carbonator post of April 9th or thereabouts.  
+Paraphrasing:  "Carbonators are expensive and I don't wanna give 'em out to 
+my friends".  Here's my as-yet unpatented method ;-)
+
+
+  After pressurizing the bottle, you refrigerate it to help the CO2 go into 
+solution and you shake the bottle occasionally.  Once it's "fully carbonated"
+(mine tends to end up "fizzy" - lack of practice?), shake the bottle again to 
+get a good head of foam at the top and transfer the bottle to the freezer.  
+It may take a re-shake or two until the temperature gets low enough, but with 
+minimal effort you can get a "plug" of frozen foam at the top of the bottle.  
+Pray silently, then quickly unscrew the Carbonator and replace it with the 
+original plastic cap.  Now you're ready to go on the road with 
+fully-disposable-beer-gear.
+  I'll now vanish silently into the ether; hope that helps someone.
+
+
+  _,_/|   Steven W. Smith
+  \o.O;   Systems Programmer, but not a Licensed Therapist
+ =(___)=  Glendale Community College.  Glendale Az.
+    U     syssws`at`gc.maricopa.edu or smith`at`peabody.gc.maricopa.edu
+          End procrastination tomorrow, ask me how!
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: John Chang <75411.142`at`compuserve.com>
+Date: 21 May 96 14:26:48 EDT
+Subject: re:immersion chiller dimensions
+
+
+Hello All,
+
+
+Greg King in HBD 2039 inquired about immersion chiller diameter and efficiency.
+I just completed mine with recommendations from my father-in-law, who has been
+working in the nuclear powerplant industry, pump division, specializing in heat
+transfer.
+
+
+He reports that the difference in efficiency of  1/4" O.D. and 3.8"O.D. copper
+tubing is nil, given the  length of tubing required and the flow of water at the
+rate that homebrewers use (mostly straight from the tap).  The most important
+considerations in the construction of the chiller are:
+
+
+1) to have the input end of the tube enter the coil from the top (heat rises).
+
+
+2) build the coil diameter large enough to facilitate stirring.
+
+
+3) build the maximum surface area of tubing that will fit in the boiling vessel
+as long   as the  entire coil structure remains submerged.
+
+
+4) for those using a pump (I use a 3gl/min submersible in an icebath after  10
+min     of  pumping  straight tap water)  you must route the input tube to a
+height      of 24     inches  above the pump, then into the coil structure.
+This is to maintain the              proper resistance for the pump.
+
+
+Also, I use SS hose clamps to attach plastic tubing to the ends of the chiller
+for input from the pump and output to the sink.  With my boiler mostly covered,
+my drop in temp (5gal) goes from boiling to 70F in  ~20 min.  I only uncover the
+pot to stir.  
+
+
+Hope this helps,
+
+
+John
+john.chang`at`newhorizons.com
+
+
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: brewmaster Mitch <gellym`at`aviion.persoft.com>
+Date: Tue, 21 May 96 19:00:56 GMT
+Subject: re: HOMEBREW DIGEST MOVED
+
+
+>    homebrew`at`aob.org                  (SUBMISSIONS ONLY)
+>    homebrew-digest-requests`at`aob.org  (SUBSCRIBE, UNSUBSCRIBE, etc.)
+
+
+Ack ! A takeover !
+
+
+Run for cover !
+
+
+- --
+ -- Mitchell B. Gelly -- owner & brewmaster of the ManOwaR nanoBrewery
+ --
+ software QA specialist - UNIX|VMS|AOS systems administrator - Usenet admin
+ BJCP certified beer judge - brewer of ales, lambics, meads, and ciders 
+ -- gellym`at`aviion.persoft.com -- Existential Void Where Prohibited --
+
+
+------------------------------
+
+
+From: Kirk Johnson <johnson`at`primenet.com>
+Date: Tue, 21 May 1996 12:04:57 +0900
+Subject: Re: All grain vs. Partial extract
+
+
+>>Are there any easy ways to brew all grain with out having to buy all
+of the equipment?
+
+
+I made the jump to all grain for about $50 dollars.  I have brewed 4 
+all grain batches to date.  My extraction rate is on the low side at 
+27-28 pts*lbs/gal. My ability to brew specific styles has taken a 
+quantum leap and my all grain batches are the best I have made.
+
+
+I have the grain crushed at my local homebrew store so I don't have 
+to buy a grain mill.  I bought a 8 gallon enamal brew pot (slightly 
+dented) for $29.00.  My 6.5 gallon bottling bucket has a 3/4" threaded 
+spigot; so I created a square manifold (with drilled holes in the 
+manifold sections) out of PVC for $5.00.  I mash the grains in the brew 
+pot and sparge in my bottling bucket with manifold.  I borrow my 
+neighbors cajun cooker to mash and boil the wort (if purchased it costs 
+about $39.00).  You can do it on the stove, but it takes forever to 
+heat large volumes of water.  When sparging, I heat the sparge water in 
+my brew pot and trasfer it to anouther bucket ($10 dollars) to free up 
+my brew pot for collecting the wort.  Total cost was about $45 dollars 
+or $85 with the cajun cooker (I prefer the neighbor approach myself).
+
+
+The manifold design was based upon an early post to the HBD a few years
+ago.  The design uses a 3/4" threaded to 3/4" smooth elbow, three 3/4" 
+smooth elbows, a 3/4" cap, and 4 sections of 3/4" PVC pipe.  I took 3 
+sections of 3/4" PVC pipe (approx 4.5 inches each) and drilled three 
+rows of 7/32" holes in on the bottom of each piece.  The section from 
+the spigot/threaded elbow to the first smooth elbow (approx 3.5 inches) 
+does not require holes.  The manifold should sit snug in the bottom 
+of the bottling bucket.  The PVC elbows keep the manifold sections about 
+a 1/8 inch off the bottom.  Make sure the holes are facing down.  Do 
+not glue the pieces together, they should fit together snug and are 
+very easy to clean after each batch by disassembling and reassembling 
+the manafold.  Put together it looks like the diagram below.
+
+
+      |_| <-- 3/4" threaded spigot
+      |_| <-- 3/4" threaded to 3/4" smooth elbow
+       |____
+   |        |
+   |        |  <-- 3 elbows + 1 cap + 4 sections of 3/4" pipe
+   |        |
+   |________|
+
+
+
+
+I hope this helps in your quest for all grain brewing on a budget.  All grain
+brewing takes me about 5 hours compared to 2 hours for extract, but the beer
+is much better.  Have fun.
+
+
+Kirk Johnson
+
+
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: "Jeremy E. Mirsky" <mirsjer`at`charlie.cns.iit.edu>
+Date: Tue, 21 May 1996 14:17:16 -0500 (CDT)
+Subject: liquid yeast woes
+
+
+Hi folks.  I just tried liquid yeast for the first time (Wyeast 1272 - 
+American Ale II).  I followed the advice I received from the collective 
+and made a starter, which never got very active over the 2 days it sat.
+I pitched it yesterday, and I'm finally seeing some activity.  My 
+question is, is the starter (I used a 22 oz. bottle, a couple tbsps. of 
+malt extract, and some hops) supposed to ferment vigorously?
+
+
+I noticed some krausen, which died down quickly.  When the starter is 
+pitched into the fermenter, should fermentation commence quickly?
+
+
+I'm not sure if I was anal retentive enough about sanitization with 
+regards to the starter bottle.  I've been advised so many different ways 
+from so many different people (and I appreciate all of the help!).
+
+
+My second question pertains to my hydrometer readings, which are usually 
+discrepant with the recipe or the calculated gravity.  This time I boiled 
+about 3.5 gals of wort and tried to mix as well as I could with the 
+water in the fermenter.  Suds4.0 gave me a O.G. of 1.046, yet my reading 
+was about 1.038 (after cooling below 80 deg.)
+This has happened with most of my batches.  Has anyone had similar 
+experiences?
+
+
+Thanks again
+
+
+Jeremy
+
+
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: Darrin Pertschi <darrinp`at`cowles.com>
+Date: Tue, 21 May 1996 15:59:18 -0400
+Subject: Draft lines thru the house
+
+
+I should probably get the bugs ironed out of my first kegging experience 
+before question this one, but what the hell, at least it's beer related:
+
+
+I can see it clearly: Refrigerator with corny kegs in the basement. Beer tap 
+in the kitchen, mounted right in the sink beside the hot/cold water tap.
+
+
+Anyone have any info (or direct me to it) regarding how this would be 
+properly executed; beer line material & diameters, pressure adjusting, 
+cooling, etc. I could probably get the line from the basement to the kitchen 
+as short as maybe 15 feet.
+
+
+Anyone else interested in starting a kegging thread (since it's my newest 
+obsession)? 
+
+
+Darrin
+Proprietor-Simpleton's Cosmic Brewery
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: Kelly Jones <kejones`at`ptdcs2.intel.com>
+Date: Tue, 21 May 1996 13:34:27 -0700
+Subject: Pressure drop in hose
+
+
+Jay Reeves asks about pressure drop in hoses.
+
+
+Again, the simple answer to this question is that if your keg is at 12
+psi, then the pressure drop from the keg to your glass is always 12 psi,
+regardless of your hose length.  It is not possible to specify a pressure
+drop per foot of hose, as the pressure drop per foot is dependant both
+upon hose diameter AND flow rate.
+It is surprising that you needed to increase your tubing length to 16' in
+order to reduce your flow rate enough to cause foaming.  Perhaps
+something else is causing your foaming?  What type of tap are you using?
+Do you have fittings or obstruction in your flow path?  What is your flow
+rate (How long does it take to fill a 12 oz glass)?
+- -- 
+Kelly
+Portland, OR
+
+
+------------------------------
+
+
+From: Dave Draper <david.draper`at`mq.edu.au>
+Date: Wed, 22 May 1996 07:20:35 +10
+Subject: Dry Hopping
+
+
+Dear Friends, in #2041 C.D. Pritchard reported that out of his 30+
+batches, he has had one infection, which he attributes to
+dry-hopping, and said he will never dry hop again.  Well... consider
+the thousands and thousands of dry-hopped batches represented by the
+collective experience of the HBD, and the exceedingly small
+frequency of any problems (I have yet to hear of a *single* one that
+can definitely be attributed to dry hopping) and I think this
+conclusion is a bit hasty.  C.D., I do not doubt your conclusion
+that your batch was infected and that you take every precaution to
+reduce the risk of contamination.  But to conclude that dry hopping
+should never be tried again seems just a bit premature to me.
+
+
+Yes, hops are a product of agribusiness and cannot be trusted to be  
+squeaky clean.  Yes, you can get good results from hop teas.  But 
+there is something about dry hopping, intangible though it may be, 
+that is achievable no other way.
+
+
+All I'm saying is maybe try it a few more times, see how it goes... 
+an infected batch is no fun but a good dry-hopped beer is simply 
+wonderful, and no one should be deprived of such a thing.  The weight 
+of experience, from homebrew to micro scale, is *drastically* in 
+favor of the notion that the risk of infection is very low.
+
+
+Cheers, Dave in Sydney
+"Don't pick your nose."  ---Domenick Venezia
+- ---
+***************************************************************************
+David S. Draper, Earth Sciences, Macquarie University, Sydney NSW Australia
+Email: david.draper`at`mq.edu.au WWW: http://audio.apana.org.au/ddraper/home.html
+                ...I'm not from here, I just live here...
+
+
+------------------------------
+
+
+From: Don Van Valkenburg <DONVANV`at`msn.com>
+Date: Tue, 21 May 96 21:25:24 UT
+Subject: Heart of the Hops
+
+
+Stanley A. White writes:
+>.....(His wife) ....Saw the Miller beer ad and asked" if the "heart of the 
+hop"
+>is so good, why aren't you using it in my homebrews.
+
+
+>So, what's "the heart of the hop"????  
+
+
+My guess is that since Miller is (I'm told by people in the hop trade) using 
+hop extracts/oils, not whole or pellets, they are using this as an advertising 
+ploy to call these extracts "the heart of the hop", ie, extracts use only the 
+essence, the heart of the hops.
+
+
+The breweries that use hop extract, buy the stuff in 55 gal drums.  They can 
+control quite precisely the amount, the bitterness, aroma etc., without any 
+waste.  I have heard that among the breweries that use hop oil/extracts are:
+Heiniken, Miller and several of the Japanese breweries. 
+
+
+Don Van Valkenburg
+DONVANV`at`MSN.COM
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+From: usbscrhc`at`ibmmail.com
+Date: Tue, 21 May 1996 15:51:39 EDT
+Subject: Timed Question
+
+
+I made my first starter - 600 ml - last Wednesday. It went to work, subsided
+some, and I refridgerated. It remained somewhat active (or reactivated, really)
+on Thurs. and has sat there clean ever since. So how long do I have until
+I must refeed it rather than pitch right into a fresh batch?? It still has
+about a 1/2 inch of head on it....Thanks.
+Howard
+
+
+------------------------------
+
+
+From: Algis R Korzonas <korz`at`pubs.ih.att.com>
+Date: Tue, 21 May 96 13:57:31 CDT
+Subject: light and hops/100% fruit extracts
+
+
+Mark writes:
+>If you have CO2 (or nitrogen) purge the bags before sealing.  If you don't,
+>just manually squeeze most of the air out of the bag and seal.  Some air
+>will remain in the bag, but the point is to stop the constant in-flux of O2
+> - so once the bag is sealed and the trapped air is "used up" no futher
+>deterioration of the hops will occur - and in practice that which does occur
+>is extremely minimal. Make sure these hops are stored in the freezer and
+>minimize their exposure to light as the Dazey bags are clear. 
+
+
+Intuatively AND in my experience, this theory that "trapped air is 'used
+up' no further deterioration..." is false.  Especially in whole hops, there
+is more than enough air (and therefore oxygen) left in the bags to deteriorate
+the hops SIGNIFICANTLY.  This is especially true of the hop aromatics.
+
+
+If you don't own a CO2 tank, get one of those sport bottles, pull the straw
+out an inch or two, add a teaspoon of baking soda and two tablespoons of
+distilled vinegar (heck, you can use AlkaSeltzer and water if you want),
+seal up the bottle and then direct the escaping CO2 into your bag of hops.
+Incidentally, if you need to buy O2 barrier bags, I'm sure you can buy them
+from either Freshops (541-929-2736) or Just Hops (217-864-4216).
+[No affiliation, actually, if I did mailorder, they would be competetors!]
+
+
+Secondly, Mark's book, articles and posts are the *only* places I have
+seen any mention of light negatively affecting hops.  When Mark initially
+posted this idea on HBD, I asked Dr. Alfred Haunold (the world's foremost
+hop researcher and developer of Mt. Hood, Liberty and many other new hops)
+whether light negatively affects hops.  His response was "they may lose
+a little green colour, but their brewing capabilities are unaffected.
+Think about it... the hops spend all summer in the sun!!!
+
+
+***
+Chris writes:
+>I added 3/4 cup priming sugar and a 5 oz 
+>bottle of pear flavour from Hop-Tech, the stuff tasted like a pear  
+>and supposidly had absolutly no yeast food in it.  At seven days it 
+>was horrid,  at 20 it was better but still had this 'off taste'.  All 
+>of the non-beer drinkers that have tried the stuff think its great, I 
+>HATE IT!  I recently tried some beers I have not had before, the 
+>Bishops Finger Kentish Ale someone suggested is very nice,  The 
+>Coopers Sparkling ale has the exact 'off taste' as my pear brew.  Is 
+>this an ester (sp) taste?  Any input about what this is and how to 
+>git OR NOT GIT this taste would be greatly appreciated.
+
+
+When you mentioned Coopers Sparkling Ale, that rang a bell in my head.
+This beer has a rather strong phenolic aroma/flavour.  I have tried
+many different varieties of those "100% fruit" extracts and every
+one of them seems to have a little of that sort of phenolic/medicinal
+aftertaste.  Furthermore, many of them are rather bitter.  I was
+experimenting with them by adding them to finished beer with a pipette.
+By the time I put enough in to get an acceptable flavour/aroma, the
+beer was too bitter and took on that phenolic/medicinal character.
+Some people have reported success with them, but I've yet to taste
+a good homebrewed or commercial beer made with fruit extracts.
+
+
+This weekend, at the International Beer Exposition in Chicago, there
+were two raspberry beers I had not tasted yet.  One was from Estes Park
+Brewing Co. and the other from Big Buck Brewing Co.  The EPBC beer
+was made with extract and the BBBC with real fruit.  In my opinion,
+the difference was striking.  The real fruit beer was far superior,
+in fact, I told the server "this is made with extract" or "this is made
+with real fruit" and they confirmed.  There are others: Samuel Adams
+Cherry Wheat (extract), Brimstone Brewing Blueberry Ale (real fruit).
+
+
+Al.
+
+
+Al Korzonas, Palos Hills, IL
+korz`at`pubs.att.com
+Copyright 1996 Al Korzonas
+
+
+------------------------------
+
+
+From: Des Zein <dzein`at`iprolink.co.nz>
+Date: Wed, 22 May 1996 13:47:31 +0200
+Subject: Re: Maltrodextrin - usage
+
+
+I see from time to time mention of maltrodextrin in beer making.  As this is
+new to me (sorry if this is basic stuff) I would be interested to know more
+about it.
+I suspect it is used to increase the body of the beer but wonder if this is
+the only reason for its use.
+At what stage of the brewing process is it used and does it act on the yeast
+in any way?
+As there are various grades of maltrodextrin is one more suitable than another?
+And of course does it work or affect the flavour in any way?
+
+
+Any information will be appreciated,  thank you.  
+
+
+Onwards to better brewing.
+
+
+Des
+dzein`at`iprolink.co.nz
+Internet ProLink NZ
+New Zealand's Professional Internet Service
+phone: +64-9-302-3352
+fax:   +64-9-302-3341
+modem: +64-9-302-2507
+
+
+
+
+------------------------------
+
+
+From: KennyEddy`at`aol.com
+Date: Wed, 22 May 1996 00:07:40 -0400
+Subject: BreWater 2.0 News Flash
+
+
+Well, either no one is downloading BW2.0 or they didn't notice (as one person
+pointed out to me) that the BREWATER.HLP file does not copy from the install
+directory!  I've updated the ZIP file (still 2.0); you can manually copy
+BREWATER.HLP into your BreWater directory.
+
+
+Ken Schwartz
+KennyEddy`at`aol.com
+
+
+------------------------------
+
+
+From: Scott Abene <skotrat`at`wwa.com>
+Date: Tue, 21 May 1996 23:05:55 -0500
+Subject: Grain Mills
+
+
+Hey all, 
+
+
+Does anyone here have an opinion on a good grain mill to buy?
+
+
+ -Scott "I just couldn't resist this sick little bit of sarcasm" Abene
+
+
+
+
+
+
+
+
+####################################################
+#                ThE-HoMe-BrEw-RaT                   #
+#           Scott Abene <skotrat`at`wwa.com>           #        
+#           http://miso.wwa.com/~skotrat           #
+# (Skotrats Official Homebrew "Beer Slut" Webpage) #
+#                        OR                        #
+#    http://miso.wwa.com/~skotrat/Brew-Rat-Chat/   #
+#  (Skotrats Brew-Rat-Chat Homebrew Chat System)   #
+#         "Get off your dead ass and brew"         #
+####################################################
+
+
+
+
+- ------------------------------
+
+
+------------------------------
+
+
+End of Homebrew Digest #2043
+****************************
